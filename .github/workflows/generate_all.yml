@@ -54,7 +54,7 @@ jobs:
   generate-artifacts:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/wdw21/github-latex-worker:latest
+      image: ghcr.io/spiewaj/github-latex-worker:latest
       volumes:
         - ${{ github.workspace }}:/workspace
     steps:

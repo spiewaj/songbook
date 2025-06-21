@@ -7,3 +7,4 @@ npmtmp/
 __pycache__/
 node_modules/
 *-download
+.secrets
