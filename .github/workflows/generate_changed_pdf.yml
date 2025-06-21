@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/spiewaj/github-latex-worker:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
       volumes:
         - ${{ github.workspace }}:/workspace
     steps:
