@@ -254,8 +254,9 @@ def create_template_epub(songbook, target_path):
 
     for css_file in CSS_FILES:
         path_tmp_css = os.path.join(template_dir, css_file)
-        os.symlink(path_tmp_css, os.path.join(path_css, css_file))
         print("Linking CSS file: " + path_tmp_css + " to " + os.path.join(path_css, css_file))
+        os.symlink(path_tmp_css, os.path.join(path_css, css_file))
+       
 
     path_tmp_mimetype = os.path.join(template_dir, "mimetype")
     shutil.copyfile(path_tmp_mimetype, os.path.join(path_epub, "mimetype"))
@@ -302,10 +303,11 @@ def package_epub(songbook, target_dir, target_file="spiewnik.epub"):
         file_list = os.listdir(os.path.join(target_dir_epub, "OEBPS"))
         for file in file_list:
             if file != 'CSS':
-                myzip.write(os.path.join(target_dir_epub, "OEBPS", file), arcname=os.path.join("OEBPS", file))
+                src_path = os.path.realpath(os.path.join(target_dir_epub, "OEBPS", file))
+                myzip.write(src_path, arcname=os.path.join("OEBPS", file))
         for css_file in CSS_FILES:
-            myzip.write(os.path.join(target_dir_epub, "OEBPS", "CSS", css_file),
-                        arcname=os.path.join("OEBPS", "CSS", css_file))
+            src_path = os.path.realpath(os.path.join(target_dir_epub, "OEBPS", "CSS", css_file))
+            myzip.write(src_path, arcname=os.path.join("OEBPS", "CSS", css_file))
         myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover."+songbook.imageWebExt()),
                             arcname=os.path.join("OEBPS", "images", "cover."+songbook.imageWebExt()))
 
