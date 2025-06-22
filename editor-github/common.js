@@ -26,7 +26,7 @@ export const CONFIG_BASE_URL = BASE_URL + "/config";
 export const AUTH_URL = BASE_URL + "/auth";
 
 export const GITHUB_OWNER='spiewaj';
-export const MAIN_BRANCH_NAME="songeditor-main";
+export const MAIN_BRANCH_NAME="songeditor-main-spiewaj.com";
 
 export async function getFileFromBranch(octokit, user, branchName) {
     let diff = await octokit.rest.repos.compareCommitsWithBasehead({
