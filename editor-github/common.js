@@ -25,12 +25,12 @@ export const REDIRECT_BASE_URL = BASE_URL + "/redirect";
 export const CONFIG_BASE_URL = BASE_URL + "/config";
 export const AUTH_URL = BASE_URL + "/auth";
 
+export const GITHUB_OWNER='spiewaj';
 export const MAIN_BRANCH_NAME="songeditor-main";
-
 
 export async function getFileFromBranch(octokit, user, branchName) {
     let diff = await octokit.rest.repos.compareCommitsWithBasehead({
-        owner: 'wdw21',
+        owner: GITHUB_OWNER,
         repo: 'songbook',
         basehead: `main...${user}:songbook:${branchName}`
     });
@@ -217,7 +217,7 @@ export async function fetchBranch(octokit, user, branchName) {
 export async function prepareMainBranch(octokit, user) {
     let branch = await fetchBranch(octokit, user, MAIN_BRANCH_NAME);
     if (!branch) {
-        // let originBranch = await fetchBranch(octokit, 'wdw21', 'main');
+        // let originBranch = await fetchBranch(octokit, GITHUB_OWNER, 'main');
         // console.log(util.inspect(originBranch, false, null, false));
         // We use really old commit as (originBranch.data.commit.sha) was sometimes not pulled from the repository.
         await octokit.rest.git.createRef({owner: user, repo: 'songbook', "ref": "refs/heads/" + MAIN_BRANCH_NAME, "sha": 'c21af496c93eecd96902d8ee01c994b9ec2e8157'});
@@ -226,7 +226,7 @@ export async function prepareMainBranch(octokit, user) {
             repo: 'songbook',
             title: 'Automated creation of songbook-main branch.',
             body: 'Should get automatically merged.',
-            head: 'wdw21:songbook:main',
+            head: GITHUB_OWNER + ':songbook:main',
             base: MAIN_BRANCH_NAME
         })
         console.log("Creating pull request", JSON.stringify(res));

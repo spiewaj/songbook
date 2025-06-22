@@ -1,4 +1,4 @@
-OAUTH_CLIENT_ID: "e1230ada4de9a5ce168b"
+OAUTH_CLIENT_ID: "Ov23limEOGsQjSBFRMCv"
 BASE_URL: "http://localhost:8080"
-EDITOR_DOMAIN: "https://songbook.21wdw.org"
+EDITOR_DOMAIN: "https://spiewaj.com"
 EDITOR_PATH: "/editor"
