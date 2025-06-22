@@ -5,8 +5,6 @@ from lxml import etree
 
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
-
-
 def create_index_xhtml(list_of_songs_meta, target_dir):
     tmp_path = 'index.xhtml'
     out_path = os.path.join(target_dir, tmp_path)
