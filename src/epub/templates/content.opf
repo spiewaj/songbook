@@ -21,8 +21,11 @@
         <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
         <item id="start" href="songs.xhtml" media-type="application/xhtml+xml"/>
         <!--item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/-->
-        <item id="template_css" href="CSS/template.css" media-type="text/css"/>
+        <!--item id="template_css" href="CSS/template.css" media-type="text/css"/-->
+        <item id="common_css" href="CSS/common.css" media-type="text/css"/>
         <item id="song_css" href="CSS/song.css" media-type="text/css"/>
+        <item id="index_css" href="CSS/index.css" media-type="text/css"/>
+        <item id="song_common_css" href="CSS/song_common.css" media-type="text/css"/>
     </manifest>
 
     <spine>

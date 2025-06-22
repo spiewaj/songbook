@@ -1,0 +1,10 @@
+div.letters {
+    margin-top: 1em;
+}
+
+div.letters a {
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}

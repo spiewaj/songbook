@@ -18,11 +18,13 @@ def actual_date():
 def actual_datetime():
     return str(datetime.now().strftime("%Y-%m-%d  %H:%M"))
 
+NO_NAV_LIMIT = 1
 
 #
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
 
+CSS_FILES = ["song.css", "common.css", "song_common.css", "index.css"]
 
 def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], post_files=[]):
     tmp_path =os.path.join(sb.repo_dir(), "src", "epub", "templates", "content.opf")
@@ -67,7 +69,7 @@ def create_toc_ncx(list_of_songs_meta, target_dir):
     last_letter=''
     playOrder=1
     for i in range(len(list_of_songs_meta)):
-        if len(list_of_songs_meta) > 20 and last_letter != groupName(list_of_songs_meta[i].title()):
+        if len(list_of_songs_meta) > NO_NAV_LIMIT and last_letter != groupName(list_of_songs_meta[i].title()):
            last_letter = groupName(list_of_songs_meta[i].title())
            parent_np = etree.SubElement(navmap, "navPoint")
            parent_np.attrib['id'] = 'p' + str(playOrder)
@@ -110,7 +112,7 @@ def extract_toc_songs(list_of_songs_meta):
     group = None
     last_letter = None
     for i in range(len(list_of_songs_meta)):
-        if len(list_of_songs_meta) > 20 and last_letter != groupName(list_of_songs_meta[i].effectiveTitle()):
+        if len(list_of_songs_meta) > NO_NAV_LIMIT and last_letter != groupName(list_of_songs_meta[i].effectiveTitle()):
             group = groupName(list_of_songs_meta[i].effectiveTitle())
         if not group in d:
             d[group] = []
@@ -250,12 +252,12 @@ def create_template_epub(songbook, target_path):
     path_tmp_meta = os.path.join(template_dir, "container.xml")
     resolveTemplate(songbook, path_tmp_meta, os.path.join(path_meta, "container.xml"))
 
-    path_tmp_css_song = os.path.join(template_dir, "song.css")
-    path_tmp_css_template = os.path.join(template_dir, "template.css")
-    path_tmp_mimetype = os.path.join(template_dir, "mimetype")
+    for css_file in CSS_FILES:
+        path_tmp_css = os.path.join(template_dir, css_file)
+        os.symlink(path_tmp_css, os.path.join(path_css, css_file))
+        print("Linking CSS file: " + path_tmp_css + " to " + os.path.join(path_css, css_file))
 
-    shutil.copyfile(path_tmp_css_song, os.path.join(path_css, "song.css"))
-    shutil.copyfile(path_tmp_css_template, os.path.join(path_css, "template.css"))
+    path_tmp_mimetype = os.path.join(template_dir, "mimetype")
     shutil.copyfile(path_tmp_mimetype, os.path.join(path_epub, "mimetype"))
 
     shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "cover." + songbook.imageWebExt()))
@@ -301,10 +303,9 @@ def package_epub(songbook, target_dir, target_file="spiewnik.epub"):
         for file in file_list:
             if file != 'CSS':
                 myzip.write(os.path.join(target_dir_epub, "OEBPS", file), arcname=os.path.join("OEBPS", file))
-        myzip.write(os.path.join(target_dir_epub, "OEBPS", "CSS", "template.css"),
-                    arcname=os.path.join("OEBPS", "CSS", "template.css"))
-        myzip.write(os.path.join(target_dir_epub, "OEBPS", "CSS", "song.css"),
-                    arcname=os.path.join("OEBPS", "CSS", "song.css"))
+        for css_file in CSS_FILES:
+            myzip.write(os.path.join(target_dir_epub, "OEBPS", "CSS", css_file),
+                        arcname=os.path.join("OEBPS", "CSS", css_file))
         myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover."+songbook.imageWebExt()),
                             arcname=os.path.join("OEBPS", "images", "cover."+songbook.imageWebExt()))
 
