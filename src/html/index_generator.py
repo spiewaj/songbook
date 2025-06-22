@@ -50,5 +50,6 @@ def main():
     target_dir = os.path.join(sb.repo_dir(), "build")
 
     create_index_xhtml(songbook.list_of_songs(), target_dir)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "index.js"), os.path.join(target_dir, "index.js"))
 
 main()
