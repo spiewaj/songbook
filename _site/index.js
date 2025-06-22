@@ -1,6 +1,6 @@
 function edit(file) {
     let d = document.createElement('form');
-    d.setAttribute("action", "https://ghe.songbook.21wdw.org/users/me/changes:new")
+    d.setAttribute("action", "https://ghe.spiewaj.com/users/me/changes:new")
     d.setAttribute("method", "post")
     let i = document.createElement("input")
     i.setAttribute("type", "hidden")
