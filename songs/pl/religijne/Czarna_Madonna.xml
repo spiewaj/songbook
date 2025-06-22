@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarna Madonna">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Jest zakątek na tej ziemi</row>
+      <row important_over="false"><ch a="C"/>Gdzie powracać każdy chce</row>
+      <row important_over="false"><ch a="a"/>Gdzie króluje Jej oblicze</row>
+      <row important_over="false"><ch a="D"/>Na nim cięte rysy dwie</row>
+      <row important_over="false"><ch a="G"/>Wzrok ma smutny zatroskany</row>
+      <row important_over="false"><ch a="C"/>Jakby chciała prosić cię<ch a="a"/></row>
+      <row important_over="false"><ch a="D"/>Byś w matczyną Jej opiekę</row>
+      <row important_over="false"><ch a="D"/>Oddał się<ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Madonno, Czarna Madonno<ch a="C"/><ch a="a"/></row>
+      <row important_over="false"><ch a="D"/>Jak dobrze Twym dzieckiem być<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>O pozwól Czarna Madonno<ch a="C"/><ch a="a"/></row>
+      <row important_over="false"><ch a="D"/>W ramiona Twoje się skryć<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>W jej ramionach znajdziesz spokój</row>
+      <row important_over="false"><ch a="C"/>I uchronisz się od zła</row>
+      <row important_over="false"><ch a="a"/>Bo dla wszystkich swoich dzieci</row>
+      <row important_over="false"><ch a="D"/>Ona serce czułe ma</row>
+      <row important_over="false"><ch a="G"/>I opieką Cię otoczy</row>
+      <row important_over="false"><ch a="C"/>Gdy Jej oddasz serce swe<ch a="a"/></row>
+      <row important_over="false"><ch a="D"/>Gdy powtórzysz Jej z radością</row>
+      <row important_over="false"><ch a="G"/>Słowa te<ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Dziś gdy wokół nas niepokój</row>
+      <row important_over="false"><ch a="C"/>Gdzie się człowiek schronić ma</row>
+      <row important_over="false"><ch a="a"/>Gdzie pójść jak nie do matki</row>
+      <row important_over="false"><ch a="D"/>Która ukojenie da</row>
+      <row important_over="false"><ch a="G"/>Więc błagamy o Madonno</row>
+      <row important_over="false"><ch a="C"/>Skieruj wzrok na dzieci swe<ch a="a"/></row>
+      <row important_over="false"><ch a="D"/>I wysłuchaj jak śpiewamy</row>
+      <row important_over="false"><ch a="G"/>Prosząc Cię<ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

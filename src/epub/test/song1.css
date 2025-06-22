@@ -1,0 +1,10 @@
+span.lyric span.ch {
+  display: inline-block;
+  position: relative;
+  top: -1.4em;
+  width: 0;
+}
+
+span.lyric span.chord {
+  font-size: xx-small;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Orła cień">
+  <text_author type="solo">Katarzyna Stankiewicz</text_author>
+  <composer type="solo">Robert Janson</composer>
+  <artist type="band">Varius Manx</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Widziałam <ch a="F"/>orła <ch a="C"/>cień</row>
+      <row important_over="true">Do góry <ch a="F"/>wzbił się niczym <ch a="C"/>wiatr</row>
+      <row important_over="true">Niebo <ch a="a"/>to jego <ch a="F"/>świat</row>
+      <row important_over="true">Z obłokiem <ch a="a"/>tańczył w<ch a="G"/> świetle <ch a="C"/>dnia</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="C"/><ch a="F7+"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="true">Słyszał <ch a="F"/>ludzki <ch a="C"/>szept</row>
+      <row important_over="true">Krzyczał, że <ch a="F"/>wolność domem <ch a="C"/>jest</row>
+      <row important_over="true">Nie ma <ch a="a"/>końca drogi <ch a="F"/>tej</row>
+      <row important_over="true">I że <ch a="a"/>nie wie, <ch a="G"/>co to <ch a="C"/>gniew</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Przemierzał <ch a="F"/>życia <ch a="C"/>sens</row>
+      <row important_over="false">Skrzydłami <ch a="F"/>witał każdy <ch a="C"/>dzień</row>
+      <row important_over="false">Zataczał <ch a="a"/>lądy, morza <ch a="F"/>łez</row>
+      <row important_over="false">Bezna<ch a="a"/>miętnie <ch a="G"/>gasił <ch a="C"/>gniew</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Choć pamięć <ch a="F"/>krótka <ch a="C"/>jest</row>
+      <row important_over="false">Zostawiła <ch a="F"/>słów tych <ch a="C"/>treść</row>
+      <row important_over="false">Nie umknie <ch a="a"/>jej już żaden <ch a="F"/>gest</row>
+      <row important_over="false">Żadna <ch a="a"/>myśl i <ch a="G"/>żaden <ch a="C"/>sens</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

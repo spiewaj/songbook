@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Press gang">
+  <artist>4 Refy</artist>
+  <lyric>
+    <block type="verse">
+      <row>W dół od rzeki poprzez London Street<ch a="c"/><ch a="B"/><ch a="c"/><ch a="B"/></row>
+      <row>Psów królewskich zwarty oddział szedł:<ch a="c"/><ch a="B"/><ch a="c"/></row>
+      <row>Ojczyźnie trzeba dziś świeżej krwi -<ch a="g"/><ch a="f"/><ch a="G"/></row>
+      <row>Marynarzy floty wojennej<ch a="B"/><ch a="c"/><ch a="B"/><ch a="c"/></row>
+    </block>
+    <block type="verse">
+      <row>A, że byłem wtedy dość silny chłop,</row>
+      <row>W tłumie złowił mnie sierżanta wzrok:</row>
+      <row>W kajdanach z bramy wywlekli mnie -</row>
+      <row>Marynarza floty wojennej</row>
+    </block>
+    <block type="verse">
+      <row>Jak o prawa upominać się</row>
+      <row>Na gretingu nauczyli mnie:</row>
+      <row>Niejeden krwią wtedy spłynął grzbiet -</row>
+      <row>Marynarza floty wojennej</row>
+    </block>
+    <block type="verse">
+      <row>Nikt nie zliczy ile krwi i łez</row>
+      <row>Wsiąka w pokład nim się skończy rejs:</row>
+      <row>Dla chwały twej słodki kraju mój -</row>
+      <row>Marynarzy floty wojennej</row>
+    </block>
+    <block type="verse">
+      <row>Hej, za rufą miło został dom,</row>
+      <row>Jesteś tylko parą silnych rąk:</row>
+      <row>Dowódca tu twoim bogiem jest -</row>
+      <row>Marynarzu floty wojennej</row>
+    </block>
+    <block type="verse">
+      <row>Gdy łapaczy szyk formuje się,</row>
+      <row>W pierwszym rzędzie możesz ujrzeć mnie:</row>
+      <row>Kto stanie na mojej drodze dziś -</row>
+      <row>Łup stanowi floty wojennej</row>
+    </block>
+  </lyric>
+</song>

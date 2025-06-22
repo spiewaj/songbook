@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="List">
+	<alias></alias>
+	<text_author type="band">Duet całoroczny</text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<row style="instr"><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="C9/6"/>List do najpiękniejszej kobiety jaką znałem<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Serce miałem kiedyś jedno i mi się<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Potrzaskało straszliwie i doszczętnie<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>I nie udało mi się posklejać skorupek tego<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Dzbanka ani łzami — tym klejem białym<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Ani krwią — tym klejem czerwonym<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Nie udało mi się i myślałem, że już<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Zawsze będę tak żyć bez serca<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="C9/6"/>Lecz nagle zjawiłaś się Ty i pomóc chciałaś mi<ch a="G"/></row>
+			<row important_over="false">Czemu? - nie wiem do dziś</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="C"/>Przygarnęłaś mnie, bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dałaś mi ciepło swe dałaś mi dobroć swą</row>
+			<row important_over="false">Twe piękno było dla mnie i serce twe</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Byłem tak szczęśliwy, mało szczęścia przedtem miałem</row>
+			<row important_over="false">Skleiłaś serce me — kochać zacząłem Cię</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Lecz wielkie szczęście tak już jest nie może dla mnie wiecznie trwać</row>
+			<row important_over="false">Gdy już kochałem Cię ode mnie odwróciłaś się</row>
+			<row important_over="false">To moja wina, tak ja wiem, miłości mojej nie można znieść</row>
+			<row important_over="false">Lecz za te chwile szczęścia — dziękuję Ci</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Ten list piszę teraz bo rozmawiać ze mną nie chcesz już</row>
+			<row important_over="false">Może zaśpiewam kiedyś go by go wysłuchać ktoś mógł</row>
+			<row important_over="false">Może ten ktoś gdzieś spotka Cię, opowie dziękczynienie me</row>
+			<row important_over="false"><ch a="C"/>W ten sposób dowiesz się<ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Jak bardzo wciąż niestety kocham Cię<ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="C"/>Przygarnęłaś mnie bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">P.S. Naprawdę dziękuję Ci za to że dzięki Tobie mogę znowu kochać ludzi</row>
+			<row important_over="false">Że mogę śpiewać im o szczęściu którego zasmakowałem przy Tobie</row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz. zgodnie ze śpiewnikiem druzynowym</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+		<done/>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

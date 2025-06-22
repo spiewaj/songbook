@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Celina">
+  <artist type="band">Kazik</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Tę burzę włosów każdy zna, przy ustach dłoni chwiejny gest</row>
+      <row important_over="true"><ch a="e"/>To Celina, to Celina, to Celina jest </row>
+      <row important_over="true">Jak hejnał brz<ch a="a"/>mi jej śmiech, choć całe miasto śpi</row>
+      <row important_over="true"><ch a="e"/>Nie wytrzeźwiała od soboty, balet trwa już cztery dni</row>
+      <row important_over="true">I w twiście wozi się<ch a="H7"/></row>
+      <row important_over="true"><ch a="H7"/>W piorunach klipsów i na potłuczonym <ch a="e"/>szkle </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">La-la-la-la-la-la! Zaśpiewał w barze ktoś<ch a="e"/></row>
+      <row important_over="never">To czarny Ziutek pije gin, Celiny koleś, twardy gość<ch a="e"/></row>
+      <row important_over="never">Już pije cztery dni, wychylił setną ćwierć<ch a="a"/></row>
+      <row important_over="never">Powietrze zaraz wyszło z niego i w kliniczną popadł śmierć<ch a="e"/></row>
+      <row important_over="never">Liczko pobladło mu jak wosk<ch a="H7"/></row>
+      <row important_over="never">Ziutek pozbył się swych o Celinę trosk <ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Zapamiętajcie sobie radę którą dziś wam wszystkim dam<ch a="e"/></row>
+      <row important_over="false">Możecie liczyć na przyjaciół, pomogą wam<ch a="e"/></row>
+      <row important_over="false">Ziutkowi minął kac, kolesie w kocioł wzięli go<ch a="a"/></row>
+      <row important_over="false">Szukaj Celiny, lamusie, gdzie adapter, chata, szkło<ch a="e"/></row>
+      <row important_over="false">Ziutek nie płakał twardy jest<ch a="H7"/></row>
+      <row important_over="never">Godzinę ze wściekłości wył jak pies<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Tak, tak, tak! Celina już na złom<ch a="e"/></row>
+      <row important_over="never">Już czarny Ziutek z kilerami pod Celiny idzie dom<ch a="e"/></row>
+      <row important_over="never">Oświetlił błysk ich kos, w rynku bramy brzeg<ch a="a"/></row>
+      <row important_over="never">Sikory złote pod mankietem odmierzają sekund bieg<ch a="e"/></row>
+      <row important_over="never">I stoi pikiet sak<ch a="H7"/></row>
+      <row important_over="never">Pod oknem, w sieni i u drzwi - dać tylko znak<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Zasłony w oknach leją blask na mecie jasno jakby w dzień<ch a="e"/></row>
+      <row important_over="never">Tak, to Celiny, Celiny, Celiny cień<ch a="e"/></row>
+      <row important_over="never">Dłonie kołyszą się, egzotyczne kwiaty dwa<ch a="a"/></row>
+      <row important_over="never">Celina naga na balecie pośród żądz i szkła<ch a="e"/></row>
+      <row important_over="never">Wtem nagle jakiś ruch<ch a="H7"/></row>
+      <row important_over="never">W progu staje, rudy Mundek, Ziutka druh<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Dzyń, dzyń, dzyń - to prysło w oknie szkło<ch a="e"/></row>
+      <row important_over="never">Celina naga w noc ucieka, jakie dno! jakie dno!<ch a="e"/></row>
+      <row important_over="never">Już tylko chce się jej choćby do piekła skryć<ch a="a"/></row>
+      <row important_over="never">Och! Ziutek, Ziutek, gdzieś ty był kiedy ja zaczynałam pić<ch a="e"/></row>
+      <row important_over="never">Dlaczegoś nie bił w pysk?<ch a="H7"/></row>
+      <row important_over="never">Lecz milczy noc i tylko kosy świeci błysk<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Dlaczego taki ostry był ziutkowej kosy szpic<ch a="e"/></row>
+      <row important_over="never">Przecież znacie te balety, wszak w nich złego nie ma nic<ch a="e"/></row>
+      <row important_over="never">Ale Celiny głos, Celiny włosów woń<ch a="a"/></row>
+      <row important_over="never">Czerwona mgła zasnuwa oczy, w kamień zwiera dłoń<ch a="e"/></row>
+      <row important_over="never">Więc Ziutek podniósł brew<ch a="H7"/></row>
+      <row important_over="never">Błysnęło i na białą pierś trysnęła krew<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Słuchaj - to jęknął świat jak chory pies u pana stóp<ch a="e"/></row>
+      <row important_over="never">Tak, to Celinie, to Celinie, to Celinie kopią grób<ch a="e"/></row>
+      <row important_over="never">W rynku syren jęk, na jezdni żółty kurz<ch a="a"/></row>
+      <row important_over="never">Niebieska szklanka miga, blacharnia Ziutka zwija już<ch a="e"/></row>
+      <row important_over="never">I odtąd spoza krat<ch a="H7"/></row>
+      <row important_over="never">Ziutek i Mundek bez Celiny widzą świat<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Lecz czasem gdy jest noc Ziutek wytęża słuch<ch a="e"/></row>
+      <row important_over="never">Tak, to Celiny, to Celiny, to Celiny duch<ch a="e"/></row>
+      <row important_over="never">Wiecie więc, że ja was bawiłem śpiewem swym<ch a="a"/></row>
+      <row important_over="never">Tylko dla zwykłej draki, w ogóle prawdy nie ma w tym<ch a="e"/></row>
+      <row important_over="never">To zwykły kawał jest<ch a="H7"/></row>
+      <row important_over="never">Darujcie to już ballady kres.<ch a="H7"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

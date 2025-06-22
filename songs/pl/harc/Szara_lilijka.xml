@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Szara lilijka" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Gdy zakochasz się w szarej lilijce <ch a="a"/><ch a="d"/></row>
+			<row important_over="false">I w świetlanym harcerskim krzyżu, <ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Kiedy olśni cię blask ogniska, <ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Jedną radę ci dam. <ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Załóż mundur i przypnij lilijkę, <ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Czapkę na bakier włóż, <ch a="G"/><ch a="C"/><ch a="E"/></row>
+			<row important_over="false">W szeregu stań wśród harcerzy <ch a="a"/><ch a="d"/></row>
+			<row important_over="false">I razem z nimi w świat rusz. <ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Razem z nimi będziesz wędrował<ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Po Łysicy i Świętym Krzyżu<ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Poznasz piękno Gór Świętokrzyskich,<ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Które powiedzą ci tak:<ch a="E"/><ch a="a"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Gdy po latach będziesz wspominał <ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Swą przygodę w harcerskiej drużynie,<ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Swemu dziecku, co dorastać zaczyna<ch a="a"/><ch a="d"/></row>
+			<row important_over="false">Jedną radę mu dasz:<ch a="E"/><ch a="a"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

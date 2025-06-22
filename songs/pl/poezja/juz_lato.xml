@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Już lato">
+  <comment>przygrywka, to akord a-moll, zaś 7+/7/6 itd, to są kolejno dodawane palce na strunie e (zaczynamy od 3 progu, później 2 i na końcu 1)</comment>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="a7+"/><ch a="a7"/><ch a="a6"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Wi<ch a="a"/>at i słońce rozbawione la<ch a="H7"/>tem</row>
+      <row important_over="true">Prz<ch a="E7"/>eplatane snami o prz<ch a="a"/>ygodzie</row>
+      <row important_over="true">G<ch a="C"/>dzieś z maleńkiej stacji kole<ch a="d"/>jowej</row>
+      <row important_over="true">Wyr<ch a="a"/>uszyły ze mną w d<ch a="E"/>rogę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">J<ch a="A"/>uż lato w kosz<ch a="E7"/>uli rozp<ch a="A"/>iętej</row>
+      <row important_over="true">Wy<ch a="A"/>soko mal<ch a="H7"/>uje obł<ch a="E7"/>oki</row>
+      <row important_over="true">I c<ch a="D"/>iepłym d<ch a="H7"/>eszczem w po<ch a="E7"/>łudnie</row>
+      <row important_over="true">Dziewc<ch a="A"/>zętom r<ch a="E7"/>ozkręca l<ch a="A/a"/>oki.. </row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="never">Rozstąpiły sie zielone drzewa<ch a="a"/><ch a="H7"/></row>
+      <row important_over="never">Utworzyły chłodny tunel z liści<ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">A gospodarz przy starej zagrodzie<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Życzył szczęścia w dalszej drodze <ch a="a"/><ch a="E"/></row>
+    </block>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

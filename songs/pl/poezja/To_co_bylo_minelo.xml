@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="To co było minęło">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Gdzieś na rajdowym szlaku<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Maj nas deszczem zapraszał w swe progi<ch a="D"/><ch a="G"/></row>
+      <bis>
+        <row important_over="false"><ch a="H7"/>Tęczę słońcem tkał na drutach deszczu<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Kurzem ścielił nam rajdowe drogi<ch a="D"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>To co było minęło<ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>To co było nie wróci<ch a="D"/><ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Tylko wiatr wędrowny wiatr<ch a="C"/><ch a="D"/><ch a="G"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Nasze piosenki nuci<ch a="D"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Ciche dźwięki gitary<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Pozwalałem płonąć ognisku<ch a="D"/><ch a="G"/></row>
+      <bis>
+        <row important_over="false"><ch a="H7"/>Z dymem snuł się nasz refrem stary<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Po uśpionym już wrzosowisku<ch a="D"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Często w myślach wracamy<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Do gitary, ogniska i szlaków<ch a="D"/><ch a="G"/></row>
+      <bis>
+        <row important_over="false"><ch a="H7"/>Z biciem serca piosenek słuchamy<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Zaglądamy do starych plecaków<ch a="D"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Czas wędrówek za nami<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Zmienił nas i przyjaciół pozmieniał<ch a="D"/><ch a="G"/></row>
+      <bis>
+        <row important_over="false"><ch a="H7"/>Wszyscy gdzieś się rozbiegli po świecie<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Dziś zostały już tylko wspomnienia<ch a="D"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

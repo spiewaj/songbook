@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Połoniny niebieskie">
+	<alias></alias>
+	<text_author type="solo">Adam Drąg</text_author>
+	<comment></comment>
+	<composer type="solo">Adam Drąg</composer>
+	<artist type="solo">Adam Drąg</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<bis times="2">
+				<row important_over="true">
+					<ch a="C"/>Gdy nie zost<ch a="F"/>anie po mnie nic</row>
+			</bis>
+			<row important_over="true"><ch a="C"/>Oprócz pożółkłych fotografii<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
+			<row important_over="true"><ch a="e"/>Błękitny mnie przywita świt<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<bis times="2">
+				<row important_over="true">
+					<ch a="C"/>W miejscu co nie ma go na mapie<ch a="F"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">A kiedy sypną na mnie piach<ch a="C"/><ch a="F"/></row>
+			</bis>
+			<row important_over="false"><ch a="C"/>Gdy mnie okryją cztery deski<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>To pójdę t<ch a="F"/>am gdzie wi<ch a="C"/>edzie szl<ch a="G"/>ak</row>
+			<bis times="2">
+				<row important_over="false">Na połoniny na niebieskie<ch a="C"/><ch a="F"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Powiezie mnie błękitny wóz<ch a="C"/><ch a="F"/></row>
+			</bis>
+			<row important_over="false"><ch a="C"/>Ciągnięty przez błękitne konie<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>Przez świat bł<ch a="F"/>ękitny b<ch a="C"/>ędzie wi<ch a="G"/>ózł</row>
+			<bis times="2">
+				<row important_over="false">Aż zaniebieszczy w dali błonie<ch a="C"/><ch a="F"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Od zmartwień wolny i od trosk<ch a="C"/><ch a="F"/></row>
+			</bis>
+			<row important_over="false"><ch a="C"/>Pójdę wygrzewać się na trawie<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>A czasem gdy mi przyjdzie chęć<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<bis times="2">
+				<row important_over="false">Z góry na ziemię się pogapię<ch a="C"/><ch a="F"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Popatrzę jak wśród smukłych malw<ch a="C"/><ch a="F"/></row>
+			</bis>
+			<row important_over="false"><ch a="C"/>Wiatr w przedwieczornej ciszy kona<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>Trochę mi tylko będzie żal<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<bis times="2">
+				<row important_over="false">Że trawa u was tak zielona<ch a="C"/><ch a="F"/></row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek cz.</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+		<done/>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Amsterdam">
+	<alias>Jest port wielki jak świat</alias>
+	<text_author type="solo">Jacques Brel</text_author>
+	<composer type="solo">Jacques Brel</composer>
+	<artist type="solo">Katarzyna Groniec; Piotr Zadrożny; Marian Opania</artist>
+	<translator>Wojciech Młynarski</translator>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"> Jest p<ch a="d"/>ort wielki jak świat, co się zwi<ch a="C"/>e Amsterdam,</row>
+			<row important_over="true"> Maryn<ch a="B"/>arze od lat pieśni sw<ch a="A"/>e nucą tam.</row>
+			<row important_over="true"> Jest jak świ<ch a="d"/>at wielki port, maryn<ch a="C"/>arze w nim śpią,</row>
+			<row important_over="true"> Jak dal<ch a="B"/>eki śpi fi<ch a="A"/>ord, zanim św<ch a="d"/>it zbudzi go.</row>
+			<row important_over="false"> Jest p<ch a="F"/>ort wielki jak świat, maryn<ch a="C"/>arze w nim mrą,</row>
+			<row important_over="false"> Umier<ch a="d"/>ają co świt, pijąc p<ch a="a"/>iwo i klnąc.</row>
+			<row important_over="false"> Jest p<ch a="B"/>ort wielki jak świat, co się zwi<ch a="a"/>e Amsterdam,</row>
+			<row important_over="false"> Maryn<ch a="B"/>arze od l<ch a="A"/>at nowi r<ch a="d"/>odzą się tam.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"> Maryn<ch a="d"/>arze od lat złażą t<ch a="C"/>am ze swych łajb,</row>
+			<row important_over="false"> Obrus wi<ch a="B"/>elki jak świat czeka <ch a="A"/>ich w każdej z knajp.</row>
+			<row important_over="false"> Obnaż<ch a="d"/>ają swe kły skłonne wgr<ch a="C"/>yźć się w tę noc,</row>
+			<row important_over="false"> W tłuste p<ch a="B"/>odbrzusza r<ch a="A"/>yb, w sp<ch a="d"/>asły księżyc i w noc.</row>
+			<row important_over="false"> Do ł<ch a="F"/>apczywych ich łap wszystko wp<ch a="C"/>ada na żer,</row>
+			<row important_over="false"> Tłuszcz sk<ch a="d"/>apuje kap, kap, z rybich w<ch a="a"/>ątrób i serc.</row>
+			<row important_over="false"> Potem p<ch a="B"/>ijani w sztok w mrok odch<ch a="a"/>odzą gdzieś,</row>
+			<row important_over="false"> A z beb<ch a="B"/>echów ich wkr<ch a="A"/>ąg płynie czk<ch a="d"/>awka i śmiech.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"> Jest p<ch a="d"/>ort wielki jak świat, co się zw<ch a="C"/>ie Amsterdam,</row>
+			<row important_over="false"> Maryn<ch a="B"/>arze od lat tańce sw<ch a="A"/>e tańczą tam.</row>
+			<row important_over="false"> Lubią t<ch a="d"/>o bez dwóch zdań, lubią t<ch a="C"/>o bez zdań dwóch,</row>
+			<row important_over="false"> Gdy o brz<ch a="B"/>uchy swych p<ch a="A"/>ań ocier<ch a="d"/>ają swój brzuch.</row>
+			<row important_over="false"> Potem b<ch a="F"/>uch kogoś w łeb, aż na dw<ch a="C"/>oje mu pękł,</row>
+			<row important_over="false"> Bo wybrz<ch a="d"/>ydzał się kiep na harm<ch a="a"/>onii mdły jęk.</row>
+			<row important_over="false"> Akord<ch a="B"/>eon też już wydał <ch a="a"/>ostatni dech,</row>
+			<row important_over="false"> I znów <ch a="B"/>obrus i tł<ch a="A"/>uszcz, i znów czk<ch a="d"/>awka i śmiech.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"> Jest p<ch a="d"/>ort wielki jak świat, co się zwi<ch a="C"/>e Amsterdam,</row>
+			<row important_over="false"> Maryn<ch a="B"/>arze od lat zdrowie p<ch a="A"/>ań piją tam.</row>
+			<row important_over="false"> Pań tych zdr<ch a="d"/>owie co noc piją w gr<ch a="C"/>udzień, czy w maj,</row>
+			<row important_over="false"> Które z<ch a="B"/>a złota trz<ch a="A"/>os otwier<ch a="d"/>ają im raj.</row>
+			<row important_over="false"> A gin, w<ch a="F"/>ódka i grog, a grog, w<ch a="C"/>ódka i gin</row>
+			<row important_over="false"> Rozpal<ch a="d"/>ają im wzrok, skrzydeł prz<ch a="a"/>ydają im.</row>
+			<row important_over="false"> Żeby n<ch a="B"/>a skrzydłach tych mogli wzl<ch a="a"/>ecieć, hen, tam,</row>
+			<row important_over="false"> Skąd się sm<ch a="B"/>arka na świ<ch a="A"/>at i na p<ch a="d"/>ort Amsterdam.</row>
+		</block>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<genre>Szanta</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kasia Tabor</verificator>
+		</verificators>
+	</status>
+	<music_source>Angielska pieśń ludowa: Greensleeves</music_source>
+</song>

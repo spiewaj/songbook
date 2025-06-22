@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka na rozgrzanie">
+	<alias/>
+	<text_author type="solo">Tomasz Liszewski</text_author>
+	<comment/>
+	<composer type="solo">Tomasz Liszewski</composer>
+	<artist type="band">Nijak</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Zimno tak, że aż strach, jakże rozgrzać się<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Korowody chłodnych myśli oziębiają mnie<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+			<row important_over="false">Nie pomaga łyk herbaty, ani ciepły szal<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Urojone z sopli kraty jak roztopić mam<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+		</block>
+		<block type="chorus"><bis times="2">
+				<row important_over="false">Piosenka na rozgrzanie, na rozgrzanie serc<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D7"/></row>
+				<row important_over="false">Rozgrzewa mnie takie granie, jak w domu ciepły piec<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/></row>
+				<row important_over="false">W przytulnym cieple nutek, w przytulnym cieple pauz<ch a="C"/><ch a="D"/><ch a="G"/><ch a="e"/></row>
+				<row important_over="false">Z zimnego jak lód serca wypłynie czasem łza<ch a="C"/><ch a="D7"/><ch a="C"/><ch a="D7"/></row>
+			</bis></block>
+		<block type="verse">
+			<row important_over="false">Jak dziewczynka z zapałkami chcę ciepła, miłości<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Nie rozgrzeję się słowami tymi, co ze złości<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+			<row important_over="false">Nie rozbawią mnie pajace, co na sznurkach skaczą<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Chociaż wszystkim nam tak zimno, dobrze dziś pajacom<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Alek</verificator>
+		</verificators>
+		<to_do>Zgodne z nagraniem — Alek</to_do>
+		<done>
+			<text/>
+			<authors/>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

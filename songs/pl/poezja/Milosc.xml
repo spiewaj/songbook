@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Miłość">
+	<alias></alias>
+	<text_author type="solo">K. K. Baczyński</text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Sł<ch a="D"/>ońce słońce w rami<ch a="D7+"/>onach</row>
+			<row important_over="true"><ch a="D7"/> Czy twego ciała kr<ch a="G"/>yształ pełen</row>
+			<row important_over="true"><ch a="G0"/> Owoców białych gdzie zdr<ch a="D"/>ój zielony tryska</row>
+			<bis times="2">
+				<row important_over="true">Gdzie <ch a="e"/>oczy miękkie w mroku</row>
+				<row important_over="true"><ch a="G"/> Tak pół mnie a pół B<ch a="D"/>ogu</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Twych kr<ch a="D"/>oków korow<ch a="D7+"/>ody</row>
+			<row important_over="false"><ch a="D7"/> W urojonych alej<ch a="G"/>ach twe odbicia</row>
+			<row important_over="false"><ch a="G0"/> U wody jak w pragni<ch a="D"/>eniach nadziejach</row>
+			<row important_over="false"><ch a="e"/> Twe usta u źródeł</row>
+			<row important_over="false"><ch a="G"/> To syte to znów gł<ch a="D"/>odne</row>
+			<row important_over="false">I Twój śmi<ch a="e"/>ech i płakanie</row>
+			<row important_over="false"><ch a="G"/> Nie odpłynie zost<ch a="D"/>anie</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Uni<ch a="D7"/>osę je przeni<ch a="G"/>osę</row>
+				<row important_over="false"><ch a="G0"/> Jak ramionami gł<ch a="D"/>osem</row>
+				<row important_over="false">W czas dal<ch a="D7"/>eki wysoko</row>
+				<row important_over="false">W obcow<ch a="G"/>anie obłokom</row>
+				<row important_over="false">Tak pół mni<ch a="G0"/>e a pół T<ch a="D"/>obie</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator><verificator>
+			</verificator><verificator>
+		</verificator><verificator>Krzysiek Cz.</verificator>
+			
+			
+			
+			
+		</verificators>
+		<to_do>Następnie powtarza się całość.</to_do>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

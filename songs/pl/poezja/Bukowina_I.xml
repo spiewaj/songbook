@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bukowina I">
+  <alias/>
+  <text_author>Wojciech Bellon</text_author>
+  <comment/>
+  <composer type="solo">Wojciech Bellon</composer>
+  <artist type="solo">Wolna Grupa Bukowina</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a7"/> W Bukowinie g<ch a="d7"/>óry w ni<ch a="e7"/>ebie p<ch a="a7"/>ostrzępionym</row>
+      <row important_over="true"><ch a="a7"/> W Bukowinie r<ch a="d7"/>osną skrz<ch a="e7"/>ydła świ<ch a="a7"/>ętym bukom</row>
+      <row important_over="true">Minął dzi<ch a="C7+"/>eń wiatrem z h<ch a="G"/>al<ch a="C7+"/> rozdzwoni<ch a="a7"/>ony</row>
+      <row important_over="true">I nie m<ch a="d7"/>ogę zn<ch a="e7"/>aleźć B<ch a="a7"/>ukowiny</row>
+      <row important_over="true"><ch a="d7"/> I nie m<ch a="e7"/>ogę zn<ch a="a7"/>aleźć</row>
+      <row important_over="true">Chociaż gwi<ch a="d7"/>azdy mnie pr<ch a="a7"/>owadzą ci<ch a="e7"/>ągle sz<ch a="a7"/>ukam</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a7"/> W Bukowinie zar<ch a="d7"/>ośni<ch a="e7"/>ęte <ch a="a7"/>echem lasy</row>
+      <row important_over="false"><ch a="a7"/> W Bukowinie l<ch a="d7"/>iść ziel<ch a="e7"/>eni si<ch a="a7"/>ę i złoci</row>
+      <row important_over="false">Śpiewa cz<ch a="C7+"/>asem b<ch a="G"/>anior<ch a="C7+"/> ciemnym b<ch a="a7"/>asem</row>
+      <row important_over="false">I nie m<ch a="d7"/>ogę zn<ch a="e7"/>aleźć B<ch a="a7"/>ukowiny</row>
+      <row important_over="false"><ch a="d7"/> I nie m<ch a="e7"/>ogę zn<ch a="a7"/>aleźć</row>
+      <row important_over="false">Choć już sz<ch a="d7"/>ukam godzin kr<ch a="a7"/>ocie <ch a="e7"/>i dni kr<ch a="a7"/>ocie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a7"/> W Bukowinie d<ch a="d7"/>eszczem z chm<ch a="e7"/>ur op<ch a="a7"/>ada</row>
+      <row important_over="false"><ch a="a7"/> Okrzyk ptasi z<ch a="d7"/>awiesz<ch a="e7"/>ony w ni<ch a="a7"/>ebie</row>
+      <row important_over="false">Nocka gwi<ch a="C7+"/>ezdną g<ch a="G"/>adkę<ch a="C7+"/> górom g<ch a="a7"/>ada</row>
+      <row important_over="false">I nie m<ch a="d7"/>ogę zn<ch a="e7"/>aleźć B<ch a="a7"/>ukowiny</row>
+      <row important_over="false"><ch a="d7"/> I nie m<ch a="e7"/>ogę zn<ch a="a7"/>aleźć</row>
+      <row important_over="false">Choć mnie w<ch a="d7"/>oła Bukow<ch a="a7"/>ina wci<ch a="e7"/>ąż do si<ch a="a7"/>ebie</row>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Kuba</verificator>
+    </verificators>
+    <to_do/>
+  </status>
+</song>

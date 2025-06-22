@@ -1,0 +1,50 @@
+% STYLE=file
+% TARGET=pdf
+\documentclass[:paper:,:fontsize:]{extbook}
+\usepackage[savemem]{ucs}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+
+\usepackage{songbook21wdh}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage[fit]{truncate}
+\usepackage{mfirstuc}
+
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+\usepackage{index}
+
+\newindex{wyk}{wadx}{wind}{Indeks wykonawców}
+\newindex{aliases}{aadx}{aind}{Indeks tytułów}
+\newindex{genre}{gadx}{gind}{Indeks gatunków}
+
+\geometry{scale={0.95,0.90},pdftex,top={3ex}}
+\addtolength{\headheight}{5ex}
+
+\setboolean{PrintChordsOn}{true}
+\setboolean{PrintChordsBehind}{true}
+\setboolean{PrintSongNum}{false}
+
+\setlength{\parindent}{0pt}
+\setlength{\headsep}{10pt}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chapter}[2]{\newpage\vbox{\LARGE{\bf #2}\\}}
+
+\newcommand{\theLetter}{}
+
+\pagestyle{fancy}
+\fancyfoot[RE,LO]{http://spiewaj.com/}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[CE,CO]{}
+\fancyhead[RE,LO]{\today}
+
+\begin{document}
+

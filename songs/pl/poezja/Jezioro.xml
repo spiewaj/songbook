@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jezioro">
+	<alias/>
+	<text_author type="solo">Jan Błyszczak</text_author>
+	<comment/>
+	<composer type="solo">Jan Błyszczak</composer>
+	<artist type="solo">Jan Błyszczak</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="C"/> Tam gdzie najt<ch a="d"/>ęższej sośnie</row>
+			<row important_over="true">
+				<ch a="G"/>Upić się cz<ch a="C"/>asem zdarzy</row>
+			<row important_over="true"><ch a="a"/> Gdzie wiatr jak w<ch a="d"/>inem z morza<ch a="G"/> jodem dmi<ch a="d"/>e</row>
+			<row important_over="true"><ch a="C"/> Gdzie wierzba n<ch a="d"/>ad strumykiem</row>
+			<row important_over="true"><ch a="G"/> Rozgrzane chł<ch a="C"/>odząc stopy</row>
+			<row important_over="true"><ch a="a"/> Północ bez tr<ch a="d"/>udu dojrzy<ch a="G"/> w ładny dzi<ch a="d"/>eń</row>
+			<row important_over="true"><ch a="C"/> Rzeźbiarz zam<ch a="a"/>orski sławny</row>
+			<row important_over="true"><ch a="d"/> Przemierzał ki<ch a="G"/>edyś lata</row>
+			<row important_over="true"><ch a="C"/> Wilgotnych b<ch a="a"/>utów znaczył każdy kr<ch a="d"/>ok<ch a="G"/></row>
+			<row important_over="true"><ch a="F"/> Zakatarz<ch a="C"/>onym marszem d<ch a="d"/>o domu sw<ch a="C"/>ego wracał</row>
+			<row important_over="true"><ch a="d"/> Zgubił cud<ch a="C"/>ownych lust<ch a="d"/>er st<ch a="C"/>o<ch a="C7+"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="C"/> W najpiękniejszym sp<ch a="G"/>ośród luster</row>
+			<row important_over="true"><ch a="a"/> Zanurzyłem dzb<ch a="e"/>any puste</row>
+			<row important_over="true"><ch a="F"/> Zanim słońce c<ch a="C"/>icho wzeszło na pog<ch a="e"/>odę</row>
+			<row important_over="true"><ch a="d"/> Dzbany młodość d<ch a="G"/>opijały</row>
+			<row important_over="true"><ch a="C"/> W świat odbity świ<ch a="a"/>at wspaniały</row>
+			<row important_over="true"><ch a="d"/> Wrysowałem sw<ch a="G"/>e odbicie mł<ch a="a"/>ode</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="C"/> Kiedyś już p<ch a="d"/>óźnym latem</row>
+			<row important_over="false"><ch a="G"/> Na liście j<ch a="C"/>esień spadła</row>
+			<row important_over="false"><ch a="a"/> I po swoj<ch a="d"/>emu splotła w<ch a="G"/>ystrój dni<ch a="d"/>a</row>
+			<row important_over="false"><ch a="C"/> Jak dzikich k<ch a="d"/>aczek stado</row>
+			<row important_over="false"><ch a="G"/> Z odlotem si<ch a="C"/>ę wstrzymała</row>
+			<row important_over="false"><ch a="a"/> By się w mym l<ch a="d"/>ustrze przejrzeć<ch a="G"/> jeszcze r<ch a="d"/>az</row>
+			<row important_over="false"><ch a="C"/> I każdy kt<ch a="a"/>o przechodził</row>
+			<row important_over="false"><ch a="d"/> U lustra m<ch a="G"/>ego stawał</row>
+			<row important_over="false"><ch a="C"/> Rumieńcem b<ch a="a"/>arw wytaczał obraz sw<ch a="d"/>ój<ch a="G"/></row>
+			<row important_over="false"><ch a="F"/> I tylko z<ch a="C"/>ima biała <ch a="d"/>odbicia ni<ch a="C"/>e znalazła</row>
+			<row important_over="false"><ch a="d"/> Znalazła chł<ch a="C"/>odnych p<ch a="d"/>owiek l<ch a="C"/>ód<ch a="C7+"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="4"/>
+	</music>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator><verificator>Alek</verificator>
+			
+			
+		</verificators>
+		<to_do>Czy w refrenie zamiast "zanim" nie powinno być "kiedy"?</to_do>
+	</status>	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

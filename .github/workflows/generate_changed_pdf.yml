@@ -1,0 +1,74 @@
+name: Generate Song Artifact on Push
+run-name: Generating song
+on:
+  pull_request:
+    paths:
+      - '**.xml'
+permissions: read-all
+jobs:
+  Generate-artifacts:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/spiewaj/github-latex-worker:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
+      volumes:
+        - ${{ github.workspace }}:/workspace
+    steps:
+      - run: echo "release_name=$(date +'%Y-%m-%dT%H_%M_%S')" >> $GITHUB_ENV
+      - run: echo "Generating a songbook PDF triggered by ${{ github.event_name }} release:${{ env.release_name }}"
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Get changed files
+        id: changed-xml-files
+        uses: tj-actions/changed-files@v44.5.4
+        with:
+          fetch_depth: 500
+          files: |
+            songs/**/*.xml
+      - name: Generate PDFs
+        if: steps.changed-xml-files.outputs.any_changed == 'true'
+        env:
+          SRC_FILES: ${{ steps.changed-xml-files.outputs.all_changed_files }}
+        shell: bash
+        # For support of spaces in file-names, we would need to go for json / jq processing.
+        run: |
+          FILES=()
+          for file in ${SRC_FILES}; do
+           echo "$file was changed"
+           FILES+=("${file}")
+          done
+          
+          chmod 755 ./render_pdf.sh
+          cd /workspace && ./render_pdf.sh single a4 "$(date +'%Y-%m-%d')" "${FILES[@]}"
+          mv /workspace/build/songs_tex/output.pdf /workspace/build/songs_tex/a4.pdf
+          cd  /workspace && ./render_pdf.sh single a5 "$(date +'%Y-%m-%d')" "${FILES[@]}"
+          mv /workspace/build/songs_tex/output.pdf /workspace/build/songs_tex/a5.pdf
+      - name: Save artifact
+        if: steps.changed-xml-files.outputs.any_changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: songbooks_pdf
+          path: /workspace/build/songs_tex/*.pdf
+
+      - name: Upload artifacts
+        if: steps.changed-xml-files.outputs.any_changed == 'true'
+        run: |
+          for format in "a4" "a5"; do
+            FILENAME=$(echo "workspace/${{github.sha}}_${format}.pdf" | sed 's|/|%2F|g' )
+            LINK="https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/${FILENAME}"
+            echo "link_${format}=${LINK}" >> $GITHUB_ENV
+            curl -v --data-binary  "@/workspace/build/songs_tex/${format}.pdf" "${LINK}" -H 'Content-Type: application/pdf'
+          done
+
+      - name: Comment PR proxy
+        uses: mshick/add-pr-comment@v2
+        if: steps.changed-xml-files.outputs.any_changed == 'true'
+        with:
+          message: |
+            New PDFs [A4](${{ env.link_a4 }}?alt=media), [A5](${{ env.link_a5 }}?alt=media) is ready, my lord (available for ~14 days).
+            
+            Cieplutkie PDFy [A4](${{ env.link_a4 }}?alt=media), [A5](${{ env.link_a5 }}?alt=media) podano.
+          proxy-url: https://editor-github-pr-proxy-2tnk3uvmqq-ey.a.run.app
+      - run: echo "DONE"

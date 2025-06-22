@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kubuś Puchatek">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">K<ch a="C"/>ubuś Puch<ch a="a"/>atek b<ch a="d"/>ył miś mal<ch a="G"/>utki</row>
+      <row important_over="false">S<ch a="C"/>ypiał przykł<ch a="a"/>adnie ni<ch a="d"/>e pijał w<ch a="G"/>ódki</row>
+      <row important_over="false">Jed<ch a="C"/>ną miał w<ch a="a"/>adę wśr<ch a="d"/>ód zalet t<ch a="G"/>ylu</row>
+      <row important_over="false"><ch a="C"/>O męskim m<ch a="a"/>yślał wc<ch a="d"/>iąż seksap<ch a="G"/>ilu</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false">Mm<ch a="C"/>m, mm<ch a="a"/>m, mru<ch a="d"/>czanka, m<ch a="G"/>ruczanka</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">K<ch a="C"/>ubuś Puch<ch a="a"/>atek m<ch a="d"/>ała śwint<ch a="G"/>usia</row>
+      <row important_over="false">B<ch a="C"/>o w poniedzi<ch a="a"/>ałek t<ch a="d"/>o zaraz m<ch a="G"/>usiał</row>
+      <row important_over="false">Ch<ch a="C"/>wytał tel<ch a="a"/>efon c<ch a="d"/>o stał pod krz<ch a="G"/>aczkiem</row>
+      <row important_over="false">Wo<ch a="C"/>łał Prosia<ch a="a"/>czka i ży<ch a="d"/>ł z Prosi<ch a="G"/>aczkiem</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">W<ch a="C"/>e wtorek m<ch a="a"/>yślał skr<ch a="d"/>obiąc swą m<ch a="G"/>iskę</row>
+      <row important_over="false">W ja<ch a="C"/>kiej poz<ch a="a"/>ycji mo<ch a="d"/>żna z Tygr<ch a="G"/>yskiem</row>
+      <row important_over="false">A <ch a="C"/>w środę gd<ch a="a"/>y się ju<ch a="d"/>ż zdecyd<ch a="G"/>ował</row>
+      <row important_over="false">Zw<ch a="C"/>abił Tygr<ch a="a"/>yska i <ch a="d"/>zdepraw<ch a="G"/>ował</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">W czw<ch a="C"/>artek miał K<ch a="a"/>ubuś pr<ch a="d"/>oblem t<ch a="G"/>otalny</row>
+      <row important_over="false">B<ch a="C"/>o się spot<ch a="a"/>kali ju<ch a="d"/>ż natur<ch a="G"/>alnie</row>
+      <row important_over="false">N<ch a="C"/>ajpierw ze str<ch a="a"/>achem — rz<ch a="d"/>ekł — potem h<ch a="G"/>ardziej</row>
+      <row important_over="false">T<ch a="C"/>o właśnie Tygr<ch a="a"/>ys l<ch a="d"/>ubił najba<ch a="G"/>rdziej</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">W pi<ch a="C"/>ątek zaś K<ch a="a"/>ubuś mi<ch a="d"/>ał problem z gł<ch a="G"/>owy</row>
+      <row important_over="false">L<ch a="C"/>os mu pods<ch a="a"/>unął ob<ch a="d"/>iekt got<ch a="G"/>owy</row>
+      <row important_over="false">Sa<ch a="C"/>m Kłapo<ch a="a"/>uchy rze<ch a="d"/>kł doń kol<ch a="G"/>ego</row>
+      <row important_over="false">W<ch a="C"/>eź raz biedn<ch a="a"/>ego Kł<ch a="d"/>apouch<ch a="G"/>ego</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Kt<ch a="C"/>oś opowia<ch a="a"/>dał k<ch a="d"/>awał lad<ch a="G"/>aco</row>
+      <row important_over="false">Ż<ch a="C"/>e z Kangurz<ch a="a"/>ycą mi<ch a="d"/>ał miś co ni<ch a="G"/>eco</row>
+      <row important_over="false">Le<ch a="C"/>cz to są p<ch a="a"/>lotki za<ch a="d"/>zdrosnych pa<ch a="G"/>nien</row>
+      <row important_over="false">B<ch a="C"/>o nie był K<ch a="a"/>ubuś e<ch a="d"/>rotom<ch a="G"/>anem</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

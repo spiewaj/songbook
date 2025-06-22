@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Makatka z aniołem">
+	<alias></alias>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Na tw<ch a="G"/>arzy twej rumi<ch a="C"/>eńce</row>
+			<row important_over="true">Jakbyś b<ch a="D"/>ył uduchowi<ch a="G"/>ony</row>
+			<row important_over="true">Przez gruźl<ch a="C"/>icę płuc a d<ch a="G"/>obroć twą niezi<ch a="D"/>emską<ch a="D7"/></row>
+			<row important_over="true">Zam<ch a="e"/>ykasz na niebi<ch a="C"/>eski kl<ch a="G"/>ucz<ch a="D"/></row>
+			<row important_over="true">Zam<ch a="C"/>ykasz na niebi<ch a="D"/>eski kl<ch a="G"/>ucz</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Najcz<ch a="C"/>ęściej można sp<ch a="D"/>otkać cię</row>
+			<row important_over="true">Nad przep<ch a="e"/>aścią lukrow<ch a="C"/>aną</row>
+			<row important_over="true">Gdy prz<ch a="G"/>ez dziurawą kł<ch a="C"/>adkę</row>
+			<row important_over="true">Przeprow<ch a="Ais"/>adzasz<ch a="a7"/> swoje dzi<ch a="G"/>eci</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">N<ch a="G"/>ocą może chci<ch a="C"/>ałbyś</row>
+			<row important_over="false">Od<ch a="D"/>erwać się od ści<ch a="G"/>any</row>
+			<row important_over="false">Ale j<ch a="C"/>edno skrzydło gw<ch a="G"/>óźdź ci przedziur<ch a="D"/>awi<ch a="D7"/>ł</row>
+			<row important_over="false">Wi<ch a="e"/>ęc zostajesz z n<ch a="C"/>am<ch a="G"/>i<ch a="D"/></row>
+			<row important_over="false">Na wi<ch a="C"/>eki wi<ch a="D"/>eków <ch a="G"/>amen</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	<music metre="">
+		<guitar barre="4"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator><verificator>
+			</verificator><verificator>
+		</verificator>
+			
+			
+			
+		</verificators>
+		<to_do></to_do>
+		<done/>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

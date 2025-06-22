@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie mam na nic czasu bo oglądam seriale">
+  <artist type="band">Kazik</artist>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu bo <ch a="E"/>oglądam seriale</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu <ch a="A"/>wcale a wcale</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu bo <ch a="E"/>oglądam seriale</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu <ch a="A"/>wcale a wcale</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu bo <ch a="E"/>oglądam je</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu c<ch a="A"/>oś mówisz do mnie</row>
+      <row important_over="true"><ch a="E"/>Nie mam na nic czasu bo z<ch a="E"/>bliża się on</row>
+      <row important_over="true"><ch a="E"/>Kolejny <ch a="H"/>sezon Gry o Tr<ch a="E"/>on</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="H"/>Mam to co mam; łóżko <ch a="H"/>fotel stół i <ch a="E"/>kran</row>
+      <row important_over="true"><ch a="H"/>Zakupiony telewizor p<ch a="E"/>oza miarę</row>
+      <row important_over="true"><ch a="H"/>Sześć stóp pod ziemią jakie <ch a="H"/>siły we mnie <ch a="E"/>drzemią</row>
+      <row important_over="true">Dom z<ch a="A"/> Papieru przecież trzeba odbyć<ch a="Fis"/> karę</row>
+      <row important_over="true"><ch a="H"/>Wódki nie pije bo pot<ch a="H"/>em zapom<ch a="E"/>inam</row>
+      <row important_over="true"><ch a="H"/>Kogo ona w tamtym sezonie za<ch a="E"/>biła</row>
+      <row important_over="true"><ch a="H"/>Śpię Dr. House tylko <ch a="H"/>tyle ile <ch a="E"/>trzeba</row>
+      <row important_over="true">Spanie t<ch a="A"/>o Breaking Bad jest to nie<ch a="Fis"/> potrzeba</row>
+    </block>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

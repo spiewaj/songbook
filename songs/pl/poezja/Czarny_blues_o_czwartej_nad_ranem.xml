@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarny blues o czwartej nad ranem">
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true">Czwarta nad r<ch a="A"/>anem, może s<ch a="cis"/>en przyjdzie</row>
+			<row important_over="true">
+				<ch a="D"/> Może mnie odwi<ch a="A"/>edzisz</row>
+			<row important_over="true">Czwarta nad r<ch a="E"/>anem może s<ch a="fis"/>en przyjdzie</row>
+			<row important_over="true">
+				<ch a="D"/> Może mn<ch a="E"/>ie odwi<ch a="A"/>edzisz</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Czemu Cię ni<ch a="A"/>e ma na odległość r<ch a="E"/>ęki</row>
+			<row important_over="true">Czemu mów<ch a="fis"/>imy do siebie list<ch a="cis"/>ami</row>
+			<row important_over="true">Gdy Ci to śpi<ch a="D"/>ewam u mnie pełnia l<ch a="A"/>ata</row>
+			<row important_over="true">Gdy to usł<ch a="D"/>yszysz będzie środek z<ch a="E"/>imy</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Czemu się b<ch a="A"/>udzę o czwartej nad ra<ch a="E"/>nem</row>
+			<row important_over="false">I włosy tw<ch a="fis"/>oje próbuję ugł<ch a="cis"/>askać</row>
+			<row important_over="false">Lecz nigdzie ni<ch a="D"/>e ma twoich wł<ch a="A"/>osów</row>
+			<row important_over="false">Jest tylko bl<ch a="D"/>ada nocna l<ch a="E"/>ampka</row>
+			<row important_over="false">Łysa śpiew<ch a="fis"/>aczka</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Śpiewamy blu<ch a="A"/>esa bo czwarta nad r<ch a="E"/>anem</row>
+			<row important_over="false">Tak cicho że<ch a="fis"/>by nie zbudzić sąsi<ch a="cis"/>adów</row>
+			<row important_over="false">Czajnik z gw<ch a="D"/>izdkiem świruje na g<ch a="A"/>azie</row>
+			<row important_over="false">Myślałb<ch a="D"/>y kto że rodem z Manhatt<ch a="E"/>anu</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false">Herbata cz<ch a="A"/>arna myśli rozj<ch a="E"/>aśnia</row>
+			<row important_over="false">A l<ch a="fis"/>ist twój sam się cz<ch a="cis"/>yta</row>
+			<row important_over="true">Że można go śpi<ch a="D"/>ewać, za oknem<ch a="A"/> mruczą bluesa</row>
+			<row important_over="true"><ch a="D"/> Topole z Krupn<ch a="E"/>iczej</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I jeszcze str<ch a="A"/>ażak wszedł na s<ch a="E"/>olo</row>
+			<row important_over="false">Ten z Mari<ch a="fis"/>ackiej w<ch a="cis"/>ieży</row>
+			<row important_over="false">Jego tr<ch a="D"/>ąbka jak księżyc bi<ch a="A"/>egnie nad topolą</row>
+			<row important_over="false"><ch a="D"/> Nigdzie się jej nie spi<ch a="E"/>eszy</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Już pi<ch a="A"/>ąta, może s<ch a="cis"/>en przyjdzie</row>
+			<row important_over="false">
+				<ch a="D"/> Może mnie odwi<ch a="A"/>edzisz</row>
+			<row important_over="false">Już pi<ch a="E"/>ąta, może s<ch a="fis"/>en przyjdzie</row>
+			<row important_over="false">
+				<ch a="D"/> Może mn<ch a="E"/>ie odw<ch a="A"/>iedzisz</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+		</verificators>
+		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album>Czarny blues o czwartej nad ranem</album>
+	<genre>Poezja śpiewana</genre>
+</song>

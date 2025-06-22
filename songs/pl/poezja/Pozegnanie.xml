@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pożegnanie">
+	<alias/>
+	<text_author type="solo">Maciej Służała</text_author>
+	<comment/>
+	<composer type="solo">Maciej Służała</composer>
+	<artist type="band">Krążek</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Spójrz przez <ch a="D"/>okno — wiosna śni<ch a="G"/>egi rozg<ch a="D"/>ania</row>
+			<row important_over="true">Coraz dł<ch a="G"/>uższe dni<ch a="D"/>e, wiatr ciepl<ch a="A"/>ejszy</row>
+			<row important_over="true">Na mnie cz<ch a="D"/>as, przyszła p<ch a="G"/>ora rozst<ch a="D"/>ania,</row>
+			<row important_over="true">Worek g<ch a="G"/>otów do dr<ch a="D"/>ogi w kącie l<ch a="A"/>eży</row>
+			<row important_over="true">Nie idź j<ch a="G"/>eszcze, jeszcze cz<ch a="A"/>as, jeszcze zd<ch a="D"/>ążysz</row>
+			<row important_over="true">Jeszcze wi<ch a="G"/>osna zbyt kr<ch a="D"/>ótka, by jej wi<ch a="A"/>erzyć</row>
+			<row important_over="true">Jeszcze śni<ch a="G"/>eg dość głęb<ch a="A"/>oki, jeszcze bł<ch a="D"/>oto na dr<ch a="h"/>ogach,</row>
+			<row important_over="true">Jeszcze mr<ch a="G"/>óz wieczor<ch a="A"/>ami się j<ch a="D"/>eży</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Daj mi j<ch a="G"/>eszcze kilka dn<ch a="D"/>i proszę <ch a="A"/>o to</row>
+			<row important_over="true">Pozwól si<ch a="G"/>ę jeszcze s<ch a="D"/>obą naci<ch a="A"/>eszyć</row>
+			<row important_over="true">Ty wyr<ch a="G"/>uszysz gnany sw<ch a="A"/>oją tęskn<ch a="D"/>ot<ch a="h"/>ą</row>
+			<row important_over="true">Ja zost<ch a="G"/>anę sam<ch a="A"/>otna jak ksi<ch a="D"/>ężyc</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Już jask<ch a="D"/>ółki gniazdo w <ch a="G"/>oknie bud<ch a="D"/>ują,</row>
+			<row important_over="false">Słyszysz? B<ch a="G"/>ocian na ł<ch a="D"/>ące klek<ch a="A"/>ocze,</row>
+			<row important_over="false">Dzikie g<ch a="D"/>ęsi po obł<ch a="G"/>okach wędr<ch a="D"/>ują,</row>
+			<row important_over="false">Spałaś j<ch a="G"/>uż — pierwsza b<ch a="D"/>urza była w n<ch a="A"/>ocy</row>
+			<row important_over="false">Popatrz — wi<ch a="G"/>atr ciemne chm<ch a="A"/>ury nawi<ch a="D"/>ewa,</row>
+			<row important_over="false">Dzisiaj ni<ch a="G"/>e idź, p<ch a="D"/>osiedź ze mną j<ch a="A"/>eszcze</row>
+			<row important_over="false">Tyle mi<ch a="G"/>ałam Ci<ch a="A"/> do powiedz<ch a="D"/>eni<ch a="h"/>a,</row>
+			<row important_over="false">Widzisz, p<ch a="G"/>ada. Nie zd<ch a="A"/>ążysz przed d<ch a="D"/>eszczem</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">M<ch a="D"/>uszę iść, woła mn<ch a="G"/>ie chmurna prz<ch a="D"/>estrzeń,</row>
+			<row important_over="false">W przyszłym r<ch a="G"/>oku mogę nie d<ch a="D"/>ać już r<ch a="A"/>ady,</row>
+			<row important_over="false">Przecież wr<ch a="D"/>ócę tu z ost<ch a="G"/>atnim de<ch a="D"/>szczem</row>
+			<row important_over="false">Przecież wr<ch a="G"/>ócę do Ci<ch a="D"/>ebie jak z<ch a="A"/>awsze.</row>
+			<row important_over="false">Wiem że wr<ch a="G"/>ócisz, ale zr<ch a="A"/>ozum ob<ch a="D"/>awę</row>
+			<row important_over="false">Przecież Ci<ch a="G"/>ebie nie b<ch a="D"/>ędzie pół r<ch a="A"/>oku</row>
+			<row important_over="false">Tyle cz<ch a="G"/>asu<ch a="A"/> nie widzieć tw<ch a="D"/>ej tw<ch a="h"/>arzy…</row>
+			<row important_over="false">Idź już.<ch a="G"/> Może ten deszcz prz<ch a="A"/>ejdzie b<ch a="D"/>okiem</row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>Alek</verificator>
+			
+			
+		</verificators>
+		<to_do>My to śpiewamy nieco inaczej niż na kasecie (Baśń - Tak czy Owak), więc nie rozmieszczam akordów. Zresztą, nie za bardzo umiem - kiedyś znakiem bardzo długo się staraliśmy to rozpracować, i nie poszło. — Onufry
+Zespół Krążek (http://krazek.art.pl/) uważa swoją drugą nazwę Tak czy Owak za przejściową i nietrafioną, respektujemy to — Alek</to_do>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

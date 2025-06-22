@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Harcerska dola">
+  <comment>Alternatywne, uproszczone chwyty:
+[a / a E a / a A7 d / E a]</comment>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Z miejsca na <ch a="h"/>miejsce, z wiatrem wtór</row>
+      <row important_over="true"><ch a="e"/>Z lasu do <ch a="h"/>lasu, <ch a="G"/>z pól do <ch a="Fis"/>pól</row>
+      <bis times="2">
+        <row important_over="true">Wszędzie nas <ch a="h"/>pędzi, <ch a="H7"/>wszędzie <ch a="e"/>gna</row>
+        <row important_over="true"><ch a="e"/>Harcerska <ch a="h"/>dola <ch a="Fis"/>rados<ch a="h"/>na</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nam trud nie<ch a="h"/>straszny ani znój</row>
+      <row important_over="false"><ch a="e"/>Bo myśmy <ch a="h"/>złu <ch a="G"/>wydali <ch a="Fis"/> bój</row>
+      <bis times="2">
+        <row important_over="false">I z nim do <ch a="h"/>walki <ch a="H7"/>wciąż nas <ch a="e"/>gna</row>
+        <row important_over="false"><ch a="e"/>Harcerska <ch a="h"/>dola <ch a="Fis"/>rados<ch a="h"/>na</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nasza po<ch a="h"/>goda, jasny wzrok</row>
+      <row important_over="false"><ch a="e"/>Niechaj roz<ch a="h"/>jaśnią <ch a="G"/>ludziom <ch a="Fis"/>mrok.</row>
+      <bis times="2">
+        <row important_over="false">Niechaj i <ch a="h"/>innym <ch a="H7"/>szczęście <ch a="e"/>da</row>
+        <row important_over="false"><ch a="e"/>Harcerska <ch a="h"/>dola <ch a="Fis"/>rados<ch a="h"/>na</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

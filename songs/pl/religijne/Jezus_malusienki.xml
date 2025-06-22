@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jezus malusieńki">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Jezus malusieńki</row>
+      <row important_over="false">Leży wśród stajenki</row>
+      <bis>
+        <row important_over="false">Płacze z zimna nie dała mu</row>
+        <row important_over="false">Matula sukienki</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Bo uboga była</row>
+      <row important_over="false">Rąbek z głowy zdjęła</row>
+      <bis>
+        <row important_over="false">W który dziecię owinąwszy</row>
+        <row important_over="false">Siankiem je okryła</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie ma kolebeczki</row>
+      <row important_over="false">Ani poduszeczki</row>
+      <bis>
+        <row important_over="false">We żłobie mu położyła</row>
+        <row important_over="false">Siana pod główeczki</row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

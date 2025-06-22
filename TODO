@@ -1,1 +1,6 @@
-- tabulatury (tabbs)
++ Support for multiple chords one after another
++ Full support for undo/redo functionality.
++ Adding chord and 'verse' as a buttons
++ Automatic sanitization of space-separated chords into multiple chords.
+- Automatic transpositions ?
+- Improving estetics.

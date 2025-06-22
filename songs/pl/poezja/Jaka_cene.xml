@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jaką cenę…">
+  <alias/>
+  <text_author>Adam Ziemianin</text_author>
+  <comment/>
+  <composer type="solo">Krzysztof Myszkowski</composer>
+  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Ilu ludzi nasz świat uniesie</row>
+      <row important_over="false"><ch a="A"/>Aby wciąż jeszcze mógł się kręcić</row>
+      <row important_over="false"><ch a="cis"/>Ilu trzeba dzisiaj poetów</row>
+      <row important_over="false"><ch a="fis"/>By choć wiersz pozostał w pamięci</row>
+      <row important_over="false"><ch a="a"/>Jak nazwać co jeszcze nie nazwane</row>
+      <row important_over="false"><ch a="G"/>I co jeszcze może czekać na człowieka</row>
+      <row important_over="false"><ch a="h"/>Jaką tajemnicę dźwiga każdy kamień</row>
+      <row important_over="false"><ch a="A"/>Że nie wie o niej nawet rzeka<ch a="A7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="h"/>Tamdamdaradaj…<ch a="A"/><ch a="G"/><ch a="Fis"/><ch a="G"/><ch a="Fis"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Czy poto tutaj tylko jesteśmy</row>
+      <row important_over="false"><ch a="A"/>By przed nocą bardziej się zmęczyć</row>
+      <row important_over="false"><ch a="cis"/>Czy liść z twego wielkiego drzewa</row>
+      <row important_over="false"><ch a="fis"/>Jest zaledwie kaprysem gałęzi</row>
+      <row important_over="false"><ch a="a"/>Zostawiłeś nam ślady swych stóp</row>
+      <row important_over="false"><ch a="G"/>Na nieba niebieskiej korze</row>
+      <row important_over="false"><ch a="h"/>Tak mało ich i tak bardzo wiele</row>
+      <row important_over="false"><ch a="A"/>Bo przecież ty wszystko możesz<ch a="A7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Jaką cenę trzeba zapłacić</row>
+      <row important_over="false"><ch a="A"/>Za to ziemske ciche przebywanie</row>
+      <row important_over="false"><ch a="cis"/>Jakie skrzypce trzeba usłyszeć</row>
+      <row important_over="false"><ch a="fis"/>Aby wiedzieć co jeszcze jest grane</row>
+      <row important_over="false"><ch a="a"/>Ile śliwek rozebrać do pestki</row>
+      <row important_over="false"><ch a="G"/>Aby poznać ten śliwkowy błękit</row>
+      <row important_over="false"><ch a="h"/>Ile spotkać kamieni nad rzeką</row>
+      <row important_over="false"><ch a="A"/>By się znudzić jeszcze poetą<ch a="A7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Z której strony czekać na sen</row>
+      <row important_over="false"><ch a="A"/>I gdzie sny chować na dzień</row>
+      <row important_over="false"><ch a="cis"/>Ile musi dojrzeć poziomek</row>
+      <row important_over="false"><ch a="fis"/>Aby lato miało swój koniec</row>
+      <row important_over="false"><ch a="a"/>Jak opisać porannego wróbla</row>
+      <row important_over="false"><ch a="G"/>Który w szare piórka się ubrał</row>
+      <row important_over="false"><ch a="h"/>Jak podejść koło po kamieniu w wodzie</row>
+      <row important_over="false"><ch a="A"/>Jak z tym dziwnym światem być w zgodzie<ch a="A7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

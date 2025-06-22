@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Zaciągnijcie na oknie niebieską zasłonę…" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Jerzy Czech</translator>
+	<original_title>*** [Opustitie pożałusta sinije sztory]</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Zaciągn<ch a="e"/>ijcie na oknie niebi<ch a="H7"/>eską zasł<ch a="e"/>onę,</row>
+			<row important_over="true">Siostro, l<ch a="G"/>eki stąd weź, niepotrz<ch a="D7"/>ebne mi s<ch a="G"/>ą.</row>
+			<row important_over="true">Wiara, N<ch a="a"/>adzieja, Miłość, poznaję — to <ch a="e"/>one,</row>
+			<row important_over="true">Moje trz<ch a="H7"/>y wierzycielki odwiedzić mnie chc<ch a="e"/>ą.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Krótki p<ch a="e"/>obyt na ziemi opł<ch a="H7"/>acić przyst<ch a="e"/>oi,</row>
+			<row important_over="false">Ale p<ch a="G"/>ustą sakiewkę dziś m<ch a="D7"/>am, jak na zł<ch a="G"/>ość…</row>
+			<row important_over="false">-- Nie zam<ch a="a"/>artwiaj się, nie smuć, o Wiaro, Ty m<ch a="e"/>oja,</row>
+			<row important_over="false">Pewnie j<ch a="H7"/>eszcze dłużników zostalo Ci d<ch a="e"/>ość.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Resztką s<ch a="e"/>ił się obrócę do dr<ch a="H7"/>ugiej z kol<ch a="e"/>ei,</row>
+			<row important_over="false">By w rami<ch a="G"/>onach jej ukryć skr<ch a="D7"/>uszoną swą tw<ch a="G"/>arz:</row>
+			<row important_over="false">-- Nie zam<ch a="a"/>artwiaj się, nie smuć, o matko Nadzi<ch a="e"/>ejo,</row>
+			<row important_over="false">Nie jedn<ch a="H7"/>ego wszak syna na ziemi tu m<ch a="e"/>asz!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A gdy <ch a="e"/>usta przycisnę do dł<ch a="H7"/>oni tej trz<ch a="e"/>eciej,</row>
+			<row important_over="false">Słyszę j<ch a="G"/>aką czułością głos c<ch a="D7"/>ichy jej drg<ch a="G"/>a:</row>
+			<row important_over="false">-- Nie zam<ch a="a"/>artwiaj się, nie smuć, ja sama się prz<ch a="e"/>ecież</row>
+			<row important_over="false">Zamiast ci<ch a="H7"/>ebie musiałam roztrwonić do cn<ch a="e"/>a.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">-- Czyj<ch a="e"/>ekolwiek cię w życiu rami<ch a="H7"/>ona tul<ch a="e"/>iły,</row>
+			<row important_over="false">Jakik<ch a="G"/>olwiek nieziemski og<ch a="D7"/>arnąłby ż<ch a="G"/>ar,</row>
+			<row important_over="false">Dług twój l<ch a="a"/>udzkie oszczerstwa w trójnasób spłac<ch a="e"/>iły,</row>
+			<row important_over="false">Więc ocz<ch a="H7"/>yszczam cię z win i uwalniam od k<ch a="e"/>ar.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Leżę cz<ch a="e"/>ysty jak łza w pierwszym św<ch a="H7"/>itu przypł<ch a="e"/>ywie,</row>
+			<row important_over="false">Biała fl<ch a="G"/>aga pościeli pow<ch a="D7"/>ita mdły brz<ch a="G"/>ask.</row>
+			<bis times="2">
+				<row important_over="false">Trzy sędz<ch a="a"/>iny, trzy matki, trzy siostry cierpl<ch a="e"/>iwe</row>
+				<row important_over="false">Otwier<ch a="H7"/>ają mi kredyt ostatni już r<ch a="e"/>az.</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	<music metre="6/8">
+		<guitar barre="3"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

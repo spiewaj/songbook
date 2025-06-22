@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wizyta u malarki">
+  <alias/>
+  <text_author>Andrzej Sikorowski</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wczoraj byłem u malarki<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Dom jak dom i drzwi jak drzwi<ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Jak u innych puste garnki<ch a="C"/></row>
+      <row important_over="false"><ch a="Ais"/>I w komine stary dym<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Jak u innych stara bieda<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Jak u innych w oknie kit<ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>No i problem jak się nie dać<ch a="C"/></row>
+      <row important_over="false"><ch a="Ais"/>Gdy nadciągnie tu dzień zły<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Ale za to na ścianach kwiaty<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Ais"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ze wszystkich świata łąk<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>A tuż obok koń pstrokaty<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Na nim przy szabli dumny ktoś<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Na martwych naturach ciasta<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Którym zapachu tylko brak<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="F"/>A wyżej podniebne miasto<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Jak ciemnozłoty ptak<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wczoraj byłem u malarki<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>I już wiem dokładnie wiem<ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Że najczęściej puste garnki<ch a="C"/></row>
+      <row important_over="false"><ch a="Ais"/>Są dla życia tylko tłem<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Że się chowa stara bieda<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>I tężeje w oknie kit<ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Znika problem jak się nie dać<ch a="C"/></row>
+      <row important_over="false"><ch a="Ais"/>I pytanie z kim się bić<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Kiedy rosną na ścianach kwiaty<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Ais"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ze wszystkich świata łąk<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Galopuje koń pstrokaty<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Wymachuje szablą ktoś<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Na martwych naturach ciasta<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <bis>
+        <row important_over="false"><ch a="a"/>Już się migdałów czuje smak<ch a="D7"/><ch a="G"/><ch a="G7"/></row>
+        <row important_over="false"><ch a="F"/>I fruwa podniebne miasto<ch a="G"/><ch a="C"/></row>
+        <row important_over="false"><ch a="F"/>Po wszystkich moich snach<ch a="G"/><ch a="C"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

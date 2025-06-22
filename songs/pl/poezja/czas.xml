@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czas">
+	<text_author type="solo">Maciej Służała</text_author>
+	<comment>W refren po zwrotkach wchodzi drugi głos jeszcze podczas trwania ostatniej linijki zwrotki.</comment>
+	<composer type="solo">Maciej Służała</composer>
+	<artist type="band">Krążek</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true">Cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
+			<row important_over="true"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
+			<row important_over="true">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
+			<row important_over="true">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
+			<row important_over="false">Tylko cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
+			<row important_over="false"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
+			<row important_over="false">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
+			<row important_over="false">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Sp<ch a="d"/>ójrz! Oto ż<ch a="C"/>ycia twego tajemnicza ksi<ch a="d"/>ęga.</row>
+			<row important_over="true">P<ch a="d"/>isana piórem gwiazd, atr<ch a="C"/>amentem t<ch a="G"/>ęczy.<ch a="d"/></row>
+			<row important_over="true">W ozd<ch a="B"/>obnych kartach zatrzymany czas.</row>
+			<row important_over="true">Burz<ch a="G"/>owe chmury, słon<ch a="A"/>eczny blask.</row>
+			<row important_over="true">Świat zn<ch a="d"/>any i nieznany…</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false">P<ch a="d"/>atrz! W p<ch a="C"/>ajęczynę zawiązane twoje dr<ch a="d"/>ogi.</row>
+			<row important_over="false">P<ch a="d"/>oplątane wiatrem, p<ch a="C"/>omylone mr<ch a="G"/>okiem.<ch a="d"/></row>
+			<row important_over="false">W za<ch a="B"/>ułków gąszczu, spłoszona myśl.</row>
+			<row important_over="false">Il<ch a="G"/>uzja, przepaść, w<ch a="A"/>ątła nić.</row>
+			<row important_over="false">Ostr<ch a="d"/>ożnie stawiasz kroki!</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false">Sp<ch a="d"/>ójrz! W starym k<ch a="C"/>otle kipi wywar z twoich m<ch a="d"/>arzeń.</row>
+			<row important_over="false">Pr<ch a="d"/>agnienie, żądza, p<ch a="C"/>otrzeba, wł<ch a="G"/>adza.<ch a="d"/></row>
+			<row important_over="false">W kipi<ch a="B"/>eli wiary - namiętności błysk.</row>
+			<row important_over="false">W op<ch a="G"/>arach jawy - tęskn<ch a="A"/>oty krzyk:</row>
+			<row important_over="false">Ob<ch a="d"/>ejrzyj się za siebie!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false" style="instr"> <ch a="d"/><ch a="B"/><ch a="C"/><ch a="d"/><ch a="d"/><ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="d"/>edz! Ja znam wsz<ch a="C"/>ystkie twoje tajemn<ch a="d"/>ice.</row>
+			<row important_over="false">Ukł<ch a="d"/>adam twoje myśli. N<ch a="C"/>iczego nie ukr<ch a="G"/>yjesz.<ch a="d"/></row>
+			<row important_over="false">To m<ch a="B"/>oja dłoń układa twój szlak.</row>
+			<row important_over="false">Pod n<ch a="G"/>ogi piasek czy w pl<ch a="A"/>ecy wiatr.</row>
+			<row important_over="false">Bez<ch a="d"/>e mnie nic nie znaczysz!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
+			<row important_over="false"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
+			<row important_over="false">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
+			<row important_over="false">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
+			<bis times="3">
+				<row important_over="false">Tylko cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
+				<row important_over="false"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
+				<row important_over="false">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
+				<row important_over="false">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4"/>
+	<keywords/>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+	</status>
+</song>

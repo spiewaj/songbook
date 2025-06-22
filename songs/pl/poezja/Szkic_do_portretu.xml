@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szkic do portretu">
+  <alias/>
+  <text_author type="solo">Mariusz Zadura</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Nikt nie grał na gitarze<ch a="D"/></row>
+      <row important_over="false"><ch a="A"/>Tak jak on</row>
+      <row important_over="false"><ch a="e"/>Często przy ogniu pośród nas<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Patrząc w gwiaździsty nieba skłon<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="e"/>Siadał śpiewając aż po brzask<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Piosenek swoich szukał w szumie traw<ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wsłuchiwał się w potoków śpiew<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="fis"/>W dźwięki zasypiających miast<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>I wiatru szept w koronach drzew<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
+        <row important_over="false"><ch a="e"/>Wołaliśmy gdy zbliżał się świt<ch a="fis"/><ch a="h"/></row>
+        <row important_over="false"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
+        <row important_over="false"><ch a="e"/>Tych nocy nie zapomni nikt<ch a="G"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Nie dbał o wygląd ni o szmal<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="e"/>Daleki był mu wszelki szpan<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wciąż zapatrzony w siną dal<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="e"/>Włóczył się z pudłem tu i tam<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Minęło ładnych parę lat<ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Odkąd już nie widziałem go<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="fis"/>Podobno zginął po nim szlak<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Gdy odszedł razem z ranną mgłą<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <bis times="3">
+        <row important_over="false"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
+        <row important_over="false"><ch a="e"/>Wołaliśmy gdy zbliżał się świt<ch a="fis"/><ch a="h"/></row>
+        <row important_over="false"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
+        <row important_over="false"><ch a="e"/>Tych nocy nie zapomni nikt<ch a="G"/><ch a="D"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

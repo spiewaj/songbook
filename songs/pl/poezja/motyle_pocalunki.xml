@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Motyle pocałunki" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Domino</alias>
+	<text_author type="solo">Rafał Traczyk</text_author>
+	<comment>Trochę inny tekst, niż oryginał i inna melodia. Gra się nie akordami (tu zasymulowane), a specjalną palcówką.</comment>
+	<composer type="solo">Witold Kozaczkiewicz</composer>
+	<artist type="band">Apogeum</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="cis"/> Do snu ukł<ch a="E"/>adać Tw<ch a="H6/7"/>oje pocał<ch a="H"/>unki,</row>
+			<row important_over="false"><ch a="cis"/> Ciepłymi dl<ch a="E"/>ońmi gł<ch a="H6/7"/>adzić Twoje sn<ch a="H"/>y,</row>
+			<row important_over="false"><ch a="cis"/> Co noc wpatr<ch a="E"/>ywać si<ch a="H6/7"/>ę w Twoje <ch a="H"/>oczy</row>
+			<row important_over="true"><ch a="cis"/> Aż wreszcie rumi<ch a="E"/>eniec zn<ch a="H6/7"/>iknie z Twoich l<ch a="H"/>ic<ch a="cis"/>..<ch a="E"/>.<ch a="H6/7"/>
+				<ch a="H"/></row>
+			<row important_over="true">Z Twoich l<ch a="cis"/>ic, z Twoich l<ch a="E"/>ic, z Twoich l<ch a="H6/7"/>ic, z Tw<ch a="H"/>oich.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="E"/> Choćby ż<ch a="F"/>ycie miało trw<ch a="Gis"/>ać tylko chw<ch a="A"/>ilę,</row>
+			<row important_over="true"><ch a="H"/> Zaraz p<ch a="Cis"/>otem prz<ch a="Gis"/>yszła śmi<ch a="A"/>erć.</row>
+			<row important_over="false"><ch a="E"/> Jak mal<ch a="F"/>eńkie kolor<ch a="Gis"/>owe mot<ch a="A"/>yle</row>
+			<row important_over="true"><ch a="H"/> Będziemy wir<ch a="Cis"/>ować, nim prz<ch a="Gis"/>yjdzie</row>
+			<row important_over="true">jego kr<ch a="cis"/>es, jego kr<ch a="E"/>es, jego kr<ch a="H6/7"/>es, j<ch a="H"/>ego kr<ch a="cis"/>es<ch a="E"/>.<ch a="H6/7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="cis"/> Tak bliscy s<ch a="E"/>obie w j<ch a="H6/7"/>ednym odd<ch a="H"/>echu,</row>
+			<row important_over="false"><ch a="cis"/> Wyruszać będzi<ch a="E"/>emy w n<ch a="H6/7"/>asze dn<ch a="H"/>i.</row>
+			<row important_over="false"><ch a="cis"/> Czułość zam<ch a="E"/>ykać w s<ch a="H6/7"/>erdecznym uśmi<ch a="H"/>echu.</row>
+			<row important_over="false"><ch a="cis"/> A nocą sz<ch a="E"/>ukać w ci<ch a="H6/7"/>ałach naszych chw<ch a="H"/>il,<ch a="cis"/><ch a="E"/><ch a="H6/7"/><ch a="H"/></row>
+			<row important_over="false">Naszych chw<ch a="cis"/>il, naszych chw<ch a="E"/>il, naszych chw<ch a="H6/7"/>il, n<ch a="H"/>aszych.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album>Siła</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do>Akordy zasymulowane</to_do>
+	</status>
+	<music_source></music_source>
+</song>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o krzyżowcu">
+	<alias></alias>
+	<text_author type="solo">Mirosław Hrynkiewicz</text_author>
+	<comment></comment>
+	<composer type="solo">Mirosław Hrynkiewicz</composer>
+	<artist type="solo">Staszek Wawrykiewicz</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
+			<row important_over="true"><ch a="A"/> Dokąd pędzisz w stal odziany?</row>
+			<row important_over="true"><ch a="C"/> Pewnie tam, gdzie błyszczą w dali</row>
+			<row important_over="true"><ch a="D"/> Jeruzalem białe ściany.</row>
+			<row important_over="false"><ch a="e"/> Pewnie myślisz, że w świątyni</row>
+			<row important_over="false"><ch a="A"/> Zniewolony Pan twój czeka,</row>
+			<row important_over="false"><ch a="C"/> Żebyś przyszedł go ocalić,</row>
+			<row important_over="false"><ch a="D"/> Żebyś przybył doń z daleka.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">N<ch a="e"/>a na na</row>
+			<row important_over="false">Na na na na n<ch a="A"/>a na na na</row>
+			<row important_over="false">Na na na na n<ch a="C"/>a na na na</row>
+			<row important_over="false">Na na na na n<ch a="D"/>a na na na na na na na</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
+			<row important_over="false"><ch a="A"/> Byłem dzisiaj w Jeruzalem,</row>
+			<row important_over="false"><ch a="C"/> Przemierzałem puste sale,</row>
+			<row important_over="false"><ch a="D"/> Pana twego nie widziałem.</row>
+			<row important_over="false"><ch a="e"/> Pan opuścił Święte Miasto</row>
+			<row important_over="false"><ch a="A"/> Przed minutą, przed godziną,</row>
+			<row important_over="false"><ch a="C"/> W chłodnym gaju na pustyni</row>
+			<row important_over="false"><ch a="D"/> Z Mahometem pije wino.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
+			<row important_over="false"><ch a="A"/> Chcesz oblegać Jeruzalem</row>
+			<row important_over="false"><ch a="C"/> Strzegą go wysokie wieże,</row>
+			<row important_over="false"><ch a="D"/> Strzegą go Mahometanie.</row>
+			<row important_over="false"><ch a="e"/> Pan opuścił Święte Miasto,</row>
+			<row important_over="false"><ch a="A"/> Na nic poświęcenie twoje</row>
+			<row important_over="false"><ch a="C"/> Po cóż niszczyć białe wieże,</row>
+			<row important_over="false"><ch a="D"/> Po cóż ludzi niepokoić?</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
+			<row important_over="false"><ch a="A"/> Porzuć walkę niepotrzebną,</row>
+			<row important_over="false"><ch a="C"/> Porzuć miecz i włócznię swoją,</row>
+			<row important_over="false"><ch a="D"/> I jedź ze mną, i jedź ze mną.</row>
+			<row important_over="false"><ch a="e"/> Bo gdy szlakiem ku północy</row>
+			<row important_over="false"><ch a="A"/> Podążają hufce ludne,</row>
+			<row important_over="false"><ch a="C"/> Ja podnoszę dumnie głowę</row>
+			<row important_over="false"><ch a="D"/> I odjeżdżam na południe.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Przeboje Trampów - Karczma Dla Samotnych (składanka)</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>Adam</verificator><verificator>Onufry (KK)</verificator>
+			
+			
+			
+		</verificators>
+		<to_do>Rozstrzygnięcia google testu: W Jeruzalem byłem dzisiaj, nie wczoraj, z Mahometem wino pije, nie piją.Większość w google teście uważa, że 'strzegą go wysokie wieże', ale jednocześnie 'po coż niszczyć białe wieże' - ja robię tak, jak u nas się śpiewa - czyli strzegą mury, niszczyć wieże.----------Poprawiłem tekst zgodnie oryginalnym nagraniem (Adam) — Dzięki, Adasiu. Poprawiłem literówki (Pan na wielką, etc.), uzgodniłem liczbę 'na na' (Onufry)</to_do>
+	</status>
+	<music_source></music_source>
+</song>

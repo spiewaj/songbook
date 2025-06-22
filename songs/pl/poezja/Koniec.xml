@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Koniec">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Już ost<ch a="A7+"/>atni płomień zg<ch a="C0"/>asł</row>
+      <row important_over="true">Trzeba <ch a="A7+"/>odejść kryjąc tw<ch a="fis"/>arz</row>
+      <row important_over="true">Przez życzl<ch a="h7"/>iwie <ch a="cis7"/>uchylone drzw<ch a="h"/>i<ch a="h7"/><ch a="E"/><ch a="E5+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Ktoś powi<ch a="A7+"/>edział nazbyt wi<ch a="G0"/>ele</row>
+      <row important_over="true">Ktoś się p<ch a="h"/>oczuł przyjaci<ch a="d6"/>elem</row>
+      <row important_over="true">I z dnia n<ch a="A7+"/>a dzień ni<ch a="cis7"/>e zostało n<ch a="h"/>ic<ch a="h7"/><ch a="E"/><ch a="E5+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Ktoś powi<ch a="A7+"/>edział nazbyt wi<ch a="G0"/>ele</row>
+      <row important_over="true">Ktoś się p<ch a="h"/>oczuł przyjaci<ch a="d6"/>elem</row>
+      <row important_over="true">I z dnia n<ch a="A7+"/>a dzień ni<ch a="h"/>e zos<ch a="h7"/>tało n<ch a="A7+"/>ic<ch a="A7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Jutro wst<ch a="D"/>anie nowy dzień po star<ch a="fis"/>emu</row>
+      <row important_over="true">Dzwoni ml<ch a="D"/>eczarz butelkami daje zn<ch a="fis"/>ać</row>
+      <row important_over="true">I na p<ch a="D"/>ewno nic na zewnątrz si<ch a="cis7"/>ę nie zmieni</row>
+      <row important_over="true">Trzeba s<ch a="h7"/>obie tylko j<ch a="D"/>akoś z sobą s<ch a="d6"/>amym<ch a="E7"/> radę d<ch a="A7+"/>ać</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Już ost<ch a="A7+"/>atni płomień zg<ch a="C0"/>asł</row>
+      <row important_over="false">To już k<ch a="A7+"/>oniec na mnie cz<ch a="fis"/>as</row>
+      <row important_over="false">Drugi brz<ch a="h7"/>eg w oddali d<ch a="cis7"/>awno zn<ch a="h"/>ikł<ch a="h7"/><ch a="E"/><ch a="E5+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tyle s<ch a="A7+"/>erca kosztow<ch a="G0"/>ało</row>
+      <row important_over="false">Jak wyjść t<ch a="h"/>eraz z tego c<ch a="d6"/>ało</row>
+      <row important_over="false">Gdy z dnia n<ch a="A7+"/>a dzień ni<ch a="cis7"/>e zostało n<ch a="h"/>ic<ch a="h7"/><ch a="E"/><ch a="E5+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tyle s<ch a="A7+"/>erca kosztow<ch a="G0"/>ało</row>
+      <row important_over="false">Jak wyjść t<ch a="h"/>eraz z tego c<ch a="d6"/>ało</row>
+      <row important_over="false">Gdy z dnia n<ch a="A7+"/>a dzień ni<ch a="h"/>e zos<ch a="h7"/>tało n<ch a="A7+"/>ic<ch a="A7"/></row>
+    </block>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Kuba</verificator>
+    </verificators>
+    <to_do>NIe wiem, jak zaznaczyć, że tam pod koniec część się powtarza itd.</to_do>
+  </status>
+</song>

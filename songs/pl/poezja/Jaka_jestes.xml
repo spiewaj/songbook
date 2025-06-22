@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jaka jesteś">
+	<alias>Bitwa</alias>
+	<text_author type="solo">Tomek Lewandowski</text_author>
+	<comment></comment>
+	<composer type="solo">Tomek Lewandowski</composer>
+	<artist type="solo">Tomek Lewandowski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jesteś bitwą moją nieskończoną<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>W której ciągle o przyczułek walczę<ch a="D"/></row>
+			<row important_over="false">
+				<ch a="D"/>Jesteś drzwiami które otworzyłem<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>A potem przycięły mi palce<ch a="D"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">
+				<ch a="D"/>Jesteś kartką z kalendarza<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Zgubioną gdzieś pomiędzy szufladami<ch a="D"/></row>
+			<row important_over="false">
+				<ch a="D"/>I ulicą na której co dzień<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Uciekałem między latarniami<ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jesteś mgłą ogromną nie zmierzoną<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Ciszą w huku i łoskotem w ciszy<ch a="D"/></row>
+			<row important_over="false">
+				<ch a="D"/>Jesteś piórem i wyblakłą kartką<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Którym i na której dzisiaj piszę<ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Przyszłaś do mnie a ja nie spostrzegłem<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Dzisiaj tylko mogę mówić byłaś<ch a="D"/></row>
+			<row important_over="false">
+				<ch a="D"/>Nie wiem czy na jawie wzięłaś mnie za rękę<ch a="G"/></row>
+			<row important_over="false">
+				<ch a="A"/>Czy jak wszystko ty się tylko śniłaś.<ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators/>
+		<to_do></to_do>
+		<done>
+			<authors/>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

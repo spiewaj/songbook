@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wspomnienia">
+  <alias>Kanada</alias>
+  <text_author type="solo">Phil Spector, Leonard Cohen</text_author>
+  <comment>Do sprawdzenia akordy i ustawienie nad tekstem</comment>
+  <composer type="solo">Phil Spector</composer>
+  <artist>Maciej Zębaty</artist>
+  <translator>Maciej Karpiński, Maciej Zembaty</translator>
+  <original_title>Memories</original_title>
+  <lyric>
+    <block type="other">
+      <row important_over="never" sidechords="C a F G"><ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/>Lata 50-te, Kanada. Brudna przepocona sala gimnastyczna w jakiejś<ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">kanadyjskiej szkole. Dziewczęta tańczą ze sobą, chłopcy trochę pijani</row>
+      <row important_over="never">podpierają drabinki gimnastyczne. W kieszeniach butelki taniego, </row>
+      <row important_over="never">botwinowego wina po 21 centów, a może nawet po 19 centów </row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Frankie L<ch a="C"/>ane właśnie śp<ch a="a"/>iewał<ch a="F"/> &quot;Jesa<ch a="G"/>bel&quot;</row>
+      <row important_over="true">Przyp<ch a="C"/>iąłem więc Żelazny K<ch a="a"/>rz<ch a="F"/>yż do piersi <ch a="G"/>swej</row>
+      <row important_over="true">Podsz<ch a="C"/>edłem do naj<ch a="E"/>wyższej z dziewczyn<ch a="a"/> i najbardziej blond</row>
+      <row important_over="true"><ch a="C"/>Powiedziałem: Jeszcze nie znasz mnie i to twój wielki błąd<ch a="E"/><ch a="a"/></row>
+      <row important_over="true">Więc <ch a="F"/>czy pokażesz <ch a="C"/>mi</row>
+      <row important_over="true">Powiedz, <ch a="F"/>czy pokażesz<ch a="C"/> mi</row>
+      <row important_over="true">Gadaj, c<ch a="F"/>zy pokażesz mi</row>
+      <row important_over="true">Swe nagie <ch a="C"/>ciało?<ch a="a"/><ch a="F"/><ch a="Fis"/><ch a="G"/></row>
+    </block>
+    <block type="other">
+      <row important_over="never"><ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/>A ja skoncentruję się przed czekającym mnie </row>
+      <row important_over="never">w następnej zwrotce niełatwym zadaniu aktorskim</row>
+      <row important_over="never">Z tekstu wynika<ch a="a"/><ch a="F"/><ch a="Fis"/><ch a="G"/>, że będę musiał wcielić się w postać</row>
+      <row important_over="never">Niewinnej, jasnowłosej, kanadyjskiej nastolatki</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Chodź odtańczymy w najciemniejszy kąt<ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">Tam może nie odepchnę twoich rąk<ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Wyraźnie słyszę w twoim głosie wielki głód<ch a="E"/><ch a="a"/></row>
+      <row important_over="never"><ch a="C"/>Wszystkiego dotknąć, czego zechcesz będziesz mógł<ch a="E"/><ch a="a"/></row>
+      <row important_over="never"><ch a="F"/>Lecz nie pokażę ci<ch a="C"/></row>
+      <row important_over="never"><ch a="F"/>Nigdy nie pokażę ci<ch a="C"/></row>
+      <row important_over="never"><ch a="F"/>W życiu nie pokażę ci</row>
+      <row important_over="never">Nagiego ciała!<ch a="C"/><ch a="a"/><ch a="F"/><ch a="Fis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never"><ch a="C"/>Tańczymy blisko, zespół zagrał ,,Star dust&#039;&#039;<ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Konfetti, serpentyny lecą prosto w nas<ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Szepnęła: Masz minutę, by zakochać się<ch a="E"/><ch a="a"/></row>
+      <row important_over="never"><ch a="C"/>W tak uroczystej chwili muszę wierzyć że<ch a="E"/><ch a="a"/></row>
+      <row important_over="never"><ch a="F"/>Pokażesz jednak mi<ch a="C"/></row>
+      <row important_over="never"><ch a="F"/>Że pokażesz w końcu mi<ch a="C"/></row>
+      <row important_over="never"><ch a="F"/>Że pokażesz dzisiaj mi</row>
+      <row important_over="never">Swe nagie ciało!<ch a="a"/><ch a="F"/><ch a="Fis"/><ch a="G"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+    </done>
+    <verificators>
+      <verificator>Tekst: KT</verificator>
+    </verificators>
+    <to_do>Akordy</to_do>
+  </status>
+</song>

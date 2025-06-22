@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mędrcy świata">
+	<alias/>
+	<text_author type="solo"/>
+	<comment>Tonacja na mój głos - pierwszy dźwięk to E</comment>
+	<composer type="solo"/>
+	<artist type="solo"/>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">M<ch a="C"/>ędrcy świata m<ch a="F"/>onarch<ch a="C"/>owie</row>
+			<row important_over="true">Gdzi<ch a="d"/>e spiesznie dąż<ch a="G7"/>yci<ch a="C"/>e</row>
+			<row important_over="true">P<ch a="C"/>owiedzcież nam trz<ch a="F"/>ej król<ch a="G"/>owie</row>
+			<row important_over="true">Chc<ch a="C"/>ecie w<ch a="d"/>idzieć dzi<ch a="G"/>eci<ch a="C"/>ę</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="true">
+					<ch a="G"/>Ono w żłobie ni<ch a="C"/>e ma tronu</row>
+				<row important_over="true">
+					<ch a="d"/>I berł<ch a="C"/>a nie dzi<ch a="C"/>erż<ch a="G"/>y</row>
+				<row important_over="true">
+					<ch a="C"/>A proroctwo j<ch a="F"/>ego zg<ch a="G"/>onu</row>
+				<row important_over="true">J<ch a="C"/>uż się w świ<ch a="d"/>ecie sz<ch a="G7"/>erz<ch a="C"/>y</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">M<ch a="C"/>ędrcy świata, zł<ch a="F"/>ość okr<ch a="C"/>utna</row>
+			<row important_over="false">Dzi<ch a="d"/>ecię prześlad<ch a="G7"/>uj<ch a="C"/>e</row>
+			<row important_over="false">Wi<ch a="C"/>eść okropna wi<ch a="F"/>eść to sm<ch a="G"/>utna</row>
+			<row important_over="false">H<ch a="C"/>erod sp<ch a="d"/>isek kn<ch a="G"/>uj<ch a="C"/>e</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="false">N<ch a="G"/>ic monarchów ni<ch a="C"/>e odstrasza</row>
+				<row important_over="false">D<ch a="d"/>o Betl<ch a="C"/>ejem spi<ch a="C"/>esz<ch a="G"/>ą</row>
+				<row important_over="false">Gwi<ch a="C"/>azda zbawcę <ch a="F"/>im ogł<ch a="G"/>asza</row>
+				<row important_over="false">N<ch a="C"/>adziej<ch a="d"/>ą się ci<ch a="G7"/>esz<ch a="C"/>ą</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Prz<ch a="C"/>ed Maryją st<ch a="F"/>oją sp<ch a="C"/>ołem</row>
+			<row important_over="false">Ni<ch a="d"/>osą Panu d<ch a="G7"/>ar<ch a="C"/>y</row>
+			<row important_over="false">Prz<ch a="C"/>ed Jezusem b<ch a="F"/>iją cz<ch a="G"/>ołem</row>
+			<row important_over="false">Skł<ch a="C"/>adaj<ch a="d"/>ą ofi<ch a="G"/>ar<ch a="C"/>y</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="false">Trz<ch a="G"/>ykroć szczęśliw<ch a="C"/>i królowie</row>
+				<row important_over="false">Kt<ch a="d"/>óż wam ni<ch a="C"/>e zazdr<ch a="C"/>ośc<ch a="G"/>i</row>
+				<row important_over="false">C<ch a="C"/>óż my damy, kt<ch a="F"/>o nam p<ch a="G"/>owie</row>
+				<row important_over="false">P<ch a="C"/>ałaj<ch a="d"/>ąc z mił<ch a="G7"/>ośc<ch a="C"/>i</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="C"/>ak jak każą n<ch a="F"/>am kapł<ch a="C"/>ani</row>
+			<row important_over="false">D<ch a="d"/>amy dar tro<ch a="G7"/>ist<ch a="C"/>y</row>
+			<row important_over="false">M<ch a="C"/>odły pracę ni<ch a="F"/>osąc w d<ch a="G"/>ani</row>
+			<row important_over="false">
+				<ch a="C"/>I żar s<ch a="d"/>erca cz<ch a="G"/>yst<ch a="C"/>y</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="false">T<ch a="G"/>o kadzidło m<ch a="C"/>irrę złoto</row>
+				<row important_over="false">Ni<ch a="d"/>esiem J<ch a="C"/>ezu szcz<ch a="C"/>erz<ch a="G"/>e</row>
+				<row important_over="false">C<ch a="C"/>o dajemy C<ch a="F"/>i z och<ch a="G"/>otą</row>
+				<row important_over="false">
+					<ch a="C"/>Od nas prz<ch a="d"/>yjm w ofi<ch a="G7"/>er<ch a="C"/>ze</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do/>	<done>
+			
+			
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>	<keywords/>
+	<music_source/>
+	<album/>
+	<genre>Kolęda</genre>
+</song>

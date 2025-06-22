@@ -1,0 +1,20 @@
+
+span.lyric {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  border: 1px solid green;
+}
+
+span.lyric span.chunk {
+  display: inline-flex;
+  border: 1px solid #ff1c23;
+  flex-direction: column;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+span.lyric span.chord {
+  font-size: xx-small;
+}

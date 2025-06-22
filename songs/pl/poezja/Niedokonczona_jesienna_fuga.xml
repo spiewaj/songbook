@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Niedokończona jesienna fuga" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment></comment>
+	<composer type="solo">Sylwester Szweda</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<bis times="2">
+				<row important_over="false" style="instr"><ch a="a"/><ch a="G6"/><ch a="E4"/><ch a="E"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="true">
+				<ch a="a"/>A jeśl<ch a="G6"/>i mni<ch a="F"/>e dom bucz<ch a="C7+"/>yną spięty</row>
+			<row important_over="true">t<ch a="E4"/>ej noc<ch a="E7"/>y przyjmie w sw<ch a="a"/>oj<ch a="G"/>e pr<ch a="C"/>ogi</row>
+			<row important_over="true">z<ch a="g"/>apal<ch a="C"/>ę gwiazdy w n<ch a="F7+"/>ocy gł<ch a="H7"/>ębi</row>
+			<row important_over="true">
+				<ch a="e"/>a sam z<ch a="A7"/>akwitnę g<ch a="d"/>órsk<ch a="E7"/>im głogiem</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="a"/>A jeśl<ch a="G6"/>i mni<ch a="F"/>e dom bucz<ch a="C7+"/>yną spięty</row>
+			<row important_over="false">t<ch a="E4"/>ej noc<ch a="E7"/>y przyjmie w sw<ch a="a"/>oj<ch a="G"/>e pr<ch a="C"/>ogi</row>
+			<row important_over="true">z<ch a="g"/>apal<ch a="C"/>ę gwiazdy w n<ch a="F7+"/>oc<ch a="e"/>y gł<ch a="E7/4"/>ębi</row>
+			<row important_over="true">
+				<ch a="a"/>a sam z<ch a="G6"/>akwitn<ch a="a"/>ę głogiem</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">B<ch a="f9"/>eskid kołysze si<ch a="C7+"/>ę i szumi</row>
+				<row important_over="true">i chwi<ch a="d"/>ać się b<ch a="e"/>ędzie drż<ch a="a"/>eniem nieba</row>
+				<row important_over="true">
+					<ch a="h"/>i hor<ch a="E"/>yzontu zmi<ch a="a"/>en<ch a="G"/>i dr<ch a="F"/>ogi</row>
+				<row important_over="true">i <ch a="d"/>umrzeć m<ch a="e"/>oim sł<ch a="a"/>owom nie da</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Do końca drogi swej noc zmierza<ch a="a"/><ch a="G6"/><ch a="F"/><ch a="C7+"/></row>
+			<row important_over="false">i płoną drzewa w nocnym chłodzie<ch a="E4"/><ch a="E7"/><ch a="a"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">czy gościem będę w nim czy muszę<ch a="g"/><ch a="C"/><ch a="F7+e"/><ch a="E7/4"/></row>
+			<row important_over="false">do domu swego wejść jak złodziej<ch a="a"/><ch a="G6"/><ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Beskid woła znak mi daje<ch a="f9"/><ch a="C7+"/></row>
+				<row important_over="false">wiem oto droga już niedługa<ch a="d"/><ch a="e"/><ch a="a"/></row>
+				<row important_over="false">i trwa świt złocąc wyświechtana<ch a="h"/><ch a="E"/><ch a="a"/><ch a="GF"/></row>
+				<row important_over="false">jesiennym wiatrem biedna fuga<ch a="d"/><ch a="e"/><ch a="a"/></row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+		</done>
+		<verificators>
+			<verificator>Alek</verificator><verificator>
+			</verificator><verificator>
+			</verificator>
+		</verificators>
+		<to_do>Tekst i akordy za http://www.pulsar.net.pl/bukowina/spiewnik/jesiennafuga.html</to_do>
+	</status>
+	<music_source></music_source>
+</song>

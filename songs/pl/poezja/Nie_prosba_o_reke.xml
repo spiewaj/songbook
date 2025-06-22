@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie — prośba o rękę">
+  <alias/>
+  <text_author type="solo">Georges Brassens</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Łaskawie chciej oszczędzić strzał</row>
+      <row important_over="false"><ch a="d"/>Wprost w plecy tego który dał</row>
+      <row important_over="false"><ch a="a"/>Nam tyle szczęścia<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Kupidyn żartem napiął łuk</row>
+      <row important_over="false"><ch a="d"/>A ty byś chciała zaraz już</row>
+      <row important_over="false"><ch a="a"/>Ustrzelić męża<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>O rękę twą<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Swoją dłoń</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Chcę aby dzikich ptaków klucz</row>
+      <row important_over="false"><ch a="d"/>Otwierać wolność zawsze mógł</row>
+      <row important_over="false"><ch a="a"/>Bez której zginę<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Precz z marynatą która ma</row>
+      <row important_over="false"><ch a="d"/>Zakonserwować serca dwa</row>
+      <row important_over="false"><ch a="a"/>Na wieczną zimę<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Czar Wenus często traci moc</row>
+      <row important_over="false"><ch a="d"/>Gdy okazuje się że noc</row>
+      <row important_over="false"><ch a="a"/>Poświęca praniu<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Za żadną cenę nie chcę by</row>
+      <row important_over="false"><ch a="d"/>Mej róży płatki w sosie szły</row>
+      <row important_over="false"><ch a="a"/>Na drugie danie<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Syreni blednie rychło blask</row>
+      <row important_over="false"><ch a="d"/>Gdy nim szafujesz raz po raz</row>
+      <row important_over="false"><ch a="a"/>Wszędzie i ciągle<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Zatłuścić łatwo czuły list</row>
+      <row important_over="false"><ch a="d"/>Gdy wśród kotletów jarskich tkwi</row>
+      <row important_over="false"><ch a="a"/>W kucharskiej księdze<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Może wydawać komuś się</row>
+      <row important_over="false"><ch a="d"/>Że puszka to odkrycie jest</row>
+      <row important_over="false"><ch a="a"/>Rewolucyjne<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Lecz ja mam swój prywatny sąd</row>
+      <row important_over="false"><ch a="d"/>I nie dam siebie wsadzić do</row>
+      <row important_over="false"><ch a="a"/>Konserwy rybnej<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Kucharki w tobie nie chcę mieć</row>
+      <row important_over="false"><ch a="d"/>Gosposia marna z ciebie jest</row>
+      <row important_over="false"><ch a="a"/>Więc daruj sobie<ch a="d"/></row>
+      <row important_over="false"><ch a="g"/>Zechciej mi tylko służyć tam</row>
+      <row important_over="false"><ch a="d"/>Gdzie miejsce jest dla wielkich dam</row>
+      <row important_over="false"><ch a="a"/>I mnie pocałuj<ch a="d"/><ch a="D7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
+        <row important_over="false"><ch a="F"/>O rękę twą<ch a="A7"/></row>
+        <row important_over="false"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
+        <row important_over="false"><ch a="d"/>Swoją dłoń</row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

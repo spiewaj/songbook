@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Górska ballada">
+	<alias></alias>
+	<text_author type="solo">Leszek Kopeć</text_author>
+	<comment></comment>
+	<composer type="solo">Leszek Kopeć</composer>
+	<artist type="solo">Leszek Kopeć</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<bis times="2">
+				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="true">Przył<ch a="C"/>ączył się d<ch a="F"/>o nas na j<ch a="G"/>ednej z węd<ch a="C"/>rówek</row>
+			<row important_over="true">Razem z n<ch a="F"/>ami przemierzał górskie szl<ch a="e"/>aki</row>
+			<row important_over="true">Rz<ch a="F"/>adko do k<ch a="e"/>ogoś od<ch a="d"/>ezwał się sł<ch a="C"/>owem</row>
+			<row important_over="true">Lecz ch<ch a="F"/>yba mu dobrze było z n<ch a="G"/>ami</row>
+			<row important_over="false">Raz ki<ch a="C"/>edyś w schron<ch a="F"/>isku gdy n<ch a="G"/>oc nas zdyb<ch a="C"/>ała</row>
+			<row important_over="false">Otw<ch a="F"/>orzył jakiś zeszyt wypłowi<ch a="e"/>ały</row>
+			<row important_over="false">Spod p<ch a="F"/>alców spłyn<ch a="e"/>ęły mu dźwi<ch a="d"/>ęki git<ch a="C"/>ary</row>
+			<row important_over="false">I sł<ch a="F"/>owa nieznane lecz bli<ch a="G"/>skie</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">Bo zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="true">A w niej z<ch a="d"/>amknął<ch a="G"/> echa g<ch a="C"/>ór</row>
+				<row important_over="true">Bo zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="true">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
+			</bis>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false">Od t<ch a="C"/>ego wiecz<ch a="F"/>oru już z<ch a="G"/>awsze nam śpi<ch a="C"/>ewał</row>
+			<row important_over="false">O nim s<ch a="F"/>amym mówiły pios<ch a="e"/>enki</row>
+			<row important_over="false">Jakieś <ch a="F"/>imię dziewcz<ch a="e"/>yny wspomni<ch a="d"/>enia dużego mi<ch a="C"/>asta</row>
+			<row important_over="false">Dym z <ch a="F"/>ognisk i noce nieprzesp<ch a="G"/>ane</row>
+			<row important_over="false">Na j<ch a="C"/>ednym ze szl<ch a="F"/>aków poż<ch a="G"/>egnał się z n<ch a="C"/>ami</row>
+			<row important_over="false">Odszedł dr<ch a="F"/>ogą inną niezn<ch a="e"/>aną</row>
+			<row important_over="false">Odszedł j<ch a="F"/>ak Majster Bi<ch a="e"/>eda może ki<ch a="d"/>edyś powr<ch a="C"/>óci</row>
+			<row important_over="false">Z<ch a="F"/>awsze na niego czek<ch a="G"/>amy</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="false">A w niej z<ch a="d"/>amknął<ch a="G"/> echa g<ch a="C"/>ór</row>
+				<row important_over="false">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="false">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
+			</bis>
+			<row important_over="false">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
+		</block>
+		<blocklink blocknb="1"/>
+	</lyric>
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators>
+			<verificator>Kuba</verificator><verificator>Onufry</verificator>
+			
+			
+		</verificators>
+		<to_do>a) drugi refren jest z bisem, a dodatkowa linijka po nim występuje tylko raz - trzeba to jakoś rozwiązać
+b) Ja w ogóle zazwyczaj gram tę wstawkę muzyczną po pierwszym refrenie tylko raz, ale chwilowo piszę dwa razy.
+Nie mam dostępu do oryginału.</to_do>
+		<done>	
+			
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album>Na szlaku - Turystyczne przeboje - cz. 3</album>
+	<genre>Piosenka turystyczna górska</genre>
+</song>

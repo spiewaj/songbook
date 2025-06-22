@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka wiosenna">
+	<alias/>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment/>
+	<composer type="solo">Wojciech Jarociński</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="other">
+			<row important_over="false" style="instr">
+				<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="h"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Z<ch a="e"/>agram dla ciebie na k<ch a="h"/>ażdej gitarze świ<ch a="C"/>ata<ch a="D"/></row>
+			<row important_over="false">N<ch a="e"/>a ulic fletach, na n<ch a="h"/>itkach babiego l<ch a="C"/>ata<ch a="D"/></row>
+			<row important_over="true">Wyśpi<ch a="G"/>ewam jak potr<ch a="D"/>afię księż<ch a="G"/>yce na rozst<ch a="C"/>ajach</row>
+			<row important_over="true">I wrz<ch a="h7"/>eśnie i st<ch a="C"/>ycznie i m<ch a="a7"/>aj<ch a="D"/>e</row>
+			<row important_over="true">I z<ch a="h7"/>agubione dźwięki i barwy na płótnach Vlam<ch a="a7"/>incka<ch a="D7"/></row>
+			<row important_over="true">I sł<ch a="h7"/>ońce wędrujące promi<ch a="C7+"/>enia ścież<ch a="a7"/>ynk<ch a="D"/>ą</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Gr<ch a="G"/>aj nam gr<ch a="D"/>aj pi<ch a="C"/>eśni skrzydl<ch a="G"/>ata</row>
+			<row important_over="true">Wi<ch a="h"/>osna t<ch a="C"/>aniec nasz niesie po ł<ch a="D4"/>ąk<ch a="D"/>ach</row>
+			<row important_over="true">Z<ch a="G"/>atańcz<ch a="C9/5"/>ymy się w sobie do l<ch a="G"/>a<ch a="h"/>t<ch a="C9/5"/>a</row>
+			<row important_over="true">Z<ch a="G"/>atańcz<ch a="D4"/>ymy się w sobie bez k<ch a="C"/>o<ch a="D"/>ńc<ch a="G"/>a</row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr">
+				<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="h"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A bl<ch a="e"/>ask, co oświetla me r<ch a="h"/>ęce gdy p<ch a="C"/>iszę<ch a="D"/></row>
+			<row important_over="false">N<ch a="e"/>abrzmiał potrzebą r<ch a="h"/>ozerwania c<ch a="C"/>iszy<ch a="D"/></row>
+			<row important_over="false">Przez <ch a="G"/>okno wyciekł p<ch a="D"/>ełna go t<ch a="G"/>eraz chmara wr<ch a="C"/>onia</row>
+			<row important_over="false">Dzi<ch a="h"/>obi się w dziobów k<ch a="C"/>ońcach, a w og<ch a="a"/>onach og<ch a="D"/>oni</row>
+			<row important_over="false">A pi<ch a="h"/>eśń moja to niknie, to wr<ch a="a"/>aca<ch a="D"/></row>
+			<row important_over="false">I ni<ch a="h"/>e wiem co bym zrobił gd<ch a="C"/>ybym ją utr<ch a="a"/>ac<ch a="D"/>ił</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Gr<ch a="G"/>aj nam gr<ch a="D"/>aj pi<ch a="C"/>eśni skrzydl<ch a="G"/>ata</row>
+				<row important_over="false">Wi<ch a="h"/>osna t<ch a="C"/>aniec nasz niesie po ł<ch a="D4"/>ąk<ch a="D"/>ach</row>
+				<row important_over="false">Z<ch a="G"/>atańcz<ch a="C9/5"/>ymy się w sobie do l<ch a="G"/>a<ch a="h"/>t<ch a="C9/5"/>a</row>
+				<row important_over="false">Z<ch a="G"/>atańcz<ch a="D4"/>ymy się w sobie bez k<ch a="C"/>o<ch a="D"/>ńc<ch a="G"/>a</row>
+			</bis>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr">
+				<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+		</block>
+	</lyric>
+	<music metre="3/3">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album>Bukowina</album>
+	<genre>Poezja śpiewana</genre>
+</song>

@@ -1,0 +1,141 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://21wdh.staszic.waw.pl" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:song="http://21wdh.staszic.waw.pl">
+    <xs:element name="song" type="song:songType"/>
+    <xs:complexType name="creatorType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="solo" />
+                            <xs:enumeration value="band" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="chType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="a" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="rowType" mixed="true">
+        <xs:sequence>
+            <xs:element type="song:chType" name="ch" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="important_over" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="true"/> <!--Chords should be showed above the lyric-->
+                    <xs:enumeration value="false"/><!--Chords may be showed above the lyric (but it's usually not needed)-->
+                    <xs:enumeration value="never"/><!--Chords are only shown on the left side-->
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="sidechords" type="xs:string" use="optional"/>
+        <xs:attribute name="style" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="instr" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="blockType" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="song:rowType" name="row" maxOccurs="unbounded" minOccurs="0" />
+            <xs:element type="song:bisType" name="bis" maxOccurs="unbounded" minOccurs="0" />
+        </xs:choice>
+        <xs:attribute name="type" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string" >
+                    <xs:enumeration value="verse" />
+                    <xs:enumeration value="chorus" />
+                    <xs:enumeration value="other" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+
+    <xs:complexType name="bisType">
+        <xs:sequence>
+            <xs:element type="song:rowType" name="row" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="times" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="blocklinkType">
+        <xs:attribute type="xs:integer" name="blocknb" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="lyricType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="song:blockType" name="block" maxOccurs="unbounded" minOccurs="0" />
+            <xs:element type="song:blocklinkType" name="blocklink" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="guitarType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:byte" name="barre"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="musicType">
+        <xs:all>
+            <xs:element type="song:guitarType" name="guitar" minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+        <xs:attribute type="xs:string" name="metre" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="keywordsType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="keyword" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="doneType">
+        <xs:all>
+            <xs:element type="xs:string" name="text" maxOccurs="1" minOccurs="0"/>
+            <xs:element type="xs:string" name="chords" maxOccurs="1" minOccurs="0"/>
+            <xs:element type="xs:string" name="authors" maxOccurs="1" minOccurs="0"/>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="verificatorsType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="verificator" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="statusType">
+        <xs:all>
+            <xs:element type="song:doneType" name="done" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:verificatorsType" name="verificators"  minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="to_do"  minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="songType">
+        <xs:all>
+            <xs:element type="xs:string" name="alias" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:creatorType" name="text_author" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="comment" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:creatorType" name="composer" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:creatorType" name="artist" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="translator" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="original_title" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:lyricType" name="lyric" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:musicType" name="music" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:keywordsType" name="keywords" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="album" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="genre" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="song:statusType" name="status" minOccurs="0" maxOccurs="1"/>
+            <xs:element type="xs:string" name="music_source" minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+        <xs:attribute type="xs:string" name="title" use="required"/>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Blues niepotrzebnych powrotów">
+	<artist type="solo">Elżbieta Adamiak</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Dop<ch a="A7"/>ala się świ<ch a="D7"/>eca, mal<ch a="A7"/>eńki płomień drż<ch a="Fis7"/>y</row>
+			<row important_over="true">Pow<ch a="h7"/>oli zza pi<ch a="E7"/>eca wych<ch a="A7"/>odzą<ch a="D7"/> szare sn<ch a="A7"/>y</row>
+			<row important_over="true">Zaci<ch a="D7"/>ęła się płyta, ad<ch a="F7"/>apter się bi<ch a="E7"/>edzi</row>
+			<row important_over="true">Stuk<ch a="D7"/>ają w podłogę zmęcz<ch a="F7"/>eni sąsi<ch a="E7"/>edzi</row>
+			<row important_over="true">Więc <ch a="A7"/>idź już, nie wr<ch a="D7"/>acaj, ni<ch a="A7"/>e prz<ch a="h7"/>eszk<ch a="C"/>adz<ch a="D7"/>aj m<ch a="A7"/>i</row>
+		</block>
+		<block type="other">
+			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nie było cię długo, przestałam liczyć dni<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
+			<row important_over="false">Wolałeś tę drugą, kwiaciarkę z vis a vis<ch a="h7"/><ch a="E7"/><ch a="A7"/><ch a="D7"/><ch a="A7"/></row>
+			<row important_over="false">Zapomniał korytarz, jak brzmią twoje kroki<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
+			<row important_over="false">Nie poznał cię nawet twój fotel głęboki<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
+			<row important_over="false">Więc po co tu siedzisz, dziwisz nocne ćmy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
+		</block>
+		<block type="other">
+			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Posłuchaj, latarnie wołają cię zza mgły<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
+			<row important_over="false">Nie patrz tak na mnie, wiesz przecież, gdzie są drzwi<ch a="h7"/><ch a="E7"/><ch a="A7"/><ch a="D7"/><ch a="A7"/></row>
+			<row important_over="false">Potrafię bez ciebie oddychać i śpiewać<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
+			<row important_over="false">Choć coraz bezbarwniej jest ptakom na drzewach<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
+			<row important_over="false">A tamte dwie krople, to wcale nie są łzy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
+		</block>
+		<block type="other">
+			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+		</block>
+	</lyric>
+	
+	
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<composer type="solo"></composer>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

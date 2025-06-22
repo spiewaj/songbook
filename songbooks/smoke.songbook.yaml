@@ -1,0 +1,15 @@
+songbook:
+  title: "Śpiewnik testowy"
+  subtitle: "[smoke]"
+  place: "Szczekociny"
+  url: "https://spiewaj.com/#test"
+  hidden: true
+  uuid: "ad0aacee-2534-44f2-bb1e-012345678901"
+  publisher: |
+    Górniczo-hutnicze zastępy
+    testowe
+  image:
+    jpg: songbooks/wdw21/znak21.jpg
+    pdf: songbooks/wdw21/znak21.pdf
+  songs:
+    - glob: "/songs/**/Bar*.xml"

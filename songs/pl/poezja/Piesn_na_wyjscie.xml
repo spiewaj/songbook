@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń na wyjście">
+	<alias/>
+	<text_author type="solo">Edward Stachura</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">
+				<ch a="a"/>Idź człowieku idź rozpowiedz</row>
+			<row important_over="true">Idźcie <ch a="d"/>wszystkie stany</row>
+			<row important_over="true">Kolor<ch a="E"/>owi biali czarni</row>
+			<row important_over="true">Idźci<ch a="F"/>e zwłaszcza wy ludk<ch a="G"/>owie</row>
+			<row important_over="true">Przez n<ch a="e"/>a oścież <ch a="a"/>bramy</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Dla <ch a="C"/>wszystkich st<ch a="G"/>arczy m<ch a="a"/>iejsca<ch a="e"/></row>
+			<row important_over="true">Pod <ch a="C"/>wielkim d<ch a="G"/>achem <ch a="a"/>nieba<ch a="e"/></row>
+			<row important_over="true">Roz<ch a="C"/>ejdźcie się po d<ch a="G"/>rogach</row>
+			<row important_over="true">Po łąkach, po roz<ch a="G"/>łogach<ch a="e"/><ch a="a"/></row>
+			<row important_over="true">Po p<ch a="C"/>olach, błoniach i wy<ch a="G"/>gonach</row>
+			<row important_over="true">W blasku <ch a="G"/>słońca, w cieniu chmu<ch a="e"/>r<ch a="a"/></row>
+			<row important_over="true">Ro<ch a="F"/>zejdźcie się po n<ch a="G"/>iżu</row>
+			<row important_over="true">R<ch a="F"/>ozejdźcie się po <ch a="G"/>wyżu</row>
+			<row important_over="true">R<ch a="F"/>ozejdźcie się po płasko<ch a="G"/>wyżu</row>
+			<row important_over="true">W blasku słońca <ch a="G"/>w cieniu chmur<ch a="e"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Dla <ch a="C"/>wszystkich s<ch a="G"/>tarczy <ch a="a"/>miejsca<ch a="e"/></row>
+			<row important_over="true">Pod <ch a="C"/>wielkim <ch a="G"/>dachem <ch a="a"/>nieba<ch a="e"/></row>
+			<bis times="4">
+				<row important_over="true">Na <ch a="C"/>ziemi której j<ch a="G"/>a i t<ch a="a"/>y</row>
+				<row important_over="true">Ni<ch a="C"/>e zamien<ch a="G"/>imy w bagno <ch a="a"/>krwi</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Alek</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre>Poezja śpiewana</genre>
+</song>

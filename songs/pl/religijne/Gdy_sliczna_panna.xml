@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy śliczna panna">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Gdy śliczna panna syna kołysała</row>
+      <row important_over="false">Z wielkim weselem tak jemu śpiewała</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false">Li li li li laj moje dzieciąteczko</row>
+        <row important_over="false">Li li li li laj śliczne paniąteczko</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Wszystko stworzenie śpiewaj panu swemu</row>
+      <row important_over="false">Pomóż radości wielkiej sercu memu</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false">Li li li li laj wielki królewiczu</row>
+        <row important_over="false">Li li li li laj niebieski dziedzicu</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Sypcie się z nieba śliczni aniołowie</row>
+      <row important_over="false">Śpiewajcie Panu niebiescy duchowie</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false">Li li li li laj mój wonny kwiateczku</row>
+        <row important_over="false">Li li li li laj w ubogim żłóbeczku</row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

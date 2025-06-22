@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Tęsknota" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Leopold Staff</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Leonhard</composer>
+	<artist type="band">Małżeństwo z Rozsądku</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Jesteś cicha jak śnieg<ch a="fis"/><ch a="E"/><ch a="D"/></row>
+			<row important_over="false">Który pada na kwiaty jesienne<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Dłonie twoje jak lek<ch a="D"/><ch a="fis"/></row>
+			<bis times="2">
+				<row important_over="false">Koją usta pragnieniem bezsenne<ch a="E"/><ch a="D"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecz mi nie pić z twych łask<ch a="fis"/><ch a="E"/><ch a="D"/></row>
+			<row important_over="false">Dusza siedmiokroć tęsknotą otruta<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Ociemniała na blask<ch a="D"/><ch a="fis"/></row>
+			<bis times="2">
+				<row important_over="false">Noc ma każda ciężka jak pokuta<ch a="E"/><ch a="D"/></row>
+			</bis>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Śpiewam o tobie co dzień długo w noc<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">A gdy nad ranem zasnę<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">Mam we śnie swoim słonce, radość i moc<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">I twoje oczy jasne<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">Lecz gdy się zbudzę nie widzę twych rąk<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">Co pierś mi chcą ogrzewać<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">I ciągle musze żyć tak sam wśród mąk<ch a="A"/><ch a="h7"/></row>
+			<row important_over="false">Bym mógł o tobie śpiewać<ch a="A"/><ch a="h7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Szczęście wątłe jak mgły<ch a="fis"/><ch a="E"/><ch a="D"/></row>
+			<row important_over="false">Wicher mi stargał jako mgły rozwiejne<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Najpiękniejsze me sny<ch a="D"/><ch a="fis"/></row>
+			<bis times="2">
+				<row important_over="false">Czyż być muszą zawsze beznadziejne<ch a="E"/><ch a="D"/></row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

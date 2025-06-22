@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Modlitwa o wschodzie słońca">
+	<alias></alias>
+	<text_author type="solo">Natan Tenenbaum</text_author>
+	<comment>Ta piosenka dysponuje dwoma typami chwytów - jedne ze wzoszącą się tonacją (bardziej popularna), druga płaska. Tu zaprezentowana ta wznosząca.
+Ponadto rozmieszczenie chwytów jest takie, jak ja śpiewam, niekoniecznie zgodne z kasetowym.</comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="band">Jacek Kaczmarski; Przemysław Gintrowski</artist>
+	<translator>Przemysław Gintrowski</translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">K<ch a="F"/>ażdy Tw<ch a="C"/>ój wyrok prz<ch a="F"/>yjmę tw<ch a="C"/>ardy</row>
+			<row important_over="false">Przed m<ch a="F"/>ocą Tw<ch a="C"/>oją s<ch a="G7"/>ię uk<ch a="C"/>orzę</row>
+			<row important_over="false"><ch a="F"/>Ale chr<ch a="C"/>oń mnie Panie <ch a="F"/>od pog<ch a="C"/>ardy</row>
+			<row important_over="false">Prz<ch a="F"/>ed nienaw<ch a="C"/>iścią strz<ch a="G7"/>eż mnie B<ch a="C"/>oże</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wsz<ch a="G"/>ak T<ch a="D"/>yś jest ni<ch a="G"/>ezmierzone d<ch a="D"/>obro</row>
+			<row important_over="false">Kt<ch a="G"/>ór<ch a="D"/>ego nie wyr<ch a="A7"/>ażą sł<ch a="D"/>owa</row>
+			<row important_over="false"><ch a="G"/> Wi<ch a="D"/>ęc mnie od ni<ch a="G"/>enawiści <ch a="D"/>obroń</row>
+			<row important_over="false"><ch a="G"/>I od pog<ch a="D"/>ardy mn<ch a="A7"/>ie zach<ch a="D"/>owaj</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">C<ch a="A"/>o p<ch a="E"/>ostanowisz ni<ch a="A"/>ech się z<ch a="E"/>iści</row>
+				<row important_over="false">Ni<ch a="A"/>echaj się w<ch a="E"/>ola Tw<ch a="H7"/>oja st<ch a="E"/>anie</row>
+				<row important_over="false"><ch a="A"/>Ale zb<ch a="E"/>aw mnie <ch a="A"/>od nienaw<ch a="E"/>iści</row>
+				<row important_over="false"><ch a="A"/>Ocal mni<ch a="E"/>e od pog<ch a="H7"/>ardy P<ch a="E"/>anie</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>Krzysiek Cz.</verificator>
+			
+			
+		</verificators>
+		<to_do>Nie mam pojęcia, gdzie jest moje Encore, więc nie mogę sprawdzić, kto to wykonuje (Kaczmarski czy Gintrowski), kto przetłumaczył i jak był zatytułowany oryginał.</to_do>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

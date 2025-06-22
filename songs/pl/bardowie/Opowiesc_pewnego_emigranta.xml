@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Opowieść pewnego emigranta">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">
+				<ch a="d"/>Nie bój się, nie zabraknie, <ch a="C"/>to krajowa czysta</row>
+			<row important_over="false">Ja <ch a="A7"/>widzisz przed wojną b<ch a="g"/>yłem komu<ch a="d"/>nista</row>
+			<row important_over="false">Bo ja chciałem być kimś, bo ja <ch a="C"/>byłem Żyd</row>
+			<row important_over="false">A jak <ch a="A7"/>Żyd nie był kimś, to ten Żyd był nikt</row>
+			<row important_over="false">Może stąd dla świata tyle z nas pożytku<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Że bankierom i skrzypkom nie mówią: ty Żydku!<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ja bankierem nie byłem, ani wirtuozem<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Wojnę w Rosji przeżyłem, oswoiłem się z mrozem<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>I na własnych nogach przekroczyłem Bug</row>
+			<row important_over="false"><ch a="A7"/>Razem z Armią Czerwoną, jako politruk</row>
+			<row important_over="false">Ja byłem jak Mojżesz, niosłem prawa nowe<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Na których się miało oprzeć odbudowę<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A potem mnie — lojalnego komunistę<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Przekwalifikowali na manikiurzystę<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>Ja kocham Mozarta, bóg to dla mnie Bach</row>
+			<row important_over="false"><ch a="A7"/>A tam, gdzie pracowałem, tylko krew i strach</row>
+			<row important_over="false">Spałem dobrze przez ścianę słysząc ludzkie krzyki<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">A usnąć nie mogłem przy dźwiękach muzyki<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W następstwie października tak zwanych wydarzeń<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Już nie byłem w Urzędzie, byłem dziennikarzem<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>Ja znałem języki, nie mnie uczyć jak</row>
+			<row important_over="false"><ch a="A7"/>Pisać wprost, to, co łatwiej, można pisać wspak</row>
+			<row important_over="false">Wtedy myśl się zrodził, niechcący być może<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Żem się z krajem tym związał jak mogłem najgorzej<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Za tę hańbę zasługi — Warszawa czy Kraków<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Gomułka nam powiedział — Polska dla Polaków<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>Już nie dla przybłędów pospolita rzecz</row>
+			<row important_over="false"><ch a="A7"/>Wiesław jak faraon popędził nas precz</row>
+			<row important_over="false">I szli profesorowie, uczeni, pisarze<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Pracownicu Urzędu, szli i dziennikarze<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W Tel Awiwie właśnie, zza rogu, z rozpędu<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Wpadłem na byłego kolegę z Urzędu<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>I pod Ścianę Płaczu iść mi było wstyd</row>
+			<row important_over="false"><ch a="A7"/>Czy ja komunista, czy Polak, czy Żyd?</row>
+			<row important_over="false">Nie umiałem jak on, chwały czerpać teraz<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Z tego, że się z bankruta robi bohatera<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wyjechałem, przeniosłem się tutaj, do Stanów<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Mówią: czym jest komunizm, ucz Amerykanów<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>Powiedz im co wiesz, co na sumieniu masz</row>
+			<row important_over="false"><ch a="A7"/>A odkupisz grzechy i odzyskasz twarz</row>
+			<row important_over="false">A ja przecież nie umiem nawet ująć w słowa<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Jak wygląda to, com niszcząc budował<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I tak sam sobie zgotowałem zgubę<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Meloman — nie skrzypek, nie bankier — a ubek<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false"><ch a="C"/>Oficer polityczny — nie russkij gieroj</row>
+			<row important_over="false"><ch a="A7"/>Ani syjonista, ani też i goj</row>
+			<row important_over="false">Jak ja powiem Jehowie: za mną Jahwe stań!<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">Z tą Polską związanym pępowiną hańb<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+		<done/>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

@@ -1,0 +1,46 @@
+contents:
+  repositories:
+    - https://dl-cdn.alpinelinux.org/alpine/edge/main
+    - https://dl-cdn.alpinelinux.org/alpine/edge/community
+  packages:
+    - icu-data-full
+    - texlive
+    - bash
+    - py3-pip
+    - py3-lxml
+    - py3-markupsafe
+    - py3-icu
+    - py3-jinja2
+    - py3-yaml
+    - curl
+    - ca-certificates
+    - xz
+#    - texmf-dist
+#   Unfortunetelly all languages are needed... as otherwise it fails with errors like:/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-af.tex
+#    - texmf-dist-langpolish
+#    - texmf-dist-langother
+#    - texmf-dist-langgerman
+#    - texmf-dist-lang
+#    - texmf-dist-latexrecommended
+#    - texmf-dist-latexextra
+
+cmd: /bin/sh -l
+
+# optional environment configuration
+environment:
+  PATH: /usr/sbin:/sbin:/usr/bin:/bin
+
+accounts:
+  users:
+    - username: latex
+      uid: 10000
+      shell: /bin/sh
+  groups:
+    - groupname: latex
+      gid: 10000
+  run-as: 0
+
+
+archs:
+    - x86_64
+ #   - arm64

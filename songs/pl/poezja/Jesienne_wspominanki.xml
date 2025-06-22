@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesienne wspominanki">
+  <text_author type="solo">Maciej Służała</text_author>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Letnich wieczorów wspomnienie<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>Wraca jak bumerang<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Wygasłych ognisk płomienie<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>Tlą się jeszcze we snach<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Na twarzy ślad opalenizny<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Po każdym myciu bledszy<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Zaczynamy się wstydzić golizny<ch a="e"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d7"/>Zaczynamy ubierać się cieplej<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Odwijamy wspomnienia ze szpulek<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Wyświetlamy na ścianie kolory<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Przekładamy z plecaków do biurek<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Długie wieczory<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Cieplej ubrani w swetry<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>W grube skarpety wełniane<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Niespokojnie w kaloryfer wpatrzeni<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>A nuż grzać nie będzie wcale<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Na pociechę sięgamy do pudeł<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Wyciągamy stare fotografie<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Zapatrzeni w nie cicho myślimy<ch a="e"/><ch a="a"/></row>
+      <row important_over="false"><ch a="D7"/>O lecie które będzie — jakie?<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Za oknem pierwsze płatki śniegu<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>Choć to jeszcze nie zima<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Mieszkanie zimne jak biegun<ch a="E"/><ch a="a7"/></row>
+      <row important_over="false"><ch a="F"/>A my ciągle myślimy<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Co czeka nas w przyszłym roku<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Jakie nam dane przygody<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Widzimy sznur ptaków na niebie<ch a="e"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d7"/>Jesień znów straszy niepogodą<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

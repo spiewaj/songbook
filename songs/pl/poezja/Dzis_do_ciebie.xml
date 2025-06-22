@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziś do ciebie">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Dziś do ciebie przyjść nie mogę</row>
+      <row important_over="false"><ch a="a"/>Idę zaraz w nocny mrok<ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Nie wyglądaj za mną oknem</row>
+      <row important_over="false"><ch a="d"/>We mgle tonie próżno wzrok<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Po cóż ci kochanie wiedzieć</row>
+      <row important_over="false"><ch a="A"/>Że do lasu idę spać<ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>Dłużej tu nie mogę siedzieć<ch a="a"/></row>
+        <row important_over="false"><ch a="E"/>Na mnie czeka leśna brać<ch a="a"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Księżyc zaszedł hen za lasem</row>
+      <row important_over="false"><ch a="a"/>We wsi gdzieś szczekają psy<ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>A nie pomyśl sobie czasem</row>
+      <row important_over="false"><ch a="d"/>Że do innej tęskno mi<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Kiedy wrócę znów do ciebie</row>
+      <row important_over="false"><ch a="A"/>Może w dzień, a może w noc<ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>Dobrze będzie nam jak w niebie<ch a="a"/></row>
+        <row important_over="false"><ch a="E"/>Pocałunków dasz mi moc<ch a="a"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Gdy nie wrócę niechaj wiosną</row>
+      <row important_over="false"><ch a="a"/>Rolę moją sieje brat<ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Kości moje mchem porosną</row>
+      <row important_over="false"><ch a="d"/>I użyźnią ziemi szmat<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>W pole wyjdź któregoś ranka</row>
+      <row important_over="false"><ch a="A"/>Na snop żyta ręce złóż</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>I ucałuj jak kochanka<ch a="a"/></row>
+        <row important_over="false"><ch a="E"/>Ja żyć będę w kłosach zbóż<ch a="a"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

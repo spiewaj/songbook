@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/html" lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <script type="module" src="./songbook.js"></script>
+  <link rel="stylesheet" href="./song.css"/>
+  <link rel="stylesheet" href="./ch.css"/>
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <script>
+    function init() {
+      const urlParams = new URLSearchParams(window.location.search);
+  
+      const {baseUrl,branch,file,user} = parseParams();
+
+      const loadUrl = urlParams.get('load') ? urlParams.get('load') : baseUrl ? `${baseUrl}/users/${user}/changes/${branch}/${file}` : null;
+
+      const commitOnLoad = urlParams.get('commitOnLoad');
+      const newFile = urlParams.get('new');
+      const songEditor = document.getElementsByTagName("song-editor")[0];
+      songEditor.setAttribute("git", branch && branch.trim() != '');
+      if (loadUrl) {
+        songEditor.setAttribute("title", "Wczytywanie ...");
+        fetch(loadUrl, {credentials: 'include', method: 'GET', redirect: 'follow'})
+            .then( (response) => {
+              console.log("Fetched: " + JSON.stringify(response));
+              if (response.status == 404 && newFile == "maybe") {
+                songEditor.New();
+                return null;
+              }
+              if (response.status != 200) {
+                songEditor.setAttribute("title", "Nie udało się otworzyć pliku do edycji.");
+                return null;
+              }
+              return response.text();
+            })
+            .then((txt) => {
+              if (txt == null) {
+                return;
+              }
+              if (!songEditor.Load(txt)) {
+                songEditor.setAttribute("title", "Wczytywanie się nie powiodło :(");
+                return;
+              }
+              if (commitOnLoad) {
+                // The goal is to mark the file that is being touched to prevent deletion and
+                // to distinguish user's changes from automatic format change.
+                const title = songEditor.getAttribute("title");
+                const msg = `Piosenka ${title}: Initial`;
+                const ser = songEditor.Serialize();
+                if (txt !== ser) {
+                  commitInternal(songEditor, ser, msg);
+                }
+              }
+            })
+      } else {
+        songEditor.New();
+      }
+      songEditor.addEventListener("git:commit", async (e) => {
+         await commit(e.target);
+      } );
+      songEditor.addEventListener("git:commitAndPublish", (e)=>commitAndPublish(e) );
+
+      const topNav = document.getElementById("topnav");
+      for (const nav of [document.getElementById("topnav"), document.getElementById("bottomnav")]) {
+        if (baseUrl) {
+          nav.innerHTML = `<a href="/">[Piosenki]</a> <a href="${baseUrl}/users/me/changes">[Inne rozpoczęte edycje]</a>`;
+          nav.hidden = false;
+        } else {
+          nav.innerHTML = '';
+          nav.hidden = true;
+        }
+      }
+    }
+
+    function parseParams() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return {
+        baseUrl: urlParams.get('baseUrl'),
+        branch: urlParams.get('branch'),
+        file: urlParams.get('file'),
+        user: urlParams.get('user')
+      }
+    }
+
+    function notice(txt, owner=null) {
+      const notice = document.createElement("div");
+      notice.classList.add("notice");
+      notice.innerText=txt;
+
+      setTimeout(() => {
+        notice.remove();
+      }, 2000)
+
+      if (!owner) {
+        document.getElementsByTagName("BODY")[0].insertBefore(notice, null);
+      } else {
+        owner.parentNode.insertBefore(notice, owner.nextSibling);
+      }
+    }
+
+    async function commitInternal(songbook, serialized, msg) {
+      try {
+        const config = {
+          method: 'POST',
+          credentials: 'include',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'text/xml',
+          },
+          body: serialized
+        }
+        const {baseUrl,branch,file,user} = parseParams();
+        const response = await fetch(`${baseUrl}/users/${user}/changes/${branch}/${file}?msg=${encodeURIComponent(msg)}`, config)
+        if (response.ok) {
+          songbook.MarkAsCommitted(serialized);
+          return true;
+        } else {
+          alert("Zapis się nie powiódł. Czy jesteś podlączony do internetu ?");
+          console.warn(response);
+          return false;
+        }
+      } catch (error) {
+        console.error(error);
+        alert(JSON.stringify(error));
+        return false;
+      }
+    }
+
+    async function commit(songbook) {
+      const {serialized, changed, title} = songbook.SerializeWithChange();//document.getElementsByTagName("song-editor")[0].Serialize();
+
+      if (!changed) {
+        notice("Brak nowych zmian", songbook);
+        return true; // To taki sukces.
+      }
+
+      const {branch} = parseParams();
+
+      console.log(serialized);
+      if (branch) {
+        let msg = prompt("Wprowadź, proszę, krótki opis ostatnich zmian", `...`);
+        if (!msg) {
+          return false;
+        }
+        msg = `Piosenka ${title}: ` + msg;
+        const ci = commitInternal(songbook, serialized, msg)
+        notice("Zapisano", songbook);
+        return ci
+      }
+      return false;
+    }
+
+    async function commitAndPublish(e) {
+      if (await commit(e.target)) {
+        const {baseUrl,branch,user} = parseParams();
+        window.location = `${baseUrl}/users/${user}/changes/${branch}` + ':publish'
+      }
+    }
+
+  </script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body onload="init()">
+  <div id="topnav"></div>
+  <h1>Edytor piosenek</h1>
+  <song-editor></song-editor>
+  <div id="bottomnav"></div>
+</body>
+</html>

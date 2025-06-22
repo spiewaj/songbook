@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="A  Wee drap O&#039; Whisky">
+	<lyric>
+		<block type="verse">
+			<row important_over="true">A <ch a="fis"/>wee drappie whisky, oh w<ch a="D"/>hen I am w<ch a="fis"/>earied</row>
+			<row important_over="true"><ch a="A"/>Ma blood it w<ch a="fis"/>ill warm, my sp<ch a="A"/>irits will ch<ch a="E7"/>eer</row>
+			<row important_over="true">For w<ch a="fis"/>hen I sit doon, I intend to be m<ch a="E7"/>erry</row>
+			<row important_over="true">Come f<ch a="A"/>ill up a bumper and h<ch a="D"/>and it round <ch a="fis"/>here.</row>
+		</block>
+		<block type="verse">
+			<row important_over="never">I can scarce get a hauf oor, oh when I am wearied<ch a="fis"/><ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">To tell you the truth that I&#039;m vrocht (wrought) very sore<ch a="A"/><ch a="fis"/><ch a="A"/><ch a="E7"/></row>
+			<row important_over="never">My ploo and my lassie is a&#039; my whole pleasure<ch a="fis"/><ch a="E7"/></row>
+			<row important_over="never">We&#039;ll both tak&#039; a kiss an&#039; hae a drap more.<ch a="A"/><ch a="D"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never">Contented I sit and contented I labour<ch a="fis"/><ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">Contented I drink and contented I sing<ch a="A"/><ch a="fis"/><ch a="A"/><ch a="E7"/></row>
+			<row important_over="never">I never dispute nor fall oot wi&#039; my neebors<ch a="fis"/><ch a="E7"/></row>
+			<row important_over="never">For that is a mean and a contentious thing.<ch a="A"/><ch a="D"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never">Oh few, very few ever hear me compleenin<ch a="fis"/><ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">Though ofttimes the load of oppression I bear<ch a="A"/><ch a="fis"/><ch a="A"/><ch a="E7"/></row>
+			<row important_over="never">Oh fat is the use o a man aye compleenin&#039;<ch a="fis"/><ch a="E7"/></row>
+			<row important_over="never">For aye fan he tastes, he maun hae a drap mair.<ch a="A"/><ch a="D"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never">Come noble waiter, bring in a large measure,<ch a="fis"/><ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">I mean hauf a mutchkin the best o&#039; the toon<ch a="A"/><ch a="fis"/><ch a="A"/><ch a="E7"/></row>
+			<row important_over="never">An&#039; when it is drunken, it&#039;s time to bejoggin<ch a="fis"/><ch a="E7"/></row>
+			<row important_over="never">We&#039;ll gang merrily hame wi&#039; the canniest carl.<ch a="A"/><ch a="D"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never">So good night to you all, I think it&#039;s but reason,<ch a="fis"/><ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">Altho&#039; that the whisky speaks lood in my ear<ch a="A"/><ch a="fis"/><ch a="A"/><ch a="E7"/></row>
+			<row important_over="never">Good night and safe home, till farther occasion<ch a="fis"/><ch a="E7"/></row>
+			<row important_over="never">We&#039;ll a&#039; meet in friends and hae a drap mair.<ch a="A"/><ch a="D"/><ch a="fis"/></row>
+		</block>
+	</lyric>
+	<keywords/>
+	<status>
+		<done/>
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
+	</status>
+	<music_source>piosenka szkocka</music_source>
+</song>

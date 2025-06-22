@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Nadziei amatorski zespół" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Ziemowit Fedecki</translator>
+	<original_title>Nadieżdy maleńskij orkiestrik</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="a"/> Wesołych trąbek słychać gr<ch a="E"/>anie —<ch a="a"/> natężasz <ch a="G7"/>ucha, równasz kr<ch a="C"/>ok,</row>
+			<row important_over="true"><ch a="C"/> A słowa same jak m<ch a="d"/>otyle<ch a="B7"/> sfruwają z warg i lecą w mr<ch a="E"/>ok.</row>
+			<row important_over="true"><ch a="a"/> Któż namm gorącą piosnkę prz<ch a="d"/>ysłał,<ch a="G7"/> choć ziąb i rzeką płynie kr<ch a="C"/>a?<ch a="E"/></row>
+			<bis times="2">
+				<row important_over="true">Nadziei <ch a="d"/>amatorski z<ch a="a"/>espół,<ch a="E"/> co pod batutą serca gr<ch a="a"/>a.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> W latach pożegnań, w ciężkiej d<ch a="E"/>obie<ch a="a"/> żelazny d<ch a="G7"/>eszcz tysiącem str<ch a="C"/>ug</row>
+			<row important_over="false"><ch a="C"/> Zacinał ostro w nasze tw<ch a="d"/>arze<ch a="B7"/> i w karki bezlitośnie tł<ch a="E"/>ukł.</row>
+			<row important_over="false"><ch a="a"/> Kiedy ochrypną już dow<ch a="d"/>ódcy,<ch a="G7"/> kto u żołnierzy posłuch m<ch a="C"/>a?<ch a="E"/></row>
+			<bis times="2">
+				<row important_over="false">Nadziei <ch a="d"/>amatorski z<ch a="a"/>espół,<ch a="E"/> co pod batutą serca gr<ch a="a"/>a!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> Pogięte trąby i puz<ch a="E"/>ony,<ch a="a"/> pękł dobosz<ch a="G7"/>owi w bębnie sz<ch a="C"/>ew,</row>
+			<row important_over="false"><ch a="C"/> Flecista drutem flet obwi<ch a="d"/>ązał,<ch a="B7"/> lecz każdy pręży się jak l<ch a="E"/>ew!</row>
+			<row important_over="false"><ch a="a"/> Łatany strój, instrument ki<ch a="d"/>epski,<ch a="G7"/> ale najwięcej zbiera br<ch a="C"/>aw<ch a="E"/></row>
+			<bis times="2">
+				<row important_over="false">Nadziei <ch a="d"/>amatorski z<ch a="a"/>espół,<ch a="E"/> co pod batutą serca gr<ch a="a"/>a!</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album>Nadieżdy maleńskij orkiestik</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

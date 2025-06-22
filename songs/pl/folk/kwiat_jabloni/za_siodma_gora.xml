@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Za siódmą chmurą">
+  <text_author type="solo">Kasia Sienkiewicz</text_author>
+  <composer>Antoni Wojnar</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Za siódmą c<ch a="G"/>hmurą, nie jedną<ch a="C"/> rzek<ch a="d"/>ą,</row>
+      <row important_over="true"><ch a="a"/>Jest świat co się t<ch a="G"/>ylko w nadziei m<ch a="d"/>ieści,</row>
+      <row important_over="true"><ch a="a"/>Dla jednych w <ch a="G"/>życiu bywa p<ch a="C"/>ociech<ch a="d"/>ą,</row>
+      <row important_over="true"><ch a="a"/>Dla niego n<ch a="G"/>ie jeden stał się l<ch a="d"/>epszy.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten który <ch a="G"/>zamknie oczy zmę<ch a="C"/>czon<ch a="d"/>e,</row>
+      <row important_over="false"><ch a="a"/>Otworzyć je m<ch a="G"/>oże po tamtej st<ch a="d"/>ronie.</row>
+      <row important_over="false"><ch a="a"/>Na sercu cię<ch a="G"/>żko, myśli zlęk<ch a="C"/>nione<ch a="d"/>,</row>
+      <row important_over="false"><ch a="a"/>Czy drogi n<ch a="G"/>ie ma w powrotną s<ch a="d"/>tronę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"> <ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na</row>
+      <row important_over="false"><ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na </row>
+      <row important_over="false"><ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na     </row>
+      <row important_over="true"><ch a="F"/>Na <ch a="C"/>na na na <ch a="E"/>na na <ch a="E7"/>na na na n<ch a="a"/>a </row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Znalazł się <ch a="G"/>jednak człowiek <ch a="C"/>bezrad<ch a="d"/>ny,</row>
+      <row important_over="false"><ch a="a"/>Spokoju n<ch a="G"/>igdy nie umiał<ch a="d"/> zaznać,</row>
+      <row important_over="false"><ch a="a"/>Strzelił i <ch a="G"/>wydał oddech <ch a="C"/>ostatn<ch a="d"/>i,</row>
+      <row important_over="false"><ch a="a"/>By swoje <ch a="G"/>myśli daleko z<ch a="d"/>abrać.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Leciał wytr<ch a="G"/>wale, okrążył <ch a="C"/>chmur<ch a="d"/>y,</row>
+      <row important_over="false"><ch a="a"/>Rzeki prze<ch a="G"/>płynął, wyprzedził <ch a="d"/>światło,</row>
+      <row important_over="false"><ch a="a"/>Gdy ląd o<ch a="G"/>dnalazł, stanął na <ch a="C"/>górz<ch a="d"/>e,</row>
+      <row important_over="false"><ch a="a"/>Oczy zamg<ch a="G"/>liło, oddechu b<ch a="d"/>rakło.</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <album>niemożliwe</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

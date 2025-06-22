@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sielanka o domu">
+	<alias></alias>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment></comment>
+	<composer type="solo">Wacław Juszczyn</composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="A"/>A jeśli <ch a="h7"/>dom będę <ch a="cis7"/>miał<ch a="A7+"/></row>
+			<row important_over="true">To <ch a="D"/>będzie bu<ch a="E9"/>kowy ko<ch a="A"/>niecznie<ch a="A7+"/></row>
+			<row important_over="true">Pach<ch a="h7"/>nący <ch a="E9"/>i sło<ch a="cis7"/>neczn<ch a="A7/4"/>y</row>
+			<row important_over="true">Wie<ch a="D"/>czorem u<ch a="E4"/>siądę, wiatr <ch a="E"/>gra</row>
+			<row important_over="true">A <ch a="A"/>zegar na <ch a="A7"/>ścianie g<ch a="D"/>warzy<ch a="E"/></row>
+			<row important_over="true"><ch a="A"/>Dobrze się <ch a="h7"/>idzie, <ch a="cis7"/>panie ze<ch a="Fis0"/>garze</row>
+			<row important_over="true">Tik<ch a="h7"/> tak, tik t<ch a="E7"/>ak, tik t<ch a="A7/4"/>ak<ch a="A7/6"/></row>
+			<row important_over="true">Świeca sk<ch a="D"/>wierczy i mruga przew<ch a="E4"/>rotnie<ch a="E"/></row>
+			<row important_over="true">Więc <ch a="A"/>puszczam <ch a="h7"/>oko <ch a="cis7"/>do niej<ch a="G0"/></row>
+			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="cis7"/>ma<ch a="G0"/></row>
+			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="A"/>ma<ch a="A4"/><ch a="A"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">S<ch a="A"/>zukam, szu<ch a="E"/>kania mi trzeba</row>
+			<row important_over="true"><ch a="G"/>Domu gi<ch a="D"/>tarą i p<ch a="A"/>iórem</row>
+			<row important_over="true">A góry nade mną jak <ch a="E"/>niebo</row>
+			<row important_over="true">A <ch a="G"/>niebo nade mną <ch a="D"/>ja<ch a="d"/>k gó<ch a="A"/>ry<ch a="A4"/><ch a="A"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdy głosy usłyszę u drzwi</row>
+			<row important_over="false">Czyjekolwiek, wejdźcie — poproszę</row>
+			<row important_over="false">Jestem zbieraczem głosów</row>
+			<row important_over="false">A dom mój bardzo lubi gdy</row>
+			<row important_over="false">Śmiech ściany mu rozjaśnia</row>
+			<row important_over="false">I gędźby lubi i pieśni</row>
+			<row important_over="false">Wpadnijcie na parę chwil</row>
+			<row important_over="false">Kiedy los was zawiedzie w te strony</row>
+			<row important_over="false">Bo dom mój otworem stoi</row>
+			<row important_over="false">Dla takich jak my</row>
+			<row important_over="false">Dla takich jak wy</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Zaproszę dzień i noc</row>
+			<row important_over="false">Zaproszę cztery wiatry</row>
+			<row important_over="false">Dla wszystkich drzwi otwarte</row>
+			<row important_over="false">Ktoś poda pierwszy ton</row>
+			<row important_over="false">Zagramy na góry koncert</row>
+			<row important_over="false">Buków porą pachnącą</row>
+			<row important_over="false">Nasiąkną ściany grą</row>
+			<row important_over="false">A zmęczonym wędrownikom</row>
+			<row important_over="false">Odpocząć pozwolą muzyką</row>
+			<row important_over="false">Bo taki będzie mój dom</row>
+			<row important_over="false">Bo taki będzie mój dom</row>
+			<row important_over="false">Bo taki będzie mój dom</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Jan Inowolski</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+		<done>	
+			
+			
+			
+			
+			
+			<text/>
+			<authors/>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

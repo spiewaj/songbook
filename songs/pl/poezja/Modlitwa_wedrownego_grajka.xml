@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Modlitwa wędrownego grajka">
+	<alias/>
+	<text_author type="solo">Jan Kasprowicz</text_author>
+	<comment>Tekst oryginalny Kasprowicza odbiega od powyższego (w szczególności ma ciut więcej zwrotek i w nieco innej kolejności)</comment>
+	<composer type="solo">Andrzej Mróz</composer>
+	<artist type="band">Seta</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Przy m<ch a="d"/>ałej wiejskiej kapl<ch a="C"/>iczce</row>
+			<row important_over="true">Stoj<ch a="C"/>ącej wedle dr<ch a="d"/>ogi</row>
+			<row important_over="false"><ch a="d"/>Ukląkł rzępoląc na skrz<ch a="C"/>ypkach</row>
+			<row important_over="false">Wędr<ch a="C"/>owny grajek ub<ch a="d"/>ogi</row>
+			<row important_over="false">Od cz<ch a="d"/>asu do czasu graj<ch a="C"/>ący</row>
+			<row important_over="false">Bezz<ch a="C"/>ębne otwierał w<ch a="d"/>argi</row>
+			<row important_over="false">T<ch a="d"/>o przekomarzał się z B<ch a="C"/>ogiem</row>
+			<row important_over="false">To zn<ch a="C"/>owu się korzył bez sk<ch a="d"/>argi</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="true">H<ch a="g"/>ej Panie Boże coś wielkim</row>
+				<row important_over="true">G<ch a="d"/>azdą nad gazdami</row>
+				<row important_over="true">P<ch a="C"/>o coś mi dał taką skrzypkę</row>
+				<row important_over="true">Co j<ch a="d"/>eno tum<ch a="C"/>ani i m<ch a="d"/>ami</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Spr<ch a="d"/>aw to ażebym na z<ch a="C"/>awsze</row>
+			<row important_over="false"><ch a="C"/>Umiał dziękować ci P<ch a="d"/>anie</row>
+			<row important_over="false">Że s<ch a="d"/>obie rzępolę jak m<ch a="C"/>ogę</row>
+			<row important_over="false">Że d<ch a="C"/>aję ci na co mnie st<ch a="d"/>anie</row>
+			<row important_over="false">A j<ch a="d"/>eszcze bardziej chr<ch a="C"/>oń mnie</row>
+			<row important_over="false">I <ch a="C"/>od najmniejszej zaw<ch a="d"/>iści</row>
+			<row important_over="false">Że s<ch a="d"/>ą na świecie grajk<ch a="C"/>owie</row>
+			<row important_over="false">P<ch a="C"/>ełni szumniejszych m<ch a="d"/>yśli</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">I ni<ch a="d"/>echaj pomnę w mym ż<ch a="C"/>yciu</row>
+			<row important_over="false">Czy bl<ch a="C"/>iskim czy też dal<ch a="d"/>ekim</row>
+			<row important_over="false">Żem czł<ch a="d"/>ekiem jest przede wsz<ch a="C"/>ystkim</row>
+			<row important_over="false">I n<ch a="C"/>iczym więcej jak czł<ch a="d"/>ekiem</row>
+			<row important_over="false">Spraw w k<ch a="d"/>ońcu by przy tej kapl<ch a="C"/>iczce</row>
+			<row important_over="false"><ch a="C"/>Obok tej wiejskiej dr<ch a="d"/>ogi</row>
+			<row important_over="false">Kl<ch a="d"/>ękał i grywał na skrz<ch a="C"/>ypkach</row>
+			<row important_over="false">Wędr<ch a="C"/>owny grajek ub<ch a="d"/>ogi</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+		</verificators>
+		<to_do>Słowa sprawdzane wg oryginalnego wiersza Kasprowicza. Usunąłem tylko rażące archaizmy</to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre>Poezja śpiewana</genre>
+</song>

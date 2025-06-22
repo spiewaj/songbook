@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Dżungla" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">281. WDH</text_author>
+	<comment>Spisane na podstawie maila od 281., być może nie dokładnie.</comment>
+	<composer type="solo">281. WDH</composer>
+	<artist type="solo">281. WDH</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Sz<ch a="C"/>edłem kiedyś p<ch a="E"/>o pustyni,</row>
+			<row important_over="true">T<ch a="a"/>am mnie napadł g<ch a="F"/>oryl dziki,</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">H<ch a="C"/>ej, h<ch a="G"/>ej, hej, hej, h<ch a="C"/>e<ch a="G"/>j,</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="C"/>A pustynia b<ch a="E"/>yła wielka,</row>
+			<row important_over="false">Wi<ch a="a"/>ęc na drzewo j<ch a="F"/>emu zwiałem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">H<ch a="C"/>ej, h<ch a="G"/>ej, hej, hej, h<ch a="C"/>e<ch a="G"/>j,</row>
+			<row important_over="false">Dż<ch a="C"/>ungla, dżungla, p<ch a="G"/>ustyni<ch a="C"/>a<ch a="G"/>,</row>
+			<row important_over="false">Dż<ch a="C"/>ungla, dżungla, p<ch a="E"/>ustyni<ch a="a"/>a<ch a="F"/></row>
+			<row important_over="false">Dż<ch a="C"/>ungla, dżungla, p<ch a="G"/>ustyni<ch a="C"/>a.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="C"/>ewnej księżyc<ch a="E"/>owej nocy</row>
+			<row important_over="false">K<ch a="a"/>obra zjadła m<ch a="F"/>i pięć kocy,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Z<ch a="C"/>awinięty w sz<ch a="E"/>ósty byłem</row>
+			<row important_over="false">
+				<ch a="a"/>I dynamit p<ch a="F"/>odpaliłem.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row important_over="false">R<ch a="C"/>az tubylcy mni<ch a="E"/>e złapali,</row>
+			<row important_over="false">N<ch a="a"/>o i zjeść mnie z<ch a="F"/>amierzali,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="C"/>Ale ja co j<ch a="E"/>eść nie miałem</row>
+			<row important_over="false">
+				<ch a="a"/>I ich wszystkich p<ch a="F"/>ozjadałem.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row important_over="false">Pr<ch a="C"/>oszę państwa <ch a="E"/>oto miś,</row>
+			<row important_over="false">M<ch a="a"/>iś jest bardzo grz<ch a="F"/>eczny dziś,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ch<ch a="C"/>ętnie państwu ł<ch a="E"/>apę poda,</row>
+			<row important_over="false">Ni<ch a="a"/>e chce podać, <ch a="F"/>a to szkoda.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row important_over="false">Dz<ch a="C"/>ik jest dziki, dz<ch a="E"/>ik jest zły,</row>
+			<row important_over="false">Dz<ch a="a"/>ik ma bardzo <ch a="F"/>ostre kły,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Kt<ch a="C"/>o spotyka w l<ch a="E"/>esie dzika,</row>
+			<row important_over="false">T<ch a="a"/>en na drzewo z<ch a="F"/>araz zmyka.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row important_over="false">N<ch a="C"/>a go, na go, n<ch a="E"/>a gondoli,</row>
+			<row important_over="false">P<ch a="a"/>ewna para si<ch a="F"/>ę całuje,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="C"/>etrzyk bardzo ł<ch a="E"/>ajbą buja,</row>
+			<row important_over="false">
+				<ch a="a"/>Ona trzyma g<ch a="F"/>o za rękę.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="C"/>Idzie harcerz b<ch a="E"/>orem, lasem,</row>
+			<row important_over="false">W<ch a="a"/>ymachuje sw<ch a="F"/>ym kompasem,</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="C"/>A harcerka r<ch a="E"/>obi zupę,</row>
+			<row important_over="false">H<ch a="a"/>arcerz łapię j<ch a="F"/>ą za słowa.</row>
+		</block>
+		<blocklink blocknb="4"/>
+	</lyric>
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do>Nie wiem do końca jak jest z refrenami.</to_do>
+	</status>
+	<music_source></music_source>
+</song>

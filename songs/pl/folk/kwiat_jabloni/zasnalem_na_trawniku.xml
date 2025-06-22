@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zasnąłem na trawniku">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Zasnąłem na traw<ch a="a"/>niku <ch a="C"/><ch a="D"/></row>
+      <row important_over="true">Chciałem <ch a="a"/>tylko na sekundę</row>
+      <row important_over="true">To nie <ch a="C"/>miała być go<ch a="D"/>dzina ani <ch a="a"/>dwie<ch a="G"/></row>
+      <row important_over="true">Zasnąłem na traw<ch a="a"/>niku  <ch a="C"/><ch a="D"/></row>
+      <row important_over="true">Ze trzysta <ch a="a"/>rzeczy do zrobienia</row>
+      <row important_over="true">Przecież <ch a="C"/>świat się nie <ch a="D"/>zmienia kiedy <ch a="a"/>śpię <ch a="G"/></row>
+      <row important_over="true">Jest już późny <ch a="a"/>wieczór<ch a="C"/><ch a="D"/></row>
+      <row important_over="true">Wiem, że <ch a="a"/>mam nieodebrane, no prze<ch a="C"/>praszam cię</row>
+      <row important_over="true">Ja <ch a="D"/>miałem słodki <ch a="a"/>sen <ch a="G"/></row>
+      <row important_over="true">Że nie ma mnie tu <ch a="a"/>wcale <ch a="C"/><ch a="D"/></row>
+      <row important_over="true">Że jestem <ch a="a"/>niebem i trawnikiem i tym <ch a="C"/>drzewem</row>
+      <row important_over="true">No <ch a="D"/>wybacz proszę, <ch a="E"/>że</row>
+    </block>
+    <block type="chorus">
+      <bis times="4">
+        <row important_over="true">Zasnąłem na traw<ch a="a"/>niku <ch a="C"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="other">
+      <bis times="4">
+        <row important_over="false" style="instr"> </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Zasnęłam na traw<ch a="a"/>niku <ch a="C"/><ch a="D"/></row>
+      <row important_over="false">Chciałam <ch a="a"/>tylko na sekundę</row>
+      <row important_over="false">To nie <ch a="C"/>miała być go<ch a="D"/>dzina ani <ch a="a"/>dwie <ch a="G"/></row>
+      <row important_over="false">Zasnęłam na tra<ch a="a"/>wniku<ch a="C"/><ch a="D"/></row>
+      <row important_over="false">Trzysta <ch a="a"/>rzeczy do zrobienia</row>
+      <row important_over="false">Przecież <ch a="C"/>świat się nie <ch a="D"/>zmienia kiedy <ch a="a"/>śpię <ch a="G"/></row>
+      <row important_over="false">Jest już późny <ch a="a"/>wieczór <ch a="C"/><ch a="D"/></row>
+      <row important_over="false">Wiem, że <ch a="a"/>mam nieodebrane, no prze<ch a="C"/>praszam cię</row>
+      <row important_over="false">Ja <ch a="D"/>miałam słodki <ch a="a"/>sen</row>
+      <row important_over="false"><ch a="G"/> Że nie ma mnie tu <ch a="a"/>wcale  <ch a="C"/><ch a="D"/></row>
+      <row important_over="false">Że jestem <ch a="a"/>niebem i trawnikiem i tym <ch a="C"/>drzewem</row>
+      <row important_over="false">No <ch a="D"/>wybacz proszę, <ch a="E"/>że</row>
+    </block>
+    <block type="chorus">
+      <bis times="4">
+        <row important_over="true">Zasnąłam na traw<ch a="a"/>niku <ch a="C"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="other">
+      <bis times="12">
+        <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="D"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="other">
+      <bis times="2">
+        <row important_over="false"><ch a="a"/>Oo<ch a="C"/>o.<ch a="D"/>..  <ch a="a"/><ch a="C"/><ch a="D"/><ch a="a"/><ch a="C"/><ch a="D"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="D"/><ch a="F"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Pokaz slajdów</album>
+  <status>
+    <done/>
+    <verificators/>
+    <to_do>Myślę, że nie jest to idealne zapisanie tej piosenki, przyjmiemy poprawki.</to_do>
+  </status>
+</song>

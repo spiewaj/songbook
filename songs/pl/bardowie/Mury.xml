@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mury">
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>On<ch a="H7"/> na<ch a="e"/>tc<ch a="H7"/>hniony i młody był, ich nie policzyłby nikt</row>
+			<row important_over="true"><ch a="C"/>On<ch a="H"/> i<ch a="C"/>m <ch a="H"/>pi<ch a="e"/>eśnią dodawał sił, śpiewał że blisko już świt</row>
+			<row important_over="true"><ch a="e"/>Św<ch a="H7"/>iec<ch a="e"/> t<ch a="H7"/>ysiące palili mu, znad głów podnosił się dym</row>
+			<row important_over="true"><ch a="C"/>Śp<ch a="H"/>ie<ch a="C"/>wał, że czas by runął mur..</row>
+			<row important_over="true"><ch a="H"/>On<ch a="e"/>i śpiewali wraz z nim</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="H"/>Wy<ch a="e"/>rwij murom zęby krat!</row>
+			<row important_over="true"><ch a="H"/>Ze<ch a="e"/>rwij kajdany, połam bat!</row>
+			<row important_over="true"><ch a="a"/>A <ch a="e"/>mury runą, runą, runą</row>
+			<row important_over="true"><ch a="H"/>I <ch a="e"/>pogrzebią stary świat!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wkrótce na pamięć znali pieśń i sama melodia bez słów<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
+			<row important_over="false">Niosła ze sobą starą treść, dreszcze na wskroś serc i głów<ch a="C"/><ch a="H"/><ch a="C"/><ch a="H"/><ch a="e"/></row>
+			<row important_over="false">Śpiewali więc, klaskali w rytm, jak wystrzał poklask ich brzmiał<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
+			<row important_over="false">I ciążył łańcuch, zwlekał świt<ch a="C"/><ch a="H"/><ch a="C"/></row>
+			<row important_over="false">On wciąż śpiewał i grał<ch a="H"/><ch a="e"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Aż zobaczyli ilu ich, poczuli siłę i czas<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
+			<row important_over="false">I z pieśnią, że już blisko świt szli ulicami miast<ch a="C"/><ch a="H"/><ch a="C"/><ch a="H"/><ch a="e"/></row>
+			<row important_over="false">Zwalali pomniki i rwali bruk: Ten z nami? Ten przeciw nam?<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
+			<row important_over="false">Kto sam ten nasz najgorszy wróg!<ch a="C"/><ch a="H"/><ch a="C"/></row>
+			<row important_over="false">A śpiewak także był sam<ch a="H"/><ch a="e"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Patrzył na równy tłumów marsz<ch a="H"/><ch a="e"/></row>
+			<row important_over="false">Milczał wsłuchany w kroków huk<ch a="H"/><ch a="e"/></row>
+			<row important_over="false">A mury rosły, rosły, rosły<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Łańcuch kołysał się u nóg<ch a="H"/><ch a="e"/></row>
+		</block>
+	</lyric>
+	
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<done/>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

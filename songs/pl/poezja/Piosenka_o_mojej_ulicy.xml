@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o mojej ulicy">
+  <alias/>
+  <text_author>Andrzej Sikorowski</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Prowadź mnie ulico</row>
+      <row important_over="false"><ch a="G"/>Prowadź za rękę<ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>Wszystko mnie zachwyca</row>
+      <row important_over="false"><ch a="A"/>W twym kamiennym piekle<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Bramy co na oścież</row>
+      <row important_over="false"><ch a="G"/>Kwiaty w każdym oknie<ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>I ten mój samotny</row>
+      <row important_over="false"><ch a="Fis"/>I ten mój samotny marsz<ch a="h"/></row>
+      <row important_over="false"><ch a="G"/>Pomiędzy domami</row>
+      <row important_over="false"><ch a="A"/>Prowadź mnie ulico<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Trakcie wydeptany</row>
+      <row important_over="false"><ch a="A"/>Ludzi nawałnicą<ch a="D"/></row>
+      <row important_over="false"><ch a="Fis"/>Radości aleją<ch a="h"/></row>
+      <row important_over="false"><ch a="e"/>Gwiazdy ci się śmieją<ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="Fis"/>I dla ciebie wieje wiatr<ch a="h"/><ch a="e"/></row>
+      <row important_over="false"><ch a="A"/>I dla ciebie wieje</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="G"/>W samym sercu miasta</row>
+        <row important_over="false"><ch a="A"/>Czytam to na twojej twarzy<ch a="D"/></row>
+        <row important_over="false"><ch a="G"/>W samym sercu miasta</row>
+        <row important_over="false"><ch a="A"/>Coś się nam przydarzy<ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Prowadź mnie ulico</row>
+      <row important_over="false"><ch a="G"/>I ten nasz ulotny<ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>I ten nasz ulotny marsz</row>
+      <row important_over="false"><ch a="A"/>Prowadź mnie ulico<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Bo ja ciągle czekam</row>
+      <row important_over="false"><ch a="G"/>Czy się nie okaże<ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>Żeś ulico ślepa</row>
+      <row important_over="false"><ch a="Fis"/>Że mnie okłamałaś<ch a="h"/></row>
+      <row important_over="false"><ch a="G"/>Że mój cel zabrałaś</row>
+      <row important_over="false"><ch a="A"/>Pokazałaś inną twarz<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Pokazałaś inną</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

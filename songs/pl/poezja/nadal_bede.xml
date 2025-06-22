@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nadal będę">
+  <alias>Powietrza trzeba mi</alias>
+  <text_author type="band">Ziomkowisko</text_author>
+  <composer type="band">Ziomkowisko</composer>
+  <artist type="band">Ziomkowisko</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Powietrza trz<ch a="A"/>eba mi w<ch a="d"/>ody z nieba t<ch a="A"/>rzeba mi</row>
+      <row important_over="true">t<ch a="d"/>am znajdę C<ch a="A"/>ię tam zn<ch a="d"/>ajdę C<ch a="A"/>ię</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">su<ch a="d"/>chą st<ch a="A"/>opą prz<ch a="d"/>ejdę bez s<ch a="A"/>kaz</row>
+      <row important_over="true">p<ch a="d"/>różno ch<ch a="A"/>ód i p<ch a="d"/>ędzący cza<ch a="A"/>s</row>
+      <row important_over="true" sidechords="d A A7 d">n<ch a="d"/>a nic prz<ch a="A"/>eszkody po<ch a="A7"/>d nogami kł<ch a="d"/>ody    </row>
+      <row important_over="true">gdy w s<ch a="A"/>ercu nadziei pokł<ch a="d"/>ady    </row>
+      <row important_over="true" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody pod <ch a="A7"/>nogami kł<ch a="d"/>ody</row>
+      <row important_over="true">gdy ch<ch a="A"/>oć odrobinę og<ch a="d"/>łady mam</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never">nadal będę igrał z powietrzem,<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="never">z deszczem wreszcie śniegiem co jeszcze<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="never">wcześniej wody łyk z września nadejściem<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="never">póki jesień znajdzie mnie<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">gdy cierpliwości i braknie sił<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+      <row important_over="never">i nawet gdy plan b pójdzie w tył<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+      <row important_over="never" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">gdy w sercu miłości pokłady<ch a="A"/><ch a="d"/></row>
+      <row important_over="never" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">gdy choć odrobinę miłości mam<ch a="A"/><ch a="A"/><ch a="d"/><ch a="d"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="never">Powietrza trzeba mi wody z nieba trzeba mi<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="false" style="instr"> </row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

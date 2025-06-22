@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Piosenka z pociągu pośpiesznego &quot;Bieszczady&quot; z Katowic do Zagórza przez Kraków Płaszów, Tarnów, Stróże" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">281. WDH</text_author>
+	<comment></comment>
+	<composer type="solo">281. WDH</composer>
+	<artist type="solo">281. WDH</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Opadły mgł<ch a="G"/>y i pociąg ze sn<ch a="C"/>u się budzi,</row>
+			<row important_over="true">G<ch a="G"/>órą snuje się d<ch a="D"/>ym,</row>
+			<row important_over="false">Przy rusz<ch a="G"/>aniu szybkim się kt<ch a="C"/>oś wywrócił,</row>
+			<row important_over="false">Kt<ch a="G"/>oś tam śpi na kol<ch a="D"/>edze swym.</row>
+			<row important_over="false">Pies się wł<ch a="G"/>óczy po pod koł<ch a="C"/>ami bez głowy,</row>
+			<row important_over="false">Trzeba zmi<ch a="G"/>enić jazdy kier<ch a="D"/>unek,</row>
+			<row important_over="false">Mł<ch a="G"/>otek niesie młotkowy.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">A ciuchcia t<ch a="G"/>oczy, toczy swój skł<ch a="C"/>ad uroczy,</row>
+				<row important_over="false">T<ch a="G"/>oczy, toczy się skł<ch a="D"/>ad.</row>
+			</bis>
+			<row important_over="false">Ty, co w<ch a="G"/>isisz na lampie, by st<ch a="C"/>ać mógł ktoś,</row>
+			<row important_over="false">Już d<ch a="G"/>ość, już dość, już d<ch a="D"/>ość!</row>
+			<row important_over="false">Nie ma t<ch a="G"/>u tuneli drutów z pr<ch a="C"/>ądem brak,</row>
+			<row important_over="false">A więc wdr<ch a="G"/>apuj się szybko na d<ch a="D"/>ach.</row>
+			<bis times="3">
+				<row important_over="false">Bo nowy dzi<ch a="G"/>eń wstaje, bo n<ch a="C"/>owy dzień wstaje,</row>
+				<row important_over="false">N<ch a="G"/>owy dzi<ch a="D"/>eń,</row>
+			</bis>
+			<row important_over="false">Wst<ch a="G"/>aje nowy dzi<ch a="D"/>eń.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Z czarnego sn<ch a="G"/>u już miasto si<ch a="C"/>ę wynurza,</row>
+			<row important_over="false">Sł<ch a="G"/>ońce rozpędza mr<ch a="D"/>ok.</row>
+			<row important_over="false">Na kol<ch a="G"/>eje polskie si<ch a="C"/>ę ktoś oburza,</row>
+			<row important_over="false">B<ch a="G"/>o coraz większy jest tl<ch a="D"/>ok.</row>
+			<row important_over="false">Śpi na p<ch a="G"/>ółce nad nami osób pi<ch a="C"/>ęć pospołu,</row>
+			<row important_over="false">Ale p<ch a="G"/>ółka urwać się nie m<ch a="D"/>oże,</row>
+			<row important_over="false">Trzym<ch a="G"/>amy ją od dołu.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">A ciuchcia t<ch a="G"/>oczy, toczy swój skł<ch a="C"/>ad uroczy,</row>
+				<row important_over="false">T<ch a="G"/>oczy, toczy się skł<ch a="D"/>ad.</row>
+			</bis>
+			<row important_over="false">Ty, co l<ch a="G"/>eżysz na dachu, by st<ch a="C"/>ać mógł ktoś,</row>
+			<row important_over="false">Już d<ch a="G"/>ość, już dość, już d<ch a="D"/>ość!</row>
+			<row important_over="false">Usiądź s<ch a="G"/>obie z brzegu i zrób mi<ch a="C"/>ejsce nam,</row>
+			<row important_over="false">Bo my z<ch a="G"/>araz wdrapiemy się t<ch a="D"/>am.</row>
+			<bis times="3">
+				<row important_over="false">Bo nowy dzi<ch a="G"/>eń wstaje,  bo n<ch a="C"/>owy dzień wstaje,</row>
+				<row important_over="false">N<ch a="G"/>owy dzi<ch a="D"/>eń.</row>
+			</bis>
+			<row important_over="false">Wst<ch a="G"/>aje nowy dzi<ch a="D"/>eń.</row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do>Sprawdzający nie słyszał nigdy tej piosenki.</to_do>
+	</status>
+	<music_source>Opadły mgły</music_source>
+</song>
+

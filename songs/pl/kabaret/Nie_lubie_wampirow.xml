@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie lubię wampirów">
+	<alias/>
+	<text_author type="solo">Kabaret ,,Potem''</text_author>
+	<comment/>
+	<composer type="solo">Władysław Sikora</composer>
+	<artist type="band">Kabaret ,,Potem''</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Mrok zap<ch a="C"/>ada, ciemna n<ch a="a"/>oc</row>
+			<row important_over="true">Gwiazdy j<ch a="d"/>uż na niebie świ<ch a="G"/>ecą</row>
+			<row important_over="true">Na d<ch a="d"/>ole lampy świ<ch a="G"/>ecą</row>
+			<row important_over="true">Więc świ<ch a="C"/>atła jest co ni<ch a="a"/>eco</row>
+			<row important_over="true">Więc cz<ch a="G"/>emu to plugastwo pęta się?!</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Nie l<ch a="C"/>ubię wampirów jak jasna cholera</row>
+			<row important_over="true">Jak sp<ch a="F"/>otkam, natrzaskam po r<ch a="C"/>yju!</row>
+			<row important_over="true">To str<ch a="E"/>aszna hołota, bo brz<ch a="A"/>ydsza od błota</row>
+			<row important_over="true">A wsz<ch a="D"/>ystkim się rzuca na sz<ch a="G"/>yję!</row>
+			<row important_over="false">Nie l<ch a="C"/>ubię wampirów, bo ryje to brzydkie</row>
+			<row important_over="false">A z<ch a="F"/>ęby ma gorsze od zwi<ch a="C"/>erzy</row>
+			<row important_over="false">Te z<ch a="E"/>ęby wystają — zah<ch a="A"/>aczy w tramwaju</row>
+			<row important_over="false">I r<ch a="D"/>obią się dziury w odzi<ch a="G"/>eży!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">
+				<ch a="G"/>Ajajajajaj, jak ja ich nie lubię!</row>
+			<row important_over="false">Cz<ch a="G"/>emu to łazi takie głupie?</row>
+			<row important_over="false">G<ch a="G"/>ębę ma, jakby ukradł małpie</row>
+			<row important_over="false">Z<ch a="G"/>ęby takie, że w plecy się podrapie</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nie l<ch a="C"/>ubię wampirów i innych straszydeł</row>
+			<row important_over="false">Jak sp<ch a="F"/>otkam, łeb wyrwę z płuc<ch a="C"/>ami!</row>
+			<row important_over="false">Bo w<ch a="E"/>yje to w nocy, nie wi<ch a="A"/>adomo po co</row>
+			<row important_over="false">I zgrz<ch a="D"/>yta o marmur zęb<ch a="G"/>ami!</row>
+			<row important_over="false">Ja wst<ch a="C"/>aję codziennie na siódmą do pracy</row>
+			<row important_over="false">Z sieki<ch a="F"/>erą się w nocy nie p<ch a="C"/>ętam</row>
+			<row important_over="false">Ja w<ch a="E"/>yspać się muszę, lecz ki<ch a="A"/>edyś się wkurzę</row>
+			<row important_over="false">Wytł<ch a="D"/>ukę w niedziele i świ<ch a="G"/>ęta!</row>
+		</block>
+		<blocklink blocknb="3"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre/>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator><verificator>Onufry</verificator><verificator>Alek</verificator>
+			
+			
+			
+		</verificators>
+		<to_do>Poprawiłem jedną literówkę i dodałem istotne linijki. — nie-Alek</to_do>
+	</status>
+	<music_source/>
+</song>

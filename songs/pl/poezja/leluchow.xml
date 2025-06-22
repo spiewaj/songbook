@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Leluchów" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną dziś j<ch a="G"/>eszcze</row>
+			<row important_over="false"><ch a="a"/> Przecież bl<ch a="C"/>isko jest dw<ch a="G"/>orzec</row>
+			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną nat<ch a="G"/>ychmiast</row>
+			<row important_over="false"><ch a="a"/> Tylko t<ch a="C"/>o nam pom<ch a="D7"/>oże</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">W L<ch a="G"/>eluchowie - miła</row>
+			<row important_over="false">Czer<ch a="C"/>eśnie dziko krw<ch a="G"/>awią</row>
+			<row important_over="false">Tam gr<ch a="C"/>anicy pilnuje c<ch a="G"/>ałkiem</row>
+			<row important_over="false"><ch a="a"/> Wesoły <ch a="D7"/>anioł</row>
+			<row important_over="false"></row>
+			<row important_over="false">W L<ch a="G"/>eluchowie - miła</row>
+			<row important_over="false">Zacz<ch a="C"/>yna się koniec świ<ch a="G"/>ata</row>
+			<row important_over="false">Tam <ch a="C"/>anioł traci gł<ch a="G"/>owę</row>
+			<row important_over="false"><ch a="a"/> Z<ch a="C"/> brzozami się brat<ch a="G"/>a</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną do l<ch a="G"/>ata</row>
+			<row important_over="false"><ch a="a"/> Przecież j<ch a="C"/>eszcze nie k<ch a="G"/>oniec</row>
+			<row important_over="false"><ch a="a"/> Schowaj tr<ch a="C"/>ochę uśmi<ch a="G"/>echu</row>
+			<row important_over="false">Na n<ch a="a"/>aszą wsp<ch a="C"/>ólną dr<ch a="D7"/>ogę</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> Kiedy b<ch a="C"/>ędziesz już z<ch a="G"/>e mną</row>
+			<row important_over="false"><ch a="a"/> To nik<ch a="C"/>omu nie p<ch a="G"/>owiem</row>
+			<row important_over="false"><ch a="a"/> Że szczęśl<ch a="C"/>iwi byl<ch a="G"/>iśmy</row>
+			<row important_over="false">Ki<ch a="a"/>edyś<ch a="C"/> w Leluch<ch a="D7"/>owie</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="4"/>
+	</music>
+	<keywords></keywords>
+	<album>Bieszczadzkie Anioły</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

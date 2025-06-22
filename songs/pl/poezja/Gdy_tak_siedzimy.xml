@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy tak siedzimy">
+  <alias/>
+  <text_author>L. Szaluga?</text_author>
+  <comment/>
+  <composer type="solo">Przemysław Gintrowski</composer>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Gdy tak siedzimy nad bimbrem<ch a="G"/></row>
+      <row important_over="false"><ch a="d"/>Ojczyzna nam umiera</row>
+      <row important_over="false"><ch a="C"/>Gniją w celach koledzy<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Wolno się kręci powielacz<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Drukujemy ulotki<ch a="G"/></row>
+      <row important_over="false"><ch a="d"/>O tym, że jeszcze żyjemy</row>
+      <row important_over="false"><ch a="C"/>Grozi nam za to wyrok<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Dziesięciu lat więzienia<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdzieś niedaleko<ch a="G"/></row>
+      <row important_over="false"><ch a="d"/>Patrol jednego z nas zatrzymał</row>
+      <row important_over="false"><ch a="C"/>Pijemy jego zdrowie<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>W więzieniu to mu się przyda<ch a="E"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="3"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

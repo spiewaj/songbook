@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gore gwiazda Jezusowi">
+  <comment>Alternatywne chwyty:
+Zwrotka: [a C d e]
+Ref:[C G C G7 / e a]</comment>
+  <composer type="band">Arka Noego</composer>
+  <artist type="band">Arka Noego</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Gore gwiazda Jezusowi w <ch a="g"/>obłoku w o<ch a="A"/>błoku</row>
+      <row important_over="true"><ch a="d"/>Józef z Panną asystują pr<ch a="g"/>zy boku, przy<ch a="A"/> boku</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="d"/>Hejże ino dyna,<ch a="g"/> dyna, na<ch a="d"/>rodził się <ch a="g"/>Bóg dziecina</row>
+      <row important_over="true"><ch a="d"/>W Be<ch a="A"/>tlejem, <ch a="d"/>w Bet<ch a="A"/>leje<ch a="d"/>m</row>
+      <row important_over="true"><ch a="d"/>Hejże ino d<ch a="g"/>yna, dyna, n<ch a="d"/>arodził się<ch a="g"/> Bóg dziecina</row>
+      <row important_over="true"><ch a="d"/>W Bet<ch a="A"/>lejem, <ch a="d"/>w B<ch a="A"/>etlejem</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wół i osioł w parze służą przy żłobie, przy żłobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">Huczą, buczą delikatnej osobie, osobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Pastuszkowie z podarunki przybiegli, przybiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">W koło szopę o północy obiegli, obiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Anioł Pański sam ogłosił te dziwy<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">Których oni nie słyszeli jak żywi, jak żywi<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Anioł Pański kuranciki, kuranciki wycina, wycina<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">Stąd pociecha dla człowieka jedyna, jedyna<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Już Maryja Jezuleńka powiła, powiła<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">Stąd wesele i pociecha nam miła, nam miła<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Gore gwiazda Jezusowi w obłoku, w obłoku<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="never">Józef z Panną asystują przy boku, przy boku<ch a="d"/><ch a="g"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Kolęda</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

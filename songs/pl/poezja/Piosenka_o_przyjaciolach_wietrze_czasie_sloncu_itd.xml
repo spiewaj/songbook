@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o przyjaciołach, wietrze, czasie, słońcu itd.">
+  <alias/>
+  <text_author>Wojciech Bellon</text_author>
+  <comment/>
+  <composer type="solo">Bernard Sendal</composer>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Nie chcę śpiewać o wietrze<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Zagubionym w dolinach<ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Nie o gwiazdach co wieczór<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Spadających na zbocza<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Kto z was takich przyjaciół<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Ma by mówić im bracia<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Kto pamięta o słowie<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Tak prostym jak człowiek<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>W nurcie czasu płyniemy<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Płytszy cichszy już oddech<ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Tu mielizna tam kamień<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>I znów wir rok po roku<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Póki nie jest zapóźno<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Póki czasu choć trochę<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wyjdźcie z domów do słońca<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wpuśćcie światło do mroku<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Poszukajcie prawd zapomnianych<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>A znajdziecie prawdziwych proroków<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Język gazety przyrósł nam do gardła<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Językiem gazety widzą nasze oczy<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Przemykamy w szarej mżawce dnia<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Skuci losem<ch a="D"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="2"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

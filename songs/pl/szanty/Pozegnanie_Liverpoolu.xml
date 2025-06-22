@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Pożegnanie Liverpoolu">
+  <text_author type="solo">Krzysztof Kuza, Jerzy Rogacki</text_author>
+  <artist type="band">Cztery Refy</artist>
+  <original_title>The Leaving of Liverpool</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Żegnaj nam dostojny stary porcie<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Rzeko Mersey żegnaj nam<ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Zaciągnąłem się na rejs do Kalifornii<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Byłem tam już niejeden raz<ch a="G7"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G7"/>A więc żegnaj mi kochana ma<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Za chwilę wypłyniemy w długi rejs<ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Ile miesięcy Cię nie będę widział nie wiem sam<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Lecz pamiętać zawsze będę Cię<ch a="G7"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Zaciągnąłem się na herbaciany kliper<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Dobry statek choć sławę ma złą<ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>A że kapitanem jest tam stary Burgess<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Pływającym Piekłem wszyscy go zwą<ch a="G7"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Z kapitanem tym płyniemy już nie pierwszy raz<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Znamy się od wielu, wielu lat<ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Jeśliś dobrym<ch a=""/> żeglarzem - radę sobie dasz<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Jeśli nie toś cholernie wpadł<ch a="G7"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Żegnaj nam dostojny stary porcie<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Rzeko Mersey żegnaj nam<ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Wypływamy już na rejs do Kalifornii<ch a="C7"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Gdy wrócimy opowiemy wam<ch a="G7"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <genre>Szanta</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

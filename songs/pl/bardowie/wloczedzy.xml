@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Włóczędzy" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="band">Przemysław Gintrowski, Jacek Kaczmarski, Zbigniew Łapiński</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Wchodz<ch a="a"/>imy z twarzami zdrowymi od mrozu,</row>
+			<row important_over="true">Siad<ch a="F"/>amy przy ogniu tańcz<ch a="a"/>ącym z radości,</row>
+			<row important_over="true">Ścier<ch a="F"/>amy z nadgarstków odc<ch a="a"/>iski powrozów,</row>
+			<row important_over="true">Woł<ch a="E9"/>amy o w<ch a="E"/>ino i chl<ch a="E9"/>eb, i tłust<ch a="E"/>ości,</row>
+			<row important_over="true">Spod ści<ch a="F"/>an patrzą na nas w milcz<ch a="E"/>eniu miejscowi,</row>
+			<row important_over="true">Napi<ch a="F"/>ęci, na wsz<ch a="E"/>ystko gotowi.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wchł<ch a="a"/>aniamy łapczywie wielkimi kęsami,</row>
+			<row important_over="false">Łyk<ch a="F"/>amy alkohol aż w<ch a="a"/>arczy nam w grdykach,</row>
+			<row important_over="false">Bekni<ch a="F"/>emy czasami, pierdni<ch a="a"/>emy czasami,</row>
+			<row important_over="false">Aż z ł<ch a="E9"/>aw w ciepło wzb<ch a="E"/>ija się w<ch a="E9"/>oń wędrown<ch a="E"/>ika</row>
+			<row important_over="false">I pł<ch a="F"/>ynie pod ściany miejsc<ch a="E"/>owych jak ręka</row>
+			<row important_over="false">Co m<ch a="F"/>ówi - przestańcie się l<ch a="E"/>ękać,</row>
+			<bis times="2">
+				<row important_over="true">Co m<ch a="a"/>ówi - przestańcie się lękać.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Śpiew<ch a="a"/>amy piosenki o drodze i pracy,</row>
+			<row important_over="false">O br<ch a="F"/>aku pieniędzy i br<ch a="a"/>aku miłości,</row>
+			<row important_over="false">Podn<ch a="F"/>oszą się ze snu miejsc<ch a="a"/>owi pijacy,</row>
+			<row important_over="false">Słuch<ch a="E9"/>ają ocz<ch a="E"/>ami roz<ch a="E9"/>umnej przeszł<ch a="E"/>ości,</row>
+			<row important_over="false">Ktoś wst<ch a="F"/>anie, podejdzie, zap<ch a="E"/>yta, kto my.</row>
+			<row important_over="false">-- My dzi<ch a="F"/>eci wolności, bezd<ch a="E"/>omne my psy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Przysi<ch a="a"/>ądą się stawiać i pytać nieśmiale,</row>
+			<row important_over="false">Gdzie d<ch a="F"/>obrze, gdzie lepiej, a gdzi<ch a="a"/>e pieniądz rośnie</row>
+			<row important_over="false">I pl<ch a="F"/>ączą się cienie pod n<ch a="a"/>iską powałą,</row>
+			<row important_over="false">I c<ch a="E9"/>oraz jest ci<ch a="E"/>aśniej i d<ch a="E9"/>uszniej, i gł<ch a="E"/>ośniej,</row>
+			<row important_over="false">Bo <ch a="F"/>oto włóczędzy z przeszł<ch a="E"/>ością swą mroczną</row>
+			<row important_over="false">Dla l<ch a="F"/>udu się stają wyr<ch a="E"/>ocznią,</row>
+			<bis times="2">
+				<row important_over="false">Dla l<ch a="a"/>udu się stają wyrocznią.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mów<ch a="a"/>imy o wojnach w dalekich krainach,</row>
+			<row important_over="false">Zmyśl<ch a="F"/>amy bogactwa zdob<ch a="a"/>yte, stracone,</row>
+			<row important_over="false">Słuch<ch a="F"/>ają jak mszy, dolew<ch a="a"/>ają nam wina</row>
+			<row important_over="false">I dzi<ch a="E9"/>ewki przysi<ch a="E"/>ądą się t<ch a="E9"/>eż, ośmiel<ch a="E"/>one,</row>
+			<row important_over="false">Do <ch a="F"/>ognia dorzuci przebi<ch a="E"/>egły gospodarz:</row>
+			<row important_over="false">Noc dł<ch a="F"/>uga korzyści mu d<ch a="E"/>oda.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rozgrz<ch a="a"/>ani, snujemy niezwykłą opowieść,</row>
+			<row important_over="false">Zazdr<ch a="F"/>oszcząc im tego, że t<ch a="a"/>acy ciekawi,</row>
+			<row important_over="false">Choć m<ch a="F"/>ają, co każdy tak chci<ch a="a"/>ałby mieć człowiek,</row>
+			<row important_over="false">A z<ch a="E9"/>a byle c<ch a="E"/>o już got<ch a="E9"/>owi zast<ch a="E"/>awić,</row>
+			<row important_over="false">By wł<ch a="F"/>óczyć się, szukać i bł<ch a="E"/>ądzić jak my</row>
+			<row important_over="false">I ż<ch a="F"/>yć bez wytchnienia, bez n<ch a="E"/>ocy i dni,</row>
+			<bis times="2">
+				<row important_over="false">I ż<ch a="a"/>yć bez wytchnienia, bez nocy i dni.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pij<ch a="a"/>emy i każdy już ma coś na oku —</row>
+			<row important_over="false">Ten n<ch a="F"/>ocleg w piekarni, ten p<ch a="a"/>annę piersiastą,</row>
+			<row important_over="false">Świt zn<ch a="F"/>ajdzie nas znowu za mi<ch a="a"/>astem na stoku,</row>
+			<row important_over="false">Gdzie n<ch a="E9"/>ikt tak napr<ch a="E"/>awdę nic ni<ch a="E9"/>e ma na wł<ch a="E"/>asność,</row>
+			<row important_over="false">A w<ch a="F"/>am pozostanie pi<ch a="E"/>osenka i sny:</row>
+			<row important_over="false">-- My dzi<ch a="F"/>eci wolności, bezd<ch a="E"/>omne my psy…</row>
+			<row important_over="true"><ch a="a"/> Dzieci wolności…</row>
+			<bis times="3">
+				<row important_over="true"><ch a="a"/> Dzieci wolności, psy…</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album>Wojna postu z karnawałem</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

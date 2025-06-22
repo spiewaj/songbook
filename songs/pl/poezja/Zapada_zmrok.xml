@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zapada zmrok">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Zapada zmrok już świat ukołysany<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Znów jeden dzień odfrunął nam jak ptak<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="F"/>Panience swej piosenkę na dobranoc<ch a="C"/></row>
+        <row important_over="false"><ch a="G"/>Zaśpiewać chcę w ostatnią chwilę dnia<ch a="C"/><ch a="C7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>I chociaż wnet ostatnie światła zgasną<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Opieka twa rozproszy nocy mrok<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="F"/>Uśpionym wsiom ukołysanym miastom<ch a="C"/></row>
+        <row important_over="false"><ch a="G"/>Panienko daj szczęśliwą dobrą noc<ch a="C"/><ch a="C7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>I ludzkim snom błogosław dłonią jasną<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>I oddal od nich cień codziennych trosk<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="F"/>I tym co znów nie będą mogli zasnąć<ch a="C"/></row>
+        <row important_over="false"><ch a="G"/>Panienko daj szczęśliwą dobrą noc<ch a="C"/><ch a="C7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>A komu noc czuwaniem jest niełatwym<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Na czas bezsenny siłę daj i moc<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="F"/>I tym co dzisiaj zasną raz ostatni<ch a="C"/></row>
+        <row important_over="false"><ch a="G"/>Panienko daj szczęśliwą dobrą noc<ch a="C"/><ch a="C7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Zasypia świat piosenką kołysany<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Odpłyną dzień by jutro wrócić znów<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="F"/>Uśmiecham się do ciebie na dobranoc<ch a="C"/></row>
+        <row important_over="false"><ch a="G"/>Piastunko moich najpiękniejszych snów<ch a="C"/><ch a="C7"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

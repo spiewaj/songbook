@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pastikowa Biedronka">
+  <comment/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Gdy Cię pi<ch a="G"/>erwszy raz u<ch a="D"/>jrzałem </row>
+      <row important_over="true">Wielkim t<ch a="e"/>irem zajech<ch a="C"/>ałaś </row>
+      <row important_over="true">Ja się w T<ch a="G"/>obie zakoch<ch a="D"/>ałem </row>
+      <row important_over="true">A Ty na m<ch a="e"/>nie nie<ch a="C"/> spojrza<ch a="G"/>łaś!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Plastik<ch a="G"/>owa Biedr<ch a="D"/>onko, Ty m<ch a="e"/>oja koch<ch a="C"/>ana </row>
+      <row important_over="true">Zo<ch a="G"/>stań moją ż<ch a="D"/>onką błagam Ci<ch a="e"/>ę n<ch a="C"/>a kolan<ch a="G"/>ach! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Gdy Cię drugi raz ujrzałem <ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Na sklepowej półce stałaś <ch a="e"/><ch a="C"/></row>
+      <row important_over="never">Ja Ci list miłosny słałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">A Ty na mnie nie spojrzałaś! <ch a="e"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Kiedy w końcu nas kupili <ch a="G"/><ch a="D"/></row>
+      <row important_over="never">I do domu nas zawieźli<ch a="e"/><ch a="C"/></row>
+      <row important_over="never">To Ty na mnie spoglądałaś <ch a="G"/><ch a="D"/></row>
+      <row important_over="never">I się we mnie zakochałaś <ch a="e"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">To już koniec tej piosenki<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Mój Ty widzu ukochany <ch a="e"/><ch a="C"/></row>
+      <row important_over="never">Jeśli Ci się spodobała<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">To zaśpiewaj razem z nami! <ch a="e"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

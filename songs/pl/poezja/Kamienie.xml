@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kamienie">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Tam na skraju świata dziwy<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Tam na skraju świata cuda<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Byli tacy co wierzyli<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Że tam dojdą, że się uda<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Ledwie przeszli kilka kroków<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>I za siebie obejrzeli<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Tak jak stali w jednej chwili<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>W martwe głazy skamienieli<ch a="E"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Hej, hej, na, na, na, na, na, na, na, na, na, na<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>I stoją tak już od lat pogrzebani w pamięci<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Myśli mają kamienne i sny kamienne mają<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>I nikt już nie wie jak długo we śnie kamiennym trwają<ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Prędko, prędko pieśń się baje<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Nie tak prędko koń wyskoczy<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Kto zdobędzie wodę życia<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Kto kamieniom pryśnie w oczy<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Kto kamieniom pryśnie w oczy<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Kto ich w ludzi pozamienia<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Kto ich wyrwie z odrętwienia<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Kto ich wreszcie oduroczy<ch a="E"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="3"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

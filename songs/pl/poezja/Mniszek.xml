@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mniszek">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Pójdę jak szary brat zakonny<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>Albo włóczęga lnianowłosy<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>W tę stronę z której na zagony<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Leje się jasne mleko brzozy<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Chcę Ziemię z krańca w kraniec zmierzyć<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>Idąc za blaskiem gwiazdy płonnej<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>I w szczęście bliźnich znów uwierzyć<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Na miedzy żytem rozdzwonionej<ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>I mówię tak samemu sobie<ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Patrząc na wite z łyka kręgi<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Szczęśliwy kogo przyozdobił<ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Kijem i torbą los włóczęgi<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Kto w swym ubóstwie nie zna troski<ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Ani przyjaciół ani wrogów<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>I może z wioski iść do wioski<ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Modląc się do spotkanych stogów<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Świt z ręką pełną chłodnej rosy<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>Rumiane jabłka zorzy strąca<ch a="f"/></row>
+      <row important_over="false"><ch a="a"/>Kosiarze grabiąc traw pokosy<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Pieśnią witają mnie na łące<ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="3"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

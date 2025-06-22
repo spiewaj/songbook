@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Buka">
+  <text_author type="solo">Kasia Sienkiewicz</text_author>
+  <composer type="solo">Kasia Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="D"/><ch a="A"/><ch a="fis"/><ch a="E"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true">W do<ch a="A"/>linie <ch a="E"/>spokój</row>
+      <row important_over="true"><ch a="D"/>A w niej wreszcie <ch a="A"/>mieszkam <ch a="fis"/>ja   <ch a="E"/></row>
+      <row important_over="true"><ch a="D"/>Świat <ch a="A"/>mam na <ch a="E"/>oku</row>
+      <row important_over="true"><ch a="D"/>I taki już <ch a="A"/>jest od <ch a="fis"/>lat  <ch a="E"/></row>
+      <row important_over="true"><ch a="D"/>I pytasz <ch a="A"/>czemu<ch a="fis"/> na trawie jest <ch a="E"/>szron</row>
+      <row important_over="true"><ch a="D"/>I skąd nad<ch a="A"/>chodzi cz<ch a="fis"/>arny <ch a="E"/>front</row>
+      <row important_over="true">Chmur, które <ch a="D"/>idą <ch a="A"/>do nas</row>
+      <row important_over="true">Wiatr <ch a="fis"/>wieje ze wszystkich <ch a="E"/>stron</row>
+      <row important_over="true">Lepiej <ch a="D"/>zamkn<ch a="A"/>ę <ch a="E"/>drzwi</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Wiem, że nie ma <ch a="D"/>nic<ch a="A"/> gorszego niż <ch a="E"/>Buka</row>
+      <row important_over="true">Mówi, że <ch a="D"/>wróc<ch a="A"/>i, ale nie wiesz <ch a="E"/>kiedy</row>
+      <row important_over="true">I <ch a="D"/>stanie pod <ch a="A"/>domem, bo <ch a="fis"/>siebie się nie da <ch a="E"/>oszukać</row>
+      <row important_over="true">Strach jest ten <ch a="D"/>sam<ch a="A"/>, jak <ch a="E"/>wtedy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Wygl<ch a="A"/>ądam p<ch a="E"/>rzez okno</row>
+      <row important_over="false"><ch a="D"/>Raczej nie przysze<ch a="A"/>dł nikt  <ch a="fis"/><ch a="E"/></row>
+      <row important_over="false"><ch a="D"/>Ale po<ch a="A"/>dobno  <ch a="E"/></row>
+      <row important_over="false"><ch a="D"/>Nie wszystk<ch a="A"/>o widać <ch a="fis"/>gdy..<ch a="E"/>.</row>
+      <row important_over="false"><ch a="D"/>Na szybac<ch a="A"/>h i n<ch a="fis"/>a trawie jest sz<ch a="E"/>ron</row>
+      <row important_over="false"><ch a="D"/>Gdy nadcho<ch a="A"/>dzi cz<ch a="fis"/>arny fro<ch a="E"/>nt</row>
+      <row important_over="false">Chmur, które <ch a="D"/>idą <ch a="A"/>do nas</row>
+      <row important_over="false">Wiatr<ch a="fis"/> wieje ze wszystkich <ch a="E"/>stron</row>
+      <row important_over="false">Lepiej <ch a="D"/>zamkn<ch a="A"/>ę <ch a="E"/>drzwi</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false"><ch a="D"/> Po tylu <ch a="A"/>latach <ch a="G"/>wiem już na pewno</row>
+      <row important_over="false"><ch a="D"/>Że kiedy <ch a="A"/>przyjdzie j<ch a="G"/>asne będzie jedno</row>
+      <row important_over="false"><ch a="D"/>Złe <ch a="A"/>myśli nie <ch a="fis"/>były tego <ch a="E"/>warte</row>
+      <row important_over="false"><ch a="D"/>Zostawię <ch a="A"/>drzwi <ch a="E"/>otwarte</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Mogło być nic</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

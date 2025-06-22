@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Beskid">
+	<artist type="solo">Andrzej Wierzbicki</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="C"/> A w Beskidzie r<ch a="F"/>ozzłoc<ch a="G"/>ony b<ch a="C"/>uk</row>
+			<row important_over="true"><ch a="C"/> A w Beskidzie r<ch a="F"/>ozzłoc<ch a="E"/>ony b<ch a="d"/>uk</row>
+			<row important_over="true">Będę ch<ch a="F"/>odził bukow<ch a="G7"/>iną z dłutem w r<ch a="C"/>ęku</row>
+			<row important_over="true">By w dziewcz<ch a="F"/>ęcych twarzach <ch a="C"/>uśmiech rzeźbić</row>
+			<row important_over="true">Ni<ch a="F"/>ech nie płaczą j<ch a="G"/>uż</row>
+			<row important_over="true">Niech się ci<ch a="F"/>eszą po kapl<ch a="G7"/>iczkach moich dr<ch a="C"/>óg.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">W Besk<ch a="C"/>idzi<ch a="F"/>e malow<ch a="G"/>any cerkiewny d<ch a="C"/>ach</row>
+			<row important_over="true">W Besk<ch a="C"/>idzi<ch a="F"/>e zapach mi<ch a="E"/>odu w bukowych pni<ch a="a"/>ach</row>
+			<row important_over="true">Tutaj wr<ch a="F"/>acam gdy ruda j<ch a="G"/>esień</row>
+			<row important_over="true">Na przeł<ch a="C"/>ęcze swój tobół ni<ch a="F"/>esie</row>
+			<row important_over="true">Słucham b<ch a="C"/>icia dzwonów w prz<ch a="F"/>edwieczorny cz<ch a="G"/>as</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">W Besk<ch a="C"/>idzi<ch a="F"/>e malow<ch a="G"/>any wiatrami d<ch a="C"/>om</row>
+			<row important_over="false">W Besk<ch a="C"/>idzi<ch a="F"/>e tutaj sł<ch a="E"/>owa inaczej brzmi<ch a="a"/>ą</row>
+			<row important_over="false">Kiedy krz<ch a="F"/>yczę w jesienną c<ch a="G"/>iszę</row>
+			<row important_over="false">Kiedy wi<ch a="C"/>atrem szeleszczą l<ch a="F"/>iście</row>
+			<row important_over="false">Kiedy w<ch a="C"/>olność się tuli w ci<ch a="F"/>epło moich r<ch a="G"/>ąk</row>
+			<row important_over="true">Gdy jak źr<ch a="F"/>ebak się t<ch a="G"/>uli do mych r<ch a="C"/>ąk.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="C"/> A w Beskidzie z<ch a="F"/>amyśl<ch a="G"/>ony cz<ch a="C"/>as</row>
+			<row important_over="false"><ch a="C"/> A w Beskidzie z<ch a="F"/>amyśl<ch a="E"/>ony cz<ch a="d"/>as</row>
+			<row important_over="true">Będę ch<ch a="F"/>odził gór podd<ch a="G7"/>aszem</row>
+			<row important_over="true">By zerw<ch a="C"/>anych marzeń str<ch a="F"/>uny</row>
+			<row important_over="true">Przewiąz<ch a="C"/>ywać w niespok<ch a="F"/>ojne dłonie drz<ch a="G"/>ew</row>
+			<row important_over="false">Niech mi gr<ch a="F"/>ają na rozst<ch a="G7"/>ajach moich dr<ch a="C"/>óg.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<blocklink blocknb="3"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar></guitar>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do></to_do>
+	</status>
+	<keywords></keywords>
+	<alias></alias>
+	<text_author type="solo">Andrzej Wierzbicki</text_author>
+	<composer type="solo">Andrzej Wierzbicki</composer>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album>YAPA - turystyczne przeboje, cz. 1</album>
+	<genre>Piosenka turystyczna górska</genre>
+	<comment>Występują dość różne wersje tekstu tej piosenki. Postarałem się dobrać skrzyżowanie najpopularniejszego z najsensowniejszym - acz niestety nie słyszałem nagrania, więc trudno mi stwierdzić, na ile trafiłem w oryginał.Występują też różne wersje akordów. U nas gra się takie, częściej spotykana jest tonacja G-dur zamiast C-dur.W refrenie występuje drugi głos.</comment>
+</song>

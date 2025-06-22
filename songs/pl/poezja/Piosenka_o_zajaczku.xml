@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o zajączku">
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">
+				<ch a="G"/>Mam mało cz<ch a="F"/>asu tak ma<ch a="C"/>ło jak pi<ch a="G"/>achu</row>
+			<row important_over="true">W dzi<ch a="D"/>ecięcej g<ch a="A"/>arści nad rz<ch a="G"/>eką</row>
+			<row important_over="true">Zwi<ch a="G"/>eram powi<ch a="F"/>eki zatrz<ch a="C"/>ymać <ch a="G"/>obraz</row>
+			<row important_over="true">C<ch a="D"/>o z moich wsp<ch a="A"/>omnień uci<ch a="G"/>eka</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Bledną k<ch a="D"/>olory i płynie, p<ch a="F"/>łynie</row>
+			<row important_over="true">Rzeka<ch a="C"/> po szarej ł<ch a="G"/>ące</row>
+			<row important_over="true">I płynie płynie nie realniejąc<ch a="D"/><ch a="F"/></row>
+			<row important_over="true">Rzeką zielony zajączek<ch a="C"/><ch a="e"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Biegnę wciąż biegnę przed siebie w siebie<ch a="G"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Tęczę rozgarniam rękami<ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="false">Letnim upałem wytrzeć do sucha<ch a="G"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Spotniałą wilgotną pamięć<ch a="D"/><ch a="A"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Rzeki jaszczurka w trawie się wije<ch a="G"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Słońce się chyli zrudziałe<ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="false">Wieczną zieloność zachować w oczach<ch a="G"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Tak wiele pragnę tak mało<ch a="D"/><ch a="A"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Bledną wspomnienia i płynie rzeka<ch a="D"/><ch a="F"/></row>
+			<row important_over="false">Bez końca i bez początku<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Nasyć me oczy kolorem rosy<ch a="D"/><ch a="F"/></row>
+			<row important_over="false">I drzwi mi otwórz zajączku<ch a="C"/><ch a="e"/></row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<composer type="solo"></composer>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

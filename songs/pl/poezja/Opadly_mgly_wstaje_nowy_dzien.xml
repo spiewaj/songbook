@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Opadły mgły wstaje nowy dzień">
+	<text_author type="solo">Edward Stachura</text_author>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Opadły mgł<ch a="G"/>y i miasto ze sn<ch a="C"/>u się budzi</row>
+			<row important_over="true">G<ch a="G"/>órą czmycha już n<ch a="D"/>oc</row>
+			<row important_over="true">Ktoś tam <ch a="G"/>cicho czeka by kt<ch a="C"/>oś powrócił</row>
+			<row important_over="true">Do gw<ch a="G"/>iazd jest bliżej ni<ch a="D"/>ż k<ch a="D7"/>rok</row>
+			<row important_over="true">Pies się w<ch a="G"/>łóczy popod m<ch a="C"/>urami bezdomny</row>
+			<row important_over="true">Niesie <ch a="G"/>się tęsknota <ch a="D"/>czyjaś na świata cztery <ch a="G"/>strony</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">A Ziemia t<ch a="G"/>oczy toczy swój <ch a="C"/>garb uroczy</row>
+				<row important_over="true"><ch a="G"/>Toczy toczy się l<ch a="D"/>os</row>
+			</bis>
+			<row important_over="true">Ty co <ch a="G"/>płaczesz ażeby <ch a="C"/>śmiać mógł się ktoś</row>
+			<row important_over="true">Już <ch a="G"/>dość, już dość, już <ch a="D"/>dość</row>
+			<row important_over="true">Odpędź <ch a="G"/>czarne myśli</row>
+			<row important_over="true">Dość już <ch a="C"/>twoich łez</row>
+			<row important_over="true">Niech to <ch a="G"/>wszystko przepadnie we <ch a="D"/>mgle</row>
+			<bis times="3">
+				<row important_over="true">Bo nowy <ch a="G"/>dzień wstaje</row>
+				<row important_over="true">Bo <ch a="C"/>nowy dzień wstaje</row>
+				<row important_over="true"><ch a="G"/>Nowy <ch a="D"/>dzień</row>
+			</bis>
+			<row important_over="true">Wstaje nowy <ch a="G"/>dzień<ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never"><ch a="G"/>Z dusznego snu już miasto się wynurza<ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Słońce wschodzi gdzieś tam<ch a="C"/></row>
+			<row important_over="never"><ch a="G"/>Tramwaj na przystanku zakwitł jak róża<ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Uchodzą cienie do bram<ch a="C"/></row>
+			<row important_over="never"><ch a="G"/>Ciągną swoje wózki dwukółki mleczarze<ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Nad dachami snują się sny podlotków pełne marzeń<ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="never"><ch a="G"/>A Ziemia toczy toczy swój garb uroczy<ch a="C"/></row>
+				<row important_over="never"><ch a="G"/>Toczy toczy się los<ch a="D"/></row>
+			</bis>
+			<row important_over="never"><ch a="G"/>Ty co płaczesz ażeby śmiać mógł się ktoś<ch a="C"/></row>
+			<row important_over="never"><ch a="G"/>Już dość, już dość, już dość<ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Odpędź czarne myśli</row>
+			<row important_over="never"><ch a="C"/>Porzuć błędny wzrok</row>
+			<row important_over="never"><ch a="G"/>Niech to wszystko zabierze już noc<ch a="D"/></row>
+			<bis times="3">
+				<row important_over="never"><ch a="G"/>Bo nowy dzień wstaje</row>
+				<row important_over="never"><ch a="C"/>Bo nowy dzień wstaje</row>
+				<row important_over="never"><ch a="G"/>Nowy dzień<ch a="D"/></row>
+			</bis>
+			<row important_over="never"><ch a="G"/>Wstaje nowy dzień<ch a="D"/></row>
+		</block>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Alek</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
+		<to_do>Alek chyba sprawdzil, i nie zaznaczyl, ze sprawdzone
+Onufry</to_do>
+	</status>
+</song>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Biała sukienka">
+  <alias/>
+  <text_author>Spinakery</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/>Czasami gdy mam chandrę i jestem sam<ch a="gis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="cis"/>Kieruję wzrok za okno wysoko tam<ch a="gis"/><ch a="A"/><ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="Gis7"/>Gdzie nad dachami domów i w noc i dniem<ch a="cis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Nadpływa kołysząca marzeniem snem<ch a="E"/><ch a="H7"/><ch a="E"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="E"/>I ona taka w tej białej sukience<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Jak piękny ptak, który zapiera w piersi dech<ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="H"/>Chwyciłem mocno jej obie ręce<ch a="E"/><ch a="A"/></row>
+      <row important_over="false"><ch a="E"/>Oczarowany, zasłuchany w słodki śmiech<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>I cała w żaglach jak w białej sukience<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Jak piękny ptak, który zapiera w piersi dech<ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="H"/>Chwyciłem mocno ster w obie ręce<ch a="E"/><ch a="A"/></row>
+      <row important_over="false"><ch a="E"/>I żeglowałem zasłuchany w fali śpiew<ch a="H"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/>Wspomnienia przemijają, w sercu żal<ch a="gis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="cis"/>Wciąż w łajbę się przemienia dziewczęcy czar<ch a="gis"/><ch a="A"/><ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="Gis7"/>Jeśli mi nie wierzysz, to gnaj co tchu<ch a="cis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Tam w kei możesz ujrzeć coś z mego snu<ch a="E"/><ch a="H7"/><ch a="E"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/>Nie wiem, czy jeszcze kiedyś zobaczę ją<ch a="gis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="cis"/>Czy tylko w moich myślach jej oczy lśnią<ch a="gis"/><ch a="A"/><ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="Gis7"/>Gdy pochylona ostro do wiatru szła<ch a="cis"/><ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Znowu się przeplatają obrazy dwa<ch a="E"/><ch a="H7"/><ch a="E"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

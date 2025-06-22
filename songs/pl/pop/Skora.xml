@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Skóra">
+  <artist>Aya Rl</artist>
+  <lyric>
+    <block type="verse">
+      <row>Stoję na ulicy z nią, stoję twarzą w twarz<ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row>Ktoś przechodzi trąca łokciem, wzrokiem pluje w twarz<ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row>Szeptem mówię: Mała patrz, cywilizowany świat<ch a="a"/><ch a="e"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="G"/></row>
+      <row>Potem obejmuję ją, odpływamy w dal</row>
+      <row>Nie dochodzi obcy głos, wolno płynie czas</row>
+      <row>Odpływamy w otchłań gwiazd, Mała zanuć to co ja:</row>
+    </block>
+    <block type="chorus">
+      <bis times="3"> <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
+      <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row>Stoję na ulicy z nią, śmiechy wkoło nas</row>
+      <row>Ktoś przechodzi trąca łokciem, pluje Małej w twarz</row>
+      <row>Głośno mówię Mała patrz: cywilizowany świat</row>
+      <row>Potem mu przestawiam nos, upadł ale wstał</row>
+      <row>Dookoła głosów sto, ten w skórze to drań</row>
+      <row>Padam dzisiaj byłem sam, Mała nuci to co ja</row>
+    </block>
+    <block type="chorus">
+      <bis times="3"> <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
+      <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row>Wtedy obejmuję ją odpływamy w dal</row>
+      <row>Nie dochodzi obcy głos, wolno płynie czas</row>
+      <row>Odpływamy w otchłań gwiazd, Mała nuci to co ja</row>
+    </block>
+    <block type="chorus">
+      <bis times="3"> <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
+      <row>Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+  </lyric>
+</song>

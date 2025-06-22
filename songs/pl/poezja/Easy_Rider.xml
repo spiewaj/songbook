@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Easy Rider">
+	<alias></alias>
+	<text_author type="solo">Krzysztof Daukszewicz</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Daukszewicz</composer>
+	<artist type="solo">Krzysztof Daukszewicz</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">A kiedy n<ch a="a"/>ic już nie mi<ch a="D"/>ałem w mi<ch a="a"/>eście do rob<ch a="D"/>oty</row>
+			<row important_over="true">Bo na wi<ch a="a"/>ększość po<ch a="D"/>etów sk<ch a="a"/>ończył się tu popyt</row>
+			<row important_over="true">Wsiadłem w <ch a="d"/>auto i rzekłem pora mi uciekać</row>
+			<row important_over="true">Do tej P<ch a="E"/>olski gdzie jeszcze kocha się człowieka</row>
+			<row important_over="true">Tam gdzie r<ch a="d"/>owy przydrożne ubarwione mleczem</row>
+			<row important_over="true">Zaprasz<ch a="H"/>ają wędrowca: wst<ch a="E"/>ąpcie do miasteczek!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Easy R<ch a="a"/>ider</row>
+			<row important_over="true">Prz<ch a="d"/>eszło mi przez głowę</row>
+			<row important_over="true">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Gł<ch a="a"/>upiec jednym słowem</row>
+			<row important_over="true">Lecz ciagn<ch a="d"/>ęły mnie panny</row>
+			<row important_over="false">Ci<ch a="d"/>epłe jak poranek</row>
+			<row important_over="true">Kiedy ml<ch a="E"/>eko skwaszone</row>
+			<row important_over="false">Wn<ch a="E"/>oszą mi na ganek</row>
+			<row important_over="true">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W miasteczku pi<ch a="a"/>erwszym zamkni<ch a="D"/>ęty b<ch a="a"/>ył jedyny h<ch a="D"/>otel</row>
+			<row important_over="false">Bo pers<ch a="a"/>onel miał w<ch a="D"/>olne wł<ch a="a"/>aśnie w tę sobotę</row>
+			<row important_over="false">A w pryw<ch a="d"/>atnym mieszkaniu drzwi otworzył blondyn</row>
+			<row important_over="false">I zap<ch a="E"/>ytał mnie z miejsca jakie masz poglądy</row>
+			<row important_over="false">Sprawiedl<ch a="d"/>iwość i prawda to jest dla mnie wszystko</row>
+			<row important_over="false">Wtedy p<ch a="H"/>adła odpowiedź: zj<ch a="E"/>eżdżaj aktywisto</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Prz<ch a="d"/>eszło mi przez głowę</row>
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Gł<ch a="a"/>upiec jednym słowem</row>
+			<row important_over="false">Lecz ciągn<ch a="d"/>ęły mnie dalej</row>
+			<row important_over="false">Wi<ch a="d"/>erzby malowane</row>
+			<row important_over="false">I te n<ch a="E"/>asze dziewczyny</row>
+			<row important_over="false">Ł<ch a="E"/>adne jak z pisanek</row>
+			<row important_over="false">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W następnym d<ch a="a"/>omku z ogr<ch a="D"/>ódkiem mi<ch a="a"/>ejski prokur<ch a="D"/>ator</row>
+			<row important_over="false">Różom k<ch a="a"/>olce przyc<ch a="D"/>inał r<ch a="a"/>ówno ciął sekator</row>
+			<row important_over="false">Przywit<ch a="d"/>ałem się grzecznie prosząc o mieszkanie</row>
+			<row important_over="false">On zap<ch a="E"/>ytał mnie tylko jakie ma pan zdanie</row>
+			<row important_over="false">Sprawiedl<ch a="d"/>iwość i prawda to jest dla mnie wszystko</row>
+			<row important_over="false">Wtedy p<ch a="H"/>adła odpowiedź: <ch a="E"/>odejdź ekstremisto</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Prz<ch a="d"/>eszło mi przez głowę</row>
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Gł<ch a="a"/>upiec jednym słowem</row>
+			<row important_over="false">Lecz ciągn<ch a="d"/>ęło mnie jeszcze</row>
+			<row important_over="false">D<ch a="d"/>o gościnnych wiosek</row>
+			<row important_over="false">Gdzie częst<ch a="E"/>ują każdego</row>
+			<row important_over="false">Mi<ch a="E"/>odem i bigosem</row>
+			<row important_over="false">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Solidny d<ch a="a"/>om z pruskiej c<ch a="D"/>egły si<ch a="a"/>atką ogrodz<ch a="D"/>ony</row>
+			<row important_over="false">I na br<ch a="a"/>amie tabl<ch a="D"/>iczka: <ch a="a"/>obcym wstęp wzbroniony</row>
+			<row important_over="false">I na g<ch a="d"/>anku gospodarz czerstwy jak bochenek</row>
+			<row important_over="false">Wziął przyw<ch a="E"/>itał pytaniem co najbardziej cenię</row>
+			<row important_over="false">Sprawiedl<ch a="d"/>iwość i prawda to jest dla mnie wszystko</row>
+			<row important_over="false">Burek bi<ch a="H"/>erz miastowego b<ch a="E"/>ędzie widowisko</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Prz<ch a="d"/>eszło mi przez głowę</row>
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="false">Gł<ch a="a"/>upiec jednym słowem</row>
+			<row important_over="false">Lecz ciągn<ch a="d"/>ęło mnie jeszcze</row>
+			<row important_over="false">W str<ch a="d"/>ony te dalekie</row>
+			<row important_over="false">Gdzie tak sw<ch a="E"/>ojsko nam pachnie</row>
+			<row important_over="false">Si<ch a="E"/>anem i człowiekiem</row>
+			<row important_over="false">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A kiedy m<ch a="a"/>inął już mi<ch a="D"/>esiąc w m<ch a="a"/>ej samotnej dr<ch a="D"/>odze</row>
+			<row important_over="false">Gdzieś na szl<ch a="a"/>aku zatrz<ch a="D"/>ymał p<ch a="a"/>ojazd mój wędrowiec</row>
+			<row important_over="false">Sprawiedl<ch a="d"/>iwość i prawda rzekłem do rodaka</row>
+			<row important_over="false">I był pi<ch a="E"/>erwszym co spytał: dobrze, ale jaka?</row>
+			<row important_over="false">I podzi<ch a="d"/>elił się ze mną chlebem i kłopotem</row>
+			<row important_over="false">To był t<ch a="H"/>eż Easy Rider t<ch a="E"/>ylko na piechotę</row>
+			<row important_over="false">Easy R<ch a="a"/>ider</row>
+		</block>
+	</lyric>
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Pralnia</album>
+	<genre></genre>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>Krzysiek</verificator>
+			
+			
+		</verificators>
+		<to_do>Sprawdzane ze śpiewnikiem Daukszewicza</to_do>
+	</status>	<music_source></music_source>
+</song>

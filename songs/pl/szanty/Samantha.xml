@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Samantha">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ty nie jesteś kliprem sławnym<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Cutty Sark czy Betty Louis<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>W Pacyfiku portach gwarnych<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Nie zahuczy w głowie rum<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nie dla ciebie są cyklony<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Hornu także nie opłyniesz<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>W rejsie sławnym i szalonym<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Szancie starej nie zaginiesz<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="F"/>Hej Samantha hej Samantha</row>
+      <row important_over="false"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
+      <row important_over="false"><ch a="a"/>Moje serce masz pod gaflem</row>
+      <row important_over="false"><ch a="C"/>Czasem ciężko prujesz wodę</row>
+      <row important_over="false"><ch a="a"/>I twe żagle już nie nowe</row>
+      <row important_over="false"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
+      <row important_over="false"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ale teraz wyznać pora<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Chociaż nie wiem czemu psiakość<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Gdy Cię nie ma na jezorach<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Na jeziorach pusto jakoś<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdy w wieczornej przyjdzie porze<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Śpiewać zwrotki piosnki złudnej<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Gdy Cię nie ma na jeziorze<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>To Mazury nie są cudne<ch a="G"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Czasem kiedyś już zmęczona<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>W chwili krótkiej przyjemności<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>W złotych słońca stu ramionach<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Ty wygrzewasz stare kości<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>A gdy przyjdzie kres twych dróg<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nie zapłaczę na pogrzebie<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Wiem, że sprawi dobry Bóg<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Byś pływała dalej w niebie<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="F"/>Hej Samantha hej Samantha</row>
+      <row important_over="false"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
+      <bis>
+        <row important_over="false"><ch a="a"/>Moje serce masz pod gaflem</row>
+        <row important_over="false"><ch a="C"/>Czasem ciężko prujesz wodę</row>
+        <row important_over="false"><ch a="a"/>I twe żagle już nie nowe</row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+      </bis>
+      <row important_over="false"><ch a="F"/>Co ma duszę, co ma duszę…<ch a="G"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="2"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

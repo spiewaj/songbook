@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Byle jak">
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="g"/>Latami <ch a="F"/>pracuję <ch a="C"/>ciężko</row>
+      <row important_over="true"><ch a="g"/>Tnąc gałąź, na <ch a="F"/>której ciągle <ch a="C"/>siedzi sam</row>
+      <row important_over="true"><ch a="g"/>Dni co ra<ch a="F"/>z szybcie<ch a="C"/>j biegną</row>
+      <row important_over="true"><ch a="g"/>Lecz jeszcze <ch a="F"/>dzisiaj nie si<ch a="C"/>ęgnie w nas</row>
+      <row important_over="true"><ch a="g"/>Jesteś dla<ch a="F"/> niego prz<ch a="C"/>estrzenią</row>
+      <row important_over="true"><ch a="g"/>Popisów <ch a="F"/>polem i mi<ch a="C"/>ejscem ważnych <ch a="g"/>spraw</row>
+      <row important_over="true">Gdy s<ch a="F"/>padnie będz<ch a="C"/>ie pewien</row>
+      <row important_over="true"><ch a="g"/>Nie byłaś<ch a="F"/> polem a<ch a="C"/> celem</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="g"/>Jak mam <ch a="F"/>obronić zi<ch a="C"/>emię gdy jak walczyć nie wiem</row>
+      <row important_over="true"><ch a="g"/>I wszys<ch a="F"/>tko robię<ch a="C"/> byle jak</row>
+      <row important_over="true">Byle <ch a="B"/>jak, byle <ch a="F"/>jak, byle j<ch a="g"/>ak</row>
+      <row important_over="false">Byle <ch a="B"/>jak, byle <ch a="F"/>jak, byle j<ch a="g"/>ak</row>
+      <row important_over="false">Byle <ch a="B"/>jak, byle <ch a="F"/>jak, byle j<ch a="g"/>ak</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Myślał, że <ch a="F"/>zna Cię na <ch a="C"/>wylot</row>
+      <row important_over="false"><ch a="g"/>Że da się <ch a="F"/>zmierzyć Cię <ch a="C"/>według jego <ch a="g"/>praw</row>
+      <row important_over="false">Zważyć i<ch a="F"/> wycenić <ch a="C"/>wszystko</row>
+      <row important_over="false"><ch a="g"/>Co znajdzie sp<ch a="F"/>ośród słońc <ch a="C"/>i traw</row>
+      <row important_over="false"><ch a="g"/>Samego <ch a="F"/>siebie<ch a="C"/> wyprzedza</row>
+      <row important_over="false"><ch a="g"/>Myślał, że <ch a="F"/>idzie po T<ch a="C"/>obie by znaleźć <ch a="g"/>dom</row>
+      <row important_over="false">Nigdy <ch a="F"/>tego nie <ch a="C"/>pojął</row>
+      <row important_over="false"><ch a="g"/>Nie szedł po <ch a="F"/>Tobie lecz <ch a="C"/>z Tobą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="g"/>Jak mam <ch a="F"/>obronić zi<ch a="C"/>emię kiedy mam wrażenie</row>
+      <row important_over="false"><ch a="g"/>Że bron<ch a="F"/>ić będę c<ch a="C"/>ałkiem sam</row>
+      <row important_over="false">Całkiem <ch a="B"/>sam, całkiem <ch a="F"/>sam, całkiem<ch a="g"/> sam</row>
+      <row important_over="false">Całkiem <ch a="B"/>sam, całkiem <ch a="F"/>sam, całkiem<ch a="g"/> sam</row>
+      <row important_over="false">Całkiem <ch a="B"/>sam, całkiem <ch a="F"/>sam, całkiem<ch a="g"/> sam</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="g"/>Jak mam b<ch a="F"/>ronić Cieb<ch a="C"/>ie, gdy jak walczyć nie wiem?</row>
+        <row important_over="false"><ch a="g"/>Jak mam b<ch a="F"/>ronić Cie<ch a="C"/>bie?</row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="g"/>Jak mam b<ch a="F"/>ronić Cie<ch a="C"/>bie? Jak mam bronić Cieb<ch a="g"/>ie?</row>
+      <row important_over="false">Jak mam b<ch a="F"/>ronić Cie<ch a="C"/>bie, gdy jak walczyć nie wiem?</row>
+      <row important_over="false"><ch a="g"/>Jak mam b<ch a="F"/>ronić Cie<ch a="C"/>bie? Jak mam bronić Cieb<ch a="g"/>ie?</row>
+      <row important_over="false">Jak mam <ch a="F"/>bronić Cie<ch a="C"/>bie?</row>
+      <bis times="2">
+        <row important_over="false"><ch a="g"/>Byle jak C<ch a="F"/>ałkiem sa<ch a="C"/>m</row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Byle <ch a="g"/>jak</row>
+      <row important_over="false">Byle j<ch a="F"/>ak</row>
+      <row important_over="false">Byle <ch a="C"/>jak</row>
+      <row important_over="false">Całkiem <ch a="g"/>sam</row>
+      <row important_over="false">Całkiem s<ch a="F"/>am</row>
+      <row important_over="false">Całkiem <ch a="C"/>sam</row>
+      <row important_over="false">Byle <ch a="g"/>jak</row>
+      <row important_over="false">Byle j<ch a="F"/>ak</row>
+      <row important_over="false">Byle <ch a="C"/>jak</row>
+      <row important_over="false">Całkiem <ch a="g"/>sam</row>
+      <row important_over="false">Całkiem s<ch a="F"/>am</row>
+      <row important_over="false">Całkiem <ch a="C"/>sam</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Mogło być nic</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

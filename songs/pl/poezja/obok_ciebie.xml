@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obok Ciebie">
+	<text_author type="band">Orkiestra Naszych Dni</text_author>
+	<composer type="band">Orkiestra Naszych Dni</composer>
+	<artist type="band">Orkiestra Naszych Dni</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">P<ch a="h"/>ewnie nie zdążę opł<ch a="G"/>ynąć świata,</row>
+			<row important_over="true">Ni<ch a="e"/>e są mi dane Ever<ch a="A"/>esty s<ch a="Fis7"/>ine,</row>
+			<row important_over="true"><ch a="h"/>Ale do szczęścia wyst<ch a="G"/>arczyć może</row>
+			<row important_over="true">L<ch a="e"/>ekki podmuch n<ch a="Fis7"/>ad Niegocinem.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">A Ty, m<ch a="D"/>iły, szukasz czegoś st<ch a="A"/>ale,</row>
+				<row important_over="true">Na końcu świ<ch a="e"/>ata, albo jeszcze dalej — w ni<ch a="h"/>ebie,</row>
+				<row important_over="true">Przemierz<ch a="G"/>ając morza c<ch a="D"/>ałe,</row>
+				<row important_over="true">A to c<ch a="A"/>oś jest obok Ciebie.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pł<ch a="h"/>yńcie koledzy w dal<ch a="G"/>ekie Horny,</row>
+			<row important_over="false">Z<ch a="e"/>orza otuli n<ch a="A"/>ad biegun<ch a="Fis7"/>ami,</row>
+			<row important_over="false"><ch a="h"/>A moje szczęście b<ch a="G"/>ywa po prostu</row>
+			<row important_over="false">Wsch<ch a="e"/>odem słońca nad Wigr<ch a="Fis7"/>ami.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ni<ch a="h"/>e chcą się spełniać wi<ch a="G"/>elkie marzenia,</row>
+			<row important_over="false">Ch<ch a="e"/>odzę po ziemi więc m<ch a="A"/>ocno, mój k<ch a="Fis7"/>otku,</row>
+			<row important_over="false">Kr<ch a="h"/>ótki jest opis moj<ch a="G"/>ego szczęścia —</row>
+			<row important_over="false">T<ch a="e"/>o łajba z Tobą w śr<ch a="Fis7"/>odku.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="D"/>A Ty, miły, szukasz czegoś st<ch a="A"/>ale,</row>
+				<row important_over="false">Na końcu świ<ch a="e"/>ata, albo jeszcze dalej — w ni<ch a="h"/>ebie,</row>
+				<row important_over="false">Przemierz<ch a="G"/>ając morza c<ch a="D"/>ałe,</row>
+				<row important_over="false">A ten kt<ch a="A"/>oś jest obok Ciebie.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Skrzypek</album>
+	<genre>Szanta</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+	</status>
+</song>

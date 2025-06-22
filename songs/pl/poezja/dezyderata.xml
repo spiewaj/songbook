@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Dezyderata" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Max Ehrmann</text_author>
+	<comment>Wikipedia: Dezyderata (od łac. desideratio - życzenie, pragnienie, potrzeba) to poemat napisany przez Maksa Ehrmanna, zawierający wskazówki na temat dobrego życia.
+
+Utwór powstał w 1927 roku. W roku 1933 autor złożył go w formie życzeń na Boże Narodzenie dla przyjaciół. W 1948 wdowa po Ehrmannie opublikowała go w tomiku The poems of Max Ehrmann, skąd dwa lata później, w 1950, do zbioru nabożnych pieśni zaczerpnął go pastor kościoła pod wezwaniem Św. Pawła w Baltimore. Dopiero tą drogą Dezyderata dostała się do kultury masowej. Plotka na temat anonimowego autora i błędna data powstania - 1692 rok - pochodzą stąd, że strona, na której znajdował się tekst utworu w owym zbiorze, miała nagłówek z informacją: "Stary kościół św. Pawła" i datą 1692 (w rzeczywistości to data budowy kościoła). Wskutek częstego kopiowania jedynie tej strony, informacja zaczęła być błędnie odczytywana. Dezyderata jest uznawana za nieoficjalny hymn ruchu Anonimowych Alkoholików, odwoływali się do niej także hippisi. Znane wykonania w postaci piosenki napisanej na jej podstawie przez Lesa Crane'a z muzyką Freda Wernera (po raz pierwszy nagrana w 1970 przez brytyjską grupę Every Which Way) oraz piosenki kabaretu Piwnica pod Baranami.</comment>
+	<composer type="solo">Piotr Walewski</composer>
+	<artist type="solo">Piwnica pod Baranami</artist>
+	<translator>Andrzej Jakubowicz</translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row style="instr"><ch a="a"/><ch a="d2"/><ch a="a"/><ch a="d2"/></row>
+			<row important_over="true">D<ch a="a"/>ezyder<ch a="d2"/>ata, d<ch a="a"/>ezyder<ch a="d2"/>ata…</row>
+			<row important_over="true">Prz<ch a="C"/>echodź spokojnie przez h<ch a="G"/>ałas i pośpiech</row>
+			<row important_over="true">i pami<ch a="d"/>ętaj, jaki spokój można zn<ch a="h0"/>aleźć w ciszy.</row>
+			<row important_over="true">O <ch a="h0"/>ile to możliwe bez wyrzekania się siebie</row>
+			<row important_over="true">b<ch a="h0"/>ądź na dobrej stopie ze wszystk<ch a="C"/>imi.<ch a="E"/>
+			</row>
+			<row important_over="true">W<ch a="a"/>ypowiadaj sw<ch a="d"/>oją prawdę</row>
+			<row important_over="true">j<ch a="G"/>asno i spok<ch a="C"/>ojnie,</row>
+			<row important_over="true">w<ch a="F"/>ysłuchaj <ch a="d"/>innych,</row>
+			<row important_over="true">n<ch a="E"/>awet tępych <ch a="a"/>i nieświadomych,</row>
+			<row important_over="true">
+				<ch a="a"/>oni też m<ch a="d"/>ają</row>
+			<row important_over="true">sw<ch a="G"/>oja op<ch a="C"/>owieść,</row>
+			<row important_over="true">
+				<ch a="F"/>oni też m<ch a="d"/>ają op<ch a="E"/>owieść.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="a"/>Unikaj gł<ch a="d2"/>ośnych i n<ch a="a"/>apastl<ch a="d2"/>iwych,</row>
+			<row important_over="false">
+				<ch a="a"/>unikaj gł<ch a="d2"/>ośnych są udr<ch a="a"/>ęką ducha.</row>
+			<row important_over="false">Niech tw<ch a="C"/>oje osiągnięcia zar<ch a="G"/>ówno jak plany</row>
+			<row important_over="false">b<ch a="d"/>ędą dla Ciebie źr<ch a="h0"/>ódłem radości.</row>
+			<row important_over="false">B<ch a="h0"/>ądź ostrożny w interesach, bądź ostrożny w interesach,</row>
+			<row important_over="false">na świ<ch a="h0"/>ecie bowiem p<ch a="C"/>ełno osz<ch a="E"/>ustwa.</row>
+			<row important_over="false">B<ch a="a"/>ądź sobą, zwł<ch a="d"/>aszcza</row>
+			<row important_over="false">nie ud<ch a="G"/>awaj ucz<ch a="C"/>ucia.</row>
+			<row important_over="false">
+				<ch a="F"/>Ani też nie p<ch a="d"/>odchodź</row>
+			<row important_over="false">cyn<ch a="E"/>icznie do mił<ch a="a"/>ości,</row>
+			<row important_over="false">b<ch a="a"/>o <ch a="d"/>ona jest</row>
+			<row important_over="false">wi<ch a="G"/>eczna jak tr<ch a="C"/>awa,</row>
+			<row important_over="false">b<ch a="F"/>o <ch a="d"/>ona jest wi<ch a="E"/>eczna.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Un<ch a="a"/>ikaj gł<ch a="d2"/>ośnych i n<ch a="a"/>apastl<ch a="d2"/>iwych,</row>
+			<row important_over="false">
+				<ch a="a"/>unikaj gł<ch a="d2"/>ośnych, są udr<ch a="a"/>ęką ducha.</row>
+			<row important_over="false">Prz<ch a="C"/>yjmij spokojnie co ci l<ch a="G"/>ata doradzają</row>
+			<row important_over="false">z wdzi<ch a="d"/>ękiem wyrzekając się spr<ch a="h0"/>aw młodości.</row>
+			<row important_over="false">J<ch a="h0"/>esteś dzieckiem wszechświata nie mniej niż drzewa i gwiazdy,</row>
+			<row important_over="false">m<ch a="h0"/>asz prawo być t<ch a="C"/>utaj.<ch a="E"/>
+			</row>
+			<row important_over="false">T<ch a="a"/>ak więc żyj w zg<ch a="d"/>odzie z Bogiem,</row>
+			<row important_over="false">czymk<ch a="G"/>olwiek On ci się wyd<ch a="C"/>aje,</row>
+			<row important_over="false">w zgi<ch a="F"/>ełkliwym pomiesz<ch a="d"/>aniu</row>
+			<row important_over="false">ż<ch a="E"/>ycia zach<ch a="a"/>owaj spokój,</row>
+			<row important_over="false">w zgi<ch a="a"/>ełkliwym pomiesz<ch a="d"/>aniu</row>
+			<row important_over="false">ż<ch a="G"/>ycia zach<ch a="C"/>owaj</row>
+			<row important_over="false">sp<ch a="F"/>okój z<ch a="d"/>e swą d<ch a="E"/>uszą.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Prz<ch a="a"/>y całej sw<ch a="d"/>ej złudności,</row>
+			<row important_over="false">zn<ch a="G"/>oju i rozwi<ch a="C"/>anych marzeniach</row>
+			<row important_over="false">j<ch a="F"/>est to piękny świ<ch a="d"/>at, j<ch a="E"/>est to piękny świat.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zn<ch a="a"/>alezione w st<ch a="d"/>arym kościele</row>
+			<row important_over="false">Świ<ch a="G"/>ętego Pawła w B<ch a="C"/>altimore.</row>
+			<row important_over="false">d<ch a="F"/>atowane t<ch a="d"/>ysiąc sześćset dziewi<ch a="E"/>ędziesiąty drugi rok.</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Prz<ch a="a"/>y całej sw<ch a="d"/>ej złudności,</row>
+				<row important_over="false">zn<ch a="G"/>oju i rozwi<ch a="C"/>anych marzeniach</row>
+				<row important_over="false">j<ch a="F"/>est to piękny świ<ch a="d"/>at, j<ch a="E"/>est to piękny świat.</row>
+			</bis>
+			<bis times="5">
+				<row style="instr"><ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
+			</bis>
+		</block>
+	</lyric>
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

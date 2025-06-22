@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wojtka Bellona ostatnia ziemska podróż do Włodawy">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Z g<ch a="d"/>itarą i z piórem</row>
+      <row important_over="false">Kwietn<ch a="C"/>iowym wieczorem</row>
+      <row important_over="false">Jedziemy z W<ch a="G"/>ojtkiem</row>
+      <row important_over="false"><ch a="G"/>Razem do Włodawy</row>
+      <row important_over="false">S<ch a="F"/>tary bieszczadnik</row>
+      <row important_over="false">Majster <ch a="G"/>Bieda</row>
+      <row important_over="false">Wciąż wierny <ch a="A"/>górom</row>
+      <row important_over="false">Jak zwykle jest <ch a="A7"/>z nami</row>
+      <row important_over="false"><ch a="d"/>I mówisz wszystko si<ch a="F"/>ę uda</row>
+      <row important_over="false">O to ni<ch a="C"/>e ma żadnej ob<ch a="A"/>awy</row>
+      <row important_over="false">Prz<ch a="B"/>ecież jedziemy <ch a="C"/>dziś</row>
+      <row important_over="false">Na d<ch a="d"/>wa d<ch a="A"/>ni do Włoda<ch a="d"/>wy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>W przedziale po oczach</row>
+      <row important_over="false"><ch a="C"/>Mdli mleczna żarówka</row>
+      <row important_over="false"><ch a="G"/>Mała</row>
+      <row important_over="false"><ch a="G"/>Gwiazda betlejemska</row>
+      <row important_over="false"><ch a="F"/>I pociąg lubelski</row>
+      <row important_over="false"><ch a="G"/>Noc długą przecina</row>
+      <row important_over="false"><ch a="A"/>Buntując się</row>
+      <row important_over="false"><ch a="A7"/>Na ostrych zakrętach</row>
+      <row important_over="false"><ch a="d"/>I mówisz wszystko będzie dobrze<ch a="F"/></row>
+      <row important_over="false"><ch a="C"/>Opowiemy im nasze sprawy<ch a="A"/></row>
+      <row important_over="false"><ch a="B"/>Przecież po to jedziemy<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Z plecaka chleb wyjęty</row>
+      <row important_over="false"><ch a="C"/>Garść soli</row>
+      <row important_over="false"><ch a="G"/>Kawałek sprytem zdobytej</row>
+      <row important_over="false"><ch a="G"/>Kiełbasy</row>
+      <row important_over="false"><ch a="F"/>Chcemy noc przeskoczyć</row>
+      <row important_over="false"><ch a="G"/>Ciemną i niepewną</row>
+      <row important_over="false"><ch a="A"/>Z biletem kupionym</row>
+      <row important_over="false"><ch a="A7"/>W nieznane</row>
+      <row important_over="false"><ch a="d"/>Lecz mówisz znów musi się udać<ch a="F"/></row>
+      <row important_over="false"><ch a="C"/>Choć tyle podróży za nami<ch a="A"/></row>
+      <row important_over="false"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Dzisiaj się buntuje</row>
+      <row important_over="false"><ch a="C"/>Czesiek król nad króle</row>
+      <row important_over="false"><ch a="G"/>Piekarz rodem z Buska</row>
+      <row important_over="false"><ch a="G"/>Wchodzi w układ</row>
+      <row important_over="false"><ch a="F"/>Stawia pasjans z bułek</row>
+      <row important_over="false"><ch a="G"/>I gorzej się czuje</row>
+      <row important_over="false"><ch a="A"/>A w drewnie cierpliwym</row>
+      <row important_over="false"><ch a="A7"/>Został ślad</row>
+      <row important_over="false"><ch a="d"/>A ty na przekór wszystkim mówisz<ch a="F"/></row>
+      <row important_over="false"><ch a="C"/>Że się uda nie ma obawy<ch a="A"/></row>
+      <row important_over="false"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>I są wciąż pytania</row>
+      <row important_over="false"><ch a="C"/>I są wciąż rozmowy</row>
+      <row important_over="false"><ch a="G"/>Ważne</row>
+      <row important_over="false"><ch a="G"/>Choć tylko przedziałowe</row>
+      <row important_over="false"><ch a="F"/>I jak z każdej</row>
+      <row important_over="false"><ch a="G"/>Wspólnej nam posiady</row>
+      <row important_over="false"><ch a="A"/>Wygląda w przeszłość</row>
+      <row important_over="false"><ch a="A7"/>Zatroskany człowiek</row>
+      <row important_over="false"><ch a="d"/>Wyciągasz wiersz ciepły jeszcze<ch a="F"/></row>
+      <row important_over="false"><ch a="C"/>Wczoraj bodajże napisany<ch a="A"/></row>
+      <row important_over="false"><ch a="B"/>I czytasz głośno go w przedziale<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>W naszej podróży do Włodawy<ch a="A"/><ch a="d"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

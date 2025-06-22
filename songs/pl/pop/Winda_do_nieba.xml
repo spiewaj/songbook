@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Windą do nieba">
+	<artist type="band">Dwa Plus Jeden</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Mój piękny panie, raz zobaczony w technikolorze<ch a="C"/><ch a="a"/><ch a="G"/></row>
+			<row important_over="false">Piszę do pana ostatni list<ch a="F"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Już mi lusterko z tym pana zdjęciem też nie pomoże<ch a="G"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Pora mi dzisiaj do ślubu iść<ch a="C"/><ch a="G"/><ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mój piękny panie ja go nie kocham, taka jest prawda</row>
+			<row important_over="false">Pan główną rolę gra w każdym śnie</row>
+			<row important_over="false">Ale dziewczyna przez życie nie może iść całkiem sama</row>
+			<row important_over="false">Życie jest życiem pan przecież wie</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Już mi niosą suknię z welonem<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Już Cyganie czekają z muzyką</row>
+			<row important_over="false">Koń do taktu zamiata ogonem</row>
+			<row important_over="false">Mendelsonem stukają kopyta</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Jeszcze ryżem sypną na szczęście</row>
+			<row important_over="false">Gości tłum coś fałszywie odśpiewa</row>
+			<row important_over="false">Złoty krążek mi wcisną na rękę</row>
+			<bis times="3">
+				<row important_over="false">I powiozą mnie windą do nieba<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mój piękny panie z tego wszystkiego nie mogłam zasnąć</row>
+			<row important_over="false">Więc nie mógł mi się pan przyśnić dziś</row>
+			<row important_over="false">I tak odchodzę bez pożegnania jakby z nienacka</row>
+			<row important_over="false">Ktoś między nami zatrzasnął drzwi</row>
+		</block>
+		<blocklink blocknb="3"/>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<done/>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<composer type="solo"></composer>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

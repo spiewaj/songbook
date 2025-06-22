@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dom w górach">
+  <text_author>Ewa Gaworska</text_author>
+  <comment>Na dostępnych nagraniach są tylko dwie pierwsze zwrotki.</comment>
+  <composer type="solo">Ewa Gaworska</composer>
+  <artist type="solo">Ewa Gaworska; Wojtek Starck</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">W <ch a="a"/>jesienną głogów <ch a="C"/>czerwień</row>
+      <row important_over="true">W złot<ch a="d"/>awą młodość brz<ch a="E"/>ozy</row>
+      <row important_over="true">Wiatr z <ch a="a"/>głowy czapkę <ch a="C"/>zerwie</row>
+      <row important_over="true">Pod <ch a="d"/>stopy gór poł<ch a="E"/>oży</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">I <ch a="d"/>zbudujemy <ch a="G"/>dom bez <ch a="C"/>strychów i bez <ch a="a"/>piwnic</row>
+      <row important_over="true">Zapł<ch a="d"/>onie lampą <ch a="G"/>klon, zap<ch a="C"/>achem lasów <ch a="a"/>grzybnych</row>
+      <row important_over="true">Nie <ch a="d"/>trzeba stawiać <ch a="a"/>pieców, nie <ch a="d"/>musisz okien <ch a="a"/>szklić</row>
+      <row important_over="true">I <ch a="d"/>zbudujemy <ch a="a"/>dom, bo taki <ch a="E"/>dom musi <ch a="a"/>być</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I n<ch a="a"/>iebu się pokł<ch a="C"/>onisz</row>
+      <row important_over="false">I w<ch a="d"/>yżej wciąż bez sł<ch a="E"/>owa</row>
+      <row important_over="false">Na w<ch a="a"/>yciągniętej dł<ch a="C"/>oni</row>
+      <row important_over="false">Będzi<ch a="d"/>emy dom bud<ch a="E"/>ować</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">I wzni<ch a="a"/>esiesz twarz gdzie szcz<ch a="C"/>yty</row>
+      <row important_over="false">I wy<ch a="d"/>żej wciąż bez sł<ch a="E"/>owa</row>
+      <row important_over="false">Na ści<ch a="a"/>eżkach mgłą okr<ch a="C"/>ytych</row>
+      <row important_over="false">Będzi<ch a="d"/>emy dom bud<ch a="E"/>ować</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Od l<ch a="a"/>at już po kryj<ch a="C"/>omu</row>
+      <row important_over="false">Naw<ch a="d"/>iedza nas noc<ch a="E"/>ami</row>
+      <row important_over="false">Ban<ch a="a"/>alny sen o d<ch a="C"/>omu</row>
+      <row important_over="false">I r<ch a="d"/>ośnie razem z n<ch a="E"/>ami</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="false">I <ch a="d"/>zbudujemy <ch a="G"/>dom na <ch a="C"/>cztery świata <ch a="a"/>strony</row>
+      <row important_over="false">Zapł<ch a="d"/>onie lampą kl<ch a="G"/>on, wędr<ch a="C"/>owcom dniem <ch a="a"/>znużonym</row>
+      <row important_over="false">Nie tr<ch a="d"/>zeba stawiać pi<ch a="a"/>eców, nie m<ch a="d"/>usisz okien s<ch a="a"/>zklić</row>
+      <row important_over="false">I zb<ch a="d"/>udujemy d<ch a="a"/>om, bo taki d<ch a="E"/>om musi <ch a="a"/>być</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="3"/>
+  </music>
+  <keywords/>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Adam Foland</verificator>
+    </verificators>
+  </status>
+</song>

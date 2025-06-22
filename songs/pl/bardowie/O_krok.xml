@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="O krok" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">O krok od źr<ch a="a"/>ódła kon<ch a="E"/>ają z pragni<ch a="a"/>enia.</row>
+			<row important_over="true">O krok od pi<ch a="C"/>ekła szal<ch a="d"/>eją z rozk<ch a="E"/>oszy.</row>
+			<row important_over="true">Trzeźwieją z m<ch a="F"/>arzeń o kr<ch a="A"/>ok od spełni<ch a="d"/>enia.<ch a="F"/></row>
+			<row important_over="true">O krok od c<ch a="a"/>elu wł<ch a="E7"/>asny cień ich pł<ch a="a"/>oszy.<ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Krok od tri<ch a="a"/>umfu <ch a="E"/>opuszczają gł<ch a="a"/>owy.</row>
+			<row important_over="false">Podnoszą gł<ch a="C"/>owy o kr<ch a="d"/>ok od wyr<ch a="E"/>oku.</row>
+			<row important_over="false">O krok od ł<ch a="d"/>aski tr<ch a="E"/>acą dar w<ch a="F"/>ymowy.<ch a="d"/></row>
+			<row important_over="false">Krok od przep<ch a="a"/>aści prz<ch a="E"/>yspieszają kr<ch a="a"/>oku.<ch a="Fis7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">O krok od z<ch a="h"/>emsty n<ch a="Fis"/>agle wielcy d<ch a="h"/>uchem.</row>
+			<row important_over="false">O krok od dr<ch a="D"/>ogi bł<ch a="e"/>ądzą w próżnych sp<ch a="Fis"/>orach.</row>
+			<row important_over="false">O krok od cz<ch a="e"/>ynu w<ch a="Fis"/>olą frazy kr<ch a="G"/>uche.<ch a="e"/></row>
+			<row important_over="false">O krok od j<ch a="h"/>utra prz<ch a="Fis"/>eżywają wcz<ch a="h"/>oraj.<ch a="Fis7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">O krok od zg<ch a="h"/>ody p<ch a="Fis"/>usta złość ich bi<ch a="h"/>erze.</row>
+			<row important_over="false">O krok od wi<ch a="D"/>edzy wdych<ch a="e"/>ają zabob<ch a="Fis"/>on.</row>
+			<row important_over="false">O krok od B<ch a="G"/>oga z<ch a="H"/>aprzeczają wi<ch a="e"/>erze.<ch a="G"/></row>
+			<row important_over="false">O krok od si<ch a="h"/>ebie ni<ch a="Fis"/>e chcą stać się s<ch a="h"/>obą.<ch a="H7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">O krok od śmi<ch a="e"/>erci ż<ch a="H"/>ywot im niedr<ch a="e"/>ogi.</row>
+			<row important_over="false">O krok od ż<ch a="G"/>ycia śni<ch a="a"/>ą minione k<ch a="H7"/>aźnie.</row>
+			<row important_over="false">Gromadzą ksi<ch a="C"/>ęgi o kr<ch a="E7"/>ok od poż<ch a="a"/>ogi.<ch a="C"/></row>
+			<row important_over="false">O krok od kl<ch a="e"/>ęski cz<ch a="H7"/>ują się najr<ch a="e"/>aźniej.<ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tak przez godz<ch a="a"/>inę, dzi<ch a="E7"/>eń, miesiąc, r<ch a="a"/>ok,</row>
+			<row important_over="false">Aż zrobią ten j<ch a="C"/>eden ni<ch a="d"/>euchronny kr<ch a="E"/>ok…</row>
+			<row important_over="false">Tak przez godz<ch a="F"/>inę, dzi<ch a="A7"/>eń, miesiąc, r<ch a="d"/>ok<ch a="F"/></row>
+			<row important_over="false">Aż zrobią ten j<ch a="a"/>eden ni<ch a="E7"/>euchronny kr<ch a="a"/>ok.</row>
+		</block>
+	</lyric>
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Między nami</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

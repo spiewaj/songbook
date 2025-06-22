@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Zielone szkiełko" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Robert Kasprzycki</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Kasprzycki</composer>
+	<artist type="solo">Robert Kasprzycki</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Stoję na słońcu, łapię w palce czas</row>
+			<row important_over="false">Nitki babiego lata</row>
+			<row important_over="false">Patrzę na świat przez szkło bez krat</row>
+			<row important_over="false">Przez dno butelki</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Włosy rozwiane głaszczą mi twarz</row>
+			<row important_over="false">Świat jest bez końca zielony</row>
+			<row important_over="false">Człowiek na słońcu to właśnie ja</row>
+			<row important_over="false">A może, a może nie człowiek</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Leżę na ziemi, wdycham zapach traw</row>
+			<row important_over="false">Obłoki skłębione</row>
+			<row important_over="false">Zielone szkiełko całą prawdę zna</row>
+			<row important_over="false">Wie dokąd idę schylony</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Palce mi ziębną gdy przyjdzie świt</row>
+			<row important_over="false">Nie wiem od rosy czy wstydu</row>
+			<row important_over="false">Człowiek na ziemi to właśnie ja</row>
+			<row important_over="false">A może człowieka widmo</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecę gdzieś w przepaść, widzę czarne dno</row>
+			<row important_over="false">Słyszę jak krew stęchnie w żyłach</row>
+			<row important_over="false">Spływa po twarzy powietrza prąd</row>
+			<row important_over="false">To cel mnie znalazł i wybrał</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Znalazłem drogę, którą chcę</row>
+			<row important_over="false">Przejść aż na drugą snu stronę</row>
+			<row important_over="false">Zielone szkiełko przecina dłoń</row>
+			<bis times="3">
+				<row important_over="false">Spadam na ziemię, spadam na ziemię</row>
+			</bis>
+			<row important_over="false">Jak promień</row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

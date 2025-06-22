@@ -1,0 +1,20 @@
+name: Dispatch Pull request
+run-name: ${{ github.actor }} dispatching presubmit
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - '.github/**'
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  generate_all:
+    uses: ./.github/workflows/generate_all.yml
+    with:
+      html: true
+      epub: true
+      pdf: true
+      release: false

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rudy gość">
+  <alias>Raj Kozaczy</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Rudy gość na trąbie <ch a="d"/>gra </row>
+      <row important_over="true">pieśń step<ch a="a"/>ową,<ch a="A7"/></row>
+      <row important_over="true">A<ch a="d"/> step, szer<ch a="G"/>oki st<ch a="C"/>ep </row>
+      <row important_over="true">um<ch a="G0"/>yka mu spod n<ch a="A7"/>óg<ch a="d"/>,</row>
+      <row important_over="true"><ch a="G"/>Niebo <ch a="C"/>zaś nad gł<ch a="a"/>ową<ch a="F"/> </row>
+      <row important_over="true"><ch a="G"/>grzbiet napina sw<ch a="a"/>ój.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Kozaki, ech junaki,<ch a="F"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="never">Dziewoje, ech krasiwe<ch a="F"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="never">Piękne i leniwe<ch a="d7"/><ch a="a"/></row>
+      <row important_over="never">Śpiewają i grają tę pieśń<ch a="d"/><ch a="F6"/><ch a="A0"/></row>
+      <row important_over="never">O miłości i o dniu, <ch a="d6"/><ch a="E7"/></row>
+      <row important_over="never">który przyjdzie.<ch a="a"/><ch a="A7"/></row>
+      <row important_over="never">A stada koni jak wiatr<ch a="d"/><ch a="G7"/><ch a="C"/></row>
+      <row important_over="never">wciąż przecinają step.<ch a="G0"/><ch a="A7"/><ch a="d"/><ch a="G"/></row>
+      <row important_over="never">To jest raj kozaczy, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">to jest nasza pieśń.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Dosiadł konia rudy gość, <ch a="a"/><ch a="d"/></row>
+      <row important_over="never">zabrał trąbę,<ch a="a"/><ch a="A7"/></row>
+      <row important_over="never">A step, szeroki step <ch a="d"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">na skrzydłach swych go niósł,<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">Koń ze złotą grzywą <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">grzbiet napina swój.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Rudy step, a w stepie mgła <ch a="a"/><ch a="d"/></row>
+      <row important_over="never">srebrnolica<ch a="a"/><ch a="A7"/></row>
+      <row important_over="never">I step, szeroki step,<ch a="d"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never"> już umilkł trąby głos<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">Płacze krasawica, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">ktoś odjechał stąd. <ch a="G"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

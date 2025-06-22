@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mazurscy kolumbowie">
+  <text_author type="solo">Mirosław Kowalewski</text_author>
+  <artist type="band">Zejman &amp; Garkumpel</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Gdzieś daleko Ameryka,<ch a="a"/><ch a="e"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Z ortodromą loksodroma,<ch a="C"/><ch a="d"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never" sidechords="a e F G">Na odkrycie swoje czeka<ch a="|"/><ch a="a"/><ch a="e"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never" sidechords="C G a">Gdzieś za morzem przyczajona.<ch a="|"/><ch a="C"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">A my, hej! Pochwyćmy wiatru powiew,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Niech nam zawsze sprzyja niebo.<ch a="C"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">My, Mazurscy Kolumbowie,<ch a="a"/><ch a="G"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Odkrywamy Węgorzewo.<ch a="a"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na wyprawę swoich marzeń</row>
+      <row important_over="false">Wyruszyli z ranną bryzą</row>
+      <row important_over="false">Nieugięci wprost żeglarze,</row>
+      <row important_over="false">Z lękiem gnali za horyzont.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A my, hej! Pochwyćmy wiatru powiew,</row>
+      <row important_over="false">By w nieznane miejsca płynąć.</row>
+      <row important_over="false">My, Mazurscy Kolumbowie,</row>
+      <row important_over="false">Odkrywamy dzisiaj Sztynort.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na wyprawie długiej przyszło</row>
+      <row important_over="false">Znosić bunty i zwątpienia,</row>
+      <row important_over="false">Aż ktoś w końcu z masztu krzyknął</row>
+      <row important_over="false">To magiczne słowo: &quot;Ziemia!&quot;</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A my, hej! Pochwyćmy wiatru powiew,</row>
+      <row important_over="false">Obce lądy nie są blisko.</row>
+      <row important_over="false">My, Mazurscy Kolumbowie,</row>
+      <row important_over="false">Odkrywamy dziś Giżycko.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Powrócili cali w glorii,</row>
+      <row important_over="false">Wieszcze mieli o czym pisać,</row>
+      <row important_over="false">No i przeszli do historii,</row>
+      <row important_over="false">Bo przywieźli... ...syfilisa.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A my, hej! Pochwyćmy wiatru powiew,</row>
+      <row important_over="false">Fale, sztormy to nie bajki.</row>
+      <row important_over="false">My, Mazurscy Kolumbowie,</row>
+      <row important_over="false">Odkrywamy Mikołajki.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Za Kolumbem morskie mile,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Za nim rejs co wart był życia,<ch a="C"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">A my mamy jeszcze tyle<ch a="a"/><ch a="G"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Jakichś Mazur do odkrycia, do odkrycia, do odkrycia…<ch a="G"/><ch a="a"/><ch a="G"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

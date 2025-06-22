@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<song title="Gór mi mało" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+
+	<alias></alias>
+
+	<text_author type="solo">Tom Borkowski</text_author>
+
+	<comment></comment>
+
+	<composer type="solo">Wojciech Szymański</composer>
+
+	<artist type="solo">Dom o zielonych progach</artist>
+
+	<translator></translator>
+
+	<original_title></original_title>
+
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+
+		<block type="other">
+
+			<bis times="4">
+
+				<row important_over="false"><ch a="C"/><ch a="d"/><ch a="G"/><ch a="C2"/><ch a="G"/></row>
+
+			</bis>
+
+		</block>
+
+		<block type="verse">
+
+			<row important_over="true">Drogi M<ch a="C"/>istrzu, Mistrzu mojej dr<ch a="G"/>ogi,</row>
+
+			<row important_over="true">Mistrzu J<ch a="d"/>erzy i Mistrzu Wojci<ch a="G"/>echu,</row>
+
+			<row important_over="false">Przez was w g<ch a="C"/>órach schodziłem n<ch a="G"/>ogi,</row>
+
+			<row important_over="false">Nie m<ch a="d"/>ogąc złapać odd<ch a="G"/>echu.</row>
+
+			<row important_over="false">Gór, co st<ch a="C"/>oją nigdy nie dog<ch a="G"/>onię,</row>
+
+			<row important_over="false">Znikaj<ch a="d"/>ących punktów na m<ch a="G"/>apie,</row>
+
+			<row important_over="false">Jakie mi<ch a="C"/>ejsce nazwę swym d<ch a="G"/>omem,</row>
+
+			<row important_over="false">Jakim d<ch a="d"/>otrę do niego szl<ch a="G"/>akiem.</row>
+
+		</block>
+
+		<block type="chorus">
+
+			<row important_over="true">Gór mi m<ch a="C"/>ało i trzeba mi wi<ch a="G"/>ęcej,</row>
+
+			<row important_over="true">Żeby prz<ch a="a"/>etrwać od zimy do z<ch a="e"/>imy,</row>
+
+			<row important_over="true">Ktoś mnie sk<ch a="F"/>azał na wieczną wędr<ch a="C"/>ówkę</row>
+
+			<row important_over="true">Po śl<ch a="d"/>adach, które sam zostaw<ch a="G"/>iłem.</row>
+
+			<row important_over="false">Góry, g<ch a="C"/>óry i ciągle mi ni<ch a="G"/>e dość,</row>
+
+			<row important_over="false">Skazan<ch a="a"/>emu na gór doż<ch a="e"/>ywocie,</row>
+
+			<row important_over="false">Świat na d<ch a="F"/>obre mi zbieszcz<ch a="C"/>adział,</row>
+
+			<row important_over="false">Szczyty w<ch a="d"/>olnym mijają mnie kr<ch a="G"/>okiem.</row>
+
+		</block>
+
+		<block type="other">
+
+			<bis times="2">
+
+				<row important_over="false"><ch a="C"/><ch a="d"/><ch a="G"/><ch a="C2"/><ch a="G"/></row>
+
+			</bis>
+
+		</block>
+
+		<block type="verse">
+
+			<row important_over="false">Pańscy świ<ch a="C"/>ęci, święci bezp<ch a="G"/>ańscy,</row>
+
+			<row important_over="false">Święty J<ch a="d"/>erzy, Mikołaju, Mich<ch a="G"/>ale,</row>
+
+			<row important_over="false">Starod<ch a="C"/>awni gór świętych mieszk<ch a="G"/>ańcy,</row>
+
+			<row important_over="false">Imię w<ch a="d"/>asze pieśniami wychw<ch a="G"/>alam.</row>
+
+			<row important_over="false">Gór, co st<ch a="C"/>oją nigdy nie dog<ch a="G"/>onię,</row>
+
+			<row important_over="false">Znikaj<ch a="d"/>ących punktów na m<ch a="G"/>apie,</row>
+
+			<row important_over="false">I ch<ch a="C"/>aty, by nazwać ją swym d<ch a="G"/>omem,</row>
+
+			<row important_over="false">Do której ż<ch a="d"/>aden szlak by nie tr<ch a="G"/>afił.</row>
+
+		</block>
+
+		<block type="chorus">
+
+			<bis times="2">
+
+				<row important_over="false">Gór mi m<ch a="C"/>ało i trzeba mi wi<ch a="G"/>ęcej,</row>
+
+				<row important_over="false">Żeby prz<ch a="a"/>etrwać od zimy do z<ch a="e"/>imy,</row>
+
+				<row important_over="false">Ktoś mnie sk<ch a="F"/>azał na wieczną wędr<ch a="C"/>ówkę,</row>
+
+				<row important_over="false">Po śl<ch a="d"/>adach, które sam zostaw<ch a="G"/>iłem.</row>
+
+				<row important_over="false">Góry, g<ch a="C"/>óry i ciągle mi ni<ch a="G"/>e dość,</row>
+
+				<row important_over="false">Skazan<ch a="a"/>emu na gór dożywocie,<ch a="e"/></row>
+
+				<row important_over="false">Świat na d<ch a="F"/>obre mi zbieszcz<ch a="C"/>adział,</row>
+
+				<row important_over="false">Szczyty w<ch a="d"/>olnym mijają mnie kr<ch a="G"/>okiem.</row>
+
+			</bis>
+
+		</block>
+
+		<blocklink blocknb="1"/>
+
+	</lyric>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	<music metre="4/4">
+
+		<guitar/>
+
+	</music>
+
+	<keywords></keywords>
+
+	<album></album>
+
+	<genre></genre>
+
+	<status>
+
+		<done>
+
+			<text/>
+
+			<authors/>
+
+			<chords>chord positioning</chords>
+
+		</done>
+
+		<verificators>
+
+			<verificator>Michał Korch</verificator>
+
+			
+
+		</verificators>
+
+		<to_do></to_do>
+
+	</status>
+
+	<music_source></music_source>
+
+</song>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

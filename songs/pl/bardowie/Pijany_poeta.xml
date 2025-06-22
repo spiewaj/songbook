@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pijany poeta">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Pijany poeta ma za złe że klaszczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Że patrzą na niego ciekawie<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>Że każdy mu nietakt łaskawie wybaczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Poeta wszak wariat jest prawie<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Nie chodzi po ziemi wspóżyje z duchami<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Ich mowę na wylot zna przecież<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>I cóż że ogląda się wciąż za trunkami<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Alkochol nie szkodzi poecie<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Kochają go bardzo drwiąc z rąk jego drżenia<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Ta drwina współczucia ma nazwę<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>Ugoszczą przytulą ukoją cierpienia<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>A on mimo wszystko ma za złe<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Do łez się zamartwiają że znów nic nie jadł<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Że pali za dużo i nie śpi<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>Że w oczach mu tańczy szaleńcza zawieja<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>A oni pragnęli by pieśni<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Zakocha się szczerze trzy razy na tydzień<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>I wstyd mu że tak zakłamany<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>Czasami w połowie wieczoru gdzieś wyjdzie<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Lecz raczej się zdrzemnie pijany<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>A oni się wtedy po cichu rozzłoszczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Że nie dba gdy w krąg niego siedzą<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>Lecz czegoś mu jednak naprawdę zazdroszczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Lecz czego zazdroszczą nie wiedzą<ch a="G"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

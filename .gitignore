@@ -1,0 +1,10 @@
+build/
+npmtmp/
+._*
+.DS_Store
+.idea/
+*.epub
+__pycache__/
+node_modules/
+*-download
+.secrets

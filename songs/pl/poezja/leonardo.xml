@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Leonardo">
+	<alias>W górę szlaban</alias>
+	<text_author type="solo">Agnieszka Osiecka, Jacek Kleyff</text_author>
+	<comment>Specyficzne bicie.
+
+Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystkiego&quot;, &quot;W górę szlaban&quot;. 18 września 1993 r., w radiowym koncercie Agnieszki Osieckiej &quot;Kobiety mojego życia&quot;, Maryla Rodowicz wykonała ten utwór na żywo wraz z Jackiem Kleyff, który zaśpiewał dodatkową zwrotkę napisaną przez siebie. Ponadto, to on napisał refren: &quot;Dość jest wszystkiego, dojść można wszędzie. W górę szlaban!&quot;. Pozostałe zwrotki napisała Agnieszka Osiecka.</comment>
+	<artist type="solo">Maryla Rodowicz</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="D"/> Ja nie wesoła, <ch a="A"/>ale z kokardą,</row>
+			<row important_over="true">L<ch a="h"/>ecę do słońca, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
+			<row important_over="false"><ch a="D"/> A ja się kręcę, b<ch a="A"/>o stać nie warto,</row>
+			<row important_over="false">N<ch a="h"/>aprzód planeto, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
+				<row important_over="false">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="D"/> Diabeł mnie trzyma, t<ch a="A"/>arga za włosy,</row>
+			<row important_over="false">D<ch a="h"/>okąd, wariatko, chc<ch a="G"/>esz dziś wyr<ch a="A"/>uszyć?</row>
+			<row important_over="false"><ch a="D"/> A ja gotowa, j<ch a="A"/>a z halabardą</row>
+			<row important_over="false">L<ch a="h"/>ecę do słońca, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="D"/> Panie w koronie, P<ch a="A"/>anie z liczydłem,</row>
+			<row important_over="false">Ni<ch a="h"/>e chcę być mrówką — j<ch a="G"/>a chcę być szcz<ch a="A"/>ygłem,</row>
+			<row important_over="false"><ch a="D"/> A moja sława, dr<ch a="A"/>oga i muzyka</row>
+			<row important_over="false">D<ch a="h"/>o brązowego ż<ch a="G"/>ycia pom<ch a="A"/>yka.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
+				<row important_over="false">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="D"/> Przyszłam z bylekąd, <ch a="A"/>ale co z tego</row>
+			<row important_over="false">Zmi<ch a="h"/>erzch jest daleko, h<ch a="G"/>ej, hej kol<ch a="A"/>ego!</row>
+			<row important_over="false"><ch a="D"/> Odłóżmy sprawę, k<ch a="A"/>ochany synku,</row>
+			<row important_over="false">N<ch a="h"/>a jakieś dziesięć mi<ch a="G"/>ejsc po przec<ch a="A"/>inku…</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="8/8"/>
+	<keywords/>
+	<album>Absolutnie nic (CD, 1995)</album>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+	</status>
+</song>

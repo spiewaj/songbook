@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pożegnanie (SDM)">
+  <text_author type="solo">Piotr Bakal</text_author>
+  <composer type="solo">Krzysztof Myszkowski</composer>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
+  <lyric>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="never">La, la, la…<ch a="GD"/><ch a="GD"/><ch a="GD"/><ch a="Fis7A7"/></row>
+        <row important_over="never">La, la, la…<ch a="hG"/><ch a="DFis7"/><ch a="A7Fis7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="hFis7 Gzmh"><ch a="h"/>Może się spotkamy znów po kilku latach<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Może właśnie tutaj lub na końcu świata<ch a="D"/><ch a="Fis7"/></row>
+      <row important_over="never" sidechords="GD Fis7h"><ch a="G"/>Będziesz wtedy inna — ja wciąż taki sam<ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Może nam się uda zacząć jeszcze raz<ch a="D"/><ch a="Fis7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="hFis7 Gzmh"><ch a="h"/>Dzisiaj muszę odejść już mnie nie zatrzymuj<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Przez te wszystkie lata nic się nie zmieniło<ch a="D"/><ch a="Fis7"/></row>
+      <row important_over="never" sidechords="GD Fis7h"><ch a="G"/>Rozstawiłaś straże wokół moich snów<ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Daj mi wreszcie spokój — dosyć mam już słów<ch a="D"/><ch a="Fis7"/></row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="GD"/><ch a="GD"/><ch a="GD"/><ch a="Fis7A7"/></row>
+      <row important_over="false" style="instr"> <ch a="hG"/><ch a="DFis7"/><ch a="A7Fis7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="hFis7 Gzmh"><ch a="h"/>Wrócę tu na pewno, gdy nadejdzie pora<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Zapamiętaj tylko, co mówiłem wczoraj<ch a="D"/><ch a="Fis7"/></row>
+      <row important_over="never" sidechords="GD Fis7h"><ch a="G"/>Zapamiętaj tylko że się nie zmieniłem<ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Myślę co myślałem, wierzę w co wierzyłem<ch a="D"/><ch a="Fis7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="hFis7 Gzmh"><ch a="h"/>Wrócę gdy zrozumiesz, już po kilku latach<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Może właśnie tutaj będzie koniec świata<ch a="D"/><ch a="Fis7"/></row>
+      <row important_over="never" sidechords="GD Fis7h"><ch a="G"/> Będziesz wtedy inna — ja wciąż taki sam<ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="never" sidechords="GD Fis7"><ch a="G"/>Może nam się uda zacząć jeszcze raz<ch a="D"/><ch a="Fis7"/></row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="never">La, la, la…<ch a="GD"/><ch a="GD"/><ch a="GD"/><ch a="Fis7A7"/></row>
+        <row important_over="never">La, la, la…<ch a="hG"/><ch a="DFis7"/><ch a="A7Fis7"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Pod wielkim dachem nieba</album>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>Adam Foland</verificator>
+    </verificators>
+  </status>
+</song>

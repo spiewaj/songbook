@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Wańka Morozow" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Wojciech Młynarski</translator>
+	<original_title>Wańka Marozaw</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">I cz<ch a="a"/>egóż chcieć od tego W<ch a="E"/>ani?</row>
+			<row important_over="true">Wszak j<ch a="E7"/>ego winy nie ma w t<ch a="a"/>ym.</row>
+			<row important_over="true">Wszystki<ch a="F"/>emu winna tamta p<ch a="d"/>ani,</row>
+			<row important_over="true">Że p<ch a="E7"/>oszedł za nią tak jak w d<ch a="a"/>ym.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A p<ch a="a"/>asowałoby mu wsz<ch a="E"/>ystko,</row>
+			<row important_over="false">Juz l<ch a="E7"/>epiej wszystko niż ten tr<ch a="a"/>af,</row>
+			<row important_over="false">Że z c<ch a="F"/>yrku złapie go art<ch a="d"/>ystka,</row>
+			<row important_over="false">Na l<ch a="E7"/>inie tańcząc pośród br<ch a="a"/>aw.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdy w pi<ch a="a"/>erwszym geście powit<ch a="E"/>ania</row>
+			<row important_over="false">Nad gł<ch a="E7"/>ową wzniosła białą dł<ch a="a"/>oń,</row>
+			<row important_over="false">Wciągn<ch a="F"/>ęło Wanię pożąd<ch a="d"/>anie</row>
+			<row important_over="false">Bez r<ch a="E7"/>eszty w swą przepastną t<ch a="a"/>oń.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mar<ch a="a"/>usię swą porzucił najpi<ch a="E"/>erw,</row>
+			<row important_over="false">A p<ch a="E7"/>otem co noc aż do dni<ch a="a"/>a</row>
+			<row important_over="false">Z art<ch a="F"/>ystką szalał w chińskiej kn<ch a="d"/>ajpie,</row>
+			<row important_over="false">A t<ch a="E7"/>am Marusia z żalu schł<ch a="a"/>a.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A W<ch a="a"/>ania tamtej na stół c<ch a="E"/>iska</row>
+			<row important_over="false">Med<ch a="E7"/>uzy i w trzech smakach dr<ch a="a"/>ób,</row>
+			<row important_over="false">Nie wi<ch a="F"/>edząc nic, że ta art<ch a="d"/>ystka</row>
+			<row important_over="false">Wciąż w<ch a="E7"/>odę z mózgu robi m<ch a="a"/>u.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Bo ni<ch a="a"/>e wierzymy w czas koch<ch a="E"/>ania,</row>
+			<row important_over="false">Że m<ch a="E7"/>iłość biedy przyda n<ch a="a"/>am,</row>
+			<row important_over="false">Ech, W<ch a="F"/>ania, Wania, biedny W<ch a="d"/>ania,</row>
+			<row important_over="false">Ot sp<ch a="E7"/>ójrz - po linie idziesz s<ch a="a"/>am.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Nadziei amatorski zespół (Nadieżdy maleńkij orkiestrik))</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator><verificator>
+			</verificator><verificator>
+			</verificator>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

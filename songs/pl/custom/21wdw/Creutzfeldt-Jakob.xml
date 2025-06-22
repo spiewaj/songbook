@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Creutzfeldt-Jakob" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Ryszard Kostecki</text_author>
+	<comment></comment>
+	<composer type="solo">Ryszard Kostecki</composer>
+	<artist type="solo">Ryszard Kostecki</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<bis times="100">
+				<row important_over="false">Cr<ch a="G"/>eutzfeld Jakob naszym prz<ch a="Fis"/>yjacielem jest!</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>
+

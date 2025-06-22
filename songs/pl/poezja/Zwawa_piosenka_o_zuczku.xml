@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Żwawa piosenka o żuczku" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo">Wolna Grupa Bukowina</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Gdy żre mnie nostalgia i chandra mnie tłucze</row>
+			<row important_over="false">I nuda się czai przy ścianie sowacza, sowacza</row>
+			<bis times="2">
+				<row important_over="false">Pojawia się skądyś na stole mym żuczek</row>
+				<row important_over="false">I nóżki swe drobne rozkracza rozkracza, rozkracza</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">I chodzi po gładkiej powierzchni czerniawy</row>
+			<row important_over="false">Tu kropkę zostawi, a tam drobny szlaczek, -bny szlaczek</row>
+			<bis times="2">
+				<row important_over="false">I co raz to w nóżkę podrapie się prawą</row>
+				<row important_over="false">Lub wyrwie spod paszki swej kłaczek, swej kłaczek, swej kłaczek</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ja biorę go w dłonie ostrożnie, lekutko</row>
+			<row important_over="false">Boć mały to żuczek, a nie olbrzym gacek, -brzym gacek</row>
+			<bis times="2">
+				<row important_over="false">A potem za udkiem wyrywam mu udko</row>
+				<row important_over="false">I kciukiem go miażdżę na placek, na placek, na placek</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

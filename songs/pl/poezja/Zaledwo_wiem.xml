@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Zaledwo wiem" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Leopold Staff</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Leonhard</composer>
+	<artist type="band">Małżeństwo z Rozsądku</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Zaledwo wiem, czy byłaś snem,<ch a="e"/><ch a="D"/></row>
+			<row important_over="false">Czy prawdą z krwi i ciała.<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
+			<row important_over="false">Przez dróg mych szlak przeleciał ptak <ch a="C"/><ch a="G"/></row>
+			<row important_over="false">I dusza ma śpiewała.<ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Słuchałem fal płynących w dal<ch a="e"/><ch a="D"/></row>
+			<row important_over="false">I czułem jak łzy w sobie<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
+			<row important_over="false">Padło mi iść przez zwiędły liść<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">I szedłem jak po grobie …<ch a="D"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Kto szczęścia zna przyczynę?<ch a="C"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">Kto zna miłości początek i kres?<ch a="C"/><ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zaledwo wiem, czy było snem,<ch a="e"/><ch a="D"/></row>
+			<row important_over="false">Czy prawdą me kochanie.<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
+			<row important_over="false">Czym szczęśliw był, czy ptak się wzbił<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Szczęśliwy w nieb otchłanie?<ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Czy fali bieg omijał brzeg,<ch a="e"/><ch a="D"/></row>
+			<row important_over="false">Czym ja cię stracił zdradnie?<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
+			<row important_over="false">Czy to liść zmarł, czy serca żar?<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Ach, któż to, któż odgadnie!<ch a="D"/></row>
+		</block>
+		<blocklink blocknb="3"/>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

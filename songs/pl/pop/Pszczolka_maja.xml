@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pszczółka maja">
+  <artist>Zbigniew Wodecki</artist>
+  <lyric>
+    <block type="verse">
+      <row>Jest gdzieś lecz nie wiadomo gdzie,<ch a="C"/><ch a="G"/></row>
+      <row>świat w którym baśń ta dzieje się.<ch a="F"/><ch a="C"/></row>
+      <row>Malutka pszczółka mieszka w nim,<ch a="G"/></row>
+      <row>Co wśród owadów wiedze prym<ch a="F"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row>Tę pszczółkę, którą tu widzicie zowią Mają.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
+      <row>Wszyscy Maja znają i kochają<ch a="G"/><ch a="C"/></row>
+      <row>Maja fruwa tu i tam<ch a="d"/></row>
+      <row>Świat swój pokazując nam<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row>Dziś spotka nas maleńka zwinna, pszczółka<ch a="Maja"/><ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
+      <row>Śmiała, sprytna, rezolutna Maja<ch a="G"/><ch a="C"/></row>
+      <row>Mała zwinna przyjaciółka Maja<ch a="d"/></row>
+      <row>Maju, cóż zobaczymy dziś.<ch a="C"/><ch a="G"/><ch a="C"/></row>
+    </block>
+  </lyric>
+</song>

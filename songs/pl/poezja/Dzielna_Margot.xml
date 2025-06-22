@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dzielna Margot">
+	<text_author type="solo">Georges Brassens</text_author>
+	<artist type="band">Zespół Reprezentacyjny</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">W naszej <ch a="A"/>wsi bezbronnego kotka</row>
+			<row important_over="true">Znalazła <ch a="A7"/>w trawie raz Marg<ch a="D"/>ot</row>
+			<row important_over="true">A że <ch a="h"/>sama była sie<ch a="fis"/>rotką</row>
+			<row important_over="true">Wzięła <ch a="E"/>go<ch a="A"/></row>
+			<row important_over="true">Był ma<ch a="A"/>lutki jeszcze więc <ch a="A7"/>chciała</row>
+			<row important_over="true">Jakąś poduszkę zdobyć <ch a="D"/>mu</row>
+			<row important_over="true">A jed<ch a="h"/>yną jaką znal<ch a="E"/>azła</row>
+			<row important_over="true"><ch a="A"/>Był jej <ch a="D"/>biust</row>
+			<row important_over="true">Kotek <ch a="h"/>wziął ją za swoją <ch a="Fis"/>mamę</row>
+			<row important_over="true">I ssać <ch a="h"/>zaczął dzielną Marg<ch a="Fis"/>ot</row>
+			<row important_over="true">Ona <ch a="h"/>zaś ze wzruszenia <ch a="Fis"/>nagle</row>
+			<row important_over="true">Straciła <ch a="h"/>głos<ch a="Fis"/></row>
+			<row important_over="true">Syn sołt<ch a="h"/>ysa właśnie prze<ch a="Fis"/>chodził</row>
+			<row important_over="true">Ujrzał <ch a="h"/>rzadki obrazek <ch a="Fis"/>ten</row>
+			<row important_over="true">I po<ch a="h"/>leciał z nowiną <ch a="Fis"/>do wsi</row>
+			<row important_over="true">A na drugi <ch a="E"/>dzień<ch a="A"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Gdy Mar<ch a="A"/>got stanik <ch a="A7"/>swój rozpi<ch a="D"/>nała</row>
+			<row important_over="true">By miał <ch a="D"/>kotek <ch a="D6"/>biedactwo co ss<ch a="D"/>ać<ch a="D0"/><ch a="D"/></row>
+			<row important_over="true">Biegła <ch a="D"/>nas biegła <ch a="H"/>nas cała <ch a="E"/>zgra<ch a="A"/>ja</row>
+			<row important_over="true">By po <ch a="D"/>pa pa pa pa pa patrzeć</row>
+			<row important_over="true">By po <ch a="Ais"/>pa pa pa pa pa pa</row>
+			<row important_over="true">A nie<ch a="A"/>winna <ch a="A7"/>Margot przypusz<ch a="D"/>czała<ch a="D6"/><ch a="D"/></row>
+			<row important_over="true">Że do <ch a="D"/>kotka co z <ch a="D0"/>jej piersi <ch a="D"/>ssał</row>
+			<row important_over="true">Biegła <ch a="D"/>nas biegła <ch a="H"/>nas cała <ch a="E"/>zgra<ch a="A"/>ja</row>
+			<row important_over="true">By po <ch a="D"/>pa pa pa pa pa patrzeć</row>
+			<row important_over="true">By po <ch a="B"/>pa pa pa pa pa pa</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Nauczyciel lekcje porzucił</row>
+			<row important_over="false"><ch a="A7"/>Kowal podkowy pole kmieć<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>I pognali prędko na skróty<ch a="fis"/></row>
+			<row important_over="false"><ch a="E"/>Na tę wieść<ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Nasz listonosz taki uczciwy</row>
+			<row important_over="false"><ch a="A7"/>Na tę wieść listy ciepnął w mig<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>Których czytać i tak w tej chwili<ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Nie chciał nikt<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>Na tę wieść zaufawszy Bogu<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Że im odpuści grzeszną myśl<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Ministranci w lot dali nogę<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>W środku mszy<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Nawet gliniarz postrach ludności<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Tak z natury tępy jak słup<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Staną opodal oszołomiony<ch a="Fis"/></row>
+			<row important_over="false"><ch a="E"/>Sceną jak ze snu<ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Ale w pozostałych niewiastach</row>
+			<row important_over="false"><ch a="A7"/>Wszak każdej zwiał i gach i mąż<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>Powolutku jęła narastać<ch a="fis"/></row>
+			<row important_over="false"><ch a="E"/>Dzika złość<ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Wreszcie przyszedł we wsi dzień gniewu</row>
+			<row important_over="false"><ch a="A7"/>Każda chwyciła tęgi kij<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>I zatłukł biedne maleństwo<ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Z żądzy krwi<ch a="D"/></row>
+			<row important_over="false"><ch a="h"/>A Margot po roku lamentów<ch a="F"/></row>
+			<row important_over="false"><ch a="h"/>By się pocieszyć wzięła ślub<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>I już tylko się mąż z jej wdzięków<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Cieszyć mógł<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Z czasem o tym pozapominano<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Oprócz starców już mało kto<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Mówi dzieciom dziś na dobranoc<ch a="Fis"/></row>
+			<row important_over="false"><ch a="E"/>O dzielnej Margot<ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysiek - na podstawie poprawek w śpiewniku Szkocja</verificator>
+		</verificators>
+	</status>
+</song>

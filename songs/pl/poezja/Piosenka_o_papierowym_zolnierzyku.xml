@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Piosenka o papierowym żołnierzyku" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Witold Dąbrowski</translator>
+	<original_title>Piesienka o bumażnam sałdatie</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Raz p<ch a="a"/>ewien żołnierz sobie żył,</row>
+			<row important_over="true">Odw<ch a="a"/>ażny i zawzi<ch a="E"/>ęty,</row>
+			<row important_over="true">Lecz c<ch a="E"/>óż?… zabawka tylko był,</row>
+			<row important_over="true">Z kart<ch a="E"/>onu był wyci<ch a="a"/>ęty.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Choć zmi<ch a="a"/>eniać świat i zwalczać zło</row>
+			<row important_over="false">Niezmi<ch a="a"/>ennie był got<ch a="E"/>owy,</row>
+			<row important_over="false">Stał ci<ch a="E"/>ągle wśród zabawek, bo</row>
+			<row important_over="false">Był t<ch a="E"/>ylko papier<ch a="a"/>owy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I w <ch a="a"/>ogień gotów był, jak w dym,</row>
+			<row important_over="false">Pójść z<ch a="a"/>a Was bez nam<ch a="E"/>owy,</row>
+			<row important_over="false">I mi<ch a="E"/>eliście sto pociech z nim —</row>
+			<row important_over="false">Bo b<ch a="E"/>ył on papier<ch a="a"/>owy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I ni<ch a="a"/>e ujawniał przed nim sztab</row>
+			<row important_over="false">Taj<ch a="a"/>emnic swych wojsk<ch a="E"/>owych.</row>
+			<row important_over="false">A cz<ch a="E"/>emu tak? A temu tak,</row>
+			<row important_over="false">Że b<ch a="E"/>ył on papier<ch a="a"/>owy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wyz<ch a="a"/>ywał los, w pogardzie miał</row>
+			<row important_over="false">Tchórzl<ch a="a"/>iwych marud<ch a="E"/>erów,</row>
+			<row important_over="false">I „<ch a="E"/>Ognia! Ognia!” ciągle łkał,</row>
+			<row important_over="false">Choć prz<ch a="E"/>ecież był z papi<ch a="a"/>eru.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niej<ch a="a"/>eden wódz już w ogniu znikł,</row>
+			<row important_over="false">Niej<ch a="a"/>eden szereg<ch a="E"/>owy…</row>
+			<row important_over="false">I p<ch a="E"/>oszedł w ogień… Zginął w mig</row>
+			<row important_over="false">Żołni<ch a="E"/>erzyk papier<ch a="a"/>owy.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Do widzenia, chłopcy (Do swidanija, malczyki)</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch	</verificator><verificator>Krzysiek Cz.</verificator>
+			
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

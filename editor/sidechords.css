@@ -1,0 +1,39 @@
+div#sidechords {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-around;
+    width: 100%;
+}
+
+div#sidechords button {
+    font-size: smaller;
+    margin-left: auto;
+    justify-self: flex-end;
+}
+
+/*div#type {*/
+/*    min-width: 6em;*/
+/*    text-align: center;*/
+/*}*/
+
+div#type span#chords_type {
+    display: inline-block;
+}
+
+input#sch{
+    min-width: 10em;
+}
+
+select#select_type{
+   height: 21px;
+    font-size: x-small;
+}
+
+/*div#sidechords span#chords_type {*/
+/*    display: inline-block;*/
+/*    margin: 10px 10px 0 0;*/
+/*    color: red;*/
+/*}*/
+
+/*!* float:left;  remove *!*/
+/*margin: 10px 10px 0 0;*/

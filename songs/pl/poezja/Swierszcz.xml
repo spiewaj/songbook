@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Świerszcz" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment>Piosenka zasłyszana gdzieś przez Martynę - poszukuję informacji o wykonawcy i autorach.</comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Kołysze nami ciepły wiatr<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">I coraz wolniej płynie czas,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">W sen już odpływa cały świat<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">I tylko nie wiem, kto tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Wieczorny koncert stworzył świerszcz<ch a="h"/><ch a="fis"/></row>
+			<row important_over="false">Budząc znów wspomnień czas<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">I błyszcząc w księżycowej mgle<ch a="h"/><ch a="fis"/></row>
+			<row important_over="false">Szczyty gór, grzbiety fal,<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Nocy czas.<ch a="e"/><ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">My otuleni w ciepły koc<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">I zapatrzeni w setki gwiazd,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">Ogniska płomień topi noc<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">I tylko nie wiem, co tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Uciekły ptaki do swych gniazd,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">Kwiaty zasnęły pośród traw,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">Znużony czasem usnął las<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="false">I chyba wiem już, kto tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

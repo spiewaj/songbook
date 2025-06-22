@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Odpowiedź na ankietę ,,Twój system wartości''" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Pol<ch a="d"/>ityka mi wisi</row>
+			<row important_over="true">Dor<ch a="d"/>odnym kalafiorem.</row>
+			<row important_over="true">Błog<ch a="B"/>osławieni cisi</row>
+			<row important_over="true">I c<ch a="B"/>i, co pyszczą w porę.</row>
+			<row important_over="true">Hist<ch a="g"/>oria mnie nie bierze,</row>
+			<row important_over="true">Lit<ch a="g"/>eratura nudzi.</row>
+			<row important_over="true">J<ch a="A"/>a tam dziś w nic nie wierzę,</row>
+			<row important_over="true">A j<ch a="A"/>uż na bank - nie w ludzi.</row>
+			<row important_over="true">Nawet drz<ch a="F"/>ewa twardni<ch a="C"/>eją, by prz<ch a="d"/>eż<ch a="a"/>yć,</row>
+			<row important_over="true">Co tu m<ch a="B"/>ówić o l<ch a="F"/>udziach, fraj<ch a="A"/>erzy!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A j<ch a="d"/>ak się urządzili</row>
+			<row important_over="false">Ci z wł<ch a="d"/>adz i z opozycji?</row>
+			<row important_over="false">Ten b<ch a="B"/>ił, a tego bili —</row>
+			<row important_over="false">Ob<ch a="B"/>ydwaj dziś w policji.</row>
+			<row important_over="false">Więc ż<ch a="g"/>aden mnie nie skusi</row>
+			<row important_over="false">Na b<ch a="g"/>yle ćmoje-boje.</row>
+			<row important_over="false">Bł<ch a="A"/>ogosławieni głusi</row>
+			<row important_over="false">I c<ch a="A"/>i, co słyszą swoje.</row>
+			<row important_over="false">Nawet drz<ch a="F"/>ewa, by prz<ch a="C"/>eżyć, korz<ch a="d"/>eni<ch a="a"/>e</row>
+			<row important_over="false">Zapuszcz<ch a="B"/>ają głęb<ch a="F"/>oko pod zi<ch a="A"/>emię.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Kat<ch a="d"/>abas kirchę wznosi</row>
+			<row important_over="false">Nie dl<ch a="d"/>a nas, a dla Pana.</row>
+			<row important_over="false">Więc j<ch a="B"/>akby sam się prosił</row>
+			<row important_over="false">By z gl<ch a="B"/>ana kapelana.</row>
+			<row important_over="false">Mnie t<ch a="g"/>ego nikt nie wrzepi,</row>
+			<row important_over="false">Ja chc<ch a="g"/>ę mieć święty spokój.</row>
+			<row important_over="false">Bł<ch a="A"/>ogosławieni ślepi</row>
+			<row important_over="false">I c<ch a="A"/>i, co widzą w mroku.</row>
+			<row important_over="false">Nawet drz<ch a="F"/>ewa r<ch a="C"/>osną w ciemn<ch a="d"/>ości<ch a="a"/>ach,</row>
+			<row important_over="false">W dupie m<ch a="B"/>ają —<ch a="F"/> na czyich k<ch a="A"/>ościach.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mnie ni<ch a="d"/>e rajcuje kasa,</row>
+			<row important_over="false">Kwat<ch a="d"/>era czy gablota.</row>
+			<row important_over="false">Jak tr<ch a="B"/>afię skórę — klasa —</row>
+			<row important_over="false">Pier<ch a="B"/>oga wyłomotam.</row>
+			<row important_over="false">Wyk<ch a="g"/>aże test, żem HIVnik,</row>
+			<row important_over="false">To w ż<ch a="g"/>yłę — i odjadę.</row>
+			<row important_over="false">Bł<ch a="A"/>ogosławieni sztywni</row>
+			<row important_over="false">I c<ch a="A"/>i, co żyją z czadem.</row>
+			<row important_over="false">Nawet drz<ch a="F"/>ewa próchni<ch a="C"/>eją przedwcz<ch a="d"/>eśni<ch a="a"/>e,</row>
+			<row important_over="false">A prz<ch a="B"/>ecież istni<ch a="F"/>eją bezgrz<ch a="A"/>esznie.</row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album>Pochwała łotrostwa</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

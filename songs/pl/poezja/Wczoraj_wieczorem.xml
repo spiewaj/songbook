@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wczoraj wieczorem">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="false">Wczoraj wieczorem rzekł mi pan</row>
+      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="false">W kieszeni $ $ może dwa</row>
+      <row important_over="false">W kieszeni $ $ może dwa</row>
+      <row important_over="false">Wypije ze mną i drinka bieda — siostra zła</row>
+      <row important_over="false">Na łbie siwe kłaki i niepewny los</row>
+      <row important_over="false">Na łbie siwe kłaki i niepewny los</row>
+      <row important_over="false">Jak sznur stary dzień kiedy pusty trzos</row>
+      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Maciek ja tylko żartowałem">
+  <artist type="band">Kazik na żywo</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
+      <row important_over="true"><ch a="h"/>Gdy tobie z sobą <ch a="fis"/>iść kazałem</row>
+      <row important_over="true"><ch a="G"/>Tam nie było <ch a="fis"/>żadnych pieniędzy</row>
+      <row important_over="true"><ch a="E"/>Była nędza i<ch a="A"/> nic więcej.</row>
+      <row important_over="false"><ch a="D"/>Tyle razy o tym<ch a="A"/> myślałem</row>
+      <row important_over="false"><ch a="h"/>Maciek ja tylko ż<ch a="fis"/>artowałem</row>
+      <row important_over="false"><ch a="G"/>Nie, nie, nie z<ch a="fis"/>wariowałem</row>
+      <row important_over="false"><ch a="E"/>Ani tym bardziej n<ch a="A"/>ie oszalałem</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"> <ch a="D"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
+      <row important_over="false"> <ch a="h"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
+      <row important_over="false"> <ch a="G"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
+      <row important_over="false"> <ch a="E"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
+      <row important_over="never">Nigdy ciebie nie kochałem<ch a="h"/><ch a="fis"/></row>
+      <row important_over="never">Kochałem setki innych facetów<ch a="G"/><ch a="fis"/></row>
+      <row important_over="never">Z tobą to jednak nie to<ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Kręci się ziemia wokół słońca<ch a="D"/><ch a="A"/></row>
+      <row important_over="never">Dostać można szału z gorąca<ch a="h"/><ch a="fis"/></row>
+      <row important_over="never">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
+      <row important_over="never">Nigdy z nikim jeszcze nie spałem<ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
+      <row important_over="never">Gdy o tym opowiadałem<ch a="h"/><ch a="fis"/></row>
+      <row important_over="never">To wszystko nie ma sensu<ch a="G"/><ch a="fis"/></row>
+      <row important_over="never">Nie ma sensu kupować kredensu<ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Ciągle słucham głosu twojego<ch a="D"/><ch a="A"/></row>
+      <row important_over="never">Mają Cię za mojego narzeczonego<ch a="h"/><ch a="fis"/></row>
+      <row important_over="never">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
+      <row important_over="never">gdy tobie z sobą iść kazałem<ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">La, la, la, la ...<ch a="D"/><ch a="A"/><ch a="h"/><ch a="fis"/><ch a="G"/><ch a="fis"/><ch a="E"/><ch a="A"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

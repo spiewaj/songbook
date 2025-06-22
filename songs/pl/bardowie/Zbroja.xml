@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zbroja">
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="e"/><ch a="eA"/><ch a="e"/><ch a="eA"/></row>
+      </bis>
+      <row important_over="true" sidechords="eD e">D<ch a="e"/>ałeś mi P<ch a="D"/>anie zbr<ch a="e"/>oję</row>
+      <row important_over="true" sidechords="eD e">D<ch a="e"/>awny kuł pł<ch a="D"/>atnerz j<ch a="e"/>ą</row>
+      <row important_over="true" sidechords="eD e">W w<ch a="e"/>ielu pog<ch a="D"/>ięta b<ch a="e"/>ojach</row>
+      <row important_over="true" sidechords="eD e">W w<ch a="e"/>ielu ochrzcz<ch a="D"/>ona krw<ch a="e"/>ią</row>
+      <row important_over="true">W wyk<ch a="G"/>utej dla gig<ch a="e"/>anta</row>
+      <row important_over="true" sidechords="eA H">Pot<ch a="e"/>ykam si<ch a="A"/>ę co kr<ch a="H"/>ok</row>
+      <row important_over="true">Bo ja<ch a="G"/>k sum<ch a="Fis"/>ienia sz<ch a="F"/>ant<ch a="e"/>aż</row>
+      <row important_over="true" sidechords="eD e (e)">Uc<ch a="e"/>iska l<ch a="D"/>ewy b<ch a="e"/>ok   <ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true" sidechords="(D) G D">L<ch a="D"/>ecz ch<ch a="G"/>oć zaginął hełm i m<ch a="D"/>iecz</row>
+      <row important_over="true">Dla c<ch a="a"/>iała żadna w niej ost<ch a="G"/>oja</row>
+      <row important_over="true">To prz<ch a="a"/>ecież w k<ch a="H7"/>ońcu ważna rz<ch a="C"/>e<ch a="a"/>cz</row>
+      <row important_over="true" sidechords="e H7 e (eA)">Zb<ch a="e"/>r<ch a="H7"/>o<ch a="e"/>ja    <ch a="e"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Magicznych na niej rytów<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Dziś nie odczyta nikt<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Ale wykuta z mitów<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>I wieczna jest jak mit<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Do ciała mi przywarła<ch a="e"/></row>
+      <row important_over="never" sidechords="eA H"><ch a="e"/>Przeszkadza żyć i spać<ch a="A"/><ch a="H"/></row>
+      <row important_over="never"><ch a="G"/>A tłum się cieszy z karła<ch a="Fis"/><ch a="F"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e (e)"><ch a="e"/>Co chce giganta grać<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false" sidechords="(D) G D">L<ch a="D"/>ecz ch<ch a="G"/>oć zaginął hełm i m<ch a="D"/>iecz</row>
+      <row important_over="false">Dla c<ch a="a"/>iała żadna w niej ost<ch a="G"/>oja</row>
+      <row important_over="false">To prz<ch a="a"/>ecież w k<ch a="H7"/>ońcu ważna rz<ch a="C"/>e<ch a="a"/>cz</row>
+      <row important_over="false" sidechords="e H7 e (eA)">Zb<ch a="e"/>r<ch a="H7"/>o<ch a="e"/>ja    <ch a="e"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="eD e"><ch a="e"/>A taka w niej powaga<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Dawno zaschniętej krwi<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Że czuję jak wymaga<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>I każe rosnąć mi<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Być może nadaremnie<ch a="e"/></row>
+      <row important_over="never" sidechords="eA H"><ch a="e"/>Lecz stanę w niej za stu<ch a="A"/><ch a="H"/></row>
+      <row important_over="never"><ch a="G"/>Zdejmij ją Panie ze mnie<ch a="Fis"/><ch a="F"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e (e)"><ch a="e"/>Jeśli umrę podczas snu<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false" sidechords="(D) G D">B<ch a="D"/>o ch<ch a="G"/>oć zaginął hełm i m<ch a="D"/>iecz</row>
+      <row important_over="false" sidechords="a G">Dla c<ch a="D"/>iała ż<ch a="a"/>adna w niej ost<ch a="G"/>oja</row>
+      <row important_over="false">To prz<ch a="a"/>ecież w k<ch a="H7"/>ońcu ważna rz<ch a="C"/>e<ch a="a"/>cz</row>
+      <row important_over="false" sidechords="e H7 e (eA)">Zb<ch a="e"/>r<ch a="H7"/>o<ch a="e"/>j<ch a="A"/>a<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Wrzasnęli hasło — wojna!<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Zbudzili hufce hord<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Zgwałcona noc spokojna<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Ogląda pierwszy mord<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Goreją świeże rany<ch a="e"/></row>
+      <row important_over="never" sidechords="eA H"><ch a="e"/>Hańbiona płonie twarz<ch a="A"/><ch a="H"/></row>
+      <row important_over="never"><ch a="G"/>Lecz nam do obrony dany<ch a="Fis"/><ch a="F"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e (e)"><ch a="e"/>Pamięci pancerz nasz<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="(D) G D"><ch a="D"/>Więc choć za ciosem pada cios<ch a="G"/><ch a="D"/></row>
+      <row important_over="never" sidechords="a G"><ch a="D"/>I wróg posiłki śle w konwojach<ch a="a"/><ch a="G"/></row>
+      <row important_over="never"><ch a="a"/>Nas przed upadkiem chroni wciąż<ch a="H7"/><ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="e H7 e (eA)"><ch a="e"/>Zbroja<ch a="H7"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Wywlekli pudła z blachy<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Napchali kul do luf<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>I straszą — sami w strachu<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Strzelają do ciał i słów<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Zabrońcie żyć wystrzałem<ch a="e"/></row>
+      <row important_over="never" sidechords="eA H"><ch a="e"/>Niech zatryumfuje gwałt<ch a="A"/><ch a="H"/></row>
+      <row important_over="never"><ch a="G"/>Nad każdym wzejdzie ciałem<ch a="Fis"/><ch a="F"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e (e)"><ch a="e"/>Pamięci żywej kształt<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="(D) G D"><ch a="D"/>Choć słońce skrył bojowy gaz<ch a="G"/><ch a="D"/></row>
+      <row important_over="never" sidechords="a G"><ch a="D"/>I żołdak pławi się w rozbojach<ch a="a"/><ch a="G"/></row>
+      <row important_over="never"><ch a="a"/>Wciąż przed upadkiem chroni nas<ch a="H7"/><ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="e H7 e (eA)"><ch a="e"/>Zbroja<ch a="H7"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Wytresowali świnie<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Kupili sobie psy<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>I w pustych słów świątyni<ch a="D"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e"><ch a="e"/>Stawiają ołtarz krwi<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Zawodzi przed bałwanem<ch a="e"/></row>
+      <row important_over="never" sidechords="eA H"><ch a="e"/>Półślepy kapłan łgarz<ch a="A"/><ch a="H"/></row>
+      <row important_over="never"><ch a="G"/>I z każdym nowym zdaniem<ch a="Fis"/><ch a="F"/><ch a="e"/></row>
+      <row important_over="never" sidechords="eD e (e)"><ch a="e"/>Hartuje pancerz nasz<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="(D) G D"><ch a="D"/>Choć krwią zachłysnął się nasz czas<ch a="G"/><ch a="D"/></row>
+        <row important_over="never" sidechords="a G"><ch a="D"/>Choć myśli toną w paranojach<ch a="a"/><ch a="G"/></row>
+        <row important_over="never" sidechords="a H7 C a"><ch a="a"/>Jak zawsze chronić będzie nas<ch a="H7"/><ch a="C"/><ch a="e"/></row>
+        <row important_over="never" sidechords="e H7 e"><ch a="e"/>Zbroja<ch a="H7"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="eH7e eH7e (Ae)"><ch a="e"/>Zbroja, <ch a="e"/>Zbroja</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Live (1990)</album>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Adam Foland</verificator>
+    </verificators>
+  </status>
+</song>

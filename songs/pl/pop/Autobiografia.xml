@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Autobiografia">
+  <artist type="solo">Perfect</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Miałem <ch a="e"/>dziesięć lat, gdy usłyszał o nim świat</row>
+      <row important_over="true">W mej piw<ch a="a7"/>nicy był nasz kl<ch a="D"/>ub</row>
+      <row important_over="true">Kumpel <ch a="e"/>radio zniósł, usłyszałem &quot;Blue Suede Shoes&quot;</row>
+      <row important_over="true">I nie <ch a="a7"/>mogłem w nocy spać<ch a="D"/> </row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Wiatr od<ch a="e"/>nowy wiał, darowano reszty kar</row>
+      <row important_over="true">Znów się <ch a="a7"/>można było śmia<ch a="D"/>ć</row>
+      <row important_over="true">W kawiar<ch a="e"/>niany gwar jak tornado jazz się wdarł</row>
+      <row important_over="true">I ja <ch a="a"/>też, chciałem<ch a="e"/> grać </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Ojciec Bóg wie gdzie martenowski stawiał piec<ch a="e"/></row>
+      <row important_over="never">Mnie paznokieć z palca zszedł<ch a="a7"/><ch a="D"/></row>
+      <row important_over="never">Z gryfu został wiór grałem milion różnych bzdur<ch a="e"/></row>
+      <row important_over="never">I poznałem co to seks<ch a="a7"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Pocztówkowy szał, każdy z nas ich pięćset miał<ch a="e"/></row>
+      <row important_over="never">Zamiast nowej pary jeans<ch a="a7"/><ch a="D"/></row>
+      <row important_over="never">A w sobotnią noc był Luksemburg, chata, szkło<ch a="e"/></row>
+      <row important_over="never">Jakże się chciało żyć<ch a="a"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Było nas trzech, w każdym <ch a="D"/>z nas inna krew</row>
+      <row important_over="true">Ale <ch a="G"/>jeden przyświecał nam <ch a="C"/>cel   <ch a="h"/> </row>
+      <row important_over="true"><ch a="a"/>Za kilka lat mieć u <ch a="F"/>stóp cały świat</row>
+      <row important_over="true"><ch a="C"/>Wszystkiego w bród</row>
+      <row important_over="true"><ch a="C"/>Alpagi łyk i dy<ch a="D"/>skusje po świt</row>
+      <row important_over="true">Niecie<ch a="G"/>rpliwy w nas ciskał się <ch a="C"/>duch  <ch a="h"/> </row>
+      <row important_over="true"><ch a="a"/>Ktoś dostał w nos, to p<ch a="F"/>opłakał się ktoś</row>
+      <row important_over="true"><ch a="C"/>Coś działo się </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Poró<ch a="e"/>żniła nas, za jej Poli Raksy twarz</row>
+      <row important_over="never">Każdy <ch a="a7"/>by się zabić dał<ch a="D"/> </row>
+      <row important_over="never">W pe<ch a="e"/>wną letnią noc gdzieś na dach wyniosłem koc</row>
+      <row important_over="never">I dos<ch a="a7"/>tałem to, com ch<ch a="D"/>ciał</row>
+      <row important_over="never">Powi<ch a="e"/>edziała mi, że kłopoty mogą być</row>
+      <row important_over="never">Ja jej<ch a="a7"/>, że egzamin m<ch a="D"/>am</row>
+      <row important_over="never">Odkr<ch a="e"/>ęciła gaz Nie zapukał nikt na czas</row>
+      <row important_over="never">Znów jak <ch a="a"/>pies byłem s<ch a="e"/>am   </row>
+    </block>
+    <block type="chorus">
+      <row important_over="never"><ch a="C"/>Stu różnych ról, czym <ch a="D"/>ugasić mój ból</row>
+      <row important_over="never">Nau<ch a="G"/>czyło mnie życie jak <ch a="C"/>nikt   <ch a="h"/> </row>
+      <row important_over="never">W<ch a="a"/> wyrku na wznak przechla<ch a="F"/>pałem swój czas</row>
+      <row important_over="never"><ch a="C"/>Najlepszy czas</row>
+      <row important_over="never">W<ch a="C"/> knajpie dla braw Klezmer <ch a="D"/>kazał mi grać</row>
+      <row important_over="never">Takie <ch a="G"/>rzeczy, że jeszcze mi<ch a="C"/> wstyd  <ch a="h"/> </row>
+      <row important_over="never"><ch a="a"/>Pewnego dnia zrozu<ch a="F"/>miałem, że ja</row>
+      <row important_over="never"><ch a="C"/>Nie umiem nic</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never"><ch a="C"/>Słuchaj mnie, tam! Pok<ch a="D"/>onałem się sam</row>
+      <row important_over="never">Oto <ch a="G"/>wyśnił się Wielki Mój <ch a="C"/>Sen   <ch a="h"/> </row>
+      <row important_over="never"><ch a="a"/>Tysięczny tłum spija <ch a="F"/>słowa z mych ust</row>
+      <row important_over="never"><ch a="C"/>Kochają mnie</row>
+      <row important_over="never"><ch a="C"/>W hotelu fan mówi: &quot;<ch a="D"/>Na taśmie mam</row>
+      <row important_over="never">To, jak w<ch a="G"/> gardłach im rodzi się <ch a="C"/>śpiew&quot; <ch a="h"/> </row>
+      <row important_over="never"><ch a="a"/>Otwieram drzwi i nie <ch a="F"/>mówię już nic</row>
+      <row important_over="never"><ch a="C"/>Do czterech ścian</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

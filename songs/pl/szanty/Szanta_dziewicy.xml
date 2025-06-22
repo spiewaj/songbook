@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Szanta dziewicy" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Zbigniew Murawski</text_author>
+	<comment></comment>
+	<composer type="solo">Mirosław Kowalewski</composer>
+	<artist type="solo">Zejman &amp; Garkumpel</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">M<ch a="D"/>am ci p<ch a="A"/>ełną m<ch a="h"/>arzeń gł<ch a="G"/>ówk<ch a="A"/>ę,</row>
+			<row important_over="true">M<ch a="D"/>orze m<ch a="fis"/>yśli mn<ch a="G"/>ie r<ch a="A"/>ozmarza.</row>
+			<row important_over="true">
+				<ch a="D"/>Mam prześl<ch a="A"/>iczną m<ch a="h"/>ałą ł<ch a="G"/>ódk<ch a="A"/>ę,</row>
+			<row important_over="true">
+				<ch a="D"/>Tylko br<ch a="fis"/>ak m<ch a="G"/>i… m<ch a="A"/>aryn<ch a="D"/>arza.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W ł<ch a="D"/>ódce m<ch a="A"/>ałej <ch a="h"/>i ciaśni<ch a="G"/>utki<ch a="A"/>ej,</row>
+			<row important_over="false">B<ch a="D"/>y rozsz<ch a="fis"/>erzyć kr<ch a="G"/>ąg p<ch a="A"/>odróży</row>
+			<row important_over="false">
+				<ch a="D"/>Niech maryn<ch a="A"/>arz wetkn<ch a="h"/>ie w ł<ch a="G"/>ódk<ch a="A"/>ę</row>
+			<row important_over="false">
+				<ch a="D"/>Jakiś m<ch a="fis"/>asz<ch a="G"/>t m<ch a="A"/>ożliwie d<ch a="D"/>uży</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">J<ch a="D"/>estem b<ch a="A"/>ardzo mł<ch a="h"/>oda j<ch a="G"/>eszcz<ch a="A"/>e,</row>
+			<row important_over="false">
+				<ch a="D"/>Obca m<ch a="fis"/>orska m<ch a="G"/>i r<ch a="A"/>obota.</row>
+			<row important_over="false">O<ch a="D"/>ch, cudown<ch a="A"/>e cz<ch a="h"/>uję dr<ch a="G"/>eszcz<ch a="A"/>e,</row>
+			<row important_over="false">
+				<ch a="D"/>Gdy mn<ch a="fis"/>ie ucz<ch a="G"/>y trz<ch a="A"/>ymać sz<ch a="D"/>ota.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>I nie był<ch a="A"/>o wc<ch a="h"/>ale sm<ch a="G"/>utn<ch a="A"/>o,</row>
+			<row important_over="false">Gd<ch a="D"/>y w ok<ch a="fis"/>oło wod<ch a="G"/>y t<ch a="A"/>afla,</row>
+			<row important_over="false">
+				<ch a="D"/>A maryn<ch a="A"/>arz podni<ch a="h"/>ósł pł<ch a="G"/>ótn<ch a="A"/>o</row>
+			<row important_over="false">
+				<ch a="D"/>Żagla <ch a="fis"/>wzw<ch a="G"/>yż, st<ch a="A"/>awiając g<ch a="D"/>afla.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Aż si<ch a="A"/>ę rozsz<ch a="h"/>alało m<ch a="G"/>orz<ch a="A"/>e,</row>
+			<row important_over="false">
+				<ch a="D"/>W górę, w d<ch a="fis"/>ół, ja pt<ch a="G"/>akiem, r<ch a="A"/>ybką!</row>
+			<row important_over="false">
+				<ch a="D"/>Sztorm, <ch a="A"/>och, błagam d<ch a="h"/>obry B<ch a="G"/>oż<ch a="A"/>e,</row>
+			<row important_over="false">
+				<ch a="D"/>Niech s<ch a="fis"/>ię skończ<ch a="G"/>y… ni<ch a="A"/>e za sz<ch a="D"/>ybko!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">G<ch a="D"/>dy uc<ch a="A"/>ichły w k<ch a="h"/>ońcu f<ch a="G"/>al<ch a="A"/>e,</row>
+			<row important_over="false">D<ch a="D"/>rżąc zmęcz<ch a="fis"/>ona się r<ch a="G"/>ozmarz<ch a="A"/>am.</row>
+			<row important_over="false">
+				<ch a="D"/>Nie jest t<ch a="A"/>akie sm<ch a="h"/>utne wc<ch a="G"/>al<ch a="A"/>e</row>
+			<row important_over="false">
+				<ch a="D"/>Ciężkie ż<ch a="fis"/>yci<ch a="G"/>e m<ch a="A"/>aryn<ch a="D"/>arza…</row>
+		</block>
+	</lyric>
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kasia Kowalska</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

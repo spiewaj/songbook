@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Baba na psy">
+  <text_author type="solo">Artur Andrus</text_author>
+  <composer type="solo">Artur Andrus</composer>
+  <artist type="solo">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Tak ogólnie to był słaby, choro<ch a="g"/>wity i niewielki</row>
+      <row important_over="true">Ale <ch a="C"/>straszny pies na baby, zwłaszcza <ch a="F"/>na XL-ki</row>
+      <row important_over="true">Kiedy <ch a="d"/>wreszcie się ożenił, mówił <ch a="g"/>do niej per &quot;kobieto&quot;</row>
+      <row important_over="true">Nikt jej <ch a="C"/>nie zna po imieniu, ale <ch a="A"/>wszyscy wiedzą, że to...</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
+      <row important_over="true">Ten <ch a="C"/>świat cały psu na <ch a="F"/>budę.<ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
+      <row important_over="true"><ch a="A"/>Zwłaszcza na <ch a="d"/>rude.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Życie tak ją nauczyło, rudy <ch a="g"/>pies czy ruda suka</row>
+      <row important_over="false">Wie, co <ch a="C"/>to pradziwa miłość, i cię <ch a="F"/>nie oszuka.</row>
+      <row important_over="false">Facet <ch a="d"/>kosę wbije w pierś ci, choćby <ch a="g"/>był rodzonym bratem</row>
+      <row important_over="false">Taki z <ch a="C"/>sierścią, czy bez sierści, facet <ch a="A"/>wredny jest a zatem...</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Rudy pies ma więcej błysku i po<ch a="g"/>lotu niż mężczyzna</row>
+      <row important_over="false">”Głos Wy<ch a="C"/>brzeża” nosi w pysku, choć to <ch a="F"/>Lubelszczyzna</row>
+      <row important_over="false">Nigdy <ch a="d"/>w życiu nie miał kaca, nie tłu<ch a="g"/>maczy się kolegom</row>
+      <row important_over="false">Że za <ch a="C"/>chwilę musi wracać, bo tam w <ch a="A"/>domu czeka jego...</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Kiedyś ludzie uwierzycie w bezgra<ch a="g"/>niczną moc miłości</row>
+      <row important_over="false">Pies na <ch a="C"/>baby spędzi życie z ko<ch a="F"/>bietą przy kości</row>
+      <row important_over="false">A jak <ch a="d"/>odejść będzie trzeba w jakąś <ch a="g"/>wiosnę albo lato</row>
+      <row important_over="false">Wezmą <ch a="C"/>ich do psiego nieba, bo za<ch a="A"/>pracowała na to...</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

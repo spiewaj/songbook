@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kocham Cię jak Irlandię">
+  <text_author type="solo">Andrzej Marek Michorzewski</text_author>
+  <composer type="solo">Andrzej Kraiński</composer>
+  <artist type="band">Kobranocka</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Znik<ch a="D"/>ałaś gdzieś w domu nad W<ch a="fis"/>isłą</row>
+      <row important_over="true">Pami<ch a="D7"/>ętam to tak dokł<ch a="e"/>adnie</row>
+      <row important_over="true"><ch a="C"/>Twoich czarnych <ch a="G"/>oczu bliskość</row>
+      <row important_over="true">Wciąż k<ch a="D"/>ocham Cię jak Irl<ch a="A"/>andię</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">A t<ch a="D"/>y się temu nie dz<ch a="fis"/>iwisz</row>
+      <row important_over="true">Wiesz d<ch a="D7"/>obrze co byłoby d<ch a="e"/>alej</row>
+      <row important_over="true">Jakb<ch a="C"/>yśmy byli szczęś<ch a="G"/>liwi</row>
+      <row important_over="true">Gd<ch a="D"/>ybym nie ko<ch a="A"/>chał Cię w<ch a="D"/>cale</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Przed szcz<ch a="D"/>ęściem żywić ob<ch a="fis"/>awę</row>
+      <row important_over="false">Z nadzi<ch a="D7"/>eją że mi ją skr<ch a="e"/>adniesz</row>
+      <row important_over="false"><ch a="C"/>Wlokę ten ból prz<ch a="G"/>ez Włocławek</row>
+      <row important_over="false">Koch<ch a="D"/>ając Cię jak Irl<ch a="A"/>andię</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Gdzi<ch a="E"/>eś na ulicy Fabr<ch a="gis"/>ycznej</row>
+      <row important_over="false">Sp<ch a="E7"/>otkać nam się wyp<ch a="fis"/>adnie</row>
+      <row important_over="false"><ch a="D"/>Lecz takie są w<ch a="A"/>idać wytyczne</row>
+      <row important_over="false">By k<ch a="E"/>ochać Cię jak Irl<ch a="H"/>andię</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A t<ch a="E"/>y się temu nie dz<ch a="gis"/>iwisz</row>
+      <row important_over="false">Wiesz d<ch a="E7"/>obrze co byłoby d<ch a="fis"/>alej</row>
+      <row important_over="false">Jakb<ch a="D"/>yśmy byli szczęś<ch a="A"/>liwi</row>
+      <row important_over="false">Gd<ch a="E"/>ybym nie kochał Cię w<ch a="H"/>cale<ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Czy m<ch a="Fis"/>i to kiedyś wyba<ch a="G"/>czysz</row>
+      <row important_over="false">Dział<ch a="Fis7"/>ałem tak niepor<ch a="gis"/>adnie</row>
+      <row important_over="false"><ch a="E"/>Czy to dla cie<ch a="H"/>bie coś znaczy</row>
+      <row important_over="false">Że k<ch a="Fis"/>ocham Cię jak Irl<ch a="Cis"/>andię</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">A t<ch a="Fis"/>y się temu nie dz<ch a="G"/>iwisz</row>
+        <row important_over="false">Wiesz d<ch a="Fis7"/>obrze co byłoby d<ch a="gis"/>alej</row>
+        <row important_over="false">Jakb<ch a="E"/>yśmy byli szczęś<ch a="H"/>liwi</row>
+        <row important_over="false">Gd<ch a="Fis"/>ybym nie kochał Cię w<ch a="Cis"/>cale</row>
+      </bis>
+      <row important_over="true">Cię w<ch a="Fis"/>cale</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Kwiaty na żywopłocie (1990)</album>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

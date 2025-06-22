@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pan Wołodyjowski">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Do nieba leci mały rycerz<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Wybuchem rozerwany w strzępy<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>W Rzeczypospolitej granice<ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Tureckie kładą się zastępy<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Pęka imperium pełne swobód<ch a="E"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Rozerwą je sąsiedzi rychło<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Jak Basi rzekł tak powie Bogu<ch a="C"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Pan Michał swoje credo: Nic to<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Trzęsie się z płaczu pan Zagłoba<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nad symboliczną Polski trumną<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>I krwi nie woła — sam nad grobem<ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Bo umrzeć łatwo, żyć jest trudno<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Więc szloch rycerskie trzęsie piersi<ch a="E"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Kaja bohater się i nicpoń<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Wobec tak niepojętej śmierci<ch a="C"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>O której Michał rzekł, że Nic to<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Lecz nic to śmierć, czy nic to życie<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Potyczki, zwady i miłostki<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Do nieba leci mały rycerz<ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Do nieba jest najbliżej z Polski<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Swoje odsłuchał i odsłużył<ch a="E"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Wiatraczkiem, sztychem, fintą płytką<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>I oto dzieło jego w gruzy<ch a="C"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Więc rację chyba miał, że Nic to<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Nie znał mądrości swej żołnierzyk<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Zajęty Baśką i szabelką<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Nie wątpić, w sens ofiary wierzyć<ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Jest rzeczą łatwą — bywa wielką<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Lecz potem wbrew serc pokrzepieniu<ch a="E"/><ch a="a"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Łzę cenić tylko na policzku<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>I na niebieskim na sklepieniu<ch a="G"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="a"/>Wypisać krwią dewizę — Nic to<ch a="E"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="3"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

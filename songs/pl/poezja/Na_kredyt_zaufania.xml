@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Na kredyt zaufania" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Leonhard</composer>
+	<artist type="band">Małżeństwo z Rozsądku</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Krzątasz się po całej makatce<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
+			<row important_over="false">że w bezruchu cię nie uchwycę<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
+			<row important_over="false">do krwi masz powyszywane palce<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">a pod oczami smutne księżyce<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mówisz mi czasem że wyjedziemy<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
+			<row important_over="false">w góry gdzie słońce pszenice sieje<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
+			<row important_over="false">lecz zawsze jakoś nam schodzi<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">choć ciągle mamy jeszcze nadzieje<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A w mieście tylko jedna pora roku<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
+			<row important_over="false">makatka mieszkania szara<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
+			<row important_over="false">żyjemy całkiem parterowo<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">na kredyt zaufania<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

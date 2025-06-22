@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Gdziekolwiek" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Gdziekolwiek będziesz, cokolwiek się stanie<ch a="e"/></row>
+			<row important_over="false">Będą miejsca w książkach i miejsca przy stole<ch a="D"/></row>
+			<row important_over="false">Kasztan kiedy kwitnie lub owoc otwiera<ch a="C"/></row>
+			<row important_over="false">Będą drzewa, ulice, ktoś nagle zawoła<ch a="h"/></row>
+			<row important_over="false">Ktoś do drzwi zapuka, pamięć przyniesie</row>
+			<row important_over="false">Z kwiatem, z godziną, z kolorem</row>
+			<row important_over="false">Gdziekolwiek będziesz, cokolwiek się stanie</row>
+			<row important_over="false">Gdziekolwiek będziesz</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdziekolwiek będziesz, cokolwiek się stanie</row>
+			<row important_over="false">Będą miejsca w książkach i miejsca przy stole</row>
+			<row important_over="false">Kasztan kiedy kwitnie lub owoc otwiera</row>
+			<row important_over="false">Wciąż będzie początek, bo wszędzie są mosty</row>
+			<row important_over="false">Prawdziwe jak powietrze ode mnie do ciebie</row>
+			<row important_over="false">Gdziekolwiek będę, cokolwiek się stanie</row>
+			<row important_over="false">Gdziekolwiek będę</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdziekolwiek będziesz, cokolwiek się stanie</row>
+			<row important_over="false">Będą miejsca w książkach i miejsca przy stole</row>
+			<row important_over="false">Kasztan kiedy kwitnie lub owoc otwiera</row>
+			<row important_over="false">Będą drzewa, ulice, ktoś nagle zawoła</row>
+			<row important_over="false">Ktoś do drzwi zapuka, pamięć przyniesie</row>
+			<row important_over="false">Z kwiatem, z godziną, z kolorem</row>
+			<row important_over="false">Gdziekolwiek będziesz, cokolwiek się stanie</row>
+			<row important_over="false">Gdziekolwiek będziesz</row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tango na głos, orkiestrę i jeszcze jeden głos">
+	<text_author type="solo">Grzegorz Tomczak</text_author>
+	<comment>Metrum się zmienia - zwrotki są na 4 w rytmie tanga (chyba), refreny na 3.</comment>
+	<composer type="solo">Grzegorz Tomczak</composer>
+	<artist type="solo">Grzegorz Tomczak</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Było ci<ch a="A"/>emno, więc niewiele sam widzi<ch a="d"/>ałem</row>
+			<row important_over="true">i pamiętam też niewiele</row>
+			<row important_over="true">Było ci<ch a="A7"/>emno, wiem, że z pochyloną gł<ch a="d"/>ową stałem</row>
+			<row important_over="true">tak, jak stoi się w kościele</row>
+			<row important_over="true">A więc: st<ch a="B"/>ałem, nie widziałem, było ci<ch a="E"/>emno,</row>
+			<row important_over="true">lecz słyszałem wc<ch a="A"/>iąż</row>
+			<row important_over="true">Ten głos, ten głos, ten głos</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Podejdź bl<ch a="A"/>iżej, więc podszedłem jak skrusz<ch a="d"/>ony obywatel</row>
+			<row important_over="false">do przedstawiciela władzy</row>
+			<row important_over="false">Podejdź bl<ch a="A7"/>iżej, już wiedziałem że uci<ch a="d"/>eczka błyskawiczna</row>
+			<row important_over="false">tu niczemu nie zaradzi</row>
+			<row important_over="false">Więc posz<ch a="B"/>edłem, posłuchałem, było ci<ch a="E"/>emno,</row>
+			<row important_over="false">wciąż myślałem cz<ch a="A"/>yj</row>
+			<row important_over="false">Ten głos, ten głos, ten głos</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">To nie wr<ch a="A"/>óg był, bo głos cichy i subt<ch a="d"/>elny</row>
+			<row important_over="false">ale polski i nieskazitelny</row>
+			<row important_over="false">To nie B<ch a="A7"/>óg był, ten by zaraz mnie zap<ch a="d"/>ytał</row>
+			<row important_over="false">czy mój światopogląd celny</row>
+			<row important_over="false">Więc to ni<ch a="B"/>e był wróg na pewno, bo nad gł<ch a="E"/>ową</row>
+			<row important_over="false">tuż nade mną usłysz<ch a="A"/>ałem</row>
+			<row important_over="false">Ten głos, ten głos, ten głos</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">T<ch a="d"/>y to masz sz<ch a="A7"/>części<ch a="d"/>e<ch a="A7"/>, ż<ch a="d"/>e w tym mom<ch a="A7"/>enci<ch a="d"/>e</row>
+			<row important_over="true">Ż<ch a="g"/>yć ci prz<ch a="C"/>yszło w kr<ch a="F"/>aju nad W<ch a="g"/>isłą</row>
+			<row important_over="true">T<ch a="A7"/>y to masz szczęści<ch a="d"/>e</row>
+			<row important_over="true">Tw<ch a="d"/>ój kraj szczęśl<ch a="A7"/>iw<ch a="d"/>y,<ch a="A7"/> pi<ch a="d"/>ękny, prawdz<ch a="A7"/>iw<ch a="d"/>y</row>
+			<row important_over="true">L<ch a="g"/>udzie ucz<ch a="C"/>ynni, w s<ch a="F"/>ercach niew<ch a="g"/>inni</row>
+			<row important_over="true">Tw<ch a="A7"/>ój kraj szczęśliw<ch a="d"/>y</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Było ci<ch a="A"/>emno, więc nie mogłem stwierdzić k<ch a="d"/>omu</row>
+			<row important_over="false">pomyliły się epoki lub stulecia         </row>
+			<row important_over="false">Było ci<ch a="A7"/>emno, może to Micki<ch a="d"/>ewicz jaki</row>
+			<row important_over="false">bo tak zgrabnie romantyczną wiarę krzesał         </row>
+			<row important_over="false">Trochę ni<ch a="B"/>ezorientowany, bo w tym kr<ch a="E"/>aju tak kochanym</row>
+			<row important_over="false">dawno ni<ch a="A"/>e był już widziany</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Może N<ch a="A"/>orwid, bo coś plótł, że łza gdzieś zn<ch a="d"/>ad planety spada</row>
+			<row important_over="false">i groby przecieka</row>
+			<row important_over="false">Ale sk<ch a="A7"/>ąd by, skąd by wiedział, że na j<ch a="d"/>ego słowa</row>
+			<row important_over="false">ktoś tu jeszcze może czekać</row>
+			<row important_over="false">Teraz w m <ch a="B"/>odzie nie Norwidy, filoz<ch a="E"/>ofy, okryjbidy,</row>
+			<row important_over="false">więc cz<ch a="A"/>yj</row>
+			<row important_over="false">Ten głos, ten głos, ten głos</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Było ci<ch a="A"/>emno, więc sam nie wiem, jak do d<ch a="d"/>omu</row>
+			<row important_over="false">wprost doszedłem i do siebie</row>
+			<row important_over="false">Było ci<ch a="A7"/>emno, a ja czułem się jak w ni<ch a="d"/>ebie,</row>
+			<row important_over="false">choć dlaczego nie wiem, nie wiem</row>
+			<row important_over="false">Z pochyl<ch a="B"/>oną głową stałem, wierzcie: j<ch a="E"/>a nie zwariowałem,</row>
+			<row important_over="false">lecz jak dzi<ch a="A"/>ecko powtarzałem</row>
+			<row important_over="false">Na głos, na głos, na głos</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">J<ch a="d"/>a to mam szcz<ch a="A7"/>ęści<ch a="d"/>e<ch a="A7"/>, ż<ch a="d"/>e w tym mom<ch a="A7"/>enci<ch a="d"/>e</row>
+			<row important_over="false">Ż<ch a="g"/>yć mi prz<ch a="C"/>yszło w kr<ch a="F"/>aju nad W<ch a="g"/>isłą</row>
+			<row important_over="false">J<ch a="A7"/>a to mam szczęści<ch a="d"/>e</row>
+			<row important_over="false">M<ch a="d"/>ój kraj szczęś<ch a="A7"/>liw<ch a="d"/>y,<ch a="A7"/> pi<ch a="d"/>ękny, prawdz<ch a="A7"/>iw<ch a="d"/>y</row>
+			<row important_over="false">L<ch a="g"/>udzie ucz<ch a="C"/>ynni, w s<ch a="F"/>ercach niew<ch a="g"/>inni</row>
+			<row important_over="false">M<ch a="A7"/>ój kraj szczęśliw<ch a="d"/>y</row>
+		</block>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
+		<to_do>Nie wiem, jak w takiej sytuacji zapisać bicie. I nie w pełni odpowiadam za rozmieszczenie akordów.</to_do>
+	</status>
+</song>

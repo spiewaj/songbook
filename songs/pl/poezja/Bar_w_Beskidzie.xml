@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bar w Beskidzie">
+	<alias>Lej się chmielu</alias>
+	<text_author type="solo">Wiesław Jarosz</text_author>
+	<comment>Piosenka opisuje bar &quot;Leśny&quot; w Krempnej, który, wg zeznań świadków, nie ma już tego klimatu, co ongi.</comment>
+	<composer type="solo">Wiesław Jarosz</composer>
+	<artist type="band">EKT Gdynia</artist>
+	<lyric>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">La la la…<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
+			</bis>
+			<row important_over="true"><ch a="G"/> Jeśli chcesz z gardła k<ch a="D"/>urz wypłukać</row>
+			<row important_over="true">Tu k<ch a="C"/>ażdy wskaże ci dr<ch a="D"/>ogę</row>
+			<row important_over="true"><ch a="G"/> W bok od przystanku <ch a="D"/>PKS--u</row>
+			<row important_over="true">W p<ch a="C"/>rawo od sz<ch a="D"/>osy asfalt<ch a="G"/>owej<ch a="C"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Kuszą napisy oł<ch a="D"/>ówkiem kopiowym</row>
+			<row important_over="false">Na drzwi<ch a="C"/>ach od dziesiątej otw<ch a="D"/>artych</row>
+			<row important_over="false"><ch a="G"/> Dziś polecamy k<ch a="D"/>otlet mielony</row>
+			<row important_over="false">I l<ch a="C"/>okal kategorii czw<ch a="D"/>artej</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">L<ch a="G"/>ej się chmi<ch a="D"/>elu, lej się chmielu</row>
+				<row important_over="true">Nieś muz<ch a="C"/>yko po bukowym l<ch a="G"/>esie</row>
+				<row important_over="true">Panna Z<ch a="e"/>osia ma w oczach dwa ni<ch a="h"/>eba</row>
+				<row important_over="true">Trochę l<ch a="C"/>ata z nowej beczki przyni<ch a="D"/>esie</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">La la la…<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> W środku chłopaki rzuc<ch a="D"/>ają łaciną</row>
+			<row important_over="false">O s<ch a="C"/>ufit i o cztery ści<ch a="D"/>any</row>
+			<row important_over="false"><ch a="G"/> Dym z extra mocnych strz<ch a="D"/>ela jak szampan</row>
+			<row important_over="false">Bl<ch a="C"/>edną obr<ch a="D"/>usy lni<ch a="G"/>ane<ch a="C"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Za to wieczorem gdy l<ch a="D"/>ipiec duszny</row>
+			<row important_over="false"><ch a="C"/>Okna otworzy na <ch a="D"/>oścież</row>
+			<row important_over="false"><ch a="G"/> Gwiazdy wpadają d<ch a="D"/>o pełnych kufli</row>
+			<row important_over="false">Po<ch a="C"/>obgryzanych jak pazn<ch a="D"/>okcie</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">La la la…<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Kiedy chłopaki na n<ch a="D"/>ogach z waty</row>
+			<row important_over="false">Wrac<ch a="C"/>ają po mokrej kol<ch a="D"/>acji</row>
+			<row important_over="false"><ch a="G"/> Świat się jak okręt m<ch a="D"/>orski kołysze</row>
+			<row important_over="false">Gośc<ch a="C"/>iniec dz<ch a="D"/>iwnie ślim<ch a="G"/>aczy<ch a="C"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> A czasem któryś ze str<ch a="D"/>achem na wróble</row>
+			<row important_over="false">Pog<ch a="C"/>ada o polit<ch a="D"/>yce</row>
+			<row important_over="false"><ch a="G"/> Jedynie cerkiew m<ch a="D"/>arszczy zgorszona</row>
+			<row important_over="false">Sz<ch a="C"/>orstkie od gnotów l<ch a="D"/>ice</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="other">
+			<bis times="2">
+				<row important_over="false">La la la…<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Ja Stawiam</album>
+	<genre>Piosenka turystyczna górska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Adam</verificator>
+			<verificator>Onufry</verificator>
+		</verificators>
+		<to_do>Adam--&gt;Poprawiłem akordy i ułożenia wstawek instrumentalnych
+Onufry -&gt; Poprawiłem strukturę, żeby refren był refrenem.</to_do>
+	</status>
+</song>

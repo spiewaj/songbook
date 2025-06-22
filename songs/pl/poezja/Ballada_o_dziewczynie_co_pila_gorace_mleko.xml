@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o dziewczynie co piła gorące mleko">
+	<text_author type="solo">Agnieszka Osiecka</text_author>
+	<composer type="solo">Katarzyna Sobolewska</composer>
+	<artist type="solo">Andrzej Poniedzielski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Są małe stacje w<ch a="fis"/>ielkich kolei, niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona</row>
+      <row important_over="true">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona</row>
+      <row important_over="true"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu, z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
+      <row important_over="true">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, ja<ch a="A"/>k piła gorące <ch a="D"/>mleko</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę, a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
+      <row important_over="true">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie, jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
+      <row important_over="true">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była, <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
+      <bis times="2">
+        <row important_over="true">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
+      </bis>>
+    </block>
+    <block type="verse">
+      <row>Mam swoje sprawy, inne podróże i nie tamtędy mi droga.</row>
+      <row>Lubię ulice wesołe i długie i kolorowe światła na rogach.</row>
+      <row>Może ma chłopca tamta dziewczyna, a może wybrała się w świat.</row>
+      <row>Albo po prostu może jest głupia jak jej siedemnaście lat.</row>
+    </block>
+    <block type="chorus">
+      <row>Z resztą to przecież nie ma znaczenia, mieszkam naprawdę daleko.</row>
+      <row>Lecz myślę czasem o tamtej dziewczynie, jak piła gorące mleko.</row>
+      <row>I nieraz chciałbym aby tu była, może to miałoby sens.</row>
+      <bis times="2">
+        <row>Jak ona śmiesznie to mleko piła, gapiąc się na mnie spod rzęs.</row>
+      </bis>
+    </block>
+  </lyric>
+</song>

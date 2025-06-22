@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki rajd">
+	<alias/>
+	<text_author type="solo">Piotr Frankowicz, Julian Jaworz-Dutka</text_author>
+	<comment>Piosenka powstała lub/i była śpiewana podczas "Harcerskiej Operacji Bieszczady 40". </comment>
+	<composer type="solo">Piotr Frankowicz, Julian Jaworz-Dutka</composer>
+	<artist type="band">Wołosatki - Grube Dudy</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Zebr<ch a="C"/>ało si<ch a="a"/>ę nas t<ch a="D"/>ut<ch a="G"/>aj wi<ch a="C"/>elu t<ch a="a"/>akich jak <ch a="D"/>t<ch a="G"/>y</row>
+			<row important_over="true">Si<ch a="C"/>adaj z n<ch a="C7"/>ami pr<ch a="F"/>zyjaci<ch a="f"/>elu <ch a="C"/>a zaśpiew<ch a="G"/>amy c<ch a="C"/>i <ch a="G7"/></row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="true">R<ch a="C"/>ajd r<ch a="a"/>ajd bi<ch a="D"/>eszczadzki r<ch a="G"/>ajd</row>
+				<row important_over="true">C<ch a="C"/>zy to w sł<ch a="a"/>ońce c<ch a="D"/>zy to w d<ch a="G"/>eszcz</row>
+				<row important_over="true">
+					<ch a="C"/>Idziesz z n<ch a="C7"/>ami pr<ch a="F"/>zyjaci<ch a="f"/>elu</row>
+				<row important_over="true">B<ch a="C"/>o s<ch a="G"/>am chc<ch a="C"/>esz <ch a="G7"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Każdy harcerz przeżyć chce ten bieszczadzki rajd<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Aby wzmocnićswoje siły jemy dużo pajd<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Czasem chleba nam brakuje ale fajno jest<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Ktoś nas wtedy poratuje to braterski gest<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Może kiedyś tu za rok wszysczy się spotkamy<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Obsiądziemy ogień w koło i tak zaśpiewamy<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Adam</verificator>
+		</verificators>
+		<to_do>Adam--&gt;piosenka jest na płycie analogowej, więc jeśli ktoś ma odpowiednie ustrojstwo to można by przegrać ja na nośnik dla ludzi :)</to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album>Bieszczady jak co roku…</album>
+	<genre/>
+</song>

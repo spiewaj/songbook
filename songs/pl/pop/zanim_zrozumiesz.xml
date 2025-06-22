@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zanim zrozumiesz">
+  <text_author type="solo">Anita Lipnicka</text_author>
+  <composer type="solo">Robert Janson</composer>
+  <artist type="band">Varius Manx</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Zanim po<ch a="D"/>wiesz jej <ch a="a"/>że</row>
+      <row important_over="true"><ch a="e"/>To był o<ch a="D"/>statni <ch a="a"/>raz</row>
+      <row important_over="true"><ch a="e"/>Zanim dzień spłoszy <ch a="D"/>srebrnego ptaka <ch a="a"/>nocy</row>
+      <row important_over="true"><ch a="C"/>Rozkołysz, rozkołysz, rozkołysz</row>
+      <row important_over="true">Jeszcze r<ch a="e"/>az <ch a="D"/><ch a="a"/><ch a="e"/><ch a="D"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Zanim <ch a="D"/>ukradniesz <ch a="a"/>jej</row>
+      <row important_over="false"><ch a="e"/>Ostatni <ch a="D"/>kolor ze <ch a="a"/>snów</row>
+      <row important_over="false"><ch a="e"/>Zanim gdy na chwilę <ch a="D"/>zamknie oczy <ch a="a"/>znikniesz</row>
+      <row important_over="false"><ch a="C"/>Zabierz jej, zabierz jej, zabierz jej</row>
+      <row important_over="false">Z ręki nóż</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="G"/>Ona <ch a="a"/>ma <ch a="e"/>sił<ch a="D"/>ę</row>
+      <row important_over="true"><ch a="G"/>Nie wie<ch a="a"/>sz j<ch a="e"/>ak wi<ch a="D"/>elką</row>
+      <row important_over="true"><ch a="G"/>Będzi<ch a="a"/>e sp<ch a="e"/>adać <ch a="D"/>długo</row>
+      <row important_over="true"><ch a="G"/>Potem<ch a="a"/> wst<ch a="e"/>anie <ch a="D"/>lekko</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="a"/><ch a="e"/><ch a="D"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Zanim <ch a="D"/>zrozumiesz <ch a="a"/>jak</row>
+      <row important_over="false"><ch a="e"/>Bardzo <ch a="D"/>kochałeś <ch a="a"/>ją</row>
+      <row important_over="false"><ch a="e"/>Zanim pobiegniesz <ch a="D"/>kupić czerwone <ch a="a"/>wino</row>
+      <row important_over="false"><ch a="C"/>Ona zapomni, zapomni już</row>
+      <row important_over="false">Świat twych <ch a="e"/>rąk<ch a="D"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Zanim <ch a="D"/>będziesz pró<ch a="a"/>bował</row>
+      <row important_over="false"><ch a="e"/>Odkupić <ch a="D"/>ją za <ch a="a"/>słowa</row>
+      <row important_over="false"><ch a="e"/>Zobaczysz <ch a="D"/>jak na drugim brzegu <ch a="a"/>rzeki</row>
+      <row important_over="false"><ch a="C"/>Spokojnie spokojnie, spokojnie</row>
+      <row important_over="false">Stoi z nim</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Ona <ch a="a"/>ma <ch a="e"/>sił<ch a="D"/>ę</row>
+        <row important_over="false"><ch a="G"/>Nie wie<ch a="a"/>sz j<ch a="e"/>ak wi<ch a="D"/>elką</row>
+        <row important_over="false"><ch a="G"/>Umier<ch a="a"/>ała <ch a="e"/>długo<ch a="D"/></row>
+        <row important_over="false"><ch a="G"/>Teraz<ch a="a"/> rod<ch a="e"/>zi si<ch a="D"/>ę lekko</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/><ch a="D"/><ch a="a"/>Nie dla ciebie<ch a="e"/><ch a="D"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Byłoby miło">
+  <alias/>
+  <text_author type="solo">Tomasz Wachnowski</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <album>Właśnie Tak</album>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Byłem jak płyta przegrany, złość zdrapywałem ze ścian</row>
+      <row important_over="false">Gdy usłyszałem: kochany, spróbuj od dzisiaj być z sobą</row>
+      <row important_over="false">Sam nie wiem jak to się stało, bo jeszcze wczoraj nasz świat</row>
+      <row important_over="false">Był jednym z tych, których mało, dziś jednym z tych, których brak</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Byłoby miło, gdyby ta miłość</row>
+      <row important_over="false">Nie znała gorzkich słow</row>
+      <row important_over="false">Byłoby miło, gdyby ta miłość</row>
+      <row important_over="false">Umiała wrócić znów</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kładę się później niż wstaję, zawsze gdzie indziej niż ty</row>
+      <row important_over="false">Świat pełen jest takich bajek, ktośbywa dobry, ktoś zły</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Wiem, że już nic nas nie zmieni i znowu starczy mi sił</row>
+      <row important_over="false">By tak jak tamtej jesieni wstać, trzasnąć drzwiami i wyjść</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

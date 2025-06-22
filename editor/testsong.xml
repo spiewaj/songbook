@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Tytuł">
+  <alias>Alternatywy</alias>
+  <text_author type="solo">Stefan Kaszabara</text_author>
+  <comment>Gratulujemy tym, którzy doczytali
+aż tyle.</comment>
+  <composer type="solo">Czajkowski</composer>
+  <artist type="band">Zespół Reprezentacyjny</artist>
+  <translator>Google Translate</translator>
+  <original_title>(pre)Test Song</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"> Herbata stygnie, zapada zmrok</row>
+      <row important_over="false"> A pod piórem ciągle nic...</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"> Jakiś refren z <ch a="Cis"/>akord<ch a="Pi"/>ami </row>
+      <row important_over="true"> I<ch a="Fuj"/> kluczowymi akordami </row>
+      <row style="instr"><ch a="Fis"/><ch a="Pis"/><ch a="C"/><ch a="D"/><ch a="E"/> </row>
+    </block>
+    <block type="verse">
+      <row important_over="true"> <ch a=""/>Teraz się zacznie: </row>
+      <row important_over="true"> Jeszcze jeden i jeszcze raz<ch a=""/><ch a=""/></row>
+      <bis times="2">
+        <row important_over="true"> Mamy zwrotkę z BISami</row>
+      </bis>
+      <row important_over="true"> I nie bisami</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="C (D) | Cis">To jest zwrotka bez akordów nad</row>
+    </block>
+  </lyric>
+  <music metre="12/8">
+    <guitar barre="13"/>
+  </music>
+  <keywords>
+    <keyword>Testy</keyword>
+    <keyword>Dwa słowa</keyword>
+  </keywords>
+  <album>Boom</album>
+  <genre>Hit hop</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabor</verificator>
+      <verificator>Ktoś jeszcze</verificator>
+    </verificators>
+    <to_do>Skasować to</to_do>
+  </status>
+  <music_source>Internet</music_source>
+</song>

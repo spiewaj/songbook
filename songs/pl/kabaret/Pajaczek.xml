@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pajączek">
+	<alias></alias>
+	<text_author type="solo">Janusz Kubicki</text_author>
+	<comment></comment>
+	<composer type="band">Trzy Dni Tyłem</composer>
+	<artist type="band">Trzy Dni Tyłem</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Był sobie raz pajączek co żywot wiódł radosny</row>
+			<row important_over="false"><ch a="G"/>Rozsnuwał co noc sieć swą od sosny aż do sosny<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Kres szczęściu przynósł wietrzyk co nieraz sobie dmucha</row>
+			<row important_over="false"><ch a="G"/>Z jego bowiem sprawą do tej sieci wpadła mucha<ch a="a"/><ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/></row>
+			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>I tutaj nasz pajączek postąpił wbrew naturze</row>
+			<row important_over="false"><ch a="G"/>Miast wrąbać ją na obiad — on w muszcze się zadurzył<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Co było dalej myślcie i każdy jak potrafi</row>
+			<row important_over="false"><ch a="G"/>Ja o tym wam nie powiem bo nie lubię pornografii<ch a="a"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Wystąpił ród pajęczy ratując konwenanse</row>
+			<row important_over="false"><ch a="G"/>Zabronił pajączkowi popełniać mezalianse<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Przewidzieć skutku czynu pajączek już nie zdążył</row>
+			<row important_over="false"><ch a="G"/>Bo z lewej konwenanse a z prawej mucha w ciąży<ch a="a"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Oj przykład to poważny i prosto z życia wzięty</row>
+			<row important_over="false"><ch a="G"/>Bo nie tylko nasz pajączek musi płacić alimenty<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Historia pajączka niech czasem panów przejmie</row>
+			<row important_over="false"><ch a="G"/>Ruszajcie trochę głową gdy dziewczyna suknię zdejmie<ch a="a"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Taboret</verificator>
+			
+		</verificators>
+		<to_do>Taboret: Na podstawie informacji od Pana Krzysztofa Mazurkiewicza</to_do>	<done>
+			<authors/>
+		</done>
+	</status>	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

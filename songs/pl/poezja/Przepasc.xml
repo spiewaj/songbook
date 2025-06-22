@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przepaść">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Tego dnia obcy ludzie</row>
+      <row important_over="false"><ch a="C"/>Zadławili we mnie tak zwaną<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Jasność spojrzenia<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>W kanion strachu zagonili</row>
+      <row important_over="false"><ch a="C"/>A jemu serce pękło<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>W tej samej chwili</row>
+      <row important_over="false"><ch a="C"/>A bez jego mocnej dłoni<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>A bez tych pogodnych spojrzeń<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Czeka mnie<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Czeka mnie</row>
+      <bis>
+        <row important_over="false"><ch a="C"/>Przepaść<ch a="D"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Studnia dźwięków i mgła<ch a="D"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Przepaść<ch a="D"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Idę do niej tam<ch a="D"/><ch a="e"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

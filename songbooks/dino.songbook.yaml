@@ -1,0 +1,22 @@
+songbook:
+  id: "dino"
+  uuid: "7e7bee69-be48-49fd-85af-7ce4ec64d299"
+  title: "Śpiewnik Dino"
+  subtitle: "2024"
+  url: "https://spiewaj.com/#dino"
+  publisher: |
+    Nieformalna grupa dinozaurów (ex-)harcerskich
+  place: Warszawa
+  image:
+    svg: "./dino/dino1.svg"
+    png: "./dino/dino1.png"
+    pdf: "./dino/dino1.pdf"
+  songs:
+    - glob: "songs/en/**/*.xml"
+    - glob: "songs/pl/bardowie/**/*.xml"
+    - glob: "songs/pl/harc/**/*.xml"
+    - glob: "songs/pl/kabaret/*.xml"
+    - glob: "songs/pl/poezja/*.xml"
+    - glob: "songs/pl/pop/*.xml"
+    - glob: "songs/pl/szanty/*.xml"
+    - glob: "songs/pl/custom/21wdw/Ballada_antysojowa.xml"

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wzięli zamknęli mi klub">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer>Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Chc<ch a="d"/>ę dziś zwojować cały świat</row>
+      <row important_over="true">Wł<ch a="C"/>aśnie dzisiaj udowodnię - j<ch a="B"/>estem czegoś wart</row>
+      <row important_over="true"><ch a="d"/>Idę już Krakowskim zbliżam się</row>
+      <row important_over="true">J<ch a="C"/>uż niedługo, już za chwilę, z<ch a="B"/>a minuty dwie</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">I n<ch a="g"/>agle serce staje i aż zapiera dech</row>
+      <row important_over="true">Świ<ch a="g"/>at szybko wiruje, a ja p<ch a="A"/>ewna jestem, że</row>
+      <row important_over="true">Wzi<ch a="d"/>ęli zamknęli dziś mój ulubiony klub</row>
+      <row important_over="true">Pod drzwi<ch a="C"/>ami ludzi tłum już nie z<ch a="G"/>abaluję tu</row>
+      <row important_over="true"><ch a="d"/>Okna zabite, techno nie poleci już</row>
+      <row important_over="true">Na bl<ch a="C"/>acie gruby kurz, a my nie z<ch a="G"/>atańczymy tu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Światła ulic wyznaczają szlak</row>
+      <row important_over="false"><ch a="C"/>Wyobrażam sobie w głowie j<ch a="B"/>ak za dawnych lat</row>
+      <row important_over="false"><ch a="d"/>Po zajęciach pójdę właśnie tam</row>
+      <row important_over="false"><ch a="C"/>Miesiąc kończy się,<ch a="B"/> no ale na jedno mnie stać</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>niemożliwe</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

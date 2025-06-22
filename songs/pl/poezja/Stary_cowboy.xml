@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Stary cowboy">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Na prerię szary spływa mrok</row>
+      <row important_over="false"><ch a="G"/>Po stepie wieje wiatr</row>
+      <row important_over="false"><ch a="e"/>Rozsiodłał konia stary cowboy</row>
+      <row important_over="false"><ch a="G"/>Przy ognisku siadł</row>
+      <row important_over="false"><ch a="e"/>Gdy płomień resztką sił się tlił</row>
+      <row important_over="false"><ch a="e"/>Dorzucił jeszcze parę drew</row>
+      <row important_over="false"><ch a="C"/>Wieczorne mgły niosą jego śpiew<ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="e"/>Co mi tam wiatr, co mi tam chłód<ch a="G"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Był colt, lasso i bat<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Pamiętasz stary koniu</row>
+      <row important_over="false"><ch a="G"/>Gdym żebrakiem jeszcze był</row>
+      <row important_over="false"><ch a="e"/>Marzyłem sobie kupię dom</row>
+      <row important_over="false"><ch a="G"/>Jak człowiek będę żył</row>
+      <row important_over="false"><ch a="e"/>Pasałem bydło życie całe</row>
+      <row important_over="false"><ch a="e"/>Co dziś mam, czy wiesz</row>
+      <row important_over="false"><ch a="C"/>Dwa colty, bat, ciebię i tę pieśń<ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Nad ranem wygnali znów</row>
+      <row important_over="false"><ch a="G"/>Cowboy'e bydło w step</row>
+      <row important_over="false"><ch a="e"/>Starego pochowali</row>
+      <row important_over="false"><ch a="G"/>Starej szkapie kula w łeb</row>
+      <row important_over="false"><ch a="e"/>Na morzu prerii w dali gdzieś</row>
+      <row important_over="false"><ch a="e"/>Cowboy'ów znika sznur</row>
+      <row important_over="false"><ch a="C"/>Wiatr niesie pieśń, szumi jeszcze bór<ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

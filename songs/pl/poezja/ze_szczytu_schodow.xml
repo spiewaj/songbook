@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Ze szczytu schodów" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Zbigniew Herbert</text_author>
+	<comment>Melodia 5. zwr. zaczerpnięta z Murów, a 7. i 8. z Pieśni gruzińskiej. Metrum zmienne.</comment>
+	<composer type="solo">Michał Korch</composer>
+	<artist type="solo">Michał Korch</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="a"/>Oczywiście</row>
+			<row important_over="true">c<ch a="d"/>i którzy st<ch a="E"/>oją na szcz<ch a="a"/>ycie schodów</row>
+			<row important_over="true"><ch a="d"/>oni wiedzą</row>
+			<row important_over="true"><ch a="d"/>oni wiedzą wsz<ch a="a"/>ystko</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">c<ch a="F"/>o innego my</row>
+			<row important_over="true">sprząt<ch a="B"/>acze placów</row>
+			<row important_over="true">zakładn<ch a="C"/>icy lepszej przyszłości</row>
+			<row important_over="true">którym c<ch a="C7"/>i ze szczytu schodów</row>
+			<row important_over="true">ukaz<ch a="a"/>ują się rzadko</row>
+			<row important_over="true">z<ch a="d"/>awsze z p<ch a="E"/>alcem na <ch a="a"/>ustach</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">jest<ch a="a"/>eśmy cierpliwi</row>
+			<row important_over="true">żony n<ch a="d"/>asze cerują niedzi<ch a="a"/>elną koszulę</row>
+			<row important_over="true">rozmawi<ch a="d"/>amy o racjach żywn<ch a="a"/>ości</row>
+			<row important_over="true">o p<ch a="d"/>iłce nożnej c<ch a="a"/>enie butów</row>
+			<row important_over="true"><ch a="d"/>a w sobotę przechyl<ch a="a"/>amy głowę w t<ch a="H7"/>ył</row>
+			<row important_over="true">i pij<ch a="H7"/>emy</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">ni<ch a="E"/>e jesteśmy z tych</row>
+			<row important_over="true">co z<ch a="a"/>aciskają pięści</row>
+			<row important_over="true">potrząs<ch a="F"/>ają łańcuchami</row>
+			<row important_over="true">m<ch a="B"/>ówią i pytają</row>
+			<row important_over="true">namawi<ch a="G0"/>ają do buntu</row>
+			<row important_over="true">r<ch a="F0"/>ozgorączkowani</row>
+			<row important_over="true">wciąż m<ch a="a"/>ówią <ch a="E"/>i pyt<ch a="a"/>ają</row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="A7"/>oto ich bajka —</row>
+			<row important_over="true">rzuc<ch a="e"/>imy si<ch a="H7"/>ę na sch<ch a="e"/>ody</row>
+			<row important_over="true"><ch a="e"/>i zdobędziemy je szturm<ch a="H7"/>em</row>
+			<row important_over="true">b<ch a="e"/>ędą się t<ch a="H7"/>oczyć po sch<ch a="C"/>odach</row>
+			<row important_over="true">gł<ch a="C"/>owy tych kt<ch a="H7"/>órzy stal<ch a="e"/>i na szczycie</row>
+			<row important_over="true">i wr<ch a="e"/>eszcie z<ch a="H7"/>obacz<ch a="e"/>ymy</row>
+			<row important_over="true">co w<ch a="e"/>idać z tych wysok<ch a="H7"/>ości</row>
+			<row important_over="true">j<ch a="e"/>aką prz<ch a="H7"/>yszłość</row>
+			<row important_over="true"><ch a="C"/> j<ch a="H7"/>aką p<ch a="e"/>ustkę</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">ni<ch a="E"/>e pragniemy widoku</row>
+			<row important_over="true">tocz<ch a="a"/>ących się głów</row>
+			<row important_over="true">wi<ch a="d"/>emy jak łatwo <ch a="H7"/>odrastają głowy</row>
+			<row important_over="true">i z<ch a="E"/>awsze na szczycie zostaje</row>
+			<row important_over="true">j<ch a="a"/>eden albo trzech</row>
+			<row important_over="true"><ch a="d"/>a na dole aż czarno od mi<ch a="H7"/>ot<ch a="E"/>eł i ł<ch a="a"/>opat</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">czasem n<ch a="a"/>am się marzy</row>
+			<row important_over="true">że ci ze szcz<ch a="d"/>ytu schodów</row>
+			<row important_over="true">zejdą n<ch a="G"/>isko</row>
+			<row important_over="true">to znaczy d<ch a="C"/>o n<ch a="E7"/>as</row>
+			<row important_over="true">gdy n<ch a="a"/>ad gazetą żuj<ch a="d"/>emy chleb</row>
+			<row important_over="true">i rz<ch a="E7"/>ekn<ch a="a"/>ą</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">-- a t<ch a="C"/>eraz pomówmy</row>
+			<row important_over="true">jak czł<ch a="d"/>owiek z człowiekiem</row>
+			<row important_over="true">to ni<ch a="G"/>e jest prawda co wykrzyk<ch a="C"/>ują af<ch a="E7"/>isze</row>
+			<row important_over="true">pr<ch a="a"/>awdę nosimy w zaciśniętych <ch a="d"/>ustach</row>
+			<row important_over="true">okr<ch a="E7"/>utna jest i nazbyt ci<ch a="a"/>ężka</row>
+			<row important_over="true">więc dźwig<ch a="a"/>amy ją sami</row>
+			<row important_over="true">nie jest<ch a="d"/>eśmy szczęśliwi</row>
+			<row important_over="true">ch<ch a="E7"/>ętnie zostalibyśmy</row>
+			<row important_over="true">t<ch a="a"/>utaj</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">t<ch a="d"/>o są oczywiście marz<ch a="a"/>enia</row>
+			<row important_over="true">m<ch a="E7"/>ogą się spełnić</row>
+			<row important_over="true"><ch a="a"/>albo nie spełnić</row>
+			<row important_over="true"><ch a="d"/> więc dalej</row>
+			<row important_over="true">będzi<ch a="a"/>emy uprawiali</row>
+			<row important_over="true">nasz kw<ch a="H7"/>adrat ziemi</row>
+			<row important_over="true">nasz kw<ch a="E7"/>adrat kami<ch a="a"/>enia</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">z l<ch a="d"/>ekką głową</row>
+			<row important_over="true">papier<ch a="a"/>osem za uchem</row>
+			<row important_over="true"><ch a="F"/>i bez kropli nadzi<ch a="H7"/>ei w s<ch a="E7"/>erc<ch a="a"/>u</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

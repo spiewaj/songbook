@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla piosenki">
+  <alias/>
+  <text_author>Edward Stachura</text_author>
+  <comment/>
+  <composer type="solo">Krzysztof Myszkowski</composer>
+  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>W zachwycie dziewczyn dzień przebywszy ten<ch a="e"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a7"/>To teraz wędrowcze żeń się z nocką żeń<ch a="c"/><ch a="D"/><ch a="D7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Przy nagim ognisku weź wyciągnij się<ch a="e"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a7"/>I miłuj się z ogniem dokładając drew<ch a="C"/><ch a="D"/><ch a="D7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Już woda w kociołku durli durli wrze<ch a="e"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a7"/>Ach święta wieczerza też cudowna rzecz<ch a="C"/><ch a="D"/><ch a="D7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Nad głową wiatr szumi wiecznie nową pieśń<ch a="e"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a7"/>A w tobie cichutko i dlatego wiesz<ch a="c"/><ch a="D"/><ch a="D7"/></row>
+      <row important_over="false"><ch a="C"/>Żeś jej źródłem jest ona twoim też<ch a="D"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

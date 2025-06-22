@@ -1,0 +1,5 @@
+export OAUTH_CLIENT_ID="c54f626adaeab3b0e0b6"
+export BASE_URL="http://localhost:8080"
+export EDITOR_DOMAIN="http://localhost:63342"
+export EDITOR_PATH="/editor/index.html?"
+

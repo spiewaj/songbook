@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wrzosowisko">
+	<alias></alias>
+	<text_author type="solo">Edward Stachura</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<row style="instr"><ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>Zrozum to co powiem, spróbuj to zrozumieć dobrze<ch a="H7"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="C"/>Jak życzenia najlepsze, te urodzinowe<ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Albo noworoczne jeszcze lepsze może<ch a="H7"/></row>
+			<row important_over="false"><ch a="C"/>O północy, gdy składane, drżącym głosem niekłamane<ch a="G"/><ch a="H7"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="C"/>Z nim będziesz szczęśliwsza<ch a="G"/></row>
+				<row important_over="false"><ch a="a"/>Dużo szczęśliwsza będziesz z nim<ch a="H7"/></row>
+				<row important_over="false"><ch a="C"/>Ja cóż — włóczęga, niespokojny duch<ch a="G"/></row>
+				<row important_over="false"><ch a="a"/>Ze mną można tylko pójść na wrzosowisko<ch a="D7"/></row>
+				<row important_over="false"><ch a="e"/>I zapomnieć wszystko</row>
+				<row important_over="false"><ch a="C"/>Jaka epoka, jaki wiek, jaki rok, jaki miesiąc, jaki dzień<ch a="G"/><ch a="a"/><ch a="C"/><ch a="a"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="a"/>Jaka godzina kończy się, a jaka zaczyna<ch a="C"/><ch a="e"/></row>
+			</bis>
+		</block>
+		<block type="other">
+			<row style="instr"><ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Nie myśl, że nie kocham lub, że tylko trochę<ch a="H7"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="C"/>Jak cię kocham nie powiem, no bo nie wypowiem<ch a="G"/></row>
+			<row important_over="false"><ch a="a"/>Tak ogromnie bardzo, jeszcze więcej może<ch a="H7"/></row>
+			<row important_over="false"><ch a="C"/>I dlatego właśnie żegnaj, zrozum dobrze żegnaj<ch a="G"/><ch a="H7"/></row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Ze mną można tylko w dali zniknąć cicho<ch a="C"/><ch a="e"/></row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+		<done>
+			
+			
+			<text/>
+			<authors/>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

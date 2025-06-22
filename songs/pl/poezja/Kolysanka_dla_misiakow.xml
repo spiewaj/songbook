@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Kołysanka dla misiaków">
+	<artist type="solo">Martyna Jakubowska</artist>
+	<alias>Chcę Ci dać trochę wiary w cud</alias>
+	<lyric>
+		<block type="verse">
+			<row important_over="false"><ch a="D"/> W tym pokoju bardzo cicho dziś</row>
+			<row important_over="false">Po trzech dniach nareszcie śpisz</row>
+			<row important_over="false">Gdzieś za drzwi<ch a=""/><ch a="G"/>ami został <ch a="D"/>b<ch a=""/><ch a=""/>ól</row>
+			<row important_over="false"><ch a="D"/> Całych siebie chcemy dać</row>
+			<row important_over="false">Kilku ludzi dobrze nas zna</row>
+			<row important_over="false">Tylko <ch a="G"/>cz<ch a=""/>asem słabnie nam <ch a="D"/>puls</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="e"/> Już dobrz<ch a=""/><ch a=""/><ch a="G"/>e, dobrze j<ch a="D"/>uż</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Może trzeba upaść na twarz<ch a="D"/></row>
+			<row important_over="false">Swoje rzeczy ubogiemu dać</row>
+			<row important_over="false">I zacząć malować bez farb<ch a="D"/><ch a="G"/><ch a="D"/><ch a=""/><ch a=""/></row>
+			<row important_over="false">Przeklinamy dzień za dniem<ch a="D"/> </row>
+			<row important_over="false">Śpisz, bo życie nie, nie jest snem</row>
+			<row important_over="false">Taki ciężar tylko zgina ci kark<ch a="D"/><ch a="G"/><ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">W kącie siedzi Anioł Stróż<ch a="D"/></row>
+			<row important_over="false">Strzeże naszych ciał i dusz</row>
+			<row important_over="false">Za godzinę muszę wyjść<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Przyjdź po bliskość moich ust<ch a="D"/></row>
+			<row important_over="false">Chcę Ci dać trochę wiary w cud</row>
+			<row important_over="false">Póki możesz moje wino pij<ch a="D"/><ch a="G"/><ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4"/>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Krzysiek Cz. - literówki</verificator>
+			<verificator>Adam F.:Na płycie którą mam tytuł brzmi: Chcę Ci dać trochę wiary w cud (Kołysanka dla misiaków) - zmieniłem na taki, ale się nie upieram przy nim tym :-)</verificator>
+			<verificator>Poprawiłem rozmieszczenie akordów nad tekstem, zmieniłem tonację, poprawiłem tekst w drugiej zwrotce (dodatkowe "nie"), poprawiłem akordy w wersji nie nad tekstem (lepiej napisać "DGD"), na końcu śpiewa się 4 razy - nie wiedziałem jak to zapisać-&gt; dałem 2 x refren</verificator>
+		</verificators>
+	</status>
+</song>

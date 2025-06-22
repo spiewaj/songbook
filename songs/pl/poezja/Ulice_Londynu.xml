@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Ulice Londynu" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">
+				<ch a="C"/>Czy pamiętasz star<ch a="G"/>ca, n<ch a="a"/>a zamkniętym siedział <ch a="e"/>targu,</row>
+			<row important_over="true">
+				<ch a="F"/>Kopał g<ch a="C"/>azety star<ch a="d"/>ymi buciorami,<ch a="G"/></row>
+			<row important_over="true">
+				<ch a="C"/>A jego oc<ch a="G"/>zy nie pr<ch a="a"/>osiły już <ch a="e"/>o nic,</row>
+			<row important_over="true">
+				<ch a="F"/>Sprzedawał cz<ch a="C"/>as wczoraj<ch a="d"/>szymi nowośc<ch a="G"/>iami.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">
+				<ch a="d"/>Więc jak możesz <ch a="G"/>mówić<ch a="C"/>, że j<ch a="G"/>esteś s<ch a="a"/>am,</row>
+			<row important_over="true">
+				<ch a="d"/>Że dla ciebie słońce nie świeci j<ch a="G"/>uż.</row>
+			<row important_over="true">
+				<ch a="C"/>Daj mi swą dł<ch a="G"/>oń, a pokażę ci L<ch a="a"/>ondyn</row>
+			<row important_over="true">
+				<ch a="F"/>I może w<ch a="C"/>tedy zmie<ch a="d"/>nisz swoje <ch a="G"/>zdanie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Czy pamiętasz kobietę, która błąka się po mieście,</row>
+			<row important_over="false">W jej pięknej niegdyś sukni nie zliczyłbyś dziś łat,</row>
+			<row important_over="false">Już nic nie mówi, wzrok ją niesie przed siebie,</row>
+			<row important_over="false">W dwóch starych torbach cały dom swój ma.</row>
+		</block>
+		<blocklink blocknb="2"></blocklink>
+		<block type="verse">
+			<row important_over="false">Czy pamiętasz starego pijaka z dzielnicy slumsów,</row>
+			<row important_over="false">Jestcieniem swego życia, ulica to jego dom,</row>
+			<row important_over="false">Ciepłem darmowej zupy ogrzał dłonie swe.</row>
+			<row important_over="false">Pomyśl, jeśli umrze dziś, czy ktoś uroni łzę?</row>
+		</block>
+		<blocklink blocknb="2"></blocklink>
+		<block type="verse">
+			<row important_over="false">Przed przytułkiem dla biednych żołnierzy stary człowiek siadł,</row>
+			<row important_over="false">Blask jego medali czas już dawno skradł</row>
+			<row important_over="false">I tylko o litość prosi w swej pieśni zimowy wiatr</row>
+			<row important_over="false">Dla bohaterów, o których zapomniał bezduszny świat.</row>
+		</block>
+		<blocklink blocknb="2"></blocklink>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done></done>
+		<verificators></verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

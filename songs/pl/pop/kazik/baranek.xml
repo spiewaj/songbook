@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Baranek">
+  <artist type="band">Kazik</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="A"/>Ach ci ludzie, to brudne świnie</row>
+      <row important_over="true"><ch a="d"/>Co napletli o mojej dziewczynie</row>
+      <row important_over="true"><ch a="A"/>Jakieś bzdury o jej nałogach</row>
+      <row important_over="true">No <ch a="d"/>to po prostu litość i trwoga</row>
+      <row important_over="true"><ch a="D"/>Tak to bywa, gdy ktoś zazdrości</row>
+      <row important_over="true"><ch a="g"/>Kiedy brak mu własnej miłości</row>
+      <row important_over="true"><ch a="A"/>Plotki płodzi, mnie nie zaszkodzi żadne <ch a="d"/>obce zło</row>
+      <row important_over="true"><ch a="A"/>Na mój sposób <ch a="d"/>widzieć ją</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
+      <row important_over="true">W <ch a="A"/>ręku zielony ba<ch a="d"/>dylek</row>
+      <row important_over="true"><ch a="g"/>A przed nią bieży ba<ch a="d"/>ranek</row>
+      <row important_over="true"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
+      <row important_over="true"><ch a="g"/>A przed nią bieży ba<ch a="d"/>ranek</row>
+      <row important_over="true"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Krzywdę robią mojej panience</row>
+      <row important_over="false"><ch a="d"/>Opluć chcą ją podli zboczeńcy</row>
+      <row important_over="false"><ch a="A"/>Utopić chcą ją w morzu zawiści</row>
+      <row important_over="false"><ch a="d"/>Paranoicy, podli sadyści</row>
+      <row important_over="false"><ch a="D"/>Utaplani w podłej rozpuście</row>
+      <row important_over="false">A <ch a="g"/>na gębach fałszywy uśmiech</row>
+      <row important_over="false"><ch a="A"/>Byle zagnać do swego <ch a="d"/>bagna, ale wara wam</row>
+      <row important_over="false"><ch a="A"/>Ja ją przecież <ch a="d"/>lepiej znam</row>
+      <row important_over="false"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Znów widzieli ją z jakimś chłopem</row>
+      <row important_over="false"><ch a="d"/>Znów wyjechała do St. Tropez</row>
+      <row important_over="false"><ch a="A"/>Znów męczyła się Boże drogi</row>
+      <row important_over="false"><ch a="d"/>Znów na jachtach myła podłogi</row>
+      <row important_over="false"><ch a="D"/>Tylko czemu ręce ma białe</row>
+      <row important_over="false"><ch a="g"/>Chciałem zapytać, zapomniałem</row>
+      <row important_over="false"><ch a="A"/>Ciało kłoniąc skinęła dłonią wsparła <ch a="d"/>skroń o skroń</row>
+      <row important_over="false"><ch a="A"/>Znów zapadłem w <ch a="d"/>nią jak w toń</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Ech dziewczyna pięknie się stara</row>
+      <row important_over="false"><ch a="d"/>Kosi pieniądz, ma Jaguara</row>
+      <row important_over="false"><ch a="A"/>Trudno pracę z miłością zgodzić</row>
+      <row important_over="false"><ch a="d"/>Rzadziej może do mnie przychodzić</row>
+      <row important_over="false"><ch a="D"/>Tylko pyta kryjąc rumieniec</row>
+      <row important_over="false"><ch a="g"/>Czemu patrzę jak potępieniec</row>
+      <row important_over="false"><ch a="A"/>Czemu zgrzytam, kiedy się <ch a="d"/>pyta czy ma ładny biust</row>
+      <row important_over="false"><ch a="A"/>Czemu toczę <ch a="d"/>pianę z ust</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

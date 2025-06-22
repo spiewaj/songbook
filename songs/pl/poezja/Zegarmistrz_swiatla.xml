@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zegarmistrz światła">
+  <alias/>
+  <text_author>Tadeusz Woźniak</text_author>
+  <comment>Tekst powtarza się cztery razy. Za pierwszym z rytmicznym szarpaniem strun, łagodnie, za drugim z mocnym biciem, ostrzej, za trzecim z tym samym biciem, ale wyżej - chwyty bez zmian, ale łapane barre, melodia podchodzi, za czwartym pierwsza część spowrotem nisko, biciem, potem w drugiej to samo szarpanie co na początku (wg nagrania z pierwszej kasety Krainy Łagodności)</comment>
+  <composer type="solo">Tadeusz Woźniak</composer>
+  <artist type="solo">Tadeusz Woźniak</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/> A kiedy przyjdzie także p<ch a="G"/>o mnie</row>
+      <row important_over="true"><ch a="D"/> Zegamistrz światła purpur<ch a="a"/>owy</row>
+      <row important_over="true"><ch a="C"/> By mi zabełtać błękit w gł<ch a="G"/>owie</row>
+      <row important_over="true"><ch a="D"/> To będę jasny i got<ch a="a"/>owy</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/> Spłyną przeze mnie dni na prz<ch a="G"/>estrzał</row>
+      <row important_over="false"><ch a="D"/> Zgasną podłogi i powi<ch a="a"/>etrza</row>
+      <row important_over="false"><ch a="C"/> Na wszystko jeszcze raz pop<ch a="G"/>atrzę</row>
+      <row important_over="false"><ch a="D"/> I pójdę nie wiem gdzie na z<ch a="a"/>awsze</row>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
+    <to_do/>
+  </status>
+</song>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Płonie ognisko i szumią knieje">
+	<artist type="solo"/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Płonie ognisko i szumią knieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="true">Drużynowy jest wśród nas<ch a="g"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="true">Opowiada starodawne dzieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="true">Bohaterski wskrzesza czas<ch a="g"/>g A<ch a="A7"/>7 d<ch a="d"/><ch a="C"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">O rycerstwie spod kresowych granic<ch a="F"/><ch a="C"/></row>
+			<row important_over="false">O obrońcach naszych polskich granic<ch a="g"/><ch a="A7"/><ch a="d"/><ch a="A7"/></row>
+			<row important_over="false">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="false">I dębowy huczy <ch a="A7"/>las<ch a="g"/><ch a="d"/><ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Już do odwrotu głos trąbki wzywa</row>
+			<row important_over="false">Alarmując ze wszech stron</row>
+			<row important_over="false">Wstaje wiara w ordynku szczęśliwa</row>
+			<row important_over="false">Serca biją zgodny ton</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Każda twarz się w uniesieniu płoni</row>
+			<row important_over="false">Każdy laskę krzepko dzierży w dłoni</row>
+			<row important_over="false">A z młodzieńczej się piersi wyrywa</row>
+			<row important_over="false">Pieśń potężna, pieśń jak dzwon.</row>
+		</block>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators/>
+		<done/>
+		<to_do/>
+	</status>
+	<keywords/>
+	<alias/>
+	<text_author type="solo"/>
+	<composer type="solo"/>
+	<music_source/>
+	<original_title/>
+	<translator/>
+	<album/>
+	<genre/>
+	<comment/>
+</song>

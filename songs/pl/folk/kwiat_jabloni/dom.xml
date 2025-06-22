@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dom">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer>Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Znowu zamykam drzwi</row>
+      <row important_over="true"><ch a="d"/>Na noc przekręcam czwarty<ch a="F"/> spust</row>
+      <row important_over="true"><ch a="d"/>Zasłaniam okna by</row>
+      <row important_over="true"><ch a="d"/>Nikt nie zobaczył drżących<ch a="F"/> ust</row>
+      <row important_over="true"><ch a="d"/>Szczelin i pęknięć brak</row>
+      <row important_over="true"><ch a="d"/>Pozamykany szczelnie d<ch a="F"/>om</row>
+      <row important_over="true"><ch a="d"/>Na zewnątrz wszystko gra</row>
+      <row important_over="true"><ch a="d"/>A w środku nie wiadomo c<ch a="F"/>o</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Odkąd pamię<ch a="B"/>tam</row>
+      <row important_over="true">Meble spada<ch a="C"/>ją i trzęsie się d<ch a="d"/>ach</row>
+      <row important_over="true">Przed domem sp<ch a="B"/>okój</row>
+      <row important_over="true">Aż sły<ch a="C"/>chać najlżejszy wia<ch a="d"/>tr</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Nie umiem w<ch a="B"/>yjść</row>
+      <row important_over="true">Żeby st<ch a="d"/>anąć przy to<ch a="F"/>bie</row>
+      <row important_over="true">Mijają<ch a="B"/> dni</row>
+      <row important_over="true">Znowu ni<ch a="d"/>c ci nie po<ch a="F"/>wiem</row>
+      <row important_over="true">Znów mi się śni<ch a="B"/>sz</row>
+      <row important_over="true">Bliżej ni<ch a="d"/>e mogę po<ch a="F"/>dejść</row>
+      <row important_over="true">Czy starczy mi l<ch a="C"/>at</row>
+      <row important_over="true">Żeby po<ch a="B"/>zbyć się ści<ch a="d"/>an? </row>
+      <row important_over="false" style="instr"> </row>
+      <row important_over="false" style="instr"> </row>
+      <row important_over="false" style="instr"> </row>
+      <row important_over="false">Czy starczy mi l<ch a="C"/>at</row>
+      <row important_over="false">żeby p<ch a="B"/>ozbyć się śc<ch a="d"/>ian </row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Spędzam kolejny dzień</row>
+      <row important_over="false"><ch a="d"/>W tym domu bez pękniętych <ch a="F"/>ścian</row>
+      <row important_over="false"><ch a="d"/>Zamknięte okna, drzwi</row>
+      <row important_over="false"><ch a="d"/>Dostać się do mnie nie ma j<ch a="F"/>ak</row>
+      <row important_over="false"><ch a="d"/>Sam nie wiem jak mam wyjść</row>
+      <row important_over="false"><ch a="d"/>Nie tylko szyby są ze <ch a="F"/>szkła</row>
+      <row important_over="false"><ch a="d"/>Jak mam się ruszyć gdy</row>
+      <row important_over="false"><ch a="d"/>Nie widzę granic moic<ch a="F"/>h ram</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Odkąd pamię<ch a="B"/>tam</row>
+      <row important_over="false">Meble spada<ch a="C"/>ją i trzęsie się d<ch a="d"/>ach</row>
+      <row important_over="false">Przed domem sp<ch a="B"/>okój</row>
+      <row important_over="false">Aż sły<ch a="C"/>chać najlżejszy wia<ch a="d"/>tr</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false" style="instr"> </row>
+      <row important_over="false"> <ch a="g"/>Płomienie trawią od środka d<ch a="B"/>om</row>
+      <row important_over="false"><ch a="F"/>Pożar wybucha we mnie co n<ch a="C"/>oc</row>
+      <row important_over="false"><ch a="g"/>Chcę powiedzieć wszystko, lecz brakuje sł<ch a="B"/>ów</row>
+      <row important_over="false">Za m<ch a="F"/>ało lat, za mało lat, za mał<ch a="C"/>o</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <album>Pokaz Slajdów</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

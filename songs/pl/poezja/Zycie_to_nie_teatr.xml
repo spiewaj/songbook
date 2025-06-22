@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Życie to nie teatr">
+  <text_author type="solo">Edward Stachura</text_author>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Życie to jest teatr, <ch a="E"/>mówisz ciągle, opowiadasz;</row>
+      <row important_over="false"><ch a="E7"/>Maski coraz inne, <ch a="a"/>coraz mylne się zakłada;</row>
+      <row important_over="false"><ch a="F"/>Wszystko to zabawa. <ch a="G"/><ch a="C"/>Wszystko to jest jedna gra<ch a="a"/></row>
+      <row important_over="false"><ch a="E"/>Przy otwartych i zamkniętych<ch a="E7"/><ch a="a"/> drzwiach.</row>
+      <row important_over="false"><ch a="G"/>To jest gra!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Życie to nie teatr, <ch a="E"/>ja ci na to odpowiadam</row>
+      <row important_over="false"><ch a="E7"/>Życie to nie tylko <ch a="a"/>kolorowa maskarada;</row>
+      <row important_over="false"><ch a="F"/>Życie jest straszniejsze<ch a="G"/><ch a="C"/>i piękniejsze jeszcze jest<ch a="a"/>;</row>
+      <row important_over="false"><ch a="E"/>Wszystko przy nim blednie<ch a="E7"/>, <ch a="a"/>blednie nawet sama śmierć!<ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never"><ch a="F"/>Ty i ja teatry to są dwa! Ty i ja!<ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never"><ch a="a"/>Ty - ty prawdziwej nie uronisz łzy.<ch a="E"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="never"><ch a="F"/>Ty najwyżej w górę wznosisz brwi.</row>
+      <row important_over="never"><ch a="G"/>Nawet kiedy źle Ci jest, to nie jest źle.<ch a="C"/></row>
+      <row important_over="never">Ja - duszę na ramieniu ciągle mam.</row>
+      <row important_over="never">Cały zbudowany jestem z ran.</row>
+      <row important_over="never">Lecz kaleka nie ja jestem, tylko ty!</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Dzisiaj bankiet u artystów, <ch a="E"/>Ty się tam wybierasz;</row>
+      <row important_over="true"><ch a="E7"/>Gości będzie dużo, <ch a="a"/>niedostępna tylariera;</row>
+      <row important_over="true"><ch a="F"/>Tańce alkohole<ch a="G"/>, <ch a="C"/>pewnie flirty będą też,<ch a="a"/></row>
+      <row important_over="true"><ch a="E"/>Drzwi otwarte zamkną, <ch a="E7"/><ch a="a"/>potem się.</row>
+      <row important_over="true">No i cześć!<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Wpadnę tam na chwilę, <ch a="E"/>zanim spuchnie atmosfera;</row>
+      <row important_over="false"><ch a="E7"/>Wódki dwie wypiję, <ch a="a"/>otem szybko sie pozbieram;</row>
+      <row important_over="false"><ch a="F"/>Wyjdę na ulicę<ch a="G"/>, <ch a="C"/>przy fontannie zmoczę łeb;<ch a="a"/></row>
+      <row important_over="false"><ch a="E"/>Wyjdę na przestworza<ch a="E7"/>, <ch a="a"/>przecudowny stworzę wiersz.<ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never"><ch a="F"/>Ty i ja - teatry to są dwa. Ty i ja!<ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never"><ch a="a"/>Ty - ty prawdziwej nie uronisz łzy.<ch a="E"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="never"><ch a="F"/>Ty - najwyżej w górę wznosisz brwi.</row>
+      <row important_over="never"><ch a="G"/>Lecz nie zaraźliwy jest twój śmiech.<ch a="C"/></row>
+      <row important_over="never"><ch a="G"/>Bo ty grasz!</row>
+      <row important_over="false">Ja - duszę na ramieniu wiecznie mam.</row>
+      <row important_over="false">Cały jestem zbudowany z ran.</row>
+      <row important_over="false">Lecz gdy śmieje się, to wkrąg się śmieje świat!</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

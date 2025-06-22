@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Niepokój">
+	<alias></alias>
+	<text_author type="solo">Józef Baran</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">M<ch a="d"/>osty które pod osł<ch a="B"/>oną nocy</row>
+			<row important_over="true">Przerzuc<ch a="A7"/>iliśmy do siebie</row>
+			<row important_over="true">Por<ch a="B"/>ywa <ch a="A7"/>świt</row>
+			<row important_over="true">Trwa p<ch a="d"/>otop jutrzenki po <ch a="B"/>obu brzegach</row>
+			<row important_over="true">Bezr<ch a="A7"/>adnie biegamy</row>
+			<row important_over="true">R<ch a="B"/>ęce do siebie wyciąg<ch a="A7"/>amy</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Tw<ch a="B"/>oje <ch a="A7"/>oczy</row>
+			<row important_over="true">Rozw<ch a="d"/>arte szeroko rozstaniem</row>
+			<row important_over="true">Oddal<ch a="B"/>ają si<ch a="A7"/>ę i s<ch a="d"/>erce za nimi podąża</row>
+			<row important_over="true">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę r<ch a="d"/>az po raz za siebie</row>
+			<row important_over="true">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę za si<ch a="d"/>ebie</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Prz<ch a="d"/>ez niebo przebiega dr<ch a="B"/>eszcz niepokoju</row>
+			<row important_over="false">Rozstępuj<ch a="A7"/>e się świat</row>
+			<row important_over="false">Na dwi<ch a="B"/>e p<ch a="A7"/>ołowy</row>
+			<row important_over="false">I cor<ch a="d"/>az mniejsza st<ch a="B"/>aje się</row>
+			<row important_over="false">Włos<ch a="A7"/>ów chmura</row>
+			<row important_over="false">K<ch a="B"/>asztan<ch a="A7"/>owa</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">I tw<ch a="d"/>oja ręka wyrw<ch a="B"/>ana z mojej</row>
+			<row important_over="false">Do st<ch a="A7"/>acji</row>
+			<row important_over="false">Zbliż<ch a="B"/>ają s<ch a="A7"/>ię</row>
+			<row important_over="false">Robotn<ch a="d"/>icy dnia powsz<ch a="B"/>edniego</row>
+			<row important_over="false">O twarz<ch a="A7"/>ach przeraźliwie</row>
+			<row important_over="false">Trz<ch a="B"/>eźw<ch a="H7"/>ych</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="2"/>
+	</music>
+	<status>
+		<verificators><verificator>Kasia Kowalska</verificator><verificator>Onufry</verificator><verificator>Krzysiek Cz.</verificator>
+			
+			
+			
+		</verificators>
+		<to_do>Drobne poprawki, dodałem kasetę.</to_do>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album>Makatki</album>
+	<genre>Poezja śpiewana</genre>
+</song>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tawerna pod pijaną zgrają">
+	<artist type="solo">Grzegorz Bukała</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Kiedy niebo do morza przytula się z płaczem<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Licho sosny garbate do reszty wykrzywia<ch a="C"/><ch a="E0"/><ch a="d7"/><ch a="G"/></row>
+			<row important_over="false">Brzegiem morza wędrują bezdomni tułacze<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">I nikt nie wie skąd idą, jaki wiatr ich przywiał<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Do tawerny ,,Pod pijaną zgrają''<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Do tańczących, rozhukanych ścian<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+			<row important_over="false">I do dziewcząt, które serca<ch a="F"/><ch a="G"/></row>
+			<row important_over="false">Za złamany grosz oddają<ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Nie pytając, czy kto kiep, czy drań.<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Kiedy wiatry noc chmurną przegonią za wodę,<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Gdy pół--słońce pół nieba, pół morza rozpali,<ch a="C"/><ch a="E0"/><ch a="d7"/><ch a="G"/></row>
+			<row important_over="false">Opuszczają wędrowcy uśpioną gospodę,<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Z pierwszą bryzą znikają w pomarszczonej dali.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">A w tawernie ,,Pod pijaną zgrają''<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Spływa smutek z okopconych ścian,<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+			<row important_over="false">A dziewczyny z pół--grosików<ch a="F"/><ch a="G"/></row>
+			<row important_over="false">Amulety układają<ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Na kochanie, na tęsknotę i na żal.<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Kiedy chandra jesienna jak mgła cię otoczy,<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Kiedy wszystko postawisz na kartę przegraną,<ch a="C"/><ch a="E0"/><ch a="d7"/><ch a="G"/></row>
+			<row important_over="false">Zamiast siedzieć bezczynnie i płakać lub psioczyć<ch a="C"/><ch a="E"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Weź węzełek na plecy, ruszaj w świat w nieznane.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Do tawerny ,,Pod pijaną zgrają''<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+				<row important_over="false">Do tańczących, rozhukanych ścian<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+				<row important_over="false">I do dziewcząt, które serca<ch a="F"/><ch a="G"/></row>
+				<row important_over="false">Za złamany grosz oddają<ch a="C"/><ch a="a"/></row>
+				<row important_over="false">Nie pytając, czyś ty kiep, czy drań<ch a="F"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+			</bis>
+			<row important_over="false">Nie pytają, czyś ty kiep, czy drań</row>
+			<row important_over="false">Nie pytają, czyś ty kiep</row>
+		</block>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Alek</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+		</done>
+		<to_do>Zgonde z nagraniem — Alek</to_do>
+	</status>
+	<keywords/>
+	<alias/>
+	<text_author type="solo">Grzegorz Bukała</text_author>
+	<composer type="solo">Grzegorz Bukała</composer>
+	<music_source/>
+	<original_title/>
+	<translator/>
+	<album/>
+	<genre/>
+	<comment/>
+</song>

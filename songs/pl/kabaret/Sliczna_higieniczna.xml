@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śliczna higieniczna">
+  <text_author type="solo">Agnieszka Osiecka</text_author>
+  <composer type="solo">Wiesław Tupaczewski</composer>
+  <artist type="solo">Maryla Rodowicz</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jestem śliczna higieniczna</row>
+      <row important_over="false"><ch a="a"/>Przy tym silna niczym tur</row>
+      <row important_over="false"><ch a="a"/>Rozkochuję w sobie chłopców</row>
+      <row important_over="false"><ch a="a"/>Za mną poszliby pod mur</row>
+      <row important_over="false"><ch a="d"/>Bo ja jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak chłopięcy chór<ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak chłopięcy chór<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Duża jestem ociupinkę</row>
+      <row important_over="false"><ch a="a"/>Zgrabna chyba nawet też</row>
+      <row important_over="false"><ch a="a"/>Gdy wychodzę na ulicę</row>
+      <row important_over="false"><ch a="a"/>Chłopcom wnet zapiera dech</row>
+      <row important_over="false"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak ludowy wiec<ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak ludowy wiec<ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="d"/>A ja mam w sobie coś takiego<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Co nie daje spać kolegom</row>
+      <row important_over="false"><ch a="d"/>Może oczy może usta<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Może także jestem szczupła</row>
+      <row important_over="false"><ch a="d"/>Może moja dobroć ufność<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>To że czasem jestem smutna</row>
+      <row important_over="false"><ch a="d"/>Chyba to nie daje chłopcom spać<ch a="E"/></row>
+      <row important_over="false"><ch a="d"/>Ja mam w sobie coś takiego<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Co nie daje jeść kolegom</row>
+      <row important_over="false"><ch a="d"/>Może dłonie może nogi<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Może mój zmęczony profil</row>
+      <row important_over="false"><ch a="d"/>Może moja duma radość<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Może niecodzienna bladość</row>
+      <row important_over="false"><ch a="d"/>Chyba to nie daje chłopcom jeść<ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jeden biedak na mój widok</row>
+      <row important_over="false"><ch a="a"/>Oddał swój ostatni kęs</row>
+      <row important_over="false"><ch a="a"/>Drugi merdał wręcz ogonem</row>
+      <row important_over="false"><ch a="a"/>Niczym wygłodniały pies</row>
+      <row important_over="false"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak hutniczy piec<ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak hutniczy piec<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nienawidzą mnie dziewczęta</row>
+      <row important_over="false"><ch a="a"/>Za mą niedościgłą twarz</row>
+      <row important_over="false"><ch a="a"/>Każdy ją zapamiętuje</row>
+      <row important_over="false"><ch a="a"/>Choćby widział tylko raz</row>
+      <row important_over="false"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak taki tralabam<ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Jak taki tralabam<ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Bo ja mam w sobie coś takiego<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Co nie daje żyć kolegom</row>
+      <row important_over="false"><ch a="d"/>Jestem śliczna higieniczna<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Przy okazji sympatyczna</row>
+      <row important_over="false"><ch a="d"/>Jestem sprytna i wybitna<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Fantastyczna i ambitna</row>
+      <row important_over="false"><ch a="d"/>Więc czemu mnie<ch a="E"/></row>
+      <row important_over="false"><ch a="E"/>Na miss polonia nie</row>
+      <row important_over="false"><ch a="d"/>Na miss polonia nie chcą<ch a="E"/></row>
+      <row important_over="false"><ch a="E"/>Wybrać mnie?<ch a="a"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Absolutnie nic (1991)</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

@@ -1,0 +1,5 @@
+OAUTH_CLIENT_ID: "Ov23limEOGsQjSBFRMCv"
+BASE_URL: "https://ghe.spiewaj.com"
+EDITOR_DOMAIN: "https://spiewaj.com"
+PARENT_DOMAIN: "spiewaj.com"
+EDITOR_PATH: "/editor"

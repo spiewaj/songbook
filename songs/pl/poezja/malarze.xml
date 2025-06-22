@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Malarze" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Andrzej Drawicz</translator>
+	<original_title>Żywopiscy</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Hej, mal<ch a="e"/>arze, nuże p<ch a="H7"/>ędzle zanurz<ch a="e"/>ajcie</row>
+			<row important_over="false">W zorze mi<ch a="e"/>asta o wiecz<ch a="H7"/>orze, w nasze dz<ch a="e"/>iś.</row>
+			<bis times="2">
+				<row important_over="true">Niech powt<ch a="Fis"/>órzą gwar podw<ch a="H7"/>órek na Arb<ch a="e"/>acie</row>
+				<row important_over="false">Wasze p<ch a="Fis"/>ędzle jak jesi<ch a="H7"/>enny lotny l<ch a="e"/>iść.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zanurz<ch a="e"/>ajcie, kładźcie f<ch a="H7"/>arby jak się p<ch a="e"/>atrzy,</row>
+			<row important_over="false">Kładźcie bł<ch a="e"/>ękit, kładźcie r<ch a="H7"/>azem blask i ci<ch a="e"/>eń.</row>
+			<bis times="2">
+				<row important_over="false">Namal<ch a="Fis"/>ujcie i z zap<ch a="H7"/>ałem, i z symp<ch a="e"/>atią,</row>
+				<row important_over="false">Jak z symp<ch a="Fis"/>atią przechadz<ch a="H7"/>amy się dzień w dzi<ch a="e"/>eń.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niech zatł<ch a="e"/>oczą się ul<ch a="H7"/>ice rozbudz<ch a="e"/>one!</row>
+			<row important_over="false">Niech się z<ch a="e"/>acznie, niech się z<ch a="H7"/>iści to, co chc<ch a="e"/>e!</row>
+			<bis times="2">
+				<row important_over="false">Wy mal<ch a="Fis"/>ujcie, wszystko b<ch a="H7"/>ędzie policz<ch a="e"/>one.</row>
+				<row important_over="false">Nie będzi<ch a="Fis"/>emy zgadyw<ch a="H7"/>ali: dobrze? źl<ch a="e"/>e?</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Przesądz<ch a="e"/>ajcie nasze l<ch a="H7"/>osy jak sędzi<ch a="e"/>owie,</row>
+			<row important_over="false">Pokoszt<ch a="e"/>ować nam przyszł<ch a="H7"/>ości dajcie k<ch a="e"/>ęs.</row>
+			<bis times="2">
+				<row important_over="false">Choć nie zn<ch a="Fis"/>amy się, mal<ch a="H7"/>ujcie nas na zdr<ch a="e"/>owie,</row>
+				<row important_over="false">A ja t<ch a="Fis"/>ym, co nie pojm<ch a="H7"/>ują, wskażę s<ch a="e"/>ens!</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

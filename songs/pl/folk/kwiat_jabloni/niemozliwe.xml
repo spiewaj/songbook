@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Niemożliwe ">
+  <text_author type="solo">Kasia Sienkiewicz</text_author>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="h"/> Tłum ludzi biegnie <ch a="Asus2"/>przez mój p<ch a="E"/>okój</row>
+      <row important_over="true"><ch a="h"/>Każdy chce powiedzi<ch a="Asus2"/>eć to co do<ch a="E"/>skonale wiem</row>
+      <row important_over="true"><ch a="h"/>A przecież miał być<ch a="Asus2"/>, miał być <ch a="E"/>spokój</row>
+      <row important_over="true"><ch a="h"/>Chwila głuchej cisz<ch a="Asus2"/>y, twardy s<ch a="E"/>en</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Niemożliwe n<ch a="E"/>am się dos<ch a="Asus2"/>tało</row>
+      <row important_over="true">N<ch a="h"/>ie ma powodów do <ch a="Asus2"/>łez<ch a="E"/> </row>
+      <row important_over="true"><ch a="h"/>A każdy mówi,<ch a="E"/> że m<ch a="Asus2"/>ało</row>
+      <row important_over="true">m<ch a="h"/>usisz więcej niż ch<ch a="Asus2"/>ces<ch a="E"/>z</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Zabierają rzeczy <ch a="Asus2"/>i wynoszą<ch a="E"/> łóżko</row>
+      <row important_over="false"><ch a="h"/>Okna ani ściany nie <ch a="Asus2"/>są teraz<ch a="E"/> moje</row>
+      <row important_over="false"><ch a="h"/>Wciąż nie widzę końca, a<ch a="Asus2"/>le mówią mi że już niedługo</row>
+      <row important_over="false"><ch a="h"/>I że przyszli tylko p<ch a="Asus2"/>o to by za chwilę <ch a="E"/>odejść</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Gd<ch a="h"/>zie jestem, <ch a="Asus2"/>nie wiem</row>
+      <row important_over="false">Wyciągam ręce przed <ch a="E"/>siebie</row>
+      <row important_over="false">G<ch a="h"/>dzie jestem, <ch a="Asus2"/>nie wiem wyciągam ręce do<ch a="E"/> ciebie</row>
+      <row important_over="false">G<ch a="h"/>dzie jestem,<ch a="Asus2"/> nie wiem</row>
+      <row important_over="false">Wyciągam ręce przed <ch a="E"/>siebie</row>
+      <row important_over="false">G<ch a="h"/>dzie jestem, <ch a="fis"/>nie wiem<ch a="Asus2"/> wyciągam ręce do<ch a="E"/> ciebie</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

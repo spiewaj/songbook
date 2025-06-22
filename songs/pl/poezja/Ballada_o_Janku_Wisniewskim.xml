@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o Janku Wiśniewskim">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Chłopcy z Grabówka, chłopcy z Chylonii<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Dzisiaj milicja użyła broni<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>Dzielnieśmy stali, celnie rzucali<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Na drzwiach ponieśli go Świętojańską<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Naprzeciw glinom, naprzeciw tankom<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>Chłopcy stoczniowcy, pomścijcie druha<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Huczą petardy, ścielą się gazy<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Na robotników sypią się razy<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>Padają dzieci, starcy, kobiety<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jeden zraniony, drugi zabity<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Krew się polała grudniowym świtem<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>To partia strzela do robotników<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Stoczniowcy Gdyni, stoczniowcy Gdańska<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Idźcie do domu, skończona walka<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>Świat się dowiedział, nic nie powiedział<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Nie płaczcie matki to nie na darmo<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nad stocznią sztandar z czarną kokardą<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="G"/>Za chleb i wolność i nową Polskę<ch a="C"/></row>
+      <row important_over="false"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

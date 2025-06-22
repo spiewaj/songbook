@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czasem nagle smutniejesz">
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Cza<ch a="d"/>sem nagle smutn<ch a="B"/>iejesz<ch a="C"/></row>
+			<row important_over="true">To ja<ch a="A"/>kby dn<ch a="g"/>ia ub<ch a="A"/>ywa</row>
+			<row important_over="true">I nie<ch a="B"/> wiem jak ci p<ch a="g"/>omóc</row>
+			<row important_over="true">Więc t<ch a="A"/>ylko proszę w<ch a="A7"/>ybacz</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Cz<ch a="d"/>asem łzy w twoich oczach</row>
+			<row important_over="true">Na kr<ch a="B"/>ótką chwilę goszczą</row>
+			<row important_over="true">I ni<ch a="g"/>e wiem czy coś mówić</row>
+			<row important_over="true">I na<ch a="A"/>wet nie wiem po co<ch a="A7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="d"/>Puszczam więc wte<ch a="B"/>dy lat<ch a="C"/>awce</row>
+			<row important_over="false">
+				<ch a="A"/>Ze śmiechu m<ch a="g"/>ego śmi<ch a="A"/>eszne</row>
+			<row important_over="false">
+				<ch a="B"/>I znowu dnia prz<ch a="g"/>ybywa</row>
+			<row important_over="false">Pow<ch a="A"/>ietrze staje się lż<ch a="A7"/>ejsze</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I lż<ch a="d"/>ejsza staje się wędrówka</row>
+			<row important_over="false">Z plec<ch a="B"/>akiem wciąż coraz cięższym</row>
+			<row important_over="false">Nad do<ch a="g"/>mem przysiadła tęcza</row>
+			<row important_over="false">Na ni<ch a="A"/>eba niebieskiej gałęzi<ch a="A7"/></row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Taboret wg. Onufrego</verificator><verificator>Alek</verificator>
+		</verificators>
+		<to_do/>
+		<done>
+			<authors/>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

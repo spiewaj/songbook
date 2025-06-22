@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka turystyczna 3">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Świt za oknem budzi ptaki</row>
+      <row important_over="false"><ch a="G"/>Od butelki wionie nudą<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Chyba pójdę się położyć</row>
+      <row important_over="false"><ch a="D"/>Albo zbudzę tamtą rudą<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>To wygląda na końcówę<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Wszyscy dawno się pospali<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Trzeba będzie coś z tym zrobić<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Nie ma nawet co zapalić<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
+      <row important_over="false"><ch a="F"/>Jeszcze jedna flaszka<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>To najlepszy na zmartwienia sposób<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Jaki znam<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
+      <row important_over="false"><ch a="F"/>Znowu świt nas zastał<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Nad butelką której nie możemy już<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Trzeci raz na trzecim roku</row>
+      <row important_over="false"><ch a="G"/>I to nawet nie na pewno<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Starzy nie chcą na mnie łożyć</row>
+      <row important_over="false"><ch a="D"/>Nie wiem sam co będzie ze mną<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Jak o wszystkim się dowiedzą<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Wydziedziczą mnie napewno<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Wojsko już się o mnie pyta<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Zresztą jest mi wszystko jedno<ch a="G"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wszyscy kumple siedzą w górach</row>
+      <row important_over="false"><ch a="G"/>Jedzą piją lulki palą<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Ja się czasem zjawiam w szkole</row>
+      <row important_over="false"><ch a="D"/>Chyba w końcu mnie wywalą<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Nie układa się z kobitą<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Tak naprawdę już po wszystkim<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Załapałem klimat końca<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Chyba czas żebyśmy wyszli<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
+      <row important_over="false"><ch a="F"/>Jeszcze jedna flaszka<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>To najlepszy na zmartwienia sposób<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Jaki znam<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
+      <row important_over="false"><ch a="F"/>Znowu świt nas zastał<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Nad butelką której nie możemy już<ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="A"/>Aaa…</row>
+      <row important_over="false"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="A"/>Aaa…</row>
+      <row important_over="false"><ch a="F"/>Wypić do dna uuu…<ch a="G"/><ch a="F"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

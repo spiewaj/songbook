@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wodymidaj">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Wrzuceni są w świat</row>
+      <row important_over="true"><ch a="d"/>I wrzuceni są w siebie</row>
+      <row important_over="true"><ch a="F"/>Ooo<ch a="C"/>o wszyscy pod <ch a="d"/>niebem</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Czy będziesz żył tak jak pan</row>
+      <row important_over="false"><ch a="d"/>Lub gdzieś pod płotem i sam</row>
+      <row important_over="false"><ch a="F"/>Ooo<ch a="C"/>o tego<ch a="d"/> nie wiesz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Czy będziesz żył pośród gór</row>
+      <row important_over="false"><ch a="d"/>Czy może miast wielkich mur zasłoni</row>
+      <row important_over="false"><ch a="F"/>Je<ch a="C"/>ee wrzuceni w<ch a="d"/> siebie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Jak wielki pożar jest świat</row>
+      <row important_over="false"><ch a="d"/>Co wiecznie trawić się ma</row>
+      <row important_over="false">Od nieb<ch a="F"/>a <ch a="C"/>aż aż <ch a="d"/>po ziemię</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Więc przez <ch a="B"/>płonący <ch a="C"/>las przeprowadź <ch a="d"/>mnie</row>
+      <row important_over="true">Niech z nieba s<ch a="B"/>padnie n<ch a="C"/>a mnie wielki d<ch a="d"/>eszcz</row>
+      <row important_over="true">I przez <ch a="B"/>płonący <ch a="C"/>las przeprowadź <ch a="d"/>mnie</row>
+      <row important_over="true">Jak wielka <ch a="B"/>rzeka <ch a="C"/>wpłyń, uratuj <ch a="d"/>mnie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>I wciąż poznają ten świat</row>
+      <row important_over="false"><ch a="d"/>Poznają gwiazdy i ziemię</row>
+      <row important_over="false"><ch a="F"/>Oo<ch a="C"/>oo wszyscy po<ch a="d"/>d niebem</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Czy poznasz świat lejąc łzy</row>
+      <row important_over="false"><ch a="d"/>Lub w zgodzie z nim będziesz żyć</row>
+      <row important_over="false"><ch a="F"/>Za<ch a="C"/>leży tylko od cie<ch a="d"/>bie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Czy będziesz stąpać po dnie</row>
+      <row important_over="false"><ch a="d"/>Lub z głową w chmurach we śnie</row>
+      <row important_over="false"><ch a="F"/>Aa<ch a="C"/>aaa Wrzuceni <ch a="d"/>w siebie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Choć wiecznie płonie ten świat</row>
+      <row important_over="false"><ch a="d"/>To w sercu wierzę, że ja</row>
+      <row important_over="false"><ch a="F"/>Aa<ch a="C"/>aaa Już się n<ch a="d"/>ie zmienię</row>
+    </block>
+    <blocklink blocknb="5"/>
+    <blocklink blocknb="5"/>
+    <block type="other">
+      <row important_over="false"><ch a="d"/>Wody mi daj, wody mi daj</row>
+      <row important_over="false"><ch a="d"/>Wody mi daj, wody mi daj</row>
+      <row important_over="false"><ch a="F"/>Wody mi daj, wody mi daj</row>
+      <bis times="5">
+        <row important_over="false"><ch a="g"/>Wody mi daj, wody mi daj</row>
+      </bis>
+    </block>
+    <blocklink blocknb="5"/>
+  </lyric>
+  <keywords/>
+  <album>niemożliwe</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

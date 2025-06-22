@@ -4,6 +4,11 @@
 
 \RequirePackage{conditionals}
 \RequirePackage{ifthen}
+\RequirePackage{xstring}
+\RequirePackage{booktabs}
+\RequirePackage{array}
+\RequirePackage{pbox}
+\RequirePackage{varwidth} % must be loaded after array
 
 \newcommand{\theSongTitle}{}
 \newcommand{\theSongLyricist}{}
@@ -15,14 +20,15 @@
 
 \newboolean{PrintChordsOn}
 \newboolean{PrintChordsBehind}
+\newboolean{PrintSongNum}
 
 \newcommand{\ChBassFont}{\normalsize\bf\sf}     % = cmss12 at 12.0pt
 \newcommand{\SBChordRaise}       {2.25ex}
-\newcommand{\ChFontOn}{\scriptsize\fontfamily{\sfdefault}
+\newcommand{\ChFontOn}{\scriptsize\fontfamily{\sfdefault}%
   \fontseries{sbc}\fontshape{n}\selectfont}     %=cmssbc12 at 14.4pt
-\newcommand{\ChFontBh}{\fontfamily{\sfdefault}
+\newcommand{\ChFontBh}{\fontfamily{\sfdefault}%
   \fontseries{sbc}\fontshape{n}\selectfont}     %=cmssbc12 at 14.4pt
-\newcommand{\ChBkFont}{\ChFont\fontseries{m}
+\newcommand{\ChBkFont}{\ChFont\fontseries{m}%
   \selectfont}                                  % =cmssm12 at 14.4pt
 
 \newcommand{\bis}{\vrule}
@@ -67,108 +73,132 @@
     \setbox1=\hbox{\ChFontOn\sbChord{#1}\relax\strut}%
     \setbox0=\hbox{#2}%
     \ifdim\wd1<\wd0%
-      \strut\raise\SBChordRaise\copy1\kern-\wd1\copy0%
+      \strut\raise\SBChordRaise\copy1\kern-\wd1{#2}%
     \else%
-      \strut\copy0\kern-\wd0\strut\raise\SBChordRaise\copy1%
+      \strut{#2}\kern-\wd0\strut\raise\SBChordRaise\copy1%
     \fi%
   }{#2}%
  }%
 
-\newcommand{\ChordsBehind}[1]{
-   \ifthenelse{\boolean{PrintChordsBehind}}{
-     \if\blank{#1}{}\else{%\hskip 0.1cm 
-     \ChFontBh #1}\fi
-   }{
-   }
+\newcommand{\ChordsBehind}[1]{%
+\ifthenelse{\boolean{PrintChordsBehind}}{%
+\if\blank{#1}{}\else{%\hskip 0.1cm
+\ChFontBh #1}\fi%
+}{%
+}%
 }
-
 
 \newcommand{\AAndCAndA}[3]{%
-   \vbox{%
-   \begin{flushleft}%
-   \small%
-       \if\blank{#1}{}\else{\textbf{Słowa:}\ #1 \\}\fi%
-       \if\blank{#2}{}\else{\textbf{Muzyka:}\ #2 \\}\fi%
-       \if\blank{#3}{}\else{\textbf{Wykonawca:}\ #3 \\}\fi%
-   \end{flushleft}%\\
-   }%
-}
+  {\IfStrEq{#1#2#3}{}{}{%not empty
+    \IfStrEq{#1}{#2}{%
+        \IfStrEq{#2}{#3}{\textbf{Słowa, muzyka i wykonanie:}\ #1}{%
+            \IfStrEq{#1}{}{}{\textbf{Słowa i muzyka:}\ #1 \IfStrEq{#3}{}{}{\\}}%
+            \IfStrEq{#3}{}{}{\textbf{Wykonawca:}\ #3}%
+        }%
+    }{%
+       \if\blank{#1}{}\else{\textbf{Słowa:}\ #1 \IfStrEq{#2#3}{}{}{\\}}\fi%
+       \if\blank{#2}{}\else{\textbf{Muzyka:}\ #2 \IfStrEq{#3}{}{}{\\}}\fi%
+       \if\blank{#3}{}\else{\textbf{Wykonawca:}\ #3}\fi%
+    }%
+  }%
+  }%
+}%
+
+\newcommand{\AAndCAndAAndMusic}[5]{%
+  \small %
+  \begin{tabular}{rl}
+      \parbox[t][][t]{0.75\textwidth}{\AAndCAndA{#1}{#2}{#3}} &
+      \parbox[t][][t]{8em}{
+        \IfStrEq{#4}{}{}{\raggedright\textbf{Kapodaster:}\ #4 \hfill \\}
+        \IfStrEq{#5}{}{}{\raggedright\textbf{Metrum:}\ \hfill #5}
+      } \\
+  \end{tabular}%
+}%
 
 \newcommand{\STitle}[1]{%
-   \vbox{%
-   \begin{center}%
-    {\LARGE{\theSongCnt{}.\ {\bf #1}}\\}%
-   \end{center}    %
-  }%
+  {\LARGE\centering%
+    {\ifthenelse{\boolean{PrintSongNum}}{\theSongCnt{}.\ }{}{\bf #1\\}}}%
+}%
+
+%The macto \firstof returns the first letter (and works with UTF-8 chars).
+\makeatletter
+\newcommand{\firstof}[1]{\expandafter\checkfirst#1\@nil}
+\def\checkfirst#1{%
+    \ifx\UTFviii@two@octets#1%
+    \expandafter\gettwooctets
+    \else
+        \expandafter\@car\expandafter#1%
+    \fi
+}
+\def\gettwooctets#1#2#3\@nil{\UTFviii@two@octets#1#2}
+
+
+\newenvironment{song}[8]{%
+  \fancyhead[LE,RO]{\truncate{0.5\headwidth}{#1}}%
+  \setcounter{VerseCnt}{0}%
+  \renewcommand{\theSongTitle}{#1}%
+  \renewcommand{\theSongLyricist}{#2}%
+  \renewcommand{\theSongComposer}{#3}%
+  \renewcommand{\theSongArtist}{#4}%
+  \renewcommand{\theLetter}{\firstof{#1}}%
+  % #7 - alias  #8- genre
+  \addtocounter{SongCnt}{1}%
+  \IfStrEq{#4}{}{}{\index[wyk]{#4!#1}}
+  \index[aliases]{#1}
+  \IfStrEq{#8}{}{}{\index[aliases]{#8!#1}}
+  \IfStrEq{#7}{}{}{\index[genre]{\makefirstuc{#7}!{#1}}}
+  \addcontentsline{toc}{section}{\theSongCnt{}. #1}%
+%  \addcontentsline{toc}{section}{alias title}
+  \STitle{\theSongTitle}%
+  \vspace{5pt plus 5pt minus 5pt}%
+  \AAndCAndAAndMusic{#2}{#3}{#4}{#5}{#6}%
+  \parindent=0pt%
+  }{%
+    \clearpage%
   }
 
-\newenvironment{song}[4]{
-  \clearpage 
-  \fancyhead[LE]{#1}
-  \fancyhead[RO]{#1}
-  \setcounter{VerseCnt}{0}
-  \renewcommand{\theSongTitle}{#1}
-  \renewcommand{\theSongLyricist}{#2}
-  \renewcommand{\theSongComposer}{#3}
-  \renewcommand{\theSongArtist}{#4}
+\newcommand{\calb}[0]{\vline width 2pt {}}%
 
-  \addtocounter{SongCnt}{1}
-  \addcontentsline{toc}{section}{\hspace{-1.5em}#1}
-  \STitle{\theSongTitle}
-  \AAndCAndA{#2}{#3}{#4}
-  }{\vfill}
+% #1 - whether row is instrumental 'I' or/and it's chorus 'C'
+% #2 - intended row prefix (|| - for (not short chorus))
+% #3 - verse text
+% #4 - chords
+\newcommand{\ChordsContext}[4]{%
+  \IfSubStr{#1}{I}%
+    {&\multicolumn{2}{#2l}{\ChordsBehind{#4}} & }%
+    {&\multicolumn{1}{#2l}{\ChordsBehind{#4}} & \IfSubStr{#1}{C}{\hskip 2em}{} #3 & }%
+}%
 
-\newcommand{\row}[5][M]{
+
+\newcommand{\row}[5][M]{%
 % #1:
 %     "F"  <=> (first line of verse (or chorus))
-%     "FS" <=> (first special)number and indent the verse or "Ch:" the chorus
+%     "P"  <=> (last but 1 line - we don't page split after it)
 %     "L"  <=> (last line) don't try to nobreakline.
-%     "M"  <=> middleline
-%     "S"  <=> singleline   
+%     'E'  <=> The very last verse of the song
+%     "I"  <=> instrumental line
+%     "S"  <=> the only line of verse/chorus
+% - you can combine the lines
 % #2: "C"  <=> chorus
 %     "V"  <=> verse
-%     "I"  <=> instrumental 
+%     "O"  <=> not chorus and not numbered
 % #3: row_text
 % #4: bis_text
 % #5: chords
 %----------------------------------------------------------
-      \ifthenelse{\equal{#1}{L}}{\vspace{3 ex}}{}%
-      \ifthenelse{\equal{#1}{S}}{\vspace{3 ex}}{}%
-%      
-      \ifthenelse{\equal{#1}{FS}}%
-        { \ifthenelse{\equal{#2}{C}}%
-           {Ref.:}%
-           {\ifthenelse{\equal{#2}{V}}{%
-            \addtocounter{VerseCnt}{1}%
-            \theVerseCnt{}.%
-        }{}%
-           }%
-        }{}%
 %
-    \ifthenelse{\equal{#1}{S}}%
-        { \ifthenelse{\equal{#2}{C}}%
-           {Ref:}%
-           {\ifthenelse{\equal{#2}{V}}{%
-            \addtocounter{VerseCnt}{1}%
-            \theVerseCnt{}.%
-        }{}%
-           }%
-        }{} %
-        & %--------------------------------------------
-        \ifthenelse{\equal{#2}{C}}%
-           {\hskip 0.75 cm}%
-           {}%
-        #3 & %-----------------------------------------
-        \if\blank{#4}{}\else{% \hskip{1cm}
-          #4}\fi%
-        & %-----------------------------------------
-         \ChordsBehind{#5}%
-        %---------------------------------------
-        \ifthenelse{\equal{#1}{L}}%
-           {\\}%
-           {        \ifthenelse{\equal{#1}{S}}%
-           {\\}%
-           {\\*}}%
-
+    \IfSubStr{#1}{F}{%
+      \IfSubStr{#2}{C}{ Ref:}{}%
+      \IfSubStr{#2}{V}{ \addtocounter{VerseCnt}{1}\theVerseCnt{}.}{}%
+    }{}%
+    \IfSubStr{#2}{C}%
+      {%
+      \IfSubStr{#1}{S}%
+        {\ChordsContext{#1#2}{||}{\pbox[l]{0.6\textwidth}{\phantom{}#3}}{#5}}%
+        {\ChordsContext{#1#2}{||}{\pbox[l]{0.6\textwidth}{\phantom{}#3}}{#5}}%
+      }%
+      {\ChordsContext{#1#2}{}{\pbox[l]{0.6\textwidth}{\phantom{}#3}}{#5}}%
+    \if\blank{#4}{}\else{#4}\fi%
+    \IfSubStr{#1}{L}{\IfSubStr{#1}{E}{\\}{\\\vtop{\vskip0.7ex minus 1ex}\\}}{\IfSubStr{#1}{P}{\\*}{\IfSubStr{#1}{F}{\\*}{\\}}} % optionally we could emit \\* on last-by-1 line to prevent 1-line tables.
 }{}
 

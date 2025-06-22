@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiewiórka">
+  <alias>Palto</alias>
+  <comment>Słowa na podstawie „Newa poezją płynąca”</comment>
+  <composer type="solo">Jacek Stefański; Zbigniew Stefański</composer>
+  <artist type="band">Bez Jacka</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Śmiech ze łzami pomiesz<ch a="a7"/>any, </row>
+      <row important_over="true"><ch a="d"/>ileż w tobie niep<ch a="a7"/>okoju. </row>
+      <row important_over="true"><ch a="F"/>Znowu dziś na śn<ch a="G"/>ieg wybieg<ch a="a"/>łaś </row>
+      <row important_over="true"><ch a="d"/>weź przynajmniej palto s<ch a="a7"/>woje. </row>
+      <row important_over="true"><ch a="F"/>Pyłem śnieżnym pr<ch a="G"/>zyprószo<ch a="a"/>na </row>
+      <row important_over="true"><ch a="F"/>natychmiast mi s<ch a="G"/>ię wyd<ch a="a"/>ałaś, </row>
+      <row important_over="true"><ch a="F"/>taka cicha <ch a="G"/>i bezbr<ch a="a"/>onna </row>
+      <row important_over="true"><ch a="F"/>w wielkim świe<ch a="G"/>cie - taka m<ch a="a"/>ała </row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Zobacz kończy s<ch a="G"/>ię przedm<ch a="a"/>ieście, </row>
+      <row important_over="true"><ch a="F"/>las wyrast<ch a="G"/>a bezszel<ch a="a"/>estnie </row>
+      <row important_over="true"><ch a="F"/>w pstrych wi<ch a="G"/>ewiórek krzątan<ch a="a"/>inie. </row>
+      <row important_over="true">Palto, p<ch a="F"/>alto z<ch a="G"/>ałóż wr<ch a="a"/>eszcie. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Kto to widział tak po śniegu <ch a="d"/><ch a="a7"/></row>
+      <row important_over="never">w przedwieczornym mrozie biegać, <ch a="d"/><ch a="a"/></row>
+      <row important_over="never">w samym tylko cienkim swetrze, <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="never">w samych lekkich pantofelkach, <ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="other">
+      <row important_over="never">Aaa Aaaaaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Aaa Aaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">A już nogi ci się plączą, <ch a="d"/><ch a="a7"/></row>
+      <row important_over="never">włosy okrywają szronem. <ch a="d"/><ch a="a"/></row>
+      <row important_over="never">Pewnie jutro będziesz <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="never">znowu przeziębiona <ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Staniesz oprzesz się o drzewo,<ch a="d"/><ch a="a7"/></row>
+      <row important_over="never">sen nadejdzie nieproszony,<ch a="d"/><ch a="a"/></row>
+      <row important_over="never">a las woła: palto!<ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>Zatańcz ze mną na polanie (2000)</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

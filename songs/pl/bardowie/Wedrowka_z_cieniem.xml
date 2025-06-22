@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrówka z cieniem">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Po ulic m<ch a="a"/>okrym, ci<ch a="E7"/>emnym tl<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="G7"/> Pod prószącymi latarni<ch a="C"/>am<ch a="A7"/>i,</row>
+      <row important_over="false">Ja wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Dawno nie b<ch a="a"/>yło n<ch a="E7"/>am tak źl<ch a="a"/>e —</row>
+      <row important_over="false"><ch a="G7"/> Zostaliśmy zupełnie s<ch a="C"/>am<ch a="A7"/>i.</row>
+      <row important_over="false">Ja wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ja się zawi<ch a="a"/>odłem, ci<ch a="E7"/>eń zawiódł si<ch a="a"/>ę —</row>
+      <row important_over="false"><ch a="G7"/> Tak jest już z tymi dziewczyn<ch a="C"/>am<ch a="A7"/>i!</row>
+      <row important_over="false">I wlokę g<ch a="d"/>o, on wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ja mówię: z j<ch a="a"/>ej kapr<ch a="E7"/>ysów drwi<ch a="a"/>ę,</row>
+      <row important_over="false"><ch a="G7"/> Nie będzie kierowała n<ch a="C"/>am<ch a="A7"/>i!</row>
+      <row important_over="false">I wlokę g<ch a="d"/>o, on wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Był czas gdy ci<ch a="a"/>eń mój ci<ch a="E7"/>eszył si<ch a="a"/>ę —</row>
+      <row important_over="false"><ch a="G7"/> Jak ona mnie — jej cień go m<ch a="C"/>am<ch a="A7"/>ił…</row>
+      <row important_over="false">I wlokę g<ch a="d"/>o, on wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">A teraz m<ch a="a"/>ówi: z ż<ch a="E7"/>alu kpi<ch a="a"/>ę!</row>
+      <row important_over="false"><ch a="G7"/> Lecz dobrze wiem, że mówiąc — kł<ch a="C"/>ami<ch a="A7"/>e,</row>
+      <row important_over="false">Więc wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tak pociesz<ch a="a"/>amy wz<ch a="E7"/>ajem si<ch a="a"/>ę</row>
+      <row important_over="false"><ch a="G7"/> Idąc długimi ulic<ch a="C"/>am<ch a="A7"/>i…</row>
+      <row important_over="false">Ja wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
+      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i.</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <album>Dwadzieścia lat później</album>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
+    <to_do>Wg płyty "dwadzieścia(5) lat później"</to_do>
+  </status>
+</song>

@@ -1,0 +1,13 @@
+div.letters {
+    margin-top: 1em;
+    line-height: 5ex;
+    max-width: 35em;
+    text-align: center;
+}
+
+div.letters a {
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}

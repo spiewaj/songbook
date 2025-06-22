@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrowanie">
+  <alias/>
+  <text_author type="solo">Andrzej Starzec</text_author>
+  <comment/>
+  <composer type="solo">Andrzej Starzec</composer>
+  <artist type="solo">Andrzej Starzec</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Rozwichrzone nad głową sosny rosochate<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Pędzą niebem chmurki owieczki skrzydlate<ch a="a"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Senne oko jeziora zda się na wpół drzemie<ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Kolorowe sady słodkie niosą brzemię<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>A nam czegóż to więcej potrzeba, powiedz nam<ch a="D"/><ch a="C"/><ch a="e"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Powiedz nam lesie i drogo piaszczysta<ch a="D"/><ch a="C"/><ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Powiedz powiedz powiedz powiedz nam<ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Połoniny zielone przepastne doliny<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Ukwiecone łąki strojne jak dziewczyny<ch a="a"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Płaczka wierzba przysiadła na przydrożnym rowie<ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Matka żegnająca ruszających w drogę<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Przemierzamy drożyny jak wędrowne ptaki<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Co na niebie kluczem wyznaczają szlaki<ch a="a"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Dokąd dokąd tak pędzisz uskrzydlony bracie<ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Pędzisz nie bez celu — już we krwi to macie<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

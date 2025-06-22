@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Źródło" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Płynie rzeka wąwozem jak dnem koleiny, która samą siebie żłobiła<ch a="e"/></row>
+			<row important_over="false">Rosną ściany wąwozu, z obu stron coraz wyżej, tam na górze są ponoć równiny;<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">I im więcej tej wody, tym się głębiej potoczy<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Sama biorąc na siebie cień zboczy…<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Piach spod nurtu ucieka, nurt po piachu się wije, własna w czeluść ciągnie go siła.<ch a="e"/></row>
+			<row important_over="false">Ale jest ciągle rzeka na dnie rozpadliny, jest i będzie, będzie jak była,<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Bo źródło<ch a="e"/></row>
+			<row important_over="false">Bo źródło<ch a="a"/></row>
+			<row important_over="false">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A na ścianach wąwozu pasy barw i wyżłobień, tej rzeki historia tych brzegów -<ch a="e"/></row>
+			<row important_over="false">Ślady głazów rozmytych, cienie drzew powalonych, muł zgarnięty pod siebie wbrew sobie<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">A hen, w dole blask nikły ciągle ziemię rozcina,<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Ziemia nad nim się zrastać zaczyna…<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Z obu stron żwir i glina, by zatrzymać go w biegu, woda syczy i wchłania Lecz żyje<ch a="e"/></row>
+			<row important_over="false">I zakręca, omija, wsiąka, wspina się, pieni, ale płynie, wciąż płynie wbrew brzegom -<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Bo źródło<ch a="e"/></row>
+			<row important_over="false">Bo źródło<ch a="a"/></row>
+			<row important_over="false">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I są miejsca gdzie w szlamie woda niemal zastygła pod kożuchem brudnej zieleni;<ch a="e"/></row>
+			<row important_over="false">Tam ślad, prędzej niż ten co zostawił go, znika - niewidoczne bagienne są sidła.<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Ale źródło wciąż bije, tłoczy puls między stoki,<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Więc jest nurt, choć ukryty dla oka!<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nieba prawie nie widać, czeluść chłodna i ciemna, niech się sypią lawiny kamieni!<ch a="e"/></row>
+			<row important_over="false">I niech łączą się zbocza bezlitosnych wąwozów,<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Bo cóż drąży kształt przyszłych przestrzeni<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Jak nie rzeka podziemna?<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
+			<row important_over="false">Groty w skałach wypłucze, żyły złote odkryje -<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Bo źródło<ch a="e"/></row>
+			<row important_over="false">Bo źródło<ch a="a"/></row>
+			<row important_over="false">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

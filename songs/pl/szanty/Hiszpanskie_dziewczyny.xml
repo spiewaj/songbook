@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hiszpańskie dziewczyny">
+	<alias/>
+	<text_author type="solo"/>
+	<comment/>
+	<composer type="solo"/>
+	<artist type="solo"/>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś hiszp<ch a="C"/>ańskie dziewc<ch a="h7"/>zyny</row>
+			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś marz<ch a="G"/>enia ze s<ch a="D"/>nów</row>
+			<row important_over="false">Ku brz<ch a="C"/>egom angi<ch a="D"/>elskim już r<ch a="e"/>uszać nam pora</row>
+			<row important_over="false">Lecz ki<ch a="C"/>edyś na pewno wró<ch a="h7"/>cimy tu z<ch a="e"/>nów</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
+			<row important_over="false">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
+			<row important_over="false">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
+			<row important_over="false">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niedł<ch a="e"/>ugo ujrzymy znów w d<ch a="C"/>ali Cape De<ch a="h7"/>adman</row>
+			<row important_over="false">I gł<ch a="e"/>owę baranią stercz<ch a="G"/>ącą wśród wzg<ch a="D"/>órz</row>
+			<row important_over="false">I st<ch a="C"/>atki stoj<ch a="h7"/>ące na r<ch a="e"/>edzie przy Plymouth</row>
+			<row important_over="false">Klaro<ch a="C"/>wać kotwicę najwy<ch a="h7"/>ższy czas j<ch a="e"/>uż</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">A po<ch a="e"/>tem znów żagle na m<ch a="C"/>asztach rozkw<ch a="h7"/>itną</row>
+			<row important_over="false">Kurs szy<ch a="e"/>per wyznaczy na Po<ch a="G"/>rtland i Wi<ch a="D"/>ght</row>
+			<row important_over="false">I zn<ch a="C"/>ów stara ł<ch a="D"/>ajba pot<ch a="e"/>oczy się ciężko</row>
+			<row important_over="false">Przez f<ch a="C"/>ale w kierunku na Be<ch a="h7"/>achie Fairl<ch a="e"/>ie</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Zabł<ch a="e"/>ysną nam bielą skał zę<ch a="C"/>by spod D<ch a="h7"/>over</row>
+			<row important_over="false">I zn<ch a="e"/>ów noc w kubryku wśród l<ch a="G"/>egend i b<ch a="D"/>ajd</row>
+			<row important_over="false">Pow<ch a="C"/>oli i zn<ch a="D"/>ojnie tak pł<ch a="e"/>ynie nam życie</row>
+			<row important_over="false">Na w<ch a="C"/>odach i w portach South F<ch a="h7"/>oreland Li<ch a="e"/>ght</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="false">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
+				<row important_over="false">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
+				<row important_over="false">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
+				<row important_over="false">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Alek za Onufrym</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre>Szanta</genre>
+</song>

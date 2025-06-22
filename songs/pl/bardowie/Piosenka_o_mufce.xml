@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o mufce">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Prześliczna dzieweczka na spacer raz szła</row>
+			<row important_over="false"><ch a="A"/>Gdy noc ją złapała wietrzysta i zła<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Być może przestraszyłby ziąb i mrok ją</row>
+			<row important_over="false"><ch a="A"/>Lecz miała wszak mufkę prześliczną swą<ch a="E"/><ch a="A"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="A"/>Nie ruszaj to moje weź precz łapy swoje</row>
+				<row important_over="false"><ch a="A"/>Popsujesz ją boję się o mufkę swą<ch a="E"/><ch a="A"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Więc szła w dół ulicy przez zamieć i mrok</row>
+			<row important_over="false"><ch a="A"/>Gdy jakiś młodzieniec z nią zrównał swój krok<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Na widok jej uśmiech rozjaśnił mu twarz</row>
+			<row important_over="false"><ch a="A"/>Ach panno prześliczną wszak mufkę ty masz<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Wiem dobrze że mam mufkę śliczną jak sen</row>
+			<row important_over="false"><ch a="A"/>Co chłopców spojrzenia przyciąga co dzień<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Różowym jedwabiem podszyta pod spodem</row>
+			<row important_over="false"><ch a="A"/>A z wierzchu futerko co chroni przed chłodem<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Lecz mufka jest moja i nic do niej ci</row>
+			<row important_over="false">
+				<ch a="A"/>Bo mama kazała jej strzec dobrze mi<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Więc idź już w swą drogę i zostaw mnie już</row>
+			<row important_over="false"><ch a="A"/>Bo nie dam ci mufki i za tysiąc róż<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Lecz noc była zimna i pannie co szła</row>
+			<row important_over="false"><ch a="A"/>Zachciało się winka kieliszek lub dwa<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Po winku zbyt mocnym zagościł sen w niej</row>
+			<row important_over="false"><ch a="A"/>A chłopcy z jej mufką igrali że hej<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Zbudziwszy się w płacz uderzyła i jęk</row>
+			<row important_over="false"><ch a="A"/>Zepsuli mi mufkę i szew na niej pękł<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Zszargali futerko i jedwab na fest</row>
+			<row important_over="false"><ch a="A"/>I na nic ma mufka zapewne już jest<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Więc młode dziewczęta strzec trzeba się wam</row>
+			<row important_over="false"><ch a="A"/>Tych chłopców co z wami chcą być sam na sam<ch a="E"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Przeminą raz dwa wina szum słodkie słówka</row>
+			<row important_over="false"><ch a="A"/>A w darze zastanie wam dziurawa mufka<ch a="E"/><ch a="A"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="2"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<to_do></to_do>	<done/>
+	</status>	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

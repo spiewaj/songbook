@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Let it be">
+  <artist type="band">The Beatles</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">When I <ch a="C"/>find myself in <ch a="G"/>times of trouble, <ch a="Am"/>Mother Mary <ch a="F"/>comes to me</row>
+      <row important_over="false"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+      <row important_over="false">And in<ch a="C"/> my hour of d<ch a="G"/>arkness, She is st<ch a="A"/>anding right in <ch a="F"/>front of me</row>
+      <row important_over="false"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, Let it <ch a="F"/>be  <ch a="C"/>  <ch a="D"/>   <ch a="C"/>  </row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Let it <ch a="A"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+      <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be <ch a="C"/>   <ch a="D"/>   <ch a="C"/> </row>
+    </block>
+    <block type="verse">
+      <row important_over="false">And whe<ch a="C"/>n the broken he<ch a="G"/>arted people, Li<ch a="A"/>ving in the <ch a="F"/>world agree</row>
+      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e  <ch a="C"/>  <ch a="D"/>   <ch a="C"/> </row>
+      <row important_over="false">But tho<ch a="C"/>ugh they may be<ch a="G"/> parted, There is s<ch a="A"/>till a chanc<ch a="F"/>e that they may see</row>
+      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e  <ch a="C"/>  <ch a="D"/>   <ch a="C"/> </row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Let it <ch a="A"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+      <row important_over="false"><ch a="C"/>There will be an <ch a="G"/>answer, let it <ch a="F"/>be <ch a="C"/>   <ch a="D"/>   <ch a="C"/> </row>
+      <bis times="2">
+        <row important_over="false">Let it <ch a="A"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+        <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be <ch a="C"/>   <ch a="D"/>   <ch a="C"/> </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">And when the night is cloudy, There is still a light that shines on me</row>
+      <row important_over="false">Shine on till tomorrow, let it be</row>
+      <row important_over="false">I wake up to the sound of music, Mother Mary comes to me</row>
+      <row important_over="false">Speaking words of wisdom, let it be</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

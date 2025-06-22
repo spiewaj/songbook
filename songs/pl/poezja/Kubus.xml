@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kubuś">
+	<alias>Walczyk grzecznego Kubusia</alias>
+	<text_author type="solo">Waldemar Chyliński lub Jacek Zwoźniak</text_author>
+	<comment>Tu znalazłem nagranie: 
+
+1984: https://youtu.be/Q1xk_DQ25jU?si=Lih8C3__Vr8Vpzmt&amp;t=2549
+
+i
+
+1987: https://youtu.be/PPqOC3jT334?si=5hVan1O3PxRJ36jN&amp;t=4326</comment>
+	<artist type="band">OCIPIEC</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Na st<ch a="e"/>ole st<ch a="A"/>oi waz<ch a="D"/>onik,</row>
+			<row important_over="true">Pierd<ch a="e"/>ut w waz<ch a="A"/>onik kami<ch a="D"/>eniem,</row>
+			<row important_over="true">Jak pi<ch a="G"/>ęknie wazonik zadzw<ch a="D"/>oni,</row>
+			<row important_over="true">Cich<ch a="e"/>utko spadając na zi<ch a="A"/>emię.</row>
+			<row important_over="false">Na ł<ch a="e"/>óżku śp<ch a="A"/>i sobie ba<ch a="D"/>bcia,</row>
+			<row important_over="false">Lecz b<ch a="e"/>abcia j<ch a="A"/>est trochę gł<ch a="D"/>ucha,</row>
+			<row important_over="false">Lecz m<ch a="G"/>oże mej babci po<ch a="D"/>może,</row>
+			<row important_over="false">Gdy wł<ch a="e"/>ożę jej druta do <ch a="A"/>ucha.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">To w<ch a="e"/>alczyk grzeczn<ch a="A"/>ego Kub<ch a="D"/>usia,</row>
+			<row important_over="false">Znan<ch a="e"/>ego w c<ch a="A"/>ałym miast<ch a="D"/>eczku,</row>
+			<row important_over="false">Co n<ch a="G"/>ocą do majtek nie si<ch a="D"/>usia,</row>
+			<row important_over="false">I grz<ch a="e"/>ecznie się bawi w pias<ch a="A"/>eczku.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dziadk<ch a="e"/>owi, co od l<ch a="A"/>at trzydzi<ch a="D"/>estu</row>
+			<row important_over="false">Faj<ch a="e"/>eczkę ćm<ch a="A"/>i nałog<ch a="D"/>owo,</row>
+			<row important_over="false">Zami<ch a="G"/>eniam tytoń „Amf<ch a="D"/>ora”</row>
+			<row important_over="false">Z miesz<ch a="e"/>anką ciut ciut wybuch<ch a="A"/>ową.</row>
+			<row important_over="false">Gdy dzi<ch a="e"/>adek się w n<ch a="A"/>ocy ob<ch a="D"/>udził,</row>
+			<row important_over="false">Faj<ch a="e"/>eczkę zap<ch a="A"/>alił po ci<ch a="D"/>chu,</row>
+			<row important_over="false">To t<ch a="G"/>ak mu buchnęło z cyb<ch a="D"/>ucha,</row>
+			<row important_over="false">Że b<ch a="e"/>abci szukał na str<ch a="A"/>ychu.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Mój t<ch a="e"/>ata to t<ch a="A"/>eż jest ap<ch a="D"/>arat,</row>
+			<row important_over="false">Czas<ch a="e"/>ami nie wr<ch a="A"/>aca do d<ch a="D"/>omu,</row>
+			<row important_over="false">Lecz j<ch a="G"/>a go tego od<ch a="D"/>uczę,</row>
+			<row important_over="false">Do k<ch a="e"/>awy wsypuję mu br<ch a="A"/>omu.</row>
+			<row important_over="false">O m<ch a="e"/>amie m<ch a="A"/>ojej w tym wzgl<ch a="D"/>ędzie</row>
+			<row important_over="false">Powi<ch a="e"/>edzieć nie m<ch a="A"/>ogę nic zł<ch a="D"/>ego,</row>
+			<row important_over="false">Na wsz<ch a="G"/>elki wypadek do z<ch a="D"/>upy</row>
+			<row important_over="false">Dol<ch a="e"/>ewam jej kwasu soln<ch a="A"/>ego.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Na g<ch a="e"/>órze mi<ch a="A"/>eszka sąsi<ch a="D"/>adka,</row>
+			<row important_over="false">Kt<ch a="e"/>órej nie l<ch a="A"/>ubi mam<ch a="D"/>usia,</row>
+			<row important_over="false">Więc j<ch a="G"/>utro jej z samego r<ch a="D"/>ana,</row>
+			<row important_over="false">W but<ch a="e"/>elkę po mleku nasi<ch a="A"/>usiam.</row>
+			<row important_over="false">Mal<ch a="e"/>utką cór<ch a="A"/>eczkę sąsi<ch a="D"/>adki</row>
+			<row important_over="false">Po c<ch a="e"/>ichu w br<ch a="A"/>amie zaszk<ch a="D"/>oczę,</row>
+			<row important_over="false">Na s<ch a="G"/>iłę jej ściągnę majt<ch a="D"/>eczki</row>
+			<row important_over="false">I g<ch a="e"/>umkę wyciągnę na pr<ch a="A"/>ocę.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś mal<ch a="D"/>utki,</row>
+			<row important_over="false">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś wspani<ch a="D"/>ały,</row>
+			<row important_over="false">I r<ch a="G"/>ośnie nam chluba nar<ch a="D"/>odu,</row>
+			<row important_over="false">Przepr<ch a="e"/>aszam dziś naród za m<ch a="A"/>ały.</row>
+		</block>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<genre>Piosenka kabaretowa</genre>
+	<status>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał</verificator>
+		</verificators>
+	</status>
+</song>

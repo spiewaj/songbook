@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kolekcja">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Spocznij!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten za odwagę, a ten za męstwo<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten jest za dzielność, ten za woli hart<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za niezłomność, ten za nieugiętość<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Ten za niewzruszoność mimo zmiany wart</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten jest za upór, a ten za wytrwałość<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten jest za zaciętość, ten za ducha moc<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za odporność, ten za wytrzymałość<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Ten za niestrudzoność w dzień i w noc</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten za prawomyślność, a ten za lojalność<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten za milczenie, a ten za ,,hura''<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za posłuszeństwo, a ten za karność<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Ten jest za ,,nie'', a ten jest za ,,tak''<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten nie pamiętam, a ten nie powiem<ch a="D"/><ch a="F"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten jest za darmo, ten za złotych sto<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za chorobę, a ten za zdrowie<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Ten za dobry wzrok, a ten za dobry słuch</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten za kichnięcie, a ten za wzdęcie<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten za od oklasków zwichnięty bark<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za historycznych procesów pojęcie<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Ten za twardy łeb, ten za zgięty kark</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ten za jak wyżej, a ten zapomniałem<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Zresztą nieważne, jak dają bierz<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Chcesz bohaterem być życie całe<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Nie nadstawiaj głowy, nadstawiaj pierś</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="2"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

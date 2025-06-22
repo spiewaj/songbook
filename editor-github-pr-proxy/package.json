@@ -1,0 +1,27 @@
+{
+  "name": "editor-github-pr-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "source ./local-env.txt && source ./local-env-secret.txt && npx functions-framework --target=songbook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "@actions/http-client": "^1.0.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-json-api-error-handler": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}

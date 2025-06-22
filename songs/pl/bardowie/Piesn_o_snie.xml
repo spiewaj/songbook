@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń o śnie">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Z zimna drż<ch a="a"/>ąc przy domowym ognisku</row>
+			<row important_over="false">Zasłuch<ch a="E"/>ani w głodowy kiszek marsz</row>
+			<row important_over="false">Po ost<ch a="a"/>atnim wypijmy kieliszku</row>
+			<row important_over="false">Zanim świ<ch a="E"/>ecy dotli się blask</row>
+			<row important_over="false">Papier<ch a="a"/>osa puśćmy dokoła</row>
+			<row important_over="false">Przeczyt<ch a="E"/>ajmy z zakazanych coś ksiąg</row>
+			<row important_over="false">Bo nad r<ch a="a"/>anem nikt przecież nie woła</row>
+			<row important_over="false">N<ch a="E"/>ikt nie wywoła nas st<ch a="a"/>ąd</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Gdzie ła<ch a="C"/>jdak pok<ch a="G"/>aja się szcz<ch a="a"/>erze</row>
+			<row important_over="false">Gdzie zł<ch a="F"/>odziej <ch a="C"/>odda swój ł<ch a="G"/>up</row>
+			<row important_over="false">Gdzie kto<ch a="C"/>ś zanim p<ch a="E7"/>owie nie wi<ch a="a"/>erz<ch a="F"/>ę</row>
+			<row important_over="false">Święt<ch a="C"/>emu up<ch a="G"/>adnie do st<ch a="a"/>óp</row>
+			<row important_over="false">Gdzie krz<ch a="C"/>ywdy nie b<ch a="G"/>ędą pomszcz<ch a="a"/>one</row>
+			<row important_over="false">L<ch a="F"/>ecz wynagrodz<ch a="C"/>one do cn<ch a="G"/>a</row>
+			<row important_over="false">Gdzie dzi<ch a="C"/>ecko bezpi<ch a="E7"/>ecznie zrodz<ch a="a"/>on<ch a="F"/>e</row>
+			<row important_over="false">Sią<ch a="C"/>dzie obok jagni<ch a="G"/>ęcia i lw<ch a="a"/>a</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Otuleni w swoją obecność<ch a="a"/></row>
+			<row important_over="false">Czując w ustach wspomnienia smak<ch a="E"/></row>
+			<row important_over="false">Nie dbajmy o świadomą konieczność<ch a="a"/></row>
+			<row important_over="false">Co w twarze sypie nam mak<ch a="E"/></row>
+			<row important_over="false">Noc jest jedna i świt jest po nocy<ch a="a"/></row>
+			<row important_over="false">Pod zamkniętą powieką trwa blask<ch a="E"/></row>
+			<row important_over="false">I nikomu nie zabraknie pomocy<ch a="a"/></row>
+			<row important_over="false">Dopóki nie zabraknie mu nas<ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Gdzie zdrada to wtręt z obcej mowy<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">Podobnie jak przemoc i gwałt<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Gdzie myśli nie chowa się w słowa<ch a="C"/><ch a="E7"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Lecz jawny jej daje się kształt<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">Gdzie rozpacz i ból są kojone<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">I żadna nie kala się łza<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Gdzie dziecko bezpiecznie zrodzone<ch a="C"/><ch a="E7"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Siądzie obok jagnięcia i lwa<ch a="C"/><ch a="G"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ktoś powie to senne marzenie<ch a="a"/></row>
+			<row important_over="false">Nie ma nic prawdziwszego od snu<ch a="E"/></row>
+			<row important_over="false">Więc w obecność swą otuleni<ch a="a"/></row>
+			<row important_over="false">Wspólnie wyśnimy go tu<ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Ktoś powie to senne marzenie<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">Nie ma nic prawdziwszego od snu<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Więc w obecność swą otuleni<ch a="C"/><ch a="E7"/><ch a="a"/><ch a="F"/></row>
+			<row important_over="false">Wspólnie wyśnimy go tu<ch a="C"/><ch a="G"/><ch a="a"/></row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="">
+		<guitar barre="2"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>	<done>
+			
+			
+			<text/>
+			<chords>chords</chords>
+		</done>
+	</status>	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

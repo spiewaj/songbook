@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla juniora i jego gitary">
+  <alias/>
+  <text_author>Edward Stachura</text_author>
+  <comment/>
+  <composer type="solo">Krzysztof Myszkowski</composer>
+  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Gdy pokłócisz się z dziewczyną<ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Nie życzę ci lecz różnie jest<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Nie chciej zaraz marnie ginąć<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Zaufaj mi przekonasz się<ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Wskocz w pudło gitary i tam rozłóż się obozem<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="a"/>Skocz w pudło gitary ratunkowym ona kołem<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="a"/>Przeczekaj nachalną nawałnicę<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Wyjdź potem ze słońcem na ulicę<ch a="D"/></row>
+      <row important_over="false"><ch a="a"/>Wyjdź potem ze słońcem na ulicę<ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Gdy ci będzie jakoś nie tak<ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Nie życzę ci lecz różnie jest<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Gdy ta słynna smuga cienia<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Przypęta się przerazi cię<ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Aż cię znowu noc dopadnie<ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Nie życzę ci lecz różnie jest<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Ciemny Bóg się tobą zajmie<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Lecz wtedy ty wywijasz się<ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>I pomóż słońcu i pomóż słońcu<ch a="c"/></row>
+      <row important_over="false"><ch a="G"/>Pomóż słońcu lśnić</row>
+      <row important_over="false"><ch a="a"/>I pomóż słońcu i pomóż słońcu<ch a="c"/></row>
+      <row important_over="false"><ch a="G"/>Pomóż słońcu lśnić<ch a="D"/><ch a="C"/><ch a="G"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

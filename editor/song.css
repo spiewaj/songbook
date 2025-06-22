@@ -1,0 +1,199 @@
+h1 {
+  text-align: left
+}
+
+song-verse {
+}
+
+song-row {
+  display: block;
+  font-size: large;
+  padding-top: 0.5ex; /* We would prefer here margin, but padding works with the size observer.*/
+}
+
+/*song-row[type="instr"]:before {*/
+/*  color: gray;*/
+/*  font-style: italic;*/
+/*  visibility: visible;*/
+/*}*/
+
+/*song-row[type="instr"]:before::selection {*/
+/*  color: pink;*/
+/*}*/
+
+/*song-row::selection {*/
+/*  color: pink;*/
+/*}*/
+
+song-row[type="instr"] {
+  /*content: '[wers instrumentalny]';*/
+  /*overflow-wrap: normal;*/
+  /*font-weight: bold;*/
+  /*background: white;*/
+  /*white-space:nowrap;*/
+  /*font-family: Arial;*/
+  /*margin-top: 0.6em;*/
+ /*visibility: hidden;*/
+    color: gray;
+    font-style: italic;
+    visibility: visible;
+}
+
+/*:host-context(song-row[type="instr"]) {*/
+
+song-rows {
+  display: contents;
+}
+
+song-verses {
+  display: contents;
+}
+
+song-body {
+  display: grid;
+  padding-bottom: 0.5em;
+}
+
+div.songbody{
+  margin-top: 0.3em;
+  margin-bottom: 2em;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+div.song-editor {
+  width: fit-content;
+  /*grid-column: 1/2;*/
+}
+
+div.toolbar {
+/*  position: sticky;*/
+/*  left:630px;*/
+/*#  top: 5%;*/
+  grid-column: 2/2;
+  margin-left: 20px;
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  grid-row: 1;
+}
+
+/*song-editor {*/
+/*  display: grid;*/
+/*  grid-template-columns: min-content max-content;*/
+/*}*/
+
+div.toolbar button {
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  marging-left: 3em;
+  width: 13em;
+  text-align:left;
+  vertical-align: middle;
+}
+
+button#appendVerse{
+  width: 13em;
+  text-align:left;
+  vertical-align: middle;
+  display: block;
+  margin-right:0em;
+  margin-left:auto;
+}
+
+div.toolbar button i {
+  margin-right: 0.5em;
+}
+
+div.toolbar div.formatting {
+  position: sticky;
+  display: grid;
+}
+
+div.toolbar div.formatting button {
+  grid-column: 1;
+}
+div.toolbar div.formatting i {
+  grid-column: 2;
+}
+
+
+div.toolbar input {
+  margin-top: 0.5em;
+  width: 13em;
+}
+
+div.toolbar div {
+  margin-top: 1em;
+}
+
+div.songbody{
+  padding-right: 2em;
+}
+
+div.metadata {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  grid-gap: 5px;
+}
+
+div.metadata label {
+  text-align: right;
+  grid-column: 1/2;
+}
+
+div.metadata input {
+  grid-column: 2/2;
+}
+
+div.metadata select {
+  grid-column: 3/3;
+}
+
+div.metadata label:after {
+  content: ":";
+}
+
+div.metadata textarea {
+  height: 5em;
+  min-width: 20em;
+}
+
+div.generated  {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
+
+/*hr {*/
+/*  flex-basis: 100%;*/
+/*  height: 0;*/
+/*}*/
+
+input#title {
+  grid-column: 2 / span 2;
+  font-size: x-large;
+  text-align: center;
+  min-width: 600px;
+}
+
+div.gitToolbar {
+  margin-top: 10px;
+}
+
+div.notice {
+  position: fixed;
+  color: black;
+  background: yellow;
+  left: 50px;
+  top: 50px;
+}
+
+div.help {
+  position: static;
+  left: 50px;
+  top: 50px;
+  background: lightcyan;
+  border: 1px solid blue;
+  z-index: 4;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Wakacyjna przypowieść z metafizycznym morałem" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Muszelki</alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Zryw<ch a="A"/>amy się przed świtem, nie m<ch a="E7"/>yśląc o śniad<ch a="A"/>aniu</row>
+			<row important_over="false">Milcz<ch a="A"/>ący, źli a przy tym zup<ch a="E7"/>ełnie niewysp<ch a="A"/>ani.</row>
+			<row important_over="true">Okr<ch a="D"/>ągły księżyc drwi z nas jak p<ch a="C0"/>uste dno but<ch a="H"/>elk<ch a="E"/>i;</row>
+			<bis times="2">
+				<row important_over="false">Lecz nam to nie pierwszyzna, idziemy po muszelki.<ch a="A"/><ch a="E7"/><ch a="A"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Szlak wi<ch a="B"/>edzie brzegiem morza na z<ch a="F"/>achód - w kołdrze mr<ch a="B"/>oku,</row>
+			<row important_over="false">Więc z tyłu pełznie zorza cierpliwie krok po kroku. <ch a="B"/><ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Na pi<ch a="Dis"/>asku rosną cienie jak r<ch a="Cis0"/>ozciągnięte sz<ch a="C"/>elk<ch a="F"/>i -</row>
+			<bis times="2">
+				<row important_over="false">Idziemy niestrudzenie, idziemy po muszelki.<ch a="B"/><ch a="F"/><ch a="B"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Musz<ch a="H"/>elki - rzecz nietrwała, po pr<ch a="Fis"/>awdzie nic nie w<ch a="H"/>arta,</row>
+			<row important_over="false">Ale córeczka chciała - córeczka jest uparta. <ch a="H"/><ch a="Fis"/><ch a="H"/></row>
+			<row important_over="false">Z fal sł<ch a="E"/>ońce się wychyla jak zł<ch a="D0"/>ota pierś mod<ch a="Cis"/>elk<ch a="Fis"/>i;</row>
+			<bis times="2">
+				<row important_over="false">Umyka nam ta chwila - idziemy po muszelki.<ch a="H"/><ch a="Fis"/><ch a="H"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="C"/>alców u stóp maleństwa ka<ch a="G"/>leczą się bol<ch a="C"/>eśnie.</row>
+			<row important_over="false">Co robić? Na przekleństwa za późno - i za wcześnie - <ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Na w<ch a="F"/>ątpliwości antrakt, na ci<ch a="Dis0"/>erpień bagat<ch a="D"/>el<ch a="G"/>ki,</row>
+			<bis times="2">
+				<row important_over="false">Bo zgrzyta zębów mantra - idziemy po muszelki.<ch a="C"/><ch a="G"/><ch a="C"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pierś sł<ch a="Cis"/>ońca już w zenicie wspi<ch a="Gis"/>era się nam na p<ch a="Cis"/>lecach</row>
+			<row important_over="false">Potężnym żarem życia jak samo serce pieca. <ch a="Cis"/><ch a="Gis"/><ch a="Cis"/></row>
+			<row important_over="false">Pot ci<ch a="Fis"/>urka strumykami, dziur<ch a="E0"/>awią piach krop<ch a="Dis"/>elk<ch a="Gis"/>i;</row>
+			<bis times="2">
+				<row important_over="false">Wyschnięci na pergamin idziemy po muszelki.<ch a="Cis"/><ch a="Gis"/><ch a="Cis"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">W kr<ch a="D"/>ąg wodorostów zieleń pi<ch a="A"/>ętrzy się drwiącą w<ch a="D"/>arstwą</row>
+			<row important_over="false">I cuchnie - a muszelek? Muszelek - na lekarstwo! <ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Nie w n<ch a="G"/>aszej widać mocy odn<ch a="F0"/>aleźć skarb tak wi<ch a="E"/>elk<ch a="A"/>i!</row>
+			<bis times="2">
+				<row important_over="false">Na skórze, w chłodzie nocy pęcznieją nam bąbelki.<ch a="D"/><ch a="A"/><ch a="D"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecz c<ch a="A"/>órcia łapką gładką pi<ch a="E"/>eczeń skwierczącą kl<ch a="A"/>epie:</row>
+			<row important_over="false">- Nie przejmuj się tak, Tatku! Jutro ci pójdzie lepiej! <ch a="A"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="false">Los żaden nas nie zmoże, choć przeszkód pełen wszelkich! <ch a="D"/><ch a="C0"/><ch a="H"/><ch a="E"/></row>
+			<bis times="3">
+				<row important_over="false">Chw<ch a="D"/>ała Ci dobry B<ch a="A"/>oże za dr<ch a="E"/>ogę po musz<ch a="A"/>elki!</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

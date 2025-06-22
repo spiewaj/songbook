@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bal">
+	<alias/>
+	<text_author type="solo">W. Wiśniewski</text_author>
+	<comment>To, że piosenk ma 4 akordy na krzyż nie znaczy że należy ją rąbać jak drewno !!!</comment>
+	<composer type="solo">Tomek Lewandowski</composer>
+	<artist type="solo">Tomek Lewandowski</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Moje myśli proszę was, siądźcie jak kruki koło mnie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">I z wierszami wraz zapytajcie co słychać u mnie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">Ściany przyjaciółki mego domu, jeżeli potraficie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">Zapytajcie chociaż raz, jak tam świat mój, jak moje życie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">A u mnie wir a u mnie bal<ch a="G"/><ch a="D"/></row>
+				<row important_over="false">Trwa stypa po miłości<ch a="G"/><ch a="D"/></row>
+				<row important_over="false">I od toastów huczy stół<ch a="G"/><ch a="D"/></row>
+				<row important_over="false">I ja jedyny z moich gości<ch a="C"/><ch a="D"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dziś nic dla ciebie moja pani, nie pogrążysz mnie w żadnym grobie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">Odnalazłem dłoń własną dłoń wyciągniętą ku sobie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">Rano wyjdę już spokojny, z uśmiechem przyklejonym do twarzy<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false">I rozdam krukom wesołe wiersze na sen, na spełnienie marzeń<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Adam</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album>Miniony Czas</album>
+	<genre/>
+</song>

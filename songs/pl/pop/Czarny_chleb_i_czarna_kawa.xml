@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarny chleb czarna kawa">
+  <text_author type="solo">Czarny chleb czarna kawa</text_author>
+  <composer type="solo">Krzysztofa „Grabaża” Grabowski</composer>
+  <artist type="band">Strachy na Lachy</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Jedzie<ch a="A"/> pociąg złe wagony, do wi<ch a="C"/>ęzienia wiozą mnie</row>
+      <row important_over="false">Świat ma <ch a="G"/>tylko cztery strony, a w tym <ch a="A"/>świecie nie ma mnie</row>
+      <row important_over="false">Gdy swe <ch a="A"/>oczy otworzyłem, wielki <ch a="C"/>żal ogarnął mnie</row>
+      <row important_over="false">Po po<ch a="G"/>liczkach łzy spłynęły, zrozu<ch a="A"/>miałem wtedy, że</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Czarny <ch a="A"/>chleb i czarna kawa, opę<ch a="C"/>tani samotnością</row>
+      <row important_over="false">Myślą <ch a="G"/>swą szukają szczęścia, które <ch a="A"/>zwie się wolnością</row>
+      <row important_over="false">Czarny,<ch a="A"/> czarny chleb i czarna k<ch a="C"/>awa, opętani samotnością</row>
+      <row important_over="false">Myślą <ch a="G"/>swą szukają szczęścia, które <ch a="A"/>zwie się wolnością</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Młodsza <ch a="A"/>siostra zapytała: mamo, <ch a="C"/>gdzie braciszek mój?</row>
+      <row important_over="false">Brat Twój w <ch a="G"/>ciemnej celi siedzi, odsia<ch a="A"/>duje wyrok swój</row>
+      <row important_over="false">Czarny <ch a="A"/>chleb i czarna kawa, opę<ch a="C"/>tani samotnością</row>
+      <row important_over="false">Myślą <ch a="G"/>swą szukają szczęścia, które <ch a="A"/>zwie się wolnością</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="false">(Tak czy nie, nie! Tak czy nie, nie! Tak czy nie, nie!)</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Wtem do <ch a="A"/>celi klawisz wpada i za<ch a="C"/>czyna więźnia bić</row>
+      <row important_over="false">Młody <ch a="G"/>więzień na twarz pada, serce <ch a="A"/>mu przestaje bić</row>
+      <row important_over="false">I <ch a="A"/>nadejdzie chwila błoga, śmierć <ch a="C"/>zabierze oddech mój</row>
+      <row important_over="false">Moje <ch a="G"/>ciało stąd wyniosą, a pod <ch a="A"/>celą będą znów:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Inny cz<ch a="A"/>arny, czarny chleb i cza<ch a="C"/>rna kawa, opętani samotnością</row>
+      <row important_over="false">Myślą <ch a="G"/>swą szukają szczęścia, które <ch a="A"/>zwie się wolnością</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="false">(Chcesz czy nie, nie!)</row>
+    </block>
+  </lyric>
+  <music metre="4/4"/>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

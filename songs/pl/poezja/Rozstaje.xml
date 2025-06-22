@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Rozstaje" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Wychodzę na rozstaje, w zadumaniu trwam</row>
+			<row important_over="false">Pochłonął mnie ich bezmiar, pochłonęła dal</row>
+			<row important_over="false">A oczy ich widokiem nasycone są</row>
+			<row important_over="false">Ukryte w palto wspomnień cichuteńko drżą</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Naokoło mnie drogi i drogi</row>
+			<row important_over="false">Buro ginące na końcu dnia</row>
+			<row important_over="false">Drogi, drogi</row>
+			<row important_over="false">Ich mądrość, ich cel i ja</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wychodzę na rozstaje, w oniemieniu trwam</row>
+			<row important_over="false">Jak trudno znaleźć w sobie kształt tego kim być mam</row>
+			<row important_over="false">Tak ciężko słuchać siebie, tego kim być chce</row>
+			<row important_over="false">Tak głośno strach mi szepce, że mogę zboczyć źle</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Wychodzę na rozstaje, w osłupieniu trwam</row>
+			<row important_over="false">Gdzie dojdę, którędy i po co co dnia dokądś dążyć mam?</row>
+			<row important_over="false">Nasycę drogą siebie, pomyślę, dokąd iść</row>
+			<row important_over="false">Wyznaczę sobie ścieżkę, z którą zmierzę się dziś</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

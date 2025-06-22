@@ -1,0 +1,66 @@
+span.cho {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  width:0px;
+  top: -2.9ex;
+  margin-top: 3ex;
+  overflow-wrap: normal;
+  hyphens: none;
+}
+
+:host-context(song-row[important_over="true"]) span.cho {
+  width: revert;
+}
+
+:host-context(song-row[important_over="true"]) span.cho span.ch {
+  font-weight: 900; /*bold is like 700*/
+  font-size: x-small;
+}
+
+:host-context(song-row[important_over="never"]) span.cho span.ch {
+  /*font-weight: 900; !*bold is like 700*!*/
+  /*font-size: x-small;*/
+  color: lightgray;
+}
+
+:host-context(song-row[type="instr"]) span.cho span.ch {
+  /*font-weight: 900; !*bold is like 700*!*/
+  /*font-size: x-small;*/
+  display: none; /*that's gets overriden by the javascript per element code*/
+  visibility: hidden;
+}
+
+span.cho span.ch {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  font-size: xx-small;
+  /*//width:30px;*/
+  font-weight: lighter;
+  overflow-wrap: normal;
+  hyphens: none;
+  user-select: all;
+  cursor: grab;
+  width: fit-content;
+  overflow-wrap: normal;
+  font-weight: lighter;
+  background: rgba(255,255,255,0.5);;
+  white-space:nowrap;
+  font-family: Arial;
+}
+
+span.cho input.ch {
+  width: 6em;
+  font-size: xx-small;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: -0.12em;
+  font-weight: bold;
+  overflow-wrap: normal;
+  hyphens: none;
+  z-index: 5;
+  background-color: rgba(255,255,0,0.5);
+  border-width: 0px;
+}

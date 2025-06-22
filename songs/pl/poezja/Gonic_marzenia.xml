@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gonić marzenia">
+	<alias></alias>
+	<text_author type="solo">Jurij Kukin</text_author>
+	<comment></comment>
+	<composer type="solo">Jurij Kukin</composer>
+	<artist type="solo">Jurij Kukin</artist>
+	<translator></translator>
+	<original_title>Za tumanom</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Na włócz<ch a="e"/>ęgę dziś wyruszyć przyszła p<ch a="a"/>ora,</row>
+			<row important_over="false">Las nas w<ch a="H7"/>oła śpiewem ptaków, szumem drz<ch a="e"/>ew<ch a="C"/><ch a="H7"/></row>
+			<row important_over="false">I woł<ch a="e"/>ają nas już pola i jezi<ch a="a"/>ora,</row>
+			<row important_over="false">Zeszłor<ch a="H7"/>oczny nasz wesoły pomnąc śpi<ch a="e"/>ew.</row>
+			<row important_over="false">Ludzie m<ch a="E7"/>ają swoje prace, ludzie l<ch a="a"/>ubią się bogacić,</row>
+			<row important_over="false">Pełne brz<ch a="D"/>uchy mają chcą mieć pełen trz<ch a="G"/>os.<ch a="H7"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="1">
+				<row important_over="false">A ja g<ch a="e"/>onię, a ja gonię swe marz<ch a="a"/>enia,</row>
+				<row important_over="false">Szukam szcz<ch a="H7"/>ęścia gdzie kaczeńce i gdzie wrz<ch a="e"/>os.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tak to pr<ch a="e"/>oste że i gadać szkoda cz<ch a="a"/>asu,</row>
+			<row important_over="false">Tylko pl<ch a="H7"/>ecak wziąć i iść przed siebie t<ch a="e"/>ak.<ch a="C"/><ch a="H7"/></row>
+			<row important_over="false">Szukać wi<ch a="e"/>atru i zapachu szukać l<ch a="a"/>asu,</row>
+			<row important_over="false">Jak najd<ch a="H7"/>alej z zadymionych wielkich mi<ch a="e"/>ast.</row>
+			<row important_over="false">Zrozum br<ch a="E7"/>acie, to tak trzeba łóżkiem tr<ch a="a"/>awa, dachem drzewa,</row>
+			<row important_over="false">Z wiatrem g<ch a="D"/>onić i z ptakami śpiewać w gł<ch a="G"/>os!<ch a="H7"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="1">
+				<row important_over="false">Trzeba g<ch a="e"/>onić trzeba gonić swe marz<ch a="a"/>enia</row>
+				<row important_over="false">I nie cz<ch a="H7"/>ekać ile trosk przyniesie l<ch a="e"/>os!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tym co <ch a="e"/>iść nie lubią, mówię do widz<ch a="a"/>enia,</row>
+			<row important_over="false">Za dni k<ch a="H7"/>ilka może się spotkamy zn<ch a="e"/>ów.<ch a="C"/><ch a="H7"/></row>
+			<row important_over="false">Idę w świ<ch a="e"/>at, by tam dogonić swe marz<ch a="a"/>enia,</row>
+			<row important_over="false">Aby sp<ch a="H7"/>ełnić kilka swoich złotych sn<ch a="e"/>ów.</row>
+			<row important_over="false">Więc z dziewc<ch a="E7"/>zyną swą pod rękę i z git<ch a="a"/>arą, i z piosenką,</row>
+			<row important_over="false">Precz mi sm<ch a="D"/>utki, precz przykrości słońce świ<ch a="G"/>eć!<ch a="H7"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="1">
+				<row important_over="false">Idę g<ch a="e"/>onić idę gonić swe marz<ch a="a"/>enia</row>
+				<row important_over="false">I spok<ch a="H7"/>oju szukać pośród starch drz<ch a="e"/>ew.</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Kuba P.</verificator><verificator>Michał Korch</verificator><verificator>
+			</verificator><verificator>
+			</verificator><verificator>
+		</verificator>
+			
+			
+			
+			
+			
+		</verificators>
+		<to_do>Nie wiem, kto przetłumaczył.</to_do>
+		<done>	
+			
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre>Piosenka turystyczna</genre>
+</song>

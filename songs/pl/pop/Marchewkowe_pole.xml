@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marchewkowe pole">
+	<artist type="solo">Lady Pank</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Marchewkowe pole rośnie wokół mnie</row>
+			<row important_over="false">W marchewkowym</row>
+			<row important_over="false">Polu jak warzywo tkwię</row>
+			<row important_over="false">Głową na dół</row>
+			<row important_over="false">Zakopany niczym struś</row>
+			<row important_over="false">Chcesz mnie spotkać</row>
+			<row important_over="false">Głowę obok w ziemię włóż</row>
+		</block>
+		<block type="chorus"><bis times="2">
+				<row important_over="false">Wszystko się może zdarzyć</row></bis>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr">
+				<ch a="D"/><ch a="A"/><ch a="G"/><ch a="F"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Marchewkowe</row>
+			<row important_over="false">O ogrodzie miewam sny</row>
+			<row important_over="false">W marchewkowym</row>
+			<row important_over="false">Stanie jest najlepiej mi</row>
+			<row important_over="false">Rosnę sobie</row>
+			<row important_over="false">Dołem głowa górą nać</row>
+			<row important_over="false">Kto mi powie</row>
+			<row important_over="false">Co się jeszcze może stać</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators/>
+		<done/>
+		<to_do/>
+	</status>
+	<keywords/>
+	<alias/>
+	<text_author type="solo"/>
+	<composer type="solo"/>
+	<music_source/>
+	<original_title/>
+	<translator/>
+	<album/>
+	<genre/>
+	<comment/>
+</song>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Piosenka napisana mimochodem" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Mimochodem</alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Słońce bł<ch a="a"/>yśnie między wsch<ch a="d"/>odem a zach<ch a="a"/>odem,<ch a="d"/></row>
+			<row important_over="true">Mimoch<ch a="a"/>odem obrys<ch a="e7"/>uje miasto chm<ch a="a"/>ur.</row>
+			<row important_over="false">Jednych dzi<ch a="a"/>egciem dzień nak<ch a="d"/>armi, innych mi<ch a="a"/>odem,<ch a="d"/></row>
+			<row important_over="false">Temu gł<ch a="a"/>owę wzniesie, t<ch a="e7"/>emu napnie szn<ch a="a"/>ur.</row>
+			<row important_over="true">Trochę st<ch a="C"/>arsze znów się st<ch a="F"/>anie to, co mł<ch a="C"/>ode,<ch a="d"/></row>
+			<row important_over="true">Jakby strz<ch a="C"/>epnął ptak kol<ch a="d"/>ejną kroplę z pi<ch a="e"/>ór —</row>
+			<row important_over="true">Mimoch<ch a="a"/>od<ch a="d"/>em, mimoch<ch a="a"/>od<ch a="d"/>em,</row>
+			<row important_over="true">Jakby strz<ch a="a"/>epnął kr<ch a="e"/>oplę z pi<ch a="a"/>ór.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tym pod n<ch a="a"/>ogi róż kobi<ch a="d"/>erzec, tamtym - kł<ch a="a"/>odę,<ch a="d"/></row>
+			<row important_over="false">Pozost<ch a="a"/>ałym, mimoch<ch a="e7"/>odem — byle c<ch a="a"/>o.</row>
+			<row important_over="false">Frustrat sk<ch a="a"/>argę śle, laur<ch a="d"/>eat pisze <ch a="a"/>odę,<ch a="d"/></row>
+			<row important_over="false">Raz się d<ch a="a"/>obro jawi zł<ch a="e7"/>em, raz — dobrem zł<ch a="a"/>o.</row>
+			<row important_over="false">Słowo wp<ch a="C"/>ada w morze sł<ch a="F"/>ów, jak kamień w w<ch a="C"/>odę,<ch a="d"/></row>
+			<row important_over="false">Krążek m<ch a="C"/>yśli pozost<ch a="d"/>awi, brnąc na dn<ch a="e"/>o —</row>
+			<row important_over="false">Mimoch<ch a="a"/>od<ch a="d"/>em, mimoch<ch a="a"/>od<ch a="d"/>em,</row>
+			<row important_over="false">Krążek m<ch a="a"/>yśli, brn<ch a="e"/>ąc na dn<ch a="a"/>o.<ch a="g"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Cierpi s<ch a="d"/>yty, niepoj<ch a="g"/>ętym zdjęty gł<ch a="d"/>odem,<ch a="g"/></row>
+			<row important_over="false">Zgłodniał<ch a="d"/>ego — mimoch<ch a="a"/>odem syci zł<ch a="d"/>ość.</row>
+			<row important_over="false">Temu — m<ch a="d"/>ostu przęsło, t<ch a="g"/>emu - dom z ogr<ch a="d"/>odem,<ch a="g"/></row>
+			<row important_over="false">Komuś <ch a="d"/>o coś chodzi, z<ch a="a"/>a kimś — chodzi c<ch a="d"/>oś:</row>
+			<row important_over="false">Na strac<ch a="F"/>enie, na poż<ch a="B"/>ytek i na szk<ch a="F"/>odę,<ch a="g"/></row>
+			<row important_over="false">Jak złośl<ch a="F"/>iwie między ps<ch a="g"/>y rzucona k<ch a="a"/>ość —</row>
+			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em, mimoch<ch a="d"/>od<ch a="g"/>em,</row>
+			<row important_over="false">Między ps<ch a="d"/>y rzuc<ch a="a"/>ona k<ch a="d"/>ość.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tańczą, w<ch a="d"/>alczą, zieją ż<ch a="g"/>arem, zioną chł<ch a="d"/>odem,<ch a="g"/></row>
+			<row important_over="false">Mimoch<ch a="d"/>odem spalą w p<ch a="a"/>ył, zetną w l<ch a="d"/>ód.</row>
+			<row important_over="false">Swego B<ch a="d"/>oga za słomi<ch a="g"/>aną szarpią br<ch a="d"/>odę,<ch a="g"/></row>
+			<row important_over="false">By im d<ch a="d"/>ał nadziei źdźbł<ch a="a"/>o, ładu ł<ch a="d"/>ut.</row>
+			<row important_over="false">Sen — za j<ch a="F"/>awę biorą, k<ch a="B"/>arę — za nagr<ch a="F"/>odę,<ch a="g"/></row>
+			<row important_over="false">Odtwarz<ch a="F"/>ając krótkie sch<ch a="g"/>erzo swe - bez n<ch a="a"/>ut,</row>
+			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em, mimoch<ch a="d"/>od<ch a="g"/>em,</row>
+			<row important_over="false">Krótkie sch<ch a="d"/>erzo sw<ch a="a"/>e — bez n<ch a="d"/>ut.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nic już wi<ch a="d"/>ęcej z tego r<ch a="g"/>ymu nie wywi<ch a="d"/>odę,<ch a="g"/></row>
+			<row important_over="false">Mimoch<ch a="d"/>odem układ<ch a="a"/>ając cierpką pi<ch a="d"/>eśń.</row>
+			<row important_over="false">Poci<ch a="d"/>eszenie tylko d<ch a="g"/>odam na osł<ch a="d"/>odę,<ch a="g"/></row>
+			<row important_over="false">Że w niej drz<ch a="d"/>emie mimoch<ch a="a"/>odem ważka tr<ch a="d"/>eść:</row>
+			<row important_over="false">Chwila świ<ch a="F"/>atła między wsch<ch a="B"/>odem a zach<ch a="F"/>odem,<ch a="g"/></row>
+			<row important_over="false">Wobec kt<ch a="F"/>órej trudno t<ch a="g"/>ak po prostu prz<ch a="a"/>ejść</row>
+			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em, mimoch<ch a="d"/>od<ch a="g"/>em,</row>
+			<row important_over="false">Trudno t<ch a="d"/>ak po p<ch a="d"/>r<ch a="a"/>ostu przejść.</row>
+			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em… Mimoch<ch a="d"/>od<ch a="g"/>em —</row>
+			<row important_over="false">Miasto chm<ch a="d"/>ur, chw<ch a="a"/>ile szcz<ch a="d"/>ęść.</row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Mimochodem</album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

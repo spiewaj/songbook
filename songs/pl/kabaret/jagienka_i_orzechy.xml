@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jagienka i orzechy">
+  <text_author type="solo">Andrzej Waligórski</text_author>
+  <comment>Trudność: Początkujący
+Strojenie: klasyczne (E A D G H e)
+Tonacja:     G
+W oparciu o: http://www.zdjecia.szymczak.waw.pl/szanty/spiewnik_2008-09-07.pdf</comment>
+  <composer type="solo">Olek Grotowski</composer>
+  <artist type="solo">Olek Grotowski; Małgosia Zwierzchowska</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Żyła raz jedna panienka <ch a="D"/></row>
+      <row important_over="never">Która zwała się Jagienka; <ch a="A"/></row>
+      <row important_over="never">Wiele z niej było pociechy,<ch a="A"/></row>
+      <row important_over="never">Bo tłukła pupą orzechy. <ch a="D"/></row>
+      <row important_over="never">Opisał ją, że jest taka,<ch a="D"/></row>
+      <row important_over="never">Sam pan Sienkiewicz w &quot;Krzyżakach&quot;. <ch a="G"/></row>
+      <row important_over="never">Wpierw żyła w cnocie jak mniszka, <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">A potem wyszła za Zbyszka. <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I wiodło im się chędogo, <ch a="D"/></row>
+      <row important_over="never">Chociaż, niestety, ubogo, <ch a="A"/></row>
+      <row important_over="never">Bo się pokończyły wojny,<ch a="A"/></row>
+      <row important_over="never">Zaczął się okres spokojny, <ch a="D"/></row>
+      <row important_over="never">A rycerz - rzecz znana wszędzie -<ch a="D"/></row>
+      <row important_over="never">Żyje z tego, co zdobędzie. <ch a="G"/></row>
+      <row important_over="never">Ruszył więc Zbyszko konceptem <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">I wpadł na taką receptę: <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Przywiesił na bramie druczek, <ch a="D"/></row>
+      <row important_over="never">Że tu się orzechy tłucze <ch a="A"/></row>
+      <row important_over="never">I od każdego orzecha<ch a="A"/></row>
+      <row important_over="never">Zgarniał taryfę do miecha. <ch a="D"/></row>
+      <row important_over="never">Laskowy orzech maleńki<ch a="D"/></row>
+      <row important_over="never">To nie problem dla Jagienki; <ch a="G"/></row>
+      <row important_over="never">Mogła za jednym przysiadem <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">Stłuc całe pół kilo zadem, <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">A gdy dorwała fistaszka <ch a="D"/></row>
+      <row important_over="never">Zostawała z niego kaszka. <ch a="A"/></row>
+      <row important_over="never">Niewiele też większej troski<ch a="A"/></row>
+      <row important_over="never">Przysparzał jej orzech włoski. <ch a="D"/></row>
+      <row important_over="never">Aż raz przybył jakiś młokos,<ch a="D"/></row>
+      <row important_over="never">Przywożąc z Afryki kokos, <ch a="G"/></row>
+      <row important_over="never">I zwrócił się do Jagusi, <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">Że mu tę rzecz roztłuc musi. <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Spłoniła się żwawa młódka, <ch a="D"/></row>
+      <row important_over="never">Wzięła dech, napięła udka, <ch a="A"/></row>
+      <row important_over="never">Pomodliła się przelotnie<ch a="A"/></row>
+      <row important_over="never">I w ten kokos jak nie grzmotnie! <ch a="D"/></row>
+      <row important_over="never">Niestety twarda skorupa<ch a="D"/></row>
+      <row important_over="never">Nawet przy tym nie zachrupa... <ch a="G"/></row>
+      <row important_over="never">Wrzasła Jaguś wniebogłosy, <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">Podskoczyła pod niebiosy <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I jak drugi raz przywali! <ch a="D"/></row>
+      <row important_over="never">...a ten bydlak jak ze stali! <ch a="A"/></row>
+      <row important_over="never">Natomiast biedna dziewczyna<ch a="A"/></row>
+      <row important_over="never">Zrobiła się całkiem sina, <ch a="D"/></row>
+      <row important_over="never">Oddech jej się jakby urwał,<ch a="D"/></row>
+      <row important_over="never">Wymamrotała: - O kurwa... <ch a="G"/></row>
+      <row important_over="never">Potem się zaniosła wyciem <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">I się pożegnała z życiem! <ch a="eA"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wniosek: Na ogół umiemy <ch a="D"/></row>
+      <row important_over="never">Rozgryzać własne problemy, <ch a="A"/></row>
+      <row important_over="never">Lecz zagraniczne nowości<ch a="A"/></row>
+      <row important_over="never">Przysparzają nam trudności! <ch a="D"/></row>
+      <row important_over="never">Morał: Tylko wzrost oświaty<ch a="D"/></row>
+      <row important_over="never">Może zmniejszyć nasze straty. <ch a="G"/></row>
+      <row important_over="never">I hasło bezwarunkowo: <ch a="G"/><ch a="Dh"/></row>
+      <row important_over="never">Mniej dupą, a więcej głową!!! <ch a="eA"/><ch a="D"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

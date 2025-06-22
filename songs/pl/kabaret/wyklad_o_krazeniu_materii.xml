@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wykład o Krążeniu Materii">
+  <alias>Więc była raz sobie żabka</alias>
+  <text_author type="solo">Andrzej Waligórski</text_author>
+  <composer type="solo">Olek Grotowski</composer>
+  <artist type="band">Małgorzata Zwierzchowska i Olek Grotowsk</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">...więc była raz sobie żabka zbudowana z mnóstwa atomów</row>
+      <row important_over="never">(bo z atomów wszystko się składa, począwszy od żabek do domów</row>
+      <row important_over="never">I do ludzi. Z atomów ty się składasz i twoja ciocia),</row>
+      <row important_over="never">Ale wracajmy do żabki. Otóż tę żabkę zjadł bocian,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I strawił ją dokładnie paskudny bocian ladaco,</row>
+      <row important_over="never">I śliczną, zieloną żabkę przerobił, nie powiem wam na co,</row>
+      <row important_over="never">I to coś spadło na ziemię. Była wiosna, świeciło słonko,</row>
+      <row important_over="never">I wietrzyk przyniósł z daleka jakieś nieduże nasionko,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I usadził je na tej hm... żabce, i przeszedł jeden dzionek</row>
+      <row important_over="never">I drugi, i z tego nasionka wylazł od dołu korzonek,</row>
+      <row important_over="never">A od góry to znowuż łodyżka, czy – jeśli wolicie – szypułka,</row>
+      <row important_over="never">I kwiatek na tej szypułce, a na kwiatku usiadła pszczółka</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I kroplę miodu wyjęła pyszczkiem czy może łapką,</row>
+      <row important_over="never">Nie myśląc wcale o tym, że ten miód był niedawno żabką.</row>
+      <row important_over="never">Więc podsumujmy: Część żabki bocianowi wrosła w pierze,</row>
+      <row important_over="never">Część jest w ziemi, część w kwiatku, część w miodzie, który</row>
+      <row important_over="never">pszczółka właśnie bierze.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Lecz nim go zaniesie do ula, to trochę uszczknie czułką</row>
+      <row important_over="never">I połknie, i ciut tej żabki stanie się właśnie pszczółką,</row>
+      <row important_over="never">A resztę, zawartą w miodzie, zjedzą na śniadanie dzieci,</row>
+      <row important_over="never">I tak się początkowa żabka po całym świecie rozleci,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">A każdy atom w czymś innym, ba! Nawet w innym kraju!</row>
+      <row important_over="never">Ale, być może, za milion lat te atomy się znowu spotkają</row>
+      <row important_over="never">Zgodnie z rachunkiem prawdopodobieństwa, i po króciutkiej odsapce</row>
+      <row important_over="never">Powiedzą: – Toż myśmy przecież już były raz w jednej żabce!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I zaczną się ściskać, całować, i będzie wielka laba,</row>
+      <row important_over="never">A potem się zastanowią: – Czy my znowu jesteśmy żaba?</row>
+      <row important_over="never">Ba! Któż to może wiedzieć? Ten twór, zupełnie nowy,</row>
+      <row important_over="never">To może być żaba – rzekotka lub Żabka Alojzy, księgowy,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Lub... zresztą któż wszystkie ewentualności wymieni?</row>
+      <row important_over="never">O rany... koledzy... to straszne, z czego my jesteśmy zrobieni!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

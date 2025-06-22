@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sen Katarzyny II">
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Na smyczy trz<ch a="G"/>ymam filoz<ch a="D"/>ofów Eur<ch a="G"/>opy</row>
+			<row important_over="false">Podparłam <ch a="G"/>armią marmur<ch a="D"/>owe Piotra str<ch a="e"/>opy</row>
+			<row important_over="false">Mam psy, sok<ch a="C"/>oły, konie - k<ch a="D"/>ocham łów szal<ch a="e"/>enie</row>
+			<row important_over="false">A wokół s<ch a="C"/>ame zaj<ch a="D"/>ące i jel<ch a="G"/>enie</row>
+			<row important_over="false">
+				<ch a="Fis"/> Pałace stawiam, głowy śc<ch a="h"/>inam</row>
+			<row important_over="false">
+				<ch a="Fis"/> Kiedy mi przyjdzie na to ch<ch a="G"/>ę<ch a="D"/>ć</row>
+			<row important_over="false">M<ch a="C"/>am biogr<ch a="D"/>afów, portrec<ch a="e"/>istów</row>
+			<row important_over="false">I jeszcze j<ch a="C"/>edno pr<ch a="D"/>agnę mi<ch a="G"/>eć</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">St<ch a="e"/>ój Katarz<ch a="a"/>yno!<ch a="e"/> Koronę C<ch a="a"/>arów</row>
+			<row important_over="false">S<ch a="e"/>en taki jak t<ch a="a"/>en może Ci z gł<ch a="C"/>ow<ch a="D"/>y zdj<ch a="G"/>ąć!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Kobietą j<ch a="G"/>estem ponad mi<ch a="D"/>arę swoich cz<ch a="G"/>asów</row>
+			<row important_over="false">Nie bawią mni<ch a="G"/>e umizgi bl<ch a="D"/>adych lowel<ch a="e"/>asów</row>
+			<row important_over="false">Ich miękkich p<ch a="C"/>alców dotyk b<ch a="D"/>udzi obrzydz<ch a="e"/>enie</row>
+			<row important_over="false">Już wolę ł<ch a="C"/>owić zaj<ch a="D"/>ące i jel<ch a="G"/>enie</row>
+			<row important_over="false"><ch a="Fis"/> Ze wstydu potem ten i <ch a="h"/>ów</row>
+			<row important_over="false">Rzekł <ch a="Fis"/>o mnie: niewyżyta ni<ch a="G"/>emr<ch a="D"/>a!</row>
+			<row important_over="false">I p<ch a="C"/>od bat<ch a="D"/>ogiem nago bi<ch a="e"/>egł</row>
+			<row important_over="false">Po śni<ch a="C"/>egu d<ch a="D"/>ookoła Kr<ch a="G"/>emla!</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Kochanka trz<ch a="G"/>eba mi taki<ch a="D"/>ego jak imp<ch a="G"/>erium</row>
+			<row important_over="false">Co by mnie br<ch a="G"/>ał tak jak ja d<ch a="D"/>aję - całą p<ch a="e"/>ełnią</row>
+			<row important_over="false">Co by i wł<ch a="C"/>adcy i podd<ch a="D"/>ańca był wciel<ch a="e"/>eniem</row>
+			<row important_over="false">I mi zast<ch a="C"/>ąpił zaj<ch a="D"/>ące i jel<ch a="e"/>enie</row>
+			<row important_over="false"><ch a="Fis"/> Co by rozumiał tak jak j<ch a="h"/>a</row>
+			<row important_over="false">Ten gł<ch a="Fis"/>upi dwór rozdanych r<ch a="G"/>ó<ch a="D"/>l</row>
+			<row important_over="false">I p<ch a="C"/>ośród p<ch a="D"/>ochylonych gł<ch a="e"/>ów</row>
+			<row important_over="false">Dawał mi r<ch a="C"/>ozkosz <ch a="D"/>albo b<ch a="G"/>ól!</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="chorus">
+			<row important_over="false">Gd<ch a="e"/>yby się t<ch a="a"/>aki koch<ch a="e"/>anek kiedyś zn<ch a="a"/>alazł</row>
+			<row important_over="false">Wi<ch a="e"/>em! Sama wi<ch a="a"/>em! Kazałab<ch a="C"/>ym g<ch a="D"/>o ści<ch a="G"/>ąć!</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<done>
+			
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do/>
+	</status>
+	<keywords/>
+	<alias/>
+	<music_source/>
+	<original_title/>
+	<translator/>
+	<album>Krzyk</album>
+	<genre>Poezja śpiewana</genre>
+	<comment/>
+</song>

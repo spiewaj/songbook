@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rozbite oddziały">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Po klęsce nie pierwszej, podnosząc przyłbicę,<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>Przechodzą, jak we śnie, ostatnie granice.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Przez cło przemycają swój okrzyk bojowy<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>I kulę ostatnią, co w ustach się schowa.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>Przy stołach współczucia nurzają się w wine<ch a="C"/><ch a="G"/><ch a="C"/></row>
+        <row important_over="false"><ch a="d"/>I obcym śpiewają o tej, co nie zginie<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Swą krew ocaloną oddają za darmo<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>Każdemu, kto zechce połączyć ich z armią.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Farbują mundury, wędrują przez kraje<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>I czasem strzelają do siebie nawzajem.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>Pod każdym sztandarem, byle nie białym<ch a="C"/><ch a="G"/><ch a="C"/></row>
+        <row important_over="false"><ch a="d"/>Szukają zwycięztwa rozbite oddziały<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Przychodzą po zmierzchu do kobiet im obcych<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>A tam, kędy przejdą — urodzą się chłopcy.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdy wrócą, przygnani kolejną zawieją,<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>Zobaczą, że synów swych nie rozumieją.<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Spisują więc dla nich noc w noc pamiętniki<ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Nieprzetłumaczalne na obce języki<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="d"/>I cierpią, gdy śmieje się z nich świat zwycięski<ch a="C"/><ch a="G"/><ch a="C"/></row>
+        <row important_over="false"><ch a="d"/>Niepomni, że mądry nie śmieje się z klęski<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

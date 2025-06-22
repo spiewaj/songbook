@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Absztyfikanci Grubej Berty">
+  <text_author type="solo">Julian Tuwim</text_author>
+  <comment/>
+  <composer type="solo">Zbigniew Stefański; Jarosław Chrząstek</composer>
+  <artist type="band">Bez Jacka</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Absztyfik<ch a="D"/>anci grubej B<ch a="e"/>erty </row>
+      <row important_over="true"><ch a="G"/>i katow<ch a="D"/>ickie węglok<ch a="C"/>opy <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>i borysła<ch a="G"/>wskie naftowi<ch a="D"/>erty, </row>
+      <row important_over="true"><ch a="e"/>i lodzerm<ch a="D"/>ensche, bycze chł<ch a="e"/>opy, </row>
+      <row important_over="true"><ch a="e"/>warszawskie b<ch a="D"/>ubki, żygo<ch a="e"/>laki </row>
+      <row important_over="true"><ch a="G"/>z bandą wyt<ch a="D"/>wornych pind na k<ch a="C"/>upę, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>rębajły, fr<ch a="G"/>anty, zabij<ch a="D"/>aki, </row>
+      <row important_over="true"><ch a="e"/>całujcie w<ch a="D"/>y mnie wszyscy w d<ch a="e"/>upę. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Socjały nudne i ponure,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">pedeki, neokatoliki,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">podskakiwacze pod kulturę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">czciciele radia i fizyki,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">uczone małpy, ścisłowiedzy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">co oglądacie świat przez lupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">i wszystko wiecie: co, jak, kiedy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I ty, fortuny skurwysynu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">gówniarzu uperfumowany,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">co splendor oraz spleen Londynu<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">nosisz na mordzie zakazanej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">i ty co mieszkasz dziś w pałacu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">a srać chodziłeś za chałupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">ty wypasiony na Ikacu,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I tem ów belfer szkoły żeńskiej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">co dużo chciałby, a nie może,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">i tem profesor Cy… wileński<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">/ Pan wie już za co, profesorze! /<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">I ty za młodu nie dorżnięta<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Megiero, co masz taki tupet,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">że szczujesz na mnie swe szczenięta;<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I tem Syjontki palestyńskie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Hulace, co lejecie tkliwe<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">starozakonne łzy kretyńskie,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">że „szumią jodły w Tel - Avivie”,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">i wszechsłowiańscy marzyciele,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">zebrani w malowniczą trupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">z byle mistycznym kpem na czele,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I tem aryjskie rzeczoznawce,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">wypierdy germańskiego ducha<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">/ gdy swoją krew i waszą sprawdzę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">wierzcie mi, jedna będzie jucha /,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Karne pętaki i szturmowcy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">zuchy z Makabi czy Owupe,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">i rekordziści i sportowcy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Izraeliccy doktorkowie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Widnia, żydowskiej Mekki, flance,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">co w Bochni, Stryju i Krakowie<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">szerzycie kulturalną francę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">którzy chlipiecie z „Naje Fraje”<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">swą intelektualną zupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">mądrale, oczytane faje,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I tem ględziarze i bajdury,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">ciągnący z nieba grubą rentę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">o, łapiduchy z Jasnej Góry,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">z Góry Kalwarii parchy święte,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">i ty księżuniu, co kutasa<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">zawiązanego masz na supeł,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">żeby ci czasem nie pohasał,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I wy, o których zapomniałem,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">lub pominąłem was przez litość,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">albo dlatego, że się bałem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">albo, że taka was obfitość,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">i ty cenzorze, co za wiersz ten<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">zapewne skażesz mnie na ciupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">I żem się stał świntuchów hersztem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Całujcie mnie wszyscy w dupę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

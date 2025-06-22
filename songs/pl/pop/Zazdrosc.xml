@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zazdrość">
+	<artist type="band">Hey</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Są <ch a="h"/>chwil<ch a="e"/>e <ch a="A"/>gdy <ch a="fis"/>wolałabym <ch a="h"/>martwym <ch a="e"/>widzieć cię<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Nie musiałabym się tobą dzielić nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Gdybym mogła schowałabym twoje oczy w mojej kieszeni<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Żebyś nie mógł oglądać tych, które są dla nas zagrożeniem<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Do pracy nie mogę puścić cię nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Tam tyle kobiet, każda w myślach gwałci cię<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Złotą klatkę sprawię ci, będę karmić owocami<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">A do nogi przymocuję złotą kulę z diamentami<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+		</block>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<done/>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<composer type="solo"></composer>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

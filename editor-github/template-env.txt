@@ -1,0 +1,4 @@
+OAUTH_CLIENT_ID: "Ov23limEOGsQjSBFRMCv"
+BASE_URL: "http://localhost:8080"
+EDITOR_DOMAIN: "https://spiewaj.com"
+EDITOR_PATH: "/editor"

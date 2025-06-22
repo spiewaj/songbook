@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Obława" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment>Wg piosenki "Obława na wilki" W. Wysockiego</comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Skulony w jakiejś ciemnej jamie smaczniem sobie spał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">I spały małe wilczki dwa - zupełnie ślepe jeszcze<ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Wtem stary wilk przewodnik co życie dobrze znał<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Łeb podniósł warknął groźnie aż mną szarpnęły dreszcze<ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Poczułem nagle wokół siebie nienawistną woń<ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Woń która tłumi wszelki spokój zrywa wszystkie sny<ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Z daleka ktoś gdzieś krzyknął nagle krótki rozkaz: goń<ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">I z czterech stron wypadły na nas cztery gończe psy<ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Obława! Obława! Na młode wilki obława! <ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Te dzikie zapalczywe, w gęstym lesie wychowane!<ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Krąg śniegu wydeptany! W tym kręgu plama krwawa! <ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Ciała wilcze kłami gończych psów szarpane! <ch a="F"/><ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ten który rzucił na mnie się niewiele szczęścia miał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Bo wypadł prosto mi na kły i krew trysnęła z rany <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Gdym teraz - ile w łapach sił - przed siebie prosto rwał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Ujrzałem małe wilczki dwa na strzępy rozszarpane!<ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zginęły ślepe, ufne tak puszyste kłębki dwa <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Bezradne na tym świecie złym nie wiedząc kto je zdławił <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">I zginie także stary wilk choć życie dobrze zna <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Bo z trzema naraz walczy psami i z ran trzech naraz krwawi <ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Wypadłem na otwartą przestrzeń pianę z pyska tocząc <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Lecz tutaj też ze wszystkich stron - zła mnie otacza woń! <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">A myśliwemu co mnie dojrzał już się śmieją oczy <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">I ręka pewna, niezawodna podnosi w górę broń! <ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rzucam się w bok, na oślep gnam aż ziemia spod łap tryska <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">I wtedy pada pierwszy strzał co kark mi rozszarpuje <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Wciąż pędzę, słyszę jak on klnie! I krew mi płynie z pyska <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">On strzela po raz drugi! Lecz teraz już pudłuje! <ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Wyrwałem się z obławy tej schowałem w jakiś las <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Lecz ile szczęścia miałem w tym to każdy chyba przyzna <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Leżałem w śniegu jak nieżywy długi długi czas <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Po strzale zaś na zawsze mi została krwawa blizna!<ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecz nie skończyła się obława i nie śpią gończe psy <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">I giną ciągle wilki młode na całym wielkim świecie <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Nie dajcie z siebie zedrzeć skór! Brońcie się i wy! <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">O, bracia wilcy! Brońcie się nim wszyscy wyginiecie!<ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="3"/>
+	</lyric>
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<authors/>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do>Wpisałem uwagę, a nie tłumaczenie, bo jednak przy tym poziomie odstępstwa od oryginału o tłumaczeniu trudno mówić</to_do>
+	</status>
+	<music_source></music_source>
+</song>

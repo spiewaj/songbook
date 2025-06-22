@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Do szopy, hej, pasterze">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Do szopy, hej, pasterze</row>
+      <row important_over="false">Do szopy bo tam cud</row>
+      <row important_over="false">Syn boży w żłobie leży</row>
+      <row important_over="false">By zbawić ludzki ród</row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false">Śpiewajcie aniołowie, pasterze grajcie mu</row>
+        <row important_over="false">Kłaniajcie się królowie, nie zbudźcie go ze snu</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Padnijmy na kolana</row>
+      <row important_over="false">To dziecię to nasz Bóg</row>
+      <row important_over="false">Witajmy swego pana</row>
+      <row important_over="false">Miłości złóżmy dług</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

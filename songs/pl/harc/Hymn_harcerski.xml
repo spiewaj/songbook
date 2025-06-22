@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hymn harcerski">
+  <alias>Wszystko co nasze</alias>
+  <text_author type="solo">Ignacy Kozielewski; Olga Drahonowska-Małkowska</text_author>
+  <comment>
+    Strofy wiersza Ignacego Kozieleckiego uzupełniła refrenem Olga Drahonowska-Małkowska, adaptując do jednocześnie do melodii pieśni "Na barykady". 
+    Tekst i nuty pieśni "Wszystko, co nasze" zostały opublikowane w czasopiśmie "Skaut" jesienią 1912 roku.
+    Hymn ZHP od 1918 roku.</comment>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Wszystko co nasze Polsce oddamy</row>
+      <row important_over="false">W niej tylko życie, więc idziem żyć</row>
+      <row important_over="false">Świty się bielą otwórzmy bramy</row>
+      <row important_over="false">Rozkaz wydany, wstań w słońce idź</row>
+      <row important_over="false">Ramię pręż, słabość krusz</row>
+      <row important_over="false">Ducha tęż ojczyźnie miłej służ</row>
+      <row important_over="false">Na jej zew w bój czy w trud</row>
+      <row important_over="false">Pójdzie rad harcerzy polskich ród</row>
+      <row important_over="false">Harcerzy polskich ród</row>
+    </block>
+  </lyric>
+  <music metre="2/2">
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <music_source>Pień "Na barykady"</music_source>
+  <album/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
+    <to_do>Nigdy tego nie śpiewaliśmy do gitary, nie wiem, czy warto znajdować i dopisywać chwyty.</to_do>
+  </status>
+</song>

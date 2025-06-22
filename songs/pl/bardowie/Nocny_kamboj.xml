@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Nocny kamboj">
+  <text_author type="band">Aktorzy łódzkiej szkoły filmowej</text_author>
+  <composer type="solo">na motywach ścieżki dźwiękowej autorstwa Johna Barry'ego</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false">wersja polska</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false"><ch a="C"/>Kiedy kamboj nie ma konia,</row>
+        <row important_over="false"><ch a="C7"/>Kiedy kamboj nie ma konia,</row>
+        <row important_over="false"><ch a=""/><ch a="FGC"/><ch a=""/><ch a=""/>Nie wie po co żyje, po co je(st).</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/><ch a="G"/>Jedź do miasta wielkiego,</row>
+      <row important_over="false"><ch a="C"/><ch a="e"/><ch a="a"/>Do wielkiego miasta jedź,</row>
+      <row important_over="false"><ch a="F"/><ch a="G"/><ch a="C"/>Tam kambojom bez konia łatwiej żyć,</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false"><ch a="F"/><ch a="G"/><ch a="C"/><ch a="e"/><ch a="a"/>Zapytają Cię ludzie - Gdzie jest twój koń</row>
+        <row important_over="false"><ch a="F"/><ch a="G"/><ch a="C"/>Powiedz by się nie przypierdalali doń.</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false">wersja angielska</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="true">(O,) łen de kamboj hez noł horsez,</row>
+        <row important_over="false">Łen de kamboj hez noł horsez,</row>
+        <row important_over="false">Hi daznt noł tu bi or not tu bi.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a=""/>Lets goł tu big siti,</row>
+      <row important_over="false">Tu big siti lets goł</row>
+      <row important_over="false">Zer łiwałt horses izjer tu liw.</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false">End wej łil ask ju - Wer iz jor hors</row>
+        <row important_over="false">End ju anser “Kis maj as”</row>
+        <row important_over="false"/>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false">wersja rosyjska</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false">Niet łoszadi u kamboja,</row>
+        <row important_over="false">Niet łoszadi u kamboja,</row>
+        <row important_over="false">On nie znajet kak jemu żyt’</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ujezżaj w balszoj gorad,</row>
+      <row important_over="false">W balszoj gorad ujezżaj,</row>
+      <row important_over="false">am kambojom bez łoszadi liegczie żyt’ </row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false">Budu sprasziwat’ ludi – Gdzie łoszad’ twaja,</row>
+        <row important_over="false">Niet łoszadi, nit szczastia ni chuja.</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false">wersja łódzka</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kiedy aktor nie ma rola,</row>
+      <row important_over="false">Kiedy aktor nie ma rola,</row>
+      <row important_over="false">Nie wie po co żyje, po co jest.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kiedy aktor nie ma roli,</row>
+      <row important_over="false">Lub gdy rolę swą spierdoli</row>
+      <row important_over="false">Nie wie, po co żyje, po co jest.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jedź do miasta małego,</row>
+      <row important_over="false">Do małego miasta - Uć.</row>
+      <row important_over="false">Tam aktorom bez rola łatwiej żyć</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false">Zapytają koledzy - Gdzie sukces twój</row>
+        <row important_over="false">"Sukces mój, biznes mój i (taki)…"</row>
+      </bis>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <status>
+    <done>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>Kasia Tabor</verificator>
+    </verificators>
+  </status>
+</song>

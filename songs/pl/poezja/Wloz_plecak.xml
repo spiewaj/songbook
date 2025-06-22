@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Włóż plecak">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Gdy na Rysach ujrzysz ze ździwieniem<ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Alpinistę w czarnym garniturze<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Zamiast kiwać głową ze zdziwieniem<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Daj mu prawdy słowa dwa nieduże<ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Włóż plecak, to nic że ciężki<ch a="C"/></row>
+      <row important_over="false"><ch a="D"/>I załóż koszulę w kratę<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
+      <row important_over="false"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Gdy turystów grono romantyczne<ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Gasi chandrę alkoholu strugą<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Zamiast robić gesty dramatyczne<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>To recytuj strofkę im niedługą<ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Kiedy spłoszy ciszę rezerwatu<ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Tranzystora zgrzytu cała gama<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Bądź spokojny nie trzeba dramatu<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Dla słuchacza rada będzie mała<ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Gdy polubisz fotel i kominek<ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>I pantofli spokojne człapanie<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>Będziesz żonę miał zamiast dziewczyny<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>To zastosuj swoje przykazanie<ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

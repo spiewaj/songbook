@@ -1,0 +1,42 @@
+installing on OSX:
+
+# Also see 'prepare_context.sh' for configuration of python environment.
+
+  brew install pkg-config icu4c python-build epubcheck pyyaml
+
+
+Install mactex: https://www.tug.org/mactex/mactex-download.html
+
+ sudo tlmgr update --self
+ sudo tlmgr install ucs
+ sudo tlmgr install polski xstring pbox varwidth ec qrcode helvetic
+
+
+#
+mktextfm ecssdc10
+mktexpk --mfmode / --bdpi 600 --mag 0+420/600 --dpi 420 ecssdc10
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ecssdc10
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecrm0900
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecbx0900
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecbx1728
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecrm1728
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecrm1000
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecrm1200
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 ecssdc10
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecbx1000
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ecrm1095
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ectt2488
+
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ectt3583
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 ectt1728
+
+
+installing on Linux:
+
+  sudo apt-get install python3-lxml
+  pip3 install -r requirements.txt
+
+  pip uninstall pyicu
+  pip install --no-binary=:pyicu: pyicu
+
+  sudo apt-get install texlive texlive-latex-extra texlive-lang-polish

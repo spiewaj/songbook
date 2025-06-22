@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Między nami tyle śniegu">
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Ślady Tw<ch a="d"/>oje zasyp<ch a="B"/>ało</row>
+			<row important_over="true">W śniegu c<ch a="A"/>ałkiem się zgub<ch a="d"/>iły</row>
+			<row important_over="true">Szukać tr<ch a="B"/>udno — wszędzie bi<ch a="F"/>ało</row>
+			<row important_over="true">Czekać — t<ch a="C"/>eż nad moje siły</row>
+			<row important_over="true"><ch a="d"/> Gdzie Cię poniosło na tych s<ch a="A"/>aniach?</row>
+			<row important_over="true">Co Ci się st<ch a="B"/>ało w środku z<ch a="F"/>imy?</row>
+			<row important_over="true">A jeszcze l<ch a="C"/>atem byłaś ze mną</row>
+			<row important_over="true">Czy w twoje ż<ch a="A"/>ycie wszedł ktoś inny?</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Między n<ch a="d"/>ami tyle śni<ch a="B"/>egu</row>
+			<row important_over="true">Między n<ch a="A"/>ami tyle l<ch a="d"/>odu</row>
+			<row important_over="true">Czy traf<ch a="B"/>imy znów na si<ch a="F"/>ebie</row>
+			<row important_over="true">W naszych <ch a="C"/>oknach szyby chłodu</row>
+			<row important_over="true"><ch a="d"/> Może wiosna Cię odmi<ch a="A"/>eni</row>
+			<row important_over="true">Może l<ch a="B"/>ato da zap<ch a="F"/>omnieć</row>
+			<row important_over="true">Czekam t<ch a="C"/>ylko do jesieni</row>
+			<row important_over="true">Więc przyp<ch a="d"/>omnij<ch a="A"/> sobie <ch a="d"/>o mnie</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mam po T<ch a="d"/>obie listów k<ch a="B"/>ilka</row>
+			<row important_over="false">I krzyż<ch a="A"/>ówkę bez dwóch h<ch a="d"/>aseł</row>
+			<row important_over="false">Pięć bil<ch a="B"/>etów tramwaj<ch a="F"/>owych</row>
+			<row important_over="false">Pewnie dz<ch a="C"/>isiaj też nie zasnę</row>
+			<row important_over="false">Bo wciąż w m<ch a="d"/>yślach biję się ze s<ch a="A"/>obą</row>
+			<row important_over="false">Gdybyś dziś zn<ch a="B"/>ów stanęła na pr<ch a="F"/>ogu</row>
+			<row important_over="false">Ze śniegu p<ch a="C"/>ewnie bym Cię otrzepał</row>
+			<row important_over="false">I dzięk<ch a="A"/>ował sam nie wiem komu</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Tylko chcieć" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">J.Fiwek</text_author>
+	<comment></comment>
+	<composer type="solo">Z. Piasecki</composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Że sp<ch a="e"/>adnie z nieba to co chc<ch a="Fis"/>esz,</row>
+			<row important_over="true">M<ch a="H7"/>ylisz się bracie i na p<ch a="e"/>ewno —</row>
+			<row important_over="false">Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Tylko chci<ch a="e"/>eć, będziesz miał sł<ch a="D"/>ońce co dnia,</row>
+			<row important_over="true">Tylko chci<ch a="e"/>eć, rozjaśnisz k<ch a="D"/>ażdy mr<ch a="G"/>ok,</row>
+			<row important_over="true">Tylko chci<ch a="a"/>eć, Twój c<ch a="e"/>ały będzie zodiak,</row>
+			<row important_over="true">Tylko chci<ch a="C"/>eć, a szcz<ch a="H7"/>ęście masz o kr<ch a="e"/>ok.</row>
+			<row important_over="true">Kolory t<ch a="Fis7"/>ęczy <ch a="H7"/>i złoto zb<ch a="e"/>óż,</row>
+			<row important_over="true">Srebro księż<ch a="Fis7"/>yca <ch a="H7"/>i zapach r<ch a="e"/>óż…</row>
+			<row important_over="true"><ch a="a"/> Dla ciebie wsz<ch a="H7"/>ystko!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nie p<ch a="e"/>ójdziesz dalej nawet kr<ch a="Fis"/>ok,</row>
+			<row important_over="false">Gdy st<ch a="H7"/>oisz w miejscu — to na p<ch a="e"/>ewno.</row>
+			<row important_over="false">Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Nie cz<ch a="e"/>ekaj jutra, dzisiaj j<ch a="Fis"/>uż</row>
+			<row important_over="false">Ob<ch a="H7"/>udź się bracie, kwiaty wi<ch a="e"/>ędną.</row>
+			<row important_over="false">I j<ch a="e"/>uż bez cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	
+	
+	
+	<music metre="3/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="1788" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="F"/> Ta pierwsza morska p<ch a="B"/>odróż do Australii!</row>
+			<row important_over="true">Ł<ch a="F"/>otry przy burtach, prostyt<ch a="C"/>utki w kojach -</row>
+			<row important_over="true"><ch a="F"/> Wszyscy się bali, łk<ch a="B"/>ali i rzygali</row>
+			<row important_over="true"><ch a="F"/> W drodze do raju. Przewrotn<ch a="C"/>ości Twoja</row>
+			<row important_over="true">P<ch a="d"/>anie, coś w jeszcze n<ch a="g"/>am nieznanych planach</row>
+			<row important_over="true">Mi<ch a="d"/>ał czarne diabły strzeg<ch a="a"/>ące wybrzeży</row>
+			<row important_over="true">Ed<ch a="B"/>enu, który prz<ch a="C"/>eznaczyłeś dl<ch a="F"/>a nas,</row>
+			<row important_over="true">A w kt<ch a="B"/>óry nikt, prawdę m<ch a="C"/>ówiąc, nie wi<ch a="d"/>erzył!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Czym żeśmy, marni, zasłużyli na to? <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Ten, co zawisnąć miał za kradzież płaszcza - <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Płakał nad swoją niechybną zatratą; <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Nie widział Ciebie w robaczywych masztach <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Statku, co tylko był więzieniem nowym; <ch a="d"/><ch a="g"/></row>
+			<row important_over="false">Tej co kupczyła ciałami swych dziatek - <ch a="d"/><ch a="a"/></row>
+			<row important_over="false">Ani przez mgnienie nie przyszło do głowy, <ch a="B"/><ch a="C"/><ch a="F"/></row>
+			<row important_over="false">Że to nadziei - nie rozpaczy statek. <ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niejeden żołnierz z ponurej eskorty <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">(Bo czym się ich los od naszego różnił?) <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Wiedział, że nigdy już nie ujrzy portu, <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Gdzie go podejmą karczmarze usłużni <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">I płatne dziewki; że zabraknie rumu <ch a="d"/><ch a="g"/></row>
+			<row important_over="false">Zanim do celu przygnasz okręt szparki. <ch a="d"/><ch a="a"/></row>
+			<row important_over="false">Z marynarzami pili więc na umór <ch a="B"/><ch a="C"/><ch a="F"/></row>
+			<row important_over="false">I - wbrew zakazom - grali o więźniarki. <ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Prawda, nie wszyscy próby Twe przetrwali, <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Ale też ciężkoś nas doświadczał, Panie: <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Nie oszczędzałeś nam wysokiej fali, <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Za którą mnogim przyszło w oceanie <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Zakończyć żywot; innym dziąsła zgniły, <ch a="d"/><ch a="g"/></row>
+			<row important_over="false">Wypadły zęby, rozgorzały wrzody… <ch a="d"/><ch a="a"/></row>
+			<row important_over="false">Więc znaczą nasz zielony szlak mogiły <ch a="B"/><ch a="C"/><ch a="F"/></row>
+			<row important_over="false">Szkorbutu, szału, francuskiej choroby.<ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nikt nie odnajdzie w ruchomych odchłaniach <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Ciał nieszczęśników - oprócz Ciebie, Boże. <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Ich żywot grzeszny epitafiów wzbrania, <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Lecz - ukarani. Więc wystarczy może, <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Żeś się posłużył starszliwym przykładem: <ch a="d"/><ch a="g"/></row>
+			<row important_over="false">Oni naprawdę dotarli do piekieł, <ch a="d"/><ch a="a"/></row>
+			<row important_over="false">A umierając nie wierzył z nich żaden, <ch a="B"/><ch a="C"/><ch a="F"/></row>
+			<row important_over="false">Że w swym cierpieniu umiera - człowiekiem.<ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ląd nam się wydał niegościnny, dziki; <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Łotr bez honoru, kobieta sprzedajna <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Z dnia na dzień - jak się stać ma osadnikiem <ch a="F"/><ch a="B"/></row>
+			<row important_over="false">Nieznanych światów? Bo rozpoznać Raj nam <ch a="F"/><ch a="C"/></row>
+			<row important_over="false">Nie było łatwo; znaleść w sobie siłę, <ch a="d"/><ch a="g"/></row>
+			<row important_over="false">Wbrew przeciwnościom, bez słowa zachęty <ch a="d"/><ch a="a"/></row>
+			<row important_over="false">By mimo wszystko żyć - nim nam odkryłeś <ch a="B"/><ch a="C"/><ch a="F"/></row>
+			<row important_over="false">Kraj szczodry w zboże, złoto i diamenty.<ch a="B"/><ch a="C"/><ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Łajdacki pomiot, łotrowskie nasienie</row>
+			<row important_over="false">Czerpiąc ze spichrza Twoich dóbr wszelakich -</row>
+			<row important_over="false">Choć tyle wiemy własnym doświadczeniem:</row>
+			<row important_over="false">W nas jest Raj, Piekło - I do obu - szlaki.</row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

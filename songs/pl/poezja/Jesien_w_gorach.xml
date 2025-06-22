@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesień w górach">
+  <alias/>
+  <text_author type="solo">Sieciarz; A. Turbus</text_author>
+  <comment/>
+  <composer type="solo">Andrzej Mróz</composer>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Lato zamknięte kluczem ptaków<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Zostawia tylko swe wspomnienia<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Jesień odważnie stawia kroki<ch a="a"/></row>
+      <row important_over="false"><ch a="H7"/>Zaczyna mgłami dyszeć ziemia<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>A w górach nie ma już nikogo<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Niebo nasz straszy niepogodą<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Lato do ciepłych stron umyka<ch a="a"/></row>
+      <row important_over="false"><ch a="H7"/>W skłębionych chmurach i stumykach<ch a="E"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

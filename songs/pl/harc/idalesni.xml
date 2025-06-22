@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idą leśni">
+  <text_author type="solo">Jerzy Jurandot</text_author>
+  <composer>Jerzy Wasowski</composer>
+  <artist type="solo">Janusz Zakrzeński</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Nie ma nikt na świecie domu j<ch a="E"/>ak my m<ch a="E7"/>amy, </row>
+      <row important_over="true"><ch a="E7"/>Jest zielony latem , zima śni<ch a="a"/>eżnobiały,</row>
+      <row important_over="true"><ch a="A7"/>Mamy dach z gałęzi, z mchu mi<ch a="d"/>ękkiego łóżko, </row>
+      <row important_over="true"><ch a="H7"/>Lampa jest nam księżyc ponad l<ch a="E"/>eśna dr<ch a="E7"/>óżka,</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Idą, idą leśni, k<ch a="E7"/>ompas maja z gwiazd, </row>
+      <row important_over="true"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
+      <row important_over="true"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
+      <row important_over="true"><ch a="a"/>Tam gdzie my jesteśmy, tam jest wol<ch a="E"/>ny k<ch a="a"/>raj. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Górą chmurka płynie, ptak po niebie tańczy,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="never">Dołem przez gęstwinę idą partyzanci,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Drapieżniki leśne, wilków złych wataha,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">Żandarm wejść tu nie chce i SS ma stracha.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Nie wiadomo nigdy gdzie i skąd spadniemy<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="never">Mścić niemieckie krzywdy wobec polskiej ziemi,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Długa nasza droga, bron ugniata ramie,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">Kule są dla wroga, a ostatnia dla mnie.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Nie martw się dziewczyno, trzeba mieć nadzieje,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="never">Wszak nie wszyscy giną, może ocaleje,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Jak będzie ładnie wrócić do swej wioski,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="never">Gdy ostatni padnie żołdak hitlerowski.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka żołnierska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

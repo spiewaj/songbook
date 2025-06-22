@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o świętym Mikołaju">
+	<alias/>
+	<text_author type="solo">Andrzej Wierzbicki</text_author>
+	<comment/>
+	<composer type="solo">Andrzej Wierzbicki</composer>
+	<artist type="band">Seta</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/> W rozstrzel<ch a="G"/>onej ch<ch a="E"/>acie</row>
+			<row important_over="true">R<ch a="a"/>ozpal<ch a="G"/>iłem <ch a="a"/>ogień</row>
+			<row important_over="true"><ch a="a"/> Z rozwal<ch a="G"/>onych pi<ch a="E"/>eców</row>
+			<row important_over="true">Pi<ch a="F"/>eśni wyniosłem w<ch a="E"/>ęgle</row>
+			<row important_over="true">Naciągn<ch a="a"/>ąłem na drz<ch a="C"/>azgi gontów</row>
+			<row important_over="true"><ch a="d"/> Błękitną pł<ch a="E"/>achtę nieba</row>
+			<row important_over="true">B<ch a="C"/>ędę mal<ch a="F"/>ował od n<ch a="C"/>o<ch a="E7"/>w<ch a="a"/>a</row>
+			<row important_over="true"><ch a="d"/> Wiosk<ch a="E"/>ę w dol<ch a="a"/>inie<ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true"><ch a="C"/> Święty M<ch a="G"/>ikołaju</row>
+				<row important_over="true"><ch a="C"/> Opowiedz j<ch a="E"/>ak tu było</row>
+				<row important_over="true">J<ch a="a"/>akie pi<ch a="d"/>eśni śpiew<ch a="C"/>a<ch a="E"/>n<ch a="a"/>o</row>
+				<row important_over="true"><ch a="d"/> Gdzie się p<ch a="E"/>asły<ch a="a"/> k<ch a="G"/>onie<ch a="(d E a)"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> A on ni<ch a="G"/>e chce g<ch a="E"/>adać</row>
+			<row important_over="false"><ch a="a"/> Ze mn<ch a="G"/>ą po p<ch a="a"/>olsku</row>
+			<row important_over="false"><ch a="a"/> Z wypal<ch a="G"/>onych źr<ch a="E"/>enic</row>
+			<row important_over="false"><ch a="F"/> Tylko deszcze pł<ch a="E"/>yną</row>
+			<bis times="2">
+				<row important_over="false">Ej śl<ch a="a"/>epcze na<ch a="C"/>uczę swoje dzi<ch a="d"/>ecko p<ch a="E"/>o łemkowsku</row>
+				<row important_over="false">B<ch a="C"/>ędziecie r<ch a="F"/>azem ż<ch a="C"/>e<ch a="E7"/>br<ch a="a"/>ać</row>
+				<row important_over="false"><ch a="d"/> W malow<ch a="E"/>anych wi<ch a="a"/>oskach<ch a="(d E a G)"/></row>
+			</bis>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>	
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator><verificator>Adam</verificator>
+			
+			
+		</verificators>
+		<to_do>Adam -&gt;Poprawiłem wszystkie bisy, akord który wpadł do tekstu i akordy w bisach</to_do>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

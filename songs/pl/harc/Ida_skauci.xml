@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idą skauci">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">I<ch a="a"/>dą skauci ł<ch a="F"/>ez dol<ch a="E"/>iną</row>
+			<row important_over="true">N<ch a="a"/>ocką głuchą n<ch a="F"/>ocką s<ch a="E"/>iną r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
+			<row important_over="true">H<ch a="C"/>ej druhowie gd<ch a="G"/>zie idzi<ch a="A7"/>ecie</row>
+			<row important_over="true">Cz<ch a="d"/>ego szukac<ch a="F"/>ie po świ<ch a="G"/>ecie r<ch a="C"/>az, d<ch a="E7"/>wa, tr<ch a="a"/>zy</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">M<ch a="a"/>y idziemy w z<ch a="F"/>órz świt<ch a="E"/>anie</row>
+			<row important_over="false">T<ch a="a"/>am gdzie Polski zm<ch a="F"/>artwychw<ch a="E"/>stanie r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
+			<row important_over="false"><ch a="C"/>Ramię w ramię dr<ch a="G"/>uhu m<ch a="A7"/>iły</row>
+			<row important_over="false"><ch a="d"/>W pełni moc<ch a="F"/>y w pełni s<ch a="G"/>iły r<ch a="C"/>az, d<ch a="E7"/>wa, tr<ch a="a"/>zy</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Siła nasza w s<ch a="F"/>ercach b<ch a="E"/>ędzie</row>
+			<row important_over="false"><ch a="a"/>Z nią zwyciężym wr<ch a="F"/>oga wsz<ch a="E"/>ędzie r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
+			<row important_over="false">P<ch a="C"/>oprzez burze <ch a="G"/>i zawi<ch a="A7"/>eje</row>
+			<row important_over="false">L<ch a="d"/>epsza przyszłość P<ch a="F"/>olsce dni<ch a="G"/>eje r<ch a="C"/>az, d<ch a="E7"/>wa, tr<ch a="a"/>zy</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W zb<ch a="a"/>ożnej pracy w d<ch a="F"/>ucha tr<ch a="E"/>udzie</row>
+			<row important_over="false">Rz<ch a="a"/>ucim światu p<ch a="F"/>ieśń o c<ch a="E"/>udzie r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
+			<row important_over="false"><ch a="C"/>Będziem śpiewać p<ch a="G"/>ieśń rad<ch a="A7"/>ości</row>
+			<row important_over="false"><ch a="d"/>O wspaniałym dni<ch a="F"/>u woln<ch a="G"/>ości r<ch a="C"/>az, d<ch a="E7"/>wa, trz<ch a="a"/>y,</row>
+			<row important_over="false">r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y, r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do>Zgodnie z google testem poprawiłem tekst na "zabrzmi nasza" zamiast "będziem śpiewać". Zamiast wspaniały pojewia się złocisty lub cudowny, więc zostawiam.</to_do>
+		<done>	<text/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre>Piosenka harcerska</genre>
+</song>

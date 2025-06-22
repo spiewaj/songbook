@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pietruszka">
+	<alias></alias>
+	<text_author type="solo">Ania Lorenc</text_author>
+	<comment></comment>
+	<composer type="solo">Urszula Wojciechowska</composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<row style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="A"/>Kiedy myślę jak wielkim przypadkiem<ch a="D"/><ch a="A"/></row>
+				<row important_over="false"><ch a="A"/>Jest to nasze tutaj spotkanie<ch a="D"/><ch a="A"/></row>
+				<row important_over="false"><ch a="E"/>To wydaje mi się że tylko cudem<ch a="fis"/><ch a="D"/></row>
+				<row important_over="false"><ch a="D"/>Zdążyłeś na nie mój Panie<ch a="E"/><ch a="A"/></row>
+				<row important_over="false"><ch a="A"/>Gdybyś się przecież urodził<ch a="D"/><ch a="A"/></row>
+				<row important_over="false"><ch a="A"/>Sto lat temu albo za rzeką<ch a="D"/><ch a="A"/></row>
+				<row important_over="false"><ch a="E"/>I był pietruszką albo słoniem<ch a="fis"/><ch a="D"/></row>
+				<row important_over="false"><ch a="D"/>Duszom byłoby za daleko<ch a="E"/><ch a="A"/></row>
+			</bis>
+		</block>
+		<block type="other">
+			<row style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+		</block>
+	</lyric>
+	
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Alek</verificator><verificator>Krzysiek Cz.</verificator>
+			
+			
+		</verificators>
+		<to_do></to_do>
+		<done/>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o smutnym skinie">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo">Big Cyc</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Skin jest całkem łysy, włosków on nie nosi<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Glaca w słońcu błyszczy jakby kombajn kosił<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Pejsów nie ma skin, kitek nienawidzi<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Boją się go Rabi Murzyni i Żydzi<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Najgorsza dla skina jest co roku zima<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Jak on ją przetrzyma przecież włosków ni ma<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="e"/>Nałóż czapkę skinie, skinie nałóz czapkę<ch a="D"/><ch a="h"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Kiedy wicher wieje, gdy pogoda w kratkę<ch a="D"/><ch a="h"/><ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Uszka ci się przeziębią, kark zlodowaceje<ch a="A"/><ch a="D"/><ch a="h"/></row>
+      <row important_over="false"><ch a="G"/>Resztki myśli z mózgu wiaterek przewieje<ch a="A"/><ch a="D"/><ch a="h"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Mamusia na drutach czapkę z wełny robi<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Nałuż ją skinie gdy się ochłodzi<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Wełna główkę grzeje, ciepło jest pod czaszką<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>I komórki szare wówczas nie zamarzną<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Nasz skin był odważny, czapki nie nałożył<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Całą zimę biegał łysy, wiosny już nie dożył<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Główka mu zsiniała, uszka odmroziły<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Czaszka na pół pękła, szwy wewnątrz puściły<ch a="G"/><ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

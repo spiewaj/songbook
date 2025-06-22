@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jedyne co mam">
+  <artist>Pod Budą</artist>
+  <lyric>
+    <block type="chorus">
+      <row>Jedyne co mam to złudzenia,<ch a="a"/></row>
+      <row>Że mogę mieć własne pragnienia.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Jedyne co mam to złudzenia,<ch a="d"/><ch a="a"/></row>
+      <row>Że mogę je mieć.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row>Miałem siebie na własność,<ch a="a"/></row>
+      <row>Ktoś zabrał mi prywatność.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Co mam zrobić, bez siebie jak żyć,<ch a="d"/><ch a="a"/></row>
+      <row>Bez siebie jak żyć.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row>Jedyne co mam to złudzenia,<ch a="a"/></row>
+      <row>Że mogę mieć własne pragnienia.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Jedyne co mam to złudzenia,<ch a="d"/><ch a="a"/></row>
+      <row>Że mogę je mieć.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row>Miałem słowa własne,<ch a="a"/></row>
+      <row>Ktoś stwierdził, że zbyt ciasne.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Co mam zrobić, bez słów jak żyć,<ch a="d"/><ch a="a"/></row>
+      <row>Bez słów jak żyć.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row>Jedyne co mam to złudzenia,<ch a="a"/></row>
+      <row>Że mogę mieć własne pragnienia.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Jedyne co mam to złudzenia,<ch a="d"/><ch a="a"/></row>
+      <row>Że mogę je mieć.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row>Miałem serce dla wszystkich,<ch a="a"/></row>
+      <row>Ktoś klucz do niego wymyślił.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Co mam zrobić, bez serca jak żyć,<ch a="d"/><ch a="a"/></row>
+      <row>Bez serca jak żyć.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row>Jedyne co mam to złudzenia,<ch a="a"/></row>
+      <row>Że mogę mieć własne pragnienia.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Jedyne co mam to złudzenia,<ch a="d"/><ch a="a"/></row>
+      <row>Że mogę je mieć.<ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row>Miałem myśli spokojne,<ch a="a"/></row>
+      <row>Lecz ktoś wywołał w nich wojnę.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Co mam zrobić, teraz jak żyć,<ch a="d"/><ch a="a"/></row>
+      <row>Jak teraz żyć.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row>Jedyne co mam to złudzenia,<ch a="a"/></row>
+      <row>Że mogę mieć własne pragnienia.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row>Jedyne co mam to złudzenia,<ch a="d"/><ch a="a"/></row>
+      <row>Że mogę je mieć.<ch a="G"/><ch a="a"/></row>
+    </block>
+  </lyric>
+</song>

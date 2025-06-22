@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy się Chrystus rodzi">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Gdy się Chrustus rodzi<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>I na świat przychodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Ciemna noc w jasności<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Promienistej brodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="E"/>Aniołowie się radują<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>Pod niebiosy wyśpiewują<ch a="A"/></row>
+        <row important_over="false"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
+        <row important_over="false"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Mówią do pasterzy<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Którzy trzód swych strzegli<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Aby do Betlejem<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Czem prędzej pobiegli<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="E"/>Bo się narodził zbawiciel<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>Wszego świata odkupiciel<ch a="A"/></row>
+        <row important_over="false"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
+        <row important_over="false"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>O niebieskie duchy<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>I posłowie nieba<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Powiedzcie wyraźnie<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Co nam czynić trzeba<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="E"/>Bo my nic nie pojmujemy<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>Ledwo od strachu żyjemy<ch a="A"/></row>
+        <row important_over="false"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
+        <row important_over="false"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Idźcie do Betlejem<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Gdzie dziecię zrodzone<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>W pieluszki powite<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>W żłobie położone<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="E"/>Oddajcie mu pokłon boski<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>On osłodzi wasze troski<ch a="A"/></row>
+        <row important_over="false"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
+        <row important_over="false"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

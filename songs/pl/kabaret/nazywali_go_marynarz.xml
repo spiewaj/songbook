@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nazywali go Marynarz  (szanta narciarska)">
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <composer type="solo">Artur Andrus</composer>
+  <artist type="solo">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Nazy<ch a="d"/>wali <ch a="C"/>go Ma<ch a="d"/>rynarz,</row>
+      <row important_over="true">Bo o<ch a="d"/>paskę <ch a="C"/>miał na <ch a="d"/>oku,</row>
+      <row important_over="true"><ch a="g"/>Na każdym stoku dziew<ch a="d"/>czyna,</row>
+      <row important_over="true">Dziew<ch a="d"/>czyna na <ch a="A"/>każdym <ch a="d"/>stoku.</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Po<ch a="d"/>chodzi <ch a="C"/>spod Poz<ch a="d"/>nania,</row>
+      <row important_over="true">Po<ch a="d"/>dobno <ch a="C"/>umie <ch a="F"/>wróżyć z kart,</row>
+      <row important_over="true"><ch a="g"/>Panny rwie na wią<ch a="d"/>zania,</row>
+      <row important_over="true">Mę<ch a="B"/>żatki <ch a="A"/>na długość <ch a="d"/>nart.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Ca<ch a="d"/>ryco <ch a="A"/>mokrego <ch a="d"/>śniegu,</row>
+      <row important_over="true">Ra<ch a="d"/>trakiem płynę do ciebie pod <ch a="g"/>prąd,</row>
+      <row important_over="true"><ch a="g"/>Dobrze, że stoisz na <ch a="d"/>brzegu,</row>
+      <row important_over="true">Bo ja <ch a="B"/>właśnie <ch a="A"/>schodzę na <ch a="d"/>ląd…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nigdy <ch a="d"/>się nie <ch a="C"/>lękał <ch a="d"/>biedy,</row>
+      <row important_over="false">I się <ch a="d"/>nie przej<ch a="C"/>mował <ch a="d"/>jutrem.</row>
+      <row important_over="false">A <ch a="g"/>jego ratrak był <ch a="d"/>kiedyś,</row>
+      <row important_over="false">Zwy<ch a="B"/>czajnym ry<ch a="A"/>backim <ch a="d"/>kutrem.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>I woził <ch a="C"/>dorsze i <ch a="d"/>śledzie,</row>
+      <row important_over="false"><ch a="d"/>Zimą i <ch a="C"/>latem, o<ch a="F"/>krągły rok.</row>
+      <row important_over="false"><ch a="g"/>Teraz jak nieraz prze<ch a="d"/>jedzie,</row>
+      <row important_over="false">Ry<ch a="B"/>bami <ch a="A"/>czuć cały <ch a="d"/>stok.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="false">Wszyscy w <ch a="d"/>porcie <ch a="C"/>ode<ch a="d"/>tchnęli,</row>
+      <row important_over="false">Zwiał, <ch a="d"/>nim się za<ch a="C"/>kończył <ch a="d"/>sezon.</row>
+      <row important_over="false">Jeszcze się <ch a="g"/>tam jak żagiel <ch a="d"/>bieli,</row>
+      <row important_over="false">Jego <ch a="B"/>czarny <ch a="A"/>kombi<ch a="d"/>nezon.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Odpłynął <ch a="C"/>pod Us<ch a="d"/>trzyki,</row>
+      <row important_over="false">I <ch a="d"/>przez ko<ch a="C"/>biety <ch a="F"/>wpadł w kłopoty.</row>
+      <row important_over="false"><ch a="g"/>Forsę z polowań <ch a="d"/>na orczyki,</row>
+      <row important_over="false">Prze<ch a="B"/>hulał <ch a="A"/>na anty<ch a="d"/>biotyk.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="false">Jeśli <ch a="d"/>kiedyś <ch a="C"/>go zo<ch a="d"/>baczysz,</row>
+      <row important_over="false">Na ra<ch a="d"/>traku w <ch a="C"/>podłym <ch a="d"/>świecie,</row>
+      <row important_over="false">To <ch a="g"/>powiedz mu, że w Kar<ch a="d"/>paczu,</row>
+      <row important_over="false">Cze<ch a="B"/>kają na <ch a="A"/>niego <ch a="d"/>dzieci.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I <ch a="d"/>kiedy o<ch a="C"/>puszcza <ch a="d"/>statek,</row>
+      <row important_over="false"><ch a="d"/>Żeby się <ch a="C"/>znowu <ch a="F"/>oddać złu,</row>
+      <row important_over="false"><ch a="g"/>Każda z dwudziestu <ch a="d"/>siedmiu matek,</row>
+      <row important_over="false">Dzie<ch a="B"/>ciątku <ch a="A"/>śpiewa do <ch a="d"/>snu.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

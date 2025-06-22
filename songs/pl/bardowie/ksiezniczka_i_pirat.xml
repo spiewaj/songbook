@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Księżniczka i pirat" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment>Po każdym aEa jest motyw (podaje dźwieki): a e h c gis a dis e a, a między ref. a zwrotką: a gis a h c h c e a e c h a gis a h.</comment>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Pirat z s<ch a="a"/>oli i goryczy</row>
+			<row important_over="true">W sieci świ<ch a="F"/>ata się szam<ch a="a"/>o<ch a="E"/>cz<ch a="a"/>e.</row>
+			<row important_over="false">Gwiazdy drż<ch a="a"/>ą Księżniczce w oczach,</row>
+			<row important_over="false">W pustym z<ch a="F"/>amku sowa krz<ch a="a"/>y<ch a="E"/>cz<ch a="a"/>y.</row>
+			<row important_over="true">On zza m<ch a="C"/>órz przyzywa b<ch a="E0"/>urze,</row>
+			<row important_over="true">By mu szl<ch a="d"/>ak kreśliły w toni.</row>
+			<row important_over="true">Ona wd<ch a="G7"/>ycha z linii dłoni,</row>
+			<row important_over="true">Bukiet t<ch a="a"/>ęsknot i od<ch a="E"/>urzeń.</row>
+			<row important_over="true">On zza m<ch a="a"/>órz przyzywa b<ch a="a"/>u<ch a="E"/>rz<ch a="a"/>e.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="E"/> Z niewiadomych odd<ch a="a"/>ali</row>
+			<row important_over="true"><ch a="E"/> Płynie fala ku f<ch a="a"/>ali.</row>
+			<row important_over="true"><ch a="A7"/> Czy ją spotka, czy m<ch a="d"/>inie</row>
+			<row important_over="true">W ciemnych w<ch a="a"/>irów gęstw<ch a="a"/>i<ch a="E"/>ni<ch a="a"/>e?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Sztorm go rz<ch a="a"/>uca na wybrzeże,</row>
+			<row important_over="false">Gdzie Księżn<ch a="F"/>iczki stoi z<ch a="a"/>a<ch a="E"/>m<ch a="a"/>ek.</row>
+			<row important_over="false">Ona m<ch a="a"/>u otwiera bramę,</row>
+			<row important_over="false">Pirat j<ch a="F"/>ą w ramiona bi<ch a="a"/>e<ch a="E"/>rz<ch a="a"/>e.</row>
+			<row important_over="false">Tętnią ści<ch a="C"/>any i sklepi<ch a="E0"/>enia</row>
+			<row important_over="false">Cieni sz<ch a="d"/>eptem i oddechem,</row>
+			<row important_over="false">Jego s<ch a="G7"/>erce — suchy wiecheć,</row>
+			<row important_over="false">Lecz jej s<ch a="a"/>erce jest z płomi<ch a="E"/>enia.</row>
+			<row important_over="false">Tętnią ści<ch a="a"/>any i sklepi<ch a="a"/>e<ch a="E"/>ni<ch a="a"/>a.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="E"/> Fala z falą się zd<ch a="a"/>erza</row>
+			<row important_over="false"><ch a="E"/> Poszukując przymi<ch a="a"/>erza.</row>
+			<row important_over="false"><ch a="A7"/> Czy je znajdą, spl<ch a="d"/>ątane,</row>
+			<row important_over="false">Czy rozpr<ch a="a"/>ysną się w pi<ch a="a"/>a<ch a="E"/>n<ch a="a"/>ę?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">On ją trz<ch a="a"/>yma, ona krzyczy,</row>
+			<row important_over="false">Ona krz<ch a="F"/>yczy, kielich str<ch a="a"/>ą<ch a="E"/>c<ch a="a"/>a.</row>
+			<row important_over="false">Tak się mi<ch a="a"/>esza w nich bez końca</row>
+			<row important_over="false">Trunek t<ch a="F"/>ęsknot i gor<ch a="a"/>y<ch a="E"/>cz<ch a="a"/>y.</row>
+			<row important_over="false">Usypi<ch a="C"/>ają o por<ch a="E0"/>anku,</row>
+			<row important_over="false">Oślepi<ch a="d"/>eni swym olśnieniem,</row>
+			<row important_over="false">Ścichły <ch a="G7"/>echa, zgasły cienie,</row>
+			<row important_over="false">Milczy s<ch a="a"/>owa w pustym z<ch a="E"/>amku.</row>
+			<row important_over="false">Usypi<ch a="a"/>ają o por<ch a="a"/>a<ch a="E"/>nk<ch a="a"/>u.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="E"/> Fala wtapia się w f<ch a="a"/>alę</row>
+			<row important_over="false"><ch a="E"/> I zapada w odd<ch a="a"/>ale.</row>
+			<row important_over="false"><ch a="A7"/> Czy wśród burz i kipi<ch a="d"/>eli</row>
+			<row important_over="false">Nic ich j<ch a="a"/>uż nie rozdzi<ch a="a"/>e<ch a="E"/>l<ch a="a"/>i?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">On odpł<ch a="a"/>ywa odurzony,</row>
+			<row important_over="false">Zdobyć dl<ch a="F"/>a niej złote gr<ch a="a"/>o<ch a="E"/>d<ch a="a"/>y.</row>
+			<row important_over="false">Bierze w dr<ch a="a"/>ogę tęsknot słodycz,</row>
+			<row important_over="false">Jej czek<ch a="F"/>anie smak ma sł<ch a="a"/>o<ch a="E"/>n<ch a="a"/>y.</row>
+			<row important_over="false">Czy on świ<ch a="C"/>at zdobędzie dl<ch a="E0"/>a niej</row>
+			<row important_over="false">I Księżn<ch a="d"/>iczka z nim odpłynie?</row>
+			<row important_over="false">Czy on wr<ch a="G7"/>óci i zostanie,</row>
+			<row important_over="false">Czy za widn<ch a="a"/>okręgiem zg<ch a="E"/>inie?</row>
+			<row important_over="false">Czy on świ<ch a="a"/>at zdobędzie dl<ch a="a"/>a<ch a="E"/> ni<ch a="a"/>ej?</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="E"/> Płyną fale przed si<ch a="a"/>ebie</row>
+				<row important_over="false"><ch a="E"/> I znikają w odd<ch a="a"/>ali.</row>
+				<row important_over="false"><ch a="A7"/> Nie pytajcie się f<ch a="d"/>ali</row>
+				<row important_over="false">O to, cz<ch a="a"/>ego nikt ni<ch a="a"/>e<ch a="E"/> wi<ch a="a"/>e.</row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album>Dwie skały</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

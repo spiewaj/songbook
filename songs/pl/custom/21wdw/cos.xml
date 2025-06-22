@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Coś">
+	<text_author type="solo">Jakub Pochrybniak</text_author>
+	<comment>Gra się bodajże na strunie E basowej „glissando” wszystkie dźwięki w górę a potem w dół…</comment>
+	<composer type="solo">Jakub Pochrybniak</composer>
+	<artist type="band">21. WDW „Stare Żbiki”</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Był koń,</row>
+			<row important_over="false">zdechł koń,</row>
+			<row important_over="false">fajny był,</row>
+			<row important_over="false">szkoda go.</row>
+		</block>
+	</lyric>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+	</status>
+</song>

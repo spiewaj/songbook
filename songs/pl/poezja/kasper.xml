@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kasper">
+  <text_author type="solo">Ryszard Wolbach</text_author>
+  <composer type="solo">Ryszard Wolbach</composer>
+  <artist type="band">Babsztyl</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Czy pamiętasz r<ch a="G"/>ude włosy? R<ch a="C"/>oześmianą tw<ch a="G"/>arz?</row>
+      <row important_over="true"><ch a="a"/>Śmieszną czapkę miał na głowie <ch a="G"/>Kasper, kumpel nasz...</row>
+      <row important_over="true"><ch a="C"/>Gdzie nie poszedł, <ch a="G"/>co nie zrobił - <ch a="C"/>zawsze coś nie t<ch a="G"/>ak.</row>
+      <row important_over="true"><ch a="a"/>Forsy nie miał... Domu nie miał... W<ch a="G"/>olny był jak ptak!</row>
+      <row important_over="true"><ch a="C"/>Dobrze nam się z Kas<ch a="F7+"/>prem żyło, <ch a="C"/>on polubił <ch a="F7+"/>nas</row>
+      <row important_over="true"><ch a="C"/>W góry razem s<ch a="F7+"/>ię chodziło, o<ch a="C"/>gień nocą si<ch a="F7+"/>ę paliło</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Ka<ch a="C"/>sper z wi<ch a="e7"/>atrem d<ch a="a"/>obrze ż<ch a="G"/>ył</row>
+      <row important_over="false">F<ch a="F"/>ajkę p<ch a="C"/>alił, w<ch a="G"/>ódkę p<ch a="C"/>ił , </row>
+      <row important_over="false">jak<ch a="G"/> ja... jak t<ch a="C"/>y.. jak <ch a="G"/>ja...<ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Miał gitarę złotostrunną, nocą na niej grał.<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Sto piosenek w swym śpiewniku Kasper chyba miał<ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Kiedy w miejscu siedzieć przyszło, bo deszcz padał, ciągle padał<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Kasper fajkę swoją tlił, bajdy różnie opowiadał<ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Co nie zrobił, czego nie miał - diabeł jeden wie!<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+      <row important_over="never">Kiedy fajkę swoją kurzył, świat maleńki stawał się...<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Dzisiaj nie ma Kaspra z nami, zginął po nim ślad<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Gdzieś w Bieszczadach go widzieli - mały jest ten świat<ch a="a"/><ch a="G"/></row>
+      <row important_over="false">Gdzie ballady, opowieści?... Gdzie ogniska żar?...<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Kiedy Kaspra nie ma z nami, pryska przygód czar...<ch a="a"/><ch a="G"/></row>
+      <row important_over="false">Dobrze nam się z Kasprem żyło, on polubił nas<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+      <row important_over="false">W góry razem się chodziło, ogień nocą się paliło <ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false">(na melodię: &quot;Hej, Zuzanno&quot;)</row>
+      <row important_over="false">Hej, Zuzanno! Oddaj Kaspra nam! Parapa...</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Bazuna - 40 lat - &quot;Przegląd na szlaku...&quot;</album>
+  <status>
+    <done/>
+    <verificators>
+      <verificator>Dorotka Ch.</verificator>
+    </verificators>
+  </status>
+</song>

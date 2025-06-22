@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ukraina">
+	<alias>Hej Sokoły</alias>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Hej, tam gdzieś znad czarnej wody<ch a="a"/></row>
+			<row important_over="false">Siada na koń Kozak młody<ch a="E"/></row>
+			<row important_over="false">Czule żegna się z dziewczyną<ch a="a"/></row>
+			<row important_over="false">Jeszcze czulej z Ukrainą<ch a="E"/><ch a="a"/><ch a="G7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Hej, hej, hej sokoły<ch a="C"/></row>
+			<row important_over="false">Omijajcie góry, lasy, pola, doły<ch a="E7"/></row>
+			<row important_over="false">Dzwoń, dzwoń, dzwoń dzwoneczku<ch a="a"/></row>
+			<row important_over="false">Mój stepowy skowroneczku<ch a="E"/><ch a="G7"/></row>
+			<row important_over="false">Mój stepowy dzwoń, dzwoń, dzwoń<ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ładnych dziewcząt jest nie mało</row>
+			<row important_over="false">Lecz najwięcej w Ukrainie</row>
+			<row important_over="false">Tam me serce pozostało</row>
+			<row important_over="false">Przy kochanej mej dziewczynie</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ona jedna tam została</row>
+			<row important_over="false">Jaskółeczka moja, miła mała</row>
+			<row important_over="false">A ja jeden w obcej stronie</row>
+			<row important_over="false">Dniem i nocą tęsknię do niej</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Żal, żal za dziewczyną</row>
+			<row important_over="false">Za kochaną Ukrainą</row>
+			<row important_over="false">Żal, żal serce płacze</row>
+			<row important_over="false">Już cię więcej nie zobaczę</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Wina, wina, wina dajcie</row>
+			<row important_over="false">A jak umrę pochowajcie</row>
+			<row important_over="false">Na zielonej Ukrainie</row>
+			<row important_over="false">Przy kochanej mej dziewczynie.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<keywords/>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done/>
+		<verificators/>
+	</status>
+</song>

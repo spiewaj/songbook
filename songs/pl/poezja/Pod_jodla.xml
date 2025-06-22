@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pod jodłą">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Siedzieliśmy pod jodłą</row>
+      <row important_over="false"><ch a="a"/>Dobrze nam się wiodło</row>
+      <row important_over="false"><ch a="F"/>Kapitan Farel stary zgred</row>
+      <row important_over="false"><ch a="C"/>Postawić nie chciał whisky</row>
+      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem</row>
+      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem</row>
+      <row important_over="false"><ch a="F"/>Lecz pycha rozpierała go</row>
+      <row important_over="false"><ch a="C"/>A nam już wyschły pyski</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Więc dałem jemu w nos</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ</row>
+      <row important_over="false"><ch a="C"/>Postawić nie chciał nam<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wybrałem się do Mary</row>
+      <row important_over="false"><ch a="a"/>Chodziłem tam dni cztery</row>
+      <row important_over="false"><ch a="F"/>Ekonom Paddy suczysyn</row>
+      <row important_over="false"><ch a="C"/>Wciąż dawał jej robotę</row>
+      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem</row>
+      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem</row>
+      <row important_over="false"><ch a="F"/>Lecz nie posłuchał łobuz mnie</row>
+      <row important_over="false"><ch a="C"/>Do dziś ma Mary cnotę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Więc dałem jemu w nos</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ</row>
+      <row important_over="false"><ch a="C"/>Pozwolić nie chciał nam<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>W Dublinie przy niedzieli</row>
+      <row important_over="false"><ch a="a"/>Pięć funtów nam gwizdnęli</row>
+      <row important_over="false"><ch a="F"/>Właściciel pubu tłusty byk</row>
+      <row important_over="false"><ch a="C"/>Chciał funta na zapłatę</row>
+      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem</row>
+      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem</row>
+      <row important_over="false"><ch a="F"/>Lecz nerwy ciut poniosły mnie</row>
+      <row important_over="false"><ch a="C"/>Zepsutą ma facjatę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Bo dałem jemu w nos</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ</row>
+      <row important_over="false"><ch a="C"/>Odpuścić nie chciał nam<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Na trakcie przez przypadek</row>
+      <row important_over="false"><ch a="a"/>Coś też mnie kopnął w zadek</row>
+      <row important_over="false"><ch a="F"/>Łapaczy oddział wyrwał mnie</row>
+      <row important_over="false"><ch a="C"/>Tak jak borsuka z dziury</row>
+      <row important_over="false"><ch a="C"/>Na okręt mnie zabrali</row>
+      <row important_over="false"><ch a="a"/>Po zadku fest przylali</row>
+      <row important_over="false"><ch a="F"/>A kiedy drzeć zacząłem pysk</row>
+      <row important_over="false"><ch a="C"/>Padł taki rozkaz z góry</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>A dajcie jemu w nos</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ</row>
+      <row important_over="false"><ch a="C"/>Przeszkadzać będzie nam<ch a="G"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

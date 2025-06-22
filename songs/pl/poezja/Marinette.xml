@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marinette">
+  <alias/>
+  <text_author type="solo">Georges Brassens</text_author>
+  <comment/>
+  <composer type="solo">Georges Brassens</composer>
+  <artist type="band">Zespół Reprezentacyjny</artist>
+  <translator>Jarosław Gugała</translator>
+  <original_title>Marinette</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Ujrzałem po raz pierwszy ją <ch a="D"/>gdzieś w tłumie na ulicy</row>
+      <row important_over="false"><ch a="D"/>i pierwszym już spojrzeniem <ch a="D"/>do swych stóp rzuciła mnie.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Zdumiony, tylko gębę głupio <ch a="A"/><ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr">
+        <ch a="D"/>
+        <ch a="Dis"/>
+        <ch a="E"/>
+        <ch a="A"/>
+        <ch a="D"/>
+        <ch a="Dis"/>
+        <ch a="E"/>
+        <ch a="A"/>
+     </row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Poszedłem potem do niej, <ch a="D"/>by zaśpiewać jej piosenkę,</row>
+      <row important_over="false"><ch a="D"/>Lecz powiedziano mi, <ch a="D"/>że w filharmonii właśnie jest.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Z gitarą w rękach, gębę głupio<ch a="A"/> <ch a="D"/>rozdziawiłem<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe.<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Gdy w któreś popołudnie <ch a="D"/>słój z musztardą jej przyniosłem,</row>
+      <row important_over="false"><ch a="D"/>ma miła chwilę przedtem <ch a="D"/>już raczyła skończyć jeść.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Na słój się gapiąc, gębę tylko<ch a="A"/> <ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe.<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Gdy w dniu urodzin rower <ch a="D"/>jej w prezencie chciałem oddać,</row>
+      <row important_over="false"><ch a="D"/>jej kochający tatuś  <ch a="D"/>właśnie auto sprawił jej.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Więc na rowerze siedząc, gębę<ch a="A"/> <ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe.<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>A kiedy się z mą miłą <ch a="D"/>pewnej nocy umówiłem,</row>
+      <row important_over="false"><ch a="D"/>po ciemku z jakimś typem strasznym <ch a="D"/>pomyliła mnie.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Na ich umizgi patrząc, gębę<ch a="A"/>v<ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe.<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Następnym razem nóż zabrałem, <ch a="D"/>by z nią wreszcie skończyć,</row>
+      <row important_over="false"><ch a="D"/>lecz powiedziano mi,<ch a="D"/>że śmierć przerwała życie jej.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Więc z nożem w garści gębę głupio<ch a="A"/> <ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe<ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Nieotulony w żalu więc <ch a="D"/>poszedłem na jej pogrzeb,</row>
+      <row important_over="false"><ch a="D"/>Lecz ją cudownym trafem <ch a="D"/>odratować dało się.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Z żałobnym wieńcem w dłoniach gębę<ch a="A"/> <ch a="D"/>rozdziawiłem<ch a="H7"/></row>
+      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe.<ch a="A"/><ch a="D"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+  <album>Pornograf</album>
+</song>

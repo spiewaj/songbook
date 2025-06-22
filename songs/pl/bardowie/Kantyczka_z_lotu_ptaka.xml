@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Kantyczka z lotu ptaka" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment></comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="band">Jacek Kaczmarski; Przemysław Gintrowski</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">— Patrz, mój dobrotliwy Boże,<ch a="a"/></row>
+			<row important_over="false">Na swój ulubiony ludek,<ch a="C"/></row>
+			<row important_over="false">Jak wychodzi rano w zboże<ch a="G"/></row>
+			<row important_over="false">Zginać harde karki z trudem.<ch a="E7"/></row>
+			<row important_over="false">Patrz jak schyla się nad pracą,<ch a="a"/></row>
+			<row important_over="false">Jak pokornie klęski znosi<ch a="C"/></row>
+			<row important_over="false">I nie pyta – Po co? Za co?<ch a="G"/></row>
+			<row important_over="false">Czasem o coś Cię poprosi<ch a="E7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">— Ujmij trochę łaski nieba!<ch a="a"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Daj spokoju w zamian chleba!<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Innym udziel swej miłości!<ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Nam – sprawiedliwości!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">— Smuć się, Chryste Panie, w chmurze<ch a="a"/></row>
+			<row important_over="false">Widząc, jak się naród bawi,<ch a="C"/></row>
+			<row important_over="false">Znowu chciałby być przedmurzem<ch a="G"/></row>
+			<row important_over="false">I w pogańskiej krwi się pławić.<ch a="E7"/></row>
+			<row important_over="false">Dymią kuźnie i warsztaty,<ch a="a"/></row>
+			<row important_over="false">Lecz nie pracą a – skargami,<ch a="C"/></row>
+			<row important_over="false">Że nie taka jak przed laty<ch a="G"/></row>
+			<row important_over="false">Łaska Twoja nad hufcami:<ch a="E7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">— Siły grożą Ci nieczyste<ch a="a"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Daj nam wsławić się, o Chryste!<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Kalwin, Litwin nam ubliża!<ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Dźwigniem ciężar Krzyża!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">— Załam ręce, Matko Boska;<ch a="a"/></row>
+			<row important_over="false">Upadają obyczaje,<ch a="C"/></row>
+			<row important_over="false">Nie pomogła modłom chłosta –<ch a="G"/></row>
+			<row important_over="false">Młodzież w szranki ciała staje.<ch a="E7"/></row>
+			<row important_over="false">W nędzy gzi się krew gorąca<ch a="a"/></row>
+			<row important_over="false">Bez sumienia, bez oddechu,<ch a="C"/></row>
+			<row important_over="false">Po czym z własnych trzewi strząsa<ch a="G"/></row>
+			<row important_over="false">Niedojrzały owoc grzechu.<ch a="E7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">— Co zbawienie nam, czy piekło!<ch a="a"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Byle życie nie uciekło!<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Jeszcze będzie czas umierać!<ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Żyjmy tu i teraz!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">— Grzmijcie gniewem Wszyscy Święci!<ch a="h"/></row>
+			<row important_over="false">Handel lud zalewa boży,<ch a="D"/></row>
+			<row important_over="false">Obce kupce i klienci<ch a="A"/></row>
+			<row important_over="false">W złote wabią go obroże.<ch a="Fis7"/></row>
+			<row important_over="false">Liczy chciwy Żyd i Niemiec<ch a="h"/></row>
+			<row important_over="false">Dziś po ile polska czystość;<ch a="D"/></row>
+			<row important_over="false">Kupi dusze, kupi ziemie<ch a="A"/></row>
+			<row important_over="false">I zostawi pośmiewisko…<ch a="Fis7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">— Co nam hańba, gdy talary<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
+			<row important_over="false">Mają lepszy kurs od wiary!<ch a="D"/><ch a="A"/></row>
+			<row important_over="false">Wymienimy na walutę<ch a="Fis7"/><ch a="h"/></row>
+			<row important_over="false">Honor i pokutę!<ch a="G"/><ch a="h"/><ch a="Fis7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">— Jeden naród, tyle kwestii!<ch a="h"/></row>
+			<row important_over="false">Wszystkich naraz – nie wysłuchasz! –<ch a="D"/></row>
+			<row important_over="false">Zadumali się Niebiescy<ch a="A"/></row>
+			<row important_over="false">W imię Ojca, Syna, Ducha…<ch a="Fis7"/></row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>
+			</verificator><verificator>
+		</verificator>
+			
+			
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

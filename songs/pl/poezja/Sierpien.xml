@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sierpień">
+	<alias>O sierpniu, Łzy co nam z oczu zlecą</alias>
+	<text_author type="solo">Konstanty Ildefons Gałczyński</text_author>
+	<comment>Refren 2x szybciej.
+Wiersz Gałczyńskiego nosi tytuł ,,O sierpniu'', zaś piosenka Wierzbickiego jest znana pod tytułem ,,Łzy co nam z oczu zlecą'' (nie wiem jak jest w oryginale). Zostawiam więc nazwę ,,Sierpień''.</comment>
+	<composer type="solo">Andrzej Wierzbicki</composer>
+	<artist type="solo">Andrzej Wierzbicki</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="G"/> Stanęły pod mym <ch a="D"/>oknem jak wi<ch a="H7"/>ejscy muzyk<ch a="e"/>anci</row>
+			<row important_over="true">Gwi<ch a="C"/>azdy zielon<ch a="G"/>ooki si<ch a="D"/>erpień po sadzie tańczył</row>
+			<row important_over="false"><ch a="G"/> Księżycem całow<ch a="D"/>any s<ch a="H7"/>ad się rozrz<ch a="e"/>ewnił</row>
+			<row important_over="false">L<ch a="C"/>ekki i cyg<ch a="G"/>ański był t<ch a="D"/>aniec sierpnia</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">Łz<ch a="G"/>y co nam z oczu zl<ch a="D"/>ecą</row>
+				<row important_over="true">Zi<ch a="H7"/>emi o nas powi<ch a="e"/>edzą</row>
+				<row important_over="true">Chodźmy w dr<ch a="C"/>ogę łzy w dr<ch a="G"/>odze ob<ch a="D"/>eschną</row>
+				<row important_over="false">Łz<ch a="G"/>y nie przynoszą <ch a="D"/>ujmy</row>
+				<row important_over="false">A m<ch a="H7"/>y w tę noc wędr<ch a="e"/>ujmy</row>
+				<row important_over="true">Roziskrz<ch a="C"/>oną rozśpi<ch a="D"/>ewaną bezkr<ch a="C"/>e<ch a="D"/>sn<ch a="G"/>ą</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/> Stanęły pod mym oknem jak wi<ch a="D"/>ejscy muzyk<ch a="H7"/>anci<ch a="e"/></row>
+			<row important_over="false">Gwi<ch a="C"/>azdy zielon<ch a="G"/>ooki si<ch a="D"/>erpień po sadzie tańczył</row>
+			<row important_over="false"><ch a="G"/> Raz złocistość w k<ch a="D"/>orze drzew drżała<ch a="H7"/> to sen ją pł<ch a="e"/>oszył</row>
+			<row important_over="false">L<ch a="C"/>udzie mruż<ch a="G"/>yli n<ch a="D"/>oc otwierała oczy</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator><verificator>Michał</verificator>
+			
+			
+		</verificators>
+		<to_do></to_do>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+</song>

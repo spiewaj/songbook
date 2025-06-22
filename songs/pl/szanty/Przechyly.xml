@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przechyły">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Pierwszy raz przy pełnym takielunku<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Biorę ster i trzymam kurs na wiatr<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>I jest jak przy pierwszym pocałunku<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>W ustach sól gorącej wody smak<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>O ho ho przechyły i przechyły<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>O ho ho za falą fala mknie<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>O ho ho trzymajcie się dziewczyny<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Ale wiatr, ósemka chyba dmie<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Zwrot przez sztag OK zaraz zrobię<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Słyszę jak kapitan cicho klnie<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Gubię wiatr i zamiast w niego dziobem<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>To on mnie od tyłu, kumple w śmiech<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Hej ty tam za burtę wychylony<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Tu naprawdę się nie ma z czego śmiać<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Cicho siedź i lepiej proś Neptuna<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Żeby coś nie spadło ci na kark<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Krople mgły w tęczowym kropel pyle<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Tańczy jacht, po deskach spływa dzień<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Jutro znów wypłynę, bo odkryłem<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Morze, noc, żeglarską starą pieśń<ch a="H7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

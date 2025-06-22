@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie brookliński most">
+  <artist>Stare Dobre Małżeństwo</artist>
+  <lyric>
+    <block type="verse">
+      <row>Rozdzierający, jak tygrysa pazur<ch a="d"/><ch a="C"/></row>
+      <row>Antylopy plecy jest smutek człowieczy.<ch a="d"/><ch a="C"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row>Nie brookliński most, ale przemienić<ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row>W jasny, nowy dzień najsmutniejszą noc -<ch a="d"/><ch a="C"/><ch a="d"/></row>
+      <row>To jest dopiero coś!<ch a="C"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row>Przerażający, jak ozdoba świata<ch a="d"/><ch a="C"/></row>
+      <row>Co w malignie bredzi jest obłęd człowieczy.<ch a="d"/><ch a="C"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row>Nie brookliński most, lecz na drugą stronę głową przebić się<ch a="C"/><ch a="d"/><ch a="C"/><ch a="d"/></row>
+      <row>Przez obłędu los -<ch a="C"/><ch a="d"/></row>
+      <row>To, jest dopiero coś!<ch a="C"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row>Będziemy smucić się starannie,<ch a="d"/><ch a="C"/></row>
+      <row>Będziemy szaleć nienagannie!<ch a="d"/><ch a="C"/></row>
+      <row>Będziemy naprzód niesłychanie!<ch a="d"/><ch a="C"/></row>
+      <row>Ku polanie!<ch a="d"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row>Nie brookliński most, ale przemienić<ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row>W jasny, nowy dzień najsmutniejszą noc -<ch a="d"/><ch a="C"/><ch a="d"/></row>
+      <row>To jest dopiero coś!<ch a="C"/><ch a="d"/></row>
+    </block>
+  </lyric>
+</song>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+    <title>Śpiewnik</title>
+    <link href="songs_html/CSS/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="index.js"> </script>
+    <script type="text/javascript">
+document.addEventListener("keypress", function(event) {
+  var element = document.getElementById("songSearch")
+  element.focus()
+})
+    </script>
+</head>
+<body>
+<div class="top-navigation">
+    <a href="https://ghe.spiewaj.com/users/me/changes">[Inne rozpoczęte edycje]</a>
+    <a href="https://ghe.spiewaj.com/users/me/changes:new">[Dodaj piosenkę]</a>
+    <a href="https://ghe.spiewaj.com/intro">[O edytowaniu]</a>
+    <a href="https://github.com/spiewaj/songbook/tree/main/songs">[github]</a>
+</div>
+    <h2>Śpiewniki</h2>
+    <ul id="songbooks">
+    </ul>
+    <p>Wersję na Kindla możesz wgrać używając: <a href="https://www.amazon.com/sendtokindle">https://www.amazon.com/sendtokindle</a></p>
+    <!--INJECT HERE-->
+    <h2>Piosenki</h2>
+    <div class="search-container">
+        <label for="songSearch" class="search-label">Szukaj piosenki:</label>
+        <input tabindex="1" autofocus="autofocus" type="text" id="songSearch" onkeyup="filterSongs()" placeholder="szukam... szukania mi trzeba" />
+    </div>
+    <ul id="songs">
+    </ul>
+</body>
+</html>

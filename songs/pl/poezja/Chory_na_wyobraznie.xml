@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chory na wyobraźnię">
+  <alias>Vincent van Gogh</alias>
+  <text_author type="solo">Mariusz Zadura</text_author>
+  <comment>Metrum zmienne - w zwrotce na 4, w refrenie na 3</comment>
+  <composer type="solo">Mariusz Zadura</composer>
+  <artist type="solo">Mariusz Zadura</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr">
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+     </row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/> Dawno już w mieście drw<ch a="a"/>ił z niego każdy</row>
+      <row important_over="true"><ch a="e"/> Pośmiewiskiem był l<ch a="a"/>udziom na co dzień</row>
+      <row important_over="true"><ch a="C"/> Ot w<ch a="G"/>ariat chory n<ch a="C"/>a wyobr<ch a="G"/>aźnię</row>
+      <row important_over="true">Wiecznie w dr<ch a="a"/>odze spóźni<ch a="H7"/>ony przechodzień</row>
+      <row important_over="false"><ch a="e"/> Dokąd idziesz pyt<ch a="a"/>ali go bliscy</row>
+      <row important_over="false"><ch a="e"/> Z tego bracie to trz<ch a="a"/>eba się leczyć</row>
+      <row important_over="false"><ch a="C"/> A on b<ch a="G"/>rał tektur<ch a="C"/>ową wali<ch a="G"/>zkę</row>
+      <row important_over="false">I wych<ch a="a"/>odził swym obr<ch a="H7"/>azom naprzeciw mówiąc</row>
+    </block>
+    <block type="chorus">
+      <bis>
+        <row important_over="true"><ch a="e"/> Idę t<ch a="a"/>am gdzie b<ch a="H7"/>ezmiar błęk<ch a="e"/>itu</row>
+        <row important_over="true"><ch a="e"/> Światłoci<ch a="a"/>enie cypr<ch a="H7"/>ysów przy dr<ch a="e"/>odze</row>
+        <row important_over="true">F<ch a="C"/>eerią b<ch a="G"/>arw każdy r<ch a="C"/>anek rozkw<ch a="G"/>ita</row>
+        <row important_over="true"><ch a="a"/> Chociaż wiem że do c<ch a="H7"/>elu nie dojdę</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr">
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+     </row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Gdy malował świat m<ch a="a"/>ilkł jak zaklęty</row>
+      <row important_over="false"><ch a="e"/> Kurczył się w skrawek pł<ch a="a"/>ótna na ramach</row>
+      <row important_over="false"><ch a="C"/> A on pi<ch a="G"/>eścił je j<ch a="C"/>ak pierś kobi<ch a="G"/>ety</row>
+      <row important_over="false">W siedmiob<ch a="a"/>arwnych tęcz kr<ch a="H7"/>eskach i plamach</row>
+      <row important_over="false"><ch a="e"/> Kiedy skończył wpatr<ch a="a"/>ywał się w ciszę</row>
+      <row important_over="false"><ch a="e"/> By natchnieniem nas<ch a="a"/>ycić znów duszę</row>
+      <row important_over="false"><ch a="C"/> A gdy j<ch a="G"/>uż dał się m<ch a="C"/>arszandom w<ch a="G"/>ykpić</row>
+      <row important_over="false">Pił noc c<ch a="a"/>ałą by z brz<ch a="H7"/>askiem wyruszyć mówiąc</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false" style="instr">
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+
+        <ch a="e"/>
+        <ch a="D"/>
+        <ch a="C"/>
+        <ch a="D"/>
+     </row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
+    <to_do>Nie mam pojęcia, gdzie to jest nagrane…</to_do>
+  </status>
+</song>

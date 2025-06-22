@@ -1,0 +1,37 @@
+
+span.lyric {
+  display: inline-block;
+}
+/*  display: inline-flex;*/
+/*  flex-direction: row;*/
+/*  flex-wrap: wrap;*/
+/*  align-items: flex-end;*/
+/*  border: 1px solid green;*/
+/*}*/
+
+span.lyric span.chunk {
+  /*display: inline-table;*/
+  /*border: 0px solid green;*/
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
+  /*white-space: nowrap;*/
+  /*vertical-align: bottom;*/
+}
+
+span.lyric span.chord {
+  /*display: table-row;*/
+  display: inline-block;
+  vertical-align: 1.2em;
+  font-size: xx-small;
+  border: 1px solid #1EAEDB ;
+  overflow: visible;
+  width: 0;
+  max-width: 0;
+  /*margin-left: -10px;*/
+  /*margin-right: 10px;*/
+}
+
+span.lyric span.content {
+  /*display: table-row;*/
+  /*font-size: xx-small;*/
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Sprzysiężeni" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment></comment>
+	<composer type="solo">Wojciech Bellon</composer>
+	<artist type="solo">Wolna Grupa Bukowina</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Sprzysiężeni budząc się świtem <ch a="h"/><ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Przykrywają palcami oczy <ch a="G"/><ch a="D"/><ch a="Fis"/></row>
+			<row important_over="false">By zatrzymać chociaż przez chwilę <ch a="h"/><ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Nić wysnutą z osnowy nocy <ch a="D"/><ch a="Fis"/><ch a="G"/><ch a="A"/></row>
+			<row important_over="false">Nić, co nieba barwą się mieniąc <ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Diretissimę w ścianie kreśli <ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Potem dnia zakładają brzemię <ch a="cis"/><ch a="H"/></row>
+			<row important_over="false">I ruszają w drogę ku szczęściu <ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Mija dzień, koło się toczy <ch a="h"/><ch a="D"/><ch a="A"/><ch a="Fis"/></row>
+			<row important_over="false">Marzeniami kładą się cienie<ch a="h"/><ch a="D"/><ch a="E"/><ch a="G"/></row>
+			<row important_over="false">I odradza się każdej nocy <ch a="h"/><ch a="A"/><ch a="Fis"/></row>
+			<row important_over="false">I odradza się każdej nocy <ch a="h"/><ch a="D"/><ch a="EG"/></row>
+			<row important_over="false">Sprzysiężenie górskiego kamienia <ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Sprzysiężeni - przyjazne dłonie <ch a="h"/><ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Plotą węzeł nad ogniem watry <ch a="G"/><ch a="D"/><ch a="Fis"/></row>
+			<row important_over="false">I wpatrzeni w gasnący płomień <ch a="h"/><ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Nucą pieśni pachnące wiatrem <ch a="D"/><ch a="Fis"/><ch a="G"/><ch a="A"/></row>
+			<row important_over="false">Nie rozplotą ni burze ni waśnie <ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Tego, co złączone przez ogień <ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Słońce wokół - wciąż jaśniej, jaśniej <ch a="cis"/><ch a="H"/></row>
+			<row important_over="false">Zakwitł kamień dziś górskim głogiem <ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">A gdy wiatr sprzysiężonym w oczy zawieje <ch a="h"/><ch a="D"/><ch a="A"/><ch a="h"/></row>
+			<row important_over="false">Bliski uśmiech w cień nocy odejdzie <ch a="h"/><ch a="D"/><ch a="A"/><ch a="h"/></row>
+			<row important_over="false">Bukowina opuszcza ramiona <ch a="e"/><ch a="h"/></row>
+			<row important_over="false">Bukowina łeb pochyla siwy<ch a="E"/><ch a="h"/><ch a="Fis"/></row>
+			<row important_over="false">Czas odpływa z czasem smutek kona <ch a="h"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Lecz wspomnienia wciąż pozostają żywe <ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Sad</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

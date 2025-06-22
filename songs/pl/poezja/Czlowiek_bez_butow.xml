@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Człowiek bez butów">
+	<alias></alias>
+	<text_author type="solo">Janusz Kubicki</text_author>
+	<comment>Nie ma oficjalnego wydawnictwa</comment>
+	<composer type="band">Trzy Dni Tyłem</composer>
+	<artist type="band">Trzy Dni Tyłem</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">
+				<ch a="G"/>Był człowiek bez butów i <ch a="e"/>dobry był człowiek</row>
+			<row important_over="true">
+				<ch a="C"/>Samotnie swe życie nad <ch a="D"/>myślą przetrudził</row>
+			<row important_over="true">
+				<ch a="G"/>Jak ludzkim niedolom i b<ch a="e"/>iedom zapobiec</row>
+			<row important_over="true">
+				<ch a="C"/>Wymyślił w świat poszedł p<ch a="D"/>omagać chciał l<ch a="G"/>udziom</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">
+				<ch a="G"/>Stój d<ch a="D"/>okąd idziesz j<ch a="C"/>uż nogi ust<ch a="G"/>ały</row>
+			<row important_over="true">
+				<ch a="G"/>Stój prz<ch a="D"/>ecież widzisz bez b<ch a="C"/>utów n<ch a="D"/>ic nie zdz<ch a="G"/>iałasz</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="G"/>I królem się ostał p<ch a="e"/>oddani choć ślepi</row>
+			<row important_over="false">
+				<ch a="C"/>I cnotę i mądrość chw<ch a="D"/>alili</row>
+			<row important_over="false">
+				<ch a="G"/>Aż błazen z radością do n<ch a="e"/>óg mu się czepił</row>
+			<row important_over="false">
+				<ch a="C"/>Bez butów jest krzyknął i <ch a="D"/>z tronu str<ch a="G"/>ącili</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">
+				<ch a="G"/>Stój dokąd idziesz gdy nikim się stałeś<ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">
+				<ch a="G"/>Ty królem być mogłeś lecz butów nie miałeś<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="G"/>Kochankiem dla brzydkiej dziewc<ch a="e"/>zyny chciał zostać</row>
+			<row important_over="false">
+				<ch a="C"/>Nie chciała go brzydka dziew<ch a="D"/>czyna</row>
+			<row important_over="false">
+				<ch a="G"/>I nie zmógł miłości bez b<ch a="e"/>utów nie sprostał</row>
+			<row important_over="false">
+				<ch a="C"/>Kochanek po cierniach si<ch a="D"/>ę ws<ch a="G"/>pina</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">
+				<ch a="G"/>Stój dokąd idziesz z miłości wyzuty<ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">
+				<ch a="G"/>Kochankiem być chciałeś lecz byłeś bez butów<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="G"/>I księgi im pisał mądro<ch a="e"/>ści im prawił</row>
+			<row important_over="false">
+				<ch a="C"/>Nauczył ich koła i skr<ch a="D"/>ótów</row>
+			<row important_over="false">
+				<ch a="G"/>A lud go w podzięce kij<ch a="e"/>ami oprawił</row>
+			<row important_over="false">
+				<ch a="C"/>Nie możesz być mądrym b<ch a="D"/>ez b<ch a="G"/>utów</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">
+				<ch a="G"/>Stój dokąd idziesz z ranami na twarzy<ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">
+				<ch a="G"/>Ty wciąż jesteś mądry choć o butach marzysz<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="G"/>I chodził po świecie i ż<ch a="e"/>ycie swe chwalił</row>
+			<row important_over="false">
+				<ch a="C"/>Nie stracił nadziei choć zbl<ch a="D"/>akły mu włosy</row>
+			<row important_over="false">
+				<ch a="G"/>Aż trafił na miejsce gdzie b<ch a="e"/>utów nie znali</row>
+			<row important_over="false">
+				<ch a="C"/>I stał się równym wśr<ch a="D"/>ód b<ch a="G"/>osych</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">
+					<ch a="G"/>Stój dokąd idziesz gdzie szukasz nieba<ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false">
+					<ch a="G"/>Stój przecież widzisz że tu cię najbardziej potrzeba<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+			</bis>
+		</block>
+	</lyric>
+	
+	
+	<music metre="">
+		<guitar barre="1"/>
+	</music>
+	<status>
+		<verificators><verificator>Adam</verificator><verificator>Alek</verificator><verificator>Taboret </verificator>
+			
+			
+			
+		</verificators>
+		<to_do>Taboret: Na podstawie informacji od Pana Krzysztofa Mazurkiewicza</to_do>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album></album>
+	<genre></genre>
+</song>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song title="Kaganek" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="d"/> Nocą każdą zap<ch a="a"/>alasz kaganek,</row>
+			<row important_over="true"><ch a="d"/> Płomień chwieje się, t<ch a="a"/>ańczy i drga.</row>
+			<row important_over="true"><ch a="F"/> By wskazywać dr<ch a="G"/>ogę zbłąkanym,</row>
+			<row important_over="true"><ch a="F"/> W oknie twoim się <ch a="G"/>pali do dni<ch a="a"/>a,</row>
+			<row important_over="true">Do dni<ch a="d"/>a<ch a="a"/>, do dni<ch a="d"/>a<ch a="a"/>…</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="d"/> Każdy z nas szuka gdzi<ch a="a"/>eś swego światła</row>
+			<row important_over="false"><ch a="d"/> By mu drogę wskaz<ch a="a"/>ało przez mrok</row>
+			<row important_over="false"><ch a="F"/> Każdy z nas wierzy w m<ch a="G"/>ały kaganek</row>
+			<row important_over="false"><ch a="F"/> By móc prędzej w tę n<ch a="G"/>oc zrobić kr<ch a="a"/>ok</row>
+			<row important_over="false">Zrobić kr<ch a="d"/>o<ch a="a"/>k, zrobić kr<ch a="d"/>o<ch a="a"/>k…</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/> Może kiedy i t<ch a="a"/>y stąd wyruszysz</row>
+			<row important_over="false"><ch a="d"/> Przyjdzie nocą wędr<ch a="a"/>ować przez trakt</row>
+			<row important_over="false"><ch a="F"/> Jakoś raźniej ci b<ch a="G"/>ędzie na duszy</row>
+			<row important_over="false"><ch a="F"/> Gdy światełko zob<ch a="G"/>aczysz wśród ch<ch a="a"/>at</row>
+			<row important_over="false">Wśród ch<ch a="d"/>a<ch a="a"/>t, wśród ch<ch a="d"/>a<ch a="a"/>t…</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			
+			
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator><verificator>Michał Korch</verificator>
+			
+			
+		</verificators>
+		<to_do>Nie odnalazłem twórców.</to_do>
+	</status>
+	<music_source></music_source>
+</song>

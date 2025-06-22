@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Whisky">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo">Dżem</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Mówią o mnie w mieście<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Co z niego za typ<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Wciąż chodzi pijany<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Pewnie nie wie co to wstyd<ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Brudny niedomyty</row>
+      <row important_over="false"><ch a="a"/>W stajni ciągle śpi</row>
+      <row important_over="false"><ch a="C"/>Czego szukasz w naszym mieście<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Idź do diabła mówią mi<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Ludzie pełni cnót<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Ludzie pełni cnót</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Chciałem kiedyś zmądrzeć<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Po ich stronie być<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Spać w czystej pościeli<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Co dzień świeże mleko pić<ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Naprawdę chciałem zmądrzeć</row>
+      <row important_over="false"><ch a="a"/>Po ich stronie być</row>
+      <row important_over="false"><ch a="C"/>Pomyślałem więc o żonie<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Żeby stać się jednym z nich<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Stać się jednym z nich<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Stać się jednym z nich</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Miałem na oku hacjendę<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Wspaniałą mówię wam<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Lecz nie chciała w niej zamieszkać<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Żadna z pięknych dam<ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Wszystkie śmiały się wołając</row>
+      <row important_over="false"><ch a="a"/>Wołając za mną wciąż</row>
+      <row important_over="false"><ch a="C"/>Bardzo ładny frak masz Billy<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Ale kiepski byłby z ciebie<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Kiepski byłby mąż<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Kiepski byłby mąż</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Whisky moja żono<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Tyś najlepszą z dam<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Już mnie nie opuścisz<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Nie, nie będę nigdy sam<ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Mówią whisky to nie wszystko</row>
+      <row important_over="false"><ch a="a"/>Można bez niej żyć</row>
+      <row important_over="false"><ch a="C"/>Lecz nie wiedzą ludzie o tym<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Że najgorsze w świecie tym<ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>To samotnym być<ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>To samotnym być</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

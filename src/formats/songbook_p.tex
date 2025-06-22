@@ -1,0 +1,104 @@
+% STYLE=file
+% TARGET=pdf
+\documentclass[:paper:,:fontsize:]{extbook}
+\usepackage[savemem]{ucs}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+
+\usepackage{songbook21wdh}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{qrcode}
+%\usepackage{index}
+
+\usepackage[xindy,noautomatic]{imakeidx}
+%\usepackage[xindy, splitindex]{imakeidx}
+
+\usepackage{mfirstuc}
+\usepackage[fit]{truncate}
+
+%\newindex{wyk}{wadx}{wind}{Wykonawcy}
+%\newindex{aliases}{aadx}{aind}{Piosenki}
+%\newindex{genre}{gadx}{gind}{Gatunki}
+
+\newcommand{\xindylangopt}{-M lang/polish/utf8-lang}
+%\makeindex[options=\xindylangopt]
+\makeindex[name=wyk,title = Wykonawcy,  options=\xindylangopt]
+\makeindex[name=aliases, title = Piosenki,  options=\xindylangopt]
+\makeindex[name=genre,title = Gatunki,  options=\xindylangopt]
+
+%\makeindex[name=wyk,title = Wykonawcy]
+%\makeindex[name=aliases,title = Piosenki]
+%\makeindex[name=genre,title = Gatunki]
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+
+
+\geometry{scale={0.95,0.90},pdftex,top={3ex}}
+\addtolength{\headheight}{5ex}
+
+\setboolean{PrintChordsOn}{true}
+\setboolean{PrintChordsBehind}{true}
+\setboolean{PrintSongNum}{true}
+
+\setlength{\parindent}{0pt}
+\setlength{\headsep}{10pt}
+
+\newcommand{\theLetter}{}
+
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chapter}[2]{\newpage\vbox{\LARGE{\bf #2}\\}}
+
+\pagestyle{fancy}
+\fancyfoot[RE,LO]{:url:}
+\fancyfoot[RO]{\thepage{} \textbf{\theLetter}}
+\fancyfoot[LE]{\textbf{\theLetter} \thepage{}}
+\fancyfoot[CE,CO]{}
+\fancyhead[RE,LO]{\today}
+
+\pagenumbering{roman}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+\vspace*{\stretch{4}}
+{\Huge\verb|:title:|}
+\vskip 1em
+{\large\verb|:subtitle:|}
+\vspace{\stretch{1}}
+
+\large
+
+\vspace{\stretch{7}}
+\includegraphics[height=5 cm]{:imagePdfPath:}
+\vspace{\stretch{7}}
+
+:publisher:
+
+\vspace{\stretch{1}}
+:place:\today
+\vspace*{\stretch{4}}
+\end{center}
+\vfill
+\rightline{\qrcode{:url:}}
+
+\cleardoublepage
+\printindex[aliases]
+\cleardoublepage
+
+\pagenumbering{arabic}

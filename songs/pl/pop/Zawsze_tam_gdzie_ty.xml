@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zawsze tam gdzie ty">
+  <alias/>
+  <text_author>Lady Punk</text_author>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Zamienie każdy oddech w niespokony wiatr<ch a="e"/><ch a="a7"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>By zabrał mnie z powrotem tam gdzie masz swój świat<ch a="e"/><ch a="a7"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Poskładam wszystkie szepty<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>W jeden ciepły krzyk<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Żeby znalazł cię aż tam<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>Gdzie pochowałaś sny<ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Już teraz wiem, że dni są tylko po to<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>By do ciebie wracać każdą nocą złotą<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Nie znam słów co mają jakiś większy sens<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Jeśli tylko jedno, jedno tylko wiem<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Być zawsze tam gdzie ty<ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Nie pytaj mnie o jutro<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>To za tysiąc lat<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Płyniemy białą łódką<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>W niezbadany czas<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Poskładam nasze szepty<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>W jeden ciepły krzyk<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>By już nie uciekły nam<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>By wysuszyły łzy<ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="C"/>Już teraz wiem, że dni są tylko po to<ch a="D"/></row>
+        <row important_over="false"><ch a="G"/>By do ciebie wracać każdą nocą złotą<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Nie znam słów co mają jakiś większy sens<ch a="D"/></row>
+        <row important_over="false"><ch a="G"/>Jeśli tylko jedno jedno tylko wiem<ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Być zawsze tam gdzie ty<ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Budzić się i chodzić spać we własnym niebie<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>Być zawsze tam gdzie ty<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Żegnać się co świt i wracać znów do ciebie<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>Być zawsze tam gdzie ty<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Budzić się i chodzić spać we własnym niebie<ch a="e"/></row>
+      <row important_over="false"><ch a="a7"/>Być zawsze tam gdzie ty<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Zawsze tam gdzie ty<ch a="e"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

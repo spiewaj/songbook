@@ -1,3 +1,7 @@
-Jinja2==2.11.2
-lxml==4.5.0
-MarkupSafe==1.1.1
+Jinja2~=3.1
+#lxml==4.5.0 - `sudo apt-get install python3-lxml` (or similar) works better, as it's not python-native package.
+MarkupSafe~=2.1
+lxml
+PyICU>=2.7
+pyyaml
+regex

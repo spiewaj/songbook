@@ -1,0 +1,22 @@
+\begin{song}{\VAR{song.title}}{\VAR{song.text_author}}{\VAR{song.composer}}{\VAR{song.artist}}{\VAR{song.barre or ''}}{\VAR{song.metre or ''}}{\VAR{song.genre or ''}}{\VAR{song.alias or ''}}
+\begin{longtable}[l]{l V{6em} l l@{}}
+&\ldots \endfoot  \endlastfoot
+\BLOCK{ for block in song.blocks }
+    \BLOCK{ for row in block.effective_rows }
+        \row[\VAR{row.row_type}]{\VAR{block.block_type.value}}{\BLOCK{ for chunk in row.chunks }
+            \BLOCK{ if not row.new_chords or not chunk.chord -}
+                \VAR{chunk.content}
+            \BLOCK{- else -}
+                \Ch{\VAR{chunk.chord}}{\VAR{chunk.content}}
+            \BLOCK{- endif }
+        \BLOCK{ endfor }}{\BLOCK{ if row.bis == True -}
+            \bis
+        \BLOCK{- elif row.bis > 0 -}
+            \bisl{\VAR{row.bis}}
+        \BLOCK{- endif }}{\BLOCK{ if row.sidechords!=None -}\VAR{row.sidechords}\BLOCK{- else -}\BLOCK{ for chunk in row.chunks -}
+            \BLOCK{ if chunk.chord }\VAR{chunk.chord} \BLOCK{ endif }
+        \BLOCK{- endfor }\BLOCK{- endif }}%
+    \BLOCK{ endfor }
+\BLOCK{ endfor }
+\end{longtable}
+\end{song}

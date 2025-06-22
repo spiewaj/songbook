@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nuta z Ponidzia">
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Polami, polami, po miedzach, po miedzach<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Po błocku skisłym w mgłę i wiatr<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Nie za szybko, kroki drobiąc<ch a="h7"/><ch a="E"/></row>
+			<row important_over="false">Idzie wiosna, idzie nam<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
+			<row important_over="false">Idzie wiosna, idzie<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rozłożyła wiosna spódnicę zieloną<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Przykryła błota bury łan<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Pachnie ziemia ciałem młodym<ch a="h7"/><ch a="E"/></row>
+			<row important_over="false">Póki wiosna, póki trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
+			<row important_over="false">Póki wiosna, póki trwa<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rozpuściła wiosna warkocze kwieciste<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Zbarwniały łąki niczym kram<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Będzie odpust pod Wiślicą<ch a="h7"/><ch a="E"/></row>
+			<row important_over="false">Póki wiosna, póki trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
+			<row important_over="false">Póki wiosna, póki trwa<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ponidzie wiosenne, Ponidzie leniwe<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Pręży się jak do słońca kot,<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
+			<row important_over="false">Rozciągnięte po tych polach<ch a="h7"/><ch a="E7"/></row>
+			<row important_over="false">Lichych lasach, pstrych łozinach<ch a="h7"/><ch a="E7"/></row>
+			<row important_over="false">Skałkach słońcem rozognionych<ch a="h7"/><ch a="E7"/></row>
+			<row important_over="false">Nidą w łąkach roziskrzoną<ch a="h7"/><ch a="E7"/></row>
+			<row important_over="false">Na Ponidziu wiosna trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
+			<row important_over="false">Na Ponidziu wiosna trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
+			<row important_over="false">Na Ponidziu<ch a="a"/><ch a="G"/><ch a="F"/><ch a="a"/></row>
+		</block>
+	</lyric>
+	<keywords/>
+	<status>
+		<done>
+			<chords>chords</chords>
+		</done>
+		<verificators/>
+	</status>
+</song>

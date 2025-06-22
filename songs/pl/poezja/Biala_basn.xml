@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Biała baśń" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Mirosław Ostrycharz</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Leonhard</composer>
+	<artist type="band">Małżeństwo z Rozsądku</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">W osypanych śnieżnym puchem<ch a="h"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="false">Koleinach leśnych dróg<ch a="D7+"/><ch a="E"/><ch a="A7+"/></row>
+			<row important_over="false">Wznieca wiatr nagłym podmuchem<ch a="D7+"/><ch a="cis"/></row>
+			<row important_over="false">Burze lśniących bielą smug.<ch a="D7+"/><ch a="cis"/><ch a="fis"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Świt przejrzysty, wklęty w ciszę,<ch a="h"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="false">Zatopiony w śnieżną jaśń,<ch a="D7+"/><ch a="E"/><ch a="A7+"/></row>
+			<row important_over="false">Blaskiem słońca w brzozach pisze<ch a="D7+"/><ch a="cis"/></row>
+			<bis times="2">
+				<row important_over="false">Oszronioną, mroźną baśń.<ch a="D7+"/><ch a="cis"/><ch a="E"/><ch a="fis"/><ch a="Fis"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tak się dziwnie w oczach mieni<ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Oszadziały, cichy las…<ch a="h"/><ch a="fis"/></row>
+			<row important_over="false">Pójdźmy w odmęt tej przestrzeni,<ch a="D"/><ch a="A"/></row>
+			<row important_over="false">W której dotąd brakło nas.<ch a="h"/><ch a="cis"/><ch a="D7+"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niech nas mrozem wiatr owionie…</row>
+			<row important_over="false">Nim zaginie po nas ślad,</row>
+			<row important_over="false">Razem z nami w snach utonie</row>
+			<row important_over="false">Zbłękitniały, śnieżny świat.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zagubimy się w dąbrowie,</row>
+			<row important_over="false">W białych słońcach, w siwych mgłach</row>
+			<row important_over="false">I nikt o nas się nie dowie,</row>
+			<row important_over="false">Gdzieśmy byli, w jakich snach…</row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

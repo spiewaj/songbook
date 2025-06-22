@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrówką życie jest człowieka">
+  <alias/>
+  <text_author>Edward Stachura</text_author>
+  <comment/>
+  <album>Pod Wielkim Dachem Nieba</album>
+  <composer type="solo">,,El condor passa''</composer>
+  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">
+        <ch a="e"/>
+     </row>
+      <bis times="4">
+        <row important_over="false"><ch a="G"/>A, a, a…<ch a="D"/><ch a="e"/></row>
+      </bis>
+      <row important_over="false"><ch a="e"/>Wędrówką jedną życie jest człowieka<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Idzie wciąż dalej wciąż<ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Dokąd skąd, dokąd skąd, dokąd skąd<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Jak zjawa senna życie jest człowieka<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Zjawia się, dotknąć chcesz<ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Lecz ucieka, lecz ucieka, lecz ucieka<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Dopóki sił jednak iść przecież iść<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Będę iść</row>
+      <row important_over="false"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Dopóki sił będzie będę szedł, będę biegł<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Nie dam się</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Wędrówką jedną życie jest człowieka<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Idzie tam, idzie tu<ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Brak mu tchu, brak mu tchu, brak mu tchu<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Jak chmura zwiewna życie jest człowieka<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Płynie wzwyż, płynie w niż<ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Śmierć go czeka, śmierć go czeka, śmierć go czeka<ch a="D"/><ch a="e"/></row>
+      <bis times="3">
+        <row important_over="false"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
+        <row important_over="false"><ch a="C"/>Dopóki sił jednak iść przecież iść<ch a="G"/><ch a="D"/></row>
+        <row important_over="false"><ch a="e"/>Będę iść</row>
+        <row important_over="false"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
+        <row important_over="false"><ch a="C"/>Dopóki sił będę szedł, będę biegł<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/></row>
+      </bis>
+      <bis times="3">
+        <row important_over="false"><ch a="e"/>Nie dam się</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">A, a, a…</row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bob Dylan">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Ocean w nas śpi i horyzont z nas drwi<ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="h"/>Płytka fala fałszywie się mieni<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>A prawdziwy jest rejs do nieznanych miejsc<ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Kiedy płyniesz na przekór przestrzeni<ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>I na tej z wielu dróg po co ci para nóg<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>I tak dotrzesz na pewno do końca<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>Nie potrzebny ci wzrok żeby wyczuć swój krok<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>I nie musisz wciąż radzisz się słońca<ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Wielbicieli i sług tłum ci zawisł u nóg<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>To wolności twej chciwi strażnicy<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>Zaprowadzisz ich tam gdzie powinieneś być sam<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Z nimi żadnej nie przejdziesz granicy<ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Zlekceważą twój głos którym wróżysz im los<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Od jakiego ich nic nie wyzwoli<ch a="G"/><ch a="A"/></row>
+      <bis>
+        <row important_over="false"><ch a="D"/>Bo zabije ich las rąk co klaszczą na czas<ch a="G"/><ch a="D"/></row>
+        <row important_over="false"><ch a="D"/>W marsza rytm co śmierć niosąc nie boli<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Patrz jak piją i żrą twoją żywią się krwią<ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="h"/>I żonglują słowami twych pieśni<ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Lecz nic nie śni się im a najlepiej wiesz że<ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Nie istnieje wszak to co się nie śni<ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>By przy śmierci twej być płakać, śmiać się i drwić<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>To jedyny cel twojej eskorty<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>Oddaj komuś rząd dusz i na własny szlak rusz<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Tam gdzie żadne nie zdarzą się porty<ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <bis>
+        <row important_over="false"><ch a="D"/>Mówić będą żeś zbiegł ale wyjdą na brzeg<ch a="G"/><ch a="D"/></row>
+        <row important_over="false"><ch a="D"/>I zdradzieckie ci lampy zapalą<ch a="G"/><ch a="A"/></row>
+        <row important_over="false"><ch a="G"/>Ale ty patrząc w dal płynąc będziesz wśród fal<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+        <row important_over="false"><ch a="D"/>Aż sam wreszcie staniesz się falą<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

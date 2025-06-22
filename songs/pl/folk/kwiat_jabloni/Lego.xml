@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lego">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Kasia Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Czas<ch a="B"/>ami chciałbym być zrobiony z klocków lego</row>
+      <row important_over="true">Byś mogła mi wymienić głowę,<ch a="C"/> gdy ją mam za cię<ch a="d"/>żką</row>
+      <row important_over="true">Dł<ch a="B"/>onie miałbym trochę mniej skomplikowane</row>
+      <row important_over="true">Ale mógłbym nimi chwycić wszystko,<ch a="C"/> co od ciebie dosta<ch a="d"/>nę</row>
+      <row important_over="true">Co od ciebie dosta<ch a="C"/>nę</row>
+      <row important_over="false">I p<ch a="B"/>ewnie mógłbym mocno trzymać się podstawy</row>
+      <row important_over="false">Nawet gdybyś wywróciła mi świat <ch a="C"/>do góry noga<ch a="d"/>mi</row>
+      <row important_over="false">Do góry noga<ch a="C"/>mi</row>
+      <row important_over="false">I m<ch a="B"/>ożna byłoby nawet rzucić mną o ścianę</row>
+      <row important_over="false">A ja miałbym pewność, że i t<ch a="C"/>ak wtedy nic mi się nie sta<ch a="d"/>nie</row>
+      <row important_over="false">Nic mi się nie sta<ch a="C"/>nie</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="F"/>Na niebie grzmi</row>
+      <row important_over="true">Od wiatru le<ch a="g"/>cą łzy</row>
+      <row important_over="true">Już da<ch a="C"/>wno bym się rozsypał, gdyby nie t<ch a="F"/>y</row>
+      <row important_over="true"><ch a="F"/>Na niebie grzmi</row>
+      <row important_over="true">Wali z ca<ch a="g"/>łych sił</row>
+      <row important_over="true">J<ch a="C"/>eśli chcę, do ciebie muszę i<ch a="F"/>ść</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Czas<ch a="B"/>ami chciałbym być zupełnie pusty w środku</row>
+      <row important_over="false">By chociaż przez chwilę poczuć tr<ch a="C"/>ochę większy sp<ch a="d"/>okój</row>
+      <row important_over="false">Trochę większy spo<ch a="C"/>kój</row>
+      <row important_over="false">Nie wa<ch a="B"/>żne gdzie bym był i czego bym nie robił</row>
+      <row important_over="false">Miałbym przyklejony uśmiech d<ch a="C"/>o mojej małej gło<ch a="d"/>wy</row>
+      <row important_over="false">Mojej małej gło<ch a="C"/>wy</row>
+      <row important_over="false">Bez ci<ch a="B"/>enia wątpliwości, bez niepewnych kroków</row>
+      <row important_over="false">I w kółko zadawanych pytań, <ch a="C"/>czy już jestem go<ch a="d"/>tów, oo<ch a="C"/>o</row>
+      <row important_over="false">Cza<ch a="B"/>sami chciałbym być zrobiony z klocków lego</row>
+      <row important_over="false">Bo nie mógłbym zrobić ci wt<ch a="C"/>edy niczego z<ch a="d"/>łego</row>
+      <row important_over="false">Niczego zł<ch a="C"/>ego</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="false"><ch a="F"/>Na niebie grzmi</row>
+      <row important_over="false">Od wiatru le<ch a="g"/>cą łzy</row>
+      <row important_over="false">Już da<ch a="C"/>wno bym się rozsypał, gdyby nie t<ch a="F"/>y</row>
+    </block>
+    <block type="other">
+      <row important_over="false">O<ch a="C"/>oo, o<ch a="B"/>oo</row>
+      <row important_over="false">O<ch a="d"/>oo, o<ch a="F"/>oo</row>
+      <row important_over="false">O<ch a="C"/>oo, o<ch a="B"/>oo</row>
+      <row important_over="false">O<ch a="d"/>oo, o<ch a="F"/>oo</row>
+      <row important_over="false">O<ch a="C"/>oo, o<ch a="B"/>oo</row>
+      <row important_over="false">O<ch a="d"/>oo, o<ch a="F"/>oo</row>
+      <row important_over="false">O<ch a="C"/>oo, ooo</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false"><ch a="F"/>Na niebie grzmi</row>
+      <row important_over="false">Od wiatru le<ch a="g"/>cą łzy</row>
+      <row important_over="false">J<ch a="C"/>eśli chcę, do ciebie muszę i<ch a="F"/>ść</row>
+      <row important_over="false">J<ch a="C"/>eśli chcę, do ciebie muszę i<ch a="d"/>ść</row>
+      <row important_over="false">Tak ba<ch a="C"/>rdzo chcę do ciebie, więc muszę i<ch a="F"/>ść</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Pokaz slajdów</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

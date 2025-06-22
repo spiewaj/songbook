@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dam ci ptaszka">
+  <alias>chóry Andrusa</alias>
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <composer>Artur Andrus</composer>
+  <artist type="solo">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Zamiast bać się czarnej dziury,</row>
+      <row important_over="false">lękać się imperium zła,</row>
+      <row important_over="false">ludzie, ludzie zakładajmy chóry,</row>
+      <row important_over="false">wszędzie gdzie się da.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Chór na dworcu,</row>
+      <row important_over="false">chór na plaży,</row>
+      <row important_over="false">chór upadłych dziennikarzy,</row>
+      <row important_over="false">chór noszących okulary,</row>
+      <row important_over="false">chór imienia Che Guevary,</row>
+      <row important_over="false">chór wyniosłych decydentów,</row>
+      <row important_over="false">chór wypożyczalni sprzętów,</row>
+      <row important_over="false">chór powracających z gór,</row>
+      <row important_over="false">i zwalczających dur.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie trać czasu na wygłupy,</row>
+      <row important_over="false">miałeś chamie czapkę z piór,</row>
+      <row important_over="false">ludzie, ludzie zbierzmy się do kupy,</row>
+      <row important_over="false">i załóżmy jakiś chór .</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Chór w komendzie,</row>
+      <row important_over="false">chór w szpitalu,</row>
+      <row important_over="false">chór hurtowni i detalu,</row>
+      <row important_over="false">chór klientów punktu ksero,</row>
+      <row important_over="false">mały męski chór hetero,</row>
+      <row important_over="false">chór budowy autostrady,</row>
+      <row important_over="false">chór turystów spod Hurghady,</row>
+      <row important_over="false">i podpierających mur,</row>
+      <row important_over="false">chór pradawnych cór.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Zamiast wyczekiwać kiedy,</row>
+      <row important_over="false">wróg zaczai się u bram,</row>
+      <row important_over="false">ludzie, ludzie każdy z nas ma kredyt,</row>
+      <row important_over="false">pozostały nam ...</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">O jasny, jasny ptasząt śpiew</row>
+      <row important_over="false">W krwawym polu srebrne ptasze,</row>
+      <row important_over="false">Dam ci ptaszka jakich mało,</row>
+      <row important_over="false">Ej! Przeleciał ptaszek.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

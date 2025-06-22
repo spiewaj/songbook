@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piłem w Spale, spałem w Pile">
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <composer type="solo">Artur Andrus</composer>
+  <artist type="solo">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Idą <ch a="h"/>sobie polną drogą</row>
+      <row important_over="true">Tacy, <ch a="h"/>którzy dużo mogą,</row>
+      <row important_over="true">Trąbka im do marszu <ch a="Fis"/>gra,</row>
+      <row important_over="true">Dyre<ch a="Fis"/>ktory i prezesy</row>
+      <row important_over="true">Łase <ch a="Fis"/>toto na sukcesy</row>
+      <row important_over="true">A tymczasem <ch a="h"/>ja:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Piłem w <ch a="h"/>Spale, spałem w Pile</row>
+      <row important_over="true">I to jak na razie tyle, <ch a="Fis"/>Heeej, okej!</row>
+      <row important_over="true">Znak szcze<ch a="Fis"/>gólny mam na ciele:</row>
+      <row important_over="true">Wytatuowany jeleń, <ch a="h"/>Heeej, okej!</row>
+      <row important_over="true">On ma <ch a="h"/>rogi, gdzie ja mięśnie,</row>
+      <row important_over="true">Jak ja schudnę to on wklęśnie. <ch a="Fis"/>Heeej, okej!</row>
+      <row important_over="true">Piłem w <ch a="Fis"/>Spale, spałem w Pile</row>
+      <row important_over="true">I to jak na razie tyle! <ch a="h"/>Heeej, okej!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na co <ch a="h"/>mnie tam do cholery</row>
+      <row important_over="false">Te zasz<ch a="h"/>czyty, te ordery</row>
+      <row important_over="false">Rauty, gale i te <ch a="Fis"/>pe,</row>
+      <row important_over="false">Mnie do sz<ch a="Fis"/>częścia nie potrzeba</row>
+      <row important_over="false">Ani <ch a="Fis"/>igrzysk ani chleba,</row>
+      <row important_over="false">Ważne tylko, <ch a="h"/>że:</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">A naj<ch a="h"/>gorsi to są młodzi,</row>
+      <row important_over="false">Świat przez m<ch a="h"/>łodych na psy schodzi</row>
+      <row important_over="false">Żadnych marzeń, tylko <ch a="Fis"/>pic.</row>
+      <row important_over="false">Syn stu<ch a="Fis"/>diuje medycynę,</row>
+      <row important_over="false">Martwię <ch a="Fis"/>się tym moim synem,</row>
+      <row important_over="false">Nie osiągnął <ch a="h"/>nic:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Nie pił w <ch a="h"/>Spale, nie spał w Pile</row>
+      <row important_over="false">Życia już zmarnował tyle...<ch a="Fis"/>Heeej, okej!</row>
+      <row important_over="false">Dobrze, <ch a="Fis"/>że choć na kolanie</row>
+      <row important_over="false">Ma tatuowaną łanię... <ch a="h"/>Heeej, okej!</row>
+      <row important_over="false">Jak przy<ch a="h"/>kucnie to jest hiena</row>
+      <row important_over="false">Jednak coś zostaje w genach. <ch a="Fis"/>Heeej, okej!</row>
+      <row important_over="false">W czasie <ch a="Fis"/>studiów jego matka</row>
+      <row important_over="false">Hienę miała na łopatkach. <ch a="h"/>Heeej, okej! Okej! Okej!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

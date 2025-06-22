@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Śmiały Harpunnik" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Marek Siurawski</text_author>
+	<comment></comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="solo">Cztery Refy</artist>
+	<translator></translator>
+	<original_title>The Bold Harpooner</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">N<ch a="d"/>asz "Diament" prawie got<ch a="a"/>ów już, w ci<ch a="d"/>eśninach nie ma kr<ch a="a"/>y.</row>
+			<row important_over="true">Na k<ch a="d"/>ei piękne p<ch a="a"/>anny stoją, w <ch a="g"/>oczach bł<ch a="a"/>yszczą łz<ch a="d"/>y.</row>
+			<row important_over="false">K<ch a="d"/>apitan w niebo wl<ch a="a"/>epia wzrok, r<ch a="d"/>uszamy lada dzi<ch a="a"/>eń,</row>
+			<row important_over="false">Pł<ch a="d"/>yniemy tam, gdzie sł<ch a="a"/>ońca blask nie<ch a="g"/> mąci <ch a="a"/>nocy ci<ch a="d"/>eń.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true"><ch a="d"/>A wi<ch a="C"/>ęc krz<ch a="d"/>ycz: <ch a="C"/>O-h<ch a="d"/>o, ho! Odwag<ch a="d"/>ę w s<ch a="C"/>ercu mi<ch a="d"/>ej!</row>
+				<row important_over="true">Wielorybów cielska gr<ch a="F"/>oźne s<ch a="g"/>ą, lecz d<ch a="d"/>ostani<ch a="C"/>emy j<ch a="d"/>e!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">H<ch a="d"/>ej, panno, powiedz p<ch a="a"/>o co łzy? N<ch a="d"/>ic nie zatrzyma mn<ch a="a"/>ie,</row>
+			<row important_over="false">Bo pr<ch a="d"/>ędzej w lodach kwi<ch a="a"/>at zakwitnie, n<ch a="g"/>iż wyc<ch a="a"/>ofam si<ch a="d"/>ę.</row>
+			<row important_over="false">N<ch a="d"/>o, nie płacz, mała, wr<ch a="a"/>ócę tu, n<ch a="d"/>asz los nie taki zł<ch a="a"/>y,</row>
+			<row important_over="false">Bo d<ch a="d"/>a dukatów w<ch a="a"/>ór za tran <ch a="g"/>i wielor<ch a="a"/>ybie kł<ch a="d"/>y.</row>
+			<row important_over="false"></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="d"/>A wi<ch a="C"/>ęc krz<ch a="d"/>ycz: <ch a="C"/>O-h<ch a="d"/>o, ho! Odwag<ch a="d"/>ę w s<ch a="C"/>ercu mi<ch a="d"/>ej!</row>
+				<row important_over="false">Wielorybów cielska gr<ch a="F"/>oźne s<ch a="g"/>ą, lecz d<ch a="d"/>ostani<ch a="C"/>emy j<ch a="d"/>e!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Na decku Stary w<ch a="a"/>ąchał wiatr, l<ch a="d"/>unetę w ręku mi<ch a="a"/>ał.</row>
+			<row important_over="false">Na ł<ch a="d"/>odziach, co zwis<ch a="a"/>ały już z harp<ch a="g"/>unem k<ch a="a"/>ażdy st<ch a="d"/>ał.</row>
+			<row important_over="false"><ch a="d"/>I dmucha tu, i dm<ch a="a"/>ucha tam! Ogr<ch a="d"/>omne stado wkr<ch a="a"/>ąg.</row>
+			<row important_over="false">Harp<ch a="d"/>uny, wiosła, l<ch a="a"/>iny brać! I ciąg<ch a="g"/>aj, br<ch a="a"/>achu, ci<ch a="d"/>ąg!</row>
+			<row important_over="false"></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="d"/>A wi<ch a="C"/>ęc krz<ch a="d"/>ycz: <ch a="C"/>O-h<ch a="d"/>o, ho! Odwag<ch a="d"/>ę w s<ch a="C"/>ercu mi<ch a="d"/>ej!</row>
+				<row important_over="false">Wielorybów cielska gr<ch a="F"/>oźne s<ch a="g"/>ą, lecz d<ch a="d"/>ostani<ch a="C"/>emy j<ch a="d"/>e!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="d"/>I dla wieloryba j<ch a="a"/>uż ost<ch a="d"/>atni to dzi<ch a="a"/>eń,</row>
+				<row important_over="false">Bo śm<ch a="d"/>iały harp<ch a="a"/>unnik ud<ch a="g"/>erz<ch a="a"/>a w<ch a="d"/>eń!</row>
+			</bis>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false"><ch a="d"/>A wi<ch a="C"/>ęc krz<ch a="d"/>ycz: <ch a="C"/>O-h<ch a="d"/>o, ho! Odwag<ch a="d"/>ę w s<ch a="C"/>ercu mi<ch a="d"/>ej!</row>
+				<row important_over="false">Wielorybów cielska gr<ch a="F"/>oźne s<ch a="g"/>ą, lecz d<ch a="d"/>ostani<ch a="C"/>emy j<ch a="d"/>e!</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kasia Kowalska</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

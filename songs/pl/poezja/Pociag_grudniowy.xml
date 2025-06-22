@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pociąg grudniowy">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>W pociągu grudniowym gdzieś koło północy<ch a="A"/><ch a="Gzm"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="C"/>Pomiędzy odjazdem a celem<ch a="G"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="H7"/>Przykryłeś się paltem głęboko po oczy<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>A wokół kolęda się ściele<ch a="G"/><ch a="H7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Zimowa podróż zimowa mgła<ch a="G"/><ch a="Gzm"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="C"/>Jak czarnobiała fotografia twa<ch a="G"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/>W powietrzu zamarza dym nikt nie wie<ch a="A"/><ch a="e"/></row>
+      <row important_over="false"><ch a="A"/>Gdzie Rzym gdzie Krym zimowa podróż zimowa podróż trwa<ch a="C"/><ch a="H7"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Gdy pociąg przystanie na stacji nieznanej<ch a="A"/><ch a="Gzm"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="C"/>Co nagle wynuża się z bieli<ch a="G"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="H7"/>Z podróżnym co czeka oparty o ścianę<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Opłatkiem księżyca się dzielisz<ch a="G"/><ch a="H7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

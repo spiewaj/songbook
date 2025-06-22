@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Katarynka" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment></comment>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Wiktor Woroszylski</translator>
+	<original_title>Szaemanka</original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Zwodn<ch a="G"/>ico — katarynko, teój głos tak słodko brzm<ch a="D7"/>i,</row>
+			<row important_over="true">Ach, d<ch a="D7"/>okąd, katarynko, wskazujesz drogę m<ch a="G"/>i?</row>
+			<row important_over="true">Po r<ch a="H7"/>óżnych drogach wi<ch a="e"/>elu drept<ch a="E7"/>ałem w życiu d<ch a="a"/>ość,</row>
+			<row important_over="true">Lecz p<ch a="a"/>owiedz, jak do c<ch a="e"/>elu mam w ci<ch a="H7"/>asnych butach d<ch a="e"/>ojść.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rob<ch a="G"/>ota jest robotą — a któż by bez niej ż<ch a="D7"/>ył?</row>
+			<row important_over="false">Rob<ch a="D7"/>oty mamy potąd, niech tylko starczy s<ch a="G"/>ił.</row>
+			<row important_over="false">Wiad<ch a="H7"/>omo — bywa r<ch a="e"/>óżnie, wiad<ch a="E7"/>omo — ma się d<ch a="a"/>ość,</row>
+			<row important_over="false">A prz<ch a="a"/>ydałby się <ch a="e"/>uśmiech, gdy ż<ch a="H7"/>ycie daje w k<ch a="e"/>ość.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Rob<ch a="G"/>ota jest robotą.</row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	<music metre="3/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

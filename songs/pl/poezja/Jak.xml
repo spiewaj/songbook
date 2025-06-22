@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jak">
+	<alias/>
+	<text_author type="solo">Edward Stachura</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">
+				<ch a="D"/>Jak po nocnym niebie sun<ch a="A"/>ące</row>
+			<row important_over="true">Białe obł<ch a="G"/>oki nad l<ch a="D"/>asem</row>
+			<row important_over="true">
+				<ch a="e"/>Jak na sz<ch a="G"/>yi wędrowca apaszka szamotana wi<ch a="D"/>atrem</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak wyciągnięte t<ch a="A"/>am powyżej</row>
+			<row important_over="false">Gwiaździ<ch a="G"/>ste ramiona <ch a="D"/>wasze</row>
+			<row important_over="false">A t<ch a="e"/>u są nasze, a t<ch a="G"/>u są n<ch a="D"/>asze</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak suchy szloch w tę dżdż<ch a="A"/>ystą noc</row>
+			<row important_over="false">Jak wi<ch a="G"/>nny li niewinny sumi<ch a="D"/>enia wyrzut</row>
+			<row important_over="false">Że się ż<ch a="e"/>yje gdy um<ch a="G"/>arło tylu tylu t<ch a="D"/>ylu</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak suchy szloch w tę dżdż<ch a="A"/>ystą noc</row>
+			<row important_over="false">Jak l<ch a="G"/>izać rany c<ch a="D"/>elnie zadane</row>
+			<row important_over="false">Jak l<ch a="e"/>epić serce w pr<ch a="G"/>och potrzaska<ch a="D"/>ne</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak suchy szloch w tę dżdż<ch a="A"/>ystą noc</row>
+			<row important_over="false">Pud<ch a="G"/>owy kamień, pud<ch a="D"/>owy kamień</row>
+			<row important_over="false">Ja na<ch a="e"/> nim stanę, on na<ch a="G"/> mnie stanie</row>
+			<row important_over="false">On n<ch a="D"/>a mnie stanie, spod niego wstanę</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak suchy szloch w tę dżd<ch a="A"/>żystą noc</row>
+			<row important_over="false">Jak zł<ch a="G"/>ota kula nad wod<ch a="D"/>ami</row>
+			<row important_over="false">
+				<ch a="e"/>Jak świt pod spuchni<ch a="G"/>ętymi powiek<ch a="D"/>ami</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">
+				<ch a="D"/>Jak zorze miłe śl<ch a="A"/>iczne polany</row>
+			<row important_over="false">Jak sł<ch a="G"/>ońca pierś jak g<ch a="D"/>arb swój nieść</row>
+			<row important_over="false">Jak d<ch a="e"/>o was siostry mgławic<ch a="G"/>owe ten zawodz<ch a="D"/>ący śpiew</row>
+		</block>
+		<block type="verse">
+			<bis>
+				<row important_over="false">
+					<ch a="D"/>Jak biec do końca p<ch a="A"/>otem odpoczniesz</row>
+				<row important_over="false">
+					<ch a="G"/>Potem odpoczniesz c<ch a="D"/>udne manowce</row>
+				<row important_over="false">C<ch a="e"/>udne manowce, c<ch a="G"/>udne, cudne man<ch a="D"/>owce</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Alek</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<album/>
+	<genre/>
+</song>

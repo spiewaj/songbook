@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nocna piosenka o mieście">
+	<alias/>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment>Ostatnią zwrotkę śpiewa się w kanonie, do wspólnego wyhamowania na 'W mieście jak ryby tramwaje'</comment>
+	<album>Bukowina</album>
+	<composer type="solo">Wojciech Bellon</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="true">W mi<ch a="C"/>eście jak ryby tramw<ch a="G"/>aje</row>
+				<row important_over="true">A mi<ch a="F"/>asto jak studnia bez dn<ch a="a"/>a<ch a="G7"/></row>
+				<row important_over="true">A ni<ch a="C"/>ebo jak ż<ch a="G"/>uraw, a ni<ch a="G7"/>ebo jak ż<ch a="a"/>uraw</row>
+				<row important_over="true">Sch<ch a="C"/>yla się nocą i św<ch a="d"/>item powstaje</row>
+				<row important_over="true">Nad r<ch a="E"/>ybną st<ch a="e"/>udnią bez dn<ch a="a"/>a</row>
+			</bis>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Za<ch a="A7"/>ułków lipcem sparz<ch a="F"/>onych</row>
+			<row important_over="true">Wyc<ch a="G"/>iszyć nie m<ch a="F"/>oże zmr<ch a="C"/>ok</row>
+			<row important_over="true">Zasi<ch a="E7"/>edli na ławkach, zasi<ch a="a"/>edli na ławkach</row>
+			<row important_over="true">L<ch a="F"/>udzie co twarze dni<ch a="C"/>em umęczone</row>
+			<row important_over="true">Pod l<ch a="G"/>ipiec kładą i zmr<ch a="C"/>ok, pod l<ch a="G"/>ipiec kładą i zmr<ch a="a"/>ok</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">Ni<ch a="C"/>e śpię, bo spotkać chcę w mi<ch a="G"/>eście</row>
+				<row important_over="false">Tę c<ch a="F"/>iszę, co gęsta jak n<ch a="a"/>o<ch a="G7"/>c</row>
+				<row important_over="false">Rozm<ch a="C"/>awiać z krok<ch a="G"/>ami, swo<ch a="G7"/>imi krok<ch a="a"/>ami</row>
+				<row important_over="false">I <ch a="C"/>oto idę n<ch a="d"/>ocy na przeciw</row>
+				<row important_over="false">Bo w<ch a="E"/>okół c<ch a="e"/>isza i n<ch a="a"/>oc</row>
+			</bis>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Cz<ch a="A7"/>ekam, aż neon przytł<ch a="F"/>umi</row>
+			<row important_over="false">Rozm<ch a="G"/>yta lat<ch a="F"/>arnia dni<ch a="C"/>a</row>
+			<row important_over="false">Odn<ch a="E7"/>ajdą się cienie, odn<ch a="a"/>ajdą się cienie</row>
+			<row important_over="false">I l<ch a="F"/>udźmi ulice zatł<ch a="C"/>umią</row>
+			<row important_over="false">Cz<ch a="G"/>ekam na przyjście dni<ch a="C"/>a, cz<ch a="G"/>ekam na przyjście dni<ch a="a"/>a</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">W mi<ch a="C"/>eście jak ryby tramw<ch a="G"/>aje</row>
+			<row important_over="true">A mi<ch a="F"/>asto jak studnia bez dn<ch a="a"/>a<ch a="G7"/></row>
+			<row important_over="true">A ni<ch a="C"/>ebo jak ż<ch a="G"/>uraw, a ni<ch a="G7"/>ebo jak ż<ch a="a"/>uraw</row>
+			<row important_over="true">Sch<ch a="C"/>yla się nocą i św<ch a="d"/>item powstaje</row>
+			<row important_over="true">Nad r<ch a="E"/>ybną st<ch a="e"/>udnią bez dn<ch a="a"/>a</row>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false">W mi<ch a="C"/>eście jak ryby tramw<ch a="G"/>aje</row>
+				<row important_over="false">A mi<ch a="C"/>asto jak studnia bez dn<ch a="G"/>a</row>
+				<row important_over="false">A ni<ch a="C"/>ebo jak żuraw, a niebo jak ż<ch a="G"/>uraw</row>
+				<row important_over="false">Sch<ch a="C"/>yla się nocą i św<ch a="G"/>item powstaje</row>
+				<row important_over="false">Nad r<ch a="C"/>ybną studnią bez dn<ch a="G"/>a</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do/>
+		<done>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<keywords/>
+	<music_source/>
+	<genre>Poezja śpiewana</genre>
+</song>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pan Kmicic">
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <comment>27.10.1989
+(wg H. Sienkiewicza)</comment>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="other">
+      <bis times="4">
+        <row important_over="false" style="instr"> <ch a="aa"/><ch a="ad"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true">Wilcze <ch a="a"/>zęby, oczy <ch a="d"/>siwe</row>
+      <row important_over="true">Groźnie <ch a="E"/>garść obuszkiem <ch a="a"/>furczy</row>
+      <row important_over="true">Gniew w<ch a="a"/> zawody z wichru <ch a="d"/>zrywem</row>
+      <row important_over="true">Dzika <ch a="E"/>radość, lot jaskółczy<ch a="a"/></row>
+      <row important_over="true">Czyn to <ch a="A"/>czyn zapadła <ch a="d"/>klamka</row>
+      <row important_over="true">Puścić <ch a="H"/>kura po <ch a="E"/>zaściankach</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">Hej, kto <ch a="a"/>szlachta za <ch a="d"/>Kmicicem</row>
+        <row important_over="true" sidechords="a Ea"><ch a="a"/>Hajda na Wołmonto<ch a="E"/>wicz<ch a="a"/>e</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Przodkom kule między oczy<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Krótką rozkosz dać sikorkom<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Po łbie kto się napatoczy<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Kijów sto chudopachołkom<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Potem picie do obłędu<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Studnia, śnieg — my z tobą Jędruś<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Zdrada, krzyż, na krzyż przysięga<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Tak krucyfiks cyrografem<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>I oddala się Oleńka<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Żądze się wychłoszcze batem<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Za to swoich siec czy obcych<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Jedna sprawa — za mną chłopcy<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Wreszcie lek na duszy blizny<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Polska suknem Radziwiła<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Wróg prywatny, wróg ojczyzny<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Niespodzianka jakże miła<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Los, sumienie, panny stratę<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Wynagrodzi spór z magnatem<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Jasna Góra, czas pokuty<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Trup, trup — Kmicic strzela z łuku<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Klasztor płaszczem nieb zasnuty<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>W Szwedzkich armat strasznym huku<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Jędrek się granatem bawi<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Ksiądz Kordecki błogosławi<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Jest nagroda za cierpienie<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Kto się śmieli, ten korzysta<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Dawnych grzechów odpuszczenie<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Król Jędrkowi skronie ściska<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Masz Tatarów, w drogę ruszaj<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Raduj Boga rzeźą w Prusach<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never"><ch a="a"/>Krzyż, ojczyzna, Bóg, prywata<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>Warchoł w oczach zmienia skórę<ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Wierny jest jak topór kata<ch a="d"/></row>
+      <row important_over="never"><ch a="E"/>I podobną ma naturę<ch a="a"/></row>
+      <row important_over="never"><ch a="A"/>Więc za słuszną sprawność ręki<ch a="d"/></row>
+      <row important_over="never"><ch a="H"/>Będzie ręka i Oleńki<ch a="E"/></row>
+      <row important_over="never"><ch a="A"/>Łaska króla, dworek dzieci<ch a="d"/></row>
+      <row important_over="false"><ch a="H"/>Szlachcic co przykładem świeci<ch a="E"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Dzieci Hioba</album>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Adam Foland</verificator>
+    </verificators>
+  </status>
+</song>

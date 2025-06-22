@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Blues dla małej">
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<album>Live in Łowicz</album>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="chorus">
+			<row important_over="true">Wyst<ch a="C"/>ukaj po torach d<ch a="G"/>o mnie list</row>
+			<row important_over="true">Wtedy napr<ch a="a"/>awdę nie wyjedziesz c<ch a="G"/>ała</row>
+			<row important_over="true">Niech b<ch a="F"/>ędzie w nim lokomotywy gw<ch a="C"/>izd</row>
+			<row important_over="true">Tylko to zr<ch a="h7/5-"/>ób<ch a="E"/> jeszcze dla mnie M<ch a="a"/>ała</row>
+			<row important_over="false">Wyst<ch a="C"/>ukaj po torach d<ch a="G"/>o mnie list</row>
+			<row important_over="false">Ch<ch a="a"/>oćby w alfabecie M<ch a="G"/>orse'a</row>
+			<row important_over="false">Moja ul<ch a="F"/>ica jeszcze twardo śp<ch a="C"/>i</row>
+			<row important_over="false">Jeśli tak chc<ch a="h7/5-"/>esz<ch a="E"/> w liście z<ch a="a"/>ostań</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">A m<ch a="h7/5-"/>ogliśmy Mała razem łąką iść</row>
+			<row important_over="true">Świt w<ch a="a"/>itać po kolana w rosie</row>
+			<row important_over="true">A m<ch a="G"/>ogliśmy Mała razem piwo pić</row>
+			<row important_over="true">Dom nasz zami<ch a="E"/>enić na sto pociech</row>
+			<row important_over="true">A m<ch a="F"/>ogliśmy Mała konie kraść</row>
+			<row important_over="true">Z niebieski<ch a="C"/>ego boskiego pastwiska</row>
+			<row important_over="true">A m<ch a="h7/5-"/>ogliśmy Mała w środku lata</row>
+			<row important_over="true">Zbud<ch a="E"/>ować słoneczną prz<ch a="a"/>ystań</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">N<ch a="C"/>apisz od serca d<ch a="G"/>o mnie list</row>
+			<row important_over="false">I zami<ch a="a"/>eszkaj w tym liście c<ch a="G"/>ała</row>
+			<row important_over="false">Niech śmiechu d<ch a="F"/>użo będzie w n<ch a="C"/>im</row>
+			<row important_over="false">Obiecaj m<ch a="h7/5-"/>i<ch a="E"/> to dzisiaj M<ch a="a"/>ała</row>
+			<row important_over="false">N<ch a="C"/>apisz od serca d<ch a="G"/>o mnie list</row>
+			<row important_over="false">Lecz pr<ch a="a"/>oszę nie wysyłaj go n<ch a="G"/>igdy</row>
+			<row important_over="false">W szufladzie z<ch a="F"/>amknij go na kl<ch a="C"/>ucz</row>
+			<row important_over="false">Niech czeka wci<ch a="h7/5-"/>ąż<ch a="E"/> lepszych dn<ch a="a"/>i</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar></guitar>
+	</music>
+	<status>
+		<verificators><verificator>Onufry</verificator>
+		</verificators>
+		<done>
+			<text></text>
+			<authors></authors>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do></to_do>
+	</status>
+	<keywords></keywords>
+	<alias></alias>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<genre>Poezja śpiewana</genre>
+	<comment></comment>
+</song>

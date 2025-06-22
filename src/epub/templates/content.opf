@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="db-id"
+         version="3.0">
+
+    <metadata xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title id="t1">:title: :subtitle:</dc:title>
+
+        <dc:creator id="editor">:publisher:</dc:creator>
+        <dc:identifier id="db-id">:id:</dc:identifier>
+        <dc:identifier id="uuid_id">uuid::uuid:</dc:identifier>
+        <meta refines="#editor" property="role" scheme="marc:relators" id="role">edt</meta>
+        <meta refines="#t1" property="title-type">main</meta>
+        <meta property="dcterms:modified" scheme="dcterms:W3CDTF">:timestamp:</meta>
+
+        <dc:language>en</dc:language><!-- pl is not supported by kindle previewer -->
+    </metadata>
+
+    <manifest>
+        <item id="cover" href="images/cover.:imageExt:" media-type=":imageMime:" properties="cover-image"/>
+        <item id="titlepage" href="cover.xhtml" media-type="application/xhtml+xml"/>
+        <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+        <item id="start" href="songs.xhtml" media-type="application/xhtml+xml"/>
+        <!--item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/-->
+        <item id="common_css" href="CSS/common.css" media-type="text/css"/>
+        <item id="song_css" href="CSS/song.css" media-type="text/css"/>
+        <item id="index_css" href="CSS/index.css" media-type="text/css"/>
+        <item id="song_common_css" href="CSS/song_common.css" media-type="text/css"/>
+    </manifest>
+
+    <spine>
+        <itemref idref="titlepage"/>
+        <itemref idref="toc"/>
+        <itemref idref="start"/>
+        <!--https://kdp.amazon.com/en_US/help/topic/G201605710-->
+    </spine>
+    <guide>
+        <reference type="title-page" href="cover.xhtml" title="Strona tytułowa"/>
+        <reference type="toc" href="toc.xhtml" title="Spis treści"/>
+        <reference type="text" href="songs.xhtml" title="Piosenki"/>
+        <reference type="index" href="index.xhtml" title="Indeks"/>
+    </guide>
+</package>

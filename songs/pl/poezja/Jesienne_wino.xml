@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesienne wino">
+  <alias/>
+  <text_author type="solo">Andrzej Koczewski</text_author>
+  <comment>Nie jestem pewien czy autorem muzyki nie jest Bogdański, różne źródła różnie mówią… I nie jestem pewien na 100% rozmieszczenia akordów, bo pisałem tak, jak ja gram (a ja gram ciut inne chwyty, choć chyba te są standardowe)</comment>
+  <composer type="solo">Andrzej Koczewski</composer>
+  <artist type="solo">Andrzej Koczewski; Zbigniew Bogdański</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/> Z brzękiem <ch a="D"/>ostróg wjechałem do mi<ch a="e"/>asta<ch a="D"/></row>
+      <row important_over="true"><ch a="e"/> Pod jesień b<ch a="D"/>yło czas złotych l<ch a="G"/>iści nastał</row>
+      <row important_over="true"><ch a="a"/> W kieszeni w<ch a="G"/>orek srebra<ch a="D"/> czas do d<ch a="e"/>omu</row>
+      <row important_over="true"><ch a="D"/> Wtem za plec<ch a="C"/>ami woła gł<ch a="e"/>os</row>
+      <row important_over="true"><ch a="D"/> Jej gł<ch a="e"/>os<ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="e"/>Usiądź razem z<ch a="G"/>e mną</row>
+      <row important_over="true">Spr<ch a="D"/>óbuj mego w<ch a="G"/>ina</row>
+      <row important_over="true"><ch a="a"/> Z czereśni wiśni resztek l<ch a="G"/>ata</row>
+      <row important_over="true">Choć j<ch a="D"/>esień si<ch a="C"/>ę zacz<ch a="a7"/>yna</row>
+      <row important_over="false">T<ch a="e"/>yle tej jesi<ch a="G"/>eni</row>
+      <row important_over="false">J<ch a="D"/>eszcze jest przed n<ch a="G"/>ami</row>
+      <row important_over="false"><ch a="a"/> Zdążysz wrócić do d<ch a="G"/>omu</row>
+      <row important_over="false">Nim n<ch a="D"/>oc zawita n<ch a="C"/>ad drog<ch a="a7"/>ami, h<ch a="e"/>ej!<ch a="D"/><ch a="e"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Słońce st<ch a="D"/>ało w zenicie<ch a="e"/>, bił południowy ż<ch a="D"/>ar</row>
+      <row important_over="false"><ch a="e"/> A w gardle k<ch a="D"/>urz przebytych dr<ch a="G"/>óg</row>
+      <row important_over="false"><ch a="a"/>Co tam spocznę chw<ch a="G"/>ilę prz<ch a="D"/>ecież nie zaszk<ch a="e"/>odzi</row>
+      <row important_over="false">D<ch a="D"/>o przejścia ni<ch a="C"/>edaleką j<ch a="e"/>eszcze drogę m<ch a="D"/>am</row>
+      <row important_over="false">A ona k<ch a="e"/>usi<ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Zbudziłem si<ch a="D"/>ę w czerwieniach zach<ch a="e"/>odu<ch a="D"/></row>
+      <row important_over="false"><ch a="e"/> Pod starą k<ch a="D"/>arczmą co rynek zam<ch a="G"/>yka</row>
+      <row important_over="false"><ch a="a"/> Zabrała m<ch a="G"/>oje srebro d<ch a="D"/>uszę i ostr<ch a="e"/>ogi</row>
+      <row important_over="false"><ch a="D"/> Zostało pragni<ch a="C"/>enie i t<ch a="e"/>ępy głowy b<ch a="D"/>ól</row>
+      <row important_over="false">I pamięć jej sł<ch a="e"/>ów<ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="3">
+        <row important_over="false"><ch a="e"/>Usiądź razem z<ch a="G"/>e mną</row>
+        <row important_over="false">Spr<ch a="D"/>óbuj mego w<ch a="G"/>ina</row>
+        <row important_over="false"><ch a="a"/> Z czereśni wiśni resztek l<ch a="G"/>ata</row>
+        <row important_over="false">Choć j<ch a="D"/>esień si<ch a="C"/>ę zacz<ch a="a7"/>yna</row>
+        <row important_over="false">T<ch a="e"/>yle tej jesi<ch a="G"/>eni</row>
+        <row important_over="false">J<ch a="D"/>eszcze jest przed n<ch a="G"/>ami</row>
+        <row important_over="false"><ch a="a"/> Zdążysz wrócić do d<ch a="G"/>omu</row>
+        <row important_over="false">Nim n<ch a="D"/>oc zawita n<ch a="C"/>ad drog<ch a="a7"/>ami, h<ch a="e"/>ej!<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
+    <to_do/>
+  </status>
+</song>

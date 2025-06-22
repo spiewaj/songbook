@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kochać">
+  <artist>Piotr Szczepanik</artist>
+  <lyric>
+    <block type="verse">
+      <row>Kochać - jak to łatwo powiedzieć<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row>Kochać - to nie pytać o nic</row>
+      <row>Bo miłość jest niepokojem<ch a="F"/><ch a="C"/><ch a="a"/></row>
+      <row>Nie zna dnia, który da się powtórzyć<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row>Nagle świat się mieści w twoich oczach<ch a="C"/><ch a="G"/></row>
+      <row>Już nie wiem, czy ciebie znam<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row>Chwile, kolorowe przeźrocza<ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row>Więdną, szybko zmienia je czas<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row>Kochać - jak to łatwo powiedzieć</row>
+      <row>Kochać - tylko to więcej nic</row>
+      <row>W tym słowie jest kolor nieba</row>
+      <row>Ale także rdzawy pył gorzkich dni</row>
+    </block>
+    <block type="verse">
+      <row>Jeszcze obok ciebie moje ramię</row>
+      <row>A jednak szukamy się</row>
+      <row>Może nie pójdziemy już razem</row>
+      <row>Słowa z wolna tracą swój sens</row>
+    </block>
+    <block type="verse">
+      <row>Kochać - jak to łatwo powiedzieć</row>
+      <row>Kochać - to nie pytać o nic</row>
+      <row>Bo miłość jest niewiadomą</row>
+      <row>Lecz chcę wiedzieć, czy wiary starczy mi</row>
+    </block>
+  </lyric>
+</song>

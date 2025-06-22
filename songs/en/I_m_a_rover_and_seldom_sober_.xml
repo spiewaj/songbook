@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="I'm a rover and seldom sober " xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">I<ch a="G"/>'m a a rover and s<ch a="e"/>eldom sober</row>
+			<row important_over="false">I<ch a="G"/>'m a rover, o' high degr<ch a="D7"/>ee;</row>
+			<row important_over="false">And when I'm d<ch a="h"/>rinking, I'm always th<ch a="G"/>inking</row>
+			<row important_over="false">How to gain <ch a="D7"/>my love's compa<ch a="G"/>ny.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Though the nicht be dark as dungeon</row>
+			<row important_over="false">No' a star to be seen above,</row>
+			<row important_over="false">I will be guided without a stumble</row>
+			<row important_over="false">Into the airms o' my ain true love.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">He steppit up to her bedroom window,</row>
+			<row important_over="false">Kneelin' gently upon a stone;</row>
+			<row important_over="false">He rappit at her bedroom-window</row>
+			<row important_over="false">"Darlin' dear, do you lie alone?"</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">She raised her heid on her snaw-white pillow</row>
+			<row important_over="false">Wi' her arms aboot her breast,</row>
+			<row important_over="false">"Wha' is that at my bedroom window</row>
+			<row important_over="false">Disturbin' me at my lang night's rest?"</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">"It's only me, your ain true lover,</row>
+			<row important_over="false">Open the door and let me in.</row>
+			<row important_over="false">For I hae come on a lang journey,</row>
+			<row important_over="false">And I'm near drenched to the skin."</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">She opened the door wi' the greatest pleasure,</row>
+			<row important_over="false">She opened the door and let him in,</row>
+			<row important_over="false">They baith shook hands and embraced each other</row>
+			<row important_over="false">Until the mornin' they lay as one.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">The cocks were crawin', the birds were whistlin'</row>
+			<row important_over="false">The burns they ran free abune the brae;</row>
+			<row important_over="false">"Remember, lass, I'm a ploughman laddie</row>
+			<row important_over="false">And the fairmer I must obey."</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">"Noo, my lass, I must gang and leave thee</row>
+			<row important_over="false">And though the hills they are high above,</row>
+			<row important_over="false">I will climb them wi' greater pleasure</row>
+			<row important_over="false">Since I been in the airms o' my love.</row>
+		</block>
+	</lyric>
+	
+	
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source>piosenka szkocka</music_source>
+</song>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bez słów">
+	<alias>Chodzą ulicami ludzie</alias>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment>Alternatywne chwyty:
+zwrotka c G / a e / F C g,
+refren F C / F C / F C G.
+
+Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
+	<composer type="solo">Wojciech Bellon</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="G"/> Chodzą ulic<ch a="D"/>ami ludzie,</row>
+			<row important_over="true"><ch a="e"/> Maj przechodzą, l<ch a="h"/>ipiec, grudzień</row>
+			<row important_over="true"><ch a="C"/> Zagubieni wśr<ch a="G"/>ód ulic br<ch a="D"/>am.</row>
+			<row important_over="true"><ch a="G"/> Przemarznięte grz<ch a="D"/>eją dłonie</row>
+			<row important_over="true"><ch a="e"/> Dokądś pędzą, z<ch a="h"/>a czymś gonią</row>
+			<row important_over="true"><ch a="C"/> I budują wci<ch a="G"/>ąż domki z k<ch a="D"/>art.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="C"/> A tam w mech odzi<ch a="G"/>any kamień,</row>
+			<row important_over="true"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="true"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+			<row important_over="true"><ch a="C"/> Porzuć kroków r<ch a="G"/>ytm na bruku,</row>
+			<row important_over="true"><ch a="C"/> Spróbuj — znajdziesz, j<ch a="G"/>eśli szukać</row>
+			<row important_over="true">Z<ch a="C"/>echcesz — nowy świa<ch a="G"/>t, własny św<ch a="D"/>iat.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/> Płyną ludzie miastem szarzy,<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/> Pozbawieni złudzeń, marzeń,<ch a="h"/></row>
+			<row important_over="false"><ch a="C"/> Omijają wciąż główny nurt.<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Kryją się w swych norach krecich<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/> I śnić nawet o karecie,<ch a="h"/></row>
+			<row important_over="false"><ch a="C"/> Co lśni złotem - nie potrafią już<ch a="G"/><ch a="D"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/> Żyją ludzie, asfalt depczą<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/> Nikt nie krzyknie, każdy szepcze<ch a="h"/></row>
+			<row important_over="false"><ch a="C"/> Drzwi zamknięte zaklepany krąg<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Tylko czasem kropla z oczu<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/> Po policzku w dół się stoczy<ch a="h"/></row>
+			<row important_over="false"><ch a="C"/> I to dziwne drżenie rąk<ch a="G"/><ch a="D"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
+			<row important_over="false"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators><verificator>Taboret wg. Oli</verificator><verificator>Adam</verificator><verificator>Alek</verificator><verificator>Michał Korch</verificator>
+			
+			
+			
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<music_source></music_source>
+	<album>Bukowina</album>
+	<genre></genre>
+</song>

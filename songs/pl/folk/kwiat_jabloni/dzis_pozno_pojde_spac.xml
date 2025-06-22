@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziś późno pójdę spać">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Dziś późno <ch a="d"/>pójdę spać</row>
+      <row important_over="true">Gdy wszyscy <ch a="a"/>będą w łóżkach</row>
+      <row important_over="true">Otwarte <ch a="d"/>oczy mam</row>
+      <row important_over="true">A głowa <ch a="a"/>pełna i pusta</row>
+      <row important_over="true">I nie wiem <ch a="d"/>o czym myśleć mam</row>
+      <row important_over="true">Żeby mi się <ch a="a"/>przyśnił taki świat</row>
+      <row important_over="true">W którym się nie <ch a="d"/>boję spać</row>
+      <row important_over="true">W którym się nie <ch a="a"/>boję spać</row>
+      <row important_over="true"/>
+      <row important_over="false">Już na mnie <ch a="d"/>idzie tłum</row>
+      <row important_over="false">I depcze wszy<ch a="a"/>stko po drodze</row>
+      <row important_over="false">Nie mogę <ch a="d"/>uciec mu</row>
+      <row important_over="false">On też przed <ch a="a"/>sobą nie może</row>
+      <row important_over="false">Gwiazd już nie <ch a="d"/>widać, no bo jak?</row>
+      <row important_over="false">Kiedy łuna z <ch a="a"/>ziemi bije tak</row>
+      <row important_over="false">Jak gdyby chciała <ch a="d"/>zalać świat</row>
+      <row important_over="false">Jak gdyby chciała <ch a="a"/>zalać świat</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Choć <ch a="F"/>nie chcę <ch a="g"/>budzić się</row>
+      <row important_over="true">Nie <ch a="C"/>umiem <ch a="d"/>spać</row>
+      <row important_over="true">Świat <ch a="F"/>dziwny <ch a="g"/>jest jak sen</row>
+      <row important_over="true">A <ch a="C"/>sen jak <ch a="d"/>świat x2</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie mogę <ch a="d"/>ruszyć w przód</row>
+      <row important_over="false">Nogi sklej<ch a="a"/>one taśmami</row>
+      <row important_over="false">Zaczynam s<ch a="d"/>padać w dół</row>
+      <row important_over="false">Spadam do g<ch a="a"/>óry nogami</row>
+      <row important_over="false">Myślę sobie, <ch a="d"/>zaraz obudzę się</row>
+      <row important_over="false">Lecz im bardziej s<ch a="a"/>padam, tym bardziej widzę, że</row>
+      <row important_over="false">To wszystko chyba<ch a="d"/> nie jest sen</row>
+      <row important_over="false">To wszystko chyba <ch a="a"/>nie jest sen</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>niemożliwe</album>
+  <genre>Inna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

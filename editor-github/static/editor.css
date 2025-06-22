@@ -1,0 +1,11 @@
+a#newChange {
+
+    font-size: large;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3em;
+    color: blue;
+}

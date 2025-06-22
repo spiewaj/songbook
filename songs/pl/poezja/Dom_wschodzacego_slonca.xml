@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dom wschodzącego słońca">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Przez ciemne szyby zagląda już mrok<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>W łóżeczku mały chłopiec śpi<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Sen jakiś dziwny wykrzywił mu twarz<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Pod powiekami lśnią łzy<ch a="E"/><ch a="a"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Wczoraj wieczorem dowiedział się że<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Jest w Orleanie taki dom<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Wschodzącym Słońcem nazywa się go<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Mieszkają w nim chłopcy jak on<ch a="E"/><ch a="a"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>W oknach ma kraty przy drzwiach stoi stróż<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>I patrzy wzrokiem ponurym<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Na małych chłopców więzienny ich strój<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Na ogolone głowy<ch a="E"/><ch a="a"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ale nadzieja nie zgaśnie w nich<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Pomimo więziennych murów cel<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Wschodzące słońce zabłyśnie znów<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Nad małym domem w kraju tym<ch a="E"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

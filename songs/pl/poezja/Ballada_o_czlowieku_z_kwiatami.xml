@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Ballada o człowieku z kwiatami" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Krzysztof Daukszewicz</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Daukszewicz</composer>
+	<artist type="solo">Krzysztof Daukszewicz</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Zbierał czł<ch a="a"/>owiek na ł<ch a="E"/>ące kwiaty pi<ch a="F"/>ęknie pachn<ch a="C"/>ące,</row>
+			<row important_over="true">Kwiaty pi<ch a="a"/>ęknie kwitn<ch a="E"/>ące zrywał czł<ch a="a"/>owiek na ł<ch a="E"/>ące,</row>
+			<row important_over="true"><ch a="d"/> Piękne kwi<ch a="a"/>aty,<ch a="e"/> hej, na ł<ch a="a"/>ące,<ch a="e"/> piękne kwi<ch a="a"/>aty.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Najpierw b<ch a="a"/>yły rumi<ch a="E"/>anki, białe j<ch a="F"/>ak śnieg jest bi<ch a="C"/>ały,</row>
+			<row important_over="false">Człowiek st<ch a="a"/>ał wśród rumi<ch a="E"/>anków, człowiek bi<ch a="a"/>ały był c<ch a="E"/>ały,</row>
+			<row important_over="false"><ch a="d"/> Wśród rumi<ch a="a"/>anków,<ch a="e"/> cały bi<ch a="a"/>ały,<ch a="e"/> wśród rumi<ch a="a"/>anków.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Druga ł<ch a="a"/>ąka ziel<ch a="E"/>ona, hej, ziel<ch a="F"/>ona tam tr<ch a="C"/>awa,</row>
+			<row important_over="false">Człowik rz<ch a="a"/>ucił rumi<ch a="E"/>anek, jął ziel<ch a="a"/>onym się st<ch a="E"/>awać,</row>
+			<row important_over="false"><ch a="d"/> Hej, ziel<ch a="a"/>onym,<ch a="e"/> hej, się st<ch a="a"/>awać,<ch a="e"/> hej, ziel<ch a="a"/>onym.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ach, cud<ch a="a"/>owna jest zi<ch a="E"/>eleń, pięknie ż<ch a="F"/>yć wśród zi<ch a="C"/>eleni,</row>
+			<row important_over="false">Jednak n<ch a="a"/>udzi się czł<ch a="E"/>owiek, życie pr<ch a="a"/>agnie odmi<ch a="E"/>enić,</row>
+			<row important_over="false"><ch a="d"/> Hej, odmi<ch a="a"/>enić,<ch a="e"/> życie pr<ch a="a"/>agnie,<ch a="e"/> hej, odmi<ch a="a"/>enić.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Hej, zakw<ch a="a"/>itły już m<ch a="E"/>aki, maki pi<ch a="F"/>ękne czerw<ch a="C"/>one,</row>
+			<row important_over="false">Hej, kusz<ch a="a"/>ące są m<ch a="E"/>aki, człowiek r<ch a="a"/>uszył w ich str<ch a="E"/>onę,</row>
+			<row important_over="false"><ch a="d"/> Hej, w czerw<ch a="a"/>one,<ch a="e"/> ruszył w str<ch a="a"/>onę,<ch a="e"/> hej, w czerw<ch a="a"/>one.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Maki zwi<ch a="a"/>ędły i zbl<ch a="E"/>adły, koniec <ch a="F"/>ich jakże m<ch a="C"/>arny,</row>
+			<row important_over="false">Człowiek cz<ch a="a"/>erwień porz<ch a="E"/>ucił, żeby st<ch a="a"/>anąć przy cz<ch a="E"/>arnym,</row>
+			<row important_over="false"><ch a="d"/> Żeby st<ch a="a"/>anąc,<ch a="e"/> hej, przy cz<ch a="a"/>arnym,<ch a="e"/> żeby st<ch a="a"/>anąć.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Idzie czł<ch a="a"/>owiek po ł<ch a="E"/>ące, zrywa kwi<ch a="F"/>aty pachn<ch a="C"/>ące,</row>
+			<row important_over="false">Wypatr<ch a="a"/>ując na p<ch a="E"/>olu, spokojni<ch a="a"/>ejszych kol<ch a="E"/>orów,</row>
+			<row important_over="false"><ch a="d"/> Hej, kol<ch a="a"/>orów,<ch a="e"/> spokojni<ch a="a"/>ejszych,<ch a="e"/> hej, kol<ch a="a"/>orów.</row>
+		</block>
+	</lyric>
+	
+	
+	
+	
+	<music metre="3/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album>Prośba</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o Dzikim Zachodzie">
+	<text_author type="solo">Wojciech Młynarski</text_author>
+	<composer type="solo">Tadeusz Suchocki</composer>
+	<artist type="solo">Wojciech Młynarski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Potwierdzają to setne przykłady<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Że westerny wciąż jeszcze są w modzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Wysłuchajcie więc państwo ballady<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">O tak zwanym najdzikszym zachodzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Miasto było tam jakich tysiące<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Wokół preria i skały naprzeciw<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Jak gdzie indziej świeciło tam słońce<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Marli starcy, rodziły się dzieci<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">I tym tylko od innych różni się ta ballada<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Że w tym mieście gdzieś na prerii krańcach<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Na jednego mieszkańca jeden szeryf przypadał<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Jeden szeryf na jednego mieszkańca<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Konsekwencje ten fakt miał ogromne<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Bo nikt w mieście za spluwę nie chwytał<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">I od dawna już każdy zapomniał<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Jak wygląda prawdziwy bandyta<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Choć finanse poniekąd leżały<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Gospodarka i przemysł był na nic<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Ale każdy, czy duży, czy mały<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Czuł się za to bezpieczny bez granic<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Jeśli państwa historia ta nudzi<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">To pocieszcie się tym, że nareszcie<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Którejś nocy krzyk ludzi obudził<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Bank rozbity, bandyci są w mieście<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Dobrzy ludzie na próżno wołacie<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Nikt nie wstanie za spluwę nie chwyci<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Skoro każdy świadomość zatracił<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Czym się różnią od ludzi bandyci<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">A tym tylko od innych różni się ta ballada<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Że w tym mieście gdzieś na prerii krańcach<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Na każdego człowieka nagle strach upadł blady<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Od szeryfa do zwykłego mieszkańca<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Potwierdzają to setne przykłady<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Że westerny wciąż jeszcze są w modzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Wysłuchaliście państwo ballady<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">O tak zwanym najdzikszym zachodzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Miasto było tam jakich tysiące<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Ludzkie w nim krzyżowały się drogi<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Lecz nie wszystkim świeciło tam słońce<ch a="G"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Bo bandyci krążyli bez trwogi<ch a="e"/><ch a="D"/><ch a="G"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Wyciągnijmy więc morał w tej balladzie ukryty<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Gdy nie grozi nam żadne rififi<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">Że czasami najtrudniej rozpoznać bandytę<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<bis times="3">
+				<row important_over="false">Gdy dokoła sami szeryfi<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			</bis>
+		</block>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Western</keyword>
+	</keywords>
+	<album>Wojciech Młynarski - Prawie Całość CD_2</album>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Adam</verificator>
+		</verificators>
+	</status>
+</song>

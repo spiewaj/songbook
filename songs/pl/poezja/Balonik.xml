@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Balonik">
+	<artist type="solo">Bułat Okudżawa</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Pł<ch a="a"/>acze dziewcz<ch a="d"/>ynka,</row>
+			<row important_over="true">B<ch a="G7"/>alon <ch a="E7"/>uciekł j<ch a="a"/>ej,</row>
+			<row important_over="true">L<ch a="a"/>udzie mówią — ni<ch a="d"/>e płacz,</row>
+			<row important_over="true">
+				<ch a="E7"/>A balonik h<ch a="a"/>en.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pł<ch a="a"/>acze dziewcz<ch a="d"/>yna,</row>
+			<row important_over="false">Chł<ch a="G7"/>opca trz<ch a="E7"/>eba j<ch a="a"/>ej,</row>
+			<row important_over="false">L<ch a="a"/>udzie mówią — ni<ch a="d"/>e płacz,</row>
+			<row important_over="false">
+				<ch a="E7"/>A balonik h<ch a="a"/>en.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pł<ch a="a"/>acze kobi<ch a="d"/>eta,</row>
+			<row important_over="false">M<ch a="G7"/>ąż porz<ch a="E7"/>ucił j<ch a="a"/>ą,</row>
+			<row important_over="false">L<ch a="a"/>udzie mówią — ni<ch a="d"/>e płacz,</row>
+			<row important_over="false">
+				<ch a="E7"/>A balonik h<ch a="a"/>en.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pł<ch a="a"/>acze star<ch a="d"/>uszka,</row>
+			<row important_over="false">Ż<ch a="G7"/>ycie m<ch a="E7"/>oje wr<ch a="a"/>óć!</row>
+			<row important_over="false">
+				<ch a="a"/>A balonik wr<ch a="d"/>ócił</row>
+			<row important_over="false">
+				<ch a="E7"/>I błękitny j<ch a="a"/>est.</row>
+		</block>
+	</lyric>
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<music_source></music_source>
+	<original_title>Szarik</original_title>
+	<translator>Agnieszka Osiecka</translator>
+	<album></album>
+	<genre></genre>
+	<comment></comment>
+</song>

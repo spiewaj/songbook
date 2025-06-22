@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Bajka">
+	<comment>Piosenka pochodzi z 19 Ogólnopolskiego Studenckiego Przeglądu Piosenki Turystycznej Yapa '94.Gość spiewał ją przygrywając sobie na bembenku.Proszę nie spodziewać się akordów :)</comment>
+	<artist type="solo">Paweł Nowaczyk</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="false">Żył raz kiedyś król o wzroku jak nikt na świecie</row>
+			<row important_over="false">Lecz było to powodem że kłopot wielki miał</row>
+			<row important_over="false">Gdy rano przetarł oczy przez okno z zamku wyjżał</row>
+			<row important_over="false">Gdzieś na krańcach świata widział łańcuch wielkich gór</row>
+			<row important_over="false">Źle to kiedy coś przeciw królewskiej woli staje</row>
+			<row important_over="false">I powstrzymuje bieg jego spojrzenia</row>
+			<row important_over="false">Posłał więc król po dwóch swoich synów</row>
+			<row important_over="false">A gdy stanęli przed nim do starszeg rzekł:</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Gdzieś na krańcach świata są wysokie góry</row>
+				<row important_over="false">Idź tam i powiedz mi co za nimi jest</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Spełnił wolę ojca pierwszy jego syn</row>
+			<row important_over="false">Szedł długo na kamieniach raniąc swoje stopy</row>
+			<row important_over="false">Wspinał się wytrwale a gdy na szczycie był</row>
+			<row important_over="false">Mógł zobaczyć ogromne spienione fale morza</row>
+			<row important_over="false">Gdy wrócił znów do domu w ramiona ojca wpadł</row>
+			<row important_over="false">Mów szybko co jest dalej chcę to wiedzieć teraz</row>
+			<row important_over="false">A gdy zdyszany syn powiedział co jest za górami</row>
+			<row important_over="false">Do drugiego z nich rzecze ojciec tak</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Tam gdzie kończy się świat jest ogromne morze</row>
+				<row important_over="false">Płyń tam i powiedz mi co też za nim jest</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Choć drogę miał trudniejszą ojca prośbę spełnił</row>
+			<row important_over="false">Przemykał się swym statkiem przez cisze i sztormy</row>
+			<row important_over="false">Aż nadzszedł wreszcie dzień i marynarz z masztu krzyknął</row>
+			<row important_over="false">Kapitanie ląd przed nami widzę łańcuch wielkich gór</row>
+			<row important_over="false">Więc wyprawił swoje sługi by niosły wieść do króla</row>
+			<row important_over="false">A kiedy sam się zjawił jak wryty stanął w drzwiach</row>
+			<row important_over="false">Król prawie cały był zżarty przez ciekawość</row>
+			<row important_over="false">Usta tylko drgały mówiąc rozkaz ten</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music>
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Yapa '94</album>
+	<status>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Adam</verificator>
+		</verificators>
+	</status>
+</song>

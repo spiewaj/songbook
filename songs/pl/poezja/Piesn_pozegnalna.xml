@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Pieśń pożegnalna">
+  <text_author type="solo">Robert Burns / Jerzy Zbigniew Litwiniuk</text_author>
+  <translator>Jerzy Zbigniew Litwiniuk</translator>
+  <original_title>Auld Lang Syne</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Ogn<ch a="D"/>iska już dog<ch a="A"/>asa blask</row>
+      <row important_over="true">Brat<ch a="D"/>erski splećmy kr<ch a="G"/>ąg</row>
+      <row important_over="true">W wiecz<ch a="D"/>ornej ciszy, w świ<ch a="A"/>etle gwiazd</row>
+      <row important_over="true">Ost<ch a="D"/>atni <ch a="G"/>uścisk r<ch a="D"/>ąk</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Kto r<ch a="D"/>az przyjaźni p<ch a="A"/>oznał moc</row>
+      <row important_over="false">Nie b<ch a="D"/>ędzie trwonić sł<ch a="G"/>ów</row>
+      <row important_over="false">Przy <ch a="D"/>innym ogniu w <ch a="A"/>inną noc</row>
+      <row important_over="false">Do z<ch a="D"/>obacz<ch a="G"/>enia zn<ch a="D"/>ów</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie zg<ch a="D"/>aśnie tej prz<ch a="A"/>yjaźni żar</row>
+      <row important_over="false">Co p<ch a="D"/>ołączyła n<ch a="G"/>as</row>
+      <row important_over="false">Nie p<ch a="D"/>ozwolimy by ją st<ch a="A"/>arł</row>
+      <row important_over="false">Nie<ch a="D"/>ubł<ch a="G"/>agany cz<ch a="D"/>as</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music>
+    <guitar barre="2"/>
+  </music>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+  <music_source>Tradycyjna melodia szkocka</music_source>
+</song>

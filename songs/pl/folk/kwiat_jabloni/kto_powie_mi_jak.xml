@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kto powie mi jak">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Stoję gdzieś pod niebem, <ch a="F"/>pod nogami piach</row>
+      <row important_over="true"><ch a="d"/>Mam podobno iść przed siebie</row>
+      <row important_over="true"><ch a="g"/>Chociaż nie wiem j<ch a="C"/>ak, oj nie wiem</row>
+      <row important_over="true"><ch a="d"/>Robię pierwszy krok, <ch a="F"/>muszę więc gdzieś dojść</row>
+      <row important_over="true"><ch a="d"/>Góra wielka, droga kręta</row>
+      <row important_over="true"><ch a="g"/>Trudno czasem <ch a="C"/>iść, nie stękać</row>
+      <row important_over="true"><ch a="d"/>Chcę od razu wiedzieć <ch a="F"/>na czym stoi świat</row>
+      <row important_over="true"><ch a="d"/>Jak poznawać siebie lepiej</row>
+      <row important_over="true"><ch a="g"/>Jak nie potknąć <ch a="C"/>się o ciebie  <ch a="d"/></row>
+      <row important_over="true"><ch a="A"/>Idąc byle jak</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="d"/>Więc kto powie mi <ch a="B"/>jak radzić sobie <ch a="F"/>mam</row>
+        <row important_over="true">Taki wielki <ch a="C"/>świat nade mną <ch a="d"/>mam</row>
+        <row important_over="true">Ileś tam <ch a="B"/>lat, lecz to niewiele <ch a="F"/>da</row>
+        <row important_over="true">Doświad<ch a="C"/>czenia ciągle <ch a="d"/>brak</row>
+      </bis>
+      <bis times="4">
+        <row important_over="false" style="instr"> <ch a="B"/><ch a="d"/><ch a="F"/><ch a="C"/></row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Będziesz w pocie czoła <ch a="F"/>walczyć o swój świat</row>
+      <row important_over="false"><ch a="d"/>Będziesz wodą żyć i chlebem </row>
+      <row important_over="false"><ch a="g"/>Myśleć będziesz nad<ch a="C"/> swym celem</row>
+      <row important_over="false"><ch a="d"/>Tak podobno mówił On <ch a="F"/>człowiekowi co</row>
+      <row important_over="false"><ch a="d"/>Zbłądził jedząc owoc wiedzy</row>
+      <row important_over="false"><ch a="g"/>Bo chciał wiedzieć <ch a="C"/>co miał wiedzieć</row>
+      <row important_over="false"><ch a="d"/>Tak już w życiu bywa <ch a="F"/>od zarania lat</row>
+      <row important_over="false"><ch a="d"/>Że kto winny musi być</row>
+      <row important_over="false">Ten <ch a="g"/>winny będzie <ch a="C"/>choćby nie wiem <ch a="d"/>jak</row>
+      <row important_over="false"><ch a="A"/>Starał się sam</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>niemożliwe</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Ptaki ptakom" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo">Jerzy Frankiewicz</text_author>
+	<comment></comment>
+	<composer type="solo">Zbigniew Kocój</composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Wybiegani, wysłuchani, wybawieni             </row>
+			<row important_over="false">Siądźcie wkoło do ogniska mego stóp           </row>
+			<row important_over="false">Chcę powiedzieć wam o tamtej złej jesieni     </row>
+			<row important_over="false">Z której przyszedł ten harcerski leśny grób</row>
+		</block>
+		<block type="other">
+			<row important_over="false">Myśli mieli rozczochrane jak wy dzisiaj</row>
+			<row important_over="false">I mundury te dzisiejsze mieli też</row>
+			<row important_over="false">Lecz stanęli w pogotowiu, gdy padł wystrzał</row>
+			<row important_over="false">Aby bronić tej największej z wielkich wież</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Harcerze, którym słowa na ustach zamierały   </row>
+			<row important_over="false">Harcerki, którym uśmiech zabrał wojny czas   </row>
+			<row important_over="false">Jak ptaki po przestworzach losu szybowały    </row>
+			<row important_over="false">I padały jak puszczony bez nadziei głaz    </row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mogli odejść, mogli uciec w swoje jutro</row>
+			<row important_over="false">Nikt by słowa im powiedzieć nie był śmiał</row>
+			<row important_over="false">Lecz zostali, chociaż było im tak trudno</row>
+			<row important_over="false">Gdy za strzałem padał ciągle drugi strzał</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">To dla Polski tak czuwali dniem i nocą</row>
+			<row important_over="false">Polski sztandar osłaniali piersią swą</row>
+			<row important_over="false">I odeszli, kiedy wzięto ich przemocą</row>
+			<row important_over="false">Aby w ziemię wtopić całą duszę swą</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Niech im pokłon odda nasze pokolenie</row>
+			<row important_over="false">Tym, co umrzeć tam umieli mimo snów</row>
+			<row important_over="false">I gdy przyjdą, by podeptać nam marzenia</row>
+			<row important_over="false">Polski sztandar my osłońmy piersią znów</row>
+		</block>
+		<blocklink blocknb="3"/>
+	</lyric>
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Panna kminkowa">
+  <text_author type="solo">Jerzy Reiser</text_author>
+  <composer type="solo">Jerzy Reiser</composer>
+  <artist type="band">Browar Żywiec</artist>
+  <lyric>
+    <block type="other">
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="G"/><ch a="DG"/><ch a="C"/><ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true" sidechords="G DG"><ch a="G"/>Obróciła się <ch a="D"/>wiosna na <ch a="G"/>pięcie</row>
+      <row important_over="true" sidechords="C GD"><ch a="C"/>Wyminęła się <ch a="G"/>z latem we <ch a="D"/>drzwiach</row>
+      <row important_over="true" sidechords="G DG"><ch a="G"/>Wpatrywałaś się <ch a="D"/>w okno <ch a="G"/>zawzięcie</row>
+      <row important_over="true" sidechords="CG DG (H7)"><ch a="C"/>Może <ch a="G"/>wyjdzie <ch a="D"/>kominarz <ch a="G"/>na dach<ch a="H7"/></row>
+      <row important_over="true" sidechords="e H7e"><ch a="e"/>Potem jechał gdzieś <ch a="H7"/>pociąg <ch a="e"/>spóźniony</row>
+      <row important_over="true" sidechords="CC7+ aD"><ch a="C"/>Ktoś trzy <ch a="C7+"/>asy wył<ch a="a"/>ożył na <ch a="D"/>stół</row>
+      <row important_over="true" sidechords="G CG"><ch a="G"/>A ty kwiaty <ch a="C"/>wkładałaś <ch a="G"/>w wazony</row>
+      <row important_over="true"><ch a="C"/>I słyszałaś <ch a="D"/>z daleka stuk kół</row>
+      <row important_over="true" sidechords="G DG"><ch a="G"/>A tymczasem <ch a="D"/>rozgościł się <ch a="G"/>lipiec</row>
+      <row important_over="true" sidechords="C GD"><ch a="C"/>Na wesele <ch a="G"/>zaprosił <ch a="D"/>ze stu</row>
+      <row important_over="true" sidechords="e H7e"><ch a="e"/>Pasikonik <ch a="H7"/>pożyczył mu <ch a="e"/>skrzypiec</row>
+      <row important_over="true"><ch a="C"/>I w tym graniu tak <ch a="D"/>biegłaś bez tchu</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true" sidechords="G (D) e (D)"><ch a="G"/>Panno kminkowa<ch a="D"/>,  <ch a="e"/>panno lipcowa<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Twoje są łąki twoje skowronki <ch a="D"/>wszystkich łąk</row>
+      <row important_over="true" sidechords="e (CD) G C"><ch a="e"/>Idziesz polami <ch a="C"/><ch a="D"/><ch a="G"/>w palcach łodyżkę <ch a="C"/>masz</row>
+      <row important_over="true" sidechords="G D G (CD)"><ch a="G"/>I gryziesz kminek <ch a="D"/>czarny przecinek <ch a="G"/>nasz <ch a="C"/><ch a="D"/></row>
+      <row important_over="true" sidechords="G (D) e (D)"><ch a="G"/>Panna kminkowa<ch a="D"/>,  <ch a="e"/>panna lipcowa<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Śmiać się gotowa letnia królowa <ch a="D"/>kwietnych łąk</row>
+      <row important_over="true" sidechords="e (CD) G C"><ch a="e"/>Idzie polami <ch a="C"/><ch a="D"/><ch a="G"/>w palcach łodyżkę <ch a="C"/>ma</row>
+      <row important_over="true" sidechords="G D G (CD)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia  <ch a="C"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="G DG"><ch a="G"/>Noce śniły <ch a="D"/>budziły się <ch a="G"/>ranki</row>
+      <row important_over="false" sidechords="C GD"><ch a="C"/>Koniczyny <ch a="G"/>poczwórny był<ch a="D"/> liść</row>
+      <row important_over="false" sidechords="G DG"><ch a="G"/>Rwałaś groszek <ch a="D"/>zielony przed <ch a="G"/>gankiem</row>
+      <row important_over="false" sidechords="CG DG (H7)"><ch a="C"/>Kiedy <ch a="G"/>przyszło <ch a="D"/>polami nam <ch a="G"/>iść <ch a="H7"/></row>
+      <row important_over="false" sidechords="e H7e"><ch a="e"/>Trwało lato i <ch a="H7"/>trwała <ch a="e"/>muzyka</row>
+      <row important_over="false" sidechords="CC7+ aD"><ch a="C"/>Rumie<ch a="C7+"/>niłaś się <ch a="a"/>wiśnią z mych <ch a="D"/>ust</row>
+      <row important_over="false" sidechords="G CG"><ch a="G"/>Las na wzgórzu <ch a="C"/>horyzont<ch a="G"/> zamykał</row>
+      <row important_over="false"><ch a="C"/>A ty biegłaś ku <ch a="D"/>niemu bez tchu</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false" sidechords="G DG"><ch a="G"/>A gdy lipiec się w <ch a="D"/>drogę <ch a="G"/>spakował</row>
+      <row important_over="false" sidechords="C GD"><ch a="C"/>Oddał skrzypce i <ch a="G"/>poszedł gdzieś <ch a="D"/>w świat</row>
+      <row important_over="false" sidechords="G DG"><ch a="G"/>Ty zostałaś mi <ch a="D"/>panno <ch a="G"/>kminkowa</row>
+      <row important_over="false" sidechords="CG DG (H7)"><ch a="C"/>I łod<ch a="G"/>yżki rzuc<ch a="D"/>ane na <ch a="G"/>wiatr <ch a="H7"/></row>
+      <row important_over="false" sidechords="e H7e"><ch a="e"/>Jesień deszczem twe <ch a="H7"/>łąki <ch a="e"/>przemoczy</row>
+      <row important_over="false" sidechords="CC7+ aD"><ch a="C"/>Zima<ch a="C7+"/> śniegiem <ch a="a"/>okryje na <ch a="D"/>mróz</row>
+      <row important_over="false" sidechords="G CG"><ch a="G"/>A gdy lipiec zagl<ch a="C"/>ądnie ci w <ch a="G"/>oczy</row>
+      <row important_over="false"><ch a="C"/>Znowu będziesz tak <ch a="D"/>biegła bez tchu</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false" sidechords="G D G (CD G)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia <ch a="C"/><ch a="D"/><ch a="G"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="2"/>
+  </music>
+  <keywords/>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Adam Foland</verificator>
+    </verificators>
+  </status>
+</song>

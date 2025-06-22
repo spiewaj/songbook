@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Limeryk o narodach">
+  <alias/>
+  <text_author>Jacek Kaczmarski</text_author>
+  <comment/>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Był Anglik, co przyjaźń nawiązał z Hindusem</row>
+      <row important_over="false"><ch a="G"/>Z najczystszej sympatii, a nie pod przymusem.</row>
+      <row important_over="false"><ch a="F"/>Do dzisiaj by trwała</row>
+      <row important_over="false"><ch a="E"/>Ta przyjaźń wspaniała,</row>
+      <row important_over="false"><ch a="a"/>Lecz Hindus nieświeży dał mu ser.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Pretensje mieć trudno do tego Anglika,</row>
+      <row important_over="false"><ch a="G"/>Gdy druh w narodowej go dumie dotyka.</row>
+      <row important_over="false"><ch a="F"/>Więc wzgardził pariasem</row>
+      <row important_over="false"><ch a="E"/>I przyjaźń swą z czasem</row>
+      <row important_over="false"><ch a="a"/>Położył u stóp - Irlandczyka.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="d"/>Narody, narody! Po diabła narody</row>
+      <row important_over="false"><ch a="a"/>Stojące na drodze do szczęścia i zgody?</row>
+      <row important_over="false"><ch a="E"/>Historia nam daje dobite dowody:</row>
+      <row important_over="false"><ch a="a"/>Pragniecie pokoju? - Usuńcie przeszkody -<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>Narody, narody, narody!<ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Raz Francuz sąsiada miał, co był z Somalii,</row>
+      <row important_over="false"><ch a="G"/>W Tuluzie mieszkali i pastis pijali.</row>
+      <row important_over="false"><ch a="F"/>Lecz wnet się przekonał</row>
+      <row important_over="false"><ch a="E"/>Potomek Daltona</row>
+      <row important_over="false"><ch a="a"/>Że druh jego łeb ma ze stali.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nie mieli pretensji koledzy Francuza,</row>
+      <row important_over="false"><ch a="G"/>Że przepić nie umiał czarnego łobuza,</row>
+      <row important_over="false"><ch a="F"/>Lecz rzekli: Mon ami,</row>
+      <row important_over="false"><ch a="E"/>Jak pić chcesz - to z nami!</row>
+      <row important_over="false"><ch a="a"/>Bo nie dla przybłędów Tuluza.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Raz Chińczyk w Japonce się tak zauroczył,</row>
+      <row important_over="false"><ch a="G"/>Że wizje małżeństwa był przed nią roztoczył,</row>
+      <row important_over="false"><ch a="F"/>Lecz Kwiat Kraju Wiśni</row>
+      <row important_over="false"><ch a="E"/>Rzekł -ani się mi śni!</row>
+      <row important_over="false"><ch a="a"/>Spójrz w lustro, wszak skośne masz oczy!<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Cóż z sercem złamanym uczynić na świecie?</row>
+      <row important_over="false"><ch a="G"/>Więc poszedł do wojska i śnił o odwecie.</row>
+      <row important_over="false"><ch a="F"/>Lecz - losu ironio! -</row>
+      <row important_over="false"><ch a="E"/>Brak wojny z Japonią</row>
+      <row important_over="false"><ch a="a"/>Do mnichów dziś strzela w Tybecie!<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Sympatię Singalez raz czuł do Tamila,</row>
+      <row important_over="false"><ch a="G"/>Choć wrogość dzieliła ich ludy na Sri-La-</row>
+      <row important_over="false"><ch a="F"/>Nce - dawnym Cejlonie,</row>
+      <row important_over="false"><ch a="E"/>Gdzie nawet są słonie,</row>
+      <row important_over="false"><ch a="a"/>W polityce mądre nad wyraz.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Lecz słoń Singaleza - Tamilów sympatyk -</row>
+      <row important_over="false"><ch a="G"/>Zwykł noc mu po nocy wykradać granaty,</row>
+      <row important_over="false"><ch a="F"/>I pojął Singalez,</row>
+      <row important_over="false"><ch a="E"/>Że musi, choć z żalem</row>
+      <row important_over="false"><ch a="a"/>Sympatie swe spisać na straty.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Był też Palestyńczyk, co z Żydem się bratał</row>
+      <row important_over="false"><ch a="G"/>W przyjaźni tej widząc nadzieję dla świata,</row>
+      <row important_over="false"><ch a="F"/>Strzelając do niego</row>
+      <row important_over="false"><ch a="E"/>Powtarzał: Kolego,</row>
+      <row important_over="false"><ch a="a"/>Ta krew nas połączy na lata.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Lecz w takiej przyjaźni nie widział Żyd cnoty,</row>
+      <row important_over="false"><ch a="G"/>Bo nie miał ochoty na nowe Golgoty,</row>
+      <row important_over="false"><ch a="F"/>Więc rzekł - przyjacielu,</row>
+      <row important_over="false"><ch a="E"/>My tu, w Izraelu</row>
+      <row important_over="false"><ch a="a"/>Nie mamy dla ciebie roboty!<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Libijczyk, choć żony miał trzy, muzułmanki,</row>
+      <row important_over="false"><ch a="G"/>Czadyjkę sprowadził do swojej lepianki</row>
+      <row important_over="false"><ch a="F"/>I rzekł: Dla przykładu</row>
+      <row important_over="false"><ch a="E"/>Dam ja z tobą czadu.</row>
+      <row important_over="false"><ch a="a"/>I brał ją - wieczory i ranki.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Choć miłość przeszkody pokonać potrafi -</row>
+      <row important_over="false"><ch a="G"/>Nie zebrał za czyn swój Libijczyk ów braw i</row>
+      <row important_over="false"><ch a="F"/>Dla dobra socjali-</row>
+      <row important_over="false"><ch a="E"/>Zmu ją mu zabrali</row>
+      <row important_over="false"><ch a="a"/>Ci, których wychował Kadafi.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Bez tchu w herbaciarni wypiwszy pięć herbat</row>
+      <row important_over="false"><ch a="G"/>Albańczyk zapałał przyjaźnią do Serba,</row>
+      <row important_over="false"><ch a="F"/>Lecz Serb po śliwowi-</row>
+      <row important_over="false"><ch a="E"/>cy Albańczykowi</row>
+      <row important_over="false"><ch a="a"/>Na zębach wypisał swój herbarz.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Szczerbaty Albańczyk - to pół Albańczyka,</row>
+      <row important_over="false"><ch a="G"/>Niejeden polityk się na tym potyka,</row>
+      <row important_over="false"><ch a="F"/>Choć jęczy duch Tity,</row>
+      <row important_over="false"><ch a="E"/>Że zbędny polityk,</row>
+      <row important_over="false"><ch a="a"/>Gdzie trzeba dentysty - praktyka.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Na Cyprze był Turek, co druha miał - Greka,</row>
+      <row important_over="false"><ch a="G"/>Obydwu zabrała rodzima bezpieka,</row>
+      <row important_over="false"><ch a="F"/>Przy więźniów wymianie</row>
+      <row important_over="false"><ch a="E"/>Spotkali się w bramie -</row>
+      <row important_over="false"><ch a="a"/>Bez słowa minęli - człek człeka.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Wnet Greczyn u Turków, u Greków zaś Turek</row>
+      <row important_over="false"><ch a="G"/>O jednej godzinie stanęli pod murek.</row>
+      <row important_over="false"><ch a="F"/>W czas potem niedługi</row>
+      <row important_over="false"><ch a="E"/>Na jednym i drugim</row>
+      <row important_over="false"><ch a="a"/>Piaszczysty się wznosił pagórek.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Rosjanin był, który - nie jego to wina -</row>
+      <row important_over="false"><ch a="G"/>Za brata uważał pewnego Gruzina.</row>
+      <row important_over="false"><ch a="F"/>Czas drużby był krótki,</row>
+      <row important_over="false"><ch a="E"/>Bo ów nie pił wódki,</row>
+      <row important_over="false"><ch a="a"/>Rosjanin nie pijał zaś wina.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Napisał na niego gdzie trzeba więc donos</row>
+      <row important_over="false"><ch a="G"/>I łzę nad przyjaźnią utoczył wzmocnioną.</row>
+      <row important_over="false"><ch a="F"/>W obozie zaś Gruzin</row>
+      <row important_over="false"><ch a="E"/>Odsiedział lat tuzin,</row>
+      <row important_over="false"><ch a="a"/>Lecz przecież go w końcu zwolniono!<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ci wszyscy, o których tak długo ty mendzę,</row>
+      <row important_over="false"><ch a="G"/>Co dzień się widują na forum OeNZet</row>
+      <row important_over="false"><ch a="F"/>I skarżą się wzajem</row>
+      <row important_over="false"><ch a="E"/>Na ludy i kraje,</row>
+      <row important_over="false"><ch a="a"/>Nie skarżąc się jednak na nędzę.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Bo mają do siebie już to kuluary</row>
+      <row important_over="false"><ch a="G"/>Gdzie naród z narodem się chwyta za bary,</row>
+      <row important_over="false"><ch a="F"/>Że nie o to chodzi,</row>
+      <row important_over="false"><ch a="E"/>Kto komu gdzie szkodzi,</row>
+      <row important_over="false"><ch a="a"/>Lecz o to - po ile dolary.<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Był Polak-patriota, co przy wódki skrzynce</row>
+      <row important_over="false"><ch a="G"/>Zawierał przyjaźni pakt z Ukraińcem.</row>
+      <row important_over="false"><ch a="F"/>Od słowa do słowa</row>
+      <row important_over="false"><ch a="E"/>Dotarli do Lwowa,</row>
+      <row important_over="false"><ch a="a"/>Ścierając się jak dwa odyńce.<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdy bić się skończyli, trafili za kraty</row>
+      <row important_over="false"><ch a="G"/>Podarłszy w pamięci doniosłe traktaty:</row>
+      <row important_over="false"><ch a="F"/>Bo gdy przyjdzie czas -</row>
+      <row important_over="false"><ch a="E"/>Wy nas, a my was!</row>
+      <row important_over="false"><ch a="a"/>Po brzuchach! - i: budem rezaty!<ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Ach gdybyż narodów na świecie nie było,</row>
+      <row important_over="false"><ch a="a"/>Jak nam by się wtedy szczęśliwie tu żyło!</row>
+      <row important_over="false"><ch a="E"/>Dla dobra człowieka, dla szczęścia ludzkości,</row>
+      <row important_over="false"><ch a="a"/>Złączonej w potężnym uścisku miłości,<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>Aż z trzaskiem pękałyby kości.<ch a="E"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="3"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Od nowa">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <composer type="solo">Jacek Sienkiewicz, Kasia Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Wyobraź sobie, że <ch a="F"/>umiesz widzieć rzecz</row>
+      <row important_over="true">Taką, <ch a="D"/>jaka ona jest</row>
+      <row important_over="true"><ch a="a"/>Że da się zdjąć <ch a="F"/>okulary skojarzeń</row>
+      <row important_over="true">Wymazać <ch a="D"/>wspomnień obrazy</row>
+      <row important_over="true"><ch a="a"/>Patrząc na fotel już nie <ch a="F"/>widzę go</row>
+      <row important_over="true">Widzę <ch a="D"/>ciebie jak siedzisz i płaczesz</row>
+      <row important_over="true"><ch a="a"/>Patrząc na tęczę widzę <ch a="F"/>podbite oko</row>
+      <row important_over="true">Widzę <ch a="D"/>przepaść głęboką</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="a"/>Czy mógłby <ch a="C"/>ktoś tak wyzerować <ch a="G"/>świat</row>
+        <row important_over="true">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj?</row>
+        <row important_over="true">Bez słów, co <ch a="C"/>bolą, bez otwartych <ch a="G"/>ran</row>
+        <row important_over="true">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj<ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jakby to było gdyby <ch a="F"/>wszystko to, co jest</row>
+      <row important_over="false">Miało <ch a="D"/>tylko jeden dzień?</row>
+      <row important_over="false"><ch a="a"/>Podalibyśmy sobie <ch a="F"/>dłonie bez żalu</row>
+      <row important_over="false">Bez pow<ch a="D"/>rotu koszmarów</row>
+      <row important_over="false"><ch a="a"/>Teraz, gdy patrzę doo<ch a="F"/>koła to</row>
+      <row important_over="false">Wszystko wy<ch a="D"/>daje mi się czarnobiałe</row>
+      <row important_over="false"><ch a="a"/>Cały mój świat się prze<ch a="F"/>łamał w połowie</row>
+      <row important_over="false">Możesz być <ch a="D"/>świętym lub wrogiem</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <bis times="4">
+        <row important_over="false"><ch a="a"/>Uuu-<ch a="C"/>uuu-u, <ch a="D"/>uuu <ch a="F"/> uuu</row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <bis times="4">
+        <row important_over="false"><ch a="a"/>Tak wyzerować <ch a="C"/>świat</row>
+        <row important_over="false">Bez otwartych <ch a="G"/>ran</row>
+        <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

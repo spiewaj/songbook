@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Krąg" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias></alias>
+	<text_author type="solo"></text_author>
+	<comment></comment>
+	<composer type="solo"></composer>
+	<artist type="solo"></artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu świ<ch a="D"/>atło</row>
+			<row important_over="true">Wys<ch a="G"/>okich j<ch a="D"/>asnych gwi<ch a="A"/>azd.</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu pł<ch a="D"/>omień,</row>
+			<row important_over="false">Ogn<ch a="G"/>iska ci<ch a="D"/>epły bl<ch a="A"/>ask.</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu r<ch a="D"/>adość,</row>
+			<row important_over="false">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd.</row>
+			<bis times="2">
+				<row important_over="true">A p<ch a="G"/>otem br<ch a="A"/>atnie sł<ch a="D"/>ow<ch a="G"/>o</row>
+				<row important_over="true">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu s<ch a="D"/>iłę,</row>
+			<row important_over="false">Niech ni<ch a="G"/>e opu<ch a="D"/>szcza n<ch a="A"/>as.</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu wi<ch a="D"/>arę,</row>
+			<row important_over="false">Że wr<ch a="G"/>óci d<ch a="D"/>obry cz<ch a="A"/>as.</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu p<ch a="D"/>amięć,</row>
+			<row important_over="false">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd,</row>
+			<bis times="2">
+				<row important_over="false">A p<ch a="G"/>otem br<ch a="A"/>atnie sł<ch a="D"/>ow<ch a="G"/>o</row>
+				<row important_over="false">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu dr<ch a="D"/>ogi,</row>
+			<row important_over="false">Wytrw<ch a="G"/>ałość n<ch a="D"/>aszych n<ch a="A"/>óg,</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu sł<ch a="D"/>ońce,</row>
+			<row important_over="false">By r<ch a="G"/>ozprasz<ch a="D"/>ało chł<ch a="A"/>ód.</row>
+			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu prz<ch a="D"/>yjaźń,</row>
+			<row important_over="false">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd.</row>
+			<bis times="2">
+				<row important_over="false">A p<ch a="G"/>otem br<ch a="A"/>atnie sł<ch a="D"/>ow<ch a="G"/>o</row>
+				<row important_over="false">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="3/4">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do>Chyba autorzy nieznani</to_do>
+	</status>
+	<music_source></music_source>
+</song>

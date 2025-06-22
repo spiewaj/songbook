@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Goryl">
+	<alias/>
+	<text_author type="solo">Georges Brassens</text_author>
+	<comment/>
+	<composer type="solo">Georges Brassens</composer>
+	<artist type="band">Zespół Reprezentacyjny</artist>
+	<translator>Filip Łobodziński</translator>
+	<original_title>Le Gorille</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">W naszym zo<ch a="C"/>o trzymali goryla</row>
+			<row important_over="true">W klatce z bardzo grubych k<ch a="G"/>rat</row>
+			<row important_over="true">Zaś przed nią b<ch a="G"/>aby stawały co chwila</row>
+			<row important_over="true">I podziwiały samca bez sz<ch a="C"/>at</row>
+			<row important_over="true">Zwłaszcza na j<ch a="C"/>edną część jego ciała</row>
+			<row important_over="true">Wszystkie bezwstydnie gapiły się wci<ch a="G"/>ąż</row>
+			<row important_over="true">Nie powiem n<ch a="G"/>a co lecz nie było to małe</row>
+			<row important_over="true">Każda wzdychała gdzie przy nim mój m<ch a="C"/>ąż</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Strzeż się g<ch a="C"/>o<ch a="G"/>r<ch a="C"/>y<ch a="G"/>l<ch a="C"/>a<ch a="G"/><ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecz oto m<ch a="C"/>ałpa wychodzi ukradkiem</row>
+			<row important_over="false">Ku zaskoczeniu szacownych p<ch a="G"/>ań</row>
+			<row important_over="false">Chyba kt<ch a="G"/>oś źle zamknął klatkę</row>
+			<row important_over="false">Jak to się stało nie wiem s<ch a="C"/>am</row>
+			<row important_over="false">Goryl st<ch a="C"/>anął wolnością zachwycon</row>
+			<row important_over="false">I odezwał się słowem t<ch a="G"/>ym</row>
+			<row important_over="false">Od dziś nie b<ch a="G"/>ędę już dziewicą</row>
+			<row important_over="false">A oto jak słowo przeszło w cz<ch a="C"/>yn</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Dyrektor zo<ch a="C"/>o postradał zmysły</row>
+			<row important_over="false">I powtarzał ciągle bez tch<ch a="G"/>u</row>
+			<row important_over="false">Mój goryl ni<ch a="G"/>e miał nigdy samicy</row>
+			<row important_over="false">On jest silniejszy niż ludzi st<ch a="C"/>u</row>
+			<row important_over="false">Gdy dowiedzi<ch a="C"/>ały się o tym niewiasty</row>
+			<row important_over="false">Zaraz podniosły straszliwy krz<ch a="G"/>yk</row>
+			<row important_over="false">I zamiast skorz<ch a="G"/>ystać z wielkiej szansy</row>
+			<row important_over="false">Idiotki dały drapaka w m<ch a="C"/>ig</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Nawet te z n<ch a="C"/>ich co jeszcze przed chwilą</row>
+			<row important_over="false">Marzyły o małpim superm<ch a="G"/>anie</row>
+			<row important_over="false">Teraz zwiew<ch a="G"/>ały aż się kurzyło</row>
+			<row important_over="false">A więc to były tylko marz<ch a="C"/>enia</row>
+			<row important_over="false">Ten ich str<ch a="C"/>ach był tym mniej zrozumiały</row>
+			<row important_over="false">Że przecież goryl to na schwał chł<ch a="G"/>op</row>
+			<row important_over="false">Bo nawet Don J<ch a="G"/>uan nie dałby mu rady</row>
+			<row important_over="false">Szczęście było dosłownie o kr<ch a="C"/>ok</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ludzie pierzchn<ch a="C"/>ęli we wszystkie strony</row>
+			<row important_over="false">Bo dziki samiec przeraził ich t<ch a="G"/>ak</row>
+			<row important_over="false">Pozostał t<ch a="G"/>ylko pewien sędzia młody</row>
+			<row important_over="false">I jakaś staruszka (stuletni wr<ch a="C"/>ak)</row>
+			<row important_over="false">Goryl w<ch a="C"/>idząc jedynie tych dwoje</row>
+			<row important_over="false">Poczuł gwałtowny erotyki gł<ch a="G"/>ód</row>
+			<row important_over="false">Więc aby ż<ch a="G"/>ądze swe zaspokoić</row>
+			<row important_over="false">Ku nim skierował swój kaczy ch<ch a="C"/>ód</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Starucha cz<ch a="C"/>ując nagłą ochotę</row>
+			<row important_over="false">Westchnęła — więc jednak zdarzył się c<ch a="G"/>ud</row>
+			<row important_over="false">Ktoś jeszcze mi<ch a="G"/>ewa do mnie ciągoty</row>
+			<row important_over="false">Już nie liczyłam na szczęścia ł<ch a="C"/>ut</row>
+			<row important_over="false">Ciekawe j<ch a="C"/>aką samicę tu znajdzie</row>
+			<row important_over="false">Chyba tę starą przecież nie mni<ch a="G"/>e</row>
+			<row important_over="false">Pomyślał s<ch a="G"/>ędzia lecz przyszłość zasię</row>
+			<row important_over="false">Dowiodła jak bardzo mylił si<ch a="C"/>ę</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Bo zastan<ch a="C"/>ówmy się w tym momencie</row>
+			<row important_over="false">Gdyby ktoś inny na miejscu m<ch a="G"/>ałpy</row>
+			<row important_over="false">Musiał tu w<ch a="G"/>ybrać starucha czy sędzia</row>
+			<row important_over="false">Komu z nich szczęścia spróbować d<ch a="C"/>ałby</row>
+			<row important_over="false">Ja gdybym rozwi<ch a="C"/>ązać miał osobiście</row>
+			<row important_over="false">Alternatywę taką już dz<ch a="G"/>iś</row>
+			<row important_over="false">Bym wybrał bab<ch a="G"/>inę oczywiście</row>
+			<row important_over="false">Choć włos się jeży na samą m<ch a="C"/>yśl</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ale niest<ch a="C"/>ety co prawda goryl</row>
+			<row important_over="false">Jest arcymistrzem w miłosnej grz<ch a="G"/>e</row>
+			<row important_over="false">Lecz jeśli ch<ch a="G"/>odzi o smak czy urodę</row>
+			<row important_over="false">Wiadomo powszechnie raczej ni<ch a="C"/>e</row>
+			<row important_over="false">Albowiem z<ch a="C"/>amiast zgwałcić staruchę</row>
+			<row important_over="false">Jak to uczynił by byle kt<ch a="G"/>o</row>
+			<row important_over="false">Ten sędzi<ch a="G"/>ego ułapił za ucho</row>
+			<row important_over="false">I w jakieś krzaki zaciągnął g<ch a="C"/>o</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Dalszego ci<ch a="C"/>ągu zdradzić nie mogę</row>
+			<row important_over="false">Chociaż i miejsce na to i cz<ch a="G"/>as</row>
+			<row important_over="false">Lecz mi nie w<ch a="G"/>olno a wielka szkoda</row>
+			<row important_over="false">Bo ubawiło by to w<ch a="C"/>as</row>
+			<row important_over="false">Jako że s<ch a="C"/>ędzia w szczytowym momencie</row>
+			<row important_over="false">Zapłakał głośno i krzyknął ,,m<ch a="G"/>amo''</row>
+			<row important_over="false">Zupełnie jak czł<ch a="G"/>owiek którego na ścięcie</row>
+			<row important_over="false">Skazał był właśnie tego dnia r<ch a="C"/>ano</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="2/2">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Piosenka kabaretowa</genre>
+	<status>
+		<done>	<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
+</song>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pocałuj noc">
+  <alias>Do Ciebie</alias>
+  <text_author type="solo">Anita Lipnicka</text_author>
+  <composer type="solo">Robert Janson</composer>
+  <artist type="band">Varius Manx</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Przez p<ch a="D"/>alce zwykłych dn<ch a="e7"/>i </row>
+      <row important_over="true"><ch a="C"/>Oglądasz świat</row>
+      <row important_over="true"><ch a="e"/>w pośpiechu gub<ch a="D"/>iąc sny</row>
+      <row important_over="true"><ch a="G"/>Twój śm<ch a="D"/>iech zawstydza cię<ch a="e7"/></row>
+      <row important_over="true">Więc wolisz n<ch a="C"/>ie śmiać się</row>
+      <row important_over="true">n<ch a="e"/>iż chwilę śmiesz<ch a="D"/>nym być</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">S<ch a="G"/>próbuj choć raz odsło<ch a="D"/>nić twarz i spo<ch a="C"/>jrzeć prosto w s<ch a="h"/>łońc<ch a="D"/>e</row>
+      <row important_over="true">Zachwy<ch a="G"/>cić się po pr<ch a="D"/>ostu tak i w<ch a="C"/>zruszyć jak naj<ch a="h"/>mocn<ch a="D"/>iej</row>
+      <row important_over="true">Nie b<ch a="G"/>ój się bać, g<ch a="D"/>dy chcesz to<ch a="C"/> płacz, idź szukać wiatru <ch a="h"/>w po<ch a="D"/>lu</row>
+      <row important_over="true">Pocał<ch a="G"/>uj noc w<ch a="D"/> najwyższą z gwiazd, <ch a="C"/>zapomnij si<ch a="h"/>ę i<ch a="D"/> ta<ch a="G"/>ńcz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Zakłada<ch a="D"/>sz czarny płaszc<ch a="e7"/>z </row>
+      <row important_over="false"><ch a="C"/>Łatwo wtapisz się</row>
+      <row important_over="false"><ch a="e"/>w upiornie trze<ch a="D"/>źwy świt</row>
+      <row important_over="false"><ch a="G"/>Obmyśla<ch a="D"/>sz każdy ge<ch a="e7"/>st</row>
+      <row important_over="false">Na wypadek by <ch a="C"/>nikt nie odgadł</row>
+      <row important_over="false">ki<ch a="e"/>m naprawdę jes<ch a="D"/>teś</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>

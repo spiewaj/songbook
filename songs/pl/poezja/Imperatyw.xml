@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Imperatyw">
+	<alias></alias>
+	<text_author type="solo">Piotr Bakal</text_author>
+	<comment></comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true">Będziemy szl<ch a="e9"/>i nieprzerw<ch a="C7+"/>anie</row>
+			<row important_over="true">W ulewie skw<ch a="a7"/>arze<ch a="G"/> hurag<ch a="H7"/>anie</row>
+			<row important_over="true">Przez chwiejne m<ch a="G"/>osty grz<ch a="C"/>ąskie b<ch a="G"/>agna</row>
+			<row important_over="true">Ch<ch a="a7"/>aszcze pust<ch a="G"/>ynie i mokr<ch a="H7"/>adła</row>
+			<row important_over="true">Będziemy szl<ch a="e9"/>i prz<ch a="C7+"/>ez zami<ch a="e9"/>ecie</row>
+			<row important_over="true">Przez grudnie, m<ch a="C7+"/>arce, cz<ch a="a7"/>erwce, si<ch a="G"/>erpni<ch a="H7"/>e</row>
+			<row important_over="true">Upalne l<ch a="C7+"/>ata mroźne z<ch a="e9"/>imy</row>
+			<row important_over="true">Będziemy szl<ch a="a7"/>i nie zawróc<ch a="H7"/>imy</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Z wi<ch a="C"/>arą w nast<ch a="G"/>ępny zakręt dr<ch a="H7"/>ogi</row>
+			<row important_over="true">Co znów ok<ch a="G"/>aże<ch a="C"/> się nie t<ch a="D"/>en</row>
+			<row important_over="true">W t<ch a="G"/>ajne przymi<ch a="a7"/>erze z Panem B<ch a="H7"/>ogiem</row>
+			<row important_over="true">W naszego tr<ch a="e9"/>udu jakiś s<ch a="C"/>ens</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Będziemy szl<ch a="e9"/>i bez wytchni<ch a="C7+"/>enia</row>
+			<row important_over="false">Upadaj<ch a="a7"/>ący<ch a="G"/> ze zmęcz<ch a="H7"/>enia</row>
+			<row important_over="false">Bez gromkich f<ch a="G"/>anfar<ch a="C"/> i okrz<ch a="G"/>yków</row>
+			<row important_over="false">B<ch a="a7"/>ez pozy d<ch a="G"/>umnych wojown<ch a="H7"/>ików</row>
+			<row important_over="false">Będziemy szl<ch a="e9"/>i wbr<ch a="C7+"/>ew log<ch a="e9"/>ice</row>
+			<row important_over="false">Powolnym <ch a="C7+"/>marszem<ch a="a7"/> całe ż<ch a="G"/>ycie<ch a="H7"/></row>
+			<row important_over="false">Będziemy m<ch a="C7+"/>ówić że już d<ch a="e9"/>osyć</row>
+			<row important_over="false">I dalej, d<ch a="a7"/>alej, dalej kr<ch a="H7"/>oczyć</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	
+	
+	
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators><verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do>Nigdy nie słyszałem w oryginale…</to_do>	<done>
+			
+			
+			
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>	<keywords/>
+	<music_source></music_source>
+	<album>Pod wielkim dachem nieba</album>
+	<genre>Poezja śpiewana</genre>
+</song>

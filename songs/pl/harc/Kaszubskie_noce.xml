@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Kaszubskie noce">
+  <alias>Tu szumi las…</alias>
+  <text_author type="solo">Zbigniew Kowalczyk, Tomasz Krzepkowski, Dariusz Jagodziński</text_author>
+  <comment>Piosenka nie opowiada wcale o Kaszubach w Polsce. Opowiada o Kaszubach w Ontario [1], Kanada, co wyjaśnia sens słów: "I choć Ojczyzna jest tak daleko" [2].
+
+Cytując za [3]:
+Tekst piosenki pisany był etapami. Pierwsze dwie zwrotki i refren powstały podczas biwaku na Kaszubach. Napisane na stanicy Karpaty w październikowy wieczór, gdy drużyna ruszyła w teren patrolami a drużynowy miał natchnienie…
+Darek rzadko wtedy rozstawał się z gitarą. W trakcie krótkiej przerwy między roboczym zadaniem a wyprawą w teren powstała melodia. Melodia była gotowa, ale z tekstem nie wychodziło – było kilka pierwszych słów i pomysł na temat, czyli Kaszuby. Gdy wędrownicy wrócili z wyprawy drużynowy miał już tekst. Taki był początek. 
+
+Trzecia zwrotka (w kolejności w jakiej powstawał tekst) została napisana latem następnego roku podczas obozu Szczepu Warszawa na terenie ‘przy tartaku’. Dh Tomek Krzepkowski był wtedy oboźnym podobozu wędrowników. Gdzie wraz z Darkiem znaleźli inspirację do napisania tekstu tego już nie wiem ;) Czwarta zwrotka ‘a gdy drużyna…’ powstała w późniejszych latach, w pewnym sensie jako przypomnienie, że nasze drogi się rozchodzą i coraz rzadziej mamy szansę, by spotkać się, porozmawiać, powspominać. Oczywiście po latach niektórzy próbowali dodać jakieś gesty, kołysanie fal, itp., co mija się z głębszym sensem piosenki i spłyca zawarte myśli. Dla ułatwienia zmieniano sobie także tonację, jednak Kaszubskie Noce prawidłowo brzmią jedynie w oryginalnej tonacji, czyli w E-dur. Napisałem, że początek i inspiracja to 7DHW, gdyż w tej drużynie wiele się działo i wiele piosenek zostało przez nią rozpropagowanych, no i powstała ta jedna własna. W składzie w jakim powstały Kaszubskie Noce drużyna działała od 1985 do 1989 roku.
+
+[1] https://goo.gl/maps/cz6w4VbnqgmLAdZS9
+[2] http://kronikamontrealska.com/2012/07/06/kanadyjskie-kaszuby-ontario/
+[3] https://www.zhpharcerki.org/organizacja_harcerek/egazetka_4/gazetka_4_piosenki_A.htm</comment>
+  <composer type="solo">Dariusz Jagodziński</composer>
+  <artist type="band">7 DH Wędrowników im. phm Alka Dawidowskiego ZHPzgk (Kanada, Ontario)</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Kaszubskie noce, <ch a="A"/>nad nami lśniące</row>
+      <row important_over="true"><ch a="D"/>Harcerski krąg, <ch a="G"/>ogniska blask,</row>
+      <row important_over="true"><ch a="C"/>Gdy się tu znajdziesz, <ch a="A"/>wtedy zrozumiesz</row>
+      <row important_over="true"><ch a="D"/>Że wszystko to, <ch a="G"/>łączy nas.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>To szumi <ch a="A"/>las, <ch a="D"/>kołysze <ch a="G"/>drzewa</row>
+      <row important_over="true"><ch a="C"/>Fala je<ch a="A"/>ziora, <ch a="D"/>brzegi za<ch a="G"/>lewa</row>
+      <row important_over="true"><ch a="C"/>Tu mały <ch a="A"/>Giewont, <ch a="D"/>czoło po<ch a="G"/>chyla</row>
+      <row important_over="true"><ch a="C"/>A my sie<ch a="A"/>dzimy, <ch a="D"/>harcerska <ch a="G"/>brać.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>I choć Ojczyzna, <ch a="A"/>jest tak daleko</row>
+      <row important_over="false"><ch a="D"/>Lecz nasze myśli, <ch a="G"/>wciąż do niej mkną</row>
+      <row important_over="false"><ch a="C"/>Tam też wśród nocy, <ch a="A"/>płoną ogniska</row>
+      <row important_over="false"><ch a="D"/>Harcerskie piosnki, <ch a="G"/>unosi wiatr.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>A gdy drużyna, <ch a="A"/>znowu jest razem</row>
+      <row important_over="false"><ch a="D"/>Płonie ognisko, <ch a="G"/>gitara gra,</row>
+      <row important_over="false"><ch a="C"/>Znów wspominamy, <ch a="A"/>pierwsze wyprawy</row>
+      <row important_over="false"><ch a="D"/>Trudy radości, <ch a="G"/>wspaniały czas.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Czy ty pamiętasz, <ch a="A"/>pierwsze ognisko</row>
+      <row important_over="false"><ch a="D"/>Pierwsze spojrzenie, <ch a="G"/>cudowna noc,</row>
+      <row important_over="false"><ch a="C"/>Gwiazdy na niebie, <ch a="A"/>byłeś tak blisko</row>
+      <row important_over="false"><ch a="D"/>Mówiłaś wtedy: <ch a="G"/>„Kocham Cię” [a ja nie!]</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords>
+    <keyword>Kaszuby</keyword>
+    <keyword>Kanada</keyword>
+  </keywords>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done>
+      <authors/>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabor</verificator>
+    </verificators>
+    <to_do>Zmienić tonację na E-dur ?</to_do>
+  </status>
+</song>

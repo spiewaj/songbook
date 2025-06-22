@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Coś jeszcze">
+	<alias></alias>
+	<text_author type="solo">Jakub Pochrybniak</text_author>
+	<comment>Gra się bodajże na strunie E ,,glissando'' przez wszystkie dżwięki, najpierw w górę, a potem w dół. </comment>
+	<composer type="solo">Jakub Pochrybniak</composer>
+	<artist type="solo">21. WDW „Stare Żbiki”</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Były dwa kleszcze,</row>
+			<row important_over="false">Zdechły dwa kleszcze,</row>
+			<row important_over="false">Fajne były,</row>
+			<row important_over="false">Pośpiewajmy jeszcze.</row>
+		</block>
+	</lyric>
+	
+	<music metre="">
+		<guitar/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre></genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			
+		</verificators>
+		<to_do></to_do>
+	</status>
+	<music_source></music_source>
+</song>

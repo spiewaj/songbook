@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kiedy w piątek">
+  <artist>Strąkowski</artist>
+  <lyric>
+    <block type="verse">
+      <row>Kied<ch a="D"/>y w piątek<ch a="e"/> słońce świeci</row>
+      <row>Serce mi do góry wzlata</row>
+      <row>Że w sobotę wezmę plecak</row>
+      <row>W podróż do mojego świata.</row>
+    </block>
+    <block type="chorus">
+      <row>Bo ja mam tylko jeden świat:</row>
+      <row>Słońce, góry, pola, wiatr, hej! Pola, wiatr!</row>
+      <row>I nic mnie więcej nie obchodzi</row>
+      <row>Bom turystą się urodził.</row>
+    </block>
+    <block type="verse">
+      <row>Dla mnie w mieście jest za ciasno</row>
+      <row>Wśród pojazdów, kurzu, spalin.</row>
+      <row>Ja zielone wolę ścieżki</row>
+      <row>Pełne wszędzie słodkich malin</row>
+    </block>
+    <block type="verse">
+      <row>I tak leżąc w lesie myślę</row>
+      <row>Niczym na wielkim dywanie:</row>
+      <row>Czy przypadkiem, za lat tysiąc</row>
+      <row>Coś z tym światem się nie stanie?</row>
+    </block>
+    <block type="verse">
+      <row>I chciałbym, żeby ten mój świat</row>
+      <row>Przetrwał jeszcze z tysiąc lat</row>
+      <row>I żeby mogły moje dzieci</row>
+      <row>Z tego świata też się cieszyć.</row>
+    </block>
+  </lyric>
+</song>

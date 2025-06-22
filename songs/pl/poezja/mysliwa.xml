@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kowalska">
+	<alias>Myśliwa</alias>
+	<text_author type="solo">Ewa Andrzejewska</text_author>
+	<composer type="solo">Mirosław Kowalik</composer>
+	<artist type="solo">Dagmara Korona</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/> Jak fantastycznie b<ch a="G"/>yć myśliwą</row>
+			<row important_over="true"><ch a="a"/> Potrząsać złotą pł<ch a="G"/>ową grzywą</row>
+			<row important_over="true"><ch a="a"/> I pierś w triumfie pr<ch a="G"/>ężyć w dal</row>
+			<row important_over="true"><ch a="a"/> Ja także chce być<ch a="G"/> femme fat<ch a="a"/>ale</row>
+			<row important_over="true"><ch a="a"/> Ja nie mam zbędnych w<ch a="G"/>ątpliwości</row>
+			<row important_over="true"><ch a="a"/> Zdrowe podejście d<ch a="G"/>o miłości</row>
+			<row important_over="true"><ch a="a"/> Mężczyzna to jest p<ch a="G"/>odłe bydle</row>
+			<row important_over="true"><ch a="a"/> Więc chyba pójdzie<ch a="G"/> jak po m<ch a="a"/>ydle</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Od zwi<ch a="a"/>erza do zwi<ch a="G"/>erza</row>
+			<row important_over="true">Byle d<ch a="a"/>o mnie nal<ch a="G"/>eżał</row>
+			<row important_over="true">Od d<ch a="a"/>uszy po pi<ch a="G"/>ęty</row>
+			<row important_over="true">M<ch a="a"/>oją magią <ch a="G"/>owładnięty</row>
+			<row important_over="true">Na ł<ch a="a"/>owy, na ł<ch a="G"/>owy</row>
+			<row important_over="true">C<ch a="a"/>o tam okres g<ch a="G"/>odowy</row>
+			<row important_over="true">N<ch a="a"/>a tygrysa, na b<ch a="G"/>yka</row>
+			<row important_over="true"><ch a="a"/>I niech gr<ch a="G"/>a muz<ch a="a"/>yka</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/> Gdy polowanie r<ch a="G"/>ozpoczynam</row>
+			<row important_over="false"><ch a="a"/> Cała w perfumach <ch a="G"/>i rubinach</row>
+			<row important_over="false"><ch a="a"/> Trafiam na famy <ch a="G"/>i na żony</row>
+			<row important_over="false"><ch a="a"/> Co lepszy obiekt,<ch a="G"/> to strzeż<ch a="a"/>ony</row>
+			<row important_over="false"><ch a="a"/> Więc chyba jednak p<ch a="G"/>ozostanę</row>
+			<row important_over="false"><ch a="a"/> Przy urzędowo wł<ch a="G"/>asnym panu</row>
+			<row important_over="false"><ch a="a"/> Lecz z życia mu ucz<ch a="G"/>ynie plamę</row>
+			<row important_over="false"><ch a="a"/> Za to marzenie<ch a="G"/> zmarnow<ch a="a"/>ane</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="2/2">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Dzień dobry (CD, 2008)</album>
+	<genre>Inna</genre>
+	<status>
+		<done>
+			<text/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
+	</status>
+</song>

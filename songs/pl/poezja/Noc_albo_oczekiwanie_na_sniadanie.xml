@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Noc albo oczekiwanie na śniadanie">
+	<text_author type="solo">Edward Stachura</text_author>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<album>Pod Wielkim Dachem Nieba</album>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="false">Ty się pochyl róża-bóg<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">ty się do mnie pochyl i<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">i na ucho jak kolczyk róża-bóg<ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Moje ucho ma dzban<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">z niego pić tylko tobie nikomu<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">a twój kolczyk jak ucho na dzban<ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">O modlitwy mnie wabisz <ch a="a"/><ch a="e"/></row>
+			<row important_over="false">O, wabisz. Że błysk noża<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">w najpiękniejsze serce kozy<ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Z tobą czystość zachować to gorzej<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">każdy lew by się spalił już dawno<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">las popiołu z jego grzywy nic więcej<ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ty się pochyl róża-bóg<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Ty się do mnie pochyl we mnie<ch a="a"/><ch a="e"/></row>
+			<row important_over="false">Wytryśniemy jak słońce wytryśnie<ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+		</block>
+	</lyric>
+	<music>
+		<guitar/>
+	</music>
+	<status>
+		<verificators><verificator>Krzysiek Cz.</verificator>
+			
+		</verificators>
+		<done/>
+		<to_do></to_do>
+	</status>
+	<keywords/>
+	<alias></alias>
+	<music_source></music_source>
+	<original_title></original_title>
+	<translator></translator>
+	<genre></genre>
+	<comment></comment>
+</song>

@@ -1,0 +1,175 @@
+name: Generate Songbook Artifacts
+run-name: ${{ github.actor }} is generating artifacts
+on:
+  workflow_dispatch:
+    inputs:
+      epub:
+        description: 'Generate epub'
+        required: false
+        type: boolean
+        default: true
+      pdf:
+        description: 'Generate pdf'
+        required: false
+        type: boolean
+        default: true
+      html:
+        description: 'Generate htmls'
+        required: false
+        type: boolean
+        default: true
+      release:
+        description: 'Create release'
+        required: false
+        type: boolean
+        default: true
+  workflow_call:
+    inputs:
+      epub:
+        description: 'Generate epub'
+        required: false
+        type: boolean
+        default: true
+      pdf:
+        description: 'Generate pdf'
+        required: false
+        type: boolean
+        default: true
+      html:
+        description: 'Generate htmls'
+        required: false
+        type: boolean
+        default: true
+      release:
+        description: 'Create release'
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  generate-artifacts:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/spiewaj/github-latex-worker:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.github_token }}
+      volumes:
+        - ${{ github.workspace }}:/workspace
+    steps:
+      - run: export TZ="Europe/Warsaw"
+      - run: echo "release_name=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_ENV
+      - if: ${{ inputs.pdf }}
+        run: echo "Generating a songbook PDF triggered by ${{ github.event_name }} release:${{ env.release_name }}"
+      - if: ${{ inputs.epub }}
+        run: echo "Generating a songbook EPUB triggered by ${{ github.event_name }} release:${{ env.release_name }}"
+      - if: ${{ inputs.html }}
+        run: echo "Generating a ZIP with songs in html triggered by ${{ github.event_name }} release:${{ env.release_name }}"
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - if: ${{ inputs.pdf }}
+        run: | 
+          cd /workspace && ./render_pdfs.sh
+      - name: Upload PDFs
+        if: ${{ inputs.pdf }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: songbooks_pdfs
+          path: /workspace/build/songs_tex/*.pdf
+
+      - name: Create Release
+        id: create_release
+        if: ${{ inputs.release }}
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ env.release_name }}
+          draft: true
+          prerelease: true
+      - name: Upload PDF_A4 to release
+        if: ${{ inputs.pdf && inputs.release }}
+        id: upload-release-asset_pdf_a4
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: /workspace/build/songbook_${{ env.release_name }}_a4.pdf
+          asset_name: songbook_${{ env.release_name }}_a4.pdf
+          asset_content_type: application/pdf
+      - name: Upload PDF_A5 to release
+        if: ${{ inputs.pdf && inputs.release }}
+        id: upload-release-asset_pdf_a5
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: /workspace/build/songbook_${{ env.release_name }}_a5.pdf
+          asset_name: songbook_${{ env.release_name }}_a5.pdf
+          asset_content_type: application/pdf
+
+      #generating epub from here
+
+
+      - if: ${{ inputs.epub }}
+        run: cd /workspace && ./render_epubs.sh
+
+      - name: Upload EPUBs
+        if: ${{ inputs.epub }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: songbooks_epub
+          overwrite: true
+          path: /workspace/build/*.epub
+
+
+      - name: Upload epub to release
+        if: ${{ inputs.epub && inputs.release }}
+        id: upload-release-asset_epub
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: /workspace/build/songbook_${{ env.release_name }}.epub
+          asset_name: songbook_${{ env.release_name }}.epub
+          asset_content_type: application/epub+zip
+
+
+      - if: ${{ inputs.html }}
+        run: cd  /workspace && chmod 755 ./render_htmls.sh && ./render_htmls.sh
+      - if: ${{ inputs.html }}
+        run: mv /workspace/build/songs_html.zip /workspace/build/songs_html_${{ env.release_name }}.zip
+
+
+      - name: Upload HTMLs
+        if: ${{ inputs.html }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: songbooks_htmls
+          path: | 
+            /workspace/build/*.zip
+            /workspace/build/index.xhtml
+
+
+      - name: Upload htmls to release
+        if: ${{ inputs.html && inputs.release }}
+        id: upload-release-asset_htmls
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: /workspace/build/songs_html_${{ env.release_name }}.zip
+          asset_name: songbook_${{ env.release_name }}.zip
+          asset_content_type: application/zip
+
+
+      - run: echo "DONE"

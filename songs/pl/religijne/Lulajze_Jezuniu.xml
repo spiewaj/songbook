@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lulajże Jezuniu">
+  <alias/>
+  <text_author/>
+  <comment/>
+  <composer type="solo"/>
+  <artist type="solo"/>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Lulajże Jezuniu moja perełko</row>
+      <row important_over="false">Lulaj ulubione me pieścidełko</row>
+      <bis>
+        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Zamkijże znużone płaczem powieczki</row>
+      <row important_over="false">Utulże zemdlone łkaniem usteczki</row>
+      <bis>
+        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Lulajże piękniuchny mój aniołeczku</row>
+      <row important_over="false">Lulajże wdzięczniuchny świata kwiateczku</row>
+      <bis>
+        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="">
+    <guitar barre="0"/>
+  </music>
+  <status>
+    <verificators/>
+    <to_do/>
+  </status>
+</song>
