@@ -19,10 +19,11 @@ gcloud functions deploy songbook-ghe \
   --set-secrets=OAUTH_APP_SECRET=projects/${GOOGLE_PROJECT}/secrets/github-editor-app-oauth:latest
 
 # Domain mapping: https://console.cloud.google.com/run/domains?inv=1&invt=Ab0zqQ&project=spiewaj-com
-gcloud run domain-mappings create --service songbook-ghe \
-  --domain spiewaj.com \
-  --project=${GOOGLE_PROJECT} \
-  --region=europe-west1
+# gcloud run domain-mappings create --service songbook-ghe \
+#   --domain spiewaj.com \
+#   --project=${GOOGLE_PROJECT} \
+# End configure manually DNS records in Cloud DNS:
+#   - CNAME ghe.spiewaj.com -> ghs.googlehosted.com
 
 # Create a new secret:
 # gcloud secrets create github-editor-app-oauth --project=${GOOGLE_PROJECT} --replication-policy=automatic
