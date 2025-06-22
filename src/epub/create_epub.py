@@ -18,7 +18,7 @@ def actual_date():
 def actual_datetime():
     return str(datetime.now().strftime("%Y-%m-%d  %H:%M"))
 
-NO_NAV_LIMIT = 1
+NO_NAV_LIMIT = 19
 
 #
 # def name_of_file(song):
