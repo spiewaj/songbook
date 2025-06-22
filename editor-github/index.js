@@ -105,7 +105,7 @@ async function getCommitsDifferenceMsg(octokit, user, branchName) {
     const commits = await octokit.request('GET /repos/{owner}/{repo}/compare/{basehead}{?page,per_page}', {
         owner: user,
         repo: 'songbook',
-        basehead: `songeditor-main...${branchName}`
+        basehead: `${MAIN_BRANCH_NAME}...${branchName}`
     })
     let msg="";
     for (let commit of commits.data.commits) {
