@@ -5,8 +5,8 @@
     <block type="verse">
       <row important_over="false"><ch a="a"/>Życie to jest teatr, <ch a="E"/>mówisz ciągle, opowiadasz;</row>
       <row important_over="false"><ch a="E7"/>Maski coraz inne, <ch a="a"/>coraz mylne się zakłada;</row>
-      <row important_over="false"><ch a="F"/>Wszystko to zabawa<ch a="G"/><ch a="C"/>Wszystko to jest jedna gra<ch a="a"/></row>
-      <row important_over="false"><ch a="E"/>Przy otwartych i zamkniętych<ch a="E7"/><ch a="a"/>drzwiach.</row>
+      <row important_over="false"><ch a="F"/>Wszystko to zabawa. <ch a="G"/><ch a="C"/>Wszystko to jest jedna gra<ch a="a"/></row>
+      <row important_over="false"><ch a="E"/>Przy otwartych i zamkniętych<ch a="E7"/><ch a="a"/> drzwiach.</row>
       <row important_over="false"><ch a="G"/>To jest gra!</row>
     </block>
     <block type="verse">
@@ -47,7 +47,6 @@
       <row important_over="false">Cały jestem zbudowany z ran.</row>
       <row important_over="false">Lecz gdy śmieje się, to wkrąg się śmieje świat!</row>
     </block>
-    <block type="chorus"/>
   </lyric>
   <music>
     <guitar barre="0"/>
