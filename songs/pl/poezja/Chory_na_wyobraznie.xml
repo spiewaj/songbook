@@ -40,15 +40,16 @@
       <row important_over="false"><ch a="C"/> A gdy j<ch a="G"/>uż dał się m<ch a="C"/>arszandom w<ch a="G"/>ykpić</row>
       <row important_over="false">Pił noc c<ch a="a"/>ałą by z brz<ch a="H7"/>askiem wyruszyć mówiąc</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
     </block>
   </lyric>
   <music>
-    <guitar barre="0"/>
+    <guitar barre="2"/>
   </music>
   <keywords/>
+  <album>Oppium życia (2 x CD, 2008)</album>
   <genre>Poezja śpiewana</genre>
   <status>
     <done>
