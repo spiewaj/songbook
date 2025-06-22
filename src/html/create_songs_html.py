@@ -181,10 +181,12 @@ def xml2html(src_xml_path, path_out, song_suffix):  # tworzy piosenkę w wersji 
     root_html.attrib[etree.QName("lang")] = "pl-PL"
     head = etree.SubElement(root_html, "head")
     etree.SubElement(head, "link",
+                     attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
+    etree.SubElement(head, "link",
                      attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song.css", "media": "all"})
-    # etree.SubElement(head, "link",
-    #                  attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/template.css", "media": "all"})
-   # etree.SubElement(head, "script", attrib={"src": "./song.js"})
+    # <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=1.0"})
+    # etree.SubElement(head, "script", attrib={"src": "./song.js"})
     _add_blocks(song, root_html)
     title = etree.SubElement(head, "title")
     title.text = song.title
