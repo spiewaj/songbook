@@ -1,0 +1,48 @@
+/* --- General Body and Typography --- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 1.5em;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* For small screens */
+
+@media (max-width: 758px) {
+    body {
+        padding: 0.7em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    a {
+        font-size: 0.9em;
+    }
+}

@@ -5,8 +5,6 @@ from lxml import etree
 
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
-
-
 def create_index_xhtml(list_of_songs_meta, target_dir):
     tmp_path = 'index.xhtml'
     out_path = os.path.join(target_dir, tmp_path)
@@ -52,5 +50,10 @@ def main():
     target_dir = os.path.join(sb.repo_dir(), "build")
 
     create_index_xhtml(songbook.list_of_songs(), target_dir)
+
+    index_js_path =os.path.join(target_dir, "index.js")
+    if os.path.exists(index_js_path):
+        os.remove(index_js_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "index.js"), index_js_path)
 
 main()

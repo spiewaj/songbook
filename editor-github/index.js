@@ -30,6 +30,7 @@ import {
     prepareMainBranch,
     stripProtocol,
     HandleError, EDITOR_BASE_URL, PARENT_DOMAIN, clearCookiesAndAuthRedirect, REDIRECT_BASE_URL,
+    GITHUB_OWNER
 } from './common.js';
 
 const app = express();
@@ -92,7 +93,7 @@ app.delete('/users/:user/changes/:branch', async (req, res) => {
 
 async function getPullRequest(octokit, user, branchName) {
     const res = await octokit.request('GET /repos/{owner}/{repo}/pulls{?state,head,base,sort,direction,per_page,page}', {
-        owner: 'wdw21',
+        owner: GITHUB_OWNER,
         repo: 'songbook',
         head: `${user}:${branchName}`,
     })
@@ -104,7 +105,7 @@ async function getCommitsDifferenceMsg(octokit, user, branchName) {
     const commits = await octokit.request('GET /repos/{owner}/{repo}/compare/{basehead}{?page,per_page}', {
         owner: user,
         repo: 'songbook',
-        basehead: `songeditor-main...${branchName}`
+        basehead: `${MAIN_BRANCH_NAME}...${branchName}`
     })
     let msg="";
     for (let commit of commits.data.commits) {
@@ -129,7 +130,7 @@ async function publishByGet(req, res) {
     const {octokit, user} = await newUserOctokit(req, res);
     const branchName = req.params.branch;
     const {body, file} = prDescription(octokit, user, branchName)
-    let url = `https://github.com/wdw21/songbook/compare/main...${user}:songbook:${branchName}?title=Piosenka: ${encodeURIComponent(file)}&expand=1&body=${encodeURIComponent(body)}`
+    let url = `https://github.com/${GITHUB_OWNER}/songbook/compare/main...${user}:songbook:${branchName}?title=Piosenka: ${encodeURIComponent(file)}&expand=1&body=${encodeURIComponent(body)}`
     res.redirect(url);
 }
 
@@ -143,7 +144,7 @@ async function publishByPost(req, res) {
     }
     const {body, file} = await prDescription(octokit, user, branchName)
     const response = await octokit.request('POST /repos/{owner}/{repo}/pulls', {
-        owner: 'wdw21',
+        owner: GITHUB_OWNER,
         repo:  'songbook',
         title: `Piosenka: ${file}`,
         body: body,
@@ -340,7 +341,7 @@ app.get('/config', async (req, res) => {
     try {
         await octokit.rest.repos.get({owner: authuser, repo: "songbook"});
     } catch (e) {
-        await octokit.rest.repos.createFork({owner: "wdw21", repo: "songbook"});
+        await octokit.rest.repos.createFork({owner: GITHUB_OWNER, repo: "songbook"});
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
         await delay(3000);
     }
@@ -570,7 +571,7 @@ app.get('/intro', async (req, res) => {
       
       <p>Dlatego przygotowaliśmy narzędzie umożliwiające wygodne edytowanie piosenek i dodawanie ich do śpiewnika.
       Jedyny wymaganiem jest założenie bezpłatnego konta w serwisie <a href="https://github.com/">github</a>, 
-      bo nasza baza piosenek jest przechowywana <a href="https://github.com/wdw21/songbook/tree/main/songs">właśnie tam</a>.
+      bo nasza baza piosenek jest przechowywana <a href="https://github.com/${GITHUB_OWNER}/songbook/tree/main/songs">właśnie tam</a>.
       </p>
       <p>Jeśli chcesz spróbować - <b>przejdź do <a href="/auth">edycji</a></b> – zostaniesz poproszony o zalogowanie lub przyznanie uprawnień naszej aplikacji.</p>
       
@@ -580,7 +581,7 @@ app.get('/intro', async (req, res) => {
         by upoważniać jakąś aplikację, by miała do nich dostęp. Mogę Cię tylko zapewnić (ale musisz mi zaufać),
         że ta aplikacja tylko: 
         <ul>
-            <li>Tworzy roboczą kopię (fork) repozytorium <a href="https://github.com/wdw21/songbook">wdw21/songbook</a>, jeśli go jeszcze nie posiadasz.</li>
+            <li>Tworzy roboczą kopię (fork) repozytorium <a href="https://github.com/${GITHUB_OWNER}/songbook">${GITHUB_OWNER}/songbook</a>, jeśli go jeszcze nie posiadasz.</li>
             <li>Dotyka wyłącznie Twojej roboczej kopi repozytorium 'songbook'</li>
             <li>Tworzy i kasuje gałęzie (branches) w repozytorium 'songbook' o nazwie zaczynającej się od 'se-'</li>
             <li>Tworzy zapisy (commits) w tych gałęziach, gdy zapisujesz zmiany piosenek.</li>
@@ -593,7 +594,7 @@ app.get('/intro', async (req, res) => {
          lub samodzielnie użyć narzędzia 'git'.
       </p>
       </details> 
-      <p>Problemy/uwagi możesz zgłaszać na: <a href="https://github.com/wdw21/songbook/issues">https://github.com/wdw21/songbook/issues</a></p>
+      <p>Problemy/uwagi możesz zgłaszać na: <a href="https://github.com/${GITHUB_OWNER}/songbook/issues">https://github.com/${GITHUB_OWNER}/songbook/issues</a></p>
       `);
     htmlSuffix(res);
 });

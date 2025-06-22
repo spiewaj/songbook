@@ -1,4 +1,4 @@
-import {newUserOctokit, htmlPrefix, htmlSuffix, HandleError} from './common.js'
+import {newUserOctokit, htmlPrefix, htmlSuffix, HandleError,GITHUB_OWNER} from './common.js'
 import util from "util";
 
 const SONGEDITOR_BRANCH_REGEXP=/^se-.*/g;
@@ -113,7 +113,7 @@ async function getRefs(req, res) {
         if (branch.name.match(SONGEDITOR_BRANCH_REGEXP)) {
             console.log("Processing: " + branch.name, i);
             diffs.set(branch.name, octokit.rest.repos.compareCommitsWithBasehead({
-                owner: 'wdw21',
+                owner: GITHUB_OWNER,
                 repo: 'songbook',
                 basehead: `main...${user}:songbook:${branch.name}`
             }));

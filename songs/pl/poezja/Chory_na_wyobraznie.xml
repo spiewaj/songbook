@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://songbook.21wdw.org/song.xsd" title="Chory na wyobraźnię">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chory na wyobraźnię">
   <alias>Vincent van Gogh</alias>
   <text_author type="solo">Mariusz Zadura</text_author>
   <comment>Metrum zmienne - w zwrotce na 4, w refrenie na 3</comment>
   <composer type="solo">Mariusz Zadura</composer>
   <artist type="solo">Mariusz Zadura</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-     </row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/> Dawno już w mieście drw<ch a="a"/>ił z niego każdy</row>
@@ -32,7 +20,7 @@
       <row important_over="false">I wych<ch a="a"/>odził swym obr<ch a="H7"/>azom naprzeciw mówiąc</row>
     </block>
     <block type="chorus">
-      <bis>
+      <bis times="2">
         <row important_over="true"><ch a="e"/> Idę t<ch a="a"/>am gdzie b<ch a="H7"/>ezmiar błęk<ch a="e"/>itu</row>
         <row important_over="true"><ch a="e"/> Światłoci<ch a="a"/>enie cypr<ch a="H7"/>ysów przy dr<ch a="e"/>odze</row>
         <row important_over="true">F<ch a="C"/>eerią b<ch a="G"/>arw każdy r<ch a="C"/>anek rozkw<ch a="G"/>ita</row>
@@ -40,17 +28,7 @@
       </bis>
     </block>
     <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-     </row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/> Gdy malował świat m<ch a="a"/>ilkł jak zaklęty</row>
@@ -62,26 +40,16 @@
       <row important_over="false"><ch a="C"/> A gdy j<ch a="G"/>uż dał się m<ch a="C"/>arszandom w<ch a="G"/>ykpić</row>
       <row important_over="false">Pił noc c<ch a="a"/>ałą by z brz<ch a="H7"/>askiem wyruszyć mówiąc</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="e"/>
-        <ch a="D"/>
-        <ch a="C"/>
-        <ch a="D"/>
-     </row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
     </block>
   </lyric>
-  <music metre="">
-    <guitar barre="0"/>
+  <music>
+    <guitar barre="2"/>
   </music>
   <keywords/>
-  <album/>
+  <album>Oppium życia (2 x CD, 2008)</album>
   <genre>Poezja śpiewana</genre>
   <status>
     <done>
