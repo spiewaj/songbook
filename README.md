@@ -16,7 +16,7 @@ The XML format is pretty well self-describing.
 
 # Editing of the songs
 
-To reduce the friction when working with git/github and XML format we provide a [graphical editor](https://songbook.21wdw.org/editor) and (github-integration https://ghe.songbook.21wdw.org/editor/] to make the songs editing as smooth as possible. 
+To reduce the friction when working with git/github and XML format we provide a [graphical editor](https://spiewaj.com/editor) and (github-integration https://spiewaj.com/editor/] to make the songs editing as smooth as possible. 
 The changes you will make can be easily published for review and added to this repository. 
 
 # Generating PDF songbooks
@@ -30,4 +30,4 @@ Running the render script requires:
 
 # Generating EPUBs songbooks
 You can run `./render_epub.sh`.
-You can download recent generated EPUB from here: [spiewnik.epub]( https://github.com/spiewaj/songbook/releases/latest).
+You can download recent generated EPUB from here: [spiewnik.epub]( https://github.com//songbook/releases/latest).
