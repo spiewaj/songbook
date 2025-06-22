@@ -1,5 +1,7 @@
 /* style.css */
 
+@import url('common.css');
+
 /* --- General Body and Typography --- */
 body {
     font-family: 'Roboto', sans-serif;

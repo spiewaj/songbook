@@ -18,11 +18,16 @@ def main():
     cash.create_all_songs_html(songbook.list_of_songs(), path_songs_html)
     path_css = os.path.join(path_songs_html, "CSS")
     os.mkdir(path_css)
-    path_tmp_css_song = os.path.join(sb.repo_dir(), 'src', 'epub', 'templates', "song.css")
-    shutil.copyfile(path_tmp_css_song, os.path.join(path_css, "song.css"))
-    path_tmp_css_song = os.path.join(sb.repo_dir(), 'src', 'epub', 'templates', "template.css")
-    shutil.copyfile(path_tmp_css_song, os.path.join(path_css, "template.css"))
 
+    CSS_FILES = [
+        "common.css",
+        "index.css",
+        "song_common.css",
+        "song.css",
+    ]
+    for css_file in CSS_FILES:
+        path_tmp_css = os.path.join(sb.repo_dir(), 'src', 'html', 'css', css_file)
+        os.symlink(path_tmp_css, os.path.join(path_css, css_file))
 
 if __name__ == "__main__":
     main()
