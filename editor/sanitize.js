@@ -176,6 +176,13 @@ function traverse(parent, node) {
         node.remove();
         return newParent;
       }
+      if (node.className=='text-nowrap') {
+        // <span class="annotated-lyrics">Jak to <span class="text-nowrap">d<code class="an" data-chord="A" data-suffix="m" data-local="a">a</code>obrze</span> być <code class="an" data-chord="D" data-suffix="m" data-local="d">d</code>harcerzem</span>
+        let newParent = nestToRow(parent, false);
+        traverseChilds(newParent, node.childNodes);
+        node.remove();
+        return newParent; 
+      }
       break;
     }
 
