@@ -1,5 +1,4 @@
-/* style.css */
-
+/* common.css or base styles can be imported here */
 @import url('common.css');
 
 /* --- General Body and Typography --- */
@@ -9,7 +8,7 @@ body {
     color: #212529;
     line-height: 1.6;
     margin: 0;
-    padding: 2em;
+    padding: 1em; /* Adjusted for mobile */
 }
 
 h2 {
@@ -34,12 +33,13 @@ a:hover {
 /* --- Top Navigation --- */
 div.top-navigation {
     background-color: #ffffff;
-    padding: 1em 2em;
+    padding: 1em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 2em;
     display: flex;
-    gap: 1.5em;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 1em;
     align-items: center;
 }
 
@@ -47,8 +47,11 @@ div.top-navigation a {
     font-weight: 500;
 }
 
-
 /* --- Songbooks Section --- */
+.songbook-container h2 {
+    border-bottom: none; /* We will style it differently for mobile */
+}
+
 #songbooks {
     list-style: none;
     padding: 0;
@@ -60,37 +63,34 @@ div.top-navigation a {
     margin-bottom: 0.5em;
 }
 
+#songbooks div {
+    margin-bottom: 1em;
+}
+
 #songbooks a {
     display: inline-block;
     background-color: #6c757d;
     color: #ffffff;
-    padding: 0.3em 0.8em;
-    border-radius: 4px;
-    font-size: 0.8em;
+    padding: 0.4em 0.9em;
+    border-radius: 15px;
+    font-size: 0.85em;
     margin-right: 0.5em;
+    margin-bottom: 0.5em;
     text-transform: uppercase;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 #songbooks a:hover {
     background-color: #5a6268;
     color: #ffffff;
     text-decoration: none;
+    transform: translateY(-2px);
 }
 
-#songbooks a.epub {
-    background-color: #28a745;
-}
-#songbooks a.epub:hover {
-    background-color: #218838;
-}
-
-#songbooks a.pdf {
-    background-color: #dc3545;
-}
-#songbooks a.pdf:hover {
-    background-color: #c82333;
-}
-
+#songbooks a.epub { background-color: #28a745; }
+#songbooks a.epub:hover { background-color: #218838; }
+#songbooks a.pdf { background-color: #dc3545; }
+#songbooks a.pdf:hover { background-color: #c82333; }
 
 /* --- Main Song List --- */
 #songs {
@@ -106,17 +106,12 @@ div.top-navigation a {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e9ecef;
-    padding: 0.8em 1.5em;
+    padding: 0.8em 1em;
     transition: background-color 0.2s ease;
 }
 
-#songs li:last-child {
-    border-bottom: none;
-}
-
-#songs li:hover {
-    background-color: #eef2f5;
-}
+#songs li:last-child { border-bottom: none; }
+#songs li:hover { background-color: #eef2f5; }
 
 #songs li a {
     flex-grow: 1;
@@ -136,7 +131,7 @@ div.top-navigation a {
     border: none;
     cursor: pointer;
     padding: 0;
-    margin-right: 1em; /* Spacing between icon and song title */
+    margin-right: 1em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -144,9 +139,7 @@ div.top-navigation a {
     transition: opacity 0.2s ease;
 }
 
-.editicon:hover {
-    opacity: 1;
-}
+.editicon:hover { opacity: 1; }
 
 .editicon .material-symbols-outlined {
     font-size: 20px;
@@ -154,18 +147,17 @@ div.top-navigation a {
     transition: color 0.2s ease;
 }
 
-.editicon:hover .material-symbols-outlined {
-    color: #007bff;
-}
+.editicon:hover .material-symbols-outlined { color: #007bff; }
 
 /* --- Kindle Link Paragraph --- */
 p {
     margin-top: 1.5em;
     font-style: italic;
     color: #6c757d;
+    text-align: center;
 }
 
-/* Optional: Simple styling for the search box */
+/* --- Search Box --- */
 .search-container {
     background-color: #ffffff;
     padding: 1em 1.5em;
@@ -173,17 +165,110 @@ p {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 .search-label {
     display: block;
     margin-bottom: 0.5em;
     font-weight: 500;
     color: #343a40;
 }
+
 #songSearch {
     width: 100%;
     padding: 0.75em;
     font-size: 1em;
     border: 1px solid #ced4da;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Mobile Responsive Styles (Screen width <= 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    body {
+        padding: 0.5em;
+        -webkit-text-size-adjust: 100%; /* Prevent font scaling on iOS */
+    }
+
+    div.top-navigation {
+        align-items: flex-start;
+        gap: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        margin-top: 1.2em;
+    }
+
+    /* --- Collapsible Songbook --- */
+    #songbook-toggle {
+        cursor: pointer;
+        user-select: none; /* Prevents text selection on tap */
+        border-bottom: 2px solid #dee2e6;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    /* Arrow icon for the toggle */
+    #songbook-toggle::after {
+        content: '▼';
+        font-size: 0.8em;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+
+    #songbooks-container.expanded #songbook-toggle::after {
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    /* Hide songbooks by default on mobile */
+    #songbooks-container #songbooks-list-container {
+        display: none;
+        padding: 1em;
+        background-color: #fff;
+        border-radius: 0 0 8px 8px;
+        box-shadow: inset 0 3px 5px rgba(0,0,0,0.05);
+    }
+
+    /* Show when expanded */
+    #songbooks-container.expanded #songbooks-list-container {
+        display: block;
+    }
+
+    p {
+        padding: 0 1em;
+    }
+}
+
+/* ==========================================================================
+   Desktop Styles (Screen width > 768px)
+   ========================================================================== */
+@media (min-width: 769px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    div.top-navigation {
+        padding: 1em 2em;
+        gap: 1.5em;
+        flex-wrap: nowrap;
+    }
+
+    .songbook-container h2 {
+         border-bottom: 2px solid #dee2e6;
+    }
+
+    #songbook-toggle {
+        cursor: default;
+    }
+
+    #songbook-toggle::after {
+        content: ''; /* Remove arrow on desktop */
+    }
 }

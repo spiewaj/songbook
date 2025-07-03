@@ -4,13 +4,24 @@
 <head>
     <title>Śpiewnik</title>
     <link href="songs_html/CSS/index.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script type="text/javascript" src="index.js"> </script>
     <script type="text/javascript">
-document.addEventListener("keypress", function(event) {
-  var element = document.getElementById("songSearch")
-  element.focus()
-})
+        // Focus search bar on keypress
+        document.addEventListener("keypress", function(event) {
+           if (document.activeElement.id !== 'songSearch') {
+                 document.getElementById("songSearch").focus();
+            }
+        })
+
+        // Toggle for songbook list on mobile
+        function toggleSongbooks() {
+            const songbook = document.getElementById('songbooks-container');
+            //const toggleHeader = document.getElementById('songbook-toggle');
+            songbook.classList.toggle('expanded');
+            //toggleHeader.classList.toggle('active');
+        }
     </script>
 </head>
 <body>
@@ -20,12 +31,14 @@ document.addEventListener("keypress", function(event) {
     <a href="https://ghe.spiewaj.com/intro">[O edytowaniu]</a>
     <a href="https://github.com/spiewaj/songbook/tree/main/songs">[github]</a>
 </div>
-    <h2>Śpiewniki</h2>
-    <ul id="songbooks">
-    </ul>
-    <p>Wersję na Kindla możesz wgrać używając: <a href="https://www.amazon.com/sendtokindle">https://www.amazon.com/sendtokindle</a></p>
-    <!--INJECT HERE-->
-    <h2>Piosenki</h2>
+<div id="songbooks-container">
+    <h2 id="songbook-toggle" onclick="toggleSongbooks()">Śpiewniki</h2>
+    <div id="songbooks-list-container">
+      <ul id="songbooks"></ul>
+      <p>Wersję na Kindla możesz wgrać używając: <a href="https://www.amazon.com/sendtokindle">https://www.amazon.com/sendtokindle</a></p>
+    </div>
+</div>
+    <!-- <h2>Piosenki</h2> -->
     <div class="search-container">
         <label for="songSearch" class="search-label">Szukaj piosenki:</label>
         <input tabindex="1" autofocus="autofocus" type="text" id="songSearch" onkeyup="filterSongs()" placeholder="szukam... szukania mi trzeba" />
