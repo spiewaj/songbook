@@ -244,7 +244,7 @@ export class SongEditor extends HTMLElement {
     let url=prompt("Proszę podaj adres do strony z piosenką (np. wywrota):", "https://...");
 
     let request = new XMLHttpRequest();
-    request.open("GET", "https://europe-west1-wdw-21.cloudfunctions.net/songbook-ghe/pr0xy?url=" + url, true);
+    request.open("GET", "https://ghe.spiewaj.com/pr0xy?url=" + url, true);
     request.onload = () => {
       console.log(request.responseText)
       let converted = html2xmlstr(request.responseText, window)
