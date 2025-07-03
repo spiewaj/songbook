@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piła tango">
+  <alias>Statek Piła Tango</alias>
   <text_author type="solo">Krzysztof „Grabaż” Grabowski</text_author>
+  <composer type="solo">Krzysztof „Grabaż” Grabowski</composer>
   <artist type="band">Strachy na Lachy</artist>
   <lyric>
     <block type="other">
       <bis times="2">
-        <row important_over="false" style="instr"> </row>
+        <row important_over="false" style="instr"> <ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/></row>
       </bis>
     </block>
     <block type="other">
@@ -75,6 +77,7 @@
     </block>
   </lyric>
   <keywords/>
+  <genre>Pop</genre>
   <status>
     <done/>
     <verificators/>
