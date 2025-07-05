@@ -11,30 +11,30 @@
       </bis>
     </block>
     <block type="other">
-      <row important_over="false">Oto historia z <ch a="a"/>kantem,</row>
-      <row important_over="false"><ch a="d"/> Co pod<ch a="E"/>wójne ma <ch a="a"/>dno.</row>
-      <row important_over="false"><ch a="d"/> Gdyby na<ch a="E"/>pisał ją <ch a="a"/>Dante,</row>
-      <row important_over="false"><ch a="d"/> To nie <ch a="E"/>tak by to <ch a="a"/>szło.</row>
+      <row important_over="true">Oto historia z <ch a="a"/>kantem,</row>
+      <row important_over="true"><ch a="d"/> Co pod<ch a="E"/>wójne ma <ch a="a"/>dno.</row>
+      <row important_over="true"><ch a="d"/> Gdyby na<ch a="E"/>pisał ją <ch a="a"/>Dante,</row>
+      <row important_over="true"><ch a="d"/> To nie <ch a="E"/>tak by to <ch a="a"/>szło.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Grzesiek <ch a="a"/>Kubiak czyli Kuba rządził <ch a="d"/>naszą podsta<ch a="E7"/>wówką,</row>
-      <row important_over="false">Po l<ch a="a"/>ekcjach na boisku ganiał <ch a="d"/>za mną z ceg<ch a="E7"/>łówką.</row>
-      <row important_over="false">W Pile <ch a="a"/>było jak w Chile każdy <ch a="d"/>miał czerwone <ch a="E7"/>ryło,</row>
-      <row important_over="false">Mniej lub <ch a="a"/>bardziej to pamiętasz <ch a="d"/>spytaj jak to <ch a="E7"/>było.</row>
-      <row important_over="false">W czasach <ch a="a"/>gdy nad Piłą jeszcze la<ch a="d"/>tały samo<ch a="E7"/>loty,</row>
-      <row important_over="false">Woje<ch a="a"/>woda Śliwiński kazał <ch a="d"/>pomalować <ch a="E7"/>płoty.</row>
-      <row important_over="false">Potem <ch a="a"/>wszystkie płoty w Pile miały <ch a="d"/>kolor zie<ch a="E7"/>leni,</row>
-      <row important_over="false">Ro<ch a="a"/>gaczem na wieżowcu Piła <ch a="d"/>witała je<ch a="E7"/>leni.</row>
+      <row important_over="true">Grzesiek <ch a="a"/>Kubiak czyli Kuba rządził <ch a="d"/>naszą podsta<ch a="E7"/>wówką,</row>
+      <row important_over="true">Po l<ch a="a"/>ekcjach na boisku ganiał <ch a="d"/>za mną z ceg<ch a="E7"/>łówką.</row>
+      <row important_over="true">W Pile <ch a="a"/>było jak w Chile każdy <ch a="d"/>miał czerwone <ch a="E7"/>ryło,</row>
+      <row important_over="true">Mniej lub <ch a="a"/>bardziej to pamiętasz <ch a="d"/>spytaj jak to <ch a="E7"/>było.</row>
+      <row important_over="true">W czasach <ch a="a"/>gdy nad Piłą jeszcze la<ch a="d"/>tały samo<ch a="E7"/>loty,</row>
+      <row important_over="true">Woje<ch a="a"/>woda Śliwiński kazał <ch a="d"/>pomalować <ch a="E7"/>płoty.</row>
+      <row important_over="true">Potem <ch a="a"/>wszystkie płoty w Pile miały <ch a="d"/>kolor zie<ch a="E7"/>leni,</row>
+      <row important_over="true">Ro<ch a="a"/>gaczem na wieżowcu Piła <ch a="d"/>witała je<ch a="E7"/>leni.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Statek <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">Czar<ch a="a"/>na bandera.<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">To tylko <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">Tań<ch a="a"/>czysz to teraz.<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">Płynie statek <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">Czar<ch a="a"/>na Bandera.<ch a="d"/><ch a="E7"/></row>
-      <row important_over="false">U<ch a="a"/>kłoń się świrom<ch a="d"/>,  <ch a="E7"/></row>
-      <row important_over="false">Żyj <ch a="a"/>nie umieraj.<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">Statek <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">Czar<ch a="a"/>na bandera.<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">To tylko <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">Tań<ch a="a"/>czysz to teraz.<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">Płynie statek <ch a="a"/>Piła Tango,<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">Czar<ch a="a"/>na Bandera.<ch a="d"/><ch a="E7"/></row>
+      <row important_over="true">U<ch a="a"/>kłoń się świrom<ch a="d"/>,  <ch a="E7"/></row>
+      <row important_over="true">Żyj <ch a="a"/>nie umieraj.<ch a="d"/><ch a="E7"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Gruby <ch a="a"/>jak armata Szczepan błąkał <ch a="d"/>się po kuli <ch a="E7"/>ziemskiej,</row>
