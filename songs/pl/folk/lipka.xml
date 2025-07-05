@@ -6,7 +6,7 @@ Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej s
 
 [1] https://bibliotekapiosenki.pl/utwory/Nie_sa_to_ptaszkowie_tylko_kawalerowie</comment>
   <lyric>
-    <block type="verse">
+    <block type="other">
       <bis times="2">
         <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="a"/><ch a="G"/></row>
       </bis>
