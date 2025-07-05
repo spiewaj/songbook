@@ -25,17 +25,20 @@
                 filterSongs(); // Call the search function
                 // If there is only one song, open it directly
                 const songsList = document.getElementById("songs");
-            
+        
                 // Count the number of songs in the list that are visible
                 let visibleSongsCount = 0;
-                for (let i = 0; i < songsList.children.length; i++) {
+                let firstSong = null;
+                for (let i = 0; i &lt; songsList.children.length; i++) {
                     const songItem = songsList.children[i];
                     if (songItem.style.display !== 'none') {
                         visibleSongsCount++;
+                        if (!firstSong) {
+                          firstSong = songItem; // Keep track of the first visible song
+                        }
                     }
                 }
-                if (visibleSongsCount === 1) {
-                    const firstSong = songsList.children[0];
+                if (visibleSongsCount === 1 &amp;&amp; firstSong) {
                     const songLink = firstSong.querySelector("a");
                     if (songLink) {
                         const href = songLink.getAttribute("href");
