@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pędziwiatr">
+  <alias>Idę z wiatrem poprzez świat</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Idę z wiatrem poprzez świat, <ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">idę tam gdzie hula wiatr. <ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Tam gdzie oczy niosą mnie, <ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">tam gdzie licho tylko wie. <ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="never">Idę z moim wiatrem hen, <ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">choć ludziska patrzą źle. <ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Bom ja przecież pędziwiatr, <ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">dla takiego miejsca brak. <ch a="C"/><ch a="D"/><ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">A ty wiej, wiej, wietrze mój <ch a="C"/><ch a="D"/><ch a="G"/><ch a="e"/></row>
+      <row important_over="never">jam przyjaciel twój. <ch a="C"/><ch a="D"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="G D e">Na gitarze sobie gram,</row>
+      <row important_over="never" sidechords="C D e">czasem wiatr wtóruje nam.</row>
+      <row important_over="never" sidechords="G D e">I choć mija dzień za dniem,</row>
+      <row important_over="never" sidechords="C D G">droga nam nie dłuży się.</row>
+      <row important_over="never" sidechords="G D e">Bratem moim kamień jest,</row>
+      <row important_over="never" sidechords="C D e">siostrą napotkany kwiat.</row>
+      <row important_over="never" sidechords="G D e">Mą miłością droga ta,</row>
+      <row important_over="never" sidechords="C D G">która wiedzie poprzez świat.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G D e">A gdy skończe drogę swą,</row>
+      <row important_over="never" sidechords="C D e">gdy zaginie po mnie ślad.</row>
+      <row important_over="never" sidechords="G D e">Ty mój wietrze dalej wiej,</row>
+      <row important_over="never" sidechords="C D G">czasem tylko wspomnij mnie.</row>
+      <row important_over="never" sidechords="G D e">Czasem zagwiżdż w polu gdzieś,</row>
+      <row important_over="never" sidechords="C D e">czasem pogłaszcz stary sad.</row>
+      <row important_over="never" sidechords="G D e">Zanuć ludziom moją pieśń,</row>
+      <row important_over="never" sidechords="C D G">która wiedzie mnie przez świat.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
