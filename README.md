@@ -1,3 +1,7 @@
+# Deprecation
+
+The maintained version of this repository is at https://github.com/spiewaj/songbook and the generated songbooks/artifacts on: https://spiewaj.com .
+
 ### Recent generated artifacts:
   Generated artifacts are auto-published (post-commit on) https://songbook.21wdw.org.
   You can also check the latest release: https://github.com/wdw21/songbook/releases/latest.
