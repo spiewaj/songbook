@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Epitafium dla Włodzimierza Wysockiego">
+  <alias>To moja droga z piekła do piekła</alias>
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="true">W d<ch a="e"/>ół na złamanie karku gnam!</row>
+      <row important_over="true">Ni<ch a="e"/>kt mnie nie trzyma, nikt nie prześwietla</row>
+      <row important_over="true">N<ch a="e"/>ie zrywa mostów, nie stawia bram!</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Po gr<ch a="a"/>ani! Po gr<ch a="e"/>ani!</row>
+      <row important_over="true">Nad przep<ch a="a"/>aścią bez łańc<ch a="C"/>uchów, bez wah<ch a="G"/>ania!</row>
+      <row important_over="true">Tu na trz<ch a="a"/>eźwo diabli w<ch a="e"/>ezmą</row>
+      <row important_over="true">Zdradzi m<ch a="H"/>nie rozsądek – dr<ch a="C"/>ań</row>
+      <row important_over="true">W wilczy d<ch a="C"/>ół wspomnienia zmienią</row>
+      <row important_over="true"><ch a="a"/>Ostr<ch a="C"/>ą gr<ch a="H"/>ań!</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Po gr<ch a="a"/>ani! Po grani! Po gr<ch a="e"/>ani!</row>
+      <row important_over="true">Tu mi dr<ch a="a"/>ogi nie zast<ch a="C"/>ąpią pokon<ch a="G"/>ani!</row>
+      <row important_over="true">Tylko ł<ch a="a"/>apią mnie za n<ch a="e"/>ogi,</row>
+      <row important_over="true">Krzyczą - n<ch a="H"/>ie idź! Krzyczą - st<ch a="C"/>ań!</row>
+      <row important_over="true">Ci, co w p<ch a="C"/>ół stanęli drogi</row>
+      <row important_over="true">I zęb<ch a="a"/>ami, pazur<ch a="C"/>ami kr<ch a="H"/>uszą gr<ch a="e"/>ań!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">W prz<ch a="e"/>epaść na łeb na szyję skok!</row>
+      <row important_over="false">&quot;B<ch a="e"/>oskiej Komedii&quot; nowy przekład</row>
+      <row important_over="false">I w pi<ch a="e"/>erwszy krąg piekła mój pierwszy krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tu d<ch a="a"/>o mnie! Tu d<ch a="e"/>o mnie!</row>
+      <row important_over="false">Ruda chw<ch a="a"/>yta mnie dziewcz<ch a="C"/>yna swymi dł<ch a="G"/>ońmi</row>
+      <row important_over="false">I do k<ch a="a"/>ońskiej grzywy wi<ch a="e"/>ąże</row>
+      <row important_over="false">Szarpię grz<ch a="H"/>ywę - rumak rż<ch a="C"/>y!</row>
+      <row important_over="false">Ona - c<ch a="C"/>o ci jest mój książę?</row>
+      <row important_over="false">Sz<ch a="a"/>epc<ch a="C"/>e m<ch a="H"/>i...</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do pi<ch a="a"/>ekła! Do piekła! Do pi<ch a="e"/>ekła!</row>
+      <row important_over="false">Nie mam cz<ch a="a"/>asu na przej<ch a="C"/>ażdżki wiedźmo wści<ch a="G"/>ekła!</row>
+      <row important_over="false">- Nie wiesz t<ch a="a"/>y co cię tam cz<ch a="e"/>eka</row>
+      <row important_over="false">Mówi s<ch a="H"/>ine tocząc łz<ch a="C"/>y</row>
+      <row important_over="false">- Piekło t<ch a="C"/>eż jest dla człowieka!</row>
+      <row important_over="false">Nie strasz, n<ch a="a"/>ie kuś i odch<ch a="C"/>odząc z<ch a="H"/>abierz sn<ch a="e"/>y!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">W<ch a="e"/>okół postaci bladych tłok</row>
+      <row important_over="false">K<ch a="e"/>oń mnie nad nimi unosi z lekka</row>
+      <row important_over="false">I w dr<ch a="e"/>ugi krąg kieruje krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Zesł<ch a="a"/>ani! Zesł<ch a="e"/>ani!</row>
+      <row important_over="false">Naznacz<ch a="a"/>eni, potępi<ch a="C"/>eni i sprzed<ch a="G"/>ani!</row>
+      <row important_over="false">Co rob<ch a="a"/>icie w piekła szt<ch a="e"/>olniach</row>
+      <row important_over="false">Brodząc w bł<ch a="H"/>ocie, depcząc l<ch a="C"/>ód!</row>
+      <row important_over="false">Czy śmierć d<ch a="C"/>aje ludzi wolnych</row>
+      <row important_over="false">Zn<ch a="a"/>ów p<ch a="C"/>od kn<ch a="H"/>ut!?</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">- To n<ch a="a"/>ie tak! To nie tak! To n<ch a="e"/>ie tak!</row>
+      <row important_over="false">Nie uż<ch a="a"/>alaj się nad n<ch a="C"/>ami - tyś po<ch a="G"/>eta!</row>
+      <row important_over="false">Myśmy r<ch a="a"/>aju znieść nie m<ch a="e"/>ogli</row>
+      <row important_over="false">Tu nasz ż<ch a="H"/>ywioł, tu nasz d<ch a="C"/>om!</row>
+      <row important_over="false">Tu nie w<ch a="C"/>ejdą ludzie podli</row>
+      <row important_over="false">Tutaj ż<ch a="a"/>aden nas nie zdzi<ch a="C"/>esiątk<ch a="H"/>uje gr<ch a="e"/>om!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">- Pani b<ch a="e"/>agien, mokradeł i śni<ch a="a"/>eżnych pól,</row>
+      <row important_over="false">Rozpal w ł<ch a="H"/>aźni kamienie na bi<ch a="e"/>el!</row>
+      <row important_over="false">Z ciał rozgrz<ch a="e"/>anych niech się wyt<ch a="a"/>opi ból</row>
+      <row important_over="false">Tatu<ch a="H"/>aże weźmiemy na c<ch a="e"/>el!</row>
+      <row important_over="false">Bo na s<ch a="e"/>ercu, po lewej, tam St<ch a="a"/>alin drży,</row>
+      <row important_over="false">Pot zal<ch a="H"/>ewa mu oczy i w<ch a="e"/>ąs!</row>
+      <row important_over="false">Jego pr<ch a="e"/>ofil specjalnie tam kł<ch a="a"/>uli my</row>
+      <row important_over="false">Żeby sł<ch a="H"/>yszał jak serca się rw<ch a="e"/>ą!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">L<ch a="e"/>ampy naftowe wabią wzrok</row>
+      <row important_over="false">P<ch a="e"/>odmiejska chata, mała izdebka</row>
+      <row important_over="false">I w trz<ch a="e"/>eci krąg kieruję krok:</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">- Wchodź śmi<ch a="a"/>ało! Wchodź śmi<ch a="e"/>ało!</row>
+      <row important_over="false">Nie wiem j<ch a="a"/>ak ci tr<ch a="C"/>afić tutaj się ud<ch a="G"/>ało!</row>
+      <row important_over="false">Ot jak r<ch a="a"/>az samowar k<ch a="e"/>ipi,</row>
+      <row important_over="false">Pij herb<ch a="H"/>atę Synu, p<ch a="C"/>ij!</row>
+      <row important_over="false">Samog<ch a="C"/>onu z nami wypij</row>
+      <row important_over="false">Zdr<ch a="a"/>ow<ch a="C"/>y ż<ch a="H"/>yj!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nam zn<ch a="a"/>ośnie! Nam znośnie! Nam zn<ch a="e"/>ośnie!</row>
+      <row important_over="false">Tak żyj<ch a="a"/>emy niewid<ch a="C"/>ocznie i bezgł<ch a="G"/>ośnie!</row>
+      <row important_over="false">Pożyj<ch a="a"/>emy i pomrz<ch a="e"/>emy</row>
+      <row important_over="false">Nie usł<ch a="H"/>yszy o nas świ<ch a="C"/>at</row>
+      <row important_over="false">A po śmi<ch a="C"/>erci wypijemy</row>
+      <row important_over="false">Za przeż<ch a="a"/>ytych w dobrej wi<ch a="C"/>erze p<ch a="H"/>arę l<ch a="e"/>at!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">Mi<ch a="e"/>asto a w Mieście przy bloku blok</row>
+      <row important_over="false">Wci<ch a="e"/>ągam powietrze i chwiejny z lekka</row>
+      <row important_over="false">Już w czw<ch a="e"/>arty krąg kieruję krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do c<ch a="a"/>yrku! Do cyrku! Do k<ch a="e"/>ina!</row>
+      <row important_over="false">Telew<ch a="a"/>izor włączyć - b<ch a="C"/>ajka się zacz<ch a="G"/>yna!</row>
+      <row important_over="false">Mama w skl<ch a="a"/>epie, tata w b<ch a="e"/>arze</row>
+      <row important_over="false">Syn z pep<ch a="H"/>eszy tnie aż gr<ch a="C"/>a!</row>
+      <row important_over="false">Na pioni<ch a="C"/>erskiej chuście marzeń</row>
+      <row important_over="false">Gwi<ch a="a"/>azd<ch a="C"/>ę m<ch a="H"/>a!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na m<ch a="a"/>ecze! Na mecze! Na wi<ch a="e"/>ece!</row>
+      <row important_over="false">Swoje zn<ch a="a"/>ać, nie rzucać w <ch a="C"/>oczy się bezpi<ch a="G"/>ece!</row>
+      <row important_over="false">Sąsiad - <ch a="a"/>owszem, wypić m<ch a="e"/>ożna</row>
+      <row important_over="false">Lecz to s<ch a="H"/>ąsiad, brat - to br<ch a="a"/>at.</row>
+      <row important_over="false">Jak świat świ<ch a="C"/>atem do ostrożnych</row>
+      <row important_over="false">Zwykł nal<ch a="a"/>eżeć i uśmi<ch a="C"/>echać s<ch a="H"/>ię ten świ<ch a="e"/>at!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">N<ch a="e"/>a scenie Hamlet, skłuty bok</row>
+      <row important_over="false">Z kt<ch a="e"/>órego właśnie krew wyciekła</row>
+      <row important_over="false">To w pi<ch a="e"/>ąty krąg kolejny krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">O M<ch a="a"/>atko! O M<ch a="e"/>atko!</row>
+      <row important_over="false">Jakże m<ch a="a"/>ogłaś jemu sprz<ch a="C"/>edać się tak ł<ch a="G"/>atwo!</row>
+      <row important_over="false">Wszak on m<ch a="a"/>ęża twego z<ch a="e"/>abił</row>
+      <row important_over="false">Zgładzi mn<ch a="H"/>ie, splugawi tr<ch a="C"/>on</row>
+      <row important_over="false">Zniszczy D<ch a="C"/>anię, lud ograbi</row>
+      <row important_over="false">B<ch a="a"/>ijci<ch a="C"/>e w dzw<ch a="H"/>on!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na trw<ch a="a"/>ogę! Na trwogę! Na trw<ch a="e"/>ogę!</row>
+      <row important_over="false">Nie wybi<ch a="a"/>eraj między ż<ch a="C"/>ądzą swą a B<ch a="G"/>ogiem!</row>
+      <row important_over="false">Póki cz<ch a="a"/>as naprawić bł<ch a="e"/>ędy</row>
+      <row important_over="false">Matko, n<ch a="H"/>ie rób tego - st<ch a="C"/>ój!</row>
+      <row important_over="false">Cenzor z dzi<ch a="C"/>ewiątego rzędu:</row>
+      <row important_over="false">- N<ch a="a"/>ie, w tej f<ch a="C"/>ormie to nie m<ch a="H"/>oże wcale p<ch a="e"/>ójść!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">W<ch a="e"/>ódka i piwo, koniak, grog,</row>
+      <row important_over="false">N<ch a="e"/>ajlepszych z nas ostatnia Mekka</row>
+      <row important_over="false">I w sz<ch a="e"/>ósty krąg kolejny krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na g<ch a="a"/>órze! Na górze! Na g<ch a="e"/>órze!</row>
+      <row important_over="false">Chciałob<ch a="a"/>y się żyć najp<ch a="C"/>ełniej i najdł<ch a="G"/>użej!</row>
+      <row important_over="false">O to w<ch a="a"/>arto się post<ch a="e"/>arać!</row>
+      <row important_over="false">To jest n<ch a="H"/>ałóg, zrozum t<ch a="C"/>o!</row>
+      <row important_over="false">Tam się ż<ch a="C"/>yje jak za cara!</row>
+      <row important_over="false"><ch a="a"/>I <ch a="C"/>ot c<ch a="H"/>o!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na d<ch a="a"/>ole, na dole, na d<ch a="e"/>ole</row>
+      <row important_over="false">Szklanka w<ch a="a"/>ódki i raz<ch a="C"/>owy chleb na st<ch a="G"/>ole!</row>
+      <row important_over="false">I my wsz<ch a="a"/>yscy tam - i t<ch a="e"/>utaj</row>
+      <row important_over="false">Tłum rozd<ch a="H"/>artych dusz na p<ch a="C"/>ół,</row>
+      <row important_over="false">Po huśt<ch a="C"/>awce mdłość i smutek</row>
+      <row important_over="false">Choćbyś n<ch a="a"/>awet co dzień w<ch a="C"/>alił gł<ch a="H"/>ową w st<ch a="e"/>ół!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="false">Z w<ch a="e"/>olna zapada nade mną mrok</row>
+      <row important_over="false">Wi<ch a="e"/>ęc biesów szpaler szlak mi oświetla</row>
+      <row important_over="false">Bo w si<ch a="e"/>ódmy krąg kieruję krok!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tam m<ch a="a"/>ilczą i si<ch a="e"/>edzą</row>
+      <row important_over="false">I na m<ch a="a"/>oją twarz nie sp<ch a="C"/>ojrzą - wszystko wi<ch a="G"/>edzą</row>
+      <row important_over="false">Siedzą, <ch a="a"/>ale nie gad<ch a="e"/>ają</row>
+      <row important_over="false">Mętny wzr<ch a="H"/>ok spod powiek lśn<ch a="C"/>i</row>
+      <row important_over="false">Żują c<ch a="C"/>oś, bo im wypadły</row>
+      <row important_over="false">D<ch a="a"/>awn<ch a="C"/>o kł<ch a="H"/>y!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Więc st<ch a="a"/>oję! Więc stoję! Więc st<ch a="e"/>oję!</row>
+      <row important_over="false">A przed n<ch a="a"/>imi leży w t<ch a="C"/>eczce życie m<ch a="G"/>oje!</row>
+      <row important_over="false">Nie czyt<ch a="a"/>ają, nie pyt<ch a="e"/>ają</row>
+      <row important_over="false">Milczą, si<ch a="H"/>edzą - kaszle kt<ch a="C"/>oś,</row>
+      <row important_over="false">A za <ch a="C"/>oknem werble grają</row>
+      <row important_over="false">Znów par<ch a="a"/>ada, święto <ch a="C"/>albo j<ch a="H"/>eszcze c<ch a="e"/>oś...</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I poj<ch a="e"/>ąłem co chcą ze mną zr<ch a="a"/>obić tu</row>
+      <row important_over="false">I za g<ch a="H"/>ardło porywa mnie str<ch a="e"/>ach!</row>
+      <row important_over="false">Koń mój zn<ch a="e"/>iknął a wy siedmiu kr<ch a="a"/>ęgów tłum</row>
+      <row important_over="false">Macie w <ch a="H"/>uszach i w oczach pi<ch a="e"/>ach!</row>
+      <row important_over="false">Po mnie n<ch a="e"/>ikt nie wyciągnie okr<ch a="a"/>utnych rąk</row>
+      <row important_over="false">Mnie nie b<ch a="H"/>ędą katować i strz<ch a="e"/>yc!</row>
+      <row important_over="false">Dla mnie m<ch a="e"/>ają tu jeszcze <ch a="a"/>ósmy krąg!</row>
+      <row important_over="false">Ósmy kr<ch a="H"/>ąg, w którym nie ma już n<ch a="e"/>ic.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Pamięt<ch a="e"/>ajcie wy o mnie co s<ch a="a"/>ił! Co sił!</row>
+      <row important_over="false">Choć przemkn<ch a="H"/>ąłem przed wami jak ci<ch a="e"/>eń!</row>
+      <row important_over="false">Palcie w ł<ch a="e"/>aźni, aż kamień się zmi<ch a="a"/>eni w pył</row>
+      <row important_over="false">Przecież wr<ch a="H"/>ócę, gdy zacznie się dzi<ch a="e"/>eń!</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="1"/>
+  </music>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
