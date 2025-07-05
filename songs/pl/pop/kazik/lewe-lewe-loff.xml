@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lewe lewe loff">
+  <text_author type="solo">Kazik Staszewski</text_author>
+  <composer>Kazik Staszewski</composer>
+  <artist type="band">Kult</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Chce Ci powiedzieć jak <ch a="C"/>bardzo Cię cenie</row>
+      <row important_over="true"><ch a="G"/>Chce Ci powiedzieć jak <ch a="D"/>bardzo Cię podziwiam</row>
+      <row important_over="true"><ch a="a"/>Chce Ci powiedzieć u<ch a="C"/>ważaj na te drogi</row>
+      <row important_over="true">Ale <ch a="G"/>nie mam odwagi <ch a="D"/></row>
+      <row important_over="true">Jest <ch a="a"/>czwarta w nocy <ch a="C"/>piszę przez chwilę</row>
+      <row important_over="true"><ch a="G"/>To co mi się we <ch a="D"/>łbie ułożyło</row>
+      <row important_over="true"><ch a="a"/>Chciałbym chociaż za <ch a="C"/>oknem wiatr dmucha</row>
+      <row important_over="true">Za<ch a="G"/>nucić Ci prosto do <ch a="D"/>ucha</row>
+    </block>
+    <block type="chorus">
+      <bis times="4">
+        <row important_over="true"><ch a="a"/>Lewe lewe lewe <ch a="C"/>loff loff loff loff</row>
+        <row important_over="true"><ch a="G"/>Lewe lewe lewe <ch a="D"/>loff loff loff loff </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ty masz <ch a="C"/>to co ja chciałbym <ch a="G"/>bym mieć</row>
+      <row important_over="false">Gdybym tylko kilka <ch a="D"/>lat mniej miał</row>
+      <row important_over="false">I <ch a="a"/>tylko chce Cię <ch a="C"/>ostrzec</row>
+      <row important_over="false">Nie wy<ch a="G"/>ważaj drzwi ot<ch a="D"/>wartych na oścież</row>
+      <row important_over="false">Ty masz <ch a="a"/>taką mądrość <ch a="C"/>głupią</row>
+      <row important_over="false">Niech <ch a="G"/>której wszyscy od <ch a="D"/>Ciebie się uczą</row>
+      <row important_over="false">I <ch a="a"/>tylko chce Ci po<ch a="C"/>wiedzieć</row>
+      <row important_over="false">Ten <ch a="G"/>pociąg nie pojedzie jeśli <ch a="D"/>Ty w nim nie będziesz</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Przed chwilą o <ch a="C"/>tym śniłem</row>
+      <row important_over="false">Że na <ch a="G"/>jakimś dworcu <ch a="D"/>wszystko zostawiłem</row>
+      <row important_over="false">Nie<ch a="a"/>wiadomy niepokój o<ch a="C"/>budził mnie</row>
+      <row important_over="false">Dla<ch a="G"/>tego teraz <ch a="D"/>siedzę i piszę</row>
+      <row important_over="false">Ale <ch a="a"/>żadne słowa <ch a="C"/>tego nie opiszą</row>
+      <row important_over="false">Co <ch a="G"/>poczuć może człowiek ciemną <ch a="D"/>jesienną nocą</row>
+      <row important_over="false">Dla<ch a="a"/>tego już kończę ten <ch a="C"/>list</row>
+      <row important_over="false">Lis<ch a="G"/>topad tysiąc dziewięćset <ch a="D"/>dziewięćdziesiąt trzy!</row>
+    </block>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <album>Muj wydafca</album>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
