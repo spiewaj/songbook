@@ -98,7 +98,7 @@ function traverseChilds(parent, childNodes) {
 // // parent - is sanitized parent of tag (song, song-verse(div), song-bis(div), song-row(div))
 // // the call responsibility is to process the node and put it into parent.
 function traverse(parent, node) {
-  //console.log("Traversing...", node.nodeName, node, node.style);
+  console.log("Traversing...", node.nodeName, node, node.style);
   if (node instanceof Element) {
     node.removeAttribute("style");
   }
@@ -169,6 +169,7 @@ function traverse(parent, node) {
     }
 
     case 'SPAN': {
+      console.log("!!! Span", node);
       if (node.className=='annotated-lyrics') {
         // Wywrota: <span class="annotated-lyrics">Kaszubskie noce, <code class="an" data-chord="A" data-suffix="m" data-local="a">a</code>nad nami lśniące</span>
         let newParent = nestToRow(parent, true);
@@ -177,6 +178,7 @@ function traverse(parent, node) {
         return newParent;
       }
       if (node.className=='text-nowrap') {
+        console.log("Text-nowrap", node);
         // <span class="annotated-lyrics">Jak to <span class="text-nowrap">d<code class="an" data-chord="A" data-suffix="m" data-local="a">a</code>obrze</span> być <code class="an" data-chord="D" data-suffix="m" data-local="d">d</code>harcerzem</span>
         let newParent = nestToRow(parent, false);
         traverseChilds(newParent, node.childNodes);
@@ -327,13 +329,14 @@ export function SplitVerseFromRow(row) {
 }
 
 export function Sanitize(body) {
+  console.log("Sanitizing ", body.outerHTML);
   // let r=document.getSelection().rangeCount>0 ? document.getSelection().getRangeAt(0).cloneRange() : null;
   // // As sanitization modifies the text (e.g replace all ' ' -> nbsp), we
   // // need to persist where is the selection, to be able to restore it.
   // let rso=r?r.startOffset:0;
   //console.log("Stored", r);
   if (!lightTraverse(body)) {
-    console.log("Full fix...");
+    console.log("Full fix... Before fix: ", body.outerHTML);
     traverse(body, body);
     console.log("after fix: ", body.outerHTML);
   }
