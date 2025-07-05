@@ -30,7 +30,7 @@
       <row important_over="false">I <ch a="a"/>tylko chce Ci po<ch a="C"/>wiedzieć</row>
       <row important_over="false">Ten <ch a="G"/>pociąg nie pojedzie jeśli <ch a="D"/>Ty w nim nie będziesz</row>
     </block>
-    <blocklink blocknb="1"/>
+    <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Przed chwilą o <ch a="C"/>tym śniłem</row>
       <row important_over="false">Że na <ch a="G"/>jakimś dworcu <ch a="D"/>wszystko zostawiłem</row>
@@ -41,7 +41,7 @@
       <row important_over="false">Dla<ch a="a"/>tego już kończę ten <ch a="C"/>list</row>
       <row important_over="false">Lis<ch a="G"/>topad tysiąc dziewięćset <ch a="D"/>dziewięćdziesiąt trzy!</row>
     </block>
-    <blocklink blocknb="1"/>
+    <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <album>Muj wydafca</album>
