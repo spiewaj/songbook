@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Arahja">
+  <alias>Mój dom murem podzielony</alias>
+  <text_author type="solo">Kazik Staszewski</text_author>
+  <comment/>
+  <composer type="solo">Janusz Grudziński</composer>
+  <artist type="band">Kult</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Mój dom murem podzielony</row>
+      <row important_over="true"><ch a="a"/>Podzielone murem schody</row>
+      <row important_over="true"><ch a="E"/>Po lewej stronie łazienka</row>
+      <row important_over="true"><ch a="a"/>Po prawej stronie<ch a="A7"/> kuchenka</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Mój dom murem podzielony</row>
+      <row important_over="true"><ch a="a"/>Podzielone murem schody</row>
+      <row important_over="true"><ch a="E"/>Po lewej stronie łazienka</row>
+      <row important_over="true"><ch a="a"/>Po prawej... <ch a="A7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="A7"/></row>
+      <bis times="2">
+        <row important_over="true"><ch a="d"/>Moje ciało murem podzielone </row>
+        <row important_over="true"><ch a="a"/>Dziesięć palców na lewą stronę </row>
+        <row important_over="true"><ch a="E"/>Drugie dziesięć na prawą stronę </row>
+        <row important_over="true"><ch a="a"/>Głowy równa część na <ch a="A7"/>każdą stronę </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <bis times="3">
+        <row important_over="true"><ch a="d"/>Moja ulica murem podzielona </row>
+        <row important_over="true"><ch a="a"/>Świeci neonami prawa strona </row>
+        <row important_over="true"><ch a="E"/>Lewa strona cała wygaszona </row>
+        <row important_over="true"><ch a="a"/>Zza zasłony obse<ch a="A7"/>rwuję obie strony </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <bis times="4">
+        <row important_over="true"><ch a="d"/>Lewa strona nigdy się nie budzi </row>
+        <row important_over="true"><ch a="a"/>Prawa strona nigdy nie zasypia </row>
+        <row important_over="true"><ch a="E"/>Lewa strona nigdy się nie budzi </row>
+        <row important_over="true"><ch a="a"/>Prawa strona nigdy <ch a="A7"/>nie zasypia </row>
+      </bis>
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="A7"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Spokojnie</album>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
