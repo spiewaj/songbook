@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lipka">
+  <alias>Z tamtej strony jeziora</alias>
+  <comment>Tekst pochodzi z Kobylina, ale pieśń jest znana w całej Polsce, a także w Czechach, na Morawach, Słowacczyźnie i Rusi Węgierskiej. 
+Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej skali pięciodzwiękowej.
+
+[1] https://bibliotekapiosenki.pl/utwory/Nie_sa_to_ptaszkowie_tylko_kawalerowie</comment>
+  <lyric>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="a"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true">Z <ch a="a"/>tamtej strony <ch a="G"/>jezio<ch a="a"/>ra <ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Stoi lipka <ch a="G"/>zielo<ch a="E"/>na</row>
+      <row important_over="true"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="true"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
+      <row important_over="true"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="true"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Nie byli to <ch a="G"/>ptaszko<ch a="a"/>wie <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Tylko trzej bra<ch a="G"/>ciszko<ch a="E"/>wie</row>
+      <row important_over="false"><ch a="a"/>Co się spie<ch a="G"/>rali <ch a="a"/>o jedną dziew<ch a="G"/>czynę</row>
+      <row important_over="false"><ch a="F"/>Który ci ją <ch a="E"/>dosta<ch a="a"/>nie</row>
+      <row important_over="false"><ch a="a"/>Co się spie<ch a="G"/>rali <ch a="a"/>o jedną dziew<ch a="G"/>czynę</row>
+      <row important_over="false"><ch a="F"/>Który ci ją <ch a="E"/>dosta<ch a="a"/>nie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jeden mówi: <ch a="G"/>tyś mo<ch a="a"/>ja <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Drugi mówi: <ch a="G"/>jak Bóg <ch a="E"/>da</row>
+      <row important_over="false"><ch a="a"/>A trzeci <ch a="G"/>mówi: <ch a="a"/>moja najmi<ch a="G"/>lejsza,</row>
+      <row important_over="false"><ch a="F"/>Czemuś ty mi <ch a="E"/>tak smut<ch a="a"/>na?</row>
+      <row important_over="false"><ch a="a"/>A trzeci <ch a="G"/>mówi: <ch a="a"/>moja najmi<ch a="G"/>lejsza,</row>
+      <row important_over="false"><ch a="F"/>Czemuś ty mi <ch a="E"/>tak smut<ch a="a"/>na?</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jakże nie mam <ch a="G"/>smutna <ch a="a"/>być? <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Za starego <ch a="G"/>każą <ch a="E"/>iść</row>
+      <row important_over="false"><ch a="a"/>Czasu nie<ch a="G"/>wiele, <ch a="a"/>jeszcze dwie nie<ch a="G"/>dziele</row>
+      <row important_over="false"><ch a="F"/>Mogę miły z <ch a="E"/>tobą <ch a="a"/>być</row>
+      <row important_over="false"><ch a="a"/>Czasu nie<ch a="G"/>wiele, <ch a="a"/>jeszcze dwie nie<ch a="G"/>dziele</row>
+      <row important_over="false"><ch a="F"/>Mogę miły z <ch a="E"/>tobą <ch a="a"/>być</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Z tamtej strony <ch a="G"/>jezio<ch a="a"/>ra <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Stoi lipka <ch a="G"/>zielo<ch a="E"/>na</row>
+      <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="false"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
+      <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="false"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="2"/>
+  </music>
+  <keywords/>
+  <genre>Pieśń ludowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
