@@ -8,13 +8,10 @@ function rowIsInstrumental(row) {
     return row.textContent.trim().length === 0;
 }
 
-function processRow(doc, span) {
-    let row =  doc.createElementNS(NAMESPACE, 'row');
-    row.setAttribute('important_over', 'false');
-   // var hasChord = false;
+function processInScopeOfRow(doc, nodes, row) {
     let isChorus = false;
     let bis = 1;
-    span.childNodes.forEach(node => {
+    nodes.forEach(node => {
         //console.log("Processing:", node, node.nodeType, node.tagName)
         if (node.nodeType === node.TEXT_NODE && node.textContent.length > 0) {
             row.appendChild(doc.createTextNode(node.textContent.replaceAll(' ', ' ').replaceAll(/\s\s+/g, ' ').replaceAll("\n","")));
@@ -36,8 +33,20 @@ function processRow(doc, span) {
             if (res && res.length>1) {
                 bis = parseInt(res[1], 10)
             }
+        } else if (node.nodeType === node.ELEMENT_NODE && node.tagName.toLowerCase() === 'span' && node.classList.contains('text-nowrap')) {
+            processInScopeOfRow(doc, node.childNodes, row);
         }
     });
+    return {isChorus, bis};
+}
+
+
+function processRow(doc, span) {
+    let row =  doc.createElementNS(NAMESPACE, 'row');
+    row.setAttribute('important_over', 'false');
+   // var hasChord = false;
+    let {isChorus, bis } = processInScopeOfRow(doc, span.childNodes, row);
+
     if (rowIsInstrumental(row)) {
         row.setAttribute("style", "instr")
     }
