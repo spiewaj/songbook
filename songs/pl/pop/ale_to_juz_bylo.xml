@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ale to już było">
+  <text_author type="solo">Andrzej Sikorowski</text_author>
+  <composer type="solo">Andrzej Sikorowski</composer>
+  <artist type="solo">Maryla Rodowicz</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="F"/><ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true">Z wielu <ch a="C"/>pieców się <ch a="G"/>jadło <ch a="C"/>chleb</row>
+      <row important_over="true">Bo od <ch a="d"/>lat przyglądam się <ch a="G"/>światu</row>
+      <row important_over="true">Nieraz <ch a="C"/>rano za<ch a="G"/>bolał <ch a="C"/>łeb</row>
+      <row important_over="true">I mó<ch a="d"/>wili zmiana kli<ch a="G"/>matu</row>
+      <row important_over="true">Czasem <ch a="e"/>trafił się wielki <ch a="d"/>raut</row>
+      <row important_over="true">Albo <ch a="F"/>feta proleta<ch a="G"/>riatu</row>
+      <row important_over="true">Czasem <ch a="e"/>podróż w najlepszym z <ch a="d"/>aut</row>
+      <row important_over="true">Częściej <ch a="F"/>szare drogi po<ch a="G"/>wiatu</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Ale to już <ch a="F"/>było<ch a="G"/> i nie wróci <ch a="C"/>więcej</row>
+      <row important_over="true">I choć <ch a="e"/>tyle się zdarzyło to do <ch a="F"/>przodu</row>
+      <row important_over="true">Wciąż wyrywa głupie <ch a="C"/>serce</row>
+      <row important_over="true">Ale to już <ch a="F"/>było<ch a="G"/>, znikło gdzieś za <ch a="C"/>nami</row>
+      <row important_over="true">Choć w pa<ch a="e"/>pierach lat przybyło to na<ch a="F"/>prawdę</row>
+      <row important_over="true">Wciąż jesteśmy tacy <ch a="C"/>sami</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="F"/><ch a="G"/><ch a="F"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na re<ch a="C"/>gale ko<ch a="G"/>lekcja <ch a="C"/>płyt</row>
+      <row important_over="false">I wy<ch a="d"/>wiadów pełne ga<ch a="G"/>zety</row>
+      <row important_over="false">Za ok<ch a="C"/>nami ko<ch a="G"/>lejny <ch a="C"/>świt</row>
+      <row important_over="false">I w sy<ch a="d"/>pialni dzieci od<ch a="G"/>dechy</row>
+      <row important_over="false">One <ch a="e"/>lecą droga do <ch a="d"/>gwiazd</row>
+      <row important_over="false">Przez nie<ch a="F"/>bieski ocean <ch a="G"/>nieba</row>
+      <row important_over="false">Ale <ch a="e"/>przecież za jakiś <ch a="d"/>czas</row>
+      <row important_over="false">Będą <ch a="F"/>mogły same za<ch a="G"/>śpiewać</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Ale to już <ch a="G"/>było<ch a="A"/> i nie wróci <ch a="D"/>więcej</row>
+      <row important_over="false">I choć <ch a="fis"/>tyle się zdarzyło to do <ch a="G"/>przodu</row>
+      <row important_over="false">Wciąż wyrywa głupie <ch a="D"/>serce<ch a="D"/></row>
+      <row important_over="false">Ale to już <ch a="G"/>było (ale to już było)<ch a="A"/>, znikło gdzieś za <ch a="D"/>nami</row>
+      <row important_over="false">Choć w pa<ch a="fis"/>pierach lat przybyło to na<ch a="G"/>prawdę</row>
+      <row important_over="false">Wciąż jesteście tacy <ch a="D"/>sami<ch a="D"/> </row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"> Ale to już <ch a="G"/>było<ch a="A"/> i nie wróci <ch a="D"/>więcej</row>
+      <row important_over="false">I choć <ch a="fis"/>tyle się zdarzyło to do <ch a="G"/>przodu...</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>1992</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
