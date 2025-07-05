@@ -20,7 +20,9 @@
       <row important_over="never" sidechords="F G">Słuchaj, będziemy mieć jajko&quot;.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G">  Ko ko ko, ko ko, słuchaj, będziemy mieć jajko.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G"> Ko ko ko, ko ko, słuchaj, będziemy mieć jajko.</row>
+      </bis>
     </block>
     <block type="verse">
       <row important_over="never">Poślemy jajko do szkoły,<ch a="C"/><ch a="a"/></row>
@@ -29,7 +31,9 @@
       <row important_over="never" sidechords="F G">I wygrywać preludia.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G">  Ko ko ko, ko ko, i wygrywać preludia. </row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G"> Ko ko ko, ko ko, i wygrywać preludia. </row>
+      </bis>
     </block>
     <block type="verse">
       <row important_over="never">A potem się jajko ożeni<ch a="C"/><ch a="a"/></row>
@@ -38,7 +42,9 @@
       <row important_over="never" sidechords="F G">A nie kanciaste kałmuki.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, a nie kanciaste kałmuki.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, a nie kanciaste kałmuki.</row>
+      </bis>
     </block>
     <block type="verse">
       <row important_over="never" sidechords="C a">Gdy kura to powiedziała,</row>
@@ -47,7 +53,9 @@
       <row important_over="never" sidechords="F G">&quot;Miła, nie będę już chrapał&quot;.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, miła, nie będę już chrapał.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, miła, nie będę już chrapał.</row>
+      </bis>
     </block>
     <block type="verse">
       <row important_over="never" sidechords="C a">A kiedy zetną nam głowę</row>
@@ -56,22 +64,26 @@
       <row important_over="never" sidechords="F G">Jajko to wszystko przetrzyma.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, jajko to wszystko przetrzyma.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, jajko to wszystko przetrzyma.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C a"> I tak spędzili tę nockę,</row>
-      <row important_over="never" sidechords="F G"> Sami na jednym patyku.</row>
-      <row important_over="never" sidechords="C a"> &quot;Jak dobrze mieszkać mój miły</row>
-      <row important_over="never" sidechords="F G"> W takim przytulnym kurniku&quot;.</row>
+      <row important_over="never" sidechords="C a">I tak spędzili tę nockę,</row>
+      <row important_over="never" sidechords="F G">Sami na jednym patyku.</row>
+      <row important_over="never" sidechords="C a">&quot;Jak dobrze mieszkać mój miły</row>
+      <row important_over="never" sidechords="F G">W takim przytulnym kurniku&quot;.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C a F G"> Ko ko ko, ko ko, w takim przytulnym kurniku.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, w takim przytulnym kurniku.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C a"> A po miesiącu z jajka</row>
-      <row important_over="never" sidechords="F G"> Nagle co się wykluło</row>
-      <row important_over="never" sidechords="C a"> I chodząc za rodzicami,</row>
-      <row important_over="never" sidechords="F G"> Dobrą opinię im psuło.</row>
+      <row important_over="never" sidechords="C a">A po miesiącu z jajka</row>
+      <row important_over="never" sidechords="F G">Nagle co się wykluło</row>
+      <row important_over="never" sidechords="C a">I chodząc za rodzicami,</row>
+      <row important_over="never" sidechords="F G">Dobrą opinię im psuło.</row>
     </block>
     <block type="chorus">
       <row important_over="never" sidechords="C a F G">Kwa kwa kwa, kwa kwa, dobrą opinię im psuło.</row>
