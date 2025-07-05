@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jajko">
+  <alias>Ko-ko-ko</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Noc zapadła już <ch a="a"/>głucha,</row>
+      <row important_over="true"><ch a="F"/>Ciemno było w kur<ch a="G"/>niku.</row>
+      <row important_over="true"><ch a="C"/>&quot;Słuchaj&quot; - szepnęła <ch a="a"/>kura,</row>
+      <row important_over="true"><ch a="F"/>Budząc koguta po <ch a="G"/>cichu.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never">Ko ko <ch a="C"/>ko, ko <ch a="a"/>ko, <ch a="F"/>budząc koguta po <ch a="G"/>cichu.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">Głos zamierał jej w grdyce,<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">Wszystko stało się bajką:</row>
+      <row important_over="never">&quot;Ja słodką mam tajemnicę.<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">Słuchaj, będziemy mieć jajko&quot;.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G"> Ko ko ko, ko ko, słuchaj, będziemy mieć jajko.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">Poślemy jajko do szkoły,<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">A potem na wyższe studia.</row>
+      <row important_over="never">Będzie stroić gitary<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">I wygrywać preludia.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G"> Ko ko ko, ko ko, i wygrywać preludia. </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">A potem się jajko ożeni<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">I będziemy mieć wnuki.</row>
+      <row important_over="never">ładne, okrągłe jajeczka,<ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="F G">A nie kanciaste kałmuki.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, a nie kanciaste kałmuki.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C a">Gdy kura to powiedziała,</row>
+      <row important_over="never" sidechords="F G">Kogut z radości aż zapiał.</row>
+      <row important_over="never" sidechords="C a">Przytulił ją do siebie:</row>
+      <row important_over="never" sidechords="F G">&quot;Miła, nie będę już chrapał&quot;.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, miła, nie będę już chrapał.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C a">A kiedy zetną nam głowę</row>
+      <row important_over="never" sidechords="F G">I przyjdzie śmierci godzina,</row>
+      <row important_over="never" sidechords="C a">Jajko to wszystko przeżyje,</row>
+      <row important_over="never" sidechords="F G">Jajko to wszystko przetrzyma.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, jajko to wszystko przetrzyma.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C a">I tak spędzili tę nockę,</row>
+      <row important_over="never" sidechords="F G">Sami na jednym patyku.</row>
+      <row important_over="never" sidechords="C a">&quot;Jak dobrze mieszkać mój miły</row>
+      <row important_over="never" sidechords="F G">W takim przytulnym kurniku&quot;.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C a F G">Ko ko ko, ko ko, w takim przytulnym kurniku.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C a">A po miesiącu z jajka</row>
+      <row important_over="never" sidechords="F G">Nagle co się wykluło</row>
+      <row important_over="never" sidechords="C a">I chodząc za rodzicami,</row>
+      <row important_over="never" sidechords="F G">Dobrą opinię im psuło.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="C a F G">Kwa kwa kwa, kwa kwa, dobrą opinię im psuło.</row>
+      <row important_over="never" sidechords="C a F G">Ko ko ko, miau miau, dobrą opinię im psuło.</row>
+      <row important_over="never" sidechords="C a F G">Beee beee beee, meee meee... itd.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
