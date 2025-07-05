@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o nocy czerwcowej">
+  <text_author type="solo">Konstanty Ildefons Gałczyński</text_author>
+  <composer>Maryla Ochimowska - Teper</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Kiedy no<ch a="D"/>c się w powietrzu zaczy<ch a="e"/>na,</row>
+      <row important_over="false">Wtedy n<ch a="G"/>oc jest jak młoda dziewczyn<ch a="D"/>a:</row>
+      <row important_over="false">Wszystko cie<ch a="D"/>szy ją i wszystko śmies<ch a="e"/>zy,</row>
+      <row important_over="false">Wszystko w rę<ch a="G"/>ce chciałaby brać<ch a="D"/>.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Diabeł du<ch a="D"/>żo jej daje w podar<ch a="e"/>ku</row>
+      <row important_over="false">Gwiazd fałsz<ch a="G"/>ywych z gwiezdnego jarma<ch a="D"/>rku.</row>
+      <row important_over="false">Noc te gwia<ch a="D"/>zdy do uszu przymier<ch a="e"/>za</row>
+      <row important_over="false">I z gwiazda<ch a="G"/>mi chci<ch a="A7"/>ałaby spać.<ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">Ja je<ch a="D"/>stem noc czerwcow<ch a="e"/>a.</row>
+        <row important_over="false">Królo<ch a="G"/>wa jaśminow<ch a="D"/>a.</row>
+        <row important_over="false">Zap<ch a="D"/>atrzcie się w moje ręc<ch a="e"/>e.</row>
+        <row important_over="false">Wsłucha<ch a="A7"/>jcie się w śpiewny chód.<ch a="D"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="D e">Ale zanim dur gwiezdny ją oplótł,</row>
+      <row important_over="false" sidechords="G D">Idzie krokiem tanecznym przez ogród.</row>
+      <row important_over="false" sidechords="D e">Do ogrodu przez senne ulice,</row>
+      <row important_over="false" sidechords="G D">Dzwonią nocy ciężkie zausznice.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="D e">I po każdym tanecznym obrocie</row>
+      <row important_over="false" sidechords="G D">Szmaragdami dzwonią kołki w plocie.</row>
+      <row important_over="false" sidechords="D e">Wreszcie do nas pod same okna,</row>
+      <row important_over="false" sidechords="G A7 D">I tak tańczy i śpiewa nam:</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
