@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mały obóz">
+  <alias>Kiedy rankiem ze skowronkiem</alias>
+  <comment>Trudność: Początkujący
+Strojenie:     klasyczne (E A D G H e)</comment>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Kiedy <ch a="C"/>rankiem ze skowronkiem</row>
+      <row important_over="true">Powi<ch a="e"/>tamy nowy dzień</row>
+      <row important_over="true">Rosy z<ch a="A"/> trawy się na<ch a="A7"/>pijesz</row>
+      <row important_over="true">Pierwszy <ch a="d"/>słońca promień zjesz</row>
+      <row important_over="true">Potem <ch a="F"/>wracać trzeba <ch a="f"/>będzie</row>
+      <row important_over="true">Poże<ch a="C"/>gnamy rzekę, <ch a="a"/>las</row>
+      <row important_over="true">Bądźcie <ch a="d"/>zdrowi nasi bracia</row>
+      <row important_over="true">Bądźcie <ch a="G"/>zdrowi, na nas czas</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Usta<ch a="C"/>wimy mały obóz</row>
+      <row important_over="false">Bramę <ch a="e"/>zbudujemy z serc</row>
+      <row important_over="false">A z tych <ch a="A"/>dusz, co tak go<ch a="A7"/>rące</row>
+      <row important_over="false">Zbudu<ch a="d"/>jemy sobie piec</row>
+      <row important_over="false">Rozpa<ch a="F"/>limy mały <ch a="f"/>ogień</row>
+      <row important_over="false">A w tym <ch a="C"/>ogniu będziesz <ch a="a"/>piekł</row>
+      <row important_over="false">Naszą <ch a="d"/>przyjaźń, która łączy</row>
+      <row important_over="false">Która <ch a="G"/>da Ci to, co chcesz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">My tu <ch a="C"/>jeszcze powrócimy,</row>
+      <row important_over="false">Nie za <ch a="e"/>rok, no to za dwa.</row>
+      <row important_over="false">Więc dla<ch a="A"/>czego płacze <ch a="A7"/>rzeka,</row>
+      <row important_over="false">A więc <ch a="d"/>czemu szumi las?</row>
+      <row important_over="false">Wszak przy<ch a="F"/>jaźni naszej <ch a="f"/>wielkiej</row>
+      <row important_over="false">Nie roz<ch a="C"/>łączy promień <ch a="a"/>zła</row>
+      <row important_over="false">Ona <ch a="d"/>mocna jest bezczelnie,</row>
+      <row important_over="false">Więc my <ch a="G"/>wszyscy jeszcze raz:</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
