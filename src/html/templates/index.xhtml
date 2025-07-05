@@ -13,6 +13,22 @@
            if (document.activeElement.id !== 'songSearch') {
                  document.getElementById("songSearch").focus();
             }
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Prevent form submission
+                filterSongs(); // Call the search function
+                // If there is only one song, open it directly
+                const songsList = document.getElementById("songs");
+                if (songsList.children.length === 1) {
+                    const firstSong = songsList.children[0];
+                    const songLink = firstSong.querySelector("a");
+                    if (songLink) {
+                        const href = songLink.getAttribute("href");
+                        if (href) {
+                            window.location.href = href; // Navigate to the song
+                        }
+                    }
+                }
+            }
         })
 
         // Toggle for songbook list on mobile
@@ -41,7 +57,7 @@
     <!-- <h2>Piosenki</h2> -->
     <div class="search-container">
         <label for="songSearch" class="search-label">Szukaj piosenki:</label>
-        <input tabindex="1" autofocus="autofocus" type="text" id="songSearch" onkeyup="filterSongs()" placeholder="szukam... szukania mi trzeba" />
+        <input tabindex="1" autofocus="autofocus" type="search" id="songSearch" onkeyup="filterSongs()" placeholder="szukam... szukania mi trzeba" />
     </div>
     <ul id="songs">
     </ul>
