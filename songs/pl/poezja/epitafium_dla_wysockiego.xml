@@ -6,26 +6,26 @@
   <artist type="solo">Jacek Kaczmarski</artist>
   <lyric>
     <block type="chorus">
-      <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
-      <row important_over="false">W d<ch a="e"/>ół na złamanie karku gnam!</row>
-      <row important_over="false">Ni<ch a="e"/>kt mnie nie trzyma, nikt nie prześwietla</row>
-      <row important_over="false">N<ch a="e"/>ie zrywa mostów, nie stawia bram!</row>
+      <row important_over="true">T<ch a="e"/>o moja droga z piekła do piekła</row>
+      <row important_over="true">W d<ch a="e"/>ół na złamanie karku gnam!</row>
+      <row important_over="true">Ni<ch a="e"/>kt mnie nie trzyma, nikt nie prześwietla</row>
+      <row important_over="true">N<ch a="e"/>ie zrywa mostów, nie stawia bram!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Po gr<ch a="a"/>ani! Po gr<ch a="e"/>ani!</row>
-      <row important_over="false">Nad przep<ch a="a"/>aścią bez łańc<ch a="C"/>uchów, bez wah<ch a="G"/>ania!</row>
-      <row important_over="false">Tu na trz<ch a="a"/>eźwo diabli w<ch a="e"/>ezmą</row>
-      <row important_over="false">Zdradzi m<ch a="H"/>nie rozsądek – dr<ch a="C"/>ań</row>
-      <row important_over="false">W wilczy d<ch a="C"/>ół wspomnienia zmienią</row>
-      <row important_over="false"><ch a="a"/>Ostr<ch a="C"/>ą gr<ch a="H"/>ań!</row>
+      <row important_over="true">Po gr<ch a="a"/>ani! Po gr<ch a="e"/>ani!</row>
+      <row important_over="true">Nad przep<ch a="a"/>aścią bez łańc<ch a="C"/>uchów, bez wah<ch a="G"/>ania!</row>
+      <row important_over="true">Tu na trz<ch a="a"/>eźwo diabli w<ch a="e"/>ezmą</row>
+      <row important_over="true">Zdradzi m<ch a="H"/>nie rozsądek – dr<ch a="C"/>ań</row>
+      <row important_over="true">W wilczy d<ch a="C"/>ół wspomnienia zmienią</row>
+      <row important_over="true"><ch a="a"/>Ostr<ch a="C"/>ą gr<ch a="H"/>ań!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Po gr<ch a="a"/>ani! Po grani! Po gr<ch a="e"/>ani!</row>
-      <row important_over="false">Tu mi dr<ch a="a"/>ogi nie zast<ch a="C"/>ąpią pokon<ch a="G"/>ani!</row>
-      <row important_over="false">Tylko ł<ch a="a"/>apią mnie za n<ch a="e"/>ogi,</row>
-      <row important_over="false">Krzyczą - n<ch a="H"/>ie idź! Krzyczą - st<ch a="C"/>ań!</row>
-      <row important_over="false">Ci, co w p<ch a="C"/>ół stanęli drogi</row>
-      <row important_over="false">I zęb<ch a="a"/>ami, pazur<ch a="C"/>ami kr<ch a="H"/>uszą gr<ch a="e"/>ań!</row>
+      <row important_over="true">Po gr<ch a="a"/>ani! Po grani! Po gr<ch a="e"/>ani!</row>
+      <row important_over="true">Tu mi dr<ch a="a"/>ogi nie zast<ch a="C"/>ąpią pokon<ch a="G"/>ani!</row>
+      <row important_over="true">Tylko ł<ch a="a"/>apią mnie za n<ch a="e"/>ogi,</row>
+      <row important_over="true">Krzyczą - n<ch a="H"/>ie idź! Krzyczą - st<ch a="C"/>ań!</row>
+      <row important_over="true">Ci, co w p<ch a="C"/>ół stanęli drogi</row>
+      <row important_over="true">I zęb<ch a="a"/>ami, pazur<ch a="C"/>ami kr<ch a="H"/>uszą gr<ch a="e"/>ań!</row>
     </block>
     <block type="chorus">
       <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
