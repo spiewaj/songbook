@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jest taki samotny dom">
+  <alias>Wagnerowski ton</alias>
+  <text_author type="solo">Adam Sikorski</text_author>
+  <comment/>
+  <composer type="solo">Romuald Lipko i Krzysztof Cugowski</composer>
+  <artist type="band">Budka Suflera</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="g"/><ch a="d"/><ch a="c"/><ch a="D"/><ch a="g"/><ch a="d"/><ch a="c"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Ud<ch a="g"/>erzył deszcz, wyb<ch a="d"/>uchła noc, przy dr<ch a="c"/>odze pusty dw<ch a="Dsus4"/>ór. <ch a="D"/></row>
+      <row important_over="true">W kat<ch a="g"/>edrach drzew, w przyłb<ch a="d"/>icach gór w<ch a="c"/>agnerowski t<ch a="D"/>on<ch a="g"/>. <ch a="d"/><ch a="c"/><ch a="D"/></row>
+      <row important_over="true">Za witr<ch a="g"/>aża dziwnym szkł<ch a="d"/>em p<ch a="c"/>ustych komnat chł<ch a="Dsus4"/>ód. <ch a="D"/></row>
+      <row important_over="true">W szary p<ch a="g"/>ył rozbity cz<ch a="d"/>as, m<ch a="c"/>artwy, pusty dw<ch a="Dsus4"/>ór. <ch a="D"/></row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="g"/><ch a="d"/><ch a="c"/><ch a="D"/><ch a="g"/><ch a="d"/><ch a="c"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Dorz<ch a="g"/>ucam drew, bo o<ch a="F"/>gień zgasł, ci<ch a="c"/>ągle burza trw<ch a="D"/>a.</row>
+      <row important_over="true">Nagle f<ch a="g"/>eeria barw i mn<ch a="F"/>óstwo świec, kt<ch a="c"/>oś na skrzypcach gr<ch a="D"/>a.</row>
+      <row important_over="true">Got<ch a="g"/>yckie odrzwia ch<ch a="F"/>ylą się i skrz<ch a="c"/>ypiąc suną w b<ch a="D"/>ok,</row>
+      <row important_over="true">I bi<ch a="g"/>ała pani pł<ch a="F"/>ynie, z nich, w br<ch a="c"/>ylantowej mgl<ch a="D"/>e. <ch a="g"/><ch a="d"/><ch a="c"/><ch a="D"/></row>
+      <row important_over="true">Zawir<ch a="g"/>ował z nami dw<ch a="F"/>ór, r<ch a="c"/>udych włosów pł<ch a="D"/>omień.</row>
+      <row important_over="true">Nad gór<ch a="g"/>ami lecę, l<ch a="F"/>ecę z nią, r<ch a="c"/>óżę trzymam w dł<ch a="D"/>oni,</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="true">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
+        <row important_over="true">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
+      <row important_over="false">-&gt; Znowu szary, pusty dom, gdzie schroniłem się (vocal)</row>
+      <row important_over="false">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
+      <row important_over="false">-&gt; I najmilsza z wszystkich, z wszystkich mi na witraża szkle (vocal)</row>
+      <row important_over="false">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
+      <row important_over="false">-&gt; Znowu w drogę, w drogę trzeba iść, w życie się zanurzyć (vocal)</row>
+      <row important_over="false">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
+      <row important_over="false">-&gt; Chociaż w ręce jeszcze tkwi ... lekko zwiędła róża. (vocal)</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój.</row>
+        <row important_over="false">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien.</row>
+      </bis>
+      <row important_over="false" style="instr"> <ch a="g"/><ch a="F"/><ch a="C"/><ch a="g"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
