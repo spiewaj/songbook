@@ -46,3 +46,33 @@ a:hover {
         font-size: 0.9em;
     }
 }
+
+/* --- Top Navigation --- */
+div.top-navigation, div.bottom-navigation {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 1em;
+    align-items: center;
+}
+
+div.top-navigation a, div.bottom-navigation a {
+    font-weight: 500;
+}
+
+div.bottom-navigation {
+    margin-top: 2em; /* Separate bottom navigation from content */
+}
+div.top-navigation {
+    margin-bottom: 2em;
+}
+
+/* Hide top navigation on printouts*/
+@media print {
+    div.top-navigation, div.bottom-navigation {
+        display: none;
+    }
+}

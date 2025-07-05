@@ -115,8 +115,8 @@ def _add_creator(creator, describe, parent):
     span_content.text = creator
 
 def _add_blocks(song, parent):
+    body_song = parent.find("body")
     """class song -> html div body # blok z metadanymi o piosence i piosenką"""
-    body_song = etree.SubElement(parent, "body", attrib={"class": "song", etree.QName("http://www.idpf.org/2007/ops", "type"):"bodymatter"})
     h1_title = etree.SubElement(body_song, "h1", attrib={"class": "title", "id": "title"})
     h1_title.text = song.title
     if song.original_title:
@@ -167,8 +167,36 @@ def _add_blocks(song, parent):
         span_content = etree.SubElement(div, "span", attrib={"class": "comment"})
         span_content.text = song.comment
 
+def substitute_from_dict(text, replacements):
+    """
+    Substitutes placeholders in a string with values from a dictionary.
 
-def xml2html(src_xml_path, path_out, song_suffix):  # tworzy piosenkę w wersji html
+    Args:
+        text (str): The input string containing placeholders (e.g., '{{placeholder}}').
+        replacements (dict): A dictionary where keys are the placeholders to find
+                             and values are the strings to substitute them with.
+
+    Returns:
+        str: The string with all placeholders substituted.
+    """
+    for old_string, new_string in replacements.items():
+        text = text.replace(old_string, new_string)
+    return text
+
+
+def interpret(c, substitions):
+    # recursively replace in c all attributes and texts that contains keys from substitions with provided values.
+    if isinstance(c, etree._Element):
+        for attr in c.attrib:
+            c.attrib[attr] = substitute_from_dict(c.attrib[attr], substitions)
+        for child in c:
+            interpret(child, substitions)
+        if c.text:
+            c.text = substitute_from_dict(c.text, substitions)
+    return c
+
+
+def xml2html(src_xml_path, path_out, song_suffix = None, song_prefix = None, song_head = None, substitions={}):  # tworzy piosenkę w wersji html
 
     xhtml_namespace = "http://www.w3.org/1999/xhtml"
     epub_namespace = "http://www.idpf.org/2007/ops"
@@ -184,15 +212,21 @@ def xml2html(src_xml_path, path_out, song_suffix):  # tworzy piosenkę w wersji 
                      attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
     etree.SubElement(head, "link",
                      attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song.css", "media": "all"})
-    # <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
-    # etree.SubElement(head, "script", attrib={"src": "./song.js"})
+    
+    for s in song_head:
+       head.append(interpret(copy.deepcopy(s), substitions))
+
+    body = etree.SubElement(root_html, "body", attrib={"class": "song", etree.QName("http://www.idpf.org/2007/ops", "type"):"bodymatter"})
+    for s in song_prefix:
+       body.append(interpret(copy.deepcopy(s), substitions))
+
     _add_blocks(song, root_html)
     title = etree.SubElement(head, "title")
     title.text = song.title
     et = etree.ElementTree(root_html)
-    if song_suffix is not None:
-       root_html.find("body").append(copy.deepcopy(song_suffix))
+    for s in song_suffix:
+       body.append(interpret(copy.deepcopy(s), substitions))
 
     et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
 
@@ -224,12 +258,12 @@ def create_list_of_songs(song_set):
         return songs_list
 
 
-def create_all_songs_html_from_dir(path_in, path_out, song_suffix=None):
+def create_all_songs_html_from_dir(path_in, path_out, song_suffix=[]):
     """Tworzy wszystkie piosenki z listy w formacie html w katalogu path_out"""
 
     return create_all_songs_html( create_list_of_songs(path_in), path_out, song_suffix)
 
-def create_all_songs_html(list_of_songs, path_out, song_suffix=None):
+def create_all_songs_html(list_of_songs, path_out, song_suffix=[], song_prefix=[], song_head=[], substitions={}):
     """Tworzy wszystkie piosenki z listy w formacie html w katalogu path_out"""
 
     if not os.path.exists(path_out):
@@ -237,4 +271,5 @@ def create_all_songs_html(list_of_songs, path_out, song_suffix=None):
 
     for song in list_of_songs:
         if not song.is_alias():
-            xml2html(song.plik(), os.path.join(path_out,  song.base_file_name() + '.xhtml'), song_suffix)
+            relative_path = os.path.relpath(song.plik(), start=os.path.join(os.path.dirname(__file__), "../../songs"))
+            xml2html(song.plik(), os.path.join(path_out,  song.base_file_name() + '.xhtml'), song_suffix=song_suffix, song_prefix=song_prefix, song_head=song_head, substitions=substitions | {"{{SRC}}": relative_path})

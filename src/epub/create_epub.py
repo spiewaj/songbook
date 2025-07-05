@@ -279,7 +279,7 @@ def create_full_epub(songbook,  target_dir):
 
     create_template_epub(songbook, target_dir)
     path_out = os.path.join(target_dir, "epub", "OEBPS")
-    cash.create_all_songs_html(los, path_out,  suffix)
+    cash.create_all_songs_html(los, path_out,  list(suffix))
     files = []
     files.extend(create_toc_xhtml(los, target_dir, page_suffix = suffix))
 
