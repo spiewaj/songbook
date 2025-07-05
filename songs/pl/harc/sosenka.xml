@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sosenka">
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Jak to d<ch a="a"/>obrze być <ch a="d"/>harcerzem</row>
+      <row important_over="false">na o<ch a="E"/>bozie spędzać <ch a="a"/>czas</row>
+      <row important_over="false">na półn<ch a="a"/>ocy pojez<ch a="d"/>ierze</row>
+      <row important_over="false">na poł<ch a="E"/>udniu szumi <ch a="a"/>las</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
+      <row important_over="false">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
+      <row important_over="false">spo<ch a="d"/>dobała mi się je<ch a="a"/>den raz</row>
+      <row important_over="false">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Sama w<ch a="a"/>odą łódkę n<ch a="d"/>iosła</row>
+      <row important_over="false">Łódkę n<ch a="E"/>iosła w siną <ch a="a"/>dal</row>
+      <row important_over="false">A on za<ch a="a"/>miast trzymać <ch a="d"/>wiosła</row>
+      <row important_over="false">Objął j<ch a="E"/>ą i śpiewał t<ch a="a"/>ak</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Całuj ca<ch a="a"/>łuj druhu m<ch a="d"/>iły</row>
+      <row important_over="false">całuj c<ch a="E"/>ałuj póki c<ch a="a"/>zas</row>
+      <row important_over="false">bo gdy p<ch a="a"/>rzyjdzie czas <ch a="d"/>rozstania</row>
+      <row important_over="false">to już n<ch a="E"/>as nie będzie t<ch a="a"/>am</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
+      <row important_over="false">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
+      <row important_over="false">spo<ch a="d"/>dobała mi się je<ch a="a"/>den raz</row>
+      <row important_over="false">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
