@@ -21,31 +21,31 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false" sidechords="G">Po angielsku I LOVE YOU,</row>
-      <row important_over="false" sidechords="e">po rosyjsku JA LUBJU,</row>
-      <row important_over="false" sidechords="C">po francusku JA ŻETĘ,</row>
-      <row important_over="false" sidechords="d">a po polsku KOCHAM CIĘ!</row>
+      <row important_over="never" sidechords="G">Po angielsku I LOVE YOU,</row>
+      <row important_over="never" sidechords="e">po rosyjsku JA LUBJU,</row>
+      <row important_over="never" sidechords="C">po francusku JA ŻETĘ,</row>
+      <row important_over="never" sidechords="d">a po polsku KOCHAM CIĘ!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false" sidechords="G">Róże są piękne choć kolce mają</row>
-      <row important_over="false" sidechords="e">i nie są trwałe bo przekwitają,</row>
-      <row important_over="false" sidechords="C">a nasza miłość niech będzie szczera,</row>
-      <row important_over="false" sidechords="d">niech będzie szczera i nie umiera!</row>
+      <row important_over="never" sidechords="G">Róże są piękne choć kolce mają</row>
+      <row important_over="never" sidechords="e">i nie są trwałe bo przekwitają,</row>
+      <row important_over="never" sidechords="C">a nasza miłość niech będzie szczera,</row>
+      <row important_over="never" sidechords="d">niech będzie szczera i nie umiera!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false" sidechords="G">Smutno, smutno płynie życie</row>
-      <row important_over="false" sidechords="e">Gdy się kogoś kocha skrycie</row>
-      <row important_over="false" sidechords="C">Ale jeszcze trudniej żyć</row>
-      <row important_over="false" sidechords="d">Nigdy nie kochanym być</row>
+      <row important_over="never" sidechords="G">Smutno, smutno płynie życie</row>
+      <row important_over="never" sidechords="e">Gdy się kogoś kocha skrycie</row>
+      <row important_over="never" sidechords="C">Ale jeszcze trudniej żyć</row>
+      <row important_over="never" sidechords="d">Nigdy nie kochanym być</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false" sidechords="G">Cicho płynie deszcz po szybie</row>
-      <row important_over="false" sidechords="e">Jeszcze ciszej płynie łza</row>
-      <row important_over="false" sidechords="C">Lecz nie pytał, kto cię kocha</row>
-      <row important_over="false" sidechords="d">Bo to zawsze będę ja</row>
+      <row important_over="never" sidechords="G">Cicho płynie deszcz po szybie</row>
+      <row important_over="never" sidechords="e">Jeszcze ciszej płynie łza</row>
+      <row important_over="never" sidechords="C">Lecz nie pytał, kto cię kocha</row>
+      <row important_over="never" sidechords="d">Bo to zawsze będę ja</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
