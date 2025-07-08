@@ -8,18 +8,18 @@
   <original_title>Hallelujah</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="false">T<ch a="G"/>ajemny akord <ch a="e"/>kiedyś brzmiał</row>
-      <row important_over="false">Pan <ch a="G"/>cieszył się gdy <ch a="e"/>Dawid grał</row>
-      <row important_over="false">A<ch a="C"/>le muzyki d<ch a="D"/>ziś tak nikt nie <ch a="G"/>czuj<ch a="D"/>e</row>
-      <row important_over="false"><ch a="G"/>Kwarta i kwinta <ch a="C"/>tak to <ch a="D"/>szło</row>
-      <row important_over="false">Raz <ch a="e"/>wyżej w dur, raz <ch a="C"/>niżej w moll</row>
-      <row important_over="false">Niesz<ch a="D"/>częsny król uł<ch a="h"/>ożył All<ch a="e"/>eluja</row>
+      <row important_over="true">T<ch a="G"/>ajemny akord <ch a="e"/>kiedyś brzmiał</row>
+      <row important_over="true">Pan <ch a="G"/>cieszył się gdy <ch a="e"/>Dawid grał</row>
+      <row important_over="true">A<ch a="C"/>le muzyki d<ch a="D"/>ziś tak nikt nie <ch a="G"/>czuj<ch a="D"/>e</row>
+      <row important_over="true"><ch a="G"/>Kwarta i kwinta <ch a="C"/>tak to <ch a="D"/>szło</row>
+      <row important_over="true">Raz <ch a="e"/>wyżej w dur, raz <ch a="C"/>niżej w moll</row>
+      <row important_over="true">Niesz<ch a="D"/>częsny król uł<ch a="h"/>ożył All<ch a="e"/>eluja</row>
     </block>
     <block type="verse">
-      <row important_over="false">Alle<ch a="C"/>luja,</row>
-      <row important_over="false">Alle<ch a="e"/>luja,</row>
-      <row important_over="false">Alle<ch a="C"/>luja,</row>
-      <row important_over="false">Alle<ch a="G"/>lu<ch a="D"/>ja<ch a="G"/></row>
+      <row important_over="true">Alle<ch a="C"/>luja,</row>
+      <row important_over="true">Alle<ch a="e"/>luja,</row>
+      <row important_over="true">Alle<ch a="C"/>luja,</row>
+      <row important_over="true">Alle<ch a="G"/>lu<ch a="D"/>ja<ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false">N<ch a="G"/>a wiarę nic nie c<ch a="e"/>hciałeś brać</row>
