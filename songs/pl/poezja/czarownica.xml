@@ -44,7 +44,9 @@
   <keywords/>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
+    <done>
+      <text/>
+    </done>
     <verificators>
       <verificator>Tekst i akordu pochodzą ze strony:</verificator>
       <verificator>https://mareksochacki.pl/czarownica/</verificator>
