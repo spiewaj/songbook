@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szary mundur 2">
+  <alias>Czerwony płomień</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="never" sidechords="a E a">Ogniska płomienny blask</row>
+      <row important_over="never" sidechords="a C a">Ciszą zasiany zielony las</row>
+      <bis times="2">
+        <row important_over="false" sidechords="a C G">Ciesz się z wszystkiego tego co masz</row>
+        <row important_over="false" sidechords="a C E a">Daj ludziom pogodną twarz.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a E a">Łap iskry szczęśliwych lat</row>
+      <row important_over="never" sidechords="a C a">W szarym mundurze lepszy jest świat</row>
+      <row important_over="never" sidechords="a C G">Czerwony ogień rozpali Ci</row>
+      <row important_over="never" sidechords="a C E a">Pamiętnik harcerskich dni</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a E a">Gdy wspomnisz przyjaciół swych</row>
+      <row important_over="never" sidechords="a C a">Dotkniesz munduru puczujesz łzy</row>
+      <row important_over="never" sidechords="a C G">Wtedy zobaczysz jak bardzo Ci</row>
+      <row important_over="never" sidechords="a C E a">Do szczęścia brakuje ich.</row>
+      <row important_over="never" sidechords="a C G">Zawołasz wnuki opowiesz im</row>
+      <row important_over="never" sidechords="a C E a">Jak dobrze było wśród nich</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
