@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarownica">
+  <text_author type="solo">Anna Filipowska, Marek Sochacki</text_author>
+  <composer type="solo">Marek Sochacki</composer>
+  <artist type="solo">Marek Sochacki, Magda Dudek, Agata Gałach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Poż<ch a="e"/>ądliwi wi<ch a="D"/>dowiska, kr<ch a="C"/>wi be<ch a="D"/>zbożnej <ch a="e"/>dziewki</row>
+      <row important_over="true">Ek<ch a="e"/>splodują <ch a="D"/>wściekle jadem <ch a="C"/>czarnej <ch a="D"/>nienawiśc<ch a="e"/>i</row>
+      <row important_over="true">Wie<ch a="G"/>ńcem z jeżyn i<ch a="D"/> tarniny u<ch a="C"/>maili skr<ch a="H7"/>onie</row>
+      <row important_over="true">Pat<ch a="e"/>rzcie ludzie j<ch a="D"/>ak na stosie <ch a="C"/>czaro<ch a="D"/>wnica pł<ch a="e"/>onie</row>
+      <row important_over="true">Śm<ch a="e"/>iech na gębach <ch a="D"/>zczerwieniałych, <ch a="C"/>a gdzie <ch a="D"/>niegdzie t<ch a="e"/>rwoga</row>
+      <row important_over="true">Za<ch a="e"/>palimy św<ch a="D"/>ięty ogień, <ch a="C"/>poch<ch a="D"/>walimy bo<ch a="e"/>ga</row>
+      <row important_over="true">Nie<ch a="G"/>ch oczyści s<ch a="D"/>ię od grzechu <ch a="C"/>w płomieniach <ch a="H7"/>jej dusza</row>
+      <row important_over="true">Dy<ch a="e"/>m ofiarny <ch a="D"/>idzie w górę sp<ch a="C"/>azmem <ch a="D"/>krzyku bu<ch a="e"/>cha</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">A <ch a="a"/>mówiła, że z powietrza snu uprzędzie <ch a="e"/>nitki</row>
+      <row important_over="true">Za<ch a="G"/>kochanych l<ch a="D"/>eczyć będzie, k<ch a="e"/>ubek mleka <ch a="D"/>da włóczędze</row>
+      <row important_over="true">A lu<ch a="C"/>bczyku w<ch a="H7"/>szystkim<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Z<ch a="a"/>aś dwu chłopców omamiła zielem, czarną <ch a="e"/>sztuką</row>
+      <row important_over="true">Że<ch a="G"/> jej ciała zap<ch a="D"/>ragnęli, że noż<ch a="e"/>ami się poci<ch a="D"/>ęli</row>
+      <row important_over="true">I ju<ch a="C"/>ż nic nie <ch a="H7"/>mówią<ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="e D C D e">Ona miała rude włosy, splotły się z płomieniem</row>
+      <row important_over="never" sidechords="e D C D e">I sięgały aż do ziemi, splątaniem i lśnieniem</row>
+      <row important_over="never" sidechords="G D C H7">I nie jeden ,co patrzyli, cichł w pół śmiechu, niemiał</row>
+      <row important_over="never" sidechords="e D C D e">Od ognistej jej urody w świecę się zamieniał</row>
+      <row important_over="never" sidechords="e D C D e">Stos już dawno się dopalił, wyżarzyły węgle</row>
+      <row important_over="never" sidechords="e D C D e">A nazajutrz już na przyzbie nucił ktoś piosenkę</row>
+      <row important_over="never" sidechords="G D C H7">I śpiewają ją do dzisiaj po wsiach ludzie prości</row>
+      <row important_over="never" sidechords="e D C D e">Jak spłonęła czarownica z ognistej miłości</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">A kto patrzył jak goreje w ogniu jej uroda</row>
+      <row important_over="never" sidechords="G D e D">Ten pomyślał, że kochania, nie powstrzyma żadna rana</row>
+      <row important_over="never" sidechords="C H7 e">Płomienie ni woda</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators>
+      <verificator>Tekst i akordu pochodzą ze strony:</verificator>
+      <verificator>https://mareksochacki.pl/czarownica/</verificator>
+    </verificators>
+  </status>
+</song>
