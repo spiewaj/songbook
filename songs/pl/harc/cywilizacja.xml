@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cywilizacja">
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>W lesie na po<ch a="G"/>lanie <ch a="e"/>pali się og<ch a="a"/>nisko,</row>
+      <row important_over="false"><ch a="a"/>a wszyscy har<ch a="G"/>cerze <ch a="E"/>siedzą przy nim <ch a="a"/>blisko.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">I ni<ch a="F"/>komu nie po<ch a="G"/>trzebna jest <ch a="C"/>dziś cywili<ch a="a"/>zacja.</row>
+      <row important_over="false">No bo <ch a="F"/>przecież każdy <ch a="G"/>jest na wa<ch a="a"/>kacjach.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Życie mi u<ch a="G"/>mila zap<ch a="e"/>ach dzikich kwi<ch a="a"/>atów,</row>
+      <row important_over="false"><ch a="a"/>słońce mi prz<ch a="G"/>ybliża św<ch a="E"/>iergot dzikich p<ch a="a"/>taków.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jutro o tej po<ch a="G"/>rze bę<ch a="e"/>dzie tutaj pu<ch a="a"/>sto,</row>
+      <row important_over="false"><ch a="a"/>bo wszyscy ha<ch a="G"/>rcerze ob<ch a="E"/>óz ten opus<ch a="a"/>zczą.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
