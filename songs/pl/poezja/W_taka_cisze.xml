@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W taką ciszę">
+	<alias>Cisza</alias>
 	<comment>Nie ma kategorii disco?! Ale przynajmniej ma znośny refren.</comment>
 	<lyric>
 		<block type="verse">
