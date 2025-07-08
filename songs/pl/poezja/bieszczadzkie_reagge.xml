@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzkie reggae">
+  <text_author type="solo">Andrzej Starzec</text_author>
+  <composer type="solo">Andrzej Starzec</composer>
+  <artist type="solo">Andrzej Starzec</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Porannej mgły snuje się dym <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Jutrzenki szal na stokach gór <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Nowy dzień budzi się, budzi się <ch a="F"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Melodię dnia już rosa gra <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Reggae, bieszczadzkie reggae <ch a="d"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Słońcem pachnące ma jagód smak <ch a="C"/><ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Reggae, bieszczadzkie reggae <ch a="d"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Jak potok rwący przed siebie gna <ch a="C"/><ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d C d C">Połonin czar ma taką moc</row>
+      <row important_over="never" sidechords="d C d C">Że gdy je ujrzysz pierwszy raz</row>
+      <row important_over="never" sidechords="F C d C">Wrócić chcesz, wrócisz chcesz znów za rok</row>
+      <row important_over="never" sidechords="d C d C">Z poranną rosą czekać dnia</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
