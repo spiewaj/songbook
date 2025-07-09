@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Brzegi Nowej Szkocji">
+  <text_author type="solo">Bogdan Kuśka</text_author>
+  <artist type="band">Tonam</artist>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true"><ch a="G"/>Żegnaj Nowa Szkocjo, niech <ch a="h"/>fale biją w brzeg,</row>
+      <row important_over="true">Tajem<ch a="C"/>nicze twe góry wznoszą <ch a="e"/>szczyty swe.</row>
+      <row important_over="true">Kiedy <ch a="G"/>będę daleko, hen na <ch a="D"/>oceanie złym,</row>
+      <row important_over="true">Czy was <ch a="e"/>kiedyś jeszcze <ch a="D"/>ujrzę, czy zos<ch a="e"/>taną mi <ch a="D"/>sny?</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Słońce już zachodzi, a <ch a="h"/>ptaki skryły się,</row>
+      <row important_over="true">W liściach <ch a="C"/>drzew znalazły schro<ch a="e"/>nienie swe</row>
+      <row important_over="true">Mam<ch a="G"/> wrażenie, że przyroda już za<ch a="D"/>marła w cichym śnie,</row>
+      <row important_over="true">Lecz nie d<ch a="e"/>la mnie wolne <ch a="D"/>chwile, praca <ch a="e"/>czeka <ch a="D"/>mnie.</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Kiedy me najskrytsze <ch a="h"/>marzenia ziszczą się,</row>
+      <row important_over="false">Marzę, <ch a="C"/>by do przyjaciół <ch a="e"/>swych przyłączyć się.</row>
+      <row important_over="false">Wkró<ch a="G"/>tce już opuszczę te rodzi<ch a="D"/>nne strony me,</row>
+      <row important_over="false">A więc <ch a="e"/>żegnaj ma dzie<ch a="D"/>wczyno i wy<ch a="e"/>czekuj <ch a="D"/>mnie</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Ktoś uderzył w bębny i z <ch a="h"/>domu wyrwał mnie</row>
+      <row important_over="false">To ka<ch a="C"/>pitan nas woła, więc <ch a="e"/>stawiłem się.</row>
+      <row important_over="false">Żeg<ch a="G"/>najcie kochani, wypły<ch a="D"/>wamy w długi rejs,</row>
+      <row important_over="false">Powró<ch a="e"/>cimy do swych <ch a="D"/>rodzin, znów spot<ch a="e"/>kamy <ch a="D"/>się</row>
+    </block>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Szanta</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+  <music_source>Tradycyjna</music_source>
+</song>
