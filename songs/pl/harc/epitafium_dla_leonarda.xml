@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Epitafium dla Leonarda">
+  <alias>Jestem taki samotny</alias>
+  <comment/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Na par<ch a="D"/>terze w mojej chacie</row>
+      <row important_over="true">mieszkał <ch a="G"/>kiedyś taki <ch a="D"/>facet</row>
+      <row important_over="true">który <ch a="C"/>dnia pewnego <ch a="G"/>cicho do mnie <ch a="D"/>rzekł</row>
+      <row important_over="true">Gdy zach<ch a="C"/>wycisz się dziew<ch a="G"/>czyną</row>
+      <row important_over="true">nie pod<ch a="D"/>rywaj jej na <ch a="A"/>kino</row>
+      <row important_over="true">ale <ch a="C"/>patrząc prosto w <ch a="G"/>oczy szepnij <ch a="D"/>słowa te</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Jestem <ch a="h"/>taki <ch a="G"/>samotny jak <ch a="D"/>palec albo <ch a="A"/>pies</row>
+      <row important_over="true">kocham <ch a="C"/>wiersze Sta<ch a="G"/>chury i <ch a="D"/>stary dobry <ch a="D"/>jazz</row>
+      <row important_over="true">szczęścia w <ch a="h"/>życiu nie <ch a="G"/>miałem</row>
+      <row important_over="true">rzu<ch a="D"/>cały mnie dziew<ch a="A"/>czyny</row>
+      <row important_over="true">szukam ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt mój za<ch a="D"/>winie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Po tych <ch a="D"/>słowach z miłosierdzia</row>
+      <row important_over="false">padła <ch a="G"/>już niejedna <ch a="D"/>twierdza</row>
+      <row important_over="false">i nie<ch a="C"/>jedna cnota <ch a="G"/>chyżo poszła w <ch a="D"/>las</row>
+      <row important_over="false">Ryba <ch a="C"/>bierze na roba<ch a="G"/>ki</row>
+      <row important_over="false">a pa<ch a="D"/>nienka na tekst ta<ch a="A"/>ki</row>
+      <row important_over="false">który <ch a="C"/>zawsze szeptam <ch a="G"/>patrząc prosto w <ch a="D"/>twarz</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Gdy <ch a="D"/>szał pierwszych zrywów minął</row>
+      <row important_over="false">zako<ch a="G"/>chałem się w dziew<ch a="D"/>czynie</row>
+      <row important_over="false">z którą <ch a="C"/>się na całe <ch a="G"/>życie zostać <ch a="D"/>chce</row>
+      <row important_over="false">Chciałem <ch a="C"/>rzec będziemy <ch a="G"/>razem</row>
+      <row important_over="false">zrozu<ch a="D"/>miała to od <ch a="A"/>razu</row>
+      <row important_over="false">i jak <ch a="C"/>echo wyszep<ch a="G"/>tała słowa <ch a="D"/>te</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Jesteś <ch a="h"/>taki <ch a="G"/>samotny jak <ch a="D"/>palec albo <ch a="A"/>pies</row>
+      <row important_over="false">kochasz <ch a="C"/>wiersze Sta<ch a="G"/>chury i <ch a="D"/>stary dobry <ch a="D"/>jazz</row>
+      <row important_over="false">szczęścia w <ch a="h"/>życiu nie <ch a="G"/>miałeś</row>
+      <row important_over="false">rzu<ch a="D"/>cały cię dziew<ch a="A"/>czyny</row>
+      <row important_over="false">szukasz ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt twój za<ch a="D"/>winie</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
