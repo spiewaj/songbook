@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Długość dźwięku samotności">
+  <alias>I nawet kiedy będę sam</alias>
+  <text_author type="solo">Wojciech Powaga, Przemysław Myszor, Artur Rojek</text_author>
+  <composer type="solo">Artur Rojek, Wojtek Powaga, Wojtek Kuderski, Jacek Kuderski, Przemek Myszor</composer>
+  <artist type="band">Myslovitz</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">I <ch a="C"/>nawet kiedy będę <ch a="a"/>sam,</row>
+      <row important_over="true">Nie zmienię <ch a="e"/>się, to nie <ch a="D"/>mój świat.</row>
+      <row important_over="true">Prze<ch a="C"/>de mną droga, którą <ch a="a"/>znam,</row>
+      <row important_over="true">Którą <ch a="e"/>ja wybrałem <ch a="D"/>sam.</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="F"/>Tak, zawsze gen<ch a="C"/>ialny</row>
+      <row important_over="true">Idea<ch a="a"/>lny muszę b<ch a="G"/>yć</row>
+      <row important_over="true">I muszę chci<ch a="F"/>eć, super lu<ch a="C"/>z i już</row>
+      <row important_over="true">Setki bzd<ch a="a"/>ur i już, to nie<ch a="G"/> ja</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/>Wiesz, lubię wie<ch a="C"/>czory,</row>
+      <row important_over="false">Lubię się <ch a="a"/>schować na jakiś <ch a="G"/>czas.</row>
+      <row important_over="false">I jakoś <ch a="F"/>tak, nienatu<ch a="C"/>ralnie,</row>
+      <row important_over="false">Trochę prze<ch a="e"/>sadnie, pobyć <ch a="G"/>sam.</row>
+      <row important_over="false">Wejść na <ch a="F"/>drzewo i patrzeć w <ch a="C"/>niebo,</row>
+      <row important_over="false">Tak zwy<ch a="a"/>czajnie, tylko <ch a="G"/>że,</row>
+      <row important_over="false">Tutaj <ch a="F"/>też wiem ko<ch a="C"/>lejny raz,</row>
+      <row important_over="false">Nie mam <ch a="e"/>szans być kim <ch a="G"/>chcę.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/>Noc, a nocą gdy <ch a="C"/>nie śpię,</row>
+      <row important_over="false">Wychodzę choć <ch a="a"/>nie chcę spojrzeć <ch a="G"/>na,</row>
+      <row important_over="false">Chemiczny <ch a="F"/>świat, pachnący sza<ch a="C"/>rością,</row>
+      <row important_over="false">Z papieru <ch a="e"/>miłością, gdzie ty i <ch a="G"/>ja,</row>
+      <row important_over="false">I jeszcze <ch a="F"/>ktoś, nie wiem <ch a="C"/>kto,</row>
+      <row important_over="false">Chciałby <ch a="a"/>tak przez kilka <ch a="G"/>lat,</row>
+      <row important_over="false">Zbyt za<ch a="F"/>chłannie i trochę prze<ch a="C"/>sadnie,</row>
+      <row important_over="false">Pobyć <ch a="e"/>chwilę sam, chyba go <ch a="G"/>znam.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="3"/>
+  </music>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
