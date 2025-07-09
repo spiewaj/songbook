@@ -6,8 +6,9 @@
   <artist type="band">Myslovitz</artist>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      </bis>
     </block>
     <block type="chorus">
       <row important_over="true">I <ch a="C"/>nawet kiedy będę <ch a="a"/>sam,</row>
@@ -34,8 +35,9 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+      </bis>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="F"/>Noc, a nocą gdy <ch a="C"/>nie śpię,</row>
