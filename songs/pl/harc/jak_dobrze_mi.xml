@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jak dobrze mi">
+  <comment/>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Lasów wonnych smak, pola pełne zbóż <ch a="D"/><ch a="e"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never" sidechords="D e G D">Gdzieś zaśpiewał ptak, a to wieczór już</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Jak dobrze mi <ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Przed siebie iść <ch a="G"/></row>
+      <row important_over="never">Mieć dla siebie swoje dni <ch a="Fis"/><ch a="h"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D e G D">Rozbij namiot tu, gdzie słowika śpiew</row>
+      <row important_over="never" sidechords="D e G D">Śpiewa ci do snu nawet szelest drzew</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D e G D">Gdzieś ogniska blask, złotych iskier moc</row>
+      <row important_over="never" sidechords="D e G D">Już zasypia las, ty i twoja noc</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D e G D">Dźwięków słychać sto, to włóczęgi śpiew</row>
+      <row important_over="never" sidechords="D e G D">Echo słucha go, słucha każdy krzew</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D e G D">Już minęła noc, w drogę ruszać czas</row>
+      <row important_over="never" sidechords="D e G D">Więc zapakuj koc i przywitaj las</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D e G D">Lasów wonnych smak, pola pełne zbóż</row>
+      <row important_over="never" sidechords="D e G D">Znów zaśpiewał ptak, ten włóczęgi stróż</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
