@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jezior błękit">
+  <lyric>
+    <block type="verse">
+      <row important_over="never"><ch a="G"/><ch a="e"/>Kraina srebrnych brzóz,żeremia bobrów</row>
+      <row important_over="never"><ch a="C"/><ch a="D"/>Łosi potężny ryk wiatr niesie w dal.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never"><ch a="G"/><ch a="e"/><ch a="C"/><ch a="D"/>Jezior błękit,groza skał to jest ojczyzna ma.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="G e">Kiedyś powrócę tam, zbuduje wigwam</row>
+      <row important_over="false" sidechords="C D">Gdzie rzeki bystry nurt, urwisty brzeg.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="G e">Srebrna toń wody, słońce w dolinach,</row>
+      <row important_over="false" sidechords="C D">Kiedy zobaczę znów, wierzchołki gór.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
