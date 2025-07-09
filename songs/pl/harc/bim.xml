@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bim bam bom">
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Niech ci kwitną bzy, powoje <ch a="G"/></row>
+      <row important_over="never">niech Cię kocha serce moje, <ch a="e"/></row>
+      <row important_over="never">niech Ci kwitnie róży kwiat, <ch a="C"/></row>
+      <row important_over="never">niech Cię kocha cały Świat <ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="G">bim bam bom bim bam parara</row>
+      <row important_over="never" sidechords="e">bim bam bom bim bam parara</row>
+      <row important_over="never" sidechords="C">bim bam bom bim bam parara</row>
+      <row important_over="never" sidechords="d">bim bam bom parara</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="G">Szły pchły koło wody,</row>
+      <row important_over="false" sidechords="e">pchła pchłe pchła do wody</row>
+      <row important_over="false" sidechords="C">i ta pchła płakała,</row>
+      <row important_over="false" sidechords="d">że ją tamta pchła wepchała</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Po angielsku I LOVE YOU,</row>
+      <row important_over="never" sidechords="e">po rosyjsku JA LUBJU,</row>
+      <row important_over="never" sidechords="C">po francusku JA ŻETĘ,</row>
+      <row important_over="never" sidechords="d">a po polsku KOCHAM CIĘ!</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Róże są piękne choć kolce mają</row>
+      <row important_over="never" sidechords="e">i nie są trwałe bo przekwitają,</row>
+      <row important_over="never" sidechords="C">a nasza miłość niech będzie szczera,</row>
+      <row important_over="never" sidechords="d">niech będzie szczera i nie umiera!</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Smutno, smutno płynie życie</row>
+      <row important_over="never" sidechords="e">Gdy się kogoś kocha skrycie</row>
+      <row important_over="never" sidechords="C">Ale jeszcze trudniej żyć</row>
+      <row important_over="never" sidechords="d">Nigdy nie kochanym być</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Cicho płynie deszcz po szybie</row>
+      <row important_over="never" sidechords="e">Jeszcze ciszej płynie łza</row>
+      <row important_over="never" sidechords="C">Lecz nie pytał, kto cię kocha</row>
+      <row important_over="never" sidechords="d">Bo to zawsze będę ja</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
