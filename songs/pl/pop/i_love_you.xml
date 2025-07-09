@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="I love you">
+  <text_author type="solo">Muniek Staszczyk</text_author>
+  <composer type="solo">Muniek Staszczyk</composer>
+  <artist type="solo">T.Love</artist>
+  <lyric>
+    <block type="other">
+      <bis times="2">
+        <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+        <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/> Olewam rząd, mandaty dro<ch a="D"/>gowe,</row>
+      <row important_over="true">Di<ch a="C"/>lerów, maklerów, warty honorowe.</row>
+      <row important_over="true">I <ch a="G"/>jeszcze wąsacza olewam na <ch a="D"/>zdrowie,</row>
+      <row important_over="true">Pry<ch a="C"/>masa w lampasach, komuchy nie lubię.</row>
+      <row important_over="true"><ch a="G"/> Tylko na tobie naprawdę mi za<ch a="D"/>leży,</row>
+      <row important_over="true"><ch a="C"/> Tylko Ciebie naprawdę potrzebuję.</row>
+      <row important_over="true">I <ch a="G"/>kiedy znikasz, kiedy Ciebie <ch a="D"/>nie ma,</row>
+      <row important_over="true">W po<ch a="C"/>wietrzu czuję, czegoś mi brakuje.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/> Ludzie mówią, że jestem pi<ch a="D"/>jakiem,</row>
+      <row important_over="false"><ch a="C"/> Chodnikowym, równym chłopakiem.</row>
+      <row important_over="false"><ch a="G"/> Ludzie mówią, że nie trzymam to<ch a="D"/>nacji,</row>
+      <row important_over="false">Nie <ch a="C"/>ćwiczę gam - nowej demokracji.</row>
+      <row important_over="false"><ch a="G"/> Ale ja mam w sobie mor<ch a="D"/>dercę,</row>
+      <row important_over="false"><ch a="C"/> Wojownika, chcę zjeść Twoje serce.</row>
+      <row important_over="false">Ch<ch a="G"/>cę mieć w Tobie przyja<ch a="D"/>ciela,</row>
+      <row important_over="false">Po<ch a="C"/>czuć coś, poczuć coś, coś Ci dać!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
+      <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>mądry - I <ch a="C"/>love you, I love you, I love you.</row>
+      <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>dobry - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
+      <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/> Pozytywnego coś, pozytyw<ch a="D"/>nego coś,</row>
+      <row important_over="false"><ch a="C"/> Bardzo chciałbym dać dziś Tobie.</row>
+      <row important_over="false"><ch a="G"/> Pozytywnego coś, pozytyw<ch a="D"/>nego,</row>
+      <row important_over="false"><ch a="C"/> To nie jest łatwe, to nie jest modne.</row>
+      <row important_over="false"><ch a="G"/> Ale ja nie lubię latać <ch a="D"/>nisko,</row>
+      <row important_over="false"><ch a="C"/>Uwierz mi, uwierz mi, chcę być blisko.</row>
+      <row important_over="false"><ch a="G"/> Telepatycznie, telefo<ch a="D"/>nicznie,</row>
+      <row important_over="false"><ch a="C"/>Wiem o czym myślisz, wiem czego chcesz.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/> Olewam złączonych w organi<ch a="D"/>zacjach,</row>
+      <row important_over="false">Szpry<ch a="C"/>cerów olewam na kolejowych stacjach.</row>
+      <row important_over="false"><ch a="G"/> I tych co robią po uszy w biz<ch a="D"/>nesie,</row>
+      <row important_over="false">W skor<ch a="C"/>pionach białych - olewam kolesi.</row>
+      <row important_over="false"><ch a="G"/> Tylko na tobie naprawdę mi za<ch a="D"/>leży,</row>
+      <row important_over="false"><ch a="C"/> Tylko Ciebie naprawdę potrzebuję.</row>
+      <row important_over="false"><ch a="G"/> I kiedy znikasz, kiedy Ciebie <ch a="D"/>nie ma,</row>
+      <row important_over="false">W po<ch a="C"/>wietrzu czuję, czegoś mi brakuje:</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="5"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/> W moim śmietniku obgryzłem wszystkie <ch a="D"/>kości,</row>
+      <row important_over="false">Bo <ch a="C"/>ja chciałbym żyć - w mieście miłości.</row>
+      <row important_over="false"><ch a="G"/> W moim śmietniku pogryzłem kilku <ch a="D"/>gości,</row>
+      <row important_over="false">Bo <ch a="C"/>ja chciałbym żyć w mieście miłości</row>
+      <row important_over="false"><ch a="G"/> I love you, I love you, I <ch a="D"/>love you,</row>
+      <row important_over="false">I <ch a="C"/>love you, I love you, I love you.</row>
+      <row important_over="false">I <ch a="G"/>love you, I love you, I love you, I <ch a="D"/>love you,</row>
+      <row important_over="false">I <ch a="C"/>love you, I love you, I love you, I...</row>
+    </block>
+    <blocklink blocknb="5"/>
+    <blocklink blocknb="5"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
