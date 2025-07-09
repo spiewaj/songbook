@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Harcerskie Wspomnienia">
+  <text_author type="solo">Magda Eźlakowska</text_author>
+  <comment>Piosenka zadedykowana dhnie hm Kazimiery Rafalik. Pisana w
+Chicago w 2010r.</comment>
+  <composer type="solo">Mela Trubowicz</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Pamiętam kiedy byłam malutkim zuchem <ch a="dis"/><ch a="a"/></row>
+      <row important_over="never">W harcerstwie odrazu zakochałam się <ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Słuchałam opowieści starszych druhen <ch a="dis"/><ch a="a"/></row>
+      <row important_over="never">Marzyłam by taką jak one być. <ch a="E"/><ch a="a"/></row>
+      <row important_over="never" sidechords="dis a">Tyle pięknych, harcerskich wspomnień słyszałam</row>
+      <row important_over="never" sidechords="E a">o ogniskach, obozach, przyjaźniach wielu.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="dis a">Tysiące takich wspomnień też mieć chciałam</row>
+        <row important_over="never" sidechords="E a">i taką jak me druhny być.</row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Druhny, Druhowie powiedzcie nam <ch a="F"/><ch a="C"/></row>
+      <row important_over="never">jaki kiedyś był świat. <ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Jak wiele harcerstwo daje Wam <ch a="F"/><ch a="C"/></row>
+      <row important_over="never">od wielu, wielu już lat. <ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Dajcie nam uśmiech radosny, <ch a="F"/><ch a="C"/></row>
+      <row important_over="never">zostawcie nam Wasze wspomnienia. <ch a="G"/><ch a="a"/></row>
+      <bis times="2">
+        <row important_over="never">Tych wspomnień nie zatrze już czas, <ch a="F"/><ch a="C"/></row>
+        <row important_over="never">na zawsze pozostaną w nas. <ch a="G"/><ch a="a"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="dis a">Gdy urosłam trochę, harcerką się stałam,</row>
+      <row important_over="never" sidechords="E a">w sercu wciąż me druhny mam.</row>
+      <row important_over="never" sidechords="dis a">Całym sercem harcerstwu sie oddałam</row>
+      <row important_over="never" sidechords="E a">by taką jak me druhny być.</row>
+      <row important_over="never" sidechords="dis a">Tak jak one przyjaciół w harcerstwie poznałam</row>
+      <row important_over="never" sidechords="E a">niezapomnianych przygód przeżyłam sto.</row>
+      <bis times="2">
+        <row important_over="never" sidechords="dis a">By piąć się w górę szansę dostałam,</row>
+        <row important_over="never" sidechords="E a">by móc taką jak me druhny być.</row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
