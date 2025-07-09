@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Daktyl">
+  <lyric>
+    <block type="verse">
+      <row important_over="never" sidechords="C F">Gdy czarem powabu owiana motyla </row>
+      <row important_over="never" sidechords="G C">dzieweczka jak anioł usteczka rozchyla </row>
+      <row important_over="never" sidechords="C F">To wtedy mnie bierze ogromna pokusa </row>
+      <row important_over="never" sidechords="G C">By skraść jej przynajmniej jednego calusa </row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="F C">Bo całus ma słodycz daktyla </row>
+      <row important_over="never" sidechords="F C">on życie harcerza umila </row>
+      <row important_over="never" sidechords="C F">On życie harcerza umila i słodzi </row>
+      <row important_over="never" sidechords="G C">Całuje się harcmistrz, podharcmistrz i młodzik </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C F">Lecz czasem się zdarzy od dolo ma smutna </row>
+      <row important_over="never" sidechords="G C">Że zjawi się jakaś harcerka okrutna </row>
+      <row important_over="never" sidechords="C F">A wtedy choć kruszę jej serca marmury </row>
+      <row important_over="never" sidechords="G C">To ona mej duszy zadaje tortury </row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="C F"> Lecz częściej się zdarzy o dolo radosna </row>
+      <row important_over="never" sidechords="G C">Że znajdzie się jakaś harcerka rozkoszna </row>
+      <row important_over="never" sidechords="C F">A wtedy z jej ustek pełengo pucharu </row>
+      <row important_over="never" sidechords="G C">Wypijam ja słodycz rajskiego nektaru </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
