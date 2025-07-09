@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Irlandzki Sen">
+  <alias>Tylko konia osiodłać</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Tylko konia osiodłać i przez wrzosowiska <ch a="a"/></row>
+      <row important_over="never">Tam gdzie elfy i czarownice <ch a="G"/><ch a="a"/></row>
+      <row important_over="never">A przydrożne kamienie imiona celtycke <ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Dumnie noszą jak tajemnice <ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
+      <row important_over="false" sidechords="G a">Myślą z samym ścigać się Bogiem</row>
+      <row important_over="false" sidechords="a G">Czarne myśli powkładać jak drwa do ogniska</row>
+      <row important_over="false" sidechords="F G a">Gdy noc chmurna zastąpi ci drogę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Ach śnij mi się śnij irlandzki śnie <ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Całego porwij mnie ach porwij mnie <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="never">A od morza wiatr niech niesie mnie gdzieś <ch a="a"/><ch a="G"/></row>
+      <row important_over="never">W irlandzki zielony sen <ch a="F"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
+      <row important_over="false" sidechords="G a">Nad leśnego ruczaju kryształem</row>
+      <row important_over="false" sidechords="a G">Woda moc ma czarowną, koń siły odzyska</row>
+      <row important_over="false" sidechords="F G a">Nad bezdrożem przeleci jak strzała</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
+      <row important_over="never" sidechords="G a">Jak przez miłość do rudej dziewczyny</row>
+      <row important_over="never" sidechords="a G">Kiedy w dali zabłyśnie nadzieja jak iskra</row>
+      <row important_over="never" sidechords="F G a">Spadła gwiazda czy wioska w dolinie</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a">W końcu konia przywiązać i do drzwi zapukać</row>
+      <row important_over="never" sidechords="G a">Ucałować te włosy jak płomień</row>
+      <row important_over="never" sidechords="a G">I w modlitwie dziękczynnej spokoju poszukać</row>
+      <row important_over="never" sidechords="F G a">I w ciemności popłakać jak człowiek</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
