@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bolero">
+  <comment/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">W <ch a="a"/>małym miasteczku</row>
+      <row important_over="true">Gdzieś na <ch a="G"/>krańcach Hiszpanii</row>
+      <row important_over="true">Stary <ch a="F"/>krawiec Augusto</row>
+      <row important_over="true">Szył bo<ch a="E"/>lera najtaniej</row>
+      <row important_over="true">I czy <ch a="a"/>Pan był bogaty</row>
+      <row important_over="true">Pan był <ch a="G"/>biedny czy kmieć</row>
+      <row important_over="true">Każdy <ch a="F"/>takie bolero</row>
+      <row important_over="true">Chciał <ch a="E"/>mieć</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">To bo<ch a="a"/>lero</row>
+      <row important_over="true">Dla bogatych cava<ch a="G"/>leros</row>
+      <row important_over="true">W tym bolero będziesz <ch a="F"/>senior</row>
+      <row important_over="true">Prezentował się jak <ch a="E"/>struś</row>
+      <bis times="2">
+        <row important_over="true">Na bo<ch a="F"/>lero z Cavaleros ty się <ch a="E"/>skuś</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jakie <ch a="a"/>chcesz pan bolero</row>
+      <row important_over="false">Białe, <ch a="G"/>czarne, różowe</row>
+      <row important_over="false">Zapi<ch a="F"/>nane od przodu</row>
+      <row important_over="false">Czy wkła<ch a="E"/>dane przez głowę</row>
+      <row important_over="false">Z przo<ch a="a"/>du złote guziki</row>
+      <row important_over="false">Z tyłu <ch a="G"/>patka czy bez</row>
+      <row important_over="false">Jakie <ch a="F"/>chcesz pan bolero, <ch a="E"/>Ole!</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Na cor<ch a="a"/>ridę gdy pójedziesz</row>
+      <row important_over="false">W tym bo<ch a="G"/>lero ukryty</row>
+      <row important_over="false">O biust <ch a="F"/>karter zabije</row>
+      <row important_over="false">Serce <ch a="E"/>twej sieniority</row>
+      <row important_over="false">No i <ch a="a"/>ona zemdlona</row>
+      <row important_over="false">Na twe <ch a="G"/>łono bez sił</row>
+      <row important_over="false">Padnie, <ch a="F"/>szepcząc „Amigo!</row>
+      <row important_over="false">Kto to <ch a="E"/>szył?!”</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
