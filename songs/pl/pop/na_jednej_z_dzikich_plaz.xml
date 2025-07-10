@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na jednej z dzikich plaż">
+  <alias>Lubiła tańczyć</alias>
+  <artist type="band">Rotary</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C9"/><ch a="C"/><ch a="C7+"/><ch a="C"/><ch a="Asus2"/><ch a="a"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C9"/><ch a="C"/><ch a="C7+"/><ch a="C"/><ch a="Asus2"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Samochód w deszczu <ch a="a"/>stał,</row>
+      <row important_over="true"><ch a="C"/>radio przestało <ch a="a"/>grać,</row>
+      <row important_over="true"><ch a="C"/>dotknąłem kolan <ch a="a"/>twych,</row>
+      <row important_over="true"><ch a="C"/>nie liczyliśmy <ch a="a"/>gwiazd.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Lubiła <ch a="F"/>tańczyć pełna ra<ch a="G"/>dości tak,</row>
+      <row important_over="true"><ch a="e"/>ciągle goniła <ch a="a"/>wiatr.</row>
+      <row important_over="true">Spragniona <ch a="F"/>życia wciąż zawsze gu<ch a="G"/>biła coś,</row>
+      <row important_over="true">nie <ch a="e"/>chciała <ch a="a"/>nic.</row>
+      <row important_over="true">Nie rozu<ch a="F"/>miałem, kiedy mó<ch a="G"/>wiła mi:</row>
+      <row important_over="true">&quot;<ch a="e"/>Dzisiaj ostatni <ch a="a"/>raz</row>
+      <row important_over="true">zatańczmy, <ch a="F"/>proszę, tak, jak gdyby <ch a="G"/>umarł czas&quot;.</row>
+      <row important_over="true"><ch a="Asus2"/>Mówiła mi. <ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Mieliśmy wiecznie <ch a="a"/>trwać</row>
+      <row important_over="false"><ch a="C"/>Na jednej z dzikich <ch a="a"/>plaż</row>
+      <row important_over="false"><ch a="C"/>Chciałem ze wszystkich <ch a="a"/>sił</row>
+      <row important_over="false"><ch a="C"/>Pozostać z tobą <ch a="a"/>tam</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
