@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka z szabli">
+  <alias>Karabin</alias>
+  <text_author type="solo">Inskrypcja na szabli</text_author>
+  <comment/>
+  <composer type="solo">Paweł Orkisz</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">N<ch a="d"/>iech w księgach w<ch a="C"/>iedzy szpera r<ch a="d"/>abin</row>
+      <row important_over="false"><ch a="d"/>Nauka <ch a="C"/>to jest wymysł d<ch a="A7"/>iabli</row>
+      <row important_over="false"><ch a="F"/>Mądrością moją jest ka<ch a="C"/>rabin, kar<ch a="g"/>abin</row>
+      <row important_over="false">I k<ch a="A7"/>linga ukochanej sz<ch a="d"/>abli.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="d C d">Nie dbam o szarżę ni o gwiazdkę</row>
+      <row important_over="false" sidechords="d C A7">Co kiedyś mi przystroją kołnierz</row>
+      <row important_over="false" sidechords="F C g">Wy piszcie klechdy i powiastki, powiastki</row>
+      <row important_over="false" sidechords="A7 d">Ja biję się, jak musi żołnierz.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="d C d">Nie pnę się do zaszczytów drabin</row>
+      <row important_over="false" sidechords="d C A7">I generała biorą diabli!</row>
+      <row important_over="false" sidechords="F C g">Podporą moją jest karabin</row>
+      <row important_over="false" sidechords="A7 d">I klinga ukochanej szabli.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d C d">Nie tęsknię do kawiarni gwarnej</row>
+      <row important_over="never" sidechords="d C A7">Gdzie mieszka banda dziwolągów</row>
+      <row important_over="never" sidechords="F C g">Gardzę zapachem buduaru, buduaru</row>
+      <row important_over="never" sidechords="A7 d">Gdzie Ania psoci wśród szezlągów</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d C d">Nie nęcą mnie zalety babin</row>
+      <row important_over="never" sidechords="d C A7">Kobieta zdradną, bierz ją diabli</row>
+      <row important_over="never" sidechords="F C g">Kochanką moją jest karabin, karabin</row>
+      <row important_over="never" sidechords="A7 d">I klinga ukochanej szabli</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d C d">Nie jeden wróg miał na mnie chrapkę</row>
+      <row important_over="never" sidechords="d C A7">A teraz jęczy w piekle na dnie</row>
+      <row important_over="never" sidechords="F C g">Ze śmiercią igram w ciuciubabkę, w ciuciubabkę</row>
+      <row important_over="never" sidechords="A7 d">Więc może wkrótce mnie dopadnie</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d C d">Ksiądz niech mnie grzebie albo rabin</row>
+      <row important_over="never" sidechords="d C A7">Żołnierza się nie czepią diabli</row>
+      <row important_over="never" sidechords="F C g">Lecz w grób połóżcie mi karabin, karabin</row>
+      <row important_over="never" sidechords="A7 d">I klingę ukochanej szabli.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
