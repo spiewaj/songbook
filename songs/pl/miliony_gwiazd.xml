@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Miliony gwiazd">
+  <text_author type="solo">Elżbieta Płonka</text_author>
+  <composer type="solo">Elżbieta Płonka</composer>
+  <artist type="band">Wbrew pozorom</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="h"/>Uton<ch a="A"/>ę w oceani<ch a="h"/>e nocy</row>
+      <row important_over="true"><ch a="A"/>A gwiazdy <ch a="G"/>zatańczą <ch a="A"/>symfoniczna</row>
+      <row important_over="true"><ch a="h"/>ciszą</row>
+      <row important_over="true"><ch a="h"/>Muzycy <ch a="A"/>wietrznych forte<ch a="h"/>pianów</row>
+      <row important_over="true"><ch a="A"/>Melodią wie<ch a="G"/>czorną <ch a="A"/>usypiają <ch a="h"/>lasy</row>
+      <row important_over="true">Wtem księ<ch a="A"/>życa blask roz<ch a="G"/>jaśnił nieba</row>
+      <row important_over="true"><ch a="A"/>twarz</row>
+      <row important_over="true"><ch a="h"/>I wtedy mi ukazał <ch a="A"/>was</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="h"/>Tańczące, grające ze <ch a="G"/>smutkiem, radością</row>
+      <row important_over="true"><ch a="D"/>Gubiące <ch a="A"/>czas</row>
+      <row important_over="never" sidechords="h G">Będące ze sobą na dobre i złe</row>
+      <row important_over="never" sidechords="D A">Miliony gwiazd</row>
+      <row important_over="never" sidechords="h G">Przeszłość tańcząca z piaskiem w klepsydrze</row>
+      <row important_over="never" sidechords="D A">Gwiezdny pył</row>
+      <row important_over="never" sidechords="h G">Przyszłość tajemną w swoim blasku</row>
+      <row important_over="never" sidechords="D A">Przed światem skrył</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Strażnicy nocnych drogowskazów</row>
+      <row important_over="never">Oświećcie mą drogę pośród ideałów</row>
+      <row important_over="never">Promienie waszych złotych dłoni</row>
+      <row important_over="never">Rozświetlą jeziora, wskrzeszą martwe cienie</row>
+      <row important_over="never">Obudzą sny uśpione pośród słów</row>
+      <row important_over="never">A słowa znów rozsuną mgły</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Nie każcie mi już dłużej czekać</row>
+      <row important_over="false">Nie serce wciąż płonie myślami człowieka</row>
+      <row important_over="false">Wy aniołowie nieba</row>
+      <row important_over="false">Pokażcie mi mapy ludzkich drogowskazów</row>
+      <row important_over="false">Pokażcie cel za złudzeń kurtyną</row>
+      <row important_over="false">Niech wiarę da jego cień</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
