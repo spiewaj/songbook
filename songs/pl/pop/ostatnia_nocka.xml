@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ostatnia nocka">
+  <artist type="solo">Maciej Maleńczuk</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Boli mnie <ch a="C"/>głowa <ch a="G"/>i nie mogę <ch a="C"/>spać</row>
+      <row important_over="false"><ch a="F"/> Chociaż do<ch a="F7"/>koła <ch a="E"/>wszyscy już pos<ch a="E7"/>nęli</row>
+      <row important_over="false"><ch a="a"/> Nie mogę <ch a="C"/>leżeć <ch a="G"/>a nie mogę <ch a="C"/>wstać</row>
+      <row important_over="false"><ch a="F"/> Mija osta<ch a="F7"/>tnia <ch a="E"/>nocka w mojej <ch a="E7"/>celi.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Tylko <ch a="a"/>noc, noc, <ch a="C"/>noc, <ch a="G"/>płoną światła <ch a="C"/>lamp</row>
+      <row important_over="false"><ch a="F"/> Nocny ref<ch a="F7"/>lektor <ch a="E"/>teren przecze<ch a="E7"/>suje</row>
+      <row important_over="false">Owo <ch a="a"/>światło <ch a="C"/>to <ch a="G"/>jak ja dobrze <ch a="C"/>znam</row>
+      <row important_over="false"><ch a="F"/> Nigdy nie <ch a="F7"/>gaśnie ktoś <ch a="E"/>zawsze obser<ch a="E7"/>wuje.</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Nie wiem czy wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Ostatnia <ch a="C"/>doba <ch a="G"/>jutro będę <ch a="C"/>tam</row>
+      <row important_over="false"><ch a="F"/> Ale na <ch a="F7"/>razie <ch a="E"/>ciągle jestem <ch a="E7"/>tutaj</row>
+      <row important_over="false"><ch a="a"/> Nie mogę <ch a="C"/>leżeć <ch a="G"/>a nie mogę <ch a="C"/>spać</row>
+      <row important_over="false"><ch a="F"/> Gad po be<ch a="F7"/>tonce <ch a="E"/>kamaszami <ch a="E7"/>stuka.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Tylko <ch a="a"/>noc, noc, <ch a="C"/>noc, <ch a="G"/>płoną światła <ch a="C"/>lamp</row>
+      <row important_over="false"><ch a="F"/> Nocny ref<ch a="F7"/>lektor <ch a="E"/>teren przecze<ch a="E7"/>suje</row>
+      <row important_over="false">Owo <ch a="a"/>światło <ch a="C"/>to <ch a="G"/>jak ja dobrze <ch a="C"/>znam</row>
+      <row important_over="false"><ch a="F"/> Nigdy nie <ch a="F7"/>gaśnie ktoś <ch a="E"/>zawsze obser<ch a="E7"/>wuje.</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Nie wiem czy wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Boli mnie <ch a="C"/>głowa <ch a="G"/>i nie mogę <ch a="C"/>spać</row>
+      <row important_over="false"><ch a="F"/> Chociaż do<ch a="F7"/>koła <ch a="E"/>wszyscy już pos<ch a="E7"/>nęli</row>
+      <row important_over="false"><ch a="a"/> Nie mogę <ch a="C"/>leżeć <ch a="G"/>a nie mogę <ch a="C"/>wstać</row>
+      <row important_over="false"><ch a="F"/> Parę lat <ch a="F7"/>życia <ch a="E"/>darmo diabli <ch a="E7"/>wzięli</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Tylko <ch a="a"/>noc, noc, <ch a="C"/>noc, <ch a="G"/>płoną światła <ch a="C"/>lamp</row>
+      <row important_over="false"><ch a="F"/> Nocny ref<ch a="F7"/>lektor <ch a="E"/>teren przecze<ch a="E7"/>suje</row>
+      <row important_over="false">Owo <ch a="a"/>światło <ch a="C"/>to <ch a="G"/>jak ja dobrze <ch a="C"/>znam</row>
+      <row important_over="false"><ch a="F"/> Nigdy nie <ch a="F7"/>gaśnie ktoś <ch a="E"/>zawsze obser<ch a="E7"/>wuje.</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Nie wiem czy wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Gdy przyjdzie <ch a="C"/>ranek <ch a="G"/>stanę u twych <ch a="C"/>bram</row>
+      <row important_over="false"><ch a="F"/> Się pożeg<ch a="F7"/>nałem <ch a="E"/>bez do wi<ch a="E7"/>dzenia</row>
+      <row important_over="false"><ch a="a"/> Nie wiem <ch a="C"/>czy <ch a="G"/>będziesz <ch a="C"/>tam</row>
+      <row important_over="false"><ch a="F"/> Nie ma zna<ch a="F7"/>czenia <ch a="E"/>wychodzę z wię<ch a="E7"/>zienia.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Tylko <ch a="a"/>noc, noc, <ch a="C"/>noc, <ch a="G"/>płoną światła <ch a="C"/>lamp</row>
+      <row important_over="false"><ch a="F"/> Nocny ref<ch a="F7"/>lektor <ch a="E"/>teren przecze<ch a="E7"/>suje</row>
+      <row important_over="false">Owo <ch a="a"/>światło <ch a="C"/>to <ch a="G"/>jak ja dobrze <ch a="C"/>znam</row>
+      <row important_over="false"><ch a="F"/> Nigdy nie <ch a="F7"/>gaśnie ktoś <ch a="E"/>zawsze obser<ch a="E7"/>wuje.</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Nie wiem czy wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/>Wierzę jej-----czy nie wierzę</row>
+      <row important_over="never"><ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/><ch a="a"/>Wierzę jej-----czy nie wierzę</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
