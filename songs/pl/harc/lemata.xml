@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Łemata">
+  <alias>Rozważania nad wodospadem</alias>
+  <text_author type="solo">Wojtek &quot;Neron&quot; Warchoł</text_author>
+  <composer type="solo">Wojtek &quot;Neron&quot; Warchoł</composer>
+  <artist type="solo">Wojtek &quot;Neron&quot; Warchoł</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Pamiętam, <ch a="G"/>tylko tabun <ch a="a"/>chmur się rozw<ch a="e"/>inął</row>
+      <row important_over="true">I <ch a="F"/>cichy <ch a="C"/>wiatr wie<ch a="G"/>jący <ch a="F"/>ku poło<ch a="G"/>ninom</row>
+      <row important_over="true"><ch a="C"/>I twardy <ch a="G"/>jak kamień <ch a="a"/>plecak pod <ch a="e"/>moją głową</row>
+      <row important_over="true"><ch a="F"/>I czyjaś <ch a="C"/>postać, <ch a="G"/>co oka<ch a="F"/>zała się <ch a="G"/>tobą</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="C"/>Idę dołem, <ch a="G"/>a ty górą</row>
+        <row important_over="true"><ch a="a"/>Jestem słońcem, <ch a="e"/>ty wichurą</row>
+        <row important_over="true"><ch a="F"/>Ogniem ja, <ch a="C"/>wodą ty</row>
+        <row important_over="true"><ch a="G"/>Śmiechem ja, ty <ch a="C"/>ronisz <ch a="G"/>łzy</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Byłaś jak <ch a="G"/>słońce <ch a="a"/>w tę zimną <ch a="e"/>noc</row>
+      <row important_over="false">Jak <ch a="F"/>wielkie <ch a="C"/>szczęście, <ch a="G"/>co <ch a="F"/>zesłał mi <ch a="G"/>los</row>
+      <row important_over="false"><ch a="C"/>Lecz nie na <ch a="G"/>długo było <ch a="a"/>cieszyć się <ch a="e"/>nam</row>
+      <row important_over="false">Te <ch a="F"/>kłótnie bez <ch a="C"/>sensu, <ch a="G"/>skąd <ch a="F"/>ja to <ch a="G"/>znam</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>I tłuma<ch a="G"/>czyłem, jak na<ch a="a"/>prawdę to <ch a="e"/>jest</row>
+      <row important_over="false">Że <ch a="F"/>mam swój <ch a="C"/>świat, a w nim <ch a="G"/>setki tych <ch a="F"/>swoich <ch a="G"/>spraw</row>
+      <row important_over="false"><ch a="C"/>A moje <ch a="G"/>gwiazdy to z <ch a="a"/>daleka do mnie <ch a="e"/>lśnią</row>
+      <row important_over="false"><ch a="F"/>Śmiechem i <ch a="C"/>łzami <ch a="G"/>witają mój <ch a="F"/>bukowy <ch a="G"/>dom</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>I czas za<ch a="G"/>kończyć rozwa<ch a="a"/>żania <ch a="e"/>te</row>
+      <row important_over="false"><ch a="F"/>Przy wodo<ch a="C"/>spadzie, <ch a="G"/>tam, gdzie <ch a="F"/>słychać <ch a="G"/>śpiew</row>
+      <row important_over="false"><ch a="C"/>W źródlanej <ch a="G"/>wodzie, czas za<ch a="a"/>nurzyć <ch a="e"/>dłoń</row>
+      <row important_over="false">Już <ch a="F"/>żegnam <ch a="C"/>was, <ch a="G"/>dziś <ch a="F"/>odchodzę <ch a="G"/>stąd</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
