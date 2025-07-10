@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Moja i Twoja nadzieja">
+  <text_author type="solo">Katarzyna Nosowska</text_author>
+  <comment/>
+  <composer type="solo">Piotr Banach</composer>
+  <artist type="band">Hey</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Spróbuj<ch a="G"/> pow<ch a="d"/>iedzieć to</row>
+      <row important_over="true">Nim uw<ch a="a"/>ierzysz że <ch a="G"/></row>
+      <row important_over="true"><ch a="d"/>Nie warto mówić kocham</row>
+      <row important_over="true"><ch a="a"/>Spróbuj<ch a="G"/> ucz<ch a="d"/>ynić gest</row>
+      <row important_over="true">Nim uwi<ch a="a"/>erzysz, że <ch a="G"/></row>
+      <row important_over="true"><ch a="d"/>Nic nie warto robić</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Nic, na<ch a="G"/>prawdę <ch a="d"/>nic nie pomoże</row>
+      <row important_over="true"><ch a="a"/>Jeśli T<ch a="G"/>y nie p<ch a="d"/>omożesz dziś miłości</row>
+      <row important_over="true"><ch a="a"/>Nic, na<ch a="G"/>prawdę <ch a="d"/>nic nie pomoże</row>
+      <row important_over="true"><ch a="a"/>Jeśli T<ch a="G"/>y nie p<ch a="d"/>omożesz dziś miłości</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Musisz<ch a="G"/> odn<ch a="d"/>aleźć nadzieję</row>
+      <row important_over="false">I nie<ch a="a"/>ważne, że <ch a="G"/></row>
+      <row important_over="false"><ch a="d"/>Nazwą Ciebie głupcem</row>
+      <row important_over="false"><ch a="a"/>Musisz<ch a="G"/> pozw<ch a="d"/>olić, by sny</row>
+      <row important_over="false"><ch a="a"/>Sprawiły byś pam<ch a="G"/>iętał, że</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Moja<ch a="G"/> i <ch a="F"/>Twoja<ch a="G"/> nad<ch a="a"/>zieja <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Uczyni <ch a="G"/>real<ch a="F"/>nym <ch a="G"/>krok w<ch a="a"/> chmurach <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Moja <ch a="G"/>i T<ch a="F"/>woja <ch a="G"/>nadzi<ch a="a"/>eja <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Pozwoli<ch a="G"/> uczy<ch a="F"/>nić d<ch a="G"/>ziś <ch a="a"/>cuda <ch a="G"/><ch a="F"/><ch a="G"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>Fire (1993)</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
