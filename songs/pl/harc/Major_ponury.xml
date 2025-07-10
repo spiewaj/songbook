@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Major Ponury">
+  <text_author type="solo">Przemysław Owczarek</text_author>
+  <composer type="solo">Przemysław Owczarek</composer>
+  <artist type="solo">Przemysław Owczarek</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Mgła schodzi z lasu, P<ch a="D"/>anie Majorze,<ch a="Csus2"/></row>
+      <row important_over="true">wiatr się zrywa z cha<ch a="G"/>szczy jak p<ch a="G/D"/>tak,</row>
+      <row important_over="true">J<ch a="e"/>uż się szkopy nie tuł<ch a="h"/>ają po borze, </row>
+      <row important_over="true">niejedn<ch a="C"/>ego przez nas tr<ch a="D"/>afił szlag <ch a="D"/></row>
+      <row important_over="true"><ch a="e"/>Jutro do wsi p<ch a="D"/>ewnie zajdziemy,</row>
+      <row important_over="true"><ch a="C"/> pies nie szczeknie, prz<ch a="G"/>ecież my <ch a="G/D"/>swoi,</row>
+      <row important_over="true"><ch a="e"/>U mej matuli cok<ch a="h"/>olwiek zjemy,</row>
+      <row important_over="true"><ch a="C"/> potem do snu śpiew<ch a="D"/>anie ukoi <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">I d<ch a="C"/>obrze odpoczniem nim od<ch a="D"/>ejdziem w góry </row>
+      <row important_over="true">Lecz c<ch a="e"/>o Pan Major<ch a="D"/> taki ponury</row>
+      <row important_over="true">I d<ch a="C"/>obrze odpoczniem nim od<ch a="D"/>ejdziem w góry </row>
+      <row important_over="true">Lecz c<ch a="e"/>o Pan Major<ch a="D"/> taki pon<ch a="C"/>ury-<ch a="D"/>y-<ch a="e"/>y <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do di<ch a="e"/>abła ze śmiercią, P<ch a="D"/>anie Majorze,<ch a="Csus2"/></row>
+      <row important_over="false">Pan szedł z nią razem w trzydzie<ch a="G"/>stym dziewi<ch a="G/D"/>ątym,</row>
+      <row important_over="false"><ch a="e"/>Potem trza było z <ch a="h"/>wojskiem się ł<ch a="C"/>ączyć</row>
+      <row important_over="false"> i miecze ostrzyć <ch a="D"/>daleko za morze<ch a="D"/>m</row>
+      <row important_over="false"><ch a="e"/>Myśmy czekali bo w<ch a="D"/>odza brakło,</row>
+      <row important_over="false"><ch a="C"/> lichy to zwierz, co w<ch a="G"/>alczy bez<ch a="G/D"/> oka,</row>
+      <row important_over="false"><ch a="e"/>Wieści przysłali i sł<ch a="h"/>owo się rzekło,<ch a="C"/></row>
+      <row important_over="false"> biały orzeł z g<ch a="D"/>óry spikował <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I w pi<ch a="C"/>ersi wroga wb<ch a="D"/>ił swe pazury, </row>
+      <row important_over="false">lecz c<ch a="e"/>o Pan Major<ch a="D"/> taki ponury</row>
+      <row important_over="false">I w pi<ch a="C"/>ersi wroga wb<ch a="D"/>ił swe pazury, </row>
+      <row important_over="false">lecz c<ch a="e"/>o Pan Major<ch a="D"/> taki pon<ch a="C"/>ury-<ch a="D"/>y-<ch a="e"/>y <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>To nie był taki zwycz<ch a="D"/>ajny bój,<ch a="Csus2"/></row>
+      <row important_over="false"> lufa się zgrzała jak klu<ch a="G"/>cze od p<ch a="G/D"/>iekła,</row>
+      <row important_over="false"><ch a="e"/>Mocno się wrzynał w kiesz<ch a="h"/>eni nabój<ch a="C"/> </row>
+      <row important_over="false">i każda chwila się w wi<ch a="D"/>eczność wlekła <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Strasznie Pan dostał, P<ch a="D"/>anie Majorze,<ch a="C"/> </row>
+      <row important_over="false">jak mi Bóg miły nie m<ch a="G"/>ogło być <ch a="G/D"/>gorzej,</row>
+      <row important_over="false"><ch a="e"/>Krew się przelała przez głęb<ch a="h"/>okie rany,<ch a="C"/> </row>
+      <row important_over="false">Archanioł Michał otw<ch a="D"/>orzył bramy <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Pozdr<ch a="C"/>ówcie ode mnie Świętokrz<ch a="D"/>yskie Góry </row>
+      <row important_over="false">sz<ch a="e"/>epnął i skonał<ch a="D"/> Major Ponury</row>
+      <row important_over="false">Pozdr<ch a="C"/>ówcie ode mnie Świętokrz<ch a="D"/>yskie Góry </row>
+      <row important_over="false">sz<ch a="e"/>epnął i skonał<ch a="D"/> Major Pon<ch a="C"/>ury-<ch a="D"/>y-<ch a="e"/>y <ch a="D"/></row>
+      <row important_over="false">Sk<ch a="C"/>onał i odszedł by zn<ch a="D"/>aleźć swe góry</row>
+      <row important_over="false">z s<ch a="e"/>erca bohater<ch a="D"/> Major Ponury</row>
+      <row important_over="false">Sk<ch a="C"/>onał i odszedł by zn<ch a="D"/>aleźć swe góry </row>
+      <row important_over="false">z s<ch a="e"/>erca bohater<ch a="D"/> Major Pon<ch a="C"/>ur<ch a="D"/>y-<ch a="e"/>y-<ch a="D"/>y <ch a="C"/><ch a="D"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
