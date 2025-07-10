@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Harcerskie ideały">
-	<artist type="solo"></artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="D"/> Na ścianie m<ch a="A"/>asz kol<ch a="e"/>ekcję swoich barwnych wspomnień:</row>
 			<row important_over="false"><ch a="D"/> Suszony kwi<ch a="A"/>at, nasz<ch a="e"/>yjnik, wiersz i liść.</row>
@@ -28,33 +27,24 @@
 		</block>
 		<block type="verse">
 			<row important_over="false">A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi”,</row>
-			<row important_over="false">Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: ,,Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi</row>
+			<row important_over="false">Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: „Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi</row>
 			<row important_over="false">I choć m<ch a="D"/>ało mam l<ch a="A"/>at w mym harc<ch a="e"/>erskim mund<ch a="h"/>urze</row>
-			<row important_over="false">Bogu, l<ch a="D"/>udziom i ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę służę.''</row>
+			<row important_over="false">Bogu, l<ch a="D"/>udziom i ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę służę.”</row>
 		</block>
 		<blocklink blocknb="4"/>
 	</lyric>
-	<music metre="4/4">
-		<guitar/>
-	</music>
+	<music metre="4/4"/>
+	<keywords/>
+	<genre>Piosenka harcerska</genre>
 	<status>
-		<verificators><verificator>Michał Korch</verificator><verificator>Krzysiek Cz.</verificator>
-			
-			
-		</verificators>
-		<done>	<text/>
+		<done>
+			<text/>
 			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
 		<to_do>tekst sprawdzony na podstawie google searchu i logiki.poprawone literówki</to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre>Piosenka harcerska</genre>
-	<comment></comment>
 </song>
