@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Modlitwa harcerska">
+  <text_author type="solo">Stanisław Bugajski</text_author>
+  <composer type="solo">Stanisław Bugajski</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>O Panie Boże <ch a="d"/>Ojcze <ch a="a"/>nasz</row>
+      <row important_over="true"><ch a="E"/>W opiece <ch a="E7"/>swej nas <ch a="a"/>miej<ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Harcerskich serc Ty <ch a="d"/>drgnienia <ch a="a"/>znasz</row>
+      <row important_over="true"><ch a="E"/>Nam pomóc <ch a="E7"/>zawsze <ch a="a"/>chciej.<ch a="E"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="E"/>Wszak Ciebie i <ch a="a"/>Ojczyznę</row>
+      <row important_over="true"><ch a="F"/>Miłując <ch a="C"/>chcemy <ch a="d"/>żyć <ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Harcerskim prawom <ch a="d"/>w życia <ch a="a"/>dniach</row>
+      <row important_over="true"><ch a="E"/>Wiernymi zawsze <ch a="a"/>być.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">O daj nam zdrowie dusz i ciał</row>
+      <row important_over="never">Swym światłem zagłusz noc</row>
+      <row important_over="never">I daj nam hart tatrzańskich skał</row>
+      <row important_over="never">I twórczą wzbudź a nas moc.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Na szczytach górskich i wśród łąk</row>
+      <row important_over="never">W dolinach bystrych rzek</row>
+      <row important_over="never">Szukamy śladów Twoich rąk</row>
+      <row important_over="never">By życie z Tobą wieźć</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Przed nami jest otwarty świat</row>
+      <row important_over="never">A na nim wiele dróg</row>
+      <row important_over="never">Choć wiele ścieżek kusi nas</row>
+      <row important_over="never">Lecz dla nas tylko Bóg.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
