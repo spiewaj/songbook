@@ -7,7 +7,7 @@
     <block type="other">
       <bis times="2">
         <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>
-        <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
+        <row important_over="false" style="instr"> <ch a="C"/><ch a="C"/><ch a="C"/><ch a="C"/></row>
       </bis>
     </block>
     <block type="verse">
