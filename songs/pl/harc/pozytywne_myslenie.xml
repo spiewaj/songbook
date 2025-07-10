@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pozytywne myślenie">
+  <alias>Karnawał pozytywnie</alias>
+  <text_author type="solo">Jafia Namuel</text_author>
+  <artist type="band">Roots &amp; Culture</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never" sidechords="C F">Nie mów, że nikt Cię nie kocha</row>
+      <row important_over="never" sidechords="C F">Nie mów, że nikt Cię nie potrzebuje</row>
+      <row important_over="never" sidechords="C F">Nie mów, że nikt o Tobie nie myśli</row>
+      <row important_over="never" sidechords="C F">Nie mów, że nikt nie chce Cię znać</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never" sidechords="C F">Wystarczy tylko odrobina nadziei</row>
+        <row important_over="never" sidechords="G F">pozytywne myślenie wszystko odmieni </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C F">Nie myśl, że nikt o Ciebie nie dba</row>
+      <row important_over="never" sidechords="C F">Nie myśl, że nikt o Ciebie się nie troszczy</row>
+      <row important_over="never" sidechords="C F">I nie myśl, że nic dla Ciebie nie ma</row>
+      <row important_over="never" sidechords="C F">I nie myśl, że Ty jesteś najgorszy</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="a">Prawda - czasami jest źle</row>
+      <row important_over="never">Lecz nie pozwól by problemy mogły zniszczyć Cię</row>
+      <row important_over="never" sidechords="d">Nie pozwól by dręczył Cię strach</row>
+      <row important_over="never" sidechords="g">Wysłuchaj tego o czym mówię ja</row>
+      <bis times="3">
+        <row important_over="never" sidechords="F G">My nie-e chcemy więcej problemów</row>
+      </bis>
+      <row important_over="never">Problemów więcej nie! </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Inna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+  <music_source>Reggae</music_source>
+</song>
