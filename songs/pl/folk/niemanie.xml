@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Niemanie">
+  <text_author type="solo">Paweł Czekalski</text_author>
+  <artist type="solo">Paweł Czekalski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Kolejny przedmiot wy<ch a="e"/>rzucam</row>
+      <row important_over="true"><ch a="G"/>Rozstaję się z ko<ch a="D"/>lejną rzeczą</row>
+      <row important_over="true"><ch a="a"/>Mnie takie rzeczy l<ch a="e"/>eczą</row>
+      <row important_over="true"><ch a="G"/>Że rzeczy oknem lecą, <ch a="D"/>a ściany pustką święcą</row>
+      <row important_over="false"><ch a="a"/>I sam z jedną ś<ch a="e"/>wiecą w pokoju</row>
+      <row important_over="false"><ch a="G"/>Cienie drżą płaskie na <ch a="D"/>ekranie ściany</row>
+      <row important_over="false"><ch a="a"/>I tylko mój cień i <ch a="e"/>tylko świecy cień</row>
+      <row important_over="false"><ch a="G"/>Kiwam się powoli śpiewając z<ch a="D"/>e świeczką w pokoju</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Mniej mam i mniemam ż<ch a="e"/>e nie mam ja mienia</row>
+      <row important_over="true"><ch a="G"/>Mnie nie omamia mania <ch a="D"/>mania mniemania</row>
+      <row important_over="true"><ch a="a"/>Ja mam imię ale <ch a="e"/>nie mienienie się mianem</row>
+      <row important_over="true"><ch a="G"/>Ja manie mam na „nie&quot; a me <ch a="D"/>imię - Niemanie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Wyrzucam ubranie, t<ch a="e"/>o ostatnie me manie</row>
+      <row important_over="false"><ch a="G"/>A teraz mnie w ciele bardzo, <ch a="D"/>bardzo, bardzo wiele</row>
+      <row important_over="false"><ch a="a"/>Topnienia potrzeba ma<ch a="e"/>terii, ponieważ</row>
+      <row important_over="false"><ch a="G"/>Płomieniem ogrzewam me <ch a="D"/>całe niemienie</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Płomień, cztery ściany <ch a="e"/>wosk, knot i ja nieubrany</row>
+      <row important_over="false"><ch a="G"/>Ta chwila się stała, ja <ch a="D"/>wychodzę z ciała</row>
+      <row important_over="false"><ch a="a"/>Płomień, cztery ściany <ch a="e"/>wosk, knot i ja nieubrany</row>
+      <row important_over="false"><ch a="G"/>Ta chwila się stała, ja <ch a="D"/>wychodzę z ciała</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Patrzę w telewizor, coraz <ch a="e"/>bardziej się boję</row>
+      <row important_over="false"><ch a="G"/>Tych co nienawidzą lęku <ch a="D"/>swego nie ukoję</row>
+      <row important_over="false"><ch a="a"/>Posiadanie - bycie w stanie <ch a="e"/>wiecznego nienasycenia</row>
+      <row important_over="false"><ch a="G"/>A przedmioty to kłopoty, <ch a="D"/>posiadanie stan więzienia</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Rzeczy tyle gromadzenia <ch a="e"/>i potrzeba obronienia</row>
+      <row important_over="false"><ch a="G"/>Swej własności od tych gości, <ch a="D"/>tych co biegną od wolności</row>
+      <row important_over="false"><ch a="a"/>Coraz dalej, a ja wcale <ch a="e"/>nie odczuwam tego dreszczu</row>
+      <row important_over="false"><ch a="G"/>Ku wolności biec chce stałe - <ch a="D"/>oto sens mojego questu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Rzeczy posiadanie rodzi <ch a="e"/>w końcu pytanie</row>
+      <row important_over="false"><ch a="G"/>Jaki ma to sens, czy <ch a="D"/>istnieje zatrzymanie?</row>
+      <row important_over="false"><ch a="a"/>Myślę że nie, a nie tylko <ch a="e"/>ja mam takie zdanie</row>
+      <row important_over="false"><ch a="G"/>Mają ludzie z którymi mnie <ch a="D"/>łączy tej muzyki granie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Masz mą miłość Boże Panie, d<ch a="e"/>zięki Ci za dźwięki grane</row>
+      <row important_over="false"><ch a="G"/>Za muzykę. Narkotykiem ona <ch a="D"/>jest na posiadanie</row>
+      <row important_over="false"><ch a="a"/>Kocham ciebie, śpiewam siebie, <ch a="e"/>jestem vege, śpiewam reggae</row>
+      <row important_over="false"><ch a="G"/>Swoją duszę zabawiam, tuszę że <ch a="D"/>przysparzam wam ja wzruszeń</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
