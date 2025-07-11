@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Plastikowa biedronka">
+  <comment/>
+  <artist type="band">Toples</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Gdy cię <ch a="G"/>pierwszy raz uj<ch a="D"/>rzałem</row>
+      <row important_over="true">Wielkim <ch a="e"/>tirem zaje<ch a="C"/>chałaś</row>
+      <row important_over="true">Ja się <ch a="G"/>w tobie zako<ch a="D"/>chałem</row>
+      <row important_over="true">Lecz ty <ch a="e"/>na mnie lecz ty <ch a="C"/>na mnie nie spoj<ch a="G"/>rzałaś.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">Plasti<ch a="G"/>kowa bie<ch a="D"/>dronko,</row>
+        <row important_over="true">ty <ch a="e"/>moja ko<ch a="C"/>chana!</row>
+        <row important_over="true"><ch a="G"/>Zostań moją <ch a="D"/>żonką</row>
+        <row important_over="true">Błagam <ch a="e"/>Cię, proszę <ch a="C"/>Cię na ko<ch a="G"/>lanach.</row>
+        <row important_over="true">(Ty moja)</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do bie<ch a="G"/>dronki przyszedł <ch a="D"/>żuk</row>
+      <row important_over="false">W okie<ch a="e"/>neczko stuk stuk <ch a="C"/>puk</row>
+      <row important_over="false">A bie<ch a="G"/>dronka cicho <ch a="D"/>chrząka</row>
+      <row important_over="false">Spadaj <ch a="e"/>żuczku spadaj <ch a="C"/>żuczku ja mam <ch a="G"/>bączka</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Ja Ci <ch a="G"/>miłość swą wy<ch a="D"/>znałem</row>
+      <row important_over="false">Ty z <ch a="e"/>żuczkiem mnie zdra<ch a="C"/>dziłaś</row>
+      <row important_over="false">Ja Ci <ch a="G"/>wtedy poka<ch a="D"/>załem</row>
+      <row important_over="false">Jaka <ch a="e"/>jest jaka <ch a="C"/>jest pingwina <ch a="G"/>siła</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">To już <ch a="G"/>koniec tej pio<ch a="D"/>senki</row>
+      <row important_over="false">Mój Ty <ch a="e"/>widzu uko<ch a="C"/>chany</row>
+      <row important_over="false">Jeśli <ch a="G"/>Ci się podo<ch a="D"/>bało</row>
+      <row important_over="false">To zaś<ch a="e"/>piewaj to zaś<ch a="C"/>piewaj razem z <ch a="G"/>nami</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
