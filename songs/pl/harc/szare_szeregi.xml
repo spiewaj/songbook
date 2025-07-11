@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szare Szeregi">
+  <artist type="solo">Piosenki Harcerskie</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Gdzie <ch a="a"/>wichry wojny <ch a="d"/>niesie wiatr</row>
+      <row important_over="true"><ch a="G"/>Tam zza rogów <ch a="C"/>stu</row>
+      <row important_over="true"><ch a="a"/>Stoi na straży<ch a="d"/> szara brać</row>
+      <row important_over="true">I <ch a="E"/>flaga biało-czer<ch a="a"/>wona.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Szare Sze<ch a="d"/>regi</row>
+      <row important_over="true"><ch a="G"/>Szare Sze<ch a="C"/>regi</row>
+      <row important_over="true">W <ch a="a"/>szarych mun<ch a="d"/>durach</row>
+      <row important_over="true"><ch a="E"/>Harcerska <ch a="a"/>brać.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="a d">Niestraszny dla nas wojny czas,</row>
+      <row important_over="false" sidechords="G C">Ni strzały zza rogów stu,</row>
+      <row important_over="false" sidechords="a d">Choć krzyżem słany czarny las</row>
+      <row important_over="false" sidechords="E a">Opaska biało-czerwona.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="a d">Chwycił butelkę pełną benzyny</row>
+      <row important_over="false" sidechords="G C">I wybiegł na drogę z nią,</row>
+      <row important_over="false" sidechords="a d">Krzyknął do swoich &#039;Czuwaj chłopaki!&#039;</row>
+      <row important_over="false" sidechords="E a">I zginął za biało-czerwoną.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="a d">Choć ma zaledwie 10 lat</row>
+      <row important_over="false" sidechords="G C">Niestraszna to jest śmierć</row>
+      <row important_over="false" sidechords="a d">Na barykadzie stoi chwat</row>
+      <row important_over="false" sidechords="E a">Z opaską biało-czerwoną</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="a d">Złożyli go do ziemi tej</row>
+      <row important_over="false" sidechords="G C">Za którą swe życie dał</row>
+      <row important_over="false" sidechords="a d">Grób porosły kępy mchu</row>
+      <row important_over="false" sidechords="E a">A flaga biało czerwona</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="a d">Harcerzu wspomnij wojny czas</row>
+      <row important_over="false" sidechords="G C">I przyjdź na groby ich</row>
+      <row important_over="false" sidechords="a d">Choć srogich zmagań minął czas</row>
+      <row important_over="false" sidechords="E a">Ty wspomnij Szare Szeregi</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
