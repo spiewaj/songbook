@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zapach róży">
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Wiem dobrze, <ch a="F"/>co czujesz, <ch a="C"/>te moj<ch a="G"/>e nastroje</row>
+      <row important_over="true"><ch a="a"/>Szybka zmiana <ch a="F"/>zdania, <ch a="d"/>zamknięte <ch a="G"/>pokoje</row>
+      <row important_over="true"><ch a="a"/>Może to zab<ch a="F"/>awne, ale <ch a="C"/>ja n<ch a="G"/>ie żartuję</row>
+      <row important_over="true"><ch a="a"/>Chcę być spraw<ch a="F"/>iedliwym, p<ch a="d"/>rzecież ja też <ch a="G"/>czuję</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Też jestem cz<ch a="F"/>łowiekiem, t<ch a="C"/>eż serc<ch a="G"/>e posiadam</row>
+      <row important_over="true"><ch a="a"/>Także innych k<ch a="F"/>ocham, t<ch a="d"/>akże innyc<ch a="G"/>h zdradzam</row>
+      <row important_over="true"><ch a="a"/>Też mnie <ch a="F"/>nienawidzą, <ch a="C"/>kochaj<ch a="G"/>ą niektórzy</row>
+      <row important_over="true"><ch a="a"/>Też prawie jak, <ch a="F"/>każdy <ch a="d"/>lubię zapach <ch a="G"/>róży</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Też jestem s<ch a="F"/>amotny, c<ch a="C"/>zuję z<ch a="G"/>apomnienie</row>
+      <row important_over="false"><ch a="a"/>Dobrze wiesz, <ch a="F"/>że miłość <ch a="d"/>to moje <ch a="G"/>zbawienie</row>
+      <row important_over="false"><ch a="a"/>Niszczy mnie <ch a="F"/>samotność, t<ch a="C"/>ak bar<ch a="G"/>dzo powoli</row>
+      <row important_over="false"><ch a="a"/>Choć już zrozu<ch a="F"/>miałem, ż<ch a="d"/>e nienawiść <ch a="G"/>boli</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"> <ch a="a"/>Chociaż nie z<ch a="F"/>nalazłem <ch a="C"/>duszy <ch a="G"/>sobie bratniej</row>
+      <row important_over="false"><ch a="a"/>Chcę tu jeszcze <ch a="F"/>zostać <ch a="d"/>do chwili <ch a="G"/>ostatniej</row>
+      <row important_over="false"><ch a="a"/>Trochę smutno <ch a="F"/>było, <ch a="C"/>trochę <ch a="G"/>się zawiodłem</row>
+      <row important_over="false"><ch a="a"/>Wtedy już wied<ch a="F"/>ziałem, <ch a="d"/>zostać tu <ch a="G"/>nie mogę</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Teraz, gdy od<ch a="F"/>szedłem <ch a="C"/>kwiatom <ch a="G"/>się spowiadam</row>
+      <row important_over="false"><ch a="a"/>Z tego, że Cię <ch a="F"/>kocham, <ch a="d"/>że serce p<ch a="G"/>osiadam</row>
+      <row important_over="false"><ch a="a"/>Z tego, że <ch a="F"/>żałuję, <ch a="C"/>że brak <ch a="G"/>mi sumienia</row>
+      <row important_over="false"><ch a="a"/>Które mi ws<ch a="F"/>kazuje <ch a="d"/>drogę do z<ch a="G"/>bawienia</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
