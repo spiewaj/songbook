@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Smoczy Blues">
+  <lyric>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Gdzieś za górami, za morzem głębokim</row>
+      <row important_over="never">Na wielkiej polanie żyły cztery smoki:</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="never" sidechords="C G">Niebieski, zielony, żółty i czerwony</row>
+      </bis>
+      <row important_over="never" sidechords="D C">Od Wysp Kokosowych do Błękitnych Wzgórz</row>
+      <row important_over="never" sidechords="D C">Rozlega się szalony, natchniony smoczy blues</row>
+      <row important_over="never" sidechords="G D C">Niebieski, zielony, żółty i czerwony blues!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Pierwszy smok to okaz był niezwykle rzadki</row>
+      <row important_over="never">Nocą łowił tyby a w dzień wąchał kwiatki.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G"> Najpiękniejsze były dla drugiego chwile,</row>
+      <row important_over="never">Gdy nad wielką łąką fruwał jak motylek.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Trzeci smok kochał lody malinowe</row>
+      <row important_over="never">Mówił, że są smaczne oraz bardzo zdrowe.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Czwarty był typowym smoczym elegantem</row>
+      <row important_over="never">Nosił krawat w kropki i jeździł trabantem.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="G">Czy nam wierzyć chcecie, czy wierzyć nie chcecie</row>
+      <row important_over="never">Lecz jedno jest pewne: SMOKI SĄ NA ŚWIECIE!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
