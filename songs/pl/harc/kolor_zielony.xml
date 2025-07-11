@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kolor zielony">
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Można swe życie wieść rozmaicie, <ch a="d"/><ch a="G"/><ch a="C"/><ch a="a"/></row>
+      <row important_over="never" sidechords="d G C a">Stojąc na przykład przy budce z piwem,</row>
+      <row important_over="never" sidechords="d G C a">Ale mieć można ciekawsze życie,</row>
+      <row important_over="never" sidechords="d G C a">Myśmy wybrali szczęśliwe.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="d G C a">Mój ulubiony kolor zielony,</row>
+      <row important_over="never" sidechords="d G C a">Ogień pachnący sosnowym drzewem,</row>
+      <row important_over="never" sidechords="d G C a">I te wędrówki we wszystkie strony,</row>
+      <row important_over="never" sidechords="d G C a">Spacery pod gołym niebem.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="d G C a">Więc chciałbym zawsze chłopcem być małym,</row>
+      <row important_over="never" sidechords="d G C a">Z nocnych podchodów wracać nad ranem,</row>
+      <row important_over="never" sidechords="d G C a">Żeby na zawsze z nami zostały,</row>
+      <row important_over="never" sidechords="d G C a">Te chwile nie zapomniane.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="d G C a">Żachniesz się kiedyś, że to dziecinne,</row>
+      <row important_over="never" sidechords="d G C a">Albo, że z krótkich wyrosłeś spodni,</row>
+      <row important_over="never" sidechords="d G C a">Ale czasami myśli masz inne,</row>
+      <row important_over="never" sidechords="d G C a">I wtedy sobie przypomnisz.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never" sidechords="d G C a">Więc chciałbym zawsze chłopcem być małym,</row>
+      <row important_over="never" sidechords="d G C a">Z harcerskim krzyżem jak z talizmanem,</row>
+      <row important_over="never" sidechords="d G C a">Żeby na zawsze z nami zostały,</row>
+      <row important_over="never" sidechords="d G C a">Te chwile niezapomniane.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
