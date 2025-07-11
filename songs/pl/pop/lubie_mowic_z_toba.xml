@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lubię mówić z Tobą">
+  <comment/>
+  <artist type="band">Akurat</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Kiedy z serca <ch a="C"/>płyną słowa</row>
+      <row important_over="true"><ch a="G"/>Uderzają z w<ch a="a"/>ielką mocą</row>
+      <row important_over="true"><ch a="a"/>Krążą blisko <ch a="C"/>wśród nas ot tak</row>
+      <row important_over="true"><ch a="G"/>Dając chętnym <ch a="a"/>szczere złoto</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>I dlatego <ch a="C"/>lubię <ch a="e"/>mówić z<ch a="a"/> Tobą</row>
+      <row important_over="true"><ch a="a"/>I dlatego <ch a="C"/>lubię <ch a="e"/>mówić z<ch a="a"/> Tobą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Każdy myśli <ch a="C"/>to co myśli</row>
+      <row important_over="false"><ch a="G"/>Myśli sobie <ch a="a"/>moja głowa</row>
+      <row important_over="false"><ch a="a"/>Może w końcu <ch a="C"/>mi się uda</row>
+      <row important_over="false"><ch a="G"/>Wypowiedzieć <ch a="a"/>proste słowa</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music>
+    <guitar barre="4"/>
+  </music>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
