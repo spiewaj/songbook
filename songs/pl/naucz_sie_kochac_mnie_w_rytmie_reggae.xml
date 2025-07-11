@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Naucz się kochać mnie w rytmie reggae">
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>To było <ch a="h"/>wtedy gdy Ci<ch a="C"/>ę pozn<ch a="D"/>ałem</row>
+      <row important_over="never">Od razu zrozumiałem że coś nie tak</row>
+      <row important_over="never">I chociaż w oczy mi patrzyłaś śmiało</row>
+      <row important_over="never">Nie chciałem wierzyć że humor masz
+</row>
+      <row important_over="never">Szalałem wtedy za rock end rollem
+</row>
+      <row important_over="never">Na płyty wydawałem forsę całą
+</row>
+      <row important_over="never">Kochałem rocka i Ciebie trochę
+</row>
+      <row important_over="never">Lecz kiedyś w tańcu mi powiedziałaś...</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="never">Naucz się kochać mnie w rytmie reggae </row>
+      </bis>
+      <row important_over="never">I kochaj mnie kochaj w rytmie reggae
+</row>
+      <row important_over="never">Reggae weź z sobą szaleję za Tobą</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Zacząłem chodzić na dyskoteki
+</row>
+      <row important_over="never">Prywatki bale i randki wszystkie
+</row>
+      <row important_over="never">Chodziłem wszędzie tam gdzie grali reggae
+</row>
+      <row important_over="never">Tylko dla Ciebie tak się męczyłem
+</row>
+      <row important_over="never">Lecz pewnej nocy gdy słodko spałem 
+</row>
+      <row important_over="never">Poczułem wtedy że kocham reggae
+</row>
+      <row important_over="never">Chciałem powiedzieć Ci jak bardzo Cię kocham
+</row>
+      <row important_over="never">Lecz ty już z innym tańczyłaś rocka</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
