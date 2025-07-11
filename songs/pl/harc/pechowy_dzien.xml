@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pechowy Dzień">
+  <text_author type="solo">Waldemar Chyliński</text_author>
+  <composer type="solo">Waldemar Chyliński</composer>
+  <artist type="band">Smutne Skutki</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/> Wiatr przystojny w garniturze</row>
+      <row important_over="false"><ch a="a"/> Chce spodobać się złej chmurze,</row>
+      <row important_over="false">Chm<ch a="G"/>ura w złości deszczem go przep<ch a="D"/>ędza.</row>
+      <row important_over="false"><ch a="D"/>Wiatr się schował w jakimś oknie,</row>
+      <row important_over="false">J<ch a="a"/>est szczęśliwy, że nie moknie,</row>
+      <row important_over="false"><ch a="G"/>A miał wkrótce chmurze być za m<ch a="D"/>ęża.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/> Lecz nie jest źl<ch a="C"/>e,</row>
+      <row important_over="false"><ch a="A7"/> Mogło być g<ch a="d"/>orzej</row>
+      <row important_over="false">Czasem w ż<ch a="F"/>yciu zdarza si<ch a="C"/>ę</row>
+      <row important_over="false">Pechowy dzi<ch a="D"/>eń. </row>
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="a"/><ch a="G"/><ch a="D"/><ch a="D"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/> Wiatr szczęśliwy w wolnym stanie,</row>
+      <row important_over="false"><ch a="a"/> Zawsze stać go na zawianie,</row>
+      <row important_over="false">Z<ch a="G"/>awsze stać go na samotny sp<ch a="D"/>acer.</row>
+      <row important_over="false"><ch a="D"/>A niejedna chmura teraz</row>
+      <row important_over="false">K<ch a="a"/>ocha, cierpi i umiera,</row>
+      <row important_over="false">M<ch a="G"/>ówiąc – „Wietrze, mogło być in<ch a="D"/>aczej”.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
