@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zanim pójdę">
+  <alias>Miłość to nie pluszowy miś</alias>
+  <artist type="band">Happysad</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Ile j<ch a="a"/>este<ch a="d"/>m ci <ch a="e"/>winien</row>
+      <row important_over="true">Ile policz<ch a="a"/>yłaś mi <ch a="d"/>za swą p<ch a="e"/>rzyjaźń</row>
+      <row important_over="true">Ale kiedy wsz<ch a="a"/>ystko już od<ch a="d"/>dam <ch a="e"/>czy</row>
+      <bis times="2">
+        <row important_over="true">Będziesz szczę<ch a="a"/>śliwa i <ch a="d"/>wolna c<ch a="e"/>zy </row>
+      </bis>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
+      <row important_over="true">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
+      <row important_over="true">Ale zanim pój<ch a="a"/>dę...</row>
+      <row important_over="true"><ch a="d"/>chciałbym p<ch a="e"/>owiedzieć ci że</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Miłość to nie plu<ch a="d"/>szowy <ch a="e"/>miś ani <ch a="a"/>kwiaty</row>
+      <row important_over="false">To też nie d<ch a="d"/>iabeł r<ch a="e"/>ogaty</row>
+      <row important_over="false">Ani <ch a="a"/>miłość kiedy j<ch a="d"/>edno p<ch a="G"/>łacze</row>
+      <row important_over="false">A <ch a="C"/>drugie po nim <ch a="F"/>skacze</row>
+      <row important_over="false">Bo <ch a="a"/>miłość to żaden <ch a="d"/>film w żadnym <ch a="e"/>kinie</row>
+      <row important_over="false">Ani <ch a="a"/>róże ani ca<ch a="d"/>łusy małe <ch a="e"/>duże</row>
+      <row important_over="false">Ale <ch a="a"/>miłość, kiedy j<ch a="d"/>edno spada w<ch a="G"/> dół</row>
+      <row important_over="false">Drugie c<ch a="C"/>iągnie je ku gó<ch a="F"/>rze</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ile <ch a="a"/>jest<ch a="d"/>em Ci<ch a="e"/> winien</row>
+      <row important_over="false">Ile policz<ch a="a"/>yłaś mi <ch a="d"/>za swą p<ch a="e"/>rzyjaźń</row>
+      <row important_over="false">Ile były <ch a="a"/>warte <ch a="d"/>nasze <ch a="e"/>słowa</row>
+      <bis times="2">
+        <row important_over="false">Kiedy próbo<ch a="a"/>waliśmy <ch a="d"/>wszystko od <ch a="e"/>nowa </row>
+      </bis>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
