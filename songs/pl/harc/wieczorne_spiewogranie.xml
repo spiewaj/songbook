@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wieczorne śpiewogranie">
+  <comment/>
+  <composer type="solo">Druhna Ola</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Ki<ch a="G"/>edy cisza świat zaległa</row>
+      <row important_over="true">B<ch a="D"/>óg rozpostarł tren ciemności</row>
+      <row important_over="true">I gdy gwi<ch a="e"/>azdy w noc wybiegły</row>
+      <row important_over="true">Szukać źró<ch a="C"/>dła swej światł<ch a="G"/>ości</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Śpi<ch a="G"/>ewam do was i do nieba,</row>
+      <row important_over="true">Ż<ch a="D"/>e przyjaźni mi potrzeba</row>
+      <row important_over="true">Płomienn<ch a="e"/>ego ogniobrania,</row>
+      <row important_over="true">Rąk przyj<ch a="C"/>aciół</row>
+      <row important_over="true">I kochania, i k<ch a="G"/>ochania</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ki<ch a="G"/>edy wieczór nas połączy</row>
+      <row important_over="false">Z r<ch a="D"/>ąk do serca mkną iskierki</row>
+      <row important_over="false">I gdy <ch a="e"/>oczy są wpatrzone</row>
+      <row important_over="false">W płomień szcz<ch a="C"/>ęścia i podzi<ch a="G"/>ęki</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Ki<ch a="G"/>edy przyjaźń w nas rozkwita</row>
+      <row important_over="false">Cz<ch a="D"/>as zatrzymał sie zbawiony</row>
+      <row important_over="false">I gdy r<ch a="e"/>ozstać się nie chcemy</row>
+      <row important_over="false">Świat jest w d<ch a="C"/>uszach uniesi<ch a="G"/>ony</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
