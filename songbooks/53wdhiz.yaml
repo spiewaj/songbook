@@ -22,7 +22,7 @@ songbook:
   - glob: "songs/pl/pop/Marchewkowe_pole.xml"
   - glob: "songs/pl/pop/pila_tango.xml"
   - glob: "songs/pl/pop/Kocham_Cie_jak_Irlandie.xml"
-  - glob: "songs/pl/pop/przebudzenie.xml"
+  - glob: "songs/pl/pop/przebudzenie_buzu.xml"
   - glob: "songs/pl/pop/Arahia.xml"
   - glob: "songs/pl/pop/Niebo_do_wynajecia.xml"
   - glob: "songs/pl/pop/ostatnia_nocka.xml"
