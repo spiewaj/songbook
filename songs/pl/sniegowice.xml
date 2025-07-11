@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śniegowice">
+  <text_author type="solo">Tomasz Wachnowski</text_author>
+  <comment/>
+  <composer type="solo">Tomasz Wachnowski</composer>
+  <artist type="solo">Tomasz Wachnowski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Do Śniegowic wpadłem tylko na godzinę, <ch a="E"/><ch a="cis"/></row>
+      <row important_over="never">Na godzinę tylko, bo to za granicą. <ch a="H"/><ch a="A"/></row>
+      <row important_over="never">I zostałem w Śniegowicach całą zimę, <ch a="E"/><ch a="cis"/></row>
+      <row important_over="never">Całą zimę przyszło tkwić mi w Śniegowicach. <ch a="H"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="E cis">Byłem głupi, bo tak dałem się zaskoczyć,</row>
+      <row important_over="never" sidechords="H A">Że przy sobie miałem tylko napiwek,</row>
+      <row important_over="never" sidechords="E cis">A gdy bieda mi zajrzała prosto w oczy,</row>
+      <row important_over="never" sidechords="H A">Uśmiechnąłem się i zapytałem zimy:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Co mnie tu trzyma, <ch a="E"/><ch a="cis"/></row>
+      <row important_over="never">Co mnie tu trzyma <ch a="H"/><ch a="A"/></row>
+      <row important_over="never">Tylko zima i święta <ch a="E"/><ch a="cis"/></row>
+      <row important_over="never">Tak odrzekła mi zima. <ch a="H"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="E cis">Źle nie było, ale rzadko tak do śmiechu,</row>
+      <row important_over="never" sidechords="H A">Czasem śniegu było więcej niż herbaty.</row>
+      <row important_over="never" sidechords="E cis">Za pieniądze pożyczane od kolegów</row>
+      <row important_over="never" sidechords="H A">Kupowałem mały dom na duże raty.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="E cis">Gdy mi mówisz, że przeciąga się ta zima,</row>
+      <row important_over="never" sidechords="H A">Gdy mnie pytasz kiedy znowu Cię odwiedzę,</row>
+      <row important_over="never" sidechords="E cis">Ty chcesz wiedzieć co mnie jeszcze tutaj trzyma</row>
+      <row important_over="never" sidechords="H A">Ty chcesz wiedzieć , a ja wiem, co odpowiedzieć.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="never" sidechords="E cis">Dziś, gdy patrzę na te moje Śniegowice</row>
+      <row important_over="never" sidechords="H A">Zamrożone tak, a już nie koniec świata,</row>
+      <row important_over="never" sidechords="E cis">Zapominam - widzę tylko, co chcę widzieć</row>
+      <row important_over="never" sidechords="H A">I pamiętam koniec zimy w środku lata.</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
