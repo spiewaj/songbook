@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marsz Mokotowa">
+  <text_author type="solo">Mirosław Jezierski (ps. „Karnisz“)</text_author>
+  <comment>20 sierpnia 1944</comment>
+  <composer type="solo">Jan Markowski (ps. „Krzysztof“).</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Nie <ch a="D"/>grają nam surmy bojo<ch a="D7"/>we</row>
+      <row important_over="true">Ni we<ch a="G"/>rble do sz<ch a="Gis0"/>turmu nie war<ch a="D"/>czą <ch a="H7"/></row>
+      <row important_over="true">Nam prze<ch a="e"/>cież te no<ch a="A7"/>ce sierp<ch a="D"/>niowe <ch a="h"/></row>
+      <row important_over="true">I pr<ch a="E7"/>ężne ramiona wysta<ch a="A7"/>rczą</row>
+      <row important_over="false" sidechords="D D7">Niech płynie piosenka z barykad</row>
+      <row important_over="false" sidechords="G Gis0 D H7">Wśród bloków, zaułków, ogrodów</row>
+      <row important_over="false" sidechords="e A7 D h">Z chłopcami niech idzie na wypad</row>
+      <row important_over="false" sidechords="E7 A7">Pod rękę przez cały Mokotów</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc</row>
+      <row important_over="true">Tak w pieśniach <ch a="G"/>gra aż braknie <ch a="D"/>tchu</row>
+      <row important_over="true">Prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f </row>
+      <row important_over="true">Ten pierwszy m<ch a="D"/>arsz <ch a="G"/>to właśnie <ch a="D"/>zew</row>
+      <row important_over="true">Niech brzmi i trw<ch a="G"/>a przy huku <ch a="D"/>dział</row>
+      <row important_over="true">Batalion gdzieś r<ch a="A7"/>ozpoczął szt<ch a="D"/>urm,</row>
+      <row important_over="true">Spłynęła łz<ch a="e"/>a i pierwsz<ch a="A7"/>y strz<ch a="D"/>ał! </row>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="D D7">Niech wiatr ją poniesie do miasta</row>
+      <row important_over="false" sidechords="G Gis0 D H7">Jak żagiew płonącą i krwawą</row>
+      <row important_over="false" sidechords="e A7 D h">Niech w górze zawiśnie na gwiazdach</row>
+      <row important_over="false" sidechords="E7 A7">Czy słyszysz płonąca warszawo</row>
+      <row important_over="false" sidechords="D D7">Niech zabrzmi w uliczkach znajomych</row>
+      <row important_over="false" sidechords="G Gis0 D H7">W alejkach gdzie bzy już nie kwitną</row>
+      <row important_over="false" sidechords="e A7 D h">Gdzie w twierdze zmieniły się domy</row>
+      <row important_over="false" sidechords="E7 A7">I serca z zapału nie stygną</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc</row>
+      <row important_over="true">Tak w pieśniach <ch a="G"/>gra aż braknie <ch a="D"/>tchu</row>
+      <row important_over="true">Prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f </row>
+      <row important_over="true">Ten pierwszy m<ch a="D"/>arsz <ch a="G"/>niech dzień po <ch a="D"/>dniu</row>
+      <row important_over="true">W szumie dr<ch a="G"/>zew i sercach <ch a="D"/>drży</row>
+      <row important_over="true">Bez próżnych sk<ch a="A7"/>arg i zbędnych s<ch a="D"/>łów</row>
+      <row important_over="true">To nasza kr<ch a="e"/>ew i czy<ch a="A7"/>jeś ł<ch a="D"/>zy</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
