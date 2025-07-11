@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Z twarzą Marylin Monroe">
+  <text_author type="solo">Jacek Kuderski, Wojciech Kuderski, Przemysław Myszor</text_author>
+  <composer type="solo">Artur Rojek, Wojciech Powaga</composer>
+  <artist type="band">Myslovitz</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Hej dziewcz<ch a="e"/>yno, <ch a="a"/>nie mów <ch a="F"/>nic, czas na <ch a="C"/>miłość</row>
+      <row important_over="false">Stań przed<ch a="e"/>e mną, p<ch a="a"/>ozwól do<ch a="F"/>tknąć się</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="e"/><ch a="a"/><ch a="a7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="F"/>Co za w<ch a="f"/>ieczór, co za ...</row>
+      <bis times="2">
+        <row important_over="false"><ch a="C"/>No<ch a="e"/>c <ch a="a"/><ch a="F"/> z twarzą Marilyn<ch a="C"/> Monroe<ch a="e"/><ch a="a"/><ch a="F"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Pod jej wzr<ch a="e"/>okiem<ch a="a"/>, moja s<ch a="F"/>kóra w ogniu <ch a="C"/>płonie</row>
+      <row important_over="false">Smak jej <ch a="e"/>skóry dz<ch a="a"/>iś zniew<ch a="F"/>ala mnie</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Dotykam oczu, włosów,<ch a="F"/>  ust</row>
+        <row important_over="false">Dotykam ramion, dłoni,<ch a="G"/> stóp</row>
+        <row important_over="false">Odsłaniam nagie piersi<ch a="F"/> j<ch a="C"/>ej<ch a="e"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Na mym lust<ch a="e"/>rze z<ch a="a"/>ostawiła<ch a="F"/>ś swoje usta <ch a="C"/></row>
+      <row important_over="false">Przy jej <ch a="e"/>zdjęciu <ch a="a"/>spędzam <ch a="F"/>całą noc</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/>Szesnaście l<ch a="f"/>at, mój pierwszy</row>
+      <row important_over="false"><ch a="C"/>Ra<ch a="e"/>z <ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/><ch a="F"/></row>
+      <bis times="3">
+        <row important_over="false"><ch a="C"/>Aa<ch a="e"/>a,<ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/> |<ch a="F"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
