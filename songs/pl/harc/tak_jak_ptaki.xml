@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tak jak ptaki">
+  <text_author type="solo">]Piotr Łupina</text_author>
+  <comment>Piosenka pierwszy raz publicznie wykonana przez P.Łupine wraz zespołem: Wojciech Góralewicz, Sebastian Majer , Przemysław Palka, Maciej Jeż, Dorota Góralewicz, Anna Witkowska, Joanna Firek oraz Marta Kizior na festiwalu ZHP Trzepak 93 w Chełmku.</comment>
+  <composer type="solo">Piotr Łupina</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
+      <row important_over="false">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
+      <row important_over="false">Z<ch a="e"/>ginął tak jak wielu z<ch a="G"/> nich</row>
+      <row important_over="false">Za<ch a="h"/> swą wolność u<ch a="A"/>traconą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">M<ch a="e"/>iał na piersi szary k<ch a="G"/>rzyż</row>
+      <row important_over="false">I<ch a="h"/> zaledwie 10 <ch a="A"/>lat</row>
+      <row important_over="false">C<ch a="e"/>hciał być wolny tak j<ch a="G"/>ak my</row>
+      <row important_over="false">I<ch a="h"/> tak samo kochał<ch a="A"/> świat</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">D<ch a="e"/>ziś szybuje pośród ch<ch a="G"/>mur</row>
+        <row important_over="false">T<ch a="h"/>ak jak ptaki na <ch a="A"/>wolności</row>
+        <row important_over="false">P<ch a="e"/>oszukuje w świecie ty<ch a="G"/>m</row>
+        <row important_over="false">C<ch a="h"/>iepła, dobra i m<ch a="A"/>iłości.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">N<ch a="e"/>ie minęło parę l<ch a="G"/>at</row>
+      <row important_over="false">N<ch a="h"/>ad grobami matki<ch a="A"/> płaczą</row>
+      <row important_over="false">P<ch a="e"/>o policzkach łzy im p<ch a="G"/>łyną</row>
+      <row important_over="false">J<ch a="h"/>uż ich więcej ni<ch a="A"/>e zobaczą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">N<ch a="e"/>ie zobaczą swoich dzi<ch a="G"/>eci</row>
+      <row important_over="false">L<ch a="h"/>ecz pamiętać o n<ch a="A"/>ich będą</row>
+      <row important_over="false">O<ch a="e"/> swych młodych boh<ch a="G"/>aterach</row>
+      <row important_over="false">O<ch a="h"/>wianych smutną l<ch a="A"/>egendą</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">T<ch a="e"/>am na wzgórzu leży <ch a="G"/>on</row>
+      <row important_over="false">N<ch a="h"/>ad nim krzyż brzozowy s<ch a="A"/>toi</row>
+      <row important_over="false">J<ch a="e"/>ego dusza ule<ch a="G"/>ciała</row>
+      <row important_over="false">Z<ch a="h"/>iemia ciału rany<ch a="A"/> goi</row>
+      <row important_over="false">B<ch a="e"/>o poświęcił młode ż<ch a="G"/>ycie</row>
+      <row important_over="false">W<ch a="h"/> walce o lepsze j<ch a="A"/>utro</row>
+      <row important_over="false">C<ch a="e"/>zasem możesz go do<ch a="G"/>strzec</row>
+      <row important_over="false">G<ch a="h"/>łęboko patrząc w <ch a="A"/>lustro</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
