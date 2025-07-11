@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lody (bambino)">
+  <artist type="band">Zabili mi żółwia</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" sidechords="e C a D">Oni chodzą razem na spacer, do kina</row>
+      <row important_over="false" sidechords="e C a D">w blasku słońca jedzą słodkie lody bambino</row>
+      <row important_over="false" sidechords="e C a D">wczoraj na przeglądzie grali reagge i rocka</row>
+      <row important_over="false" sidechords="e C a D">on ją odprowadzał, ona pewnie go kocha</row>
+    </block>
+    <block type="chorus">
+      <bis times="3">
+        <row important_over="false" sidechords="e C a D">A ja jestem sam oooo !</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false" sidechords="e C a D">Chciałbym kiedyś poznać taką fajną dziewczynę</row>
+      <row important_over="false" sidechords="e C a D">z którą mógłbym chodzić na spacer, do kina</row>
+      <row important_over="false" sidechords="e C a D">w blasku słońca jedlibyśmy lody Bambino</row>
+      <row important_over="false" sidechords="e C a D">wszystko mógłbym zrobić z taką fajną dziewczyną</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="e C a D">Więc postanowiłem całkiem zmienić siebie</row>
+      <row important_over="false" sidechords="e C a D">rozpuściłem włosy i zaplotłem je w dredy</row>
+      <row important_over="false" sidechords="e C a D">teraz słucham słodkich rytmów reagge i rocka</row>
+      <row important_over="false" sidechords="e C a D">a trójbarwna flaga powiewa na niebie</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="e C a D">Wczoraj ją ujrzałem stała sama na skwerze</row>
+      <row important_over="false" sidechords="e C a D">obszedłem ją od tyłu i zanuciłem regge</row>
+      <row important_over="false" sidechords="e C a D">spytałem czy to lubi powiedziała że nie wie</row>
+      <row important_over="false" sidechords="e C a D">wtedy ją objąłem i już było jak w niebie</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
