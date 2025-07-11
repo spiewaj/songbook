@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Raz po raz">
+  <text_author type="solo">Bogdan Olewicz</text_author>
+  <composer type="solo">Dariusz Kozakiewicz</composer>
+  <artist type="solo">Perfect</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">każde z nas swoje ścieżki ma <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">wydeptane i sprawdzone od lat <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">czasem myśl mi nie daje spać <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
+      <row important_over="false">kto chodzi bokiem <ch a="C"/></row>
+      <row important_over="false">kto chodzi bokiem <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">kiedy ja chce zielonym być <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">dom grzać słońcem i deszczówkę z chmur pić <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">wtedy mnie dopada myśl <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
+      <row important_over="never">kto ma ochotę <ch a="C"/></row>
+      <row important_over="never">o świat lepszy się bić <ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
+      <row important_over="never">mówią w prost że to finał <ch a="F"/><ch a="G"/></row>
+      <row important_over="never">rok może pięć komet deszcz i szlus <ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">chyba że tęgi łeb myli się <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">i kurtyna w dół zamiast spaść <ch a="G"/><ch a="C"/><ch a="a"/></row>
+      <row important_over="never">w górę mknie <ch a="F"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Może ja jadłem inny chleb <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">może księgi czytywałem nie te <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="never">patrze w ekran i wciąż pytam się <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
+      <row important_over="never">czy świat na głowie <ch a="C"/></row>
+      <row important_over="never">to jedyny nasz wkład <ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
+      <row important_over="never">że nasz ład właśnie mija <ch a="F"/><ch a="G"/></row>
+      <row important_over="never">bo całe zło krew i pot to my <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">chyba mam lepszy wzrok niezły plan się rozwija <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">znów łączy nas tęczy most <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Gdy o tym myślę w głowie zamęt mam <ch a="F"/></row>
+      <row important_over="false">śmiać się czy też włosy rwać <ch a="C"/><ch a="G"/></row>
+      <row important_over="false">muzykę słyszę ciało rusza w tan <ch a="F"/></row>
+      <row important_over="false">i tak mogę wieki trwać <ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">raz po raz starszą nas <ch a="C"/><ch a="a"/></row>
+      <row important_over="false">mówią w prost że to finał <ch a="F"/><ch a="G"/></row>
+      <row important_over="false">rok może pięć komet deszcz i śluz <ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">chyba że tęgi łeb myli się <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">i kurtyna w dół zamiast spaść <ch a="G"/><ch a="C"/><ch a="a"/></row>
+      <row important_over="false">w górę pnie do gwiazd <ch a="F"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
+      <row important_over="never">że nasz ład właśnie mija <ch a="F"/><ch a="G"/></row>
+      <row important_over="never">bo całe zło krew i pot to my <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">chyba mam lepszy wzrok niezły plan się rozwija <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never">znów łączy nas tęczy most <ch a="C"/><ch a="a"/><ch a="F"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
