@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Poezja">
+  <alias>Ty przychodzisz jak noc majowa</alias>
+  <text_author type="solo">Władysław Broniewski</text_author>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Ty przychodzisz jak noc majowa,</row>
+      <row important_over="never">biała noc, uśpiona w jaśminie,</row>
+      <row important_over="never">i jaśminem pachną twoje słowa,</row>
+      <row important_over="never">i księżycem sen srebrny płynie,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Płyniesz cicha przez noce bezsenne</row>
+      <row important_over="never">- cichą nocą tak liście szeleszczą-</row>
+      <row important_over="never">szepcesz sny, szepcesz słowa tajemne,</row>
+      <row important_over="never">w słowach cichych skąpana jak w deszczu...</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">To za mało! Za mało! Za mało!</row>
+      <row important_over="never">Twoje słowa tumanią i kłamią!</row>
+      <row important_over="never">Piersiom żywych daj oddech zapału,</row>
+      <row important_over="never">wiew szeroki i skrzydła do ramion!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Nam te słowa ciche nie starczą.</row>
+      <row important_over="never">Marne słowa. I błahe. I zimne.</row>
+      <row important_over="never">Ty masz werbel nam zagrać do marszu!</row>
+      <row important_over="never">Smagać słowem! Bić pieśnią! Wznieść hymnem!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Jest gdzieś radość ludzka, zwyczajna, </row>
+      <row important_over="never">jest gdzieś jasne i piękne życie. </row>
+      <row important_over="never">Powszedniego chleba słów daj nam </row>
+      <row important_over="never">i stań przy nas, i rozkaż - bić się! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Niepotrzebne nam białe westalki, </row>
+      <row important_over="never">noc nie zdławi świętego ognia - </row>
+      <row important_over="never">bądź jak sztandar rozwiany wśród walki, </row>
+      <row important_over="never">bądź jak w wichrze wzniesiona pochodnia! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Odmień, odmień nam słowa na wargach, </row>
+      <row important_over="never">naucz śpiewać płomienniej i prościej, </row>
+      <row important_over="never">niech nas miłość ogromna potarga. </row>
+      <row important_over="never">Więcej bólu i więcej radości! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Jeśli w pięści potrzebna ci harfa, </row>
+      <row important_over="never">jeśli harfa ma zakląć pioruny, </row>
+      <row important_over="never">rozkaż żyły na struny wyszarpać </row>
+      <row important_over="never">i naciągać, i trącać jak struny. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Trzeba pieśnią bić aż do śmierci, </row>
+      <row important_over="never">trzeba głuszyć w ciemnościach syk węży. </row>
+      <row important_over="never">Jest gdzieś życie piękniejsze od nędzy. </row>
+      <row important_over="never">I jest miłość. I ona zwycięży. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wtenczas daj nam, poezjo, najprostsze</row>
+      <row important_over="never">ze słów prostych i z cichych - najcichsze,</row>
+      <row important_over="never">a umarłych w wieczności rozpostrzyj</row>
+      <row important_over="never">jak chorągwie podarte na wichrze.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators>
+      <verificator>Piosenka błędnie przypisywana Bolesławowi Leśmianowi.</verificator>
+    </verificators>
+  </status>
+</song>
