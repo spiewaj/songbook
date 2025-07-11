@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Poezja">
+  <alias>Ty przychodzisz jak noc majowa</alias>
+  <text_author type="solo">Władysław Broniewski</text_author>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" sidechords="a e">Ty przychodzisz jak noc majowa,</row>
+      <row important_over="never" sidechords="F G">biała noc, uśpiona w jaśminie,</row>
+      <row important_over="never" sidechords="a e">i jaśminem pachną twoje słowa,</row>
+      <row important_over="never" sidechords="F G">i księżycem sen srebrny płynie,</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Płyniesz cicha przez noce bezsenne</row>
+      <row important_over="never" sidechords="F G">- cichą nocą tak liście szeleszczą-</row>
+      <row important_over="never" sidechords="a e">szepcesz sny, szepcesz słowa tajemne,</row>
+      <row important_over="never" sidechords="F G">w słowach cichych skąpana jak w deszczu...</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">To za mało! Za mało! Za mało!</row>
+      <row important_over="never" sidechords="F G">Twoje słowa tumanią i kłamią!</row>
+      <row important_over="never" sidechords="a e">Piersiom żywych daj oddech zapału,</row>
+      <row important_over="never" sidechords="F G">wiew szeroki i skrzydła do ramion!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Nam te słowa ciche nie starczą.</row>
+      <row important_over="never" sidechords="F G">Marne słowa. I błahe. I zimne.</row>
+      <row important_over="never" sidechords="a e">Ty masz werbel nam zagrać do marszu!</row>
+      <row important_over="never" sidechords="F G">Smagać słowem! Bić pieśnią! Wznieść hymnem!</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Jest gdzieś radość ludzka, zwyczajna, </row>
+      <row important_over="never" sidechords="F G">jest gdzieś jasne i piękne życie. </row>
+      <row important_over="never" sidechords="a e">Powszedniego chleba słów daj nam </row>
+      <row important_over="never" sidechords="F G">i stań przy nas, i rozkaż - bić się! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Niepotrzebne nam białe westalki, </row>
+      <row important_over="never" sidechords="F G">noc nie zdławi świętego ognia - </row>
+      <row important_over="never" sidechords="a e">bądź jak sztandar rozwiany wśród walki, </row>
+      <row important_over="never" sidechords="F G">bądź jak w wichrze wzniesiona pochodnia! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Odmień, odmień nam słowa na wargach, </row>
+      <row important_over="never" sidechords="F G">naucz śpiewać płomienniej i prościej, </row>
+      <row important_over="never" sidechords="a e">niech nas miłość ogromna potarga. </row>
+      <row important_over="never" sidechords="F G">Więcej bólu i więcej radości! </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Jeśli w pięści potrzebna ci harfa, </row>
+      <row important_over="never" sidechords="F G">jeśli harfa ma zakląć pioruny, </row>
+      <row important_over="never" sidechords="a e">rozkaż żyły na struny wyszarpać </row>
+      <row important_over="never" sidechords="F G">i naciągać, i trącać jak struny. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Trzeba pieśnią bić aż do śmierci, </row>
+      <row important_over="never" sidechords="F G">trzeba głuszyć w ciemnościach syk węży. </row>
+      <row important_over="never" sidechords="a e">Jest gdzieś życie piękniejsze od nędzy. </row>
+      <row important_over="never" sidechords="F G">I jest miłość. I ona zwycięży. </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="a e">Wtenczas daj nam, poezjo, najprostsze</row>
+      <row important_over="never" sidechords="F G">ze słów prostych i z cichych - najcichsze,</row>
+      <row important_over="never" sidechords="a e">a umarłych w wieczności rozpostrzyj</row>
+      <row important_over="never" sidechords="F G">jak chorągwie podarte na wichrze.</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="2"/>
+  </music>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators>
+      <verificator>Piosenka błędnie przypisywana Bolesławowi Leśmianowi.</verificator>
+    </verificators>
+  </status>
+</song>
