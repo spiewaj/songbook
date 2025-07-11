@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zostanie tyle gór">
+  <text_author type="solo">Jerzy Harasymowic</text_author>
+  <comment/>
+  <composer type="solo">Wojtek Szymański</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true"><ch a="e"/>Zostanie tyle gór</row>
+      <row important_over="true">ile u<ch a="C"/>dźwignąłem na plecach</row>
+      <row important_over="true">Zos<ch a="G"/>tanie tyle drzew</row>
+      <row important_over="true">ile na<ch a="D"/>rysowało pióro</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="Asus4"/></row>
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Tak go<ch a="e"/>towym trzeba być</row>
+      <row important_over="true">do <ch a="C"/>każdej ludzkiej podróży</row>
+      <row important_over="true">Tak z<ch a="G"/>decydują w niebie</row>
+      <row important_over="true">lub <ch a="D"/>serce nie zechce już służyć</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="e">Ja tylko zniknę wtedy</row>
+      <row important_over="never" sidechords="C">w starym lesie bukowym</row>
+      <row important_over="never" sidechords="G">Tak jakbym wrócił do siebie</row>
+      <row important_over="never" sidechords="D">Po prostu wrócę do domu</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="never" sidechords="e">I wszystko tam będzie jak w życiu</row>
+      <row important_over="never" sidechords="C">I stół i krzesła i buty</row>
+      <row important_over="never" sidechords="G">Te same nieporuszone</row>
+      <row important_over="never" sidechords="D">Na niebie zostaną góry</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="e">Tylko ludzi nie będzie</row>
+      <row important_over="never" sidechords="C">Tych co najbardziej kocham</row>
+      <row important_over="never" sidechords="G">Czasem we śnie ukradkiem</row>
+      <row important_over="never" sidechords="D">Zamienią ze mną dwa słowa</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="never" sidechords="e">Będą leciały stadem liście</row>
+      <row important_over="never" sidechords="C">Duszyczki i szepty ich w lesie</row>
+      <row important_over="never" sidechords="G">Będzie tak wielki i świsty</row>
+      <row important_over="never" sidechords="D">Rok cały będzie tam jesień</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Moje drzewa będą szumiały</row>
+      <row important_over="never">Na tym i tamtym świecie</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
