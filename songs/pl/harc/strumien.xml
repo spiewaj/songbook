@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Strumień">
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Idę w góry w marzenia dalej i dalej <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="never" sidechords="C a F G">Znajdę to co mi dane jeszcze odnaleźć</row>
+      <row important_over="never" sidechords="C a F G">Widzę ślady ogniska, drewno z szałasu</row>
+      <row important_over="never" sidechords="C a F G">Zapach zupy-śmietnika z resztek zapasów.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Strumień cicho szumi w dole <ch a="F"/><ch a="G"/></row>
+      <row important_over="never">I z drzewami gada <ch a="C"/><ch a="a"/></row>
+      <row important_over="never">Żeby czar tych dni powrócił <ch a="F"/><ch a="G"/></row>
+      <row important_over="never">Czy jest na to rada? <ch a="a"/></row>
+      <row important_over="never" sidechords="F G">Twarze już się rozpływają</row>
+      <row important_over="never" sidechords="C a">Jak na deszczu szyby</row>
+      <row important_over="never" sidechords="F G">Zima ziemią zawładnęła</row>
+      <row important_over="never" sidechords="a">Zakuła ją w dyby.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C a F G">Dobrze, dobrze się stało, że zima biała</row>
+      <row important_over="never" sidechords="C a F G">Wspomnień nie zamroziła, bo nie umiała</row>
+      <row important_over="never" sidechords="C a F G">Bo gdy w tym życiu ciężkie chwile nastaną</row>
+      <row important_over="never" sidechords="C a F G">Wszystko diabli gdzieś wezmą, one zostaną.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false" sidechords="C a F G">Czy ty pamiętasz jeszcze ogniska płomień</row>
+      <row important_over="false" sidechords="C a F G">Czy wraca do twej pamięci dotyk mej dłoni</row>
+      <row important_over="false" sidechords="C a F G">Gdy wiatr gitary struny trąci leciutko</row>
+      <row important_over="false" sidechords="C a F G">Wraca, wspomnienie lata, ale na krótko.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
