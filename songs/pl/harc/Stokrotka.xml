@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Stokrotka">
+  <alias>Gdzie strumyk płynie z wolna</alias>
+  <text_author type="solo">Jan Konstanty Chęciński</text_author>
+  <composer type="solo">Karol Eckert</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Gdzie <ch a="G"/>strumyk <ch a="G7"/>płynie <ch a="G"/>z wolna,</row>
+      <row important_over="true">Roz<ch a="G7"/>siewa <ch a="G"/>zioła <ch a="D7"/>maj.</row>
+      <row important_over="true">Sto<ch a="a"/>krotka <ch a="D7"/>rosła <ch a="a"/>polna,</row>
+      <row important_over="true">A <ch a="G"/>nad nią <ch a="C"/>szumiał <ch a="G"/>gaj.</row>
+      <row important_over="true">Sto<ch a="C"/>krotka <ch a="D"/>rosła <ch a="G"/>pol<ch a="e"/>na,</row>
+      <row important_over="true">A <ch a="a"/>nad nią <ch a="D"/>szumiał <ch a="G"/>gaj, zielony gaj.</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">W tym <ch a="G"/>gaju <ch a="G7"/>tak po<ch a="G"/>nuro,</row>
+      <row important_over="true">Że <ch a="G7"/>aż prze<ch a="G"/>raża <ch a="D7"/>mnie.</row>
+      <row important_over="true">Pta<ch a="a"/>szęta <ch a="D7"/>za wy<ch a="a"/>soko,</row>
+      <row important_over="true">A <ch a="G"/>mnie sa<ch a="C"/>motnej <ch a="G"/>źle.</row>
+      <row important_over="true">Pta<ch a="C"/>szęta <ch a="D"/>za wy<ch a="G"/>so<ch a="e"/>ko,</row>
+      <row important_over="true">A <ch a="a"/>mnie sa<ch a="D"/>motnej <ch a="G"/>źle samotnej źle.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Wtem <ch a="G"/>harcerz <ch a="G7"/>idzie <ch a="G"/>z wolna,</row>
+      <row important_over="false">Sto<ch a="G7"/>krotko <ch a="G"/>witam <ch a="D7"/>cię,</row>
+      <row important_over="false">Twój <ch a="a"/>urok <ch a="D7"/>mnie zach<ch a="a"/>wyca,</row>
+      <row important_over="false">Czy <ch a="G"/>chcesz być <ch a="C"/>mą czy <ch a="G"/>nie?</row>
+      <row important_over="false">Twój <ch a="C"/>urok <ch a="D"/>mnie zach<ch a="G"/>wy<ch a="e"/>ca,</row>
+      <row important_over="false">Czy <ch a="a"/>chcesz być <ch a="D"/>mą czy <ch a="G"/>nie czy nie czy nie?</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tak <ch a="G"/>idą, <ch a="G7"/>idą, <ch a="G"/>idą,</row>
+      <row important_over="false">Aż <ch a="G7"/>zaszli w <ch a="G"/>ciemny <ch a="D7"/>las,</row>
+      <row important_over="false">A <ch a="a"/>harcerz <ch a="D7"/>taki <ch a="a"/>gapa,</row>
+      <row important_over="false">Że <ch a="G"/>aż w pok<ch a="C"/>rzywy <ch a="G"/>wlazł.</row>
+      <row important_over="false">A <ch a="C"/>harcerz <ch a="D"/>taki <ch a="G"/>ga<ch a="e"/>pa,</row>
+      <row important_over="false">Że <ch a="a"/>aż w pok<ch a="D"/>rzywy <ch a="G"/>wlazł.</row>
+      <row important_over="false">Po pas, po pas.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">A <ch a="G"/>ona, <ch a="G7"/>ona, <ch a="G"/>ona,</row>
+      <row important_over="false">Cóż <ch a="G7"/>biedna <ch a="G"/>robić <ch a="D7"/>ma.</row>
+      <row important_over="false">Nad <ch a="a"/>gapą <ch a="D7"/>pochy<ch a="a"/>lona,</row>
+      <row important_over="false">I <ch a="G"/>śmieje <ch a="C"/>się cha,<ch a="G"/>cha.</row>
+      <row important_over="false">Nad <ch a="C"/>gapą <ch a="D"/>pochy<ch a="G"/>lo<ch a="e"/>na,</row>
+      <row important_over="false">I <ch a="a"/>śmieje <ch a="D"/>się cha, <ch a="G"/>cha cha cha cha cha</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
