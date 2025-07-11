@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mgła">
+  <text_author type="solo">Zbigniew Maniak</text_author>
+  <composer type="solo">Zbigniew Maniak</composer>
+  <artist type="band">Z Ostatniej Chwili + Hieronim Saran</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Mgła okryła <ch a="F"/>domy i <ch a="E"/>ulice</row>
+      <row important_over="true"><ch a="a"/>Wlazła między <ch a="F"/>szpary, okien<ch a="E"/>nice.</row>
+      <row important_over="true"><ch a="a"/>Ja w mieszkaniu <ch a="F"/>siedzę, a za <ch a="E"/>oknem</row>
+      <row important_over="true"><ch a="a"/>Dzieją dzisiaj <ch a="F"/>rzeczy się okr<ch a="E"/>opne.</row>
+      <row important_over="true"><ch a="a"/>Tam na plantach, <ch a="F"/>tuż obok cme<ch a="E"/>ntarza</row>
+      <row important_over="true"><ch a="a"/>Mąż żonie wrząt<ch a="F"/>kiem gębę wy<ch a="E"/>parza,</row>
+      <row important_over="true"><ch a="a"/>Chyba pójdę <ch a="F"/>tam ze swoją <ch a="E"/>żoną</row>
+      <row important_over="true"><ch a="a"/>Ona także <ch a="F"/>gębę ma niew<ch a="E"/>yparzoną.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Po prostu <ch a="a"/>mgł<ch a="F"/>a <ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Mgła<ch a="F"/><ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Mgła, mgła, <ch a="F"/>mgła, mgła, <ch a="E"/>mgła</row>
+      <row important_over="true">Po prostu <ch a="a"/>mgła, <ch a="F"/>mgła,<ch a="E"/> mgła</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Patrzę a tu <ch a="F"/>wampir za zakr<ch a="E"/>ętem</row>
+      <row important_over="false"><ch a="a"/>Dusi jakąś <ch a="F"/>fajną babkę pr<ch a="E"/>ętem</row>
+      <row important_over="false"><ch a="a"/>Taka kolej <ch a="F"/>rzeczy już być <ch a="E"/>musi,</row>
+      <row important_over="false"><ch a="a"/>Wampir jedną <ch a="F"/>babkę w roku <ch a="E"/>musi zdusić.</row>
+      <row important_over="false"><ch a="a"/>„Czemu babkę <ch a="F"/>tę dzisiaj przy<ch a="E"/>pierasz?&quot;</row>
+      <row important_over="false"><ch a="a"/>Pytam grzecznie <ch a="F"/>babskiego wam<ch a="E"/>pira</row>
+      <row important_over="false"><ch a="a"/>„Czemu dzisiaj <ch a="F"/>brudzisz swe pa<ch a="E"/>luszki?&quot;</row>
+      <row important_over="false"><ch a="a"/>„jak to czemu? <ch a="F"/>Przecież dzisiaj <ch a="E"/>są Zaduszki&quot;</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Jedna baba <ch a="F"/>takiej drugiej <ch a="E"/>babie</row>
+      <row important_over="false"><ch a="a"/>Wsadziła do <ch a="F"/>torby <ch a="E"/>grabie</row>
+      <row important_over="false"><ch a="a"/>A pozatym <ch a="F"/>całkiem jeszcze <ch a="E"/>nową</row>
+      <row important_over="false"><ch a="a"/>Wsadziła jej w <ch a="F"/>torbę bombę <ch a="E"/>atomową.</row>
+      <row important_over="false"><ch a="a"/>Teraz zaś nie<ch a="F"/>jaki pan Dra<ch a="E"/>kula</row>
+      <row important_over="false"><ch a="a"/>Babkę z bombą w <ch a="F"/>torbie gdzieś przy<ch a="E"/>tula.</row>
+      <row important_over="false"><ch a="a"/>Drakul wiele <ch a="F"/>kobiet ma w re<ch a="E"/>zerwie</row>
+      <row important_over="false"><ch a="a"/>Lecz ta babka <ch a="F"/>świetnie przecież <ch a="E"/>go rozerwie.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>W gęstym mroku, <ch a="F"/>przy cmentarnej <ch a="E"/>bramie</row>
+      <row important_over="false"><ch a="a"/>Kat straszliwy <ch a="F"/>gościa kołem <ch a="E"/>łamie.</row>
+      <row important_over="false"><ch a="a"/>Kat nad gościem <ch a="F"/>męczy się i <ch a="E"/>poci...</row>
+      <row important_over="false"><ch a="a"/>Gościu żyje- <ch a="F"/>czyżby kat rob<ch a="E"/>otę sknocił?</row>
+      <row important_over="false"><ch a="a"/>Kat wciąż śruby w<ch a="F"/> tym kole do<ch a="E"/>kręca</row>
+      <row important_over="false"><ch a="a"/>Nie ma siły <ch a="F"/>już się dalej <ch a="E"/>znęcać</row>
+      <row important_over="false"><ch a="a"/>Nagle w mroku <ch a="F"/>słyszę skargę <ch a="E"/>gościa</row>
+      <row important_over="false"><ch a="a"/>„Nie wiem czemu, <ch a="F"/>coś mnie dzisiaj <ch a="E"/>łamie w kościach...&quot;</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
