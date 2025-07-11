@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wspomnienia Bumeranga">
+  <alias>Przyjdzie rozstań czas</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Przyjdzie <ch a="D"/>rozstań <ch a="e"/>czas</row>
+      <row important_over="false">(Przyjdzie <ch a="G"/>rozstań <ch a="C"/>czas)</row>
+      <row important_over="false">I nie <ch a="D"/>będzie <ch a="e"/>nas,</row>
+      <row important_over="false">(I nie <ch a="G"/>będzie <ch a="C"/>nas)</row>
+      <row important_over="false">Na po<ch a="D"/>lanie <ch a="G"/>tylko pozo<ch a="e"/>stanie</row>
+      <row important_over="false"><ch a="C"/>Po o<ch a="D"/>gnisku <ch a="e"/>śla<ch a="D"/>d.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Daba <ch a="C"/>daj, <ch a="D"/>dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
+      <row important_over="false"><ch a="D"/>Dabadaba <ch a="G"/>daj,<ch a="G"/> daba <ch a="C"/>daj</row>
+      <row important_over="false"><ch a="D"/>Dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
+      <row important_over="false"><ch a="D"/>Dabadaba <ch a="e"/>daj</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Zdartych <ch a="D"/>głosów <ch a="e"/>chór,</row>
+      <row important_over="false">(Zdartych <ch a="G"/>głosów <ch a="C"/>chór)</row>
+      <row important_over="false">Źle <ch a="D"/>złapany <ch a="e"/>dur,</row>
+      <row important_over="false">(Źle <ch a="G"/>złapany <ch a="C"/>dur)</row>
+      <row important_over="false">Warty w <ch a="D"/>nocy, <ch a="G"/>jej niebieskie <ch a="e"/>oczy,</row>
+      <row important_over="false"><ch a="C"/>Nie po<ch a="D"/>wrócą <ch a="e"/>ju<ch a="D"/>ż.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Zaro<ch a="D"/>śniety <ch a="e"/>szlak,</row>
+      <row important_over="false">(Zaro<ch a="G"/>śniety <ch a="C"/>szlak)</row>
+      <row important_over="false">Zapo<ch a="D"/>mniany <ch a="e"/>rajd,</row>
+      <row important_over="false">(Zapo<ch a="G"/>mniany <ch a="C"/>rajd)</row>
+      <row important_over="false">Schronisk <ch a="D"/>pustych <ch a="G"/>i harcerskiej <ch a="e"/>chusty,</row>
+      <row important_over="false"><ch a="C"/>Kiedyś <ch a="D"/>będzie <ch a="e"/>żaaa<ch a="D"/>al.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/> Czyjś <ch a="D"/>zbłąkany <ch a="e"/>głos</row>
+      <row important_over="false">(Czyjś <ch a="G"/>zbłąkany <ch a="C"/>głos)</row>
+      <row important_over="false">Do stru<ch a="D"/>mienia <ch a="e"/>wpadł.</row>
+      <row important_over="false">(Do stru<ch a="G"/>mienia <ch a="C"/>wpadł)</row>
+      <row important_over="false">Nad gó<ch a="D"/>rami, <ch a="G"/>białymi <ch a="e"/>chmurami</row>
+      <row important_over="false"><ch a="C"/>Cicho <ch a="D"/>śpiewa <ch a="e"/>wiaaa<ch a="D"/>aatr.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/> Gdzieś za <ch a="D"/>rok za <ch a="e"/>dwa</row>
+      <row important_over="false">(Gdzieś za <ch a="G"/>rok za <ch a="C"/>dwa)</row>
+      <row important_over="false">Przyjdzie <ch a="D"/>spotkań <ch a="e"/>czas.</row>
+      <row important_over="false">(Przyjdzie <ch a="G"/>spotkań <ch a="C"/>czas)</row>
+      <row important_over="false">Złotych <ch a="D"/>włosów, <ch a="G"/>orzechowych <ch a="e"/>oczu</row>
+      <row important_over="false"><ch a="C"/>Już nie <ch a="D"/>będzie <ch a="e"/>żaaaa<ch a="D"/>aal.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/> Gdzie <ch a="D"/>ogniska <ch a="e"/>blask,</row>
+      <row important_over="false">(Gdzie <ch a="G"/>ogniska <ch a="C"/>blask)</row>
+      <row important_over="false">Stanie <ch a="D"/>obóz <ch a="e"/>nasz.</row>
+      <row important_over="false">(Stanie <ch a="G"/>obóz <ch a="C"/>nasz)</row>
+      <row important_over="false">Na po<ch a="D"/>lanie <ch a="G"/>bratni krąg <ch a="e"/>powstanie</row>
+      <row important_over="false"><ch a="C"/> Jak za <ch a="D"/>dawnych <ch a="e"/>laaaa<ch a="D"/>aat.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
