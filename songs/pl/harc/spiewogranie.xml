@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śpiewogranie">
+  <lyric>
+    <block type="verse">
+      <row important_over="never" sidechords="C G C">Jest, że lepiej już nie</row>
+      <row important_over="never" sidechords="G a">Nie będzie, choć wiem</row>
+      <row important_over="never" sidechords="F G">Że będzie jak jest</row>
+      <row important_over="never" sidechords="C G C">Jest, że serce chce bić</row>
+      <row important_over="never" sidechords="G a">I bije, by żyć</row>
+      <row important_over="never" sidechords="F G">I śpiewać się chce</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never" sidechords="C G">Nasze wędrowanie</row>
+      <row important_over="never" sidechords="C G">Nasze harcowanie</row>
+      <row important_over="never" sidechords="a F">Nasze śpiewogranie</row>
+      <row important_over="never" sidechords="F G">Dziej się, dziej się, dziej</row>
+      <row important_over="never" sidechords="C G">Jeszcze długa droga </row>
+      <row important_over="never" sidechords="C G">Jeszcze ogień płonie</row>
+      <row important_over="never" sidechords="a F">Jeszcze śpiewać mogę</row>
+      <row important_over="never" sidechords="F G">Serce, serce chce...</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="C G C">Nam nie trzeba ni bram	C G C</row>
+      <row important_over="never" sidechords="G a">Raju nie trzeba nam	G a</row>
+      <row important_over="never" sidechords="F G">Tam, gdzie spiewam i gram	F G</row>
+      <row important_over="never" sidechords="C G C">Nam żaden smutek na skroń	C G C</row>
+      <row important_over="never" sidechords="G a">Tylko radość i dłoń	G a</row>
+      <row important_over="never" sidechords="F G">Przyjaźni to znak	F G</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
