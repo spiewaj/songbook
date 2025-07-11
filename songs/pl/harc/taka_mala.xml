@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Taka mała">
+  <alias>Mała</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" sidechords="D G h A">Bo taka mała bardzo mi się spodobała </row>
+      <row important_over="never" sidechords="D G h A">Za taką małą oddałbym kawał duszy ciała </row>
+      <row important_over="never" sidechords="D G h A">Ciała i duszy, abym tylko mógł usłyszeć jej głos. </row>
+      <row important_over="never" sidechords="D G h A">hmmm mógł usłyszeć jej głos</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D G h A">Za taką małą życie oddać by się chciało</row>
+      <row important_over="never" sidechords="D G h A">Dla takiej małej suknie, broszki, kwiaty szale</row>
+      <row important_over="never" sidechords="D G h A">Szale i kwiaty, dom na raty, a w nim dzieciaków tłum.</row>
+      <row important_over="never" sidechords="D G h A">Hmmmm dzieciaków tłum </row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D G h A">Za taką małą i powalczyć by się chciało</row>
+      <row important_over="never" sidechords="D G h A">Bo taka mała, a tak bardzo się wszystkiego bała </row>
+      <row important_over="never" sidechords="D G h A">Bała się złego i dobrego, i w tym był jej wdzięk.</row>
+      <row important_over="never" sidechords="D G h A">hmmm i w tym był jej wdzięk.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="D G h A">Hej! Ty mała bardzo mi się spodobałaś</row>
+      <row important_over="never" sidechords="D G h A">Dla ciebie mała oddałbym kawał duszy ciała </row>
+      <row important_over="never" sidechords="D G h A">Ciała i duszy, lecz na razie wybacz muszę już iść. </row>
+      <row important_over="never" sidechords="D G h A">Hmmmm wybacz muszę już iść. </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
