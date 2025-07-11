@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="To zuchy">
+  <text_author type="solo">Andrzej Starzec</text_author>
+  <comment/>
+  <composer type="solo">Andrzej Starzec</composer>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Mundur chusta pas zuchowy</row>
+      <row important_over="true"><ch a="A"/>beret zdobi <ch a="G"/>głowy</row>
+      <row important_over="true"><ch a="D"/>a na piersi pięknie błyszczy</row>
+      <row important_over="true"><ch a="A"/>znaczek <ch a="G"/>kolorowy!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>To zuchy, to zuchy</row>
+      <row important_over="true"><ch a="A"/>co tu dalej kryć</row>
+      <row important_over="true"><ch a="G"/>to zuchy, to zuchy</row>
+      <row important_over="true"><ch a="D"/>dobrze zuchem być!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Biały orzeł to odwaga</row>
+      <row important_over="false"><ch a="A"/>Słońce radość <ch a="G"/>głosi</row>
+      <row important_over="false"><ch a="D"/>Zuch jak sama nazwa mówi</row>
+      <row important_over="false"><ch a="A"/>w ZHP być <ch a="G"/>musi!</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
