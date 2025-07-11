@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Testament">
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Idę samotny wśród gór zagubiony w świecie</row>
+      <row important_over="false"><ch a="G"/>Wiatr tylko ścieżki me zna</row>
+      <row important_over="false"><ch a="D"/>Słońce niebawem za horyzont się wyniesie</row>
+      <row important_over="false"><ch a="e"/>Światem zawładnie mgła</row>
+      <row important_over="false"><ch a="e"/>Gdy wśród ciemności ognik jakiś ujrzę</row>
+      <row important_over="false"><ch a="G"/>Będzie to dobry znak</row>
+      <row important_over="false"><ch a="D"/>Nowych ludzi poznam od nich się nauczę</row>
+      <row important_over="false"><ch a="e"/>Gawęd starych tak jak świat</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Niech każdy z <ch a="G"/>Was się <ch a="D"/>dowie</row>
+      <row important_over="false">Co <ch a="e"/>traci nie będąc tu</row>
+      <row important_over="false">Świerk szumem <ch a="G"/>ci opo<ch a="D"/>wie</row>
+      <row important_over="false">Co z<ch a="e"/>aszło tu przed laty stu</row>
+      <row important_over="false">Strumień orz<ch a="G"/>eźwi Ci s<ch a="D"/>topy</row>
+      <row important_over="false">I <ch a="e"/>on kiedyś wody dał</row>
+      <row important_over="false">Spragnionym w<ch a="G"/> górach wędr<ch a="D"/>owcom</row>
+      <row important_over="false">Co s<ch a="e"/>zli tędy tak jak ja</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"> <ch a="e"/>Góra za górą chowa swe oblicze</row>
+      <row important_over="false"><ch a="G"/>lecz ja dokładnie je znam</row>
+      <row important_over="false"><ch a="D"/>Żadna mi nie umknie wszystkie je zaliczę</row>
+      <row important_over="false"><ch a="e"/>chociaż to drogi szmat</row>
+      <row important_over="false"><ch a="e"/>wciąż lat przybywa i świat się starzeje</row>
+      <row important_over="false"><ch a="G"/>Cóż naturalna to rzecz</row>
+      <row important_over="false"><ch a="D"/>ktoś kto przeglądać będzie stare te szpargały</row>
+      <row important_over="false"><ch a="e"/>może przeczyta ten tekst</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
