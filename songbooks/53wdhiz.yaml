@@ -1,0 +1,15 @@
+songbook:
+  id: "53wdhiz"
+  uuid: "127bee69-be48-49fd-85af-7ce4ec64d300"
+  title: "Śpiewnik szczepu 53 WDHiZ"
+  subtitle: "2025"
+  url: "https://spiewaj.com/#53wdhiz"
+  publisher: |
+    Szczep 53 Warszawskich Drużyn Harcerskich i Zuchowych
+  place: Hufiec Warszawa Mokotów
+  image:
+    svg: "./53wdhiz/logo.svg"
+    png: "./53wdhiz/logo.png"
+    pdf: "./53wdhiz/logo.pdf"
+  songs:
+    - glob: "songs/pl/custom/53wdhiz/*.xml"
