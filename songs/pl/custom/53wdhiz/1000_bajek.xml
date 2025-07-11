@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="1000 bajek">
+  <lyric>
+    <block type="verse">
+      <row important_over="false">1000 bajek wszystkich krajów,</row>
+      <row important_over="false">Zna na pamięć ten nasz Skrzat,</row>
+      <row important_over="false">O sułtanie, cudnej bramie,</row>
+      <row important_over="false">O sezamie skrytym tak</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kiedy niebem księżyc kroczy,</row>
+      <row important_over="false">Kiedy w nocy wszyscy śpią</row>
+      <row important_over="false">Wtedy skrzaty patrzą na nas</row>
+      <row important_over="false">Jakie baśnie się nam śnią</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tajemniczo ten skrzat gada</row>
+      <row important_over="false">Kto rozumie język ten ?</row>
+      <row important_over="false">Tylko ten co nimi siada,</row>
+      <row important_over="false">Bajki zuchom opowiada.    </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
