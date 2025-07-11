@@ -36,6 +36,8 @@ def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], p
     spine = root.getchildren()[2]
     p = 1
 
+    #print(list_of_songs_meta)
+
     all_files = pre_files + [x.base_file_name() + '.xhtml' for x in list_of_songs_meta if not x.is_alias() ] + post_files
 
     for f in all_files:
