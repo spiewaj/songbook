@@ -61,10 +61,10 @@ jobs:
         run: |
           mkdir -p _site/songs_html _site/songs_tex
           unzip -o _generated/*.zip -d _site
-          mv _generated/index.xhtml _site/index.xhtml
-          mv _generated/*.pdf _site/songs_tex
+          mv _generated/index.xhtml _site/
+          mv _generated/*.pdf _site/songs_tex/
           mv _generated/*.epub _site/
-          mv _generated/*.js _site/index.xhtml
+          mv _generated/*.js _site/
           cp -R editor _site/
           ls -la _site/
 
