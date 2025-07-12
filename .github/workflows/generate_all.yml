@@ -157,6 +157,7 @@ jobs:
           path: | 
             /workspace/build/*.zip
             /workspace/build/index.xhtml
+            /workspace/build/*.js
 
 
       - name: Upload htmls to release
