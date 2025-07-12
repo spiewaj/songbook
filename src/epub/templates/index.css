@@ -1,1 +1,10 @@
 @import url('common.css');
+
+ol.contents li{
+    font-size: large;
+    padding: 0.4em;
+}
+
+ol.contents li a {
+    font-size: large;
+}

@@ -64,6 +64,7 @@ jobs:
           mv _generated/index.xhtml _site/index.xhtml
           mv _generated/*.pdf _site/songs_tex
           mv _generated/*.epub _site/
+          mv _generated/*.js _site/index.xhtml
           cp -R editor _site/
           ls -la _site/
 
