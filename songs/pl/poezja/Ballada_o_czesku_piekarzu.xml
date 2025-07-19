@@ -3,7 +3,7 @@
   <artist>Wolna Grupa Bukowina</artist>
   <lyric>
     <block type="other">
-      <row style="instr">       <ch a="G"/>   <ch a="D"/>        <ch a="A"/>        <ch a="G"/>        <ch a="D"/>     </row>
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="D"/><ch a="A"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="D"/>Chleba takiego jak t<ch a="A"/>en od Cześka</row>
@@ -23,28 +23,33 @@
       <row important_over="true">d<ch a="D"/>rożdży w<ch a="A"/>ody r<ch a="e"/>ąk i zi<ch a="h"/>arna (m<ch a="G"/>ruc<ch a="D"/>zał C<ch a="A"/>zesiek <ch a="G"/>tak noc w<ch a="D"/> noc)</row>
     </block>
     <block type="verse">
-      <row>A o porankach chlebem pachnących</row>
-      <row>Gdy pora idzie spać na piekarzy</row>
-      <row>Zaczerwienione przymykał oczy</row>
-      <row>Czesiek, i siadał z dłutem przy stole</row>
-      <row>Ciągle te same oczy i trochę</row>
-      <row>Za duży nos w drewnie cierpliwym</row>
-      <row>Pieściły ręce dziesiątki razy</row>
-      <row>W poranki świeżym chlebem pachnące</row>
+      <row important_over="false">A o porankach chlebem pachnących</row>
+      <row important_over="false">Gdy pora idzie spać na piekarzy</row>
+      <row important_over="false">Zaczerwienione przymykał oczy</row>
+      <row important_over="false">Czesiek, i siadał z dłutem przy stole</row>
+      <row important_over="false">Ciągle te same oczy i trochę</row>
+      <row important_over="false">Za duży nos w drewnie cierpliwym</row>
+      <row important_over="false">Pieściły ręce dziesiątki razy</row>
+      <row important_over="false">W poranki świeżym chlebem pachnące</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row>nikt takich słów jak miasto miastem</row>
-      <row>nie znał i źle się dzieje mówili</row>
-      <row>na obraz czerniał Czesiek razowca</row>
-      <row>kruszał podobnie bułce zleżałej</row>
+      <row important_over="false">nikt takich słów jak miasto miastem</row>
+      <row important_over="false">nie znał i źle się dzieje mówili</row>
+      <row important_over="false">na obraz czerniał Czesiek razowca</row>
+      <row important_over="false">kruszał podobnie bułce zleżałej</row>
     </block>
     <block type="verse">
-      <row>Gdy go znaleźli na pasku z wojska</row>
-      <row>dłuto jak w bochen wbite miał w garści</row>
-      <row>i nie wie nikt co Cześka wzięło</row>
-      <row>lecz śpiewa każdy jak miasto miastem</row>
+      <row important_over="false">Gdy go znaleźli na pasku z wojska</row>
+      <row important_over="false">dłuto jak w bochen wbite miał w garści</row>
+      <row important_over="false">i nie wie nikt co Cześka wzięło</row>
+      <row important_over="false">lecz śpiewa każdy jak miasto miastem</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
 </song>
