@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o cześku piekarzu">
-  <artist>Wolna Grupa Bukowina</artist>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o Cześku piekarzu">
+  <text_author type="solo">Wojciech Bellon</text_author>
+  <composer type="solo">Wojciech Bellon</composer>
+  <artist type="band">Wolna Grupa Bukowina</artist>
   <lyric>
     <block type="other">
-      <row style="instr">       <ch a="G"/>   <ch a="D"/>        <ch a="A"/>        <ch a="G"/>        <ch a="D"/>     </row>
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="D"/><ch a="A"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="D"/>Chleba takiego jak t<ch a="A"/>en od Cześka</row>
-      <row important_over="true"><ch a="e"/>Nie kupisz n<ch a="G"/>igdzie n<ch a="Fis"/>awet w Wars<ch a="h"/>zawie</row>
+      <row important_over="true"><ch a="e"/>Nie kupisz n<ch a="G"/>igdzie n<ch a="Fis"/>awet w Wa<ch a="h"/>rszawie</row>
       <row important_over="true"><ch a="G"/>Bo Czesiek piekarz n<ch a="A"/>ie piekł lecz tworzył</row>
       <row important_over="true"><ch a="D"/>Bochny jak z mąki sł<ch a="A"/>onecznej kołacze</row>
       <row important_over="true"><ch a="D"/>Kłaniali mu się l<ch a="A"/>udzie gdy wyjrzał</row>
-      <row important_over="true">Przez okno w kitlu łyknąć powietrza</row>
+      <row important_over="true"><ch a="e"/>Przez okno <ch a="G"/>w kitlu ł<ch a="Fis"/>yknąć po<ch a="h"/>wietrza</row>
       <row important_over="true"><ch a="G"/>A kromkę masłem smar<ch a="A"/>ując każdy</row>
       <row important_over="true">M<ch a="D"/>ówił: nad chleby ten ch<ch a="A"/>leb od Cz<ch a="D"/>eśka</row>
     </block>
@@ -23,28 +25,32 @@
       <row important_over="true">d<ch a="D"/>rożdży w<ch a="A"/>ody r<ch a="e"/>ąk i zi<ch a="h"/>arna (m<ch a="G"/>ruc<ch a="D"/>zał C<ch a="A"/>zesiek <ch a="G"/>tak noc w<ch a="D"/> noc)</row>
     </block>
     <block type="verse">
-      <row>A o porankach chlebem pachnących</row>
-      <row>Gdy pora idzie spać na piekarzy</row>
-      <row>Zaczerwienione przymykał oczy</row>
-      <row>Czesiek, i siadał z dłutem przy stole</row>
-      <row>Ciągle te same oczy i trochę</row>
-      <row>Za duży nos w drewnie cierpliwym</row>
-      <row>Pieściły ręce dziesiątki razy</row>
-      <row>W poranki świeżym chlebem pachnące</row>
+      <row important_over="never" sidechords="D A">A o porankach chlebem pachnących</row>
+      <row important_over="never" sidechords="e G Fis h">Gdy pora idzie spać na piekarzy</row>
+      <row important_over="never" sidechords="G A">Zaczerwienione przymykał oczy</row>
+      <row important_over="never" sidechords="D A">Czesiek, i siadał z dłutem przy stole</row>
+      <row important_over="never" sidechords="D A">Ciągle te same oczy i trochę</row>
+      <row important_over="never" sidechords="e G Fis h">Za duży nos w drewnie cierpliwym</row>
+      <row important_over="never" sidechords="G A">Pieściły ręce dziesiątki razy</row>
+      <row important_over="never" sidechords="D A D">W poranki świeżym chlebem pachnące</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row>nikt takich słów jak miasto miastem</row>
-      <row>nie znał i źle się dzieje mówili</row>
-      <row>na obraz czerniał Czesiek razowca</row>
-      <row>kruszał podobnie bułce zleżałej</row>
-    </block>
-    <block type="verse">
-      <row>Gdy go znaleźli na pasku z wojska</row>
-      <row>dłuto jak w bochen wbite miał w garści</row>
-      <row>i nie wie nikt co Cześka wzięło</row>
-      <row>lecz śpiewa każdy jak miasto miastem</row>
+      <row important_over="never" sidechords="D A">nikt takich słów jak miasto miastem</row>
+      <row important_over="never" sidechords="e G Fis h">nie znał i źle się dzieje mówili</row>
+      <row important_over="never" sidechords="G A">na obraz czerniał Czesiek razowca</row>
+      <row important_over="never" sidechords="D A">kruszał podobnie bułce zleżałej</row>
+      <row important_over="never" sidechords="D A">Gdy go znaleźli na pasku z wojska</row>
+      <row important_over="never" sidechords="e G Fis h">dłuto jak w bochen wbite miał w garści</row>
+      <row important_over="never" sidechords="G A">i nie wie nikt co Cześka wzięło</row>
+      <row important_over="never" sidechords="D A D">lecz śpiewa każdy jak miasto miastem</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
 </song>
