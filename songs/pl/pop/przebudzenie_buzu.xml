@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przebudzenie">
+  <alias>Nie wiesz, nie wiesz</alias>
+  <artist type="band">Buzu Squat</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Słuchać w pełnym <ch a="G"/>słońcu, <ch a="d"/>jak pulsuje <ch a="a"/>Ziemia</row>
+      <row important_over="true"><ch a="C"/>Uspokoić swoje <ch a="G"/>serce i <ch a="d"/>niczego już nie <ch a="a"/>zmieniać</row>
+      <row important_over="true"><ch a="C"/>I uwierzyć <ch a="G"/>w siebie <ch a="d"/>porzucając <ch a="a"/>sny</row>
+      <row important_over="true"><ch a="C"/>To twój bunt <ch a="G"/>przemija, a <ch a="d"/>nie ty<ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="C"/>Nie wiesz, <ch a="G"/>nie wiesz, <ch a="d"/>nie rozumiesz <ch a="a"/>nic </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Widzieć parę <ch a="G"/>bobrów <ch a="d"/>przytulonych <ch a="a"/>nad potokiem</row>
+      <row important_over="false"><ch a="C"/>Nie zabijać <ch a="G"/>ich więcej, <ch a="d"/>cieszyć się <ch a="a"/>widokiem</row>
+      <row important_over="false"><ch a="C"/>Nie wyjadać i<ch a="G"/>m wnętrzności, <ch a="d"/>nie wchodzić w<ch a="a"/> ich skórę</row>
+      <row important_over="false"><ch a="C"/>Stępić w sobie <ch a="G"/>instynkt łowcy,<ch a="d"/> wtopić w <ch a="a"/>naturę i</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wybrać to, <ch a="G"/>co dobre z m<ch a="d"/>ądrych starych <ch a="a"/>ksiąg</row>
+      <row important_over="false"><ch a="C"/>Uszanować swoją<ch a="G"/> godność <ch a="d"/>doceniając <ch a="a"/>ją</row>
+      <row important_over="false"><ch a="C"/>A gdy wreszcie <ch a="G"/>uda się w<ch a="d"/>łasne zło <ch a="a"/>pokonać</row>
+      <row important_over="false"><ch a="C"/>żeby zawsze <ch a="G"/>mieć przy sobie <ch a="d"/>czyjeś <ch a="a"/>ramiona</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Wyczuć taką chwilę, <ch a="G"/>w której <ch a="d"/>kocha się <ch a="a"/>życie</row>
+      <row important_over="false"><ch a="C"/>I móc w niej być <ch a="G"/>stale, <ch a="d"/>na wieczność <ch a="a"/>w zachwycie</row>
+      <row important_over="false"><ch a="C"/>W pełnym słońcu <ch a="G"/>dumnie, n<ch a="d"/>a własnych <ch a="a"/>nogach</row>
+      <row important_over="false"><ch a="C"/>Może wtedy będzie<ch a="G"/> można <ch a="d"/>ujrzeć uśmiech <ch a="a"/>Boga</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <bis times="6">
+        <row important_over="false"><ch a="C"/>Przejść Wielką <ch a="G"/>Rzekę b<ch a="d"/>ez bólu i<ch a="a"/> wyrzeczeń</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
