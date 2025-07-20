@@ -91,17 +91,39 @@ a:hover {
     border-bottom: 1px solid #e9ecef;
     padding: 0.8em 1em;
     transition: background-color 0.2s ease;
+    cursor: pointer;
 }
 
 #songs li:last-child { border-bottom: none; }
 #songs li:hover { background-color: #eef2f5; }
 
 #songs li a {
-    flex-grow: 1;
     font-size: 1.1em;
     color: #333;
     font-weight: 400;
 }
+
+#songs li .alias {
+    margin-left: 0.5em; /* Adds space between the title and the alias */
+    font-size: 0.9em;
+    color: #6c757d;
+    font-style: italic;
+}
+
+#songs li .alias::before {
+    content: '(';
+}
+
+#songs li .alias::after {
+    content: ')';
+}
+
+#songs li .artist {
+    margin-left: auto; /* This takes up all available space, pushing the element to the end */
+    padding-left: 1em; /* Ensures some space between the alias and artist on smaller screens */
+    white-space: nowrap; /* Prevents artist name from wrapping awkwardly */
+}
+
 
 #songs li a:hover {
     text-decoration: none;

@@ -16,7 +16,11 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
         song = list_of_songs_meta[i]
         if song.is_alias():
             continue
+        song_html = os.path.join("./songs_html", song.base_file_name() + '.xhtml')
         li = etree.SubElement(ul, "li")
+        # entire li is clickable and should navigate to the song
+        li.attrib['onclick'] = "location.href='"+song_html+"';"
+
         # <button onclick='edit("zaciagnijcie_na_oknie_niebieska_zaslone.xhtml")'><span class="material-symbols-outlined">edit</span></button>
         button = etree.SubElement(li, "button")
         button.attrib['class'] = 'editicon'
@@ -25,8 +29,14 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
         span.attrib['class'] = 'material-symbols-outlined'
         span.text = 'edit'
         a = etree.SubElement(li, "a")
-        a.attrib['href'] = os.path.join("./songs_html", song.base_file_name() + '.xhtml')
+        a.attrib['href'] = song_html
         a.text = list_of_songs_meta[i].effectiveTitle()
+        for song_alias in song.aliases():
+            alias = etree.SubElement(li, "span", attrib={"class": "alias"})
+            alias.text = song_alias
+        if song.artist():
+            artist = etree.SubElement(li, "span", attrib={"class": "artist"})
+            artist.text = song.artist()
 
     # List of songbooks
     ul = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}ul[@id='songbooks']")
@@ -36,10 +46,10 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
             li.text=songbook.title() + ":"
             a_epub = etree.SubElement(ul, "a", attrib={"class": "epub", "href": songbook.id()+".epub"})
             a_epub.text = "EPUB (kindle)"
-            a_a4pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
-            a_a4pdf.text = "PDF (a4)"
             a_a5pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a5.pdf")})
             a_a5pdf.text = "PDF (a5)"
+            a_a4pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
+            a_a4pdf.text = "PDF (a4)"
     et = etree.ElementTree(tree.getroot())
     et.write(out_path, pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
 
