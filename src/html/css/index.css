@@ -92,6 +92,9 @@ a:hover {
     padding: 0.8em 1em;
     transition: background-color 0.2s ease;
     cursor: pointer;
+
+    flex-wrap: wrap;      /* Allow items to wrap to the next line */
+    gap: 0.5em 1em;       /* Add space: 0.5em vertically, 1em horizontally */
 }
 
 #songs li:last-child { border-bottom: none; }
@@ -121,7 +124,6 @@ a:hover {
 #songs li .artist {
     margin-left: auto; /* This takes up all available space, pushing the element to the end */
     padding-left: 1em; /* Ensures some space between the alias and artist on smaller screens */
-    white-space: nowrap; /* Prevents artist name from wrapping awkwardly */
 }
 
 
