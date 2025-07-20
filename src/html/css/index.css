@@ -124,10 +124,6 @@ a:hover {
 #songs li .artist {
     margin-left: auto; /* This takes up all available space, pushing the element to the end */
     padding-left: 1em; /* Ensures some space between the alias and artist on smaller screens */
-<<<<<<< HEAD
-    white-space: nowrap; /* Prevents artist name from wrapping awkwardly */
-=======
->>>>>>> 89d3626 (Fix...)
 }
 
 
