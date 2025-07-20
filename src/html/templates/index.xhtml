@@ -25,7 +25,9 @@
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
             });
+            searchBox.scrollIntoView({ behavior: 'instant' });
         });
+
         // Focus search bar on keypress
         document.addEventListener("keypress", function(event) {
            if (document.activeElement.id !== 'songSearch') {
