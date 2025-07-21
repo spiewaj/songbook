@@ -172,6 +172,9 @@ p {
     margin-top: 2em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    top:5px;
+    position: sticky; /* Keeps the search box at the top when scrolling */
+    z-index: 1000; /* Ensures it stays above other content */
 }
 
 .search-label {
