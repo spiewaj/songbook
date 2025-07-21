@@ -25,15 +25,14 @@
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
             });
-            const searchView = document.getElementById("songSearch");
-            searchView.scrollIntoView({ behavior: 'instant' });
+            const beforeSearch = document.getElementById("before-search");
+            beforeSearch.scrollIntoView({ behavior: 'instant' });
         });
 
         // Focus search bar on keypress
         document.addEventListener("keypress", function(event) {
             const beforeSearch = document.getElementById("before-search");
             beforeSearch.scrollIntoView({ behavior: 'instant' });
-            console.log("Scrolled... Key pressed:", event.key);
 
             const searchBox = document.getElementById("songSearch");
             // If the search box is not focused, focus it
