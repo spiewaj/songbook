@@ -25,17 +25,21 @@
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
             });
-            searchBox.scrollIntoView({ behavior: 'instant' });
+            const beforeSearch = document.getElementById("before-search");
+            beforeSearch.scrollIntoView({ behavior: 'instant' });
         });
 
         // Focus search bar on keypress
         document.addEventListener("keypress", function(event) {
+            const beforeSearch = document.getElementById("before-search");
+            beforeSearch.scrollIntoView({ behavior: 'instant' });
+
             const searchBox = document.getElementById("songSearch");
             // If the search box is not focused, focus it
             if (document.activeElement.id !== 'songSearch') {
                 searchBox.focus();
             }
-            searchBox.scrollIntoView({ behavior: 'instant' });
+            
             if (event.key === 'Enter') {
                 event.preventDefault(); // Prevent form submission
                 filterSongs(); // Call the search function
@@ -89,6 +93,8 @@
       <p>Wersję na Kindla możesz wgrać używając: <a href="https://www.amazon.com/sendtokindle">https://www.amazon.com/sendtokindle</a></p>
     </div>
 </div>
+   <!--Anchor-->
+   <a id="before-search"/>
     <!-- <h2>Piosenki</h2> -->
     <div class="search-container">
         <label for="songSearch" class="search-label">Szukaj piosenki:</label>
