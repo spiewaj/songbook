@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chodźmy nad wodę">
+  <text_author type="solo">Katarzyna Sienkiewicz</text_author>
+  <composer type="solo">Katarzyna Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Wróciło lato i n<ch a="G"/>oce są jasne</row>
+      <row important_over="false"><ch a="A"/>Chcę znowu spotkać c<ch a="E"/>ię po raz pierwszy</row>
+      <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Chodźmy nad<ch a="E"/> wodę</row>
+      <row important_over="false"><ch a="E"/>Na twoich kolana<ch a="G"/>ch zasnę</row>
+      <row important_over="false"><ch a="A"/>Wymyślę więcej dobry<ch a="E"/>ch wierszy</row>
+      <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Chodźmy nad<ch a="E"/> wodę</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="E"/>A wod<ch a="H"/>a sze<ch a="D"/>roka<ch a="A"/></row>
+      <row important_over="false"><ch a="E"/>Chłodn<ch a="H"/>a, g<ch a="D"/>łębok<ch a="A"/>a</row>
+      <row important_over="false">Śp<ch a="H"/>iewam i szepczę</row>
+      <row important_over="false">Je<ch a="D"/>szcze, jeszcze</row>
+      <row important_over="false">R<ch a="A"/>azem możemy więcej</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Odpowiem na każde tw<ch a="G"/>oje pytanie</row>
+      <row important_over="false"><ch a="A"/>Zrozumiem cię bez sł<ch a="E"/>ów</row>
+      <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Teraz już <ch a="E"/>mogę</row>
+      <row important_over="false"><ch a="E"/>Wstanę pewnie wcześn<ch a="G"/>ie nad ranem</row>
+      <row important_over="false"><ch a="A"/>Pośród innych niebieskich<ch a="E"/> głów</row>
+      <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Chodźmy nad<ch a="E"/> wodę</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
