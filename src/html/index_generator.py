@@ -68,6 +68,22 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
         lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
         changefreq = etree.SubElement(url, "changefreq")
         changefreq.text = "weekly"
+
+
+    for songbook in sb.songbooks():
+        if not songbook.hidden():
+            # https://spiewaj.com/dino.epub
+            # https://spiewaj.com/songs_tex/dino_a5.pdf
+            # https://spiewaj.com/songs_tex/dino_a4.pdf
+            for format in ["{}.epub", "songs_tex/{}_a5.pdf", "songs_tex/{}_a4.pdf"]:
+                url = etree.SubElement(root, "url")
+                loc = etree.SubElement(url, "loc")
+                loc.text = os.path.join(".", format.format(songbook.id()))
+                lastmod = etree.SubElement(url, "lastmod")
+                lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+            changefreq = etree.SubElement(url, "changefreq")
+            changefreq.text = "monthly"
+    
     tree = etree.ElementTree(root)
     tree.write(sitemap_path, pretty_print=True, xml_declaration=True, encoding='utf-8')
     print(f"Sitemap created at {sitemap_path}")
