@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na Mazury">
-  <text_author>Lucjusz&quot; Michał Kowalczyk</text_author>
+  <text_author type="solo">&quot;Lucjusz&quot; Michał Kowalczyk</text_author>
   <composer type="solo">Lucjusz Michał Kowalczyk</composer>
   <artist type="band">Spinakery</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Się masz witam Cię<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Piękną sprawę mam<ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Pakuj bety swe<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>I jedź ze mną tam<ch a="C"/></row>
-      <row important_over="false"><ch a="F"/>Rzuć kłopotów stos<ch a="C"/></row>
-      <row important_over="false"><ch a="G"/>No nie wykręcaj się<ch a="C"/></row>
-      <row important_over="false"><ch a="F"/>Całuj wszystko w nos<ch a="C"/></row>
-      <row important_over="false"><ch a="G"/>Osobowym drugą klasą</row>
-      <row important_over="false"><ch a="G"/>Przejedziemy się</row>
+      <row important_over="true"><ch a="C"/>Się masz witam Cię<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Piękną sprawę mam<ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Pakuj bety swe<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>I jedź ze mną tam<ch a="C"/></row>
+      <row important_over="true"><ch a="F"/>Rzuć kłopotów stos<ch a="C"/></row>
+      <row important_over="true"><ch a="G"/>No nie wykręcaj się<ch a="C"/></row>
+      <row important_over="true"><ch a="F"/>Całuj wszystko w nos<ch a="C"/></row>
+      <row important_over="true"><ch a="G"/>Osobowym drugą klasą</row>
+      <row important_over="true"><ch a="G"/>Przejedziemy się</row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="C"/>Na Mazury Mazury Mazury<ch a="F"/><ch a="C"/></row>
