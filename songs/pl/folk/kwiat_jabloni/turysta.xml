@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Turysta">
+  <comment/>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="C"/><ch a="d"/><ch a="B"/><ch a="A"/></row>
+      <row important_over="false" style="instr"> <ch a="B"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Lub<ch a="C"/>ię<ch a="A"/> mówić, lecz nie lubię słyszeć,</row>
+      <row important_over="true"><ch a="d"/>Kie<ch a="C"/>dy<ch a="G"/> ktoś mówi i zakłóca moją cenną ciszę,</row>
+      <row important_over="true"><ch a="d"/>Lub<ch a="C"/>ię<ch a="A"/> przejąć się na małą chwilę,</row>
+      <row important_over="true"><ch a="d"/>Nie<ch a="C"/> l<ch a="d"/>ubię kiedy ktoś zakłóca moją ciszę.</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Wid<ch a="C"/>zę<ch a="A"/>, jak się dookoła topią,</row>
+      <row important_over="false"><ch a="d"/>Wid<ch a="C"/>zę<ch a="G"/> jak chodzą szukać swego wybawienia boso,</row>
+      <row important_over="false"><ch a="d"/>Wci<ch a="C"/>ąg<ch a="A"/>a cały świat ich aż po szyję,</row>
+      <row important_over="false"><ch a="d"/>A j<ch a="C"/>a <ch a="G"/>nie pomogę, no bo lubię moją ciszę.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="d"/>A g<ch a="C"/>dybyś tak umiał czuć tak jak ja</row>
+      <row important_over="false"><ch a="B"/>I c<ch a="A"/>hciałbyś sam się otworzyć na świat</row>
+      <row important_over="false"><ch a="d"/>Ogl<ch a="C"/>ądasz choć jest tak mało światła</row>
+      <row important_over="false"><ch a="G"/>Pr<ch a="A"/>ze<ch a="d"/>stań zwiedzać świat</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Sły<ch a="C"/>sz<ch a="A"/>ę, jak mi strasznie bije serce,</row>
+      <row important_over="false"><ch a="d"/>Ale<ch a="C"/> n<ch a="G"/>ie widzę, że mam bardzo często brudne ręce,</row>
+      <row important_over="false"><ch a="d"/>Cho<ch a="C"/>dz<ch a="A"/>ę w koło i wszystko oglądam,</row>
+      <row important_over="false"><ch a="d"/>Jes<ch a="C"/>te<ch a="d"/>m turystą, więc oglądam to, co spotkam</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>I c<ch a="C"/>za<ch a="A"/>sem coś tam do mnie ludzie mówią,</row>
+      <row important_over="false"><ch a="d"/>Cza<ch a="C"/>sem rozumiem, czasem nie chcę, bo za bardzo <ch a="G"/>trują,</row>
+      <row important_over="false"><ch a="d"/>Pom<ch a="C"/>yś<ch a="A"/>l, mówią, jak ich życie szare,</row>
+      <row important_over="false"><ch a="d"/>O c<ch a="C"/>zy<ch a="d"/>m tu myśleć, przecież głodu nie ma wcale.</row>
+    </block>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
