@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Drogi proste">
+  <comment/>
+  <artist type="solo">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Nikt mnie nie u<ch a="G"/>przedzał, nie ostrz<ch a="F"/>egał jak bę<ch a="C"/>dzie</row>
+      <row important_over="false"><ch a="a"/>Nikt nie<ch a="G"/> podał pr<ch a="F"/>zyczyny</row>
+      <row important_over="false"><ch a="a"/>Nikt nie powie<ch a="G"/>dział słowa, <ch a="F"/>lecz w p<ch a="d"/>ędzie wy<ch a="a"/>stawiono <ch a="G"/>mnie pod dr<ch a="F"/>zwi</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Tobie niczego n<ch a="G"/>ie dor<ch a="d"/>adzę, <ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>nie znajdę po<ch a="G"/>dpowied<ch a="F"/>zi</row>
+      <row important_over="false"><ch a="a"/>Mogę na<ch a="G"/> drogę p<ch a="d"/>oklepać Ci<ch a="F"/>ę w ramię</row>
+      <row important_over="false"><ch a="a"/>Popatrz d<ch a="G"/>o góry <ch a="F"/>i lecisz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Tylk<ch a="G"/>o raz<ch a="C"/> powie<ch a="F"/>dz tak</row>
+      <row important_over="false"><ch a="a"/>A zacznie się <ch a="G"/>począ<ch a="F"/>tek</row>
+      <row important_over="false"><ch a="a"/>Sam <ch a="G"/>sobie <ch a="C"/>dajes<ch a="F"/>z znak</row>
+      <row important_over="false"><ch a="a"/>Wybierasz d<ch a="G"/>rogi p<ch a="d"/>roste <ch a="F"/>ee</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="a"/><ch a="G"/><ch a="d"/><ch a="F"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Zdawało mi się, <ch a="F"/>że miało być ła<ch a="C"/>twiej</row>
+      <row important_over="false"><ch a="a"/>Prościej i <ch a="G"/>szybciej, <ch a="F"/>zabawniej i ładniej</row>
+      <row important_over="false"><ch a="a"/>Miałam <ch a="G"/>wiedzieć którą <ch a="F"/>wybrać s<ch a="C"/>tronę,</row>
+      <row important_over="false"><ch a="a"/>mówili sko<ch a="G"/>czysz i nie u<ch a="F"/>toniesz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Będziesz wied<ch a="G"/>ział gdzie <ch a="F"/>góra, gdzie<ch a="d"/> dół</row>
+      <row important_over="false"><ch a="a"/>Poczujesz j<ch a="G"/>ak równo d<ch a="F"/>zielić n<ch a="d"/>a pół</row>
+      <row important_over="false"><ch a="a"/>Od razu <ch a="G"/>zrozumiesz, że <ch a="F"/>lepszy,<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>to nie<ch a="G"/>koniecznie i<ch a="F"/> nie zawsze ten si<ch a="C"/>lniejszy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>I że uc<ch a="G"/>iekać pr<ch a="F"/>zed <ch a="C"/>czymś</row>
+      <row important_over="false"><ch a="a"/>Oznacza <ch a="G"/>dać z<ch a="F"/>łapać się <ch a="C"/>pierwszym</row>
+      <row important_over="false"><ch a="a"/>A wszystko <ch a="G"/>co wiem do <ch a="F"/>dzisiaj<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Że na p<ch a="G"/>oczątku i na k<ch a="d"/>ońcu jest c<ch a="F"/>iszaaa</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Tylk<ch a="G"/>o ra<ch a="C"/>z powied<ch a="F"/>z tak</row>
+      <row important_over="false">A zacznie <ch a="a"/>się<ch a="G"/> po<ch a="F"/>czątek</row>
+      <row important_over="false"><ch a="a"/>Sam <ch a="G"/>sobie <ch a="C"/>dajesz <ch a="F"/>znak</row>
+      <row important_over="false">Wybierasz<ch a="a"/> dr<ch a="G"/>ogi pr<ch a="d"/>oste <ch a="F"/>ee</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Czasami n<ch a="C"/>ie mam <ch a="F"/>tyle siły<ch a="G"/> w sobie</row>
+      <row important_over="false"><ch a="F"/>By można jej<ch a="d"/> było <ch a="C"/>dodać <ch a="G"/>Tobie</row>
+      <row important_over="false"><ch a="d"/>I bywa, <ch a="C"/>że mam m<ch a="F"/>iłości z<ch a="G"/>a mało</row>
+      <row important_over="false"><ch a="F"/>By jeszcze<ch a="d"/> kogoś ko<ch a="C"/>chać się <ch a="G"/>udało</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Tyl<ch a="G"/>ko ra<ch a="C"/>z powied<ch a="F"/>z tak</row>
+      <row important_over="false">A zacznie <ch a="a"/>si<ch a="G"/>ę <ch a="F"/>początek</row>
+      <row important_over="false"><ch a="a"/>Sam <ch a="G"/>sobie <ch a="C"/>dajesz <ch a="F"/>znak</row>
+      <row important_over="false"><ch a="a"/>Wybierasz d<ch a="G"/>rogi pro<ch a="d"/>ste <ch a="F"/>ee</row>
+      <row important_over="false"><ch a="a"/>Tylk<ch a="G"/>o ra<ch a="C"/>z powied<ch a="F"/>z tak</row>
+      <row important_over="false">A zacznie <ch a="a"/>si<ch a="G"/>ę <ch a="F"/>początek</row>
+      <row important_over="false"><ch a="a"/>Sam <ch a="G"/>sobie <ch a="C"/>dajesz<ch a="F"/> znak</row>
+      <row important_over="false"><ch a="a"/>Wybierasz d<ch a="G"/>rogi pro<ch a="d"/>ste <ch a="F"/> ee</row>
+      <row important_over="false"><ch a="a"/>Drog<ch a="G"/>i p<ch a="F"/>roste</row>
+      <row important_over="false"><ch a="a"/>Dro<ch a="G"/>gi <ch a="F"/>proste...</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
