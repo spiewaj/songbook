@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada antysojowa">
-	<alias></alias>
 	<text_author type="solo">Jakub Pochrybniak</text_author>
-	<comment>Powstało w czasie obozu 21. WDH w Rumunii w 2003 roku, gdy kwatermistrz zagroził podaniem na stół po raz siódmy w tygodniu kotletów sojowych. </comment>
+	<comment>Powstało w czasie obozu 21. WDH w Rumunii w 2003 roku, gdy kwatermistrz zagroził podaniem na stół po raz siódmy w tygodniu kotletów sojowych.</comment>
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">21. WDW „Stare Żbiki”</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="true">Brn<ch a="D"/>ąłem do ciebie, b<ch a="A"/>arze,</row>
 			<row important_over="true">Przez mr<ch a="G0"/>ozy i wia<ch a="h"/>try,</row>
@@ -49,28 +46,21 @@
 			<row important_over="false">To b<ch a="G"/>ędzie rozpierd<ch a="A"/>olk<ch a="D"/>a</row>
 		</block>
 	</lyric>
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
 	<keywords/>
-	<album></album>
 	<genre>Piosenka harcerska - parodia</genre>
 	<status>
-		<done>	
-			
-			
+		<done>
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Taboret na podstawie orginału</verificator><verificator>Kuba na podstawie pamięci i zdrowego rozsądku</verificator><verificator>Onufry na podstawie poprawek z KK</verificator>
-			
-			
-			
+			<verificator>Taboret na podstawie orginału</verificator>
+			<verificator>Kuba na podstawie pamięci i zdrowego rozsądku</verificator>
+			<verificator>Onufry na podstawie poprawek z KK</verificator>
 		</verificators>
 		<to_do>Porozmieszczane. Metrum jak zwykle. Sugerowałbym G0 zamiast Gzm7 - taka jest ogólnie przyjęta notacja. Nie wiem, co się pochrzaniło ze sprawdzającymi. Co poza tym? Nie wiem, co robisz z myślnikami, więc wstawiłem potrójny jako pauzę (LaTeX tak właśnie tworzy pauzy, jak wiesz).</to_do>
 	</status>
