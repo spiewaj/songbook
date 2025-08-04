@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie ma czasu">
+  <text_author type="solo">Katarzyna Sienkiewicz</text_author>
+  <composer type="solo">Katarzyna Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"> Z oddali p<ch a="a"/>atrzę, poważny mam wzr<ch a="F"/>ok</row>
+      <row important_over="true">Bo to co b<ch a="C"/>yło słusznie odch<ch a="G"/>odzi</row>
+      <row important_over="true">Kiedy podch<ch a="a"/>odzę, wtedy już wi<ch a="F"/>em</row>
+      <row important_over="true">Wiem z czym na z<ch a="C"/>awsze czł<ch a="G"/>owiek się r<ch a="C"/>odzi</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Z tym, że jest<ch a="a"/> radość w sercu dzieci<ch a="F"/>ęca</row>
+      <row important_over="false">I że chcesz <ch a="C"/>wierzyć w to, cze<ch a="G"/>go nie ma</row>
+      <row important_over="false">Że kiedy pi<ch a="a"/>erwszy zapada zmro<ch a="F"/>k</row>
+      <row important_over="false">Boisz się <ch a="C"/>ruchu <ch a="G"/>własnego <ch a="C"/>cienia</row>
+    </block>
+    <block type="other">
+      <row important_over="false">A prz<ch a="F"/>ecież b<ch a="a"/>yliśmy już t<ch a="C"/>ak dal<ch a="G"/>eko</row>
+      <row important_over="false">Prz<ch a="F"/>ecież b<ch a="a"/>yliśmy już t<ch a="C"/>ak dal<ch a="G"/>eko</row>
+      <row important_over="false" style="instr"> <ch a="F"/><ch a="a"/><ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">N<ch a="a"/>ie ma cz<ch a="F"/>as<ch a="C"/>u na wi<ch a="G"/>ęcej</row>
+      <row important_over="false">N<ch a="a"/>ie ma cz<ch a="F"/>as<ch a="C"/>u, bo prz<ch a="G"/>ecież</row>
+      <row important_over="false">Sł<ch a="a"/>ońce znów wst<ch a="F"/>aje, a ja n<ch a="C"/>ie odróżniam d<ch a="G"/>ni od lat</row>
+      <row important_over="false">Sł<ch a="a"/>ońce znów wst<ch a="F"/>aje, a ja n<ch a="C"/>ie odróżniam d<ch a="G"/>ni od lat</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"> I znowu <ch a="a"/>stoję na pół przeci<ch a="F"/>ęta</row>
+      <row important_over="false">Powraca co<ch a="C"/> było już tylko w<ch a="G"/>e śnie</row>
+      <row important_over="false">Ta sama<ch a="a"/> trwoga jest niepoję<ch a="F"/>ta</row>
+      <row important_over="false">To samo <ch a="C"/>szczęście,<ch a="G"/> jasność ja<ch a="C"/>k wcześniej</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Krok co <ch a="a"/>pewny był chwiejny się<ch a="F"/> staje</row>
+      <row important_over="false">Pr<ch a="C"/>zypomina się serce<ch a="G"/> ciężkie</row>
+      <row important_over="false">Dalekie <ch a="a"/>bliskie się teraz wyda<ch a="F"/>je</row>
+      <row important_over="false">Co było<ch a="C"/> małe <ch a="G"/>znowu jest <ch a="C"/>wielkie</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
