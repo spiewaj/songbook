@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na Mazury">
-  <alias/>
-  <text_author>Lucjusz" Michał Kowalczyk</text_author>
-  <comment/>
+  <text_author>Lucjusz&quot; Michał Kowalczyk</text_author>
   <composer type="solo">Lucjusz Michał Kowalczyk</composer>
   <artist type="band">Spinakery</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Się masz witam Cię<ch a="G"/></row>
@@ -71,11 +67,12 @@
       <row important_over="false"><ch a="G"/>Woła do nas dzień dobry żeglarze<ch a="C"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
