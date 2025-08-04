@@ -19,7 +19,7 @@
       <row important_over="true"><ch a="a"/>Sam <ch a="G"/>sobie <ch a="C"/>dajes<ch a="F"/>z znak</row>
       <row important_over="true"><ch a="a"/>Wybierasz d<ch a="G"/>rogi p<ch a="d"/>roste <ch a="F"/>ee</row>
     </block>
-    <block type="verse">
+    <block type="other">
       <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="a"/><ch a="G"/><ch a="d"/><ch a="F"/></row>
     </block>
     <block type="verse">
