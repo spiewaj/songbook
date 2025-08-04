@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cicha noc">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Cicha noc, święta noc</row>
@@ -33,11 +26,12 @@
       <row important_over="false"><ch a="G7"/>Odkupienie win<ch a="C"/><ch a="G7"/><ch a="C"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
