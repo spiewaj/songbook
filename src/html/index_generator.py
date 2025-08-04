@@ -1,3 +1,4 @@
+import datetime
 import os
 import sys
 import src.lib.songbook as sb
@@ -62,9 +63,9 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
             continue
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
-        loc.text = os.path.join(sb.repo_dir(), "songs_html", song.base_file_name() + ".xhtml")
+        loc.text = os.path.join(".", "songs_html", song.base_file_name() + ".xhtml")
         lastmod = etree.SubElement(url, "lastmod")
-        lastmod.text = song.last_modified().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+        lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
         changefreq = etree.SubElement(url, "changefreq")
         changefreq.text = "weekly"
     tree = etree.ElementTree(root)
