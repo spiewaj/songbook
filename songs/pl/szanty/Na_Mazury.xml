@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na Mazury">
   <text_author type="solo">&quot;Lucjusz&quot; Michał Kowalczyk</text_author>
-  <composer type="solo">Lucjusz Michał Kowalczyk</composer>
+  <composer type="solo">&quot;Lucjusz&quot; Michał Kowalczyk</composer>
   <artist type="band">Spinakery</artist>
   <lyric>
     <block type="verse">
