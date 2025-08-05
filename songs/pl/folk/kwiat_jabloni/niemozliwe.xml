@@ -11,7 +11,7 @@
     </block>
     <block type="chorus">
       <row important_over="true">Niemożliwe n<ch a="E"/>am się dos<ch a="Asus2"/>tało</row>
-      <row important_over="true">N<ch a="h"/>ie ma powodów do <ch a="Asus2"/>łez<ch a="E"/> </row>
+      <row important_over="true">N<ch a="h"/>ie ma powodów do <ch a="Asus2"/>łez<ch a="E"/></row>
       <row important_over="true"><ch a="h"/>A każdy mówi,<ch a="E"/> że m<ch a="Asus2"/>ało</row>
       <row important_over="true">m<ch a="h"/>usisz więcej niż ch<ch a="Asus2"/>ces<ch a="E"/>z</row>
     </block>
@@ -32,6 +32,7 @@
     </block>
   </lyric>
   <keywords/>
+  <genre>Folk</genre>
   <status>
     <done/>
     <verificators/>
