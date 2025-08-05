@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nic więcej">
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
+  <comment/>
+  <composer>Jacek Sienkiewicz</composer>
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"> <ch a="A"/>Patrzę w niebo lecz miasto się odbija w <ch a="fis"/>nim</row>
+      <row important_over="true"><ch a="A"/>Czas szybko płynie, wyścigi wyznaczają <ch a="fis"/>rytm</row>
+      <row important_over="true">A wszyscy <ch a="A"/>dookoła spadają w górę na sam <ch a="fis"/>szczyt</row>
+      <row important_over="true"><ch a="A"/>W złotych maskach zapominamy kto jest <ch a="fis"/>kim, kto jest <ch a="E"/>kim</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">T<ch a="h"/>ak wiele <ch a="E"/>do zdobycia <ch a="fis"/>świat daje <ch a="E"/>dziś</row>
+        <row important_over="true"><ch a="h"/>Tak mało <ch a="E"/>potrzebujesz, ż<ch a="fis"/>eby co dzień cieszyć się<ch a="E"/> nim</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Patrzę w księżyc, tak blisko zdaje się być mnie<ch a="fis"/></row>
+      <row important_over="false"><ch a="A"/>Mgła pod nogami, a góry rozmazują się<ch a="fis"/></row>
+      <row important_over="false">A teraz <ch a="A"/>zamknę oczy, pomyślę, że tak mogę wiecznie trwać<ch a="fis"/></row>
+      <row important_over="false"><ch a="A"/>I że do tej pory tylko tlenu było brak, tlenu brak<ch a="fis"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
