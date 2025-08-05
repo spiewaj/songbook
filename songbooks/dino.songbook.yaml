@@ -2,11 +2,11 @@ songbook:
   id: "dino"
   uuid: "7e7bee69-be48-49fd-85af-7ce4ec64d299"
   title: "Śpiewnik Dino"
-  subtitle: "2024"
+  subtitle: "dinozaurów (ex-)harcerskich"
   url: "https://spiewaj.com/#dino"
   publisher: |
     Nieformalna grupa dinozaurów (ex-)harcerskich
-  place: Warszawa
+  place: Jak zwykle Sajno
   image:
     svg: "./dino/dino1.svg"
     png: "./dino/dino1.png"

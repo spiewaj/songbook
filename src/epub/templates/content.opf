@@ -16,7 +16,8 @@
     </metadata>
 
     <manifest>
-        <item id="cover" href="images/cover.:imageExt:" media-type=":imageMime:" properties="cover-image"/>
+        <item id="cover" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+        <item id="logo" href="images/logo.:imageExt:" media-type=":imageMime:"/>
         <item id="titlepage" href="cover.xhtml" media-type="application/xhtml+xml"/>
         <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
         <item id="start" href="songs.xhtml" media-type="application/xhtml+xml"/>
