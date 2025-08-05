@@ -17,7 +17,7 @@
       <row important_over="false"><ch a="a"/>Czy drogi n<ch a="G"/>ie ma w powrotną s<ch a="d"/>tronę</row>
     </block>
     <block type="chorus">
-      <row important_over="true"> <ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na</row>
+      <row important_over="true"><ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na</row>
       <row important_over="false"><ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na </row>
       <row important_over="false"><ch a="F"/>Na <ch a="C"/>na na na <ch a="G"/> na <ch a="a"/>na na na     </row>
       <row important_over="true"><ch a="F"/>Na <ch a="C"/>na na na <ch a="E"/>na na <ch a="E7"/>na na na n<ch a="a"/>a </row>
@@ -38,6 +38,7 @@
   </lyric>
   <keywords/>
   <album>niemożliwe</album>
+  <genre>Folk</genre>
   <status>
     <done/>
     <verificators/>
