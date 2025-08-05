@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka kociołka">
+  <comment/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/><ch a="h"/><ch a="e"/>       L<ch a="A7"/>a, la, la, l<ch a="D"/>a, <ch a="h"/><ch a="e"/>    L<ch a="A7"/>a, la, la, l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a, L<ch a="A7"/>a, la, la l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a</row>
+      <row important_over="true">L<ch a="A7"/>a, la, la, l<ch a="D"/>a, <ch a="h"/><ch a="e"/>   L<ch a="A7"/>a, la, la, l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a, L<ch a="A7"/>a, la, la l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a <ch a="A7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Sz<ch a="D"/>umi b<ch a="A7"/>ukowy l<ch a="D"/>as, w<ch a="G"/>oda w k<ch a="D"/>ociołku wr<ch a="A7"/>e,</row>
+      <row important_over="true">Ksi<ch a="D"/>ężyc n<ch a="A7"/>a niebo wl<ch a="D"/>azł, n<ch a="E7"/>o i przygląda s<ch a="A7"/>ię</row>
+      <row important_over="true">Z<ch a="D"/>asłuch<ch a="A7"/>any jak m<ch a="D"/>y, w pi<ch a="G"/>eśni ostępów <ch a="Fis"/>zew</row>
+      <row important_over="true">Sn<ch a="G"/>uje z nami marz<ch a="D"/>enia <ch a="h"/>i tajemn<ch a="e"/>ice rozsi<ch a="A7"/>ewa wśród drz<ch a="D"/>ew <ch a="D7"/></row>
+      <row important_over="true">Sn<ch a="G"/>uje z nami marz<ch a="D"/>enia <ch a="h"/>i tajemn<ch a="e"/>ice rozsi<ch a="A7"/>ewa wśród drz<ch a="D"/>ew, l<ch a="h"/>a, l<ch a="e"/>a</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false">Pł<ch a="D"/>ynie pi<ch a="A7"/>osenka t<ch a="D"/>a, sł<ch a="G"/>ychać gitary dźwi<ch a="D"/>ęk, <ch a="A7"/></row>
+      <row important_over="false">R<ch a="D"/>adość, t<ch a="A7"/>ęsknota, ż<ch a="D"/>al – s<ch a="E7"/>erca splątały s<ch a="A7"/>ię,</row>
+      <row important_over="false">Ksi<ch a="D"/>ężyc p<ch a="A7"/>oszedł już sp<ch a="D"/>ać – d<ch a="G"/>obrej nocy mu <ch a="Fis"/>życz,</row>
+      <row important_over="false">M<ch a="G"/>y będziemy śpiew<ch a="D"/>ali, p<ch a="h"/>óki na ni<ch a="e"/>ebie nie zj<ch a="A7"/>awi się św<ch a="D"/>it <ch a="D7"/></row>
+      <row important_over="false">M<ch a="G"/>y będziemy śpiew<ch a="D"/>ali, p<ch a="h"/>óki na ni<ch a="e"/>ebie nie zj<ch a="A7"/>awi się św<ch a="D"/>it, la, la<ch a="h"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
