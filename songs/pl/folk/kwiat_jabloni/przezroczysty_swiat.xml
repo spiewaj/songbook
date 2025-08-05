@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przezroczysty Świat">
+  <artist type="band">Kwiat Jabłoni</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Nie mamy o czym myśleć ani o czym pisać</row>
+      <row important_over="true"><ch a="d"/>Za dużo się zdarzyło <ch a="e"/>żeby się zachwycać</row>
+      <row important_over="false"><ch a="a"/>Szum wiadomości mnie zalewa z krańców globu</row>
+      <row important_over="false"><ch a="d"/>Milionów znaczeń magma <ch a="e"/>wchodzi mi do domu</row>
+      <row important_over="false"><ch a="a"/>Małe wzruszenia festiwale piękne sprawy</row>
+      <row important_over="false"><ch a="d"/>W czarnych od tuszu łzach n<ch a="e"/>a zdjęciach Ci do twarzy</row>
+      <row important_over="false"><ch a="a"/>Nic się nie stało słowa ciekną miał być ogień</row>
+      <row important_over="false"><ch a="d"/>My mamy pustki w głowach <ch a="e"/>głowy w telefonie</row>
+    </block>
+    <block type="other">
+      <row important_over="true"><ch a="C"/>A gdyby <ch a="G"/>tak choć jeden <ch a="a"/>raz</row>
+      <row important_over="true">Nam się za<ch a="F"/>trzęsła ziemia</row>
+      <row important_over="true"><ch a="C"/>Przerwał<ch a="G"/>a sen oderwała <ch a="a"/>nas</row>
+      <row important_over="true"><ch a="E"/>Od niechcenia</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Nic nas nie ziębi ani</row>
+      <row important_over="true"><ch a="d"/>Nic nas nie parzy</row>
+      <row important_over="true">Przezro<ch a="F"/>czysty świat</row>
+      <row important_over="true">Przezro<ch a="E"/>czysty świat</row>
+      <row important_over="true"><ch a="a"/>Nie ma miłości ani</row>
+      <row important_over="true"><ch a="d"/>Nie ma rozpaczy</row>
+      <row important_over="true">Przezro<ch a="F"/>czysty świat</row>
+      <row important_over="true">Przezro<ch a="E"/>czysty świat</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Wierzę we wszystko to co ekran mi wyświetla</row>
+      <row important_over="false"><ch a="d"/>Płynę spokojnie w mojej <ch a="e"/>bańce bezpieczeństwa</row>
+      <row important_over="false"><ch a="a"/>Znów się żegnamy będąc obok wirtualnie</row>
+      <row important_over="false"><ch a="d"/>Płaczemy patrząc sobie w <ch a="e"/>oczy na FaceTime&#039;ie</row>
+      <row important_over="false"><ch a="a"/>Kurtyna już zasłania to co było wczoraj</row>
+      <row important_over="false"><ch a="d"/>Dzisiejsze zaraz zginie <ch a="e"/>po co się przejmować</row>
+      <row important_over="false"><ch a="a"/>Wielkie narracje ideały porzucone</row>
+      <row important_over="false"><ch a="d"/>To nic nie znaczy <ch a="e"/>chodźmy wszyscy w inną stronę</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
