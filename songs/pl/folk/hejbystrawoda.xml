@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hej Bystra Woda">
+  <comment/>
+  <artist>Piosenki Ludowe</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="A"/>Hej bystra woda, bystra wodzicka</row>
+      <row important_over="true"><ch a="D"/>Pytało dziewce <ch a="E"/>o Janick<ch a="A"/>a</row>
+      <row important_over="true"><ch a="E"/>Hej lesie ciemny, <ch a="A"/>wirsku zielony</row>
+      <bis times="2">
+        <row important_over="true"><ch a="D"/>Kaj mój Janicek <ch a="E"/>umilon<ch a="A"/>y </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Hej mój Janicku, miły Janicku</row>
+      <row important_over="false">Ne chod. po orawskim chodnicku</row>
+      <row important_over="false">Ne dość zes ty juz nagnał owiecek</row>
+      <row important_over="false">Ostań psy dziewcynie kolkowiecek</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Hej powiadali, hej powiadali</row>
+      <row important_over="false">Hej, ze Janicka porubali</row>
+      <row important_over="false">Hej porubali go Orawiany</row>
+      <row important_over="false">Hej za łowiecki, za barany</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Hej mówile ci miły Janicku</row>
+      <row important_over="false">Ne chod. po orawskim chodnicku</row>
+      <row important_over="false">Hej bo cię te orawskie juhasy</row>
+      <row important_over="false">Długie uz han cekali casy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">He dziwce slocha, hej dziwce płace</row>
+      <row important_over="false">Uz ze Janicka ne obace</row>
+      <row important_over="false">U orawskiego zamecku sciany</row>
+      <row important_over="false">Lezy Janicek porubany</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Hej Madziar pije, hej Madziar płaci</row>
+      <row important_over="false">Hej u madziara płacom dzieci</row>
+      <row important_over="false">Hej płacom dzieci, hej płace żona</row>
+      <row important_over="false">Hej że Madziara nima doma</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Hej dolom, dolom, od skalnych Tater</row>
+      <row important_over="false">Hej poświstuje halny wiater</row>
+      <row important_over="false">Hej poświstuje, hej ciska bidom</row>
+      <row important_over="false">Hej pod dolinach chłopcy idom.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Pieśń ludowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
