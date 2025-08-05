@@ -5,3 +5,5 @@ lxml
 PyICU>=2.7
 pyyaml
 regex
+cairosvg
+pillow

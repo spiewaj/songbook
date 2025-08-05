@@ -11,6 +11,7 @@ from datetime import datetime
 import src.html.create_songs_html as cash
 import src.lib.songbook as sb
 import src.lib.any_index_generator as aig
+import src.lib.img2cover.img2cover as img2cover
 
 def actual_date():
     return str(datetime.now().strftime("%Y-%m-%d"))
@@ -263,7 +264,15 @@ def create_template_epub(songbook, target_path):
     path_tmp_mimetype = os.path.join(template_dir, "mimetype")
     shutil.copyfile(path_tmp_mimetype, os.path.join(path_epub, "mimetype"))
 
-    shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "cover." + songbook.imageWebExt()))
+    img2cover.img2cover(
+        songbook.imageWebPath(),
+        songbook.title(),
+        os.path.join(path_images, "cover.png"),
+        songbook.subtitle(),
+        actual_date())
+    shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "logo." + songbook.imageWebExt()))
+
+
     resolveTemplate(songbook, os.path.join(template_dir, "songs.xhtml"), os.path.join(path_oebps, "songs.xhtml"))
     resolveTemplate(songbook, os.path.join(template_dir, "cover.xhtml"), os.path.join(path_oebps, "cover.xhtml"))
 
@@ -310,8 +319,10 @@ def package_epub(songbook, target_dir, target_file="spiewnik.epub"):
         for css_file in CSS_FILES:
             src_path = os.path.realpath(os.path.join(target_dir_epub, "OEBPS", "CSS", css_file))
             myzip.write(src_path, arcname=os.path.join("OEBPS", "CSS", css_file))
-        myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover."+songbook.imageWebExt()),
-                            arcname=os.path.join("OEBPS", "images", "cover."+songbook.imageWebExt()))
+        myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover.png"),
+            arcname=os.path.join("OEBPS", "images", "cover.png"))
+        myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "logo."+songbook.imageWebExt()),
+            arcname=os.path.join("OEBPS", "images", "logo."+songbook.imageWebExt()))
 
 
 def main():
