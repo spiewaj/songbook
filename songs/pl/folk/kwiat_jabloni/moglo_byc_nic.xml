@@ -26,7 +26,7 @@
       <row important_over="true">I że mo<ch a="G"/>gło być nic...</row>
       <row important_over="true">A<ch a="D"/> jest ws<ch a="e"/>zystko...</row>
       <row important_over="true">A<ch a="C"/> jest wszy<ch a="G"/>stko...</row>
-      <row important_over="true">J<ch a="D"/>est wszyst<ch a="e"/>ko...  <ch a="C"/>  <ch a="G"/>  <ch a="D"/> </row>
+      <row important_over="true">J<ch a="D"/>est wszyst<ch a="e"/>ko...  <ch a="C"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Je<ch a="e"/>steś tu zupełnie sam</row>
@@ -44,7 +44,7 @@
       <row important_over="false">Gdy bud<ch a="G"/>zisz się to nadal je<ch a="D"/>steś Ty</row>
       <row important_over="false">I to za<ch a="e"/>piera dech</row>
       <row important_over="false">Że obok C<ch a="C"/>iebie jest ktoś</row>
-      <row important_over="false">I że mo<ch a="G"/>gło być nic...<ch a="D"/> </row>
+      <row important_over="false">I że mo<ch a="G"/>gło być nic...<ch a="D"/></row>
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
@@ -65,7 +65,7 @@
     </block>
   </lyric>
   <keywords/>
-  <genre>Inna</genre>
+  <genre>Folk</genre>
   <status>
     <done/>
     <verificators/>
