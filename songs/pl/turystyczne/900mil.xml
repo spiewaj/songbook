@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="900 mil">
+  <artist type="solo">Piosenki Harcerskie</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e7"/>Tyle j<ch a="a"/>uż minęło <ch a="C"/>dni,</row>
+      <row important_over="true">Czas <ch a="d"/>wysuszył z oczu <ch a="C"/>łzy,</row>
+      <row important_over="true">Ż<ch a="F"/>aden list nie cz<ch a="C"/>eka ma mnie t<ch a="a"/>u.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="e7"/>Gdyby p<ch a="a"/>ociąg szybciej bi<ch a="C"/>egł</row>
+      <row important_over="true">B<ch a="d"/>ym był w domu jes<ch a="C"/>zcze dziś,</row>
+      <row important_over="true">Jeszcze 9<ch a="a"/>00 m<ch a="E"/>il tam gdzie mój d<ch a="a"/>om </row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Oddam wszystko to, co mam,<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Oddam wam pierścionek swój<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">I walizkę swoją oddam wam..<ch a="F"/><ch a="C"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Pociąg, który wiezie mnie<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Ma wagonów chyba sto,<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Stukot kół już słychać na sto mil <ch a="F"/><ch a="C"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Moja miła czeka mnie<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Żebym wrócił do niej znów<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Jeszcze 900 mil tam, gdzie mój dom<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Gdy dziewczyna powie - nie<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Nie wyruszę nigdzie już.<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Wrócę do rodzinnych moich stron<ch a="F"/><ch a="C"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Już z wagonu widać ja,<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Już z peronu widać ją,<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">Stoi, trzyma w dłoniach bukiet róż<ch a="F"/><ch a="C"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Lecz nie dla mnie kwiaty te,<ch a="e7"/><ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Inny chłopak dostał je,<ch a="d"/><ch a="C"/></row>
+      <row important_over="never">jeszcze 900 mil tam, gdzie mój dom<ch a="a"/><ch a="E"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
