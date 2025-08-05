@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hej Bystra Woda">
-  <comment/>
+  <alias>Marsz Orawski</alias>
   <artist>Piosenki Ludowe</artist>
   <lyric>
     <block type="verse">
@@ -12,40 +12,40 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Hej mój Janicku, miły Janicku</row>
-      <row important_over="false">Ne chod. po orawskim chodnicku</row>
-      <row important_over="false">Ne dość zes ty juz nagnał owiecek</row>
-      <row important_over="false">Ostań psy dziewcynie kolkowiecek</row>
+      <row important_over="never" sidechords="A">Hej mój Janicku, miły Janicku</row>
+      <row important_over="never" sidechords="D E A">Ne chod. po orawskim chodnicku</row>
+      <row important_over="never" sidechords="E A">Ne dość zes ty juz nagnał owiecek</row>
+      <row important_over="never" sidechords="D E A">Ostań psy dziewcynie kolkowiecek</row>
     </block>
     <block type="verse">
-      <row important_over="false">Hej powiadali, hej powiadali</row>
-      <row important_over="false">Hej, ze Janicka porubali</row>
-      <row important_over="false">Hej porubali go Orawiany</row>
-      <row important_over="false">Hej za łowiecki, za barany</row>
+      <row important_over="never" sidechords="A">Hej powiadali, hej powiadali</row>
+      <row important_over="never" sidechords="D E A">Hej, ze Janicka porubali</row>
+      <row important_over="never" sidechords="E A">Hej porubali go Orawiany</row>
+      <row important_over="never" sidechords="D E A">Hej za łowiecki, za barany</row>
     </block>
     <block type="verse">
-      <row important_over="false">Hej mówile ci miły Janicku</row>
-      <row important_over="false">Ne chod. po orawskim chodnicku</row>
-      <row important_over="false">Hej bo cię te orawskie juhasy</row>
-      <row important_over="false">Długie uz han cekali casy</row>
+      <row important_over="never" sidechords="A">Hej mówile ci miły Janicku</row>
+      <row important_over="never" sidechords="D E A">Ne chod. po orawskim chodnicku</row>
+      <row important_over="never" sidechords="E A">Hej bo cię te orawskie juhasy</row>
+      <row important_over="never" sidechords="D E A">Długie uz han cekali casy</row>
     </block>
     <block type="verse">
-      <row important_over="false">He dziwce slocha, hej dziwce płace</row>
-      <row important_over="false">Uz ze Janicka ne obace</row>
-      <row important_over="false">U orawskiego zamecku sciany</row>
-      <row important_over="false">Lezy Janicek porubany</row>
+      <row important_over="never" sidechords="A">He dziwce slocha, hej dziwce płace</row>
+      <row important_over="never" sidechords="D E A">Uz ze Janicka ne obace</row>
+      <row important_over="never" sidechords="E A">U orawskiego zamecku sciany</row>
+      <row important_over="never" sidechords="D E A">Lezy Janicek porubany</row>
     </block>
     <block type="verse">
-      <row important_over="false">Hej Madziar pije, hej Madziar płaci</row>
-      <row important_over="false">Hej u madziara płacom dzieci</row>
-      <row important_over="false">Hej płacom dzieci, hej płace żona</row>
-      <row important_over="false">Hej że Madziara nima doma</row>
+      <row important_over="never" sidechords="A">Hej Madziar pije, hej Madziar płaci</row>
+      <row important_over="never" sidechords="D E A">Hej u madziara płacom dzieci</row>
+      <row important_over="never" sidechords="E A">Hej płacom dzieci, hej płace żona</row>
+      <row important_over="never" sidechords="D E A">Hej że Madziara nima doma</row>
     </block>
     <block type="verse">
-      <row important_over="false">Hej dolom, dolom, od skalnych Tater</row>
-      <row important_over="false">Hej poświstuje halny wiater</row>
-      <row important_over="false">Hej poświstuje, hej ciska bidom</row>
-      <row important_over="false">Hej pod dolinach chłopcy idom.</row>
+      <row important_over="never" sidechords="A">Hej dolom, dolom, od skalnych Tater</row>
+      <row important_over="never" sidechords="D E A">Hej poświstuje halny wiater</row>
+      <row important_over="never" sidechords="E A">Hej poświstuje, hej ciska bidom</row>
+      <row important_over="never" sidechords="D E A">Hej pod dolinach chłopcy idom.</row>
     </block>
   </lyric>
   <keywords/>
@@ -54,4 +54,5 @@
     <done/>
     <verificators/>
   </status>
+  <music_source>tradycyjna muzyka ludowa z Orawy</music_source>
 </song>
