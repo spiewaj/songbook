@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idziemy w jasną">
+  <alias>Świetlany krzyż</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="g"/>Idziemy w jasną, z błęk<ch a="D7"/>itu utkaną <ch a="g"/>dal,</row>
+      <bis times="2">
+        <row important_over="true"><ch a="c6"/>Drogą wśród pól bezkr<ch a="D"/>esnych,</row>
+        <row important_over="true"><ch a="D7"/>I wśród zbóż szumiących <ch a="g"/>fal.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">Cicho, szeroko jak okiem spojrzenie śle,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <bis times="2">
+        <row important_over="never">Jakieś się snują marzenia,<ch a="c6"/><ch a="D"/></row>
+        <row important_over="never">W wieczornej spowite mgle.<ch a="D7"/><ch a="g"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="never">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <bis times="2">
+        <row important_over="never">By zdobyć szczyt ideału,<ch a="c6"/><ch a="D"/></row>
+        <row important_over="never">Świetlany, harcerski krzyż.<ch a="D7"/><ch a="g"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
