@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czom ty ne pryjszow">
+  <artist>Ludowa ukraińska</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="h"/>Czom ty ne pryjszow Jak misiac zijszow,</row>
+      <row important_over="true"><ch a="D"/>Ja tebe cze<ch a="A"/>ka<ch a="D"/>ła<ch a="H7"/>.</row>
+      <row important_over="true"><ch a="e"/>Czy konia ne maw, <ch a="D"/>Czy steżky na zn<ch a="fis"/>aw,<ch a="h"/></row>
+      <row important_over="true"><ch a="D"/>Maty ne pusk<ch a="Fis"/>ała<ch a="h"/>?<ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I konia ja maw, I steżku ja znaw,<ch a="h"/></row>
+      <row important_over="never">I maty puskała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="never">Najmensza sestra, Bodaj ne wzrosła<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Sidelce schowała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">A starsza siestra Sidelce znajszła,<ch a="h"/></row>
+      <row important_over="never">Konia osidłała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="never">Pojid brateńku Do diwczynońky<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Szczo tebe czekała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Tecze riczeńka, Newełyczeńka,<ch a="h"/></row>
+      <row important_over="never">Skoczu, pereskoczu.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="never">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Dum, dum, dum, dum, dum<ch a="h"/></row>
+      <row important_over="never">Dum, dum, dum, dum, dum <ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="never">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
