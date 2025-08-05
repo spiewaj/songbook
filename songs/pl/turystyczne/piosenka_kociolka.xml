@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka kociołka">
-  <comment/>
   <lyric>
-    <block type="verse">
+    <block type="chorus">
       <row important_over="true"><ch a="D"/><ch a="h"/><ch a="e"/>       L<ch a="A7"/>a, la, la, l<ch a="D"/>a, <ch a="h"/><ch a="e"/>    L<ch a="A7"/>a, la, la, l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a, L<ch a="A7"/>a, la, la l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a</row>
       <row important_over="true">L<ch a="A7"/>a, la, la, l<ch a="D"/>a, <ch a="h"/><ch a="e"/>   L<ch a="A7"/>a, la, la, l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a, L<ch a="A7"/>a, la, la l<ch a="D"/>a, l<ch a="h"/>a, l<ch a="e"/>a <ch a="A7"/></row>
     </block>
