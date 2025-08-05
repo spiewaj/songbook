@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Turysta">
-  <comment/>
+  <text_author type="solo">Jacek Sienkiewicz</text_author>
   <artist type="band">Kwiat Jabłoni</artist>
   <lyric>
     <block type="other">
@@ -42,6 +42,7 @@
     <blocklink blocknb="4"/>
   </lyric>
   <keywords/>
+  <album>Niemożliwe (2019)</album>
   <genre>Folk</genre>
   <status>
     <done/>
