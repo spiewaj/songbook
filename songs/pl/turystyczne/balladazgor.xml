@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada z gór">
-  <text_author type="solo">J. Baran</text_author>
-  <comment/>
-  <composer>Krzysztof Myszkowski</composer>
+  <text_author type="solo">Józef Baran</text_author>
+  <composer type="solo">Krzysztof Myszkowski</composer>
   <artist type="band">Stare Dobre Małżeństwo</artist>
   <lyric>
     <block type="chorus">
