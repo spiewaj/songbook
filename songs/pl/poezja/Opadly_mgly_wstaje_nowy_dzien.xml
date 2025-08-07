@@ -30,11 +30,11 @@
 			<row important_over="true">Wstaje nowy <ch a="G"/>dzień<ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="G"/>Z dusznego snu już miasto się wynurza<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Słońce wschodzi gdzieś tam<ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>Tramwaj na przystanku zakwitł jak róża<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Uchodzą cienie do bram<ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>Ciągną swoje wózki dwukółki mleczarze<ch a="D"/></row>
+			<row important_over="never">Z dusznego snu już miasto się wynurza <ch a="G"/><ch a="C"/></row>
+			<row important_over="never">Słońce wschodzi gdzieś tam<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Tramwaj na przystanku zakwitł jak róża<ch a="G"/><ch a="C"/></row>
+			<row important_over="never">Uchodzą cienie do bram<ch a="G"/><ch a="D"/><ch a="D7"/></row>
+			<row important_over="never">Ciągną swoje wózki dwukółki mleczarze<ch a="G"/><ch a="C"/></row>
 			<row important_over="never"><ch a="G"/>Nad dachami snują się sny podlotków pełne marzeń<ch a="D"/><ch a="G"/></row>
 		</block>
 		<block type="chorus">
