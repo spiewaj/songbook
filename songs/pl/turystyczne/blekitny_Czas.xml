@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Błękitny czas">
+  <alias>Błękitny czas</alias>
+  <text_author type="solo">Małgorzata Grabowska</text_author>
+  <comment/>
+  <composer type="solo">Jan Sobolewski</composer>
+  <artist type="band">Mikroklimat</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4/2"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Błękitny czas, błęk<ch a="d"/>itny piękny czas,</row>
+      <row important_over="true"><ch a="a"/>Wolności dzień już nadch<ch a="e"/>odzi.</row>
+      <row important_over="true"><ch a="F"/>Błękitny <ch a="D7"/>czas, błęk<ch a="C"/>itny piękny <ch a="A7"/>czas,</row>
+      <row important_over="true"><ch a="C"/>Co nie ma ośmiu <ch a="G"/>godz<ch a="G7"/>in.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Jak dobrze jest wędrować <ch a="B"/>pop<ch a="A"/>rzez <ch a="A5+"/>łan<ch a="A"/>y,</row>
+      <row important_over="true"><ch a="d"/>Choć jeden <ch a="G"/>trampek <ch a="d"/>mam całkiem <ch a="G"/>rozcz<ch a="G4/2"/>łapa<ch a="G"/>ny,</row>
+      <row important_over="true"><ch a="C"/>Czerpać radość wędrowania <ch a="A"/>wprost <ch a="A7"/>z bezdr<ch a="A"/>oży,</row>
+      <row important_over="true"><ch a="d"/>Jak dobrze w <ch a="G"/>trawie się uł<ch a="C"/>ożyć.</row>
+      <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4-2"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Zielony czas, zielony piękny czas,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Szumiący miękko jak drzewa,<ch a="a"/><ch a="e"/></row>
+      <row important_over="never">Zielony czas, zielony piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="never">Co przy ognisku śpiewa<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Złocisty czas, złocisty piękny czas,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Ogromny, ciepły jak słońce,<ch a="a"/><ch a="e"/></row>
+      <row important_over="never">Złocisty czas, złocisty piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="never">Gdy można iść bez końca<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
