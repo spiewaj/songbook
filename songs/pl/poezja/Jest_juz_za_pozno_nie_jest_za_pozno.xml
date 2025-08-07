@@ -14,21 +14,21 @@
 			<bis times="2">
 				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
 				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno</row>
+				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno<ch a="D"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
-			<row important_over="false"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="never"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
+			<row important_over="never"><ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="never"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
+			<row important_over="never"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Jeszcze zdążymy naszą miłością siebie zachwycić<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="C"/>Siebie zachwycić i wszystko w krąg<ch a="a"/><ch a="G"/><ch a="H7"/></row>
-			<row important_over="false"><ch a="G"/>Wojna to będzie straszna bo czas nas będzie chciał zniszczyć<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="C"/>Lecz nam się uda zachwycić go<ch a="a"/><ch a="G"/><ch a="H7"/></row>
+			<row important_over="never"><ch a="G"/>Jeszcze zdążymy naszą miłością siebie zachwycić<ch a="a"/><ch a="G"/></row>
+			<row important_over="never">Siebie zachwycić i wszystko w krąg<ch a="C"/><ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="never">Wojna to będzie straszna bo czas nas będzie chciał zniszczyć<ch a="G"/><ch a="a"/><ch a="G"/></row>
+			<row important_over="never">Lecz nam się uda zachwycić go<ch a="C"/><ch a="a"/><ch a="G"/><ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
