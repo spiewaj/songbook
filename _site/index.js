@@ -28,7 +28,6 @@ function filterSongs() {
               txtValue += ' ' + span.textContent || span.innerText;
             }
         }
-        console.log("Checking: " + simplifyString(txtValue).toUpperCase())
         if (txtValue.toUpperCase().indexOf(filter) > -1 ||
             simplifyString(txtValue).toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = ""; // Show the list item
