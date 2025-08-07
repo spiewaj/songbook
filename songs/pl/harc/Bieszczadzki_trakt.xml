@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki trakt">
-  <alias/>
   <text_author>Bogdan Adamek</text_author>
-  <comment/>
   <composer type="solo">Bogdan Adamek</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Kiedy nadejdzie czas wabi nas ognia blask<ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Na polanie gdzie króluje zły<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Gwiezdny pył, w ogniu tym łzy wyciśnie nam dym<ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Tańczą iskry z gwiazdami a my<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Kiedy nadejdzie czas wabi nas ognia blask<ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Na polanie gdzie króluje zły<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Gwiezdny pył, w ogniu tym łzy wyciśnie nam dym<ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Tańczą iskry z gwiazdami a my<ch a="C"/><ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Śpiewajmy wszyscy w ten radosny czas<ch a="D"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Śpiewajmy razem ilu jest tu nas<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Choć lata młode szybko płyną, wiemy że<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Nie starzejemy się<ch a="D"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Śpiewajmy wszyscy w ten radosny czas<ch a="D"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Śpiewajmy razem ilu jest tu nas<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Choć lata młode szybko płyną, wiemy że<ch a="D"/><ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Nie starzejemy się<ch a="D"/><ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>W lesie gdzie licho śpi ma przygoda swe drzwi<ch a="D"/><ch a="C"/><ch a="G"/></row>
@@ -35,11 +30,13 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
