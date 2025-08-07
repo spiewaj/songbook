@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada z gór">
+  <text_author type="solo">Józef Baran</text_author>
+  <composer type="solo">Krzysztof Myszkowski</composer>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true">Tu <ch a="G"/>króluje zeszło<ch a="C"/>roczny <ch a="D"/>czas</row>
+      <row important_over="true">Na posł<ch a="B"/>aniu z <ch a="F"/>liści buczy<ch a="C"/>nowych</row>
+      <row important_over="true">Stąd do <ch a="a"/>ziemi <ch a="h"/>dalej niż do <ch a="e"/>gwiazd</row>
+      <row important_over="true">Zachwytu <ch a="C"/>swego nie wysł<ch a="D"/>o-o-<ch a="G"/>wisz</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Rosną skrzydła u ramion</row>
+      <row important_over="true"><ch a="C7+"/>Czas się w wieczność przemienia</row>
+      <row important_over="true">Obło<ch a="a"/>cznieją wszystkie ziemskie sprawy</row>
+      <row important_over="true">Gdy <ch a="H7"/>zbliżamy się do szczytu po kamieniach</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Rosną skrzydła u ramion</row>
+      <row important_over="true"><ch a="C7+"/>Czas się w wieczność przemienia</row>
+      <row important_over="true"><ch a="a"/>Góry i wolność dokoła</row>
+      <row important_over="true"><ch a="H7"/>Chyba dostąpimy tu wniebowstąpienia</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A w schro<ch a="G"/>nisku Święty <ch a="C"/>Piotr z <ch a="D"/>herbatą</row>
+      <row important_over="false">I wi<ch a="B"/>doki <ch a="F"/>nieziemskie na <ch a="C"/>świat</row>
+      <row important_over="false">Przy <ch a="a"/>ognisku rozło<ch a="h"/>żymy się z <ch a="e"/>gitarą</row>
+      <row important_over="false">Posłu<ch a="C"/>chamy co nam w <ch a="D"/>duszy <ch a="G"/>gra</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G"/>Z pleców góry zrzu<ch a="C"/>cimy do <ch a="D"/>stóp</row>
+      <row important_over="false">I zmę<ch a="B"/>czenie rozzuj<ch a="F"/>emy <ch a="C"/>z nóg</row>
+      <row important_over="false">To schro<ch a="a"/>nisko to praw<ch a="h"/>dziwy <ch a="e"/>raj</row>
+      <row important_over="false">Niechaj <ch a="C"/>wiecznie odpo<ch a="D"/>czynek <ch a="G"/>trwa</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Rosną skrzydła u ramion</row>
+      <row important_over="false"><ch a="C7+"/>Rosną przepastne błękity</row>
+      <row important_over="false"><ch a="a"/>Życie pełne olśnień zachwytów</row>
+      <row important_over="false">Tyś wę<ch a="H7"/>drówką najwytrwalszą ku szczytom</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Góry tu wszystko jest święte</row>
+      <row important_over="false">Tu wspi<ch a="C7+"/>naczki nasze wniebowzięte</row>
+      <row important_over="false">W górach <ch a="a"/>los ma Światowida twarz</row>
+      <row important_over="false">Od og<ch a="H7"/>niska bije jeszcze baśni blask</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
