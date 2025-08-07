@@ -1,66 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jest już za późno, nie jest za późno">
-	<alias/>
 	<text_author type="solo">Edward Stachura</text_author>
-	<comment/>
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">Stare Dobre Małżeństwo</artist>
-	<translator/>
-	<original_title/>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">J<ch a="G"/>eszcze zdążymy w dż<ch a="a"/>ungli ludzkości si<ch a="G"/>ebie odnaleźć</row>
-			<row important_over="true">
-				<ch a="C"/>Tęskność zawr<ch a="G"/>otna przybliża n<ch a="a"/>a<ch a="D7"/>s</row>
-			<row important_over="true">
-				<ch a="G"/>Zbiegną się wreszcie t<ch a="a"/>ory sieroce nas<ch a="G"/>zych dwu planet</row>
-			<row important_over="true">
-				<ch a="C"/>Cudnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m</row>
+			<row important_over="true"><ch a="C"/>Tęskność zawr<ch a="G"/>otna przybliża n<ch a="a"/>a<ch a="D7"/>s</row>
+			<row important_over="true"><ch a="G"/>Zbiegną się wreszcie t<ch a="a"/>ory sieroce nas<ch a="G"/>zych dwu planet</row>
+			<row important_over="true"><ch a="C"/>Cudnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m</row>
 		</block>
 		<block type="verse">
-			<bis>
-				<row important_over="true">
-					<ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="true">
-					<ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="true">
-					<ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno</row>
+			<bis times="2">
+				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
+				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
+				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">
-				<ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
-			<row important_over="false">
-				<ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">
-				<ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="false"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="false"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="G"/>Jeszcze zdążymy naszą miłością siebie zachwycić<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">
-				<ch a="C"/>Siebie zachwycić i wszystko w krąg<ch a="a"/><ch a="G"/><ch a="H7"/></row>
-			<row important_over="false">
-				<ch a="G"/>Wojna to będzie straszna bo czas nas będzie chciał zniszczyć<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">
-				<ch a="C"/>Lecz nam się uda zachwycić go<ch a="a"/><ch a="G"/><ch a="H7"/></row>
+			<row important_over="false"><ch a="G"/>Jeszcze zdążymy naszą miłością siebie zachwycić<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Siebie zachwycić i wszystko w krąg<ch a="a"/><ch a="G"/><ch a="H7"/></row>
+			<row important_over="false"><ch a="G"/>Wojna to będzie straszna bo czas nas będzie chciał zniszczyć<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Lecz nam się uda zachwycić go<ch a="a"/><ch a="G"/><ch a="H7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music>
 		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators><verificator>Alek</verificator>
-		</verificators>
-		<to_do/>
-		<done/>
-	</status>
 	<keywords/>
-	<music_source/>
-	<album/>
 	<genre>Poezja śpiewana</genre>
+	<status>
+		<done/>
+		<verificators>
+			<verificator>Alek</verificator>
+		</verificators>
+	</status>
 </song>
