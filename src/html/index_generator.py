@@ -25,7 +25,7 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
         # <button onclick='edit("zaciagnijcie_na_oknie_niebieska_zaslone.xhtml")'><span class="material-symbols-outlined">edit</span></button>
         button = etree.SubElement(li, "button")
         button.attrib['class'] = 'editicon'
-        button.attrib['onclick'] = "edit('"+os.path.relpath(song.plik(), start=os.path.join(sb.repo_dir(), "songs"))+"');"
+        button.attrib['onclick'] = "edit('"+os.path.relpath(song.plik(), start=os.path.join(sb.repo_dir(), "songs"))+"');event.stopPropagation();"
         span = etree.SubElement(button, 'span')
         span.attrib['class'] = 'material-symbols-outlined'
         span.text = 'edit'
