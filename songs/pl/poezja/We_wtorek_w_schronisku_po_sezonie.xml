@@ -5,38 +5,31 @@
 	<artist type="band">Wołosatki</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Złotym kobiercem wymoszczone góry<ch a="C"/><ch a="G"/></row>
-			<row important_over="false"><ch a="h"/>Jesień w doliny zeszła dziś nad ranem<ch a="C"/><ch a="a"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/>Buki czerwienią zabarwiły chmury<ch a="C"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false"><ch a="C"/>Z latem się złotym właśnie pożegnałem<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Złotym k<ch a="G"/>obiercem w<ch a="C"/>ymoszczone g<ch a="G"/>óry</row>
+			<row important_over="false"><ch a="h"/>Jesień w doliny z<ch a="C"/>eszła dziś nad r<ch a="a"/>an<ch a="D"/>em</row>
+			<row important_over="false">Buki cz<ch a="G"/>erwienią z<ch a="C"/>abarwiły chm<ch a="H7"/>ury<ch a="e"/></row>
+			<row important_over="false">Z latem się zł<ch a="C"/>otym wł<ch a="D"/>aśnie pożegnał<ch a="G"/>em<ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false"><ch a="G"/>We wtorek w schronisku po sezonie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="false"><ch a="e"/>W doliny wczoraj zszedł ostatni gość<ch a="A7"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/>Za oknem plucha, kubek parzy dłonie<ch a="C"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false"><ch a="C"/>I tej herbaty i tych gór mam dość<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/>We wtorek w schronisku<ch a="C"/> po sez<ch a="D"/>onie<ch a="G"/></row>
+			<row important_over="false"><ch a="e"/>W doliny wczoraj zsz<ch a="A7"/>edł ostatni g<ch a="D"/>ość</row>
+			<row important_over="false">Za oknem pl<ch a="G"/>ucha, k<ch a="C"/>ubek parzy <ch a="H7"/>dłoni<ch a="e"/>e</row>
+			<row important_over="false">I tej herb<ch a="C"/>aty i tych g<ch a="D"/>ór mam d<ch a="G"/>ość</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Szaruga niebo powoli zasnuwa<ch a="C"/><ch a="G"/></row>
-			<row important_over="false"><ch a="h"/>Wiatr już gałęzie pootrząsał z liści<ch a="C"/><ch a="a"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/>Pod wiatr, pod górę znowu sam zasuwam<ch a="C"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false"><ch a="C"/>Może w schronisku spotkam kogoś z bliskich<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Szaruga niebo powoli zasnuwa<ch a="C"/><ch a="G"/></row>
+			<row important_over="never"><ch a="h"/>Wiatr już gałęzie pootrząsał z liści<ch a="C"/><ch a="a"/><ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Pod wiatr, pod górę znowu sam zasuwam<ch a="C"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never"><ch a="C"/>Może w schronisku spotkam kogoś z bliskich<ch a="D"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Ludzie tak wiele spraw muszą załatwić<ch a="C"/><ch a="G"/></row>
-			<row important_over="false"><ch a="h"/>A czas sobie płynie wolno panta rhei<ch a="C"/><ch a="a"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/>Do siebie tylko już nie umiem trafić<ch a="C"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false"><ch a="C"/>Kochać to więcej siebie dać, czy mniej<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Ludzie tak wiele spraw muszą załatwić<ch a="C"/><ch a="G"/></row>
+			<row important_over="never"><ch a="h"/>A czas sobie płynie wolno panta rhei<ch a="C"/><ch a="a"/><ch a="D"/></row>
+			<row important_over="never"><ch a="G"/>Do siebie tylko już nie umiem trafić<ch a="C"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never"><ch a="C"/>Kochać to więcej siebie dać, czy mniej<ch a="D"/><ch a="G"/><ch a="D"/></row>
 		</block>
-		<block type="chorus">
-			<bis times="2">
-				<row important_over="false"><ch a="G"/>We wtorek w schronisku po sezonie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-				<row important_over="false"><ch a="e"/>W doliny wczoraj zszedł ostatni gość<ch a="A7"/><ch a="D"/></row>
-				<row important_over="false"><ch a="G"/>Za oknem plucha, kubek parzy dłonie<ch a="C"/><ch a="H7"/><ch a="e"/></row>
-				<row important_over="false"><ch a="C"/>I tej herbaty i tych gór mam dość<ch a="G"/><ch a="D"/></row>
-			</bis>
-		</block>
+		<blocklink blocknb="1"/>
 	</lyric>
 	<music>
 		<guitar barre="0"/>
