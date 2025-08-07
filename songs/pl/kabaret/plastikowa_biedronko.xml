@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pastikowa Biedronka">
-  <comment/>
+  <comment>zwrotka dodatkowa gdzieś w środku: 
+Kiedy w końcu nas kupili GD
+ I do domu nas zawieźli e C
+ To Ty na mnie spoglądałaś GD
+ I się we mnie zakochałaś e C</comment>
   <lyric>
     <block type="verse">
       <row important_over="true">Gdy Cię pi<ch a="G"/>erwszy raz u<ch a="D"/>jrzałem </row>
@@ -16,14 +20,15 @@
       <row important_over="never">Gdy Cię drugi raz ujrzałem <ch a="G"/><ch a="D"/></row>
       <row important_over="never">Na sklepowej półce stałaś <ch a="e"/><ch a="C"/></row>
       <row important_over="never">Ja Ci list miłosny słałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">// Ja Cię wtedy pokochałem // <ch a="G"/><ch a="D"/></row>
       <row important_over="never">A Ty na mnie nie spojrzałaś! <ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Kiedy w końcu nas kupili <ch a="G"/><ch a="D"/></row>
-      <row important_over="never">I do domu nas zawieźli<ch a="e"/><ch a="C"/></row>
-      <row important_over="never">To Ty na mnie spoglądałaś <ch a="G"/><ch a="D"/></row>
-      <row important_over="never">I się we mnie zakochałaś <ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Gdy Cię trzeci raz ujrzałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Ty z szympansem mnie zdradziłaś<ch a="e"/><ch a="C"/></row>
+      <row important_over="never">Ja mu wtedy pokazałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Jaka jest pingwinia siła<ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
