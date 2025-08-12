@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Od Turbacza">
+  <composer type="solo">Andrzej Mróz</composer>
+  <artist type="solo">Andrzej Mróz</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">O<ch a="a"/>d Turbacza wieje wiatr, ni<ch a="E"/>esie nam tę wi<ch a="a"/>eść</row>
+      <row important_over="true">Ż<ch a="a"/>e tej nocy szczyty gór, p<ch a="E"/>okrył biały śni<ch a="a"/>eg.</row>
+      <row important_over="true">A<ch a="C"/> w dolinach pi<ch a="d"/>ękna jesień</row>
+      <row important_over="true">Zł<ch a="a"/>ote liście l<ch a="E"/>ecą z drzew.</row>
+      <row important_over="true"><ch a="a"/>Od Turbacza wieje wiatr, ni<ch a="E"/>esie zimy wi<ch a="a"/>ew.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Z<ch a="a"/>ima białym płaszczem swym j<ch a="E"/>uż okryła T<ch a="a"/>atry.</row>
+      <row important_over="false">Mgł<ch a="a"/>a zabrała słońcu blask, wi<ch a="E"/>eją zimne wi<ch a="a"/>atry.</row>
+      <row important_over="false"><ch a="C"/>A w dolinach pi<ch a="d"/>ękna jesień</row>
+      <row important_over="false">Zł<ch a="a"/>ote liście l<ch a="E"/>ecą z drzew.</row>
+      <row important_over="false"><ch a="a"/>Od Zawratu wieje wiatr, ni<ch a="E"/>esie zimy wi<ch a="a"/>ew.</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false">H<ch a="a"/>ej dziewczyno nie smuć się w t<ch a="E"/>en jesienny cz<ch a="a"/>as</row>
+      <row important_over="false">Ch<ch a="a"/>ociaż raz uśmiechnij się, prz<ch a="E"/>ywróć oczom bl<ch a="a"/>ask.</row>
+      <row important_over="false">T<ch a="C"/>o nic, że na szcz<ch a="d"/>ytach zima</row>
+      <row important_over="false"><ch a="a"/>A w dolinach j<ch a="E"/>esień już.</row>
+      <row important_over="false"><ch a="a"/>Uśmiech twój odmieni wszystko, wi<ch a="E"/>osna sercom wróci zn<ch a="a"/>ów.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna górska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
