@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kiedy mi wesoło">
+  <composer type="solo">Stanisław Szczyciński</composer>
+  <artist type="band">Mikroklimat</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/>Kiedy
+mi wesoło, <ch a="A"/>wszystko naokoło</row>
+      <row important_over="true"><ch a="E"/>razem
+ze mną śmieje się do nie<ch a="fis"/>ba bez chm<ch a="H"/>ur.</row>
+      <row important_over="true"><ch a="E"/>Kiedy
+mi radośnie, tr<ch a="A"/>awa szybciej rośnie,</row>
+      <row important_over="true"><ch a="E"/>sens
+wynurza <ch a="H7"/>się z morza <ch a="E"/>bzdur.<ch a="E7"/><ch a="Dis7"/><ch a="D7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/>Kiedy
+mi ciesząco, <ch a="A"/>w głowie mi gorąco,</row>
+      <row important_over="true"><ch a="E"/>że
+pomysłów dziwnych tysiąc <ch a="fis"/>mam, no to <ch a="H"/>co.</row>
+      <row important_over="true"><ch a="E"/>Kiedy
+mi śmiejąco <ch a="A"/>i podśpiewująco, </row>
+      <row important_over="true"><ch a="E"/>cieszę
+się, że w <ch a="H7"/>głowie mam <ch a="E"/>pstro.</row>
+    </block>
+    <block type="other">
+      <row important_over="true"><ch a="A"/>Myś<ch a="A4"/>lą,
+<ch a="A"/>serc<ch a="A4"/>em na <ch a="E7+"/>niewidzi<ch a="gis"/>alnych <ch a="fis"/>strunach <ch a="Gis"/>gram,  </row>
+      <row important_over="true"><ch a="A"/>ludz<ch a="A4"/>ie
+się <ch a="A"/>dziwi<ch a="A4"/>ą, <ch a="fis"/>a ja <ch a="gis"/>nie wiem sam, skąd <ch a="A"/>taki humor <ch a="H"/>mam.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Dobrze
+mi jak w niebie, śmieję się do siebie,<ch a="E"/><ch a="A"/></row>
+      <row important_over="never">nikt
+mi nie zabierze tego, co w głowie mam.<ch a="E"/><ch a="fis"/><ch a="H"/></row>
+      <row important_over="never">Myśli
+jak skowronki, w uszach grają dzwonki,<ch a="E"/><ch a="A"/></row>
+      <row important_over="never">a
+ja z nimi śpiewam i gram.<ch a="E"/><ch a="H7"/><ch a="E"/><ch a="E7"/><ch a="Dis7"/><ch a="D7"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
