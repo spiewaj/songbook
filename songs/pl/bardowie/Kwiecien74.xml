@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kwiecień &#039;74">
+  <alias>A jeśli smutny los ...</alias>
+  <text_author type="solo">tł. Joanna Karasek</text_author>
+  <comment>25 kwietnia 1974 - Rewolucja goździków (port. Revolução dos Cravos) – wojskowy zamach stanu w Portugalii w 1974 roku, który doprowadził do obalenia dyktatury Marcela Caetana – następcy Antónia Salazara. W konsekwencji doszło do przywrócenia swobód obywatelskich i politycznych oraz dekolonizacji portugalskich posiadłości w Afryce i Azji.</comment>
+  <composer type="solo">Lluís Llach</composer>
+  <artist type="band">Zespół Reprezentacyjny</artist>
+  <translator>Joanna Karasek</translator>
+  <original_title>Abril 74</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Jeżeli któryś z was <ch a="A"/><ch a="E"/></row>
+      <row important_over="never">Jutrzenkę może spotkać <ch a="E"/><ch a="D"/></row>
+      <row important_over="never">Niech powie, że nie czas <ch a="D"/><ch a="h"/></row>
+      <row important_over="never">Bym światło jej pokochał <ch a="h"/><ch a="E"/></row>
+      <row important_over="never">Bo walka jeszcze trwa <ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="A E">Jeżeli któryś z was</row>
+      <row important_over="never" sidechords="E D">Odwiedzi wyspę syren</row>
+      <row important_over="never" sidechords="D h">Niech krzyknie pośród fal</row>
+      <row important_over="never" sidechords="h E">Że do nich nie przypłynę</row>
+      <row important_over="never" sidechords="E7 A">Bo walka jeszcze trwa</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">A jeśli smutny los <ch a="a"/></row>
+      <row important_over="never">Tak sprawi, że śmierć przyjdzie <ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Zanieście pęki róż <ch a="C"/><ch a="G"/></row>
+      <row important_over="never">I wszystkie moje pieśni <ch a="G7"/><ch a="a"/></row>
+      <row important_over="never">Umiłowanej mej <ch a="F"/><ch a="E"/></row>
+      <row important_over="never">Gdy zwyciężymy już <ch a="E7"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="A E">Niech któryś z was</row>
+      <row important_over="never" sidechords="E D">Odwiedzi wyspę syren</row>
+      <row important_over="never" sidechords="D h">Niech krzyknie pośród fal</row>
+      <row important_over="never" sidechords="h E">Że do nich nie przypłynę</row>
+      <row important_over="never" sidechords="E7 A">Bo walka jeszcze trwa</row>
+    </block>
+    <block type="verse">
+      <row important_over="never" sidechords="A E">A jeśli wolnych dni</row>
+      <row important_over="never" sidechords="E D">Szukacie wolnych wiosen</row>
+      <row important_over="never" sidechords="D h">To z wami pragnę iść</row>
+      <row important_over="never" sidechords="h E">By móc tych wiosen dożyć</row>
+      <row important_over="never" sidechords="E7 A">Chcę walczyć ile sił</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
