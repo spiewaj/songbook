@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Późną nocą jesieni już blisko">
+  <artist type="band">Wolna Grupa Bukowina</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Późną nocą <ch a="d"/>jesien<ch a="E"/>i już blisk<ch a="a"/>o</row>
+      <row important_over="true"><ch a="a"/>Późną nocą <ch a="E"/>jesieni już blisk<ch a="a"/>o<ch a="C"/></row>
+      <row important_over="true"><ch a="a"/>Tuż przy drodze r<ch a="d"/>ozkwitł<ch a="E"/>o ognisk<ch a="a"/>o. </row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Spały sierpy powleczone chłodem</row>
+      <row important_over="false">Podciągnąwszy kolana pod brodę</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">W kręg kobiety siedziały w milczeniu</row>
+      <row important_over="false">Wpatrywały się w barwę płomieni</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I wszystko normalnie poza tym</row>
+      <row important_over="false">Zwykła północ - pożegnanie z latem</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I tylko czasem ptak jakiś wrzasnął</row>
+      <row important_over="false">Nie mogę zasnąć, nie mogę zasnąć.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tak mija ta dziwna godzina</row>
+      <row important_over="false">Gdy się kończy coś, a coś zaczyna </row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jak zgubione na polu pokosy</row>
+      <row important_over="false">Śpią żniwiarki zmarznięte od rosy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">A ognisko już samotnie zgasło</row>
+      <row important_over="false">Już idzie jasność, już idzie jasność  </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
