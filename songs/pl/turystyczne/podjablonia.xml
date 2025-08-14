@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pod jabłonią">
+  <text_author type="solo">Mieczysława Sobolewska</text_author>
+  <composer type="solo">Stanisław Szczyciński</composer>
+  <artist type="band">Mikroklimat</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Dobrze
+siedzieć pod jabłonią <ch a="F"/>w południowym sł<ch a="C"/>ońcu,</row>
+      <row important_over="true"><ch a="C"/>Dobrze
+patrzeć na motyle, <ch a="F"/>kwiaty fruwa<ch a="C"/>jące,</row>
+      <row important_over="true">C<ch a="Es"/>hłonąć
+ciszę, <ch a="F"/>przesyconą <ch a="As"/>nagrzanym powi<ch a="G"/>etrzem,</row>
+      <row important_over="true"><ch a="F"/>Albo
+<ch a="C"/>małe, <ch a="E7"/>błahe <ch a="a"/>myśli <ch a="F"/>rozpi<ch a="C"/>nać na w<ch a="D"/>iet<ch a="F"/>rze.</row>
+      <row important_over="true"><ch a="C"/>Dobrze
+chmurki ciepłych marzeń <ch a="F"/>jak gałąź nag<ch a="C"/>inać</row>
+      <row important_over="true"><ch a="C"/>I
+wypijać słodki zapach, <ch a="F"/>niczym kielich<ch a="C"/> wina.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">
+<ch a="C"/>Napełniam <ch a="a"/>się w czas słon<ch a="F"/>eczn<ch a="C"/>y,  w pog<ch a="F"/>od<ch a="G"/>ę,      </row>
+      <row important_over="true"><ch a="a"/>Przeżyciami <ch a="C"/>radosn<ch a="F"/>ym<ch a="C"/>i, jak <ch a="F"/>mio<ch a="G"/>dem.</row>
+      <row important_over="true"><ch a="B7+"/>Zbieram
+promyk po promyku, </row>
+      <row important_over="true"><ch a="B7+"/>Zbieram
+kroplę do kropelki,</row>
+      <row important_over="true"><ch a="F"/>Na
+dni <ch a="C"/>smutne, <ch a="E7"/>na dni <ch a="a"/>puste,</row>
+      <row important_over="true"><ch a="F"/>Na
+wyp<ch a="C"/>adek <ch a="B"/>wszelki.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Jak
+w bezpiecznym, ciepłym ulu, tak w sercu zamykam<ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Smak
+przygody, uśmiech szczęścia, co tak łatwo znika,<ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Cień
+kochania zapatrzony w gwiezdne niebo pragnień<ch a="Es"/><ch a="F"/><ch a="As"/><ch a="G"/></row>
+      <row important_over="never">I
+beztroski urok lata, zanim w jesień spadnie.<ch a="F"/><ch a="C"/><ch a="E7"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="never">Zimą
+zejdę na dno serca i zapachnie sadem,<ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Pośród
+skarbów pozbieranych na wszelki wypadek.<ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
