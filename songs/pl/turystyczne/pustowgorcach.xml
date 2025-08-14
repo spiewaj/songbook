@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pusto w Gorcach">
+  <text_author type="solo">Wojciech Gawlik</text_author>
+  <comment/>
+  <composer type="solo">Grzegorz Gieremek</composer>
+  <artist type="solo">Andrzej Mróz</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">P<ch a="d"/>usto w Gorcach jest jesienią, </row>
+      <row important_over="true">ch<ch a="A7"/>ociaż w dole życie wr<ch a="d"/>e,</row>
+      <row important_over="true"><ch a="d"/>Tutaj w górach tylko buki, </row>
+      <row important_over="true">zł<ch a="A7"/>ocą się wśród innych drz<ch a="d"/>ew, <ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">Gdzi<ch a="F"/>eś w dolinę schodzą ślady, </row>
+        <row important_over="true">ktoś nied<ch a="D7"/>awno si<ch a="g"/>ano wi<ch a="A7"/>ózł,</row>
+        <row important_over="true">N<ch a="d"/>a polanie pozostawił </row>
+        <row important_over="true">tr<ch a="A7"/>zy ostrewki puste j<ch a="d"/>uż. <ch a="C"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Chodźmy wyżej, popatrzymy </row>
+      <row important_over="false">w z<ch a="A7"/>arośniętą stawu tw<ch a="d"/>arz,</row>
+      <row important_over="false"><ch a="d"/>Może dojrzysz poprzez trzciny </row>
+      <row important_over="false">n<ch a="A7"/>a dnie gdzieś zbójników sk<ch a="d"/>arb <ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">Ju<ch a="F"/>ż niedługo spadną śniegi, ,</row>
+        <row important_over="false">staw pogr<ch a="D7"/>ąża w śni<ch a="g"/>e głęb<ch a="A7"/>okim,</row>
+        <row important_over="false">Sł<ch a="d"/>uchaj, może w szelest liści </row>
+        <row important_over="false">wkr<ch a="A7"/>adły się już zimy kr<ch a="d"/>oki.<ch a="C"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>A w szałasie jeszcze ciepło, </row>
+      <row important_over="false">m<ch a="A7"/>oże watra wciąż się tl<ch a="d"/>i,</row>
+      <row important_over="false"><ch a="d"/>Jeszcze przecież gryzie w oczy, </row>
+      <row important_over="false">j<ch a="A7"/>ałowcowy ostry d<ch a="d"/>ym. <ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">M<ch a="F"/>oże tutaj spotkasz szczęście, ,</row>
+        <row important_over="false">co gdzieś p<ch a="D7"/>od gont<ch a="g"/>ami śp<ch a="A7"/>i,</row>
+        <row important_over="false">Szcz<ch a="d"/>ęście, które wspomnisz nieraz </row>
+        <row important_over="false">j<ch a="A7"/>ak i te jesienne dn<ch a="d"/>i <ch a="C"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
