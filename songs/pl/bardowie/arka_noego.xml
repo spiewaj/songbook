@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Arka Noego">
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <comment/>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">W p<ch a="e"/>ełnym słońcu w środku l<ch a="D"/>ata,<ch a="e"/> wśród łagodnych fal ziel<ch a="D"/>eni</row>
+      <row important_over="false">Wr<ch a="e"/>e zapamiętała pr<ch a="D"/>aca, st<ch a="e"/>awiam ł<ch a="D"/>ódź na s<ch a="h"/>uchej zi<ch a="a"/>em<ch a="e"/>i</row>
+      <row important_over="false"><ch a="e"/>Owad w pąku drży kwitn<ch a="D"/>ącym, chł<ch a="e"/>op po barki brodzi w ż<ch a="D"/>ycie</row>
+      <row important_over="false">J<ch a="e"/>a pracując w dzień i w n<ch a="D"/>ocy, m<ch a="e"/>am już b<ch a="D"/>urty <ch a="h"/>i posz<ch a="a"/>yci<ch a="e"/>e</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Muszę taką łódź zbudować, by w niej całe życie zmieścić</row>
+      <row important_over="false">Nikt nie wierzy w moje słowa, wszyscy mają ważne wieści</row>
+      <row important_over="false">Ktoś się o majątek kłóci, albo łatwy węszy żer</row>
+      <row important_over="false">Zanim się ze snu obudzi, będę miał już maszt i ster!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Niech was nie mami głupców chór!</row>
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Słychać już grzmot burzowych chmur!</row>
+      <row important_over="false">Zostawcie kłótnie swe na potem</row>
+      <row important_over="false">Wiarę przeczuciom dajcie raz!</row>
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Zanim w końcu pochłonie was!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Każdy z was jest łodzią w której, może się z potopem mierzyć</row>
+      <row important_over="false">Cało wyjść z burzowej chmury, musi tylko w to uwierzyć!</row>
+      <row important_over="false">Lecz w ulewie grzmot za grzmotem, i za późno krzyk na trwogę</row>
+      <row important_over="false">I za późno usta z błotem, wypluwają mą przestrogę!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed po<ch a="fis"/>topem</row>
+      <row important_over="false">Sł<ch a="E"/>yszę sterując w s<ch a="h"/>er<ch a="cis"/>ce f<ch a="fis"/>al! <ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Krzyczy ten co się przedtem śmiał!</row>
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Naszych nad własnym losem łez!</row>
+      <row important_over="false">Budujcie Arkę przed potopem</row>
+      <row important_over="false">Na pierwszy i na ostatni chrzest!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
