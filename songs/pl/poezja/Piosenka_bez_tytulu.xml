@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka bez tytułu">
-  <text_author>W. Chyliński</text_author>
+  <text_author type="solo">W. Chyliński</text_author>
   <comment>alternatywne akordy:
 [eG/a H7/ C G H7/e G/ a H7/ C G H7]
 [H7 e/ a e/ C G/ H7]</comment>
@@ -14,7 +14,7 @@
       <row important_over="true"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
       <row important_over="true"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis times="2">
         <row important_over="false"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
         <row important_over="false"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
