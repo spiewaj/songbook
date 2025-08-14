@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obracam w palcach złoty pieniądz">
+  <artist type="band">Perfect</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Nad fioletowo-słoną rzeką rozpinam purpurowy most. <ch a="C"/><ch a="G"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Powietrze eksploduje tęczą i dźwięczą ostrza srebrnych kos.</row>
+      <row important_over="never">Z ciemności dzieci do mnie biegną, wabi je gitar słodki dźwięk.</row>
+      <row important_over="never">Obracam w palcach złoty pieniądz i pokazuję czołgom cel.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wchodzę bezbronnie rozebrany do klatki w której tygrys śpi.</row>
+      <row important_over="never">Na ścianach jarzą się ekrany i widzę o czym bestia śni.</row>
+      <row important_over="never">Oto mój krzyk i strach przed śmiercią przecina błysk tygrysich kłów.</row>
+      <row important_over="never">Obracam w palcach złoty pieniądz, kopniakiem budząc go ze snu.</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wiążę jedwabne sznurowadła i diamentowy wkładam frak.</row>
+      <row important_over="never">Te krwią znaczone prześcieradła na naszej hańby wieszam znak.</row>
+      <row important_over="never">Niechże wam szybko wiosny lecą, moja prześliczna bando hien.</row>
+      <row important_over="never">Obracam w palcach złoty pieniądz i przeraźliwie nudzę się.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
