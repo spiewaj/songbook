@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wojna postu z karnawałem">
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Niecodzienne zbiegowisko na śródmiejskim rynku <ch a="e"/></row>
+      <row important_over="false">W oknach, bramach i przy studni, w kościele i w szynku. <ch a="e"/></row>
+      <row important_over="false">Straganiarzy, zakonników, błaznów i karzełków <ch a="e"/></row>
+      <row important_over="false">Roi się pstrokate mrowie, roi się wśród zgiełku. <ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Praca stała się zabawą, a zabawa - pracą: <ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Toczą się po ziemi kości, z kart się sypią wióry,</row>
+      <row important_over="false">Nic nie znaczy ten, kto nie gra, ci co grają - tracą</row>
+      <row important_over="false">Ale nie odróżnić w ciżbie który z nich jest który.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">W drzwiach świątyni na serwecie krzyże po trzy grosze, <ch a="e"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Rozgrzeszeni wysypują się bocznymi drzwiami.</row>
+      <row important_over="false">Klęczą jałmużnicy w prochu pomiędzy mnichami,</row>
+      <row important_over="false">Nie odróżnić, który święty, a który świętoszek.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Oszalało miasto całe, <ch a="e"/><ch a="C"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="E"/></row>
+      <row important_over="false">Nie wie starzec ni wyrostek</row>
+      <row important_over="false">Czy to post jest karnawałem,</row>
+      <row important_over="false">Czy karnawał - postem!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Dosiadł stulitrowej beczki kapral kawalarzy</row>
+      <row important_over="false">Kałdun - tarczą, hełmem - rechot na rozlanej twarzy.</row>
+      <row important_over="false">Zatknął na swej kopii upieczony łeb prosięcia,</row>
+      <row important_over="false">Będzie żarcie, będzie picie, będzie łup do wzięcia.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Przeciw niemu - tron drewniany zaprzężony w księży,</row>
+      <row important_over="false">A na tronie wychudzony tkwi apostoł postu.</row>
+      <row important_over="false">Już przeprasza Pana Boga za to, że zwycięży,</row>
+      <row important_over="false">A do ręki zamiast kopii wziął Piotrowe Wiosło.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Prześcigają się stronnicy w hasłach i modlitwach,</row>
+      <row important_over="false">Minstrel śpiewa jak to stanął brat przeciwko bratu.</row>
+      <row important_over="false">W przepełnionej karczmie gawiedź czeka rezultatu,</row>
+      <row important_over="false">Dziecko macha chorągiewką - będzie wielka bitwa.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="false">Siedzę w oknie, patrzę z góry, cały świat mam w oku,</row>
+      <row important_over="false">Widzę co kto kradnie, gubi, czego szuka w tłoku.</row>
+      <row important_over="false">Zmierzchem pójdę do kościoła, wyspowiadam grzeszki,</row>
+      <row important_over="false">Nocą przejdę się po rynku i pozbieram resztki.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Z nich karnawałowo-postną ucztą jak się patrzy</row>
+      <row important_over="false">Uraduję bliski sercu ludek wasz żebraczy.</row>
+      <row important_over="false">Żeby w waszym towarzystwie pojąć prawdę całą:</row>
+      <row important_over="false">Dusza moja - pragnie postu, ciało - karnawału!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
