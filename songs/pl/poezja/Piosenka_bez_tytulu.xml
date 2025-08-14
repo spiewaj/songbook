@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka bez tytułu">
-  <alias/>
-  <text_author>W. Chyliński</text_author>
-  <comment/>
-  <composer type="solo">A. Dršg</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <text_author type="solo">W. Chyliński</text_author>
+  <comment>alternatywne akordy:
+[eG/a H7/ C G H7/e G/ a H7/ C G H7]
+[H7 e/ a e/ C G/ H7]</comment>
+  <composer type="solo">A. Drąg</composer>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Popatrz niebo się kłania<ch a="C"/></row>
-      <row important_over="false"><ch a="d"/>Niebo różowe<ch a="E7"/></row>
-      <row important_over="false"><ch a="F"/>Wiatrem sypane w kolorze<ch a="C"/><ch a="E"/></row>
-      <row important_over="false"><ch a="C"/>Słońce przychodzi</row>
-      <row important_over="false"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
-      <row important_over="false"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Popatrz niebo się kłania<ch a="C"/></row>
+      <row important_over="true"><ch a="d"/>Niebo różowe<ch a="E7"/></row>
+      <row important_over="true"><ch a="F"/>Wiatrem sypane w kolorze<ch a="C"/><ch a="E"/></row>
+      <row important_over="true"><ch a="C"/>Słońce przychodzi</row>
+      <row important_over="true"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
+      <row important_over="true"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
     </block>
-    <block type="verse">
-      <bis>
+    <block type="chorus">
+      <bis times="2">
         <row important_over="false"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
         <row important_over="false"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
         <row important_over="false"><ch a="F"/>Rosną nam nowe twarze<ch a="C"/></row>
@@ -34,11 +32,13 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
