@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dobranoc">
+  <text_author type="solo">Jeremi Przybora</text_author>
+  <composer type="solo">Jerzy Wasowski</composer>
+  <artist type="band">Kabaret Starszych Panów</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc mężczyzno, zbieg<ch a="D"/>any za groszem jak mr<ch a="e7"/>ówka</row>
+      <row important_over="false">dobr<ch a="A"/>anoc, niech sny Ci się przyśnią porosłe drzewami w złot<ch a="D9"/>ówkach <ch a="D"/></row>
+      <row important_over="false">Złot<ch a="h7"/>ówki jak liście na wietrze czeredą un<ch a="A7+"/>oszą się całą <ch a="A"/></row>
+      <row important_over="false">Garści<ch a="a7"/>ami pakujesz je w ki<ch a="D"/>eszeń a resztę tacz<ch a="G7+"/>kami w PKO</row>
+      <row important_over="false">Aż pr<ch a="g7"/>osisz by rząd ulżył <ch a="C7/6"/>Tobie i w p<ch a="C"/>ortfel zap<ch a="F"/>uścił Ci dren <ch a="A7"/></row>
+      <row important_over="false">Dobr<ch a="D7+"/>anoc, dobr<ch a="a6"/>anoc mój chł<ch a="C0"/>opie już c<ch a="E7/9"/>zas <ch a="A7/6"/> na s<ch a="D"/>en <ch a="D7+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc niewiasto skłoń gł<ch a="D"/>ówkę na miękką pod<ch a="e7"/>uszkę</row>
+      <row important_over="false">dobr<ch a="A"/>anoc, nad wieś i nad miasto jak rączym rumakiem wzleć ł<ch a="D9"/>óżkiem <ch a="D"/></row>
+      <row important_over="false">niech r<ch a="h7"/>ycerz Cię na nim porywa co piękny i d<ch a="A7+"/>obry jest wielce <ch a="A"/></row>
+      <row important_over="false">co zr<ch a="a7"/>obił zakupy, pozm<ch a="D"/>ywał i dzieciom dop<ch a="G7+"/>omógł zmóc lekcje</row>
+      <row important_over="false">a t<ch a="g7"/>eraz tak objął Cię ci<ch a="C7/6"/>asno jak <ch a="C"/>amant ekr<ch a="F"/>anów i scen <ch a="A7"/></row>
+      <row important_over="false">Dobr<ch a="D7+"/>anoc, dobr<ch a="a6"/>anoc niewi<ch a="C0"/>asto, już c<ch a="E7/9"/>zas <ch a="A7/6"/> na s<ch a="D"/>en<ch a="D7+"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc ojczyzno, już ksi<ch a="D"/>ężyc na czarnej lśni t<ch a="e7"/>acy</row>
+      <row important_over="false">dobr<ch a="A"/>anoc, i niech Ci się przyśnią pogodni, zamożni Pol<ch a="D9"/>acy<ch a="D"/></row>
+      <row important_over="false">że l<ch a="h7"/>uźnym zdążają tramwajem, wytworną konf<ch a="A7+"/>ekcją okryci <ch a="A"/></row>
+      <row important_over="false">i d<ch a="a7"/>arzą uśmiechem się wz<ch a="D"/>ajem, i wszyscy do cz<ch a="G7+"/>ysta wymyci</row>
+      <row important_over="false">i wsz<ch a="g7"/>yscy uczciwi od r<ch a="C7/6"/>ana, od m<ch a="C"/>orza po g<ch a="F"/>óry, aż hen <ch a="A7"/></row>
+      <row important_over="false">Dobr<ch a="D7+"/>anoc, ojcz<ch a="a6"/>yzno koch<ch a="C0"/>ana już c<ch a="E7/9"/>zas <ch a="A7/6"/> na s<ch a="D"/>en<ch a="D7+"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
