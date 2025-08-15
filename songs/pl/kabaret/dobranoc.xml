@@ -5,12 +5,12 @@
   <artist type="band">Kabaret Starszych Panów</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc mężczyzno, zbieg<ch a="D"/>any za groszem jak mr<ch a="e7"/>ówka</row>
-      <row important_over="false">dobr<ch a="A"/>anoc, niech sny Ci się przyśnią porosłe drzewami w złot<ch a="D9"/>ówkach <ch a="D"/></row>
-      <row important_over="false">Złot<ch a="h7"/>ówki jak liście na wietrze czeredą un<ch a="A7+"/>oszą się całą <ch a="A"/></row>
-      <row important_over="false">Garści<ch a="a7"/>ami pakujesz je w ki<ch a="D"/>eszeń a resztę tacz<ch a="G7+"/>kami w PKO</row>
-      <row important_over="false">Aż pr<ch a="g7"/>osisz by rząd ulżył <ch a="C7/6"/>Tobie i w p<ch a="C"/>ortfel zap<ch a="F"/>uścił Ci dren <ch a="A7"/></row>
-      <row important_over="false">Dobr<ch a="D7+"/>anoc, dobr<ch a="a6"/>anoc mój chł<ch a="C0"/>opie już c<ch a="E7/9"/>zas <ch a="A7/6"/> na s<ch a="D"/>en <ch a="D7+"/></row>
+      <row important_over="true">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc mężczyzno, zbieg<ch a="D"/>any za groszem jak mr<ch a="e7"/>ówka</row>
+      <row important_over="true">dobr<ch a="A"/>anoc, niech sny Ci się przyśnią porosłe drzewami w złot<ch a="D9"/>ówkach <ch a="D"/></row>
+      <row important_over="true">Złot<ch a="h7"/>ówki jak liście na wietrze czeredą un<ch a="A7+"/>oszą się całą <ch a="A"/></row>
+      <row important_over="true">Garści<ch a="a7"/>ami pakujesz je w ki<ch a="D"/>eszeń a resztę tacz<ch a="G7+"/>kami w PKO</row>
+      <row important_over="true">Aż pr<ch a="g7"/>osisz by rząd ulżył <ch a="C7/6"/>Tobie i w p<ch a="C"/>ortfel zap<ch a="F"/>uścił Ci dren <ch a="A7"/></row>
+      <row important_over="true">Dobr<ch a="D7+"/>anoc, dobr<ch a="a6"/>anoc mój chł<ch a="C0"/>opie już c<ch a="E7/9"/>zas <ch a="A7/6"/> na s<ch a="D"/>en <ch a="D7+"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Dobr<ch a="D"/>anoc, dobr<ch a="D7+"/>anoc niewiasto skłoń gł<ch a="D"/>ówkę na miękką pod<ch a="e7"/>uszkę</row>
