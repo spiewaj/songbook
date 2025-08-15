@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o krzyżowcu">
-	<alias></alias>
+	<alias>Krzyżowiec</alias>
 	<text_author type="solo">Mirosław Hrynkiewicz</text_author>
-	<comment></comment>
 	<composer type="solo">Mirosław Hrynkiewicz</composer>
 	<artist type="solo">Staszek Wawrykiewicz</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
 			<row important_over="true"><ch a="A"/> Dokąd pędzisz w stal odziany?</row>
@@ -65,20 +62,16 @@
 	<album>Przeboje Trampów - Karczma Dla Samotnych (składanka)</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
-		<done>	
-			
-			
+		<done>
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator><verificator>Adam</verificator><verificator>Onufry (KK)</verificator>
-			
-			
-			
+			<verificator>Onufry</verificator>
+			<verificator>Adam</verificator>
+			<verificator>Onufry (KK)</verificator>
 		</verificators>
-		<to_do>Rozstrzygnięcia google testu: W Jeruzalem byłem dzisiaj, nie wczoraj, z Mahometem wino pije, nie piją.Większość w google teście uważa, że 'strzegą go wysokie wieże', ale jednocześnie 'po coż niszczyć białe wieże' - ja robię tak, jak u nas się śpiewa - czyli strzegą mury, niszczyć wieże.----------Poprawiłem tekst zgodnie oryginalnym nagraniem (Adam) — Dzięki, Adasiu. Poprawiłem literówki (Pan na wielką, etc.), uzgodniłem liczbę 'na na' (Onufry)</to_do>
+		<to_do>Rozstrzygnięcia google testu: W Jeruzalem byłem dzisiaj, nie wczoraj, z Mahometem wino pije, nie piją.Większość w google teście uważa, że &#039;strzegą go wysokie wieże&#039;, ale jednocześnie &#039;po coż niszczyć białe wieże&#039; - ja robię tak, jak u nas się śpiewa - czyli strzegą mury, niszczyć wieże.----------Poprawiłem tekst zgodnie oryginalnym nagraniem (Adam) — Dzięki, Adasiu. Poprawiłem literówki (Pan na wielką, etc.), uzgodniłem liczbę &#039;na na&#039; (Onufry)</to_do>
 	</status>
-	<music_source></music_source>
 </song>
