@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pechowy Dzień">
+  <alias>Wiatr i chmura</alias>
   <text_author type="solo">Waldemar Chyliński</text_author>
   <composer type="solo">Waldemar Chyliński</composer>
   <artist type="band">Smutne Skutki</artist>
@@ -30,7 +31,7 @@
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
-  <genre>Piosenka harcerska</genre>
+  <genre>Piosenka turystyczna</genre>
   <status>
     <done/>
     <verificators/>
