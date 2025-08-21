@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Red">
+  <text_author>Taylor Swift</text_author>
+  <comment/>
+  <composer>Taylor Swift</composer>
+  <artist type="solo">Taylor Swift</artist>
+  <original_title>Red</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Lovin&#039; him is like,<ch a="G"/> drivin&#039; a new Maserati</row>
+      <row important_over="true"><ch a="D"/>Down a dead end <ch a="A"/>street <ch a="A"/></row>
+      <row important_over="true"><ch a="G"/>Faster than the wind, pass<ch a="D"/>ionate as sin</row>
+      <row important_over="true">Ended so sudden<ch a="A"/>ly <ch a="A"/></row>
+      <row important_over="true">Loving him is like, <ch a="G"/>tryin&#039; to change your mind</row>
+      <row important_over="true">Once you&#039;re <ch a="D"/>already flying through the<ch a="A"/> free fall</row>
+      <row important_over="true">Like the <ch a="G"/>colors in autumn so<ch a="D"/> bright</row>
+      <row important_over="true">Just before they <ch a="A"/>lose it all</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Losing him was <ch a="G"/>blue, like I&#039;d never <ch a="D"/>known</row>
+      <row important_over="true">Missing him was <ch a="A"/>dark grey, all alo<ch a="h"/>ne</row>
+      <row important_over="true">Forgetting him was <ch a="G"/>like trying to know some<ch a="D"/>body</row>
+      <row important_over="true">You never <ch a="A"/>met</row>
+      <row important_over="true">But loving him was <ch a="G"/>red</row>
+      <row important_over="true">Re ee <ch a="D"/>ed, r<ch a="A"/>e ee ed, re ee ed</row>
+      <row important_over="true">Lovin&#039; him was <ch a="G"/>red</row>
+      <row important_over="true">Re ee <ch a="D"/>ed, r<ch a="A"/>e ee ed, re ee ed</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Touching him was like, <ch a="G"/>realizing all you ever <ch a="D"/>wanted</row>
+      <row important_over="true">Was right there in <ch a="A"/>front of you</row>
+      <row important_over="true">Memorizing him was as, <ch a="G"/>easy as knowin&#039; all the <ch a="D"/>words</row>
+      <row important_over="true">To your old favor<ch a="A"/>ite song</row>
+      <row important_over="true">Fighting with <ch a="G"/>him was like tryin&#039; to solve a</row>
+      <row important_over="true">Crossword and <ch a="D"/>realizing there&#039;s no right a<ch a="A"/>nswer</row>
+      <row important_over="true">Regretting him was like <ch a="G"/>wishing you never found <ch a="D"/>love</row>
+      <row important_over="true">But love could be that<ch a="A"/> strong</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="true">Remembering him comes in <ch a="h"/>flashbacks and ec<ch a="A"/>hos</row>
+      <row important_over="true">Tellin&#039; myself it&#039;s <ch a="G"/>time now gotta l<ch a="D"/>et go</row>
+      <row important_over="true">But moving on from <ch a="h"/>him is impossible</row>
+      <row important_over="true">When <ch a="D"/>I still see it all in my<ch a="G"/>, head</row>
+      <row important_over="true">And burning <ch a="G"/>red <ch a="D"/><ch a="A"/></row>
+      <row important_over="true">Loving him was<ch a="G"/> reee<ch a="D"/>eed <ch a="A"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Oh losing him was <ch a="G"/>blue, like I&#039;d n<ch a="D"/>ever known</row>
+      <row important_over="true">Missing him was <ch a="A"/>dark grey, all<ch a="h"/> alone</row>
+      <row important_over="true">Forgetting him was <ch a="G"/>like tryin&#039; to know some<ch a="D"/>body</row>
+      <row important_over="true">You never <ch a="A"/>met</row>
+      <row important_over="true">Cause loving him was <ch a="G"/>red</row>
+      <row important_over="true"><ch a="D"/>Yeah, yeah,<ch a="A"/> red</row>
+      <row important_over="true">Oh Burning <ch a="G"/>reeee<ch a="D"/>eeee<ch a="A"/>d</row>
+    </block>
+    <block type="other">
+      <row important_over="true">And that&#039;s <ch a="G"/>Why he&#039;s spinnin&#039; &#039;<ch a="D"/>round in my head</row>
+      <row important_over="true"><ch a="A"/>Comes back to me, burnin&#039; red <ch a="G"/></row>
+      <row important_over="true">Ye<ch a="D"/>ah, yea<ch a="A"/>h</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">His love was like, <ch a="G"/>drivin&#039; a new<ch a="D"/> Maserati</row>
+      <row important_over="true">Down a dead end<ch a="A"/> street.</row>
+    </block>
+  </lyric>
+  <music metre="4/4"/>
+  <keywords/>
+  <album>Red</album>
+  <genre>Country</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
