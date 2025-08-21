@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Six feet under">
+  <artist type="solo">Billie Eilish</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="b"/>help I lo<ch a="A"/>st mysel<ch a="G"/>f agai<ch a="A"/>n</row>
+      <row important_over="true">but <ch a="b"/>I remem<ch a="A"/>ber y<ch a="G"/>ou</row>
+      <row important_over="true"><ch a="b"/>don’t come ba<ch a="A"/>ck it won’<ch a="G"/>t end wel<ch a="A"/>l</row>
+      <row important_over="true">but I <ch a="b"/>wish you’d<ch a="A"/> tell me <ch a="G"/>to</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">our love is <ch a="b"/>six feet u<ch a="A"/>nder</row>
+      <row important_over="true">I can’t <ch a="G"/>help but <ch a="A"/>wonder</row>
+      <row important_over="true">if our <ch a="b"/>grave was <ch a="A"/>watered by the <ch a="e"/>rain</row>
+      <row important_over="true">would roses <ch a="G"/>bloo<ch a="b"/>m?</row>
+      <row important_over="true">could roses <ch a="G"/>bloo<ch a="b"/>m? <ch a="A"/></row>
+      <row important_over="true"><ch a="G"/>again</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">re<ch a="b"/>trace my <ch a="A"/>lips era<ch a="G"/>se your <ch a="A"/>touch</row>
+      <row important_over="true">it&#039;s <ch a="b"/>all too <ch a="A"/>much for <ch a="G"/>me</row>
+      <row important_over="true"><ch a="b"/>blow a<ch a="A"/>way like <ch a="G"/>smoke in <ch a="A"/>air</row>
+      <row important_over="true">how <ch a="b"/>can you die <ch a="A"/>careless<ch a="G"/>ly</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">our love is <ch a="b"/>six feet u<ch a="A"/>nder</row>
+      <row important_over="true">I can’t <ch a="G"/>help but <ch a="A"/>wonder</row>
+      <row important_over="true">if our <ch a="b"/>grave was <ch a="A"/>watered by the <ch a="e"/>rain</row>
+      <row important_over="true">would roses <ch a="G"/>bloo<ch a="b"/>m?</row>
+      <row important_over="true">could roses <ch a="G"/>bloo<ch a="b"/>m?</row>
+    </block>
+    <block type="other">
+      <row important_over="true"><ch a="G"/>they&#039;re playin us out, <ch a="A"/>layin us down ton<ch a="b"/>ight</row>
+      <row important_over="true">and <ch a="G"/>all of these clouds <ch a="A"/>cryin us back to <ch a="b"/>life</row>
+      <row important_over="true"><ch a="A"/>but you&#039;re cold <ch a="G"/>as a knife</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="b"/>six feet u<ch a="A"/>nder</row>
+      <row important_over="true">I can’t <ch a="G"/>help but <ch a="A"/>wonder</row>
+      <row important_over="true">if our <ch a="b"/>grave was <ch a="A"/>watered by the <ch a="e"/>rain</row>
+      <row important_over="true"><ch a="G"/>bloo<ch a="b"/>m </row>
+      <row important_over="true"><ch a="G"/>bloo<ch a="b"/>m <ch a="A"/></row>
+      <row important_over="true"><ch a="G"/>again</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="b"/>help I lo<ch a="A"/>st mysel<ch a="G"/>f agai<ch a="A"/>n</row>
+      <row important_over="true">but <ch a="b"/>I remem<ch a="A"/>ber y<ch a="G"/>ou</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>Happier Than Ever</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
