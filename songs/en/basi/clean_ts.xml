@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Clean">
+  <artist type="solo">Taylor Swift</artist>
+  <original_title>Clean</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false"><ch a="C"/> The dr<ch a="G"/>ought was the very w<ch a="a"/>orst, ah<ch a="F"/>, ah</row>
+      <row important_over="false"><ch a="C"/> When the fl<ch a="G"/>owers that we&#039;d gr<ch a="a"/>own together d<ch a="F"/>ied of thirst</row>
+      <row important_over="false"><ch a="C"/> It was mo<ch a="G"/>nths, and months of back and f<ch a="a"/>orth <ch a="F"/></row>
+      <row important_over="false"><ch a="C"/> You&#039;re still all <ch a="G"/>over me like a w<ch a="a"/>ine-stained dress I can&#039;t w<ch a="F"/>ear anymore</row>
+    </block>
+    <block type="other">
+      <row important_over="false">H<ch a="G"/>ung my head as I <ch a="F"/>lost the war, and the s<ch a="G"/>ky turn black like a <ch a="F"/>perfect storm</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">R<ch a="C"/>ain came po<ch a="G"/>uring d<ch a="a"/>own when I was drowning</row>
+      <row important_over="false">Th<ch a="F"/>at&#039;s when I could finally bre<ch a="C"/>athe</row>
+      <row important_over="false">And by m<ch a="G"/>orning, g<ch a="a"/>one was any trace of you, <ch a="F"/>I think I am finally cl<ch a="C"/>ean</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/> There was n<ch a="G"/>othing left to do <ch a="a"/><ch a="F"/></row>
+      <row important_over="false"><ch a="C"/> When the b<ch a="G"/>utterflies turned to d<ch a="a"/>ust that covered m<ch a="F"/>y whole room</row>
+      <row important_over="false"><ch a="C"/> So I pu<ch a="G"/>nched a hole in the roof <ch a="a"/><ch a="F"/></row>
+      <row important_over="false"><ch a="C"/> Let the flo<ch a="G"/>od carry aw<ch a="a"/>ay all my pict<ch a="F"/>ures of you</row>
+    </block>
+    <block type="other">
+      <row important_over="false">The w<ch a="G"/>ater filled my lu<ch a="F"/>ngs, I screamed so l<ch a="G"/>oud but no one h<ch a="F"/>eard a thing</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false"><ch a="G"/>I think I am finally cl<ch a="a"/>ean <ch a="F"/></row>
+      <row important_over="false"><ch a="C"/> Said <ch a="G"/>I think I am finally cl<ch a="a"/>ean <ch a="F"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">1<ch a="C"/>0 months sober, I must admit</row>
+      <row important_over="false">J<ch a="F"/>ust because you&#039;re clean don&#039;t mean you don&#039;t miss it</row>
+      <row important_over="false">1<ch a="C"/>0 months older I won&#039;t give in</row>
+      <row important_over="false">N<ch a="F"/>ow that I&#039;m clean I&#039;m never gonna risk it</row>
+      <row important_over="false"><ch a="C"/> The dr<ch a="G"/>ought was the very w<ch a="a"/>orst, ah<ch a="F"/>, ah</row>
+      <row important_over="false"><ch a="C"/> When the fl<ch a="G"/>owers that we&#039;d gr<ch a="a"/>own together d<ch a="F"/>ied of thirst</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false"><ch a="G"/> Finally cl<ch a="a"/>ean </row>
+      <row important_over="false"><ch a="F"/> Think I&#039;m finally cl<ch a="C"/>ean <ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/> Think I&#039;m finally cle<ch a="C"/>an</row>
+    </block>
+  </lyric>
+  <music metre="4/4"/>
+  <keywords/>
+  <album>1989</album>
+  <genre>Pop</genre>
+  <status>
+    <done>
+      <text/>
+    </done>
+    <verificators/>
+  </status>
+</song>
