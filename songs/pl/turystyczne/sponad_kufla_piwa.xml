@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sponad kufla piwa">
+  <artist type="band">Na bani</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/>Jak szczyty do <ch a="H"/>wzięcia <ch a="fis"/>kufle ku<ch a="A"/>dłate <ch a="H"/></row>
+      <row important_over="true"><ch a="E"/>Wynurzają się po <ch a="H"/>sobie i piętrzą w od<ch a="fis"/>dali <ch a="A"/><ch a="H"/></row>
+      <row important_over="true"><ch a="E"/>Wspinają się <ch a="H"/>słowa <ch a="fis"/>starym znanym <ch a="A"/>szlakiem <ch a="H"/></row>
+      <row important_over="true"><ch a="E"/>Szlakiem d<ch a="H"/>awno zdobytych już <ch a="fis"/>szklanic <ch a="A"/><ch a="H"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>I wzrasta <ch a="H"/>potem - <ch a="fis"/>słono potem ok<ch a="A"/>upiona <ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Wiatrem o<ch a="H"/>darta z drzew Jawo<ch a="fis"/>rzyna<ch a="A"/><ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Spojrzenie <ch a="H"/>błądzi<ch a="fis"/> po szczytach zie<ch a="A"/>lonych <ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Gubi się w <ch a="H"/>mgłą zasnutych do<ch a="fis"/>linach <ch a="A"/><ch a="H"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="A"/>Wieczór gdzieś tam z wi<ch a="H"/>atrem ku nocy od<ch a="cis"/>pływa<ch a="gis"/></row>
+      <row important_over="true"><ch a="A"/>Po kamieniach <ch a="H"/>pną się myśli w nieskoń<ch a="E"/>czoność</row>
+      <row important_over="true"><ch a="A"/>Ku lotom bez <ch a="H"/>granic - <ch a="cis"/>sponad kufla <ch a="D"/>piwa</row>
+      <row important_over="true"><ch a="A"/>Do Bożych schronisk n<ch a="H"/>iepamięci d<ch a="E"/>rogą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Przewala się po <ch a="H"/>kątach <ch a="fis"/>mej pijanej <ch a="A"/>duszy <ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Odchodzi i <ch a="H"/>wraca, potyka i <ch a="fis"/>wstaje<ch a="A"/><ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Grzmot dawno prze<ch a="H"/>brzmiałej, <ch a="fis"/>radocyńskiej <ch a="A"/>burzy <ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>I śmiech bez pa<ch a="H"/>mięci, i echa <ch a="fis"/>wołanie<ch a="A"/><ch a="H"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="E"/>Z każdym łykiem<ch a="H"/> lżejszy<ch a="fis"/> wzbijam się nad <ch a="A"/>domy <ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Ponad sady <ch a="H"/>dolin i cerkiewne <ch a="fis"/>głowy<ch a="A"/><ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>W rozespanych w<ch a="H"/>spomnieniach <ch a="fis"/>nieprzytomnie <ch a="A"/>tonę</row>
+      <bis times="3">
+        <row important_over="false">Między d<ch a="C"/>rogą z Ko<ch a="D"/>mańczy a bramą Lac<ch a="E"/>kowej</row>
+      </bis>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
