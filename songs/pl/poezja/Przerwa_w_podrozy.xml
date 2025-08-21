@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przerwa w podróży">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Przy piwie w karczmie w Limanowej<ch a="H7"/></row>
@@ -33,18 +26,19 @@
       <row important_over="false"><ch a="E"/>Nikt nie przerywał czekania<ch a="a"/></row>
       <row important_over="false"><ch a="F"/>Nawet gitary zacisnęły zęby<ch a="C"/></row>
       <row important_over="false"><ch a="Ais"/>Wiedziały — już nie będzie grania<ch a="E"/></row>
-      <row important_over="false"><ch a="a"/>Oczy dziewczyny szeptały ,,zostań''!<ch a="d"/></row>
+      <row important_over="false"><ch a="a"/>Oczy dziewczyny szeptały „zostań”!<ch a="d"/></row>
       <row important_over="false"><ch a="G"/>Czas się zatrzyma w Limanowej<ch a="C"/></row>
       <row important_over="false"><ch a="a"/>Oddałem uśmiech przewróciłem kufel<ch a="d"/></row>
       <row important_over="false"><ch a="E"/>Na stół talar spadł<ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
