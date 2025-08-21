@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bad Blood (Taylor&#039;s Version)">
+  <artist type="solo">Taylor Swift</artist>
+  <original_title>Bad Blood</original_title>
+  <lyric>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
+      <row important_over="true"><ch a="C"/>You know it used to be mad love</row>
+      <row important_over="true"><ch a="g"/>So take a look what you&#039;ve done</row>
+      <row important_over="true"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey</row>
+      <row important_over="true"><ch a="C"/>Now we got problems</row>
+      <row important_over="true"><ch a="C"/>And I don&#039;t think we can solve them</row>
+      <row important_over="true"><ch a="g"/>You made a really deep cut</row>
+      <row important_over="true"><ch a="G"/>And, baby, now we got bad blood, hey</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Did you have to do this?</row>
+      <row important_over="true"><ch a="C"/>I was thinking that you could be trusted</row>
+      <row important_over="true"><ch a="g"/>Did you have to ruin what was shiny?</row>
+      <row important_over="true"><ch a="G"/>Now it&#039;s all rusted</row>
+      <row important_over="true"><ch a="C"/>Did you have to hit me where I&#039;m weak?</row>
+      <row important_over="true"><ch a="C"/>Baby, I couldn&#039;t breathe</row>
+      <row important_over="true"><ch a="g"/>And rub it in so deep</row>
+      <row important_over="true"><ch a="G"/>Salt in the wound like you&#039;re laughin&#039; right at me</row>
+    </block>
+    <block type="other">
+      <row important_over="true"><ch a="C"/>Oh, it&#039;s so sad to</row>
+      <row important_over="true"><ch a="C"/>Think about the good times</row>
+      <row important_over="true"><ch a="g"/>You and <ch a="G"/>I</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Did you think we&#039;d be fine?</row>
+      <row important_over="true"><ch a="C"/>Still got scars on my back from your knife</row>
+      <row important_over="true"><ch a="g"/>So don&#039;t think it&#039;s in the past</row>
+      <row important_over="true"><ch a="G"/>These kinda wounds, they last and they last</row>
+      <row important_over="true"><ch a="C"/>Now, did you think it all through?</row>
+      <row important_over="true"><ch a="C"/>All these things will catch up to you</row>
+      <row important_over="true"><ch a="g"/>And time can heal, but this won&#039;t</row>
+      <row important_over="true"><ch a="G"/>So if you&#039;re comin&#039; my way, just don&#039;t</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="1"/>
+    <block type="other">
+      <row important_over="true"><ch a="C"/>Band-aids don&#039;t fix bullet holes</row>
+      <row important_over="true"><ch a="C"/>You say sorry just for show</row>
+      <row important_over="true"><ch a="g"/>If you live like that, you live with ghosts</row>
+      <row important_over="true"><ch a="G"/>Band-aids don&#039;t fix bullet holes (Hey)</row>
+      <row important_over="true"><ch a="C"/>You say sorry just for show (Hey)</row>
+      <row important_over="true"><ch a="C"/>If you live like that, you live with ghosts (Hey), mmm</row>
+      <row important_over="true"><ch a="g"/>If you <ch a="G"/>love like that, blood runs cold</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
+      <row important_over="true"><ch a="C"/>You know it used to be mad love</row>
+      <row important_over="true"><ch a="g"/>So take a look what you&#039;ve done</row>
+      <row important_over="true"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Bad blood)</row>
+      <row important_over="true"><ch a="C"/>Now we got problems</row>
+      <row important_over="true"><ch a="C"/>And I don&#039;t think we can solve them (Don&#039;t think we can solve them)</row>
+      <row important_over="true"><ch a="g"/>You made a really deep cut</row>
+      <row important_over="true"><ch a="G"/>And, baby, now we got bad blood, hey (&#039;Cause now we got bad blood)</row>
+      <row important_over="true"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
+      <row important_over="true"><ch a="C"/>You know it used to be mad love</row>
+      <row important_over="true"><ch a="g"/>So take a look what you&#039;ve done (Look what you&#039;ve done)</row>
+      <row important_over="true"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Ooh, woah)</row>
+      <row important_over="true"><ch a="C"/>Now we got problems</row>
+      <row important_over="true"><ch a="C"/>And I don&#039;t think we can solve them</row>
+      <row important_over="true"><ch a="g"/>You made a really deep cut</row>
+      <row important_over="true"><ch a="G"/>And, baby, now we got bad blood, hey</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>1989</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
