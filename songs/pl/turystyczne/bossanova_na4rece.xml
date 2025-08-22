@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bossanova na 4 ręce">
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="h7"/>`Gdy kłopotów <ch a="e"/>tysiąc i <ch a="G"/>gdy pachnie <ch a="Fis7"/>deszczem,
+</row>
+      <row important_over="false"><ch a="h7"/>A po zimie <ch a="e"/>minę masz <ch a="A7"/>ponurą <ch a="D7+"/>jeszcze,
+</row>
+      <row important_over="false"><ch a="e"/>Ubierz płaszcz i <ch a="A7"/>drzwi na klucz, po <ch a="D7+"/>schodach <ch a="h7"/>biegiem,
+</row>
+      <row important_over="false"><ch a="e"/>Bo za rogiem <ch a="A"/>przecież czeka <ch a="G"/>ktoś na <ch a="Fis7"/>ciebie.
+</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Peleryny brać nie musisz, nie potrzeba,<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="never">Za parasol niech posłuży płatek nieba.
+<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
+      <row important_over="never">Nie zatrzymuj się przed lustrem, Do torebki schowaj chustkę <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">I zaśpiewaj jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,
+</row>
+      <row important_over="true"><ch a="e"/>Taka <ch a="A7"/>wonna, taka <ch a="D7+"/>biała jakby <ch a="h7"/>bez.
+</row>
+      <row important_over="true">W <ch a="e"/>niej <ch a="A7"/>zanurzyć się, <ch a="D7+"/>zagubić jak naj<ch a="h7"/>prędzej,</row>
+      <row important_over="true"><ch a="e"/>Niech <ch a="A7"/>porywa, niech zakręci <ch a="G"/>aż do <ch a="Fis7"/>łez.
+</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Bossanova, bossanova na cztery ręce
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">Już króluje nad dachami miast,
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">Jak dziewczyna, jak dziewczyna co w sukience
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">Na ulicę wiosną wyszła pierwszy raz. <ch a="e"/><ch a="A7"/><ch a="G"/><ch a="Fis7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Zamiast myśleć o wczorajszym dniu, co minął,
+<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="never">Lepiej wybierz się na spacer, nie jest zimno.
+<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
+      <row important_over="never">Schowaj w szafę rękawiczki, szalik, futro,
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">Zrób to dzisiaj, nie odkładaj nic na jutro.
+<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Pospiesz się, za chwilę późno będzie nieco,
+<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="never">Otwórz okno, nic nie szkodzi, że jest przeciąg.
+<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
+      <row important_over="never">Niech telefon sobie dzwoni, nim depesza ją dogoni
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">To zaśpiewaj, jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="never">Odpłynęły gdzieś humory i humorki,
+<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="never">Pogodniejsze są niedziele, środy, wtorki<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
+      <row important_over="never">
+I w ogóle cały tydzień , Jakoś wszystkim raźniej idzie
+<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="never">Gdy śpiewają, gdy śpiewają tak: <ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
