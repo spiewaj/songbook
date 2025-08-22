@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Babę zesłał Bóg">
+  <comment/>
+  <composer type="solo">Sławomir Wolski</composer>
+  <artist type="solo">Renata Przemyk</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Babę zesłał Bóg, raz mu wyszedł taki cud</row>
+      <row important_over="true">Bab<ch a="d"/>ę zesłał Bóg, coś inneg<ch a="a"/>o przecież mógł,</row>
+      <row important_over="true">Żeby do<ch a="F"/>brze zrobić wam,<ch a="E"/> żeby dob<ch a="F"/>rze zrobić wam, <ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Babę zesłał Pan</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Bóg też chłopem jest, świadczy o tym jego gest</row>
+      <row important_over="false">B<ch a="d"/>óg też chłopem jest, ta<ch a="a"/>k jak swing i blues i jazz</row>
+      <row important_over="false">Że<ch a="F"/>by ciągle z bab<ch a="E"/>y drwić, <ch a="F"/>żeby ciągle z ba<ch a="E"/>by drwić,</row>
+      <row important_over="false"><ch a="a"/>trzeba chłopem być</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Bóg ci zesłał mnie, byś miał kogoś w noc i dzień,</row>
+      <row important_over="false">Bó<ch a="d"/>g ci zesłał mnie, ty si<ch a="a"/>ę z tego tylko ciesz</row>
+      <row important_over="false">Z<ch a="F"/> woli nieba jest<ch a="E"/>em tu, Z <ch a="F"/>woli nieba jestem<ch a="E"/> tu,</row>
+      <row important_over="false"><ch a="a"/>Więc się do mnie módl</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
