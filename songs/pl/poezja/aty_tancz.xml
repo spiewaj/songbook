@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="A ty tańcz">
+  <text_author type="solo">Robert Fons</text_author>
+  <comment/>
+  <composer type="solo">Robert Fons</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Zawitał czar <ch a="C"/>poezji   </row>
+      <row important_over="false"><ch a="G"/>Z właścicielem słów i <ch a="D"/>wierszy</row>
+      <row important_over="never">Rozlano pierwsze butelki<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Z wina źródła pociechy<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Marek cichutko zaśpiewa<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">O wiośnie w oknach swej strzechy<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Rozpoczął się bal poetów<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">W mym pokoju gości wielu<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">A ty tańcz moja zasłono<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">I ty, papierowy lampionie<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">I tańcz moja koszulo<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Wietrze owiewaj me dłonie<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Jak gołębie lecące<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Jak łabędzie po jeziorze płynące<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Falą łodzie bujane<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Mały człowiek w kołysce się śmieje<ch a="G"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Tabun kolorowych wozów<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Na łące się zatrzymał<ch a="G"/><ch a="D"/></row>
+      <row important_over="never">Kare konie skubią trawę<ch a="D"/><ch a="C"/></row>
+      <row important_over="never">Motyle ganiają się<ch a="G"/><ch a="D"/></row>
+    </block>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
