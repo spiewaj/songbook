@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tu asfalt się kończy">
+  <artist type="band">Stare Dobre Małżeństwo</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Tu asfalt się kończy </row>
+      <row important_over="true"><ch a="C"/>A zaczyna blues</row>
+      <row important_over="true"><ch a="G"/>Na płocie list gończy </row>
+      <row important_over="true">I po <ch a="C"/>prostu luz </row>
+      <row important_over="true"><ch a="C"/>A termometr w oknie </row>
+      <row important_over="true"><ch a="C"/>Lekko dziś moknie</row>
+      <row important_over="true"><ch a="G"/>I wskazuje plus minus </row>
+      <row important_over="true"><ch a="C"/>Chyba ze trzy stopnie </row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="F"/>Gdy Ogrodowa <ch a="C"/>moczy się </row>
+      <row important_over="true"><ch a="G"/>To tak naprawdę <ch a="C"/>nie jest źle </row>
+      <row important_over="true"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
+      <row important_over="true"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Tu Leona spotkasz czasem<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Kiedy wypije to zaraz płacze<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Tu żyje jeszcze Sopel Jan<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Był elektrykiem dzisiaj jest sam<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Tu asfalt się kończy<ch a="C"/></row>
+      <row important_over="never">A zaczyna noc<ch a="C"/></row>
+      <row important_over="never">Na płocie list gończy<ch a="G"/></row>
+      <row important_over="never">Stracił swoją moc<ch a="C"/></row>
+      <row important_over="never">A termometr w oknie<ch a="C"/></row>
+      <row important_over="never">Męczy się okropnie<ch a="C"/></row>
+      <row important_over="never">I wskazuje plus minus<ch a="G"/></row>
+      <row important_over="never">Może ze trzy stopnie<ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Na Ogrodowej pusto dziś<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Chłopcy do wojska musieli iść<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Kiedyś wrócą na Ogrodową<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Choć może już okrężną drogą<ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Bo tu zostały ich pierwsze ślady<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">I pierwsza miłość z tamtych lat<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">I te piwonie które tak szalały<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Po ogrodach przez cały czas<ch a="G"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
