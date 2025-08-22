@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jam">
+  <alias>Wiosenny</alias>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Jam jest ziemia, co pod<ch a="G"/>piera stopy</row>
+      <row important_over="true"><ch a="a"/>Jam jest wiatr, <ch a="F"/>co rozwiewa włosy</row>
+      <row important_over="true"><ch a="C"/>Jam jest deszcz, co o<ch a="G"/>bmywa twarz</row>
+      <row important_over="true"><ch a="a"/>Jam jest słońce,<ch a="F"/> co osusza skórę</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">Jam jest nic, jam jest nic, i wiele</row>
+        <row important_over="false">Jam jest ten, co płacze i ten co się śmieje </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">On jest ciepłem, co rozgrzewa ciało</row>
+      <row important_over="false">On jest chmurą, co osłania mnie</row>
+      <row important_over="false">On jest mgłą, co łagodzi ranek</row>
+      <row important_over="false">On jest ciepłem, które mieszka we mnie</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false">On jest nic, on jest nic, niewiele</row>
+        <row important_over="false">On jest ten, co płacze i ten co się śmieje</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
