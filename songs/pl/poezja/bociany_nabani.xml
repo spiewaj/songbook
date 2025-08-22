@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lecące bociany">
+  <alias>Bociany</alias>
+  <artist type="band">Na bani</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>O<ch a="D"/>budzi<ch a="G"/>ć si<ch a="D"/>ę rosi<ch a="e"/>e rozkażę</row>
+      <row important_over="true"><ch a="C"/>Nawet <ch a="h7"/>gdy dzień <ch a="a7"/>zaś<ch a="D7"/>pi</row>
+      <row important_over="never">A kiedy już wstaną pejzaże<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">I zakwitnie jaśmin<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Wte<ch a="D"/>dy <ch a="e"/>ręce <ch a="G"/>rozłożę jak <ch a="D"/>bociek</row>
+      <row important_over="true"><ch a="C"/>I <ch a="D"/>jak <ch a="e"/>Chrystus za<ch a="G"/>stygnę w l<ch a="D"/>ocie</row>
+      <row important_over="true"><ch a="C"/>Spoj<ch a="D"/>rzę na <ch a="e"/>góry jak na <ch a="G"/>piersi</row>
+      <row important_over="true"><ch a="D"/>dziewczęce</row>
+      <row important_over="true"><ch a="C"/>I znów jak bociek rozłożę <ch a="D7"/>ręce</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Słońce przywitam jak gospodarz domu<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">W którym garnki nie płaczą<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="never">Zasieję pieśni i nie zdradzę nikomu<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Ile dla mnie znaczą<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">A kiedy noc uroczyście oblecze<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Swój czarny garnitur<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="never">Rozpalę ogień i zaproszę wędrowców<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">Pośpiewamy do świtu<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
