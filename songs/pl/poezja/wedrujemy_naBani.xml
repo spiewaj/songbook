@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrujemy (dwa światy)">
+  <alias>Dwa światy</alias>
+  <text_author type="solo">Tomasz Borkowski</text_author>
+  <composer type="solo">Magda Snarska</composer>
+  <artist type="band">Na bani</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="Asus2"/> Wędruję ścieżką od ciebie do ciebie</row>
+      <row important_over="true">Choć <ch a="fis"/>droga prowadzi<ch a="F"/> tylko przez<ch a="Asus2"/> góry</row>
+      <row important_over="true"><ch a="Asus2"/> Przez świat zatopiony wierzchołkami w niebie</row>
+      <row important_over="true">Dwa <ch a="fis"/>światy znam <ch a="F"/>- lecz ten mój to<ch a="Asus2"/> który?</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/> Góry rozpadły się w <ch a="E7"/>stos fotografii</row>
+      <row important_over="true">Poprzec<ch a="Asus2"/>inane <ch a="fis"/>wąwo<ch a="F"/>zami <ch a="Asus2"/>miasta</row>
+      <row important_over="true"><ch a="D"/> Ale ty mój świat u<ch a="E7"/>łożyć potrafisz</row>
+      <row important_over="true">I <ch a="Asus2"/>świat znów za<ch a="fis"/>czyna <ch a="F"/>w góry się<ch a="Asus2"/> zrastać</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/> Góry to <ch a="G"/>nasze spię<ch a="a"/>trzone ma<ch a="F"/>rzenia</row>
+      <row important_over="true"><ch a="C"/> W górach <ch a="G"/>ludzie jak one <ch a="a"/>rosną ku <ch a="F"/>niebu</row>
+      <row important_over="true">Morze sz<ch a="C"/>czytów <ch a="G"/>nas w że<ch a="a"/>glarzy prze<ch a="F"/>mienia</row>
+      <row important_over="true">Steru<ch a="C"/>jących coraz <ch a="G"/>dalej od <ch a="a"/>brzegu, od <ch a="F"/>brzegu</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/> Góry to <ch a="G"/>ludzie którzy je <ch a="a"/>niosą w ple<ch a="F"/>caku</row>
+      <row important_over="false"><ch a="C"/> Ludzie <ch a="G"/>są jak góry które <ch a="a"/>noszą w so<ch a="F"/>bie</row>
+      <row important_over="false">Gdzie <ch a="C"/>oczy p<ch a="G"/>oniosą wędru<ch a="a"/>jemy szla<ch a="F"/>kiem</row>
+      <row important_over="false">A u <ch a="C"/>celu i tak <ch a="G"/>czeka <ch a="a"/>drugi <ch a="F"/>człowiek</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="Asus2"/> Wędruję ścieżką od ciebie do ciebie</row>
+      <row important_over="false">Choć <ch a="fis"/>nie ma drogi<ch a="F"/> poza gó<ch a="Asus2"/>rami</row>
+      <row important_over="false"><ch a="Asus2"/> Już poza tobą świata nie dostrzegam</row>
+      <row important_over="false">Zawie<ch a="fis"/>szony między<ch a="F"/> dwoma świa<ch a="Asus2"/>tami</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/> Tęsknię za tobą na <ch a="E7"/>pustych szczytach</row>
+      <row important_over="false">Lecz mój <ch a="Asus2"/>wzrok nie się<ch a="fis"/>ga w<ch a="F"/> do<ch a="Asus2"/>liny</row>
+      <row important_over="false"><ch a="D"/> U świata krawędzi z chmur skłę<ch a="E7"/>bionych czytam</row>
+      <row important_over="false">Świat na <ch a="Asus2"/>tobie się koń<ch a="fis"/>czy na <ch a="F"/>tobie za<ch a="Asus2"/>czyna</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="4"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
