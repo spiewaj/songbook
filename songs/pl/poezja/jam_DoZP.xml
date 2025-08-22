@@ -11,8 +11,8 @@
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">Jam jest nic, jam jest nic, i wiele</row>
-        <row important_over="false">Jam jest ten, co płacze i ten co się śmieje </row>
+        <row important_over="true"><ch a="C"/>Jam jest nic, jam jest <ch a="G"/>nic, i wiele</row>
+        <row important_over="true"><ch a="a"/>Jam jest ten, co płacze <ch a="F"/>i ten co się śmieje </row>
       </bis>
     </block>
     <block type="verse">
@@ -29,6 +29,7 @@
     </block>
   </lyric>
   <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
     <done/>
     <verificators/>
