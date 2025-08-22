@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki ekspres">
+  <text_author type="solo">Andrzej Wierzbicki</text_author>
+  <artist type="solo">Andrzej Wierzbicki</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Z bukowych głębin do połonin,<ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Żelaznej drogi wstążki dwie, <ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="never">I nikt jej dymów nie dogoni<ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">tak szybko giną w nocnej mgle.<ch a="G"/><ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Kiedy zmęczone masz ramiona<ch a="D"/><ch a="D7"/></row>
+      <row important_over="never">Otarte nogi sztywny kark<ch a="G"/><ch a="B7"/></row>
+      <row important_over="never">w gościnne progi ostrym gwizdem Cię zaprosi<ch a="D"/><ch a="fis"/><ch a="h"/><ch a="G"/></row>
+      <row important_over="never">stary bieszczadzki ekspres nasz.<ch a="D"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Pękaty zbiornik dziwny komin, <ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">żywicą pachnie siwy dym<ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="never">Iskrami wyzłocone koła<ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">beztroski wystukują rytm<ch a="G"/><ch a="E"/><ch a="A"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Dziś nie ma starych parowozów<ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Nie słychać już stukotu kół<ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="never">Czas pozacierał wstęgi torów<ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="never">Kurz pokrył ślad pionierskich stóp<ch a="G"/><ch a="E"/><ch a="A"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Lecz może kiedyś przed wieczorem<ch a="D"/><ch a="D7"/></row>
+      <row important_over="never">u schyłku kolejnego dnia, <ch a="G"/><ch a="B7"/></row>
+      <row important_over="never">usłyszysz znowu jak nadjeżdża swoim torem<ch a="D"/><ch a="fis"/><ch a="h"/><ch a="G"/></row>
+      <row important_over="never">Stary bieszczadzki ekspres nasz. <ch a="D"/><ch a="A"/><ch a="D"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+  <music_source>Gene Pitney &quot;Transpacyfic American&quot;</music_source>
+</song>
