@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Plastelina" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Plastelina">
+	<lyric>
 		<block type="verse">
 			<row important_over="false">Ulepiłem sobie domek z niewidzialnej plasteliny, <ch a="A"/><ch a="E"/></row>
 			<row important_over="false">Dwa okienka, dwa kominy z niewidzialnej plasteliny, <ch a="fis"/><ch a="E"/></row>
@@ -30,23 +23,14 @@
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	<music metre="">
-		<guitar/>
-	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
 	<status>
 		<done>
 			<text/>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
 		</verificators>
 		<to_do>Sprawdzający nie znają tej piosenki :(</to_do>
 	</status>
-	<music_source></music_source>
 </song>
-
