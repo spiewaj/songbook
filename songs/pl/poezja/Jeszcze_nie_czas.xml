@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jeszcze nie czas">
-	<artist type="solo"/>
+	<text_author type="solo">Andrzej Koczewski</text_author>
+	<composer type="solo">Andrzej Koczewski</composer>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Wieczór w granatowym swym płaszczu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
@@ -37,26 +38,15 @@
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music>
-		<guitar/>
-	</music>
+	<keywords/>
 	<status>
-		<verificators><verificator>Alek</verificator>
-		</verificators>
 		<done>
 			<text/>
 			<authors/>
 		</done>
+		<verificators>
+			<verificator>Alek</verificator>
+		</verificators>
 		<to_do>Tekst zgodny z nagraniem — Alek</to_do>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo">Andrzej Koczewski</text_author>
-	<composer type="solo">Andrzej Koczewski</composer>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
 </song>
