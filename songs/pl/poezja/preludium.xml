@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Preludium">
+  <alias>czaple</alias>
+  <text_author type="solo">Kazimierz Wierzyński</text_author>
+  <comment/>
+  <composer>Iwona Piastowska</composer>
+  <artist type="band">Zgórmysyny</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/> Przyleciały czaple,<ch a="C"/> wyszły na mokr<ch a="D"/>adła</row>
+      <row important_over="true">Jesień się zbudz<ch a="C"/>iła,<ch a="a"/> twoja panna zbl<ch a="e"/>adła <ch a="H7"/></row>
+      <row important_over="true"><ch a="e"/> Powój mój niebieski,<ch a="C"/> mój dom wśród pow<ch a="D"/>oju</row>
+      <row important_over="true">ściany moje, s<ch a="C"/>ufit<ch a="a"/> i okna pok<ch a="e"/>oju <ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Przyleciały ptaki koloru indygo <ch a="e"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Siadły na badylach, nad żółtą łodygą <ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/></row>
+      <row important_over="never">Kwilą coś do siebie, szemrzą coś do panny <ch a="e"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Tuje pachną z okna i chłód jest poranny <ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Postoimy w mgle tej, popatrzymy jeszcze <ch a="e"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Ptaki stąd odlecą i przeminą deszcze <ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/></row>
+      <row important_over="never">Zawiąż węzełek z wiatru, napisz na suficie <ch a="e"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Że my przeczekamy ten smutek jak życie <ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/></row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="H7"/><ch a="e"/><ch a="H7"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="e"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
