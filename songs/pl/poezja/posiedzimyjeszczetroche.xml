@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Posiedzimy jeszczę trochę">
+  <comment/>
+  <composer>Piotr Bakal</composer>
+  <artist type="solo">Piotr Bakal</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="D"/><ch a="e"/><ch a="h"/></row>
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="e"/><ch a="C"/><ch a="H7"/><ch a="e"/></row>
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Dzień znowu kończy się <ch a="A"/>śpiewem</row>
+      <row important_over="true"><ch a="e"/> kładzie do snu swoje <ch a="A"/>nuty</row>
+      <row important_over="true"><ch a="D"/> ogień zaczyna grać <ch a="h"/>piano</row>
+      <row important_over="true">cisza <ch a="C"/>czeka<ch a="D"/> na <ch a="e"/>znak...</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/> Posiedzimy <ch a="D"/>jeszcze trochę</row>
+      <row important_over="true"><ch a="e"/> popleciemy <ch a="h"/>coś trzy po trzy</row>
+      <row important_over="true"><ch a="a"/> nim się żywe <ch a="e"/>oczy iskier <ch a="C"/> - <ch a="H7"/></row>
+      <row important_over="true"><ch a="e"/>zamkną...</row>
+      <row important_over="true"><ch a="G"/> Posiedzimy <ch a="D"/>jeszcze trochę</row>
+      <row important_over="true"><ch a="e"/> i pójdziemy <ch a="h"/>w stronę nocy</row>
+      <row important_over="true"><ch a="a"/> wygasimy <ch a="e"/>dzień do końca <ch a="C"/> - <ch a="H7"/></row>
+      <row important_over="true"><ch a="e"/>ciszą...</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Na posrebrzonej po<ch a="A"/>lanie</row>
+      <row important_over="false"><ch a="e"/> noc położyła się <ch a="A"/>w trawie</row>
+      <row important_over="false"><ch a="D"/> gdzieś w rozpuszczonych jej <ch a="h"/>włosach</row>
+      <row important_over="false">znowu <ch a="C"/>snu<ch a="D"/> nie <ch a="e"/>odnajdę...</row>
+    </block>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
