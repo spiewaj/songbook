@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zaparzanie herbaty">
+  <text_author type="solo">Jerzy Harasymowicz</text_author>
+  <comment/>
+  <composer type="solo">Wojtek Szymański</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="C11+"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Kto zawsze jest spako<ch a="C11+"/>wany </row>
+      <row important_over="true"><ch a="C"/>Gotów do drogi</row>
+      <row important_over="true"><ch a="C"/>Kto jest <ch a="C11+"/>czarnym tu<ch a="C"/>rystą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kto nie wie ile</row>
+      <row important_over="false">Mu zostało</row>
+      <row important_over="false">Księżyców znikających w dali</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kto jest przez Hades</row>
+      <row important_over="false">Specjalnie umiłowany</row>
+      <row important_over="false">Tego cieszą rzeczy najprostsze</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Słoneczniki <ch a="F"/>ścięte</row>
+      <row important_over="true">Z których <ch a="C"/>światło uchodzi</row>
+      <row important_over="true"><ch a="G"/>Jesień igra<ch a="F"/>jąca z <ch a="C"/>ogniem</row>
+      <row important_over="true"><ch a="G"/>Zaparzanie <ch a="F"/></row>
+      <row important_over="true">Skośno<ch a="C"/>okiej herbaty</row>
+      <row important_over="true"><ch a="a"/>Mi<ch a="G"/>łe z <ch a="F"/>nią roz<ch a="C"/>mo-<ch a="G"/>o-<ch a="C"/>wy</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
