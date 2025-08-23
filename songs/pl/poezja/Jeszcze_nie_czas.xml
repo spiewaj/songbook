@@ -4,20 +4,20 @@
 	<composer type="solo">Andrzej Koczewski</composer>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">Wieczór w granatowym swym płaszczu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="true">Gwiazdy już pozapalał<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="true">Z kątów wyłażą zrudziałe smutki<ch a="a"/><ch a="F"/></row>
-			<row important_over="true">A my gramy na swych gitarach<ch a="F"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">I ciche nutki zbieramy<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="false">By grały nam razem do taktu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="false">Niebieskie myśli odganiamy<ch a="a"/><ch a="F"/></row>
-			<row important_over="false">Bo przecież jeszcze nie czas<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="never">Wieczór w granatowym swym płaszczu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+			<row important_over="never">Gwiazdy już pozapalał<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
+			<row important_over="never">Z kątów wyłażą zrudziałe smutki<ch a="a"/><ch a="F"/></row>
+			<row important_over="never">A my gramy na swych gitarach<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">I ciche nutki zbieramy<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+			<row important_over="never">By grały nam razem do taktu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
+			<row important_over="never">Niebieskie myśli odganiamy<ch a="a"/><ch a="F"/></row>
+			<row important_over="never">Bo przecież jeszcze nie czas<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Jeszcze nie czas swe marzenia do walizek kłaść<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
-			<row important_over="true">Jeszcze nie czas, by piosenki nasze śpiewał tylko wiatr<ch a="F"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
-			<row important_over="true">Jeszcze nie czas, by gitary spały na dnie szaf<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
-			<row important_over="true">Póki tyle jest muzyki jeszcze w nas<ch a="F"/><ch a="G"/><ch a="F"/><ch a="C"/></row>
+			<row important_over="never">Jeszcze nie czas swe marzenia do walizek kłaść<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
+			<row important_over="never">Jeszcze nie czas, by piosenki nasze śpiewał tylko wiatr<ch a="F"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="never">Jeszcze nie czas, by gitary spały na dnie szaf<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
+			<row important_over="never">Póki tyle jest muzyki jeszcze w nas<ch a="F"/><ch a="G"/><ch a="F"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">A kiedy zabraknie przyjaciół<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
@@ -39,6 +39,7 @@
 		<blocklink blocknb="2"/>
 	</lyric>
 	<keywords/>
+	<genre>Piosenka turystyczna</genre>
 	<status>
 		<done>
 			<text/>
