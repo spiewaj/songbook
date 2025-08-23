@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dyzie">
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Nocka idzie, <ch a="D"/>śpią juz dyzie</row>
+      <row important_over="false"><ch a="e"/>A po niebie <ch a="D"/>skarbnik idzie</row>
+      <row important_over="false"><ch a="e"/>Słucha słucha <ch a="D"/>skarbnik stary, </row>
+      <row important_over="false"> <ch a="e"/>W jakim skarbcu <ch a="D"/>szumią czary </row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>AAA - <ch a="D"/>minął nowy <ch a="e"/>dzień</row>
+      <row important_over="never">jeszcze jeden ciepły blask<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">AAA - minął nowy dzień<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">przecwałował gwiazdy wiatr <ch a="C"/><ch a="D"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">W skarbcu płynie srebrna rzeka<ch a="e"/><ch a="D"/></row>
+      <row important_over="never">Złote pszczoły nad pasieką<ch a="e"/><ch a="D"/></row>
+      <row important_over="never">Złote sny ciągle nowe<ch a="e"/><ch a="D"/></row>
+      <row important_over="never">Przelatują nam przez głowę <ch a="e"/><ch a="D"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">AAA - rozstać się już czas<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">na każdego czeka sen<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">AAA - rozstać się już czas<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never">jutro będzie nowy dzień <ch a="C"/><ch a="D"/><ch a="e"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
