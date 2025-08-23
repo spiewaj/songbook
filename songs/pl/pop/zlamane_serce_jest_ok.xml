@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Złamane serce jest OK">
+  <comment/>
+  <composer>Daria Zawiałow</composer>
+  <artist type="band">Daria Zawiałow</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Skasowa<ch a="D"/>łam <ch a="e"/>Polone<ch a="D"/>za</row>
+      <row important_over="true"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur <ch a="D"/></row>
+      <row important_over="true"><ch a="e"/>Na mieście <ch a="D"/>zobaczyłam <ch a="e"/>jak</row>
+      <row important_over="true">Beztrosko trzyma <ch a="D"/>Cię za <ch a="G"/>rękę <ch a="A"/></row>
+      <row important_over="true">Jechałam <ch a="e"/>dwieście <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Wyczołga<ch a="D"/>łam <ch a="e"/>się spod au<ch a="D"/>ta</row>
+      <row important_over="false"><ch a="e"/>W Lunie gra<ch a="D"/>li &quot;<ch a="e"/>Drive&quot; <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Kupiłam bilet, <ch a="D"/>colę <ch a="e"/>i</row>
+      <row important_over="false">Patrzyłam <ch a="D"/>jak się cału<ch a="G"/>jecie <ch a="A"/></row>
+      <row important_over="false">Tam gdzie my <ch a="e"/>wcześniej <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Mieliśmy zwiedzać Pa<ch a="D"/>ryż</row>
+      <row important_over="false"><ch a="e"/> Tam gubić się <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/> Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Może jej pokaż Wiet<ch a="D"/>nam</row>
+      <row important_over="false"><ch a="e"/> Bo w Nowy Rok <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/> Zamknęli <ch a="a"/>Wam nasze <ch a="e"/>PHO <ch a="D"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A <ch a="C"/>ja będę się <ch a="a"/>śmiać</row>
+      <row important_over="false">Wsiądę w sa<ch a="G"/>molot Asia Air</row>
+      <row important_over="false">Polecę <ch a="h"/>na zachodni brzeg</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">A <ch a="C"/>ja cała we <ch a="a"/>łzach</row>
+      <row important_over="true">Zadzwonię <ch a="G"/>w lipcu powiem, że</row>
+      <row important_over="true">Złamane <ch a="h"/>serce jest OK</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Na billboardach <ch a="h"/>w tym miesiącu</row>
+      <row important_over="false"><ch a="C"/>Błyszczy Twoja <ch a="a"/>twarz</row>
+      <row important_over="false"><ch a="e"/> Nie dzwoń, Bo znów rozbijam <ch a="h"/>się</row>
+      <row important_over="false">Nie odebrane tele<ch a="C"/>fony, tryb samolo<ch a="a"/>towy</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Miałeś mnie wziąć na Stroke<ch a="D"/>s&#039;ów</row>
+      <row important_over="false"><ch a="e"/> Krzyczałabym <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/> Pod sceną <ch a="a"/>z nią krzyczysz <ch a="e"/>dziś <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/> Wiem, że Cię w końcu rzu<ch a="D"/>ci</row>
+      <row important_over="false"><ch a="e"/> Napiszesz mi <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/> Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć</row>
+    </block>
+    <blocklink blocknb="6"/>
+    <blocklink blocknb="7"/>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
