@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rolnicza dola">
+  <artist type="solo">Wały Jagiellońskie</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Jedzie chłop po polu, jedzie na traktorze <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Bronkę wiezie z sobą, pole sobie orze <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Zesztywniały mu już prawie wszystkie członki</row>
+      <row important_over="false">Część z powodu pracy, część z powodu bronki</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Hej, hola, hola, rolnicza dola <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Hej, hola, hola, rolnicza dola <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jedzie chłop po polu, jedzie na siewniku</row>
+      <row important_over="false">Przystanął wpół drogi, żeby zrobić siku</row>
+      <row important_over="false">Sika tak i duma, duma tak i sika</row>
+      <row important_over="false">Ciężka moja dola chłoporobotnika.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Jedzie chłop po polu, jedzie na kombajnie</row>
+      <row important_over="false">Berecik na głowie ma wciśnięty fajnie</row>
+      <row important_over="false">Dziewuchy z grabiami na niego kiwają</row>
+      <row important_over="false">Gdyby nie robota, by się nimi zajął</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Bronka leży obok, tuż w jego kabinie</row>
+      <row important_over="false">Wozi ją ze sobą, nikt mu jej nie zwinie.</row>
+      <row important_over="false">Bo co to za gospodarz, co swoje zagony</row>
+      <row important_over="false">Nie przeczesze nieraz przy pomocy brony</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Pieśń ludowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
