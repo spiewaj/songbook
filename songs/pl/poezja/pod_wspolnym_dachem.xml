@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pod wspólnym dachem">
+  <alias>Na cztery ręce</alias>
+  <text_author type="solo">A. Ziemianin</text_author>
+  <comment/>
+  <composer>W. Jarociński</composer>
+  <artist type="band">Wolna Grupa Bukowina</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">W<ch a="A"/>ybrałaś d<ch a="E7"/>ach t<ch a="h7"/>en sam co j<ch a="A"/>a</row>
+      <row important_over="true">I<ch a="D"/> ten sam k<ch a="A"/>omin z w<ch a="E7"/>iecznie żywym dymem</row>
+      <row important_over="false"><ch a="A"/>W pokoju <ch a="E7"/>gdzie <ch a="h7"/>obrazy <ch a="A"/>dwa</row>
+      <row important_over="false"><ch a="D"/>Pozostał <ch a="E7"/>ślad po <ch a="A"/>pianinie</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">W<ch a="D"/>ięc gramy w<ch a="A"/>ciąż n<ch a="h7"/>a 4 rę<ch a="A"/>ce</row>
+      <row important_over="true">N<ch a="D"/>uty - krople d<ch a="A"/>eszczu pl<ch a="E7"/>ączą się w ogrodzie</row>
+      <row important_over="true">W<ch a="D"/>ięc gramy wcią<ch a="A"/>ż na 4 rę<ch a="E7"/>ce</row>
+      <row important_over="true">N<ch a="D"/>uty - krople d<ch a="A"/>eszczu<ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Nasz stały gość kulawy kot<ch a="A"/><ch a="E7"/><ch a="h7"/><ch a="A"/></row>
+      <row important_over="never">Od dawna z nami na &#039;ty&#039;<ch a="D"/><ch a="A"/><ch a="E7"/></row>
+      <row important_over="never">Tylko listonosz chyba niechcący<ch a="A"/><ch a="E7"/><ch a="h7"/><ch a="A"/></row>
+      <row important_over="never">Zamienia listy na łzy<ch a="D"/><ch a="A"/><ch a="E7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="E7"/><ch a="h7"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E7"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
