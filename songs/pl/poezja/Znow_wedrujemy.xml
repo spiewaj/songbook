@@ -1,72 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Znów wędrujemy">
-  <alias/>
-  <text_author>Krzysztof Kamil Baczyński</text_author>
-  <comment/>
-  <composer type="solo">Grzegorz Turnau</composer>
-  <artist type="solo">Grzegorz Turnau</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
-      <row important_over="true">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
-      <row important_over="true"><ch a="e"/> Ptaki powrotne umier<ch a="h"/>ają</row>
-      <row important_over="true">Wśród pomar<ch a="C"/>ańczy na rozdrożach</row>
-      <row important_over="true"><ch a="C"/> Na fioletowoszarych ł<ch a="D"/>ąkach</row>
-      <row important_over="true">Niebo rozp<ch a="G"/>ina płynność <ch a="C"/>arkad</row>
-      <row important_over="true">P<ch a="a"/>ejzaż w powieki miękko wsi<ch a="e"/>ąka</row>
-      <row important_over="true">Zakrz	<ch a="C"/>epła sól na nagich<ch a="e"/> wargach  <ch a="h"/><ch a="C"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false">A wiczor<ch a="e"/>ami w prądach z<ch a="h"/>atok</row>
-      <row important_over="false">Noc liże m<ch a="C"/>orze słodką grz<ch a="D"/>ywą</row>
-      <row important_over="false"><ch a="e"/> Jak miękkie gruszki brzmieje l<ch a="h"/>ato</row>
-      <row important_over="false">Wiatrem sparz<ch a="C"/>one jak pokrzywą</row>
-      <row important_over="false">Przed fontann<ch a="C"/>ami perłow<ch a="D"/>ymi</row>
-      <row important_over="false">Noc winogr<ch a="G"/>ona gwiazd rozd<ch a="C"/>aje</row>
-      <row important_over="false">Zn<ch a="a"/>ów wędrujemy ciepłą zi<ch a="e"/>emią</row>
-      <row important_over="false">Znów wędr<ch a="C"/>ujemy ci<ch a="D"/>epłym</row>
-      <row important_over="false"><ch a="e"/> Kr<ch a="h"/>ajem</row>
-      <row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
-      <row important_over="false">Ptaki powrotne umierają<ch a="e"/><ch a="h"/></row>
-      <row important_over="false">Wśród pomarańczy na rozdrożach<ch a="C"/></row>
-    </block>
-    <block type="other"><row style="instr"><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="C"/><ch a="D"/></row></block>
-    <block type="verse">
-      <row important_over="false"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
-      <row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
-      <row important_over="false"><ch a="e"/> Ptaki powrotne umier<ch a="h"/>ają</row>
-      <row important_over="false">Wśród pomar<ch a="C"/>ańczy na rozdrożach</row>
-      <row important_over="false">Przed fontann<ch a="C"/>ami perłow<ch a="D"/>ymi</row>
-      <row important_over="false">Noc winogr<ch a="G"/>ona gwiazd rozd<ch a="C"/>aje</row>
-      <row important_over="false">Zn<ch a="a"/>ów wędrujemy ciepłą zi<ch a="e"/>emią</row>
-      <row important_over="false">Znów wędruj<ch a="C"/>emy ci<ch a="D"/>epłym</row>
-      <row important_over="false"><ch a="e"/> Kr<ch a="h"/>ajem</row>
-      <row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
-    </block>
-    <block type="other">
-      <row style="instr">
-        <ch a="e"/>
-        <ch a="h"/>
-        <ch a="C"/>
-        <ch a="D"/>
-        <ch a="E"/>
-     </row>
-    </block>
-  </lyric>
-  <music metre="4/4">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <done>
-      <text/>
-      <authors/>
-      <chords>chord positioning</chords>
-    </done>
-    <verificators>
-      <verificator>Kuba</verificator>
-    </verificators>
-    <to_do/>
-  </status>
+	<text_author>Krzysztof Kamil Baczyński</text_author>
+	<composer type="solo">Grzegorz Turnau</composer>
+	<artist type="solo">Grzegorz Turnau</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
+			<row important_over="true">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
+			<row important_over="true"><ch a="e"/> Ptaki powrotne umier<ch a="h"/>ają</row>
+			<row important_over="true">Wśród pomar<ch a="C"/>ańczy na rozdrożach</row>
+			<row important_over="true"><ch a="C"/> Na fioletowoszarych ł<ch a="D"/>ąkach</row>
+			<row important_over="true">Niebo rozp<ch a="G"/>ina płynność <ch a="C"/>arkad</row>
+			<row important_over="true">P<ch a="a"/>ejzaż w powieki miękko wsi<ch a="e"/>ąka</row>
+			<row important_over="true">Zakrz	<ch a="C"/>epła sól na nagich<ch a="e"/> wargach  <ch a="h"/><ch a="C"/><ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A wiczor<ch a="e"/>ami w prądach z<ch a="h"/>atok</row>
+			<row important_over="false">Noc liże m<ch a="C"/>orze słodką grz<ch a="D"/>ywą</row>
+			<row important_over="false"><ch a="e"/> Jak miękkie gruszki brzmieje l<ch a="h"/>ato</row>
+			<row important_over="false">Wiatrem sparz<ch a="C"/>one jak pokrzywą</row>
+			<row important_over="false">Przed fontann<ch a="C"/>ami perłow<ch a="D"/>ymi</row>
+			<row important_over="false">Noc winogr<ch a="G"/>ona gwiazd rozd<ch a="C"/>aje</row>
+			<row important_over="false">Zn<ch a="a"/>ów wędrujemy ciepłą zi<ch a="e"/>emią</row>
+			<row important_over="false">Znów wędr<ch a="C"/>ujemy ci<ch a="D"/>epłym</row>
+			<row important_over="false"><ch a="e"/> Kr<ch a="h"/>ajem</row>
+			<row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
+			<row important_over="false">Ptaki powrotne umierają<ch a="e"/><ch a="h"/></row>
+			<row important_over="false">Wśród pomarańczy na rozdrożach<ch a="C"/></row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"> <ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
+			<row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
+			<row important_over="false"><ch a="e"/> Ptaki powrotne umier<ch a="h"/>ają</row>
+			<row important_over="false">Wśród pomar<ch a="C"/>ańczy na rozdrożach</row>
+			<row important_over="false">Przed fontann<ch a="C"/>ami perłow<ch a="D"/>ymi</row>
+			<row important_over="false">Noc winogr<ch a="G"/>ona gwiazd rozd<ch a="C"/>aje</row>
+			<row important_over="false">Zn<ch a="a"/>ów wędrujemy ciepłą zi<ch a="e"/>emią</row>
+			<row important_over="false">Znów wędruj<ch a="C"/>emy ci<ch a="D"/>epłym</row>
+			<row important_over="false"><ch a="e"/> Kr<ch a="h"/>ajem</row>
+			<row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"> <ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="E"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Kuba</verificator>
+		</verificators>
+	</status>
 </song>
