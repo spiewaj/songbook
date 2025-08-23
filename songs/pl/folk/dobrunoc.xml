@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dobru noč">
+  <artist type="band">Piosenki Ludowe</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Do<ch a="d"/>bru noč, ma <ch a="g"/>mila, dobr<ch a="A7"/>u noč <ch a="d"/></row>
+      <row important_over="true">Ne<ch a="d"/>ch ti se sam<ch a="g"/> Pan Boh da p<ch a="A7"/>omoč, <ch a="d"/> [-] <ch a="C7"/></row>
+      <row important_over="true">Do<ch a="F"/>bru <ch a="C"/>noč,<ch a="F"/> dobre<ch a="F"/> sp<ch a="C"/>ij, <ch a="F"/> [-] <ch a="A7"/></row>
+      <row important_over="true">Ne<ch a="d"/>ch sa ti sniwa<ch a="g"/>jut slatke<ch a="A7"/> sny. <ch a="d"/> [-] <ch a="C7"/></row>
+      <row important_over="true">Do<ch a="F"/>bru <ch a="C"/>noč,<ch a="F"/> dobre<ch a="F"/> sp<ch a="C"/>ij, <ch a="F"/> [-] <ch a="A7"/></row>
+      <row important_over="true">Ne<ch a="d"/>ch sa ti sniwa<ch a="g"/>jut slatke<ch a="A7"/> sny. <ch a="d"/> [-] <ch a="A7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Sn<ch a="d"/>ivaj se snič<ch a="g"/>ečku len <ch a="A7"/>snivaj, <ch a="d"/></row>
+      <row important_over="false">Ke<ch a="d"/>d staniesz snic<ch a="g"/>zeczku veru <ch a="A7"/>daj, <ch a="d"/> [-] <ch a="C7"/></row>
+      <bis times="2">
+        <row important_over="false"><ch a="F"/> Że t<ch a="C"/>a <ch a="F"/>ja <ch a="F"/>mi<ch a="C"/>luj<ch a="F"/>em,</row>
+        <row important_over="false">Se<ch a="d"/>rdečko ti m<ch a="g"/>oje daruj<ch a="A7"/>em. <ch a="d"/> [-] <ch a="C7"/> </row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do<ch a="d"/>bru noč, ma <ch a="g"/>mila, dobr<ch a="A7"/>u noč <ch a="d"/></row>
+      <row important_over="false">Ne<ch a="d"/>ch ti se sam<ch a="g"/> Pan Boh da p<ch a="A7"/>omoč, <ch a="d"/> [-] <ch a="C7"/></row>
+      <bis times="2">
+        <row important_over="false">Do<ch a="F"/>bru <ch a="C"/>noč,<ch a="F"/> dobre<ch a="F"/> sp<ch a="C"/>i, <ch a="F"/> [-] <ch a="A7"/></row>
+        <row important_over="false">Ne<ch a="d"/>ch sa ti sniv<ch a="g"/>ajut o m<ch a="A7"/>ne sny. <ch a="d"/> [-] <ch a="C7"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+  <music_source>ludowa piosenka słowacka</music_source>
+</song>
