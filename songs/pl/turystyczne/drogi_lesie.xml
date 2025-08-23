@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Drogi Lesie">
+  <alias>na polanie na śniadanie</alias>
+  <comment>G/E = xx2033</comment>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G/E"/><ch a="G"/><ch a="G/E"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G/E"/>Na po<ch a="G"/>lanie,<ch a="G/E"/>--- <ch a="G"/>--<ch a="G/E"/>na śnia<ch a="G"/>danie,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="G/E"/>Przyszły <ch a="G"/>sobie<ch a="G/E"/>--- <ch a="G"/>dwie <ch a="G/E"/>młode <ch a="G"/>łanie,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="D"/> Jedna łania trochę większa,</row>
+      <row important_over="true">A ta <ch a="C"/>druga ciut, ciut <ch a="G"/>mniejsza.<ch a="G/E"/>--- <ch a="G"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="G"/>Drogi lesie,<ch a="D"/> kręta drogo-<ch a="C"/>o,</row>
+      <row important_over="true">I ty piękna<ch a="D"/> górska wodo-<ch a="G"/>o,</row>
+      <row important_over="true">Jak daleko<ch a="D"/> w kilometra-<ch a="C"/>ach,</row>
+      <row important_over="true">A jak blisko<ch a="D"/> mego ser<ch a="G"/>ca.</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="true"><ch a="G/E"/>Nad gó<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/>--<ch a="G/E"/>nad la<ch a="G"/>sami,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="G/E"/>Słońce <ch a="G"/>bawi się<ch a="G/E"/>--- <ch a="G"/>--w <ch a="G/E"/>berka z chmu<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="D"/> Byle dalej od zachodu,</row>
+      <row important_over="true">Jutro <ch a="C"/>harce znów od <ch a="G"/>wschodu.<ch a="G/E"/>--- <ch a="G"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="true"><ch a="G/E"/>Być czło<ch a="G"/>wiekiem,<ch a="G/E"/>--- <ch a="G"/>--<ch a="G/E"/>to py<ch a="G"/>tanie,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="G/E"/>Jakże <ch a="G"/>czasem <ch a="G/E"/>trudno odpo<ch a="G"/>wiedzieć <ch a="G/E"/>sobie <ch a="G"/>na nie,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="true"><ch a="D"/> Trzeba tylko więcej dawać niż za<ch a="C"/>bierać,</row>
+      <row important_over="true">Więcej <ch a="G"/>kochać...<ch a="G/E"/>--- <ch a="G"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="G/E"/><ch a="G"/><ch a="G/E"/><ch a="G"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna górska</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
