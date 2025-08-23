@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chudobnom">
+  <composer>ludowa kołysanka z Podhala</composer>
+  <artist type="band">Dom o Zielonych Progach                                                                                 Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Chudobnom mnie mama <ch a="G"/>miała</row>
+      <row important_over="true"><ch a="G"/>Chudobnom mnie wychow<ch a="a"/>ała</row>
+      <row important_over="true"><ch a="C"/>W nocy wsta<ch a="G"/>ła i śpie<ch a="C"/>wała</row>
+      <row important_over="true"><ch a="C"/>Do rania <ch a="G"/>mnie koły<ch a="a"/>sała</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Z rania kładła mnie w ogrodzie<ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Psy potocku, het psy wodzie<ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Tej słowiki mnie śpiewały<ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">I do snu mnie kołysały<ch a="C"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Hej Janicku nie bij ze mnie<ch a="a"/><ch a="G"/></row>
+      <row important_over="never">W kołysecce kołys ze mnie<ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Bo mnie mama nie bijała<ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">W kołysecce kołysała<ch a="C"/><ch a="G"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">A jak nie masz kołysecki<ch a="a"/><ch a="G"/></row>
+      <row important_over="never">Idź do lasu na zerdecki<ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Wystrugaj je cieniusieńko<ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Kołysz ze mnie lekusieńko<ch a="C"/><ch a="G"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Folk</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
