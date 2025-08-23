@@ -21,4 +21,4 @@ songbook:
     - glob: "songs/pl/religijne/**/*.xml"
     - glob: "songs/pl/szanty/**/*.xml"
     - glob: "songs/pl/koledy/**/*.xml"
-
+    - glob: "songs/en/basi/**/*.xml"
