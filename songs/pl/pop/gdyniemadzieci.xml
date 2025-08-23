@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy nie ma dzieci">
+  <artist type="band">Kult</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="E"/><ch a="a"/><ch a="E"/></row>
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="E"/><ch a="a"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Jedna flaszka, druga flaszka i też <ch a="E"/>trzecia, kurde bele leci,</row>
+      <row important_over="true">Dom <ch a="a"/>stoi zupełnie pusty nocą, <ch a="E"/>kurzą się dookoła rupiecie.</row>
+      <row important_over="true">Wra<ch a="a"/>camy chwiejnym krokiem po <ch a="E"/>okrążeniu nad ranem,</row>
+      <row important_over="true">Po <ch a="a"/>schodach na piechotę raczej <ch a="E"/>rady nie damy.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Wyje<ch a="a"/>chali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
+      <row important_over="true"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
+      <row important_over="true"><ch a="a"/>Wyjechali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
+      <row important_over="true"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Trasa bardzo dobrze znana od jed<ch a="E"/>nego baru do baru,</row>
+      <row important_over="false">Poz<ch a="a"/>naje się tych albo owych i <ch a="E"/>mamy troszeczkę kataru.</row>
+      <row important_over="false">Jeśli <ch a="a"/>wiesz o czym ja mówię, na<ch a="E"/>tomiast zupełnym rankiem,</row>
+      <row important_over="false">Wy<ch a="a"/>chylam patrząc tępo os<ch a="E"/>tatnią bez gazu szklankę, he.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/> Jeszcze kilka dni i nocy, i <ch a="E"/>wszystko wróci do normy,</row>
+      <row important_over="false">Bę<ch a="a"/>dziemy zorganizowani i poważni, <ch a="E"/>uczesani i przezorni.</row>
+      <row important_over="false">Jednak <ch a="a"/>jeszcze dzisiaj i jutro, po<ch a="E"/>jutrze i popojutrze,</row>
+      <row important_over="false"><ch a="a"/>Pozwól nocy kochana, <ch a="E"/>życiu nosa utrzeć.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <bis times="4">
+        <row important_over="false" style="instr"> <ch a="a"/><ch a="E"/><ch a="a"/><ch a="E"/><ch a="E"/><ch a="a"/><ch a="E"/></row>
+      </bis>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
