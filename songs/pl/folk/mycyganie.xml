@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="My cyganie">
+  <artist type="band">Piosenki biesiadne</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>My Cyganie co p<ch a="G"/>ędzimy razem z wiatrem</row>
+      <row important_over="true"><ch a="a"/>My Cyganie z<ch a="e"/>namy cały świat</row>
+      <row important_over="true"><ch a="a"/>My Cyganie ws<ch a="e"/>zystkim gramy</row>
+      <row important_over="true"><ch a="H7"/>A śpiewamy s<ch a="e"/>obie <ch a="E7"/>tak</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Ore, ore, s<ch a="G"/>zabadabada amore</row>
+      <row important_over="true"><ch a="a"/>Ore, ore, s<ch a="e"/>zabadabada</row>
+      <row important_over="true"><ch a="a"/>O muriaty, <ch a="e"/>o szogriaty</row>
+      <row important_over="true"><ch a="H7"/>Hajda trojka <ch a="e"/>na mi<ch a="E7"/>enia</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Kiedy tańczę ni<ch a="G"/>ebo tańczy razem ze mną</row>
+      <row important_over="false"><ch a="a"/>Kiedy śpiewam śp<ch a="e"/>iewa ze mną wiatr</row>
+      <row important_over="false"><ch a="a"/>Zamknę oczy li<ch a="e"/>ście więdną</row>
+      <row important_over="false"><ch a="H7"/>Kiedy milknę mi<ch a="e"/>lknie św<ch a="E7"/>iat</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Będzie prościej, bę<ch a="G"/>dzie prościej, będzie jaśniej</row>
+      <row important_over="false"><ch a="a"/>Całą radość d<ch a="e"/>amy dzisiaj wam</row>
+      <row important_over="false"><ch a="a"/>Będzie prościej b<ch a="e"/>ędzie jaśniej</row>
+      <row important_over="false"><ch a="H7"/>Gdy zaśpiewa k<ch a="e"/>ażdy z <ch a="E7"/>was</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Pieśń ludowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
