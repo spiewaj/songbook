@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziewczyna bez zęba na przedzie">
+  <comment/>
+  <artist type="band">Kult</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Kult</row>
+      <row important_over="false">Dziewczyna bez zęba na przedzie</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/> Wybrałem cię spośród <ch a="B"/>milionów,</row>
+      <row important_over="true"><ch a="d"/> Wybrałem tak, jak mogłem <ch a="B"/>wtedy najlepiej</row>
+      <row important_over="true"><ch a="d"/> Wpuściłem cię do swego <ch a="B"/>domu,</row>
+      <row important_over="true">Nie <ch a="g"/>myślałem o tym, co, <ch a="A"/>gdzie i kiedy.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/> Ten dzień przywitał nas <ch a="B"/>ulewą,</row>
+      <row important_over="false"><ch a="d"/> W tym wietrze syfu z listo<ch a="B"/>pada,</row>
+      <row important_over="false"><ch a="d"/> Uciekłaś wtedy moją <ch a="B"/>stroną lewą !</row>
+      <row important_over="false">To <ch a="g"/>jeszcze jest głupota, czy już <ch a="A"/>zdrada ?!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co się <ch a="g"/>może stać między nami dwojgiem ?!</row>
+      <row important_over="true"><ch a="d"/> Tu stać się <ch a="B"/>może coś <ch a="g"/>nowego!</row>
+      <row important_over="true"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co się <ch a="g"/>stać może między nami dwojgiem ?!</row>
+      <row important_over="true"><ch a="d"/> Tu stać się <ch a="B"/>może coś stra<ch a="g"/>sznego!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/> Ten uśmiech twój każdego <ch a="B"/>ranka</row>
+      <row important_over="false"><ch a="d"/> Przypomnę sobie będąc w <ch a="B"/>biedzie</row>
+      <row important_over="false"><ch a="d"/> Byłaś mi matką i <ch a="B"/>kochanką</row>
+      <row important_over="false">Dziew<ch a="g"/>czyno bez zęba na <ch a="A"/>przedzie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/> Zrobiłaś to, co zrobić <ch a="B"/>chciałaś</row>
+      <row important_over="false"><ch a="d"/> Kto dobrze wie nie musi <ch a="B"/>pytać nic</row>
+      <row important_over="false"><ch a="d"/> Przyszłaś, ujrzałaś i <ch a="B"/>wygrałaś</row>
+      <row important_over="false">Zos<ch a="g"/>tałem tak jak stałem zu<ch a="A"/>pełnie sam</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/> To już koniec tej <ch a="B"/>groteski</row>
+      <row important_over="false"><ch a="d"/> Autobus życia jednak da<ch a="B"/>lej jedzie</row>
+      <row important_over="false"><ch a="d"/> Będę pamiętać cię do gro<ch a="B"/>bowej deski</row>
+      <row important_over="false">Dziew<ch a="g"/>czyno bez zęba na <ch a="A"/>przedzie</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/> Wybrałem cię spośród <ch a="B"/>milionów,</row>
+      <row important_over="false"><ch a="d"/> Wybrałem tak, jak mogłem <ch a="B"/>wtedy najlepiej</row>
+      <row important_over="false"><ch a="d"/> Wpuściłem cię do swego <ch a="B"/>domu,</row>
+      <row important_over="false">Nie <ch a="g"/>myślałem o tym, co, <ch a="A"/>gdzie i kiedy.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="chorus">
+      <row important_over="false"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co stać się <ch a="g"/>może między nami dwojgiem ?!</row>
+      <row important_over="false"><ch a="d"/> Tu stać się <ch a="B"/>może coś <ch a="g"/>nowego!</row>
+      <row important_over="false"><ch a="d"/> Słuchaj <ch a="B"/>słuchaj <ch a="g"/>słuchaj mnie jeszcze!</row>
+      <row important_over="false"><ch a="d"/> Tu stało się <ch a="B"/>przecież coś do<ch a="g"/>brego!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
