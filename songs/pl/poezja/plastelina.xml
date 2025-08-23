@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Plastelina" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Plastelina">
+	<text_author type="solo">Danuta Wawiłow</text_author>
+	<comment>Chwyty alternatywne :[C G a (F) G]</comment>
+	<composer type="solo">Piotr Bachorski</composer>
+	<artist type="solo">Danuta Wawiłow</artist>
+	<lyric>
 		<block type="verse">
-			<row important_over="false">Ulepiłem sobie domek z niewidzialnej plasteliny, <ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Ulepiłam sobie domek z niewidzialnej plasteliny, <ch a="A"/><ch a="E"/></row>
 			<row important_over="false">Dwa okienka, dwa kominy z niewidzialnej plasteliny, <ch a="fis"/><ch a="E"/></row>
 			<row important_over="false">A w okienku kwiatki bratki z niewidzialnej plasteliny,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">A dla taty krawat w kratkę z niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
+			<row important_over="false">A dla taty krawat w kwiatki z niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">La, …</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ulepiłem sobie pieska mięciutkiego z czarnym pyszczkiem ,<ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Ulepiłam sobie pieska mięciutkiego z czarnym pyszczkiem ,<ch a="A"/><ch a="E"/></row>
 			<row important_over="false">Lalę Kasie i Tereskę, i pistolet, i siostrzyczkę,<ch a="fis"/><ch a="E"/></row>
-			<row important_over="false">Namęczyłem się ogromnie stłukłem łokieć, zbiłem szklanke,<ch a="A"/><ch a="E"/></row>
+			<row important_over="false">Namęczyłam się ogromnie stłukłam łokieć, zbiłam szklankę,<ch a="A"/><ch a="E"/></row>
 			<row important_over="false">Mamo, tato chodźcie do mnie mam tu dla was niespodziankę. <ch a="fis"/><ch a="E"/></row>
 		</block>
 		<blocklink blocknb="2"/>
@@ -30,23 +27,14 @@
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	<music metre="">
-		<guitar/>
-	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
 	<status>
 		<done>
 			<text/>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
 		</verificators>
 		<to_do>Sprawdzający nie znają tej piosenki :(</to_do>
 	</status>
-	<music_source></music_source>
 </song>
-
