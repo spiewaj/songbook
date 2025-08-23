@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zostawcie Titanica">
+  <comment/>
+  <artist type="band">Lady Pank</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="cis"/><ch a="A"/><ch a="H"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="cis"/><ch a="A"/><ch a="H"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/> Ja wierzę, oni <ch a="cis"/>tańczą wciąż</row>
+      <row important_over="true">Oni <ch a="A"/>żyją swoim życiem i do<ch a="H"/>płyną tam gdzie chcą</row>
+      <row important_over="true"><ch a="E"/> I wierzę w ich pod<ch a="cis"/>wodny świat</row>
+      <row important_over="true">A or<ch a="A"/>kiestra, która grała, <ch a="H"/>do tej chwili gra</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/> Piękna ak<ch a="A"/>torka mierzy <ch a="H"/>kolię swą</row>
+      <row important_over="false"><ch a="cis"/> Kelner się <ch a="A"/>potknął, pada <ch a="H"/>twarzą w tort</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/> Nieprawda, że już <ch a="cis"/>nie ma ich</row>
+      <row important_over="false">Oni <ch a="A"/>płyną, tylko wolniej, tak jak <ch a="H"/>wolno płyną sny</row>
+      <row important_over="false"><ch a="E"/> I nieprawda nie znaj<ch a="cis"/>dziecie ich</row>
+      <row important_over="false">Tyle <ch a="A"/>mil już przepłynęli, tyle <ch a="H"/>przetańczyli dni</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/> Młody mil<ch a="A"/>ioner dziś za<ch a="H"/>kochał się</row>
+      <row important_over="false"><ch a="cis"/> Bal już się <ch a="A"/>zaczął, wszyscy <ch a="H"/>tańczą więc</row>
+      <row important_over="false"><ch a="H"/> Nie przerywajcie tego</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="E"/><ch a="H"/> Zost<ch a="cis"/>awcie Ti<ch a="A"/>tanica,<ch a="E"/><ch a="H"/> nie <ch a="cis"/>wyciągaj<ch a="A"/>cie go</row>
+      <row important_over="false"><ch a="E"/><ch a="H"/> Tam ci<ch a="cis"/>ągle gra <ch a="A"/>muzyka <ch a="E"/><ch a="H"/> i <ch a="cis"/>oni tań<ch a="A"/>czą wciąż</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="cis"/><ch a="A"/><ch a="H"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="cis"/><ch a="A"/><ch a="H"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="cis"/> Piękna ak<ch a="A"/>torka mruży <ch a="H"/>oko i</row>
+      <row important_over="false"><ch a="cis"/> Młody mil<ch a="A"/>ioner puka <ch a="H"/>do jej drzwi</row>
+      <row important_over="false"><ch a="H"/> Pozwólcie im śnić</row>
+    </block>
+    <blocklink blocknb="6"/>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/> Niezatapialnie <ch a="E"/>śnią,<ch a="D"/> nieosiągalnie <ch a="E"/>śnią</row>
+      <row important_over="false"><ch a="D"/>Nieosiągalny, niezatapialny sen</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="E"/><ch a="H"/> Zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica,<ch a="E"/><ch a="H"/> nie <ch a="cis"/>wyciągajcie <ch a="A"/>go</row>
+      <row important_over="false"><ch a="E"/><ch a="H"/> Tam <ch a="cis"/>ciągle gra mu<ch a="A"/>zyka <ch a="E"/><ch a="H"/> a <ch a="cis"/>oni w tańcu śnią</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/><ch a="H"/> Zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica,<ch a="E"/><ch a="H"/> nie <ch a="cis"/>wyciągajcie <ch a="A"/>go</row>
+      <row important_over="false"><ch a="E"/><ch a="H"/> Tam <ch a="cis"/>ciągle gra mu<ch a="A"/>zyka <ch a="E"/><ch a="H"/> a <ch a="cis"/>oni w tańcu śnią</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Niezatapialny sen</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/><ch a="H"/> Zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica, <ch a="E"/><ch a="H"/> zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica</row>
+      <row important_over="false"><ch a="E"/><ch a="H"/> Zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica, <ch a="E"/><ch a="H"/> zos<ch a="cis"/>tawcie Tita<ch a="A"/>nica</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="H"/><ch a="cis"/><ch a="A"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="H"/><ch a="cis"/><ch a="A"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="H"/><ch a="cis"/><ch a="A"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="H"/><ch a="cis"/><ch a="A"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+    <to_do>brzydko, do poprawy</to_do>
+  </status>
+</song>
