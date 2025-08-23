@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzka ciuchcia">
+  <text_author type="solo">Piotr Frankowicz</text_author>
+  <comment>alternatywne akordy:
+[C F/G C/C F/G C][FCFC/GC/FCFC/GC/FFCGC/FCG/FCF]</comment>
+  <composer type="solo">Piotr Frankowicz</composer>
+  <artist type="band">Wołosatki</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Jedzie bieszczadzka <ch a="d"/>ciuchcia,</row>
+      <row important_over="true"><ch a="F"/>sypie, <ch a="G"/>strzela is<ch a="C"/>krami.</row>
+      <row important_over="true"><ch a="C"/>Taka, co przed stu <ch a="d"/>laty</row>
+      <row important_over="true">jeź<ch a="F"/>dziła<ch a="G"/> z trape<ch a="C"/>rami.</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
+      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
+      <row important_over="true"><ch a="F"/>Drzewa <ch a="a"/>ucie<ch a="D"/>kają.</row>
+      <row important_over="true"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
+      <row important_over="true"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
+      <row important_over="true"><ch a="F"/>Koła <ch a="a"/>rytm stu<ch a="D7"/>kają.</row>
+      <row important_over="true"><ch a="g"/>Wjeżdżamy w<ch a="C"/> nasz</row>
+      <row important_over="true">Zie<ch a="F"/>lony, romantyczny <ch a="D7"/>świat,</row>
+      <row important_over="true"><ch a="g"/>Z którym <ch a="C"/>już <ch a="F"/>przyjaźnimy się od <ch a="D7"/>lat.</row>
+      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
+      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jedzie bieszczadzka ciuchcia,</row>
+      <row important_over="false">stara i śmieszna troszkę,</row>
+      <row important_over="false">taką jeździł mój dziadek,</row>
+      <row important_over="false">ścigając babci pończoszkę.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Bucha dym...</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jedzie bieszczadzka ciuchcia</row>
+      <row important_over="false">pokryta patyną czasu.</row>
+      <row important_over="false">Sapie, kicha czasami</row>
+      <row important_over="false">w głębi bieszczadzkich lasów.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Bucha dym...</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
