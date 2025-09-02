@@ -13,3 +13,4 @@ songbook:
     pdf: songbooks/wdw21/znak21.pdf
   songs:
     - glob: "/songs/**/Bar*.xml"
+    - glob: "/songs/**/Piosenka_bez_tytulu.xml"

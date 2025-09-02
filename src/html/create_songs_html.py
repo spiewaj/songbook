@@ -20,7 +20,10 @@ def _add_chunk(chunk, parent, position):
         else:
             span_content.text = ' ' + chunk.content
     else:
-        span_content.text = chunk.content
+        if chunk.content=='':
+            span_content.text = ' '
+        else:
+            span_content.text = chunk.content
 
 
 def _add_lyric(row, parent):
