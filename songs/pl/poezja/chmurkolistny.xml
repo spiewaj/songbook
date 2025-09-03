@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chmurkolistny">
+  <text_author type="solo">Jerzy Harasymowicz</text_author>
+  <comment/>
+  <composer type="solo">Wojciech Szymański</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>W jakim byłem zachwy<ch a="H7"/>ceniu</row>
+      <row important_over="true"><ch a="G"/>Że poznałem śpisz na <ch a="C"/>chmielu</row>
+      <row important_over="true"><ch a="e"/>Złotym środkiem tyś w ru<ch a="H7"/>mianie</row>
+      <row important_over="true"><ch a="G"/>Chmurkolistny Roku <ch a="C"/>Panie</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a7"/>Na twym czole księżyc <ch a="D7"/>płynie</row>
+      <row important_over="true"><ch a="G"/>Jak car chodzisz w białej <ch a="C7"/>zimie</row>
+      <row important_over="true"><ch a="a7"/>Z twego palca serdecz<ch a="D7"/>nego</row>
+      <row important_over="true">Ula<ch a="C"/>tuje <ch a="H"/>mój po<ch a="e7"/>emat</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">W jakim byłem zachwyceniu<ch a="e"/><ch a="H7"/></row>
+      <row important_over="never">Że poznałem - latasz sobie<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">W złotej sukni brzozy<ch a="e"/><ch a="H7"/></row>
+      <row important_over="never">W buchającej parze koni<ch a="G"/><ch a="C"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
