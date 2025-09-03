@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń XXIX">
 	<text_author type="solo">Jerzy Harasymowicz</text_author>
 	<composer type="solo">Wojciech Szymański</composer>
-	<artist type="solo">Dom o zielonych progach</artist>
+	<artist type="band">Dom o Zielonych Progach</artist>
 	<lyric>
 		<block type="other">
 			<bis times="2">
