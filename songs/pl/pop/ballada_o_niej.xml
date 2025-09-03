@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o niej">
+  <comment/>
+  <artist type="band">Daria Zawiałow</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="B"/>Trzecie piętro, stare drzwi</row>
+      <row important_over="true">Obłędnie pachnie ciastem, pieczesz<ch a="g"/> mi</row>
+      <row important_over="true">Znów jakiś hit</row>
+      <row important_over="true"><ch a="B"/>Miałaś rzucić fajki dziś</row>
+      <row important_over="true">Uśmiechasz się wciągając w płuca d<ch a="g"/>ym</row>
+      <row important_over="true">W fotelu śpisz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="c"/>Rano czekam aż mi wyślesz</row>
+      <row important_over="true">Cyberkartki tak wkurzały m<ch a="B"/>nie</row>
+      <row important_over="true">A dzisiaj chcę</row>
+      <row important_over="true"><ch a="c"/>Szukam cię na telefonie</row>
+      <row important_over="true">Niedostępny masz abonent</row>
+      <row important_over="true"><ch a="g"/>Wiem, masz teraz dobrz<ch a="F"/>e się</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="Dis"/>Kto pogłaszcze mnie po gł<ch a="F"/>owie?</row>
+      <row important_over="true"><ch a="g"/>Kto mi powie, że wybr<ch a="F"/>ałam źle?<ch a="B"/></row>
+      <row important_over="true">Czy sły<ch a="c"/>szysz mni<ch a="d"/>e kiedy płaczę?</row>
+      <row important_over="true"><ch a="Dis"/>Nie zakładam bocznych kó<ch a="F"/>łek</row>
+      <row important_over="true"><ch a="g"/>Spać już sama niby umi<ch a="F"/>em</row>
+      <row important_over="true">Le<ch a="B"/>cz nie za<ch a="c"/>dzwonisz p<ch a="d"/>rzed snem</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="B"/>Chciałaś dać mi super świat</row>
+      <row important_over="false">Chłopca z kamerą, teraz wszystko m<ch a="g"/>am</row>
+      <row important_over="false">A ciebie brak</row>
+      <row important_over="false"><ch a="B"/>Już nie czekam na choinkę</row>
+      <row important_over="false">Od ciebie, nie chcę słuchać Darlin&#039; lo<ch a="g"/>ve</row>
+      <row important_over="false">Już nie chcę świąt</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="c"/>Tak chciałam, żebyś ich poznała</row>
+      <row important_over="false">Pisać Ci, gdy zaczną szkolny r<ch a="B"/>ok</row>
+      <row important_over="false">Zgubiłam to</row>
+      <row important_over="false"><ch a="c"/>Co mam zrobić z wycinkami z gazet?</row>
+      <row important_over="false">Nikt nie wierzył, ty wierzyłaś zawsze</row>
+      <row important_over="false"><ch a="g"/>Wiem, masz teraz do<ch a="F"/>brze się</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false"><ch a="Dis"/>Uuuu<ch a="F"/>,u<ch a="g"/>uuu<ch a="F"/><ch a="B"/><ch a="c"/><ch a="d"/></row>
+      <row important_over="false"><ch a="Dis"/>Uuuu<ch a="F"/>,u<ch a="g"/>uuu<ch a="F"/><ch a="B"/><ch a="c"/><ch a="d"/></row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="6"/>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
