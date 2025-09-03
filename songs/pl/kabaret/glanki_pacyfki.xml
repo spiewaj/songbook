@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Glanki i Pacyfki">
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <bis times="3">
+        <row important_over="false" style="instr"> <ch a="e"/><ch a="C"/><ch a="H"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true">Wid<ch a="e"/>ują s<ch a="C"/>ię na wędl<ch a="H"/>inach pr<ch a="e"/>awie każd<ch a="C"/>ego por<ch a="H"/>anka</row>
+      <row important_over="true">Dan<ch a="e"/>uta, małż<ch a="C"/>onka sk<ch a="H"/>ina i Janina, żona p<ch a="e"/>unka <ch a="C"/><ch a="H"/></row>
+      <row important_over="true">P<ch a="e"/>ozdrawiają s<ch a="C"/>ię z dal<ch a="H"/>eka, p<ch a="e"/>oprawiają r<ch a="C"/>ude grz<ch a="H"/>ywki</row>
+      <row important_over="true">J<ch a="e"/>eden wózek c<ch a="C"/>ały w ćwi<ch a="H"/>ekach, a drugi w pac<ch a="e"/>yfki<ch a="C"/><ch a="H"/></row>
+      <row important_over="true"><ch a="A"/>Bawią swoje małe dzieci, <ch a="G"/>obgadują to i owo</row>
+      <row important_over="true">– <ch a="Fis"/>Pani punko, jak tam leci? <ch a="F"/>– A w porządku, skinheadowo!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Czyś ty wybranka punka,<ch a="H"/> czyś ty dziewczyna skina</row>
+      <row important_over="true"><ch a="e"/>Najważniejsza, n<ch a="G"/>ajważniejsza jest rodzina</row>
+      <row important_over="true"><ch a="C"/>Czyś ty skinheada stryj<ch a="H"/> czyś ty punkowy wuj</row>
+      <row important_over="true"><ch a="e"/>Najważniejsi m<ch a="G"/>atka twa i ojciec twój</row>
+      <row important_over="true"><ch a="C"/>Czyś ty wybranka punka,<ch a="H"/> czyś ty dziewczyna skina</row>
+      <row important_over="true"><ch a="e"/>Najważniejsza, n<ch a="G"/>ajważniejsza jest rodzina</row>
+      <row important_over="true"><ch a="C"/>Czyś ty jest ojciec-punk,<ch a="H"/> czyś ty małżonek-skin</row>
+      <row important_over="true">W życiu liczą się tylko żona, córka i s<ch a="e"/>yn <ch a="C"/><ch a="H"/></row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false">Plotk<ch a="e"/>uje się <ch a="C"/>oczyw<ch a="H"/>iście w p<ch a="e"/>arku, w sklepie, <ch a="C"/>na przyst<ch a="H"/>anku</row>
+      <row important_over="false">O sk<ch a="e"/>inie-man<ch a="C"/>icurz<ch a="H"/>yście i punku-prez<ch a="e"/>esie b<ch a="C"/>anku <ch a="H"/></row>
+      <row important_over="false"><ch a="e"/>O sąsiadkach <ch a="C"/>i o pi<ch a="H"/>eskach, t<ch a="e"/>rochę martwi s<ch a="C"/>ię kryz<ch a="H"/>ysem</row>
+      <row important_over="false"><ch a="e"/>Mały punk ma <ch a="C"/>irok<ch a="H"/>ezka, skinheadziątko ł<ch a="e"/>yse <ch a="C"/><ch a="H"/></row>
+      <row important_over="false">– M<ch a="A"/>oje pije już ze szklanki! – <ch a="G"/>A mój się nauczył z puszki!</row>
+      <row important_over="false">– Gd<ch a="Fis"/>zie kupiłaś czarne glanki<ch a="F"/> na te śliczne małe nóżki?</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false">Wzrusz<ch a="e"/>yła się ż<ch a="C"/>ona p<ch a="H"/>unka, sp<ch a="e"/>oglądając <ch a="C"/>na fors<ch a="H"/>ycje</row>
+      <row important_over="false">I m<ch a="e"/>ówi: – Posł<ch a="C"/>uchaj, D<ch a="H"/>anka, musimy dbać <ch a="e"/>o trad<ch a="C"/>ycję,<ch a="H"/></row>
+      <row important_over="false"><ch a="e"/>O tradycję <ch a="C"/>i o sch<ch a="H"/>edę... <ch a="e"/>I wyznaje sk<ch a="C"/>inheadz<ch a="H"/>inie:</row>
+      <row important_over="false">-Mój dzi<ch a="e"/>adek był t<ch a="C"/>eż skinh<ch a="H"/>eadem na zamku w Szczec<ch a="e"/>inie <ch a="C"/><ch a="H"/></row>
+      <row important_over="false">-<ch a="A"/>A wyobraź sobie u mnie - sk<ch a="G"/>inheadowa cicho szlocha</row>
+      <row important_over="false"><ch a="Fis"/>-Ojciec dał mi na komunie<ch a="F"/> Dezertera i Mitffocha</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Bo wszyscy tacy sami,<ch a="H"/> bo wszyscy z jednej gliny</row>
+      <row important_over="false"><ch a="e"/>Szanuj żonę, k<ch a="G"/>tóra chodzi na wędliny</row>
+      <row important_over="false"><ch a="C"/>Czyś ty skinheadki mąż,<ch a="H"/> czyś ty punkówny brat</row>
+      <row important_over="false"><ch a="e"/>Na dzień kobiet prz<ch a="G"/>ynieś jej prawdziwy kwiat</row>
+      <row important_over="false"><ch a="C"/>Bo wszyscy tacy sami<ch a="H"/>, bo wszyscy z jednej gliny</row>
+      <row important_over="false"><ch a="e"/>Szanuj punka, k<ch a="G"/>up mu coś na imieniny</row>
+      <row important_over="false"><ch a="C"/>Ty punku szanuj skina,<ch a="H"/> skinheadzie punka lub</row>
+      <row important_over="false">No bo przecież łysina to jest były cz<ch a="e"/>ub</row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="3"/>
+  </music>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
