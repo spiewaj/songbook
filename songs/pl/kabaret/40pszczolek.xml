@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czterdzieści pszczółek">
+  <alias>40 pszczółek</alias>
+  <comment/>
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="Gis"/><ch a="G"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/>Czterdzieści małych pszczółek</row>
+      <row important_over="true">Mieszkało w lesie na <ch a="G"/>drzewie</row>
+      <row important_over="true">A jedna była mizerna</row>
+      <row important_over="true">Zostało trzydzieści <ch a="C"/>dziewięć</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Trzydzieści dziewięć pszczółek</row>
+      <row important_over="false">Zaprzyjaźniło się z <ch a="G"/>łosiem</row>
+      <row important_over="false">A jednej łoś nie lubił</row>
+      <row important_over="false">Zostało trzydzieści <ch a="C"/>osiem</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Trzydzieści osiem pszczółek</row>
+      <row important_over="false">Klepało jesienią <ch a="G"/>biedę</row>
+      <row important_over="false">I jak się łatwo domyślić</row>
+      <row important_over="false">Zostało trzydzieści <ch a="C"/>siedem</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Trzydzieści siedem pszczółek</row>
+      <row important_over="false">Zimą nie miało co <ch a="G"/>jeść</row>
+      <row important_over="false">I że tak zażartuję</row>
+      <row important_over="false">Zostało trzydzieści <ch a="C"/>sześć</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Trzydzieści sześć pszczółek</row>
+      <row important_over="false">Mieszkało w lesie pod <ch a="G"/>listkiem</row>
+      <row important_over="false">I przyleciała wrona</row>
+      <row important_over="false">I zadziobała <ch a="C"/>wszystkie!</row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Być może w tej piosence</row>
+      <row important_over="false">Optymizmu jest <ch a="G"/>mało</row>
+      <row important_over="false">Ale przynajmniej krócej</row>
+      <row important_over="false">Niż się zapowia<ch a="C"/>dało!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
