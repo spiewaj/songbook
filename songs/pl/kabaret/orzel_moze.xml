@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Orzeł może">
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/>Możesz nosić okulary,</row>
+      <row important_over="true"><ch a="E"/>Możesz kontraktować zboże,</row>
+      <row important_over="true"><ch a="A"/>Czesać się jak Zygmunt Stary,</row>
+      <row important_over="true">Jesteś <ch a="E"/>orzeł. Orzeł może.</row>
+      <row important_over="true"><ch a="cis"/>Spodnie możesz nosić szersze,</row>
+      <row important_over="true"><ch a="E"/>A na bluzce wilkołaki,</row>
+      <row important_over="true"><ch a="A"/>Ręcznie przepi<ch a="Fis"/>sywać wiersze,</row>
+      <row important_over="true"><ch a="H"/>O, na przykład taki:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="E"/>Człowieku! <ch a="A"/>No przecież,</row>
+      <row important_over="true"><ch a="E"/>Jak sam nie chcesz, to się nie ciesz,</row>
+      <row important_over="true"><ch a="A"/>Ale niech cię tak nie peszą</row>
+      <row important_over="true"><ch a="E"/>Ci, co się do ciebie cieszą,</row>
+      <row important_over="true"><ch a="H"/>Chudzi, grubi,</row>
+      <row important_over="true"><ch a="A"/>Starzy, młodzi,</row>
+      <row important_over="true"><ch a="E"/>Daj się lubić,</row>
+      <row important_over="true">Co ci szkodzi?</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Możesz wracać z biblioteki</row>
+      <row important_over="false"><ch a="E"/>O nie przyzwoitej porze,</row>
+      <row important_over="false"><ch a="A"/>Regulować brwi i rzeki,</row>
+      <row important_over="false">Jesteś <ch a="E"/>orzeł. Orzeł może.</row>
+      <row important_over="false"><ch a="cis"/>Latem rzucać się na siano,</row>
+      <row important_over="false"><ch a="E"/>Żeby sprawdzić jak się gniecie,</row>
+      <row important_over="false"><ch a="A"/>Możesz też o <ch a="Fis"/>czwartej rano</row>
+      <row important_over="false"><ch a="H"/>Śpiewać w Internecie.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Możesz poznać w leśnej głuszy,</row>
+      <row important_over="false"><ch a="E"/>Miłych państwa z Państwa Środka,</row>
+      <row important_over="false"><ch a="A"/>Jeśli z domu się nie ruszysz,</row>
+      <row important_over="false"><ch a="E"/>Trudno będzie kogoś spotkać.</row>
+      <row important_over="false"><ch a="cis"/>Możesz poczuć w sercu kłucie,</row>
+      <row important_over="false"><ch a="E"/>Może zrobić się przyjemnie,</row>
+      <row important_over="false"><ch a="A"/>Tylko raz się <ch a="Fis"/>do mnie uciesz,</row>
+      <row important_over="false"><ch a="H"/>Uśmiechnij się ze mnie.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
