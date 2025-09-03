@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sosna">
+  <alias>Biegłaś zboczem</alias>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Biegłaś zboczem, brą<ch a="g"/>zowo-zielona,</row>
+      <row important_over="true"><ch a="C"/>Miedzią słońca i <ch a="F"/>trawy zie<ch a="A7"/>lenią,</row>
+      <row important_over="true"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
+      <row important_over="true"><ch a="A"/>Twoje włosy <ch a="A7"/>targał górski <ch a="d"/>wiatr</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Zanurzyłaś swe dłonie w potoku,<ch a="d"/><ch a="g"/></row>
+      <row important_over="never">Który głazy w poszumie omijał,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
+      <row important_over="never">Burza kropel w srebrzystej pogoni<ch a="d"/><ch a="g"/></row>
+      <row important_over="never">Obraz Twój porwała szybko w dal<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">I wracałaś do góry powoli<ch a="d"/><ch a="g"/></row>
+      <row important_over="never">Zielonością i brązem strzelista,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
+      <row important_over="never">Gdy Cię wchłaniał cień lasu znajomy,<ch a="d"/><ch a="g"/></row>
+      <row important_over="never">Znów Twe włosy, sosno, targał wiatr<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="g"/><ch a="C"/><ch a="F"/><ch a="A7"/><ch a="d"/><ch a="g"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
