@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o Baronie, Niedźwiedziu i Czarnej Helenie">
+  <text_author type="solo">Artur Andrus</text_author>
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="A7"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Na Myśliwieckiej, przy Czerniakowskiej,</row>
+      <row important_over="true"><ch a="g"/>Jak w Łazienkowske się zje<ch a="d"/>dzie,</row>
+      <row important_over="true"><ch a="A"/>Mieszkali sobie <ch a="d"/>stworzenia boskie:</row>
+      <row important_over="true"><ch a="g"/>Baron z prawdziwem <ch a="A7"/>Niedźwie<ch a="d"/>dziem.</row>
+      <row important_over="true"/>
+      <row important_over="false"><ch a="d"/>Chodzili sobie w lato upalne</row>
+      <row important_over="false"><ch a="g"/>Na Agrykole zielo<ch a="d"/>ne,</row>
+      <row important_over="false"><ch a="A"/>Takie dwa byty <ch a="d"/>transcendentalne:</row>
+      <row important_over="false"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
+      <row important_over="true"/>
+      <row important_over="true"><ch a="C"/>Niedźwiedź miał trochę miodu na <ch a="F"/>paszczy,</row>
+      <row important_over="true">A Baron <ch a="C7"/>oczy przekrwio<ch a="F"/>ne,</row>
+      <row important_over="true"><ch a="A"/>Bo żywot wiedli strasznie hu<ch a="d"/>laszczy</row>
+      <row important_over="true"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>I przehulaliby cały pałac,</row>
+      <row important_over="false"><ch a="g"/>Wszystko by zżarła gangre<ch a="d"/>na,</row>
+      <row important_over="false"><ch a="A"/>Gdyby za twarz ich <ch a="d"/>nie przytrzymała</row>
+      <row important_over="false"><ch a="g"/>Pewna brutalna <ch a="A7"/>Hele<ch a="d"/>na.</row>
+      <row important_over="false"/>
+      <row important_over="false"><ch a="d"/>Czarna Helena hoduje bluszcza,</row>
+      <row important_over="false"><ch a="g"/>Sadzi begonie w doni<ch a="d"/>ce,</row>
+      <row important_over="false"><ch a="A"/>Tylko na stadion <ch a="d"/>nikt jej nie wpuszcza,</row>
+      <row important_over="false"><ch a="g"/>Bo się jej boją <ch a="A7"/>kibi<ch a="d"/>ce.</row>
+      <row important_over="false"/>
+      <row important_over="false"><ch a="C"/>Czarna Helena ma dużo <ch a="F"/>wdzięku</row>
+      <row important_over="false">I innych <ch a="C7"/>zalet ma pa<ch a="F"/>rę,</row>
+      <row important_over="false"><ch a="A"/>Wianek na głowie, <ch a="d"/>badylek w ręku</row>
+      <row important_over="false"><ch a="g"/>A przed nią bieży <ch a="A7"/>owcza<ch a="d"/>rek.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="A7"/><ch a="D"/><ch a="A7"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Słuchajcie ludzie ballady mojej,</row>
+      <row important_over="false"><ch a="g"/>Co już skończona jest pra<ch a="d"/>wie,</row>
+      <row important_over="false"><ch a="A"/>Mieszkają sobie <ch a="d"/>zgodnie we troje</row>
+      <row important_over="false"><ch a="g"/>Na Myśliwieckiej w <ch a="A7"/>Warsza<ch a="d"/>wie,</row>
+      <row important_over="false"/>
+      <row important_over="false"><ch a="d"/>Czy ciepła wiosna i kwitną kwiaty,</row>
+      <row important_over="false"><ch a="g"/>Czy mokra jesień ponu<ch a="d"/>ra:</row>
+      <row important_over="false"><ch a="A"/>Baron prawdziwy, <ch a="d"/>Niedźwiedź wąsaty</row>
+      <row important_over="false"><ch a="g"/>Oraz Helena <ch a="A7"/>Wichu<ch a="d"/>ra.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
