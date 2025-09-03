@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Orawa">
+  <comment/>
+  <composer>Andrzej Wierzbicki</composer>
+  <artist type="solo">Andrzej Wierzbicki</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Z mego okna widać chmury <ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Na skalistej grzędzie. <ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Przetrę szybę ciepłą dłonią <ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Razem z nimi siędę <ch a="d"/><ch a="E"/></row>
+      <row important_over="never">I będą mi grały wiatry <ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Na organach turni, <ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Kiedy pójdę zbójnikować <ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Nad dachami równin. <ch a="d"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Orawo, wiatrem malowany dach, <ch a="F"/><ch a="C"/><ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Ciupagami wysrebrzany na świerkowych pniach. <ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Orawo, wiatrem malowany dom, <ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Gdzie zbójnickie śpiewogrania po kolebach śpią. <ch a="F"/><ch a="C"/><ch a="d"/><ch a="E"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Z mego okna widać potok<ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Doliną, doliną,<ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Dumnych świerków las szeroki,<ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Mgły w kosodrzewinach...<ch a="d"/><ch a="E"/></row>
+      <row important_over="never">I będą mi grały wiatry<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">W zaklętej kolebie...<ch a="d"/><ch a="E"/></row>
+      <row important_over="never">Noc krzesanym się zatańczy<ch a="a"/><ch a="C"/></row>
+      <row important_over="never">Po niebie, po niebie...<ch a="d"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Z mego okna widać chmury<ch a="a"/><ch a="C"/></row>
+      <row important_over="false">Na skalistej grzędzie.<ch a="d"/><ch a="E"/></row>
+      <row important_over="false">Przetrę szybę ciepłą dłonią,<ch a="a"/><ch a="C"/></row>
+      <row important_over="false">Razem z nimi siędę<ch a="d"/><ch a="E"/></row>
+      <row important_over="false">I będą mi grały wiatry<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Na oragnach turni...<ch a="d"/><ch a="E"/></row>
+      <row important_over="false">Moje życie tylko w górach,<ch a="a"/><ch a="C"/></row>
+      <row important_over="false">Nad dachami równin.<ch a="d"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
