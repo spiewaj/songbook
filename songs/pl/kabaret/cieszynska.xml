@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cieszyńska">
+  <text_author type="solo">Jaromír Nohavica; tłum. Artur Andrus</text_author>
+  <comment/>
+  <composer type="solo">Jaromír Nohavica</composer>
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Gdybym się urodził <ch a="d"/>przed stu laty</row>
+      <row important_over="true"><ch a="F"/><ch a="E"/>w moim <ch a="a"/>grodzie, <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>U Larischów dla mej lubej <ch a="d"/>rwałbym kwiaty</row>
+      <row important_over="true"><ch a="F"/><ch a="E"/>w ich o<ch a="a"/>grodzie. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Moja żona byłaby <ch a="d"/>starszą córką szewca</row>
+      <row important_over="true"><ch a="F"/>Kamińskiego, co wcześniej <ch a="C"/>we Lwowie mieszkał.</row>
+      <row important_over="true"><ch a="C"/>Kochałbym ją i <ch a="d"/>pieścił</row>
+      <row important_over="true"><ch a="F"/><ch a="E"/>chyba lat <ch a="a"/>dwieście. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Mieszkalibyśmy na Sachsenbergu,<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">w kamienicy Żyda Kohna,<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">najpiękniejszą z wszystkich cieszyńską perłą<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">byłaby ona.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Mówiąc – mieszałaby czeski i polski,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">szprechałaby czasem, a śmiech by miała boski.<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Raz na sto lat cud by się dokonał,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">cud się dokonał.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Gdybym sto lat temu się narodził,<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">byłby ze mnie introligator<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">U Prochazki bym robił po dwanaście godzin<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">i siedem złotych brał za to.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Miałbym śliczną żonę i już trzecie dziecię,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">w zdrowiu żył trzydzieści lat na tym świecie<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">I całe długie życie przede mną,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">całe piękne dwudzieste stulecie<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Gdybym się urodził przed stu laty<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">i z tobą spotkał,<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">W ogrodzie u Larischów rwałbym kwiaty<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">dla ciebie, słodka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Tramwaj by jeździł pod górę za rzekę,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">słońce wznosiło szlabanu powiekę,<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">A z okien snułby się zapach<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">świątecznych potraw.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Wiatr wieczorami niósłby po mieście<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">pieśni grane w dawnych wiekach.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Byłoby lato tysiąc dziewięćset dziesięć,<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">za domem by szumiała rzeka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never">Widzę tam wszystkich nas – idących brzegiem,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">mnie, żonę, dzieci pod cieszyńskim niebem.<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Może i dobrze, że człowiek nie wie,<ch a="C"/><ch a="d"/></row>
+      <row important_over="never">co go czeka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
