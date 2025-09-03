@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jeśli chcecie gdzieś przenosić, to w Bieszczady">
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <composer type="solo">Andrzej Sikorowski</composer>
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A7"/><ch a="e7"/><ch a="A7"/><ch a="e7"/><ch a="A7"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Warszawiacy śpiewają o Wiśle</row>
+      <row important_over="true">Ci z Ol<ch a="G"/>sztyna śpiewają o Łynie</row>
+      <row important_over="true">Ci z Ka<ch a="e"/>towic o ciężkim przemyśle</row>
+      <row important_over="true">A ja <ch a="D"/>śpiewam o <ch a="G"/>mojej So<ch a="A"/>linie</row>
+      <row important_over="false"/>
+      <row important_over="false">Tutaj <ch a="D"/>wszystko ładniejsze i lepsze</row>
+      <row important_over="false">W porów<ch a="G"/>naniu na przykład z Krakowem</row>
+      <row important_over="false">Czystsza <ch a="e"/>woda i czyste powietrze</row>
+      <row important_over="false">Choć pod <ch a="D"/>Jasłem są <ch a="G"/>pola naf<ch a="A"/>towe</row>
+      <row important_over="false"/>
+      <row important_over="false"><ch a="G"/>Wielkie <ch a="D"/>nieba, <ch a="e7"/>co za <ch a="D"/>wrzawa</row>
+      <row important_over="false"><ch a="G"/> Chcą prze<ch a="A"/>nosić, ale <ch a="D"/>gdzie?</row>
+      <row important_over="false">Olsztyn, <ch a="G"/>Kraków, czy War<ch a="D"/>szawa</row>
+      <row important_over="false">A ja <ch a="G"/>jednak myślę, <ch a="A7"/>że...</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Jeśli <ch a="e7"/>chcecie gdzieś <ch a="A"/>przenosić to w Biesz<ch a="D"/>czady</row>
+      <row important_over="true">Bo to <ch a="e7"/>idealne <ch a="A"/>miejsce dla sto<ch a="D"/>licy</row>
+      <row important_over="true">Komu<ch a="G"/>niści z ludow<ch a="H"/>cami mogą <ch a="e"/>wchodzić tu w uk<ch a="B"/>łady</row>
+      <row important_over="true">W razie <ch a="D"/>czego mają <ch a="A"/>blisko do gra<ch a="D"/>nicy</row>
+      <row important_over="false"/>
+      <row important_over="false">Tu naj<ch a="e7"/>lepszy, najży<ch a="A"/>czliwszy żyje <ch a="D"/>naród</row>
+      <row important_over="false">I nie<ch a="e"/>prawda, że tu <ch a="A"/>bieda, głód i <ch a="D"/>nędza</row>
+      <row important_over="false">Na miesz<ch a="G"/>kańca tu przy<ch a="H"/>pada czarnej <ch a="e"/>ziemi sześć hek<ch a="B"/>tarów</row>
+      <row important_over="false">Tona <ch a="D"/>drewna, niedźwiedź <ch a="A"/>i dwie trzecie <ch a="D"/>księdza</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Spoglądają krakowscy poeci</row>
+      <row important_over="false">Na po<ch a="G"/>etów warszawskich z wysoka</row>
+      <row important_over="false">Lecz przy<ch a="e"/>pomnę panowie, że przecież</row>
+      <row important_over="false">Już przed <ch a="D"/>wami był <ch a="G"/>Grzegorz z Sa<ch a="A"/>noka</row>
+      <row important_over="false"/>
+      <row important_over="false">Po tych <ch a="D"/>ścieżkach pan Szwejk spacerował</row>
+      <row important_over="false">Był Ja<ch a="G"/>giełło z małżonką i świtą</row>
+      <row important_over="false">Przeby<ch a="e"/>wała tu Bona królowa</row>
+      <row important_over="false">Oraz <ch a="D"/>Gierek z Jo<ch a="G"/>sipem Broz <ch a="A"/>Tito</row>
+      <row important_over="false"/>
+      <row important_over="false">Wiatr się<ch a="D"/> tłucze<ch a="A"/> po Tar<ch a="D"/>nicy</row>
+      <row important_over="false"><ch a="G"/> Otu<ch a="A"/>lonej płaszczem <ch a="D"/>gwiazd</row>
+      <row important_over="false">Ale <ch a="G"/>wróćmy do sto<ch a="D"/>licy</row>
+      <row important_over="false">I pow<ch a="G"/>tórzmy jeszcze <ch a="A"/>raz</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="chorus">
+      <row important_over="false">Jeśli <ch a="g"/>przenieść tę sto<ch a="A"/>licę, to w Biesz<ch a="D"/>czady</row>
+      <row important_over="false">Gdzie po <ch a="g"/>połoninach <ch a="A"/>diabeł owce <ch a="D"/>gna</row>
+      <row important_over="false">Prosi <ch a="G"/>o to, na Ma<ch a="H"/>zowszu zamiesz<ch a="e"/>kałe przez przy<ch a="B"/>padek</row>
+      <row important_over="false">Dziecko <ch a="D"/>Bieszczad - podpi<ch a="A"/>sany Artur <ch a="D"/>A</row>
+      <row important_over="false">Prosi <ch a="G"/>o to, na Ma<ch a="H"/>zowszu zamiesz<ch a="e"/>kałe przez przy<ch a="g"/>padek</row>
+      <row important_over="false">Dziecko <ch a="D"/>Bieszczad - podpi<ch a="A"/>sany Artur <ch a="D"/>A, czyli ja.</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
