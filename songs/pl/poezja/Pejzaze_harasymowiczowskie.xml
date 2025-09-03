@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pejzaże harasymowiczowskie">
-  <alias/>
   <text_author type="solo">Wojciech Bellon</text_author>
-  <comment/>
   <composer type="solo">Wojciech Bellon</composer>
   <artist type="band">Wolna Grupa Bukowina</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="false"><ch a="G"/> Kiedy stałem w przedśw<ch a="D"/>icie a Synaj</row>
@@ -51,6 +47,5 @@
     <verificators>
       <verificator>Onufry</verificator>
     </verificators>
-    <to_do/>
   </status>
 </song>
