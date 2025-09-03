@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bambino Jazzu feat. Dorota Miśkiewicz">
+  <comment/>
+  <composer type="solo">Łukasz Borowiecki</composer>
+  <artist type="solo">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="h"/>Może tobie <ch a="Fis"/>idą ząbki, <ch a="h"/>albo ty masz <ch a="Fis"/>kolkę</row>
+      <row important_over="true"><ch a="h"/>A możeś Ty <ch a="Fis"/>dziecineczko <ch a="h"/>zmęczona tym <ch a="H"/>folkiem</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="e"/>Dwa tysiące <ch a="A7"/>lat ci grają <ch a="D"/>pastuszki i <ch a="G"/>drwale</row>
+      <row important_over="true"><ch a="e"/>W każdej szopce Krakowiacy, <ch a="Fis"/>Kurpie i Górale</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>My ci w darze <ch a="Fis"/>przynosimy <ch a="h"/>mały Panie <ch a="Fis"/>Jezu</row>
+      <row important_over="false"><ch a="h"/>Zestaw chwytów <ch a="Fis"/>na gitarę <ch a="h"/>z antologią <ch a="H"/>jazzu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Może ty już <ch a="A7"/>nie chcesz słuchać <ch a="D"/>średniowiecznych <ch a="G"/>bardów</row>
+      <row important_over="false"><ch a="e"/>Może byś się ukołysał <ch a="Fis"/>w rytm naszych standardów</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Może zamiast <ch a="A7"/>harf anielskich <ch a="D"/>i kościelnych <ch a="G"/>dzwonów</row>
+      <row important_over="false"><ch a="e"/>Wolisz w ”Lulajże Jezuniu” <ch a="Fis"/>solo saksofonu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="h"/>Żebyś mógł <ch a="Fis"/>narobić czasem <ch a="h"/>troszeczkę <ch a="Fis"/>hałasu</row>
+      <row important_over="false"><ch a="h"/>Tu masz takie <ch a="Fis"/>pokrętełko <ch a="h"/>do podbicia <ch a="H"/>basu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Może zamiast <ch a="A7"/>kołysanek i <ch a="D"/>cichej sta<ch a="G"/>jenki</row>
+      <row important_over="false"><ch a="e"/>Jakaś trąbka i fortepian <ch a="Fis"/>i jakieś bębenki...</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Słuchaj jazzu <ch a="A7"/>mały Jezu, <ch a="D"/>niech ci zaswin<ch a="G"/>guje wiatr</row>
+      <row important_over="false"><ch a="e"/>Za muzykę daj nam tylko - <ch a="Fis"/>What a wonderful... <ch a="h"/>świat</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">{celowo pominąłem wstawki instrumentalne,</row>
+      <row important_over="false">każdy może sobie potworzyć na zasadzie:}</row>
+      <row important_over="false" style="instr"> <ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/></row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="A7"/><ch a="D"/><ch a="G"/><ch a="e"/><ch a="Fis"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="1"/>
+  </music>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
