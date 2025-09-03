@@ -2,7 +2,7 @@ songbook:
   id: "spiewnik_lupienicki"
   uuid: "27f5dd1b-13ec-426b-a6ae-dbf8b43d3883"
   title: "Śpiewnik Łupienicki"
-  subtitle: "2024"
+  subtitle: "2025"
   url: "https://spiewaj.com/#spiewnik_lupienicki"
   publisher: |
     Śpiewnik Łupienicki (test)
@@ -13,12 +13,13 @@ songbook:
     pdf: "./spiewnik_lupienicki/lupienice.pdf"
   songs:
     - glob: "songs/pl/folk/**/*.xml"
-    - glob: "songs/pl/bardowie/**/*.xml"
-    - glob: "songs/pl/harc/**/*.xml"
-    - glob: "songs/pl/kabaret/**/*.xml"
-    - glob: "songs/pl/poezja/**/*.xml"
+    - glob: "songs/pl/bardowie/*.xml"
+    - glob: "songs/pl/harc/*.xml"
+    - glob: "songs/pl/kabaret/*.xml"
+    - glob: "songs/pl/poezja/*.xml"
     - glob: "songs/pl/pop/**/*.xml"
-    - glob: "songs/pl/religijne/**/*.xml"
     - glob: "songs/pl/szanty/**/*.xml"
     - glob: "songs/pl/koledy/**/*.xml"
+    - glob: "songs/pl/szanty/*.xml"
+    - glob: "songs/pl/turystyczne/*.xml"
     - glob: "songs/en/basi/**/*.xml"
