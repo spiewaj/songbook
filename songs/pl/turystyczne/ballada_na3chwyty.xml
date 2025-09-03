@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada na trzy chwyty czyli bardzo prosta piosenka o kobietach">
+  <text_author type="solo">J. Szewczak, K. Łyda</text_author>
+  <composer type="solo">K. Łyda</composer>
+  <artist type="band">Gwiazdy z Zagranicy</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">Jedni wolą brunetki drudzy wolą blond loki <ch a="D"/><ch a="G"/></row>
+      <row important_over="never">A mnie się marzy dziewczę co stawia duże kroki. <ch a="A"/><ch a="D"/></row>
+      <row important_over="false">Jedni lubią z uśmiechem inni celują w ponure</row>
+      <row important_over="false">A mi się marzy dziewczę co lubi iść pod górę.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie musi mieć kusych dekoltów tym bardziej chodzić w mini</row>
+      <row important_over="false">Byle lubiła podróż szlakami wysokogórskimi.</row>
+      <row important_over="false">Nie będzie na szlaku stękać gdy jej podkład się rozmaże,</row>
+      <row important_over="false">Na nogach jej będą treki a chodzić będzie w polarze.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Lalalalaj lala lalalalaj lalalalaj laj laj</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie wiem czy taka wizja jest dziś prawdziwie możliwa,</row>
+      <row important_over="false">Lecz zawsze mieć będzie w plecaku miejsce na moje dwa piwa</row>
+      <row important_over="false">Nieważne jej pochodzenie nie ważne ile ma wzrostu</row>
+      <row important_over="false">Nie mogą jej nigdy przeszkadzać kędziory górskiego zarostu</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nie będzie jej nigdy przeszkadzać mimo dziewczęcej urody</row>
+      <row important_over="false">Że musi spać na podłodze i znowu zabrakło wody.</row>
+      <row important_over="false">Gdy rano na kacu myślę &quot;o kurcze na pewno zginę&quot;</row>
+      <row important_over="false">Ona wyciąga pół litra schowane na czarną godzinę</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">A w kwestii charakteru To żeby nie narzekała.</row>
+      <row important_over="false">Chyba że na pogodę albo że góra za mała</row>
+      <row important_over="false">I żeby lubiła Stachurę, czasem czytała Leśmiana</row>
+      <row important_over="false">Znała A dur na gitarze i piła ze mną do rana</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Do kuchni nie mam wymagań, podobnie jest u mnie z wiarą</row>
+      <row important_over="false">Mogła by wierzyć we mnie i umieć gotować makaron</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">Dziewczę wejdzie do schroniska i zobaczy nas we dwóch</row>
+      <row important_over="false">W rękach naszych dwie gitary ponad sto opasły brzuch</row>
+      <row important_over="false">Smutny koniec tej ballady niewesoły i normalny</row>
+      <row important_over="false">Na realia nie da rady to ucieczka każdej panny</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Pozostanie nam schronisko, dwie gitary, góry, my</row>
+      <row important_over="false">Nasze bębny kastaniety, plecak pieśń, a w myślach Ty!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
