@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o wyważonym koniu księcia Józefa">
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="G"/><ch a="D"/><ch a="A"/></row>
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="g"/><ch a="gis"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Zanim Cię wy<ch a="G"/>wiodą w pole</row>
+      <row important_over="true"><ch a="D"/>Krzyż Ci dadzą <ch a="G"/>albo <ch a="A"/>broń.</row>
+      <row important_over="true"><ch a="h7"/>Popatrz stoi <ch a="e7"/>na cokole</row>
+      <row important_over="true"><ch a="D"/>Wywa<ch a="G"/>żony <ch a="A"/>koń</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>On się na to <ch a="G"/>patrzeć wstydzi,</row>
+      <row important_over="false"><ch a="D"/>Bo spod wywa<ch a="G"/>żonej <ch a="A"/>grzywy</row>
+      <row important_over="false"><ch a="h7"/>Koń to wszystko <ch a="e7"/>wokół <ch a="A7"/>widzi</row>
+      <row important_over="false"><ch a="D"/>Z innej <ch a="G"/>perspe<ch a="A"/>kty<ch a="D"/>wy.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="G"/>Koniu nisko <ch a="H7"/>zwisa ogon.</row>
+        <row important_over="true"><ch a="e"/>Koń się trochę <ch a="A"/>zna na życie.</row>
+        <row important_over="true"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+        <row important_over="true"><ch a="D"/>Cmoknąć <ch a="A7"/>przy ko<ch a="D"/>pycie.</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Jakiś bunt się <ch a="G"/>w koniu budzi,</row>
+      <row important_over="false"><ch a="D"/>Z niepokojem <ch a="G"/>patrzy w <ch a="A"/>dal.</row>
+      <row important_over="false"><ch a="h7"/>Tylko ludzi, <ch a="e7"/>tylko ludzi,</row>
+      <row important_over="false"><ch a="D"/>Tylko <ch a="G"/>ludzi <ch a="A"/>żal.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Zanim ruszysz <ch a="G"/>do ataku,</row>
+      <row important_over="false"><ch a="D"/>Zanim pierwszy <ch a="G"/>stos za<ch a="A"/>płonie,</row>
+      <row important_over="false"><ch a="h7"/>Może byś se <ch a="e7"/>tak ro<ch a="A7"/>daku</row>
+      <row important_over="false"><ch a="D"/>Poro<ch a="G"/>zmawiał <ch a="A"/>z ko<ch a="D"/>niem.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Koniu nisko <ch a="H7"/>zwisa ogon.</row>
+        <row important_over="false"><ch a="e"/>Koń ma jakąś <ch a="A"/>taką głębię.</row>
+        <row important_over="false"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+        <row important_over="false"><ch a="D"/>Poszczot<ch a="A"/>kować w <ch a="D"/>kłębie.</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="gis"/><ch a="A"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Chcesz to ganiaj <ch a="G"/>się po Błoniach.</row>
+      <row important_over="false"><ch a="D"/>Bij się, jeśli <ch a="G"/>chcesz się <ch a="A"/>bić.</row>
+      <row important_over="false"><ch a="h7"/>Ale odczep <ch a="e7"/>się od konia.</row>
+      <row important_over="false"><ch a="D"/>Dajże <ch a="G"/>koniu <ch a="A"/>żyć.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>W tym tkwi całej <ch a="G"/>sprawy sedno.</row>
+      <row important_over="false"><ch a="D"/>Też mu ciążą <ch a="D"/>nasze <ch a="A"/>losy.</row>
+      <row important_over="false"><ch a="h7"/>Koniu nie jest <ch a="e7"/>wszystko jedno,</row>
+      <row important_over="false"><ch a="D"/>Tylko <ch a="G"/>ma już <ch a="A"/>do<ch a="D"/>syć.</row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Koniu nisko <ch a="H7"/>zwisa ogon.</row>
+        <row important_over="false"><ch a="e"/>Inne sprawy <ch a="A"/>ma na głowie.</row>
+        <row important_over="false"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+        <row important_over="false"><ch a="D"/>Skoczyć <ch a="A"/>na po<ch a="D"/>krowiec.</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="H"/><ch a="e"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="D"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false">(*cmok*)</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
