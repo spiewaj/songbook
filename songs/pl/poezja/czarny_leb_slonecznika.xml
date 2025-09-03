@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarny łeb słonecznika">
+  <alias>Słonecznik</alias>
+  <text_author type="solo">Kazimierz Pichlak</text_author>
+  <comment>Alternatywne akordy:
+[G a/C G D G/C G D G/C D G]
+[C G D G/C D G/C G C G/C D G]</comment>
+  <composer type="solo">Wojciech Jarociński</composer>
+  <artist type="band">Wolna Grupa Bukowina</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
+      <row important_over="true"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
+      <row important_over="true"><ch a="D"/>Zimne dłonie <ch a="E"/>grzać, a słowom dać <ch a="A"/>spać</row>
+      <row important_over="true">Zanim <ch a="G"/>znów ich <ch a="D"/>nie przywo<ch a="A"/>łasz</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>Palce, <ch a="A"/>palce, <ch a="E"/>ziarna, <ch a="A"/>ziarna</row>
+      <row important_over="true"><ch a="D"/>Serce białe - <ch a="E"/>dusza cza<ch a="A"/>rna</row>
+      <row important_over="true"><ch a="D"/>Ziarna, <ch a="A"/>palce, <ch a="E"/>Twoje, <ch a="A"/>moje</row>
+      <row important_over="true"><ch a="D"/>Posplatane <ch a="E"/>jak powo<ch a="A"/>je</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Męczyć się bez mąk, martwić <ch a="D9"/>się bez skarg</row>
+      <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka służy nam jak mo<ch a="G"/>że</row>
+      <row important_over="false"><ch a="D"/>Mówi - wiem od <ch a="E"/>lat tu nigdy nie <ch a="A"/>tak,</row>
+      <row important_over="false"><ch a="G"/>By nie chciało <ch a="D"/>nie być go<ch a="A"/>rzej</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <bis times="3">
+        <row important_over="false"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
+        <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
