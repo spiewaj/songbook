@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pejzaże harasymowiczowskie">
   <text_author type="solo">Wojciech Bellon</text_author>
-  <comment>sł. i muz. Wojtek Bellon
-sł. trzeciej zwrotki - Tomek Borkowski</comment>
   <composer type="solo">Wojciech Bellon</composer>
   <artist type="band">Wolna Grupa Bukowina</artist>
   <lyric>
@@ -33,18 +31,10 @@ sł. trzeciej zwrotki - Tomek Borkowski</comment>
       <row important_over="false"><ch a="e"/> Rozgwieździła si<ch a="C"/>ę bukow<ch a="D"/>ina</row>
     </block>
     <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">Tak umykałem pod żaglem słońca</row>
-      <row important_over="false">W uśpionych dolin puste ogrody</row>
-      <row important_over="false">Pomiędzy chyże w podniebnych trawach</row>
-      <row important_over="false">aż po komina szczyt zatopione.</row>
-      <row important_over="false">Wreszcie pożegnać przyszło piosenką</row>
-      <row important_over="false">Zadumane przy drodze kapliczki</row>
-      <row important_over="false">Mgłę tułaczkę ująć pod rękę</row>
-      <row important_over="false">Po raz ostatni górom się przyśnić </row>
-    </block>
-    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
   <album>Bukowina</album>
   <genre>Piosenka turystyczna górska</genre>
