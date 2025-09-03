@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gór mi mało">
 	<text_author type="solo">Tom Borkowski</text_author>
 	<composer type="solo">Wojciech Szymański</composer>
-	<artist type="solo">Dom o zielonych progach</artist>
+	<artist type="band">Dom o Zielonych Progach</artist>
 	<lyric>
 		<block type="other">
 			<bis times="4">
@@ -72,6 +72,7 @@
 	</lyric>
 	<music metre="4/4"/>
 	<keywords/>
+	<genre>Piosenka turystyczna</genre>
 	<status>
 		<done>
 			<text/>
