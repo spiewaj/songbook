@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Deesis">
+  <text_author type="solo">Tomasz Borkowski</text_author>
+  <composer>Bartłomiej Adamczak</composer>
+  <artist type="band">Na bani</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Tam <ch a="a"/>las się pochy<ch a="a7"/>la pra<ch a="a"/>starym chojarem,</row>
+      <row important_over="true">Nad <ch a="a"/>ciemnym stru<ch a="a7"/>mieniem niebo <ch a="a"/>się zamyka.</row>
+      <row important_over="true">Tam <ch a="a"/>buk roso<ch a="a7"/>chatym zak<ch a="a"/>rywa konarem</row>
+      <row important_over="true">Mo<ch a="F"/>giły, których <ch a="d"/>nawet <ch a="G"/>wiatr unika.<ch a="a"/></row>
+      <row important_over="true"/>
+      <row important_over="true">Dla <ch a="a"/>oczu ukryty<ch a="a7"/> — niedo<ch a="a"/>strzegły wzrokiem</row>
+      <row important_over="true">Je<ch a="B"/>dyny ślad wymarłej sadyby —</row>
+      <row important_over="true">— <ch a="a"/>Gasnąca <ch a="a7"/>drożyna s<ch a="a"/>pleciona z potokiem</row>
+      <row important_over="true">J<ch a="B"/>akby nie była — odeszła jak gdyby.</row>
+      <row important_over="true"/>
+      <row important_over="true">Po<ch a="a"/>rosły <ch a="G"/>drzewa, gdzie <ch a="D"/>umarły <ch a="a"/>chaty,</row>
+      <row important_over="true">Zam<ch a="e"/>knęły się <ch a="F"/>cerkwi wid<ch a="d"/>mowe wie<ch a="E7"/>rzeje.</row>
+      <row important_over="true"><ch a="a"/>Opuścił s<ch a="G"/>ioło <ch a="D"/>Chrystus Pan<ch a="a"/>tokrator,</row>
+      <row important_over="true"><ch a="e"/>Zgięty w pół <ch a="F"/>krzyż <ch a="d"/>samotnie ni<ch a="E7"/>szczeje.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Na <ch a="a"/>przekór podnieśmy ku <ch a="C"/>niebu ektenie,</row>
+      <row important_over="true"><ch a="G"/>Na próżno błagajmy bło<ch a="D"/>gosławienia,</row>
+      <row important_over="true"><ch a="a"/>Za Łemkowynę módlmy <ch a="C"/>się daremnie,</row>
+      <row important_over="true"><ch a="G"/>Może dostąpimy jeszcze <ch a="F"/>przebóstwienia.</row>
+      <row important_over="true"/>
+      <row important_over="true"><ch a="a"/>Mgły poruszymy <ch a="C"/>świętym wozduchem,</row>
+      <row important_over="true"><ch a="G"/>Chramowe ikony podnie<ch a="D"/>siemy z pyłu.</row>
+      <row important_over="true"><ch a="a"/>Obudzimy chóry naszej <ch a="c"/>wiary kruchej,</row>
+      <row important_over="true"><ch a="G"/>Hospody pomyłuj! <ch a="D"/>Hospody pomyłuj! <ch a="F"/>Hospody pomyłuj!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Dla<ch a="a"/>czego prze<ch a="a7"/>stałem być Ru<ch a="a"/>snakom bratem,</row>
+      <row important_over="false"><ch a="a"/>Chociaż wzorem <ch a="a7"/>dla nas te <ch a="a"/>same hermeneje.</row>
+      <row important_over="false"><ch a="a"/>Dokąd ule<ch a="a7"/>ciały <ch a="a"/>cheruby skrzydlate,</row>
+      <row important_over="false"><ch a="F"/>Czemu płomień <ch a="d"/>w oczach już <ch a="G"/>duszy nie grzeje?</row>
+      <row important_over="false"/>
+      <row important_over="false"><ch a="a"/>Słupy dymu z <ch a="a7"/>nagła pod<ch a="a"/>parły ciężkie chmury,</row>
+      <row important_over="false"><ch a="B"/>Gdy od nieba dzielił nas tylko ikonostas.</row>
+      <row important_over="false"><ch a="a"/>Umilkły w <ch a="a7"/>bólu <ch a="a"/>niewzruszone góry —</row>
+      <row important_over="false">— Je<ch a="B"/>dyne, które miały tu pozostać.</row>
+      <row important_over="false"/>
+      <row important_over="false">Ku <ch a="a"/>czyjej <ch a="G"/>chwale wznio<ch a="D"/>sły się pocho<ch a="a"/>dnie,</row>
+      <row important_over="false">Cało<ch a="e"/>palne <ch a="F"/>ofiary dla któ<ch a="d"/>rego <ch a="E7"/>Boga,</row>
+      <row important_over="false"><ch a="a"/>Jacyż to <ch a="G"/>święci tej <ch a="D"/>krwi byli <ch a="a"/>głodni,</row>
+      <row important_over="false">W <ch a="e"/>jakim ob<ch a="F"/>rządku ojców <ch a="d"/>kto po<ch a="E7"/>chował?</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="false">Na <ch a="a"/>plecach wysoko po<ch a="C"/>nieśmy ektenie,</row>
+      <row important_over="false"><ch a="G"/>Chociaż niegodniśmy <ch a="D"/>błogosławienia.</row>
+      <row important_over="false"><ch a="a"/>Odprawmy na szczytach <ch a="C"/>pokutę zmęczeniem,</row>
+      <row important_over="false"><ch a="G"/>Może doprosimy się tym <ch a="F"/>przebaczenia.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Mgły poruszymy <ch a="C"/>świętym wozduchem,</row>
+      <row important_over="false"><ch a="G"/>Chramowe ikony podnie<ch a="D"/>siemy z pyłu.</row>
+      <row important_over="false"><ch a="a"/>Obudzimy chóry naszej <ch a="c"/>wiary kruchej,</row>
+      <row important_over="false"><ch a="G"/>Hospody pomyłuj! <ch a="D"/>Hospody pomyłuj! <ch a="F"/>Hospody pomyłuj!</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
