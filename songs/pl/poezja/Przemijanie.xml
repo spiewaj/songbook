@@ -2,10 +2,12 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przemijanie">
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Dzień kolejny minął dzień co nic nie przyniósł<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="false"><ch a="F"/>Jeszcze się nie skończył a już nowy wyrósł<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Dzień kolejny minął </row>
+      <row important_over="false">dzień co nic nie przyniósł<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="F"/>Jeszcze się nie skończył </row>
+      <row important_over="false">a już nowy wyrósł<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis times="2">
         <row important_over="false"><ch a="F"/>Tyle dni minęło, tyle marzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
         <row important_over="false"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
@@ -14,20 +16,22 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Tyle słów powiedział słów co nic nie znaczą<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="false"><ch a="F"/>Może kogoś uraził czyjeś oczy płaczą<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Tyle słów powiedział </row>
+      <row important_over="false">słów co nic nie znaczą<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="F"/>Może kogoś uraził </row>
+      <row important_over="false">czyjeś oczy płaczą<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Znowu czas mija, znowu minął dzień<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="false"><ch a="F"/>Komu zaświecił słońcem dobrych oczu mgnień<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Znowu czas mija, </row>
+      <row important_over="false">znowu minął dzień<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="false"><ch a="F"/>Komu zaświecił słońcem </row>
+      <row important_over="false">dobrych oczu mgnień<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music>
-    <guitar barre="0"/>
-  </music>
   <keywords/>
+  <genre>Poezja śpiewana</genre>
   <status>
     <done/>
     <verificators/>
