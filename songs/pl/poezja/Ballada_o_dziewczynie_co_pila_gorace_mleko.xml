@@ -5,37 +5,52 @@
 	<artist type="solo">Andrzej Poniedzielski</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="D"/>Są małe stacje w<ch a="fis"/>ielkich kolei, niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona</row>
-			<row important_over="true">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona</row>
-			<row important_over="true"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu, z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
-			<row important_over="true">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, ja<ch a="A"/>k piła gorące <ch a="D"/>mleko</row>
+			<row important_over="true"><ch a="D"/>Są małe stacje w<ch a="fis"/>ielkich kolei, </row>
+			<row important_over="true">niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona</row>
+			<row important_over="true">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, </row>
+			<row important_over="true">jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona</row>
+			<row important_over="true"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu,</row>
+			<row important_over="true"> z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
+			<row important_over="true">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, </row>
+			<row important_over="true">ja<ch a="A"/>k piła gorące <ch a="D"/>mleko</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę, a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
-			<row important_over="true">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie, jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
-			<row important_over="true">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była, <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
+			<row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
+			<row important_over="true"> a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
+			<row important_over="true">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row important_over="true"> jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
+			<row important_over="true">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była,</row>
+			<row important_over="true"> <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
 			<bis times="2">
-				<row important_over="true">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
+				<row important_over="true">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, </row>
+				<row important_over="true">g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
 			</bis>
-			<row important_over="false">&gt;
-    </row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Mam swoje sprawy, inne podróże i nie tamtędy mi droga.</row>
-			<row important_over="false">Lubię ulice wesołe i długie i kolorowe światła na rogach.</row>
-			<row important_over="false">Może ma chłopca tamta dziewczyna, a może wybrała się w świat.</row>
-			<row important_over="false">Albo po prostu może jest głupia jak jej siedemnaście lat.</row>
+			<row important_over="never">Mam swoje sprawy, inne podróże <ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">i nie tamtędy mi droga.<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Lubię ulice wesołe i długie <ch a="G"/><ch a="D"/></row>
+			<row important_over="never">i kolorowe światła na rogach.<ch a="G"/><ch a="A"/></row>
+			<row important_over="never">Może ma chłopca tamta dziewczyna, <ch a="D"/><ch a="fis"/></row>
+			<row important_over="never">a może wybrała się w świat.<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Albo po prostu może jest głupia <ch a="G"/><ch a="D"/></row>
+			<row important_over="never">jak jej siedemnaście lat.<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Z resztą to przecież nie ma znaczenia, mieszkam naprawdę daleko.</row>
-			<row important_over="false">Lecz myślę czasem o tamtej dziewczynie, jak piła gorące mleko.</row>
-			<row important_over="false">I nieraz chciałbym aby tu była, może to miałoby sens.</row>
+			<row important_over="never">Z resztą to przecież nie ma znaczenia, <ch a="G"/><ch a="D"/></row>
+			<row important_over="never">mieszkam naprawdę daleko.<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Lecz myślę czasem o tamtej dziewczynie, <ch a="G"/><ch a="D"/></row>
+			<row important_over="never">jak piła gorące mleko.<ch a="A"/><ch a="D"/></row>
+			<row important_over="never">I nieraz chciałbym aby tu była,<ch a="G"/><ch a="D"/></row>
+			<row important_over="never"> może to miałoby sens.<ch a="G"/><ch a="D"/></row>
 			<bis times="2">
-				<row important_over="false">Jak ona śmiesznie to mleko piła, gapiąc się na mnie spod rzęs.</row>
+				<row important_over="never">Jak ona śmiesznie to mleko piła, <ch a="G"/><ch a="D"/></row>
+				<row important_over="never">gapiąc się na mnie spod rzęs.<ch a="A"/><ch a="D"/></row>
 			</bis>
 		</block>
 	</lyric>
 	<keywords/>
+	<genre>Piosenka turystyczna</genre>
 	<status>
 		<done/>
 		<verificators/>
