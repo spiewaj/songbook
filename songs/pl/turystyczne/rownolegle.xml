@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Równoległe">
+  <text_author type="solo">K. Jurkiewicz</text_author>
+  <comment/>
+  <composer type="solo">K. Jurkiewicz</composer>
+  <artist type="band">Słodki Całus Od Buby</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="never">A jeśli było to możliwe <ch a="D"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Na plaży już czekała noc</row>
+      <row important_over="false">Pod granatowym baldachimem</row>
+      <row important_over="false">Z niecierpliwości gęstniał mrok</row>
+      <row important_over="false">A jeśli było to możliwe</row>
+      <row important_over="false">Nad ranem w śnieżnobiałym łóżku</row>
+      <row important_over="false">Puentować noc czerwonym winem</row>
+      <row important_over="false">Pośród kradzionych pocałunków</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Jedno wiem, jedno jest pewne <ch a="G"/><ch a="A"/></row>
+      <row important_over="never">W nieskończoności tajemniczej <ch a="G"/><ch a="A"/></row>
+      <row important_over="never">Muszą się spotkać - na to liczę <ch a="G"/><ch a="A"/></row>
+      <row important_over="never">Nawet równoległe <ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Więc może wcale nie jest głupie<ch a="D"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Nocą pod twoim krążyć domem</row>
+      <row important_over="false">Samego siebie oszukując</row>
+      <row important_over="false">Samemu sobie wchodząc w drogę</row>
+      <row important_over="false">Więc może wcale nie jest głupie</row>
+      <row important_over="false">Liczyć na jeszcze jedną szansę</row>
+      <row important_over="false">Bez żadnej jasnej perspektywy</row>
+      <row important_over="false">Poza przestrzenią, poza czasem</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="never">Więc jeśli jeszcze to możliwe<ch a="D"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Naucz mnie milczeć, naucz śpiewać</row>
+      <row important_over="false">Naucz mnie składać obietnice</row>
+      <row important_over="false">Naucz mnie już się więcej nie bać</row>
+      <row important_over="false">Więc jeśli było to możliwe</row>
+      <row important_over="false">A ja wiedziałem, ja wiedziałem</row>
+      <row important_over="false">Co ci odpowiem gdy zapytasz</row>
+      <row important_over="false">Czemu po prostu nie zostałem</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
