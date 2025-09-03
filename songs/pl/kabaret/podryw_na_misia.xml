@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o podrywie na misia">
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false">intro:</row>
+      <row important_over="false" style="instr"> <ch a="A"/><ch a="Cis"/><ch a="D"/><ch a="h"/><ch a="E"/><ch a="A6"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="A"/>Jeśli tylko <ch a="h"/>będziesz chciała</row>
+      <row important_over="true"><ch a="E"/>Zdmuchnę troski <ch a="A"/>i kłopoty,</row>
+      <row important_over="true">Wybu<ch a="Cis"/>duję <ch a="D"/>tobie mała</row>
+      <row important_over="true"><ch a="h"/>Pałac z tera<ch a="E"/>koty.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="A"/>Chodź tu do mnie… <ch a="h"/>dziś… <ch a="E7"/>dziś…</row>
+      <row important_over="true">Bo nie trafia <ch a="A"/>ci się co dzień</row>
+      <row important_over="true">Taki <ch a="Cis"/>biedny, <ch a="D"/>smutny <ch a="h"/>miś,</row>
+      <row important_over="true"><ch a="E"/>Zaraz po roz<ch a="E7"/>wodzie.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="A"/>Niech się <ch a="Fis7"/>pani <ch a="h7"/>misia nie <ch a="E7"/>boi,</row>
+      <row important_over="true">Niech się <ch a="h7"/>pani <ch a="A"/>misia nie lęka,</row>
+      <row important_over="true"><ch a="A7"/>Do we<ch a="Gis7"/>sela się <ch a="G7"/>misio za<ch a="Fis7"/>goi…</row>
+      <row important_over="true"><ch a="E"/> Bardzo fajna piosenka.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="A6"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Tutaj cztery <ch a="h"/>szwy na łuku,</row>
+      <row important_over="false"><ch a="E"/>Tu, na pleckach, <ch a="A"/>mam znamiona,</row>
+      <row important_over="false">Takie <ch a="Cis"/>mi zro<ch a="D"/>biła kuku</row>
+      <row important_over="false"><ch a="h"/>Moja była <ch a="E"/>żona.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>Chodź tu do mnie… <ch a="h"/>dziś… <ch a="E7"/>dziś…</row>
+      <row important_over="false">Taka fajna z <ch a="A"/>ciebie babka,</row>
+      <row important_over="false">Spójrz jak<ch a="Cis"/> biedny, <ch a="D"/>smutny <ch a="h"/>miś</row>
+      <row important_over="false"><ch a="E"/>Słania się na <ch a="E7"/>łapkach.</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="A6"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="A"/>Ślady walki <ch a="h"/>mam na pysiu</row>
+      <row important_over="false"><ch a="E"/>Cięć, uderzeń <ch a="A"/>oraz wgnieceń,</row>
+      <row important_over="false">Strasznie <ch a="Cis"/>dużo <ch a="D"/>teraz misiów</row>
+      <row important_over="false"><ch a="h"/>W każdej dysko<ch a="E"/>tece.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>Chodź tu do mnie… <ch a="h"/>dziś… <ch a="E7"/>dziś…</row>
+      <row important_over="false">Tul się do si<ch a="A"/>wego futra,</row>
+      <row important_over="false">Taki <ch a="Cis"/>biedny, <ch a="D"/>smutny <ch a="h"/>miś</row>
+      <row important_over="false"><ch a="E"/>Przynajmniej do <ch a="E7"/>jutra…</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>Niech się <ch a="Fis7"/>pani <ch a="h7"/>misia nie <ch a="E7"/>boi,</row>
+      <row important_over="false">Niech się <ch a="h7"/>pani <ch a="A"/>misia nie lęka,</row>
+      <row important_over="false"><ch a="A7"/>Do we<ch a="Gis7"/>sela się <ch a="G7"/>misio za<ch a="Fis7"/>goi…</row>
+      <row important_over="false"><ch a="E"/> I wzwiązku z tym, że taka fajna piosenka</row>
+      <row important_over="false">to jeszcze raz:</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>Niech się <ch a="Fis7"/>pani <ch a="h7"/>misia nie <ch a="E7"/>boi,</row>
+      <row important_over="false">Niech się <ch a="h7"/>pani <ch a="A"/>misia nie lęka,</row>
+      <row important_over="false"><ch a="A7"/>Do we<ch a="Gis7"/>sela się <ch a="G7"/>misio za<ch a="Fis7"/>goi…</row>
+      <row important_over="false"><ch a="E"/> I mimo, że taka fajna piosenka, trzeba kończyć; kończę:</row>
+    </block>
+    <block type="other">
+      <row important_over="false"><ch a="A"/>na na na <ch a="D"/>na na na na <ch a="E"/>na na na na na <ch a="A"/>na</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
