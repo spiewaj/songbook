@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie chodź tam">
-	<alias></alias>
+	<alias>Słonecznikowe pestki</alias>
 	<text_author type="solo">Jerzy Reiser</text_author>
-	<comment>Nie jestem na bank pewien, czy ta piosenka jest na "Jaworzynie", acz jest to jedyny album wydany przez Browar Żywiec, więc pewnie tak…&lt;br&gt;Nie jestem również pewien akordów - te dla mnie pasują, acz zdarza się sporo modyfikacji w różnych źródłach.</comment>
+	<comment>Nie jestem na bank pewien, czy ta piosenka jest na &quot;Jaworzynie&quot;, acz jest to jedyny album wydany przez Browar Żywiec, więc pewnie tak…&lt;br&gt;Nie jestem również pewien akordów - te dla mnie pasują, acz zdarza się sporo modyfikacji w różnych źródłach.</comment>
 	<composer type="solo">Jerzy Reiser</composer>
 	<artist type="band">Browar Żywiec</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="a7"/> Tak smutno patrzysz przez otwarte <ch a="e7"/>okno</row>
 			<row important_over="true"><ch a="F"/> Już się latarnie w mieście zapal<ch a="C"/>ają</row>
@@ -15,14 +13,14 @@
 			<row important_over="true">Nie chodź t<ch a="a7"/>am gdzie ul<ch a="F"/>iczny <ch a="G"/>obcy tł<ch a="C"/>um</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true"><ch a="C"/>Usiądź tu <ch a="F"/>obok mni<ch a="G"/>e w fot<ch a="C"/>elu</row>
-			<row important_over="true">Sł<ch a="C"/>onecznik<ch a="F"/>owe p<ch a="G"/>estki gr<ch a="C"/>yź</row>
-			<row important_over="true"><ch a="C"/>A ja pios<ch a="F"/>enkę C<ch a="E"/>i zan<ch a="a"/>ucę</row>
+			<row important_over="true">Usiądź tu <ch a="F"/>obok mni<ch a="G"/>e w fot<ch a="C"/>elu</row>
+			<row important_over="true">Słonecznik<ch a="F"/>owe p<ch a="G"/>estki gr<ch a="C"/>yź</row>
+			<row important_over="true">A ja pios<ch a="F"/>enkę C<ch a="E"/>i zan<ch a="a"/>ucę</row>
 			<row important_over="true">T<ch a="F"/>ę której sł<ch a="C"/>uchać chci<ch a="G"/>ała<ch a="C"/>byś</row>
-			<row important_over="false">Ni<ch a="C"/>e strącaj z bi<ch a="F"/>urka k<ch a="G"/>ałam<ch a="C"/>arza</row>
-			<row important_over="false">Ni<ch a="C"/>e zrywaj z k<ch a="F"/>alend<ch a="G"/>arza dn<ch a="C"/>i</row>
-			<row important_over="false">J<ch a="C"/>eśli nie l<ch a="F"/>ubisz t<ch a="E"/>ej pios<ch a="a"/>enki</row>
-			<row important_over="false"><ch a="F"/>Inną, ładni<ch a="C"/>ejszą z<ch a="G"/>agram C<ch a="C"/>i<ch a="G C"/></row>
+			<row important_over="false">Nie strącaj z bi<ch a="F"/>urka k<ch a="G"/>ałam<ch a="C"/>arza</row>
+			<row important_over="false">Nie zrywaj z k<ch a="F"/>alend<ch a="G"/>arza dn<ch a="C"/>i</row>
+			<row important_over="false">Jeśli nie l<ch a="F"/>ubisz t<ch a="E"/>ej pios<ch a="a"/>enki</row>
+			<row important_over="false"><ch a="F"/>Inną, ładni<ch a="C"/>ejszą z<ch a="G"/>agram C<ch a="C"/>i.<ch a="G"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="a7"/> Zasnęło słońce gdzieś za anten<ch a="e7"/>ami</row>
@@ -38,34 +36,34 @@
 			<row important_over="false">Powiem C<ch a="a7"/>i — nie chodź t<ch a="F"/>am gdzie <ch a="G"/>obcy tł<ch a="C"/>um</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Si<ch a="C"/>ądziesz tu <ch a="F"/>obok mni<ch a="G"/>e w fot<ch a="C"/>elu</row>
-			<row important_over="false">Sł<ch a="C"/>onecznik<ch a="F"/>owe p<ch a="G"/>estki gr<ch a="C"/>yźć</row>
-			<row important_over="false"><ch a="C"/>A ja pios<ch a="F"/>enkę C<ch a="E"/>i zan<ch a="a"/>ucę</row>
+			<row important_over="false">Siądziesz tu <ch a="F"/>obok mni<ch a="G"/>e w fot<ch a="C"/>elu</row>
+			<row important_over="false">Słonecznik<ch a="F"/>owe p<ch a="G"/>estki gr<ch a="C"/>yźć</row>
+			<row important_over="false">A ja pios<ch a="F"/>enkę C<ch a="E"/>i zan<ch a="a"/>ucę</row>
 			<row important_over="false">T<ch a="F"/>ę której sł<ch a="C"/>uchać chci<ch a="G"/>ałab<ch a="C"/>yś</row>
-			<row important_over="false">M<ch a="C"/>oże kał<ch a="F"/>amarz str<ch a="G"/>ącisz z bi<ch a="C"/>urka</row>
-			<row important_over="false">L<ch a="C"/>ub z kalend<ch a="F"/>arza z<ch a="G"/>erwiesz dzi<ch a="C"/>eń</row>
-			<row important_over="false">M<ch a="C"/>oże już l<ch a="F"/>ubisz t<ch a="E"/>ę pios<ch a="a"/>enkę</row>
-			<row important_over="false"><ch a="F"/>A może n<ch a="C"/>awet l<ch a="G"/>ubisz mni<ch a="C"/>e<ch a="G C"/></row>
+			<row important_over="false">Może kał<ch a="F"/>amarz str<ch a="G"/>ącisz z bi<ch a="C"/>urka</row>
+			<row important_over="false">Lub z kalend<ch a="F"/>arza z<ch a="G"/>erwiesz dzi<ch a="C"/>eń</row>
+			<row important_over="false">Może już l<ch a="F"/>ubisz t<ch a="E"/>ę pios<ch a="a"/>enkę</row>
+			<row important_over="false"><ch a="F"/>A może n<ch a="C"/>awet l<ch a="G"/>ubisz mni<ch a="C"/>e<ch a="G"/><ch a="C"/></row>
 		</block>
 	</lyric>
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators><verificator>Onufry</verificator><verificator>Krzysiek Cz.</verificator>
-			
-			
-		</verificators>
-		<to_do>Nie jestem również na bank pewien akordów, bo różne źródła podają różnie</to_do>
-		<done>
-			
-			<authors/>
-		</done>
-	</status>
 	<keywords/>
-	<music_source></music_source>
 	<album>Jaworzyna</album>
 	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<authors/>
+			<chords/>
+		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>Dorotka</verificator>
+		</verificators>
+		<to_do>Nie jestem również na bank pewien akordów, bo różne źródła podają różnie
+
+Zabrałam akordy &quot;C&quot; z początków wersów, bo tylko zaciemniają obraz i trudno sie tak gra.</to_do>
+	</status>
 </song>
