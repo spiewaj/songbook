@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Duś, duś gołąbki">
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="E7"/><ch a="A7"/><ch a="A"/><ch a="d"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="d"/>Na Podkarpaciu, w prastarych lasach,</row>
+      <row important_over="true">Gdzie niebo czysto nie<ch a="E7"/>bieskie,</row>
+      <row important_over="true">Pani Te<ch a="A7"/>resa była na wczasach,</row>
+      <row important_over="true"><ch a="A"/> Przez dwa tygodnie i z <ch a="d"/>pieskiem.</row>
+      <row important_over="true">A niedaleko w ceglanym bloku,</row>
+      <row important_over="true">Mieszka ozdoba tej <ch a="E7"/>dziczy,</row>
+      <row important_over="true">Brunecik z <ch a="A7"/>wąsem o sarnim wzroku,</row>
+      <row important_over="true"><ch a="A"/> Czyli miejscowy leś<ch a="d"/>niczy.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>Duś, duś go<ch a="A7"/>łąbki,</row>
+      <row important_over="true"><ch a="A"/>Jadą, jadą w <ch a="D"/>gości,</row>
+      <row important_over="true">Duś, duś go<ch a="A7"/>łąbki,</row>
+      <row important_over="true"><ch a="A"/>Oda do &quot;radości&quot;.<ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">On by jej <ch a="d"/>z drzewa nastrącał szyszek,</row>
+      <row important_over="false">I kochał by ją naj<ch a="E7"/>czulej,</row>
+      <row important_over="false">Ale Te<ch a="A7"/>resa i leśnik Zbyszek</row>
+      <row important_over="false"><ch a="A"/>Się nie spotkali w <ch a="d"/>ogóle.</row>
+      <row important_over="false">Pani Teresa całymi dniami</row>
+      <row important_over="false">Się wyleguje pod <ch a="E7"/>słońcem,</row>
+      <row important_over="false">A on w tym <ch a="A7"/>lesie chemikaliami,</row>
+      <row important_over="false"><ch a="A"/> Dokarmia dzikie zas<ch a="d"/>krońce.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">Ona się <ch a="d"/>lubi przyglądać żabom,</row>
+      <row important_over="false">I czytać historię <ch a="E7"/>Gniezna,</row>
+      <row important_over="false">Trochę się <ch a="A7"/>męczy, bo widzi słabo,</row>
+      <row important_over="false"><ch a="A"/> I wszystkich liter też <ch a="d"/>nie zna.</row>
+      <row important_over="false">On, kiedy las zaniesie się ciszą,</row>
+      <row important_over="false">Leci jak wiatr przez roz<ch a="E7"/>łogi</row>
+      <row important_over="false">Do pewnej <ch a="A7"/>Jadźki, o której piszą</row>
+      <row important_over="false"><ch a="A"/> Doktorat z dermato<ch a="d"/>logii.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="d"/><ch a="E7"/><ch a="A7"/><ch a="A"/><ch a="d"/></row>
+      <row important_over="false">(... tu już jest czas na rozchełstaną choreografię,</row>
+      <row important_over="false">ona jest rozchełstana od początku,</row>
+      <row important_over="false">trzy miesiące nad nią pracowałem</row>
+      <row important_over="false">i takie są efekty...)</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="d"/>Smutno się skończy moja piosenka:</row>
+      <row important_over="false">Teresa umrze od <ch a="E7"/>słońca,</row>
+      <row important_over="false">Leśnik od <ch a="A7"/>Jadźki, w okrutnych mękach,</row>
+      <row important_over="false"><ch a="A"/> A piesek od zas<ch a="d"/>krońca,</row>
+      <row important_over="false">Zostanie po Teresie saszetka,</row>
+      <row important_over="false">Po psie obróżka z kol<ch a="E7"/>czykiem,</row>
+      <row important_over="false">A po le<ch a="A7"/>śniczym mała plakietka,</row>
+      <row important_over="false"><ch a="A"/> Tak, jestem Europejczykiem.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">Odpowiedzi na zagadkę konkursowa,</row>
+      <row important_over="false">Jak ma na imię Teresa?</row>
+      <row important_over="false">Kierować do Nadleśnictwa Strzałowo,</row>
+      <row important_over="false">Można też pekaesem wysłać esemesa.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Duś, duś go<ch a="A7"/>łąbki,</row>
+      <row important_over="false"><ch a="A"/>Pali się pod <ch a="D"/>gruszą,</row>
+      <row important_over="false">Duś, albo <ch a="A7"/>nie duś,</row>
+      <row important_over="false"><ch a="A"/>Same się poduszą.<ch a="D"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
