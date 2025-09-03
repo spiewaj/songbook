@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Coś">
+  <alias>Masz w sobie to coś</alias>
   <artist type="band">Mikroklimat</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="A"/>Mam w sobie to <ch a="A7"/>coś, co mnie <ch a="D"/>grzeje w chłodny <ch a="A"/>dzień</row>
       <row important_over="true">Co <ch a="h7"/>sprawia, że <ch a="E7"/>uśmiecham się do <ch a="A"/>ludzi</row>
-      <row important_over="true"> I <ch a="A"/>chętnie wstaję <ch a="A7"/>rano, żeby biec po ser i <ch a="D"/>chleb</row>
+      <row important_over="true">I <ch a="A"/>chętnie wstaję <ch a="A7"/>rano, żeby biec po ser i <ch a="D"/>chleb</row>
       <row important_over="true">A <ch a="h7"/>każdy spotkany <ch a="E7"/>liść mój zachwyt <ch a="A"/>budzi.</row>
     </block>
     <block type="verse">
