@@ -1,56 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zapiszę śniegiem w kominie">
 	<artist type="solo">Robert Kasprzycki</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="false">A jeśli zabraknie na koncie pieniędzy<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">I w kącie zagnieździ się bieda<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="false">Po rozum do głowy pobiegnę niech powie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Co sprzedać by siebie nie sprzedać<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">A jeśli zabraknie na koncie pieniędzy<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">I w kącie zagnieździ się bieda<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">Po rozum do głowy pobiegnę niech powie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Co sprzedać by siebie nie sprzedać<ch a="G"/><ch a="D"/><ch a="C"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Zaplotę z dymu warkoczyk<ch a="e"/><ch a="D"/></row>
-			<row important_over="false">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Zaplotę z dymu warkoczyk<ch a="e"/><ch a="D"/></row>
-			<row important_over="false">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">I będę z powrotem…<ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Zaplotę z dymu warkoczyk<ch a="e"/><ch a="D"/></row>
+			<row important_over="never">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Warkoczyk z dymu zaplotę <ch a="D"/></row>
+			<row important_over="never">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">I będę z powrotem…<ch a="C"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A jeśli nie znajdę w swej głowie rozumu<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">To paszport odnajdę w szufladzie<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="false">Zapytam go może on pewnie pomoże<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Poradzi jak sobie poradzić<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">A jeśli nie znajdę w swej głowie rozumu<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">To paszport odnajdę w szufladzie<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">Zapytam go może on pewnie pomoże<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Poradzi jak sobie poradzić<ch a="G"/><ch a="D"/><ch a="C"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">A jeśli zabraknie Ci w sercu nadziei<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Bo powrót jest zawsze daleko<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="false">Przypomnij te słowa wyśpiewaj od nowa<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Bym wiedział, że ktoś na mnie czeka<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">A jeśli zabraknie Ci w sercu nadziei<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Bo powrót jest zawsze daleko<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="never">Przypomnij te słowa wyśpiewaj od nowa<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Bym wiedział, że ktoś na mnie czeka<ch a="G"/><ch a="D"/><ch a="C"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-		<music>
-		<guitar/>
-	</music>
-	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
-		</verificators>
-		<done/>
-		<to_do></to_do>
-	</status>
 	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done/>
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+		</verificators>
+	</status>
 </song>
