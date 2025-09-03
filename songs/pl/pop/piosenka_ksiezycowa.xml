@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka księżycowa">
+  <text_author type="solo">Anita Lipnicka</text_author>
+  <comment/>
+  <composer type="solo">Robert Janson</composer>
+  <artist type="band">Varius Manx</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Śpisz pięknie t<ch a="G"/>ak</row>
+      <row important_over="false"><ch a="F"/>Po kątach cisza g<ch a="G"/>ra</row>
+      <row important_over="false"><ch a="F"/>Szkoda słów resztę dop<ch a="e"/>owie księżyc</row>
+      <row important_over="false">Ś<ch a="a"/>pisz staram s<ch a="G"/>ię</row>
+      <row important_over="false">O<ch a="F"/>ddychać szeptem poś<ch a="G"/>ciel jeszcze pachnie</row>
+      <row important_over="false"><ch a="F"/>Ogni<ch a="e"/>em naszych c<ch a="a"/>iał</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="d"/>Kiedyś znaj<ch a="e"/>dę dla nas do<ch a="F"/>m</row>
+      <row important_over="true">Z wielkim o<ch a="G"/>knem na świ<ch a="d"/>at</row>
+      <row important_over="true">Znowu za<ch a="e"/>czniesz ufać m<ch a="F"/>i</row>
+      <row important_over="true">Nie pozw<ch a="G"/>olę ci się b<ch a="d"/>ać</row>
+      <row important_over="true">Kiedyś wszy<ch a="e"/>stkie czarne d<ch a="F"/>ni</row>
+      <row important_over="true">Obró<ch a="G"/>cimy w dobry ża<ch a="d"/>rt</row>
+      <row important_over="true">Znowu będz<ch a="e"/>iesz ufał m<ch a="F"/>i <ch a="G"/></row>
+      <row important_over="true">Teraz śp<ch a="a"/>ij <ch a="G"/><ch a="F"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Wiem dobrze wie<ch a="G"/>m</row>
+      <row important_over="false"><ch a="F"/>Potrafię ranić ta<ch a="G"/>k jak nikt</row>
+      <row important_over="false"><ch a="F"/>Przykro mi nie wiem co<ch a="e"/> robić gdy płaczesz</row>
+      <row important_over="false">J<ch a="a"/>uż nie śmieje<ch a="G"/>sz się jak kiedyś</row>
+      <row important_over="false">W<ch a="F"/>szystko jest inacze<ch a="G"/>j</row>
+      <row important_over="false"><ch a="F"/>Kolejny raz proszę <ch a="e"/>cię o ostatn<ch a="a"/>ią szansę</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Pop</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
