@@ -6,45 +6,48 @@
 	<artist type="solo">Aleksander Grotowski; Małgorzata Zwierzchowska</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">W Gdańska mewy, wiatr i gotyk</row>
-			<row important_over="false">Słońce świeci złotą smugą</row>
-			<row important_over="false">Pan kapitan białej floty</row>
-			<row important_over="false">Idzie przez ulicę Długą</row>
-			<row important_over="false">Idzie z marynarską fają</row>
-			<row important_over="false">W oczach ma szelmowskie błyski</row>
-			<row important_over="false">Przekupki się w nim kochają</row>
-			<row important_over="false">Podziwiają go turystki</row>
+			<row important_over="never">W Gdańska mewy, wiatr i gotyk<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Słońce świeci złotą smugą<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Pan kapitan białej floty<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Idzie przez ulicę Długą<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">Idzie z marynarską fają<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">W oczach ma szelmowskie błyski<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Przekupki się w nim kochają<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Podziwiają go turystki<ch a="D"/><ch a="E"/><ch a="A"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Transatlantyki na oceanach</row>
-			<row important_over="false">A krążowniki w rejsach ćwiczebnych</row>
-			<row important_over="false">Każdy z nich musi mieć kapitana</row>
-			<row important_over="false">Nasz kapitan też jest potrzebny</row>
+			<bis times="2">
+				<row important_over="never">Transatlantyki na oceanach<ch a="A"/><ch a="E"/></row>
+				<row important_over="never">A krążowniki w rejsach ćwiczebnych<ch a="fis"/><ch a="cis"/></row>
+				<row important_over="never">Każdy z nich musi mieć kapitana<ch a="D"/><ch a="A"/></row>
+				<row important_over="never">Nasz kapitan też jest potrzebny<ch a="D"/><ch a="E"/><ch a="(A)"/></row>
+			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">Podskoczyły drzwi tawerny</row>
-			<row important_over="false">Szmer uznania przebiegł salon</row>
-			<row important_over="false">Wdzięk niezmierny, szyk cholerny</row>
-			<row important_over="false">Na rękawie złoty galon</row>
-			<row important_over="false">Duże piwko panno Helu</row>
-			<row important_over="false">Jutro w rejs wyjdziemy w morze</row>
-			<row important_over="false">To przywiozę Heli z Helu</row>
-			<row important_over="false">I bursztyny i węgorze</row>
+			<row important_over="never">Podskoczyły drzwi tawerny<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Szmer uznania przebiegł salon<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Wdzięk niezmierny, szyk cholerny<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Na rękawie złoty galon<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Duże piwko panno Helu<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Jutro w rejs wyjdziemy w morze<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">To przywiozę Heli z Helu<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">I bursztyny i węgorze<ch a="D"/><ch a="E"/><ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Piwo w pianie, Bałtyk w pianie</row>
-			<row important_over="false">Gdańsk za oknem kolorowy</row>
-			<row important_over="false">Pańskie zdrowie kapitanie</row>
-			<row important_over="false">Stary wilku zatokowy</row>
-			<row important_over="false">W Gdańsku mewy, wiatr i gotyk</row>
-			<row important_over="false">Neptun siusia w swoją studnię</row>
-			<row important_over="false">Pan kapitan białej floty</row>
-			<row important_over="false">Ma dziś wolne popołudnie</row>
+			<row important_over="never">Piwo w pianie, Bałtyk w pianie<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Gdańsk za oknem kolorowy<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Pańskie zdrowie kapitanie<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Stary wilku zatokowy<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">W Gdańsku mewy, wiatr i gotyk<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Neptun siusia w swoją studnię<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Pan kapitan białej floty<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Ma dziś wolne popołudnie<ch a="D"/><ch a="E"/><ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
 	<keywords/>
+	<genre>Szanta</genre>
 	<status>
 		<done/>
 		<verificators>
