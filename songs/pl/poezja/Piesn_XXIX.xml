@@ -1,145 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<song title="Pieśń XXIX" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-
-	<alias></alias>
-
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń XXIX">
 	<text_author type="solo">Jerzy Harasymowicz</text_author>
-
-	<comment></comment>
-
 	<composer type="solo">Wojciech Szymański</composer>
-
-	<artist type="solo">Dom o zielonych progach</artist>
-
-	<translator></translator>
-
-	<original_title></original_title>
-
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
-
+	<artist type="band">Dom o Zielonych Progach</artist>
+	<lyric>
 		<block type="other">
-
 			<bis times="2">
-
-				<row important_over="false"><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/></row>
-
+				<row important_over="false">
+          <ch a="D"/>
+          <ch a="C"/>
+          <ch a="G"/>
+          <ch a="D"/>
+        </row>
 			</bis>
-
 		</block>
-
 		<block type="verse">
-
 			<row important_over="true">C<ch a="D2"/>ałe życie w niebo idzie</row>
-
 			<row important_over="true">Mój p<ch a="C7+"/>ołoniński pochód</row>
-
 			<row important_over="true">I b<ch a="G6"/>uki srebrni jeźdźcy</row>
-
 			<row important_over="true">Nad n<ch a="D2"/>imi wiosny sokół</row>
-
 			<row important_over="false">I n<ch a="D2"/>adal tamtej połoniny wiatr</row>
-
 			<row important_over="false">I chm<ch a="C7+"/>ur wiosennych grzywy</row>
-
 			<row important_over="false">I n<ch a="G6"/>a chorągwi wspomnień twarz</row>
-
 			<row important_over="false">Z włos<ch a="D2"/>ami wiejącymi</row>
-
 		</block>
-
 		<block type="chorus">
-
 			<bis times="2">
-
 				<row important_over="true">Jak ci<ch a="D"/>ała nasze w mrocznym rytmie</row>
-
 				<row important_over="true">Wznosiły się g<ch a="e"/>óry opadały</row>
-
 				<row important_over="true">Tak dzieje si<ch a="G"/>ę gdy wiosna przyjdzie</row>
-
 				<row important_over="true">Wypala m<ch a="D"/>iłość stare trawy</row>
-
 			</bis>
-
 		</block>
-
 		<blocklink blocknb="1"/>
-
 		<block type="verse">
-
 			<row important_over="false">Całe ż<ch a="D2"/>ycie w niebo idzie</row>
-
 			<row important_over="false">Mój p<ch a="C7+"/>ołoniński pochód</row>
-
 			<row important_over="false">I b<ch a="G6"/>uki srebrni jeźdźcy</row>
-
 			<row important_over="false">Nad n<ch a="D2"/>imi wiosny sokół</row>
-
 			<row important_over="false">Jak p<ch a="D2"/>opiół rozwiały się grzechy</row>
-
 			<row important_over="false">W ciszy kt<ch a="C7+"/>oś zawilce zasiał</row>
-
 			<row important_over="false">I t<ch a="G6"/>ylko grzmią włosy przestrzeni</row>
-
 			<row important_over="false">W wielkich <ch a="D2"/>oknach mego świata</row>
-
 		</block>
-
 		<blocklink blocknb="3"/>
-
 		<blocklink blocknb="1"/>
-
 	</lyric>
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	<music metre="4/4">
-
-		<guitar/>
-
-	</music>
-
-	<keywords></keywords>
-
-	<album></album>
-
+	<music metre="4/4"/>
+	<keywords/>
 	<genre>Poezja śpiewana</genre>
-
 	<status>
-
 		<done>
-
 			<authors/>
-
 			<chords>chord positioning</chords>
-
 		</done>
-
 		<verificators>
-
-			<verificator>Michał Korch</verificator><verificator>
-
-			</verificator><verificator>
-
-			</verificator>
-
+			<verificator>Michał Korch</verificator>
 		</verificators>
-
 		<to_do>Nie słyszałem tego w oryginale, tylko od Onufrego. Nie sprawdzono bisów.</to_do>
-
 	</status>
-
-	<music_source></music_source>
-
 </song>
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
