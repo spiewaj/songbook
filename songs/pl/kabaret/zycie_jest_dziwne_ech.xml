@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Życie jest dziwne">
+  <artist type="band">Artur Andrus</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Podczas po<ch a="C"/>bytu w <ch a="G"/>hufcu <ch a="C"/>Grodno,</row>
+      <row important_over="true">Zastęp har<ch a="d"/>cerzy z <ch a="A7"/>hufca <ch a="d"/>Lesko,</row>
+      <row important_over="true">Wytropił <ch a="G"/>żółtą <ch a="G7"/>łódź pod<ch a="C"/>wodną,</row>
+      <row important_over="true">I prze<ch a="G"/>malował ją na nie<ch a="C"/>biesko.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Wyrosły <ch a="F"/>na niej łopian i <ch a="C"/>mech,</row>
+      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="true">Wyrosły <ch a="F"/>na niej łopian i <ch a="C"/>mech,</row>
+      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">W środku zna<ch a="C"/>leźli <ch a="G"/>stół sta<ch a="C"/>lowy,</row>
+      <row important_over="false">I siedem <ch a="d"/>pryczy <ch a="A7"/>niewy<ch a="d"/>godnych,</row>
+      <row important_over="false">To taki <ch a="G"/>zestaw <ch a="G7"/>standar<ch a="C"/>dowy,</row>
+      <row important_over="false">Niektórych <ch a="G"/>typów łodzi pod<ch a="C"/>wodnych.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">I szafę <ch a="F"/>zbitą z dębowych <ch a="C"/>dech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">I szafę <ch a="F"/>zbitą z dębowych <ch a="C"/>dech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Nagle w tej <ch a="C"/>łodzi <ch a="G"/>coś zał<ch a="C"/>kało,</row>
+      <row important_over="false">Więc poru<ch a="d"/>szono <ch a="A7"/>takim <ch a="d"/>wieczkiem,</row>
+      <row important_over="false">A tam na <ch a="G"/>mostku <ch a="G7"/>dziecko <ch a="C"/>stało,</row>
+      <row important_over="false">W dłoni trzy<ch a="G"/>mało małą ksią<ch a="C"/>żeczkę.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Chłopiec na <ch a="C"/>imię <ch a="G"/>miał Ok<ch a="C"/>tawian,</row>
+      <row important_over="false">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
+      <row important_over="false">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
+      <row important_over="false">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
+      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
+      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Idą na <ch a="C"/>górę <ch a="G"/>Świętej <ch a="C"/>Anny,</row>
+      <row important_over="false">Tłumy nie<ch a="d"/>zmierne <ch a="A7"/>i po<ch a="d"/>bożne,</row>
+      <row important_over="false">A to jest <ch a="G"/>pieśń o <ch a="G7"/>nieu<ch a="C"/>stannym,</row>
+      <row important_over="false">Kryzysie <ch a="G"/>polskiej piłki <ch a="C"/>nożnej,</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Który tak samo mnie obchodzi,</row>
+      <row important_over="false">Jak czeskie dziecko w podwodnej łodzi.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
+      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne.</row>
+    </block>
+    <block type="verse">
+      <bis times="4">
+        <row important_over="false"><ch a="fis"/>Bardzo dziwne,</row>
+        <row important_over="false">Bardzo, <ch a="f"/>bardzo, bardzo dziwne,</row>
+        <row important_over="false"><ch a="e"/>Bardzo dziwne,</row>
+        <row important_over="false">Bardzo, <ch a="dis"/>bardzo, bardzo dziwne,</row>
+        <row important_over="false"><ch a="d"/>Bardzo dziwne</row>
+        <row important_over="false">Bardzo <ch a="Cis"/>dziwne, <ch a="C"/>jest.</row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Piosenka kabaretowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
