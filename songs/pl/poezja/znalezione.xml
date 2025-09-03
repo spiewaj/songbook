@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Znalezione">
+  <text_author type="solo">Jerzy Harasymowicz</text_author>
+  <comment/>
+  <composer>Wojciech Szymański</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="C"/><ch a="a"/><ch a="C"/><ch a="C7/B+"/><ch a="a7"/><ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Znalazłem <ch a="a"/>siebie</row>
+      <row important_over="true">W tych <ch a="C"/>górach</row>
+      <row important_over="true">W tych <ch a="D"/>drze<ch a="G"/>wach</row>
+      <row important_over="false" style="instr"> <ch a="(G)"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Ubranych je<ch a="a"/>sienią</row>
+      <row important_over="true">W wyszy<ch a="C"/>wane rę<ch a="D"/>kawy pocho<ch a="G"/>dzenia</row>
+      <row important_over="false" style="instr"> <ch a="(G)"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Ja siwy wataha z chmur<ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Wyciągnąłem przez Boga pisany los<ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="false" style="instr"> <ch a="(G)"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="never">Dlatego, Panie, dopóki sił<ch a="G"/><ch a="a"/></row>
+      <row important_over="never">Dźwigam ikonę przeznaczenia<ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="false">(Bo przecież:)</row>
+    </block>
+    <block type="chorus">
+      <bis times="3">
+        <row important_over="false">Piszę w buki coraz dalej<ch a="G"/><ch a="a"/></row>
+        <row important_over="false">Piszę w buki coraz głośniej<ch a="C"/><ch a="D"/><ch a="G"/></row>
+        <row important_over="false">(dopóki głos...) <ch a="a"/><ch a="C"/><ch a="D"/><ch a="(G)"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
