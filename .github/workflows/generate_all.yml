@@ -9,10 +9,15 @@ on:
         type: boolean
         default: true
       pdf:
-        description: 'Generate pdf'
+        description: 'Generate pdf of the whole songbooks'
         required: false
         type: boolean
         default: true
+      pdf_songs:
+        description: 'Generate individual song PDFs'
+        required: false
+        type: boolean
+        default: false
       html:
         description: 'Generate htmls'
         required: false
@@ -45,6 +50,9 @@ on:
         required: false
         type: boolean
         default: true
+  pull_request:
+    paths:
+      - 'songs/**/*.xml'
 
 permissions:
   contents: write
@@ -80,6 +88,41 @@ jobs:
         with:
           name: songbooks_pdfs
           path: /workspace/build/songs_tex/*.pdf
+
+      - name: Generate individual song PDFs
+        if: ${{ inputs.pdf_songs }}
+        run: |
+          cd /workspace
+          chmod 755 ./render_pdfs_songs.sh
+          
+          # Check if we can detect changed song files
+          CHANGED_SONGS=""
+          
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "Detecting changed song files in PR..."
+            # Get changed files that match songs/**/*.xml pattern
+            CHANGED_SONGS=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} | grep '^songs/.*\.xml$' || true)
+          elif [ "${{ github.event_name }}" = "push" ] && [ -n "${{ github.event.before }}" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            echo "Detecting changed song files in push..."
+            # Get changed files in the push
+            CHANGED_SONGS=$(git diff --name-only ${{ github.event.before }}..${{ github.sha }} | grep '^songs/.*\.xml$' || true)
+          fi
+          
+          if [ -n "$CHANGED_SONGS" ]; then
+            echo "Found changed songs:"
+            echo "$CHANGED_SONGS"
+            # Pass changed songs as arguments to the script
+            ./render_pdfs_songs.sh $CHANGED_SONGS
+          else
+            echo "No changed songs detected or not a PR/push event, processing all songs..."
+            ./render_pdfs_songs.sh
+          fi
+      - name: Upload individual songs PDFs
+        if: ${{ inputs.pdf_songs }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: songs_pdfs
+          path: /workspace/build/songs_pdf/*.pdf
 
       - name: Create Release
         id: create_release

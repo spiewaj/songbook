@@ -24,7 +24,7 @@ fi
 
 tex_dir=${__dir}/build/songs_tex
 mkdir -p ${tex_dir}
-tex_file=$(realpath "${tex_dir}")/output.tex
+tex_file=$(realpath "${tex_dir}")/${RANDOM}${RANDOM}.tex
 
 MAKE_INDEX=true
 if [[ "${@: -1}" =~ \.yaml$ || $# -lt 4 ]]; then
@@ -40,7 +40,7 @@ else
     MAKE_INDEX=false
   fi
   PYTHONPATH="${__dir}" python3 ${__dir}/src/latex/songs2tex.py "${format}" "${papersize}" "${title}" "${@:4}" >${tex_file}
-  JOB="output"
+  JOB=${JOB:-"output"}
 fi
 
 (cd ${tex_dir}; rm -rf "${JOB}.aind" "${JOB}.gind" "${JOB}.wind" "${JOB}.aadx" "${JOB}.gadx" "${JOB}.wadx")

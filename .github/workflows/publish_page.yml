@@ -28,6 +28,7 @@ jobs:
       html: true
       epub: true
       pdf:  true
+      pdf_songs: true
       release: false
   # Single deploy job since we're just deploying
   deploy:
@@ -47,6 +48,13 @@ jobs:
         with:
           name: songbooks_pdfs
           path: _generated
+
+      - name: Download generated song artifacts (pdfs)
+        uses: actions/download-artifact@v4
+        with:
+          name: songs_pdfs
+          path: _generated/songs_pdf
+
       - name: Download generated songbook artifacts (epub)
         uses: actions/download-artifact@v4
         with:
@@ -64,6 +72,7 @@ jobs:
           mv _generated/index.xhtml _site/
           mv _generated/sitemap.xml _site/
           mv _generated/*.pdf _site/songs_tex/
+          mv _generated/songs_pdf/*.pdf _site/songs_pdf/
           mv _generated/*.epub _site/
           mv _generated/*.js _site/
           cp -R editor _site/
