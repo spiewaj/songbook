@@ -56,9 +56,10 @@
       <row important_over="false">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
       <row important_over="false">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
       <row important_over="false">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
-      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
+      <row important_over="false"/>
     </block>
     <block type="chorus">
+      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
       <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
       <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
       <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
@@ -73,7 +74,7 @@
       <row important_over="false">A to jest <ch a="G"/>pieśń o <ch a="G7"/>nieu<ch a="C"/>stannym,</row>
       <row important_over="false">Kryzysie <ch a="G"/>polskiej piłki <ch a="C"/>nożnej,</row>
     </block>
-    <block type="verse">
+    <block type="other">
       <row important_over="false">Który tak samo mnie obchodzi,</row>
       <row important_over="false">Jak czeskie dziecko w podwodnej łodzi.</row>
     </block>
