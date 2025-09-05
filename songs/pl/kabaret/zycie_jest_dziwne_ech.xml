@@ -2,12 +2,6 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Życie jest dziwne">
   <artist type="band">Artur Andrus</artist>
   <lyric>
-    <block type="verse">
-      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
-    </block>
-    <block type="chorus">
-      <row important_over="false"/>
-    </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
     </block>
@@ -65,8 +59,8 @@
       <row important_over="false"/>
     </block>
     <block type="chorus">
-      <row important_over="false"/>
-      <row important_over="false"> <ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
       <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
       <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
       <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
