@@ -40,6 +40,11 @@ on:
         required: false
         type: boolean
         default: true
+      pdf_songs:
+        description: 'Generate individual song PDFs'
+        required: false
+        type: boolean
+        default: false
       html:
         description: 'Generate htmls'
         required: false
@@ -50,9 +55,6 @@ on:
         required: false
         type: boolean
         default: true
-  pull_request:
-    paths:
-      - 'songs/**/*.xml'
 
 permissions:
   contents: write
