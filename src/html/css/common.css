@@ -57,10 +57,16 @@ div.top-navigation, div.bottom-navigation {
     flex-wrap: wrap; /* Allow wrapping on small screens */
     gap: 1em;
     align-items: center;
+    justify-content: space-between; /* Spread items apart */
 }
 
 div.top-navigation a, div.bottom-navigation a {
     font-weight: 500;
+}
+
+/* Group PDF links together on the right */
+div.top-navigation .pdflink.nav-pdf:first-of-type {
+    margin-left: auto; /* Push first PDF link to the right */
 }
 
 div.bottom-navigation {
@@ -69,6 +75,51 @@ div.bottom-navigation {
 div.top-navigation {
     margin-bottom: 2em;
 }
+
+/* --- PDF Navigation Links --- */
+.pdflink.nav-pdf {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.2em 0.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 0.1em; /* Very small gap between PDF links */
+}
+
+.pdflink.nav-pdf:last-of-type {
+    margin-right: 0; /* No margin on the last PDF link */
+}
+
+.pdflink.nav-pdf:hover { 
+    opacity: 1;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.pdflink.nav-pdf .material-symbols-outlined {
+    font-size: 16px;
+    color: #6c757d;
+    transition: color 0.2s ease;
+    margin-right: 2px;
+}
+
+.pdflink.nav-pdf:hover .material-symbols-outlined { color: #dc3545; }
+
+.pdflink.nav-pdf .pdf-label {
+    font-size: 0.65em;
+    font-weight: 500;
+    color: #6c757d;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+}
+
+.pdflink.nav-pdf:hover .pdf-label { color: #dc3545; }
 
 /* Hide top navigation on printouts*/
 @media print {

@@ -29,7 +29,36 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
         span = etree.SubElement(button, 'span')
         span.attrib['class'] = 'material-symbols-outlined'
         span.text = 'edit'
+        
+        # A4 PDF link
+        a_a4 = etree.SubElement(li, "a")
+        a_a4.attrib['class'] = 'pdflink'
+        a_a4.attrib['href'] = f"./songs_pdf/{song.base_file_name()}.a4.pdf"
+        a_a4.attrib['target'] = '_blank'
+        a_a4.attrib['title'] = 'Download A4 PDF'
+        a_a4.attrib['onclick'] = 'event.stopPropagation();'
+        span_a4 = etree.SubElement(a_a4, 'span')
+        span_a4.attrib['class'] = 'material-symbols-outlined'
+        span_a4.text = 'picture_as_pdf'
+        text_a4 = etree.SubElement(a_a4, 'span')
+        text_a4.attrib['class'] = 'pdf-label'
+        text_a4.text = 'A4'
+        
+        # A5 PDF link
+        a_a5 = etree.SubElement(li, "a")
+        a_a5.attrib['class'] = 'pdflink'
+        a_a5.attrib['href'] = f"./songs_pdf/{song.base_file_name()}.a5.pdf"
+        a_a5.attrib['target'] = '_blank'
+        a_a5.attrib['title'] = 'Download A5 PDF'
+        a_a5.attrib['onclick'] = 'event.stopPropagation();'
+        span_a5 = etree.SubElement(a_a5, 'span')
+        span_a5.attrib['class'] = 'material-symbols-outlined'
+        span_a5.text = 'picture_as_pdf'
+        text_a5 = etree.SubElement(a_a5, 'span')
+        text_a5.attrib['class'] = 'pdf-label'
+        text_a5.text = 'A5'
         a = etree.SubElement(li, "a")
+        a.attrib['class'] = 'title'
         a.attrib['href'] = song_html
         a.text = list_of_songs_meta[i].effectiveTitle()
         for song_alias in song.aliases():
@@ -61,6 +90,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     for song in list_of_songs_meta:
         if song.is_alias():
             continue
+        # Add HTML version of the song
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
         loc.text = os.path.join(".", "songs_html", song.base_file_name() + ".xhtml")
@@ -68,6 +98,16 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
         lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
         changefreq = etree.SubElement(url, "changefreq")
         changefreq.text = "weekly"
+        
+        # Add A4 and A5 PDF versions of the song
+        for format in ["a4", "a5"]:
+            url = etree.SubElement(root, "url")
+            loc = etree.SubElement(url, "loc")
+            loc.text = os.path.join(".", "songs_pdf", f"{song.base_file_name()}.{format}.pdf")
+            lastmod = etree.SubElement(url, "lastmod")
+            lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+            changefreq = etree.SubElement(url, "changefreq")
+            changefreq.text = "weekly"
 
 
     for songbook in sb.songbooks():

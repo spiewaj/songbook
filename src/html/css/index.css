@@ -95,16 +95,17 @@ a:hover {
     cursor: pointer;
 
     flex-wrap: wrap;      /* Allow items to wrap to the next line */
-    gap: 0.5em 1em;       /* Add space: 0.5em vertically, 1em horizontally */
+    gap: 0.5em 0.3em;       /* Add space: 0.5em vertically, 1em horizontally */
 }
 
 #songs li:last-child { border-bottom: none; }
 #songs li:hover { background-color: #eef2f5; }
 
-#songs li a {
+#songs li a.title {
     font-size: 1.1em;
     color: #333;
     font-weight: 400;
+    margin-left: 1em;
 }
 
 #songs li .alias {
@@ -139,7 +140,7 @@ a:hover {
     border: none;
     cursor: pointer;
     padding: 0;
-    margin-right: 1em;
+    margin-right: 0.05em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +157,45 @@ a:hover {
 }
 
 .editicon:hover .material-symbols-outlined { color: #007bff; }
+
+/* --- PDF Link Styles --- */
+.pdflink {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+    text-decoration: none;
+}
+
+.pdflink:hover { 
+    opacity: 1;
+    text-decoration: none;
+}
+
+.pdflink .material-symbols-outlined {
+    font-size: 18px;
+    color: #6c757d;
+    transition: color 0.2s ease;
+    margin-right: 2px;
+}
+
+.pdflink:hover .material-symbols-outlined { color: #dc3545; }
+
+.pdflink .pdf-label {
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #6c757d;
+    transition: color 0.2s ease;
+    text-transform: uppercase;
+}
+
+.pdflink:hover .pdf-label { color: #dc3545; }
 
 /* --- Kindle Link Paragraph --- */
 p {

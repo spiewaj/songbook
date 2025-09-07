@@ -18,8 +18,8 @@ function filterSongs() {
     // 2. Loop through all list items
     for (let i = 0; i < li.length; i++) {
         let txtValue = "";
-        // 3. Find the link (a) inside the list item
-        const a = li[i].getElementsByTagName("a")[0];
+        // 3. Find the title link inside the list item
+        const a = li[i].getElementsByClassName("title")[0];
         if (a) {
             txtValue += ' ' + a.textContent || a.innerText;
         }
