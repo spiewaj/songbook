@@ -21,10 +21,10 @@ process_song() {
   local song_file="$1"
   local title=$(basename "${song_file}" .xml)
   
-  local JOB="${title}.${format}"
   echo "Processing: ${title} (${song_file})"
   
   for format in a4 a5; do
+    local JOB="${title}.${format}"
     JOB=${JOB} ./render_pdf.sh single "${format}" "${title}" "${song_file}" > /dev/null 2>&1
     mv "${SCRIPT_DIR}/build/songs_tex/${JOB}.pdf" "${OUTPUT_DIR}/${JOB}.pdf"
   done
