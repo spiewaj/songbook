@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Potrzebuje Wczoraj">
+  <artist type="band">T.Love</artist>
+  <lyric>
+    <block type="other">
+      <bis times="4">
+        <row important_over="false" style="instr"> <ch a="E"/><ch a="Gis"/><ch a="cis"/><ch a="A"/></row>
+        <row important_over="false" style="instr"> <ch a="E"/><ch a="H"/><ch a="A"/><ch a="E"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/> O jaki <ch a="Gis"/>jestem rozpiep<ch a="cis"/>rzony, rozpiep<ch a="A"/>rzony</row>
+      <row important_over="true"><ch a="E"/> Wąchałem <ch a="H"/>plastikowe <ch a="A"/>kwiaty w<ch a="E"/>czoraj</row>
+      <row important_over="true"><ch a="E"/> Tak bardzo <ch a="Gis"/>lubię czuć się <ch a="cis"/>chory, czuć się <ch a="A"/>chory</row>
+      <row important_over="true"><ch a="E"/> O jaka <ch a="H"/>jesteś rozpiep<ch a="A"/>rzona <ch a="E"/></row>
+    </block>
+    <blocklink blocknb="1"/>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/> Słodko roz<ch a="Gis"/>wala, coś wi<ch a="cis"/>bruje, coś przy<ch a="A"/>tłacza mnie</row>
+      <row important_over="false"><ch a="E"/> O jakie <ch a="H"/>w naszych oczach <ch a="A"/>śpią de<ch a="E"/>mony</row>
+      <row important_over="false"><ch a="E"/> Przecież jes<ch a="Gis"/>teśmy tacy <ch a="cis"/>młodzi, tacy <ch a="A"/>młodzi</row>
+      <row important_over="false"><ch a="E"/> Ludzie nam <ch a="H"/>tego <ch a="A"/>nie wy<ch a="E"/>baczą-ą</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="E"/> Potrze<ch a="Gis"/>buję wczo<ch a="cis"/>raj aj, <ch a="A"/>aj, aj, <ch a="E"/>aj</row>
+      <row important_over="true">Takie <ch a="H"/>dziwne co<ch a="A"/>ś <ch a="E"/></row>
+      <row important_over="true"><ch a="E"/> Potrze<ch a="Gis"/>buję wczo<ch a="cis"/>raj aj, <ch a="A"/>aj, aj, <ch a="E"/>aj</row>
+      <row important_over="true">Takie <ch a="H"/>dziwne co<ch a="A"/>ś <ch a="E"/></row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="Gis"/><ch a="cis"/><ch a="A"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/> Słońce nie <ch a="Gis"/>świeci już swą <ch a="cis"/>paszczą nad da<ch a="A"/>chami miast</row>
+      <row important_over="false"><ch a="E"/> Nie wiem czy <ch a="H"/>ziemia nas <ch a="A"/>kręciła <ch a="E"/>wczoraj</row>
+      <row important_over="false"><ch a="E"/> Chmury jak <ch a="Gis"/>banie fru<ch a="cis"/>wają nad blo<ch a="A"/>kami</row>
+      <row important_over="false"><ch a="E"/> O jaka <ch a="H"/>jesteś rozpiep<ch a="A"/>rzona <ch a="E"/></row>
+    </block>
+    <blocklink blocknb="4"/>
+    <blocklink blocknb="1"/>
+    <blocklink blocknb="4"/>
+    <blocklink blocknb="1"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
