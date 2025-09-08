@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Warszawa">
+  <comment/>
+  <artist type="band">T.Love</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Za <ch a="G"/>oknem zimowo zaczyna się dzień</row>
+      <row important_over="true">Za<ch a="a"/>czynam kolejny dzień ży<ch a="F"/>cia</row>
+      <row important_over="true">Wy<ch a="G"/>glądam przez okno, na oczach mam sen</row>
+      <row important_over="true">A <ch a="a"/>Grochów się budzi z przepi<ch a="F"/>cia</row>
+      <row important_over="true">Wy<ch a="G"/>pity alkohol uderza w tętnice</row>
+      <row important_over="true">Au<ch a="a"/>tobus tapla się w śnie<ch a="F"/>gu</row>
+      <row important_over="true">Z<ch a="G"/>za szyby oglądam betonu stolicę</row>
+      <row important_over="true">Już<ch a="a"/> jestem na drugim jej brze<ch a="F"/>gu</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Gdy <ch a="C"/>patrzę w twe <ch a="G"/>oczy, zmę<ch a="a"/>czone jak <ch a="F"/>moje</row>
+      <row important_over="true">To <ch a="C"/>kocham to<ch a="G"/> miasto, zmę<ch a="a"/>czone jak <ch a="F"/> ja</row>
+      <row important_over="true">Gdzie <ch a="C"/> Hitler i <ch a="G"/> Stalin zro<ch a="a"/>bili, co <ch a="F"/>swoje</row>
+      <row important_over="true">Gdzie <ch a="C"/>wiosna <ch a="G"/>spaliną <ch a="F"/>oddycha</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Kra<ch a="G"/>kowskie Przedmieście zalane jest słońcem</row>
+      <row important_over="false">Wi<ch a="a"/>rujesz jak obłok, wy<ch a="F"/>nurzasz się z bramy</row>
+      <row important_over="false">A<ch a="G"/> ja jestem głodny, tak bardzo głodny</row>
+      <row important_over="false">Ko<ch a="a"/>chanie, nakarmisz mnie <ch a="F"/>snami</row>
+      <row important_over="false">Zi<ch a="G"/>elony Żoliborz, pieprzony Żoliborz</row>
+      <row important_over="false">Roz<ch a="a"/>kwita na drzewach, na krze<ch a="F"/>wach</row>
+      <row important_over="false">Ście<ch a="G"/>kami z rzeki kompletnie pijany</row>
+      <row important_over="false">Chcę <ch a="a"/>krzyczeć, chcę ryczeć, chcę ś<ch a="F"/>piewać</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false"/>
+      <bis times="4">
+        <row important_over="false" style="instr"> <ch a="G"/><ch a="a"/><ch a="F"/></row>
+      </bis>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="F"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Je<ch a="G"/>sienią zawsze zaczyna się szkoła</row>
+      <row important_over="false">A w k<ch a="a"/>najpach zaczyna się <ch a="F"/>picie</row>
+      <row important_over="false">Jest <ch a="G"/>tłoczno i duszno, olewa nas kelner</row>
+      <row important_over="false">I <ch a="a"/>tak skończymy o ś<ch a="F"/>wicie</row>
+      <row important_over="false">Je<ch a="G"/>sienią zawsze myślę o latach</row>
+      <row important_over="false">Tak <ch a="a"/>starych, jak te kamie<ch a="F"/>nice</row>
+      <row important_over="false">Je<ch a="G"/>sienią o zmroku przechodzę z tobą</row>
+      <row important_over="false">Przez <ch a="a"/>pełne kasztanów ul<ch a="F"/>ice</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
