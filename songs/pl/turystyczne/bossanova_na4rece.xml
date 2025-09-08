@@ -2,13 +2,13 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bossanova na 4 ręce">
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="h7"/>`Gdy kłopotów <ch a="e"/>tysiąc i <ch a="G"/>gdy pachnie <ch a="Fis7"/>deszczem,
+      <row important_over="true"><ch a="h7"/>Gdy kłopotów <ch a="e"/>tysiąc i <ch a="G"/>gdy pachnie <ch a="Fis7"/>deszczem,
 </row>
-      <row important_over="false"><ch a="h7"/>A po zimie <ch a="e"/>minę masz <ch a="A7"/>ponurą <ch a="D7+"/>jeszcze,
+      <row important_over="true"><ch a="h7"/>A po zimie <ch a="e"/>minę masz <ch a="A7"/>ponurą <ch a="D7+"/>jeszcze,
 </row>
-      <row important_over="false"><ch a="e"/>Ubierz płaszcz i <ch a="A7"/>drzwi na klucz, po <ch a="D7+"/>schodach <ch a="h7"/>biegiem,
+      <row important_over="true"><ch a="e"/>Ubierz płaszcz i <ch a="A7"/>drzwi na klucz, po <ch a="D7+"/>schodach <ch a="h7"/>biegiem,
 </row>
-      <row important_over="false"><ch a="e"/>Bo za rogiem <ch a="A"/>przecież czeka <ch a="G"/>ktoś na <ch a="Fis7"/>ciebie.
+      <row important_over="true"><ch a="e"/>Bo za rogiem <ch a="A"/>przecież czeka <ch a="G"/>ktoś na <ch a="Fis7"/>ciebie.
 </row>
     </block>
     <block type="verse">
