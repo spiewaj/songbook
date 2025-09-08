@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lucy Phere">
+  <alias>Lucyfer</alias>
+  <text_author type="solo">Muniek Staszczyk</text_author>
+  <comment/>
+  <composer type="solo">Bob Dylan</composer>
+  <artist type="band">T.Love</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">W<ch a="C"/>ięc Lucyfer rzekł do mnie</row>
+      <row important_over="true">Po<ch a="F"/>gadajmy spokojnie</row>
+      <row important_over="true">Hej c<ch a="C"/>hłopaku, jak chcesz dźwigną<ch a="G"/>ć swój los? <ch a="F"/></row>
+      <row important_over="true">N<ch a="e"/>awet głupi ci mówi</row>
+      <row important_over="true">Nie podskoc<ch a="a"/>zysz królowi <ch a="F"/></row>
+      <row important_over="true">Lep<ch a="a"/>iej ze mną nabijaj s<ch a="G"/>wój trzos <ch a="F"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">C<ch a="C"/>hodźmy razem więc w drogę</row>
+      <row important_over="false"><ch a="F"/>Będziesz mówił o Bogu</row>
+      <row important_over="false"><ch a="C"/>Ja ci zrobię fanta<ch a="G"/>styczny PR <ch a="F"/></row>
+      <row important_over="false">K<ch a="e"/>iedy trzeba się schowam</row>
+      <row important_over="false">Kiedy trzeba<ch a="a"/> zachowam <ch a="F"/></row>
+      <row important_over="false">Jeste<ch a="a"/>m Lucy, a ty będzies<ch a="G"/>z big star <ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Popatrz jak tu jest pięknie</row>
+      <row important_over="false"><ch a="F"/>Już czekają dziewczęta</row>
+      <row important_over="false"><ch a="C"/>Mówią słodko, w<ch a="G"/>ielbimy dziś cię<ch a="F"/></row>
+      <row important_over="false"><ch a="e"/>Moja trawa zielona</row>
+      <row important_over="false">Kokai<ch a="a"/>ny ramiona <ch a="F"/></row>
+      <row important_over="false">Mogą p<ch a="a"/>omóc jeśli b<ch a="G"/>ędzie ci źle<ch a="C"/>.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Me królestwo jest wielkie</row>
+      <row important_over="false"><ch a="F"/>To co ludzkie jest piękne</row>
+      <row important_over="false"><ch a="C"/>Możesz mówić, <ch a="G"/>że Bóg to twój da<ch a="F"/>r</row>
+      <row important_over="false"><ch a="e"/>Mocno ściśnij me dłonie</row>
+      <row important_over="false">I p<ch a="a"/>amiętaj o żonie <ch a="F"/></row>
+      <row important_over="false">Ja ci <ch a="a"/>zrobię fant<ch a="G"/>astyczny PR <ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Mój alkohol ma power</row>
+      <row important_over="false"><ch a="G"/>Na twe smutki i żale</row>
+      <row important_over="false"><ch a="C"/>Teraz dobrze to<ch a="G"/> czujesz i wie<ch a="F"/>sz</row>
+      <row important_over="false"><ch a="e"/>Nawet Jezus pił wino</row>
+      <row important_over="false">Więc <ch a="a"/>się napij z dziewczyn<ch a="F"/>ą</row>
+      <row important_over="false">A po <ch a="a"/>kłótni najl<ch a="G"/>epszy jest sek<ch a="C"/>s</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Patrz kobiety cię pragnę</row>
+      <row important_over="false"><ch a="F"/>Coraz mocniej cię łakną</row>
+      <row important_over="false"><ch a="C"/>Jesteś królem dz<ch a="G"/>iś większym niż Bó<ch a="F"/>g</row>
+      <row important_over="false"><ch a="e"/>Ja to wszystko sprawiłem</row>
+      <row important_over="false">Ja ci <ch a="a"/>dałem tę siłę <ch a="F"/></row>
+      <row important_over="false">Teraz<ch a="a"/> chłopcze, cz<ch a="G"/>as spłacić swój dłu<ch a="C"/>g</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Teraz należysz do mnie</row>
+      <row important_over="false"><ch a="F"/>Ja cię srodze upodlę</row>
+      <row important_over="false"><ch a="C"/>Możesz mówić, <ch a="G"/>ze Bóg to twój wód<ch a="F"/>z</row>
+      <row important_over="false"><ch a="e"/>Będziesz taplał się w błocie</row>
+      <row important_over="false">Kied<ch a="a"/>y trzeba pomogę<ch a="F"/></row>
+      <row important_over="false">Ale p<ch a="a"/>otem upodlę<ch a="G"/> cię znów <ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Lucy, ja już nie mogę</row>
+      <row important_over="false"><ch a="F"/>Wolę chyba być z Bogiem</row>
+      <row important_over="false"><ch a="C"/>Czemu na mni<ch a="G"/>e uparłeś tak si<ch a="F"/>ę</row>
+      <row important_over="false"><ch a="e"/>Nie wymiękaj dziecino</row>
+      <row important_over="false">Jest<ch a="a"/>eś moją ptaszyną <ch a="F"/></row>
+      <row important_over="false">Będę<ch a="a"/> z tobą na d<ch a="G"/>obre i złe <ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Jestem najlepszym kumplem</row>
+      <row important_over="false"><ch a="F"/>Posmutniałeś okrutnie</row>
+      <row important_over="false"><ch a="C"/>Ja zachciank<ch a="G"/>i potrzeby twe z<ch a="F"/>nam</row>
+      <row important_over="false"><ch a="e"/>Powiedz czy chcesz do baru</row>
+      <row important_over="false">Czy <ch a="a"/>do konfesjonału <ch a="F"/></row>
+      <row important_over="false">Jeśl<ch a="a"/>i trzeba zap<ch a="G"/>rowadzę cię tam <ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Chodźmy razem więc w drogę</row>
+      <row important_over="false"><ch a="F"/>Będziesz mówił o Bogu</row>
+      <row important_over="false"><ch a="C"/>Ja ci zrobię<ch a="G"/> fantastyczny PR<ch a="F"/></row>
+      <row important_over="false"><ch a="e"/>Kiedy trzeba się schowam</row>
+      <row important_over="false">Kied<ch a="a"/>y trzeba zachowam<ch a="F"/></row>
+      <row important_over="false">Jest<ch a="a"/>em Lucy Pher<ch a="G"/>e a ty będziesz <ch a="C"/>big star</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="e"/>Kiedy trzeba się schowam</row>
+      <row important_over="false">Kied<ch a="a"/>y trzeba zachowa<ch a="F"/>m</row>
+      <row important_over="false">Jest<ch a="a"/>em Lucy a ty b<ch a="G"/>ędziesz big star<ch a="C"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="1"/>
+  </music>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
