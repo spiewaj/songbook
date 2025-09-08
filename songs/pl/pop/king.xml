@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="King">
+  <comment/>
+  <artist type="band">T.Love</artist>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="e6"/><ch a="e7"/></row>
+      <row important_over="false" style="instr"> <ch a="e"/><ch a="e6"/><ch a="e7"/></row>
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="Gsus4"/><ch a="G5"/></row>
+      <row important_over="false" style="instr"> <ch a="G"/><ch a="Gsus4"/><ch a="G5"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Mó<ch a="e"/>wiono o nim King, w mieście Świętej Wieży</row>
+      <row important_over="true">Pa<ch a="G"/>miętam z podstawówki jak całował się z papieżem</row>
+      <row important_over="true">Prze<ch a="e"/>jeżdżał też sekretarz, gdy przecinano wstęgę</row>
+      <row important_over="true">Kingy <ch a="G"/>poszedł na wagary, pomarzyć o czymś innym</row>
+      <row important_over="true">Był <ch a="a"/>zawsze trochę z <ch a="e"/>boku, na <ch a="a"/>bakier trochę <ch a="e"/>był</row>
+      <row important_over="true"><ch a="a"/>W szkole nikt nie <ch a="e"/>wiedział, czym <ch a="H7"/>King naprawdę żył</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">To <ch a="e"/>było trochę później, już miał przyjaciółkę Ewę</row>
+      <row important_over="false">Miesz<ch a="G"/>kali więc bez ślubu i klepali słodką biedę</row>
+      <row important_over="false">Da<ch a="e"/>wali czasem czadu bo lubili lekkie dragi</row>
+      <row important_over="false">Zna<ch a="G"/>jomych było wielu, wieczory i poranki</row>
+      <row important_over="false">U<ch a="a"/>ważaj na są<ch a="e"/>siadów swych, bo <ch a="a"/>lubią dawać <ch a="e"/>cynk</row>
+      <row important_over="false">Ty <ch a="a"/>wiesz kto rządzi w <ch a="e"/>mieście tu - <ch a="H7"/>biskup z komisarzem, King!</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
+      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Tak <ch a="e"/>mówił mu przyjaciel, długi chudy Lolo</row>
+      <row important_over="false">Kiedy <ch a="G"/>wyszli na ulicę zapalić spliffa z colą</row>
+      <row important_over="false">Mam <ch a="e"/>dosyć tego miasta, czerwono - czarnej mafii</row>
+      <row important_over="false">Czy <ch a="G"/>mnie rozumiesz Lolo? Czy wiesz co mnie trapi?</row>
+      <row important_over="false">Tym<ch a="a"/>czasem blada <ch a="e"/>Ewa wytłu<ch a="a"/>maczyć pragnie <ch a="e"/>wszystko</row>
+      <row important_over="false">Bo ko<ch a="a"/>misarz wszedł przez <ch a="e"/>okno a spod <ch a="H7"/>łóżka wylazł biskup</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Co <ch a="e"/>masz w kieszeni King, komisarz spytał w drzwiach</row>
+      <row important_over="false">Wy pa<ch a="G"/>licie wciąż to świństwo, mieliśmy wiele skarg</row>
+      <row important_over="false">A <ch a="e"/>biskup łypie z boku, to na Kinga to na Ewę</row>
+      <row important_over="false">Wy ży<ch a="G"/>jecie tu bezbożnie, myślicie że nic nie wiem</row>
+      <row important_over="false">Za <ch a="a"/>posiadanie <ch a="e"/>zielska ty do<ch a="a"/>staniesz dziesięć <ch a="e"/>latek</row>
+      <row important_over="false">Za <ch a="a"/>nielegalny <ch a="e"/>związek z nią nas<ch a="H7"/>tępnych parę kratek</row>
+    </block>
+    <blocklink blocknb="4"/>
+    <block type="verse">
+      <row important_over="false">Dziś <ch a="e"/>King siedzi w celi i wspomina dobre dni</row>
+      <row important_over="false">Na<ch a="G"/>pisał do papieża bardzo długi list</row>
+      <row important_over="false">Świą<ch a="e"/>teczną wysłał kartkę do samego prezydenta</row>
+      <row important_over="false">Lecz nikt <ch a="G"/>o nim już nie mówi, nikt o nim nie pamięta</row>
+      <row important_over="false">Był <ch a="a"/>zawsze trochę z <ch a="e"/>boku, na <ch a="a"/>bakier trochę <ch a="e"/>był</row>
+      <row important_over="false">Właś<ch a="a"/>ciwie nikt nie <ch a="e"/>wiedział, czym <ch a="H7"/>King naprawdę żył</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
