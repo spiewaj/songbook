@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ajrisz">
+  <artist type="band">T.Love</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Za<ch a="D"/>bieram cię do baru</row>
+      <row important_over="true">Będzie <ch a="A"/>8:0 dla mnie</row>
+      <row important_over="true">Zakła<ch a="G"/>damy się</row>
+      <row important_over="true">że <ch a="G"/>Polska <ch a="A"/>pokona <ch a="D"/>Anglię</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>drugi strong trzeci strong</row>
+      <row important_over="false"><ch a="D"/>rozmawiamy <ch a="G"/>bez wytchnienia</row>
+      <row important_over="false"><ch a="D"/>o uczuciu które jest</row>
+      <row important_over="false">naj<ch a="G"/>lepsze <ch a="A"/>bez w<ch a="D"/>ątpienia</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>ty mnie chyba nie znasz</row>
+      <row important_over="false">i <ch a="A"/>nie rozumiesz nic</row>
+      <bis times="2">
+        <row important_over="false">bo ty <ch a="G"/>nie wiesz jak się tutaj pije</row>
+        <row important_over="false">ko<ch a="G"/>lejnej <ch a="A"/>wiosny <ch a="D"/>łyk</row>
+        <row important_over="false">ko<ch a="D"/>lejnej wiosny łyk</row>
+        <row important_over="false">ko<ch a="D"/>lejnej wiosny <ch a="G"/>łyk</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>czwarty strong piąty strong</row>
+      <row important_over="false"><ch a="D"/>coraz bliżej <ch a="G"/>twego ciała</row>
+      <row important_over="false"><ch a="D"/>oczy moje lewitują</row>
+      <row important_over="false">o<ch a="G"/>dległość <ch a="A"/>jest już <ch a="D"/>mała</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>dotknij mojej dłoni</row>
+      <row important_over="false">i na <ch a="A"/>zewnątrz wyjdźmy stąd</row>
+      <row important_over="false">ten s<ch a="G"/>pacer przeznaczeniem naszym</row>
+      <row important_over="false"><ch a="G"/>mocno <ch a="A"/>czuję <ch a="D"/>to</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>prostych słów się <ch a="G"/>boi</row>
+      <row important_over="true"><ch a="D"/>największy nawet t<ch a="A"/>wardziel</row>
+      <row important_over="true"><ch a="D"/>proste słowa z <ch a="G"/>gardła</row>
+      <row important_over="true">nie c<ch a="G"/>hcą wy<ch a="A"/>jść<ch a="D"/> najbardziej</row>
+      <row important_over="true"><ch a="h"/>mówią że mnie <ch a="G"/>kochasz</row>
+      <row important_over="true">i że <ch a="D"/>mną nie <ch a="A"/>wzgardzisz</row>
+      <row important_over="true">praw<ch a="h"/>dziwa moja <ch a="G"/>miłość</row>
+      <row important_over="true">na<ch a="G"/>zywa <ch a="A"/>się <ch a="D"/>Ajrisz</row>
+      <row important_over="true">na<ch a="G"/>zywa <ch a="A"/>się <ch a="D"/>Ajrisz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">już <ch a="D"/>powinniśmy skończyć</row>
+      <row important_over="false">do <ch a="A"/>domu już czas</row>
+      <row important_over="false">bo tak <ch a="G"/>lubię z tobą pić</row>
+      <row important_over="false">ko<ch a="G"/>lej<ch a="A"/>ny <ch a="D"/>raz</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>szósty strong siódmy strong</row>
+      <row important_over="false"><ch a="D"/>rozmawiamy <ch a="G"/>bez wytchnienia</row>
+      <row important_over="false"><ch a="D"/>o uczuciu które jest</row>
+      <row important_over="false">naj<ch a="G"/>lepsze <ch a="A"/>bez wąt<ch a="D"/>pienia</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>czujesz jak tu pachnie</row>
+      <row important_over="false">tak wyg<ch a="A"/>ląda chyba raj</row>
+      <row important_over="false">naj<ch a="G"/>lepsze miesiące to</row>
+      <row important_over="false"><ch a="G"/>kwiecień <ch a="A"/>czerwiec <ch a="D"/>maj</row>
+    </block>
+    <blocklink blocknb="6"/>
+  </lyric>
+  <keywords/>
+  <genre>Rock</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
