@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mała wojna">
-  <comment>Alternatywne chwyty są dla uproszczenia grania.. podniesione wszystko o pół tonu.</comment>
   <artist type="band">Lady Pank</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="gis"/> Aniołowie jeśli t<ch a="Fis"/>ylko s<ch a="H"/>ą</row>
       <row important_over="true"><ch a="E"/> Kryją się w <ch a="cis"/>metalowych <ch a="H"/>bunkrach <ch a="Fis"/></row>
       <row important_over="true"><ch a="gis"/> Takie listy <ch a="Fis"/>szybko <ch a="H"/>drą</row>
-      <row important_over="true"><ch a="E"/> Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro<ch a="Fis"/> </row>
-    </block>
-    <block type="other">
-      <row important_over="true"> (alternatywne chwyty)</row>
-      <bis times="2">
-        <row important_over="true">....<ch a="a"/><ch a="G"/><ch a="C"/></row>
-        <row important_over="true">.... <ch a="F"/><ch a="d"/><ch a="C"/><ch a="G"/></row>
-      </bis>
+      <row important_over="true"><ch a="E"/> Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro <ch a="Fis"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="gis"/><ch a="Fis"/><ch a="gis"/></row>
       <row important_over="false" style="instr"> <ch a="H"/><ch a="Fis"/><ch a="H"/><ch a="Fis"/></row>
-      <row important_over="never">(alternatywnie:)</row>
-      <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="a"/><ch a="/"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="gis"/> Paru kumpli <ch a="Fis"/>już tam <ch a="H"/>jest</row>
@@ -45,17 +35,20 @@
       <row important_over="false"><ch a="E"/> Ludzie <ch a="Fis"/>są <ch a="gis"/>po to, żeby <ch a="H"/>mogli walczyć</row>
       <row important_over="false"><ch a="E"/> Ludzie<ch a="Fis"/> są <ch a="gis"/>i nie będą <ch a="H"/>nigdy lepsi</row>
       <row important_over="false"><ch a="E"/> Ludzie <ch a="Fis"/>są</row>
-      <row important_over="false">(alternatywnie<ch a="F"/>: <ch a="G"/>  <ch a="a"/>  <ch a="C"/>) </row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A"/> Tacy są,<ch a="D"/> ktoś za<ch a="E"/>płacił za twój <ch a="A"/>ból</row>
       <row important_over="false">Za szampana łyk,<ch a="D"/> od tej <ch a="E"/>chwili będziesz <ch a="Fis"/>mój</row>
       <row important_over="false">Nie, nie odwracaj się, <ch a="Gis"/>patrz mi w oczy patrz O!</row>
-      <row important_over="false">(alternatywnie: <ch a="B"/>  <ch a="Dis"/>    <ch a="Fis"/>   <ch a="B"/>  / <ch a="Dis"/>   <ch a="F"/> <ch a="G"/> /  <ch a="A"/>      ) </row>
     </block>
-    <blocklink blocknb="7"/>
-    <blocklink blocknb="3"/>
-    <blocklink blocknb="7"/>
+    <blocklink blocknb="6"/>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="gis"/><ch a="Fis"/><ch a="gis"/></row>
+      <row important_over="false" style="instr"> <ch a="H"/><ch a="Fis"/><ch a="H"/><ch a="Fis"/></row>
+      <row important_over="false" style="instr"> <ch a="gis"/><ch a="Fis"/><ch a="gis"/></row>
+      <row important_over="false" style="instr"> <ch a="H"/><ch a="Fis"/><ch a="H"/><ch a="Fis"/></row>
+    </block>
+    <blocklink blocknb="6"/>
     <block type="verse">
       <row important_over="false"><ch a="E"/> Ludzie<ch a="Fis"/> są,<ch a="gis"/> nie będą <ch a="H"/>nigdy lepsi</row>
       <row important_over="false"><ch a="E"/> Ludzie<ch a="Fis"/> są,<ch a="gis"/> nie będą, ni<ch a="H"/>e, nie będą, nie</row>
@@ -63,13 +56,9 @@
       <row important_over="false" style="instr"> <ch a="E"/><ch a="Fis"/><ch a="gis"/><ch a="H"/></row>
     </block>
     <block type="other">
-      <bis times="3">
-        <row important_over="false" style="instr"> <ch a="E"/><ch a="Fis"/><ch a="gis"/><ch a="H"/></row>
-      </bis>
-      <row important_over="false">(alternatywnie: )</row>
-      <bis times="3">
-        <row important_over="false" style="instr"> <ch a="F"/><ch a="G"/><ch a="a"/><ch a="C"/></row>
-      </bis>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="Fis"/><ch a="gis"/><ch a="H"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="Fis"/><ch a="gis"/><ch a="H"/></row>
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="Fis"/><ch a="gis"/><ch a="H"/></row>
     </block>
   </lyric>
   <keywords/>
