@@ -137,5 +137,10 @@
             <xs:element type="xs:string" name="music_source" minOccurs="0" maxOccurs="1"/>
         </xs:all>
         <xs:attribute type="xs:string" name="title" use="required"/>
+        <xs:attribute name="lang" type="xs:string" use="optional" default="pl">
+            <xs:annotation>
+                <xs:documentation>Language code (e.g., 'pl', 'en', 'de', 'fr')</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
 </xs:schema>
