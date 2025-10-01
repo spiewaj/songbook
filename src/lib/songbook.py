@@ -29,10 +29,13 @@ class SongbookSpec:
       return str(self.spec)
 
   def list_of_songs(self):
-      files = []
+      # Extract glob patterns from songs specification
+      glob_patterns = []
       for s in self.spec["songs"]:
-        files.extend(glob.glob(os.path.join(repo_dir(), "./"  + s["glob"]), recursive=True))
-      return loslib.list_of_song_from_files(files)
+          glob_patterns.append(s["glob"])
+      
+      # Use the new deduplicating function
+      return loslib.list_of_song_from_globs(glob_patterns, base_dir=repo_dir())
 
   def title(self):
       return self.spec["title"] if "title" in self.spec else "Śpiewnik"
