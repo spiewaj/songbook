@@ -133,6 +133,8 @@ def main():
     songbook = sb.load_songbook_spec_from_yaml(songbook_file)
     target_dir = os.path.join(sb.repo_dir(), "build")
 
+    print(f"Generating HTML index in {target_dir} from songbook spec {songbook_file}, song count: {len(songbook.list_of_songs())}")
+
     create_index_xhtml(songbook.list_of_songs(), target_dir)
     create_sitemap_xml(songbook.list_of_songs(), target_dir)
 
