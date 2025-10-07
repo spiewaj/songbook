@@ -2,6 +2,7 @@ import yaml
 import glob, os
 import uuid
 import hashlib
+import logging
 import src.lib.list_of_songs as loslib
 
 def repo_dir():
@@ -34,7 +35,7 @@ class SongbookSpec:
       for s in self.spec["songs"]:
           glob_patterns.append(s["glob"])
       
-      print(f"Loading songs for songbook '{self.title()}' using patterns: {glob_patterns}")
+      logging.info(f"Loading songs for songbook '{self.title()}' using patterns: {glob_patterns}")
       # Use the new deduplicating function
       return loslib.list_of_song_from_globs(glob_patterns, base_dir=repo_dir())
 
@@ -100,5 +101,5 @@ def load_songbook_spec_from_yaml(filename, title=None, songFiles=None):
         return SongbookSpec(songbook, specFile=os.path.abspath(filename))
 
 def songbooks():
-    print("searching: " + os.path.join(repo_dir(), "songbooks/*.yaml"))
+    logging.info("searching: " + os.path.join(repo_dir(), "songbooks/*.yaml"))
     return map(load_songbook_spec_from_yaml, glob.glob(os.path.join(repo_dir(), "songbooks/*.yaml")))
