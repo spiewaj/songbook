@@ -12,4 +12,4 @@ songbook:
     jpg: songbooks/wdw21/znak21.jpg
     pdf: songbooks/wdw21/znak21.pdf
   songs:
-    - glob: "/songs/**/*.xml"
+    - glob: "songs/**/*.xml"

@@ -34,6 +34,7 @@ class SongbookSpec:
       for s in self.spec["songs"]:
           glob_patterns.append(s["glob"])
       
+      print(f"Loading songs for songbook '{self.title()}' using patterns: {glob_patterns}")
       # Use the new deduplicating function
       return loslib.list_of_song_from_globs(glob_patterns, base_dir=repo_dir())
 
