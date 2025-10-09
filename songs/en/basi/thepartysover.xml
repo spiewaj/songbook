@@ -5,37 +5,37 @@ Strojenie:     klasyczne (E A D G H e)</comment>
   <artist type="solo">Billie Eilish</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false">D<ch a="F"/>on&#039;t yo<ch a="a"/>u know I&#039;<ch a="C"/>m no good for yo<ch a="F"/>u?</row>
-      <row important_over="false">I<ch a="F"/>&#039;ve learned to lo<ch a="a"/>se, y<ch a="C"/>ou can&#039;t affo<ch a="F"/>rd to</row>
-      <row important_over="false"><ch a="F"/>Tore my s<ch a="a"/>hirt to<ch a="C"/> stop you bl<ch a="F"/>eedin&#039;</row>
-      <row important_over="false">Bu<ch a="F"/>t nothin<ch a="a"/>g ever st<ch a="C"/>ops you <ch a="F"/>leavin&#039;</row>
+      <row important_over="true">D<ch a="F"/>on&#039;t yo<ch a="a"/>u know I&#039;<ch a="C"/>m no good for yo<ch a="F"/>u?</row>
+      <row important_over="true">I<ch a="F"/>&#039;ve learned to lo<ch a="a"/>se, y<ch a="C"/>ou can&#039;t affo<ch a="F"/>rd to</row>
+      <row important_over="true"><ch a="F"/>Tore my s<ch a="a"/>hirt to<ch a="C"/> stop you bl<ch a="F"/>eedin&#039;</row>
+      <row important_over="true">Bu<ch a="F"/>t nothin<ch a="a"/>g ever st<ch a="C"/>ops you <ch a="F"/>leavin&#039;</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Qu<ch a="F"/>iet when I&#039;m comi<ch a="a"/>n&#039; home and I<ch a="C"/>&#039;m on my o<ch a="F"/>wn</row>
-      <row important_over="false"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
-      <row important_over="false"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
+      <row important_over="true">Qu<ch a="F"/>iet when I&#039;m comi<ch a="a"/>n&#039; home and I<ch a="C"/>&#039;m on my o<ch a="F"/>wn</row>
+      <row important_over="true"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
+      <row important_over="true"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="F"/>Don&#039;t you <ch a="a"/>know too mu<ch a="C"/>ch al<ch a="F"/>ready?</row>
-      <row important_over="false">I&#039;ll<ch a="F"/> only hur<ch a="a"/>t you if yo<ch a="C"/>u let<ch a="F"/> me</row>
-      <row important_over="false">C<ch a="F"/>all me fri<ch a="a"/>end, b<ch a="C"/>ut keep me cl<ch a="F"/>oser (call me back)</row>
-      <row important_over="false">And I&#039;<ch a="F"/>ll call you <ch a="a"/>when the <ch a="C"/>party&#039;s <ch a="F"/>over</row>
+      <row important_over="true"><ch a="F"/>Don&#039;t you <ch a="a"/>know too mu<ch a="C"/>ch al<ch a="F"/>ready?</row>
+      <row important_over="true">I&#039;ll<ch a="F"/> only hur<ch a="a"/>t you if yo<ch a="C"/>u let<ch a="F"/> me</row>
+      <row important_over="true">C<ch a="F"/>all me fri<ch a="a"/>end, b<ch a="C"/>ut keep me cl<ch a="F"/>oser (call me back)</row>
+      <row important_over="true">And I&#039;<ch a="F"/>ll call you <ch a="a"/>when the <ch a="C"/>party&#039;s <ch a="F"/>over</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Quie<ch a="G"/>t when I&#039;m c<ch a="a"/>omin&#039; home and I<ch a="C"/>&#039;m on my o<ch a="F"/>wn</row>
-      <row important_over="false"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
-      <row important_over="false">Yeah, <ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
+      <row important_over="true">Quie<ch a="G"/>t when I&#039;m c<ch a="a"/>omin&#039; home and I<ch a="C"/>&#039;m on my o<ch a="F"/>wn</row>
+      <row important_over="true"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
+      <row important_over="true">Yeah, <ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
     </block>
     <block type="other">
-      <row important_over="false"><ch a="d"/>But nothin&#039; is <ch a="a"/>better some<ch a="C"/>times <ch a="F"/></row>
-      <row important_over="false"><ch a="d"/>Once we&#039;ve both <ch a="a"/>said our good<ch a="C"/>byes <ch a="F"/></row>
-      <row important_over="false"><ch a="G"/>Let&#039;s just let it <ch a="F"/>go</row>
-      <row important_over="false"><ch a="G"/>Let me let you <ch a="F"/>go</row>
+      <row important_over="true"><ch a="d"/>But nothin&#039; is <ch a="a"/>better some<ch a="C"/>times <ch a="F"/></row>
+      <row important_over="true"><ch a="d"/>Once we&#039;ve both <ch a="a"/>said our good<ch a="C"/>byes <ch a="F"/></row>
+      <row important_over="true"><ch a="G"/>Let&#039;s just let it <ch a="F"/>go</row>
+      <row important_over="true"><ch a="G"/>Let me let you <ch a="F"/>go</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="F"/>Quiet when I&#039;m coming ho<ch a="a"/>me, I&#039;m on<ch a="C"/> my o<ch a="F"/>wn</row>
-      <row important_over="false"><ch a="d"/>I could lie, say I like <ch a="a"/>it like that, <ch a="C"/>like it like t<ch a="F"/>hat</row>
-      <row important_over="false">I could lie, say I like <ch a="a"/>it like that, <ch a="C"/>like it like t<ch a="F"/>hat </row>
+      <row important_over="true"><ch a="F"/>Quiet when I&#039;m coming ho<ch a="a"/>me, I&#039;m on<ch a="C"/> my o<ch a="F"/>wn</row>
+      <row important_over="true"><ch a="d"/>I could lie, say I like <ch a="a"/>it like that, <ch a="C"/>like it like t<ch a="F"/>hat</row>
+      <row important_over="true">I could lie, say I like <ch a="a"/>it like that, <ch a="C"/>like it like t<ch a="F"/>hat </row>
     </block>
   </lyric>
   <keywords/>
