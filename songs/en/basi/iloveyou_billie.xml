@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="i love you">
+  <artist type="solo">Billie Eilish</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>It&#039;s not true</row>
+      <row important_over="true">Tell me I&#039;ve been l<ch a="e"/>ied to</row>
+      <row important_over="true">Crying isn&#039;t <ch a="a"/>like you, oo<ch a="e"/>h</row>
+      <row important_over="true">What the hell did <ch a="a"/>I do?</row>
+      <row important_over="true">Never been the <ch a="e"/>type to</row>
+      <row important_over="true">Let someone see <ch a="a"/>right through, oo<ch a="e"/>h</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="F"/>Maybe won&#039;t you take it back?</row>
+      <row important_over="true">Say you were tryna make me laugh</row>
+      <row important_over="true">And <ch a="G"/>nothing has to change today</row>
+      <row important_over="true">You didn&#039;t mean to say &quot;I love <ch a="a"/>you&quot;</row>
+      <row important_over="true">I love <ch a="C"/>you and I don&#039;t want t<ch a="a"/>o, oo<ch a="e"/>h</row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Up<ch a="a"/> all night on anothe<ch a="e"/>r red-eye</row>
+      <row important_over="true">We wish we never <ch a="a"/>learned to fly hi<ch a="e"/>gh</row>
+      <row important_over="true">Maybe we should <ch a="a"/>just try</row>
+      <row important_over="true">To tell ourselves a <ch a="e"/>good lie</row>
+      <row important_over="true">Didn&#039;t mean to <ch a="a"/>make you cry,<ch a="e"/> I</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="F"/>Maybe won&#039;t you take it back?</row>
+      <row important_over="true">Say you were tryna make me laugh</row>
+      <row important_over="true">And <ch a="G"/>nothing has to change today</row>
+      <row important_over="true">You didn&#039;t mean to say &quot;I love <ch a="a"/>you&quot;</row>
+      <row important_over="true">I love <ch a="C"/>you and I don&#039;t want t<ch a="a"/>o, oo<ch a="e"/>h</row>
+    </block>
+    <block type="other">
+      <row important_over="true">The <ch a="F"/>smile that you gave me</row>
+      <row important_over="true">Even when you <ch a="G"/>felt like d<ch a="a"/>ying</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">We<ch a="F"/> fall apart as it gets dark</row>
+      <row important_over="true">I&#039;m in your arms in Central Park</row>
+      <row important_over="true"> There&#039;s <ch a="G"/>nothing you could do or say</row>
+      <row important_over="true">I can&#039;t escape the way I love <ch a="a"/>you</row>
+      <row important_over="true">I don&#039;t want <ch a="e"/>to, but I love y<ch a="a"/>ou, oo<ch a="e"/>h</row>
+      <row important_over="true"><ch a="a"/>Ooh,<ch a="e"/> ooh</row>
+      <row important_over="true"><ch a="a"/>Ooh,<ch a="e"/> ooh</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
