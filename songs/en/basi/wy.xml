@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wish You Were Gay">
+  <text_author type="solo">Finneas O&quot;Connell, Billie Eilish O&#039;Connel</text_author>
+  <comment>Trudność: Średni
+Strojenie:     klasyczne (E A D G H e)
+Tonacja:     a
+Tekst piosenki:     Billie Eilish</comment>
+  <artist type="solo">Billie Eilish</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">&quot;Baby, I<ch a="a"/> don&#039;t feel so goo<ch a="D7"/>d&quot;, 6 words you <ch a="G"/>never understood<ch a="e"/></row>
+      <row important_over="true">&quot;I&#039;ll never l<ch a="a"/>et you go&quot;, 5 w<ch a="D7"/>ords you never sai<ch a="G"/>d <ch a="e"/></row>
+      <row important_over="true"> I laugh a<ch a="a"/>long like nothing&#039;s wr<ch a="D7"/>ong, 4 days ha<ch a="G"/>s never felt so long<ch a="e"/></row>
+      <row important_over="true"> If 3&#039;s a c<ch a="a"/>rowd and 2 is us<ch a="D7"/>, 1 slipped aw<ch a="G"/>ay <ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>I just wanna <ch a="D7"/>make you feel ok<ch a="G"/>ay <ch a="e"/></row>
+      <row important_over="true">But a<ch a="a"/>ll you do is <ch a="D7"/>look the other w<ch a="G"/>ay <ch a="e"/></row>
+      <row important_over="true">I can&#039;t tell you<ch a="D7"/> how much I wish I didn&#039;t <ch a="G"/>wanna stay <ch a="e"/></row>
+      <row important_over="true">But <ch a="a"/>I just kinda <ch a="D7"/>wish you were gay <ch a="G"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true">Is there a <ch a="a"/>reason we&#039;re not through <ch a="D7"/></row>
+      <row important_over="true">Is there a <ch a="G"/>12 step just for you <ch a="e"/></row>
+      <row important_over="true">Our conver<ch a="a"/>sation&#039;s all in bl<ch a="D7"/>ue</row>
+      <row important_over="true">11 h<ch a="G"/>eys <ch a="e"/></row>
+      <row important_over="true">10 fingers <ch a="a"/>pulling on my ha<ch a="D7"/>ir</row>
+      <row important_over="true">9 times you <ch a="G"/>never made it fair <ch a="e"/></row>
+      <row important_over="true">I ate a<ch a="a"/>lone at 7, <ch a="D7"/>6 minutes away <ch a="G"/><ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>How&#039;m I s&#039;posed to m<ch a="D7"/>ake you feel ok<ch a="G"/>ay <ch a="e"/></row>
+      <row important_over="true">When a<ch a="a"/>ll you do is w<ch a="D7"/>alk the other way<ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I can&#039;t tell yo<ch a="D7"/>u how much I wish I didn&#039;t wa<ch a="G"/>nna stay <ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I just kinda w<ch a="D7"/>ish you were gay <ch a="G"/><ch a="e"/></row>
+    </block>
+    <block type="other">
+      <row important_over="true">To spare my <ch a="a"/>pride <ch a="D7"/></row>
+      <row important_over="true">To give your lack of in<ch a="G"/>terest an explanation <ch a="e"/></row>
+      <row important_over="true"> Don&#039;t say I&#039;m not your <ch a="a"/>type <ch a="D7"/></row>
+      <row important_over="true">Just say I&#039;m not your p<ch a="G"/>referred sexual ori<ch a="e"/>entation</row>
+      <row important_over="true">I&#039;m so <ch a="a"/>selfish<ch a="D7"/> but you make me feel he<ch a="G"/>lpless, yeah<ch a="e"/></row>
+      <row important_over="true">And I can&#039;t <ch a="a"/>stand another d<ch a="D7"/>ay</row>
+      <row important_over="true">I can&#039;t s<ch a="G"/>tand another day<ch a="e"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>I just wanna m<ch a="D7"/>ake you feel okay<ch a="G"/><ch a="e"/></row>
+      <row important_over="true">But a<ch a="a"/>ll you do is l<ch a="D7"/>ook the other way<ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I can&#039;t tell y<ch a="D7"/>ou how much I wish I didn&#039;t wan<ch a="G"/>na stay <ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I just kinda w<ch a="D7"/>ish you were gay<ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I just kinda w<ch a="D7"/>ish you were ga<ch a="G"/>y</row>
+      <row important_over="true"><ch a="a"/>I just kinda w<ch a="D7"/>ish you were ga<ch a="G"/>y  </row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
