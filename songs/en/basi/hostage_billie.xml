@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="hostage">
+  <comment/>
+  <artist type="solo">Billie Eilish</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>I wanna <ch a="C"/>be <ch a="F"/>alone</row>
+      <row important_over="true"><ch a="a"/>Alone with you, does <ch a="C"/>that make <ch a="F"/>sense?</row>
+      <row important_over="true"><ch a="a"/>I wanna <ch a="C"/>steal your <ch a="F"/>soul</row>
+      <row important_over="true">And <ch a="a"/>hide you in my <ch a="C"/>treasure <ch a="F"/>chest</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>I don&#039;t know <ch a="C"/>what to <ch a="F"/>do</row>
+      <row important_over="true">To <ch a="a"/>do with your kiss <ch a="C"/>on my <ch a="F"/>neck</row>
+      <row important_over="true"><ch a="a"/>I don&#039;t know <ch a="C"/>what feels <ch a="F"/>true</row>
+      <row important_over="true">But <ch a="a"/>this feels right so <ch a="C"/>stay a <ch a="F"/>sec</row>
+      <row important_over="true">Yeah, <ch a="a"/>you feel right so <ch a="C"/>stay a <ch a="F"/>sec</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">And let me <ch a="E7"/>crawl inside your <ch a="F"/>veins</row>
+      <row important_over="true">I&#039;ll build a <ch a="E7"/>wall, give you a ball and <ch a="F"/>chain</row>
+      <row important_over="true">It&#039;s not like <ch a="d"/>me to be so mean</row>
+      <row important_over="true">You&#039;re all I <ch a="F"/>wanted</row>
+      <row important_over="true">Just let me <ch a="d"/>hold <ch a="F"/>you</row>
+      <row important_over="true">like a <ch a="a"/>hos<ch a="C"/>ta<ch a="F"/>ge<ch a="a"/><ch a="C"/><ch a="F"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Gold on your <ch a="C"/>finger<ch a="F"/>tips</row>
+      <row important_over="true"><ch a="a"/>Fingertips <ch a="C"/>against my <ch a="F"/>cheek</row>
+      <row important_over="true"><ch a="a"/>Gold leaf a<ch a="C"/>cross your <ch a="F"/>lips</row>
+      <row important_over="true"><ch a="a"/>Kiss me until <ch a="C"/>I can&#039;t <ch a="F"/>speak</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Gold chain be<ch a="C"/>neath your <ch a="F"/>shirt</row>
+      <row important_over="true">The <ch a="a"/>shirt that you let <ch a="C"/>me wear <ch a="F"/>home</row>
+      <row important_over="true"><ch a="a"/>Gold&#039;s fake and <ch a="C"/>real love <ch a="F"/>hurts</row>
+      <row important_over="true">And <ch a="a"/>nothing hurts when <ch a="C"/>I&#039;m <ch a="F"/>alone</row>
+      <row important_over="true">When <ch a="a"/>you&#039;re with me and <ch a="C"/>we&#039;re <ch a="F"/>alone</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">And let me <ch a="E7"/>crawl inside your <ch a="F"/>veins</row>
+      <row important_over="true">I&#039;ll build a <ch a="E7"/>wall, give you a ball and <ch a="F"/>chain</row>
+      <row important_over="true">It&#039;s not like <ch a="d"/>me to be so mean</row>
+      <row important_over="true">You&#039;re all I <ch a="F"/>wanted</row>
+      <row important_over="false"/>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Just let me hold you</row>
+      <row important_over="true"><ch a="d"/>Hold <ch a="F"/>you</row>
+      <row important_over="true">Like a <ch a="a"/>hos<ch a="C"/>ta<ch a="F"/>ge</row>
+      <row important_over="true">Like a <ch a="a"/>hos<ch a="C"/>ta<ch a="F"/>ge</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="F"/></row>
+      <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="F"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <album>dont smile at me EP</album>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
