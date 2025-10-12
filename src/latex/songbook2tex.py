@@ -6,7 +6,10 @@ import sys
 
 import song2tex as s2t
 import src.lib.songbook as sb
+import logging
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def str2tex(s):
     return s.replace("\n", "\\\\").replace("#", "\\#").replace("_", "\\_").replace("...", "…")
@@ -57,6 +60,7 @@ def create_ready_tex(songbook, papersize):
 
 
 def main():
+    logger.info("Starting songbook2tex")
     if len(sys.argv) <= 1:
         print("Usage: python3 songbook2tex.py <a4|a5> songbook.yaml", file=sys.stderr)
         exit(1)
