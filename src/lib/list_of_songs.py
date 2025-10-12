@@ -4,16 +4,19 @@ import icu #do sortowania po polskich znakach
 import glob
 
 class SongMeta:
-    def __init__(self, title='', alias='', path='', genre='', artist='', lang=''):
+    def __init__(self, title='', alias='', path='', genre='', artist='', lang='', text_author=''):
         self._title = title if title else ''
         self._alias = alias if alias else ''
         self._plik = path
         self._genre = genre if genre else None
         self._artist = artist if artist else None
         self._lang = lang if lang else 'pl'
+        self._text_author = text_author if text_author else None
 
     def __repr__(self) -> str:
-      return "{" + "File:{} Title:{} Alias:{} Artist:{} Genre:{} Lang:{}".format(self.plik(), self._title, self._alias, self._artist, self._genre, self._lang) + "}"
+      return "{" + "File:{} Title:{} Alias:{} Artist:{} Genre:{} Lang:{} TextAuthor:{}".format(
+          self.plik(), self._title, self._alias, self._artist, self._genre, self._lang, self._text_author
+      ) + "}"
 
     def base_file_name(self):
         return os.path.splitext(os.path.basename(self.plik()))[0]
@@ -30,6 +33,7 @@ class SongMeta:
             genre=elementTextOrNone(root.find('{*}genre')),
             artist=elementTextOrNone(root.find('{*}artist')),
             lang=root.get('lang'),
+            text_author=elementTextOrNone(root.find('{*}text_author')),
         )
 
     def effectiveTitle(self):
@@ -52,6 +56,9 @@ class SongMeta:
 
     def lang(self):
         return self._lang
+
+    def text_author(self):
+        return self._text_author
 
 class AliasMeta:
     def __init__(self, alias, song_meta):
@@ -81,6 +88,9 @@ class AliasMeta:
 
     def lang(self):
         return self._song_meta.lang()
+
+    def text_author(self):
+        return self._song_meta.text_author()
 
     def is_alias(self):
         return True

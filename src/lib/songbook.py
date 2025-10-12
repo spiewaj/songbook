@@ -4,6 +4,7 @@ import uuid
 import hashlib
 import logging
 import src.lib.list_of_songs as loslib
+from src.lib.song_matchers import parse_songs_spec
 
 def repo_dir():
     return os.path.dirname(os.path.realpath(__file__))+"/../.."
@@ -30,14 +31,23 @@ class SongbookSpec:
       return str(self.spec)
 
   def list_of_songs(self):
-      # Extract glob patterns from songs specification
-      glob_patterns = []
-      for s in self.spec["songs"]:
-          glob_patterns.append(s["glob"])
+      """Get list of songs matching the songbook's criteria"""
+      if "songs" not in self.spec:
+          logging.warning(f"No songs specification in songbook '{self.title()}'")
+          return []
       
-      logging.info(f"Loading songs for songbook '{self.title()}' using patterns: {glob_patterns}")
-      # Use the new deduplicating function
-      return loslib.list_of_song_from_globs(glob_patterns, base_dir=repo_dir())
+      # Parse the songs specification into an OrSongMatcher
+      or_matcher = parse_songs_spec(self.spec["songs"], base_dir=repo_dir())
+      
+      logging.info(f"Loading songs for songbook '{self.title()}' with {len(or_matcher.matchers)} matchers")
+      
+      all_songs = loslib.list_of_song_from_globs(["songs/**/*.xml"], base_dir=repo_dir())
+      logging.info(f"Filtering {len(all_songs)} total songs")
+      
+      matching_songs = [song for song in all_songs if or_matcher.matches(song)]
+      
+      logging.info(f"Found {len(matching_songs)} matching songs for '{self.title()}'")
+      return matching_songs
 
   def title(self):
       return self.spec["title"] if "title" in self.spec else "Śpiewnik"

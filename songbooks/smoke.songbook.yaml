@@ -12,5 +12,16 @@ songbook:
     jpg: songbooks/wdw21/znak21.jpg
     pdf: songbooks/wdw21/znak21.pdf
   songs:
-    - glob: "/songs/**/Bar*.xml"
-    - glob: "/songs/**/Piosenka_bez_tytulu.xml"
+    - glob: "songs/**/Bar*.xml"
+    - title:
+        equals: "Piosenka bez tytułu"
+    - title:
+        # (?i) - case insensitive
+        # .* - any characters before or after
+        regexp: "(?i)kowal.*"
+    - genre:
+        equals: "Country"
+    - text_author:
+        regexp: ".*Poniedzielski.*"
+    - artist:
+        regexp: ".*Starzec.*"
