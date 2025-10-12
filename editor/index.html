@@ -21,9 +21,16 @@
       songEditor.setAttribute("git", branch && branch.trim() != '');
       if (loadUrl) {
         songEditor.setAttribute("title", "Wczytywanie ...");
-        fetch(loadUrl, {credentials: 'include', method: 'GET', redirect: 'follow'})
+        fetch(loadUrl, {credentials: 'include', method: 'GET', redirect: 'manual'})
             .then( (response) => {
               console.log("Fetched: " + JSON.stringify(response));
+              
+              // Handle redirect to login (CORS error prevention)
+              if (response.type === 'opaqueredirect' || response.status === 0) {
+                handleAuthRedirect(loadUrl, songEditor);
+                return null;
+              }
+              
               if (response.status == 404 && newFile == "maybe") {
                 songEditor.New();
                 return null;
@@ -53,6 +60,14 @@
                 }
               }
             })
+            .catch((error) => {
+              console.error("Fetch error:", error);
+              if (error.message.includes('CORS') || error.message.includes('NetworkError')) {
+                handleAuthRedirect(loadUrl, songEditor);
+              } else {
+                songEditor.setAttribute("title", "Błąd wczytywania pliku");
+              }
+            });
       } else {
         songEditor.New();
       }
@@ -71,6 +86,56 @@
           nav.hidden = true;
         }
       }
+    }
+
+    function handleAuthRedirect(originalUrl, songEditor) {
+      const {baseUrl} = parseParams();
+      const authUrl = `${baseUrl}/auth?returnTo=${encodeURIComponent(window.location.href)}`;
+      
+      songEditor.setAttribute("title", "Wymagane logowanie");
+      
+      // Create a prominent login notice
+      const loginNotice = document.createElement("div");
+      loginNotice.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        border: 3px solid #007bff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        z-index: 10000;
+        text-align: center;
+        max-width: 500px;
+      `;
+      
+      loginNotice.innerHTML = `
+        <h2>Musisz się zalogować</h2>
+        <p>Aby kontynuować edycję, zaloguj się przez GitHub.</p>
+        <p>Za chwilę zostaniesz przekierowany do strony logowania...</p>
+        <button id="loginBtn" style="
+          background: #007bff;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          font-size: 16px;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-top: 10px;
+        ">Zaloguj się teraz</button>
+      `;
+      
+      document.body.appendChild(loginNotice);
+      
+      // Auto-redirect after 3 seconds or on button click
+      const redirectToAuth = () => {
+        window.location.href = authUrl;
+      };
+      
+      document.getElementById('loginBtn').addEventListener('click', redirectToAuth);
+      setTimeout(redirectToAuth, 3000);
     }
 
     function parseParams() {
@@ -115,6 +180,9 @@
         if (response.ok) {
           songbook.MarkAsCommitted(serialized);
           return true;
+        } else if (response.status === 401 || response.status === 403) {
+          handleAuthRedirect(null, songbook);
+          return false;
         } else {
           alert("Zapis się nie powiódł. Czy jesteś podlączony do internetu ?");
           console.warn(response);
@@ -122,7 +190,11 @@
         }
       } catch (error) {
         console.error(error);
-        alert(JSON.stringify(error));
+        if (error.message && (error.message.includes('CORS') || error.message.includes('NetworkError'))) {
+          handleAuthRedirect(null, document.getElementsByTagName("song-editor")[0]);
+        } else {
+          alert(JSON.stringify(error));
+        }
         return false;
       }
     }

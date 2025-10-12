@@ -13,7 +13,7 @@ GOOGLE_PROJECT="spiewaj-com"
 gcloud functions deploy songbook-ghe \
   --project=${GOOGLE_PROJECT} \
   --allow-unauthenticated \
-  --region=europe-west1 --runtime nodejs18 --trigger-http --max-instances=5 --source . --memory=256Mi --gen2 \
+  --region=europe-west1 --runtime nodejs20 --trigger-http --max-instances=5 --source . --memory=256Mi --gen2 \
   --entry-point=songbook \
   --env-vars-file=google-cloud-functions-env.txt \
   --set-secrets=OAUTH_APP_SECRET=projects/${GOOGLE_PROJECT}/secrets/github-editor-app-oauth:latest

@@ -36,7 +36,35 @@ import {
 const app = express();
 
 app.use(cookieParser());
-app.use(cors({origin: EDITOR_DOMAIN, credentials: true}));
+
+// Allow multiple origins for CORS
+const allowedOrigins = [
+    EDITOR_DOMAIN,
+    BASE_URL,
+    `https://${PARENT_DOMAIN}`,
+    'https://spiewaj.com',
+    'https://ghe.spiewaj.com',
+    'http://localhost:63342',
+    'http://localhost:8080'
+].filter(Boolean); // Remove any undefined values
+
+app.use(cors({
+    origin: function(origin, callback) {
+        // Allow requests with no origin (like mobile apps or curl requests)
+        if (!origin) return callback(null, true);
+        
+        if (allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            console.warn(`CORS blocked origin: ${origin}`);
+            callback(new Error('Not allowed by CORS: ' + origin));
+        }
+    },
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
+}));
+
 //app.use(logRequest)
 //app.use(errorHandleWrapper)
 //app.use(errorHandle)
