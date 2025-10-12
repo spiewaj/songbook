@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="i love you">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="I love you">
+  <text_author type="solo">Billie Eilish &amp; Finneas O&#039;Connell</text_author>
   <artist type="solo">Billie Eilish</artist>
   <lyric>
     <block type="verse">
@@ -38,7 +39,7 @@
     <block type="chorus">
       <row important_over="true">We<ch a="F"/> fall apart as it gets dark</row>
       <row important_over="true">I&#039;m in your arms in Central Park</row>
-      <row important_over="true"> There&#039;s <ch a="G"/>nothing you could do or say</row>
+      <row important_over="true">There&#039;s <ch a="G"/>nothing you could do or say</row>
       <row important_over="true">I can&#039;t escape the way I love <ch a="a"/>you</row>
       <row important_over="true">I don&#039;t want <ch a="e"/>to, but I love y<ch a="a"/>ou, oo<ch a="e"/>h</row>
       <row important_over="true"><ch a="a"/>Ooh,<ch a="e"/> ooh</row>
@@ -46,7 +47,7 @@
     </block>
   </lyric>
   <keywords/>
-  <album>WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?</album>
+  <album>When we all fall asleep, where do we go ?</album>
   <status>
     <done/>
     <verificators/>
