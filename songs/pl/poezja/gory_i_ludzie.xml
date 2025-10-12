@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Góry i ludzie">
+  <text_author type="solo">Jerzy Harasymowicz</text_author>
+  <comment/>
+  <artist type="band">Dom o Zielonych Progach</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="E"/>Góry i ludzie z nieba <ch a="fis"/>schodzą,</row>
+      <row important_over="true"><ch a="A"/>Trochanowscy prowadzą <ch a="E"/>basy.</row>
+      <row important_over="true">Przez wieś wiodą jak nie<ch a="fis"/>dźwiedzia,</row>
+      <row important_over="true"><ch a="A"/>Jak jastrząb skrzypeczki <ch a="E"/>płaczą.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>To Sławko gra skrzypce <ch a="fis"/>trzyma,</row>
+      <row important_over="false"><ch a="A"/>smykiem zahacza o szczyty <ch a="E"/>dalsze.</row>
+      <row important_over="false">A bas Piotra jak wicher wy<ch a="fis"/>dyma</row>
+      <row important_over="false"><ch a="A"/>banie na cerkwi na cerkwi w Bie<ch a="E"/>lance.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Jedn<ch a="E"/>a nad nami Łemkowyna<ch a="fis"/></row>
+      <row important_over="true">i je<ch a="A"/>den Święty Jerzy czuw<ch a="E"/>a.</row>
+      <row important_over="true">Jezus na tronie wypoczyw<ch a="fis"/>a, </row>
+      <row important_over="true">czes<ch a="A"/>any w koki jak Samura<ch a="E"/>j.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Góry i ludzie z nieba <ch a="fis"/>schodzą,</row>
+      <row important_over="false"><ch a="A"/>Na drodze życzliwa życzliwa <ch a="E"/>ciemność.</row>
+      <row important_over="false">Wreszcie po latach tych przy <ch a="fis"/>stole</row>
+      <row important_over="false"><ch a="A"/>zsiadło się ze mną morze <ch a="E"/>Łemków.</row>
+    </block>
+    <blocklink blocknb="3"/>
+  </lyric>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
