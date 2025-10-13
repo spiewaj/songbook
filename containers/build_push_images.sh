@@ -10,8 +10,9 @@ set -e -x
 #  - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 #  - https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 #  The token is configured here: https://github.com/settings/tokens for scopes:  delete:packages, repo, write:packages
-#echo "{PERSONAL_ACCESS_TOKEN}" | docker login ghcr.io -u ptabor --password-stdin
+#echo "${PERSONAL_ACCESS_TOKEN}" | docker login ghcr.io -u ptabor --password-stdin
 #  If you forget - you need to regenerate.
+
 
 
 cd "${SCRIPT_DIR}/.."
