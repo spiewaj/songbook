@@ -88,13 +88,14 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
 def create_sitemap_xml(list_of_songs_meta, target_dir):
     sitemap_path = os.path.join(target_dir, "sitemap.xml")
     root = etree.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+    base = "https://spiewaj.com/"
     for song in list_of_songs_meta:
         if song.is_alias():
             continue
         # Add HTML version of the song
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
-        loc.text = os.path.join(".", "songs_html", song.base_file_name() + ".xhtml")
+        loc.text = os.path.join(base, "songs_html", song.base_file_name() + ".xhtml")
         lastmod = etree.SubElement(url, "lastmod")
         lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
         changefreq = etree.SubElement(url, "changefreq")
@@ -104,7 +105,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
         for format in ["a4", "a5"]:
             url = etree.SubElement(root, "url")
             loc = etree.SubElement(url, "loc")
-            loc.text = os.path.join(".", "songs_pdf", f"{song.base_file_name()}.{format}.pdf")
+            loc.text = os.path.join(base, "songs_pdf", f"{song.base_file_name()}.{format}.pdf")
             lastmod = etree.SubElement(url, "lastmod")
             lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
             changefreq = etree.SubElement(url, "changefreq")
@@ -119,7 +120,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
             for format in ["{}.epub", "songs_tex/{}_a5.pdf", "songs_tex/{}_a4.pdf"]:
                 url = etree.SubElement(root, "url")
                 loc = etree.SubElement(url, "loc")
-                loc.text = os.path.join(".", format.format(songbook.id()))
+                loc.text = os.path.join(base, format.format(songbook.id()))
                 lastmod = etree.SubElement(url, "lastmod")
                 lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
             changefreq = etree.SubElement(url, "changefreq")
@@ -127,7 +128,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     
     tree = etree.ElementTree(root)
     tree.write(sitemap_path, pretty_print=True, xml_declaration=True, encoding='utf-8')
-    print(f"Sitemap created at {sitemap_path}")
+    logging.info(f"Sitemap created at {sitemap_path}")
 
 def main():
     songbook_file = os.path.join(sb.repo_dir(), "songbooks/default.songbook.yaml") if len(sys.argv) == 1 else sys.argv[1]
