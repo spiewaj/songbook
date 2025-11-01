@@ -9,46 +9,55 @@ from .html_converter_utils import interpret, replace_in_file
 
 
 class StandardHtmlConverter(SongConverter):
-    def _add_chunk(self, chunk, parent, position):
-        """class chunk -> html span chunk"""
-        span_chunk = etree.SubElement(parent, "span", attrib={"class": "chunk"})
-        chord = etree.SubElement(span_chunk, "span", attrib={"class": "chord"})
-        span_ch = etree.SubElement(chord, "span", attrib={"class": "ch"})
-        span_ch.text = chunk.chord
-        span_content = etree.SubElement(span_chunk, "span", attrib={"class": "content"})
-        # Nested spans help with formatting as table.
-        span_content = etree.SubElement(span_content, "span", attrib={"class": "content-i"})
-        if position == 0:
-            if chunk.content.startswith(' '):
-                span_content.text = chunk.content
-            else:
-                span_content.text = ' ' + chunk.content
-        else:
-            if chunk.content=='':
-                span_content.text = ' '
-            else:
-                span_content.text = chunk.content
+    def _get_line_text(self, row):
+        """Helper to get clean text without chords"""
+        return ''.join(chunk.content if chunk.content else ' ' for chunk in row.chunks)
 
+    def _add_chunk(self, chunk, parent, position):
+        """Add chord and text with accessibility attributes"""
+        if chunk.chord:
+            span_ch = etree.SubElement(parent, "span", attrib={
+                "class": "chord",
+                "role": "note",
+                "aria-label": f"chord {chunk.chord}",
+                # Optional: hide from indexing/screen readers
+                # "aria-hidden": "true",
+                "data-chord": chunk.chord  # Preserve chord info for scripts
+            })
+            span_ch.text = chunk.chord
+
+        # Add text directly to parent with aria role
+        text_content = chunk.content if chunk.content else ' '
+        if position == 0 and not chunk.content.startswith(' '):
+            text_content = ' ' + text_content
+            
+        if parent.text is None:
+            parent.text = text_content
+        else:
+            last_child = parent[-1] if len(parent) > 0 else None
+            if last_child is not None:
+                last_child.tail = text_content
+            else:
+                parent.text = parent.text + text_content
 
     def _add_lyric(self, row, parent):
-        """class lyric -> html span lyric"""
-        span_lyric = etree.SubElement(parent, "span", attrib={"class": "lyric"})
+        """Add line with accessibility role and title"""
+        div_line = etree.SubElement(parent, "div", attrib={
+            "class": "line",
+            "role": "text",
+            "aria-label": "lyrics line",
+            "title": self._get_line_text(row)
+        })
         for i, chunk in enumerate(row.chunks):
-            self._add_chunk(chunk, span_lyric, i)
-
+            self._add_chunk(chunk, div_line, i)
 
     def _add_chords(self, row, parent, class_name):
-        """class chords -> html span ch"""
-        span_chords = etree.SubElement(parent, "span", attrib={"class": class_name})
+        """Add side chords if present"""
         if row.sidechords:
+            div_sidechords = etree.SubElement(parent, "div", attrib={"class": "sidechords"})
             for chunk in row.sidechords.split(" "):
-                span_ch = etree.SubElement(span_chords, "span", attrib={"class": "ch"})
+                span_ch = etree.SubElement(div_sidechords, "span", attrib={"class": "chord"})
                 span_ch.text = chunk
-        else:
-            for chunk in row.chunks:
-                if len(chunk.chord) > 0:
-                    span_ch = etree.SubElement(span_chords, "span", attrib={"class": "ch"})
-                    span_ch.text = chunk.chord
 
     def _add_row(self, row, parent):
         """class row -> html div row with content"""

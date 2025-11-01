@@ -1,7 +1,7 @@
 import os
 import shutil
 import sys
-from src.html.create_songs_html import StandardHtmlConverter
+from src.html.standard_html_converter import StandardHtmlConverter
 from src.html.song_utils import create_all_songs_html
 import src.lib.songbook as sb
 from lxml import etree
