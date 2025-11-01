@@ -3,6 +3,8 @@ import os
 import copy
 from lxml import etree
 import src.lib.read_song_xml as rsx
+from .song_converter import SongConverter
+from .song_utils import create_list_of_songs, create_all_songs_html, create_all_songs_html_from_dir
 
 
 def _add_chunk(chunk, parent, position):
@@ -199,80 +201,45 @@ def interpret(c, substitions):
     return c
 
 
-def xml2html(src_xml_path, path_out, song_suffix = None, song_prefix = None, song_head = None, substitions={}):  # tworzy piosenkę w wersji html
+class StandardHtmlConverter(SongConverter):
+    def replace_in_file(self, sourceFile, targetFile, f):
+        with open(sourceFile, 'r') as file:
+            filedata = file.read()
+        filedata = f(filedata)
+        with open(targetFile, 'w') as file:
+            file.write(filedata)
 
-    xhtml_namespace = "http://www.w3.org/1999/xhtml"
-    epub_namespace = "http://www.idpf.org/2007/ops"
-    xhtml = "{%s}" % xhtml_namespace
-    nsmap = {None: xhtml_namespace,
-             "epub": epub_namespace}
+    def xml2html(self, src_xml_path, path_out, song_suffix=None, song_prefix=None, song_head=None, substitions={}):
+        xhtml_namespace = "http://www.w3.org/1999/xhtml"
+        epub_namespace = "http://www.idpf.org/2007/ops"
+        xhtml = "{%s}" % xhtml_namespace
+        nsmap = {None: xhtml_namespace,
+                 "epub": epub_namespace}
 
-    song = rsx.parse_song_xml(src_xml_path)
-    root_html = etree.Element(xhtml + "html", nsmap=nsmap)
-    root_html.attrib[etree.QName("lang")] = "pl-PL"
-    head = etree.SubElement(root_html, "head")
-    etree.SubElement(head, "link",
-                     attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
-    etree.SubElement(head, "link",
-                     attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song.css", "media": "all"})
-    etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
-    
-    for s in song_head:
-       head.append(interpret(copy.deepcopy(s), substitions))
+        song = rsx.parse_song_xml(src_xml_path)
+        root_html = etree.Element(xhtml + "html", nsmap=nsmap)
+        root_html.attrib[etree.QName("lang")] = "pl-PL"
+        head = etree.SubElement(root_html, "head")
+        etree.SubElement(head, "link",
+                         attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
+        etree.SubElement(head, "link",
+                         attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song.css", "media": "all"})
+        etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
+        
+        for s in song_head:
+           head.append(interpret(copy.deepcopy(s), substitions))
 
-    body = etree.SubElement(root_html, "body", attrib={"class": "song", etree.QName("http://www.idpf.org/2007/ops", "type"):"bodymatter"})
-    for s in song_prefix:
-       body.append(interpret(copy.deepcopy(s), substitions))
+        body = etree.SubElement(root_html, "body", attrib={"class": "song", etree.QName("http://www.idpf.org/2007/ops", "type"):"bodymatter"})
+        for s in song_prefix:
+           body.append(interpret(copy.deepcopy(s), substitions))
 
-    _add_blocks(song, root_html)
-    title = etree.SubElement(head, "title")
-    title.text = song.title
-    et = etree.ElementTree(root_html)
-    for s in song_suffix:
-       body.append(interpret(copy.deepcopy(s), substitions))
+        _add_blocks(song, root_html)
+        title = etree.SubElement(head, "title")
+        title.text = song.title
+        et = etree.ElementTree(root_html)
+        for s in song_suffix:
+           body.append(interpret(copy.deepcopy(s), substitions))
 
-    et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
+        et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
 
-    replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', '').replace(" </span>", "<span class='ws'>_</span></span>").replace('<span class="content-i"> ', '<span class="content-i"><span class="ws">_</span>'))
-
-def replace_in_file(sourceFile, targetFile, f):
-    with open(sourceFile, 'r') as file:
-        filedata = file.read()
-
-    # Replace the target string
-    filedata = f(filedata)
-
-    # Write the file out again
-    with open(targetFile, 'w') as file:
-        file.write(filedata)
-
-def create_list_of_songs(song_set):
-    """ Dostaje jako argument listę piosenek lub ścieżkę do katalogu i zwraca listę piosenek """
-    if str(type(song_set)) == "<class 'list'>":
-        for i in range(len(song_set)):
-            if song_set[i][-4:] == '.xml':
-                song_set[i] = song_set[i][0:-4]
-        return song_set
-    else:
-        songs_list = os.listdir(song_set)
-        for i in range(len(songs_list)):
-            if songs_list[i][-4:] == '.xml':
-                songs_list[i] = songs_list[i][0:-4]
-        return songs_list
-
-
-def create_all_songs_html_from_dir(path_in, path_out, song_suffix=[]):
-    """Tworzy wszystkie piosenki z listy w formacie html w katalogu path_out"""
-
-    return create_all_songs_html( create_list_of_songs(path_in), path_out, song_suffix)
-
-def create_all_songs_html(list_of_songs, path_out, song_suffix=[], song_prefix=[], song_head=[], substitions={}):
-    """Tworzy wszystkie piosenki z listy w formacie html w katalogu path_out"""
-
-    if not os.path.exists(path_out):
-        os.mkdir(path_out)
-
-    for song in list_of_songs:
-        if not song.is_alias():
-            relative_path = os.path.relpath(song.plik(), start=os.path.join(os.path.dirname(__file__), "../../songs"))
-            xml2html(song.plik(), os.path.join(path_out,  song.base_file_name() + '.xhtml'), song_suffix=song_suffix, song_prefix=song_prefix, song_head=song_head, substitions=substitions | {"{{SRC}}": relative_path, "{{BASE_FILENAME}}": song.base_file_name()})
+        self.replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', '').replace(" </span>", "<span class='ws'>_</span></span>").replace('<span class="content-i"> ', '<span class="content-i"><span class="ws">_</span>'))

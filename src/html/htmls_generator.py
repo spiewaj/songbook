@@ -1,8 +1,8 @@
 import os
 import shutil
-
-import src.html.create_songs_html as cash
 import sys
+from src.html.create_songs_html import StandardHtmlConverter
+from src.html.song_utils import create_all_songs_html
 import src.lib.songbook as sb
 from lxml import etree
 
@@ -34,7 +34,14 @@ def main():
     _song_head = load_template('_song_head.xhtml')
     _song_suffix = load_template('_song_suffix.xhtml')
     
-    cash.create_all_songs_html(songbook.list_of_songs(), path_songs_html, song_prefix=_song_prefix, song_suffix=_song_suffix, song_head=_song_head)
+    converter = StandardHtmlConverter()
+    create_all_songs_html(converter,
+                         songbook.list_of_songs(), 
+                         path_songs_html, 
+                         song_prefix=_song_prefix, 
+                         song_suffix=_song_suffix, 
+                         song_head=_song_head)
+
     path_css = os.path.join(path_songs_html, "CSS")
     os.mkdir(path_css)
 
