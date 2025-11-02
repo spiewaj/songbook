@@ -1,50 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Barka">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <text_author type="solo">ks. Stanisław Szmidt (org. Cesáreo Gabaráin﻿)</text_author>
+  <composer type="solo">Cesáreo Gabaráin</composer>
+  <translator>ks. Stanisław Szmidt</translator>
+  <original_title>Pescador de hombres</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Pan kiedyś stanął nad brzegiem<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false"><ch a="F"/>Szukał ludzi gotowych pójść za nim<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>By łowić serca słów Bożych prawdą<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+      <row important_over="false">1.<ch a="D"/> Pan<ch a="A7"/> kiedyś stanął nad <ch a="D"/>brzegiem<ch a="D7"/>, </row>
+      <row important_over="false">Szukał <ch a="G"/>ludzi<ch a="e"/> gotowych pójść <ch a="A"/>za Nim<ch a="A7"/>, </row>
+      <row important_over="false">By łowić <ch a="D"/>serca<ch a="A7"/> słów Bożych <ch a="D"/>Prawdą<ch a="D7"/>. </row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">O <ch a="G"/>Panie<ch a="A"/>, to Ty na mnie spoj<ch a="D"/>rzałeś<ch a="h"/>,</row>
+      <row important_over="false">Twoje <ch a="e"/>usta<ch a="A7"/> dziś wyrzekły me <ch a="D"/>imię<ch a="D7"/>. </row>
+      <row important_over="false">Swoją <ch a="G"/>barkę<ch a="A"/> pozostawiam na <ch a="D"/>brzegu<ch a="h"/>,</row>
+      <row important_over="false">Razem <ch a="e"/>z Tobą<ch a="A7"/> nowy zacznę dziś <ch a="D"/>łów.</row>
     </block>
     <block type="verse">
-      <bis>
-        <row important_over="false"><ch a="F"/>O Panie to ty na mnie spojrzałeś<ch a="C"/></row>
-        <row important_over="false"><ch a="G"/>Twoje usta dziś wyrzekły me imię<ch a="C"/><ch a="C7"/></row>
-        <row important_over="false"><ch a="F"/>Swoją barkę pozostawiam na brzegu<ch a="C"/></row>
-        <row important_over="false"><ch a="G"/>Razem z Tobą nowy zacznę dziś łów<ch a="C"/><ch a="C7"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/>Jestem ubogim człowiekiem<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false"><ch a="F"/>Moim skarbem są ręce gotowe<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Do pracy z Tobą i czyste serce<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+      <row important_over="false">2. <ch a="D"/>Jestem<ch a="A7"/> ubogim czło<ch a="D"/>wiekiem<ch a="D7"/>, </row>
+      <row important_over="false">Moim <ch a="G"/>skarbem<ch a="e"/> są ręce <ch a="A"/>gotowe<ch a="A7"/></row>
+      <row important_over="false">Do pracy <ch a="D"/>z Tobą<ch a="A7"/> i czyste <ch a="D"/>serce<ch a="D7"/>. </row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Ty potrzebujesz moich dłoni<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false"><ch a="F"/>Mego serca młodego zapałem<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Mych kropli potu i samotności<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+      <row important_over="false">3.<ch a="D"/> Ty<ch a="A7"/> potrzebujesz mych <ch a="D"/>dłoni<ch a="D7"/>, </row>
+      <row important_over="false">Mego <ch a="G"/>serca<ch a="e"/> młodego za<ch a="A"/>pałem<ch a="A7"/>, </row>
+      <row important_over="false">Mych kropli <ch a="D"/>potu<ch a="A7"/> i samo<ch a="D"/>tności<ch a="D7"/>. </row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Dziś wyjedziemy już razem<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false"><ch a="F"/>Łowić serca na morzach dusz ludzkich<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Twej prawdy siecią i słowem życia<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+      <row important_over="false">4.<ch a="D"/> Dziś<ch a="A7"/> wypłyniemy już <ch a="D"/>razem<ch a="D7"/>, </row>
+      <row important_over="false">Łowić <ch a="G"/>serca<ch a="e"/> na morzach dusz <ch a="A"/>ludzkich<ch a="A7"/>, </row>
+      <row important_over="false">Twej prawdy <ch a="D"/>siecią<ch a="A7"/> i słowem <ch a="D"/>życia<ch a="D7"/>. </row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
+  <keywords/>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
