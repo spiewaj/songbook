@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Barka">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Pan kiedyś stanął nad brzegiem<ch a="G"/><ch a="C"/><ch a="C7"/></row>
@@ -14,7 +7,7 @@
       <row important_over="false"><ch a="C"/>By łowić serca słów Bożych prawdą<ch a="G"/><ch a="C"/><ch a="C7"/></row>
     </block>
     <block type="verse">
-      <bis>
+      <bis times="2">
         <row important_over="false"><ch a="F"/>O Panie to ty na mnie spojrzałeś<ch a="C"/></row>
         <row important_over="false"><ch a="G"/>Twoje usta dziś wyrzekły me imię<ch a="C"/><ch a="C7"/></row>
         <row important_over="false"><ch a="F"/>Swoją barkę pozostawiam na brzegu<ch a="C"/></row>
@@ -40,11 +33,12 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music>
     <guitar barre="0"/>
   </music>
+  <keywords/>
   <status>
+    <done/>
     <verificators/>
-    <to_do/>
   </status>
 </song>
