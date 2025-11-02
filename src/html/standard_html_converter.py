@@ -41,7 +41,7 @@ class StandardHtmlConverter(SongConverter):
 
     def _add_lyric(self, row, parent):
         """Add line grouping chunks by position"""
-        div_line = etree.SubElement(parent, "div", attrib={"class": "line"})
+        div_line = etree.SubElement(parent, "div", attrib={"class": "lyric"})
  
         i = 0
         chunks = row.chunks
@@ -56,12 +56,36 @@ class StandardHtmlConverter(SongConverter):
              self._add_chunk_group(group, div_line, len(div_line))
 
     def _add_chords(self, row, parent, class_name):
-        """Add side chords if present"""
+        """class chords -> html span ch"""
+        span_chords = etree.SubElement(parent, "span", attrib={"class": class_name})
         if row.sidechords:
-            div_sidechords = etree.SubElement(parent, "div", attrib={"class": "sidechords"})
             for chunk in row.sidechords.split(" "):
-                span_ch = etree.SubElement(div_sidechords, "span", attrib={"class": "chord"})
+                span_ch = etree.SubElement(span_chords, "span", attrib={"class": "ch"})
                 span_ch.text = chunk
+        else:
+            for chunk in row.chunks:
+                if len(chunk.chord) > 0:
+                    span_ch = etree.SubElement(span_chords, "span", attrib={"class": "ch"})
+                    span_ch.text = chunk.chord
+
+    def _add_instrumental_row(self, row, parent):
+        """class row instrumental-> html div row with content"""
+        div_row = etree.SubElement(parent, "div", attrib={"class": "row"})
+        if str(type(row.bis)) == "<class \'bool\'>" and row.bis is True:
+            self._add_chords(row, div_row, "chords_ins")
+            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
+            span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
+            span_bis.text = u'\u00a0'
+        elif str(type(row.bis)) == "<class \'int\'>":
+            self._add_chords(row, div_row, "chords_ins")
+            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
+            span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
+            span_bis.text = 'x' + str(row.bis)
+        else:
+            self._add_chords(row, div_row, "chords_ins")
+            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
+            span_unbis = etree.SubElement(div_row, "span", attrib={"class": "bis_inactive"})
+            span_unbis.text = u'\u00a0'
 
     def _add_row(self, row, parent):
         """class row -> html div row with content"""
@@ -83,27 +107,8 @@ class StandardHtmlConverter(SongConverter):
             span_unbis = etree.SubElement(div_row, "span", attrib={"class": "bis_inactive"})
             span_unbis.text =u'\u00a0'
 
-    def _add_instrumental_row(self, row, parent):
-        """class row instrumental-> html div row with content"""
-        div_row = etree.SubElement(parent, "div", attrib={"class": "row"})
-        if str(type(row.bis)) == "<class \'bool\'>" and row.bis is True:
-            self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
-            span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
-            span_bis.text = u'\u00a0'
-        elif str(type(row.bis)) == "<class \'int\'>":
-            self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
-            span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
-            span_bis.text = 'x' + str(row.bis)
-        else:
-            self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
-            span_unbis = etree.SubElement(div_row, "span", attrib={"class": "bis_inactive"})
-            span_unbis.text = u'\u00a0'
-
     def _add_block(self, block, parent, block_type, verse_cnt):
-        """class verse -> html div verse/chorus/other with content"""
+        """Add verse with grid layout structure"""
         div_verse = etree.SubElement(parent, "div", attrib={"class": block_type})
 
         for ro in block.rows:
@@ -111,7 +116,6 @@ class StandardHtmlConverter(SongConverter):
                 self._add_instrumental_row(ro, div_verse)
             else:
                 self._add_row(ro, div_verse)
-
 
     def _add_creator(self, creator, describe, parent):
         """class creator -> html div creator # metadane piosenki"""

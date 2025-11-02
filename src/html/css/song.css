@@ -1,11 +1,11 @@
 @import url('song_common.css');
 
-.line {
-   vertical-align: top; 
+.lyric {
+   display: block;
+   color: green;
 }
 
 .chord-stack {
-   /* position: relative;*/
     width: 0px;
     bottom: 100%;
     height: 2em;
@@ -34,4 +34,29 @@
 
 .sidechords .chord {
     margin-left: 0.5em;
+}
+
+.verse {
+    display: grid;
+    grid-template-columns: auto 1fr auto;  /* chords | lyric | bis */
+    gap: 0.5em;
+    margin: 1em 0;
+}
+
+.chords {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    color: #2c5aa0;
+    font-weight: bold;
+}
+
+.bis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bis_inactive {
+    visibility: hidden;
 }
