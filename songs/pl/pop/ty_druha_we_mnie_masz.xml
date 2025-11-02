@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ty druha we mnie masz">
+  <text_author type="solo">Randy Newman</text_author>
+  <composer type="solo">Randy Newman</composer>
+  <artist type="band">Toy Story (Tom Hanks)</artist>
+  <translator>Filip Łobodziński</translator>
+  <original_title>You&#039;ve Got a Friend in Me</original_title>
+  <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="E"/><ch a="a"/><ch a="F7"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="C"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="true"><ch a="F"/>Ty druha we mnie <ch a="C"/>masz</row>
+      <row important_over="true"><ch a="F"/> Kiedy <ch a="C"/>szukasz,<ch a="E"/> gdzie twój <ch a="a"/>kąt</row>
+      <row important_over="true">a przy<ch a="F"/>tulny <ch a="C"/>dom jest <ch a="E"/>wiele mil s<ch a="a"/>tąd</row>
+      <row important_over="true"><ch a="F"/> Nie za<ch a="C"/>pomnij, bo po<ch a="E"/>pełnisz <ch a="a"/>błąd,</row>
+      <row important_over="true">że <ch a="D7"/>Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="true"><ch a="A"/>Tak, <ch a="D7"/> ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="C"/><ch a="E"/><ch a="a"/><ch a="F7"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="false"><ch a="F"/> Ty druha we mnie <ch a="C"/>masz</row>
+      <row important_over="false"><ch a="F"/> Kiedy masz<ch a="C"/> kłopot - <ch a="E"/> diabeł z <ch a="a"/>nim</row>
+      <row important_over="false">Po<ch a="F"/>mocy t<ch a="C"/>rzeba Ci - <ch a="E"/>wal jak w <ch a="a"/>dym</row>
+      <row important_over="false"><ch a="F"/> Razem trzy<ch a="C"/>majmy się - prze<ch a="E"/>konasz <ch a="a"/>się,</row>
+      <row important_over="false">że <ch a="D7"/>Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="false"><ch a="A"/>Tak, <ch a="D7"/> ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+    </block>
+    <block type="verse">
+      <row important_over="true"><ch a="F"/> Niektórym wydaje się, <ch a="H"/>że są dużo <ch a="C"/>lepsi, sil<ch a="H"/>niejsi i<ch a="C"/>tede (może)</row>
+      <row important_over="true"><ch a="H"/> Lecz żaden z nich na <ch a="H"/>pewno nie ma pojęcia, że <ch a="e"/>ja<ch a="G"/><ch a="d"/>kocham <ch a="G"/>cię, wiesz</row>
+      <row important_over="true"><ch a="C"/> Z biegiem <ch a="G"/>zim i <ch a="C"/>lat ta <ch a="F"/>przyjaźń bez przerwy tr<ch a="C"/>wa</row>
+      <row important_over="true"><ch a="F"/> Gdzie Ja tam <ch a="C"/>Ty, w <ch a="E"/>złe i dobre <ch a="a"/>dni</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <bis times="2">
+        <row important_over="false"><ch a="A"/><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"> <ch a="E"/><ch a="a"/><ch a="F7"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <music>
+    <guitar barre="3"/>
+  </music>
+  <keywords/>
+  <genre>Filmowa</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
