@@ -1,4 +1,4 @@
-# Tworzy piosenki w xhtml
+# Standard HTML song converter
 import os
 import copy
 from lxml import etree
@@ -9,47 +9,51 @@ from .html_converter_utils import interpret, replace_in_file
 
 
 class StandardHtmlConverter(SongConverter):
-    def _get_line_text(self, row):
-        """Helper to get clean text without chords"""
-        return ''.join(chunk.content if chunk.content else ' ' for chunk in row.chunks)
+    def _add_chunk_group(self, chunks, parent, position):
+        """Add a group of chunks that share the same position in text"""
+        # Debug comment showing chunk group content
+        parent.append(etree.Comment(', '.join(str(c).replace(u'-', '_') for c in chunks)))
 
-    def _add_chunk(self, chunk, parent, position):
-        """Add chord and text with accessibility attributes"""
-        if chunk.chord:
-            span_ch = etree.SubElement(parent, "span", attrib={
-                "class": "chord",
-                "role": "note",
-                "aria-label": f"chord {chunk.chord}",
-                # Optional: hide from indexing/screen readers
-                # "aria-hidden": "true",
-                "data-chord": chunk.chord  # Preserve chord info for scripts
-            })
-            span_ch.text = chunk.chord
-
-        # Add text directly to parent with aria role
-        text_content = chunk.content if chunk.content else ' '
-        if position == 0 and not chunk.content.startswith(' '):
-            text_content = ' ' + text_content
-            
-        if parent.text is None:
-            parent.text = text_content
+        # Callect all chords and create chord stack
+        chords = [c.chord for c in chunks if c.chord]
+        # concatenate all content
+        content = ''
+        for c in chunks:
+            if c.content:
+                content += c.content
+        if chords:  # If there are any chords
+            span_stack = etree.SubElement(parent, "span", attrib={"class": "chord-stack"})
+            for chord in chords:
+                span_ch = etree.SubElement(span_stack, "span", attrib={
+                    "class": "chord",
+                    "role": "note",
+                    "aria-label": f"chord {chord}"
+                })
+                span_ch.text = chord
+            span_stack.tail = content if content else ''
         else:
+            # if there is previous element, append to tail
             last_child = parent[-1] if len(parent) > 0 else None
             if last_child is not None:
-                last_child.tail = text_content
+                last_child.tail = (last_child.tail or '') + content 
             else:
-                parent.text = parent.text + text_content
+                parent.text = (parent.text or '') + content
 
     def _add_lyric(self, row, parent):
-        """Add line with accessibility role and title"""
-        div_line = etree.SubElement(parent, "div", attrib={
-            "class": "line",
-            "role": "text",
-            "aria-label": "lyrics line",
-            "title": self._get_line_text(row)
-        })
-        for i, chunk in enumerate(row.chunks):
-            self._add_chunk(chunk, div_line, i)
+        """Add line grouping chunks by position"""
+        div_line = etree.SubElement(parent, "div", attrib={"class": "line"})
+ 
+        i = 0
+        chunks = row.chunks
+        while i < len(chunks):
+             group = []
+             while i < len(chunks) and not chunks[i].content:
+                    group.append(chunks[i])
+                    i += 1
+             if i < len(chunks):
+                group.append(chunks[i])
+                i += 1
+             self._add_chunk_group(group, div_line, len(div_line))
 
     def _add_chords(self, row, parent, class_name):
         """Add side chords if present"""

@@ -1,25 +1,26 @@
 @import url('song_common.css');
 
 .line {
-    position: relative;
-    margin: 1.5em 0 0.5em 0;
-    line-height: 1.3;
-    white-space: pre-wrap;
+   vertical-align: top; 
 }
 
-/* .chord-wrapper {
-
-} */
+.chord-stack {
+   /* position: relative;*/
+    width: 0px;
+    bottom: 100%;
+    height: 2em;
+    top: -2ex;
+    display: inline-block;
+    vertical-align: bottom;
+}
 
 .chord {
     color: #2c5aa0;
     font-weight: bold;
-    position: absolute;
-    bottom: 100%;
     white-space: nowrap;
-    height: 1.4em;
-    /* Add aria role hint for indexers/screen readers */
-    aria-label: "chord";
+    padding-left: 0px;
+    padding-right: 0.2em;
+    font-size: small;
 }
 
 .chord[aria-hidden="true"] {
