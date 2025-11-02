@@ -22,10 +22,10 @@ class StandardHtmlConverter(SongConverter):
             if c.content:
                 content += c.content
         if chords:  # If there are any chords
-            span_stack = etree.SubElement(parent, "span", attrib={"class": "chord-stack"})
+            span_stack = etree.SubElement(parent, "span", attrib={"class": "ch-stack"})
             for chord in chords:
                 span_ch = etree.SubElement(span_stack, "span", attrib={
-                    "class": "chord",
+                    "class": "ch",
                     "role": "note",
                     "aria-label": f"chord {chord}"
                 })
@@ -39,21 +39,28 @@ class StandardHtmlConverter(SongConverter):
             else:
                 parent.text = (parent.text or '') + content
 
-    def _add_lyric(self, row, parent):
+    def _add_lyric(self, row, parent, chords_over_bool):
         """Add line grouping chunks by position"""
         div_line = etree.SubElement(parent, "div", attrib={"class": "lyric"})
- 
-        i = 0
-        chunks = row.chunks
-        while i < len(chunks):
-             group = []
-             while i < len(chunks) and not chunks[i].content:
+
+        if chords_over_bool:
+            i = 0
+            chunks = row.chunks
+            while i < len(chunks):
+                group = []
+                while i < len(chunks) and not chunks[i].content:
+                        group.append(chunks[i])
+                        i += 1
+                if i < len(chunks):
                     group.append(chunks[i])
                     i += 1
-             if i < len(chunks):
-                group.append(chunks[i])
-                i += 1
-             self._add_chunk_group(group, div_line, len(div_line))
+                self._add_chunk_group(group, div_line, len(div_line))
+        else:
+            t = ''
+            for chunk in row.chunks:
+                t += chunk.content
+            div_line.text = t
+
 
     def _add_chords(self, row, parent, class_name):
         """class chords -> html span ch"""
@@ -73,30 +80,25 @@ class StandardHtmlConverter(SongConverter):
         div_row = etree.SubElement(parent, "div", attrib={"class": "row"})
         if str(type(row.bis)) == "<class \'bool\'>" and row.bis is True:
             self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
             span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
             span_bis.text = u'\u00a0'
         elif str(type(row.bis)) == "<class \'int\'>":
             self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
             span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
             span_bis.text = 'x' + str(row.bis)
         else:
             self._add_chords(row, div_row, "chords_ins")
-            _ = etree.SubElement(div_row, "span", attrib={"class": "lyric"})
             span_unbis = etree.SubElement(div_row, "span", attrib={"class": "bis_inactive"})
             span_unbis.text = u'\u00a0'
 
     def _add_row(self, row, parent):
         """class row -> html div row with content"""
-        if (row.new_chords == 0) or (row.new_chords is False):
-            chords_over = "over_false"
-        else:
-            chords_over = "over_true"
+        chords_over_bool = not ((row.new_chords == 0) or (row.new_chords is False))
+        chords_over = "over_true" if chords_over_bool else "over_false"
         div_row = etree.SubElement(parent, "div", attrib={"class": "row " + chords_over})
         div_row.text = u'\u200d' # Not visible spaces -> forces the row to be generated as a single line. We remove it in post-processing.
         self._add_chords(row, div_row, "chords")
-        self._add_lyric(row, div_row)
+        self._add_lyric(row, div_row, chords_over_bool)
         if str(type(row.bis)) == "<class \'bool\'>" and row.bis is True:
             span_bis = etree.SubElement(div_row, "span", attrib={"class": "bis_active"})
             span_bis.text =  u'\u00a0'
@@ -212,4 +214,4 @@ class StandardHtmlConverter(SongConverter):
 
         et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
 
-        replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', '').replace(" </span>", "<span class='ws'>_</span></span>").replace('<span class="content-i"> ', '<span class="content-i"><span class="ws">_</span>'))
+        replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', ''))
