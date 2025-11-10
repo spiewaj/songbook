@@ -1,1 +1,141 @@
-@import url('song_common.css');
+.lyric {
+   display: block;
+   white-space: normal;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   word-break: break-word;
+}
+
+.ch-stack {
+    width: 0px;
+    bottom: 100%;
+    height: 2em;
+    top: -2ex;
+    display: inline-block;
+    vertical-align: bottom;
+    word-break: keep-all;
+    overflow-wrap: normal;
+}
+
+div.lyric span.ch {
+    font-weight: bolder;
+    white-space: nowrap;
+    padding-left: 0px;
+    padding-right: 0.3em;
+    font-size: x-small;
+}
+
+div.lyric span.ch[aria-hidden="true"] {
+    display: none;
+}
+
+.sidechords {
+    float: right;
+    margin-left: 1em;
+}
+
+.sidechords .chord {
+    margin-left: 0.5em;
+}
+
+.chords, .chords_ins {
+    display: inline-flex;
+    font-weight: bold;
+}
+
+.bis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bis_inactive {
+    visibility: hidden;
+}
+
+div.block_spacer {
+  margin-top: 4ex;
+}
+
+div.row {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+div.row:last-of-type {
+  page-break-after: auto;
+}
+
+/* TODO: Check instrumental row behavior */
+
+div.over_false span.lyric span.ch {
+  display: none;
+}
+
+
+div.comment {
+  margin-top: 1.5em;
+  font-style: italic;
+  white-space: pre-wrap;
+  font-size: smaller;
+}
+
+.chords span.ch, .chords_ins span.ch {
+  padding-right: 0.3em;
+}
+
+
+/** Grid layout for verse, chorus, other */
+ 
+.verse, .chorus, .other {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+}
+
+.row {
+    /*As verse is a grid layout, we use display: contents to allow the grid layout to apply to the children of the row*/
+    display: contents;
+}
+
+.chords {
+    grid-column: 1;
+    align-items: end;
+    padding-right: 2em;
+}
+
+.chords_ins {
+    grid-column: 1 / span 2;
+    align-items: end;
+    padding-right: 2em;
+}
+
+.lyric {
+    grid-column: 2;
+}
+
+.bis, .bis_inactive, .bis_active {
+    grid-column: 3;
+}
+
+/** Intendation of verses */
+
+.verse {
+  padding-left: 1.5em;
+}
+
+.chorus {
+  padding-left: 3em;
+}
+
+.other {
+  padding-left: 1.5em;
+}
+
+/* Bis support */
+
+.bis_active {
+  border-left: solid;
+  margin-left: 1em;
+  padding-left: 0.3em;
+  text-align: right;
+}

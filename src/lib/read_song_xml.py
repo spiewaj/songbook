@@ -11,6 +11,9 @@ class RowChunk:  # obsługuje akordy
         else:
             self.content = content.strip('\t\n')
 
+    def __str__(self):
+        return f"[chord='{self.chord}' content='{self.content}']"
+
 
 class RowType(Enum):
     FIRST = 'F'

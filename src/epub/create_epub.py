@@ -8,7 +8,10 @@ import shutil
 from zipfile import ZipFile
 from datetime import datetime
 
-import src.html.create_songs_html as cash
+from src.html.kindle_html_converter import KindleHtmlConverter
+from src.html import html_converter_utils as converter_utils
+from src.html import song_utils
+
 import src.lib.songbook as sb
 import src.lib.any_index_generator as aig
 import src.lib.img2cover.img2cover as img2cover
@@ -25,7 +28,7 @@ NO_NAV_LIMIT = 19
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
 
-CSS_FILES = ["song.css", "common.css", "song_common.css", "index.css"]
+CSS_FILES = ["song_kindle.css", "common.css", "song_common.css", "index.css"]
 
 def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], post_files=[]):
     tmp_path =os.path.join(sb.repo_dir(), "src", "epub", "templates", "content.opf")
@@ -220,11 +223,11 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
 
     et = etree.ElementTree(root)
     et.write(out_path, pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
-    cash.replace_in_file(out_path, out_path, lambda s: s.replace("</li><li>","</li>\n\t\t<li>").replace("><ol>",">\n<ol>"))
+    converter_utils.replace_in_file(out_path, out_path, lambda s: s.replace("</li><li>","</li>\n\t\t<li>").replace("><ol>",">\n<ol>"))
     return files
 
 def resolveTemplate(songbook, from_file, to_file):
-    return  cash.replace_in_file(from_file, to_file,
+    return  converter_utils.replace_in_file(from_file, to_file,
         lambda s: (s.replace(":date:", actual_date())
                     .replace(":datetime:", actual_datetime())
                     .replace(":title:", songbook.title())
@@ -290,7 +293,8 @@ def create_full_epub(songbook,  target_dir):
 
     create_template_epub(songbook, target_dir)
     path_out = os.path.join(target_dir, "epub", "OEBPS")
-    cash.create_all_songs_html(los, path_out,  list([suffix]))
+    converter = KindleHtmlConverter()
+    song_utils.create_all_songs_html(converter, los, path_out,  list([suffix]))
     files = []
     files.extend(create_toc_xhtml(los, target_dir, page_suffix = suffix))
 

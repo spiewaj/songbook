@@ -1,0 +1,162 @@
+@import url('common.css');
+
+body {
+  font-family: sans-serif;
+}
+
+div.song_body {
+  width: max-content;
+  display: table;
+}
+
+/* Per block settings - Chorus, Verses, Instrumental */
+
+div.verse, div.chorus, div.other {
+  display: contents;
+}
+
+div.chorus div.row span.lyric {
+  padding-left: 3ex;
+}
+
+div.block_spacer {
+  display: table-row;
+  empty-cells: show;
+  height: 2.5ex;
+}
+
+/* Per row settings*/
+
+div.row {
+  display: table-row;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+div.row:last-of-type {
+  page-break-after: auto;
+}
+
+/* Lyrics */
+
+span.block_id, span.lyric, span.chords, span.bis_inactive, span.bis_active, span.chords_ins {
+  display: table-cell;
+}
+
+span.block_id {
+  padding-top: 1ex;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+/*  margin-right: 0.5em;*/
+/*}*/
+
+/* As there is no call-span in CSS we allow the instrumental row to overflow */
+span.chords_ins {
+  max-width: 5em;
+  padding-left: 1em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Chords above the text */
+
+span.lyric span.chunk {
+  display: inline-table;
+  /*border: 1px solid green;*/
+  vertical-align: bottom;
+}
+
+span.lyric span.chord {
+  display: table-row;
+  /*border: 1px solid orange;*/
+  max-height: 0;
+}
+
+span.lyric span.chord span.ch{
+  display: table-cell;
+}
+
+span.lyric span.content {
+  display: table-row;
+  /*border: 1px solid red;*/
+  /*overflow-wrap: normal;*/
+  /*white-space: nowrap;*/
+  /*hyphens: none;*/
+}
+
+span.lyric span.content-i {
+  display: table-cell;
+  /*border: 1px solid red;*/
+  white-space: pre-line;
+  overflow-wrap: normal;
+  /*white-space: nowrap;*/
+  /*empty-cells: show;*/
+  hyphens: none;
+  height: 2.2ex;
+}
+
+span.ws {
+  display: inline-block;
+  width: 0.5ex;
+  opacity: 0;
+}
+
+div.over_false span.lyric span.ch {
+  display: none;
+}
+
+/*!* Generic styling*!*/
+
+h1 {
+  text-align: left;
+}
+
+span.lyric span.ch {
+  font-family: sans-serif;
+  font-size: xx-small;
+  font-weight: bolder;
+}
+
+span.ch {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+span.chords span.ch {
+  padding-right: 0.3em;
+}
+
+span.chords {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 10em;
+  overflow-wrap: break-word;
+
+  /* not sure if needed... commenting for now*/
+  /*  overflow-wrap: break-word;*/
+  /*  hyphens: none;*/
+  /*  white-space: nowrap;*/
+}
+
+div.row > span.bis_inactive {
+  padding-right: 0.4em;
+  empty-cells: show;
+  width: 2em;
+}
+
+div.row > span.bis_active {
+  padding-left: 0.4em;
+  padding-right: 0.3em;
+  border-right: solid;
+  empty-cells: show;
+  text-align: right;
+  width: 2em; /* fixed length makes it more likely on kindle to finish at the same place */
+}
+
+div.comment {
+  margin-top: 1.5em;
+  font-style: italic;
+  white-space: pre-wrap;
+  font-size: 0.7em;
+}
