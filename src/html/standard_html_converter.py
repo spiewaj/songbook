@@ -12,7 +12,7 @@ class StandardHtmlConverter(SongConverter):
     def _add_chunk_group(self, chunks, parent, position):
         """Add a group of chunks that share the same position in text"""
         # Debug comment showing chunk group content
-        parent.append(etree.Comment(', '.join(str(c).replace(u'-', '_') for c in chunks)))
+        # parent.append(etree.Comment(', '.join(str(c).replace(u'-', '_') for c in chunks)))
 
         # Callect all chords and create chord stack
         chords = [c.chord for c in chunks if c.chord]
