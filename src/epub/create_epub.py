@@ -28,7 +28,7 @@ NO_NAV_LIMIT = 19
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
 
-CSS_FILES = ["song.css", "common.css", "song_common.css", "index.css"]
+CSS_FILES = ["song_kindle.css", "common.css", "song_common.css", "index.css"]
 
 def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], post_files=[]):
     tmp_path =os.path.join(sb.repo_dir(), "src", "epub", "templates", "content.opf")
