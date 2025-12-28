@@ -181,37 +181,110 @@ class StandardHtmlConverter(SongConverter):
             span_content.text = song.comment
 
 
-    def xml2html(self, src_xml_path, path_out, song_suffix=None, song_prefix=None, song_head=None, substitions={}):
-        xhtml_namespace = "http://www.w3.org/1999/xhtml"
-        epub_namespace = "http://www.idpf.org/2007/ops"
-        xhtml = "{%s}" % xhtml_namespace
-        nsmap = {None: xhtml_namespace,
-                 "epub": epub_namespace}
+    def _detect_language(self, song, src_xml_path):
+        """Detect language from song metadata or XML file, returning (lang, lang_code) tuple"""
+        lang = "pl-PL"
+        lang_code = "pl"
+        
+        # Check multiple possible attribute names for language
+        song_lang = None
+        for attr in ['lang', 'language', 'xml_lang']:
+            if hasattr(song, attr) and getattr(song, attr):
+                song_lang = getattr(song, attr)
+                break
+        
+        # If still no lang found, try to read directly from XML file
+        if not song_lang:
+            try:
+                from lxml import etree as xml_etree
+                xml_tree = xml_etree.parse(src_xml_path)
+                xml_root = xml_tree.getroot()
+                song_lang = xml_root.get('lang') or xml_root.get('{http://www.w3.org/XML/1998/namespace}lang')
+            except:
+                pass
+        
+        if song_lang:
+            # Map language codes
+            lang_map = {
+                'pl': ('pl-PL', 'pl'),
+                'en': ('en-US', 'en'),
+                'de': ('de-DE', 'de'),
+                'fr': ('fr-FR', 'fr'),
+                'es': ('es-ES', 'es'),
+                'it': ('it-IT', 'it')
+            }
+            mapped = lang_map.get(song_lang.lower(), None)
+            if mapped:
+                lang, lang_code = mapped
+            else:
+                lang_code = song_lang.lower()
+                lang = f"{lang_code}-{lang_code.upper()}"
+        
+        return lang, lang_code
 
+    def xml2html(self, src_xml_path, path_out, song_suffix=None, song_prefix=None, song_head=None, substitions={}):
         song = rsx.parse_song_xml(src_xml_path)
-        root_html = etree.Element(xhtml + "html", nsmap=nsmap)
-        root_html.attrib[etree.QName("lang")] = "pl-PL"
+        
+        # Determine language from song metadata or default to Polish
+        lang, lang_code = self._detect_language(song, src_xml_path)
+        
+        root_html = etree.Element("html")
+        root_html.attrib["lang"] = lang
         head = etree.SubElement(root_html, "head")
+        etree.SubElement(head, "meta", attrib={"charset": "utf-8"})
+        etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
+        
+        # SEO meta tags
+        title_text = song.title
+        if song.artist:
+            title_text = f"{song.title} - {song.artist}"
+        
+        # Localized description text
+        desc_text = "Tekst i chwyty piosenki" if lang_code == 'pl' else "Lyrics and chords for"
+        etree.SubElement(head, "meta", attrib={"name": "description", "content": f"{desc_text} {title_text}"})
+        etree.SubElement(head, "meta", attrib={"property": "og:title", "content": title_text})
+        etree.SubElement(head, "meta", attrib={"property": "og:type", "content": "music.song"})
+        
+        if song.artist:
+            etree.SubElement(head, "meta", attrib={"name": "author", "content": song.artist})
+        
+        # JSON-LD structured data for rich snippets
+        script_ld = etree.SubElement(head, "script", attrib={"type": "application/ld+json"})
+        ld_json = {
+            "@context": "https://schema.org",
+            "@type": "MusicComposition",
+            "name": song.title,
+            "inLanguage": lang_code
+        }
+        if song.composer:
+            ld_json["composer"] = {"@type": "Person", "name": song.composer}
+        if song.text_author:
+            ld_json["lyricist"] = {"@type": "Person", "name": song.text_author}
+        if song.artist:
+            ld_json["author"] = {"@type": "Person", "name": song.artist}
+        
+        import json
+        script_ld.text = json.dumps(ld_json, ensure_ascii=False, indent=2)
+        
         etree.SubElement(head, "link",
                          attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
         etree.SubElement(head, "link",
                          attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song.css", "media": "all"})
-        etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
         
         for s in song_head:
            head.append(interpret(copy.deepcopy(s), substitions))
 
-        body = etree.SubElement(root_html, "body", attrib={"class": "song", etree.QName("http://www.idpf.org/2007/ops", "type"):"bodymatter"})
+        body = etree.SubElement(root_html, "body", attrib={"class": "song"})
         for s in song_prefix:
            body.append(interpret(copy.deepcopy(s), substitions))
 
         self._add_blocks(song, root_html)
         title = etree.SubElement(head, "title")
-        title.text = song.title
+        title.text = title_text
         et = etree.ElementTree(root_html)
         for s in song_suffix:
            body.append(interpret(copy.deepcopy(s), substitions))
 
-        et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
+        et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='html', encoding='utf-8')
 
         replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', ''))

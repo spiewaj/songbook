@@ -7,18 +7,24 @@ import logging
 
 # def name_of_file(song):
 #     return os.path.splitext(os.path.split(song)[1])[0]
-def create_index_xhtml(list_of_songs_meta, target_dir):
-    tmp_path = 'index.xhtml'
+def create_index_html(list_of_songs_meta, target_dir):
+    tmp_path = 'index.html'
     out_path = os.path.join(target_dir, tmp_path)
-    tree = etree.parse(os.path.join(sb.repo_dir(), "./src/html/templates/index.xhtml"))
+    
+    # Try to parse as HTML first, fall back to XHTML if needed
+    template_path = os.path.join(sb.repo_dir(), "./src/html/templates/index.xhtml")
+    parser = etree.HTMLParser()
+    tree = etree.parse(template_path, parser)
 
-    # List of songs
-    ul = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}ul[@id='songs']")
+    # List of songs - try both HTML and XHTML namespaces
+    ul = tree.getroot().find(".//ul[@id='songs']")
+    if ul is None:
+        ul = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}ul[@id='songs']")
     for i in range(len(list_of_songs_meta)):
         song = list_of_songs_meta[i]
         if song.is_alias():
             continue
-        song_html = os.path.join("./songs_html", song.base_file_name() + '.xhtml')
+        song_html = os.path.join("./songs_html", song.base_file_name() + '.html')
         li = etree.SubElement(ul, "li")
         # entire li is clickable and should navigate to the song
         li.attrib['onclick'] = "location.href='"+song_html+"';"
@@ -69,8 +75,10 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
             artist = etree.SubElement(li, "span", attrib={"class": "artist"})
             artist.text = song.artist()
 
-    # List of songbooks
-    ul = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}ul[@id='songbooks']")
+    # List of songbooks - try both HTML and XHTML namespaces
+    ul = tree.getroot().find(".//ul[@id='songbooks']")
+    if ul is None:
+        ul = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}ul[@id='songbooks']")
     for songbook in sb.songbooks():
         if not songbook.hidden():
             li = etree.SubElement(ul, "li", attrib={"id": songbook.id()})
@@ -82,7 +90,7 @@ def create_index_xhtml(list_of_songs_meta, target_dir):
             a_a4pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
             a_a4pdf.text = "PDF (a4)"
     et = etree.ElementTree(tree.getroot())
-    et.write(out_path, pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
+    et.write(out_path, pretty_print=True, method='html', encoding='utf-8')
 
 
 def create_sitemap_xml(list_of_songs_meta, target_dir):
@@ -95,7 +103,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
         # Add HTML version of the song
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
-        loc.text = os.path.join(base, "songs_html", song.base_file_name() + ".xhtml")
+        loc.text = os.path.join(base, "songs_html", song.base_file_name() + ".html")
         lastmod = etree.SubElement(url, "lastmod")
         lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
         changefreq = etree.SubElement(url, "changefreq")
@@ -137,7 +145,7 @@ def main():
 
     logging.info(f"Generating HTML index in {target_dir} from songbook spec {songbook_file}, song count: {len(songbook.list_of_songs())}")
 
-    create_index_xhtml(songbook.list_of_songs(), target_dir)
+    create_index_html(songbook.list_of_songs(), target_dir)
     create_sitemap_xml(songbook.list_of_songs(), target_dir)
 
     index_js_path =os.path.join(target_dir, "index.js")
