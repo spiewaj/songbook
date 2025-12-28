@@ -16,6 +16,43 @@ def create_index_html(list_of_songs_meta, target_dir):
     parser = etree.HTMLParser()
     tree = etree.parse(template_path, parser)
 
+    # Add SEO meta tags to head
+    head = tree.getroot().find(".//head")
+    if head is None:
+        head = tree.getroot().find(".//{http://www.w3.org/1999/xhtml}head")
+    
+    if head is not None:
+        # Add charset and viewport if not present
+        if head.find(".//meta[@charset]") is None:
+            etree.SubElement(head, "meta", attrib={"charset": "utf-8"}, nsmap=None).tail = "\n"
+        
+        # Add meta description
+        desc_meta = etree.SubElement(head, "meta", attrib={
+            "name": "description",
+            "content": "Śpiewnik harcerski - teksty i chwyty piosenek harcerskich, biesiadnych i turystycznych"
+        }, nsmap=None)
+        desc_meta.tail = "\n"
+        
+        # Add Open Graph tags
+        etree.SubElement(head, "meta", attrib={"property": "og:title", "content": "Spiewaj.com - Śpiewnik harcerski"}, nsmap=None).tail = "\n"
+        etree.SubElement(head, "meta", attrib={"property": "og:type", "content": "website"}, nsmap=None).tail = "\n"
+        etree.SubElement(head, "meta", attrib={"property": "og:url", "content": "https://spiewaj.com/"}, nsmap=None).tail = "\n"
+        etree.SubElement(head, "meta", attrib={"property": "og:description", "content": "Śpiewnik harcerski - teksty i chwyty piosenek"}, nsmap=None).tail = "\n"
+        
+        # Add JSON-LD structured data
+        script_ld = etree.SubElement(head, "script", attrib={"type": "application/ld+json"}, nsmap=None)
+        import json
+        ld_json = {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Spiewaj.com",
+            "url": "https://spiewaj.com/",
+            "description": "Śpiewnik harcerski - teksty i chwyty piosenek harcerskich, biesiadnych i turystycznych",
+            "inLanguage": "pl-PL"
+        }
+        script_ld.text = json.dumps(ld_json, ensure_ascii=False, indent=2)
+        script_ld.tail = "\n"
+
     # List of songs - try both HTML and XHTML namespaces
     ul = tree.getroot().find(".//ul[@id='songs']")
     if ul is None:
@@ -89,6 +126,11 @@ def create_index_html(list_of_songs_meta, target_dir):
             a_a5pdf.text = "PDF (a5)"
             a_a4pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
             a_a4pdf.text = "PDF (a4)"
+    # Update html lang attribute
+    html_root = tree.getroot()
+    if html_root.tag == 'html' or html_root.tag.endswith('}html'):
+        html_root.attrib['lang'] = 'pl-PL'
+    
     et = etree.ElementTree(tree.getroot())
     et.write(out_path, pretty_print=True, method='html', encoding='utf-8')
 

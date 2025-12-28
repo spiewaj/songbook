@@ -22,7 +22,7 @@ class StandardHtmlConverter(SongConverter):
             if c.content:
                 content += c.content
         if chords:  # If there are any chords
-            span_stack = etree.SubElement(parent, "span", attrib={"class": "ch-stack"})
+            span_stack = etree.SubElement(parent, "span", attrib={"class": "ch-stack", "aria-hidden": "true"})
             for chord in chords:
                 span_ch = etree.SubElement(span_stack, "span", attrib={
                     "class": "ch",
@@ -64,7 +64,7 @@ class StandardHtmlConverter(SongConverter):
 
     def _add_chords(self, row, parent, class_name):
         """class chords -> html span ch"""
-        span_chords = etree.SubElement(parent, "span", attrib={"class": class_name})
+        span_chords = etree.SubElement(parent, "span", attrib={"class": class_name, "aria-hidden": "true"})
         if row.sidechords:
             for chunk in row.sidechords.split(" "):
                 span_ch = etree.SubElement(span_chords, "span", attrib={"class": "ch"})
@@ -128,8 +128,8 @@ class StandardHtmlConverter(SongConverter):
         span_content.text = creator
 
     def _add_blocks(self, song, parent):
-        body_song = parent.find("body")
         """class song -> html div body # blok z metadanymi o piosence i piosenką"""
+        body_song = parent.find("body")
         h1_title = etree.SubElement(body_song, "h1", attrib={"class": "title", "id": "title"})
         h1_title.text = song.title
         if song.original_title:
@@ -174,12 +174,6 @@ class StandardHtmlConverter(SongConverter):
             block_id = etree.SubElement(spacer, "span", attrib={"class": "block_id"})
             block_id.text = blockid
             self._add_block(block, corpse, b_type, verse_cnt)
-
-        if song.comment:
-            div = etree.SubElement(body_song, "div", attrib={"class": "comment"})
-            span_content = etree.SubElement(div, "span", attrib={"class": "comment"})
-            span_content.text = song.comment
-
 
     def _detect_language(self, song, src_xml_path):
         """Detect language from song metadata or XML file, returning (lang, lang_code) tuple"""
@@ -248,7 +242,10 @@ class StandardHtmlConverter(SongConverter):
         if song.artist:
             etree.SubElement(head, "meta", attrib={"name": "author", "content": song.artist})
         
-        # JSON-LD structured data for rich snippets
+        # Extract plain lyrics for SEO
+        plain_lyrics = song.extract_plain_lyrics()
+        
+        # JSON-LD structured data for rich snippets with lyrics
         script_ld = etree.SubElement(head, "script", attrib={"type": "application/ld+json"})
         ld_json = {
             "@context": "https://schema.org",
@@ -262,6 +259,11 @@ class StandardHtmlConverter(SongConverter):
             ld_json["lyricist"] = {"@type": "Person", "name": song.text_author}
         if song.artist:
             ld_json["author"] = {"@type": "Person", "name": song.artist}
+        if plain_lyrics:
+            ld_json["lyrics"] = {
+                "@type": "CreativeWork",
+                "text": plain_lyrics
+            }
         
         import json
         script_ld.text = json.dumps(ld_json, ensure_ascii=False, indent=2)

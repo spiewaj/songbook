@@ -109,6 +109,20 @@ class Song:
         self.metre = metre if metre else ''
         self.barre = barre if barre else ''
 
+    def extract_plain_lyrics(self):
+        """Extract plain text lyrics without chords for SEO"""
+        lyrics_lines = []
+        for block in self.blocks:
+            for row in block.rows:
+                if not row.instr:  # Skip instrumental rows
+                    line_text = ''
+                    for chunk in row.chunks:
+                        if chunk.content:
+                            line_text += chunk.content
+                    if line_text.strip():
+                        lyrics_lines.append(line_text.strip())
+        return '\n'.join(lyrics_lines)
+
     @staticmethod
     def parseDOM(root):
         # A child of 'lyric' element may either be a text block, a reference to a text block (e.g. to a chorus), or a tablature.
