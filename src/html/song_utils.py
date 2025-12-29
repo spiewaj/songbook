@@ -24,7 +24,7 @@ def create_all_songs_html(converter, list_of_songs, path_out, song_suffix=[], so
         if not song.is_alias():
             relative_path = os.path.relpath(song.plik(), start=os.path.join(os.path.dirname(__file__), "../../songs"))
             converter.xml2html(song.plik(), 
-                             os.path.join(path_out, song.base_file_name() + '.html'), 
+                             os.path.join(path_out, song.base_file_name() + '.' + converter.extension()), 
                              song_suffix=song_suffix, 
                              song_prefix=song_prefix, 
                              song_head=song_head, 

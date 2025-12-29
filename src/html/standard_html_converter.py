@@ -9,6 +9,10 @@ from .html_converter_utils import interpret, replace_in_file
 
 
 class StandardHtmlConverter(SongConverter):
+    def extension(self):
+        """Return 'html' for standard HTML output"""
+        return 'html'
+
     def _add_chunk_group(self, chunks, parent, position):
         """Add a group of chunks that share the same position in text"""
         # Debug comment showing chunk group content

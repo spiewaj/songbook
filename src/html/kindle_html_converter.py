@@ -6,6 +6,10 @@ from .html_converter_utils import interpret, replace_in_file
 from .standard_html_converter import StandardHtmlConverter
 
 class KindleHtmlConverter(SongConverter):
+    def extension(self):
+        """Return 'xhtml' for Kindle output"""
+        return 'xhtml'
+
     def _add_chunk(self, chunk, parent, position):
         """class chunk -> html span chunk"""
         span_chunk = etree.SubElement(parent, "span", attrib={"class": "chunk"})
@@ -157,6 +161,13 @@ class KindleHtmlConverter(SongConverter):
             div = etree.SubElement(body_song, "div", attrib={"class": "comment"})
             span_content = etree.SubElement(div, "span", attrib={"class": "comment"})
             span_content.text = song.comment
+
+        # Add hidden plain lyrics for Kindle indexing
+        # display: none text is still indexed for search in many Kindle versions
+        plain_lyrics = song.extract_plain_lyrics()
+        if plain_lyrics:
+            div_hidden = etree.SubElement(body_song, "div", attrib={"style": "display: none;"})
+            div_hidden.text = plain_lyrics
 
 
     def xml2html(self, src_xml_path, path_out, song_suffix=None, song_prefix=None, song_head=None, substitions={}):
