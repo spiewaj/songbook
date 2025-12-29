@@ -17,14 +17,14 @@ def create_all_songs_html_from_dir(converter, path_in, path_out, song_suffix=[])
     return create_all_songs_html(converter, create_list_of_songs(path_in), path_out, song_suffix)
 
 def create_all_songs_html(converter, list_of_songs, path_out, song_suffix=[], song_prefix=[], song_head=[], substitions={}):
-    if not os.path.exists(path_out):
-        os.mkdir(path_out)
+    # Ensure output directory exists (mkdir -p equivalent)
+    os.makedirs(path_out, exist_ok=True)
 
     for song in list_of_songs:
         if not song.is_alias():
             relative_path = os.path.relpath(song.plik(), start=os.path.join(os.path.dirname(__file__), "../../songs"))
             converter.xml2html(song.plik(), 
-                             os.path.join(path_out, song.base_file_name() + '.xhtml'), 
+                             os.path.join(path_out, song.base_file_name() + '.' + converter.extension()), 
                              song_suffix=song_suffix, 
                              song_prefix=song_prefix, 
                              song_head=song_head, 
