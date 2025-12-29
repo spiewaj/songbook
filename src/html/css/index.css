@@ -101,15 +101,29 @@ a:hover {
 #songs li:last-child { border-bottom: none; }
 #songs li:hover { background-color: #eef2f5; }
 
-#songs li a.title {
+/* Main song link wrapper */
+#songs li a.song-link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    flex: 1;
+    min-width: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+#songs li a.song-link:hover {
+    text-decoration: none;
+}
+
+#songs li a.song-link .title {
     font-size: 1.1em;
     color: #333;
     font-weight: 400;
-    margin-left: 1em;
 }
 
-#songs li .alias {
-    margin-left: 0.5em; /* Adds space between the title and the alias */
+#songs li a.song-link .alias {
     font-size: 0.9em;
     color: #6c757d;
     font-style: italic;
@@ -123,14 +137,15 @@ a:hover {
     content: ')';
 }
 
-#songs li .artist {
+#songs li a.song-link .artist {
     margin-left: auto; /* This takes up all available space, pushing the element to the end */
     padding-left: 1em; /* Ensures some space between the alias and artist on smaller screens */
+    font-size: 0.95em;
+    color: #6c757d;
 }
 
 
-#songs li a:hover {
-    text-decoration: none;
+#songs li a.song-link:hover .title {
     color: #0056b3;
 }
 
