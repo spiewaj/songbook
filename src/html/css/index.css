@@ -12,7 +12,7 @@ body {
     padding: 1em; /* Adjusted for mobile */
 }
 
-h2 {
+h1 {
     color: #343a40;
     border-bottom: 2px solid #dee2e6;
     padding-bottom: 0.5em;
@@ -32,7 +32,7 @@ a:hover {
 }
 
 /* --- Songbooks Section --- */
-.songbook-container h2 {
+.songbook-container h1 {
     border-bottom: none; /* We will style it differently for mobile */
 }
 
@@ -262,7 +262,7 @@ p {
         gap: 0.8em;
     }
 
-    h2 {
+    h1 {
         font-size: 1.2em;
         margin-top: 1.2em;
     }
@@ -325,7 +325,7 @@ p {
         flex-wrap: nowrap;
     }
 
-    .songbook-container h2 {
+    .songbook-container h1 {
          border-bottom: 2px solid #dee2e6;
     }
 
