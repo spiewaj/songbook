@@ -39,7 +39,7 @@ def create_index_html(list_of_songs_meta, target_dir):
         # Add keywords
         etree.SubElement(head, "meta", attrib={
             "name": "keywords",
-            "content": "śpiewnik harcerski, teksty piosenek, chwyty gitarowe, akordy, piosenki harcerskie, piosenki biesiadne, piosenki turystyczne, śpiewnik pdf, śpiewnik kindle"
+            "content": "śpiewnik harcerski, teksty piosenek, chwyty gitarowe, akordy, piosenki harcerskie, piosenki biesiadne, piosenki turystyczne, śpiewnik pdf, śpiewnik kindle, epub, własny śpiewnik, kreator śpiewnika, kreator śpiewników"
         }, nsmap=None).tail = "\n"
         
         # Add Open Graph tags
@@ -64,7 +64,7 @@ def create_index_html(list_of_songs_meta, target_dir):
             "name": "Spiewaj.com",
             "alternateName": "Śpiewnik",
             "url": "https://spiewaj.com/",
-            "description": "Śpiewnik - teksty i chwyty piosenek popularnych, harcerskich, turystycznych",
+            "description": "Śpiewnik - teksty i chwyty piosenek popularnych, harcerskich, turystycznych (epub/pdf/kindle).",
             "inLanguage": "pl-PL",
             "potentialAction": {
                 "@type": "SearchAction",
@@ -94,9 +94,9 @@ def create_index_html(list_of_songs_meta, target_dir):
         # Build descriptive title attribute for SEO
         title_text = song.effectiveTitle()
         if song.artist():
-            a_main.attrib['title'] = f"{title_text} - {song.artist()} - tekst i chwyty"
+            a_main.attrib['title'] = f"{title_text} - {song.artist()} - tekst i chwyty (pdf/epub/kindle)"
         else:
-            a_main.attrib['title'] = f"{title_text} - tekst i chwyty"
+            a_main.attrib['title'] = f"{title_text} - tekst i chwyty (pdf/epub/kindle)"
         
         # Edit button (outside main link for event handling)
         button = etree.SubElement(li, "button")
