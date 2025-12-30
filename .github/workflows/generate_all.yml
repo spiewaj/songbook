@@ -201,7 +201,7 @@ jobs:
           name: songbooks_htmls
           path: | 
             /workspace/build/*.zip
-            /workspace/build/index.xhtml
+            /workspace/build/index.html
             /workspace/build/sitemap.xml
             /workspace/build/*.js
 
