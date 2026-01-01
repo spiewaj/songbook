@@ -178,6 +178,10 @@ class StandardHtmlConverter(SongConverter):
             block_id = etree.SubElement(spacer, "span", attrib={"class": "block_id"})
             block_id.text = blockid
             self._add_block(block, corpse, b_type, verse_cnt)
+        if song.comment:
+            div = etree.SubElement(body_song, "div", attrib={"class": "comment"})
+            span_content = etree.SubElement(div, "span", attrib={"class": "comment"})
+            span_content.text = song.comment
 
     def _detect_language(self, song, src_xml_path):
         """Detect language from song metadata or XML file, returning (lang, lang_code) tuple"""
