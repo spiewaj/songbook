@@ -6,16 +6,16 @@
   <artist type="band">Mechanicy Shanty</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Okręt nasz <ch a="G"/>wpłynął w mgłę <ch a="F"/>i fregaty <ch a="d"/>dwie</row>
-      <row important_over="false"><ch a="a"/>Popłynęły <ch a="G"/>naszym kursem <ch a="C"/>by nie zgubić <ch a="E7"/>się.</row>
-      <row important_over="false"><ch a="a"/>Potem szkwał <ch a="G"/>wypchnął nas <ch a="F"/>poza mleczny <ch a="d"/>pas</row>
-      <row important_over="false">I nikt <ch a="a"/>wtedy <ch a="G"/>nie przypuszczał, <ch a="C"/>że fregaty <ch a="E7"/>śmierć nam niosą.</row>
+      <row important_over="true"><ch a="a"/>Okręt nasz <ch a="G"/>wpłynął w mgłę <ch a="F"/>i fregaty <ch a="d"/>dwie</row>
+      <row important_over="true"><ch a="a"/>Popłynęły <ch a="G"/>naszym kursem <ch a="C"/>by nie zgubić <ch a="E7"/>się.</row>
+      <row important_over="true"><ch a="a"/>Potem szkwał <ch a="G"/>wypchnął nas <ch a="F"/>poza mleczny <ch a="d"/>pas</row>
+      <row important_over="true">I nikt <ch a="a"/>wtedy <ch a="G"/>nie przypuszczał, <ch a="C"/>że fregaty <ch a="E7"/>śmierć nam niosą.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
-      <row important_over="false"><ch a="F"/>Wygra ten, <ch a="G"/>kto utrzyma <ch a="a"/>ship<ch a="a"/>.</row>
-      <row important_over="false"><ch a="C"/>W huku dział <ch a="G"/>ktoś przykryje <ch a="a"/>się <ch a="e"/>falami,</row>
-      <row important_over="false"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
+      <row important_over="true"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
+      <row important_over="true"><ch a="F"/>Wygra ten, <ch a="G"/>kto utrzyma <ch a="a"/>ship<ch a="a"/>.</row>
+      <row important_over="true"><ch a="C"/>W huku dział <ch a="G"/>ktoś przykryje <ch a="a"/>się <ch a="e"/>falami,</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Nagły huk w <ch a="G"/>uszach grał <ch a="F"/>i już atak <ch a="d"/>trwał,</row>
@@ -46,9 +46,9 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
-      <row important_over="false"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
-      <row important_over="false"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy...</row>
+      <row important_over="true"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy...</row>
     </block>
   </lyric>
   <keywords/>
