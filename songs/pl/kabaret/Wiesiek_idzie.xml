@@ -1,82 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiesiek idzie">
-	<alias/>
-	<text_author type="solo">Andrzej Andrus</text_author>
-	<comment/>
+	<text_author type="solo">Artur Andrus</text_author>
 	<composer type="solo">Aleksander Grotowski</composer>
-	<artist type="solo">Aleksander Grotowski; Małgorzata Zwierzchowska</artist>
-	<translator/>
-	<original_title/>
+	<artist type="solo">Artur Andrus</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="e"/>Raz staruszka błądzącego w lesie<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>Ujrzał lisek przywiędły i blady<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>I pomyślał — znowu idzie Wiesiek<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
-				<ch a="C"/>Wiesiek idzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="e"/>Raz staruszka błądzącego w lesie<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>Ujrzał lisek przywiędły i blady<ch a="A7"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>I pomyślał — znowu idzie Wiesiek<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
+			<row important_over="false"><ch a="C"/>Wiesiek idzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="C"/>I podreptał do nory po ścieżce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>I powiedział stanąwszy przed chatą<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Swojej żonie, lisicy Agnieszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Wiesiek idzie, nie ma rady na to<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>I podreptał do nory po ścieżce<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>I powiedział stanąwszy przed chatą<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Swojej żonie, lisicy Agnieszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Wiesiek idzie, nie ma rady na to<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="e"/>Zaś lisica zmartwiła się szczerze<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>Zamachała łapkami obiema<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>Matko Boska bądź ostrożny Jerzy<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
-				<ch a="C"/>Wiesiek idzie, rady na to nie ma<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="e"/>Zaś lisica zmartwiła się szczerze<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>Zamachała łapkami obiema<ch a="A7"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>Matko Boska bądź ostrożny Jerzy<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
+			<row important_over="false"><ch a="C"/>Wiesiek idzie, rady na to nie ma<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="C"/>Może zjawić się tutaj już jutro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Lub pojutrze, a może za tydzień<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Może nieźle przetrzepać nam futro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Nie ma rady, Wiesiek, Wiesiek idzie<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Może zjawić się tutaj już jutro<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Lub pojutrze, a może za tydzień<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Może nieźle przetrzepać nam futro<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Nie ma rady, Wiesiek, Wiesiek idzie<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="e"/>A był sierpień, pogoda prześliczna<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>I tętniło życie w zagajnikach<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="false">
-				<ch a="e"/>Oprócz lisów nikt chyba nie myślał<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
-				<ch a="C"/>O nadejściu Wieśka kłusownika<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="e"/>A był sierpień, pogoda prześliczna<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>I tętniło życie w zagajnikach<ch a="A7"/><ch a="h7"/></row>
+			<row important_over="false"><ch a="e"/>Oprócz lisów nikt chyba nie myślał<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
+			<row important_over="false"><ch a="C"/>O nadejściu Wieśka kłusownika<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="C"/>Ale cóż, one żyły najdłużej<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Łby na karkach miały nie od parady<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>I wiedziały, że prędzej czy później<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
-				<ch a="C"/>Wiesiek przyjdzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Ale cóż, one żyły najdłużej<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Łby na karkach miały nie od parady<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>I wiedziały, że prędzej czy później<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Wiesiek przyjdzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
 		</block>
 	</lyric>
-	<music metre="">
+	<music>
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
 	<album>Największe Hity</album>
-	<music_source>Jesień idzie</music_source>
+	<genre>Piosenka kabaretowa</genre>
 	<status>
+		<done/>
 		<verificators/>
-		<to_do/>	<done/>
-	</status>	<keywords/>
-	<genre/>
+	</status>
+	<music_source>Jesień idzie</music_source>
 </song>
