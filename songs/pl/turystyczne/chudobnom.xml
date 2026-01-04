@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chudobnom">
   <composer>ludowa kołysanka z Podhala</composer>
-  <artist type="band">Dom o Zielonych Progach                                                                                 Dom o Zielonych Progach</artist>
+  <artist type="band">Dom o Zielonych Progach</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Chudobnom mnie mama <ch a="G"/>miała</row>
