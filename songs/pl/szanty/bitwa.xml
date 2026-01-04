@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bitwa">
+  <alias>Ciepła krew poleje się strugami...</alias>
+  <text_author type="solo">Lech Klupś</text_author>
+  <composer type="solo">Lech Klupś</composer>
+  <artist type="band">Mechanicy Shanty</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Okręt nasz <ch a="G"/>wpłynął w mgłę <ch a="F"/>i fregaty <ch a="d"/>dwie</row>
+      <row important_over="true"><ch a="a"/>Popłynęły <ch a="G"/>naszym kursem <ch a="C"/>by nie zgubić <ch a="E7"/>się.</row>
+      <row important_over="true"><ch a="a"/>Potem szkwał <ch a="G"/>wypchnął nas <ch a="F"/>poza mleczny <ch a="d"/>pas</row>
+      <row important_over="true">I nikt <ch a="a"/>wtedy <ch a="G"/>nie przypuszczał, <ch a="C"/>że fregaty <ch a="E7"/>śmierć nam niosą.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
+      <row important_over="true"><ch a="F"/>Wygra ten, <ch a="G"/>kto utrzyma <ch a="a"/>ship<ch a="a"/>.</row>
+      <row important_over="true"><ch a="C"/>W huku dział <ch a="G"/>ktoś przykryje <ch a="a"/>się <ch a="e"/>falami,</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Nagły huk w <ch a="G"/>uszach grał <ch a="F"/>i już atak <ch a="d"/>trwał,</row>
+      <row important_over="false">To <ch a="a"/>fregaty <ch a="G"/>uzbrojone <ch a="C"/>rzędem w setkę <ch a="E7"/>dział.</row>
+      <row important_over="false"><ch a="a"/>Czarny dym <ch a="G"/>spowił nas, <ch a="F"/>przyszedł śmierci <ch a="d"/>czas,</row>
+      <row important_over="false"><ch a="a"/>Krzyk i lament <ch a="G"/>mych kamratów, <ch a="C"/>przerywany <ch a="E7"/>ogniem katów.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Pocisk nasz <ch a="G"/>trafił w maszt, <ch a="F"/>usłyszałem <ch a="d"/>trzask,</row>
+      <row important_over="false">To ste<ch a="a"/>rburtę <ch a="G"/>rozwaliła <ch a="C"/>jedna z naszych <ch a="E7"/>salw.</row>
+      <row important_over="false"><ch a="a"/>&quot;Żagiel staw&quot; <ch a="G"/>krzyknął ktoś, <ch a="F"/>znów piratów <ch a="d"/>złość,</row>
+      <row important_over="false"><ch a="a"/>Bo od rufy <ch a="G"/>nam powiało, <ch a="C"/>a fregatom w <ch a="E7"/>mordę wiało.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Z fregat dwóch <ch a="G"/>tylko ta <ch a="F"/>pierwsza w pogoń <ch a="d"/>szła,</row>
+      <row important_over="false"><ch a="a"/>Wnet abordaż <ch a="G"/>rozpoczęli, <ch a="C"/>gdy dopadli <ch a="E7"/>nas.</row>
+      <row important_over="false"><ch a="a"/>Szyper ich <ch a="G"/>dziury dwie <ch a="F"/>zrobił w swoim <ch a="d"/>dnie,</row>
+      <row important_over="false"><ch a="a"/>Nie pomogło <ch a="G"/>to psubratom, <ch a="C"/>reszta z rei <ch a="E7"/>zwisa za to.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Po dziś dzień <ch a="G"/>tamtą mgłę <ch a="F"/>i fregaty <ch a="d"/>dwie,</row>
+      <row important_over="false"><ch a="a"/>Kiedy noc <ch a="G"/>zamyka oczy, <ch a="C"/>widzę w moim <ch a="E7"/>śnie.</row>
+      <row important_over="false"><ch a="a"/>Tamci, co <ch a="G"/>śpią na dnie, <ch a="F"/>uśmiechają <ch a="d"/>się,</row>
+      <row important_over="false"><ch a="a"/>Że ich straszną <ch a="G"/>śmierć pomścili <ch a="C"/>bracia, którzy <ch a="E7"/>zwyciężyli.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Ciepła <ch a="G"/>krew poleje <ch a="a"/>się strug<ch a="e"/>ami,</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy <ch a="a"/>bryg<ch a="a"/>.</row>
+      <row important_over="true"><ch a="F"/>Jak da Bóg, <ch a="G"/>ocalimy...</row>
+    </block>
+  </lyric>
+  <keywords/>
+  <genre>Szanta</genre>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
