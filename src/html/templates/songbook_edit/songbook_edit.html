@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreator Śpiewnika - Spiewaj.com</title>
+    <link rel="stylesheet" href="songbook_edit.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kreator Śpiewnika</h1>
+            <p class="subtitle">Stwórz swój własny śpiewnik wybierając ulubione piosenki</p>
+        </header>
+        
+        <!-- Songbook Description Section -->
+        <div class="panel songbook-description">
+            <h2>Opis Śpiewnika</h2>
+            
+            <div class="form-group">
+                <label for="songbookTitle">Tytuł Śpiewnika (wymagany):</label>
+                <input type="text" 
+                       id="songbookTitle" 
+                       placeholder="np. Mój Śpiewnik Harcerski">
+            </div>
+            
+            <div class="form-group">
+                <label for="songbookId">ID Śpiewnika (wymagane):</label>
+                <input type="text" 
+                       id="songbookId" 
+                       placeholder="np. moj_spiewnik"
+                       pattern="[a-z0-9_-]+"
+                       title="Tylko małe litery, cyfry, podkreślenia i myślniki">
+            </div>
+            
+            <div class="form-group">
+                <label for="songbookSubtitle">Podtytuł (opcjonalny):</label>
+                <input type="text" 
+                       id="songbookSubtitle" 
+                       placeholder="np. 2026">
+            </div>
+            
+            <div class="form-group">
+                <label for="songbookPublisher">Wydawca (opcjonalny):</label>
+                <textarea id="songbookPublisher" 
+                          placeholder="np. Drużyna Harcerska XYZ"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="songbookPlace">Miejsce (opcjonalny):</label>
+                <input type="text" 
+                       id="songbookPlace" 
+                       placeholder="np. Warszawa">
+            </div>
+        </div>
+        
+        <!-- Song Selection Section -->
+        <div class="song-selection-header">
+            <h2>Wybierz ulubione piosenki</h2>
+        </div>
+        
+        <div class="layout">
+            <!-- Left Panel - Available Songs -->
+            <div class="panel">
+                <h3>Dostępne Piosenki</h3>
+                
+                <div class="file-upload" id="fileUploadSection" style="display: none;">
+                    <p>Nie można automatycznie załadować index.json (CORS). Załaduj plik ręcznie:</p>
+                    <input type="file" id="jsonFileInput" accept=".json" onchange="loadJSONFile(event)">
+                    <label for="jsonFileInput">Wybierz plik index.json</label>
+                </div>
+                
+                <input type="search" 
+                       class="search-box" 
+                       id="searchBox" 
+                       placeholder="Szukaj piosenki, wykonawcy, autora tekstu lub gatunku..."
+                       autocomplete="off">
+                
+                <div class="stats">
+                    <strong>Wyświetlone:</strong> <span id="visibleCount">0</span> / <span id="totalCount">0</span>
+                </div>
+                
+                <div class="batch-actions">
+                    <button class="btn btn-secondary" onclick="selectAllVisible()">Zaznacz widoczne</button>
+                    <button class="btn btn-secondary" onclick="deselectAllVisible()">Odznacz widoczne</button>
+                </div>
+                
+                <div class="song-list" id="songList">
+                    <div class="loader">Ładowanie piosenek...</div>
+                </div>
+            </div>
+            
+            <!-- Arrow Separator -->
+            <div class="arrow-separator"></div>
+            
+            <!-- Right Panel - Selected Songs -->
+            <div class="panel">
+                <h3>Wybrane piosenki</h3>
+                
+                <div class="stats">
+                    <strong>Liczba wybranych:</strong> <span id="selectedCount">0</span>
+                </div>
+                
+                <div class="selected-songs" id="selectedSongs">
+                    <div class="empty-state">Nie wybrano jeszcze żadnych piosenek</div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="btn btn-secondary" onclick="clearSelection()">Wyczyść</button>
+                    <button class="btn btn-primary" onclick="generateYAML()">Generuj YAML</button>
+                </div>
+                
+                <div class="output-area" id="outputArea" style="display: none;">
+                    <label><strong>Wygenerowany plik YAML:</strong></label>
+                    <textarea id="yamlOutput" readonly></textarea>
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" onclick="downloadYAML()">Pobierz plik .yaml</button>
+                        <button class="btn btn-secondary" onclick="copyToClipboard()">Kopiuj do schowka</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="songbook_edit.js"></script>
+</body>
+</html>
