@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiesiek idzie">
-	<text_author type="solo">Andrzej Andrus</text_author>
+	<text_author type="solo">Artur Andrus</text_author>
 	<composer type="solo">Aleksander Grotowski</composer>
-	<artist type="solo">Aleksander Grotowski; Małgorzata Zwierzchowska</artist>
+	<artist type="solo">Artur Andrus</artist>
 	<lyric>
 		<block type="verse">
 			<row important_over="false"><ch a="e"/>Raz staruszka błądzącego w lesie<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
@@ -46,6 +46,7 @@
 	</music>
 	<keywords/>
 	<album>Największe Hity</album>
+	<genre>Piosenka kabaretowa</genre>
 	<status>
 		<done/>
 		<verificators/>
