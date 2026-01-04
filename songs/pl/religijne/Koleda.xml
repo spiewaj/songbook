@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kolęda">
-	<alias>Uciekali</alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Uciekali">
+	<alias>Tej nocy anioł przyszedł do Józefa</alias>
 	<text_author type="solo">Agata Miklaszewska;  Maryna Miklaszewska</text_author>
 	<composer type="solo">Janusz Stokłosa</composer>
+	<artist type="band">Metro</artist>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Tej nocy <ch a="a"/>Anioł prz<ch a="G"/>yszedł do Józ<ch a="a"/>efa:</row>
@@ -56,6 +57,7 @@
 	<status>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
