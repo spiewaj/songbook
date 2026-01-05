@@ -228,6 +228,78 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     tree.write(sitemap_path, pretty_print=True, xml_declaration=True, encoding='utf-8')
     logging.info(f"Sitemap created at {sitemap_path}")
 
+def create_index_json(list_of_songs_meta, target_dir):
+    """Create index.json with all songs and songbooks metadata"""
+    import json
+    
+    index_json_path = os.path.join(target_dir, "index.json")
+    
+    # Build songs list
+    songs_data = []
+    for song in list_of_songs_meta:
+        if song.is_alias():
+            continue
+        
+        song_data = {
+            "id": song.base_file_name(),
+            "title": song.effectiveTitle(),
+            "html_url": f"./songs_html/{song.base_file_name()}.html",
+            "pdf_a4_url": f"./songs_pdf/{song.base_file_name()}.a4.pdf",
+            "pdf_a5_url": f"./songs_pdf/{song.base_file_name()}.a5.pdf",
+        }
+        
+        # Add optional fields if they exist
+        if song.aliases():
+            song_data["aliases"] = song.aliases()
+        if song.artist():
+            song_data["artist"] = song.artist()
+        if song.genre():
+            song_data["genre"] = song.genre()
+        if song.lang():
+            song_data["lang"] = song.lang()
+        if song.text_author():
+            song_data["text_author"] = song.text_author()
+        
+        songs_data.append(song_data)
+    
+    # Build songbooks list
+    songbooks_data = []
+    for songbook in sb.songbooks():
+        if not songbook.hidden():
+            songbook_data = {
+                "id": songbook.id(),
+                "title": songbook.title(),
+                "epub_url": f"./{songbook.id()}.epub",
+                "pdf_a4_url": f"./songs_tex/{songbook.id()}_a4.pdf",
+                "pdf_a5_url": f"./songs_tex/{songbook.id()}_a5.pdf",
+            }
+            
+            # Add optional fields
+            if songbook.subtitle():
+                songbook_data["subtitle"] = songbook.subtitle()
+            if songbook.url():
+                songbook_data["url"] = songbook.url()
+            if songbook.publisher():
+                songbook_data["publisher"] = songbook.publisher()
+            if songbook.place():
+                songbook_data["place"] = songbook.place()
+            
+            songbooks_data.append(songbook_data)
+    
+    # Create the complete index structure
+    index_data = {
+        "version": "1.0",
+        "generated": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00"),
+        "songs": songs_data,
+        "songbooks": songbooks_data
+    }
+    
+    # Write JSON file
+    with open(index_json_path, 'w', encoding='utf-8') as f:
+        json.dump(index_data, f, ensure_ascii=False, indent=2)
+    
+    logging.info(f"Index JSON created at {index_json_path} with {len(songs_data)} songs and {len(songbooks_data)} songbooks")
+
 def main():
     songbook_file = os.path.join(sb.repo_dir(), "songbooks/default.songbook.yaml") if len(sys.argv) == 1 else sys.argv[1]
     songbook = sb.load_songbook_spec_from_yaml(songbook_file)
@@ -237,10 +309,26 @@ def main():
 
     create_index_html(songbook.list_of_songs(), target_dir)
     create_sitemap_xml(songbook.list_of_songs(), target_dir)
+    create_index_json(songbook.list_of_songs(), target_dir)
 
     index_js_path =os.path.join(target_dir, "index.js")
     if os.path.exists(index_js_path):
         os.remove(index_js_path)
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "index.js"), index_js_path)
+
+    # Create symlink for common.js (shared utility)
+    common_js_path = os.path.join(target_dir, "common.js")
+    if os.path.exists(common_js_path):
+        os.remove(common_js_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "common.js"), common_js_path)
+
+    # Create symlinks for songbook_edit files
+    songbook_edit_files = ["songbook_edit.html", "songbook_edit.js", "songbook_edit.css"]
+    for filename in songbook_edit_files:
+        target_path = os.path.join(target_dir, filename)
+        source_path = os.path.join(sb.repo_dir(), 'src', 'html', 'templates', 'songbook_edit', filename)
+        if os.path.exists(target_path):
+            os.remove(target_path)
+        os.symlink(source_path, target_path)
 
 main()
