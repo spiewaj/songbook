@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song title="Kolęda" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias>Uciekali</alias>
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Uciekali">
+	<alias>Tej nocy anioł przyszedł do Józefa</alias>
 	<text_author type="solo">Agata Miklaszewska;  Maryna Miklaszewska</text_author>
-	<comment></comment>
 	<composer type="solo">Janusz Stokłosa</composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<artist type="band">Metro</artist>
+	<lyric>
 		<block type="verse">
 			<row important_over="true">Tej nocy <ch a="a"/>Anioł prz<ch a="G"/>yszedł do Józ<ch a="a"/>efa:</row>
 			<row important_over="true">Zbudźcie dzi<ch a="d"/>eciątko co tak sł<ch a="E"/>odko śp<ch a="a"/>i</row>
 			<row important_over="true">Jud<ch a="a"/>ea dziś to nieb<ch a="G"/>ezpieczna str<ch a="a"/>efa</row>
 			<row important_over="true">I policz<ch a="d"/>one małych chł<ch a="E"/>opców dn<ch a="a"/>i.</row>
-			<row important_over="false"></row>
+			<row important_over="false"/>
 			<row important_over="true">Namiestnik H<ch a="G"/>erod ciągle drży w ob<ch a="C"/>awie,</row>
 			<row important_over="true">Że chociaż wł<ch a="d"/>adzę dzierży jego dł<ch a="E"/>oń</row>
 			<row important_over="true">I rzymski c<ch a="a"/>esarz patrzy n<ch a="G"/>ań łask<ch a="a"/>awie</row>
@@ -32,7 +29,7 @@
 			<row important_over="false">Mieliśmy j<ch a="d"/>akoś zapewni<ch a="E"/>ony b<ch a="a"/>yt</row>
 			<row important_over="false">Choć czasem p<ch a="a"/>atrol mijał drzw<ch a="G"/>i świąt<ch a="a"/>yni</row>
 			<row important_over="false">Zawsze się m<ch a="d"/>odlić mógł pob<ch a="E"/>ożny Ż<ch a="a"/>yd.</row>
-			<row important_over="false"></row>
+			<row important_over="false"/>
 			<row important_over="false">Lecz może trz<ch a="G"/>eba szlakiem iść wygn<ch a="C"/>ania</row>
 			<row important_over="false">Tak jak prz<ch a="d"/>odkowie nasi kiedyś szl<ch a="E"/>i</row>
 			<row important_over="false">Może nie t<ch a="a"/>u jest Ziem<ch a="G"/>ia Obiec<ch a="a"/>ana</row>
@@ -44,7 +41,7 @@
 			<row important_over="false">Lecz choć prz<ch a="d"/>eczucia czasem dr<ch a="E"/>ęczą zł<ch a="a"/>e</row>
 			<row important_over="false">Ojciec Niebi<ch a="a"/>eski weźmie n<ch a="G"/>as w obr<ch a="a"/>onę</row>
 			<row important_over="false">I znowu <ch a="d"/>Anioł zjawi si<ch a="E"/>ę we śn<ch a="a"/>ie.</row>
-			<row important_over="false"></row>
+			<row important_over="false"/>
 			<row important_over="false">Piasek przys<ch a="C"/>ypał szlaki do Betl<ch a="G"/>ejem</row>
 			<row important_over="false">Zabłądzić ł<ch a="d"/>atwo, trudny każdy kr<ch a="E"/>ok</row>
 			<row important_over="false">Tak mało m<ch a="a"/>amy, tylko t<ch a="G"/>ę nadzi<ch a="a"/>eję</row>
@@ -55,20 +52,19 @@
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
+	<keywords/>
 	<genre>Kolęda</genre>
 	<status>
-		<done>	<text/>
+		<done>
+			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kasia Kowalska</verificator><verificator>Onufry	</verificator><verificator>Krzysiek Cz.</verificator>
-			
-			
-			
+			<verificator>Kasia Kowalska</verificator>
+			<verificator>Onufry</verificator>
+			<verificator>Krzysiek Cz.</verificator>
 		</verificators>
 		<to_do>Drobne korekty w strukturze.</to_do>
 	</status>
-	<music_source></music_source>
 </song>
