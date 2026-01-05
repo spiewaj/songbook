@@ -11,3 +11,10 @@ function edit(file) {
     document.body.appendChild(d);
     d.submit();
 }
+
+// Shared utility function for HTML escaping
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}

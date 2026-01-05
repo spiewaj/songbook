@@ -167,63 +167,45 @@ function renderSongList() {
                 </div>
             `;
         } else if (item.type === 'artist') {
-            const filterKey = `artist:${item.data.name}`;
-            const isChecked = activeAggregatedFilters.has(filterKey);
-            return `
-                <div class="aggregated-item artist-item">
-                    <input type="checkbox" 
-                           ${isChecked ? 'checked' : ''}
-                           data-filter-type="artist"
-                           data-filter-value="${escapeHtml(item.data.name)}"
-                           onchange="toggleAggregatedFilterByData(this)"
-                           onclick="event.stopPropagation()">
-                    <span class="material-symbols-outlined">person</span>
-                    <div class="item-info">
-                        <div class="item-title">Wykonawca: ${escapeHtml(item.data.name)}</div>
-                        <div class="item-meta">Zaznacz aby dodać filtr "Wszystkie pasujące"</div>
-                    </div>
-                </div>
-            `;
+            return renderAggregatedItem('artist', item.data.name);
         } else if (item.type === 'text_author') {
-            const filterKey = `text_author:${item.data.name}`;
-            const isChecked = activeAggregatedFilters.has(filterKey);
-            return `
-                <div class="aggregated-item text-author-item">
-                    <input type="checkbox" 
-                           ${isChecked ? 'checked' : ''}
-                           data-filter-type="text_author"
-                           data-filter-value="${escapeHtml(item.data.name)}"
-                           onchange="toggleAggregatedFilterByData(this)"
-                           onclick="event.stopPropagation()">
-                    <span class="material-symbols-outlined">edit_note</span>
-                    <div class="item-info">
-                        <div class="item-title">Autor tekstu: ${escapeHtml(item.data.name)}</div>
-                        <div class="item-meta">Zaznacz aby dodać filtr "Wszystkie pasujące"</div>
-                    </div>
-                </div>
-            `;
+            return renderAggregatedItem('text_author', item.data.name);
         } else if (item.type === 'genre') {
-            const filterKey = `genre:${item.data.name}`;
-            const isChecked = activeAggregatedFilters.has(filterKey);
-            return `
-                <div class="aggregated-item genre-item">
-                    <input type="checkbox" 
-                           ${isChecked ? 'checked' : ''}
-                           data-filter-type="genre"
-                           data-filter-value="${escapeHtml(item.data.name)}"
-                           onchange="toggleAggregatedFilterByData(this)"
-                           onclick="event.stopPropagation()">
-                    <span class="material-symbols-outlined">category</span>
-                    <div class="item-info">
-                        <div class="item-title">Gatunek: ${escapeHtml(item.data.name)}</div>
-                        <div class="item-meta">Zaznacz aby dodać filtr "Wszystkie pasujące"</div>
-                    </div>
-                </div>
-            `;
+            return renderAggregatedItem('genre', item.data.name);
         }
     }).join('');
     
     updateStats();
+}
+
+// Helper function to render aggregated filter items
+function renderAggregatedItem(type, name) {
+    const filterKey = `${type}:${name}`;
+    const isChecked = activeAggregatedFilters.has(filterKey);
+    
+    const config = {
+        artist: { icon: 'person', label: 'Wykonawca' },
+        text_author: { icon: 'edit_note', label: 'Autor tekstu' },
+        genre: { icon: 'category', label: 'Gatunek' }
+    };
+    
+    const { icon, label } = config[type];
+    
+    return `
+        <div class="aggregated-item ${type}-item">
+            <input type="checkbox" 
+                   ${isChecked ? 'checked' : ''}
+                   data-filter-type="${type}"
+                   data-filter-value="${escapeHtml(name)}"
+                   onchange="toggleAggregatedFilterByData(this)"
+                   onclick="event.stopPropagation()">
+            <span class="material-symbols-outlined">${icon}</span>
+            <div class="item-info">
+                <div class="item-title">${label}: ${escapeHtml(name)}</div>
+                <div class="item-meta">Zaznacz aby dodać filtr "Wszystkie pasujące"</div>
+            </div>
+        </div>
+    `;
 }
 
 function toggleAggregatedFilterByData(checkbox) {
@@ -592,12 +574,6 @@ function generateUUID() {
         const v = c === 'x' ? r : (r & 0x3 | 0x8);
         return v.toString(16);
     });
-}
-
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
 }
 
 function escapeYAML(text) {

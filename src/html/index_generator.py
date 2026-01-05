@@ -316,6 +316,12 @@ def main():
         os.remove(index_js_path)
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "index.js"), index_js_path)
 
+    # Create symlink for common.js (shared utility)
+    common_js_path = os.path.join(target_dir, "common.js")
+    if os.path.exists(common_js_path):
+        os.remove(common_js_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "common.js"), common_js_path)
+
     # Create symlinks for songbook_edit files
     songbook_edit_files = ["songbook_edit.html", "songbook_edit.js", "songbook_edit.css"]
     for filename in songbook_edit_files:
