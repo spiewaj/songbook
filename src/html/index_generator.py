@@ -260,6 +260,10 @@ def create_index_json(list_of_songs_meta, target_dir):
         if song.text_author():
             song_data["text_author"] = song.text_author()
         
+        # Add path relative to repo root for unambiguous matching
+        if song.plik():
+            song_data["path"] = os.path.relpath(song.plik(), start=sb.repo_dir())
+        
         songs_data.append(song_data)
     
     # Build songbooks list
