@@ -203,7 +203,9 @@ jobs:
             /workspace/build/*.zip
             /workspace/build/index.html
             /workspace/build/sitemap.xml
+            /workspace/build/*.json
             /workspace/build/*.js
+            /workspace/build/songbook_edit.*
 
 
       - name: Upload htmls to release
