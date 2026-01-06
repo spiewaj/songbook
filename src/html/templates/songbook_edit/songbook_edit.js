@@ -560,7 +560,12 @@ function generateYAML() {
     
     // Add individual selected songs as glob patterns
     Array.from(selectedSongIds).forEach(id => {
-        songbook.songs.push({ glob: `songs/**/${id}.xml` });
+        const song = songById.get(id);
+        if (song && song.path) {
+            songbook.songs.push({ glob: song.path });
+        } else {
+            songbook.songs.push({ glob: `songs/**/${id}.xml` });
+        }
     });
     
     const yaml = JSON.stringify({ songbook }, null, 2);
