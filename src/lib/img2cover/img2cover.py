@@ -109,28 +109,29 @@ def img2cover(
 
     # 5. Load, resize, and position the logo
     try:
-        if not os.path.exists(logo_path):
-            raise FileNotFoundError(f"The logo file was not found at '{logo_path}'")
+        if logo_path:
+            if not os.path.exists(logo_path):
+                raise FileNotFoundError(f"The logo file was not found at '{logo_path}'")
 
-        if logo_path.lower().endswith('.svg'):
-            png_data = cairosvg.svg2png(url=logo_path)
-            logo_img = Image.open(io.BytesIO(png_data))
-        elif logo_path.lower().endswith(('.png', '.jpg', '.jpeg')):
-            logo_img = Image.open(logo_path)
-        else:
-            raise ValueError(f"Unsupported logo format: {os.path.basename(logo_path)}. Please use PNG, JPG, or SVG.")
+            if logo_path.lower().endswith('.svg'):
+                png_data = cairosvg.svg2png(url=logo_path)
+                logo_img = Image.open(io.BytesIO(png_data))
+            elif logo_path.lower().endswith(('.png', '.jpg', '.jpeg')):
+                logo_img = Image.open(logo_path)
+            else:
+                raise ValueError(f"Unsupported logo format: {os.path.basename(logo_path)}. Please use PNG, JPG, or SVG.")
 
-        logo_area_y_start = last_y
-        logo_area_height = height_px - logo_area_y_start - (margin * 2)
-        logo_max_width = width_px * 0.7
-        
-        logo_img.thumbnail((logo_max_width, logo_area_height), Image.Resampling.LANCZOS)
-        
-        logo_x = (width_px - logo_img.width) / 2
-        logo_y = logo_area_y_start + (logo_area_height - logo_img.height) / 2
-        
-        cover.paste(logo_img, (int(logo_x), int(logo_y)), logo_img.convert('RGBA'))
-        last_y = logo_y + logo_img.height
+            logo_area_y_start = last_y
+            logo_area_height = height_px - logo_area_y_start - (margin * 2)
+            logo_max_width = width_px * 0.7
+            
+            logo_img.thumbnail((logo_max_width, logo_area_height), Image.Resampling.LANCZOS)
+            
+            logo_x = (width_px - logo_img.width) / 2
+            logo_y = logo_area_y_start + (logo_area_height - logo_img.height) / 2
+            
+            cover.paste(logo_img, (int(logo_x), int(logo_y)), logo_img.convert('RGBA'))
+            last_y = logo_y + logo_img.height
 
     except Exception as e:
         # Re-raise exceptions to be handled by the caller

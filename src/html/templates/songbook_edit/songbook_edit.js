@@ -632,10 +632,14 @@ async function renderPDF() {
     const urlParams = new URLSearchParams(window.location.search);
     const branch = urlParams.get('branch') || 'main';
 
+    // Get paper size
+    const paperSizeSelect = document.getElementById('paperSize');
+    const paperSize = paperSizeSelect ? paperSizeSelect.value : 'a4';
+
     const payload = {
         yaml_content: yaml,
         branch: branch,
-        papersize: "a4"
+        papersize: paperSize
     };
 
     const btn = document.getElementById('btnRenderPdf');
@@ -656,17 +660,6 @@ async function renderPDF() {
     }
     if (pdfDownloadLink) pdfDownloadLink.style.display = 'none';
 
-    // Open blank window immediately to satisfy popup blocker
-    let pdfWindow = null;
-    try {
-        pdfWindow = window.open('about:blank', '_blank');
-        if (pdfWindow) {
-            pdfWindow.document.write(`<div style='font-family: sans-serif; padding: 20px; text-align: center; margin-top: 50px;'>Trwa generowanie śpiewnika PDF... Proszę czekać (szacowany czas: około ${estimatedSeconds} sekund).</div>`);
-        }
-    } catch (e) {
-        console.warn("Could not open new window automatically", e);
-    }
-
     renderPdfCloudRun(
         payload,
         "/api/render/songbook_yaml",
@@ -683,7 +676,6 @@ async function renderPDF() {
                 pdfDownloadLink.href = url;
                 pdfDownloadLink.style.display = 'block';
             }
-            if (pdfWindow) pdfWindow.location.href = url;
         },
         (err, errUrl) => {
             alert(err);
@@ -692,8 +684,6 @@ async function renderPDF() {
                 btn.textContent = originalBtnText;
             }
             if (pdfStatusText) pdfStatusText.textContent = err;
-            if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
-            else if (pdfWindow) pdfWindow.close();
         }
     );
 }
