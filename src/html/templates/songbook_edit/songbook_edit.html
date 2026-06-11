@@ -106,8 +106,12 @@
                     <div class="empty-state">Nie wybrano jeszcze żadnych piosenek</div>
                 </div>
                 
-                <div class="action-buttons">
+                <div class="action-buttons" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                     <button class="btn btn-secondary" onclick="clearSelection()">Wyczyść</button>
+                    <select id="paperSize" class="form-control" style="width: auto; display: inline-block;">
+                        <option value="a4" selected>Format A4</option>
+                        <option value="a5">Format A5</option>
+                    </select>
                     <button class="btn btn-primary" id="btnRenderPdf" onclick="renderPDF()">Generuj Śpiewnik (PDF)</button>
                 </div>
                 

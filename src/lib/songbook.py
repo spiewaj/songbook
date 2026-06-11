@@ -78,28 +78,30 @@ class SongbookSpec:
       return self.spec["hidden"] if "hidden" in self.spec else False
 
   def imagePdfPath(self):
-      return resolvePath(self.spec["image"]["pdf"] if "image" in self.spec and "pdf" in self.spec["image"] else "songbooks/wdw21/znak21.pdf", start=self.basedir)
+      if "image" in self.spec and "pdf" in self.spec["image"]:
+          return resolvePath(self.spec["image"]["pdf"], start=self.basedir)
+      return None
 
   def imageWebPath(self):
       if "image" in self.spec:
           if "png" in self.spec["image"]: return resolvePath(self.spec["image"]["png"], start=self.basedir)
           if "svg" in self.spec["image"]: return resolvePath(self.spec["image"]["svg"], start=self.basedir)
           if "jpg" in self.spec["image"]: return resolvePath(self.spec["image"]["jpg"], start=self.basedir)
-      return resolvePath("songbooks/wdw21/znak21.jpg", start=self.basedir)
+      return None
 
   def imageWebExt(self):
       if "image" in self.spec:
           if "png" in self.spec["image"]: return "png"
           if "svg" in self.spec["image"]: return "svg"
           if "jpg" in self.spec["image"]: return "jpg"
-      return "image/jpeg"
+      return None
 
   def imageWebMime(self):
       if "image" in self.spec:
           if "png" in self.spec["image"]: return "image/png"
           if "svg" in self.spec["image"]: return "image/svg+xml"
           if "jpg" in self.spec["image"]: return "image/jpeg"
-      return "image/jpeg"
+      return None
 
 def load_songbook_spec_from_yaml(filename, title=None, songFiles=None):
     with open(filename) as stream:
