@@ -503,7 +503,7 @@ function renderDynamicFilters() {
     `}).join('');
 }
 
-function generateYAML() {
+function generateYAMLString() {
     const songbookId = document.getElementById('songbookId').value.trim();
     const songbookTitle = document.getElementById('songbookTitle').value.trim();
     const songbookSubtitle = document.getElementById('songbookSubtitle').value.trim();
@@ -512,17 +512,17 @@ function generateYAML() {
     
     if (!songbookId) {
         alert('Proszę podać ID śpiewnika');
-        return;
+        return null;
     }
     
     if (!songbookTitle) {
         alert('Proszę podać tytuł śpiewnika');
-        return;
+        return null;
     }
     
     if (selectedSongIds.size === 0 && dynamicFilters.length === 0) {
         alert('Proszę wybrać przynajmniej jedną piosenkę lub dodać filtr');
-        return;
+        return null;
     }
     
     // Generate UUID
@@ -568,9 +568,15 @@ function generateYAML() {
         }
     });
     
-    const yaml = JSON.stringify({ songbook }, null, 2);
-    document.getElementById('yamlOutput').value = yaml;
-    document.getElementById('outputArea').style.display = 'block';
+    return JSON.stringify({ songbook }, null, 2);
+}
+
+function generateYAML() {
+    const yaml = generateYAMLString();
+    if (yaml) {
+        document.getElementById('yamlOutput').value = yaml;
+        document.getElementById('outputArea').style.display = 'block';
+    }
 }
 
 function generateUUID() {
@@ -612,7 +618,7 @@ function copyToClipboard() {
 }
 
 async function renderPDF() {
-    const yaml = document.getElementById('yamlOutput').value;
+    const yaml = generateYAMLString();
     if (!yaml) return;
 
     // Get branch from URL or default to main
@@ -625,30 +631,50 @@ async function renderPDF() {
         papersize: "a4"
     };
 
-    const btn = document.querySelector('button[onclick="renderPDF()"]');
-    const originalText = btn ? btn.textContent : "Podgląd PDF";
+    const btn = document.getElementById('btnRenderPdf');
+    const pdfOutputArea = document.getElementById('pdfOutputArea');
+    const pdfStatusText = document.getElementById('pdfStatusText');
+    const pdfDownloadLink = document.getElementById('pdfDownloadLink');
+
+    if (pdfOutputArea) pdfOutputArea.style.display = 'block';
+    if (pdfStatusText) {
+        pdfStatusText.style.display = 'block';
+        pdfStatusText.textContent = "Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).";
+    }
+    if (pdfDownloadLink) pdfDownloadLink.style.display = 'none';
+
+    // Open blank window immediately to satisfy popup blocker
+    let pdfWindow = null;
+    try {
+        pdfWindow = window.open('about:blank', '_blank');
+        if (pdfWindow) {
+            pdfWindow.document.write("<div style='font-family: sans-serif; padding: 20px; text-align: center; margin-top: 50px;'>Trwa generowanie śpiewnika PDF... Proszę czekać (zwykle około 15-30 sekund).</div>");
+        }
+    } catch (e) {
+        console.warn("Could not open new window automatically", e);
+    }
 
     renderPdfCloudRun(
         payload,
         "/api/render/songbook_yaml",
         () => {
-            if (btn) {
-                btn.textContent = "Generowanie...";
-                btn.disabled = true;
-            }
+            if (btn) btn.disabled = true;
         },
-        () => {
-            if (btn) {
-                btn.textContent = originalText;
-                btn.disabled = false;
+        (url) => {
+            if (btn) btn.disabled = false;
+            if (pdfStatusText) pdfStatusText.style.display = 'none';
+            if (pdfDownloadLink) {
+                pdfDownloadLink.href = url;
+                pdfDownloadLink.style.display = 'block';
             }
+            if (pdfWindow) pdfWindow.location.href = url;
         },
-        (err) => {
+        (err, errUrl) => {
             alert(err);
-            if (btn) {
-                btn.textContent = originalText;
-                btn.disabled = false;
-            }
+            if (btn) btn.disabled = false;
+            if (pdfStatusText) pdfStatusText.textContent = err;
+            if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
+            else if (pdfWindow) pdfWindow.close();
         }
     );
 }

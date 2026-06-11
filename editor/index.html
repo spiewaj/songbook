@@ -244,12 +244,26 @@
         branch: branch || "main"
       };
 
+      // Open blank window immediately to satisfy popup blocker
+      const pdfWindow = window.open('about:blank', '_blank');
+      if (pdfWindow) {
+          pdfWindow.document.write("<div style='font-family: sans-serif; padding: 20px;'>Trwa generowanie PDF... Proszę czekać (zwykle około 10-20 sekund).</div>");
+      }
+
       renderPdfCloudRun(
         payload, 
         "/api/render/song_xml",
         () => notice("Generowanie PDF... Proszę czekać (może potrwać do kilkunastu sekund)", songbook),
-        () => notice("PDF wygenerowany!", songbook),
-        (err) => alert(err)
+        (url) => {
+            notice("PDF wygenerowany!", songbook);
+            if (pdfWindow) pdfWindow.location.href = url;
+            else window.open(url, '_blank');
+        },
+        (err, errUrl) => {
+            alert(err);
+            if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
+            else if (pdfWindow) pdfWindow.close();
+        }
       );
     }
 
