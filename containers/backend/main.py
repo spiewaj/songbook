@@ -185,12 +185,12 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
     repo_dir = download_repo(request.branch, temp_dir)
     
-    yaml_path = os.path.join(repo_dir, "custom.yaml")
+    yaml_path = os.path.join(repo_dir, "songbooks", "custom.yaml")
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
         
     # Synchronous check
-    python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "custom.yaml"]
+    python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "songbooks/custom.yaml"]
     env = os.environ.copy()
     env["PYTHONPATH"] = repo_dir
     process = subprocess.run(python_cmd, cwd=repo_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
@@ -199,7 +199,7 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Python generation failed: {process.stderr}")
         
-    render_cmd = ["bash", "./render_pdf.sh", request.papersize, "custom.yaml"]
+    render_cmd = ["bash", "./render_pdf.sh", request.papersize, "songbooks/custom.yaml"]
     background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd)
     
     return {"job_id": job_id, "status": 200}
@@ -282,7 +282,7 @@ async def get_job_status(job_id: str):
             
             pdf_blob = bucket.blob(f"{job_id}.pdf")
             if pdf_blob.exists():
-                return {"status": "done", "url": pdf_blob.generate_signed_url(expiration=3600)}
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download"}
                 
             log_blob = bucket.blob(f"{job_id}.log")
             if log_blob.exists():
@@ -292,11 +292,9 @@ async def get_job_status(job_id: str):
             local_dir = STORAGE_URI
             if STORAGE_URI.startswith("file://"):
                 local_dir = STORAGE_URI[7:]
-                
-            pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
-            if os.path.exists(pdf_path):
+            if os.path.exists(os.path.join(local_dir, f"{job_id}.pdf")):
                 return {"status": "done", "url": f"/api/jobs/{job_id}/download"}
-                
+                    
             log_path = os.path.join(local_dir, f"{job_id}.log")
             if os.path.exists(log_path):
                 with open(log_path, "r") as f:
@@ -308,11 +306,21 @@ async def get_job_status(job_id: str):
 
 @app.get("/api/jobs/{job_id}/download")
 async def download_job(job_id: str):
-    if not STORAGE_URI.startswith("gs://"):
+    if STORAGE_URI.startswith("gs://"):
+        bucket_name = STORAGE_URI[5:]
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(f"{job_id}.pdf")
+        if blob.exists():
+            pdf_bytes = blob.download_as_bytes()
+            from fastapi import Response
+            return Response(content=pdf_bytes, media_type="application/pdf", headers={"Content-Disposition": f"attachment; filename={job_id}.pdf"})
+    else:
         local_dir = STORAGE_URI
         if STORAGE_URI.startswith("file://"):
             local_dir = STORAGE_URI[7:]
         pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
         if os.path.exists(pdf_path):
             return FileResponse(pdf_path, media_type="application/pdf", filename=f"{job_id}.pdf")
-    raise HTTPException(status_code=404, detail="File not found or local storage not configured")
+            
+    raise HTTPException(status_code=404, detail="File not found")

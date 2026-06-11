@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/spiewaj-com/songbook-pdf-render', '-f', 'containers/backend/Dockerfile', '.']
+images:
+- 'gcr.io/spiewaj-com/songbook-pdf-render'
