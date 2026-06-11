@@ -6,6 +6,7 @@ import uuid
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Form, UploadFile, File, BackgroundTasks
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, RedirectResponse
 from pydantic import BaseModel
 from google.cloud import storage
@@ -191,6 +192,15 @@ async def lifespan(app: FastAPI):
     yield
 
 app = FastAPI(title="Songbook PDF Backend", lifespan=lifespan)
+
+# Allow CORS for the editor
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 # TODO: For the future: The requirement to validate whether .tex is actually renderable 
 # is currently NOT on the synchronous feedback path (it happens async via pdflatex). 

@@ -31,6 +31,7 @@ export class SongEditor extends HTMLElement {
   <input type="button" id="openCustom" value="Importuj plik"/>  
   <input type="button" id="openUrl" value="Importuj z sieci"/>  
   <button id="buttonSave">Eksportuj plik</button>
+  <button id="buttonRenderPdf" type="button">Podgląd PDF</button>
 </div>
 
 <div class="gitToolbar">
@@ -151,6 +152,7 @@ export class SongEditor extends HTMLElement {
 
     this.buttonNew=shadow.getElementById("buttonNew");
     this.buttonSave=shadow.getElementById("buttonSave");
+    this.buttonRenderPdf=shadow.getElementById("buttonRenderPdf");
     this.open=shadow.getElementById("open");
     this.openCustom=shadow.getElementById("openCustom");
     this.openUrl=shadow.getElementById("openUrl");
@@ -163,6 +165,14 @@ export class SongEditor extends HTMLElement {
     this.openCustom.addEventListener("click", () => this.open.click());
     this.openUrl.addEventListener("click", () => this.OpenUrl());
     this.buttonSave.addEventListener("click", () => Save(this));
+    this.buttonRenderPdf.addEventListener("click", () => {
+      const renderEvent = new CustomEvent("pdf:render", {
+        bubbles: true,
+        cancelable: true,
+        composed: true,
+      });
+      this.dispatchEvent(renderEvent);
+    });
     this.open.addEventListener("change", (e) => this.LoadFile(e));
     this.buttonNew.addEventListener("click", (e) => {
       if (confirm("Czy chcesz przywrócić wartości początkowe we wszystkich polach ?")) {
