@@ -621,6 +621,13 @@ async function renderPDF() {
     const yaml = generateYAMLString();
     if (!yaml) return;
 
+    // Estimate time: 3s per selected song, minimum 15s. If only dynamic filters, fallback to 60s.
+    let songCount = selectedSongIds.size;
+    let estimatedSeconds = Math.max(15, songCount * 3);
+    if (songCount === 0 && dynamicFilters.length > 0) {
+        estimatedSeconds = 60; // Just a rough guess if we only have filters
+    }
+
     // Get branch from URL or default to main
     const urlParams = new URLSearchParams(window.location.search);
     const branch = urlParams.get('branch') || 'main';
@@ -632,14 +639,20 @@ async function renderPDF() {
     };
 
     const btn = document.getElementById('btnRenderPdf');
+    const originalBtnText = btn ? btn.textContent : "Generuj Śpiewnik (PDF)";
     const pdfOutputArea = document.getElementById('pdfOutputArea');
     const pdfStatusText = document.getElementById('pdfStatusText');
     const pdfDownloadLink = document.getElementById('pdfDownloadLink');
 
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Trwa generowanie...";
+    }
+
     if (pdfOutputArea) pdfOutputArea.style.display = 'block';
     if (pdfStatusText) {
         pdfStatusText.style.display = 'block';
-        pdfStatusText.textContent = "Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).";
+        pdfStatusText.textContent = `Trwa generowanie śpiewnika... Proszę czekać (szacowany czas: około ${estimatedSeconds} sekund).`;
     }
     if (pdfDownloadLink) pdfDownloadLink.style.display = 'none';
 
@@ -648,7 +661,7 @@ async function renderPDF() {
     try {
         pdfWindow = window.open('about:blank', '_blank');
         if (pdfWindow) {
-            pdfWindow.document.write("<div style='font-family: sans-serif; padding: 20px; text-align: center; margin-top: 50px;'>Trwa generowanie śpiewnika PDF... Proszę czekać (zwykle około 15-30 sekund).</div>");
+            pdfWindow.document.write(`<div style='font-family: sans-serif; padding: 20px; text-align: center; margin-top: 50px;'>Trwa generowanie śpiewnika PDF... Proszę czekać (szacowany czas: około ${estimatedSeconds} sekund).</div>`);
         }
     } catch (e) {
         console.warn("Could not open new window automatically", e);
@@ -658,10 +671,13 @@ async function renderPDF() {
         payload,
         "/api/render/songbook_yaml",
         () => {
-            if (btn) btn.disabled = true;
+            // Already handled above to make it strictly immediate
         },
         (url) => {
-            if (btn) btn.disabled = false;
+            if (btn) {
+                btn.disabled = false;
+                btn.textContent = originalBtnText;
+            }
             if (pdfStatusText) pdfStatusText.style.display = 'none';
             if (pdfDownloadLink) {
                 pdfDownloadLink.href = url;
@@ -671,7 +687,10 @@ async function renderPDF() {
         },
         (err, errUrl) => {
             alert(err);
-            if (btn) btn.disabled = false;
+            if (btn) {
+                btn.disabled = false;
+                btn.textContent = originalBtnText;
+            }
             if (pdfStatusText) pdfStatusText.textContent = err;
             if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
             else if (pdfWindow) pdfWindow.close();
