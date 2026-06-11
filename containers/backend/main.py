@@ -282,7 +282,7 @@ async def get_job_status(job_id: str):
             
             pdf_blob = bucket.blob(f"{job_id}.pdf")
             if pdf_blob.exists():
-                return {"status": "done", "url": pdf_blob.generate_signed_url(expiration=3600)}
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download"}
                 
             log_blob = bucket.blob(f"{job_id}.log")
             if log_blob.exists():
