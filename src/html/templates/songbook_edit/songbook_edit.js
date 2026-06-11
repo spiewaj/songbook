@@ -503,7 +503,7 @@ function renderDynamicFilters() {
     `}).join('');
 }
 
-function generateYAML() {
+function generateYAMLString() {
     const songbookId = document.getElementById('songbookId').value.trim();
     const songbookTitle = document.getElementById('songbookTitle').value.trim();
     const songbookSubtitle = document.getElementById('songbookSubtitle').value.trim();
@@ -512,17 +512,17 @@ function generateYAML() {
     
     if (!songbookId) {
         alert('Proszę podać ID śpiewnika');
-        return;
+        return null;
     }
     
     if (!songbookTitle) {
         alert('Proszę podać tytuł śpiewnika');
-        return;
+        return null;
     }
     
     if (selectedSongIds.size === 0 && dynamicFilters.length === 0) {
         alert('Proszę wybrać przynajmniej jedną piosenkę lub dodać filtr');
-        return;
+        return null;
     }
     
     // Generate UUID
@@ -568,9 +568,15 @@ function generateYAML() {
         }
     });
     
-    const yaml = JSON.stringify({ songbook }, null, 2);
-    document.getElementById('yamlOutput').value = yaml;
-    document.getElementById('outputArea').style.display = 'block';
+    return JSON.stringify({ songbook }, null, 2);
+}
+
+function generateYAML() {
+    const yaml = generateYAMLString();
+    if (yaml) {
+        document.getElementById('yamlOutput').value = yaml;
+        document.getElementById('outputArea').style.display = 'block';
+    }
 }
 
 function generateUUID() {
@@ -612,7 +618,7 @@ function copyToClipboard() {
 }
 
 async function renderPDF() {
-    const yaml = document.getElementById('yamlOutput').value;
+    const yaml = generateYAMLString();
     if (!yaml) return;
 
     // Get branch from URL or default to main
@@ -625,64 +631,52 @@ async function renderPDF() {
         papersize: "a4"
     };
 
-    try {
-        // Show loading notice
-        const btn = document.querySelector('button[onclick="renderPDF()"]');
-        const originalText = btn.textContent;
-        btn.textContent = "Generowanie...";
-        btn.disabled = true;
-        
-        const response = await fetch("https://songbook-pdf-render-177765940460.europe-west1.run.app/api/render/songbook_yaml", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(payload)
-        });
+    const btn = document.getElementById('btnRenderPdf');
+    const pdfOutputArea = document.getElementById('pdfOutputArea');
+    const pdfStatusText = document.getElementById('pdfStatusText');
+    const pdfDownloadLink = document.getElementById('pdfDownloadLink');
 
-        if (!response.ok) {
-            alert("Błąd połączenia z serwerem PDF.");
-            btn.textContent = originalText;
-            btn.disabled = false;
-            return;
-        }
-
-        const data = await response.json();
-        const jobId = data.job_id;
-        
-        // Poll for completion
-        const pollInterval = setInterval(async () => {
-            try {
-                const statusRes = await fetch(`https://songbook-pdf-render-177765940460.europe-west1.run.app/api/jobs/${jobId}`);
-                if (statusRes.ok) {
-                    const statusData = await statusRes.json();
-                    if (statusData.status === "done") {
-                        clearInterval(pollInterval);
-                        btn.textContent = originalText;
-                        btn.disabled = false;
-                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
-                    } else if (statusData.status === "error") {
-                        clearInterval(pollInterval);
-                        alert("Błąd generowania PDF. Sprawdź logi.");
-                        btn.textContent = originalText;
-                        btn.disabled = false;
-                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
-                    }
-                }
-            } catch (e) {
-                console.error("Polling error", e);
-            }
-        }, 2000);
-
-    } catch (error) {
-        console.error("PDF render error", error);
-        alert("Błąd wysyłania do serwera PDF.");
-        const btn = document.querySelector('button[onclick="renderPDF()"]');
-        if (btn) {
-            btn.textContent = "Podgląd PDF";
-            btn.disabled = false;
-        }
+    if (pdfOutputArea) pdfOutputArea.style.display = 'block';
+    if (pdfStatusText) {
+        pdfStatusText.style.display = 'block';
+        pdfStatusText.textContent = "Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).";
     }
+    if (pdfDownloadLink) pdfDownloadLink.style.display = 'none';
+
+    // Open blank window immediately to satisfy popup blocker
+    let pdfWindow = null;
+    try {
+        pdfWindow = window.open('about:blank', '_blank');
+        if (pdfWindow) {
+            pdfWindow.document.write("<div style='font-family: sans-serif; padding: 20px; text-align: center; margin-top: 50px;'>Trwa generowanie śpiewnika PDF... Proszę czekać (zwykle około 15-30 sekund).</div>");
+        }
+    } catch (e) {
+        console.warn("Could not open new window automatically", e);
+    }
+
+    renderPdfCloudRun(
+        payload,
+        "/api/render/songbook_yaml",
+        () => {
+            if (btn) btn.disabled = true;
+        },
+        (url) => {
+            if (btn) btn.disabled = false;
+            if (pdfStatusText) pdfStatusText.style.display = 'none';
+            if (pdfDownloadLink) {
+                pdfDownloadLink.href = url;
+                pdfDownloadLink.style.display = 'block';
+            }
+            if (pdfWindow) pdfWindow.location.href = url;
+        },
+        (err, errUrl) => {
+            alert(err);
+            if (btn) btn.disabled = false;
+            if (pdfStatusText) pdfStatusText.textContent = err;
+            if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
+            else if (pdfWindow) pdfWindow.close();
+        }
+    );
 }
 
 // Auto-generate songbook ID from title

@@ -108,22 +108,35 @@
                 
                 <div class="action-buttons">
                     <button class="btn btn-secondary" onclick="clearSelection()">Wyczyść</button>
-                    <button class="btn btn-primary" onclick="generateYAML()">Generuj YAML</button>
+                    <button class="btn btn-primary" id="btnRenderPdf" onclick="renderPDF()">Generuj Śpiewnik (PDF)</button>
                 </div>
                 
-                <div class="output-area" id="outputArea" style="display: none;">
-                    <label><strong>Wygenerowany plik YAML:</strong></label>
-                    <textarea id="yamlOutput" readonly></textarea>
-                    <div class="action-buttons">
-                        <button class="btn btn-primary" onclick="downloadYAML()">Pobierz plik .yaml</button>
-                        <button class="btn btn-secondary" onclick="copyToClipboard()">Kopiuj do schowka</button>
-                        <button class="btn btn-primary" onclick="renderPDF()">Podgląd PDF</button>
-                    </div>
+                <div class="output-area" id="pdfOutputArea" style="display: none; text-align: center; margin-top: 15px;">
+                    <p id="pdfStatusText">Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).</p>
+                    <a id="pdfDownloadLink" href="#" target="_blank" class="btn btn-primary" style="display: none; width: 100%; box-sizing: border-box; text-align: center; text-decoration: none; padding: 15px; font-size: 1.1em; background-color: #2e7d32;">Gotowe! Kliknij tutaj, aby pobrać i otworzyć PDF</a>
                 </div>
+
+                <details style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px;">
+                    <summary style="cursor: pointer; color: #666; font-size: 0.9em; padding: 5px 0;">Opcje dla zaawansowanych (YAML)</summary>
+                    <div style="margin-top: 10px;">
+                        <div class="action-buttons">
+                            <button class="btn btn-secondary" onclick="generateYAML()">Wyświetl kod YAML</button>
+                        </div>
+                        <div class="output-area" id="outputArea" style="display: none;">
+                            <label><strong>Wygenerowany plik YAML:</strong></label>
+                            <textarea id="yamlOutput" readonly></textarea>
+                            <div class="action-buttons">
+                                <button class="btn btn-primary" onclick="downloadYAML()">Pobierz plik .yaml</button>
+                                <button class="btn btn-secondary" onclick="copyToClipboard()">Kopiuj do schowka</button>
+                            </div>
+                        </div>
+                    </div>
+                </details>
             </div>
         </div>
     </div>
     
+    <script src="pdf_renderer.js"></script>
     <script src="common.js"></script>
     <script src="songbook_edit.js"></script>
 </body>
