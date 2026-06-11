@@ -19,6 +19,12 @@ from fastapi.responses import JSONResponse, RedirectResponse, FileResponse
 
 STORAGE_URI = os.environ.get("STORAGE_URI", "gs://spiewaj-pdf-renders")
 
+# Security: code is bundled in the Docker image at build time.
+# Only data directories are fetched from user-specified branches.
+CODE_DIR = "/app"
+DATA_DIRS = {"songs", "songbooks"}
+ALLOWED_ZIP_EXTENSIONS = {".xml", ".yaml", ".yml", ".txt", ".pdf", ".png", ".jpg", ".svg"}
+
 class YamlRequest(BaseModel):
     yaml_content: str
     branch: str = "main"
@@ -42,7 +48,8 @@ def get_lock(ref: str) -> threading.Lock:
             cache_locks[ref] = threading.Lock()
         return cache_locks[ref]
 
-def download_repo(ref: str, temp_dir: str, warmup: bool = False) -> str:
+def _fetch_branch_archive(ref: str, warmup: bool = False) -> str:
+    """Download and cache a GitHub archive for the given ref. Returns path to cached extraction."""
     url = f"https://github.com/spiewaj/songbook/archive/{ref}.zip"
     ref_cache_dir = os.path.join(CACHE_DIR, ref)
     etag_file = os.path.join(CACHE_DIR, f"{ref}.etag")
@@ -103,18 +110,81 @@ def download_repo(ref: str, temp_dir: str, warmup: bool = False) -> str:
                 with open(etag_file, "w") as f:
                     f.write(new_etag)
                     
-    if warmup:
-        return ref_cache_dir
-        
-    repo_dir = os.path.join(temp_dir, "repo")
-    shutil.copytree(ref_cache_dir, repo_dir)
-    return repo_dir
+    return ref_cache_dir
+
+
+def setup_work_dir(temp_dir: str) -> str:
+    """Create a working directory with bundled code from the Docker image.
+    
+    Security: code (src/, render_pdf.sh, etc.) comes from the immutable Docker
+    image, never from user-specified branches or uploads.
+    """
+    work_dir = os.path.join(temp_dir, "repo")
+    os.makedirs(work_dir, exist_ok=True)
+    
+    # Copy code artifacts from the bundled image
+    code_items = ["src", "render_pdf.sh", "render_epub.sh", "songbooks", "songs", "songbook.yaml"]
+    for item in code_items:
+        src = os.path.join(CODE_DIR, item)
+        dst = os.path.join(work_dir, item)
+        if os.path.exists(src):
+            if os.path.isdir(src):
+                shutil.copytree(src, dst, dirs_exist_ok=True)
+            else:
+                shutil.copy2(src, dst)
+    return work_dir
+
+
+def overlay_branch_data(ref: str, work_dir: str, warmup: bool = False):
+    """Overlay only DATA directories (songs/, songbooks/) from a branch onto the work dir.
+    
+    Security: only data directories are copied. No executable code (src/, *.sh,
+    *.py) from the branch is ever used.
+    """
+    cache_dir = _fetch_branch_archive(ref, warmup=warmup)
+    if not cache_dir:
+        return
+    
+    # Hold the ref lock while reading from cache to prevent a concurrent
+    # _fetch_branch_archive() from replacing the cache dir mid-copy.
+    lock = get_lock(ref)
+    with lock:
+        for data_dir in DATA_DIRS:
+            src = os.path.join(cache_dir, data_dir)
+            dst = os.path.join(work_dir, data_dir)
+            if os.path.exists(src):
+                # Overlay: merge branch data on top of bundled data
+                shutil.copytree(src, dst, dirs_exist_ok=True)
+
+
+def safe_extract_zip(zip_path: str, target_dir: str):
+    """Extract only safe data files from a zip archive.
+    
+    Security: rejects executable files, path traversal, and anything outside
+    the allowlisted extensions.
+    """
+    with zipfile.ZipFile(zip_path, 'r') as zf:
+        for info in zf.infolist():
+            if info.is_dir():
+                continue
+            # Block path traversal
+            normalized = os.path.normpath(info.filename)
+            if normalized.startswith("..") or normalized.startswith("/"):
+                print(f"Zip security: skipping path traversal attempt: {info.filename}")
+                continue
+            # Block non-data extensions
+            _, ext = os.path.splitext(info.filename.lower())
+            if ext not in ALLOWED_ZIP_EXTENSIONS:
+                print(f"Zip security: skipping disallowed extension: {info.filename}")
+                continue
+            # Safe to extract
+            zf.extract(info, target_dir)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     def warmup():
         try:
-            download_repo("main", "", warmup=True)
+            _fetch_branch_archive("main", warmup=True)
         except Exception as e:
             print(f"Warmup failed: {e}")
     threading.Thread(target=warmup).start()
@@ -183,17 +253,18 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list):
 async def render_songbook_yaml(request: YamlRequest, background_tasks: BackgroundTasks):
     job_id = f"job_{uuid.uuid4().hex[:8]}"
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
-    repo_dir = download_repo(request.branch, temp_dir)
+    work_dir = setup_work_dir(temp_dir)
+    overlay_branch_data(request.branch, work_dir)
     
-    yaml_path = os.path.join(repo_dir, "songbooks", "custom.yaml")
+    yaml_path = os.path.join(work_dir, "songbooks", "custom.yaml")
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
         
     # Synchronous check
     python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "songbooks/custom.yaml"]
     env = os.environ.copy()
-    env["PYTHONPATH"] = repo_dir
-    process = subprocess.run(python_cmd, cwd=repo_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    env["PYTHONPATH"] = work_dir
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)
@@ -208,17 +279,18 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
 async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks):
     job_id = f"job_{uuid.uuid4().hex[:8]}"
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
-    repo_dir = download_repo(request.branch, temp_dir)
+    work_dir = setup_work_dir(temp_dir)
+    overlay_branch_data(request.branch, work_dir)
     
-    xml_path = os.path.join(repo_dir, "custom.xml")
+    xml_path = os.path.join(work_dir, "custom.xml")
     with open(xml_path, "w", encoding="utf-8") as f:
         f.write(request.xml_content)
         
     # Synchronous check
     python_cmd = ["python3", "src/latex/songs2tex.py", request.format, request.papersize, request.title, "custom.xml"]
     env = os.environ.copy()
-    env["PYTHONPATH"] = repo_dir
-    process = subprocess.run(python_cmd, cwd=repo_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    env["PYTHONPATH"] = work_dir
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)
@@ -238,30 +310,32 @@ async def render_songbook_zip(
 ):
     job_id = f"job_{uuid.uuid4().hex[:8]}"
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
-    repo_dir = download_repo(branch, temp_dir)
+    work_dir = setup_work_dir(temp_dir)
+    overlay_branch_data(branch, work_dir)
     
     zip_path = os.path.join(temp_dir, "upload.zip")
     with open(zip_path, "wb") as f:
         f.write(await zip_file.read())
         
-    # Unzip over repo
-    import zipfile
+    # Security: only extract safe data files from the uploaded zip
     try:
-        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-            zip_ref.extractall(repo_dir)
+        safe_extract_zip(zip_path, work_dir)
     except Exception as e:
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Failed to unzip payload: {e}")
+    finally:
+        if os.path.exists(zip_path):
+            os.remove(zip_path)
         
-    if not os.path.exists(os.path.join(repo_dir, "songbook.yaml")):
+    if not os.path.exists(os.path.join(work_dir, "songbook.yaml")):
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise HTTPException(status_code=400, detail="songbook.yaml not found at root of the zip archive")
         
     # Synchronous check
     python_cmd = ["python3", "src/latex/songbook2tex.py", papersize, "songbook.yaml"]
     env = os.environ.copy()
-    env["PYTHONPATH"] = repo_dir
-    process = subprocess.run(python_cmd, cwd=repo_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    env["PYTHONPATH"] = work_dir
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)

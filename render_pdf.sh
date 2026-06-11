@@ -49,7 +49,7 @@ fi
   cd ${tex_dir}
 
   # Run pdflatex three times to recalculate longtables and toc
-  TEXINPUTS=.:${__dir}/src/latex: pdflatex -shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
+  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
   INDEX_STY=()
 
   if ${MAKE_INDEX}; then
@@ -58,6 +58,6 @@ fi
     (cd ${tex_dir}; texindy -M lang/polish/utf8-lang -M ${__dir}/src/formats/no-lg wyk.idx)
   fi
 
-  TEXINPUTS=.:${__dir}/src/latex: pdflatex -shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
-  TEXINPUTS=.:${__dir}/src/latex: pdflatex -shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
+  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
+  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
 )
