@@ -23,6 +23,7 @@ gcloud run deploy ${SERVICE_NAME} \
   --cpu=2 \
   --concurrency=10 \
   --timeout=300 \
+  --max-instances=5 \
   --set-env-vars="STORAGE_URI=${STORAGE_URI}"
 
 echo "Deployment finished."
