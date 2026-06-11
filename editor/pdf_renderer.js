@@ -27,12 +27,12 @@ async function renderPdfCloudRun(payload, endpoint, onLoading, onSuccess, onErro
                     const statusData = await statusRes.json();
                     if (statusData.status === "done") {
                         clearInterval(pollInterval);
-                        onSuccess();
-                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
+                        const finalUrl = `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
+                        onSuccess(finalUrl);
                     } else if (statusData.status === "error") {
                         clearInterval(pollInterval);
-                        onError("Błąd generowania PDF. Zobacz logi.");
-                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
+                        const errorUrl = `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
+                        onError("Błąd generowania PDF. Zobacz logi.", errorUrl);
                     }
                 }
             } catch (e) {
