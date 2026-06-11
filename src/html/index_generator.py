@@ -326,6 +326,12 @@ def main():
         os.remove(common_js_path)
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "common.js"), common_js_path)
 
+    # Create symlink for pdf_renderer.js
+    pdf_renderer_js_path = os.path.join(target_dir, "pdf_renderer.js")
+    if os.path.exists(pdf_renderer_js_path):
+        os.remove(pdf_renderer_js_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'editor', "pdf_renderer.js"), pdf_renderer_js_path)
+
     # Create symlinks for songbook_edit files
     songbook_edit_files = ["songbook_edit.html", "songbook_edit.js", "songbook_edit.css"]
     for filename in songbook_edit_files:
