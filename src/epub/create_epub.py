@@ -273,7 +273,8 @@ def create_template_epub(songbook, target_path):
         os.path.join(path_images, "cover.png"),
         songbook.subtitle(),
         actual_date())
-    shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "logo." + songbook.imageWebExt()))
+    if songbook.imageWebPath():
+        shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "logo." + songbook.imageWebExt()))
 
 
     resolveTemplate(songbook, os.path.join(template_dir, "songs.xhtml"), os.path.join(path_oebps, "songs.xhtml"))
@@ -325,8 +326,9 @@ def package_epub(songbook, target_dir, target_file="spiewnik.epub"):
             myzip.write(src_path, arcname=os.path.join("OEBPS", "CSS", css_file))
         myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover.png"),
             arcname=os.path.join("OEBPS", "images", "cover.png"))
-        myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "logo."+songbook.imageWebExt()),
-            arcname=os.path.join("OEBPS", "images", "logo."+songbook.imageWebExt()))
+        if songbook.imageWebPath():
+            myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "logo."+songbook.imageWebExt()),
+                arcname=os.path.join("OEBPS", "images", "logo."+songbook.imageWebExt()))
 
 
 def main():

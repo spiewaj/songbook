@@ -48,8 +48,14 @@ def create_ready_tex(songbook, papersize):
                .replace(":subtitle:", str2tex(songbook.subtitle()))
                .replace(":place:", str2tex(songbook.place() + ", ") if songbook.place() else "")
                .replace(":url:", str2tex(songbook.url()))
-               .replace(":publisher:", str2tex(songbook.publisher()))
-               .replace(":imagePdfPath:", songbook.imagePdfPath()))
+               .replace(":publisher:", str2tex(songbook.publisher())))
+
+    if songbook.imagePdfPath():
+        image_tex = f"\\includegraphics[height=5 cm]{{{songbook.imagePdfPath()}}}"
+    else:
+        image_tex = ""
+        
+    content = content.replace(":imagePdfPath:", image_tex)
 
     content += "".join([s2t.song2tex(file) for _, file in list_title_file])
 
