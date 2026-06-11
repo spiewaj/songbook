@@ -185,12 +185,12 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
     repo_dir = download_repo(request.branch, temp_dir)
     
-    yaml_path = os.path.join(repo_dir, "custom.yaml")
+    yaml_path = os.path.join(repo_dir, "songbooks", "custom.yaml")
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
         
     # Synchronous check
-    python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "custom.yaml"]
+    python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "songbooks/custom.yaml"]
     env = os.environ.copy()
     env["PYTHONPATH"] = repo_dir
     process = subprocess.run(python_cmd, cwd=repo_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
@@ -199,7 +199,7 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Python generation failed: {process.stderr}")
         
-    render_cmd = ["bash", "./render_pdf.sh", request.papersize, "custom.yaml"]
+    render_cmd = ["bash", "./render_pdf.sh", request.papersize, "songbooks/custom.yaml"]
     background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd)
     
     return {"job_id": job_id, "status": 200}
