@@ -611,6 +611,80 @@ function copyToClipboard() {
     alert('Skopiowano do schowka!');
 }
 
+async function renderPDF() {
+    const yaml = document.getElementById('yamlOutput').value;
+    if (!yaml) return;
+
+    // Get branch from URL or default to main
+    const urlParams = new URLSearchParams(window.location.search);
+    const branch = urlParams.get('branch') || 'main';
+
+    const payload = {
+        yaml_content: yaml,
+        branch: branch,
+        papersize: "a4"
+    };
+
+    try {
+        // Show loading notice
+        const btn = document.querySelector('button[onclick="renderPDF()"]');
+        const originalText = btn.textContent;
+        btn.textContent = "Generowanie...";
+        btn.disabled = true;
+        
+        const response = await fetch("https://songbook-pdf-render-177765940460.europe-west1.run.app/api/render/songbook_yaml", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+            alert("Błąd połączenia z serwerem PDF.");
+            btn.textContent = originalText;
+            btn.disabled = false;
+            return;
+        }
+
+        const data = await response.json();
+        const jobId = data.job_id;
+        
+        // Poll for completion
+        const pollInterval = setInterval(async () => {
+            try {
+                const statusRes = await fetch(`https://songbook-pdf-render-177765940460.europe-west1.run.app/api/jobs/${jobId}`);
+                if (statusRes.ok) {
+                    const statusData = await statusRes.json();
+                    if (statusData.status === "done") {
+                        clearInterval(pollInterval);
+                        btn.textContent = originalText;
+                        btn.disabled = false;
+                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
+                    } else if (statusData.status === "error") {
+                        clearInterval(pollInterval);
+                        alert("Błąd generowania PDF. Sprawdź logi.");
+                        btn.textContent = originalText;
+                        btn.disabled = false;
+                        window.open(`https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`, "_blank");
+                    }
+                }
+            } catch (e) {
+                console.error("Polling error", e);
+            }
+        }, 2000);
+
+    } catch (error) {
+        console.error("PDF render error", error);
+        alert("Błąd wysyłania do serwera PDF.");
+        const btn = document.querySelector('button[onclick="renderPDF()"]');
+        if (btn) {
+            btn.textContent = "Podgląd PDF";
+            btn.disabled = false;
+        }
+    }
+}
+
 // Auto-generate songbook ID from title
 let userEditedId = false; // Track if user manually edited the ID
 
