@@ -16,6 +16,6 @@ RUN pip install -r /tmp/backend_reqs.txt
 # Copy songbook scripts and backend
 COPY . /app/
 
-EXPOSE 8000
+EXPOSE 8080
 
-CMD ["uvicorn", "containers.backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD sh -c "uvicorn containers.backend.main:app --host 0.0.0.0 --port ${PORT:-8080}"
