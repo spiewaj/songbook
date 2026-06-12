@@ -32,6 +32,11 @@ export class SongEditor extends HTMLElement {
   <input type="button" id="openUrl" value="Importuj z sieci"/>  
   <button id="buttonSave">Eksportuj plik</button>
   <button id="buttonRenderPdf" type="button">Podgląd PDF</button>
+  <select id="pdfPapersize" style="margin-left: 5px;">
+    <option value="a4">A4</option>
+    <option value="a5">A5</option>
+  </select>
+  <span id="pdfRenderStatus" style="margin-left: 10px; font-weight: bold; font-size: 0.9em;"></span>
 </div>
 
 <div class="gitToolbar">
@@ -166,10 +171,12 @@ export class SongEditor extends HTMLElement {
     this.openUrl.addEventListener("click", () => this.OpenUrl());
     this.buttonSave.addEventListener("click", () => Save(this));
     this.buttonRenderPdf.addEventListener("click", () => {
+      const papersize = this.shadow.getElementById("pdfPapersize").value;
       const renderEvent = new CustomEvent("pdf:render", {
         bubbles: true,
         cancelable: true,
         composed: true,
+        detail: { papersize: papersize }
       });
       this.dispatchEvent(renderEvent);
     });
@@ -205,6 +212,16 @@ export class SongEditor extends HTMLElement {
     }
 
     this.attributeChangedCallback("git");
+    
+    // Clear PDF "Gotowe" status if the user edits anything
+    const clearPdfStatus = () => {
+      const statusSpan = this.shadow.getElementById("pdfRenderStatus");
+      if (statusSpan && statusSpan.innerHTML.includes("Gotowe")) {
+        statusSpan.innerHTML = "";
+      }
+    };
+    this.shadow.addEventListener("input", clearPdfStatus);
+    this.shadow.addEventListener("change", clearPdfStatus);
   }
 
   mapAttribute(attr) {
