@@ -2,7 +2,9 @@
 .idea/
 .python_venv/
 .direnv/
+.venv/
 venv/
+test_venv/
 containers/backend/venv/
 build/
 npmtmp/
