@@ -389,7 +389,11 @@ async def get_job_status(job_id: str):
         raise HTTPException(status_code=500, detail=f"Failed to check storage: {e}")
 
 @app.get("/api/jobs/{job_id}/download")
-async def download_job(job_id: str):
+async def download_job(job_id: str, filename: Optional[str] = None):
+    dl_filename = filename if filename else f"{job_id}.pdf"
+    if not dl_filename.endswith(".pdf"):
+        dl_filename += ".pdf"
+        
     if STORAGE_URI.startswith("gs://"):
         bucket_name = STORAGE_URI[5:]
         storage_client = storage.Client()
@@ -398,13 +402,16 @@ async def download_job(job_id: str):
         if blob.exists():
             pdf_bytes = blob.download_as_bytes()
             from fastapi import Response
-            return Response(content=pdf_bytes, media_type="application/pdf", headers={"Content-Disposition": f"attachment; filename={job_id}.pdf"})
+            import urllib.parse
+            encoded_filename = urllib.parse.quote(dl_filename)
+            headers = {"Content-Disposition": f"attachment; filename*=UTF-8''{encoded_filename}"}
+            return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
     else:
         local_dir = STORAGE_URI
         if STORAGE_URI.startswith("file://"):
             local_dir = STORAGE_URI[7:]
         pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
         if os.path.exists(pdf_path):
-            return FileResponse(pdf_path, media_type="application/pdf", filename=f"{job_id}.pdf")
+            return FileResponse(pdf_path, media_type="application/pdf", filename=dl_filename)
             
     raise HTTPException(status_code=404, detail="File not found")

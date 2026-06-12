@@ -256,8 +256,11 @@
         () => notice("Generowanie PDF... Proszę czekać (może potrwać do kilkunastu sekund)", songbook),
         (url) => {
             notice("PDF wygenerowany!", songbook);
-            if (pdfWindow) pdfWindow.location.href = url;
-            else window.open(url, '_blank');
+            const dateStr = new Date().toISOString().split('T')[0];
+            const filename = encodeURIComponent(`${title || 'piosenka'}_${dateStr}.pdf`);
+            const finalUrl = `${url}?filename=${filename}`;
+            if (pdfWindow) pdfWindow.location.href = finalUrl;
+            else window.open(finalUrl, '_blank');
         },
         (err, errUrl) => {
             alert(err);
