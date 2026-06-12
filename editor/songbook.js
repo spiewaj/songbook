@@ -212,6 +212,16 @@ export class SongEditor extends HTMLElement {
     }
 
     this.attributeChangedCallback("git");
+    
+    // Clear PDF "Gotowe" status if the user edits anything
+    const clearPdfStatus = () => {
+      const statusSpan = this.shadow.getElementById("pdfRenderStatus");
+      if (statusSpan && statusSpan.innerHTML.includes("Gotowe")) {
+        statusSpan.innerHTML = "";
+      }
+    };
+    this.shadow.addEventListener("input", clearPdfStatus);
+    this.shadow.addEventListener("change", clearPdfStatus);
   }
 
   mapAttribute(attr) {
