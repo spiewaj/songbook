@@ -303,7 +303,9 @@ async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks
     job_id = f"job_{uuid.uuid4().hex[:8]}"
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
     work_dir = setup_work_dir(temp_dir)
-    overlay_branch_data(request.branch, work_dir)
+    # We do not overlay branch data for a single song render
+    # because the song is fully provided in xml_content
+    # and all LaTeX templates are already bundled in the Docker image.
     
     xml_path = os.path.join(work_dir, "custom.xml")
     with open(xml_path, "w", encoding="utf-8") as f:
