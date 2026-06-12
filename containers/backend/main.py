@@ -71,6 +71,8 @@ def _fetch_branch_archive(ref: str, warmup: bool = False) -> str:
             if not warmup:
                 if current_etag and os.path.exists(ref_cache_dir):
                     new_etag = current_etag
+                elif isinstance(e, urllib.error.HTTPError) and e.code == 404:
+                    raise HTTPException(status_code=404, detail=f"GitHub archive not found for branch '{ref}'")
                 else:
                     raise HTTPException(status_code=500, detail=f"Failed to check GitHub archive status: {e}")
             else:
@@ -145,7 +147,15 @@ def overlay_branch_data(ref: str, work_dir: str, warmup: bool = False):
     Security: only data directories are copied. No executable code (src/, *.sh,
     *.py) from the branch is ever used.
     """
-    cache_dir = _fetch_branch_archive(ref, warmup=warmup)
+    try:
+        cache_dir = _fetch_branch_archive(ref, warmup=warmup)
+    except HTTPException as e:
+        if e.status_code == 404 and ref != "main":
+            print(f"Branch {ref} not found on upstream, falling back to 'main' branch")
+            cache_dir = _fetch_branch_archive("main", warmup=warmup)
+        else:
+            raise e
+            
     if not cache_dir:
         return
     
