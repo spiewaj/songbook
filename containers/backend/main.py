@@ -69,7 +69,10 @@ def _fetch_branch_archive(ref: str, warmup: bool = False) -> str:
                 new_etag = response.headers.get("ETag")
         except Exception as e:
             if not warmup:
-                raise HTTPException(status_code=500, detail=f"Failed to check GitHub archive status: {e}")
+                if current_etag and os.path.exists(ref_cache_dir):
+                    new_etag = current_etag
+                else:
+                    raise HTTPException(status_code=500, detail=f"Failed to check GitHub archive status: {e}")
             else:
                 return ""
                 
