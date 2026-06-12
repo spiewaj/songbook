@@ -135,7 +135,7 @@ def setup_work_dir(temp_dir: str) -> str:
         dst = os.path.join(work_dir, item)
         if os.path.exists(src):
             if os.path.isdir(src):
-                shutil.copytree(src, dst, dirs_exist_ok=True)
+                shutil.copytree(src, dst, dirs_exist_ok=True, symlinks=True, ignore_dangling_symlinks=True)
             else:
                 shutil.copy2(src, dst)
     return work_dir
