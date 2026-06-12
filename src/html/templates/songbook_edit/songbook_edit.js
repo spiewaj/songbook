@@ -673,7 +673,10 @@ async function renderPDF() {
             }
             if (pdfStatusText) pdfStatusText.style.display = 'none';
             if (pdfDownloadLink) {
-                pdfDownloadLink.href = url;
+                const songbookTitle = document.getElementById('songbookTitle').value.trim() || 'spiewnik';
+                const dateStr = new Date().toISOString().split('T')[0];
+                const filename = encodeURIComponent(`${songbookTitle}_${dateStr}.pdf`);
+                pdfDownloadLink.href = `${url}?filename=${filename}&disposition=inline`;
                 pdfDownloadLink.style.display = 'block';
             }
         },

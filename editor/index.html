@@ -244,25 +244,41 @@
         branch: branch || "main"
       };
 
-      // Open blank window immediately to satisfy popup blocker
-      const pdfWindow = window.open('about:blank', '_blank');
-      if (pdfWindow) {
-          pdfWindow.document.write("<div style='font-family: sans-serif; padding: 20px;'>Trwa generowanie PDF... Proszę czekać (zwykle około 10-20 sekund).</div>");
-      }
-
       renderPdfCloudRun(
         payload, 
         "/api/render/song_xml",
         () => notice("Generowanie PDF... Proszę czekać (może potrwać do kilkunastu sekund)", songbook),
         (url) => {
-            notice("PDF wygenerowany!", songbook);
-            if (pdfWindow) pdfWindow.location.href = url;
-            else window.open(url, '_blank');
+            const dateStr = new Date().toISOString().split('T')[0];
+            const filename = encodeURIComponent(`${title || 'piosenka'}_${dateStr}.pdf`);
+            const finalUrl = `${url}?filename=${filename}&disposition=inline`;
+            
+            const noticeDiv = document.createElement("div");
+            noticeDiv.classList.add("notice");
+            noticeDiv.innerHTML = `
+              <div style="text-align: center;">
+                <p style="margin-bottom: 15px; color: #28a745; font-weight: bold; font-size: 1.1em;">PDF wygenerowany!</p>
+                <a href="${finalUrl}" target="_blank" style="
+                  display: inline-block;
+                  background: #28a745;
+                  color: white;
+                  padding: 12px 24px;
+                  text-decoration: none;
+                  border-radius: 6px;
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                  transition: background 0.2s;
+                ">Gotowe! Otwórz Podgląd PDF</a>
+                <div style="margin-top: 15px;">
+                  <a href="#" onclick="this.parentNode.parentNode.parentNode.remove(); return false;" style="color: #6c757d; font-size: 0.9em; text-decoration: underline;">Zamknij to okienko</a>
+                </div>
+              </div>
+            `;
+            document.body.appendChild(noticeDiv);
         },
         (err, errUrl) => {
-            alert(err);
-            if (pdfWindow && errUrl) pdfWindow.location.href = errUrl;
-            else if (pdfWindow) pdfWindow.close();
+            alert("Błąd generowania: " + err);
         }
       );
     }

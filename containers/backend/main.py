@@ -69,7 +69,12 @@ def _fetch_branch_archive(ref: str, warmup: bool = False) -> str:
                 new_etag = response.headers.get("ETag")
         except Exception as e:
             if not warmup:
-                raise HTTPException(status_code=500, detail=f"Failed to check GitHub archive status: {e}")
+                if current_etag and os.path.exists(ref_cache_dir):
+                    new_etag = current_etag
+                elif isinstance(e, urllib.error.HTTPError) and e.code == 404:
+                    raise HTTPException(status_code=404, detail=f"GitHub archive not found for branch '{ref}'")
+                else:
+                    raise HTTPException(status_code=500, detail=f"Failed to check GitHub archive status: {e}")
             else:
                 return ""
                 
@@ -142,7 +147,15 @@ def overlay_branch_data(ref: str, work_dir: str, warmup: bool = False):
     Security: only data directories are copied. No executable code (src/, *.sh,
     *.py) from the branch is ever used.
     """
-    cache_dir = _fetch_branch_archive(ref, warmup=warmup)
+    try:
+        cache_dir = _fetch_branch_archive(ref, warmup=warmup)
+    except HTTPException as e:
+        if e.status_code == 404 and ref != "main":
+            print(f"Branch {ref} not found on upstream, falling back to 'main' branch")
+            cache_dir = _fetch_branch_archive("main", warmup=warmup)
+        else:
+            raise e
+            
     if not cache_dir:
         return
     
@@ -290,7 +303,9 @@ async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks
     job_id = f"job_{uuid.uuid4().hex[:8]}"
     temp_dir = tempfile.mkdtemp(prefix="songbook_")
     work_dir = setup_work_dir(temp_dir)
-    overlay_branch_data(request.branch, work_dir)
+    # We do not overlay branch data for a single song render
+    # because the song is fully provided in xml_content
+    # and all LaTeX templates are already bundled in the Docker image.
     
     xml_path = os.path.join(work_dir, "custom.xml")
     with open(xml_path, "w", encoding="utf-8") as f:
@@ -389,7 +404,11 @@ async def get_job_status(job_id: str):
         raise HTTPException(status_code=500, detail=f"Failed to check storage: {e}")
 
 @app.get("/api/jobs/{job_id}/download")
-async def download_job(job_id: str):
+async def download_job(job_id: str, filename: Optional[str] = None, disposition: str = "inline"):
+    dl_filename = filename if filename else f"{job_id}.pdf"
+    if not dl_filename.endswith(".pdf"):
+        dl_filename += ".pdf"
+        
     if STORAGE_URI.startswith("gs://"):
         bucket_name = STORAGE_URI[5:]
         storage_client = storage.Client()
@@ -398,13 +417,17 @@ async def download_job(job_id: str):
         if blob.exists():
             pdf_bytes = blob.download_as_bytes()
             from fastapi import Response
-            return Response(content=pdf_bytes, media_type="application/pdf", headers={"Content-Disposition": f"attachment; filename={job_id}.pdf"})
+            import urllib.parse
+            encoded_filename = urllib.parse.quote(dl_filename)
+            headers = {"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded_filename}"}
+            return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
     else:
         local_dir = STORAGE_URI
         if STORAGE_URI.startswith("file://"):
             local_dir = STORAGE_URI[7:]
         pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
         if os.path.exists(pdf_path):
-            return FileResponse(pdf_path, media_type="application/pdf", filename=f"{job_id}.pdf")
+            headers = {"Content-Disposition": f"{disposition}; filename=\"{dl_filename}\""}
+            return FileResponse(pdf_path, media_type="application/pdf", filename=dl_filename, headers=headers)
             
     raise HTTPException(status_code=404, detail="File not found")
