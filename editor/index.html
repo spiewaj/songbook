@@ -76,7 +76,7 @@
          await commit(e.target);
       } );
       songEditor.addEventListener("git:commitAndPublish", (e)=>commitAndPublish(e) );
-      songEditor.addEventListener("pdf:render", (e) => renderPdf(e.target));
+      songEditor.addEventListener("pdf:render", (e) => renderPdf(e.target, e.detail?.papersize || "a4"));
 
       const topNav = document.getElementById("topnav");
       for (const nav of [document.getElementById("topnav"), document.getElementById("bottomnav")]) {
@@ -232,52 +232,54 @@
       }
     }
 
-    async function renderPdf(songbook) {
+    async function renderPdf(songbook, papersize = "a4") {
       const {serialized, title} = songbook.SerializeWithChange();
       const {branch} = parseParams();
       
       const payload = {
         xml_content: serialized,
         format: "single",
-        papersize: "a4",
+        papersize: papersize,
         title: title || "Song",
         branch: branch || "main"
       };
 
+      const statusSpan = songbook.shadowRoot ? songbook.shadowRoot.getElementById("pdfRenderStatus") : null;
+
       renderPdfCloudRun(
         payload, 
         "/api/render/song_xml",
-        () => notice("Generowanie PDF... Proszę czekać (może potrwać do kilkunastu sekund)", songbook),
+        () => {
+            if (statusSpan) {
+                statusSpan.innerHTML = `<span style="color: #0056b3;">⏳ Generowanie PDF... (ok. 10-15s)</span>`;
+            } else {
+                notice("Generowanie PDF... Proszę czekać (może potrwać do kilkunastu sekund)", songbook);
+            }
+        },
         (url) => {
             const dateStr = new Date().toISOString().split('T')[0];
             const filename = encodeURIComponent(`${title || 'piosenka'}_${dateStr}.pdf`);
             const finalUrl = `${url}?filename=${filename}&disposition=inline`;
             
-            const noticeDiv = document.createElement("div");
-            noticeDiv.classList.add("notice");
-            noticeDiv.innerHTML = `
-              <div style="text-align: center;">
-                <p style="margin-bottom: 15px; color: #28a745; font-weight: bold; font-size: 1.1em;">PDF wygenerowany!</p>
-                <a href="${finalUrl}" target="_blank" style="
-                  display: inline-block;
-                  background: #28a745;
-                  color: white;
-                  padding: 12px 24px;
-                  text-decoration: none;
-                  border-radius: 6px;
-                  font-weight: bold;
-                  font-size: 1.1em;
-                  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-                  transition: background 0.2s;
-                ">Gotowe! Otwórz Podgląd PDF</a>
-                <div style="margin-top: 15px;">
-                  <a href="#" onclick="this.parentNode.parentNode.parentNode.remove(); return false;" style="color: #6c757d; font-size: 0.9em; text-decoration: underline;">Zamknij to okienko</a>
-                </div>
-              </div>
-            `;
-            document.body.appendChild(noticeDiv);
+            if (statusSpan) {
+                statusSpan.innerHTML = `<a href="${finalUrl}" target="_blank" style="color: #28a745; text-decoration: underline;">✅ Gotowe! Otwórz PDF</a>`;
+                setTimeout(() => { if (statusSpan.innerHTML.includes('Otwórz PDF')) statusSpan.innerHTML = ''; }, 60000);
+            } else {
+                const noticeDiv = document.createElement("div");
+                noticeDiv.classList.add("notice");
+                noticeDiv.innerHTML = `
+                  <div style="text-align: center;">
+                    <p style="margin-bottom: 15px; color: #28a745; font-weight: bold; font-size: 1.1em;">PDF wygenerowany!</p>
+                    <a href="${finalUrl}" target="_blank" style="display: inline-block; background: #28a745; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">Otwórz Podgląd PDF</a>
+                    <div style="margin-top: 15px;"><a href="#" onclick="this.parentNode.parentNode.parentNode.remove(); return false;">Zamknij to okienko</a></div>
+                  </div>`;
+                document.body.appendChild(noticeDiv);
+            }
         },
         (err, errUrl) => {
+            if (statusSpan) {
+                statusSpan.innerHTML = `<span style="color: #dc3545;">❌ Błąd generowania PDF.</span>`;
+            }
             alert("Błąd generowania: " + err);
         }
       );
