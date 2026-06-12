@@ -392,7 +392,7 @@ async def get_job_status(job_id: str):
         raise HTTPException(status_code=500, detail=f"Failed to check storage: {e}")
 
 @app.get("/api/jobs/{job_id}/download")
-async def download_job(job_id: str, filename: Optional[str] = None):
+async def download_job(job_id: str, filename: Optional[str] = None, disposition: str = "inline"):
     dl_filename = filename if filename else f"{job_id}.pdf"
     if not dl_filename.endswith(".pdf"):
         dl_filename += ".pdf"
@@ -407,7 +407,7 @@ async def download_job(job_id: str, filename: Optional[str] = None):
             from fastapi import Response
             import urllib.parse
             encoded_filename = urllib.parse.quote(dl_filename)
-            headers = {"Content-Disposition": f"attachment; filename*=UTF-8''{encoded_filename}"}
+            headers = {"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded_filename}"}
             return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
     else:
         local_dir = STORAGE_URI
@@ -415,6 +415,7 @@ async def download_job(job_id: str, filename: Optional[str] = None):
             local_dir = STORAGE_URI[7:]
         pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
         if os.path.exists(pdf_path):
-            return FileResponse(pdf_path, media_type="application/pdf", filename=dl_filename)
+            headers = {"Content-Disposition": f"{disposition}; filename=\"{dl_filename}\""}
+            return FileResponse(pdf_path, media_type="application/pdf", filename=dl_filename, headers=headers)
             
     raise HTTPException(status_code=404, detail="File not found")
