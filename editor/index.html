@@ -244,7 +244,7 @@
         branch: branch || "main"
       };
 
-      const statusSpan = songbook.shadow ? songbook.shadow.getElementById("pdfRenderStatus") : null;
+      const statusSpan = songbook.shadowRoot ? songbook.shadowRoot.getElementById("pdfRenderStatus") : null;
 
       renderPdfCloudRun(
         payload, 
