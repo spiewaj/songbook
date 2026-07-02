@@ -617,6 +617,112 @@ function copyToClipboard() {
     alert('Skopiowano do schowka!');
 }
 
+function downloadYAMLDirect() {
+    const yaml = generateYAMLString();
+    if (!yaml) return;
+    
+    const songbookId = document.getElementById('songbookId').value.trim() || 'spiewnik';
+    const filename = `${songbookId}.songbook.yaml`;
+    
+    const blob = new Blob([yaml], { type: 'text/yaml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function loadFromYAMLFile(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const content = e.target.result;
+            let data;
+            if (typeof jsyaml !== 'undefined') {
+                data = jsyaml.load(content);
+            } else {
+                data = JSON.parse(content);
+            }
+            
+            if (!data || !data.songbook) {
+                throw new Error("Nieprawidłowy format pliku: brak obiektu 'songbook'");
+            }
+            
+            const sb = data.songbook;
+            
+            // Populate form fields
+            document.getElementById('songbookId').value = sb.id || '';
+            document.getElementById('songbookTitle').value = sb.title || '';
+            document.getElementById('songbookSubtitle').value = sb.subtitle || '';
+            document.getElementById('songbookPublisher').value = sb.publisher || '';
+            document.getElementById('songbookPlace').value = sb.place || '';
+            
+            userEditedId = !!sb.id; // Prevents auto-generation of ID
+            
+            // Clear current selections
+            selectedSongIds.clear();
+            dynamicFilters = [];
+            filterCounter = 0;
+            activeAggregatedFilters.clear();
+            
+            // Parse songs
+            if (sb.songs && Array.isArray(sb.songs)) {
+                sb.songs.forEach(item => {
+                    if (item.glob) {
+                        let found = false;
+                        for (const song of allSongs) {
+                            if (song.path === item.glob || `songs/**/${song.id}.xml` === item.glob) {
+                                selectedSongIds.add(song.id);
+                                found = true;
+                                break;
+                            }
+                        }
+                        // Fallback
+                        if (!found) {
+                            const match = item.glob.match(/([^\/]+)\.xml$/);
+                            if (match) {
+                                const songId = match[1];
+                                if (songById.has(songId)) {
+                                    selectedSongIds.add(songId);
+                                }
+                            }
+                        }
+                    } else if (item.genre && item.genre.equals) {
+                        addDynamicFilter('genre', item.genre.equals);
+                        activeAggregatedFilters.set(`genre:${item.genre.equals}`, { type: 'genre', value: item.genre.equals });
+                    } else if (item.artist && item.artist.equals) {
+                        addDynamicFilter('artist', item.artist.equals);
+                        activeAggregatedFilters.set(`artist:${item.artist.equals}`, { type: 'artist', value: item.artist.equals });
+                    } else if (item.text_author && item.text_author.equals) {
+                        addDynamicFilter('text_author', item.text_author.equals);
+                        activeAggregatedFilters.set(`text_author:${item.text_author.equals}`, { type: 'text_author', value: item.text_author.equals });
+                    }
+                });
+            }
+            
+            // Render updates
+            renderDynamicFilters();
+            renderSongList();
+            renderSelectedSongs();
+            
+            alert('Śpiewnik został pomyślnie wczytany!');
+            
+        } catch (error) {
+            alert('Błąd podczas wczytywania pliku: ' + error.message);
+        }
+        
+        // Clear input
+        event.target.value = '';
+    };
+    reader.readAsText(file);
+}
+
 async function renderPDF() {
     const yaml = generateYAMLString();
     if (!yaml) return;
