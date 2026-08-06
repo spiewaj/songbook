@@ -18,3 +18,39 @@ function escapeHtml(text) {
     div.textContent = text;
     return div.innerHTML;
 }
+// Theme management
+(function() {
+    function setTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        // Update toggle icons if they exist
+        const toggles = document.querySelectorAll('.theme-toggle .material-symbols-outlined');
+        toggles.forEach(icon => {
+            icon.textContent = theme === 'dark' ? 'light_mode' : 'dark_mode';
+        });
+    }
+
+    // Initialize theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        setTheme(savedTheme);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const toggles = document.querySelectorAll('.theme-toggle .material-symbols-outlined');
+        toggles.forEach(icon => {
+            icon.textContent = currentTheme === 'dark' ? 'light_mode' : 'dark_mode';
+        });
+    });
+
+    // Expose toggle function
+    window.toggleTheme = function(event) {
+        if (event) event.preventDefault();
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+    };
+})();
