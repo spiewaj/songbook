@@ -11,5 +11,34 @@
 
     gtag('config', 'G-7Y471H19PW');
     </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+        let wakeLock = null;
+        
+        const requestWakeLock = async () => {
+            try {
+                if ('wakeLock' in navigator) {
+                    wakeLock = await navigator.wakeLock.request('screen');
+                    wakeLock.addEventListener('release', () => {
+                        console.log('Screen Wake Lock released');
+                    });
+                    console.log('Screen Wake Lock active');
+                }
+            } catch (err) {
+                console.error('Wake Lock error: ', err);
+            }
+        };
+
+        await requestWakeLock();
+
+        document.addEventListener('visibilitychange', async () => {
+            if (wakeLock !== null) {
+                if (document.visibilityState === 'visible') {
+                    await requestWakeLock();
+                }
+            }
+        });
+    });
+    </script>
     <script src="./../common.js"></script>
 </root>

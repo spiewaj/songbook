@@ -168,11 +168,12 @@ def create_index_html(list_of_songs_meta, target_dir):
         if not songbook.hidden():
             li = etree.SubElement(ul, "li", attrib={"id": songbook.id()})
             li.text=songbook.title() + ":"
-            a_epub = etree.SubElement(ul, "a", attrib={"class": "epub", "href": songbook.id()+".epub"})
+            div = etree.SubElement(li, "div")
+            a_epub = etree.SubElement(div, "a", attrib={"class": "epub", "href": songbook.id()+".epub"})
             a_epub.text = "EPUB (kindle)"
-            a_a5pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a5.pdf")})
+            a_a5pdf = etree.SubElement(div, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a5.pdf")})
             a_a5pdf.text = "PDF (a5)"
-            a_a4pdf = etree.SubElement(ul, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
+            a_a4pdf = etree.SubElement(div, "a", attrib={"class": "pdf", "href": os.path.join("songs_tex", songbook.id()+"_a4.pdf")})
             a_a4pdf.text = "PDF (a4)"
     # Update html lang attribute
     html_root = tree.getroot()

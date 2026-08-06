@@ -22,6 +22,15 @@
         // When search box is focused, select all text
         document.addEventListener("DOMContentLoaded", function() {
             const searchBox = document.getElementById("songSearch");
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get('search');
+            if (searchQuery) {
+                searchBox.value = searchQuery;
+                // Defer the filtering slightly to ensure the list is ready
+                setTimeout(filterSongs, 100);
+            }
+
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
             });

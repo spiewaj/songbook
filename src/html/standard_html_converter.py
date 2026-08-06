@@ -129,7 +129,11 @@ class StandardHtmlConverter(SongConverter):
         span_label = etree.SubElement(div, "span", attrib={"class": "label"})
         span_label.text = describe
         span_content = etree.SubElement(div, "span", attrib={"class": "content_creator"})
-        span_content.text = creator
+        
+        import urllib.parse
+        search_query = urllib.parse.quote(creator)
+        a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html?search={search_query}"})
+        a_tag.text = creator
 
     def _add_blocks(self, song, parent):
         """class song -> html div body # blok z metadanymi o piosence i piosenką"""
