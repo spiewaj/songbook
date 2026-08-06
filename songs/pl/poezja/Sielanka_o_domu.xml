@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sielanka o domu">
-	<alias></alias>
+	<alias>A jeśli dom będę miał</alias>
 	<text_author type="solo">Wojciech Bellon</text_author>
-	<comment></comment>
 	<composer type="solo">Wacław Juszczyn</composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="A"/>A jeśli <ch a="h7"/>dom będę <ch a="cis7"/>miał<ch a="A7+"/></row>
 			<row important_over="true">To <ch a="D"/>będzie bu<ch a="E9"/>kowy ko<ch a="A"/>niecznie<ch a="A7+"/></row>
@@ -28,65 +24,46 @@
 			<row important_over="true">A <ch a="G"/>niebo nade mną <ch a="D"/>ja<ch a="d"/>k gó<ch a="A"/>ry<ch a="A4"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Gdy głosy usłyszę u drzwi</row>
-			<row important_over="false">Czyjekolwiek, wejdźcie — poproszę</row>
-			<row important_over="false">Jestem zbieraczem głosów</row>
-			<row important_over="false">A dom mój bardzo lubi gdy</row>
-			<row important_over="false">Śmiech ściany mu rozjaśnia</row>
-			<row important_over="false">I gędźby lubi i pieśni</row>
-			<row important_over="false">Wpadnijcie na parę chwil</row>
-			<row important_over="false">Kiedy los was zawiedzie w te strony</row>
-			<row important_over="false">Bo dom mój otworem stoi</row>
-			<row important_over="false">Dla takich jak my</row>
-			<row important_over="false">Dla takich jak wy</row>
+			<row important_over="never">Gdy głosy usłyszę u drzwi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="A7+"/></row>
+			<row important_over="never">Czyjekolwiek, wejdźcie — poproszę<ch a="D"/><ch a="E9"/><ch a="A"/><ch a="A7+"/></row>
+			<row important_over="never">Jestem zbieraczem głosów<ch a="h7"/><ch a="E9"/><ch a="cis7"/><ch a="A7/4"/></row>
+			<row important_over="never">A dom mój bardzo lubi gdy<ch a="D"/><ch a="E4"/><ch a="E"/></row>
+			<row important_over="never">Śmiech ściany mu rozjaśnia<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="never">I gędźby lubi i pieśni<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="Fis0"/></row>
+			<row important_over="never">Wpadnijcie na parę chwil<ch a="h7"/><ch a="E7"/><ch a="A7/4"/><ch a="A7/6"/></row>
+			<row important_over="never">Kiedy los was zawiedzie w te strony<ch a="D"/><ch a="E4"/><ch a="E"/></row>
+			<row important_over="never">Bo dom mój otworem stoi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="G0"/></row>
+			<row important_over="never">Dla takich jak my<ch a="h7"/><ch a="E7"/><ch a="cis7"/><ch a="G0"/></row>
+			<row important_over="never">Dla takich jak wy<ch a="h7"/><ch a="E7"/><ch a="A"/><ch a="A4"/><ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Zaproszę dzień i noc</row>
-			<row important_over="false">Zaproszę cztery wiatry</row>
-			<row important_over="false">Dla wszystkich drzwi otwarte</row>
-			<row important_over="false">Ktoś poda pierwszy ton</row>
-			<row important_over="false">Zagramy na góry koncert</row>
-			<row important_over="false">Buków porą pachnącą</row>
-			<row important_over="false">Nasiąkną ściany grą</row>
-			<row important_over="false">A zmęczonym wędrownikom</row>
-			<row important_over="false">Odpocząć pozwolą muzyką</row>
-			<row important_over="false">Bo taki będzie mój dom</row>
-			<row important_over="false">Bo taki będzie mój dom</row>
-			<row important_over="false">Bo taki będzie mój dom</row>
+			<row important_over="false" sidechords="A h7 cis7 A7+">Zaproszę dzień i noc</row>
+			<row important_over="false" sidechords="D E9 A A7+">Zaproszę cztery wiatry</row>
+			<row important_over="false" sidechords="h7 E9 cis7 A7/4">Dla wszystkich drzwi otwarte</row>
+			<row important_over="false" sidechords="D E4 E">Ktoś poda pierwszy ton</row>
+			<row important_over="false" sidechords="A A7 D E">Zagramy na góry koncert</row>
+			<row important_over="false" sidechords="A h7 cis7 Fis0">Buków porą pachnącą</row>
+			<row important_over="false" sidechords="h7 E7 A7/4 A7/6">Nasiąkną ściany grą</row>
+			<row important_over="false" sidechords="D E4 E">A zmęczonym wędrownikom</row>
+			<row important_over="false" sidechords="A h7 cis7 G0">Odpocząć pozwolą muzyką</row>
+			<row important_over="false" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
+			<row important_over="false" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
+			<row important_over="false" sidechords="h7 E7 A A4 A">Bo taki będzie mój dom</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
 	<status>
-		<verificators><verificator>Jan Inowolski</verificator>
-			
-		</verificators>
-		<to_do></to_do>
-		<done>	
-			
-			
-			
-			
-			
+		<done>
 			<text/>
 			<authors/>
 		</done>
+		<verificators>
+			<verificator>Jan Inowolski</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
 </song>
