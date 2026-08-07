@@ -19,6 +19,7 @@
     <script type="text/javascript" src="common.js"> </script>
     <script type="text/javascript" src="index.js"> </script>
     <script type="text/javascript">
+// <![CDATA[
         // When search box is focused, select all text
         document.addEventListener("DOMContentLoaded", function() {
             const searchBox = document.getElementById("songSearch");
@@ -58,7 +59,7 @@
                 // Count the number of songs in the list that are visible
                 let visibleSongsCount = 0;
                 let firstSong = null;
-                for (let i = 0; i &lt; songsList.children.length; i++) {
+                for (let i = 0; i < songsList.children.length; i++) {
                     const songItem = songsList.children[i];
                     if (songItem.style.display !== 'none') {
                         visibleSongsCount++;
@@ -67,7 +68,7 @@
                         }
                     }
                 }
-                if (visibleSongsCount === 1 &amp;&amp; firstSong) {
+                if (visibleSongsCount === 1 && firstSong) {
                     const songLink = firstSong.querySelector("a");
                     if (songLink) {
                         const href = songLink.getAttribute("href");
@@ -86,6 +87,7 @@
             songbook.classList.toggle('expanded');
             //toggleHeader.classList.toggle('active');
         }
+// ]]>
     </script>
 </head>
 <body>
