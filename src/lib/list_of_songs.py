@@ -4,7 +4,7 @@ import icu #do sortowania po polskich znakach
 import glob
 
 class SongMeta:
-    def __init__(self, title='', alias='', path='', genre='', artist='', lang='', text_author=''):
+    def __init__(self, title='', alias='', path='', genre='', artist='', lang='', text_author='', composer='', album=''):
         self._title = title if title else ''
         self._alias = alias if alias else ''
         self._plik = path
@@ -12,10 +12,12 @@ class SongMeta:
         self._artist = artist if artist else None
         self._lang = lang if lang else 'pl'
         self._text_author = text_author if text_author else None
+        self._composer = composer if composer else None
+        self._album = album if album else None
 
     def __repr__(self) -> str:
-      return "{" + "File:{} Title:{} Alias:{} Artist:{} Genre:{} Lang:{} TextAuthor:{}".format(
-          self.plik(), self._title, self._alias, self._artist, self._genre, self._lang, self._text_author
+      return "{" + "File:{} Title:{} Alias:{} Artist:{} Genre:{} Lang:{} TextAuthor:{} Composer:{} Album:{}".format(
+          self.plik(), self._title, self._alias, self._artist, self._genre, self._lang, self._text_author, self._composer, self._album
       ) + "}"
 
     def base_file_name(self):
@@ -34,6 +36,8 @@ class SongMeta:
             artist=elementTextOrNone(root.find('{*}artist')),
             lang=root.get('lang'),
             text_author=elementTextOrNone(root.find('{*}text_author')),
+            composer=elementTextOrNone(root.find('{*}composer')),
+            album=elementTextOrNone(root.find('{*}album')),
         )
 
     def effectiveTitle(self):
@@ -59,6 +63,12 @@ class SongMeta:
 
     def text_author(self):
         return self._text_author
+
+    def composer(self):
+        return self._composer
+
+    def album(self):
+        return self._album
 
 class AliasMeta:
     def __init__(self, alias, song_meta):
@@ -91,6 +101,12 @@ class AliasMeta:
 
     def text_author(self):
         return self._song_meta.text_author()
+
+    def composer(self):
+        return self._song_meta.composer()
+
+    def album(self):
+        return self._song_meta.album()
 
     def is_alias(self):
         return True

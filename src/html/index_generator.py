@@ -156,6 +156,16 @@ def create_index_html(list_of_songs_meta, target_dir):
         if song.artist():
             artist = etree.SubElement(a_main, "span", attrib={"class": "artist"})
             artist.text = song.artist()
+            
+        # Hidden metadata for search indexing
+        def add_hidden_meta(text, cls):
+            if text:
+                span = etree.SubElement(a_main, "span", attrib={"class": f"{cls} search-hidden", "style": "display:none;"})
+                span.text = text
+                
+        add_hidden_meta(song.composer(), "composer")
+        add_hidden_meta(song.text_author(), "text_author")
+        add_hidden_meta(song.album(), "album")
         
         # Add onclick to li for backward compatibility with existing CSS/JS
         li.attrib['onclick'] = "if(event.target.tagName.toLowerCase() !== 'a' && event.target.tagName.toLowerCase() !== 'button' && !event.target.closest('a') && !event.target.closest('button')) { location.href='"+song_html+"'; }"

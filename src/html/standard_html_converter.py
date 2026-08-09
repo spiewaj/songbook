@@ -123,17 +123,20 @@ class StandardHtmlConverter(SongConverter):
             else:
                 self._add_row(ro, div_verse)
 
-    def _add_creator(self, creator, describe, parent):
+    def _add_creator(self, creator, describe, parent, searchable=True):
         """class creator -> html div creator # metadane piosenki"""
         div = etree.SubElement(parent, "div", attrib={"class": "creator"})
         span_label = etree.SubElement(div, "span", attrib={"class": "label"})
         span_label.text = describe
         span_content = etree.SubElement(div, "span", attrib={"class": "content_creator"})
         
-        import urllib.parse
-        search_query = urllib.parse.quote(creator)
-        a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html?search={search_query}"})
-        a_tag.text = creator
+        if searchable:
+            import urllib.parse
+            search_query = urllib.parse.quote(creator)
+            a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html?search={search_query}"})
+            a_tag.text = creator
+        else:
+            span_content.text = creator
 
     def _add_blocks(self, song, parent):
         """class song -> html div body # blok z metadanymi o piosence i piosenką"""
@@ -141,25 +144,25 @@ class StandardHtmlConverter(SongConverter):
         h1_title = etree.SubElement(body_song, "h1", attrib={"class": "title", "id": "title"})
         h1_title.text = song.title
         if song.original_title:
-            self._add_creator(song.original_title, "Tytuł oryginalny: ", body_song)
+            self._add_creator(song.original_title, "Tytuł oryginalny: ", body_song, searchable=False)
         if song.alias:
-            self._add_creator(song.alias, "Tytuł alternatywny: ", body_song)
+            self._add_creator(song.alias, "Tytuł alternatywny: ", body_song, searchable=False)
         if song.text_author:
-            self._add_creator(song.text_author, "Słowa: ", body_song)
+            self._add_creator(song.text_author, "Słowa: ", body_song, searchable=True)
         if song.translator:
-            self._add_creator(song.translator, "Tłumaczenie: ", body_song)
+            self._add_creator(song.translator, "Tłumaczenie: ", body_song, searchable=True)
         if song.composer:
-            self._add_creator(song.composer, "Muzyka: ", body_song)
+            self._add_creator(song.composer, "Muzyka: ", body_song, searchable=True)
         if song.music_source:
-            self._add_creator(song.music_source, "Melodia oparta na: ", body_song)
+            self._add_creator(song.music_source, "Melodia oparta na: ", body_song, searchable=True)
         if song.artist:
-            self._add_creator(song.artist, "Wykonawca: ", body_song)
+            self._add_creator(song.artist, "Wykonawca: ", body_song, searchable=True)
         if song.album:
-            self._add_creator(song.album, "Album: ", body_song)
+            self._add_creator(song.album, "Album: ", body_song, searchable=True)
         if song.metre:
-            self._add_creator(song.metre, "Metrum: ", body_song)
+            self._add_creator(song.metre, "Metrum: ", body_song, searchable=False)
         if song.barre and int(song.barre) > 0:
-            self._add_creator(song.barre, "Kapodaster: ", body_song)
+            self._add_creator(song.barre, "Kapodaster: ", body_song, searchable=False)
 
         corpse = etree.SubElement(body_song, "div", attrib={"class": "song_body", "id": "song_body"})
         verse_cnt = 0
