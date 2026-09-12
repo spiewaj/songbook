@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7Y471H19PW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-7Y471H19PW');
+    </script>
+    <meta charset="utf-8" />
+    <title>O nas - Społecznościowy śpiewnik spiewaj.com</title>
+    <meta name="description" content="Poznaj spiewaj.com – otwarty, społecznościowy śpiewnik harcerski i turystyczny. Dowiedz się, jak współtworzyć bazę piosenek i jak korzystać ze śpiewnika na Kindle i w druku." />
+    <link rel="canonical" href="https://spiewaj.com/o-nas.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="songs_html/CSS/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="common.js"></script>
+</head>
+
+<body>
+    <div class="top-navigation">
+        <a href="index.html">[Powrót do śpiewnika]</a>
+        <a href="podrukowane.html">[Druk śpiewnika]</a>
+        <a href="kindle.html">[Na Kindle]</a>
+        <a href="https://ghe.spiewaj.com/users/me/changes:new">[Dodaj piosenkę]</a>
+        <a href="https://github.com/spiewaj/songbook/tree/main/songs">[github]</a>
+        <a href="#" onclick="toggleTheme(event)" class="theme-toggle" title="Przełącz motyw"
+            style="margin-left: auto; display: flex; align-items: center; text-decoration: none; color: inherit;">
+            <span class="material-symbols-outlined">light_mode</span>
+        </a>
+    </div>
+
+    <div class="content-container">
+        <h1>O projekcie spiewaj.com</h1>
+        
+        <p>
+            <strong>spiewaj.com</strong> to otwarty, wolontariacki śpiewnik tworzony przez harcerzy (projekt powstał w środowisku <a href="http://21wdw.staszic.waw.pl" target="_blank" rel="noopener">21 WDW – 21wdw.staszic.waw.pl</a>), wędrowników, turystów i wszystkich miłośników wspólnego śpiewania przy gitarze.
+            Powstał z potrzeby stworzenia jednego, rzetelnego źródła tekstów i akordów, wolnego od wszechobecnych w sieci błędów i niewygodnych formatów.
+        </p>
+
+        <h2>Model społecznościowy (Community-Driven)</h2>
+        <p>
+            Wierzymy, że najlepszy śpiewnik to taki, który żyje razem ze swoją społecznością. Całość projektu jest w pełni otwarta (open-source) i dostępna na <a href="https://github.com/spiewaj/songbook" target="_blank" rel="noopener">GitHubie</a>.
+        </p>
+        <p>
+            Każdy może w prosty sposób dołożyć swoją cegiełkę:
+        </p>
+        <ul>
+            <li><strong>Dodawanie i poprawianie piosenek w przeglądarce:</strong> Korzystając z naszego prostego edytora webowego (<a href="https://ghe.spiewaj.com/users/me/changes:new" target="_blank" rel="noopener">Dodaj nową piosenkę</a> lub klikając <em>[Popraw piosenkę]</em> na stronie dowolnego utworu), możesz zaproponować nowe utwory lub poprawić chwyty.</li>
+            <li><strong>Ustrukturyzowany format:</strong> Piosenki zapisujemy w ustrukturyzowanym formacie XML. Dzięki temu akordy są ściśle powiązane ze słowami, co pozwala automatycznie transponować tonacje oraz generować różne formaty docelowe (strona WWW, PDF do druku, e-book na Kindle).</li>
+            <li><strong>Wspólne recenzowanie zmian:</strong> Każda edycja trafia do repozytorium jako propozycja zmian, gdzie jest sprawdzana pod kątem poprawności tekstu i harmonii.</li>
+        </ul>
+
+        <h2>Jeden zbiór piosenek – wiele wygodnych formatów</h2>
+        <p>
+            Wspólne śpiewanie odbywa się w różnych warunkach – przy biurku z laptopem, na szlaku ze smartfonem, w namiocie z czytnikiem e-ink lub przy ognisku z papierowym śpiewnikiem w ręku. Dlatego dbamy o to, by każda piosenka była dostępna w optymalnym formacie:
+        </p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3><span class="material-symbols-outlined">devices</span> Strona internetowa WWW</h3>
+                <p>Szybka wyszukiwarka, bezpośrednie linki do utworów, obsługa blokady wygaszania ekranu telefonu (Wake Lock) oraz dopracowany tryb nocny, który nie oślepia po zmroku.</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="material-symbols-outlined">menu_book</span> Rewolucyjny śpiewnik na Kindle</h3>
+                <p>
+                    Dedykowane wydanie EPUB na czytniki e-book. Zaprojektowane tak, aby umożliwić <strong>błyskawiczne skakanie między utworami bez konieczności przewijania dziesiątek stron</strong> w ciemności.
+                    <br /><a href="kindle.html">Dowiedz się więcej o śpiewniku na Kindle &rarr;</a>
+                </p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="material-symbols-outlined">picture_as_pdf</span> Pliki PDF (A4 i A5)</h3>
+                <p>Każda piosenka oraz całe śpiewniki mają wygenerowane wersje PDF z profesjonalnym składem w LaTeX – gotowe do wydrukowania na domowej drukarce.</p>
+            </div>
+            <div class="feature-card">
+                <h3><span class="material-symbols-outlined">print</span> Profesjonalny druk z Podrukowane</h3>
+                <p>
+                    Dzięki integracji z Drukarnią Harcerską Podrukowane (Chorągiew Stołeczna ZHP) możesz wybrać ulubione utwory z naszej bazy i zamówić gotowy, zszyty śpiewnik papierowy w dowolnym nakładzie.
+                    <br /><a href="podrukowane.html">Zobacz jak zamówić wydruk &rarr;</a>
+                </p>
+            </div>
+        </div>
+
+        <h2>Jak możesz pomóc?</h2>
+        <p>
+            Projekt jest tworzony non-profit. Możesz pomóc na wiele sposobów:
+        </p>
+        <ol>
+            <li><strong>Dodaj piosenki:</strong> Jeśli Twoja drużyna lub paczka znajomych śpiewa utwór, którego jeszcze u nas nie ma – dodaj go przez edytor!</li>
+            <li><strong>Zgłaszaj poprawki:</strong> Zauważyłeś literówkę w tekście albo nieprecyzyjny chwyt? Popraw go jednym kliknięciem.</li>
+            <li><strong>Pomóż programistycznie:</strong> Kod generatora stron, konwerterów na Kindle i składu LaTeX jest otwarty. Zapraszamy programistów Pythona i frontendu na nasz <a href="https://github.com/spiewaj/songbook" target="_blank" rel="noopener">GitHub</a>.</li>
+        </ol>
+    </div>
+
+    <div class="bottom-navigation">
+        <a href="index.html">[Powrót do śpiewnika]</a>
+        <a href="podrukowane.html">[Druk śpiewnika]</a>
+        <a href="kindle.html">[Śpiewnik na Kindle]</a>
+    </div>
+</body>
+
+</html>
