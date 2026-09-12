@@ -352,4 +352,10 @@ def main():
             os.remove(target_path)
         os.symlink(source_path, target_path)
 
+    # Create symlink for robots.txt
+    robots_path = os.path.join(target_dir, "robots.txt")
+    if os.path.exists(robots_path):
+        os.remove(robots_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "robots.txt"), robots_path)
+
 main()
