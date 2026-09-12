@@ -198,6 +198,25 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     sitemap_path = os.path.join(target_dir, "sitemap.xml")
     root = etree.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     base = "https://spiewaj.com/"
+
+    # Add main page and informational static pages
+    static_pages = [
+        ("", "daily", "1.0"),
+        ("o-nas.html", "monthly", "0.8"),
+        ("podrukowane.html", "monthly", "0.8"),
+        ("kindle.html", "monthly", "0.8"),
+    ]
+    for page_rel, freq, priority in static_pages:
+        url = etree.SubElement(root, "url")
+        loc = etree.SubElement(url, "loc")
+        loc.text = os.path.join(base, page_rel)
+        lastmod = etree.SubElement(url, "lastmod")
+        lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+        changefreq = etree.SubElement(url, "changefreq")
+        changefreq.text = freq
+        prio = etree.SubElement(url, "priority")
+        prio.text = priority
+
     for song in list_of_songs_meta:
         if song.is_alias():
             continue
@@ -357,5 +376,24 @@ def main():
     if os.path.exists(robots_path):
         os.remove(robots_path)
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "robots.txt"), robots_path)
+
+    # Create symlinks for informational static pages
+    for page in ["podrukowane.html", "o-nas.html", "kindle.html"]:
+        page_target = os.path.join(target_dir, page)
+        page_source = os.path.join(sb.repo_dir(), 'src', 'html', 'templates', page)
+        if os.path.exists(page_target):
+            os.remove(page_target)
+        os.symlink(page_source, page_target)
+
+    # Create symlink for images
+    images_target_dir = os.path.join(target_dir, "images")
+    if os.path.islink(images_target_dir):
+        os.remove(images_target_dir)
+    elif os.path.exists(images_target_dir):
+        import shutil
+        shutil.rmtree(images_target_dir)
+    images_source_dir = os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "images")
+    if os.path.exists(images_source_dir):
+        os.symlink(images_source_dir, images_target_dir)
 
 main()
