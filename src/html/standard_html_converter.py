@@ -133,7 +133,7 @@ class StandardHtmlConverter(SongConverter):
         if searchable:
             import urllib.parse
             search_query = urllib.parse.quote(creator)
-            a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html?search={search_query}"})
+            a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html#search={search_query}"})
             a_tag.text = creator
         else:
             span_content.text = creator
@@ -253,6 +253,11 @@ class StandardHtmlConverter(SongConverter):
         etree.SubElement(head, "meta", attrib={"name": "description", "content": f"{desc_text} {title_text}"})
         etree.SubElement(head, "meta", attrib={"property": "og:title", "content": title_text})
         etree.SubElement(head, "meta", attrib={"property": "og:type", "content": "music.song"})
+        
+        # Add canonical URL
+        base_name = os.path.splitext(os.path.basename(src_xml_path))[0]
+        canonical_url = f"https://spiewaj.com/songs_html/{base_name}.html"
+        etree.SubElement(head, "link", attrib={"rel": "canonical", "href": canonical_url})
         
         if song.artist:
             etree.SubElement(head, "meta", attrib={"name": "author", "content": song.artist})

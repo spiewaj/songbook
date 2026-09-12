@@ -25,12 +25,37 @@
             const searchBox = document.getElementById("songSearch");
             
             const urlParams = new URLSearchParams(window.location.search);
-            const searchQuery = urlParams.get('search');
+            let searchQuery = urlParams.get('search');
+            
+            // Support hash-based search for better SEO and snippets
+            if (!searchQuery && window.location.hash) {
+                if (window.location.hash.startsWith('#search=')) {
+                    searchQuery = decodeURIComponent(window.location.hash.substring(8));
+                } else if (window.location.hash.startsWith('#songSearch=')) {
+                    searchQuery = decodeURIComponent(window.location.hash.substring(12));
+                }
+            }
+
             if (searchQuery) {
                 searchBox.value = searchQuery;
                 // Defer the filtering slightly to ensure the list is ready
                 setTimeout(filterSongs, 100);
             }
+
+            // Handle back/forward navigation or hash changes on the same page
+            window.addEventListener('hashchange', function() {
+                let newQuery = null;
+                if (window.location.hash.startsWith('#search=')) {
+                    newQuery = decodeURIComponent(window.location.hash.substring(8));
+                } else if (window.location.hash.startsWith('#songSearch=')) {
+                    newQuery = decodeURIComponent(window.location.hash.substring(12));
+                }
+                
+                if (newQuery !== null) {
+                    searchBox.value = newQuery;
+                    filterSongs();
+                }
+            });
 
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
