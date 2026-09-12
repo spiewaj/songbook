@@ -69,13 +69,12 @@ jobs:
         run: |
           mkdir -p _site/songs_html _site/songs_tex _site/songs_pdf _site/images
           unzip -o _generated/*.zip -d _site
-          mv _generated/*.html _generated/sitemap.xml _generated/*.json _generated/songbook_edit.* _site/
+          mv _generated/*.html _generated/*.css _generated/*.js _generated/*.json _generated/sitemap.xml _site/
           [ -f _generated/robots.txt ] && mv _generated/robots.txt _site/
           [ -d _generated/images ] && cp -R _generated/images/* _site/images/
           mv _generated/*.pdf _site/songs_tex/
           mv _generated/songs_pdf/*.pdf _site/songs_pdf
           mv _generated/*.epub _site/
-          mv _generated/*.js _site/
           cp -R editor _site/
           ls -la _site/
 
