@@ -200,72 +200,70 @@ div.top-navigation {
 [data-theme="dark"] .pdflink:hover .material-symbols-outlined,
 [data-theme="dark"] .pdflink:hover .pdf-label { color: #ff6b6b; }
 
-/* --- Print Banner --- */
-.print-banner {
+/* --- Songbooks Info Grid (Kindle & Print) --- */
+.songbooks-info-grid {
     display: flex;
-    align-items: center;
-    gap: 1em;
-    background-color: #fff8e1;
-    border: 1px solid #ffe082;
-    border-left: 5px solid #ffb300;
-    border-radius: 8px;
-    padding: 1em 1.2em;
-    margin: 1.5em 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin-top: 1.5em;
+    padding-top: 1.2em;
+    border-top: 1px solid #dee2e6;
+}
+
+.songbooks-info-grid .info-item {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8em;
     font-size: 0.95em;
     line-height: 1.5;
+    color: #495057;
 }
 
-.print-banner .print-icon {
-    font-size: 28px;
-    color: #e65100;
+.songbooks-info-grid .info-item .info-icon {
+    font-size: 24px;
+    color: #0056b3;
     flex-shrink: 0;
+    margin-top: 0.1em;
 }
 
-.print-banner-content {
+.songbooks-info-grid .info-item p {
+    margin: 0;
+    padding: 0;
     flex: 1;
-    color: #424242;
+    text-align: left;
 }
 
-.print-banner-content a {
-    color: #d84315;
+.songbooks-info-grid .info-item a {
+    color: #0056b3;
     font-weight: 500;
     word-break: break-all;
 }
 
-.print-banner-content a:hover {
-    color: #bf360c;
+.songbooks-info-grid .info-item a:hover {
+    color: #007bff;
     text-decoration: underline;
 }
 
-.print-banner-content .more-info-link {
-    display: inline-block;
-    margin-left: 0.5em;
-    font-weight: bold;
-    white-space: nowrap;
+/* Dark mode for songbooks info grid */
+[data-theme="dark"] .songbooks-info-grid {
+    border-top-color: #383838;
 }
 
-/* Dark mode for print banner */
-[data-theme="dark"] .print-banner {
-    background-color: #2a2415;
-    border-color: #5d4a1b;
-    border-left-color: #ffb300;
+[data-theme="dark"] .songbooks-info-grid .info-item {
+    color: #dcdcdc;
 }
 
-[data-theme="dark"] .print-banner .print-icon {
-    color: #ffb74d;
+[data-theme="dark"] .songbooks-info-grid .info-item .info-icon {
+    color: #64b5f6;
 }
 
-[data-theme="dark"] .print-banner-content {
-    color: #f0e6d2;
+[data-theme="dark"] .songbooks-info-grid .info-item a {
+    color: #64b5f6;
 }
 
-[data-theme="dark"] .print-banner-content a {
-    color: #ffb74d;
-}
-
-[data-theme="dark"] .print-banner-content a:hover {
-    color: #ffe082;
+[data-theme="dark"] .songbooks-info-grid .info-item a:hover {
+    color: #90caf9;
 }
 
 /* --- Content Page Styles (o-nas, podrukowane, kindle) --- */

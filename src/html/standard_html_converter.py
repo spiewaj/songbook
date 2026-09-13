@@ -248,42 +248,82 @@ class StandardHtmlConverter(SongConverter):
         if song.artist:
             title_text = f"{song.title} - {song.artist}"
         
-        # Localized description text
-        desc_text = "Tekst i chwyty piosenki" if lang_code == 'pl' else "Lyrics and chords for"
-        etree.SubElement(head, "meta", attrib={"name": "description", "content": f"{desc_text} {title_text}"})
-        etree.SubElement(head, "meta", attrib={"property": "og:title", "content": title_text})
-        etree.SubElement(head, "meta", attrib={"property": "og:type", "content": "music.song"})
-        
         # Add canonical URL
         base_name = os.path.splitext(os.path.basename(src_xml_path))[0]
         canonical_url = f"https://spiewaj.com/songs_html/{base_name}.html"
         etree.SubElement(head, "link", attrib={"rel": "canonical", "href": canonical_url})
-        
+
+        # Rich page title and meta description
+        if lang_code == 'pl':
+            page_title = f"{title_text} - tekst i chwyty na gitarę | spiewaj.com"
+            meta_desc = f"Tekst i chwyty na gitarę do piosenki {title_text}. Zobacz pełny tekst, chwyty i diagramy akordów. Pobierz śpiewnik w formacie PDF lub EPUB (Kindle)."
+        else:
+            page_title = f"{title_text} - lyrics and chords | spiewaj.com"
+            meta_desc = f"Lyrics and guitar chords for {title_text}. View full lyrics, chords, and download PDF or EPUB songbook."
+
+        etree.SubElement(head, "meta", attrib={"name": "description", "content": meta_desc})
+
+        # Open Graph tags
+        etree.SubElement(head, "meta", attrib={"property": "og:title", "content": page_title})
+        etree.SubElement(head, "meta", attrib={"property": "og:description", "content": meta_desc})
+        etree.SubElement(head, "meta", attrib={"property": "og:type", "content": "music.song"})
+        etree.SubElement(head, "meta", attrib={"property": "og:url", "content": canonical_url})
+        etree.SubElement(head, "meta", attrib={"property": "og:site_name", "content": "spiewaj.com"})
+
+        # Twitter Card tags
+        etree.SubElement(head, "meta", attrib={"name": "twitter:card", "content": "summary"})
+        etree.SubElement(head, "meta", attrib={"name": "twitter:title", "content": page_title})
+        etree.SubElement(head, "meta", attrib={"name": "twitter:description", "content": meta_desc})
+
         if song.artist:
             etree.SubElement(head, "meta", attrib={"name": "author", "content": song.artist})
         
         # Extract plain lyrics for SEO
         plain_lyrics = song.extract_plain_lyrics()
         
-        # JSON-LD structured data for rich snippets with lyrics
+        # JSON-LD structured data for rich snippets with Breadcrumbs and Lyrics
         script_ld = etree.SubElement(head, "script", attrib={"type": "application/ld+json"})
-        ld_json = {
-            "@context": "https://schema.org",
+        composition_data = {
             "@type": "MusicComposition",
             "name": song.title,
-            "inLanguage": lang_code
+            "inLanguage": lang_code,
+            "url": canonical_url
         }
         if song.composer:
-            ld_json["composer"] = {"@type": "Person", "name": song.composer}
+            composition_data["composer"] = {"@type": "Person", "name": song.composer}
         if song.text_author:
-            ld_json["lyricist"] = {"@type": "Person", "name": song.text_author}
+            composition_data["lyricist"] = {"@type": "Person", "name": song.text_author}
         if song.artist:
-            ld_json["author"] = {"@type": "Person", "name": song.artist}
+            composition_data["author"] = {"@type": "Person", "name": song.artist}
         if plain_lyrics:
-            ld_json["lyrics"] = {
+            composition_data["lyrics"] = {
                 "@type": "CreativeWork",
                 "text": plain_lyrics
             }
+
+        ld_json = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Śpiewnik",
+                            "item": "https://spiewaj.com/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": song.title,
+                            "item": canonical_url
+                        }
+                    ]
+                },
+                composition_data
+            ]
+        }
         
         import json
         script_ld.text = json.dumps(ld_json, ensure_ascii=False, indent=2)
@@ -302,7 +342,7 @@ class StandardHtmlConverter(SongConverter):
 
         self._add_blocks(song, root_html)
         title = etree.SubElement(head, "title")
-        title.text = title_text
+        title.text = page_title
         et = etree.ElementTree(root_html)
         for s in song_suffix:
            body.append(interpret(copy.deepcopy(s), substitions))
