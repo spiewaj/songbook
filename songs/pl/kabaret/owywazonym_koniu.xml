@@ -10,11 +10,11 @@
       <row important_over="true">Zanim Cię wy<ch a="G"/>wiodą w pole</row>
       <row important_over="true"><ch a="D"/>Krzyż Ci dadzą <ch a="G"/>albo <ch a="A"/>broń.</row>
       <row important_over="true"><ch a="h7"/>Popatrz stoi <ch a="e7"/>na cokole</row>
-      <row important_over="true"><ch a="D"/>Wywa<ch a="G"/>żony <ch a="A"/>koń</row>
+      <row important_over="false"><ch a="D"/>Wywa<ch a="G"/>żony <ch a="A"/>koń</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="D"/>On się na to <ch a="G"/>patrzeć wstydzi,</row>
-      <row important_over="true"><ch a="D"/>Bo spod wywa<ch a="G"/>żonej <ch a="A"/>grzywy</row>
+      <row important_over="false"><ch a="D"/>Bo spod wywa<ch a="G"/>żonej <ch a="A"/>grzywy</row>
       <row important_over="true"><ch a="h7"/>Koń to wszystko <ch a="e7"/>wokół <ch a="A7"/>widzi</row>
       <row important_over="true"><ch a="D"/>Z innej <ch a="G"/>perspe<ch a="A"/>kty<ch a="D"/>wy.</row>
     </block>
@@ -43,9 +43,9 @@
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="G"/>Koniu nisko <ch a="H7"/>zwisa ogon.</row>
-        <row important_over="true"><ch a="e"/>Koń ma jakąś <ch a="A"/>taką głębię.</row>
-        <row important_over="true"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+        <row important_over="false"><ch a="G"/>Koniu nisko <ch a="H7"/>zwisa ogon.</row>
+        <row important_over="false"><ch a="e"/>Koń ma jakąś <ch a="A"/>taką głębię.</row>
+        <row important_over="false"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
         <row important_over="true"><ch a="D"/>Poszczot<ch a="A"/>kować w <ch a="D"/>kłębie.</row>
       </bis>
     </block>
@@ -59,10 +59,10 @@
       <row important_over="false"><ch a="D"/>Dajże <ch a="G"/>koniu <ch a="A"/>żyć.</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="D"/>W tym tkwi całej <ch a="G"/>sprawy sedno.</row>
+      <row important_over="false"><ch a="D"/>W tym tkwi całej <ch a="G"/>sprawy sedno.</row>
       <row important_over="true"><ch a="D"/>Też mu ciążą <ch a="D"/>nasze <ch a="A"/>losy.</row>
-      <row important_over="true"><ch a="h7"/>Koniu nie jest <ch a="e7"/>wszystko jedno,</row>
-      <row important_over="true"><ch a="D"/>Tylko <ch a="G"/>ma już <ch a="A"/>do<ch a="D"/>syć.</row>
+      <row important_over="false"><ch a="h7"/>Koniu nie jest <ch a="e7"/>wszystko jedno,</row>
+      <row important_over="false"><ch a="D"/>Tylko <ch a="G"/>ma już <ch a="A"/>do<ch a="D"/>syć.</row>
     </block>
     <block type="chorus">
       <bis times="2">
@@ -76,7 +76,7 @@
       <row important_over="false" style="instr"> <ch a="G"/><ch a="H"/><ch a="e"/><ch a="A"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
+      <row important_over="false"><ch a="D"/>Temu <ch a="G"/>koniu <ch a="Gis7"/>wszyscy <ch a="A7"/>mogą</row>
     </block>
     <block type="verse">
       <row important_over="false" style="instr"> <ch a="D"/><ch a="A"/><ch a="D"/></row>

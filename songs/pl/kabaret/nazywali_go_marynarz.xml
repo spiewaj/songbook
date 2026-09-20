@@ -10,27 +10,27 @@
     </block>
     <block type="verse">
       <row important_over="true">Nazy<ch a="d"/>wali <ch a="C"/>go Ma<ch a="d"/>rynarz,</row>
-      <row important_over="true">Bo o<ch a="d"/>paskę <ch a="C"/>miał na <ch a="d"/>oku,</row>
+      <row important_over="false">Bo o<ch a="d"/>paskę <ch a="C"/>miał na <ch a="d"/>oku,</row>
       <row important_over="true"><ch a="g"/>Na każdym stoku dziew<ch a="d"/>czyna,</row>
       <row important_over="true">Dziew<ch a="d"/>czyna na <ch a="A"/>każdym <ch a="d"/>stoku.</row>
     </block>
     <block type="verse">
-      <row important_over="true">Po<ch a="d"/>chodzi <ch a="C"/>spod Poz<ch a="d"/>nania,</row>
+      <row important_over="false">Po<ch a="d"/>chodzi <ch a="C"/>spod Poz<ch a="d"/>nania,</row>
       <row important_over="true">Po<ch a="d"/>dobno <ch a="C"/>umie <ch a="F"/>wróżyć z kart,</row>
-      <row important_over="true"><ch a="g"/>Panny rwie na wią<ch a="d"/>zania,</row>
+      <row important_over="false"><ch a="g"/>Panny rwie na wią<ch a="d"/>zania,</row>
       <row important_over="true">Mę<ch a="B"/>żatki <ch a="A"/>na długość <ch a="d"/>nart.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Ca<ch a="d"/>ryco <ch a="A"/>mokrego <ch a="d"/>śniegu,</row>
+      <row important_over="false">Ca<ch a="d"/>ryco <ch a="A"/>mokrego <ch a="d"/>śniegu,</row>
       <row important_over="true">Ra<ch a="d"/>trakiem płynę do ciebie pod <ch a="g"/>prąd,</row>
-      <row important_over="true"><ch a="g"/>Dobrze, że stoisz na <ch a="d"/>brzegu,</row>
-      <row important_over="true">Bo ja <ch a="B"/>właśnie <ch a="A"/>schodzę na <ch a="d"/>ląd…</row>
+      <row important_over="false"><ch a="g"/>Dobrze, że stoisz na <ch a="d"/>brzegu,</row>
+      <row important_over="false">Bo ja <ch a="B"/>właśnie <ch a="A"/>schodzę na <ch a="d"/>ląd…</row>
     </block>
     <block type="verse">
-      <row important_over="true">Nigdy <ch a="d"/>się nie <ch a="C"/>lękał <ch a="d"/>biedy,</row>
-      <row important_over="true">I się <ch a="d"/>nie przej<ch a="C"/>mował <ch a="d"/>jutrem.</row>
-      <row important_over="true">A <ch a="g"/>jego ratrak był <ch a="d"/>kiedyś,</row>
-      <row important_over="true">Zwy<ch a="B"/>czajnym ry<ch a="A"/>backim <ch a="d"/>kutrem.</row>
+      <row important_over="false">Nigdy <ch a="d"/>się nie <ch a="C"/>lękał <ch a="d"/>biedy,</row>
+      <row important_over="false">I się <ch a="d"/>nie przej<ch a="C"/>mował <ch a="d"/>jutrem.</row>
+      <row important_over="false">A <ch a="g"/>jego ratrak był <ch a="d"/>kiedyś,</row>
+      <row important_over="false">Zwy<ch a="B"/>czajnym ry<ch a="A"/>backim <ch a="d"/>kutrem.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>I woził <ch a="C"/>dorsze i <ch a="d"/>śledzie,</row>

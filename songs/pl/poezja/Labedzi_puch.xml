@@ -6,13 +6,13 @@
       <row important_over="true"><ch a="h"/>Z monoklem w oku, <ch a="Fis"/>w podróż do wód</row>
       <row important_over="true"><ch a="a"/>Ze śpiewem opon <ch a="E"/>po nitkach dróg</row>
       <row important_over="true"><ch a="A"/>W salach lustrzanych po <ch a="D7+"/>świt, blady świt wielki b<ch a="cis"/>al.<ch a="Fis"/></row>
-      <row important_over="true">Białym latawcem w górę do gwiazd<ch a="h"/><ch a="Fis"/></row>
-      <row important_over="true">Chmurką z dmuchawca do ptasich gniazd<ch a="a"/><ch a="E"/></row>
-      <row important_over="true">Może jutro, lecz dziś, dziś wszystko mam.<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
+      <row important_over="false">Białym latawcem w górę do gwiazd<ch a="h"/><ch a="Fis"/></row>
+      <row important_over="false">Chmurką z dmuchawca do ptasich gniazd<ch a="a"/><ch a="E"/></row>
+      <row important_over="false">Może jutro, lecz dziś, dziś wszystko mam.<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a6/9"/>Niezmiennie kołysz mni<ch a="a7/9"/>e</row>
-      <row important_over="true"><ch a="a6/9"/>Bezsennie kołysz <ch a="a7/9"/>mnie</row>
+      <row important_over="false"><ch a="a6/9"/>Bezsennie kołysz <ch a="a7/9"/>mnie</row>
       <row important_over="true"><ch a="h"/>Za ścianą pijany<ch a="E6"/> świat w koło kręci się<ch a="cis"/><ch a="Fis"/></row>
       <row important_over="never">Niezmiennie kołysz mnie</row>
       <row important_over="never">Bezsennie kołysz mnie</row>
@@ -23,9 +23,9 @@
       <row important_over="never">W nim ja.</row>
     </block>
     <block type="verse">
-      <row important_over="true">Z twarzą w ekranie w nudę i fałsz<ch a="h"/><ch a="Fis"/></row>
-      <row important_over="true">W mydlanej pianie ulicznych plansz<ch a="a"/><ch a="E"/></row>
-      <row important_over="true">W piesko niebieski, w rzuciki w krzyżyki ten raj<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
+      <row important_over="false">Z twarzą w ekranie w nudę i fałsz<ch a="h"/><ch a="Fis"/></row>
+      <row important_over="false">W mydlanej pianie ulicznych plansz<ch a="a"/><ch a="E"/></row>
+      <row important_over="false">W piesko niebieski, w rzuciki w krzyżyki ten raj<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
       <row important_over="never">W święta kolęda, przyjęcia raut</row>
       <row important_over="never">Porannej twarzy wytworny kształt</row>
       <row important_over="never">Kłębi się wczoraj, lecz ty, ty chwilo trwaj.</row>

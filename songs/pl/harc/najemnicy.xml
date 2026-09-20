@@ -10,15 +10,15 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">W dż<ch a="F"/>unglach Kat<ch a="B"/>angi <ch a="F"/>i bagnach K<ch a="C"/>onga,</row>
-			<row important_over="true">W st<ch a="F"/>epach Jem<ch a="B"/>enu, w pi<ch a="F"/>askach Sud<ch a="C"/>anu,</row>
-			<row important_over="true">Gdzi<ch a="F"/>e śmierć swe żn<ch a="B"/>iwa zb<ch a="F"/>iera codzi<ch a="C"/>ennie</row>
-			<row important_over="true">W<ch a="F"/>alczą psy w<ch a="B"/>ojny, n<ch a="F"/>ajemni żołni<ch a="C"/>erze.</row>
+			<row important_over="false">W st<ch a="F"/>epach Jem<ch a="B"/>enu, w pi<ch a="F"/>askach Sud<ch a="C"/>anu,</row>
+			<row important_over="false">Gdzi<ch a="F"/>e śmierć swe żn<ch a="B"/>iwa zb<ch a="F"/>iera codzi<ch a="C"/>ennie</row>
+			<row important_over="false">W<ch a="F"/>alczą psy w<ch a="B"/>ojny, n<ch a="F"/>ajemni żołni<ch a="C"/>erze.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Czerwone ł<ch a="F"/>uny na ni<ch a="B"/>ebie, cz<ch a="F"/>arna dokoła n<ch a="C"/>oc</row>
-			<row important_over="true">I n<ch a="F"/>aprzód, wciąż n<ch a="B"/>aprzód n<ch a="F"/>ajemni żołni<ch a="C"/>erze</row>
+			<row important_over="false">Czerwone ł<ch a="F"/>uny na ni<ch a="B"/>ebie, cz<ch a="F"/>arna dokoła n<ch a="C"/>oc</row>
+			<row important_over="false">I n<ch a="F"/>aprzód, wciąż n<ch a="B"/>aprzód n<ch a="F"/>ajemni żołni<ch a="C"/>erze</row>
 			<bis times="2">
-				<row important_over="true">I v<ch a="F"/>ive la gu<ch a="B"/>erre, i v<ch a="F"/>ive la m<ch a="C"/>orte…</row>
+				<row important_over="false">I v<ch a="F"/>ive la gu<ch a="B"/>erre, i v<ch a="F"/>ive la m<ch a="C"/>orte…</row>
 			</bis>
 		</block>
 		<block type="verse">

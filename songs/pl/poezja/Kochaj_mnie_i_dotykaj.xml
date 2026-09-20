@@ -9,22 +9,22 @@
 		<block type="verse">
 			<row important_over="true"><ch a="C"/> Dawnych mist<ch a="G"/>yków ludzkiej duszy pi<ch a="F"/>eśń</row>
 			<row important_over="true">Księż<ch a="G"/>yca ciemna strona</row>
-			<row important_over="true"><ch a="C"/> Słońce zab<ch a="G"/>ija na raty n<ch a="F"/>as</row>
+			<row important_over="false"><ch a="C"/> Słońce zab<ch a="G"/>ija na raty n<ch a="F"/>as</row>
 			<row important_over="true">W n<ch a="G"/>adfiolecie</row>
-			<row important_over="true"><ch a="C"/> Schodami do ni<ch a="G"/>eba zacząłem się pi<ch a="F"/>ąć</row>
+			<row important_over="false"><ch a="C"/> Schodami do ni<ch a="G"/>eba zacząłem się pi<ch a="F"/>ąć</row>
 			<row important_over="true">Tam ni<ch a="G"/>e ma autostrady</row>
-			<row important_over="true"><ch a="C"/> Myślę o T<ch a="G"/>obie, a ptakiem jest m<ch a="F"/>yśl</row>
+			<row important_over="false"><ch a="C"/> Myślę o T<ch a="G"/>obie, a ptakiem jest m<ch a="F"/>yśl</row>
 			<row important_over="true">Zbytek sł<ch a="C"/>ów</row>
 			<row important_over="true">Me świ<ch a="a"/>aty są obce bez n<ch a="E"/>ocy i dnia</row>
 			<row important_over="true">Tam wi<ch a="G"/>ersze z obłędu powst<ch a="F"/>ają</row>
-			<row important_over="true"><ch a="C"/> Lecz póki tu j<ch a="G"/>estem, proszę, kochaj mni<ch a="F"/>e,</row>
+			<row important_over="false"><ch a="C"/> Lecz póki tu j<ch a="G"/>estem, proszę, kochaj mni<ch a="F"/>e,</row>
 			<row important_over="true">Dotykaj mni<ch a="C"/>e…</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Dot<ch a="F"/>ykaj delik<ch a="d"/>atnie, bezszel<ch a="B"/>estnie, ci<ch a="C"/>epłem palców</row>
-			<row important_over="true">Dot<ch a="F"/>ykaj, aksam<ch a="d"/>itnie, rzęs pokł<ch a="B"/>onem, ni<ch a="C"/>e przestawaj</row>
-			<row important_over="true">Dot<ch a="F"/>ykaj, całow<ch a="d"/>aniem i odd<ch a="B"/>echem, t<ch a="C"/>ak jak lubisz</row>
-			<row important_over="true">Dot<ch a="F"/>ykaj, smugą wł<ch a="d"/>osów, niby m<ch a="B"/>uślin, ból<ch a="C"/>owi zadaj ból</row>
+			<row important_over="false">Dot<ch a="F"/>ykaj, aksam<ch a="d"/>itnie, rzęs pokł<ch a="B"/>onem, ni<ch a="C"/>e przestawaj</row>
+			<row important_over="false">Dot<ch a="F"/>ykaj, całow<ch a="d"/>aniem i odd<ch a="B"/>echem, t<ch a="C"/>ak jak lubisz</row>
+			<row important_over="false">Dot<ch a="F"/>ykaj, smugą wł<ch a="d"/>osów, niby m<ch a="B"/>uślin, ból<ch a="C"/>owi zadaj ból</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="C"/> Kochaniem sam<ch a="G"/>otność można wypić do dn<ch a="F"/>a</row>
@@ -46,19 +46,19 @@
 			<row important_over="true">Dam ci j<ch a="E"/>e, nie bój si<ch a="a"/>ę, nie bój s<ch a="A"/>ię</row>
 		</block>
 		<block type="verse">
-			<row important_over="true"><ch a="C"/> Dziwne jest pi<ch a="G"/>ękne, wciąż twierdzę t<ch a="F"/>ak</row>
-			<row important_over="true">G<ch a="G"/>orsząc dewotów</row>
-			<row important_over="true"><ch a="C"/> Na urodz<ch a="G"/>iny sam sobie dziś d<ch a="F"/>am</row>
-			<row important_over="true">Zn<ch a="G"/>ak pokoju</row>
-			<row important_over="true"><ch a="C"/> Kochaniem sam<ch a="G"/>otność można wypić do dn<ch a="F"/>a</row>
-			<row important_over="true">Ch<ch a="G"/>oć to trudne</row>
-			<row important_over="true"><ch a="C"/> Więcej nic ni<ch a="G"/>e mów, tylko przytul si<ch a="F"/>ę</row>
-			<row important_over="true">Dotykaj mni<ch a="C"/>e…</row>
+			<row important_over="false"><ch a="C"/> Dziwne jest pi<ch a="G"/>ękne, wciąż twierdzę t<ch a="F"/>ak</row>
+			<row important_over="false">G<ch a="G"/>orsząc dewotów</row>
+			<row important_over="false"><ch a="C"/> Na urodz<ch a="G"/>iny sam sobie dziś d<ch a="F"/>am</row>
+			<row important_over="false">Zn<ch a="G"/>ak pokoju</row>
+			<row important_over="false"><ch a="C"/> Kochaniem sam<ch a="G"/>otność można wypić do dn<ch a="F"/>a</row>
+			<row important_over="false">Ch<ch a="G"/>oć to trudne</row>
+			<row important_over="false"><ch a="C"/> Więcej nic ni<ch a="G"/>e mów, tylko przytul si<ch a="F"/>ę</row>
+			<row important_over="false">Dotykaj mni<ch a="C"/>e…</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="true"><ch a="C"/> I więcej nic ni<ch a="G"/>e mów, tylko kochaj mni<ch a="F"/>e</row>
-			<row important_over="true">Jestem Tw<ch a="C"/>ój…</row>
+			<row important_over="false"><ch a="C"/> I więcej nic ni<ch a="G"/>e mów, tylko kochaj mni<ch a="F"/>e</row>
+			<row important_over="false">Jestem Tw<ch a="C"/>ój…</row>
 		</block>
 	</lyric>
 	<music metre="4/4">

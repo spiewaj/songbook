@@ -14,7 +14,7 @@
       <row important_over="true"><ch a="G"/>On mnie prowadził nad morze </row>
       <row important_over="true">I mierzwił mi warkoczyk. <ch a="C"/></row>
       <row important_over="true"><ch a="F"/> Splot był słoneczny, słon<ch a="C"/>eczny był Split, </row>
-      <row important_over="true"><ch a="F"/>Nie był niegrzeczny i gr<ch a="C"/>zeczny nie był zbyt, </row>
+      <row important_over="false"><ch a="F"/>Nie był niegrzeczny i gr<ch a="C"/>zeczny nie był zbyt, </row>
       <row important_over="true"><ch a="G"/>Mierzwił, czarował, całował </row>
       <row important_over="true">I śpiewał aż po świt: <ch a="C"/></row>
     </block>
@@ -23,17 +23,17 @@
       <row important_over="true"><ch a="C"/>Ukrast ću te, znaj, moja m<ch a="A"/>ala bj<ch a="d"/>onda, </row>
       <row important_over="true"><ch a="d"/>Diri diri din, di diri din donda, </row>
       <row important_over="true"><ch a="d"/>Voljet ću te j<ch a="G"/>a, moja m<ch a="C"/>ala bjonda, </row>
-      <row important_over="true">La, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">La, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Wszystkie koszule z rozcięciem, <ch a="C"/></row>
-      <row important_over="false">Bo zarost miał na klatce, <ch a="G"/></row>
-      <row important_over="false">Mówił, że dziadek był księciem, <ch a="G"/></row>
-      <row important_over="false">A zęby ma po matce, <ch a="C"/></row>
+      <row important_over="true">Wszystkie koszule z rozcięciem, <ch a="C"/></row>
+      <row important_over="true">Bo zarost miał na klatce, <ch a="G"/></row>
+      <row important_over="true">Mówił, że dziadek był księciem, <ch a="G"/></row>
+      <row important_over="true">A zęby ma po matce, <ch a="C"/></row>
       <row important_over="false">Że ma gitarę i zna basistę Queen, <ch a="F"/><ch a="C"/></row>
       <row important_over="false">Ma pod Zadarem rozlewnię białych win <ch a="F"/><ch a="C"/></row>
-      <row important_over="false">I czy ja w sumie rozumiem, <ch a="G"/></row>
-      <row important_over="false">Co znaczy &quot;diri din&quot;? <ch a="C"/></row>
+      <row important_over="true">I czy ja w sumie rozumiem, <ch a="G"/></row>
+      <row important_over="true">Co znaczy &quot;diri din&quot;? <ch a="C"/></row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
@@ -44,9 +44,9 @@
     </block>
     <block type="verse">
       <row important_over="true">I uśmiechaj się do męża, do żony, <ch a="Cis"/></row>
-      <row important_over="true">Każdy dobrze wie, na co biją dzwony, <ch a="Cis"/><ch a="B"/><ch a="dis"/></row>
+      <row important_over="false">Każdy dobrze wie, na co biją dzwony, <ch a="Cis"/><ch a="B"/><ch a="dis"/></row>
       <row important_over="true">Póki w sercu gra, zapomnij o wstydzie <ch a="dis"/></row>
-      <row important_over="true">Młodość jeszcze trwa, gdy choć raz na tydzień... <ch a="dis"/><ch a="Gis"/><ch a="Cis"/></row>
+      <row important_over="false">Młodość jeszcze trwa, gdy choć raz na tydzień... <ch a="dis"/><ch a="Gis"/><ch a="Cis"/></row>
       <row important_over="true">Diri diri din, din, din, <ch a="Gis"/></row>
       <row important_over="true">Diri diri don, don, don, <ch a="Cis"/></row>
       <row important_over="true">Diri diri din, din, din <ch a="Gis"/></row>

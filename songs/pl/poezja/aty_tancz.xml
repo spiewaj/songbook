@@ -11,8 +11,8 @@
     <block type="verse">
       <row important_over="true"><ch a="D"/>Zawitał czar <ch a="C"/>poezji   </row>
       <row important_over="true"><ch a="G"/>Z właścicielem słów i <ch a="D"/>wierszy</row>
-      <row important_over="true">Rozlano pierwsze butelki<ch a="D"/><ch a="C"/></row>
-      <row important_over="true">Z wina źródła pociechy<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Rozlano pierwsze butelki<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Z wina źródła pociechy<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Marek cichutko zaśpiewa<ch a="D"/><ch a="C"/></row>
@@ -21,10 +21,10 @@
       <row important_over="false">W mym pokoju gości wielu<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true">A ty tańcz moja zasłono<ch a="D"/><ch a="C"/></row>
-      <row important_over="true">I ty, papierowy lampionie<ch a="G"/><ch a="D"/></row>
-      <row important_over="true">I tańcz moja koszulo<ch a="D"/><ch a="C"/></row>
-      <row important_over="true">Wietrze owiewaj me dłonie<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">A ty tańcz moja zasłono<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">I ty, papierowy lampionie<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">I tańcz moja koszulo<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Wietrze owiewaj me dłonie<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Jak gołębie lecące<ch a="D"/><ch a="C"/></row>

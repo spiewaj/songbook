@@ -6,18 +6,18 @@
     <block type="verse">
       <row important_over="true"><ch a="G"/>Słońce ma się już ku zachodo<ch a="C"/>wi</row>
       <row important_over="true">Czerw<ch a="C"/>ienią góry maluj<ch a="D"/>e</row>
-      <row important_over="true"><ch a="G"/>Przez Biskupi Łan podąż<ch a="C"/>a</row>
-      <row important_over="true"><ch a="C"/>Brodząc w trawy po szyj<ch a="D"/>ę</row>
+      <row important_over="false"><ch a="G"/>Przez Biskupi Łan podąż<ch a="C"/>a</row>
+      <row important_over="false"><ch a="C"/>Brodząc w trawy po szyj<ch a="D"/>ę</row>
       <row important_over="true"><ch a="h"/>Zanurzam się w doli<ch a="C"/>nę</row>
-      <row important_over="true"><ch a="h"/>Wdycham żywiczny za<ch a="C"/>pach lasu</row>
+      <row important_over="false"><ch a="h"/>Wdycham żywiczny za<ch a="C"/>pach lasu</row>
       <row important_over="true">Je<ch a="a7"/>szcze strumień, jesz<ch a="C"/>cze potok</row>
       <row important_over="true">I bę<ch a="a7"/>dę znów u<ch a="C"/> siebie w domu <ch a="D"/> </row>
     </block>
     <block type="chorus">
       <row important_over="true"> <ch a="G"/>Jeszcze chwila, jes<ch a="C"/>zcze dwie<ch a="G"/> </row>
-      <row important_over="true"><ch a="C"/>I znów stanę u <ch a="D"/>stóp raju</row>
-      <row important_over="true"><ch a="G"/>Przed Polańską gdzi<ch a="C"/>e we mgle <ch a="G"/> </row>
-      <row important_over="true"><ch a="a7"/>Gniade konie skubi<ch a="C"/>ą trawę <ch a="D"/> </row>
+      <row important_over="false"><ch a="C"/>I znów stanę u <ch a="D"/>stóp raju</row>
+      <row important_over="false"><ch a="G"/>Przed Polańską gdzi<ch a="C"/>e we mgle <ch a="G"/> </row>
+      <row important_over="false"><ch a="a7"/>Gniade konie skubi<ch a="C"/>ą trawę <ch a="D"/> </row>
     </block>
     <block type="verse">
       <row important_over="false">Śpiew Łemków po dolinie<ch a="G"/><ch a="C"/></row>

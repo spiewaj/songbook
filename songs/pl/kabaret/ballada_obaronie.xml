@@ -13,14 +13,14 @@
       <row important_over="true"><ch a="g"/>Baron z prawdziwem <ch a="A7"/>Niedźwie<ch a="d"/>dziem.</row>
       <row important_over="never"/>
       <row important_over="true"><ch a="d"/>Chodzili sobie w lato upalne</row>
-      <row important_over="true"><ch a="g"/>Na Agrykole zielo<ch a="d"/>ne,</row>
-      <row important_over="true"><ch a="A"/>Takie dwa byty <ch a="d"/>transcendentalne:</row>
-      <row important_over="true"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
+      <row important_over="false"><ch a="g"/>Na Agrykole zielo<ch a="d"/>ne,</row>
+      <row important_over="false"><ch a="A"/>Takie dwa byty <ch a="d"/>transcendentalne:</row>
+      <row important_over="false"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
       <row important_over="never"/>
       <row important_over="true"><ch a="C"/>Niedźwiedź miał trochę miodu na <ch a="F"/>paszczy,</row>
       <row important_over="true">A Baron <ch a="C7"/>oczy przekrwio<ch a="F"/>ne,</row>
-      <row important_over="true"><ch a="A"/>Bo żywot wiedli strasznie hu<ch a="d"/>laszczy</row>
-      <row important_over="true"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
+      <row important_over="false"><ch a="A"/>Bo żywot wiedli strasznie hu<ch a="d"/>laszczy</row>
+      <row important_over="false"><ch a="g"/>Niedźwiedź z prawdziwem <ch a="A7"/>Baro<ch a="d"/>nem.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>I przehulaliby cały pałac,</row>
@@ -42,15 +42,15 @@
       <row important_over="false" style="instr"> <ch a="D"/><ch a="A7"/><ch a="D"/><ch a="A7"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="d"/>Słuchajcie ludzie ballady mojej,</row>
-      <row important_over="true"><ch a="g"/>Co już skończona jest pra<ch a="d"/>wie,</row>
-      <row important_over="true"><ch a="A"/>Mieszkają sobie <ch a="d"/>zgodnie we troje</row>
-      <row important_over="true"><ch a="g"/>Na Myśliwieckiej w <ch a="A7"/>Warsza<ch a="d"/>wie,</row>
+      <row important_over="false"><ch a="d"/>Słuchajcie ludzie ballady mojej,</row>
+      <row important_over="false"><ch a="g"/>Co już skończona jest pra<ch a="d"/>wie,</row>
+      <row important_over="false"><ch a="A"/>Mieszkają sobie <ch a="d"/>zgodnie we troje</row>
+      <row important_over="false"><ch a="g"/>Na Myśliwieckiej w <ch a="A7"/>Warsza<ch a="d"/>wie,</row>
       <row important_over="never"/>
-      <row important_over="true"><ch a="d"/>Czy ciepła wiosna i kwitną kwiaty,</row>
-      <row important_over="true"><ch a="g"/>Czy mokra jesień ponu<ch a="d"/>ra:</row>
-      <row important_over="true"><ch a="A"/>Baron prawdziwy, <ch a="d"/>Niedźwiedź wąsaty</row>
-      <row important_over="true"><ch a="g"/>Oraz Helena <ch a="A7"/>Wichu<ch a="d"/>ra.</row>
+      <row important_over="false"><ch a="d"/>Czy ciepła wiosna i kwitną kwiaty,</row>
+      <row important_over="false"><ch a="g"/>Czy mokra jesień ponu<ch a="d"/>ra:</row>
+      <row important_over="false"><ch a="A"/>Baron prawdziwy, <ch a="d"/>Niedźwiedź wąsaty</row>
+      <row important_over="false"><ch a="g"/>Oraz Helena <ch a="A7"/>Wichu<ch a="d"/>ra.</row>
     </block>
   </lyric>
   <keywords/>

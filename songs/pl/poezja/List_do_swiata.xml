@@ -12,9 +12,9 @@
       <row important_over="true"><ch a="C"/>Na moim podwórzu jest ściana łaciata<ch a="F"/><ch a="C"/></row>
       <row important_over="true"><ch a="F"/>Na ścianie tej dzieci list piszą do świata<ch a="G"/></row>
       <row important_over="true"><ch a="C"/>Ogromny zbiorowy list<ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>W tym liście są żale i skargi dziecięce<ch a="F"/><ch a="C"/></row>
-      <row important_over="true"><ch a="F"/>Pisane niedbale bazgrane naprędce<ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Gdy z okien nie patrzy nikt<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>W tym liście są żale i skargi dziecięce<ch a="F"/><ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Pisane niedbale bazgrane naprędce<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Gdy z okien nie patrzy nikt<ch a="G"/></row>
       <row important_over="true"><ch a="F"/>Gdy z okien nie patrzy nikt<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">

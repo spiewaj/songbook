@@ -11,12 +11,12 @@
 		<block type="verse">
 			<row important_over="true">Przy m<ch a="d"/>ałej wiejskiej kapl<ch a="C"/>iczce</row>
 			<row important_over="true">Stoj<ch a="C"/>ącej wedle dr<ch a="d"/>ogi</row>
-			<row important_over="true"><ch a="d"/>Ukląkł rzępoląc na skrz<ch a="C"/>ypkach</row>
-			<row important_over="true">Wędr<ch a="C"/>owny grajek ub<ch a="d"/>ogi</row>
-			<row important_over="true">Od cz<ch a="d"/>asu do czasu graj<ch a="C"/>ący</row>
-			<row important_over="true">Bezz<ch a="C"/>ębne otwierał w<ch a="d"/>argi</row>
-			<row important_over="true">T<ch a="d"/>o przekomarzał się z B<ch a="C"/>ogiem</row>
-			<row important_over="true">To zn<ch a="C"/>owu się korzył bez sk<ch a="d"/>argi</row>
+			<row important_over="false"><ch a="d"/>Ukląkł rzępoląc na skrz<ch a="C"/>ypkach</row>
+			<row important_over="false">Wędr<ch a="C"/>owny grajek ub<ch a="d"/>ogi</row>
+			<row important_over="false">Od cz<ch a="d"/>asu do czasu graj<ch a="C"/>ący</row>
+			<row important_over="false">Bezz<ch a="C"/>ębne otwierał w<ch a="d"/>argi</row>
+			<row important_over="false">T<ch a="d"/>o przekomarzał się z B<ch a="C"/>ogiem</row>
+			<row important_over="false">To zn<ch a="C"/>owu się korzył bez sk<ch a="d"/>argi</row>
 		</block>
 		<block type="verse">
 			<bis>

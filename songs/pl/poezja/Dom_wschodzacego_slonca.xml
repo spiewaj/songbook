@@ -11,7 +11,7 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Przez ciemne szyby zagląda już mrok<ch a="C"/><ch a="D"/><ch a="F"/></row>
       <row important_over="true"><ch a="a"/>W łóżeczku mały chłopiec śpi<ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Sen jakiś dziwny wykrzywił mu twarz<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Sen jakiś dziwny wykrzywił mu twarz<ch a="C"/><ch a="D"/><ch a="F"/></row>
       <row important_over="true"><ch a="a"/>Pod powiekami lśnią łzy<ch a="E"/><ch a="a"/><ch a="E"/></row>
     </block>
     <block type="verse">
@@ -27,9 +27,9 @@
       <row important_over="false"><ch a="a"/>Na ogolone głowy<ch a="E"/><ch a="a"/><ch a="E"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Ale nadzieja nie zgaśnie w nich<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="true"><ch a="a"/>Pomimo więziennych murów cel<ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Wschodzące słońce zabłyśnie znów<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Ale nadzieja nie zgaśnie w nich<ch a="C"/><ch a="D"/><ch a="F"/></row>
+      <row important_over="false"><ch a="a"/>Pomimo więziennych murów cel<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Wschodzące słońce zabłyśnie znów<ch a="C"/><ch a="D"/><ch a="F"/></row>
       <row important_over="true"><ch a="a"/>Nad małym domem w kraju tym<ch a="E"/><ch a="C"/></row>
     </block>
   </lyric>

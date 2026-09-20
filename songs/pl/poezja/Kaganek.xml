@@ -10,17 +10,17 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true"><ch a="d"/> Nocą każdą zap<ch a="a"/>alasz kaganek,</row>
-			<row important_over="true"><ch a="d"/> Płomień chwieje się, t<ch a="a"/>ańczy i drga.</row>
+			<row important_over="false"><ch a="d"/> Płomień chwieje się, t<ch a="a"/>ańczy i drga.</row>
 			<row important_over="true"><ch a="F"/> By wskazywać dr<ch a="G"/>ogę zbłąkanym,</row>
 			<row important_over="true"><ch a="F"/> W oknie twoim się <ch a="G"/>pali do dni<ch a="a"/>a,</row>
 			<row important_over="true">Do dni<ch a="d"/>a<ch a="a"/>, do dni<ch a="d"/>a<ch a="a"/>…</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true"><ch a="d"/> Każdy z nas szuka gdzi<ch a="a"/>eś swego światła</row>
-			<row important_over="true"><ch a="d"/> By mu drogę wskaz<ch a="a"/>ało przez mrok</row>
-			<row important_over="true"><ch a="F"/> Każdy z nas wierzy w m<ch a="G"/>ały kaganek</row>
-			<row important_over="true"><ch a="F"/> By móc prędzej w tę n<ch a="G"/>oc zrobić kr<ch a="a"/>ok</row>
-			<row important_over="true">Zrobić kr<ch a="d"/>o<ch a="a"/>k, zrobić kr<ch a="d"/>o<ch a="a"/>k…</row>
+			<row important_over="false"><ch a="d"/> Każdy z nas szuka gdzi<ch a="a"/>eś swego światła</row>
+			<row important_over="false"><ch a="d"/> By mu drogę wskaz<ch a="a"/>ało przez mrok</row>
+			<row important_over="false"><ch a="F"/> Każdy z nas wierzy w m<ch a="G"/>ały kaganek</row>
+			<row important_over="false"><ch a="F"/> By móc prędzej w tę n<ch a="G"/>oc zrobić kr<ch a="a"/>ok</row>
+			<row important_over="false">Zrobić kr<ch a="d"/>o<ch a="a"/>k, zrobić kr<ch a="d"/>o<ch a="a"/>k…</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="d"/> Może kiedy i t<ch a="a"/>y stąd wyruszysz</row>

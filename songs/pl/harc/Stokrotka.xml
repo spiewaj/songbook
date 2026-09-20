@@ -29,12 +29,12 @@
       <row important_over="false">Czy <ch a="a"/>chcesz być <ch a="D"/>mą czy <ch a="G"/>nie czy nie czy nie?</row>
     </block>
     <block type="verse">
-      <row important_over="true">Tak <ch a="G"/>idą, <ch a="G7"/>idą, <ch a="G"/>idą,</row>
-      <row important_over="true">Aż <ch a="G7"/>zaszli w <ch a="G"/>ciemny <ch a="D7"/>las,</row>
-      <row important_over="true">A <ch a="a"/>harcerz <ch a="D7"/>taki <ch a="a"/>gapa,</row>
-      <row important_over="true">Że <ch a="G"/>aż w pok<ch a="C"/>rzywy <ch a="G"/>wlazł.</row>
-      <row important_over="true">A <ch a="C"/>harcerz <ch a="D"/>taki <ch a="G"/>ga<ch a="e"/>pa,</row>
-      <row important_over="true">Że <ch a="a"/>aż w pok<ch a="D"/>rzywy <ch a="G"/>wlazł.</row>
+      <row important_over="false">Tak <ch a="G"/>idą, <ch a="G7"/>idą, <ch a="G"/>idą,</row>
+      <row important_over="false">Aż <ch a="G7"/>zaszli w <ch a="G"/>ciemny <ch a="D7"/>las,</row>
+      <row important_over="false">A <ch a="a"/>harcerz <ch a="D7"/>taki <ch a="a"/>gapa,</row>
+      <row important_over="false">Że <ch a="G"/>aż w pok<ch a="C"/>rzywy <ch a="G"/>wlazł.</row>
+      <row important_over="false">A <ch a="C"/>harcerz <ch a="D"/>taki <ch a="G"/>ga<ch a="e"/>pa,</row>
+      <row important_over="false">Że <ch a="a"/>aż w pok<ch a="D"/>rzywy <ch a="G"/>wlazł.</row>
       <row important_over="never">Po pas, po pas.</row>
     </block>
     <block type="verse">

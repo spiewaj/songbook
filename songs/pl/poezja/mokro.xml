@@ -9,23 +9,23 @@
       <row important_over="true"><ch a="A7+"/> Napadał d<ch a="h"/>eszcz do szklanki,</row>
       <row important_over="true"><ch a="D"/> napadał w r<ch a="Cis7"/>ów. <ch a="Fis"/></row>
       <row important_over="true"><ch a="h"/> W deszczówce m<ch a="E"/>oczą nogi,</row>
-      <row important_over="true"><ch a="h"/> Zmęczone ci<ch a="E"/>enie</row>
+      <row important_over="false"><ch a="h"/> Zmęczone ci<ch a="E"/>enie</row>
       <row important_over="true">chudych ps<ch a="A7+"/>ów. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
-      <row important_over="true"><ch a="A7+"/> Z sufitu k<ch a="h"/>apią krople,</row>
-      <row important_over="true"><ch a="D"/> w dziurawy dz<ch a="Cis7"/>ban, <ch a="Fis"/></row>
-      <row important_over="true"><ch a="h"/> zagapił si<ch a="E"/>ę przez szybę,</row>
-      <row important_over="true"><ch a="h"/> na mokrą p<ch a="E"/>anią,</row>
-      <row important_over="true">mokry p<ch a="A7+"/>an. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
+      <row important_over="false"><ch a="A7+"/> Z sufitu k<ch a="h"/>apią krople,</row>
+      <row important_over="false"><ch a="D"/> w dziurawy dz<ch a="Cis7"/>ban, <ch a="Fis"/></row>
+      <row important_over="false"><ch a="h"/> zagapił si<ch a="E"/>ę przez szybę,</row>
+      <row important_over="false"><ch a="h"/> na mokrą p<ch a="E"/>anią,</row>
+      <row important_over="false">mokry p<ch a="A7+"/>an. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
     </block>
     <block type="chorus">
       <row important_over="true">W prz<ch a="A"/>emocz<ch a="E"/>onej t<ch a="fis"/>rawie,</row>
       <row important_over="true">Chr<ch a="G"/>apie śl<ch a="Fis"/>imak zł<ch a="h"/>y,</row>
       <row important_over="true">Ślim<ch a="E"/>aku p<ch a="A"/>okaz r<ch a="D"/>ogi,</row>
       <row important_over="true">D<ch a="h"/>am ci s<ch a="E"/>era na pier<ch a="A"/>ogi.</row>
-      <row important_over="true">Ni<ch a="A"/>e pok<ch a="E"/>ażę <ch a="fis"/>rogów,</row>
-      <row important_over="true">B<ch a="G"/>o nak<ch a="Fis"/>apie m<ch a="h"/>i</row>
-      <row important_over="true">na l<ch a="E"/>ewy r<ch a="A"/>óg i pr<ch a="D"/>awy,</row>
-      <row important_over="true">Ni<ch a="h"/>e, nie w<ch a="E"/>yjdę z mojej tr<ch a="A"/>awy.</row>
+      <row important_over="false">Ni<ch a="A"/>e pok<ch a="E"/>ażę <ch a="fis"/>rogów,</row>
+      <row important_over="false">B<ch a="G"/>o nak<ch a="Fis"/>apie m<ch a="h"/>i</row>
+      <row important_over="false">na l<ch a="E"/>ewy r<ch a="A"/>óg i pr<ch a="D"/>awy,</row>
+      <row important_over="false">Ni<ch a="h"/>e, nie w<ch a="E"/>yjdę z mojej tr<ch a="A"/>awy.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A7+"/> Kałuże t<ch a="h"/>yją strasznie,</row>

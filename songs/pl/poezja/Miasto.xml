@@ -13,29 +13,29 @@
 		</block>
 		<block type="verse">
 			<row important_over="true">Ciemną n<ch a="A"/>ocą po sch<ch a="D"/>odach ul<ch a="E"/>iczek</row>
-			<row important_over="true">Po gor<ch a="A"/>ących M<ch a="D"/>ostu kami<ch a="E"/>eniach</row>
+			<row important_over="false">Po gor<ch a="A"/>ących M<ch a="D"/>ostu kami<ch a="E"/>eniach</row>
 			<row important_over="true">Pełen p<ch a="D"/>iwa łeb niosę w chm<ch a="E"/>urach</row>
-			<row important_over="true">I git<ch a="A"/>arę i p<ch a="D"/>ustkę w kiesz<ch a="E"/>eniach</row>
+			<row important_over="false">I git<ch a="A"/>arę i p<ch a="D"/>ustkę w kiesz<ch a="E"/>eniach</row>
 			<row important_over="true"><ch a="A"/><ch a="D"/><ch a="E"/><ch a="A"/><ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Żegnam się z Mi<ch a="D"/>ast<ch a="A"/>em</row>
 			<row important_over="true">Które st<ch a="D"/>ał<ch a="A"/>o się m<ch a="E"/>oje</row>
-			<row important_over="true">Jego wi<ch a="D"/>eże j<ch a="A"/>ego dr<ch a="E"/>ogi</row>
+			<row important_over="false">Jego wi<ch a="D"/>eże j<ch a="A"/>ego dr<ch a="E"/>ogi</row>
 			<row important_over="true">Kroki m<ch a="A"/>oje</row>
-			<row important_over="true">Żegnam się z Mi<ch a="D"/>ast<ch a="A"/>em</row>
-			<row important_over="true">Jego M<ch a="D"/>ostem gdzi<ch a="A"/>e wiecz<ch a="E"/>orem</row>
-			<row important_over="true">Spad<ch a="D"/>ały gwi<ch a="A"/>azdy m<ch a="E"/>onet</row>
+			<row important_over="false">Żegnam się z Mi<ch a="D"/>ast<ch a="A"/>em</row>
+			<row important_over="false">Jego M<ch a="D"/>ostem gdzi<ch a="A"/>e wiecz<ch a="E"/>orem</row>
+			<row important_over="false">Spad<ch a="D"/>ały gwi<ch a="A"/>azdy m<ch a="E"/>onet</row>
 			<row important_over="true">Za muz<ch a="A"/>ykę</row>
 		</block>
 		<block type="other">
 			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="E"/><ch a="A"/><ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Nazbier<ch a="A"/>ałem po c<ch a="D"/>ałym Mi<ch a="E"/>eście</row>
-			<row important_over="true">Sprawy w<ch a="A"/>ażne i t<ch a="D"/>e nic nie w<ch a="E"/>arte</row>
-			<row important_over="true">Ot w pod<ch a="D"/>eszwach dziury na w<ch a="E"/>ylot</row>
-			<row important_over="true">Bicie dzw<ch a="A"/>onów, br<ch a="D"/>amy otw<ch a="E"/>arte</row>
+			<row important_over="false">Nazbier<ch a="A"/>ałem po c<ch a="D"/>ałym Mi<ch a="E"/>eście</row>
+			<row important_over="false">Sprawy w<ch a="A"/>ażne i t<ch a="D"/>e nic nie w<ch a="E"/>arte</row>
+			<row important_over="false">Ot w pod<ch a="D"/>eszwach dziury na w<ch a="E"/>ylot</row>
+			<row important_over="false">Bicie dzw<ch a="A"/>onów, br<ch a="D"/>amy otw<ch a="E"/>arte</row>
 		</block>
 		<block type="chorus">
 		</block>

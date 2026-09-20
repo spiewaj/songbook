@@ -20,17 +20,17 @@
       <row important_over="true"><ch a="C"/>Święta cisza święty śpiew<ch a="D"/><ch a="e"/></row>
       <row important_over="true"><ch a="C"/>Znojny łomot prawych serc<ch a="D"/></row>
       <row important_over="true"><ch a="C"/>Słupy oczu zapatrzonych<ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Bicie powiek zadziwionych<ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Święty ruch i drobne stopy<ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Święta, święta, święta Ziemia co nas nosi<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Bicie powiek zadziwionych<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Święty ruch i drobne stopy<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Święta, święta, święta Ziemia co nas nosi<ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="e"/>Słońce i ludny niebieski zwierzyniec<ch a="C"/></row>
-      <row important_over="true"><ch a="D"/>Baran, lew, skorpion, i ryby sferyczne<ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Słońce i ludny niebieski zwierzyniec<ch a="C"/></row>
+      <row important_over="false"><ch a="D"/>Baran, lew, skorpion, i ryby sferyczne<ch a="e"/></row>
       <row important_over="true"><ch a="e"/>Droga mleczna obłok Magellana<ch a="D"/></row>
-      <row important_over="true"><ch a="C"/>Meteory, gwiazda przedporanna<ch a="D"/></row>
-      <row important_over="true"><ch a="e"/>Saturn i Saturna dziwów wieniec<ch a="C"/></row>
-      <row important_over="true"><ch a="D"/>Trzy pierścienie i księżyców dziewięć<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Meteory, gwiazda przedporanna<ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Saturn i Saturna dziwów wieniec<ch a="C"/></row>
+      <row important_over="false"><ch a="D"/>Trzy pierścienie i księżyców dziewięć<ch a="e"/></row>
       <row important_over="true"><ch a="e"/>Neptun, Pluton, Uran, Mars, Merkury, Jowisz<ch a="D"/><ch a="C"/><ch a="D"/></row>
     </block>
     <blocklink blocknb="2"/>

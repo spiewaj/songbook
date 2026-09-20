@@ -11,7 +11,7 @@
 		<block type="verse">
 			<row important_over="true">M<ch a="D"/>am ci p<ch a="A"/>ełną m<ch a="h"/>arzeń gł<ch a="G"/>ówk<ch a="A"/>ę,</row>
 			<row important_over="true">M<ch a="D"/>orze m<ch a="fis"/>yśli mn<ch a="G"/>ie r<ch a="A"/>ozmarza.</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="D"/>Mam prześl<ch a="A"/>iczną m<ch a="h"/>ałą ł<ch a="G"/>ódk<ch a="A"/>ę,</row>
 			<row important_over="true">
 				<ch a="D"/>Tylko br<ch a="fis"/>ak m<ch a="G"/>i… m<ch a="A"/>aryn<ch a="D"/>arza.</row>

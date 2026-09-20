@@ -18,7 +18,7 @@
 			<row important_over="true">Cz<ch a="d"/>asem łzy w twoich oczach</row>
 			<row important_over="true">Na kr<ch a="B"/>ótką chwilę goszczą</row>
 			<row important_over="true">I ni<ch a="g"/>e wiem czy coś mówić</row>
-			<row important_over="true">I na<ch a="A"/>wet nie wiem po co<ch a="A7"/></row>
+			<row important_over="false">I na<ch a="A"/>wet nie wiem po co<ch a="A7"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">
@@ -30,9 +30,9 @@
 			<row important_over="false">Pow<ch a="A"/>ietrze staje się lż<ch a="A7"/>ejsze</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">I lż<ch a="d"/>ejsza staje się wędrówka</row>
-			<row important_over="false">Z plec<ch a="B"/>akiem wciąż coraz cięższym</row>
-			<row important_over="false">Nad do<ch a="g"/>mem przysiadła tęcza</row>
+			<row important_over="true">I lż<ch a="d"/>ejsza staje się wędrówka</row>
+			<row important_over="true">Z plec<ch a="B"/>akiem wciąż coraz cięższym</row>
+			<row important_over="true">Nad do<ch a="g"/>mem przysiadła tęcza</row>
 			<row important_over="false">Na ni<ch a="A"/>eba niebieskiej gałęzi<ch a="A7"/></row>
 		</block>
 	</lyric>

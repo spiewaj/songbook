@@ -9,23 +9,23 @@
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="H7"/> W kołnierz wtulam tw<ch a="e"/>arz</row>
-			<row important_over="true"><ch a="H7"/> Chowam się przed mi<ch a="e"/>astem</row>
+			<row important_over="false"><ch a="H7"/> Chowam się przed mi<ch a="e"/>astem</row>
 			<row important_over="true">Jego ci<ch a="C"/>enie żłobią w m<ch a="G"/>ojej twarzy w<ch a="H7"/>ąwóz</row>
 			<row important_over="true">Trzeszczy j<ch a="C"/>ak ułamek szkł<ch a="G"/>a</row>
 			<row important_over="true">Mój codzi<ch a="a"/>enny niep<ch a="G"/>okój</row>
-			<row important_over="true">Jak wyd<ch a="C"/>ostać się z ci<ch a="G"/>enia</row>
+			<row important_over="false">Jak wyd<ch a="C"/>ostać się z ci<ch a="G"/>enia</row>
 			<row important_over="true">Może wt<ch a="H7"/>edy</row>
 		</block>
 		<block type="verse">
 			<bis times="2">
 				<row important_over="true">Gdyby k<ch a="C"/>oncert grać</row>
 				<row important_over="true">Ten na tr<ch a="G"/>ąbki i skrzypce</row>
-				<row important_over="true">Tak by dźwi<ch a="C"/>ęki ułożyły się w wi<ch a="G"/>ersz</row>
+				<row important_over="false">Tak by dźwi<ch a="C"/>ęki ułożyły się w wi<ch a="G"/>ersz</row>
 				<row important_over="true">Gdyby ł<ch a="C"/>yżką światła</row>
 				<row important_over="true">Rozwes<ch a="G"/>elić to wszystko</row>
-				<row important_over="true">Żeby w<ch a="H7"/>e mnie zaśpiewało coś t<ch a="e"/>eż</row>
+				<row important_over="false">Żeby w<ch a="H7"/>e mnie zaśpiewało coś t<ch a="e"/>eż</row>
 			</bis>
-			<row important_over="true">Żeby w<ch a="H7"/>e mnie zaśpiewało coś t<ch a="e"/>eż</row>
+			<row important_over="false">Żeby w<ch a="H7"/>e mnie zaśpiewało coś t<ch a="e"/>eż</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">R<ch a="H7"/>ośnie we mnie mgł<ch a="e"/>a</row>
@@ -40,11 +40,11 @@
 			<bis times="2">
 				<row important_over="true"><ch a="C"/>Będę koncert grać</row>
 				<row important_over="true"><ch a="G"/>Ten na trąbki i skrzypce</row>
-				<row important_over="true"><ch a="C"/>Tak by dźwięki ułożyły się w wiersz<ch a="G"/></row>
-				<row important_over="true"><ch a="C"/>Będę łyżką światła rozweselać to wszystko<ch a="G"/></row>
-				<row important_over="true"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
+				<row important_over="false"><ch a="C"/>Tak by dźwięki ułożyły się w wiersz<ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>Będę łyżką światła rozweselać to wszystko<ch a="G"/></row>
+				<row important_over="false"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
 			</bis>
-			<row important_over="true"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
+			<row important_over="false"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
 		</block>
 		<block type="other">
 			<row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/><ch a="e"/><ch a="H7"/><ch a="e"/></row>

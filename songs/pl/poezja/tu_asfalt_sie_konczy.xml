@@ -15,8 +15,8 @@
     <block type="chorus">
       <row important_over="true"><ch a="F"/>Gdy Ogrodowa <ch a="C"/>moczy się </row>
       <row important_over="true"><ch a="G"/>To tak naprawdę <ch a="C"/>nie jest źle </row>
-      <row important_over="true"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
-      <row important_over="true"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
+      <row important_over="false"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
+      <row important_over="false"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
     </block>
     <block type="chorus">
       <row important_over="false">Tu Leona spotkasz czasem<ch a="F"/><ch a="C"/></row>

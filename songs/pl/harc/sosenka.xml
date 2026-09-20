@@ -4,14 +4,14 @@
     <block type="verse">
       <row important_over="true">Jak to d<ch a="a"/>obrze być <ch a="d"/>harcerzem</row>
       <row important_over="true">na o<ch a="E"/>bozie spędzać <ch a="a"/>czas</row>
-      <row important_over="true">na półn<ch a="a"/>ocy pojez<ch a="d"/>ierze</row>
-      <row important_over="true">na poł<ch a="E"/>udniu szumi <ch a="a"/>las</row>
+      <row important_over="false">na półn<ch a="a"/>ocy pojez<ch a="d"/>ierze</row>
+      <row important_over="false">na poł<ch a="E"/>udniu szumi <ch a="a"/>las</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
-      <row important_over="true">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
+      <row important_over="false">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
+      <row important_over="false">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
       <row important_over="true">spo<ch a="d"/>dobała mi się je<ch a="a"/>den raz</row>
-      <row important_over="true">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
+      <row important_over="false">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
     </block>
     <block type="verse">
       <row important_over="false">Sama w<ch a="a"/>odą łódkę n<ch a="d"/>iosła</row>
@@ -28,10 +28,10 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="true">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
-      <row important_over="true">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
-      <row important_over="true">spo<ch a="d"/>dobała mi się je<ch a="a"/>den raz</row>
-      <row important_over="true">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
+      <row important_over="false">Hej <ch a="a"/>las mówię wam szumi <ch a="d"/>las mówię wam</row>
+      <row important_over="false">a w <ch a="E"/>lesie mówię wam <ch a="a"/>sosenka</row>
+      <row important_over="false">spo<ch a="d"/>dobała mi się je<ch a="a"/>den raz</row>
+      <row important_over="false">h<ch a="E"/>arcerka <ch a="a"/>Marysieńka.</row>
     </block>
   </lyric>
   <keywords/>

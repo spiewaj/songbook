@@ -12,15 +12,15 @@
 			<row important_over="true">
 				<ch a="h"/>Idzie sobie królik, sł<ch a="e"/>ychać kroki Bolka,</row>
 			<row important_over="true">B<ch a="h"/>olo idzie z nożem, b<ch a="Fis7"/>ędzie rozpierdolka.</row>
-			<row important_over="true">J<ch a="h"/>uż przyleciał Bolek <ch a="e"/>i w króliku dłubie,</row>
-			<row important_over="true">Kr<ch a="h"/>ólik już nie żyje, B<ch a="Fis7"/>olo ma to w dupie.</row>
+			<row important_over="false">J<ch a="h"/>uż przyleciał Bolek <ch a="e"/>i w króliku dłubie,</row>
+			<row important_over="false">Kr<ch a="h"/>ólik już nie żyje, B<ch a="Fis7"/>olo ma to w dupie.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">
 				<ch a="e"/>A<ch a="a"/>a, j<ch a="D"/>uż jest B<ch a="h"/>olo,</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="e"/>A<ch a="a"/>a, n<ch a="D"/>ożem tni<ch a="h"/>e,</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="e"/>A<ch a="a"/>a, fl<ch a="D"/>aki tr<ch a="h"/>ysną,</row>
 			<row important_over="true">
 				<ch a="e"/>A<ch a="A"/>a, f<ch a="Fis7"/>ajnie, co?</row>

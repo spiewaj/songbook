@@ -18,21 +18,21 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">Twych kr<ch a="D"/>oków korow<ch a="D7+"/>ody</row>
-			<row important_over="true"><ch a="D7"/> W urojonych alej<ch a="G"/>ach twe odbicia</row>
-			<row important_over="true"><ch a="G0"/> U wody jak w pragni<ch a="D"/>eniach nadziejach</row>
-			<row important_over="true"><ch a="e"/> Twe usta u źródeł</row>
-			<row important_over="true"><ch a="G"/> To syte to znów gł<ch a="D"/>odne</row>
-			<row important_over="true">I Twój śmi<ch a="e"/>ech i płakanie</row>
-			<row important_over="true"><ch a="G"/> Nie odpłynie zost<ch a="D"/>anie</row>
+			<row important_over="false">Twych kr<ch a="D"/>oków korow<ch a="D7+"/>ody</row>
+			<row important_over="false"><ch a="D7"/> W urojonych alej<ch a="G"/>ach twe odbicia</row>
+			<row important_over="false"><ch a="G0"/> U wody jak w pragni<ch a="D"/>eniach nadziejach</row>
+			<row important_over="false"><ch a="e"/> Twe usta u źródeł</row>
+			<row important_over="false"><ch a="G"/> To syte to znów gł<ch a="D"/>odne</row>
+			<row important_over="false">I Twój śmi<ch a="e"/>ech i płakanie</row>
+			<row important_over="false"><ch a="G"/> Nie odpłynie zost<ch a="D"/>anie</row>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="true">Uni<ch a="D7"/>osę je przeni<ch a="G"/>osę</row>
-				<row important_over="true"><ch a="G0"/> Jak ramionami gł<ch a="D"/>osem</row>
+				<row important_over="false">Uni<ch a="D7"/>osę je przeni<ch a="G"/>osę</row>
+				<row important_over="false"><ch a="G0"/> Jak ramionami gł<ch a="D"/>osem</row>
 				<row important_over="true">W czas dal<ch a="D7"/>eki wysoko</row>
 				<row important_over="true">W obcow<ch a="G"/>anie obłokom</row>
-				<row important_over="true">Tak pół mni<ch a="G0"/>e a pół T<ch a="D"/>obie</row>
+				<row important_over="false">Tak pół mni<ch a="G0"/>e a pół T<ch a="D"/>obie</row>
 			</bis>
 		</block>
 	</lyric>

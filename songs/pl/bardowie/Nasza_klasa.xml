@@ -10,9 +10,9 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">C<ch a="d"/>o się stało z naszą klasą, p<ch a="A"/>yta Adam w Tel Awiwie,</row>
-			<row important_over="true">Ci<ch a="d"/>ężko sprostać takim czasom, ci<ch a="A"/>ężko w ogóle żyć uczciwie,</row>
+			<row important_over="false">Ci<ch a="d"/>ężko sprostać takim czasom, ci<ch a="A"/>ężko w ogóle żyć uczciwie,</row>
 			<row important_over="true">C<ch a="F"/>o się stało z naszą klasą, W<ch a="g"/>ojtek w Szwecji w porno--klubie</row>
-			<row important_over="true">P<ch a="d"/>isze dobrze mi tu płacą z<ch a="A"/>a to, co i tak wszak lubię</row>
+			<row important_over="false">P<ch a="d"/>isze dobrze mi tu płacą z<ch a="A"/>a to, co i tak wszak lubię</row>
 			<row important_over="true">Z<ch a="d"/>a to, co i tak wsz<ch a="B"/>ak l<ch a="A"/>ubi<ch a="d"/>ę</row>
 		</block>
 		<block type="verse">

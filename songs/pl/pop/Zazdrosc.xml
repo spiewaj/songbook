@@ -4,9 +4,9 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Są <ch a="h"/>chwil<ch a="e"/>e <ch a="A"/>gdy <ch a="fis"/>wolałabym <ch a="h"/>martwym <ch a="e"/>widzieć cię<ch a="A"/><ch a="fis"/></row>
-			<row important_over="true">Nie musiałabym się tobą dzielić nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="true">Gdybym mogła schowałabym twoje oczy w mojej kieszeni<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="true">Żebyś nie mógł oglądać tych, które są dla nas zagrożeniem<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Nie musiałabym się tobą dzielić nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Gdybym mogła schowałabym twoje oczy w mojej kieszeni<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Żebyś nie mógł oglądać tych, które są dla nas zagrożeniem<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Do pracy nie mogę puścić cię nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>

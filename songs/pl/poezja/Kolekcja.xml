@@ -14,7 +14,7 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ten za odwagę, a ten za męstwo<ch a="d"/></row>
       <row important_over="true"><ch a="G"/>Ten jest za dzielność, ten za woli hart<ch a="C"/></row>
-      <row important_over="true"><ch a="a"/>Ten za niezłomność, ten za nieugiętość<ch a="d"/></row>
+      <row important_over="false"><ch a="a"/>Ten za niezłomność, ten za nieugiętość<ch a="d"/></row>
       <row important_over="true"><ch a="E"/>Ten za niewzruszoność mimo zmiany wart</row>
     </block>
     <block type="verse">
@@ -24,15 +24,15 @@
       <row important_over="false"><ch a="E"/>Ten za niestrudzoność w dzień i w noc</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Ten za prawomyślność, a ten za lojalność<ch a="d"/></row>
-      <row important_over="true"><ch a="G"/>Ten za milczenie, a ten za ,,hura''<ch a="C"/></row>
-      <row important_over="true"><ch a="a"/>Ten za posłuszeństwo, a ten za karność<ch a="d"/></row>
+      <row important_over="false"><ch a="a"/>Ten za prawomyślność, a ten za lojalność<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten za milczenie, a ten za ,,hura''<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za posłuszeństwo, a ten za karność<ch a="d"/></row>
       <row important_over="true"><ch a="E"/>Ten jest za ,,nie'', a ten jest za ,,tak''<ch a="a"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ten nie pamiętam, a ten nie powiem<ch a="D"/><ch a="F"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/></row>
-      <row important_over="true"><ch a="G"/>Ten jest za darmo, ten za złotych sto<ch a="C"/></row>
-      <row important_over="true"><ch a="a"/>Ten za chorobę, a ten za zdrowie<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Ten jest za darmo, ten za złotych sto<ch a="C"/></row>
+      <row important_over="false"><ch a="a"/>Ten za chorobę, a ten za zdrowie<ch a="d"/></row>
       <row important_over="true"><ch a="E"/>Ten za dobry wzrok, a ten za dobry słuch</row>
     </block>
     <block type="verse">

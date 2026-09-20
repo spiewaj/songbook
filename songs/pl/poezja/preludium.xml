@@ -9,8 +9,8 @@
     <block type="verse">
       <row important_over="true"><ch a="e"/> Przyleciały czaple,<ch a="C"/> wyszły na mokr<ch a="D"/>adła</row>
       <row important_over="true">Jesień się zbudz<ch a="C"/>iła,<ch a="a"/> twoja panna zbl<ch a="e"/>adła <ch a="H7"/></row>
-      <row important_over="true"><ch a="e"/> Powój mój niebieski,<ch a="C"/> mój dom wśród pow<ch a="D"/>oju</row>
-      <row important_over="true">ściany moje, s<ch a="C"/>ufit<ch a="a"/> i okna pok<ch a="e"/>oju <ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/> Powój mój niebieski,<ch a="C"/> mój dom wśród pow<ch a="D"/>oju</row>
+      <row important_over="false">ściany moje, s<ch a="C"/>ufit<ch a="a"/> i okna pok<ch a="e"/>oju <ch a="H7"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Przyleciały ptaki koloru indygo <ch a="e"/><ch a="C"/><ch a="D"/></row>

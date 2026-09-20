@@ -6,19 +6,19 @@
 			<bis times="2">
 				<row important_over="true">Naszej zi<ch a="G"/>emi śpiewamy, ziemi p<ch a="D"/>okłon składamy,</row>
 				<row important_over="true">Taki pr<ch a="C"/>osty, serdeczny, harc<ch a="G"/>erski,</row>
-				<row important_over="true">Niechaj <ch a="G"/>echo poniesie tę ball<ch a="D"/>adę rajdowa</row>
-				<row important_over="true">W nowe j<ch a="C"/>utro i przyszłość n<ch a="G"/>ową.</row>
+				<row important_over="false">Niechaj <ch a="G"/>echo poniesie tę ball<ch a="D"/>adę rajdowa</row>
+				<row important_over="false">W nowe j<ch a="C"/>utro i przyszłość n<ch a="G"/>ową.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">Właśnie t<ch a="G"/>u na tej ziemi, młody h<ch a="D"/>arcerz meldował</row>
-			<row important_over="true">Swą got<ch a="C"/>owość umierać za P<ch a="G"/>olske.</row>
-			<row important_over="true">Tak, jak t<ch a="G"/>y niesiesz plecak, on niósł w r<ch a="D"/>ęku karabin</row>
-			<row important_over="true">W sercu m<ch a="C"/>iłość, nadzieję i tr<ch a="G"/>oskę.</row>
-			<row important_over="true">Może t<ch a="G"/>u w Nowej Słupi, Dalesz<ch a="D"/>ycach, Bielicach</row>
-			<row important_over="true">Brzozow<ch a="C"/>ymi krzyżami znacz<ch a="G"/>onych,</row>
-			<row important_over="true">Swą dziewcz<ch a="G"/>ynę pożegnał nic nie wi<ch a="D"/>edząc, że tylko</row>
-			<row important_over="true">Kilka dn<ch a="C"/>i życia mu przeznacz<ch a="G"/>one.</row>
+			<row important_over="false">Właśnie t<ch a="G"/>u na tej ziemi, młody h<ch a="D"/>arcerz meldował</row>
+			<row important_over="false">Swą got<ch a="C"/>owość umierać za P<ch a="G"/>olske.</row>
+			<row important_over="false">Tak, jak t<ch a="G"/>y niesiesz plecak, on niósł w r<ch a="D"/>ęku karabin</row>
+			<row important_over="false">W sercu m<ch a="C"/>iłość, nadzieję i tr<ch a="G"/>oskę.</row>
+			<row important_over="false">Może t<ch a="G"/>u w Nowej Słupi, Dalesz<ch a="D"/>ycach, Bielicach</row>
+			<row important_over="false">Brzozow<ch a="C"/>ymi krzyżami znacz<ch a="G"/>onych,</row>
+			<row important_over="false">Swą dziewcz<ch a="G"/>ynę pożegnał nic nie wi<ch a="D"/>edząc, że tylko</row>
+			<row important_over="false">Kilka dn<ch a="C"/>i życia mu przeznacz<ch a="G"/>one.</row>
 		</block>
 		<blocklink blocknb="1"/>
 		<block type="verse">

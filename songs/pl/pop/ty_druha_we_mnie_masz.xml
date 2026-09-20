@@ -13,8 +13,8 @@
       <row important_over="true"><ch a="C"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       <row important_over="true"><ch a="F"/>Ty druha we mnie <ch a="C"/>masz</row>
       <row important_over="true"><ch a="F"/> Kiedy <ch a="C"/>szukasz,<ch a="E"/> gdzie twój <ch a="a"/>kąt</row>
-      <row important_over="true">a przy<ch a="F"/>tulny <ch a="C"/>dom jest <ch a="E"/>wiele mil s<ch a="a"/>tąd</row>
-      <row important_over="true"><ch a="F"/> Nie za<ch a="C"/>pomnij, bo po<ch a="E"/>pełnisz <ch a="a"/>błąd,</row>
+      <row important_over="false">a przy<ch a="F"/>tulny <ch a="C"/>dom jest <ch a="E"/>wiele mil s<ch a="a"/>tąd</row>
+      <row important_over="false"><ch a="F"/> Nie za<ch a="C"/>pomnij, bo po<ch a="E"/>pełnisz <ch a="a"/>błąd,</row>
       <row important_over="true">że <ch a="D7"/>Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       <row important_over="true"><ch a="A"/>Tak, <ch a="D7"/> ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
     </block>
@@ -34,12 +34,12 @@
       <row important_over="true"><ch a="F"/> Niektórym wydaje się, <ch a="H"/>że są dużo <ch a="C"/>lepsi, sil<ch a="H"/>niejsi i<ch a="C"/>tede (może)</row>
       <row important_over="true"><ch a="H"/> Lecz żaden z nich na <ch a="H"/>pewno nie ma pojęcia, że <ch a="e"/>ja <ch a="G"/><ch a="d"/>kocham <ch a="G"/>cię, wiesz</row>
       <row important_over="true"><ch a="C"/> Z biegiem <ch a="G"/>zim i <ch a="C"/>lat ta <ch a="F"/>przyjaźń bez przerwy tr<ch a="C"/>wa</row>
-      <row important_over="true"><ch a="F"/> Gdzie Ja tam <ch a="C"/>Ty, w <ch a="E"/>złe i dobre <ch a="a"/>dni</row>
+      <row important_over="false"><ch a="F"/> Gdzie Ja tam <ch a="C"/>Ty, w <ch a="E"/>złe i dobre <ch a="a"/>dni</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="false"><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       <bis times="2">
-        <row important_over="true"><ch a="A"/><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+        <row important_over="false"><ch a="A"/><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       </bis>
     </block>
     <block type="other">

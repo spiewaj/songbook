@@ -12,7 +12,7 @@
       <row important_over="true"><ch a="D"/>Deszcz jesienny smutne pieśni łka<ch a="G"/><ch a="D"/></row>
       <row important_over="true"><ch a="A7"/>Mokną na nim karabiny hełmy kryje rdza<ch a="D"/><ch a="A7"/><ch a="D"/></row>
       <row important_over="true"><ch a="G"/>Nieś po błocie w dal w zapłakany świat<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="true"><ch a="A7"/>Przemoczone pod plecakiem osiemnaście lat<ch a="D"/><ch a="A7"/><ch a="D"/></row>
+      <row important_over="false"><ch a="A7"/>Przemoczone pod plecakiem osiemnaście lat<ch a="D"/><ch a="A7"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="D"/>Gdzieś daleko stąd mrok zapada znów<ch a="G"/><ch a="D"/></row>
@@ -27,8 +27,8 @@
       <row important_over="false"><ch a="A7"/>Będziesz tulił ciemną głowę miłej twej do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="G"/>Da że wrócisz znów, da że wrócisz znów<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="true"><ch a="A7"/>Będziesz tulił ciemną głowę miłej twej do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Da że wrócisz znów, da że wrócisz znów<ch a="D"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="A7"/>Będziesz tulił ciemną głowę miłej twej do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
     </block>
   </lyric>
   <music metre="">

@@ -4,23 +4,23 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="G"/>Może chciałbym <ch a="d"/>uczyć się</row>
-      <row important_over="true"><ch a="G"/>Jesteś taka nie<ch a="d"/>zastąpiona</row>
-      <row important_over="true"><ch a="G"/>Może nie pójdę <ch a="d"/>więcej tam</row>
+      <row important_over="false"><ch a="G"/>Jesteś taka nie<ch a="d"/>zastąpiona</row>
+      <row important_over="false"><ch a="G"/>Może nie pójdę <ch a="d"/>więcej tam</row>
       <row important_over="true"><ch a="F"/>Wiesz, tak długo <ch a="C"/>byłem sam</row>
-      <row important_over="true"><ch a="G"/>Chciałbym, żebyś zau<ch a="d"/>fała mi</row>
-      <row important_over="true"><ch a="G"/>Wiem, że przeze mnie <ch a="d"/>czasem płaczesz</row>
-      <row important_over="true"><ch a="G"/>Jutro chciałbyś <ch a="d"/>mieć na dziś</row>
-      <row important_over="true"><ch a="F"/>Może mi bra<ch a="C"/>kuje sił</row>
+      <row important_over="false"><ch a="G"/>Chciałbym, żebyś zau<ch a="d"/>fała mi</row>
+      <row important_over="false"><ch a="G"/>Wiem, że przeze mnie <ch a="d"/>czasem płaczesz</row>
+      <row important_over="false"><ch a="G"/>Jutro chciałbyś <ch a="d"/>mieć na dziś</row>
+      <row important_over="false"><ch a="F"/>Może mi bra<ch a="C"/>kuje sił</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Ty <ch a="G"/>wiesz, że kocham <ch a="d"/>cię, </row>
-      <row important_over="true">lecz sama <ch a="F"/>jestem dziwna<ch a="C"/></row>
-      <row important_over="true">Dziś tylko <ch a="G"/>słowa, twoje <ch a="d"/>słowa </row>
-      <row important_over="true">będą <ch a="F"/>leczyć mnie<ch a="C"/></row>
+      <row important_over="false">Ty <ch a="G"/>wiesz, że kocham <ch a="d"/>cię, </row>
+      <row important_over="false">lecz sama <ch a="F"/>jestem dziwna<ch a="C"/></row>
+      <row important_over="false">Dziś tylko <ch a="G"/>słowa, twoje <ch a="d"/>słowa </row>
+      <row important_over="false">będą <ch a="F"/>leczyć mnie<ch a="C"/></row>
       <row important_over="true">Ty <ch a="G"/>wiesz, że chciała<ch a="d"/>bym nie patrzeć <ch a="F"/>wstecz, </row>
       <row important_over="true">nie szukać<ch a="C"/></row>
-      <row important_over="true">Lecz tylko <ch a="G"/>słowa, tylko <ch a="d"/>słowa </row>
-      <row important_over="true">nie wys<ch a="F"/>tarczą mi<ch a="C"/></row>
+      <row important_over="false">Lecz tylko <ch a="G"/>słowa, tylko <ch a="d"/>słowa </row>
+      <row important_over="false">nie wys<ch a="F"/>tarczą mi<ch a="C"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Jestem z tym po <ch a="d"/>prostu sam</row>
@@ -35,9 +35,9 @@
     <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="true"><ch a="G"/>Wiemy, ze nie ch<ch a="G"/>cemy już bez <ch a="d"/>siebie żyć<ch a="d"/></row>
-      <row important_over="true"><ch a="G"/>Znów jesteśmy <ch a="G"/>po tej samej <ch a="d"/>stronie<ch a="d"/></row>
-      <row important_over="true"><ch a="G"/>Na tapecie <ch a="G"/>już powoli <ch a="d"/>słychać dzień<ch a="d"/></row>
-      <row important_over="true">Kiedy <ch a="G"/>jednym <ch a="G"/>staną się dwa <ch a="d"/>domy<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Znów jesteśmy <ch a="G"/>po tej samej <ch a="d"/>stronie<ch a="d"/></row>
+      <row important_over="false"><ch a="G"/>Na tapecie <ch a="G"/>już powoli <ch a="d"/>słychać dzień<ch a="d"/></row>
+      <row important_over="false">Kiedy <ch a="G"/>jednym <ch a="G"/>staną się dwa <ch a="d"/>domy<ch a="d"/></row>
     </block>
   </lyric>
   <keywords/>

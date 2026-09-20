@@ -12,7 +12,7 @@
       <row important_over="true"><ch a="e"/>Rozwichrzone nad głową sosny rosochate<ch a="a"/><ch a="D7"/><ch a="e"/></row>
       <row important_over="true"><ch a="e"/>Pędzą niebem chmurki owieczki skrzydlate<ch a="a"/><ch a="D7"/><ch a="G"/></row>
       <row important_over="true"><ch a="e"/>Senne oko jeziora zda się na wpół drzemie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="e"/>Kolorowe sady słodkie niosą brzemię<ch a="a"/><ch a="D7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Kolorowe sady słodkie niosą brzemię<ch a="a"/><ch a="D7"/><ch a="e"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="G"/>A nam czegóż to więcej potrzeba, powiedz nam<ch a="D"/><ch a="C"/><ch a="e"/><ch a="G"/><ch a="D"/><ch a="e"/></row>

@@ -22,7 +22,7 @@
     <block type="verse">
       <bis times="2">
         <row important_over="true"><ch a="F"/><ch a="G"/><ch a="C"/><ch a="e"/><ch a="a"/>Zapytają Cię ludzie - Gdzie jest twój koń</row>
-        <row important_over="true"><ch a="F"/><ch a="G"/><ch a="C"/>Powiedz by się nie przypierdalali doń.</row>
+        <row important_over="false"><ch a="F"/><ch a="G"/><ch a="C"/>Powiedz by się nie przypierdalali doń.</row>
       </bis>
     </block>
     <block type="other">
@@ -36,7 +36,7 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a=""/>Lets goł tu big siti,</row>
+      <row important_over="never"><ch a=""/>Lets goł tu big siti,</row>
       <row important_over="never">Tu big siti lets goł</row>
       <row important_over="never">Zer łiwałt horses izjer tu liw.</row>
     </block>

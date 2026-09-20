@@ -11,8 +11,8 @@
     <block type="verse">
       <row important_over="true"><ch a="G"/>Przepuściłem znów całą forsę swą<ch a="e"/></row>
       <row important_over="true"><ch a="C"/>Na hiszpańską dziewkę z Callao<ch a="D"/></row>
-      <row important_over="true"><ch a="G"/>Wyciągnęła ze mnie cały szmal<ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>I spłukałem na nią się do cna<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wyciągnęła ze mnie cały szmal<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>I spłukałem na nią się do cna<ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Już znikają główki portu<ch a="e"/></row>
@@ -21,10 +21,10 @@
       <row important_over="false"><ch a="C"/>Ukochany stały ląd<ch a="D"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="G"/>Dalej chłopcy rwijmy fały<ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Niech uderzy w żagle wiatr<ch a="D"/></row>
-      <row important_over="true"><ch a="G"/>W morze znów wypływamy<ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Ile tam spędzimy lat<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Dalej chłopcy rwijmy fały<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Niech uderzy w żagle wiatr<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>W morze znów wypływamy<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Ile tam spędzimy lat<ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Już niejeden pokład mym domem był<ch a="e"/></row>

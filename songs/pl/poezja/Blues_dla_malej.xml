@@ -10,10 +10,10 @@
 			<row important_over="true">Wtedy napr<ch a="a"/>awdę nie wyjedziesz c<ch a="G"/>ała</row>
 			<row important_over="true">Niech b<ch a="F"/>ędzie w nim lokomotywy gw<ch a="C"/>izd</row>
 			<row important_over="true">Tylko to zr<ch a="h7/5-"/>ób<ch a="E"/> jeszcze dla mnie M<ch a="a"/>ała</row>
-			<row important_over="true">Wyst<ch a="C"/>ukaj po torach d<ch a="G"/>o mnie list</row>
-			<row important_over="true">Ch<ch a="a"/>oćby w alfabecie M<ch a="G"/>orse'a</row>
-			<row important_over="true">Moja ul<ch a="F"/>ica jeszcze twardo śp<ch a="C"/>i</row>
-			<row important_over="true">Jeśli tak chc<ch a="h7/5-"/>esz<ch a="E"/> w liście z<ch a="a"/>ostań</row>
+			<row important_over="false">Wyst<ch a="C"/>ukaj po torach d<ch a="G"/>o mnie list</row>
+			<row important_over="false">Ch<ch a="a"/>oćby w alfabecie M<ch a="G"/>orse'a</row>
+			<row important_over="false">Moja ul<ch a="F"/>ica jeszcze twardo śp<ch a="C"/>i</row>
+			<row important_over="false">Jeśli tak chc<ch a="h7/5-"/>esz<ch a="E"/> w liście z<ch a="a"/>ostań</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">A m<ch a="h7/5-"/>ogliśmy Mała razem łąką iść</row>

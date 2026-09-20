@@ -10,9 +10,9 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="A4"/> Podkradnę się, w twoich wł<ch a="d"/>osach zanurzę dł<ch a="C"/>oń,</row>
-			<row important_over="true">P<ch a="A4"/>obiegnę dalej, zn<ch a="d"/>iknę, wsiąknę w tr<ch a="C"/>awę,</row>
-			<row important_over="true">P<ch a="A4"/>odejdę chyłkiem, sz<ch a="d"/>arpnę za sukni skr<ch a="C"/>aj,</row>
-			<row important_over="true">Z<ch a="A4"/>anim obejrzysz się już mnie nie będzie wcale.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false">P<ch a="A4"/>obiegnę dalej, zn<ch a="d"/>iknę, wsiąknę w tr<ch a="C"/>awę,</row>
+			<row important_over="false">P<ch a="A4"/>odejdę chyłkiem, sz<ch a="d"/>arpnę za sukni skr<ch a="C"/>aj,</row>
+			<row important_over="false">Z<ch a="A4"/>anim obejrzysz się już mnie nie będzie wcale.<ch a="d"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="A4"/>Psotniku — wietrze, gdzie znów ukryłeś się?<ch a="d"/><ch a="C"/></row>

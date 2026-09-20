@@ -5,12 +5,12 @@
     <block type="verse">
       <row important_over="true" sidechords="eD eD"><ch a="e"/>Kiedy morze burzy swój spokojny sen<ch a="D"/><ch a="e"/><ch a="D"/></row>
       <row important_over="true" sidechords="eD h"><ch a="e"/>Białą grzywą wdziera się na ląd<ch a="D"/><ch a="h"/></row>
-      <row important_over="true" sidechords="eD eD"><ch a="e"/>My jak drzewa sennie pochylamy się<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" sidechords="eD eD"><ch a="e"/>My jak drzewa sennie pochylamy się<ch a="D"/><ch a="e"/><ch a="D"/></row>
       <row important_over="true" sidechords="eD e"><ch a="e"/>Wokół morza zacieśniamy krąg<ch a="D"/><ch a="e"/></row>
       <row important_over="true" sidechords="G Dh"><ch a="G"/>Niespokojne nasze myśli<ch a="D"/><ch a="h"/></row>
       <row important_over="true"><ch a="e"/>Szarpie wiatr unosi prąd<ch a="D"/></row>
-      <row important_over="true"><ch a="e"/>Pośród ryku wichrów szalejących burz<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="true" sidechords="eD e"><ch a="e"/>Słychać pieść o pracy rąk<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Pośród ryku wichrów szalejących burz<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" sidechords="eD e"><ch a="e"/>Słychać pieść o pracy rąk<ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false" sidechords="eD eD"><ch a="e"/>W lampie sennie skwierczy wielorybi tłuszcz<ch a="D"/><ch a="e"/><ch a="D"/></row>
@@ -25,12 +25,12 @@
     <block type="verse">
       <row important_over="true" sidechords="eD eD"><ch a="e"/>Wielki duchu oceanów </row>
       <row important_over="true" sidechords="eD h">nasze łodzie wiecznie chroń<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="true" sidechords="eD eD"><ch a="e"/>Myśliwemu kieruj w sieci cenny łup<ch a="D"/><ch a="h"/></row>
-      <row important_over="true" sidechords="eD e"><ch a="e"/>Celnie prowadź jego dłoń<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="true" sidechords="G Dh"><ch a="e"/>Groźną bielą gór lodowych<ch a="D"/><ch a="e"/></row>
-      <row important_over="true" sidechords="e D"><ch a="G"/>Nie zwodź naszych morskich dróg<ch a="D"/><ch a="h"/></row>
-      <row important_over="true" sidechords="eD eD"><ch a="e"/>Przed narwala strzeż ogonem<ch a="D"/></row>
-      <row important_over="true" sidechords="eD e"><ch a="e"/>Chroń od morsa groźnych kłów<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" sidechords="eD eD"><ch a="e"/>Myśliwemu kieruj w sieci cenny łup<ch a="D"/><ch a="h"/></row>
+      <row important_over="false" sidechords="eD e"><ch a="e"/>Celnie prowadź jego dłoń<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" sidechords="G Dh"><ch a="e"/>Groźną bielą gór lodowych<ch a="D"/><ch a="e"/></row>
+      <row important_over="false" sidechords="e D"><ch a="G"/>Nie zwodź naszych morskich dróg<ch a="D"/><ch a="h"/></row>
+      <row important_over="false" sidechords="eD eD"><ch a="e"/>Przed narwala strzeż ogonem<ch a="D"/></row>
+      <row important_over="false" sidechords="eD e"><ch a="e"/>Chroń od morsa groźnych kłów<ch a="D"/><ch a="e"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false" sidechords="eD eD"><ch a="e"/>Kiedy morze burzy swój spokojny sen<ch a="D"/><ch a="e"/><ch a="D"/></row>

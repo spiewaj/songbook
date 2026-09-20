@@ -9,7 +9,7 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Skasowa<ch a="D"/>łam <ch a="e"/>Polone<ch a="D"/>za</row>
-      <row important_over="true"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur <ch a="D"/></row>
       <row important_over="true"><ch a="e"/>Na mieście <ch a="D"/>zobaczyłam <ch a="e"/>jak</row>
       <row important_over="true">Beztrosko trzyma <ch a="D"/>Cię za <ch a="G"/>rękę <ch a="A"/></row>
       <row important_over="true">Jechałam <ch a="e"/>dwieście <ch a="D"/></row>
@@ -22,8 +22,8 @@
       <row important_over="false">Tam gdzie my <ch a="e"/>wcześniej <ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="e"/> Mieliśmy zwiedzać Pa<ch a="D"/>ryż</row>
-      <row important_over="true"><ch a="e"/> Tam gubić się <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/> Mieliśmy zwiedzać Pa<ch a="D"/>ryż</row>
+      <row important_over="false"><ch a="e"/> Tam gubić się <ch a="D"/></row>
       <row important_over="true"><ch a="G"/> Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz <ch a="D"/></row>
     </block>
     <block type="verse">
@@ -43,9 +43,9 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/> Na billboardach <ch a="h"/>w tym miesiącu</row>
-      <row important_over="true"><ch a="C"/>Błyszczy Twoja <ch a="a"/>twarz</row>
-      <row important_over="true"><ch a="e"/> Nie dzwoń, Bo znów rozbijam <ch a="h"/>się</row>
-      <row important_over="true">Nie odebrane tele<ch a="C"/>fony, tryb samolo<ch a="a"/>towy</row>
+      <row important_over="false"><ch a="C"/>Błyszczy Twoja <ch a="a"/>twarz</row>
+      <row important_over="false"><ch a="e"/> Nie dzwoń, Bo znów rozbijam <ch a="h"/>się</row>
+      <row important_over="false">Nie odebrane tele<ch a="C"/>fony, tryb samolo<ch a="a"/>towy</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Miałeś mnie wziąć na Stroke<ch a="D"/>s&#039;ów</row>
@@ -53,8 +53,8 @@
       <row important_over="false"><ch a="G"/> Pod sceną <ch a="a"/>z nią krzyczysz <ch a="e"/>dziś <ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="e"/> Wiem, że Cię w końcu rzu<ch a="D"/>ci</row>
-      <row important_over="true"><ch a="e"/> Napiszesz mi <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/> Wiem, że Cię w końcu rzu<ch a="D"/>ci</row>
+      <row important_over="false"><ch a="e"/> Napiszesz mi <ch a="D"/></row>
       <row important_over="true"><ch a="G"/> Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć</row>
     </block>
     <blocklink blocknb="6"/>

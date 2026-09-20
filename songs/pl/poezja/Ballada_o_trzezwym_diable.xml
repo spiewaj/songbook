@@ -17,9 +17,9 @@
     <block type="chorus">
       <row important_over="true">Di<ch a="a"/>abeł był zdrowy jak ten r<ch a="G"/>ydz</row>
       <row important_over="true">Po prostu czart na schw<ch a="a"/>ał</row>
-      <row important_over="true"><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
+      <row important_over="false"><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
       <row important_over="true">Na nogach ledwo st<ch a="a"/>ał</row>
-      <row important_over="true">Uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał</row>
+      <row important_over="false">Uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał</row>
     </block>
     <block type="verse">
       <row important_over="false">Chł<ch a="a"/>op gdy usłyszał Pana głos</row>
@@ -80,10 +80,10 @@
       <row important_over="false">Mój d<ch a="G"/>obry Panie p<ch a="C"/>owi<ch a="G"/>edz</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Czy di<ch a="a"/>abeł sobie wsz<ch a="G"/>ył czy co</row>
-      <row important_over="true">Że trzeźwym musi b<ch a="a"/>yć</row>
-      <row important_over="true">P<ch a="a"/>an odpowiedział sp<ch a="G"/>ójrz na kraj</row>
-      <row important_over="true"><ch a="G"/>On już nie musi p<ch a="a"/>ić.</row>
+      <row important_over="false">Czy di<ch a="a"/>abeł sobie wsz<ch a="G"/>ył czy co</row>
+      <row important_over="false">Że trzeźwym musi b<ch a="a"/>yć</row>
+      <row important_over="false">P<ch a="a"/>an odpowiedział sp<ch a="G"/>ójrz na kraj</row>
+      <row important_over="false"><ch a="G"/>On już nie musi p<ch a="a"/>ić.</row>
     </block>
   </lyric>
   <music metre="2/4">

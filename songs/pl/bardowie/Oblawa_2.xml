@@ -15,13 +15,13 @@
       <row important_over="true"><ch a="E"/>Niedobitki los cierpią sobaczy<ch a="a"/></row>
       <row important_over="true"><ch a="H"/>Z gąszczu żaden kudłaty pysk nie wyjrzy na krok<ch a="C"/></row>
       <row important_over="true"><ch a="H"/>W ślepiach obłęd lęk chciwość lub zdrada<ch a="a"/><ch a="H"/></row>
-      <row important_over="true"><ch a="a"/>Na otwartych przestrzeniach dawno znikł wilchy trop<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Na otwartych przestrzeniach dawno znikł wilchy trop<ch a="E"/><ch a="a"/></row>
       <row important_over="true"><ch a="C"/>Wilk wie dobrze czym pachnie zagłada<ch a="H"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="e"/>Słyszę wciąż i uszom nie wierzę<ch a="a"/></row>
       <row important_over="true"><ch a="Fis"/>Lecz potwierdza to wzrok wszystko mi<ch a="H"/></row>
-      <row important_over="true"><ch a="e"/>Zwierzem jesteś i żyjesz jak zwierze<ch a="a"/></row>
+      <row important_over="false"><ch a="e"/>Zwierzem jesteś i żyjesz jak zwierze<ch a="a"/></row>
       <row important_over="true"><ch a="C"/>Lecz nie wilki nie wilki już wy<ch a="H"/><ch a="e"/></row>
     </block>
     <block type="verse">

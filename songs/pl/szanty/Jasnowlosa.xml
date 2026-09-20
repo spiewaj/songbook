@@ -9,10 +9,10 @@
 			<row important_over="true">Czy jak syr<ch a="G"/>ena wyszła z morza czy ją prz<ch a="C"/>ygn<ch a="D7"/>ał wi<ch a="G"/>atr</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Ż<ch a="G"/>egnaj Irlandio, czas w dr<ch a="C"/>ogę m<ch a="D"/>i j<ch a="G"/>uż</row>
-			<row important_over="true">W p<ch a="G"/>orcie got<ch a="e"/>owa stoi m<ch a="C"/>oja ł<ch a="D7"/>ódź</row>
-			<row important_over="true">Na wi<ch a="G"/>elki oc<ch a="e"/>ean przyjdzie m<ch a="C"/>i zaraz w<ch a="F"/>y<ch a="D7"/>jść</row>
-			<row important_over="true">I poż<ch a="G"/>egnać się z dziewczyną na L<ch a="C"/>o<ch a="D7"/>ugh Shol<ch a="G"/>in</row>
+			<row important_over="false">Ż<ch a="G"/>egnaj Irlandio, czas w dr<ch a="C"/>ogę m<ch a="D"/>i j<ch a="G"/>uż</row>
+			<row important_over="false">W p<ch a="G"/>orcie got<ch a="e"/>owa stoi m<ch a="C"/>oja ł<ch a="D7"/>ódź</row>
+			<row important_over="false">Na wi<ch a="G"/>elki oc<ch a="e"/>ean przyjdzie m<ch a="C"/>i zaraz w<ch a="F"/>y<ch a="D7"/>jść</row>
+			<row important_over="false">I poż<ch a="G"/>egnać się z dziewczyną na L<ch a="C"/>o<ch a="D7"/>ugh Shol<ch a="G"/>in</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Uj<ch a="G"/>ąłem ją za rękę delik<ch a="C"/>atn<ch a="D"/>ą j<ch a="G"/>ak</row>

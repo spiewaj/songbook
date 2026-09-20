@@ -20,9 +20,9 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">To wszystko b<ch a="d"/>yło min<ch a="C"/>ęło z<ch a="G"/>ostało tylko wspomn<ch a="d"/>ienie</row>
-			<row important_over="true">Już nie pocz<ch a="d"/>uję wibr<ch a="C"/>acji pokł<ch a="G"/>adu gdy kable gr<ch a="d"/>ają</row>
-			<row important_over="true">Już tylko d<ch a="d"/>om i ogr<ch a="C"/>ódek i t<ch a="G"/>ak aż do śmi<ch a="d"/>erci</row>
-			<row important_over="true">A przecież st<ch a="d"/>are żagl<ch a="C"/>owce po m<ch a="G"/>orzach jeszcze pływ<ch a="d"/>ają</row>
+			<row important_over="false">Już nie pocz<ch a="d"/>uję wibr<ch a="C"/>acji pokł<ch a="G"/>adu gdy kable gr<ch a="d"/>ają</row>
+			<row important_over="false">Już tylko d<ch a="d"/>om i ogr<ch a="C"/>ódek i t<ch a="G"/>ak aż do śmi<ch a="d"/>erci</row>
+			<row important_over="false">A przecież st<ch a="d"/>are żagl<ch a="C"/>owce po m<ch a="G"/>orzach jeszcze pływ<ch a="d"/>ają</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Nie gn<ch a="d"/>iewaj się kochanie</row>

@@ -10,15 +10,15 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">T<ch a="C"/>am, dokąd chciałem j<ch a="G"/>uż nie dojdę, szk<ch a="F"/>oda zdzierać n<ch a="C"/>óg,</row>
-			<row important_over="true">J<ch a="C"/>uż wędrówki n<ch a="G"/>aszej wspólnej n<ch a="F"/>adchodzi kr<ch a="C"/>es.</row>
-			<row important_over="true">W<ch a="C"/>y pójdziecie <ch a="G"/>inną drogą z<ch a="F"/>ostawicie mni<ch a="C"/>e,</row>
-			<row important_over="true">Od<ch a="C"/>ejdziecie — s<ch a="G"/>am zostanę n<ch a="F"/>a rozstaju dr<ch a="C"/>óg.</row>
+			<row important_over="false">J<ch a="C"/>uż wędrówki n<ch a="G"/>aszej wspólnej n<ch a="F"/>adchodzi kr<ch a="C"/>es.</row>
+			<row important_over="false">W<ch a="C"/>y pójdziecie <ch a="G"/>inną drogą z<ch a="F"/>ostawicie mni<ch a="C"/>e,</row>
+			<row important_over="false">Od<ch a="C"/>ejdziecie — s<ch a="G"/>am zostanę n<ch a="F"/>a rozstaju dr<ch a="C"/>óg.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">H<ch a="C"/>ej przyjaci<ch a="G"/>ele, przyjaciele, h<ch a="F"/>ej, zostańcie z<ch a="C"/>e mną,</row>
-			<row important_over="true">Prz<ch a="C"/>ecież wszystko t<ch a="G"/>o co miałem <ch a="F"/>oddałem W<ch a="C"/>am.</row>
-			<row important_over="true">H<ch a="C"/>ej przyj<ch a="G"/>aciele, przyjaciele, h<ch a="F"/>ej, choć chwilę j<ch a="C"/>edną,</row>
-			<row important_over="true">Zn<ch a="C"/>owu w życiu m<ch a="G"/>i nie wyszło, zn<ch a="F"/>owu będę s<ch a="C"/>am.</row>
+			<row important_over="false">H<ch a="C"/>ej przyjaci<ch a="G"/>ele, przyjaciele, h<ch a="F"/>ej, zostańcie z<ch a="C"/>e mną,</row>
+			<row important_over="false">Prz<ch a="C"/>ecież wszystko t<ch a="G"/>o co miałem <ch a="F"/>oddałem W<ch a="C"/>am.</row>
+			<row important_over="false">H<ch a="C"/>ej przyj<ch a="G"/>aciele, przyjaciele, h<ch a="F"/>ej, choć chwilę j<ch a="C"/>edną,</row>
+			<row important_over="false">Zn<ch a="C"/>owu w życiu m<ch a="G"/>i nie wyszło, zn<ch a="F"/>owu będę s<ch a="C"/>am.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Zn<ch a="C"/>ów spóźniłem si<ch a="G"/>ę na pociąg <ch a="F"/>i odjechał j<ch a="C"/>uż,</row>

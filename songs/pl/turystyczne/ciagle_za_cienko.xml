@@ -4,14 +4,14 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Ciągle za cienko w życiu idzie nam, <ch a="G"/>ciągle za cienko</row>
       <row important_over="true">Bo <ch a="F"/>mamy za mało i <ch a="G"/>więcej by chciało <ch a="C"/>się.<ch a="C7"/> </row>
-      <row important_over="true"><ch a="C"/>Wierzcie piosenkom, pijcie piwo i <ch a="G"/>wierzcie piosenkom</row>
+      <row important_over="false"><ch a="C"/>Wierzcie piosenkom, pijcie piwo i <ch a="G"/>wierzcie piosenkom</row>
       <row important_over="true">Że <ch a="F"/>gdzieś ludzie mówią, że <ch a="G"/>jest chyba nie tak <ch a="C"/>źle. </row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>Chyba może na <ch a="G"/>pewno,</row>
+      <row important_over="false"><ch a="C"/>Chyba może na <ch a="G"/>pewno,</row>
       <row important_over="true"><ch a="a"/>Odpowiem, a jutro <ch a="F"/>pomyślę, że to nie <ch a="C"/>tak </row>
-      <row important_over="true"><ch a="C"/>Chyba może na <ch a="G"/>pewno</row>
-      <row important_over="true"><ch a="a"/> Rozstrzygnąć to trudno, bo <ch a="F"/>nikt chyba nie wie <ch a="C"/>jak.</row>
+      <row important_over="false"><ch a="C"/>Chyba może na <ch a="G"/>pewno</row>
+      <row important_over="false"><ch a="a"/> Rozstrzygnąć to trudno, bo <ch a="F"/>nikt chyba nie wie <ch a="C"/>jak.</row>
     </block>
     <block type="verse">
       <row important_over="false">Forsę na pociąg, zabieramy więc, forsę na pociąg,<ch a="C"/><ch a="G"/></row>
@@ -23,7 +23,7 @@
     <block type="other">
       <row important_over="true"><ch a="F"/>Każde jutro jest <ch a="C"/>lepsze niż </row>
       <row important_over="true">Gdzie<ch a="G"/>kolwiek dzisiejszy <ch a="C"/>dzień</row>
-      <row important_over="true"><ch a="F"/>Każda chwila <ch a="C"/>opóźnia tyle,</row>
+      <row important_over="false"><ch a="F"/>Każda chwila <ch a="C"/>opóźnia tyle,</row>
       <row important_over="true">Że<ch a="G"/> nie chce się lepiej.</row>
     </block>
     <block type="verse">

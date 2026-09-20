@@ -12,28 +12,28 @@
       <row important_over="true"><ch a="E"/>I znowu nadzy i ona tuż obok<ch a="H"/><ch a="E"/></row>
       <row important_over="true"><ch a="A"/>Spojrzałem na tamte wszystkie noce<ch a="H"/></row>
       <row important_over="true"><ch a="cis"/>Przykryj się choć prześcieradłem<ch a="gis"/></row>
-      <row important_over="true"><ch a="A"/>Ja się już chyba nie zmienię<ch a="H"/></row>
-      <row important_over="true"><ch a="E"/>Już dawno było za późno<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Ja się już chyba nie zmienię<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Już dawno było za późno<ch a="H"/><ch a="E"/></row>
       <row important_over="true"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
+      <row important_over="false"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
       <row important_over="true"><ch a="E"/>I nie próbuj wracać na wiosnę<ch a="A"/><ch a="H"/></row>
       <row important_over="true"><ch a="cis"/>Drzewa bez liści nie dają cienia<ch a="A"/></row>
-      <row important_over="true"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
-      <row important_over="true"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
+      <row important_over="false"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="E"/>Szukałem tamtych miejsc do znudzenia<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Aż wychodziłem dziury w butach<ch a="H"/></row>
-      <row important_over="true"><ch a="cis"/>A kiedy w końcu znalazłem<ch a="gis"/></row>
-      <row important_over="true"><ch a="A"/>Brudne ulice oblazłe ściany<ch a="H"/></row>
-      <row important_over="true"><ch a="E"/>Nie były już nawet wspomnieniem<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>A wszyscy ludzie obcy<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Szukałem tamtych miejsc do znudzenia<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Aż wychodziłem dziury w butach<ch a="H"/></row>
+      <row important_over="false"><ch a="cis"/>A kiedy w końcu znalazłem<ch a="gis"/></row>
+      <row important_over="false"><ch a="A"/>Brudne ulice oblazłe ściany<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Nie były już nawet wspomnieniem<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>A wszyscy ludzie obcy<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -47,17 +47,17 @@
     </block>
     <block type="verse">
       <bis>
-        <row important_over="true"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
-        <row important_over="true"><ch a="E"/>I nie próbuj wracać na wiosnę<ch a="A"/><ch a="H"/></row>
-        <row important_over="true"><ch a="cis"/>Drzewa bez liści nie dają cienia<ch a="A"/></row>
-        <row important_over="true"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
-        <row important_over="true"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
-        <row important_over="true"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
+        <row important_over="false"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
+        <row important_over="false"><ch a="E"/>I nie próbuj wracać na wiosnę<ch a="A"/><ch a="H"/></row>
+        <row important_over="false"><ch a="cis"/>Drzewa bez liści nie dają cienia<ch a="A"/></row>
+        <row important_over="false"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
+        <row important_over="false"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
       </bis>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="true"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
+        <row important_over="false"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
       </bis>
     </block>
   </lyric>

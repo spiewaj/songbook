@@ -35,18 +35,18 @@
 		<block type="chorus">
 			<row important_over="true">T<ch a="d"/>y to masz sz<ch a="A7"/>części<ch a="d"/>e<ch a="A7"/>, ż<ch a="d"/>e w tym mom<ch a="A7"/>enci<ch a="d"/>e</row>
 			<row important_over="true">Ż<ch a="g"/>yć ci prz<ch a="C"/>yszło w kr<ch a="F"/>aju nad W<ch a="g"/>isłą</row>
-			<row important_over="true">T<ch a="A7"/>y to masz szczęści<ch a="d"/>e</row>
-			<row important_over="true">Tw<ch a="d"/>ój kraj szczęśl<ch a="A7"/>iw<ch a="d"/>y,<ch a="A7"/> pi<ch a="d"/>ękny, prawdz<ch a="A7"/>iw<ch a="d"/>y</row>
-			<row important_over="true">L<ch a="g"/>udzie ucz<ch a="C"/>ynni, w s<ch a="F"/>ercach niew<ch a="g"/>inni</row>
-			<row important_over="true">Tw<ch a="A7"/>ój kraj szczęśliw<ch a="d"/>y</row>
+			<row important_over="false">T<ch a="A7"/>y to masz szczęści<ch a="d"/>e</row>
+			<row important_over="false">Tw<ch a="d"/>ój kraj szczęśl<ch a="A7"/>iw<ch a="d"/>y,<ch a="A7"/> pi<ch a="d"/>ękny, prawdz<ch a="A7"/>iw<ch a="d"/>y</row>
+			<row important_over="false">L<ch a="g"/>udzie ucz<ch a="C"/>ynni, w s<ch a="F"/>ercach niew<ch a="g"/>inni</row>
+			<row important_over="false">Tw<ch a="A7"/>ój kraj szczęśliw<ch a="d"/>y</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Było ci<ch a="A"/>emno, więc nie mogłem stwierdzić k<ch a="d"/>omu</row>
+			<row important_over="false">Było ci<ch a="A"/>emno, więc nie mogłem stwierdzić k<ch a="d"/>omu</row>
 			<row important_over="never">pomyliły się epoki lub stulecia         </row>
-			<row important_over="true">Było ci<ch a="A7"/>emno, może to Micki<ch a="d"/>ewicz jaki</row>
+			<row important_over="false">Było ci<ch a="A7"/>emno, może to Micki<ch a="d"/>ewicz jaki</row>
 			<row important_over="never">bo tak zgrabnie romantyczną wiarę krzesał         </row>
-			<row important_over="true">Trochę ni<ch a="B"/>ezorientowany, bo w tym kr<ch a="E"/>aju tak kochanym</row>
-			<row important_over="true">dawno ni<ch a="A"/>e był już widziany</row>
+			<row important_over="false">Trochę ni<ch a="B"/>ezorientowany, bo w tym kr<ch a="E"/>aju tak kochanym</row>
+			<row important_over="false">dawno ni<ch a="A"/>e był już widziany</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Może N<ch a="A"/>orwid, bo coś plótł, że łza gdzieś zn<ch a="d"/>ad planety spada</row>

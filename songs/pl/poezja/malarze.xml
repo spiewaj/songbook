@@ -10,10 +10,10 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Hej, mal<ch a="e"/>arze, nuże p<ch a="H7"/>ędzle zanurz<ch a="e"/>ajcie</row>
-			<row important_over="true">W zorze mi<ch a="e"/>asta o wiecz<ch a="H7"/>orze, w nasze dz<ch a="e"/>iś.</row>
+			<row important_over="false">W zorze mi<ch a="e"/>asta o wiecz<ch a="H7"/>orze, w nasze dz<ch a="e"/>iś.</row>
 			<bis times="2">
 				<row important_over="true">Niech powt<ch a="Fis"/>órzą gwar podw<ch a="H7"/>órek na Arb<ch a="e"/>acie</row>
-				<row important_over="true">Wasze p<ch a="Fis"/>ędzle jak jesi<ch a="H7"/>enny lotny l<ch a="e"/>iść.</row>
+				<row important_over="false">Wasze p<ch a="Fis"/>ędzle jak jesi<ch a="H7"/>enny lotny l<ch a="e"/>iść.</row>
 			</bis>
 		</block>
 		<block type="verse">

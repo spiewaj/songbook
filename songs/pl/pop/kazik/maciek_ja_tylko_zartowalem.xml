@@ -7,22 +7,22 @@
       <row important_over="true"><ch a="h"/>Gdy tobie z sobą <ch a="fis"/>iść kazałem</row>
       <row important_over="true"><ch a="G"/>Tam nie było <ch a="fis"/>żadnych pieniędzy</row>
       <row important_over="true"><ch a="E"/>Była nędza i<ch a="A"/> nic więcej.</row>
-      <row important_over="true"><ch a="D"/>Tyle razy o tym<ch a="A"/> myślałem</row>
-      <row important_over="true"><ch a="h"/>Maciek ja tylko ż<ch a="fis"/>artowałem</row>
-      <row important_over="true"><ch a="G"/>Nie, nie, nie z<ch a="fis"/>wariowałem</row>
-      <row important_over="true"><ch a="E"/>Ani tym bardziej n<ch a="A"/>ie oszalałem</row>
+      <row important_over="false"><ch a="D"/>Tyle razy o tym<ch a="A"/> myślałem</row>
+      <row important_over="false"><ch a="h"/>Maciek ja tylko ż<ch a="fis"/>artowałem</row>
+      <row important_over="false"><ch a="G"/>Nie, nie, nie z<ch a="fis"/>wariowałem</row>
+      <row important_over="false"><ch a="E"/>Ani tym bardziej n<ch a="A"/>ie oszalałem</row>
     </block>
     <block type="chorus">
-      <row important_over="true"> <ch a="D"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
-      <row important_over="true"> <ch a="h"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
-      <row important_over="true"> <ch a="G"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
-      <row important_over="true"> <ch a="E"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
+      <row important_over="false"> <ch a="D"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
+      <row important_over="false"> <ch a="h"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
+      <row important_over="false"> <ch a="G"/>Maciek ja tylko <ch a="fis"/>żartowałem</row>
+      <row important_over="false"> <ch a="E"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
     </block>
     <block type="verse">
-      <row important_over="true">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
-      <row important_over="true">Nigdy ciebie nie kochałem<ch a="h"/><ch a="fis"/></row>
-      <row important_over="true">Kochałem setki innych facetów<ch a="G"/><ch a="fis"/></row>
-      <row important_over="true">Z tobą to jednak nie to<ch a="E"/><ch a="A"/></row>
+      <row important_over="false">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Nigdy ciebie nie kochałem<ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">Kochałem setki innych facetów<ch a="G"/><ch a="fis"/></row>
+      <row important_over="false">Z tobą to jednak nie to<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Kręci się ziemia wokół słońca<ch a="D"/><ch a="A"/></row>

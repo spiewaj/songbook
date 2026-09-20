@@ -3,12 +3,12 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="G"/> Na poł<ch a="e"/>udniu Polski j<ch a="a"/>est <ch a="D"/>miejsce gdzie </row>
-      <row important_over="true"><ch a="G"/>Raz do <ch a="e"/>roku równa br<ch a="a"/>ać z<ch a="D"/>łazi się</row>
-      <row important_over="true"><ch a="G"/>Każdy <ch a="e"/>dobry humor <ch a="a"/>ma, pio<ch a="D"/>senek wiele zna </row>
-      <row important_over="true"><ch a="G"/>Więc nam <ch a="e"/>czas płynie <ch a="a"/>szybko i wes<ch a="D"/>oło.</row>
+      <row important_over="false"><ch a="G"/>Raz do <ch a="e"/>roku równa br<ch a="a"/>ać z<ch a="D"/>łazi się</row>
+      <row important_over="false"><ch a="G"/>Każdy <ch a="e"/>dobry humor <ch a="a"/>ma, pio<ch a="D"/>senek wiele zna </row>
+      <row important_over="false"><ch a="G"/>Więc nam <ch a="e"/>czas płynie <ch a="a"/>szybko i wes<ch a="D"/>oło.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Laj la la laj... <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false">Laj la la laj... <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Wędrujemy tydzień już ziemia drży

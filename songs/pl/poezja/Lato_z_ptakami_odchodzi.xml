@@ -11,21 +11,21 @@
 		<block type="verse">
 			<row important_over="true">L<ch a="a"/>ato z ptak<ch a="d"/>ami odch<ch a="a"/>odzi</row>
 			<row important_over="true">Wi<ch a="d"/>atr skręca l<ch a="a"/>iście w wark<ch a="E"/>oc<ch a="a"/>ze</row>
-			<row important_over="true">Dyw<ch a="a"/>anem <ch a="d"/>okrywa szl<ch a="a"/>aki</row>
-			<row important_over="true">Szk<ch a="d"/>arłaty wi<ch a="a"/>esza na zb<ch a="E"/>ocz<ch a="a"/>ach</row>
+			<row important_over="false">Dyw<ch a="a"/>anem <ch a="d"/>okrywa szl<ch a="a"/>aki</row>
+			<row important_over="false">Szk<ch a="d"/>arłaty wi<ch a="a"/>esza na zb<ch a="E"/>ocz<ch a="a"/>ach</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Przyobl<ch a="d"/>ekam myśli w kol<ch a="G"/>ory</row>
 			<row important_over="true">W liści zł<ch a="C"/>oto w buków purp<ch a="a"/>urę</row>
-			<row important_over="true">Palę w <ch a="d"/>ogniu letnie wspomni<ch a="G"/>enia</row>
+			<row important_over="false">Palę w <ch a="d"/>ogniu letnie wspomni<ch a="G"/>enia</row>
 			<row important_over="true">Idę w<ch a="C"/>ymachując kost<ch a="A7"/>urem</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="true">Idę w g<ch a="d"/>óry cieszyć się ż<ch a="G"/>yciem</row>
-				<row important_over="true">Oddać dł<ch a="C"/>oniom halnego wł<ch a="a"/>osy</row>
-				<row important_over="true">W szelest l<ch a="d"/>iści wsłuchać się pr<ch a="G"/>agnę</row>
-				<row important_over="true">W odlatuj<ch a="C"/>ących ptaków gł<ch a="A7"/>osy</row>
+				<row important_over="false">Idę w g<ch a="d"/>óry cieszyć się ż<ch a="G"/>yciem</row>
+				<row important_over="false">Oddać dł<ch a="C"/>oniom halnego wł<ch a="a"/>osy</row>
+				<row important_over="false">W szelest l<ch a="d"/>iści wsłuchać się pr<ch a="G"/>agnę</row>
+				<row important_over="false">W odlatuj<ch a="C"/>ących ptaków gł<ch a="A7"/>osy</row>
 			</bis>
 		</block>
 		<block type="verse">

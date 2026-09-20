@@ -5,7 +5,7 @@
       <row important_over="true"><ch a="C"/>Cicha noc, święta noc</row>
       <row important_over="true"><ch a="G7"/>Pokój niesie ludziom wszem<ch a="C"/><ch a="C7"/></row>
       <row important_over="true"><ch a="F"/>A u żłóbka matka święta<ch a="C"/></row>
-      <row important_over="true"><ch a="F"/>Czuwa sama uśmiechnięta<ch a="C"/></row>
+      <row important_over="false"><ch a="F"/>Czuwa sama uśmiechnięta<ch a="C"/></row>
       <row important_over="true"><ch a="G7"/>Nad dzieciątka snem<ch a="a"/></row>
       <row important_over="true"><ch a="G7"/>Nad dzieciątka snem<ch a="C"/><ch a="G7"/><ch a="C"/></row>
     </block>

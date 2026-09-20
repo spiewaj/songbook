@@ -16,7 +16,7 @@
 			<row important_over="true">Skały rozp<ch a="d"/>aczy i sk<ch a="H7"/>ały nadzi<ch a="E"/>ei.</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Obie pr<ch a="a"/>astare i <ch a="F0"/>obie rzeźbi<ch a="a"/>one<ch a="F0"/></row>
+			<row important_over="false">Obie pr<ch a="a"/>astare i <ch a="F0"/>obie rzeźbi<ch a="a"/>one<ch a="F0"/></row>
 			<row important_over="true">Siłą żywi<ch a="F"/>ołów ni<ch a="F0"/>eświadomych zn<ch a="a"/>aczeń;</row>
 			<row important_over="true">Skałą rozp<ch a="C"/>aczy — nadzi<ch a="G"/>eje strac<ch a="C"/>one,</row>
 			<row important_over="true">Skałą nadzi<ch a="H7"/>ei — przetrw<ch a="E"/>ane rozp<ch a="a"/>acze.<ch a="F0"/><ch a="a"/><ch a="F0"/></row>
@@ -40,9 +40,9 @@
 			<row important_over="false">Skała szal<ch a="d"/>eństwa i sk<ch a="H7"/>ała rozs<ch a="E"/>ądku.</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Obie lek<ch a="a"/>arstwem prz<ch a="F0"/>eciw nudzie d<ch a="a"/>ucha,<ch a="F0"/></row>
-			<row important_over="true">Obie modl<ch a="F"/>itwy g<ch a="F0"/>odne i przekl<ch a="a"/>eństwa;</row>
-			<row important_over="true">W skale szal<ch a="C"/>eństwa - rozs<ch a="G"/>ądku grań kr<ch a="C"/>ucha,</row>
+			<row important_over="false">Obie lek<ch a="a"/>arstwem prz<ch a="F0"/>eciw nudzie d<ch a="a"/>ucha,<ch a="F0"/></row>
+			<row important_over="false">Obie modl<ch a="F"/>itwy g<ch a="F0"/>odne i przekl<ch a="a"/>eństwa;</row>
+			<row important_over="false">W skale szal<ch a="C"/>eństwa - rozs<ch a="G"/>ądku grań kr<ch a="C"/>ucha,</row>
 			<row important_over="true">W skale rozs<ch a="H7"/>ądku - j<ch a="E"/>askinie szal<ch a="a"/>eństw<ch a="Fis"/>a.<ch a="b"/><ch a="Fis0"/><ch a="b"/><ch a="Fis0"/></row>
 		</block>
 		<block type="chorus">
@@ -52,7 +52,7 @@
 			<row important_over="true">A przecież z j<ch a="dis"/>ednej en<ch a="C7"/>ergii wykl<ch a="F"/>ute.</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Łączy je w gł<ch a="b"/>ębiach ni<ch a="Fis0"/>ewidoczny k<ch a="b"/>orzeń<ch a="Fis0"/></row>
+			<row important_over="false">Łączy je w gł<ch a="b"/>ębiach ni<ch a="Fis0"/>ewidoczny k<ch a="b"/>orzeń<ch a="Fis0"/></row>
 			<row important_over="true">Którym na trw<ch a="Fis"/>ałe w s<ch a="Fis0"/>edno bytu wb<ch a="b"/>ite;</row>
 			<row important_over="true">Tam, gdzie rozs<ch a="Cis"/>ądek - rozp<ch a="Gis"/>aczą i gr<ch a="Cis"/>ozą</row>
 			<row important_over="true">Nadzieja - szal<ch a="C"/>eństwem, szal<ch a="F"/>eństwo - zachw<ch a="b"/>ytem.</row>

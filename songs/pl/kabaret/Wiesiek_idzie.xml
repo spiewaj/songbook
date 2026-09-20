@@ -12,9 +12,9 @@
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="C"/>I podreptał do nory po ścieżce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="true"><ch a="C"/>I powiedział stanąwszy przed chatą<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="true"><ch a="C"/>Swojej żonie, lisicy Agnieszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="true"><ch a="C"/>Wiesiek idzie, nie ma rady na to<ch a="h7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>I powiedział stanąwszy przed chatą<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Swojej żonie, lisicy Agnieszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
+			<row important_over="false"><ch a="C"/>Wiesiek idzie, nie ma rady na to<ch a="h7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="e"/>Zaś lisica zmartwiła się szczerze<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>

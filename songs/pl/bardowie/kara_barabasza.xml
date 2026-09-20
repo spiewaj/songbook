@@ -11,17 +11,17 @@
 		<block type="verse">
 			<row important_over="true">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
 			<row important_over="true">M<ch a="B"/>ożesz się dzisiaj n<ch a="a"/>apić z łotrem,</row>
-			<row important_over="true">L<ch a="a"/>eje się wino krw<ch a="B"/>awe, złote,</row>
-			<row important_over="true">St<ch a="B"/>oły i pyski świ<ch a="a"/>ecą mokre.</row>
+			<row important_over="false">L<ch a="a"/>eje się wino krw<ch a="B"/>awe, złote,</row>
+			<row important_over="false">St<ch a="B"/>oły i pyski świ<ch a="a"/>ecą mokre.</row>
 			<row important_over="true">Ten śc<ch a="E7"/>isk to zysk dla g<ch a="a"/>ospodarza,</row>
-			<row important_over="true">Wi<ch a="E7"/>eść się po mieście sz<ch a="a"/>erzy chyża,</row>
+			<row important_over="false">Wi<ch a="E7"/>eść się po mieście sz<ch a="a"/>erzy chyża,</row>
 			<row important_over="true">Że m<ch a="B"/>ożna ujrzeć t<ch a="E7"/>u zbrodniarza,</row>
-			<row important_over="true">Co wł<ch a="B"/>aśnie wyłgał si<ch a="E7"/>ę od krzyża.</row>
+			<row important_over="false">Co wł<ch a="B"/>aśnie wyłgał si<ch a="E7"/>ę od krzyża.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Żyj<ch a="a"/>emy! Dobra n<ch a="G"/>asza!</row>
-			<row important_over="true">Co z życia chc<ch a="B"/>esz, za życia bi<ch a="a"/>erz!</row>
-			<row important_over="true">P<ch a="a"/>ijmy za Barab<ch a="G"/>asza!</row>
+			<row important_over="false">Co z życia chc<ch a="B"/>esz, za życia bi<ch a="a"/>erz!</row>
+			<row important_over="false">P<ch a="a"/>ijmy za Barab<ch a="G"/>asza!</row>
 			<row important_over="true">B<ch a="B"/>arabasz p<ch a="E7"/>ije t<ch a="a"/>eż!</row>
 		</block>
 		<block type="verse">
@@ -64,17 +64,17 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="true">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
-			<row important_over="true">Blask św<ch a="B"/>itu po skor<ch a="a"/>upach skacze,</row>
-			<row important_over="true">G<ch a="a"/>ospodarz przegnał pr<ch a="B"/>ecz hołotę</row>
-			<row important_over="true">
+			<row important_over="false">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
+			<row important_over="false">Blask św<ch a="B"/>itu po skor<ch a="a"/>upach skacze,</row>
+			<row important_over="false">G<ch a="a"/>ospodarz przegnał pr<ch a="B"/>ecz hołotę</row>
+			<row important_over="false">
 				<ch a="B"/>I liczy zysk. Bar<ch a="a"/>abasz płacze.</row>
-			<row important_over="true">W k<ch a="E7"/>arczmie z widokiem n<ch a="a"/>a Golgotę</row>
-			<row important_over="true">Blask św<ch a="E7"/>itu po skor<ch a="a"/>upach skacze,</row>
-			<row important_over="true">Gosp<ch a="B"/>odarz przegnał pr<ch a="E7"/>ecz hołotę</row>
-			<row important_over="true">I l<ch a="B"/>iczy zysk. Bar<ch a="E7"/>abasz płacze.</row>
+			<row important_over="false">W k<ch a="E7"/>arczmie z widokiem n<ch a="a"/>a Golgotę</row>
+			<row important_over="false">Blask św<ch a="E7"/>itu po skor<ch a="a"/>upach skacze,</row>
+			<row important_over="false">Gosp<ch a="B"/>odarz przegnał pr<ch a="E7"/>ecz hołotę</row>
+			<row important_over="false">I l<ch a="B"/>iczy zysk. Bar<ch a="E7"/>abasz płacze.</row>
 			<bis times="2">
-				<row important_over="true">B<ch a="B"/>arabasz pł<ch a="E7"/>acze.</row>
+				<row important_over="false">B<ch a="B"/>arabasz pł<ch a="E7"/>acze.</row>
 			</bis>
 		</block>
 		<block type="chorus">

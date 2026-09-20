@@ -12,7 +12,7 @@
 			<row important_over="true">Lśn<ch a="d"/>i chorągiew p<ch a="a"/>ozłoc<ch a="d"/>ista</row>
 			<row important_over="true">Chrz<ch a="F"/>ęści zbroja szm<ch a="C"/>elcow<ch a="F"/>ana</row>
 			<row important_over="true">J<ch a="g"/>edzie, jedzie kr<ch a="d"/>ól Wład<ch a="B"/>ysław</row>
-			<row important_over="true">B<ch a="d"/>y poskromić b<ch a="a"/>isurm<ch a="d"/>ana.</row>
+			<row important_over="false">B<ch a="d"/>y poskromić b<ch a="a"/>isurm<ch a="d"/>ana.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">P<ch a="d"/>o wąwozach brzmi<ch a="a"/>ą cyk<ch a="d"/>ady,</row>
@@ -21,10 +21,10 @@
 			<row important_over="false">Spr<ch a="d"/>awdza szyki kln<ch a="a"/>ąc z madzi<ch a="d"/>arska.</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">N<ch a="F"/>ad wzgórzami wst<ch a="C"/>ają z<ch a="F"/>orze,</row>
-			<row important_over="true">W<ch a="F"/>ojsko w marszu r<ch a="C"/>umor cz<ch a="F"/>yni,</row>
-			<row important_over="true">- <ch a="g"/>O, już widać Cz<ch a="d"/>arne M<ch a="B"/>orze!</row>
-			<row important_over="true">M<ch a="d"/>ówi legat C<ch a="a"/>esar<ch a="d"/>ini.</row>
+			<row important_over="false">N<ch a="F"/>ad wzgórzami wst<ch a="C"/>ają z<ch a="F"/>orze,</row>
+			<row important_over="false">W<ch a="F"/>ojsko w marszu r<ch a="C"/>umor cz<ch a="F"/>yni,</row>
+			<row important_over="false">- <ch a="g"/>O, już widać Cz<ch a="d"/>arne M<ch a="B"/>orze!</row>
+			<row important_over="false">M<ch a="d"/>ówi legat C<ch a="a"/>esar<ch a="d"/>ini.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Kr<ch a="d"/>ól naprędce j<ch a="a"/>e śniad<ch a="d"/>anie,</row>

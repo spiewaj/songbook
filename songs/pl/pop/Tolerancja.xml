@@ -27,14 +27,14 @@
       <row important_over="true"><ch a="D"/>Marna sztuka</row>
       <row important_over="true"><ch a="D"/>Wrażliwe słowo czuły dotyk</row>
       <row important_over="true"><ch a="A"/>Wystarczą</row>
-      <row important_over="true"><ch a="D"/>Czasami tylko tego pragnę<ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Czasami tylko tego pragnę<ch a="A"/></row>
       <row important_over="true"><ch a="D"/>Tego szukam<ch a="A"/><ch a="D"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="A"/>Na miły Bóg</row>
       <row important_over="true"><ch a="D"/>Życie nie tylko po to jest by brać<ch a="G"/><ch a="A"/></row>
-      <row important_over="true"><ch a="D"/>Życie nie po to jest by bezczynnie trwać<ch a="G"/><ch a="A"/></row>
-      <row important_over="true"><ch a="D"/>I aby żyć siebie samego trzeba dać<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Życie nie po to jest by bezczynnie trwać<ch a="G"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>I aby żyć siebie samego trzeba dać<ch a="G"/><ch a="A"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="D"/>Problemy twoje moje nasze boje</row>

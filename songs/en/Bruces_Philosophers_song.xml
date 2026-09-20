@@ -34,8 +34,8 @@
 			<row important_over="false">   "I drink, therefore I am." <ch a="G"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Yes, Socrates himself is particularly missed; <ch a="D"/></row>
-			<row important_over="true">A lovely little thinker, but a bugger when he's pissed. <ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Yes, Socrates himself is particularly missed; <ch a="D"/></row>
+			<row important_over="false">A lovely little thinker, but a bugger when he's pissed. <ch a="G"/><ch a="D"/></row>
 		</block>
 	</lyric>
 	<music metre="">

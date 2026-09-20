@@ -7,14 +7,14 @@
     <block type="verse">
       <row important_over="true">Ogn<ch a="D"/>iska już dog<ch a="A"/>asa blask</row>
       <row important_over="true">Brat<ch a="D"/>erski splećmy kr<ch a="G"/>ąg</row>
-      <row important_over="true">W wiecz<ch a="D"/>ornej ciszy, w świ<ch a="A"/>etle gwiazd</row>
+      <row important_over="false">W wiecz<ch a="D"/>ornej ciszy, w świ<ch a="A"/>etle gwiazd</row>
       <row important_over="true">Ost<ch a="D"/>atni <ch a="G"/>uścisk r<ch a="D"/>ąk</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Kto r<ch a="D"/>az przyjaźni p<ch a="A"/>oznał moc</row>
-      <row important_over="true">Nie b<ch a="D"/>ędzie trwonić sł<ch a="G"/>ów</row>
-      <row important_over="true">Przy <ch a="D"/>innym ogniu w <ch a="A"/>inną noc</row>
-      <row important_over="true">Do z<ch a="D"/>obacz<ch a="G"/>enia zn<ch a="D"/>ów</row>
+      <row important_over="false">Kto r<ch a="D"/>az przyjaźni p<ch a="A"/>oznał moc</row>
+      <row important_over="false">Nie b<ch a="D"/>ędzie trwonić sł<ch a="G"/>ów</row>
+      <row important_over="false">Przy <ch a="D"/>innym ogniu w <ch a="A"/>inną noc</row>
+      <row important_over="false">Do z<ch a="D"/>obacz<ch a="G"/>enia zn<ch a="D"/>ów</row>
     </block>
     <block type="verse">
       <row important_over="false">Nie zg<ch a="D"/>aśnie tej prz<ch a="A"/>yjaźni żar</row>

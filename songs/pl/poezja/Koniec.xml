@@ -19,13 +19,13 @@
       <row important_over="true">I z dnia n<ch a="A7+"/>a dzień ni<ch a="cis7"/>e zostało n<ch a="h"/>ic<ch a="h7"/><ch a="E"/><ch a="E5+"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Ktoś powi<ch a="A7+"/>edział nazbyt wi<ch a="G0"/>ele</row>
-      <row important_over="true">Ktoś się p<ch a="h"/>oczuł przyjaci<ch a="d6"/>elem</row>
+      <row important_over="false">Ktoś powi<ch a="A7+"/>edział nazbyt wi<ch a="G0"/>ele</row>
+      <row important_over="false">Ktoś się p<ch a="h"/>oczuł przyjaci<ch a="d6"/>elem</row>
       <row important_over="true">I z dnia n<ch a="A7+"/>a dzień ni<ch a="h"/>e zos<ch a="h7"/>tało n<ch a="A7+"/>ic<ch a="A7"/></row>
     </block>
     <block type="chorus">
       <row important_over="true">Jutro wst<ch a="D"/>anie nowy dzień po star<ch a="fis"/>emu</row>
-      <row important_over="true">Dzwoni ml<ch a="D"/>eczarz butelkami daje zn<ch a="fis"/>ać</row>
+      <row important_over="false">Dzwoni ml<ch a="D"/>eczarz butelkami daje zn<ch a="fis"/>ać</row>
       <row important_over="true">I na p<ch a="D"/>ewno nic na zewnątrz si<ch a="cis7"/>ę nie zmieni</row>
       <row important_over="true">Trzeba s<ch a="h7"/>obie tylko j<ch a="D"/>akoś z sobą s<ch a="d6"/>amym<ch a="E7"/> radę d<ch a="A7+"/>ać</row>
     </block>

@@ -5,7 +5,7 @@
 		<block type="verse">
 			<row important_over="true">Pł<ch a="a"/>acze dziewcz<ch a="d"/>ynka,</row>
 			<row important_over="true">B<ch a="G7"/>alon <ch a="E7"/>uciekł j<ch a="a"/>ej,</row>
-			<row important_over="true">L<ch a="a"/>udzie mówią — ni<ch a="d"/>e płacz,</row>
+			<row important_over="false">L<ch a="a"/>udzie mówią — ni<ch a="d"/>e płacz,</row>
 			<row important_over="true">
 				<ch a="E7"/>A balonik h<ch a="a"/>en.</row>
 		</block>

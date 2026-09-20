@@ -26,13 +26,13 @@
 				<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Jakby nigdy nic słońce świeci innym<ch a="h"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="h"/>I kto inny ze światem się zżywa<ch a="e"/><ch a="a"/><ch a="D"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Jakby nigdy nic żartujemy pijemy<ch a="h"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="h"/>Choć przy stole wciąż kogoś ubywa<ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
 		</block>
 		<block type="other">
@@ -40,11 +40,11 @@
 				<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Jakby nigdy nic kolejna jesień mija<ch a="h"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="h"/>Jakby nigdy nic życie ucieka<ch a="e"/><ch a="a"/><ch a="D"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Jakby nigdy nic robię dobrą minę do złej gry<ch a="h"/><ch a="C"/><ch a="D"/></row>
 			<row important_over="true">
 				<ch a="H"/>I z nadzieją na jutro czekam<ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/></row>

@@ -15,8 +15,8 @@
 			<row important_over="true">Propon<ch a="gis"/>uje ci herbatę oraz ch<ch a="A"/>ińskie pomarańcze</row>
 			<row important_over="true">I gdy wł<ch a="E"/>aśnie chcesz powiedzieć, że nie m<ch a="fis"/>ożesz jej pokochać,</row>
 			<row important_over="true">Zmienia tw<ch a="E"/>oją długość fali i pozw<ch a="fis"/>ala mówić rzece, że się z<ch a="E"/>awsze w niej kochałeś.</row>
-			<row important_over="true">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
-			<row important_over="true">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
+			<row important_over="false">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
+			<row important_over="false">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Pan J<ch a="E"/>ezus był żeglarzem, gdy przechadzał się po wodzie,</row>
@@ -29,14 +29,14 @@
 			<row important_over="false">Myślisz — ch<ch a="E"/>yba mu zaufam, bowiem d<ch a="fis"/>otknął twego ciała myślą sw<ch a="E"/>ą.</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Dziś Zuz<ch a="E"/>anna za rękę prowadzi cię nad rzekę,</row>
-			<row important_over="true">Cała w pi<ch a="fis"/>órach i w łachmanach z jakiejś Akcji Dobroczynnej,</row>
-			<row important_over="true">Słońce k<ch a="E"/>apie złotym miodem na Madonnę tej Przystani,</row>
-			<row important_over="true">Są tu dzi<ch a="gis"/>eci o poranku, bohat<ch a="A"/>erzy w wodorostach,</row>
-			<row important_over="true">Wszyscy d<ch a="E"/>ążą do miłości i pod<ch a="fis"/>ążać będą zawsze,</row>
-			<row important_over="true">Gdy Zuz<ch a="E"/>anna trzyma lustro.</row>
-			<row important_over="true">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
-			<row important_over="true">Wiesz, że m<ch a="E"/>ożna jej zaufać, bo dotkn<ch a="fis"/>ęła twego ciała myślą sw<ch a="E"/>ą.</row>
+			<row important_over="false">Dziś Zuz<ch a="E"/>anna za rękę prowadzi cię nad rzekę,</row>
+			<row important_over="false">Cała w pi<ch a="fis"/>órach i w łachmanach z jakiejś Akcji Dobroczynnej,</row>
+			<row important_over="false">Słońce k<ch a="E"/>apie złotym miodem na Madonnę tej Przystani,</row>
+			<row important_over="false">Są tu dzi<ch a="gis"/>eci o poranku, bohat<ch a="A"/>erzy w wodorostach,</row>
+			<row important_over="false">Wszyscy d<ch a="E"/>ążą do miłości i pod<ch a="fis"/>ążać będą zawsze,</row>
+			<row important_over="false">Gdy Zuz<ch a="E"/>anna trzyma lustro.</row>
+			<row important_over="false">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
+			<row important_over="false">Wiesz, że m<ch a="E"/>ożna jej zaufać, bo dotkn<ch a="fis"/>ęła twego ciała myślą sw<ch a="E"/>ą.</row>
 		</block>
 	</lyric>
 	

@@ -15,13 +15,13 @@
       <row important_over="never">A niedaleko w ceglanym bloku,</row>
       <row important_over="true">Mieszka ozdoba tej <ch a="E7"/>dziczy,</row>
       <row important_over="true">Brunecik z <ch a="A7"/>wąsem o sarnim wzroku,</row>
-      <row important_over="true"><ch a="A"/> Czyli miejscowy leś<ch a="d"/>niczy.</row>
+      <row important_over="false"><ch a="A"/> Czyli miejscowy leś<ch a="d"/>niczy.</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="D"/>Duś, duś go<ch a="A7"/>łąbki,</row>
       <row important_over="true"><ch a="A"/>Jadą, jadą w <ch a="D"/>gości,</row>
       <row important_over="true">Duś, duś go<ch a="A7"/>łąbki,</row>
-      <row important_over="true"><ch a="A"/>Oda do &quot;radości&quot;.<ch a="D"/></row>
+      <row important_over="false"><ch a="A"/>Oda do &quot;radości&quot;.<ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false">On by jej <ch a="d"/>z drzewa nastrącał szyszek,</row>
@@ -55,7 +55,7 @@
       <row important_over="true"><ch a="d"/>Smutno się skończy moja piosenka:</row>
       <row important_over="true">Teresa umrze od <ch a="E7"/>słońca,</row>
       <row important_over="true">Leśnik od <ch a="A7"/>Jadźki, w okrutnych mękach,</row>
-      <row important_over="true"><ch a="A"/> A piesek od zas<ch a="d"/>krońca,</row>
+      <row important_over="false"><ch a="A"/> A piesek od zas<ch a="d"/>krońca,</row>
       <row important_over="never">Zostanie po Teresie saszetka,</row>
       <row important_over="true">Po psie obróżka z kol<ch a="E7"/>czykiem,</row>
       <row important_over="true">A po le<ch a="A7"/>śniczym mała plakietka,</row>
@@ -69,10 +69,10 @@
       <row important_over="never">Można też pekaesem wysłać esemesa.</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="D"/>Duś, duś go<ch a="A7"/>łąbki,</row>
-      <row important_over="true"><ch a="A"/>Pali się pod <ch a="D"/>gruszą,</row>
+      <row important_over="false"><ch a="D"/>Duś, duś go<ch a="A7"/>łąbki,</row>
+      <row important_over="false"><ch a="A"/>Pali się pod <ch a="D"/>gruszą,</row>
       <row important_over="true">Duś, albo <ch a="A7"/>nie duś,</row>
-      <row important_over="true"><ch a="A"/>Same się poduszą.<ch a="D"/></row>
+      <row important_over="false"><ch a="A"/>Same się poduszą.<ch a="D"/></row>
     </block>
   </lyric>
   <keywords/>

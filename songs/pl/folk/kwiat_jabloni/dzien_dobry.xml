@@ -10,25 +10,25 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Dzień dobry, dobrze zoba<ch a="G"/>czyć Ciebie chociaż r<ch a="a"/>az</row>
       <row important_over="true">Na jakiś czas  <ch a="F"/>   <ch a="G"/> </row>
-      <row important_over="true"><ch a="C"/>Już 8 rano, wiad<ch a="G"/>omo, że nie zdążysz w<ch a="a"/>ięc</row>
-      <row important_over="true">Nie trzeba biec <ch a="F"/>   <ch a="G"/> </row>
-      <row important_over="true"><ch a="C"/>Popatrz dookoła, nikt tu ni<ch a="G"/>e wie po co ż<ch a="a"/>yć</row>
-      <row important_over="true">I o czym śnić  <ch a="F"/>   <ch a="G"/> </row>
+      <row important_over="false"><ch a="C"/>Już 8 rano, wiad<ch a="G"/>omo, że nie zdążysz w<ch a="a"/>ięc</row>
+      <row important_over="false">Nie trzeba biec <ch a="F"/>   <ch a="G"/> </row>
+      <row important_over="false"><ch a="C"/>Popatrz dookoła, nikt tu ni<ch a="G"/>e wie po co ż<ch a="a"/>yć</row>
+      <row important_over="false">I o czym śnić  <ch a="F"/>   <ch a="G"/> </row>
       <row important_over="true">Za s<ch a="C"/>obą zostaw g<ch a="G"/>órę trosk i<ch a="a"/> wyrusz zanim zgu<ch a="F"/>bisz trop</row>
-      <row important_over="true"><ch a="C"/>Powiedz j<ch a="G"/>ak to j<ch a="a"/>est...<ch a="F"/> </row>
+      <row important_over="false"><ch a="C"/>Powiedz j<ch a="G"/>ak to j<ch a="a"/>est...<ch a="F"/> </row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>Że nie sł<ch a="G"/>yszysz mn<ch a="a"/>ie    <ch a="F"/> </row>
-      <row important_over="true"><ch a="C"/>I nic nie mó<ch a="G"/>wisz, a k<ch a="a"/>ażdy dobrze w<ch a="F"/>ie</row>
+      <row important_over="false"><ch a="C"/>Że nie sł<ch a="G"/>yszysz mn<ch a="a"/>ie    <ch a="F"/> </row>
+      <row important_over="false"><ch a="C"/>I nic nie mó<ch a="G"/>wisz, a k<ch a="a"/>ażdy dobrze w<ch a="F"/>ie</row>
       <row important_over="true"><ch a="C"/>Że nie śpisz, gdy zap<ch a="G"/>ada zmrok</row>
       <row important_over="true">I n<ch a="a"/>ie wiesz kiedy zr<ch a="F"/>obić krok</row>
-      <row important_over="true"><ch a="C"/>Powiedz j<ch a="G"/>ak to j<ch a="a"/>est...<ch a="F"/> </row>
+      <row important_over="false"><ch a="C"/>Powiedz j<ch a="G"/>ak to j<ch a="a"/>est...<ch a="F"/> </row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Wracasz nad ranem, blady św<ch a="G"/>it odbija się</row>
+      <row important_over="false"><ch a="C"/>Wracasz nad ranem, blady św<ch a="G"/>it odbija się</row>
       <row important_over="true"><ch a="a"/> Od szyb i mgieł  <ch a="F"/>  <ch a="G"/> </row>
-      <row important_over="true"><ch a="C"/>Gonitwa myśli ni<ch a="G"/>e opuści Cię i ja to w<ch a="a"/>iem</row>
-      <row important_over="true">I znam ten bie<ch a="F"/>g  <ch a="G"/> </row>
+      <row important_over="false"><ch a="C"/>Gonitwa myśli ni<ch a="G"/>e opuści Cię i ja to w<ch a="a"/>iem</row>
+      <row important_over="false">I znam ten bie<ch a="F"/>g  <ch a="G"/> </row>
       <row important_over="true"><ch a="C"/>W pośpiechu gubisz własny cień</row>
       <row important_over="true">Kol<ch a="G"/>ejny rok, kolejny dzi<ch a="a"/>eń</row>
       <row important_over="true">I n<ch a="F"/>ie wiem ja<ch a="G"/>k to jest<ch a="C"/>...</row>
@@ -36,7 +36,7 @@
     <blocklink blocknb="3"/>
     <blocklink blocknb="1"/>
     <block type="other">
-      <row important_over="true"><ch a="F"/>I nie wie<ch a="G"/>m jak to jest... </row>
+      <row important_over="false"><ch a="F"/>I nie wie<ch a="G"/>m jak to jest... </row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

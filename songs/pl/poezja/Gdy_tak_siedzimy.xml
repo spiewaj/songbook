@@ -13,14 +13,14 @@
       <row important_over="true"><ch a="d"/>Ojczyzna nam umiera</row>
       <row important_over="true"><ch a="C"/>Gniją w celach koledzy<ch a="G"/></row>
       <row important_over="true"><ch a="a"/>Wolno się kręci powielacz<ch a="E"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Drukujemy ulotki<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Drukujemy ulotki<ch a="G"/></row>
       <row important_over="true"><ch a="d"/>O tym, że jeszcze żyjemy</row>
-      <row important_over="true"><ch a="C"/>Grozi nam za to wyrok<ch a="G"/></row>
-      <row important_over="true"><ch a="a"/>Dziesięciu lat więzienia<ch a="E"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Gdzieś niedaleko<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Grozi nam za to wyrok<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Dziesięciu lat więzienia<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdzieś niedaleko<ch a="G"/></row>
       <row important_over="true"><ch a="d"/>Patrol jednego z nas zatrzymał</row>
-      <row important_over="true"><ch a="C"/>Pijemy jego zdrowie<ch a="G"/></row>
-      <row important_over="true"><ch a="a"/>W więzieniu to mu się przyda<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Pijemy jego zdrowie<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>W więzieniu to mu się przyda<ch a="E"/><ch a="a"/></row>
     </block>
   </lyric>
   <music metre="">

@@ -4,9 +4,9 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="D"/> Na ścianie m<ch a="A"/>asz kol<ch a="e"/>ekcję swoich barwnych wspomnień:</row>
-			<row important_over="true"><ch a="D"/> Suszony kwi<ch a="A"/>at, nasz<ch a="e"/>yjnik, wiersz i liść.</row>
-			<row important_over="true"><ch a="D"/> Już tyle l<ch a="A"/>at przyp<ch a="e"/>inasz szpilką na tej słomie</row>
-			<row important_over="true"><ch a="D"/> To wszystko, c<ch a="A"/>o cenni<ch a="e"/>ejsze jest niż skarb.</row>
+			<row important_over="false"><ch a="D"/> Suszony kwi<ch a="A"/>at, nasz<ch a="e"/>yjnik, wiersz i liść.</row>
+			<row important_over="false"><ch a="D"/> Już tyle l<ch a="A"/>at przyp<ch a="e"/>inasz szpilką na tej słomie</row>
+			<row important_over="false"><ch a="D"/> To wszystko, c<ch a="A"/>o cenni<ch a="e"/>ejsze jest niż skarb.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="D"/> Pośrodku s<ch a="A"/>am gen<ch a="e"/>erał Robert Baden–Powell,</row>
@@ -16,15 +16,15 @@
 		</block>
 		<block type="verse">
 			<row important_over="true">Ramię pr<ch a="D"/>ęż, słabość kr<ch a="A"/>usz i nie z<ch a="e"/>awiedź w potrz<ch a="h"/>ebie,</row>
-			<row important_over="true">Podaj sw<ch a="D"/>ą pomocną dł<ch a="A"/>oń Tym, co l<ch a="e"/>iczą na Ci<ch a="h"/>ebie,</row>
-			<row important_over="true">Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
-			<row important_over="true">Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie każdy.</row>
+			<row important_over="false">Podaj sw<ch a="D"/>ą pomocną dł<ch a="A"/>oń Tym, co l<ch a="e"/>iczą na Ci<ch a="h"/>ebie,</row>
+			<row important_over="false">Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
+			<row important_over="false">Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie każdy.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">I świ<ch a="G"/>eć przykł<ch a="A"/>adem, świ<ch a="D"/>eć,</row>
-			<row important_over="true">I l<ch a="G"/>eć w przestw<ch a="A"/>orza l<ch a="D"/>eć,</row>
-			<row important_over="true">I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
-			<row important_over="true">Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
+			<row important_over="false">I l<ch a="G"/>eć w przestw<ch a="A"/>orza l<ch a="D"/>eć,</row>
+			<row important_over="false">I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
+			<row important_over="false">Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi”,</row>

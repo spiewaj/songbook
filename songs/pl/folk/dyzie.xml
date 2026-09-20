@@ -3,15 +3,15 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Nocka idzie, <ch a="D"/>śpią juz dyzie</row>
-      <row important_over="true"><ch a="e"/>A po niebie <ch a="D"/>skarbnik idzie</row>
-      <row important_over="true"><ch a="e"/>Słucha słucha <ch a="D"/>skarbnik stary, </row>
-      <row important_over="true"> <ch a="e"/>W jakim skarbcu <ch a="D"/>szumią czary </row>
+      <row important_over="false"><ch a="e"/>A po niebie <ch a="D"/>skarbnik idzie</row>
+      <row important_over="false"><ch a="e"/>Słucha słucha <ch a="D"/>skarbnik stary, </row>
+      <row important_over="false"> <ch a="e"/>W jakim skarbcu <ch a="D"/>szumią czary </row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="C"/>AAA - <ch a="D"/>minął nowy <ch a="e"/>dzień</row>
-      <row important_over="true">jeszcze jeden ciepły blask<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="true">AAA - minął nowy dzień<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="true">przecwałował gwiazdy wiatr <ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">jeszcze jeden ciepły blask<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">AAA - minął nowy dzień<ch a="C"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">przecwałował gwiazdy wiatr <ch a="C"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false">W skarbcu płynie srebrna rzeka<ch a="e"/><ch a="D"/></row>

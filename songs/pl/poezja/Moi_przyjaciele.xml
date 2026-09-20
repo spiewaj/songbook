@@ -11,17 +11,17 @@
 		<block type="verse">
 			<row important_over="true">Ki<ch a="G"/>edy was nie ma, t<ch a="e"/>o jakby nagle</row>
 			<row important_over="true">Zabr<ch a="C"/>akło w moim ż<ch a="D"/>yciu muzyki,</row>
-			<row important_over="true">Ki<ch a="G"/>edy was nie ma to cz<ch a="e"/>as mnie straszy,</row>
-			<row important_over="true">Ż<ch a="C"/>e przeminę, że będę chw<ch a="D"/>ilą.</row>
-			<row important_over="true">Ki<ch a="G"/>edy was nie ma, t<ch a="e"/>o jakby niebo</row>
-			<row important_over="true">Mi<ch a="C"/>ało się rozstać na z<ch a="D"/>awsze ze słońcem,</row>
-			<row important_over="true">Ki<ch a="G"/>edy was nie ma, d<ch a="e"/>ość mam wszystkiego</row>
-			<row important_over="true">I pr<ch a="C"/>agnę z stąd na z<ch a="D"/>awsze odejść.</row>
+			<row important_over="false">Ki<ch a="G"/>edy was nie ma to cz<ch a="e"/>as mnie straszy,</row>
+			<row important_over="false">Ż<ch a="C"/>e przeminę, że będę chw<ch a="D"/>ilą.</row>
+			<row important_over="false">Ki<ch a="G"/>edy was nie ma, t<ch a="e"/>o jakby niebo</row>
+			<row important_over="false">Mi<ch a="C"/>ało się rozstać na z<ch a="D"/>awsze ze słońcem,</row>
+			<row important_over="false">Ki<ch a="G"/>edy was nie ma, d<ch a="e"/>ość mam wszystkiego</row>
+			<row important_over="false">I pr<ch a="C"/>agnę z stąd na z<ch a="D"/>awsze odejść.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
-			<row important_over="true">M<ch a="C"/>oi przyjaciele, bądźcie z<ch a="D"/>awsze ze mną,</row>
-			<row important_over="true">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
+			<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
+			<row important_over="false">M<ch a="C"/>oi przyjaciele, bądźcie z<ch a="D"/>awsze ze mną,</row>
+			<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
 			<row important_over="true">Z W<ch a="C"/>ami wiem, że wszystko mogę,</row>
 			<row important_over="true">Ż<ch a="D"/>e wystarczy tylko chci<ch a="G"/>eć.<ch a="e"/><ch a="C"/><ch a="D"/></row>
 		</block>
@@ -37,9 +37,9 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="true">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
-				<row important_over="true">M<ch a="C"/>oi przyjaciele, bądźcie z<ch a="D"/>awsze ze mną,</row>
-				<row important_over="true">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
+				<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
+				<row important_over="false">M<ch a="C"/>oi przyjaciele, bądźcie z<ch a="D"/>awsze ze mną,</row>
+				<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
 				<row important_over="true">Z W<ch a="C"/>ami wiem, że wszystko mogę,</row>
 				<row important_over="true">Ż<ch a="D"/>e wystarczy tylko chci<ch a="G"/>eć.</row>
 			</bis>

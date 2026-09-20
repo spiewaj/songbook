@@ -15,7 +15,7 @@
       <row important_over="true">I tęsknię <ch a="E"/>każdym mediolańskim świtem,</row>
       <row important_over="true">Do naszych <ch a="E"/>pól złoconych zwłaszcza żytem.</row>
       <row important_over="true">Pamiętam <ch a="E"/>Ciebie w tamto lato</row>
-      <row important_over="true">Gdyś mó<ch a="E"/>wiła mi Beato, o ma<ch a="a"/>larstwie włoskim</row>
+      <row important_over="false">Gdyś mó<ch a="E"/>wiła mi Beato, o ma<ch a="a"/>larstwie włoskim</row>
       <row important_over="true">Może nie <ch a="C"/>bardzo byliśmy roztropni,</row>
       <row important_over="true">Na dworze <ch a="a"/>upał – jedenaście stopni.</row>
       <row important_over="true">A my w u<ch a="E"/>pale</row>
@@ -55,7 +55,7 @@
       <row important_over="true">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
       <row important_over="true">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
       <row important_over="true">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
-      <row important_over="true"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
+      <row important_over="false"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
     </block>
     <block type="chorus">
       <row important_over="true">Zabierzcie mi gi<ch a="dis"/>tarę</row>

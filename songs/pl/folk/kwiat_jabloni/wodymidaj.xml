@@ -26,9 +26,9 @@
     </block>
     <block type="chorus">
       <row important_over="true">Więc przez <ch a="B"/>płonący <ch a="C"/>las przeprowadź <ch a="d"/>mnie</row>
-      <row important_over="true">Niech z nieba s<ch a="B"/>padnie n<ch a="C"/>a mnie wielki d<ch a="d"/>eszcz</row>
-      <row important_over="true">I przez <ch a="B"/>płonący <ch a="C"/>las przeprowadź <ch a="d"/>mnie</row>
-      <row important_over="true">Jak wielka <ch a="B"/>rzeka <ch a="C"/>wpłyń, uratuj <ch a="d"/>mnie</row>
+      <row important_over="false">Niech z nieba s<ch a="B"/>padnie n<ch a="C"/>a mnie wielki d<ch a="d"/>eszcz</row>
+      <row important_over="false">I przez <ch a="B"/>płonący <ch a="C"/>las przeprowadź <ch a="d"/>mnie</row>
+      <row important_over="false">Jak wielka <ch a="B"/>rzeka <ch a="C"/>wpłyń, uratuj <ch a="d"/>mnie</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>I wciąż poznają ten świat</row>

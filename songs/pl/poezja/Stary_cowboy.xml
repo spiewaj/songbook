@@ -19,9 +19,9 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="e"/>Co mi tam wiatr, co mi tam chłód<ch a="G"/><ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
       <row important_over="true"><ch a="G"/>Był colt, lasso i bat<ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Pamiętasz stary koniu</row>

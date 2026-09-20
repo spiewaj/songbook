@@ -7,8 +7,8 @@
     <block type="verse">
       <row important_over="true">W p<ch a="e"/>ełnym słońcu w środku l<ch a="D"/>ata,<ch a="e"/> wśród łagodnych fal ziel<ch a="D"/>eni</row>
       <row important_over="true">Wr<ch a="e"/>e zapamiętała pr<ch a="D"/>aca, st<ch a="e"/>awiam ł<ch a="D"/>ódź na s<ch a="h"/>uchej zi<ch a="a"/>em<ch a="e"/>i</row>
-      <row important_over="true"><ch a="e"/>Owad w pąku drży kwitn<ch a="D"/>ącym, chł<ch a="e"/>op po barki brodzi w ż<ch a="D"/>ycie</row>
-      <row important_over="true">J<ch a="e"/>a pracując w dzień i w n<ch a="D"/>ocy, m<ch a="e"/>am już b<ch a="D"/>urty <ch a="h"/>i posz<ch a="a"/>yci<ch a="e"/>e</row>
+      <row important_over="false"><ch a="e"/>Owad w pąku drży kwitn<ch a="D"/>ącym, chł<ch a="e"/>op po barki brodzi w ż<ch a="D"/>ycie</row>
+      <row important_over="false">J<ch a="e"/>a pracując w dzień i w n<ch a="D"/>ocy, m<ch a="e"/>am już b<ch a="D"/>urty <ch a="h"/>i posz<ch a="a"/>yci<ch a="e"/>e</row>
     </block>
     <block type="verse">
       <row important_over="never">Muszę taką łódź zbudować, by w niej całe życie zmieścić</row>

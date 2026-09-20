@@ -6,9 +6,9 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="h"/>Wchodzi pierwszy zalany, drzwi się zamykają<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="true"><ch a="h"/>Widać film ma urwany, kica w kąt jak zając<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="false"><ch a="h"/>Widać film ma urwany, kica w kąt jak zając<ch a="Fis7"/><ch a="h"/></row>
       <row important_over="true"><ch a="e"/>I w bełkocie: ,,wylali'', bez motywowacji<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="true"><ch a="h"/>Pije bo kac jest lepszy, od stanów frustracji<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="false"><ch a="h"/>Pije bo kac jest lepszy, od stanów frustracji<ch a="Fis7"/><ch a="h"/></row>
       <row important_over="true"><ch a="e"/>Tylko kto mnie mać tak skurczył do rozmiarów liliputka<ch a="h"/></row>
     </block>
     <block type="chorus">
@@ -51,7 +51,7 @@
       <row important_over="false"><ch a="c"/>Po niej wielki uczony też ubzdryngolony<ch a="a"/><ch a="G7"/><ch a="c"/></row>
       <row important_over="false"><ch a="G7"/>Ale mądrość w nim taka, że aż bić pokłony<ch a="c"/></row>
       <row important_over="false"><ch a="f"/>Póki talent mój — rzecze — w rękach decydentów<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="false"><ch a="G7"/>Ni do pracy powrotu, ni do abstynętów</row>
+      <row important_over="true"><ch a="G7"/>Ni do pracy powrotu, ni do abstynętów</row>
       <row important_over="false"><ch a="f"/>Kto mnie jeszcze raz przekona, że przyczyny tkwią w skutkach<ch a="c"/></row>
     </block>
     <blocklink blocknb="2"/>
@@ -59,7 +59,7 @@
       <row important_over="false"><ch a="c"/>Na to powstał socjolog, co spał od południa<ch a="a"/><ch a="G7"/><ch a="c"/></row>
       <row important_over="false"><ch a="G7"/>Który z braku etatu, w szklarni się zatrudniał<ch a="c"/></row>
       <row important_over="false"><ch a="f"/>Rzekł: pisałem doktorat, że nie problem w ,,czystej''<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="false"><ch a="G7"/>I dlatego panowie jestem wciąż magistrem</row>
+      <row important_over="true"><ch a="G7"/>I dlatego panowie jestem wciąż magistrem</row>
       <row important_over="false"><ch a="f"/>Tylko praca jest odtrutką na taplanie się w smutkach<ch a="c"/></row>
     </block>
     <blocklink blocknb="2"/>
@@ -67,7 +67,7 @@
       <row important_over="false"><ch a="c"/>I wsunęli się wszyscy pod świeżutkie kołdry<ch a="a"/><ch a="G7"/><ch a="c"/></row>
       <row important_over="false"><ch a="G7"/>Wszyscy, których zjednało, zalewanie mordy<ch a="c"/></row>
       <row important_over="false"><ch a="f"/>Tylko biedny artysta ciągnął wciąż do ludzi<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="false"><ch a="G7"/>I z pijackim uporem — śpiących chciał rozbudzić</row>
+      <row important_over="true"><ch a="G7"/>I z pijackim uporem — śpiących chciał rozbudzić</row>
       <row important_over="false"><ch a="f"/>Co nam szkodzi w tym życiu niech mi z was ktoś odpowie!<ch a="c"/></row>
     </block>
     <block type="chorus">

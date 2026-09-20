@@ -10,14 +10,14 @@
 	<lyric>
 		<block type="chorus">
 			<row important_over="true">P<ch a="F"/>olsko--r<ch a="G"/>uska mad<ch a="a"/>onna</row>
-			<row important_over="true">P<ch a="F"/>olsko--st<ch a="G"/>arocerki<ch a="a"/>ewna</row>
-			<row important_over="true"><ch a="F"/> Z gorejąc<ch a="G"/>ego zł<ch a="a"/>ota</row>
-			<row important_over="true">Z ż<ch a="F"/>ywego dr<ch a="G"/>ewna, sr<ch a="a"/>ebra</row>
+			<row important_over="false">P<ch a="F"/>olsko--st<ch a="G"/>arocerki<ch a="a"/>ewna</row>
+			<row important_over="false"><ch a="F"/> Z gorejąc<ch a="G"/>ego zł<ch a="a"/>ota</row>
+			<row important_over="false">Z ż<ch a="F"/>ywego dr<ch a="G"/>ewna, sr<ch a="a"/>ebra</row>
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="F"/> Bizant<ch a="G"/>yjsko--słowi<ch a="d"/>ańska</row>
-			<row important_over="true"><ch a="F"/> W śnieżnobi<ch a="G"/>ałych suki<ch a="d"/>enkach</row>
-			<row important_over="true"><ch a="F"/> Nie na biel<ch a="G"/>onych pł<ch a="d"/>ótnach</row>
+			<row important_over="false"><ch a="F"/> W śnieżnobi<ch a="G"/>ałych suki<ch a="d"/>enkach</row>
+			<row important_over="false"><ch a="F"/> Nie na biel<ch a="G"/>onych pł<ch a="d"/>ótnach</row>
 			<row important_over="true"><ch a="C"/> Na trumiennych d<ch a="G"/>eskach</row>
 		</block>
 		<blocklink blocknb="1"/>

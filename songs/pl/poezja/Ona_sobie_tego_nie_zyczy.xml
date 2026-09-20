@@ -23,12 +23,12 @@
       <row important_over="true"><ch a="C"/>Ona sobie tego nie życzy<ch a="D"/><ch a="G"/></row>
       <row important_over="true"><ch a="G"/>Nie chce mych włości</row>
       <row important_over="true"><ch a="D"/>Nie chce mych danin</row>
-      <row important_over="true"><ch a="C"/>Ona sobie tego nie życzy<ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="G"/>A kiedy mówię do niej pozwól<ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Ona sobie tego nie życzy<ch a="D"/><ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>A kiedy mówię do niej pozwól<ch a="D"/></row>
       <row important_over="true"><ch a="C"/>Poszukać pójdę wiatru w polu<ch a="G"/></row>
       <bis>
-        <row important_over="true"><ch a="G"/>Ona sobie sobie sobie tego tego nie życzy<ch a="D"/></row>
-        <row important_over="true"><ch a="C"/>Ona sobie tego nie życzy<ch a="D"/><ch a="G"/></row>
+        <row important_over="false"><ch a="G"/>Ona sobie sobie sobie tego tego nie życzy<ch a="D"/></row>
+        <row important_over="false"><ch a="C"/>Ona sobie tego nie życzy<ch a="D"/><ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">

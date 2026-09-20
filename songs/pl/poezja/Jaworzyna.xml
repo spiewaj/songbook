@@ -13,16 +13,16 @@
       <row important_over="true"><ch a="e"/> Spać się kładzie każdy kto umie z<ch a="G"/>asnąć</row>
       <row important_over="true"><ch a="G"/> Zasnąć gdy pada l<ch a="a"/>etni deszcz<ch a="F"/><ch a="G"/></row>
       <row important_over="true"><ch a="a"/> Rzeki się pod mostami cisną</row>
-      <row important_over="true"><ch a="e"/> Tysiące kropel drążą swe pismo na sz<ch a="G"/>ybach</row>
-      <row important_over="true"><ch a="G"/> Na szybach kładzie ci<ch a="a"/>enie zmierzch<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="e"/> Tysiące kropel drążą swe pismo na sz<ch a="G"/>ybach</row>
+      <row important_over="false"><ch a="G"/> Na szybach kładzie ci<ch a="a"/>enie zmierzch<ch a="F"/><ch a="G"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/> Jaworzyna g<ch a="F"/>órom się kł<ch a="C"/>ania</row>
-      <row important_over="true"><ch a="C"/> Spod obłoków szcz<ch a="F"/>yt odsł<ch a="C"/>ania</row>
+      <row important_over="false"><ch a="C"/> Spod obłoków szcz<ch a="F"/>yt odsł<ch a="C"/>ania</row>
       <row important_over="true">Pog<ch a="G"/>oda będzie jutro będzie ł<ch a="C"/>adny świt<ch a="F"/><ch a="G"/></row>
-      <row important_over="true"><ch a="C"/> Rozchmurzyła si<ch a="F"/>ę Jaworz<ch a="C"/>yna</row>
-      <row important_over="true"><ch a="C"/> Już nie płacze śmi<ch a="F"/>ać się zacz<ch a="C"/>yna</row>
-      <row important_over="true">Pog<ch a="G"/>oda będzie jutro nie będzie sm<ch a="C"/>utny nikt<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="C"/> Rozchmurzyła si<ch a="F"/>ę Jaworz<ch a="C"/>yna</row>
+      <row important_over="false"><ch a="C"/> Już nie płacze śmi<ch a="F"/>ać się zacz<ch a="C"/>yna</row>
+      <row important_over="false">Pog<ch a="G"/>oda będzie jutro nie będzie sm<ch a="C"/>utny nikt<ch a="F"/><ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/> Noc się ściele na lasach mokrych</row>

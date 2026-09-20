@@ -13,10 +13,10 @@
       <row important_over="true"><ch a="F"/>Nie wykręcisz się dzisiaj ogryzkiem<ch a="G"/><ch a="A"/><ch a="D"/></row>
       <row important_over="true"><ch a="H7"/>Miecz ognisty nie wisi nad nami<ch a="e"/><ch a="A"/></row>
       <row important_over="true"><ch a="F"/>Michał w karty gra z Cherbinem<ch a="G"/><ch a="D"/></row>
-      <row important_over="true"><ch a="D"/>Nie bądź z tych co tylko wzdychają<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="true"><ch a="F"/>Klucz ściskając w kieszeni fartuszka<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="true"><ch a="H7"/>Niechaj tańczą dziś wszystkie drzewa<ch a="e"/><ch a="A"/></row>
-      <row important_over="true"><ch a="F"/>Nawet ciężka od upału grusza<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Nie bądź z tych co tylko wzdychają<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="F"/>Klucz ściskając w kieszeni fartuszka<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="H7"/>Niechaj tańczą dziś wszystkie drzewa<ch a="e"/><ch a="A"/></row>
+      <row important_over="false"><ch a="F"/>Nawet ciężka od upału grusza<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <bis>

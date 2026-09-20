@@ -7,7 +7,7 @@
 		<block type="verse">
 			<row important_over="true">P<ch a="h"/>ewnie nie zdążę opł<ch a="G"/>ynąć świata,</row>
 			<row important_over="true">Ni<ch a="e"/>e są mi dane Ever<ch a="A"/>esty s<ch a="Fis7"/>ine,</row>
-			<row important_over="true"><ch a="h"/>Ale do szczęścia wyst<ch a="G"/>arczyć może</row>
+			<row important_over="false"><ch a="h"/>Ale do szczęścia wyst<ch a="G"/>arczyć może</row>
 			<row important_over="true">L<ch a="e"/>ekki podmuch n<ch a="Fis7"/>ad Niegocinem.</row>
 		</block>
 		<block type="chorus">

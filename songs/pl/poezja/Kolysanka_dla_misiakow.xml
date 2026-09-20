@@ -9,7 +9,7 @@
 			<row important_over="true">Gdzieś za drzwi<ch a=""/><ch a="G"/>ami został <ch a="D"/>b<ch a=""/><ch a=""/>ól</row>
 			<row important_over="true"><ch a="D"/> Całych siebie chcemy dać</row>
 			<row important_over="never">Kilku ludzi dobrze nas zna</row>
-			<row important_over="true">Tylko <ch a="G"/>cz<ch a=""/>asem słabnie nam <ch a="D"/>puls</row>
+			<row important_over="false">Tylko <ch a="G"/>cz<ch a=""/>asem słabnie nam <ch a="D"/>puls</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
@@ -22,16 +22,16 @@
 			<row important_over="true">I zacząć malować bez farb<ch a="D"/><ch a="G"/><ch a="D"/><ch a=""/><ch a=""/></row>
 			<row important_over="true">Przeklinamy dzień za dniem<ch a="D"/> </row>
 			<row important_over="never">Śpisz, bo życie nie, nie jest snem</row>
-			<row important_over="true">Taki ciężar tylko zgina ci kark<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Taki ciężar tylko zgina ci kark<ch a="D"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="true">W kącie siedzi Anioł Stróż<ch a="D"/></row>
 			<row important_over="never">Strzeże naszych ciał i dusz</row>
-			<row important_over="true">Za godzinę muszę wyjść<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Za godzinę muszę wyjść<ch a="D"/><ch a="G"/><ch a="D"/></row>
 			<row important_over="true">Przyjdź po bliskość moich ust<ch a="D"/></row>
 			<row important_over="never">Chcę Ci dać trochę wiary w cud</row>
-			<row important_over="true">Póki możesz moje wino pij<ch a="D"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Póki możesz moje wino pij<ch a="D"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<blocklink blocknb="2"/>

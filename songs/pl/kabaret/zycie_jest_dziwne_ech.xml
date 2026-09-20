@@ -14,8 +14,8 @@
     <block type="chorus">
       <row important_over="true">Wyrosły <ch a="F"/>na niej łopian i <ch a="C"/>mech,</row>
       <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
-      <row important_over="true">Wyrosły <ch a="F"/>na niej łopian i <ch a="C"/>mech,</row>
-      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">Wyrosły <ch a="F"/>na niej łopian i <ch a="C"/>mech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
@@ -42,9 +42,9 @@
       <row important_over="false">W dłoni trzy<ch a="G"/>mało małą ksią<ch a="C"/>żeczkę.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
-      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
-      <row important_over="true">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
       <row important_over="true"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
       <row important_over="true"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
     </block>
@@ -52,10 +52,10 @@
       <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Chłopiec na <ch a="C"/>imię <ch a="G"/>miał Ok<ch a="C"/>tawian,</row>
-      <row important_over="true">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
-      <row important_over="true">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
-      <row important_over="true">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
+      <row important_over="false">Chłopiec na <ch a="C"/>imię <ch a="G"/>miał Ok<ch a="C"/>tawian,</row>
+      <row important_over="false">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
+      <row important_over="false">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
+      <row important_over="false">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
       <row important_over="never"/>
     </block>
     <block type="chorus">
@@ -80,9 +80,9 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
-      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
-      <row important_over="true">Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
-      <row important_over="true"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="false">Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
+      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
       <row important_over="true"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne.</row>
     </block>
     <block type="verse">

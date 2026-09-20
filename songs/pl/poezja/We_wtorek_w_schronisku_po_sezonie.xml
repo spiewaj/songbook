@@ -13,7 +13,7 @@
 		<block type="chorus">
 			<row important_over="true"><ch a="G"/>We wtorek w schronisku<ch a="C"/> po sez<ch a="D"/>onie<ch a="G"/></row>
 			<row important_over="true"><ch a="e"/>W doliny wczoraj zsz<ch a="A7"/>edł ostatni g<ch a="D"/>ość</row>
-			<row important_over="true">Za oknem pl<ch a="G"/>ucha, k<ch a="C"/>ubek parzy <ch a="H7"/>dłoni<ch a="e"/>e</row>
+			<row important_over="false">Za oknem pl<ch a="G"/>ucha, k<ch a="C"/>ubek parzy <ch a="H7"/>dłoni<ch a="e"/>e</row>
 			<row important_over="true">I tej herb<ch a="C"/>aty i tych g<ch a="D"/>ór mam d<ch a="G"/>ość</row>
 		</block>
 		<block type="verse">

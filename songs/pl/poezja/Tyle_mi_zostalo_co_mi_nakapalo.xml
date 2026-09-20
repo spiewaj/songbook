@@ -12,13 +12,13 @@
 			<row important_over="true"><ch a="C"/>Dzisiaj coś mi nawaliło</row>
 			<row important_over="true"><ch a="C7"/>I się prąd wyłączył<ch a="F"/></row>
 			<row important_over="true"><ch a="F"/>Tylko zacier jest na chodzie<ch a="C"/></row>
-			<row important_over="true"><ch a="G"/>I z rurki się sączy<ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>I z rurki się sączy<ch a="C"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="C"/>Tyle mi zastało</row>
-			<row important_over="true"><ch a="C"/>Co mi nakapało<ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Co mi nakapało<ch a="G"/></row>
 			<row important_over="true"><ch a="G"/>Jak przyjdzie milicja</row>
-			<row important_over="true"><ch a="G"/>Będzie prohibicja<ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Będzie prohibicja<ch a="C"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="C"/>Wody wczoraj mi naciekło</row>
@@ -39,17 +39,17 @@
 			<row important_over="true"><ch a="D"/>W kuchni mrozi się lodówka</row>
 			<row important_over="true"><ch a="D7"/>Ale teraz zewnętrznie<ch a="G"/></row>
 			<row important_over="true"><ch a="G"/>Pralka tylko wtedy chodzi<ch a="D"/></row>
-			<row important_over="true"><ch a="A"/>Kiedy piorę ręcznie<ch a="D"/></row>
+			<row important_over="false"><ch a="A"/>Kiedy piorę ręcznie<ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="true"><ch a="D"/>Telewizor wyłączyłem</row>
-			<row important_over="true"><ch a="D"/>Świecił na niebiesko<ch a="A"/></row>
+			<row important_over="false"><ch a="D"/>Świecił na niebiesko<ch a="A"/></row>
 			<row important_over="true"><ch a="A"/>Bo samogon gdy wypędzę</row>
-			<row important_over="true"><ch a="A"/>To chowam w kineskop<ch a="D"/></row>
+			<row important_over="false"><ch a="A"/>To chowam w kineskop<ch a="D"/></row>
 			<row important_over="true"><ch a="D"/>Zresztą może bym i włączył</row>
-			<row important_over="true"><ch a="D7"/>Ale nie ma prądu<ch a="G"/></row>
-			<row important_over="true"><ch a="G"/>Tylko zacier jest na chodzie<ch a="D"/></row>
+			<row important_over="false"><ch a="D7"/>Ale nie ma prądu<ch a="G"/></row>
+			<row important_over="false"><ch a="G"/>Tylko zacier jest na chodzie<ch a="D"/></row>
 			<row important_over="true"><ch a="A"/>I dowód do wglądu</row>
 		</block>
 		<blocklink blocknb="2"/>
@@ -61,7 +61,7 @@
 			<row important_over="true"><ch a="E"/>Póki co by ta następna</row>
 			<row important_over="true"><ch a="E7"/>Nie dała we znaki<ch a="A"/></row>
 			<row important_over="true"><ch a="A"/>Kupię drugi telewizor<ch a="E"/></row>
-			<row important_over="true"><ch a="H"/>By mieć dwa baniaki<ch a="E"/></row>
+			<row important_over="false"><ch a="H"/>By mieć dwa baniaki<ch a="E"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="other">

@@ -7,10 +7,10 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Czy pamiętasz r<ch a="G"/>ude włosy? R<ch a="C"/>oześmianą tw<ch a="G"/>arz?</row>
       <row important_over="true"><ch a="a"/>Śmieszną czapkę miał na głowie <ch a="G"/>Kasper, kumpel nasz...</row>
-      <row important_over="true"><ch a="C"/>Gdzie nie poszedł, <ch a="G"/>co nie zrobił - <ch a="C"/>zawsze coś nie t<ch a="G"/>ak.</row>
-      <row important_over="true"><ch a="a"/>Forsy nie miał... Domu nie miał... W<ch a="G"/>olny był jak ptak!</row>
+      <row important_over="false"><ch a="C"/>Gdzie nie poszedł, <ch a="G"/>co nie zrobił - <ch a="C"/>zawsze coś nie t<ch a="G"/>ak.</row>
+      <row important_over="false"><ch a="a"/>Forsy nie miał... Domu nie miał... W<ch a="G"/>olny był jak ptak!</row>
       <row important_over="true"><ch a="C"/>Dobrze nam się z Kas<ch a="F7+"/>prem żyło, <ch a="C"/>on polubił <ch a="F7+"/>nas</row>
-      <row important_over="true"><ch a="C"/>W góry razem s<ch a="F7+"/>ię chodziło, o<ch a="C"/>gień nocą si<ch a="F7+"/>ę paliło</row>
+      <row important_over="false"><ch a="C"/>W góry razem s<ch a="F7+"/>ię chodziło, o<ch a="C"/>gień nocą si<ch a="F7+"/>ę paliło</row>
     </block>
     <block type="chorus">
       <row important_over="true">Ka<ch a="C"/>sper z wi<ch a="e7"/>atrem d<ch a="a"/>obrze ż<ch a="G"/>ył</row>

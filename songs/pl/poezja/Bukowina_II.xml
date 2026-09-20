@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">D<ch a="C"/>ość wytoczyli bań p<ch a="d"/>różnych przed d<ch a="F"/>omy kal<ch a="C"/>ecy</row>
-			<row important_over="true">Ż<ch a="C"/>yją jak żyli, bezw<ch a="d"/>olni, gł<ch a="F"/>usi i śl<ch a="C"/>epi</row>
+			<row important_over="false">Ż<ch a="C"/>yją jak żyli, bezw<ch a="d"/>olni, gł<ch a="F"/>usi i śl<ch a="C"/>epi</row>
 			<row important_over="true"><ch a="d"/> Nie współczuj, sz<ch a="G"/>koda ł<ch a="e"/>ez i żalu</row>
 			<row important_over="true"><ch a="d"/> Bezbarwni s<ch a="G"/>ą, bo ch<ch a="C"/>cą b<ch a="e"/>yć sz<ch a="a"/>arzy</row>
 			<row important_over="true">Ty wy<ch a="e"/>żej, w<ch a="F"/>yż<ch a="Fis"/>ej b<ch a="G"/>ądź i d<ch a="C"/>alej</row>
@@ -18,10 +18,10 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Niechaj z<ch a="C"/>alśni B<ch a="F"/>ukowina w barwie m<ch a="G"/>alin</row>
-			<row important_over="true">Niechaj z<ch a="C"/>abrzmi B<ch a="F"/>ukowina w wiatru sz<ch a="G"/>umie</row>
+			<row important_over="false">Niechaj z<ch a="C"/>abrzmi B<ch a="F"/>ukowina w wiatru sz<ch a="G"/>umie</row>
 			<row important_over="true">Dzi<ch a="C"/>eń minął, dzi<ch a="d"/>eń minął, n<ch a="C"/>adszedł wieczór</row>
 			<row important_over="true"><ch a="F"/> Świece gwiazd zap<ch a="G"/>alił</row>
-			<row important_over="true">Si<ch a="C"/>adł przy ogniu, pi<ch a="d"/>eśń posł<ch a="F"/>yszał i <ch a="C"/>umilkł.</row>
+			<row important_over="false">Si<ch a="C"/>adł przy ogniu, pi<ch a="d"/>eśń posł<ch a="F"/>yszał i <ch a="C"/>umilkł.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">P<ch a="C"/>o dniach zgiełkliwych, po n<ch a="d"/>ocach w<ch a="F"/>yłożonych br<ch a="C"/>ukiem</row>

@@ -21,8 +21,8 @@
 			<row important_over="false">Wi<ch a="a"/>ęc na drzewo j<ch a="F"/>emu zwiałem.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">H<ch a="C"/>ej, h<ch a="G"/>ej, hej, hej, h<ch a="C"/>e<ch a="G"/>j,</row>
-			<row important_over="true">Dż<ch a="C"/>ungla, dżungla, p<ch a="G"/>ustyni<ch a="C"/>a<ch a="G"/>,</row>
+			<row important_over="false">H<ch a="C"/>ej, h<ch a="G"/>ej, hej, hej, h<ch a="C"/>e<ch a="G"/>j,</row>
+			<row important_over="false">Dż<ch a="C"/>ungla, dżungla, p<ch a="G"/>ustyni<ch a="C"/>a<ch a="G"/>,</row>
 			<row important_over="true">Dż<ch a="C"/>ungla, dżungla, p<ch a="E"/>ustyni<ch a="a"/>a<ch a="F"/></row>
 			<row important_over="true">Dż<ch a="C"/>ungla, dżungla, p<ch a="G"/>ustyni<ch a="C"/>a.</row>
 		</block>

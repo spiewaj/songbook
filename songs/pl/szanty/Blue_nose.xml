@@ -12,15 +12,15 @@
       <row important_over="true"><ch a="e"/>W słoneczny wietrzny dzień</row>
       <row important_over="true"><ch a="D"/>W mym mieście Lunenberg<ch a="G"/></row>
       <row important_over="true"><ch a="e"/>W 21 roku zrodził się<ch a="a"/></row>
-      <row important_over="true"><ch a="D"/>Miał piękny ostry dziób<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Miał piękny ostry dziób<ch a="G"/></row>
       <row important_over="true"><ch a="H7"/>Solidny mocny tors<ch a="e"/></row>
       <row important_over="true"><ch a="a"/>A ochrzczono go po prostu ,,Blue Nose''<ch a="H7"/><ch a="e"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>,,Blue Nose'' dzielne imę twe<ch a="D"/><ch a="G"/><ch a="e"/></row>
       <row important_over="true"><ch a="C"/>Zna cię morze i ocean zna<ch a="D"/><ch a="G"/><ch a="H7"/></row>
-      <row important_over="true"><ch a="C"/>,,Blue Nose'' północnych szlaków król<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="true"><ch a="a"/>Sława twoja w ślad za tobą szła<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>,,Blue Nose'' północnych szlaków król<ch a="D"/><ch a="G"/><ch a="e"/></row>
+      <row important_over="false"><ch a="a"/>Sława twoja w ślad za tobą szła<ch a="H7"/><ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Tysiące przebył mil</row>

@@ -15,8 +15,8 @@
 			<row important_over="true">O krok od c<ch a="a"/>elu wł<ch a="E7"/>asny cień ich pł<ch a="a"/>oszy.<ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">Krok od tri<ch a="a"/>umfu <ch a="E"/>opuszczają gł<ch a="a"/>owy.</row>
-			<row important_over="true">Podnoszą gł<ch a="C"/>owy o kr<ch a="d"/>ok od wyr<ch a="E"/>oku.</row>
+			<row important_over="false">Krok od tri<ch a="a"/>umfu <ch a="E"/>opuszczają gł<ch a="a"/>owy.</row>
+			<row important_over="false">Podnoszą gł<ch a="C"/>owy o kr<ch a="d"/>ok od wyr<ch a="E"/>oku.</row>
 			<row important_over="true">O krok od ł<ch a="d"/>aski tr<ch a="E"/>acą dar w<ch a="F"/>ymowy.<ch a="d"/></row>
 			<row important_over="true">Krok od przep<ch a="a"/>aści prz<ch a="E"/>yspieszają kr<ch a="a"/>oku.<ch a="Fis7"/></row>
 		</block>
@@ -27,8 +27,8 @@
 			<row important_over="true">O krok od j<ch a="h"/>utra prz<ch a="Fis"/>eżywają wcz<ch a="h"/>oraj.<ch a="Fis7"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">O krok od zg<ch a="h"/>ody p<ch a="Fis"/>usta złość ich bi<ch a="h"/>erze.</row>
-			<row important_over="true">O krok od wi<ch a="D"/>edzy wdych<ch a="e"/>ają zabob<ch a="Fis"/>on.</row>
+			<row important_over="false">O krok od zg<ch a="h"/>ody p<ch a="Fis"/>usta złość ich bi<ch a="h"/>erze.</row>
+			<row important_over="false">O krok od wi<ch a="D"/>edzy wdych<ch a="e"/>ają zabob<ch a="Fis"/>on.</row>
 			<row important_over="true">O krok od B<ch a="G"/>oga z<ch a="H"/>aprzeczają wi<ch a="e"/>erze.<ch a="G"/></row>
 			<row important_over="true">O krok od si<ch a="h"/>ebie ni<ch a="Fis"/>e chcą stać się s<ch a="h"/>obą.<ch a="H7"/></row>
 		</block>
@@ -40,9 +40,9 @@
 		</block>
 		<block type="verse">
 			<row important_over="true">Tak przez godz<ch a="a"/>inę, dzi<ch a="E7"/>eń, miesiąc, r<ch a="a"/>ok,</row>
-			<row important_over="true">Aż zrobią ten j<ch a="C"/>eden ni<ch a="d"/>euchronny kr<ch a="E"/>ok…</row>
+			<row important_over="false">Aż zrobią ten j<ch a="C"/>eden ni<ch a="d"/>euchronny kr<ch a="E"/>ok…</row>
 			<row important_over="true">Tak przez godz<ch a="F"/>inę, dzi<ch a="A7"/>eń, miesiąc, r<ch a="d"/>ok<ch a="F"/></row>
-			<row important_over="true">Aż zrobią ten j<ch a="a"/>eden ni<ch a="E7"/>euchronny kr<ch a="a"/>ok.</row>
+			<row important_over="false">Aż zrobią ten j<ch a="a"/>eden ni<ch a="E7"/>euchronny kr<ch a="a"/>ok.</row>
 		</block>
 	</lyric>
 	

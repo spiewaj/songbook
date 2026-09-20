@@ -85,12 +85,12 @@
 			<row important_over="false">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">A kiedy m<ch a="a"/>inął już mi<ch a="D"/>esiąc w m<ch a="a"/>ej samotnej dr<ch a="D"/>odze</row>
-			<row important_over="true">Gdzieś na szl<ch a="a"/>aku zatrz<ch a="D"/>ymał p<ch a="a"/>ojazd mój wędrowiec</row>
+			<row important_over="false">A kiedy m<ch a="a"/>inął już mi<ch a="D"/>esiąc w m<ch a="a"/>ej samotnej dr<ch a="D"/>odze</row>
+			<row important_over="false">Gdzieś na szl<ch a="a"/>aku zatrz<ch a="D"/>ymał p<ch a="a"/>ojazd mój wędrowiec</row>
 			<row important_over="true">Sprawiedl<ch a="d"/>iwość i prawda rzekłem do rodaka</row>
 			<row important_over="true">I był pi<ch a="E"/>erwszym co spytał: dobrze, ale jaka?</row>
 			<row important_over="true">I podzi<ch a="d"/>elił się ze mną chlebem i kłopotem</row>
-			<row important_over="true">To był t<ch a="H"/>eż Easy Rider t<ch a="E"/>ylko na piechotę</row>
+			<row important_over="false">To był t<ch a="H"/>eż Easy Rider t<ch a="E"/>ylko na piechotę</row>
 			<row important_over="true">Easy R<ch a="a"/>ider</row>
 		</block>
 	</lyric>

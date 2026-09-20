@@ -5,10 +5,10 @@
   <lyric>
     <block type="verse">
       <row important_over="true">Zam<ch a="D"/>knięte cmentarze to n<ch a="G"/>a skutek zdarzeń</row>
-      <row important_over="true">ost<ch a="D"/>atnich tygodni, ost<ch a="G"/>atnich wydarzeń</row>
-      <row important_over="true">na ł<ch a="D"/>ańcuchy patrzę, oc<ch a="G"/>ieram łzy</row>
+      <row important_over="false">ost<ch a="D"/>atnich tygodni, ost<ch a="G"/>atnich wydarzeń</row>
+      <row important_over="false">na ł<ch a="D"/>ańcuchy patrzę, oc<ch a="G"/>ieram łzy</row>
       <row important_over="true"><ch a="D"/>tak <ch a="D/F#"/>jak i <ch a="G"/>Ty</row>
-      <row important_over="true"><ch a="D"/>tak <ch a="D/F#"/>jak i <ch a="G"/>Ty</row>
+      <row important_over="false"><ch a="D"/>tak <ch a="D/F#"/>jak i <ch a="G"/>Ty</row>
     </block>
     <block type="verse">
       <row important_over="false">Ot<ch a="D"/>wiera się brama, ja n<ch a="G"/>ie wierzę oczom</row>
@@ -21,7 +21,7 @@
       <row important_over="true">Ból uk<ch a="G"/>oić możesz Ty jeden</row>
       <row important_over="true">wszyscy <ch a="C"/>inni wpadli w biedę</row>
       <row important_over="true">limuz<ch a="D"/>yny dwie jedna cały cmentarz Twój</row>
-      <row important_over="true">l<ch a="D"/>epszy n<ch a="D/F#"/>iż mój<ch a="G"/></row>
+      <row important_over="false">l<ch a="D"/>epszy n<ch a="D/F#"/>iż mój<ch a="G"/></row>
     </block>
     <block type="chorus">
       <row important_over="false">Na uli<ch a="G"/>cach i w mieszkaniach</row>
@@ -30,30 +30,30 @@
       <row important_over="false"><ch a="D"/>większy <ch a="D/F#"/>niż mój<ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Cztery lata temu dziesiątego kwietnia<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">Marii prosto pod koła córka uciekła<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">Maria nie przekroczy bramy dziś tej,<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">bo Twój ból jest lepszy niż jej<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">Twój ból jest lepszy niż jej<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">Józef miał ojca, żonę i syna<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">I tego się dnia dla nich czas ten zatrzymał<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">Józef nie wspomni dzisiaj dnia tego<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">Twój ból jest lepszy niż jego<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">Twój ból jest lepszy niż jego<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Cztery lata temu dziesiątego kwietnia<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">Marii prosto pod koła córka uciekła<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">Maria nie przekroczy bramy dziś tej,<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">bo Twój ból jest lepszy niż jej<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Twój ból jest lepszy niż jej<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Józef miał ojca, żonę i syna<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">I tego się dnia dla nich czas ten zatrzymał<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">Józef nie wspomni dzisiaj dnia tego<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">Twój ból jest lepszy niż jego<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Twój ból jest lepszy niż jego<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Ja tam po prawdzie nie kocham cmentarzy<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">gdy mama mnie prosi to z nią tam pojadę<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">na grobie ojca kładę kwiatów strój<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">Twój ból jest lepszy niż mój<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">Twój ból jest lepszy niż mój<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">Co za piękny dzień dzisiaj nam wszystkim dano<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">pamiętać o wszystkich, których zabrano<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">po drugiej stronie stoją i ronią łzy<ch a="D"/><ch a="G"/></row>
-      <row important_over="true">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
-      <row important_over="true">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Ja tam po prawdzie nie kocham cmentarzy<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">gdy mama mnie prosi to z nią tam pojadę<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">na grobie ojca kładę kwiatów strój<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">Twój ból jest lepszy niż mój<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Twój ból jest lepszy niż mój<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">Co za piękny dzień dzisiaj nam wszystkim dano<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">pamiętać o wszystkich, których zabrano<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">po drugiej stronie stoją i ronią łzy<ch a="D"/><ch a="G"/></row>
+      <row important_over="false">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
+      <row important_over="false">tak jak i Ty<ch a="D"/><ch a="D/F#"/><ch a="G"/></row>
     </block>
   </lyric>
   <keywords/>

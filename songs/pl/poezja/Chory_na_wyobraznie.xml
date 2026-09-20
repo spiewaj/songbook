@@ -11,20 +11,20 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/> Dawno już w mieście drw<ch a="a"/>ił z niego każdy</row>
-      <row important_over="true"><ch a="e"/> Pośmiewiskiem był l<ch a="a"/>udziom na co dzień</row>
+      <row important_over="false"><ch a="e"/> Pośmiewiskiem był l<ch a="a"/>udziom na co dzień</row>
       <row important_over="true"><ch a="C"/> Ot w<ch a="G"/>ariat chory n<ch a="C"/>a wyobr<ch a="G"/>aźnię</row>
       <row important_over="true">Wiecznie w dr<ch a="a"/>odze spóźni<ch a="H7"/>ony przechodzień</row>
-      <row important_over="true"><ch a="e"/> Dokąd idziesz pyt<ch a="a"/>ali go bliscy</row>
-      <row important_over="true"><ch a="e"/> Z tego bracie to trz<ch a="a"/>eba się leczyć</row>
-      <row important_over="true"><ch a="C"/> A on b<ch a="G"/>rał tektur<ch a="C"/>ową wali<ch a="G"/>zkę</row>
-      <row important_over="true">I wych<ch a="a"/>odził swym obr<ch a="H7"/>azom naprzeciw mówiąc</row>
+      <row important_over="false"><ch a="e"/> Dokąd idziesz pyt<ch a="a"/>ali go bliscy</row>
+      <row important_over="false"><ch a="e"/> Z tego bracie to trz<ch a="a"/>eba się leczyć</row>
+      <row important_over="false"><ch a="C"/> A on b<ch a="G"/>rał tektur<ch a="C"/>ową wali<ch a="G"/>zkę</row>
+      <row important_over="false">I wych<ch a="a"/>odził swym obr<ch a="H7"/>azom naprzeciw mówiąc</row>
     </block>
     <block type="chorus">
       <bis times="2">
         <row important_over="true"><ch a="e"/> Idę t<ch a="a"/>am gdzie b<ch a="H7"/>ezmiar błęk<ch a="e"/>itu</row>
-        <row important_over="true"><ch a="e"/> Światłoci<ch a="a"/>enie cypr<ch a="H7"/>ysów przy dr<ch a="e"/>odze</row>
-        <row important_over="true">F<ch a="C"/>eerią b<ch a="G"/>arw każdy r<ch a="C"/>anek rozkw<ch a="G"/>ita</row>
-        <row important_over="true"><ch a="a"/> Chociaż wiem że do c<ch a="H7"/>elu nie dojdę</row>
+        <row important_over="false"><ch a="e"/> Światłoci<ch a="a"/>enie cypr<ch a="H7"/>ysów przy dr<ch a="e"/>odze</row>
+        <row important_over="false">F<ch a="C"/>eerią b<ch a="G"/>arw każdy r<ch a="C"/>anek rozkw<ch a="G"/>ita</row>
+        <row important_over="false"><ch a="a"/> Chociaż wiem że do c<ch a="H7"/>elu nie dojdę</row>
       </bis>
     </block>
     <block type="other">

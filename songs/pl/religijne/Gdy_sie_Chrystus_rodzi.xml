@@ -11,13 +11,13 @@
     <block type="verse">
       <row important_over="true"><ch a="A"/>Gdy się Chrystus rodzi<ch a="D"/><ch a="A"/></row>
       <row important_over="true"><ch a="A"/>I na świat przychodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="true"><ch a="A"/>Ciemna noc w jasności<ch a="D"/><ch a="A"/></row>
-      <row important_over="true"><ch a="A"/>Promienistej brodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Ciemna noc w jasności<ch a="D"/><ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Promienistej brodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
     </block>
     <block type="verse">
       <bis>
         <row important_over="true"><ch a="E"/>Aniołowie się radują<ch a="A"/></row>
-        <row important_over="true"><ch a="E"/>Pod niebiosy wyśpiewują<ch a="A"/></row>
+        <row important_over="false"><ch a="E"/>Pod niebiosy wyśpiewują<ch a="A"/></row>
         <row important_over="true"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
         <row important_over="true"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
       </bis>

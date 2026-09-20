@@ -9,8 +9,8 @@
       <row important_over="true">Ż<ch a="F"/>aden list nie cz<ch a="C"/>eka na mnie t<ch a="a"/>u.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="e7"/>Gdyby p<ch a="a"/>ociąg szybciej bi<ch a="C"/>egł</row>
-      <row important_over="true">B<ch a="d"/>ym był w domu jes<ch a="C"/>zcze dziś,</row>
+      <row important_over="false"><ch a="e7"/>Gdyby p<ch a="a"/>ociąg szybciej bi<ch a="C"/>egł</row>
+      <row important_over="false">B<ch a="d"/>ym był w domu jes<ch a="C"/>zcze dziś,</row>
       <row important_over="true">Jeszcze 9<ch a="a"/>00 m<ch a="E"/>il tam gdzie mój d<ch a="a"/>om </row>
     </block>
     <block type="verse">

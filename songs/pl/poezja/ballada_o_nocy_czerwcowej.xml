@@ -8,20 +8,20 @@
     <block type="verse">
       <row important_over="true">Kiedy no<ch a="D"/>c się w powietrzu zaczy<ch a="e"/>na,</row>
       <row important_over="true">Wtedy n<ch a="G"/>oc jest jak młoda dziewczyn<ch a="D"/>a:</row>
-      <row important_over="true">Wszystko cie<ch a="D"/>szy ją i wszystko śmies<ch a="e"/>zy,</row>
-      <row important_over="true">Wszystko w rę<ch a="G"/>ce chciałaby brać<ch a="D"/>.</row>
+      <row important_over="false">Wszystko cie<ch a="D"/>szy ją i wszystko śmies<ch a="e"/>zy,</row>
+      <row important_over="false">Wszystko w rę<ch a="G"/>ce chciałaby brać<ch a="D"/>.</row>
     </block>
     <block type="verse">
-      <row important_over="true">Diabeł du<ch a="D"/>żo jej daje w podar<ch a="e"/>ku</row>
-      <row important_over="true">Gwiazd fałsz<ch a="G"/>ywych z gwiezdnego jarma<ch a="D"/>rku.</row>
-      <row important_over="true">Noc te gwia<ch a="D"/>zdy do uszu przymier<ch a="e"/>za</row>
+      <row important_over="false">Diabeł du<ch a="D"/>żo jej daje w podar<ch a="e"/>ku</row>
+      <row important_over="false">Gwiazd fałsz<ch a="G"/>ywych z gwiezdnego jarma<ch a="D"/>rku.</row>
+      <row important_over="false">Noc te gwia<ch a="D"/>zdy do uszu przymier<ch a="e"/>za</row>
       <row important_over="true">I z gwiazda<ch a="G"/>mi chci<ch a="A7"/>ałaby spać.<ch a="D"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true">Ja je<ch a="D"/>stem noc czerwcow<ch a="e"/>a.</row>
-        <row important_over="true">Królo<ch a="G"/>wa jaśminow<ch a="D"/>a.</row>
-        <row important_over="true">Zap<ch a="D"/>atrzcie się w moje ręc<ch a="e"/>e.</row>
+        <row important_over="false">Ja je<ch a="D"/>stem noc czerwcow<ch a="e"/>a.</row>
+        <row important_over="false">Królo<ch a="G"/>wa jaśminow<ch a="D"/>a.</row>
+        <row important_over="false">Zap<ch a="D"/>atrzcie się w moje ręc<ch a="e"/>e.</row>
         <row important_over="true">Wsłucha<ch a="A7"/>jcie się w śpiewny chód.<ch a="D"/></row>
       </bis>
     </block>

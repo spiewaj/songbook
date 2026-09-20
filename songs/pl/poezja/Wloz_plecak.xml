@@ -17,8 +17,8 @@
     <block type="chorus">
       <row important_over="true"><ch a="G"/>Włóż plecak, to nic że ciężki<ch a="C"/></row>
       <row important_over="true"><ch a="D"/>I załóż koszulę w kratę<ch a="G"/></row>
-      <row important_over="true"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
-      <row important_over="true"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
+      <row important_over="false"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
+      <row important_over="false"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Gdy turystów grono romantyczne<ch a="C"/><ch a="D"/></row>

@@ -13,20 +13,20 @@
 			<row important_over="true"><ch a="F"/> Dla której Jo<ch a="C"/>anny</row>
 			<row important_over="true">Za <ch a="a"/>oknem pierwszy tr<ch a="d"/>amwaj</row>
 			<row important_over="true">Oddzw<ch a="F"/>onił nowy dzi<ch a="G"/>eń</row>
-			<row important_over="true">Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna</row>
-			<row important_over="true"><ch a="F"/> Która kartka bi<ch a="C"/>ała</row>
-			<row important_over="true">Na w<ch a="a"/>ątłym płatku ni<ch a="d"/>esie</row>
-			<row important_over="true">Jak <ch a="F"/>ołów ciężką tr<ch a="G"/>eść</row>
+			<row important_over="false">Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna</row>
+			<row important_over="false"><ch a="F"/> Która kartka bi<ch a="C"/>ała</row>
+			<row important_over="false">Na w<ch a="a"/>ątłym płatku ni<ch a="d"/>esie</row>
+			<row important_over="false">Jak <ch a="F"/>ołów ciężką tr<ch a="G"/>eść</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Za oknem wi<ch a="C"/>elkiego miasta sz<ch a="G"/>um</row>
-			<row important_over="true">I<ch a="F"/> uciec by się chci<ch a="C"/>ało</row>
-			<row important_over="true">W rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
-			<row important_over="true">Bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę</row>
-			<row important_over="true">Za oknem wi<ch a="C"/>elkiego miasta chł<ch a="G"/>ód</row>
-			<row important_over="true">I t<ch a="F"/>ylko Twoje ci<ch a="C"/>ało</row>
-			<row important_over="true">W półmr<ch a="a"/>oku obiec<ch a="d"/>uje</row>
-			<row important_over="true">Spo<ch a="F"/>kojny ciepły s<ch a="G"/>en</row>
+			<row important_over="false">Za oknem wi<ch a="C"/>elkiego miasta sz<ch a="G"/>um</row>
+			<row important_over="false">I<ch a="F"/> uciec by się chci<ch a="C"/>ało</row>
+			<row important_over="false">W rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
+			<row important_over="false">Bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę</row>
+			<row important_over="false">Za oknem wi<ch a="C"/>elkiego miasta chł<ch a="G"/>ód</row>
+			<row important_over="false">I t<ch a="F"/>ylko Twoje ci<ch a="C"/>ało</row>
+			<row important_over="false">W półmr<ch a="a"/>oku obiec<ch a="d"/>uje</row>
+			<row important_over="false">Spo<ch a="F"/>kojny ciepły s<ch a="G"/>en</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Kt<ch a="C"/>óra to znowu w<ch a="G"/>ojna</row>

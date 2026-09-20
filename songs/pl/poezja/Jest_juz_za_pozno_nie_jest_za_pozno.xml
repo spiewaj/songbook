@@ -7,21 +7,21 @@
 		<block type="verse">
 			<row important_over="true">J<ch a="G"/>eszcze zdążymy w dż<ch a="a"/>ungli ludzkości si<ch a="G"/>ebie odnaleźć</row>
 			<row important_over="true"><ch a="C"/>Tęskność zawr<ch a="G"/>otna przybliża n<ch a="a"/>a<ch a="D7"/>s</row>
-			<row important_over="true"><ch a="G"/>Zbiegną się wreszcie t<ch a="a"/>ory sieroce nas<ch a="G"/>zych dwu planet</row>
-			<row important_over="true"><ch a="C"/>Cudnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m</row>
+			<row important_over="false"><ch a="G"/>Zbiegną się wreszcie t<ch a="a"/>ory sieroce nas<ch a="G"/>zych dwu planet</row>
+			<row important_over="false"><ch a="C"/>Cudnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m</row>
 		</block>
 		<block type="verse">
 			<bis times="2">
 				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
+				<row important_over="false"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
 				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno<ch a="D"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
 			<row important_over="true"><ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
-			<row important_over="true"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
-			<row important_over="true"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="false"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">

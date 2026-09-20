@@ -11,17 +11,17 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Nigdy w życiu mym nie umiałem zdjąć<ch a="d6"/></row>
       <row important_over="true"><ch a="F"/>Czapki przed nikim<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>A teraz na twarz na kolana ryms<ch a="d6"/></row>
-      <row important_over="true"><ch a="F"/>Przed jej bucikiem<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Byłem wściekłym psem ona uczy mnie<ch a="d6"/></row>
-      <row important_over="true"><ch a="F"/>Jak jeść z jej rączki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Miałem wilcze kły zamieniłem je<ch a="d6"/></row>
-      <row important_over="true"><ch a="F"/>Na mleczne ząbki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>A teraz na twarz na kolana ryms<ch a="d6"/></row>
+      <row important_over="false"><ch a="F"/>Przed jej bucikiem<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Byłem wściekłym psem ona uczy mnie<ch a="d6"/></row>
+      <row important_over="false"><ch a="F"/>Jak jeść z jej rączki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Miałem wilcze kły zamieniłem je<ch a="d6"/></row>
+      <row important_over="false"><ch a="F"/>Na mleczne ząbki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>Jestem mały miś własność lali tej<ch a="H"/><ch a="E"/></row>
       <row important_over="true"><ch a="a"/>Co palec ssie kiedy zasypia<ch a="G"/><ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Jestem mały miś własność lali tej<ch a="H"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Jestem mały miś własność lali tej<ch a="H"/><ch a="E"/></row>
       <row important_over="true"><ch a="a"/>Co mamy chce gdy jej dotykam<ch a="G"/><ch a="C"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">

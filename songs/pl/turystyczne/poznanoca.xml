@@ -5,7 +5,7 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Późną nocą <ch a="d"/>jesien<ch a="E"/>i już blisk<ch a="a"/>o</row>
       <row important_over="true"><ch a="a"/>Późną nocą <ch a="E"/>jesieni już blisk<ch a="a"/>o<ch a="C"/></row>
-      <row important_over="true"><ch a="a"/>Tuż przy drodze r<ch a="d"/>ozkwitł<ch a="E"/>o ognisk<ch a="a"/>o. </row>
+      <row important_over="false"><ch a="a"/>Tuż przy drodze r<ch a="d"/>ozkwitł<ch a="E"/>o ognisk<ch a="a"/>o. </row>
     </block>
     <block type="verse">
       <row important_over="never">Spały sierpy powleczone chłodem</row>

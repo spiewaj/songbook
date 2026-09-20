@@ -7,15 +7,15 @@
 		<block type="verse">
 			<row important_over="true"><ch a="e"/>On<ch a="H7"/> na<ch a="e"/>tc<ch a="H7"/>hniony i młody był, ich nie policzyłby nikt</row>
 			<row important_over="true"><ch a="C"/>On<ch a="H"/> i<ch a="C"/>m <ch a="H"/>pi<ch a="e"/>eśnią dodawał sił, śpiewał że blisko już świt</row>
-			<row important_over="true"><ch a="e"/>Św<ch a="H7"/>iec<ch a="e"/> t<ch a="H7"/>ysiące palili mu, znad głów podnosił się dym</row>
+			<row important_over="false"><ch a="e"/>Św<ch a="H7"/>iec<ch a="e"/> t<ch a="H7"/>ysiące palili mu, znad głów podnosił się dym</row>
 			<row important_over="true"><ch a="C"/>Śp<ch a="H"/>ie<ch a="C"/>wał, że czas by runął mur..</row>
 			<row important_over="true"><ch a="H"/>On<ch a="e"/>i śpiewali wraz z nim</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true"><ch a="H"/>Wy<ch a="e"/>rwij murom zęby krat!</row>
-			<row important_over="true"><ch a="H"/>Ze<ch a="e"/>rwij kajdany, połam bat!</row>
+			<row important_over="false"><ch a="H"/>Wy<ch a="e"/>rwij murom zęby krat!</row>
+			<row important_over="false"><ch a="H"/>Ze<ch a="e"/>rwij kajdany, połam bat!</row>
 			<row important_over="true"><ch a="a"/>A <ch a="e"/>mury runą, runą, runą</row>
-			<row important_over="true"><ch a="H"/>I <ch a="e"/>pogrzebią stary świat!</row>
+			<row important_over="false"><ch a="H"/>I <ch a="e"/>pogrzebią stary świat!</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Wkrótce na pamięć znali pieśń i sama melodia bez słów<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>

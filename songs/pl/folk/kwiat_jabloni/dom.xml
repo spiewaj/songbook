@@ -8,32 +8,32 @@
       <row important_over="true"><ch a="d"/>Znowu zamykam drzwi</row>
       <row important_over="true"><ch a="d"/>Na noc przekręcam czwarty<ch a="F"/> spust</row>
       <row important_over="true"><ch a="d"/>Zasłaniam okna by</row>
-      <row important_over="true"><ch a="d"/>Nikt nie zobaczył drżących<ch a="F"/> ust</row>
+      <row important_over="false"><ch a="d"/>Nikt nie zobaczył drżących<ch a="F"/> ust</row>
       <row important_over="true"><ch a="d"/>Szczelin i pęknięć brak</row>
-      <row important_over="true"><ch a="d"/>Pozamykany szczelnie d<ch a="F"/>om</row>
+      <row important_over="false"><ch a="d"/>Pozamykany szczelnie d<ch a="F"/>om</row>
       <row important_over="true"><ch a="d"/>Na zewnątrz wszystko gra</row>
-      <row important_over="true"><ch a="d"/>A w środku nie wiadomo c<ch a="F"/>o</row>
+      <row important_over="false"><ch a="d"/>A w środku nie wiadomo c<ch a="F"/>o</row>
     </block>
     <block type="verse">
       <row important_over="true">Odkąd pamię<ch a="B"/>tam</row>
       <row important_over="true">Meble spada<ch a="C"/>ją i trzęsie się d<ch a="d"/>ach</row>
       <row important_over="true">Przed domem sp<ch a="B"/>okój</row>
-      <row important_over="true">Aż sły<ch a="C"/>chać najlżejszy wia<ch a="d"/>tr</row>
+      <row important_over="false">Aż sły<ch a="C"/>chać najlżejszy wia<ch a="d"/>tr</row>
     </block>
     <block type="chorus">
       <row important_over="true">Nie umiem w<ch a="B"/>yjść</row>
-      <row important_over="true">Żeby st<ch a="d"/>anąć przy to<ch a="F"/>bie</row>
+      <row important_over="false">Żeby st<ch a="d"/>anąć przy to<ch a="F"/>bie</row>
       <row important_over="true">Mijają<ch a="B"/> dni</row>
-      <row important_over="true">Znowu ni<ch a="d"/>c ci nie po<ch a="F"/>wiem</row>
+      <row important_over="false">Znowu ni<ch a="d"/>c ci nie po<ch a="F"/>wiem</row>
       <row important_over="true">Znów mi się śni<ch a="B"/>sz</row>
-      <row important_over="true">Bliżej ni<ch a="d"/>e mogę po<ch a="F"/>dejść</row>
+      <row important_over="false">Bliżej ni<ch a="d"/>e mogę po<ch a="F"/>dejść</row>
       <row important_over="true">Czy starczy mi l<ch a="C"/>at</row>
       <row important_over="true">Żeby po<ch a="B"/>zbyć się ści<ch a="d"/>an? </row>
       <row important_over="false" style="instr"> </row>
       <row important_over="false" style="instr"> </row>
       <row important_over="false" style="instr"> </row>
       <row important_over="true">Czy starczy mi l<ch a="C"/>at</row>
-      <row important_over="true">żeby p<ch a="B"/>ozbyć się śc<ch a="d"/>ian </row>
+      <row important_over="false">żeby p<ch a="B"/>ozbyć się śc<ch a="d"/>ian </row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Spędzam kolejny dzień</row>
@@ -46,9 +46,9 @@
       <row important_over="false"><ch a="d"/>Nie widzę granic moic<ch a="F"/>h ram</row>
     </block>
     <block type="verse">
-      <row important_over="false">Odkąd pamię<ch a="B"/>tam</row>
+      <row important_over="true">Odkąd pamię<ch a="B"/>tam</row>
       <row important_over="false">Meble spada<ch a="C"/>ją i trzęsie się d<ch a="d"/>ach</row>
-      <row important_over="false">Przed domem sp<ch a="B"/>okój</row>
+      <row important_over="true">Przed domem sp<ch a="B"/>okój</row>
       <row important_over="false">Aż sły<ch a="C"/>chać najlżejszy wia<ch a="d"/>tr</row>
     </block>
     <blocklink blocknb="3"/>
@@ -56,8 +56,8 @@
       <row important_over="false" style="instr"> </row>
       <row important_over="true"> <ch a="g"/>Płomienie trawią od środka d<ch a="B"/>om</row>
       <row important_over="true"><ch a="F"/>Pożar wybucha we mnie co n<ch a="C"/>oc</row>
-      <row important_over="true"><ch a="g"/>Chcę powiedzieć wszystko, lecz brakuje sł<ch a="B"/>ów</row>
-      <row important_over="true">Za m<ch a="F"/>ało lat, za mało lat, za mał<ch a="C"/>o</row>
+      <row important_over="false"><ch a="g"/>Chcę powiedzieć wszystko, lecz brakuje sł<ch a="B"/>ów</row>
+      <row important_over="false">Za m<ch a="F"/>ało lat, za mało lat, za mał<ch a="C"/>o</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

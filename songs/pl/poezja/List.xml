@@ -13,14 +13,14 @@
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="C9/6"/>List do najpiękniejszej kobiety jaką znałem<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Serce miałem kiedyś jedno i mi się<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Potrzaskało straszliwie i doszczętnie<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>I nie udało mi się posklejać skorupek tego<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Dzbanka ani łzami — tym klejem białym<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Ani krwią — tym klejem czerwonym<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Nie udało mi się i myślałem, że już<ch a="G"/></row>
-			<row important_over="true"><ch a="C9/6"/>Zawsze będę tak żyć bez serca<ch a="G"/></row>
-			<row important_over="true">
+			<row important_over="false"><ch a="C9/6"/>Serce miałem kiedyś jedno i mi się<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Potrzaskało straszliwie i doszczętnie<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>I nie udało mi się posklejać skorupek tego<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Dzbanka ani łzami — tym klejem białym<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Ani krwią — tym klejem czerwonym<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Nie udało mi się i myślałem, że już<ch a="G"/></row>
+			<row important_over="false"><ch a="C9/6"/>Zawsze będę tak żyć bez serca<ch a="G"/></row>
+			<row important_over="false">
 				<ch a="C9/6"/>Lecz nagle zjawiłaś się Ty i pomóc chciałaś mi<ch a="G"/></row>
 			<row important_over="never">Czemu? - nie wiem do dziś</row>
 		</block>
@@ -54,8 +54,8 @@
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="true"><ch a="C"/>Przygarnęłaś mnie bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
-				<row important_over="true"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>Przygarnęłaś mnie bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">

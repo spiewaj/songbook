@@ -10,9 +10,9 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true">P<ch a="D"/>owiedz d<ch a="G"/>okąd znów wędr<ch a="D"/>ujesz</row>
-			<row important_over="true">Cz<ch a="D"/>y dal<ch a="G"/>eko jest twój s<ch a="D"/>ad</row>
+			<row important_over="false">Cz<ch a="D"/>y dal<ch a="G"/>eko jest twój s<ch a="D"/>ad</row>
 			<row important_over="true">Hen w kra<ch a="C"/>iny b<ch a="G"/>uczyn<ch a="D"/>owe</row>
-			<row important_over="true">Ze mną t<ch a="C"/>am ukł<ch a="G"/>ada pieśni wi<ch a="D"/>atr</row>
+			<row important_over="false">Ze mną t<ch a="C"/>am ukł<ch a="G"/>ada pieśni wi<ch a="D"/>atr</row>
 			<row important_over="true">Hen w kra<ch a="e"/>iny buczyn<ch a="D"/>owe</row>
 			<row important_over="true">Ze mną t<ch a="e"/>am nik<ch a="G"/>ogo tylko wi<ch a="D"/>atr</row>
 		</block>

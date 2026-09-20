@@ -12,9 +12,9 @@
 			<row important_over="true">Kto pie<ch a="e"/>rwszy szedł przed si<ch a="G"/>ebie</row>
 			<row important_over="true">Kto pie<ch a="D"/>rwszy cel wyzn<ch a="e"/>aczył</row>
 			<row important_over="true">Kto pie<ch a="G"/>rwszy w nas rozp<ch a="D"/>oznał</row>
-			<row important_over="true">Kto wro<ch a="G"/>gów kto przyj<ch a="D"/>aciół</row>
+			<row important_over="false">Kto wro<ch a="G"/>gów kto przyj<ch a="D"/>aciół</row>
 			<row important_over="true">Kto pie<ch a="a"/>rwszy sławę wsz<ch a="e"/>elką</row>
-			<row important_over="true">I wł<ch a="G"/>ości swe miał z<ch a="D"/>a nic</row>
+			<row important_over="false">I wł<ch a="G"/>ości swe miał z<ch a="D"/>a nic</row>
 			<row important_over="true">A kt<ch a="e"/>o nie umiał za<ch a="C"/>snąć</row>
 			<row important_over="true">Nim n<ch a="H7"/>ie wymyślił gr<ch a="e"/>anic?</row>
 		</block>
@@ -30,11 +30,11 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Za<ch a="e"/>patrzeni w sł<ch a="A"/>ońce</row>
-			<row important_over="true">Za<ch a="e"/>patrzeni w ni<ch a="A"/>ebo</row>
+			<row important_over="false">Za<ch a="e"/>patrzeni w ni<ch a="A"/>ebo</row>
 			<row important_over="true">Za<ch a="fis"/>patrzeni w t<ch a="h"/>ańcu</row>
-			<row important_over="true">Za<ch a="fis"/>patrzeni w s<ch a="h"/>iebie</row>
-			<row important_over="true">Wci<ch a="e"/>ąż niepewni s<ch a="A"/>iebie</row>
-			<row important_over="true">Si<ch a="e"/>ebie niewiad<ch a="A"/>omi</row>
+			<row important_over="false">Za<ch a="fis"/>patrzeni w s<ch a="h"/>iebie</row>
+			<row important_over="false">Wci<ch a="e"/>ąż niepewni s<ch a="A"/>iebie</row>
+			<row important_over="false">Si<ch a="e"/>ebie niewiad<ch a="A"/>omi</row>
 			<row important_over="true">Py<ch a="fis"/>tać wciąż będzi<ch a="A"/>emy</row>
 			<row important_over="true">Py<ch a="C"/>tać p<ch a="D"/>o kryj<ch a="H7"/>omu</row>
 		</block>

@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Oce<ch a="A"/>anie sinowł<ch a="G"/>osy białe st<ch a="D"/>atki ku mnie w<ch a="A"/>yślij</row>
-			<row important_over="true">Dwa kam<ch a="A"/>yki moje m<ch a="G"/>yśli na otw<ch a="D"/>artych dłoniach ni<ch a="A"/>osę</row>
+			<row important_over="false">Dwa kam<ch a="A"/>yki moje m<ch a="G"/>yśli na otw<ch a="D"/>artych dłoniach ni<ch a="A"/>osę</row>
 			<row important_over="true">Daj mi mi<ch a="A"/>ejsce w głębi m<ch a="E"/>orza szczyptę l<ch a="G"/>ądu, szczyptę sk<ch a="D"/>ały</row>
 			<row important_over="true">Tu zbud<ch a="A"/>uję zamek bi<ch a="G9/6"/>ały, tutaj gni<ch a="D"/>azdo swe zał<ch a="A"/>ożę</row>
 		</block>

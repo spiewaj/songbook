@@ -7,13 +7,13 @@
     <block type="verse">
       <row important_over="true"><ch a="d"/>Tak ogólnie to był słaby, choro<ch a="g"/>wity i niewielki</row>
       <row important_over="true">Ale <ch a="C"/>straszny pies na baby, zwłaszcza <ch a="F"/>na XL-ki</row>
-      <row important_over="true">Kiedy <ch a="d"/>wreszcie się ożenił, mówił <ch a="g"/>do niej per &quot;kobieto&quot;</row>
+      <row important_over="false">Kiedy <ch a="d"/>wreszcie się ożenił, mówił <ch a="g"/>do niej per &quot;kobieto&quot;</row>
       <row important_over="true">Nikt jej <ch a="C"/>nie zna po imieniu, ale <ch a="A"/>wszyscy wiedzą, że to...</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
+      <row important_over="false"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
       <row important_over="true">Ten <ch a="C"/>świat cały psu na <ch a="F"/>budę.<ch a="A"/></row>
-      <row important_over="true"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
+      <row important_over="false"><ch a="d"/>Baba na psy, <ch a="g"/>baba na psy</row>
       <row important_over="true"><ch a="A"/>Zwłaszcza na <ch a="d"/>rude.</row>
     </block>
     <block type="verse">

@@ -11,8 +11,8 @@
     <block type="chorus">
       <bis times="2">
         <row important_over="true"><ch a="F"/>Tyle dni minęło, tyle marzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="true"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="true"><ch a="F"/>Tyle marzeń sennych się nie spełniło<ch a="C"/><ch a="d"/><ch a="a"/></row>
+        <row important_over="false"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
+        <row important_over="false"><ch a="F"/>Tyle marzeń sennych się nie spełniło<ch a="C"/><ch a="d"/><ch a="a"/></row>
         <row important_over="true"><ch a="F"/>Tyle dobrych gwiazd ubyło<ch a="C"/><ch a="d"/></row>
       </bis>
     </block>

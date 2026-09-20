@@ -14,7 +14,7 @@
       <row important_over="true" sidechords="hFis7 Gzmh"><ch a="h"/>Może się spotkamy znów po kilku latach<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>
       <row important_over="true" sidechords="GD Fis7"><ch a="G"/>Może właśnie tutaj lub na końcu świata<ch a="D"/><ch a="Fis7"/></row>
       <row important_over="true" sidechords="GD Fis7h"><ch a="G"/>Będziesz wtedy inna — ja wciąż taki sam<ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="true" sidechords="GD Fis7"><ch a="G"/>Może nam się uda zacząć jeszcze raz<ch a="D"/><ch a="Fis7"/></row>
+      <row important_over="false" sidechords="GD Fis7"><ch a="G"/>Może nam się uda zacząć jeszcze raz<ch a="D"/><ch a="Fis7"/></row>
     </block>
     <block type="verse">
       <row important_over="false" sidechords="hFis7 Gzmh"><ch a="h"/>Dzisiaj muszę odejść już mnie nie zatrzymuj<ch a="Fis7"/><ch a="Gzm"/><ch a="h"/></row>

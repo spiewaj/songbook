@@ -30,7 +30,7 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>W malinowym chruśniaku, przed ciekawym wzrokiem<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="true"><ch a="e"/>Zapodziani po głowy, przez długie godziny<ch a="C"/><ch a="G"/><ch a="h"/></row>
+      <row important_over="false"><ch a="e"/>Zapodziani po głowy, przez długie godziny<ch a="C"/><ch a="G"/><ch a="h"/></row>
       <row important_over="true"><ch a="C"/>Zrywaliśmy przybyłe tej nocy maliny<ch a="G"/><ch a="a"/><ch a="G"/></row>
       <row important_over="true"><ch a="C"/>Palce miałaś na oślep skrawione ich sokiem.<ch a="h"/><ch a="C"/><ch a="h"/></row>
     </block>

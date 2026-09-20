@@ -7,21 +7,21 @@
   <lyric>
     <block type="verse">
       <row important_over="true"> <ch a="A"/>Patrzę w niebo lecz miasto się odbija w <ch a="fis"/>nim</row>
-      <row important_over="true"><ch a="A"/>Czas szybko płynie, wyścigi wyznaczają <ch a="fis"/>rytm</row>
-      <row important_over="true">A wszyscy <ch a="A"/>dookoła spadają w górę na sam <ch a="fis"/>szczyt</row>
+      <row important_over="false"><ch a="A"/>Czas szybko płynie, wyścigi wyznaczają <ch a="fis"/>rytm</row>
+      <row important_over="false">A wszyscy <ch a="A"/>dookoła spadają w górę na sam <ch a="fis"/>szczyt</row>
       <row important_over="true"><ch a="A"/>W złotych maskach zapominamy kto jest <ch a="fis"/>kim, kto jest <ch a="E"/>kim</row>
     </block>
     <block type="chorus">
       <bis times="2">
         <row important_over="true">T<ch a="h"/>ak wiele <ch a="E"/>do zdobycia <ch a="fis"/>świat daje <ch a="E"/>dziś</row>
-        <row important_over="true"><ch a="h"/>Tak mało <ch a="E"/>potrzebujesz, ż<ch a="fis"/>eby co dzień cieszyć się<ch a="E"/> nim</row>
+        <row important_over="false"><ch a="h"/>Tak mało <ch a="E"/>potrzebujesz, ż<ch a="fis"/>eby co dzień cieszyć się<ch a="E"/> nim</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="A"/>Patrzę w księżyc, tak blisko zdaje się być mnie<ch a="fis"/></row>
-      <row important_over="true"><ch a="A"/>Mgła pod nogami, a góry rozmazują się<ch a="fis"/></row>
-      <row important_over="true">A teraz <ch a="A"/>zamknę oczy, pomyślę, że tak mogę wiecznie trwać<ch a="fis"/></row>
-      <row important_over="true"><ch a="A"/>I że do tej pory tylko tlenu było brak, tlenu brak<ch a="fis"/></row>
+      <row important_over="false"><ch a="A"/>Patrzę w księżyc, tak blisko zdaje się być <ch a="fis"/>mnie</row>
+      <row important_over="false"><ch a="A"/>Mgła pod nogami, a góry rozmazują <ch a="fis"/>się</row>
+      <row important_over="false">A teraz <ch a="A"/>zamknę oczy, pomyślę, że tak mogę wiecznie <ch a="fis"/>trwać</row>
+      <row important_over="false"><ch a="A"/>I że do tej pory tylko tlenu było <ch a="fis"/>brak, tlenu <ch a="E"/>brak</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

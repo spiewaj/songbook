@@ -11,7 +11,7 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Krwi, krwi, krwi krzyczał pan Zagłoba<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
       <row important_over="true"><ch a="G"/>Na widok trupa pana Podbipięty<ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Krwi zawrzasnęła Zbarska załoga<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Krwi zawrzasnęła Zbarska załoga<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
       <row important_over="true"><ch a="G"/>A Litwin chwiał się do krzyża przybity<ch a="C"/></row>
       <row important_over="true"><ch a="d"/>Święty Sebastian strzałami przeszyty<ch a="a"/></row>
       <row important_over="true"><ch a="F"/>Słodki, niewinny, cichy obojętny<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
@@ -30,7 +30,7 @@
       <row important_over="true"><ch a="a"/>Zarabiał szlachcic siekąc tępych wrogów<ch a="C"/></row>
       <row important_over="true"><ch a="E"/>Co tylko po to wschodzili w granice</row>
       <row important_over="true"><ch a="a"/>Słabej lecz wiecznej Rzeczypospolitej</row>
-      <row important_over="true"><ch a="F"/>Aby się mogła na ich trupach wesprzeć<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Aby się mogła na ich trupach wesprzeć<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Kiedy Zagłoba pił miód nie dla chamów<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
@@ -41,21 +41,21 @@
       <row important_over="false"><ch a="F"/>Cham co boskiego się nie zląkł pioruna<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>I na paliki zaostrzone świeżo<ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Gładko nizali się stron cierpiętnicy<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>I na paliki zaostrzone świeżo<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Gładko nizali się stron cierpiętnicy<ch a="G"/></row>
       <row important_over="true"><ch a="a"/>Król płakał modlił się głęboko wierząc<ch a="G"/></row>
       <row important_over="true"><ch a="F"/>Że hekatomba historię oczyści<ch a="E"/></row>
       <row important_over="true"><ch a="d"/>Jak wiatr las czyści ze sczerniałych liści<ch a="E"/></row>
       <row important_over="true"><ch a="F"/>By pole bitwy gniło dla winnicy<ch a="e"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Krwi, krwi, krwi krzyczał pan Zagłoba<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Krwi, krwi, krwi krzyczał pan Zagłoba<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
       <row important_over="true"><ch a="G"/>I krew się lała sprawiedliwie, szczodrze<ch a="e"/></row>
       <bis>
-        <row important_over="true"><ch a="a"/>Lecz pan Longinus rycerstwa ozdoba<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
-        <row important_over="true"><ch a="G"/>Nie mógł pozornych tryumfów być już świadkiem<ch a="C"/></row>
-        <row important_over="true"><ch a="d"/>Grymasem śmierci dając znak ukradkiem<ch a="a"/></row>
-        <row important_over="true"><ch a="F"/>Że wie zbyt wiele by było mu dobrze<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+        <row important_over="false"><ch a="a"/>Lecz pan Longinus rycerstwa ozdoba<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+        <row important_over="false"><ch a="G"/>Nie mógł pozornych tryumfów być już świadkiem<ch a="C"/></row>
+        <row important_over="false"><ch a="d"/>Grymasem śmierci dając znak ukradkiem<ch a="a"/></row>
+        <row important_over="false"><ch a="F"/>Że wie zbyt wiele by było mu dobrze<ch a="E"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
       </bis>
     </block>
   </lyric>

@@ -10,8 +10,8 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Z<ch a="A"/>abierz mnie na st<ch a="E"/>ację</row>
-			<row important_over="true">D<ch a="A"/>aj mi bilet w g<ch a="E"/>arść</row>
-			<row important_over="true">Cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł</row>
+			<row important_over="false">D<ch a="A"/>aj mi bilet w g<ch a="E"/>arść</row>
+			<row important_over="false">Cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł</row>
 			<row important_over="true">B<ch a="D"/>o nie mam j<ch a="A"/>uż żadnych sz<ch a="E"/>ans</row>
 		</block>
 		<block type="other"><row important_over="false" style="instr">

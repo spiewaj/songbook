@@ -16,17 +16,17 @@ Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 			<row important_over="true"><ch a="G"/> Chodzą ulic<ch a="D"/>ami ludzie,</row>
 			<row important_over="true"><ch a="e"/> Maj przechodzą, l<ch a="h"/>ipiec, grudzień</row>
 			<row important_over="true"><ch a="C"/> Zagubieni wśr<ch a="G"/>ód ulic br<ch a="D"/>am.</row>
-			<row important_over="true"><ch a="G"/> Przemarznięte grz<ch a="D"/>eją dłonie</row>
-			<row important_over="true"><ch a="e"/> Dokądś pędzą, z<ch a="h"/>a czymś gonią</row>
-			<row important_over="true"><ch a="C"/> I budują wci<ch a="G"/>ąż domki z k<ch a="D"/>art.</row>
+			<row important_over="false"><ch a="G"/> Przemarznięte grz<ch a="D"/>eją dłonie</row>
+			<row important_over="false"><ch a="e"/> Dokądś pędzą, z<ch a="h"/>a czymś gonią</row>
+			<row important_over="false"><ch a="C"/> I budują wci<ch a="G"/>ąż domki z k<ch a="D"/>art.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="C"/> A tam w mech odzi<ch a="G"/>any kamień,</row>
-			<row important_over="true"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
-			<row important_over="true"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
-			<row important_over="true"><ch a="C"/> Porzuć kroków r<ch a="G"/>ytm na bruku,</row>
-			<row important_over="true"><ch a="C"/> Spróbuj — znajdziesz, j<ch a="G"/>eśli szukać</row>
-			<row important_over="true">Z<ch a="C"/>echcesz — nowy świa<ch a="G"/>t, własny św<ch a="D"/>iat.</row>
+			<row important_over="false"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+			<row important_over="false"><ch a="C"/> Porzuć kroków r<ch a="G"/>ytm na bruku,</row>
+			<row important_over="false"><ch a="C"/> Spróbuj — znajdziesz, j<ch a="G"/>eśli szukać</row>
+			<row important_over="false">Z<ch a="C"/>echcesz — nowy świa<ch a="G"/>t, własny św<ch a="D"/>iat.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="G"/> Płyną ludzie miastem szarzy,<ch a="D"/></row>
@@ -46,9 +46,9 @@ Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 			<row important_over="false"><ch a="C"/> I to dziwne drżenie rąk<ch a="G"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="true"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
-			<row important_over="true"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
-			<row important_over="true"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+			<row important_over="false"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
+			<row important_over="false"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
 		</block>
 	</lyric>
 	

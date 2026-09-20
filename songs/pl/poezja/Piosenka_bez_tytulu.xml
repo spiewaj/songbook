@@ -11,13 +11,13 @@
       <row important_over="true"><ch a="d"/>Niebo różowe<ch a="E7"/></row>
       <row important_over="true"><ch a="F"/>Wiatrem sypane w kolorze<ch a="C"/><ch a="E"/></row>
       <row important_over="true"><ch a="C"/>Słońce przychodzi</row>
-      <row important_over="true"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
-      <row important_over="true"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
+      <row important_over="false"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
         <row important_over="true"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
-        <row important_over="true"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
+        <row important_over="false"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
         <row important_over="true"><ch a="F"/>Rosną nam nowe twarze<ch a="C"/></row>
         <row important_over="true"><ch a="E7"/>Do słońca</row>
       </bis>

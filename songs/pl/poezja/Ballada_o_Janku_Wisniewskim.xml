@@ -10,7 +10,7 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Chłopcy z Grabówka, chłopcy z Chylonii<ch a="E"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Dzisiaj milicja użyła broni<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Dzisiaj milicja użyła broni<ch a="E"/><ch a="a"/></row>
       <row important_over="true"><ch a="G"/>Dzielnieśmy stali, celnie rzucali<ch a="C"/></row>
       <row important_over="true"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
     </block>

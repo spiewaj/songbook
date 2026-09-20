@@ -14,14 +14,14 @@
     <block type="verse">
       <row important_over="true">Wilcze <ch a="a"/>zęby, oczy <ch a="d"/>siwe</row>
       <row important_over="true">Groźnie <ch a="E"/>garść obuszkiem <ch a="a"/>furczy</row>
-      <row important_over="true">Gniew w<ch a="a"/> zawody z wichru <ch a="d"/>zrywem</row>
-      <row important_over="true">Dzika <ch a="E"/>radość, lot jaskółczy<ch a="a"/></row>
+      <row important_over="false">Gniew w<ch a="a"/> zawody z wichru <ch a="d"/>zrywem</row>
+      <row important_over="false">Dzika <ch a="E"/>radość, lot jaskółczy<ch a="a"/></row>
       <row important_over="true">Czyn to <ch a="A"/>czyn zapadła <ch a="d"/>klamka</row>
       <row important_over="true">Puścić <ch a="H"/>kura po <ch a="E"/>zaściankach</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true">Hej, kto <ch a="a"/>szlachta za <ch a="d"/>Kmicicem</row>
+        <row important_over="false">Hej, kto <ch a="a"/>szlachta za <ch a="d"/>Kmicicem</row>
         <row important_over="true" sidechords="a Ea"><ch a="a"/>Hajda na Wołmonto<ch a="E"/>wicz<ch a="a"/>e</row>
       </bis>
     </block>
@@ -71,14 +71,14 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Krzyż, ojczyzna, Bóg, prywata<ch a="d"/></row>
-      <row important_over="true"><ch a="E"/>Warchoł w oczach zmienia skórę<ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Wierny jest jak topór kata<ch a="d"/></row>
-      <row important_over="true"><ch a="E"/>I podobną ma naturę<ch a="a"/></row>
-      <row important_over="true"><ch a="A"/>Więc za słuszną sprawność ręki<ch a="d"/></row>
-      <row important_over="true"><ch a="H"/>Będzie ręka i Oleńki<ch a="E"/></row>
-      <row important_over="true"><ch a="A"/>Łaska króla, dworek dzieci<ch a="d"/></row>
-      <row important_over="true"><ch a="H"/>Szlachcic co przykładem świeci<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Krzyż, ojczyzna, Bóg, prywata<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>Warchoł w oczach zmienia skórę<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Wierny jest jak topór kata<ch a="d"/></row>
+      <row important_over="false"><ch a="E"/>I podobną ma naturę<ch a="a"/></row>
+      <row important_over="false"><ch a="A"/>Więc za słuszną sprawność ręki<ch a="d"/></row>
+      <row important_over="false"><ch a="H"/>Będzie ręka i Oleńki<ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Łaska króla, dworek dzieci<ch a="d"/></row>
+      <row important_over="false"><ch a="H"/>Szlachcic co przykładem świeci<ch a="E"/></row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

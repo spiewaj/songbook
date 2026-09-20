@@ -41,11 +41,11 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Miejcie nadzieję nie tę lichą marną<ch a="E"/><ch a="a"/></row>
-      <row important_over="true"><ch a="C"/>Co rdzień spruchniały w wątły kwiat ubiera<ch a="G"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Miejcie nadzieję nie tę lichą marną<ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Co rdzień spruchniały w wątły kwiat ubiera<ch a="G"/><ch a="E"/></row>
       <bis times="2">
         <row important_over="true"><ch a="F"/>Lecz tę niezłomną która tkwi jak ziarno<ch a="G"/><ch a="A"/></row>
-        <row important_over="true"><ch a="d"/>Przyszłych poświęceń w duszy bohatera<ch a="E"/><ch a="a"/></row>
+        <row important_over="false"><ch a="d"/>Przyszłych poświęceń w duszy bohatera<ch a="E"/><ch a="a"/></row>
       </bis>
     </block>
   </lyric>

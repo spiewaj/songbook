@@ -8,8 +8,8 @@
 		<block type="verse">
 			<row important_over="true">St<ch a="a"/>anął w ogniu nasz wi<ch a="G"/>elki dom</row>
 			<row important_over="true">D<ch a="e"/>ym w korytarzach kręci szn<ch a="a"/>ury</row>
-			<row important_over="true">Jest głęb<ch a="a"/>oka, naprawdę cz<ch a="G"/>arna noc</row>
-			<row important_over="true">Z p<ch a="e"/>iwnic płonące uciek<ch a="a"/>ają szczury</row>
+			<row important_over="false">Jest głęb<ch a="a"/>oka, naprawdę cz<ch a="G"/>arna noc</row>
+			<row important_over="false">Z p<ch a="e"/>iwnic płonące uciek<ch a="a"/>ają szczury</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Krz<ch a="a"/>yczę przez okno, cz<ch a="G"/>oło w szybę wgniatam</row>
@@ -32,8 +32,8 @@
 		<block type="verse">
 			<row important_over="true">Lecz wi<ch a="a"/>ększość śpi n<ch a="G"/>adal, przez s<ch a="e"/>en się uśmi<ch a="a"/>echa</row>
 			<row important_over="true"><ch a="F"/> A kto się zb<ch a="G"/>udzi nie wi<ch a="e"/>erzy w przebudz<ch a="a"/>enie</row>
-			<row important_over="true">Krz<ch a="a"/>yk w wytłumi<ch a="G"/>onych s<ch a="e"/>alach nie zna <ch a="a"/>echa</row>
-			<row important_over="true"><ch a="F"/> Na rusztach ł<ch a="G"/>óżek m<ch a="e"/>ilczy przeraż<ch a="a"/>enie</row>
+			<row important_over="false">Krz<ch a="a"/>yk w wytłumi<ch a="G"/>onych s<ch a="e"/>alach nie zna <ch a="a"/>echa</row>
+			<row important_over="false"><ch a="F"/> Na rusztach ł<ch a="G"/>óżek m<ch a="e"/>ilczy przeraż<ch a="a"/>enie</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">C<ch a="a"/>i przywiąz<ch a="G"/>ani d<ch a="e"/>ymem mater<ch a="a"/>acy</row>

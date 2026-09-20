@@ -8,15 +8,15 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Jedna flaszka, druga flaszka i też <ch a="E"/>trzecia, kurde bele leci,</row>
-      <row important_over="true">Dom <ch a="a"/>stoi zupełnie pusty nocą, <ch a="E"/>kurzą się dookoła rupiecie.</row>
-      <row important_over="true">Wra<ch a="a"/>camy chwiejnym krokiem po <ch a="E"/>okrążeniu nad ranem,</row>
-      <row important_over="true">Po <ch a="a"/>schodach na piechotę raczej <ch a="E"/>rady nie damy.</row>
+      <row important_over="false">Dom <ch a="a"/>stoi zupełnie pusty nocą, <ch a="E"/>kurzą się dookoła rupiecie.</row>
+      <row important_over="false">Wra<ch a="a"/>camy chwiejnym krokiem po <ch a="E"/>okrążeniu nad ranem,</row>
+      <row important_over="false">Po <ch a="a"/>schodach na piechotę raczej <ch a="E"/>rady nie damy.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Wyje<ch a="a"/>chali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
-      <row important_over="true"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
-      <row important_over="true"><ch a="a"/>Wyjechali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
-      <row important_over="true"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
+      <row important_over="false">Wyje<ch a="a"/>chali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
+      <row important_over="false"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
+      <row important_over="false"><ch a="a"/>Wyjechali na wakacje <ch a="E"/>wszyscy nasi podopieczni,</row>
+      <row important_over="false"><ch a="a"/>Gdy nie ma w domu dzieci, <ch a="E"/>to jesteśmy niegrzeczni.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/> Trasa bardzo dobrze znana od jed<ch a="E"/>nego baru do baru,</row>

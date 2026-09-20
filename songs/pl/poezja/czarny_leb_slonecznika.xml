@@ -16,9 +16,9 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="D"/>Palce, <ch a="A"/>palce, <ch a="E"/>ziarna, <ch a="A"/>ziarna</row>
-      <row important_over="true"><ch a="D"/>Serce białe - <ch a="E"/>dusza cza<ch a="A"/>rna</row>
-      <row important_over="true"><ch a="D"/>Ziarna, <ch a="A"/>palce, <ch a="E"/>Twoje, <ch a="A"/>moje</row>
-      <row important_over="true"><ch a="D"/>Posplatane <ch a="E"/>jak powo<ch a="A"/>je</row>
+      <row important_over="false"><ch a="D"/>Serce białe - <ch a="E"/>dusza cza<ch a="A"/>rna</row>
+      <row important_over="false"><ch a="D"/>Ziarna, <ch a="A"/>palce, <ch a="E"/>Twoje, <ch a="A"/>moje</row>
+      <row important_over="false"><ch a="D"/>Posplatane <ch a="E"/>jak powo<ch a="A"/>je</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A"/>Męczyć się bez mąk, martwić <ch a="D9"/>się bez skarg</row>
@@ -29,8 +29,8 @@
     <blocklink blocknb="2"/>
     <block type="verse">
       <bis times="3">
-        <row important_over="true"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
-        <row important_over="true"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
+        <row important_over="false"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
+        <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
       </bis>
     </block>
   </lyric>

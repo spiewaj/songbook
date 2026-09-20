@@ -9,19 +9,19 @@
       <row important_over="true"><ch a="Asus2"/> Wędruję ścieżką od ciebie do ciebie</row>
       <row important_over="true">Choć <ch a="fis"/>droga prowadzi<ch a="F"/> tylko przez<ch a="Asus2"/> góry</row>
       <row important_over="true"><ch a="Asus2"/> Przez świat zatopiony wierzchołkami w niebie</row>
-      <row important_over="true">Dwa <ch a="fis"/>światy znam <ch a="F"/>- lecz ten mój to<ch a="Asus2"/> który?</row>
+      <row important_over="false">Dwa <ch a="fis"/>światy znam <ch a="F"/>- lecz ten mój to<ch a="Asus2"/> który?</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="D"/> Góry rozpadły się w <ch a="E7"/>stos fotografii</row>
       <row important_over="true">Poprzec<ch a="Asus2"/>inane <ch a="fis"/>wąwo<ch a="F"/>zami <ch a="Asus2"/>miasta</row>
-      <row important_over="true"><ch a="D"/> Ale ty mój świat u<ch a="E7"/>łożyć potrafisz</row>
-      <row important_over="true">I <ch a="Asus2"/>świat znów za<ch a="fis"/>czyna <ch a="F"/>w góry się<ch a="Asus2"/> zrastać</row>
+      <row important_over="false"><ch a="D"/> Ale ty mój świat u<ch a="E7"/>łożyć potrafisz</row>
+      <row important_over="false">I <ch a="Asus2"/>świat znów za<ch a="fis"/>czyna <ch a="F"/>w góry się<ch a="Asus2"/> zrastać</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/> Góry to <ch a="G"/>nasze spię<ch a="a"/>trzone ma<ch a="F"/>rzenia</row>
-      <row important_over="true"><ch a="C"/> W górach <ch a="G"/>ludzie jak one <ch a="a"/>rosną ku <ch a="F"/>niebu</row>
-      <row important_over="true">Morze sz<ch a="C"/>czytów <ch a="G"/>nas w że<ch a="a"/>glarzy prze<ch a="F"/>mienia</row>
-      <row important_over="true">Steru<ch a="C"/>jących coraz <ch a="G"/>dalej od <ch a="a"/>brzegu, od <ch a="F"/>brzegu</row>
+      <row important_over="false"><ch a="C"/> W górach <ch a="G"/>ludzie jak one <ch a="a"/>rosną ku <ch a="F"/>niebu</row>
+      <row important_over="false">Morze sz<ch a="C"/>czytów <ch a="G"/>nas w że<ch a="a"/>glarzy prze<ch a="F"/>mienia</row>
+      <row important_over="false">Steru<ch a="C"/>jących coraz <ch a="G"/>dalej od <ch a="a"/>brzegu, od <ch a="F"/>brzegu</row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="C"/> Góry to <ch a="G"/>ludzie którzy je <ch a="a"/>niosą w ple<ch a="F"/>caku</row>

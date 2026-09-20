@@ -8,7 +8,7 @@
       <row important_over="true">Chc<ch a="d"/>ę dziś zwojować cały świat</row>
       <row important_over="true">Wł<ch a="C"/>aśnie dzisiaj udowodnię - j<ch a="B"/>estem czegoś wart</row>
       <row important_over="true"><ch a="d"/>Idę już Krakowskim zbliżam się</row>
-      <row important_over="true">J<ch a="C"/>uż niedługo, już za chwilę, z<ch a="B"/>a minuty dwie</row>
+      <row important_over="false">J<ch a="C"/>uż niedługo, już za chwilę, z<ch a="B"/>a minuty dwie</row>
     </block>
     <block type="chorus">
       <row important_over="true">I n<ch a="g"/>agle serce staje i aż zapiera dech</row>
@@ -16,7 +16,7 @@
       <row important_over="true">Wzi<ch a="d"/>ęli zamknęli dziś mój ulubiony klub</row>
       <row important_over="true">Pod drzwi<ch a="C"/>ami ludzi tłum już nie z<ch a="G"/>abaluję tu</row>
       <row important_over="true"><ch a="d"/>Okna zabite, techno nie poleci już</row>
-      <row important_over="true">Na bl<ch a="C"/>acie gruby kurz, a my nie z<ch a="G"/>atańczymy tu</row>
+      <row important_over="false">Na bl<ch a="C"/>acie gruby kurz, a my nie z<ch a="G"/>atańczymy tu</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Światła ulic wyznaczają szlak</row>

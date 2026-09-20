@@ -27,7 +27,7 @@
 			<row important_over="true">Ciepło - Twoje ręce.<ch a="E"/><ch a="a"/><ch a="d"/><ch a="E7"/></row>
 			<row important_over="true">(Ech) stara bacówko<ch a="a"/><ch a="F"/></row>
 			<row important_over="true">Niebo w nas się rodzi,<ch a="F"/></row>
-			<row important_over="true">Przyjaźń czy coś więcej.<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+			<row important_over="false">Przyjaźń czy coś więcej.<ch a="E"/><ch a="a"/><ch a="A7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

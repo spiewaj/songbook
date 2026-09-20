@@ -11,12 +11,12 @@
       <row important_over="true">Chm<ch a="G"/>ura w złości deszczem go przep<ch a="D"/>ędza.</row>
       <row important_over="true"><ch a="D"/>Wiatr się schował w jakimś oknie,</row>
       <row important_over="true">J<ch a="a"/>est szczęśliwy, że nie moknie,</row>
-      <row important_over="true"><ch a="G"/>A miał wkrótce chmurze być za m<ch a="D"/>ęża.</row>
+      <row important_over="false"><ch a="G"/>A miał wkrótce chmurze być za m<ch a="D"/>ęża.</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="F"/> Lecz nie jest źl<ch a="C"/>e,</row>
       <row important_over="true"><ch a="A7"/> Mogło być g<ch a="d"/>orzej</row>
-      <row important_over="true">Czasem w ż<ch a="F"/>yciu zdarza si<ch a="C"/>ę</row>
+      <row important_over="false">Czasem w ż<ch a="F"/>yciu zdarza si<ch a="C"/>ę</row>
       <row important_over="true">Pechowy dzi<ch a="D"/>eń. </row>
       <row important_over="false" style="instr"> <ch a="D"/><ch a="a"/><ch a="G"/><ch a="D"/><ch a="D"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
     </block>

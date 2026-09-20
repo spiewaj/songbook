@@ -7,23 +7,23 @@
 		<block type="verse">
 			<row important_over="true"><ch a="D"/>Są małe stacje w<ch a="fis"/>ielkich kolei, </row>
 			<row important_over="true">niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona</row>
-			<row important_over="true">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, </row>
+			<row important_over="false">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, </row>
 			<row important_over="true">jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona</row>
-			<row important_over="true"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu,</row>
-			<row important_over="true"> z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
-			<row important_over="true">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, </row>
+			<row important_over="false"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu,</row>
+			<row important_over="false"> z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
+			<row important_over="false">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, </row>
 			<row important_over="true">ja<ch a="A"/>k piła gorące <ch a="D"/>mleko</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
-			<row important_over="true"> a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
-			<row important_over="true">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
-			<row important_over="true"> jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
-			<row important_over="true">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była,</row>
-			<row important_over="true"> <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
+			<row important_over="false">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
+			<row important_over="false"> a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
+			<row important_over="false">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row important_over="false"> jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
+			<row important_over="false">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była,</row>
+			<row important_over="false"> <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
 			<bis times="2">
-				<row important_over="true">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, </row>
-				<row important_over="true">g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
+				<row important_over="false">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, </row>
+				<row important_over="false">g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
 			</bis>
 		</block>
 		<block type="verse">

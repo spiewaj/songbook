@@ -16,17 +16,17 @@
       <row important_over="true">P<ch a="e"/>omyśleli jak to fajnie</row>
       <row important_over="true">B<ch a="D"/>ędzie siedzieć przy ognisku</row>
       <row important_over="true">Gd<ch a="C"/>y na las się kładą cienie</row>
-      <row important_over="true"><ch a="D"/>A nad głową <ch a="e"/>iskra błyska</row>
+      <row important_over="false"><ch a="D"/>A nad głową <ch a="e"/>iskra błyska</row>
       <row important_over="true">K<ch a="G"/>ilometry już za nami</row>
       <row important_over="true"><ch a="D"/>A przed nami zachód słońca</row>
       <row important_over="true"><ch a="e"/>Echo niesie nad górami</row>
-      <row important_over="true">Pi<ch a="D"/>eśń radosną pi<ch a="e"/>eśń bez końca</row>
+      <row important_over="false">Pi<ch a="D"/>eśń radosną pi<ch a="e"/>eśń bez końca</row>
     </block>
     <block type="chorus">
       <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
       <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
     </block>
     <block type="verse">
       <row important_over="false">G<ch a="e"/>óry stały ponad nami</row>
@@ -59,24 +59,24 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="true">Ki<ch a="e"/>edy się obudziliśmy</row>
-      <row important_over="true">B<ch a="D"/>yło dobrze już południe</row>
-      <row important_over="true">P<ch a="C"/>otok toczył za namiotem</row>
-      <row important_over="true">Sw<ch a="D"/>oje wody p<ch a="e"/>orywiste</row>
-      <row important_over="true">Gd<ch a="G"/>y mnie dzisiaj ze snu budzi</row>
-      <row important_over="true">Dzi<ch a="D"/>ecka płacz a żona nęka</row>
-      <row important_over="true">P<ch a="e"/>odziękować chcę Stachurze</row>
-      <row important_over="true"><ch a="D"/>I Krzysiowi M<ch a="e"/>yszkowskiemu</row>
+      <row important_over="false">Ki<ch a="e"/>edy się obudziliśmy</row>
+      <row important_over="false">B<ch a="D"/>yło dobrze już południe</row>
+      <row important_over="false">P<ch a="C"/>otok toczył za namiotem</row>
+      <row important_over="false">Sw<ch a="D"/>oje wody p<ch a="e"/>orywiste</row>
+      <row important_over="false">Gd<ch a="G"/>y mnie dzisiaj ze snu budzi</row>
+      <row important_over="false">Dzi<ch a="D"/>ecka płacz a żona nęka</row>
+      <row important_over="false">P<ch a="e"/>odziękować chcę Stachurze</row>
+      <row important_over="false"><ch a="D"/>I Krzysiowi M<ch a="e"/>yszkowskiemu</row>
     </block>
     <block type="chorus">
-      <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
-      <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
-      <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
-      <row important_over="true">L<ch a="e"/>a la la la la</row>
-      <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
+      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
+      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
+      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
+      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
     </block>
   </lyric>
   <music metre="4/4">

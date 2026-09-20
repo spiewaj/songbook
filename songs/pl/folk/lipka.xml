@@ -14,10 +14,10 @@ Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej s
     <block type="verse">
       <row important_over="true">Z <ch a="a"/>tamtej strony <ch a="G"/>jezio<ch a="a"/>ra <ch a="G"/></row>
       <row important_over="true"><ch a="a"/>Stoi lipka <ch a="G"/>zielo<ch a="E"/>na</row>
-      <row important_over="true"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
       <row important_over="true"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
-      <row important_over="true"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
-      <row important_over="true"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
+      <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="false"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Nie byli to <ch a="G"/>ptaszko<ch a="a"/>wie <ch a="G"/></row>

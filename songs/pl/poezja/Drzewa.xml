@@ -12,14 +12,14 @@
 			<row important_over="true"><ch a="C"/> Dany jest drz<ch a="a"/>ewom t<ch a="d"/>aki sen,</row>
 			<row important_over="true"><ch a="G"/> Co korę w puchu mgi<ch a="C"/>eł zanurza,</row>
 			<row important_over="true"><ch a="a"/> Przegina wiatry zgi<ch a="d"/>ętym pniem</row>
-			<row important_over="true"><ch a="G"/> I twardnieć każe w l<ch a="C"/>etnich burzach.</row>
+			<row important_over="false"><ch a="G"/> I twardnieć każe w l<ch a="C"/>etnich burzach.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true"><ch a="A7"/> Dlatego człowiek m<ch a="d"/>arszcząc brwi,</row>
-				<row important_over="true"><ch a="G"/> Powalił pień żel<ch a="C"/>aza błyskiem,</row>
-				<row important_over="true"><ch a="a"/> By pierworodny j<ch a="d"/>ego syn</row>
-				<row important_over="true"><ch a="G"/> Z drzewa wyciętą mi<ch a="C"/>ał kołyskę.</row>
+				<row important_over="false"><ch a="G"/> Powalił pień żel<ch a="C"/>aza błyskiem,</row>
+				<row important_over="false"><ch a="a"/> By pierworodny j<ch a="d"/>ego syn</row>
+				<row important_over="false"><ch a="G"/> Z drzewa wyciętą mi<ch a="C"/>ał kołyskę.</row>
 			</bis>
 		</block>
 		<block type="verse">

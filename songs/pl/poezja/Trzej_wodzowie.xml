@@ -18,7 +18,7 @@
     <block type="chorus">
       <row important_over="true"><ch a="F"/>My być tam, my być tu</row>
       <row important_over="true"><ch a="C"/>Wielki być nasz Manitou</row>
-      <row important_over="true"><ch a="C"/>On nam dać ognista woda, woda dać<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>On nam dać ognista woda, woda dać<ch a="G"/></row>
       <row important_over="true"><ch a="C"/>My ją pić pić do rana</row>
       <row important_over="true"><ch a="F"/>Nasza wódzia ukochana</row>
       <row important_over="true"><ch a="C"/>My ją pić my ją pić a potem paść<ch a="G"/><ch a="C"/></row>
@@ -26,35 +26,35 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Wielki wódz Mała Kopa</row>
       <row important_over="true"><ch a="F"/>Z niego być kawał chłopa</row>
-      <row important_over="true"><ch a="C"/>On z mustanga gdy był młody na skalp spaść<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>On z mustanga gdy był młody na skalp spaść<ch a="G"/></row>
       <row important_over="true"><ch a="C"/>On mieć uśmiechnięta gęba</row>
-      <row important_over="true"><ch a="C"/>I świergolić jak ptak zięba<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>I świergolić jak ptak zięba<ch a="G"/></row>
       <row important_over="true"><ch a="F"/>Gdy ognista woda ciurkiem w siebie lać<ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Wielki wódz Iczuczuna</row>
-      <row important_over="false"><ch a="F"/>On mieć nad głową łuna</row>
+      <row important_over="true"><ch a="C"/>Wielki wódz Iczuczuna</row>
+      <row important_over="true"><ch a="F"/>On mieć nad głową łuna</row>
       <row important_over="false"><ch a="C"/>Taki wielki umysłowiec z niego być<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Ciągle knuć i kombinować</row>
+      <row important_over="true"><ch a="C"/>Ciągle knuć i kombinować</row>
       <row important_over="false"><ch a="C"/>I bez przerwy lamentować<ch a="G"/></row>
       <row important_over="false"><ch a="F"/>Jak by na tym głupim świecie lepiej żyć<ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Wielki wódz Mała Stopa</row>
-      <row important_over="false"><ch a="F"/>On uderzyć nieźle z kopa</row>
+      <row important_over="true"><ch a="C"/>Wielki wódz Mała Stopa</row>
+      <row important_over="true"><ch a="F"/>On uderzyć nieźle z kopa</row>
       <row important_over="false"><ch a="C"/>Na hamówkach nikt do niego nie mieć szans<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Jak uderzyć dobrze z kopa</row>
+      <row important_over="true"><ch a="C"/>Jak uderzyć dobrze z kopa</row>
       <row important_over="false"><ch a="C"/>Nieboszczyków leżeć kopa<ch a="G"/></row>
       <row important_over="false"><ch a="F"/>On być byk on być byk on być byk<ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Ledwie świt na niebie wstanie</row>
-      <row important_over="false"><ch a="F"/>Już na ścieżce są Indianie</row>
+      <row important_over="true"><ch a="C"/>Ledwie świt na niebie wstanie</row>
+      <row important_over="true"><ch a="F"/>Już na ścieżce są Indianie</row>
       <row important_over="false"><ch a="C"/>Każdy swoją ścieżkę zdrowia dobrze znać<ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Brać indiańska nie mieć kaca</row>
+      <row important_over="true"><ch a="C"/>Brać indiańska nie mieć kaca</row>
       <row important_over="false"><ch a="C"/>I wesołe świecić glaca<ch a="G"/></row>
       <row important_over="false"><ch a="F"/>Gdy ognista woda ciurkiem w siebie lać<ch a="C"/></row>
     </block>

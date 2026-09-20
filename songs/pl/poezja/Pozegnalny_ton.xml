@@ -17,7 +17,7 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">M<ch a="C"/>orz<ch a="G"/>a i <ch a="C"/>oceany grzmi<ch a="F"/>ą</row>
-			<row important_over="true">Pi<ch a="C"/>eśn<ch a="F"/>i p<ch a="G"/>ożegnalny t<ch a="C"/>on</row>
+			<row important_over="false">Pi<ch a="C"/>eśn<ch a="F"/>i p<ch a="G"/>ożegnalny t<ch a="C"/>on</row>
 			<row important_over="true">Jeszcze ni<ch a="C"/>er<ch a="G"/>az z<ch a="E"/>obaczymy si<ch a="F"/>ę,</row>
 			<row important_over="true">Cz<ch a="C"/>as stawiać ż<ch a="G"/>agle i z p<ch a="F"/>ortu wyr<ch a="G"/>uszyć nam w r<ch a="C"/>ejs.</row>
 		</block>

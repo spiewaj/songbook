@@ -19,14 +19,14 @@ Trzecia zwrotka (w kolejności w jakiej powstawał tekst) została napisana late
     <block type="verse">
       <row important_over="true"><ch a="C"/>Kaszubskie noce, <ch a="A"/>nad nami lśniące</row>
       <row important_over="true"><ch a="D"/>Harcerski krąg, <ch a="G"/>ogniska blask,</row>
-      <row important_over="true"><ch a="C"/>Gdy się tu znajdziesz, <ch a="A"/>wtedy zrozumiesz</row>
-      <row important_over="true"><ch a="D"/>Że wszystko to, <ch a="G"/>łączy nas.</row>
+      <row important_over="false"><ch a="C"/>Gdy się tu znajdziesz, <ch a="A"/>wtedy zrozumiesz</row>
+      <row important_over="false"><ch a="D"/>Że wszystko to, <ch a="G"/>łączy nas.</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>To szumi <ch a="A"/>las, <ch a="D"/>kołysze <ch a="G"/>drzewa</row>
-      <row important_over="true"><ch a="C"/>Fala je<ch a="A"/>ziora, <ch a="D"/>brzegi za<ch a="G"/>lewa</row>
-      <row important_over="true"><ch a="C"/>Tu mały <ch a="A"/>Giewont, <ch a="D"/>czoło po<ch a="G"/>chyla</row>
-      <row important_over="true"><ch a="C"/>A my sie<ch a="A"/>dzimy, <ch a="D"/>harcerska <ch a="G"/>brać.</row>
+      <row important_over="false"><ch a="C"/>Fala je<ch a="A"/>ziora, <ch a="D"/>brzegi za<ch a="G"/>lewa</row>
+      <row important_over="false"><ch a="C"/>Tu mały <ch a="A"/>Giewont, <ch a="D"/>czoło po<ch a="G"/>chyla</row>
+      <row important_over="false"><ch a="C"/>A my sie<ch a="A"/>dzimy, <ch a="D"/>harcerska <ch a="G"/>brać.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>I choć Ojczyzna, <ch a="A"/>jest tak daleko</row>

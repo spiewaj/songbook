@@ -12,8 +12,8 @@
 			<row important_over="true">Ci<ch a="a"/>emnością, ciszą jak bi<ch a="H7"/>edą</row>
 			<row important_over="true">
 				<ch a="E7"/>Osnute wszystko w tym d<ch a="a"/>omu…</row>
-			<row important_over="true">W<ch a="a"/>asza Wysokość Kobi<ch a="H7"/>eto,</row>
-			<row important_over="true">Cz<ch a="E7"/>y pani naprawdę do mni<ch a="a"/>e?</row>
+			<row important_over="false">W<ch a="a"/>asza Wysokość Kobi<ch a="H7"/>eto,</row>
+			<row important_over="false">Cz<ch a="E7"/>y pani naprawdę do mni<ch a="a"/>e?</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Ż<ch a="a"/>arówki pełga tu <ch a="H7"/>oko,</row>

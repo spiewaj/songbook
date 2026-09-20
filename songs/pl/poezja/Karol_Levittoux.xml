@@ -81,10 +81,10 @@
 			<row important_over="false">Co już n<ch a="a"/>ic nie powie, nie powie</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Zw<ch a="a"/>ęglone resztki wyniesiono rano</row>
-			<row important_over="true">B<ch a="d"/>ól szybko wsiąka w kamień cytadeli</row>
-			<row important_over="true">P<ch a="a"/>o incydencie tym rozkaz wydano</row>
-			<row important_over="true">By wi<ch a="E7"/>ęźniom światła nie dawać do celi</row>
+			<row important_over="false">Zw<ch a="a"/>ęglone resztki wyniesiono rano</row>
+			<row important_over="false">B<ch a="d"/>ól szybko wsiąka w kamień cytadeli</row>
+			<row important_over="false">P<ch a="a"/>o incydencie tym rozkaz wydano</row>
+			<row important_over="false">By wi<ch a="E7"/>ęźniom światła nie dawać do celi</row>
 		</block>
 	</lyric>
 	<music metre="4/4">

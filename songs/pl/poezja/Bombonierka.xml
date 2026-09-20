@@ -10,8 +10,8 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
 			<row important_over="true">A gdy p<ch a="a"/>atrzę tak<ch a="E"/></row>
-			<row important_over="true">Śmi<ch a="a"/>ejesz się<ch a="E"/></row>
-			<row important_over="true">Śmi<ch a="a"/>ejesz się<ch a="E"/></row>
+			<row important_over="false">Śmi<ch a="a"/>ejesz się<ch a="E"/></row>
+			<row important_over="false">Śmi<ch a="a"/>ejesz się<ch a="E"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Dzi<ch a="a"/>eń pogania n<ch a="E"/>oc św<ch a="a"/>item purpur<ch a="E"/>owym</row>
@@ -41,15 +41,15 @@
 			<row important_over="true"><ch a="d"/>Istny cud</row>
 			<row important_over="true">Ż<ch a="C"/>eby tak nasycić się</row>
 			<row important_over="true"><ch a="F"/>Ale wciąż w zapasie mieć</row>
-			<row important_over="true"><ch a="E"/>I rozgryzać t<ch a="a"/>ę zagadkę</row>
+			<row important_over="false"><ch a="E"/>I rozgryzać t<ch a="a"/>ę zagadkę</row>
 			<row important_over="true"><ch a="d"/><ch a="G"/> Tę zag<ch a="C"/>adkę</row>
 			<row important_over="true">P<ch a="d"/>o ostatnią<ch a="E"/> czekol<ch a="a"/>adkę</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">N<ch a="a"/>oc pogania dzi<ch a="E"/>eń sz<ch a="a"/>afirowym zmi<ch a="E"/>erzchem</row>
+			<row important_over="false">N<ch a="a"/>oc pogania dzi<ch a="E"/>eń sz<ch a="a"/>afirowym zmi<ch a="E"/>erzchem</row>
 			<row important_over="true">T<ch a="a"/>obie kocich gi<ch a="E"/>er ni<ch a="a"/>e dość j<ch a="A"/>eszcze</row>
 			<row important_over="true">N<ch a="d"/>ic mi do twych zdr<ch a="A"/>ad, ch<ch a="d"/>ociaż dziwi, ż<ch a="C"/>e</row>
-			<row important_over="true"><ch a="d"/>Ostry k<ch a="E"/>olor kł<ch a="a"/>amstw<ch a="d"/> nie r<ch a="E"/>azi ci<ch a="a"/>ę</row>
+			<row important_over="false"><ch a="d"/>Ostry k<ch a="E"/>olor kł<ch a="a"/>amstw<ch a="d"/> nie r<ch a="E"/>azi ci<ch a="a"/>ę</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<blocklink blocknb="4"/>

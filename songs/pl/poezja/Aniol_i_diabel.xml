@@ -11,9 +11,9 @@
 		<block type="verse">
 			<row important_over="true">
 				<ch a="e"/>Idzie diabeł ści<ch a="C"/>eżką krętą p<ch a="D"/>ełen myśli zł<ch a="e"/>ych</row>
-			<row important_over="true">Ni<ch a="e"/>e pożyczył m<ch a="C"/>u na piwo, ni<ch a="D"/>e pożyczył n<ch a="e"/>ikt.</row>
-			<row important_over="true">Sł<ch a="e"/>ońce smaży g<ch a="C"/>o od rana, wi<ch a="D"/>atr gorący dm<ch a="e"/>ucha,</row>
-			<row important_over="true">Di<ch a="e"/>abeł się z pragni<ch a="C"/>enia słania w t<ch a="D"/>en piekielny <ch a="e"/>upał.</row>
+			<row important_over="false">Ni<ch a="e"/>e pożyczył m<ch a="C"/>u na piwo, ni<ch a="D"/>e pożyczył n<ch a="e"/>ikt.</row>
+			<row important_over="false">Sł<ch a="e"/>ońce smaży g<ch a="C"/>o od rana, wi<ch a="D"/>atr gorący dm<ch a="e"/>ucha,</row>
+			<row important_over="false">Di<ch a="e"/>abeł się z pragni<ch a="C"/>enia słania w t<ch a="D"/>en piekielny <ch a="e"/>upał.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">

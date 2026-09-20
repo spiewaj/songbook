@@ -10,13 +10,13 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ty nie jesteś kliprem sławnym<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Cutty Sark czy Betty Louis<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Cutty Sark czy Betty Louis<ch a="G"/><ch a="a"/></row>
       <row important_over="true"><ch a="F"/>W Pacyfiku portach gwarnych<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="F"/>Nie zahuczy w głowie rum<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Nie dla ciebie są cyklony<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Hornu także nie opłyniesz<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="F"/>W rejsie sławnym i szalonym<ch a="G"/><ch a="a"/></row>
-      <row important_over="true"><ch a="F"/>Szancie starej nie zaginiesz<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Nie zahuczy w głowie rum<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Nie dla ciebie są cyklony<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Hornu także nie opłyniesz<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>W rejsie sławnym i szalonym<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Szancie starej nie zaginiesz<ch a="G"/><ch a="a"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="F"/>Hej Samantha hej Samantha</row>
@@ -26,7 +26,7 @@
       <row important_over="true"><ch a="C"/>Czasem ciężko prujesz wodę</row>
       <row important_over="true"><ch a="a"/>I twe żagle już nie nowe</row>
       <row important_over="true"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
-      <row important_over="true"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Ale teraz wyznać pora<ch a="G"/><ch a="a"/></row>
@@ -50,17 +50,17 @@
       <row important_over="false"><ch a="F"/>Byś pływała dalej w niebie<ch a="G"/><ch a="a"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="F"/>Hej Samantha hej Samantha</row>
-      <row important_over="true"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
-      <row important_over="true"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
+      <row important_over="false"><ch a="F"/>Hej Samantha hej Samantha</row>
+      <row important_over="false"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
       <bis>
-        <row important_over="true"><ch a="a"/>Moje serce masz pod gaflem</row>
-        <row important_over="true"><ch a="C"/>Czasem ciężko prujesz wodę</row>
-        <row important_over="true"><ch a="a"/>I twe żagle już nie nowe</row>
-        <row important_over="true"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
-        <row important_over="true"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+        <row important_over="false"><ch a="a"/>Moje serce masz pod gaflem</row>
+        <row important_over="false"><ch a="C"/>Czasem ciężko prujesz wodę</row>
+        <row important_over="false"><ch a="a"/>I twe żagle już nie nowe</row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
       </bis>
-      <row important_over="true"><ch a="F"/>Co ma duszę, co ma duszę…<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Co ma duszę, co ma duszę…<ch a="G"/><ch a="a"/></row>
     </block>
   </lyric>
   <music metre="">

@@ -48,10 +48,10 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="G"/>Nasze wieczne ucieczki wycieczki<ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Nasze wzdychanie w nieznane<ch a="D"/></row>
-      <row important_over="true"><ch a="h"/>Kiedy niebo Cię olśni<ch a="C"/></row>
-      <row important_over="true"><ch a="G"/>Wiesz że zaczął się wielki taniec<ch a="a"/><ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Nasze wieczne ucieczki wycieczki<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Nasze wzdychanie w nieznane<ch a="D"/></row>
+      <row important_over="false"><ch a="h"/>Kiedy niebo Cię olśni<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Wiesz że zaczął się wielki taniec<ch a="a"/><ch a="C"/></row>
     </block>
     <block type="other">
       <row important_over="true">

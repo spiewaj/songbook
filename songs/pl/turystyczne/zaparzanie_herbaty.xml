@@ -27,7 +27,7 @@
       <row important_over="true"><ch a="G"/>Słoneczniki <ch a="F"/>ścięte</row>
       <row important_over="true">Z których <ch a="C"/>światło uchodzi</row>
       <row important_over="true"><ch a="G"/>Jesień igra<ch a="F"/>jąca z <ch a="C"/>ogniem</row>
-      <row important_over="true"><ch a="G"/>Zaparzanie <ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Zaparzanie <ch a="F"/></row>
       <row important_over="true">Skośno<ch a="C"/>okiej herbaty</row>
       <row important_over="true"><ch a="a"/>Mi<ch a="G"/>łe z <ch a="F"/>nią roz<ch a="C"/>mo-<ch a="G"/>o-<ch a="C"/>wy</row>
     </block>

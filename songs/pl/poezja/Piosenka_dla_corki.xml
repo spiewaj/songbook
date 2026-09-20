@@ -24,9 +24,9 @@
 </block>
 
 <block type="verse">
-<row important_over="false">O tych <ch a="C"/>ludziach którzy poczuli</row>
+<row important_over="true">O tych <ch a="C"/>ludziach którzy poczuli</row>
 <row important_over="never">że są wreszcie teraz u siebie</row>
-<row important_over="false">soli<ch a="G"/>darnie walczą o dzisiaj</row>
+<row important_over="true">soli<ch a="G"/>darnie walczą o dzisiaj</row>
 <row important_over="false">i o <ch a="e"/>jutro także dla <ch a="a"/>Ciebie</row>
 </block>
 

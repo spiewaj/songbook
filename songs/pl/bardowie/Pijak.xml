@@ -11,12 +11,12 @@
 		<block type="verse">
 			<row important_over="true">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
 			<row important_over="true">Ost<ch a="H"/>atni nalej r<ch a="E"/>az</row>
-			<row important_over="true">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
-			<row important_over="true">I p<ch a="H"/>ójdę bo już cz<ch a="E"/>as</row>
+			<row important_over="false">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
+			<row important_over="false">I p<ch a="H"/>ójdę bo już cz<ch a="E"/>as</row>
 			<row important_over="true">Nie pł<ch a="a"/>aczę pozwól p<ch a="d"/>ić</row>
 			<row important_over="true">Bo wst<ch a="G"/>yd mi sobą b<ch a="E"/>yć</row>
 			<bis>
-				<row important_over="true">Nap<ch a="a"/>ełnij szklankę m<ch a="d"/>i</row>
+				<row important_over="false">Nap<ch a="a"/>ełnij szklankę m<ch a="d"/>i</row>
 				<row important_over="true">Nap<ch a="E"/>ełnij szklankę m<ch a="a"/>i</row>
 			</bis>
 		</block>

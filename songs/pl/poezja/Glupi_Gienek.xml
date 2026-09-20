@@ -12,10 +12,10 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Gitara Gienka jest taka cienka<ch a="D"/></row>
-			<row important_over="true">Po prostu mało ma strun<ch a="D"/><ch a="A"/></row>
+			<row important_over="false">Po prostu mało ma strun<ch a="D"/><ch a="A"/></row>
 			<row important_over="true">Lecz Gienek jej wierzy,<ch a="G"/><ch a="D"/></row>
-			<row important_over="true">Wie że struna pęka<ch a="e"/><ch a="h"/></row>
-			<row important_over="true">Zwłaszcza gdy cienka i już<ch a="G"/><ch a="A7"/></row>
+			<row important_over="false">Wie że struna pęka<ch a="e"/><ch a="h"/></row>
+			<row important_over="false">Zwłaszcza gdy cienka i już<ch a="G"/><ch a="A7"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="never">Gienek nie będzie już szewcem</row>

@@ -6,19 +6,19 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Mgła okryła <ch a="F"/>domy i <ch a="E"/>ulice</row>
-      <row important_over="true"><ch a="a"/>Wlazła między <ch a="F"/>szpary, okien<ch a="E"/>nice.</row>
-      <row important_over="true"><ch a="a"/>Ja w mieszkaniu <ch a="F"/>siedzę, a za <ch a="E"/>oknem</row>
-      <row important_over="true"><ch a="a"/>Dzieją dzisiaj <ch a="F"/>rzeczy się okr<ch a="E"/>opne.</row>
-      <row important_over="true"><ch a="a"/>Tam na plantach, <ch a="F"/>tuż obok cme<ch a="E"/>ntarza</row>
-      <row important_over="true"><ch a="a"/>Mąż żonie wrząt<ch a="F"/>kiem gębę wy<ch a="E"/>parza,</row>
-      <row important_over="true"><ch a="a"/>Chyba pójdę <ch a="F"/>tam ze swoją <ch a="E"/>żoną</row>
-      <row important_over="true"><ch a="a"/>Ona także <ch a="F"/>gębę ma niew<ch a="E"/>yparzoną.</row>
+      <row important_over="false"><ch a="a"/>Wlazła między <ch a="F"/>szpary, okien<ch a="E"/>nice.</row>
+      <row important_over="false"><ch a="a"/>Ja w mieszkaniu <ch a="F"/>siedzę, a za <ch a="E"/>oknem</row>
+      <row important_over="false"><ch a="a"/>Dzieją dzisiaj <ch a="F"/>rzeczy się okr<ch a="E"/>opne.</row>
+      <row important_over="false"><ch a="a"/>Tam na plantach, <ch a="F"/>tuż obok cme<ch a="E"/>ntarza</row>
+      <row important_over="false"><ch a="a"/>Mąż żonie wrząt<ch a="F"/>kiem gębę wy<ch a="E"/>parza,</row>
+      <row important_over="false"><ch a="a"/>Chyba pójdę <ch a="F"/>tam ze swoją <ch a="E"/>żoną</row>
+      <row important_over="false"><ch a="a"/>Ona także <ch a="F"/>gębę ma niew<ch a="E"/>yparzoną.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Po prostu <ch a="a"/>mgł<ch a="F"/>a <ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Mgła<ch a="F"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Mgła, mgła, <ch a="F"/>mgła, mgła, <ch a="E"/>mgła</row>
-      <row important_over="true">Po prostu <ch a="a"/>mgła, <ch a="F"/>mgła,<ch a="E"/> mgła</row>
+      <row important_over="false">Po prostu <ch a="a"/>mgł<ch a="F"/>a <ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Mgła<ch a="F"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Mgła, mgła, <ch a="F"/>mgła, mgła, <ch a="E"/>mgła</row>
+      <row important_over="false">Po prostu <ch a="a"/>mgła, <ch a="F"/>mgła,<ch a="E"/> mgła</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Patrzę a tu <ch a="F"/>wampir za zakr<ch a="E"/>ętem</row>

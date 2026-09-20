@@ -14,7 +14,7 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>A wszystko te czarne oczy gdybym ja je miał<ch a="C"/><ch a="E"/><ch a="A"/></row>
-      <row important_over="true"><ch a="d"/>Za te czarne cudne oczęta serce duszę bym dał<ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Za te czarne cudne oczęta serce duszę bym dał<ch a="a"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Fajki ja nie palę, wódki nie piję<ch a="E"/><ch a="a"/></row>

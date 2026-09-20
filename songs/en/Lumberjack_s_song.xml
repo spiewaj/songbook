@@ -32,7 +32,7 @@
 		<block type="verse">
 			<row important_over="never">Lumberjack :</row>
 			<row important_over="true">I c<ch a="G"/>ut down trees, I e<ch a="C"/>at my lunch, I <ch a="D"/>go to the lavato<ch a="G"/>ry.</row>
-			<row important_over="true">On W<ch a="G"/>ednesdays I go sh<ch a="C"/>opping, and have b<ch a="D"/>uttered scones for t<ch a="G"/>ea.</row>
+			<row important_over="false">On W<ch a="G"/>ednesdays I go sh<ch a="C"/>opping, and have b<ch a="D"/>uttered scones for t<ch a="G"/>ea.</row>
 			<row important_over="never"></row>
 			<row important_over="never">Choir :</row>
 			<row important_over="never">He cuts down trees, he eats his lunch, he goes to the lavatory.</row>
@@ -77,8 +77,8 @@
 		</block>
 		<block type="chorus">
 			<row important_over="never">All except Girl :</row>
-			<row important_over="true">I<ch a="G"/>'m a lumberjack and <ch a="C"/>I'm OK,</row>
-			<row important_over="true">I sl<ch a="D"/>eep all night and I w<ch a="G"/>ork all day.</row>
+			<row important_over="false">I<ch a="G"/>'m a lumberjack and <ch a="C"/>I'm OK,</row>
+			<row important_over="false">I sl<ch a="D"/>eep all night and I w<ch a="G"/>ork all day.</row>
 			<row important_over="true"><ch a="G"/>I'm a lumberjack and I<ch a="C"/>'m OK!<ch a="D"/></row>
 		</block>
 	</lyric>

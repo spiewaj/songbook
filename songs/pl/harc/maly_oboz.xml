@@ -17,10 +17,10 @@ Strojenie:     klasyczne (E A D G H e)</comment>
     <block type="chorus">
       <row important_over="true">Usta<ch a="C"/>wimy mały obóz</row>
       <row important_over="true">Bramę <ch a="e"/>zbudujemy z serc</row>
-      <row important_over="true">A z tych <ch a="A"/>dusz, co tak go<ch a="A7"/>rące</row>
+      <row important_over="false">A z tych <ch a="A"/>dusz, co tak go<ch a="A7"/>rące</row>
       <row important_over="true">Zbudu<ch a="d"/>jemy sobie piec</row>
-      <row important_over="true">Rozpa<ch a="F"/>limy mały <ch a="f"/>ogień</row>
-      <row important_over="true">A w tym <ch a="C"/>ogniu będziesz <ch a="a"/>piekł</row>
+      <row important_over="false">Rozpa<ch a="F"/>limy mały <ch a="f"/>ogień</row>
+      <row important_over="false">A w tym <ch a="C"/>ogniu będziesz <ch a="a"/>piekł</row>
       <row important_over="true">Naszą <ch a="d"/>przyjaźń, która łączy</row>
       <row important_over="true">Która <ch a="G"/>da Ci to, co chcesz</row>
     </block>

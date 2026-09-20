@@ -8,19 +8,19 @@
     <block type="verse">
       <row important_over="true">Słodycz jego u<ch a="F"/>st <ch a="d"/></row>
       <row important_over="true">Smakowała w ta<ch a="g"/>ńcu, <ch a="C"/></row>
-      <row important_over="true">Trochę gniótł <ch a="F"/>ją w biu<ch a="d"/>st</row>
-      <row important_over="true">Gruby, złoty ł<ch a="g"/>ańcuch <ch a="C"/></row>
-      <row important_over="true">On jej obi<ch a="F"/>ecał gwiazdkę <ch a="d"/>z nieba,</row>
+      <row important_over="false">Trochę gniótł <ch a="F"/>ją w biu<ch a="d"/>st</row>
+      <row important_over="false">Gruby, złoty ł<ch a="g"/>ańcuch <ch a="C"/></row>
+      <row important_over="false">On jej obi<ch a="F"/>ecał gwiazdkę <ch a="d"/>z nieba,</row>
       <row important_over="true">Że zestrze<ch a="g"/>li sztuczny k<ch a="gis"/>wiat,</row>
       <row important_over="true">Że po sezo<ch a="a"/>nie sprzeda k<ch a="d"/>ebab</row>
       <row important_over="true">I że wyrus<ch a="g"/>zą razem w św<ch a="C"/>iat <ch a="C7"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="F"/>Spójrzże na mnie e<ch a="d"/>jże,</row>
-        <row important_over="true"><ch a="g"/>No weźże płyńże do<ch a="C"/> mnie w pław</row>
-        <row important_over="true"><ch a="F"/>Ja ci się obejrzę!<ch a="d"/></row>
-        <row important_over="true"><ch a="g"/>Królowo Nadbałtyck<ch a="C"/>ich Raf </row>
+        <row important_over="false"><ch a="F"/>Spójrzże na mnie e<ch a="d"/>jże,</row>
+        <row important_over="false"><ch a="g"/>No weźże płyńże do<ch a="C"/> mnie w pław</row>
+        <row important_over="false"><ch a="F"/>Ja ci się obejrzę!<ch a="d"/></row>
+        <row important_over="false"><ch a="g"/>Królowo Nadbałtyck<ch a="C"/>ich Raf </row>
       </bis>
     </block>
     <block type="verse">
@@ -59,9 +59,9 @@
       </bis>
     </block>
     <block type="chorus">
-      <row important_over="true">Ja ci się obejrzę...<ch a="F"/><ch a="d"/></row>
-      <row important_over="true">Ja ci się obejrzę!<ch a="F"/><ch a="d"/></row>
-      <row important_over="true">Królowo Białowieskich Raf...<ch a="g"/><ch a="C"/></row>
+      <row important_over="false">Ja ci się obejrzę...<ch a="F"/><ch a="d"/></row>
+      <row important_over="false">Ja ci się obejrzę!<ch a="F"/><ch a="d"/></row>
+      <row important_over="false">Królowo Białowieskich Raf...<ch a="g"/><ch a="C"/></row>
     </block>
   </lyric>
   <keywords/>

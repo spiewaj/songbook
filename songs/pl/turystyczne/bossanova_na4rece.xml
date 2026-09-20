@@ -19,11 +19,11 @@
       <row important_over="false">I zaśpiewaj jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,
+      <row important_over="false"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,
 </row>
-      <row important_over="true"><ch a="e"/>Taka <ch a="A7"/>wonna, taka <ch a="D7+"/>biała jakby <ch a="h7"/>bez.
+      <row important_over="false"><ch a="e"/>Taka <ch a="A7"/>wonna, taka <ch a="D7+"/>biała jakby <ch a="h7"/>bez.
 </row>
-      <row important_over="true">W <ch a="e"/>niej <ch a="A7"/>zanurzyć się, <ch a="D7+"/>zagubić jak naj<ch a="h7"/>prędzej,</row>
+      <row important_over="false">W <ch a="e"/>niej <ch a="A7"/>zanurzyć się, <ch a="D7+"/>zagubić jak naj<ch a="h7"/>prędzej,</row>
       <row important_over="true"><ch a="e"/>Niech <ch a="A7"/>porywa, niech zakręci <ch a="G"/>aż do <ch a="Fis7"/>łez.
 </row>
     </block>

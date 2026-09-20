@@ -7,16 +7,16 @@
       <row important_over="true">Za <ch a="G"/>oknem zimowo zaczyna się dzień</row>
       <row important_over="true">Za<ch a="a"/>czynam kolejny dzień ży<ch a="F"/>cia</row>
       <row important_over="true">Wy<ch a="G"/>glądam przez okno, na oczach mam sen</row>
-      <row important_over="true">A <ch a="a"/>Grochów się budzi z przepi<ch a="F"/>cia</row>
+      <row important_over="false">A <ch a="a"/>Grochów się budzi z przepi<ch a="F"/>cia</row>
       <row important_over="true">Wy<ch a="G"/>pity alkohol uderza w tętnice</row>
-      <row important_over="true">Au<ch a="a"/>tobus tapla się w śnie<ch a="F"/>gu</row>
+      <row important_over="false">Au<ch a="a"/>tobus tapla się w śnie<ch a="F"/>gu</row>
       <row important_over="true">Z<ch a="G"/>za szyby oglądam betonu stolicę</row>
-      <row important_over="true">Już<ch a="a"/> jestem na drugim jej brze<ch a="F"/>gu</row>
+      <row important_over="false">Już<ch a="a"/> jestem na drugim jej brze<ch a="F"/>gu</row>
     </block>
     <block type="chorus">
       <row important_over="true">Gdy <ch a="C"/>patrzę w twe <ch a="G"/>oczy, zmę<ch a="a"/>czone jak <ch a="F"/>moje</row>
-      <row important_over="true">To <ch a="C"/>kocham to<ch a="G"/> miasto, zmę<ch a="a"/>czone jak <ch a="F"/> ja</row>
-      <row important_over="true">Gdzie <ch a="C"/> Hitler i <ch a="G"/> Stalin zro<ch a="a"/>bili, co <ch a="F"/>swoje</row>
+      <row important_over="false">To <ch a="C"/>kocham to<ch a="G"/> miasto, zmę<ch a="a"/>czone jak <ch a="F"/> ja</row>
+      <row important_over="false">Gdzie <ch a="C"/> Hitler i <ch a="G"/> Stalin zro<ch a="a"/>bili, co <ch a="F"/>swoje</row>
       <row important_over="true">Gdzie <ch a="C"/>wiosna <ch a="G"/>spaliną <ch a="F"/>oddycha</row>
     </block>
     <block type="verse">

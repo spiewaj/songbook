@@ -7,8 +7,8 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ty przychodzisz jak noc <ch a="e"/>majowa,</row>
       <row important_over="true">biała <ch a="F"/>noc, uśpi<ch a="G"/>ona w jaśminie,</row>
-      <row important_over="true">i jaśm<ch a="a"/>inem pachną twoje <ch a="e"/>słowa,</row>
-      <row important_over="true">i księż<ch a="F"/>ycem <ch a="G"/>sen srebrny płynie,</row>
+      <row important_over="false">i jaśm<ch a="a"/>inem pachną twoje <ch a="e"/>słowa,</row>
+      <row important_over="false">i księż<ch a="F"/>ycem <ch a="G"/>sen srebrny płynie,</row>
     </block>
     <block type="verse">
       <row important_over="false">Płyniesz cicha przez noce bezsenne<ch a="a"/><ch a="e"/></row>

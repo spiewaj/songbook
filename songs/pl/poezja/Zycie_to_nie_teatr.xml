@@ -10,9 +10,9 @@
       <row important_over="true"><ch a="G"/>To jest gra!</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Życie to nie teatr, <ch a="E"/>ja ci na to odpowiadam</row>
-      <row important_over="true"><ch a="E7"/>Życie to nie tylko <ch a="a"/>kolorowa maskarada;</row>
-      <row important_over="true"><ch a="F"/>Życie jest straszniejsze<ch a="G"/><ch a="C"/>i piękniejsze jeszcze jest<ch a="a"/>;</row>
+      <row important_over="false"><ch a="a"/>Życie to nie teatr, <ch a="E"/>ja ci na to odpowiadam</row>
+      <row important_over="false"><ch a="E7"/>Życie to nie tylko <ch a="a"/>kolorowa maskarada;</row>
+      <row important_over="false"><ch a="F"/>Życie jest straszniejsze<ch a="G"/><ch a="C"/>i piękniejsze jeszcze jest<ch a="a"/>;</row>
       <row important_over="true"><ch a="E"/>Wszystko przy nim blednie<ch a="E7"/>, <ch a="a"/>blednie nawet sama śmierć!<ch a="G"/></row>
     </block>
     <block type="chorus">
@@ -38,10 +38,10 @@
       <row important_over="false"><ch a="E"/>Wyjdę na przestworza<ch a="E7"/>, <ch a="a"/>przecudowny stworzę wiersz.<ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="F"/>Ty i ja - teatry to są dwa. Ty i ja!<ch a="G"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="true"><ch a="a"/>Ty - ty prawdziwej nie uronisz łzy.<ch a="E"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Ty i ja - teatry to są dwa. Ty i ja!<ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Ty - ty prawdziwej nie uronisz łzy.<ch a="E"/><ch a="E7"/><ch a="a"/></row>
       <row important_over="true"><ch a="F"/>Ty - najwyżej w górę wznosisz brwi.</row>
-      <row important_over="true"><ch a="G"/>Lecz nie zaraźliwy jest twój śmiech.<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Lecz nie zaraźliwy jest twój śmiech.<ch a="C"/></row>
       <row important_over="true"><ch a="G"/>Bo ty grasz!</row>
       <row important_over="never">Ja - duszę na ramieniu wiecznie mam.</row>
       <row important_over="never">Cały jestem zbudowany z ran.</row>

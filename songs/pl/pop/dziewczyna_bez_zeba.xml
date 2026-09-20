@@ -9,8 +9,8 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="d"/> Wybrałem cię spośród <ch a="B"/>milionów,</row>
-      <row important_over="true"><ch a="d"/> Wybrałem tak, jak mogłem <ch a="B"/>wtedy najlepiej</row>
-      <row important_over="true"><ch a="d"/> Wpuściłem cię do swego <ch a="B"/>domu,</row>
+      <row important_over="false"><ch a="d"/> Wybrałem tak, jak mogłem <ch a="B"/>wtedy najlepiej</row>
+      <row important_over="false"><ch a="d"/> Wpuściłem cię do swego <ch a="B"/>domu,</row>
       <row important_over="true">Nie <ch a="g"/>myślałem o tym, co, <ch a="A"/>gdzie i kiedy.</row>
     </block>
     <block type="verse">
@@ -21,9 +21,9 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co się <ch a="g"/>może stać między nami dwojgiem ?!</row>
-      <row important_over="true"><ch a="d"/> Tu stać się <ch a="B"/>może coś <ch a="g"/>nowego!</row>
-      <row important_over="true"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co się <ch a="g"/>stać może między nami dwojgiem ?!</row>
-      <row important_over="true"><ch a="d"/> Tu stać się <ch a="B"/>może coś stra<ch a="g"/>sznego!</row>
+      <row important_over="false"><ch a="d"/> Tu stać się <ch a="B"/>może coś <ch a="g"/>nowego!</row>
+      <row important_over="false"><ch a="d"/> Czy myślałaś o <ch a="B"/>tym, co się <ch a="g"/>stać może między nami dwojgiem ?!</row>
+      <row important_over="false"><ch a="d"/> Tu stać się <ch a="B"/>może coś stra<ch a="g"/>sznego!</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/> Ten uśmiech twój każdego <ch a="B"/>ranka</row>

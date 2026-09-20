@@ -13,14 +13,14 @@
 			<row important_over="true">Że się zd<ch a="D"/>arzyć tyle może,</row>
 			<row important_over="true">Że cię ki<ch a="G"/>edyś, mały s<ch a="A"/>ynku, będę mi<ch a="D"/>ał.</row>
 			<row important_over="true">Spadłeś z ni<ch a="G"/>eba mi ak<ch a="A"/>urat,</row>
-			<row important_over="true">Kiedy sz<ch a="D"/>edłem z głową w chm<ch a="G"/>urach —</row>
+			<row important_over="false">Kiedy sz<ch a="D"/>edłem z głową w chm<ch a="G"/>urach —</row>
 			<row important_over="true">-- Niedosp<ch a="D"/>any, skacow<ch a="A"/>any i jak p<ch a="G"/>al<ch a="A"/>ec s<ch a="D"/>am.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Dam Ci pl<ch a="G"/>ecak p<ch a="A"/>ełen m<ch a="D"/>arzeń,</row>
-			<row important_over="true">Grać na<ch a="G"/>uczę n<ch a="A"/>a git<ch a="D"/>arze,</row>
+			<row important_over="false">Dam Ci pl<ch a="G"/>ecak p<ch a="A"/>ełen m<ch a="D"/>arzeń,</row>
+			<row important_over="false">Grać na<ch a="G"/>uczę n<ch a="A"/>a git<ch a="D"/>arze,</row>
 			<row important_over="true">Na bar<ch a="G"/>ana Ci<ch a="Fis"/>ę przeni<ch a="h"/>osę<ch a="G"/></row>
-			<row important_over="true">Przez świat sm<ch a="D"/>utny j<ch a="A"/>ak kal<ch a="G"/>osze.<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Przez świat sm<ch a="D"/>utny j<ch a="A"/>ak kal<ch a="G"/>osze.<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Miejsca z<ch a="D"/>agrzać nie umi<ch a="G"/>ałem,</row>

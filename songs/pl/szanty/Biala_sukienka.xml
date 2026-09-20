@@ -18,10 +18,10 @@
       <row important_over="true"><ch a="E"/>I ona taka w tej białej sukience<ch a="H"/></row>
       <row important_over="true"><ch a="E"/>Jak piękny ptak, który zapiera w piersi dech<ch a="A"/><ch a="E"/></row>
       <row important_over="true"><ch a="H"/>Chwyciłem mocno jej obie ręce<ch a="E"/><ch a="A"/></row>
-      <row important_over="true"><ch a="E"/>Oczarowany, zasłuchany w słodki śmiech<ch a="H"/></row>
-      <row important_over="true"><ch a="E"/>I cała w żaglach jak w białej sukience<ch a="H"/></row>
-      <row important_over="true"><ch a="E"/>Jak piękny ptak, który zapiera w piersi dech<ch a="A"/><ch a="E"/></row>
-      <row important_over="true"><ch a="H"/>Chwyciłem mocno ster w obie ręce<ch a="E"/><ch a="A"/></row>
+      <row important_over="false"><ch a="E"/>Oczarowany, zasłuchany w słodki śmiech<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>I cała w żaglach jak w białej sukience<ch a="H"/></row>
+      <row important_over="false"><ch a="E"/>Jak piękny ptak, który zapiera w piersi dech<ch a="A"/><ch a="E"/></row>
+      <row important_over="false"><ch a="H"/>Chwyciłem mocno ster w obie ręce<ch a="E"/><ch a="A"/></row>
       <row important_over="true"><ch a="E"/>I żeglowałem zasłuchany w fali śpiew<ch a="H"/><ch a="E"/></row>
     </block>
     <block type="verse">

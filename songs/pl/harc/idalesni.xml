@@ -12,8 +12,8 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>Idą, idą leśni, k<ch a="E7"/>ompas maja z gwiazd, </row>
-      <row important_over="true"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
-      <row important_over="true"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
+      <row important_over="false"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
+      <row important_over="false"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
       <row important_over="true"><ch a="a"/>Tam gdzie my jesteśmy, tam jest wol<ch a="E"/>ny k<ch a="a"/>raj. </row>
     </block>
     <block type="verse">

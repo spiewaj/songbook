@@ -14,7 +14,7 @@
     </block>
     <block type="verse">
       <bis>
-        <row important_over="true"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
+        <row important_over="false"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
         <row important_over="true"><ch a="a"/>Kiedy jesteś Brown<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>

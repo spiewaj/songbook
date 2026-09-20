@@ -14,7 +14,7 @@
 		</block>
 		<block type="verse">
 			<row important_over="true">Z<ch a="e"/>agram dla ciebie na k<ch a="h"/>ażdej gitarze świ<ch a="C"/>ata<ch a="D"/></row>
-			<row important_over="true">N<ch a="e"/>a ulic fletach, na n<ch a="h"/>itkach babiego l<ch a="C"/>ata<ch a="D"/></row>
+			<row important_over="false">N<ch a="e"/>a ulic fletach, na n<ch a="h"/>itkach babiego l<ch a="C"/>ata<ch a="D"/></row>
 			<row important_over="true">Wyśpi<ch a="G"/>ewam jak potr<ch a="D"/>afię księż<ch a="G"/>yce na rozst<ch a="C"/>ajach</row>
 			<row important_over="true">I wrz<ch a="h7"/>eśnie i st<ch a="C"/>ycznie i m<ch a="a7"/>aj<ch a="D"/>e</row>
 			<row important_over="true">I z<ch a="h7"/>agubione dźwięki i barwy na płótnach Vlam<ch a="a7"/>incka<ch a="D7"/></row>
@@ -31,12 +31,12 @@
 				<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/><ch a="h"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">A bl<ch a="e"/>ask, co oświetla me r<ch a="h"/>ęce gdy p<ch a="C"/>iszę<ch a="D"/></row>
-			<row important_over="true">N<ch a="e"/>abrzmiał potrzebą r<ch a="h"/>ozerwania c<ch a="C"/>iszy<ch a="D"/></row>
-			<row important_over="true">Przez <ch a="G"/>okno wyciekł p<ch a="D"/>ełna go t<ch a="G"/>eraz chmara wr<ch a="C"/>onia</row>
+			<row important_over="false">A bl<ch a="e"/>ask, co oświetla me r<ch a="h"/>ęce gdy p<ch a="C"/>iszę<ch a="D"/></row>
+			<row important_over="false">N<ch a="e"/>abrzmiał potrzebą r<ch a="h"/>ozerwania c<ch a="C"/>iszy<ch a="D"/></row>
+			<row important_over="false">Przez <ch a="G"/>okno wyciekł p<ch a="D"/>ełna go t<ch a="G"/>eraz chmara wr<ch a="C"/>onia</row>
 			<row important_over="true">Dzi<ch a="h"/>obi się w dziobów k<ch a="C"/>ońcach, a w og<ch a="a"/>onach og<ch a="D"/>oni</row>
 			<row important_over="true">A pi<ch a="h"/>eśń moja to niknie, to wr<ch a="a"/>aca<ch a="D"/></row>
-			<row important_over="true">I ni<ch a="h"/>e wiem co bym zrobił gd<ch a="C"/>ybym ją utr<ch a="a"/>ac<ch a="D"/>ił</row>
+			<row important_over="false">I ni<ch a="h"/>e wiem co bym zrobił gd<ch a="C"/>ybym ją utr<ch a="a"/>ac<ch a="D"/>ił</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">

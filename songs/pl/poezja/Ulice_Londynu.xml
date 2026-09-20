@@ -13,9 +13,9 @@
 				<ch a="C"/>Czy pamiętasz star<ch a="G"/>ca, n<ch a="a"/>a zamkniętym siedział <ch a="e"/>targu,</row>
 			<row important_over="true">
 				<ch a="F"/>Kopał g<ch a="C"/>azety star<ch a="d"/>ymi buciorami,<ch a="G"/></row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="C"/>A jego oc<ch a="G"/>zy nie pr<ch a="a"/>osiły już <ch a="e"/>o nic,</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="F"/>Sprzedawał cz<ch a="C"/>as wczoraj<ch a="d"/>szymi nowośc<ch a="G"/>iami.</row>
 		</block>
 		<block type="chorus">
@@ -25,7 +25,7 @@
 				<ch a="d"/>Że dla ciebie słońce nie świeci j<ch a="G"/>uż.</row>
 			<row important_over="true">
 				<ch a="C"/>Daj mi swą dł<ch a="G"/>oń, a pokażę ci L<ch a="a"/>ondyn</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="F"/>I może w<ch a="C"/>tedy zmie<ch a="d"/>nisz swoje <ch a="G"/>zdanie.</row>
 		</block>
 		<block type="verse">

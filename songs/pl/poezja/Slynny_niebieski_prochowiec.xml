@@ -23,7 +23,7 @@
       <row important_over="true">Swój własny d<ch a="a7"/>om</row>
       <row important_over="true">W głębi pust<ch a="h7"/>yni</row>
       <row important_over="true"><ch a="a7"/> Od życia nie chcesz już n<ch a="G"/>ic</row>
-      <row important_over="true">Lecz musi<ch a="a7"/>ałeś zachować wspomni<ch a="G"/>enia</row>
+      <row important_over="false">Lecz musi<ch a="a7"/>ałeś zachować wspomni<ch a="G"/>enia</row>
     </block>
     <block type="chorus">
       <row important_over="true">A J<ch a="C"/>ane do dziś</row>
@@ -43,15 +43,15 @@
       <row important_over="false">Pojech<ch a="e7"/>ałeś do domu</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="a7"/> Dałeś mojej kobi<ch a="h7"/>ecie</row>
-      <row important_over="true">Z Twego ż<ch a="a7"/>ycia zaledwie strz<ch a="h7"/>ęp</row>
-      <row important_over="true"><ch a="a7"/> Nie jest już moją ż<ch a="G"/>oną</row>
-      <row important_over="true">Lecz tw<ch a="a7"/>oją też ni<ch a="G"/>e</row>
+      <row important_over="false"><ch a="a7"/> Dałeś mojej kobi<ch a="h7"/>ecie</row>
+      <row important_over="false">Z Twego ż<ch a="a7"/>ycia zaledwie strz<ch a="h7"/>ęp</row>
+      <row important_over="false"><ch a="a7"/> Nie jest już moją ż<ch a="G"/>oną</row>
+      <row important_over="false">Lecz tw<ch a="a7"/>oją też ni<ch a="G"/>e</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Wciąż w<ch a="C"/>idzę Cię</row>
-      <row important_over="false">Z różą w zębach choć wi<ch a="G"/>em</row>
-      <row important_over="false">Że to tani był gr<ch a="a7"/>eps</row>
+      <row important_over="true">Wciąż w<ch a="C"/>idzę Cię</row>
+      <row important_over="true">Z różą w zębach choć wi<ch a="G"/>em</row>
+      <row important_over="true">Że to tani był gr<ch a="a7"/>eps</row>
       <row important_over="false">Lecz spodobał się J<ch a="h7"/>ane<ch a="G"/></row>
       <row important_over="false"><ch a="F"/> Jane pozdrawia cię t<ch a="e7"/>eż</row>
       </block>
@@ -83,12 +83,12 @@
       <row important_over="true">Więc dzięk<ch a="C"/>uję ci że</row>
       <row important_over="true">Wypędziłeś jej z oczu ten ż<ch a="G"/>al</row>
       <row important_over="true">Ja myślałem, że musi być t<ch a="a7"/>ak</row>
-      <row important_over="true">Nie starałem się wi<ch a="h7"/>ęc<ch a="G"/></row>
+      <row important_over="false">Nie starałem się wi<ch a="h7"/>ęc<ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false">A J<ch a="C"/>ane do dziś</row>
-      <row important_over="false">Kosmyk włosów ma tw<ch a="G"/>ych</row>
-      <row important_over="false">Wiem że gdy dawałeś go j<ch a="a7"/>ej</row>
+      <row important_over="true">A J<ch a="C"/>ane do dziś</row>
+      <row important_over="true">Kosmyk włosów ma tw<ch a="G"/>ych</row>
+      <row important_over="true">Wiem że gdy dawałeś go j<ch a="a7"/>ej</row>
       <row important_over="false">Myślałeś już o tym by zwi<ch a="h7"/>ać<ch a="G"/></row>
     </block>
     <block type="other">

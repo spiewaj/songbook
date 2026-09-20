@@ -20,10 +20,10 @@
       <row important_over="true">Rzuć <ch a="G6"/>drogi wiodące do<ch a="C7+"/>nikąd</row>
       <row important_over="true"><ch a="a"/>Odetchnij powi<ch a="A7"/>etrzem <ch a="d7"/>lasów dziewiczych</row>
       <row important_over="true"><ch a="G"/>Niebem dzwoniącą <ch a="C"/>ci<ch a="E"/>szą</row>
-      <row important_over="true"><ch a="a7"/>Z dala od pyłu <ch a="d7"/>miast</row>
-      <row important_over="true">Od <ch a="G6"/>tłoku codziennych <ch a="C7+"/>spraw</row>
+      <row important_over="false"><ch a="a7"/>Z dala od pyłu <ch a="d7"/>miast</row>
+      <row important_over="false">Od <ch a="G6"/>tłoku codziennych <ch a="C7+"/>spraw</row>
       <row important_over="true">Może <ch a="d"/>znajdziesz co <ch a="E7"/>dawno <ch a="a"/>stracił<ch a="F"/>eś</row>
-      <row important_over="true"><ch a="d"/>Wolnego <ch a="E7"/>życia <ch a="a"/>smak </row>
+      <row important_over="false"><ch a="d"/>Wolnego <ch a="E7"/>życia <ch a="a"/>smak </row>
     </block>
     <block type="verse">
       <row important_over="false">Każdy ma swoje d&#039;pacol<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>

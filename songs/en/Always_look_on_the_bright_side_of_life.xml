@@ -49,7 +49,7 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="A"/>Always <ch a="Fis"/>look on the <ch a="h"/>right <ch a="E7"/>side of <ch a="A"/>life<ch a="Fis"/><ch a="h"/><ch a="E7"/></row>
-			<row important_over="true"><ch a="A"/>Always <ch a="Fis"/>look on the <ch a="h"/>right <ch a="E7"/>side of <ch a="A"/>life .<ch a="Fis"/>…<ch a="h"/><ch a="E7"/></row>
+			<row important_over="false"><ch a="A"/>Always <ch a="Fis"/>look on the <ch a="h"/>right <ch a="E7"/>side of <ch a="A"/>life .<ch a="Fis"/>…<ch a="h"/><ch a="E7"/></row>
 		</block>
 	</lyric>
 	<keywords/>

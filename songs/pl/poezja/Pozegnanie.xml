@@ -11,18 +11,18 @@
 		<block type="verse">
 			<row important_over="true">Spójrz przez <ch a="D"/>okno — wiosna śni<ch a="G"/>egi rozg<ch a="D"/>ania</row>
 			<row important_over="true">Coraz dł<ch a="G"/>uższe dni<ch a="D"/>e, wiatr ciepl<ch a="A"/>ejszy</row>
-			<row important_over="true">Na mnie cz<ch a="D"/>as, przyszła p<ch a="G"/>ora rozst<ch a="D"/>ania,</row>
-			<row important_over="true">Worek g<ch a="G"/>otów do dr<ch a="D"/>ogi w kącie l<ch a="A"/>eży</row>
+			<row important_over="false">Na mnie cz<ch a="D"/>as, przyszła p<ch a="G"/>ora rozst<ch a="D"/>ania,</row>
+			<row important_over="false">Worek g<ch a="G"/>otów do dr<ch a="D"/>ogi w kącie l<ch a="A"/>eży</row>
 			<row important_over="true">Nie idź j<ch a="G"/>eszcze, jeszcze cz<ch a="A"/>as, jeszcze zd<ch a="D"/>ążysz</row>
-			<row important_over="true">Jeszcze wi<ch a="G"/>osna zbyt kr<ch a="D"/>ótka, by jej wi<ch a="A"/>erzyć</row>
+			<row important_over="false">Jeszcze wi<ch a="G"/>osna zbyt kr<ch a="D"/>ótka, by jej wi<ch a="A"/>erzyć</row>
 			<row important_over="true">Jeszcze śni<ch a="G"/>eg dość głęb<ch a="A"/>oki, jeszcze bł<ch a="D"/>oto na dr<ch a="h"/>ogach,</row>
-			<row important_over="true">Jeszcze mr<ch a="G"/>óz wieczor<ch a="A"/>ami się j<ch a="D"/>eży</row>
+			<row important_over="false">Jeszcze mr<ch a="G"/>óz wieczor<ch a="A"/>ami się j<ch a="D"/>eży</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Daj mi j<ch a="G"/>eszcze kilka dn<ch a="D"/>i proszę <ch a="A"/>o to</row>
-			<row important_over="true">Pozwól si<ch a="G"/>ę jeszcze s<ch a="D"/>obą naci<ch a="A"/>eszyć</row>
-			<row important_over="true">Ty wyr<ch a="G"/>uszysz gnany sw<ch a="A"/>oją tęskn<ch a="D"/>ot<ch a="h"/>ą</row>
-			<row important_over="true">Ja zost<ch a="G"/>anę sam<ch a="A"/>otna jak ksi<ch a="D"/>ężyc</row>
+			<row important_over="false">Daj mi j<ch a="G"/>eszcze kilka dn<ch a="D"/>i proszę <ch a="A"/>o to</row>
+			<row important_over="false">Pozwól si<ch a="G"/>ę jeszcze s<ch a="D"/>obą naci<ch a="A"/>eszyć</row>
+			<row important_over="false">Ty wyr<ch a="G"/>uszysz gnany sw<ch a="A"/>oją tęskn<ch a="D"/>ot<ch a="h"/>ą</row>
+			<row important_over="false">Ja zost<ch a="G"/>anę sam<ch a="A"/>otna jak ksi<ch a="D"/>ężyc</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Już jask<ch a="D"/>ółki gniazdo w <ch a="G"/>oknie bud<ch a="D"/>ują,</row>

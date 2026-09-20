@@ -5,13 +5,13 @@
 		<block type="verse">
 			<row important_over="true">Płonie ognisko i szumią knieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
 			<row important_over="true">Drużynowy jest wśród nas<ch a="g"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="true">Opowiada starodawne dzieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="false">Opowiada starodawne dzieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
 			<row important_over="true">Bohaterski wskrzesza czas<ch a="g"/>g A<ch a="A7"/>7 d<ch a="d"/><ch a="C"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">O rycerstwie spod kresowych granic<ch a="F"/><ch a="C"/></row>
 			<row important_over="true">O obrońcach naszych polskich granic<ch a="g"/><ch a="A7"/><ch a="d"/><ch a="A7"/></row>
-			<row important_over="true">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="false">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
 			<row important_over="true">I dębowy huczy <ch a="A7"/>las<ch a="g"/><ch a="d"/><ch a="C"/></row>
 		</block>
 		<block type="verse">

@@ -49,12 +49,12 @@
 		</block>
 		<block type="verse">
 			<bis times="3">
-				<row important_over="true">I c<ch a="a"/>isza i spokój i znów świergot ptaka</row>
-				<row important_over="true">I sł<ch a="G"/>ońce szaleje wśród zroszonej trawy</row>
-				<row important_over="true">I drz<ch a="F"/>ewa co z włosów wytrzepują krople</row>
-				<row important_over="true">I wsz<ch a="E"/>ystko się cieszy po deszczowej kurzawie</row>
+				<row important_over="false">I c<ch a="a"/>isza i spokój i znów świergot ptaka</row>
+				<row important_over="false">I sł<ch a="G"/>ońce szaleje wśród zroszonej trawy</row>
+				<row important_over="false">I drz<ch a="F"/>ewa co z włosów wytrzepują krople</row>
+				<row important_over="false">I wsz<ch a="E"/>ystko się cieszy po deszczowej kurzawie</row>
 			</bis>
-			<row important_over="true">I c<ch a="a"/>isza</row>
+			<row important_over="false">I c<ch a="a"/>isza</row>
 		</block>
 	</lyric>
 	<music metre="4/4">

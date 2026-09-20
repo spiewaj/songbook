@@ -9,11 +9,11 @@
       <row important_over="true"><ch a="e"/>Absztyfik<ch a="D"/>anci grubej B<ch a="e"/>erty </row>
       <row important_over="true"><ch a="G"/>i katow<ch a="D"/>ickie węglok<ch a="C"/>opy <ch a="G"/></row>
       <row important_over="true"><ch a="C"/>i borysła<ch a="G"/>wskie naftowi<ch a="D"/>erty, </row>
-      <row important_over="true"><ch a="e"/>i lodzerm<ch a="D"/>ensche, bycze chł<ch a="e"/>opy, </row>
-      <row important_over="true"><ch a="e"/>warszawskie b<ch a="D"/>ubki, żygo<ch a="e"/>laki </row>
-      <row important_over="true"><ch a="G"/>z bandą wyt<ch a="D"/>wornych pind na k<ch a="C"/>upę, <ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>rębajły, fr<ch a="G"/>anty, zabij<ch a="D"/>aki, </row>
-      <row important_over="true"><ch a="e"/>całujcie w<ch a="D"/>y mnie wszyscy w d<ch a="e"/>upę. </row>
+      <row important_over="false"><ch a="e"/>i lodzerm<ch a="D"/>ensche, bycze chł<ch a="e"/>opy, </row>
+      <row important_over="false"><ch a="e"/>warszawskie b<ch a="D"/>ubki, żygo<ch a="e"/>laki </row>
+      <row important_over="false"><ch a="G"/>z bandą wyt<ch a="D"/>wornych pind na k<ch a="C"/>upę, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>rębajły, fr<ch a="G"/>anty, zabij<ch a="D"/>aki, </row>
+      <row important_over="false"><ch a="e"/>całujcie w<ch a="D"/>y mnie wszyscy w d<ch a="e"/>upę. </row>
     </block>
     <block type="verse">
       <row important_over="false">Socjały nudne i ponure,<ch a="e"/><ch a="D"/><ch a="e"/></row>

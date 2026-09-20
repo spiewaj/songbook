@@ -5,7 +5,7 @@
     <block type="verse">
       <row important_over="true"><ch a="d"/>Biegłaś zboczem, brą<ch a="g"/>zowo-zielona,</row>
       <row important_over="true"><ch a="C"/>Miedzią słońca i <ch a="F"/>trawy zie<ch a="A7"/>lenią,</row>
-      <row important_over="true"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
+      <row important_over="false"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
       <row important_over="true"><ch a="A"/>Twoje włosy <ch a="A7"/>targał górski <ch a="d"/>wiatr</row>
     </block>
     <block type="verse">

@@ -15,7 +15,7 @@
 		<block type="verse">
 			<bis times="2">
 				<row important_over="true">R<ch a="C"/>ajd r<ch a="a"/>ajd bi<ch a="D"/>eszczadzki r<ch a="G"/>ajd</row>
-				<row important_over="true">C<ch a="C"/>zy to w sł<ch a="a"/>ońce c<ch a="D"/>zy to w d<ch a="G"/>eszcz</row>
+				<row important_over="false">C<ch a="C"/>zy to w sł<ch a="a"/>ońce c<ch a="D"/>zy to w d<ch a="G"/>eszcz</row>
 				<row important_over="true">
 					<ch a="C"/>Idziesz z n<ch a="C7"/>ami pr<ch a="F"/>zyjaci<ch a="f"/>elu</row>
 				<row important_over="true">B<ch a="C"/>o s<ch a="G"/>am chc<ch a="C"/>esz <ch a="G7"/></row>

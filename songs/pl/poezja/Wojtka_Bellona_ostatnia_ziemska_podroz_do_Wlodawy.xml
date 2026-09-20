@@ -45,9 +45,9 @@
       <row important_over="true"><ch a="G"/>Ciemną i niepewną</row>
       <row important_over="true"><ch a="A"/>Z biletem kupionym</row>
       <row important_over="true"><ch a="A7"/>W nieznane</row>
-      <row important_over="true"><ch a="d"/>Lecz mówisz znów musi się udać<ch a="F"/></row>
-      <row important_over="true"><ch a="C"/>Choć tyle podróży za nami<ch a="A"/></row>
-      <row important_over="true"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Lecz mówisz znów musi się udać<ch a="F"/></row>
+      <row important_over="false"><ch a="C"/>Choć tyle podróży za nami<ch a="A"/></row>
+      <row important_over="false"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
       <row important_over="true"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="D"/></row>
     </block>
     <block type="verse">

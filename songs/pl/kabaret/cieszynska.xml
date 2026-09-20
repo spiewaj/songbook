@@ -8,12 +8,12 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Gdybym się urodził <ch a="d"/>przed stu laty</row>
       <row important_over="true"><ch a="F"/><ch a="E"/>w moim <ch a="a"/>grodzie, <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>U Larischów dla mej lubej <ch a="d"/>rwałbym kwiaty</row>
-      <row important_over="true"><ch a="F"/><ch a="E"/>w ich o<ch a="a"/>grodzie. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>U Larischów dla mej lubej <ch a="d"/>rwałbym kwiaty</row>
+      <row important_over="false"><ch a="F"/><ch a="E"/>w ich o<ch a="a"/>grodzie. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
       <row important_over="true"><ch a="C"/>Moja żona byłaby <ch a="d"/>starszą córką szewca</row>
       <row important_over="true"><ch a="F"/>Kamińskiego, co wcześniej <ch a="C"/>we Lwowie mieszkał.</row>
-      <row important_over="true"><ch a="C"/>Kochałbym ją i <ch a="d"/>pieścił</row>
-      <row important_over="true"><ch a="F"/><ch a="E"/>chyba lat <ch a="a"/>dwieście. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Kochałbym ją i <ch a="d"/>pieścił</row>
+      <row important_over="false"><ch a="F"/><ch a="E"/>chyba lat <ch a="a"/>dwieście. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Mieszkalibyśmy na Sachsenbergu,<ch a="a"/><ch a="d"/></row>

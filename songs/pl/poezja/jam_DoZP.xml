@@ -6,13 +6,13 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Jam jest ziemia, co pod<ch a="G"/>piera stopy</row>
       <row important_over="true"><ch a="a"/>Jam jest wiatr, <ch a="F"/>co rozwiewa włosy</row>
-      <row important_over="true"><ch a="C"/>Jam jest deszcz, co o<ch a="G"/>bmywa twarz</row>
-      <row important_over="true"><ch a="a"/>Jam jest słońce,<ch a="F"/> co osusza skórę</row>
+      <row important_over="false"><ch a="C"/>Jam jest deszcz, co o<ch a="G"/>bmywa twarz</row>
+      <row important_over="false"><ch a="a"/>Jam jest słońce,<ch a="F"/> co osusza skórę</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="C"/>Jam jest nic, jam jest <ch a="G"/>nic, i wiele</row>
-        <row important_over="true"><ch a="a"/>Jam jest ten, co płacze <ch a="F"/>i ten co się śmieje </row>
+        <row important_over="false"><ch a="C"/>Jam jest nic, jam jest <ch a="G"/>nic, i wiele</row>
+        <row important_over="false"><ch a="a"/>Jam jest ten, co płacze <ch a="F"/>i ten co się śmieje </row>
       </bis>
     </block>
     <block type="verse">

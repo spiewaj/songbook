@@ -10,13 +10,13 @@
   <lyric>
     <block type="verse">
       <row important_over="true">K<ch a="C"/>ubuś Puch<ch a="a"/>atek b<ch a="d"/>ył miś mal<ch a="G"/>utki</row>
-      <row important_over="true">S<ch a="C"/>ypiał przykł<ch a="a"/>adnie ni<ch a="d"/>e pijał w<ch a="G"/>ódki</row>
-      <row important_over="true">Jed<ch a="C"/>ną miał w<ch a="a"/>adę wśr<ch a="d"/>ód zalet t<ch a="G"/>ylu</row>
-      <row important_over="true"><ch a="C"/>O męskim m<ch a="a"/>yślał wc<ch a="d"/>iąż seksap<ch a="G"/>ilu</row>
+      <row important_over="false">S<ch a="C"/>ypiał przykł<ch a="a"/>adnie ni<ch a="d"/>e pijał w<ch a="G"/>ódki</row>
+      <row important_over="false">Jed<ch a="C"/>ną miał w<ch a="a"/>adę wśr<ch a="d"/>ód zalet t<ch a="G"/>ylu</row>
+      <row important_over="false"><ch a="C"/>O męskim m<ch a="a"/>yślał wc<ch a="d"/>iąż seksap<ch a="G"/>ilu</row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="true">Mm<ch a="C"/>m, mm<ch a="a"/>m, mru<ch a="d"/>czanka, m<ch a="G"/>ruczanka</row>
+        <row important_over="false">Mm<ch a="C"/>m, mm<ch a="a"/>m, mru<ch a="d"/>czanka, m<ch a="G"/>ruczanka</row>
       </bis>
     </block>
     <block type="verse">

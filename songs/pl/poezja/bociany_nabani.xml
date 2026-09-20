@@ -6,12 +6,12 @@
     <block type="verse">
       <row important_over="true"><ch a="G"/>O<ch a="D"/>budzi<ch a="G"/>ć si<ch a="D"/>ę rosi<ch a="e"/>e rozkażę</row>
       <row important_over="true"><ch a="C"/>Nawet <ch a="h7"/>gdy dzień <ch a="a7"/>zaś<ch a="D7"/>pi</row>
-      <row important_over="true">A kiedy już wstaną pejzaże<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="true">I zakwitnie jaśmin<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="false">A kiedy już wstaną pejzaże<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I zakwitnie jaśmin<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>Wte<ch a="D"/>dy <ch a="e"/>ręce <ch a="G"/>rozłożę jak <ch a="D"/>bociek</row>
-      <row important_over="true"><ch a="C"/>I <ch a="D"/>jak <ch a="e"/>Chrystus za<ch a="G"/>stygnę w l<ch a="D"/>ocie</row>
+      <row important_over="false"><ch a="C"/>I <ch a="D"/>jak <ch a="e"/>Chrystus za<ch a="G"/>stygnę w l<ch a="D"/>ocie</row>
       <row important_over="true"><ch a="C"/>Spoj<ch a="D"/>rzę na <ch a="e"/>góry jak na <ch a="G"/>piersi</row>
       <row important_over="true"><ch a="D"/>dziewczęce</row>
       <row important_over="true"><ch a="C"/>I znów jak bociek rozłożę <ch a="D7"/>ręce</row>

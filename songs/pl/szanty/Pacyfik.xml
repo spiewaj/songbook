@@ -21,13 +21,13 @@
       <row important_over="true"><ch a="D"/>Pół załogi ją trzymało</row>
       <row important_over="true"><ch a="A"/>Taki był cholerny sztorm<ch a="D"/></row>
       <row important_over="true"><ch a="D"/>Hej znowu zmyło coś<ch a="G"/></row>
-      <row important_over="true"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
-      <row important_over="true"><ch a="D"/>Hej policz który tam<ch a="G"/></row>
-      <row important_over="true"><ch a="A"/>Jaki znowu zmyło kram<ch a="D"/></row>
-      <row important_over="true"><ch a="D"/>Hej znowu zmyło coś<ch a="G"/></row>
-      <row important_over="true"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
-      <row important_over="true"><ch a="D"/>Postawcie wina dzban<ch a="G"/></row>
-      <row important_over="true"><ch a="A"/>Opowiemy dalej wam<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Hej policz który tam<ch a="G"/></row>
+      <row important_over="false"><ch a="A"/>Jaki znowu zmyło kram<ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Hej znowu zmyło coś<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Postawcie wina dzban<ch a="G"/></row>
+      <row important_over="false"><ch a="A"/>Opowiemy dalej wam<ch a="D"/></row>
     </block>
   </lyric>
   <music metre="">

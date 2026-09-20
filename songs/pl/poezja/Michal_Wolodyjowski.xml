@@ -10,15 +10,15 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>W stepie szerokim którego okiem<ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Nawet sokolim nie zmierzysz<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Nawet sokolim nie zmierzysz<ch a="C"/><ch a="E"/></row>
       <row important_over="true"><ch a="a"/>Wstań unieś głowę wsłuchaj się w słowa<ch a="d"/><ch a="a"/></row>
       <row important_over="true"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="a"/>Choć mały całkiem rębacz wspaniały<ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Wyrósł nad pierwsze szermierze<ch a="C"/><ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>I wieki całe będą śpiewały<ch a="d"/><ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Choć mały całkiem rębacz wspaniały<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Wyrósł nad pierwsze szermierze<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>I wieki całe będą śpiewały<ch a="d"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Ty któryś w boju i ty coś w znoju<ch a="C"/><ch a="E"/></row>

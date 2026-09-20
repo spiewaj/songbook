@@ -23,8 +23,8 @@
       <row important_over="true"><ch a="Dis"/>Kto pogłaszcze mnie po gł<ch a="F"/>owie?</row>
       <row important_over="true"><ch a="g"/>Kto mi powie, że wybr<ch a="F"/>ałam źle?<ch a="B"/></row>
       <row important_over="true">Czy sły<ch a="c"/>szysz mni<ch a="d"/>e kiedy płaczę?</row>
-      <row important_over="true"><ch a="Dis"/>Nie zakładam bocznych kó<ch a="F"/>łek</row>
-      <row important_over="true"><ch a="g"/>Spać już sama niby umi<ch a="F"/>em</row>
+      <row important_over="false"><ch a="Dis"/>Nie zakładam bocznych kó<ch a="F"/>łek</row>
+      <row important_over="false"><ch a="g"/>Spać już sama niby umi<ch a="F"/>em</row>
       <row important_over="true">Le<ch a="B"/>cz nie za<ch a="c"/>dzwonisz p<ch a="d"/>rzed snem</row>
     </block>
     <block type="verse">
@@ -36,17 +36,17 @@
       <row important_over="never">Już nie chcę świąt</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="c"/>Tak chciałam, żebyś ich poznała</row>
-      <row important_over="false">Pisać Ci, gdy zaczną szkolny r<ch a="B"/>ok</row>
+      <row important_over="true"><ch a="c"/>Tak chciałam, żebyś ich poznała</row>
+      <row important_over="true">Pisać Ci, gdy zaczną szkolny r<ch a="B"/>ok</row>
       <row important_over="never">Zgubiłam to</row>
-      <row important_over="false"><ch a="c"/>Co mam zrobić z wycinkami z gazet?</row>
+      <row important_over="true"><ch a="c"/>Co mam zrobić z wycinkami z gazet?</row>
       <row important_over="never">Nikt nie wierzył, ty wierzyłaś zawsze</row>
       <row important_over="false"><ch a="g"/>Wiem, masz teraz do<ch a="F"/>brze się</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
       <row important_over="true"><ch a="Dis"/>Uuuu<ch a="F"/>,u<ch a="g"/>uuu<ch a="F"/><ch a="B"/><ch a="c"/><ch a="d"/></row>
-      <row important_over="true"><ch a="Dis"/>Uuuu<ch a="F"/>,u<ch a="g"/>uuu<ch a="F"/><ch a="B"/><ch a="c"/><ch a="d"/></row>
+      <row important_over="false"><ch a="Dis"/>Uuuu<ch a="F"/>,u<ch a="g"/>uuu<ch a="F"/><ch a="B"/><ch a="c"/><ch a="d"/></row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="6"/>

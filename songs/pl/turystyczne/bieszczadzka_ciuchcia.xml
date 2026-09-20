@@ -9,21 +9,21 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Jedzie bieszczadzka <ch a="d"/>ciuchcia,</row>
       <row important_over="true"><ch a="F"/>sypie, <ch a="G"/>strzela is<ch a="C"/>krami.</row>
-      <row important_over="true"><ch a="C"/>Taka, co przed stu <ch a="d"/>laty</row>
-      <row important_over="true">jeź<ch a="F"/>dziła<ch a="G"/> z trape<ch a="C"/>rami.</row>
+      <row important_over="false"><ch a="C"/>Taka, co przed stu <ch a="d"/>laty</row>
+      <row important_over="false">jeź<ch a="F"/>dziła<ch a="G"/> z trape<ch a="C"/>rami.</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
-      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
+      <row important_over="false"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
       <row important_over="true"><ch a="F"/>Drzewa <ch a="a"/>ucie<ch a="D"/>kają.</row>
-      <row important_over="true"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
-      <row important_over="true"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
+      <row important_over="false"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
+      <row important_over="false"><ch a="g"/>Która <ch a="C"/>to godzina,</row>
       <row important_over="true"><ch a="F"/>Koła <ch a="a"/>rytm stu<ch a="D7"/>kają.</row>
-      <row important_over="true"><ch a="g"/>Wjeżdżamy w<ch a="C"/> nasz</row>
+      <row important_over="false"><ch a="g"/>Wjeżdżamy w<ch a="C"/> nasz</row>
       <row important_over="true">Zie<ch a="F"/>lony, romantyczny <ch a="D7"/>świat,</row>
       <row important_over="true"><ch a="g"/>Z którym <ch a="C"/>już <ch a="F"/>przyjaźnimy się od <ch a="D7"/>lat.</row>
-      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
-      <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina.</row>
+      <row important_over="false"><ch a="g"/>Bucha <ch a="C"/>dym z komina,</row>
+      <row important_over="false"><ch a="g"/>Bucha <ch a="C"/>dym z komina.</row>
     </block>
     <block type="verse">
       <row important_over="never">Jedzie bieszczadzka ciuchcia,</row>

@@ -8,12 +8,12 @@ Ref:[C G C G7 / e a]</comment>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="d"/>Gore gwiazda Jezusowi w <ch a="g"/>obłoku w o<ch a="A"/>błoku</row>
-      <row important_over="true"><ch a="d"/>Józef z Panną asystują pr<ch a="g"/>zy boku, przy<ch a="A"/> boku</row>
+      <row important_over="false"><ch a="d"/>Józef z Panną asystują pr<ch a="g"/>zy boku, przy<ch a="A"/> boku</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="d"/>Hejże ino dyna,<ch a="g"/> dyna, na<ch a="d"/>rodził się <ch a="g"/>Bóg dziecina</row>
       <row important_over="true"><ch a="d"/>W Be<ch a="A"/>tlejem, <ch a="d"/>w Bet<ch a="A"/>leje<ch a="d"/>m</row>
-      <row important_over="true"><ch a="d"/>Hejże ino d<ch a="g"/>yna, dyna, n<ch a="d"/>arodził się<ch a="g"/> Bóg dziecina</row>
+      <row important_over="false"><ch a="d"/>Hejże ino d<ch a="g"/>yna, dyna, n<ch a="d"/>arodził się<ch a="g"/> Bóg dziecina</row>
       <row important_over="true"><ch a="d"/>W Bet<ch a="A"/>lejem, <ch a="d"/>w B<ch a="A"/>etlejem</row>
     </block>
     <block type="verse">

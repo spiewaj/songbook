@@ -6,10 +6,10 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Zanim po<ch a="D"/>wiesz jej <ch a="a"/>że</row>
-      <row important_over="true"><ch a="e"/>To był o<ch a="D"/>statni <ch a="a"/>raz</row>
-      <row important_over="true"><ch a="e"/>Zanim dzień spłoszy <ch a="D"/>srebrnego ptaka <ch a="a"/>nocy</row>
+      <row important_over="false"><ch a="e"/>To był o<ch a="D"/>statni <ch a="a"/>raz</row>
+      <row important_over="false"><ch a="e"/>Zanim dzień spłoszy <ch a="D"/>srebrnego ptaka <ch a="a"/>nocy</row>
       <row important_over="true"><ch a="C"/>Rozkołysz, rozkołysz, rozkołysz</row>
-      <row important_over="true">Jeszcze r<ch a="e"/>az<ch a="D"/><ch a="a"/> </row>
+      <row important_over="false">Jeszcze r<ch a="e"/>az<ch a="D"/><ch a="a"/> </row>
       <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="a"/></row>
     </block>
     <block type="verse">
@@ -21,9 +21,9 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="G"/>Ona <ch a="a"/>ma <ch a="e"/>sił<ch a="D"/>ę</row>
-      <row important_over="true"><ch a="G"/>Nie wie<ch a="a"/>sz j<ch a="e"/>ak wi<ch a="D"/>elką</row>
-      <row important_over="true"><ch a="G"/>Będzi<ch a="a"/>e sp<ch a="e"/>adać <ch a="D"/>długo</row>
-      <row important_over="true"><ch a="G"/>Potem<ch a="a"/> wst<ch a="e"/>anie <ch a="D"/>lekko</row>
+      <row important_over="false"><ch a="G"/>Nie wie<ch a="a"/>sz j<ch a="e"/>ak wi<ch a="D"/>elką</row>
+      <row important_over="false"><ch a="G"/>Będzi<ch a="a"/>e sp<ch a="e"/>adać <ch a="D"/>długo</row>
+      <row important_over="false"><ch a="G"/>Potem<ch a="a"/> wst<ch a="e"/>anie <ch a="D"/>lekko</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="a"/><ch a="e"/><ch a="D"/><ch a="a"/></row>

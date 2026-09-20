@@ -11,14 +11,14 @@
     <block type="verse">
       <row important_over="true"><ch a="G"/>Gdy pokłócisz się z dziewczyną<ch a="D"/></row>
       <row important_over="true"><ch a="e"/>Nie życzę ci lecz różnie jest<ch a="C"/></row>
-      <row important_over="true"><ch a="G"/>Nie chciej zaraz marnie ginąć<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Nie chciej zaraz marnie ginąć<ch a="D"/></row>
       <row important_over="true"><ch a="C"/>Zaufaj mi przekonasz się<ch a="D"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>Wskocz w pudło gitary i tam rozłóż się obozem<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="true"><ch a="a"/>Skocz w pudło gitary ratunkowym ona kołem<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="a"/>Skocz w pudło gitary ratunkowym ona kołem<ch a="C"/><ch a="G"/><ch a="D"/></row>
       <row important_over="true"><ch a="a"/>Przeczekaj nachalną nawałnicę<ch a="C"/></row>
-      <row important_over="true"><ch a="G"/>Wyjdź potem ze słońcem na ulicę<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wyjdź potem ze słońcem na ulicę<ch a="D"/></row>
       <row important_over="true"><ch a="a"/>Wyjdź potem ze słońcem na ulicę<ch a="C"/><ch a="G"/></row>
     </block>
     <block type="verse">
@@ -38,7 +38,7 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>I pomóż słońcu i pomóż słońcu<ch a="c"/></row>
       <row important_over="true"><ch a="G"/>Pomóż słońcu lśnić</row>
-      <row important_over="true"><ch a="a"/>I pomóż słońcu i pomóż słońcu<ch a="c"/></row>
+      <row important_over="false"><ch a="a"/>I pomóż słońcu i pomóż słońcu<ch a="c"/></row>
       <row important_over="true"><ch a="G"/>Pomóż słońcu lśnić<ch a="D"/><ch a="C"/><ch a="G"/></row>
     </block>
   </lyric>

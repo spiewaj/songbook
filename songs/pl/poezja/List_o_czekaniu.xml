@@ -22,10 +22,10 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="true">Znów p<ch a="a"/>ora, nasza górska jesi<ch a="E"/>eni,</row>
+				<row important_over="false">Znów p<ch a="a"/>ora, nasza górska jesi<ch a="E"/>eni,</row>
 				<row important_over="true">Powi<ch a="a"/>etrze liśćmi rozzł<ch a="G"/>ocone,</row>
-				<row important_over="true">P<ch a="F"/>achnie drewnianym ciepłem d<ch a="C"/>omu</row>
-				<row important_over="true">I mr<ch a="d"/>okiem starych opowi<ch a="E"/>eści.</row>
+				<row important_over="false">P<ch a="F"/>achnie drewnianym ciepłem d<ch a="C"/>omu</row>
+				<row important_over="false">I mr<ch a="d"/>okiem starych opowi<ch a="E"/>eści.</row>
 			</bis>
 		</block>
 		<block type="verse">

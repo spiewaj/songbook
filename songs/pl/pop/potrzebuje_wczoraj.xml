@@ -11,8 +11,8 @@
     <block type="verse">
       <row important_over="true"><ch a="E"/> O jaki <ch a="Gis"/>jestem rozpiep<ch a="cis"/>rzony, rozpiep<ch a="A"/>rzony</row>
       <row important_over="true"><ch a="E"/> Wąchałem <ch a="H"/>plastikowe <ch a="A"/>kwiaty w<ch a="E"/>czoraj</row>
-      <row important_over="true"><ch a="E"/> Tak bardzo <ch a="Gis"/>lubię czuć się <ch a="cis"/>chory, czuć się <ch a="A"/>chory</row>
-      <row important_over="true"><ch a="E"/> O jaka <ch a="H"/>jesteś rozpiep<ch a="A"/>rzona <ch a="E"/></row>
+      <row important_over="false"><ch a="E"/> Tak bardzo <ch a="Gis"/>lubię czuć się <ch a="cis"/>chory, czuć się <ch a="A"/>chory</row>
+      <row important_over="false"><ch a="E"/> O jaka <ch a="H"/>jesteś rozpiep<ch a="A"/>rzona <ch a="E"/></row>
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
@@ -24,8 +24,8 @@
     <block type="chorus">
       <row important_over="true"><ch a="E"/> Potrze<ch a="Gis"/>buję wczo<ch a="cis"/>raj aj, <ch a="A"/>aj, aj, <ch a="E"/>aj</row>
       <row important_over="true">Takie <ch a="H"/>dziwne co<ch a="A"/>ś <ch a="E"/></row>
-      <row important_over="true"><ch a="E"/> Potrze<ch a="Gis"/>buję wczo<ch a="cis"/>raj aj, <ch a="A"/>aj, aj, <ch a="E"/>aj</row>
-      <row important_over="true">Takie <ch a="H"/>dziwne co<ch a="A"/>ś <ch a="E"/></row>
+      <row important_over="false"><ch a="E"/> Potrze<ch a="Gis"/>buję wczo<ch a="cis"/>raj aj, <ch a="A"/>aj, aj, <ch a="E"/>aj</row>
+      <row important_over="false">Takie <ch a="H"/>dziwne co<ch a="A"/>ś <ch a="E"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="E"/><ch a="Gis"/><ch a="cis"/><ch a="A"/></row>

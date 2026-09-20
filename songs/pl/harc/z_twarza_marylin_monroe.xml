@@ -34,10 +34,10 @@
       <row important_over="false">Przy jej <ch a="e"/>zdjęciu <ch a="a"/>spędzam <ch a="F"/>całą noc</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="F"/>Szesnaście l<ch a="f"/>at, mój pierwszy</row>
-      <row important_over="true"><ch a="C"/>Ra<ch a="e"/>z <ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/><ch a="F"/></row>
+      <row important_over="false"><ch a="F"/>Szesnaście l<ch a="f"/>at, mój pierwszy</row>
+      <row important_over="false"><ch a="C"/>Ra<ch a="e"/>z <ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/><ch a="F"/></row>
       <bis times="3">
-        <row important_over="true"><ch a="C"/>Aa<ch a="e"/>a,<ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/> |<ch a="F"/></row>
+        <row important_over="false"><ch a="C"/>Aa<ch a="e"/>a,<ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/> |<ch a="F"/></row>
       </bis>
     </block>
   </lyric>

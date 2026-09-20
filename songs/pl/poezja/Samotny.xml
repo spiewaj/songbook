@@ -14,17 +14,17 @@
       <row important_over="true"><ch a="C"/>Który dnia pewnego cicho do mnie rzekł<ch a="G"/><ch a="D"/></row>
       <row important_over="true"><ch a="C"/>Gdy poderwać chcesz dziewczynę<ch a="G"/></row>
       <row important_over="true"><ch a="D"/>Nie zapraszaj jej do kina<ch a="A"/></row>
-      <row important_over="true"><ch a="C"/>Tylko patrząc prosto w oczy szepnij słowa te<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="C"/>Tylko patrząc prosto w oczy szepnij słowa te<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="h"/>Jestem taki samotny<ch a="G"/></row>
-      <row important_over="true"><ch a="D"/>Jak palec albo pies<ch a="A"/></row>
-      <row important_over="true"><ch a="C"/>Kocham wiersze Stachury<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Jak palec albo pies<ch a="A"/></row>
+      <row important_over="false"><ch a="C"/>Kocham wiersze Stachury<ch a="G"/></row>
       <row important_over="true"><ch a="D"/>I stary dobry jazz</row>
-      <row important_over="true"><ch a="h"/>Szczęścia w życiu nie miałem<ch a="G"/></row>
-      <row important_over="true"><ch a="D"/>Rzucały mnie dziewczyny<ch a="A"/></row>
+      <row important_over="false"><ch a="h"/>Szczęścia w życiu nie miałem<ch a="G"/></row>
+      <row important_over="false"><ch a="D"/>Rzucały mnie dziewczyny<ch a="A"/></row>
       <row important_over="true"><ch a="C"/>Szukam cichego portu</row>
-      <row important_over="true"><ch a="G"/>Gdzie okręt mój zawinie<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Gdzie okręt mój zawinie<ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="D"/>Po tych słowach z miłosierdzia</row>

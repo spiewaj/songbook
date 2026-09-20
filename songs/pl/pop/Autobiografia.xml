@@ -6,11 +6,11 @@
       <row important_over="true">Miałem <ch a="e"/>dziesięć lat, gdy usłyszał o nim świat</row>
       <row important_over="true">W mej piw<ch a="a7"/>nicy był nasz kl<ch a="D"/>ub</row>
       <row important_over="true">Kumpel <ch a="e"/>radio zniósł, usłyszałem &quot;Blue Suede Shoes&quot;</row>
-      <row important_over="true">I nie <ch a="a7"/>mogłem w nocy spać<ch a="D"/> </row>
+      <row important_over="false">I nie <ch a="a7"/>mogłem w nocy spać<ch a="D"/> </row>
     </block>
     <block type="verse">
       <row important_over="true">Wiatr od<ch a="e"/>nowy wiał, darowano reszty kar</row>
-      <row important_over="true">Znów się <ch a="a7"/>można było śmia<ch a="D"/>ć</row>
+      <row important_over="false">Znów się <ch a="a7"/>można było śmia<ch a="D"/>ć</row>
       <row important_over="true">W kawiar<ch a="e"/>niany gwar jak tornado jazz się wdarł</row>
       <row important_over="true">I ja <ch a="a"/>też, chciałem<ch a="e"/> grać </row>
     </block>
@@ -21,9 +21,9 @@
       <row important_over="false">I poznałem co to seks<ch a="a7"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Pocztówkowy szał, każdy z nas ich pięćset miał<ch a="e"/></row>
+      <row important_over="true">Pocztówkowy szał, każdy z nas ich pięćset miał<ch a="e"/></row>
       <row important_over="false">Zamiast nowej pary jeans<ch a="a7"/><ch a="D"/></row>
-      <row important_over="false">A w sobotnią noc był Luksemburg, chata, szkło<ch a="e"/></row>
+      <row important_over="true">A w sobotnią noc był Luksemburg, chata, szkło<ch a="e"/></row>
       <row important_over="false">Jakże się chciało żyć<ch a="a"/><ch a="e"/></row>
     </block>
     <block type="chorus">
@@ -31,20 +31,20 @@
       <row important_over="true">Ale <ch a="G"/>jeden przyświecał nam <ch a="C"/>cel   <ch a="h"/> </row>
       <row important_over="true"><ch a="a"/>Za kilka lat mieć u <ch a="F"/>stóp cały świat</row>
       <row important_over="true"><ch a="C"/>Wszystkiego w bród</row>
-      <row important_over="true"><ch a="C"/>Alpagi łyk i dy<ch a="D"/>skusje po świt</row>
-      <row important_over="true">Niecie<ch a="G"/>rpliwy w nas ciskał się <ch a="C"/>duch  <ch a="h"/> </row>
-      <row important_over="true"><ch a="a"/>Ktoś dostał w nos, to p<ch a="F"/>opłakał się ktoś</row>
+      <row important_over="false"><ch a="C"/>Alpagi łyk i dy<ch a="D"/>skusje po świt</row>
+      <row important_over="false">Niecie<ch a="G"/>rpliwy w nas ciskał się <ch a="C"/>duch  <ch a="h"/> </row>
+      <row important_over="false"><ch a="a"/>Ktoś dostał w nos, to p<ch a="F"/>opłakał się ktoś</row>
       <row important_over="true"><ch a="C"/>Coś działo się </row>
     </block>
     <block type="verse">
       <row important_over="true">Poró<ch a="e"/>żniła nas, za jej Poli Raksy twarz</row>
-      <row important_over="true">Każdy <ch a="a7"/>by się zabić dał<ch a="D"/> </row>
+      <row important_over="false">Każdy <ch a="a7"/>by się zabić dał<ch a="D"/> </row>
       <row important_over="true">W pe<ch a="e"/>wną letnią noc gdzieś na dach wyniosłem koc</row>
-      <row important_over="true">I dos<ch a="a7"/>tałem to, com ch<ch a="D"/>ciał</row>
+      <row important_over="false">I dos<ch a="a7"/>tałem to, com ch<ch a="D"/>ciał</row>
       <row important_over="true">Powi<ch a="e"/>edziała mi, że kłopoty mogą być</row>
-      <row important_over="true">Ja jej<ch a="a7"/>, że egzamin m<ch a="D"/>am</row>
+      <row important_over="false">Ja jej<ch a="a7"/>, że egzamin m<ch a="D"/>am</row>
       <row important_over="true">Odkr<ch a="e"/>ęciła gaz Nie zapukał nikt na czas</row>
-      <row important_over="true">Znów jak <ch a="a"/>pies byłem s<ch a="e"/>am   </row>
+      <row important_over="false">Znów jak <ch a="a"/>pies byłem s<ch a="e"/>am   </row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="C"/>Stu różnych ról, czym <ch a="D"/>ugasić mój ból</row>
