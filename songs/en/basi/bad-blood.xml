@@ -30,14 +30,14 @@
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Did you think we&#039;d be fine?</row>
-      <row important_over="true"><ch a="C"/>Still got scars on my back from your knife</row>
-      <row important_over="true"><ch a="g"/>So don&#039;t think it&#039;s in the past</row>
-      <row important_over="true"><ch a="G"/>These kinda wounds, they last and they last</row>
-      <row important_over="true"><ch a="C"/>Now, did you think it all through?</row>
-      <row important_over="true"><ch a="C"/>All these things will catch up to you</row>
-      <row important_over="true"><ch a="g"/>And time can heal, but this won&#039;t</row>
-      <row important_over="true"><ch a="G"/>So if you&#039;re comin&#039; my way, just don&#039;t</row>
+      <row important_over="false"><ch a="C"/>Did you think we&#039;d be fine?</row>
+      <row important_over="false"><ch a="C"/>Still got scars on my back from your knife</row>
+      <row important_over="false"><ch a="g"/>So don&#039;t think it&#039;s in the past</row>
+      <row important_over="false"><ch a="G"/>These kinda wounds, they last and they last</row>
+      <row important_over="false"><ch a="C"/>Now, did you think it all through?</row>
+      <row important_over="false"><ch a="C"/>All these things will catch up to you</row>
+      <row important_over="false"><ch a="g"/>And time can heal, but this won&#039;t</row>
+      <row important_over="false"><ch a="G"/>So if you&#039;re comin&#039; my way, just don&#039;t</row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="1"/>
@@ -48,25 +48,25 @@
       <row important_over="true"><ch a="G"/>Band-aids don&#039;t fix bullet holes (Hey)</row>
       <row important_over="true"><ch a="C"/>You say sorry just for show (Hey)</row>
       <row important_over="true"><ch a="C"/>If you live like that, you live with ghosts (Hey), mmm</row>
-      <row important_over="true"><ch a="g"/>If you <ch a="G"/>love like that, blood runs cold</row>
+      <row important_over="false"><ch a="g"/>If you <ch a="G"/>love like that, blood runs cold</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
-      <row important_over="true"><ch a="C"/>You know it used to be mad love</row>
-      <row important_over="true"><ch a="g"/>So take a look what you&#039;ve done</row>
-      <row important_over="true"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Bad blood)</row>
-      <row important_over="true"><ch a="C"/>Now we got problems</row>
-      <row important_over="true"><ch a="C"/>And I don&#039;t think we can solve them (Don&#039;t think we can solve them)</row>
-      <row important_over="true"><ch a="g"/>You made a really deep cut</row>
-      <row important_over="true"><ch a="G"/>And, baby, now we got bad blood, hey (&#039;Cause now we got bad blood)</row>
-      <row important_over="true"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
-      <row important_over="true"><ch a="C"/>You know it used to be mad love</row>
-      <row important_over="true"><ch a="g"/>So take a look what you&#039;ve done (Look what you&#039;ve done)</row>
-      <row important_over="true"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Ooh, woah)</row>
-      <row important_over="true"><ch a="C"/>Now we got problems</row>
-      <row important_over="true"><ch a="C"/>And I don&#039;t think we can solve them</row>
-      <row important_over="true"><ch a="g"/>You made a really deep cut</row>
-      <row important_over="true"><ch a="G"/>And, baby, now we got bad blood, hey</row>
+      <row important_over="false"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
+      <row important_over="false"><ch a="C"/>You know it used to be mad love</row>
+      <row important_over="false"><ch a="g"/>So take a look what you&#039;ve done</row>
+      <row important_over="false"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Bad blood)</row>
+      <row important_over="false"><ch a="C"/>Now we got problems</row>
+      <row important_over="false"><ch a="C"/>And I don&#039;t think we can solve them (Don&#039;t think we can solve them)</row>
+      <row important_over="false"><ch a="g"/>You made a really deep cut</row>
+      <row important_over="false"><ch a="G"/>And, baby, now we got bad blood, hey (&#039;Cause now we got bad blood)</row>
+      <row important_over="false"><ch a="C"/>&#039;Cause, baby, now we got bad blood</row>
+      <row important_over="false"><ch a="C"/>You know it used to be mad love</row>
+      <row important_over="false"><ch a="g"/>So take a look what you&#039;ve done (Look what you&#039;ve done)</row>
+      <row important_over="false"><ch a="G"/>&#039;Cause, baby, now we got bad blood, hey (Ooh, woah)</row>
+      <row important_over="false"><ch a="C"/>Now we got problems</row>
+      <row important_over="false"><ch a="C"/>And I don&#039;t think we can solve them</row>
+      <row important_over="false"><ch a="g"/>You made a really deep cut</row>
+      <row important_over="false"><ch a="G"/>And, baby, now we got bad blood, hey</row>
     </block>
   </lyric>
   <keywords/>

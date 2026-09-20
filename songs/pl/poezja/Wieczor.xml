@@ -11,7 +11,7 @@
 		<block type="verse">
 			<row important_over="true">Sp<ch a="D"/>ójrz, odchodzi n<ch a="h7"/>oc,</row>
 			<row important_over="true">Odchodzi t<ch a="e"/>am gdzie r<ch a="G"/>osną m<ch a="A"/>aki.<ch a="A4"/></row>
-			<row important_over="false">M<ch a="h7"/>aków łan i bław<ch a="G"/>atków modry wzór,</row>
+			<row important_over="true">M<ch a="h7"/>aków łan i bław<ch a="G"/>atków modry wzór,</row>
 			<row important_over="false">Modry wz<ch a="e"/>ór na czerw<ch a="G"/>onym dyw<ch a="A"/>anie.<ch a="A4"/></row>
 			<row important_over="false">Posł<ch a="D"/>uchaj, gdzieś daleko ktoś gr<ch a="h7"/>a,</row>
 			<row important_over="false">Zmienia wci<ch a="e"/>ąż r<ch a="G"/>ytm na prz<ch a="A"/>ekór.<ch a="A4"/></row>
@@ -24,7 +24,7 @@
 			<row important_over="true">I zagr<ch a="e"/>ają nam muzyki wsz<ch a="G"/>ystkich dni,</row>
 			<row important_over="true">Wszystkich n<ch a="D"/>ocy otulonych w dobry sen,</row>
 			<row important_over="false">Gdy do t<ch a="e"/>ańca razem znów będzi<ch a="G"/>emy szli,</row>
-			<row important_over="false">A najdł<ch a="D"/>uższy z tańców to jest właśnie ten,</row>
+			<row important_over="true">A najdł<ch a="D"/>uższy z tańców to jest właśnie ten,</row>
 			<row important_over="false">Kiedy gr<ch a="e"/>ają nam muzyki wsz<ch a="G"/>ystkich dni,</row>
 			<row important_over="true">Wszystkich n<ch a="D"/>ocy otulonych w dobry s<ch a="e"/>en.<ch a="G"/><ch a="D"/></row>
 		</block>

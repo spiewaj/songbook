@@ -15,36 +15,36 @@
     <block type="chorus">
       <row important_over="true"><ch a="F"/>Gdy Ogrodowa <ch a="C"/>moczy się </row>
       <row important_over="true"><ch a="G"/>To tak naprawdę <ch a="C"/>nie jest źle </row>
-      <row important_over="true"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
-      <row important_over="true"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
+      <row important_over="false"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
+      <row important_over="false"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
     </block>
     <block type="chorus">
-      <row important_over="never">Tu Leona spotkasz czasem<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Kiedy wypije to zaraz płacze<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Tu żyje jeszcze Sopel Jan<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Był elektrykiem dzisiaj jest sam<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Tu Leona spotkasz czasem<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Kiedy wypije to zaraz płacze<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Tu żyje jeszcze Sopel Jan<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Był elektrykiem dzisiaj jest sam<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Tu asfalt się kończy<ch a="C"/></row>
-      <row important_over="never">A zaczyna noc<ch a="C"/></row>
-      <row important_over="never">Na płocie list gończy<ch a="G"/></row>
-      <row important_over="never">Stracił swoją moc<ch a="C"/></row>
-      <row important_over="never">A termometr w oknie<ch a="C"/></row>
-      <row important_over="never">Męczy się okropnie<ch a="C"/></row>
-      <row important_over="never">I wskazuje plus minus<ch a="G"/></row>
-      <row important_over="never">Może ze trzy stopnie<ch a="C"/></row>
+      <row important_over="false">Tu asfalt się kończy<ch a="C"/></row>
+      <row important_over="false">A zaczyna noc<ch a="C"/></row>
+      <row important_over="false">Na płocie list gończy<ch a="G"/></row>
+      <row important_over="false">Stracił swoją moc<ch a="C"/></row>
+      <row important_over="false">A termometr w oknie<ch a="C"/></row>
+      <row important_over="false">Męczy się okropnie<ch a="C"/></row>
+      <row important_over="false">I wskazuje plus minus<ch a="G"/></row>
+      <row important_over="false">Może ze trzy stopnie<ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">Na Ogrodowej pusto dziś<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Chłopcy do wojska musieli iść<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Kiedyś wrócą na Ogrodową<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Choć może już okrężną drogą<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Na Ogrodowej pusto dziś<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Chłopcy do wojska musieli iść<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Kiedyś wrócą na Ogrodową<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Choć może już okrężną drogą<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">Bo tu zostały ich pierwsze ślady<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">I pierwsza miłość z tamtych lat<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">I te piwonie które tak szalały<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Po ogrodach przez cały czas<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Bo tu zostały ich pierwsze ślady<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">I pierwsza miłość z tamtych lat<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">I te piwonie które tak szalały<ch a="F"/><ch a="C"/></row>
+      <row important_over="false">Po ogrodach przez cały czas<ch a="G"/><ch a="C"/></row>
     </block>
   </lyric>
   <keywords/>

@@ -8,29 +8,29 @@
       <bis times="2">
         <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
       </bis>
-      <row important_over="false"/>
+      <row important_over="never"/>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/> Takie <ch a="D"/>zwykłe, takie <ch a="e"/>małe</row>
       <row important_over="true">Tutaj <ch a="D"/>mają wielką <ch a="e"/>wagę,</row>
-      <row important_over="true">Wykrzyk<ch a="D"/>niki kolo<ch a="e"/>rowe</row>
-      <row important_over="true">Wyglą<ch a="D"/>dają wciąż jak <ch a="e"/>nowe.</row>
+      <row important_over="false">Wykrzyk<ch a="D"/>niki kolo<ch a="e"/>rowe</row>
+      <row important_over="false">Wyglą<ch a="D"/>dają wciąż jak <ch a="e"/>nowe.</row>
     </block>
     <block type="verse">
-      <row important_over="true">Gawęd<ch a="D"/>ziarze, gawęd<ch a="e"/>ziarze</row>
-      <row important_over="true">Odgrze<ch a="D"/>bują stare s<ch a="e"/>prawy</row>
-      <row important_over="true">Przy og<ch a="D"/>nisku i przy <ch a="e"/>kawie</row>
-      <row important_over="true">Niecie<ch a="D"/>kawe i cie<ch a="e"/>kawe.</row>
+      <row important_over="false">Gawęd<ch a="D"/>ziarze, gawęd<ch a="e"/>ziarze</row>
+      <row important_over="false">Odgrze<ch a="D"/>bują stare s<ch a="e"/>prawy</row>
+      <row important_over="false">Przy og<ch a="D"/>nisku i przy <ch a="e"/>kawie</row>
+      <row important_over="false">Niecie<ch a="D"/>kawe i cie<ch a="e"/>kawe.</row>
     </block>
     <block type="chorus">
       <row important_over="true">O tym <ch a="D"/>jak kiedyś w górach</row>
-      <row important_over="true">„Na <ch a="D"/>pomoc” ktoś krz<ch a="e"/>yczał głośno.</row>
+      <row important_over="false">„Na <ch a="D"/>pomoc” ktoś krz<ch a="e"/>yczał głośno.</row>
       <row important_over="true">O tym <ch a="D"/>jak na Mazurach</row>
       <row important_over="true">Ktoś złamał wi<ch a="e"/>osło.</row>
       <row important_over="true">O tym <ch a="G"/>jak patyk trz<ch a="D"/>asnął</row>
       <row important_over="true">Gdy wi<ch a="a"/>atr za mocno dm<ch a="e"/>uchał.</row>
-      <row important_over="true">I chy<ch a="G"/>ba każdy <ch a="D"/>już zasnął</row>
-      <row important_over="true">Ty<ch a="a"/>lko autor <ch a="e"/>słuchał.</row>
+      <row important_over="false">I chy<ch a="G"/>ba każdy <ch a="D"/>już zasnął</row>
+      <row important_over="false">Ty<ch a="a"/>lko autor <ch a="e"/>słuchał.</row>
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">

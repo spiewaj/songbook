@@ -6,7 +6,7 @@
 	<lyric>
 		<block type="other">
 			<bis times="4">
-				<row important_over="false">
+				<row important_over="true">
           <ch a="C"/>
           <ch a="d"/>
           <ch a="G"/>
@@ -26,10 +26,10 @@
 			<row important_over="false">Jakim d<ch a="d"/>otrę do niego szl<ch a="G"/>akiem.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Gór mi m<ch a="C"/>ało i trzeba mi wi<ch a="G"/>ęcej,</row>
+			<row important_over="false">Gór mi m<ch a="C"/>ało i trzeba mi wi<ch a="G"/>ęcej,</row>
 			<row important_over="true">Żeby prz<ch a="a"/>etrwać od zimy do z<ch a="e"/>imy,</row>
 			<row important_over="true">Ktoś mnie sk<ch a="F"/>azał na wieczną wędr<ch a="C"/>ówkę</row>
-			<row important_over="true">Po śl<ch a="d"/>adach, które sam zostaw<ch a="G"/>iłem.</row>
+			<row important_over="false">Po śl<ch a="d"/>adach, które sam zostaw<ch a="G"/>iłem.</row>
 			<row important_over="false">Góry, g<ch a="C"/>óry i ciągle mi ni<ch a="G"/>e dość,</row>
 			<row important_over="false">Skazan<ch a="a"/>emu na gór doż<ch a="e"/>ywocie,</row>
 			<row important_over="false">Świat na d<ch a="F"/>obre mi zbieszcz<ch a="C"/>adział,</row>

@@ -8,12 +8,12 @@
     <block type="verse">
       <row important_over="true">W <ch a="a"/>jesienną głogów <ch a="C"/>czerwień</row>
       <row important_over="true">W złot<ch a="d"/>awą młodość brz<ch a="E"/>ozy</row>
-      <row important_over="true">Wiatr z <ch a="a"/>głowy czapkę <ch a="C"/>zerwie</row>
-      <row important_over="true">Pod <ch a="d"/>stopy gór poł<ch a="E"/>oży</row>
+      <row important_over="false">Wiatr z <ch a="a"/>głowy czapkę <ch a="C"/>zerwie</row>
+      <row important_over="false">Pod <ch a="d"/>stopy gór poł<ch a="E"/>oży</row>
     </block>
     <block type="chorus">
       <row important_over="true">I <ch a="d"/>zbudujemy <ch a="G"/>dom bez <ch a="C"/>strychów i bez <ch a="a"/>piwnic</row>
-      <row important_over="true">Zapł<ch a="d"/>onie lampą <ch a="G"/>klon, zap<ch a="C"/>achem lasów <ch a="a"/>grzybnych</row>
+      <row important_over="false">Zapł<ch a="d"/>onie lampą <ch a="G"/>klon, zap<ch a="C"/>achem lasów <ch a="a"/>grzybnych</row>
       <row important_over="true">Nie <ch a="d"/>trzeba stawiać <ch a="a"/>pieców, nie <ch a="d"/>musisz okien <ch a="a"/>szklić</row>
       <row important_over="true">I <ch a="d"/>zbudujemy <ch a="a"/>dom, bo taki <ch a="E"/>dom musi <ch a="a"/>być</row>
     </block>

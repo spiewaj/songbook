@@ -14,7 +14,7 @@
     </block>
     <block type="chorus">
       <row important_over="true">O, o, M<ch a="G"/>ajk<ch a="e"/>a,<ch a="C"/> nie j<ch a="D"/>estem Ciebie w<ch a="G"/>a<ch a="e"/>rt<ch a="C"/><ch a="D"/></row>
-      <row important_over="true">M<ch a="G"/>ajk<ch a="e"/>a, zmi<ch a="C"/>eniłbym dla Ci<ch a="D"/>ebie cały świ<ch a="G"/>at<ch a="e"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="false">M<ch a="G"/>ajk<ch a="e"/>a, zmi<ch a="C"/>eniłbym dla Ci<ch a="D"/>ebie cały świ<ch a="G"/>at<ch a="e"/><ch a="C"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/> Choć dni mij<ch a="e"/>ają<ch a="C"/> i czas uci<ch a="D"/>eka</row>

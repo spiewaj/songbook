@@ -40,8 +40,8 @@
 				<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
 				<row important_over="false">M<ch a="C"/>oi przyjaciele, bądźcie z<ch a="D"/>awsze ze mną,</row>
 				<row important_over="false">M<ch a="G"/>oi przyjaciele, m<ch a="e"/>oi przyjaciele,</row>
-				<row important_over="false">Z W<ch a="C"/>ami wiem, że wszystko mogę,</row>
-				<row important_over="false">Ż<ch a="D"/>e wystarczy tylko chci<ch a="G"/>eć.</row>
+				<row important_over="true">Z W<ch a="C"/>ami wiem, że wszystko mogę,</row>
+				<row important_over="true">Ż<ch a="D"/>e wystarczy tylko chci<ch a="G"/>eć.</row>
 			</bis>
 		</block>
 	</lyric>

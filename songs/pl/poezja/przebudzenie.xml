@@ -11,16 +11,16 @@
       <bis times="2">
         <row important_over="true">zamkni<ch a="C"/>ęte oczy w ciemn<ch a="e"/>ości,<ch a="F"/></row>
         <row important_over="true"><ch a="G"/>oddech sp<ch a="C"/>okojny, dobry to s<ch a="e"/>en, <ch a="F"/><ch a="G"/></row>
-        <row important_over="true">mię<ch a="C"/>dzy wiersz<ch a="e"/>ami, niczym par<ch a="F"/>ami, </row>
-        <row important_over="true">p<ch a="G"/>rzenika świ<ch a="C"/>atło i ci<ch a="e"/>eń. <ch a="F"/><ch a="G"/></row>
+        <row important_over="false">mię<ch a="C"/>dzy wiersz<ch a="e"/>ami, niczym par<ch a="F"/>ami, </row>
+        <row important_over="false">p<ch a="G"/>rzenika świ<ch a="C"/>atło i ci<ch a="e"/>eń. <ch a="F"/><ch a="G"/></row>
       </bis>
     </block>
     <block type="chorus">
       <bis times="2">
         <row important_over="true">w<ch a="C"/>ybudza mnie z nocy <ch a="e"/>dzień, </row>
         <row important_over="true">t<ch a="F"/>ak subtelnie <ch a="G"/>wita św<ch a="C"/>it, <ch a="e"/><ch a="F"/><ch a="G"/></row>
-        <row important_over="true"><ch a="C"/>w tej wdzięczności wiem, że ż<ch a="e"/>ycie - nie - <ch a="F"/></row>
-        <row important_over="true">n<ch a="G"/>ie prześpię ci<ch a="C"/>ę.<ch a="e"/><ch a="F"/><ch a="G"/></row>
+        <row important_over="false"><ch a="C"/>w tej wdzięczności wiem, że ż<ch a="e"/>ycie - nie - <ch a="F"/></row>
+        <row important_over="false">n<ch a="G"/>ie prześpię ci<ch a="C"/>ę.<ch a="e"/><ch a="F"/><ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">

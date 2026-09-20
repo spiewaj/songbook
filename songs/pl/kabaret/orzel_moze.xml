@@ -20,7 +20,7 @@
       <row important_over="true"><ch a="H"/>Chudzi, grubi,</row>
       <row important_over="true"><ch a="A"/>Starzy, młodzi,</row>
       <row important_over="true"><ch a="E"/>Daj się lubić,</row>
-      <row important_over="true">Co ci szkodzi?</row>
+      <row important_over="never">Co ci szkodzi?</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="E"/>Możesz wracać z biblioteki</row>

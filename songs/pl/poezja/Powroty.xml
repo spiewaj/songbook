@@ -19,7 +19,7 @@
 			<row important_over="true">Muszę wi<ch a="h"/>erzyć, przecież mnie kochasz</row>
 			<row important_over="true">Krótka chw<ch a="G"/>ila i wracasz</row>
 			<row important_over="true">Krótka chw<ch a="A"/>ila i wracasz</row>
-			<row important_over="true">Krótka chw<ch a="G"/>ila i wracasz na m<ch a="D"/>orze</row>
+			<row important_over="false">Krótka chw<ch a="G"/>ila i wracasz na m<ch a="D"/>orze</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">B<ch a="D"/>oję się morza w twoich myślach</row>

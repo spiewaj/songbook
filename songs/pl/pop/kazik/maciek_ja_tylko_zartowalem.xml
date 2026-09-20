@@ -19,31 +19,31 @@
       <row important_over="false"> <ch a="E"/>Maciek ja tylko <ch a="A"/>żartowałem</row>
     </block>
     <block type="verse">
-      <row important_over="never">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
-      <row important_over="never">Nigdy ciebie nie kochałem<ch a="h"/><ch a="fis"/></row>
-      <row important_over="never">Kochałem setki innych facetów<ch a="G"/><ch a="fis"/></row>
-      <row important_over="never">Z tobą to jednak nie to<ch a="E"/><ch a="A"/></row>
+      <row important_over="false">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Nigdy ciebie nie kochałem<ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">Kochałem setki innych facetów<ch a="G"/><ch a="fis"/></row>
+      <row important_over="false">Z tobą to jednak nie to<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Kręci się ziemia wokół słońca<ch a="D"/><ch a="A"/></row>
-      <row important_over="never">Dostać można szału z gorąca<ch a="h"/><ch a="fis"/></row>
-      <row important_over="never">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
-      <row important_over="never">Nigdy z nikim jeszcze nie spałem<ch a="E"/><ch a="A"/></row>
+      <row important_over="false">Kręci się ziemia wokół słońca<ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Dostać można szału z gorąca<ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
+      <row important_over="false">Nigdy z nikim jeszcze nie spałem<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
-      <row important_over="never">Gdy o tym opowiadałem<ch a="h"/><ch a="fis"/></row>
-      <row important_over="never">To wszystko nie ma sensu<ch a="G"/><ch a="fis"/></row>
-      <row important_over="never">Nie ma sensu kupować kredensu<ch a="E"/><ch a="A"/></row>
+      <row important_over="false">Maciek ja tylko żartowałem<ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Gdy o tym opowiadałem<ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">To wszystko nie ma sensu<ch a="G"/><ch a="fis"/></row>
+      <row important_over="false">Nie ma sensu kupować kredensu<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Ciągle słucham głosu twojego<ch a="D"/><ch a="A"/></row>
-      <row important_over="never">Mają Cię za mojego narzeczonego<ch a="h"/><ch a="fis"/></row>
-      <row important_over="never">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
-      <row important_over="never">gdy tobie z sobą iść kazałem<ch a="E"/><ch a="A"/></row>
+      <row important_over="false">Ciągle słucham głosu twojego<ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Mają Cię za mojego narzeczonego<ch a="h"/><ch a="fis"/></row>
+      <row important_over="false">Maciek ja tylko żartowałem<ch a="G"/><ch a="fis"/></row>
+      <row important_over="false">gdy tobie z sobą iść kazałem<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">La, la, la, la ...<ch a="D"/><ch a="A"/><ch a="h"/><ch a="fis"/><ch a="G"/><ch a="fis"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="true">La, la, la, la ...<ch a="D"/><ch a="A"/><ch a="h"/><ch a="fis"/><ch a="G"/><ch a="fis"/><ch a="E"/><ch a="A"/></row>
     </block>
   </lyric>
   <keywords/>

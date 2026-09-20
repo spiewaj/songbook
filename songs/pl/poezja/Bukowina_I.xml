@@ -10,10 +10,10 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a7"/> W Bukowinie g<ch a="d7"/>óry w ni<ch a="e7"/>ebie p<ch a="a7"/>ostrzępionym</row>
-      <row important_over="true"><ch a="a7"/> W Bukowinie r<ch a="d7"/>osną skrz<ch a="e7"/>ydła świ<ch a="a7"/>ętym bukom</row>
+      <row important_over="false"><ch a="a7"/> W Bukowinie r<ch a="d7"/>osną skrz<ch a="e7"/>ydła świ<ch a="a7"/>ętym bukom</row>
       <row important_over="true">Minął dzi<ch a="C7+"/>eń wiatrem z h<ch a="G"/>al<ch a="C7+"/> rozdzwoni<ch a="a7"/>ony</row>
       <row important_over="true">I nie m<ch a="d7"/>ogę zn<ch a="e7"/>aleźć B<ch a="a7"/>ukowiny</row>
-      <row important_over="true"><ch a="d7"/> I nie m<ch a="e7"/>ogę zn<ch a="a7"/>aleźć</row>
+      <row important_over="false"><ch a="d7"/> I nie m<ch a="e7"/>ogę zn<ch a="a7"/>aleźć</row>
       <row important_over="true">Chociaż gwi<ch a="d7"/>azdy mnie pr<ch a="a7"/>owadzą ci<ch a="e7"/>ągle sz<ch a="a7"/>ukam</row>
     </block>
     <block type="verse">

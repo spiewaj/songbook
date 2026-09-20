@@ -30,8 +30,8 @@
 			<bis times="2">
 				<row important_over="false">Uni<ch a="D7"/>osę je przeni<ch a="G"/>osę</row>
 				<row important_over="false"><ch a="G0"/> Jak ramionami gł<ch a="D"/>osem</row>
-				<row important_over="false">W czas dal<ch a="D7"/>eki wysoko</row>
-				<row important_over="false">W obcow<ch a="G"/>anie obłokom</row>
+				<row important_over="true">W czas dal<ch a="D7"/>eki wysoko</row>
+				<row important_over="true">W obcow<ch a="G"/>anie obłokom</row>
 				<row important_over="false">Tak pół mni<ch a="G0"/>e a pół T<ch a="D"/>obie</row>
 			</bis>
 		</block>

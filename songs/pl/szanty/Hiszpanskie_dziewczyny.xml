@@ -9,16 +9,16 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś hiszp<ch a="C"/>ańskie dziewc<ch a="h7"/>zyny</row>
-			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś marz<ch a="G"/>enia ze s<ch a="D"/>nów</row>
-			<row important_over="false">Ku brz<ch a="C"/>egom angi<ch a="D"/>elskim już r<ch a="e"/>uszać nam pora</row>
-			<row important_over="false">Lecz ki<ch a="C"/>edyś na pewno wró<ch a="h7"/>cimy tu z<ch a="e"/>nów</row>
+			<row important_over="true">Żegn<ch a="e"/>ajcie nam dziś hiszp<ch a="C"/>ańskie dziewc<ch a="h7"/>zyny</row>
+			<row important_over="true">Żegn<ch a="e"/>ajcie nam dziś marz<ch a="G"/>enia ze s<ch a="D"/>nów</row>
+			<row important_over="true">Ku brz<ch a="C"/>egom angi<ch a="D"/>elskim już r<ch a="e"/>uszać nam pora</row>
+			<row important_over="true">Lecz ki<ch a="C"/>edyś na pewno wró<ch a="h7"/>cimy tu z<ch a="e"/>nów</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
 			<row important_over="false">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
 			<row important_over="false">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
-			<row important_over="false">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
+			<row important_over="true">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Niedł<ch a="e"/>ugo ujrzymy znów w d<ch a="C"/>ali Cape De<ch a="h7"/>adman</row>

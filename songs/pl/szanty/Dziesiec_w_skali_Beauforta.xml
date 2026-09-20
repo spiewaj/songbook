@@ -5,33 +5,33 @@
   <text_author>Janusz Kondratowicz</text_author>
   <lyric>
     <block type="verse">
-      <row>Kołysał nas zachodni wiatr,<ch a="a"/><ch a="d"/></row>
-      <row>Brzeg gdzieś za rufą został.<ch a="E7"/><ch a="a"/></row>
-      <row>I nagle ktoś, jak papier zbladł -<ch a="d"/><ch a="a"/></row>
-      <row>Sztorm idzie, panie bosman !<ch a="H7"/><ch a="E7"/></row>
+      <row important_over="never">Kołysał nas zachodni wiatr,<ch a="a"/><ch a="d"/></row>
+      <row important_over="never">Brzeg gdzieś za rufą został.<ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">I nagle ktoś, jak papier zbladł -<ch a="d"/><ch a="a"/></row>
+      <row important_over="never">Sztorm idzie, panie bosman !<ch a="H7"/><ch a="E7"/></row>
     </block>
     <block type="chorus">
-      <row>A bosman tylko zapiął płaszcz<ch a="F"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
-      <row>I zaklął - Ech, do czorta !<ch a="F"/><ch a="E7"/><ch a="a"/></row>
-      <row>Nie daję łajbie żadnych szans,<ch a="F"/><ch a="G"/><ch a="C"/><ch a="E7"/><ch a="a"/></row>
-      <row>Dziesięć w skali Beauforta !<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(d E7 a)"/></row>
+      <row important_over="never">A bosman tylko zapiął płaszcz<ch a="F"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never">I zaklął - Ech, do czorta !<ch a="F"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Nie daję łajbie żadnych szans,<ch a="F"/><ch a="G"/><ch a="C"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Dziesięć w skali Beauforta !<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(d E7 a)"/></row>
     </block>
     <block type="verse">
-      <row>Z zasłony ołowianych chmur</row>
-      <row>Ulewa spadła nagle.</row>
-      <row>Rzucało nami w górę, w dół</row>
-      <row>I fala zmyła żagle.</row>
+      <row important_over="never">Z zasłony ołowianych chmur</row>
+      <row important_over="never">Ulewa spadła nagle.</row>
+      <row important_over="never">Rzucało nami w górę, w dół</row>
+      <row important_over="never">I fala zmyła żagle.</row>
     </block>
     <block type="verse">
-      <row>O pokład znów uderzył deszcz</row>
-      <row>I padał już od rana.</row>
-      <row>Diabelnie ciężki to był rejs,</row>
-      <row>Szczególnie dla bosmana.</row>
+      <row important_over="never">O pokład znów uderzył deszcz</row>
+      <row important_over="never">I padał już od rana.</row>
+      <row important_over="never">Diabelnie ciężki to był rejs,</row>
+      <row important_over="never">Szczególnie dla bosmana.</row>
     </block>
     <block type="verse">
-      <row>Prawdziwe czasem sny się ma,</row>
+      <row important_over="never">Prawdziwe czasem sny się ma,</row>
       <bis>
-          <row>Dziesięć w skali Beauforta !</row>
+          <row important_over="never">Dziesięć w skali Beauforta !</row>
       </bis>
     </block>
   </lyric>

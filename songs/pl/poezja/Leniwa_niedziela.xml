@@ -9,15 +9,15 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Jadą <ch a="a"/>auta małe duże</row>
-      <row important_over="false">Roztrą<ch a="d"/>cają w krąg kał<ch a="a"/>uże</row>
-      <row important_over="false">Bo orz<ch a="F"/>ekli w radio sp<ch a="G"/>ece</row>
-      <row important_over="false">Będzie ci<ch a="C"/>epło jak za pi<ch a="C7"/>ecem</row>
+      <row important_over="true">Jadą <ch a="a"/>auta małe duże</row>
+      <row important_over="true">Roztrą<ch a="d"/>cają w krąg kał<ch a="a"/>uże</row>
+      <row important_over="true">Bo orz<ch a="F"/>ekli w radio sp<ch a="G"/>ece</row>
+      <row important_over="true">Będzie ci<ch a="C"/>epło jak za pi<ch a="C7"/>ecem</row>
       <row important_over="false">Nie przekr<ch a="F"/>acza nikt sześćdzi<ch a="G"/>esiąt</row>
-      <row important_over="false">Nie ma t<ch a="C"/>akich co się spi<ch a="d"/>eszą,</row>
-      <row important_over="false">Mają dz<ch a="a"/>iś obywat<ch a="E"/>ele</row>
-      <row important_over="false">Len<ch a="E7"/>iwą niedzi<ch a="a"/>elę</row>
-      <row important_over="false">
+      <row important_over="true">Nie ma t<ch a="C"/>akich co się spi<ch a="d"/>eszą,</row>
+      <row important_over="true">Mają dz<ch a="a"/>iś obywat<ch a="E"/>ele</row>
+      <row important_over="true">Len<ch a="E7"/>iwą niedzi<ch a="a"/>elę</row>
+      <row important_over="true">
         <ch a="d"/>
         <ch a="a"/>
         <ch a="E"/>

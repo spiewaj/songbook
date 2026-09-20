@@ -13,21 +13,21 @@
       <row important_over="true">Przez <ch a="G0"/>mrozy i b<ch a="h"/>iele,</row>
       <row important_over="true">Przez ś<ch a="G"/>nieżyce i z<ch a="fis"/>aspy</row>
       <row important_over="true">I l<ch a="G"/>ute zawi<ch a="A"/>eje</row>
-      <row important_over="true">Przez bezb<ch a="D"/>arwne szpit<ch a="A"/>alne</row>
-      <row important_over="true">K<ch a="G0"/>orytarze st<ch a="h"/>ycznia</row>
-      <row important_over="true">W t<ch a="G"/>ych korytarzach sł<ch a="fis"/>ońce</row>
+      <row important_over="false">Przez bezb<ch a="D"/>arwne szpit<ch a="A"/>alne</row>
+      <row important_over="false">K<ch a="G0"/>orytarze st<ch a="h"/>ycznia</row>
+      <row important_over="false">W t<ch a="G"/>ych korytarzach sł<ch a="fis"/>ońce</row>
       <row important_over="true">G<ch a="G"/>asło ustaw<ch a="A"/>icznie<ch a="D"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true">A teraz m<ch a="D"/>aj dokoła m<ch a="A"/>aj</row>
-        <row important_over="true">Wyświ<ch a="G0"/>ęca ogr<ch a="h"/>ody</row>
-        <row important_over="true">I cały j<ch a="G"/>a i cały j<ch a="fis"/>a</row>
-        <row important_over="true">Zanurz<ch a="G"/>ony w Jordanie pog<ch a="A"/>ody</row>
-        <row important_over="true">A teraz m<ch a="D"/>aj i maj i m<ch a="A"/>aj</row>
-        <row important_over="true">Dok<ch a="G0"/>oła się świ<ch a="h"/>ęci</row>
-        <row important_over="true">Od wonnych b<ch a="G"/>zów szalonych bz<ch a="fis"/>ów</row>
-        <row important_over="true">Wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci…<ch a="D"/></row>
+        <row important_over="false">A teraz m<ch a="D"/>aj dokoła m<ch a="A"/>aj</row>
+        <row important_over="false">Wyświ<ch a="G0"/>ęca ogr<ch a="h"/>ody</row>
+        <row important_over="false">I cały j<ch a="G"/>a i cały j<ch a="fis"/>a</row>
+        <row important_over="false">Zanurz<ch a="G"/>ony w Jordanie pog<ch a="A"/>ody</row>
+        <row important_over="false">A teraz m<ch a="D"/>aj i maj i m<ch a="A"/>aj</row>
+        <row important_over="false">Dok<ch a="G0"/>oła się świ<ch a="h"/>ęci</row>
+        <row important_over="false">Od wonnych b<ch a="G"/>zów szalonych bz<ch a="fis"/>ów</row>
+        <row important_over="false">Wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci…<ch a="D"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -39,7 +39,7 @@
       <row important_over="false">W chłopcu pi<ch a="G0"/>erwszy zachwyt poz<ch a="h"/>naję</row>
       <row important_over="false">Z twoich zi<ch a="G"/>aren wyrosną s<ch a="fis"/>ady</row>
       <row important_over="false">Strudzon<ch a="G"/>emu pielgrzymką <ch a="A"/>ulżyj</row>
-      <row important_over="false">Dodaj wi<ch a="D"/>ary</row>
+      <row important_over="true">Dodaj wi<ch a="D"/>ary</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

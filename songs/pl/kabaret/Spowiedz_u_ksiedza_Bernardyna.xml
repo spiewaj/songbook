@@ -11,7 +11,7 @@
 		<block type="verse">
 			<row important_over="true">R<ch a="a"/>az do księdza b<ch a="d"/>ernardyna</row>
 			<row important_over="true">Jedzie cz<ch a="G"/>arna limuz<ch a="a"/>yna.</row>
-			<row important_over="true">Z ni<ch a="a"/>ej wysiada t<ch a="d"/>en chłopczyna</row>
+			<row important_over="false">Z ni<ch a="a"/>ej wysiada t<ch a="d"/>en chłopczyna</row>
 			<row important_over="true">I tak sp<ch a="E"/>owiedź swą zacz<ch a="a"/>yna:</row>
 		</block>
 		<block type="verse">

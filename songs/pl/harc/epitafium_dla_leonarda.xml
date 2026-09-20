@@ -9,14 +9,14 @@
       <row important_over="true">który <ch a="C"/>dnia pewnego <ch a="G"/>cicho do mnie <ch a="D"/>rzekł</row>
       <row important_over="true">Gdy zach<ch a="C"/>wycisz się dziew<ch a="G"/>czyną</row>
       <row important_over="true">nie pod<ch a="D"/>rywaj jej na <ch a="A"/>kino</row>
-      <row important_over="true">ale <ch a="C"/>patrząc prosto w <ch a="G"/>oczy szepnij <ch a="D"/>słowa te</row>
+      <row important_over="false">ale <ch a="C"/>patrząc prosto w <ch a="G"/>oczy szepnij <ch a="D"/>słowa te</row>
     </block>
     <block type="chorus">
       <row important_over="true">Jestem <ch a="h"/>taki <ch a="G"/>samotny jak <ch a="D"/>palec albo <ch a="A"/>pies</row>
       <row important_over="true">kocham <ch a="C"/>wiersze Sta<ch a="G"/>chury i <ch a="D"/>stary dobry <ch a="D"/>jazz</row>
       <row important_over="true">szczęścia w <ch a="h"/>życiu nie <ch a="G"/>miałem</row>
-      <row important_over="true">rzu<ch a="D"/>cały mnie dziew<ch a="A"/>czyny</row>
-      <row important_over="true">szukam ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt mój za<ch a="D"/>winie</row>
+      <row important_over="false">rzu<ch a="D"/>cały mnie dziew<ch a="A"/>czyny</row>
+      <row important_over="false">szukam ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt mój za<ch a="D"/>winie</row>
     </block>
     <block type="verse">
       <row important_over="false">Po tych <ch a="D"/>słowach z miłosierdzia</row>

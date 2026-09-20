@@ -6,14 +6,14 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>O Panie Boże <ch a="d"/>Ojcze <ch a="a"/>nasz</row>
       <row important_over="true"><ch a="E"/>W opiece <ch a="E7"/>swej nas <ch a="a"/>miej<ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Harcerskich serc Ty <ch a="d"/>drgnienia <ch a="a"/>znasz</row>
-      <row important_over="true"><ch a="E"/>Nam pomóc <ch a="E7"/>zawsze <ch a="a"/>chciej.<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Harcerskich serc Ty <ch a="d"/>drgnienia <ch a="a"/>znasz</row>
+      <row important_over="false"><ch a="E"/>Nam pomóc <ch a="E7"/>zawsze <ch a="a"/>chciej.<ch a="E"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="E"/>Wszak Ciebie i <ch a="a"/>Ojczyznę</row>
       <row important_over="true"><ch a="F"/>Miłując <ch a="C"/>chcemy <ch a="d"/>żyć <ch a="E"/></row>
-      <row important_over="true"><ch a="a"/>Harcerskim prawom <ch a="d"/>w życia <ch a="a"/>dniach</row>
-      <row important_over="true"><ch a="E"/>Wiernymi zawsze <ch a="a"/>być.</row>
+      <row important_over="false"><ch a="a"/>Harcerskim prawom <ch a="d"/>w życia <ch a="a"/>dniach</row>
+      <row important_over="false"><ch a="E"/>Wiernymi zawsze <ch a="a"/>być.</row>
     </block>
     <block type="verse">
       <row important_over="never">O daj nam zdrowie dusz i ciał</row>

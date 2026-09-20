@@ -9,12 +9,12 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Był Szopen,</row>
-			<row important_over="false">zdechł Szopen.</row>
-			<row important_over="false">Fortepian wypadł przez okno,</row>
-			<row important_over="false">ideał sięgnął bruku —</row>
-			<row important_over="false">fajny był,</row>
-			<row important_over="false">szkoda go</row>
+			<row important_over="never">Był Szopen,</row>
+			<row important_over="never">zdechł Szopen.</row>
+			<row important_over="never">Fortepian wypadł przez okno,</row>
+			<row important_over="never">ideał sięgnął bruku —</row>
+			<row important_over="never">fajny był,</row>
+			<row important_over="never">szkoda go</row>
 		</block>
 	</lyric>
 	

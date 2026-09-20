@@ -20,13 +20,13 @@
 			<row important_over="true">zakładn<ch a="C"/>icy lepszej przyszłości</row>
 			<row important_over="true">którym c<ch a="C7"/>i ze szczytu schodów</row>
 			<row important_over="true">ukaz<ch a="a"/>ują się rzadko</row>
-			<row important_over="true">z<ch a="d"/>awsze z p<ch a="E"/>alcem na <ch a="a"/>ustach</row>
+			<row important_over="false">z<ch a="d"/>awsze z p<ch a="E"/>alcem na <ch a="a"/>ustach</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">jest<ch a="a"/>eśmy cierpliwi</row>
-			<row important_over="true">żony n<ch a="d"/>asze cerują niedzi<ch a="a"/>elną koszulę</row>
-			<row important_over="true">rozmawi<ch a="d"/>amy o racjach żywn<ch a="a"/>ości</row>
-			<row important_over="true">o p<ch a="d"/>iłce nożnej c<ch a="a"/>enie butów</row>
+			<row important_over="false">żony n<ch a="d"/>asze cerują niedzi<ch a="a"/>elną koszulę</row>
+			<row important_over="false">rozmawi<ch a="d"/>amy o racjach żywn<ch a="a"/>ości</row>
+			<row important_over="false">o p<ch a="d"/>iłce nożnej c<ch a="a"/>enie butów</row>
 			<row important_over="true"><ch a="d"/>a w sobotę przechyl<ch a="a"/>amy głowę w t<ch a="H7"/>ył</row>
 			<row important_over="true">i pij<ch a="H7"/>emy</row>
 		</block>
@@ -45,10 +45,10 @@
 			<row important_over="true"><ch a="e"/>i zdobędziemy je szturm<ch a="H7"/>em</row>
 			<row important_over="true">b<ch a="e"/>ędą się t<ch a="H7"/>oczyć po sch<ch a="C"/>odach</row>
 			<row important_over="true">gł<ch a="C"/>owy tych kt<ch a="H7"/>órzy stal<ch a="e"/>i na szczycie</row>
-			<row important_over="true">i wr<ch a="e"/>eszcie z<ch a="H7"/>obacz<ch a="e"/>ymy</row>
-			<row important_over="true">co w<ch a="e"/>idać z tych wysok<ch a="H7"/>ości</row>
-			<row important_over="true">j<ch a="e"/>aką prz<ch a="H7"/>yszłość</row>
-			<row important_over="true"><ch a="C"/> j<ch a="H7"/>aką p<ch a="e"/>ustkę</row>
+			<row important_over="false">i wr<ch a="e"/>eszcie z<ch a="H7"/>obacz<ch a="e"/>ymy</row>
+			<row important_over="false">co w<ch a="e"/>idać z tych wysok<ch a="H7"/>ości</row>
+			<row important_over="false">j<ch a="e"/>aką prz<ch a="H7"/>yszłość</row>
+			<row important_over="false"><ch a="C"/> j<ch a="H7"/>aką p<ch a="e"/>ustkę</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">ni<ch a="E"/>e pragniemy widoku</row>
@@ -70,21 +70,21 @@
 			<row important_over="true">-- a t<ch a="C"/>eraz pomówmy</row>
 			<row important_over="true">jak czł<ch a="d"/>owiek z człowiekiem</row>
 			<row important_over="true">to ni<ch a="G"/>e jest prawda co wykrzyk<ch a="C"/>ują af<ch a="E7"/>isze</row>
-			<row important_over="true">pr<ch a="a"/>awdę nosimy w zaciśniętych <ch a="d"/>ustach</row>
-			<row important_over="true">okr<ch a="E7"/>utna jest i nazbyt ci<ch a="a"/>ężka</row>
+			<row important_over="false">pr<ch a="a"/>awdę nosimy w zaciśniętych <ch a="d"/>ustach</row>
+			<row important_over="false">okr<ch a="E7"/>utna jest i nazbyt ci<ch a="a"/>ężka</row>
 			<row important_over="true">więc dźwig<ch a="a"/>amy ją sami</row>
 			<row important_over="true">nie jest<ch a="d"/>eśmy szczęśliwi</row>
 			<row important_over="true">ch<ch a="E7"/>ętnie zostalibyśmy</row>
 			<row important_over="true">t<ch a="a"/>utaj</row>
 		</block>
 		<block type="verse">
-			<row important_over="true">t<ch a="d"/>o są oczywiście marz<ch a="a"/>enia</row>
+			<row important_over="false">t<ch a="d"/>o są oczywiście marz<ch a="a"/>enia</row>
 			<row important_over="true">m<ch a="E7"/>ogą się spełnić</row>
 			<row important_over="true"><ch a="a"/>albo nie spełnić</row>
 			<row important_over="true"><ch a="d"/> więc dalej</row>
 			<row important_over="true">będzi<ch a="a"/>emy uprawiali</row>
 			<row important_over="true">nasz kw<ch a="H7"/>adrat ziemi</row>
-			<row important_over="true">nasz kw<ch a="E7"/>adrat kami<ch a="a"/>enia</row>
+			<row important_over="false">nasz kw<ch a="E7"/>adrat kami<ch a="a"/>enia</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">z l<ch a="d"/>ekką głową</row>

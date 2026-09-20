@@ -9,19 +9,19 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="false">Wczoraj wieczorem rzekł mi pan</row>
-      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
-      <row important_over="false">W kieszeni $ $ może dwa</row>
-      <row important_over="false">W kieszeni $ $ może dwa</row>
-      <row important_over="false">Wypije ze mną i drinka bieda — siostra zła</row>
-      <row important_over="false">Na łbie siwe kłaki i niepewny los</row>
-      <row important_over="false">Na łbie siwe kłaki i niepewny los</row>
-      <row important_over="false">Jak sznur stary dzień kiedy pusty trzos</row>
-      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="false">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
-      <row important_over="false">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="never">Wczoraj wieczorem rzekł mi pan</row>
+      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="never">W kieszeni $ $ może dwa</row>
+      <row important_over="never">W kieszeni $ $ może dwa</row>
+      <row important_over="never">Wypije ze mną i drinka bieda — siostra zła</row>
+      <row important_over="never">Na łbie siwe kłaki i niepewny los</row>
+      <row important_over="never">Na łbie siwe kłaki i niepewny los</row>
+      <row important_over="never">Jak sznur stary dzień kiedy pusty trzos</row>
+      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
+      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
     </block>
   </lyric>
   <music metre="">

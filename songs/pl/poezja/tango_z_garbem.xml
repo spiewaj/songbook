@@ -9,37 +9,37 @@
       <row important_over="true">Łzy kryjąc w kącie z cicha ronione<ch a="g"/><ch a="D7"/><ch a="d"/></row>
       <row important_over="true">C<ch a="A7"/>hyłkiem wsadzała c<ch a="d"/>i do plecaka </row>
       <row important_over="true">Bu<ch a="E7"/>łeczkę z serem i <ch a="A7"/>salcesonem </row>
-      <row important_over="true"><ch a="d"/>Tak wyr<ch a="A7"/>uszałeś na<ch a="d"/> swoje pi<ch a="D7"/>erwsze</row>
-      <row important_over="true"><ch a="g"/>Te wymarzo<ch a="D7"/>ne, wy<ch a="d"/>śnione szlaki</row>
-      <row important_over="true"><ch a="A7"/>Ludziom kroczyłeś <ch a="d"/>ufnie naprzeciw</row>
-      <row important_over="true"><ch a="E7"/>Słysząc za sobą <ch a="A7"/>szydercze takie: </row>
+      <row important_over="false"><ch a="d"/>Tak wyr<ch a="A7"/>uszałeś na<ch a="d"/> swoje pi<ch a="D7"/>erwsze</row>
+      <row important_over="false"><ch a="g"/>Te wymarzo<ch a="D7"/>ne, wy<ch a="d"/>śnione szlaki</row>
+      <row important_over="false"><ch a="A7"/>Ludziom kroczyłeś <ch a="d"/>ufnie naprzeciw</row>
+      <row important_over="false"><ch a="E7"/>Słysząc za sobą <ch a="A7"/>szydercze takie: </row>
     </block>
     <block type="chorus">
       <row important_over="true">To ten wa<ch a="d"/>riat z garbem,<ch a="A7"/> od tego się nie <ch a="d"/>umiera</row>
       <row important_over="true">To ten wa<ch a="D7"/>riat z garbem, co turystyczne spędza cz<ch a="g"/>as</row>
-      <row important_over="true">To ten wa<ch a="A7"/>riat z garbem, który po drogach kurz w<ch a="d"/>yciera</row>
-      <row important_over="true">To ten wa<ch a="E7"/>riat z garbem, który próbuje wstrzymać <ch a="A7"/>wiatr  </row>
+      <row important_over="false">To ten wa<ch a="A7"/>riat z garbem, który po drogach kurz w<ch a="d"/>yciera</row>
+      <row important_over="false">To ten wa<ch a="E7"/>riat z garbem, który próbuje wstrzymać <ch a="A7"/>wiatr  </row>
     </block>
     <block type="verse">
-      <row important_over="never">Potem mijały lata ty ciągle<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="never">szukałeś szczęścia na swoich drogach<ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="never">Struną dzwoniące, dymem przyćmione<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Buty zmieniane na swoich drogach<ch a="E7"/><ch a="A7"/></row>
-      <row important_over="never">Nic nie mówiłeś widząc na niebie<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="never">Ptaków wędrownych tajemne znaki <ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="never">Potem wracałeś niby do siebie<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">I znów słyszałeś szydercze takie: <ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">Potem mijały lata ty ciągle<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
+      <row important_over="false">szukałeś szczęścia na swoich drogach<ch a="g"/><ch a="D7"/><ch a="d"/></row>
+      <row important_over="false">Struną dzwoniące, dymem przyćmione<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Buty zmieniane na swoich drogach<ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">Nic nie mówiłeś widząc na niebie<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
+      <row important_over="false">Ptaków wędrownych tajemne znaki <ch a="g"/><ch a="D7"/><ch a="d"/></row>
+      <row important_over="false">Potem wracałeś niby do siebie<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">I znów słyszałeś szydercze takie: <ch a="E7"/><ch a="A7"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Teraz stateczny ojciec rodziny<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="never">Samochód, żona, dzieci, M4 <ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="never">Brydż u znajomych i imieniny<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Spacer w niedzielę, trochę opery<ch a="E7"/><ch a="A7"/></row>
-      <row important_over="never">Czasem za oknem widzisz jak idą<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="never">Dźwigając swoje wielkie plecaki<ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="never">Chciałbyś dołączyć, stanąć w szeregu <ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">I znów usłyszeć szydercze takie: <ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">Teraz stateczny ojciec rodziny<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
+      <row important_over="false">Samochód, żona, dzieci, M4 <ch a="g"/><ch a="D7"/><ch a="d"/></row>
+      <row important_over="false">Brydż u znajomych i imieniny<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Spacer w niedzielę, trochę opery<ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">Czasem za oknem widzisz jak idą<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
+      <row important_over="false">Dźwigając swoje wielkie plecaki<ch a="g"/><ch a="D7"/><ch a="d"/></row>
+      <row important_over="false">Chciałbyś dołączyć, stanąć w szeregu <ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">I znów usłyszeć szydercze takie: <ch a="E7"/><ch a="A7"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

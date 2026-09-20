@@ -15,10 +15,10 @@
 			<row important_over="true">O ave C<ch a="E"/>aesar, morit<ch a="H7"/>uri te salut<ch a="E"/>ant!<ch a="A"/><ch a="E"/><ch a="H"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">N<ch a="E"/>ad Europą twardy krok legionów grz<ch a="H"/>mi</row>
-			<row important_over="true">Ni<ch a="fis"/>eunikniony wróży koniec republ<ch a="Gis"/>iki</row>
-			<row important_over="true">Gn<ch a="cis"/>iją wzgórza galijskie w pomieszanej krw<ch a="A"/>i</row>
-			<row important_over="true">A Juliusz C<ch a="E"/>ezar pisze sw<ch a="H7"/>oje pamiętnik<ch a="E"/>i<ch a="A"/><ch a="E"/><ch a="H"/></row>
+			<row important_over="false">N<ch a="E"/>ad Europą twardy krok legionów grz<ch a="H"/>mi</row>
+			<row important_over="false">Ni<ch a="fis"/>eunikniony wróży koniec republ<ch a="Gis"/>iki</row>
+			<row important_over="false">Gn<ch a="cis"/>iją wzgórza galijskie w pomieszanej krw<ch a="A"/>i</row>
+			<row important_over="false">A Juliusz C<ch a="E"/>ezar pisze sw<ch a="H7"/>oje pamiętnik<ch a="E"/>i<ch a="A"/><ch a="E"/><ch a="H"/></row>
 		</block>
 		<blocklink blocknb="1"/>
 		<block type="verse">

@@ -10,16 +10,16 @@
 			<row important_over="true"><ch a="A"/> Dokąd pędzisz w stal odziany?</row>
 			<row important_over="true"><ch a="C"/> Pewnie tam, gdzie błyszczą w dali</row>
 			<row important_over="true"><ch a="D"/> Jeruzalem białe ściany.</row>
-			<row important_over="false"><ch a="e"/> Pewnie myślisz, że w świątyni</row>
-			<row important_over="false"><ch a="A"/> Zniewolony Pan twój czeka,</row>
-			<row important_over="false"><ch a="C"/> Żebyś przyszedł go ocalić,</row>
-			<row important_over="false"><ch a="D"/> Żebyś przybył doń z daleka.</row>
+			<row important_over="true"><ch a="e"/> Pewnie myślisz, że w świątyni</row>
+			<row important_over="true"><ch a="A"/> Zniewolony Pan twój czeka,</row>
+			<row important_over="true"><ch a="C"/> Żebyś przyszedł go ocalić,</row>
+			<row important_over="true"><ch a="D"/> Żebyś przybył doń z daleka.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">N<ch a="e"/>a na na</row>
-			<row important_over="false">Na na na na n<ch a="A"/>a na na na</row>
-			<row important_over="false">Na na na na n<ch a="C"/>a na na na</row>
-			<row important_over="false">Na na na na n<ch a="D"/>a na na na na na na na</row>
+			<row important_over="true">N<ch a="e"/>a na na</row>
+			<row important_over="true">Na na na na n<ch a="A"/>a na na na</row>
+			<row important_over="true">Na na na na n<ch a="C"/>a na na na</row>
+			<row important_over="true">Na na na na n<ch a="D"/>a na na na na na na na</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>

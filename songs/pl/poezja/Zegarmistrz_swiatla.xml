@@ -12,7 +12,7 @@
       <row important_over="true"><ch a="a"/> A kiedy przyjdzie także p<ch a="G"/>o mnie</row>
       <row important_over="true"><ch a="D"/> Zegamistrz światła purpur<ch a="a"/>owy</row>
       <row important_over="true"><ch a="C"/> By mi zabełtać błękit w gł<ch a="G"/>owie</row>
-      <row important_over="true"><ch a="D"/> To będę jasny i got<ch a="a"/>owy</row>
+      <row important_over="false"><ch a="D"/> To będę jasny i got<ch a="a"/>owy</row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="a"/> Spłyną przeze mnie dni na prz<ch a="G"/>estrzał</row>

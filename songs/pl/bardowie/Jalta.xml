@@ -19,17 +19,17 @@
 			<row important_over="false">Z kal<ch a="D"/>ekim demokr<ch a="A"/>atą w tl<ch a="D"/>e</row>
 			<row important_over="true">L<ch a="A"/>ecz nikt nie widzi <ch a="Fis7"/>i nie sł<ch a="h"/>yszy</row>
 			<row important_over="true">C<ch a="G"/>o robi G<ch a="D"/>óral w kr<ch a="A"/>ymską n<ch a="D"/>oc</row>
-			<row important_over="true">Gd<ch a="A"/>y gestem w wiernych t<ch a="Fis7"/>owarz<ch a="h"/>yszy</row>
-			<row important_over="true">Wp<ch a="G"/>aja sw<ch a="D"/>ą legend<ch a="A"/>arną m<ch a="D"/>oc</row>
+			<row important_over="false">Gd<ch a="A"/>y gestem w wiernych t<ch a="Fis7"/>owarz<ch a="h"/>yszy</row>
+			<row important_over="false">Wp<ch a="G"/>aja sw<ch a="D"/>ą legend<ch a="A"/>arną m<ch a="D"/>oc</row>
 		</block>
 		<block type="other">
-			<row important_over="false">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Stal<ch a="d"/>ina</row>
+			<row important_over="true">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Stal<ch a="d"/>ina</row>
 			<row important_over="false">Nie <ch a="d"/>on się za tym ws<ch a="C"/>zystkim k<ch a="d"/>rył</row>
 			<row important_over="false">Prz<ch a="d"/>ecież to nie jest j<ch a="C"/>ego w<ch a="d"/>ina</row>
 			<row important_over="false">Że Ro<ch a="d"/>osevelt w Jałcie ni<ch a="C"/>e miał s<ch a="d"/>ił</row>
 			<row important_over="false">Gd<ch a="d"/>y się triumwirat wsp<ch a="C"/>ólnie br<ch a="d"/>ał</row>
 			<row important_over="false">Za świ<ch a="d"/>ata histor<ch a="C"/>yczne kszt<ch a="d"/>ałty</row>
-			<row important_over="false">Wiad<ch a="d"/>omo kt<ch a="C"/>o Cez<ch a="d"/>ara gr<ch a="C"/>ał</row>
+			<row important_over="true">Wiad<ch a="d"/>omo kt<ch a="C"/>o Cez<ch a="d"/>ara gr<ch a="C"/>ał</row>
 			<row important_over="false">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę</row>
 		</block>
 		<block type="verse">
@@ -41,7 +41,7 @@
 			<row important_over="false">Żeby gdzieś w końcu mogli żyć<ch a="D"/><ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Z tą Polską zawsze są kłopoty<ch a="D"/><ch a="G"/><ch a="D"/></row>
 			<row important_over="false">Kaleka troszczy się i drży<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Lecz uspokaja ich gospodarz<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
+			<row important_over="true">Lecz uspokaja ich gospodarz<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
 			<row important_over="false">Pożółkły dłonią głaszcząc wąs<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Mój kraj pomocną dłoń im poda<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
 			<row important_over="false">Potem niech rządzą się jak chcą<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>

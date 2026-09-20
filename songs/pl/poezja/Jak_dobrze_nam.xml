@@ -26,23 +26,23 @@
 
 			<row important_over="true">Prężnymi st<ch a="a"/>opy d<ch a="A7"/>eptać chm<ch a="d"/>ury</row>
 
-			<row important_over="true">I palce r<ch a="E7"/>anić o szczyt T<ch a="a"/>atr.</row>
+			<row important_over="false">I palce r<ch a="E7"/>anić o szczyt T<ch a="a"/>atr.</row>
 
 		</block>
 
 		<block type="chorus">
 
-			<row important_over="true">Mieć w uszach sz<ch a="a"/>um, strumieni śpi<ch a="d"/>ew,</row>
+			<row important_over="false">Mieć w uszach sz<ch a="a"/>um, strumieni śpi<ch a="d"/>ew,</row>
 
-			<row important_over="true">A w żyłach r<ch a="E7"/>ozognioną kr<ch a="a"/>ew,</row>
+			<row important_over="false">A w żyłach r<ch a="E7"/>ozognioną kr<ch a="a"/>ew,</row>
 
 			<row important_over="true">Hejże h<ch a="a"/>ej, hejże h<ch a="E"/>a,</row>
 
 			<row important_over="true">Żyjmy wi<ch a="d"/>ęc póki cz<ch a="a"/>as,</row>
 
-			<row important_over="true">Bo kto wi<ch a="a"/>e, b<ch a="A7"/>o kto wi<ch a="d"/>e,</row>
+			<row important_over="false">Bo kto wi<ch a="a"/>e, b<ch a="A7"/>o kto wi<ch a="d"/>e,</row>
 
-			<row important_over="true">Kiedy zn<ch a="E7"/>owu ujrzę W<ch a="a"/>as.</row>
+			<row important_over="false">Kiedy zn<ch a="E7"/>owu ujrzę W<ch a="a"/>as.</row>
 
 		</block>
 
@@ -54,7 +54,7 @@
 
 			<row important_over="false">Patrzeć jak gwi<ch a="a"/>azdy ni<ch a="A7"/>ebo zł<ch a="d"/>ocą</row>
 
-			<row important_over="false">I czekać, c<ch a="E"/>o przyniesie l<ch a="a"/>os.</row>
+			<row important_over="true">I czekać, c<ch a="E"/>o przyniesie l<ch a="a"/>os.</row>
 
 		</block>
 

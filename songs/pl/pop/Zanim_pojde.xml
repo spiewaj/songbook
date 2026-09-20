@@ -5,23 +5,23 @@
   <lyric>
     <block type="verse">
       <row important_over="true">Ile j<ch a="a"/>este<ch a="d"/>m ci <ch a="e"/>winien</row>
-      <row important_over="true">Ile policz<ch a="a"/>yłaś mi <ch a="d"/>za swą p<ch a="e"/>rzyjaźń</row>
-      <row important_over="true">Ale kiedy wsz<ch a="a"/>ystko już od<ch a="d"/>dam <ch a="e"/>czy</row>
+      <row important_over="false">Ile policz<ch a="a"/>yłaś mi <ch a="d"/>za swą p<ch a="e"/>rzyjaźń</row>
+      <row important_over="false">Ale kiedy wsz<ch a="a"/>ystko już od<ch a="d"/>dam <ch a="e"/>czy</row>
       <bis times="2">
-        <row important_over="true">Będziesz szczę<ch a="a"/>śliwa i <ch a="d"/>wolna c<ch a="e"/>zy </row>
+        <row important_over="false">Będziesz szczę<ch a="a"/>śliwa i <ch a="d"/>wolna c<ch a="e"/>zy </row>
       </bis>
     </block>
     <block type="chorus">
-      <row important_over="true">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
-      <row important_over="true">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
+      <row important_over="false">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
+      <row important_over="false">Ale zanim pój<ch a="a"/>dę...<ch a="d"/><ch a="e"/></row>
       <row important_over="true">Ale zanim pój<ch a="a"/>dę...</row>
       <row important_over="true"><ch a="d"/>chciałbym p<ch a="e"/>owiedzieć ci że</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Miłość to nie plu<ch a="d"/>szowy <ch a="e"/>miś ani <ch a="a"/>kwiaty</row>
+      <row important_over="true"><ch a="a"/>Miłość to nie plu<ch a="d"/>szowy <ch a="e"/>miś ani <ch a="a"/>kwiaty</row>
       <row important_over="false">To też nie d<ch a="d"/>iabeł r<ch a="e"/>ogaty</row>
-      <row important_over="false">Ani <ch a="a"/>miłość kiedy j<ch a="d"/>edno p<ch a="G"/>łacze</row>
-      <row important_over="false">A <ch a="C"/>drugie po nim <ch a="F"/>skacze</row>
+      <row important_over="true">Ani <ch a="a"/>miłość kiedy j<ch a="d"/>edno p<ch a="G"/>łacze</row>
+      <row important_over="true">A <ch a="C"/>drugie po nim <ch a="F"/>skacze</row>
       <row important_over="false">Bo <ch a="a"/>miłość to żaden <ch a="d"/>film w żadnym <ch a="e"/>kinie</row>
       <row important_over="false">Ani <ch a="a"/>róże ani ca<ch a="d"/>łusy małe <ch a="e"/>duże</row>
       <row important_over="false">Ale <ch a="a"/>miłość, kiedy j<ch a="d"/>edno spada w<ch a="G"/> dół</row>

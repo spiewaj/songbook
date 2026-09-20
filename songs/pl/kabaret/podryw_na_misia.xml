@@ -3,7 +3,7 @@
   <artist type="band">Artur Andrus</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false">intro:</row>
+      <row important_over="never">intro:</row>
       <row important_over="false" style="instr"> <ch a="A"/><ch a="Cis"/><ch a="D"/><ch a="h"/><ch a="E"/><ch a="A6"/></row>
     </block>
     <block type="verse">
@@ -59,17 +59,17 @@
       <row important_over="false"><ch a="A"/>Niech się <ch a="Fis7"/>pani <ch a="h7"/>misia nie <ch a="E7"/>boi,</row>
       <row important_over="false">Niech się <ch a="h7"/>pani <ch a="A"/>misia nie lęka,</row>
       <row important_over="false"><ch a="A7"/>Do we<ch a="Gis7"/>sela się <ch a="G7"/>misio za<ch a="Fis7"/>goi…</row>
-      <row important_over="false"><ch a="E"/> I w związku z tym, że taka fajna piosenka</row>
-      <row important_over="false">to jeszcze raz:</row>
+      <row important_over="true"><ch a="E"/> I w związku z tym, że taka fajna piosenka</row>
+      <row important_over="never">to jeszcze raz:</row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="A"/>Niech się <ch a="Fis7"/>pani <ch a="h7"/>misia nie <ch a="E7"/>boi,</row>
       <row important_over="false">Niech się <ch a="h7"/>pani <ch a="A"/>misia nie lęka,</row>
       <row important_over="false"><ch a="A7"/>Do we<ch a="Gis7"/>sela się <ch a="G7"/>misio za<ch a="Fis7"/>goi…</row>
-      <row important_over="false"><ch a="E"/> I mimo, że taka fajna piosenka, trzeba kończyć; kończę:</row>
+      <row important_over="true"><ch a="E"/> I mimo, że taka fajna piosenka, trzeba kończyć; kończę:</row>
     </block>
     <block type="other">
-      <row important_over="false"><ch a="A"/>na na na <ch a="D"/>na na na na <ch a="E"/>na na na na na <ch a="A"/>na</row>
+      <row important_over="true"><ch a="A"/>na na na <ch a="D"/>na na na na <ch a="E"/>na na na na na <ch a="A"/>na</row>
     </block>
   </lyric>
   <keywords/>

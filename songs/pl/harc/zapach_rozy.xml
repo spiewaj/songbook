@@ -4,14 +4,14 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Wiem dobrze, <ch a="F"/>co czujesz, <ch a="C"/>te moj<ch a="G"/>e nastroje</row>
       <row important_over="true"><ch a="a"/>Szybka zmiana <ch a="F"/>zdania, <ch a="d"/>zamknięte <ch a="G"/>pokoje</row>
-      <row important_over="true"><ch a="a"/>Może to zab<ch a="F"/>awne, ale <ch a="C"/>ja n<ch a="G"/>ie żartuję</row>
-      <row important_over="true"><ch a="a"/>Chcę być spraw<ch a="F"/>iedliwym, p<ch a="d"/>rzecież ja też <ch a="G"/>czuję</row>
+      <row important_over="false"><ch a="a"/>Może to zab<ch a="F"/>awne, ale <ch a="C"/>ja n<ch a="G"/>ie żartuję</row>
+      <row important_over="false"><ch a="a"/>Chcę być spraw<ch a="F"/>iedliwym, p<ch a="d"/>rzecież ja też <ch a="G"/>czuję</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="a"/>Też jestem cz<ch a="F"/>łowiekiem, t<ch a="C"/>eż serc<ch a="G"/>e posiadam</row>
-      <row important_over="true"><ch a="a"/>Także innych k<ch a="F"/>ocham, t<ch a="d"/>akże innyc<ch a="G"/>h zdradzam</row>
-      <row important_over="true"><ch a="a"/>Też mnie <ch a="F"/>nienawidzą, <ch a="C"/>kochaj<ch a="G"/>ą niektórzy</row>
-      <row important_over="true"><ch a="a"/>Też prawie jak, <ch a="F"/>każdy <ch a="d"/>lubię zapach <ch a="G"/>róży</row>
+      <row important_over="false"><ch a="a"/>Też jestem cz<ch a="F"/>łowiekiem, t<ch a="C"/>eż serc<ch a="G"/>e posiadam</row>
+      <row important_over="false"><ch a="a"/>Także innych k<ch a="F"/>ocham, t<ch a="d"/>akże innyc<ch a="G"/>h zdradzam</row>
+      <row important_over="false"><ch a="a"/>Też mnie <ch a="F"/>nienawidzą, <ch a="C"/>kochaj<ch a="G"/>ą niektórzy</row>
+      <row important_over="false"><ch a="a"/>Też prawie jak, <ch a="F"/>każdy <ch a="d"/>lubię zapach <ch a="G"/>róży</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Też jestem s<ch a="F"/>amotny, c<ch a="C"/>zuję z<ch a="G"/>apomnienie</row>

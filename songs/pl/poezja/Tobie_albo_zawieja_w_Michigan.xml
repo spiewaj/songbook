@@ -29,18 +29,18 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false">Zawieja w Michigan</row>
-      <row important_over="false">Zapada serce w śnieg</row>
-      <row important_over="false">Pustkowie ciągnie się</row>
-      <row important_over="false">Wysepki żadnej, drzew</row>
-      <row important_over="false">Ni domu, z domu gest</row>
-      <row important_over="false">Wejdź, wejdź, wejdź, wejdź, wejdź</row>
-      <row important_over="false">Pustkowie hen i hen</row>
-      <row important_over="false">Zawieja mróz i biel</row>
-      <row important_over="false">Zawyłem aż po kres</row>
-      <row important_over="false">Czy spodziewać się, że…</row>
-      <row important_over="false">A wicher w trąbki dmie</row>
-      <row important_over="false">Nie nie nie nie nie</row>
+      <row important_over="never">Zawieja w Michigan</row>
+      <row important_over="never">Zapada serce w śnieg</row>
+      <row important_over="never">Pustkowie ciągnie się</row>
+      <row important_over="never">Wysepki żadnej, drzew</row>
+      <row important_over="never">Ni domu, z domu gest</row>
+      <row important_over="never">Wejdź, wejdź, wejdź, wejdź, wejdź</row>
+      <row important_over="never">Pustkowie hen i hen</row>
+      <row important_over="never">Zawieja mróz i biel</row>
+      <row important_over="never">Zawyłem aż po kres</row>
+      <row important_over="never">Czy spodziewać się, że…</row>
+      <row important_over="never">A wicher w trąbki dmie</row>
+      <row important_over="never">Nie nie nie nie nie</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">
@@ -63,12 +63,12 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false">Miłości nasze tam</row>
-      <row important_over="false">Są tam, gdzie nie ma nas</row>
-      <row important_over="false">U Boga w środku gwiazd</row>
-      <row important_over="false">Pokochał też bym brak</row>
-      <row important_over="false">I cały słałbym blask</row>
-      <row important_over="false">W dal, w dal, w dal, w dal, w dal</row>
+      <row important_over="never">Miłości nasze tam</row>
+      <row important_over="never">Są tam, gdzie nie ma nas</row>
+      <row important_over="never">U Boga w środku gwiazd</row>
+      <row important_over="never">Pokochał też bym brak</row>
+      <row important_over="never">I cały słałbym blask</row>
+      <row important_over="never">W dal, w dal, w dal, w dal, w dal</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">

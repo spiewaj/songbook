@@ -13,11 +13,11 @@
     <block type="verse">
       <row important_over="true"><ch a="G"/> Olewam rząd, mandaty dro<ch a="D"/>gowe,</row>
       <row important_over="true">Di<ch a="C"/>lerów, maklerów, warty honorowe.</row>
-      <row important_over="true">I <ch a="G"/>jeszcze wąsacza olewam na <ch a="D"/>zdrowie,</row>
+      <row important_over="false">I <ch a="G"/>jeszcze wąsacza olewam na <ch a="D"/>zdrowie,</row>
       <row important_over="true">Pry<ch a="C"/>masa w lampasach, komuchy nie lubię.</row>
-      <row important_over="true"><ch a="G"/> Tylko na tobie naprawdę mi za<ch a="D"/>leży,</row>
+      <row important_over="false"><ch a="G"/> Tylko na tobie naprawdę mi za<ch a="D"/>leży,</row>
       <row important_over="true"><ch a="C"/> Tylko Ciebie naprawdę potrzebuję.</row>
-      <row important_over="true">I <ch a="G"/>kiedy znikasz, kiedy Ciebie <ch a="D"/>nie ma,</row>
+      <row important_over="false">I <ch a="G"/>kiedy znikasz, kiedy Ciebie <ch a="D"/>nie ma,</row>
       <row important_over="true">W po<ch a="C"/>wietrzu czuję, czegoś mi brakuje.</row>
     </block>
     <block type="other">
@@ -35,7 +35,7 @@
       <row important_over="false">Po<ch a="C"/>czuć coś, poczuć coś, coś Ci dać!</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
+      <row important_over="true"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
       <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>mądry - I <ch a="C"/>love you, I love you, I love you.</row>
       <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>dobry - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
       <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you.</row>

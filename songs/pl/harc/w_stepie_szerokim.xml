@@ -11,10 +11,10 @@
       <row important_over="false" style="instr"> <ch a="c"/><ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="c"/>W stepie szerokim, <ch a="Dis"/>którego <ch a="F"/>okiem</row>
-      <row important_over="false"><ch a="c"/>Nawet sokolim nie <ch a="Dis"/>zmie<ch a="G"/>rzysz,</row>
-      <row important_over="false"><ch a="c"/>Wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
-      <row important_over="false"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>rzu.</row>
+      <row important_over="true"><ch a="c"/>W stepie szerokim, <ch a="Dis"/>którego <ch a="F"/>okiem</row>
+      <row important_over="true"><ch a="c"/>Nawet sokolim nie <ch a="Dis"/>zmie<ch a="G"/>rzysz,</row>
+      <row important_over="true"><ch a="c"/>Wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
+      <row important_over="true"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>rzu.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="c"/><ch a="F"/></row>
@@ -32,7 +32,7 @@
       <row important_over="false"><ch a="c"/>Ty, któryś w boju, <ch a="Dis"/>i ty, coś w <ch a="F"/>znoju,</row>
       <row important_over="false"><ch a="c"/>I ty, co liczysz i <ch a="Dis"/>mie<ch a="G"/>rzysz,</row>
       <row important_over="false"><ch a="c"/>Wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
-      <row important_over="false"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>r<ch a="C"/>zu.</row>
+      <row important_over="true"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>r<ch a="C"/>zu.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="D"/></row>

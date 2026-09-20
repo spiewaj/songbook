@@ -6,12 +6,12 @@
     <block type="verse">
       <row important_over="true">W d<ch a="a"/>ąbrowy g<ch a="E"/>ęstym list<ch a="a"/>owi<ch a="G"/>u</row>
       <row important_over="true">Bł<ch a="F"/>yska ziel<ch a="E"/>ona skr<ch a="a"/>a<ch a="E"/></row>
-      <row important_over="true">Trz<ch a="a"/>epoce z wi<ch a="E"/>atrem jak pł<ch a="a"/>omi<ch a="G"/>eń</row>
+      <row important_over="false">Trz<ch a="a"/>epoce z wi<ch a="E"/>atrem jak pł<ch a="a"/>omi<ch a="G"/>eń</row>
       <row important_over="true">M<ch a="F"/>undur harc<ch a="G"/>erski n<ch a="C"/>a<ch a="G7"/>sz</row>
       <row important_over="true">Cz<ch a="C"/>apka trosz<ch a="G7"/>eczkę na b<ch a="C"/>aki<ch a="G7"/>er</row>
       <row important_over="true">D<ch a="C"/>usza rog<ch a="G7"/>ata w n<ch a="a"/>i<ch a="E"/>ej</row>
-      <row important_over="true">Wi<ch a="a"/>atr polny w <ch a="E"/>uszach i kwi<ch a="a"/>at<ch a="G"/>y</row>
-      <row important_over="true">W p<ch a="F"/>achnących wł<ch a="E"/>osach drz<ch a="a"/>ew<ch a="E"/></row>
+      <row important_over="false">Wi<ch a="a"/>atr polny w <ch a="E"/>uszach i kwi<ch a="a"/>at<ch a="G"/>y</row>
+      <row important_over="false">W p<ch a="F"/>achnących wł<ch a="E"/>osach drz<ch a="a"/>ew<ch a="E"/></row>
     </block>
     <block type="verse">
       <row important_over="false">T<ch a="a"/>am gdzie się k<ch a="E"/>ończy hor<ch a="a"/>yz<ch a="G"/>ont</row>

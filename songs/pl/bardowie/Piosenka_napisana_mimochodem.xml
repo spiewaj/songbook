@@ -15,7 +15,7 @@
 			<row important_over="false">Temu gł<ch a="a"/>owę wzniesie, t<ch a="e7"/>emu napnie szn<ch a="a"/>ur.</row>
 			<row important_over="true">Trochę st<ch a="C"/>arsze znów się st<ch a="F"/>anie to, co mł<ch a="C"/>ode,<ch a="d"/></row>
 			<row important_over="true">Jakby strz<ch a="C"/>epnął ptak kol<ch a="d"/>ejną kroplę z pi<ch a="e"/>ór —</row>
-			<row important_over="true">Mimoch<ch a="a"/>od<ch a="d"/>em, mimoch<ch a="a"/>od<ch a="d"/>em,</row>
+			<row important_over="false">Mimoch<ch a="a"/>od<ch a="d"/>em, mimoch<ch a="a"/>od<ch a="d"/>em,</row>
 			<row important_over="true">Jakby strz<ch a="a"/>epnął kr<ch a="e"/>oplę z pi<ch a="a"/>ór.</row>
 		</block>
 		<block type="verse">
@@ -26,15 +26,15 @@
 			<row important_over="false">Słowo wp<ch a="C"/>ada w morze sł<ch a="F"/>ów, jak kamień w w<ch a="C"/>odę,<ch a="d"/></row>
 			<row important_over="false">Krążek m<ch a="C"/>yśli pozost<ch a="d"/>awi, brnąc na dn<ch a="e"/>o —</row>
 			<row important_over="false">Mimoch<ch a="a"/>od<ch a="d"/>em, mimoch<ch a="a"/>od<ch a="d"/>em,</row>
-			<row important_over="false">Krążek m<ch a="a"/>yśli, brn<ch a="e"/>ąc na dn<ch a="a"/>o.<ch a="g"/></row>
+			<row important_over="true">Krążek m<ch a="a"/>yśli, brn<ch a="e"/>ąc na dn<ch a="a"/>o.<ch a="g"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Cierpi s<ch a="d"/>yty, niepoj<ch a="g"/>ętym zdjęty gł<ch a="d"/>odem,<ch a="g"/></row>
-			<row important_over="false">Zgłodniał<ch a="d"/>ego — mimoch<ch a="a"/>odem syci zł<ch a="d"/>ość.</row>
+			<row important_over="true">Cierpi s<ch a="d"/>yty, niepoj<ch a="g"/>ętym zdjęty gł<ch a="d"/>odem,<ch a="g"/></row>
+			<row important_over="true">Zgłodniał<ch a="d"/>ego — mimoch<ch a="a"/>odem syci zł<ch a="d"/>ość.</row>
 			<row important_over="false">Temu — m<ch a="d"/>ostu przęsło, t<ch a="g"/>emu - dom z ogr<ch a="d"/>odem,<ch a="g"/></row>
 			<row important_over="false">Komuś <ch a="d"/>o coś chodzi, z<ch a="a"/>a kimś — chodzi c<ch a="d"/>oś:</row>
-			<row important_over="false">Na strac<ch a="F"/>enie, na poż<ch a="B"/>ytek i na szk<ch a="F"/>odę,<ch a="g"/></row>
-			<row important_over="false">Jak złośl<ch a="F"/>iwie między ps<ch a="g"/>y rzucona k<ch a="a"/>ość —</row>
+			<row important_over="true">Na strac<ch a="F"/>enie, na poż<ch a="B"/>ytek i na szk<ch a="F"/>odę,<ch a="g"/></row>
+			<row important_over="true">Jak złośl<ch a="F"/>iwie między ps<ch a="g"/>y rzucona k<ch a="a"/>ość —</row>
 			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em, mimoch<ch a="d"/>od<ch a="g"/>em,</row>
 			<row important_over="false">Między ps<ch a="d"/>y rzuc<ch a="a"/>ona k<ch a="d"/>ość.</row>
 		</block>
@@ -56,7 +56,7 @@
 			<row important_over="false">Chwila świ<ch a="F"/>atła między wsch<ch a="B"/>odem a zach<ch a="F"/>odem,<ch a="g"/></row>
 			<row important_over="false">Wobec kt<ch a="F"/>órej trudno t<ch a="g"/>ak po prostu prz<ch a="a"/>ejść</row>
 			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em, mimoch<ch a="d"/>od<ch a="g"/>em,</row>
-			<row important_over="false">Trudno t<ch a="d"/>ak po p<ch a="d"/>r<ch a="a"/>ostu przejść.</row>
+			<row important_over="true">Trudno t<ch a="d"/>ak po p<ch a="d"/>r<ch a="a"/>ostu przejść.</row>
 			<row important_over="false">Mimoch<ch a="d"/>od<ch a="g"/>em… Mimoch<ch a="d"/>od<ch a="g"/>em —</row>
 			<row important_over="false">Miasto chm<ch a="d"/>ur, chw<ch a="a"/>ile szcz<ch a="d"/>ęść.</row>
 		</block>

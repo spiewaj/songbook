@@ -11,19 +11,19 @@
 		<block type="verse">
 			<row important_over="true">
 				<ch a="G"/>Dawno minął cz<ch a="e"/>as r<ch a="C"/>esocjaliz<ch a="D"/>acji</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Choć na spacer ci<ch a="e"/>ągle w<ch a="C"/>yjść nie możesz s<ch a="D"/>am</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Mógłbyś jeszcze cz<ch a="e"/>asem d<ch a="C"/>ostać palpit<ch a="D"/>acji</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Lecz pamiętaj <ch a="e"/>o tym l<ch a="C"/>ekarz to twój br<ch a="D"/>at</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>I znowu ci wł<ch a="e"/>ożą k<ch a="C"/>aftanik przez gł<ch a="D"/>owę</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>I znowu kar<ch a="e"/>etka powi<ch a="C"/>ezie cię w d<ch a="D"/>al</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Psychiatra ob<ch a="e"/>ejrzy post<ch a="C"/>awi diagn<ch a="D"/>ozę</row>
-			<row important_over="true">
+			<row important_over="false">
 				<ch a="G"/>Pasami do ł<ch a="e"/>óżka przyc<ch a="C"/>isną t<ch a="D"/>ak</row>
 		</block>
 		<block type="chorus">
@@ -71,8 +71,8 @@
 		</block>
 <block 	type="chorus">		
 <bis times="2">
-				<row important_over="true">
-					<ch a="G"/>Ac<ch a="e"/>h.<ch a="C"/>.. Jak d<ch a="D"/>obrze z<ch a="G"/>nó<ch a="e"/>w <ch a="C"/> biał<ch a="D"/>y k<ch a="G"/>aftanik mi<ch a="e"/>eć <ch a="C"/></row> <row important_over="true">I l<ch a="D"/>eczyć si<ch a="G"/>ę, leczyć si<ch a="e"/>ę, leczyć si<ch a="C"/>ę, na m<ch a="D"/>ózg</row>
+				<row important_over="false">
+					<ch a="G"/>Ac<ch a="e"/>h.<ch a="C"/>.. Jak d<ch a="D"/>obrze z<ch a="G"/>nó<ch a="e"/>w <ch a="C"/> biał<ch a="D"/>y k<ch a="G"/>aftanik mi<ch a="e"/>eć <ch a="C"/></row> <row important_over="false">I l<ch a="D"/>eczyć si<ch a="G"/>ę, leczyć si<ch a="e"/>ę, leczyć si<ch a="C"/>ę, na m<ch a="D"/>ózg</row>
 			</bis>
 </block>
 	</lyric>

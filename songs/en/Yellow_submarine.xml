@@ -3,41 +3,41 @@
   <artist>The Beatles</artist>
   <lyric>
     <block type="verse">
-      <row><ch a="G"/>In the to<ch a="D"/>wn where I<ch a="C"/> was born<ch a="G"/></row>
-      <row>Li<ch a="e"/>ved a man w<ch a="a"/>ho sa<ch a="Cmaj7"/>iled the sea.<ch a="D"/></row>
-      <row>And he told us of his life</row>
-      <row>In the land of submarines.</row>
+      <row important_over="true"><ch a="G"/>In the to<ch a="D"/>wn where I<ch a="C"/> was born<ch a="G"/></row>
+      <row important_over="true">Li<ch a="e"/>ved a man w<ch a="a"/>ho sa<ch a="Cmaj7"/>iled the sea.<ch a="D"/></row>
+      <row important_over="never">And he told us of his life</row>
+      <row important_over="never">In the land of submarines.</row>
     </block>
     <block type="verse">
-      <row>So we sailed up to the sun</row>
-      <row>Till we found the sea of green,</row>
-      <row>And we lived beneath the waves</row>
-      <row>In our yellow submarine.</row>
+      <row important_over="never">So we sailed up to the sun</row>
+      <row important_over="never">Till we found the sea of green,</row>
+      <row important_over="never">And we lived beneath the waves</row>
+      <row important_over="never">In our yellow submarine.</row>
     </block>
     <block type="chorus">
-      <row>W<ch a="G"/>e all live in a yellow s<ch a="D"/>ubmarine,</row>
+      <row important_over="true">W<ch a="G"/>e all live in a yellow s<ch a="D"/>ubmarine,</row>
     </block>
     <block type="chorus">
-      <row>Yellow submarine, yellow submarine.  / 2x</row>
+      <row important_over="never">Yellow submarine, yellow submarine.  / 2x</row>
     </block>
     <block type="verse">
-      <row>And our friends are all on board,</row>
-      <row>Many more of them live next door,</row>
-      <row>And the band begins to play:</row>
+      <row important_over="never">And our friends are all on board,</row>
+      <row important_over="never">Many more of them live next door,</row>
+      <row important_over="never">And the band begins to play:</row>
     </block>
     <block type="chorus">
-      <row>We all live in yellow submarine,</row>
-      <row>Yellow submarine, yellow submarine.  / 2x</row>
+      <row important_over="never">We all live in yellow submarine,</row>
+      <row important_over="never">Yellow submarine, yellow submarine.  / 2x</row>
     </block>
     <block type="verse">
-      <row>As we live a life of ease,</row>
-      <row>Every one of us has all we need,</row>
-      <row>Sky of blue and sea of green</row>
-      <row>In our yellow submarine.</row>
+      <row important_over="never">As we live a life of ease,</row>
+      <row important_over="never">Every one of us has all we need,</row>
+      <row important_over="never">Sky of blue and sea of green</row>
+      <row important_over="never">In our yellow submarine.</row>
     </block>
     <block type="chorus">
-      <row>We all live in a yellow submarine,</row>
-      <row>Yellow submarine, yellow submarine.  / 2x</row>
+      <row important_over="never">We all live in a yellow submarine,</row>
+      <row important_over="never">Yellow submarine, yellow submarine.  / 2x</row>
     </block>
   </lyric>
 </song>

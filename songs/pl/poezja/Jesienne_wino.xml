@@ -23,14 +23,14 @@
       <row important_over="false">T<ch a="e"/>yle tej jesi<ch a="G"/>eni</row>
       <row important_over="false">J<ch a="D"/>eszcze jest przed n<ch a="G"/>ami</row>
       <row important_over="false"><ch a="a"/> Zdążysz wrócić do d<ch a="G"/>omu</row>
-      <row important_over="false">Nim n<ch a="D"/>oc zawita n<ch a="C"/>ad drog<ch a="a7"/>ami, h<ch a="e"/>ej!<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="true">Nim n<ch a="D"/>oc zawita n<ch a="C"/>ad drog<ch a="a7"/>ami, h<ch a="e"/>ej!<ch a="D"/><ch a="e"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/> Słońce st<ch a="D"/>ało w zenicie<ch a="e"/>, bił południowy ż<ch a="D"/>ar</row>
       <row important_over="false"><ch a="e"/> A w gardle k<ch a="D"/>urz przebytych dr<ch a="G"/>óg</row>
       <row important_over="false"><ch a="a"/>Co tam spocznę chw<ch a="G"/>ilę prz<ch a="D"/>ecież nie zaszk<ch a="e"/>odzi</row>
-      <row important_over="false">D<ch a="D"/>o przejścia ni<ch a="C"/>edaleką j<ch a="e"/>eszcze drogę m<ch a="D"/>am</row>
-      <row important_over="false">A ona k<ch a="e"/>usi<ch a="D"/></row>
+      <row important_over="true">D<ch a="D"/>o przejścia ni<ch a="C"/>edaleką j<ch a="e"/>eszcze drogę m<ch a="D"/>am</row>
+      <row important_over="true">A ona k<ch a="e"/>usi<ch a="D"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">

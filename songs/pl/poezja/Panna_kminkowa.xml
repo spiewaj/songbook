@@ -12,26 +12,26 @@
     <block type="verse">
       <row important_over="true" sidechords="G DG"><ch a="G"/>Obróciła się <ch a="D"/>wiosna na <ch a="G"/>pięcie</row>
       <row important_over="true" sidechords="C GD"><ch a="C"/>Wyminęła się <ch a="G"/>z latem we <ch a="D"/>drzwiach</row>
-      <row important_over="true" sidechords="G DG"><ch a="G"/>Wpatrywałaś się <ch a="D"/>w okno <ch a="G"/>zawzięcie</row>
+      <row important_over="false" sidechords="G DG"><ch a="G"/>Wpatrywałaś się <ch a="D"/>w okno <ch a="G"/>zawzięcie</row>
       <row important_over="true" sidechords="CG DG (H7)"><ch a="C"/>Może <ch a="G"/>wyjdzie <ch a="D"/>kominarz <ch a="G"/>na dach<ch a="H7"/></row>
       <row important_over="true" sidechords="e H7e"><ch a="e"/>Potem jechał gdzieś <ch a="H7"/>pociąg <ch a="e"/>spóźniony</row>
       <row important_over="true" sidechords="CC7+ aD"><ch a="C"/>Ktoś trzy <ch a="C7+"/>asy wył<ch a="a"/>ożył na <ch a="D"/>stół</row>
       <row important_over="true" sidechords="G CG"><ch a="G"/>A ty kwiaty <ch a="C"/>wkładałaś <ch a="G"/>w wazony</row>
       <row important_over="true"><ch a="C"/>I słyszałaś <ch a="D"/>z daleka stuk kół</row>
-      <row important_over="true" sidechords="G DG"><ch a="G"/>A tymczasem <ch a="D"/>rozgościł się <ch a="G"/>lipiec</row>
-      <row important_over="true" sidechords="C GD"><ch a="C"/>Na wesele <ch a="G"/>zaprosił <ch a="D"/>ze stu</row>
-      <row important_over="true" sidechords="e H7e"><ch a="e"/>Pasikonik <ch a="H7"/>pożyczył mu <ch a="e"/>skrzypiec</row>
-      <row important_over="true"><ch a="C"/>I w tym graniu tak <ch a="D"/>biegłaś bez tchu</row>
+      <row important_over="false" sidechords="G DG"><ch a="G"/>A tymczasem <ch a="D"/>rozgościł się <ch a="G"/>lipiec</row>
+      <row important_over="false" sidechords="C GD"><ch a="C"/>Na wesele <ch a="G"/>zaprosił <ch a="D"/>ze stu</row>
+      <row important_over="false" sidechords="e H7e"><ch a="e"/>Pasikonik <ch a="H7"/>pożyczył mu <ch a="e"/>skrzypiec</row>
+      <row important_over="false"><ch a="C"/>I w tym graniu tak <ch a="D"/>biegłaś bez tchu</row>
     </block>
     <block type="chorus">
       <row important_over="true" sidechords="G (D) e (D)"><ch a="G"/>Panno kminkowa<ch a="D"/>,  <ch a="e"/>panno lipcowa<ch a="D"/></row>
       <row important_over="true"><ch a="G"/>Twoje są łąki twoje skowronki <ch a="D"/>wszystkich łąk</row>
       <row important_over="true" sidechords="e (CD) G C"><ch a="e"/>Idziesz polami <ch a="C"/><ch a="D"/><ch a="G"/>w palcach łodyżkę <ch a="C"/>masz</row>
       <row important_over="true" sidechords="G D G (CD)"><ch a="G"/>I gryziesz kminek <ch a="D"/>czarny przecinek <ch a="G"/>nasz <ch a="C"/><ch a="D"/></row>
-      <row important_over="true" sidechords="G (D) e (D)"><ch a="G"/>Panna kminkowa<ch a="D"/>,  <ch a="e"/>panna lipcowa<ch a="D"/></row>
-      <row important_over="true"><ch a="G"/>Śmiać się gotowa letnia królowa <ch a="D"/>kwietnych łąk</row>
-      <row important_over="true" sidechords="e (CD) G C"><ch a="e"/>Idzie polami <ch a="C"/><ch a="D"/><ch a="G"/>w palcach łodyżkę <ch a="C"/>ma</row>
-      <row important_over="true" sidechords="G D G (CD)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia  <ch a="C"/><ch a="D"/></row>
+      <row important_over="false" sidechords="G (D) e (D)"><ch a="G"/>Panna kminkowa<ch a="D"/>,  <ch a="e"/>panna lipcowa<ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Śmiać się gotowa letnia królowa <ch a="D"/>kwietnych łąk</row>
+      <row important_over="false" sidechords="e (CD) G C"><ch a="e"/>Idzie polami <ch a="C"/><ch a="D"/><ch a="G"/>w palcach łodyżkę <ch a="C"/>ma</row>
+      <row important_over="false" sidechords="G D G (CD)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia  <ch a="C"/><ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false" sidechords="G DG"><ch a="G"/>Noce śniły <ch a="D"/>budziły się <ch a="G"/>ranki</row>
@@ -56,7 +56,7 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false" sidechords="G D G (CD G)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia <ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="true" sidechords="G D G (CD G)"><ch a="G"/>I gryzie kminek <ch a="D"/>czarny przecinek <ch a="G"/>dnia <ch a="C"/><ch a="D"/><ch a="G"/></row>
     </block>
   </lyric>
   <music>

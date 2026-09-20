@@ -13,9 +13,9 @@
 			<row important_over="true">
 				<ch a="G"/>Upić się cz<ch a="C"/>asem zdarzy</row>
 			<row important_over="true"><ch a="a"/> Gdzie wiatr jak w<ch a="d"/>inem z morza<ch a="G"/> jodem dmi<ch a="d"/>e</row>
-			<row important_over="true"><ch a="C"/> Gdzie wierzba n<ch a="d"/>ad strumykiem</row>
-			<row important_over="true"><ch a="G"/> Rozgrzane chł<ch a="C"/>odząc stopy</row>
-			<row important_over="true"><ch a="a"/> Północ bez tr<ch a="d"/>udu dojrzy<ch a="G"/> w ładny dzi<ch a="d"/>eń</row>
+			<row important_over="false"><ch a="C"/> Gdzie wierzba n<ch a="d"/>ad strumykiem</row>
+			<row important_over="false"><ch a="G"/> Rozgrzane chł<ch a="C"/>odząc stopy</row>
+			<row important_over="false"><ch a="a"/> Północ bez tr<ch a="d"/>udu dojrzy<ch a="G"/> w ładny dzi<ch a="d"/>eń</row>
 			<row important_over="true"><ch a="C"/> Rzeźbiarz zam<ch a="a"/>orski sławny</row>
 			<row important_over="true"><ch a="d"/> Przemierzał ki<ch a="G"/>edyś lata</row>
 			<row important_over="true"><ch a="C"/> Wilgotnych b<ch a="a"/>utów znaczył każdy kr<ch a="d"/>ok<ch a="G"/></row>
@@ -26,8 +26,8 @@
 			<row important_over="true"><ch a="C"/> W najpiękniejszym sp<ch a="G"/>ośród luster</row>
 			<row important_over="true"><ch a="a"/> Zanurzyłem dzb<ch a="e"/>any puste</row>
 			<row important_over="true"><ch a="F"/> Zanim słońce c<ch a="C"/>icho wzeszło na pog<ch a="e"/>odę</row>
-			<row important_over="true"><ch a="d"/> Dzbany młodość d<ch a="G"/>opijały</row>
-			<row important_over="true"><ch a="C"/> W świat odbity świ<ch a="a"/>at wspaniały</row>
+			<row important_over="false"><ch a="d"/> Dzbany młodość d<ch a="G"/>opijały</row>
+			<row important_over="false"><ch a="C"/> W świat odbity świ<ch a="a"/>at wspaniały</row>
 			<row important_over="true"><ch a="d"/> Wrysowałem sw<ch a="G"/>e odbicie mł<ch a="a"/>ode</row>
 		</block>
 		<block type="verse">

@@ -8,7 +8,7 @@
       <row important_over="true"><ch a="G"/>Było miło, minę<ch a="D"/>ło</row>
       <row important_over="true">Było miło, <ch a="e"/>minęło, minęło</row>
       <row important_over="true"><ch a="C"/>Było, minęło</row>
-      <row important_over="true"><ch a="G"/>Było miło, minę<ch a="D"/>ło</row>
+      <row important_over="false"><ch a="G"/>Było miło, minę<ch a="D"/>ło</row>
       <row important_over="true">Było miło, <ch a="e"/>minęło, minęło</row>
     </block>
     <block type="verse">
@@ -18,9 +18,9 @@
       <row important_over="false" style="instr"> <ch a="e"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Mimo <ch a="a"/>tylu wraż<ch a="G"/>eń i <ch a="D"/>wielkich marzeń</row>
+      <row important_over="true"><ch a="e"/>Mimo <ch a="a"/>tylu wraż<ch a="G"/>eń i <ch a="D"/>wielkich marzeń</row>
       <row important_over="false"><ch a="e"/>Mogę <ch a="a"/>wiele z siebie <ch a="G"/>dać</row>
-      <row important_over="false">By <ch a="h"/>odejść znów</row>
+      <row important_over="true">By <ch a="h"/>odejść znów</row>
       <row important_over="false" style="instr"> <ch a="e"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="chorus">
@@ -29,16 +29,16 @@
       <row important_over="true"><ch a="C"/>Gdy mnie <ch a="e"/>nie odnaj<ch a="D"/>dziesz</row>
       <row important_over="true">Tak <ch a="a"/>będzie łatwiej</row>
       <row important_over="true"><ch a="C"/>Więc o<ch a="e"/>dejdę stąd nad <ch a="G"/>ranem, <ch a="a"/>snem zostanę</row>
-      <row important_over="true"><ch a="C"/>Wiem, że <ch a="e"/>będzie łat<ch a="D"/>wiej</row>
-      <row important_over="true">Będzie łatwiej <ch a="C"/>  <ch a="e"/>  <ch a="D"/> </row>
+      <row important_over="false"><ch a="C"/>Wiem, że <ch a="e"/>będzie łat<ch a="D"/>wiej</row>
+      <row important_over="false">Będzie łatwiej <ch a="C"/>  <ch a="e"/>  <ch a="D"/> </row>
       <row important_over="true"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem   <ch a="e"/>  <ch a="D"/> </row>
     </block>
     <block type="verse">
-      <row important_over="true">Po <ch a="e"/>trochu <ch a="a"/>zbieram w całość <ch a="G"/>siebie</row>
-      <row important_over="true">I <ch a="D"/>już nie pytam <ch a="e"/>Ciebie <ch a="a"/>jak się czuj<ch a="G"/>esz</row>
+      <row important_over="false">Po <ch a="e"/>trochu <ch a="a"/>zbieram w całość <ch a="G"/>siebie</row>
+      <row important_over="false">I <ch a="D"/>już nie pytam <ch a="e"/>Ciebie <ch a="a"/>jak się czuj<ch a="G"/>esz</row>
       <row important_over="true">Mój <ch a="h"/>świat wiruje</row>
-      <row important_over="true"><ch a="e"/>Mimo <ch a="a"/>tylu nadziei <ch a="G"/>wiem, że trzeba <ch a="D"/>było to zmienić</row>
-      <row important_over="true"><ch a="e"/>Mogę dziś <ch a="a"/>dać niemał<ch a="G"/>o</row>
+      <row important_over="false"><ch a="e"/>Mimo <ch a="a"/>tylu nadziei <ch a="G"/>wiem, że trzeba <ch a="D"/>było to zmienić</row>
+      <row important_over="false"><ch a="e"/>Mogę dziś <ch a="a"/>dać niemał<ch a="G"/>o</row>
       <row important_over="true">By <ch a="h"/>tak zostało  <ch a="e"/>  <ch a="C"/>  <ch a="e"/>  <ch a="D"/> </row>
     </block>
     <blocklink blocknb="4"/>
@@ -47,7 +47,7 @@
     <blocklink blocknb="1"/>
     <block type="other">
       <row important_over="false"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="D"/> </row>
-      <row important_over="false"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="G"/> </row>
+      <row important_over="true"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="G"/> </row>
     </block>
   </lyric>
   <keywords/>

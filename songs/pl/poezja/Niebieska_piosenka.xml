@@ -11,11 +11,11 @@
 		<block type="verse">
 			<row important_over="true"><ch a="G"/> Kto wstawi si<ch a="D"/>ę za nami<ch a="e"/> u Pana c<ch a="h"/>o drogami</row>
 			<row important_over="true"><ch a="C"/> Kręt<ch a="G"/>ymi<ch a="A7"/> każe <ch a="D"/>iść</row>
-			<row important_over="true"><ch a="G"/> Kto nas uspr<ch a="D"/>awiedliwi<ch a="e"/> gdy Pan się b<ch a="h"/>ędzie dziwił</row>
+			<row important_over="false"><ch a="G"/> Kto nas uspr<ch a="D"/>awiedliwi<ch a="e"/> gdy Pan się b<ch a="h"/>ędzie dziwił</row>
 			<row important_over="true"><ch a="C"/> Że t<ch a="G"/>o już<ch a="F7"/> właśnie m<ch a="E"/>y</row>
 			<row important_over="true">Ja wst<ch a="a"/>awię się za T<ch a="a7"/>obą i z p<ch a="D"/>odniesioną głową</row>
 			<row important_over="true"><ch a="G"/> Dziękować b<ch a="D"/>ędę ż<ch a="e"/>e<ch a="E7"/></row>
-			<row important_over="true">Pan d<ch a="a"/>ał mi właśnie Ci<ch a="a7"/>ebie w rad<ch a="D"/>ości i w potrzebie</row>
+			<row important_over="false">Pan d<ch a="a"/>ał mi właśnie Ci<ch a="a7"/>ebie w rad<ch a="D"/>ości i w potrzebie</row>
 			<row important_over="true"><ch a="G"/> Na lepsze <ch a="D"/>i na zł<ch a="e"/>e<ch a="A7"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
@@ -33,10 +33,10 @@
 			<row important_over="false"><ch a="C"/> Do w<ch a="G"/>alca<ch a="A7"/> zaczną gr<ch a="D"/>ać</row>
 			<row important_over="false"><ch a="G"/> Ja wtedy z pi<ch a="D"/>erwszym taktem<ch a="e"/> poproszę Ci<ch a="h"/>ę i raptem</row>
 			<row important_over="true">Zaczni<ch a="C"/>emy wir<ch a="G"/>ować, wolni<ch a="F"/>utko walc<ch a="E"/>ować</row>
-			<row important_over="true">I kr<ch a="a"/>ęcąc się kr<ch a="a7"/>ęcić na p<ch a="D"/>alcach na pięcie</row>
-			<row important_over="true">Trosz<ch a="a"/>eczkę bezm<ch a="a7"/>yślnie jak wi<ch a="D"/>osną przebiśnieg</row>
+			<row important_over="false">I kr<ch a="a"/>ęcąc się kr<ch a="a7"/>ęcić na p<ch a="D"/>alcach na pięcie</row>
+			<row important_over="false">Trosz<ch a="a"/>eczkę bezm<ch a="a7"/>yślnie jak wi<ch a="D"/>osną przebiśnieg</row>
 			<row important_over="true">Ty ni<ch a="G"/>eco szal<ch a="D"/>ona, cóż ż<ch a="F"/>ona to ż<ch a="E"/>ona</row>
-			<row important_over="true">I w m<ch a="a"/>ojej twa r<ch a="a7"/>ęka niebi<ch a="D"/>eska piosenka</row>
+			<row important_over="false">I w m<ch a="a"/>ojej twa r<ch a="a7"/>ęka niebi<ch a="D"/>eska piosenka</row>
 			<row important_over="true">Za s<ch a="a"/>erca nas chw<ch a="a7"/>yta niebi<ch a="D"/>eska muz<ch a="G"/>yka</row>
 		</block>
 	</lyric>

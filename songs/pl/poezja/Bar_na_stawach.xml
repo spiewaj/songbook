@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -18,13 +18,13 @@
 				<ch a="F9/6"/>Jeszcze się w nocy kołysze m<ch a="C9/5"/>iasto</row>
 			<row important_over="true">
 				<ch a="G"/>8,15 na stawach bar</row>
-			<row important_over="true">Bramę otw<ch a="F9/6"/>iera wchodzimy <ch a="C9/5"/>tedy</row>
+			<row important_over="false">Bramę otw<ch a="F9/6"/>iera wchodzimy <ch a="C9/5"/>tedy</row>
 			<row important_over="true">
 				<ch a="G"/>Ja i Hnatowicz Jan</row>
 		</block>
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">

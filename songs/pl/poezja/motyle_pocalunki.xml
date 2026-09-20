@@ -14,14 +14,14 @@
 			<row important_over="false"><ch a="cis"/> Co noc wpatr<ch a="E"/>ywać si<ch a="H6/7"/>ę w Twoje <ch a="H"/>oczy</row>
 			<row important_over="true"><ch a="cis"/> Aż wreszcie rumi<ch a="E"/>eniec zn<ch a="H6/7"/>iknie z Twoich l<ch a="H"/>ic<ch a="cis"/>..<ch a="E"/>.<ch a="H6/7"/>
 				<ch a="H"/></row>
-			<row important_over="true">Z Twoich l<ch a="cis"/>ic, z Twoich l<ch a="E"/>ic, z Twoich l<ch a="H6/7"/>ic, z Tw<ch a="H"/>oich.</row>
+			<row important_over="false">Z Twoich l<ch a="cis"/>ic, z Twoich l<ch a="E"/>ic, z Twoich l<ch a="H6/7"/>ic, z Tw<ch a="H"/>oich.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="E"/> Choćby ż<ch a="F"/>ycie miało trw<ch a="Gis"/>ać tylko chw<ch a="A"/>ilę,</row>
 			<row important_over="true"><ch a="H"/> Zaraz p<ch a="Cis"/>otem prz<ch a="Gis"/>yszła śmi<ch a="A"/>erć.</row>
 			<row important_over="false"><ch a="E"/> Jak mal<ch a="F"/>eńkie kolor<ch a="Gis"/>owe mot<ch a="A"/>yle</row>
 			<row important_over="true"><ch a="H"/> Będziemy wir<ch a="Cis"/>ować, nim prz<ch a="Gis"/>yjdzie</row>
-			<row important_over="true">jego kr<ch a="cis"/>es, jego kr<ch a="E"/>es, jego kr<ch a="H6/7"/>es, j<ch a="H"/>ego kr<ch a="cis"/>es<ch a="E"/>.<ch a="H6/7"/><ch a="H"/></row>
+			<row important_over="false">jego kr<ch a="cis"/>es, jego kr<ch a="E"/>es, jego kr<ch a="H6/7"/>es, j<ch a="H"/>ego kr<ch a="cis"/>es<ch a="E"/>.<ch a="H6/7"/><ch a="H"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="cis"/> Tak bliscy s<ch a="E"/>obie w j<ch a="H6/7"/>ednym odd<ch a="H"/>echu,</row>

@@ -5,20 +5,20 @@
     <block type="verse">
       <row important_over="true"><ch a="d"/>Biegłaś zboczem, brą<ch a="g"/>zowo-zielona,</row>
       <row important_over="true"><ch a="C"/>Miedzią słońca i <ch a="F"/>trawy zie<ch a="A7"/>lenią,</row>
-      <row important_over="true"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
+      <row important_over="false"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
       <row important_over="true"><ch a="A"/>Twoje włosy <ch a="A7"/>targał górski <ch a="d"/>wiatr</row>
     </block>
     <block type="verse">
-      <row important_over="never">Zanurzyłaś swe dłonie w potoku,<ch a="d"/><ch a="g"/></row>
-      <row important_over="never">Który głazy w poszumie omijał,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
-      <row important_over="never">Burza kropel w srebrzystej pogoni<ch a="d"/><ch a="g"/></row>
-      <row important_over="never">Obraz Twój porwała szybko w dal<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Zanurzyłaś swe dłonie w potoku,<ch a="d"/><ch a="g"/></row>
+      <row important_over="false">Który głazy w poszumie omijał,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
+      <row important_over="false">Burza kropel w srebrzystej pogoni<ch a="d"/><ch a="g"/></row>
+      <row important_over="false">Obraz Twój porwała szybko w dal<ch a="A"/><ch a="A7"/><ch a="d"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I wracałaś do góry powoli<ch a="d"/><ch a="g"/></row>
-      <row important_over="never">Zielonością i brązem strzelista,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
-      <row important_over="never">Gdy Cię wchłaniał cień lasu znajomy,<ch a="d"/><ch a="g"/></row>
-      <row important_over="never">Znów Twe włosy, sosno, targał wiatr<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">I wracałaś do góry powoli<ch a="d"/><ch a="g"/></row>
+      <row important_over="false">Zielonością i brązem strzelista,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
+      <row important_over="false">Gdy Cię wchłaniał cień lasu znajomy,<ch a="d"/><ch a="g"/></row>
+      <row important_over="false">Znów Twe włosy, sosno, targał wiatr<ch a="A"/><ch a="A7"/><ch a="d"/></row>
     </block>
     <block type="verse">
       <row important_over="false" style="instr"> <ch a="d"/><ch a="g"/><ch a="C"/><ch a="F"/><ch a="A7"/><ch a="d"/><ch a="g"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>

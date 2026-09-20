@@ -10,15 +10,15 @@
       <row important_over="true"><ch a="D"/>Tak to bywa, gdy ktoś zazdrości</row>
       <row important_over="true"><ch a="g"/>Kiedy brak mu własnej miłości</row>
       <row important_over="true"><ch a="A"/>Plotki płodzi, mnie nie zaszkodzi żadne <ch a="d"/>obce zło</row>
-      <row important_over="true"><ch a="A"/>Na mój sposób <ch a="d"/>widzieć ją</row>
+      <row important_over="false"><ch a="A"/>Na mój sposób <ch a="d"/>widzieć ją</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
-      <row important_over="true">W <ch a="A"/>ręku zielony ba<ch a="d"/>dylek</row>
+      <row important_over="false"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
+      <row important_over="false">W <ch a="A"/>ręku zielony ba<ch a="d"/>dylek</row>
       <row important_over="true"><ch a="g"/>A przed nią bieży ba<ch a="d"/>ranek</row>
-      <row important_over="true"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
-      <row important_over="true"><ch a="g"/>A przed nią bieży ba<ch a="d"/>ranek</row>
-      <row important_over="true"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
+      <row important_over="false"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
+      <row important_over="false"><ch a="g"/>A przed nią bieży ba<ch a="d"/>ranek</row>
+      <row important_over="false"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A"/>Krzywdę robią mojej panience</row>

@@ -12,33 +12,33 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Przy ognisku wędrowców gromada<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">W blasku iskier zamarł cieni krąg<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Wysłuchując struny opowiadań<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-      <row important_over="never">Zasłyszanych gdzieś daleko stąd<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+      <row important_over="false">Przy ognisku wędrowców gromada<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">W blasku iskier zamarł cieni krąg<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Wysłuchując struny opowiadań<ch a="d"/><ch a="G7"/><ch a="a"/></row>
+      <row important_over="false">Zasłyszanych gdzieś daleko stąd<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Pięciolinią wyznaczonym szlakiem<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">Błądzi zapomniany wieczny cień<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Pięciolinią wyznaczonym szlakiem<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">Błądzi zapomniany wieczny cień<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
       <bis times="2">
-        <row important_over="never">A w swych troskach smętnie zadumany<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="never">Żegna świątek odchodzący cień<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">A w swych troskach smętnie zadumany<ch a="d"/><ch a="G7"/><ch a="a"/></row>
+        <row important_over="false">Żegna świątek odchodzący cień<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Znika w dali kalejdoskop twarzy<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">Zgasłych ognisk dym już sięga chmur<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Znika w dali kalejdoskop twarzy<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">Zgasłych ognisk dym już sięga chmur<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
       <bis times="2">
-        <row important_over="never">Pomyśl, ile niespełnionych marzeń<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="never">Łączy z sobą pożegnanie gór<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">Pomyśl, ile niespełnionych marzeń<ch a="d"/><ch a="G7"/><ch a="a"/></row>
+        <row important_over="false">Łączy z sobą pożegnanie gór<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Już nie znikną góry z twoich wspomnień<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">Oczy ikon, nieprzetarty szlak<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Już nie znikną góry z twoich wspomnień<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">Oczy ikon, nieprzetarty szlak<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
       <bis times="2">
-        <row important_over="never">Szumu jodeł nie da się zapomnieć<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="never">Będziesz do nich wracał w swoich snach<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">Szumu jodeł nie da się zapomnieć<ch a="d"/><ch a="G7"/><ch a="a"/></row>
+        <row important_over="false">Będziesz do nich wracał w swoich snach<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
       </bis>
     </block>
   </lyric>

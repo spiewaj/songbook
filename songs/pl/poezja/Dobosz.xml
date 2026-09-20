@@ -15,17 +15,17 @@
 			<row important_over="true">Up<ch a="H7"/>arcie szły na wroga</row>
 			<row important_over="false">I siały <ch a="e"/>armie śmierć ze s<ch a="a"/>obą</row>
 			<row important_over="false">Po mi<ch a="D"/>astach i po wi<ch a="G"/>oskach</row>
-			<row important_over="false">A w każdej <ch a="a"/>armii kroczył dobosz</row>
-			<row important_over="false">Co w<ch a="H7"/>erbel miał i rozkaz</row>
+			<row important_over="true">A w każdej <ch a="a"/>armii kroczył dobosz</row>
+			<row important_over="true">Co w<ch a="H7"/>erbel miał i rozkaz</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Doboszu gr<ch a="a"/>aj doboszu <ch a="D7"/>idź</row>
 			<row important_over="true">Choćby się<ch a="G"/> świat zaw<ch a="e"/>alił</row>
 			<row important_over="true">Trzeba nam <ch a="a"/>iść i w werbel b<ch a="H7"/>ić</row>
 			<row important_over="true">Przed si<ch a="e"/>ebie dalej i d<ch a="E7"/>alej</row>
-			<row important_over="true">Poprzez bit<ch a="a"/>ewny zgiełk i k<ch a="D7"/>urz</row>
-			<row important_over="true">Do broni<ch a="G"/> krzycz do br<ch a="e"/>oni</row>
-			<row important_over="true">Bo tamten d<ch a="a"/>obosz to twój wr<ch a="H7"/>óg</row>
+			<row important_over="false">Poprzez bit<ch a="a"/>ewny zgiełk i k<ch a="D7"/>urz</row>
+			<row important_over="false">Do broni<ch a="G"/> krzycz do br<ch a="e"/>oni</row>
+			<row important_over="false">Bo tamten d<ch a="a"/>obosz to twój wr<ch a="H7"/>óg</row>
 			<row important_over="true">I śmi<ch a="e"/>erć mu w<ch a="H7"/>erbel dzw<ch a="e"/>oni</row>
 		</block>
 		<block type="verse">
@@ -55,7 +55,7 @@
 			<row important_over="false">Pod krz<ch a="D"/>yżem na rozst<ch a="G"/>ajach</row>
 			<row important_over="false">I tylko n<ch a="a"/>ocą poprzez śnieg</row>
 			<row important_over="false">Dwa b<ch a="H7"/>ębny werblem grają</row>
-			<row important_over="false">Jednaki odzew grają…</row>
+			<row important_over="never">Jednaki odzew grają…</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

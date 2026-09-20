@@ -9,24 +9,24 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Tak niewiele żądam<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele pragnę<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele widziałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele zobaczę<ch a="a"/><ch a="G"/><ch a="F"/></row>
-			<row important_over="false">Tak niewiele myślę<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele znaczę<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele słyszałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele potrafię<ch a="a"/><ch a="G"/><ch a="F"/></row>
+			<row important_over="never">Tak niewiele żądam<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele pragnę<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele widziałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele zobaczę<ch a="a"/><ch a="G"/><ch a="F"/></row>
+			<row important_over="never">Tak niewiele myślę<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele znaczę<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele słyszałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele potrafię<ch a="a"/><ch a="G"/><ch a="F"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Wolność, kocham i rozumiem<ch a="a"/><ch a="e"/></row>
-			<row important_over="false">Wolności oddać nie umiem<ch a="G"/><ch a="F"/></row>
+			<row important_over="never">Wolność, kocham i rozumiem<ch a="a"/><ch a="e"/></row>
+			<row important_over="never">Wolności oddać nie umiem<ch a="G"/><ch a="F"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Tak niewiele miałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Tak niewiele mam<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Mogę stracić wszystko<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Mogę zostać sam<ch a="a"/><ch a="G"/><ch a="F"/></row>
+			<row important_over="never">Tak niewiele miałem<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Tak niewiele mam<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Mogę stracić wszystko<ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="never">Mogę zostać sam<ch a="a"/><ch a="G"/><ch a="F"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

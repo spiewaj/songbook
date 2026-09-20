@@ -9,10 +9,10 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Były dwa kleszcze,</row>
-			<row important_over="false">Zdechły dwa kleszcze,</row>
-			<row important_over="false">Fajne były,</row>
-			<row important_over="false">Pośpiewajmy jeszcze.</row>
+			<row important_over="never">Były dwa kleszcze,</row>
+			<row important_over="never">Zdechły dwa kleszcze,</row>
+			<row important_over="never">Fajne były,</row>
+			<row important_over="never">Pośpiewajmy jeszcze.</row>
 		</block>
 	</lyric>
 	

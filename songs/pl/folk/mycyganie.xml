@@ -5,14 +5,14 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>My Cyganie co p<ch a="G"/>ędzimy razem z wiatrem</row>
       <row important_over="true"><ch a="a"/>My Cyganie z<ch a="e"/>namy cały świat</row>
-      <row important_over="true"><ch a="a"/>My Cyganie ws<ch a="e"/>zystkim gramy</row>
+      <row important_over="false"><ch a="a"/>My Cyganie ws<ch a="e"/>zystkim gramy</row>
       <row important_over="true"><ch a="H7"/>A śpiewamy s<ch a="e"/>obie <ch a="E7"/>tak</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>Ore, ore, s<ch a="G"/>zabadabada amore</row>
-      <row important_over="true"><ch a="a"/>Ore, ore, s<ch a="e"/>zabadabada</row>
-      <row important_over="true"><ch a="a"/>O muriaty, <ch a="e"/>o szogriaty</row>
-      <row important_over="true"><ch a="H7"/>Hajda trojka <ch a="e"/>na mi<ch a="E7"/>enia</row>
+      <row important_over="false"><ch a="C"/>Ore, ore, s<ch a="G"/>zabadabada amore</row>
+      <row important_over="false"><ch a="a"/>Ore, ore, s<ch a="e"/>zabadabada</row>
+      <row important_over="false"><ch a="a"/>O muriaty, <ch a="e"/>o szogriaty</row>
+      <row important_over="false"><ch a="H7"/>Hajda trojka <ch a="e"/>na mi<ch a="E7"/>enia</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Kiedy tańczę ni<ch a="G"/>ebo tańczy razem ze mną</row>

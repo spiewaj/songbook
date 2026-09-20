@@ -12,7 +12,7 @@
       <row important_over="true"><ch a="e"/> Nic nie mam</row>
       <row important_over="true"><ch a="F"/> Zdmuchnęła mnie ta jesień c<ch a="e"/>ałkiem</row>
       <row important_over="true">N<ch a="e"/>awet nie wiem</row>
-      <row important_over="true"><ch a="F"/> Jak tam sprawy za l<ch a="e"/>asem</row>
+      <row important_over="false"><ch a="F"/> Jak tam sprawy za l<ch a="e"/>asem</row>
       <row important_over="true">R<ch a="G"/>ano wst<ch a="Fis"/>aję po<ch a="h"/>emat chwalę</row>
       <row important_over="true">Bi<ch a="C"/>orę się za sł<ch a="D"/>owo jak za chl<ch a="e"/>eb</row>
     </block>

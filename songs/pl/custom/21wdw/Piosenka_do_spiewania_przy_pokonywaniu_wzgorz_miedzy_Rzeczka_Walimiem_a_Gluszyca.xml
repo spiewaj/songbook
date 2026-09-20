@@ -9,40 +9,40 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Tam gdzie szkoła na Nowowiejskiej street</row>
-			<row important_over="false">Harcerzyków luźny oddział szedł</row>
-			<row important_over="false">Drużynie trzeba dziś świeżej krwi</row>
-			<row important_over="false">Harcerzyków dwudziestej pierwszej</row>
+			<row important_over="never">Tam gdzie szkoła na Nowowiejskiej street</row>
+			<row important_over="never">Harcerzyków luźny oddział szedł</row>
+			<row important_over="never">Drużynie trzeba dziś świeżej krwi</row>
+			<row important_over="never">Harcerzyków dwudziestej pierwszej</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A że byłem wtedy durny kiep</row>
-			<row important_over="false">Kota szybko wzięła mnie za łeb</row>
-			<row important_over="false">W słoniowe trepy obuli mnie</row>
-			<row important_over="false">Harcerzyki z dwudziestej pierwszej</row>
+			<row important_over="never">A że byłem wtedy durny kiep</row>
+			<row important_over="never">Kota szybko wzięła mnie za łeb</row>
+			<row important_over="never">W słoniowe trepy obuli mnie</row>
+			<row important_over="never">Harcerzyki z dwudziestej pierwszej</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Jak o prawa upominać się</row>
-			<row important_over="false">Lech z Magnudem nauczyli mnie</row>
-			<row important_over="false">Niejeden zuch dzięki temu wył</row>
-			<row important_over="false">Mały zuch z dwudziestej pierwszej</row>
+			<row important_over="never">Jak o prawa upominać się</row>
+			<row important_over="never">Lech z Magnudem nauczyli mnie</row>
+			<row important_over="never">Niejeden zuch dzięki temu wył</row>
+			<row important_over="never">Mały zuch z dwudziestej pierwszej</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Nikt nie zliczy ile forsy dał</row>
-			<row important_over="false">Parking na który Ekspert wszystkich gnał</row>
-			<row important_over="false">Dla chwały twej o drużyno ma</row>
-			<row important_over="false">Dla kochanej dwudziestej pierwszej</row>
+			<row important_over="never">Nikt nie zliczy ile forsy dał</row>
+			<row important_over="never">Parking na który Ekspert wszystkich gnał</row>
+			<row important_over="never">Dla chwały twej o drużyno ma</row>
+			<row important_over="never">Dla kochanej dwudziestej pierwszej</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Hen daleko miły został dom</row>
-			<row important_over="false">Kiedyś dostał kopertę do swych rąk</row>
-			<row important_over="false">Komendant ten numer wyciął ci</row>
-			<row important_over="false">Adaś Foland z dwudziestej pierwszej</row>
+			<row important_over="never">Hen daleko miły został dom</row>
+			<row important_over="never">Kiedyś dostał kopertę do swych rąk</row>
+			<row important_over="never">Komendant ten numer wyciął ci</row>
+			<row important_over="never">Adaś Foland z dwudziestej pierwszej</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Gdy harcerzy szyk formuje się</row>
-			<row important_over="false">W żadnym rzędzie nie zobaczysz mnie</row>
-			<row important_over="false">W nieznane podły wiedzie los</row>
-			<row important_over="false">Los b.s. z dwudziestej pierwszej</row>
+			<row important_over="never">Gdy harcerzy szyk formuje się</row>
+			<row important_over="never">W żadnym rzędzie nie zobaczysz mnie</row>
+			<row important_over="never">W nieznane podły wiedzie los</row>
+			<row important_over="never">Los b.s. z dwudziestej pierwszej</row>
 		</block>
 	</lyric>
 	

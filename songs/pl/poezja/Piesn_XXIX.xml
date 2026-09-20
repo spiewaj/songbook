@@ -6,7 +6,7 @@
 	<lyric>
 		<block type="other">
 			<bis times="2">
-				<row important_over="false">
+				<row important_over="true">
           <ch a="D"/>
           <ch a="C"/>
           <ch a="G"/>
@@ -19,10 +19,10 @@
 			<row important_over="true">Mój p<ch a="C7+"/>ołoniński pochód</row>
 			<row important_over="true">I b<ch a="G6"/>uki srebrni jeźdźcy</row>
 			<row important_over="true">Nad n<ch a="D2"/>imi wiosny sokół</row>
-			<row important_over="false">I n<ch a="D2"/>adal tamtej połoniny wiatr</row>
-			<row important_over="false">I chm<ch a="C7+"/>ur wiosennych grzywy</row>
-			<row important_over="false">I n<ch a="G6"/>a chorągwi wspomnień twarz</row>
-			<row important_over="false">Z włos<ch a="D2"/>ami wiejącymi</row>
+			<row important_over="true">I n<ch a="D2"/>adal tamtej połoniny wiatr</row>
+			<row important_over="true">I chm<ch a="C7+"/>ur wiosennych grzywy</row>
+			<row important_over="true">I n<ch a="G6"/>a chorągwi wspomnień twarz</row>
+			<row important_over="true">Z włos<ch a="D2"/>ami wiejącymi</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">

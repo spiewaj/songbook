@@ -10,17 +10,17 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Cicho, szeroko jak okiem spojrzenie śle,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <row important_over="false">Cicho, szeroko jak okiem spojrzenie śle,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
       <bis times="2">
-        <row important_over="never">Jakieś się snują marzenia,<ch a="c6"/><ch a="D"/></row>
-        <row important_over="never">W wieczornej spowite mgle.<ch a="D7"/><ch a="g"/></row>
+        <row important_over="false">Jakieś się snują marzenia,<ch a="c6"/><ch a="D"/></row>
+        <row important_over="false">W wieczornej spowite mgle.<ch a="D7"/><ch a="g"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <row important_over="false">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
       <bis times="2">
-        <row important_over="never">By zdobyć szczyt ideału,<ch a="c6"/><ch a="D"/></row>
-        <row important_over="never">Świetlany, harcerski krzyż.<ch a="D7"/><ch a="g"/></row>
+        <row important_over="false">By zdobyć szczyt ideału,<ch a="c6"/><ch a="D"/></row>
+        <row important_over="false">Świetlany, harcerski krzyż.<ch a="D7"/><ch a="g"/></row>
       </bis>
     </block>
   </lyric>

@@ -8,7 +8,7 @@
       <row important_over="true"><ch a="D"/>Pytało dziewce <ch a="E"/>o Janick<ch a="A"/>a</row>
       <row important_over="true"><ch a="E"/>Hej lesie ciemny, <ch a="A"/>wirsku zielony</row>
       <bis times="2">
-        <row important_over="true"><ch a="D"/>Kaj mój Janicek <ch a="E"/>umilon<ch a="A"/>y </row>
+        <row important_over="false"><ch a="D"/>Kaj mój Janicek <ch a="E"/>umilon<ch a="A"/>y </row>
       </bis>
     </block>
     <block type="verse">

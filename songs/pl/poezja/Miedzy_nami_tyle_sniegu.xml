@@ -14,17 +14,17 @@
 			<row important_over="true">Szukać tr<ch a="B"/>udno — wszędzie bi<ch a="F"/>ało</row>
 			<row important_over="true">Czekać — t<ch a="C"/>eż nad moje siły</row>
 			<row important_over="true"><ch a="d"/> Gdzie Cię poniosło na tych s<ch a="A"/>aniach?</row>
-			<row important_over="true">Co Ci się st<ch a="B"/>ało w środku z<ch a="F"/>imy?</row>
+			<row important_over="false">Co Ci się st<ch a="B"/>ało w środku z<ch a="F"/>imy?</row>
 			<row important_over="true">A jeszcze l<ch a="C"/>atem byłaś ze mną</row>
 			<row important_over="true">Czy w twoje ż<ch a="A"/>ycie wszedł ktoś inny?</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Między n<ch a="d"/>ami tyle śni<ch a="B"/>egu</row>
-			<row important_over="true">Między n<ch a="A"/>ami tyle l<ch a="d"/>odu</row>
-			<row important_over="true">Czy traf<ch a="B"/>imy znów na si<ch a="F"/>ebie</row>
+			<row important_over="false">Między n<ch a="d"/>ami tyle śni<ch a="B"/>egu</row>
+			<row important_over="false">Między n<ch a="A"/>ami tyle l<ch a="d"/>odu</row>
+			<row important_over="false">Czy traf<ch a="B"/>imy znów na si<ch a="F"/>ebie</row>
 			<row important_over="true">W naszych <ch a="C"/>oknach szyby chłodu</row>
-			<row important_over="true"><ch a="d"/> Może wiosna Cię odmi<ch a="A"/>eni</row>
-			<row important_over="true">Może l<ch a="B"/>ato da zap<ch a="F"/>omnieć</row>
+			<row important_over="false"><ch a="d"/> Może wiosna Cię odmi<ch a="A"/>eni</row>
+			<row important_over="false">Może l<ch a="B"/>ato da zap<ch a="F"/>omnieć</row>
 			<row important_over="true">Czekam t<ch a="C"/>ylko do jesieni</row>
 			<row important_over="true">Więc przyp<ch a="d"/>omnij<ch a="A"/> sobie <ch a="d"/>o mnie</row>
 		</block>

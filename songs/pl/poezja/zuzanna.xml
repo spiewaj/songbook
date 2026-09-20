@@ -15,8 +15,8 @@
 			<row important_over="true">Propon<ch a="gis"/>uje ci herbatę oraz ch<ch a="A"/>ińskie pomarańcze</row>
 			<row important_over="true">I gdy wł<ch a="E"/>aśnie chcesz powiedzieć, że nie m<ch a="fis"/>ożesz jej pokochać,</row>
 			<row important_over="true">Zmienia tw<ch a="E"/>oją długość fali i pozw<ch a="fis"/>ala mówić rzece, że się z<ch a="E"/>awsze w niej kochałeś.</row>
-			<row important_over="true">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
-			<row important_over="true">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
+			<row important_over="false">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
+			<row important_over="false">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Pan J<ch a="E"/>ezus był żeglarzem, gdy przechadzał się po wodzie,</row>

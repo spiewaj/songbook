@@ -15,14 +15,14 @@ Strojenie:     klasyczne (E A D G H e)</comment>
       <row important_over="true">Bądźcie <ch a="G"/>zdrowi, na nas czas</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Usta<ch a="C"/>wimy mały obóz</row>
-      <row important_over="false">Bramę <ch a="e"/>zbudujemy z serc</row>
+      <row important_over="true">Usta<ch a="C"/>wimy mały obóz</row>
+      <row important_over="true">Bramę <ch a="e"/>zbudujemy z serc</row>
       <row important_over="false">A z tych <ch a="A"/>dusz, co tak go<ch a="A7"/>rące</row>
-      <row important_over="false">Zbudu<ch a="d"/>jemy sobie piec</row>
+      <row important_over="true">Zbudu<ch a="d"/>jemy sobie piec</row>
       <row important_over="false">Rozpa<ch a="F"/>limy mały <ch a="f"/>ogień</row>
       <row important_over="false">A w tym <ch a="C"/>ogniu będziesz <ch a="a"/>piekł</row>
-      <row important_over="false">Naszą <ch a="d"/>przyjaźń, która łączy</row>
-      <row important_over="false">Która <ch a="G"/>da Ci to, co chcesz</row>
+      <row important_over="true">Naszą <ch a="d"/>przyjaźń, która łączy</row>
+      <row important_over="true">Która <ch a="G"/>da Ci to, co chcesz</row>
     </block>
     <block type="verse">
       <row important_over="false">My tu <ch a="C"/>jeszcze powrócimy,</row>

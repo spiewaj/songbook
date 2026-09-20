@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bob Dylan">
-  <alias/>
+  <alias>Epitafium dla Boba Dylana</alias>
   <text_author>Jacek Kaczmarski</text_author>
   <comment/>
   <composer type="solo">Jacek Kaczmarski</composer>
@@ -9,49 +9,49 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Ocean w nas śpi i horyzont z nas drwi<ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="h"/>Płytka fala fałszywie się mieni<ch a="G"/><ch a="A"/></row>
-      <row important_over="false"><ch a="D"/>A prawdziwy jest rejs do nieznanych miejsc<ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>Kiedy płyniesz na przekór przestrzeni<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Ocean w nas śpi i <ch a="Fis"/>horyzont z nas <ch a="h"/>drwi</row>
+      <row important_over="true"><ch a="G"/>Płytka <ch a="A"/>fala fałszywie się <ch a="D"/>mieni</row>
+      <row important_over="false">A <ch a="D"/>prawdziwy jest rejs do nie<ch a="Fis"/>znanych ci <ch a="h"/>miejsc</row>
+      <row important_over="true">Kiedy <ch a="D"/>płyniesz na <ch a="G"/>przekór prze<ch a="A"/>strze<ch a="D"/>ni</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>I na tej z wielu dróg po co ci para nóg<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>I tak dotrzesz na pewno do końca<ch a="G"/><ch a="A"/></row>
-      <row important_over="false"><ch a="G"/>Nie potrzebny ci wzrok żeby wyczuć swój krok<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>I nie musisz wciąż radzisz się słońca<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false">I na <ch a="D"/>tej z wielu <ch a="G"/>dróg po co <ch a="A"/>ci para <ch a="D"/>nóg</row>
+      <row important_over="true">I tak <ch a="D"/>dotrzesz na <ch a="G"/>pewno do <ch a="A"/>końca</row>
+      <row important_over="true">Nie<ch a="G"/>potrzebny ci <ch a="D"/>wzrok żeby <ch a="Fis"/>wyczuć swój <ch a="h"/>krok</row>
+      <row important_over="false">I nie <ch a="D"/>musisz wciąż <ch a="G"/>radzić się <ch a="A"/>słoń<ch a="D"/>ca</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Wielbicieli i sług tłum ci zawisł u nóg<ch a="G"/><ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>To wolności twej chciwi strażnicy<ch a="G"/><ch a="A"/></row>
-      <row important_over="false"><ch a="G"/>Zaprowadzisz ich tam gdzie powinieneś być sam<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>Z nimi żadnej nie przejdziesz granicy<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false">Wielbi<ch a="D"/>cieli i <ch a="G"/>sług tłum ci <ch a="A"/>zawisł u <ch a="D"/>nóg</row>
+      <row important_over="false">To wol<ch a="D"/>ności twej <ch a="G"/>chciwi straż<ch a="A"/>nicy</row>
+      <row important_over="false">Zapro<ch a="G"/>wadzisz ich <ch a="D"/>tam gdzie po<ch a="Fis"/>winieneś być <ch a="h"/>sam</row>
+      <row important_over="false">Z nimi <ch a="D"/>żadnej nie <ch a="G"/>przejdziesz gra<ch a="A"/>ni<ch a="D"/>cy</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Zlekceważą twój głos którym wróżysz im los<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>Od jakiego ich nic nie wyzwoli<ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Zlekce<ch a="D"/>ważą twój <ch a="G"/>głos którym <ch a="A"/>wróżysz im <ch a="D"/>los</row>
+      <row important_over="false">Od ja<ch a="D"/>kiego ich <ch a="G"/>nic nie wy<ch a="A"/>zwoli</row>
       <bis>
-        <row important_over="false"><ch a="D"/>Bo zabije ich las rąk co klaszczą na czas<ch a="G"/><ch a="D"/></row>
-        <row important_over="false"><ch a="D"/>W marsza rytm co śmierć niosąc nie boli<ch a="G"/><ch a="A"/><ch a="D"/></row>
+        <row important_over="false">Bo za<ch a="G"/>bije ich <ch a="D"/>las rąk co <ch a="Fis"/>klaszczą na <ch a="h"/>czas</row>
+        <row important_over="false">W marsza <ch a="D"/>rytm co śmierć <ch a="G"/>niosąc nie <ch a="A"/>bo<ch a="D"/>li</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Patrz jak piją i żrą twoją żywią się krwią<ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="h"/>I żonglują słowami twych pieśni<ch a="A"/><ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>Lecz nic nie śni się im a najlepiej wiesz że<ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>Nie istnieje wszak to co się nie śni<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false">Patrz jak <ch a="D"/>piją i żrą twoją <ch a="Fis"/>żywią się <ch a="h"/>krwią</row>
+      <row important_over="false">I <ch a="G"/>żonglują sło<ch a="A"/>wami twych <ch a="D"/>pieśni</row>
+      <row important_over="false">Lecz nic <ch a="D"/>nie śni im się a naj<ch a="Fis"/>lepiej wiesz <ch a="h"/>że</row>
+      <row important_over="false">Nie ist<ch a="D"/>nieje wszak <ch a="G"/>to co się <ch a="A"/>nie <ch a="D"/>śni</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>By przy śmierci twej być płakać, śmiać się i drwić<ch a="G"/><ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>To jedyny cel twojej eskorty<ch a="G"/><ch a="A"/></row>
-      <row important_over="false"><ch a="G"/>Oddaj komuś rząd dusz i na własny szlak rusz<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
-      <row important_over="false"><ch a="D"/>Tam gdzie żadne nie zdarzą się porty<ch a="G"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false">By przy <ch a="D"/>śmierci twej <ch a="G"/>być płakać, <ch a="A"/>śmiać się i <ch a="D"/>drwić</row>
+      <row important_over="false">To je<ch a="D"/>dyny cel <ch a="G"/>twojej es<ch a="A"/>korty</row>
+      <row important_over="false">Oddaj <ch a="G"/>komuś rząd <ch a="D"/>dusz i na <ch a="Fis"/>własny szlak <ch a="h"/>rusz</row>
+      <row important_over="false">Tam gdzie <ch a="D"/>żadne nie <ch a="G"/>zdarzą się <ch a="A"/>por<ch a="D"/>ty</row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="D"/>Mówić będą żeś zbiegł ale wyjdą na brzeg<ch a="G"/><ch a="D"/></row>
-        <row important_over="false"><ch a="D"/>I zdradzieckie ci lampy zapalą<ch a="G"/><ch a="A"/></row>
-        <row important_over="false"><ch a="G"/>Ale ty patrząc w dal płynąc będziesz wśród fal<ch a="D"/><ch a="Fis"/><ch a="h"/></row>
-        <row important_over="false"><ch a="D"/>Aż sam wreszcie staniesz się falą<ch a="G"/><ch a="A"/><ch a="D"/></row>
+        <row important_over="false">Mówić <ch a="D"/>będą żeś <ch a="G"/>zbiegł ale <ch a="A"/>wyjdą na <ch a="D"/>brzeg</row>
+        <row important_over="false">I zdra<ch a="D"/>dzieckie ci <ch a="G"/>lampy za<ch a="A"/>palą</row>
+        <row important_over="false">Ale <ch a="G"/>ty patrząc w <ch a="D"/>dal płynąc <ch a="Fis"/>będziesz wśród <ch a="h"/>fal</row>
+        <row important_over="false">Aż sam <ch a="D"/>wreszcie sta<ch a="G"/>niesz się <ch a="A"/>fa<ch a="D"/>lą</row>
       </bis>
     </block>
   </lyric>

@@ -24,9 +24,9 @@
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true">Więc b<ch a="F"/>ardzo proszę w<ch a="G"/>ejdź</row>
-				<row important_over="true">Tu si<ch a="e"/>adaj rozgość si<ch a="a"/>ę</row>
-				<row important_over="true">I zdradź mi k<ch a="F"/>im tyś jest mad<ch a="G"/>ame</row>
-				<row important_over="true">Albo nie zdr<ch a="e"/>adzaj m<ch a="a"/>i</row>
+				<row important_over="false">Tu si<ch a="e"/>adaj rozgość si<ch a="a"/>ę</row>
+				<row important_over="false">I zdradź mi k<ch a="F"/>im tyś jest mad<ch a="G"/>ame</row>
+				<row important_over="false">Albo nie zdr<ch a="e"/>adzaj m<ch a="a"/>i</row>
 				<row important_over="true">Lepiej nie m<ch a="G"/>ówmy nic</row>
 				<row important_over="true">L<ch a="F"/>epiej nie mówmy n<ch a="C"/>ic</row>
 			</bis>

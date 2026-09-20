@@ -11,16 +11,16 @@
       <row important_over="true"><ch a="D"/>Chleba takiego jak t<ch a="A"/>en od Cześka</row>
       <row important_over="true"><ch a="e"/>Nie kupisz n<ch a="G"/>igdzie n<ch a="Fis"/>awet w Wa<ch a="h"/>rszawie</row>
       <row important_over="true"><ch a="G"/>Bo Czesiek piekarz n<ch a="A"/>ie piekł lecz tworzył</row>
-      <row important_over="true"><ch a="D"/>Bochny jak z mąki sł<ch a="A"/>onecznej kołacze</row>
-      <row important_over="true"><ch a="D"/>Kłaniali mu się l<ch a="A"/>udzie gdy wyjrzał</row>
-      <row important_over="true"><ch a="e"/>Przez okno <ch a="G"/>w kitlu ł<ch a="Fis"/>yknąć po<ch a="h"/>wietrza</row>
-      <row important_over="true"><ch a="G"/>A kromkę masłem smar<ch a="A"/>ując każdy</row>
+      <row important_over="false"><ch a="D"/>Bochny jak z mąki sł<ch a="A"/>onecznej kołacze</row>
+      <row important_over="false"><ch a="D"/>Kłaniali mu się l<ch a="A"/>udzie gdy wyjrzał</row>
+      <row important_over="false"><ch a="e"/>Przez okno <ch a="G"/>w kitlu ł<ch a="Fis"/>yknąć po<ch a="h"/>wietrza</row>
+      <row important_over="false"><ch a="G"/>A kromkę masłem smar<ch a="A"/>ując każdy</row>
       <row important_over="true">M<ch a="D"/>ówił: nad chleby ten ch<ch a="A"/>leb od Cz<ch a="D"/>eśka</row>
     </block>
     <block type="chorus">
       <row important_over="true">ch<ch a="C"/>leb się chl<ch a="G"/>ebie chl<ch a="e"/>eb się chl<ch a="a"/>ebie</row>
       <row important_over="true"><ch a="C"/>bo nad chl<ch a="h"/>eb być może <ch a="e"/>co!</row>
-      <row important_over="true">ch<ch a="C"/>leb się chl<ch a="G"/>ebie chl<ch a="e"/>eb się chl<ch a="a"/>ebie</row>
+      <row important_over="false">ch<ch a="C"/>leb się chl<ch a="G"/>ebie chl<ch a="e"/>eb się chl<ch a="a"/>ebie</row>
       <row important_over="true">n<ch a="C"/>iech ci nigdy nie zabraknie</row>
       <row important_over="true">d<ch a="D"/>rożdży w<ch a="A"/>ody r<ch a="e"/>ąk i zi<ch a="h"/>arna (m<ch a="G"/>ruc<ch a="D"/>zał C<ch a="A"/>zesiek <ch a="G"/>tak noc w<ch a="D"/> noc)</row>
     </block>

@@ -14,7 +14,7 @@
 		<block type="verse">
 			<row important_over="true">Czemu Cię ni<ch a="A"/>e ma na odległość r<ch a="E"/>ęki</row>
 			<row important_over="true">Czemu mów<ch a="fis"/>imy do siebie list<ch a="cis"/>ami</row>
-			<row important_over="true">Gdy Ci to śpi<ch a="D"/>ewam u mnie pełnia l<ch a="A"/>ata</row>
+			<row important_over="false">Gdy Ci to śpi<ch a="D"/>ewam u mnie pełnia l<ch a="A"/>ata</row>
 			<row important_over="true">Gdy to usł<ch a="D"/>yszysz będzie środek z<ch a="E"/>imy</row>
 		</block>
 		<block type="verse">
@@ -22,7 +22,7 @@
 			<row important_over="false">I włosy tw<ch a="fis"/>oje próbuję ugł<ch a="cis"/>askać</row>
 			<row important_over="false">Lecz nigdzie ni<ch a="D"/>e ma twoich wł<ch a="A"/>osów</row>
 			<row important_over="false">Jest tylko bl<ch a="D"/>ada nocna l<ch a="E"/>ampka</row>
-			<row important_over="false">Łysa śpiew<ch a="fis"/>aczka</row>
+			<row important_over="true">Łysa śpiew<ch a="fis"/>aczka</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Śpiewamy blu<ch a="A"/>esa bo czwarta nad r<ch a="E"/>anem</row>

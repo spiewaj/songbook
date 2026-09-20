@@ -7,23 +7,23 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Czy pamiętasz r<ch a="G"/>ude włosy? R<ch a="C"/>oześmianą tw<ch a="G"/>arz?</row>
       <row important_over="true"><ch a="a"/>Śmieszną czapkę miał na głowie <ch a="G"/>Kasper, kumpel nasz...</row>
-      <row important_over="true"><ch a="C"/>Gdzie nie poszedł, <ch a="G"/>co nie zrobił - <ch a="C"/>zawsze coś nie t<ch a="G"/>ak.</row>
-      <row important_over="true"><ch a="a"/>Forsy nie miał... Domu nie miał... W<ch a="G"/>olny był jak ptak!</row>
+      <row important_over="false"><ch a="C"/>Gdzie nie poszedł, <ch a="G"/>co nie zrobił - <ch a="C"/>zawsze coś nie t<ch a="G"/>ak.</row>
+      <row important_over="false"><ch a="a"/>Forsy nie miał... Domu nie miał... W<ch a="G"/>olny był jak ptak!</row>
       <row important_over="true"><ch a="C"/>Dobrze nam się z Kas<ch a="F7+"/>prem żyło, <ch a="C"/>on polubił <ch a="F7+"/>nas</row>
-      <row important_over="true"><ch a="C"/>W góry razem s<ch a="F7+"/>ię chodziło, o<ch a="C"/>gień nocą si<ch a="F7+"/>ę paliło</row>
+      <row important_over="false"><ch a="C"/>W góry razem s<ch a="F7+"/>ię chodziło, o<ch a="C"/>gień nocą si<ch a="F7+"/>ę paliło</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Ka<ch a="C"/>sper z wi<ch a="e7"/>atrem d<ch a="a"/>obrze ż<ch a="G"/>ył</row>
-      <row important_over="false">F<ch a="F"/>ajkę p<ch a="C"/>alił, w<ch a="G"/>ódkę p<ch a="C"/>ił , </row>
-      <row important_over="false">jak<ch a="G"/> ja... jak t<ch a="C"/>y.. jak <ch a="G"/>ja...<ch a="C"/><ch a="G"/></row>
+      <row important_over="true">Ka<ch a="C"/>sper z wi<ch a="e7"/>atrem d<ch a="a"/>obrze ż<ch a="G"/>ył</row>
+      <row important_over="true">F<ch a="F"/>ajkę p<ch a="C"/>alił, w<ch a="G"/>ódkę p<ch a="C"/>ił , </row>
+      <row important_over="true">jak<ch a="G"/> ja... jak t<ch a="C"/>y.. jak <ch a="G"/>ja...<ch a="C"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Miał gitarę złotostrunną, nocą na niej grał.<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Sto piosenek w swym śpiewniku Kasper chyba miał<ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Kiedy w miejscu siedzieć przyszło, bo deszcz padał, ciągle padał<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Kasper fajkę swoją tlił, bajdy różnie opowiadał<ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Co nie zrobił, czego nie miał - diabeł jeden wie!<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-      <row important_over="never">Kiedy fajkę swoją kurzył, świat maleńki stawał się...<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+      <row important_over="false">Miał gitarę złotostrunną, nocą na niej grał.<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Sto piosenek w swym śpiewniku Kasper chyba miał<ch a="a"/><ch a="G"/></row>
+      <row important_over="false">Kiedy w miejscu siedzieć przyszło, bo deszcz padał, ciągle padał<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Kasper fajkę swoją tlił, bajdy różnie opowiadał<ch a="a"/><ch a="G"/></row>
+      <row important_over="false">Co nie zrobił, czego nie miał - diabeł jeden wie!<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+      <row important_over="false">Kiedy fajkę swoją kurzył, świat maleńki stawał się...<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -36,8 +36,8 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="other">
-      <row important_over="false">(na melodię: &quot;Hej, Zuzanno&quot;)</row>
-      <row important_over="false">Hej, Zuzanno! Oddaj Kaspra nam! Parapa...</row>
+      <row important_over="never">(na melodię: &quot;Hej, Zuzanno&quot;)</row>
+      <row important_over="never">Hej, Zuzanno! Oddaj Kaspra nam! Parapa...</row>
     </block>
   </lyric>
   <keywords/>

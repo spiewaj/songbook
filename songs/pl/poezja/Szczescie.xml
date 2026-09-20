@@ -35,16 +35,16 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Coś srebrnego dzieje się w chmur dali<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>Wicher do drzwi puka jakby przyniósł list<ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Myśmy długo na siebie czekali<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>Jaki ruch w niebiosach słyszysz burzy świst<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Coś srebrnego dzieje się w chmur dali<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Wicher do drzwi puka jakby przyniósł list<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Myśmy długo na siebie czekali<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Jaki ruch w niebiosach słyszysz burzy świst<ch a="F"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Ty masz duszę gwiezdną i rozrzutną<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>Czy rozumiesz pośpiech pomieszanych tchnień<ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Szczęście przyszło czemóż nam tak smutno<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>Że przed jego blaskiem uchodzimy w cień<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Ty masz duszę gwiezdną i rozrzutną<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Czy rozumiesz pośpiech pomieszanych tchnień<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Szczęście przyszło czemóż nam tak smutno<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Że przed jego blaskiem uchodzimy w cień<ch a="F"/><ch a="G"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">
@@ -73,10 +73,10 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Czemóż ono w mroku szuka treści<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>I rozgrzesza nicość i zatraca kres<ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Jego bezmiar wszystko w sobie zmieści<ch a="e"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="e"/>Oprócz twego lęku, oprócz twoich łez<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Czemóż ono w mroku szuka treści<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>I rozgrzesza nicość i zatraca kres<ch a="F"/><ch a="G"/></row>
+      <row important_over="never"><ch a="C"/>Jego bezmiar wszystko w sobie zmieści<ch a="e"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Oprócz twego lęku, oprócz twoich łez<ch a="F"/><ch a="G"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">

@@ -9,28 +9,28 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">A jeżeli wiosną przejdę nad głębinę<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">A bodaj się wszyscy uśmieli, pewnie gdzieś popłynę<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false">Między wierzby krzywe, co się słońcem mienią<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Albo wyspy wikliny szumiące zielenią.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">A jeżeli wiosną przejdę nad głębinę<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">A bodaj się wszyscy uśmieli, pewnie gdzieś popłynę<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">Między wierzby krzywe, co się słońcem mienią<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Albo wyspy wikliny szumiące zielenią.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Zaraz się zachwycę, zaraz się zasłucham<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">W jakieś bajdy zaplątane w barokowych słuchach<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false">Swoje dzieje spiszę na piaszczystym trakcie,<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Wyślę pocztą gołębią cztery mile za piec.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">Zaraz się zachwycę, zaraz się zasłucham<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">W jakieś bajdy zaplątane w barokowych słuchach<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">Swoje dzieje spiszę na piaszczystym trakcie,<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Wyślę pocztą gołębią cztery mile za piec.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">I nic więcej, bo przecież nad taką równiną<ch a="D"/><ch a="Fis"/></row>
-			<row important_over="false">No jak tu nie lecieć, no jak tu nie płynąć<ch a="h"/><ch a="E"/><ch a="A"/></row>
-			<row important_over="false">Od końca do końca, na teraz na teraz i zawsze<ch a="D"/><ch a="Fis"/></row>
-			<row important_over="false">No jak tu nie słuchać, no jak tu nie patrzeć.<ch a="h"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="never">I nic więcej, bo przecież nad taką równiną<ch a="D"/><ch a="Fis"/></row>
+			<row important_over="never">No jak tu nie lecieć, no jak tu nie płynąć<ch a="h"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="never">Od końca do końca, na teraz na teraz i zawsze<ch a="D"/><ch a="Fis"/></row>
+			<row important_over="never">No jak tu nie słuchać, no jak tu nie patrzeć.<ch a="h"/><ch a="E"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A gdy stąd odejdę zasmuconym sadem<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Będę długo spać jesienią w kącie pod obrazem<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false">A gdy się obudzę, choćby mróz był wielki<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Wrócę przecież jak inni drugim brzegiem rzeki.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">A gdy stąd odejdę zasmuconym sadem<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Będę długo spać jesienią w kącie pod obrazem<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">A gdy się obudzę, choćby mróz był wielki<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Wrócę przecież jak inni drugim brzegiem rzeki.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>

@@ -13,20 +13,20 @@
 			<row important_over="true">Przez mr<ch a="G0"/>ozy i wia<ch a="h"/>try,</row>
 			<row important_over="true">Przez śnież<ch a="G"/>yce i za<ch a="fis"/>spy</row>
 			<row important_over="true">Fag<ch a="G"/>arasz i T<ch a="A"/>atry</row>
-			<row important_over="true">Przez bezb<ch a="D"/>arwne, bez sma<ch a="A"/>ku</row>
-			<row important_over="true">Kotl<ch a="G0"/>ety sojo<ch a="h"/>we</row>
-			<row important_over="true">I wr<ch a="G"/>eszcie mięso w b<ch a="fis"/>arze</row>
+			<row important_over="false">Przez bezb<ch a="D"/>arwne, bez sma<ch a="A"/>ku</row>
+			<row important_over="false">Kotl<ch a="G0"/>ety sojo<ch a="h"/>we</row>
+			<row important_over="false">I wr<ch a="G"/>eszcie mięso w b<ch a="fis"/>arze</row>
 			<row important_over="true">O tyle l<ch a="G"/>epsze od soi, że <ch a="A"/>aż odbiera m<ch a="D"/>owę</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">A teraz j<ch a="D"/>eść, nareszcie j<ch a="A"/>eść</row>
-			<row important_over="true">Mięs<ch a="G0"/>iwa — nie s<ch a="h"/>oję</row>
-			<row important_over="true">Smakowe k<ch a="G"/>ubki cieszą si<ch a="fis"/>ę</row>
-			<row important_over="true">A jel<ch a="G"/>ita z tęsknoty aż st<ch a="A"/>oją</row>
-			<row important_over="true">Cięlęcin<ch a="D"/>a, wołowin<ch a="A"/>a</row>
-			<row important_over="true">Zap<ch a="G0"/>achem swym nę<ch a="h"/>ci</row>
-			<row important_over="true">Od mięsa kr<ch a="G"/>ów, szalonych kr<ch a="fis"/>ów</row>
-			<row important_over="true">Wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci Vivat mi<ch a="D"/>ęso!</row>
+			<row important_over="false">A teraz j<ch a="D"/>eść, nareszcie j<ch a="A"/>eść</row>
+			<row important_over="false">Mięs<ch a="G0"/>iwa — nie s<ch a="h"/>oję</row>
+			<row important_over="false">Smakowe k<ch a="G"/>ubki cieszą si<ch a="fis"/>ę</row>
+			<row important_over="false">A jel<ch a="G"/>ita z tęsknoty aż st<ch a="A"/>oją</row>
+			<row important_over="false">Cięlęcin<ch a="D"/>a, wołowin<ch a="A"/>a</row>
+			<row important_over="false">Zap<ch a="G0"/>achem swym nę<ch a="h"/>ci</row>
+			<row important_over="false">Od mięsa kr<ch a="G"/>ów, szalonych kr<ch a="fis"/>ów</row>
+			<row important_over="false">Wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci Vivat mi<ch a="D"/>ęso!</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Pł<ch a="D"/>yną przeze mnie k<ch a="A"/>ęsy</row>

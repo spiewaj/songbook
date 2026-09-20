@@ -33,16 +33,16 @@
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="D"/>Aż nastąpił t<ch a="G"/>aki rok</row>
-			<row important_over="false">Sm<ch a="D"/>utny r<ch a="D7"/>ok tak w<ch a="G"/>idać trz<ch a="A"/>eba</row>
+			<row important_over="true">Sm<ch a="D"/>utny r<ch a="D7"/>ok tak w<ch a="G"/>idać trz<ch a="A"/>eba</row>
 			<row important_over="false">Nie prz<ch a="D"/>yszedł Bieda zi<ch a="A"/>eloną wiosną</row>
 			<row important_over="false">Mi<ch a="fis"/>ejsce gdzie siadał zi<ch a="h"/>elskiem zarosło</row>
-			<row important_over="false"><ch a="A"/>I choć niejeden wyt<ch a="G"/>ężał wzrok</row>
+			<row important_over="true"><ch a="A"/>I choć niejeden wyt<ch a="G"/>ężał wzrok</row>
 			<row important_over="false">Ch<ch a="A"/>oć lato pustym gośc<ch a="G"/>ińcem przeszło</row>
 			<row important_over="false">Z r<ch a="A"/>udymi liśćmi jesi<ch a="G"/>eni schedą</row>
 			<row important_over="false">Wi<ch a="A"/>atrem niesiony popł<ch a="G"/>ynął w przeszłość</row>
 			<row important_over="false">Wi<ch a="A"/>atrem niesiony popł<ch a="G"/>ynął w przeszłość</row>
-			<row important_over="false">Wi<ch a="A"/>atrem niesiony popł<ch a="G"/>ynął w prz<ch a="A"/>eszłość<ch a="G"/><ch a="fis"/><ch a="e"/></row>
-			<row important_over="false">Ma<ch a="D"/>jster Bi<ch a="A"/>eda<ch a="G"/><ch a="fis"/><ch a="e"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Wi<ch a="A"/>atrem niesiony popł<ch a="G"/>ynął w prz<ch a="A"/>eszłość<ch a="G"/><ch a="fis"/><ch a="e"/></row>
+			<row important_over="true">Ma<ch a="D"/>jster Bi<ch a="A"/>eda<ch a="G"/><ch a="fis"/><ch a="e"/><ch a="A"/><ch a="D"/></row>
 		</block>
 	</lyric>
 	<music metre="4/4"/>

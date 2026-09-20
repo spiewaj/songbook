@@ -10,12 +10,12 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Oce<ch a="A"/>anie sinowł<ch a="G"/>osy białe st<ch a="D"/>atki ku mnie w<ch a="A"/>yślij</row>
-			<row important_over="true">Dwa kam<ch a="A"/>yki moje m<ch a="G"/>yśli na otw<ch a="D"/>artych dłoniach ni<ch a="A"/>osę</row>
+			<row important_over="false">Dwa kam<ch a="A"/>yki moje m<ch a="G"/>yśli na otw<ch a="D"/>artych dłoniach ni<ch a="A"/>osę</row>
 			<row important_over="true">Daj mi mi<ch a="A"/>ejsce w głębi m<ch a="E"/>orza szczyptę l<ch a="G"/>ądu, szczyptę sk<ch a="D"/>ały</row>
 			<row important_over="true">Tu zbud<ch a="A"/>uję zamek bi<ch a="G9/6"/>ały, tutaj gni<ch a="D"/>azdo swe zał<ch a="A"/>ożę</row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Gdzieś d<ch a="A"/>aleko w stu stol<ch a="G"/>icach żyją l<ch a="D"/>udzie, biją w dzw<ch a="A"/>ony</row>
@@ -24,7 +24,7 @@
 			<row important_over="false">Kto o kwi<ch a="A"/>atach dziś pami<ch a="G9/6"/>ęta, szumią gi<ch a="D"/>ełdy w głębi n<ch a="A"/>ocy</row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">W głębi m<ch a="A"/>orza zabł<ch a="G"/>ąkany nie chcę n<ch a="D"/>ic o ludziach sł<ch a="A"/>yszeć</row>
@@ -33,7 +33,7 @@
 			<row important_over="false">Zanim sł<ch a="A"/>ońce w morzu zg<ch a="G9/6"/>aśnie, żeby z m<ch a="D"/>orza powstać c<ch a="A"/>o dzień</row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="G9/6"/><ch a="D"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">A gdy l<ch a="A"/>udzie wypełni<ch a="G"/>eni nienaw<ch a="D"/>iścią w jednej chw<ch a="A"/>ili</row>

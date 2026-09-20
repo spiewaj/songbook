@@ -5,14 +5,14 @@
       <row important_over="true"><ch a="E7"/>Obozowe <ch a="a"/>tango, <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
       <row important_over="true">Wiatr je niesie, <ch a="a"/>las kołysze</row>
       <row important_over="true"><ch a="E7"/>Do snu dziewczę <ch a="a"/>me.</row>
-      <row important_over="true"><ch a="E7"/>Śpij moja <ch a="a"/>kochana i <ch a="A7"/>czekaj <ch a="d"/>na mnie,</row>
+      <row important_over="false"><ch a="E7"/>Śpij moja <ch a="a"/>kochana i <ch a="A7"/>czekaj <ch a="d"/>na mnie,</row>
       <row important_over="true">Może gdy się <ch a="a"/>obóz skończy</row>
-      <row important_over="true"><ch a="E7"/>Znów spotkamy <ch a="a"/>się.</row>
+      <row important_over="false"><ch a="E7"/>Znów spotkamy <ch a="a"/>się.</row>
     </block>
     <block type="chorus">
       <row important_over="true">I choć nas <ch a="G"/>dzieli,</row>
       <row important_over="true">Może tysiące <ch a="C"/>wiosek i mil,</row>
-      <row important_over="true">Nie zapo<ch a="E7"/>minaj razem spędzonych <ch a="a"/>chwil.</row>
+      <row important_over="false">Nie zapo<ch a="E7"/>minaj razem spędzonych <ch a="a"/>chwil.</row>
       <row important_over="true">Tę leśną serenadę <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
       <row important_over="true">Obozowe <ch a="a"/>tango, które <ch a="E7"/>znów połączy <ch a="a"/>nas.</row>
     </block>

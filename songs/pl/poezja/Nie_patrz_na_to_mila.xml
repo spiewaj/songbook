@@ -23,7 +23,7 @@
 				<row important_over="true">Zamknij <ch a="D"/>oczy nie patrz n<ch a="A"/>a to moja m<ch a="D"/>iła</row>
 				<row important_over="true">pod powi<ch a="h"/>eką znaczenie l<ch a="E7"/>epsze są wid<ch a="A"/>oki</row>
 				<row important_over="true">i w tym n<ch a="G"/>asza s<ch a="A"/>iła i w tym n<ch a="D"/>asza s<ch a="G"/>iła</row>
-				<row important_over="true">że umi<ch a="D"/>emy jeszcze cz<ch a="A"/>asem m<ch a="D"/>arzyć</row>
+				<row important_over="false">że umi<ch a="D"/>emy jeszcze cz<ch a="A"/>asem m<ch a="D"/>arzyć</row>
 			</bis>
 		</block>
 		<block type="verse">

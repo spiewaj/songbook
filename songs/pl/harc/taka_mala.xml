@@ -3,7 +3,7 @@
   <alias>Mała</alias>
   <lyric>
     <block type="verse">
-      <row important_over="false" sidechords="D G h A">Bo taka mała bardzo mi się spodobała </row>
+      <row important_over="never" sidechords="D G h A">Bo taka mała bardzo mi się spodobała </row>
       <row important_over="never" sidechords="D G h A">Za taką małą oddałbym kawał duszy ciała </row>
       <row important_over="never" sidechords="D G h A">Ciała i duszy, abym tylko mógł usłyszeć jej głos. </row>
       <row important_over="never" sidechords="D G h A">hmmm mógł usłyszeć jej głos</row>

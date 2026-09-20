@@ -5,8 +5,8 @@
   <composer type="solo">Piotr Łupina</composer>
   <lyric>
     <block type="verse">
-      <row important_over="false">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
-      <row important_over="false">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
+      <row important_over="true">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
+      <row important_over="true">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
       <row important_over="false">Z<ch a="e"/>ginął tak jak wielu z<ch a="G"/> nich</row>
       <row important_over="false">Za<ch a="h"/> swą wolność u<ch a="A"/>traconą</row>
     </block>

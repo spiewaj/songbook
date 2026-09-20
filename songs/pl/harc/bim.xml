@@ -14,10 +14,10 @@
       <row important_over="never" sidechords="d">bim bam bom parara</row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="G">Szły pchły koło wody,</row>
-      <row important_over="false" sidechords="e">pchła pchłe pchła do wody</row>
-      <row important_over="false" sidechords="C">i ta pchła płakała,</row>
-      <row important_over="false" sidechords="d">że ją tamta pchła wepchała</row>
+      <row important_over="never" sidechords="G">Szły pchły koło wody,</row>
+      <row important_over="never" sidechords="e">pchła pchłe pchła do wody</row>
+      <row important_over="never" sidechords="C">i ta pchła płakała,</row>
+      <row important_over="never" sidechords="d">że ją tamta pchła wepchała</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">

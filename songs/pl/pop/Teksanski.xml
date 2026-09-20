@@ -3,7 +3,7 @@
 	<artist type="band">Hey</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false"><ch a="D"/>Herbata stygn<ch a="G"/>ie zapa<ch a="A"/>da mrok</row>
+			<row important_over="true"><ch a="D"/>Herbata stygn<ch a="G"/>ie zapa<ch a="A"/>da mrok</row>
 			<row important_over="false">A p<ch a="D"/>od piór<ch a="G"/>em ciąg<ch a="A"/>le nic</row>
 			<row important_over="false">Obowiązek obowiązkiem jest<ch a="D"/><ch a="G"/><ch a="A"/></row>
 			<row important_over="false">Piosenka musi posiadać tekst<ch a="D"/><ch a="G"/><ch a="A"/></row>
@@ -14,7 +14,7 @@
 			<row important_over="false">a później to opisać<ch a="D"/><ch a="G"/><ch a="A"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">W moich słowach słoma czai się<ch a="G"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">W moich słowach słoma czai się<ch a="G"/><ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Nie znaczą nic<ch a="G"/><ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Jeśli szukasz sensu prawdy w nich<ch a="G"/><ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Zawiedziesz się<ch a="G"/><ch a="A"/><ch a="D"/></row>

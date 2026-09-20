@@ -14,7 +14,7 @@
 			<row important_over="true">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y, wi<ch a="Fis7"/>ecznym przeznacz<ch a="H7"/>eniem m<ch a="e"/>ym!</row>
 			<row important_over="true">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
 			<row important_over="true">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y, wiecznym prz<ch a="H7"/>eznaczeniem m<ch a="e"/>ym!</row>
-			<row important_over="true">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
+			<row important_over="false">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Gdy przech<ch a="e"/>odniów Twych tł<ch a="H7"/>um s<ch a="H7"/>unie obok r<ch a="e"/>ojem pstrym,</row>

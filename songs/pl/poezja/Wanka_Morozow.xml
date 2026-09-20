@@ -12,7 +12,7 @@
 			<row important_over="true">I cz<ch a="a"/>egóż chcieć od tego W<ch a="E"/>ani?</row>
 			<row important_over="true">Wszak j<ch a="E7"/>ego winy nie ma w t<ch a="a"/>ym.</row>
 			<row important_over="true">Wszystki<ch a="F"/>emu winna tamta p<ch a="d"/>ani,</row>
-			<row important_over="true">Że p<ch a="E7"/>oszedł za nią tak jak w d<ch a="a"/>ym.</row>
+			<row important_over="false">Że p<ch a="E7"/>oszedł za nią tak jak w d<ch a="a"/>ym.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">A p<ch a="a"/>asowałoby mu wsz<ch a="E"/>ystko,</row>

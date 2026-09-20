@@ -7,23 +7,23 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="a"/> Jak fantastycznie b<ch a="G"/>yć myśliwą</row>
-			<row important_over="true"><ch a="a"/> Potrząsać złotą pł<ch a="G"/>ową grzywą</row>
-			<row important_over="true"><ch a="a"/> I pierś w triumfie pr<ch a="G"/>ężyć w dal</row>
+			<row important_over="false"><ch a="a"/> Potrząsać złotą pł<ch a="G"/>ową grzywą</row>
+			<row important_over="false"><ch a="a"/> I pierś w triumfie pr<ch a="G"/>ężyć w dal</row>
 			<row important_over="true"><ch a="a"/> Ja także chce być<ch a="G"/> femme fat<ch a="a"/>ale</row>
-			<row important_over="true"><ch a="a"/> Ja nie mam zbędnych w<ch a="G"/>ątpliwości</row>
-			<row important_over="true"><ch a="a"/> Zdrowe podejście d<ch a="G"/>o miłości</row>
-			<row important_over="true"><ch a="a"/> Mężczyzna to jest p<ch a="G"/>odłe bydle</row>
-			<row important_over="true"><ch a="a"/> Więc chyba pójdzie<ch a="G"/> jak po m<ch a="a"/>ydle</row>
+			<row important_over="false"><ch a="a"/> Ja nie mam zbędnych w<ch a="G"/>ątpliwości</row>
+			<row important_over="false"><ch a="a"/> Zdrowe podejście d<ch a="G"/>o miłości</row>
+			<row important_over="false"><ch a="a"/> Mężczyzna to jest p<ch a="G"/>odłe bydle</row>
+			<row important_over="false"><ch a="a"/> Więc chyba pójdzie<ch a="G"/> jak po m<ch a="a"/>ydle</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Od zwi<ch a="a"/>erza do zwi<ch a="G"/>erza</row>
-			<row important_over="true">Byle d<ch a="a"/>o mnie nal<ch a="G"/>eżał</row>
-			<row important_over="true">Od d<ch a="a"/>uszy po pi<ch a="G"/>ęty</row>
-			<row important_over="true">M<ch a="a"/>oją magią <ch a="G"/>owładnięty</row>
-			<row important_over="true">Na ł<ch a="a"/>owy, na ł<ch a="G"/>owy</row>
-			<row important_over="true">C<ch a="a"/>o tam okres g<ch a="G"/>odowy</row>
-			<row important_over="true">N<ch a="a"/>a tygrysa, na b<ch a="G"/>yka</row>
-			<row important_over="true"><ch a="a"/>I niech gr<ch a="G"/>a muz<ch a="a"/>yka</row>
+			<row important_over="false">Od zwi<ch a="a"/>erza do zwi<ch a="G"/>erza</row>
+			<row important_over="false">Byle d<ch a="a"/>o mnie nal<ch a="G"/>eżał</row>
+			<row important_over="false">Od d<ch a="a"/>uszy po pi<ch a="G"/>ęty</row>
+			<row important_over="false">M<ch a="a"/>oją magią <ch a="G"/>owładnięty</row>
+			<row important_over="false">Na ł<ch a="a"/>owy, na ł<ch a="G"/>owy</row>
+			<row important_over="false">C<ch a="a"/>o tam okres g<ch a="G"/>odowy</row>
+			<row important_over="false">N<ch a="a"/>a tygrysa, na b<ch a="G"/>yka</row>
+			<row important_over="false"><ch a="a"/>I niech gr<ch a="G"/>a muz<ch a="a"/>yka</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="a"/> Gdy polowanie r<ch a="G"/>ozpoczynam</row>

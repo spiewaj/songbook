@@ -22,9 +22,9 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Ani<ch a="C"/>oły bieszcz<ch a="G"/>adzkie, bieszczadzkie an<ch a="a"/>ioły</row>
-			<row important_over="true">Dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody</row>
-			<row important_over="true">Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie</row>
-			<row important_over="true">Gdy skrz<ch a="C"/>ydłem cię do<ch a="G"/>tkną, już jesteś ich br<ch a="a"/>atem</row>
+			<row important_over="false">Dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody</row>
+			<row important_over="false">Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie</row>
+			<row important_over="false">Gdy skrz<ch a="C"/>ydłem cię do<ch a="G"/>tkną, już jesteś ich br<ch a="a"/>atem</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Anioły są całkiem samotne, zwłaszcza te w Bieszczadach<ch a="a"/><ch a="G"/></row>

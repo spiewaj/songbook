@@ -3,31 +3,31 @@
   <artist>Wolna Grupa Bukowina</artist>
   <comment/>
   <lyric>
-    <block type="other">    <bis>  <row style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </bis></block>
+    <block type="other">    <bis>  <row important_over="false" style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </bis></block>
     <block type="verse">
-      <row>Wsłuchany w twą cichą piosenkę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-      <row>Wyszedłem na brzeg pierwszy raz<ch a="E"/><ch a="A2"/><ch a="gis"/><ch a="gis7"/></row>
-      <row>Wiedziałem już rzeko, że kocham cię rzeko<ch a="A"/><ch a="gis7"/><ch a="cis"/></row>
-      <row>że odtąd pójdę z tobą.<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
+      <row important_over="never">Wsłuchany w twą cichą piosenkę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+      <row important_over="never">Wyszedłem na brzeg pierwszy raz<ch a="E"/><ch a="A2"/><ch a="gis"/><ch a="gis7"/></row>
+      <row important_over="never">Wiedziałem już rzeko, że kocham cię rzeko<ch a="A"/><ch a="gis7"/><ch a="cis"/></row>
+      <row important_over="never">że odtąd pójdę z tobą.<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
     </block>
     <block type="chorus">
-      <row>O dobra rzeko, o mądra wodo<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="gis"/><ch a="cis"/><ch a="E7"/></row>
-      <row>Wiedziałaś gdzie stopy znużone prowadzić<ch a="A"/><ch a="gis"/><ch a="cis"/></row>
-      <row>Gdy sił już było brak. Brak…<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
+      <row important_over="never">O dobra rzeko, o mądra wodo<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="gis"/><ch a="cis"/><ch a="E7"/></row>
+      <row important_over="never">Wiedziałaś gdzie stopy znużone prowadzić<ch a="A"/><ch a="gis"/><ch a="cis"/></row>
+      <row important_over="never">Gdy sił już było brak. Brak…<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
     </block>
-    <block type="other">      <row style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </block>
+    <block type="other">      <row important_over="false" style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </block>
     <block type="verse">
-      <row>Wieże miast, łuny świateł</row>
-      <row>Ich oczy zszarzałe nie raz</row>
-      <row>Witały mnie pustką, żegnały milczeniem</row>
-      <row>Gdym stał się twoim nurtem</row>
+      <row important_over="never">Wieże miast, łuny świateł</row>
+      <row important_over="never">Ich oczy zszarzałe nie raz</row>
+      <row important_over="never">Witały mnie pustką, żegnały milczeniem</row>
+      <row important_over="never">Gdym stał się twoim nurtem</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row>Po dziś dzień z tobą rzeko</row>
-      <row>Gdzież począł, gdzie kres dał ci Bóg</row>
-      <row>Ach życia mi braknie, by szlak twój przemierzyć</row>
-      <row>By poznać twą melodię.</row>
+      <row important_over="never">Po dziś dzień z tobą rzeko</row>
+      <row important_over="never">Gdzież począł, gdzie kres dał ci Bóg</row>
+      <row important_over="never">Ach życia mi braknie, by szlak twój przemierzyć</row>
+      <row important_over="never">By poznać twą melodię.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

@@ -5,12 +5,12 @@
   <lyric>
     <block type="chorus">
       <row important_over="true">O<ch a="a"/>d Turbacza wieje wiatr, ni<ch a="E"/>esie nam tę wi<ch a="a"/>eść</row>
-      <row important_over="true">Ż<ch a="a"/>e tej nocy szczyty gór, p<ch a="E"/>okrył biały śni<ch a="a"/>eg.</row>
+      <row important_over="false">Ż<ch a="a"/>e tej nocy szczyty gór, p<ch a="E"/>okrył biały śni<ch a="a"/>eg.</row>
     </block>
     <block type="chorus">
       <row important_over="true">A<ch a="C"/> w dolinach pi<ch a="d"/>ękna jesień</row>
       <row important_over="true">Zł<ch a="a"/>ote liście l<ch a="E"/>ecą z drzew.</row>
-      <row important_over="true"><ch a="a"/>Od Turbacza wieje wiatr, ni<ch a="E"/>esie zimy wi<ch a="a"/>ew.</row>
+      <row important_over="false"><ch a="a"/>Od Turbacza wieje wiatr, ni<ch a="E"/>esie zimy wi<ch a="a"/>ew.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/></row>

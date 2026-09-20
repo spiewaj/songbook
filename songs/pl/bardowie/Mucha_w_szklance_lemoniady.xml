@@ -9,7 +9,7 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row style="instr"><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="G"/><ch a="E"/><ch a="a7"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="G"/><ch a="E"/><ch a="a7"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/></row>
 			<row important_over="true">Ol<ch a="Cis0"/>iwnej lampy pł<ch a="H7"/>omyk się wyp<ch a="e"/>alił,</row>
 			<row important_over="false">W rodz<ch a="Cis0"/>ynki się zmarszcz<ch a="H7"/>yły winogr<ch a="e"/>ona.</row>
 			<row important_over="true">Wbrew s<ch a="G"/>obie, syty b<ch a="E"/>aśni, usnął k<ch a="a7"/>alif,</row>

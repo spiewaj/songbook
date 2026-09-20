@@ -20,17 +20,17 @@
       <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4-2"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Zielony czas, zielony piękny czas,<ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Szumiący miękko jak drzewa,<ch a="a"/><ch a="e"/></row>
-      <row important_over="never">Zielony czas, zielony piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Co przy ognisku śpiewa<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false">Zielony czas, zielony piękny czas,<ch a="C"/><ch a="d"/></row>
+      <row important_over="false">Szumiący miękko jak drzewa,<ch a="a"/><ch a="e"/></row>
+      <row important_over="false">Zielony czas, zielony piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Co przy ognisku śpiewa<ch a="C"/><ch a="G"/><ch a="G7"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Złocisty czas, złocisty piękny czas,<ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Ogromny, ciepły jak słońce,<ch a="a"/><ch a="e"/></row>
-      <row important_over="never">Złocisty czas, złocisty piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Gdy można iść bez końca<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false">Złocisty czas, złocisty piękny czas,<ch a="C"/><ch a="d"/></row>
+      <row important_over="false">Ogromny, ciepły jak słońce,<ch a="a"/><ch a="e"/></row>
+      <row important_over="false">Złocisty czas, złocisty piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Gdy można iść bez końca<ch a="C"/><ch a="G"/><ch a="G7"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

@@ -11,7 +11,7 @@
 		<block type="verse">
 			<row important_over="true">Wyszli br<ch a="D"/>acia, wiatr we włosach, co za cz<ch a="G"/>as,</row>
 			<row important_over="true">W oczach gwi<ch a="D"/>azdy i drzewa na sp<ch a="A"/>odzie,</row>
-			<row important_over="true">Pochyl<ch a="D"/>eni, zanurzeni po p<ch a="G"/>as,</row>
+			<row important_over="false">Pochyl<ch a="D"/>eni, zanurzeni po p<ch a="G"/>as,</row>
 			<row important_over="true">Brodzą w n<ch a="A"/>ocy czerwc<ch a="G"/>owej jak w w<ch a="A"/>odzie.</row>
 			<row important_over="false">Zatrzaśni<ch a="D"/>ęte na krzyż okienn<ch a="G"/>ice,</row>
 			<row important_over="false">Nieskosz<ch a="D"/>ony jescze zapach ł<ch a="A"/>ąk</row>
@@ -21,7 +21,7 @@
 		<block type="chorus">
 			<row important_over="true">A z mił<ch a="D"/>ością się ni<ch a="G"/>e jest, czy j<ch a="D"/>est,</row>
 			<row important_over="true">Powiedz pi<ch a="D"/>erwszy, z koch<ch a="G"/>ania sł<ch a="D"/>yni<ch a="A"/>esz.</row>
-			<row important_over="true">Jeśli ni<ch a="D"/>e ma, to i t<ch a="G"/>ak szkoda ł<ch a="D"/>ez,</row>
+			<row important_over="false">Jeśli ni<ch a="D"/>e ma, to i t<ch a="G"/>ak szkoda ł<ch a="D"/>ez,</row>
 			<row important_over="true">Jeśli j<ch a="D"/>est, to i t<ch a="G"/>ak kiedyś m<ch a="D"/>i<ch a="G"/>ni<ch a="D"/>e.<ch a="A"/><ch a="D"/></row>
 			<row important_over="false">Wędrow<ch a="D"/>ali tak pewn<ch a="G"/>ego dni<ch a="D"/>a,</row>
 			<row important_over="false">Wędrow<ch a="D"/>ali tak w głęb<ch a="G"/>okie sn<ch a="D"/>y.</row>

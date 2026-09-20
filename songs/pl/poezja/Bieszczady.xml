@@ -11,14 +11,14 @@
 		<block type="verse">
 			<row important_over="true"><ch a="e9"/> Tu w dolinach wstaje mgł<ch a="a7"/>ą wilgotny dzień</row>
 			<row important_over="true"><ch a="D7"/> Szczyty ogniem płoną st<ch a="G"/>oki kryje ci<ch a="H7"/>eń</row>
-			<row important_over="true"><ch a="e9"/> Mokre rosą trawy w<ch a="a7"/>ypatrują dnia</row>
-			<row important_over="true"><ch a="D7"/> Ciepła, które pierwszy sł<ch a="G"/>ońca promień d<ch a="H7"/>a</row>
+			<row important_over="false"><ch a="e9"/> Mokre rosą trawy w<ch a="a7"/>ypatrują dnia</row>
+			<row important_over="false"><ch a="D7"/> Ciepła, które pierwszy sł<ch a="G"/>ońca promień d<ch a="H7"/>a</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="G"/> Cicho potok g<ch a="C"/>ada,<ch a="D7"/> gwarzy pośród sk<ch a="G"/>ał</row>
-			<row important_over="true"><ch a="G"/> O tym deszczu, c<ch a="C"/>o z chmury tr<ch a="D7"/>ochę wody d<ch a="G"/>ał</row>
-			<row important_over="true"><ch a="G"/> Świerki zapatrz<ch a="C"/>one<ch a="D7"/> w horyzontu kr<ch a="G"/>es</row>
-			<row important_over="true"><ch a="G"/> Głowy pragną w<ch a="C"/>ysoko, j<ch a="D7"/>ak najwyżej wzni<ch a="G"/>eść</row>
+			<row important_over="false"><ch a="G"/> O tym deszczu, c<ch a="C"/>o z chmury tr<ch a="D7"/>ochę wody d<ch a="G"/>ał</row>
+			<row important_over="false"><ch a="G"/> Świerki zapatrz<ch a="C"/>one<ch a="D7"/> w horyzontu kr<ch a="G"/>es</row>
+			<row important_over="false"><ch a="G"/> Głowy pragną w<ch a="C"/>ysoko, j<ch a="D7"/>ak najwyżej wzni<ch a="G"/>eść</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="e9"/> Tęczą kwiatów barwny p<ch a="a7"/>ołoniny łan</row>

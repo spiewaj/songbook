@@ -9,19 +9,19 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Z zimna drż<ch a="a"/>ąc przy domowym ognisku</row>
-			<row important_over="false">Zasłuch<ch a="E"/>ani w głodowy kiszek marsz</row>
-			<row important_over="false">Po ost<ch a="a"/>atnim wypijmy kieliszku</row>
-			<row important_over="false">Zanim świ<ch a="E"/>ecy dotli się blask</row>
-			<row important_over="false">Papier<ch a="a"/>osa puśćmy dokoła</row>
-			<row important_over="false">Przeczyt<ch a="E"/>ajmy z zakazanych coś ksiąg</row>
-			<row important_over="false">Bo nad r<ch a="a"/>anem nikt przecież nie woła</row>
-			<row important_over="false">N<ch a="E"/>ikt nie wywoła nas st<ch a="a"/>ąd</row>
+			<row important_over="true">Z zimna drż<ch a="a"/>ąc przy domowym ognisku</row>
+			<row important_over="true">Zasłuch<ch a="E"/>ani w głodowy kiszek marsz</row>
+			<row important_over="true">Po ost<ch a="a"/>atnim wypijmy kieliszku</row>
+			<row important_over="true">Zanim świ<ch a="E"/>ecy dotli się blask</row>
+			<row important_over="true">Papier<ch a="a"/>osa puśćmy dokoła</row>
+			<row important_over="true">Przeczyt<ch a="E"/>ajmy z zakazanych coś ksiąg</row>
+			<row important_over="true">Bo nad r<ch a="a"/>anem nikt przecież nie woła</row>
+			<row important_over="true">N<ch a="E"/>ikt nie wywoła nas st<ch a="a"/>ąd</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Gdzie ła<ch a="C"/>jdak pok<ch a="G"/>aja się szcz<ch a="a"/>erze</row>
-			<row important_over="false">Gdzie zł<ch a="F"/>odziej <ch a="C"/>odda swój ł<ch a="G"/>up</row>
-			<row important_over="false">Gdzie kto<ch a="C"/>ś zanim p<ch a="E7"/>owie nie wi<ch a="a"/>erz<ch a="F"/>ę</row>
+			<row important_over="true">Gdzie ła<ch a="C"/>jdak pok<ch a="G"/>aja się szcz<ch a="a"/>erze</row>
+			<row important_over="true">Gdzie zł<ch a="F"/>odziej <ch a="C"/>odda swój ł<ch a="G"/>up</row>
+			<row important_over="true">Gdzie kto<ch a="C"/>ś zanim p<ch a="E7"/>owie nie wi<ch a="a"/>erz<ch a="F"/>ę</row>
 			<row important_over="false">Święt<ch a="C"/>emu up<ch a="G"/>adnie do st<ch a="a"/>óp</row>
 			<row important_over="false">Gdzie krz<ch a="C"/>ywdy nie b<ch a="G"/>ędą pomszcz<ch a="a"/>one</row>
 			<row important_over="false">L<ch a="F"/>ecz wynagrodz<ch a="C"/>one do cn<ch a="G"/>a</row>
@@ -49,9 +49,9 @@
 			<row important_over="false">Siądzie obok jagnięcia i lwa<ch a="C"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ktoś powie to senne marzenie<ch a="a"/></row>
-			<row important_over="false">Nie ma nic prawdziwszego od snu<ch a="E"/></row>
-			<row important_over="false">Więc w obecność swą otuleni<ch a="a"/></row>
+			<row important_over="true">Ktoś powie to senne marzenie<ch a="a"/></row>
+			<row important_over="true">Nie ma nic prawdziwszego od snu<ch a="E"/></row>
+			<row important_over="true">Więc w obecność swą otuleni<ch a="a"/></row>
 			<row important_over="false">Wspólnie wyśnimy go tu<ch a="E"/><ch a="a"/></row>
 			<row important_over="false">Ktoś powie to senne marzenie<ch a="C"/><ch a="G"/><ch a="a"/></row>
 			<row important_over="false">Nie ma nic prawdziwszego od snu<ch a="F"/><ch a="C"/><ch a="G"/></row>

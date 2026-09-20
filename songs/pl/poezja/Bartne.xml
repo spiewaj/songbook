@@ -9,8 +9,8 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row important_over="false">Na zachodzie słońce jeszcze się toczy<ch a="C"/><ch a="a"/></row>
-			<row important_over="false">I butelka nad ławą rzuca cień<ch a="d"/><ch a="G"/></row>
+			<row important_over="true">Na zachodzie słońce jeszcze się toczy<ch a="C"/><ch a="a"/></row>
+			<row important_over="true">I butelka nad ławą rzuca cień<ch a="d"/><ch a="G"/></row>
 			<row important_over="false">Wojtek Bellon zagląda mi w oczy<ch a="C"/><ch a="a"/></row>
 			<row important_over="false">W Bartnem pod bacówką gaśnie dzień<ch a="d"/><ch a="G"/></row>
 			<row important_over="false">Mówią mi, że gdy gram jego song<ch a="C"/><ch a="a"/></row>
@@ -29,14 +29,14 @@
 			<row important_over="false">Święty sp<ch a="F"/>okój w jego sk<ch a="d"/>ośnych oczach tkw<ch a="G"/>i</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Dobry P<ch a="C"/>an mnie wiedzie wyboistą dr<ch a="a"/>ogą</row>
+			<row important_over="false">Dobry P<ch a="C"/>an mnie wiedzie wyboistą dr<ch a="a"/>ogą</row>
 			<row important_over="false">Dobry P<ch a="F"/>an życz<ch a="E"/>enia moje zn<ch a="a"/>a<ch a="G"/><ch a="F"/></row>
 			<row important_over="false">W górach m<ch a="d"/>yśli poszyb<ch a="G"/>ują ku prad<ch a="C"/>awnym bogom</row>
 			<row important_over="false">A w kop<ch a="F"/>ułach cerkwi<ch a="d"/> wieczność trw<ch a="G"/>a</row>
 			<row important_over="false">Na tej dr<ch a="C"/>odze różne słowa już pad<ch a="a"/>ały</row>
 			<row important_over="false">Słowa zł<ch a="F"/>e i dobre, m<ch a="E"/>iłość szła i śmi<ch a="a"/>erć<ch a="G"/><ch a="F"/></row>
 			<row important_over="false">Tylko b<ch a="d"/>uki w górach ni<ch a="G"/>ewzruszone st<ch a="C"/>oją</row>
-			<row important_over="false">Jakby chci<ch a="F"/>ały się do ni<ch a="G"/>eba wzni<ch a="C"/>eść</row>
+			<row important_over="true">Jakby chci<ch a="F"/>ały się do ni<ch a="G"/>eba wzni<ch a="C"/>eść</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Nikt nie spi<ch a="C"/>eszy się, nie zż<ch a="D"/>yma, nie złorz<ch a="G"/>eczy</row>

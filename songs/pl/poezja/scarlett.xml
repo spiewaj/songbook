@@ -9,14 +9,14 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row style="instr"><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row style="instr"><ch a="G"/><ch a="D"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false" style="instr"><ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false" style="instr"><ch a="G"/><ch a="D"/><ch a="a"/><ch a="C"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/> Tysiąc osi<ch a="D"/>emset sześćdziesi<ch a="G"/>ąty pierwszy</row>
-			<row important_over="false"><ch a="e"/> W Atlancie szał tysięcy mł<ch a="C"/>odych n<ch a="D"/>óg</row>
-			<row important_over="false"><ch a="G"/> Generał L<ch a="D"/>ee podnosi w g<ch a="e"/>órę r<ch a="C"/>ękę</row>
-			<row important_over="false">Jank<ch a="G"/>esom śmierć tak nam dop<ch a="C"/>omóż B<ch a="D"/>óg</row>
+			<row important_over="true"><ch a="G"/> Tysiąc osi<ch a="D"/>emset sześćdziesi<ch a="G"/>ąty pierwszy</row>
+			<row important_over="true"><ch a="e"/> W Atlancie szał tysięcy mł<ch a="C"/>odych n<ch a="D"/>óg</row>
+			<row important_over="true"><ch a="G"/> Generał L<ch a="D"/>ee podnosi w g<ch a="e"/>órę r<ch a="C"/>ękę</row>
+			<row important_over="true">Jank<ch a="G"/>esom śmierć tak nam dop<ch a="C"/>omóż B<ch a="D"/>óg</row>
 			<row important_over="false"><ch a="G"/> Na dworcu tł<ch a="D"/>ok sztandary <ch a="G"/>i kobiety</row>
 			<row important_over="false"><ch a="e"/> Pociągi pełne chłopców ż<ch a="C"/>ądnych krw<ch a="D"/>i</row>
 			<row important_over="false"><ch a="G"/> W kwietniowym sł<ch a="D"/>ońcu błyszczą<ch a="e"/> epol<ch a="C"/>ety</row>
@@ -24,10 +24,10 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">Sc<ch a="G"/>arlett czemu sł<ch a="D"/>owa takie zimne</row>
-				<row important_over="false">Jakby w g<ch a="C"/>ardle okruch lodu st<ch a="D"/>ał</row>
+				<row important_over="true">Sc<ch a="G"/>arlett czemu sł<ch a="D"/>owa takie zimne</row>
+				<row important_over="true">Jakby w g<ch a="C"/>ardle okruch lodu st<ch a="D"/>ał</row>
 				<row important_over="false">Sc<ch a="G"/>arlett wojna ni<ch a="D"/>e jest dla dziewczynek</row>
-				<row important_over="false">Które ni<ch a="a"/>e potrafią gr<ch a="C"/>ać va b<ch a="D"/>anque</row>
+				<row important_over="true">Które ni<ch a="a"/>e potrafią gr<ch a="C"/>ać va b<ch a="D"/>anque</row>
 			</bis>
 		</block>
 		<block type="verse">

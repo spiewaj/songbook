@@ -20,7 +20,7 @@
 			<row important_over="true">Tylko chci<ch a="a"/>eć, Twój c<ch a="e"/>ały będzie zodiak,</row>
 			<row important_over="true">Tylko chci<ch a="C"/>eć, a szcz<ch a="H7"/>ęście masz o kr<ch a="e"/>ok.</row>
 			<row important_over="true">Kolory t<ch a="Fis7"/>ęczy <ch a="H7"/>i złoto zb<ch a="e"/>óż,</row>
-			<row important_over="true">Srebro księż<ch a="Fis7"/>yca <ch a="H7"/>i zapach r<ch a="e"/>óż…</row>
+			<row important_over="false">Srebro księż<ch a="Fis7"/>yca <ch a="H7"/>i zapach r<ch a="e"/>óż…</row>
 			<row important_over="true"><ch a="a"/> Dla ciebie wsz<ch a="H7"/>ystko!</row>
 		</block>
 		<block type="verse">

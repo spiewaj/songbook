@@ -11,7 +11,7 @@
 		<block type="verse">
 			<row important_over="true">Gdy mnie k<ch a="D"/>ochać przest<ch a="G"/>aniesz to p<ch a="D"/>owiedz</row>
 			<row important_over="true">Powiedz ki<ch a="G"/>edy mnie k<ch a="A"/>ochać przest<ch a="G"/>ani<ch a="A"/>esz</row>
-			<row important_over="true">To się czł<ch a="D"/>owiek wypł<ch a="G"/>acze jak czł<ch a="D"/>owiek</row>
+			<row important_over="false">To się czł<ch a="D"/>owiek wypł<ch a="G"/>acze jak czł<ch a="D"/>owiek</row>
 			<row important_over="true">W białym ł<ch a="G"/>óżku nad r<ch a="A"/>an<ch a="D"/>em</row>
 			<row important_over="false">Nie przys<ch a="D"/>yłaj mi l<ch a="G"/>istów ost<ch a="D"/>atnich</row>
 			<row important_over="false">Nie owij<ch a="G"/>aj w baw<ch a="A"/>ełnę słów p<ch a="G"/>ar<ch a="A"/>u</row>
@@ -20,10 +20,10 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Na tal<ch a="A"/>erzach świecy b<ch a="D"/>lask</row>
-			<row important_over="true">Dymi w<ch a="A"/>aza pełna gwi<ch a="D"/>azd</row>
+			<row important_over="false">Dymi w<ch a="A"/>aza pełna gwi<ch a="D"/>azd</row>
 			<row important_over="true">A pod st<ch a="fis"/>ołem kot się ł<ch a="D"/>asi</row>
-			<row important_over="true">Coś stukn<ch a="fis"/>ęło na tar<ch a="D"/>asie</row>
-			<row important_over="true">M<ch a="A"/>oże wi<ch a="D"/>atr</row>
+			<row important_over="false">Coś stukn<ch a="fis"/>ęło na tar<ch a="D"/>asie</row>
+			<row important_over="false">M<ch a="A"/>oże wi<ch a="D"/>atr</row>
 			<row important_over="false">Piętro w<ch a="A"/>yżej ćwiczą Lis<ch a="D"/>zta</row>
 			<row important_over="false">A zawi<ch a="A"/>ane towarz<ch a="D"/>ystwo</row>
 			<row important_over="false">Gdzieś pod b<ch a="fis"/>ramą wykrzy<ch a="D"/>kuje</row>

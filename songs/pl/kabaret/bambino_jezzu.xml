@@ -37,11 +37,11 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Słuchaj jazzu <ch a="A7"/>mały Jezu, <ch a="D"/>niech ci zaswin<ch a="G"/>guje wiatr</row>
-      <row important_over="false"><ch a="e"/>Za muzykę daj nam tylko - <ch a="Fis"/>What a wonderful... <ch a="h"/>świat</row>
+      <row important_over="true"><ch a="e"/>Za muzykę daj nam tylko - <ch a="Fis"/>What a wonderful... <ch a="h"/>świat</row>
     </block>
     <block type="verse">
-      <row important_over="false">{celowo pominąłem wstawki instrumentalne,</row>
-      <row important_over="false">każdy może sobie potworzyć na zasadzie:}</row>
+      <row important_over="never">{celowo pominąłem wstawki instrumentalne,</row>
+      <row important_over="never">każdy może sobie potworzyć na zasadzie:}</row>
       <row important_over="false" style="instr"> <ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/><ch a="h"/><ch a="Fis"/></row>
       <row important_over="false" style="instr"> <ch a="e"/><ch a="A7"/><ch a="D"/><ch a="G"/><ch a="e"/><ch a="Fis"/></row>
     </block>

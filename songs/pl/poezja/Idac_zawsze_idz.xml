@@ -35,13 +35,13 @@
 			<row important_over="false">Więc: ki<ch a="Fis"/>edy milczysz, m<ch a="H"/>ilcz</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="e"/> Milczeliśmy przez godzinę</row>
-			<row important_over="false">Popijając połowinę p<ch a="Fis"/>od kwas</row>
-			<row important_over="false"><ch a="H"/> Gdy byliśmy już w rozpędzie</row>
+			<row important_over="true"><ch a="e"/> Milczeliśmy przez godzinę</row>
+			<row important_over="true">Popijając połowinę p<ch a="Fis"/>od kwas</row>
+			<row important_over="true"><ch a="H"/> Gdy byliśmy już w rozpędzie</row>
 			<row important_over="false">Wstał, powiedział: na mnie będzie j<ch a="e"/>uż cz<ch a="H"/>as</row>
-			<row important_over="false"><ch a="e"/> Jeszcze na mnie spojrzał, jak ten</row>
-			<row important_over="false">Który miał miasteczka każdy wi<ch a="Fis"/>e, gdzie</row>
-			<row important_over="false"><ch a="a"/> Na odchodnym, bez przymiarki</row>
+			<row important_over="true"><ch a="e"/> Jeszcze na mnie spojrzał, jak ten</row>
+			<row important_over="true">Który miał miasteczka każdy wi<ch a="Fis"/>e, gdzie</row>
+			<row important_over="true"><ch a="a"/> Na odchodnym, bez przymiarki</row>
 			<row important_over="false">Rzucił słowne dwa ogarki b<ch a="Fis"/>ym pamiętał, ż<ch a="H"/>e</row>
 		</block>
 		<blocklink blocknb="2"/>

@@ -8,7 +8,7 @@
       <row important_over="true"><ch a="D"/>Mundur chusta pas zuchowy</row>
       <row important_over="true"><ch a="A"/>beret zdobi <ch a="G"/>głowy</row>
       <row important_over="true"><ch a="D"/>a na piersi pięknie błyszczy</row>
-      <row important_over="true"><ch a="A"/>znaczek <ch a="G"/>kolorowy!</row>
+      <row important_over="false"><ch a="A"/>znaczek <ch a="G"/>kolorowy!</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="D"/>To zuchy, to zuchy</row>

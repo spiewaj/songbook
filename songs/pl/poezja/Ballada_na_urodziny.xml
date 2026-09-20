@@ -13,12 +13,12 @@
 				<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Jakby nigdy nic brodzę już w smudze cienia<ch a="h"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="false">
+			<row important_over="true">Jakby nigdy nic brodzę już w smudze cienia<ch a="h"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="true">
 				<ch a="h"/>I widzę jak zach<ch a="e"/>odzi słonko <ch a="a"/>ojca i matki<ch a="D"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="G"/>Jakby nigdy nic przyjaciół paru na cmentarzach<ch a="h"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="h"/>Jakby nigdy nic kwitną na nich kwiatki<ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
 		</block>
 		<block type="other">
@@ -46,7 +46,7 @@
 				<ch a="h"/>Jakby nigdy nic życie ucieka<ch a="e"/><ch a="a"/><ch a="D"/></row>
 			<row important_over="false">
 				<ch a="G"/>Jakby nigdy nic robię dobrą minę do złej gry<ch a="h"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="H"/>I z nadzieją na jutro czekam<ch a="e"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
 		</block>
 		<block type="other">

@@ -26,8 +26,8 @@ Ponoć refreny są różne, np. zaczynają się od słów ,,Cały Broadway'', ,,
 			<row important_over="false">Całe s<ch a="e"/>erce w to włożył żeby innym ludziom dać</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Taki Br<ch a="H7"/>oadway ten Broadway z kolorowych pięknych kart</row>
-			<row important_over="true">Taki Br<ch a="C"/>oadway ten Broadway którym się zachwyca świat<ch a="e"/></row>
+			<row important_over="false">Taki Br<ch a="H7"/>oadway ten Broadway z kolorowych pięknych kart</row>
+			<row important_over="false">Taki Br<ch a="C"/>oadway ten Broadway którym się zachwyca świat<ch a="e"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Czasem kt<ch a="e"/>oś się zatrzymał i na życie quartra dał</row>
@@ -44,7 +44,7 @@ Ponoć refreny są różne, np. zaczynają się od słów ,,Cały Broadway'', ,,
 		</block>
 		<blocklink blocknb="4"/>
 		<block type="other">
-			<row style="instr"><ch a="e"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="C"/><ch a="e"/></row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="C"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">A gdy sk<ch a="e"/>ończył się koncert stary Murzyn go zaprosił</row>

@@ -16,7 +16,7 @@
 			<row important_over="true"><ch a="C"/>Oprócz pożółkłych fotografii<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
 			<row important_over="true"><ch a="e"/>Błękitny mnie przywita świt<ch a="F"/><ch a="C"/><ch a="G"/></row>
 			<bis times="2">
-				<row important_over="true">
+				<row important_over="false">
 					<ch a="C"/>W miejscu co nie ma go na mapie<ch a="F"/></row>
 			</bis>
 		</block>

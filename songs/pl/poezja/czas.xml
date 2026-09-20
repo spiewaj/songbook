@@ -10,10 +10,10 @@
 			<row important_over="true"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
 			<row important_over="true">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
 			<row important_over="true">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
-			<row important_over="false">Tylko cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
-			<row important_over="false"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
-			<row important_over="false">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
-			<row important_over="false">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
+			<row important_over="true">Tylko cz<ch a="d"/>as płynie wciąż tak jak wąż poplątany ogon</row>
+			<row important_over="true"><ch a="B"/> Dnia minionego mgłą ktoś wypatruje nocą</row>
+			<row important_over="true">Gwi<ch a="C"/>azd zimny śmiech wiatru gwizd szary przedsmak świata</row>
+			<row important_over="true">J<ch a="d"/>est nie ma nic chwil minionych już nie złapiesz.</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Sp<ch a="d"/>ójrz! Oto ż<ch a="C"/>ycia twego tajemnicza ksi<ch a="d"/>ęga.</row>

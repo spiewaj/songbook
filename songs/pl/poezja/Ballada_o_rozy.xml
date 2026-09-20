@@ -11,8 +11,8 @@
 		<block type="verse">
 			<row important_over="true"><ch a="C"/> Raz w przezroczysty dzi<ch a="a"/>eń słoneczny</row>
 			<row important_over="true"><ch a="d"/> Jakiś nieb<ch a="G"/>oszczyk c<ch a="d"/>zy przech<ch a="G"/>odzień</row>
-			<row important_over="true"><ch a="C"/> Ubrany czarno ni<ch a="a"/>edorzeczny</row>
-			<row important_over="true"><ch a="d"/> W kwitnącym zn<ch a="G"/>alazł si<ch a="d"/>ę ogr<ch a="G"/>odzie</row>
+			<row important_over="false"><ch a="C"/> Ubrany czarno ni<ch a="a"/>edorzeczny</row>
+			<row important_over="false"><ch a="d"/> W kwitnącym zn<ch a="G"/>alazł si<ch a="d"/>ę ogr<ch a="G"/>odzie</row>
 			<row important_over="true"><ch a="C"/> Przepłoszył dłonią ptasie śpi<ch a="G"/>ewy</row>
 			<row important_over="true">Zat<ch a="a"/>oczył się od mocnych w<ch a="e"/>oni</row>
 			<row important_over="true">A ki<ch a="F"/>edy róży dojrzał kr<ch a="C"/>zewy</row>

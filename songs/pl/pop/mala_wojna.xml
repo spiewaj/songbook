@@ -5,8 +5,8 @@
     <block type="verse">
       <row important_over="true"><ch a="gis"/> Aniołowie jeśli t<ch a="Fis"/>ylko s<ch a="H"/>ą</row>
       <row important_over="true"><ch a="E"/> Kryją się w <ch a="cis"/>metalowych <ch a="H"/>bunkrach <ch a="Fis"/></row>
-      <row important_over="true"><ch a="gis"/> Takie listy <ch a="Fis"/>szybko <ch a="H"/>drą</row>
-      <row important_over="true"><ch a="E"/> Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro <ch a="Fis"/></row>
+      <row important_over="false"><ch a="gis"/> Takie listy <ch a="Fis"/>szybko <ch a="H"/>drą</row>
+      <row important_over="false"><ch a="E"/> Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro <ch a="Fis"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="gis"/><ch a="Fis"/><ch a="gis"/></row>
@@ -19,10 +19,10 @@
       <row important_over="false"><ch a="E"/> Tylko coś <ch a="cis"/>nie pozwala <ch a="H"/>usnąć <ch a="Fis"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="E"/> Zawsze <ch a="Fis"/>iść, rozkaz, <ch a="gis"/>który mam we <ch a="H"/>krwi</row>
+      <row important_over="true"><ch a="E"/> Zawsze <ch a="Fis"/>iść, rozkaz, <ch a="gis"/>który mam we <ch a="H"/>krwi</row>
       <row important_over="false"><ch a="E"/> Małą w<ch a="Fis"/>ojnę w sobie <ch a="gis"/>mieć <ch a="H"/></row>
       <row important_over="false"><ch a="E"/> Z każdym z <ch a="Fis"/>was walczyć <ch a="gis"/>do utraty <ch a="H"/>tchu</row>
-      <row important_over="false"><ch a="E"/> I bez <ch a="Fis"/>słów</row>
+      <row important_over="true"><ch a="E"/> I bez <ch a="Fis"/>słów</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="gis"/> Mogę zwalić <ch a="Fis"/>ciebie z <ch a="H"/>nóg</row>
@@ -37,9 +37,9 @@
       <row important_over="false"><ch a="E"/> Ludzie <ch a="Fis"/>są</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="A"/> Tacy są,<ch a="D"/> ktoś za<ch a="E"/>płacił za twój <ch a="A"/>ból</row>
-      <row important_over="false">Za szampana łyk,<ch a="D"/> od tej <ch a="E"/>chwili będziesz <ch a="Fis"/>mój</row>
-      <row important_over="false">Nie, nie odwracaj się, <ch a="Gis"/>patrz mi w oczy patrz O!</row>
+      <row important_over="true"><ch a="A"/> Tacy są,<ch a="D"/> ktoś za<ch a="E"/>płacił za twój <ch a="A"/>ból</row>
+      <row important_over="true">Za szampana łyk,<ch a="D"/> od tej <ch a="E"/>chwili będziesz <ch a="Fis"/>mój</row>
+      <row important_over="true">Nie, nie odwracaj się, <ch a="Gis"/>patrz mi w oczy patrz O!</row>
     </block>
     <blocklink blocknb="6"/>
     <block type="other">

@@ -22,12 +22,12 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Jakie <ch a="a"/>chcesz pan bolero</row>
-      <row important_over="false">Białe, <ch a="G"/>czarne, różowe</row>
-      <row important_over="false">Zapi<ch a="F"/>nane od przodu</row>
-      <row important_over="false">Czy wkła<ch a="E"/>dane przez głowę</row>
-      <row important_over="false">Z przo<ch a="a"/>du złote guziki</row>
-      <row important_over="false">Z tyłu <ch a="G"/>patka czy bez</row>
+      <row important_over="true">Jakie <ch a="a"/>chcesz pan bolero</row>
+      <row important_over="true">Białe, <ch a="G"/>czarne, różowe</row>
+      <row important_over="true">Zapi<ch a="F"/>nane od przodu</row>
+      <row important_over="true">Czy wkła<ch a="E"/>dane przez głowę</row>
+      <row important_over="true">Z przo<ch a="a"/>du złote guziki</row>
+      <row important_over="true">Z tyłu <ch a="G"/>patka czy bez</row>
       <row important_over="false">Jakie <ch a="F"/>chcesz pan bolero, <ch a="E"/>Ole!</row>
     </block>
     <blocklink blocknb="2"/>

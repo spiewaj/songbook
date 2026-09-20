@@ -9,23 +9,23 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Gd<ch a="e"/>y na rajd wyruszaliśmy</row>
-      <row important_over="false">Wsz<ch a="D"/>yscy byli dobrej myśli</row>
-      <row important_over="false">B<ch a="C"/>uty mocno zawiązali</row>
-      <row important_over="false">I plec<ch a="D"/>aki z<ch a="e"/>arzucili</row>
-      <row important_over="false">P<ch a="e"/>omyśleli jak to fajnie</row>
-      <row important_over="false">B<ch a="D"/>ędzie siedzieć przy ognisku</row>
-      <row important_over="false">Gd<ch a="C"/>y na las się kładą cienie</row>
+      <row important_over="true">Gd<ch a="e"/>y na rajd wyruszaliśmy</row>
+      <row important_over="true">Wsz<ch a="D"/>yscy byli dobrej myśli</row>
+      <row important_over="true">B<ch a="C"/>uty mocno zawiązali</row>
+      <row important_over="true">I plec<ch a="D"/>aki z<ch a="e"/>arzucili</row>
+      <row important_over="true">P<ch a="e"/>omyśleli jak to fajnie</row>
+      <row important_over="true">B<ch a="D"/>ędzie siedzieć przy ognisku</row>
+      <row important_over="true">Gd<ch a="C"/>y na las się kładą cienie</row>
       <row important_over="false"><ch a="D"/>A nad głową <ch a="e"/>iskra błyska</row>
-      <row important_over="false">K<ch a="G"/>ilometry już za nami</row>
-      <row important_over="false"><ch a="D"/>A przed nami zachód słońca</row>
-      <row important_over="false"><ch a="e"/>Echo niesie nad górami</row>
+      <row important_over="true">K<ch a="G"/>ilometry już za nami</row>
+      <row important_over="true"><ch a="D"/>A przed nami zachód słońca</row>
+      <row important_over="true"><ch a="e"/>Echo niesie nad górami</row>
       <row important_over="false">Pi<ch a="D"/>eśń radosną pi<ch a="e"/>eśń bez końca</row>
     </block>
     <block type="chorus">
-      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="true">L<ch a="e"/>a la la la la</row>
       <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la</row>
-      <row important_over="false">L<ch a="e"/>a la la la la</row>
+      <row important_over="true">L<ch a="e"/>a la la la la</row>
       <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la</row>
     </block>
     <block type="verse">

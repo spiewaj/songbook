@@ -7,11 +7,11 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Wyobraź sobie, że <ch a="F"/>umiesz widzieć rzecz</row>
       <row important_over="true">Taką, <ch a="D"/>jaka ona jest</row>
-      <row important_over="true"><ch a="a"/>Że da się zdjąć <ch a="F"/>okulary skojarzeń</row>
+      <row important_over="false"><ch a="a"/>Że da się zdjąć <ch a="F"/>okulary skojarzeń</row>
       <row important_over="true">Wymazać <ch a="D"/>wspomnień obrazy</row>
-      <row important_over="true"><ch a="a"/>Patrząc na fotel już nie <ch a="F"/>widzę go</row>
+      <row important_over="false"><ch a="a"/>Patrząc na fotel już nie <ch a="F"/>widzę go</row>
       <row important_over="true">Widzę <ch a="D"/>ciebie jak siedzisz i płaczesz</row>
-      <row important_over="true"><ch a="a"/>Patrząc na tęczę widzę <ch a="F"/>podbite oko</row>
+      <row important_over="false"><ch a="a"/>Patrząc na tęczę widzę <ch a="F"/>podbite oko</row>
       <row important_over="true">Widzę <ch a="D"/>przepaść głęboką</row>
     </block>
     <block type="chorus">
@@ -19,11 +19,11 @@
         <row important_over="true"><ch a="a"/>Czy mógłby <ch a="C"/>ktoś tak wyzerować <ch a="G"/>świat</row>
         <row important_over="true">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj?</row>
         <row important_over="true">Bez słów, co <ch a="C"/>bolą, bez otwartych <ch a="G"/>ran</row>
-        <row important_over="true">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
+        <row important_over="false">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
       </bis>
     </block>
     <block type="chorus">
-      <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj<ch a="C"/><ch a="G"/></row>
+      <row important_over="true">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj<ch a="C"/><ch a="G"/></row>
       <row important_over="false">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
     </block>
     <block type="verse">
@@ -40,14 +40,14 @@
     <blocklink blocknb="3"/>
     <block type="other">
       <bis times="4">
-        <row important_over="false"><ch a="a"/>Uuu-<ch a="C"/>uuu-u, <ch a="D"/>uuu <ch a="F"/> uuu</row>
+        <row important_over="true"><ch a="a"/>Uuu-<ch a="C"/>uuu-u, <ch a="D"/>uuu <ch a="F"/> uuu</row>
       </bis>
     </block>
     <blocklink blocknb="2"/>
     <block type="chorus">
       <bis times="4">
-        <row important_over="false"><ch a="a"/>Tak wyzerować <ch a="C"/>świat</row>
-        <row important_over="false">Bez otwartych <ch a="G"/>ran</row>
+        <row important_over="true"><ch a="a"/>Tak wyzerować <ch a="C"/>świat</row>
+        <row important_over="true">Bez otwartych <ch a="G"/>ran</row>
         <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj</row>
       </bis>
     </block>

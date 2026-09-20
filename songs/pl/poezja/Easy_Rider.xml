@@ -20,11 +20,11 @@
 			<row important_over="true">Easy R<ch a="a"/>ider</row>
 			<row important_over="true">Prz<ch a="d"/>eszło mi przez głowę</row>
 			<row important_over="true">Easy R<ch a="a"/>ider</row>
-			<row important_over="false">Gł<ch a="a"/>upiec jednym słowem</row>
+			<row important_over="true">Gł<ch a="a"/>upiec jednym słowem</row>
 			<row important_over="true">Lecz ciągn<ch a="d"/>ęły mnie panny</row>
-			<row important_over="false">Ci<ch a="d"/>epłe jak poranek</row>
+			<row important_over="true">Ci<ch a="d"/>epłe jak poranek</row>
 			<row important_over="true">Kiedy ml<ch a="E"/>eko skwaszone</row>
-			<row important_over="false">Wn<ch a="E"/>oszą mi na ganek</row>
+			<row important_over="true">Wn<ch a="E"/>oszą mi na ganek</row>
 			<row important_over="true">Easy R<ch a="a"/>ider<ch a="d"/>, Easy R<ch a="a"/>ider</row>
 		</block>
 		<block type="verse">
@@ -87,11 +87,11 @@
 		<block type="verse">
 			<row important_over="false">A kiedy m<ch a="a"/>inął już mi<ch a="D"/>esiąc w m<ch a="a"/>ej samotnej dr<ch a="D"/>odze</row>
 			<row important_over="false">Gdzieś na szl<ch a="a"/>aku zatrz<ch a="D"/>ymał p<ch a="a"/>ojazd mój wędrowiec</row>
-			<row important_over="false">Sprawiedl<ch a="d"/>iwość i prawda rzekłem do rodaka</row>
-			<row important_over="false">I był pi<ch a="E"/>erwszym co spytał: dobrze, ale jaka?</row>
-			<row important_over="false">I podzi<ch a="d"/>elił się ze mną chlebem i kłopotem</row>
+			<row important_over="true">Sprawiedl<ch a="d"/>iwość i prawda rzekłem do rodaka</row>
+			<row important_over="true">I był pi<ch a="E"/>erwszym co spytał: dobrze, ale jaka?</row>
+			<row important_over="true">I podzi<ch a="d"/>elił się ze mną chlebem i kłopotem</row>
 			<row important_over="false">To był t<ch a="H"/>eż Easy Rider t<ch a="E"/>ylko na piechotę</row>
-			<row important_over="false">Easy R<ch a="a"/>ider</row>
+			<row important_over="true">Easy R<ch a="a"/>ider</row>
 		</block>
 	</lyric>
 	

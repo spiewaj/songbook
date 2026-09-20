@@ -3,44 +3,44 @@
 	<artist type="solo">Bułat Okudżawa</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Dopóki nam Ziemia kręci się,<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Dopóki jest tak czy siak,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="false">Panie, ofiaruj każdemu z nas<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Czego mu w życiu brak.<ch a="G7"/><ch a="C"/></row>
-			<row important_over="false">Mędrcowi darować głowę racz,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Tchórzowi dać konia chciej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="false">Sypnij grosz szczęściarzom<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Dopóki nam Ziemia kręci się,<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Dopóki jest tak czy siak,<ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Panie, ofiaruj każdemu z nas<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Czego mu w życiu brak.<ch a="G7"/><ch a="C"/></row>
+			<row important_over="never">Mędrcowi darować głowę racz,<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Tchórzowi dać konia chciej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
+			<row important_over="never">Sypnij grosz szczęściarzom<ch a="a"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Dopóki nam Ziemia obraca się,<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">O, Panie, daj nam znak.<ch a="E7"/><ch a="a"/></row>
-			<row important_over="false">Władzy spragnionym uczyń,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">By władza poszła im w smak.<ch a="G7"/><ch a="C"/></row>
-			<row important_over="false">Hojnych puść między żebraków,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Niech się poczują lżej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="false">Daj Kainowi skruchę<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Dopóki nam Ziemia obraca się,<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">O, Panie, daj nam znak.<ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Władzy spragnionym uczyń,<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">By władza poszła im w smak.<ch a="G7"/><ch a="C"/></row>
+			<row important_over="never">Hojnych puść między żebraków,<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Niech się poczują lżej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
+			<row important_over="never">Daj Kainowi skruchę<ch a="a"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ja wiem, że Ty wszystko możesz,<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Ja wierzę w Twą moc i gest,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="false">Jak wierzy żołnierz zabity,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Że w siódmym niebie jest,<ch a="G7"/><ch a="C"/></row>
-			<row important_over="false">Jak zmysł każdy chłonie z wiarą<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Twój ledwie słyszalny głos,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="false">Jak wszyscy wierzymy w Ciebie,<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Nie wiedząc, co niesie los.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Ja wiem, że Ty wszystko możesz,<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Ja wierzę w Twą moc i gest,<ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Jak wierzy żołnierz zabity,<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Że w siódmym niebie jest,<ch a="G7"/><ch a="C"/></row>
+			<row important_over="never">Jak zmysł każdy chłonie z wiarą<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Twój ledwie słyszalny głos,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
+			<row important_over="never">Jak wszyscy wierzymy w Ciebie,<ch a="a"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Nie wiedząc, co niesie los.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Panie zielonooki mój<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Boże jedyny spraw,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="false">Dopóki nam Ziemia toczy się<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Zdumiona obrotem spraw,<ch a="G7"/><ch a="C"/></row>
-			<row important_over="false">Dopóki czasu i prochu<ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Wciąż jeszcze wystarcza jej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="false">Dajże nam wszystkim po trochu<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Panie zielonooki mój<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Boże jedyny spraw,<ch a="E7"/><ch a="a"/></row>
+			<row important_over="never">Dopóki nam Ziemia toczy się<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Zdumiona obrotem spraw,<ch a="G7"/><ch a="C"/></row>
+			<row important_over="never">Dopóki czasu i prochu<ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">Wciąż jeszcze wystarcza jej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
+			<row important_over="never">Dajże nam wszystkim po trochu<ch a="a"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
 		</block>
 	</lyric>
 	<music>

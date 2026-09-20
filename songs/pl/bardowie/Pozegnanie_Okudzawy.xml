@@ -21,7 +21,7 @@
 			</bis>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Pi<ch a="a"/>osenka pożegn<ch a="H7"/>ania —</row>
+			<row important_over="false">Pi<ch a="a"/>osenka pożegn<ch a="H7"/>ania —</row>
 			<row important_over="true">Pios<ch a="E"/>enką jest utr<ch a="a"/>aty,</row>
 			<row important_over="false">Ż<ch a="a"/>egnałem ludzi i zd<ch a="H7"/>ania —</row>
 			<row important_over="false">Trac<ch a="E"/>iłem całe świ<ch a="a"/>aty.</row>
@@ -59,10 +59,10 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="true">Ach, świ<ch a="A7"/>at przebrzmiałych dźwi<ch a="d"/>ęków</row>
-			<row important_over="true">J<ch a="G"/>akąż melodię wi<ch a="C"/>ó<ch a="E7"/>dł!</row>
-			<row important_over="true">J<ch a="a"/>uż jej nie wskrzesisz r<ch a="H7"/>ęką,</row>
-			<row important_over="true">Już ni<ch a="E"/>e ma tamtych n<ch a="a"/>ut…</row>
+			<row important_over="false">Ach, świ<ch a="A7"/>at przebrzmiałych dźwi<ch a="d"/>ęków</row>
+			<row important_over="false">J<ch a="G"/>akąż melodię wi<ch a="C"/>ó<ch a="E7"/>dł!</row>
+			<row important_over="false">J<ch a="a"/>uż jej nie wskrzesisz r<ch a="H7"/>ęką,</row>
+			<row important_over="false">Już ni<ch a="E"/>e ma tamtych n<ch a="a"/>ut…</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Ach, z t<ch a="A7"/>ego, czego już ni<ch a="d"/>e ma</row>

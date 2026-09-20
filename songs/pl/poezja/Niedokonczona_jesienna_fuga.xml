@@ -35,20 +35,20 @@
 				<row important_over="true">i chwi<ch a="d"/>ać się b<ch a="e"/>ędzie drż<ch a="a"/>eniem nieba</row>
 				<row important_over="true">
 					<ch a="h"/>i hor<ch a="E"/>yzontu zmi<ch a="a"/>en<ch a="G"/>i dr<ch a="F"/>ogi</row>
-				<row important_over="true">i <ch a="d"/>umrzeć m<ch a="e"/>oim sł<ch a="a"/>owom nie da</row>
+				<row important_over="false">i <ch a="d"/>umrzeć m<ch a="e"/>oim sł<ch a="a"/>owom nie da</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<row important_over="false">Do końca drogi swej noc zmierza<ch a="a"/><ch a="G6"/><ch a="F"/><ch a="C7+"/></row>
 			<row important_over="false">i płoną drzewa w nocnym chłodzie<ch a="E4"/><ch a="E7"/><ch a="a"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="false">czy gościem będę w nim czy muszę<ch a="g"/><ch a="C"/><ch a="F7+e"/><ch a="E7/4"/></row>
+			<row important_over="true">czy gościem będę w nim czy muszę<ch a="g"/><ch a="C"/><ch a="F7+e"/><ch a="E7/4"/></row>
 			<row important_over="false">do domu swego wejść jak złodziej<ch a="a"/><ch a="G6"/><ch a="a"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="false">Beskid woła znak mi daje<ch a="f9"/><ch a="C7+"/></row>
 				<row important_over="false">wiem oto droga już niedługa<ch a="d"/><ch a="e"/><ch a="a"/></row>
-				<row important_over="false">i trwa świt złocąc wyświechtana<ch a="h"/><ch a="E"/><ch a="a"/><ch a="GF"/></row>
+				<row important_over="true">i trwa świt złocąc wyświechtana<ch a="h"/><ch a="E"/><ch a="a"/><ch a="GF"/></row>
 				<row important_over="false">jesiennym wiatrem biedna fuga<ch a="d"/><ch a="e"/><ch a="a"/></row>
 			</bis>
 		</block>

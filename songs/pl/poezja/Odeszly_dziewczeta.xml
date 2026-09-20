@@ -9,22 +9,22 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Odeszły dziewczęta zostały wspomnienia</row>
-      <row important_over="false"><ch a="d"/>Które goni wiatr<ch a="E"/></row>
-      <row important_over="false"><ch a="a"/>Odeszli koledzy pozostał wśród jodeł</row>
-      <row important_over="false"><ch a="d"/>Obozowisk ślad<ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>Odeszły dziewczęta zostały wspomnienia</row>
+      <row important_over="never"><ch a="d"/>Które goni wiatr<ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>Odeszli koledzy pozostał wśród jodeł</row>
+      <row important_over="never"><ch a="d"/>Obozowisk ślad<ch a="E"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="a"/>Przy blasku ogniska gdy dzień kończy się wschodzi mrok<ch a="F"/></row>
-      <row important_over="false"><ch a="a"/>Płynie pieśń smutna pieśń<ch a="E"/></row>
-      <row important_over="false"><ch a="a"/>O dziewczętach z którymi nie można już iść<ch a="d"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="false"><ch a="a"/>O piosenkach śpiewanych płynących jak ogniska dym<ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="never"><ch a="a"/>Przy blasku ogniska gdy dzień kończy się wschodzi mrok<ch a="F"/></row>
+      <row important_over="never"><ch a="a"/>Płynie pieśń smutna pieśń<ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>O dziewczętach z którymi nie można już iść<ch a="d"/><ch a="F"/><ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>O piosenkach śpiewanych płynących jak ogniska dym<ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wspominasz czasami dzień smutnych pożegnań</row>
-      <row important_over="false"><ch a="d"/>Urok tamtych chwil<ch a="E"/></row>
-      <row important_over="false"><ch a="a"/>Wspominasz przyjaciół przebytych wędrówek</row>
-      <row important_over="false"><ch a="d"/>Polnej drogi pył<ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>Wspominasz czasami dzień smutnych pożegnań</row>
+      <row important_over="never"><ch a="d"/>Urok tamtych chwil<ch a="E"/></row>
+      <row important_over="never"><ch a="a"/>Wspominasz przyjaciół przebytych wędrówek</row>
+      <row important_over="never"><ch a="d"/>Polnej drogi pył<ch a="E"/></row>
     </block>
   </lyric>
   <music metre="">

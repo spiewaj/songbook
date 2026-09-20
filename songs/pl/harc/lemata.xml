@@ -8,8 +8,8 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Pamiętam, <ch a="G"/>tylko tabun <ch a="a"/>chmur się rozw<ch a="e"/>inął</row>
       <row important_over="true">I <ch a="F"/>cichy <ch a="C"/>wiatr wie<ch a="G"/>jący <ch a="F"/>ku poło<ch a="G"/>ninom</row>
-      <row important_over="true"><ch a="C"/>I twardy <ch a="G"/>jak kamień <ch a="a"/>plecak pod <ch a="e"/>moją głową</row>
-      <row important_over="true"><ch a="F"/>I czyjaś <ch a="C"/>postać, <ch a="G"/>co oka<ch a="F"/>zała się <ch a="G"/>tobą</row>
+      <row important_over="false"><ch a="C"/>I twardy <ch a="G"/>jak kamień <ch a="a"/>plecak pod <ch a="e"/>moją głową</row>
+      <row important_over="false"><ch a="F"/>I czyjaś <ch a="C"/>postać, <ch a="G"/>co oka<ch a="F"/>zała się <ch a="G"/>tobą</row>
     </block>
     <block type="chorus">
       <bis times="2">

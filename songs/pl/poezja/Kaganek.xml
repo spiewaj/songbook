@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true"><ch a="d"/> Nocą każdą zap<ch a="a"/>alasz kaganek,</row>
-			<row important_over="true"><ch a="d"/> Płomień chwieje się, t<ch a="a"/>ańczy i drga.</row>
+			<row important_over="false"><ch a="d"/> Płomień chwieje się, t<ch a="a"/>ańczy i drga.</row>
 			<row important_over="true"><ch a="F"/> By wskazywać dr<ch a="G"/>ogę zbłąkanym,</row>
 			<row important_over="true"><ch a="F"/> W oknie twoim się <ch a="G"/>pali do dni<ch a="a"/>a,</row>
 			<row important_over="true">Do dni<ch a="d"/>a<ch a="a"/>, do dni<ch a="d"/>a<ch a="a"/>…</row>

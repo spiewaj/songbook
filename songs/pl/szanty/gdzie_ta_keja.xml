@@ -9,17 +9,17 @@
       <row important_over="true">Gdyby <ch a="a"/>tak ktoś przyszedł i powiedział: &quot;<ch a="G"/>Stary czy masz <ch a="a"/>czas?</row>
       <row important_over="true">Potrze<ch a="C"/>buję do załogi <ch a="G7"/>jakąś nową <ch a="C"/>twarz,</row>
       <row important_over="true">Ama<ch a="g"/>zonka Wielka <ch a="A7"/>Rafa, <ch a="d"/>Oce<ch a="A7"/>any <ch a="d"/>trzy,</row>
-      <row important_over="true">Rejs na <ch a="a"/>całość, rok, dwa lata&quot; - <ch a="G"/>to powiedział <ch a="a"/>bym:</row>
+      <row important_over="false">Rejs na <ch a="a"/>całość, rok, dwa lata&quot; - <ch a="G"/>to powiedział <ch a="a"/>bym:</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
+      <row important_over="false">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
       <row important_over="true">Gdzie ta <ch a="C"/>koja <ch a="G7"/>wymarzona w <ch a="C"/>snach? <ch a="C7"/></row>
-      <row important_over="true">Gdzie te <ch a="g"/>wszystkie <ch a="A7"/>sznurki <ch a="d"/>od <ch a="A7"/>tych <ch a="d"/>szmat?</row>
-      <row important_over="true">Gdzie ta <ch a="a"/>brama <ch a="G"/>na szeroki ś<ch a="a"/>wiat?</row>
-      <row important_over="true">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
-      <row important_over="true">Gdzie ta <ch a="C"/>koja, <ch a="G7"/>wymarzona w <ch a="C"/>snach?<ch a="C7"/></row>
-      <row important_over="true">W każdej <ch a="g"/>chwili <ch a="A7"/>płynę w <ch a="d"/>ta<ch a="A7"/>ki <ch a="d"/>rejs,</row>
-      <row important_over="true">Tylko <ch a="a"/>gdzie to jest?<ch a="G"/> No gdzie to<ch a="a"/> jest?</row>
+      <row important_over="false">Gdzie te <ch a="g"/>wszystkie <ch a="A7"/>sznurki <ch a="d"/>od <ch a="A7"/>tych <ch a="d"/>szmat?</row>
+      <row important_over="false">Gdzie ta <ch a="a"/>brama <ch a="G"/>na szeroki ś<ch a="a"/>wiat?</row>
+      <row important_over="false">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
+      <row important_over="false">Gdzie ta <ch a="C"/>koja, <ch a="G7"/>wymarzona w <ch a="C"/>snach?<ch a="C7"/></row>
+      <row important_over="false">W każdej <ch a="g"/>chwili <ch a="A7"/>płynę w <ch a="d"/>ta<ch a="A7"/>ki <ch a="d"/>rejs,</row>
+      <row important_over="false">Tylko <ch a="a"/>gdzie to jest?<ch a="G"/> No gdzie to<ch a="a"/> jest?</row>
     </block>
     <block type="verse">
       <row important_over="false">Gdzieś na <ch a="a"/>dnie wielkiej szafy <ch a="G"/>leży ostry <ch a="a"/>nóż,</row>

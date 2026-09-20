@@ -5,20 +5,20 @@
 	<artist type="solo">Jacek Kaczmarski</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Na smyczy trz<ch a="G"/>ymam filoz<ch a="D"/>ofów Eur<ch a="G"/>opy</row>
-			<row important_over="false">Podparłam <ch a="G"/>armią marmur<ch a="D"/>owe Piotra str<ch a="e"/>opy</row>
-			<row important_over="false">Mam psy, sok<ch a="C"/>oły, konie - k<ch a="D"/>ocham łów szal<ch a="e"/>enie</row>
-			<row important_over="false">A wokół s<ch a="C"/>ame zaj<ch a="D"/>ące i jel<ch a="G"/>enie</row>
-			<row important_over="false">
+			<row important_over="true">Na smyczy trz<ch a="G"/>ymam filoz<ch a="D"/>ofów Eur<ch a="G"/>opy</row>
+			<row important_over="true">Podparłam <ch a="G"/>armią marmur<ch a="D"/>owe Piotra str<ch a="e"/>opy</row>
+			<row important_over="true">Mam psy, sok<ch a="C"/>oły, konie - k<ch a="D"/>ocham łów szal<ch a="e"/>enie</row>
+			<row important_over="true">A wokół s<ch a="C"/>ame zaj<ch a="D"/>ące i jel<ch a="G"/>enie</row>
+			<row important_over="true">
 				<ch a="Fis"/> Pałace stawiam, głowy śc<ch a="h"/>inam</row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="Fis"/> Kiedy mi przyjdzie na to ch<ch a="G"/>ę<ch a="D"/>ć</row>
 			<row important_over="false">M<ch a="C"/>am biogr<ch a="D"/>afów, portrec<ch a="e"/>istów</row>
 			<row important_over="false">I jeszcze j<ch a="C"/>edno pr<ch a="D"/>agnę mi<ch a="G"/>eć</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">St<ch a="e"/>ój Katarz<ch a="a"/>yno!<ch a="e"/> Koronę C<ch a="a"/>arów</row>
-			<row important_over="false">S<ch a="e"/>en taki jak t<ch a="a"/>en może Ci z gł<ch a="C"/>ow<ch a="D"/>y zdj<ch a="G"/>ąć!</row>
+			<row important_over="true">St<ch a="e"/>ój Katarz<ch a="a"/>yno!<ch a="e"/> Koronę C<ch a="a"/>arów</row>
+			<row important_over="true">S<ch a="e"/>en taki jak t<ch a="a"/>en może Ci z gł<ch a="C"/>ow<ch a="D"/>y zdj<ch a="G"/>ąć!</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Kobietą j<ch a="G"/>estem ponad mi<ch a="D"/>arę swoich cz<ch a="G"/>asów</row>

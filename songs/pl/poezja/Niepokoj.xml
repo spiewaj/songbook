@@ -12,16 +12,16 @@
 			<row important_over="true">M<ch a="d"/>osty które pod osł<ch a="B"/>oną nocy</row>
 			<row important_over="true">Przerzuc<ch a="A7"/>iliśmy do siebie</row>
 			<row important_over="true">Por<ch a="B"/>ywa <ch a="A7"/>świt</row>
-			<row important_over="true">Trwa p<ch a="d"/>otop jutrzenki po <ch a="B"/>obu brzegach</row>
+			<row important_over="false">Trwa p<ch a="d"/>otop jutrzenki po <ch a="B"/>obu brzegach</row>
 			<row important_over="true">Bezr<ch a="A7"/>adnie biegamy</row>
-			<row important_over="true">R<ch a="B"/>ęce do siebie wyciąg<ch a="A7"/>amy</row>
+			<row important_over="false">R<ch a="B"/>ęce do siebie wyciąg<ch a="A7"/>amy</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Tw<ch a="B"/>oje <ch a="A7"/>oczy</row>
+			<row important_over="false">Tw<ch a="B"/>oje <ch a="A7"/>oczy</row>
 			<row important_over="true">Rozw<ch a="d"/>arte szeroko rozstaniem</row>
 			<row important_over="true">Oddal<ch a="B"/>ają si<ch a="A7"/>ę i s<ch a="d"/>erce za nimi podąża</row>
-			<row important_over="true">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę r<ch a="d"/>az po raz za siebie</row>
-			<row important_over="true">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę za si<ch a="d"/>ebie</row>
+			<row important_over="false">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę r<ch a="d"/>az po raz za siebie</row>
+			<row important_over="false">Ogląd<ch a="B"/>ając si<ch a="A7"/>ę za si<ch a="d"/>ebie</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Prz<ch a="d"/>ez niebo przebiega dr<ch a="B"/>eszcz niepokoju</row>
@@ -34,11 +34,11 @@
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false">I tw<ch a="d"/>oja ręka wyrw<ch a="B"/>ana z mojej</row>
-			<row important_over="false">Do st<ch a="A7"/>acji</row>
+			<row important_over="true">Do st<ch a="A7"/>acji</row>
 			<row important_over="false">Zbliż<ch a="B"/>ają s<ch a="A7"/>ię</row>
 			<row important_over="false">Robotn<ch a="d"/>icy dnia powsz<ch a="B"/>edniego</row>
-			<row important_over="false">O twarz<ch a="A7"/>ach przeraźliwie</row>
-			<row important_over="false">Trz<ch a="B"/>eźw<ch a="H7"/>ych</row>
+			<row important_over="true">O twarz<ch a="A7"/>ach przeraźliwie</row>
+			<row important_over="true">Trz<ch a="B"/>eźw<ch a="H7"/>ych</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

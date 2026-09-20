@@ -5,8 +5,8 @@
   <artist type="band">Strachy na Lachy</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false">Jedzie<ch a="A"/> pociąg złe wagony, do wi<ch a="C"/>ęzienia wiozą mnie</row>
-      <row important_over="false">Świat ma <ch a="G"/>tylko cztery strony, a w tym <ch a="A"/>świecie nie ma mnie</row>
+      <row important_over="true">Jedzie<ch a="A"/> pociąg złe wagony, do wi<ch a="C"/>ęzienia wiozą mnie</row>
+      <row important_over="true">Świat ma <ch a="G"/>tylko cztery strony, a w tym <ch a="A"/>świecie nie ma mnie</row>
       <row important_over="false">Gdy swe <ch a="A"/>oczy otworzyłem, wielki <ch a="C"/>żal ogarnął mnie</row>
       <row important_over="false">Po po<ch a="G"/>liczkach łzy spłynęły, zrozu<ch a="A"/>miałem wtedy, że</row>
     </block>
@@ -24,7 +24,7 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="chorus">
-      <row important_over="false">(Tak czy nie, nie! Tak czy nie, nie! Tak czy nie, nie!)</row>
+      <row important_over="never">(Tak czy nie, nie! Tak czy nie, nie! Tak czy nie, nie!)</row>
     </block>
     <block type="verse">
       <row important_over="false">Wtem do <ch a="A"/>celi klawisz wpada i za<ch a="C"/>czyna więźnia bić</row>
@@ -38,7 +38,7 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="chorus">
-      <row important_over="false">(Chcesz czy nie, nie!)</row>
+      <row important_over="never">(Chcesz czy nie, nie!)</row>
     </block>
   </lyric>
   <music metre="4/4"/>

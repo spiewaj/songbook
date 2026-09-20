@@ -9,11 +9,11 @@
 		<block type="verse">
 			<row important_over="true"> Jest p<ch a="d"/>ort wielki jak świat, co się zwi<ch a="C"/>e Amsterdam,</row>
 			<row important_over="true"> Maryn<ch a="B"/>arze od lat pieśni sw<ch a="A"/>e nucą tam.</row>
-			<row important_over="true"> Jest jak świ<ch a="d"/>at wielki port, maryn<ch a="C"/>arze w nim śpią,</row>
+			<row important_over="false"> Jest jak świ<ch a="d"/>at wielki port, maryn<ch a="C"/>arze w nim śpią,</row>
 			<row important_over="true"> Jak dal<ch a="B"/>eki śpi fi<ch a="A"/>ord, zanim św<ch a="d"/>it zbudzi go.</row>
-			<row important_over="false"> Jest p<ch a="F"/>ort wielki jak świat, maryn<ch a="C"/>arze w nim mrą,</row>
-			<row important_over="false"> Umier<ch a="d"/>ają co świt, pijąc p<ch a="a"/>iwo i klnąc.</row>
-			<row important_over="false"> Jest p<ch a="B"/>ort wielki jak świat, co się zwi<ch a="a"/>e Amsterdam,</row>
+			<row important_over="true"> Jest p<ch a="F"/>ort wielki jak świat, maryn<ch a="C"/>arze w nim mrą,</row>
+			<row important_over="true"> Umier<ch a="d"/>ają co świt, pijąc p<ch a="a"/>iwo i klnąc.</row>
+			<row important_over="true"> Jest p<ch a="B"/>ort wielki jak świat, co się zwi<ch a="a"/>e Amsterdam,</row>
 			<row important_over="false"> Maryn<ch a="B"/>arze od l<ch a="A"/>at nowi r<ch a="d"/>odzą się tam.</row>
 		</block>
 		<block type="verse">

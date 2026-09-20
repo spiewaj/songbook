@@ -3,28 +3,28 @@
   <artist/>
   <lyric>
     <block type="verse">
-      <row>Już rozpaliło się ognisko<ch a="C"/></row>
-      <row>Dając nam dobrej wróżby znak<ch a="C"/><ch a="G"/></row>
-      <row>Siedliśmy wszyscy przy nim blisko<ch a="G"/></row>
-      <row>Bo w całej Polsce siedzą tak<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Już rozpaliło się ognisko<ch a="C"/></row>
+      <row important_over="never">Dając nam dobrej wróżby znak<ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Siedliśmy wszyscy przy nim blisko<ch a="G"/></row>
+      <row important_over="never">Bo w całej Polsce siedzą tak<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row>Siedzą harcerki  przy płomieniach<ch a="C7"/><ch a="F"/></row>
-      <row>Ciepły blask ognia skupia je<ch a="G"/><ch a="C"/></row>
-      <row>Wszystko co złe to szuka cienia<ch a="C"/></row>
-      <row>Do światła dobro garnie się<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Siedzą harcerki  przy płomieniach<ch a="C7"/><ch a="F"/></row>
+      <row important_over="never">Ciepły blask ognia skupia je<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Wszystko co złe to szuka cienia<ch a="C"/></row>
+      <row important_over="never">Do światła dobro garnie się<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row>Mówiłaś druhno komendantko,</row>
-      <row>Że zaufanie do nas masz,</row>
-      <row>Że wierzysz w nasze dobre chęci,</row>
-      <row>Że ty harcerskie serca znasz</row>
+      <row important_over="never">Mówiłaś druhno komendantko,</row>
+      <row important_over="never">Że zaufanie do nas masz,</row>
+      <row important_over="never">Że wierzysz w nasze dobre chęci,</row>
+      <row important_over="never">Że ty harcerskie serca znasz</row>
     </block>
     <block type="chorus">
-      <row>Warunki tylko warunkami</row>
-      <row>Od dawna wszak słyszymy to</row>
-      <row>Lecz my jesteśmy harcerkami</row>
-      <row>I zwyciężymy wszelkie zło</row>
+      <row important_over="never">Warunki tylko warunkami</row>
+      <row important_over="never">Od dawna wszak słyszymy to</row>
+      <row important_over="never">Lecz my jesteśmy harcerkami</row>
+      <row important_over="never">I zwyciężymy wszelkie zło</row>
     </block>
   </lyric>
 </song>

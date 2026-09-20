@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true"><ch a="D"/> Powiedz m<ch a="G"/>i, p<ch a="D"/>owiedz co byś chci<ch a="A"/>ała,</row>
-			<row important_over="true"><ch a="D"/> Cuda ja cz<ch a="G"/>ynię, c<ch a="D"/>uda moja m<ch a="A"/>ała —</row>
+			<row important_over="false"><ch a="D"/> Cuda ja cz<ch a="G"/>ynię, c<ch a="D"/>uda moja m<ch a="A"/>ała —</row>
 			<row important_over="true"><ch a="e"/> Martwe zami<ch a="A"/>eniam w żywe,</row>
 			<row important_over="true"><ch a="D"/> Zgasłe w płon<ch a="H7"/>ącą grzywę,</row>
 			<row important_over="true"><ch a="e"/> Powiedz m<ch a="A"/>i co byś chciał<ch a="D"/>a.</row>
@@ -18,8 +18,8 @@
 		<block type="verse">
 			<bis times="2">
 				<row important_over="true"><ch a="G"/> Na błękicie j<ch a="A"/>est polana,</row>
-				<row important_over="true"><ch a="D"/> Dwa obłoki t<ch a="H7"/>o hosanna,</row>
-				<row important_over="true"><ch a="e"/> Jeden chłopak, dr<ch a="A"/>ugi p<ch a="D"/>anna.</row>
+				<row important_over="false"><ch a="D"/> Dwa obłoki t<ch a="H7"/>o hosanna,</row>
+				<row important_over="false"><ch a="e"/> Jeden chłopak, dr<ch a="A"/>ugi p<ch a="D"/>anna.</row>
 			</bis>
 		</block>
 		<block type="verse">

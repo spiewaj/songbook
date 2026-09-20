@@ -5,18 +5,18 @@
     <block type="verse">
       <row important_over="true"><ch a="C"/>Noc zapadła już <ch a="a"/>głucha,</row>
       <row important_over="true"><ch a="F"/>Ciemno było w kur<ch a="G"/>niku.</row>
-      <row important_over="true"><ch a="C"/>&quot;Słuchaj&quot; - szepnęła <ch a="a"/>kura,</row>
-      <row important_over="true"><ch a="F"/>Budząc koguta po <ch a="G"/>cichu.</row>
+      <row important_over="false"><ch a="C"/>&quot;Słuchaj&quot; - szepnęła <ch a="a"/>kura,</row>
+      <row important_over="false"><ch a="F"/>Budząc koguta po <ch a="G"/>cichu.</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="never">Ko ko <ch a="C"/>ko, ko <ch a="a"/>ko, <ch a="F"/>budząc koguta po <ch a="G"/>cichu.</row>
+        <row important_over="true">Ko ko <ch a="C"/>ko, ko <ch a="a"/>ko, <ch a="F"/>budząc koguta po <ch a="G"/>cichu.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Głos zamierał jej w grdyce,<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">Głos zamierał jej w grdyce,<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">Wszystko stało się bajką:</row>
-      <row important_over="never">&quot;Ja słodką mam tajemnicę.<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">&quot;Ja słodką mam tajemnicę.<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">Słuchaj, będziemy mieć jajko&quot;.</row>
     </block>
     <block type="chorus">
@@ -25,9 +25,9 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Poślemy jajko do szkoły,<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">Poślemy jajko do szkoły,<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">A potem na wyższe studia.</row>
-      <row important_over="never">Będzie stroić gitary<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">Będzie stroić gitary<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">I wygrywać preludia.</row>
     </block>
     <block type="chorus">
@@ -36,9 +36,9 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">A potem się jajko ożeni<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">A potem się jajko ożeni<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">I będziemy mieć wnuki.</row>
-      <row important_over="never">ładne, okrągłe jajeczka,<ch a="C"/><ch a="a"/></row>
+      <row important_over="false">ładne, okrągłe jajeczka,<ch a="C"/><ch a="a"/></row>
       <row important_over="never" sidechords="F G">A nie kanciaste kałmuki.</row>
     </block>
     <block type="chorus">

@@ -12,7 +12,7 @@
 			<row important_over="true">A <ch a="A"/>zegar na <ch a="A7"/>ścianie g<ch a="D"/>warzy<ch a="E"/></row>
 			<row important_over="true"><ch a="A"/>Dobrze się <ch a="h7"/>idzie, <ch a="cis7"/>panie ze<ch a="Fis0"/>garze</row>
 			<row important_over="true">Tik<ch a="h7"/> tak, tik t<ch a="E7"/>ak, tik t<ch a="A7/4"/>ak<ch a="A7/6"/></row>
-			<row important_over="true">Świeca sk<ch a="D"/>wierczy i mruga przew<ch a="E4"/>rotnie<ch a="E"/></row>
+			<row important_over="false">Świeca sk<ch a="D"/>wierczy i mruga przew<ch a="E4"/>rotnie<ch a="E"/></row>
 			<row important_over="true">Więc <ch a="A"/>puszczam <ch a="h7"/>oko <ch a="cis7"/>do niej<ch a="G0"/></row>
 			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="cis7"/>ma<ch a="G0"/></row>
 			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="A"/>ma<ch a="A4"/><ch a="A"/></row>
@@ -24,32 +24,32 @@
 			<row important_over="true">A <ch a="G"/>niebo nade mną <ch a="D"/>ja<ch a="d"/>k gó<ch a="A"/>ry<ch a="A4"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Gdy głosy usłyszę u drzwi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="A7+"/></row>
-			<row important_over="never">Czyjekolwiek, wejdźcie — poproszę<ch a="D"/><ch a="E9"/><ch a="A"/><ch a="A7+"/></row>
-			<row important_over="never">Jestem zbieraczem głosów<ch a="h7"/><ch a="E9"/><ch a="cis7"/><ch a="A7/4"/></row>
-			<row important_over="never">A dom mój bardzo lubi gdy<ch a="D"/><ch a="E4"/><ch a="E"/></row>
-			<row important_over="never">Śmiech ściany mu rozjaśnia<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="E"/></row>
-			<row important_over="never">I gędźby lubi i pieśni<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="Fis0"/></row>
-			<row important_over="never">Wpadnijcie na parę chwil<ch a="h7"/><ch a="E7"/><ch a="A7/4"/><ch a="A7/6"/></row>
-			<row important_over="never">Kiedy los was zawiedzie w te strony<ch a="D"/><ch a="E4"/><ch a="E"/></row>
-			<row important_over="never">Bo dom mój otworem stoi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="G0"/></row>
-			<row important_over="never">Dla takich jak my<ch a="h7"/><ch a="E7"/><ch a="cis7"/><ch a="G0"/></row>
-			<row important_over="never">Dla takich jak wy<ch a="h7"/><ch a="E7"/><ch a="A"/><ch a="A4"/><ch a="A"/></row>
+			<row important_over="false">Gdy głosy usłyszę u drzwi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="A7+"/></row>
+			<row important_over="false">Czyjekolwiek, wejdźcie — poproszę<ch a="D"/><ch a="E9"/><ch a="A"/><ch a="A7+"/></row>
+			<row important_over="false">Jestem zbieraczem głosów<ch a="h7"/><ch a="E9"/><ch a="cis7"/><ch a="A7/4"/></row>
+			<row important_over="false">A dom mój bardzo lubi gdy<ch a="D"/><ch a="E4"/><ch a="E"/></row>
+			<row important_over="false">Śmiech ściany mu rozjaśnia<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="false">I gędźby lubi i pieśni<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="Fis0"/></row>
+			<row important_over="false">Wpadnijcie na parę chwil<ch a="h7"/><ch a="E7"/><ch a="A7/4"/><ch a="A7/6"/></row>
+			<row important_over="false">Kiedy los was zawiedzie w te strony<ch a="D"/><ch a="E4"/><ch a="E"/></row>
+			<row important_over="false">Bo dom mój otworem stoi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="G0"/></row>
+			<row important_over="false">Dla takich jak my<ch a="h7"/><ch a="E7"/><ch a="cis7"/><ch a="G0"/></row>
+			<row important_over="false">Dla takich jak wy<ch a="h7"/><ch a="E7"/><ch a="A"/><ch a="A4"/><ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false" sidechords="A h7 cis7 A7+">Zaproszę dzień i noc</row>
-			<row important_over="false" sidechords="D E9 A A7+">Zaproszę cztery wiatry</row>
-			<row important_over="false" sidechords="h7 E9 cis7 A7/4">Dla wszystkich drzwi otwarte</row>
-			<row important_over="false" sidechords="D E4 E">Ktoś poda pierwszy ton</row>
-			<row important_over="false" sidechords="A A7 D E">Zagramy na góry koncert</row>
-			<row important_over="false" sidechords="A h7 cis7 Fis0">Buków porą pachnącą</row>
-			<row important_over="false" sidechords="h7 E7 A7/4 A7/6">Nasiąkną ściany grą</row>
-			<row important_over="false" sidechords="D E4 E">A zmęczonym wędrownikom</row>
-			<row important_over="false" sidechords="A h7 cis7 G0">Odpocząć pozwolą muzyką</row>
-			<row important_over="false" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
-			<row important_over="false" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
-			<row important_over="false" sidechords="h7 E7 A A4 A">Bo taki będzie mój dom</row>
+			<row important_over="never" sidechords="A h7 cis7 A7+">Zaproszę dzień i noc</row>
+			<row important_over="never" sidechords="D E9 A A7+">Zaproszę cztery wiatry</row>
+			<row important_over="never" sidechords="h7 E9 cis7 A7/4">Dla wszystkich drzwi otwarte</row>
+			<row important_over="never" sidechords="D E4 E">Ktoś poda pierwszy ton</row>
+			<row important_over="never" sidechords="A A7 D E">Zagramy na góry koncert</row>
+			<row important_over="never" sidechords="A h7 cis7 Fis0">Buków porą pachnącą</row>
+			<row important_over="never" sidechords="h7 E7 A7/4 A7/6">Nasiąkną ściany grą</row>
+			<row important_over="never" sidechords="D E4 E">A zmęczonym wędrownikom</row>
+			<row important_over="never" sidechords="A h7 cis7 G0">Odpocząć pozwolą muzyką</row>
+			<row important_over="never" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
+			<row important_over="never" sidechords="h7 E7 cis7 G0">Bo taki będzie mój dom</row>
+			<row important_over="never" sidechords="h7 E7 A A4 A">Bo taki będzie mój dom</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

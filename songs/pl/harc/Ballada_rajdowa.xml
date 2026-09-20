@@ -11,8 +11,8 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">Właśnie t<ch a="G"/>u na tej ziemi, młody h<ch a="D"/>arcerz meldował</row>
-			<row important_over="true">Swą got<ch a="C"/>owość umierać za P<ch a="G"/>olske.</row>
+			<row important_over="false">Właśnie t<ch a="G"/>u na tej ziemi, młody h<ch a="D"/>arcerz meldował</row>
+			<row important_over="false">Swą got<ch a="C"/>owość umierać za P<ch a="G"/>olske.</row>
 			<row important_over="false">Tak, jak t<ch a="G"/>y niesiesz plecak, on niósł w r<ch a="D"/>ęku karabin</row>
 			<row important_over="false">W sercu m<ch a="C"/>iłość, nadzieję i tr<ch a="G"/>oskę.</row>
 			<row important_over="false">Może t<ch a="G"/>u w Nowej Słupi, Dalesz<ch a="D"/>ycach, Bielicach</row>

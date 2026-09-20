@@ -9,7 +9,7 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Skasowa<ch a="D"/>łam <ch a="e"/>Polone<ch a="D"/>za</row>
-      <row important_over="true"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur <ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur <ch a="D"/></row>
       <row important_over="true"><ch a="e"/>Na mieście <ch a="D"/>zobaczyłam <ch a="e"/>jak</row>
       <row important_over="true">Beztrosko trzyma <ch a="D"/>Cię za <ch a="G"/>rękę <ch a="A"/></row>
       <row important_over="true">Jechałam <ch a="e"/>dwieście <ch a="D"/></row>
@@ -24,7 +24,7 @@
     <block type="verse">
       <row important_over="false"><ch a="e"/> Mieliśmy zwiedzać Pa<ch a="D"/>ryż</row>
       <row important_over="false"><ch a="e"/> Tam gubić się <ch a="D"/></row>
-      <row important_over="false"><ch a="G"/> Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz <ch a="D"/></row>
+      <row important_over="true"><ch a="G"/> Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz <ch a="D"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/> Może jej pokaż Wiet<ch a="D"/>nam</row>
@@ -32,17 +32,17 @@
       <row important_over="false"><ch a="G"/> Zamknęli <ch a="a"/>Wam nasze <ch a="e"/>PHO <ch a="D"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false">A <ch a="C"/>ja będę się <ch a="a"/>śmiać</row>
-      <row important_over="false">Wsiądę w sa<ch a="G"/>molot Asia Air</row>
-      <row important_over="false">Polecę <ch a="h"/>na zachodni brzeg</row>
+      <row important_over="true">A <ch a="C"/>ja będę się <ch a="a"/>śmiać</row>
+      <row important_over="true">Wsiądę w sa<ch a="G"/>molot Asia Air</row>
+      <row important_over="true">Polecę <ch a="h"/>na zachodni brzeg</row>
     </block>
     <block type="chorus">
-      <row important_over="true">A <ch a="C"/>ja cała we <ch a="a"/>łzach</row>
-      <row important_over="true">Zadzwonię <ch a="G"/>w lipcu powiem, że</row>
-      <row important_over="true">Złamane <ch a="h"/>serce jest OK</row>
+      <row important_over="false">A <ch a="C"/>ja cała we <ch a="a"/>łzach</row>
+      <row important_over="false">Zadzwonię <ch a="G"/>w lipcu powiem, że</row>
+      <row important_over="false">Złamane <ch a="h"/>serce jest OK</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/> Na billboardach <ch a="h"/>w tym miesiącu</row>
+      <row important_over="true"><ch a="e"/> Na billboardach <ch a="h"/>w tym miesiącu</row>
       <row important_over="false"><ch a="C"/>Błyszczy Twoja <ch a="a"/>twarz</row>
       <row important_over="false"><ch a="e"/> Nie dzwoń, Bo znów rozbijam <ch a="h"/>się</row>
       <row important_over="false">Nie odebrane tele<ch a="C"/>fony, tryb samolo<ch a="a"/>towy</row>
@@ -55,7 +55,7 @@
     <block type="verse">
       <row important_over="false"><ch a="e"/> Wiem, że Cię w końcu rzu<ch a="D"/>ci</row>
       <row important_over="false"><ch a="e"/> Napiszesz mi <ch a="D"/></row>
-      <row important_over="false"><ch a="G"/> Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć</row>
+      <row important_over="true"><ch a="G"/> Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć</row>
     </block>
     <blocklink blocknb="6"/>
     <blocklink blocknb="7"/>

@@ -17,9 +17,9 @@
     <block type="chorus">
       <row important_over="true">Di<ch a="a"/>abeł był zdrowy jak ten r<ch a="G"/>ydz</row>
       <row important_over="true">Po prostu czart na schw<ch a="a"/>ał</row>
-      <row important_over="true"><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
+      <row important_over="false"><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
       <row important_over="true">Na nogach ledwo st<ch a="a"/>ał</row>
-      <row important_over="true">Uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał</row>
+      <row important_over="false">Uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał</row>
     </block>
     <block type="verse">
       <row important_over="false">Chł<ch a="a"/>op gdy usłyszał Pana głos</row>

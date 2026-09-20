@@ -5,7 +5,7 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Nie o <ch a="C"/>uśmiech mi chodzi, choć się śmi<ch a="e"/>ałaś nie raz,</row>
-			<row important_over="false">Ale <ch a="F"/>o to, co kiedyś pojaw<ch a="G"/>iło się w nas,</row>
+			<row important_over="true">Ale <ch a="F"/>o to, co kiedyś pojaw<ch a="G"/>iło się w nas,</row>
 			<row important_over="false">Coś, co prz<ch a="C"/>yszło tak nagle i prz<ch a="e"/>eszło jak wiatr,</row>
 			<row important_over="false">Czego wł<ch a="F"/>aśnie najbardziej mi br<ch a="G"/>ak.</row>
 		</block>
@@ -17,8 +17,8 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="true">W t<ch a="C"/>aką, w taką c<ch a="e"/>iszę</row>
-				<row important_over="true">Wszystkie gwi<ch a="F"/>azdy na niebie p<ch a="G"/>oliczę,</row>
+				<row important_over="false">W t<ch a="C"/>aką, w taką c<ch a="e"/>iszę</row>
+				<row important_over="false">Wszystkie gwi<ch a="F"/>azdy na niebie p<ch a="G"/>oliczę,</row>
 				<row important_over="false">Ci<ch a="C"/>ebie, Ciebie w<ch a="e"/>ołam,</row>
 				<row important_over="false">Chociaż c<ch a="F"/>isza i pustka dook<ch a="G"/>oła.</row>
 			</bis>

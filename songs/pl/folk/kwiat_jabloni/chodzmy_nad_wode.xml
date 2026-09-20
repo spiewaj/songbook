@@ -5,21 +5,21 @@
   <artist type="band">Kwiat Jabłoni</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="E"/>Wróciło lato i n<ch a="G"/>oce są jasne</row>
-      <row important_over="false"><ch a="A"/>Chcę znowu spotkać c<ch a="E"/>ię po raz pierwszy</row>
-      <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
-      <row important_over="false">Chodźmy nad<ch a="E"/> wodę</row>
+      <row important_over="true"><ch a="E"/>Wróciło lato i n<ch a="G"/>oce są jasne</row>
+      <row important_over="true"><ch a="A"/>Chcę znowu spotkać c<ch a="E"/>ię po raz pierwszy</row>
+      <row important_over="true"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
+      <row important_over="true">Chodźmy nad<ch a="E"/> wodę</row>
       <row important_over="false"><ch a="E"/>Na twoich kolana<ch a="G"/>ch zasnę</row>
       <row important_over="false"><ch a="A"/>Wymyślę więcej dobry<ch a="E"/>ch wierszy</row>
       <row important_over="false"><ch a="E"/>Aaaaaaaaa.... <ch a="G"/><ch a="A"/></row>
-      <row important_over="false">Chodźmy nad<ch a="E"/> wodę</row>
+      <row important_over="true">Chodźmy nad<ch a="E"/> wodę</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="E"/>A wod<ch a="H"/>a sze<ch a="D"/>roka<ch a="A"/></row>
+      <row important_over="true"><ch a="E"/>A wod<ch a="H"/>a sze<ch a="D"/>roka<ch a="A"/></row>
       <row important_over="false"><ch a="E"/>Chłodn<ch a="H"/>a, g<ch a="D"/>łębok<ch a="A"/>a</row>
-      <row important_over="false">Śp<ch a="H"/>iewam i szepczę</row>
-      <row important_over="false">Je<ch a="D"/>szcze, jeszcze</row>
-      <row important_over="false">R<ch a="A"/>azem możemy więcej</row>
+      <row important_over="true">Śp<ch a="H"/>iewam i szepczę</row>
+      <row important_over="true">Je<ch a="D"/>szcze, jeszcze</row>
+      <row important_over="true">R<ch a="A"/>azem możemy więcej</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="E"/>Odpowiem na każde tw<ch a="G"/>oje pytanie</row>

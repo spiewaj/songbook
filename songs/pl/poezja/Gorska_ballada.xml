@@ -10,9 +10,9 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
-				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
-				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row important_over="false" style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -29,7 +29,7 @@
 			<bis times="2">
 				<row important_over="true">Bo zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
 				<row important_over="true">A w niej z<ch a="d"/>amknął<ch a="G"/> echa g<ch a="C"/>ór</row>
-				<row important_over="true">Bo zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="false">Bo zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
 				<row important_over="true">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
 			</bis>
 		</block>

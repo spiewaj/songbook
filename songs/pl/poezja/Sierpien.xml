@@ -19,7 +19,7 @@ Wiersz Gałczyńskiego nosi tytuł ,,O sierpniu'', zaś piosenka Wierzbickiego j
 			<bis times="2">
 				<row important_over="true">Łz<ch a="G"/>y co nam z oczu zl<ch a="D"/>ecą</row>
 				<row important_over="true">Zi<ch a="H7"/>emi o nas powi<ch a="e"/>edzą</row>
-				<row important_over="true">Chodźmy w dr<ch a="C"/>ogę łzy w dr<ch a="G"/>odze ob<ch a="D"/>eschną</row>
+				<row important_over="false">Chodźmy w dr<ch a="C"/>ogę łzy w dr<ch a="G"/>odze ob<ch a="D"/>eschną</row>
 				<row important_over="false">Łz<ch a="G"/>y nie przynoszą <ch a="D"/>ujmy</row>
 				<row important_over="false">A m<ch a="H7"/>y w tę noc wędr<ch a="e"/>ujmy</row>
 				<row important_over="true">Roziskrz<ch a="C"/>oną rozśpi<ch a="D"/>ewaną bezkr<ch a="C"/>e<ch a="D"/>sn<ch a="G"/>ą</row>

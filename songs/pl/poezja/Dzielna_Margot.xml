@@ -13,13 +13,13 @@
 			<row important_over="true">A jed<ch a="h"/>yną jaką znal<ch a="E"/>azła</row>
 			<row important_over="true"><ch a="A"/>Był jej <ch a="D"/>biust</row>
 			<row important_over="true">Kotek <ch a="h"/>wziął ją za swoją <ch a="Fis"/>mamę</row>
-			<row important_over="true">I ssać <ch a="h"/>zaczął dzielną Marg<ch a="Fis"/>ot</row>
-			<row important_over="true">Ona <ch a="h"/>zaś ze wzruszenia <ch a="Fis"/>nagle</row>
-			<row important_over="true">Straciła <ch a="h"/>głos<ch a="Fis"/></row>
-			<row important_over="true">Syn sołt<ch a="h"/>ysa właśnie prze<ch a="Fis"/>chodził</row>
-			<row important_over="true">Ujrzał <ch a="h"/>rzadki obrazek <ch a="Fis"/>ten</row>
-			<row important_over="true">I po<ch a="h"/>leciał z nowiną <ch a="Fis"/>do wsi</row>
-			<row important_over="true">A na drugi <ch a="E"/>dzień<ch a="A"/></row>
+			<row important_over="false">I ssać <ch a="h"/>zaczął dzielną Marg<ch a="Fis"/>ot</row>
+			<row important_over="false">Ona <ch a="h"/>zaś ze wzruszenia <ch a="Fis"/>nagle</row>
+			<row important_over="false">Straciła <ch a="h"/>głos<ch a="Fis"/></row>
+			<row important_over="false">Syn sołt<ch a="h"/>ysa właśnie prze<ch a="Fis"/>chodził</row>
+			<row important_over="false">Ujrzał <ch a="h"/>rzadki obrazek <ch a="Fis"/>ten</row>
+			<row important_over="false">I po<ch a="h"/>leciał z nowiną <ch a="Fis"/>do wsi</row>
+			<row important_over="false">A na drugi <ch a="E"/>dzień<ch a="A"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Gdy Mar<ch a="A"/>got stanik <ch a="A7"/>swój rozpi<ch a="D"/>nała</row>
@@ -29,7 +29,7 @@
 			<row important_over="true">By po <ch a="Ais"/>pa pa pa pa pa pa</row>
 			<row important_over="true">A nie<ch a="A"/>winna <ch a="A7"/>Margot przypusz<ch a="D"/>czała<ch a="D6"/><ch a="D"/></row>
 			<row important_over="true">Że do <ch a="D"/>kotka co z <ch a="D0"/>jej piersi <ch a="D"/>ssał</row>
-			<row important_over="true">Biegła <ch a="D"/>nas biegła <ch a="H"/>nas cała <ch a="E"/>zgra<ch a="A"/>ja</row>
+			<row important_over="false">Biegła <ch a="D"/>nas biegła <ch a="H"/>nas cała <ch a="E"/>zgra<ch a="A"/>ja</row>
 			<row important_over="true">By po <ch a="D"/>pa pa pa pa pa patrzeć</row>
 			<row important_over="true">By po <ch a="B"/>pa pa pa pa pa pa</row>
 		</block>
@@ -53,15 +53,15 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="A"/>Ale w pozostałych niewiastach</row>
+			<row important_over="true"><ch a="A"/>Ale w pozostałych niewiastach</row>
 			<row important_over="false"><ch a="A7"/>Wszak każdej zwiał i gach i mąż<ch a="D"/></row>
 			<row important_over="false"><ch a="h"/>Powolutku jęła narastać<ch a="fis"/></row>
 			<row important_over="false"><ch a="E"/>Dzika złość<ch a="A"/></row>
-			<row important_over="false"><ch a="A"/>Wreszcie przyszedł we wsi dzień gniewu</row>
+			<row important_over="true"><ch a="A"/>Wreszcie przyszedł we wsi dzień gniewu</row>
 			<row important_over="false"><ch a="A7"/>Każda chwyciła tęgi kij<ch a="D"/></row>
 			<row important_over="false"><ch a="h"/>I zatłukł biedne maleństwo<ch a="E"/></row>
 			<row important_over="false"><ch a="A"/>Z żądzy krwi<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>A Margot po roku lamentów<ch a="F"/></row>
+			<row important_over="true"><ch a="h"/>A Margot po roku lamentów<ch a="F"/></row>
 			<row important_over="false"><ch a="h"/>By się pocieszyć wzięła ślub<ch a="Fis"/></row>
 			<row important_over="false"><ch a="h"/>I już tylko się mąż z jej wdzięków<ch a="Fis"/></row>
 			<row important_over="false"><ch a="h"/>Cieszyć mógł<ch a="Fis"/></row>

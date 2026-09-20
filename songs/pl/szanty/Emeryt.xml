@@ -9,17 +9,17 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">L<ch a="d"/>eżysz wtulona w pościel</row>
-			<row important_over="false">Coś cich<ch a="a"/>utko mruczysz przez sen</row>
-			<row important_over="false">Ł<ch a="F"/>óżko szerokie, a pościel świeża</row>
-			<row important_over="false">Za <ch a="A"/>oknem prawie dzień</row>
-			<row important_over="false">A j<ch a="d"/>eszcze niedawno koja</row>
-			<row important_over="false">W niej pachn<ch a="C"/>ący rybą koc</row>
-			<row important_over="false">F<ch a="F"/>ale bijące o pokład</row>
-			<row important_over="false">I bosm<ch a="A"/>ana zdarty głos</row>
+			<row important_over="true">L<ch a="d"/>eżysz wtulona w pościel</row>
+			<row important_over="true">Coś cich<ch a="a"/>utko mruczysz przez sen</row>
+			<row important_over="true">Ł<ch a="F"/>óżko szerokie, a pościel świeża</row>
+			<row important_over="true">Za <ch a="A"/>oknem prawie dzień</row>
+			<row important_over="true">A j<ch a="d"/>eszcze niedawno koja</row>
+			<row important_over="true">W niej pachn<ch a="C"/>ący rybą koc</row>
+			<row important_over="true">F<ch a="F"/>ale bijące o pokład</row>
+			<row important_over="true">I bosm<ch a="A"/>ana zdarty głos</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">To wszystko b<ch a="d"/>yło min<ch a="C"/>ęło z<ch a="G"/>ostało tylko wspomn<ch a="d"/>ienie</row>
+			<row important_over="true">To wszystko b<ch a="d"/>yło min<ch a="C"/>ęło z<ch a="G"/>ostało tylko wspomn<ch a="d"/>ienie</row>
 			<row important_over="false">Już nie pocz<ch a="d"/>uję wibr<ch a="C"/>acji pokł<ch a="G"/>adu gdy kable gr<ch a="d"/>ają</row>
 			<row important_over="false">Już tylko d<ch a="d"/>om i ogr<ch a="C"/>ódek i t<ch a="G"/>ak aż do śmi<ch a="d"/>erci</row>
 			<row important_over="false">A przecież st<ch a="d"/>are żagl<ch a="C"/>owce po m<ch a="G"/>orzach jeszcze pływ<ch a="d"/>ają</row>

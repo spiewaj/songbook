@@ -5,17 +5,17 @@
     <block type="verse">
       <row important_over="true"><ch a="a"/>Nie mamy o czym myśleć ani o czym pisać</row>
       <row important_over="true"><ch a="d"/>Za dużo się zdarzyło <ch a="e"/>żeby się zachwycać</row>
-      <row important_over="false"><ch a="a"/>Szum wiadomości mnie zalewa z krańców globu</row>
+      <row important_over="true"><ch a="a"/>Szum wiadomości mnie zalewa z krańców globu</row>
       <row important_over="false"><ch a="d"/>Milionów znaczeń magma <ch a="e"/>wchodzi mi do domu</row>
-      <row important_over="false"><ch a="a"/>Małe wzruszenia festiwale piękne sprawy</row>
+      <row important_over="true"><ch a="a"/>Małe wzruszenia festiwale piękne sprawy</row>
       <row important_over="false"><ch a="d"/>W czarnych od tuszu łzach n<ch a="e"/>a zdjęciach Ci do twarzy</row>
-      <row important_over="false"><ch a="a"/>Nic się nie stało słowa ciekną miał być ogień</row>
+      <row important_over="true"><ch a="a"/>Nic się nie stało słowa ciekną miał być ogień</row>
       <row important_over="false"><ch a="d"/>My mamy pustki w głowach <ch a="e"/>głowy w telefonie</row>
     </block>
     <block type="other">
       <row important_over="true"><ch a="C"/>A gdyby <ch a="G"/>tak choć jeden <ch a="a"/>raz</row>
       <row important_over="true">Nam się za<ch a="F"/>trzęsła ziemia</row>
-      <row important_over="true"><ch a="C"/>Przerwał<ch a="G"/>a sen oderwała <ch a="a"/>nas</row>
+      <row important_over="false"><ch a="C"/>Przerwał<ch a="G"/>a sen oderwała <ch a="a"/>nas</row>
       <row important_over="true"><ch a="E"/>Od niechcenia</row>
     </block>
     <block type="chorus">

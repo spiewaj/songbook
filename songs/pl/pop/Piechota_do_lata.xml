@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Zn<ch a="C"/>ów przyjdzie m<ch a="a"/>aj, <ch a="d"/>a z majem bz<ch a="G"/>y</row>
-			<row important_over="true"><ch a="C"/>I cz<ch a="a"/>ekać mam n<ch a="d"/>a lepsze dn<ch a="G"/>i</row>
+			<row important_over="false"><ch a="C"/>I cz<ch a="a"/>ekać mam n<ch a="d"/>a lepsze dn<ch a="G"/>i</row>
 			<row important_over="true">Zn<ch a="C"/>ów przyjdzie m<ch a="E7"/>i nosić prz<ch a="a"/>ykrótkie sn<ch a="F"/>y</row>
 		</block>
 		<block type="chorus">

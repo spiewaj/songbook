@@ -16,13 +16,13 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">Żeby b<ch a="D"/>yła taka n<ch a="fis"/>oc,</row>
-			<row important_over="true">Kiedy m<ch a="G"/>yśli mkną do B<ch a="A7"/>oga,</row>
+			<row important_over="false">Kiedy m<ch a="G"/>yśli mkną do B<ch a="A7"/>oga,</row>
 			<row important_over="false">Żeby b<ch a="D"/>yły takie dn<ch a="h"/>i,</row>
-			<row important_over="false">Że się prz<ch a="G"/>y Nim ciągle j<ch a="A"/>est.</row>
+			<row important_over="true">Że się prz<ch a="G"/>y Nim ciągle j<ch a="A"/>est.</row>
 			<row important_over="false">Żeby b<ch a="D"/>ył przy tobie kt<ch a="fis"/>oś,</row>
 			<row important_over="false">Kogo ni<ch a="G"/>e zniechęci dr<ch a="A7"/>oga,</row>
 			<row important_over="false">Abyś pl<ch a="D"/>ecak swoich w<ch a="h"/>in</row>
-			<row important_over="false">Stromą ści<ch a="G"/>eżką umiał ni<ch a="D"/>eść.</row>
+			<row important_over="true">Stromą ści<ch a="G"/>eżką umiał ni<ch a="D"/>eść.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="D"/> Usiądź z nami prz<ch a="h"/>y ognisku,</row>

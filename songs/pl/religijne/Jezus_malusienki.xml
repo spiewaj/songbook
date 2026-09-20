@@ -9,27 +9,27 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Jezus malusieńki</row>
-      <row important_over="false">Leży wśród stajenki</row>
+      <row important_over="never">Jezus malusieńki</row>
+      <row important_over="never">Leży wśród stajenki</row>
       <bis>
-        <row important_over="false">Płacze z zimna nie dała mu</row>
-        <row important_over="false">Matula sukienki</row>
+        <row important_over="never">Płacze z zimna nie dała mu</row>
+        <row important_over="never">Matula sukienki</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Bo uboga była</row>
-      <row important_over="false">Rąbek z głowy zdjęła</row>
+      <row important_over="never">Bo uboga była</row>
+      <row important_over="never">Rąbek z głowy zdjęła</row>
       <bis>
-        <row important_over="false">W który dziecię owinąwszy</row>
-        <row important_over="false">Siankiem je okryła</row>
+        <row important_over="never">W który dziecię owinąwszy</row>
+        <row important_over="never">Siankiem je okryła</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Nie ma kolebeczki</row>
-      <row important_over="false">Ani poduszeczki</row>
+      <row important_over="never">Nie ma kolebeczki</row>
+      <row important_over="never">Ani poduszeczki</row>
       <bis>
-        <row important_over="false">We żłobie mu położyła</row>
-        <row important_over="false">Siana pod główeczki</row>
+        <row important_over="never">We żłobie mu położyła</row>
+        <row important_over="never">Siana pod główeczki</row>
       </bis>
     </block>
   </lyric>

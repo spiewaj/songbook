@@ -19,10 +19,10 @@
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="never">Rozstąpiły sie zielone drzewa<ch a="a"/><ch a="H7"/></row>
-      <row important_over="never">Utworzyły chłodny tunel z liści<ch a="E7"/><ch a="a"/></row>
-      <row important_over="never">A gospodarz przy starej zagrodzie<ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Życzył szczęścia w dalszej drodze <ch a="a"/><ch a="E"/></row>
+      <row important_over="false">Rozstąpiły sie zielone drzewa<ch a="a"/><ch a="H7"/></row>
+      <row important_over="false">Utworzyły chłodny tunel z liści<ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">A gospodarz przy starej zagrodzie<ch a="C"/><ch a="d"/></row>
+      <row important_over="false">Życzył szczęścia w dalszej drodze <ch a="a"/><ch a="E"/></row>
     </block>
     <blocklink blocknb="4"/>
   </lyric>

@@ -18,7 +18,7 @@
 		<block type="chorus">
 			<row important_over="true">Najcz<ch a="C"/>ęściej można sp<ch a="D"/>otkać cię</row>
 			<row important_over="true">Nad przep<ch a="e"/>aścią lukrow<ch a="C"/>aną</row>
-			<row important_over="true">Gdy prz<ch a="G"/>ez dziurawą kł<ch a="C"/>adkę</row>
+			<row important_over="false">Gdy prz<ch a="G"/>ez dziurawą kł<ch a="C"/>adkę</row>
 			<row important_over="true">Przeprow<ch a="Ais"/>adzasz<ch a="a7"/> swoje dzi<ch a="G"/>eci</row>
 		</block>
 		<block type="verse">

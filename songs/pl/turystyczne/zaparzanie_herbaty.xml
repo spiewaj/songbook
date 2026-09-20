@@ -14,20 +14,20 @@
       <row important_over="true"><ch a="C"/>Kto jest <ch a="C11+"/>czarnym tu<ch a="C"/>rystą</row>
     </block>
     <block type="verse">
-      <row important_over="false">Kto nie wie ile</row>
-      <row important_over="false">Mu zostało</row>
-      <row important_over="false">Księżyców znikających w dali</row>
+      <row important_over="never">Kto nie wie ile</row>
+      <row important_over="never">Mu zostało</row>
+      <row important_over="never">Księżyców znikających w dali</row>
     </block>
     <block type="verse">
-      <row important_over="false">Kto jest przez Hades</row>
-      <row important_over="false">Specjalnie umiłowany</row>
-      <row important_over="false">Tego cieszą rzeczy najprostsze</row>
+      <row important_over="never">Kto jest przez Hades</row>
+      <row important_over="never">Specjalnie umiłowany</row>
+      <row important_over="never">Tego cieszą rzeczy najprostsze</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="G"/>Słoneczniki <ch a="F"/>ścięte</row>
       <row important_over="true">Z których <ch a="C"/>światło uchodzi</row>
       <row important_over="true"><ch a="G"/>Jesień igra<ch a="F"/>jąca z <ch a="C"/>ogniem</row>
-      <row important_over="true"><ch a="G"/>Zaparzanie <ch a="F"/></row>
+      <row important_over="false"><ch a="G"/>Zaparzanie <ch a="F"/></row>
       <row important_over="true">Skośno<ch a="C"/>okiej herbaty</row>
       <row important_over="true"><ch a="a"/>Mi<ch a="G"/>łe z <ch a="F"/>nią roz<ch a="C"/>mo-<ch a="G"/>o-<ch a="C"/>wy</row>
     </block>

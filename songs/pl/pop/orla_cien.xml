@@ -9,7 +9,7 @@
     </block>
     <block type="chorus">
       <row important_over="true">Widziałam <ch a="F"/>orła <ch a="C"/>cień</row>
-      <row important_over="true">Do góry <ch a="F"/>wzbił się niczym <ch a="C"/>wiatr</row>
+      <row important_over="false">Do góry <ch a="F"/>wzbił się niczym <ch a="C"/>wiatr</row>
       <row important_over="true">Niebo <ch a="a"/>to jego <ch a="F"/>świat</row>
       <row important_over="true">Z obłokiem <ch a="a"/>tańczył w<ch a="G"/> świetle <ch a="C"/>dnia</row>
     </block>
@@ -18,10 +18,10 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="true">Słyszał <ch a="F"/>ludzki <ch a="C"/>szept</row>
-      <row important_over="true">Krzyczał, że <ch a="F"/>wolność domem <ch a="C"/>jest</row>
-      <row important_over="true">Nie ma <ch a="a"/>końca drogi <ch a="F"/>tej</row>
-      <row important_over="true">I że <ch a="a"/>nie wie, <ch a="G"/>co to <ch a="C"/>gniew</row>
+      <row important_over="false">Słyszał <ch a="F"/>ludzki <ch a="C"/>szept</row>
+      <row important_over="false">Krzyczał, że <ch a="F"/>wolność domem <ch a="C"/>jest</row>
+      <row important_over="false">Nie ma <ch a="a"/>końca drogi <ch a="F"/>tej</row>
+      <row important_over="false">I że <ch a="a"/>nie wie, <ch a="G"/>co to <ch a="C"/>gniew</row>
     </block>
     <block type="verse">
       <row important_over="false">Przemierzał <ch a="F"/>życia <ch a="C"/>sens</row>

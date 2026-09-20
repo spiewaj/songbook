@@ -9,34 +9,34 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Idę samotny wśród gór, zagubiony w świecie –<ch a="fis"/></row>
-			<row important_over="false">Wiatr tylko ścieżki me zna,<ch a="A"/></row>
-			<row important_over="false">Słońce niebawem za horyzont się wyniesie,<ch a="E"/></row>
-			<row important_over="false">Światem zawładnie mgła.<ch a="fis"/></row>
-			<row important_over="false">Gdy wśród ciemności jakiś ognik ujrzysz,<ch a="fis"/></row>
-			<row important_over="false">Będzie to dobry znak,<ch a="A"/></row>
-			<row important_over="false">Nowych ludzi poznam, od nich się nauczę<ch a="E"/></row>
-			<row important_over="false">Gawęd starych tak jak świat.<ch a="fis"/></row>
+			<row important_over="never">Idę samotny wśród gór, zagubiony w świecie –<ch a="fis"/></row>
+			<row important_over="never">Wiatr tylko ścieżki me zna,<ch a="A"/></row>
+			<row important_over="never">Słońce niebawem za horyzont się wyniesie,<ch a="E"/></row>
+			<row important_over="never">Światem zawładnie mgła.<ch a="fis"/></row>
+			<row important_over="never">Gdy wśród ciemności jakiś ognik ujrzysz,<ch a="fis"/></row>
+			<row important_over="never">Będzie to dobry znak,<ch a="A"/></row>
+			<row important_over="never">Nowych ludzi poznam, od nich się nauczę<ch a="E"/></row>
+			<row important_over="never">Gawęd starych tak jak świat.<ch a="fis"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Niech każdy z was się dowie,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Co traci, nie będąc tu,<ch a="fis"/></row>
-			<row important_over="false">Świerk szumem ci opowie,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Co zaszło tu przed lat stu.<ch a="fis"/></row>
-			<row important_over="false">Strumień orzeźwi ci stopy,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">I on kiedyś wody dał<ch a="fis"/></row>
-			<row important_over="false">Spragnionym w górach wędrowcom,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Co szli tędy tak jak ja.<ch a="fis"/></row>
+			<row important_over="never">Niech każdy z was się dowie,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Co traci, nie będąc tu,<ch a="fis"/></row>
+			<row important_over="never">Świerk szumem ci opowie,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Co zaszło tu przed lat stu.<ch a="fis"/></row>
+			<row important_over="never">Strumień orzeźwi ci stopy,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">I on kiedyś wody dał<ch a="fis"/></row>
+			<row important_over="never">Spragnionym w górach wędrowcom,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Co szli tędy tak jak ja.<ch a="fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Góra za górą chowa swe oblicze,<ch a="fis"/></row>
-			<row important_over="false">Lecz te dokładnie już znam,<ch a="A"/></row>
-			<row important_over="false">Żadna mi nie ujdzie, wszystko zaliczę,<ch a="E"/></row>
-			<row important_over="false">Chociaż o drogi szmat.<ch a="fis"/></row>
-			<row important_over="false">Wciąż lat przybywa i świat się też starzeje,<ch a="fis"/></row>
-			<row important_over="false">Cóż – naturalna to rzecz,<ch a="A"/></row>
-			<row important_over="false">Ktoś, kto przeglądać będzie stare szpargały,<ch a="E"/></row>
-			<row important_over="false">Może przeczyta ten tekst.<ch a="fis"/></row>
+			<row important_over="never">Góra za górą chowa swe oblicze,<ch a="fis"/></row>
+			<row important_over="never">Lecz te dokładnie już znam,<ch a="A"/></row>
+			<row important_over="never">Żadna mi nie ujdzie, wszystko zaliczę,<ch a="E"/></row>
+			<row important_over="never">Chociaż o drogi szmat.<ch a="fis"/></row>
+			<row important_over="never">Wciąż lat przybywa i świat się też starzeje,<ch a="fis"/></row>
+			<row important_over="never">Cóż – naturalna to rzecz,<ch a="A"/></row>
+			<row important_over="never">Ktoś, kto przeglądać będzie stare szpargały,<ch a="E"/></row>
+			<row important_over="never">Może przeczyta ten tekst.<ch a="fis"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

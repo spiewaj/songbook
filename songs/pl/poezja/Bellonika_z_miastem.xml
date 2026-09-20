@@ -19,10 +19,10 @@
 			<row important_over="false">Jak <ch a="F"/>ołów ciężką tr<ch a="G"/>eść</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Za oknem wi<ch a="C"/>elkiego miasta sz<ch a="G"/>um</row>
-			<row important_over="true">I<ch a="F"/> uciec by się chci<ch a="C"/>ało</row>
-			<row important_over="true">W rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
-			<row important_over="true">Bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę</row>
+			<row important_over="false">Za oknem wi<ch a="C"/>elkiego miasta sz<ch a="G"/>um</row>
+			<row important_over="false">I<ch a="F"/> uciec by się chci<ch a="C"/>ało</row>
+			<row important_over="false">W rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
+			<row important_over="false">Bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę</row>
 			<row important_over="false">Za oknem wi<ch a="C"/>elkiego miasta chł<ch a="G"/>ód</row>
 			<row important_over="false">I t<ch a="F"/>ylko Twoje ci<ch a="C"/>ało</row>
 			<row important_over="false">W półmr<ch a="a"/>oku obiec<ch a="d"/>uje</row>

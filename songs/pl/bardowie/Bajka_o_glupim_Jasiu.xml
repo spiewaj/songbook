@@ -25,8 +25,8 @@
 			<row important_over="true">-- Pr<ch a="E"/>awda to, że ci rozumu br<ch a="a"/>ak!</row>
 			<row important_over="true">W<ch a="d"/>oda Życia nie istnieje,</row>
 			<row important_over="true"><ch a="a"/>A w obczyźnie nam zmarniejesz —</row>
-			<row important_over="true"><ch a="H7"/>Ale on przed siebie szedł i t<ch a="E"/>ak,</row>
-			<row important_over="true"><ch a="E7"/>Ale on przed siebie szedł i t<ch a="a"/>ak.</row>
+			<row important_over="false"><ch a="H7"/>Ale on przed siebie szedł i t<ch a="E"/>ak,</row>
+			<row important_over="false"><ch a="E7"/>Ale on przed siebie szedł i t<ch a="a"/>ak.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Sz<ch a="a"/>edł za słonkiem tam, gdzie zachodziło;</row>

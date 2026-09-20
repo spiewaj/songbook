@@ -11,10 +11,10 @@
 		<block type="verse">
 			<row important_over="true">Wchodz<ch a="a"/>imy z twarzami zdrowymi od mrozu,</row>
 			<row important_over="true">Siad<ch a="F"/>amy przy ogniu tańcz<ch a="a"/>ącym z radości,</row>
-			<row important_over="true">Ścier<ch a="F"/>amy z nadgarstków odc<ch a="a"/>iski powrozów,</row>
+			<row important_over="false">Ścier<ch a="F"/>amy z nadgarstków odc<ch a="a"/>iski powrozów,</row>
 			<row important_over="true">Woł<ch a="E9"/>amy o w<ch a="E"/>ino i chl<ch a="E9"/>eb, i tłust<ch a="E"/>ości,</row>
 			<row important_over="true">Spod ści<ch a="F"/>an patrzą na nas w milcz<ch a="E"/>eniu miejscowi,</row>
-			<row important_over="true">Napi<ch a="F"/>ęci, na wsz<ch a="E"/>ystko gotowi.</row>
+			<row important_over="false">Napi<ch a="F"/>ęci, na wsz<ch a="E"/>ystko gotowi.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Wchł<ch a="a"/>aniamy łapczywie wielkimi kęsami,</row>
@@ -24,7 +24,7 @@
 			<row important_over="false">I pł<ch a="F"/>ynie pod ściany miejsc<ch a="E"/>owych jak ręka</row>
 			<row important_over="false">Co m<ch a="F"/>ówi - przestańcie się l<ch a="E"/>ękać,</row>
 			<bis times="2">
-				<row important_over="true">Co m<ch a="a"/>ówi - przestańcie się lękać.</row>
+				<row important_over="false">Co m<ch a="a"/>ówi - przestańcie się lękać.</row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -72,9 +72,9 @@
 			<row important_over="false">Gdzie n<ch a="E9"/>ikt tak napr<ch a="E"/>awdę nic ni<ch a="E9"/>e ma na wł<ch a="E"/>asność,</row>
 			<row important_over="false">A w<ch a="F"/>am pozostanie pi<ch a="E"/>osenka i sny:</row>
 			<row important_over="false">-- My dzi<ch a="F"/>eci wolności, bezd<ch a="E"/>omne my psy…</row>
-			<row important_over="true"><ch a="a"/> Dzieci wolności…</row>
+			<row important_over="false"><ch a="a"/> Dzieci wolności…</row>
 			<bis times="3">
-				<row important_over="true"><ch a="a"/> Dzieci wolności, psy…</row>
+				<row important_over="false"><ch a="a"/> Dzieci wolności, psy…</row>
 			</bis>
 		</block>
 	</lyric>

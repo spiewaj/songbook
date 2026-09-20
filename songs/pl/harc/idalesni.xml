@@ -12,29 +12,29 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>Idą, idą leśni, k<ch a="E7"/>ompas maja z gwiazd, </row>
-      <row important_over="true"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
-      <row important_over="true"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
+      <row important_over="false"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
+      <row important_over="false"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
       <row important_over="true"><ch a="a"/>Tam gdzie my jesteśmy, tam jest wol<ch a="E"/>ny k<ch a="a"/>raj. </row>
     </block>
     <block type="verse">
-      <row important_over="never">Górą chmurka płynie, ptak po niebie tańczy,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="never">Dołem przez gęstwinę idą partyzanci,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="never">Drapieżniki leśne, wilków złych wataha,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Żandarm wejść tu nie chce i SS ma stracha.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Górą chmurka płynie, ptak po niebie tańczy,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Dołem przez gęstwinę idą partyzanci,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Drapieżniki leśne, wilków złych wataha,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Żandarm wejść tu nie chce i SS ma stracha.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Nie wiadomo nigdy gdzie i skąd spadniemy<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="never">Mścić niemieckie krzywdy wobec polskiej ziemi,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="never">Długa nasza droga, bron ugniata ramie,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Kule są dla wroga, a ostatnia dla mnie.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Nie wiadomo nigdy gdzie i skąd spadniemy<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Mścić niemieckie krzywdy wobec polskiej ziemi,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Długa nasza droga, bron ugniata ramie,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Kule są dla wroga, a ostatnia dla mnie.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Nie martw się dziewczyno, trzeba mieć nadzieje,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="never">Wszak nie wszyscy giną, może ocaleje,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="never">Jak będzie ładnie wrócić do swej wioski,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Gdy ostatni padnie żołdak hitlerowski.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Nie martw się dziewczyno, trzeba mieć nadzieje,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Wszak nie wszyscy giną, może ocaleje,<ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Jak będzie ładnie wrócić do swej wioski,<ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Gdy ostatni padnie żołdak hitlerowski.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
     </block>
   </lyric>
   <keywords/>

@@ -11,9 +11,9 @@
       <row important_over="true">Wciąż k<ch a="D"/>ocham Cię jak Irl<ch a="A"/>andię</row>
     </block>
     <block type="chorus">
-      <row important_over="true">A t<ch a="D"/>y się temu nie dz<ch a="fis"/>iwisz</row>
-      <row important_over="true">Wiesz d<ch a="D7"/>obrze co byłoby d<ch a="e"/>alej</row>
-      <row important_over="true">Jakb<ch a="C"/>yśmy byli szczęś<ch a="G"/>liwi</row>
+      <row important_over="false">A t<ch a="D"/>y się temu nie dz<ch a="fis"/>iwisz</row>
+      <row important_over="false">Wiesz d<ch a="D7"/>obrze co byłoby d<ch a="e"/>alej</row>
+      <row important_over="false">Jakb<ch a="C"/>yśmy byli szczęś<ch a="G"/>liwi</row>
       <row important_over="true">Gd<ch a="D"/>ybym nie ko<ch a="A"/>chał Cię w<ch a="D"/>cale</row>
     </block>
     <block type="verse">
@@ -24,22 +24,22 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Gdzi<ch a="E"/>eś na ulicy Fabr<ch a="gis"/>ycznej</row>
-      <row important_over="false">Sp<ch a="E7"/>otkać nam się wyp<ch a="fis"/>adnie</row>
+      <row important_over="true">Gdzi<ch a="E"/>eś na ulicy Fabr<ch a="gis"/>ycznej</row>
+      <row important_over="true">Sp<ch a="E7"/>otkać nam się wyp<ch a="fis"/>adnie</row>
       <row important_over="false"><ch a="D"/>Lecz takie są w<ch a="A"/>idać wytyczne</row>
-      <row important_over="false">By k<ch a="E"/>ochać Cię jak Irl<ch a="H"/>andię</row>
+      <row important_over="true">By k<ch a="E"/>ochać Cię jak Irl<ch a="H"/>andię</row>
     </block>
     <block type="chorus">
       <row important_over="false">A t<ch a="E"/>y się temu nie dz<ch a="gis"/>iwisz</row>
       <row important_over="false">Wiesz d<ch a="E7"/>obrze co byłoby d<ch a="fis"/>alej</row>
       <row important_over="false">Jakb<ch a="D"/>yśmy byli szczęś<ch a="A"/>liwi</row>
-      <row important_over="false">Gd<ch a="E"/>ybym nie kochał Cię w<ch a="H"/>cale<ch a="E"/></row>
+      <row important_over="true">Gd<ch a="E"/>ybym nie kochał Cię w<ch a="H"/>cale<ch a="E"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Czy m<ch a="Fis"/>i to kiedyś wyba<ch a="ais"/>czysz</row>
-      <row important_over="false">Dział<ch a="Fis7"/>ałem tak niepor<ch a="gis"/>adnie</row>
+      <row important_over="true">Czy m<ch a="Fis"/>i to kiedyś wyba<ch a="ais"/>czysz</row>
+      <row important_over="true">Dział<ch a="Fis7"/>ałem tak niepor<ch a="gis"/>adnie</row>
       <row important_over="false"><ch a="E"/>Czy to dla cie<ch a="H"/>bie coś znaczy</row>
-      <row important_over="false">Że k<ch a="Fis"/>ocham Cię jak Irl<ch a="Cis"/>andię</row>
+      <row important_over="true">Że k<ch a="Fis"/>ocham Cię jak Irl<ch a="Cis"/>andię</row>
     </block>
     <block type="chorus">
       <bis times="2">

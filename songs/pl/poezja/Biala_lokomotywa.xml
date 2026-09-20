@@ -11,25 +11,25 @@
 		<block type="verse">
 			<row important_over="true">Sun<ch a="E"/>ęła poprzez czarne łąki</row>
 			<row important_over="true">Sun<ch a="A"/>ęła przez spalony l<ch a="E"/>as</row>
-			<row important_over="false">Mij<ch a="E"/>ała bram zwęglone szczątki</row>
+			<row important_over="true">Mij<ch a="E"/>ała bram zwęglone szczątki</row>
 			<row important_over="false">Płyn<ch a="A"/>ęła przez wspomnienia mi<ch a="E"/>ast</row>
 			<row important_over="true">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
-			<row important_over="false">Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
+			<row important_over="true">Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
 			<row important_over="false">Ta ż<ch a="A"/>ywa zjawa, istny c<ch a="E"/>ud</row>
-			<row important_over="false">Tu p<ch a="E"/>ośród pustych marnych wierszy</row>
+			<row important_over="true">Tu p<ch a="E"/>ośród pustych marnych wierszy</row>
 			<row important_over="false">Tu gd<ch a="A"/>zie już tylko czarny k<ch a="E"/>urz</row>
 			<row important_over="false">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Ach cz<ch a="G"/>yj, ach cz<ch a="D"/>yj to j<ch a="C"/>est<ch a="G"/></row>
-			<row important_over="true">Tak pi<ch a="G"/>ękny h<ch a="D"/>ojny g<ch a="C"/>est<ch a="G"/></row>
+			<row important_over="false">Tak pi<ch a="G"/>ękny h<ch a="D"/>ojny g<ch a="C"/>est<ch a="G"/></row>
 			<row important_over="true">Kto <ch a="G"/>mi tu prz<ch a="h"/>ysłał j<ch a="a"/>ą<ch a="G"/></row>
 			<row important_over="true">
 				<ch a="G"/>Bym s<ch a="D"/>ię wyd<ch a="C"/>osta<ch a="G"/>ł st<ch a="H"/>ąd</row>
-			<row important_over="true">Ach kt<ch a="G"/>óż, no kt<ch a="D"/>óż to m<ch a="C"/>oże b<ch a="G"/>yć</row>
-			<row important_over="true">Bez<ch a="G"/>e mnie kt<ch a="D"/>o nie umi<ch a="C"/>e ż<ch a="G"/>yć</row>
-			<row important_over="true">I b<ch a="G"/>ym zmartw<ch a="h"/>ychwstał bł<ch a="a"/>aga mn<ch a="G"/>ie</row>
-			<row important_over="true">
+			<row important_over="false">Ach kt<ch a="G"/>óż, no kt<ch a="D"/>óż to m<ch a="C"/>oże b<ch a="G"/>yć</row>
+			<row important_over="false">Bez<ch a="G"/>e mnie kt<ch a="D"/>o nie umi<ch a="C"/>e ż<ch a="G"/>yć</row>
+			<row important_over="false">I b<ch a="G"/>ym zmartw<ch a="h"/>ychwstał bł<ch a="a"/>aga mn<ch a="G"/>ie</row>
+			<row important_over="false">
 				<ch a="G"/>By m<ch a="D"/>nie ob<ch a="C"/>udzi<ch a="G"/>ł jasny <ch a="H"/>zew</row>
 			<row important_over="true">Białej lokomot<ch a="E"/>ywy</row>
 		</block>

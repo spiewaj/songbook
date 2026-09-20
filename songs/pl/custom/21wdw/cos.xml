@@ -6,10 +6,10 @@
 	<artist type="band">21. WDW „Stare Żbiki”</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Był koń,</row>
-			<row important_over="false">zdechł koń,</row>
-			<row important_over="false">fajny był,</row>
-			<row important_over="false">szkoda go.</row>
+			<row important_over="never">Był koń,</row>
+			<row important_over="never">zdechł koń,</row>
+			<row important_over="never">fajny był,</row>
+			<row important_over="never">szkoda go.</row>
 		</block>
 	</lyric>
 	<keywords/>

@@ -9,7 +9,7 @@ Kiedy w końcu nas kupili GD
     <block type="verse">
       <row important_over="true">Gdy Cię pi<ch a="G"/>erwszy raz u<ch a="D"/>jrzałem </row>
       <row important_over="true">Wielkim t<ch a="e"/>irem zajech<ch a="C"/>ałaś </row>
-      <row important_over="true">Ja się w T<ch a="G"/>obie zakoch<ch a="D"/>ałem </row>
+      <row important_over="false">Ja się w T<ch a="G"/>obie zakoch<ch a="D"/>ałem </row>
       <row important_over="true">A Ty na m<ch a="e"/>nie nie<ch a="C"/> spojrza<ch a="G"/>łaś!</row>
     </block>
     <block type="chorus">
@@ -17,25 +17,25 @@ Kiedy w końcu nas kupili GD
       <row important_over="true">Zo<ch a="G"/>stań moją ż<ch a="D"/>onką błagam Ci<ch a="e"/>ę n<ch a="C"/>a kolan<ch a="G"/>ach! </row>
     </block>
     <block type="verse">
-      <row important_over="never">Gdy Cię drugi raz ujrzałem <ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Na sklepowej półce stałaś <ch a="e"/><ch a="C"/></row>
-      <row important_over="never">Ja Ci list miłosny słałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">// Ja Cię wtedy pokochałem // <ch a="G"/><ch a="D"/></row>
-      <row important_over="never">A Ty na mnie nie spojrzałaś! <ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Gdy Cię drugi raz ujrzałem <ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Na sklepowej półce stałaś <ch a="e"/><ch a="C"/></row>
+      <row important_over="false">Ja Ci list miłosny słałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">// Ja Cię wtedy pokochałem // <ch a="G"/><ch a="D"/></row>
+      <row important_over="false">A Ty na mnie nie spojrzałaś! <ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Gdy Cię trzeci raz ujrzałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Ty z szympansem mnie zdradziłaś<ch a="e"/><ch a="C"/></row>
-      <row important_over="never">Ja mu wtedy pokazałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Jaka jest pingwinia siła<ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Gdy Cię trzeci raz ujrzałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Ty z szympansem mnie zdradziłaś<ch a="e"/><ch a="C"/></row>
+      <row important_over="false">Ja mu wtedy pokazałem<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Jaka jest pingwinia siła<ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">To już koniec tej piosenki<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Mój Ty widzu ukochany <ch a="e"/><ch a="C"/></row>
-      <row important_over="never">Jeśli Ci się spodobała<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">To zaśpiewaj razem z nami! <ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">To już koniec tej piosenki<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Mój Ty widzu ukochany <ch a="e"/><ch a="C"/></row>
+      <row important_over="false">Jeśli Ci się spodobała<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">To zaśpiewaj razem z nami! <ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

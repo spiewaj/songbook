@@ -37,8 +37,8 @@
 			<row important_over="false">
 				<ch a="D"/>Jak suchy szloch w tę dżdż<ch a="A"/>ystą noc</row>
 			<row important_over="false">Pud<ch a="G"/>owy kamień, pud<ch a="D"/>owy kamień</row>
-			<row important_over="false">Ja na<ch a="e"/> nim stanę, on na<ch a="G"/> mnie stanie</row>
-			<row important_over="false">On n<ch a="D"/>a mnie stanie, spod niego wstanę</row>
+			<row important_over="true">Ja na<ch a="e"/> nim stanę, on na<ch a="G"/> mnie stanie</row>
+			<row important_over="true">On n<ch a="D"/>a mnie stanie, spod niego wstanę</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">

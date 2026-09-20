@@ -5,13 +5,13 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="C"/>Słuchać w pełnym <ch a="G"/>słońcu, <ch a="d"/>jak pulsuje <ch a="a"/>Ziemia</row>
-      <row important_over="true"><ch a="C"/>Uspokoić swoje <ch a="G"/>serce i <ch a="d"/>niczego już nie <ch a="a"/>zmieniać</row>
-      <row important_over="true"><ch a="C"/>I uwierzyć <ch a="G"/>w siebie <ch a="d"/>porzucając <ch a="a"/>sny</row>
-      <row important_over="true"><ch a="C"/>To twój bunt <ch a="G"/>przemija, a <ch a="d"/>nie ty<ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Uspokoić swoje <ch a="G"/>serce i <ch a="d"/>niczego już nie <ch a="a"/>zmieniać</row>
+      <row important_over="false"><ch a="C"/>I uwierzyć <ch a="G"/>w siebie <ch a="d"/>porzucając <ch a="a"/>sny</row>
+      <row important_over="false"><ch a="C"/>To twój bunt <ch a="G"/>przemija, a <ch a="d"/>nie ty<ch a="a"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="C"/>Nie wiesz, <ch a="G"/>nie wiesz, <ch a="d"/>nie rozumiesz <ch a="a"/>nic </row>
+        <row important_over="false"><ch a="C"/>Nie wiesz, <ch a="G"/>nie wiesz, <ch a="d"/>nie rozumiesz <ch a="a"/>nic </row>
       </bis>
     </block>
     <block type="verse">

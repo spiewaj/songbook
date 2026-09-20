@@ -25,7 +25,7 @@
 			<row important_over="false">Bo pr<ch a="d"/>ędzej w lodach kwi<ch a="a"/>at zakwitnie, n<ch a="g"/>iż wyc<ch a="a"/>ofam si<ch a="d"/>ę.</row>
 			<row important_over="false">N<ch a="d"/>o, nie płacz, mała, wr<ch a="a"/>ócę tu, n<ch a="d"/>asz los nie taki zł<ch a="a"/>y,</row>
 			<row important_over="false">Bo d<ch a="d"/>a dukatów w<ch a="a"/>ór za tran <ch a="g"/>i wielor<ch a="a"/>ybie kł<ch a="d"/>y.</row>
-			<row important_over="false"></row>
+			<row important_over="never"></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
@@ -38,7 +38,7 @@
 			<row important_over="false">Na ł<ch a="d"/>odziach, co zwis<ch a="a"/>ały już z harp<ch a="g"/>unem k<ch a="a"/>ażdy st<ch a="d"/>ał.</row>
 			<row important_over="false"><ch a="d"/>I dmucha tu, i dm<ch a="a"/>ucha tam! Ogr<ch a="d"/>omne stado wkr<ch a="a"/>ąg.</row>
 			<row important_over="false">Harp<ch a="d"/>uny, wiosła, l<ch a="a"/>iny brać! I ciąg<ch a="g"/>aj, br<ch a="a"/>achu, ci<ch a="d"/>ąg!</row>
-			<row important_over="false"></row>
+			<row important_over="never"></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">

@@ -17,9 +17,9 @@
 			<row important_over="true">Bo obr<ch a="a"/>osłe ciemn<ch a="E0"/>ością i m<ch a="H"/>ułem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Oboj<ch a="e"/>ętny brzeg — płaski, lecz nad wszystko wyniosły,</row>
-			<row important_over="false">Rzeki n<ch a="e"/>urt nieuchronnie wyzyska!</row>
-			<row important_over="false">Karmi tr<ch a="C"/>awy i bagna co z nicości wyrosły,</row>
+			<row important_over="true">Oboj<ch a="e"/>ętny brzeg — płaski, lecz nad wszystko wyniosły,</row>
+			<row important_over="true">Rzeki n<ch a="e"/>urt nieuchronnie wyzyska!</row>
+			<row important_over="true">Karmi tr<ch a="C"/>awy i bagna co z nicości wyrosły,</row>
 			<row important_over="false">Więc na n<ch a="C"/>icość niezmi<ch a="D"/>ennie ni<ch a="G"/>eczułe:</row>
 			<row important_over="true">Tak tw<ch a="e"/>orzą się z rz<ch a="a"/>ek</row>
 			<row important_over="true">-- Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
@@ -33,9 +33,9 @@
 			<row important_over="false">Ani gł<ch a="a"/>ębi, n<ch a="E0"/>i głębok<ch a="H"/>ości!</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Gdzie jest c<ch a="e"/>el tych taplawisk, co choć dążą do morza,</row>
-			<row important_over="false">Roztapi<ch a="e"/>ają się wciąż w grzęzawiska?</row>
-			<row important_over="false">Nurt się pł<ch a="C"/>awi w kałużach, bagno — bagnem odciska,</row>
+			<row important_over="true">Gdzie jest c<ch a="e"/>el tych taplawisk, co choć dążą do morza,</row>
+			<row important_over="true">Roztapi<ch a="e"/>ają się wciąż w grzęzawiska?</row>
+			<row important_over="true">Nurt się pł<ch a="C"/>awi w kałużach, bagno — bagnem odciska,</row>
 			<row important_over="false">Niemożl<ch a="C"/>iwe — ni pow<ch a="D"/>ódź, ni p<ch a="G"/>ożar…</row>
 			<row important_over="false">Tak tw<ch a="e"/>orzą się z rz<ch a="a"/>ek</row>
 			<row important_over="false">-- Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
@@ -49,11 +49,11 @@
 			<row important_over="false">A gdzie d<ch a="a"/>usza? Gdzie źr<ch a="E0"/>ódło zost<ch a="H"/>ało?</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">W źródle s<ch a="e"/>iła i trwanie, ukojenie pragnienia,</row>
-			<row important_over="false">Dźwięk dal<ch a="e"/>eki a przecież jedyny!</row>
-			<row important_over="true">Więc za dźwi<ch a="a"/>ękiem, pod prąd rzeki m<ch a="e"/>ętnej, zgubionej</row>
-			<row important_over="true">Trzeba cz<ch a="a"/>ołgać się, pełznąć i pł<ch a="e"/>ynąć,</row>
-			<row important_over="true">Bo t<ch a="C"/>ylko się źr<ch a="E0"/>ódło nie zmi<ch a="H"/>enia.</row>
+			<row important_over="true">W źródle s<ch a="e"/>iła i trwanie, ukojenie pragnienia,</row>
+			<row important_over="true">Dźwięk dal<ch a="e"/>eki a przecież jedyny!</row>
+			<row important_over="false">Więc za dźwi<ch a="a"/>ękiem, pod prąd rzeki m<ch a="e"/>ętnej, zgubionej</row>
+			<row important_over="false">Trzeba cz<ch a="a"/>ołgać się, pełznąć i pł<ch a="e"/>ynąć,</row>
+			<row important_over="false">Bo t<ch a="C"/>ylko się źr<ch a="E0"/>ódło nie zmi<ch a="H"/>enia.</row>
 			<row important_over="true">Bije w<ch a="a"/>odą przeczystą,</row>
 			<row important_over="true">Z głębi zi<ch a="e"/>emi zrodzoną</row>
 			<row important_over="false">I ż<ch a="e"/>yje wciąż wbr<ch a="a"/>ew</row>

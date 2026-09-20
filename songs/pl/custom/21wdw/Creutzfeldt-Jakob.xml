@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<bis times="100">
-				<row important_over="false">Cr<ch a="G"/>eutzfeld Jakob naszym prz<ch a="Fis"/>yjacielem jest!</row>
+				<row important_over="true">Cr<ch a="G"/>eutzfeld Jakob naszym prz<ch a="Fis"/>yjacielem jest!</row>
 			</bis>
 		</block>
 	</lyric>
