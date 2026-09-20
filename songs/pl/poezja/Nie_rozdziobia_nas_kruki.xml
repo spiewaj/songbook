@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="false">Nie rozdziobią nas kruki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Ni wrony, ani nic!<ch a="Fis"/><ch a="e"/><ch a="A7"/><ch a="4"/></row>
+			<row important_over="false">Ni wrony, ani nic!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
 			<row important_over="false">Nie rozszarpią na sztuki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
 			<row important_over="false">Poezji wściekłe kły! <ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
@@ -22,14 +22,14 @@
 		</block>
 		<block type="verse">
 			<row important_over="false">Nie omami nas forsa<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Ni sławy pusty dźwięk!<ch a="Fis"/><ch a="e"/><ch a="A7"/><ch a="4"/></row>
+			<row important_over="false">Ni sławy pusty dźwięk!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
 			<row important_over="false">Inną ścigamy postać:<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
 			<row important_over="false">Realnej zjawy tren!<ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false">Nie zdechniemy tak szybko,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Jak sobie roi śmierć!<ch a="Fis"/><ch a="e"/><ch a="A7"/><ch a="4"/></row>
+			<row important_over="false">Jak sobie roi śmierć!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
 			<row important_over="false">Ziemia dla nas za płytka,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
 			<row important_over="false">Fruniemy w góry gdzieś! <ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
