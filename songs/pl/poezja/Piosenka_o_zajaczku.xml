@@ -30,10 +30,10 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Bledną wspomnienia i płynie rzeka<ch a="D"/><ch a="F"/></row>
-			<row important_over="false">Bez końca i bez początku<ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Nasyć me oczy kolorem rosy<ch a="D"/><ch a="F"/></row>
-			<row important_over="false">I drzwi mi otwórz zajączku<ch a="C"/><ch a="e"/></row>
+			<row important_over="true">Bledną wspomnienia i płynie rzeka<ch a="D"/><ch a="F"/></row>
+			<row important_over="true">Bez końca i bez początku<ch a="C"/><ch a="G"/></row>
+			<row important_over="true">Nasyć me oczy kolorem rosy<ch a="D"/><ch a="F"/></row>
+			<row important_over="true">I drzwi mi otwórz zajączku<ch a="C"/><ch a="e"/></row>
 		</block>
 	</lyric>
 	

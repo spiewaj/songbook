@@ -15,10 +15,10 @@
 			<row important_over="true">Szk<ch a="d"/>arłaty wi<ch a="a"/>esza na zb<ch a="E"/>ocz<ch a="a"/>ach</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Przyobl<ch a="d"/>ekam myśli w kol<ch a="G"/>ory</row>
-			<row important_over="false">W liści zł<ch a="C"/>oto w buków purp<ch a="a"/>urę</row>
-			<row important_over="false">Palę w <ch a="d"/>ogniu letnie wspomni<ch a="G"/>enia</row>
-			<row important_over="false">Idę w<ch a="C"/>ymachując kost<ch a="A7"/>urem</row>
+			<row important_over="true">Przyobl<ch a="d"/>ekam myśli w kol<ch a="G"/>ory</row>
+			<row important_over="true">W liści zł<ch a="C"/>oto w buków purp<ch a="a"/>urę</row>
+			<row important_over="true">Palę w <ch a="d"/>ogniu letnie wspomni<ch a="G"/>enia</row>
+			<row important_over="true">Idę w<ch a="C"/>ymachując kost<ch a="A7"/>urem</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">

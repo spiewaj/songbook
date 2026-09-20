@@ -10,7 +10,7 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="G"/> Gdy jestem s<ch a="e"/>am,<ch a="C"/> myślami bi<ch a="D"/>egnę</row>
-      <row important_over="false"><ch a="G"/> Do mej najdr<ch a="e"/>oższej,<ch a="C"/> jak rzeka wi<ch a="D"/>ernej</row>
+      <row important_over="true"><ch a="G"/> Do mej najdr<ch a="e"/>oższej,<ch a="C"/> jak rzeka wi<ch a="D"/>ernej</row>
     </block>
     <block type="chorus">
       <row important_over="true">O, o, M<ch a="G"/>ajk<ch a="e"/>a,<ch a="C"/> nie j<ch a="D"/>estem Ciebie w<ch a="G"/>a<ch a="e"/>rt<ch a="C"/><ch a="D"/></row>

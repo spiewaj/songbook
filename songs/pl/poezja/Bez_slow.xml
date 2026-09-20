@@ -46,9 +46,9 @@ Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 			<row important_over="false"><ch a="C"/> I to dziwne drżenie rąk<ch a="G"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
-			<row important_over="false"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
-			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+			<row important_over="true"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
+			<row important_over="true"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="true"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
 		</block>
 	</lyric>
 	

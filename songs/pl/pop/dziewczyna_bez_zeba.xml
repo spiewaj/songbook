@@ -4,8 +4,8 @@
   <artist type="band">Kult</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false">Kult</row>
-      <row important_over="false">Dziewczyna bez zęba na przedzie</row>
+      <row important_over="never">Kult</row>
+      <row important_over="never">Dziewczyna bez zęba na przedzie</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="d"/> Wybrałem cię spośród <ch a="B"/>milionów,</row>

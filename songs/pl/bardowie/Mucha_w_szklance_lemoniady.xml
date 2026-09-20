@@ -9,9 +9,9 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row style="instr"><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="G"/><ch a="E"/><ch a="a7"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="G"/><ch a="E"/><ch a="a7"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/><ch a="Cis0"/><ch a="H7"/><ch a="e"/></row>
 			<row important_over="true">Ol<ch a="Cis0"/>iwnej lampy pł<ch a="H7"/>omyk się wyp<ch a="e"/>alił,</row>
-			<row important_over="false">W rodz<ch a="Cis0"/>ynki się zmarszcz<ch a="H7"/>yły winogr<ch a="e"/>ona.</row>
+			<row important_over="true">W rodz<ch a="Cis0"/>ynki się zmarszcz<ch a="H7"/>yły winogr<ch a="e"/>ona.</row>
 			<row important_over="true">Wbrew s<ch a="G"/>obie, syty b<ch a="E"/>aśni, usnął k<ch a="a7"/>alif,</row>
 			<row important_over="true">Za wł<ch a="Cis0"/>os go szarpie m<ch a="H7"/>ałpka osw<ch a="e"/>ojona.<ch a="Cis0"/><ch a="H7"/><ch a="e"/></row>
 		</block>
@@ -21,22 +21,22 @@
 			<row important_over="true">Śnij o ł<ch a="H7"/>asce, śnij o k<ch a="C"/>arze,</row>
 			<row important_over="true">
 				<ch a="a"/>O o<ch a="H7"/>azie i pragni<ch a="e"/>eniu.</row>
-			<row important_over="false">O pust<ch a="H7"/>yni i wielbł<ch a="e"/>ądzie,</row>
-			<row important_over="false">O bog<ch a="E"/>actwie i o n<ch a="a"/>ędzy.</row>
-			<row important_over="false">Kołowr<ch a="H7"/>otek śnij i k<ch a="C"/>ądziel,</row>
-			<row important_over="false">Ł<ch a="a"/>ad dyw<ch a="H7"/>anu, chaos prz<ch a="e"/>ędzy.</row>
+			<row important_over="true">O pust<ch a="H7"/>yni i wielbł<ch a="e"/>ądzie,</row>
+			<row important_over="true">O bog<ch a="E"/>actwie i o n<ch a="a"/>ędzy.</row>
+			<row important_over="true">Kołowr<ch a="H7"/>otek śnij i k<ch a="C"/>ądziel,</row>
+			<row important_over="true">Ł<ch a="a"/>ad dyw<ch a="H7"/>anu, chaos prz<ch a="e"/>ędzy.</row>
 			<row important_over="true">Wyśnij skrz<ch a="G"/>ydlat<ch a="H7"/>ego k<ch a="F0"/>onia,</row>
 			<row important_over="true">Wyśnij <ch a="a"/>osła p<ch a="F7"/>od kier<ch a="Fis0"/>atem,</row>
 			<row important_over="true">Labir<ch a="e"/>yntu si<ch a="C"/>eć na dł<ch a="Cis0"/>oniach,</row>
 			<row important_over="true">Każdą zd<ch a="H7"/>obycz <ch a="Cis0"/>i utr<ch a="H7"/>atę.</row>
-			<row important_over="false">Śnij korz<ch a="G"/>enie, śn<ch a="H7"/>ij ow<ch a="F0"/>oce,</row>
-			<row important_over="false">Śnij pał<ch a="a"/>ace, śn<ch a="F7"/>ij ru<ch a="Fis0"/>iny,</row>
-			<row important_over="false">Dni milcz<ch a="e"/>ące, gw<ch a="C"/>arne n<ch a="Cis0"/>oce,</row>
+			<row important_over="true">Śnij korz<ch a="G"/>enie, śn<ch a="H7"/>ij ow<ch a="F0"/>oce,</row>
+			<row important_over="true">Śnij pał<ch a="a"/>ace, śn<ch a="F7"/>ij ru<ch a="Fis0"/>iny,</row>
+			<row important_over="true">Dni milcz<ch a="e"/>ące, gw<ch a="C"/>arne n<ch a="Cis0"/>oce,</row>
 			<row important_over="true">Góry mr<ch a="H7"/>ok i bl<ch a="Cis0"/>ask kotl<ch a="e"/>iny.</row>
-			<row important_over="false">We śnie nie śpi<ch a="H7"/>esz się, masz cz<ch a="e"/>as,</row>
-			<row important_over="false">Snom daj pł<ch a="E"/>ynąć, a nie pł<ch a="a"/>onąć,</row>
-			<row important_over="false">Śnij, jak śn<ch a="H7"/>i się tylko r<ch a="C"/>az</row>
-			<row important_over="false">Sw<ch a="a"/>ą mal<ch a="H7"/>eńką nieskończ<ch a="e"/>oność…</row>
+			<row important_over="true">We śnie nie śpi<ch a="H7"/>esz się, masz cz<ch a="e"/>as,</row>
+			<row important_over="true">Snom daj pł<ch a="E"/>ynąć, a nie pł<ch a="a"/>onąć,</row>
+			<row important_over="true">Śnij, jak śn<ch a="H7"/>i się tylko r<ch a="C"/>az</row>
+			<row important_over="true">Sw<ch a="a"/>ą mal<ch a="H7"/>eńką nieskończ<ch a="e"/>oność…</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">I t<ch a="Cis0"/>ak minęła n<ch a="H7"/>oc tysięczna pi<ch a="e"/>erwsza,</row>

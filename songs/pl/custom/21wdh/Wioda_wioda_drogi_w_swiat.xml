@@ -13,10 +13,10 @@ Na potrzeby obrzędowości obozu 21 WDHy "Żbiki". </comment>
 			<row important_over="true">Wśr<ch a="a"/>ód lesistych g<ch a="E"/>ór ziel<ch a="a"/>eni,</row>
 			<row important_over="true">W mr<ch a="d"/>ocznych grotach zn<ch a="a"/>acząc ślad,</row>
 			<row important_over="true">Wśr<ch a="E"/>ód zbłąkanych mkn<ch a="E7"/>ąc strumieni.</row>
-			<row important_over="false">P<ch a="a"/>oprzez biały z<ch a="E"/>imny śni<ch a="a"/>eg,</row>
-			<row important_over="false">Ł<ch a="a"/>ąki kwietne <ch a="E"/>i maj<ch a="a"/>owe,</row>
-			<row important_over="false">Om<ch a="d"/>ijając sk<ch a="a"/>alny brzeg</row>
-			<row important_over="false"><ch a="E"/>I pagóry ksi<ch a="E7"/>ężycowe.</row>
+			<row important_over="true">P<ch a="a"/>oprzez biały z<ch a="E"/>imny śni<ch a="a"/>eg,</row>
+			<row important_over="true">Ł<ch a="a"/>ąki kwietne <ch a="E"/>i maj<ch a="a"/>owe,</row>
+			<row important_over="true">Om<ch a="d"/>ijając sk<ch a="a"/>alny brzeg</row>
+			<row important_over="true"><ch a="E"/>I pagóry ksi<ch a="E7"/>ężycowe.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Wi<ch a="a"/>odą, wiodą dr<ch a="E"/>ogi w świ<ch a="a"/>at,</row>
@@ -30,7 +30,7 @@ Na potrzeby obrzędowości obozu 21 WDHy "Żbiki". </comment>
 		</block>
 		<block type="verse">
 			<bis times="4">
-				<row important_over="false">Wi<ch a="a"/>odą, wiodą dr<ch a="E"/>ogi w świ<ch a="a"/>at…</row>
+				<row important_over="true">Wi<ch a="a"/>odą, wiodą dr<ch a="E"/>ogi w świ<ch a="a"/>at…</row>
 			</bis>
 		</block>
 	</lyric>

@@ -37,14 +37,14 @@
       <row important_over="true">Żyj <ch a="a"/>nie umieraj.<ch a="d"/><ch a="E7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Gruby <ch a="a"/>jak armata Szczepan błąkał <ch a="d"/>się po kuli <ch a="E7"/>ziemskiej,</row>
-      <row important_over="false">Trafił <ch a="a"/>do Ameryki - prosto z <ch a="d"/>Legii Cudzo<ch a="E7"/>ziemskiej.</row>
-      <row important_over="false"><ch a="a"/>Baca w Londynie z bu<ch a="d"/>chami się są<ch a="E7"/>siedzi,</row>
-      <row important_over="false">Lżej się <ch a="a"/>tam halucynuje nikt go <ch a="d"/>tam nie <ch a="E7"/>śledzi.</row>
-      <row important_over="false">Ka<ch a="a"/>rawan z Holandii on przy<ch a="d"/>jechał tutaj <ch a="E7"/>wreszcie,</row>
-      <row important_over="false">Są już <ch a="a"/>Kula Czarny Dusioł słychać <ch a="d"/>strzały na <ch a="E7"/>mieście.</row>
-      <row important_over="false">Znam <ch a="a"/>jednak takie miejsca gdzie jest <ch a="d"/>lepiej chodzić z <ch a="E7"/>nożem,</row>
-      <row important_over="false">Całe <ch a="a"/>Górne i Podlasie wszyscy <ch a="d"/>są za Kole<ch a="E"/>jorzem.</row>
+      <row important_over="true">Gruby <ch a="a"/>jak armata Szczepan błąkał <ch a="d"/>się po kuli <ch a="E7"/>ziemskiej,</row>
+      <row important_over="true">Trafił <ch a="a"/>do Ameryki - prosto z <ch a="d"/>Legii Cudzo<ch a="E7"/>ziemskiej.</row>
+      <row important_over="true"><ch a="a"/>Baca w Londynie z bu<ch a="d"/>chami się są<ch a="E7"/>siedzi,</row>
+      <row important_over="true">Lżej się <ch a="a"/>tam halucynuje nikt go <ch a="d"/>tam nie <ch a="E7"/>śledzi.</row>
+      <row important_over="true">Ka<ch a="a"/>rawan z Holandii on przy<ch a="d"/>jechał tutaj <ch a="E7"/>wreszcie,</row>
+      <row important_over="true">Są już <ch a="a"/>Kula Czarny Dusioł słychać <ch a="d"/>strzały na <ch a="E7"/>mieście.</row>
+      <row important_over="true">Znam <ch a="a"/>jednak takie miejsca gdzie jest <ch a="d"/>lepiej chodzić z <ch a="E7"/>nożem,</row>
+      <row important_over="true">Całe <ch a="a"/>Górne i Podlasie wszyscy <ch a="d"/>są za Kole<ch a="E"/>jorzem.</row>
     </block>
     <blocklink blocknb="4"/>
     <block type="verse">

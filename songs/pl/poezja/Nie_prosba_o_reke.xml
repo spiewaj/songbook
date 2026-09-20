@@ -9,18 +9,18 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="g"/>Łaskawie chciej oszczędzić strzał</row>
-      <row important_over="false"><ch a="d"/>Wprost w plecy tego który dał</row>
-      <row important_over="false"><ch a="a"/>Nam tyle szczęścia<ch a="d"/></row>
-      <row important_over="false"><ch a="g"/>Kupidyn żartem napiął łuk</row>
-      <row important_over="false"><ch a="d"/>A ty byś chciała zaraz już</row>
-      <row important_over="false"><ch a="a"/>Ustrzelić męża<ch a="d"/><ch a="D7"/></row>
+      <row important_over="true"><ch a="g"/>Łaskawie chciej oszczędzić strzał</row>
+      <row important_over="true"><ch a="d"/>Wprost w plecy tego który dał</row>
+      <row important_over="true"><ch a="a"/>Nam tyle szczęścia<ch a="d"/></row>
+      <row important_over="true"><ch a="g"/>Kupidyn żartem napiął łuk</row>
+      <row important_over="true"><ch a="d"/>A ty byś chciała zaraz już</row>
+      <row important_over="true"><ch a="a"/>Ustrzelić męża<ch a="d"/><ch a="D7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
-      <row important_over="false"><ch a="F"/>O rękę twą<ch a="A7"/></row>
-      <row important_over="false"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
-      <row important_over="false"><ch a="d"/>Swoją dłoń</row>
+      <row important_over="true"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
+      <row important_over="true"><ch a="F"/>O rękę twą<ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
+      <row important_over="true"><ch a="d"/>Swoją dłoń</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="g"/>Chcę aby dzikich ptaków klucz</row>
@@ -68,10 +68,10 @@
     </block>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
-        <row important_over="false"><ch a="F"/>O rękę twą<ch a="A7"/></row>
-        <row important_over="false"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
-        <row important_over="false"><ch a="d"/>Swoją dłoń</row>
+        <row important_over="true"><ch a="g"/>Mam zaszczy więc nie prosić Cię<ch a="C"/></row>
+        <row important_over="true"><ch a="F"/>O rękę twą<ch a="A7"/></row>
+        <row important_over="true"><ch a="d"/>I zamiast niej wyciągnij ku mnie<ch a="C"/></row>
+        <row important_over="true"><ch a="d"/>Swoją dłoń</row>
       </bis>
     </block>
   </lyric>

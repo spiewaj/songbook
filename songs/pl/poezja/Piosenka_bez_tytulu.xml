@@ -16,10 +16,10 @@
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
-        <row important_over="false"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
-        <row important_over="false"><ch a="F"/>Rosną nam nowe twarze<ch a="C"/></row>
-        <row important_over="false"><ch a="E7"/>Do słońca</row>
+        <row important_over="true"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
+        <row important_over="true"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
+        <row important_over="true"><ch a="F"/>Rosną nam nowe twarze<ch a="C"/></row>
+        <row important_over="true"><ch a="E7"/>Do słońca</row>
       </bis>
     </block>
     <block type="verse">

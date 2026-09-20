@@ -9,31 +9,31 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Pamiętam dobrze ideał swój <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Marzeniami żyłem jak król<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Siódma rano, to dla mnie noc<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Pracować nie chciałem, włóczyłem się<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Za to do puszki zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Za to zwykle zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Po knajpach grywałem za piwo i chleb<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Na życiu bluesa tak mijał mi dzień<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Pamiętam dobrze ideał swój <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Marzeniami żyłem jak król<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Siódma rano, to dla mnie noc<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Pracować nie chciałem, włóczyłem się<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Za to do puszki zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Za to zwykle zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Po knajpach grywałem za piwo i chleb<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Na życiu bluesa tak mijał mi dzień<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Tylko nocą do klubu pójść <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Jam session do rana, tak królował blues <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="false">To już minęło, ten klimat, ten luz <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Wspaniali ludzie nie powrócą <ch a="D"/></row>
-			<row important_over="false">Nie powrócą już<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Tylko nocą do klubu pójść <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Jam session do rana, tak królował blues <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="never">To już minęło, ten klimat, ten luz <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Wspaniali ludzie nie powrócą <ch a="D"/></row>
+			<row important_over="never">Nie powrócą już<ch a="D"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Lecz we mnie zostało coś z tamtych lat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Mój mały intymny muzyczny świat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Gdy tak wspominam ten miniony czas <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Wiem jedno, że to nie poszło w las<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Dużo bym dał, by przeżyć to znów<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Wehikuł czasu to byłby cud<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Mam jeszcze wiarę, odmieni się los<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="false">Znów kwiatek do lufy wetknie im ktoś<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Lecz we mnie zostało coś z tamtych lat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Mój mały intymny muzyczny świat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Gdy tak wspominam ten miniony czas <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Wiem jedno, że to nie poszło w las<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Dużo bym dał, by przeżyć to znów<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Wehikuł czasu to byłby cud<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Mam jeszcze wiarę, odmieni się los<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="never">Znów kwiatek do lufy wetknie im ktoś<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

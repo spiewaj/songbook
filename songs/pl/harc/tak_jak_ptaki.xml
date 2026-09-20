@@ -5,10 +5,10 @@
   <composer type="solo">Piotr Łupina</composer>
   <lyric>
     <block type="verse">
-      <row important_over="false">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
-      <row important_over="false">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
-      <row important_over="false">Z<ch a="e"/>ginął tak jak wielu z<ch a="G"/> nich</row>
-      <row important_over="false">Za<ch a="h"/> swą wolność u<ch a="A"/>traconą</row>
+      <row important_over="true">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
+      <row important_over="true">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
+      <row important_over="true">Z<ch a="e"/>ginął tak jak wielu z<ch a="G"/> nich</row>
+      <row important_over="true">Za<ch a="h"/> swą wolność u<ch a="A"/>traconą</row>
     </block>
     <block type="verse">
       <row important_over="false">M<ch a="e"/>iał na piersi szary k<ch a="G"/>rzyż</row>
@@ -18,10 +18,10 @@
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">D<ch a="e"/>ziś szybuje pośród ch<ch a="G"/>mur</row>
-        <row important_over="false">T<ch a="h"/>ak jak ptaki na <ch a="A"/>wolności</row>
-        <row important_over="false">P<ch a="e"/>oszukuje w świecie ty<ch a="G"/>m</row>
-        <row important_over="false">C<ch a="h"/>iepła, dobra i m<ch a="A"/>iłości.</row>
+        <row important_over="true">D<ch a="e"/>ziś szybuje pośród ch<ch a="G"/>mur</row>
+        <row important_over="true">T<ch a="h"/>ak jak ptaki na <ch a="A"/>wolności</row>
+        <row important_over="true">P<ch a="e"/>oszukuje w świecie ty<ch a="G"/>m</row>
+        <row important_over="true">C<ch a="h"/>iepła, dobra i m<ch a="A"/>iłości.</row>
       </bis>
     </block>
     <block type="verse">
@@ -38,14 +38,14 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false">T<ch a="e"/>am na wzgórzu leży <ch a="G"/>on</row>
-      <row important_over="false">N<ch a="h"/>ad nim krzyż brzozowy s<ch a="A"/>toi</row>
-      <row important_over="false">J<ch a="e"/>ego dusza ule<ch a="G"/>ciała</row>
-      <row important_over="false">Z<ch a="h"/>iemia ciału rany<ch a="A"/> goi</row>
-      <row important_over="false">B<ch a="e"/>o poświęcił młode ż<ch a="G"/>ycie</row>
-      <row important_over="false">W<ch a="h"/> walce o lepsze j<ch a="A"/>utro</row>
-      <row important_over="false">C<ch a="e"/>zasem możesz go do<ch a="G"/>strzec</row>
-      <row important_over="false">G<ch a="h"/>łęboko patrząc w <ch a="A"/>lustro</row>
+      <row important_over="true">T<ch a="e"/>am na wzgórzu leży <ch a="G"/>on</row>
+      <row important_over="true">N<ch a="h"/>ad nim krzyż brzozowy s<ch a="A"/>toi</row>
+      <row important_over="true">J<ch a="e"/>ego dusza ule<ch a="G"/>ciała</row>
+      <row important_over="true">Z<ch a="h"/>iemia ciału rany<ch a="A"/> goi</row>
+      <row important_over="true">B<ch a="e"/>o poświęcił młode ż<ch a="G"/>ycie</row>
+      <row important_over="true">W<ch a="h"/> walce o lepsze j<ch a="A"/>utro</row>
+      <row important_over="true">C<ch a="e"/>zasem możesz go do<ch a="G"/>strzec</row>
+      <row important_over="true">G<ch a="h"/>łęboko patrząc w <ch a="A"/>lustro</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

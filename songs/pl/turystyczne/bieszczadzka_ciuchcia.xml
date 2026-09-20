@@ -26,22 +26,22 @@
       <row important_over="true"><ch a="g"/>Bucha <ch a="C"/>dym z komina.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Jedzie bieszczadzka ciuchcia,</row>
-      <row important_over="false">stara i śmieszna troszkę,</row>
-      <row important_over="false">taką jeździł mój dziadek,</row>
-      <row important_over="false">ścigając babci pończoszkę.</row>
+      <row important_over="never">Jedzie bieszczadzka ciuchcia,</row>
+      <row important_over="never">stara i śmieszna troszkę,</row>
+      <row important_over="never">taką jeździł mój dziadek,</row>
+      <row important_over="never">ścigając babci pończoszkę.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Bucha dym...</row>
+      <row important_over="never">Bucha dym...</row>
     </block>
     <block type="verse">
-      <row important_over="false">Jedzie bieszczadzka ciuchcia</row>
-      <row important_over="false">pokryta patyną czasu.</row>
-      <row important_over="false">Sapie, kicha czasami</row>
-      <row important_over="false">w głębi bieszczadzkich lasów.</row>
+      <row important_over="never">Jedzie bieszczadzka ciuchcia</row>
+      <row important_over="never">pokryta patyną czasu.</row>
+      <row important_over="never">Sapie, kicha czasami</row>
+      <row important_over="never">w głębi bieszczadzkich lasów.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Bucha dym...</row>
+      <row important_over="never">Bucha dym...</row>
     </block>
   </lyric>
   <keywords/>

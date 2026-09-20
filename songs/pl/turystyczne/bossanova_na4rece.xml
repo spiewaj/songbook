@@ -12,11 +12,11 @@
 </row>
     </block>
     <block type="verse">
-      <row important_over="never">Peleryny brać nie musisz, nie potrzeba,<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="never">Za parasol niech posłuży płatek nieba.
+      <row important_over="false">Peleryny brać nie musisz, nie potrzeba,<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false">Za parasol niech posłuży płatek nieba.
 <ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="never">Nie zatrzymuj się przed lustrem, Do torebki schowaj chustkę <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">I zaśpiewaj jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false">Nie zatrzymuj się przed lustrem, Do torebki schowaj chustkę <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
+      <row important_over="false">I zaśpiewaj jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,
@@ -28,43 +28,43 @@
 </row>
     </block>
     <block type="chorus">
-      <row important_over="never">Bossanova, bossanova na cztery ręce
+      <row important_over="false">Bossanova, bossanova na cztery ręce
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">Już króluje nad dachami miast,
+      <row important_over="false">Już króluje nad dachami miast,
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">Jak dziewczyna, jak dziewczyna co w sukience
+      <row important_over="false">Jak dziewczyna, jak dziewczyna co w sukience
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">Na ulicę wiosną wyszła pierwszy raz. <ch a="e"/><ch a="A7"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false">Na ulicę wiosną wyszła pierwszy raz. <ch a="e"/><ch a="A7"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Zamiast myśleć o wczorajszym dniu, co minął,
+      <row important_over="false">Zamiast myśleć o wczorajszym dniu, co minął,
 <ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="never">Lepiej wybierz się na spacer, nie jest zimno.
+      <row important_over="false">Lepiej wybierz się na spacer, nie jest zimno.
 <ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="never">Schowaj w szafę rękawiczki, szalik, futro,
+      <row important_over="false">Schowaj w szafę rękawiczki, szalik, futro,
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">Zrób to dzisiaj, nie odkładaj nic na jutro.
+      <row important_over="false">Zrób to dzisiaj, nie odkładaj nic na jutro.
 <ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Pospiesz się, za chwilę późno będzie nieco,
+      <row important_over="false">Pospiesz się, za chwilę późno będzie nieco,
 <ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="never">Otwórz okno, nic nie szkodzi, że jest przeciąg.
+      <row important_over="false">Otwórz okno, nic nie szkodzi, że jest przeciąg.
 <ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="never">Niech telefon sobie dzwoni, nim depesza ją dogoni
+      <row important_over="false">Niech telefon sobie dzwoni, nim depesza ją dogoni
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">To zaśpiewaj, jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false">To zaśpiewaj, jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="4"/>
     <block type="verse">
-      <row important_over="never">Odpłynęły gdzieś humory i humorki,
+      <row important_over="false">Odpłynęły gdzieś humory i humorki,
 <ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="never">Pogodniejsze są niedziele, środy, wtorki<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="never">
+      <row important_over="false">Pogodniejsze są niedziele, środy, wtorki<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
+      <row important_over="false">
 I w ogóle cały tydzień , Jakoś wszystkim raźniej idzie
 <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="never">Gdy śpiewają, gdy śpiewają tak: <ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false">Gdy śpiewają, gdy śpiewają tak: <ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="4"/>

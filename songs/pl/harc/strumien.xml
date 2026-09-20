@@ -25,10 +25,10 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false" sidechords="C a F G">Czy ty pamiętasz jeszcze ogniska płomień</row>
-      <row important_over="false" sidechords="C a F G">Czy wraca do twej pamięci dotyk mej dłoni</row>
-      <row important_over="false" sidechords="C a F G">Gdy wiatr gitary struny trąci leciutko</row>
-      <row important_over="false" sidechords="C a F G">Wraca, wspomnienie lata, ale na krótko.</row>
+      <row important_over="never" sidechords="C a F G">Czy ty pamiętasz jeszcze ogniska płomień</row>
+      <row important_over="never" sidechords="C a F G">Czy wraca do twej pamięci dotyk mej dłoni</row>
+      <row important_over="never" sidechords="C a F G">Gdy wiatr gitary struny trąci leciutko</row>
+      <row important_over="never" sidechords="C a F G">Wraca, wspomnienie lata, ale na krótko.</row>
     </block>
   </lyric>
   <keywords/>

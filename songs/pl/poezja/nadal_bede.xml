@@ -19,24 +19,24 @@
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="never">nadal będę igrał z powietrzem,<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="never">z deszczem wreszcie śniegiem co jeszcze<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="never">wcześniej wody łyk z września nadejściem<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="never">póki jesień znajdzie mnie<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="true">nadal będę igrał z powietrzem,<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="true">z deszczem wreszcie śniegiem co jeszcze<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="true">wcześniej wody łyk z września nadejściem<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="true">póki jesień znajdzie mnie<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">gdy cierpliwości i braknie sił<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-      <row important_over="never">i nawet gdy plan b pójdzie w tył<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-      <row important_over="never" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">gdy w sercu miłości pokłady<ch a="A"/><ch a="d"/></row>
-      <row important_over="never" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">gdy choć odrobinę miłości mam<ch a="A"/><ch a="A"/><ch a="d"/><ch a="d"/></row>
+      <row important_over="true">gdy cierpliwości i braknie sił<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+      <row important_over="true">i nawet gdy plan b pójdzie w tył<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+      <row important_over="true" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="true">gdy w sercu miłości pokłady<ch a="A"/><ch a="d"/></row>
+      <row important_over="true" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="true">gdy choć odrobinę miłości mam<ch a="A"/><ch a="A"/><ch a="d"/><ch a="d"/></row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
       <bis times="2">
-        <row important_over="never">Powietrza trzeba mi wody z nieba trzeba mi<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
+        <row important_over="true">Powietrza trzeba mi wody z nieba trzeba mi<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
         <row important_over="false" style="instr"> </row>
       </bis>
     </block>

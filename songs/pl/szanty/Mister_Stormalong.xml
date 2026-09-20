@@ -17,22 +17,22 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Nie żyje stary Stormy już<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false"><ch a="g"/>Way hej mister Stormalong<ch a="B"/><ch a="A7"/></row>
-      <row important_over="false"><ch a="d"/>Nie żyje stary Stormy już<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Nie żyje stary Stormy już<ch a="A7"/><ch a="d"/></row>
+      <row important_over="true"><ch a="g"/>Way hej mister Stormalong<ch a="B"/><ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Nie żyje stary Stormy już<ch a="A7"/><ch a="d"/></row>
+      <row important_over="true"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
     </block>
     <block type="other">
-      <row important_over="false">
+      <row important_over="true">
         <ch a="d"/>
         <ch a="A7"/>
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Najlepszy ze wszystkich szyprów był<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false"><ch a="F"/>Lecz teraz śmierci cień go skrył<ch a="g"/><ch a="B"/><ch a="A7"/></row>
-      <row important_over="false"><ch a="F"/>Urodził się gdzieś pod Cape Horn<ch a="g"/><ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Gdy szalał w morzu wielki sztorm<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Najlepszy ze wszystkich szyprów był<ch a="A7"/><ch a="d"/></row>
+      <row important_over="true"><ch a="F"/>Lecz teraz śmierci cień go skrył<ch a="g"/><ch a="B"/><ch a="A7"/></row>
+      <row important_over="true"><ch a="F"/>Urodził się gdzieś pod Cape Horn<ch a="g"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Gdy szalał w morzu wielki sztorm<ch a="A"/><ch a="d"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Pod Cape Horn gdzie potargał wiatr<ch a="A7"/><ch a="d"/></row>
@@ -90,11 +90,11 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Hej umarł Stormy dzielny chwat<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false"><ch a="g"/>Way hej mister Stormalong<ch a="B"/><ch a="A7"/></row>
-      <row important_over="false"><ch a="d"/>Wielki kapitan z dawnych lat<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
-      <row important_over="false"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Hej umarł Stormy dzielny chwat<ch a="A7"/><ch a="d"/></row>
+      <row important_over="true"><ch a="g"/>Way hej mister Stormalong<ch a="B"/><ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Wielki kapitan z dawnych lat<ch a="A7"/><ch a="d"/></row>
+      <row important_over="true"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="B"/>Hej mister Stormalong<ch a="A"/><ch a="d"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">

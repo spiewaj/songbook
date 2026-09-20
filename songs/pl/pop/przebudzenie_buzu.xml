@@ -37,7 +37,7 @@
     <blocklink blocknb="2"/>
     <block type="verse">
       <bis times="6">
-        <row important_over="false"><ch a="C"/>Przejść Wielką <ch a="G"/>Rzekę b<ch a="d"/>ez bólu i<ch a="a"/> wyrzeczeń</row>
+        <row important_over="true"><ch a="C"/>Przejść Wielką <ch a="G"/>Rzekę b<ch a="d"/>ez bólu i<ch a="a"/> wyrzeczeń</row>
       </bis>
     </block>
   </lyric>

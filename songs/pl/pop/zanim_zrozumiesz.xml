@@ -51,7 +51,7 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/><ch a="D"/><ch a="a"/>Nie dla ciebie<ch a="e"/><ch a="D"/><ch a="a"/></row>
+      <row important_over="true"><ch a="e"/><ch a="D"/><ch a="a"/>Nie dla ciebie<ch a="e"/><ch a="D"/><ch a="a"/></row>
     </block>
   </lyric>
   <keywords/>

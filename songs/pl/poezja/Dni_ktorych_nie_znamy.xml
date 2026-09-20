@@ -3,43 +3,43 @@
   <artist>Marek Grechuta</artist>
   <lyric>
     <block type="verse">
-      <row>Tyle było dni do utraty sił<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row>Do utraty tchu, tyle było chwil<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
-      <row>Gdy żałujesz tych z których nie masz nic</row>
-      <row>Jedno warto znać, jedno tylko wiedz</row>
+      <row important_over="never">Tyle było dni do utraty sił<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Do utraty tchu, tyle było chwil<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Gdy żałujesz tych z których nie masz nic</row>
+      <row important_over="never">Jedno warto znać, jedno tylko wiedz</row>
     </block>
     <block type="chorus">
-      <row>Że ważne są tylko te dni                        d F G<ch a="d"/><ch a="E7"/><ch a="a"/></row>
-      <row>Których jeszcze nie znamy                       a F G<ch a="F"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row>Ważnych jest kilka tych chwil</row>
-      <row>Tych na które czekamy</row>
+      <row important_over="never">Że ważne są tylko te dni                        d F G<ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="never">Których jeszcze nie znamy                       a F G<ch a="F"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="never">Ważnych jest kilka tych chwil</row>
+      <row important_over="never">Tych na które czekamy</row>
     </block>
     <block type="verse">
-      <row>Pewien znany ktoś, kto miał dom i sad</row>
-      <row>Zgubił nagle sens i w złe kręgi wpadł</row>
-      <row>Choć majątek prysł, on nie stoczył się</row>
-      <row>Wytłumaczyć umiał sobie wtedy właśnie, że</row>
+      <row important_over="never">Pewien znany ktoś, kto miał dom i sad</row>
+      <row important_over="never">Zgubił nagle sens i w złe kręgi wpadł</row>
+      <row important_over="never">Choć majątek prysł, on nie stoczył się</row>
+      <row important_over="never">Wytłumaczyć umiał sobie wtedy właśnie, że</row>
     </block>
     <block type="chorus">
-      <row>Że ważne są tylko te dni…</row>
+      <row important_over="never">Że ważne są tylko te dni…</row>
     </block>
     <block type="verse">
-      <row>Jak rozpoznać ludzi których już nie znamy<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
-      <row>Jak pozbierać myśli z tych nieposkładanych</row>
-      <row>Jak oddzielić nagle serce od rozumu<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
-      <row>Jak usłyszeć siebie pośród śpiewu tłumu<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Jak rozpoznać ludzi których już nie znamy<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Jak pozbierać myśli z tych nieposkładanych</row>
+      <row important_over="never">Jak oddzielić nagle serce od rozumu<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="never">Jak usłyszeć siebie pośród śpiewu tłumu<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row>Bo ważne są tylko te dni…</row>
+      <row important_over="never">Bo ważne są tylko te dni…</row>
     </block>
     <block type="verse">
-      <row>Jak rozpoznać ludzi których już nie znamy</row>
-      <row>Jak pozbierać myśli z tych nieposkładanych</row>
-      <row>Jak odnaleźć nagle radość i nadzieję</row>
-      <row>Odpowiedzi szukaj, czasu jest tak wiele</row>
+      <row important_over="never">Jak rozpoznać ludzi których już nie znamy</row>
+      <row important_over="never">Jak pozbierać myśli z tych nieposkładanych</row>
+      <row important_over="never">Jak odnaleźć nagle radość i nadzieję</row>
+      <row important_over="never">Odpowiedzi szukaj, czasu jest tak wiele</row>
     </block>
     <block type="chorus">
-      <row>Bo ważne są tylko te dni…</row>
+      <row important_over="never">Bo ważne są tylko te dni…</row>
     </block>
   </lyric>
 </song>

@@ -27,14 +27,14 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="a"/> A on ni<ch a="G"/>e chce g<ch a="E"/>adać</row>
-			<row important_over="false"><ch a="a"/> Ze mn<ch a="G"/>ą po p<ch a="a"/>olsku</row>
-			<row important_over="false"><ch a="a"/> Z wypal<ch a="G"/>onych źr<ch a="E"/>enic</row>
-			<row important_over="false"><ch a="F"/> Tylko deszcze pł<ch a="E"/>yną</row>
+			<row important_over="true"><ch a="a"/> A on ni<ch a="G"/>e chce g<ch a="E"/>adać</row>
+			<row important_over="true"><ch a="a"/> Ze mn<ch a="G"/>ą po p<ch a="a"/>olsku</row>
+			<row important_over="true"><ch a="a"/> Z wypal<ch a="G"/>onych źr<ch a="E"/>enic</row>
+			<row important_over="true"><ch a="F"/> Tylko deszcze pł<ch a="E"/>yną</row>
 			<bis times="2">
-				<row important_over="false">Ej śl<ch a="a"/>epcze na<ch a="C"/>uczę swoje dzi<ch a="d"/>ecko p<ch a="E"/>o łemkowsku</row>
-				<row important_over="false">B<ch a="C"/>ędziecie r<ch a="F"/>azem ż<ch a="C"/>e<ch a="E7"/>br<ch a="a"/>ać</row>
-				<row important_over="false"><ch a="d"/> W malow<ch a="E"/>anych wi<ch a="a"/>oskach<ch a="(d E a G)"/></row>
+				<row important_over="true">Ej śl<ch a="a"/>epcze na<ch a="C"/>uczę swoje dzi<ch a="d"/>ecko p<ch a="E"/>o łemkowsku</row>
+				<row important_over="true">B<ch a="C"/>ędziecie r<ch a="F"/>azem ż<ch a="C"/>e<ch a="E7"/>br<ch a="a"/>ać</row>
+				<row important_over="true"><ch a="d"/> W malow<ch a="E"/>anych wi<ch a="a"/>oskach<ch a="(d E a G)"/></row>
 			</bis>
 		</block>
 		<blocklink blocknb="2"/>

@@ -9,11 +9,11 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">W<ch a="d"/>agą zabr<ch a="C"/>aną Tem<ch a="d"/>idzie</row>
-			<row important_over="false">B<ch a="d"/>awimy s<ch a="C"/>ię w sprawiedl<ch a="d"/>iwość</row>
-			<row important_over="false">Na je<ch a="d"/>dnej sz<ch a="C"/>ali zł<ch a="F"/>o kładz<ch a="G"/>iemy</row>
+			<row important_over="true">W<ch a="d"/>agą zabr<ch a="C"/>aną Tem<ch a="d"/>idzie</row>
+			<row important_over="true">B<ch a="d"/>awimy s<ch a="C"/>ię w sprawiedl<ch a="d"/>iwość</row>
+			<row important_over="true">Na je<ch a="d"/>dnej sz<ch a="C"/>ali zł<ch a="F"/>o kładz<ch a="G"/>iemy</row>
 			<bis times="2">
-				<row important_over="false">Na dr<ch a="d"/>ugiej do<ch a="C"/>bro i li<ch a="d"/>tość</row>
+				<row important_over="true">Na dr<ch a="d"/>ugiej do<ch a="C"/>bro i li<ch a="d"/>tość</row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -25,14 +25,14 @@
 			</bis>
 		</block>
 		<block type="chorus">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="d"/>Oj nieł<ch a="C"/>adnie człowieku ni<ch a="d"/>eładnie</row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="d"/>Oj nieł<ch a="C"/>adnie człowieku brz<ch a="d"/>ydko</row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="d"/>Ty się całe ż<ch a="C"/>ycie tylko baw<ch a="d"/>isz</row>
 			<bis times="2">
-				<row important_over="false">
+				<row important_over="true">
 					<ch a="d"/>Czasem sobie zmi<ch a="C"/>eniasz baw<ch a="d"/>itko</row>
 			</bis>
 		</block>

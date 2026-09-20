@@ -23,8 +23,8 @@
       </bis>
     </block>
     <block type="chorus">
-      <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj<ch a="C"/><ch a="G"/></row>
-      <row important_over="false">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
+      <row important_over="true">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj<ch a="C"/><ch a="G"/></row>
+      <row important_over="true">Żebyśmy <ch a="D"/>się poznali od no<ch a="a"/>wa</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Jakby to było gdyby <ch a="F"/>wszystko to, co jest</row>
@@ -40,15 +40,15 @@
     <blocklink blocknb="3"/>
     <block type="other">
       <bis times="4">
-        <row important_over="false"><ch a="a"/>Uuu-<ch a="C"/>uuu-u, <ch a="D"/>uuu <ch a="F"/> uuu</row>
+        <row important_over="true"><ch a="a"/>Uuu-<ch a="C"/>uuu-u, <ch a="D"/>uuu <ch a="F"/> uuu</row>
       </bis>
     </block>
     <blocklink blocknb="2"/>
     <block type="chorus">
       <bis times="4">
-        <row important_over="false"><ch a="a"/>Tak wyzerować <ch a="C"/>świat</row>
-        <row important_over="false">Bez otwartych <ch a="G"/>ran</row>
-        <row important_over="false">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj</row>
+        <row important_over="true"><ch a="a"/>Tak wyzerować <ch a="C"/>świat</row>
+        <row important_over="true">Bez otwartych <ch a="G"/>ran</row>
+        <row important_over="true">Żeby się <ch a="D"/>nic nie stało do wczo<ch a="a"/>raj</row>
       </bis>
     </block>
   </lyric>

@@ -9,20 +9,20 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Siedzieliśmy pod jodłą</row>
-      <row important_over="false"><ch a="a"/>Dobrze nam się wiodło</row>
-      <row important_over="false"><ch a="F"/>Kapitan Farel stary zgred</row>
-      <row important_over="false"><ch a="C"/>Postawić nie chciał whisky</row>
-      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem</row>
-      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem</row>
-      <row important_over="false"><ch a="F"/>Lecz pycha rozpierała go</row>
-      <row important_over="false"><ch a="C"/>A nam już wyschły pyski</row>
+      <row important_over="true"><ch a="C"/>Siedzieliśmy pod jodłą</row>
+      <row important_over="true"><ch a="a"/>Dobrze nam się wiodło</row>
+      <row important_over="true"><ch a="F"/>Kapitan Farel stary zgred</row>
+      <row important_over="true"><ch a="C"/>Postawić nie chciał whisky</row>
+      <row important_over="true"><ch a="C"/>Trzy razy mu mówiłem</row>
+      <row important_over="true"><ch a="a"/>Uprzejmie go prosiłem</row>
+      <row important_over="true"><ch a="F"/>Lecz pycha rozpierała go</row>
+      <row important_over="true"><ch a="C"/>A nam już wyschły pyski</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/>Więc dałem jemu w nos</row>
-      <row important_over="false"><ch a="C"/>Co myśli sobie</row>
-      <row important_over="false"><ch a="F"/>Co myśli wredny typ</row>
-      <row important_over="false"><ch a="C"/>Postawić nie chciał nam<ch a="G"/><ch a="C"/></row>
+      <row important_over="true"><ch a="G"/>Więc dałem jemu w nos</row>
+      <row important_over="true"><ch a="C"/>Co myśli sobie</row>
+      <row important_over="true"><ch a="F"/>Co myśli wredny typ</row>
+      <row important_over="true"><ch a="C"/>Postawić nie chciał nam<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Wybrałem się do Mary</row>

@@ -17,10 +17,10 @@
       <row important_over="true">Gdy <ch a="H7"/>zbliżamy się do szczytu po kamieniach</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="e"/>Rosną skrzydła u ramion</row>
-      <row important_over="true"><ch a="C7+"/>Czas się w wieczność przemienia</row>
-      <row important_over="true"><ch a="a"/>Góry i wolność dokoła</row>
-      <row important_over="true"><ch a="H7"/>Chyba dostąpimy tu wniebowstąpienia</row>
+      <row important_over="false"><ch a="e"/>Rosną skrzydła u ramion</row>
+      <row important_over="false"><ch a="C7+"/>Czas się w wieczność przemienia</row>
+      <row important_over="false"><ch a="a"/>Góry i wolność dokoła</row>
+      <row important_over="false"><ch a="H7"/>Chyba dostąpimy tu wniebowstąpienia</row>
     </block>
     <block type="chorus">
       <row important_over="false">A w schro<ch a="G"/>nisku Święty <ch a="C"/>Piotr z <ch a="D"/>herbatą</row>

@@ -9,49 +9,49 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Oczy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">jak polne krynice,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="false">Gdzie niebiosa swe jasne<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">odbijają lice.<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">Oczy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">jak polne krynice,<ch a="cis7"/><ch a="D"/></row>
+			<row important_over="never">Gdzie niebiosa swe jasne<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">odbijają lice.<ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Uszy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">jak muszla echowa,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="false">Co szumy oceanu<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">w swej głębi chowa.<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">Uszy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">jak muszla echowa,<ch a="cis7"/><ch a="D"/></row>
+			<row important_over="never">Co szumy oceanu<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">w swej głębi chowa.<ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Nozdrza me pełne ciebie,<ch a="D"/><ch a="E"/></row>
-			<row important_over="false">jak duszne ogrody<ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Zapachu róż szkarłatnej, <ch a="D"/><ch a="E"/></row>
-			<row important_over="false">królewskiej urody.<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="false">Róż królewskiej urody.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Nozdrza me pełne ciebie,<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">jak duszne ogrody<ch a="A"/><ch a="fis"/></row>
+			<row important_over="never">Zapachu róż szkarłatnej, <ch a="D"/><ch a="E"/></row>
+			<row important_over="never">królewskiej urody.<ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Róż królewskiej urody.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Usta me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">jak pszczela pasieka<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="false">Pełna miodnego wina, <ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">kwiatowego mleka.<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">Usta me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">jak pszczela pasieka<ch a="cis7"/><ch a="D"/></row>
+			<row important_over="never">Pełna miodnego wina, <ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">kwiatowego mleka.<ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Dłonie me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">jak plecione kosze,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="false">Gdzie jesień składa<ch a="A"/><ch a="h7"/></row>
-			<row important_over="false">owoców rozkosze.<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">Dłonie me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">jak plecione kosze,<ch a="cis7"/><ch a="D"/></row>
+			<row important_over="never">Gdzie jesień składa<ch a="A"/><ch a="h7"/></row>
+			<row important_over="never">owoców rozkosze.<ch a="D"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Serce me pełne ciebie, <ch a="D"/><ch a="E"/></row>
-			<row important_over="false">jak korona drzewa<ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Gniazd ptactwa, co upojną<ch a="D"/><ch a="E"/></row>
-			<row important_over="false">miłości pieśń śpiewa.<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="false">Upojną pieśń śpiewa.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Serce me pełne ciebie, <ch a="D"/><ch a="E"/></row>
+			<row important_over="never">jak korona drzewa<ch a="A"/><ch a="fis"/></row>
+			<row important_over="never">Gniazd ptactwa, co upojną<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">miłości pieśń śpiewa.<ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Upojną pieśń śpiewa.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Dusza ma pełna ciebie,<ch a="D"/><ch a="E"/></row>
-			<row important_over="false">jako wirów morze,<ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Co nigdy uśpić swego <ch a="D"/><ch a="E"/></row>
-			<row important_over="false">szaleństwa nie może!<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="false">Uśpić szaleństwa nie może!<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Dusza ma pełna ciebie,<ch a="D"/><ch a="E"/></row>
+			<row important_over="never">jako wirów morze,<ch a="A"/><ch a="fis"/></row>
+			<row important_over="never">Co nigdy uśpić swego <ch a="D"/><ch a="E"/></row>
+			<row important_over="never">szaleństwa nie może!<ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">Uśpić szaleństwa nie może!<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
 		</block>
 	</lyric>
 	<music metre="">

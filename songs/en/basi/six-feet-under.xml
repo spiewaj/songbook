@@ -17,10 +17,10 @@
       <row important_over="true"><ch a="G"/>again</row>
     </block>
     <block type="verse">
-      <row important_over="true">re<ch a="b"/>trace my <ch a="A"/>lips era<ch a="G"/>se your <ch a="A"/>touch</row>
-      <row important_over="true">it&#039;s <ch a="b"/>all too <ch a="A"/>much for <ch a="G"/>me</row>
-      <row important_over="true"><ch a="b"/>blow a<ch a="A"/>way like <ch a="G"/>smoke in <ch a="A"/>air</row>
-      <row important_over="true">how <ch a="b"/>can you die <ch a="A"/>careless<ch a="G"/>ly</row>
+      <row important_over="false">re<ch a="b"/>trace my <ch a="A"/>lips era<ch a="G"/>se your <ch a="A"/>touch</row>
+      <row important_over="false">it&#039;s <ch a="b"/>all too <ch a="A"/>much for <ch a="G"/>me</row>
+      <row important_over="false"><ch a="b"/>blow a<ch a="A"/>way like <ch a="G"/>smoke in <ch a="A"/>air</row>
+      <row important_over="false">how <ch a="b"/>can you die <ch a="A"/>careless<ch a="G"/>ly</row>
     </block>
     <block type="chorus">
       <row important_over="true">our love is <ch a="b"/>six feet u<ch a="A"/>nder</row>
@@ -35,12 +35,12 @@
       <row important_over="true"><ch a="A"/>but you&#039;re cold <ch a="G"/>as a knife</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="b"/>six feet u<ch a="A"/>nder</row>
-      <row important_over="true">I can’t <ch a="G"/>help but <ch a="A"/>wonder</row>
-      <row important_over="true">if our <ch a="b"/>grave was <ch a="A"/>watered by the <ch a="e"/>rain</row>
-      <row important_over="true"><ch a="G"/>bloo<ch a="b"/>m </row>
-      <row important_over="true"><ch a="G"/>bloo<ch a="b"/>m <ch a="A"/></row>
-      <row important_over="true"><ch a="G"/>again</row>
+      <row important_over="false"><ch a="b"/>six feet u<ch a="A"/>nder</row>
+      <row important_over="false">I can’t <ch a="G"/>help but <ch a="A"/>wonder</row>
+      <row important_over="false">if our <ch a="b"/>grave was <ch a="A"/>watered by the <ch a="e"/>rain</row>
+      <row important_over="false"><ch a="G"/>bloo<ch a="b"/>m </row>
+      <row important_over="false"><ch a="G"/>bloo<ch a="b"/>m <ch a="A"/></row>
+      <row important_over="false"><ch a="G"/>again</row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="b"/>help I lo<ch a="A"/>st mysel<ch a="G"/>f agai<ch a="A"/>n</row>

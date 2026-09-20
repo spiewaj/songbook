@@ -11,33 +11,33 @@
       <row important_over="true"><ch a="G"/>grzbiet napina sw<ch a="a"/>ój.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Kozaki, ech junaki,<ch a="F"/><ch a="d"/><ch a="a"/></row>
-      <row important_over="never">Dziewoje, ech krasiwe<ch a="F"/><ch a="d"/><ch a="a"/></row>
-      <row important_over="never">Piękne i leniwe<ch a="d7"/><ch a="a"/></row>
-      <row important_over="never">Śpiewają i grają tę pieśń<ch a="d"/><ch a="F6"/><ch a="A0"/></row>
-      <row important_over="never">O miłości i o dniu, <ch a="d6"/><ch a="E7"/></row>
-      <row important_over="never">który przyjdzie.<ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">A stada koni jak wiatr<ch a="d"/><ch a="G7"/><ch a="C"/></row>
-      <row important_over="never">wciąż przecinają step.<ch a="G0"/><ch a="A7"/><ch a="d"/><ch a="G"/></row>
-      <row important_over="never">To jest raj kozaczy, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">to jest nasza pieśń.<ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Kozaki, ech junaki,<ch a="F"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="true">Dziewoje, ech krasiwe<ch a="F"/><ch a="d"/><ch a="a"/></row>
+      <row important_over="true">Piękne i leniwe<ch a="d7"/><ch a="a"/></row>
+      <row important_over="true">Śpiewają i grają tę pieśń<ch a="d"/><ch a="F6"/><ch a="A0"/></row>
+      <row important_over="true">O miłości i o dniu, <ch a="d6"/><ch a="E7"/></row>
+      <row important_over="true">który przyjdzie.<ch a="a"/><ch a="A7"/></row>
+      <row important_over="true">A stada koni jak wiatr<ch a="d"/><ch a="G7"/><ch a="C"/></row>
+      <row important_over="true">wciąż przecinają step.<ch a="G0"/><ch a="A7"/><ch a="d"/><ch a="G"/></row>
+      <row important_over="true">To jest raj kozaczy, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="true">to jest nasza pieśń.<ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Dosiadł konia rudy gość, <ch a="a"/><ch a="d"/></row>
-      <row important_over="never">zabrał trąbę,<ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">A step, szeroki step <ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">na skrzydłach swych go niósł,<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Koń ze złotą grzywą <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">grzbiet napina swój.<ch a="G"/><ch a="a"/></row>
+      <row important_over="false">Dosiadł konia rudy gość, <ch a="a"/><ch a="d"/></row>
+      <row important_over="false">zabrał trąbę,<ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">A step, szeroki step <ch a="d"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">na skrzydłach swych go niósł,<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Koń ze złotą grzywą <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">grzbiet napina swój.<ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Rudy step, a w stepie mgła <ch a="a"/><ch a="d"/></row>
-      <row important_over="never">srebrnolica<ch a="a"/><ch a="A7"/></row>
-      <row important_over="never">I step, szeroki step,<ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"> już umilkł trąby głos<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="never">Płacze krasawica, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">ktoś odjechał stąd. <ch a="G"/><ch a="a"/></row>
+      <row important_over="false">Rudy step, a w stepie mgła <ch a="a"/><ch a="d"/></row>
+      <row important_over="false">srebrnolica<ch a="a"/><ch a="A7"/></row>
+      <row important_over="false">I step, szeroki step,<ch a="d"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"> już umilkł trąby głos<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false">Płacze krasawica, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
+      <row important_over="false">ktoś odjechał stąd. <ch a="G"/><ch a="a"/></row>
     </block>
   </lyric>
   <keywords/>

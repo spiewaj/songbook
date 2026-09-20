@@ -13,10 +13,10 @@
 			<row important_over="true">Po z<ch a="D"/>aśnieżonych dr<ch a="G"/>ogach</row>
 			<row important_over="true">Przeciwko s<ch a="a"/>obie armie dwie</row>
 			<row important_over="true">Up<ch a="H7"/>arcie szły na wroga</row>
-			<row important_over="false">I siały <ch a="e"/>armie śmierć ze s<ch a="a"/>obą</row>
-			<row important_over="false">Po mi<ch a="D"/>astach i po wi<ch a="G"/>oskach</row>
-			<row important_over="false">A w każdej <ch a="a"/>armii kroczył dobosz</row>
-			<row important_over="false">Co w<ch a="H7"/>erbel miał i rozkaz</row>
+			<row important_over="true">I siały <ch a="e"/>armie śmierć ze s<ch a="a"/>obą</row>
+			<row important_over="true">Po mi<ch a="D"/>astach i po wi<ch a="G"/>oskach</row>
+			<row important_over="true">A w każdej <ch a="a"/>armii kroczył dobosz</row>
+			<row important_over="true">Co w<ch a="H7"/>erbel miał i rozkaz</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Doboszu gr<ch a="a"/>aj doboszu <ch a="D7"/>idź</row>
@@ -51,11 +51,11 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Spokojnie l<ch a="e"/>eżą armie dwi<ch a="a"/>e</row>
-			<row important_over="false">Pod krz<ch a="D"/>yżem na rozst<ch a="G"/>ajach</row>
-			<row important_over="false">I tylko n<ch a="a"/>ocą poprzez śnieg</row>
-			<row important_over="false">Dwa b<ch a="H7"/>ębny werblem grają</row>
-			<row important_over="false">Jednaki odzew grają…</row>
+			<row important_over="true">Spokojnie l<ch a="e"/>eżą armie dwi<ch a="a"/>e</row>
+			<row important_over="true">Pod krz<ch a="D"/>yżem na rozst<ch a="G"/>ajach</row>
+			<row important_over="true">I tylko n<ch a="a"/>ocą poprzez śnieg</row>
+			<row important_over="true">Dwa b<ch a="H7"/>ębny werblem grają</row>
+			<row important_over="never">Jednaki odzew grają…</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

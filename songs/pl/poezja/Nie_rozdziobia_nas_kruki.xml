@@ -9,29 +9,29 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Nie rozdziobią nas kruki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Ni wrony, ani nic!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="false">Nie rozszarpią na sztuki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Poezji wściekłe kły! <ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="never">Nie rozdziobią nas kruki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Ni wrony, ani nic!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
+			<row important_over="never">Nie rozszarpią na sztuki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Poezji wściekłe kły! <ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Ruszaj się Bruno, idziemy na piwo;<ch a="Fis"/><ch a="h"/></row>
-			<row important_over="false">Niechybnie brakuje tam nas!<ch a="G"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Od stania w miejscu niejeden już zginął,<ch a="Fis"/><ch a="h"/></row>
-			<row important_over="false">Niejeden zginął już kwiat! <ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="never">Ruszaj się Bruno, idziemy na piwo;<ch a="Fis"/><ch a="h"/></row>
+			<row important_over="never">Niechybnie brakuje tam nas!<ch a="G"/><ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Od stania w miejscu niejeden już zginął,<ch a="Fis"/><ch a="h"/></row>
+			<row important_over="never">Niejeden zginął już kwiat! <ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Nie omami nas forsa<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Ni sławy pusty dźwięk!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="false">Inną ścigamy postać:<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Realnej zjawy tren!<ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="never">Nie omami nas forsa<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Ni sławy pusty dźwięk!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
+			<row important_over="never">Inną ścigamy postać:<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Realnej zjawy tren!<ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Nie zdechniemy tak szybko,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Jak sobie roi śmierć!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="false">Ziemia dla nas za płytka,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Fruniemy w góry gdzieś! <ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="never">Nie zdechniemy tak szybko,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Jak sobie roi śmierć!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
+			<row important_over="never">Ziemia dla nas za płytka,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Fruniemy w góry gdzieś! <ch a="D"/><ch a="A"/><ch a="G"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

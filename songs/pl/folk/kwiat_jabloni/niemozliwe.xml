@@ -16,19 +16,19 @@
       <row important_over="true">m<ch a="h"/>usisz więcej niż ch<ch a="Asus2"/>ces<ch a="E"/>z</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="h"/>Zabierają rzeczy <ch a="Asus2"/>i wynoszą<ch a="E"/> łóżko</row>
-      <row important_over="false"><ch a="h"/>Okna ani ściany nie <ch a="Asus2"/>są teraz<ch a="E"/> moje</row>
-      <row important_over="false"><ch a="h"/>Wciąż nie widzę końca, a<ch a="Asus2"/>le mówią mi że już niedługo</row>
-      <row important_over="false"><ch a="h"/>I że przyszli tylko p<ch a="Asus2"/>o to by za chwilę <ch a="E"/>odejść</row>
+      <row important_over="true"><ch a="h"/>Zabierają rzeczy <ch a="Asus2"/>i wynoszą<ch a="E"/> łóżko</row>
+      <row important_over="true"><ch a="h"/>Okna ani ściany nie <ch a="Asus2"/>są teraz<ch a="E"/> moje</row>
+      <row important_over="true"><ch a="h"/>Wciąż nie widzę końca, a<ch a="Asus2"/>le mówią mi że już niedługo</row>
+      <row important_over="true"><ch a="h"/>I że przyszli tylko p<ch a="Asus2"/>o to by za chwilę <ch a="E"/>odejść</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Gd<ch a="h"/>zie jestem, <ch a="Asus2"/>nie wiem</row>
-      <row important_over="false">Wyciągam ręce przed <ch a="E"/>siebie</row>
-      <row important_over="false">G<ch a="h"/>dzie jestem, <ch a="Asus2"/>nie wiem wyciągam ręce do<ch a="E"/> ciebie</row>
-      <row important_over="false">G<ch a="h"/>dzie jestem,<ch a="Asus2"/> nie wiem</row>
-      <row important_over="false">Wyciągam ręce przed <ch a="E"/>siebie</row>
-      <row important_over="false">G<ch a="h"/>dzie jestem, <ch a="fis"/>nie wiem<ch a="Asus2"/> wyciągam ręce do<ch a="E"/> ciebie</row>
+      <row important_over="true">Gd<ch a="h"/>zie jestem, <ch a="Asus2"/>nie wiem</row>
+      <row important_over="true">Wyciągam ręce przed <ch a="E"/>siebie</row>
+      <row important_over="true">G<ch a="h"/>dzie jestem, <ch a="Asus2"/>nie wiem wyciągam ręce do<ch a="E"/> ciebie</row>
+      <row important_over="true">G<ch a="h"/>dzie jestem,<ch a="Asus2"/> nie wiem</row>
+      <row important_over="true">Wyciągam ręce przed <ch a="E"/>siebie</row>
+      <row important_over="true">G<ch a="h"/>dzie jestem, <ch a="fis"/>nie wiem<ch a="Asus2"/> wyciągam ręce do<ch a="E"/> ciebie</row>
     </block>
   </lyric>
   <keywords/>

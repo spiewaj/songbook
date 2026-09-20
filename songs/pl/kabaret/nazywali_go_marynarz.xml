@@ -27,10 +27,10 @@
       <row important_over="true">Bo ja <ch a="B"/>właśnie <ch a="A"/>schodzę na <ch a="d"/>ląd…</row>
     </block>
     <block type="verse">
-      <row important_over="false">Nigdy <ch a="d"/>się nie <ch a="C"/>lękał <ch a="d"/>biedy,</row>
-      <row important_over="false">I się <ch a="d"/>nie przej<ch a="C"/>mował <ch a="d"/>jutrem.</row>
-      <row important_over="false">A <ch a="g"/>jego ratrak był <ch a="d"/>kiedyś,</row>
-      <row important_over="false">Zwy<ch a="B"/>czajnym ry<ch a="A"/>backim <ch a="d"/>kutrem.</row>
+      <row important_over="true">Nigdy <ch a="d"/>się nie <ch a="C"/>lękał <ch a="d"/>biedy,</row>
+      <row important_over="true">I się <ch a="d"/>nie przej<ch a="C"/>mował <ch a="d"/>jutrem.</row>
+      <row important_over="true">A <ch a="g"/>jego ratrak był <ch a="d"/>kiedyś,</row>
+      <row important_over="true">Zwy<ch a="B"/>czajnym ry<ch a="A"/>backim <ch a="d"/>kutrem.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>I woził <ch a="C"/>dorsze i <ch a="d"/>śledzie,</row>

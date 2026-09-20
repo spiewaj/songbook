@@ -8,32 +8,32 @@
       <row important_over="true"><ch a="a"/>Tuż przy drodze r<ch a="d"/>ozkwitł<ch a="E"/>o ognisk<ch a="a"/>o. </row>
     </block>
     <block type="verse">
-      <row important_over="false">Spały sierpy powleczone chłodem</row>
-      <row important_over="false">Podciągnąwszy kolana pod brodę</row>
+      <row important_over="never">Spały sierpy powleczone chłodem</row>
+      <row important_over="never">Podciągnąwszy kolana pod brodę</row>
     </block>
     <block type="verse">
-      <row important_over="false">W kręg kobiety siedziały w milczeniu</row>
-      <row important_over="false">Wpatrywały się w barwę płomieni</row>
+      <row important_over="never">W kręg kobiety siedziały w milczeniu</row>
+      <row important_over="never">Wpatrywały się w barwę płomieni</row>
     </block>
     <block type="verse">
-      <row important_over="false">I wszystko normalnie poza tym</row>
-      <row important_over="false">Zwykła północ - pożegnanie z latem</row>
+      <row important_over="never">I wszystko normalnie poza tym</row>
+      <row important_over="never">Zwykła północ - pożegnanie z latem</row>
     </block>
     <block type="verse">
-      <row important_over="false">I tylko czasem ptak jakiś wrzasnął</row>
-      <row important_over="false">Nie mogę zasnąć, nie mogę zasnąć.</row>
+      <row important_over="never">I tylko czasem ptak jakiś wrzasnął</row>
+      <row important_over="never">Nie mogę zasnąć, nie mogę zasnąć.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Tak mija ta dziwna godzina</row>
-      <row important_over="false">Gdy się kończy coś, a coś zaczyna </row>
+      <row important_over="never">Tak mija ta dziwna godzina</row>
+      <row important_over="never">Gdy się kończy coś, a coś zaczyna </row>
     </block>
     <block type="verse">
-      <row important_over="false">Jak zgubione na polu pokosy</row>
-      <row important_over="false">Śpią żniwiarki zmarznięte od rosy</row>
+      <row important_over="never">Jak zgubione na polu pokosy</row>
+      <row important_over="never">Śpią żniwiarki zmarznięte od rosy</row>
     </block>
     <block type="verse">
-      <row important_over="false">A ognisko już samotnie zgasło</row>
-      <row important_over="false">Już idzie jasność, już idzie jasność  </row>
+      <row important_over="never">A ognisko już samotnie zgasło</row>
+      <row important_over="never">Już idzie jasność, już idzie jasność  </row>
     </block>
   </lyric>
   <keywords/>

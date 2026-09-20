@@ -42,21 +42,21 @@
       <row important_over="false">W dłoni trzy<ch a="G"/>mało małą ksią<ch a="C"/>żeczkę.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
-      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
-      <row important_over="false">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
-      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
-      <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
+      <row important_over="true">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="true">A w drugiej <ch a="F"/>portret premiera <ch a="C"/>Czech,</row>
+      <row important_over="true"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="true"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne, <ch a="C"/>eh.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="C"/><ch a="Gis"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Chłopiec na <ch a="C"/>imię <ch a="G"/>miał Ok<ch a="C"/>tawian,</row>
-      <row important_over="false">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
-      <row important_over="false">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
-      <row important_over="false">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
-      <row important_over="false"/>
+      <row important_over="true">Chłopiec na <ch a="C"/>imię <ch a="G"/>miał Ok<ch a="C"/>tawian,</row>
+      <row important_over="true">Ojciec Ja<ch a="d"/>romir, <ch a="A7"/>matka <ch a="d"/>Zdenka,</row>
+      <row important_over="true">Ktoś się być <ch a="G"/>może <ch a="G7"/>zasta<ch a="C"/>nawia,</row>
+      <row important_over="true">O czym na<ch a="G"/>prawdę jest ta pio<ch a="C"/>senka.</row>
+      <row important_over="never"/>
     </block>
     <block type="chorus">
       <row important_over="false">Kiedy Wam <ch a="F"/>powiem zaprze Wam <ch a="C"/>dech,</row>
@@ -75,24 +75,24 @@
       <row important_over="false">Kryzysie <ch a="G"/>polskiej piłki <ch a="C"/>nożnej,</row>
     </block>
     <block type="other">
-      <row important_over="false">Który tak samo mnie obchodzi,</row>
-      <row important_over="false">Jak czeskie dziecko w podwodnej łodzi.</row>
+      <row important_over="never">Który tak samo mnie obchodzi,</row>
+      <row important_over="never">Jak czeskie dziecko w podwodnej łodzi.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
-      <row important_over="false"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
-      <row important_over="false">Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
-      <row important_over="false"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
-      <row important_over="false"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne.</row>
+      <row important_over="true"><ch a="C"/>Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
+      <row important_over="true"><ch a="G7"/>Życie jest dziwne, <ch a="C"/>eh.</row>
+      <row important_over="true">Bo czy to <ch a="F"/>Legia, Wisła czy <ch a="C"/>Lech,</row>
+      <row important_over="true"><ch a="F"/>Życie jest <ch a="f"/>dziwne,</row>
+      <row important_over="true"><ch a="C"/>Życie jest <ch a="A"/>dziwne, <ch a="D7"/>dzi<ch a="G7"/>wne.</row>
     </block>
     <block type="verse">
       <bis times="4">
-        <row important_over="false"><ch a="fis"/>Bardzo dziwne,</row>
-        <row important_over="false">Bardzo, <ch a="f"/>bardzo, bardzo dziwne,</row>
-        <row important_over="false"><ch a="e"/>Bardzo dziwne,</row>
-        <row important_over="false">Bardzo, <ch a="dis"/>bardzo, bardzo dziwne,</row>
-        <row important_over="false"><ch a="d"/>Bardzo dziwne</row>
-        <row important_over="false">Bardzo <ch a="Cis"/>dziwne, <ch a="C"/>jest.</row>
+        <row important_over="true"><ch a="fis"/>Bardzo dziwne,</row>
+        <row important_over="true">Bardzo, <ch a="f"/>bardzo, bardzo dziwne,</row>
+        <row important_over="true"><ch a="e"/>Bardzo dziwne,</row>
+        <row important_over="true">Bardzo, <ch a="dis"/>bardzo, bardzo dziwne,</row>
+        <row important_over="true"><ch a="d"/>Bardzo dziwne</row>
+        <row important_over="true">Bardzo <ch a="Cis"/>dziwne, <ch a="C"/>jest.</row>
       </bis>
     </block>
   </lyric>

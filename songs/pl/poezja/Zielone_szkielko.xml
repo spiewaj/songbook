@@ -9,43 +9,43 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Stoję na słońcu, łapię w palce czas</row>
-			<row important_over="false">Nitki babiego lata</row>
-			<row important_over="false">Patrzę na świat przez szkło bez krat</row>
-			<row important_over="false">Przez dno butelki</row>
+			<row important_over="never">Stoję na słońcu, łapię w palce czas</row>
+			<row important_over="never">Nitki babiego lata</row>
+			<row important_over="never">Patrzę na świat przez szkło bez krat</row>
+			<row important_over="never">Przez dno butelki</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Włosy rozwiane głaszczą mi twarz</row>
-			<row important_over="false">Świat jest bez końca zielony</row>
-			<row important_over="false">Człowiek na słońcu to właśnie ja</row>
-			<row important_over="false">A może, a może nie człowiek</row>
+			<row important_over="never">Włosy rozwiane głaszczą mi twarz</row>
+			<row important_over="never">Świat jest bez końca zielony</row>
+			<row important_over="never">Człowiek na słońcu to właśnie ja</row>
+			<row important_over="never">A może, a może nie człowiek</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Leżę na ziemi, wdycham zapach traw</row>
-			<row important_over="false">Obłoki skłębione</row>
-			<row important_over="false">Zielone szkiełko całą prawdę zna</row>
-			<row important_over="false">Wie dokąd idę schylony</row>
+			<row important_over="never">Leżę na ziemi, wdycham zapach traw</row>
+			<row important_over="never">Obłoki skłębione</row>
+			<row important_over="never">Zielone szkiełko całą prawdę zna</row>
+			<row important_over="never">Wie dokąd idę schylony</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Palce mi ziębną gdy przyjdzie świt</row>
-			<row important_over="false">Nie wiem od rosy czy wstydu</row>
-			<row important_over="false">Człowiek na ziemi to właśnie ja</row>
-			<row important_over="false">A może człowieka widmo</row>
+			<row important_over="never">Palce mi ziębną gdy przyjdzie świt</row>
+			<row important_over="never">Nie wiem od rosy czy wstydu</row>
+			<row important_over="never">Człowiek na ziemi to właśnie ja</row>
+			<row important_over="never">A może człowieka widmo</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Lecę gdzieś w przepaść, widzę czarne dno</row>
-			<row important_over="false">Słyszę jak krew stęchnie w żyłach</row>
-			<row important_over="false">Spływa po twarzy powietrza prąd</row>
-			<row important_over="false">To cel mnie znalazł i wybrał</row>
+			<row important_over="never">Lecę gdzieś w przepaść, widzę czarne dno</row>
+			<row important_over="never">Słyszę jak krew stęchnie w żyłach</row>
+			<row important_over="never">Spływa po twarzy powietrza prąd</row>
+			<row important_over="never">To cel mnie znalazł i wybrał</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Znalazłem drogę, którą chcę</row>
-			<row important_over="false">Przejść aż na drugą snu stronę</row>
-			<row important_over="false">Zielone szkiełko przecina dłoń</row>
+			<row important_over="never">Znalazłem drogę, którą chcę</row>
+			<row important_over="never">Przejść aż na drugą snu stronę</row>
+			<row important_over="never">Zielone szkiełko przecina dłoń</row>
 			<bis times="3">
-				<row important_over="false">Spadam na ziemię, spadam na ziemię</row>
+				<row important_over="never">Spadam na ziemię, spadam na ziemię</row>
 			</bis>
-			<row important_over="false">Jak promień</row>
+			<row important_over="never">Jak promień</row>
 		</block>
 	</lyric>
 	<music metre="">

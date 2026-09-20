@@ -27,11 +27,11 @@
       <row important_over="false"><ch a="E"/>I śmiech bez pa<ch a="H"/>mięci, i echa <ch a="fis"/>wołanie<ch a="A"/><ch a="H"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="E"/>Z każdym łykiem<ch a="H"/> lżejszy<ch a="fis"/> wzbijam się nad <ch a="A"/>domy <ch a="H"/></row>
-      <row important_over="false"><ch a="E"/>Ponad sady <ch a="H"/>dolin i cerkiewne <ch a="fis"/>głowy<ch a="A"/><ch a="H"/></row>
-      <row important_over="false"><ch a="E"/>W rozespanych w<ch a="H"/>spomnieniach <ch a="fis"/>nieprzytomnie <ch a="A"/>tonę</row>
+      <row important_over="true"><ch a="E"/>Z każdym łykiem<ch a="H"/> lżejszy<ch a="fis"/> wzbijam się nad <ch a="A"/>domy <ch a="H"/></row>
+      <row important_over="true"><ch a="E"/>Ponad sady <ch a="H"/>dolin i cerkiewne <ch a="fis"/>głowy<ch a="A"/><ch a="H"/></row>
+      <row important_over="true"><ch a="E"/>W rozespanych w<ch a="H"/>spomnieniach <ch a="fis"/>nieprzytomnie <ch a="A"/>tonę</row>
       <bis times="3">
-        <row important_over="false">Między d<ch a="C"/>rogą z Ko<ch a="D"/>mańczy a bramą Lac<ch a="E"/>kowej</row>
+        <row important_over="true">Między d<ch a="C"/>rogą z Ko<ch a="D"/>mańczy a bramą Lac<ch a="E"/>kowej</row>
       </bis>
     </block>
     <blocklink blocknb="3"/>

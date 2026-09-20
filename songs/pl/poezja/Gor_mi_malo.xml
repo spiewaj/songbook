@@ -6,7 +6,7 @@
 	<lyric>
 		<block type="other">
 			<bis times="4">
-				<row important_over="false">
+				<row important_over="true">
           <ch a="C"/>
           <ch a="d"/>
           <ch a="G"/>
@@ -18,22 +18,22 @@
 		<block type="verse">
 			<row important_over="true">Drogi M<ch a="C"/>istrzu, Mistrzu mojej dr<ch a="G"/>ogi,</row>
 			<row important_over="true">Mistrzu J<ch a="d"/>erzy i Mistrzu Wojci<ch a="G"/>echu,</row>
-			<row important_over="false">Przez was w g<ch a="C"/>órach schodziłem n<ch a="G"/>ogi,</row>
-			<row important_over="false">Nie m<ch a="d"/>ogąc złapać odd<ch a="G"/>echu.</row>
-			<row important_over="false">Gór, co st<ch a="C"/>oją nigdy nie dog<ch a="G"/>onię,</row>
-			<row important_over="false">Znikaj<ch a="d"/>ących punktów na m<ch a="G"/>apie,</row>
-			<row important_over="false">Jakie mi<ch a="C"/>ejsce nazwę swym d<ch a="G"/>omem,</row>
-			<row important_over="false">Jakim d<ch a="d"/>otrę do niego szl<ch a="G"/>akiem.</row>
+			<row important_over="true">Przez was w g<ch a="C"/>órach schodziłem n<ch a="G"/>ogi,</row>
+			<row important_over="true">Nie m<ch a="d"/>ogąc złapać odd<ch a="G"/>echu.</row>
+			<row important_over="true">Gór, co st<ch a="C"/>oją nigdy nie dog<ch a="G"/>onię,</row>
+			<row important_over="true">Znikaj<ch a="d"/>ących punktów na m<ch a="G"/>apie,</row>
+			<row important_over="true">Jakie mi<ch a="C"/>ejsce nazwę swym d<ch a="G"/>omem,</row>
+			<row important_over="true">Jakim d<ch a="d"/>otrę do niego szl<ch a="G"/>akiem.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Gór mi m<ch a="C"/>ało i trzeba mi wi<ch a="G"/>ęcej,</row>
 			<row important_over="true">Żeby prz<ch a="a"/>etrwać od zimy do z<ch a="e"/>imy,</row>
 			<row important_over="true">Ktoś mnie sk<ch a="F"/>azał na wieczną wędr<ch a="C"/>ówkę</row>
 			<row important_over="true">Po śl<ch a="d"/>adach, które sam zostaw<ch a="G"/>iłem.</row>
-			<row important_over="false">Góry, g<ch a="C"/>óry i ciągle mi ni<ch a="G"/>e dość,</row>
-			<row important_over="false">Skazan<ch a="a"/>emu na gór doż<ch a="e"/>ywocie,</row>
-			<row important_over="false">Świat na d<ch a="F"/>obre mi zbieszcz<ch a="C"/>adział,</row>
-			<row important_over="false">Szczyty w<ch a="d"/>olnym mijają mnie kr<ch a="G"/>okiem.</row>
+			<row important_over="true">Góry, g<ch a="C"/>óry i ciągle mi ni<ch a="G"/>e dość,</row>
+			<row important_over="true">Skazan<ch a="a"/>emu na gór doż<ch a="e"/>ywocie,</row>
+			<row important_over="true">Świat na d<ch a="F"/>obre mi zbieszcz<ch a="C"/>adział,</row>
+			<row important_over="true">Szczyty w<ch a="d"/>olnym mijają mnie kr<ch a="G"/>okiem.</row>
 		</block>
 		<block type="other">
 			<bis times="2">

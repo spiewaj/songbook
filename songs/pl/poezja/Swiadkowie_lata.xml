@@ -9,31 +9,31 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Ukryci w nieba błękitach, złotach i szkarłatach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">W jeżynowych sadach, malinowych chatach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">wabieni przez leśne echa, straszeni przez nocne lęki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="false">wszystko takie odległe, tylko ty na wyciągnięcie ręki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">Ukryci w nieba błękitach, złotach i szkarłatach<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">W jeżynowych sadach, malinowych chatach<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">wabieni przez leśne echa, straszeni przez nocne lęki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">wszystko takie odległe, tylko ty na wyciągnięcie ręki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Uwięzieni w letnich woniach, w lipowych zapachach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">pieszczeni przez złote żuki w ich kosmatych łapach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">wpatrzeni w trawioną gorączką purpurową twarz słońca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="false">splecione dłonie skóra spierzchnięta od gorąca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">Uwięzieni w letnich woniach, w lipowych zapachach<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">pieszczeni przez złote żuki w ich kosmatych łapach<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">wpatrzeni w trawioną gorączką purpurową twarz słońca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">splecione dłonie skóra spierzchnięta od gorąca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Stąpający po pożądania rozpalonych węglach<ch a="Cis"/><ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
-			<row important_over="false">zamierają słowa na bezbronnych wargach<ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
-			<row important_over="false">w odwiecznym tańcu pulsuje przyroda<ch a="H"/><ch a="Fis"/></row>
-			<row important_over="false">uderza do głowy,<ch a="gis"/></row>
+			<row important_over="never">Stąpający po pożądania rozpalonych węglach<ch a="Cis"/><ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
+			<row important_over="never">zamierają słowa na bezbronnych wargach<ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
+			<row important_over="never">w odwiecznym tańcu pulsuje przyroda<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">uderza do głowy,<ch a="gis"/></row>
 			<bis times="3">
-				<row important_over="false">pulsuje w skroniach<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+				<row important_over="never">pulsuje w skroniach<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">W rozdrganym powietrzu dźwięczy lot motyla<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">chwila staje się wiecznością, a wieczność jak chwila<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="false">ukryci w nieba błękitach na wierzchołku świata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="false">dwoje niemych świadków czeznącego lata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">W rozdrganym powietrzu dźwięczy lot motyla<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">chwila staje się wiecznością, a wieczność jak chwila<ch a="Fis"/><ch a="H"/></row>
+			<row important_over="never">ukryci w nieba błękitach na wierzchołku świata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="never">dwoje niemych świadków czeznącego lata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>

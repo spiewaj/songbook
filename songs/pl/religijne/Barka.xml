@@ -6,15 +6,15 @@
   <original_title>Pescador de hombres</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="false">1.<ch a="D"/> Pan<ch a="A7"/> kiedyś stanął nad <ch a="D"/>brzegiem<ch a="D7"/>, </row>
-      <row important_over="false">Szukał <ch a="G"/>ludzi<ch a="e"/> gotowych pójść <ch a="A"/>za Nim<ch a="A7"/>, </row>
-      <row important_over="false">By łowić <ch a="D"/>serca<ch a="A7"/> słów Bożych <ch a="D"/>Prawdą<ch a="D7"/>. </row>
+      <row important_over="true">1.<ch a="D"/> Pan<ch a="A7"/> kiedyś stanął nad <ch a="D"/>brzegiem<ch a="D7"/>, </row>
+      <row important_over="true">Szukał <ch a="G"/>ludzi<ch a="e"/> gotowych pójść <ch a="A"/>za Nim<ch a="A7"/>, </row>
+      <row important_over="true">By łowić <ch a="D"/>serca<ch a="A7"/> słów Bożych <ch a="D"/>Prawdą<ch a="D7"/>. </row>
     </block>
     <block type="chorus">
-      <row important_over="false">O <ch a="G"/>Panie<ch a="A"/>, to Ty na mnie spoj<ch a="D"/>rzałeś<ch a="h"/>,</row>
-      <row important_over="false">Twoje <ch a="e"/>usta<ch a="A7"/> dziś wyrzekły me <ch a="D"/>imię<ch a="D7"/>. </row>
-      <row important_over="false">Swoją <ch a="G"/>barkę<ch a="A"/> pozostawiam na <ch a="D"/>brzegu<ch a="h"/>,</row>
-      <row important_over="false">Razem <ch a="e"/>z Tobą<ch a="A7"/> nowy zacznę dziś <ch a="D"/>łów.</row>
+      <row important_over="true">O <ch a="G"/>Panie<ch a="A"/>, to Ty na mnie spoj<ch a="D"/>rzałeś<ch a="h"/>,</row>
+      <row important_over="true">Twoje <ch a="e"/>usta<ch a="A7"/> dziś wyrzekły me <ch a="D"/>imię<ch a="D7"/>. </row>
+      <row important_over="true">Swoją <ch a="G"/>barkę<ch a="A"/> pozostawiam na <ch a="D"/>brzegu<ch a="h"/>,</row>
+      <row important_over="true">Razem <ch a="e"/>z Tobą<ch a="A7"/> nowy zacznę dziś <ch a="D"/>łów.</row>
     </block>
     <block type="verse">
       <row important_over="false">2. <ch a="D"/>Jestem<ch a="A7"/> ubogim czło<ch a="D"/>wiekiem<ch a="D7"/>, </row>

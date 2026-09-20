@@ -9,50 +9,50 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Nie czerń lecz szarość wszędzie</row>
-      <row important_over="false">Ta nić szara się przędzie</row>
-      <row important_over="false">Ona za mną przede mną i przy mnie</row>
-      <row important_over="false">Ona rankiem w mej głowie</row>
-      <row important_over="false">W dłoniach i w pierwszym słowie</row>
-      <row important_over="false">Niczym gołąb pocztowy powraca</row>
-      <row important_over="false">Szarą nicią przeszyty</row>
-      <row important_over="false">I do świata przyszyty</row>
-      <row important_over="false">Tak jak guzik do szarego płaszcza</row>
+      <row important_over="never">Nie czerń lecz szarość wszędzie</row>
+      <row important_over="never">Ta nić szara się przędzie</row>
+      <row important_over="never">Ona za mną przede mną i przy mnie</row>
+      <row important_over="never">Ona rankiem w mej głowie</row>
+      <row important_over="never">W dłoniach i w pierwszym słowie</row>
+      <row important_over="never">Niczym gołąb pocztowy powraca</row>
+      <row important_over="never">Szarą nicią przeszyty</row>
+      <row important_over="never">I do świata przyszyty</row>
+      <row important_over="never">Tak jak guzik do szarego płaszcza</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Z szarej włóczki me myśli</row>
-      <row important_over="false">Zagrzebane dni i tygodnie</row>
-      <row important_over="false">Z szarej włóczki jesienie i lata</row>
-      <row important_over="false">Nawet wiersz cały z tęczy</row>
-      <row important_over="false">Nagły list radość szczęście</row>
-      <row important_over="false">Co jak wzór na kilimie się złocą</row>
+      <row important_over="never">Z szarej włóczki me myśli</row>
+      <row important_over="never">Zagrzebane dni i tygodnie</row>
+      <row important_over="never">Z szarej włóczki jesienie i lata</row>
+      <row important_over="never">Nawet wiersz cały z tęczy</row>
+      <row important_over="never">Nagły list radość szczęście</row>
+      <row important_over="never">Co jak wzór na kilimie się złocą</row>
     </block>
     <block type="verse">
-      <row important_over="false">Już za moment szarzeją</row>
-      <row important_over="false">Są jak fatamorgana</row>
-      <row important_over="false">W zeschły liść się zmieniają i popiół</row>
-      <row important_over="false">Z szarych nici ten kłębek</row>
-      <row important_over="false">Który w szarą godzinę</row>
-      <row important_over="false">Sennie zwijam pod głowę podkładam</row>
-      <row important_over="false">Ludzie chorzy na szarość</row>
-      <row important_over="false">Mój los chory na szarość</row>
-      <row important_over="false">Mój dom, moje miasto planeta</row>
+      <row important_over="never">Już za moment szarzeją</row>
+      <row important_over="never">Są jak fatamorgana</row>
+      <row important_over="never">W zeschły liść się zmieniają i popiół</row>
+      <row important_over="never">Z szarych nici ten kłębek</row>
+      <row important_over="never">Który w szarą godzinę</row>
+      <row important_over="never">Sennie zwijam pod głowę podkładam</row>
+      <row important_over="never">Ludzie chorzy na szarość</row>
+      <row important_over="never">Mój los chory na szarość</row>
+      <row important_over="never">Mój dom, moje miasto planeta</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Boże cały ze złota</row>
-      <row important_over="false">Przędący w kołowrotku</row>
-      <row important_over="false">Czemu z siebie wysnuwasz nić szarą</row>
-      <row important_over="false">Ojcze nasz wielobarwny</row>
-      <row important_over="false">W akselbantach w brokatach</row>
-      <row important_over="false">Który błyszczysz i mienisz się cały</row>
+      <row important_over="never">Boże cały ze złota</row>
+      <row important_over="never">Przędący w kołowrotku</row>
+      <row important_over="never">Czemu z siebie wysnuwasz nić szarą</row>
+      <row important_over="never">Ojcze nasz wielobarwny</row>
+      <row important_over="never">W akselbantach w brokatach</row>
+      <row important_over="never">Który błyszczysz i mienisz się cały</row>
     </block>
     <block type="verse">
-      <row important_over="false">Jeśli trochę nas lubisz</row>
-      <row important_over="false">Nachyl się nad wrzecionem</row>
-      <row important_over="false">Dorzuć włosów anielskich do włóczki</row>
-      <row important_over="false">Bo w nas szarość w oddechach</row>
-      <row important_over="false">Szarość w snach i uśmiechach</row>
-      <row important_over="false">Szarość w łzach modlitwie i hymnie</row>
+      <row important_over="never">Jeśli trochę nas lubisz</row>
+      <row important_over="never">Nachyl się nad wrzecionem</row>
+      <row important_over="never">Dorzuć włosów anielskich do włóczki</row>
+      <row important_over="never">Bo w nas szarość w oddechach</row>
+      <row important_over="never">Szarość w snach i uśmiechach</row>
+      <row important_over="never">Szarość w łzach modlitwie i hymnie</row>
     </block>
   </lyric>
   <music metre="">

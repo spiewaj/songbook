@@ -18,14 +18,14 @@
       <row important_over="true"><ch a="d"/>chciałbym p<ch a="e"/>owiedzieć ci że</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Miłość to nie plu<ch a="d"/>szowy <ch a="e"/>miś ani <ch a="a"/>kwiaty</row>
-      <row important_over="false">To też nie d<ch a="d"/>iabeł r<ch a="e"/>ogaty</row>
-      <row important_over="false">Ani <ch a="a"/>miłość kiedy j<ch a="d"/>edno p<ch a="G"/>łacze</row>
-      <row important_over="false">A <ch a="C"/>drugie po nim <ch a="F"/>skacze</row>
-      <row important_over="false">Bo <ch a="a"/>miłość to żaden <ch a="d"/>film w żadnym <ch a="e"/>kinie</row>
-      <row important_over="false">Ani <ch a="a"/>róże ani ca<ch a="d"/>łusy małe <ch a="e"/>duże</row>
-      <row important_over="false">Ale <ch a="a"/>miłość, kiedy j<ch a="d"/>edno spada w<ch a="G"/> dół</row>
-      <row important_over="false">Drugie c<ch a="C"/>iągnie je ku gó<ch a="F"/>rze</row>
+      <row important_over="true"><ch a="a"/>Miłość to nie plu<ch a="d"/>szowy <ch a="e"/>miś ani <ch a="a"/>kwiaty</row>
+      <row important_over="true">To też nie d<ch a="d"/>iabeł r<ch a="e"/>ogaty</row>
+      <row important_over="true">Ani <ch a="a"/>miłość kiedy j<ch a="d"/>edno p<ch a="G"/>łacze</row>
+      <row important_over="true">A <ch a="C"/>drugie po nim <ch a="F"/>skacze</row>
+      <row important_over="true">Bo <ch a="a"/>miłość to żaden <ch a="d"/>film w żadnym <ch a="e"/>kinie</row>
+      <row important_over="true">Ani <ch a="a"/>róże ani ca<ch a="d"/>łusy małe <ch a="e"/>duże</row>
+      <row important_over="true">Ale <ch a="a"/>miłość, kiedy j<ch a="d"/>edno spada w<ch a="G"/> dół</row>
+      <row important_over="true">Drugie c<ch a="C"/>iągnie je ku gó<ch a="F"/>rze</row>
     </block>
     <block type="verse">
       <row important_over="false">Ile <ch a="a"/>jest<ch a="d"/>em Ci<ch a="e"/> winien</row>

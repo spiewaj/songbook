@@ -9,29 +9,29 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Wszystkich kuszą dzikie strony,<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">Wielkie góry, czyste rzeki,<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Życie wolne bez pośpiechu,<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">A z uporem w wielkich miastach duszą się.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Wszystkich kuszą dzikie strony,<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">Wielkie góry, czyste rzeki,<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Życie wolne bez pośpiechu,<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">A z uporem w wielkich miastach duszą się.<ch a="A"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Zamknij dom, z nami chodź,<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Chociaż ty wolnym bądź!<ch a="h"/><ch a="G"/></row>
-			<row important_over="false">Cóż ci trzeba, buty masz,<ch a="D"/><ch a="A"/></row>
-			<row important_over="false">Zamknij dom, z nami chodź!<ch a="D"/><ch a="B"/><ch a="D"/></row>
+			<row important_over="never">Zamknij dom, z nami chodź,<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Chociaż ty wolnym bądź!<ch a="h"/><ch a="G"/></row>
+			<row important_over="never">Cóż ci trzeba, buty masz,<ch a="D"/><ch a="A"/></row>
+			<row important_over="never">Zamknij dom, z nami chodź!<ch a="D"/><ch a="B"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Pływać w czystej zimnej wodzie,<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">Potem w słońcu suszyć się,<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Patrzeć w gwiazdy, leżąc w trawie,<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">Wreszcie iść wszystko jedno gdzie.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Pływać w czystej zimnej wodzie,<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">Potem w słońcu suszyć się,<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Patrzeć w gwiazdy, leżąc w trawie,<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">Wreszcie iść wszystko jedno gdzie.<ch a="A"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">A jeśli gdzieś po latach spotkasz kogoś,<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">Kto jak ty dziś słucha radia i to cały jego świat<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Spojrzysz w oczy mu, nie będziesz<ch a="D"/><ch a="h"/></row>
-			<row important_over="false">Mógł zrozumieć, jak się da wytrzymać tak.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">A jeśli gdzieś po latach spotkasz kogoś,<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">Kto jak ty dziś słucha radia i to cały jego świat<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="never">Spojrzysz w oczy mu, nie będziesz<ch a="D"/><ch a="h"/></row>
+			<row important_over="never">Mógł zrozumieć, jak się da wytrzymać tak.<ch a="A"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

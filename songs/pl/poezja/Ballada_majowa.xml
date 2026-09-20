@@ -31,15 +31,15 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">I pł<ch a="D"/>yną przeze mnie dmuch<ch a="A"/>awce</row>
-      <row important_over="false">Jak dziec<ch a="G0"/>iństwa <ch a="h"/>echa</row>
-      <row important_over="false">I wielka j<ch a="G"/>est majowa m<ch a="fis"/>oc</row>
-      <row important_over="false">Kiedy ni<ch a="G"/>ebo się do ziemi uśmi<ch a="A"/>echa</row>
-      <row important_over="false">Śp<ch a="D"/>i w twoim wnętrzu chł<ch a="A"/>opiec</row>
-      <row important_over="false">W chłopcu pi<ch a="G0"/>erwszy zachwyt poz<ch a="h"/>naję</row>
-      <row important_over="false">Z twoich zi<ch a="G"/>aren wyrosną s<ch a="fis"/>ady</row>
-      <row important_over="false">Strudzon<ch a="G"/>emu pielgrzymką <ch a="A"/>ulżyj</row>
-      <row important_over="false">Dodaj wi<ch a="D"/>ary</row>
+      <row important_over="true">I pł<ch a="D"/>yną przeze mnie dmuch<ch a="A"/>awce</row>
+      <row important_over="true">Jak dziec<ch a="G0"/>iństwa <ch a="h"/>echa</row>
+      <row important_over="true">I wielka j<ch a="G"/>est majowa m<ch a="fis"/>oc</row>
+      <row important_over="true">Kiedy ni<ch a="G"/>ebo się do ziemi uśmi<ch a="A"/>echa</row>
+      <row important_over="true">Śp<ch a="D"/>i w twoim wnętrzu chł<ch a="A"/>opiec</row>
+      <row important_over="true">W chłopcu pi<ch a="G0"/>erwszy zachwyt poz<ch a="h"/>naję</row>
+      <row important_over="true">Z twoich zi<ch a="G"/>aren wyrosną s<ch a="fis"/>ady</row>
+      <row important_over="true">Strudzon<ch a="G"/>emu pielgrzymką <ch a="A"/>ulżyj</row>
+      <row important_over="true">Dodaj wi<ch a="D"/>ary</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

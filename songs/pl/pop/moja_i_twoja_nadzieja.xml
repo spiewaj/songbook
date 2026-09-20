@@ -20,18 +20,18 @@
       <row important_over="true"><ch a="a"/>Jeśli T<ch a="G"/>y nie p<ch a="d"/>omożesz dziś miłości</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Musisz<ch a="G"/> odn<ch a="d"/>aleźć nadzieję</row>
-      <row important_over="false">I nie<ch a="a"/>ważne, że <ch a="G"/></row>
-      <row important_over="false"><ch a="d"/>Nazwą Ciebie głupcem</row>
-      <row important_over="false"><ch a="a"/>Musisz<ch a="G"/> pozw<ch a="d"/>olić, by sny</row>
-      <row important_over="false"><ch a="a"/>Sprawiły byś pam<ch a="G"/>iętał, że</row>
+      <row important_over="true"><ch a="a"/>Musisz<ch a="G"/> odn<ch a="d"/>aleźć nadzieję</row>
+      <row important_over="true">I nie<ch a="a"/>ważne, że <ch a="G"/></row>
+      <row important_over="true"><ch a="d"/>Nazwą Ciebie głupcem</row>
+      <row important_over="true"><ch a="a"/>Musisz<ch a="G"/> pozw<ch a="d"/>olić, by sny</row>
+      <row important_over="true"><ch a="a"/>Sprawiły byś pam<ch a="G"/>iętał, że</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Moja<ch a="G"/> i <ch a="F"/>Twoja<ch a="G"/> nad<ch a="a"/>zieja <ch a="G"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Uczyni <ch a="G"/>real<ch a="F"/>nym <ch a="G"/>krok w<ch a="a"/> chmurach <ch a="G"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Moja <ch a="G"/>i T<ch a="F"/>woja <ch a="G"/>nadzi<ch a="a"/>eja <ch a="G"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Pozwoli<ch a="G"/> uczy<ch a="F"/>nić d<ch a="G"/>ziś <ch a="a"/>cuda <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Moja<ch a="G"/> i <ch a="F"/>Twoja<ch a="G"/> nad<ch a="a"/>zieja <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Uczyni <ch a="G"/>real<ch a="F"/>nym <ch a="G"/>krok w<ch a="a"/> chmurach <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Moja <ch a="G"/>i T<ch a="F"/>woja <ch a="G"/>nadzi<ch a="a"/>eja <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Pozwoli<ch a="G"/> uczy<ch a="F"/>nić d<ch a="G"/>ziś <ch a="a"/>cuda <ch a="G"/><ch a="F"/><ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

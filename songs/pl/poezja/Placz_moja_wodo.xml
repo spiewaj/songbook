@@ -9,18 +9,18 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="A"/>Powiedz jak można tak długo wytrzymać<ch a="E"/></row>
-      <row important_over="false"><ch a="D"/>Gdy zima i mrozy, i mrozy i zima<ch a="A"/></row>
-      <row important_over="false"><ch a="D"/>A ty znowu jesteś za wodą za rzeką<ch a="A"/></row>
-      <row important_over="false"><ch a="h"/>I nie wiem znów nie wiem jak bardzo daleko<ch a="E"/></row>
-      <row important_over="false"><ch a="A"/>Stoję na brzegu a przepaść jest blisko<ch a="E"/></row>
-      <row important_over="false"><ch a="D"/>I tłum się gromadzi jak na widowisko<ch a="A"/></row>
-      <row important_over="false"><ch a="D"/>Dlaczego tak nagle się wszyscy zjawili<ch a="A"/></row>
-      <row important_over="false"><ch a="h"/>I po co też mają kamienie u szyi<ch a="E"/></row>
+      <row important_over="true"><ch a="A"/>Powiedz jak można tak długo wytrzymać<ch a="E"/></row>
+      <row important_over="true"><ch a="D"/>Gdy zima i mrozy, i mrozy i zima<ch a="A"/></row>
+      <row important_over="true"><ch a="D"/>A ty znowu jesteś za wodą za rzeką<ch a="A"/></row>
+      <row important_over="true"><ch a="h"/>I nie wiem znów nie wiem jak bardzo daleko<ch a="E"/></row>
+      <row important_over="true"><ch a="A"/>Stoję na brzegu a przepaść jest blisko<ch a="E"/></row>
+      <row important_over="true"><ch a="D"/>I tłum się gromadzi jak na widowisko<ch a="A"/></row>
+      <row important_over="true"><ch a="D"/>Dlaczego tak nagle się wszyscy zjawili<ch a="A"/></row>
+      <row important_over="true"><ch a="h"/>I po co też mają kamienie u szyi<ch a="E"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="A"/>Bo kto mnie pożegna, gdy tylu nas jest<ch a="fis"/></row>
-      <row important_over="false"><ch a="h"/>Płacz moja wodo rzeką łez<ch a="E"/><ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Bo kto mnie pożegna, gdy tylu nas jest<ch a="fis"/></row>
+      <row important_over="true"><ch a="h"/>Płacz moja wodo rzeką łez<ch a="E"/><ch a="A"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A"/>Stoi kolejka szeregiem dalekim<ch a="E"/></row>

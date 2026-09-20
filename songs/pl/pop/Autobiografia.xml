@@ -15,16 +15,16 @@
       <row important_over="true">I ja <ch a="a"/>też, chciałem<ch a="e"/> grać </row>
     </block>
     <block type="verse">
-      <row important_over="never">Ojciec Bóg wie gdzie martenowski stawiał piec<ch a="e"/></row>
-      <row important_over="never">Mnie paznokieć z palca zszedł<ch a="a7"/><ch a="D"/></row>
-      <row important_over="never">Z gryfu został wiór grałem milion różnych bzdur<ch a="e"/></row>
-      <row important_over="never">I poznałem co to seks<ch a="a7"/><ch a="D"/></row>
+      <row important_over="false">Ojciec Bóg wie gdzie martenowski stawiał piec<ch a="e"/></row>
+      <row important_over="false">Mnie paznokieć z palca zszedł<ch a="a7"/><ch a="D"/></row>
+      <row important_over="false">Z gryfu został wiór grałem milion różnych bzdur<ch a="e"/></row>
+      <row important_over="false">I poznałem co to seks<ch a="a7"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Pocztówkowy szał, każdy z nas ich pięćset miał<ch a="e"/></row>
-      <row important_over="never">Zamiast nowej pary jeans<ch a="a7"/><ch a="D"/></row>
-      <row important_over="never">A w sobotnią noc był Luksemburg, chata, szkło<ch a="e"/></row>
-      <row important_over="never">Jakże się chciało żyć<ch a="a"/><ch a="e"/></row>
+      <row important_over="false">Pocztówkowy szał, każdy z nas ich pięćset miał<ch a="e"/></row>
+      <row important_over="false">Zamiast nowej pary jeans<ch a="a7"/><ch a="D"/></row>
+      <row important_over="false">A w sobotnią noc był Luksemburg, chata, szkło<ch a="e"/></row>
+      <row important_over="false">Jakże się chciało żyć<ch a="a"/><ch a="e"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>Było nas trzech, w każdym <ch a="D"/>z nas inna krew</row>
@@ -37,34 +37,34 @@
       <row important_over="true"><ch a="C"/>Coś działo się </row>
     </block>
     <block type="verse">
-      <row important_over="never">Poró<ch a="e"/>żniła nas, za jej Poli Raksy twarz</row>
-      <row important_over="never">Każdy <ch a="a7"/>by się zabić dał<ch a="D"/> </row>
-      <row important_over="never">W pe<ch a="e"/>wną letnią noc gdzieś na dach wyniosłem koc</row>
-      <row important_over="never">I dos<ch a="a7"/>tałem to, com ch<ch a="D"/>ciał</row>
-      <row important_over="never">Powi<ch a="e"/>edziała mi, że kłopoty mogą być</row>
-      <row important_over="never">Ja jej<ch a="a7"/>, że egzamin m<ch a="D"/>am</row>
-      <row important_over="never">Odkr<ch a="e"/>ęciła gaz Nie zapukał nikt na czas</row>
-      <row important_over="never">Znów jak <ch a="a"/>pies byłem s<ch a="e"/>am   </row>
+      <row important_over="true">Poró<ch a="e"/>żniła nas, za jej Poli Raksy twarz</row>
+      <row important_over="true">Każdy <ch a="a7"/>by się zabić dał<ch a="D"/> </row>
+      <row important_over="true">W pe<ch a="e"/>wną letnią noc gdzieś na dach wyniosłem koc</row>
+      <row important_over="true">I dos<ch a="a7"/>tałem to, com ch<ch a="D"/>ciał</row>
+      <row important_over="true">Powi<ch a="e"/>edziała mi, że kłopoty mogą być</row>
+      <row important_over="true">Ja jej<ch a="a7"/>, że egzamin m<ch a="D"/>am</row>
+      <row important_over="true">Odkr<ch a="e"/>ęciła gaz Nie zapukał nikt na czas</row>
+      <row important_over="true">Znów jak <ch a="a"/>pies byłem s<ch a="e"/>am   </row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Stu różnych ról, czym <ch a="D"/>ugasić mój ból</row>
-      <row important_over="never">Nau<ch a="G"/>czyło mnie życie jak <ch a="C"/>nikt   <ch a="h"/> </row>
-      <row important_over="never">W<ch a="a"/> wyrku na wznak przechla<ch a="F"/>pałem swój czas</row>
-      <row important_over="never"><ch a="C"/>Najlepszy czas</row>
-      <row important_over="never">W<ch a="C"/> knajpie dla braw Klezmer <ch a="D"/>kazał mi grać</row>
-      <row important_over="never">Takie <ch a="G"/>rzeczy, że jeszcze mi<ch a="C"/> wstyd  <ch a="h"/> </row>
-      <row important_over="never"><ch a="a"/>Pewnego dnia zrozu<ch a="F"/>miałem, że ja</row>
-      <row important_over="never"><ch a="C"/>Nie umiem nic</row>
+      <row important_over="false"><ch a="C"/>Stu różnych ról, czym <ch a="D"/>ugasić mój ból</row>
+      <row important_over="false">Nau<ch a="G"/>czyło mnie życie jak <ch a="C"/>nikt   <ch a="h"/> </row>
+      <row important_over="false">W<ch a="a"/> wyrku na wznak przechla<ch a="F"/>pałem swój czas</row>
+      <row important_over="false"><ch a="C"/>Najlepszy czas</row>
+      <row important_over="false">W<ch a="C"/> knajpie dla braw Klezmer <ch a="D"/>kazał mi grać</row>
+      <row important_over="false">Takie <ch a="G"/>rzeczy, że jeszcze mi<ch a="C"/> wstyd  <ch a="h"/> </row>
+      <row important_over="false"><ch a="a"/>Pewnego dnia zrozu<ch a="F"/>miałem, że ja</row>
+      <row important_over="false"><ch a="C"/>Nie umiem nic</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Słuchaj mnie, tam! Pok<ch a="D"/>onałem się sam</row>
-      <row important_over="never">Oto <ch a="G"/>wyśnił się Wielki Mój <ch a="C"/>Sen   <ch a="h"/> </row>
-      <row important_over="never"><ch a="a"/>Tysięczny tłum spija <ch a="F"/>słowa z mych ust</row>
-      <row important_over="never"><ch a="C"/>Kochają mnie</row>
-      <row important_over="never"><ch a="C"/>W hotelu fan mówi: &quot;<ch a="D"/>Na taśmie mam</row>
-      <row important_over="never">To, jak w<ch a="G"/> gardłach im rodzi się <ch a="C"/>śpiew&quot; <ch a="h"/> </row>
-      <row important_over="never"><ch a="a"/>Otwieram drzwi i nie <ch a="F"/>mówię już nic</row>
-      <row important_over="never"><ch a="C"/>Do czterech ścian</row>
+      <row important_over="false"><ch a="C"/>Słuchaj mnie, tam! Pok<ch a="D"/>onałem się sam</row>
+      <row important_over="false">Oto <ch a="G"/>wyśnił się Wielki Mój <ch a="C"/>Sen   <ch a="h"/> </row>
+      <row important_over="false"><ch a="a"/>Tysięczny tłum spija <ch a="F"/>słowa z mych ust</row>
+      <row important_over="false"><ch a="C"/>Kochają mnie</row>
+      <row important_over="false"><ch a="C"/>W hotelu fan mówi: &quot;<ch a="D"/>Na taśmie mam</row>
+      <row important_over="false">To, jak w<ch a="G"/> gardłach im rodzi się <ch a="C"/>śpiew&quot; <ch a="h"/> </row>
+      <row important_over="false"><ch a="a"/>Otwieram drzwi i nie <ch a="F"/>mówię już nic</row>
+      <row important_over="false"><ch a="C"/>Do czterech ścian</row>
     </block>
   </lyric>
   <music>

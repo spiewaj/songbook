@@ -3,29 +3,29 @@
 	<artist type="solo"/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Zwyczaj to stary jak świat<ch a="C"/><ch a="F"/></row>
-			<row important_over="false">Ogień, ogień, ogień<ch a="G"/><ch a="C"/></row>
-			<row important_over="false">Rozpalmy blisko nas</row>
-			<row important_over="false">Ogień, ogień, ogień</row>
+			<row important_over="never">Zwyczaj to stary jak świat<ch a="C"/><ch a="F"/></row>
+			<row important_over="never">Ogień, ogień, ogień<ch a="G"/><ch a="C"/></row>
+			<row important_over="never">Rozpalmy blisko nas</row>
+			<row important_over="never">Ogień, ogień, ogień</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Dla spóźnionego wędrowca,</row>
-			<row important_over="false">Dla wszystkich spóźnionych w noc</row>
-			<row important_over="false">Rozpalmy tu, rozpalmy tu</row>
-			<row important_over="false">Ogień, ogień, ogień</row>
+			<row important_over="never">Dla spóźnionego wędrowca,</row>
+			<row important_over="never">Dla wszystkich spóźnionych w noc</row>
+			<row important_over="never">Rozpalmy tu, rozpalmy tu</row>
+			<row important_over="never">Ogień, ogień, ogień</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Pierwsza gwiazdka już wzeszła,</row>
-			<row important_over="false">Czas by ogień rozpalić</row>
-			<row important_over="false">Lipy, sosny i buki</row>
-			<row important_over="false">Chylą gałęzie ku nam</row>
+			<row important_over="never">Pierwsza gwiazdka już wzeszła,</row>
+			<row important_over="never">Czas by ogień rozpalić</row>
+			<row important_over="never">Lipy, sosny i buki</row>
+			<row important_over="never">Chylą gałęzie ku nam</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Najpiękniejsze ogniska</row>
-			<row important_over="false">Z trzaskiem sypią się skry</row>
-			<row important_over="false">Wokół samych przyjaciół masz</row>
-			<row important_over="false">Zaśpiewaj z nami i ty</row>
+			<row important_over="never">Najpiękniejsze ogniska</row>
+			<row important_over="never">Z trzaskiem sypią się skry</row>
+			<row important_over="never">Wokół samych przyjaciół masz</row>
+			<row important_over="never">Zaśpiewaj z nami i ty</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

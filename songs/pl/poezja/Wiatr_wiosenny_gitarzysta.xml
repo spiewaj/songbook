@@ -9,16 +9,16 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/><ch a="e"/>Wiatr to jest taki gitarzysta</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>Co gra na akacjowych listkach</row>
-      <row important_over="false"><ch a="G"/><ch a="e"/>Pogra odchodzi i nie wraca</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>I bardzo smuci się akacja</row>
+      <row important_over="true"><ch a="G"/><ch a="e"/>Wiatr to jest taki gitarzysta</row>
+      <row important_over="true"><ch a="a7"/><ch a="D7"/>Co gra na akacjowych listkach</row>
+      <row important_over="true"><ch a="G"/><ch a="e"/>Pogra odchodzi i nie wraca</row>
+      <row important_over="true"><ch a="a7"/><ch a="D7"/>I bardzo smuci się akacja</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/><ch a="h"/>Więc gdy zapadnie noc i nawet</row>
-      <row important_over="false"><ch a="C"/><ch a="E"/>Róża się chowa w senną trawę</row>
-      <row important_over="false"><ch a="a7"/><ch a="a7+"/>Ptak składa skrzydła w twardej sośnie</row>
-      <row important_over="false"><ch a="a"/><ch a="h7"/><ch a="C"/><ch a="D"/>Akacja skarży się żałośnie</row>
+      <row important_over="true"><ch a="e"/><ch a="h"/>Więc gdy zapadnie noc i nawet</row>
+      <row important_over="true"><ch a="C"/><ch a="E"/>Róża się chowa w senną trawę</row>
+      <row important_over="true"><ch a="a7"/><ch a="a7+"/>Ptak składa skrzydła w twardej sośnie</row>
+      <row important_over="true"><ch a="a"/><ch a="h7"/><ch a="C"/><ch a="D"/>Akacja skarży się żałośnie</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/><ch a="e"/>Dokąd poleciał ten szaleniec</row>
@@ -39,9 +39,9 @@
       <row important_over="false"><ch a="a7"/><ch a="D7"/>Mój gitarzysto gondolierze</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/><ch a="h"/>Wietrze wiosenny piosenkarzu</row>
-      <row important_over="false"><ch a="C"/><ch a="E"/>Jak długo będę twoja marząc</row>
-      <row important_over="false"><ch a="a7"/><ch a="a7+"/>Aż wróci wiatr — zimowy wicher</row>
+      <row important_over="true"><ch a="e"/><ch a="h"/>Wietrze wiosenny piosenkarzu</row>
+      <row important_over="true"><ch a="C"/><ch a="E"/>Jak długo będę twoja marząc</row>
+      <row important_over="true"><ch a="a7"/><ch a="a7+"/>Aż wróci wiatr — zimowy wicher</row>
     </block>
   </lyric>
   <music metre="">

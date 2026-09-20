@@ -10,21 +10,21 @@
 		</block>
 		<block type="chorus">
 			<row important_over="true">O rycerstwie spod kresowych granic<ch a="F"/><ch a="C"/></row>
-			<row important_over="false">O obrońcach naszych polskich granic<ch a="g"/><ch a="A7"/><ch a="d"/><ch a="A7"/></row>
-			<row important_over="false">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">I dębowy huczy <ch a="A7"/>las<ch a="g"/><ch a="d"/><ch a="C"/></row>
+			<row important_over="true">O obrońcach naszych polskich granic<ch a="g"/><ch a="A7"/><ch a="d"/><ch a="A7"/></row>
+			<row important_over="true">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
+			<row important_over="true">I dębowy huczy <ch a="A7"/>las<ch a="g"/><ch a="d"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Już do odwrotu głos trąbki wzywa</row>
-			<row important_over="false">Alarmując ze wszech stron</row>
-			<row important_over="false">Wstaje wiara w ordynku szczęśliwa</row>
-			<row important_over="false">Serca biją zgodny ton</row>
+			<row important_over="never">Już do odwrotu głos trąbki wzywa</row>
+			<row important_over="never">Alarmując ze wszech stron</row>
+			<row important_over="never">Wstaje wiara w ordynku szczęśliwa</row>
+			<row important_over="never">Serca biją zgodny ton</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Każda twarz się w uniesieniu płoni</row>
-			<row important_over="false">Każdy laskę krzepko dzierży w dłoni</row>
-			<row important_over="false">A z młodzieńczej się piersi wyrywa</row>
-			<row important_over="false">Pieśń potężna, pieśń jak dzwon.</row>
+			<row important_over="never">Każda twarz się w uniesieniu płoni</row>
+			<row important_over="never">Każdy laskę krzepko dzierży w dłoni</row>
+			<row important_over="never">A z młodzieńczej się piersi wyrywa</row>
+			<row important_over="never">Pieśń potężna, pieśń jak dzwon.</row>
 		</block>
 	</lyric>
 	<music>

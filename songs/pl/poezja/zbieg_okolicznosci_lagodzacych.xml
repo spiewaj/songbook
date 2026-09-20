@@ -9,7 +9,7 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row important_over="false"><ch a="h"/><ch a="G"/><ch a="A"/><ch a="D"/><ch a="G"/><ch a="e"/><ch a="Fis"/><ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/><ch a="G"/><ch a="A"/><ch a="D"/><ch a="G"/><ch a="e"/><ch a="Fis"/><ch a="Fis"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Szl<ch a="h"/>iśmy do siebie — T<ch a="e"/>y i ja,</row>

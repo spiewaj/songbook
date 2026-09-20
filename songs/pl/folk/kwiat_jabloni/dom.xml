@@ -32,8 +32,8 @@
       <row important_over="false" style="instr"> </row>
       <row important_over="false" style="instr"> </row>
       <row important_over="false" style="instr"> </row>
-      <row important_over="false">Czy starczy mi l<ch a="C"/>at</row>
-      <row important_over="false">żeby p<ch a="B"/>ozbyć się śc<ch a="d"/>ian </row>
+      <row important_over="true">Czy starczy mi l<ch a="C"/>at</row>
+      <row important_over="true">żeby p<ch a="B"/>ozbyć się śc<ch a="d"/>ian </row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Spędzam kolejny dzień</row>
@@ -54,10 +54,10 @@
     <blocklink blocknb="3"/>
     <block type="verse">
       <row important_over="false" style="instr"> </row>
-      <row important_over="false"> <ch a="g"/>Płomienie trawią od środka d<ch a="B"/>om</row>
-      <row important_over="false"><ch a="F"/>Pożar wybucha we mnie co n<ch a="C"/>oc</row>
-      <row important_over="false"><ch a="g"/>Chcę powiedzieć wszystko, lecz brakuje sł<ch a="B"/>ów</row>
-      <row important_over="false">Za m<ch a="F"/>ało lat, za mało lat, za mał<ch a="C"/>o</row>
+      <row important_over="true"> <ch a="g"/>Płomienie trawią od środka d<ch a="B"/>om</row>
+      <row important_over="true"><ch a="F"/>Pożar wybucha we mnie co n<ch a="C"/>oc</row>
+      <row important_over="true"><ch a="g"/>Chcę powiedzieć wszystko, lecz brakuje sł<ch a="B"/>ów</row>
+      <row important_over="true">Za m<ch a="F"/>ało lat, za mało lat, za mał<ch a="C"/>o</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

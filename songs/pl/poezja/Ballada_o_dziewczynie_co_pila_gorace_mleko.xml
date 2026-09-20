@@ -27,25 +27,25 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Mam swoje sprawy, inne podróże <ch a="D"/><ch a="fis"/></row>
-			<row important_over="never">i nie tamtędy mi droga.<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Lubię ulice wesołe i długie <ch a="G"/><ch a="D"/></row>
-			<row important_over="never">i kolorowe światła na rogach.<ch a="G"/><ch a="A"/></row>
-			<row important_over="never">Może ma chłopca tamta dziewczyna, <ch a="D"/><ch a="fis"/></row>
-			<row important_over="never">a może wybrała się w świat.<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Albo po prostu może jest głupia <ch a="G"/><ch a="D"/></row>
-			<row important_over="never">jak jej siedemnaście lat.<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Mam swoje sprawy, inne podróże <ch a="D"/><ch a="fis"/></row>
+			<row important_over="false">i nie tamtędy mi droga.<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Lubię ulice wesołe i długie <ch a="G"/><ch a="D"/></row>
+			<row important_over="false">i kolorowe światła na rogach.<ch a="G"/><ch a="A"/></row>
+			<row important_over="false">Może ma chłopca tamta dziewczyna, <ch a="D"/><ch a="fis"/></row>
+			<row important_over="false">a może wybrała się w świat.<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Albo po prostu może jest głupia <ch a="G"/><ch a="D"/></row>
+			<row important_over="false">jak jej siedemnaście lat.<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Z resztą to przecież nie ma znaczenia, <ch a="G"/><ch a="D"/></row>
-			<row important_over="never">mieszkam naprawdę daleko.<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Lecz myślę czasem o tamtej dziewczynie, <ch a="G"/><ch a="D"/></row>
-			<row important_over="never">jak piła gorące mleko.<ch a="A"/><ch a="D"/></row>
-			<row important_over="never">I nieraz chciałbym aby tu była,<ch a="G"/><ch a="D"/></row>
-			<row important_over="never"> może to miałoby sens.<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Z resztą to przecież nie ma znaczenia, <ch a="G"/><ch a="D"/></row>
+			<row important_over="false">mieszkam naprawdę daleko.<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Lecz myślę czasem o tamtej dziewczynie, <ch a="G"/><ch a="D"/></row>
+			<row important_over="false">jak piła gorące mleko.<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">I nieraz chciałbym aby tu była,<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"> może to miałoby sens.<ch a="G"/><ch a="D"/></row>
 			<bis times="2">
-				<row important_over="never">Jak ona śmiesznie to mleko piła, <ch a="G"/><ch a="D"/></row>
-				<row important_over="never">gapiąc się na mnie spod rzęs.<ch a="A"/><ch a="D"/></row>
+				<row important_over="false">Jak ona śmiesznie to mleko piła, <ch a="G"/><ch a="D"/></row>
+				<row important_over="false">gapiąc się na mnie spod rzęs.<ch a="A"/><ch a="D"/></row>
 			</bis>
 		</block>
 	</lyric>

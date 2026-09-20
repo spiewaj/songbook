@@ -9,13 +9,13 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="d"/>Nie bój się, nie zabraknie, <ch a="C"/>to krajowa czysta</row>
-			<row important_over="false">Ja <ch a="A7"/>widzisz przed wojną b<ch a="g"/>yłem komu<ch a="d"/>nista</row>
-			<row important_over="false">Bo ja chciałem być kimś, bo ja <ch a="C"/>byłem Żyd</row>
-			<row important_over="false">A jak <ch a="A7"/>Żyd nie był kimś, to ten Żyd był nikt</row>
-			<row important_over="false">Może stąd dla świata tyle z nas pożytku<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Że bankierom i skrzypkom nie mówią: ty Żydku!<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="true">Ja <ch a="A7"/>widzisz przed wojną b<ch a="g"/>yłem komu<ch a="d"/>nista</row>
+			<row important_over="true">Bo ja chciałem być kimś, bo ja <ch a="C"/>byłem Żyd</row>
+			<row important_over="true">A jak <ch a="A7"/>Żyd nie był kimś, to ten Żyd był nikt</row>
+			<row important_over="true">Może stąd dla świata tyle z nas pożytku<ch a="d"/><ch a="C"/></row>
+			<row important_over="true">Że bankierom i skrzypkom nie mówią: ty Żydku!<ch a="A7"/><ch a="g"/><ch a="d"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Ja bankierem nie byłem, ani wirtuozem<ch a="d"/><ch a="C"/></row>

@@ -10,10 +10,10 @@
       <row important_over="true"><ch a="d"/>A ty nie <ch a="E7"/>dojdziesz i <ch a="a"/>tak</row>
     </block>
     <block type="verse">
-      <row important_over="never">Tu samochody wyjąc mkną<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">w prawo ptaki nad polem<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Pod nimi szumi ocean zbóż<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="never">Zielone wyspy drzew<ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Tu samochody wyjąc mkną<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">w prawo ptaki nad polem<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Pod nimi szumi ocean zbóż<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
+      <row important_over="false">Zielone wyspy drzew<ch a="d"/><ch a="E7"/><ch a="a"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a7"/>Gdy lato zaszumi <ch a="d7"/>ciepłem</row>
@@ -26,16 +26,16 @@
       <row important_over="true"><ch a="d"/>Wolnego <ch a="E7"/>życia <ch a="a"/>smak </row>
     </block>
     <block type="verse">
-      <row important_over="never">Każdy ma swoje d&#039;pacol<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Z którego zwiozą go w końcu<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Cel często bywa większy od sił<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="never">Marzenia większe niż śmiech. <ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Każdy ma swoje d&#039;pacol<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Z którego zwiozą go w końcu<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Cel często bywa większy od sił<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
+      <row important_over="false">Marzenia większe niż śmiech. <ch a="d"/><ch a="E7"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Coraz trudniej przez lata się pchać<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Po schodach piąć się do góry<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Biegnąc nie słyszysz już szumu fal<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="never">Nie odróżniasz nieba od dna <ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false">Coraz trudniej przez lata się pchać<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Po schodach piąć się do góry<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Biegnąc nie słyszysz już szumu fal<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
+      <row important_over="false">Nie odróżniasz nieba od dna <ch a="d"/><ch a="E7"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

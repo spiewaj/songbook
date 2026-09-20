@@ -10,9 +10,9 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
-				<row style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
-				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row important_over="false" style="instr"><ch a="a"/><ch a="a7"/><ch a="a"/><ch a="a6"/></row>
+				<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -20,10 +20,10 @@
 			<row important_over="true">Razem z n<ch a="F"/>ami przemierzał górskie szl<ch a="e"/>aki</row>
 			<row important_over="true">Rz<ch a="F"/>adko do k<ch a="e"/>ogoś od<ch a="d"/>ezwał się sł<ch a="C"/>owem</row>
 			<row important_over="true">Lecz ch<ch a="F"/>yba mu dobrze było z n<ch a="G"/>ami</row>
-			<row important_over="false">Raz ki<ch a="C"/>edyś w schron<ch a="F"/>isku gdy n<ch a="G"/>oc nas zdyb<ch a="C"/>ała</row>
-			<row important_over="false">Otw<ch a="F"/>orzył jakiś zeszyt wypłowi<ch a="e"/>ały</row>
-			<row important_over="false">Spod p<ch a="F"/>alców spłyn<ch a="e"/>ęły mu dźwi<ch a="d"/>ęki git<ch a="C"/>ary</row>
-			<row important_over="false">I sł<ch a="F"/>owa nieznane lecz bli<ch a="G"/>skie</row>
+			<row important_over="true">Raz ki<ch a="C"/>edyś w schron<ch a="F"/>isku gdy n<ch a="G"/>oc nas zdyb<ch a="C"/>ała</row>
+			<row important_over="true">Otw<ch a="F"/>orzył jakiś zeszyt wypłowi<ch a="e"/>ały</row>
+			<row important_over="true">Spod p<ch a="F"/>alców spłyn<ch a="e"/>ęły mu dźwi<ch a="d"/>ęki git<ch a="C"/>ary</row>
+			<row important_over="true">I sł<ch a="F"/>owa nieznane lecz bli<ch a="G"/>skie</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
@@ -46,12 +46,12 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
-				<row important_over="false">A w niej z<ch a="d"/>amknął<ch a="G"/> echa g<ch a="C"/>ór</row>
-				<row important_over="false">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
-				<row important_over="false">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
+				<row important_over="true">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="true">A w niej z<ch a="d"/>amknął<ch a="G"/> echa g<ch a="C"/>ór</row>
+				<row important_over="true">By zagrał sw<ch a="a"/>ą ball<ch a="e"/>adę</row>
+				<row important_over="true">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
 			</bis>
-			<row important_over="false">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
+			<row important_over="true">G<ch a="F"/>órskich pot<ch a="G"/>oków sz<ch a="C"/>um</row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>

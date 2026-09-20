@@ -9,16 +9,16 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Mówią o mnie w mieście<ch a="C9"/></row>
-      <row important_over="false"><ch a="G"/>Co z niego za typ<ch a="C9"/></row>
-      <row important_over="false"><ch a="G"/>Wciąż chodzi pijany<ch a="C9"/></row>
-      <row important_over="false"><ch a="G"/>Pewnie nie wie co to wstyd<ch a="C9"/></row>
-      <row important_over="false"><ch a="D"/>Brudny niedomyty</row>
-      <row important_over="false"><ch a="a"/>W stajni ciągle śpi</row>
-      <row important_over="false"><ch a="C"/>Czego szukasz w naszym mieście<ch a="e"/><ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>Idź do diabła mówią mi<ch a="e"/><ch a="D"/></row>
-      <row important_over="false"><ch a="G"/>Ludzie pełni cnót<ch a="C9"/></row>
-      <row important_over="false"><ch a="G"/>Ludzie pełni cnót</row>
+      <row important_over="true"><ch a="G"/>Mówią o mnie w mieście<ch a="C9"/></row>
+      <row important_over="true"><ch a="G"/>Co z niego za typ<ch a="C9"/></row>
+      <row important_over="true"><ch a="G"/>Wciąż chodzi pijany<ch a="C9"/></row>
+      <row important_over="true"><ch a="G"/>Pewnie nie wie co to wstyd<ch a="C9"/></row>
+      <row important_over="true"><ch a="D"/>Brudny niedomyty</row>
+      <row important_over="true"><ch a="a"/>W stajni ciągle śpi</row>
+      <row important_over="true"><ch a="C"/>Czego szukasz w naszym mieście<ch a="e"/><ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>Idź do diabła mówią mi<ch a="e"/><ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Ludzie pełni cnót<ch a="C9"/></row>
+      <row important_over="true"><ch a="G"/>Ludzie pełni cnót</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Chciałem kiedyś zmądrzeć<ch a="C9"/></row>

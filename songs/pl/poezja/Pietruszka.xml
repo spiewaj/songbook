@@ -9,22 +9,22 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false"><ch a="A"/>Kiedy myślę jak wielkim przypadkiem<ch a="D"/><ch a="A"/></row>
-				<row important_over="false"><ch a="A"/>Jest to nasze tutaj spotkanie<ch a="D"/><ch a="A"/></row>
-				<row important_over="false"><ch a="E"/>To wydaje mi się że tylko cudem<ch a="fis"/><ch a="D"/></row>
-				<row important_over="false"><ch a="D"/>Zdążyłeś na nie mój Panie<ch a="E"/><ch a="A"/></row>
-				<row important_over="false"><ch a="A"/>Gdybyś się przecież urodził<ch a="D"/><ch a="A"/></row>
-				<row important_over="false"><ch a="A"/>Sto lat temu albo za rzeką<ch a="D"/><ch a="A"/></row>
-				<row important_over="false"><ch a="E"/>I był pietruszką albo słoniem<ch a="fis"/><ch a="D"/></row>
-				<row important_over="false"><ch a="D"/>Duszom byłoby za daleko<ch a="E"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Kiedy myślę jak wielkim przypadkiem<ch a="D"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Jest to nasze tutaj spotkanie<ch a="D"/><ch a="A"/></row>
+				<row important_over="true"><ch a="E"/>To wydaje mi się że tylko cudem<ch a="fis"/><ch a="D"/></row>
+				<row important_over="true"><ch a="D"/>Zdążyłeś na nie mój Panie<ch a="E"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Gdybyś się przecież urodził<ch a="D"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Sto lat temu albo za rzeką<ch a="D"/><ch a="A"/></row>
+				<row important_over="true"><ch a="E"/>I był pietruszką albo słoniem<ch a="fis"/><ch a="D"/></row>
+				<row important_over="true"><ch a="D"/>Duszom byłoby za daleko<ch a="E"/><ch a="A"/></row>
 			</bis>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
 		</block>
 	</lyric>
 	

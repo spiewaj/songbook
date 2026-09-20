@@ -8,7 +8,7 @@
       <bis times="2">
         <row important_over="false" style="instr"> <ch a="e"/><ch a="D"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
       </bis>
-      <row important_over="false"/>
+      <row important_over="never"/>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/> Takie <ch a="D"/>zwykłe, takie <ch a="e"/>małe</row>

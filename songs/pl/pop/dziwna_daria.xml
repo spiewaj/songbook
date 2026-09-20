@@ -34,10 +34,10 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Wiemy, ze nie ch<ch a="G"/>cemy już bez <ch a="d"/>siebie żyć<ch a="d"/></row>
-      <row important_over="false"><ch a="G"/>Znów jesteśmy <ch a="G"/>po tej samej <ch a="d"/>stronie<ch a="d"/></row>
-      <row important_over="false"><ch a="G"/>Na tapecie <ch a="G"/>już powoli <ch a="d"/>słychać dzień<ch a="d"/></row>
-      <row important_over="false">Kiedy <ch a="G"/>jednym <ch a="G"/>staną się dwa <ch a="d"/>domy<ch a="d"/></row>
+      <row important_over="true"><ch a="G"/>Wiemy, ze nie ch<ch a="G"/>cemy już bez <ch a="d"/>siebie żyć<ch a="d"/></row>
+      <row important_over="true"><ch a="G"/>Znów jesteśmy <ch a="G"/>po tej samej <ch a="d"/>stronie<ch a="d"/></row>
+      <row important_over="true"><ch a="G"/>Na tapecie <ch a="G"/>już powoli <ch a="d"/>słychać dzień<ch a="d"/></row>
+      <row important_over="true">Kiedy <ch a="G"/>jednym <ch a="G"/>staną się dwa <ch a="d"/>domy<ch a="d"/></row>
     </block>
   </lyric>
   <keywords/>

@@ -9,15 +9,15 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Opowieść będzie to prawdziwa chociaż dziwna<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Legliśmy w sianie obok legła płeć przeciwna<ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>A wiatr złowrogi nucił pieśni swe złowieszcze<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Że tu się mogą zdarzyć dziwne rzeczy jeszcze<ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Opowieść będzie to prawdziwa chociaż dziwna<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Legliśmy w sianie obok legła płeć przeciwna<ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>A wiatr złowrogi nucił pieśni swe złowieszcze<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Że tu się mogą zdarzyć dziwne rzeczy jeszcze<ch a="C"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="C"/>To będzie noc pełna niespodzianek<ch a="G"/></row>
-        <row important_over="false"><ch a="G"/>W stodole tej na słomie i na sianie<ch a="C"/></row>
+        <row important_over="true"><ch a="C"/>To będzie noc pełna niespodzianek<ch a="G"/></row>
+        <row important_over="true"><ch a="G"/>W stodole tej na słomie i na sianie<ch a="C"/></row>
       </bis>
     </block>
     <block type="verse">

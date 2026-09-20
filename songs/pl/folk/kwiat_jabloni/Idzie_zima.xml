@@ -5,25 +5,25 @@
   <artist type="band">Kwiat Jabłoni</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Ktoś pog<ch a="G"/>asił ws<ch a="e"/>zystkie ś<ch a="G"/>wiatła,</row>
-      <row important_over="false"><ch a="a"/>Świat się<ch a="G"/> ugiął o<ch a="C"/>d z<ch a="D"/>amieci</row>
-      <row important_over="false"><ch a="a"/>I po<ch a="G"/>mimo w<ch a="e"/>ielkich <ch a="D"/>chęci</row>
-      <row important_over="false"><ch a="a"/>Nie mam d<ch a="C"/>obrych <ch a="G"/>wieśc<ch a="D"/>i.</row>
+      <row important_over="true"><ch a="a"/>Ktoś pog<ch a="G"/>asił ws<ch a="e"/>zystkie ś<ch a="G"/>wiatła,</row>
+      <row important_over="true"><ch a="a"/>Świat się<ch a="G"/> ugiął o<ch a="C"/>d z<ch a="D"/>amieci</row>
+      <row important_over="true"><ch a="a"/>I po<ch a="G"/>mimo w<ch a="e"/>ielkich <ch a="D"/>chęci</row>
+      <row important_over="true"><ch a="a"/>Nie mam d<ch a="C"/>obrych <ch a="G"/>wieśc<ch a="D"/>i.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="a"/>Chciał<ch a="G"/>oby s<ch a="e"/>ię uci<ch a="D"/>ec,</row>
-      <row important_over="false"><ch a="a"/>Nie pr<ch a="e"/>zed wszystkim si<ch a="D"/>ę da,</row>
-      <row important_over="false"><ch a="D"/>Idzi<ch a="a"/>e z<ch a="G"/>ima<ch a="D"/> </row>
-      <row important_over="false"><ch a="a"/>Aaa<ch a="e"/>aa…<ch a="D"/> </row>
+      <row important_over="true"><ch a="a"/>Chciał<ch a="G"/>oby s<ch a="e"/>ię uci<ch a="D"/>ec,</row>
+      <row important_over="true"><ch a="a"/>Nie pr<ch a="e"/>zed wszystkim si<ch a="D"/>ę da,</row>
+      <row important_over="true"><ch a="D"/>Idzi<ch a="a"/>e z<ch a="G"/>ima<ch a="D"/> </row>
+      <row important_over="true"><ch a="a"/>Aaa<ch a="e"/>aa…<ch a="D"/> </row>
       <bis times="2">
         <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wiem, <ch a="G"/>że nigdy <ch a="e"/>nie jest <ch a="D"/>łatwa,</row>
-      <row important_over="false"><ch a="a"/>Niesie <ch a="G"/>ciemny d<ch a="C"/>zień pr<ch a="D"/>zy sobie,</row>
-      <row important_over="false"><ch a="a"/>Nierucho<ch a="G"/>me m<ch a="e"/>yśli w g<ch a="D"/>łowie</row>
-      <row important_over="false"><ch a="a"/>Żyw<ch a="C"/>e są o<ch a="G"/> Tobie.<ch a="D"/> </row>
+      <row important_over="true"><ch a="a"/>Wiem, <ch a="G"/>że nigdy <ch a="e"/>nie jest <ch a="D"/>łatwa,</row>
+      <row important_over="true"><ch a="a"/>Niesie <ch a="G"/>ciemny d<ch a="C"/>zień pr<ch a="D"/>zy sobie,</row>
+      <row important_over="true"><ch a="a"/>Nierucho<ch a="G"/>me m<ch a="e"/>yśli w g<ch a="D"/>łowie</row>
+      <row important_over="true"><ch a="a"/>Żyw<ch a="C"/>e są o<ch a="G"/> Tobie.<ch a="D"/> </row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Byle ś<ch a="G"/>piew<ch a="e"/>ać było<ch a="D"/> o czym,</row>
@@ -33,10 +33,10 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Ni<ch a="D"/>e <ch a="a"/>ma <ch a="G"/>takiej <ch a="D"/>nadziei,</row>
-      <row important_over="false"><ch a="a"/>Któr<ch a="D"/>a j<ch a="a"/>eszc<ch a="e"/>ze coś <ch a="D"/>zmieni,</row>
-      <row important_over="false"><ch a="D"/>Idzi<ch a="a"/>e <ch a="G"/>zim<ch a="D"/>a…</row>
-      <row important_over="false"><ch a="a"/>Aa<ch a="e"/>aa<ch a="D"/>a…</row>
+      <row important_over="true"><ch a="a"/>Ni<ch a="D"/>e <ch a="a"/>ma <ch a="G"/>takiej <ch a="D"/>nadziei,</row>
+      <row important_over="true"><ch a="a"/>Któr<ch a="D"/>a j<ch a="a"/>eszc<ch a="e"/>ze coś <ch a="D"/>zmieni,</row>
+      <row important_over="true"><ch a="D"/>Idzi<ch a="a"/>e <ch a="G"/>zim<ch a="D"/>a…</row>
+      <row important_over="true"><ch a="a"/>Aa<ch a="e"/>aa<ch a="D"/>a…</row>
       <row important_over="false" style="instr"> </row>
     </block>
   </lyric>

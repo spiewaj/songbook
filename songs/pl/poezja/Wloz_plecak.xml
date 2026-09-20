@@ -9,16 +9,16 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Gdy na Rysach ujrzysz ze ździwieniem<ch a="C"/><ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>Alpinistę w czarnym garniturze<ch a="D"/><ch a="G"/></row>
-      <row important_over="false"><ch a="e"/>Zamiast kiwać głową ze zdziwieniem<ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>Daj mu prawdy słowa dwa nieduże<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Gdy na Rysach ujrzysz ze ździwieniem<ch a="C"/><ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>Alpinistę w czarnym garniturze<ch a="D"/><ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>Zamiast kiwać głową ze zdziwieniem<ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>Daj mu prawdy słowa dwa nieduże<ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/>Włóż plecak, to nic że ciężki<ch a="C"/></row>
-      <row important_over="false"><ch a="D"/>I załóż koszulę w kratę<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
-      <row important_over="false"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Włóż plecak, to nic że ciężki<ch a="C"/></row>
+      <row important_over="true"><ch a="D"/>I załóż koszulę w kratę<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
+      <row important_over="true"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Gdy turystów grono romantyczne<ch a="C"/><ch a="D"/></row>

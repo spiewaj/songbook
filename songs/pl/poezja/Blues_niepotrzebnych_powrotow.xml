@@ -10,7 +10,7 @@
 			<row important_over="true">Więc <ch a="A7"/>idź już, nie wr<ch a="D7"/>acaj, ni<ch a="A7"/>e prz<ch a="h7"/>eszk<ch a="C"/>adz<ch a="D7"/>aj m<ch a="A7"/>i</row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Nie było cię długo, przestałam liczyć dni<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
@@ -20,7 +20,7 @@
 			<row important_over="false">Więc po co tu siedzisz, dziwisz nocne ćmy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Posłuchaj, latarnie wołają cię zza mgły<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
@@ -30,7 +30,7 @@
 			<row important_over="false">A tamte dwie krople, to wcale nie są łzy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
 		</block>
 		<block type="other">
-			<row style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
 		</block>
 	</lyric>
 	

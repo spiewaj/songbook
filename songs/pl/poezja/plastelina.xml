@@ -6,24 +6,24 @@
 	<artist type="solo">Danuta Wawiłow</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Ulepiłam sobie domek z niewidzialnej plasteliny, <ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Dwa okienka, dwa kominy z niewidzialnej plasteliny, <ch a="fis"/><ch a="E"/></row>
-			<row important_over="false">A w okienku kwiatki bratki z niewidzialnej plasteliny,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">A dla taty krawat w kwiatki z niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
+			<row important_over="never">Ulepiłam sobie domek z niewidzialnej plasteliny, <ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Dwa okienka, dwa kominy z niewidzialnej plasteliny, <ch a="fis"/><ch a="E"/></row>
+			<row important_over="never">A w okienku kwiatki bratki z niewidzialnej plasteliny,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">A dla taty krawat w kwiatki z niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">La, …</row>
+			<row important_over="never">La, …</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ulepiłam sobie pieska mięciutkiego z czarnym pyszczkiem ,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Lalę Kasie i Tereskę, i pistolet, i siostrzyczkę,<ch a="fis"/><ch a="E"/></row>
-			<row important_over="false">Namęczyłam się ogromnie stłukłam łokieć, zbiłam szklankę,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Mamo, tato chodźcie do mnie mam tu dla was niespodziankę. <ch a="fis"/><ch a="E"/></row>
+			<row important_over="never">Ulepiłam sobie pieska mięciutkiego z czarnym pyszczkiem ,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Lalę Kasie i Tereskę, i pistolet, i siostrzyczkę,<ch a="fis"/><ch a="E"/></row>
+			<row important_over="never">Namęczyłam się ogromnie stłukłam łokieć, zbiłam szklankę,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Mamo, tato chodźcie do mnie mam tu dla was niespodziankę. <ch a="fis"/><ch a="E"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Czemu na mnie tak patrzycie i zdziwione macie miny,<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Czyście nigdy nie widzieli, niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
+			<row important_over="never">Czemu na mnie tak patrzycie i zdziwione macie miny,<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Czyście nigdy nie widzieli, niewidzialnej plasteliny.<ch a="fis"/><ch a="E"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

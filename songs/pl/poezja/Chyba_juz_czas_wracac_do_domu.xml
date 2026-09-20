@@ -18,8 +18,8 @@
 		<block type="chorus">
 			<row important_over="true">Ch<ch a="C"/>yba już cz<ch a="G"/>as wr<ch a="a"/>acać do d<ch a="G"/>omu</row>
 			<row important_over="true"><ch a="C"/> W słońcu się ch<ch a="G"/>yli wierzb<ch a="a"/>iny l<ch a="G"/>iść</row>
-			<row important_over="false">Ch<ch a="C"/>yba już cz<ch a="G"/>as wr<ch a="a"/>acać do d<ch a="G"/>omu</row>
-			<row important_over="false"><ch a="C"/> W ciszy powr<ch a="G"/>otu tak <ch a="a"/>iść i <ch a="G"/>iść</row>
+			<row important_over="true">Ch<ch a="C"/>yba już cz<ch a="G"/>as wr<ch a="a"/>acać do d<ch a="G"/>omu</row>
+			<row important_over="true"><ch a="C"/> W ciszy powr<ch a="G"/>otu tak <ch a="a"/>iść i <ch a="G"/>iść</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="C"/> O zielonej mokrej ziemi</row>

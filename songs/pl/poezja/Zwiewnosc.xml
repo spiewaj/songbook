@@ -21,10 +21,10 @@
      </row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Brzęk muchy w pustym dzbanie, co stoi na półce</row>
-      <row important_over="false"><ch a="G"/>Smuga w oczach po znikłej za oknem jaskółce</row>
-      <row important_over="false"><ch a="F"/>Cień ręki — na murawie… A wszystko — niczyje,</row>
-      <row important_over="false"><ch a="E7"/>Ledwo się zazieleni — już ufa, że żyje.</row>
+      <row important_over="true"><ch a="a"/>Brzęk muchy w pustym dzbanie, co stoi na półce</row>
+      <row important_over="true"><ch a="G"/>Smuga w oczach po znikłej za oknem jaskółce</row>
+      <row important_over="true"><ch a="F"/>Cień ręki — na murawie… A wszystko — niczyje,</row>
+      <row important_over="true"><ch a="E7"/>Ledwo się zazieleni — już ufa, że żyje.</row>
     </block>
     <block type="verse">
       <bis>

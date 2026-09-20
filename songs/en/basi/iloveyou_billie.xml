@@ -13,7 +13,7 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="F"/>Maybe won&#039;t you take it back?</row>
-      <row important_over="true">Say you were tryna make me laugh</row>
+      <row important_over="never">Say you were tryna make me laugh</row>
       <row important_over="true">And <ch a="G"/>nothing has to change today</row>
       <row important_over="true">You didn&#039;t mean to say &quot;I love <ch a="a"/>you&quot;</row>
       <row important_over="true">I love <ch a="C"/>you and I don&#039;t want t<ch a="a"/>o, oo<ch a="e"/>h</row>
@@ -27,7 +27,7 @@
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="F"/>Maybe won&#039;t you take it back?</row>
-      <row important_over="true">Say you were tryna make me laugh</row>
+      <row important_over="never">Say you were tryna make me laugh</row>
       <row important_over="true">And <ch a="G"/>nothing has to change today</row>
       <row important_over="true">You didn&#039;t mean to say &quot;I love <ch a="a"/>you&quot;</row>
       <row important_over="true">I love <ch a="C"/>you and I don&#039;t want t<ch a="a"/>o, oo<ch a="e"/>h</row>
@@ -38,7 +38,7 @@
     </block>
     <block type="chorus">
       <row important_over="true">We<ch a="F"/> fall apart as it gets dark</row>
-      <row important_over="true">I&#039;m in your arms in Central Park</row>
+      <row important_over="never">I&#039;m in your arms in Central Park</row>
       <row important_over="true">There&#039;s <ch a="G"/>nothing you could do or say</row>
       <row important_over="true">I can&#039;t escape the way I love <ch a="a"/>you</row>
       <row important_over="true">I don&#039;t want <ch a="e"/>to, but I love y<ch a="a"/>ou, oo<ch a="e"/>h</row>

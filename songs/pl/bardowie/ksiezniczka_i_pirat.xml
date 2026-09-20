@@ -11,8 +11,8 @@
 		<block type="verse">
 			<row important_over="true">Pirat z s<ch a="a"/>oli i goryczy</row>
 			<row important_over="true">W sieci świ<ch a="F"/>ata się szam<ch a="a"/>o<ch a="E"/>cz<ch a="a"/>e.</row>
-			<row important_over="false">Gwiazdy drż<ch a="a"/>ą Księżniczce w oczach,</row>
-			<row important_over="false">W pustym z<ch a="F"/>amku sowa krz<ch a="a"/>y<ch a="E"/>cz<ch a="a"/>y.</row>
+			<row important_over="true">Gwiazdy drż<ch a="a"/>ą Księżniczce w oczach,</row>
+			<row important_over="true">W pustym z<ch a="F"/>amku sowa krz<ch a="a"/>y<ch a="E"/>cz<ch a="a"/>y.</row>
 			<row important_over="true">On zza m<ch a="C"/>órz przyzywa b<ch a="E0"/>urze,</row>
 			<row important_over="true">By mu szl<ch a="d"/>ak kreśliły w toni.</row>
 			<row important_over="true">Ona wd<ch a="G7"/>ycha z linii dłoni,</row>
@@ -72,10 +72,10 @@
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false"><ch a="E"/> Płyną fale przed si<ch a="a"/>ebie</row>
-				<row important_over="false"><ch a="E"/> I znikają w odd<ch a="a"/>ali.</row>
-				<row important_over="false"><ch a="A7"/> Nie pytajcie się f<ch a="d"/>ali</row>
-				<row important_over="false">O to, cz<ch a="a"/>ego nikt ni<ch a="a"/>e<ch a="E"/> wi<ch a="a"/>e.</row>
+				<row important_over="true"><ch a="E"/> Płyną fale przed si<ch a="a"/>ebie</row>
+				<row important_over="true"><ch a="E"/> I znikają w odd<ch a="a"/>ali.</row>
+				<row important_over="true"><ch a="A7"/> Nie pytajcie się f<ch a="d"/>ali</row>
+				<row important_over="true">O to, cz<ch a="a"/>ego nikt ni<ch a="a"/>e<ch a="E"/> wi<ch a="a"/>e.</row>
 			</bis>
 		</block>
 	</lyric>

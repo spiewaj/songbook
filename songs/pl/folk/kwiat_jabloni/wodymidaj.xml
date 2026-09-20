@@ -53,11 +53,11 @@
     <blocklink blocknb="5"/>
     <blocklink blocknb="5"/>
     <block type="other">
-      <row important_over="false"><ch a="d"/>Wody mi daj, wody mi daj</row>
-      <row important_over="false"><ch a="d"/>Wody mi daj, wody mi daj</row>
-      <row important_over="false"><ch a="F"/>Wody mi daj, wody mi daj</row>
+      <row important_over="true"><ch a="d"/>Wody mi daj, wody mi daj</row>
+      <row important_over="true"><ch a="d"/>Wody mi daj, wody mi daj</row>
+      <row important_over="true"><ch a="F"/>Wody mi daj, wody mi daj</row>
       <bis times="5">
-        <row important_over="false"><ch a="g"/>Wody mi daj, wody mi daj</row>
+        <row important_over="true"><ch a="g"/>Wody mi daj, wody mi daj</row>
       </bis>
     </block>
     <blocklink blocknb="5"/>

@@ -9,10 +9,10 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Pijany poeta ma za złe że klaszczą<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Że patrzą na niego ciekawie<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Że każdy mu nietakt łaskawie wybaczą<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Poeta wszak wariat jest prawie<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Pijany poeta ma za złe że klaszczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Że patrzą na niego ciekawie<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Że każdy mu nietakt łaskawie wybaczą<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Poeta wszak wariat jest prawie<ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Nie chodzi po ziemi współżyje z duchami<ch a="C"/><ch a="G"/></row>
@@ -21,10 +21,10 @@
       <row important_over="false"><ch a="D"/>Alkohol nie szkodzi poecie<ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Kochają go bardzo drwiąc z rąk jego drżenia<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Ta drwina współczucia ma nazwę<ch a="G"/></row>
-      <row important_over="false"><ch a="G"/>Ugoszczą przytulą ukoją cierpienia<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>A on mimo wszystko ma za złe<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Kochają go bardzo drwiąc z rąk jego drżenia<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Ta drwina współczucia ma nazwę<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Ugoszczą przytulą ukoją cierpienia<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>A on mimo wszystko ma za złe<ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Do łez się zamartwiają że znów nic nie jadł<ch a="C"/><ch a="G"/></row>

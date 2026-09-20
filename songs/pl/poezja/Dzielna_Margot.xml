@@ -34,41 +34,41 @@
 			<row important_over="true">By po <ch a="B"/>pa pa pa pa pa pa</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A"/>Nauczyciel lekcje porzucił</row>
-			<row important_over="false"><ch a="A7"/>Kowal podkowy pole kmieć<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>I pognali prędko na skróty<ch a="fis"/></row>
-			<row important_over="false"><ch a="E"/>Na tę wieść<ch a="A"/></row>
-			<row important_over="false"><ch a="A"/>Nasz listonosz taki uczciwy</row>
-			<row important_over="false"><ch a="A7"/>Na tę wieść listy ciepnął w mig<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>Których czytać i tak w tej chwili<ch a="E"/></row>
-			<row important_over="false"><ch a="A"/>Nie chciał nikt<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>Na tę wieść zaufawszy Bogu<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Że im odpuści grzeszną myśl<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Ministranci w lot dali nogę<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>W środku mszy<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Nawet gliniarz postrach ludności<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Tak z natury tępy jak słup<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Staną opodal oszołomiony<ch a="Fis"/></row>
-			<row important_over="false"><ch a="E"/>Sceną jak ze snu<ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Nauczyciel lekcje porzucił</row>
+			<row important_over="true"><ch a="A7"/>Kowal podkowy pole kmieć<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>I pognali prędko na skróty<ch a="fis"/></row>
+			<row important_over="true"><ch a="E"/>Na tę wieść<ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Nasz listonosz taki uczciwy</row>
+			<row important_over="true"><ch a="A7"/>Na tę wieść listy ciepnął w mig<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>Których czytać i tak w tej chwili<ch a="E"/></row>
+			<row important_over="true"><ch a="A"/>Nie chciał nikt<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>Na tę wieść zaufawszy Bogu<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Że im odpuści grzeszną myśl<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Ministranci w lot dali nogę<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>W środku mszy<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Nawet gliniarz postrach ludności<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Tak z natury tępy jak słup<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Staną opodal oszołomiony<ch a="Fis"/></row>
+			<row important_over="true"><ch a="E"/>Sceną jak ze snu<ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="A"/>Ale w pozostałych niewiastach</row>
-			<row important_over="false"><ch a="A7"/>Wszak każdej zwiał i gach i mąż<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>Powolutku jęła narastać<ch a="fis"/></row>
-			<row important_over="false"><ch a="E"/>Dzika złość<ch a="A"/></row>
-			<row important_over="false"><ch a="A"/>Wreszcie przyszedł we wsi dzień gniewu</row>
-			<row important_over="false"><ch a="A7"/>Każda chwyciła tęgi kij<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>I zatłukł biedne maleństwo<ch a="E"/></row>
-			<row important_over="false"><ch a="A"/>Z żądzy krwi<ch a="D"/></row>
-			<row important_over="false"><ch a="h"/>A Margot po roku lamentów<ch a="F"/></row>
-			<row important_over="false"><ch a="h"/>By się pocieszyć wzięła ślub<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>I już tylko się mąż z jej wdzięków<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Cieszyć mógł<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Z czasem o tym pozapominano<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Oprócz starców już mało kto<ch a="Fis"/></row>
-			<row important_over="false"><ch a="h"/>Mówi dzieciom dziś na dobranoc<ch a="Fis"/></row>
-			<row important_over="false"><ch a="E"/>O dzielnej Margot<ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Ale w pozostałych niewiastach</row>
+			<row important_over="true"><ch a="A7"/>Wszak każdej zwiał i gach i mąż<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>Powolutku jęła narastać<ch a="fis"/></row>
+			<row important_over="true"><ch a="E"/>Dzika złość<ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Wreszcie przyszedł we wsi dzień gniewu</row>
+			<row important_over="true"><ch a="A7"/>Każda chwyciła tęgi kij<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>I zatłukł biedne maleństwo<ch a="E"/></row>
+			<row important_over="true"><ch a="A"/>Z żądzy krwi<ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>A Margot po roku lamentów<ch a="F"/></row>
+			<row important_over="true"><ch a="h"/>By się pocieszyć wzięła ślub<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>I już tylko się mąż z jej wdzięków<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Cieszyć mógł<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Z czasem o tym pozapominano<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Oprócz starców już mało kto<ch a="Fis"/></row>
+			<row important_over="true"><ch a="h"/>Mówi dzieciom dziś na dobranoc<ch a="Fis"/></row>
+			<row important_over="true"><ch a="E"/>O dzielnej Margot<ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

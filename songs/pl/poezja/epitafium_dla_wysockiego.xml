@@ -72,14 +72,14 @@
       <row important_over="false">Tutaj ż<ch a="a"/>aden nas nie zdzi<ch a="C"/>esiątk<ch a="H"/>uje gr<ch a="e"/>om!</row>
     </block>
     <block type="verse">
-      <row important_over="false">- Pani b<ch a="e"/>agien, mokradeł i śni<ch a="a"/>eżnych pól,</row>
-      <row important_over="false">Rozpal w ł<ch a="H"/>aźni kamienie na bi<ch a="e"/>el!</row>
-      <row important_over="false">Z ciał rozgrz<ch a="e"/>anych niech się wyt<ch a="a"/>opi ból</row>
-      <row important_over="false">Tatu<ch a="H"/>aże weźmiemy na c<ch a="e"/>el!</row>
-      <row important_over="false">Bo na s<ch a="e"/>ercu, po lewej, tam St<ch a="a"/>alin drży,</row>
-      <row important_over="false">Pot zal<ch a="H"/>ewa mu oczy i w<ch a="e"/>ąs!</row>
-      <row important_over="false">Jego pr<ch a="e"/>ofil specjalnie tam kł<ch a="a"/>uli my</row>
-      <row important_over="false">Żeby sł<ch a="H"/>yszał jak serca się rw<ch a="e"/>ą!</row>
+      <row important_over="true">- Pani b<ch a="e"/>agien, mokradeł i śni<ch a="a"/>eżnych pól,</row>
+      <row important_over="true">Rozpal w ł<ch a="H"/>aźni kamienie na bi<ch a="e"/>el!</row>
+      <row important_over="true">Z ciał rozgrz<ch a="e"/>anych niech się wyt<ch a="a"/>opi ból</row>
+      <row important_over="true">Tatu<ch a="H"/>aże weźmiemy na c<ch a="e"/>el!</row>
+      <row important_over="true">Bo na s<ch a="e"/>ercu, po lewej, tam St<ch a="a"/>alin drży,</row>
+      <row important_over="true">Pot zal<ch a="H"/>ewa mu oczy i w<ch a="e"/>ąs!</row>
+      <row important_over="true">Jego pr<ch a="e"/>ofil specjalnie tam kł<ch a="a"/>uli my</row>
+      <row important_over="true">Żeby sł<ch a="H"/>yszał jak serca się rw<ch a="e"/>ą!</row>
     </block>
     <block type="chorus">
       <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
@@ -118,12 +118,12 @@
       <row important_over="false">Gwi<ch a="a"/>azd<ch a="C"/>ę m<ch a="H"/>a!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Na m<ch a="a"/>ecze! Na mecze! Na wi<ch a="e"/>ece!</row>
-      <row important_over="false">Swoje zn<ch a="a"/>ać, nie rzucać w <ch a="C"/>oczy się bezpi<ch a="G"/>ece!</row>
-      <row important_over="false">Sąsiad - <ch a="a"/>owszem, wypić m<ch a="e"/>ożna</row>
-      <row important_over="false">Lecz to s<ch a="H"/>ąsiad, brat - to br<ch a="a"/>at.</row>
-      <row important_over="false">Jak świat świ<ch a="C"/>atem do ostrożnych</row>
-      <row important_over="false">Zwykł nal<ch a="a"/>eżeć i uśmi<ch a="C"/>echać s<ch a="H"/>ię ten świ<ch a="e"/>at!</row>
+      <row important_over="true">Na m<ch a="a"/>ecze! Na mecze! Na wi<ch a="e"/>ece!</row>
+      <row important_over="true">Swoje zn<ch a="a"/>ać, nie rzucać w <ch a="C"/>oczy się bezpi<ch a="G"/>ece!</row>
+      <row important_over="true">Sąsiad - <ch a="a"/>owszem, wypić m<ch a="e"/>ożna</row>
+      <row important_over="true">Lecz to s<ch a="H"/>ąsiad, brat - to br<ch a="a"/>at.</row>
+      <row important_over="true">Jak świat świ<ch a="C"/>atem do ostrożnych</row>
+      <row important_over="true">Zwykł nal<ch a="a"/>eżeć i uśmi<ch a="C"/>echać s<ch a="H"/>ię ten świ<ch a="e"/>at!</row>
     </block>
     <block type="chorus">
       <row important_over="false">T<ch a="e"/>o moja droga z piekła do piekła</row>
@@ -202,10 +202,10 @@
       <row important_over="false">Ósmy kr<ch a="H"/>ąg, w którym nie ma już n<ch a="e"/>ic.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Pamięt<ch a="e"/>ajcie wy o mnie co s<ch a="a"/>ił! Co sił!</row>
-      <row important_over="false">Choć przemkn<ch a="H"/>ąłem przed wami jak ci<ch a="e"/>eń!</row>
-      <row important_over="false">Palcie w ł<ch a="e"/>aźni, aż kamień się zmi<ch a="a"/>eni w pył</row>
-      <row important_over="false">Przecież wr<ch a="H"/>ócę, gdy zacznie się dzi<ch a="e"/>eń!</row>
+      <row important_over="true">Pamięt<ch a="e"/>ajcie wy o mnie co s<ch a="a"/>ił! Co sił!</row>
+      <row important_over="true">Choć przemkn<ch a="H"/>ąłem przed wami jak ci<ch a="e"/>eń!</row>
+      <row important_over="true">Palcie w ł<ch a="e"/>aźni, aż kamień się zmi<ch a="a"/>eni w pył</row>
+      <row important_over="true">Przecież wr<ch a="H"/>ócę, gdy zacznie się dzi<ch a="e"/>eń!</row>
     </block>
   </lyric>
   <music>

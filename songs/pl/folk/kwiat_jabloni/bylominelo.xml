@@ -18,9 +18,9 @@
       <row important_over="false" style="instr"> <ch a="e"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Mimo <ch a="a"/>tylu wraż<ch a="G"/>eń i <ch a="D"/>wielkich marzeń</row>
-      <row important_over="false"><ch a="e"/>Mogę <ch a="a"/>wiele z siebie <ch a="G"/>dać</row>
-      <row important_over="false">By <ch a="h"/>odejść znów</row>
+      <row important_over="true"><ch a="e"/>Mimo <ch a="a"/>tylu wraż<ch a="G"/>eń i <ch a="D"/>wielkich marzeń</row>
+      <row important_over="true"><ch a="e"/>Mogę <ch a="a"/>wiele z siebie <ch a="G"/>dać</row>
+      <row important_over="true">By <ch a="h"/>odejść znów</row>
       <row important_over="false" style="instr"> <ch a="e"/><ch a="a"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="chorus">
@@ -46,8 +46,8 @@
     <blocklink blocknb="1"/>
     <blocklink blocknb="1"/>
     <block type="other">
-      <row important_over="false"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="D"/> </row>
-      <row important_over="false"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="G"/> </row>
+      <row important_over="true"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="D"/> </row>
+      <row important_over="true"><ch a="a"/>Będzie łatwiej, <ch a="C"/>wiem  <ch a="e"/>  <ch a="G"/> </row>
     </block>
   </lyric>
   <keywords/>

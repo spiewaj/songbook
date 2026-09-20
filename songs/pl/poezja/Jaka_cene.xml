@@ -9,17 +9,17 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="h"/>Ilu ludzi nasz świat uniesie</row>
-      <row important_over="false"><ch a="A"/>Aby wciąż jeszcze mógł się kręcić</row>
-      <row important_over="false"><ch a="cis"/>Ilu trzeba dzisiaj poetów</row>
-      <row important_over="false"><ch a="fis"/>By choć wiersz pozostał w pamięci</row>
-      <row important_over="false"><ch a="a"/>Jak nazwać co jeszcze nie nazwane</row>
-      <row important_over="false"><ch a="G"/>I co jeszcze może czekać na człowieka</row>
-      <row important_over="false"><ch a="h"/>Jaką tajemnicę dźwiga każdy kamień</row>
-      <row important_over="false"><ch a="A"/>Że nie wie o niej nawet rzeka<ch a="A7"/></row>
+      <row important_over="true"><ch a="h"/>Ilu ludzi nasz świat uniesie</row>
+      <row important_over="true"><ch a="A"/>Aby wciąż jeszcze mógł się kręcić</row>
+      <row important_over="true"><ch a="cis"/>Ilu trzeba dzisiaj poetów</row>
+      <row important_over="true"><ch a="fis"/>By choć wiersz pozostał w pamięci</row>
+      <row important_over="true"><ch a="a"/>Jak nazwać co jeszcze nie nazwane</row>
+      <row important_over="true"><ch a="G"/>I co jeszcze może czekać na człowieka</row>
+      <row important_over="true"><ch a="h"/>Jaką tajemnicę dźwiga każdy kamień</row>
+      <row important_over="true"><ch a="A"/>Że nie wie o niej nawet rzeka<ch a="A7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="h"/>Tamdamdaradaj…<ch a="A"/><ch a="G"/><ch a="Fis"/><ch a="G"/><ch a="Fis"/></row>
+      <row important_over="true"><ch a="h"/>Tamdamdaradaj…<ch a="A"/><ch a="G"/><ch a="Fis"/><ch a="G"/><ch a="Fis"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="h"/>Czy poto tutaj tylko jesteśmy</row>

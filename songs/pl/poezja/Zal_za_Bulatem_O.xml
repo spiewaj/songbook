@@ -9,21 +9,21 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false"><ch a="g"/><ch a="d"/><ch a="A"/><ch a="d"/></row>
+			<row important_over="true"><ch a="g"/><ch a="d"/><ch a="A"/><ch a="d"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Zawsze śpi<ch a="d"/>ewał po c<ch a="A"/>ichu bez zł<ch a="d"/>ości</row>
 			<row important_over="true">chociaż cz<ch a="D7"/>asy leciutkie nie b<ch a="g"/>yły</row>
 			<row important_over="true">bo w ball<ch a="g"/>adzie im więcej mił<ch a="d"/>ości więcej s<ch a="A"/>ił<ch a="d"/>y</row>
-			<row important_over="false">Zawsze śpi<ch a="d"/>ewał po c<ch a="A"/>ichu bez zł<ch a="d"/>ości</row>
-			<row important_over="false">chociaż st<ch a="D7"/>atek już walił o dn<ch a="g"/>o</row>
-			<row important_over="false">i dlat<ch a="g"/>ego na zawsze zag<ch a="d"/>ościł w moim d<ch a="A"/>omu Pan Bułat <ch a="D"/>0.</row>
+			<row important_over="true">Zawsze śpi<ch a="d"/>ewał po c<ch a="A"/>ichu bez zł<ch a="d"/>ości</row>
+			<row important_over="true">chociaż st<ch a="D7"/>atek już walił o dn<ch a="g"/>o</row>
+			<row important_over="true">i dlat<ch a="g"/>ego na zawsze zag<ch a="d"/>ościł w moim d<ch a="A"/>omu Pan Bułat <ch a="D"/>0.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">To jest ż<ch a="D"/>al za Panem Bułatem czyli żal za minioną młod<ch a="A"/>ością</row>
-			<row important_over="false">kiedy j<ch a="e"/>ego marzenia skrzydlate pozwal<ch a="A"/>ały się łudzić woln<ch a="D"/>ością</row>
-			<row important_over="false">To jest ż<ch a="D"/>al za Buł<ch a="G"/>atem <ch a="D"/>0., pierwszą wódką i pierwszą kobi<ch a="A"/>etą</row>
-			<row important_over="false">kiedy z tr<ch a="e"/>udem do przodu się szło ale cz<ch a="A"/>asem wierzono po<ch a="D"/>etom</row>
+			<row important_over="true">To jest ż<ch a="D"/>al za Panem Bułatem czyli żal za minioną młod<ch a="A"/>ością</row>
+			<row important_over="true">kiedy j<ch a="e"/>ego marzenia skrzydlate pozwal<ch a="A"/>ały się łudzić woln<ch a="D"/>ością</row>
+			<row important_over="true">To jest ż<ch a="D"/>al za Buł<ch a="G"/>atem <ch a="D"/>0., pierwszą wódką i pierwszą kobi<ch a="A"/>etą</row>
+			<row important_over="true">kiedy z tr<ch a="e"/>udem do przodu się szło ale cz<ch a="A"/>asem wierzono po<ch a="D"/>etom</row>
 		</block>
 		<blocklink blocknb="1"/>
 		<block type="verse">
@@ -36,8 +36,8 @@
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="chorus">
-			<row important_over="false">To jest ż<ch a="D"/>al za Buł<ch a="G"/>atem <ch a="D"/>0. pierwszą wódką i pierwszą kobi<ch a="A"/>etą</row>
-			<row important_over="false">kiedy z tr<ch a="e"/>udem do przodu się szło ale cz<ch a="A"/>asem wierzono po<ch a="D"/>etom</row>
+			<row important_over="true">To jest ż<ch a="D"/>al za Buł<ch a="G"/>atem <ch a="D"/>0. pierwszą wódką i pierwszą kobi<ch a="A"/>etą</row>
+			<row important_over="true">kiedy z tr<ch a="e"/>udem do przodu się szło ale cz<ch a="A"/>asem wierzono po<ch a="D"/>etom</row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>

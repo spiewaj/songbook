@@ -11,13 +11,13 @@
 		<block type="verse">
 			<row important_over="true">Przez <ch a="D"/> afrykański busz nie przejdziesz ani rusz</row>
 			<row important_over="true">I n<ch a="A7"/>ikt nie przedrze się bez n<ch a="D"/>oża</row>
-			<row important_over="false">Jest t<ch a="D"/>ylko jeden mąż, co piersią pruje gąszcz</row>
-			<row important_over="false">To n<ch a="A7"/>oso, noso, noso, nosor<ch a="D"/>ożec.</row>
+			<row important_over="true">Jest t<ch a="D"/>ylko jeden mąż, co piersią pruje gąszcz</row>
+			<row important_over="true">To n<ch a="A7"/>oso, noso, noso, nosor<ch a="D"/>ożec.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">Tr<ch a="D"/>opiki, tropiki, tropiki,</row>
-				<row important_over="false">
+				<row important_over="true">Tr<ch a="D"/>opiki, tropiki, tropiki,</row>
+				<row important_over="true">
 					<ch a="A7"/>Ach upalny jest wasz urok dz<ch a="D"/>iki, dziki, aha ha ha ha</row>
 			</bis>
 		</block>

@@ -34,12 +34,12 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Nie każcie mi już dłużej czekać</row>
-      <row important_over="false">Nie serce wciąż płonie myślami człowieka</row>
-      <row important_over="false">Wy aniołowie nieba</row>
-      <row important_over="false">Pokażcie mi mapy ludzkich drogowskazów</row>
-      <row important_over="false">Pokażcie cel za złudzeń kurtyną</row>
-      <row important_over="false">Niech wiarę da jego cień</row>
+      <row important_over="never">Nie każcie mi już dłużej czekać</row>
+      <row important_over="never">Nie serce wciąż płonie myślami człowieka</row>
+      <row important_over="never">Wy aniołowie nieba</row>
+      <row important_over="never">Pokażcie mi mapy ludzkich drogowskazów</row>
+      <row important_over="never">Pokażcie cel za złudzeń kurtyną</row>
+      <row important_over="never">Niech wiarę da jego cień</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

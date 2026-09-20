@@ -11,7 +11,7 @@ Utwór powstał w 1927 roku. W roku 1933 autor złożył go w formie życzeń na
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row style="instr"><ch a="a"/><ch a="d2"/><ch a="a"/><ch a="d2"/></row>
+			<row important_over="false" style="instr"><ch a="a"/><ch a="d2"/><ch a="a"/><ch a="d2"/></row>
 			<row important_over="true">D<ch a="a"/>ezyder<ch a="d2"/>ata, d<ch a="a"/>ezyder<ch a="d2"/>ata…</row>
 			<row important_over="true">Prz<ch a="C"/>echodź spokojnie przez h<ch a="G"/>ałas i pośpiech</row>
 			<row important_over="true">i pami<ch a="d"/>ętaj, jaki spokój można zn<ch a="h0"/>aleźć w ciszy.</row>
@@ -29,22 +29,22 @@ Utwór powstał w 1927 roku. W roku 1933 autor złożył go w formie życzeń na
 				<ch a="F"/>oni też m<ch a="d"/>ają op<ch a="E"/>owieść.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="a"/>Unikaj gł<ch a="d2"/>ośnych i n<ch a="a"/>apastl<ch a="d2"/>iwych,</row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="a"/>unikaj gł<ch a="d2"/>ośnych są udr<ch a="a"/>ęką ducha.</row>
-			<row important_over="false">Niech tw<ch a="C"/>oje osiągnięcia zar<ch a="G"/>ówno jak plany</row>
-			<row important_over="false">b<ch a="d"/>ędą dla Ciebie źr<ch a="h0"/>ódłem radości.</row>
-			<row important_over="false">B<ch a="h0"/>ądź ostrożny w interesach, bądź ostrożny w interesach,</row>
-			<row important_over="false">na świ<ch a="h0"/>ecie bowiem p<ch a="C"/>ełno osz<ch a="E"/>ustwa.</row>
-			<row important_over="false">B<ch a="a"/>ądź sobą, zwł<ch a="d"/>aszcza</row>
-			<row important_over="false">nie ud<ch a="G"/>awaj ucz<ch a="C"/>ucia.</row>
-			<row important_over="false">
+			<row important_over="true">Niech tw<ch a="C"/>oje osiągnięcia zar<ch a="G"/>ówno jak plany</row>
+			<row important_over="true">b<ch a="d"/>ędą dla Ciebie źr<ch a="h0"/>ódłem radości.</row>
+			<row important_over="true">B<ch a="h0"/>ądź ostrożny w interesach, bądź ostrożny w interesach,</row>
+			<row important_over="true">na świ<ch a="h0"/>ecie bowiem p<ch a="C"/>ełno osz<ch a="E"/>ustwa.</row>
+			<row important_over="true">B<ch a="a"/>ądź sobą, zwł<ch a="d"/>aszcza</row>
+			<row important_over="true">nie ud<ch a="G"/>awaj ucz<ch a="C"/>ucia.</row>
+			<row important_over="true">
 				<ch a="F"/>Ani też nie p<ch a="d"/>odchodź</row>
-			<row important_over="false">cyn<ch a="E"/>icznie do mił<ch a="a"/>ości,</row>
-			<row important_over="false">b<ch a="a"/>o <ch a="d"/>ona jest</row>
-			<row important_over="false">wi<ch a="G"/>eczna jak tr<ch a="C"/>awa,</row>
-			<row important_over="false">b<ch a="F"/>o <ch a="d"/>ona jest wi<ch a="E"/>eczna.</row>
+			<row important_over="true">cyn<ch a="E"/>icznie do mił<ch a="a"/>ości,</row>
+			<row important_over="true">b<ch a="a"/>o <ch a="d"/>ona jest</row>
+			<row important_over="true">wi<ch a="G"/>eczna jak tr<ch a="C"/>awa,</row>
+			<row important_over="true">b<ch a="F"/>o <ch a="d"/>ona jest wi<ch a="E"/>eczna.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Un<ch a="a"/>ikaj gł<ch a="d2"/>ośnych i n<ch a="a"/>apastl<ch a="d2"/>iwych,</row>
@@ -64,9 +64,9 @@ Utwór powstał w 1927 roku. W roku 1933 autor złożył go w formie życzeń na
 			<row important_over="false">sp<ch a="F"/>okój z<ch a="d"/>e swą d<ch a="E"/>uszą.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Prz<ch a="a"/>y całej sw<ch a="d"/>ej złudności,</row>
-			<row important_over="false">zn<ch a="G"/>oju i rozwi<ch a="C"/>anych marzeniach</row>
-			<row important_over="false">j<ch a="F"/>est to piękny świ<ch a="d"/>at, j<ch a="E"/>est to piękny świat.</row>
+			<row important_over="true">Prz<ch a="a"/>y całej sw<ch a="d"/>ej złudności,</row>
+			<row important_over="true">zn<ch a="G"/>oju i rozwi<ch a="C"/>anych marzeniach</row>
+			<row important_over="true">j<ch a="F"/>est to piękny świ<ch a="d"/>at, j<ch a="E"/>est to piękny świat.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Zn<ch a="a"/>alezione w st<ch a="d"/>arym kościele</row>
@@ -80,7 +80,7 @@ Utwór powstał w 1927 roku. W roku 1933 autor złożył go w formie życzeń na
 				<row important_over="false">j<ch a="F"/>est to piękny świ<ch a="d"/>at, j<ch a="E"/>est to piękny świat.</row>
 			</bis>
 			<bis times="5">
-				<row style="instr"><ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/><ch a="F"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
 			</bis>
 		</block>
 	</lyric>

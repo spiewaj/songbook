@@ -24,10 +24,10 @@
 			<row important_over="true"><ch a="F"/> Płynął rzeką ciemną sz<ch a="C"/>edł doliną</row>
 			<row important_over="true"><ch a="C"/> Miły mój l<ch a="d"/>edwie dotknął mnie</row>
 			<row important_over="true"><ch a="F"/> Z jego palców błysnął dzi<ch a="G"/>eń</row>
-			<row important_over="false"><ch a="C"/> Miła ma w d<ch a="d"/>eszczu do mnie szła</row>
-			<row important_over="false"><ch a="F"/> Po promieniu słońca pr<ch a="C"/>ędko biegła</row>
-			<row important_over="false"><ch a="C"/> Miła ma n<ch a="d"/>a krosienkach dnia</row>
-			<row important_over="false"><ch a="F"/> Tka już nocy zwiewny sz<ch a="C"/>al</row>
+			<row important_over="true"><ch a="C"/> Miła ma w d<ch a="d"/>eszczu do mnie szła</row>
+			<row important_over="true"><ch a="F"/> Po promieniu słońca pr<ch a="C"/>ędko biegła</row>
+			<row important_over="true"><ch a="C"/> Miła ma n<ch a="d"/>a krosienkach dnia</row>
+			<row important_over="true"><ch a="F"/> Tka już nocy zwiewny sz<ch a="C"/>al</row>
 		</block>
 		<block type="other">
 			<row important_over="false" style="instr">
@@ -53,7 +53,7 @@
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>La la la…<ch a="d"/></row>
 		</block>
 		<block type="other">

@@ -29,24 +29,24 @@
 				<ch a="F"/>I może w<ch a="C"/>tedy zmie<ch a="d"/>nisz swoje <ch a="G"/>zdanie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Czy pamiętasz kobietę, która błąka się po mieście,</row>
-			<row important_over="false">W jej pięknej niegdyś sukni nie zliczyłbyś dziś łat,</row>
-			<row important_over="false">Już nic nie mówi, wzrok ją niesie przed siebie,</row>
-			<row important_over="false">W dwóch starych torbach cały dom swój ma.</row>
+			<row important_over="never">Czy pamiętasz kobietę, która błąka się po mieście,</row>
+			<row important_over="never">W jej pięknej niegdyś sukni nie zliczyłbyś dziś łat,</row>
+			<row important_over="never">Już nic nie mówi, wzrok ją niesie przed siebie,</row>
+			<row important_over="never">W dwóch starych torbach cały dom swój ma.</row>
 		</block>
 		<blocklink blocknb="2"></blocklink>
 		<block type="verse">
-			<row important_over="false">Czy pamiętasz starego pijaka z dzielnicy slumsów,</row>
-			<row important_over="false">Jestcieniem swego życia, ulica to jego dom,</row>
-			<row important_over="false">Ciepłem darmowej zupy ogrzał dłonie swe.</row>
-			<row important_over="false">Pomyśl, jeśli umrze dziś, czy ktoś uroni łzę?</row>
+			<row important_over="never">Czy pamiętasz starego pijaka z dzielnicy slumsów,</row>
+			<row important_over="never">Jestcieniem swego życia, ulica to jego dom,</row>
+			<row important_over="never">Ciepłem darmowej zupy ogrzał dłonie swe.</row>
+			<row important_over="never">Pomyśl, jeśli umrze dziś, czy ktoś uroni łzę?</row>
 		</block>
 		<blocklink blocknb="2"></blocklink>
 		<block type="verse">
-			<row important_over="false">Przed przytułkiem dla biednych żołnierzy stary człowiek siadł,</row>
-			<row important_over="false">Blask jego medali czas już dawno skradł</row>
-			<row important_over="false">I tylko o litość prosi w swej pieśni zimowy wiatr</row>
-			<row important_over="false">Dla bohaterów, o których zapomniał bezduszny świat.</row>
+			<row important_over="never">Przed przytułkiem dla biednych żołnierzy stary człowiek siadł,</row>
+			<row important_over="never">Blask jego medali czas już dawno skradł</row>
+			<row important_over="never">I tylko o litość prosi w swej pieśni zimowy wiatr</row>
+			<row important_over="never">Dla bohaterów, o których zapomniał bezduszny świat.</row>
 		</block>
 		<blocklink blocknb="2"></blocklink>
 	</lyric>

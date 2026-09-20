@@ -9,19 +9,19 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Na prerię szary spływa mrok</row>
-      <row important_over="false"><ch a="G"/>Po stepie wieje wiatr</row>
-      <row important_over="false"><ch a="e"/>Rozsiodłał konia stary cowboy</row>
-      <row important_over="false"><ch a="G"/>Przy ognisku siadł</row>
-      <row important_over="false"><ch a="e"/>Gdy płomień resztką sił się tlił</row>
-      <row important_over="false"><ch a="e"/>Dorzucił jeszcze parę drew</row>
-      <row important_over="false"><ch a="C"/>Wieczorne mgły niosą jego śpiew<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Na prerię szary spływa mrok</row>
+      <row important_over="true"><ch a="G"/>Po stepie wieje wiatr</row>
+      <row important_over="true"><ch a="e"/>Rozsiodłał konia stary cowboy</row>
+      <row important_over="true"><ch a="G"/>Przy ognisku siadł</row>
+      <row important_over="true"><ch a="e"/>Gdy płomień resztką sił się tlił</row>
+      <row important_over="true"><ch a="e"/>Dorzucił jeszcze parę drew</row>
+      <row important_over="true"><ch a="C"/>Wieczorne mgły niosą jego śpiew<ch a="e"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="e"/>Co mi tam wiatr, co mi tam chłód<ch a="G"/><ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
-      <row important_over="false"><ch a="G"/>Był colt, lasso i bat<ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Co mi tam wiatr, co mi tam chłód<ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
+      <row important_over="true"><ch a="G"/>Był colt, lasso i bat<ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Pamiętasz stary koniu</row>

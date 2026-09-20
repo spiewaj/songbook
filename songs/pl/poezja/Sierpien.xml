@@ -12,16 +12,16 @@ Wiersz Gałczyńskiego nosi tytuł ,,O sierpniu'', zaś piosenka Wierzbickiego j
 		<block type="verse">
 			<row important_over="true"><ch a="G"/> Stanęły pod mym <ch a="D"/>oknem jak wi<ch a="H7"/>ejscy muzyk<ch a="e"/>anci</row>
 			<row important_over="true">Gwi<ch a="C"/>azdy zielon<ch a="G"/>ooki si<ch a="D"/>erpień po sadzie tańczył</row>
-			<row important_over="false"><ch a="G"/> Księżycem całow<ch a="D"/>any s<ch a="H7"/>ad się rozrz<ch a="e"/>ewnił</row>
-			<row important_over="false">L<ch a="C"/>ekki i cyg<ch a="G"/>ański był t<ch a="D"/>aniec sierpnia</row>
+			<row important_over="true"><ch a="G"/> Księżycem całow<ch a="D"/>any s<ch a="H7"/>ad się rozrz<ch a="e"/>ewnił</row>
+			<row important_over="true">L<ch a="C"/>ekki i cyg<ch a="G"/>ański był t<ch a="D"/>aniec sierpnia</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true">Łz<ch a="G"/>y co nam z oczu zl<ch a="D"/>ecą</row>
 				<row important_over="true">Zi<ch a="H7"/>emi o nas powi<ch a="e"/>edzą</row>
 				<row important_over="true">Chodźmy w dr<ch a="C"/>ogę łzy w dr<ch a="G"/>odze ob<ch a="D"/>eschną</row>
-				<row important_over="false">Łz<ch a="G"/>y nie przynoszą <ch a="D"/>ujmy</row>
-				<row important_over="false">A m<ch a="H7"/>y w tę noc wędr<ch a="e"/>ujmy</row>
+				<row important_over="true">Łz<ch a="G"/>y nie przynoszą <ch a="D"/>ujmy</row>
+				<row important_over="true">A m<ch a="H7"/>y w tę noc wędr<ch a="e"/>ujmy</row>
 				<row important_over="true">Roziskrz<ch a="C"/>oną rozśpi<ch a="D"/>ewaną bezkr<ch a="C"/>e<ch a="D"/>sn<ch a="G"/>ą</row>
 			</bis>
 		</block>

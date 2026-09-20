@@ -31,7 +31,7 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="other">
-      <row important_over="false"/>
+      <row important_over="never"/>
       <bis times="4">
         <row important_over="false" style="instr"> <ch a="G"/><ch a="a"/><ch a="F"/></row>
       </bis>

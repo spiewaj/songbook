@@ -3,22 +3,22 @@
   <artist>Zbigniew Wodecki</artist>
   <lyric>
     <block type="verse">
-      <row>Jest gdzieś lecz nie wiadomo gdzie,<ch a="C"/><ch a="G"/></row>
-      <row>świat w którym baśń ta dzieje się.<ch a="F"/><ch a="C"/></row>
-      <row>Malutka pszczółka mieszka w nim,<ch a="G"/></row>
-      <row>Co wśród owadów wiedze prym<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Jest gdzieś lecz nie wiadomo gdzie,<ch a="C"/><ch a="G"/></row>
+      <row important_over="never">świat w którym baśń ta dzieje się.<ch a="F"/><ch a="C"/></row>
+      <row important_over="never">Malutka pszczółka mieszka w nim,<ch a="G"/></row>
+      <row important_over="never">Co wśród owadów wiedze prym<ch a="F"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row>Tę pszczółkę, którą tu widzicie zowią Mają.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
-      <row>Wszyscy Maja znają i kochają<ch a="G"/><ch a="C"/></row>
-      <row>Maja fruwa tu i tam<ch a="d"/></row>
-      <row>Świat swój pokazując nam<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Tę pszczółkę, którą tu widzicie zowią Mają.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Wszyscy Maja znają i kochają<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Maja fruwa tu i tam<ch a="d"/></row>
+      <row important_over="never">Świat swój pokazując nam<ch a="G"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row>Dziś spotka nas maleńka zwinna, pszczółka Maja<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
-      <row>Śmiała, sprytna, rezolutna Maja<ch a="G"/><ch a="C"/></row>
-      <row>Mała zwinna przyjaciółka Maja<ch a="d"/></row>
-      <row>Maju, cóż zobaczymy dziś.<ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Dziś spotka nas maleńka zwinna, pszczółka Maja<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="never">Śmiała, sprytna, rezolutna Maja<ch a="G"/><ch a="C"/></row>
+      <row important_over="never">Mała zwinna przyjaciółka Maja<ch a="d"/></row>
+      <row important_over="never">Maju, cóż zobaczymy dziś.<ch a="C"/><ch a="G"/><ch a="C"/></row>
     </block>
   </lyric>
 </song>

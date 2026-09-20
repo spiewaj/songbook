@@ -12,10 +12,10 @@
       <row important_over="true">Wszystko w rę<ch a="G"/>ce chciałaby brać<ch a="D"/>.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Diabeł du<ch a="D"/>żo jej daje w podar<ch a="e"/>ku</row>
-      <row important_over="false">Gwiazd fałsz<ch a="G"/>ywych z gwiezdnego jarma<ch a="D"/>rku.</row>
-      <row important_over="false">Noc te gwia<ch a="D"/>zdy do uszu przymier<ch a="e"/>za</row>
-      <row important_over="false">I z gwiazda<ch a="G"/>mi chci<ch a="A7"/>ałaby spać.<ch a="D"/></row>
+      <row important_over="true">Diabeł du<ch a="D"/>żo jej daje w podar<ch a="e"/>ku</row>
+      <row important_over="true">Gwiazd fałsz<ch a="G"/>ywych z gwiezdnego jarma<ch a="D"/>rku.</row>
+      <row important_over="true">Noc te gwia<ch a="D"/>zdy do uszu przymier<ch a="e"/>za</row>
+      <row important_over="true">I z gwiazda<ch a="G"/>mi chci<ch a="A7"/>ałaby spać.<ch a="D"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
@@ -26,16 +26,16 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Ale zanim dur gwiezdny ją oplótł,<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Idzie krokiem tanecznym przez ogród.<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Do ogrodu przez senne ulice,<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Dzwonią nocy ciężkie zausznice.<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Ale zanim dur gwiezdny ją oplótł,<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Idzie krokiem tanecznym przez ogród.<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Do ogrodu przez senne ulice,<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Dzwonią nocy ciężkie zausznice.<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I po każdym tanecznym obrocie<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Szmaragdami dzwonią kołki w plocie.<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Wreszcie do nas pod same okna,<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">I tak tańczy i śpiewa nam:<ch a="G"/><ch a="A7"/><ch a="D"/></row>
+      <row important_over="false">I po każdym tanecznym obrocie<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Szmaragdami dzwonią kołki w plocie.<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Wreszcie do nas pod same okna,<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I tak tańczy i śpiewa nam:<ch a="G"/><ch a="A7"/><ch a="D"/></row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>

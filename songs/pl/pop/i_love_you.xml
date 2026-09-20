@@ -35,10 +35,10 @@
       <row important_over="false">Po<ch a="C"/>czuć coś, poczuć coś, coś Ci dać!</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
-      <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>mądry - I <ch a="C"/>love you, I love you, I love you.</row>
-      <row important_over="false"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>dobry - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
-      <row important_over="false"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you.</row>
+      <row important_over="true"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
+      <row important_over="true"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>mądry - I <ch a="C"/>love you, I love you, I love you.</row>
+      <row important_over="true"><ch a="G"/> Oh yeah nie jestem <ch a="D"/>dobry - I <ch a="C"/>love you, I love you, I love you, I love you,</row>
+      <row important_over="true"><ch a="G"/> Oh yeah chcę Ci po<ch a="D"/>wiedzieć - I <ch a="C"/>love you, I love you, I love you.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="G"/><ch a="G"/><ch a="G"/><ch a="D"/></row>

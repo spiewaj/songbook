@@ -9,10 +9,10 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row style="instr"><ch a="a"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row style="instr"><ch a="F"/><ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
-			<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="a"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="a"/> W zaklętym s<ch a="F"/>adzi<ch a="C"/>e<ch a="G"/> barwny s<ch a="a"/>en</row>
@@ -30,7 +30,7 @@
 		</block>
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -42,7 +42,7 @@
 		<blocklink blocknb="3"/>
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -54,7 +54,7 @@
 		<blocklink blocknb="3"/>
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -65,11 +65,11 @@
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="chorus">
-			<row important_over="false">Śnij o wi<ch a="F"/>ośnie, śnij o l<ch a="G"/>esie,</row>
-			<row important_over="false">Niech się w<ch a="a"/>ije senna nić.</row>
-			<row important_over="false">Śnij o m<ch a="F"/>orzu, o bezkr<ch a="G"/>esie</row>
-			<row important_over="false">Niech marz<ch a="a"/>eniom starczy sił…</row>
-			<row important_over="false"><ch a="a"/> W zaklętym s<ch a="F"/>adzi<ch a="C"/>e<ch a="G"/>..<ch a="a"/>.</row>
+			<row important_over="true">Śnij o wi<ch a="F"/>ośnie, śnij o l<ch a="G"/>esie,</row>
+			<row important_over="true">Niech się w<ch a="a"/>ije senna nić.</row>
+			<row important_over="true">Śnij o m<ch a="F"/>orzu, o bezkr<ch a="G"/>esie</row>
+			<row important_over="true">Niech marz<ch a="a"/>eniom starczy sił…</row>
+			<row important_over="true"><ch a="a"/> W zaklętym s<ch a="F"/>adzi<ch a="C"/>e<ch a="G"/>..<ch a="a"/>.</row>
 		</block>
 	</lyric>
 	

@@ -13,10 +13,10 @@
 			<row important_over="true"><ch a="a"/> Szkło po zagranicznym p<ch a="d"/>iwie,</row>
 			<row important_over="true">W n<ch a="d"/>im czerwony r<ch a="a"/>óży kwiat</row>
 			<row important_over="true"><ch a="E"/> Z pąka rodzi się cierpl<ch a="a"/>iwie.</row>
-			<row important_over="false">Wi<ch a="a"/>ęc pod cz<ch a="E7"/>ujnym okiem t<ch a="a"/>ym,</row>
-			<row important_over="false"><ch a="a"/> Piszę historyczną p<ch a="d"/>owieść,</row>
-			<row important_over="false">L<ch a="d"/>ecz nie mogę n<ch a="a"/>aprzód iść,</row>
-			<row important_over="false"><ch a="E"/> Myląc prolog z epil<ch a="a"/>ogiem.</row>
+			<row important_over="true">Wi<ch a="a"/>ęc pod cz<ch a="E7"/>ujnym okiem t<ch a="a"/>ym,</row>
+			<row important_over="true"><ch a="a"/> Piszę historyczną p<ch a="d"/>owieść,</row>
+			<row important_over="true">L<ch a="d"/>ecz nie mogę n<ch a="a"/>aprzód iść,</row>
+			<row important_over="true"><ch a="E"/> Myląc prolog z epil<ch a="a"/>ogiem.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">N<ch a="a"/>asłuchuję, wypatruję</row>
@@ -45,14 +45,14 @@
 			<row important_over="true"><ch a="a"/> Ale powieść nie got<ch a="d"/>owa,</row>
 			<row important_over="true">Wi<ch a="d"/>ęc pozwólcie p<ch a="a"/>isać mi</row>
 			<row important_over="true"><ch a="E"/> Aż do ostatniego sł<ch a="a"/>owa.</row>
-			<row important_over="false">Pr<ch a="a"/>agnę, póki róży kwiat</row>
-			<row important_over="false"><ch a="a"/> Na mym stole czerwi<ch a="d"/>enieje,</row>
-			<row important_over="false">Krz<ch a="d"/>yczeć, kiedy milczy świ<ch a="a"/>at,</row>
-			<row important_over="false"><ch a="E"/> Szeptać, kiedy świat szal<ch a="a"/>eje</row>
+			<row important_over="true">Pr<ch a="a"/>agnę, póki róży kwiat</row>
+			<row important_over="true"><ch a="a"/> Na mym stole czerwi<ch a="d"/>enieje,</row>
+			<row important_over="true">Krz<ch a="d"/>yczeć, kiedy milczy świ<ch a="a"/>at,</row>
+			<row important_over="true"><ch a="E"/> Szeptać, kiedy świat szal<ch a="a"/>eje</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">N<ch a="a"/>asłuchuję, wypatruję</row>
-			<row important_over="false">
+			<row important_over="true">N<ch a="a"/>asłuchuję, wypatruję</row>
+			<row important_over="true">
 				<ch a="a"/>I spisuję to co czuję.</row>
 		</block>
 	</lyric>

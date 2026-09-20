@@ -9,17 +9,17 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Dziś do ciebie przyjść nie mogę</row>
-      <row important_over="false"><ch a="a"/>Idę zaraz w nocny mrok<ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Nie wyglądaj za mną oknem</row>
-      <row important_over="false"><ch a="d"/>We mgle tonie próżno wzrok<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Po cóż ci kochanie wiedzieć</row>
-      <row important_over="false"><ch a="A"/>Że do lasu idę spać<ch a="d"/></row>
+      <row important_over="true"><ch a="a"/>Dziś do ciebie przyjść nie mogę</row>
+      <row important_over="true"><ch a="a"/>Idę zaraz w nocny mrok<ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Nie wyglądaj za mną oknem</row>
+      <row important_over="true"><ch a="d"/>We mgle tonie próżno wzrok<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Po cóż ci kochanie wiedzieć</row>
+      <row important_over="true"><ch a="A"/>Że do lasu idę spać<ch a="d"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="d"/>Dłużej tu nie mogę siedzieć<ch a="a"/></row>
-        <row important_over="false"><ch a="E"/>Na mnie czeka leśna brać<ch a="a"/></row>
+        <row important_over="true"><ch a="d"/>Dłużej tu nie mogę siedzieć<ch a="a"/></row>
+        <row important_over="true"><ch a="E"/>Na mnie czeka leśna brać<ch a="a"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -37,12 +37,12 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Gdy nie wrócę niechaj wiosną</row>
-      <row important_over="false"><ch a="a"/>Rolę moją sieje brat<ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Kości moje mchem porosną</row>
-      <row important_over="false"><ch a="d"/>I użyźnią ziemi szmat<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>W pole wyjdź któregoś ranka</row>
-      <row important_over="false"><ch a="A"/>Na snop żyta ręce złóż</row>
+      <row important_over="true"><ch a="a"/>Gdy nie wrócę niechaj wiosną</row>
+      <row important_over="true"><ch a="a"/>Rolę moją sieje brat<ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Kości moje mchem porosną</row>
+      <row important_over="true"><ch a="d"/>I użyźnią ziemi szmat<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>W pole wyjdź któregoś ranka</row>
+      <row important_over="true"><ch a="A"/>Na snop żyta ręce złóż</row>
     </block>
     <block type="verse">
       <bis>

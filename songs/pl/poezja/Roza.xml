@@ -9,31 +9,31 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Czym purpurowe maki<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Na ciemną rzucał drogę?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Sen miałem, ale jaki?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Przypomnieć już nie mogę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Czym purpurowe maki<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Na ciemną rzucał drogę?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Sen miałem, ale jaki?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Przypomnieć już nie mogę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Twojeż to były usta?<ch a="H"/><ch a="A"/></row>
-			<row important_over="false">Moje to były dłonie?<ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Głąb sadu mego pusta<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="false">We wrotach księżyc płonie<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">Twojeż to były usta?<ch a="A"/><ch a="E"/></row>
-			<row important_over="false">A moje były dłonie?<ch a="fis"/><ch a="A2"/><ch a="E"/></row>
+			<row important_over="never">Twojeż to były usta?<ch a="H"/><ch a="A"/></row>
+			<row important_over="never">Moje to były dłonie?<ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Głąb sadu mego pusta<ch a="cis"/><ch a="fis"/></row>
+			<row important_over="never">We wrotach księżyc płonie<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">Twojeż to były usta?<ch a="A"/><ch a="E"/></row>
+			<row important_over="never">A moje były dłonie?<ch a="fis"/><ch a="A2"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Noce w jeziorach witam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Kiedy Ty kwitniesz różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Noce w jeziorach witam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Kiedy Ty kwitniesz różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Twójże to głos o różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Słowo po słowie chwytam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="false">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Twójże to głos o różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Słowo po słowie chwytam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="never">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
 		</block>
 	</lyric>
 	

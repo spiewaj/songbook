@@ -9,16 +9,16 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Pierwszy raz przy pełnym takielunku<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Biorę ster i trzymam kurs na wiatr<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>I jest jak przy pierwszym pocałunku<ch a="H7"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>W ustach sól gorącej wody smak<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Pierwszy raz przy pełnym takielunku<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Biorę ster i trzymam kurs na wiatr<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>I jest jak przy pierwszym pocałunku<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>W ustach sól gorącej wody smak<ch a="H7"/><ch a="e"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="a"/>O ho ho przechyły i przechyły<ch a="H7"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>O ho ho za falą fala mknie<ch a="H7"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>O ho ho trzymajcie się dziewczyny<ch a="H7"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>Ale wiatr, ósemka chyba dmie<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>O ho ho przechyły i przechyły<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>O ho ho za falą fala mknie<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>O ho ho trzymajcie się dziewczyny<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>Ale wiatr, ósemka chyba dmie<ch a="H7"/><ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Zwrot przez sztag OK zaraz zrobię<ch a="D"/><ch a="e"/></row>

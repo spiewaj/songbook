@@ -24,14 +24,14 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="F"/>Wiesz, lubię wie<ch a="C"/>czory,</row>
-      <row important_over="false">Lubię się <ch a="a"/>schować na jakiś <ch a="G"/>czas.</row>
-      <row important_over="false">I jakoś <ch a="F"/>tak, nienatu<ch a="C"/>ralnie,</row>
-      <row important_over="false">Trochę prze<ch a="e"/>sadnie, pobyć <ch a="G"/>sam.</row>
-      <row important_over="false">Wejść na <ch a="F"/>drzewo i patrzeć w <ch a="C"/>niebo,</row>
-      <row important_over="false">Tak zwy<ch a="a"/>czajnie, tylko <ch a="G"/>że,</row>
-      <row important_over="false">Tutaj <ch a="F"/>też wiem ko<ch a="C"/>lejny raz,</row>
-      <row important_over="false">Nie mam <ch a="e"/>szans być kim <ch a="G"/>chcę.</row>
+      <row important_over="true"><ch a="F"/>Wiesz, lubię wie<ch a="C"/>czory,</row>
+      <row important_over="true">Lubię się <ch a="a"/>schować na jakiś <ch a="G"/>czas.</row>
+      <row important_over="true">I jakoś <ch a="F"/>tak, nienatu<ch a="C"/>ralnie,</row>
+      <row important_over="true">Trochę prze<ch a="e"/>sadnie, pobyć <ch a="G"/>sam.</row>
+      <row important_over="true">Wejść na <ch a="F"/>drzewo i patrzeć w <ch a="C"/>niebo,</row>
+      <row important_over="true">Tak zwy<ch a="a"/>czajnie, tylko <ch a="G"/>że,</row>
+      <row important_over="true">Tutaj <ch a="F"/>też wiem ko<ch a="C"/>lejny raz,</row>
+      <row important_over="true">Nie mam <ch a="e"/>szans być kim <ch a="G"/>chcę.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="other">

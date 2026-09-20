@@ -9,19 +9,19 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Imm<ch a="G"/>anuel Kant was a real piss-ant</row>
-			<row important_over="false">who was very rarely st<ch a="D"/>able.</row>
-			<row important_over="false">Heid<ch a="D"/>eggar, Heideggar was a boozy beggar</row>
-			<row important_over="false">who could think you under the t<ch a="G"/>able.</row>
-			<row important_over="false">D<ch a="G"/>avid Hume could out-consume</row>
-			<row important_over="false">Schoppenhauer and H<ch a="C"/>egel.</row>
-			<row important_over="false">And Wh<ch a="D"/>ittgenstein was a beery swine</row>
-			<row important_over="false">who was just as sloshed as Sc<ch a="G"/>hlegel.</row>
+			<row important_over="true">Imm<ch a="G"/>anuel Kant was a real piss-ant</row>
+			<row important_over="true">who was very rarely st<ch a="D"/>able.</row>
+			<row important_over="true">Heid<ch a="D"/>eggar, Heideggar was a boozy beggar</row>
+			<row important_over="true">who could think you under the t<ch a="G"/>able.</row>
+			<row important_over="true">D<ch a="G"/>avid Hume could out-consume</row>
+			<row important_over="true">Schoppenhauer and H<ch a="C"/>egel.</row>
+			<row important_over="true">And Wh<ch a="D"/>ittgenstein was a beery swine</row>
+			<row important_over="true">who was just as sloshed as Sc<ch a="G"/>hlegel.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">There's nothing Ni<ch a="D"/>etzsche couldn't teach 'ya</row>
-			<row important_over="false">   'bout the raising of the wrist.</row>
-			<row important_over="false">S<ch a="G"/>ocrates, himself, was permanently pi<ch a="D"/>ssed.</row>
+			<row important_over="true">There's nothing Ni<ch a="D"/>etzsche couldn't teach 'ya</row>
+			<row important_over="never">   'bout the raising of the wrist.</row>
+			<row important_over="true">S<ch a="G"/>ocrates, himself, was permanently pi<ch a="D"/>ssed.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">John Stewart Mill, of his own free will <ch a="G"/></row>
@@ -34,8 +34,8 @@
 			<row important_over="false">   "I drink, therefore I am." <ch a="G"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Yes, Socrates himself is particularly missed; <ch a="D"/></row>
-			<row important_over="false">A lovely little thinker, but a bugger when he's pissed. <ch a="G"/><ch a="D"/></row>
+			<row important_over="true">Yes, Socrates himself is particularly missed; <ch a="D"/></row>
+			<row important_over="true">A lovely little thinker, but a bugger when he's pissed. <ch a="G"/><ch a="D"/></row>
 		</block>
 	</lyric>
 	<music metre="">

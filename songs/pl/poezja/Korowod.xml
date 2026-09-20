@@ -29,14 +29,14 @@
 			<row important_over="false">A kt<ch a="H7"/>o mógł spać za dł<ch a="e"/>ugo?</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Za<ch a="e"/>patrzeni w sł<ch a="A"/>ońce</row>
-			<row important_over="false">Za<ch a="e"/>patrzeni w ni<ch a="A"/>ebo</row>
-			<row important_over="false">Za<ch a="fis"/>patrzeni w t<ch a="h"/>ańcu</row>
-			<row important_over="false">Za<ch a="fis"/>patrzeni w s<ch a="h"/>iebie</row>
-			<row important_over="false">Wci<ch a="e"/>ąż niepewni s<ch a="A"/>iebie</row>
-			<row important_over="false">Si<ch a="e"/>ebie niewiad<ch a="A"/>omi</row>
-			<row important_over="false">Py<ch a="fis"/>tać wciąż będzi<ch a="A"/>emy</row>
-			<row important_over="false">Py<ch a="C"/>tać p<ch a="D"/>o kryj<ch a="H7"/>omu</row>
+			<row important_over="true">Za<ch a="e"/>patrzeni w sł<ch a="A"/>ońce</row>
+			<row important_over="true">Za<ch a="e"/>patrzeni w ni<ch a="A"/>ebo</row>
+			<row important_over="true">Za<ch a="fis"/>patrzeni w t<ch a="h"/>ańcu</row>
+			<row important_over="true">Za<ch a="fis"/>patrzeni w s<ch a="h"/>iebie</row>
+			<row important_over="true">Wci<ch a="e"/>ąż niepewni s<ch a="A"/>iebie</row>
+			<row important_over="true">Si<ch a="e"/>ebie niewiad<ch a="A"/>omi</row>
+			<row important_over="true">Py<ch a="fis"/>tać wciąż będzi<ch a="A"/>emy</row>
+			<row important_over="true">Py<ch a="C"/>tać p<ch a="D"/>o kryj<ch a="H7"/>omu</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Kto pie<ch a="e"/>rwszy szedł przed sie<ch a="G"/>bie</row>

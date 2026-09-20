@@ -16,10 +16,10 @@ Strojenie:     klasyczne (E A D G H e)</comment>
       <row important_over="true"><ch a="d"/>I could lie, say I <ch a="a"/>like it like that, <ch a="C"/>like it like that <ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="F"/>Don&#039;t you <ch a="a"/>know too mu<ch a="C"/>ch al<ch a="F"/>ready?</row>
-      <row important_over="true">I&#039;ll<ch a="F"/> only hur<ch a="a"/>t you if yo<ch a="C"/>u let<ch a="F"/> me</row>
-      <row important_over="true">C<ch a="F"/>all me fri<ch a="a"/>end, b<ch a="C"/>ut keep me cl<ch a="F"/>oser (call me back)</row>
-      <row important_over="true">And I&#039;<ch a="F"/>ll call you <ch a="a"/>when the <ch a="C"/>party&#039;s <ch a="F"/>over</row>
+      <row important_over="false"><ch a="F"/>Don&#039;t you <ch a="a"/>know too mu<ch a="C"/>ch al<ch a="F"/>ready?</row>
+      <row important_over="false">I&#039;ll<ch a="F"/> only hur<ch a="a"/>t you if yo<ch a="C"/>u let<ch a="F"/> me</row>
+      <row important_over="false">C<ch a="F"/>all me fri<ch a="a"/>end, b<ch a="C"/>ut keep me cl<ch a="F"/>oser (call me back)</row>
+      <row important_over="false">And I&#039;<ch a="F"/>ll call you <ch a="a"/>when the <ch a="C"/>party&#039;s <ch a="F"/>over</row>
     </block>
     <block type="chorus">
       <row important_over="true">Quie<ch a="G"/>t when I&#039;m c<ch a="a"/>omin&#039; home and I<ch a="C"/>&#039;m on my o<ch a="F"/>wn</row>

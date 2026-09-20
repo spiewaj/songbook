@@ -33,14 +33,14 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
-      <row important_over="false">-&gt; Znowu szary, pusty dom, gdzie schroniłem się (vocal)</row>
-      <row important_over="false">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
-      <row important_over="false">-&gt; I najmilsza z wszystkich, z wszystkich mi na witraża szkle (vocal)</row>
-      <row important_over="false">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
-      <row important_over="false">-&gt; Znowu w drogę, w drogę trzeba iść, w życie się zanurzyć (vocal)</row>
-      <row important_over="false">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
-      <row important_over="false">-&gt; Chociaż w ręce jeszcze tkwi ... lekko zwiędła róża. (vocal)</row>
+      <row important_over="true">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
+      <row important_over="never">-&gt; Znowu szary, pusty dom, gdzie schroniłem się (vocal)</row>
+      <row important_over="true">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
+      <row important_over="never">-&gt; I najmilsza z wszystkich, z wszystkich mi na witraża szkle (vocal)</row>
+      <row important_over="true">A po n<ch a="g"/>ocy prz<ch a="F"/>ychodzi dzi<ch a="g"/>eń, <ch a="F"/>a po burzy sp<ch a="C"/>okój. (chór)</row>
+      <row important_over="never">-&gt; Znowu w drogę, w drogę trzeba iść, w życie się zanurzyć (vocal)</row>
+      <row important_over="true">Nagle pt<ch a="g"/>aki b<ch a="F"/>udzą mni<ch a="g"/>e, tł<ch a="F"/>ukąc się do <ch a="C"/>okien. (chór)</row>
+      <row important_over="never">-&gt; Chociaż w ręce jeszcze tkwi ... lekko zwiędła róża. (vocal)</row>
     </block>
     <block type="verse">
       <bis times="2">

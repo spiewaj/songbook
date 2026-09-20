@@ -31,12 +31,12 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="D"/> Powiedz m<ch a="G"/>i, p<ch a="D"/>owiedz co byś chci<ch a="A"/>ała,</row>
-			<row important_over="false"><ch a="D"/> Cuda ja cz<ch a="G"/>ynię, c<ch a="D"/>uda moja m<ch a="A"/>ała.</row>
-			<row important_over="false"><ch a="e"/> Masz chęć na l<ch a="A"/>ody może</row>
-			<row important_over="false"><ch a="D"/> Albo na mł<ch a="H7"/>ode zboże —</row>
-			<row important_over="false"><ch a="e"/> Wszystko dla ci<ch a="A"/>ebie dziś zr<ch a="D"/>obię,</row>
-			<row important_over="false"><ch a="e"/> Mój ty m<ch a="A"/>ały wielki b<ch a="D"/>oże.</row>
+			<row important_over="true"><ch a="D"/> Powiedz m<ch a="G"/>i, p<ch a="D"/>owiedz co byś chci<ch a="A"/>ała,</row>
+			<row important_over="true"><ch a="D"/> Cuda ja cz<ch a="G"/>ynię, c<ch a="D"/>uda moja m<ch a="A"/>ała.</row>
+			<row important_over="true"><ch a="e"/> Masz chęć na l<ch a="A"/>ody może</row>
+			<row important_over="true"><ch a="D"/> Albo na mł<ch a="H7"/>ode zboże —</row>
+			<row important_over="true"><ch a="e"/> Wszystko dla ci<ch a="A"/>ebie dziś zr<ch a="D"/>obię,</row>
+			<row important_over="true"><ch a="e"/> Mój ty m<ch a="A"/>ały wielki b<ch a="D"/>oże.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

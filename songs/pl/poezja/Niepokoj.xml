@@ -33,12 +33,12 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">I tw<ch a="d"/>oja ręka wyrw<ch a="B"/>ana z mojej</row>
-			<row important_over="false">Do st<ch a="A7"/>acji</row>
-			<row important_over="false">Zbliż<ch a="B"/>ają s<ch a="A7"/>ię</row>
-			<row important_over="false">Robotn<ch a="d"/>icy dnia powsz<ch a="B"/>edniego</row>
-			<row important_over="false">O twarz<ch a="A7"/>ach przeraźliwie</row>
-			<row important_over="false">Trz<ch a="B"/>eźw<ch a="H7"/>ych</row>
+			<row important_over="true">I tw<ch a="d"/>oja ręka wyrw<ch a="B"/>ana z mojej</row>
+			<row important_over="true">Do st<ch a="A7"/>acji</row>
+			<row important_over="true">Zbliż<ch a="B"/>ają s<ch a="A7"/>ię</row>
+			<row important_over="true">Robotn<ch a="d"/>icy dnia powsz<ch a="B"/>edniego</row>
+			<row important_over="true">O twarz<ch a="A7"/>ach przeraźliwie</row>
+			<row important_over="true">Trz<ch a="B"/>eźw<ch a="H7"/>ych</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

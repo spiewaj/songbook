@@ -9,24 +9,24 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>
-      <row important_over="false"><ch a="A"/>Stary wieśniaku za to że<ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Gdy zimno było w życiu mym<ch a="A"/></row>
-      <row important_over="false"><ch a="d"/>Ty drewno swe oddałeś mi<ch a="C"/><ch a="F"/><ch a="A"/></row>
-      <row important_over="false"><ch a="d"/>Ty dałeś ogień wtedy gdy<ch a="A"/></row>
-      <row important_over="false"><ch a="A"/>Obywatele godni czci<ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>I bliźni nasi wszyscy w krąg<ch a="A"/></row>
-      <row important_over="false"><ch a="Ais"/>Zamykali przede mną swe drzwi<ch a="C"/><ch a="F"/></row>
+      <row important_over="true"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Stary wieśniaku za to że<ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Gdy zimno było w życiu mym<ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Ty drewno swe oddałeś mi<ch a="C"/><ch a="F"/><ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Ty dałeś ogień wtedy gdy<ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Obywatele godni czci<ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>I bliźni nasi wszyscy w krąg<ch a="A"/></row>
+      <row important_over="true"><ch a="Ais"/>Zamykali przede mną swe drzwi<ch a="C"/><ch a="F"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="F"/>To przecież nic to parę drew<ch a="g"/><ch a="C"/><ch a="F"/></row>
-      <row important_over="false"><ch a="d"/>Lecz starczy żeby ogrzać się<ch a="g6"/><ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>A w duszy mej płonęły tak<ch a="A9-"/><ch a="d"/></row>
-      <row important_over="false"><ch a="Ais"/>Jak płonąłby cały las<ch a="A"/></row>
-      <row important_over="false"><ch a="d"/>Więc jeśli umrzesz kiedyś już<ch a="A"/></row>
-      <row important_over="false"><ch a="A"/>Gdy wieźć cię będzie czarny wóz<ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Niech przez niebiański cię wiedzie szlak<ch a="Ais"/><ch a="g"/><ch a="C"/></row>
-      <row important_over="false"><ch a="Ais"/>Aż do nieba bram<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="F"/>To przecież nic to parę drew<ch a="g"/><ch a="C"/><ch a="F"/></row>
+      <row important_over="true"><ch a="d"/>Lecz starczy żeby ogrzać się<ch a="g6"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>A w duszy mej płonęły tak<ch a="A9-"/><ch a="d"/></row>
+      <row important_over="true"><ch a="Ais"/>Jak płonąłby cały las<ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Więc jeśli umrzesz kiedyś już<ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Gdy wieźć cię będzie czarny wóz<ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Niech przez niebiański cię wiedzie szlak<ch a="Ais"/><ch a="g"/><ch a="C"/></row>
+      <row important_over="true"><ch a="Ais"/>Aż do nieba bram<ch a="A"/><ch a="d"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>

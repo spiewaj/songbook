@@ -27,11 +27,11 @@
 			<row important_over="false">L<ch a="d"/>epsza przyszłość P<ch a="F"/>olsce dni<ch a="G"/>eje r<ch a="C"/>az, d<ch a="E7"/>wa, tr<ch a="a"/>zy</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">W zb<ch a="a"/>ożnej pracy w d<ch a="F"/>ucha tr<ch a="E"/>udzie</row>
-			<row important_over="false">Rz<ch a="a"/>ucim światu p<ch a="F"/>ieśń o c<ch a="E"/>udzie r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
-			<row important_over="false"><ch a="C"/>Będziem śpiewać p<ch a="G"/>ieśń rad<ch a="A7"/>ości</row>
-			<row important_over="false"><ch a="d"/>O wspaniałym dni<ch a="F"/>u woln<ch a="G"/>ości r<ch a="C"/>az, d<ch a="E7"/>wa, trz<ch a="a"/>y,</row>
-			<row important_over="false">r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y, r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y</row>
+			<row important_over="true">W zb<ch a="a"/>ożnej pracy w d<ch a="F"/>ucha tr<ch a="E"/>udzie</row>
+			<row important_over="true">Rz<ch a="a"/>ucim światu p<ch a="F"/>ieśń o c<ch a="E"/>udzie r<ch a="a"/>az, d<ch a="E"/>wa, tr<ch a="a"/>zy</row>
+			<row important_over="true"><ch a="C"/>Będziem śpiewać p<ch a="G"/>ieśń rad<ch a="A7"/>ości</row>
+			<row important_over="true"><ch a="d"/>O wspaniałym dni<ch a="F"/>u woln<ch a="G"/>ości r<ch a="C"/>az, d<ch a="E7"/>wa, trz<ch a="a"/>y,</row>
+			<row important_over="true">r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y, r<ch a="a"/>az, dw<ch a="E"/>a, trz<ch a="a"/>y</row>
 		</block>
 	</lyric>
 	<music metre="4/4">

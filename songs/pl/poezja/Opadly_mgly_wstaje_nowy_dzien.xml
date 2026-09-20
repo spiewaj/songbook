@@ -30,29 +30,29 @@
 			<row important_over="true">Wstaje nowy <ch a="G"/>dzień<ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Z dusznego snu już miasto się wynurza <ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Słońce wschodzi gdzieś tam<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Tramwaj na przystanku zakwitł jak róża<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Uchodzą cienie do bram<ch a="G"/><ch a="D"/><ch a="D7"/></row>
-			<row important_over="never">Ciągną swoje wózki dwukółki mleczarze<ch a="G"/><ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>Nad dachami snują się sny podlotków pełne marzeń<ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Z dusznego snu już miasto się wynurza <ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Słońce wschodzi gdzieś tam<ch a="G"/><ch a="D"/></row>
+			<row important_over="false">Tramwaj na przystanku zakwitł jak róża<ch a="G"/><ch a="C"/></row>
+			<row important_over="false">Uchodzą cienie do bram<ch a="G"/><ch a="D"/><ch a="D7"/></row>
+			<row important_over="false">Ciągną swoje wózki dwukółki mleczarze<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Nad dachami snują się sny podlotków pełne marzeń<ch a="D"/><ch a="G"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="never"><ch a="G"/>A Ziemia toczy toczy swój garb uroczy<ch a="C"/></row>
-				<row important_over="never"><ch a="G"/>Toczy toczy się los<ch a="D"/></row>
+				<row important_over="false"><ch a="G"/>A Ziemia toczy toczy swój garb uroczy<ch a="C"/></row>
+				<row important_over="false"><ch a="G"/>Toczy toczy się los<ch a="D"/></row>
 			</bis>
-			<row important_over="never"><ch a="G"/>Ty co płaczesz ażeby śmiać mógł się ktoś<ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>Już dość, już dość, już dość<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Odpędź czarne myśli</row>
-			<row important_over="never"><ch a="C"/>Porzuć błędny wzrok</row>
-			<row important_over="never"><ch a="G"/>Niech to wszystko zabierze już noc<ch a="D"/></row>
+			<row important_over="false"><ch a="G"/>Ty co płaczesz ażeby śmiać mógł się ktoś<ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Już dość, już dość, już dość<ch a="D"/></row>
+			<row important_over="false"><ch a="G"/>Odpędź czarne myśli</row>
+			<row important_over="false"><ch a="C"/>Porzuć błędny wzrok</row>
+			<row important_over="false"><ch a="G"/>Niech to wszystko zabierze już noc<ch a="D"/></row>
 			<bis times="3">
-				<row important_over="never"><ch a="G"/>Bo nowy dzień wstaje</row>
-				<row important_over="never"><ch a="C"/>Bo nowy dzień wstaje</row>
-				<row important_over="never"><ch a="G"/>Nowy dzień<ch a="D"/></row>
+				<row important_over="false"><ch a="G"/>Bo nowy dzień wstaje</row>
+				<row important_over="false"><ch a="C"/>Bo nowy dzień wstaje</row>
+				<row important_over="false"><ch a="G"/>Nowy dzień<ch a="D"/></row>
 			</bis>
-			<row important_over="never"><ch a="G"/>Wstaje nowy dzień<ch a="D"/></row>
+			<row important_over="false"><ch a="G"/>Wstaje nowy dzień<ch a="D"/></row>
 		</block>
 	</lyric>
 	<music>

@@ -3,29 +3,29 @@
 	<artist type="band">Wolna Grupa Bukowina</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Zanim mi sen na oczy spłynie<ch a="C"/><ch a="e"/></row>
-			<row important_over="false">Moje myśli szybują przez lufcik<ch a="d"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Żeby cię ujrzeć w ową chwilę</row>
-			<row important_over="false">Gdy włosy czeszesz przed lustrem</row>
+			<row important_over="never">Zanim mi sen na oczy spłynie<ch a="C"/><ch a="e"/></row>
+			<row important_over="never">Moje myśli szybują przez lufcik<ch a="d"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Żeby cię ujrzeć w ową chwilę</row>
+			<row important_over="never">Gdy włosy czeszesz przed lustrem</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A kiedy zaśniesz w ciepłej pościeli</row>
-			<row important_over="false">Zmęczone długim przelotem</row>
-			<row important_over="false">Jak ptaki głowy w skrzydła wtulają</row>
-			<row important_over="false">Patrząc na sen twój spokojny<ch a="d"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7+"/><ch a="C5"/><ch a="C"/></row>
+			<row important_over="never">A kiedy zaśniesz w ciepłej pościeli</row>
+			<row important_over="never">Zmęczone długim przelotem</row>
+			<row important_over="never">Jak ptaki głowy w skrzydła wtulają</row>
+			<row important_over="never">Patrząc na sen twój spokojny<ch a="d"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7+"/><ch a="C5"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Niech ci się przyśnią pory roku<ch a="C"/><ch a="e"/></row>
-			<row important_over="false">Niech grają we śnie twoim i tańczą<ch a="d"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Jesień prężąca liście do lotu<ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Lato w upale słonecznym<ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Niech ci się przyśnią pory roku<ch a="C"/><ch a="e"/></row>
+			<row important_over="never">Niech grają we śnie twoim i tańczą<ch a="d"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Jesień prężąca liście do lotu<ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Lato w upale słonecznym<ch a="C"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A jeśli zima, to w śniegu cała<ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Wiosna w miłków wiosennych łąkach<ch a="C"/><ch a="G"/></row>
+			<row important_over="never">A jeśli zima, to w śniegu cała<ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Wiosna w miłków wiosennych łąkach<ch a="C"/><ch a="G"/></row>
 			<bis times="3">
-				<row important_over="false">Śpij, moje myśli nad tobą czuwają<ch a="C"/><ch a="F"/></row>
-				<row important_over="false">Na parapecie za oknem<ch a="e"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="never">Śpij, moje myśli nad tobą czuwają<ch a="C"/><ch a="F"/></row>
+				<row important_over="never">Na parapecie za oknem<ch a="e"/><ch a="G"/><ch a="a"/></row>
 			</bis>
 		</block>
 	</lyric>

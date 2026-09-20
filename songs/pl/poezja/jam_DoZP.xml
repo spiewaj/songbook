@@ -16,15 +16,15 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">On jest ciepłem, co rozgrzewa ciało</row>
-      <row important_over="false">On jest chmurą, co osłania mnie</row>
-      <row important_over="false">On jest mgłą, co łagodzi ranek</row>
-      <row important_over="false">On jest ciepłem, które mieszka we mnie</row>
+      <row important_over="never">On jest ciepłem, co rozgrzewa ciało</row>
+      <row important_over="never">On jest chmurą, co osłania mnie</row>
+      <row important_over="never">On jest mgłą, co łagodzi ranek</row>
+      <row important_over="never">On jest ciepłem, które mieszka we mnie</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">On jest nic, on jest nic, niewiele</row>
-        <row important_over="false">On jest ten, co płacze i ten co się śmieje</row>
+        <row important_over="never">On jest nic, on jest nic, niewiele</row>
+        <row important_over="never">On jest ten, co płacze i ten co się śmieje</row>
       </bis>
     </block>
   </lyric>

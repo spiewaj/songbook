@@ -9,28 +9,28 @@
       <row important_over="true"><ch a="D"/>Maty ne pusk<ch a="Fis"/>ała<ch a="h"/>?<ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I konia ja maw, I steżku ja znaw,<ch a="h"/></row>
-      <row important_over="never">I maty puskała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="never">Najmensza sestra, Bodaj ne wzrosła<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Sidelce schowała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false">I konia ja maw, I steżku ja znaw,<ch a="h"/></row>
+      <row important_over="false">I maty puskała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="false">Najmensza sestra, Bodaj ne wzrosła<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="false">Sidelce schowała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">A starsza siestra Sidelce znajszła,<ch a="h"/></row>
-      <row important_over="never">Konia osidłała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="never">Pojid brateńku Do diwczynońky<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Szczo tebe czekała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false">A starsza siestra Sidelce znajszła,<ch a="h"/></row>
+      <row important_over="false">Konia osidłała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="false">Pojid brateńku Do diwczynońky<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="false">Szczo tebe czekała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Tecze riczeńka, Newełyczeńka,<ch a="h"/></row>
-      <row important_over="never">Skoczu, pereskoczu.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="never">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false">Tecze riczeńka, Newełyczeńka,<ch a="h"/></row>
+      <row important_over="false">Skoczu, pereskoczu.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="false">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="false">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Dum, dum, dum, dum, dum<ch a="h"/></row>
-      <row important_over="never">Dum, dum, dum, dum, dum <ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="never">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false">Dum, dum, dum, dum, dum<ch a="h"/></row>
+      <row important_over="false">Dum, dum, dum, dum, dum <ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
+      <row important_over="false">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
+      <row important_over="false">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
     </block>
   </lyric>
   <keywords/>

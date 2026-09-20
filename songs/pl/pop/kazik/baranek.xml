@@ -21,15 +21,15 @@
       <row important_over="true"><ch a="A"/>A nad nią lata mo<ch a="d"/>tylek</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="A"/>Krzywdę robią mojej panience</row>
-      <row important_over="false"><ch a="d"/>Opluć chcą ją podli zboczeńcy</row>
-      <row important_over="false"><ch a="A"/>Utopić chcą ją w morzu zawiści</row>
-      <row important_over="false"><ch a="d"/>Paranoicy, podli sadyści</row>
-      <row important_over="false"><ch a="D"/>Utaplani w podłej rozpuście</row>
-      <row important_over="false">A <ch a="g"/>na gębach fałszywy uśmiech</row>
-      <row important_over="false"><ch a="A"/>Byle zagnać do swego <ch a="d"/>bagna, ale wara wam</row>
-      <row important_over="false"><ch a="A"/>Ja ją przecież <ch a="d"/>lepiej znam</row>
-      <row important_over="false"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
+      <row important_over="true"><ch a="A"/>Krzywdę robią mojej panience</row>
+      <row important_over="true"><ch a="d"/>Opluć chcą ją podli zboczeńcy</row>
+      <row important_over="true"><ch a="A"/>Utopić chcą ją w morzu zawiści</row>
+      <row important_over="true"><ch a="d"/>Paranoicy, podli sadyści</row>
+      <row important_over="true"><ch a="D"/>Utaplani w podłej rozpuście</row>
+      <row important_over="true">A <ch a="g"/>na gębach fałszywy uśmiech</row>
+      <row important_over="true"><ch a="A"/>Byle zagnać do swego <ch a="d"/>bagna, ale wara wam</row>
+      <row important_over="true"><ch a="A"/>Ja ją przecież <ch a="d"/>lepiej znam</row>
+      <row important_over="true"><ch a="A"/>Na głowie kwietny ma <ch a="d"/>wianek</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">

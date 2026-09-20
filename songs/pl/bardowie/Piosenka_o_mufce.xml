@@ -9,15 +9,15 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false"><ch a="A"/>Prześliczna dzieweczka na spacer raz szła</row>
-			<row important_over="false"><ch a="A"/>Gdy noc ją złapała wietrzysta i zła<ch a="E"/><ch a="A"/></row>
-			<row important_over="false"><ch a="A"/>Być może przestraszyłby ziąb i mrok ją</row>
-			<row important_over="false"><ch a="A"/>Lecz miała wszak mufkę prześliczną swą<ch a="E"/><ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Prześliczna dzieweczka na spacer raz szła</row>
+			<row important_over="true"><ch a="A"/>Gdy noc ją złapała wietrzysta i zła<ch a="E"/><ch a="A"/></row>
+			<row important_over="true"><ch a="A"/>Być może przestraszyłby ziąb i mrok ją</row>
+			<row important_over="true"><ch a="A"/>Lecz miała wszak mufkę prześliczną swą<ch a="E"/><ch a="A"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false"><ch a="A"/>Nie ruszaj to moje weź precz łapy swoje</row>
-				<row important_over="false"><ch a="A"/>Popsujesz ją boję się o mufkę swą<ch a="E"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Nie ruszaj to moje weź precz łapy swoje</row>
+				<row important_over="true"><ch a="A"/>Popsujesz ją boję się o mufkę swą<ch a="E"/><ch a="A"/></row>
 			</bis>
 		</block>
 		<block type="verse">

@@ -5,16 +5,16 @@
   <artist type="band">Myslovitz</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Hej dziewcz<ch a="e"/>yno, <ch a="a"/>nie mów <ch a="F"/>nic, czas na <ch a="C"/>miłość</row>
-      <row important_over="false">Stań przed<ch a="e"/>e mną, p<ch a="a"/>ozwól do<ch a="F"/>tknąć się</row>
+      <row important_over="true"><ch a="C"/>Hej dziewcz<ch a="e"/>yno, <ch a="a"/>nie mów <ch a="F"/>nic, czas na <ch a="C"/>miłość</row>
+      <row important_over="true">Stań przed<ch a="e"/>e mną, p<ch a="a"/>ozwól do<ch a="F"/>tknąć się</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="C"/><ch a="e"/><ch a="a"/><ch a="a7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="F"/>Co za w<ch a="f"/>ieczór, co za ...</row>
+      <row important_over="true"><ch a="F"/>Co za w<ch a="f"/>ieczór, co za ...</row>
       <bis times="2">
-        <row important_over="false"><ch a="C"/>No<ch a="e"/>c <ch a="a"/><ch a="F"/> z twarzą Marilyn<ch a="C"/> Monroe<ch a="e"/><ch a="a"/><ch a="F"/></row>
+        <row important_over="true"><ch a="C"/>No<ch a="e"/>c <ch a="a"/><ch a="F"/> z twarzą Marilyn<ch a="C"/> Monroe<ch a="e"/><ch a="a"/><ch a="F"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -24,9 +24,9 @@
     <blocklink blocknb="3"/>
     <block type="verse">
       <bis times="2">
-        <row important_over="false"><ch a="G"/>Dotykam oczu, włosów,<ch a="F"/>  ust</row>
-        <row important_over="false">Dotykam ramion, dłoni,<ch a="G"/> stóp</row>
-        <row important_over="false">Odsłaniam nagie piersi<ch a="F"/> j<ch a="C"/>ej<ch a="e"/></row>
+        <row important_over="true"><ch a="G"/>Dotykam oczu, włosów,<ch a="F"/>  ust</row>
+        <row important_over="true">Dotykam ramion, dłoni,<ch a="G"/> stóp</row>
+        <row important_over="true">Odsłaniam nagie piersi<ch a="F"/> j<ch a="C"/>ej<ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -34,10 +34,10 @@
       <row important_over="false">Przy jej <ch a="e"/>zdjęciu <ch a="a"/>spędzam <ch a="F"/>całą noc</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="F"/>Szesnaście l<ch a="f"/>at, mój pierwszy</row>
-      <row important_over="false"><ch a="C"/>Ra<ch a="e"/>z <ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/><ch a="F"/></row>
+      <row important_over="true"><ch a="F"/>Szesnaście l<ch a="f"/>at, mój pierwszy</row>
+      <row important_over="true"><ch a="C"/>Ra<ch a="e"/>z <ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/><ch a="F"/></row>
       <bis times="3">
-        <row important_over="false"><ch a="C"/>Aa<ch a="e"/>a,<ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/> |<ch a="F"/></row>
+        <row important_over="true"><ch a="C"/>Aa<ch a="e"/>a,<ch a="a"/><ch a="F"/> z twarzą Marilyn Mo<ch a="C"/>nr<ch a="e"/>oe<ch a="a"/> |<ch a="F"/></row>
       </bis>
     </block>
   </lyric>

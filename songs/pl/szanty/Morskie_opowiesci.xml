@@ -9,10 +9,10 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Kiedy rum zaszumi w głowie</row>
-      <row important_over="false"><ch a="G"/>Cały świat nabiera treści</row>
-      <row important_over="false"><ch a="a"/>Wtedy chętnie słucha człowiek<ch a="C"/></row>
-      <row important_over="false"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Kiedy rum zaszumi w głowie</row>
+      <row important_over="true"><ch a="G"/>Cały świat nabiera treści</row>
+      <row important_over="true"><ch a="a"/>Wtedy chętnie słucha człowiek<ch a="C"/></row>
+      <row important_over="true"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Kto chce niechaj słucha</row>

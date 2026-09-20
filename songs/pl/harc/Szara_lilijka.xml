@@ -9,29 +9,29 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Gdy zakochasz się w szarej lilijce <ch a="a"/><ch a="d"/></row>
-			<row important_over="false">I w świetlanym harcerskim krzyżu, <ch a="E"/><ch a="a"/></row>
-			<row important_over="false">Kiedy olśni cię blask ogniska, <ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Jedną radę ci dam. <ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Gdy zakochasz się w szarej lilijce <ch a="a"/><ch a="d"/></row>
+			<row important_over="never">I w świetlanym harcerskim krzyżu, <ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Kiedy olśni cię blask ogniska, <ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Jedną radę ci dam. <ch a="E"/><ch a="a"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Załóż mundur i przypnij lilijkę, <ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Czapkę na bakier włóż, <ch a="G"/><ch a="C"/><ch a="E"/></row>
-			<row important_over="false">W szeregu stań wśród harcerzy <ch a="a"/><ch a="d"/></row>
-			<row important_over="false">I razem z nimi w świat rusz. <ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Załóż mundur i przypnij lilijkę, <ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Czapkę na bakier włóż, <ch a="G"/><ch a="C"/><ch a="E"/></row>
+			<row important_over="never">W szeregu stań wśród harcerzy <ch a="a"/><ch a="d"/></row>
+			<row important_over="never">I razem z nimi w świat rusz. <ch a="E"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Razem z nimi będziesz wędrował<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Po Łysicy i Świętym Krzyżu<ch a="E"/><ch a="a"/></row>
-			<row important_over="false">Poznasz piękno Gór Świętokrzyskich,<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Które powiedzą ci tak:<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Razem z nimi będziesz wędrował<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Po Łysicy i Świętym Krzyżu<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Poznasz piękno Gór Świętokrzyskich,<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Które powiedzą ci tak:<ch a="E"/><ch a="a"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Gdy po latach będziesz wspominał <ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Swą przygodę w harcerskiej drużynie,<ch a="E"/><ch a="a"/></row>
-			<row important_over="false">Swemu dziecku, co dorastać zaczyna<ch a="a"/><ch a="d"/></row>
-			<row important_over="false">Jedną radę mu dasz:<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Gdy po latach będziesz wspominał <ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Swą przygodę w harcerskiej drużynie,<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Swemu dziecku, co dorastać zaczyna<ch a="a"/><ch a="d"/></row>
+			<row important_over="never">Jedną radę mu dasz:<ch a="E"/><ch a="a"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

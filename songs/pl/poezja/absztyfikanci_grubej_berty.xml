@@ -16,84 +16,84 @@
       <row important_over="true"><ch a="e"/>całujcie w<ch a="D"/>y mnie wszyscy w d<ch a="e"/>upę. </row>
     </block>
     <block type="verse">
-      <row important_over="never">Socjały nudne i ponure,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">pedeki, neokatoliki,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">podskakiwacze pod kulturę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">czciciele radia i fizyki,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">uczone małpy, ścisłowiedzy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">co oglądacie świat przez lupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">i wszystko wiecie: co, jak, kiedy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Socjały nudne i ponure,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">pedeki, neokatoliki,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">podskakiwacze pod kulturę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">czciciele radia i fizyki,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">uczone małpy, ścisłowiedzy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">co oglądacie świat przez lupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">i wszystko wiecie: co, jak, kiedy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I ty, fortuny skurwysynu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">gówniarzu uperfumowany,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">co splendor oraz spleen Londynu<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">nosisz na mordzie zakazanej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">i ty co mieszkasz dziś w pałacu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">a srać chodziłeś za chałupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">ty wypasiony na Ikacu,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I ty, fortuny skurwysynu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">gówniarzu uperfumowany,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">co splendor oraz spleen Londynu<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">nosisz na mordzie zakazanej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">i ty co mieszkasz dziś w pałacu,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">a srać chodziłeś za chałupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">ty wypasiony na Ikacu,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I tem ów belfer szkoły żeńskiej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">co dużo chciałby, a nie może,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">i tem profesor Cy… wileński<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">/ Pan wie już za co, profesorze! /<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">I ty za młodu nie dorżnięta<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Megiero, co masz taki tupet,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">że szczujesz na mnie swe szczenięta;<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I tem ów belfer szkoły żeńskiej,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">co dużo chciałby, a nie może,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">i tem profesor Cy… wileński<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">/ Pan wie już za co, profesorze! /<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I ty za młodu nie dorżnięta<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Megiero, co masz taki tupet,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">że szczujesz na mnie swe szczenięta;<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I tem Syjontki palestyńskie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Hulace, co lejecie tkliwe<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">starozakonne łzy kretyńskie,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">że „szumią jodły w Tel - Avivie”,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">i wszechsłowiańscy marzyciele,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">zebrani w malowniczą trupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">z byle mistycznym kpem na czele,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I tem Syjontki palestyńskie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Hulace, co lejecie tkliwe<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">starozakonne łzy kretyńskie,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">że „szumią jodły w Tel - Avivie”,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">i wszechsłowiańscy marzyciele,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">zebrani w malowniczą trupę<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">z byle mistycznym kpem na czele,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I tem aryjskie rzeczoznawce,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">wypierdy germańskiego ducha<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">/ gdy swoją krew i waszą sprawdzę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">wierzcie mi, jedna będzie jucha /,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Karne pętaki i szturmowcy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">zuchy z Makabi czy Owupe,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">i rekordziści i sportowcy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I tem aryjskie rzeczoznawce,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">wypierdy germańskiego ducha<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">/ gdy swoją krew i waszą sprawdzę,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">wierzcie mi, jedna będzie jucha /,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Karne pętaki i szturmowcy,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">zuchy z Makabi czy Owupe,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">i rekordziści i sportowcy,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Izraeliccy doktorkowie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Widnia, żydowskiej Mekki, flance,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">co w Bochni, Stryju i Krakowie<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">szerzycie kulturalną francę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">którzy chlipiecie z „Naje Fraje”<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">swą intelektualną zupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">mądrale, oczytane faje,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Izraeliccy doktorkowie,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Widnia, żydowskiej Mekki, flance,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">co w Bochni, Stryju i Krakowie<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">szerzycie kulturalną francę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">którzy chlipiecie z „Naje Fraje”<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">swą intelektualną zupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">mądrale, oczytane faje,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I tem ględziarze i bajdury,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">ciągnący z nieba grubą rentę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">o, łapiduchy z Jasnej Góry,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">z Góry Kalwarii parchy święte,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">i ty księżuniu, co kutasa<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">zawiązanego masz na supeł,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">żeby ci czasem nie pohasał,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I tem ględziarze i bajdury,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">ciągnący z nieba grubą rentę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">o, łapiduchy z Jasnej Góry,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">z Góry Kalwarii parchy święte,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">i ty księżuniu, co kutasa<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">zawiązanego masz na supeł,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">żeby ci czasem nie pohasał,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">całujcie mnie wszyscy w dupę.<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">I wy, o których zapomniałem,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">lub pominąłem was przez litość,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">albo dlatego, że się bałem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">albo, że taka was obfitość,<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">i ty cenzorze, co za wiersz ten<ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">zapewne skażesz mnie na ciupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">I żem się stał świntuchów hersztem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Całujcie mnie wszyscy w dupę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I wy, o których zapomniałem,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">lub pominąłem was przez litość,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">albo dlatego, że się bałem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">albo, że taka was obfitość,<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">i ty cenzorze, co za wiersz ten<ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="false">zapewne skażesz mnie na ciupę,<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">I żem się stał świntuchów hersztem,<ch a="C"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Całujcie mnie wszyscy w dupę!<ch a="e"/><ch a="D"/><ch a="e"/></row>
     </block>
   </lyric>
   <keywords/>

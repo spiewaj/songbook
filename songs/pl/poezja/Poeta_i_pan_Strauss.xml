@@ -9,32 +9,32 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Odchodził stary rok<ch a="A"/><ch a="d"/></row>
-      <row important_over="false"><ch a="d"/>Rozpoczynał się sezon</row>
-      <row important_over="false"><ch a="A"/>Na zjazdy i bale</row>
-      <row important_over="false"><ch a="A"/>A biedny stary Strauss<ch a="d"/><ch a="A"/></row>
-      <row important_over="false"><ch a="A"/>W roku pańskim bieżącym</row>
-      <row important_over="false"><ch a="d"/>Nie szykował się wcale<ch a="A"/></row>
-      <row important_over="false"><ch a="d"/>Przeminął dawny walc<ch a="A"/><ch a="d"/></row>
-      <row important_over="false"><ch a="D7"/>I gdy świat gnał do przodu</row>
-      <row important_over="false"><ch a="g"/>By powitać rok nowy</row>
-      <row important_over="false"><ch a="g"/>Poeta kumpel z Polski wpadł<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Z zaproszeniem do kraju</row>
-      <row important_over="false"><ch a="A"/>Na bal sylwestrowy<ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Odchodził stary rok<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Rozpoczynał się sezon</row>
+      <row important_over="true"><ch a="A"/>Na zjazdy i bale</row>
+      <row important_over="true"><ch a="A"/>A biedny stary Strauss<ch a="d"/><ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>W roku pańskim bieżącym</row>
+      <row important_over="true"><ch a="d"/>Nie szykował się wcale<ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Przeminął dawny walc<ch a="A"/><ch a="d"/></row>
+      <row important_over="true"><ch a="D7"/>I gdy świat gnał do przodu</row>
+      <row important_over="true"><ch a="g"/>By powitać rok nowy</row>
+      <row important_over="true"><ch a="g"/>Poeta kumpel z Polski wpadł<ch a="d"/></row>
+      <row important_over="true"><ch a="E"/>Z zaproszeniem do kraju</row>
+      <row important_over="true"><ch a="A"/>Na bal sylwestrowy<ch a="A7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="g"/>Ten bal zaczynał się<ch a="d"/></row>
-      <row important_over="false"><ch a="A"/>Polonezem jak dawniej</row>
-      <row important_over="false"><ch a="g"/>Od sali do sali<ch a="D7"/></row>
-      <row important_over="false"><ch a="g"/>Poeta mówił wiersz<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Nie słuchany poemat</row>
-      <row important_over="false"><ch a="A"/>Ktoś potem pochwalił<ch a="A7"/></row>
-      <row important_over="false"><ch a="g"/>A gdy się skończył pląs<ch a="d"/></row>
-      <row important_over="false"><ch a="A"/>I na minut piętnaście</row>
-      <row important_over="false"><ch a="d"/>Pary tańczyć przestały<ch a="D7"/></row>
-      <row important_over="false"><ch a="g"/>Zza stołu krzyknął ktoś<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Ty artysta opowiedz</row>
-      <row important_over="false"><ch a="A"/>Nam lepiej jakiś kawał<ch a="A7"/></row>
+      <row important_over="true"><ch a="g"/>Ten bal zaczynał się<ch a="d"/></row>
+      <row important_over="true"><ch a="A"/>Polonezem jak dawniej</row>
+      <row important_over="true"><ch a="g"/>Od sali do sali<ch a="D7"/></row>
+      <row important_over="true"><ch a="g"/>Poeta mówił wiersz<ch a="d"/></row>
+      <row important_over="true"><ch a="E"/>Nie słuchany poemat</row>
+      <row important_over="true"><ch a="A"/>Ktoś potem pochwalił<ch a="A7"/></row>
+      <row important_over="true"><ch a="g"/>A gdy się skończył pląs<ch a="d"/></row>
+      <row important_over="true"><ch a="A"/>I na minut piętnaście</row>
+      <row important_over="true"><ch a="d"/>Pary tańczyć przestały<ch a="D7"/></row>
+      <row important_over="true"><ch a="g"/>Zza stołu krzyknął ktoś<ch a="d"/></row>
+      <row important_over="true"><ch a="E"/>Ty artysta opowiedz</row>
+      <row important_over="true"><ch a="A"/>Nam lepiej jakiś kawał<ch a="A7"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Pomyślał stary Strauss<ch a="A"/><ch a="d"/></row>
@@ -114,7 +114,7 @@
       <row important_over="false"><ch a="A"/>Fabrycznych syren<ch a="A7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Na, na, na…<ch a="A"/><ch a="A7"/><ch a="d"/><ch a="D7"/><ch a="g"/><ch a="d"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="true"><ch a="d"/>Na, na, na…<ch a="A"/><ch a="A7"/><ch a="d"/><ch a="D7"/><ch a="g"/><ch a="d"/><ch a="E"/><ch a="A"/></row>
     </block>
   </lyric>
   <music metre="">

@@ -17,12 +17,12 @@
 			<row important_over="true">Napi<ch a="F"/>ęci, na wsz<ch a="E"/>ystko gotowi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Wchł<ch a="a"/>aniamy łapczywie wielkimi kęsami,</row>
-			<row important_over="false">Łyk<ch a="F"/>amy alkohol aż w<ch a="a"/>arczy nam w grdykach,</row>
-			<row important_over="false">Bekni<ch a="F"/>emy czasami, pierdni<ch a="a"/>emy czasami,</row>
-			<row important_over="false">Aż z ł<ch a="E9"/>aw w ciepło wzb<ch a="E"/>ija się w<ch a="E9"/>oń wędrown<ch a="E"/>ika</row>
-			<row important_over="false">I pł<ch a="F"/>ynie pod ściany miejsc<ch a="E"/>owych jak ręka</row>
-			<row important_over="false">Co m<ch a="F"/>ówi - przestańcie się l<ch a="E"/>ękać,</row>
+			<row important_over="true">Wchł<ch a="a"/>aniamy łapczywie wielkimi kęsami,</row>
+			<row important_over="true">Łyk<ch a="F"/>amy alkohol aż w<ch a="a"/>arczy nam w grdykach,</row>
+			<row important_over="true">Bekni<ch a="F"/>emy czasami, pierdni<ch a="a"/>emy czasami,</row>
+			<row important_over="true">Aż z ł<ch a="E9"/>aw w ciepło wzb<ch a="E"/>ija się w<ch a="E9"/>oń wędrown<ch a="E"/>ika</row>
+			<row important_over="true">I pł<ch a="F"/>ynie pod ściany miejsc<ch a="E"/>owych jak ręka</row>
+			<row important_over="true">Co m<ch a="F"/>ówi - przestańcie się l<ch a="E"/>ękać,</row>
 			<bis times="2">
 				<row important_over="true">Co m<ch a="a"/>ówi - przestańcie się lękać.</row>
 			</bis>
@@ -66,12 +66,12 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">Pij<ch a="a"/>emy i każdy już ma coś na oku —</row>
-			<row important_over="false">Ten n<ch a="F"/>ocleg w piekarni, ten p<ch a="a"/>annę piersiastą,</row>
-			<row important_over="false">Świt zn<ch a="F"/>ajdzie nas znowu za mi<ch a="a"/>astem na stoku,</row>
-			<row important_over="false">Gdzie n<ch a="E9"/>ikt tak napr<ch a="E"/>awdę nic ni<ch a="E9"/>e ma na wł<ch a="E"/>asność,</row>
-			<row important_over="false">A w<ch a="F"/>am pozostanie pi<ch a="E"/>osenka i sny:</row>
-			<row important_over="false">-- My dzi<ch a="F"/>eci wolności, bezd<ch a="E"/>omne my psy…</row>
+			<row important_over="true">Pij<ch a="a"/>emy i każdy już ma coś na oku —</row>
+			<row important_over="true">Ten n<ch a="F"/>ocleg w piekarni, ten p<ch a="a"/>annę piersiastą,</row>
+			<row important_over="true">Świt zn<ch a="F"/>ajdzie nas znowu za mi<ch a="a"/>astem na stoku,</row>
+			<row important_over="true">Gdzie n<ch a="E9"/>ikt tak napr<ch a="E"/>awdę nic ni<ch a="E9"/>e ma na wł<ch a="E"/>asność,</row>
+			<row important_over="true">A w<ch a="F"/>am pozostanie pi<ch a="E"/>osenka i sny:</row>
+			<row important_over="true">-- My dzi<ch a="F"/>eci wolności, bezd<ch a="E"/>omne my psy…</row>
 			<row important_over="true"><ch a="a"/> Dzieci wolności…</row>
 			<bis times="3">
 				<row important_over="true"><ch a="a"/> Dzieci wolności, psy…</row>

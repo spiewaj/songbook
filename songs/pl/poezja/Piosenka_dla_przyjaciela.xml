@@ -31,7 +31,7 @@
 			<row important_over="true">Popatrz zn<ch a="G"/>owu kw<ch a="e"/>itnie j<ch a="A"/>abłoń,</row>
 			<row important_over="true">Przyjaci<ch a="G"/>elu gwi<ch a="e"/>azda sp<ch a="A"/>adł<ch a="D"/>a.</row>
 			<bis times="2">
-				<row style="instr"><ch a="F7+"/><ch a="a"/><ch a="D"/></row>
+				<row important_over="false" style="instr"><ch a="F7+"/><ch a="a"/><ch a="D"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -53,7 +53,7 @@
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<bis times="4">
-				<row important_over="false">
+				<row important_over="true">
 					<ch a="F7+"/>Mó<ch a="a"/>j Przyjaci<ch a="D"/>elu…</row>
 			</bis>
 		</block>

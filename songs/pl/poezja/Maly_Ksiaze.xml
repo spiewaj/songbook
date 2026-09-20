@@ -9,11 +9,11 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Gdzie jesteś Mały Książę gdzie</row>
-      <row important_over="false"><ch a="E7"/>Odszedłeś z mej książeczki kart<ch a="F"/></row>
+      <row important_over="true"><ch a="C"/>Gdzie jesteś Mały Książę gdzie</row>
+      <row important_over="true"><ch a="E7"/>Odszedłeś z mej książeczki kart<ch a="F"/></row>
       <bis>
-        <row important_over="false"><ch a="F"/>Czy po pustyni błądzisz znów<ch a="G"/><ch a="C"/><ch a="a"/></row>
-        <row important_over="false"><ch a="d"/>Rozmawiasz z echem pośród skał<ch a="G"/><ch a="C"/><ch a="C7"/></row>
+        <row important_over="true"><ch a="F"/>Czy po pustyni błądzisz znów<ch a="G"/><ch a="C"/><ch a="a"/></row>
+        <row important_over="true"><ch a="d"/>Rozmawiasz z echem pośród skał<ch a="G"/><ch a="C"/><ch a="C7"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -35,8 +35,8 @@
       <row important_over="false"><ch a="d"/>Gdy ujrzał park z tysiącem róż<ch a="G"/><ch a="C"/><ch a="C7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Nie wierz swym oczom szepną wiatr</row>
-      <row important_over="false">Jeżeli kochasz sercem patrz</row>
+      <row important_over="never">Nie wierz swym oczom szepną wiatr</row>
+      <row important_over="never">Jeżeli kochasz sercem patrz</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Zrozumiał wtedy książę to</row>

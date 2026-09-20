@@ -20,21 +20,21 @@
 			<row important_over="never">Póki tyle jest muzyki jeszcze w nas<ch a="F"/><ch a="G"/><ch a="F"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A kiedy zabraknie przyjaciół<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="false">By wieczór przegadać do rana<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="false">To przecież masz jeszcze swoją gitarę<ch a="a"/><ch a="F"/></row>
-			<row important_over="false">Strun kilka, melodii parę<ch a="F"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="false">Gdy piasek nie chce się wsypać<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="false">Pod oczy i do snu zaprosić<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="false">To trzeba gdzieś odejść, by dłużej nie płakać<ch a="a"/><ch a="F"/></row>
-			<row important_over="false">I smutku w swym sercu nie nosić<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="never">A kiedy zabraknie przyjaciół<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+			<row important_over="never">By wieczór przegadać do rana<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
+			<row important_over="never">To przecież masz jeszcze swoją gitarę<ch a="a"/><ch a="F"/></row>
+			<row important_over="never">Strun kilka, melodii parę<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="never">Gdy piasek nie chce się wsypać<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+			<row important_over="never">Pod oczy i do snu zaprosić<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
+			<row important_over="never">To trzeba gdzieś odejść, by dłużej nie płakać<ch a="a"/><ch a="F"/></row>
+			<row important_over="never">I smutku w swym sercu nie nosić<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Gdy włożą cię w dębową skrzynkę<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="false">Niech włożą razem z gitarą<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="false">Niech w niebie ci grają struny srebrzyste<ch a="a"/><ch a="F"/></row>
-			<row important_over="false">Melodię twą ukochaną<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="never">Gdy włożą cię w dębową skrzynkę<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
+			<row important_over="never">Niech włożą razem z gitarą<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
+			<row important_over="never">Niech w niebie ci grają struny srebrzyste<ch a="a"/><ch a="F"/></row>
+			<row important_over="never">Melodię twą ukochaną<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

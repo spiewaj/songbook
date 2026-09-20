@@ -9,12 +9,12 @@
   <original_title>Marinette</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Ujrzałem po raz pierwszy ją <ch a="D"/>gdzieś w tłumie na ulicy</row>
-      <row important_over="false"><ch a="D"/>i pierwszym już spojrzeniem <ch a="D"/>do swych stóp rzuciła mnie.<ch a="D7"/></row>
+      <row important_over="true"><ch a="D"/>Ujrzałem po raz pierwszy ją <ch a="D"/>gdzieś w tłumie na ulicy</row>
+      <row important_over="true"><ch a="D"/>i pierwszym już spojrzeniem <ch a="D"/>do swych stóp rzuciła mnie.<ch a="D7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/>Zdumiony, tylko gębę głupio <ch a="A"/><ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
-      <row important_over="false"><ch a="E"/>wybałuszyłem durne ślepia swe<ch a="A"/><ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Zdumiony, tylko gębę głupio <ch a="A"/><ch a="D"/>rozdziawiłem,<ch a="H7"/></row>
+      <row important_over="true"><ch a="E"/>wybałuszyłem durne ślepia swe<ch a="A"/><ch a="D"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">

@@ -14,10 +14,10 @@
 			<row important_over="true">
 				<ch a="E7"/>Inspiratorów wkrótce wykryć da się</row>
 			<row important_over="true">Wci<ch a="a"/>ąż niepoprawni Polaczkowie młodzi</row>
-			<row important_over="false">Ten L<ch a="a"/>evittoux był hersztem jak się zdaje</row>
-			<row important_over="false">Przez n<ch a="d"/>iego w duszę sączy się trucizna</row>
-			<row important_over="false">Śl<ch a="E7"/>edztwo prowadźcie zgodnie ze zwyczajem</row>
-			<row important_over="false">W m<ch a="a"/>ig się przyzna prędko się przyzna</row>
+			<row important_over="true">Ten L<ch a="a"/>evittoux był hersztem jak się zdaje</row>
+			<row important_over="true">Przez n<ch a="d"/>iego w duszę sączy się trucizna</row>
+			<row important_over="true">Śl<ch a="E7"/>edztwo prowadźcie zgodnie ze zwyczajem</row>
+			<row important_over="true">W m<ch a="a"/>ig się przyzna prędko się przyzna</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Drogi p<ch a="a"/>anie Levittoux</row>
@@ -81,10 +81,10 @@
 			<row important_over="false">Co już n<ch a="a"/>ic nie powie, nie powie</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Zw<ch a="a"/>ęglone resztki wyniesiono rano</row>
-			<row important_over="false">B<ch a="d"/>ól szybko wsiąka w kamień cytadeli</row>
-			<row important_over="false">P<ch a="a"/>o incydencie tym rozkaz wydano</row>
-			<row important_over="false">By wi<ch a="E7"/>ęźniom światła nie dawać do celi</row>
+			<row important_over="true">Zw<ch a="a"/>ęglone resztki wyniesiono rano</row>
+			<row important_over="true">B<ch a="d"/>ól szybko wsiąka w kamień cytadeli</row>
+			<row important_over="true">P<ch a="a"/>o incydencie tym rozkaz wydano</row>
+			<row important_over="true">By wi<ch a="E7"/>ęźniom światła nie dawać do celi</row>
 		</block>
 	</lyric>
 	<music metre="4/4">

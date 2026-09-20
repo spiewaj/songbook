@@ -9,13 +9,13 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="G"/>Bardzo śmiesznie jest umierać<ch a="a"/></row>
-      <row important_over="false"><ch a="C"/>Kiedy żyć byś chciał<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Bardzo śmiesznie jest umierać<ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Kiedy żyć byś chciał<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
-        <row important_over="false"><ch a="a"/>Kiedy jesteś Brown<ch a="H"/><ch a="e"/></row>
+        <row important_over="true"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
+        <row important_over="true"><ch a="a"/>Kiedy jesteś Brown<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">

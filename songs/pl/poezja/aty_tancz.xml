@@ -9,34 +9,34 @@
       <row important_over="false" style="instr"> <ch a="D"/><ch a="C"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Zawitał czar <ch a="C"/>poezji   </row>
-      <row important_over="false"><ch a="G"/>Z właścicielem słów i <ch a="D"/>wierszy</row>
-      <row important_over="never">Rozlano pierwsze butelki<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Z wina źródła pociechy<ch a="G"/><ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Zawitał czar <ch a="C"/>poezji   </row>
+      <row important_over="true"><ch a="G"/>Z właścicielem słów i <ch a="D"/>wierszy</row>
+      <row important_over="true">Rozlano pierwsze butelki<ch a="D"/><ch a="C"/></row>
+      <row important_over="true">Z wina źródła pociechy<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Marek cichutko zaśpiewa<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">O wiośnie w oknach swej strzechy<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Rozpoczął się bal poetów<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">W mym pokoju gości wielu<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Marek cichutko zaśpiewa<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">O wiośnie w oknach swej strzechy<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Rozpoczął się bal poetów<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">W mym pokoju gości wielu<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">A ty tańcz moja zasłono<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">I ty, papierowy lampionie<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">I tańcz moja koszulo<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Wietrze owiewaj me dłonie<ch a="G"/><ch a="D"/></row>
+      <row important_over="true">A ty tańcz moja zasłono<ch a="D"/><ch a="C"/></row>
+      <row important_over="true">I ty, papierowy lampionie<ch a="G"/><ch a="D"/></row>
+      <row important_over="true">I tańcz moja koszulo<ch a="D"/><ch a="C"/></row>
+      <row important_over="true">Wietrze owiewaj me dłonie<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Jak gołębie lecące<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Jak łabędzie po jeziorze płynące<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Falą łodzie bujane<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Mały człowiek w kołysce się śmieje<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Jak gołębie lecące<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Jak łabędzie po jeziorze płynące<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Falą łodzie bujane<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Mały człowiek w kołysce się śmieje<ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Tabun kolorowych wozów<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Na łące się zatrzymał<ch a="G"/><ch a="D"/></row>
-      <row important_over="never">Kare konie skubią trawę<ch a="D"/><ch a="C"/></row>
-      <row important_over="never">Motyle ganiają się<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Tabun kolorowych wozów<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Na łące się zatrzymał<ch a="G"/><ch a="D"/></row>
+      <row important_over="false">Kare konie skubią trawę<ch a="D"/><ch a="C"/></row>
+      <row important_over="false">Motyle ganiają się<ch a="G"/><ch a="D"/></row>
     </block>
     <blocklink blocknb="4"/>
   </lyric>

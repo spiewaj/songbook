@@ -10,13 +10,13 @@ Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystk
 		<block type="verse">
 			<row important_over="true"><ch a="D"/> Ja nie wesoła, <ch a="A"/>ale z kokardą,</row>
 			<row important_over="true">L<ch a="h"/>ecę do słońca, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
-			<row important_over="false"><ch a="D"/> A ja się kręcę, b<ch a="A"/>o stać nie warto,</row>
-			<row important_over="false">N<ch a="h"/>aprzód planeto, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
+			<row important_over="true"><ch a="D"/> A ja się kręcę, b<ch a="A"/>o stać nie warto,</row>
+			<row important_over="true">N<ch a="h"/>aprzód planeto, h<ch a="G"/>ej Leon<ch a="A"/>ardo!</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
-				<row important_over="false">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
+				<row important_over="true">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
+				<row important_over="true">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
 			</bis>
 		</block>
 		<block type="verse">

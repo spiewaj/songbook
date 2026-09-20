@@ -15,16 +15,16 @@
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Wid<ch a="C"/>zę<ch a="A"/>, jak się dookoła topią,</row>
-      <row important_over="false"><ch a="d"/>Wid<ch a="C"/>zę<ch a="G"/> jak chodzą szukać swego wybawienia boso,</row>
-      <row important_over="false"><ch a="d"/>Wci<ch a="C"/>ąg<ch a="A"/>a cały świat ich aż po szyję,</row>
-      <row important_over="false"><ch a="d"/>A j<ch a="C"/>a <ch a="G"/>nie pomogę, no bo lubię moją ciszę.</row>
+      <row important_over="true"><ch a="d"/>Wid<ch a="C"/>zę<ch a="A"/>, jak się dookoła topią,</row>
+      <row important_over="true"><ch a="d"/>Wid<ch a="C"/>zę<ch a="G"/> jak chodzą szukać swego wybawienia boso,</row>
+      <row important_over="true"><ch a="d"/>Wci<ch a="C"/>ąg<ch a="A"/>a cały świat ich aż po szyję,</row>
+      <row important_over="true"><ch a="d"/>A j<ch a="C"/>a <ch a="G"/>nie pomogę, no bo lubię moją ciszę.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="d"/>A g<ch a="C"/>dybyś tak umiał czuć tak jak ja</row>
-      <row important_over="false"><ch a="B"/>I c<ch a="A"/>hciałbyś sam się otworzyć na świat</row>
-      <row important_over="false"><ch a="d"/>Ogl<ch a="C"/>ądasz choć jest tak mało światła</row>
-      <row important_over="false"><ch a="G"/>Pr<ch a="A"/>ze<ch a="d"/>stań zwiedzać świat</row>
+      <row important_over="true"><ch a="d"/>A g<ch a="C"/>dybyś tak umiał czuć tak jak ja</row>
+      <row important_over="true"><ch a="B"/>I c<ch a="A"/>hciałbyś sam się otworzyć na świat</row>
+      <row important_over="true"><ch a="d"/>Ogl<ch a="C"/>ądasz choć jest tak mało światła</row>
+      <row important_over="true"><ch a="G"/>Pr<ch a="A"/>ze<ch a="d"/>stań zwiedzać świat</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="d"/>Sły<ch a="C"/>sz<ch a="A"/>ę, jak mi strasznie bije serce,</row>

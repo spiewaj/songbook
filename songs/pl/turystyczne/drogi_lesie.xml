@@ -21,10 +21,10 @@
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="true"><ch a="G/E"/>Nad gó<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/>--<ch a="G/E"/>nad la<ch a="G"/>sami,<ch a="G/E"/>--- <ch a="G"/></row>
-      <row important_over="true"><ch a="G/E"/>Słońce <ch a="G"/>bawi się<ch a="G/E"/>--- <ch a="G"/>--w <ch a="G/E"/>berka z chmu<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/></row>
-      <row important_over="true"><ch a="D"/> Byle dalej od zachodu,</row>
-      <row important_over="true">Jutro <ch a="C"/>harce znów od <ch a="G"/>wschodu.<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="false"><ch a="G/E"/>Nad gó<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/>--<ch a="G/E"/>nad la<ch a="G"/>sami,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="false"><ch a="G/E"/>Słońce <ch a="G"/>bawi się<ch a="G/E"/>--- <ch a="G"/>--w <ch a="G/E"/>berka z chmu<ch a="G"/>rami,<ch a="G/E"/>--- <ch a="G"/></row>
+      <row important_over="false"><ch a="D"/> Byle dalej od zachodu,</row>
+      <row important_over="false">Jutro <ch a="C"/>harce znów od <ch a="G"/>wschodu.<ch a="G/E"/>--- <ch a="G"/></row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="1"/>

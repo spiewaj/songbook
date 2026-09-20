@@ -3,30 +3,30 @@
 	<artist type="solo">Lady Pank</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Marchewkowe pole rośnie wokół mnie</row>
-			<row important_over="false">W marchewkowym</row>
-			<row important_over="false">Polu jak warzywo tkwię</row>
-			<row important_over="false">Głową na dół</row>
-			<row important_over="false">Zakopany niczym struś</row>
-			<row important_over="false">Chcesz mnie spotkać</row>
-			<row important_over="false">Głowę obok w ziemię włóż</row>
+			<row important_over="never">Marchewkowe pole rośnie wokół mnie</row>
+			<row important_over="never">W marchewkowym</row>
+			<row important_over="never">Polu jak warzywo tkwię</row>
+			<row important_over="never">Głową na dół</row>
+			<row important_over="never">Zakopany niczym struś</row>
+			<row important_over="never">Chcesz mnie spotkać</row>
+			<row important_over="never">Głowę obok w ziemię włóż</row>
 		</block>
 		<block type="chorus"><bis times="2">
-				<row important_over="false">Wszystko się może zdarzyć</row></bis>
+				<row important_over="never">Wszystko się może zdarzyć</row></bis>
 		</block>
 		<block type="other">
 			<row important_over="false" style="instr">
 				<ch a="D"/><ch a="A"/><ch a="G"/><ch a="F"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Marchewkowe</row>
-			<row important_over="false">O ogrodzie miewam sny</row>
-			<row important_over="false">W marchewkowym</row>
-			<row important_over="false">Stanie jest najlepiej mi</row>
-			<row important_over="false">Rosnę sobie</row>
-			<row important_over="false">Dołem głowa górą nać</row>
-			<row important_over="false">Kto mi powie</row>
-			<row important_over="false">Co się jeszcze może stać</row>
+			<row important_over="never">Marchewkowe</row>
+			<row important_over="never">O ogrodzie miewam sny</row>
+			<row important_over="never">W marchewkowym</row>
+			<row important_over="never">Stanie jest najlepiej mi</row>
+			<row important_over="never">Rosnę sobie</row>
+			<row important_over="never">Dołem głowa górą nać</row>
+			<row important_over="never">Kto mi powie</row>
+			<row important_over="never">Co się jeszcze może stać</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

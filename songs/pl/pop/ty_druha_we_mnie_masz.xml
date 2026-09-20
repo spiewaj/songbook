@@ -37,9 +37,9 @@
       <row important_over="true"><ch a="F"/> Gdzie Ja tam <ch a="C"/>Ty, w <ch a="E"/>złe i dobre <ch a="a"/>dni</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+      <row important_over="true"><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       <bis times="2">
-        <row important_over="false"><ch a="A"/><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
+        <row important_over="true"><ch a="A"/><ch a="D7"/> Ty druha <ch a="G"/>we mnie <ch a="C"/>masz</row>
       </bis>
     </block>
     <block type="other">

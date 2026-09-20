@@ -28,9 +28,9 @@
 		</block>
 		<block type="verse">
 			<row important_over="true">On tymcz<ch a="E"/>asem mówi - Stany Zjedn<ch a="a"/>oczone</row>
-			<row important_over="false">To najwi<ch a="E"/>ększe państwo z wszystkich świata p<ch a="a"/>aństw!</row>
-			<row important_over="false">W bankach zł<ch a="E"/>ota ma zasoby niezlicz<ch a="a"/>one,</row>
-			<row important_over="false">Chcesz z nim z<ch a="E"/>acząć to już nie masz żadnych sz<ch a="a"/>ans.</row>
+			<row important_over="true">To najwi<ch a="E"/>ększe państwo z wszystkich świata p<ch a="a"/>aństw!</row>
+			<row important_over="true">W bankach zł<ch a="E"/>ota ma zasoby niezlicz<ch a="a"/>one,</row>
+			<row important_over="true">Chcesz z nim z<ch a="E"/>acząć to już nie masz żadnych sz<ch a="a"/>ans.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">A ja n<ch a="a"/>a to - Kreml w ni<ch a="E"/>ebo śle raki<ch a="a"/>ety!</row>

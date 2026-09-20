@@ -18,12 +18,12 @@
       <row important_over="true">Lep<ch a="a"/>iej ze mną nabijaj s<ch a="G"/>wój trzos <ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">C<ch a="C"/>hodźmy razem więc w drogę</row>
-      <row important_over="false"><ch a="F"/>Będziesz mówił o Bogu</row>
-      <row important_over="false"><ch a="C"/>Ja ci zrobię fanta<ch a="G"/>styczny PR <ch a="F"/></row>
-      <row important_over="false">K<ch a="e"/>iedy trzeba się schowam</row>
-      <row important_over="false">Kiedy trzeba<ch a="a"/> zachowam <ch a="F"/></row>
-      <row important_over="false">Jeste<ch a="a"/>m Lucy, a ty będzies<ch a="G"/>z big star <ch a="C"/></row>
+      <row important_over="true">C<ch a="C"/>hodźmy razem więc w drogę</row>
+      <row important_over="true"><ch a="F"/>Będziesz mówił o Bogu</row>
+      <row important_over="true"><ch a="C"/>Ja ci zrobię fanta<ch a="G"/>styczny PR <ch a="F"/></row>
+      <row important_over="true">K<ch a="e"/>iedy trzeba się schowam</row>
+      <row important_over="true">Kiedy trzeba<ch a="a"/> zachowam <ch a="F"/></row>
+      <row important_over="true">Jeste<ch a="a"/>m Lucy, a ty będzies<ch a="G"/>z big star <ch a="C"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Popatrz jak tu jest pięknie</row>
@@ -42,12 +42,12 @@
       <row important_over="false">Ja ci <ch a="a"/>zrobię fant<ch a="G"/>astyczny PR <ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Mój alkohol ma power</row>
-      <row important_over="false"><ch a="G"/>Na twe smutki i żale</row>
-      <row important_over="false"><ch a="C"/>Teraz dobrze to<ch a="G"/> czujesz i wie<ch a="F"/>sz</row>
-      <row important_over="false"><ch a="e"/>Nawet Jezus pił wino</row>
-      <row important_over="false">Więc <ch a="a"/>się napij z dziewczyn<ch a="F"/>ą</row>
-      <row important_over="false">A po <ch a="a"/>kłótni najl<ch a="G"/>epszy jest sek<ch a="C"/>s</row>
+      <row important_over="true"><ch a="C"/>Mój alkohol ma power</row>
+      <row important_over="true"><ch a="G"/>Na twe smutki i żale</row>
+      <row important_over="true"><ch a="C"/>Teraz dobrze to<ch a="G"/> czujesz i wie<ch a="F"/>sz</row>
+      <row important_over="true"><ch a="e"/>Nawet Jezus pił wino</row>
+      <row important_over="true">Więc <ch a="a"/>się napij z dziewczyn<ch a="F"/>ą</row>
+      <row important_over="true">A po <ch a="a"/>kłótni najl<ch a="G"/>epszy jest sek<ch a="C"/>s</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Patrz kobiety cię pragnę</row>
@@ -90,9 +90,9 @@
       <row important_over="false">Jest<ch a="a"/>em Lucy Pher<ch a="G"/>e a ty będziesz <ch a="C"/>big star</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Kiedy trzeba się schowam</row>
-      <row important_over="false">Kied<ch a="a"/>y trzeba zachowa<ch a="F"/>m</row>
-      <row important_over="false">Jest<ch a="a"/>em Lucy a ty b<ch a="G"/>ędziesz big star<ch a="C"/></row>
+      <row important_over="true"><ch a="e"/>Kiedy trzeba się schowam</row>
+      <row important_over="true">Kied<ch a="a"/>y trzeba zachowa<ch a="F"/>m</row>
+      <row important_over="true">Jest<ch a="a"/>em Lucy a ty b<ch a="G"/>ędziesz big star<ch a="C"/></row>
     </block>
   </lyric>
   <music>

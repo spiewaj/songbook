@@ -42,7 +42,7 @@
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row style="instr"><ch a="a"/><ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="d"/><ch a="E"/></row>
+			<row important_over="false" style="instr"><ch a="a"/><ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="d"/><ch a="E"/></row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>

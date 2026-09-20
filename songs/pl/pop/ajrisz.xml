@@ -9,19 +9,19 @@
       <row important_over="true">że <ch a="G"/>Polska <ch a="A"/>pokona <ch a="D"/>Anglię</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>drugi strong trzeci strong</row>
-      <row important_over="false"><ch a="D"/>rozmawiamy <ch a="G"/>bez wytchnienia</row>
-      <row important_over="false"><ch a="D"/>o uczuciu które jest</row>
-      <row important_over="false">naj<ch a="G"/>lepsze <ch a="A"/>bez w<ch a="D"/>ątpienia</row>
+      <row important_over="true"><ch a="D"/>drugi strong trzeci strong</row>
+      <row important_over="true"><ch a="D"/>rozmawiamy <ch a="G"/>bez wytchnienia</row>
+      <row important_over="true"><ch a="D"/>o uczuciu które jest</row>
+      <row important_over="true">naj<ch a="G"/>lepsze <ch a="A"/>bez w<ch a="D"/>ątpienia</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>ty mnie chyba nie znasz</row>
-      <row important_over="false">i <ch a="A"/>nie rozumiesz nic</row>
+      <row important_over="true"><ch a="D"/>ty mnie chyba nie znasz</row>
+      <row important_over="true">i <ch a="A"/>nie rozumiesz nic</row>
       <bis times="2">
-        <row important_over="false">bo ty <ch a="G"/>nie wiesz jak się tutaj pije</row>
-        <row important_over="false">ko<ch a="G"/>lejnej <ch a="A"/>wiosny <ch a="D"/>łyk</row>
-        <row important_over="false">ko<ch a="D"/>lejnej wiosny łyk</row>
-        <row important_over="false">ko<ch a="D"/>lejnej wiosny <ch a="G"/>łyk</row>
+        <row important_over="true">bo ty <ch a="G"/>nie wiesz jak się tutaj pije</row>
+        <row important_over="true">ko<ch a="G"/>lejnej <ch a="A"/>wiosny <ch a="D"/>łyk</row>
+        <row important_over="true">ko<ch a="D"/>lejnej wiosny łyk</row>
+        <row important_over="true">ko<ch a="D"/>lejnej wiosny <ch a="G"/>łyk</row>
       </bis>
     </block>
     <block type="verse">

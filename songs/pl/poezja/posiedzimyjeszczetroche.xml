@@ -29,10 +29,10 @@
       <row important_over="false" style="instr"> <ch a="A"/><ch a="e"/><ch a="A"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Na posrebrzonej po<ch a="A"/>lanie</row>
-      <row important_over="false"><ch a="e"/> noc położyła się <ch a="A"/>w trawie</row>
-      <row important_over="false"><ch a="D"/> gdzieś w rozpuszczonych jej <ch a="h"/>włosach</row>
-      <row important_over="false">znowu <ch a="C"/>snu<ch a="D"/> nie <ch a="e"/>odnajdę...</row>
+      <row important_over="true">Na posrebrzonej po<ch a="A"/>lanie</row>
+      <row important_over="true"><ch a="e"/> noc położyła się <ch a="A"/>w trawie</row>
+      <row important_over="true"><ch a="D"/> gdzieś w rozpuszczonych jej <ch a="h"/>włosach</row>
+      <row important_over="true">znowu <ch a="C"/>snu<ch a="D"/> nie <ch a="e"/>odnajdę...</row>
     </block>
     <blocklink blocknb="1"/>
   </lyric>

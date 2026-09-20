@@ -27,14 +27,14 @@
       <row important_over="false" style="instr"> <ch a="e"/><ch a="C"/><ch a="H7"/><ch a="e"/><ch a="C"/><ch a="H7"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Mgły strącając p<ch a="D"/>o dolinach</row>
-      <row important_over="false"><ch a="G"/> Jesień w<ch a="D"/>ozem j<ch a="H7"/>edzie</row>
-      <row important_over="false"><ch a="e"/> Znarowione k<ch a="D"/>onie spina</row>
-      <row important_over="false">W<ch a="e"/>orek chl<ch a="H7"/>eba wi<ch a="e"/>ezie</row>
-      <row important_over="false">I n<ch a="C"/>aszym woł<ch a="G"/>aniem</row>
-      <row important_over="false">Zmęcz<ch a="C"/>ona odch<ch a="H7"/>odzi</row>
-      <row important_over="false"><ch a="e"/> Tylko echo w<ch a="D"/>yprowadza</row>
-      <row important_over="false"><ch a="C"/> Na rozst<ch a="H7"/>ajne dr<ch a="e"/>ogi</row>
+      <row important_over="true">Mgły strącając p<ch a="D"/>o dolinach</row>
+      <row important_over="true"><ch a="G"/> Jesień w<ch a="D"/>ozem j<ch a="H7"/>edzie</row>
+      <row important_over="true"><ch a="e"/> Znarowione k<ch a="D"/>onie spina</row>
+      <row important_over="true">W<ch a="e"/>orek chl<ch a="H7"/>eba wi<ch a="e"/>ezie</row>
+      <row important_over="true">I n<ch a="C"/>aszym woł<ch a="G"/>aniem</row>
+      <row important_over="true">Zmęcz<ch a="C"/>ona odch<ch a="H7"/>odzi</row>
+      <row important_over="true"><ch a="e"/> Tylko echo w<ch a="D"/>yprowadza</row>
+      <row important_over="true"><ch a="C"/> Na rozst<ch a="H7"/>ajne dr<ch a="e"/>ogi</row>
       <row important_over="false" style="instr"> <ch a="e"/><ch a="C"/><ch a="H7"/></row>
     </block>
     <blocklink blocknb="2"/>

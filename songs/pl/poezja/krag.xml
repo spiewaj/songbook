@@ -11,10 +11,10 @@
 		<block type="verse">
 			<row important_over="true">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu świ<ch a="D"/>atło</row>
 			<row important_over="true">Wys<ch a="G"/>okich j<ch a="D"/>asnych gwi<ch a="A"/>azd.</row>
-			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu pł<ch a="D"/>omień,</row>
-			<row important_over="false">Ogn<ch a="G"/>iska ci<ch a="D"/>epły bl<ch a="A"/>ask.</row>
-			<row important_over="false">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu r<ch a="D"/>adość,</row>
-			<row important_over="false">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd.</row>
+			<row important_over="true">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu pł<ch a="D"/>omień,</row>
+			<row important_over="true">Ogn<ch a="G"/>iska ci<ch a="D"/>epły bl<ch a="A"/>ask.</row>
+			<row important_over="true">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu r<ch a="D"/>adość,</row>
+			<row important_over="true">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd.</row>
 			<bis times="2">
 				<row important_over="true">A p<ch a="G"/>otem br<ch a="A"/>atnie sł<ch a="D"/>ow<ch a="G"/>o</row>
 				<row important_over="true">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>

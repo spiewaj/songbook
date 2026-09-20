@@ -20,12 +20,12 @@
 			<row important_over="true">
 				<ch a="a"/>Przy brzegu konał sm<ch a="G"/>ukły br<ch a="a"/>yg,</row>
 			<row important_over="true">Na pom<ch a="d"/>oc "Mona" p<ch a="e"/>oszła m<ch a="a"/>u.</row>
-			<row important_over="false"></row>
-			<row important_over="false">Gd<ch a="a"/>y przyszedł sygnał k<ch a="G"/>ażdy z n<ch a="a"/>ich</row>
-			<row important_over="false">Wp<ch a="a"/>ół dojedzonej strawy dzb<ch a="e"/>an</row>
-			<row important_over="false">
+			<row important_over="never"></row>
+			<row important_over="true">Gd<ch a="a"/>y przyszedł sygnał k<ch a="G"/>ażdy z n<ch a="a"/>ich</row>
+			<row important_over="true">Wp<ch a="a"/>ół dojedzonej strawy dzb<ch a="e"/>an</row>
+			<row important_over="true">
 				<ch a="a"/>Porzucił by na prz<ch a="G"/>ystań b<ch a="a"/>iec,</row>
-			<row important_over="false">By rusz<ch a="d"/>yć w dziki z m<ch a="e"/>orzem t<ch a="a"/>an.</row>
+			<row important_over="true">By rusz<ch a="d"/>yć w dziki z m<ch a="e"/>orzem t<ch a="a"/>an.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">B<ch a="a"/>ył pięćdziesiąty dzi<ch a="G"/>ewiąty r<ch a="a"/>ok,</row>
@@ -38,7 +38,7 @@
 			<row important_over="false">R<ch a="a"/>yk morza tłumił chłopców krz<ch a="e"/>yk,</row>
 			<row important_over="false">"<ch a="a"/>Mona" do brygu dzi<ch a="G"/>elnie szł<ch a="a"/>a,</row>
 			<row important_over="false">Lecz br<ch a="d"/>ygu już nie w<ch a="e"/>idział n<ch a="a"/>ikt.</row>
-			<row important_over="false"></row>
+			<row important_over="never"></row>
 			<row important_over="false">Na <ch a="a"/>brzegu kobiet ni<ch a="G"/>emy szl<ch a="a"/>och,</row>
 			<row important_over="false">W r<ch a="a"/>amiona ich nie wrócą j<ch a="e"/>uż,</row>
 			<row important_over="false">
@@ -57,7 +57,7 @@
 			<row important_over="false">
 				<ch a="a"/>Mrok okrył morze, ni<ch a="G"/>ebo, brz<ch a="a"/>eg,</row>
 			<row important_over="false">Wiecznego c<ch a="d"/>ałun ści<ch a="e"/>eląc sn<ch a="a"/>u.</row>
-			<row important_over="false"></row>
+			<row important_over="never"></row>
 			<row important_over="false">W<ch a="a"/>iem dobrze, że syn<ch a="G"/>owie <ch a="a"/>ich</row>
 			<row important_over="false">T<ch a="a"/>eż w morze pójdą, kiedy zn<ch a="e"/>ów</row>
 			<row important_over="false">

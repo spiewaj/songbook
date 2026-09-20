@@ -46,14 +46,14 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Bo wszyscy tacy sami,<ch a="H"/> bo wszyscy z jednej gliny</row>
-      <row important_over="false"><ch a="e"/>Szanuj żonę, k<ch a="G"/>tóra chodzi na wędliny</row>
-      <row important_over="false"><ch a="C"/>Czyś ty skinheadki mąż,<ch a="H"/> czyś ty punkówny brat</row>
-      <row important_over="false"><ch a="e"/>Na dzień kobiet prz<ch a="G"/>ynieś jej prawdziwy kwiat</row>
-      <row important_over="false"><ch a="C"/>Bo wszyscy tacy sami<ch a="H"/>, bo wszyscy z jednej gliny</row>
-      <row important_over="false"><ch a="e"/>Szanuj punka, k<ch a="G"/>up mu coś na imieniny</row>
-      <row important_over="false"><ch a="C"/>Ty punku szanuj skina,<ch a="H"/> skinheadzie punka lub</row>
-      <row important_over="false">No bo przecież łysina to jest były cz<ch a="e"/>ub</row>
+      <row important_over="true"><ch a="C"/>Bo wszyscy tacy sami,<ch a="H"/> bo wszyscy z jednej gliny</row>
+      <row important_over="true"><ch a="e"/>Szanuj żonę, k<ch a="G"/>tóra chodzi na wędliny</row>
+      <row important_over="true"><ch a="C"/>Czyś ty skinheadki mąż,<ch a="H"/> czyś ty punkówny brat</row>
+      <row important_over="true"><ch a="e"/>Na dzień kobiet prz<ch a="G"/>ynieś jej prawdziwy kwiat</row>
+      <row important_over="true"><ch a="C"/>Bo wszyscy tacy sami<ch a="H"/>, bo wszyscy z jednej gliny</row>
+      <row important_over="true"><ch a="e"/>Szanuj punka, k<ch a="G"/>up mu coś na imieniny</row>
+      <row important_over="true"><ch a="C"/>Ty punku szanuj skina,<ch a="H"/> skinheadzie punka lub</row>
+      <row important_over="true">No bo przecież łysina to jest były cz<ch a="e"/>ub</row>
     </block>
   </lyric>
   <music>

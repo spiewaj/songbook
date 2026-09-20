@@ -9,16 +9,16 @@ Ref: [dGCa/dGCa/dGCa/dGc]</comment>
   <artist type="solo">Kabaret „Potem”</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="h"/>Idzie sobie wiosna, słychać świergot ptaka<ch a="e"/></row>
-      <row important_over="false"><ch a="g"/>Ładna to piosenka tylko głupia taka<ch a="fis7"/></row>
-      <row important_over="false"><ch a="h"/>Już przyleciał bocian i w kałuży dłubie<ch a="e"/></row>
-      <row important_over="false"><ch a="h"/>Mnie to nie przeszkadza dalej będzie głupiej<ch a="Fis7"/></row>
+      <row important_over="true"><ch a="h"/>Idzie sobie wiosna, słychać świergot ptaka<ch a="e"/></row>
+      <row important_over="true"><ch a="g"/>Ładna to piosenka tylko głupia taka<ch a="fis7"/></row>
+      <row important_over="true"><ch a="h"/>Już przyleciał bocian i w kałuży dłubie<ch a="e"/></row>
+      <row important_over="true"><ch a="h"/>Mnie to nie przeszkadza dalej będzie głupiej<ch a="Fis7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="e"/>A! A!… już jest wiosna<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="false"><ch a="e"/>A! A!… dłuższe dnie<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="false"><ch a="e"/>A! A!… kwiaty rosną<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="false"><ch a="e"/>A! A!… głupie nie?!<ch a="A"/><ch a="Fis7"/></row>
+      <row important_over="true"><ch a="e"/>A! A!… już jest wiosna<ch a="A"/><ch a="D"/><ch a="h"/></row>
+      <row important_over="true"><ch a="e"/>A! A!… dłuższe dnie<ch a="A"/><ch a="D"/><ch a="h"/></row>
+      <row important_over="true"><ch a="e"/>A! A!… kwiaty rosną<ch a="A"/><ch a="D"/><ch a="h"/></row>
+      <row important_over="true"><ch a="e"/>A! A!… głupie nie?!<ch a="A"/><ch a="Fis7"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="h"/>Słońce raźniej świeci dym się w polu snuje<ch a="e"/></row>

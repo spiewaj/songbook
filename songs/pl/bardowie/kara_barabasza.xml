@@ -64,15 +64,15 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
-			<row important_over="false">Blask św<ch a="B"/>itu po skor<ch a="a"/>upach skacze,</row>
-			<row important_over="false">G<ch a="a"/>ospodarz przegnał pr<ch a="B"/>ecz hołotę</row>
-			<row important_over="false">
+			<row important_over="true">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
+			<row important_over="true">Blask św<ch a="B"/>itu po skor<ch a="a"/>upach skacze,</row>
+			<row important_over="true">G<ch a="a"/>ospodarz przegnał pr<ch a="B"/>ecz hołotę</row>
+			<row important_over="true">
 				<ch a="B"/>I liczy zysk. Bar<ch a="a"/>abasz płacze.</row>
-			<row important_over="false">W k<ch a="E7"/>arczmie z widokiem n<ch a="a"/>a Golgotę</row>
-			<row important_over="false">Blask św<ch a="E7"/>itu po skor<ch a="a"/>upach skacze,</row>
-			<row important_over="false">Gosp<ch a="B"/>odarz przegnał pr<ch a="E7"/>ecz hołotę</row>
-			<row important_over="false">I l<ch a="B"/>iczy zysk. Bar<ch a="E7"/>abasz płacze.</row>
+			<row important_over="true">W k<ch a="E7"/>arczmie z widokiem n<ch a="a"/>a Golgotę</row>
+			<row important_over="true">Blask św<ch a="E7"/>itu po skor<ch a="a"/>upach skacze,</row>
+			<row important_over="true">Gosp<ch a="B"/>odarz przegnał pr<ch a="E7"/>ecz hołotę</row>
+			<row important_over="true">I l<ch a="B"/>iczy zysk. Bar<ch a="E7"/>abasz płacze.</row>
 			<bis times="2">
 				<row important_over="true">B<ch a="B"/>arabasz pł<ch a="E7"/>acze.</row>
 			</bis>

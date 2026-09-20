@@ -9,17 +9,17 @@
 	<original_title>Za tumanom</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Na włócz<ch a="e"/>ęgę dziś wyruszyć przyszła p<ch a="a"/>ora,</row>
-			<row important_over="false">Las nas w<ch a="H7"/>oła śpiewem ptaków, szumem drz<ch a="e"/>ew<ch a="C"/><ch a="H7"/></row>
-			<row important_over="false">I woł<ch a="e"/>ają nas już pola i jezi<ch a="a"/>ora,</row>
-			<row important_over="false">Zeszłor<ch a="H7"/>oczny nasz wesoły pomnąc śpi<ch a="e"/>ew.</row>
-			<row important_over="false">Ludzie m<ch a="E7"/>ają swoje prace, ludzie l<ch a="a"/>ubią się bogacić,</row>
-			<row important_over="false">Pełne brz<ch a="D"/>uchy mają chcą mieć pełen trz<ch a="G"/>os.<ch a="H7"/></row>
+			<row important_over="true">Na włócz<ch a="e"/>ęgę dziś wyruszyć przyszła p<ch a="a"/>ora,</row>
+			<row important_over="true">Las nas w<ch a="H7"/>oła śpiewem ptaków, szumem drz<ch a="e"/>ew<ch a="C"/><ch a="H7"/></row>
+			<row important_over="true">I woł<ch a="e"/>ają nas już pola i jezi<ch a="a"/>ora,</row>
+			<row important_over="true">Zeszłor<ch a="H7"/>oczny nasz wesoły pomnąc śpi<ch a="e"/>ew.</row>
+			<row important_over="true">Ludzie m<ch a="E7"/>ają swoje prace, ludzie l<ch a="a"/>ubią się bogacić,</row>
+			<row important_over="true">Pełne brz<ch a="D"/>uchy mają chcą mieć pełen trz<ch a="G"/>os.<ch a="H7"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="1">
-				<row important_over="false">A ja g<ch a="e"/>onię, a ja gonię swe marz<ch a="a"/>enia,</row>
-				<row important_over="false">Szukam szcz<ch a="H7"/>ęścia gdzie kaczeńce i gdzie wrz<ch a="e"/>os.</row>
+				<row important_over="true">A ja g<ch a="e"/>onię, a ja gonię swe marz<ch a="a"/>enia,</row>
+				<row important_over="true">Szukam szcz<ch a="H7"/>ęścia gdzie kaczeńce i gdzie wrz<ch a="e"/>os.</row>
 			</bis>
 		</block>
 		<block type="verse">

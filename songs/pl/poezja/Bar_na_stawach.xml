@@ -10,7 +10,7 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -24,7 +24,7 @@
 		</block>
 		<block type="other">
 			<bis times="2">
-				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">

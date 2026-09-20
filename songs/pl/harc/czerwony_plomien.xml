@@ -6,8 +6,8 @@
       <row important_over="never" sidechords="a E a">Ogniska płomienny blask</row>
       <row important_over="never" sidechords="a C a">Ciszą zasiany zielony las</row>
       <bis times="2">
-        <row important_over="false" sidechords="a C G">Ciesz się z wszystkiego tego co masz</row>
-        <row important_over="false" sidechords="a C E a">Daj ludziom pogodną twarz.</row>
+        <row important_over="never" sidechords="a C G">Ciesz się z wszystkiego tego co masz</row>
+        <row important_over="never" sidechords="a C E a">Daj ludziom pogodną twarz.</row>
       </bis>
     </block>
     <block type="verse">

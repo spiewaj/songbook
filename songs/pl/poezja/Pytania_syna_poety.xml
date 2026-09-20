@@ -10,19 +10,19 @@
   <lyric>
     <block type="verse">
       <bis>
-        <row important_over="false"><ch a="C"/>Na na na…<ch a="G"/></row>
-        <row important_over="false"><ch a="a"/>Na na na…<ch a="e"/></row>
-        <row important_over="false"><ch a="F"/>Na na na…<ch a="c"/></row>
-        <row important_over="false"><ch a="G"/>Na na na…</row>
+        <row important_over="true"><ch a="C"/>Na na na…<ch a="G"/></row>
+        <row important_over="true"><ch a="a"/>Na na na…<ch a="e"/></row>
+        <row important_over="true"><ch a="F"/>Na na na…<ch a="c"/></row>
+        <row important_over="true"><ch a="G"/>Na na na…</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Drogi ojcze ile trzeba<ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Wydać na kawałek chleba<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>I czy można proszę taty<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="e"/>Taki chleb kupić na raty<ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Drogi ojcze ile trzeba<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Wydać na kawałek chleba<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>I czy można proszę taty<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>Taki chleb kupić na raty<ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
@@ -42,23 +42,23 @@
       <row important_over="false"><ch a="e"/>Lub wyżymać mózgi w pralni<ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Czy sportowa ostra miłość<ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Wpływa zgubnie na otyłość<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Czy love story diabła warte<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="e"/>Musi skończyć się bękartem<ch a="a"/></row>
-      <row important_over="false"><ch a="C"/>Przestań pytać bo już nocka<ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Czy sportowa ostra miłość<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Wpływa zgubnie na otyłość<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Czy love story diabła warte<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>Musi skończyć się bękartem<ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Przestań pytać bo już nocka<ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Zamknij oczy possij smoczka<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Chcesz to zmienię ci pieluszkę<ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>I pomodlę nad łóżeczkiem<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="a"/>Za obrońców naszych granic<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="e"/>Za Rejtana i kochanie<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Za najwyższą ludzką rację<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="e"/>Za umiłowaną Partię!<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Zamknij oczy possij smoczka<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Chcesz to zmienię ci pieluszkę<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>I pomodlę nad łóżeczkiem<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Za obrońców naszych granic<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>Za Rejtana i kochanie<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Za najwyższą ludzką rację<ch a="F"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>Za umiłowaną Partię!<ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

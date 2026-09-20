@@ -9,23 +9,23 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="e"/>Raz staruszek, spacerując w lesie,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="e"/>Ujrzał listek przywiędły i blady<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="e"/>I pomyślał — Znowu idzie jesień,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>Jesień idzie, nie ma na to rady!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>I podreptał do chaty po dróżce,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>I oznajmił, stanąwszy przed chatą,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>Swojej żonie, tak samo staruszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="true">
 				<ch a="C"/>- Jesień idzie, nie ma rady na to!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">

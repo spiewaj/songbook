@@ -9,22 +9,22 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false">Przez szyby twych okien zapatrzonych w stawy<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">Przychodzi jesień cicho, sennie i srebrzyście,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">Rozrzuca strzępy złota miedzy zeschłe trawy,<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="false">Gdy modlę się o ciebie do żółknących liści.<ch a="H"/><ch a="A"/></row>
+			<row important_over="never">Przez szyby twych okien zapatrzonych w stawy<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">Przychodzi jesień cicho, sennie i srebrzyście,<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">Rozrzuca strzępy złota miedzy zeschłe trawy,<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Gdy modlę się o ciebie do żółknących liści.<ch a="H"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Blada mgła jesienna snuje się przez wrzosy<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">I pieśń o barwnej ciszy w sercu wciąż mi dzwoni,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">Płynie wiatr alejami, rozwiewa twe włosy,<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="false">Jakby chciał się na pamięć nauczyć ich woni.<ch a="H"/><ch a="Gis"/></row>
+			<row important_over="never">Blada mgła jesienna snuje się przez wrzosy<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">I pieśń o barwnej ciszy w sercu wciąż mi dzwoni,<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">Płynie wiatr alejami, rozwiewa twe włosy,<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Jakby chciał się na pamięć nauczyć ich woni.<ch a="H"/><ch a="Gis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ostatnie już w tym roku kwiaty mrą pod płotem,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">Stary żuraw studzienny skrzypi gdzieś w oddali,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="false">Jakieś burze błękitne i czarne i złote<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="false">Przepływają w twych oczach nie znane mi wcale.<ch a="H"/><ch a="Gis"/></row>
+			<row important_over="never">Ostatnie już w tym roku kwiaty mrą pod płotem,<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">Stary żuraw studzienny skrzypi gdzieś w oddali,<ch a="cis"/><ch a="gis"/></row>
+			<row important_over="never">Jakieś burze błękitne i czarne i złote<ch a="fis"/><ch a="cis"/></row>
+			<row important_over="never">Przepływają w twych oczach nie znane mi wcale.<ch a="H"/><ch a="Gis"/></row>
 		</block>
 	</lyric>
 	<music metre="">

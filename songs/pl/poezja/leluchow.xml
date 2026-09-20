@@ -9,21 +9,21 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną dziś j<ch a="G"/>eszcze</row>
-			<row important_over="false"><ch a="a"/> Przecież bl<ch a="C"/>isko jest dw<ch a="G"/>orzec</row>
-			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną nat<ch a="G"/>ychmiast</row>
-			<row important_over="false"><ch a="a"/> Tylko t<ch a="C"/>o nam pom<ch a="D7"/>oże</row>
+			<row important_over="true"><ch a="a"/> Wyjedź z<ch a="C"/>e mną dziś j<ch a="G"/>eszcze</row>
+			<row important_over="true"><ch a="a"/> Przecież bl<ch a="C"/>isko jest dw<ch a="G"/>orzec</row>
+			<row important_over="true"><ch a="a"/> Wyjedź z<ch a="C"/>e mną nat<ch a="G"/>ychmiast</row>
+			<row important_over="true"><ch a="a"/> Tylko t<ch a="C"/>o nam pom<ch a="D7"/>oże</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">W L<ch a="G"/>eluchowie - miła</row>
-			<row important_over="false">Czer<ch a="C"/>eśnie dziko krw<ch a="G"/>awią</row>
-			<row important_over="false">Tam gr<ch a="C"/>anicy pilnuje c<ch a="G"/>ałkiem</row>
-			<row important_over="false"><ch a="a"/> Wesoły <ch a="D7"/>anioł</row>
-			<row important_over="false"></row>
-			<row important_over="false">W L<ch a="G"/>eluchowie - miła</row>
-			<row important_over="false">Zacz<ch a="C"/>yna się koniec świ<ch a="G"/>ata</row>
-			<row important_over="false">Tam <ch a="C"/>anioł traci gł<ch a="G"/>owę</row>
-			<row important_over="false"><ch a="a"/> Z<ch a="C"/> brzozami się brat<ch a="G"/>a</row>
+			<row important_over="true">W L<ch a="G"/>eluchowie - miła</row>
+			<row important_over="true">Czer<ch a="C"/>eśnie dziko krw<ch a="G"/>awią</row>
+			<row important_over="true">Tam gr<ch a="C"/>anicy pilnuje c<ch a="G"/>ałkiem</row>
+			<row important_over="true"><ch a="a"/> Wesoły <ch a="D7"/>anioł</row>
+			<row important_over="never"></row>
+			<row important_over="true">W L<ch a="G"/>eluchowie - miła</row>
+			<row important_over="true">Zacz<ch a="C"/>yna się koniec świ<ch a="G"/>ata</row>
+			<row important_over="true">Tam <ch a="C"/>anioł traci gł<ch a="G"/>owę</row>
+			<row important_over="true"><ch a="a"/> Z<ch a="C"/> brzozami się brat<ch a="G"/>a</row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="a"/> Wyjedź z<ch a="C"/>e mną do l<ch a="G"/>ata</row>

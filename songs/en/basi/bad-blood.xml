@@ -30,14 +30,14 @@
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Did you think we&#039;d be fine?</row>
-      <row important_over="true"><ch a="C"/>Still got scars on my back from your knife</row>
-      <row important_over="true"><ch a="g"/>So don&#039;t think it&#039;s in the past</row>
-      <row important_over="true"><ch a="G"/>These kinda wounds, they last and they last</row>
-      <row important_over="true"><ch a="C"/>Now, did you think it all through?</row>
-      <row important_over="true"><ch a="C"/>All these things will catch up to you</row>
-      <row important_over="true"><ch a="g"/>And time can heal, but this won&#039;t</row>
-      <row important_over="true"><ch a="G"/>So if you&#039;re comin&#039; my way, just don&#039;t</row>
+      <row important_over="false"><ch a="C"/>Did you think we&#039;d be fine?</row>
+      <row important_over="false"><ch a="C"/>Still got scars on my back from your knife</row>
+      <row important_over="false"><ch a="g"/>So don&#039;t think it&#039;s in the past</row>
+      <row important_over="false"><ch a="G"/>These kinda wounds, they last and they last</row>
+      <row important_over="false"><ch a="C"/>Now, did you think it all through?</row>
+      <row important_over="false"><ch a="C"/>All these things will catch up to you</row>
+      <row important_over="false"><ch a="g"/>And time can heal, but this won&#039;t</row>
+      <row important_over="false"><ch a="G"/>So if you&#039;re comin&#039; my way, just don&#039;t</row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="1"/>

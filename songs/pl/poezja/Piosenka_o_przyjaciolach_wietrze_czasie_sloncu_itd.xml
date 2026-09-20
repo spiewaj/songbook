@@ -9,22 +9,22 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Nie chcę śpiewać o wietrze<ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>Zagubionym w dolinach<ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Nie o gwiazdach co wieczór<ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>Spadających na zbocza<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Nie chcę śpiewać o wietrze<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Zagubionym w dolinach<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Nie o gwiazdach co wieczór<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Spadających na zbocza<ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Kto z was takich przyjaciół<ch a="D"/></row>
-      <row important_over="false"><ch a="G"/>Ma by mówić im bracia<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Kto z was takich przyjaciół<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Ma by mówić im bracia<ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Kto pamięta o słowie<ch a="D"/></row>
-      <row important_over="false"><ch a="G"/>Tak prostym jak człowiek<ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Kto pamięta o słowie<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Tak prostym jak człowiek<ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Nie chcę głosić prawd zapomnianych<ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>By ktoś nie rzekł że jestem fałszywym prorokiem<ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>W nurcie czasu płyniemy<ch a="D"/></row>
@@ -45,10 +45,10 @@
       <row important_over="false"><ch a="C"/>A znajdziecie prawdziwych proroków<ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Język gazety przyrósł nam do gardła<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Językiem gazety widzą nasze oczy<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Przemykamy w szarej mżawce dnia<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Skuci losem<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Język gazety przyrósł nam do gardła<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Językiem gazety widzą nasze oczy<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Przemykamy w szarej mżawce dnia<ch a="D"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Skuci losem<ch a="D"/><ch a="e"/></row>
     </block>
   </lyric>
   <music metre="">

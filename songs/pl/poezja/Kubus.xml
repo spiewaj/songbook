@@ -16,16 +16,16 @@ i
 			<row important_over="true">Pierd<ch a="e"/>ut w waz<ch a="A"/>onik kami<ch a="D"/>eniem,</row>
 			<row important_over="true">Jak pi<ch a="G"/>ęknie wazonik zadzw<ch a="D"/>oni,</row>
 			<row important_over="true">Cich<ch a="e"/>utko spadając na zi<ch a="A"/>emię.</row>
-			<row important_over="false">Na ł<ch a="e"/>óżku śp<ch a="A"/>i sobie ba<ch a="D"/>bcia,</row>
-			<row important_over="false">Lecz b<ch a="e"/>abcia j<ch a="A"/>est trochę gł<ch a="D"/>ucha,</row>
-			<row important_over="false">Lecz m<ch a="G"/>oże mej babci po<ch a="D"/>może,</row>
-			<row important_over="false">Gdy wł<ch a="e"/>ożę jej druta do <ch a="A"/>ucha.</row>
+			<row important_over="true">Na ł<ch a="e"/>óżku śp<ch a="A"/>i sobie ba<ch a="D"/>bcia,</row>
+			<row important_over="true">Lecz b<ch a="e"/>abcia j<ch a="A"/>est trochę gł<ch a="D"/>ucha,</row>
+			<row important_over="true">Lecz m<ch a="G"/>oże mej babci po<ch a="D"/>może,</row>
+			<row important_over="true">Gdy wł<ch a="e"/>ożę jej druta do <ch a="A"/>ucha.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">To w<ch a="e"/>alczyk grzeczn<ch a="A"/>ego Kub<ch a="D"/>usia,</row>
-			<row important_over="false">Znan<ch a="e"/>ego w c<ch a="A"/>ałym miast<ch a="D"/>eczku,</row>
-			<row important_over="false">Co n<ch a="G"/>ocą do majtek nie si<ch a="D"/>usia,</row>
-			<row important_over="false">I grz<ch a="e"/>ecznie się bawi w pias<ch a="A"/>eczku.</row>
+			<row important_over="true">To w<ch a="e"/>alczyk grzeczn<ch a="A"/>ego Kub<ch a="D"/>usia,</row>
+			<row important_over="true">Znan<ch a="e"/>ego w c<ch a="A"/>ałym miast<ch a="D"/>eczku,</row>
+			<row important_over="true">Co n<ch a="G"/>ocą do majtek nie si<ch a="D"/>usia,</row>
+			<row important_over="true">I grz<ch a="e"/>ecznie się bawi w pias<ch a="A"/>eczku.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Dziadk<ch a="e"/>owi, co od l<ch a="A"/>at trzydzi<ch a="D"/>estu</row>
@@ -61,10 +61,10 @@ i
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś mal<ch a="D"/>utki,</row>
-			<row important_over="false">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś wspani<ch a="D"/>ały,</row>
-			<row important_over="false">I r<ch a="G"/>ośnie nam chluba nar<ch a="D"/>odu,</row>
-			<row important_over="false">Przepr<ch a="e"/>aszam dziś naród za m<ch a="A"/>ały.</row>
+			<row important_over="true">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś mal<ch a="D"/>utki,</row>
+			<row important_over="true">I r<ch a="e"/>ośnie nam K<ch a="A"/>ubuś wspani<ch a="D"/>ały,</row>
+			<row important_over="true">I r<ch a="G"/>ośnie nam chluba nar<ch a="D"/>odu,</row>
+			<row important_over="true">Przepr<ch a="e"/>aszam dziś naród za m<ch a="A"/>ały.</row>
 		</block>
 	</lyric>
 	<music metre="3/4">

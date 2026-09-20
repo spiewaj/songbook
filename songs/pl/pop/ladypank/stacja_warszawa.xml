@@ -18,10 +18,10 @@
       <row important_over="false">Lepiej <ch a="G"/>jechać i <ch a="C"/>spać</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G"/> Wszystko byłoby <ch a="a"/>inne</row>
-      <row important_over="false"><ch a="C"/>Gdybyś tu <ch a="G"/>była, ja <ch a="F"/>wiem</row>
-      <row important_over="false"><ch a="G"/> Nie tak trudne i <ch a="a"/>dziwne</row>
-      <row important_over="false"><ch a="C"/>Gdybyś tu <ch a="G"/>była, ja <ch a="F"/>wiem <ch a="G"/></row>
+      <row important_over="true"><ch a="G"/> Wszystko byłoby <ch a="a"/>inne</row>
+      <row important_over="true"><ch a="C"/>Gdybyś tu <ch a="G"/>była, ja <ch a="F"/>wiem</row>
+      <row important_over="true"><ch a="G"/> Nie tak trudne i <ch a="a"/>dziwne</row>
+      <row important_over="true"><ch a="C"/>Gdybyś tu <ch a="G"/>była, ja <ch a="F"/>wiem <ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Noce <ch a="a"/>są zawsze <ch a="F"/>długie</row>

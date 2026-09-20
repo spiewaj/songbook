@@ -3,18 +3,18 @@
   <alias>Przyjdzie rozstań czas</alias>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Przyjdzie <ch a="D"/>rozstań <ch a="e"/>czas</row>
-      <row important_over="false">(Przyjdzie <ch a="G"/>rozstań <ch a="C"/>czas)</row>
-      <row important_over="false">I nie <ch a="D"/>będzie <ch a="e"/>nas,</row>
-      <row important_over="false">(I nie <ch a="G"/>będzie <ch a="C"/>nas)</row>
-      <row important_over="false">Na po<ch a="D"/>lanie <ch a="G"/>tylko pozo<ch a="e"/>stanie</row>
-      <row important_over="false"><ch a="C"/>Po o<ch a="D"/>gnisku <ch a="e"/>śla<ch a="D"/>d.</row>
+      <row important_over="true"><ch a="C"/>Przyjdzie <ch a="D"/>rozstań <ch a="e"/>czas</row>
+      <row important_over="true">(Przyjdzie <ch a="G"/>rozstań <ch a="C"/>czas)</row>
+      <row important_over="true">I nie <ch a="D"/>będzie <ch a="e"/>nas,</row>
+      <row important_over="true">(I nie <ch a="G"/>będzie <ch a="C"/>nas)</row>
+      <row important_over="true">Na po<ch a="D"/>lanie <ch a="G"/>tylko pozo<ch a="e"/>stanie</row>
+      <row important_over="true"><ch a="C"/>Po o<ch a="D"/>gnisku <ch a="e"/>śla<ch a="D"/>d.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Daba <ch a="C"/>daj, <ch a="D"/>dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
-      <row important_over="false"><ch a="D"/>Dabadaba <ch a="G"/>daj,<ch a="G"/> daba <ch a="C"/>daj</row>
-      <row important_over="false"><ch a="D"/>Dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
-      <row important_over="false"><ch a="D"/>Dabadaba <ch a="e"/>daj</row>
+      <row important_over="true">Daba <ch a="C"/>daj, <ch a="D"/>dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
+      <row important_over="true"><ch a="D"/>Dabadaba <ch a="G"/>daj,<ch a="G"/> daba <ch a="C"/>daj</row>
+      <row important_over="true"><ch a="D"/>Dabadaba <ch a="G"/>daj, daba <ch a="e"/>daj, daba <ch a="a"/>daj</row>
+      <row important_over="true"><ch a="D"/>Dabadaba <ch a="e"/>daj</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Zdartych <ch a="D"/>głosów <ch a="e"/>chór,</row>

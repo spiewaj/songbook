@@ -39,10 +39,10 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false"><ch a="D"/> Po tylu <ch a="A"/>latach <ch a="G"/>wiem już na pewno</row>
-      <row important_over="false"><ch a="D"/>Że kiedy <ch a="A"/>przyjdzie j<ch a="G"/>asne będzie jedno</row>
-      <row important_over="false"><ch a="D"/>Złe <ch a="A"/>myśli nie <ch a="fis"/>były tego <ch a="E"/>warte</row>
-      <row important_over="false"><ch a="D"/>Zostawię <ch a="A"/>drzwi <ch a="E"/>otwarte</row>
+      <row important_over="true"><ch a="D"/> Po tylu <ch a="A"/>latach <ch a="G"/>wiem już na pewno</row>
+      <row important_over="true"><ch a="D"/>Że kiedy <ch a="A"/>przyjdzie j<ch a="G"/>asne będzie jedno</row>
+      <row important_over="true"><ch a="D"/>Złe <ch a="A"/>myśli nie <ch a="fis"/>były tego <ch a="E"/>warte</row>
+      <row important_over="true"><ch a="D"/>Zostawię <ch a="A"/>drzwi <ch a="E"/>otwarte</row>
     </block>
   </lyric>
   <keywords/>

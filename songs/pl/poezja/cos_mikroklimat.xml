@@ -10,10 +10,10 @@
       <row important_over="true">A <ch a="h7"/>każdy spotkany <ch a="E7"/>liść mój zachwyt <ch a="A"/>budzi.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Masz w sobie to coś, widzę dobrze w Twoich oczach<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="A"/></row>
-      <row important_over="never">Słyszę w Twoich długich palcach kiedy grasz<ch a="h7"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="never">Gdy wyrywasz perz w ogrodzie, gdy zagadasz do sąsiada<ch a="A"/><ch a="A7"/><ch a="D"/></row>
-      <row important_over="never">I cierpliwie słuchasz mnie, choć głupstwa gadam. <ch a="h7"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false">Masz w sobie to coś, widzę dobrze w Twoich oczach<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="A"/></row>
+      <row important_over="false">Słyszę w Twoich długich palcach kiedy grasz<ch a="h7"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="false">Gdy wyrywasz perz w ogrodzie, gdy zagadasz do sąsiada<ch a="A"/><ch a="A7"/><ch a="D"/></row>
+      <row important_over="false">I cierpliwie słuchasz mnie, choć głupstwa gadam. <ch a="h7"/><ch a="E7"/><ch a="A"/></row>
     </block>
     <block type="verse">
       <row important_over="true">To coś <ch a="D9"/>ciągnie nas do siebie, </row>

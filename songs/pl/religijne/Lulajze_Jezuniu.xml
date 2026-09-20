@@ -9,27 +9,27 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Lulajże Jezuniu moja perełko</row>
-      <row important_over="false">Lulaj ulubione me pieścidełko</row>
+      <row important_over="never">Lulajże Jezuniu moja perełko</row>
+      <row important_over="never">Lulaj ulubione me pieścidełko</row>
       <bis>
-        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
-        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+        <row important_over="never">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="never">A ty go matulu w płaczu utulaj</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Zamknijże znużone płaczem powieczki</row>
-      <row important_over="false">Utulże zemdlone łkaniem usteczki</row>
+      <row important_over="never">Zamknijże znużone płaczem powieczki</row>
+      <row important_over="never">Utulże zemdlone łkaniem usteczki</row>
       <bis>
-        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
-        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+        <row important_over="never">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="never">A ty go matulu w płaczu utulaj</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Lulajże piękniuchny mój aniołeczku</row>
-      <row important_over="false">Lulajże wdzięczniuchny świata kwiateczku</row>
+      <row important_over="never">Lulajże piękniuchny mój aniołeczku</row>
+      <row important_over="never">Lulajże wdzięczniuchny świata kwiateczku</row>
       <bis>
-        <row important_over="false">Lulajże Jezuniu, lulajże lulaj</row>
-        <row important_over="false">A ty go matulu w płaczu utulaj</row>
+        <row important_over="never">Lulajże Jezuniu, lulajże lulaj</row>
+        <row important_over="never">A ty go matulu w płaczu utulaj</row>
       </bis>
     </block>
   </lyric>

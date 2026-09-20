@@ -17,9 +17,9 @@
 			<row important_over="true"><ch a="a"/> Nikt nie zna ścieżek gwi<ch a="G"/>azd</row>
 			<row important_over="true">Wybr<ch a="e"/>ańcem kto wśród n<ch a="a"/>as</row>
 			<row important_over="true">Zapukał kt<ch a="d"/>oś to d<ch a="C"/>o mnie g<ch a="G"/>ość</row>
-			<row important_over="false"><ch a="a"/> Włóczyłem się jak ci<ch a="G"/>eń</row>
-			<row important_over="false">Czek<ch a="e"/>ałem na ten dzi<ch a="a"/>eń</row>
-			<row important_over="false">Już stoisz w drzwi<ch a="d"/>ach jak dz<ch a="C"/>iwny pt<ch a="G"/>ak</row>
+			<row important_over="true"><ch a="a"/> Włóczyłem się jak ci<ch a="G"/>eń</row>
+			<row important_over="true">Czek<ch a="e"/>ałem na ten dzi<ch a="a"/>eń</row>
+			<row important_over="true">Już stoisz w drzwi<ch a="d"/>ach jak dz<ch a="C"/>iwny pt<ch a="G"/>ak</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
@@ -41,16 +41,16 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">Więc j<ch a="F"/>ednak musisz p<ch a="G"/>ójść</row>
-				<row important_over="false">Pos<ch a="e"/>yłasz mi przez pr<ch a="a"/>óg</row>
-				<row important_over="false">Ulotny <ch a="F"/>uśmiech swój mad<ch a="G"/>ame</row>
-				<row important_over="false">Lecz będę cz<ch a="e"/>ekać prz<ch a="a"/>yjdź</row>
-				<row important_over="false">Gdy tylko z<ch a="G"/>echcesz przyjdź</row>
-				<row important_over="false">Będzi<ch a="F"/>emy razem ż<ch a="C"/>yć</row>
+				<row important_over="true">Więc j<ch a="F"/>ednak musisz p<ch a="G"/>ójść</row>
+				<row important_over="true">Pos<ch a="e"/>yłasz mi przez pr<ch a="a"/>óg</row>
+				<row important_over="true">Ulotny <ch a="F"/>uśmiech swój mad<ch a="G"/>ame</row>
+				<row important_over="true">Lecz będę cz<ch a="e"/>ekać prz<ch a="a"/>yjdź</row>
+				<row important_over="true">Gdy tylko z<ch a="G"/>echcesz przyjdź</row>
+				<row important_over="true">Będzi<ch a="F"/>emy razem ż<ch a="C"/>yć</row>
 			</bis>
-			<row important_over="false">Ja będę cz<ch a="e"/>ekać prz<ch a="a"/>yjdź</row>
-			<row important_over="false">Gdy tylko z<ch a="G"/>echcesz przyjdź</row>
-			<row important_over="false">Będzi<ch a="F"/>emy razem ż<ch a="C"/>yć</row>
+			<row important_over="true">Ja będę cz<ch a="e"/>ekać prz<ch a="a"/>yjdź</row>
+			<row important_over="true">Gdy tylko z<ch a="G"/>echcesz przyjdź</row>
+			<row important_over="true">Będzi<ch a="F"/>emy razem ż<ch a="C"/>yć</row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>

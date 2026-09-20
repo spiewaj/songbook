@@ -9,10 +9,10 @@
 			<row important_over="never">I kolorowe otwierasz okno<ch a="d"/><ch a="E"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Trawa i drzewa są takie szare</row>
-			<row important_over="false">Barwę popiołu przybrało niebo</row>
-			<row important_over="false">W ciszy tak smutno szepce zegarek</row>
-			<row important_over="false">O czasie co mi go wcale nie trzeba</row>
+			<row important_over="never">Trawa i drzewa są takie szare</row>
+			<row important_over="never">Barwę popiołu przybrało niebo</row>
+			<row important_over="never">W ciszy tak smutno szepce zegarek</row>
+			<row important_over="never">O czasie co mi go wcale nie trzeba</row>
 		</block>
 		<block type="chorus">
 			<row important_over="never">Więc chodź pomaluj mi świat<ch a="C"/><ch a="d"/></row>
@@ -20,15 +20,15 @@
 			<row important_over="never">Niech na niebie stanie tęcza malowana twoja kredką<ch a="C"/><ch a="d"/><ch a="F"/><ch a="(G)"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Więc chodź pomaluj mi życie</row>
-			<row important_over="false">Niech świat mój się zarumieni</row>
-			<row important_over="false">Niech na niebie zalśni tęcza kolorami całej ziemi</row>
+			<row important_over="never">Więc chodź pomaluj mi życie</row>
+			<row important_over="never">Niech świat mój się zarumieni</row>
+			<row important_over="never">Niech na niebie zalśni tęcza kolorami całej ziemi</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Za siódmą górą i siódmą rzeka</row>
-			<row important_over="false">Swoje sny zamieniasz na pejzaże</row>
-			<row important_over="false">Niebem się wlecze wyblakłe słońce</row>
-			<row important_over="false">Oświetla ludzkie wyblakłe twarze</row>
+			<row important_over="never">Za siódmą górą i siódmą rzeka</row>
+			<row important_over="never">Swoje sny zamieniasz na pejzaże</row>
+			<row important_over="never">Niebem się wlecze wyblakłe słońce</row>
+			<row important_over="never">Oświetla ludzkie wyblakłe twarze</row>
 		</block>
 	</lyric>
 	<keywords/>

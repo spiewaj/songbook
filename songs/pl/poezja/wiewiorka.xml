@@ -22,27 +22,27 @@
       <row important_over="true">Palto, p<ch a="F"/>alto z<ch a="G"/>ałóż wr<ch a="a"/>eszcie. </row>
     </block>
     <block type="verse">
-      <row important_over="never">Kto to widział tak po śniegu <ch a="d"/><ch a="a7"/></row>
-      <row important_over="never">w przedwieczornym mrozie biegać, <ch a="d"/><ch a="a"/></row>
-      <row important_over="never">w samym tylko cienkim swetrze, <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">w samych lekkich pantofelkach, <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Kto to widział tak po śniegu <ch a="d"/><ch a="a7"/></row>
+      <row important_over="true">w przedwieczornym mrozie biegać, <ch a="d"/><ch a="a"/></row>
+      <row important_over="true">w samym tylko cienkim swetrze, <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">w samych lekkich pantofelkach, <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <block type="other">
-      <row important_over="never">Aaa Aaaaaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">Aaa Aaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Aaa Aaaaaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Aaa Aaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">A już nogi ci się plączą, <ch a="d"/><ch a="a7"/></row>
-      <row important_over="never">włosy okrywają szronem. <ch a="d"/><ch a="a"/></row>
-      <row important_over="never">Pewnie jutro będziesz <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">znowu przeziębiona <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false">A już nogi ci się plączą, <ch a="d"/><ch a="a7"/></row>
+      <row important_over="false">włosy okrywają szronem. <ch a="d"/><ch a="a"/></row>
+      <row important_over="false">Pewnie jutro będziesz <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false">znowu przeziębiona <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Staniesz oprzesz się o drzewo,<ch a="d"/><ch a="a7"/></row>
-      <row important_over="never">sen nadejdzie nieproszony,<ch a="d"/><ch a="a"/></row>
-      <row important_over="never">a las woła: palto!<ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Staniesz oprzesz się o drzewo,<ch a="d"/><ch a="a7"/></row>
+      <row important_over="true">sen nadejdzie nieproszony,<ch a="d"/><ch a="a"/></row>
+      <row important_over="true">a las woła: palto!<ch a="F"/><ch a="G"/><ch a="a"/></row>
       <row important_over="false" style="instr"> <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>

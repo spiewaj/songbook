@@ -32,38 +32,38 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">I co ja <ch a="D"/>robię tu / u-u / co ty tutaj <ch a="fis"/>robisz</row>
-      <row important_over="false">Mieć te prze<ch a="G"/>strzenie</row>
-      <row important_over="false">Na jedno ski<ch a="D"/>nienie wiele wyna<ch a="A"/>grodzi</row>
-      <row important_over="false">Nie trzeba <ch a="D"/>tęgich głów / u-u / co ty tutaj <ch a="fis"/>robisz</row>
-      <row important_over="false">Takie o<ch a="G"/>kazje</row>
-      <row important_over="false">Bale i lo<ch a="D"/>kale chcą bym się na<ch a="A"/>rodził</row>
+      <row important_over="true">I co ja <ch a="D"/>robię tu / u-u / co ty tutaj <ch a="fis"/>robisz</row>
+      <row important_over="true">Mieć te prze<ch a="G"/>strzenie</row>
+      <row important_over="true">Na jedno ski<ch a="D"/>nienie wiele wyna<ch a="A"/>grodzi</row>
+      <row important_over="true">Nie trzeba <ch a="D"/>tęgich głów / u-u / co ty tutaj <ch a="fis"/>robisz</row>
+      <row important_over="true">Takie o<ch a="G"/>kazje</row>
+      <row important_over="true">Bale i lo<ch a="D"/>kale chcą bym się na<ch a="A"/>rodził</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Już <ch a="e"/>każdy po<ch a="G"/>wiedział to co <ch a="A"/>wiedział </row>
-      <row important_over="false">Trzy <ch a="e"/>razy wy<ch a="G"/>słuchał dobrze <ch a="A"/>mnie</row>
-      <row important_over="false"><ch a="D"/>Wszyscy zgadzają się ze <ch a="fis"/>sobą</row>
-      <row important_over="false">A będzie <ch a="G"/>nadal tak jak <ch a="A"/>jest </row>
+      <row important_over="true">Już <ch a="e"/>każdy po<ch a="G"/>wiedział to co <ch a="A"/>wiedział </row>
+      <row important_over="true">Trzy <ch a="e"/>razy wy<ch a="G"/>słuchał dobrze <ch a="A"/>mnie</row>
+      <row important_over="true"><ch a="D"/>Wszyscy zgadzają się ze <ch a="fis"/>sobą</row>
+      <row important_over="true">A będzie <ch a="G"/>nadal tak jak <ch a="A"/>jest </row>
     </block>
     <block type="verse">
       <row important_over="false" style="instr"> <ch a="D"/><ch a="D7"/><ch a="G"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="false">I co ja <ch a="E"/>robię tu / u-u / co ty tutaj <ch a="gis"/>robisz</row>
-      <row important_over="false">Dwanaście <ch a="A"/>ciężkich</row>
-      <row important_over="false">Szczerozłotych <ch a="E"/>koron moją głowę <ch a="H"/>zdobi</row>
-      <row important_over="false">Jest tyle <ch a="E"/>różnych dróg / u-u / co ty tutaj <ch a="gis"/>robisz</row>
-      <row important_over="false">Kolejny <ch a="A"/>piękny</row>
-      <row important_over="false">Marmurowy <ch a="E"/>pomnik koło domu <ch a="H"/>stoi</row>
+      <row important_over="true">I co ja <ch a="E"/>robię tu / u-u / co ty tutaj <ch a="gis"/>robisz</row>
+      <row important_over="true">Dwanaście <ch a="A"/>ciężkich</row>
+      <row important_over="true">Szczerozłotych <ch a="E"/>koron moją głowę <ch a="H"/>zdobi</row>
+      <row important_over="true">Jest tyle <ch a="E"/>różnych dróg / u-u / co ty tutaj <ch a="gis"/>robisz</row>
+      <row important_over="true">Kolejny <ch a="A"/>piękny</row>
+      <row important_over="true">Marmurowy <ch a="E"/>pomnik koło domu <ch a="H"/>stoi</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Już <ch a="fis"/>każdy po<ch a="A"/>wiedział to co <ch a="H"/>wiedział</row>
-      <row important_over="false">Trzy <ch a="fis"/>razy wy<ch a="A"/>słuchał dobrze <ch a="H"/>mnie</row>
-      <row important_over="false"><ch a="E"/>Wszyscy zgadzają się ze <ch a="gis"/>sobą</row>
-      <row important_over="false">A będzie <ch a="A"/>nadal tak jak <ch a="H"/>jest</row>
+      <row important_over="true">Już <ch a="fis"/>każdy po<ch a="A"/>wiedział to co <ch a="H"/>wiedział</row>
+      <row important_over="true">Trzy <ch a="fis"/>razy wy<ch a="A"/>słuchał dobrze <ch a="H"/>mnie</row>
+      <row important_over="true"><ch a="E"/>Wszyscy zgadzają się ze <ch a="gis"/>sobą</row>
+      <row important_over="true">A będzie <ch a="A"/>nadal tak jak <ch a="H"/>jest</row>
     </block>
     <block type="verse">
       <bis times="5">
-        <row important_over="false">I co ja <ch a="E"/>robię tu <ch a="gis"/><ch a="A"/><ch a="H"/></row>
-        <row important_over="false">Co ty <ch a="E"/>tutaj robisz<ch a="gis"/><ch a="A"/><ch a="H"/></row>
+        <row important_over="true">I co ja <ch a="E"/>robię tu <ch a="gis"/><ch a="A"/><ch a="H"/></row>
+        <row important_over="true">Co ty <ch a="E"/>tutaj robisz<ch a="gis"/><ch a="A"/><ch a="H"/></row>
       </bis>
     </block>
   </lyric>

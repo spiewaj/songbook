@@ -3,17 +3,17 @@
   <alias>Dzień kolejny minął</alias>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Dzień kolejny minął </row>
-      <row important_over="false">dzień co nic nie przyniósł<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="false"><ch a="F"/>Jeszcze się nie skończył </row>
-      <row important_over="false">a już nowy wyrósł<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="true"><ch a="d"/>Dzień kolejny minął </row>
+      <row important_over="true">dzień co nic nie przyniósł<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
+      <row important_over="true"><ch a="F"/>Jeszcze się nie skończył </row>
+      <row important_over="true">a już nowy wyrósł<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false"><ch a="F"/>Tyle dni minęło, tyle marzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="false"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="false"><ch a="F"/>Tyle marzeń sennych się nie spełniło<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="false"><ch a="F"/>Tyle dobrych gwiazd ubyło<ch a="C"/><ch a="d"/></row>
+        <row important_over="true"><ch a="F"/>Tyle dni minęło, tyle marzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
+        <row important_over="true"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
+        <row important_over="true"><ch a="F"/>Tyle marzeń sennych się nie spełniło<ch a="C"/><ch a="d"/><ch a="a"/></row>
+        <row important_over="true"><ch a="F"/>Tyle dobrych gwiazd ubyło<ch a="C"/><ch a="d"/></row>
       </bis>
     </block>
     <block type="verse">

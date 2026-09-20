@@ -32,36 +32,36 @@
       <row important_over="true">Ale ze Skar<ch a="a"/>żyska <ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">To samo <ch a="b"/>słońce na tym samym niebie</row>
-      <row important_over="false">Ci sami <ch a="b"/>ludzie żyją obok siebie</row>
-      <row important_over="false">Tak samo <ch a="b"/>marzą i się śmieją</row>
-      <row important_over="false">I z nadzieją spoglądają w kalen<ch a="F"/>darze</row>
-      <row important_over="false">U nas w I<ch a="F"/>talii był upalny sierpień</row>
-      <row important_over="false">Ty nawet <ch a="F"/>nie wiesz, jak ja tutaj cierpię</row>
-      <row important_over="false">Ale nie <ch a="F"/>mówmy o dewiacji</row>
-      <row important_over="false">Tylko wróćmy do wakacji na Ma<ch a="b"/>zurach</row>
-      <row important_over="false">Pamiętasz, <ch a="Cis"/>jakeś pasła gąski w parku</row>
-      <row important_over="false">I jak roz<ch a="b"/>biegły ci się po Lidzbarku</row>
-      <row important_over="false">I jak nad <ch a="F"/>ranem</row>
-      <row important_over="false">Wróciły same, sku<ch a="b"/>bane...</row>
+      <row important_over="true">To samo <ch a="b"/>słońce na tym samym niebie</row>
+      <row important_over="true">Ci sami <ch a="b"/>ludzie żyją obok siebie</row>
+      <row important_over="true">Tak samo <ch a="b"/>marzą i się śmieją</row>
+      <row important_over="true">I z nadzieją spoglądają w kalen<ch a="F"/>darze</row>
+      <row important_over="true">U nas w I<ch a="F"/>talii był upalny sierpień</row>
+      <row important_over="true">Ty nawet <ch a="F"/>nie wiesz, jak ja tutaj cierpię</row>
+      <row important_over="true">Ale nie <ch a="F"/>mówmy o dewiacji</row>
+      <row important_over="true">Tylko wróćmy do wakacji na Ma<ch a="b"/>zurach</row>
+      <row important_over="true">Pamiętasz, <ch a="Cis"/>jakeś pasła gąski w parku</row>
+      <row important_over="true">I jak roz<ch a="b"/>biegły ci się po Lidzbarku</row>
+      <row important_over="true">I jak nad <ch a="F"/>ranem</row>
+      <row important_over="true">Wróciły same, sku<ch a="b"/>bane...</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
-      <row important_over="false">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
-      <row important_over="false">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
-      <row important_over="false"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
-      <row important_over="false">(E tutti cantiamo!)</row>
-      <row important_over="false">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
-      <row important_over="false">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
-      <row important_over="false">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
-      <row important_over="false"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
+      <row important_over="true">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
+      <row important_over="true">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
+      <row important_over="true">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
+      <row important_over="true"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
+      <row important_over="never">(E tutti cantiamo!)</row>
+      <row important_over="true">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
+      <row important_over="true">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
+      <row important_over="true">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
+      <row important_over="true"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Zabierzcie mi gi<ch a="dis"/>tarę</row>
-      <row important_over="false">Lub dajcie mi po <ch a="b"/>pysku</row>
-      <row important_over="false">Zabierzcie mi gi<ch a="F"/>tarę</row>
-      <row important_over="false">Koniec tele<ch a="b"/>dysku!</row>
+      <row important_over="true">Zabierzcie mi gi<ch a="dis"/>tarę</row>
+      <row important_over="true">Lub dajcie mi po <ch a="b"/>pysku</row>
+      <row important_over="true">Zabierzcie mi gi<ch a="F"/>tarę</row>
+      <row important_over="true">Koniec tele<ch a="b"/>dysku!</row>
     </block>
   </lyric>
   <keywords/>

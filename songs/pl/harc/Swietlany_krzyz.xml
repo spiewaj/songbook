@@ -3,19 +3,19 @@
 	<artist type="solo"/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Idziemy w jasną z błękitu utkaną dal,<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="false">Drogą wśród łąk, pól bezkresnych<ch a="a"/><ch a="e"/></row>
-			<row important_over="false">I wśród zbóż szumiących fal.<ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">Idziemy w jasną z błękitu utkaną dal,<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="never">Drogą wśród łąk, pól bezkresnych<ch a="a"/><ch a="e"/></row>
+			<row important_over="never">I wśród zbóż szumiących fal.<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Cicho, szeroko jak okiem spojrzenie śle.</row>
-			<row important_over="false">Jakieś się snują marzenia</row>
-			<row important_over="false">W wieczornej spowitej mgle</row>
+			<row important_over="never">Cicho, szeroko jak okiem spojrzenie śle.</row>
+			<row important_over="never">Jakieś się snują marzenia</row>
+			<row important_over="never">W wieczornej spowitej mgle</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="f"/><ch a="C7"/><ch a="f"/></row>
-			<row important_over="false">By zdobyć szczyt ideałów:<ch a="b"/><ch a="f"/></row>
-			<row important_over="false">Świetlany harcerski krzyż.<ch a="C7"/><ch a="f"/></row>
+			<row important_over="never">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="f"/><ch a="C7"/><ch a="f"/></row>
+			<row important_over="never">By zdobyć szczyt ideałów:<ch a="b"/><ch a="f"/></row>
+			<row important_over="never">Świetlany harcerski krzyż.<ch a="C7"/><ch a="f"/></row>
 		</block>
 	</lyric>
 	<music>

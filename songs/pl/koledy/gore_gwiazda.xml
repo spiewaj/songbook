@@ -17,33 +17,33 @@ Ref:[C G C G7 / e a]</comment>
       <row important_over="true"><ch a="d"/>W Bet<ch a="A"/>lejem, <ch a="d"/>w B<ch a="A"/>etlejem</row>
     </block>
     <block type="verse">
-      <row important_over="never">Wół i osioł w parze służą przy żłobie, przy żłobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">Huczą, buczą delikatnej osobie, osobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Wół i osioł w parze służą przy żłobie, przy żłobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Huczą, buczą delikatnej osobie, osobie<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Pastuszkowie z podarunki przybiegli, przybiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">W koło szopę o północy obiegli, obiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Pastuszkowie z podarunki przybiegli, przybiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">W koło szopę o północy obiegli, obiegli<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Anioł Pański sam ogłosił te dziwy<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">Których oni nie słyszeli jak żywi, jak żywi<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Anioł Pański sam ogłosił te dziwy<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Których oni nie słyszeli jak żywi, jak żywi<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Anioł Pański kuranciki, kuranciki wycina, wycina<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">Stąd pociecha dla człowieka jedyna, jedyna<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Anioł Pański kuranciki, kuranciki wycina, wycina<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Stąd pociecha dla człowieka jedyna, jedyna<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Już Maryja Jezuleńka powiła, powiła<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">Stąd wesele i pociecha nam miła, nam miła<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Już Maryja Jezuleńka powiła, powiła<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Stąd wesele i pociecha nam miła, nam miła<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Gore gwiazda Jezusowi w obłoku, w obłoku<ch a="d"/><ch a="g"/><ch a="A"/></row>
-      <row important_over="never">Józef z Panną asystują przy boku, przy boku<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Gore gwiazda Jezusowi w obłoku, w obłoku<ch a="d"/><ch a="g"/><ch a="A"/></row>
+      <row important_over="false">Józef z Panną asystują przy boku, przy boku<ch a="d"/><ch a="g"/><ch a="A"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

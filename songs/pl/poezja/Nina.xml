@@ -9,29 +9,29 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Nino nam nie trzeba płakać</row>
-      <row important_over="false">Szkoda naszych wspólnych łez</row>
-      <row important_over="false">Bo już taka dola nasza</row>
-      <row important_over="false">Że musimy rozstać się</row>
+      <row important_over="never">Nino nam nie trzeba płakać</row>
+      <row important_over="never">Szkoda naszych wspólnych łez</row>
+      <row important_over="never">Bo już taka dola nasza</row>
+      <row important_over="never">Że musimy rozstać się</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Może z innym znajdziesz szczęście swe</row>
-      <row important_over="false">Może inny szczęście Ci da kochana Nino</row>
-      <row important_over="false">Ale proszę wspomnij szary zmierzch</row>
-      <row important_over="false">I tego który kochał Cię</row>
+      <row important_over="never">Może z innym znajdziesz szczęście swe</row>
+      <row important_over="never">Może inny szczęście Ci da kochana Nino</row>
+      <row important_over="never">Ale proszę wspomnij szary zmierzch</row>
+      <row important_over="never">I tego który kochał Cię</row>
     </block>
     <block type="verse">
-      <row important_over="false">Ogorzały i osmalony</row>
-      <row important_over="false">Z karabinem w ręku stał</row>
-      <row important_over="false">Polski mundur w strzępach cały</row>
-      <row important_over="false">W ustach popiół, w oczach łza</row>
+      <row important_over="never">Ogorzały i osmalony</row>
+      <row important_over="never">Z karabinem w ręku stał</row>
+      <row important_over="never">Polski mundur w strzępach cały</row>
+      <row important_over="never">W ustach popiół, w oczach łza</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">A jeśli będzie inaczej</row>
-      <row important_over="false">Jeśli żądło kuli złej</row>
-      <row important_over="false">Przetnie życie, nie rozpaczaj</row>
-      <row important_over="false">Ale błagam wspomnij mnie</row>
+      <row important_over="never">A jeśli będzie inaczej</row>
+      <row important_over="never">Jeśli żądło kuli złej</row>
+      <row important_over="never">Przetnie życie, nie rozpaczaj</row>
+      <row important_over="never">Ale błagam wspomnij mnie</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

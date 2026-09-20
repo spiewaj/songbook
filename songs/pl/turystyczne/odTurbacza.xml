@@ -16,8 +16,8 @@
       <row important_over="false" style="instr"> <ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Z<ch a="a"/>ima białym płaszczem swym j<ch a="E"/>uż okryła T<ch a="a"/>atry.</row>
-      <row important_over="false">Mgł<ch a="a"/>a zabrała słońcu blask, wi<ch a="E"/>eją zimne wi<ch a="a"/>atry.</row>
+      <row important_over="true">Z<ch a="a"/>ima białym płaszczem swym j<ch a="E"/>uż okryła T<ch a="a"/>atry.</row>
+      <row important_over="true">Mgł<ch a="a"/>a zabrała słońcu blask, wi<ch a="E"/>eją zimne wi<ch a="a"/>atry.</row>
     </block>
     <blocklink blocknb="2"/>
     <blocklink blocknb="3"/>

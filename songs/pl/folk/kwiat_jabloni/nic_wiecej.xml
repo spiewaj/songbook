@@ -18,10 +18,10 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="A"/>Patrzę w księżyc, tak blisko zdaje się być mnie<ch a="fis"/></row>
-      <row important_over="false"><ch a="A"/>Mgła pod nogami, a góry rozmazują się<ch a="fis"/></row>
-      <row important_over="false">A teraz <ch a="A"/>zamknę oczy, pomyślę, że tak mogę wiecznie trwać<ch a="fis"/></row>
-      <row important_over="false"><ch a="A"/>I że do tej pory tylko tlenu było brak, tlenu brak<ch a="fis"/></row>
+      <row important_over="true"><ch a="A"/>Patrzę w księżyc, tak blisko zdaje się być mnie<ch a="fis"/></row>
+      <row important_over="true"><ch a="A"/>Mgła pod nogami, a góry rozmazują się<ch a="fis"/></row>
+      <row important_over="true">A teraz <ch a="A"/>zamknę oczy, pomyślę, że tak mogę wiecznie trwać<ch a="fis"/></row>
+      <row important_over="true"><ch a="A"/>I że do tej pory tylko tlenu było brak, tlenu brak<ch a="fis"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>

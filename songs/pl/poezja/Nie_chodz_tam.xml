@@ -17,10 +17,10 @@
 			<row important_over="true">Słonecznik<ch a="F"/>owe p<ch a="G"/>estki gr<ch a="C"/>yź</row>
 			<row important_over="true">A ja pios<ch a="F"/>enkę C<ch a="E"/>i zan<ch a="a"/>ucę</row>
 			<row important_over="true">T<ch a="F"/>ę której sł<ch a="C"/>uchać chci<ch a="G"/>ała<ch a="C"/>byś</row>
-			<row important_over="false">Nie strącaj z bi<ch a="F"/>urka k<ch a="G"/>ałam<ch a="C"/>arza</row>
-			<row important_over="false">Nie zrywaj z k<ch a="F"/>alend<ch a="G"/>arza dn<ch a="C"/>i</row>
-			<row important_over="false">Jeśli nie l<ch a="F"/>ubisz t<ch a="E"/>ej pios<ch a="a"/>enki</row>
-			<row important_over="false"><ch a="F"/>Inną, ładni<ch a="C"/>ejszą z<ch a="G"/>agram C<ch a="C"/>i.<ch a="G"/><ch a="C"/></row>
+			<row important_over="true">Nie strącaj z bi<ch a="F"/>urka k<ch a="G"/>ałam<ch a="C"/>arza</row>
+			<row important_over="true">Nie zrywaj z k<ch a="F"/>alend<ch a="G"/>arza dn<ch a="C"/>i</row>
+			<row important_over="true">Jeśli nie l<ch a="F"/>ubisz t<ch a="E"/>ej pios<ch a="a"/>enki</row>
+			<row important_over="true"><ch a="F"/>Inną, ładni<ch a="C"/>ejszą z<ch a="G"/>agram C<ch a="C"/>i.<ch a="G"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="a7"/> Zasnęło słońce gdzieś za anten<ch a="e7"/>ami</row>

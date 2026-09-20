@@ -9,26 +9,26 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="F"/>Noce ciemne świerkowe<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="H7"/>Nam spadają na głowy<ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Gdy idziemy zmierzchami<ch a="H7"/><ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Ociemniali blaskiem dnia<ch a="G"/><ch a="D"/></row>
-      <row important_over="false"><ch a="F"/>Księżycowa latarnia<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="H7"/>Niebo mroki ogarnia<ch a="e"/></row>
-      <row important_over="false"><ch a="C"/>Płoną gwiezdne latarki<ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Żeby jaśniej było nam<ch a="G"/></row>
-      <row important_over="false"><ch a="D"/>Żeby jaśniej było nam<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="F"/>Noce ciemne świerkowe<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="H7"/>Nam spadają na głowy<ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Gdy idziemy zmierzchami<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Ociemniali blaskiem dnia<ch a="G"/><ch a="D"/></row>
+      <row important_over="true"><ch a="F"/>Księżycowa latarnia<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="H7"/>Niebo mroki ogarnia<ch a="e"/></row>
+      <row important_over="true"><ch a="C"/>Płoną gwiezdne latarki<ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Żeby jaśniej było nam<ch a="G"/></row>
+      <row important_over="true"><ch a="D"/>Żeby jaśniej było nam<ch a="C"/><ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="D"/>Wędrujemy cygańskim obozem<ch a="C"/><ch a="G"/></row>
-      <row important_over="false"><ch a="A"/>Nocujemy w gwiaździstym gronie<ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>Dzisiaj pod wielkim wozem<ch a="G"/><ch a="e"/></row>
-      <row important_over="false"><ch a="a"/>Jutro na wielkim wozie<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Wędrujemy cygańskim obozem<ch a="C"/><ch a="G"/></row>
+      <row important_over="true"><ch a="A"/>Nocujemy w gwiaździstym gronie<ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>Dzisiaj pod wielkim wozem<ch a="G"/><ch a="e"/></row>
+      <row important_over="true"><ch a="a"/>Jutro na wielkim wozie<ch a="D"/></row>
       <bis>
-        <row important_over="false"><ch a="C"/>Wielki wóz z małym wozem<ch a="G"/></row>
-        <row important_over="false"><ch a="D"/>Jadą po mlecznej drodze<ch a="G"/></row>
-        <row important_over="false"><ch a="C"/>Który dziś nas będzie wiózł<ch a="G"/></row>
-        <row important_over="false"><ch a="D"/>Mały wóz czy Wielki Wóz<ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>Wielki wóz z małym wozem<ch a="G"/></row>
+        <row important_over="true"><ch a="D"/>Jadą po mlecznej drodze<ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>Który dziś nas będzie wiózł<ch a="G"/></row>
+        <row important_over="true"><ch a="D"/>Mały wóz czy Wielki Wóz<ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">

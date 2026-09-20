@@ -17,23 +17,23 @@
 </block>
 
 <block type="verse">
-<row important_over="false">O tych <ch a="C"/>dniach pełnych nadziei</row>
-<row important_over="false">pełnych rozmów i sporów gorących</row>
-<row important_over="false">o tych <ch a="G"/>nocach kiepsko przespanych</row>
-<row important_over="false">naszych <ch a="e"/>sercach mocno bi<ch a="a"/>jących</row>
+<row important_over="true">O tych <ch a="C"/>dniach pełnych nadziei</row>
+<row important_over="never">pełnych rozmów i sporów gorących</row>
+<row important_over="true">o tych <ch a="G"/>nocach kiepsko przespanych</row>
+<row important_over="true">naszych <ch a="e"/>sercach mocno bi<ch a="a"/>jących</row>
 </block>
 
 <block type="verse">
 <row important_over="false">O tych <ch a="C"/>ludziach którzy poczuli</row>
-<row important_over="false">że są wreszcie teraz u siebie</row>
+<row important_over="never">że są wreszcie teraz u siebie</row>
 <row important_over="false">soli<ch a="G"/>darnie walczą o dzisiaj</row>
 <row important_over="false">i o <ch a="e"/>jutro także dla <ch a="a"/>Ciebie</row>
 </block>
 
 <block type="verse">
-<row important_over="false">Więc się <ch a="C"/>nie smuć i czekaj cierpliwie</row>
-<row important_over="false">aż po<ch a="a"/>wrócisz w nasze objęcia</row>
-<row important_over="false">w naszym <ch a="G"/>domu który nie istniał</row>
+<row important_over="true">Więc się <ch a="C"/>nie smuć i czekaj cierpliwie</row>
+<row important_over="true">aż po<ch a="a"/>wrócisz w nasze objęcia</row>
+<row important_over="true">w naszym <ch a="G"/>domu który nie istniał</row>
 <row important_over="true">bo w nim <ch a="e"/>brak było…</row>
 <row important_over="true">prawdziwego sz<ch a="a"/>częścia.</row>
 </block>

@@ -27,22 +27,22 @@
 			<row important_over="true">W t<ch a="G"/>akich chm<ch a="E"/>urach n<ch a="a"/>ic</row>
 			<row important_over="true">
 				<ch a="Fis"/>Absolutnie n<ch a="H"/>ic</row>
-			<row important_over="false">Ki<ch a="e"/>edy m<ch a="D"/>ówisz, m<ch a="G"/>ów</row>
-			<row important_over="false">Ki<ch a="C"/>edy m<ch a="e"/>ilczysz, m<ch a="a"/>ilcz</row>
-			<row important_over="false">Ni<ch a="D"/>echaj wielka b<ch a="G"/>ędzie cisza</row>
-			<row important_over="false">T<ch a="H"/>ak by każdy j<ch a="e"/>ą usł<ch a="D"/>yszał</row>
-			<row important_over="false">Gł<ch a="G"/>ośniej n<ch a="E"/>iż twój krz<ch a="a"/>yk</row>
-			<row important_over="false">Więc: ki<ch a="Fis"/>edy milczysz, m<ch a="H"/>ilcz</row>
+			<row important_over="true">Ki<ch a="e"/>edy m<ch a="D"/>ówisz, m<ch a="G"/>ów</row>
+			<row important_over="true">Ki<ch a="C"/>edy m<ch a="e"/>ilczysz, m<ch a="a"/>ilcz</row>
+			<row important_over="true">Ni<ch a="D"/>echaj wielka b<ch a="G"/>ędzie cisza</row>
+			<row important_over="true">T<ch a="H"/>ak by każdy j<ch a="e"/>ą usł<ch a="D"/>yszał</row>
+			<row important_over="true">Gł<ch a="G"/>ośniej n<ch a="E"/>iż twój krz<ch a="a"/>yk</row>
+			<row important_over="true">Więc: ki<ch a="Fis"/>edy milczysz, m<ch a="H"/>ilcz</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="e"/> Milczeliśmy przez godzinę</row>
-			<row important_over="false">Popijając połowinę p<ch a="Fis"/>od kwas</row>
-			<row important_over="false"><ch a="H"/> Gdy byliśmy już w rozpędzie</row>
-			<row important_over="false">Wstał, powiedział: na mnie będzie j<ch a="e"/>uż cz<ch a="H"/>as</row>
-			<row important_over="false"><ch a="e"/> Jeszcze na mnie spojrzał, jak ten</row>
-			<row important_over="false">Który miał miasteczka każdy wi<ch a="Fis"/>e, gdzie</row>
-			<row important_over="false"><ch a="a"/> Na odchodnym, bez przymiarki</row>
-			<row important_over="false">Rzucił słowne dwa ogarki b<ch a="Fis"/>ym pamiętał, ż<ch a="H"/>e</row>
+			<row important_over="true"><ch a="e"/> Milczeliśmy przez godzinę</row>
+			<row important_over="true">Popijając połowinę p<ch a="Fis"/>od kwas</row>
+			<row important_over="true"><ch a="H"/> Gdy byliśmy już w rozpędzie</row>
+			<row important_over="true">Wstał, powiedział: na mnie będzie j<ch a="e"/>uż cz<ch a="H"/>as</row>
+			<row important_over="true"><ch a="e"/> Jeszcze na mnie spojrzał, jak ten</row>
+			<row important_over="true">Który miał miasteczka każdy wi<ch a="Fis"/>e, gdzie</row>
+			<row important_over="true"><ch a="a"/> Na odchodnym, bez przymiarki</row>
+			<row important_over="true">Rzucił słowne dwa ogarki b<ch a="Fis"/>ym pamiętał, ż<ch a="H"/>e</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>

@@ -13,10 +13,10 @@
 			<row important_over="true">Powiedz ki<ch a="G"/>edy mnie k<ch a="A"/>ochać przest<ch a="G"/>ani<ch a="A"/>esz</row>
 			<row important_over="true">To się czł<ch a="D"/>owiek wypł<ch a="G"/>acze jak czł<ch a="D"/>owiek</row>
 			<row important_over="true">W białym ł<ch a="G"/>óżku nad r<ch a="A"/>an<ch a="D"/>em</row>
-			<row important_over="false">Nie przys<ch a="D"/>yłaj mi l<ch a="G"/>istów ost<ch a="D"/>atnich</row>
-			<row important_over="false">Nie owij<ch a="G"/>aj w baw<ch a="A"/>ełnę słów p<ch a="G"/>ar<ch a="A"/>u</row>
-			<row important_over="false">Lepiej si<ch a="D"/>ądźmy do ci<ch a="G"/>epłej kol<ch a="D"/>acji</row>
-			<row important_over="false">Pod ok<ch a="G"/>apem wiecz<ch a="A"/>or<ch a="D"/>u</row>
+			<row important_over="true">Nie przys<ch a="D"/>yłaj mi l<ch a="G"/>istów ost<ch a="D"/>atnich</row>
+			<row important_over="true">Nie owij<ch a="G"/>aj w baw<ch a="A"/>ełnę słów p<ch a="G"/>ar<ch a="A"/>u</row>
+			<row important_over="true">Lepiej si<ch a="D"/>ądźmy do ci<ch a="G"/>epłej kol<ch a="D"/>acji</row>
+			<row important_over="true">Pod ok<ch a="G"/>apem wiecz<ch a="A"/>or<ch a="D"/>u</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Na tal<ch a="A"/>erzach świecy b<ch a="D"/>lask</row>
@@ -24,11 +24,11 @@
 			<row important_over="true">A pod st<ch a="fis"/>ołem kot się ł<ch a="D"/>asi</row>
 			<row important_over="true">Coś stukn<ch a="fis"/>ęło na tar<ch a="D"/>asie</row>
 			<row important_over="true">M<ch a="A"/>oże wi<ch a="D"/>atr</row>
-			<row important_over="false">Piętro w<ch a="A"/>yżej ćwiczą Lis<ch a="D"/>zta</row>
-			<row important_over="false">A zawi<ch a="A"/>ane towarz<ch a="D"/>ystwo</row>
-			<row important_over="false">Gdzieś pod b<ch a="fis"/>ramą wykrzy<ch a="D"/>kuje</row>
-			<row important_over="false">Stróż im t<ch a="fis"/>ego nie dar<ch a="D"/>uje</row>
-			<row important_over="false">Str<ch a="A"/>óż art<ch a="D"/>ysta</row>
+			<row important_over="true">Piętro w<ch a="A"/>yżej ćwiczą Lis<ch a="D"/>zta</row>
+			<row important_over="true">A zawi<ch a="A"/>ane towarz<ch a="D"/>ystwo</row>
+			<row important_over="true">Gdzieś pod b<ch a="fis"/>ramą wykrzy<ch a="D"/>kuje</row>
+			<row important_over="true">Stróż im t<ch a="fis"/>ego nie dar<ch a="D"/>uje</row>
+			<row important_over="true">Str<ch a="A"/>óż art<ch a="D"/>ysta</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Posiedz<ch a="D"/>imy tak s<ch a="G"/>obie we d<ch a="D"/>woje</row>

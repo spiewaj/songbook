@@ -13,15 +13,15 @@
       <row important_over="true">Żeby mi się <ch a="a"/>przyśnił taki świat</row>
       <row important_over="true">W którym się nie <ch a="d"/>boję spać</row>
       <row important_over="true">W którym się nie <ch a="a"/>boję spać</row>
-      <row important_over="true"/>
-      <row important_over="false">Już na mnie <ch a="d"/>idzie tłum</row>
-      <row important_over="false">I depcze wszy<ch a="a"/>stko po drodze</row>
-      <row important_over="false">Nie mogę <ch a="d"/>uciec mu</row>
-      <row important_over="false">On też przed <ch a="a"/>sobą nie może</row>
-      <row important_over="false">Gwiazd już nie <ch a="d"/>widać, no bo jak?</row>
-      <row important_over="false">Kiedy łuna z <ch a="a"/>ziemi bije tak</row>
-      <row important_over="false">Jak gdyby chciała <ch a="d"/>zalać świat</row>
-      <row important_over="false">Jak gdyby chciała <ch a="a"/>zalać świat</row>
+      <row important_over="never"/>
+      <row important_over="true">Już na mnie <ch a="d"/>idzie tłum</row>
+      <row important_over="true">I depcze wszy<ch a="a"/>stko po drodze</row>
+      <row important_over="true">Nie mogę <ch a="d"/>uciec mu</row>
+      <row important_over="true">On też przed <ch a="a"/>sobą nie może</row>
+      <row important_over="true">Gwiazd już nie <ch a="d"/>widać, no bo jak?</row>
+      <row important_over="true">Kiedy łuna z <ch a="a"/>ziemi bije tak</row>
+      <row important_over="true">Jak gdyby chciała <ch a="d"/>zalać świat</row>
+      <row important_over="true">Jak gdyby chciała <ch a="a"/>zalać świat</row>
     </block>
     <block type="chorus">
       <row important_over="true">Choć <ch a="F"/>nie chcę <ch a="g"/>budzić się</row>
@@ -30,14 +30,14 @@
       <row important_over="true">A <ch a="C"/>sen jak <ch a="d"/>świat x2</row>
     </block>
     <block type="verse">
-      <row important_over="false">Nie mogę <ch a="d"/>ruszyć w przód</row>
-      <row important_over="false">Nogi sklej<ch a="a"/>one taśmami</row>
-      <row important_over="false">Zaczynam s<ch a="d"/>padać w dół</row>
-      <row important_over="false">Spadam do g<ch a="a"/>óry nogami</row>
-      <row important_over="false">Myślę sobie, <ch a="d"/>zaraz obudzę się</row>
-      <row important_over="false">Lecz im bardziej s<ch a="a"/>padam, tym bardziej widzę, że</row>
-      <row important_over="false">To wszystko chyba<ch a="d"/> nie jest sen</row>
-      <row important_over="false">To wszystko chyba <ch a="a"/>nie jest sen</row>
+      <row important_over="true">Nie mogę <ch a="d"/>ruszyć w przód</row>
+      <row important_over="true">Nogi sklej<ch a="a"/>one taśmami</row>
+      <row important_over="true">Zaczynam s<ch a="d"/>padać w dół</row>
+      <row important_over="true">Spadam do g<ch a="a"/>óry nogami</row>
+      <row important_over="true">Myślę sobie, <ch a="d"/>zaraz obudzę się</row>
+      <row important_over="true">Lecz im bardziej s<ch a="a"/>padam, tym bardziej widzę, że</row>
+      <row important_over="true">To wszystko chyba<ch a="d"/> nie jest sen</row>
+      <row important_over="true">To wszystko chyba <ch a="a"/>nie jest sen</row>
     </block>
     <blocklink blocknb="2"/>
     <blocklink blocknb="2"/>

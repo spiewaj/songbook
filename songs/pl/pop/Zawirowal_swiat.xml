@@ -9,10 +9,10 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="D"/>Chmury skłębione niosą mrozy i śnieg<ch a="e"/></row>
-      <row important_over="false"><ch a="G"/>Wiatr gwiżdże w nieszczelnych futrynach<ch a="D"/></row>
-      <row important_over="false"><ch a="D"/>Kolejny raz pociąg spóźnia się<ch a="e"/></row>
-      <row important_over="false"><ch a="G"/>Znak że znowu zaczyna się zima<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Chmury skłębione niosą mrozy i śnieg<ch a="e"/></row>
+      <row important_over="true"><ch a="G"/>Wiatr gwiżdże w nieszczelnych futrynach<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Kolejny raz pociąg spóźnia się<ch a="e"/></row>
+      <row important_over="true"><ch a="G"/>Znak że znowu zaczyna się zima<ch a="D"/></row>
     </block>
     <block type="verse">
       <bis>

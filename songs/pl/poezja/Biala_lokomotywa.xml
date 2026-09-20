@@ -11,14 +11,14 @@
 		<block type="verse">
 			<row important_over="true">Sun<ch a="E"/>ęła poprzez czarne łąki</row>
 			<row important_over="true">Sun<ch a="A"/>ęła przez spalony l<ch a="E"/>as</row>
-			<row important_over="false">Mij<ch a="E"/>ała bram zwęglone szczątki</row>
-			<row important_over="false">Płyn<ch a="A"/>ęła przez wspomnienia mi<ch a="E"/>ast</row>
+			<row important_over="true">Mij<ch a="E"/>ała bram zwęglone szczątki</row>
+			<row important_over="true">Płyn<ch a="A"/>ęła przez wspomnienia mi<ch a="E"/>ast</row>
 			<row important_over="true">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
-			<row important_over="false">Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
-			<row important_over="false">Ta ż<ch a="A"/>ywa zjawa, istny c<ch a="E"/>ud</row>
-			<row important_over="false">Tu p<ch a="E"/>ośród pustych marnych wierszy</row>
-			<row important_over="false">Tu gd<ch a="A"/>zie już tylko czarny k<ch a="E"/>urz</row>
-			<row important_over="false">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
+			<row important_over="true">Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
+			<row important_over="true">Ta ż<ch a="A"/>ywa zjawa, istny c<ch a="E"/>ud</row>
+			<row important_over="true">Tu p<ch a="E"/>ośród pustych marnych wierszy</row>
+			<row important_over="true">Tu gd<ch a="A"/>zie już tylko czarny k<ch a="E"/>urz</row>
+			<row important_over="true">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Ach cz<ch a="G"/>yj, ach cz<ch a="D"/>yj to j<ch a="C"/>est<ch a="G"/></row>

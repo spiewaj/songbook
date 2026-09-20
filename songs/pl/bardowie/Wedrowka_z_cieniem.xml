@@ -9,10 +9,10 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false">Po ulic m<ch a="a"/>okrym, ci<ch a="E7"/>emnym tl<ch a="a"/>e,</row>
-      <row important_over="false"><ch a="G7"/> Pod prószącymi latarni<ch a="C"/>am<ch a="A7"/>i,</row>
-      <row important_over="false">Ja wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
-      <row important_over="false"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
+      <row important_over="true">Po ulic m<ch a="a"/>okrym, ci<ch a="E7"/>emnym tl<ch a="a"/>e,</row>
+      <row important_over="true"><ch a="G7"/> Pod prószącymi latarni<ch a="C"/>am<ch a="A7"/>i,</row>
+      <row important_over="true">Ja wlokę ci<ch a="d"/>eń, cień wlecze mni<ch a="a"/>e,</row>
+      <row important_over="true"><ch a="E7"/> Kałuże lśnią nam pod nog<ch a="a"/>am<ch a="A7"/>i…</row>
     </block>
     <block type="verse">
       <row important_over="false">Dawno nie b<ch a="a"/>yło n<ch a="E7"/>am tak źl<ch a="a"/>e —</row>

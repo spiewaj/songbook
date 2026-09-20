@@ -5,15 +5,15 @@
   <artist type="solo">Krzysztof Daukszewicz</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="h"/>Wchodzi pierwszy zalany, drzwi się zamykają<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="false"><ch a="h"/>Widać film ma urwany, kica w kąt jak zając<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="false"><ch a="e"/>I w bełkocie: ,,wylali'', bez motywowacji<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="false"><ch a="h"/>Pije bo kac jest lepszy, od stanów frustracji<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="false"><ch a="e"/>Tylko kto mnie mać tak skurczył do rozmiarów liliputka<ch a="h"/></row>
+      <row important_over="true"><ch a="h"/>Wchodzi pierwszy zalany, drzwi się zamykają<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="true"><ch a="h"/>Widać film ma urwany, kica w kąt jak zając<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="true"><ch a="e"/>I w bełkocie: ,,wylali'', bez motywowacji<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="true"><ch a="h"/>Pije bo kac jest lepszy, od stanów frustracji<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="true"><ch a="e"/>Tylko kto mnie mać tak skurczył do rozmiarów liliputka<ch a="h"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="h"/>Przez judasza głos doszedł: </row>
-      <row important_over="false">- Wódka tylko wódka !<ch a="Fis7"/><ch a="h"/></row>
+      <row important_over="true"><ch a="h"/>Przez judasza głos doszedł: </row>
+      <row important_over="true">- Wódka tylko wódka !<ch a="Fis7"/><ch a="h"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="h"/>Wchodzi facet ubrany, równo jak pod sznurek<ch a="Fis7"/><ch a="h"/></row>
@@ -40,11 +40,11 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="c"/>Teraz na strasznej bani elegancka pani<ch a="a"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="false"><ch a="G7"/>Nagle wszyscy dookoła chłopcy malowani<ch a="c"/></row>
-      <row important_over="false"><ch a="f"/>Teraz wiem — rzecze dama — czemu kraj zaniemógł<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="false"><ch a="G7"/>Bowiem tutaj się skryły resztki gentelmanów</row>
-      <row important_over="false"><ch a="f"/>Ktoś was chłopcy najmilejsi znów wystrychnął na dudka<ch a="c"/></row>
+      <row important_over="true"><ch a="c"/>Teraz na strasznej bani elegancka pani<ch a="a"/><ch a="G7"/><ch a="c"/></row>
+      <row important_over="true"><ch a="G7"/>Nagle wszyscy dookoła chłopcy malowani<ch a="c"/></row>
+      <row important_over="true"><ch a="f"/>Teraz wiem — rzecze dama — czemu kraj zaniemógł<ch a="c"/><ch a="G7"/><ch a="c"/></row>
+      <row important_over="true"><ch a="G7"/>Bowiem tutaj się skryły resztki gentelmanów</row>
+      <row important_over="true"><ch a="f"/>Ktoś was chłopcy najmilejsi znów wystrychnął na dudka<ch a="c"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -71,8 +71,8 @@
       <row important_over="false"><ch a="f"/>Co nam szkodzi w tym życiu niech mi z was ktoś odpowie!<ch a="c"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="G7"/>Przez judasza głos doszedł: </row>
-      <row important_over="false">- Picie kolorowej !<ch a="c"/></row>
+      <row important_over="true"><ch a="G7"/>Przez judasza głos doszedł: </row>
+      <row important_over="true">- Picie kolorowej !<ch a="c"/></row>
     </block>
   </lyric>
   <music>

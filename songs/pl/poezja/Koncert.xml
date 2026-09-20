@@ -38,13 +38,13 @@
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false"><ch a="C"/>Będę koncert grać</row>
-				<row important_over="false"><ch a="G"/>Ten na trąbki i skrzypce</row>
-				<row important_over="false"><ch a="C"/>Tak by dźwięki ułożyły się w wiersz<ch a="G"/></row>
-				<row important_over="false"><ch a="C"/>Będę łyżką światła rozweselać to wszystko<ch a="G"/></row>
-				<row important_over="false"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
+				<row important_over="true"><ch a="C"/>Będę koncert grać</row>
+				<row important_over="true"><ch a="G"/>Ten na trąbki i skrzypce</row>
+				<row important_over="true"><ch a="C"/>Tak by dźwięki ułożyły się w wiersz<ch a="G"/></row>
+				<row important_over="true"><ch a="C"/>Będę łyżką światła rozweselać to wszystko<ch a="G"/></row>
+				<row important_over="true"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
 			</bis>
-			<row important_over="false"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
+			<row important_over="true"><ch a="H7"/>Żeby w tobie zaśpiewało coś też<ch a="e"/></row>
 		</block>
 		<block type="other">
 			<row important_over="false" style="instr"> <ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/><ch a="H7"/><ch a="e"/><ch a="H7"/><ch a="e"/></row>

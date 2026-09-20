@@ -10,11 +10,11 @@
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Sł<ch a="C"/>uchaj, Mal<ch a="a"/>eństwo, sł<ch a="d"/>uchaj dzi<ch a="G"/>ecię,</row>
-			<row important_over="false">J<ch a="C"/>ak Mama K<ch a="a"/>angurz<ch a="d"/>yca pł<ch a="G"/>acze…</row>
-			<row important_over="false">H<ch a="C"/>ohonie wł<ch a="a"/>óczą si<ch a="d"/>ę po l<ch a="G"/>esie,</row>
-			<row important_over="false">N<ch a="C"/>a próżno sz<ch a="a"/>uka ci<ch a="d"/>ę Prosi<ch a="G"/>aczek.</row>
-			<row important_over="false">W g<ch a="C"/>ęstwinie j<ch a="a"/>ego h<ch a="d"/>art nic ni<ch a="G"/>ewart,</row>
-			<row important_over="false">Gd<ch a="C"/>y Krzyś się n<ch a="a"/>udzi… b<ch a="d"/>o - dojrz<ch a="G"/>ewa.</row>
+			<row important_over="true">J<ch a="C"/>ak Mama K<ch a="a"/>angurz<ch a="d"/>yca pł<ch a="G"/>acze…</row>
+			<row important_over="true">H<ch a="C"/>ohonie wł<ch a="a"/>óczą si<ch a="d"/>ę po l<ch a="G"/>esie,</row>
+			<row important_over="true">N<ch a="C"/>a próżno sz<ch a="a"/>uka ci<ch a="d"/>ę Prosi<ch a="G"/>aczek.</row>
+			<row important_over="true">W g<ch a="C"/>ęstwinie j<ch a="a"/>ego h<ch a="d"/>art nic ni<ch a="G"/>ewart,</row>
+			<row important_over="true">Gd<ch a="C"/>y Krzyś się n<ch a="a"/>udzi… b<ch a="d"/>o - dojrz<ch a="G"/>ewa.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Wi<ch a="C"/>elkie prz<ch a="a"/>ekleństwo d<ch a="d"/>orosł<ch a="G"/>ości</row>

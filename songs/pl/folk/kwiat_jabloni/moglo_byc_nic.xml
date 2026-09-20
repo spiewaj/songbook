@@ -29,38 +29,38 @@
       <row important_over="true">J<ch a="D"/>est wszyst<ch a="e"/>ko...  <ch a="C"/><ch a="G"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Je<ch a="e"/>steś tu zupełnie sam</row>
-      <row important_over="false">Na<ch a="b"/>jzwyczajniej w świecie jesteś</row>
-      <row important_over="false">Ni<ch a="a"/>kt nie czeka na Twój znak</row>
-      <row important_over="false">Ni<ch a="b"/>kt nie patrzy jak potykasz się</row>
-      <row important_over="false">Ni<ch a="e"/>e ma fanfar, złotych bram</row>
-      <row important_over="false">Ba<ch a="b"/>rwnych świateł, ciepła tłumu</row>
-      <row important_over="false">Pi<ch a="a"/>ękno da się znaleźć tam</row>
-      <row important_over="false">Na<ch a="b"/>wet w ciszy i bezruchu</row>
+      <row important_over="true">Je<ch a="e"/>steś tu zupełnie sam</row>
+      <row important_over="true">Na<ch a="b"/>jzwyczajniej w świecie jesteś</row>
+      <row important_over="true">Ni<ch a="a"/>kt nie czeka na Twój znak</row>
+      <row important_over="true">Ni<ch a="b"/>kt nie patrzy jak potykasz się</row>
+      <row important_over="true">Ni<ch a="e"/>e ma fanfar, złotych bram</row>
+      <row important_over="true">Ba<ch a="b"/>rwnych świateł, ciepła tłumu</row>
+      <row important_over="true">Pi<ch a="a"/>ękno da się znaleźć tam</row>
+      <row important_over="true">Na<ch a="b"/>wet w ciszy i bezruchu</row>
     </block>
     <block type="chorus">
-      <row important_over="false">I to za<ch a="e"/>piera dech</row>
-      <row important_over="false">Że jest<ch a="C"/> coś, a nie nic</row>
-      <row important_over="false">Gdy bud<ch a="G"/>zisz się to nadal je<ch a="D"/>steś Ty</row>
-      <row important_over="false">I to za<ch a="e"/>piera dech</row>
-      <row important_over="false">Że obok C<ch a="C"/>iebie jest ktoś</row>
-      <row important_over="false">I że mo<ch a="G"/>gło być nic...<ch a="D"/></row>
+      <row important_over="true">I to za<ch a="e"/>piera dech</row>
+      <row important_over="true">Że jest<ch a="C"/> coś, a nie nic</row>
+      <row important_over="true">Gdy bud<ch a="G"/>zisz się to nadal je<ch a="D"/>steś Ty</row>
+      <row important_over="true">I to za<ch a="e"/>piera dech</row>
+      <row important_over="true">Że obok C<ch a="C"/>iebie jest ktoś</row>
+      <row important_over="true">I że mo<ch a="G"/>gło być nic...<ch a="D"/></row>
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false">A skoro sza<ch a="A"/>rość nie zachwyca</row>
-      <row important_over="false">To ilu potr<ch a="e"/>zebujesz barw</row>
-      <row important_over="false">Bo chociaż <ch a="C"/>wczoraj zaszło słońce</row>
-      <row important_over="false">To ni<ch a="D"/>e musi jutro wstać</row>
+      <row important_over="true">A skoro sza<ch a="A"/>rość nie zachwyca</row>
+      <row important_over="true">To ilu potr<ch a="e"/>zebujesz barw</row>
+      <row important_over="true">Bo chociaż <ch a="C"/>wczoraj zaszło słońce</row>
+      <row important_over="true">To ni<ch a="D"/>e musi jutro wstać</row>
     </block>
     <blocklink blocknb="5"/>
     <blocklink blocknb="3"/>
     <block type="other">
       <bis times="4">
-        <row important_over="false">na n<ch a="e"/>a na na na</row>
-        <row important_over="false">na n<ch a="C"/>a na na na</row>
-        <row important_over="false">na n<ch a="G"/>a na na na...</row>
-        <row important_over="false">na na na.<ch a="D"/>..na na na...</row>
+        <row important_over="true">na n<ch a="e"/>a na na na</row>
+        <row important_over="true">na n<ch a="C"/>a na na na</row>
+        <row important_over="true">na n<ch a="G"/>a na na na...</row>
+        <row important_over="true">na na na.<ch a="D"/>..na na na...</row>
       </bis>
     </block>
   </lyric>

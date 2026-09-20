@@ -9,16 +9,16 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="false"><ch a="a"/>Był sobie raz pajączek co żywot wiódł radosny</row>
-			<row important_over="false"><ch a="G"/>Rozsnuwał co noc sieć swą od sosny aż do sosny<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="a"/>Kres szczęściu przynósł wietrzyk co nieraz sobie dmucha</row>
-			<row important_over="false"><ch a="G"/>Z jego bowiem sprawą do tej sieci wpadła mucha<ch a="a"/><ch a="G"/></row>
+			<row important_over="true"><ch a="a"/>Był sobie raz pajączek co żywot wiódł radosny</row>
+			<row important_over="true"><ch a="G"/>Rozsnuwał co noc sieć swą od sosny aż do sosny<ch a="a"/><ch a="G"/></row>
+			<row important_over="true"><ch a="a"/>Kres szczęściu przynósł wietrzyk co nieraz sobie dmucha</row>
+			<row important_over="true"><ch a="G"/>Z jego bowiem sprawą do tej sieci wpadła mucha<ch a="a"/><ch a="G"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/></row>
-			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/></row>
-			<row important_over="false"><ch a="a"/>Aaa…<ch a="G"/></row>
+			<row important_over="true"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/></row>
+			<row important_over="true"><ch a="a"/>Aaa…<ch a="G"/><ch a="a"/><ch a="G"/></row>
+			<row important_over="true"><ch a="a"/>Aaa…<ch a="G"/></row>
+			<row important_over="true"><ch a="a"/>Aaa…<ch a="G"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="a"/>I tutaj nasz pajączek postąpił wbrew naturze</row>

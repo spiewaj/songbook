@@ -8,10 +8,10 @@
       <row important_over="true"><ch a="G"/>Rozstaję się z ko<ch a="D"/>lejną rzeczą</row>
       <row important_over="true"><ch a="a"/>Mnie takie rzeczy l<ch a="e"/>eczą</row>
       <row important_over="true"><ch a="G"/>Że rzeczy oknem lecą, <ch a="D"/>a ściany pustką święcą</row>
-      <row important_over="false"><ch a="a"/>I sam z jedną ś<ch a="e"/>wiecą w pokoju</row>
-      <row important_over="false"><ch a="G"/>Cienie drżą płaskie na <ch a="D"/>ekranie ściany</row>
-      <row important_over="false"><ch a="a"/>I tylko mój cień i <ch a="e"/>tylko świecy cień</row>
-      <row important_over="false"><ch a="G"/>Kiwam się powoli śpiewając z<ch a="D"/>e świeczką w pokoju</row>
+      <row important_over="true"><ch a="a"/>I sam z jedną ś<ch a="e"/>wiecą w pokoju</row>
+      <row important_over="true"><ch a="G"/>Cienie drżą płaskie na <ch a="D"/>ekranie ściany</row>
+      <row important_over="true"><ch a="a"/>I tylko mój cień i <ch a="e"/>tylko świecy cień</row>
+      <row important_over="true"><ch a="G"/>Kiwam się powoli śpiewając z<ch a="D"/>e świeczką w pokoju</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="a"/>Mniej mam i mniemam ż<ch a="e"/>e nie mam ja mienia</row>
@@ -20,10 +20,10 @@
       <row important_over="true"><ch a="G"/>Ja manie mam na „nie&quot; a me <ch a="D"/>imię - Niemanie</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wyrzucam ubranie, t<ch a="e"/>o ostatnie me manie</row>
-      <row important_over="false"><ch a="G"/>A teraz mnie w ciele bardzo, <ch a="D"/>bardzo, bardzo wiele</row>
-      <row important_over="false"><ch a="a"/>Topnienia potrzeba ma<ch a="e"/>terii, ponieważ</row>
-      <row important_over="false"><ch a="G"/>Płomieniem ogrzewam me <ch a="D"/>całe niemienie</row>
+      <row important_over="true"><ch a="a"/>Wyrzucam ubranie, t<ch a="e"/>o ostatnie me manie</row>
+      <row important_over="true"><ch a="G"/>A teraz mnie w ciele bardzo, <ch a="D"/>bardzo, bardzo wiele</row>
+      <row important_over="true"><ch a="a"/>Topnienia potrzeba ma<ch a="e"/>terii, ponieważ</row>
+      <row important_over="true"><ch a="G"/>Płomieniem ogrzewam me <ch a="D"/>całe niemienie</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">

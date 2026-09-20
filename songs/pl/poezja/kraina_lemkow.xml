@@ -8,44 +8,44 @@
       <row important_over="true"><ch a="G"/>Więc nam <ch a="e"/>czas płynie <ch a="a"/>szybko i wes<ch a="D"/>oło.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Laj la la laj... <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="true">Laj la la laj... <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Wędrujemy tydzień już ziemia drży
+      <row important_over="false">Wędrujemy tydzień już ziemia drży
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Krajem Łemków co urzeka pięknem swym 
+      <row important_over="false">Krajem Łemków co urzeka pięknem swym 
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Dzikie szczyty każdy z nas zdobywać tutaj chce
+      <row important_over="false">Dzikie szczyty każdy z nas zdobywać tutaj chce
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Strome zbocza, wąwozów poznać urok.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false">Strome zbocza, wąwozów poznać urok.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Aura figle płata wciąż - nie jest źle
+      <row important_over="false">Aura figle płata wciąż - nie jest źle
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Chociaż czasem pada śnieg albo deszcz
+      <row important_over="false">Chociaż czasem pada śnieg albo deszcz
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Przyjacielem każdy szlak, my znamy przygód smak
+      <row important_over="false">Przyjacielem każdy szlak, my znamy przygód smak
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Zawsze cel wypraw swoich osiągamy.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false">Zawsze cel wypraw swoich osiągamy.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Każdy w błocie utaplany ze aż strach
+      <row important_over="false">Każdy w błocie utaplany ze aż strach
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">W butach chlupie ale w duszy ciągle gra
+      <row important_over="false">W butach chlupie ale w duszy ciągle gra
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Zasłyszanych dźwięków moc które wczoraj ktoś
+      <row important_over="false">Zasłyszanych dźwięków moc które wczoraj ktoś
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Cały czas podśpiewywał w porze zmierzchu.
+      <row important_over="false">Cały czas podśpiewywał w porze zmierzchu.
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Jeszcze raz unicki krzyż żegna nas
+      <row important_over="false">Jeszcze raz unicki krzyż żegna nas
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">I dukielski stary pocztowy szlak
+      <row important_over="false">I dukielski stary pocztowy szlak
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">W Bieczu pożegnamy się lecz każdy z nas wie
+      <row important_over="false">W Bieczu pożegnamy się lecz każdy z nas wie
 <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="never">Że za rok powrócimy tu na pewno.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false">Że za rok powrócimy tu na pewno.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
     </block>
   </lyric>
   <keywords/>

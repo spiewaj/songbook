@@ -9,23 +9,23 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Był Anglik, co przyjaźń nawiązał z Hindusem</row>
-      <row important_over="false"><ch a="G"/>Z najczystszej sympatii, a nie pod przymusem.</row>
-      <row important_over="false"><ch a="F"/>Do dzisiaj by trwała</row>
-      <row important_over="false"><ch a="E"/>Ta przyjaźń wspaniała,</row>
-      <row important_over="false"><ch a="a"/>Lecz Hindus nieświeży dał mu ser.<ch a="E"/><ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Pretensje mieć trudno do tego Anglika,</row>
-      <row important_over="false"><ch a="G"/>Gdy druh w narodowej go dumie dotyka.</row>
-      <row important_over="false"><ch a="F"/>Więc wzgardził pariasem</row>
-      <row important_over="false"><ch a="E"/>I przyjaźń swą z czasem</row>
-      <row important_over="false"><ch a="a"/>Położył u stóp - Irlandczyka.<ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Był Anglik, co przyjaźń nawiązał z Hindusem</row>
+      <row important_over="true"><ch a="G"/>Z najczystszej sympatii, a nie pod przymusem.</row>
+      <row important_over="true"><ch a="F"/>Do dzisiaj by trwała</row>
+      <row important_over="true"><ch a="E"/>Ta przyjaźń wspaniała,</row>
+      <row important_over="true"><ch a="a"/>Lecz Hindus nieświeży dał mu ser.<ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Pretensje mieć trudno do tego Anglika,</row>
+      <row important_over="true"><ch a="G"/>Gdy druh w narodowej go dumie dotyka.</row>
+      <row important_over="true"><ch a="F"/>Więc wzgardził pariasem</row>
+      <row important_over="true"><ch a="E"/>I przyjaźń swą z czasem</row>
+      <row important_over="true"><ch a="a"/>Położył u stóp - Irlandczyka.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="d"/>Narody, narody! Po diabła narody</row>
-      <row important_over="false"><ch a="a"/>Stojące na drodze do szczęścia i zgody?</row>
-      <row important_over="false"><ch a="E"/>Historia nam daje dobite dowody:</row>
-      <row important_over="false"><ch a="a"/>Pragniecie pokoju? - Usuńcie przeszkody -<ch a="A7"/></row>
-      <row important_over="false"><ch a="d"/>Narody, narody, narody!<ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="d"/>Narody, narody! Po diabła narody</row>
+      <row important_over="true"><ch a="a"/>Stojące na drodze do szczęścia i zgody?</row>
+      <row important_over="true"><ch a="E"/>Historia nam daje dobite dowody:</row>
+      <row important_over="true"><ch a="a"/>Pragniecie pokoju? - Usuńcie przeszkody -<ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Narody, narody, narody!<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Raz Francuz sąsiada miał, co był z Somalii,</row>
@@ -158,11 +158,11 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="d"/>Ach gdybyż narodów na świecie nie było,</row>
-      <row important_over="false"><ch a="a"/>Jak nam by się wtedy szczęśliwie tu żyło!</row>
-      <row important_over="false"><ch a="E"/>Dla dobra człowieka, dla szczęścia ludzkości,</row>
-      <row important_over="false"><ch a="a"/>Złączonej w potężnym uścisku miłości,<ch a="A7"/></row>
-      <row important_over="false"><ch a="d"/>Aż z trzaskiem pękałyby kości.<ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="d"/>Ach gdybyż narodów na świecie nie było,</row>
+      <row important_over="true"><ch a="a"/>Jak nam by się wtedy szczęśliwie tu żyło!</row>
+      <row important_over="true"><ch a="E"/>Dla dobra człowieka, dla szczęścia ludzkości,</row>
+      <row important_over="true"><ch a="a"/>Złączonej w potężnym uścisku miłości,<ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Aż z trzaskiem pękałyby kości.<ch a="E"/><ch a="a"/></row>
     </block>
   </lyric>
   <music metre="">

@@ -9,10 +9,10 @@
       <row important_over="never">Dumnie noszą jak tajemnice <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="false" sidechords="G a">Myślą z samym ścigać się Bogiem</row>
-      <row important_over="false" sidechords="a G">Czarne myśli powkładać jak drwa do ogniska</row>
-      <row important_over="false" sidechords="F G a">Gdy noc chmurna zastąpi ci drogę</row>
+      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
+      <row important_over="never" sidechords="G a">Myślą z samym ścigać się Bogiem</row>
+      <row important_over="never" sidechords="a G">Czarne myśli powkładać jak drwa do ogniska</row>
+      <row important_over="never" sidechords="F G a">Gdy noc chmurna zastąpi ci drogę</row>
     </block>
     <block type="chorus">
       <row important_over="never">Ach śnij mi się śnij irlandzki śnie <ch a="a"/><ch a="G"/></row>
@@ -21,10 +21,10 @@
       <row important_over="never">W irlandzki zielony sen <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="false" sidechords="G a">Nad leśnego ruczaju kryształem</row>
-      <row important_over="false" sidechords="a G">Woda moc ma czarowną, koń siły odzyska</row>
-      <row important_over="false" sidechords="F G a">Nad bezdrożem przeleci jak strzała</row>
+      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
+      <row important_over="never" sidechords="G a">Nad leśnego ruczaju kryształem</row>
+      <row important_over="never" sidechords="a G">Woda moc ma czarowną, koń siły odzyska</row>
+      <row important_over="never" sidechords="F G a">Nad bezdrożem przeleci jak strzała</row>
     </block>
     <block type="verse">
       <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>

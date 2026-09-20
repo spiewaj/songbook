@@ -11,25 +11,25 @@
 		<block type="verse">
 			<row important_over="true">Na ile wi<ch a="a"/>ary brak gor<ch a="H7"/>ącej,</row>
 			<row important_over="true">Że jest na ni<ch a="E7"/>ebie jakiś b<ch a="a"/>óg,</row>
-			<row important_over="false">Na tyle wi<ch a="a"/>ąże koniec z k<ch a="H7"/>ońcem</row>
-			<row important_over="false">Łańcucha k<ch a="E7"/>atorżnika n<ch a="a"/>óg.</row>
+			<row important_over="true">Na tyle wi<ch a="a"/>ąże koniec z k<ch a="H7"/>ońcem</row>
+			<row important_over="true">Łańcucha k<ch a="E7"/>atorżnika n<ch a="a"/>óg.</row>
 			<row important_over="true">Na ile wci<ch a="G"/>ąż nadzieja sz<ch a="C"/>arpie,</row>
 			<row important_over="true">Że coś się dl<ch a="d"/>a nas w mr<ch a="H7"/>okach tl<ch a="E"/>i,</row>
 			<bis times="2">
-				<row important_over="false">Na tyle w<ch a="a"/>igilijne k<ch a="H7"/>arpie</row>
-				<row important_over="false">Śnią smacznie sw<ch a="E7"/>e beztroskie sn<ch a="a"/>y.</row>
+				<row important_over="true">Na tyle w<ch a="a"/>igilijne k<ch a="H7"/>arpie</row>
+				<row important_over="true">Śnią smacznie sw<ch a="E7"/>e beztroskie sn<ch a="a"/>y.</row>
 			</bis>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Pi<ch a="a"/>osenka pożegn<ch a="H7"/>ania —</row>
 			<row important_over="true">Pios<ch a="E"/>enką jest utr<ch a="a"/>aty,</row>
-			<row important_over="false">Ż<ch a="a"/>egnałem ludzi i zd<ch a="H7"/>ania —</row>
-			<row important_over="false">Trac<ch a="E"/>iłem całe świ<ch a="a"/>aty.</row>
+			<row important_over="true">Ż<ch a="a"/>egnałem ludzi i zd<ch a="H7"/>ania —</row>
+			<row important_over="true">Trac<ch a="E"/>iłem całe świ<ch a="a"/>aty.</row>
 			<row important_over="true">I n<ch a="A7"/>ic nie pozost<ch a="d"/>ało</row>
 			<row important_over="true">Prócz t<ch a="G"/>ego, co nuc<ch a="C"/>ici<ch a="E7"/>e!</row>
 			<bis times="2">
-				<row important_over="false">T<ch a="a"/>o wcale nie jest m<ch a="H7"/>ało</row>
-				<row important_over="false">Tak ż<ch a="E"/>egnać całe ż<ch a="a"/>ycie.</row>
+				<row important_over="true">T<ch a="a"/>o wcale nie jest m<ch a="H7"/>ało</row>
+				<row important_over="true">Tak ż<ch a="E"/>egnać całe ż<ch a="a"/>ycie.</row>
 			</bis>
 		</block>
 		<block type="verse">

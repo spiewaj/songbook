@@ -9,22 +9,22 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś hiszp<ch a="C"/>ańskie dziewc<ch a="h7"/>zyny</row>
-			<row important_over="false">Żegn<ch a="e"/>ajcie nam dziś marz<ch a="G"/>enia ze s<ch a="D"/>nów</row>
-			<row important_over="false">Ku brz<ch a="C"/>egom angi<ch a="D"/>elskim już r<ch a="e"/>uszać nam pora</row>
-			<row important_over="false">Lecz ki<ch a="C"/>edyś na pewno wró<ch a="h7"/>cimy tu z<ch a="e"/>nów</row>
+			<row important_over="true">Żegn<ch a="e"/>ajcie nam dziś hiszp<ch a="C"/>ańskie dziewc<ch a="h7"/>zyny</row>
+			<row important_over="true">Żegn<ch a="e"/>ajcie nam dziś marz<ch a="G"/>enia ze s<ch a="D"/>nów</row>
+			<row important_over="true">Ku brz<ch a="C"/>egom angi<ch a="D"/>elskim już r<ch a="e"/>uszać nam pora</row>
+			<row important_over="true">Lecz ki<ch a="C"/>edyś na pewno wró<ch a="h7"/>cimy tu z<ch a="e"/>nów</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
-			<row important_over="false">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
-			<row important_over="false">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
-			<row important_over="false">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
+			<row important_over="true">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
+			<row important_over="true">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
+			<row important_over="true">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
+			<row important_over="true">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Niedł<ch a="e"/>ugo ujrzymy znów w d<ch a="C"/>ali Cape De<ch a="h7"/>adman</row>
-			<row important_over="false">I gł<ch a="e"/>owę baranią stercz<ch a="G"/>ącą wśród wzg<ch a="D"/>órz</row>
-			<row important_over="false">I st<ch a="C"/>atki stoj<ch a="h7"/>ące na r<ch a="e"/>edzie przy Plymouth</row>
-			<row important_over="false">Klaro<ch a="C"/>wać kotwicę najwy<ch a="h7"/>ższy czas j<ch a="e"/>uż</row>
+			<row important_over="true">Niedł<ch a="e"/>ugo ujrzymy znów w d<ch a="C"/>ali Cape De<ch a="h7"/>adman</row>
+			<row important_over="true">I gł<ch a="e"/>owę baranią stercz<ch a="G"/>ącą wśród wzg<ch a="D"/>órz</row>
+			<row important_over="true">I st<ch a="C"/>atki stoj<ch a="h7"/>ące na r<ch a="e"/>edzie przy Plymouth</row>
+			<row important_over="true">Klaro<ch a="C"/>wać kotwicę najwy<ch a="h7"/>ższy czas j<ch a="e"/>uż</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
@@ -42,10 +42,10 @@
 		</block>
 		<block type="verse">
 			<bis>
-				<row important_over="false">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
-				<row important_over="false">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
-				<row important_over="false">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
-				<row important_over="false">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
+				<row important_over="true">I sm<ch a="e"/>ak waszych ust hiszp<ch a="C"/>ańskie dziewcz<ch a="h7"/>yny</row>
+				<row important_over="true">W noc cie<ch a="e"/>mną i złą nam b<ch a="G"/>ędzie się ś<ch a="D"/>nił</row>
+				<row important_over="true">Leni<ch a="C"/>wie popł<ch a="D"/>yną znów r<ch a="e"/>ejsu godziny</row>
+				<row important_over="true">Wspomn<ch a="C7+"/>ienie ust waszych przysp<ch a="h7"/>orzy nam <ch a="e"/>sił</row>
 			</bis>
 		</block>
 	</lyric>

@@ -11,31 +11,31 @@
     <block type="verse">
       <row important_over="true">D<ch a="a"/>usza moja kamienna</row>
       <row important_over="true">I s<ch a="d"/>erce z kami<ch a="E"/>enia</row>
-      <row important_over="false"><ch a="a"/>I oczy zmrożone</row>
-      <row important_over="false">Gr<ch a="d"/>anitami szcz<ch a="E"/>ytów</row>
-      <row important_over="false">Z<ch a="a"/>imne echo ulicy</row>
-      <row important_over="false"><ch a="d"/>Odbija kr<ch a="E"/>oki</row>
-      <row important_over="false"><ch a="a"/>I kolana chł<ch a="d"/>odzi pos<ch a="E"/>adzka kości<ch a="a"/>oła</row>
+      <row important_over="true"><ch a="a"/>I oczy zmrożone</row>
+      <row important_over="true">Gr<ch a="d"/>anitami szcz<ch a="E"/>ytów</row>
+      <row important_over="true">Z<ch a="a"/>imne echo ulicy</row>
+      <row important_over="true"><ch a="d"/>Odbija kr<ch a="E"/>oki</row>
+      <row important_over="true"><ch a="a"/>I kolana chł<ch a="d"/>odzi pos<ch a="E"/>adzka kości<ch a="a"/>oła</row>
     </block>
     <block type="chorus">
       <row important_over="true">I c<ch a="d"/>óż mi p<ch a="G"/>owiesz</row>
       <row important_over="true">Pani<ch a="C"/>enko przeczysta jarzęb<ch a="E"/>ino</row>
-      <row important_over="false"><ch a="a"/>Ikono l<ch a="d"/>eśna</row>
-      <row important_over="false">Przydrożna leszcz<ch a="E"/>yno</row>
-      <row important_over="false">Cz<ch a="d"/>egóż mnie na<ch a="G"/>uczysz</row>
-      <row important_over="false">Pod drewni<ch a="C"/>anym d<ch a="E"/>achem</row>
-      <row important_over="false">Płom<ch a="a"/>ykiem lampki drż<ch a="d"/>ącym</row>
-      <row important_over="false">Buk<ch a="E"/>owym zap<ch a="a"/>achem</row>
+      <row important_over="true"><ch a="a"/>Ikono l<ch a="d"/>eśna</row>
+      <row important_over="true">Przydrożna leszcz<ch a="E"/>yno</row>
+      <row important_over="true">Cz<ch a="d"/>egóż mnie na<ch a="G"/>uczysz</row>
+      <row important_over="true">Pod drewni<ch a="C"/>anym d<ch a="E"/>achem</row>
+      <row important_over="true">Płom<ch a="a"/>ykiem lampki drż<ch a="d"/>ącym</row>
+      <row important_over="true">Buk<ch a="E"/>owym zap<ch a="a"/>achem</row>
     </block>
     <block type="verse">
-      <row important_over="false">Dł<ch a="a"/>onie moje stalowe</row>
-      <row important_over="false">I n<ch a="d"/>erwy ze st<ch a="E"/>ali</row>
-      <row important_over="false">Z<ch a="a"/>imna porcelana</row>
-      <row important_over="false">Błyszcz<ch a="d"/>ący wid<ch a="E"/>elec</row>
-      <row important_over="false">N<ch a="a"/>awet krzyż na ścianę</row>
-      <row important_over="false">W<ch a="d"/>ykrojony z bl<ch a="E"/>achy</row>
-      <row important_over="false"><ch a="a"/>I żelaznym gw<ch a="d"/>oździem</row>
-      <row important_over="false">Przyb<ch a="E"/>ity do m<ch a="a"/>uru</row>
+      <row important_over="true">Dł<ch a="a"/>onie moje stalowe</row>
+      <row important_over="true">I n<ch a="d"/>erwy ze st<ch a="E"/>ali</row>
+      <row important_over="true">Z<ch a="a"/>imna porcelana</row>
+      <row important_over="true">Błyszcz<ch a="d"/>ący wid<ch a="E"/>elec</row>
+      <row important_over="true">N<ch a="a"/>awet krzyż na ścianę</row>
+      <row important_over="true">W<ch a="d"/>ykrojony z bl<ch a="E"/>achy</row>
+      <row important_over="true"><ch a="a"/>I żelaznym gw<ch a="d"/>oździem</row>
+      <row important_over="true">Przyb<ch a="E"/>ity do m<ch a="a"/>uru</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
