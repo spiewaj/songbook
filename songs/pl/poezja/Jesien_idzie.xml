@@ -9,63 +9,63 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">
+			<row important_over="never">
 				<ch a="e"/>Raz staruszek, spacerując w lesie,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="true">
+			<row important_over="never">
 				<ch a="e"/>Ujrzał listek przywiędły i blady<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>I pomyślał — Znowu idzie jesień,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="true">
+			<row important_over="never">
 				<ch a="C"/>Jesień idzie, nie ma na to rady!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="true">
+			<row important_over="never">
 				<ch a="C"/>I podreptał do chaty po dróżce,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>I oznajmił, stanąwszy przed chatą,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Swojej żonie, tak samo staruszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>- Jesień idzie, nie ma rady na to!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>A staruszka zmartwiła się szczerze,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>Zamachała rękami obiema:<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>- Musisz zacząć chodzić w pulowerze.<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Jesień idzie, rady na to nie ma!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Może zrobić się chłodno już jutro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Lub pojutrze, a może za tydzień<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Trzeba będzie wyjąć z kufra futro,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Nie ma rady, jesień, jesień idzie!<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>A był sierpień. Pogoda prześliczna.<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>Wszystko w złocie trwało i w zieleni<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="e"/>Prócz staruszków nikt chyba nie myślał<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>O mającej nastąpić jesieni.<ch a="H7"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Ale cóż, oni żyli najdłużej.<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Mieli swoje staruszkowe zasady<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>I wiedzieli, że prędzej czy później<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="false">
+			<row important_over="never">
 				<ch a="C"/>Jesień przyjdzie, nie ma na to rady.<ch a="H7"/><ch a="e"/></row>
 		</block>
 	</lyric>

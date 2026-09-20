@@ -9,15 +9,15 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>A jak będę już stary zgrzybiały to pozwól mi<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Raz ostatni na górskie szlaki samotnie wyjść<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Siądę sobie spokojnie na reglu w promieniach dnia<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Wtedy kostuchę z komórki wypuść by po mnie szła<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="true"><ch a="e"/>I mgłą jak płaszczem królewskim otuliła<ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="true"><ch a="e"/>Bóg mi na siwe włosy koronę da<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Gdy jesienią zobaczysz na niebie żurawi klucz<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="C"/>A jak będę już stary zgrzybiały to pozwól mi<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="C"/>Raz ostatni na górskie szlaki samotnie wyjść<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="C"/>Siądę sobie spokojnie na reglu w promieniach dnia<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="C"/>Wtedy kostuchę z komórki wypuść by po mnie szła<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>I mgłą jak płaszczem królewskim otuliła<ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never"><ch a="e"/>Bóg mi na siwe włosy koronę da<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="never"><ch a="C"/>Gdy jesienią zobaczysz na niebie żurawi klucz<ch a="G"/><ch a="F"/><ch a="C"/></row>
       <bis>
-        <row important_over="false"><ch a="C"/>Wtedy cichutko do ciebie pójdę po szczytach gór<ch a="G"/><ch a="F"/><ch a="C"/></row>
+        <row important_over="never"><ch a="C"/>Wtedy cichutko do ciebie pójdę po szczytach gór<ch a="G"/><ch a="F"/><ch a="C"/></row>
       </bis>
     </block>
   </lyric>

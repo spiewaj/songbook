@@ -9,20 +9,20 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="e"/>Stoimy pod murem<ch a="a"/><ch a="e"/></row>
-      <row important_over="true"><ch a="D"/>Zdjęto to nam młodość jak koszulę skazańcom<ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Czekamy<ch a="e"/></row>
-      <row important_over="true"><ch a="e"/>Zanim tłusta kula usiądzie na karku<ch a="a"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Mija 10, 20 lat<ch a="e"/></row>
-      <row important_over="true"><ch a="G"/>Mur jest wysoki i mocny<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="G"/>Za murem jest drzewo i gwiazda<ch a="D"/><ch a="e"/></row>
-      <row important_over="true"><ch a="G"/>Drzewo podważa mur korzeniami<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="false"><ch a="G"/>Gwiazda nagryza kamień jak mysz<ch a="D"/><ch a="e"/></row>
-      <row important_over="false"><ch a="e"/>Za 100, 200 lat<ch a="a"/><ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Już małe okienko<ch a="e"/></row>
-      <row important_over="false"><ch a="D"/>Małe okienko<ch a="e"/></row>
+      <row important_over="never"><ch a="e"/>Stoimy pod murem<ch a="a"/><ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Zdjęto to nam młodość jak koszulę skazańcom<ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Czekamy<ch a="e"/></row>
+      <row important_over="never"><ch a="e"/>Zanim tłusta kula usiądzie na karku<ch a="a"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Mija 10, 20 lat<ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Mur jest wysoki i mocny<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Za murem jest drzewo i gwiazda<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="G"/>Drzewo podważa mur korzeniami<ch a="D"/><ch a="G"/><ch a="D"/></row>
+      <row important_over="never"><ch a="G"/>Gwiazda nagryza kamień jak mysz<ch a="D"/><ch a="e"/></row>
+      <row important_over="never"><ch a="e"/>Za 100, 200 lat<ch a="a"/><ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Już małe okienko<ch a="e"/></row>
+      <row important_over="never"><ch a="D"/>Małe okienko<ch a="e"/></row>
     </block>
   </lyric>
   <music metre="">
