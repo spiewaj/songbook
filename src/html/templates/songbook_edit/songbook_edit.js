@@ -675,16 +675,27 @@ function loadFromYAMLFile(event) {
             if (sb.songs && Array.isArray(sb.songs)) {
                 sb.songs.forEach(item => {
                     if (item.glob) {
+                        // Convert glob to regex
+                        let regexStr = '^' + item.glob
+                            .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // Escape regex specials except *
+                            .replace(/\/\*\*\//g, '/(?:.*/)?')     // /**/ -> /(?:.*/)?
+                            .replace(/\*\*/g, '.*')                // Remaining ** -> .*
+                            .replace(/\*/g, '[^/]*')               // * -> [^/]*
+                            + '$';
+                        const regex = new RegExp(regexStr);
+                        
                         let found = false;
                         for (const song of allSongs) {
-                            if (song.path === item.glob || `songs/**/${song.id}.xml` === item.glob) {
+                            if (song.path && regex.test(song.path)) {
                                 selectedSongIds.add(song.id);
                                 found = true;
-                                break;
+                            } else if (!song.path && `songs/**/${song.id}.xml` === item.glob) {
+                                selectedSongIds.add(song.id);
+                                found = true;
                             }
                         }
                         // Fallback
-                        if (!found) {
+                        if (!found && !item.glob.includes('*')) {
                             const match = item.glob.match(/([^\/]+)\.xml$/);
                             if (match) {
                                 const songId = match[1];
