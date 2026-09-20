@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarny chleb czarna kawa">
-  <text_author type="solo">Czarny chleb czarna kawa</text_author>
-  <composer type="solo">Krzysztofa „Grabaża” Grabowski</composer>
+  <text_author type="solo">tradycyjna</text_author>
+  <composer type="solo">Krzysztof „Grabaż” Grabowski</composer>
   <artist type="band">Strachy na Lachy</artist>
   <lyric>
     <block type="verse">

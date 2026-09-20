@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="900 mil">
-  <artist type="solo">Piosenki Harcerskie</artist>
+  <artist type="solo">tradycyjna</artist>
+  <text_author type="solo">Wojciech Młynarski</text_author>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="e7"/>Tyle j<ch a="a"/>uż minęło <ch a="C"/>dni,</row>
