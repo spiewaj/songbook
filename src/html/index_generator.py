@@ -1,6 +1,7 @@
 import datetime
 import os
 import sys
+import subprocess
 import src.lib.songbook as sb
 from lxml import etree
 import logging
@@ -194,24 +195,56 @@ def create_index_html(list_of_songs_meta, target_dir):
     et.write(out_path, pretty_print=True, method='html', encoding='utf-8')
 
 
+def get_git_commit_dates(repo_dir=None):
+    """Retrieve last commit dates for all files using a single git log command."""
+    if repo_dir is None:
+        repo_dir = sb.repo_dir()
+    try:
+        res = subprocess.run(
+            ["git", "log", "--name-only", "--format=COMMIT:%cI"],
+            cwd=repo_dir,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            text=True,
+            check=True
+        )
+        dates = {}
+        current_date = None
+        for line in res.stdout.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith("COMMIT:"):
+                current_date = line[len("COMMIT:"):]
+            elif current_date and line not in dates:
+                dates[line] = current_date
+        return dates
+    except Exception as e:
+        logging.warning(f"Could not retrieve git commit dates: {e}")
+        return {}
+
+
 def create_sitemap_xml(list_of_songs_meta, target_dir):
     sitemap_path = os.path.join(target_dir, "sitemap.xml")
     root = etree.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     base = "https://spiewaj.com/"
 
+    now_iso = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+    git_dates = get_git_commit_dates(sb.repo_dir())
+
     # Add main page and informational static pages
     static_pages = [
-        ("", "daily", "1.0"),
-        ("o-nas.html", "monthly", "0.8"),
-        ("podrukowane.html", "monthly", "0.8"),
-        ("kindle.html", "monthly", "0.8"),
+        ("", "daily", "1.0", "src/html/templates/index.xhtml"),
+        ("o-nas.html", "monthly", "0.8", "src/html/templates/o-nas.html"),
+        ("podrukowane.html", "monthly", "0.8", "src/html/templates/podrukowane.html"),
+        ("kindle.html", "monthly", "0.8", "src/html/templates/kindle.html"),
     ]
-    for page_rel, freq, priority in static_pages:
+    for page_rel, freq, priority, src_file in static_pages:
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
         loc.text = os.path.join(base, page_rel)
         lastmod = etree.SubElement(url, "lastmod")
-        lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+        lastmod.text = git_dates.get(src_file, now_iso)
         changefreq = etree.SubElement(url, "changefreq")
         changefreq.text = freq
         prio = etree.SubElement(url, "priority")
@@ -220,14 +253,18 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     for song in list_of_songs_meta:
         if song.is_alias():
             continue
+
+        song_rel = os.path.relpath(song.plik(), sb.repo_dir()) if os.path.isabs(song.plik()) else song.plik()
+        song_lastmod = git_dates.get(song_rel, now_iso)
+
         # Add HTML version of the song
         url = etree.SubElement(root, "url")
         loc = etree.SubElement(url, "loc")
         loc.text = os.path.join(base, "songs_html", song.base_file_name() + ".html")
         lastmod = etree.SubElement(url, "lastmod")
-        lastmod.text =  datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+        lastmod.text = song_lastmod
         changefreq = etree.SubElement(url, "changefreq")
-        changefreq.text = "weekly"
+        changefreq.text = "monthly"
         
         # Add A4 and A5 PDF versions of the song
         for format in ["a4", "a5"]:
@@ -235,24 +272,22 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
             loc = etree.SubElement(url, "loc")
             loc.text = os.path.join(base, "songs_pdf", f"{song.base_file_name()}.{format}.pdf")
             lastmod = etree.SubElement(url, "lastmod")
-            lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
+            lastmod.text = song_lastmod
             changefreq = etree.SubElement(url, "changefreq")
-            changefreq.text = "weekly"
-
+            changefreq.text = "monthly"
 
     for songbook in sb.songbooks():
         if not songbook.hidden():
-            # https://spiewaj.com/dino.epub
-            # https://spiewaj.com/songs_tex/dino_a5.pdf
-            # https://spiewaj.com/songs_tex/dino_a4.pdf
+            songbook_yaml = f"songbooks/{songbook.id()}.songbook.yaml"
+            songbook_lastmod = git_dates.get(songbook_yaml, now_iso)
             for format in ["{}.epub", "songs_tex/{}_a5.pdf", "songs_tex/{}_a4.pdf"]:
                 url = etree.SubElement(root, "url")
                 loc = etree.SubElement(url, "loc")
                 loc.text = os.path.join(base, format.format(songbook.id()))
                 lastmod = etree.SubElement(url, "lastmod")
-                lastmod.text = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S+00:00")
-            changefreq = etree.SubElement(url, "changefreq")
-            changefreq.text = "monthly"
+                lastmod.text = songbook_lastmod
+                changefreq = etree.SubElement(url, "changefreq")
+                changefreq.text = "monthly"
     
     tree = etree.ElementTree(root)
     tree.write(sitemap_path, pretty_print=True, xml_declaration=True, encoding='utf-8')

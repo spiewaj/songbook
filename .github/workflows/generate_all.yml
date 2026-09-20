@@ -81,6 +81,8 @@ jobs:
         run: echo "Generating a ZIP with songs in html triggered by ${{ github.event_name }} release:${{ env.release_name }}"
       - name: Check out repository code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - if: ${{ inputs.pdf }}
         run: | 
           cd /workspace && ./render_pdfs.sh
