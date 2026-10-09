@@ -1,0 +1,46 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    function isUser(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    function isSafeSize() {
+      // Limit file uploads to 5MB to prevent abuse and large storage costs
+      return request.resource.size < 5 * 1024 * 1024;
+    }
+    function isImageFile() {
+      return request.resource.contentType.matches('image/.*');
+    }
+    
+    // Per-User Songbook Storage (Legacy / Personal)
+    match /users/{userId} {
+      match /songbooks/{songbookId} {
+        match /raw_logo/{filename} {
+          allow write: if isUser(userId) && isSafeSize();
+          allow read: if true;
+        }
+        match /logo/{filename} {
+          allow write: if isUser(userId) && isSafeSize();
+          allow read: if true;
+        }
+      }
+    }
+
+    // Shared Songbook Assets (Logos, cover images)
+    match /songbooks/{songbookId}/assets/{filename} {
+      allow read: if true;
+      // Allow authenticated user with safe image size (Firestore rules manage membership)
+      allow write: if isAuthenticated() && isSafeSize() && isImageFile();
+    }
+
+    // System Cache Storage (PDFs, EPUBs)
+    match /caches/songbooks/{songbookId}/{allPaths=**} {
+      allow read: if true; 
+      allow write: if false; // Only admin SDKs / Cloud Run backend can write to cache
+    }
+  }
+}

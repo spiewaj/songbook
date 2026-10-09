@@ -1,0 +1,59 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isUser(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isSongbookOwner(data) {
+      return isAuthenticated() && data != null && (
+        (data.get('ownerIds', null) != null && request.auth.uid in data.ownerIds) ||
+        (data.get('creatorId', null) == request.auth.uid) ||
+        (data.get('ownerId', null) == request.auth.uid) // legacy backwards compatibility
+      );
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isUser(userId);
+
+      // Favorite Songs Subcollection
+      match /favorite_songs/{songId} {
+        allow read, write: if isUser(userId);
+      }
+    }
+
+    // Songbooks Collection
+    match /songbooks/{songbookId} {
+      // Single doc read: allow if not found (exists() == false), or public, or owner
+      allow get: if resource == null || resource.data.isPublic == true || isSongbookOwner(resource.data);
+
+      // Collection list/queries: public or owned
+      allow list: if resource.data.isPublic == true || isSongbookOwner(resource.data);
+      
+      // Only authenticated users can create songbooks.
+      // Creator must list themselves in ownerIds or creatorId.
+      allow create: if isAuthenticated() && (
+        (request.resource.data.get('ownerIds', null) != null && request.auth.uid in request.resource.data.ownerIds) ||
+        (request.resource.data.get('creatorId', null) == request.auth.uid) ||
+        (request.resource.data.get('ownerId', null) == request.auth.uid)
+      );
+      
+      // Any owner can update the songbook.
+      allow update: if isSongbookOwner(resource.data);
+
+      // Deletion allowed for creator or any owner.
+      allow delete: if isAuthenticated() && (
+        (resource.data.get('creatorId', null) == request.auth.uid) ||
+        isSongbookOwner(resource.data)
+      );
+    }
+  }
+}

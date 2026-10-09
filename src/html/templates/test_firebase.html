@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Firebase Client - Spiewaj.com</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 30px; line-height: 1.5; color: #333; }
+        .card { background: #fdfdfd; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        button { padding: 10px 18px; font-size: 14px; font-weight: 600; border-radius: 6px; border: none; cursor: pointer; margin-right: 10px; margin-bottom: 10px; }
+        .btn-primary { background: #1976d2; color: #fff; }
+        .btn-danger { background: #d32f2f; color: #fff; }
+        .btn-success { background: #2e7d32; color: #fff; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 6px; overflow-x: auto; font-size: 13px; max-height: 400px; }
+        .status-badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: bold; }
+        .badge-logged-in { background: #e8f5e9; color: #2e7d32; }
+        .badge-logged-out { background: #ffebee; color: #c62828; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+    <h1>🧪 Test modułu Firebase Client & Firestore</h1>
+    <p>Narzędzie testowe do weryfikacji Google Auth, reguł Firestore oraz zapisu śpiewników (Approach A).</p>
+
+    <!-- User Auth Section -->
+    <div class="card">
+        <h2>1. Uwierzytelnianie (Google Auth)</h2>
+        <div id="authStatusArea" style="margin-bottom: 15px;">
+            Status: <span id="authBadge" class="status-badge badge-logged-out">Niezalogowany</span>
+            <span id="userInfo" style="margin-left: 10px;"></span>
+        </div>
+        <button id="btnLogin" class="btn-primary" onclick="handleLogin()">Zaloguj przez Google</button>
+        <button id="btnLogout" class="btn-danger" onclick="handleLogout()" style="display: none;">Wyloguj</button>
+    </div>
+
+    <!-- Actions Section -->
+    <div class="card">
+        <h2>2. Operacje na bazie Firestore (wdw-21)</h2>
+        <div>
+            <button class="btn-success" onclick="testSaveSongbook()">Zapisz testowy śpiewnik (Approach A)</button>
+            <button class="btn-primary" onclick="testFetchMySongbooks()">Pobierz moje śpiewniki</button>
+            <button class="btn-primary" onclick="testFetchPublic()">Pobierz publiczne śpiewniki</button>
+            <button class="btn-danger" onclick="testDeleteSongbook()">Usuń testowy śpiewnik</button>
+        </div>
+    </div>
+
+    <!-- Results Section -->
+    <div class="card">
+        <h2>3. Logi i wyniki</h2>
+        <pre id="outputLog">Gotowy do testów...</pre>
+    </div>
+
+    <!-- Load firebase_client module -->
+    <script type="module" src="firebase_client.js"></script>
+    <script>
+        function log(msg, data) {
+            const out = document.getElementById('outputLog');
+            const time = new Date().toLocaleTimeString();
+            let text = `[${time}] ${msg}`;
+            if (data !== undefined) {
+                text += '\n' + JSON.stringify(data, null, 2);
+            }
+            out.textContent = text + '\n\n' + out.textContent;
+        }
+
+        let allSongs = [];
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const res = await fetch('index.json');
+                if (res.ok) {
+                    const data = await res.json();
+                    allSongs = data.songs || [];
+                    log(`Załadowano katalog piosenek z index.json (${allSongs.length} piosenek).`);
+                }
+            } catch (e) {
+                log('Uwaga: Nie udało się wczytać index.json. Testy będą używać pustego katalogu.');
+            }
+
+            // Wait for Firebase module initialization
+            const checkFirebase = setInterval(() => {
+                if (window.FirebaseSongbook) {
+                    clearInterval(checkFirebase);
+                    log('FirebaseSongbook zainicjalizowany pomyślnie.');
+                    
+                    window.FirebaseSongbook.onAuthChange((user) => {
+                        const badge = document.getElementById('authBadge');
+                        const info = document.getElementById('userInfo');
+                        const btnLogin = document.getElementById('btnLogin');
+                        const btnLogout = document.getElementById('btnLogout');
+
+                        if (user) {
+                            badge.className = 'status-badge badge-logged-in';
+                            badge.textContent = 'Zalogowany';
+                            info.textContent = `${user.displayName || user.email} (UID: ${user.uid})`;
+                            btnLogin.style.display = 'none';
+                            btnLogout.style.display = 'inline-block';
+                            log('Zalogowano użytkownika:', { uid: user.uid, email: user.email, name: user.displayName });
+                        } else {
+                            badge.className = 'status-badge badge-logged-out';
+                            badge.textContent = 'Niezalogowany';
+                            info.textContent = '';
+                            btnLogin.style.display = 'inline-block';
+                            btnLogout.style.display = 'none';
+                            log('Użytkownik wylogowany.');
+                        }
+                    });
+                }
+            }, 100);
+        });
+
+        async function handleLogin() {
+            try {
+                log('Otwieranie okna logowania Google...');
+                await window.FirebaseSongbook.loginWithGoogle();
+            } catch (e) {
+                log('Błąd logowania:', e.message);
+            }
+        }
+
+        async function handleLogout() {
+            try {
+                await window.FirebaseSongbook.logout();
+                log('Wylogowano.');
+            } catch (e) {
+                log('Błąd wylogowania:', e.message);
+            }
+        }
+
+        async function testSaveSongbook() {
+            try {
+                const user = window.FirebaseSongbook.getCurrentUser();
+                if (!user) {
+                    alert('Najpierw zaloguj się przez Google!');
+                    return;
+                }
+
+                const yamlContent = `songbook:
+  id: test_obozowy_2026
+  title: "Śpiewnik Obozowy 2026"
+  songs:
+    - glob: "songs/pl/pop/Kochana.xml"
+    - glob: "songs/pl/pop/Zawsze_tam_gdzie_ty.xml"
+`;
+
+                log('Zapisywanie testowego śpiewnika do Firestore...');
+                const res = await window.FirebaseSongbook.saveSongbook({
+                    id: 'test_obozowy_2026',
+                    title: 'Śpiewnik Obozowy 2026',
+                    subtitle: 'Wersja letnia',
+                    isPublic: true,
+                    yaml: yamlContent,
+                    allSongs: allSongs
+                });
+
+                log('Śpiewnik zapisany pomyślnie!', res);
+            } catch (e) {
+                log('Błąd podczas zapisu śpiewnika:', e.message);
+            }
+        }
+
+        async function testFetchMySongbooks() {
+            try {
+                log('Pobieranie śpiewników bieżącego użytkownika...');
+                const list = await window.FirebaseSongbook.fetchMySongbooks();
+                log(`Znaleziono ${list.length} śpiewników:`, list);
+            } catch (e) {
+                log('Błąd pobierania śpiewników:', e.message);
+            }
+        }
+
+        async function testFetchPublic() {
+            try {
+                log('Pobieranie publicznych śpiewników...');
+                const list = await window.FirebaseSongbook.fetchPublicSongbooks();
+                log(`Znaleziono ${list.length} publicznych śpiewników:`, list);
+            } catch (e) {
+                log('Błąd pobierania publicznych śpiewników:', e.message);
+            }
+        }
+
+        async function testDeleteSongbook() {
+            try {
+                log('Usuwanie testowego śpiewnika test_obozowy_2026...');
+                await window.FirebaseSongbook.deleteSongbook('test_obozowy_2026');
+                log('Śpiewnik usunięty.');
+            } catch (e) {
+                log('Błąd usuwania:', e.message);
+            }
+        }
+    </script>
+</body>
+</html>
