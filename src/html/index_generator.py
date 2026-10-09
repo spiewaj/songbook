@@ -397,6 +397,12 @@ def main():
         os.remove(pdf_renderer_js_path)
     os.symlink(os.path.join(sb.repo_dir(), 'editor', "pdf_renderer.js"), pdf_renderer_js_path)
 
+    # Create symlink for firebase_client.js
+    firebase_client_js_path = os.path.join(target_dir, "firebase_client.js")
+    if os.path.exists(firebase_client_js_path):
+        os.remove(firebase_client_js_path)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "firebase_client.js"), firebase_client_js_path)
+
     # Create symlinks for songbook_edit files
     songbook_edit_files = ["songbook_edit.html", "songbook_edit.js", "songbook_edit.css"]
     for filename in songbook_edit_files:
