@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zanim pójdę">
   <alias>Miłość to nie pluszowy miś</alias>
+  <text_author type="solo">Jakub „Quka” Kawalec</text_author>
+  <composer type="band">Happysad</composer>
   <artist type="band">Happysad</artist>
   <lyric>
     <block type="verse">
@@ -42,6 +44,7 @@
     <blocklink blocknb="3"/>
   </lyric>
   <keywords/>
+  <genre>Rock</genre>
   <status>
     <done/>
     <verificators/>
