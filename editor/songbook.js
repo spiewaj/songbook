@@ -33,8 +33,8 @@ export class SongEditor extends HTMLElement {
   <button id="buttonSave">Eksportuj plik</button>
   <button id="buttonRenderPdf" type="button">Podgląd PDF</button>
   <select id="pdfPapersize" style="margin-left: 5px;">
+    <option value="a5" selected>A5</option>
     <option value="a4">A4</option>
-    <option value="a5">A5</option>
   </select>
   <span id="pdfRenderStatus" style="margin-left: 10px; font-weight: bold; font-size: 0.9em;"></span>
 </div>
