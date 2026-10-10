@@ -127,7 +127,12 @@ export const FirebaseSongbook = {
      * Listen to authentication state changes.
      */
     onAuthChange(callback) {
-        return onAuthStateChanged(auth, callback);
+        return onAuthStateChanged(auth, async (user) => {
+            if (user) {
+                this.syncUserProfile(user).catch(e => console.warn("Sync user profile error:", e));
+            }
+            callback(user);
+        });
     },
 
     /**
@@ -143,11 +148,82 @@ export const FirebaseSongbook = {
     async loginWithGoogle() {
         try {
             const result = await signInWithPopup(auth, googleProvider);
+            if (result.user) {
+                await this.syncUserProfile(result.user);
+            }
             return result.user;
         } catch (error) {
             console.error("Google Sign-In failed:", error);
             throw error;
         }
+    },
+
+    /**
+     * Persist or update current user info in Firestore /users/{uid}
+     */
+    async syncUserProfile(user) {
+        if (!user || !user.uid) return;
+        try {
+            const userRef = doc(db, "users", user.uid);
+            await setDoc(userRef, {
+                uid: user.uid,
+                email: (user.email || "").toLowerCase(),
+                displayName: user.displayName || "",
+                photoURL: user.photoURL || "",
+                lastLoginAt: serverTimestamp()
+            }, { merge: true });
+        } catch (e) {
+            console.warn("Could not sync user profile to Firestore:", e);
+        }
+    },
+
+    /**
+     * Search for a registered user by email address.
+     */
+    async findUserByEmail(email) {
+        if (!email) return null;
+        const cleanEmail = email.trim().toLowerCase();
+        try {
+            const q = query(
+                collection(db, "users"),
+                where("email", "==", cleanEmail)
+            );
+            const snap = await getDocs(q);
+            if (snap.empty) {
+                return null;
+            }
+            const docData = snap.docs[0].data();
+            return {
+                uid: docData.uid || snap.docs[0].id,
+                email: docData.email,
+                displayName: docData.displayName || ""
+            };
+        } catch (e) {
+            console.error("Error finding user by email:", e);
+            throw e;
+        }
+    },
+
+    /**
+     * Fetch user profile from /users/{uid} if exists.
+     */
+    async findUserById(uid) {
+        if (!uid) return null;
+        try {
+            const userRef = doc(db, "users", uid.trim());
+            const snap = await getDoc(userRef);
+            if (snap.exists()) {
+                const docData = snap.data();
+                return {
+                    uid: docData.uid || snap.id,
+                    email: docData.email,
+                    displayName: docData.displayName || ""
+                };
+            }
+        } catch (e) {
+            console.warn("Could not fetch user doc:", e);
+        }
+        return null;
     },
 
     /**
@@ -170,6 +246,7 @@ export const FirebaseSongbook = {
         yaml,
         baseRef = "main",
         additionalOwnerIds = [],
+        members: customMembers = null,
         allSongs = []
     }) {
         const user = auth.currentUser;
@@ -205,7 +282,7 @@ export const FirebaseSongbook = {
         const ownerIds = Array.from(ownerSet);
 
         // Members metadata map
-        const members = existingData?.members || {};
+        const members = customMembers !== null ? { ...customMembers } : { ...(existingData?.members || {}) };
         if (!members[user.uid]) {
             members[user.uid] = {
                 role: existingData ? "editor" : "owner",

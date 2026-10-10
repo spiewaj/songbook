@@ -49,6 +49,10 @@
                         <span class="material-symbols-outlined">group</span>
                         Udostępnij
                     </button>
+                    <button class="btn btn-secondary" id="btnViewReader" onclick="openReaderPage()" title="Otwórz śpiewnik jako stronę w widoku czytania (spiewaj.com)">
+                        <span class="material-symbols-outlined">menu_book</span>
+                        Przeglądaj stronę
+                    </button>
                     <span id="cloudStatusBadge" class="cloud-status-badge"></span>
                 </div>
                 <div class="action-group-file">
@@ -167,8 +171,8 @@
                 <div class="action-buttons" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                     <button class="btn btn-secondary" onclick="clearSelection()">Wyczyść</button>
                     <select id="paperSize" class="form-control" style="width: auto; display: inline-block;">
-                        <option value="a4" selected>Format A4</option>
-                        <option value="a5">Format A5</option>
+                        <option value="a4">Format A4</option>
+                        <option value="a5" selected>Format A5</option>
                     </select>
                     <button class="btn btn-primary" id="btnRenderPdf" onclick="renderPDF()">Generuj Śpiewnik (PDF)</button>
                 </div>
@@ -224,7 +228,19 @@
             </div>
             <div class="modal-body">
                 <div class="share-section">
-                    <label><strong>Link do śpiewnika w edytorze:</strong></label>
+                    <label><strong>🌐 Link do czytania (wygląd jak spiewaj.com):</strong></label>
+                    <div style="display: flex; gap: 8px; margin-top: 6px;">
+                        <input type="text" id="shareReaderUrlInput" readonly style="flex: 1;" />
+                        <button class="btn btn-primary" onclick="copyShareReaderUrl()">Kopiuj</button>
+                        <a id="shareReaderOpenBtn" href="#" target="_blank" class="btn btn-secondary" style="text-decoration: none;">Otwórz</a>
+                    </div>
+                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
+                        Ten link otwiera śpiewnik na stronie głównej spiewaj.com z wyszukiwarką i akordami ograniczonymi do wybranych piosenek.
+                    </small>
+                </div>
+
+                <div class="share-section" style="margin-top: 15px;">
+                    <label><strong>✏️ Link do edycji (w kreatorze):</strong></label>
                     <div style="display: flex; gap: 8px; margin-top: 6px;">
                         <input type="text" id="shareUrlInput" readonly style="flex: 1;" />
                         <button class="btn btn-secondary" onclick="copyShareUrl()">Kopiuj</button>
@@ -232,17 +248,24 @@
                 </div>
 
                 <div class="share-section" style="margin-top: 20px;">
+                    <div id="shareCurrentUserBox" style="font-size: 0.85em; color: #555; margin-bottom: 12px; background: #f8f9fa; border: 1px solid #e9ecef; padding: 8px 12px; border-radius: 6px;">
+                        Zalogowany jako: <strong id="shareCurrentUserEmail">...</strong>
+                    </div>
+
                     <label><strong>Współtwórcy (osoby z prawem edycji):</strong></label>
                     <div id="collaboratorsList" style="margin-top: 8px;">
                         <!-- Rendered list of members -->
                     </div>
 
                     <div style="margin-top: 15px;">
-                        <label for="newCollaboratorUid" style="font-size: 0.9em; color: #555;">Dodaj współtwórcę (UID z Google / Firebase):</label>
+                        <label for="newCollaboratorEmail" style="font-size: 0.9em; color: #555;">Dodaj współtwórcę (adres e-mail konta Google):</label>
                         <div style="display: flex; gap: 8px; margin-top: 5px;">
-                            <input type="text" id="newCollaboratorUid" placeholder="Wklej UID użytkownika..." style="flex: 1;" />
-                            <button class="btn btn-primary" onclick="handleAddCollaborator()">+ Dodaj</button>
+                            <input type="email" id="newCollaboratorEmail" placeholder="Wpisz e-mail (np. znajomy@gmail.com)..." style="flex: 1;" onkeydown="if(event.key==='Enter') handleAddCollaborator()" />
+                            <button class="btn btn-primary" id="btnAddCollaborator" onclick="handleAddCollaborator()">+ Dodaj</button>
                         </div>
+                        <small style="display: block; color: #777; margin-top: 4px; font-size: 0.8em;">
+                            Współtwórca musi zalogować się przynajmniej raz na spiewaj.com przez konto Google.
+                        </small>
                     </div>
                 </div>
             </div>

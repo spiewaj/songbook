@@ -29,7 +29,7 @@ ALLOWED_ZIP_EXTENSIONS = {".xml", ".yaml", ".yml", ".txt", ".pdf", ".png", ".jpg
 class YamlRequest(BaseModel):
     yaml_content: str
     branch: str = "main"
-    papersize: str = "a4"
+    papersize: str = "a5"
 
 class XmlRequest(BaseModel):
     xml_content: str
@@ -330,7 +330,7 @@ async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks
 async def render_songbook_zip(
     background_tasks: BackgroundTasks,
     branch: str = Form("main"),
-    papersize: str = Form("a4"),
+    papersize: str = Form("a5"),
     zip_file: UploadFile = File(...)
 ):
     job_id = f"job_{uuid.uuid4().hex[:8]}"

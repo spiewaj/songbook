@@ -76,7 +76,7 @@
          await commit(e.target);
       } );
       songEditor.addEventListener("git:commitAndPublish", (e)=>commitAndPublish(e) );
-      songEditor.addEventListener("pdf:render", (e) => renderPdf(e.target, e.detail?.papersize || "a4"));
+      songEditor.addEventListener("pdf:render", (e) => renderPdf(e.target, e.detail?.papersize || "a5"));
 
       const topNav = document.getElementById("topnav");
       for (const nav of [document.getElementById("topnav"), document.getElementById("bottomnav")]) {
@@ -232,7 +232,7 @@
       }
     }
 
-    async function renderPdf(songbook, papersize = "a4") {
+    async function renderPdf(songbook, papersize = "a5") {
       const {serialized, title} = songbook.SerializeWithChange();
       const {branch} = parseParams();
       

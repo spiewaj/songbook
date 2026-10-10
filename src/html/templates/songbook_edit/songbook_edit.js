@@ -773,6 +773,11 @@ async function handleLoginCloud() {
         await window.FirebaseSongbook.loginWithGoogle();
     } catch (e) {
         console.error("Login cancelled or failed:", e);
+        if (e.code === 'auth/popup-blocked') {
+            alert("Przeglądarka zablokowała wyskakujące okno logowania Google. Zezwól na wyskakujące okienka dla tej strony.");
+        } else if (e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request') {
+            alert("Błąd logowania przez Google: " + (e.message || e));
+        }
     }
 }
 
@@ -800,7 +805,13 @@ async function saveToCloud() {
         try {
             user = await window.FirebaseSongbook.loginWithGoogle();
         } catch (e) {
-            alert("Logowanie zostało anulowane.");
+            if (e.code === 'auth/popup-blocked') {
+                alert("Przeglądarka zablokowała wyskakujące okno logowania Google. Zezwól na wyskakujące okienka dla tej strony.");
+            } else if (e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request') {
+                alert("Błąd logowania przez Google: " + (e.message || e));
+            } else {
+                alert("Logowanie zostało anulowane.");
+            }
             return;
         }
     }
@@ -940,7 +951,8 @@ async function openMySongbooksModal() {
                         </div>
                     </div>
                     <div class="songbook-card-actions">
-                        <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Wczytaj</button>
+                        <a class="btn btn-sm btn-secondary" href="index.html#songbook=${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
+                        <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Edytuj</button>
                         <button class="btn btn-sm btn-outline" style="color: #c82333;" onclick="deleteCloudSongbookById('${escapeHTML(sb.id)}')">Usuń</button>
                     </div>
                 </div>
@@ -992,6 +1004,17 @@ async function deleteCloudSongbookById(id) {
     }
 }
 
+function openReaderPage() {
+    const songbookId = document.getElementById('songbookId').value.trim();
+    if (!songbookId) {
+        alert("Najpierw podaj ID i zapisz śpiewnik w chmurze.");
+        return;
+    }
+    const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
+    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}`;
+    window.open(readerUrl, '_blank');
+}
+
 function openShareModal() {
     const songbookId = document.getElementById('songbookId').value.trim();
     if (!songbookId) {
@@ -1002,8 +1025,28 @@ function openShareModal() {
     if (!modal) return;
     modal.style.display = 'flex';
 
-    const shareUrl = `${window.location.origin}${window.location.pathname}#songbook=${encodeURIComponent(songbookId)}`;
-    document.getElementById('shareUrlInput').value = shareUrl;
+    const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
+    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}`;
+    const editUrl = `${baseUrl}songbook_edit.html#songbook=${encodeURIComponent(songbookId)}`;
+
+    const readerInput = document.getElementById('shareReaderUrlInput');
+    if (readerInput) readerInput.value = readerUrl;
+    const readerBtn = document.getElementById('shareReaderOpenBtn');
+    if (readerBtn) readerBtn.href = readerUrl;
+
+    const editInput = document.getElementById('shareUrlInput');
+    if (editInput) editInput.value = editUrl;
+
+    const emailBox = document.getElementById('shareCurrentUserEmail');
+    if (emailBox) {
+        if (currentUser) {
+            emailBox.textContent = currentUser.displayName
+                ? `${currentUser.displayName} (${currentUser.email || 'brak emaila'})`
+                : (currentUser.email || currentUser.uid);
+        } else {
+            emailBox.textContent = "Niezalogowany";
+        }
+    }
 
     renderCollaboratorsList();
 }
@@ -1013,11 +1056,21 @@ function closeShareModal() {
     if (modal) modal.style.display = 'none';
 }
 
-function copyShareUrl() {
-    const input = document.getElementById('shareUrlInput');
+function copyShareReaderUrl() {
+    const input = document.getElementById('shareReaderUrlInput');
+    if (!input) return;
     input.select();
     navigator.clipboard.writeText(input.value).then(() => {
-        alert("Link skopiowany do schowka!");
+        alert("Link do czytania śpiewnika (spiewaj.com) skopiowany do schowka!");
+    });
+}
+
+function copyShareUrl() {
+    const input = document.getElementById('shareUrlInput');
+    if (!input) return;
+    input.select();
+    navigator.clipboard.writeText(input.value).then(() => {
+        alert("Link do edycji w kreatorze skopiowany do schowka!");
     });
 }
 
@@ -1048,7 +1101,12 @@ function renderCollaboratorsList() {
 
     container.innerHTML = currentCloudSongbook.ownerIds.map(uid => {
         const memberInfo = members[uid] || {};
-        const label = memberInfo.displayName || memberInfo.email || `UID: ${uid.substring(0, 10)}...`;
+        let label = '';
+        if (memberInfo.displayName && memberInfo.email) {
+            label = `${memberInfo.displayName} (${memberInfo.email})`;
+        } else {
+            label = memberInfo.displayName || memberInfo.email || `Użytkownik (${uid.substring(0, 8)}...)`;
+        }
         const isCreator = uid === creatorId;
         const role = isCreator ? 'Właściciel' : 'Edytor';
         const isMe = currentUser && currentUser.uid === uid;
@@ -1067,23 +1125,50 @@ function renderCollaboratorsList() {
 }
 
 async function handleAddCollaborator() {
-    const uidInput = document.getElementById('newCollaboratorUid');
-    const newUid = uidInput.value.trim();
-    if (!newUid) return;
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    const inputVal = emailInput ? emailInput.value.trim() : '';
+    if (!inputVal) return;
 
     if (!currentCloudSongbook) {
         alert("Najpierw zapisz śpiewnik w chmurze przed dodaniem współtwórców.");
         return;
     }
 
-    const currentOwners = currentCloudSongbook.ownerIds || [];
-    if (currentOwners.includes(newUid)) {
-        alert("Użytkownik jest już współtwórcą tego śpiewnika.");
-        return;
+    const btn = document.getElementById('btnAddCollaborator');
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Szukanie...";
     }
 
     try {
-        const updatedOwners = [...currentOwners, newUid];
+        let targetUser = null;
+        if (inputVal.includes('@')) {
+            targetUser = await window.FirebaseSongbook.findUserByEmail(inputVal);
+        } else {
+            // Check if user entered a raw UID
+            targetUser = (await window.FirebaseSongbook.findUserById(inputVal)) || { uid: inputVal, email: '', displayName: '' };
+        }
+
+        if (!targetUser || !targetUser.uid) {
+            alert(`Nie znaleziono użytkownika dla adresu: "${inputVal}".\n\nWspółtwórca musi zalogować się przynajmniej raz na spiewaj.com przez Google, aby można go było wyszukać.`);
+            return;
+        }
+
+        const currentOwners = currentCloudSongbook.ownerIds || [];
+        if (currentOwners.includes(targetUser.uid)) {
+            alert("Ten użytkownik jest już współtwórcą tego śpiewnika.");
+            return;
+        }
+
+        const updatedOwners = [...currentOwners, targetUser.uid];
+        const updatedMembers = { ...(currentCloudSongbook.members || {}) };
+        updatedMembers[targetUser.uid] = {
+            role: 'editor',
+            email: targetUser.email || inputVal,
+            displayName: targetUser.displayName || '',
+            addedAt: new Date().toISOString()
+        };
+
         await window.FirebaseSongbook.saveSongbook({
             id: currentCloudSongbook.id,
             title: currentCloudSongbook.title,
@@ -1093,16 +1178,24 @@ async function handleAddCollaborator() {
             isPublic: currentCloudSongbook.isPublic,
             yaml: currentCloudSongbook.yaml,
             additionalOwnerIds: updatedOwners,
+            members: updatedMembers,
             allSongs: allSongs
         });
 
         currentCloudSongbook.ownerIds = updatedOwners;
-        uidInput.value = '';
+        currentCloudSongbook.members = updatedMembers;
+        if (emailInput) emailInput.value = '';
         renderCollaboratorsList();
         updateCollaboratorsUI();
-        alert(`Dodano współtwórcę (UID: ${newUid})!`);
+        const successName = targetUser.displayName ? `${targetUser.displayName} (${targetUser.email || targetUser.uid})` : (targetUser.email || targetUser.uid);
+        alert(`Dodano współtwórcę: ${successName}!`);
     } catch (e) {
         alert("Nie udało się dodać współtwórcy: " + e.message);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.textContent = "+ Dodaj";
+        }
     }
 }
 
@@ -1111,6 +1204,9 @@ async function handleRemoveCollaborator(uidToRemove) {
 
     try {
         const updatedOwners = (currentCloudSongbook.ownerIds || []).filter(u => u !== uidToRemove);
+        const updatedMembers = { ...(currentCloudSongbook.members || {}) };
+        delete updatedMembers[uidToRemove];
+
         await window.FirebaseSongbook.saveSongbook({
             id: currentCloudSongbook.id,
             title: currentCloudSongbook.title,
@@ -1120,12 +1216,15 @@ async function handleRemoveCollaborator(uidToRemove) {
             isPublic: currentCloudSongbook.isPublic,
             yaml: currentCloudSongbook.yaml,
             additionalOwnerIds: updatedOwners,
+            members: updatedMembers,
             allSongs: allSongs
         });
 
         currentCloudSongbook.ownerIds = updatedOwners;
+        currentCloudSongbook.members = updatedMembers;
         renderCollaboratorsList();
         updateCollaboratorsUI();
+        alert("Pomyślnie usunięto współtwórcę.");
     } catch (e) {
         alert("Błąd podczas usuwania współtwórcy: " + e.message);
     }
@@ -1201,6 +1300,8 @@ window.deleteCloudSongbookById = deleteCloudSongbookById;
 window.openShareModal = openShareModal;
 window.closeShareModal = closeShareModal;
 window.copyShareUrl = copyShareUrl;
+window.copyShareReaderUrl = copyShareReaderUrl;
+window.openReaderPage = openReaderPage;
 window.handleAddCollaborator = handleAddCollaborator;
 window.handleRemoveCollaborator = handleRemoveCollaborator;
 window.handleLoginCloud = handleLoginCloud;
@@ -1224,7 +1325,7 @@ async function renderPDF() {
 
     // Get paper size
     const paperSizeSelect = document.getElementById('paperSize');
-    const paperSize = paperSizeSelect ? paperSizeSelect.value : 'a4';
+    const paperSize = paperSizeSelect ? paperSizeSelect.value : 'a5';
 
     const payload = {
         yaml_content: yaml,
