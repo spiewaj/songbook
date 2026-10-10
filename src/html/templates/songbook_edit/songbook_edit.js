@@ -5,6 +5,11 @@ let dynamicFilters = [];
 let filterCounter = 0;
 let activeAggregatedFilters = new Map(); // Track which aggregated filters are active
 
+// Cloud State (Phase 3)
+let currentUser = null;
+let currentCloudSongbook = null;
+let songsLoadedPromise = null;
+
 // Load index.json on page load
 async function loadSongs() {
     try {
@@ -568,6 +573,9 @@ function generateYAMLString() {
         }
     });
     
+    if (typeof jsyaml !== 'undefined' && jsyaml.dump) {
+        return jsyaml.dump({ songbook }, { indent: 2, lineWidth: -1 });
+    }
     return JSON.stringify({ songbook }, null, 2);
 }
 
@@ -596,7 +604,7 @@ function escapeYAML(text) {
 
 function downloadYAML() {
     const yaml = document.getElementById('yamlOutput').value;
-    const songbookId = document.getElementById('songbookId').value.trim();
+    const songbookId = document.getElementById('songbookId').value.trim() || 'spiewnik';
     const filename = `${songbookId}.songbook.yaml`;
     
     const blob = new Blob([yaml], { type: 'text/yaml' });
@@ -635,6 +643,96 @@ function downloadYAMLDirect() {
     URL.revokeObjectURL(url);
 }
 
+function loadFromYAMLString(content, cloudDoc = null) {
+    let data;
+    if (typeof jsyaml !== 'undefined') {
+        data = jsyaml.load(content);
+    } else {
+        data = JSON.parse(content);
+    }
+    
+    if (!data || !data.songbook) {
+        throw new Error("Nieprawidłowy format pliku: brak obiektu 'songbook'");
+    }
+    
+    const sb = data.songbook;
+    
+    // Populate form fields
+    document.getElementById('songbookId').value = sb.id || cloudDoc?.id || '';
+    document.getElementById('songbookTitle').value = sb.title || cloudDoc?.title || '';
+    document.getElementById('songbookSubtitle').value = sb.subtitle || cloudDoc?.subtitle || '';
+    document.getElementById('songbookPublisher').value = sb.publisher || cloudDoc?.publisher || '';
+    document.getElementById('songbookPlace').value = sb.place || cloudDoc?.place || '';
+    
+    const publicEl = document.getElementById('songbookIsPublic');
+    if (publicEl) {
+        publicEl.checked = cloudDoc ? cloudDoc.isPublic !== false : true;
+    }
+    
+    currentCloudSongbook = cloudDoc;
+    updateCollaboratorsUI();
+    
+    userEditedId = !!(sb.id || cloudDoc?.id); // Prevents auto-generation of ID
+    
+    // Clear current selections
+    selectedSongIds.clear();
+    dynamicFilters = [];
+    filterCounter = 0;
+    activeAggregatedFilters.clear();
+    
+    // Parse songs
+    if (sb.songs && Array.isArray(sb.songs)) {
+        sb.songs.forEach(item => {
+            if (item.glob) {
+                // Convert glob to regex
+                let regexStr = '^' + item.glob
+                    .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // Escape regex specials except *
+                    .replace(/\/\*\*\//g, '/(?:.*/)?')     // /**/ -> /(?:.*/)?
+                    .replace(/\*\*/g, '.*')                // Remaining ** -> .*
+                    .replace(/\*/g, '[^/]*')               // * -> [^/]*
+                    + '$';
+                const regex = new RegExp(regexStr);
+                
+                let found = false;
+                for (const song of allSongs) {
+                    if (song.path && regex.test(song.path)) {
+                        selectedSongIds.add(song.id);
+                        found = true;
+                    } else if (!song.path && `songs/**/${song.id}.xml` === item.glob) {
+                        selectedSongIds.add(song.id);
+                        found = true;
+                    }
+                }
+                // Fallback for single filename
+                if (!found && !item.glob.includes('*')) {
+                    const match = item.glob.match(/([^\/]+)\.xml$/);
+                    if (match) {
+                        const songId = match[1];
+                        if (songById.has(songId)) {
+                            selectedSongIds.add(songId);
+                        }
+                    }
+                }
+            } else if (item.genre && item.genre.equals) {
+                addDynamicFilter('genre', item.genre.equals);
+                activeAggregatedFilters.set(`genre:${item.genre.equals}`, { type: 'genre', value: item.genre.equals });
+            } else if (item.artist && item.artist.equals) {
+                addDynamicFilter('artist', item.artist.equals);
+                activeAggregatedFilters.set(`artist:${item.artist.equals}`, { type: 'artist', value: item.artist.equals });
+            } else if (item.text_author && item.text_author.equals) {
+                addDynamicFilter('text_author', item.text_author.equals);
+                activeAggregatedFilters.set(`text_author:${item.text_author.equals}`, { type: 'text_author', value: item.text_author.equals });
+            }
+        });
+    }
+    
+    // Render updates
+    renderDynamicFilters();
+    renderSongList();
+    renderSelectedSongs();
+    updateStats();
+}
+
 function loadFromYAMLFile(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -642,97 +740,472 @@ function loadFromYAMLFile(event) {
     const reader = new FileReader();
     reader.onload = function(e) {
         try {
-            const content = e.target.result;
-            let data;
-            if (typeof jsyaml !== 'undefined') {
-                data = jsyaml.load(content);
-            } else {
-                data = JSON.parse(content);
-            }
-            
-            if (!data || !data.songbook) {
-                throw new Error("Nieprawidłowy format pliku: brak obiektu 'songbook'");
-            }
-            
-            const sb = data.songbook;
-            
-            // Populate form fields
-            document.getElementById('songbookId').value = sb.id || '';
-            document.getElementById('songbookTitle').value = sb.title || '';
-            document.getElementById('songbookSubtitle').value = sb.subtitle || '';
-            document.getElementById('songbookPublisher').value = sb.publisher || '';
-            document.getElementById('songbookPlace').value = sb.place || '';
-            
-            userEditedId = !!sb.id; // Prevents auto-generation of ID
-            
-            // Clear current selections
-            selectedSongIds.clear();
-            dynamicFilters = [];
-            filterCounter = 0;
-            activeAggregatedFilters.clear();
-            
-            // Parse songs
-            if (sb.songs && Array.isArray(sb.songs)) {
-                sb.songs.forEach(item => {
-                    if (item.glob) {
-                        // Convert glob to regex
-                        let regexStr = '^' + item.glob
-                            .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // Escape regex specials except *
-                            .replace(/\/\*\*\//g, '/(?:.*/)?')     // /**/ -> /(?:.*/)?
-                            .replace(/\*\*/g, '.*')                // Remaining ** -> .*
-                            .replace(/\*/g, '[^/]*')               // * -> [^/]*
-                            + '$';
-                        const regex = new RegExp(regexStr);
-                        
-                        let found = false;
-                        for (const song of allSongs) {
-                            if (song.path && regex.test(song.path)) {
-                                selectedSongIds.add(song.id);
-                                found = true;
-                            } else if (!song.path && `songs/**/${song.id}.xml` === item.glob) {
-                                selectedSongIds.add(song.id);
-                                found = true;
-                            }
-                        }
-                        // Fallback
-                        if (!found && !item.glob.includes('*')) {
-                            const match = item.glob.match(/([^\/]+)\.xml$/);
-                            if (match) {
-                                const songId = match[1];
-                                if (songById.has(songId)) {
-                                    selectedSongIds.add(songId);
-                                }
-                            }
-                        }
-                    } else if (item.genre && item.genre.equals) {
-                        addDynamicFilter('genre', item.genre.equals);
-                        activeAggregatedFilters.set(`genre:${item.genre.equals}`, { type: 'genre', value: item.genre.equals });
-                    } else if (item.artist && item.artist.equals) {
-                        addDynamicFilter('artist', item.artist.equals);
-                        activeAggregatedFilters.set(`artist:${item.artist.equals}`, { type: 'artist', value: item.artist.equals });
-                    } else if (item.text_author && item.text_author.equals) {
-                        addDynamicFilter('text_author', item.text_author.equals);
-                        activeAggregatedFilters.set(`text_author:${item.text_author.equals}`, { type: 'text_author', value: item.text_author.equals });
-                    }
-                });
-            }
-            
-            // Render updates
-            renderDynamicFilters();
-            renderSongList();
-            renderSelectedSongs();
-            
+            loadFromYAMLString(e.target.result);
             alert('Śpiewnik został pomyślnie wczytany!');
-            
         } catch (error) {
             alert('Błąd podczas wczytywania pliku: ' + error.message);
         }
-        
-        // Clear input
         event.target.value = '';
     };
     reader.readAsText(file);
 }
+
+/* ==========================================================================
+   Cloud Operations & Collaborators (Phase 3)
+   ========================================================================== */
+
+function escapeHTML(str) {
+    if (!str) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+async function handleLoginCloud() {
+    if (!window.FirebaseSongbook) {
+        alert("Moduł Firebase nie został jeszcze załadowany.");
+        return;
+    }
+    try {
+        await window.FirebaseSongbook.loginWithGoogle();
+    } catch (e) {
+        console.error("Login cancelled or failed:", e);
+    }
+}
+
+async function handleLogoutCloud() {
+    if (!window.FirebaseSongbook) return;
+    try {
+        await window.FirebaseSongbook.logout();
+        currentCloudSongbook = null;
+        updateCollaboratorsUI();
+        const badge = document.getElementById('cloudStatusBadge');
+        if (badge) badge.textContent = '';
+    } catch (e) {
+        console.error("Logout failed:", e);
+    }
+}
+
+async function saveToCloud() {
+    if (!window.FirebaseSongbook) {
+        alert("Moduł Firebase nie został jeszcze załadowany.");
+        return;
+    }
+
+    let user = window.FirebaseSongbook.getCurrentUser();
+    if (!user) {
+        try {
+            user = await window.FirebaseSongbook.loginWithGoogle();
+        } catch (e) {
+            alert("Logowanie zostało anulowane.");
+            return;
+        }
+    }
+
+    const songbookId = document.getElementById('songbookId').value.trim();
+    const songbookTitle = document.getElementById('songbookTitle').value.trim();
+    if (!songbookTitle) {
+        alert("Podaj tytuł śpiewnika przed zapisaniem.");
+        document.getElementById('songbookTitle').focus();
+        return;
+    }
+    if (!songbookId) {
+        alert("Podaj ID śpiewnika przed zapisaniem.");
+        document.getElementById('songbookId').focus();
+        return;
+    }
+
+    const yamlStr = generateYAMLString();
+    if (!yamlStr) return;
+
+    const btn = document.getElementById('btnSaveCloud');
+    const badge = document.getElementById('cloudStatusBadge');
+    if (btn) btn.disabled = true;
+    if (badge) badge.textContent = "Zapisywanie w chmurze...";
+
+    try {
+        const isPublic = document.getElementById('songbookIsPublic') ? document.getElementById('songbookIsPublic').checked : true;
+        const res = await window.FirebaseSongbook.saveSongbook({
+            id: songbookId,
+            title: songbookTitle,
+            subtitle: document.getElementById('songbookSubtitle').value.trim(),
+            publisher: document.getElementById('songbookPublisher').value.trim(),
+            place: document.getElementById('songbookPlace').value.trim(),
+            isPublic: isPublic,
+            yaml: yamlStr,
+            additionalOwnerIds: currentCloudSongbook?.ownerIds || [],
+            allSongs: allSongs
+        });
+
+        currentCloudSongbook = res;
+        updateCollaboratorsUI();
+
+        if (badge) {
+            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            badge.textContent = `✓ Zapisano w chmurze (${timeStr})`;
+        }
+
+        if (history.replaceState) {
+            history.replaceState(null, '', `#songbook=${encodeURIComponent(songbookId)}`);
+        }
+    } catch (e) {
+        console.error("Błąd zapisu w chmurze:", e);
+        alert("Nie udało się zapisać w chmurze: " + e.message);
+        if (badge) badge.textContent = "Błąd zapisu";
+    } finally {
+        if (btn) btn.disabled = false;
+    }
+}
+
+function startNewSongbook() {
+    if (confirm("Czy na pewno chcesz rozpocząć nowy śpiewnik? Niezapisane zmiany zostaną utracone.")) {
+        document.getElementById('songbookTitle').value = '';
+        document.getElementById('songbookId').value = '';
+        document.getElementById('songbookSubtitle').value = '';
+        document.getElementById('songbookPublisher').value = '';
+        document.getElementById('songbookPlace').value = '';
+        if (document.getElementById('songbookIsPublic')) {
+            document.getElementById('songbookIsPublic').checked = true;
+        }
+        userEditedId = false;
+        currentCloudSongbook = null;
+        updateCollaboratorsUI();
+        clearSelection();
+        const badge = document.getElementById('cloudStatusBadge');
+        if (badge) badge.textContent = '';
+        if (history.replaceState) {
+            history.replaceState(null, '', window.location.pathname);
+        }
+    }
+}
+
+async function openMySongbooksModal() {
+    const modal = document.getElementById('modalMySongbooks');
+    if (!modal) return;
+    modal.style.display = 'flex';
+
+    const container = document.getElementById('mySongbooksListContainer');
+    container.innerHTML = '<div class="loader">Ładowanie Twoich śpiewników...</div>';
+
+    if (!window.FirebaseSongbook) {
+        container.innerHTML = '<p style="color: #c82333;">Moduł Firebase nie jest dostępny.</p>';
+        return;
+    }
+
+    const user = window.FirebaseSongbook.getCurrentUser();
+    if (!user) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 20px;">
+                <p>Musisz być zalogowany, aby przeglądać swoje śpiewniki.</p>
+                <button class="btn btn-primary" onclick="handleLoginCloud().then(() => openMySongbooksModal())">
+                    Zaloguj przez Google
+                </button>
+            </div>
+        `;
+        return;
+    }
+
+    try {
+        const songbooks = await window.FirebaseSongbook.fetchMySongbooks();
+        if (!songbooks || songbooks.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state" style="text-align: center; padding: 30px;">
+                    <p style="font-size: 1.1em; color: #555;">Nie masz jeszcze zapisanych śpiewników w chmurze.</p>
+                    <p style="font-size: 0.9em; color: #888;">Stwórz swój śpiewnik i kliknij <strong>"Zapisz w chmurze"</strong>.</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = songbooks.map(sb => {
+            const count = sb.songCount || (sb.resolvedSongIds ? sb.resolvedSongIds.length : 0);
+            let dateStr = '';
+            if (sb.updatedAt && sb.updatedAt.toDate) {
+                dateStr = sb.updatedAt.toDate().toLocaleDateString('pl-PL');
+            }
+            const isPub = sb.isPublic !== false;
+            return `
+                <div class="songbook-card">
+                    <div class="songbook-card-info">
+                        <div class="songbook-card-title" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">${escapeHTML(sb.title || sb.id)}</div>
+                        <div class="songbook-card-meta">
+                            <span>ID: <code>${escapeHTML(sb.id)}</code></span>
+                            <span>•</span>
+                            <span>${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}</span>
+                            ${dateStr ? `<span>• ${dateStr}</span>` : ''}
+                            <span class="${isPub ? 'badge-public' : 'badge-private'}">${isPub ? 'Publiczny' : 'Prywatny'}</span>
+                        </div>
+                    </div>
+                    <div class="songbook-card-actions">
+                        <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Wczytaj</button>
+                        <button class="btn btn-sm btn-outline" style="color: #c82333;" onclick="deleteCloudSongbookById('${escapeHTML(sb.id)}')">Usuń</button>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    } catch (e) {
+        console.error("Błąd pobierania śpiewników:", e);
+        container.innerHTML = `<p style="color: #c82333;">Błąd podczas ładowania śpiewników: ${escapeHTML(e.message)}</p>`;
+    }
+}
+
+function closeMySongbooksModal() {
+    const modal = document.getElementById('modalMySongbooks');
+    if (modal) modal.style.display = 'none';
+}
+
+async function loadCloudSongbookById(id) {
+    closeMySongbooksModal();
+    const badge = document.getElementById('cloudStatusBadge');
+    if (badge) badge.textContent = "Wczytywanie...";
+    try {
+        if (songsLoadedPromise) await songsLoadedPromise;
+        const doc = await window.FirebaseSongbook.fetchSongbook(id);
+        if (!doc) {
+            alert("Nie znaleziono śpiewnika w chmurze.");
+            return;
+        }
+        loadFromYAMLString(doc.yaml, doc);
+        if (badge) badge.textContent = `Wczytano: ${doc.title}`;
+        if (history.replaceState) {
+            history.replaceState(null, '', `#songbook=${encodeURIComponent(doc.id)}`);
+        }
+    } catch (e) {
+        alert("Błąd podczas wczytywania śpiewnika: " + e.message);
+    }
+}
+
+async function deleteCloudSongbookById(id) {
+    if (!confirm(`Czy na pewno chcesz trwale usunąć śpiewnik "${id}" z chmury?`)) return;
+    try {
+        await window.FirebaseSongbook.deleteSongbook(id);
+        if (currentCloudSongbook && currentCloudSongbook.id === id) {
+            currentCloudSongbook = null;
+            updateCollaboratorsUI();
+        }
+        openMySongbooksModal();
+    } catch (e) {
+        alert("Błąd usuwania: " + e.message);
+    }
+}
+
+function openShareModal() {
+    const songbookId = document.getElementById('songbookId').value.trim();
+    if (!songbookId) {
+        alert("Najpierw podaj ID i zapisz śpiewnik.");
+        return;
+    }
+    const modal = document.getElementById('modalShare');
+    if (!modal) return;
+    modal.style.display = 'flex';
+
+    const shareUrl = `${window.location.origin}${window.location.pathname}#songbook=${encodeURIComponent(songbookId)}`;
+    document.getElementById('shareUrlInput').value = shareUrl;
+
+    renderCollaboratorsList();
+}
+
+function closeShareModal() {
+    const modal = document.getElementById('modalShare');
+    if (modal) modal.style.display = 'none';
+}
+
+function copyShareUrl() {
+    const input = document.getElementById('shareUrlInput');
+    input.select();
+    navigator.clipboard.writeText(input.value).then(() => {
+        alert("Link skopiowany do schowka!");
+    });
+}
+
+function updateCollaboratorsUI() {
+    const previewEl = document.getElementById('collaboratorsPreview');
+    const countEl = document.getElementById('collaboratorsCountText');
+    if (!previewEl || !countEl) return;
+
+    if (currentCloudSongbook && Array.isArray(currentCloudSongbook.ownerIds) && currentCloudSongbook.ownerIds.length > 1) {
+        previewEl.style.display = 'block';
+        countEl.textContent = `${currentCloudSongbook.ownerIds.length} osoby z uprawnieniami`;
+    } else {
+        previewEl.style.display = 'none';
+    }
+}
+
+function renderCollaboratorsList() {
+    const container = document.getElementById('collaboratorsList');
+    if (!container) return;
+
+    if (!currentCloudSongbook || !Array.isArray(currentCloudSongbook.ownerIds)) {
+        container.innerHTML = '<p style="color: #666; font-size: 0.9em;">Zapisz ten śpiewnik w chmurze, aby zarządzać współtwórcami.</p>';
+        return;
+    }
+
+    const members = currentCloudSongbook.members || {};
+    const creatorId = currentCloudSongbook.creatorId;
+
+    container.innerHTML = currentCloudSongbook.ownerIds.map(uid => {
+        const memberInfo = members[uid] || {};
+        const label = memberInfo.displayName || memberInfo.email || `UID: ${uid.substring(0, 10)}...`;
+        const isCreator = uid === creatorId;
+        const role = isCreator ? 'Właściciel' : 'Edytor';
+        const isMe = currentUser && currentUser.uid === uid;
+        const canRemove = currentUser && currentUser.uid === creatorId && !isCreator;
+
+        return `
+            <div class="collaborator-item">
+                <div>
+                    <strong>${escapeHTML(label)}</strong> ${isMe ? '<small>(Ty)</small>' : ''}
+                    <span class="collaborator-role">${role}</span>
+                </div>
+                ${canRemove ? `<button class="btn btn-sm btn-outline" style="color: #c82333; padding: 2px 6px;" onclick="handleRemoveCollaborator('${escapeHTML(uid)}')">Usuń</button>` : ''}
+            </div>
+        `;
+    }).join('');
+}
+
+async function handleAddCollaborator() {
+    const uidInput = document.getElementById('newCollaboratorUid');
+    const newUid = uidInput.value.trim();
+    if (!newUid) return;
+
+    if (!currentCloudSongbook) {
+        alert("Najpierw zapisz śpiewnik w chmurze przed dodaniem współtwórców.");
+        return;
+    }
+
+    const currentOwners = currentCloudSongbook.ownerIds || [];
+    if (currentOwners.includes(newUid)) {
+        alert("Użytkownik jest już współtwórcą tego śpiewnika.");
+        return;
+    }
+
+    try {
+        const updatedOwners = [...currentOwners, newUid];
+        await window.FirebaseSongbook.saveSongbook({
+            id: currentCloudSongbook.id,
+            title: currentCloudSongbook.title,
+            subtitle: currentCloudSongbook.subtitle,
+            publisher: currentCloudSongbook.publisher,
+            place: currentCloudSongbook.place,
+            isPublic: currentCloudSongbook.isPublic,
+            yaml: currentCloudSongbook.yaml,
+            additionalOwnerIds: updatedOwners,
+            allSongs: allSongs
+        });
+
+        currentCloudSongbook.ownerIds = updatedOwners;
+        uidInput.value = '';
+        renderCollaboratorsList();
+        updateCollaboratorsUI();
+        alert(`Dodano współtwórcę (UID: ${newUid})!`);
+    } catch (e) {
+        alert("Nie udało się dodać współtwórcy: " + e.message);
+    }
+}
+
+async function handleRemoveCollaborator(uidToRemove) {
+    if (!confirm("Czy na pewno chcesz odebrać uprawnienia temu współtwórcy?")) return;
+
+    try {
+        const updatedOwners = (currentCloudSongbook.ownerIds || []).filter(u => u !== uidToRemove);
+        await window.FirebaseSongbook.saveSongbook({
+            id: currentCloudSongbook.id,
+            title: currentCloudSongbook.title,
+            subtitle: currentCloudSongbook.subtitle,
+            publisher: currentCloudSongbook.publisher,
+            place: currentCloudSongbook.place,
+            isPublic: currentCloudSongbook.isPublic,
+            yaml: currentCloudSongbook.yaml,
+            additionalOwnerIds: updatedOwners,
+            allSongs: allSongs
+        });
+
+        currentCloudSongbook.ownerIds = updatedOwners;
+        renderCollaboratorsList();
+        updateCollaboratorsUI();
+    } catch (e) {
+        alert("Błąd podczas usuwania współtwórcy: " + e.message);
+    }
+}
+
+async function checkForUrlSongbook() {
+    const params = new URLSearchParams(window.location.search);
+    let sbId = params.get('songbook');
+    if (!sbId && window.location.hash) {
+        const hashMatch = window.location.hash.match(/#songbook=([^&]+)/);
+        if (hashMatch) sbId = decodeURIComponent(hashMatch[1]);
+    }
+
+    if (sbId && window.FirebaseSongbook) {
+        try {
+            if (songsLoadedPromise) await songsLoadedPromise;
+            const doc = await window.FirebaseSongbook.fetchSongbook(sbId);
+            if (doc && doc.yaml) {
+                loadFromYAMLString(doc.yaml, doc);
+                const badge = document.getElementById('cloudStatusBadge');
+                if (badge) badge.textContent = `Wczytano z chmury: ${doc.title}`;
+            }
+        } catch (e) {
+            console.warn("Nie udało się załadować śpiewnika z URL:", e);
+        }
+    }
+}
+
+function initAuthUI() {
+    const checkInterval = setInterval(() => {
+        if (window.FirebaseSongbook) {
+            clearInterval(checkInterval);
+            window.FirebaseSongbook.onAuthChange((user) => {
+                currentUser = user;
+                const btnLogin = document.getElementById('btnLoginHeader');
+                const profileArea = document.getElementById('userProfileArea');
+                const nameEl = document.getElementById('userNameText');
+                const avatarImg = document.getElementById('userAvatarImg');
+                const avatarInitials = document.getElementById('userAvatarInitials');
+
+                if (user) {
+                    if (btnLogin) btnLogin.style.display = 'none';
+                    if (profileArea) profileArea.style.display = 'flex';
+                    if (nameEl) nameEl.textContent = user.displayName || user.email || 'Zalogowany';
+
+                    if (user.photoURL) {
+                        avatarImg.src = user.photoURL;
+                        avatarImg.style.display = 'block';
+                        avatarInitials.style.display = 'none';
+                    } else {
+                        avatarImg.style.display = 'none';
+                        avatarInitials.style.display = 'inline-flex';
+                        const initial = (user.displayName || user.email || 'U')[0].toUpperCase();
+                        avatarInitials.textContent = initial;
+                    }
+                } else {
+                    if (btnLogin) btnLogin.style.display = 'inline-flex';
+                    if (profileArea) profileArea.style.display = 'none';
+                }
+            });
+            checkForUrlSongbook();
+        }
+    }, 100);
+}
+
+// Expose handlers to window for onclick attributes
+window.saveToCloud = saveToCloud;
+window.startNewSongbook = startNewSongbook;
+window.openMySongbooksModal = openMySongbooksModal;
+window.closeMySongbooksModal = closeMySongbooksModal;
+window.loadCloudSongbookById = loadCloudSongbookById;
+window.deleteCloudSongbookById = deleteCloudSongbookById;
+window.openShareModal = openShareModal;
+window.closeShareModal = closeShareModal;
+window.copyShareUrl = copyShareUrl;
+window.handleAddCollaborator = handleAddCollaborator;
+window.handleRemoveCollaborator = handleRemoveCollaborator;
+window.handleLoginCloud = handleLoginCloud;
+window.handleLogoutCloud = handleLogoutCloud;
+
 
 async function renderPDF() {
     const yaml = generateYAMLString();
@@ -850,4 +1323,6 @@ document.getElementById('songbookId').addEventListener('focus', function() {
 });
 
 // Initialize
-loadSongs();
+songsLoadedPromise = loadSongs();
+initAuthUI();
+window.addEventListener('hashchange', checkForUrlSongbook);

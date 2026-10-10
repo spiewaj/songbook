@@ -664,3 +664,336 @@ h1 {
 .add-filter-btn:hover {
     background: #218838;
 }
+
+/* ==========================================================================
+   Header Auth & Cloud Actions (Phase 3)
+   ========================================================================== */
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header-titles {
+    flex: 1;
+    min-width: 250px;
+}
+
+.header-auth {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-auth {
+    background: white;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(60,64,67,0.1);
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.btn-auth:hover {
+    background: #f8f9fa;
+    box-shadow: 0 1px 3px rgba(60,64,67,0.2);
+}
+
+.btn-auth .material-symbols-outlined {
+    font-size: 20px;
+    color: #1a73e8;
+}
+
+.user-profile-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f1f3f4;
+    padding: 6px 14px;
+    border-radius: 24px;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-avatar-initials {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #1a73e8;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 13px;
+    color: #202124;
+}
+
+.user-menu-links {
+    font-size: 12px;
+    color: #5f6368;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #1a73e8;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #0d47a1;
+}
+
+.user-menu-links .sep {
+    color: #aaa;
+}
+
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.action-group-cloud,
+.action-group-file {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-success {
+    background: #28a745;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-success:hover {
+    background: #218838;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+.btn-outline:hover {
+    background: #e9ecef;
+}
+
+.btn-sm {
+    padding: 5px 12px;
+    font-size: 12px;
+}
+
+.btn .material-symbols-outlined {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.cloud-status-badge {
+    font-size: 13px;
+    font-weight: 500;
+    color: #28a745;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   Modals
+   ========================================================================== */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-dialog {
+    background: white;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    animation: modalFadeIn 0.2s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.modal-close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #888;
+    line-height: 1;
+}
+
+.modal-close-btn:hover {
+    color: #000;
+}
+
+.modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.modal-footer {
+    padding: 14px 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Songbook card in modal list */
+.songbook-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    transition: box-shadow 0.2s;
+    background: #fff;
+}
+
+.songbook-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.songbook-card-info {
+    flex: 1;
+}
+
+.songbook-card-title {
+    font-weight: 600;
+    font-size: 1.05em;
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+.songbook-card-meta {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 4px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.songbook-card-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.badge-public {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.badge-private {
+    background: #fff3e0;
+    color: #ef6c00;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Collaborators list */
+.collaborator-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.collaborator-role {
+    font-weight: 600;
+    color: #666;
+    margin-left: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
