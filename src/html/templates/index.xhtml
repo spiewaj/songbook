@@ -105,8 +105,12 @@
                 if (visibleSongsCount === 1 && firstSong) {
                     const songLink = firstSong.querySelector("a");
                     if (songLink) {
-                        const href = songLink.getAttribute("href");
+                        let href = songLink.getAttribute("href");
                         if (href) {
+                            if (typeof activeSongbookFilter !== 'undefined' && activeSongbookFilter && activeSongbookFilter.id) {
+                                const sep = href.includes('?') ? '&' : '?';
+                                href = `${href}${sep}songbook=${encodeURIComponent(activeSongbookFilter.id)}`;
+                            }
                             window.location.href = href; // Navigate to the song
                         }
                     }
@@ -126,6 +130,7 @@
 </head>
 <body>
 <div class="top-navigation">
+    <a href="songbooks.html">[Śpiewniki]</a>
     <a href="songbook_edit.html" style="font-weight: 500;">[Kreator śpiewnika]</a>
     <a href="o-nas.html">[O nas]</a>
     <a href="podrukowane.html">[Druk śpiewnika]</a>

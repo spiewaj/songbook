@@ -237,6 +237,7 @@ def create_sitemap_xml(list_of_songs_meta, target_dir):
     static_pages = [
         ("", "daily", "1.0", "src/html/templates/index.xhtml"),
         ("o-nas.html", "monthly", "0.8", "src/html/templates/o-nas.html"),
+        ("songbooks.html", "daily", "0.9", "src/html/templates/songbooks.html"),
         ("podrukowane.html", "monthly", "0.8", "src/html/templates/podrukowane.html"),
         ("kindle.html", "monthly", "0.8", "src/html/templates/kindle.html"),
     ]
@@ -420,12 +421,20 @@ def main():
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "robots.txt"), robots_path)
 
     # Create symlinks for informational static pages
-    for page in ["podrukowane.html", "o-nas.html", "kindle.html"]:
+    for page in ["podrukowane.html", "o-nas.html", "kindle.html", "songbooks.html"]:
         page_target = os.path.join(target_dir, page)
         page_source = os.path.join(sb.repo_dir(), 'src', 'html', 'templates', page)
-        if os.path.exists(page_target):
+        if os.path.exists(page_target) or os.path.islink(page_target):
             os.remove(page_target)
         os.symlink(page_source, page_target)
+
+    # Create songbooks directory with index.html for clean /songbooks URL
+    songbooks_dir = os.path.join(target_dir, "songbooks")
+    os.makedirs(songbooks_dir, exist_ok=True)
+    sb_index_target = os.path.join(songbooks_dir, "index.html")
+    if os.path.exists(sb_index_target) or os.path.islink(sb_index_target):
+        os.remove(sb_index_target)
+    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', 'songbooks.html'), sb_index_target)
 
     # Create symlink for images
     images_target_dir = os.path.join(target_dir, "images")
