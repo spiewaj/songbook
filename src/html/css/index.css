@@ -341,3 +341,158 @@ p {
         content: ''; /* Remove arrow on desktop */
     }
 }
+
+/* ==========================================================================
+   Songbook Filter Banner
+   ========================================================================== */
+.songbook-filter-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #e8f0fe;
+    border: 1px solid #c2e7ff;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin: 1.5em 0 1em 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.songbook-filter-banner.warning {
+    background-color: #fef7e0;
+    border-color: #fce8b2;
+    color: #7a4f01;
+}
+
+.songbook-filter-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.songbook-filter-icon {
+    font-size: 26px;
+    color: #1a73e8;
+}
+
+.songbook-filter-banner.warning .songbook-filter-icon {
+    color: #b06000;
+}
+
+.songbook-filter-info {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.songbook-filter-label {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #5f6368;
+    font-weight: 500;
+}
+
+.songbook-filter-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #1967d2;
+}
+
+.songbook-filter-count {
+    font-size: 0.9em;
+    color: #5f6368;
+}
+
+.songbook-filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.songbook-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.songbook-btn .material-symbols-outlined {
+    font-size: 16px;
+}
+
+.songbook-btn-edit {
+    background-color: #1a73e8;
+    color: #ffffff !important;
+    border: 1px solid #1a73e8;
+}
+
+.songbook-btn-edit:hover {
+    background-color: #1557b0;
+    text-decoration: none !important;
+}
+
+.songbook-btn-clear {
+    background-color: transparent;
+    color: #5f6368;
+    border: 1px solid #dadce0;
+}
+
+.songbook-btn-clear:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #202124;
+}
+
+@media (max-width: 768px) {
+    .songbook-filter-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 14px;
+    }
+    .songbook-filter-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+/* Dark Theme support for songbook banner */
+[data-theme="dark"] .songbook-filter-banner {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .songbook-filter-banner.warning {
+    background-color: #3b2c12;
+    border-color: #5e461b;
+    color: #fde68a;
+}
+
+[data-theme="dark"] .songbook-filter-title {
+    color: #93c5fd;
+}
+
+[data-theme="dark"] .songbook-filter-label,
+[data-theme="dark"] .songbook-filter-count {
+    color: #94a3b8;
+}
+
+[data-theme="dark"] .songbook-btn-clear {
+    color: #cbd5e1;
+    border-color: #475569;
+}
+
+[data-theme="dark"] .songbook-btn-clear:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}

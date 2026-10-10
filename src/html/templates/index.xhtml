@@ -16,6 +16,7 @@
     <link href="songs_html/CSS/index.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" src="firebase_client.js"></script>
     <script type="text/javascript" src="common.js"> </script>
     <script type="text/javascript" src="index.js"> </script>
     <script type="text/javascript">
@@ -55,7 +56,14 @@
                     searchBox.value = newQuery;
                     filterSongs();
                 }
+                if (typeof checkSongbookFromUrl === 'function') {
+                    checkSongbookFromUrl();
+                }
             });
+
+            if (typeof checkSongbookFromUrl === 'function') {
+                checkSongbookFromUrl();
+            }
 
             searchBox.addEventListener("focus", function() {
                 searchBox.select();
@@ -117,6 +125,7 @@
 </head>
 <body>
 <div class="top-navigation">
+    <a href="songbook_edit.html" style="font-weight: 500;">[Kreator śpiewnika]</a>
     <a href="o-nas.html">[O nas]</a>
     <a href="podrukowane.html">[Druk śpiewnika]</a>
     <a href="kindle.html">[Na Kindle]</a>
@@ -146,6 +155,25 @@
 </div>
    <!--Anchor-->
    <a id="before-search"/>
+    <!-- Songbook Filter Banner -->
+    <div id="songbook-filter-banner" class="songbook-filter-banner" style="display: none;">
+        <div class="songbook-filter-content">
+            <span class="material-symbols-outlined songbook-filter-icon">menu_book</span>
+            <div class="songbook-filter-info">
+                <span class="songbook-filter-label">Śpiewnik:</span>
+                <span id="songbook-filter-title" class="songbook-filter-title"></span>
+                <span id="songbook-filter-count" class="songbook-filter-count"></span>
+            </div>
+        </div>
+        <div class="songbook-filter-actions">
+            <a id="songbook-filter-edit-btn" href="songbook_edit.html" class="songbook-btn songbook-btn-edit">
+                <span class="material-symbols-outlined">edit</span> Edytuj
+            </a>
+            <button type="button" class="songbook-btn songbook-btn-clear" onclick="clearSongbookFilter()">
+                <span class="material-symbols-outlined">close</span> Wszystkie piosenki
+            </button>
+        </div>
+    </div>
     <!-- <h2>Piosenki</h2> -->
     <div class="search-container">
         <label for="songSearch" class="search-label">Szukaj piosenki:</label>

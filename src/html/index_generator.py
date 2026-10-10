@@ -86,6 +86,7 @@ def create_index_html(list_of_songs_meta, target_dir):
             continue
         song_html = os.path.join("./songs_html", song.base_file_name() + '.html')
         li = etree.SubElement(ul, "li")
+        li.attrib['data-song-id'] = song.base_file_name()
         
         # Main anchor wrapping the title - SEO-friendly structure
         a_main = etree.SubElement(li, "a")
