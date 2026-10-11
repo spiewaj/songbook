@@ -85,7 +85,7 @@ function escapeHtml(text) {
                 if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref.includes('#songbook=')) {
                     const cleanBase = rawHref.split('#')[0].split('?')[0];
                     link.setAttribute('href', `${cleanBase}#songbook=${encodeURIComponent(sbId)}`);
-                    link.textContent = '[Powrót do śpiewnika]';
+                    link.innerHTML = '<span class="material-symbols-outlined">arrow_back</span> Powrót do śpiewnika';
                 }
             });
         }

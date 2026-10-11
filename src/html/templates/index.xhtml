@@ -117,47 +117,23 @@
                 }
             }
         })
-
-        // Toggle for songbook list on mobile
-        function toggleSongbooks() {
-            const songbook = document.getElementById('songbooks-container');
-            //const toggleHeader = document.getElementById('songbook-toggle');
-            songbook.classList.toggle('expanded');
-            //toggleHeader.classList.toggle('active');
-        }
 // ]]>
     </script>
 </head>
 <body>
 <div class="top-navigation">
-    <a href="songbooks.html">[Śpiewniki]</a>
-    <a href="songbook_edit.html" style="font-weight: 500;">[Kreator śpiewnika]</a>
-    <a href="o-nas.html">[O nas]</a>
-    <a href="podrukowane.html">[Druk śpiewnika]</a>
-    <a href="kindle.html">[Na Kindle]</a>
-    <a href="https://ghe.spiewaj.com/users/me/changes:new">[Dodaj piosenkę]</a>
-    <a href="https://ghe.spiewaj.com/intro">[O edytowaniu]</a>
-    <a href="https://github.com/spiewaj/songbook/tree/main/songs">[github]</a>
-    <a href="https://ghe.spiewaj.com/users/me/changes">[Inne rozpoczęte edycje]</a>
+    <a href="songbooks.html" class="nav-item"><span class="material-symbols-outlined">menu_book</span> Śpiewniki</a>
+    <a href="songbook_edit.html" class="nav-item"><span class="material-symbols-outlined">edit_note</span> Kreator</a>
+    <a href="o-nas.html" class="nav-item"><span class="material-symbols-outlined">info</span> O nas</a>
+    <a href="podrukowane.html" class="nav-item"><span class="material-symbols-outlined">print</span> Druk</a>
+    <a href="kindle.html" class="nav-item"><span class="material-symbols-outlined">tablet_android</span> Kindle</a>
+    <a href="https://ghe.spiewaj.com/users/me/changes:new" class="nav-item"><span class="material-symbols-outlined">add_circle</span> Dodaj</a>
+    <a href="https://ghe.spiewaj.com/intro" class="nav-item"><span class="material-symbols-outlined">help</span> Poradnik</a>
+    <a href="https://github.com/spiewaj/songbook/tree/main/songs" class="nav-item" target="_blank" rel="noopener"><span class="material-symbols-outlined">code</span> GitHub</a>
+    <a href="https://ghe.spiewaj.com/users/me/changes" class="nav-item"><span class="material-symbols-outlined">history</span> Edycje w toku</a>
     <a href="#" onclick="toggleTheme(event)" class="theme-toggle" title="Przełącz motyw" style="margin-left: auto; display: flex; align-items: center; text-decoration: none; color: inherit;">
         <span class="material-symbols-outlined">light_mode</span>
     </a>
-</div>
-<div id="songbooks-container">
-    <h1 id="songbook-toggle" onclick="toggleSongbooks()">Śpiewniki - epub/kindle/pdf</h1>
-    <div id="songbooks-list-container">
-      <ul id="songbooks"></ul>
-      <div class="songbooks-info-grid">
-        <div class="info-item">
-          <span class="material-symbols-outlined info-icon">tablet_android</span>
-          <p>Wersję na Kindla możesz wgrać używając: <a href="https://www.amazon.com/sendtokindle" target="_blank" rel="noopener">https://www.amazon.com/sendtokindle</a>. Zobacz: <a href="kindle.html">jak działa śpiewnik na czytnikach Kindle</a>.</p>
-        </div>
-        <div class="info-item">
-          <span class="material-symbols-outlined info-icon">print</span>
-          <p>Papierowy śpiewnik możesz złożyć i zamówić na: <a href="https://podrukowane.stoleczna.zhp.pl/zaprojektuj-spiewnik/" target="_blank" rel="noopener">https://podrukowane.stoleczna.zhp.pl/zaprojektuj-spiewnik/</a>. Zobacz: <a href="podrukowane.html">więcej informacji o druku</a>.</p>
-        </div>
-      </div>
-    </div>
 </div>
    <!--Anchor-->
    <a id="before-search"/>

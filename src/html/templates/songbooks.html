@@ -278,17 +278,97 @@
         [data-theme="dark"] .sb-btn-edit:hover {
             background-color: #343a40;
         }
+
+        /* Official editions styles */
+        .official-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 12px;
+        }
+
+        .official-card {
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 14px 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 12px;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+
+        .official-card:hover {
+            border-color: #ced4da;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        .official-card-body {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .official-icon {
+            color: #2e7d32;
+            font-size: 1.6rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .official-title {
+            margin: 0;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .official-desc {
+            margin: 4px 0 0 0;
+            font-size: 0.85rem;
+            color: #6c757d;
+            line-height: 1.35;
+        }
+
+        .official-downloads {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        [data-theme="dark"] .official-card {
+            background-color: #212529;
+            border-color: #343a40;
+        }
+
+        [data-theme="dark"] .official-title {
+            color: #f8f9fa;
+        }
+
+        [data-theme="dark"] .official-desc {
+            color: #adb5bd;
+        }
+
+        [data-theme="dark"] .official-icon {
+            color: #81c784;
+        }
+
+        [data-theme="dark"] hr.section-divider {
+            border-top-color: #343a40 !important;
+        }
     </style>
 </head>
 
 <body>
     <div class="top-navigation">
-        <a href="index.html">[Powrót do piosenek]</a>
-        <a href="songbooks.html" style="font-weight: 600;">[Śpiewniki]</a>
-        <a href="songbook_edit.html">[Kreator śpiewnika]</a>
-        <a href="o-nas.html">[O nas]</a>
-        <a href="podrukowane.html">[Druk śpiewnika]</a>
-        <a href="kindle.html">[Na Kindle]</a>
+        <a href="index.html" class="nav-item"><span class="material-symbols-outlined">arrow_back</span> Piosenki</a>
+        <a href="songbooks.html" class="nav-item active"><span class="material-symbols-outlined">menu_book</span> Śpiewniki</a>
+        <a href="songbook_edit.html" class="nav-item"><span class="material-symbols-outlined">edit_note</span> Kreator</a>
+        <a href="o-nas.html" class="nav-item"><span class="material-symbols-outlined">info</span> O nas</a>
+        <a href="podrukowane.html" class="nav-item"><span class="material-symbols-outlined">print</span> Druk</a>
+        <a href="kindle.html" class="nav-item"><span class="material-symbols-outlined">tablet_android</span> Kindle</a>
         <a href="#" onclick="toggleTheme(event)" class="theme-toggle" title="Przełącz motyw"
             style="margin-left: auto; display: flex; align-items: center; text-decoration: none; color: inherit;">
             <span class="material-symbols-outlined">light_mode</span>
@@ -296,10 +376,122 @@
     </div>
 
     <div class="content-container" style="max-width: 1100px; margin: 0 auto; padding: 20px;">
-        <h1>📚 Publiczne Śpiewniki</h1>
-        <p style="color: #6c757d; font-size: 1.1rem; margin-top: -0.3em; margin-bottom: 2em;">
-            Przeglądaj śpiewniki stworzone przez społeczność <strong>spiewaj.com</strong>, otwórz je w wygodnym widoku z akordami lub stwórz własną kompilację.
+        <h1 style="margin-top: 0.5em;">📚 Katalog Śpiewników</h1>
+        <p style="color: #6c757d; font-size: 1.05rem; margin-top: -0.3em; margin-bottom: 2em;">
+            Pobierz oficjalne wydania spiewaj.com na czytnik lub do druku, przeglądaj kompilacje społeczności lub stwórz własny śpiewnik.
         </p>
+
+        <!-- Official Publications Section -->
+        <section class="official-songbooks-section" style="margin-bottom: 35px;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px; flex-wrap: wrap; gap: 10px;">
+                <div>
+                    <h2 style="margin: 0; font-size: 1.35rem; font-weight: 600;">📖 Oficjalne wydania (EPUB / PDF)</h2>
+                    <p style="margin: 4px 0 0 0; color: #6c757d; font-size: 0.95rem;">
+                        Gotowe pliki EPUB na czytniki Kindle oraz PDF zoptymalizowane do śpiewania.
+                    </p>
+                </div>
+            </div>
+
+            <div class="official-grid">
+                <div class="official-card">
+                    <div class="official-card-body">
+                        <span class="material-symbols-outlined official-icon">book</span>
+                        <div>
+                            <h3 class="official-title">Śpiewnik Główny</h3>
+                            <p class="official-desc">Pełny, domyślny zbiór wszystkich piosenek spiewaj.com.</p>
+                        </div>
+                    </div>
+                    <div class="official-downloads">
+                        <a href="default_all.epub" class="badge-download badge-epub" title="Pobierz na Kindle">
+                            <span class="material-symbols-outlined">tablet_android</span> EPUB
+                        </a>
+                        <a href="songs_tex/default_all_a5.pdf" class="badge-download badge-pdf-a5" title="Format poręczny A5">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                        </a>
+                        <a href="songs_tex/default_all_a4.pdf" class="badge-download badge-pdf-a4" title="Format standardowy A4">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                        </a>
+                    </div>
+                </div>
+
+                <div class="official-card">
+                    <div class="official-card-body">
+                        <span class="material-symbols-outlined official-icon">forest</span>
+                        <div>
+                            <h3 class="official-title">Śpiewnik Dino</h3>
+                            <p class="official-desc">Zbiór tradycyjnych piosenek turystycznych i harcerskich.</p>
+                        </div>
+                    </div>
+                    <div class="official-downloads">
+                        <a href="dino.epub" class="badge-download badge-epub" title="Pobierz na Kindle">
+                            <span class="material-symbols-outlined">tablet_android</span> EPUB
+                        </a>
+                        <a href="songs_tex/dino_a5.pdf" class="badge-download badge-pdf-a5" title="Format poręczny A5">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                        </a>
+                        <a href="songs_tex/dino_a4.pdf" class="badge-download badge-pdf-a4" title="Format standardowy A4">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                        </a>
+                    </div>
+                </div>
+
+                <div class="official-card">
+                    <div class="official-card-body">
+                        <span class="material-symbols-outlined official-icon">hiking</span>
+                        <div>
+                            <h3 class="official-title">Śpiewnik Łupienicki</h3>
+                            <p class="official-desc">Piosenki rajdowe, wędrownicze i bieszczadzkie.</p>
+                        </div>
+                    </div>
+                    <div class="official-downloads">
+                        <a href="spiewnik_lupienicki.epub" class="badge-download badge-epub" title="Pobierz na Kindle">
+                            <span class="material-symbols-outlined">tablet_android</span> EPUB
+                        </a>
+                        <a href="songs_tex/spiewnik_lupienicki_a5.pdf" class="badge-download badge-pdf-a5" title="Format poręczny A5">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                        </a>
+                        <a href="songs_tex/spiewnik_lupienicki_a4.pdf" class="badge-download badge-pdf-a4" title="Format standardowy A4">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                        </a>
+                    </div>
+                </div>
+
+                <div class="official-card">
+                    <div class="official-card-body">
+                        <span class="material-symbols-outlined official-icon">cabin</span>
+                        <div>
+                            <h3 class="official-title">Śpiewnik 53 WDHiZ</h3>
+                            <p class="official-desc">Śpiewnik środowiskowy szczepu 53 WDHiZ.</p>
+                        </div>
+                    </div>
+                    <div class="official-downloads">
+                        <a href="53wdhiz.epub" class="badge-download badge-epub" title="Pobierz na Kindle">
+                            <span class="material-symbols-outlined">tablet_android</span> EPUB
+                        </a>
+                        <a href="songs_tex/53wdhiz_a5.pdf" class="badge-download badge-pdf-a5" title="Format poręczny A5">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                        </a>
+                        <a href="songs_tex/53wdhiz_a4.pdf" class="badge-download badge-pdf-a4" title="Format standardowy A4">
+                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 15px; display: flex; gap: 20px; flex-wrap: wrap; font-size: 0.9rem; color: #6c757d;">
+                <span>📱 Zobacz <a href="kindle.html">jak wgrać śpiewnik na Kindle</a></span>
+                <span>🖨️ Zobacz <a href="podrukowane.html">informacje o druku śpiewnika</a></span>
+            </div>
+        </section>
+
+        <hr class="section-divider" style="border: none; border-top: 1px solid #dee2e6; margin: 30px 0;" />
+
+        <div style="margin-bottom: 15px;">
+            <h2 style="margin: 0; font-size: 1.35rem; font-weight: 600;">🌐 Śpiewniki społeczności</h2>
+            <p style="margin: 4px 0 0 0; color: #6c757d; font-size: 0.95rem;">
+                Kompilacje stworzone i udostępnione przez użytkowników.
+            </p>
+        </div>
 
         <div class="songbooks-header-row">
             <div class="songbooks-search-container">

@@ -50,18 +50,116 @@ a:hover {
 /* --- Top Navigation --- */
 div.top-navigation, div.bottom-navigation {
     background-color: #ffffff;
-    padding: 1em;
+    padding: 0.8em 1.2em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping on small screens */
-    gap: 1em;
+    flex-wrap: wrap; /* Allow wrapping naturally on all screens */
+    gap: 0.6em 1.2em;
     align-items: center;
-    justify-content: space-between; /* Spread items apart */
 }
 
 div.top-navigation a, div.bottom-navigation a {
     font-weight: 500;
+    white-space: nowrap; /* Prevent words in links from wrapping awkwardly */
+}
+
+/* --- Modern Navigation Items with Icons --- */
+div.top-navigation a.nav-item, div.bottom-navigation a.nav-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0.35em 0.65em;
+    border-radius: 6px;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: #495057;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+div.top-navigation a.nav-item .material-symbols-outlined {
+    font-size: 1.15rem;
+    color: #6c757d;
+    transition: color 0.15s ease;
+}
+
+div.top-navigation a.nav-item:hover {
+    background-color: #f1f3f5;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+div.top-navigation a.nav-item:hover .material-symbols-outlined {
+    color: #0056b3;
+}
+
+div.top-navigation a.nav-item.active {
+    background-color: #e7f1ff;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+div.top-navigation a.nav-item.active .material-symbols-outlined {
+    color: #0056b3;
+}
+
+/* --- Harmonious Download Badges (EPUB / PDF) --- */
+.badge-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0.3em 0.75em;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: all 0.15s ease;
+}
+
+.badge-download .material-symbols-outlined {
+    font-size: 1rem;
+}
+
+/* EPUB: Soft Sage Green */
+.badge-download.badge-epub, a.epub {
+    background-color: #e8f5e9;
+    color: #1b5e20 !important;
+    border: 1px solid #c8e6c9;
+}
+.badge-download.badge-epub:hover, a.epub:hover {
+    background-color: #c8e6c9;
+    color: #0a3d0f !important;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* PDF A5: Soft Crimson/Rose */
+.badge-download.badge-pdf-a5, a.pdf.pdf-a5, a.pdf {
+    background-color: #fdf2f2;
+    color: #991b1b !important;
+    border: 1px solid #fecaca;
+}
+.badge-download.badge-pdf-a5:hover, a.pdf.pdf-a5:hover, a.pdf:hover {
+    background-color: #fee2e2;
+    color: #7f1d1d !important;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+/* PDF A4: Elegant Slate */
+.badge-download.badge-pdf-a4, a.pdf.pdf-a4 {
+    background-color: #f1f5f9;
+    color: #334155 !important;
+    border: 1px solid #cbd5e1;
+}
+.badge-download.badge-pdf-a4:hover, a.pdf.pdf-a4:hover {
+    background-color: #e2e8f0;
+    color: #0f172a !important;
+    text-decoration: none;
+    transform: translateY(-1px);
 }
 
 /* Group PDF links together on the right */
@@ -154,6 +252,72 @@ div.top-navigation {
 [data-theme="dark"] #songbooks-container #songbooks-list-container {
     background-color: #1e1e1e;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item, 
+[data-theme="dark"] div.bottom-navigation a.nav-item {
+    color: #d1d5db;
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item .material-symbols-outlined {
+    color: #9ca3af;
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item:hover {
+    background-color: #2c2c2c;
+    color: #93c5fd;
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item:hover .material-symbols-outlined {
+    color: #93c5fd;
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item.active {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+}
+
+[data-theme="dark"] div.top-navigation a.nav-item.active .material-symbols-outlined {
+    color: #93c5fd;
+}
+
+/* Dark mode download badge colors */
+[data-theme="dark"] .badge-download.badge-epub,
+[data-theme="dark"] a.epub {
+    background-color: rgba(46, 125, 50, 0.22);
+    color: #81c784 !important;
+    border-color: rgba(129, 199, 132, 0.35);
+}
+[data-theme="dark"] .badge-download.badge-epub:hover,
+[data-theme="dark"] a.epub:hover {
+    background-color: rgba(46, 125, 50, 0.38);
+    color: #a5d6a7 !important;
+}
+
+[data-theme="dark"] .badge-download.badge-pdf-a5,
+[data-theme="dark"] a.pdf.pdf-a5,
+[data-theme="dark"] a.pdf {
+    background-color: rgba(220, 53, 69, 0.18);
+    color: #f87171 !important;
+    border-color: rgba(248, 113, 113, 0.3);
+}
+[data-theme="dark"] .badge-download.badge-pdf-a5:hover,
+[data-theme="dark"] a.pdf.pdf-a5:hover,
+[data-theme="dark"] a.pdf:hover {
+    background-color: rgba(220, 53, 69, 0.32);
+    color: #fca5a5 !important;
+}
+
+[data-theme="dark"] .badge-download.badge-pdf-a4,
+[data-theme="dark"] a.pdf.pdf-a4 {
+    background-color: rgba(148, 163, 184, 0.16);
+    color: #cbd5e1 !important;
+    border-color: rgba(148, 163, 184, 0.28);
+}
+[data-theme="dark"] .badge-download.badge-pdf-a4:hover,
+[data-theme="dark"] a.pdf.pdf-a4:hover {
+    background-color: rgba(148, 163, 184, 0.28);
+    color: #f1f5f9 !important;
 }
 
 [data-theme="dark"] #songs li {
