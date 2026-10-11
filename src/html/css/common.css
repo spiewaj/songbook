@@ -64,8 +64,8 @@ div.top-navigation a, div.bottom-navigation a {
     white-space: nowrap; /* Prevent words in links from wrapping awkwardly */
 }
 
-/* --- Modern Navigation Items with Icons --- */
-div.top-navigation a.nav-item, div.bottom-navigation a.nav-item {
+div.top-navigation a.nav-item, div.bottom-navigation a.nav-item,
+div.top-navigation .nav-dropdown-toggle {
     display: inline-flex;
     align-items: center;
     gap: 5px;
@@ -75,33 +75,149 @@ div.top-navigation a.nav-item, div.bottom-navigation a.nav-item {
     font-weight: 500;
     color: #495057;
     text-decoration: none;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
     transition: background-color 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
 }
 
-div.top-navigation a.nav-item .material-symbols-outlined {
+div.top-navigation a.nav-item .material-symbols-outlined,
+div.top-navigation .nav-dropdown-toggle .material-symbols-outlined {
     font-size: 1.15rem;
     color: #6c757d;
     transition: color 0.15s ease;
 }
 
-div.top-navigation a.nav-item:hover {
+div.top-navigation a.nav-item:hover,
+div.top-navigation .nav-dropdown-toggle:hover,
+div.top-navigation .nav-dropdown:hover .nav-dropdown-toggle,
+div.top-navigation .nav-dropdown:focus-within .nav-dropdown-toggle {
     background-color: #f1f3f5;
     color: #0056b3;
     text-decoration: none;
 }
 
-div.top-navigation a.nav-item:hover .material-symbols-outlined {
+div.top-navigation a.nav-item:hover .material-symbols-outlined,
+div.top-navigation .nav-dropdown-toggle:hover .material-symbols-outlined,
+div.top-navigation .nav-dropdown:hover .material-symbols-outlined,
+div.top-navigation .nav-dropdown:focus-within .material-symbols-outlined {
     color: #0056b3;
 }
 
-div.top-navigation a.nav-item.active {
+div.top-navigation a.nav-item.active,
+div.top-navigation .nav-dropdown-toggle.active {
     background-color: #e7f1ff;
     color: #0056b3;
     font-weight: 600;
 }
 
-div.top-navigation a.nav-item.active .material-symbols-outlined {
+div.top-navigation a.nav-item.active .material-symbols-outlined,
+div.top-navigation .nav-dropdown-toggle.active .material-symbols-outlined {
     color: #0056b3;
+}
+
+/* Navigation Dropdown */
+.nav-dropdown {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-dropdown-toggle .dropdown-caret {
+    font-size: 0.75rem;
+    margin-left: 2px;
+    transition: transform 0.2s ease;
+}
+
+.nav-dropdown:hover .dropdown-caret,
+.nav-dropdown:focus-within .dropdown-caret {
+    transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding: 6px 0;
+    z-index: 1050;
+    margin-top: 4px;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+    display: block;
+}
+
+.nav-dropdown-menu a.dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    font-size: 0.88rem;
+    color: #495057;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+}
+
+.nav-dropdown-menu a.dropdown-item .material-symbols-outlined {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.nav-dropdown-menu a.dropdown-item:hover {
+    background-color: #f1f3f5;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.nav-dropdown-menu a.dropdown-item:hover .material-symbols-outlined {
+    color: #0056b3;
+}
+
+.nav-dropdown-menu a.dropdown-item.active {
+    background-color: #e7f1ff;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+/* Nav Right & Icon Buttons */
+.nav-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+}
+
+.nav-item-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35em 0.55em;
+    border-radius: 6px;
+    color: #495057;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-item-icon:hover {
+    background-color: #f1f3f5;
+    color: #0056b3;
+}
+
+.nav-item-icon svg.github-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    display: block;
 }
 
 /* --- Harmonious Download Badges (EPUB / PDF) --- */
@@ -255,29 +371,69 @@ div.top-navigation {
 }
 
 [data-theme="dark"] div.top-navigation a.nav-item, 
-[data-theme="dark"] div.bottom-navigation a.nav-item {
+[data-theme="dark"] div.bottom-navigation a.nav-item,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle,
+[data-theme="dark"] div.top-navigation .nav-item-icon {
     color: #d1d5db;
 }
 
-[data-theme="dark"] div.top-navigation a.nav-item .material-symbols-outlined {
+[data-theme="dark"] div.top-navigation a.nav-item .material-symbols-outlined,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle .material-symbols-outlined {
     color: #9ca3af;
 }
 
-[data-theme="dark"] div.top-navigation a.nav-item:hover {
+[data-theme="dark"] div.top-navigation a.nav-item:hover,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle:hover,
+[data-theme="dark"] div.top-navigation .nav-dropdown:hover .nav-dropdown-toggle,
+[data-theme="dark"] div.top-navigation .nav-dropdown:focus-within .nav-dropdown-toggle,
+[data-theme="dark"] div.top-navigation .nav-item-icon:hover {
     background-color: #2c2c2c;
     color: #93c5fd;
 }
 
-[data-theme="dark"] div.top-navigation a.nav-item:hover .material-symbols-outlined {
+[data-theme="dark"] div.top-navigation a.nav-item:hover .material-symbols-outlined,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle:hover .material-symbols-outlined,
+[data-theme="dark"] div.top-navigation .nav-dropdown:hover .material-symbols-outlined,
+[data-theme="dark"] div.top-navigation .nav-dropdown:focus-within .material-symbols-outlined {
     color: #93c5fd;
 }
 
-[data-theme="dark"] div.top-navigation a.nav-item.active {
+[data-theme="dark"] div.top-navigation a.nav-item.active,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle.active {
     background-color: rgba(59, 130, 246, 0.2);
     color: #93c5fd;
 }
 
-[data-theme="dark"] div.top-navigation a.nav-item.active .material-symbols-outlined {
+[data-theme="dark"] div.top-navigation a.nav-item.active .material-symbols-outlined,
+[data-theme="dark"] div.top-navigation .nav-dropdown-toggle.active .material-symbols-outlined {
+    color: #93c5fd;
+}
+
+[data-theme="dark"] .nav-dropdown-menu {
+    background-color: #252525;
+    border-color: #383838;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .nav-dropdown-menu a.dropdown-item {
+    color: #d1d5db;
+}
+
+[data-theme="dark"] .nav-dropdown-menu a.dropdown-item .material-symbols-outlined {
+    color: #9ca3af;
+}
+
+[data-theme="dark"] .nav-dropdown-menu a.dropdown-item:hover {
+    background-color: #2c2c2c;
+    color: #93c5fd;
+}
+
+[data-theme="dark"] .nav-dropdown-menu a.dropdown-item:hover .material-symbols-outlined {
+    color: #93c5fd;
+}
+
+[data-theme="dark"] .nav-dropdown-menu a.dropdown-item.active {
+    background-color: rgba(59, 130, 246, 0.2);
     color: #93c5fd;
 }
 
