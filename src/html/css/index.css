@@ -324,9 +324,9 @@ p {
     }
 
     div.top-navigation {
-        padding: 1em 2em;
-        gap: 1.5em;
-        flex-wrap: nowrap;
+        padding: 0.8em 1.5em;
+        gap: 0.6em 1.2em;
+        flex-wrap: wrap;
     }
 
     .songbook-container h1 {
