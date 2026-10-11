@@ -243,8 +243,10 @@ def upload_result(local_path: str, destination_name: str, content_type: str):
 def background_compile(temp_dir: str, job_id: str, render_cmd: list, publish_info: Optional[dict] = None):
     try:
         repo_dir = os.path.join(temp_dir, "repo")
+        os.makedirs(os.path.join(repo_dir, "build"), exist_ok=True)
         env = os.environ.copy()
         env["JOB"] = job_id
+        env["PYTHONPATH"] = repo_dir
         
         process = subprocess.run(
             render_cmd,
