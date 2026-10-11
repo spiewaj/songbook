@@ -962,10 +962,13 @@ async function saveAndPublishCloud() {
         let pdfA5Promise = renderArtifactCloudRun({
             yaml_content: data.yaml,
             branch: branch,
-            papersize: 'a5'
+            papersize: 'a5',
+            songbook_id: data.id,
+            is_published: true
         }, '/api/render/songbook_yaml').then(({ url }) => {
             const filename = encodeURIComponent(`${songbookTitle}_A5_${dateStr}.pdf`);
-            const finalUrl = `${url}?filename=${filename}&disposition=inline`;
+            const sep = url.includes('?') ? '&' : '?';
+            const finalUrl = `${url}${sep}filename=${filename}&disposition=inline`;
             artifacts.pdf_a5 = finalUrl;
             updatePublishStep('stepPdfA5', 'success', 'Gotowy');
             return finalUrl;
@@ -980,10 +983,13 @@ async function saveAndPublishCloud() {
         let pdfA4Promise = renderArtifactCloudRun({
             yaml_content: data.yaml,
             branch: branch,
-            papersize: 'a4'
+            papersize: 'a4',
+            songbook_id: data.id,
+            is_published: true
         }, '/api/render/songbook_yaml').then(({ url }) => {
             const filename = encodeURIComponent(`${songbookTitle}_A4_${dateStr}.pdf`);
-            const finalUrl = `${url}?filename=${filename}&disposition=inline`;
+            const sep = url.includes('?') ? '&' : '?';
+            const finalUrl = `${url}${sep}filename=${filename}&disposition=inline`;
             artifacts.pdf_a4 = finalUrl;
             updatePublishStep('stepPdfA4', 'success', 'Gotowy');
             return finalUrl;
@@ -997,10 +1003,13 @@ async function saveAndPublishCloud() {
         updatePublishStep('stepEpub', 'running', 'Generowanie e-booka...');
         let epubPromise = renderArtifactCloudRun({
             yaml_content: data.yaml,
-            branch: branch
+            branch: branch,
+            songbook_id: data.id,
+            is_published: true
         }, '/api/render/songbook_epub').then(({ url }) => {
             const filename = encodeURIComponent(`${songbookTitle}_${dateStr}.epub`);
-            const finalUrl = `${url}?filename=${filename}&disposition=attachment`;
+            const sep = url.includes('?') ? '&' : '?';
+            const finalUrl = `${url}${sep}filename=${filename}&disposition=attachment`;
             artifacts.epub = finalUrl;
             updatePublishStep('stepEpub', 'success', 'Gotowy');
             return finalUrl;
