@@ -887,6 +887,8 @@ function startNewSongbook() {
         clearSelection();
         const badge = document.getElementById('cloudStatusBadge');
         if (badge) badge.textContent = '';
+        const paperSizeSelect = document.getElementById('paperSize');
+        if (paperSizeSelect) paperSizeSelect.value = 'a5';
         if (history.replaceState) {
             history.replaceState(null, '', window.location.pathname);
         }
@@ -1424,6 +1426,8 @@ document.getElementById('songbookId').addEventListener('focus', function() {
 });
 
 // Initialize
+const paperSizeSelect = document.getElementById('paperSize');
+if (paperSizeSelect) paperSizeSelect.value = 'a5';
 songsLoadedPromise = loadSongs();
 initAuthUI();
 window.addEventListener('hashchange', checkForUrlSongbook);

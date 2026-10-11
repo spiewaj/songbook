@@ -10,6 +10,27 @@ body {
     color: #212529;
 }
 
+.top-nav-bar {
+    display: flex;
+    gap: 15px;
+    padding: 10px 24px;
+    font-size: 0.9em;
+    background: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    flex-wrap: wrap;
+}
+
+.top-nav-bar a {
+    color: #495057;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.top-nav-bar a:hover {
+    color: #2e7d32;
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;

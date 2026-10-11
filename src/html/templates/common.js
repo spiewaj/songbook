@@ -14,6 +14,7 @@ function edit(file) {
 
 // Shared utility function for HTML escaping
 function escapeHtml(text) {
+    if (text === null || text === undefined) return '';
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
@@ -53,4 +54,46 @@ function escapeHtml(text) {
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         setTheme(newTheme);
     };
+})();
+
+// Active songbook context navigation for [Powrót]
+(function() {
+    function setupSongbookNavigation() {
+        let sbId = null;
+        try {
+            const params = new URLSearchParams(window.location.search);
+            sbId = params.get('songbook');
+            if (!sbId && window.location.hash) {
+                const match = window.location.hash.match(/(?:#|&)songbook=([^&]+)/);
+                if (match) sbId = decodeURIComponent(match[1]);
+            }
+            if (!sbId && document.referrer && document.referrer.includes('songbook=')) {
+                const refMatch = document.referrer.match(/[?#&]songbook=([^&]+)/);
+                if (refMatch) sbId = decodeURIComponent(refMatch[1]);
+            }
+            if (!sbId) {
+                sbId = sessionStorage.getItem('activeSongbook');
+            }
+        } catch (e) {
+            console.warn("Could not determine active songbook:", e);
+        }
+
+        if (sbId) {
+            const returnLinks = document.querySelectorAll('a[href^="../index.html"], a[href^="index.html"]');
+            returnLinks.forEach(link => {
+                const rawHref = link.getAttribute('href');
+                if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref.includes('#songbook=')) {
+                    const cleanBase = rawHref.split('#')[0].split('?')[0];
+                    link.setAttribute('href', `${cleanBase}#songbook=${encodeURIComponent(sbId)}`);
+                    link.textContent = '[Powrót do śpiewnika]';
+                }
+            });
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupSongbookNavigation);
+    } else {
+        setupSongbookNavigation();
+    }
 })();
