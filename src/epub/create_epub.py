@@ -228,17 +228,17 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
 
 def resolveTemplate(songbook, from_file, to_file):
     return  converter_utils.replace_in_file(from_file, to_file,
-        lambda s: (s.replace(":date:", actual_date())
-                    .replace(":datetime:", actual_datetime())
-                    .replace(":title:", songbook.title())
-                    .replace(":subtitle:", songbook.subtitle())
-                    .replace(":id:", songbook.id())
-                    .replace(":uuid:", songbook.uuid())
-                    .replace(":url:", songbook.url())
-                    .replace(":publisher:", songbook.publisher())
+        lambda s: (s.replace(":date:", str(actual_date()))
+                    .replace(":datetime:", str(actual_datetime()))
+                    .replace(":title:", str(songbook.title() or ""))
+                    .replace(":subtitle:", str(songbook.subtitle() or ""))
+                    .replace(":id:", str(songbook.id() or ""))
+                    .replace(":uuid:", str(songbook.uuid() or ""))
+                    .replace(":url:", str(songbook.url() or ""))
+                    .replace(":publisher:", str(songbook.publisher() or ""))
                     .replace(":timestamp:", datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"))
-                    .replace(":imageMime:", songbook.imageWebMime())
-                    .replace(":imageExt:", songbook.imageWebExt())))
+                    .replace(":imageMime:", str(songbook.imageWebMime() or ""))
+                    .replace(":imageExt:", str(songbook.imageWebExt() or ""))))
 
 
 def create_template_epub(songbook, target_path):
