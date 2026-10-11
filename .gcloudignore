@@ -23,6 +23,6 @@ test_output.pdf
 editor/
 editor-github/
 editor-github-pr-proxy/
-backend/
-gcs-quota-firebase/
+/backend/
+/gcs-quota-firebase/
 
