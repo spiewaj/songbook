@@ -434,7 +434,21 @@ def main():
     sb_index_target = os.path.join(songbooks_dir, "index.html")
     if os.path.exists(sb_index_target) or os.path.islink(sb_index_target):
         os.remove(sb_index_target)
-    os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', 'songbooks.html'), sb_index_target)
+    with open(sb_index_target, "w", encoding="utf-8") as f:
+        f.write('''<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=../songbooks.html" />
+    <link rel="canonical" href="https://spiewaj.com/songbooks.html" />
+    <title>Katalog Śpiewników - spiewaj.com</title>
+    <script>window.location.replace("../songbooks.html");</script>
+</head>
+<body>
+    <p>Przekierowywanie do <a href="../songbooks.html">katalogu śpiewników</a>...</p>
+</body>
+</html>
+''')
 
     # Create symlink for images
     images_target_dir = os.path.join(target_dir, "images")

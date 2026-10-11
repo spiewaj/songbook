@@ -349,7 +349,7 @@
 
             // Wait for FirebaseSongbook module
             let attempts = 0;
-            while (!window.FirebaseSongbook && attempts < 25) {
+            while (!window.FirebaseSongbook && attempts < 50) {
                 await new Promise(r => setTimeout(r, 100));
                 attempts++;
             }
@@ -394,12 +394,12 @@
             grid.style.display = 'grid';
 
             grid.innerHTML = list.map(sb => {
-                const count = sb.songCount || (Array.isArray(sb.resolvedSongIds) ? sb.resolvedSongIds.length : 0);
+                const count = sb.songCount || (Array.isArray(sb.resolvedSongIds) ? sb.resolvedSongIds.length : (Array.isArray(sb.songIds) ? sb.songIds.length : 0));
                 
                 // Author displayName if recorded
                 const members = sb.members || {};
-                const creator = members[sb.creatorId] || Object.values(members)[0] || null;
-                const authorName = creator ? (creator.displayName || creator.email || '') : '';
+                const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
+                const authorName = (creator && (creator.displayName || creator.email)) || sb.author || '';
 
                 // Date
                 let dateStr = '';
@@ -467,8 +467,8 @@
                 const subtitle = (sb.subtitle || '').toLowerCase();
                 const id = (sb.id || '').toLowerCase();
                 const members = sb.members || {};
-                const creator = members[sb.creatorId] || Object.values(members)[0] || null;
-                const author = creator ? (creator.displayName || creator.email || '').toLowerCase() : '';
+                const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
+                const author = ((creator && (creator.displayName || creator.email)) || sb.author || '').toLowerCase();
                 return title.includes(query) || subtitle.includes(query) || id.includes(query) || author.includes(query);
             });
 

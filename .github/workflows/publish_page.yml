@@ -72,6 +72,7 @@ jobs:
           mv _generated/*.html _generated/*.css _generated/*.js _generated/*.json _generated/sitemap.xml _site/
           [ -f _generated/robots.txt ] && mv _generated/robots.txt _site/
           [ -d _generated/images ] && cp -R _generated/images/* _site/images/
+          [ -d _generated/songbooks ] && cp -R _generated/songbooks _site/
           mv _generated/*.pdf _site/songs_tex/
           mv _generated/songs_pdf/*.pdf _site/songs_pdf
           mv _generated/*.epub _site/

@@ -140,6 +140,10 @@ async function loadSongbookFilter(songbookId) {
             songIds: new Set(songIds)
         };
 
+        try {
+            sessionStorage.setItem('activeSongbook', doc.id);
+        } catch (e) {}
+
         if (titleEl) titleEl.textContent = activeSongbookFilter.title;
         if (countEl) {
             const c = songIds.length;
@@ -165,6 +169,9 @@ async function loadSongbookFilter(songbookId) {
 
 function clearSongbookFilter() {
     activeSongbookFilter = null;
+    try {
+        sessionStorage.removeItem('activeSongbook');
+    } catch (e) {}
     const banner = document.getElementById('songbook-filter-banner');
     if (banner) banner.style.display = 'none';
 
@@ -194,10 +201,35 @@ function checkSongbookFromUrl() {
 
     if (sbId) {
         loadSongbookFilter(sbId);
-    } else if (activeSongbookFilter) {
-        clearSongbookFilter();
+    } else {
+        try {
+            sessionStorage.removeItem('activeSongbook');
+        } catch (e) {}
+        if (activeSongbookFilter) {
+            clearSongbookFilter();
+        }
     }
 }
+
+// Intercept song link clicks to preserve songbook context
+document.addEventListener('DOMContentLoaded', function() {
+    const songsUl = document.getElementById('songs');
+    if (songsUl) {
+        const addSongbookParam = function(e) {
+            if (!activeSongbookFilter || !activeSongbookFilter.id) return;
+            const a = e.target.closest('a.song-link') || e.target.closest('a');
+            if (a && a.getAttribute('href') && !a.getAttribute('href').startsWith('#') && !a.classList.contains('pdflink') && !a.classList.contains('editicon')) {
+                let href = a.getAttribute('href');
+                if (!href.includes('songbook=')) {
+                    const sep = href.includes('?') ? '&' : '?';
+                    a.setAttribute('href', `${href}${sep}songbook=${encodeURIComponent(activeSongbookFilter.id)}`);
+                }
+            }
+        };
+        songsUl.addEventListener('pointerdown', addSongbookParam, true);
+        songsUl.addEventListener('click', addSongbookParam, true);
+    }
+});
 
 // Expose handlers globally
 window.filterSongs = filterSongs;

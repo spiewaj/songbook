@@ -211,6 +211,7 @@ jobs:
             /workspace/build/*.js
             /workspace/build/*.css
             /workspace/build/images/**
+            /workspace/build/songbooks/**
 
 
       - name: Upload htmls to release
