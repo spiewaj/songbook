@@ -23,13 +23,14 @@
 
 <body>
     <div class="top-navigation">
-        <a href="index.html">[Powrót do śpiewnika]</a>
-        <a href="songbooks.html">[Śpiewniki]</a>
-        <a href="songbook_edit.html">[Kreator śpiewnika]</a>
-        <a href="o-nas.html">[O nas]</a>
-        <a href="podrukowane.html">[Druk śpiewnika]</a>
-        <a href="https://ghe.spiewaj.com/users/me/changes:new">[Dodaj piosenkę]</a>
-        <a href="https://github.com/spiewaj/songbook/tree/main/songs">[github]</a>
+        <a href="index.html" class="nav-item"><span class="material-symbols-outlined">arrow_back</span> Piosenki</a>
+        <a href="songbooks.html" class="nav-item"><span class="material-symbols-outlined">menu_book</span> Śpiewniki</a>
+        <a href="songbook_edit.html" class="nav-item"><span class="material-symbols-outlined">edit_note</span> Kreator</a>
+        <a href="o-nas.html" class="nav-item"><span class="material-symbols-outlined">info</span> O nas</a>
+        <a href="podrukowane.html" class="nav-item"><span class="material-symbols-outlined">print</span> Druk</a>
+        <a href="kindle.html" class="nav-item active"><span class="material-symbols-outlined">tablet_android</span> Kindle</a>
+        <a href="https://ghe.spiewaj.com/users/me/changes:new" class="nav-item"><span class="material-symbols-outlined">add_circle</span> Dodaj</a>
+        <a href="https://github.com/spiewaj/songbook/tree/main/songs" class="nav-item" target="_blank" rel="noopener"><span class="material-symbols-outlined">code</span> GitHub</a>
         <a href="#" onclick="toggleTheme(event)" class="theme-toggle" title="Przełącz motyw"
             style="margin-left: auto; display: flex; align-items: center; text-decoration: none; color: inherit;">
             <span class="material-symbols-outlined">light_mode</span>
@@ -79,7 +80,7 @@
         <ol>
             <li>
                 <strong>Pobierz plik EPUB:</strong>
-                Wejdź na <a href="index.html">stronę główną spiewaj.com</a> i w sekcji <em>„Śpiewniki - epub/kindle/pdf”</em> kliknij zielony przycisk <strong>EPUB (kindle)</strong> przy wybranym śpiewniku (np. domyślnym śpiewniku głównym lub tematycznym).
+                Wejdź na <a href="songbooks.html">katalog śpiewników</a> i w sekcji <em>„Oficjalne wydania”</em> kliknij przycisk <strong>EPUB</strong> przy wybranym śpiewniku (np. domyślnym śpiewniku głównym lub tematycznym).
             </li>
             <li>
                 <strong>Wyślij na swój czytnik:</strong>
@@ -96,7 +97,7 @@
         </ol>
 
         <div style="text-align: center; margin: 2em 0;">
-            <a href="index.html#songbooks-container" class="cta-button">
+            <a href="songbooks.html" class="cta-button">
                 <span class="material-symbols-outlined">download</span>
                 Przejdź do pobierania śpiewników EPUB
             </a>

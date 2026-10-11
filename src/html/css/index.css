@@ -71,10 +71,7 @@ a:hover {
     transform: translateY(-2px);
 }
 
-#songbooks a.epub { background-color: #28a745; }
-#songbooks a.epub:hover { background-color: #218838; }
-#songbooks a.pdf { background-color: #dc3545; }
-#songbooks a.pdf:hover { background-color: #c82333; }
+/* Inherit harmonious badge colors from common.css */
 
 /* --- Main Song List --- */
 #songs {
