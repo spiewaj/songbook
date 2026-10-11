@@ -247,7 +247,9 @@ export const FirebaseSongbook = {
         baseRef = "main",
         additionalOwnerIds = [],
         members: customMembers = null,
-        allSongs = []
+        allSongs = [],
+        isPublished = null,
+        artifacts = null
     }) {
         const user = auth.currentUser;
         if (!user) {
@@ -292,13 +294,16 @@ export const FirebaseSongbook = {
             };
         }
 
+        const effectiveIsPublished = isPublished !== null ? !!isPublished : (existingData?.isPublished || false);
+        const effectiveArtifacts = artifacts !== null ? artifacts : (existingData?.artifacts || {});
+
         const payload = {
             id,
             title,
             subtitle,
             publisher,
             place,
-            isPublic: !!isPublic,
+            isPublic: isPublic !== undefined ? !!isPublic : (existingData?.isPublic ?? true),
             creatorId: existingData?.creatorId || user.uid,
             ownerIds,
             members,
@@ -306,12 +311,32 @@ export const FirebaseSongbook = {
             yaml,
             resolvedSongIds,
             songCount: resolvedSongIds.length,
+            isPublished: effectiveIsPublished,
+            publishedAt: effectiveIsPublished ? (existingData?.publishedAt || serverTimestamp()) : (existingData?.publishedAt || null),
+            artifacts: effectiveArtifacts,
             updatedAt: serverTimestamp(),
             createdAt: existingData?.createdAt || serverTimestamp()
         };
 
         await setDoc(songbookRef, payload, { merge: true });
         return payload;
+    },
+
+    /**
+     * Update downloadable artifacts for a published songbook document.
+     */
+    async updateSongbookArtifacts(id, artifacts, isPublished = true) {
+        if (!id) return;
+        const songbookRef = doc(db, "songbooks", id);
+        const updateData = {
+            artifacts: artifacts || {},
+            updatedAt: serverTimestamp()
+        };
+        if (isPublished) {
+            updateData.isPublished = true;
+            updateData.publishedAt = serverTimestamp();
+        }
+        await setDoc(songbookRef, updateData, { merge: true });
     },
 
     /**

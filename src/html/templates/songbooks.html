@@ -279,6 +279,34 @@
             background-color: #343a40;
         }
 
+        .sb-card-downloads {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px dashed #e9ecef;
+        }
+
+        [data-theme="dark"] .sb-card-downloads {
+            border-top-color: #343a40;
+        }
+
+        .sb-badge-published {
+            background-color: #e8f5e9;
+            color: #1b5e20 !important;
+            border: 1px solid #c8e6c9;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        [data-theme="dark"] .sb-badge-published {
+            background-color: rgba(46, 125, 50, 0.22);
+            color: #81c784 !important;
+            border-color: rgba(129, 199, 132, 0.35);
+        }
+
         /* Official editions styles */
         .official-grid {
             display: grid;
@@ -645,6 +673,10 @@
                     dateStr = new Date(sb.updatedAt).toLocaleDateString('pl-PL');
                 }
 
+                const artifacts = sb.artifacts || {};
+                const hasArtifacts = !!(artifacts.pdf_a5 || artifacts.pdf_a4 || artifacts.epub);
+                const isPublished = sb.isPublished || hasArtifacts;
+
                 return `
                     <div class="sb-card">
                         <div>
@@ -661,6 +693,11 @@
                                     <span class="material-symbols-outlined">queue_music</span>
                                     ${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}
                                 </span>
+                                ${isPublished ? `
+                                    <span class="sb-meta-item sb-badge-published" title="Śpiewnik opublikowany">
+                                        <span class="material-symbols-outlined">verified</span> Opublikowany
+                                    </span>
+                                ` : ''}
                                 ${authorName ? `
                                     <span class="sb-meta-item" title="Twórca">
                                         <span class="material-symbols-outlined">person</span>
@@ -674,6 +711,26 @@
                                     </span>
                                 ` : ''}
                             </div>
+
+                            ${hasArtifacts ? `
+                                <div class="sb-card-downloads">
+                                    ${artifacts.epub ? `
+                                        <a href="${artifacts.epub}" class="badge-download badge-epub" title="Pobierz na Kindle i czytniki (EPUB)" target="_blank" rel="noopener">
+                                            <span class="material-symbols-outlined">tablet_android</span> EPUB
+                                        </a>
+                                    ` : ''}
+                                    ${artifacts.pdf_a5 ? `
+                                        <a href="${artifacts.pdf_a5}" class="badge-download badge-pdf-a5" title="Format poręczny A5 do druku" target="_blank" rel="noopener">
+                                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                                        </a>
+                                    ` : ''}
+                                    ${artifacts.pdf_a4 ? `
+                                        <a href="${artifacts.pdf_a4}" class="badge-download badge-pdf-a4" title="Format standardowy A4" target="_blank" rel="noopener">
+                                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                                        </a>
+                                    ` : ''}
+                                </div>
+                            ` : ''}
                         </div>
 
                         <div class="sb-card-actions">

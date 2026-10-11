@@ -255,13 +255,16 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list):
         if process.returncode == 0:
             import glob
             pdf_files = glob.glob(os.path.join(repo_dir, "build", "songs_tex", "*.pdf"))
+            epub_files = glob.glob(os.path.join(repo_dir, "build", "*.epub"))
             if pdf_files:
                 upload_result(pdf_files[0], f"{job_id}.pdf", "application/pdf")
+            elif epub_files:
+                upload_result(epub_files[0], f"{job_id}.epub", "application/epub+zip")
             else:
-                # PDF missing despite 0 exit code
+                # File missing despite 0 exit code
                 log_path = os.path.join(temp_dir, f"{job_id}.log")
                 with open(log_path, "w") as f:
-                    f.write(f"PDF not found.\n\n{process.stdout}")
+                    f.write(f"Output artifact not found.\n\n{process.stdout}")
                 upload_result(log_path, f"{job_id}.log", "text/plain")
         else:
             log_path = os.path.join(temp_dir, f"{job_id}.log")
@@ -271,6 +274,26 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list):
             
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
+
+class EpubRequest(BaseModel):
+    yaml_content: str
+    branch: str = "main"
+
+@app.post("/api/render/songbook_epub")
+async def render_songbook_epub(request: EpubRequest, background_tasks: BackgroundTasks):
+    job_id = f"job_{uuid.uuid4().hex[:8]}"
+    temp_dir = tempfile.mkdtemp(prefix="songbook_epub_")
+    work_dir = setup_work_dir(temp_dir)
+    overlay_branch_data(request.branch, work_dir)
+    
+    yaml_path = os.path.join(work_dir, "songbooks", "custom.yaml")
+    with open(yaml_path, "w", encoding="utf-8") as f:
+        f.write(request.yaml_content)
+        
+    render_cmd = ["python3", "src/epub/create_epub.py", "songbooks/custom.yaml"]
+    background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd)
+    
+    return {"job_id": job_id, "status": 200}
 
 @app.post("/api/render/songbook_yaml")
 async def render_songbook_yaml(request: YamlRequest, background_tasks: BackgroundTasks):
@@ -381,8 +404,12 @@ async def get_job_status(job_id: str):
             
             pdf_blob = bucket.blob(f"{job_id}.pdf")
             if pdf_blob.exists():
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download"}
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
                 
+            epub_blob = bucket.blob(f"{job_id}.epub")
+            if epub_blob.exists():
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
+
             log_blob = bucket.blob(f"{job_id}.log")
             if log_blob.exists():
                 log_content = log_blob.download_as_text()
@@ -392,7 +419,9 @@ async def get_job_status(job_id: str):
             if STORAGE_URI.startswith("file://"):
                 local_dir = STORAGE_URI[7:]
             if os.path.exists(os.path.join(local_dir, f"{job_id}.pdf")):
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download"}
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
+            if os.path.exists(os.path.join(local_dir, f"{job_id}.epub")):
+                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
                     
             log_path = os.path.join(local_dir, f"{job_id}.log")
             if os.path.exists(log_path):
@@ -405,29 +434,53 @@ async def get_job_status(job_id: str):
 
 @app.get("/api/jobs/{job_id}/download")
 async def download_job(job_id: str, filename: Optional[str] = None, disposition: str = "inline"):
-    dl_filename = filename if filename else f"{job_id}.pdf"
-    if not dl_filename.endswith(".pdf"):
-        dl_filename += ".pdf"
-        
+    from fastapi import Response
+    import urllib.parse
+
     if STORAGE_URI.startswith("gs://"):
         bucket_name = STORAGE_URI[5:]
         storage_client = storage.Client()
         bucket = storage_client.bucket(bucket_name)
-        blob = bucket.blob(f"{job_id}.pdf")
-        if blob.exists():
-            pdf_bytes = blob.download_as_bytes()
-            from fastapi import Response
-            import urllib.parse
+
+        pdf_blob = bucket.blob(f"{job_id}.pdf")
+        if pdf_blob.exists():
+            dl_filename = filename if filename else f"{job_id}.pdf"
+            if not dl_filename.endswith(".pdf"):
+                dl_filename += ".pdf"
+            pdf_bytes = pdf_blob.download_as_bytes()
             encoded_filename = urllib.parse.quote(dl_filename)
             headers = {"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded_filename}"}
             return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
+
+        epub_blob = bucket.blob(f"{job_id}.epub")
+        if epub_blob.exists():
+            dl_filename = filename if filename else f"{job_id}.epub"
+            if not dl_filename.endswith(".epub"):
+                dl_filename += ".epub"
+            epub_bytes = epub_blob.download_as_bytes()
+            encoded_filename = urllib.parse.quote(dl_filename)
+            headers = {"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded_filename}"}
+            return Response(content=epub_bytes, media_type="application/epub+zip", headers=headers)
     else:
         local_dir = STORAGE_URI
         if STORAGE_URI.startswith("file://"):
             local_dir = STORAGE_URI[7:]
+
         pdf_path = os.path.join(local_dir, f"{job_id}.pdf")
         if os.path.exists(pdf_path):
+            dl_filename = filename if filename else f"{job_id}.pdf"
+            if not dl_filename.endswith(".pdf"):
+                dl_filename += ".pdf"
             headers = {"Content-Disposition": f"{disposition}; filename=\"{dl_filename}\""}
             return FileResponse(pdf_path, media_type="application/pdf", filename=dl_filename, headers=headers)
-            
+
+        epub_path = os.path.join(local_dir, f"{job_id}.epub")
+        if os.path.exists(epub_path):
+            dl_filename = filename if filename else f"{job_id}.epub"
+            if not dl_filename.endswith(".epub"):
+                dl_filename += ".epub"
+            headers = {"Content-Disposition": f"{disposition}; filename=\"{dl_filename}\""}
+            return FileResponse(epub_path, media_type="application/epub+zip", filename=dl_filename, headers=headers)
+
     raise HTTPException(status_code=404, detail="File not found")
+
