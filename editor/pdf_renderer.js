@@ -27,12 +27,16 @@ async function renderPdfCloudRun(payload, endpoint, onLoading, onSuccess, onErro
                     const statusData = await statusRes.json();
                     if (statusData.status === "done") {
                         clearInterval(pollInterval);
-                        const finalUrl = `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
-                        onSuccess(finalUrl);
+                        const finalUrl = statusData.url.startsWith("http")
+                            ? statusData.url
+                            : `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
+                        onSuccess(finalUrl, statusData.format || "pdf");
                     } else if (statusData.status === "error") {
                         clearInterval(pollInterval);
-                        const errorUrl = `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
-                        onError("Błąd generowania PDF. Zobacz logi.", errorUrl);
+                        const errorUrl = statusData.url
+                            ? (statusData.url.startsWith("http") ? statusData.url : `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`)
+                            : null;
+                        onError("Błąd generowania pliku. Zobacz logi.", errorUrl);
                     }
                 }
             } catch (e) {
@@ -41,7 +45,20 @@ async function renderPdfCloudRun(payload, endpoint, onLoading, onSuccess, onErro
         }, 2000);
 
     } catch (error) {
-        console.error("PDF render error", error);
-        onError("Błąd wysyłania do serwera PDF.");
+        console.error("Render error", error);
+        onError("Błąd wysyłania do serwera renderującego.");
     }
+}
+
+// Promise wrapper for background artifact generation
+function renderArtifactCloudRun(payload, endpoint = "/api/render/songbook_yaml") {
+    return new Promise((resolve, reject) => {
+        renderPdfCloudRun(
+            payload,
+            endpoint,
+            () => {},
+            (url, format) => resolve({ url, format }),
+            (err, errUrl) => reject(new Error(err))
+        );
+    });
 }

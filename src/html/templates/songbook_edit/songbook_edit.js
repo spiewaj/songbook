@@ -794,10 +794,9 @@ async function handleLogoutCloud() {
     }
 }
 
-async function saveToCloud() {
+async function ensureAuthenticated() {
     if (!window.FirebaseSongbook) {
-        alert("Moduł Firebase nie został jeszcze załadowany.");
-        return;
+        throw new Error("Moduł Firebase nie został jeszcze załadowany.");
     }
 
     let user = window.FirebaseSongbook.getCurrentUser();
@@ -806,49 +805,67 @@ async function saveToCloud() {
             user = await window.FirebaseSongbook.loginWithGoogle();
         } catch (e) {
             if (e.code === 'auth/popup-blocked') {
-                alert("Przeglądarka zablokowała wyskakujące okno logowania Google. Zezwól na wyskakujące okienka dla tej strony.");
+                throw new Error("Przeglądarka zablokowała wyskakujące okno logowania Google. Zezwól na wyskakujące okienka dla tej strony.");
             } else if (e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request') {
-                alert("Błąd logowania przez Google: " + (e.message || e));
+                throw new Error("Błąd logowania przez Google: " + (e.message || e));
             } else {
-                alert("Logowanie zostało anulowane.");
+                throw new Error("Logowanie zostało anulowane.");
             }
-            return;
         }
     }
+    return user;
+}
 
+function getSongbookFormData() {
     const songbookId = document.getElementById('songbookId').value.trim();
     const songbookTitle = document.getElementById('songbookTitle').value.trim();
     if (!songbookTitle) {
         alert("Podaj tytuł śpiewnika przed zapisaniem.");
         document.getElementById('songbookTitle').focus();
-        return;
+        return null;
     }
     if (!songbookId) {
         alert("Podaj ID śpiewnika przed zapisaniem.");
         document.getElementById('songbookId').focus();
-        return;
+        return null;
     }
 
     const yamlStr = generateYAMLString();
-    if (!yamlStr) return;
+    if (!yamlStr) return null;
 
-    const btn = document.getElementById('btnSaveCloud');
+    const isPublic = document.getElementById('songbookIsPublic') ? document.getElementById('songbookIsPublic').checked : true;
+
+    return {
+        id: songbookId,
+        title: songbookTitle,
+        subtitle: document.getElementById('songbookSubtitle').value.trim(),
+        publisher: document.getElementById('songbookPublisher').value.trim(),
+        place: document.getElementById('songbookPlace').value.trim(),
+        isPublic: isPublic,
+        yaml: yamlStr
+    };
+}
+
+async function saveDraftCloud() {
     const badge = document.getElementById('cloudStatusBadge');
-    if (btn) btn.disabled = true;
-    if (badge) badge.textContent = "Zapisywanie w chmurze...";
+    const btnDraft = document.getElementById('btnSaveDraft');
+    const btnPublish = document.getElementById('btnSavePublish');
 
     try {
-        const isPublic = document.getElementById('songbookIsPublic') ? document.getElementById('songbookIsPublic').checked : true;
+        await ensureAuthenticated();
+        const data = getSongbookFormData();
+        if (!data) return;
+
+        if (btnDraft) btnDraft.disabled = true;
+        if (btnPublish) btnPublish.disabled = true;
+        if (badge) badge.textContent = "Zapisywanie szkicu...";
+
         const res = await window.FirebaseSongbook.saveSongbook({
-            id: songbookId,
-            title: songbookTitle,
-            subtitle: document.getElementById('songbookSubtitle').value.trim(),
-            publisher: document.getElementById('songbookPublisher').value.trim(),
-            place: document.getElementById('songbookPlace').value.trim(),
-            isPublic: isPublic,
-            yaml: yamlStr,
+            ...data,
             additionalOwnerIds: currentCloudSongbook?.ownerIds || [],
-            allSongs: allSongs
+            allSongs: allSongs,
+            isPublished: false,
+            artifacts: currentCloudSongbook?.artifacts || {}
         });
 
         currentCloudSongbook = res;
@@ -856,18 +873,195 @@ async function saveToCloud() {
 
         if (badge) {
             const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            badge.textContent = `✓ Zapisano w chmurze (${timeStr})`;
+            badge.textContent = `✓ Zapisano szkic (${timeStr})`;
         }
 
         if (history.replaceState) {
-            history.replaceState(null, '', `#songbook=${encodeURIComponent(songbookId)}`);
+            history.replaceState(null, '', `#songbook=${encodeURIComponent(data.id)}`);
         }
     } catch (e) {
-        console.error("Błąd zapisu w chmurze:", e);
-        alert("Nie udało się zapisać w chmurze: " + e.message);
+        console.error("Błąd zapisu szkicu:", e);
+        alert(e.message || "Błąd zapisu w chmurze.");
         if (badge) badge.textContent = "Błąd zapisu";
     } finally {
-        if (btn) btn.disabled = false;
+        if (btnDraft) btnDraft.disabled = false;
+        if (btnPublish) btnPublish.disabled = false;
+    }
+}
+
+function updatePublishStep(stepId, state, statusText) {
+    const el = document.getElementById(stepId);
+    if (!el) return;
+    el.className = 'publish-step ' + (state || '');
+    const icon = el.querySelector('.step-icon');
+    const status = el.querySelector('.step-status');
+    if (status) status.textContent = statusText;
+    if (icon) {
+        if (state === 'running') icon.textContent = 'progress_activity';
+        else if (state === 'success') icon.textContent = 'check_circle';
+        else if (state === 'error') icon.textContent = 'error';
+        else icon.textContent = 'sync';
+    }
+}
+
+function openPublishModal() {
+    const modal = document.getElementById('modalPublish');
+    if (modal) modal.style.display = 'flex';
+    const resultLinks = document.getElementById('publishResultLinks');
+    if (resultLinks) resultLinks.style.display = 'none';
+    const badgesArea = document.getElementById('publishBadgesArea');
+    if (badgesArea) badgesArea.innerHTML = '';
+    const catalogBtn = document.getElementById('btnPublishViewInCatalog');
+    if (catalogBtn) catalogBtn.style.display = 'none';
+
+    updatePublishStep('stepCloudSave', 'running', 'Zapisywanie...');
+    updatePublishStep('stepPdfA5', '', 'Oczekiwanie...');
+    updatePublishStep('stepPdfA4', '', 'Oczekiwanie...');
+    updatePublishStep('stepEpub', '', 'Oczekiwanie...');
+}
+
+function closePublishModal() {
+    const modal = document.getElementById('modalPublish');
+    if (modal) modal.style.display = 'none';
+}
+
+async function saveAndPublishCloud() {
+    const badge = document.getElementById('cloudStatusBadge');
+    const btnDraft = document.getElementById('btnSaveDraft');
+    const btnPublish = document.getElementById('btnSavePublish');
+
+    try {
+        await ensureAuthenticated();
+        const data = getSongbookFormData();
+        if (!data) return;
+
+        openPublishModal();
+        if (btnDraft) btnDraft.disabled = true;
+        if (btnPublish) btnPublish.disabled = true;
+
+        // Step 1: Save metadata to cloud with isPublished: true
+        const artifacts = { ...(currentCloudSongbook?.artifacts || {}) };
+        const res = await window.FirebaseSongbook.saveSongbook({
+            ...data,
+            additionalOwnerIds: currentCloudSongbook?.ownerIds || [],
+            allSongs: allSongs,
+            isPublished: true,
+            artifacts: artifacts
+        });
+        currentCloudSongbook = res;
+        updateCollaboratorsUI();
+        updatePublishStep('stepCloudSave', 'success', 'Zapisano w chmurze');
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const branch = urlParams.get('branch') || 'main';
+        const songbookTitle = data.title || 'spiewnik';
+        const dateStr = new Date().toISOString().split('T')[0];
+
+        // Step 2: Render PDF A5
+        updatePublishStep('stepPdfA5', 'running', 'Kompilacja LaTeX...');
+        let pdfA5Promise = renderArtifactCloudRun({
+            yaml_content: data.yaml,
+            branch: branch,
+            papersize: 'a5'
+        }, '/api/render/songbook_yaml').then(({ url }) => {
+            const filename = encodeURIComponent(`${songbookTitle}_A5_${dateStr}.pdf`);
+            const finalUrl = `${url}?filename=${filename}&disposition=inline`;
+            artifacts.pdf_a5 = finalUrl;
+            updatePublishStep('stepPdfA5', 'success', 'Gotowy');
+            return finalUrl;
+        }).catch(err => {
+            console.warn("Błąd PDF A5:", err);
+            updatePublishStep('stepPdfA5', 'error', 'Błąd: ' + (err.message || 'Nieudana kompilacja'));
+            return null;
+        });
+
+        // Step 3: Render PDF A4
+        updatePublishStep('stepPdfA4', 'running', 'Kompilacja LaTeX...');
+        let pdfA4Promise = renderArtifactCloudRun({
+            yaml_content: data.yaml,
+            branch: branch,
+            papersize: 'a4'
+        }, '/api/render/songbook_yaml').then(({ url }) => {
+            const filename = encodeURIComponent(`${songbookTitle}_A4_${dateStr}.pdf`);
+            const finalUrl = `${url}?filename=${filename}&disposition=inline`;
+            artifacts.pdf_a4 = finalUrl;
+            updatePublishStep('stepPdfA4', 'success', 'Gotowy');
+            return finalUrl;
+        }).catch(err => {
+            console.warn("Błąd PDF A4:", err);
+            updatePublishStep('stepPdfA4', 'error', 'Błąd: ' + (err.message || 'Nieudana kompilacja'));
+            return null;
+        });
+
+        // Step 4: Render EPUB
+        updatePublishStep('stepEpub', 'running', 'Generowanie e-booka...');
+        let epubPromise = renderArtifactCloudRun({
+            yaml_content: data.yaml,
+            branch: branch
+        }, '/api/render/songbook_epub').then(({ url }) => {
+            const filename = encodeURIComponent(`${songbookTitle}_${dateStr}.epub`);
+            const finalUrl = `${url}?filename=${filename}&disposition=attachment`;
+            artifacts.epub = finalUrl;
+            updatePublishStep('stepEpub', 'success', 'Gotowy');
+            return finalUrl;
+        }).catch(err => {
+            console.warn("Błąd EPUB:", err);
+            updatePublishStep('stepEpub', 'error', 'Niedostępne');
+            return null;
+        });
+
+        // Wait for all 3 formats to complete
+        await Promise.allSettled([pdfA5Promise, pdfA4Promise, epubPromise]);
+
+        // Save generated artifacts to Firestore
+        await window.FirebaseSongbook.updateSongbookArtifacts(data.id, artifacts, true);
+        currentCloudSongbook.artifacts = artifacts;
+        currentCloudSongbook.isPublished = true;
+
+        // Render download badges in modal
+        const badgesArea = document.getElementById('publishBadgesArea');
+        if (badgesArea) {
+            badgesArea.innerHTML = '';
+            if (artifacts.epub) {
+                badgesArea.innerHTML += `
+                    <a href="${artifacts.epub}" class="badge-download badge-epub" target="_blank" rel="noopener">
+                        <span class="material-symbols-outlined">tablet_android</span> EPUB
+                    </a>`;
+            }
+            if (artifacts.pdf_a5) {
+                badgesArea.innerHTML += `
+                    <a href="${artifacts.pdf_a5}" class="badge-download badge-pdf-a5" target="_blank" rel="noopener">
+                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                    </a>`;
+            }
+            if (artifacts.pdf_a4) {
+                badgesArea.innerHTML += `
+                    <a href="${artifacts.pdf_a4}" class="badge-download badge-pdf-a4" target="_blank" rel="noopener">
+                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                    </a>`;
+            }
+        }
+
+        const resultLinks = document.getElementById('publishResultLinks');
+        if (resultLinks) resultLinks.style.display = 'block';
+        const catalogBtn = document.getElementById('btnPublishViewInCatalog');
+        if (catalogBtn) catalogBtn.style.display = 'inline-flex';
+
+        if (badge) {
+            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            badge.textContent = `✓ Opublikowano (${timeStr})`;
+        }
+
+        if (history.replaceState) {
+            history.replaceState(null, '', `#songbook=${encodeURIComponent(data.id)}`);
+        }
+    } catch (e) {
+        console.error("Błąd publikacji:", e);
+        alert(e.message || "Błąd podczas publikacji śpiewnika.");
+        if (badge) badge.textContent = "Błąd publikacji";
+    } finally {
+        if (btnDraft) btnDraft.disabled = false;
+        if (btnPublish) btnPublish.disabled = false;
     }
 }
 
@@ -1293,7 +1487,12 @@ function initAuthUI() {
 }
 
 // Expose handlers to window for onclick attributes
-window.saveToCloud = saveToCloud;
+window.saveDraftCloud = saveDraftCloud;
+window.saveAndPublishCloud = saveAndPublishCloud;
+window.openPublishModal = openPublishModal;
+window.closePublishModal = closePublishModal;
+window.saveToCloud = saveDraftCloud; // backward compatibility
+window.renderPDF = renderPDF;
 window.startNewSongbook = startNewSongbook;
 window.openMySongbooksModal = openMySongbooksModal;
 window.closeMySongbooksModal = closeMySongbooksModal;
@@ -1308,6 +1507,7 @@ window.handleAddCollaborator = handleAddCollaborator;
 window.handleRemoveCollaborator = handleRemoveCollaborator;
 window.handleLoginCloud = handleLoginCloud;
 window.handleLogoutCloud = handleLogoutCloud;
+
 
 
 async function renderPDF() {

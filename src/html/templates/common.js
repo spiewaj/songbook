@@ -83,9 +83,11 @@ function escapeHtml(text) {
             returnLinks.forEach(link => {
                 const rawHref = link.getAttribute('href');
                 if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref.includes('#songbook=')) {
-                    const cleanBase = rawHref.split('#')[0].split('?')[0];
-                    link.setAttribute('href', `${cleanBase}#songbook=${encodeURIComponent(sbId)}`);
-                    link.innerHTML = '<span class="material-symbols-outlined">arrow_back</span> Powrót do śpiewnika';
+                    if (link.classList.contains('nav-return') || link.textContent.includes('Powrót')) {
+                        const cleanBase = rawHref.split('#')[0].split('?')[0];
+                        link.setAttribute('href', `${cleanBase}#songbook=${encodeURIComponent(sbId)}`);
+                        link.innerHTML = '<span class="material-symbols-outlined">arrow_back</span> Powrót do śpiewnika';
+                    }
                 }
             });
         }

@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="top-nav-bar">
-        <a href="index.html">[Powrót do piosenek]</a>
-        <a href="songbooks.html">[Śpiewniki]</a>
-        <a href="o-nas.html">[O nas]</a>
-        <a href="podrukowane.html">[Druk śpiewnika]</a>
-        <a href="kindle.html">[Na Kindle]</a>
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 4px;"><span class="material-symbols-outlined" style="font-size: 1.1rem;">queue_music</span> Wszystkie piosenki</a>
+        <a href="songbooks.html" style="display: inline-flex; align-items: center; gap: 4px;"><span class="material-symbols-outlined" style="font-size: 1.1rem;">menu_book</span> Śpiewniki</a>
+        <a href="o-nas.html" style="display: inline-flex; align-items: center; gap: 4px;"><span class="material-symbols-outlined" style="font-size: 1.1rem;">info</span> O nas</a>
+        <a href="podrukowane.html" style="display: inline-flex; align-items: center; gap: 4px;"><span class="material-symbols-outlined" style="font-size: 1.1rem;">print</span> Druk śpiewnika</a>
+        <a href="kindle.html" style="display: inline-flex; align-items: center; gap: 4px;"><span class="material-symbols-outlined" style="font-size: 1.1rem;">tablet_android</span> Na Kindle</a>
     </div>
     <div class="container">
         <header>
@@ -44,9 +44,13 @@
             
             <div class="header-actions">
                 <div class="action-group-cloud">
-                    <button class="btn btn-success" id="btnSaveCloud" onclick="saveToCloud()">
-                        <span class="material-symbols-outlined">cloud_upload</span>
-                        Zapisz w chmurze
+                    <button class="btn btn-secondary" id="btnSaveDraft" onclick="saveDraftCloud()" title="Zapisz zmiany jako szkic w chmurze (bez renderowania PDF/EPUB)">
+                        <span class="material-symbols-outlined">save</span>
+                        Zapisz szkic
+                    </button>
+                    <button class="btn btn-success" id="btnSavePublish" onclick="saveAndPublishCloud()" title="Zapisz zmiany w chmurze i wygeneruj pliki PDF A5, PDF A4 oraz EPUB">
+                        <span class="material-symbols-outlined">publish</span>
+                        Zapisz i opublikuj
                     </button>
                     <button class="btn btn-secondary" id="btnOpenMySongbooks" onclick="openMySongbooksModal()">
                         <span class="material-symbols-outlined">folder_open</span>
@@ -278,6 +282,51 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" onclick="closeShareModal()">Zamknij</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Publikacja Śpiewnika (Generowanie PDF i EPUB) -->
+    <div id="modalPublish" class="modal-overlay" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3>🚀 Publikacja śpiewnika w społeczności</h3>
+                <button class="modal-close-btn" onclick="closePublishModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="publishModalBody">
+                <p id="publishModalLead" style="margin-top: 0; color: #495057;">Trwa zapisywanie oraz generowanie wydań śpiewnika do pobrania:</p>
+                
+                <div class="publish-steps-list">
+                    <div class="publish-step" id="stepCloudSave">
+                        <span class="material-symbols-outlined step-icon">sync</span>
+                        <span class="step-text">Zapis w bazie danych</span>
+                        <span class="step-status">Oczekiwanie...</span>
+                    </div>
+                    <div class="publish-step" id="stepPdfA5">
+                        <span class="material-symbols-outlined step-icon">sync</span>
+                        <span class="step-text">Generowanie PDF A5 (poręczny format do śpiewania)</span>
+                        <span class="step-status">Oczekiwanie...</span>
+                    </div>
+                    <div class="publish-step" id="stepPdfA4">
+                        <span class="material-symbols-outlined step-icon">sync</span>
+                        <span class="step-text">Generowanie PDF A4 (format standardowy)</span>
+                        <span class="step-status">Oczekiwanie...</span>
+                    </div>
+                    <div class="publish-step" id="stepEpub">
+                        <span class="material-symbols-outlined step-icon">sync</span>
+                        <span class="step-text">Generowanie EPUB (Kindle i czytniki e-book)</span>
+                        <span class="step-status">Oczekiwanie...</span>
+                    </div>
+                </div>
+
+                <div id="publishResultLinks" style="display: none; margin-top: 15px; padding: 12px 14px; background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 6px;">
+                    <strong>Pliki do pobrania:</strong>
+                    <div id="publishBadgesArea" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px;"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btnPublishClose" onclick="closePublishModal()">Zamknij</button>
+                <a id="btnPublishViewInCatalog" href="songbooks.html" target="_blank" class="btn btn-primary" style="display: none; text-decoration: none;">Zobacz w katalogu śpiewników</a>
             </div>
         </div>
     </div>
