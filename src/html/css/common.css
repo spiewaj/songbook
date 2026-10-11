@@ -50,18 +50,18 @@ a:hover {
 /* --- Top Navigation --- */
 div.top-navigation, div.bottom-navigation {
     background-color: #ffffff;
-    padding: 1em;
+    padding: 0.8em 1.2em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping on small screens */
-    gap: 1em;
+    flex-wrap: wrap; /* Allow wrapping naturally on all screens */
+    gap: 0.6em 1.2em;
     align-items: center;
-    justify-content: space-between; /* Spread items apart */
 }
 
 div.top-navigation a, div.bottom-navigation a {
     font-weight: 500;
+    white-space: nowrap; /* Prevent words in links from wrapping awkwardly */
 }
 
 /* Group PDF links together on the right */
