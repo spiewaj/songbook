@@ -381,6 +381,35 @@ export const FirebaseSongbook = {
     },
 
     /**
+     * Update public visibility and publication state of a songbook.
+     * @param {string} id - Songbook ID
+     * @param {boolean} isPublic - true for public, false for private
+     * @param {boolean|null} isPublished - optional explicit isPublished value
+     */
+    async setSongbookVisibility(id, isPublic, isPublished = null) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby zmienić widoczność śpiewnika.");
+        }
+        if (!id) {
+            throw new Error("Brak identyfikatora śpiewnika.");
+        }
+        const songbookRef = doc(db, "songbooks", id);
+        const updateData = {
+            isPublic: !!isPublic,
+            updatedAt: serverTimestamp()
+        };
+        if (isPublished !== null) {
+            updateData.isPublished = !!isPublished;
+        } else if (!isPublic) {
+            // Unpublishing also clears isPublished flag
+            updateData.isPublished = false;
+        }
+        await setDoc(songbookRef, updateData, { merge: true });
+        return updateData;
+    },
+
+    /**
      * Delete a songbook by ID.
      */
     async deleteSongbook(id) {

@@ -271,6 +271,9 @@ function renderSelectedSongs() {
     const allIncludedSongs = getAllIncludedSongs();
     
     selectedCount.textContent = allIncludedSongs.size;
+    if (typeof updateFinishSummary === 'function') {
+        updateFinishSummary();
+    }
     
     if (allIncludedSongs.size === 0 && dynamicFilters.length === 0) {
         container.innerHTML = '<div class="empty-state">Nie wybrano jeszcze żadnych piosenek</div>';
@@ -670,9 +673,9 @@ function loadFromYAMLString(content, cloudDoc = null) {
     }
     
     currentCloudSongbook = cloudDoc;
-    updateCollaboratorsUI();
-    
     userEditedId = !!(sb.id || cloudDoc?.id); // Prevents auto-generation of ID
+    updateCloudStatusUI();
+    updateCollaboratorsUI();
     
     // Clear current selections
     selectedSongIds.clear();
@@ -787,8 +790,7 @@ async function handleLogoutCloud() {
         await window.FirebaseSongbook.logout();
         currentCloudSongbook = null;
         updateCollaboratorsUI();
-        const badge = document.getElementById('cloudStatusBadge');
-        if (badge) badge.textContent = '';
+        setCloudStatusText('');
     } catch (e) {
         console.error("Logout failed:", e);
     }
@@ -817,13 +819,20 @@ async function ensureAuthenticated() {
 }
 
 function getSongbookFormData() {
-    const songbookId = document.getElementById('songbookId').value.trim();
+    let songbookId = document.getElementById('songbookId').value.trim();
     const songbookTitle = document.getElementById('songbookTitle').value.trim();
     if (!songbookTitle) {
         alert("Podaj tytuł śpiewnika przed zapisaniem.");
         document.getElementById('songbookTitle').focus();
         return null;
     }
+
+    // When modifying an existing cloud songbook, ensure its ID remains fixed
+    if (currentCloudSongbook && currentCloudSongbook.id) {
+        songbookId = currentCloudSongbook.id;
+        document.getElementById('songbookId').value = songbookId;
+    }
+
     if (!songbookId) {
         alert("Podaj ID śpiewnika przed zapisaniem.");
         document.getElementById('songbookId').focus();
@@ -846,9 +855,58 @@ function getSongbookFormData() {
     };
 }
 
-async function saveDraftCloud() {
+function setCloudStatusText(text) {
     const badge = document.getElementById('cloudStatusBadge');
+    if (badge) badge.textContent = text || '';
+    const finishBadge = document.getElementById('finishStatusBadge');
+    if (finishBadge) finishBadge.textContent = text || '';
+}
+
+function updateFinishSummary() {
+    const titleEl = document.getElementById('songbookTitle');
+    const finishTitle = document.getElementById('finishSummaryTitle');
+    if (finishTitle && titleEl) {
+        const titleVal = titleEl.value.trim();
+        finishTitle.textContent = titleVal || 'Bez tytułu';
+    }
+
+    const finishCount = document.getElementById('finishSummaryCount');
+    if (finishCount) {
+        const count = typeof getAllIncludedSongs === 'function' ? getAllIncludedSongs().size : 0;
+        let suffix = 'piosenek';
+        if (count === 1) {
+            suffix = 'piosenka';
+        } else if (count % 10 >= 2 && count % 10 <= 4 && (count % 100 < 10 || count % 100 >= 20)) {
+            suffix = 'piosenki';
+        }
+        finishCount.textContent = `${count} ${suffix}`;
+    }
+
+    const finishVis = document.getElementById('finishSummaryVisibility');
+    const isPublicEl = document.getElementById('songbookIsPublic');
+    if (finishVis) {
+        const isPub = isPublicEl ? isPublicEl.checked : true;
+        finishVis.textContent = isPub ? 'Publiczny w katalogu' : 'Prywatny (szkic)';
+        finishVis.className = isPub ? 'badge-public' : 'badge-private';
+    }
+
+    const finishIdContainer = document.getElementById('finishSummaryIdContainer');
+    const finishId = document.getElementById('finishSummaryId');
+    const songbookIdEl = document.getElementById('songbookId');
+    const activeId = currentCloudSongbook?.id || (songbookIdEl ? songbookIdEl.value.trim() : '');
+    if (finishIdContainer && finishId) {
+        if (activeId) {
+            finishId.textContent = activeId;
+            finishIdContainer.style.display = 'inline-flex';
+        } else {
+            finishIdContainer.style.display = 'none';
+        }
+    }
+}
+
+async function saveDraftCloud() {
     const btnDraft = document.getElementById('btnSaveDraft');
+    const btnDraftHeader = document.getElementById('btnSaveDraftHeader');
     const btnPublish = document.getElementById('btnSavePublish');
 
     try {
@@ -857,8 +915,9 @@ async function saveDraftCloud() {
         if (!data) return;
 
         if (btnDraft) btnDraft.disabled = true;
+        if (btnDraftHeader) btnDraftHeader.disabled = true;
         if (btnPublish) btnPublish.disabled = true;
-        if (badge) badge.textContent = "Zapisywanie szkicu...";
+        setCloudStatusText("Zapisywanie szkicu...");
 
         const res = await window.FirebaseSongbook.saveSongbook({
             ...data,
@@ -869,12 +928,12 @@ async function saveDraftCloud() {
         });
 
         currentCloudSongbook = res;
+        userEditedId = true;
+        updateCloudStatusUI();
         updateCollaboratorsUI();
 
-        if (badge) {
-            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            badge.textContent = `✓ Zapisano szkic (${timeStr})`;
-        }
+        const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        setCloudStatusText(`✓ Zapisano szkic (${timeStr})`);
 
         if (history.replaceState) {
             history.replaceState(null, '', `#songbook=${encodeURIComponent(data.id)}`);
@@ -882,9 +941,10 @@ async function saveDraftCloud() {
     } catch (e) {
         console.error("Błąd zapisu szkicu:", e);
         alert(e.message || "Błąd zapisu w chmurze.");
-        if (badge) badge.textContent = "Błąd zapisu";
+        setCloudStatusText("Błąd zapisu");
     } finally {
         if (btnDraft) btnDraft.disabled = false;
+        if (btnDraftHeader) btnDraftHeader.disabled = false;
         if (btnPublish) btnPublish.disabled = false;
     }
 }
@@ -926,8 +986,8 @@ function closePublishModal() {
 }
 
 async function saveAndPublishCloud() {
-    const badge = document.getElementById('cloudStatusBadge');
     const btnDraft = document.getElementById('btnSaveDraft');
+    const btnDraftHeader = document.getElementById('btnSaveDraftHeader');
     const btnPublish = document.getElementById('btnSavePublish');
 
     try {
@@ -937,6 +997,7 @@ async function saveAndPublishCloud() {
 
         openPublishModal();
         if (btnDraft) btnDraft.disabled = true;
+        if (btnDraftHeader) btnDraftHeader.disabled = true;
         if (btnPublish) btnPublish.disabled = true;
 
         // Step 1: Save metadata to cloud with isPublished: true
@@ -949,6 +1010,8 @@ async function saveAndPublishCloud() {
             artifacts: artifacts
         });
         currentCloudSongbook = res;
+        userEditedId = true;
+        updateCloudStatusUI();
         updateCollaboratorsUI();
         updatePublishStep('stepCloudSave', 'success', 'Zapisano w chmurze');
 
@@ -1056,10 +1119,8 @@ async function saveAndPublishCloud() {
         const catalogBtn = document.getElementById('btnPublishViewInCatalog');
         if (catalogBtn) catalogBtn.style.display = 'inline-flex';
 
-        if (badge) {
-            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            badge.textContent = `✓ Opublikowano (${timeStr})`;
-        }
+        const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        setCloudStatusText(`✓ Opublikowano (${timeStr})`);
 
         if (history.replaceState) {
             history.replaceState(null, '', `#songbook=${encodeURIComponent(data.id)}`);
@@ -1067,17 +1128,74 @@ async function saveAndPublishCloud() {
     } catch (e) {
         console.error("Błąd publikacji:", e);
         alert(e.message || "Błąd podczas publikacji śpiewnika.");
-        if (badge) badge.textContent = "Błąd publikacji";
+        setCloudStatusText("Błąd publikacji");
     } finally {
         if (btnDraft) btnDraft.disabled = false;
+        if (btnDraftHeader) btnDraftHeader.disabled = false;
         if (btnPublish) btnPublish.disabled = false;
     }
 }
 
-function startNewSongbook() {
-    if (confirm("Czy na pewno chcesz rozpocząć nowy śpiewnik? Niezapisane zmiany zostaną utracone.")) {
+function updateCloudStatusUI() {
+    const banner = document.getElementById('cloudSongbookBanner');
+    const badgeVis = document.getElementById('cloudSongbookVisibilityBadge');
+    const idText = document.getElementById('cloudSongbookIdText');
+    const btnToggleText = document.getElementById('btnToggleVisibilityText');
+    const btnToggle = document.getElementById('btnToggleVisibility');
+    const btnDup = document.getElementById('btnDuplicateSongbook');
+    const idEl = document.getElementById('songbookId');
+    const help = document.getElementById('songbookIdHelp');
+
+    if (currentCloudSongbook && currentCloudSongbook.id) {
+        if (idEl) {
+            idEl.value = currentCloudSongbook.id;
+            idEl.readOnly = true;
+            idEl.style.backgroundColor = '#f1f3f5';
+            idEl.style.cursor = 'not-allowed';
+        }
+        if (help) {
+            help.textContent = 'ID jest unikalnym i stałym identyfikatorem śpiewnika w chmurze (nie zmienia się po edycji tytułu).';
+        }
+        if (btnDup) btnDup.style.display = 'inline-flex';
+
+        const isPub = currentCloudSongbook.isPublic !== false;
+        if (banner) banner.style.display = 'flex';
+        if (badgeVis) {
+            badgeVis.textContent = isPub ? 'Publiczny w katalogu' : 'Prywatny (szkic)';
+            badgeVis.className = isPub ? 'badge-public' : 'badge-private';
+        }
+        if (idText) {
+            idText.innerHTML = `ID: <code>${escapeHTML(currentCloudSongbook.id)}</code>`;
+        }
+        if (btnToggleText) {
+            btnToggleText.textContent = isPub ? 'Cofnij publikację (zrób prywatny)' : 'Opublikuj w katalogu';
+        }
+        if (btnToggle) {
+            const icon = btnToggle.querySelector('.material-symbols-outlined');
+            if (icon) icon.textContent = isPub ? 'visibility_off' : 'public';
+        }
+    } else {
+        if (idEl) {
+            idEl.readOnly = false;
+            idEl.style.backgroundColor = '';
+            idEl.style.cursor = '';
+        }
+        if (help) help.textContent = '';
+        if (btnDup) btnDup.style.display = 'none';
+        if (banner) banner.style.display = 'none';
+    }
+
+    updateFinishSummary();
+}
+
+function startNewSongbook(force = false) {
+    if (force || confirm("Czy na pewno chcesz rozpocząć nowy śpiewnik? Niezapisane zmiany zostaną utracone.")) {
         document.getElementById('songbookTitle').value = '';
-        document.getElementById('songbookId').value = '';
+        const idEl = document.getElementById('songbookId');
+        idEl.value = '';
+        idEl.readOnly = false;
+        idEl.style.backgroundColor = '';
+        idEl.style.cursor = '';
         document.getElementById('songbookSubtitle').value = '';
         document.getElementById('songbookPublisher').value = '';
         document.getElementById('songbookPlace').value = '';
@@ -1086,15 +1204,112 @@ function startNewSongbook() {
         }
         userEditedId = false;
         currentCloudSongbook = null;
+        updateCloudStatusUI();
         updateCollaboratorsUI();
         clearSelection();
-        const badge = document.getElementById('cloudStatusBadge');
-        if (badge) badge.textContent = '';
+        setCloudStatusText('');
         const paperSizeSelect = document.getElementById('paperSize');
         if (paperSizeSelect) paperSizeSelect.value = 'a5';
         if (history.replaceState) {
             history.replaceState(null, '', window.location.pathname);
         }
+    }
+}
+
+function duplicateAsNewSongbook() {
+    if (!currentCloudSongbook) return;
+    const oldTitle = document.getElementById('songbookTitle').value.trim();
+    const oldId = document.getElementById('songbookId').value.trim();
+
+    currentCloudSongbook = null;
+    userEditedId = false;
+
+    const newId = (oldId || 'spiewnik') + '_kopia';
+    const newTitle = (oldTitle || 'Śpiewnik') + ' (Kopia)';
+
+    document.getElementById('songbookTitle').value = newTitle;
+    const idEl = document.getElementById('songbookId');
+    idEl.value = newId;
+    idEl.readOnly = false;
+    idEl.style.backgroundColor = '';
+    idEl.style.cursor = '';
+
+    updateCloudStatusUI();
+
+    const help = document.getElementById('songbookIdHelp');
+    if (help) help.textContent = 'Tworzenie niezależnego nowego śpiewnika jako kopia. Dostosuj tytuł/ID i kliknij "Zapisz szkic".';
+
+    setCloudStatusText('Przygotowano kopię do zapisu jako nowy śpiewnik');
+
+    if (history.replaceState) {
+        history.replaceState(null, '', window.location.pathname);
+    }
+}
+
+async function deleteCurrentSongbook() {
+    if (!currentCloudSongbook || !currentCloudSongbook.id) return;
+    const id = currentCloudSongbook.id;
+    const title = currentCloudSongbook.title || id;
+    if (!confirm(`Czy na pewno chcesz bezpowrotnie usunąć śpiewnik "${title}" (ID: ${id}) z chmury? Ta operacja jest nieodwracalna.`)) {
+        return;
+    }
+
+    try {
+        await window.FirebaseSongbook.deleteSongbook(id);
+        alert(`Śpiewnik "${title}" został usunięty.`);
+        startNewSongbook(true);
+    } catch (e) {
+        console.error("Błąd usuwania śpiewnika:", e);
+        alert("Błąd podczas usuwania śpiewnika: " + (e.message || e));
+    }
+}
+
+async function toggleCurrentSongbookVisibility() {
+    if (!currentCloudSongbook || !currentCloudSongbook.id) return;
+    const id = currentCloudSongbook.id;
+    const makePublic = !(currentCloudSongbook.isPublic !== false);
+
+    const confirmMsg = makePublic
+        ? `Czy chcesz opublikować śpiewnik "${currentCloudSongbook.title || id}" w publicznym katalogu?`
+        : `Czy chcesz wycofać śpiewnik "${currentCloudSongbook.title || id}" z publicznego katalogu i oznaczyć go jako prywatny? Będzie on nadal dostępny w sekcji "Moje śpiewniki".`;
+
+    if (!confirm(confirmMsg)) return;
+
+    try {
+        await window.FirebaseSongbook.setSongbookVisibility(id, makePublic);
+        currentCloudSongbook.isPublic = makePublic;
+        currentCloudSongbook.isPublished = makePublic;
+
+        const isPubCheckbox = document.getElementById('songbookIsPublic');
+        if (isPubCheckbox) isPubCheckbox.checked = makePublic;
+
+        updateCloudStatusUI();
+        setCloudStatusText(makePublic ? '✓ Opublikowano w katalogu' : '✓ Oznaczono jako prywatny');
+    } catch (e) {
+        console.error("Błąd zmiany widoczności:", e);
+        alert("Błąd zmiany widoczności: " + (e.message || e));
+    }
+}
+
+async function toggleCloudSongbookVisibility(id, makePublic) {
+    const confirmMsg = makePublic
+        ? `Czy chcesz udostępnić ten śpiewnik w publicznym katalogu?`
+        : `Czy chcesz wycofać ten śpiewnik z publicznego katalogu i oznaczyć go jako prywatny?`;
+    if (!confirm(confirmMsg)) return;
+
+    try {
+        await window.FirebaseSongbook.setSongbookVisibility(id, makePublic);
+        if (currentCloudSongbook && currentCloudSongbook.id === id) {
+            currentCloudSongbook.isPublic = makePublic;
+            currentCloudSongbook.isPublished = makePublic;
+            const isPubCheckbox = document.getElementById('songbookIsPublic');
+            if (isPubCheckbox) isPubCheckbox.checked = makePublic;
+            updateCloudStatusUI();
+        }
+        await openMySongbooksModal();
+    } catch (e) {
+        console.error("Błąd zmiany widoczności:", e);
+        alert("Błąd podczas zmiany widoczności: " + (e.message || e));
     }
 }
 
@@ -1130,7 +1345,7 @@ async function openMySongbooksModal() {
             container.innerHTML = `
                 <div class="empty-state" style="text-align: center; padding: 30px;">
                     <p style="font-size: 1.1em; color: #555;">Nie masz jeszcze zapisanych śpiewników w chmurze.</p>
-                    <p style="font-size: 0.9em; color: #888;">Stwórz swój śpiewnik i kliknij <strong>"Zapisz w chmurze"</strong>.</p>
+                    <p style="font-size: 0.9em; color: #888;">Stwórz swój śpiewnik i kliknij <strong>"Zapisz szkic"</strong> lub <strong>"Zapisz i opublikuj"</strong>.</p>
                 </div>
             `;
             return;
@@ -1158,7 +1373,18 @@ async function openMySongbooksModal() {
                     <div class="songbook-card-actions">
                         <a class="btn btn-sm btn-secondary" href="index.html#songbook=${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
                         <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Edytuj</button>
-                        <button class="btn btn-sm btn-outline" style="color: #c82333;" onclick="deleteCloudSongbookById('${escapeHTML(sb.id)}')">Usuń</button>
+                        ${isPub ? `
+                            <button class="btn btn-sm btn-outline" onclick="toggleCloudSongbookVisibility('${escapeHTML(sb.id)}', false)" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
+                                <span class="material-symbols-outlined" style="font-size: 14px; vertical-align: middle;">visibility_off</span> Ukryj
+                            </button>
+                        ` : `
+                            <button class="btn btn-sm btn-outline" style="color: #2e7d32; border-color: #2e7d32;" onclick="toggleCloudSongbookVisibility('${escapeHTML(sb.id)}', true)" title="Udostępnij w publicznym katalogu">
+                                <span class="material-symbols-outlined" style="font-size: 14px; vertical-align: middle;">public</span> Opublikuj
+                            </button>
+                        `}
+                        <button class="btn btn-sm btn-outline btn-danger-soft" onclick="deleteCloudSongbookById('${escapeHTML(sb.id)}')" title="Trwale usuń z chmury">
+                            <span class="material-symbols-outlined" style="font-size: 14px; vertical-align: middle;">delete</span> Usuń
+                        </button>
                     </div>
                 </div>
             `;
@@ -1176,8 +1402,7 @@ function closeMySongbooksModal() {
 
 async function loadCloudSongbookById(id) {
     closeMySongbooksModal();
-    const badge = document.getElementById('cloudStatusBadge');
-    if (badge) badge.textContent = "Wczytywanie...";
+    setCloudStatusText("Wczytywanie...");
     try {
         if (songsLoadedPromise) await songsLoadedPromise;
         const doc = await window.FirebaseSongbook.fetchSongbook(id);
@@ -1186,7 +1411,7 @@ async function loadCloudSongbookById(id) {
             return;
         }
         loadFromYAMLString(doc.yaml, doc);
-        if (badge) badge.textContent = `Wczytano: ${doc.title}`;
+        setCloudStatusText(`Wczytano: ${doc.title}`);
         if (history.replaceState) {
             history.replaceState(null, '', `#songbook=${encodeURIComponent(doc.id)}`);
         }
@@ -1196,16 +1421,16 @@ async function loadCloudSongbookById(id) {
 }
 
 async function deleteCloudSongbookById(id) {
-    if (!confirm(`Czy na pewno chcesz trwale usunąć śpiewnik "${id}" z chmury?`)) return;
+    if (!confirm(`Czy na pewno chcesz trwale usunąć śpiewnik "${id}" z chmury? Ta operacja jest nieodwracalna.`)) return;
     try {
         await window.FirebaseSongbook.deleteSongbook(id);
         if (currentCloudSongbook && currentCloudSongbook.id === id) {
-            currentCloudSongbook = null;
-            updateCollaboratorsUI();
+            startNewSongbook(true);
         }
-        openMySongbooksModal();
+        await openMySongbooksModal();
     } catch (e) {
-        alert("Błąd usuwania: " + e.message);
+        console.error("Błąd usuwania:", e);
+        alert("Błąd usuwania: " + (e.message || e));
     }
 }
 
@@ -1449,8 +1674,7 @@ async function checkForUrlSongbook() {
             const doc = await window.FirebaseSongbook.fetchSongbook(sbId);
             if (doc && doc.yaml) {
                 loadFromYAMLString(doc.yaml, doc);
-                const badge = document.getElementById('cloudStatusBadge');
-                if (badge) badge.textContent = `Wczytano z chmury: ${doc.title}`;
+                setCloudStatusText(`Wczytano z chmury: ${doc.title}`);
             }
         } catch (e) {
             console.warn("Nie udało się załadować śpiewnika z URL:", e);
@@ -1503,6 +1727,11 @@ window.closePublishModal = closePublishModal;
 window.saveToCloud = saveDraftCloud; // backward compatibility
 window.renderPDF = renderPDF;
 window.startNewSongbook = startNewSongbook;
+window.duplicateAsNewSongbook = duplicateAsNewSongbook;
+window.deleteCurrentSongbook = deleteCurrentSongbook;
+window.toggleCurrentSongbookVisibility = toggleCurrentSongbookVisibility;
+window.toggleCloudSongbookVisibility = toggleCloudSongbookVisibility;
+window.updateCloudStatusUI = updateCloudStatusUI;
 window.openMySongbooksModal = openMySongbooksModal;
 window.closeMySongbooksModal = closeMySongbooksModal;
 window.loadCloudSongbookById = loadCloudSongbookById;
@@ -1618,15 +1847,18 @@ function generateIdFromTitle(title) {
 document.getElementById('searchBox').addEventListener('input', renderSongList);
 
 document.getElementById('songbookTitle').addEventListener('input', function() {
-    if (!userEditedId) {
+    // Never auto-generate ID if this is an established cloud songbook or if user edited the ID
+    if (!userEditedId && !currentCloudSongbook) {
         const id = generateIdFromTitle(this.value);
         document.getElementById('songbookId').value = id;
     }
+    updateFinishSummary();
 });
 
 document.getElementById('songbookId').addEventListener('input', function() {
     // If user manually edits the ID, stop auto-generation
     userEditedId = true;
+    updateFinishSummary();
 });
 
 document.getElementById('songbookId').addEventListener('focus', function() {
@@ -1634,9 +1866,17 @@ document.getElementById('songbookId').addEventListener('focus', function() {
     userEditedId = true;
 });
 
+const isPublicCheckbox = document.getElementById('songbookIsPublic');
+if (isPublicCheckbox) {
+    isPublicCheckbox.addEventListener('change', updateFinishSummary);
+}
+
 // Initialize
 const paperSizeSelect = document.getElementById('paperSize');
 if (paperSizeSelect) paperSizeSelect.value = 'a5';
 songsLoadedPromise = loadSongs();
 initAuthUI();
+updateFinishSummary();
 window.addEventListener('hashchange', checkForUrlSongbook);
+
+window.updateFinishSummary = updateFinishSummary;
