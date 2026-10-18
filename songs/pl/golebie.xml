@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gołębie">
+  <composer type="band">Ranko</composer>
+  <artist type="band">Ranko</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Żółw który w wakacje jeździł na Bahamy</row>
+      <row important_over="false"><ch a="G"/>Teraz nie może bo kwarantannę mamy</row>
+      <row important_over="false"><ch a="a"/>Więc zadzwonił do swojego kumpla kurczaka</row>
+      <row important_over="false"><ch a="F"/>Ryszarda i mówi, <ch a="G7"/>słuchaj jaka draka</row>
+      <row important_over="false">Mój <ch a="C"/>znajomy nosorożec zakochał się w żyrafie</row>
+      <row important_over="false"><ch a="G"/>I tak mu było smutno, że się zamknął w szafie</row>
+      <row important_over="false"><ch a="a"/>I głupio wyszło, bo tam mieszkał jeż</row>
+      <row important_over="false"><ch a="F"/>Oburzony kwarantanna jest <ch a="G7"/>no wiesz.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">A <ch a="C"/>gołębie są wszędzie <ch a="G"/>i wszystko mają gdzieś</row>
+      <row important_over="false">Nie <ch a="a"/>obchodzi ich jak bardzo chcesz <ch a="F"/>serniczek <ch a="G7"/>zjeść</row>
+      <row important_over="false">I <ch a="C"/>chociaż nie możesz wyjechać nad morze</row>
+      <row important_over="false"><ch a="G"/>I choć mimo przymrozków tak wiosennie na dworze</row>
+      <row important_over="false"><ch a="a"/>Największy problem codzienny</row>
+      <row important_over="false">To <ch a="F"/>pytanie czy to <ch a="G7"/>wirus czy katar <ch a="C"/>sienny</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Ten żółw z nudów dalej dzwoni po znajomych</row>
+      <row important_over="false"><ch a="G"/>Do dziobaka Stefana i jego pięknej żony</row>
+      <row important_over="false"><ch a="a"/>I powiada słyszeliście może o tym koniu</row>
+      <row important_over="false">Co <ch a="F"/>strasznie się nudził i <ch a="G7"/>nie chciał siedzieć w domu</row>
+      <row important_over="false"><ch a="C"/>Namawiał więc kilka biedronek i wiewiórek</row>
+      <row important_over="false"><ch a="G"/>Żeby przez internet założyli chórek</row>
+      <row important_over="false"><ch a="a"/>A one na to wszystko mówią stary</row>
+      <row important_over="false">Co za <ch a="F"/>pomysł by zwierzęta <ch a="G7"/>śpiewały?</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
