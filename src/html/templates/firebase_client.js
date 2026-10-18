@@ -40,6 +40,10 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 const googleProvider = new GoogleAuthProvider();
 
+export const ADMIN_EMAILS = [
+    'piotr.tabor@gmail.com'
+];
+
 /**
  * Resolves a YAML songbook specification against a catalog of all songs.
  * Returns an ordered array of matching song IDs.
@@ -420,6 +424,78 @@ export const FirebaseSongbook = {
         const songbookRef = doc(db, "songbooks", id);
         await deleteDoc(songbookRef);
         return true;
+    },
+
+    /**
+     * Synchronously check if a user has admin privileges based on email or claims.
+     * @param {Object|null} user - Firebase User object (defaults to auth.currentUser)
+     * @returns {boolean}
+     */
+    isAdmin(user = null) {
+        const u = user || auth.currentUser;
+        if (!u) return false;
+        if (u.email && ADMIN_EMAILS.includes(u.email.toLowerCase())) {
+            return true;
+        }
+        if (u.admin === true) {
+            return true;
+        }
+        return false;
+    },
+
+    /**
+     * Asynchronously check if a user is an admin (including checking /admins/{uid} in Firestore).
+     * @param {Object|null} user - Firebase User object
+     * @returns {Promise<boolean>}
+     */
+    async checkIsAdmin(user = null) {
+        const u = user || auth.currentUser;
+        if (!u) return false;
+        if (this.isAdmin(u)) return true;
+        try {
+            const adminDoc = await getDoc(doc(db, "admins", u.uid));
+            if (adminDoc.exists()) {
+                return true;
+            }
+        } catch (e) {
+            // Ignore permission error if not admin
+        }
+        return false;
+    },
+
+    /**
+     * Toggle promoted/featured status of a songbook (admin only).
+     * @param {string} id - Songbook ID
+     * @param {boolean} isPromoted - true to feature/promote, false to remove promotion
+     */
+    async toggleSongbookPromote(id, isPromoted) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby promować śpiewnik.");
+        }
+        if (!id) {
+            throw new Error("Brak identyfikatora śpiewnika.");
+        }
+        const songbookRef = doc(db, "songbooks", id);
+        const updateData = {
+            isPromoted: !!isPromoted,
+            promotedAt: isPromoted ? serverTimestamp() : null,
+            updatedAt: serverTimestamp()
+        };
+        await setDoc(songbookRef, updateData, { merge: true });
+        return updateData;
+    },
+
+    /**
+     * Fetch all songbooks without public filter (admin only).
+     */
+    async fetchAllSongbooksAdmin() {
+        const q = query(
+            collection(db, "songbooks"),
+            orderBy("updatedAt", "desc")
+        );
+        const snapshot = await getDocs(q);
+        return snapshot.docs.map(doc => doc.data());
     }
 };
 

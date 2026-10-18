@@ -475,6 +475,75 @@
             color: #ffc2c7;
         }
 
+        .sb-badge-promoted {
+            background-color: #fff8e1;
+            color: #b78103 !important;
+            border: 1px solid #ffe082;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        [data-theme="dark"] .sb-badge-promoted {
+            background-color: rgba(255, 179, 0, 0.2);
+            color: #ffd54f !important;
+            border-color: rgba(255, 213, 79, 0.35);
+        }
+
+        .sb-btn-promote {
+            color: #b78103;
+            border-color: #ffe082;
+            background: #fffdf5;
+        }
+
+        .sb-btn-promote:hover {
+            background: #fff8e1;
+            color: #8d6200;
+        }
+
+        .sb-btn-promote.promoted {
+            background: #fff8e1;
+            color: #b78103;
+            font-weight: 600;
+            border-color: #fbc02d;
+        }
+
+        [data-theme="dark"] .sb-btn-promote {
+            color: #ffd54f;
+            border-color: rgba(255, 213, 79, 0.4);
+            background: rgba(255, 179, 0, 0.1);
+        }
+
+        [data-theme="dark"] .sb-btn-promote:hover {
+            background: rgba(255, 179, 0, 0.2);
+        }
+
+        .sb-card.is-promoted {
+            border-color: #ffd54f;
+            box-shadow: 0 4px 15px rgba(255, 179, 0, 0.12);
+        }
+
+        .sb-admin-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: #e8eaf6;
+            color: #283593;
+            border: 1px solid #c5cae9;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        [data-theme="dark"] .sb-admin-indicator {
+            background: rgba(63, 81, 181, 0.25);
+            color: #9fa8da;
+            border-color: rgba(159, 168, 218, 0.35);
+        }
+
         /* Nav user auth */
         .btn-auth-nav {
             display: inline-flex;
@@ -668,6 +737,9 @@
                     <img id="catalogAvatar" class="catalog-avatar" alt="" style="display: none;" />
                     <span id="catalogInitials" class="catalog-initials"></span>
                     <span id="catalogUserName" class="catalog-user-name"></span>
+                    <span id="catalogAdminBadge" class="sb-admin-indicator" style="display: none;" title="Uprawnienia administratora">
+                        <span class="material-symbols-outlined" style="font-size: 13px;">shield</span> Admin
+                    </span>
                     <button onclick="logoutCatalog()" class="btn-logout-nav" title="Wyloguj">Wyloguj</button>
                 </div>
             </div>
@@ -881,6 +953,11 @@
             return false;
         }
 
+        function isCurrentUserAdmin(user) {
+            if (!user || !window.FirebaseSongbook) return false;
+            return window.FirebaseSongbook.isAdmin(user);
+        }
+
         async function initPublicSongbooks() {
             const loading = document.getElementById('loadingIndicator');
             const errorEl = document.getElementById('errorMessage');
@@ -960,6 +1037,12 @@
                 if (btnLogin) btnLogin.style.display = 'none';
                 if (profile) profile.style.display = 'inline-flex';
                 if (nameEl) nameEl.textContent = user.displayName || user.email || 'Zalogowany';
+                
+                const adminBadge = document.getElementById('catalogAdminBadge');
+                if (adminBadge) {
+                    adminBadge.style.display = isCurrentUserAdmin(user) ? 'inline-flex' : 'none';
+                }
+
                 if (user.photoURL && avatar) {
                     avatar.src = user.photoURL;
                     avatar.style.display = 'inline-block';
@@ -972,6 +1055,8 @@
             } else {
                 if (btnLogin) btnLogin.style.display = 'inline-flex';
                 if (profile) profile.style.display = 'none';
+                const adminBadge = document.getElementById('catalogAdminBadge');
+                if (adminBadge) adminBadge.style.display = 'none';
             }
         }
 
@@ -1061,7 +1146,22 @@
             emptyEl.style.display = 'none';
             grid.style.display = 'grid';
 
-            grid.innerHTML = list.map(sb => {
+            const isAdmin = isCurrentUserAdmin(currentUser);
+
+            // In public tab, sort promoted songbooks to the top
+            let displayList = list;
+            if (activeTab === 'public') {
+                displayList = [...list].sort((a, b) => {
+                    const aProm = a.isPromoted ? 1 : 0;
+                    const bProm = b.isPromoted ? 1 : 0;
+                    if (aProm !== bProm) return bProm - aProm;
+                    const aDate = a.updatedAt?.toMillis ? a.updatedAt.toMillis() : (new Date(a.updatedAt || 0).getTime());
+                    const bDate = b.updatedAt?.toMillis ? b.updatedAt.toMillis() : (new Date(b.updatedAt || 0).getTime());
+                    return bDate - aDate;
+                });
+            }
+
+            grid.innerHTML = displayList.map(sb => {
                 const count = sb.songCount || (Array.isArray(sb.resolvedSongIds) ? sb.resolvedSongIds.length : (Array.isArray(sb.songIds) ? sb.songIds.length : 0));
                 
                 // Author displayName if recorded
@@ -1082,9 +1182,11 @@
                 const isPublished = sb.isPublished || hasArtifacts;
                 const isPub = sb.isPublic !== false;
                 const isOwner = isCurrentUserOwner(sb, currentUser);
+                const canManage = isOwner || isAdmin;
+                const isPromoted = !!sb.isPromoted;
 
                 return `
-                    <div class="sb-card">
+                    <div class="sb-card ${isPromoted ? 'is-promoted' : ''}">
                         <div>
                             <div class="sb-card-header">
                                 <span class="material-symbols-outlined sb-card-icon">menu_book</span>
@@ -1099,6 +1201,11 @@
                                     <span class="material-symbols-outlined">queue_music</span>
                                     ${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}
                                 </span>
+                                ${isPromoted ? `
+                                    <span class="sb-meta-item sb-badge-promoted" title="Śpiewnik wyróżniony przez administratora">
+                                        <span class="material-symbols-outlined">star</span> Wyróżniony
+                                    </span>
+                                ` : ''}
                                 ${isPublished ? `
                                     <span class="sb-meta-item sb-badge-published" title="Śpiewnik opublikowany">
                                         <span class="material-symbols-outlined">verified</span> Opublikowany
@@ -1161,7 +1268,7 @@
                                 </a>
                             </div>
 
-                            ${isOwner ? `
+                            ${canManage ? `
                                 <div class="sb-owner-actions">
                                     ${isPub ? `
                                         <button class="sb-btn-owner-action sb-btn-unpublish" onclick="unpublishSongbookCatalog('${escapeHtml(sb.id)}')" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
@@ -1172,7 +1279,13 @@
                                             <span class="material-symbols-outlined">public</span> Opublikuj
                                         </button>
                                     `}
-                                    <button class="sb-btn-owner-action sb-btn-delete" onclick="deleteSongbookCatalog('${escapeHtml(sb.id)}')" title="Trwale usuń ten śpiewnik z chmury">
+                                    ${isAdmin ? `
+                                        <button class="sb-btn-owner-action sb-btn-promote ${isPromoted ? 'promoted' : ''}" onclick="togglePromoteSongbookCatalog('${escapeHtml(sb.id)}', ${!isPromoted})" title="${isPromoted ? 'Usuń wyróżnienie z katalogu' : 'Wyróżnij śpiewnik na początku katalogu'}">
+                                            <span class="material-symbols-outlined">${isPromoted ? 'star' : 'star_border'}</span>
+                                            ${isPromoted ? 'Wyróżniony' : 'Wyróżnij'}
+                                        </button>
+                                    ` : ''}
+                                    <button class="sb-btn-owner-action sb-btn-delete" onclick="deleteSongbookCatalog('${escapeHtml(sb.id)}')" title="${isAdmin && !isOwner ? 'Usuń śpiewnik (jako administrator)' : 'Trwale usuń ten śpiewnik z chmury'}">
                                         <span class="material-symbols-outlined">delete</span> Usuń
                                     </button>
                                 </div>
@@ -1184,7 +1297,11 @@
         }
 
         async function unpublishSongbookCatalog(id) {
-            if (!confirm('Czy na pewno chcesz wycofać ten śpiewnik z publicznego katalogu i oznaczyć go jako prywatny? Będzie on nadal dostępny w zakładce "Moje śpiewniki".')) return;
+            const isAdmin = isCurrentUserAdmin(currentUser);
+            const item = allSongbooks.find(s => s.id === id) || mySongbooks.find(s => s.id === id);
+            const title = (item && item.title) || id;
+            const adminNote = (isAdmin && item && !isCurrentUserOwner(item, currentUser)) ? ' (jako administrator)' : '';
+            if (!confirm(`Czy na pewno chcesz wycofać śpiewnik "${title}" z publicznego katalogu i oznaczyć go jako prywatny${adminNote}? Będzie on nadal dostępny w zakładce "Moje śpiewniki" właściciela.`)) return;
             try {
                 await window.FirebaseSongbook.setSongbookVisibility(id, false);
                 allSongbooks = allSongbooks.filter(sb => sb.id !== id);
@@ -1194,7 +1311,7 @@
                     myItem.isPublished = false;
                 }
                 renderCurrentTab();
-                alert('Śpiewnik został wycofany z publicznego katalogu i oznaczony jako prywatny.');
+                alert(`Śpiewnik "${title}" został wycofany z publicznego katalogu.`);
             } catch (e) {
                 console.error("Błąd wycofywania publikacji:", e);
                 alert("Błąd: " + (e.message || e));
@@ -1202,33 +1319,60 @@
         }
 
         async function publishSongbookCatalog(id) {
-            if (!confirm('Czy chcesz udostępnić ten śpiewnik w publicznym katalogu?')) return;
+            const isAdmin = isCurrentUserAdmin(currentUser);
+            const item = allSongbooks.find(s => s.id === id) || mySongbooks.find(s => s.id === id);
+            const title = (item && item.title) || id;
+            const adminNote = (isAdmin && item && !isCurrentUserOwner(item, currentUser)) ? ' (jako administrator)' : '';
+            if (!confirm(`Czy chcesz opublikować śpiewnik "${title}" w publicznym katalogu${adminNote}?`)) return;
             try {
                 await window.FirebaseSongbook.setSongbookVisibility(id, true);
+                if (item) item.isPublic = true;
                 const myItem = mySongbooks.find(sb => sb.id === id);
                 if (myItem) {
                     myItem.isPublic = true;
-                    if (!allSongbooks.some(s => s.id === id)) {
-                        allSongbooks.unshift(myItem);
-                    }
+                }
+                if (!allSongbooks.some(s => s.id === id) && item) {
+                    allSongbooks.unshift(item);
                 }
                 renderCurrentTab();
-                alert('Śpiewnik został opublikowany w katalogu.');
+                alert(`Śpiewnik "${title}" został opublikowany w katalogu.`);
             } catch (e) {
                 console.error("Błąd publikacji:", e);
                 alert("Błąd: " + (e.message || e));
             }
         }
 
+        async function togglePromoteSongbookCatalog(id, makePromoted) {
+            const item = allSongbooks.find(s => s.id === id) || mySongbooks.find(s => s.id === id);
+            const title = (item && item.title) || id;
+            const actionText = makePromoted ? 'wyróżnić ten śpiewnik na początku katalogu' : 'usunąć wyróżnienie tego śpiewnika';
+            if (!confirm(`Czy na pewno chcesz ${actionText} dla "${title}"?`)) return;
+            try {
+                await window.FirebaseSongbook.toggleSongbookPromote(id, makePromoted);
+                if (item) item.isPromoted = makePromoted;
+                const myItem = mySongbooks.find(sb => sb.id === id);
+                if (myItem) myItem.isPromoted = makePromoted;
+                renderCurrentTab();
+                alert(makePromoted ? `Śpiewnik "${title}" został oznaczony jako wyróżniony.` : `Wyróżnienie śpiewnika "${title}" zostało wycofane.`);
+            } catch (e) {
+                console.error("Błąd zmiany wyróżnienia:", e);
+                alert("Błąd: " + (e.message || e));
+            }
+        }
+
         async function deleteSongbookCatalog(id) {
-            if (!confirm(`Czy na pewno chcesz bezpowrotnie usunąć śpiewnik "${id}" z chmury? Ta operacja jest nieodwracalna.`)) return;
+            const isAdmin = isCurrentUserAdmin(currentUser);
+            const item = allSongbooks.find(s => s.id === id) || mySongbooks.find(s => s.id === id);
+            const title = (item && item.title) || id;
+            const adminNote = (isAdmin && item && !isCurrentUserOwner(item, currentUser)) ? ' (jako administrator)' : '';
+            if (!confirm(`Czy na pewno chcesz bezpowrotnie usunąć śpiewnik "${title}" (ID: ${id}) z chmury${adminNote}? Ta operacja jest nieodwracalna.`)) return;
             try {
                 await window.FirebaseSongbook.deleteSongbook(id);
                 allSongbooks = allSongbooks.filter(sb => sb.id !== id);
                 mySongbooks = mySongbooks.filter(sb => sb.id !== id);
                 updateMySongbooksBadge();
                 renderCurrentTab();
-                alert('Śpiewnik został trwale usunięty.');
+                alert(`Śpiewnik "${title}" został trwale usunięty.`);
             } catch (e) {
                 console.error("Błąd usuwania:", e);
                 alert("Błąd podczas usuwania: " + (e.message || e));
