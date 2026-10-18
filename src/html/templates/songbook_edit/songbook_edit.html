@@ -82,9 +82,14 @@
             <div id="cloudSongbookBanner" class="cloud-songbook-banner" style="display: none;">
                 <div class="cloud-songbook-banner-info">
                     <span id="cloudSongbookVisibilityBadge" class="badge-public">Publiczny</span>
+                    <span id="cloudSongbookPromotedBadge" class="badge-promoted" style="display: none;">★ Wyróżniony</span>
                     <span id="cloudSongbookIdText" class="cloud-songbook-id"></span>
                 </div>
                 <div class="cloud-songbook-banner-actions">
+                    <button class="btn btn-sm btn-outline" id="btnTogglePromote" onclick="toggleCurrentSongbookPromote()" style="display: none;">
+                        <span class="material-symbols-outlined" style="font-size: 15px; vertical-align: middle;">star</span>
+                        <span id="btnTogglePromoteText">Wyróżnij w katalogu</span>
+                    </button>
                     <button class="btn btn-sm btn-outline" id="btnToggleVisibility" onclick="toggleCurrentSongbookVisibility()">
                         <span class="material-symbols-outlined" style="font-size: 15px; vertical-align: middle;">visibility_off</span>
                         <span id="btnToggleVisibilityText">Cofnij publikację (zrób prywatny)</span>
