@@ -59,7 +59,7 @@ jobs:
             FILENAME=$(echo "workspace/${{github.sha}}_${format}.pdf" | sed 's|/|%2F|g' )
             LINK="https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/${FILENAME}"
             echo "link_${format}=${LINK}" >> $GITHUB_ENV
-            curl -v --data-binary  "@/workspace/build/songs_tex/${format}.pdf" "${LINK}" -H 'Content-Type: application/pdf'
+            curl --fail -v --data-binary "@/workspace/build/songs_tex/${format}.pdf" "${LINK}" -H 'Content-Type: application/pdf'
           done
 
       - name: Comment PR proxy
