@@ -30,7 +30,7 @@ async function renderPdfCloudRun(payload, endpoint, onLoading, onSuccess, onErro
                         const finalUrl = statusData.url.startsWith("http")
                             ? statusData.url
                             : `https://songbook-pdf-render-177765940460.europe-west1.run.app${statusData.url}`;
-                        onSuccess(finalUrl, statusData.format || "pdf");
+                        onSuccess(finalUrl, statusData.format || "pdf", statusData.published_url);
                     } else if (statusData.status === "error") {
                         clearInterval(pollInterval);
                         const errorUrl = statusData.url
@@ -57,8 +57,14 @@ function renderArtifactCloudRun(payload, endpoint = "/api/render/songbook_yaml")
             payload,
             endpoint,
             () => {},
-            (url, format) => resolve({ url, format }),
+            (url, format, publishedUrl) => {
+                const finalUrl = publishedUrl
+                    ? (publishedUrl.startsWith("http") ? publishedUrl : `https://songbook-pdf-render-177765940460.europe-west1.run.app${publishedUrl}`)
+                    : url;
+                resolve({ url: finalUrl, rawJobUrl: url, publishedUrl, format });
+            },
             (err, errUrl) => reject(new Error(err))
         );
     });
 }
+

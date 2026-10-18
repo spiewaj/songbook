@@ -44,41 +44,56 @@
             
             <div class="header-actions">
                 <div class="action-group-cloud">
-                    <button class="btn btn-secondary" id="btnSaveDraft" onclick="saveDraftCloud()" title="Zapisz zmiany jako szkic w chmurze (bez renderowania PDF/EPUB)">
-                        <span class="material-symbols-outlined">save</span>
-                        Zapisz szkic
-                    </button>
-                    <button class="btn btn-success" id="btnSavePublish" onclick="saveAndPublishCloud()" title="Zapisz zmiany w chmurze i wygeneruj pliki PDF A5, PDF A4 oraz EPUB">
-                        <span class="material-symbols-outlined">publish</span>
-                        Zapisz i opublikuj
-                    </button>
                     <button class="btn btn-secondary" id="btnOpenMySongbooks" onclick="openMySongbooksModal()">
                         <span class="material-symbols-outlined">folder_open</span>
                         Moje śpiewniki
                     </button>
-                    <button class="btn btn-secondary" id="btnShareSongbook" onclick="openShareModal()">
-                        <span class="material-symbols-outlined">group</span>
-                        Udostępnij
+                    <button class="btn btn-outline" id="btnSaveDraftHeader" onclick="saveDraftCloud()" title="Szybki zapis zmian jako szkic w chmurze">
+                        <span class="material-symbols-outlined">save</span>
+                        Zapisz szkic
                     </button>
-                    <button class="btn btn-secondary" id="btnViewReader" onclick="openReaderPage()" title="Otwórz śpiewnik jako stronę w widoku czytania (spiewaj.com)">
-                        <span class="material-symbols-outlined">menu_book</span>
-                        Przeglądaj stronę
-                    </button>
+                    <a href="#finishSection" class="btn btn-link" style="text-decoration: none; font-size: 0.9rem; color: #2e7d32; display: inline-flex; align-items: center; gap: 4px;">
+                        <span class="material-symbols-outlined" style="font-size: 1.1rem;">arrow_downward</span>
+                        Przejdź do publikacji
+                    </a>
                     <span id="cloudStatusBadge" class="cloud-status-badge"></span>
                 </div>
                 <div class="action-group-file">
                     <button class="btn btn-outline" onclick="document.getElementById('yamlLoadInput').click()">Wczytaj plik (YAML)</button>
                     <input type="file" id="yamlLoadInput" accept=".yaml,.yml,.json" style="display: none;" onchange="loadFromYAMLFile(event)">
-                    <button class="btn btn-outline" onclick="downloadYAMLDirect()">Pobierz plik (YAML)</button>
                 </div>
             </div>
         </header>
         
         <!-- Songbook Description Section -->
         <div class="panel songbook-description">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
                 <h2 style="margin: 0;">Opis Śpiewnika</h2>
-                <button class="btn btn-outline btn-sm" onclick="startNewSongbook()">+ Nowy czysty śpiewnik</button>
+                <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                    <button class="btn btn-outline btn-sm" id="btnDuplicateSongbook" onclick="duplicateAsNewSongbook()" style="display: none;" title="Utwórz nowy śpiewnik na bazie obecnego (jako nową kopię)">
+                        <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle;">content_copy</span>
+                        Zapisz jako kopię
+                    </button>
+                    <button class="btn btn-outline btn-sm" onclick="startNewSongbook()">+ Nowy czysty śpiewnik</button>
+                </div>
+            </div>
+
+            <!-- Active Cloud Songbook Banner (shown when editing an existing cloud songbook) -->
+            <div id="cloudSongbookBanner" class="cloud-songbook-banner" style="display: none;">
+                <div class="cloud-songbook-banner-info">
+                    <span id="cloudSongbookVisibilityBadge" class="badge-public">Publiczny</span>
+                    <span id="cloudSongbookIdText" class="cloud-songbook-id"></span>
+                </div>
+                <div class="cloud-songbook-banner-actions">
+                    <button class="btn btn-sm btn-outline" id="btnToggleVisibility" onclick="toggleCurrentSongbookVisibility()">
+                        <span class="material-symbols-outlined" style="font-size: 15px; vertical-align: middle;">visibility_off</span>
+                        <span id="btnToggleVisibilityText">Cofnij publikację (zrób prywatny)</span>
+                    </button>
+                    <button class="btn btn-sm btn-outline btn-danger-soft" id="btnDeleteCurrent" onclick="deleteCurrentSongbook()" title="Trwale usuń ten śpiewnik z chmury">
+                        <span class="material-symbols-outlined" style="font-size: 15px; vertical-align: middle;">delete</span>
+                        Usuń śpiewnik
+                    </button>
+                </div>
             </div>
             
             <div class="form-group">
@@ -95,6 +110,7 @@
                        placeholder="np. moj_spiewnik"
                        pattern="[a-z0-9_-]+"
                        title="Tylko małe litery, cyfry, podkreślenia i myślniki">
+                <small id="songbookIdHelp" style="display: block; color: #6c757d; font-size: 0.8rem; margin-top: 3px;"></small>
             </div>
             
             <div class="form-group">
@@ -179,25 +195,98 @@
                     <div class="empty-state">Nie wybrano jeszcze żadnych piosenek</div>
                 </div>
                 
-                <div class="action-buttons" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-                    <button class="btn btn-secondary" onclick="clearSelection()">Wyczyść</button>
-                    <select id="paperSize" class="form-control" style="width: auto; display: inline-block;">
-                        <option value="a5" selected>Format A5</option>
-                        <option value="a4">Format A4</option>
-                    </select>
-                    <button class="btn btn-primary" id="btnRenderPdf" onclick="renderPDF()">Generuj Śpiewnik (PDF)</button>
+                <div class="action-buttons" style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
+                    <button class="btn btn-secondary btn-sm" onclick="clearSelection()">Wyczyść zaznaczenie</button>
+                    <a href="#finishSection" class="btn btn-primary btn-sm" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                        <span>Zakończ i Zapisz</span>
+                        <span class="material-symbols-outlined" style="font-size: 16px;">arrow_downward</span>
+                    </a>
                 </div>
-                
+            </div>
+        </div>
+
+        <!-- Section: Zapis i Publikacja (Koniec ścieżki użytkownika) -->
+        <div class="panel finish-panel" id="finishSection">
+            <div class="finish-panel-header">
+                <div>
+                    <h2 class="finish-title">
+                        <span class="material-symbols-outlined finish-icon">task_alt</span>
+                        Zakończ i Zapisz Śpiewnik
+                    </h2>
+                    <p class="finish-subtitle">
+                        Twój śpiewnik jest skomponowany! Wybierz sposób zapisu:
+                    </p>
+                </div>
+                <div id="finishStatusBadge" class="cloud-status-badge"></div>
+            </div>
+
+            <div class="finish-panel-content">
+                <!-- Podsumowanie bieżącego śpiewnika -->
+                <div class="finish-summary-row">
+                    <div class="finish-summary-item">
+                        <span class="finish-summary-label">Tytuł:</span>
+                        <strong id="finishSummaryTitle" class="finish-summary-val">Bez tytułu</strong>
+                    </div>
+                    <div class="finish-summary-item">
+                        <span class="finish-summary-label">Liczba piosenek:</span>
+                        <span class="sb-badge-count" id="finishSummaryCount">0 piosenek</span>
+                    </div>
+                    <div class="finish-summary-item">
+                        <span class="finish-summary-label">Widoczność:</span>
+                        <span id="finishSummaryVisibility" class="badge-public">Publiczny w katalogu</span>
+                    </div>
+                    <div class="finish-summary-item" id="finishSummaryIdContainer" style="display: none;">
+                        <span class="finish-summary-label">ID:</span>
+                        <code id="finishSummaryId"></code>
+                    </div>
+                </div>
+
+                <!-- Główne przyciski akcji na końcu ścieżki -->
+                <div class="finish-actions-row">
+                    <button class="btn btn-success finish-btn-primary" id="btnSavePublish" onclick="saveAndPublishCloud()" title="Zapisz w chmurze i wygeneruj pliki PDF (A5, A4) oraz EPUB na czytniki">
+                        <span class="material-symbols-outlined" style="font-size: 1.3rem;">publish</span>
+                        <span>Zapisz i opublikuj</span>
+                    </button>
+
+                    <button class="btn btn-secondary finish-btn-secondary" id="btnSaveDraft" onclick="saveDraftCloud()" title="Zapisz zmiany w chmurze jako szkic roboczy">
+                        <span class="material-symbols-outlined" style="font-size: 1.3rem;">save</span>
+                        <span>Zapisz szkic</span>
+                    </button>
+
+                    <div class="finish-pdf-group">
+                        <select id="paperSize" class="form-control" style="width: auto;">
+                            <option value="a5" selected>PDF A5</option>
+                            <option value="a4">PDF A4</option>
+                        </select>
+                        <button class="btn btn-outline" id="btnRenderPdf" onclick="renderPDF()" title="Szybka kompilacja testowego pliku PDF">
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">picture_as_pdf</span>
+                            Generuj PDF
+                        </button>
+                    </div>
+
+                    <div class="finish-links-group">
+                        <button class="btn btn-outline" id="btnViewReader" onclick="openReaderPage()" title="Otwórz śpiewnik jako stronę w widoku czytania (spiewaj.com)">
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">menu_book</span>
+                            Przeglądaj stronę
+                        </button>
+                        <button class="btn btn-outline" id="btnShareSongbook" onclick="openShareModal()" title="Udostępnij link lub dodaj współtwórców">
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">group</span>
+                            Udostępnij
+                        </button>
+                    </div>
+                </div>
+
                 <div class="output-area" id="pdfOutputArea" style="display: none; text-align: center; margin-top: 15px;">
                     <p id="pdfStatusText">Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).</p>
                     <a id="pdfDownloadLink" href="#" target="_blank" class="btn btn-primary" style="display: none; width: 100%; box-sizing: border-box; text-align: center; text-decoration: none; padding: 15px; font-size: 1.1em; background-color: #2e7d32;">Gotowe! Kliknij tutaj, aby pobrać i otworzyć PDF</a>
                 </div>
 
-                <details style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px;">
-                    <summary style="cursor: pointer; color: #666; font-size: 0.9em; padding: 5px 0;">Opcje dla zaawansowanych (YAML)</summary>
-                    <div style="margin-top: 10px;">
+                <details style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 12px;">
+                    <summary style="cursor: pointer; color: #666; font-size: 0.9em; padding: 5px 0;">Opcje dla zaawansowanych (Pobierz / Wyświetl plik YAML)</summary>
+                    <div style="margin-top: 12px;">
                         <div class="action-buttons">
                             <button class="btn btn-secondary" onclick="generateYAML()">Wyświetl kod YAML</button>
+                            <button class="btn btn-outline" onclick="downloadYAMLDirect()">Pobierz plik YAML</button>
                         </div>
                         <div class="output-area" id="outputArea" style="display: none;">
                             <label><strong>Wygenerowany plik YAML:</strong></label>

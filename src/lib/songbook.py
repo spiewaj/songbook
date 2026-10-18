@@ -66,7 +66,8 @@ class SongbookSpec:
     return md5(self.specFile)
 
   def uuid(self):
-      return self.spec["uuid"] if "uuid" in self.spec else uuid.UUID(md5(self.id()))
+      val = self.spec["uuid"] if "uuid" in self.spec else uuid.UUID(md5(self.id()))
+      return str(val)
 
   def publisher(self):
       return self.spec["publisher"] if "publisher" in self.spec else ""

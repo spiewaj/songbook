@@ -1140,3 +1140,197 @@ h1 {
     transform: translateY(-1px);
 }
 
+/* Active Cloud Songbook Banner */
+.cloud-songbook-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #2e7d32;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cloud-songbook-banner-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.cloud-songbook-id code {
+    background: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #495057;
+    font-weight: 600;
+}
+
+.cloud-songbook-banner-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.btn-danger-soft {
+    color: #c82333 !important;
+    border-color: #f5c6cb !important;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+.btn-danger-soft:hover {
+    background-color: #f8d7da !important;
+    border-color: #f1b0b7 !important;
+    color: #721c24 !important;
+}
+
+/* Finish & Publish Panel at the End of the Flow */
+.finish-panel {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-top: 4px solid #2e7d32;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 24px 28px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.finish-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.finish-title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #212529;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.finish-icon {
+    color: #2e7d32;
+    font-size: 1.7rem;
+}
+
+.finish-subtitle {
+    margin: 4px 0 0 0;
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+.finish-summary-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.finish-summary-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.finish-summary-label {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.finish-summary-val {
+    color: #212529;
+}
+
+.finish-actions-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.finish-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    color: #ffffff !important;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(46, 125, 50, 0.25);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.finish-btn-primary:hover {
+    background-color: #1b5e20;
+    border-color: #1b5e20;
+    box-shadow: 0 4px 10px rgba(46, 125, 50, 0.35);
+    transform: translateY(-1px);
+}
+
+.finish-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.finish-pdf-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f8f9fa;
+    padding: 4px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+.finish-pdf-group select {
+    border: none;
+    background: transparent;
+    font-size: 0.95rem;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.finish-links-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+@media (max-width: 900px) {
+    .finish-links-group {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+

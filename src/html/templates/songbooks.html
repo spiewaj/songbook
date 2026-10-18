@@ -307,6 +307,246 @@
             border-color: rgba(129, 199, 132, 0.35);
         }
 
+        /* Catalog Tabs */
+        .sb-tabs {
+            display: inline-flex;
+            background: #e9ecef;
+            padding: 4px;
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        [data-theme="dark"] .sb-tabs {
+            background: #2b3035;
+        }
+
+        .sb-tab {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            color: #495057;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        [data-theme="dark"] .sb-tab {
+            color: #adb5bd;
+        }
+
+        .sb-tab.active {
+            background: #ffffff;
+            color: #2e7d32;
+            font-weight: 600;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        [data-theme="dark"] .sb-tab.active {
+            background: #212529;
+            color: #81c784;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .sb-tab-badge {
+            background: #2e7d32;
+            color: #fff;
+            font-size: 0.75rem;
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        /* Owner badges & actions */
+        .sb-badge-owner {
+            background-color: #e3f2fd;
+            color: #0d47a1 !important;
+            border: 1px solid #bbdefb;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        [data-theme="dark"] .sb-badge-owner {
+            background-color: rgba(13, 71, 161, 0.25);
+            color: #90caf9 !important;
+            border-color: rgba(144, 202, 249, 0.35);
+        }
+
+        .sb-badge-private {
+            background-color: #fff3e0;
+            color: #e65100 !important;
+            border: 1px solid #ffe0b2;
+            padding: 2px 7px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        [data-theme="dark"] .sb-badge-private {
+            background-color: rgba(230, 81, 0, 0.25);
+            color: #ffb74d !important;
+            border-color: rgba(255, 183, 77, 0.35);
+        }
+
+        .sb-owner-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e9ecef;
+            flex-wrap: wrap;
+        }
+
+        [data-theme="dark"] .sb-owner-actions {
+            border-top-color: #343a40;
+        }
+
+        .sb-btn-owner-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all 0.15s;
+            background: #fff;
+        }
+
+        .sb-btn-unpublish {
+            color: #6c757d;
+            border-color: #ced4da;
+        }
+
+        .sb-btn-unpublish:hover {
+            background: #f8f9fa;
+            color: #343a40;
+            border-color: #adb5bd;
+        }
+
+        .sb-btn-publish {
+            color: #2e7d32;
+            border-color: #c8e6c9;
+            background: #e8f5e9;
+        }
+
+        .sb-btn-publish:hover {
+            background: #c8e6c9;
+        }
+
+        .sb-btn-delete {
+            color: #dc3545;
+            border-color: #f5c6cb;
+            margin-left: auto;
+        }
+
+        .sb-btn-delete:hover {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        [data-theme="dark"] .sb-btn-owner-action {
+            background: #2b3035;
+        }
+
+        [data-theme="dark"] .sb-btn-unpublish {
+            color: #ced4da;
+            border-color: #495057;
+        }
+
+        [data-theme="dark"] .sb-btn-unpublish:hover {
+            background: #343a40;
+            color: #fff;
+        }
+
+        [data-theme="dark"] .sb-btn-delete {
+            color: #ea868f;
+            border-color: rgba(220, 53, 69, 0.4);
+        }
+
+        [data-theme="dark"] .sb-btn-delete:hover {
+            background: rgba(220, 53, 69, 0.2);
+            color: #ffc2c7;
+        }
+
+        /* Nav user auth */
+        .btn-auth-nav {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: #e8f5e9;
+            color: #1b5e20;
+            border: 1px solid #c8e6c9;
+            padding: 5px 11px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-auth-nav:hover {
+            background: #c8e6c9;
+        }
+
+        [data-theme="dark"] .btn-auth-nav {
+            background: rgba(46, 125, 50, 0.25);
+            color: #81c784;
+            border-color: rgba(129, 199, 132, 0.35);
+        }
+
+        .catalog-user-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: #495057;
+        }
+
+        [data-theme="dark"] .catalog-user-badge {
+            color: #dee2e6;
+        }
+
+        .catalog-avatar {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .catalog-initials {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #2e7d32;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .btn-logout-nav {
+            background: transparent;
+            border: none;
+            color: #6c757d;
+            font-size: 0.8rem;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 0 4px;
+        }
+
+        .btn-logout-nav:hover {
+            color: #dc3545;
+        }
+
         /* Official editions styles */
         .official-grid {
             display: grid;
@@ -419,6 +659,18 @@
         <a href="https://ghe.spiewaj.com/intro" class="nav-item"><span class="material-symbols-outlined">help</span> Poradnik</a>
         <a href="https://ghe.spiewaj.com/users/me/changes" class="nav-item"><span class="material-symbols-outlined">history</span> Edycje w toku</a>
         <div class="nav-right">
+            <div id="catalogAuthContainer" style="display: flex; align-items: center; gap: 8px;">
+                <button id="btnCatalogLogin" class="btn-auth-nav" onclick="loginCatalog()">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">account_circle</span>
+                    <span>Zaloguj</span>
+                </button>
+                <div id="catalogUserProfile" class="catalog-user-badge" style="display: none;">
+                    <img id="catalogAvatar" class="catalog-avatar" alt="" style="display: none;" />
+                    <span id="catalogInitials" class="catalog-initials"></span>
+                    <span id="catalogUserName" class="catalog-user-name"></span>
+                    <button onclick="logoutCatalog()" class="btn-logout-nav" title="Wyloguj">Wyloguj</button>
+                </div>
+            </div>
             <a href="https://github.com/spiewaj/songbook/tree/main/songs" class="nav-item-icon" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
                 <svg class="github-icon" viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true">
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
@@ -565,20 +817,32 @@
             </p>
         </div>
 
-        <div class="songbooks-header-row">
-            <div class="songbooks-search-container">
-                <span class="material-symbols-outlined search-icon">search</span>
-                <input type="search" id="songbookSearch" placeholder="Filtruj śpiewniki po tytule lub autorze..." oninput="handleSearch()" />
+        <div class="sb-tabs-row" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
+            <div class="sb-tabs">
+                <button class="sb-tab active" id="tabPublic" onclick="switchCatalogTab('public')">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">public</span> Wszystkie publiczne
+                </button>
+                <button class="sb-tab" id="tabMine" onclick="switchCatalogTab('mine')">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">folder_shared</span> Moje śpiewniki
+                    <span id="mySongbooksCountBadge" class="sb-tab-badge" style="display: none;">0</span>
+                </button>
             </div>
-            <a href="songbook_edit.html" class="btn-create-sb">
+            <a href="songbook_edit.html" class="btn-create-sb" style="text-decoration: none;">
                 <span class="material-symbols-outlined">add_circle</span>
                 Stwórz własny śpiewnik
             </a>
         </div>
 
+        <div class="songbooks-header-row">
+            <div class="songbooks-search-container">
+                <span class="material-symbols-outlined search-icon">search</span>
+                <input type="search" id="songbookSearch" placeholder="Filtruj śpiewniki po tytule lub autorze..." oninput="handleSearch()" />
+            </div>
+        </div>
+
         <div id="loadingIndicator" class="loading-state">
             <span class="material-symbols-outlined">progress_activity</span>
-            <p style="margin-top: 15px;">Wczytywanie publicznych śpiewników...</p>
+            <p id="loadingText" style="margin-top: 15px;">Wczytywanie publicznych śpiewników...</p>
         </div>
 
         <div id="errorMessage" class="loading-state" style="display: none; color: #dc3545;">
@@ -588,9 +852,9 @@
 
         <div id="emptyIndicator" class="empty-state" style="display: none;">
             <span class="material-symbols-outlined" style="font-size: 3rem; color: #adb5bd;">menu_book</span>
-            <h3 style="margin: 15px 0 8px 0; color: #495057;">Brak publicznych śpiewników</h3>
-            <p>Nie znaleziono jeszcze żadnych publicznych śpiewników. Bądź pierwszym, który opublikuje swój śpiewnik!</p>
-            <a href="songbook_edit.html" class="btn-create-sb" style="margin-top: 10px;">
+            <h3 id="emptyTitle" style="margin: 15px 0 8px 0; color: #495057;">Brak publicznych śpiewników</h3>
+            <p id="emptyDesc">Nie znaleziono jeszcze żadnych publicznych śpiewników. Bądź pierwszym, który opublikuje swój śpiewnik!</p>
+            <a href="songbook_edit.html" class="btn-create-sb" style="margin-top: 10px; text-decoration: none;">
                 <span class="material-symbols-outlined">add</span>
                 Stwórz nowy śpiewnik
             </a>
@@ -603,13 +867,24 @@
 
     <script type="text/javascript">
         let allSongbooks = [];
+        let mySongbooks = [];
+        let currentUser = null;
+        let activeTab = 'public';
+
+        function isCurrentUserOwner(sb, user) {
+            if (!user || !sb) return false;
+            const uid = user.uid;
+            if (sb.creatorId === uid) return true;
+            if (sb.ownerId === uid) return true;
+            if (Array.isArray(sb.ownerIds) && sb.ownerIds.includes(uid)) return true;
+            if (sb.members && sb.members[uid] && (sb.members[uid].role === 'owner' || sb.members[uid].role === 'editor')) return true;
+            return false;
+        }
 
         async function initPublicSongbooks() {
             const loading = document.getElementById('loadingIndicator');
             const errorEl = document.getElementById('errorMessage');
             const errorText = document.getElementById('errorText');
-            const grid = document.getElementById('songbooksGrid');
-            const emptyEl = document.getElementById('emptyIndicator');
 
             // Wait for FirebaseSongbook module
             let attempts = 0;
@@ -625,17 +900,26 @@
                 return;
             }
 
+            // Register auth listener
+            window.FirebaseSongbook.onAuthChange(async (user) => {
+                currentUser = user;
+                updateAuthUI(user);
+                if (user) {
+                    await loadMySongbooks();
+                } else {
+                    mySongbooks = [];
+                    updateMySongbooksBadge();
+                    if (activeTab === 'mine') {
+                        switchCatalogTab('public');
+                    }
+                }
+                renderCurrentTab();
+            });
+
             try {
                 allSongbooks = await window.FirebaseSongbook.fetchPublicSongbooks();
                 loading.style.display = 'none';
-
-                if (!allSongbooks || allSongbooks.length === 0) {
-                    emptyEl.style.display = 'block';
-                    grid.style.display = 'none';
-                    return;
-                }
-
-                renderSongbooks(allSongbooks);
+                renderCurrentTab();
             } catch (err) {
                 console.error("Błąd pobierania publicznych śpiewników:", err);
                 loading.style.display = 'none';
@@ -644,11 +928,131 @@
             }
         }
 
+        async function loadMySongbooks() {
+            if (!window.FirebaseSongbook || !currentUser) return;
+            try {
+                mySongbooks = await window.FirebaseSongbook.fetchMySongbooks();
+                updateMySongbooksBadge();
+            } catch (e) {
+                console.error("Błąd pobierania moich śpiewników:", e);
+            }
+        }
+
+        function updateMySongbooksBadge() {
+            const badge = document.getElementById('mySongbooksCountBadge');
+            if (!badge) return;
+            if (currentUser && mySongbooks.length > 0) {
+                badge.textContent = mySongbooks.length;
+                badge.style.display = 'inline-block';
+            } else {
+                badge.style.display = 'none';
+            }
+        }
+
+        function updateAuthUI(user) {
+            const btnLogin = document.getElementById('btnCatalogLogin');
+            const profile = document.getElementById('catalogUserProfile');
+            const nameEl = document.getElementById('catalogUserName');
+            const avatar = document.getElementById('catalogAvatar');
+            const initials = document.getElementById('catalogInitials');
+
+            if (user) {
+                if (btnLogin) btnLogin.style.display = 'none';
+                if (profile) profile.style.display = 'inline-flex';
+                if (nameEl) nameEl.textContent = user.displayName || user.email || 'Zalogowany';
+                if (user.photoURL && avatar) {
+                    avatar.src = user.photoURL;
+                    avatar.style.display = 'inline-block';
+                    if (initials) initials.style.display = 'none';
+                } else if (initials) {
+                    if (avatar) avatar.style.display = 'none';
+                    initials.style.display = 'inline-flex';
+                    initials.textContent = (user.displayName || user.email || 'U')[0].toUpperCase();
+                }
+            } else {
+                if (btnLogin) btnLogin.style.display = 'inline-flex';
+                if (profile) profile.style.display = 'none';
+            }
+        }
+
+        async function loginCatalog() {
+            if (!window.FirebaseSongbook) return;
+            try {
+                return await window.FirebaseSongbook.loginWithGoogle();
+            } catch (e) {
+                if (e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request') {
+                    alert('Błąd logowania przez Google: ' + (e.message || e));
+                }
+            }
+        }
+
+        async function logoutCatalog() {
+            if (!window.FirebaseSongbook) return;
+            try {
+                await window.FirebaseSongbook.logout();
+                if (activeTab === 'mine') {
+                    switchCatalogTab('public');
+                }
+            } catch (e) {
+                alert('Błąd wylogowania: ' + (e.message || e));
+            }
+        }
+
+        async function switchCatalogTab(tab) {
+            if (tab === 'mine') {
+                if (!currentUser) {
+                    const confirmLogin = confirm("Aby wyświetlić swoje śpiewniki, musisz się zalogować. Czy chcesz zalogować się przez Google?");
+                    if (confirmLogin) {
+                        try {
+                            const u = await loginCatalog();
+                            if (!u) return;
+                        } catch (e) {
+                            return;
+                        }
+                    } else {
+                        return;
+                    }
+                }
+                await loadMySongbooks();
+            }
+
+            activeTab = tab;
+            const tabPub = document.getElementById('tabPublic');
+            const tabMine = document.getElementById('tabMine');
+            if (tabPub) tabPub.className = 'sb-tab' + (tab === 'public' ? ' active' : '');
+            if (tabMine) tabMine.className = 'sb-tab' + (tab === 'mine' ? ' active' : '');
+
+            const searchInput = document.getElementById('songbookSearch');
+            if (searchInput) searchInput.value = '';
+
+            renderCurrentTab();
+        }
+
+        function getCurrentList() {
+            return activeTab === 'mine' ? mySongbooks : allSongbooks;
+        }
+
+        function renderCurrentTab() {
+            const list = getCurrentList();
+            renderSongbooks(list);
+        }
+
         function renderSongbooks(list) {
             const grid = document.getElementById('songbooksGrid');
             const emptyEl = document.getElementById('emptyIndicator');
+            const emptyTitle = document.getElementById('emptyTitle');
+            const emptyDesc = document.getElementById('emptyDesc');
 
             if (!list || list.length === 0) {
+                if (emptyTitle && emptyDesc) {
+                    if (activeTab === 'mine') {
+                        emptyTitle.textContent = "Brak Twoich śpiewników w chmurze";
+                        emptyDesc.textContent = "Nie masz jeszcze zapisanych śpiewników. Stwórz nowy śpiewnik i zapisz go jako szkic lub opublikuj!";
+                    } else {
+                        emptyTitle.textContent = "Brak publicznych śpiewników";
+                        emptyDesc.textContent = "Nie znaleziono jeszcze żadnych publicznych śpiewników. Bądź pierwszym, który opublikuje swój śpiewnik!";
+                    }
+                }
                 emptyEl.style.display = 'block';
                 grid.style.display = 'none';
                 return;
@@ -676,6 +1080,8 @@
                 const artifacts = sb.artifacts || {};
                 const hasArtifacts = !!(artifacts.pdf_a5 || artifacts.pdf_a4 || artifacts.epub);
                 const isPublished = sb.isPublished || hasArtifacts;
+                const isPub = sb.isPublic !== false;
+                const isOwner = isCurrentUserOwner(sb, currentUser);
 
                 return `
                     <div class="sb-card">
@@ -698,7 +1104,17 @@
                                         <span class="material-symbols-outlined">verified</span> Opublikowany
                                     </span>
                                 ` : ''}
-                                ${authorName ? `
+                                ${isOwner ? `
+                                    <span class="sb-meta-item sb-badge-owner" title="Jesteś właścicielem tego śpiewnika">
+                                        <span class="material-symbols-outlined">person</span> Twój śpiewnik
+                                    </span>
+                                ` : ''}
+                                ${!isPub ? `
+                                    <span class="sb-meta-item sb-badge-private" title="Śpiewnik prywatny - widoczny tylko dla Ciebie">
+                                        <span class="material-symbols-outlined">lock</span> Prywatny
+                                    </span>
+                                ` : ''}
+                                ${authorName && !isOwner ? `
                                     <span class="sb-meta-item" title="Twórca">
                                         <span class="material-symbols-outlined">person</span>
                                         ${escapeHtml(authorName)}
@@ -733,29 +1149,101 @@
                             ` : ''}
                         </div>
 
-                        <div class="sb-card-actions">
-                            <a href="index.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-view">
-                                <span class="material-symbols-outlined">visibility</span>
-                                Przeglądaj
-                            </a>
-                            <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
-                                <span class="material-symbols-outlined">edit</span>
-                                Edytuj
-                            </a>
+                        <div>
+                            <div class="sb-card-actions">
+                                <a href="index.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-view">
+                                    <span class="material-symbols-outlined">visibility</span>
+                                    Przeglądaj
+                                </a>
+                                <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
+                                    <span class="material-symbols-outlined">edit</span>
+                                    Edytuj
+                                </a>
+                            </div>
+
+                            ${isOwner ? `
+                                <div class="sb-owner-actions">
+                                    ${isPub ? `
+                                        <button class="sb-btn-owner-action sb-btn-unpublish" onclick="unpublishSongbookCatalog('${escapeHtml(sb.id)}')" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
+                                            <span class="material-symbols-outlined">visibility_off</span> Cofnij publikację
+                                        </button>
+                                    ` : `
+                                        <button class="sb-btn-owner-action sb-btn-publish" onclick="publishSongbookCatalog('${escapeHtml(sb.id)}')" title="Udostępnij w publicznym katalogu">
+                                            <span class="material-symbols-outlined">public</span> Opublikuj
+                                        </button>
+                                    `}
+                                    <button class="sb-btn-owner-action sb-btn-delete" onclick="deleteSongbookCatalog('${escapeHtml(sb.id)}')" title="Trwale usuń ten śpiewnik z chmury">
+                                        <span class="material-symbols-outlined">delete</span> Usuń
+                                    </button>
+                                </div>
+                            ` : ''}
                         </div>
                     </div>
                 `;
             }).join('');
         }
 
+        async function unpublishSongbookCatalog(id) {
+            if (!confirm('Czy na pewno chcesz wycofać ten śpiewnik z publicznego katalogu i oznaczyć go jako prywatny? Będzie on nadal dostępny w zakładce "Moje śpiewniki".')) return;
+            try {
+                await window.FirebaseSongbook.setSongbookVisibility(id, false);
+                allSongbooks = allSongbooks.filter(sb => sb.id !== id);
+                const myItem = mySongbooks.find(sb => sb.id === id);
+                if (myItem) {
+                    myItem.isPublic = false;
+                    myItem.isPublished = false;
+                }
+                renderCurrentTab();
+                alert('Śpiewnik został wycofany z publicznego katalogu i oznaczony jako prywatny.');
+            } catch (e) {
+                console.error("Błąd wycofywania publikacji:", e);
+                alert("Błąd: " + (e.message || e));
+            }
+        }
+
+        async function publishSongbookCatalog(id) {
+            if (!confirm('Czy chcesz udostępnić ten śpiewnik w publicznym katalogu?')) return;
+            try {
+                await window.FirebaseSongbook.setSongbookVisibility(id, true);
+                const myItem = mySongbooks.find(sb => sb.id === id);
+                if (myItem) {
+                    myItem.isPublic = true;
+                    if (!allSongbooks.some(s => s.id === id)) {
+                        allSongbooks.unshift(myItem);
+                    }
+                }
+                renderCurrentTab();
+                alert('Śpiewnik został opublikowany w katalogu.');
+            } catch (e) {
+                console.error("Błąd publikacji:", e);
+                alert("Błąd: " + (e.message || e));
+            }
+        }
+
+        async function deleteSongbookCatalog(id) {
+            if (!confirm(`Czy na pewno chcesz bezpowrotnie usunąć śpiewnik "${id}" z chmury? Ta operacja jest nieodwracalna.`)) return;
+            try {
+                await window.FirebaseSongbook.deleteSongbook(id);
+                allSongbooks = allSongbooks.filter(sb => sb.id !== id);
+                mySongbooks = mySongbooks.filter(sb => sb.id !== id);
+                updateMySongbooksBadge();
+                renderCurrentTab();
+                alert('Śpiewnik został trwale usunięty.');
+            } catch (e) {
+                console.error("Błąd usuwania:", e);
+                alert("Błąd podczas usuwania: " + (e.message || e));
+            }
+        }
+
         function handleSearch() {
             const query = (document.getElementById('songbookSearch').value || '').trim().toLowerCase();
+            const sourceList = getCurrentList();
             if (!query) {
-                renderSongbooks(allSongbooks);
+                renderSongbooks(sourceList);
                 return;
             }
 
-            const filtered = allSongbooks.filter(sb => {
+            const filtered = sourceList.filter(sb => {
                 const title = (sb.title || '').toLowerCase();
                 const subtitle = (sb.subtitle || '').toLowerCase();
                 const id = (sb.id || '').toLowerCase();

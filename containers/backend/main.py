@@ -30,6 +30,9 @@ class YamlRequest(BaseModel):
     yaml_content: str
     branch: str = "main"
     papersize: str = "a5"
+    songbook_id: Optional[str] = None
+    is_published: bool = False
+
 
 class XmlRequest(BaseModel):
     xml_content: str
@@ -237,11 +240,13 @@ def upload_result(local_path: str, destination_name: str, content_type: str):
     except Exception as e:
         print(f"Upload failed: {e}")
 
-def background_compile(temp_dir: str, job_id: str, render_cmd: list):
+def background_compile(temp_dir: str, job_id: str, render_cmd: list, publish_info: Optional[dict] = None):
     try:
         repo_dir = os.path.join(temp_dir, "repo")
+        os.makedirs(os.path.join(repo_dir, "build"), exist_ok=True)
         env = os.environ.copy()
         env["JOB"] = job_id
+        env["PYTHONPATH"] = repo_dir
         
         process = subprocess.run(
             render_cmd,
@@ -258,8 +263,25 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list):
             epub_files = glob.glob(os.path.join(repo_dir, "build", "*.epub"))
             if pdf_files:
                 upload_result(pdf_files[0], f"{job_id}.pdf", "application/pdf")
+                if publish_info and publish_info.get("songbook_id") and publish_info.get("is_published"):
+                    sb_id = publish_info["songbook_id"]
+                    papersize = publish_info.get("papersize", "a5").lower()
+                    pub_filename = f"{papersize}.pdf"
+                    upload_result(pdf_files[0], f"published/{sb_id}/{pub_filename}", "application/pdf")
+                    # Save permanent URL metadata in temporary job file
+                    meta_path = os.path.join(temp_dir, f"{job_id}.json")
+                    with open(meta_path, "w", encoding="utf-8") as f:
+                        json.dump({"published_url": f"/api/published/{sb_id}/{pub_filename}", "format": "pdf"}, f)
+                    upload_result(meta_path, f"{job_id}.json", "application/json")
             elif epub_files:
                 upload_result(epub_files[0], f"{job_id}.epub", "application/epub+zip")
+                if publish_info and publish_info.get("songbook_id") and publish_info.get("is_published"):
+                    sb_id = publish_info["songbook_id"]
+                    upload_result(epub_files[0], f"published/{sb_id}/songbook.epub", "application/epub+zip")
+                    meta_path = os.path.join(temp_dir, f"{job_id}.json")
+                    with open(meta_path, "w", encoding="utf-8") as f:
+                        json.dump({"published_url": f"/api/published/{sb_id}/songbook.epub", "format": "epub"}, f)
+                    upload_result(meta_path, f"{job_id}.json", "application/json")
             else:
                 # File missing despite 0 exit code
                 log_path = os.path.join(temp_dir, f"{job_id}.log")
@@ -278,6 +300,8 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list):
 class EpubRequest(BaseModel):
     yaml_content: str
     branch: str = "main"
+    songbook_id: Optional[str] = None
+    is_published: bool = False
 
 @app.post("/api/render/songbook_epub")
 async def render_songbook_epub(request: EpubRequest, background_tasks: BackgroundTasks):
@@ -290,8 +314,16 @@ async def render_songbook_epub(request: EpubRequest, background_tasks: Backgroun
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
         
+    publish_info = None
+    if request.songbook_id and request.is_published:
+        publish_info = {
+            "songbook_id": request.songbook_id,
+            "is_published": True,
+            "artifact_type": "epub"
+        }
+
     render_cmd = ["python3", "src/epub/create_epub.py", "songbooks/custom.yaml"]
-    background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd)
+    background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd, publish_info)
     
     return {"job_id": job_id, "status": 200}
 
@@ -316,10 +348,19 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
         shutil.rmtree(temp_dir, ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Python generation failed: {process.stderr}")
         
+    publish_info = None
+    if request.songbook_id and request.is_published:
+        publish_info = {
+            "songbook_id": request.songbook_id,
+            "is_published": True,
+            "papersize": request.papersize
+        }
+
     render_cmd = ["bash", "./render_pdf.sh", request.papersize, "songbooks/custom.yaml"]
-    background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd)
+    background_tasks.add_task(background_compile, temp_dir, job_id, render_cmd, publish_info)
     
     return {"job_id": job_id, "status": 200}
+
 
 @app.post("/api/render/song_xml")
 async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks):
@@ -397,18 +438,34 @@ async def render_songbook_zip(
 @app.get("/api/jobs/{job_id}")
 async def get_job_status(job_id: str):
     try:
+        import json
+        published_url = None
         if STORAGE_URI.startswith("gs://"):
             bucket_name = STORAGE_URI[5:]
             client = storage.Client()
             bucket = client.bucket(bucket_name)
             
+            meta_blob = bucket.blob(f"{job_id}.json")
+            if meta_blob.exists():
+                try:
+                    meta_data = json.loads(meta_blob.download_as_text())
+                    published_url = meta_data.get("published_url")
+                except Exception:
+                    pass
+
             pdf_blob = bucket.blob(f"{job_id}.pdf")
             if pdf_blob.exists():
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
+                res = {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
+                if published_url:
+                    res["published_url"] = published_url
+                return res
                 
             epub_blob = bucket.blob(f"{job_id}.epub")
             if epub_blob.exists():
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
+                res = {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
+                if published_url:
+                    res["published_url"] = published_url
+                return res
 
             log_blob = bucket.blob(f"{job_id}.log")
             if log_blob.exists():
@@ -418,10 +475,26 @@ async def get_job_status(job_id: str):
             local_dir = STORAGE_URI
             if STORAGE_URI.startswith("file://"):
                 local_dir = STORAGE_URI[7:]
+
+            meta_path = os.path.join(local_dir, f"{job_id}.json")
+            if os.path.exists(meta_path):
+                try:
+                    with open(meta_path, "r", encoding="utf-8") as f:
+                        meta_data = json.load(f)
+                    published_url = meta_data.get("published_url")
+                except Exception:
+                    pass
+
             if os.path.exists(os.path.join(local_dir, f"{job_id}.pdf")):
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
+                res = {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "pdf"}
+                if published_url:
+                    res["published_url"] = published_url
+                return res
             if os.path.exists(os.path.join(local_dir, f"{job_id}.epub")):
-                return {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
+                res = {"status": "done", "url": f"/api/jobs/{job_id}/download", "format": "epub"}
+                if published_url:
+                    res["published_url"] = published_url
+                return res
                     
             log_path = os.path.join(local_dir, f"{job_id}.log")
             if os.path.exists(log_path):
@@ -431,6 +504,7 @@ async def get_job_status(job_id: str):
         return {"status": "processing"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to check storage: {e}")
+
 
 @app.get("/api/jobs/{job_id}/download")
 async def download_job(job_id: str, filename: Optional[str] = None, disposition: str = "inline"):
@@ -483,4 +557,60 @@ async def download_job(job_id: str, filename: Optional[str] = None, disposition:
             return FileResponse(epub_path, media_type="application/epub+zip", filename=dl_filename, headers=headers)
 
     raise HTTPException(status_code=404, detail="File not found")
+
+
+@app.get("/api/published/{songbook_id}/{artifact_name}")
+async def download_published(
+    songbook_id: str,
+    artifact_name: str,
+    filename: Optional[str] = None,
+    disposition: str = "inline"
+):
+    import urllib.parse
+    from fastapi import Response
+
+    if ".." in songbook_id or "/" in songbook_id or "\\" in songbook_id:
+        raise HTTPException(status_code=400, detail="Invalid songbook ID")
+
+    normalized = artifact_name.lower()
+    if normalized in ["a5", "a5.pdf"]:
+        target_path = f"published/{songbook_id}/a5.pdf"
+        default_fn = f"{songbook_id}_A5.pdf"
+        media_type = "application/pdf"
+    elif normalized in ["a4", "a4.pdf"]:
+        target_path = f"published/{songbook_id}/a4.pdf"
+        default_fn = f"{songbook_id}_A4.pdf"
+        media_type = "application/pdf"
+    elif normalized in ["epub", "songbook.epub"]:
+        target_path = f"published/{songbook_id}/songbook.epub"
+        default_fn = f"{songbook_id}.epub"
+        media_type = "application/epub+zip"
+    else:
+        raise HTTPException(status_code=400, detail="Invalid artifact name. Supported: a5.pdf, a4.pdf, songbook.epub")
+
+    dl_filename = filename if filename else default_fn
+    encoded_filename = urllib.parse.quote(dl_filename)
+    headers = {
+        "Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded_filename}",
+        "Cache-Control": "public, max-age=3600"
+    }
+
+    if STORAGE_URI.startswith("gs://"):
+        bucket_name = STORAGE_URI[5:]
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(target_path)
+        if blob.exists():
+            file_bytes = blob.download_as_bytes()
+            return Response(content=file_bytes, media_type=media_type, headers=headers)
+    else:
+        local_dir = STORAGE_URI
+        if STORAGE_URI.startswith("file://"):
+            local_dir = STORAGE_URI[7:]
+        local_path = os.path.join(local_dir, target_path)
+        if os.path.exists(local_path):
+            headers = {"Content-Disposition": f"{disposition}; filename=\"{dl_filename}\"", "Cache-Control": "public, max-age=3600"}
+            return FileResponse(local_path, media_type=media_type, filename=dl_filename, headers=headers)
+
+    raise HTTPException(status_code=404, detail="Published artifact not found")
 
