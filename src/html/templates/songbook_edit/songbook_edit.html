@@ -210,16 +210,78 @@
             </div>
         </div>
 
+        <!-- Sekcja: Podgląd Śpiewnika (Preview) -->
+        <div class="panel preview-panel" id="previewSection">
+            <div class="preview-panel-header">
+                <div>
+                    <h2 class="preview-title">
+                        <span class="material-symbols-outlined preview-icon">visibility</span>
+                        Podgląd Śpiewnika (Preview)
+                    </h2>
+                    <p class="preview-subtitle">
+                        Przetestuj układ i wygląd śpiewnika przed zapisem lub publikacją:
+                    </p>
+                </div>
+            </div>
+
+            <div class="preview-grid">
+                <!-- Karta 1: Podgląd strony WWW (roboczy szkic) -->
+                <div class="preview-card">
+                    <div class="preview-card-header">
+                        <span class="material-symbols-outlined preview-card-icon">menu_book</span>
+                        <div>
+                            <h4 class="preview-card-title">Podgląd strony WWW</h4>
+                            <p class="preview-card-desc">Zobacz jak śpiewnik prezentuje się na spiewaj.com z aktualnie wybranymi piosenkami (szkic roboczy).</p>
+                        </div>
+                    </div>
+                    <div class="preview-card-actions">
+                        <button class="btn btn-outline" id="btnViewReader" onclick="openReaderPage()" title="Otwórz podgląd roboczy śpiewnika na spiewaj.com">
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">open_in_new</span>
+                            <span id="btnViewReaderText">Podgląd roboczy strony (szkic)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Karta 2: Próbny plik PDF (kompilacja testowa) -->
+                <div class="preview-card">
+                    <div class="preview-card-header">
+                        <span class="material-symbols-outlined preview-card-icon">picture_as_pdf</span>
+                        <div>
+                            <h4 class="preview-card-title">Próbny plik PDF</h4>
+                            <p class="preview-card-desc">Skompiluj testowy plik PDF (LaTeX), aby sprawdzić podział stron i profesjonalny skład nut/akordów.</p>
+                        </div>
+                    </div>
+                    <div class="preview-card-actions">
+                        <div class="finish-pdf-group">
+                            <select id="paperSize" class="form-control" style="width: auto;">
+                                <option value="a5" selected>Format A5 (poręczny)</option>
+                                <option value="a4">Format A4 (standardowy)</option>
+                            </select>
+                            <button class="btn btn-outline" id="btnRenderPdf" onclick="renderPDF()" title="Szybka kompilacja testowego pliku PDF">
+                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">picture_as_pdf</span>
+                                Generuj próbny PDF
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Output area dla próbnego PDF-a wewnątrz karty podglądu -->
+                    <div class="output-area" id="pdfOutputArea" style="display: none; text-align: center; margin-top: 15px;">
+                        <p id="pdfStatusText">Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).</p>
+                        <a id="pdfDownloadLink" href="#" target="_blank" class="btn btn-primary" style="display: none; width: 100%; box-sizing: border-box; text-align: center; text-decoration: none; padding: 12px; font-size: 1em; background-color: #2e7d32;">Gotowe! Kliknij tutaj, aby pobrać i otworzyć PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Section: Zapis i Publikacja (Koniec ścieżki użytkownika) -->
         <div class="panel finish-panel" id="finishSection">
             <div class="finish-panel-header">
                 <div>
                     <h2 class="finish-title">
-                        <span class="material-symbols-outlined finish-icon">task_alt</span>
-                        Zakończ i Zapisz Śpiewnik
+                        <span class="material-symbols-outlined finish-icon">cloud_upload</span>
+                        Zapis i Publikacja
                     </h2>
                     <p class="finish-subtitle">
-                        Twój śpiewnik jest skomponowany! Wybierz sposób zapisu:
+                        Zapisz śpiewnik na swoim koncie w chmurze lub opublikuj go w katalogu:
                     </p>
                 </div>
                 <div id="finishStatusBadge" class="cloud-status-badge"></div>
@@ -237,7 +299,7 @@
                         <span class="sb-badge-count" id="finishSummaryCount">0 piosenek</span>
                     </div>
                     <div class="finish-summary-item">
-                        <span class="finish-summary-label">Widoczność:</span>
+                        <span class="finish-summary-label">Status w katalogu:</span>
                         <span id="finishSummaryVisibility" class="badge-public">Publiczny w katalogu</span>
                     </div>
                     <div class="finish-summary-item" id="finishSummaryIdContainer" style="display: none;">
@@ -253,37 +315,21 @@
                         <span>Zapisz i opublikuj</span>
                     </button>
 
-                    <button class="btn btn-secondary finish-btn-secondary" id="btnSaveDraft" onclick="saveDraftCloud()" title="Zapisz zmiany w chmurze jako szkic roboczy">
+                    <button class="btn btn-secondary finish-btn-secondary" id="btnSaveDraft" onclick="saveDraftCloud()" title="Zapisz zmiany w chmurze jako szkic roboczy (niewidoczny w katalogu publicznym)">
                         <span class="material-symbols-outlined" style="font-size: 1.3rem;">save</span>
                         <span>Zapisz szkic</span>
                     </button>
 
-                    <div class="finish-pdf-group">
-                        <select id="paperSize" class="form-control" style="width: auto;">
-                            <option value="a5" selected>PDF A5</option>
-                            <option value="a4">PDF A4</option>
-                        </select>
-                        <button class="btn btn-outline" id="btnRenderPdf" onclick="renderPDF()" title="Szybka kompilacja testowego pliku PDF">
-                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">picture_as_pdf</span>
-                            Generuj PDF
-                        </button>
-                    </div>
-
-                    <div class="finish-links-group">
-                        <button class="btn btn-outline" id="btnViewReader" onclick="openReaderPage()" title="Otwórz śpiewnik jako stronę w widoku czytania (spiewaj.com)">
-                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">menu_book</span>
-                            Przeglądaj stronę
-                        </button>
-                        <button class="btn btn-outline" id="btnShareSongbook" onclick="openShareModal()" title="Udostępnij link lub dodaj współtwórców">
-                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">group</span>
-                            Udostępnij
-                        </button>
-                    </div>
+                    <button class="btn btn-outline" id="btnShareSongbook" onclick="openShareModal()" title="Udostępnij link lub dodaj współtwórców">
+                        <span class="material-symbols-outlined" style="font-size: 1.1rem;">group</span>
+                        Udostępnij
+                    </button>
                 </div>
 
-                <div class="output-area" id="pdfOutputArea" style="display: none; text-align: center; margin-top: 15px;">
-                    <p id="pdfStatusText">Trwa generowanie śpiewnika... Proszę czekać (zwykle około 15-30 sekund).</p>
-                    <a id="pdfDownloadLink" href="#" target="_blank" class="btn btn-primary" style="display: none; width: 100%; box-sizing: border-box; text-align: center; text-decoration: none; padding: 15px; font-size: 1.1em; background-color: #2e7d32;">Gotowe! Kliknij tutaj, aby pobrać i otworzyć PDF</a>
+                <!-- Objaśnienie różnicy między zapisem szkicu a publikacją -->
+                <div class="finish-help-note">
+                    <span class="material-symbols-outlined" style="font-size: 1.15rem; color: #1976d2;">info</span>
+                    <span><strong>„Zapisz i opublikuj”</strong> umieszcza śpiewnik w publicznym katalogu i generuje komplet stałych plików PDF (A5, A4) oraz EPUB. <strong>„Zapisz szkic”</strong> zachowuje zmiany w chmurze na Twoim koncie bez publikowania w katalogu.</span>
                 </div>
 
                 <details style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 12px;">
