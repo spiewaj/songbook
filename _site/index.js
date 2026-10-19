@@ -273,7 +273,7 @@ function clearSongbookFilter() {
     if (banner) banner.style.display = 'none';
 
     // Remove hash without page jump
-    if (window.location.hash.includes('songbook=')) {
+    if (window.location.hash) {
         if (history.replaceState) {
             history.replaceState(null, '', window.location.pathname + window.location.search);
         } else {
