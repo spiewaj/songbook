@@ -79,29 +79,33 @@ class SongbookSpec:
       return self.spec["hidden"] if "hidden" in self.spec else False
 
   def imagePdfPath(self):
-      if "image" in self.spec and "pdf" in self.spec["image"]:
-          return resolvePath(self.spec["image"]["pdf"], start=self.basedir)
+      if "image" in self.spec:
+          for key in ("pdf", "png", "jpg", "jpeg", "webp"):
+              if key in self.spec["image"] and self.spec["image"][key]:
+                  return resolvePath(self.spec["image"][key], start=self.basedir)
       return None
 
   def imageWebPath(self):
       if "image" in self.spec:
-          if "png" in self.spec["image"]: return resolvePath(self.spec["image"]["png"], start=self.basedir)
-          if "svg" in self.spec["image"]: return resolvePath(self.spec["image"]["svg"], start=self.basedir)
-          if "jpg" in self.spec["image"]: return resolvePath(self.spec["image"]["jpg"], start=self.basedir)
+          for key in ("png", "jpg", "jpeg", "svg", "webp"):
+              if key in self.spec["image"] and self.spec["image"][key]:
+                  return resolvePath(self.spec["image"][key], start=self.basedir)
       return None
 
   def imageWebExt(self):
       if "image" in self.spec:
-          if "png" in self.spec["image"]: return "png"
-          if "svg" in self.spec["image"]: return "svg"
-          if "jpg" in self.spec["image"]: return "jpg"
+          for key in ("png", "jpg", "jpeg", "svg", "webp"):
+              if key in self.spec["image"] and self.spec["image"][key]:
+                  return "jpg" if key == "jpeg" else key
       return None
 
   def imageWebMime(self):
       if "image" in self.spec:
-          if "png" in self.spec["image"]: return "image/png"
-          if "svg" in self.spec["image"]: return "image/svg+xml"
-          if "jpg" in self.spec["image"]: return "image/jpeg"
+          ext = self.imageWebExt()
+          if ext == "png": return "image/png"
+          if ext == "svg": return "image/svg+xml"
+          if ext in ("jpg", "jpeg"): return "image/jpeg"
+          if ext == "webp": return "image/webp"
       return None
 
 def load_songbook_spec_from_yaml(filename, title=None, songFiles=None):

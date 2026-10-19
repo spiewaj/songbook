@@ -25,6 +25,13 @@ import {
     getDocs,
     serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js';
+import {
+    getStorage,
+    ref,
+    uploadBytes,
+    getDownloadURL,
+    deleteObject
+} from 'https://www.gstatic.com/firebasejs/10.13.0/firebase-storage.js';
 
 const firebaseConfig = {
     projectId: "wdw-21",
@@ -38,6 +45,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
+const storage = getStorage(app);
 const googleProvider = new GoogleAuthProvider();
 
 export const ADMIN_EMAILS = [
@@ -126,6 +134,7 @@ export function resolveSongIdsFromYaml(yamlContent, allSongs) {
 export const FirebaseSongbook = {
     auth,
     db,
+    storage,
 
     /**
      * Listen to authentication state changes.
@@ -253,7 +262,9 @@ export const FirebaseSongbook = {
         members: customMembers = null,
         allSongs = [],
         isPublished = null,
-        artifacts = null
+        artifacts = null,
+        imageUrl = null,
+        image = null
     }) {
         const user = auth.currentUser;
         if (!user) {
@@ -300,6 +311,8 @@ export const FirebaseSongbook = {
 
         const effectiveIsPublished = isPublished !== null ? !!isPublished : (existingData?.isPublished || false);
         const effectiveArtifacts = artifacts !== null ? artifacts : (existingData?.artifacts || {});
+        const effectiveImageUrl = imageUrl !== null ? imageUrl : (existingData?.imageUrl || null);
+        const effectiveImage = image !== null ? image : (existingData?.image || null);
 
         const payload = {
             id,
@@ -318,12 +331,75 @@ export const FirebaseSongbook = {
             isPublished: effectiveIsPublished,
             publishedAt: effectiveIsPublished ? (existingData?.publishedAt || serverTimestamp()) : (existingData?.publishedAt || null),
             artifacts: effectiveArtifacts,
+            imageUrl: effectiveImageUrl,
+            image: effectiveImage,
             updatedAt: serverTimestamp(),
             createdAt: existingData?.createdAt || serverTimestamp()
         };
 
         await setDoc(songbookRef, payload, { merge: true });
         return payload;
+    },
+
+    /**
+     * Upload an image asset for a songbook directly to Firebase Storage.
+     * @param {string} songbookId - ID of the songbook
+     * @param {File} file - Image file
+     * @returns {Promise<{ url: string, path: string, name: string, size: number, type: string }>}
+     */
+    async uploadSongbookImage(songbookId, file) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby wgrać grafikę.");
+        }
+        if (!songbookId) {
+            throw new Error("Brak identyfikatora śpiewnika.");
+        }
+        if (!file) {
+            throw new Error("Nie wybrano pliku.");
+        }
+        if (!file.type || !file.type.startsWith('image/')) {
+            throw new Error("Dozwolone są wyłącznie pliki graficzne (PNG, JPG, SVG, WebP).");
+        }
+        if (file.size > 5 * 1024 * 1024) {
+            throw new Error("Maksymalny dozwolony rozmiar grafiki to 5MB.");
+        }
+
+        const cleanName = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
+        const storagePath = `songbooks/${encodeURIComponent(songbookId)}/assets/${Date.now()}_${cleanName}`;
+        const fileRef = ref(storage, storagePath);
+
+        const metadata = {
+            contentType: file.type,
+            customMetadata: {
+                uploaderUid: user.uid,
+                originalName: file.name
+            }
+        };
+
+        const snapshot = await uploadBytes(fileRef, file, metadata);
+        const downloadUrl = await getDownloadURL(snapshot.ref);
+
+        return {
+            url: downloadUrl,
+            path: snapshot.ref.fullPath,
+            name: file.name,
+            size: file.size,
+            type: file.type
+        };
+    },
+
+    /**
+     * Delete an uploaded image from Firebase Storage.
+     */
+    async deleteSongbookImage(storagePath) {
+        if (!storagePath) return;
+        try {
+            const fileRef = ref(storage, storagePath);
+            await deleteObject(fileRef);
+        } catch (e) {
+            console.warn("Could not delete image from storage:", e);
+        }
     },
 
     /**

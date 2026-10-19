@@ -138,6 +138,41 @@
                        placeholder="np. Warszawa">
             </div>
 
+            <!-- Upload grafiki okładkowej śpiewnika -->
+            <div class="form-group songbook-image-group">
+                <label>Grafika / Okładka Śpiewnika (opcjonalnie):</label>
+                <input type="file" id="songbookImageInput" accept="image/png,image/jpeg,image/webp,image/svg+xml" style="display: none;" onchange="handleImageFileSelect(event)">
+                
+                <div id="imageUploadDropzone" class="image-upload-dropzone" onclick="triggerImageUpload()" ondragover="handleImageDragOver(event)" ondragleave="handleImageDragLeave(event)" ondrop="handleImageDrop(event)">
+                    <span class="material-symbols-outlined image-drop-icon">add_photo_alternate</span>
+                    <div class="image-drop-text">
+                        <strong>Kliknij lub przeciągnij grafikę tutaj</strong>
+                        <span>Formaty: PNG, JPG, SVG, WebP (do 5MB). Wyświetli się w katalogu oraz na karcie tytułowej PDF i EPUB.</span>
+                    </div>
+                </div>
+
+                <div id="imagePreviewContainer" class="image-preview-container" style="display: none;">
+                    <img id="imagePreviewImg" src="" alt="Podgląd grafiki" class="image-preview-thumbnail" />
+                    <div class="image-preview-details">
+                        <span id="imagePreviewName" class="image-preview-name">grafika.png</span>
+                        <span class="image-preview-status">✓ Grafika zapisana i gotowa do druku</span>
+                        <div class="image-preview-actions">
+                            <button type="button" class="btn btn-sm btn-outline" onclick="triggerImageUpload()">
+                                <span class="material-symbols-outlined" style="font-size: 15px;">sync</span> Zmień
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline btn-danger-soft" onclick="removeSongbookImage()">
+                                <span class="material-symbols-outlined" style="font-size: 15px;">delete</span> Usuń
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="imageUploadSpinner" class="image-upload-spinner" style="display: none;">
+                    <span class="material-symbols-outlined spin-icon">progress_activity</span>
+                    <span>Wgrywanie grafiki do chmury...</span>
+                </div>
+            </div>
+
             <div class="form-group checkbox-group" style="display: flex; align-items: center; gap: 8px; margin-top: 15px;">
                 <input type="checkbox" id="songbookIsPublic" checked style="width: auto; margin: 0; cursor: pointer;">
                 <label for="songbookIsPublic" style="margin: 0; font-weight: normal; cursor: pointer;">

@@ -122,6 +122,16 @@
             margin-top: 2px;
         }
 
+        .sb-card-cover-img {
+            width: 44px;
+            height: 44px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            background: #f8f9fa;
+        }
+
         .sb-card-title-group {
             flex: 1;
         }
@@ -1184,12 +1194,18 @@
                 const isOwner = isCurrentUserOwner(sb, currentUser);
                 const canManage = isOwner || isAdmin;
                 const isPromoted = !!sb.isPromoted;
+                const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
 
                 return `
                     <div class="sb-card ${isPromoted ? 'is-promoted' : ''}">
                         <div>
                             <div class="sb-card-header">
-                                <span class="material-symbols-outlined sb-card-icon">menu_book</span>
+                                ${coverUrl ? `
+                                    <img src="${escapeHtml(coverUrl)}" alt="Okładka" class="sb-card-cover-img" loading="lazy" onerror="this.style.display='none';if(this.nextElementSibling)this.nextElementSibling.style.display='block';">
+                                    <span class="material-symbols-outlined sb-card-icon" style="display:none">menu_book</span>
+                                ` : `
+                                    <span class="material-symbols-outlined sb-card-icon">menu_book</span>
+                                `}
                                 <div class="sb-card-title-group">
                                     <h2 class="sb-card-title">${escapeHtml(sb.title || sb.id)}</h2>
                                     ${sb.subtitle ? `<p class="sb-card-subtitle">${escapeHtml(sb.subtitle)}</p>` : ''}

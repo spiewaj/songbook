@@ -511,6 +511,127 @@ function renderDynamicFilters() {
     `}).join('');
 }
 
+// Image / Picture upload state and handlers
+let currentSongbookImage = null; // { url, path, name }
+
+function triggerImageUpload() {
+    const input = document.getElementById('songbookImageInput');
+    if (input) input.click();
+}
+
+function handleImageDragOver(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const dropzone = document.getElementById('imageUploadDropzone');
+    if (dropzone) dropzone.classList.add('drag-over');
+}
+
+function handleImageDragLeave(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const dropzone = document.getElementById('imageUploadDropzone');
+    if (dropzone) dropzone.classList.remove('drag-over');
+}
+
+function handleImageDrop(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const dropzone = document.getElementById('imageUploadDropzone');
+    if (dropzone) dropzone.classList.remove('drag-over');
+
+    if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+        uploadImageFile(e.dataTransfer.files[0]);
+    }
+}
+
+function handleImageFileSelect(e) {
+    if (e.target && e.target.files && e.target.files.length > 0) {
+        uploadImageFile(e.target.files[0]);
+    }
+}
+
+async function uploadImageFile(file) {
+    if (!file) return;
+
+    if (!file.type || !file.type.startsWith('image/')) {
+        alert("Wybierz poprawny plik graficzny (PNG, JPG, SVG, WebP).");
+        return;
+    }
+    if (file.size > 5 * 1024 * 1024) {
+        alert("Rozmiar pliku nie może przekraczać 5MB.");
+        return;
+    }
+
+    let songbookId = document.getElementById('songbookId').value.trim();
+    const title = document.getElementById('songbookTitle').value.trim();
+    if (!songbookId) {
+        if (title && typeof generateIdFromTitle === 'function') {
+            songbookId = generateIdFromTitle(title);
+            document.getElementById('songbookId').value = songbookId;
+        } else {
+            songbookId = "spiewnik_" + Math.random().toString(36).substring(2, 8);
+            document.getElementById('songbookId').value = songbookId;
+        }
+    }
+
+    const dropzone = document.getElementById('imageUploadDropzone');
+    const previewContainer = document.getElementById('imagePreviewContainer');
+    const spinner = document.getElementById('imageUploadSpinner');
+
+    if (spinner) spinner.style.display = 'flex';
+    if (dropzone) dropzone.style.display = 'none';
+    if (previewContainer) previewContainer.style.display = 'none';
+
+    try {
+        await ensureAuthenticated();
+        if (!window.FirebaseSongbook || !window.FirebaseSongbook.uploadSongbookImage) {
+            throw new Error("Moduł bazy danych nie jest gotowy.");
+        }
+
+        const uploaded = await window.FirebaseSongbook.uploadSongbookImage(songbookId, file);
+        currentSongbookImage = {
+            url: uploaded.url,
+            path: uploaded.path,
+            name: uploaded.name
+        };
+        updateImageUI();
+    } catch (err) {
+        console.error("Błąd wgrywania grafiki:", err);
+        alert(err.message || "Nie udało się wgrać grafiki.");
+        updateImageUI();
+    } finally {
+        if (spinner) spinner.style.display = 'none';
+        const input = document.getElementById('songbookImageInput');
+        if (input) input.value = '';
+    }
+}
+
+function removeSongbookImage() {
+    if (currentSongbookImage && currentSongbookImage.path && window.FirebaseSongbook?.deleteSongbookImage) {
+        window.FirebaseSongbook.deleteSongbookImage(currentSongbookImage.path).catch(e => console.warn(e));
+    }
+    currentSongbookImage = null;
+    updateImageUI();
+}
+
+function updateImageUI() {
+    const dropzone = document.getElementById('imageUploadDropzone');
+    const previewContainer = document.getElementById('imagePreviewContainer');
+    const previewImg = document.getElementById('imagePreviewImg');
+    const previewName = document.getElementById('imagePreviewName');
+
+    if (currentSongbookImage && currentSongbookImage.url) {
+        if (dropzone) dropzone.style.display = 'none';
+        if (previewContainer) previewContainer.style.display = 'flex';
+        if (previewImg) previewImg.src = currentSongbookImage.url;
+        if (previewName) previewName.textContent = currentSongbookImage.name || 'Grafika okładkowa';
+    } else {
+        if (dropzone) dropzone.style.display = 'flex';
+        if (previewContainer) previewContainer.style.display = 'none';
+        if (previewImg) previewImg.src = '';
+    }
+}
+
 function generateYAMLString() {
     const songbookId = document.getElementById('songbookId').value.trim();
     const songbookTitle = document.getElementById('songbookTitle').value.trim();
@@ -555,6 +676,13 @@ function generateYAMLString() {
     
     if (songbookPlace) {
         songbook.place = songbookPlace;
+    }
+
+    if (currentSongbookImage && currentSongbookImage.url) {
+        songbook.image = {
+            url: currentSongbookImage.url,
+            name: currentSongbookImage.name || 'cover.png'
+        };
     }
     
     // Add dynamic filters first
@@ -671,6 +799,16 @@ function loadFromYAMLString(content, cloudDoc = null) {
     if (publicEl) {
         publicEl.checked = cloudDoc ? cloudDoc.isPublic !== false : true;
     }
+
+    const imgUrl = sb.image?.url || cloudDoc?.imageUrl || cloudDoc?.image?.url || null;
+    const imgName = sb.image?.name || cloudDoc?.image?.name || null;
+    const imgPath = cloudDoc?.image?.path || null;
+    if (imgUrl) {
+        currentSongbookImage = { url: imgUrl, name: imgName, path: imgPath };
+    } else {
+        currentSongbookImage = null;
+    }
+    updateImageUI();
     
     currentCloudSongbook = cloudDoc;
     userEditedId = !!(sb.id || cloudDoc?.id); // Prevents auto-generation of ID
@@ -851,7 +989,9 @@ function getSongbookFormData() {
         publisher: document.getElementById('songbookPublisher').value.trim(),
         place: document.getElementById('songbookPlace').value.trim(),
         isPublic: isPublic,
-        yaml: yamlStr
+        yaml: yamlStr,
+        imageUrl: currentSongbookImage?.url || null,
+        image: currentSongbookImage ? { url: currentSongbookImage.url, name: currentSongbookImage.name || 'cover.png', path: currentSongbookImage.path || null } : null
     };
 }
 
@@ -1245,6 +1385,8 @@ function startNewSongbook(force = false) {
         }
         userEditedId = false;
         currentCloudSongbook = null;
+        currentSongbookImage = null;
+        updateImageUI();
         updateCloudStatusUI();
         updateCollaboratorsUI();
         clearSelection();
@@ -1517,6 +1659,7 @@ function openReaderPage() {
         id: songbookId,
         title: title || songbookId,
         resolvedSongIds: includedSongIds,
+        imageUrl: currentSongbookImage?.url || null,
         isDraft: !isCloudPublished,
         isPublished: isCloudPublished,
         fromEditor: true,
@@ -1971,4 +2114,10 @@ window.addEventListener('hashchange', checkForUrlSongbook);
 
 window.updateFinishSummary = updateFinishSummary;
 window.toggleCurrentSongbookPromote = toggleCurrentSongbookPromote;
+window.triggerImageUpload = triggerImageUpload;
+window.handleImageFileSelect = handleImageFileSelect;
+window.handleImageDragOver = handleImageDragOver;
+window.handleImageDragLeave = handleImageDragLeave;
+window.handleImageDrop = handleImageDrop;
+window.removeSongbookImage = removeSongbookImage;
 

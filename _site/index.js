@@ -99,6 +99,8 @@ async function loadSongbookFilter(songbookId) {
     const editBtn = document.getElementById('songbook-filter-edit-btn');
     const badgeEl = document.getElementById('songbook-filter-badge');
     const noteEl = document.getElementById('songbook-filter-note');
+    const imgEl = document.getElementById('songbook-filter-image');
+    const defaultIcon = document.getElementById('songbook-filter-default-icon');
 
     if (banner) {
         banner.style.display = 'flex';
@@ -107,6 +109,8 @@ async function loadSongbookFilter(songbookId) {
         if (countEl) countEl.textContent = "";
         if (badgeEl) badgeEl.style.display = 'none';
         if (noteEl) noteEl.style.display = 'none';
+        if (imgEl) imgEl.style.display = 'none';
+        if (defaultIcon) defaultIcon.style.display = 'inline-block';
     }
 
     try {
@@ -172,16 +176,35 @@ async function loadSongbookFilter(songbookId) {
             throw new Error("Nie znaleziono śpiewnika lub jest to śpiewnik prywatny.");
         }
 
+        const coverUrl = (draftData && (draftData.imageUrl || (draftData.image && draftData.image.url))) ||
+                         (doc && (doc.imageUrl || (doc.image && doc.image.url))) || '';
+
         activeSongbookFilter = {
             id: songbookId,
             title: title,
             songIds: new Set(songIds),
-            isDraft: isDraft
+            isDraft: isDraft,
+            imageUrl: coverUrl
         };
 
         try {
             sessionStorage.setItem('activeSongbook', songbookId);
         } catch (e) {}
+
+        if (imgEl && defaultIcon) {
+            if (coverUrl) {
+                imgEl.src = coverUrl;
+                imgEl.style.display = 'block';
+                defaultIcon.style.display = 'none';
+                imgEl.onerror = () => {
+                    imgEl.style.display = 'none';
+                    defaultIcon.style.display = 'inline-block';
+                };
+            } else {
+                imgEl.style.display = 'none';
+                defaultIcon.style.display = 'inline-block';
+            }
+        }
 
         if (titleEl) titleEl.textContent = activeSongbookFilter.title;
         if (countEl) {
@@ -230,6 +253,8 @@ async function loadSongbookFilter(songbookId) {
             if (titleEl) titleEl.textContent = err.message || "Błąd wczytywania śpiewnika";
             if (countEl) countEl.textContent = "";
             if (badgeEl) badgeEl.style.display = 'none';
+            if (imgEl) imgEl.style.display = 'none';
+            if (defaultIcon) defaultIcon.style.display = 'inline-block';
             if (noteEl) {
                 noteEl.style.display = 'block';
                 noteEl.innerHTML = `Jeśli to Twój śpiewnik, możesz <a href="songbook_edit.html#songbook=${encodeURIComponent(songbookId)}" style="color: inherit; text-decoration: underline; font-weight: 500;">otworzyć go w edytorze</a>.`;
