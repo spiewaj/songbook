@@ -51,7 +51,7 @@ def create_ready_tex(songbook, papersize):
                .replace(":publisher:", str2tex(songbook.publisher())))
 
     if songbook.imagePdfPath():
-        image_tex = f"\\includegraphics[height=5 cm]{{{songbook.imagePdfPath()}}}"
+        image_tex = f"\\includegraphics[width=0.95\\textwidth,height=0.58\\textheight,keepaspectratio]{{{songbook.imagePdfPath()}}}"
     else:
         image_tex = ""
         

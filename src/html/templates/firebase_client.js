@@ -455,9 +455,17 @@ export const FirebaseSongbook = {
      */
     async fetchSongbook(id) {
         if (!id) return null;
-        const songbookRef = doc(db, "songbooks", id);
-        const snapshot = await getDoc(songbookRef);
-        return snapshot.exists() ? snapshot.data() : null;
+        let songbookRef = doc(db, "songbooks", id);
+        let snapshot = await getDoc(songbookRef);
+        if (snapshot.exists()) return snapshot.data();
+
+        // Fallback for case-insensitive ID
+        if (id.toLowerCase() !== id) {
+            songbookRef = doc(db, "songbooks", id.toLowerCase());
+            snapshot = await getDoc(songbookRef);
+            if (snapshot.exists()) return snapshot.data();
+        }
+        return null;
     },
 
     /**

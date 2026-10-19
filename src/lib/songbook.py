@@ -56,7 +56,30 @@ class SongbookSpec:
       return self.spec["subtitle"] if "subtitle" in self.spec else ""
 
   def url(self):
-      return self.spec["url"] if "url" in self.spec else ""
+      sb_id = self.id()
+      if "url" in self.spec and self.spec["url"]:
+          u = self.spec["url"].strip()
+          if sb_id and sb_id != "default_all":
+              spiewaj_variants = {
+                  f"https://spiewaj.com#{sb_id}",
+                  f"https://spiewaj.com/#{sb_id}",
+                  f"https://spiewaj.com/index.html#songbook={sb_id}",
+                  f"https://spiewaj.com/index.html#{sb_id}",
+                  f"https://spiewaj.com/#songbook={sb_id}",
+                  f"https://spiewaj.com/songbook/{sb_id}",
+                  f"https://spiewaj.com#{sb_id.lower()}",
+                  f"https://spiewaj.com/#{sb_id.lower()}",
+                  f"https://spiewaj.com/index.html#songbook={sb_id.lower()}",
+                  f"https://spiewaj.com/index.html#{sb_id.lower()}",
+                  f"https://spiewaj.com/#songbook={sb_id.lower()}",
+                  f"https://spiewaj.com/songbook/{sb_id.lower()}",
+              }
+              if u in spiewaj_variants:
+                  return f"https://spiewaj.com#{sb_id}"
+          return u
+      if sb_id and sb_id != "default_all":
+          return f"https://spiewaj.com#{sb_id}"
+      return "https://spiewaj.com"
 
   def id(self):
     if "id" in self.spec:

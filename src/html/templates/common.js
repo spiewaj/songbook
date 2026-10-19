@@ -85,7 +85,7 @@ function escapeHtml(text) {
                 if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref.includes('#songbook=')) {
                     if (link.classList.contains('nav-return') || link.textContent.includes('Powrót')) {
                         const cleanBase = rawHref.split('#')[0].split('?')[0];
-                        link.setAttribute('href', `${cleanBase}#songbook=${encodeURIComponent(sbId)}`);
+                        link.setAttribute('href', `${cleanBase}#${encodeURIComponent(sbId)}`);
                         link.innerHTML = '<span class="material-symbols-outlined">arrow_back</span> Powrót do śpiewnika';
                     }
                 }

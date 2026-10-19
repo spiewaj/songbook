@@ -662,7 +662,7 @@ function generateYAMLString() {
         id: songbookId,
         uuid: uuid,
         title: songbookTitle,
-        url: `https://spiewaj.com/#${songbookId}`,
+        url: `https://spiewaj.com#${encodeURIComponent(songbookId)}`,
         songs: []
     };
     
@@ -1574,7 +1574,7 @@ async function openMySongbooksModal() {
                         </div>
                     </div>
                     <div class="songbook-card-actions">
-                        <a class="btn btn-sm btn-secondary" href="index.html#songbook=${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
+                        <a class="btn btn-sm btn-secondary" href="index.html#${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
                         <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Edytuj</button>
                         ${isPub ? `
                             <button class="btn btn-sm btn-outline" onclick="toggleCloudSongbookVisibility('${escapeHTML(sb.id)}', false)" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
@@ -1689,7 +1689,8 @@ function openShareModal() {
     modal.style.display = 'flex';
 
     const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
-    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}`;
+    const isLiveDomain = window.location.hostname === 'spiewaj.com' || window.location.hostname === 'www.spiewaj.com';
+    const readerUrl = isLiveDomain ? `https://spiewaj.com#${encodeURIComponent(songbookId)}` : `${baseUrl}#${encodeURIComponent(songbookId)}`;
     const editUrl = `${baseUrl}songbook_edit.html#songbook=${encodeURIComponent(songbookId)}`;
 
     const readerInput = document.getElementById('shareReaderUrlInput');
@@ -2007,13 +2008,17 @@ async function renderPDF() {
     };
 
     const btn = document.getElementById('btnRenderPdf');
-    const originalBtnText = btn ? btn.textContent : "Generuj Śpiewnik (PDF)";
+    const btnText = document.getElementById('btnRenderPdfText');
     const pdfOutputArea = document.getElementById('pdfOutputArea');
     const pdfStatusText = document.getElementById('pdfStatusText');
     const pdfDownloadLink = document.getElementById('pdfDownloadLink');
 
     if (btn) {
         btn.disabled = true;
+    }
+    if (btnText) {
+        btnText.textContent = "Trwa generowanie...";
+    } else if (btn) {
         btn.textContent = "Trwa generowanie...";
     }
 
@@ -2033,7 +2038,9 @@ async function renderPDF() {
         (url) => {
             if (btn) {
                 btn.disabled = false;
-                btn.textContent = originalBtnText;
+            }
+            if (btnText) {
+                btnText.textContent = "Generuj próbny PDF";
             }
             if (pdfStatusText) pdfStatusText.style.display = 'none';
             if (pdfDownloadLink) {
@@ -2048,7 +2055,9 @@ async function renderPDF() {
             alert(err);
             if (btn) {
                 btn.disabled = false;
-                btn.textContent = originalBtnText;
+            }
+            if (btnText) {
+                btnText.textContent = "Generuj próbny PDF";
             }
             if (pdfStatusText) pdfStatusText.textContent = err;
         }
