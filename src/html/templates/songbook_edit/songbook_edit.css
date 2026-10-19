@@ -1337,10 +1337,250 @@ h1 {
     margin-left: auto;
 }
 
+/* Sekcja Podglądu (Preview) */
+.preview-panel {
+    background: #fdfdfd;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.preview-panel-header {
+    margin-bottom: 18px;
+}
+
+.preview-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.35rem;
+    color: #1e293b;
+    margin: 0 0 4px 0;
+}
+
+.preview-icon {
+    font-size: 1.6rem;
+    color: #0284c7;
+}
+
+.preview-subtitle {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.preview-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease;
+}
+
+.preview-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.preview-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.preview-card-icon {
+    font-size: 1.8rem;
+    color: #0284c7;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.preview-card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+}
+
+.preview-card-desc {
+    color: #64748b;
+    font-size: 0.88rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.preview-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    border-top: 1px dashed #f1f5f9;
+}
+
+.finish-help-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    background: #f0f7ff;
+    border: 1px solid #c7e0ff;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 16px;
+    font-size: 0.88rem;
+    color: #1e3a8a;
+    line-height: 1.45;
+}
+
+.badge-draft {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+    border-radius: 12px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
 @media (max-width: 900px) {
     .finish-links-group {
         margin-left: 0;
         width: 100%;
     }
+    .preview-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Image upload styles */
+.songbook-image-group {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.image-upload-dropzone {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.image-upload-dropzone:hover,
+.image-upload-dropzone.drag-over {
+    border-color: #3b82f6;
+    background: #eff6ff;
+}
+
+.image-drop-icon {
+    font-size: 2.2rem;
+    color: #3b82f6;
+    flex-shrink: 0;
+}
+
+.image-drop-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.image-drop-text strong {
+    font-size: 0.95rem;
+    color: #1e293b;
+}
+
+.image-drop-text span {
+    font-size: 0.82rem;
+    color: #64748b;
+}
+
+.image-preview-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.image-preview-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    flex-shrink: 0;
+}
+
+.image-preview-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+}
+
+.image-preview-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #0f172a;
+    word-break: break-all;
+}
+
+.image-preview-status {
+    font-size: 0.82rem;
+    color: #15803d;
+    font-weight: 500;
+}
+
+.image-preview-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.image-upload-spinner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: #f1f5f9;
+    border-radius: 6px;
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+.spin-icon {
+    animation: spin 1s linear infinite;
+    font-size: 1.2rem;
+    color: #3b82f6;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
