@@ -297,6 +297,38 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list, publish_inf
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
+def prepare_songbook_image(yaml_path: str, work_dir: str):
+    try:
+        import yaml
+        import urllib.request
+        with open(yaml_path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+        if not data or "songbook" not in data or "image" not in data["songbook"]:
+            return
+        img_spec = data["songbook"]["image"]
+        if isinstance(img_spec, dict) and "url" in img_spec and img_spec["url"]:
+            img_url = img_spec["url"]
+            ext = ".png"
+            lower_url = img_url.lower()
+            if ".jpg" in lower_url or ".jpeg" in lower_url:
+                ext = ".jpg"
+            elif ".pdf" in lower_url:
+                ext = ".pdf"
+            elif ".svg" in lower_url:
+                ext = ".svg"
+            dest_name = f"cover_image{ext}"
+            dest_path = os.path.join(work_dir, dest_name)
+            req = urllib.request.Request(img_url, headers={"User-Agent": "SpiewajSongbook/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp, open(dest_path, "wb") as out:
+                out.write(resp.read())
+            data["songbook"]["image"]["pdf"] = dest_name
+            data["songbook"]["image"]["png"] = dest_name
+            data["songbook"]["image"]["jpg"] = dest_name
+            with open(yaml_path, "w", encoding="utf-8") as f:
+                yaml.dump(data, f)
+    except Exception as e:
+        print(f"Warning: could not process image URL: {e}")
+
 class EpubRequest(BaseModel):
     yaml_content: str
     branch: str = "main"
@@ -313,6 +345,7 @@ async def render_songbook_epub(request: EpubRequest, background_tasks: Backgroun
     yaml_path = os.path.join(work_dir, "songbooks", "custom.yaml")
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
+    prepare_songbook_image(yaml_path, work_dir)
         
     publish_info = None
     if request.songbook_id and request.is_published:
@@ -337,6 +370,7 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
     yaml_path = os.path.join(work_dir, "songbooks", "custom.yaml")
     with open(yaml_path, "w", encoding="utf-8") as f:
         f.write(request.yaml_content)
+    prepare_songbook_image(yaml_path, work_dir)
         
     # Synchronous check
     python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "songbooks/custom.yaml"]

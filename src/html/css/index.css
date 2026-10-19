@@ -460,6 +460,16 @@ p {
     color: #1a73e8;
 }
 
+.songbook-filter-cover-img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #ffffff;
+}
+
 .songbook-filter-banner.warning .songbook-filter-icon {
     color: #b06000;
 }
