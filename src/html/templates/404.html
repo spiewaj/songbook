@@ -13,7 +13,7 @@
                 var sbId = decodeURIComponent(match[1]);
                 var search = window.location.search || '';
                 var hash = window.location.hash || '';
-                window.location.replace('/index.html#songbook=' + encodeURIComponent(sbId) + (hash ? '&' + hash.replace(/^#/, '') : ''));
+                window.location.replace('/index.html#' + encodeURIComponent(sbId) + (hash ? '&' + hash.replace(/^#/, '') : ''));
                 return;
             }
         })();

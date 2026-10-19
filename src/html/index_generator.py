@@ -474,7 +474,7 @@ def main():
                 sbId = window.location.hash.replace(/^#/, '');
             }
             if (sbId) {
-                window.location.replace('../index.html#songbook=' + encodeURIComponent(sbId));
+                window.location.replace('../index.html#' + encodeURIComponent(sbId));
             } else {
                 window.location.replace('../songbooks.html');
             }

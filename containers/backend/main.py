@@ -311,9 +311,19 @@ def prepare_songbook_image(yaml_path: str, work_dir: str):
 
         # Ensure custom songbooks render correct reader URL in PDF footer and QR code
         if sb_id and sb_id != "default_all":
-            curr_url = sb_data.get("url", "")
-            if not curr_url or curr_url in (f"https://spiewaj.com/#{sb_id}", "https://spiewaj.com", "https://spiewaj.com/"):
-                sb_data["url"] = f"https://spiewaj.com/index.html#songbook={sb_id}"
+            curr_url = (sb_data.get("url") or "").strip()
+            if not curr_url or curr_url in (
+                f"https://spiewaj.com#{sb_id}",
+                f"https://spiewaj.com/#{sb_id}",
+                f"https://spiewaj.com/index.html#songbook={sb_id}",
+                f"https://spiewaj.com/index.html#{sb_id}",
+                f"https://spiewaj.com/#songbook={sb_id}",
+                f"https://spiewaj.com/#{sb_id.lower()}",
+                f"https://spiewaj.com#{sb_id.lower()}",
+                "https://spiewaj.com",
+                "https://spiewaj.com/",
+            ):
+                sb_data["url"] = f"https://spiewaj.com#{sb_id}"
 
         if "image" in sb_data:
             img_spec = sb_data["image"]

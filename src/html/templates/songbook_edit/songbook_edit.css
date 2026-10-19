@@ -846,6 +846,19 @@ h1 {
     font-size: 12px;
 }
 
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    line-height: 1;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
 .btn .material-symbols-outlined {
     font-size: 18px;
     vertical-align: middle;
