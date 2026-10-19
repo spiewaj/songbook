@@ -884,10 +884,22 @@ function updateFinishSummary() {
 
     const finishVis = document.getElementById('finishSummaryVisibility');
     const isPublicEl = document.getElementById('songbookIsPublic');
+    const isPub = isPublicEl ? isPublicEl.checked : true;
+    const isPublished = !!(currentCloudSongbook && currentCloudSongbook.isPublished);
+
     if (finishVis) {
-        const isPub = isPublicEl ? isPublicEl.checked : true;
-        finishVis.textContent = isPub ? 'Publiczny w katalogu' : 'Prywatny (szkic)';
-        finishVis.className = isPub ? 'badge-public' : 'badge-private';
+        if (isPublished) {
+            finishVis.textContent = isPub ? 'Opublikowany w katalogu' : 'Opublikowany (prywatny)';
+            finishVis.className = isPub ? 'badge-public' : 'badge-private';
+        } else {
+            finishVis.textContent = isPub ? 'Szkic roboczy (nieopublikowany)' : 'Prywatny szkic roboczy';
+            finishVis.className = 'badge-draft';
+        }
+    }
+
+    const btnViewReaderText = document.getElementById('btnViewReaderText');
+    if (btnViewReaderText) {
+        btnViewReaderText.textContent = isPublished ? 'Podgląd roboczy strony' : 'Podgląd roboczy strony (szkic)';
     }
 
     const finishIdContainer = document.getElementById('finishSummaryIdContainer');
@@ -1163,12 +1175,18 @@ function updateCloudStatusUI() {
         if (btnDup) btnDup.style.display = 'inline-flex';
 
         const isPub = currentCloudSongbook.isPublic !== false;
+        const isPublished = currentCloudSongbook.isPublished === true;
         const isProm = currentCloudSongbook.isPromoted === true;
 
         if (banner) banner.style.display = 'flex';
         if (badgeVis) {
-            badgeVis.textContent = isPub ? 'Publiczny w katalogu' : 'Prywatny (szkic)';
-            badgeVis.className = isPub ? 'badge-public' : 'badge-private';
+            if (isPublished) {
+                badgeVis.textContent = isPub ? 'Opublikowany w katalogu' : 'Opublikowany (prywatny)';
+                badgeVis.className = isPub ? 'badge-public' : 'badge-private';
+            } else {
+                badgeVis.textContent = isPub ? 'Szkic roboczy' : 'Prywatny szkic';
+                badgeVis.className = 'badge-draft';
+            }
         }
         if (badgePromoted) {
             badgePromoted.style.display = isProm ? 'inline-block' : 'none';
@@ -1478,13 +1496,42 @@ async function deleteCloudSongbookById(id) {
 }
 
 function openReaderPage() {
-    const songbookId = document.getElementById('songbookId').value.trim();
+    let songbookId = document.getElementById('songbookId').value.trim();
+    const title = document.getElementById('songbookTitle').value.trim();
     if (!songbookId) {
-        alert("Najpierw podaj ID i zapisz śpiewnik w chmurze.");
-        return;
+        if (title && typeof generateIdFromTitle === 'function') {
+            songbookId = generateIdFromTitle(title);
+            document.getElementById('songbookId').value = songbookId;
+        } else {
+            alert("Podaj tytuł lub ID śpiewnika przed otwarciem podglądu.");
+            document.getElementById('songbookTitle').focus();
+            return;
+        }
     }
+
+    const includedSongIds = typeof getAllIncludedSongs === 'function' ? Array.from(getAllIncludedSongs()) : [];
+    const isCloudPublished = !!(currentCloudSongbook && currentCloudSongbook.isPublished);
+
+    // Save draft preview in sessionStorage so index.html can render it immediately
+    const draftPayload = {
+        id: songbookId,
+        title: title || songbookId,
+        resolvedSongIds: includedSongIds,
+        isDraft: !isCloudPublished,
+        isPublished: isCloudPublished,
+        fromEditor: true,
+        updatedAt: Date.now()
+    };
+
+    try {
+        sessionStorage.setItem('songbook_draft_' + songbookId, JSON.stringify(draftPayload));
+        sessionStorage.setItem('active_songbook_draft', JSON.stringify(draftPayload));
+    } catch (e) {
+        console.warn("Could not save draft to sessionStorage:", e);
+    }
+
     const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
-    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}`;
+    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}&preview=1`;
     window.open(readerUrl, '_blank');
 }
 

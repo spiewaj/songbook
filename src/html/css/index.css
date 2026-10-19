@@ -490,6 +490,55 @@ p {
     color: #5f6368;
 }
 
+.songbook-filter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.songbook-filter-badge.sb-badge-draft {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+}
+
+.songbook-filter-badge.sb-badge-published {
+    background: #e6f4ea;
+    color: #137333;
+    border: 1px solid #ceead6;
+}
+
+.songbook-filter-note {
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px 10px;
+    background: rgba(254, 243, 199, 0.6);
+    border: 1px solid #fde68a;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #78350f;
+    line-height: 1.4;
+}
+
+.songbook-filter-note .note-icon {
+    font-size: 16px;
+    vertical-align: text-bottom;
+    margin-right: 4px;
+    color: #b45309;
+}
+
+.songbook-filter-banner.is-draft {
+    border-left: 4px solid #f59e0b;
+}
+
+.songbook-filter-banner.is-published {
+    border-left: 4px solid #10b981;
+}
+
 .songbook-filter-actions {
     display: flex;
     align-items: center;
@@ -569,6 +618,28 @@ p {
 [data-theme="dark"] .songbook-filter-label,
 [data-theme="dark"] .songbook-filter-count {
     color: #94a3b8;
+}
+
+[data-theme="dark"] .songbook-filter-note {
+    background: rgba(146, 64, 14, 0.25);
+    border-color: #78350f;
+    color: #fde68a;
+}
+
+[data-theme="dark"] .songbook-filter-note .note-icon {
+    color: #f59e0b;
+}
+
+[data-theme="dark"] .songbook-filter-badge.sb-badge-draft {
+    background: #451a03;
+    color: #fde68a;
+    border-color: #78350f;
+}
+
+[data-theme="dark"] .songbook-filter-badge.sb-badge-published {
+    background: #064e3b;
+    color: #a7f3d0;
+    border-color: #047857;
 }
 
 [data-theme="dark"] .songbook-btn-clear {
