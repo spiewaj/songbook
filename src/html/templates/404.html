@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Przekierowanie - spiewaj.com</title>
+    <script>
+        (function() {
+            var path = window.location.pathname;
+            // Handle /s/<songbookId>, /sb/<songbookId>, or /songbook/<songbookId>
+            var match = path.match(/^\/(?:s|sb|songbook)\/([^\/]+)/i);
+            if (match && match[1]) {
+                var sbId = decodeURIComponent(match[1]);
+                var search = window.location.search || '';
+                var hash = window.location.hash || '';
+                window.location.replace('/index.html#songbook=' + encodeURIComponent(sbId) + (hash ? '&' + hash.replace(/^#/, '') : ''));
+                return;
+            }
+        })();
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            max-width: 480px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+            color: #2e7d32;
+        }
+        p {
+            font-size: 1.05rem;
+            color: #495057;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+        .btn-group {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+        }
+        .btn-primary {
+            background-color: #2e7d32;
+            color: #ffffff;
+        }
+        .btn-primary:hover {
+            background-color: #1b5e20;
+        }
+        .btn-secondary {
+            background-color: #e9ecef;
+            color: #495057;
+        }
+        .btn-secondary:hover {
+            background-color: #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>Nie znaleziono żądanej strony lub śpiewnika.</p>
+        <div class="btn-group">
+            <a href="/index.html" class="btn btn-primary">Wszystkie piosenki</a>
+            <a href="/songbooks.html" class="btn btn-secondary">Katalog śpiewników</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -422,7 +422,7 @@ def main():
     os.symlink(os.path.join(sb.repo_dir(), 'src', 'html', 'templates', "robots.txt"), robots_path)
 
     # Create symlinks for informational static pages
-    for page in ["podrukowane.html", "o-nas.html", "kindle.html", "songbooks.html"]:
+    for page in ["podrukowane.html", "o-nas.html", "kindle.html", "songbooks.html", "404.html"]:
         page_target = os.path.join(target_dir, page)
         page_source = os.path.join(sb.repo_dir(), 'src', 'html', 'templates', page)
         if os.path.exists(page_target) or os.path.islink(page_target):
@@ -447,6 +447,42 @@ def main():
 </head>
 <body>
     <p>Przekierowywanie do <a href="../songbooks.html">katalogu śpiewników</a>...</p>
+</body>
+</html>
+''')
+
+    # Create s directory with index.html for clean /s/ redirector URL
+    s_dir = os.path.join(target_dir, "s")
+    os.makedirs(s_dir, exist_ok=True)
+    s_index_target = os.path.join(s_dir, "index.html")
+    if os.path.exists(s_index_target) or os.path.islink(s_index_target):
+        os.remove(s_index_target)
+    with open(s_index_target, "w", encoding="utf-8") as f:
+        f.write('''<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Przekierowanie śpiewnika - spiewaj.com</title>
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            var sbId = params.get('songbook') || params.get('id');
+            if (!sbId && window.location.search && !window.location.search.includes('=')) {
+                sbId = window.location.search.replace(/^\\?/, '');
+            }
+            if (!sbId && window.location.hash) {
+                sbId = window.location.hash.replace(/^#/, '');
+            }
+            if (sbId) {
+                window.location.replace('../index.html#songbook=' + encodeURIComponent(sbId));
+            } else {
+                window.location.replace('../songbooks.html');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Przekierowywanie do śpiewnika...</p>
 </body>
 </html>
 ''')

@@ -662,7 +662,7 @@ function generateYAMLString() {
         id: songbookId,
         uuid: uuid,
         title: songbookTitle,
-        url: `https://spiewaj.com/#${songbookId}`,
+        url: `https://spiewaj.com/index.html#songbook=${encodeURIComponent(songbookId)}`,
         songs: []
     };
     

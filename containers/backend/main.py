@@ -303,31 +303,43 @@ def prepare_songbook_image(yaml_path: str, work_dir: str):
         import urllib.request
         with open(yaml_path, "r", encoding="utf-8") as f:
             data = yaml.safe_load(f)
-        if not data or "songbook" not in data or "image" not in data["songbook"]:
+        if not data or "songbook" not in data:
             return
-        img_spec = data["songbook"]["image"]
-        if isinstance(img_spec, dict) and "url" in img_spec and img_spec["url"]:
-            img_url = img_spec["url"]
-            ext = ".png"
-            lower_url = img_url.lower()
-            if ".jpg" in lower_url or ".jpeg" in lower_url:
-                ext = ".jpg"
-            elif ".pdf" in lower_url:
-                ext = ".pdf"
-            elif ".svg" in lower_url:
-                ext = ".svg"
-            dest_name = f"cover_image{ext}"
-            dest_path = os.path.join(work_dir, dest_name)
-            req = urllib.request.Request(img_url, headers={"User-Agent": "SpiewajSongbook/1.0"})
-            with urllib.request.urlopen(req, timeout=15) as resp, open(dest_path, "wb") as out:
-                out.write(resp.read())
-            data["songbook"]["image"]["pdf"] = dest_name
-            data["songbook"]["image"]["png"] = dest_name
-            data["songbook"]["image"]["jpg"] = dest_name
-            with open(yaml_path, "w", encoding="utf-8") as f:
-                yaml.dump(data, f)
+
+        sb_data = data["songbook"]
+        sb_id = sb_data.get("id")
+
+        # Ensure custom songbooks render correct reader URL in PDF footer and QR code
+        if sb_id and sb_id != "default_all":
+            curr_url = sb_data.get("url", "")
+            if not curr_url or curr_url in (f"https://spiewaj.com/#{sb_id}", "https://spiewaj.com", "https://spiewaj.com/"):
+                sb_data["url"] = f"https://spiewaj.com/index.html#songbook={sb_id}"
+
+        if "image" in sb_data:
+            img_spec = sb_data["image"]
+            if isinstance(img_spec, dict) and "url" in img_spec and img_spec["url"]:
+                img_url = img_spec["url"]
+                ext = ".png"
+                lower_url = img_url.lower()
+                if ".jpg" in lower_url or ".jpeg" in lower_url:
+                    ext = ".jpg"
+                elif ".pdf" in lower_url:
+                    ext = ".pdf"
+                elif ".svg" in lower_url:
+                    ext = ".svg"
+                dest_name = f"cover_image{ext}"
+                dest_path = os.path.join(work_dir, dest_name)
+                req = urllib.request.Request(img_url, headers={"User-Agent": "SpiewajSongbook/1.0"})
+                with urllib.request.urlopen(req, timeout=15) as resp, open(dest_path, "wb") as out:
+                    out.write(resp.read())
+                sb_data["image"]["pdf"] = dest_name
+                sb_data["image"]["png"] = dest_name
+                sb_data["image"]["jpg"] = dest_name
+
+        with open(yaml_path, "w", encoding="utf-8") as f:
+            yaml.dump(data, f)
     except Exception as e:
-        print(f"Warning: could not process image URL: {e}")
+        print(f"Warning: could not process songbook assets/url: {e}")
 
 class EpubRequest(BaseModel):
     yaml_content: str

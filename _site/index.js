@@ -293,6 +293,12 @@ function checkSongbookFromUrl() {
         const hashMatch = window.location.hash.match(/(?:#|&)songbook=([^&]+)/);
         if (hashMatch) {
             sbId = decodeURIComponent(hashMatch[1]);
+        } else {
+            // Also support direct clean #<songbookId> (e.g. #Osiecka, #dino, #53wdhiz)
+            const rawHash = window.location.hash.replace(/^#/, '').trim();
+            if (rawHash && rawHash !== 'before-search' && !rawHash.includes('=')) {
+                sbId = decodeURIComponent(rawHash);
+            }
         }
     }
 
