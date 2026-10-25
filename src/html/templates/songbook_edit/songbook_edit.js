@@ -1560,18 +1560,31 @@ async function openMySongbooksModal() {
             let dateStr = '';
             if (sb.updatedAt && sb.updatedAt.toDate) {
                 dateStr = sb.updatedAt.toDate().toLocaleDateString('pl-PL');
+            } else if (sb.updatedAt) {
+                dateStr = new Date(sb.updatedAt).toLocaleDateString('pl-PL');
             }
             const isPub = sb.isPublic !== false;
+            const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
             return `
                 <div class="songbook-card">
-                    <div class="songbook-card-info">
-                        <div class="songbook-card-title" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">${escapeHTML(sb.title || sb.id)}</div>
-                        <div class="songbook-card-meta">
-                            <span>ID: <code>${escapeHTML(sb.id)}</code></span>
-                            <span>•</span>
-                            <span>${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}</span>
-                            ${dateStr ? `<span>• ${dateStr}</span>` : ''}
-                            <span class="${isPub ? 'badge-public' : 'badge-private'}">${isPub ? 'Publiczny' : 'Prywatny'}</span>
+                    <div class="songbook-card-main">
+                        ${coverUrl ? `
+                            <img src="${escapeHTML(coverUrl)}" alt="Okładka" class="songbook-card-thumb" onerror="this.style.display='none';if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                            <span class="material-symbols-outlined songbook-card-thumb-icon" style="display:none;">menu_book</span>
+                        ` : `
+                            <span class="material-symbols-outlined songbook-card-thumb-icon">menu_book</span>
+                        `}
+                        <div class="songbook-card-info">
+                            <div class="songbook-card-title" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">
+                                ${escapeHTML(sb.title || sb.id)}
+                            </div>
+                            <div class="songbook-card-meta">
+                                <span>ID: <code>${escapeHTML(sb.id)}</code></span>
+                                <span>•</span>
+                                <span>${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}</span>
+                                ${dateStr ? `<span>•</span><span>${dateStr}</span>` : ''}
+                                <span class="${isPub ? 'badge-public' : 'badge-private'}">${isPub ? 'Publiczny' : 'Prywatny'}</span>
+                            </div>
                         </div>
                     </div>
                     <div class="songbook-card-actions">
