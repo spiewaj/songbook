@@ -419,70 +419,76 @@
 
     <!-- Modal: Udostępnij / Współtwórcy -->
     <div id="modalShare" class="modal-overlay" style="display: none;">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style="max-width: 580px;">
             <div class="modal-header">
-                <h3>👥 Udostępnianie śpiewnika</h3>
+                <h3 style="display: flex; align-items: center; gap: 8px; margin: 0; font-size: 1.25rem;">
+                    <span class="material-symbols-outlined" style="color: #2e7d32; font-size: 1.4rem;">group</span>
+                    Zarządzanie edytorami i udostępnianie
+                </h3>
                 <button class="modal-close-btn" onclick="closeShareModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <div class="share-section">
-                    <label><strong>🌐 Link do czytania (wygląd jak spiewaj.com):</strong></label>
-                    <div style="display: flex; gap: 8px; margin-top: 6px;">
-                        <input type="text" id="shareReaderUrlInput" readonly style="flex: 1;" />
-                        <button class="btn btn-primary" onclick="copyShareReaderUrl()">Kopiuj</button>
-                        <a id="shareReaderOpenBtn" href="#" target="_blank" class="btn btn-secondary" style="text-decoration: none;">Otwórz</a>
+                <!-- Logged-out callout banner -->
+                <div id="shareLoggedOutBox" style="display: none; background: #fffbeb; border: 1px solid #fef3c7; padding: 12px 14px; border-radius: 8px; margin-bottom: 16px;">
+                    <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+                        <div style="display: flex; align-items: center; gap: 8px; color: #92400e; font-size: 0.9rem;">
+                            <span class="material-symbols-outlined" style="color: #f59e0b; font-size: 1.2rem;">lock</span>
+                            <span>Zaloguj się kontem Google, aby zarządzać edytorami i dodawać współtwórców.</span>
+                        </div>
+                        <button class="btn btn-primary btn-sm" onclick="handleShareModalLogin()" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; font-size: 0.88rem;">
+                            <span class="material-symbols-outlined" style="font-size: 1rem;">login</span>
+                            Zaloguj przez Google
+                        </button>
                     </div>
-                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
-                        Ten link otwiera śpiewnik na stronie głównej spiewaj.com z wyszukiwarką i akordami ograniczonymi do wybranych piosenek.
-                    </small>
                 </div>
 
-                <div class="share-section" style="margin-top: 15px;">
-                    <label><strong>🔗 Bezpośredni link do kreatora (dla obecnych edytorów):</strong></label>
-                    <div style="display: flex; gap: 8px; margin-top: 6px;">
-                        <input type="text" id="shareUrlInput" readonly style="flex: 1;" />
-                        <button class="btn btn-secondary" onclick="copyShareUrl()">Kopiuj</button>
+                <!-- Logged-in user banner -->
+                <div id="shareLoggedInBox" style="display: none; font-size: 0.88em; color: #334155; margin-bottom: 16px; background: #f8fafc; border: 1px solid #e2e8f0; padding: 10px 14px; border-radius: 8px; justify-content: space-between; align-items: center;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="material-symbols-outlined" style="color: #10b981; font-size: 1.2rem;">account_circle</span>
+                        <span>Zalogowany jako: <strong id="shareCurrentUserEmail">...</strong></span>
                     </div>
-                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
-                        Ten link jest przeznaczony dla osób z uprawnieniami edycji. Aby nadać prawa nowej osobie, użyj zaproszenia poniżej.
-                    </small>
+                    <span id="shareCurrentUserRoleBadge" class="collaborator-role" style="background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; margin: 0; font-size: 0.75rem;">Edytor</span>
                 </div>
 
-                <div class="share-section" style="margin-top: 20px;">
-                    <div id="shareCurrentUserBox" style="font-size: 0.85em; color: #555; margin-bottom: 12px; background: #f8f9fa; border: 1px solid #e9ecef; padding: 8px 12px; border-radius: 6px;">
-                        Zalogowany jako: <strong id="shareCurrentUserEmail">...</strong>
-                    </div>
-
-                    <label><strong>Współtwórcy (osoby z prawem edycji):</strong></label>
+                <!-- Sekcja 1: Współtwórcy i zarządzanie edytorami -->
+                <div class="share-section" style="margin-top: 0;">
+                    <label style="display: flex; align-items: center; justify-content: space-between;">
+                        <strong>Współtwórcy (osoby z prawem edycji):</strong>
+                    </label>
                     <div id="collaboratorsList" style="margin-top: 8px;">
                         <!-- Rendered list of members -->
                     </div>
 
-                    <!-- Sekcja zapraszania -->
+                    <!-- Sekcja dodawania / zapraszania edytorów -->
                     <div style="margin-top: 18px; background: #fdfdfe; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px;">
-                        <label for="newCollaboratorEmail" style="font-size: 0.95em; font-weight: 600; color: #333; display: flex; align-items: center; gap: 6px;">
-                            <span class="material-symbols-outlined" style="font-size: 1.1rem; color: #2e7d32;">person_add</span>
-                            Zaproś nową osobę do współtworzenia:
+                        <label for="newCollaboratorEmail" style="font-size: 0.95em; font-weight: 600; color: #1e293b; display: flex; align-items: center; gap: 6px;">
+                            <span class="material-symbols-outlined" style="font-size: 1.15rem; color: #2e7d32;">person_add</span>
+                            Dodaj edytora lub wyślij zaproszenie:
                         </label>
                         <p style="font-size: 0.85em; color: #64748b; margin: 4px 0 10px 0;">
-                            Zaproszona osoba otrzyma uprawnienia <strong>Edytora</strong>. Po otwarciu linku i zalogowaniu przez Google śpiewnik pojawi się na jej koncie.
+                            Wpisz adres e-mail, aby nadać uprawnienia edycji śpiewnika lub wygenerować dedykowany link zaproszenia.
                         </p>
                         <div style="display: flex; gap: 8px; margin-top: 5px;">
-                            <input type="email" id="newCollaboratorEmail" placeholder="Adres e-mail zapraszanej osoby (np. znajomy@gmail.com)..." style="flex: 1;" onkeydown="if(event.key==='Enter') handleSendInviteEmail()" />
+                            <input type="email" id="newCollaboratorEmail" placeholder="Adres e-mail zapraszanej osoby (np. znajomy@gmail.com)..." style="flex: 1;" onkeydown="if(event.key==='Enter') handleAddCollaboratorDirectly()" />
                         </div>
                         <div id="inviteActionAlert" style="display: none; margin-top: 10px; padding: 8px 12px; border-radius: 6px; font-size: 0.88em;"></div>
                         <div style="display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap;">
-                            <button class="btn btn-primary" id="btnSendInviteEmail" onclick="handleSendInviteEmail()" style="display: inline-flex; align-items: center; gap: 6px;">
-                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">send</span>
-                                Wyślij zaproszenie e-mail
+                            <button class="btn btn-primary" id="btnAddEditorDirectly" onclick="handleAddCollaboratorDirectly()" style="display: inline-flex; align-items: center; gap: 6px;" title="Dodaj użytkownika bezpośrednio jako edytora (jeśli ma już konto w serwisie)">
+                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">person_add</span>
+                                Dodaj edytora
                             </button>
-                            <button class="btn btn-secondary" id="btnCreateInviteLink" onclick="handleCreateInviteLink()" style="display: inline-flex; align-items: center; gap: 6px;">
+                            <button class="btn btn-secondary" id="btnSendInviteEmail" onclick="handleSendInviteEmail()" style="display: inline-flex; align-items: center; gap: 6px;" title="Wyślij oficjalne zaproszenie e-mail z powiadomienia@spiewaj.com">
+                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">send</span>
+                                Wyślij e-mail z zaproszeniem
+                            </button>
+                            <button class="btn btn-outline" id="btnCreateInviteLink" onclick="handleCreateInviteLink()" style="display: inline-flex; align-items: center; gap: 6px;" title="Wygeneruj unikalny link i skopiuj go do schowka">
                                 <span class="material-symbols-outlined" style="font-size: 1.1rem;">link</span>
                                 Kopiuj link z zaproszeniem
                             </button>
-                            <button class="btn btn-outline" id="btnCopyInviteMessage" onclick="handleCopyInviteMessage()" style="display: inline-flex; align-items: center; gap: 6px;">
+                            <button class="btn btn-outline" id="btnCopyInviteMessage" onclick="handleCopyInviteMessage()" style="display: inline-flex; align-items: center; gap: 6px;" title="Skopiuj gotową wiadomość z linkiem do wklejenia na komunikatorze">
                                 <span class="material-symbols-outlined" style="font-size: 1.1rem;">content_copy</span>
-                                Kopiuj treść zaproszenia
+                                Kopiuj treść
                             </button>
                         </div>
                     </div>
@@ -497,6 +503,32 @@
                             <!-- Rendered pending invites -->
                         </div>
                     </div>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 24px 0 16px 0;" />
+
+                <!-- Sekcja 2: Linki do udostępniania -->
+                <div class="share-section">
+                    <label><strong>🌐 Link do czytania (wygląd jak spiewaj.com):</strong></label>
+                    <div style="display: flex; gap: 8px; margin-top: 6px;">
+                        <input type="text" id="shareReaderUrlInput" readonly style="flex: 1;" />
+                        <button class="btn btn-primary" onclick="copyShareReaderUrl()">Kopiuj</button>
+                        <a id="shareReaderOpenBtn" href="#" target="_blank" class="btn btn-secondary" style="text-decoration: none;">Otwórz</a>
+                    </div>
+                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
+                        Ten link otwiera śpiewnik na stronie głównej spiewaj.com z wyszukiwarką i akordami ograniczonymi do wybranych piosenek.
+                    </small>
+                </div>
+
+                <div class="share-section" style="margin-top: 15px;">
+                    <label><strong>🔗 Bezpośredni link do kreatora (dla edytorów):</strong></label>
+                    <div style="display: flex; gap: 8px; margin-top: 6px;">
+                        <input type="text" id="shareUrlInput" readonly style="flex: 1;" />
+                        <button class="btn btn-secondary" onclick="copyShareUrl()">Kopiuj</button>
+                    </div>
+                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
+                        Ten link otwiera kreator śpiewnika bezpośrednio dla osób z uprawnieniami edycji.
+                    </small>
                 </div>
             </div>
             <div class="modal-footer">

@@ -292,12 +292,16 @@ export const FirebaseSongbook = {
         }
 
         // Build ownerIds list
-        const ownerSet = new Set(existingData?.ownerIds || []);
-        ownerSet.add(user.uid);
-        if (Array.isArray(additionalOwnerIds)) {
-            additionalOwnerIds.forEach(uid => ownerSet.add(uid));
+        let ownerIds;
+        if (Array.isArray(additionalOwnerIds) && additionalOwnerIds.length > 0) {
+            const ownerSet = new Set(additionalOwnerIds);
+            ownerSet.add(user.uid);
+            ownerIds = Array.from(ownerSet);
+        } else {
+            const ownerSet = new Set(existingData?.ownerIds || []);
+            ownerSet.add(user.uid);
+            ownerIds = Array.from(ownerSet);
         }
-        const ownerIds = Array.from(ownerSet);
 
         // Members metadata map
         const members = customMembers !== null ? { ...customMembers } : { ...(existingData?.members || {}) };
@@ -790,6 +794,147 @@ export const FirebaseSongbook = {
             ...sbData,
             ...updatePayload
         };
+    },
+
+    /**
+     * Remove a collaborator from a songbook.
+     * @param {string} songbookId - Songbook ID
+     * @param {string} uidToRemove - UID of collaborator to remove
+     * @returns {Promise<Object>} { ownerIds, members }
+     */
+    async removeCollaborator(songbookId, uidToRemove) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby zarządzać współtwórcami.");
+        }
+        if (!songbookId || !uidToRemove) {
+            throw new Error("Brak identyfikatora śpiewnika lub użytkownika.");
+        }
+
+        const songbookRef = doc(db, "songbooks", songbookId);
+        const sbSnap = await getDoc(songbookRef);
+        if (!sbSnap.exists()) {
+            throw new Error("Śpiewnik nie istnieje.");
+        }
+
+        const sbData = sbSnap.data();
+        const isAdmin = this.isAdmin(user);
+        const isOwner = (Array.isArray(sbData.ownerIds) && sbData.ownerIds.includes(user.uid)) ||
+                        sbData.creatorId === user.uid ||
+                        sbData.ownerId === user.uid ||
+                        isAdmin;
+
+        if (!isOwner) {
+            throw new Error("Brak uprawnień do zarządzania współtwórcami tego śpiewnika.");
+        }
+
+        // Creator cannot be removed except by admin
+        if (sbData.creatorId && uidToRemove === sbData.creatorId && !isAdmin) {
+            throw new Error("Nie można odebrać uprawnień właścicielowi śpiewnika.");
+        }
+
+        const updatedOwnerIds = (sbData.ownerIds || []).filter(u => u !== uidToRemove);
+        const updatedMembers = { ...(sbData.members || {}) };
+        delete updatedMembers[uidToRemove];
+
+        const updatePayload = {
+            ownerIds: updatedOwnerIds,
+            members: updatedMembers,
+            updatedAt: serverTimestamp()
+        };
+
+        await setDoc(songbookRef, updatePayload, { merge: true });
+
+        return {
+            ownerIds: updatedOwnerIds,
+            members: updatedMembers
+        };
+    },
+
+    /**
+     * Add a collaborator by email. If registered user exists, grants immediate editor access.
+     * If user is not yet registered, creates a pending invite.
+     * @param {string} songbookId
+     * @param {string} email
+     * @param {string} [role='editor']
+     * @returns {Promise<Object>} { addedDirectly: boolean, targetUser?, invite?, ownerIds?, members? }
+     */
+    async addCollaboratorByEmail(songbookId, email, role = 'editor') {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby dodawać edytorów.");
+        }
+        const cleanEmail = (email || '').trim().toLowerCase();
+        if (!cleanEmail || !cleanEmail.includes('@')) {
+            throw new Error("Podaj prawidłowy adres e-mail.");
+        }
+
+        const songbookRef = doc(db, "songbooks", songbookId);
+        const sbSnap = await getDoc(songbookRef);
+        if (!sbSnap.exists()) {
+            throw new Error("Śpiewnik nie istnieje.");
+        }
+
+        const sbData = sbSnap.data();
+        const isAdmin = this.isAdmin(user);
+        const isOwner = (Array.isArray(sbData.ownerIds) && sbData.ownerIds.includes(user.uid)) ||
+                        sbData.creatorId === user.uid ||
+                        sbData.ownerId === user.uid ||
+                        isAdmin;
+
+        if (!isOwner) {
+            throw new Error("Brak uprawnień do dodawania współtwórców tego śpiewnika.");
+        }
+
+        // Search if registered user exists with this email
+        let targetUser = null;
+        try {
+            targetUser = await this.findUserByEmail(cleanEmail);
+        } catch (e) {
+            console.warn("Could not query users by email:", e);
+        }
+
+        if (targetUser && targetUser.uid) {
+            const ownerSet = new Set(sbData.ownerIds || []);
+            ownerSet.add(targetUser.uid);
+            const updatedOwnerIds = Array.from(ownerSet);
+
+            const updatedMembers = { ...(sbData.members || {}) };
+            updatedMembers[targetUser.uid] = {
+                role: role || 'editor',
+                email: targetUser.email || cleanEmail,
+                displayName: targetUser.displayName || '',
+                addedAt: new Date().toISOString()
+            };
+
+            const updatePayload = {
+                ownerIds: updatedOwnerIds,
+                members: updatedMembers,
+                updatedAt: serverTimestamp()
+            };
+
+            await setDoc(songbookRef, updatePayload, { merge: true });
+
+            return {
+                addedDirectly: true,
+                targetUser,
+                ownerIds: updatedOwnerIds,
+                members: updatedMembers
+            };
+        } else {
+            // Not registered yet -> create invite
+            const invite = await this.createInvite({
+                songbookId,
+                songbookTitle: sbData.title || songbookId,
+                inviteeEmail: cleanEmail,
+                role
+            });
+
+            return {
+                addedDirectly: false,
+                invite
+            };
+        }
     }
 };
 

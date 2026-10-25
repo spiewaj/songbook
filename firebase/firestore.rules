@@ -72,9 +72,10 @@ service cloud.firestore {
         isAdmin()
       );
 
-      // Deleting invites: inviter or admin
+      // Deleting invites: inviter, songbook owner, or admin
       allow delete: if isAuthenticated() && (
         (resource.data.inviterUid == request.auth.uid) ||
+        isSongbookOwner(get(/databases/$(database)/documents/songbooks/$(resource.data.songbookId)).data) ||
         isAdmin()
       );
     }
