@@ -9,6 +9,8 @@ songbook:
     im. gen. Ignacego Prądzyńskiego
   place: "Warszawa"
   image:
+    svg: "songbooks/wdw21/znak21.svg"
+    pdf: "songbooks/wdw21/znak21.pdf"
     jpg: "songbooks/wdw21/znak21.jpg"
   songs:
     - glob: "songs/**/*.xml"

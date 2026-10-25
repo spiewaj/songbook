@@ -120,7 +120,12 @@ def build_custom_songbook(yaml_rel_path, cover_url, cover_name, cover_size, all_
     resolved_song_ids = resolve_song_ids(sb_spec.get("songs", []), all_songs)
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    image_type = "image/jpeg" if cover_name.lower().endswith((".jpg", ".jpeg")) else "image/png"
+    if cover_name.lower().endswith(".svg"):
+        image_type = "image/svg+xml"
+    elif cover_name.lower().endswith((".jpg", ".jpeg")):
+        image_type = "image/jpeg"
+    else:
+        image_type = "image/png"
     image_meta = {
         "name": cover_name,
         "path": f"songbooks/{sb_id}/assets/{cover_name}",
@@ -205,21 +210,21 @@ def main():
     songbooks_to_convert = [
         {
             "yaml_path": "songbooks/53wdhiz.yaml",
-            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F53wdhiz%2Fassets%2Flogo.png?alt=media",
-            "cover_name": "logo.png",
-            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "53wdhiz", "logo.png")),
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F53wdhiz%2Fassets%2Flogo.svg?alt=media",
+            "cover_name": "logo.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "53wdhiz", "logo.svg")),
         },
         {
             "yaml_path": "songbooks/spiewnik_lupienicki.songbook.yaml",
-            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2Fspiewnik_lupienicki%2Fassets%2Flupienice.png?alt=media",
-            "cover_name": "lupienice.png",
-            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "spiewnik_lupienicki", "lupienice.png")),
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2Fspiewnik_lupienicki%2Fassets%2Flupienice.svg?alt=media",
+            "cover_name": "lupienice.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "spiewnik_lupienicki", "lupienice.svg")),
         },
         {
             "yaml_path": "songbooks/21wdw.yaml",
-            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F21wdw%2Fassets%2Fznak21.jpg?alt=media",
-            "cover_name": "znak21.jpg",
-            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "wdw21", "znak21.jpg")),
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F21wdw%2Fassets%2Fznak21.svg?alt=media",
+            "cover_name": "znak21.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "wdw21", "znak21.svg")),
         }
     ]
 
