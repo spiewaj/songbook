@@ -134,18 +134,11 @@ def build_custom_songbook(yaml_rel_path, cover_url, cover_name, cover_size, all_
         "url": cover_url
     }
 
-    if sb_id == "21wdw":
-        artifacts = {
-            "epub": "https://spiewaj.com/default_all.epub",
-            "pdf_a5": "https://spiewaj.com/songs_tex/default_all_a5.pdf",
-            "pdf_a4": "https://spiewaj.com/songs_tex/default_all_a4.pdf"
-        }
-    else:
-        artifacts = {
-            "epub": f"https://spiewaj.com/{sb_id}.epub",
-            "pdf_a5": f"https://spiewaj.com/songs_tex/{sb_id}_a5.pdf",
-            "pdf_a4": f"https://spiewaj.com/songs_tex/{sb_id}_a4.pdf"
-        }
+    artifacts = {
+        "epub": f"https://spiewaj.com/{sb_id}.epub",
+        "pdf_a5": f"https://spiewaj.com/songs_tex/{sb_id}_a5.pdf",
+        "pdf_a4": f"https://spiewaj.com/songs_tex/{sb_id}_a4.pdf"
+    }
 
     doc_data = {
         "id": sb_id,

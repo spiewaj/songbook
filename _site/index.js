@@ -117,9 +117,9 @@ const STATIC_SONGBOOK_ARTIFACTS = {
     },
     '21wdw': {
         title: 'Śpiewnik 21 WDW',
-        epub: 'default_all.epub',
-        pdf_a5: 'songs_tex/default_all_a5.pdf',
-        pdf_a4: 'songs_tex/default_all_a4.pdf'
+        epub: '21wdw.epub',
+        pdf_a5: 'songs_tex/21wdw_a5.pdf',
+        pdf_a4: 'songs_tex/21wdw_a4.pdf'
     }
 };
 
