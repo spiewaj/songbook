@@ -1,0 +1,14 @@
+songbook:
+  id: "21wdw"
+  uuid: "21212121-wdw2-4121-8121-212121212121"
+  title: "Śpiewnik 21 WDW"
+  subtitle: "Warszawska Drużyna Wędrownicza"
+  url: "https://spiewaj.com/#21wdw"
+  publisher: |
+    21. Warszawska Drużyna Harcerska ,,Stare Żbiki''
+    im. gen. Ignacego Prądzyńskiego
+  place: "Warszawa"
+  image:
+    jpg: "songbooks/wdw21/znak21.jpg"
+  songs:
+    - glob: "songs/**/*.xml"
