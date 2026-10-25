@@ -580,6 +580,215 @@ export const FirebaseSongbook = {
         );
         const snapshot = await getDocs(q);
         return snapshot.docs.map(doc => doc.data());
+    },
+
+    /**
+     * Create an invitation for a songbook.
+     * @param {Object} params
+     * @param {string} params.songbookId
+     * @param {string} params.songbookTitle
+     * @param {string} [params.inviteeEmail] - optional target email
+     * @param {string} [params.role] - role to grant (defaults to 'editor')
+     * @returns {Promise<Object>} Created invite document data
+     */
+    async createInvite({ songbookId, songbookTitle, inviteeEmail = '', role = 'editor' }) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby wysłać zaproszenie.");
+        }
+        if (!songbookId) {
+            throw new Error("Brak identyfikatora śpiewnika.");
+        }
+
+        // Generate a clean random token
+        const token = 'inv_' + Date.now().toString(36) + '_' + Math.random().toString(36).substring(2, 9);
+        const inviteRef = doc(db, "invites", token);
+        const cleanEmail = (inviteeEmail || '').trim().toLowerCase();
+
+        const inviteData = {
+            id: token,
+            songbookId,
+            songbookTitle: songbookTitle || songbookId,
+            inviterUid: user.uid,
+            inviterEmail: user.email || '',
+            inviterName: user.displayName || user.email || 'Współtwórca',
+            inviteeEmail: cleanEmail,
+            role: role || 'editor',
+            status: 'pending',
+            createdAt: serverTimestamp()
+        };
+
+        await setDoc(inviteRef, inviteData);
+
+        return {
+            ...inviteData,
+            inviteUrl: this.buildInviteUrl(token)
+        };
+    },
+
+    /**
+     * Build full invite URL based on current host.
+     * @param {string} token
+     * @returns {string}
+     */
+    buildInviteUrl(token) {
+        if (typeof window === 'undefined') return `https://spiewaj.com/songbook_edit.html?invite=${token}`;
+        const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
+        return `${baseUrl}songbook_edit.html?invite=${encodeURIComponent(token)}`;
+    },
+
+    /**
+     * Fetch an invite by token.
+     * @param {string} token
+     * @returns {Promise<Object|null>}
+     */
+    async fetchInvite(token) {
+        if (!token) return null;
+        try {
+            const inviteRef = doc(db, "invites", token.trim());
+            const snap = await getDoc(inviteRef);
+            if (snap.exists()) {
+                return snap.data();
+            }
+        } catch (e) {
+            console.warn("Could not fetch invite:", e);
+        }
+        return null;
+    },
+
+    /**
+     * Fetch all pending invites for a given songbook.
+     * @param {string} songbookId
+     * @returns {Promise<Array<Object>>}
+     */
+    async fetchPendingInvitesForSongbook(songbookId) {
+        if (!songbookId) return [];
+        try {
+            const q = query(
+                collection(db, "invites"),
+                where("songbookId", "==", songbookId),
+                where("status", "==", "pending")
+            );
+            const snap = await getDocs(q);
+            const list = snap.docs.map(d => d.data());
+            list.sort((a, b) => {
+                const ta = a.createdAt?.seconds || 0;
+                const tb = b.createdAt?.seconds || 0;
+                return tb - ta;
+            });
+            return list;
+        } catch (e) {
+            console.warn("Could not fetch pending invites for songbook:", e);
+            return [];
+        }
+    },
+
+    /**
+     * Fetch pending invites addressed to current user's email.
+     * @returns {Promise<Array<Object>>}
+     */
+    async fetchMyPendingInvites() {
+        const user = auth.currentUser;
+        if (!user || !user.email) return [];
+        try {
+            const cleanEmail = user.email.trim().toLowerCase();
+            const q = query(
+                collection(db, "invites"),
+                where("inviteeEmail", "==", cleanEmail),
+                where("status", "==", "pending")
+            );
+            const snap = await getDocs(q);
+            return snap.docs.map(d => d.data());
+        } catch (e) {
+            console.warn("Could not fetch user pending invites:", e);
+            return [];
+        }
+    },
+
+    /**
+     * Revoke / cancel an invite.
+     * @param {string} inviteId
+     */
+    async revokeInvite(inviteId) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby anulować zaproszenie.");
+        }
+        if (!inviteId) return;
+        const inviteRef = doc(db, "invites", inviteId.trim());
+        await deleteDoc(inviteRef);
+        return true;
+    },
+
+    /**
+     * Accept an invite and grant editor privileges in the songbook.
+     * @param {string} inviteId
+     * @returns {Promise<Object>} Updated songbook document
+     */
+    async acceptInvite(inviteId) {
+        const user = auth.currentUser;
+        if (!user) {
+            throw new Error("Musisz być zalogowany, aby dołączyć do śpiewnika.");
+        }
+        if (!inviteId) {
+            throw new Error("Brak identyfikatora zaproszenia.");
+        }
+
+        const cleanInviteId = inviteId.trim();
+        const inviteRef = doc(db, "invites", cleanInviteId);
+        const inviteSnap = await getDoc(inviteRef);
+        if (!inviteSnap.exists()) {
+            throw new Error("Nie znaleziono zaproszenia lub zostało anulowane.");
+        }
+
+        const invite = inviteSnap.data();
+        if (invite.status !== 'pending') {
+            throw new Error("To zaproszenie zostało już wykorzystane.");
+        }
+
+        const songbookId = invite.songbookId;
+        const songbookRef = doc(db, "songbooks", songbookId);
+        const sbSnap = await getDoc(songbookRef);
+        if (!sbSnap.exists()) {
+            throw new Error("Śpiewnik powiązany z tym zaproszeniem nie istnieje.");
+        }
+
+        const sbData = sbSnap.data();
+
+        // 1. Mark invite accepted
+        await setDoc(inviteRef, {
+            status: 'accepted',
+            acceptedByUid: user.uid,
+            acceptedByEmail: user.email || '',
+            acceptedAt: serverTimestamp()
+        }, { merge: true });
+
+        // 2. Add user to ownerIds and members
+        const ownerSet = new Set(sbData.ownerIds || []);
+        ownerSet.add(user.uid);
+        const updatedOwnerIds = Array.from(ownerSet);
+
+        const updatedMembers = { ...(sbData.members || {}) };
+        updatedMembers[user.uid] = {
+            role: invite.role || 'editor',
+            email: user.email || '',
+            displayName: user.displayName || '',
+            addedAt: new Date().toISOString(),
+            inviteId: cleanInviteId
+        };
+
+        const updatePayload = {
+            ownerIds: updatedOwnerIds,
+            members: updatedMembers,
+            updatedAt: serverTimestamp()
+        };
+
+        await setDoc(songbookRef, updatePayload, { merge: true });
+
+        return {
+            ...sbData,
+            ...updatePayload
+        };
     }
 };
 

@@ -90,6 +90,132 @@ function filterSongs() {
     }
 }
 
+const STATIC_SONGBOOK_ARTIFACTS = {
+    '53wdhiz': {
+        title: 'Śpiewnik 53 WDHiZ',
+        epub: '53wdhiz.epub',
+        pdf_a5: 'songs_tex/53wdhiz_a5.pdf',
+        pdf_a4: 'songs_tex/53wdhiz_a4.pdf'
+    },
+    'spiewnik_lupienicki': {
+        title: 'Śpiewnik Łupienicki',
+        epub: 'spiewnik_lupienicki.epub',
+        pdf_a5: 'songs_tex/spiewnik_lupienicki_a5.pdf',
+        pdf_a4: 'songs_tex/spiewnik_lupienicki_a4.pdf'
+    },
+    'dino': {
+        title: 'Śpiewnik Dino',
+        epub: 'dino.epub',
+        pdf_a5: 'songs_tex/dino_a5.pdf',
+        pdf_a4: 'songs_tex/dino_a4.pdf'
+    },
+    'default_all': {
+        title: 'Śpiewnik główny',
+        epub: 'default_all.epub',
+        pdf_a5: 'songs_tex/default_all_a5.pdf',
+        pdf_a4: 'songs_tex/default_all_a4.pdf'
+    }
+};
+
+function safeEscape(text) {
+    if (typeof escapeHtml === 'function') {
+        return escapeHtml(text);
+    }
+    if (!text) return '';
+    return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+function updateQuickDownloadBanner(songbookId, title, doc, draftData) {
+    const titleEl = document.getElementById('quickDownloadTitle');
+    const badgesEl = document.getElementById('quickDownloadBadges');
+    if (!titleEl || !badgesEl) return;
+
+    if (!songbookId || songbookId === 'default_all') {
+        resetQuickDownloadBanner();
+        return;
+    }
+
+    const staticArt = STATIC_SONGBOOK_ARTIFACTS[songbookId] || {};
+    const artifacts = (doc && doc.artifacts) || (draftData && draftData.artifacts) || null;
+
+    const epub = (artifacts && artifacts.epub) || staticArt.epub || null;
+    const pdf_a5 = (artifacts && artifacts.pdf_a5) || staticArt.pdf_a5 || null;
+    const pdf_a4 = (artifacts && artifacts.pdf_a4) || staticArt.pdf_a4 || null;
+
+    const displayTitle = title || (doc && doc.title) || (draftData && draftData.title) || staticArt.title || songbookId;
+    titleEl.textContent = `${displayTitle}:`;
+
+    const badges = [];
+    if (epub) {
+        badges.push(
+            `<a href="${safeEscape(epub)}" class="badge-download badge-epub" title="Pobierz na Kindle i czytniki (EPUB)" target="_blank" rel="noopener">` +
+            `<span class="material-symbols-outlined">tablet_android</span> EPUB (Kindle)` +
+            `</a>`
+        );
+    }
+    if (pdf_a5) {
+        badges.push(
+            `<a href="${safeEscape(pdf_a5)}" class="badge-download badge-pdf-a5" title="Pobierz PDF w formacie A5 do druku" target="_blank" rel="noopener">` +
+            `<span class="material-symbols-outlined">picture_as_pdf</span> PDF A5` +
+            `</a>`
+        );
+    }
+    if (pdf_a4) {
+        badges.push(
+            `<a href="${safeEscape(pdf_a4)}" class="badge-download badge-pdf-a4" title="Pobierz PDF w formacie A4" target="_blank" rel="noopener">` +
+            `<span class="material-symbols-outlined">picture_as_pdf</span> PDF A4` +
+            `</a>`
+        );
+    }
+
+    if (badges.length > 0) {
+        badges.push(
+            `<a href="songbooks.html" class="quick-download-more" title="Zobacz wszystkie śpiewniki i formaty">` +
+            `Więcej wydań →` +
+            `</a>`
+        );
+        badgesEl.innerHTML = badges.join('');
+    } else {
+        badgesEl.innerHTML = `
+            <span style="color: #6c757d; font-size: 0.85rem; font-style: italic;">
+                Brak gotowych plików PDF/EPUB dla tego śpiewnika.
+            </span>
+            <a href="songbooks.html" class="quick-download-more" title="Zobacz wszystkie śpiewniki i formaty">
+                Więcej wydań →
+            </a>
+        `;
+    }
+}
+
+function resetQuickDownloadBanner() {
+    const titleEl = document.getElementById('quickDownloadTitle');
+    const badgesEl = document.getElementById('quickDownloadBadges');
+    if (titleEl) {
+        titleEl.textContent = 'Śpiewnik główny:';
+    }
+    if (badgesEl) {
+        badgesEl.innerHTML = `
+            <a href="default_all.epub" class="badge-download badge-epub" title="Pobierz na Kindle i czytniki (EPUB)">
+                <span class="material-symbols-outlined">tablet_android</span> EPUB (Kindle)
+            </a>
+            <a href="songs_tex/default_all_a5.pdf" class="badge-download badge-pdf-a5" title="Pobierz PDF w formacie A5 do druku">
+                <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+            </a>
+            <a href="songs_tex/default_all_a4.pdf" class="badge-download badge-pdf-a4" title="Pobierz PDF w formacie A4">
+                <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+            </a>
+            <a href="songbooks.html" class="quick-download-more" title="Zobacz wszystkie śpiewniki i formaty">
+                Więcej wydań →
+            </a>
+        `;
+    }
+}
+
 async function loadSongbookFilter(songbookId) {
     if (!songbookId) return;
 
@@ -101,6 +227,14 @@ async function loadSongbookFilter(songbookId) {
     const noteEl = document.getElementById('songbook-filter-note');
     const imgEl = document.getElementById('songbook-filter-image');
     const defaultIcon = document.getElementById('songbook-filter-default-icon');
+
+    // Optimistically update quick download banner if known
+    if (STATIC_SONGBOOK_ARTIFACTS[songbookId]) {
+        updateQuickDownloadBanner(songbookId, STATIC_SONGBOOK_ARTIFACTS[songbookId].title, null, null);
+    } else {
+        const qTitleEl = document.getElementById('quickDownloadTitle');
+        if (qTitleEl) qTitleEl.textContent = `${songbookId}:`;
+    }
 
     if (banner) {
         banner.style.display = 'flex';
@@ -244,10 +378,17 @@ async function loadSongbookFilter(songbookId) {
                 : `<span class="material-symbols-outlined">edit</span> Edytuj`;
         }
 
+        updateQuickDownloadBanner(songbookId, activeSongbookFilter.title, doc, draftData);
+
         filterSongs();
 
     } catch (err) {
         console.warn("Błąd filtrowania śpiewnika:", err);
+        if (STATIC_SONGBOOK_ARTIFACTS[songbookId]) {
+            updateQuickDownloadBanner(songbookId, STATIC_SONGBOOK_ARTIFACTS[songbookId].title, null, null);
+        } else {
+            resetQuickDownloadBanner();
+        }
         if (banner) {
             banner.classList.add('warning');
             if (titleEl) titleEl.textContent = err.message || "Błąd wczytywania śpiewnika";
@@ -271,6 +412,8 @@ function clearSongbookFilter() {
     } catch (e) {}
     const banner = document.getElementById('songbook-filter-banner');
     if (banner) banner.style.display = 'none';
+
+    resetQuickDownloadBanner();
 
     // Remove hash without page jump
     if (window.location.hash) {
@@ -310,6 +453,8 @@ function checkSongbookFromUrl() {
         } catch (e) {}
         if (activeSongbookFilter) {
             clearSongbookFilter();
+        } else {
+            resetQuickDownloadBanner();
         }
     }
 }
@@ -339,3 +484,5 @@ window.filterSongs = filterSongs;
 window.loadSongbookFilter = loadSongbookFilter;
 window.clearSongbookFilter = clearSongbookFilter;
 window.checkSongbookFromUrl = checkSongbookFromUrl;
+window.updateQuickDownloadBanner = updateQuickDownloadBanner;
+window.resetQuickDownloadBanner = resetQuickDownloadBanner;

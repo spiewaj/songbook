@@ -79,13 +79,15 @@ function escapeHtml(text) {
         }
 
         if (sbId) {
-            const returnLinks = document.querySelectorAll('a[href^="../index.html"], a[href^="index.html"]');
+            const returnLinks = document.querySelectorAll('a[href^="../index.html"], a[href^="index.html"], a[href="/"], a[href^="/#"]');
             returnLinks.forEach(link => {
                 const rawHref = link.getAttribute('href');
-                if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref.includes('#songbook=')) {
+                if (rawHref === '../index.html' || rawHref === 'index.html' || rawHref === '/' || rawHref.includes('#songbook=') || rawHref.startsWith('/#')) {
                     if (link.classList.contains('nav-return') || link.textContent.includes('Powrót')) {
-                        const cleanBase = rawHref.split('#')[0].split('?')[0];
-                        link.setAttribute('href', `${cleanBase}#${encodeURIComponent(sbId)}`);
+                        const targetHref = (rawHref === '/' || rawHref.startsWith('/#'))
+                            ? `/#${encodeURIComponent(sbId)}`
+                            : `${rawHref.split('#')[0].split('?')[0]}#${encodeURIComponent(sbId)}`;
+                        link.setAttribute('href', targetHref);
                         link.innerHTML = '<span class="material-symbols-outlined">arrow_back</span> Powrót do śpiewnika';
                     }
                 }

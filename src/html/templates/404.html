@@ -13,7 +13,7 @@
                 var sbId = decodeURIComponent(match[1]);
                 var search = window.location.search || '';
                 var hash = window.location.hash || '';
-                window.location.replace('/index.html#' + encodeURIComponent(sbId) + (hash ? '&' + hash.replace(/^#/, '') : ''));
+                window.location.replace('/#' + encodeURIComponent(sbId) + (hash ? '&' + hash.replace(/^#/, '') : ''));
                 return;
             }
         })();
@@ -85,7 +85,7 @@
         <h1>404</h1>
         <p>Nie znaleziono żądanej strony lub śpiewnika.</p>
         <div class="btn-group">
-            <a href="/index.html" class="btn btn-primary">Wszystkie piosenki</a>
+            <a href="/" class="btn btn-primary">Wszystkie piosenki</a>
             <a href="/songbooks.html" class="btn btn-secondary">Katalog śpiewników</a>
         </div>
     </div>
