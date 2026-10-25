@@ -715,3 +715,112 @@ async def download_published(
 
     raise HTTPException(status_code=404, detail="Published artifact not found")
 
+
+class InviteEmailRequest(BaseModel):
+    invitee_email: str
+    inviter_name: Optional[str] = None
+    inviter_email: Optional[str] = None
+    songbook_title: str
+    invite_url: str
+
+
+@app.post("/api/invite/send")
+async def send_invite_email(request: InviteEmailRequest):
+    resend_api_key = os.environ.get("RESEND_API_KEY")
+    if not resend_api_key:
+        raise HTTPException(status_code=500, detail="RESEND_API_KEY is not configured on the server.")
+
+    if not request.invitee_email or "@" not in request.invitee_email:
+        raise HTTPException(status_code=400, detail="Nieprawidłowy adres e-mail odbiorcy.")
+
+    inviter_display = request.inviter_name if request.inviter_name else (request.inviter_email or "Twórca śpiewnika")
+    subject = f"Zaproszenie do współtworzenia śpiewnika: {request.songbook_title}"
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <style>
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #2d3748; background-color: #f7fafc; margin: 0; padding: 20px; }}
+        .container {{ max-width: 580px; margin: 0 auto; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 32px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }}
+        .brand {{ text-align: center; margin-bottom: 24px; }}
+        .brand-title {{ font-size: 24px; font-weight: bold; color: #2e7d32; text-decoration: none; }}
+        .title-box {{ background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 16px; margin: 20px 0; }}
+        .songbook-name {{ font-size: 18px; font-weight: bold; color: #166534; }}
+        .role-badge {{ display: inline-block; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-size: 13px; font-weight: 600; margin-top: 6px; }}
+        .btn-container {{ text-align: center; margin: 28px 0; }}
+        .btn {{ display: inline-block; background-color: #2e7d32; color: #ffffff !important; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 16px; }}
+        .info-text {{ font-size: 14px; color: #4b5563; line-height: 1.5; }}
+        .footer {{ margin-top: 32px; font-size: 12px; color: #9ca3af; text-align: center; border-top: 1px solid #f3f4f6; padding-top: 16px; }}
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="brand">
+          <span class="brand-title">🎶 spiewaj.com</span>
+        </div>
+        <p>Cześć!</p>
+        <p><strong>{inviter_display}</strong> zaprasza Cię do współtworzenia śpiewnika w serwisie <strong>spiewaj.com</strong>.</p>
+        
+        <div class="title-box">
+          <div class="songbook-name">📖 {request.songbook_title}</div>
+          <div class="role-badge">Rola: Edytor</div>
+        </div>
+
+        <p class="info-text">
+          Jako edytor zyskujesz prawo do edycji piosenek, dodawania nowych utworów oraz zapisywania wydań śpiewnika.
+        </p>
+
+        <div class="btn-container">
+          <a href="{request.invite_url}" class="btn">Dołącz do śpiewnika</a>
+        </div>
+
+        <p class="info-text" style="font-size: 13px; color: #6b7280;">
+          Po otwarciu linku zaloguj się swoim kontem Google, a śpiewnik pojawi się na Twojej liście śpiewników w chmurze.
+        </p>
+
+        <p class="info-text" style="font-size: 12px; color: #9ca3af; word-break: break-all; margin-top: 20px;">
+          Gdyby przycisk nie działał, przejdź pod ten adres:<br>
+          <a href="{request.invite_url}" style="color: #2e7d32;">{request.invite_url}</a>
+        </p>
+
+        <div class="footer">
+          Wiadomość wysłana z serwisu <a href="https://spiewaj.com" style="color: #9ca3af;">spiewaj.com</a>.
+        </div>
+      </div>
+    </body>
+    </html>
+    """
+
+    payload = {
+        "from": "Śpiewnik spiewaj.com <powiadomienia@spiewaj.com>",
+        "to": [request.invitee_email],
+        "subject": subject,
+        "html": html_content
+    }
+    if request.inviter_email:
+        payload["reply_to"] = request.inviter_email
+
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {resend_api_key}",
+            "Content-Type": "application/json"
+        },
+        method="POST"
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            return JSONResponse(content={"status": "sent", "resend_id": res_data.get("id")})
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8")
+        print(f"Resend API error: {e.code} - {err_body}")
+        raise HTTPException(status_code=502, detail=f"Błąd wysyłki e-mail przez Resend: {err_body}")
+    except Exception as e:
+        print(f"Exception sending invite email: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
