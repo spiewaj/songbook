@@ -868,6 +868,15 @@ function loadFromYAMLString(content, cloudDoc = null) {
         });
     }
     
+    // Fallback: If cloudDoc has resolvedSongIds and glob parsing matched fewer songs, ensure all resolvedSongIds are present
+    if (cloudDoc && Array.isArray(cloudDoc.resolvedSongIds) && cloudDoc.resolvedSongIds.length > selectedSongIds.size) {
+        for (const songId of cloudDoc.resolvedSongIds) {
+            if (songById.has(songId)) {
+                selectedSongIds.add(songId);
+            }
+        }
+    }
+    
     // Render updates
     renderDynamicFilters();
     renderSongList();
