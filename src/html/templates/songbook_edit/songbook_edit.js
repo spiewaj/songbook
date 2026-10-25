@@ -1732,6 +1732,68 @@ function openReaderPage() {
     window.open(readerUrl, '_blank');
 }
 
+function canManageCollaborators() {
+    if (!currentUser) return false;
+    if (window.FirebaseSongbook && window.FirebaseSongbook.isAdmin(currentUser)) return true;
+    if (!currentCloudSongbook) return false;
+    if (currentCloudSongbook.creatorId && currentCloudSongbook.creatorId === currentUser.uid) return true;
+    if (Array.isArray(currentCloudSongbook.ownerIds) && currentCloudSongbook.ownerIds.includes(currentUser.uid)) return true;
+    if (currentCloudSongbook.ownerId && currentCloudSongbook.ownerId === currentUser.uid) return true;
+    return false;
+}
+
+function updateShareModalAuthUI() {
+    const loggedInBox = document.getElementById('shareLoggedInBox');
+    const loggedOutBox = document.getElementById('shareLoggedOutBox');
+    const emailBox = document.getElementById('shareCurrentUserEmail');
+    const roleBadge = document.getElementById('shareCurrentUserRoleBadge');
+
+    if (!currentUser) {
+        if (loggedInBox) loggedInBox.style.display = 'none';
+        if (loggedOutBox) loggedOutBox.style.display = 'block';
+    } else {
+        if (loggedOutBox) loggedOutBox.style.display = 'none';
+        if (loggedInBox) loggedInBox.style.display = 'flex';
+        if (emailBox) {
+            emailBox.textContent = currentUser.displayName
+                ? `${currentUser.displayName} (${currentUser.email || 'brak emaila'})`
+                : (currentUser.email || currentUser.uid);
+        }
+        if (roleBadge) {
+            const isAdmin = window.FirebaseSongbook && window.FirebaseSongbook.isAdmin(currentUser);
+            const isCreator = currentCloudSongbook && currentCloudSongbook.creatorId === currentUser.uid;
+            if (isAdmin) {
+                roleBadge.textContent = "Administrator";
+                roleBadge.style.background = "#fef3c7";
+                roleBadge.style.color = "#92400e";
+            } else if (isCreator) {
+                roleBadge.textContent = "Właściciel";
+                roleBadge.style.background = "#dcfce7";
+                roleBadge.style.color = "#15803d";
+            } else {
+                roleBadge.textContent = "Edytor";
+                roleBadge.style.background = "#e0f2fe";
+                roleBadge.style.color = "#0369a1";
+            }
+        }
+    }
+}
+
+async function handleShareModalLogin() {
+    if (!window.FirebaseSongbook) return;
+    try {
+        const user = await window.FirebaseSongbook.loginWithGoogle();
+        if (user) {
+            currentUser = user;
+            updateShareModalAuthUI();
+            renderCollaboratorsList();
+            renderPendingInvitesList();
+        }
+    } catch (e) {
+        alert("Błąd logowania: " + e.message);
+    }
+}
+
 function openShareModal() {
     const songbookId = document.getElementById('songbookId').value.trim();
     if (!songbookId) {
@@ -1755,19 +1817,14 @@ function openShareModal() {
     const editInput = document.getElementById('shareUrlInput');
     if (editInput) editInput.value = editUrl;
 
-    const emailBox = document.getElementById('shareCurrentUserEmail');
-    if (emailBox) {
-        if (currentUser) {
-            emailBox.textContent = currentUser.displayName
-                ? `${currentUser.displayName} (${currentUser.email || 'brak emaila'})`
-                : (currentUser.email || currentUser.uid);
-        } else {
-            emailBox.textContent = "Niezalogowany";
-        }
-    }
-
+    updateShareModalAuthUI();
     renderCollaboratorsList();
     renderPendingInvitesList();
+
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    if (emailInput) {
+        setTimeout(() => emailInput.focus(), 250);
+    }
 }
 
 function closeShareModal() {
@@ -1810,13 +1867,15 @@ function renderCollaboratorsList() {
     const container = document.getElementById('collaboratorsList');
     if (!container) return;
 
-    if (!currentCloudSongbook || !Array.isArray(currentCloudSongbook.ownerIds)) {
-        container.innerHTML = '<p style="color: #666; font-size: 0.9em;">Zapisz ten śpiewnik w chmurze, aby zarządzać współtwórcami.</p>';
+    if (!currentCloudSongbook || !Array.isArray(currentCloudSongbook.ownerIds) || currentCloudSongbook.ownerIds.length === 0) {
+        container.innerHTML = '<p style="color: #64748b; font-size: 0.9em; margin: 4px 0;">Zapisz ten śpiewnik w chmurze, aby zarządzać współtwórcami.</p>';
         return;
     }
 
     const members = currentCloudSongbook.members || {};
     const creatorId = currentCloudSongbook.creatorId;
+    const canManage = canManageCollaborators();
+    const isAdmin = currentUser && window.FirebaseSongbook && window.FirebaseSongbook.isAdmin(currentUser);
 
     container.innerHTML = currentCloudSongbook.ownerIds.map(uid => {
         const memberInfo = members[uid] || {};
@@ -1829,15 +1888,32 @@ function renderCollaboratorsList() {
         const isCreator = uid === creatorId;
         const role = isCreator ? 'Właściciel' : 'Edytor';
         const isMe = currentUser && currentUser.uid === uid;
-        const canRemove = currentUser && currentUser.uid === creatorId && !isCreator;
+        const canRemoveOther = canManage && (!isCreator || isAdmin) && !isMe;
+        const canLeave = isMe && (currentCloudSongbook.ownerIds.length > 1);
 
         return `
             <div class="collaborator-item">
-                <div>
-                    <strong>${escapeHTML(label)}</strong> ${isMe ? '<small>(Ty)</small>' : ''}
-                    <span class="collaborator-role">${role}</span>
+                <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap;">
+                    <span class="material-symbols-outlined" style="font-size: 1.15rem; color: ${isCreator ? '#2e7d32' : '#64748b'};">
+                        ${isCreator ? 'star' : 'person'}
+                    </span>
+                    <strong>${escapeHTML(label)}</strong> ${isMe ? '<small style="color: #2563eb; font-weight: 600;">(Ty)</small>' : ''}
+                    <span class="collaborator-role" style="${isCreator ? 'background: #dcfce7; color: #166534; padding: 2px 6px; border-radius: 8px;' : ''}">${role}</span>
                 </div>
-                ${canRemove ? `<button class="btn btn-sm btn-outline" style="color: #c82333; padding: 2px 6px;" onclick="handleRemoveCollaborator('${escapeHTML(uid)}')">Usuń</button>` : ''}
+                <div style="display: flex; gap: 6px;">
+                    ${canRemoveOther ? `
+                        <button class="btn btn-sm btn-outline" style="color: #dc2626; border-color: #fca5a5; padding: 2px 8px; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 4px;" onclick="handleRemoveCollaborator('${escapeHTML(uid)}', false)" title="Odbierz uprawnienia edycji temu użytkownikowi">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">person_remove</span>
+                            Usuń dostęp
+                        </button>
+                    ` : ''}
+                    ${canLeave ? `
+                        <button class="btn btn-sm btn-outline" style="color: #dc2626; border-color: #fca5a5; padding: 2px 8px; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 4px;" onclick="handleRemoveCollaborator('${escapeHTML(uid)}', true)" title="Opuść ten śpiewnik (zrezygnuj z prawa do edycji)">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">logout</span>
+                            Opuść śpiewnik
+                        </button>
+                    ` : ''}
+                </div>
             </div>
         `;
     }).join('');
@@ -2114,39 +2190,91 @@ async function handleRevokeInviteAction(inviteId) {
     }
 }
 
-async function handleAddCollaborator() {
-    // Keep backward compatible alias to handleSendInviteEmail
-    return handleSendInviteEmail();
-}
+async function handleAddCollaboratorDirectly() {
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    const emailVal = emailInput ? emailInput.value.trim() : '';
 
-async function handleRemoveCollaborator(uidToRemove) {
-    if (!confirm("Czy na pewno chcesz odebrać uprawnienia temu współtwórcy?")) return;
+    if (!currentCloudSongbook || !currentCloudSongbook.id) {
+        alert("Najpierw zapisz śpiewnik w chmurze przed dodaniem edytora.");
+        return;
+    }
+
+    if (!emailVal || !emailVal.includes('@')) {
+        showInviteAlert("Podaj prawidłowy adres e-mail (np. znajomy@gmail.com).", "warning");
+        if (emailInput) emailInput.focus();
+        return;
+    }
+
+    if (!currentUser) {
+        showInviteAlert("Musisz być zalogowany, aby dodać edytora. Użyj przycisku logowania powyżej.", "warning");
+        return;
+    }
+
+    const btn = document.getElementById('btnAddEditorDirectly');
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Dodawanie...";
+    }
 
     try {
-        const updatedOwners = (currentCloudSongbook.ownerIds || []).filter(u => u !== uidToRemove);
-        const updatedMembers = { ...(currentCloudSongbook.members || {}) };
-        delete updatedMembers[uidToRemove];
+        const res = await window.FirebaseSongbook.addCollaboratorByEmail(currentCloudSongbook.id, emailVal, 'editor');
+        if (res.addedDirectly) {
+            currentCloudSongbook.ownerIds = res.ownerIds;
+            currentCloudSongbook.members = res.members;
+            if (emailInput) emailInput.value = '';
+            renderCollaboratorsList();
+            updateCollaboratorsUI();
+            showInviteAlert(`✓ Użytkownik ${emailVal} został pomyślnie dodany jako Edytor!`, "success");
+        } else {
+            // Created pending invite
+            if (emailInput) emailInput.value = '';
+            await renderPendingInvitesList();
+            showInviteAlert(`ℹ Użytkownik ${emailVal} nie logował się jeszcze w spiewaj.com. Wygenerowano dla niego zaproszenie. Możesz skopiować link lub wysłać e-mail z listy poniżej.`, "warning");
+        }
+    } catch (e) {
+        console.error("Błąd dodawania edytora:", e);
+        showInviteAlert("Błąd dodawania edytora: " + (e.message || e), "error");
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 1.1rem;">person_add</span> Dodaj edytora';
+        }
+    }
+}
 
-        await window.FirebaseSongbook.saveSongbook({
-            id: currentCloudSongbook.id,
-            title: currentCloudSongbook.title,
-            subtitle: currentCloudSongbook.subtitle,
-            publisher: currentCloudSongbook.publisher,
-            place: currentCloudSongbook.place,
-            isPublic: currentCloudSongbook.isPublic,
-            yaml: currentCloudSongbook.yaml,
-            additionalOwnerIds: updatedOwners,
-            members: updatedMembers,
-            allSongs: allSongs
-        });
+async function handleAddCollaborator() {
+    return handleAddCollaboratorDirectly();
+}
 
-        currentCloudSongbook.ownerIds = updatedOwners;
-        currentCloudSongbook.members = updatedMembers;
+async function handleRemoveCollaborator(uidToRemove, isSelf = false) {
+    if (!currentCloudSongbook || !currentCloudSongbook.id || !window.FirebaseSongbook) return;
+
+    const members = currentCloudSongbook.members || {};
+    const memberInfo = members[uidToRemove] || {};
+    const label = memberInfo.displayName || memberInfo.email || `ID ${uidToRemove.substring(0, 8)}...`;
+
+    const confirmMsg = isSelf
+        ? "Czy na pewno chcesz opuścić ten śpiewnik? Stracisz możliwość jego edycji."
+        : `Czy na pewno chcesz odebrać uprawnienia edycji użytkownikowi: ${label}?`;
+
+    if (!confirm(confirmMsg)) return;
+
+    try {
+        const result = await window.FirebaseSongbook.removeCollaborator(currentCloudSongbook.id, uidToRemove);
+        currentCloudSongbook.ownerIds = result.ownerIds;
+        currentCloudSongbook.members = result.members;
+
         renderCollaboratorsList();
         updateCollaboratorsUI();
-        alert("Pomyślnie usunięto współtwórcę.");
+        showInviteAlert(isSelf ? "✓ Opuszczono śpiewnik." : `✓ Pomyślnie odebrano uprawnienia edycji użytkownikowi ${label}.`, "success");
+
+        if (isSelf) {
+            closeShareModal();
+            window.location.hash = `#songbook=${encodeURIComponent(currentCloudSongbook.id)}`;
+        }
     } catch (e) {
-        alert("Błąd podczas usuwania współtwórcy: " + e.message);
+        console.error("Błąd podczas usuwania współtwórcy:", e);
+        showInviteAlert("Błąd podczas usuwania współtwórcy: " + e.message, "error");
     }
 }
 
@@ -2291,13 +2419,20 @@ async function handleAcceptInviteAction() {
     }
 }
 
-async function checkForUrlSongbook() {
-    const params = new URLSearchParams(window.location.search);
-    let sbId = params.get('songbook');
-    if (!sbId && window.location.hash) {
-        const hashMatch = window.location.hash.match(/#songbook=([^&]+)/);
-        if (hashMatch) sbId = decodeURIComponent(hashMatch[1]);
+function getUrlParam(name) {
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has(name)) return searchParams.get(name);
+    if (window.location.hash) {
+        const hashStr = window.location.hash.replace(/^[#?]/, '');
+        const hashParams = new URLSearchParams(hashStr);
+        if (hashParams.has(name)) return hashParams.get(name);
     }
+    return null;
+}
+
+async function checkForUrlSongbook() {
+    const sbId = getUrlParam('songbook');
+    const action = getUrlParam('action');
 
     if (sbId && window.FirebaseSongbook) {
         try {
@@ -2306,13 +2441,24 @@ async function checkForUrlSongbook() {
             if (doc && doc.yaml) {
                 loadFromYAMLString(doc.yaml, doc);
                 setCloudStatusText(`Wczytano z chmury: ${doc.title}`);
-                if (window.location.hash && window.location.hash.includes('action=invite')) {
-                    setTimeout(() => openShareModal(), 400);
+                if (action === 'invite') {
+                    setTimeout(() => openShareModal(), 350);
+                }
+            } else {
+                const idEl = document.getElementById('songbookId');
+                if (idEl) idEl.value = sbId;
+                if (action === 'invite') {
+                    setTimeout(() => openShareModal(), 350);
                 }
             }
         } catch (e) {
             console.warn("Nie udało się załadować śpiewnika z URL:", e);
+            if (action === 'invite') {
+                setTimeout(() => openShareModal(), 350);
+            }
         }
+    } else if (action === 'invite') {
+        setTimeout(() => openShareModal(), 350);
     }
 }
 
@@ -2323,6 +2469,10 @@ function initAuthUI() {
             window.FirebaseSongbook.onAuthChange((user) => {
                 currentUser = user;
                 updateInviteModalAuthUI();
+                updateShareModalAuthUI();
+                renderCollaboratorsList();
+                renderPendingInvitesList();
+
                 const btnLogin = document.getElementById('btnLoginHeader');
                 const profileArea = document.getElementById('userProfileArea');
                 const nameEl = document.getElementById('userNameText');
@@ -2378,7 +2528,10 @@ window.copyShareUrl = copyShareUrl;
 window.copyShareReaderUrl = copyShareReaderUrl;
 window.openReaderPage = openReaderPage;
 window.handleAddCollaborator = handleAddCollaborator;
+window.handleAddCollaboratorDirectly = handleAddCollaboratorDirectly;
 window.handleRemoveCollaborator = handleRemoveCollaborator;
+window.handleShareModalLogin = handleShareModalLogin;
+window.canManageCollaborators = canManageCollaborators;
 window.handleSendInviteEmail = handleSendInviteEmail;
 window.handleCreateInviteLink = handleCreateInviteLink;
 window.handleRevokeInviteAction = handleRevokeInviteAction;
