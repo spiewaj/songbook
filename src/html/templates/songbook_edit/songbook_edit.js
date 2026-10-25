@@ -825,14 +825,15 @@ function loadFromYAMLString(content, cloudDoc = null) {
     if (sb.songs && Array.isArray(sb.songs)) {
         sb.songs.forEach(item => {
             if (item.glob) {
-                // Convert glob to regex
-                let regexStr = '^' + item.glob
-                    .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // Escape regex specials except *
-                    .replace(/\/\*\*\//g, '/(?:.*/)?')     // /**/ -> /(?:.*/)?
-                    .replace(/\*\*/g, '.*')                // Remaining ** -> .*
-                    .replace(/\*/g, '[^/]*')               // * -> [^/]*
-                    + '$';
-                const regex = new RegExp(regexStr);
+                // Convert glob to regex safely
+                let str = item.glob.replace(/[.+^${}()|[\]\\]/g, '\\$&');
+                str = str.replace(/\/\*\*\//g, '/__GLOBSTAR_SLASH__');
+                str = str.replace(/\*\*/g, '__GLOBSTAR__');
+                str = str.replace(/\*/g, '[^/]*');
+                str = str.replace(/\?/g, '[^/]');
+                str = str.replace(/\/__GLOBSTAR_SLASH__/g, '/(?:.*/)?');
+                str = str.replace(/__GLOBSTAR__/g, '.*');
+                const regex = new RegExp('^' + str + '$');
                 
                 let found = false;
                 for (const song of allSongs) {

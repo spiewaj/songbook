@@ -96,13 +96,14 @@ export function resolveSongIdsFromYaml(yamlContent, allSongs) {
         if (!item) return;
 
         if (item.glob) {
-            let regexStr = '^' + item.glob
-                .replace(/[.+?^${}()|[\]\\]/g, '\\$&')
-                .replace(/\/\*\*\//g, '/(?:.*/)?')
-                .replace(/\*\*/g, '.*')
-                .replace(/\*/g, '[^/]*')
-                + '$';
-            const regex = new RegExp(regexStr);
+            let str = item.glob.replace(/[.+^${}()|[\]\\]/g, '\\$&');
+            str = str.replace(/\/\*\*\//g, '/__GLOBSTAR_SLASH__');
+            str = str.replace(/\*\*/g, '__GLOBSTAR__');
+            str = str.replace(/\*/g, '[^/]*');
+            str = str.replace(/\?/g, '[^/]');
+            str = str.replace(/\/__GLOBSTAR_SLASH__/g, '/(?:.*/)?');
+            str = str.replace(/__GLOBSTAR__/g, '.*');
+            const regex = new RegExp('^' + str + '$');
 
             for (const song of allSongs) {
                 if (song.path && regex.test(song.path)) {
