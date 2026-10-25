@@ -292,10 +292,16 @@
         .sb-card-downloads {
             display: flex;
             flex-wrap: wrap;
-            gap: 6px;
-            margin-top: 12px;
-            padding-top: 10px;
+            gap: 8px;
+            margin-top: 14px;
+            margin-bottom: 20px;
+            padding-top: 12px;
             border-top: 1px dashed #e9ecef;
+        }
+
+        .sb-card-footer {
+            margin-top: auto;
+            padding-top: 4px;
         }
 
         [data-theme="dark"] .sb-card-downloads {
@@ -1327,7 +1333,7 @@
                             ` : ''}
                         </div>
 
-                        <div>
+                        <div class="sb-card-footer">
                             <div class="sb-card-actions">
                                 <a href="/#${encodeURIComponent(sb.id)}" class="sb-btn-view">
                                     <span class="material-symbols-outlined">visibility</span>
