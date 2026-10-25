@@ -904,6 +904,11 @@ h1 {
     animation: modalFadeIn 0.2s ease-out;
 }
 
+#modalMySongbooks .modal-dialog {
+    max-width: 860px;
+    width: 95%;
+}
+
 @keyframes modalFadeIn {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -953,23 +958,54 @@ h1 {
 /* Songbook card in modal list */
 .songbook-card {
     border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 12px 16px;
+    border-radius: 8px;
+    padding: 14px 18px;
     margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    transition: box-shadow 0.2s;
+    gap: 16px;
+    transition: all 0.2s;
     background: #fff;
 }
 
 .songbook-card:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-color: #ced4da;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.songbook-card-main {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex: 1;
+    min-width: 0;
+}
+
+.songbook-card-thumb {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+    flex-shrink: 0;
+    background: #f8f9fa;
+}
+
+.songbook-card-thumb-icon {
+    font-size: 34px;
+    color: #2e7d32;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
 }
 
 .songbook-card-info {
     flex: 1;
+    min-width: 0;
 }
 
 .songbook-card-title {
@@ -977,20 +1013,54 @@ h1 {
     font-size: 1.05em;
     color: #1a73e8;
     cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.songbook-card-title:hover {
+    text-decoration: underline;
 }
 
 .songbook-card-meta {
     font-size: 0.85em;
     color: #666;
-    margin-top: 4px;
+    margin-top: 5px;
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.songbook-card-meta > span {
+    white-space: nowrap;
+}
+
+.songbook-card-meta code {
+    background: #f1f3f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #495057;
 }
 
 .songbook-card-actions {
     display: flex;
     gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .songbook-card {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .songbook-card-actions {
+        justify-content: flex-end;
+    }
 }
 
 .badge-public {

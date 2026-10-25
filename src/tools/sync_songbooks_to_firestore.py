@@ -120,19 +120,32 @@ def build_custom_songbook(yaml_rel_path, cover_url, cover_name, cover_size, all_
     resolved_song_ids = resolve_song_ids(sb_spec.get("songs", []), all_songs)
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    if cover_name.lower().endswith(".svg"):
+        image_type = "image/svg+xml"
+    elif cover_name.lower().endswith((".jpg", ".jpeg")):
+        image_type = "image/jpeg"
+    else:
+        image_type = "image/png"
     image_meta = {
         "name": cover_name,
         "path": f"songbooks/{sb_id}/assets/{cover_name}",
         "size": cover_size,
-        "type": "image/png",
+        "type": image_type,
         "url": cover_url
     }
 
-    artifacts = {
-        "epub": f"https://spiewaj.com/{sb_id}.epub",
-        "pdf_a5": f"https://spiewaj.com/songs_tex/{sb_id}_a5.pdf",
-        "pdf_a4": f"https://spiewaj.com/songs_tex/{sb_id}_a4.pdf"
-    }
+    if sb_id == "21wdw":
+        artifacts = {
+            "epub": "https://spiewaj.com/default_all.epub",
+            "pdf_a5": "https://spiewaj.com/songs_tex/default_all_a5.pdf",
+            "pdf_a4": "https://spiewaj.com/songs_tex/default_all_a4.pdf"
+        }
+    else:
+        artifacts = {
+            "epub": f"https://spiewaj.com/{sb_id}.epub",
+            "pdf_a5": f"https://spiewaj.com/songs_tex/{sb_id}_a5.pdf",
+            "pdf_a4": f"https://spiewaj.com/songs_tex/{sb_id}_a4.pdf"
+        }
 
     doc_data = {
         "id": sb_id,
@@ -197,15 +210,21 @@ def main():
     songbooks_to_convert = [
         {
             "yaml_path": "songbooks/53wdhiz.yaml",
-            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F53wdhiz%2Fassets%2Flogo.png?alt=media",
-            "cover_name": "logo.png",
-            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "53wdhiz", "logo.png")),
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F53wdhiz%2Fassets%2Flogo.svg?alt=media",
+            "cover_name": "logo.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "53wdhiz", "logo.svg")),
         },
         {
             "yaml_path": "songbooks/spiewnik_lupienicki.songbook.yaml",
-            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2Fspiewnik_lupienicki%2Fassets%2Flupienice.png?alt=media",
-            "cover_name": "lupienice.png",
-            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "spiewnik_lupienicki", "lupienice.png")),
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2Fspiewnik_lupienicki%2Fassets%2Flupienice.svg?alt=media",
+            "cover_name": "lupienice.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "spiewnik_lupienicki", "lupienice.svg")),
+        },
+        {
+            "yaml_path": "songbooks/21wdw.yaml",
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F21wdw%2Fassets%2Fznak21.svg?alt=media",
+            "cover_name": "znak21.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "wdw21", "znak21.svg")),
         }
     ]
 

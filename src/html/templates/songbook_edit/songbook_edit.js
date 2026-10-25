@@ -825,14 +825,15 @@ function loadFromYAMLString(content, cloudDoc = null) {
     if (sb.songs && Array.isArray(sb.songs)) {
         sb.songs.forEach(item => {
             if (item.glob) {
-                // Convert glob to regex
-                let regexStr = '^' + item.glob
-                    .replace(/[.+?^${}()|[\]\\]/g, '\\$&') // Escape regex specials except *
-                    .replace(/\/\*\*\//g, '/(?:.*/)?')     // /**/ -> /(?:.*/)?
-                    .replace(/\*\*/g, '.*')                // Remaining ** -> .*
-                    .replace(/\*/g, '[^/]*')               // * -> [^/]*
-                    + '$';
-                const regex = new RegExp(regexStr);
+                // Convert glob to regex safely
+                let str = item.glob.replace(/[.+^${}()|[\]\\]/g, '\\$&');
+                str = str.replace(/\/\*\*\//g, '/__GLOBSTAR_SLASH__');
+                str = str.replace(/\*\*/g, '__GLOBSTAR__');
+                str = str.replace(/\*/g, '[^/]*');
+                str = str.replace(/\?/g, '[^/]');
+                str = str.replace(/\/__GLOBSTAR_SLASH__/g, '/(?:.*/)?');
+                str = str.replace(/__GLOBSTAR__/g, '.*');
+                const regex = new RegExp('^' + str + '$');
                 
                 let found = false;
                 for (const song of allSongs) {
@@ -865,6 +866,15 @@ function loadFromYAMLString(content, cloudDoc = null) {
                 activeAggregatedFilters.set(`text_author:${item.text_author.equals}`, { type: 'text_author', value: item.text_author.equals });
             }
         });
+    }
+    
+    // Fallback: If cloudDoc has resolvedSongIds and glob parsing matched fewer songs, ensure all resolvedSongIds are present
+    if (cloudDoc && Array.isArray(cloudDoc.resolvedSongIds) && cloudDoc.resolvedSongIds.length > selectedSongIds.size) {
+        for (const songId of cloudDoc.resolvedSongIds) {
+            if (songById.has(songId)) {
+                selectedSongIds.add(songId);
+            }
+        }
     }
     
     // Render updates
@@ -1559,18 +1569,31 @@ async function openMySongbooksModal() {
             let dateStr = '';
             if (sb.updatedAt && sb.updatedAt.toDate) {
                 dateStr = sb.updatedAt.toDate().toLocaleDateString('pl-PL');
+            } else if (sb.updatedAt) {
+                dateStr = new Date(sb.updatedAt).toLocaleDateString('pl-PL');
             }
             const isPub = sb.isPublic !== false;
+            const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
             return `
                 <div class="songbook-card">
-                    <div class="songbook-card-info">
-                        <div class="songbook-card-title" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">${escapeHTML(sb.title || sb.id)}</div>
-                        <div class="songbook-card-meta">
-                            <span>ID: <code>${escapeHTML(sb.id)}</code></span>
-                            <span>•</span>
-                            <span>${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}</span>
-                            ${dateStr ? `<span>• ${dateStr}</span>` : ''}
-                            <span class="${isPub ? 'badge-public' : 'badge-private'}">${isPub ? 'Publiczny' : 'Prywatny'}</span>
+                    <div class="songbook-card-main">
+                        ${coverUrl ? `
+                            <img src="${escapeHTML(coverUrl)}" alt="Okładka" class="songbook-card-thumb" onerror="this.style.display='none';if(this.nextElementSibling)this.nextElementSibling.style.display='flex';">
+                            <span class="material-symbols-outlined songbook-card-thumb-icon" style="display:none;">menu_book</span>
+                        ` : `
+                            <span class="material-symbols-outlined songbook-card-thumb-icon">menu_book</span>
+                        `}
+                        <div class="songbook-card-info">
+                            <div class="songbook-card-title" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">
+                                ${escapeHTML(sb.title || sb.id)}
+                            </div>
+                            <div class="songbook-card-meta">
+                                <span>ID: <code>${escapeHTML(sb.id)}</code></span>
+                                <span>•</span>
+                                <span>${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}</span>
+                                ${dateStr ? `<span>•</span><span>${dateStr}</span>` : ''}
+                                <span class="${isPub ? 'badge-public' : 'badge-private'}">${isPub ? 'Publiczny' : 'Prywatny'}</span>
+                            </div>
                         </div>
                     </div>
                     <div class="songbook-card-actions">
