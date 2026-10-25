@@ -72,6 +72,10 @@
             padding: 12px 20px;
             border-radius: 8px;
             font-weight: 500;
+            font-size: 1rem;
+            font-family: inherit;
+            border: none;
+            cursor: pointer;
             text-decoration: none;
             transition: background-color 0.2s, transform 0.1s;
             white-space: nowrap;
@@ -81,6 +85,119 @@
             background-color: #1b5e20;
             text-decoration: none;
             transform: translateY(-1px);
+        }
+
+        /* Sign-in prompt modal styles */
+        .sb-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(2px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            padding: 16px;
+        }
+
+        .sb-modal-dialog {
+            background: #ffffff;
+            color: #212529;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            border: 1px solid #dee2e6;
+            animation: modalFadeIn 0.2s ease-out;
+        }
+
+        @keyframes modalFadeIn {
+            from { opacity: 0; transform: scale(0.96) translateY(-10px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        .sb-modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            border-bottom: 1px solid #dee2e6;
+            background: #f8f9fa;
+        }
+
+        .sb-modal-close {
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            line-height: 1;
+            cursor: pointer;
+            color: #6c757d;
+            padding: 0 4px;
+        }
+
+        .sb-modal-close:hover {
+            color: #000;
+        }
+
+        .sb-modal-body {
+            padding: 20px;
+        }
+
+        .btn-auth-google-prompt {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #3c4043;
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            padding: 11px 18px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 1px 3px rgba(60,64,67,0.08);
+            transition: all 0.2s ease;
+            width: 100%;
+            font-family: inherit;
+        }
+
+        .btn-auth-google-prompt:hover {
+            background: #f8f9fa;
+            border-color: #c6c9cc;
+            box-shadow: 0 2px 6px rgba(60,64,67,0.15);
+        }
+
+        [data-theme="dark"] .sb-modal-dialog {
+            background: #1e1e1e;
+            color: #e0e0e0;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .sb-modal-header {
+            background: #252525;
+            border-color: #333333;
+        }
+
+        [data-theme="dark"] .sb-modal-close {
+            color: #aaa;
+        }
+
+        [data-theme="dark"] .sb-modal-close:hover {
+            color: #fff;
+        }
+
+        [data-theme="dark"] .btn-auth-google-prompt {
+            background: #2c2c2c;
+            color: #e0e0e0;
+            border-color: #444;
+        }
+
+        [data-theme="dark"] .btn-auth-google-prompt:hover {
+            background: #383838;
         }
 
         .songbooks-grid {
@@ -787,10 +904,10 @@
                     </p>
                 </div>
             </div>
-            <a href="songbook_edit.html" class="btn-create-sb" style="text-decoration: none;">
-                <span class="material-symbols-outlined">add_circle</span>
-                Otwórz kreator
-            </a>
+            <button type="button" onclick="handleAddSongbookClick(event)" class="btn-create-sb">
+                <span class="material-symbols-outlined">add</span>
+                Dodaj śpiewnik
+            </button>
         </div>
 
         <!-- Official Publications Section -->
@@ -929,10 +1046,10 @@
                     <span id="mySongbooksCountBadge" class="sb-tab-badge" style="display: none;">0</span>
                 </button>
             </div>
-            <a href="songbook_edit.html" class="btn-create-sb" style="text-decoration: none;">
-                <span class="material-symbols-outlined">add_circle</span>
-                Stwórz własny śpiewnik
-            </a>
+            <button type="button" onclick="handleAddSongbookClick(event)" class="btn-create-sb">
+                <span class="material-symbols-outlined">add</span>
+                Dodaj śpiewnik
+            </button>
         </div>
 
         <div class="songbooks-header-row">
@@ -956,14 +1073,46 @@
             <span class="material-symbols-outlined" style="font-size: 3rem; color: #adb5bd;">menu_book</span>
             <h3 id="emptyTitle" style="margin: 15px 0 8px 0; color: #495057;">Brak publicznych śpiewników</h3>
             <p id="emptyDesc">Nie znaleziono jeszcze żadnych publicznych śpiewników. Bądź pierwszym, który opublikuje swój śpiewnik!</p>
-            <a href="songbook_edit.html" class="btn-create-sb" style="margin-top: 10px; text-decoration: none;">
+            <button type="button" onclick="handleAddSongbookClick(event)" class="btn-create-sb" style="margin-top: 10px;">
                 <span class="material-symbols-outlined">add</span>
-                Stwórz nowy śpiewnik
-            </a>
+                Dodaj śpiewnik
+            </button>
         </div>
 
         <div id="songbooksGrid" class="songbooks-grid" style="display: none;">
             <!-- Rendered cards -->
+        </div>
+    </div>
+
+    <!-- Sign In Required Modal for Adding Songbook -->
+    <div id="modalSignInPrompt" class="sb-modal-overlay" style="display: none;" onclick="closeSignInPromptModal(event)">
+        <div class="sb-modal-dialog" onclick="event.stopPropagation()">
+            <div class="sb-modal-header">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="material-symbols-outlined" style="font-size: 26px; color: #0d6efd;">account_circle</span>
+                    <h3 style="margin: 0; font-size: 1.2rem; font-weight: 600;">Wymagane logowanie</h3>
+                </div>
+                <button type="button" class="sb-modal-close" onclick="closeSignInPromptModal()" aria-label="Zamknij">&times;</button>
+            </div>
+            <div class="sb-modal-body">
+                <p style="margin: 0 0 16px 0; color: #495057; font-size: 0.95rem; line-height: 1.5;">
+                    Aby stworzyć lub dodać własny śpiewnik w chmurze, musisz się najpierw zalogować przez konto Google.
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 20px;">
+                    <button type="button" class="btn-auth-google-prompt" onclick="loginAndCreateSongbook()">
+                        <svg viewBox="0 0 24 24" width="20" height="20" style="vertical-align: middle; margin-right: 10px;">
+                            <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/>
+                            <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.34 24 12 24z"/>
+                            <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.99 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/>
+                            <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.34 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+                        </svg>
+                        Zaloguj się przez Google i dodaj śpiewnik
+                    </button>
+                    <a href="songbook_edit.html" style="text-align: center; font-size: 0.86rem; color: #6c757d; text-decoration: underline; margin-top: 4px;">
+                        Otwórz edytor w trybie lokalnym (bez zapisu w chmurze)
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1154,6 +1303,38 @@
             }
         }
 
+        function handleAddSongbookClick(event) {
+            if (event) event.preventDefault();
+            if (!currentUser) {
+                openSignInPromptModal();
+                return;
+            }
+            window.location.href = 'songbook_edit.html';
+        }
+
+        function openSignInPromptModal() {
+            const m = document.getElementById('modalSignInPrompt');
+            if (m) m.style.display = 'flex';
+        }
+
+        function closeSignInPromptModal(event) {
+            if (event && event.target !== event.currentTarget) return;
+            const m = document.getElementById('modalSignInPrompt');
+            if (m) m.style.display = 'none';
+        }
+
+        async function loginAndCreateSongbook() {
+            closeSignInPromptModal();
+            try {
+                const u = await loginCatalog();
+                if (u) {
+                    window.location.href = 'songbook_edit.html';
+                }
+            } catch (e) {
+                console.error("Login failed:", e);
+            }
+        }
+
         async function switchCatalogTab(tab) {
             if (tab === 'mine') {
                 if (!currentUser) {
@@ -1339,11 +1520,11 @@
                                     <span class="material-symbols-outlined">visibility</span>
                                     Przeglądaj
                                 </a>
-                                <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
-                                    <span class="material-symbols-outlined">edit</span>
-                                    Edytuj
-                                </a>
                                 ${canManage ? `
+                                    <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
+                                        <span class="material-symbols-outlined">edit</span>
+                                        Edytuj
+                                    </a>
                                     <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}&action=invite" class="sb-btn-edit" style="background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;" title="Zaproś współtwórcę do edycji">
                                         <span class="material-symbols-outlined">person_add</span>
                                         Zaproś

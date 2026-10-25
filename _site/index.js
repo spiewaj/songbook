@@ -117,9 +117,9 @@ const STATIC_SONGBOOK_ARTIFACTS = {
     },
     '21wdw': {
         title: 'Śpiewnik 21 WDW',
-        epub: 'default_all.epub',
-        pdf_a5: 'songs_tex/default_all_a5.pdf',
-        pdf_a4: 'songs_tex/default_all_a4.pdf'
+        epub: '21wdw.epub',
+        pdf_a5: 'songs_tex/21wdw_a5.pdf',
+        pdf_a4: 'songs_tex/21wdw_a4.pdf'
     }
 };
 
@@ -377,11 +377,25 @@ async function loadSongbookFilter(songbookId) {
         }
 
         if (editBtn) {
-            editBtn.href = `songbook_edit.html#songbook=${encodeURIComponent(songbookId)}`;
-            editBtn.style.display = 'inline-flex';
-            editBtn.innerHTML = isDraft
-                ? `<span class="material-symbols-outlined">edit</span> Edytuj / Opublikuj`
-                : `<span class="material-symbols-outlined">edit</span> Edytuj`;
+            const currentUser = window.FirebaseSongbook ? window.FirebaseSongbook.getCurrentUser() : null;
+            const isOwner = currentUser && doc && window.FirebaseSongbook && (
+                doc.creatorId === currentUser.uid ||
+                doc.ownerId === currentUser.uid ||
+                (Array.isArray(doc.ownerIds) && doc.ownerIds.includes(currentUser.uid)) ||
+                (doc.members && doc.members[currentUser.uid] && ['owner', 'editor'].includes(doc.members[currentUser.uid].role)) ||
+                window.FirebaseSongbook.isAdmin(currentUser)
+            );
+            const isLocalDraft = !!(draftData && draftData.fromEditor);
+
+            if (isOwner || isLocalDraft) {
+                editBtn.href = `songbook_edit.html#songbook=${encodeURIComponent(songbookId)}`;
+                editBtn.style.display = 'inline-flex';
+                editBtn.innerHTML = isDraft
+                    ? `<span class="material-symbols-outlined">edit</span> Edytuj / Opublikuj`
+                    : `<span class="material-symbols-outlined">edit</span> Edytuj`;
+            } else {
+                editBtn.style.display = 'none';
+            }
         }
 
         updateQuickDownloadBanner(songbookId, activeSongbookFilter.title, doc, draftData);
@@ -492,3 +506,21 @@ window.clearSongbookFilter = clearSongbookFilter;
 window.checkSongbookFromUrl = checkSongbookFromUrl;
 window.updateQuickDownloadBanner = updateQuickDownloadBanner;
 window.resetQuickDownloadBanner = resetQuickDownloadBanner;
+
+// Listen for auth changes to update edit button visibility
+(function initSongbookAuthListener() {
+    let attempts = 0;
+    const interval = setInterval(() => {
+        attempts++;
+        if (window.FirebaseSongbook) {
+            clearInterval(interval);
+            window.FirebaseSongbook.onAuthChange(() => {
+                if (activeSongbookFilter && activeSongbookFilter.id) {
+                    loadSongbookFilter(activeSongbookFilter.id);
+                }
+            });
+        } else if (attempts > 50) {
+            clearInterval(interval);
+        }
+    }, 100);
+})();

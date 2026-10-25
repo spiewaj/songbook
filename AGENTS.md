@@ -11,3 +11,6 @@ Or execute Python directly with:
 PYTHONPATH=. .python_venv/bin/python ...
 ```
 The venv is located at `.python_venv/` in the workspace root.
+
+## Pull Requests
+Always verify whether the current Pull Request has already been merged before exporting/pushing changes or assuming it is active. If the PR has already been merged, branch off `origin/main` (or rebase/create a new branch) and create a new PR.
