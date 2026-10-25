@@ -723,7 +723,7 @@
 
 <body>
     <div class="top-navigation">
-        <a href="index.html" class="nav-item"><span class="material-symbols-outlined">queue_music</span> Wszystkie piosenki</a>
+        <a href="/" class="nav-item"><span class="material-symbols-outlined">queue_music</span> Wszystkie piosenki</a>
         <a href="songbooks.html" class="nav-item active"><span class="material-symbols-outlined">menu_book</span> Śpiewniki</a>
         <div class="nav-dropdown">
             <button class="nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
@@ -899,6 +899,20 @@
             </p>
         </div>
 
+        <!-- Pending Invites Notification Banner -->
+        <div id="pendingInvitesAlert" style="display: none; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <span class="material-symbols-outlined" style="font-size: 2rem; color: #2563eb;">mail</span>
+                    <div>
+                        <strong style="color: #1e40af; font-size: 1rem;">Zaproszenie do współtworzenia!</strong>
+                        <div id="pendingInvitesSummary" style="color: #3b82f6; font-size: 0.9rem; margin-top: 2px;"></div>
+                    </div>
+                </div>
+                <div id="pendingInvitesButtons" style="display: flex; gap: 8px;"></div>
+            </div>
+        </div>
+
         <div class="sb-tabs-row" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
             <div class="sb-tabs">
                 <button class="sb-tab active" id="tabPublic" onclick="switchCatalogTab('public')">
@@ -993,9 +1007,11 @@
                 updateAuthUI(user);
                 if (user) {
                     await loadMySongbooks();
+                    await checkPendingInvites();
                 } else {
                     mySongbooks = [];
                     updateMySongbooksBadge();
+                    hidePendingInvitesBanner();
                     if (activeTab === 'mine') {
                         switchCatalogTab('public');
                     }
@@ -1013,6 +1029,45 @@
                 errorEl.style.display = 'block';
                 errorText.textContent = "Nie udało się załadować śpiewników: " + err.message;
             }
+        }
+
+        async function checkPendingInvites() {
+            if (!window.FirebaseSongbook || !currentUser || !currentUser.email) return;
+            const banner = document.getElementById('pendingInvitesAlert');
+            const summary = document.getElementById('pendingInvitesSummary');
+            const btnArea = document.getElementById('pendingInvitesButtons');
+            if (!banner || !summary || !btnArea) return;
+
+            try {
+                const invites = await window.FirebaseSongbook.fetchMyPendingInvites();
+                if (!invites || invites.length === 0) {
+                    banner.style.display = 'none';
+                    return;
+                }
+
+                const first = invites[0];
+                const count = invites.length;
+                summary.innerHTML = count === 1
+                    ? `Zostałeś zaproszony do edycji śpiewnika <strong>„${escapeHtml(first.songbookTitle || first.songbookId)}”</strong> przez <strong>${escapeHtml(first.inviterName || first.inviterEmail)}</strong>.`
+                    : `Masz <strong>${count}</strong> oczekujące zaproszenia do edycji śpiewników (m.in. „${escapeHtml(first.songbookTitle || first.songbookId)}”).`;
+
+                btnArea.innerHTML = `
+                    <a href="songbook_edit.html?invite=${encodeURIComponent(first.id)}" class="btn-create-sb" style="padding: 8px 16px; font-size: 0.9rem; text-decoration: none;">
+                        <span class="material-symbols-outlined" style="font-size: 16px;">check_circle</span>
+                        Dołącz do śpiewnika
+                    </a>
+                `;
+
+                banner.style.display = 'block';
+            } catch (e) {
+                console.warn("Could not check pending invites:", e);
+                banner.style.display = 'none';
+            }
+        }
+
+        function hidePendingInvitesBanner() {
+            const banner = document.getElementById('pendingInvitesAlert');
+            if (banner) banner.style.display = 'none';
         }
 
         async function loadMySongbooks() {
@@ -1274,7 +1329,7 @@
 
                         <div>
                             <div class="sb-card-actions">
-                                <a href="index.html#${encodeURIComponent(sb.id)}" class="sb-btn-view">
+                                <a href="/#${encodeURIComponent(sb.id)}" class="sb-btn-view">
                                     <span class="material-symbols-outlined">visibility</span>
                                     Przeglądaj
                                 </a>
@@ -1282,6 +1337,12 @@
                                     <span class="material-symbols-outlined">edit</span>
                                     Edytuj
                                 </a>
+                                ${canManage ? `
+                                    <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}&action=invite" class="sb-btn-edit" style="background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;" title="Zaproś współtwórcę do edycji">
+                                        <span class="material-symbols-outlined">person_add</span>
+                                        Zaproś
+                                    </a>
+                                ` : ''}
                             </div>
 
                             ${canManage ? `

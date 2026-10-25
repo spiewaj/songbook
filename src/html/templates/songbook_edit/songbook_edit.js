@@ -1574,7 +1574,7 @@ async function openMySongbooksModal() {
                         </div>
                     </div>
                     <div class="songbook-card-actions">
-                        <a class="btn btn-sm btn-secondary" href="index.html#${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
+                        <a class="btn btn-sm btn-secondary" href="/#${encodeURIComponent(sb.id)}" target="_blank" style="text-decoration: none;">Przeglądaj</a>
                         <button class="btn btn-sm btn-primary" onclick="loadCloudSongbookById('${escapeHTML(sb.id)}')">Edytuj</button>
                         ${isPub ? `
                             <button class="btn btn-sm btn-outline" onclick="toggleCloudSongbookVisibility('${escapeHTML(sb.id)}', false)" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
@@ -1674,7 +1674,7 @@ function openReaderPage() {
     }
 
     const baseUrl = `${window.location.origin}${window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)}`;
-    const readerUrl = `${baseUrl}index.html#songbook=${encodeURIComponent(songbookId)}&preview=1`;
+    const readerUrl = `${baseUrl}#songbook=${encodeURIComponent(songbookId)}&preview=1`;
     window.open(readerUrl, '_blank');
 }
 
@@ -1713,6 +1713,7 @@ function openShareModal() {
     }
 
     renderCollaboratorsList();
+    renderPendingInvitesList();
 }
 
 function closeShareModal() {
@@ -1788,79 +1789,202 @@ function renderCollaboratorsList() {
     }).join('');
 }
 
-async function handleAddCollaborator() {
-    const emailInput = document.getElementById('newCollaboratorEmail');
-    const inputVal = emailInput ? emailInput.value.trim() : '';
-    if (!inputVal) return;
+let activeInviteToken = null;
 
-    if (!currentCloudSongbook) {
-        alert("Najpierw zapisz śpiewnik w chmurze przed dodaniem współtwórców.");
+function generateInviteMailto({ inviteeEmail, inviterName, inviterEmail, songbookTitle, inviteUrl }) {
+    const subject = `Zaproszenie do współtworzenia śpiewnika: ${songbookTitle}`;
+    const inviterStr = inviterName ? `${inviterName} (${inviterEmail || ''})` : (inviterEmail || 'Twórca śpiewnika');
+    const body = `Cześć!
+
+${inviterStr} zaprasza Cię do współtworzenia śpiewnika "${songbookTitle}" w serwisie spiewaj.com.
+
+Przyznana rola: Edytor (prawo do edycji piosenek, dodawania utworów i zapisywania zmian).
+
+Aby dołączyć do śpiewnika, kliknij w poniższy link:
+${inviteUrl}
+
+(Po otwarciu strony zaloguj się swoim kontem Google, a śpiewnik pojawi się na Twoim koncie).
+
+Pozdrawiamy,
+spiewaj.com`;
+
+    return `mailto:${encodeURIComponent(inviteeEmail || '')}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+function copyCustomInviteUrl(url) {
+    if (!url) return;
+    navigator.clipboard.writeText(url).then(() => {
+        alert("Link z zaproszeniem został skopiowany do schowka! Możesz go wysłać znajomemu.");
+    }).catch(() => {
+        prompt("Skopiuj poniższy link:", url);
+    });
+}
+
+async function renderPendingInvitesList() {
+    const section = document.getElementById('pendingInvitesSection');
+    const container = document.getElementById('pendingInvitesList');
+    const countBadge = document.getElementById('pendingInvitesCount');
+    if (!section || !container) return;
+
+    if (!currentCloudSongbook || !currentCloudSongbook.id || !window.FirebaseSongbook) {
+        section.style.display = 'none';
         return;
     }
 
-    const btn = document.getElementById('btnAddCollaborator');
+    try {
+        const invites = await window.FirebaseSongbook.fetchPendingInvitesForSongbook(currentCloudSongbook.id);
+        if (!invites || invites.length === 0) {
+            section.style.display = 'none';
+            container.innerHTML = '';
+            if (countBadge) countBadge.textContent = '0';
+            return;
+        }
+
+        section.style.display = 'block';
+        if (countBadge) countBadge.textContent = invites.length;
+
+        container.innerHTML = invites.map(inv => {
+            const dateStr = inv.createdAt?.toDate ? inv.createdAt.toDate().toLocaleDateString('pl-PL') : (inv.createdAt ? new Date(inv.createdAt).toLocaleDateString('pl-PL') : '');
+            const targetLabel = inv.inviteeEmail ? escapeHTML(inv.inviteeEmail) : '<em>Link ogólny</em>';
+            const inviteUrl = window.FirebaseSongbook.buildInviteUrl(inv.id);
+            const mailtoUrl = generateInviteMailto({
+                inviteeEmail: inv.inviteeEmail,
+                inviterName: inv.inviterName,
+                inviterEmail: inv.inviterEmail,
+                songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
+                inviteUrl: inviteUrl
+            });
+
+            return `
+                <div class="collaborator-item" style="background: #fffbeb; border: 1px solid #fef3c7;">
+                    <div>
+                        <strong>${targetLabel}</strong>
+                        ${dateStr ? `<small style="color: #92400e; margin-left: 6px;">(${dateStr})</small>` : ''}
+                        <span class="collaborator-role" style="background: #fef3c7; color: #b45309; padding: 2px 6px; border-radius: 10px;">Oczekuje</span>
+                    </div>
+                    <div style="display: flex; gap: 4px;">
+                        <button class="btn btn-sm btn-outline" onclick="copyCustomInviteUrl('${escapeHTML(inviteUrl)}')" title="Kopiuj bezpośredni link z zaproszeniem" style="padding: 2px 8px; font-size: 0.8rem;">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">content_copy</span>
+                        </button>
+                        ${inv.inviteeEmail ? `
+                            <a href="${mailtoUrl}" class="btn btn-sm btn-outline" title="Wyślij e-mail z zaproszeniem" style="padding: 2px 8px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center;">
+                                <span class="material-symbols-outlined" style="font-size: 14px;">mail</span>
+                            </a>
+                        ` : ''}
+                        <button class="btn btn-sm btn-outline" style="color: #dc2626; padding: 2px 8px; font-size: 0.8rem;" onclick="handleRevokeInviteAction('${escapeHTML(inv.id)}')" title="Anuluj to zaproszenie">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">close</span>
+                        </button>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    } catch (e) {
+        console.warn("Could not render pending invites:", e);
+        section.style.display = 'none';
+    }
+}
+
+async function handleSendInviteEmail() {
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    const emailVal = emailInput ? emailInput.value.trim() : '';
+
+    if (!currentCloudSongbook || !currentCloudSongbook.id) {
+        alert("Najpierw zapisz śpiewnik w chmurze przed wysłaniem zaproszenia.");
+        return;
+    }
+
+    const btn = document.getElementById('btnSendInviteEmail');
     if (btn) {
         btn.disabled = true;
-        btn.textContent = "Szukanie...";
+        btn.textContent = "Tworzenie zaproszenia...";
     }
 
     try {
-        let targetUser = null;
-        if (inputVal.includes('@')) {
-            targetUser = await window.FirebaseSongbook.findUserByEmail(inputVal);
-        } else {
-            // Check if user entered a raw UID
-            targetUser = (await window.FirebaseSongbook.findUserById(inputVal)) || { uid: inputVal, email: '', displayName: '' };
-        }
-
-        if (!targetUser || !targetUser.uid) {
-            alert(`Nie znaleziono użytkownika dla adresu: "${inputVal}".\n\nWspółtwórca musi zalogować się przynajmniej raz na spiewaj.com przez Google, aby można go było wyszukać.`);
-            return;
-        }
-
-        const currentOwners = currentCloudSongbook.ownerIds || [];
-        if (currentOwners.includes(targetUser.uid)) {
-            alert("Ten użytkownik jest już współtwórcą tego śpiewnika.");
-            return;
-        }
-
-        const updatedOwners = [...currentOwners, targetUser.uid];
-        const updatedMembers = { ...(currentCloudSongbook.members || {}) };
-        updatedMembers[targetUser.uid] = {
-            role: 'editor',
-            email: targetUser.email || inputVal,
-            displayName: targetUser.displayName || '',
-            addedAt: new Date().toISOString()
-        };
-
-        await window.FirebaseSongbook.saveSongbook({
-            id: currentCloudSongbook.id,
-            title: currentCloudSongbook.title,
-            subtitle: currentCloudSongbook.subtitle,
-            publisher: currentCloudSongbook.publisher,
-            place: currentCloudSongbook.place,
-            isPublic: currentCloudSongbook.isPublic,
-            yaml: currentCloudSongbook.yaml,
-            additionalOwnerIds: updatedOwners,
-            members: updatedMembers,
-            allSongs: allSongs
+        const invite = await window.FirebaseSongbook.createInvite({
+            songbookId: currentCloudSongbook.id,
+            songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
+            inviteeEmail: emailVal,
+            role: 'editor'
         });
 
-        currentCloudSongbook.ownerIds = updatedOwners;
-        currentCloudSongbook.members = updatedMembers;
+        const mailtoLink = generateInviteMailto({
+            inviteeEmail: emailVal,
+            inviterName: currentUser?.displayName,
+            inviterEmail: currentUser?.email,
+            songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
+            inviteUrl: invite.inviteUrl
+        });
+
+        // Trigger user mail client
+        window.location.href = mailtoLink;
+
         if (emailInput) emailInput.value = '';
-        renderCollaboratorsList();
-        updateCollaboratorsUI();
-        const successName = targetUser.displayName ? `${targetUser.displayName} (${targetUser.email || targetUser.uid})` : (targetUser.email || targetUser.uid);
-        alert(`Dodano współtwórcę: ${successName}!`);
+        await renderPendingInvitesList();
+
+        setTimeout(() => {
+            if (confirm(`Zaproszenie zostało utworzone!\n\nOtwarto program pocztowy. Czy chcesz także skopiować link do schowka?\n\n${invite.inviteUrl}`)) {
+                copyCustomInviteUrl(invite.inviteUrl);
+            }
+        }, 400);
     } catch (e) {
-        alert("Nie udało się dodać współtwórcy: " + e.message);
+        alert("Błąd podczas tworzenia zaproszenia: " + e.message);
     } finally {
         if (btn) {
             btn.disabled = false;
-            btn.textContent = "+ Dodaj";
+            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 1.1rem;">mail</span> Wyślij e-mail z zaproszeniem';
         }
     }
+}
+
+async function handleCreateInviteLink() {
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    const emailVal = emailInput ? emailInput.value.trim() : '';
+
+    if (!currentCloudSongbook || !currentCloudSongbook.id) {
+        alert("Najpierw zapisz śpiewnik w chmurze przed wygenerowaniem linku.");
+        return;
+    }
+
+    const btn = document.getElementById('btnCreateInviteLink');
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Generowanie...";
+    }
+
+    try {
+        const invite = await window.FirebaseSongbook.createInvite({
+            songbookId: currentCloudSongbook.id,
+            songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
+            inviteeEmail: emailVal,
+            role: 'editor'
+        });
+
+        if (emailInput) emailInput.value = '';
+        await renderPendingInvitesList();
+        copyCustomInviteUrl(invite.inviteUrl);
+    } catch (e) {
+        alert("Nie udało się utworzyć linku z zaproszeniem: " + e.message);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 1.1rem;">link</span> Kopiuj link z zaproszeniem';
+        }
+    }
+}
+
+async function handleRevokeInviteAction(inviteId) {
+    if (!confirm("Czy na pewno chcesz anulować to zaproszenie? Link przestanie działać.")) return;
+    try {
+        await window.FirebaseSongbook.revokeInvite(inviteId);
+        await renderPendingInvitesList();
+    } catch (e) {
+        alert("Nie udało się anulować zaproszenia: " + e.message);
+    }
+}
+
+async function handleAddCollaborator() {
+    // Keep backward compatible alias to handleSendInviteEmail
+    return handleSendInviteEmail();
 }
 
 async function handleRemoveCollaborator(uidToRemove) {
@@ -1894,6 +2018,147 @@ async function handleRemoveCollaborator(uidToRemove) {
     }
 }
 
+async function checkInviteFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    let token = params.get('invite');
+    if (!token && window.location.hash) {
+        const match = window.location.hash.match(/(?:#|&)invite=([^&]+)/);
+        if (match) token = decodeURIComponent(match[1]);
+    }
+    if (!token) return;
+
+    activeInviteToken = token;
+
+    let attempts = 0;
+    while (!window.FirebaseSongbook && attempts < 40) {
+        await new Promise(r => setTimeout(r, 100));
+        attempts++;
+    }
+    if (!window.FirebaseSongbook) return;
+
+    try {
+        const invite = await window.FirebaseSongbook.fetchInvite(token);
+        if (!invite) {
+            alert("Nie znaleziono zaproszenia lub link jest nieprawidłowy.");
+            cleanInviteFromUrl();
+            return;
+        }
+
+        if (invite.status !== 'pending') {
+            alert("To zaproszenie zostało już wykorzystane.");
+            cleanInviteFromUrl();
+            if (invite.songbookId) {
+                window.location.hash = `#songbook=${encodeURIComponent(invite.songbookId)}`;
+            }
+            return;
+        }
+
+        openInviteAcceptModal(invite);
+    } catch (e) {
+        console.error("Błąd weryfikacji zaproszenia:", e);
+    }
+}
+
+function openInviteAcceptModal(invite) {
+    const modal = document.getElementById('modalInviteAccept');
+    if (!modal) return;
+
+    const titleEl = document.getElementById('inviteSongbookTitleText');
+    if (titleEl) titleEl.textContent = invite.songbookTitle || invite.songbookId;
+
+    const inviterEl = document.getElementById('inviteInviterNameText');
+    if (inviterEl) {
+        inviterEl.textContent = invite.inviterName
+            ? `${invite.inviterName} (${invite.inviterEmail || ''})`
+            : (invite.inviterEmail || 'Twórca śpiewnika');
+    }
+
+    const emailNotice = document.getElementById('inviteEmailMatchNotice');
+    if (emailNotice) {
+        if (invite.inviteeEmail) {
+            emailNotice.style.display = 'block';
+            emailNotice.textContent = `Zaproszenie zaadresowane dla: ${invite.inviteeEmail}`;
+        } else {
+            emailNotice.style.display = 'none';
+        }
+    }
+
+    updateInviteModalAuthUI();
+    modal.style.display = 'flex';
+}
+
+function updateInviteModalAuthUI() {
+    const loggedOutEl = document.getElementById('inviteLoggedOutActions');
+    const loggedInEl = document.getElementById('inviteLoggedInActions');
+    if (!loggedOutEl || !loggedInEl) return;
+
+    if (currentUser) {
+        loggedOutEl.style.display = 'none';
+        loggedInEl.style.display = 'flex';
+    } else {
+        loggedOutEl.style.display = 'block';
+        loggedInEl.style.display = 'none';
+    }
+}
+
+function closeInviteAcceptModal() {
+    const modal = document.getElementById('modalInviteAccept');
+    if (modal) modal.style.display = 'none';
+    cleanInviteFromUrl();
+}
+
+function cleanInviteFromUrl() {
+    activeInviteToken = null;
+    const url = new URL(window.location);
+    url.searchParams.delete('invite');
+    window.history.replaceState({}, '', url.pathname + url.search + url.hash);
+}
+
+async function handleInviteLoginAndAccept() {
+    if (!window.FirebaseSongbook) return;
+    try {
+        const user = await window.FirebaseSongbook.loginWithGoogle();
+        if (user) {
+            currentUser = user;
+            updateInviteModalAuthUI();
+            await handleAcceptInviteAction();
+        }
+    } catch (e) {
+        alert("Błąd logowania: " + e.message);
+    }
+}
+
+async function handleAcceptInviteAction() {
+    if (!activeInviteToken || !window.FirebaseSongbook) return;
+    const btn = document.getElementById('btnAcceptInviteConfirm');
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Dołączanie...";
+    }
+
+    try {
+        const sbDoc = await window.FirebaseSongbook.acceptInvite(activeInviteToken);
+        closeInviteAcceptModal();
+
+        alert(`🎉 Sukces! Dołączono do śpiewnika "${sbDoc.title || sbDoc.id}" jako Edytor!`);
+
+        // Load into editor
+        if (songsLoadedPromise) await songsLoadedPromise;
+        if (sbDoc && sbDoc.yaml) {
+            loadFromYAMLString(sbDoc.yaml, sbDoc);
+            setCloudStatusText(`Wczytano z chmury: ${sbDoc.title}`);
+        }
+        window.location.hash = `#songbook=${encodeURIComponent(sbDoc.id)}`;
+    } catch (e) {
+        alert("Nie udało się dołączyć do śpiewnika: " + e.message);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = '<span class="material-symbols-outlined">check_circle</span> Dołącz jako Edytor';
+        }
+    }
+}
+
 async function checkForUrlSongbook() {
     const params = new URLSearchParams(window.location.search);
     let sbId = params.get('songbook');
@@ -1909,6 +2174,9 @@ async function checkForUrlSongbook() {
             if (doc && doc.yaml) {
                 loadFromYAMLString(doc.yaml, doc);
                 setCloudStatusText(`Wczytano z chmury: ${doc.title}`);
+                if (window.location.hash && window.location.hash.includes('action=invite')) {
+                    setTimeout(() => openShareModal(), 400);
+                }
             }
         } catch (e) {
             console.warn("Nie udało się załadować śpiewnika z URL:", e);
@@ -1922,6 +2190,7 @@ function initAuthUI() {
             clearInterval(checkInterval);
             window.FirebaseSongbook.onAuthChange((user) => {
                 currentUser = user;
+                updateInviteModalAuthUI();
                 const btnLogin = document.getElementById('btnLoginHeader');
                 const profileArea = document.getElementById('userProfileArea');
                 const nameEl = document.getElementById('userNameText');
@@ -1949,6 +2218,7 @@ function initAuthUI() {
                 }
             });
             checkForUrlSongbook();
+            checkInviteFromUrl();
         }
     }, 100);
 }
@@ -1977,6 +2247,13 @@ window.copyShareReaderUrl = copyShareReaderUrl;
 window.openReaderPage = openReaderPage;
 window.handleAddCollaborator = handleAddCollaborator;
 window.handleRemoveCollaborator = handleRemoveCollaborator;
+window.handleSendInviteEmail = handleSendInviteEmail;
+window.handleCreateInviteLink = handleCreateInviteLink;
+window.handleRevokeInviteAction = handleRevokeInviteAction;
+window.handleAcceptInviteAction = handleAcceptInviteAction;
+window.handleInviteLoginAndAccept = handleInviteLoginAndAccept;
+window.closeInviteAcceptModal = closeInviteAcceptModal;
+window.copyCustomInviteUrl = copyCustomInviteUrl;
 window.handleLoginCloud = handleLoginCloud;
 window.handleLogoutCloud = handleLogoutCloud;
 

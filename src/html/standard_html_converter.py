@@ -133,7 +133,7 @@ class StandardHtmlConverter(SongConverter):
         if searchable:
             import urllib.parse
             search_query = urllib.parse.quote(creator)
-            a_tag = etree.SubElement(span_content, "a", attrib={"href": f"../index.html#search={search_query}"})
+            a_tag = etree.SubElement(span_content, "a", attrib={"href": f"/#search={search_query}"})
             a_tag.text = creator
         else:
             span_content.text = creator

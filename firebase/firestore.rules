@@ -29,10 +29,54 @@ service cloud.firestore {
       );
     }
 
+    function isAcceptingVerifiedInvite(data, nextData, songbookId) {
+      return isAuthenticated() &&
+        !(request.auth.uid in data.ownerIds) &&
+        (request.auth.uid in nextData.ownerIds) &&
+        data.yaml == nextData.yaml &&
+        data.creatorId == nextData.creatorId &&
+        data.id == nextData.id &&
+        nextData.get('members', null) != null &&
+        nextData.members.get(request.auth.uid, null) != null &&
+        nextData.members[request.auth.uid].get('inviteId', null) != null &&
+        exists(/databases/$(database)/documents/invites/$(nextData.members[request.auth.uid].inviteId)) &&
+        get(/databases/$(database)/documents/invites/$(nextData.members[request.auth.uid].inviteId)).data.songbookId == songbookId &&
+        get(/databases/$(database)/documents/invites/$(nextData.members[request.auth.uid].inviteId)).data.status == 'accepted' &&
+        get(/databases/$(database)/documents/invites/$(nextData.members[request.auth.uid].inviteId)).data.acceptedByUid == request.auth.uid;
+    }
+
     // Admins Collection
     match /admins/{adminId} {
       allow read: if isAuthenticated();
       allow write: if isAdmin();
+    }
+
+    // Invites Collection
+    match /invites/{inviteId} {
+      // Anyone with the invite link can fetch the invite to preview it
+      allow get: if true;
+      // List invites: only authenticated users
+      allow list: if isAuthenticated();
+
+      // Creating invites: authenticated owner or admin
+      allow create: if isAuthenticated() && (
+        isSongbookOwner(get(/databases/$(database)/documents/songbooks/$(request.resource.data.songbookId)).data) ||
+        isAdmin()
+      );
+
+      // Updating invites:
+      // Invitee can accept/reject; inviter or admin can update/revoke
+      allow update: if isAuthenticated() && (
+        (resource.data.status == 'pending' && request.resource.data.status in ['accepted', 'rejected'] && request.resource.data.acceptedByUid == request.auth.uid) ||
+        (resource.data.inviterUid == request.auth.uid) ||
+        isAdmin()
+      );
+
+      // Deleting invites: inviter or admin
+      allow delete: if isAuthenticated() && (
+        (resource.data.inviterUid == request.auth.uid) ||
+        isAdmin()
+      );
     }
 
     // Users Collection
@@ -63,8 +107,8 @@ service cloud.firestore {
         isAdmin()
       );
       
-      // Any owner or admin can update the songbook.
-      allow update: if isSongbookOwner(resource.data) || isAdmin();
+      // Any owner, admin, or invited user accepting an invite can update the songbook.
+      allow update: if isSongbookOwner(resource.data) || isAdmin() || isAcceptingVerifiedInvite(resource.data, request.resource.data, songbookId);
 
       // Deletion allowed for creator, any owner, or admin.
       allow delete: if isAuthenticated() && (
