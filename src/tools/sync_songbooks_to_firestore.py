@@ -218,6 +218,12 @@ def main():
             "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2F21wdw%2Fassets%2Fznak21.svg?alt=media",
             "cover_name": "znak21.svg",
             "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "wdw21", "znak21.svg")),
+        },
+        {
+            "yaml_path": "songbooks/dino.songbook.yaml",
+            "cover_url": "https://firebasestorage.googleapis.com/v0/b/wdw-21.appspot.com/o/songbooks%2Fdino%2Fassets%2Fdino1.svg?alt=media",
+            "cover_name": "dino1.svg",
+            "cover_size": os.path.getsize(os.path.join(REPO_DIR, "songbooks", "dino", "dino1.svg")),
         }
     ]
 
