@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 import subprocess
@@ -254,6 +255,8 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list, publish_inf
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
+            encoding="utf-8",
+            errors="replace",
             env=env
         )
         
@@ -285,15 +288,26 @@ def background_compile(temp_dir: str, job_id: str, render_cmd: list, publish_inf
             else:
                 # File missing despite 0 exit code
                 log_path = os.path.join(temp_dir, f"{job_id}.log")
-                with open(log_path, "w") as f:
+                with open(log_path, "w", encoding="utf-8", errors="replace") as f:
                     f.write(f"Output artifact not found.\n\n{process.stdout}")
                 upload_result(log_path, f"{job_id}.log", "text/plain")
         else:
             log_path = os.path.join(temp_dir, f"{job_id}.log")
-            with open(log_path, "w") as f:
+            with open(log_path, "w", encoding="utf-8", errors="replace") as f:
                 f.write(process.stdout)
             upload_result(log_path, f"{job_id}.log", "text/plain")
             
+    except Exception as e:
+        import traceback
+        err_msg = f"Compilation exception: {e}\n\n{traceback.format_exc()}"
+        print(f"[{job_id}] {err_msg}")
+        log_path = os.path.join(temp_dir, f"{job_id}.log")
+        try:
+            with open(log_path, "w", encoding="utf-8", errors="replace") as f:
+                f.write(err_msg)
+            upload_result(log_path, f"{job_id}.log", "text/plain")
+        except Exception as upload_err:
+            print(f"[{job_id}] Failed to upload error log: {upload_err}")
     finally:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
@@ -429,7 +443,7 @@ async def render_songbook_yaml(request: YamlRequest, background_tasks: Backgroun
     python_cmd = ["python3", "src/latex/songbook2tex.py", request.papersize, "songbooks/custom.yaml"]
     env = os.environ.copy()
     env["PYTHONPATH"] = work_dir
-    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace", env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)
@@ -466,7 +480,7 @@ async def render_song_xml(request: XmlRequest, background_tasks: BackgroundTasks
     python_cmd = ["python3", "src/latex/songs2tex.py", request.format, request.papersize, request.title, "custom.xml"]
     env = os.environ.copy()
     env["PYTHONPATH"] = work_dir
-    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace", env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)
@@ -511,7 +525,7 @@ async def render_songbook_zip(
     python_cmd = ["python3", "src/latex/songbook2tex.py", papersize, "songbook.yaml"]
     env = os.environ.copy()
     env["PYTHONPATH"] = work_dir
-    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+    process = subprocess.run(python_cmd, cwd=work_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace", env=env)
     
     if process.returncode != 0:
         shutil.rmtree(temp_dir, ignore_errors=True)
