@@ -100,6 +100,18 @@
                     </button>
                 </div>
             </div>
+
+            <!-- Read-only / No Edit Rights Warning Banner -->
+            <div id="cloudSongbookReadOnlyBanner" style="display: none; background: #fffbeb; border: 1px solid #fef3c7; border-left: 4px solid #f59e0b; border-radius: 6px; padding: 12px 16px; margin-bottom: 15px; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 8px; color: #92400e; font-size: 0.95em;">
+                    <span class="material-symbols-outlined" style="color: #d97706;">visibility</span>
+                    <span><strong>Tryb podglądu (tylko do odczytu):</strong> Nie posiadasz uprawnień do edycji tego śpiewnika. Możesz zapisać go jako własną kopię.</span>
+                </div>
+                <button class="btn btn-sm btn-primary" onclick="duplicateAsNewSongbook()" style="white-space: nowrap;">
+                    <span class="material-symbols-outlined" style="font-size: 15px; vertical-align: middle;">content_copy</span>
+                    Utwórz własną kopię
+                </button>
+            </div>
             
             <div class="form-group">
                 <label for="songbookTitle">Tytuł Śpiewnika (wymagany):</label>
@@ -426,11 +438,14 @@
                 </div>
 
                 <div class="share-section" style="margin-top: 15px;">
-                    <label><strong>✏️ Link do edycji (w kreatorze):</strong></label>
+                    <label><strong>🔗 Bezpośredni link do kreatora (dla obecnych edytorów):</strong></label>
                     <div style="display: flex; gap: 8px; margin-top: 6px;">
                         <input type="text" id="shareUrlInput" readonly style="flex: 1;" />
                         <button class="btn btn-secondary" onclick="copyShareUrl()">Kopiuj</button>
                     </div>
+                    <small style="color: #666; font-size: 0.85em; display: block; margin-top: 4px;">
+                        Ten link jest przeznaczony dla osób z uprawnieniami edycji. Aby nadać prawa nowej osobie, użyj zaproszenia poniżej.
+                    </small>
                 </div>
 
                 <div class="share-section" style="margin-top: 20px;">
@@ -453,16 +468,21 @@
                             Zaproszona osoba otrzyma uprawnienia <strong>Edytora</strong>. Po otwarciu linku i zalogowaniu przez Google śpiewnik pojawi się na jej koncie.
                         </p>
                         <div style="display: flex; gap: 8px; margin-top: 5px;">
-                            <input type="email" id="newCollaboratorEmail" placeholder="Adres e-mail (opcjonalnie, np. znajomy@gmail.com)..." style="flex: 1;" onkeydown="if(event.key==='Enter') handleSendInviteEmail()" />
+                            <input type="email" id="newCollaboratorEmail" placeholder="Adres e-mail zapraszanej osoby (np. znajomy@gmail.com)..." style="flex: 1;" onkeydown="if(event.key==='Enter') handleSendInviteEmail()" />
                         </div>
+                        <div id="inviteActionAlert" style="display: none; margin-top: 10px; padding: 8px 12px; border-radius: 6px; font-size: 0.88em;"></div>
                         <div style="display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap;">
                             <button class="btn btn-primary" id="btnSendInviteEmail" onclick="handleSendInviteEmail()" style="display: inline-flex; align-items: center; gap: 6px;">
-                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">mail</span>
-                                Wyślij e-mail z zaproszeniem
+                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">send</span>
+                                Wyślij zaproszenie e-mail
                             </button>
                             <button class="btn btn-secondary" id="btnCreateInviteLink" onclick="handleCreateInviteLink()" style="display: inline-flex; align-items: center; gap: 6px;">
                                 <span class="material-symbols-outlined" style="font-size: 1.1rem;">link</span>
                                 Kopiuj link z zaproszeniem
+                            </button>
+                            <button class="btn btn-outline" id="btnCopyInviteMessage" onclick="handleCopyInviteMessage()" style="display: inline-flex; align-items: center; gap: 6px;">
+                                <span class="material-symbols-outlined" style="font-size: 1.1rem;">content_copy</span>
+                                Kopiuj treść zaproszenia
                             </button>
                         </div>
                     </div>

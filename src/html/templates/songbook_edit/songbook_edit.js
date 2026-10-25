@@ -1066,6 +1066,17 @@ function updateFinishSummary() {
     }
 }
 
+function canEditCurrentSongbook() {
+    if (!currentCloudSongbook || !currentCloudSongbook.id) return true;
+    if (!currentUser) return false;
+    const isAdmin = window.FirebaseSongbook && window.FirebaseSongbook.isAdmin(currentUser);
+    if (isAdmin) return true;
+    if (currentCloudSongbook.creatorId && currentCloudSongbook.creatorId === currentUser.uid) return true;
+    if (Array.isArray(currentCloudSongbook.ownerIds) && currentCloudSongbook.ownerIds.includes(currentUser.uid)) return true;
+    if (currentCloudSongbook.ownerId && currentCloudSongbook.ownerId === currentUser.uid) return true;
+    return false;
+}
+
 async function saveDraftCloud() {
     const btnDraft = document.getElementById('btnSaveDraft');
     const btnDraftHeader = document.getElementById('btnSaveDraftHeader');
@@ -1073,6 +1084,13 @@ async function saveDraftCloud() {
 
     try {
         await ensureAuthenticated();
+        if (currentCloudSongbook && !canEditCurrentSongbook()) {
+            if (confirm("Nie masz uprawnień do edycji tego śpiewnika w chmurze.\n\nCzy chcesz utworzyć z niego własną niezależną kopię (Nowy śpiewnik) i zapisać ją na swoim koncie?")) {
+                duplicateAsNewSongbook();
+            } else {
+                return;
+            }
+        }
         const data = getSongbookFormData();
         if (!data) return;
 
@@ -1154,6 +1172,13 @@ async function saveAndPublishCloud() {
 
     try {
         await ensureAuthenticated();
+        if (currentCloudSongbook && !canEditCurrentSongbook()) {
+            if (confirm("Nie masz uprawnień do edycji tego śpiewnika w chmurze.\n\nCzy chcesz utworzyć z niego własną niezależną kopię (Nowy śpiewnik) i zapisać ją na swoim koncie?")) {
+                duplicateAsNewSongbook();
+            } else {
+                return;
+            }
+        }
         const data = getSongbookFormData();
         if (!data) return;
 
@@ -1374,6 +1399,12 @@ function updateCloudStatusUI() {
         if (banner) banner.style.display = 'none';
         if (badgePromoted) badgePromoted.style.display = 'none';
         if (btnPromote) btnPromote.style.display = 'none';
+    }
+
+    const readOnlyBanner = document.getElementById('cloudSongbookReadOnlyBanner');
+    if (readOnlyBanner) {
+        const isReadOnly = currentCloudSongbook && currentCloudSongbook.id && !canEditCurrentSongbook();
+        readOnlyBanner.style.display = isReadOnly ? 'flex' : 'none';
     }
 
     updateFinishSummary();
@@ -1843,6 +1874,52 @@ function copyCustomInviteUrl(url) {
     });
 }
 
+function showInviteAlert(message, type = 'success') {
+    const el = document.getElementById('inviteActionAlert');
+    if (!el) return;
+    el.style.display = 'block';
+    if (type === 'success') {
+        el.style.background = '#ecfdf5';
+        el.style.border = '1px solid #a7f3d0';
+        el.style.color = '#065f46';
+    } else if (type === 'warning') {
+        el.style.background = '#fffbeb';
+        el.style.border = '1px solid #fef3c7';
+        el.style.color = '#92400e';
+    } else {
+        el.style.background = '#fef2f2';
+        el.style.border = '1px solid #fecaca';
+        el.style.color = '#991b1b';
+    }
+    el.textContent = message;
+    setTimeout(() => {
+        if (el) el.style.display = 'none';
+    }, 7000);
+}
+
+async function sendInviteEmailViaBackend({ inviteeEmail, inviteUrl }) {
+    const res = await fetch("https://songbook-pdf-render-177765940460.europe-west1.run.app/api/invite/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            invitee_email: inviteeEmail,
+            inviter_name: currentUser?.displayName || null,
+            inviter_email: currentUser?.email || null,
+            songbook_title: currentCloudSongbook.title || currentCloudSongbook.id,
+            invite_url: inviteUrl
+        })
+    });
+    if (!res.ok) {
+        let errDetail = "Błąd serwera";
+        try {
+            const errJson = await res.json();
+            errDetail = errJson.detail || errDetail;
+        } catch (_) {}
+        throw new Error(errDetail);
+    }
+    return await res.json();
+}
+
 async function renderPendingInvitesList() {
     const section = document.getElementById('pendingInvitesSection');
     const container = document.getElementById('pendingInvitesList');
@@ -1870,13 +1947,6 @@ async function renderPendingInvitesList() {
             const dateStr = inv.createdAt?.toDate ? inv.createdAt.toDate().toLocaleDateString('pl-PL') : (inv.createdAt ? new Date(inv.createdAt).toLocaleDateString('pl-PL') : '');
             const targetLabel = inv.inviteeEmail ? escapeHTML(inv.inviteeEmail) : '<em>Link ogólny</em>';
             const inviteUrl = window.FirebaseSongbook.buildInviteUrl(inv.id);
-            const mailtoUrl = generateInviteMailto({
-                inviteeEmail: inv.inviteeEmail,
-                inviterName: inv.inviterName,
-                inviterEmail: inv.inviterEmail,
-                songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
-                inviteUrl: inviteUrl
-            });
 
             return `
                 <div class="collaborator-item" style="background: #fffbeb; border: 1px solid #fef3c7;">
@@ -1890,9 +1960,9 @@ async function renderPendingInvitesList() {
                             <span class="material-symbols-outlined" style="font-size: 14px;">content_copy</span>
                         </button>
                         ${inv.inviteeEmail ? `
-                            <a href="${mailtoUrl}" class="btn btn-sm btn-outline" title="Wyślij e-mail z zaproszeniem" style="padding: 2px 8px; font-size: 0.8rem; text-decoration: none; display: inline-flex; align-items: center;">
-                                <span class="material-symbols-outlined" style="font-size: 14px;">mail</span>
-                            </a>
+                            <button class="btn btn-sm btn-outline" onclick="handleResendInviteEmail('${escapeHTML(inv.id)}', '${escapeHTML(inv.inviteeEmail)}')" title="Wyślij ponownie e-mail z zaproszeniem" style="padding: 2px 8px; font-size: 0.8rem; display: inline-flex; align-items: center;">
+                                <span class="material-symbols-outlined" style="font-size: 14px;">send</span>
+                            </button>
                         ` : ''}
                         <button class="btn btn-sm btn-outline" style="color: #dc2626; padding: 2px 8px; font-size: 0.8rem;" onclick="handleRevokeInviteAction('${escapeHTML(inv.id)}')" title="Anuluj to zaproszenie">
                             <span class="material-symbols-outlined" style="font-size: 14px;">close</span>
@@ -1916,10 +1986,16 @@ async function handleSendInviteEmail() {
         return;
     }
 
+    if (!emailVal || !emailVal.includes('@')) {
+        showInviteAlert("Podaj prawidłowy adres e-mail, na który ma zostać wysłane zaproszenie.", "warning");
+        if (emailInput) emailInput.focus();
+        return;
+    }
+
     const btn = document.getElementById('btnSendInviteEmail');
     if (btn) {
         btn.disabled = true;
-        btn.textContent = "Tworzenie zaproszenia...";
+        btn.textContent = "Wysyłanie e-maila...";
     }
 
     try {
@@ -1930,32 +2006,65 @@ async function handleSendInviteEmail() {
             role: 'editor'
         });
 
-        const mailtoLink = generateInviteMailto({
+        // Send email via Cloud Run backend (powiadomienia@spiewaj.com)
+        await sendInviteEmailViaBackend({
             inviteeEmail: emailVal,
-            inviterName: currentUser?.displayName,
-            inviterEmail: currentUser?.email,
-            songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
             inviteUrl: invite.inviteUrl
         });
 
-        // Trigger user mail client
-        window.location.href = mailtoLink;
-
         if (emailInput) emailInput.value = '';
+        showInviteAlert(`✓ Zaproszenie zostało wysłane z adresu powiadomienia@spiewaj.com na adres: ${emailVal}!`, "success");
         await renderPendingInvitesList();
-
-        setTimeout(() => {
-            if (confirm(`Zaproszenie zostało utworzone!\n\nOtwarto program pocztowy. Czy chcesz także skopiować link do schowka?\n\n${invite.inviteUrl}`)) {
-                copyCustomInviteUrl(invite.inviteUrl);
-            }
-        }, 400);
     } catch (e) {
-        alert("Błąd podczas tworzenia zaproszenia: " + e.message);
+        console.error("Błąd wysyłki zaproszenia:", e);
+        showInviteAlert("Błąd wysyłki e-mail: " + (e.message || e), "error");
     } finally {
         if (btn) {
             btn.disabled = false;
-            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 1.1rem;">mail</span> Wyślij e-mail z zaproszeniem';
+            btn.innerHTML = '<span class="material-symbols-outlined" style="font-size: 1.1rem;">send</span> Wyślij zaproszenie e-mail';
         }
+    }
+}
+
+async function handleResendInviteEmail(inviteId, email) {
+    if (!currentCloudSongbook || !currentCloudSongbook.id || !window.FirebaseSongbook) return;
+    try {
+        const inviteUrl = window.FirebaseSongbook.buildInviteUrl(inviteId);
+        await sendInviteEmailViaBackend({
+            inviteeEmail: email,
+            inviteUrl: inviteUrl
+        });
+        showInviteAlert(`✓ Ponownie wysłano e-mail z zaproszeniem na adres: ${email}`, "success");
+    } catch (e) {
+        showInviteAlert("Błąd ponownej wysyłki: " + e.message, "error");
+    }
+}
+
+async function handleCopyInviteMessage() {
+    if (!currentCloudSongbook || !currentCloudSongbook.id || !window.FirebaseSongbook) {
+        alert("Najpierw zapisz śpiewnik w chmurze.");
+        return;
+    }
+
+    const emailInput = document.getElementById('newCollaboratorEmail');
+    const emailVal = emailInput ? emailInput.value.trim() : '';
+
+    try {
+        const invite = await window.FirebaseSongbook.createInvite({
+            songbookId: currentCloudSongbook.id,
+            songbookTitle: currentCloudSongbook.title || currentCloudSongbook.id,
+            inviteeEmail: emailVal,
+            role: 'editor'
+        });
+
+        const inviterStr = currentUser?.displayName ? `${currentUser.displayName} (${currentUser.email || ''})` : (currentUser?.email || 'Twórca śpiewnika');
+        const text = `Cześć!\n\n${inviterStr} zaprasza Cię do współtworzenia śpiewnika "${currentCloudSongbook.title || currentCloudSongbook.id}" w serwisie spiewaj.com.\n\nPrzyznana rola: Edytor (prawo do edycji i dodawania utworów).\n\nAby dołączyć do śpiewnika, kliknij w poniższy link:\n${invite.inviteUrl}\n\n(Po otwarciu strony zaloguj się swoim kontem Google, a śpiewnik pojawi się na Twoim koncie).`;
+
+        await navigator.clipboard.writeText(text);
+        showInviteAlert("✓ Skopiowano gotową treść zaproszenia do schowka! Możesz ją wkleić do wiadomości lub maila.", "success");
+        await renderPendingInvitesList();
+    } catch (e) {
+        alert("Błąd generowania zaproszenia: " + e.message);
     }
 }
 

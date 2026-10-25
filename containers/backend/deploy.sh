@@ -24,6 +24,7 @@ gcloud run deploy ${SERVICE_NAME} \
   --concurrency=10 \
   --timeout=300 \
   --max-instances=5 \
-  --set-env-vars="STORAGE_URI=${STORAGE_URI}"
+  --set-env-vars="STORAGE_URI=${STORAGE_URI}" \
+  --set-secrets="RESEND_API_KEY=resend-api-key:latest"
 
 echo "Deployment finished."
