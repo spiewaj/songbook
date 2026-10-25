@@ -100,6 +100,8 @@ def to_firestore_doc(data_dict):
 
 def build_custom_songbook(yaml_rel_path, cover_url, cover_name, cover_size, all_songs):
     full_yaml_path = os.path.join(REPO_DIR, yaml_rel_path)
+    if not os.path.exists(full_yaml_path) and os.path.exists(full_yaml_path + ".disabled"):
+        full_yaml_path = full_yaml_path + ".disabled"
     with open(full_yaml_path, "r", encoding="utf-8") as f:
         raw_yaml_str = f.read()
         spec = yaml.safe_load(raw_yaml_str)
