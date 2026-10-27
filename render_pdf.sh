@@ -26,11 +26,16 @@ tex_dir=${__dir}/build/songs_tex
 mkdir -p ${tex_dir}
 tex_file=$(realpath "${tex_dir}")/${RANDOM}${RANDOM}.tex
 
+PYTHON_BIN="python3"
+if [[ -x "${__dir}/.python_venv/bin/python" ]]; then
+  PYTHON_BIN="${__dir}/.python_venv/bin/python"
+fi
+
 MAKE_INDEX=true
 if [[ "${@: -1}" =~ \.yaml$ || $# -lt 4 ]]; then
   papersize=$1
-  PYTHONPATH="${__dir}" python3 ${__dir}/src/latex/songbook2tex.py "${papersize}" "${@:2}" >${tex_file}
-  SONGBOOK_ID=$(PYTHONPATH="${__dir}" python3 ${__dir}/src/songbook2id.py "${@:2}")
+  PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/latex/songbook2tex.py "${papersize}" "${@:2}" >${tex_file}
+  SONGBOOK_ID=$(PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/songbook2id.py "${@:2}")
   JOB="${SONGBOOK_ID}_${papersize}"
 else
   format=$1
@@ -39,7 +44,7 @@ else
   if [[ ${format} == "single" ]]; then
     MAKE_INDEX=false
   fi
-  PYTHONPATH="${__dir}" python3 ${__dir}/src/latex/songs2tex.py "${format}" "${papersize}" "${title}" "${@:4}" >${tex_file}
+  PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/latex/songs2tex.py "${format}" "${papersize}" "${title}" "${@:4}" >${tex_file}
   JOB=${JOB:-"output"}
 fi
 

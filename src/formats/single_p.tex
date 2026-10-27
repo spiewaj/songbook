@@ -1,6 +1,9 @@
 % STYLE=file
 % TARGET=pdf
 \documentclass[:paper:,:fontsize:]{extbook}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage{cmap}
 \usepackage[savemem]{ucs}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -17,13 +20,27 @@
 
 
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage{helvet}
+\usepackage{tgheros}
 
 \usepackage{index}
 
 \newindex{wyk}{wadx}{wind}{Indeks wykonawców}
 \newindex{aliases}{aadx}{aind}{Indeks tytułów}
 \newindex{genre}{gadx}{gind}{Indeks gatunków}
+
+\usepackage[unicode=true,pdfencoding=auto]{hyperref}
+\hypersetup{
+    pdftitle={:pdftitle:},
+    pdfauthor={:pdfauthor:},
+    pdfsubject={:pdfsubject:},
+    pdfkeywords={:pdfkeywords:},
+    pdflang={pl-PL},
+    colorlinks=true,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 
 \geometry{scale={0.95,0.90},pdftex,top={3ex}}
 \addtolength{\headheight}{5ex}
@@ -41,10 +58,10 @@
 \newcommand{\theLetter}{}
 
 \pagestyle{fancy}
-\fancyfoot[RE,LO]{http://spiewaj.com/}
+\fancyfoot[RE,LO]{\href{:url:}{https://spiewaj.com/}}
 \fancyfoot[LE,RO]{\thepage}
 \fancyfoot[CE,CO]{}
-\fancyhead[RE,LO]{\today}
+\fancyhead[RE,LO]{}
 
 \begin{document}
 

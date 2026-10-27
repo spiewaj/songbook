@@ -1,6 +1,9 @@
 % STYLE=file
 % TARGET=pdf
 \documentclass[:paper:,:fontsize:]{extbook}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage{cmap}
 \usepackage[savemem]{ucs}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -35,8 +38,12 @@
 %\makeindex[name=aliases,title = Piosenki]
 %\makeindex[name=genre,title = Gatunki]
 
-\usepackage{hyperref}
+\usepackage[unicode=true,pdfencoding=auto]{hyperref}
 \hypersetup{
+    pdftitle={:title:},
+    pdfauthor={:publisher:},
+    pdfsubject={:subtitle:},
+    pdflang={pl-PL},
     colorlinks,
     citecolor=black,
     filecolor=black,
@@ -45,7 +52,7 @@
 }
 
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage{helvet}
+\usepackage{tgheros}
 
 
 \geometry{scale={0.95,0.90},pdftex,top={3ex}}
@@ -68,7 +75,7 @@
 \fancyfoot[RO]{\thepage{} \textbf{\theLetter}}
 \fancyfoot[LE]{\textbf{\theLetter} \thepage{}}
 \fancyfoot[CE,CO]{}
-\fancyhead[RE,LO]{\today}
+\fancyhead[RE,LO]{}
 
 \pagenumbering{roman}
 
