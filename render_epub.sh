@@ -19,6 +19,10 @@ if [[ $# -gt 1 ]]; then
   exit 1
 fi
 
-#cd "${__dir}/src/epub/"
-PYTHONPATH="${__dir}" python3 ${__dir}/src/epub/create_epub.py "${@}"
+PYTHON_BIN="python3"
+if [[ -x "${__dir}/.python_venv/bin/python" ]]; then
+  PYTHON_BIN="${__dir}/.python_venv/bin/python"
+fi
+
+PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/epub/create_epub.py "${@}"
 
