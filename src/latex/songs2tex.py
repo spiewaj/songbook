@@ -17,7 +17,13 @@ def sanitize_for_hypersetup(text):
     if not text:
         return ""
     text = text.replace("\r", " ").replace("\n", " ")
+    text = text.replace("\\", "")
     text = text.replace("{", "(").replace("}", ")")
+    text = text.replace("&", r"\&")
+    text = text.replace("%", r"\%")
+    text = text.replace("#", r"\#")
+    text = text.replace("_", r"\_")
+    text = text.replace("$", r"\$")
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
