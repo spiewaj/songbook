@@ -9,6 +9,19 @@ import src.lib.songbook as sb
 import songbook2tex as sb2t
 
 
+import re
+from lxml import etree
+
+
+def sanitize_for_hypersetup(text):
+    if not text:
+        return ""
+    text = text.replace("\r", " ").replace("\n", " ")
+    text = text.replace("{", "(").replace("}", ")")
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def create_ready_tex(songbook, source, papersize, title_of_songbook=None):
     """function create a pdf file in a4 or a5 size
         source - one file or list of files or directory path
@@ -37,8 +50,60 @@ def create_ready_tex(songbook, source, papersize, title_of_songbook=None):
         with open("src/formats/" + head) as f:
             content = f.read()
 
+        raw_title = title_of_songbook or ""
+        pdf_title = f"{raw_title} – Śpiewaj!" if raw_title else "Śpiewaj!"
+        pdf_author = ""
+        pdf_subject = ""
+        pdf_keywords = ""
+        song_url = "https://spiewaj.com/"
+
+        if len(source) == 1 and os.path.isfile(source[0]):
+            try:
+                tree = etree.parse(source[0])
+                root = tree.getroot()
+                raw_title = root.get('title') or title_of_songbook or ""
+                pdf_title = f"{raw_title} – Śpiewaj!" if raw_title else "Śpiewaj!"
+
+                authors = []
+                for tag in ['artist', 'text_author', 'composer']:
+                    el = root.find(f'{{*}}{tag}')
+                    if el is not None and el.text and el.text.strip():
+                        val = el.text.strip()
+                        if val not in authors:
+                            authors.append(val)
+                pdf_author = ", ".join(authors)
+
+                genre_el = root.find('{*}genre')
+                genre = genre_el.text.strip() if genre_el is not None and genre_el.text else ""
+
+                if genre:
+                    pdf_subject = f"Piosenka ({genre}): {raw_title} – tekst, chwyty i akordy na gitarę"
+                else:
+                    pdf_subject = f"Piosenka: {raw_title} – tekst, chwyty i akordy na gitarę"
+
+                keywords = ["piosenka", "tekst", "chwyty", "akordy", "śpiewnik", raw_title]
+                if genre:
+                    keywords.append(genre)
+                keywords.extend(authors)
+                pdf_keywords = ", ".join([k for k in keywords if k])
+
+                base_name = os.path.splitext(os.path.basename(source[0]))[0]
+                song_url = f"https://spiewaj.com/songs_html/{base_name}.html"
+            except Exception as e:
+                print(f"Warning: could not parse song metadata from {source[0]}: {e}", file=sys.stderr)
+        elif len(source) > 1:
+            raw_title = title_of_songbook or "Śpiewnik"
+            pdf_title = f"{raw_title} – Śpiewaj!"
+            pdf_subject = f"Śpiewnik: {raw_title}"
+            pdf_keywords = f"śpiewnik, piosenki, chwyty, {raw_title}"
+
         content = (content
-                   .replace(":title:", title_of_songbook)
+                   .replace(":title:", sanitize_for_hypersetup(raw_title))
+                   .replace(":pdftitle:", sanitize_for_hypersetup(pdf_title))
+                   .replace(":pdfauthor:", sanitize_for_hypersetup(pdf_author))
+                   .replace(":pdfsubject:", sanitize_for_hypersetup(pdf_subject))
+                   .replace(":pdfkeywords:", sanitize_for_hypersetup(pdf_keywords))
+                   .replace(":url:", song_url)
                    .replace(":paper:", "paper"+ papersize)
                    .replace(":fontsize:", "19pt" if papersize=="a4" else "14pt"))
 
