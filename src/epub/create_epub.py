@@ -52,6 +52,11 @@ def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], p
         etree.SubElement(spine, "itemref").attrib['idref'] = 'p' + str(p)
         p = p + 1
 
+    if not songbook.imageWebPath():
+        for item in list(manifest):
+            if item.attrib.get('id') == 'logo':
+                manifest.remove(item)
+
     et = etree.ElementTree(root)
     et.write(out_path, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
     resolveTemplate(songbook, out_path, out_path)
@@ -227,6 +232,8 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
     return files
 
 def resolveTemplate(songbook, from_file, to_file):
+    logo_img = (f'<img src="./images/logo.{songbook.imageWebExt()}" style="max-width: 90%; max-height: 50vh; height: auto; object-fit: contain;"></img>'
+                if songbook.imageWebPath() else "")
     return  converter_utils.replace_in_file(from_file, to_file,
         lambda s: (s.replace(":date:", str(actual_date()))
                     .replace(":datetime:", str(actual_datetime()))
@@ -238,7 +245,8 @@ def resolveTemplate(songbook, from_file, to_file):
                     .replace(":publisher:", str(songbook.publisher() or ""))
                     .replace(":timestamp:", datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"))
                     .replace(":imageMime:", str(songbook.imageWebMime() or ""))
-                    .replace(":imageExt:", str(songbook.imageWebExt() or ""))))
+                    .replace(":imageExt:", str(songbook.imageWebExt() or ""))
+                    .replace(":logo_img:", logo_img)))
 
 
 def create_template_epub(songbook, target_path):
