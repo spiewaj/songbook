@@ -1,75 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bóg się rodzi">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <alias>Pieśń o Narodzeniu Pańskim</alias>
+  <text_author type="solo">Franciszek Karpiński</text_author>
+  <comment>Napisana w 1792 r. przez Franciszka Karpińskiego. Tradycyjna melodia w rytmie poloneza przypisywana jest Karolowi Kurpińskiemu.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Bóg się rodzi moc truchleje</row>
-      <row important_over="never">Pan niebiosów obnażony</row>
-      <row important_over="never">Ogień krzepnie blask ciemnieje</row>
-      <row important_over="never">Ma granicę nieskończony</row>
+      <row important_over="true"><ch a="A"/>Bóg się rodzi, m<ch a="D"/>oc truchl<ch a="A"/>eje,<ch a="E7"/></row>
+      <row important_over="true"><ch a="A"/>Pan niebiosów <ch a="D"/>obnaż<ch a="A"/>ony!<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Ogień krzepnie, bl<ch a="D"/>ask ciemni<ch a="A"/>eje,<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Ma granicę ni<ch a="D"/>eskończ<ch a="A"/>ony.<ch a="E7"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Wzgardzony okryty chwałą</row>
-        <row important_over="never">Śmiertelny król nad wiekami</row>
-        <row important_over="never">A słowo ciałem się stało</row>
-        <row important_over="never">I mieszkało między nami</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="h"/>Wzgardzony, <ch a="E"/>okryty chw<ch a="A"/>ałą,<ch a="fis"/></row>
+        <row important_over="true"><ch a="h"/>Śmiertelny Kr<ch a="E"/>ól nad wiek<ch a="A"/>ami!<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>A Słowo Ci<ch a="E"/>ałem się st<ch a="A"/>ało<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>I mieszkało mi<ch a="E7"/>ędzy n<ch a="A"/>ami.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Cóż masz niebo nad ziemiany</row>
-      <row important_over="never">Bóg porzucił szczęście twoje</row>
-      <row important_over="never">Wszedł między lud ukochany</row>
-      <row important_over="never">Dzieląc z nim trudy i znoje</row>
+      <row important_over="false"><ch a="A"/>Cóż masz, niebo, n<ch a="D"/>ad ziemi<ch a="A"/>any?<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Bóg porzucił szcz<ch a="D"/>ęście tw<ch a="A"/>oje,<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Wszedł między lud <ch a="D"/>ukoch<ch a="A"/>any,<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Dzieląc z nim tr<ch a="D"/>udy i zn<ch a="A"/>oje.<ch a="E7"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Niemało cierpiał niemało</row>
-        <row important_over="never">Żeśmy byli winni sami</row>
-        <row important_over="never">A słowo ciałem się stało</row>
-        <row important_over="never">I mieszkało między nami</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="h"/>Niemało ci<ch a="E"/>erpiał, niem<ch a="A"/>ało,<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>Żeśmy byli w<ch a="E"/>inni s<ch a="A"/>ami,<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>A Słowo Ci<ch a="E"/>ałem się st<ch a="A"/>ało<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>I mieszkało mi<ch a="E7"/>ędzy n<ch a="A"/>ami.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">W nędznej szopie urodzony</row>
-      <row important_over="never">Żłób mu za kolebkę dano</row>
-      <row important_over="never">Cóż jest czym był otoczony</row>
-      <row important_over="never">Bydło pasterze i siano</row>
+      <row important_over="false"><ch a="A"/>W nędznej szopie <ch a="D"/>urodz<ch a="A"/>ony,<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Żłób Mu za kol<ch a="D"/>ebkę d<ch a="A"/>ano!<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Cóż jest, czym był <ch a="D"/>otocz<ch a="A"/>ony?<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Bydło, past<ch a="D"/>erze i si<ch a="A"/>ano.<ch a="E7"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Ubodzy was to spotkało</row>
-        <row important_over="never">Witać go przed bogaczami</row>
-        <row important_over="never">A słowo ciałem się stało</row>
-        <row important_over="never">I mieszkało między nami</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="h"/>Ubodzy, w<ch a="E"/>as to spotk<ch a="A"/>ało<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>Witać Go prz<ch a="E"/>ed bogacz<ch a="A"/>ami,<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>A Słowo Ci<ch a="E"/>ałem się st<ch a="A"/>ało<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>I mieszkało mi<ch a="E7"/>ędzy n<ch a="A"/>ami.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Podnieś rękę boże dziecię</row>
-      <row important_over="never">Błogosław ojczyznę miłą</row>
-      <row important_over="never">W dobrych radach w dobrym bycie</row>
-      <row important_over="never">Wspieraj jej siłę swą siłą</row>
+      <row important_over="false"><ch a="A"/>Podnieś rękę, B<ch a="D"/>oże Dzi<ch a="A"/>ecię,<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Błogosław ojcz<ch a="D"/>yznę mi<ch a="A"/>łą!<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>W dobrych radach, w d<ch a="D"/>obrym byci<ch a="A"/>e<ch a="E7"/></row>
+      <row important_over="false"><ch a="A"/>Wspieraj jej si<ch a="D"/>łę swą si<ch a="A"/>łą!<ch a="E7"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Dom nasz i majętność całą</row>
-        <row important_over="never">I wszystkie wioski z miastami</row>
-        <row important_over="never">A słowo ciałem się stało</row>
-        <row important_over="never">I mieszkało między nami</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="h"/>Dom nasz i m<ch a="E"/>ajętność c<ch a="A"/>ałą<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>I wszystkie wi<ch a="E"/>oski z miast<ch a="A"/>ami,<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>A Słowo Ci<ch a="E"/>ałem się st<ch a="A"/>ało<ch a="fis"/></row>
+        <row important_over="false"><ch a="h"/>I mieszkało mi<ch a="E7"/>ędzy n<ch a="A"/>ami.</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Kolęda</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Bog_sie_rodzi/tekst</verificator>
+      <verificator>https://spiewnik.wywrota.pl/koledy/bog-sie-rodzi</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
