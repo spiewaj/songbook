@@ -1,98 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song title="Spowiedź u księdza Bernardyna" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
+	<alias>Trochę niżej, proszę księdza</alias>
+	<text_author type="solo">tradycyjna</text_author>
+	<comment>Wersja śpiewana w 21. WDH odtworzona z pamięci (z wersji Józka) i z tradycyjnych wersji ogniskowo-biesiadnych.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="solo">Piosenka biesiadna</artist>
 	<translator></translator>
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">R<ch a="a"/>az do księdza b<ch a="d"/>ernardyna</row>
-			<row important_over="true">Jedzie cz<ch a="G"/>arna limuz<ch a="a"/>yna.</row>
-			<row important_over="false">Z ni<ch a="a"/>ej wysiada t<ch a="d"/>en chłopczyna</row>
-			<row important_over="true">I tak sp<ch a="E"/>owiedź swą zacz<ch a="a"/>yna:</row>
+			<row important_over="true">jedzie cz<ch a="G"/>arna limuz<ch a="a"/>yna.</row>
+			<row>Z ni<ch a="a"/>ej wysiada t<ch a="d"/>en chłopczyna</row>
+			<row>i tak sp<ch a="E"/>owiedź swą zacz<ch a="a"/>yna:</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">-- Pr<ch a="a"/>oszę księdza b<ch a="d"/>ernardyna,</row>
-			<row important_over="false">Całow<ch a="E"/>ałem się z dziewcz<ch a="a"/>yną.</row>
+			<row>– Pr<ch a="a"/>oszę księdza b<ch a="d"/>ernardyna,</row>
+			<row>całow<ch a="E"/>ałem się z dziewcz<ch a="a"/>yną.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze t<ch a="d"/>o rozpusta,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w <ch a="a"/>usta.</row>
+			<row>– <ch a="a"/>O mój chłopcze, t<ch a="d"/>o rozpusta,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w <ch a="a"/>usta.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">-- Tr<ch a="a"/>ochę niżej, t<ch a="d"/>rochę niżej,</row>
-			<row important_over="false">Trochę n<ch a="G"/>iżej, proszę ksi<ch a="a"/>ędza,</row>
-			<row important_over="false">Tr<ch a="a"/>ochę niżej, tr<ch a="d"/>ochę niżej,</row>
-			<row important_over="false">Proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
+			<row important_over="true">– Tr<ch a="a"/>ochę niżej, t<ch a="d"/>rochę niżej,</row>
+			<row important_over="true">trochę n<ch a="G"/>iżej, proszę ksi<ch a="a"/>ędza,</row>
+			<row>tr<ch a="a"/>ochę niżej, tr<ch a="d"/>ochę niżej,</row>
+			<row>proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, ni<ch a="d"/>e przeżyję,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w sz<ch a="a"/>yję.</row>
-		</block>
-		<blocklink blocknb="4"/>
-		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, t<ch a="d"/>o mnie mierzi,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w pi<ch a="a"/>ersi.</row>
+			<row>– <ch a="a"/>O mój chłopcze, ni<ch a="d"/>e przeżyję,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w sz<ch a="a"/>yję.</row>
 		</block>
 		<blocklink blocknb="4"/>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, t<ch a="d"/>o występek,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w p<ch a="a"/>ępek.</row>
+			<row>– <ch a="a"/>O mój chłopcze, t<ch a="d"/>o mnie mierzi,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w pi<ch a="a"/>ersi.</row>
 		</block>
 		<blocklink blocknb="4"/>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, c<ch a="d"/>o za psoty,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w st<ch a="a"/>opy.</row>
+			<row>– <ch a="a"/>O mój chłopcze, t<ch a="d"/>o występek,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w p<ch a="a"/>ępek.</row>
+		</block>
+		<blocklink blocknb="4"/>
+		<block type="verse">
+			<row>– <ch a="a"/>O mój chłopcze, c<ch a="d"/>o za psoty,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w st<ch a="a"/>opy.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">-- Tr<ch a="a"/>ochę wyżej, tr<ch a="d"/>ochę wyżej,</row>
-			<row important_over="false">Trochę w<ch a="G"/>yżej, proszę ksi<ch a="a"/>ędza,</row>
-			<row important_over="false">Tr<ch a="a"/>ochę wyżej, tr<ch a="d"/>ochę wyżej,</row>
-			<row important_over="false">Proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
+			<row important_over="true">– Tr<ch a="a"/>ochę wyżej, tr<ch a="d"/>ochę wyżej,</row>
+			<row important_over="true">trochę w<ch a="G"/>yżej, proszę ksi<ch a="a"/>ędza,</row>
+			<row>tr<ch a="a"/>ochę wyżej, tr<ch a="d"/>ochę wyżej,</row>
+			<row>proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, c<ch a="d"/>o za zbytki,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w ł<ch a="a"/>ydki.</row>
+			<row>– <ch a="a"/>O mój chłopcze, c<ch a="d"/>o za zbytki,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w ł<ch a="a"/>ydki.</row>
 		</block>
 		<blocklink blocknb="9"/>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, cz<ch a="d"/>y to złuda?</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w <ch a="a"/>uda.</row>
+			<row>– <ch a="a"/>O mój chłopcze, cz<ch a="d"/>y to złuda?</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w <ch a="a"/>uda.</row>
 		</block>
 		<blocklink blocknb="9"/>
 		<block type="verse">
-			<row important_over="false">-- <ch a="a"/>O mój chłopcze, j<ch a="d"/>a cię zduszę,</row>
-			<row important_over="false">Całow<ch a="E"/>ałeś dziewczę w p<ch a="a"/>upę.</row>
+			<row>– <ch a="a"/>O mój chłopcze, j<ch a="d"/>a cię zduszę,</row>
+			<row>całow<ch a="E"/>ałeś dziewczę w p<ch a="a"/>upę.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Z dr<ch a="a"/>ugiej strony, z dr<ch a="d"/>ugiej strony,</row>
-			<row important_over="false">Z drugiej str<ch a="G"/>ony proszę ksi<ch a="a"/>ędza,</row>
-			<row important_over="false">Z dr<ch a="a"/>ugiej strony, z dr<ch a="d"/>ugiej strony,</row>
-			<row important_over="false">Proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
+			<row important_over="true">Z dr<ch a="a"/>ugiej strony, z dr<ch a="d"/>ugiej strony,</row>
+			<row important_over="true">z drugiej str<ch a="G"/>ony proszę ksi<ch a="a"/>ędza,</row>
+			<row>z dr<ch a="a"/>ugiej strony, z dr<ch a="d"/>ugiej strony,</row>
+			<row>proszę ksi<ch a="E"/>ędza bernard<ch a="a"/>yna.</row>
 		</block>
 	</lyric>
-	
-	
-	
 	<music metre="4/4">
-		<guitar/>
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>Kabaret</genre>
 	<status>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>Wersja śpiewana w 21. WDH odtworzona z pamięci (z wersji Józka) i z tradycyjnych wersji ogniskowo-biesiadnych.</verificator>
+			<verificator>https://spiewnik.wywrota.pl/biesiadne/prosze-ksiedza-bernardyna</verificator>
 		</verificators>
-		<to_do>Wersja śpiewana przez 21. WDHy odworzona z pamięci z wersji Józka  i z netu, gdzie istnieją setki wersji. Prawdopodobnie różni się trochę.</to_do>
 	</status>
 	<music_source></music_source>
 </song>
-
