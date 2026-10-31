@@ -2,90 +2,69 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesień idzie">
 	<alias/>
 	<text_author type="solo">Andrzej Waligórski</text_author>
-	<comment/>
+	<comment>Tekst zweryfikowany z oficjalną stroną Andrzeja Waligórskiego (waligorski.art.pl) oraz nagraniem duetu Aleksander Grotowski i Małgorzata Zwierzchowska.</comment>
 	<composer type="solo">Aleksander Grotowski</composer>
-	<artist type="solo">Aleksander Grotowski; Małgorzata Zwierzchowska</artist>
+	<artist type="band">Aleksander Grotowski i Małgorzata Zwierzchowska</artist>
 	<translator/>
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="e"/>Raz staruszek, spacerując w lesie,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="e"/>Ujrzał listek przywiędły i blady<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="never">
-				<ch a="e"/>I pomyślał — Znowu idzie jesień,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="C"/>Jesień idzie, nie ma na to rady!<ch a="H7"/><ch a="e"/></row>
+			<row important_over="true">R<ch a="e"/>az staruszek, sp<ch a="A7"/>acerując w l<ch a="e"/>esie, <ch a="A7"/></row>
+			<row important_over="true"><ch a="e"/>ujrzał listek prz<ch a="A7"/>ywiędły i bl<ch a="H7"/>ady</row>
+			<row important_over="true"><ch a="e"/>i pomyślał: – Zn<ch a="A7"/>owu idzie j<ch a="e"/>esień, <ch a="A7"/></row>
+			<row important_over="true">j<ch a="C"/>esień idzie, ni<ch a="H7"/>e ma na to r<ch a="e"/>ady!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="C"/>I podreptał do chaty po dróżce,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>I oznajmił, stanąwszy przed chatą,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Swojej żonie, tak samo staruszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>- Jesień idzie, nie ma rady na to!<ch a="H7"/><ch a="e"/></row>
+			<row important_over="true">I podr<ch a="C"/>eptał d<ch a="D"/>o chaty po dr<ch a="G"/>óżce, <ch a="e"/></row>
+			<row important_over="true">i ozn<ch a="C"/>ajmił, stan<ch a="D"/>ąwszy przed ch<ch a="G"/>atą, <ch a="e"/></row>
+			<row important_over="true">swojej ż<ch a="C"/>onie, t<ch a="D"/>ak samo star<ch a="G"/>uszce: <ch a="e"/></row>
+			<row important_over="true">– J<ch a="C"/>esień idzie, ni<ch a="H7"/>e ma rady n<ch a="e"/>a to!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="e"/>A staruszka zmartwiła się szczerze,<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="e"/>Zamachała rękami obiema:<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="never">
-				<ch a="e"/>- Musisz zacząć chodzić w pulowerze.<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="C"/>Jesień idzie, rady na to nie ma!<ch a="H7"/><ch a="e"/></row>
+			<row important_over="false">A star<ch a="e"/>uszka zm<ch a="A7"/>artwiła się szcz<ch a="e"/>erze, <ch a="A7"/></row>
+			<row important_over="false">zamach<ch a="e"/>ała ręk<ch a="A7"/>ami obi<ch a="H7"/>ema:</row>
+			<row important_over="false">– M<ch a="e"/>usisz zacząć ch<ch a="A7"/>odzić w pulow<ch a="e"/>erze, <ch a="A7"/></row>
+			<row important_over="false">j<ch a="C"/>esień idzie, r<ch a="H7"/>ady na to ni<ch a="e"/>ema!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="C"/>Może zrobić się chłodno już jutro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Lub pojutrze, a może za tydzień<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Trzeba będzie wyjąć z kufra futro,<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Nie ma rady, jesień, jesień idzie!<ch a="H7"/><ch a="e"/></row>
+			<row important_over="false">Może zr<ch a="C"/>obić się chł<ch a="D"/>odno już j<ch a="G"/>utro <ch a="e"/></row>
+			<row important_over="false">lub poj<ch a="C"/>utrze, a m<ch a="D"/>oże za t<ch a="G"/>ydzień, <ch a="e"/></row>
+			<row important_over="false">trzeba b<ch a="C"/>ędzie wyj<ch a="D"/>ąć z kufra f<ch a="G"/>utro, <ch a="e"/></row>
+			<row important_over="false">ni<ch a="C"/>e ma rady, j<ch a="H7"/>esień, jesień <ch a="e"/>idzie!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="e"/>A był sierpień. Pogoda prześliczna.<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="e"/>Wszystko w złocie trwało i w zieleni<ch a="A7"/><ch a="H7"/></row>
-			<row important_over="never">
-				<ch a="e"/>Prócz staruszków nikt chyba nie myślał<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never">
-				<ch a="C"/>O mającej nastąpić jesieni.<ch a="H7"/><ch a="e"/></row>
+			<row important_over="false">A był si<ch a="e"/>erpień. Pog<ch a="A7"/>oda prześl<ch a="e"/>iczna, <ch a="A7"/></row>
+			<row important_over="false">wszystko w zł<ch a="e"/>ocie trw<ch a="A7"/>ało i w ziel<ch a="H7"/>eni.</row>
+			<row important_over="false">Prócz star<ch a="e"/>uszków nikt ch<ch a="A7"/>yba nie m<ch a="e"/>yślał <ch a="A7"/></row>
+			<row important_over="false">o maj<ch a="C"/>ącej nast<ch a="H7"/>ąpić jes<ch a="e"/>ieni.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="C"/>Ale cóż, oni żyli najdłużej.<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Mieli swoje staruszkowe zasady<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>I wiedzieli, że prędzej czy później<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never">
-				<ch a="C"/>Jesień przyjdzie, nie ma na to rady.<ch a="H7"/><ch a="e"/></row>
+			<row important_over="false">Ale c<ch a="C"/>óż, oni ż<ch a="D"/>yli najdł<ch a="G"/>użej, <ch a="e"/></row>
+			<row important_over="false">mieli sw<ch a="C"/>oje star<ch a="D"/>uszkowe zas<ch a="G"/>ady <ch a="e"/></row>
+			<row important_over="false">i wiedz<ch a="C"/>ieli, że pr<ch a="D"/>ędzej czy p<ch a="G"/>oźniej <ch a="e"/></row>
+			<row important_over="false">j<ch a="C"/>esień przyjdzie, ni<ch a="H7"/>e ma na to r<ch a="e"/>ady.</row>
 		</block>
 	</lyric>
-	<album>Jesień idzie</album>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Jesień idzie</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
-			<chords>chords</chords>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
-		<verificators><verificator>NN</verificator><verificator>Alek</verificator>
-			
-			
+		<verificators>
+			<verificator>NN</verificator>
+			<verificator>Alek</verificator>
+			<verificator>Andrzej Waligórski (tekst, waligorski.art.pl)</verificator>
+			<verificator>Aleksander Grotowski, Małgorzata Zwierzchowska – album „Jesień idzie” (1995)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/andrzej-waligorski/jesien-idzie</verificator>
 		</verificators>
-		<to_do>Tekst zgodnie z oficialnš stronš A. Waligórskiego: www.waligorski.art.pl — NN
-</to_do>
+		<to_do/>
 	</status>
-	<keywords/>
 	<music_source/>
-	<genre/>
 </song>
