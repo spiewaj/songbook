@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dokąd nas zaprowadzisz Panie">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Dokąd nas zaprowadzisz Panie<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Bez bagażu i bólu głowy<ch a="D"/></row>
-      <row important_over="never"><ch a="a"/>I gdy nic nam na drodze nie stanie<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Czy będziemy mogli zacząć na nowo<ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Bo wiesz u nas nie zawsze jest słońce<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Choć przed deszczem nas chroni parasol<ch a="D"/></row>
-      <row important_over="never"><ch a="a"/>Czasem jednak przemoczy nam serca<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Inny deszcz co spływa po twarzy<ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Więc nas zabierz bez tych uśmiechów<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Co dzień rano zostawianych w lustrze<ch a="D"/></row>
-      <row important_over="never"><ch a="a"/>I bez śniadań w pośpiechu by zdążyć<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Na kolejny autobus do jutra<ch a="E"/><ch a="A"/><ch a="G"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Bo my tu tak do jutra do zaraz<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Do pierwszego i do wakacji<ch a="D"/></row>
-      <row important_over="never"><ch a="a"/>Rozliczając geniuszy z geniuszu<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>A zjadaczy chleba z kolacji<ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Więc już jutro zaprowadź nas Panie<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Bez bagażu i bólu głowy<ch a="D"/></row>
-      <row important_over="never"><ch a="a"/>I gdy nic nam na drodze nie stanie<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Spróbujemy zacząć od nowa<ch a="E"/><ch a="a"/><ch a="G"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <blocklink blocknb="1"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dokąd nas zaprowadzisz, Panie">
+	<alias>Dokąd nas zaprowadzisz Panie</alias>
+	<text_author type="solo">Marek Tercz</text_author>
+	<comment/>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="solo">Przemysław Gintrowski</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="G"/>Dokąd nas zaprowadzisz, P<ch a="D"/>anie,</row>
+			<row important_over="true"><ch a="G"/>bez bagażu i bólu gł<ch a="D"/>owy?</row>
+			<row important_over="true">I gdy n<ch a="a"/>ic nam na drodze nie st<ch a="G"/>anie,</row>
+			<row important_over="true">czy będzi<ch a="F"/>emy m<ch a="E"/>ogli z<ch a="a"/>acząć n<ch a="G"/>a n<ch a="F"/>ow<ch a="E"/>o?</row>
+		</block>
+		<block type="verse">
+			<row>Bo wi<ch a="G"/>esz, u nas nie zawsze jest sł<ch a="D"/>ońce,</row>
+			<row>choć przed d<ch a="G"/>eszczem nas chroni paras<ch a="D"/>ol,</row>
+			<row>czasem j<ch a="a"/>ednak przemoczy nam s<ch a="G"/>erca</row>
+			<row>inny d<ch a="F"/>eszcz, c<ch a="E"/>o spływ<ch a="a"/>a p<ch a="G"/>o tw<ch a="F"/>arz<ch a="E"/>y.</row>
+		</block>
+		<block type="verse">
+			<row>Więc nas z<ch a="G"/>abierz bez tych uśmi<ch a="D"/>echów,</row>
+			<row>co dzień r<ch a="G"/>ano zostawianych w l<ch a="D"/>ustrze,</row>
+			<row>i bez śni<ch a="a"/>adań w pośpiechu, by zd<ch a="G"/>ążyć</row>
+			<row>na kol<ch a="F"/>ejny <ch a="E"/>autob<ch a="a"/>us d<ch a="G"/>o j<ch a="F"/>utr<ch a="E"/>a.</row>
+		</block>
+		<block type="verse">
+			<row>Bo my t<ch a="G"/>u tak do jutra, do z<ch a="D"/>araz,</row>
+			<row>do pi<ch a="G"/>erwszego i do wak<ch a="D"/>acji,</row>
+			<row>rozlicz<ch a="a"/>ając geniuszy z geni<ch a="G"/>uszu,</row>
+			<row>a zjad<ch a="F"/>aczy chl<ch a="E"/>eba <ch a="a"/>z kol<ch a="G"/>acj<ch a="F"/>i...<ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row>Więc już j<ch a="G"/>utro zaprowadź nas, P<ch a="D"/>anie,</row>
+			<row>bez bag<ch a="G"/>ażu i bólu gł<ch a="D"/>owy,</row>
+			<row>i gdy n<ch a="a"/>ic nam na drodze nie st<ch a="G"/>anie,</row>
+			<row>spróbuj<ch a="F"/>emy z<ch a="E"/>acząć <ch a="a"/>od n<ch a="G"/>ow<ch a="F"/>a...<ch a="E"/></row>
+		</block>
+		<blocklink blocknb="1"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Pamiątki</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Marek Tercz (słowa), Przemysław Gintrowski (muzyka), program „Pamiątki”</verificator>
+			<verificator>Oficjalna strona Przemysława Gintrowskiego (gintrowski.art.pl)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/przemyslaw-gintrowski/dokad-nas-zaprowadzisz-panie</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
