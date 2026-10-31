@@ -1,43 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song title="Cichutko" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cichutko">
+	<alias>Cichutko, pomaleńku</alias>
+	<text_author type="solo">Zbigniew Stefański</text_author>
+	<comment/>
+	<composer type="solo">Zbigniew Stefański</composer>
+	<artist type="band">Bez Jacka</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Cichutko, pomaleńku <ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Gdzie wiatr w gałęziach drzew <ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Dogania ciszę ptasich gniazd <ch a="C"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="true">Cich<ch a="e"/>utko, pomal<ch a="D"/>eńk<ch a="e"/>u,</row>
+			<row important_over="true">gdzie wi<ch a="D"/>atr w gałęziach drzew</row>
+			<row important_over="true">dog<ch a="C"/>ania ciszę pt<ch a="G"/>asich gni<ch a="D"/>azd.<ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Gdzie gwiazd milczących dal<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Odległa, niewiadoma<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Ukryta w bezmiar swej piękności<ch a="C"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="true">Gdzie gwi<ch a="D"/>azd milczących dal,</row>
+			<row important_over="true">odl<ch a="e"/>egła, niewiad<ch a="D"/>oma,</row>
+			<row important_over="true">ukr<ch a="C"/>yta w bezmiar sw<ch a="G"/>ej pięknośc<ch a="D"/>i...<ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Cichutko, pomaleńku<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Przez świata dziwny świat<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Nie zważaj na okrutne oczy dnia<ch a="C"/><ch a="G"/><ch a="D"/></row>
+			<row>Cich<ch a="e"/>utko, pomal<ch a="D"/>eńk<ch a="e"/>u,</row>
+			<row>przez świ<ch a="D"/>ata dziwny świat</row>
+			<row>nie zw<ch a="C"/>ażaj na okr<ch a="G"/>utne oczy dni<ch a="D"/>a.<ch a="e"/></row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>Do mroku naglisz mnie</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Zbigniew Stefański (słowa i muzyka), oficjalna strona zespołu: bezjacka.art.pl</verificator>
+			<verificator>Album „Do mroku naglisz mnie” (2003, Dalmafon)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/bez-jacka/cichutko-pomalenku</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source/>
 </song>
