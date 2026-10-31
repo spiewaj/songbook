@@ -1,55 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiesiek idzie">
+	<alias/>
 	<text_author type="solo">Artur Andrus</text_author>
+	<comment>Parodia utworu „Jesień idzie” Andrzeja Waligórskiego i Aleksandra Grotowskiego.</comment>
 	<composer type="solo">Aleksander Grotowski</composer>
 	<artist type="solo">Artur Andrus</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never"><ch a="e"/>Raz staruszka błądzącego w lesie<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>Ujrzał lisek przywiędły i blady<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>I pomyślał — znowu idzie Wiesiek<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never"><ch a="C"/>Wiesiek idzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
+			<row important_over="true">Raz sta<ch a="e"/>ruszka błądzącego w <ch a="A7"/>le<ch a="e"/>sie <ch a="C"/><ch a="h7"/></row>
+			<row important_over="true">ujrzał <ch a="e"/>lisek przywiędły i <ch a="A7"/>bla<ch a="h7"/>dy.</row>
+			<row>I po<ch a="e"/>myślał: „Znowu idzie <ch a="A7"/>Wie<ch a="e"/>siek! <ch a="A7"/></row>
+			<row><ch a="C"/>Wiesiek idzie, nie ma na to <ch a="h7"/>ra<ch a="e"/>dy”.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="C"/>I podreptał do nory po ścieżce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>I powiedział stanąwszy przed chatą<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Swojej żonie, lisicy Agnieszce<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Wiesiek idzie, nie ma rady na to<ch a="h7"/><ch a="e"/></row>
+			<row important_over="true">I pod<ch a="C"/>reptał do nory po <ch a="D"/>ścieżce <ch a="G"/><ch a="e"/></row>
+			<row important_over="true">i po<ch a="C"/>wiedział, stanąwszy przed <ch a="D"/>cha<ch a="G"/>tą, <ch a="e"/></row>
+			<row>swojej <ch a="C"/>żonie, lisicy Ag<ch a="D"/>niesz<ch a="G"/>ce: <ch a="e"/></row>
+			<row>„<ch a="C"/>Wiesiek idzie, nie ma rady <ch a="h7"/>na <ch a="e"/>to”.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="e"/>Zaś lisica zmartwiła się szczerze<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>Zamachała łapkami obiema<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>Matko Boska bądź ostrożny Jerzy<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never"><ch a="C"/>Wiesiek idzie, rady na to nie ma<ch a="h7"/><ch a="e"/></row>
+			<row>Zaś li<ch a="e"/>sica zmartwiła się <ch a="A7"/>szcze<ch a="e"/>rze, <ch a="C"/><ch a="h7"/></row>
+			<row>zama<ch a="e"/>chała łapkami o<ch a="A7"/>bie<ch a="h7"/>ma:</row>
+			<row>„Matko <ch a="e"/>Boska, bądź ostrożny, <ch a="A7"/>Je<ch a="e"/>rzy! <ch a="A7"/></row>
+			<row><ch a="C"/>Wiesiek idzie, rady na to <ch a="h7"/>nie <ch a="e"/>ma!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="C"/>Może zjawić się tutaj już jutro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Lub pojutrze, a może za tydzień<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Może nieźle przetrzepać nam futro<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Nie ma rady, Wiesiek, Wiesiek idzie<ch a="h7"/><ch a="e"/></row>
+			<row>Może <ch a="C"/>zjawić się tutaj już <ch a="D"/>ju<ch a="G"/>tro <ch a="e"/></row>
+			<row>lub po<ch a="C"/>jutrze, a może za <ch a="D"/>ty<ch a="G"/>dzień. <ch a="e"/></row>
+			<row>Może <ch a="C"/>nieźle przetrzepać nam <ch a="D"/>fu<ch a="G"/>tro! <ch a="e"/></row>
+			<row>Nie ma <ch a="C"/>rady, Wiesiek, Wiesiek <ch a="h7"/>idzi<ch a="e"/>e”.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="e"/>A był sierpień, pogoda prześliczna<ch a="A7"/><ch a="e"/><ch a="C"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>I tętniło życie w zagajnikach<ch a="A7"/><ch a="h7"/></row>
-			<row important_over="never"><ch a="e"/>Oprócz lisów nikt chyba nie myślał<ch a="A7"/><ch a="e"/><ch a="A7"/></row>
-			<row important_over="never"><ch a="C"/>O nadejściu Wieśka kłusownika<ch a="h7"/><ch a="e"/></row>
+			<row>A był <ch a="e"/>sierpień, pogoda prze<ch a="A7"/>ślicz<ch a="e"/>na <ch a="C"/><ch a="h7"/></row>
+			<row>i tęt<ch a="e"/>niło życie w zagaj<ch a="A7"/>ni<ch a="h7"/>kach.</row>
+			<row>Oprócz <ch a="e"/>lisów nikt chyba nie <ch a="A7"/>my<ch a="e"/>ślał <ch a="A7"/></row>
+			<row>o na<ch a="C"/>dejściu Wieśka kłusow<ch a="h7"/>ni<ch a="e"/>ka.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="C"/>Ale cóż, one żyły najdłużej<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Łby na karkach miały nie od parady<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>I wiedziały, że prędzej czy później<ch a="D"/><ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="C"/>Wiesiek przyjdzie, nie ma na to rady<ch a="h7"/><ch a="e"/></row>
+			<row>Ale <ch a="C"/>cóż, one żyły naj<ch a="D"/>dłu<ch a="G"/>żej, <ch a="e"/></row>
+			<row>łby na <ch a="C"/>karkach miały nie od <ch a="D"/>pa<ch a="G"/>rady <ch a="e"/></row>
+			<row>i wie<ch a="C"/>działy, że prędzej czy <ch a="D"/>póź<ch a="G"/>niej <ch a="e"/></row>
+			<row><ch a="C"/>Wiesiek przyjdzie, nie ma na to <ch a="h7"/>ra<ch a="e"/>dy.</row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
 	<keywords/>
-	<album>Największe Hity</album>
-	<genre>Piosenka kabaretowa</genre>
+	<album></album>
+	<genre>Kabaret</genre>
 	<status>
-		<done/>
-		<verificators/>
+		<done>
+			<text/>
+			<authors/>
+			<chords/>
+		</done>
+		<verificators>
+			<verificator>https://teksty.org/artur-andrus,wiesiek-idzie,tekst-piosenki</verificator>
+			<verificator>Parodia utworu „Jesień idzie” (słowa Artur Andrus, melodia Aleksander Grotowski)</verificator>
+		</verificators>
 	</status>
 	<music_source>Jesień idzie</music_source>
 </song>
