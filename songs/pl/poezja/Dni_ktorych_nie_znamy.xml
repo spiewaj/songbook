@@ -1,45 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dni których nie znamy">
-  <artist>Marek Grechuta</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">Tyle było dni do utraty sił<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Do utraty tchu, tyle było chwil<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Gdy żałujesz tych z których nie masz nic</row>
-      <row important_over="never">Jedno warto znać, jedno tylko wiedz</row>
-    </block>
-    <block type="chorus">
-      <row important_over="never">Że ważne są tylko te dni                        d F G<ch a="d"/><ch a="E7"/><ch a="a"/></row>
-      <row important_over="never">Których jeszcze nie znamy                       a F G<ch a="F"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="never">Ważnych jest kilka tych chwil</row>
-      <row important_over="never">Tych na które czekamy</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Pewien znany ktoś, kto miał dom i sad</row>
-      <row important_over="never">Zgubił nagle sens i w złe kręgi wpadł</row>
-      <row important_over="never">Choć majątek prysł, on nie stoczył się</row>
-      <row important_over="never">Wytłumaczyć umiał sobie wtedy właśnie, że</row>
-    </block>
-    <block type="chorus">
-      <row important_over="never">Że ważne są tylko te dni…</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Jak rozpoznać ludzi których już nie znamy<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Jak pozbierać myśli z tych nieposkładanych</row>
-      <row important_over="never">Jak oddzielić nagle serce od rozumu<ch a="d"/><ch a="A"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Jak usłyszeć siebie pośród śpiewu tłumu<ch a="a"/><ch a="e"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never">Bo ważne są tylko te dni…</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Jak rozpoznać ludzi których już nie znamy</row>
-      <row important_over="never">Jak pozbierać myśli z tych nieposkładanych</row>
-      <row important_over="never">Jak odnaleźć nagle radość i nadzieję</row>
-      <row important_over="never">Odpowiedzi szukaj, czasu jest tak wiele</row>
-    </block>
-    <block type="chorus">
-      <row important_over="never">Bo ważne są tylko te dni…</row>
-    </block>
-  </lyric>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dni, których nie znamy">
+	<alias>Dni których nie znamy</alias>
+	<text_author type="solo">Marek Grechuta</text_author>
+	<comment/>
+	<composer type="solo">Jan Kanty Pawluśkiewicz</composer>
+	<artist type="band">Marek Grechuta i Anawa</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">T<ch a="e"/>yle było dn<ch a="G"/>i do utr<ch a="D"/>aty s<ch a="G"/>ił,</row>
+			<row important_over="true">d<ch a="a"/>o utraty tch<ch a="e"/>u, tyle b<ch a="G"/>yło chw<ch a="D"/>il.</row>
+			<row>Gdy ż<ch a="e"/>ałujesz t<ch a="G"/>ych, z których n<ch a="D"/>ie masz n<ch a="G"/>ic,</row>
+			<row>j<ch a="a"/>edno warto zn<ch a="e"/>ać, jedno t<ch a="G"/>ylko wi<ch a="D"/>edz:</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Że w<ch a="a"/>ażne są t<ch a="H7"/>ylko te dn<ch a="e"/>i,</row>
+			<row important_over="true">kt<ch a="C"/>órych j<ch a="D"/>eszcze nie zn<ch a="G"/>amy, <ch a="E7"/></row>
+			<row important_over="true">w<ch a="a"/>ażnych jest k<ch a="H7"/>ilka tych chw<ch a="e"/>il,</row>
+			<row important_over="true">t<ch a="C"/>ych, na kt<ch a="D"/>óre czek<ch a="e"/>amy.</row>
+		</block>
+		<block type="verse">
+			<row>P<ch a="e"/>ewien znany kt<ch a="G"/>oś, kto miał d<ch a="D"/>om i s<ch a="G"/>ad,</row>
+			<row>zg<ch a="a"/>ubił nagle s<ch a="e"/>ens i w złe kr<ch a="G"/>ęgi wp<ch a="D"/>adł.</row>
+			<row>Ch<ch a="e"/>oć majątek pr<ch a="G"/>ysł, on nie st<ch a="D"/>oczył si<ch a="G"/>ę,</row>
+			<row>wytłum<ch a="a"/>aczyć umiał s<ch a="e"/>obie wtedy wł<ch a="G"/>aśnie, ż<ch a="D"/>e:</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="true">J<ch a="e"/>ak rozpoznać l<ch a="h"/>udzi, których j<ch a="G"/>uż nie zn<ch a="D"/>amy?</row>
+			<row important_over="true">J<ch a="e"/>ak pozbierać m<ch a="h"/>yśli z tych niep<ch a="G"/>oskład<ch a="D"/>anych?</row>
+			<row important_over="true">J<ch a="a"/>ak oddzielić n<ch a="e"/>agle s<ch a="C"/>erce od roz<ch a="G"/>um<ch a="D"/>u?</row>
+			<row important_over="true">J<ch a="e"/>ak usłyszeć si<ch a="h"/>ebie pośród śpi<ch a="G"/>ewu tł<ch a="D"/>umu?</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row>J<ch a="e"/>ak rozpoznać l<ch a="h"/>udzi, których j<ch a="G"/>uż nie zn<ch a="D"/>amy?</row>
+			<row>J<ch a="e"/>ak pozbierać m<ch a="h"/>yśli z tych niep<ch a="G"/>oskład<ch a="D"/>anych?</row>
+			<row>J<ch a="a"/>ak odnaleźć n<ch a="e"/>agle r<ch a="C"/>adość i nadzi<ch a="G"/>ej<ch a="D"/>ę?</row>
+			<row>Odp<ch a="e"/>owiedzi sz<ch a="h"/>ukaj, czasu j<ch a="G"/>est tak wi<ch a="D"/>ele!</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Korowód</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Marek Grechuta (słowa), Jan Kanty Pawluśkiewicz (muzyka), album „Korowód” (1971)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Dni_ktorych_nie_znamy)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/dni-ktorych-nie-znamy</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
