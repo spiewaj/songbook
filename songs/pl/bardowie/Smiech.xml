@@ -1,79 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śmiech">
   <alias>Pinokio</alias>
-  <text_author>Krzysztof Sieniawski</text_author>
+  <text_author>Krzysztof Maria Sieniawski</text_author>
   <comment/>
   <composer type="solo">Przemysław Gintrowski</composer>
-  <artist type="solo">Jacek Kaczmarski</artist>
+  <artist type="solo">Przemysław Gintrowski</artist>
   <translator/>
   <original_title/>
+  <album>Mury w Muzeum Raju</album>
+  <genre>Poezja śpiewana</genre>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Bardzo śmiesznie jest umierać<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy żyć byś chciał<ch a="G"/></row>
+      <row important_over="true"><ch a="G"/>Bardzo śmiesznie jest umierać,<ch a="a"/></row>
+      <row><ch a="C"/>Kiedy żyć byś chciał,<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Kiedy jesteś Brown<ch a="H"/><ch a="e"/></row>
+        <row important_over="true"><ch a="C"/>Nosić miano Olivera,<ch a="G"/></row>
+        <row><ch a="a"/>Kiedy jesteś Brown.<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Jak zabawnie chcieć i nie móc<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Lub nie chcieć i móc<ch a="G"/></row>
+      <row><ch a="G"/>Jak zabawnie chcieć i nie móc<ch a="a"/></row>
+      <row><ch a="C"/>Lub nie chcieć i móc,<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Dziś Romulus jutro Remulus<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Jutro trup dziś wódz<ch a="H"/><ch a="e"/></row>
+        <row><ch a="C"/>Dziś Romulus – jutro Remus,<ch a="G"/></row>
+        <row><ch a="a"/>Jutro trup – dziś wódz.<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Chciałbyś lecieć za widnokrąg<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Miasto ci się śni<ch a="G"/></row>
+      <row><ch a="G"/>Chciałbyś lecieć za widnokrąg,<ch a="a"/></row>
+      <row><ch a="C"/>Miasto ci się śni –<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Czemu żyć chcesz Pinokio <ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>W korowodzie złych dni<ch a="H"/><ch a="e"/></row>
+        <row><ch a="C"/>Czemu żyć chcesz, Pinokio,<ch a="G"/></row>
+        <row><ch a="a"/>W korowodzie złych dni?<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Bardzo śmiesznie wstawać rano<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy spać byś chciał<ch a="G"/></row>
+      <row><ch a="G"/>Bardzo śmiesznie wstawać rano,<ch a="a"/></row>
+      <row><ch a="C"/>Kiedy spać byś chciał,<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>I z twarzyczką zapłakaną<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Wychodzić na raut<ch a="H"/><ch a="e"/></row>
+        <row><ch a="C"/>I z twarzyczką zapłakaną<ch a="G"/></row>
+        <row><ch a="a"/>Wychodzić na raut.<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Jak zabawnie myśleć o czymś<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy braknie ci słów<ch a="G"/></row>
+      <row><ch a="G"/>Jak zabawnie myśleć o czymś,<ch a="a"/></row>
+      <row><ch a="C"/>Kiedy braknie słów,<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Prosto z pełni w sen wyskoczyć<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>W roześmiany nów<ch a="H"/><ch a="e"/></row>
+        <row><ch a="C"/>Prosto z pełni w sen wyskoczyć<ch a="G"/></row>
+        <row><ch a="a"/>W roześmiany nów.<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Chciałbyś słońca musisz moknąć<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Myśląc w to mi graj<ch a="G"/></row>
+      <row><ch a="G"/>Chciałbyś słońca – musisz moknąć,<ch a="a"/></row>
+      <row><ch a="C"/>Myśląc: w to mi graj!<ch a="G"/></row>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Nie umieraj Pinokio<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Jeszcze jedną noc trwaj<ch a="H"/><ch a="e"/></row>
+        <row><ch a="C"/>Nie umieraj, Pinokio,<ch a="G"/></row>
+        <row><ch a="a"/>Jeszcze jedną noc trwaj!<ch a="H"/><ch a="e"/></row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="2/4">
     <guitar barre="0"/>
   </music>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze-inni-autorzy/smiech/</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
