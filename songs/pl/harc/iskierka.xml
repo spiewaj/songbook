@@ -1,41 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Iskierka">
+  <alias>Na drodze życia twego jest iskierka</alias>
+  <text_author>T. Ulanowska</text_author>
+  <composer>T. Ulanowska</composer>
+  <artist>Piosenka harcerska</artist>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <lyric>
     <block type="verse">
-      <row important_over="never">Na drodze życia twego jest iskierka <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">podążasz za nią raz wybraną drogą <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">przyświeca ci choć blask jej chcą ugasić <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">ci,którzy na tą drogę wejść nie mogą <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
+      <row important_over="true" sidechords="D A e e">Na <ch a="D"/>drodze życia <ch a="A"/>twego jest is<ch a="e"/>kierka,</row>
+      <row important_over="true" sidechords="D A e e">po<ch a="D"/>dążasz za nią <ch a="A"/>raz wybraną <ch a="e"/>drogą.</row>
+      <row important_over="never" sidechords="D A e e">Przy<ch a="D"/>świeca ci, choć <ch a="A"/>blask jej chcą u<ch a="e"/>gasić</row>
+      <row important_over="never" sidechords="D A e e">ci, <ch a="D"/>którzy na tę <ch a="A"/>drogę wejść nie <ch a="e"/>mogą.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">Twój nocny ognik szepce ci do ucha</row>
-      <row important_over="never" sidechords="D A e e">tych co odeszli kłamstw nigdy nie słuchaj</row>
-      <row important_over="never" sidechords="D A e e">Ojczyzna, Nauka, Cnota twe wartości</row>
-      <row important_over="never" sidechords="D A e e">bądź sługą prawdy i sprawiedliwości</row>
+      <row important_over="never" sidechords="D A e e">Twój nocny ognik szepce ci do ucha,</row>
+      <row important_over="never" sidechords="D A e e">tych, co odeszli, kłamstw nigdy nie słuchaj.</row>
+      <row important_over="never" sidechords="D A e e">Ojczyzna, Nauka, Cnota twe wartości,</row>
+      <row important_over="never" sidechords="D A e e">bądź sługą prawdy i sprawiedliwości.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Chodź, chodź ze mną przy ogniu siądź (przy ogniu siądź) <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">ja wyciągam do ciebie dłoń (dłoń,dłoń,dłoń, dłoń, dłoń) <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">tak jak ja wpatrzony w niego bądź (w niego bądź) <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
-      <row important_over="never">i opowieści iskier ze mną chłoń (chłoń,chłoń,chłoń, chłoń, chłoń) <ch a="D"/><ch a="A"/><ch a="e"/><ch a="e"/></row>
+      <row important_over="true" sidechords="D A e e"><ch a="D"/>Chodź, chodź ze mną <ch a="A"/>przy ogniu siądź (przy ogniu <ch a="e"/>siądź),</row>
+      <row important_over="true" sidechords="D A e e">ja <ch a="D"/>wyciągam do <ch a="A"/>ciebie dłoń (dłoń, dłoń, dłoń, <ch a="e"/>dłoń, dłoń).</row>
+      <row important_over="never" sidechords="D A e e"><ch a="D"/>Tak jak ja wpa<ch a="A"/>trzony w niego bądź (w niego <ch a="e"/>bądź)</row>
+      <row important_over="never" sidechords="D A e e">i opo<ch a="D"/>wieści iskier <ch a="A"/>ze mną chłoń (chłoń, chłoń, chłoń, <ch a="e"/>chłoń, chłoń).</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">Nie każdy może drogą tą podążać</row>
-      <row important_over="never" sidechords="D A e e">bo zamiast dawać umie tylko żądać</row>
-      <row important_over="never" sidechords="D A e e">więc skieruj nań ogniska swego blask</row>
-      <row important_over="never" sidechords="D A e e">gdy go doświadczysz siądziesz pośród nas</row>
+      <row important_over="never" sidechords="D A e e">Nie każdy może drogą tą podążać,</row>
+      <row important_over="never" sidechords="D A e e">bo zamiast dawać umie tylko żądać.</row>
+      <row important_over="never" sidechords="D A e e">Więc skieruj nań ogniska swego blask,</row>
+      <row important_over="never" sidechords="D A e e">gdy go doświadczysz siądziesz pośród nas.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">I oddaj pokłon ogniu tak jak my</row>
-      <row important_over="never" sidechords="D A e e">dla niego iskra też się będzie tlić</row>
-      <row important_over="never" sidechords="D A e e">i wyrusz na tę drogę razem z tym</row>
-      <row important_over="never" sidechords="D A e e">który już przyjacielem będzie Twym</row>
+      <row important_over="never" sidechords="D A e e">I oddaj pokłon ogniu tak jak my,</row>
+      <row important_over="never" sidechords="D A e e">dla niego iskra też się będzie tlić.</row>
+      <row important_over="never" sidechords="D A e e">I wyrusz na tę drogę razem z tym,</row>
+      <row important_over="never" sidechords="D A e e">który już przyjacielem będzie Twym.</row>
     </block>
   </lyric>
   <keywords/>
   <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/harcerskie/iskierka</verificator>
+    </verificators>
   </status>
 </song>
