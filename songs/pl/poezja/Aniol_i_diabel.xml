@@ -2,58 +2,54 @@
 <song title="Anioł i diabeł" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias>Pod śliwką</alias>
 	<text_author type="solo">Anna Borowa</text_author>
-	<comment></comment>
+	<comment>Piosenka pierwotnie nosiła tytuł „Pod śliwką”, zamieszczona pod powszechnym tytułem „Anioł i diabeł”.</comment>
 	<composer type="solo">Andrzej Zieliński</composer>
 	<artist type="solo">Łucja Prus</artist>
 	<translator></translator>
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="true">
-				<ch a="e"/>Idzie diabeł ści<ch a="C"/>eżką krętą p<ch a="D"/>ełen myśli zł<ch a="e"/>ych</row>
-			<row important_over="false">Ni<ch a="e"/>e pożyczył m<ch a="C"/>u na piwo, ni<ch a="D"/>e pożyczył n<ch a="e"/>ikt.</row>
-			<row important_over="false">Sł<ch a="e"/>ońce smaży g<ch a="C"/>o od rana, wi<ch a="D"/>atr gorący dm<ch a="e"/>ucha,</row>
-			<row important_over="false">Di<ch a="e"/>abeł się z pragni<ch a="C"/>enia słania w t<ch a="D"/>en piekielny <ch a="e"/>upał.</row>
+			<row important_over="true"><ch a="e"/>Idzie diabeł <ch a="C"/>ścieżką krętą, <ch a="D"/>pełen myśli <ch a="e"/>złych,</row>
+			<row important_over="true">ni<ch a="e"/>e pożyczył <ch a="C"/>mu na piwo, <ch a="D"/>nie pożyczył <ch a="e"/>nikt.</row>
+			<row>Sł<ch a="e"/>ońce smaży <ch a="C"/>go od rana, <ch a="D"/>wiatr gorący <ch a="e"/>dmucha,</row>
+			<row>di<ch a="e"/>abeł się z prag<ch a="C"/>nienia słania w <ch a="D"/>ten piekielny <ch a="e"/>upał.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="e"/>Idzie Anioł wśr<ch a="C"/>ód zieleni, d<ch a="D"/>obrze mu się wi<ch a="e"/>edzie,</row>
-			<row important_over="false">P<ch a="e"/>ełno grosza m<ch a="C"/>a w kieszeni <ch a="D"/>i przyjaciół wsz<ch a="e"/>ędzie.</row>
-			<row important_over="false">N<ch a="e"/>agle przystan<ch a="C"/>ęli obaj n<ch a="D"/>a drodze pod śl<ch a="e"/>iwą.</row>
-			<row important_over="false">Z<ch a="e"/>obaczyli, ż<ch a="C"/>e im wyszedł br<ch a="D"/>owar naprzec<ch a="e"/>iwko.</row>
+			<row><ch a="e"/>Idzie Anioł <ch a="C"/>wśród zieleni, <ch a="D"/>dobrze mu się <ch a="e"/>wiedzie,</row>
+			<row>p<ch a="e"/>ełno grosza <ch a="C"/>ma w kieszeni <ch a="D"/>i przyjaciół <ch a="e"/>wszędzie.</row>
+			<row>N<ch a="e"/>agle przysta<ch a="C"/>nęli obaj <ch a="D"/>na drodze pod <ch a="e"/>śliwą,</row>
+			<row>z<ch a="e"/>obaczyli, <ch a="C"/>że im wyszedł <ch a="D"/>browar naprze<ch a="e"/>ciwko.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ni<ch a="e"/>e ma szczęścia n<ch a="C"/>a tym świecie n<ch a="D"/>i sprawiedliw<ch a="e"/>ości,</row>
-			<row important_over="false">
-				<ch a="e"/>Anioł pije p<ch a="C"/>iwo trzecie, Di<ch a="D"/>abeł mu zazdr<ch a="e"/>ości.</row>
-			<row important_over="false">P<ch a="e"/>ostaw kufla m<ch a="C"/>ówi Diabeł - B<ch a="D"/>óg ci wynagr<ch a="e"/>odzi,</row>
-			<row important_over="false">M<ch a="e"/>y artyści w t<ch a="C"/>aki upał ż<ch a="D"/>yć musimy w zg<ch a="e"/>odzie.</row>
+			<row>Ni<ch a="e"/>e ma szczęścia <ch a="C"/>na tym świecie <ch a="D"/>ni sprawiedli<ch a="e"/>wości,</row>
+			<row><ch a="e"/>Anioł pije <ch a="C"/>piwo trzecie, <ch a="D"/>Diabeł mu zaz<ch a="e"/>drości.</row>
+			<row>„P<ch a="e"/>ostaw kufla – <ch a="C"/>mówi Diabeł – <ch a="D"/>Bóg ci wyna<ch a="e"/>grodzi,</row>
+			<row>m<ch a="e"/>y, artyści, w <ch a="C"/>taki upał <ch a="D"/>żyć musimy w <ch a="e"/>zgodzie”.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">N<ch a="e"/>a to Anioł z<ch a="C"/>atrzepotał skrz<ch a="D"/>ydeł piórop<ch a="e"/>uszem</row>
-			<row important_over="false">
-				<ch a="e"/>I powiada - d<ch a="C"/>am ci dychę w z<ch a="D"/>amian za twą d<ch a="e"/>uszę.</row>
-			<row important_over="false">M<ch a="e"/>usiał Diabeł <ch a="C"/>Aniołowi wści<ch a="D"/>ekłą duszę sprz<ch a="e"/>edać</row>
-			<row important_over="false">
-				<ch a="e"/>I stworzyli s<ch a="C"/>obie piekło z <ch a="D"/>odrobiną ni<ch a="e"/>eba.</row>
+			<row>N<ch a="e"/>a to Anioł <ch a="C"/>zatrzepotał <ch a="D"/>skrzydeł pióro<ch a="e"/>puszem</row>
+			<row>i<ch a="e"/> powiada: „D<ch a="C"/>am ci dychę w <ch a="D"/>zamian za twą <ch a="e"/>duszę”.</row>
+			<row>M<ch a="e"/>usiał Diabeł <ch a="C"/>Aniołowi <ch a="D"/>wściekłą duszę <ch a="e"/>sprzedać</row>
+			<row>i<ch a="e"/> stworzyli <ch a="C"/>sobie piekło z <ch a="D"/>odrobiną <ch a="e"/>nieba.</row>
 		</block>
 	</lyric>
 	<music metre="2/2">
-		<guitar/>
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre>Inna</genre>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<done>	<text/>
+		<done>
+			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Onufry: Sprawdzone dane autorów tekstu (Anna Borowa) i muzyki (Andrzej Zieliński, wyk. Łucja Prus). Piosenka pierwotnie nosiła tytuł „Pod śliwką”, zamieszczona pod powszechnym tytułem „Anioł i diabeł”.</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Pod_sliwka</verificator>
 		</verificators>
-		<to_do>Poświęciłem chwilę czasu, żeby sprawdzić dane, więc proszę nie poprawiać autorów tekstu i muzyki bez konsultacji. Piosenka tak naprawdę pierwotnie nosiła tytuł "Pod śliwką", ale zamieszczam ją pod bardziej znanym tytułem "Anioł i diabeł". Mylona niekiedy z "Diabeł i Raj" Osieckiej.</to_do>
 	</status>
 	<music_source></music_source>
 </song>
