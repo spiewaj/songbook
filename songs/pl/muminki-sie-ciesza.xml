@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Muminki się cieszą radością i życiem">
+  <text_author type="solo">Andrzej Tylczyński</text_author>
+  <comment>Chwyty na podstawie fińskiego/szwedzkiego odpowiednika („Hei Muumit” / „Hej Mumin”): https://tabs.ultimate-guitar.com/tab/1760475</comment>
+  <composer type="solo">Pierre Kartner</composer>
+  <artist type="solo">Wiktor Zborowski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Między wzgórzami, pod lasem ukryty,</row>
+      <row important_over="true"><ch a="h"/>Muminków kraj budzi sny i zachwyty –</row>
+      <row important_over="true"><ch a="G"/>tam żyją, przy sobie, ot <ch a="D"/>tak...</row>
+      <row important_over="true"><ch a="A"/>pięćdziesiąt <ch a="D"/>lat...</row>
+      <row important_over="false"><ch a="D"/>Tam tak już jest, że w pokoju się żyje</row>
+      <row important_over="false">i <ch a="h"/>miłość, szacunek tam rządzą, nie kije.</row>
+      <row important_over="false"><ch a="G"/>Miłością się darzą od <ch a="D"/>lat,</row>
+      <row important_over="true">bo <ch a="A"/>noszą ją w sercu co <ch a="D"/>dnia.<ch a="D7"/></row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="G"/>Muminki się cieszą radością i życiem,</row>
+      <row important_over="never">Muminki!</row>
+      <row important_over="false"><ch a="G"/>i tym, że im chmurki bieleją o świcie,</row>
+      <row important_over="true">Mu<ch a="D"/>minki!<ch a="D7"/></row>
+      <row important_over="true"><ch a="G"/>że wszystko jest dobre i <ch a="e"/>jasne jak błysk,</row>
+      <row important_over="true">że <ch a="a"/>one kochają, że <ch a="C"/>kochasz je <ch a="D7"/>ty!</row>
+      <row important_over="true">Mu<ch a="G"/>minki!</row>
+      <row important_over="true">Mu<ch a="D"/>minki!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Tam ma papa-Mumin kapelusz na głowie,</row>
+      <row important_over="false">a <ch a="h"/>mama torebkę, i nikt mi nie powie,</row>
+      <row important_over="false"><ch a="G"/>że inna od innych jest <ch a="D"/>mam.</row>
+      <row important_over="false"><ch a="A"/>Ja taką <ch a="D"/>mam.</row>
+      <row important_over="false"><ch a="D"/>Muminek ma także najlepszych przyjaciół:</row>
+      <row important_over="false"><ch a="h"/>Włóczykij i Ryjek tak wiele dlań znaczą,</row>
+      <row important_over="false"><ch a="G"/>a Mała Mi, wścibska jak <ch a="D"/>skrzat,</row>
+      <row important_over="false"><ch a="A"/>psoci od lat, choć kocha go <ch a="D"/>tak.<ch a="D7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <album>Moje Muminki</album>
+  <genre>Filmowa</genre>
+  <status>
+    <done>
+      <text/>
+      <chords>chord positioning</chords>
+      <authors/>
+    </done>
+    <verificators/>
+  </status>
+</song>
