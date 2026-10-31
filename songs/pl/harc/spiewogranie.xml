@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śpiewogranie">
+  <alias>Nasze wędrowanie</alias>
+  <text_author type="solo">Wiesław Olko</text_author>
+  <comment>Piosenka turystyczna i harcerska.</comment>
+  <composer type="solo">Wiesław Olko</composer>
+  <artist type="solo">Wiesław Olko</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="C G C">Jest, że lepiej już nie</row>
-      <row important_over="never" sidechords="G a">Nie będzie, choć wiem</row>
-      <row important_over="never" sidechords="F G">Że będzie jak jest</row>
-      <row important_over="never" sidechords="C G C">Jest, że serce chce bić</row>
-      <row important_over="never" sidechords="G a">I bije, by żyć</row>
-      <row important_over="never" sidechords="F G">I śpiewać się chce</row>
+      <row important_over="true">J<ch a="C"/>est, że l<ch a="G"/>epiej już ni<ch a="C"/>e,</row>
+      <row important_over="true">ni<ch a="G"/>e będzie, choć wi<ch a="a"/>em,</row>
+      <row important_over="true">ż<ch a="F"/>e będzie jak j<ch a="G"/>est.</row>
+      <row important_over="false">J<ch a="C"/>est, że s<ch a="G"/>erce chce b<ch a="C"/>ić</row>
+      <row important_over="false">i b<ch a="G"/>ije, by ż<ch a="a"/>yć,</row>
+      <row important_over="false">i śpi<ch a="F"/>ewać się chc<ch a="G"/>e!</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C G">Nasze wędrowanie</row>
-      <row important_over="never" sidechords="C G">Nasze harcowanie</row>
-      <row important_over="never" sidechords="a F">Nasze śpiewogranie</row>
-      <row important_over="never" sidechords="F G">Dziej się, dziej się, dziej</row>
-      <row important_over="never" sidechords="C G">Jeszcze długa droga </row>
-      <row important_over="never" sidechords="C G">Jeszcze ogień płonie</row>
-      <row important_over="never" sidechords="a F">Jeszcze śpiewać mogę</row>
-      <row important_over="never" sidechords="F G">Serce, serce chce...</row>
+      <row important_over="true">N<ch a="C"/>asze wędrow<ch a="G"/>anie,</row>
+      <row important_over="false">n<ch a="C"/>asze harcow<ch a="G"/>anie,</row>
+      <row important_over="true">n<ch a="a"/>asze śpiewogr<ch a="F"/>anie —</row>
+      <row important_over="true">dzi<ch a="F"/>ej się, dziej się, dzi<ch a="G"/>ej!</row>
+      <row important_over="false">J<ch a="C"/>eszcze długa dr<ch a="G"/>oga,</row>
+      <row important_over="false">j<ch a="C"/>eszcze ogień pł<ch a="G"/>onie,</row>
+      <row important_over="false">j<ch a="a"/>eszcze śpiewać m<ch a="F"/>ogę,</row>
+      <row important_over="false">s<ch a="F"/>erce, serce chc<ch a="G"/>e…</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C G C">Nam nie trzeba ni bram	C G C</row>
-      <row important_over="never" sidechords="G a">Raju nie trzeba nam	G a</row>
-      <row important_over="never" sidechords="F G">Tam, gdzie śpiewam i gram	F G</row>
-      <row important_over="never" sidechords="C G C">Nam żaden smutek na skroń	C G C</row>
-      <row important_over="never" sidechords="G a">Tylko radość i dłoń	G a</row>
-      <row important_over="never" sidechords="F G">Przyjaźni to znak	F G</row>
+      <row important_over="false">N<ch a="C"/>am nie trz<ch a="G"/>eba ni br<ch a="C"/>am,</row>
+      <row important_over="false">r<ch a="G"/>aju nie trzeba n<ch a="a"/>am,</row>
+      <row important_over="false">t<ch a="F"/>am, gdzie śpiewam i gr<ch a="G"/>am.</row>
+      <row important_over="false">N<ch a="C"/>am żaden sm<ch a="G"/>utek na skr<ch a="C"/>oń,</row>
+      <row important_over="false">t<ch a="G"/>ylko radość i dł<ch a="a"/>oń —</row>
+      <row important_over="false">przyj<ch a="F"/>aźni to zn<ch a="G"/>ak.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.eu/piosenka/spiewogranie</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
