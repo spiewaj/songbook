@@ -1,43 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lody (bambino)">
+  <alias>Jestem sam</alias>
+  <text_author type="band">Zabili mi żółwia</text_author>
+  <comment>Utwór z wczesnego demo zespołu (1999 r.).</comment>
+  <composer type="band">Zabili mi żółwia</composer>
   <artist type="band">Zabili mi żółwia</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="e C a D">Oni chodzą razem na spacer, do kina</row>
-      <row important_over="never" sidechords="e C a D">w blasku słońca jedzą słodkie lody bambino</row>
-      <row important_over="never" sidechords="e C a D">wczoraj na przeglądzie grali reagge i rocka</row>
-      <row important_over="never" sidechords="e C a D">on ją odprowadzał, ona pewnie go kocha</row>
+      <row important_over="true">Oni ch<ch a="e"/>odzą r<ch a="C"/>azem na sp<ch a="a"/>acer, do k<ch a="D"/>ina,</row>
+      <row important_over="false">w bl<ch a="e"/>asku sł<ch a="C"/>ońca jedzą sł<ch a="a"/>odkie lody bamb<ch a="D"/>ino,</row>
+      <row important_over="false">wcz<ch a="e"/>oraj na prz<ch a="C"/>eglądzie gr<ch a="a"/>ali reggae i r<ch a="D"/>ocka,</row>
+      <row important_over="false">on j<ch a="e"/>ą odprow<ch a="C"/>adzał, ona p<ch a="a"/>ewnie go k<ch a="D"/>ocha.</row>
     </block>
     <block type="chorus">
       <bis times="3">
-        <row important_over="never" sidechords="e C a D">A ja jestem sam oooo !</row>
+        <row important_over="false">A j<ch a="e"/>a j<ch a="C"/>estem s<ch a="a"/>am, oooo<ch a="D"/>!</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="e C a D">Chciałbym kiedyś poznać taką fajną dziewczynę</row>
-      <row important_over="never" sidechords="e C a D">z którą mógłbym chodzić na spacer, do kina</row>
-      <row important_over="never" sidechords="e C a D">w blasku słońca jedlibyśmy lody Bambino</row>
-      <row important_over="never" sidechords="e C a D">wszystko mógłbym zrobić z taką fajną dziewczyną</row>
+      <row important_over="false">Chci<ch a="e"/>ałbym ki<ch a="C"/>edyś poznać t<ch a="a"/>aką fajną dziewcz<ch a="D"/>ynę,</row>
+      <row important_over="false">z kt<ch a="e"/>órą m<ch a="C"/>ógłbym chodzić na sp<ch a="a"/>acer, do k<ch a="D"/>ina,</row>
+      <row important_over="false">w bl<ch a="e"/>asku sł<ch a="C"/>ońca jedl<ch a="a"/>ibyśmy lody bamb<ch a="D"/>ino,</row>
+      <row important_over="false">wsz<ch a="e"/>ystko m<ch a="C"/>ógłbym zrobić z t<ch a="a"/>aką fajną dziewcz<ch a="D"/>yną.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="e C a D">Więc postanowiłem całkiem zmienić siebie</row>
-      <row important_over="never" sidechords="e C a D">rozpuściłem włosy i zaplotłem je w dredy</row>
-      <row important_over="never" sidechords="e C a D">teraz słucham słodkich rytmów reagge i rocka</row>
-      <row important_over="never" sidechords="e C a D">a trójbarwna flaga powiewa na niebie</row>
+      <row important_over="false">Wi<ch a="e"/>ęc postan<ch a="C"/>owiłem c<ch a="a"/>ałkiem zmienić si<ch a="D"/>ebie,</row>
+      <row important_over="false">rozp<ch a="e"/>uściłem wł<ch a="C"/>osy i zapl<ch a="a"/>otłem je w dr<ch a="D"/>edy,</row>
+      <row important_over="false">t<ch a="e"/>eraz sł<ch a="C"/>ucham słodkich r<ch a="a"/>ytmów reggae i r<ch a="D"/>ocka,</row>
+      <row important_over="false">a tr<ch a="e"/>ójbarwna fl<ch a="C"/>aga powi<ch a="a"/>ewa na ni<ch a="D"/>ebie.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="e C a D">Wczoraj ją ujrzałem stała sama na skwerze</row>
-      <row important_over="never" sidechords="e C a D">obszedłem ją od tyłu i zanuciłem regge</row>
-      <row important_over="never" sidechords="e C a D">spytałem czy to lubi powiedziała że nie wie</row>
-      <row important_over="never" sidechords="e C a D">wtedy ją objąłem i już było jak w niebie</row>
+      <row important_over="false">Wcz<ch a="e"/>oraj j<ch a="C"/>ą ujrzałem, st<ch a="a"/>ała sama na skw<ch a="D"/>erze,</row>
+      <row important_over="false">obsz<ch a="e"/>edłem j<ch a="C"/>ą od tyłu i zanuciłem r<ch a="a"/>egg<ch a="D"/>ae,</row>
+      <row important_over="false">spyt<ch a="e"/>ałem, czy to l<ch a="C"/>ubi, powiedzi<ch a="a"/>ała, że nie wi<ch a="D"/>e,</row>
+      <row important_over="false">wt<ch a="e"/>edy j<ch a="C"/>ą objąłem i j<ch a="a"/>uż było jak w ni<ch a="D"/>ebie.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album>Mordercy Żółwi</album>
+  <genre>Rock</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/jestem-sam</verificator>
+      <verificator>https://chords.pl</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
