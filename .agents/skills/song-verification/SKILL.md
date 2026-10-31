@@ -47,8 +47,8 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - `important_over="false"`: Set on subsequent verses or repeating couplets within the same block that follow the already-introduced chord progression, as well as `style="instr"` rows.
    - `important_over="never"`: Set on any `<row>` that has **no `<ch>` tags** (or in pure `sidechords`-only songs).
 
-5. **Verification `<status>` Update**:
-   - Once text, chords, and authors are verified:
+5. **Verification `<status>` & `<verificators>` Source Attribution**:
+   - Once text, chords, and authors are verified, update `<status><done>` and record the authoritative sources (URLs or references) used to confirm the correctness of the song as `<verificator>` entries inside `<verificators>` (always preserving any pre-existing `<verificator>` entries):
      ```xml
      <status>
        <done>
@@ -57,7 +57,9 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
          <chords>chord positioning</chords>
        </done>
        <verificators>
-         <!-- preserve existing verificators -->
+         <!-- preserve existing verificators, and add source URLs/references used to confirm correctness -->
+         <verificator>https://example.com/authoritative-lyrics-source</verificator>
+         <verificator>https://example.com/authoritative-chords-source</verificator>
        </verificators>
      </status>
      ```

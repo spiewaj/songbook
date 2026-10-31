@@ -52,7 +52,13 @@ def analyze_song(path):
     composer = text_or_empty(root, "s:composer")
     artist = text_or_empty(root, "s:artist")
     genre = text_or_empty(root, "s:genre")
+    comment = text_or_empty(root, "s:comment")
     to_do = text_or_empty(root, ".//s:to_do")
+    verificators = [
+        (v.text or "").strip()
+        for v in root.findall(".//s:verificator", NS)
+        if (v.text or "").strip()
+    ]
 
     done_elem = root.find(".//s:done", NS)
     done_tags = set()
@@ -71,7 +77,11 @@ def analyze_song(path):
     # Check chords
     has_chords = len(ch_elems) > 0
     only_sidechords = (not has_chords) and (len(sidechord_rows) > 0)
-    no_chords = (not has_chords) and (len(sidechord_rows) == 0)
+    intentionally_chordless = (
+        "chords" in done_tags
+        and any(kw in comment.lower() for kw in ("glissando", "legato", "a cappella"))
+    )
+    no_chords = (not has_chords) and (len(sidechord_rows) == 0) and (not intentionally_chordless)
 
     if no_chords:
         issues.append("No chords (<ch> or sidechords)")
@@ -131,6 +141,9 @@ def analyze_song(path):
     missing_done = {"text", "authors", "chords"} - done_tags
     if missing_done:
         warnings.append(f"Incomplete <status><done>: missing {', '.join(sorted(missing_done))}")
+
+    if not verificators:
+        warnings.append("Missing <verificator> (add source URLs/references used to confirm correctness)")
 
     if to_do:
         issues.append(f"<to_do>: {to_do}")
