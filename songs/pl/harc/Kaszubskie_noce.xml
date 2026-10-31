@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Kaszubskie noce">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kaszubskie noce">
   <alias>Tu szumi las…</alias>
   <text_author type="solo">Zbigniew Kowalczyk, Tomasz Krzepkowski, Dariusz Jagodziński</text_author>
-  <comment>Piosenka nie opowiada wcale o Kaszubach w Polsce. Opowiada o Kaszubach w Ontario [1], Kanada, co wyjaśnia sens słów: "I choć Ojczyzna jest tak daleko" [2].
+  <comment>Piosenka nie opowiada wcale o Kaszubach w Polsce. Opowiada o Kaszubach w Ontario [1], Kanada, co wyjaśnia sens słów: „I choć Ojczyzna jest tak daleko” [2].
 
 Cytując za [3]:
 Tekst piosenki pisany był etapami. Pierwsze dwie zwrotki i refren powstały podczas biwaku na Kaszubach. Napisane na stanicy Karpaty w październikowy wieczór, gdy drużyna ruszyła w teren patrolami a drużynowy miał natchnienie…
@@ -15,53 +15,63 @@ Trzecia zwrotka (w kolejności w jakiej powstawał tekst) została napisana late
 [3] https://www.zhpharcerki.org/organizacja_harcerek/egazetka_4/gazetka_4_piosenki_A.htm</comment>
   <composer type="solo">Dariusz Jagodziński</composer>
   <artist type="band">7 DH Wędrowników im. phm Alka Dawidowskiego ZHPzgk (Kanada, Ontario)</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Kaszubskie noce, <ch a="A"/>nad nami lśniące</row>
+      <row important_over="true"><ch a="C"/>Kaszubskie noce, <ch a="A"/>nad nami lśniące,</row>
       <row important_over="true"><ch a="D"/>Harcerski krąg, <ch a="G"/>ogniska blask,</row>
-      <row important_over="false"><ch a="C"/>Gdy się tu znajdziesz, <ch a="A"/>wtedy zrozumiesz</row>
-      <row important_over="false"><ch a="D"/>Że wszystko to, <ch a="G"/>łączy nas.</row>
+      <row><ch a="C"/>Gdy się tu znajdziesz, <ch a="A"/>wtedy zrozumiesz,</row>
+      <row><ch a="D"/>Że wszystko to <ch a="G"/>łączy nas.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>To szumi <ch a="A"/>las, <ch a="D"/>kołysze <ch a="G"/>drzewa</row>
-      <row important_over="false"><ch a="C"/>Fala je<ch a="A"/>ziora, <ch a="D"/>brzegi za<ch a="G"/>lewa</row>
-      <row important_over="false"><ch a="C"/>Tu mały <ch a="A"/>Giewont, <ch a="D"/>czoło po<ch a="G"/>chyla</row>
-      <row important_over="false"><ch a="C"/>A my sie<ch a="A"/>dzimy, <ch a="D"/>harcerska <ch a="G"/>brać.</row>
+      <row important_over="true"><ch a="C"/>To szumi <ch a="A"/>las, <ch a="D"/>kołysze <ch a="G"/>drzewa,</row>
+      <row><ch a="C"/>Fala je<ch a="A"/>ziora <ch a="D"/>brzegi za<ch a="G"/>lewa,</row>
+      <row><ch a="C"/>Tu mały <ch a="A"/>Giewont <ch a="D"/>czoło po<ch a="G"/>chyla,</row>
+      <row><ch a="C"/>A my sie<ch a="A"/>dzimy, <ch a="D"/>harcerska <ch a="G"/>brać.</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>I choć Ojczyzna, <ch a="A"/>jest tak daleko</row>
-      <row important_over="false"><ch a="D"/>Lecz nasze myśli, <ch a="G"/>wciąż do niej mkną</row>
-      <row important_over="false"><ch a="C"/>Tam też wśród nocy, <ch a="A"/>płoną ogniska</row>
-      <row important_over="false"><ch a="D"/>Harcerskie piosnki, <ch a="G"/>unosi wiatr.</row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/>A gdy drużyna, <ch a="A"/>znowu jest razem</row>
-      <row important_over="false"><ch a="D"/>Płonie ognisko, <ch a="G"/>gitara gra,</row>
-      <row important_over="false"><ch a="C"/>Znów wspominamy, <ch a="A"/>pierwsze wyprawy</row>
-      <row important_over="false"><ch a="D"/>Trudy radości, <ch a="G"/>wspaniały czas.</row>
+      <row><ch a="C"/>I choć Ojczyzna <ch a="A"/>jest tak daleko,</row>
+      <row><ch a="D"/>Lecz nasze myśli <ch a="G"/>wciąż do niej mkną,</row>
+      <row><ch a="C"/>Tam też wśród nocy <ch a="A"/>płoną ogniska,</row>
+      <row><ch a="D"/>Harcerskie piosnki <ch a="G"/>unosi wiatr.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Czy ty pamiętasz, <ch a="A"/>pierwsze ognisko</row>
-      <row important_over="false"><ch a="D"/>Pierwsze spojrzenie, <ch a="G"/>cudowna noc,</row>
-      <row important_over="false"><ch a="C"/>Gwiazdy na niebie, <ch a="A"/>byłeś tak blisko</row>
-      <row important_over="false"><ch a="D"/>Mówiłaś wtedy: <ch a="G"/>„Kocham Cię” [a ja nie!]</row>
+      <row><ch a="C"/>A gdy drużyna <ch a="A"/>znowu jest razem,</row>
+      <row><ch a="D"/>Płonie ognisko, <ch a="G"/>gitara gra,</row>
+      <row><ch a="C"/>Znów wspominamy <ch a="A"/>pierwsze wyprawy,</row>
+      <row><ch a="D"/>Trudy radości, <ch a="G"/>wspaniały czas.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row><ch a="C"/>Czy ty pamiętasz <ch a="A"/>pierwsze ognisko,</row>
+      <row><ch a="D"/>Pierwsze spojrzenie, <ch a="G"/>cudowna noc,</row>
+      <row><ch a="C"/>Gwiazdy na niebie, <ch a="A"/>byłeś tak blisko,</row>
+      <row><ch a="D"/>Mówiłaś wtedy: <ch a="G"/>„Kocham Cię” [a ja nie!]</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="4"/>
+  </music>
   <keywords>
     <keyword>Kaszuby</keyword>
     <keyword>Kanada</keyword>
   </keywords>
+  <album></album>
   <genre>Piosenka harcerska</genre>
   <status>
     <done>
+      <text/>
       <authors/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>Piotr Tabor</verificator>
+      <verificator>https://www.zhpharcerki.org/organizacja_harcerek/egazetka_4/gazetka_4_piosenki_A.htm</verificator>
+      <verificator>Ustawiono barre="4" (kapodaster na 4. progu pozwala uzyskać oryginalną tonację E-dur przy zachowaniu prostych chwytów C A D G).</verificator>
     </verificators>
-    <to_do>Zmienić tonację na E-dur ?</to_do>
+    <to_do/>
   </status>
 </song>
