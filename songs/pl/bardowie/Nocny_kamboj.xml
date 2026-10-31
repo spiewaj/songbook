@@ -1,108 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Nocny kamboj">
-  <text_author type="band">Aktorzy łódzkiej szkoły filmowej</text_author>
-  <composer type="solo">na motywach ścieżki dźwiękowej autorstwa Johna Barry'ego</composer>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nocny kamboj">
+  <alias/>
+  <text_author type="band">Aktorzy Łódzkiej Szkoły Filmowej</text_author>
+  <comment>Piosenka satyryczna na motywach melodii Johna Barry'ego z filmu „Nocny kowboj” (Midnight Cowboy). Słowa: studenci/aktorzy Łódzkiej Szkoły Filmowej.</comment>
+  <composer type="solo">John Barry</composer>
   <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="other">
-      <row important_over="never">wersja polska</row>
+      <row important_over="never">Wersja polska</row>
     </block>
     <block type="verse">
       <bis times="2">
         <row important_over="true"><ch a="C"/>Kiedy kamboj nie ma konia,</row>
         <row important_over="true"><ch a="C7"/>Kiedy kamboj nie ma konia,</row>
-        <row important_over="true"><ch a=""/><ch a="FGC"/><ch a=""/><ch a=""/>Nie wie po co żyje, po co je(st).</row>
+        <row important_over="true"><ch a="F"/>Nie wie po co <ch a="G"/>żyje, po co j<ch a="C"/>est.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="F"/><ch a="G"/>Jedź do miasta wielkiego,</row>
-      <row important_over="true"><ch a="C"/><ch a="e"/><ch a="a"/>Do wielkiego miasta jedź,</row>
-      <row important_over="true"><ch a="F"/><ch a="G"/><ch a="C"/>Tam kambojom bez konia łatwiej żyć,</row>
+      <row important_over="true"><ch a="F"/>Jedź do miasta wielkiego,</row>
+      <row important_over="true"><ch a="G"/>Do wielkiego miasta jedź,</row>
+      <row important_over="true"><ch a="C"/>Tam kambojom <ch a="e"/>bez konia łatwiej ż<ch a="a"/>yć.</row>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="true"><ch a="F"/><ch a="G"/><ch a="C"/><ch a="e"/><ch a="a"/>Zapytają Cię ludzie - Gdzie jest twój koń</row>
-        <row important_over="false"><ch a="F"/><ch a="G"/><ch a="C"/>Powiedz by się nie przypierdalali doń.</row>
-      </bis>
-    </block>
-    <block type="other">
-      <row important_over="never">wersja angielska</row>
-    </block>
-    <block type="verse">
-      <bis times="2">
-        <row important_over="never">(O,) łen de kamboj hez noł horsez,</row>
-        <row important_over="never">Łen de kamboj hez noł horsez,</row>
-        <row important_over="never">Hi daznt noł tu bi or not tu bi.</row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a=""/>Lets goł tu big siti,</row>
-      <row important_over="never">Tu big siti lets goł</row>
-      <row important_over="never">Zer łiwałt horses izjer tu liw.</row>
-    </block>
-    <block type="verse">
-      <bis times="2">
-        <row important_over="never">End wej łil ask ju - Wer iz jor hors</row>
-        <row important_over="never">End ju anser “Kis maj as”</row>
-        <row important_over="never"/>
+        <row important_over="true"><ch a="F"/>Zapytają Cię l<ch a="G"/>udzie — Gdzie jest twój k<ch a="C"/>oń?</row>
+        <row important_over="true"><ch a="e"/>Powiedz, by się ni<ch a="a"/>e przypierdalali d<ch a="F"/>oń!<ch a="G"/><ch a="C"/></row>
       </bis>
     </block>
     <block type="other">
-      <row important_over="never">wersja rosyjska</row>
+      <row important_over="never">Wersja angielska</row>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="never">Niet łoszadi u kamboja,</row>
-        <row important_over="never">Niet łoszadi u kamboja,</row>
-        <row important_over="never">On nie znajet kak jemu żyt’</row>
+        <row important_over="false"><ch a="C"/>(O,) łen de kamboj hez noł horsez,</row>
+        <row important_over="false"><ch a="C7"/>Łen de kamboj hez noł horsez,</row>
+        <row important_over="false"><ch a="F"/>Hi daznt noł tu b<ch a="G"/>i or not tu b<ch a="C"/>i.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Ujezżaj w balszoj gorad,</row>
-      <row important_over="never">W balszoj gorad ujezżaj,</row>
-      <row important_over="never">am kambojom bez łoszadi liegczie żyt’ </row>
+      <row important_over="false"><ch a="F"/>Lets goł tu big siti,</row>
+      <row important_over="false"><ch a="G"/>Tu big siti lets goł,</row>
+      <row important_over="false"><ch a="C"/>Zer łiwałt h<ch a="e"/>orses izjer tu l<ch a="a"/>iw.</row>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="never">Budu sprasziwat’ ludi – Gdzie łoszad’ twaja,</row>
-        <row important_over="never">Niet łoszadi, nit szczastia ni chuja.</row>
+        <row important_over="false"><ch a="F"/>End wej łil ask j<ch a="G"/>u — Wer iz jor h<ch a="C"/>ors?</row>
+        <row important_over="false"><ch a="e"/>End ju anser „K<ch a="a"/>is maj <ch a="F"/>as”.<ch a="G"/><ch a="C"/></row>
       </bis>
     </block>
     <block type="other">
-      <row important_over="never">wersja łódzka</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kiedy aktor nie ma rola,</row>
-      <row important_over="never">Kiedy aktor nie ma rola,</row>
-      <row important_over="never">Nie wie po co żyje, po co jest.</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kiedy aktor nie ma roli,</row>
-      <row important_over="never">Lub gdy rolę swą spierdoli</row>
-      <row important_over="never">Nie wie, po co żyje, po co jest.</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Jedź do miasta małego,</row>
-      <row important_over="never">Do małego miasta - Uć.</row>
-      <row important_over="never">Tam aktorom bez rola łatwiej żyć</row>
+      <row important_over="never">Wersja rosyjska</row>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="never">Zapytają koledzy - Gdzie sukces twój</row>
-        <row important_over="never">"Sukces mój, biznes mój i (taki)…"</row>
+        <row important_over="false"><ch a="C"/>Niet łoszadi u kamboja,</row>
+        <row important_over="false"><ch a="C7"/>Niet łoszadi u kamboja,</row>
+        <row important_over="false"><ch a="F"/>On nie znajet k<ch a="G"/>ak jemu ż<ch a="C"/>yt’.</row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/>Ujezżaj w balszoj gorad,</row>
+      <row important_over="false"><ch a="G"/>W balszoj gorad ujezżaj,</row>
+      <row important_over="false"><ch a="C"/>Tam kambojom b<ch a="e"/>ez łoszadi liegczie ż<ch a="a"/>yt’.</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false"><ch a="F"/>Budu sprasziwat’ l<ch a="G"/>udi — Gdzie łoszad’ twaj<ch a="C"/>a?</row>
+        <row important_over="false"><ch a="e"/>Niet łoszadi, ni szcz<ch a="a"/>astia, ni chuj<ch a="F"/>a.<ch a="G"/><ch a="C"/></row>
+      </bis>
+    </block>
+    <block type="other">
+      <row important_over="never">Wersja łódzka</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Kiedy aktor nie ma rola,</row>
+      <row important_over="false"><ch a="C7"/>Kiedy aktor nie ma rola,</row>
+      <row important_over="false"><ch a="F"/>Nie wie po co <ch a="G"/>żyje, po co j<ch a="C"/>est.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="C"/>Kiedy aktor nie ma roli,</row>
+      <row important_over="false"><ch a="C7"/>Lub gdy rolę swą spierdoli,</row>
+      <row important_over="false"><ch a="F"/>Nie wie, po co <ch a="G"/>żyje, po co j<ch a="C"/>est.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="F"/>Jedź do miasta małego,</row>
+      <row important_over="false"><ch a="G"/>Do małego miasta — Uć,</row>
+      <row important_over="false"><ch a="C"/>Tam aktorom b<ch a="e"/>ez rola łatwiej ż<ch a="a"/>yć.</row>
+    </block>
+    <block type="verse">
+      <bis times="2">
+        <row important_over="false"><ch a="F"/>Zapytają kol<ch a="G"/>edzy — Gdzie sukces tw<ch a="C"/>ój?</row>
+        <row important_over="false"><ch a="e"/>„Sukces mój, b<ch a="a"/>iznes mój i (t<ch a="F"/>aki)…”<ch a="G"/><ch a="C"/></row>
       </bis>
     </block>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
   <keywords/>
+  <genre>Kabaret</genre>
   <status>
     <done>
       <text/>
+      <authors/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>Kasia Tabor</verificator>
+      <verificator>https://kaczmarski.art.pl</verificator>
     </verificators>
+    <to_do/>
   </status>
 </song>
