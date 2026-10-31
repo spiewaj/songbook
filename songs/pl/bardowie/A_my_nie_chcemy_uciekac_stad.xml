@@ -72,6 +72,8 @@
 			<chords/>
 		</done>
 		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>Onufry</verificator>
 			<verificator>https://kaczmarski.art.pl/tworczosc/wiersze/a-my-nie-chcemy-uciekac-stad/</verificator>
 		</verificators>
 		<to_do></to_do>
