@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jezus malusieńki">
   <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna polska kolęda z XVIII wieku w rytmie kujawiaka.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Jezus malusieńki</row>
-      <row important_over="never">Leży wśród stajenki</row>
-      <bis>
-        <row important_over="never">Płacze z zimna nie dała mu</row>
-        <row important_over="never">Matula sukienki</row>
+      <row important_over="true"><ch a="a"/>Jezus malusi<ch a="E7"/>eńki,</row>
+      <row important_over="true"><ch a="a"/>Leży wśród staj<ch a="E7"/>enki,</row>
+      <bis times="2">
+        <row important_over="true"><ch a="d"/>Płacze z z<ch a="G7"/>imna, ni<ch a="C"/>e dała M<ch a="a"/>u</row>
+        <row important_over="true"><ch a="d"/>Matula suki<ch a="E7"/>enk<ch a="a"/>i.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Bo uboga była</row>
-      <row important_over="never">Rąbek z głowy zdjęła</row>
-      <bis>
-        <row important_over="never">W który dziecię owinąwszy</row>
-        <row important_over="never">Siankiem je okryła</row>
+      <row important_over="false"><ch a="a"/>Bo uboga b<ch a="E7"/>yła,</row>
+      <row important_over="false"><ch a="a"/>Rąbek z głowy zdj<ch a="E7"/>ęła,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="d"/>W który Dzi<ch a="G7"/>ecię ow<ch a="C"/>inąwszy,<ch a="a"/></row>
+        <row important_over="false"><ch a="d"/>Siankiem Je okr<ch a="E7"/>ył<ch a="a"/>a.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Nie ma kolebeczki</row>
-      <row important_over="never">Ani poduszeczki</row>
-      <bis>
-        <row important_over="never">We żłobie mu położyła</row>
-        <row important_over="never">Siana pod główeczki</row>
+      <row important_over="false"><ch a="a"/>Nie ma koleb<ch a="E7"/>eczki</row>
+      <row important_over="false"><ch a="a"/>Ani podusz<ch a="E7"/>eczki,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="d"/>We żłobie M<ch a="G7"/>u poł<ch a="C"/>ożyła<ch a="a"/></row>
+        <row important_over="false"><ch a="d"/>Siana pod główeczk<ch a="E7"/><ch a="a"/>i.</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Kolęda</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Jezus_malusienki_(koleda)</verificator>
+      <verificator>https://spiewnik.wywrota.pl/koledy/jezus-malusienki</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
