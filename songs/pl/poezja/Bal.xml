@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bal">
 	<alias/>
-	<text_author type="solo">W. Wiśniewski</text_author>
-	<comment>To, że piosenk ma 4 akordy na krzyż nie znaczy że należy ją rąbać jak drewno !!!</comment>
-	<composer type="solo">Tomek Lewandowski</composer>
-	<artist type="solo">Tomek Lewandowski</artist>
+	<text_author type="solo">Wojciech Wiśniewski</text_author>
+	<comment>To, że piosenka ma 4 akordy na krzyż nie znaczy że należy ją rąbać jak drewno !!!</comment>
+	<composer type="solo">Tomasz Lewandowski</composer>
+	<artist type="solo">Tomasz Lewandowski</artist>
 	<translator/>
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Moje myśli proszę was, siądźcie jak kruki koło mnie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">I z wierszami wraz zapytajcie co słychać u mnie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Ściany przyjaciółki mego domu, jeżeli potraficie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Zapytajcie chociaż raz, jak tam świat mój, jak moje życie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="true"><ch a="G"/>Moje myśli, proszę <ch a="D"/>was, siądźcie jak <ch a="C"/>kruki koło <ch a="D"/>mnie,</row>
+			<row important_over="true"><ch a="G"/>i z wierszami <ch a="D"/>wraz zapytajcie, <ch a="C"/>co słychać u <ch a="D"/>mnie.</row>
+			<row><ch a="G"/>Ściany, przyjaciółki <ch a="D"/>mego domu, je<ch a="C"/>żeli potrafi<ch a="D"/>cie,</row>
+			<row><ch a="G"/>zapytajcie chociaż <ch a="D"/>raz, jak tam świat mój, <ch a="C"/>jak moje ży<ch a="D"/>cie.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="never">A u mnie wir a u mnie bal<ch a="G"/><ch a="D"/></row>
-				<row important_over="never">Trwa stypa po miłości<ch a="G"/><ch a="D"/></row>
-				<row important_over="never">I od toastów huczy stół<ch a="G"/><ch a="D"/></row>
-				<row important_over="never">I ja jedyny z moich gości<ch a="C"/><ch a="D"/></row>
+				<row important_over="true">A u mnie <ch a="G"/>wir, a u mnie <ch a="D"/>bal,</row>
+				<row important_over="true">trwa <ch a="G"/>stypa po mi<ch a="D"/>łości,</row>
+				<row>i od to<ch a="G"/>astów huczy <ch a="D"/>stół,</row>
+				<row>i <ch a="C"/>ja – jedyny z moich <ch a="D"/>gości.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dziś nic dla ciebie moja pani, nie pogrążysz mnie w żadnym grobie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Odnalazłem dłoń własną dłoń wyciągniętą ku sobie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Rano wyjdę już spokojny, z uśmiechem przyklejonym do twarzy<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">I rozdam krukom wesołe wiersze na sen, na spełnienie marzeń<ch a="G"/><ch a="D"/><ch a="C"/><ch a="D"/></row>
+			<row><ch a="G"/>Dziś nic dla ciebie, <ch a="D"/>moja pani, nie po<ch a="C"/>grążysz mnie w żadnym <ch a="D"/>grobie,</row>
+			<row><ch a="G"/>odnalazłem dłoń, <ch a="D"/>własną dłoń wyciąg<ch a="C"/>niętą ku so<ch a="D"/>bie.</row>
+			<row><ch a="G"/>Rano wyjdę już spo<ch a="D"/>kojny, z uśmiechem przy<ch a="C"/>klejonym do twa<ch a="D"/>rzy,</row>
+			<row><ch a="G"/>i rozdam krukom we<ch a="D"/>sołe wiersze na <ch a="C"/>sen, na spełnienie ma<ch a="D"/>rzeń.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Miniony czas</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Adam</verificator>
-			
-		</verificators>
-		<to_do/>
-		<done>	
-			
-			
+		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/bal</verificator>
+			<verificator>Słowa: Wojciech Wiśniewski, muzyka i wykonanie: Tomasz Lewandowski (album Miniony czas)</verificator>
+		</verificators>
 	</status>
-	<keywords/>
 	<music_source/>
-	<album>Miniony Czas</album>
-	<genre/>
 </song>
