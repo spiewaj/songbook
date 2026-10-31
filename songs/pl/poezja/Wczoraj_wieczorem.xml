@@ -1,34 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wczoraj wieczorem">
   <alias/>
-  <text_author/>
+  <text_author type="solo">Wojciech Jarociński</text_author>
   <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <composer type="solo">Wojciech Jarociński</composer>
+  <artist type="solo">Wojciech Jarociński</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="never">Wczoraj wieczorem rzekł mi pan</row>
-      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
-      <row important_over="never">W kieszeni $ $ może dwa</row>
-      <row important_over="never">W kieszeni $ $ może dwa</row>
-      <row important_over="never">Wypije ze mną i drinka bieda — siostra zła</row>
-      <row important_over="never">Na łbie siwe kłaki i niepewny los</row>
-      <row important_over="never">Na łbie siwe kłaki i niepewny los</row>
-      <row important_over="never">Jak sznur stary dzień kiedy pusty trzos</row>
-      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="never">Wczoraj wieczorem serwus rzekł mi pan</row>
-      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
-      <row important_over="never">Rzuciła mnie robota ot i cały kram</row>
+      <row important_over="true"><ch a="E"/>Wczoraj wieczorem „Serwus” rzekł mi p<ch a="A"/>an,<ch a="E"/></row>
+      <row important_over="true"><ch a="A"/>Wczoraj wieczorem „Serwus” rzekł mi p<ch a="E"/>an,</row>
+      <row important_over="true"><ch a="H7"/>Rzuciła mnie rob<ch a="B7"/>ota, <ch a="A7"/>ot i cały kr<ch a="E"/>am.<ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>W kieszeni dolar, dolar, może dw<ch a="A"/>a,<ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>W kieszeni dolar, dolar, może dw<ch a="E"/>a,</row>
+      <row important_over="false"><ch a="H7"/>Wypije ze mną <ch a="B7"/>drinka bieda, <ch a="A7"/>siostra zł<ch a="E"/>a.<ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Na łbie siwe kłaki i niepewny l<ch a="A"/>os,<ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Na łbie siwe kłaki i niepewny l<ch a="E"/>os,</row>
+      <row important_over="false"><ch a="H7"/>Jak sznur szary <ch a="B7"/>dzień, kiedy <ch a="A7"/>pusty trz<ch a="E"/>os.<ch a="H7"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="E"/>Wczoraj wieczorem „Serwus” rzekł mi p<ch a="A"/>an,<ch a="E"/></row>
+      <row important_over="false"><ch a="A"/>Wczoraj wieczorem „Serwus” rzekł mi p<ch a="E"/>an,</row>
+      <row important_over="false"><ch a="H7"/>Rzuciła mnie rob<ch a="B7"/>ota, <ch a="A7"/>ot i cały kr<ch a="E"/>am.<ch a="H7"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Blues</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/wczoraj-wieczorem</verificator>
+      <verificator>https://www.youtube.com/watch?v=-0_ajeh9_J8</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
