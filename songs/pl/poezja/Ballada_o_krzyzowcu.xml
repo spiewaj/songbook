@@ -6,52 +6,52 @@
 	<artist type="solo">Staszek Wawrykiewicz</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
-			<row important_over="true"><ch a="A"/> Dokąd pędzisz w stal odziany?</row>
-			<row important_over="true"><ch a="C"/> Pewnie tam, gdzie błyszczą w dali</row>
-			<row important_over="true"><ch a="D"/> Jeruzalem białe ściany.</row>
-			<row important_over="true"><ch a="e"/> Pewnie myślisz, że w świątyni</row>
-			<row important_over="true"><ch a="A"/> Zniewolony Pan twój czeka,</row>
-			<row important_over="true"><ch a="C"/> Żebyś przyszedł go ocalić,</row>
-			<row important_over="true"><ch a="D"/> Żebyś przybył doń z daleka.</row>
+			<row important_over="true"><ch a="e"/>Wolniej, wolniej, wstrzymaj konia,</row>
+			<row important_over="true"><ch a="A"/>dokąd pędzisz w stal odziany?</row>
+			<row><ch a="C"/>Pewnie tam, gdzie błyszczą w dali</row>
+			<row><ch a="D"/>Jeruzalem białe ściany.</row>
+			<row><ch a="e"/>Pewnie myślisz, że w świątyni</row>
+			<row><ch a="A"/>zniewolony Pan twój czeka,</row>
+			<row><ch a="C"/>żebyś przyszedł Go ocalić,</row>
+			<row><ch a="D"/>żebyś przybył doń z daleka.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">N<ch a="e"/>a na na</row>
-			<row important_over="true">Na na na na n<ch a="A"/>a na na na</row>
-			<row important_over="true">Na na na na n<ch a="C"/>a na na na</row>
-			<row important_over="true">Na na na na n<ch a="D"/>a na na na na na na na</row>
+			<row important_over="true"><ch a="e"/>Na, na, na,</row>
+			<row important_over="true">na, na, na, na, <ch a="A"/>na, na, na, na,</row>
+			<row>na, na, na, na, <ch a="C"/>na, na, na, na,</row>
+			<row>na, na, na, na, <ch a="D"/>na, na, na, na, na, na, na, na.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
-			<row important_over="false"><ch a="A"/> Byłem dzisiaj w Jeruzalem,</row>
-			<row important_over="false"><ch a="C"/> Przemierzałem puste sale,</row>
-			<row important_over="false"><ch a="D"/> Pana twego nie widziałem.</row>
-			<row important_over="false"><ch a="e"/> Pan opuścił Święte Miasto</row>
-			<row important_over="false"><ch a="A"/> Przed minutą, przed godziną,</row>
-			<row important_over="false"><ch a="C"/> W chłodnym gaju na pustyni</row>
-			<row important_over="false"><ch a="D"/> Z Mahometem pije wino.</row>
-		</block>
-		<blocklink blocknb="2"/>
-		<block type="verse">
-			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
-			<row important_over="false"><ch a="A"/> Chcesz oblegać Jeruzalem</row>
-			<row important_over="false"><ch a="C"/> Strzegą go wysokie wieże,</row>
-			<row important_over="false"><ch a="D"/> Strzegą go Mahometanie.</row>
-			<row important_over="false"><ch a="e"/> Pan opuścił Święte Miasto,</row>
-			<row important_over="false"><ch a="A"/> Na nic poświęcenie twoje</row>
-			<row important_over="false"><ch a="C"/> Po cóż niszczyć białe wieże,</row>
-			<row important_over="false"><ch a="D"/> Po cóż ludzi niepokoić?</row>
+			<row><ch a="e"/>Wolniej, wolniej, wstrzymaj konia,</row>
+			<row><ch a="A"/>byłem dzisiaj w Jeruzalem.</row>
+			<row><ch a="C"/>Przemierzałem puste sale,</row>
+			<row><ch a="D"/>Pana twego nie widziałem.</row>
+			<row><ch a="e"/>Pan opuścił Święte Miasto</row>
+			<row><ch a="A"/>przed minutą, przed godziną,</row>
+			<row><ch a="C"/>w chłodnym gaju na pustyni</row>
+			<row><ch a="D"/>z Mahometem pije wino.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="e"/> Wolniej, wolniej, wstrzymaj konia.</row>
-			<row important_over="false"><ch a="A"/> Porzuć walkę niepotrzebną,</row>
-			<row important_over="false"><ch a="C"/> Porzuć miecz i włócznię swoją,</row>
-			<row important_over="false"><ch a="D"/> I jedź ze mną, i jedź ze mną.</row>
-			<row important_over="false"><ch a="e"/> Bo gdy szlakiem ku północy</row>
-			<row important_over="false"><ch a="A"/> Podążają hufce ludne,</row>
-			<row important_over="false"><ch a="C"/> Ja podnoszę dumnie głowę</row>
-			<row important_over="false"><ch a="D"/> I odjeżdżam na południe.</row>
+			<row><ch a="e"/>Wolniej, wolniej, wstrzymaj konia,</row>
+			<row><ch a="A"/>chcesz oblegać Jeruzalem?</row>
+			<row><ch a="C"/>Strzegą go wysokie wieże,</row>
+			<row><ch a="D"/>strzegą go mahometanie.</row>
+			<row><ch a="e"/>Pan opuścił Święte Miasto,</row>
+			<row><ch a="A"/>na nic poświęcenie twoje.</row>
+			<row><ch a="C"/>Po cóż niszczyć białe wieże,</row>
+			<row><ch a="D"/>po cóż ludzi niepokoić?</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row><ch a="e"/>Wolniej, wolniej, wstrzymaj konia,</row>
+			<row><ch a="A"/>porzuć walkę niepotrzebną.</row>
+			<row><ch a="C"/>Porzuć miecz i włócznię swoją,</row>
+			<row><ch a="D"/>i jedź ze mną, i jedź ze mną.</row>
+			<row><ch a="e"/>Bo gdy szlakiem ku północy</row>
+			<row><ch a="A"/>podążają hufce ludne,</row>
+			<row><ch a="C"/>ja podnoszę dumnie głowę</row>
+			<row><ch a="D"/>i odjeżdżam na południe.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -71,7 +71,9 @@
 			<verificator>Onufry</verificator>
 			<verificator>Adam</verificator>
 			<verificator>Onufry (KK)</verificator>
+			<verificator>Rozstrzygnięcia redakcyjne (Adam, Onufry): Poprawiono tekst zgodnie z oryginalnym nagraniem Mirosława Hrynkiewicza / Staszka Wawrykiewicza; ujednolicono warianty słowne.</verificator>
+			<verificator>https://spiewnik.wywrota.pl/poezja-spiewana/ballada-o-krzyzowcu</verificator>
+			<verificator>Słowa i muzyka: Mirosław Hrynkiewicz (1970)</verificator>
 		</verificators>
-		<to_do>Rozstrzygnięcia google testu: W Jeruzalem byłem dzisiaj, nie wczoraj, z Mahometem wino pije, nie piją.Większość w google teście uważa, że &#039;strzegą go wysokie wieże&#039;, ale jednocześnie &#039;po coż niszczyć białe wieże&#039; - ja robię tak, jak u nas się śpiewa - czyli strzegą mury, niszczyć wieże.----------Poprawiłem tekst zgodnie oryginalnym nagraniem (Adam) — Dzięki, Adasiu. Poprawiłem literówki (Pan na wielką, etc.), uzgodniłem liczbę &#039;na na&#039; (Onufry)</to_do>
 	</status>
 </song>
