@@ -1,58 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o dziewczynie co piła gorące mleko">
+	<alias>Małe stacyjki</alias>
 	<text_author type="solo">Agnieszka Osiecka</text_author>
+	<comment>Wersja z muzyką Katarzyny Sobolewskiej (istnieje też kompozycja Jerzego Satanowskiego pod tytułem „Małe stacyjki”).</comment>
 	<composer type="solo">Katarzyna Sobolewska</composer>
 	<artist type="solo">Andrzej Poniedzielski</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="D"/>Są małe stacje w<ch a="fis"/>ielkich kolei, </row>
-			<row important_over="true">niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona</row>
-			<row important_over="false">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei, </row>
-			<row important_over="true">jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona</row>
-			<row important_over="false"><ch a="D"/>Na takiej stacji d<ch a="fis"/>awno już temu,</row>
-			<row important_over="false"> z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka</row>
-			<row important_over="false">Widz<ch a="G"/>iałem dziewczynę w nie<ch a="D"/>bieskim szaliku, </row>
-			<row important_over="true">ja<ch a="A"/>k piła gorące <ch a="D"/>mleko</row>
+			<row important_over="true">Są m<ch a="D"/>ałe stacje w<ch a="fis"/>ielkich kolei,</row>
+			<row important_over="true">niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona.</row>
+			<row>M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei,</row>
+			<row>jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona.</row>
+			<row>Na t<ch a="D"/>akiej stacji d<ch a="fis"/>awno już temu,</row>
+			<row>z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka,</row>
+			<row>widzi<ch a="G"/>ałem dziewczynę w ni<ch a="D"/>ebieskim szaliku,</row>
+			<row>j<ch a="A"/>ak piła gorące ml<ch a="D"/>eko.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
-			<row important_over="false"> a m<ch a="G"/>iasto moje d<ch a="D"/>aleko</row>
-			<row important_over="false">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
-			<row important_over="false"> jak <ch a="A"/>piła gorące <ch a="D"/>mleko.</row>
-			<row important_over="false">I n<ch a="G"/>ieraz chciałbym <ch a="D"/>aby tu była,</row>
-			<row important_over="false"> <ch a="G"/>może to miałoby<ch a="D"/> sens.</row>
+			<row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
+			<row important_over="true">a mi<ch a="G"/>asto moje d<ch a="D"/>aleko.</row>
+			<row>Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row>jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
+			<row>I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
+			<row>m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
 			<bis times="2">
-				<row important_over="false">Jak ona śm<ch a="G"/>iesznie to mleko p<ch a="D"/>iła, </row>
-				<row important_over="false">g<ch a="A"/>apiąc się na mnie spod<ch a="D"/> rzęs.</row>
+				<row>Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
+				<row>g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">Mam swoje sprawy, inne podróże <ch a="D"/><ch a="fis"/></row>
-			<row important_over="false">i nie tamtędy mi droga.<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Lubię ulice wesołe i długie <ch a="G"/><ch a="D"/></row>
-			<row important_over="false">i kolorowe światła na rogach.<ch a="G"/><ch a="A"/></row>
-			<row important_over="false">Może ma chłopca tamta dziewczyna, <ch a="D"/><ch a="fis"/></row>
-			<row important_over="false">a może wybrała się w świat.<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Albo po prostu może jest głupia <ch a="G"/><ch a="D"/></row>
-			<row important_over="false">jak jej siedemnaście lat.<ch a="A"/><ch a="D"/></row>
+			<row>Mam sw<ch a="D"/>oje sprawy, <ch a="fis"/>inne podróże</row>
+			<row>i ni<ch a="G"/>e tamtędy mi dr<ch a="D"/>oga.</row>
+			<row>Lubię ul<ch a="G"/>ice wes<ch a="D"/>ołe i długie</row>
+			<row>i kolor<ch a="G"/>owe światła na r<ch a="A"/>ogach.</row>
+			<row>Może m<ch a="D"/>a chłopca t<ch a="fis"/>amta dziewczyna,</row>
+			<row>a m<ch a="G"/>oże wybrała się w świ<ch a="D"/>at?</row>
+			<row>Albo p<ch a="G"/>o prostu m<ch a="D"/>oże jest głupia</row>
+			<row>j<ch a="A"/>ak jej siedemnaście l<ch a="D"/>at?</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Z resztą to przecież nie ma znaczenia, <ch a="G"/><ch a="D"/></row>
-			<row important_over="false">mieszkam naprawdę daleko.<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Lecz myślę czasem o tamtej dziewczynie, <ch a="G"/><ch a="D"/></row>
-			<row important_over="false">jak piła gorące mleko.<ch a="A"/><ch a="D"/></row>
-			<row important_over="false">I nieraz chciałbym aby tu była,<ch a="G"/><ch a="D"/></row>
-			<row important_over="false"> może to miałoby sens.<ch a="G"/><ch a="D"/></row>
+			<row>Zresztą t<ch a="G"/>o przecież ni<ch a="D"/>e ma znaczenia,</row>
+			<row>mi<ch a="G"/>eszkam naprawdę d<ch a="D"/>aleko.</row>
+			<row>Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row>jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
+			<row>I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
+			<row>m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
 			<bis times="2">
-				<row important_over="false">Jak ona śmiesznie to mleko piła, <ch a="G"/><ch a="D"/></row>
-				<row important_over="false">gapiąc się na mnie spod rzęs.<ch a="A"/><ch a="D"/></row>
+				<row>Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
+				<row>g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
 			</bis>
 		</block>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<keywords/>
-	<genre>Piosenka turystyczna</genre>
+	<album/>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<done/>
-		<verificators/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Agnieszka Osiecka (słowa), Katarzyna Sobolewska (muzyka), wyk. Andrzej Poniedzielski</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Male_stacyjki)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/andrzej-poniedzielski/ballada-o-dziewczynie-co-pila-gorace-mleko</verificator>
+		</verificators>
 	</status>
+	<music_source/>
 </song>
