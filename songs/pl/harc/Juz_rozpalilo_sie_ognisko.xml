@@ -1,30 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Już rozpaliło się ognisko">
-  <artist/>
+  <alias/>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment/>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Już rozpaliło się ognisko<ch a="C"/></row>
-      <row important_over="never">Dając nam dobrej wróżby znak<ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Siedliśmy wszyscy przy nim blisko<ch a="G"/></row>
-      <row important_over="never">Bo w całej Polsce siedzą tak<ch a="G"/><ch a="C"/></row>
+      <row important_over="true">J<ch a="C"/>uż rozpaliło się ognisko,</row>
+      <row important_over="true">Dając nam d<ch a="G"/>obrej wróżby znak.</row>
+      <row>Si<ch a="G"/>edliśmy wszyscy przy nim blisko,</row>
+      <row>Bo w c<ch a="G7"/>ałej Polsce si<ch a="C"/>edzą tak.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Siedzą harcerki  przy płomieniach<ch a="C7"/><ch a="F"/></row>
-      <row important_over="never">Ciepły blask ognia skupia je<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Wszystko co złe to szuka cienia<ch a="C"/></row>
-      <row important_over="never">Do światła dobro garnie się<ch a="G"/><ch a="C"/></row>
+      <row important_over="true">Si<ch a="C7"/>edzą harc<ch a="F"/>erki przy płomieniach,</row>
+      <row important_over="true">Ci<ch a="G"/>epły blask ognia sk<ch a="C"/>upia je.</row>
+      <row>Wsz<ch a="C"/>ystko, co złe, to szuka cienia,</row>
+      <row>Do świ<ch a="G"/>atła dobro g<ch a="C"/>arnie się.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Mówiłaś druhno komendantko,</row>
+      <row important_over="never">Mówiłaś, druhno komendantko,</row>
       <row important_over="never">Że zaufanie do nas masz,</row>
       <row important_over="never">Że wierzysz w nasze dobre chęci,</row>
-      <row important_over="never">Że ty harcerskie serca znasz</row>
+      <row important_over="never">Że ty harcerskie serca znasz.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Warunki tylko warunkami</row>
-      <row important_over="never">Od dawna wszak słyszymy to</row>
+      <row important_over="never">Warunki tylko warunkami,</row>
+      <row important_over="never">Od dawna wszak słyszymy to,</row>
       <row important_over="never">Lecz my jesteśmy harcerkami</row>
-      <row important_over="never">I zwyciężymy wszelkie zło</row>
+      <row important_over="never">I zwyciężymy wszelkie zło.</row>
     </block>
   </lyric>
+  <music metre="3/4">
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album></album>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Juz_rozpalilo_sie_ognisko</verificator>
+      <verificator>https://16wdh.pl/spiewnik/juz-rozpalilo-sie-ognisko/</verificator>
+    </verificators>
+  </status>
 </song>
