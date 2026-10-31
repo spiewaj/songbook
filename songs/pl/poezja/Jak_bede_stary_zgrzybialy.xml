@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jak będę stary zgrzybiały…">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>A jak będę już stary zgrzybiały to pozwól mi<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Raz ostatni na górskie szlaki samotnie wyjść<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Siądę sobie spokojnie na reglu w promieniach dnia<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Wtedy kostuchę z komórki wypuść by po mnie szła<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="e"/>I mgłą jak płaszczem królewskim otuliła<ch a="a"/><ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="e"/>Bóg mi na siwe włosy koronę da<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Gdy jesienią zobaczysz na niebie żurawi klucz<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      <bis>
-        <row important_over="never"><ch a="C"/>Wtedy cichutko do ciebie pójdę po szczytach gór<ch a="G"/><ch a="F"/><ch a="C"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Miniatury</alias>
+	<text_author type="solo">Andrzej Wierzbicki</text_author>
+	<comment>Utwór Andrzeja Wierzbickiego znany także pod tytułem „Miniatury”. W tekście występuje metafora bukowych liści („buk mi na siwe włosy złotą koronę da”), w przekazie śpiewnikowym bywa zniekształcana jako „Bóg”.</comment>
+	<composer type="solo">Andrzej Wierzbicki</composer>
+	<artist type="solo">Andrzej Wierzbicki</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">A jak b<ch a="C"/>ędę już stary zgrzyb<ch a="G"/>iały, to pozwól m<ch a="F"/>i <ch a="C"/></row>
+			<row important_over="true">r<ch a="C"/>az ostatni na górskie szl<ch a="G"/>aki samotnie w<ch a="F"/>yjść. <ch a="C"/></row>
+			<row important_over="true">Si<ch a="C"/>ądę sobie spokojnie na r<ch a="G"/>eglu w promieniach dni<ch a="F"/>a, <ch a="C"/></row>
+			<row important_over="true">wt<ch a="C"/>edy kostuchę z komory wyp<ch a="G"/>uść, by po mnie szł<ch a="F"/>a. <ch a="C"/></row>
+			<row important_over="true">I mgł<ch a="e"/>ą jak płaszczem królewskim ot<ch a="a"/>uli wi<ch a="d"/>atr, <ch a="G"/><ch a="C"/></row>
+			<row important_over="true">b<ch a="e"/>uk mi na siwe włosy k<ch a="a"/>oronę d<ch a="F"/>a. <ch a="G"/><ch a="C"/></row>
+			<row important_over="true">Gdy jes<ch a="C"/>ienią zobaczysz na ni<ch a="G"/>ebie żurawi kl<ch a="F"/>ucz, <ch a="C"/></row>
+			<bis times="2">
+				<row important_over="true">wt<ch a="C"/>edy cichutko do ciebie p<ch a="G"/>ójdę po szczytach g<ch a="F"/>ór. <ch a="C"/></row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Andrzej Wierzbicki (słowa i muzyka, „Miniatury”)</verificator>
+			<verificator>http://ramole.pl/spotkanie-z-piosenka/dgd1/miniatury/</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
 </song>
