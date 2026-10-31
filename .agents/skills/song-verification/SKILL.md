@@ -50,6 +50,7 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - Convert international chord symbols (`Bm` -> `h`, `Em` -> `e`, `Am` -> `a`, `Dm` -> `d`, `F#m` -> `fis`, `C#m` -> `cis`, `Bb` -> `B`, `B` -> `H`) when adapting tabs from English/foreign sources.
    - Ensure chords are placed inline (`<ch a="..."/>`) right before the syllable where the chord change occurs.
    - If a song only has `sidechords="..."` or no chords at all, find an authoritative chord transcription (including searching original foreign versions via Discogs/Ultimate Guitar if it is a translated song) and place inline `<ch a="..."/>` tags.
+   - **Preserve `sidechords="..."` formatting**: If a row already has `sidechords="..."` with deliberate formatting (e.g. glued pairs like `DG`, parentheses like `(D)`, bar separators `|`), **do not remove `sidechords`**. Inline `<ch a="..."/>` tags and `sidechords` co-exist cleanly; `sidechords` controls the margin layout while `<ch>` controls over-the-word placement.
    - Ensure no lyric words or split suffixes (`<ch a="D"/><ch a="is"/>`) are accidentally inside `<ch>` tags.
    - For purely instrumental rows, use `<row important_over="false" style="instr"><ch a="..."/>...</row>`.
 

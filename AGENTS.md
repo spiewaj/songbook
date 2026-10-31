@@ -25,3 +25,9 @@ Always verify whether the current Pull Request has already been merged before ex
   - Clearly document in `<to_do>` or `<comment>` that the chords/melody are unknown and could not be verified from public sources.
   - Do NOT mark `<chords>` under `<status><done>`.
 - **Honest Source Attribution**: Every `<verificator>` entry MUST point to a genuine URL or verified physical reference that was actually consulted. NEVER invent or assume a source.
+
+## `sidechords` Attribute & Formatting Policy
+The `sidechords="..."` attribute on `<row>` is an explicit, supported feature:
+- **Purpose**: It controls the exact text rendered in the side margin (LaTeX / HTML margin chords). It allows preferred formatting such as glued chords (e.g. `DG`, `CC7+`) indicating rapid changes within a measure, parentheses (e.g. `(D)`, `(H7)`) for passing or optional chords, and bar dividers (`|`).
+- **Preservation Rule**: Whenever a row has `sidechords="..."` with deliberate formatting (e.g. glued pairs, parentheses, passing chords), **DO NOT REMOVE** the `sidechords` attribute when adding inline `<ch a="..."/>` tags. Inline `<ch>` tags and `sidechords` are designed to co-exist. Keep both.
+
