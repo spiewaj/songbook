@@ -1,68 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jaka jesteś">
 	<alias>Bitwa</alias>
-	<text_author type="solo">Tomek Lewandowski</text_author>
-	<comment></comment>
-	<composer type="solo">Tomek Lewandowski</composer>
-	<artist type="solo">Tomek Lewandowski</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<text_author type="solo">Krzysztof Lebionko</text_author>
+	<comment>Piosenka znana również pod tytułami „Bitwa” oraz „Kartka z kalendarza”. Słowa: Krzysztof Lebionko („Symulant”).</comment>
+	<composer type="solo">Tomasz Lewandowski</composer>
+	<artist type="solo">Tomasz Lewandowski</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="D"/>Jesteś bitwą moją nieskończoną<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>W której ciągle o przyczułek walczę<ch a="D"/></row>
-			<row important_over="never">
-				<ch a="D"/>Jesteś drzwiami które otworzyłem<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>A potem przycięły mi palce<ch a="D"/></row>
+			<row important_over="true">J<ch a="D"/>esteś bitwą moją nieskończ<ch a="G"/>oną,</row>
+			<row important_over="true">w kt<ch a="A"/>órej ciągle o przyczółek w<ch a="D"/>alczę.</row>
+			<row important_over="true">J<ch a="D"/>esteś drzwiami, które otworz<ch a="G"/>yłem,</row>
+			<row important_over="true">a p<ch a="A"/>otem przycięły mi p<ch a="D"/>alce.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">
-				<ch a="D"/>Jesteś kartką z kalendarza<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Zgubioną gdzieś pomiędzy szufladami<ch a="D"/></row>
-			<row important_over="never">
-				<ch a="D"/>I ulicą na której co dzień<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Uciekałem między latarniami<ch a="D"/></row>
+			<row important_over="true">J<ch a="D"/>esteś kartką z kalend<ch a="G"/>arza,</row>
+			<row important_over="true">zg<ch a="A"/>ubioną gdzieś pomiędzy szuflad<ch a="D"/>ami,</row>
+			<row important_over="true">i ul<ch a="D"/>icą, na której co dzi<ch a="G"/>eń</row>
+			<row important_over="true">uci<ch a="A"/>ekałem między latarni<ch a="D"/>ami.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="D"/>Jesteś mgłą ogromną nie zmierzoną<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Ciszą w huku i łoskotem w ciszy<ch a="D"/></row>
-			<row important_over="never">
-				<ch a="D"/>Jesteś piórem i wyblakłą kartką<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Którym i na której dzisiaj piszę<ch a="D"/></row>
+			<row important_over="false">J<ch a="D"/>esteś mgłą ogromną, niezmierz<ch a="G"/>oną,</row>
+			<row important_over="false">c<ch a="A"/>iszą w huku i łoskotem w c<ch a="D"/>iszy.</row>
+			<row important_over="false">J<ch a="D"/>esteś piórem i wyblakłą k<ch a="G"/>artką,</row>
+			<row important_over="false">kt<ch a="A"/>órym i na której dzisiaj p<ch a="D"/>iszę.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">
-				<ch a="D"/>Przyszłaś do mnie a ja nie spostrzegłem<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Dzisiaj tylko mogę mówić byłaś<ch a="D"/></row>
-			<row important_over="never">
-				<ch a="D"/>Nie wiem czy na jawie wzięłaś mnie za rękę<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="A"/>Czy jak wszystko ty się tylko śniłaś.<ch a="D"/></row>
+			<row important_over="false">Prz<ch a="D"/>yszłaś do mnie, a ja nie spostrz<ch a="G"/>egłem,</row>
+			<row important_over="false">dz<ch a="A"/>isiaj tylko mogę mówić: był<ch a="D"/>aś.</row>
+			<row important_over="false">Ni<ch a="D"/>e wiem, czy na jawie wzięłaś mnie za r<ch a="G"/>ękę,</row>
+			<row important_over="false">cz<ch a="A"/>y jak wszystko ty się tylko śnił<ch a="D"/>aś.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators/>
-		<to_do></to_do>
-		<done>
-			<authors/>
-		</done>
-	</status>
 	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
+	<album>Czas miniony</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysztof Lebionko (słowa), Tomasz Lewandowski (muzyka)</verificator>
+			<verificator>Tomasz Lewandowski – album „Czas miniony” (2017)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/jaka-jestes</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
 </song>
