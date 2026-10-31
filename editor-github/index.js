@@ -190,8 +190,20 @@ app.get('/users/:user/changes/:branch[:]publish', async (req, res) => {
 
 
 async function getSongs(octokit, user) {
-    let songs = await octokit.rest.repos.getContent(
-        {owner: user, repo: 'songbook', path: 'songs', ref: MAIN_BRANCH_NAME})
+    let songs;
+    try {
+        songs = await octokit.rest.repos.getContent(
+            {owner: user, repo: 'songbook', path: 'songs', ref: MAIN_BRANCH_NAME});
+    } catch (e) {
+        if (e instanceof RequestError && e.status === 404) {
+            console.log(`getSongs 404 for ${user}, preparing main branch...`);
+            await prepareMainBranch(octokit, user);
+            songs = await octokit.rest.repos.getContent(
+                {owner: user, repo: 'songbook', path: 'songs', ref: MAIN_BRANCH_NAME});
+        } else {
+            throw e;
+        }
+    }
     //console.log(util.inspect(songs, false, null, false));
     let os = [];
     for (let s of songs.data) {
@@ -205,14 +217,32 @@ async function getSongs(octokit, user) {
 }
 
 async function getDirs(octokit, user) {
-    let songs = await octokit.request('GET /repos/{owner}/{repo}/git/trees/{tree_sha}?recursive=1', {
-        owner: user,
-        repo: 'songbook',
-        tree_sha: MAIN_BRANCH_NAME,
-        headers: {
-            'X-GitHub-Api-Version': '2022-11-28'
+    let songs;
+    try {
+        songs = await octokit.request('GET /repos/{owner}/{repo}/git/trees/{tree_sha}?recursive=1', {
+            owner: user,
+            repo: 'songbook',
+            tree_sha: MAIN_BRANCH_NAME,
+            headers: {
+                'X-GitHub-Api-Version': '2022-11-28'
+            }
+        });
+    } catch (e) {
+        if (e instanceof RequestError && e.status === 404) {
+            console.log(`getDirs 404 for ${user}, preparing main branch...`);
+            await prepareMainBranch(octokit, user);
+            songs = await octokit.request('GET /repos/{owner}/{repo}/git/trees/{tree_sha}?recursive=1', {
+                owner: user,
+                repo: 'songbook',
+                tree_sha: MAIN_BRANCH_NAME,
+                headers: {
+                    'X-GitHub-Api-Version': '2022-11-28'
+                }
+            });
+        } else {
+            throw e;
         }
-    })
+    }
     let os = [];
     for (let s of songs.data.tree) {
         if (s.path.startsWith("songs/") && s.type === "tree") {
@@ -234,18 +264,18 @@ app.get('/users/:user/changes[:]new', async (req, res) => {
         console.log("Request query: ", req.query)
         console.log("Request query file: ", req.query.file)
         if (req.query.file) {
-            let file = req.query.file;
-            console.log("Got file: ", file)
+            let dir = req.query.dir ? req.query.dir.trim() : "";
+            let file = req.query.file.trim();
+            console.log("Got file: ", file, "dir: ", dir)
             if (!file.toLowerCase().endsWith(".xml")) {
                 file = file + ".xml";
             }
-            return await newChange(file, octokit, user, res)
+            return await newChange(path.join(dir, file), octokit, user, res)
         }
 
-        htmlPrefix(res);
-
-
         let dirs = await getDirs(octokit, user)
+
+        htmlPrefix(res);
 
         res.write(`<datalist id="dirs">\n`);
         for (const dir of dirs) {
@@ -334,13 +364,13 @@ app.get('/users/:user/songs', async (req, res) => {
             return;
         }
 
+        let songs = await getSongs(octokit, user)
+
         htmlPrefix(res);
         res.write(`
       <h1>Lista piosenek</h1>\n
       Wybierz plik, który będziesz edytował:
       `);
-
-        let songs = await getSongs(octokit, user)
 
         res.write(`<ul>\n`);
         for (const song of songs) {
@@ -364,18 +394,15 @@ app.get('/users/:user/songs', async (req, res) => {
 });
 
 app.get('/config', async (req, res) => {
-    const {octokit, authuser} = await newUserOctokit(req, res);
-
     try {
-        await octokit.rest.repos.get({owner: authuser, repo: "songbook"});
-    } catch (e) {
-        await octokit.rest.repos.createFork({owner: GITHUB_OWNER, repo: "songbook"});
-        const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-        await delay(3000);
-    }
+        const {octokit, authuser} = await newUserOctokit(req, res);
+        if (!octokit) return;
 
-    await prepareMainBranch(octokit, authuser);
-    res.redirect(`/users/${authuser}/changes`);
+        await prepareMainBranch(octokit, authuser);
+        res.redirect(`/users/${authuser}/changes`);
+    } catch (e) {
+        HandleError(e, res);
+    }
 });
 
 function myErrorHandle(e, res) {
@@ -383,7 +410,7 @@ function myErrorHandle(e, res) {
         console.log("Returning 404")
         res.status(404);
         res.send("Document not found");
-    } if (e instanceof RequestError && e.status===401) {
+    } else if (e instanceof RequestError && e.status===401) {
         console.log("Got 401 -> Redirecting to /auth")
         res.redirect("/auth")
     } else {

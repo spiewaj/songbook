@@ -65,13 +65,13 @@ export function htmlPrefix(res) {
 }
 
 export function htmlSuffix(res) {
-    if (!res.headersSent) {
+    if (!res.writableEnded) {
         res.write(`
   </body>
 </html>`);
         res.end();
     } else {
-        console.log("Headers already sent")
+        console.log("Response already ended")
     }
 }
 
@@ -214,38 +214,88 @@ export async function fetchBranch(octokit, user, branchName) {
     }
 }
 
+export async function ensureForkExists(octokit, user) {
+    try {
+        await octokit.rest.repos.get({owner: user, repo: "songbook"});
+        return;
+    } catch (e) {
+        if (!(e instanceof RequestError && e.status === 404)) {
+            throw e;
+        }
+    }
+    console.log(`Repository ${user}/songbook not found. Creating fork from ${GITHUB_OWNER}/songbook...`);
+    await octokit.rest.repos.createFork({owner: GITHUB_OWNER, repo: "songbook"});
+    const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+    for (let i = 0; i < 10; i++) {
+        await delay(2000);
+        const mainBranch = await fetchBranch(octokit, user, "main");
+        if (mainBranch) {
+            console.log(`Fork ${user}/songbook is ready (attempt ${i + 1})`);
+            return;
+        }
+    }
+    console.warn(`Fork ${user}/songbook creation waited max attempts, proceeding...`);
+}
+
+async function pullUpstreamIntoMainBranch(octokit, user) {
+    const res = await octokit.request('POST /repos/{owner}/{repo}/pulls', {
+        owner: user,
+        repo: 'songbook',
+        title: 'Automated creation of songbook-main branch.',
+        body: 'Should get automatically merged.',
+        head: GITHUB_OWNER + ':songbook:main',
+        base: MAIN_BRANCH_NAME
+    });
+    console.log("Created pull request", JSON.stringify(res));
+    const merge = await octokit.request('PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge', {
+        owner: user,
+        repo: 'songbook',
+        pull_number: res.data.number
+    });
+    console.log("Merging", JSON.stringify(merge));
+}
+
 export async function prepareMainBranch(octokit, user) {
     let branch = await fetchBranch(octokit, user, MAIN_BRANCH_NAME);
+    let originBranch = await fetchBranch(octokit, GITHUB_OWNER, 'main');
+    console.log("originBranch", JSON.stringify(originBranch));
     if (!branch) {
-        // console.log(util.inspect(originBranch, false, null, false));
-        // We use really old commit as (originBranch.data.commit.sha) was sometimes not pulled from the repository.
-        await octokit.rest.git.createRef({owner: user, repo: 'songbook', "ref": "refs/heads/" + MAIN_BRANCH_NAME, "sha": 'c21af496c93eecd96902d8ee01c994b9ec2e8157'});
-        const res = await octokit.request('POST /repos/{owner}/{repo}/pulls', {
-            owner: user,
-            repo: 'songbook',
-            title: 'Automated creation of songbook-main branch.',
-            body: 'Should get automatically merged.',
-            head: GITHUB_OWNER + ':songbook:main',
-            base: MAIN_BRANCH_NAME
-        })
-        console.log("Created pull request", JSON.stringify(res));
-        const merge = await octokit.request('PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge', {
-            owner: user,
-            repo: 'songbook',
-            pull_number: res.data.number
-        })
-        console.log("Merging", JSON.stringify(merge));
+        await ensureForkExists(octokit, user);
+        try {
+            await octokit.rest.git.createRef({
+                owner: user,
+                repo: 'songbook',
+                "ref": "refs/heads/" + MAIN_BRANCH_NAME,
+                "sha": originBranch.data.commit.sha
+            });
+            return fetchBranch(octokit, user, MAIN_BRANCH_NAME);
+        } catch (e) {
+            console.log("Direct createRef with origin sha failed, falling back to base commit + PR merge:", e.message);
+            // We use really old commit as (originBranch.data.commit.sha) was sometimes not pulled from the repository.
+            await octokit.rest.git.createRef({
+                owner: user,
+                repo: 'songbook',
+                "ref": "refs/heads/" + MAIN_BRANCH_NAME,
+                "sha": 'c21af496c93eecd96902d8ee01c994b9ec2e8157'
+            });
+            await pullUpstreamIntoMainBranch(octokit, user);
+        }
     }
     // For repositories that got forked from github.com/wdw21/songbook... 
     // the upstream branch would not be github.com/spiewaj/songbook.
     // await octokit.rest.repos.mergeUpstream({owner: user, repo: 'songbook', 'branch': MAIN_BRANCH_NAME});
-    let originBranch = await fetchBranch(octokit, GITHUB_OWNER, 'main');
-    console.log("originBranch", JSON.stringify(originBranch));   
     // https://github.com/octokit/rest.js/issues/339
-    let updateCmd = {owner: user, repo: 'songbook', "ref": "heads/" + MAIN_BRANCH_NAME, "sha": originBranch.data.commit.sha, "force": true}
+    let updateCmd = {owner: user, repo: 'songbook', "ref": "heads/" + MAIN_BRANCH_NAME, "sha": originBranch.data.commit.sha, "force": true};
     console.log("updateCmd", JSON.stringify(updateCmd));
-    const updateRef=await octokit.rest.git.updateRef(updateCmd);
-    console.log("UpdateRef", JSON.stringify(updateRef));    
+    try {
+        const updateRef = await octokit.rest.git.updateRef(updateCmd);
+        console.log("UpdateRef", JSON.stringify(updateRef));
+    } catch (e) {
+        console.log("updateRef failed, pulling upstream via PR first:", e.message);
+        await pullUpstreamIntoMainBranch(octokit, user);
+        const updateRef = await octokit.rest.git.updateRef(updateCmd);
+        console.log("UpdateRef after PR merge", JSON.stringify(updateRef));
+    }
     
     return fetchBranch(octokit, user, MAIN_BRANCH_NAME);
 }
@@ -280,16 +330,19 @@ export function editorLink(user, branchName, file, autocommit, maybeNew) {
 
 export function HandleError(e, res) {
     console.log("HttpError", e);
-    if ((!res.headersSent && e instanceof RequestError && e.status===401) ||
-        (e.response.data.message.includes("refusing to allow an OAuth App to"))) {
+    const errMsg = e?.response?.data?.message || e?.message || "";
+    if (!res.headersSent && (
+        (e instanceof RequestError && e.status === 401) ||
+        errMsg.includes("refusing to allow an OAuth App to")
+    )) {
         // HttpError RequestError [HttpError]: Bad credentials
         // status: 422,  E.g. HttpError: refusing to allow an OAuth App to create or update workflow `.github/workflows/generate.yml` without `workflow` scope
         res.redirect(AUTH_URL);
         return;
     }
-    if (!res.headersSent) {
-        res.send(`<hr/><detail><summery>Error</summery><pre>`);
-        res.send(util.inspect(e, false, null, false));
-        res.end(`</pre></detail></body></html>`);
+    if (!res.writableEnded) {
+        res.write(`<hr/><details><summary>Error</summary><pre>`);
+        res.write(util.inspect(e, false, null, false));
+        res.end(`</pre></details></body></html>`);
     }
 }
