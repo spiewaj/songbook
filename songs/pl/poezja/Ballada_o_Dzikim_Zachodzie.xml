@@ -5,82 +5,84 @@
 	<artist type="solo">Wojciech Młynarski</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Potwierdzają to setne przykłady<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Że westerny wciąż jeszcze są w modzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Wysłuchajcie więc państwo ballady<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">O tak zwanym najdzikszym zachodzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Miasto było tam jakich tysiące<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Wokół preria i skały naprzeciw<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Jak gdzie indziej świeciło tam słońce<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Marli starcy, rodziły się dzieci<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="true">Po<ch a="G"/>twierdzają to <ch a="C"/>setne przy<ch a="G"/>kłady,</row>
+			<row important_over="true">że we<ch a="e"/>sterny wciąż <ch a="D"/>jeszcze są w <ch a="G"/>modzie.</row>
+			<row>Wy<ch a="G"/>słuchajcie więc, <ch a="C"/>państwo, bal<ch a="G"/>lady</row>
+			<row>o tak <ch a="e"/>zwanym Naj<ch a="D"/>dzikszym Za<ch a="G"/>chodzie.</row>
+			<row>Miasto <ch a="C"/>było tam, jakich ty<ch a="G"/>siące,</row>
+			<row>wokół <ch a="C"/>preria i skały na<ch a="G"/>przeciw.</row>
+			<row>Jak gdzie <ch a="G"/>indziej świe<ch a="C"/>ciło tam <ch a="G"/>słońce,</row>
+			<row>marli <ch a="e"/>starcy, ro<ch a="D"/>dziły się <ch a="G"/>dzieci.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">I tym tylko od innych różni się ta ballada<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Że w tym mieście gdzieś na prerii krańcach<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Na jednego mieszkańca jeden szeryf przypadał<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Jeden szeryf na jednego mieszkańca<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="true">I tym <ch a="C"/>tylko od <ch a="D"/>innych różni <ch a="G"/>się ta bal<ch a="C"/>lada,</row>
+			<row important_over="true">że w tym <ch a="C"/>mieście gdzieś na prerii <ch a="G"/>krańcach,</row>
+			<row>na jed<ch a="C"/>nego miesz<ch a="D"/>kańca jeden <ch a="C"/>szeryf przy<ch a="G"/>padał,</row>
+			<row>jeden <ch a="e"/>szeryf na <ch a="D"/>jednego miesz<ch a="G"/>kańca.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Konsekwencje ten fakt miał ogromne<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Bo nikt w mieście za spluwę nie chwytał<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">I od dawna już każdy zapomniał<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Jak wygląda prawdziwy bandyta<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Choć finanse poniekąd leżały<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Gospodarka i przemysł był na nic<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Ale każdy, czy duży, czy mały<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Czuł się za to bezpieczny bez granic<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row>Konse<ch a="G"/>kwencje ten <ch a="C"/>fakt miał og<ch a="G"/>romne,</row>
+			<row>bo nikt <ch a="e"/>w mieście za <ch a="D"/>spluwę nie <ch a="G"/>chwytał.</row>
+			<row>I od <ch a="G"/>dawna już <ch a="C"/>każdy za<ch a="G"/>pomniał,</row>
+			<row>jak wyg<ch a="e"/>ląda praw<ch a="D"/>dziwy ban<ch a="G"/>dyta.</row>
+			<row>Choć fi<ch a="C"/>nanse poniekąd le<ch a="G"/>żały,</row>
+			<row>gospo<ch a="C"/>darka i przemysł był <ch a="G"/>na nic,</row>
+			<row>ale <ch a="G"/>każdy, czy <ch a="C"/>duży, czy <ch a="G"/>mały,</row>
+			<row>czuł się <ch a="e"/>za to bez<ch a="D"/>pieczny bez <ch a="G"/>granic.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Jeśli państwa historia ta nudzi<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">To pocieszcie się tym, że nareszcie<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Którejś nocy krzyk ludzi obudził<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Bank rozbity, bandyci są w mieście<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Dobrzy ludzie na próżno wołacie<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Nikt nie wstanie za spluwę nie chwyci<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Skoro każdy świadomość zatracił<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Czym się różnią od ludzi bandyci<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row>Jeśli <ch a="G"/>państwa his<ch a="C"/>toria ta <ch a="G"/>nudzi,</row>
+			<row>to po<ch a="e"/>cieszcie się <ch a="D"/>tym, że na<ch a="G"/>reszcie</row>
+			<row>którejś <ch a="G"/>nocy krzyk <ch a="C"/>ludzi obu<ch a="G"/>dził:</row>
+			<row>„Bank roz<ch a="e"/>bity! Ban<ch a="D"/>dyci są w <ch a="G"/>mieście!”.</row>
+			<row>Dobrzy <ch a="C"/>ludzie, na próżno wo<ch a="G"/>łacie,</row>
+			<row>nikt nie <ch a="C"/>wstanie, za spluwę nie <ch a="G"/>chwyci,</row>
+			<row>skoro <ch a="G"/>każdy świa<ch a="C"/>domość za<ch a="G"/>tracił,</row>
+			<row>czym się <ch a="e"/>różnią od <ch a="D"/>ludzi ban<ch a="G"/>dyci.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">A tym tylko od innych różni się ta ballada<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Że w tym mieście gdzieś na prerii krańcach<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Na każdego człowieka nagle strach upadł blady<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Od szeryfa do zwykłego mieszkańca<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="true">A tym <ch a="C"/>tylko od <ch a="D"/>innych różni <ch a="G"/>się ta bal<ch a="C"/>lada,</row>
+			<row important_over="true">że w tym <ch a="C"/>mieście gdzieś na prerii <ch a="G"/>krańcach,</row>
+			<row>na każ<ch a="C"/>dego czło<ch a="D"/>wieka nagle <ch a="C"/>strach upadł <ch a="G"/>blady,</row>
+			<row>od sze<ch a="e"/>ryfa do <ch a="D"/>zwykłego miesz<ch a="G"/>kańca.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Potwierdzają to setne przykłady<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Że westerny wciąż jeszcze są w modzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Wysłuchaliście państwo ballady<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">O tak zwanym najdzikszym zachodzie<ch a="e"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Miasto było tam jakich tysiące<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Ludzkie w nim krzyżowały się drogi<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Lecz nie wszystkim świeciło tam słońce<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Bo bandyci krążyli bez trwogi<ch a="e"/><ch a="D"/><ch a="G"/></row>
+			<row>Po<ch a="G"/>twierdzają to <ch a="C"/>setne przy<ch a="G"/>kłady,</row>
+			<row>że we<ch a="e"/>sterny wciąż <ch a="D"/>jeszcze są w <ch a="G"/>modzie.</row>
+			<row>Wy<ch a="G"/>słuchaliście, <ch a="C"/>państwo, bal<ch a="G"/>lady</row>
+			<row>o tak <ch a="e"/>zwanym Naj<ch a="D"/>dzikszym Za<ch a="G"/>chodzie.</row>
+			<row>Miasto <ch a="C"/>było tam, jakich ty<ch a="G"/>siące,</row>
+			<row>ludzkie <ch a="C"/>w nim krzyżowały się <ch a="G"/>drogi,</row>
+			<row>lecz nie <ch a="G"/>wszystkim świe<ch a="C"/>ciło tam <ch a="G"/>słońce,</row>
+			<row>bo ban<ch a="e"/>dyci krą<ch a="D"/>żyli bez <ch a="G"/>trwogi.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Wyciągnijmy więc morał w tej balladzie ukryty<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Gdy nie grozi nam żadne rififi<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Że czasami najtrudniej rozpoznać bandytę<ch a="C"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="true">Wyciąg<ch a="C"/>nijmy więc <ch a="D"/>morał w tej bal<ch a="C"/>ladzie u<ch a="G"/>kryty,</row>
+			<row important_over="true">gdy nie <ch a="C"/>grozi nam żadne ri<ch a="G"/>fifi,</row>
+			<row>że cza<ch a="C"/>sami naj<ch a="D"/>trudniej roz<ch a="C"/>poznać ban<ch a="G"/>dytę,</row>
 			<bis times="3">
-				<row important_over="never">Gdy dokoła sami szeryfi<ch a="e"/><ch a="D"/><ch a="G"/></row>
+				<row>gdy do<ch a="e"/>koła sa<ch a="D"/>mi sze<ch a="G"/>ryfi!</row>
 			</bis>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
 	<keywords>
 		<keyword>Western</keyword>
 	</keywords>
-	<album>Wojciech Młynarski - Prawie Całość CD_2</album>
+	<album>Obiad rodzinny</album>
+	<genre>Piosenka autorska</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Adam</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Ballada_o_Dzikim_Zachodzie</verificator>
 		</verificators>
 	</status>
 </song>
