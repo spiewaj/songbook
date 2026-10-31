@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdybym miał gitarę">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Gdybym miał gitarę to bym na niej grał<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Opowiedziałbym o swej miłości którą przeżyłem sam<ch a="a"/><ch a="E"/><ch a="a"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="a"/>A wszystko te czarne oczy gdybym ja je miał<ch a="C"/><ch a="E"/><ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Za te czarne cudne oczęta serce duszę bym dał<ch a="a"/><ch a="E"/><ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Fajki ja nie palę, wódki nie piję<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Ale z żalu, żalu wielkiego ledwo co żyję<ch a="a"/><ch a="E"/><ch a="a"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Ludzie mówią głupi po coś ty ją brał<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Po coś to dziewcze czarne figlarne mocno pokochał<ch a="a"/><ch a="E"/><ch a="a"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Czarne oczy</alias>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment/>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">Piosenka biesiadna</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Gd<ch a="a"/>ybym miał gitarę, t<ch a="E"/>o bym na niej gr<ch a="a"/>ał, <ch a="A7"/></row>
+			<row important_over="true">op<ch a="d"/>owiedziałbym o sw<ch a="a"/>ej miłości, kt<ch a="E"/>órą przeżyłem s<ch a="a"/>am.</row>
+		</block>
+		<block type="chorus">
+			<bis>
+				<row important_over="true">A wsz<ch a="a"/>ystko te czarne <ch a="E"/>oczy, gdybym ja je mi<ch a="a"/>ał, <ch a="A7"/></row>
+				<row important_over="true">za t<ch a="d"/>e czarne, cudne ocz<ch a="a"/>ęta s<ch a="E"/>erce, duszę bym d<ch a="a"/>ał!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row>F<ch a="a"/>ajki ja nie palę, w<ch a="E"/>ódki nie pij<ch a="a"/>ę, <ch a="A7"/></row>
+			<row>ale z ż<ch a="d"/>alu, żalu wi<ch a="a"/>elkiego l<ch a="E"/>edwo co żyj<ch a="a"/>ę.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row>L<ch a="a"/>udzie mówią: głupi, p<ch a="E"/>o coś ty ją br<ch a="a"/>ał, <ch a="A7"/></row>
+			<row>po c<ch a="d"/>oś to dziewczę cz<ch a="a"/>arne, figlarne m<ch a="E"/>ocno pokoch<ch a="a"/>ał?</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Piosenka biesiadna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Pieśń tradycyjna (romans cygański / biesiadny)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Gdybym_mial_gitare)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-biesiadne/gdybym-mial-gitare</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
