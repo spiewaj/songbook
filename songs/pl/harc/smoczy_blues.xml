@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Smoczy Blues">
+  <alias>Smoczy blues</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Popularna piosenka harcerska i zuchowa o nieznanym autorze.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="solo">Tradycyjna</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="G">Gdzieś za górami, za morzem głębokim</row>
+      <row important_over="true"><ch a="G"/>Gdzieś za górami, za morzem głębokim,</row>
       <row important_over="never">Na wielkiej polanie żyły cztery smoki:</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis times="2">
-        <row important_over="never" sidechords="C G">Niebieski, zielony, żółty i czerwony</row>
+        <row important_over="true">Ni<ch a="C"/>ebieski, zielony, żółty i czerw<ch a="G"/>ony,</row>
       </bis>
-      <row important_over="never" sidechords="D C">Od Wysp Kokosowych do Błękitnych Wzgórz</row>
-      <row important_over="never" sidechords="D C">Rozlega się szalony, natchniony smoczy blues</row>
-      <row important_over="never" sidechords="G D C">Niebieski, zielony, żółty i czerwony blues!</row>
+      <row important_over="true">Od W<ch a="D"/>ysp Kokosowych do Bł<ch a="C"/>ękitnych Wzgórz</row>
+      <row important_over="false">Rozl<ch a="D"/>ega się szalony, natchni<ch a="C"/>ony smoczy blues —</row>
+      <row important_over="true">Ni<ch a="G"/>ebieski, ziel<ch a="D"/>ony, żółty i czerw<ch a="C"/>ony bl<ch a="G"/>ues!</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="G">Pierwszy smok to okaz był niezwykle rzadki</row>
-      <row important_over="never">Nocą łowił tyby a w dzień wąchał kwiatki.</row>
+      <row important_over="false">Pi<ch a="G"/>erwszy smok to okaz był niezwykle rzadki —</row>
+      <row important_over="never">Nocą łowił ryby, a w dzień wąchał kwiatki.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G"> Najpiękniejsze były dla drugiego chwile,</row>
+      <row important_over="false">Najpi<ch a="G"/>ękniejsze były dla drugiego chwile,</row>
       <row important_over="never">Gdy nad wielką łąką fruwał jak motylek.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Trzeci smok kochał lody malinowe</row>
+      <row important_over="false">Trz<ch a="G"/>eci smok kochał lody malinowe,</row>
       <row important_over="never">Mówił, że są smaczne oraz bardzo zdrowe.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Czwarty był typowym smoczym elegantem</row>
+      <row important_over="false">Czw<ch a="G"/>arty był typowym smoczym elegantem,</row>
       <row important_over="never">Nosił krawat w kropki i jeździł trabantem.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Czy nam wierzyć chcecie, czy wierzyć nie chcecie</row>
-      <row important_over="never">Lecz jedno jest pewne: SMOKI SĄ NA ŚWIECIE!</row>
+      <row important_over="false">Czy nam wi<ch a="G"/>erzyć chcecie, czy wierzyć nie chcecie,</row>
+      <row important_over="never">Lecz jedno jest pewne: smoki są na świecie!</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album/>
+  <genre>Harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.eu/piosenka/smoczy-blues</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
