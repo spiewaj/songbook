@@ -2,128 +2,92 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bar na stawach">
 	<alias>Pieśń o przemijaniu</alias>
 	<text_author type="solo">Wojciech Bellon</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Wojciech Bellon</composer>
 	<artist type="band">Wolna Grupa Bukowina</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="other">
 			<bis times="2">
-				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">
-				<ch a="F9/6"/>Jeszcze się w nocy kołysze m<ch a="C9/5"/>iasto</row>
-			<row important_over="true">
-				<ch a="G"/>8,15 na stawach bar</row>
-			<row important_over="false">Bramę otw<ch a="F9/6"/>iera wchodzimy <ch a="C9/5"/>tedy</row>
-			<row important_over="true">
-				<ch a="G"/>Ja i Hnatowicz Jan</row>
+			<row important_over="true"><ch a="F9/6"/>Jeszcze się w nocy kołysze <ch a="C9/5"/>miasto,</row>
+			<row important_over="true"><ch a="G"/>8.15 na Stawach bar.</row>
+			<row><ch a="F9/6"/>Bramę otwiera, wchodzimy <ch a="C9/5"/>tedy</row>
+			<row><ch a="G"/>ja i Hnatowicz Jan.</row>
 		</block>
 		<block type="other">
 			<bis times="2">
-				<row important_over="false" style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
+				<row style="instr"><ch a="F9/6"/><ch a="C9/5"/><ch a="G"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Co tu zostało z wierszy Mistrza<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Klasa robotnicza, fasolka z bufetu</row>
-			<row important_over="false">
-				<ch a="F9/6"/>A smak poranny piwa łapczywie<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Poznają poematy w beretach</row>
+			<row><ch a="F9/6"/>Co tu zostało z wierszy <ch a="C9/5"/>Mistrza?</row>
+			<row><ch a="G"/>Klasa robotnicza, fasolka z bufetu,</row>
+			<row><ch a="F9/6"/>a smak poranny piwa <ch a="C9/5"/>łapczywie</row>
+			<row><ch a="G"/>poznają poematy w beretach.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Wszedł dzielnicowy krokiem szeryfa<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Tępo spod dacha popatrzył</row>
-			<row important_over="false">
-				<ch a="F9/6"/>Nie mieści mu się w głowie służbowej<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Że można wypić na czczo</row>
+			<row><ch a="F9/6"/>Wszedł dzielnicowy krokiem <ch a="C9/5"/>szeryfa,</row>
+			<row><ch a="G"/>tępo spod dacha popatrzył,</row>
+			<row><ch a="F9/6"/>nie mieści mu się w głowie <ch a="C9/5"/>służbowej,</row>
+			<row><ch a="G"/>że można wypić na czczo.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Co tu zostało z wierszy Mistrza<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Kiedy trzeba wyjść na papierosa</row>
-			<row important_over="false">
-				<ch a="F9/6"/>A bufetowa grozi gliną<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Gdy ktoś coś powie głośniej</row>
+			<row><ch a="F9/6"/>Co tu zostało z wierszy <ch a="C9/5"/>Mistrza,</row>
+			<row><ch a="G"/>kiedy trzeba wyjść na papierosa,</row>
+			<row><ch a="F9/6"/>a bufetowa grozi <ch a="C9/5"/>gliną,</row>
+			<row><ch a="G"/>gdy ktoś coś powie głośniej.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Pod ścianą zaraz przy wejściu<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Paląc Sporty z rękawa</row>
-			<row important_over="false">
-				<ch a="F9/6"/>Siedli goście wprost z wierszy Mistrza<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Bubu Makino wypisz wymaluj</row>
+			<row><ch a="F9/6"/>Pod ścianą zaraz przy <ch a="C9/5"/>wejściu,</row>
+			<row><ch a="G"/>paląc Sporty z rękawa,</row>
+			<row><ch a="F9/6"/>siedli goście wprost z wierszy <ch a="C9/5"/>Mistrza:</row>
+			<row><ch a="G"/>Bubu, Makino – wypisz, wymaluj.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Słuchaliśmy ich z Hnatowiczem<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Jak żywy poemat stawów</row>
-			<row important_over="false">
-				<ch a="F9/6"/>Poezją był brzęk ich kufli<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Kosmiczny wymiar miały słowa</row>
+			<row><ch a="F9/6"/>Słuchaliśmy ich z <ch a="C9/5"/>Hnatowiczem,</row>
+			<row><ch a="G"/>jak żywy poemat Stawów,</row>
+			<row><ch a="F9/6"/>poezją był brzęk ich <ch a="C9/5"/>kufli,</row>
+			<row><ch a="G"/>kosmiczny wymiar miały słowa.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Lecz chłopakom od sąsiedniego stolika<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Chyba z podstawówki pobliskiej</row>
-			<row important_over="false">
-				<ch a="F9/6"/>Nagle się dziwnie zachciało<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Żeby te zgredy wyszli</row>
+			<row><ch a="F9/6"/>Lecz chłopakom od sąsiedniego <ch a="C9/5"/>stolika,</row>
+			<row><ch a="G"/>chyba z podstawówki pobliskiej,</row>
+			<row><ch a="F9/6"/>nagle się dziwnie <ch a="C9/5"/>zachciało,</row>
+			<row><ch a="G"/>żeby te zgredy wyszli.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">
-				<ch a="F9/6"/>Co tu zostało z wierszy Mistrza<ch a="C9/5"/></row>
-			<row important_over="false">
-				<ch a="G"/>Chłodem powiało od drzwi niedomkniętych</row>
+			<row><ch a="F9/6"/>Co tu zostało z wierszy <ch a="C9/5"/>Mistrza?</row>
+			<row><ch a="G"/>Chłodem powiało od drzwi niedomkniętych.</row>
 			<bis times="3">
-				<row important_over="false">
-					<ch a="F9/6"/>I wyszliśmy z Hnatowiczem<ch a="C9/5"/></row>
-				<row important_over="false">
-					<ch a="G"/>Gdzie indziej szukać poezji</row>
+				<row><ch a="F9/6"/>I wyszliśmy z <ch a="C9/5"/>Hnatowiczem</row>
+				<row><ch a="G"/>gdzie indziej szukać poezji.</row>
 			</bis>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<music_source/>
+	<album>Bukowina</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Adam</verificator><verificator>Onufry</verificator><verificator>Krzysiek</verificator>
-			
-			
-			
-		</verificators>
-		<to_do>Akordy rozmieszczene tylko w pierwszej zwrotce. Teoretycznie instrumental po każdej zwrotce.
-
-Onufry -&gt; Głównie to poprawiłem Wojciecha Bellona na wielką literę. Dodałem też kategorię i wydawnictwo. Jakie jest metrum?
-
-Krzysiek - poprawiłem dwie literówki</to_do>
 		<done>	
-			
-			
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>Onufry: dodałem kategorię i wydawnictwo</verificator>
+			<verificator>Krzysiek: poprawiłem dwie literówki</verificator>
+			<verificator>Wojciech Bellon (słowa i muzyka), Wolna Grupa Bukowina</verificator>
+			<verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/bar-na-stawach</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album>Bukowina - kaseta</album>
-	<genre>Poezja śpiewana</genre>
 </song>
