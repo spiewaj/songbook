@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Żegluj">
-  <artist>Cztery Refy</artist>
-  <text_author>Jerzy Rogacki</text_author>
-  <composer>tradycyjna</composer>
+  <alias>Nowa Szkocja</alias>
+  <text_author type="solo">Jerzy Rogacki</text_author>
+  <comment/>
+  <composer type="solo">tradycyjna</composer>
+  <artist type="band">Cztery Refy</artist>
+  <translator></translator>
+  <original_title>Farewell to Nova Scotia</original_title>
   <lyric>
-    <block type="verse">
-      <row important_over="never">Żegluj, żegluj tam gdzie Nowa Szkocja<ch a="C"/><ch a="ea"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never">Żegluj, żegluj gdzie wstaje nowy dzień.<ch a="C"/><ch a="ea"/><ch a="FG"/><ch a="C"/></row>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Żegluj, <ch a="e"/>żegluj <ch a="a"/>tam gdzie Nowa <ch a="F"/>Szkocja, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Żegluj, <ch a="e"/>żegluj <ch a="a"/>gdzie wstaje <ch a="F"/>nowy <ch a="G"/>dzień. <ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Głos Nowej Szkocji nam przynosi wiatr<ch a="a"/><ch a="GC"/></row>
-      <row important_over="never">To zapowiedz nowych dni.<ch a="FC"/><ch a="F"/></row>
-      <row important_over="never">Znowu woła do nas rykiem fal<ch a="dC"/><ch a="Ga"/></row>
-      <row important_over="never">Tam znajdziecie nowy świat.<ch a="FC"/><ch a="G"/></row>
-      <row important_over="never">Znów dumny brzeg będzie witał was<ch a="a"/><ch a="GC"/></row>
-      <row important_over="never">Majestatem groźnych skał<ch a="FC"/><ch a="F"/></row>
-      <row important_over="never">Każdy dzień znów świtem przywita was<ch a="dC"/><ch a="Ga"/></row>
-      <row important_over="never">Coraz bliższym stanie się,<ch a="FC"/><ch a="F"/></row>
-      <row important_over="never">Twoim własnym domem stanie się.<ch a="dG"/><ch a="C"/></row>
+      <row important_over="true">Głos Nowej <ch a="a"/>Szkocji nam <ch a="G"/>przynosi <ch a="C"/>wiatr,</row>
+      <row important_over="true">To zapo<ch a="F"/>wiedź <ch a="C"/>nowych <ch a="F"/>dni.</row>
+      <row important_over="true">Znowu <ch a="d"/>woła do <ch a="C"/>nas <ch a="G"/>rykiem <ch a="a"/>fal:</row>
+      <row important_over="true">Tam znaj<ch a="F"/>dziecie <ch a="C"/>nowy <ch a="G"/>świat.</row>
+      <row important_over="false">Znów dumny <ch a="a"/>brzeg będzie <ch a="G"/>witał <ch a="C"/>was</row>
+      <row important_over="false">Maje<ch a="F"/>statem <ch a="C"/>groźnych <ch a="F"/>skał.</row>
+      <row important_over="false">Każdy <ch a="d"/>dzień znów <ch a="C"/>świtem przyj<ch a="G"/>mie <ch a="a"/>was,</row>
+      <row important_over="false">Coraz <ch a="F"/>bliższym <ch a="C"/>stanie <ch a="F"/>się,</row>
+      <row important_over="true">Twoim <ch a="d"/>własnym <ch a="G"/>domem stanie <ch a="C"/>się.</row>
     </block>
+    <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="never">Żegluj, żegluj tam gdzie Nowa Szkocja…</row>
+      <row important_over="false">Atlan<ch a="a"/>tyk bije <ch a="G"/>falą w stromy <ch a="C"/>brzeg,</row>
+      <row important_over="false">Wściekle <ch a="F"/>ryczy <ch a="C"/>pośród <ch a="F"/>skał.</row>
+      <row important_over="false">W górze <ch a="d"/>dzikich <ch a="C"/>ptaków <ch a="G"/>słychać <ch a="a"/>śpiew,</row>
+      <row important_over="false">Głos ich <ch a="F"/>płynie <ch a="C"/>z wiatrem w <ch a="G"/>dal.</row>
+      <row important_over="false">Tam bujnej <ch a="a"/>trawy się <ch a="G"/>kołysze <ch a="C"/>łan</row>
+      <row important_over="false">I stru<ch a="F"/>myków <ch a="C"/>cichy <ch a="F"/>szept.</row>
+      <row important_over="false">W mej pa<ch a="d"/>mięci <ch a="C"/>zawsze <ch a="G"/>będzie <ch a="a"/>trwał,</row>
+      <row important_over="false">Lecz nie<ch a="F"/>długo <ch a="C"/>powiem <ch a="F"/>wam,</row>
+      <row important_over="false">Lecz nie<ch a="d"/>długo <ch a="G"/>wszystkim powiem <ch a="C"/>wam.</row>
     </block>
-    <block type="verse">
-      <row important_over="never">Atlantyk bije falą w stromy brzeg,</row>
-      <row important_over="never">Wściekle ryczy pośród skał.</row>
-      <row important_over="never">W górze dzikich ptaków słychać śpiew</row>
-      <row important_over="never">Głos ich płynie z wiatrem w dal.</row>
-      <row important_over="never">Tam bujnej trawy się kołysze łan</row>
-      <row important_over="never">I strumyków cichy szept</row>
-      <row important_over="never">W mej pamięci zawsze będzie trwał</row>
-      <row important_over="never">Lecz niedługo powiem wam,</row>
-      <row important_over="never">Lecz niedługo wszystkim powiem wam.</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Żegluj, żegluj tam gdzie Nowa Szkocja…</row>
-      <row important_over="never">Żegluj, żegluj tam gdzie Nowa Szkocja…</row>
-    </block>
+    <blocklink blocknb="1"/>
+    <blocklink blocknb="1"/>
   </lyric>
+  <music metre="">
+    <guitar/>
+  </music>
+  <keywords/>
+  <genre>Szanta</genre>
+  <status>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/mechanicy-shanty/zegluj-zegluj</verificator>
+    </verificators>
+    <to_do></to_do>
+  </status>
 </song>
