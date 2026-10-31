@@ -93,7 +93,10 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/kolysanka-1982/</verificator>
+      <verificator>https://piosenkaztekstem.pl/opracowanie/jacek-kaczmarski-kolysanka-w-sierocincu/</verificator>
+    </verificators>
     <to_do/>
   </status>
   <music_source/>
