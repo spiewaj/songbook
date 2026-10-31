@@ -1,64 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Francois Villon">
-	<artist type="solo">Bułat Okudżawa</artist>
-	<lyric>
-		<block type="verse">
-			<row important_over="never">Dopóki nam Ziemia kręci się,<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Dopóki jest tak czy siak,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Panie, ofiaruj każdemu z nas<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Czego mu w życiu brak.<ch a="G7"/><ch a="C"/></row>
-			<row important_over="never">Mędrcowi darować głowę racz,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Tchórzowi dać konia chciej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="never">Sypnij grosz szczęściarzom<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Dopóki nam Ziemia obraca się,<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">O, Panie, daj nam znak.<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Władzy spragnionym uczyń,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">By władza poszła im w smak.<ch a="G7"/><ch a="C"/></row>
-			<row important_over="never">Hojnych puść między żebraków,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Niech się poczują lżej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="never">Daj Kainowi skruchę<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Ja wiem, że Ty wszystko możesz,<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Ja wierzę w Twą moc i gest,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Jak wierzy żołnierz zabity,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Że w siódmym niebie jest,<ch a="G7"/><ch a="C"/></row>
-			<row important_over="never">Jak zmysł każdy chłonie z wiarą<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Twój ledwie słyszalny głos,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="never">Jak wszyscy wierzymy w Ciebie,<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Nie wiedząc, co niesie los.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Panie zielonooki mój<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Boże jedyny spraw,<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Dopóki nam Ziemia toczy się<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Zdumiona obrotem spraw,<ch a="G7"/><ch a="C"/></row>
-			<row important_over="never">Dopóki czasu i prochu<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Wciąż jeszcze wystarcza jej,<ch a="H7"/><ch a="D0"/><ch a="E7"/></row>
-			<row important_over="never">Dajże nam wszystkim po trochu<ch a="a"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">I mnie w opiece swej miej.<ch a="H7"/><ch a="E7"/><ch a="a"/></row>
-		</block>
-	</lyric>
-	<music>
-		<guitar/>
-	</music>
-	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
-	</status>
-	<keywords/>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="François Villon">
 	<alias>Modlitwa</alias>
 	<text_author type="solo">Bułat Okudżawa</text_author>
-	<composer type="solo">Bułat Okudżawa</composer>
-	<music_source/>
-	<original_title/>
-	<translator>A. Mandalian</translator>
-	<album/>
-	<genre/>
 	<comment/>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Andrzej Mandalian</translator>
+	<original_title>Молитва Франсуа Вийона</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/>Dopóki nam Ziemia kr<ch a="d"/>ęci się,</row>
+			<row important_over="true">dop<ch a="E7"/>óki jest tak czy si<ch a="a"/>ak,</row>
+			<row important_over="true">P<ch a="A7"/>anie, ofiaruj k<ch a="d"/>ażdemu z nas,</row>
+			<row important_over="true">cz<ch a="G7"/>ego mu w życiu br<ch a="C"/>ak.</row>
+			<row important_over="true">M<ch a="A7"/>ędrcowi darować gł<ch a="d"/>owę racz,</row>
+			<row important_over="true">tch<ch a="H7"/>órzowi dać k<ch a="D0"/>onia chci<ch a="E7"/>ej,</row>
+			<row important_over="true">s<ch a="a"/>ypnij gr<ch a="A7"/>osz szczęśc<ch a="d"/>iarzom</row>
+			<row important_over="true">i mni<ch a="H7"/>e w opi<ch a="E7"/>ece swej mi<ch a="a"/>ej.</row>
+		</block>
+		<block type="verse">
+			<row><ch a="a"/>Dopóki nam Ziemia obr<ch a="d"/>aca się,</row>
+			<row>o, P<ch a="E7"/>anie, daj nam zn<ch a="a"/>ak.</row>
+			<row>Wł<ch a="A7"/>adzy spragnionym <ch a="d"/>uczyń,</row>
+			<row>by wł<ch a="G7"/>adza poszła im w sm<ch a="C"/>ak.</row>
+			<row>H<ch a="A7"/>ojnych puść między żebr<ch a="d"/>aków,</row>
+			<row>ni<ch a="H7"/>ech się pocz<ch a="D0"/>ują lż<ch a="E7"/>ej,</row>
+			<row>d<ch a="a"/>aj K<ch a="A7"/>ainowi skr<ch a="d"/>uchę</row>
+			<row>i mni<ch a="H7"/>e w opi<ch a="E7"/>ece swej mi<ch a="a"/>ej.</row>
+		</block>
+		<block type="verse">
+			<row>Ja wi<ch a="a"/>em, że Ty wszystko m<ch a="d"/>ożesz,</row>
+			<row>ja wi<ch a="E7"/>erzę w Twą moc i g<ch a="a"/>est,</row>
+			<row>jak wi<ch a="A7"/>erzy żołnierz zab<ch a="d"/>ity,</row>
+			<row>że w si<ch a="G7"/>ódmym niebie j<ch a="C"/>est,</row>
+			<row>jak zm<ch a="A7"/>ysł każdy chłonie z wi<ch a="d"/>arą</row>
+			<row>Twój l<ch a="H7"/>edwie słysz<ch a="D0"/>alny gł<ch a="E7"/>os,</row>
+			<row>jak wsz<ch a="a"/>yscy wi<ch a="A7"/>erzymy w Ci<ch a="d"/>ebie,</row>
+			<row>nie wi<ch a="H7"/>edząc, co ni<ch a="E7"/>esie l<ch a="a"/>os.</row>
+		</block>
+		<block type="verse">
+			<row>P<ch a="a"/>anie zielonooki m<ch a="d"/>ój,</row>
+			<row>B<ch a="E7"/>oże jedyny, spr<ch a="a"/>aw,</row>
+			<row>dop<ch a="A7"/>óki nam Ziemia t<ch a="d"/>oczy się,</row>
+			<row>zdumi<ch a="G7"/>ona obrotem spr<ch a="C"/>aw,</row>
+			<row>dop<ch a="A7"/>óki czasu i pr<ch a="d"/>ochu</row>
+			<row>wciąż j<ch a="H7"/>eszcze wyst<ch a="D0"/>arcza j<ch a="E7"/>ej,</row>
+			<row>d<ch a="a"/>ajże nam wsz<ch a="A7"/>ystkim po tr<ch a="d"/>ochu</row>
+			<row>i mni<ch a="H7"/>e w opi<ch a="E7"/>ece swej mi<ch a="a"/>ej.</row>
+		</block>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Bułat Okudżawa (słowa i muzyka, oryg. „Молитва Франсуа Вийона”)</verificator>
+			<verificator>Przekład: Andrzej Mandalian</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Modlitwa_Francois_Villona)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/bulat-okudzawa/modlitwa</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
