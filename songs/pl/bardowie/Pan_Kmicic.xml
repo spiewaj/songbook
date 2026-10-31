@@ -1,92 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pan Kmicic">
+  <alias/>
   <text_author type="solo">Jacek Kaczmarski</text_author>
-  <comment>27.10.1989
-(wg H. Sienkiewicza)</comment>
+  <comment>27.10.1989 (wg H. Sienkiewicza)</comment>
   <composer type="solo">Jacek Kaczmarski</composer>
   <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="other">
       <bis times="4">
-        <row important_over="false" style="instr"> <ch a="aa"/><ch a="ad"/></row>
+        <row important_over="false" style="instr"><ch a="a"/><ch a="d"/><ch a="a"/><ch a="d"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true">Wilcze <ch a="a"/>zęby, oczy <ch a="d"/>siwe</row>
-      <row important_over="true">Groźnie <ch a="E"/>garść obuszkiem <ch a="a"/>furczy</row>
-      <row important_over="false">Gniew w<ch a="a"/> zawody z wichru <ch a="d"/>zrywem</row>
-      <row important_over="false">Dzika <ch a="E"/>radość, lot jaskółczy<ch a="a"/></row>
-      <row important_over="true">Czyn to <ch a="A"/>czyn zapadła <ch a="d"/>klamka</row>
-      <row important_over="true">Puścić <ch a="H"/>kura po <ch a="E"/>zaściankach</row>
+      <row important_over="true">Wilcze <ch a="a"/>zęby, oczy <ch a="d"/>siwe,</row>
+      <row important_over="true">Groźnie <ch a="E"/>garść obuszkiem <ch a="a"/>furczy,</row>
+      <row important_over="false">Gniew w<ch a="a"/> zawody z wichru <ch a="d"/>zrywem,</row>
+      <row important_over="false">Dzika <ch a="E"/>radość, lot jask<ch a="a"/>ółczy!</row>
+      <row important_over="true">Czyn to <ch a="A"/>czyn, zapadła <ch a="d"/>klamka,</row>
+      <row important_over="true">Puścić <ch a="H"/>kura po <ch a="E"/>zaściankach!</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">Hej, kto <ch a="a"/>szlachta za <ch a="d"/>Kmicicem</row>
-        <row important_over="true" sidechords="a Ea"><ch a="a"/>Hajda na Wołmonto<ch a="E"/>wicz<ch a="a"/>e</row>
+        <row important_over="true">Hej, kto <ch a="a"/>szlachta — za Km<ch a="d"/>icicem!</row>
+        <row important_over="true">Hajda na Wołmonto<ch a="E"/>wicz<ch a="a"/>e!</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Przodkom kule między oczy<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Krótką rozkosz dać sikorkom<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Po łbie kto się napatoczy<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Kijów sto chudopachołkom<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Potem picie do obłędu<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Studnia, śnieg — my z tobą Jędruś<ch a="E"/></row>
+      <row important_over="false">Prz<ch a="a"/>odkom kule między <ch a="d"/>oczy,</row>
+      <row important_over="false">Kr<ch a="E"/>ótką rozkosz dać sik<ch a="a"/>orkom,</row>
+      <row important_over="false">P<ch a="a"/>o łbie kto się napat<ch a="d"/>oczy,</row>
+      <row important_over="false">Kij<ch a="E"/>ów sto chudopach<ch a="a"/>ołkom,</row>
+      <row important_over="false">P<ch a="A"/>otem picie do obł<ch a="d"/>ędu,</row>
+      <row important_over="false">St<ch a="H"/>udnia, śnieg — my z tobą, J<ch a="E"/>ędruś!</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Zdrada, krzyż, na krzyż przysięga<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Tak krucyfiks cyrografem<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>I oddala się Oleńka<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Żądze się wychłoszcze batem<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Za to swoich siec czy obcych<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Jedna sprawa — za mną chłopcy<ch a="E"/></row>
+      <row important_over="false">Zdr<ch a="a"/>ada, krzyż, na krzyż przysi<ch a="d"/>ęga,</row>
+      <row important_over="false">T<ch a="E"/>ak krucyfiks cyrogr<ch a="a"/>afem,</row>
+      <row important_over="false">I <ch a="a"/>oddala się Ol<ch a="d"/>eńka,</row>
+      <row important_over="false">Ż<ch a="E"/>ądze się wychłoszcze b<ch a="a"/>atem,</row>
+      <row important_over="false">Z<ch a="A"/>a to swoich siec czy <ch a="d"/>obcych —</row>
+      <row important_over="false">J<ch a="H"/>edna sprawa — za mną, chł<ch a="E"/>opcy!</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wreszcie lek na duszy blizny<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Polska suknem Radziwiła<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Wróg prywatny, wróg ojczyzny<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Niespodzianka jakże miła<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Los, sumienie, panny stratę<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Wynagrodzi spór z magnatem<ch a="E"/></row>
+      <row important_over="false">Wr<ch a="a"/>eszcie lek na duszy bl<ch a="d"/>izny,</row>
+      <row important_over="false">P<ch a="E"/>olska suknem Radziw<ch a="a"/>iłła,</row>
+      <row important_over="false">Wr<ch a="a"/>óg prywatny, wróg ojcz<ch a="d"/>yzny,</row>
+      <row important_over="false">Ni<ch a="E"/>espodzianka jakże m<ch a="a"/>iła,</row>
+      <row important_over="false">L<ch a="A"/>os, sumienie, panny str<ch a="d"/>atę</row>
+      <row important_over="false">W<ch a="H"/>ynagrodzi spór z magn<ch a="E"/>atem!</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Jasna Góra, czas pokuty<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Trup, trup — Kmicic strzela z łuku<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Klasztor płaszczem nieb zasnuty<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>W Szwedzkich armat strasznym huku<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Jędrek się granatem bawi<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Ksiądz Kordecki błogosławi<ch a="E"/></row>
+      <row important_over="false">J<ch a="a"/>asna Góra, czas pok<ch a="d"/>uty,</row>
+      <row important_over="false">Tr<ch a="E"/>up, trup — Kmicic strzela z ł<ch a="a"/>uku,</row>
+      <row important_over="false">Kl<ch a="a"/>asztor płaszczem nieb zasn<ch a="d"/>uty</row>
+      <row important_over="false">W szw<ch a="E"/>edzkich armat strasznym h<ch a="a"/>uku,</row>
+      <row important_over="false">J<ch a="A"/>ędrek się granatem b<ch a="d"/>awi,</row>
+      <row important_over="false">Ksi<ch a="H"/>ądz Kordecki błogosł<ch a="E"/>awi!</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Jest nagroda za cierpienie<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Kto się śmieli, ten korzysta<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Dawnych grzechów odpuszczenie<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Król Jędrkowi skronie ściska<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Masz Tatarów, w drogę ruszaj<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Raduj Boga rzeźą w Prusach<ch a="E"/></row>
+      <row important_over="false">J<ch a="a"/>est nagroda za cierpi<ch a="d"/>enie,</row>
+      <row important_over="false">Kt<ch a="E"/>o się śmieli, ten korz<ch a="a"/>ysta,</row>
+      <row important_over="false">D<ch a="a"/>awnych grzechów odpuszcz<ch a="d"/>enie,</row>
+      <row important_over="false">Kr<ch a="E"/>ól Jędrkowi skronie śc<ch a="a"/>iska,</row>
+      <row important_over="false">M<ch a="A"/>asz Tatarów, w drogę r<ch a="d"/>uszaj,</row>
+      <row important_over="false">R<ch a="H"/>aduj Boga rzezią w Pr<ch a="E"/>usach!</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Krzyż, ojczyzna, Bóg, prywata<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>Warchoł w oczach zmienia skórę<ch a="a"/></row>
-      <row important_over="false"><ch a="a"/>Wierny jest jak topór kata<ch a="d"/></row>
-      <row important_over="false"><ch a="E"/>I podobną ma naturę<ch a="a"/></row>
-      <row important_over="false"><ch a="A"/>Więc za słuszną sprawność ręki<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Będzie ręka i Oleńki<ch a="E"/></row>
-      <row important_over="false"><ch a="A"/>Łaska króla, dworek dzieci<ch a="d"/></row>
-      <row important_over="false"><ch a="H"/>Szlachcic co przykładem świeci<ch a="E"/></row>
+      <row important_over="false">Krz<ch a="a"/>yż, ojczyzna, Bóg, pryw<ch a="d"/>ata,</row>
+      <row important_over="false">W<ch a="E"/>archoł w oczach zmienia sk<ch a="a"/>órę,</row>
+      <row important_over="false">Wi<ch a="a"/>erny jest jak topór k<ch a="d"/>ata</row>
+      <row important_over="false">I p<ch a="E"/>odobną ma nat<ch a="a"/>urę,</row>
+      <row important_over="false">Wi<ch a="A"/>ęc za słuszną sprawność r<ch a="d"/>ęki</row>
+      <row important_over="false">B<ch a="H"/>ędzie ręka i Oleńk<ch a="E"/>i,</row>
+      <row important_over="false">Ł<ch a="A"/>aska króla, dworek, dzi<ch a="d"/>eci,</row>
+      <row important_over="false">Szl<ch a="H"/>achcic, co przykładem świ<ch a="E"/>eci!</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
   <keywords/>
   <album>Dzieci Hioba</album>
+  <genre>Poezja śpiewana</genre>
   <status>
     <done>
       <text/>
@@ -95,6 +98,8 @@
     </done>
     <verificators>
       <verificator>Adam Foland</verificator>
+      <verificator>https://kaczmarski.art.pl/tworczosc/wiersze/pan-kmicic/</verificator>
     </verificators>
+    <to_do/>
   </status>
 </song>
