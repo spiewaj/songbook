@@ -1,62 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dam ci ptaszka">
-  <alias>chóry Andrusa</alias>
+  <alias>Chóry, czyli piosenka o „Ciptaszku”</alias>
   <text_author type="solo">Artur Andrus</text_author>
-  <comment/>
-  <composer>Artur Andrus</composer>
+  <comment>Opracowano na podstawie zapisu nutowego (sł. A. Andrus, muz. W. Stec, aranż. G. Miśkiewicz): https://galera.ii.pw.edu.pl/rba/Sonus/ViWAT/Nuty-ChoryPiosenkaOCiptaszku-Andrus.pdf</comment>
+  <composer type="solo">Wojciech Stec</composer>
   <artist type="solo">Artur Andrus</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Zamiast bać się czarnej dziury,</row>
-      <row important_over="never">lękać się imperium zła,</row>
-      <row important_over="never">ludzie, ludzie zakładajmy chóry,</row>
-      <row important_over="never">wszędzie gdzie się da.</row>
+      <row important_over="true"><ch a="F"/>Zamiast bać <ch a="d"/>się <ch a="A7"/>czarnej dzi<ch a="g"/>ury,</row>
+      <row important_over="true"><ch a="C7"/>lękać się <ch a="A7"/>imperium <ch a="d"/>zła,</row>
+      <row important_over="true"><ch a="G7"/>ludzie, lu<ch a="B"/>dzie, zakładajmy <ch a="F"/>chó<ch a="D7"/>ry,</row>
+      <row important_over="true"><ch a="g"/>wszędzie, gdzie <ch a="C7"/>się <ch a="F"/>da.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Chór na dworcu,</row>
-      <row important_over="never">chór na plaży,</row>
-      <row important_over="never">chór upadłych dziennikarzy,</row>
-      <row important_over="never">chór noszących okulary,</row>
-      <row important_over="never">chór imienia Che Guevary,</row>
-      <row important_over="never">chór wyniosłych decydentów,</row>
-      <row important_over="never">chór wypożyczalni sprzętów,</row>
-      <row important_over="never">chór powracających z gór,</row>
-      <row important_over="never">i zwalczających dur.</row>
+      <row important_over="true"><ch a="F"/>Chór na <ch a="B"/>dworcu,</row>
+      <row important_over="true"><ch a="C7"/>chór na <ch a="F"/>plaży,</row>
+      <row important_over="true"><ch a="B"/>chór u<ch a="F"/>padłych <ch a="g"/>dzienni<ch a="d"/>ka<ch a="A7"/>rzy,</row>
+      <row important_over="true"><ch a="d"/>chór noszących <ch a="g"/>oku<ch a="E7"/>lary,</row>
+      <row important_over="true"><ch a="A7"/>chór imienia <ch a="d"/>Che Guevary,</row>
+      <row important_over="true"><ch a="G7"/>chór wyniosłych <ch a="C"/>decydentów,</row>
+      <row important_over="true"><ch a="F"/>chór wypo<ch a="d"/>ży<ch a="g"/>czalni <ch a="C7"/>sprzętów,</row>
+      <row important_over="true"><ch a="F"/>chór powraca<ch a="B"/>jących z gór</row>
+      <row important_over="true"><ch a="F"/>i zwal<ch a="C7"/>czających <ch a="F"/>dur.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie trać czasu na wygłupy,</row>
-      <row important_over="never">miałeś chamie czapkę z piór,</row>
-      <row important_over="never">ludzie, ludzie zbierzmy się do kupy,</row>
-      <row important_over="never">i załóżmy jakiś chór .</row>
+      <row important_over="false"><ch a="F"/>Nie trać cza<ch a="d"/>su <ch a="A7"/>na wygł<ch a="g"/>upy,</row>
+      <row important_over="false"><ch a="C7"/>miałeś, cha<ch a="A7"/>mie, czapkę <ch a="d"/>z piór,</row>
+      <row important_over="false"><ch a="G7"/>ludzie, lu<ch a="B"/>dzie, zbierzmy się do <ch a="F"/>ku<ch a="D7"/>py</row>
+      <row important_over="false"><ch a="g"/>i załóżmy <ch a="C7"/>jakiś <ch a="F"/>chór.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Chór w komendzie,</row>
-      <row important_over="never">chór w szpitalu,</row>
-      <row important_over="never">chór hurtowni i detalu,</row>
-      <row important_over="never">chór klientów punktu ksero,</row>
-      <row important_over="never">mały męski chór hetero,</row>
-      <row important_over="never">chór budowy autostrady,</row>
-      <row important_over="never">chór turystów spod Hurghady,</row>
-      <row important_over="never">i podpierających mur,</row>
-      <row important_over="never">chór pradawnych cór.</row>
+      <row important_over="false"><ch a="F"/>Chór w ko<ch a="B"/>mendzie,</row>
+      <row important_over="false"><ch a="C7"/>chór w szpi<ch a="F"/>talu,</row>
+      <row important_over="false"><ch a="B"/>chór hur<ch a="F"/>towni <ch a="g"/>i de<ch a="d"/>ta<ch a="A7"/>lu,</row>
+      <row important_over="false"><ch a="d"/>chór klientów <ch a="g"/>punktu <ch a="E7"/>ksero,</row>
+      <row important_over="false"><ch a="A7"/>mały męski <ch a="d"/>chór hetero,</row>
+      <row important_over="false"><ch a="G7"/>chór budowy <ch a="C"/>autostrady,</row>
+      <row important_over="false"><ch a="F"/>chór tu<ch a="d"/>rystów <ch a="g"/>spod Hur<ch a="C7"/>ghady</row>
+      <row important_over="false"><ch a="F"/>i podpie<ch a="B"/>rających mur,</row>
+      <row important_over="false"><ch a="F"/>chór pra<ch a="C7"/>dawnych <ch a="F"/>cór.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Zamiast wyczekiwać kiedy,</row>
-      <row important_over="never">wróg zaczai się u bram,</row>
-      <row important_over="never">ludzie, ludzie każdy z nas ma kredyt,</row>
-      <row important_over="never">pozostały nam ...</row>
+      <row important_over="false"><ch a="F"/>Zamiast wy<ch a="d"/>cze<ch a="A7"/>kiwać, kie<ch a="g"/>dy</row>
+      <row important_over="false"><ch a="C7"/>wróg zacza<ch a="A7"/>i się u <ch a="d"/>bram,</row>
+      <row important_over="false"><ch a="G7"/>ludzie, lu<ch a="B"/>dzie, każdy z nas ma <ch a="F"/>kre<ch a="D7"/>dyt,</row>
+      <row important_over="false"><ch a="g"/>pozosta<ch a="C7"/>ły <ch a="F"/>nam…</row>
     </block>
     <block type="verse">
-      <row important_over="never">O jasny, jasny ptasząt śpiew</row>
-      <row important_over="never">W krwawym polu srebrne ptasze,</row>
-      <row important_over="never">Dam ci ptaszka jakich mało,</row>
-      <row important_over="never">Ej! Przeleciał ptaszek.</row>
+      <row important_over="true">O <ch a="F"/>jasny, jasny <ch a="B"/>ptasząt <ch a="C"/>śpiew,</row>
+      <row important_over="true"><ch a="A7"/>W krwawym <ch a="d"/>polu <ch a="g"/>srebrne <ch a="d"/>pta<ch a="A7"/>szę,</row>
+      <row important_over="true"><ch a="d"/>Dam ci <ch a="g"/>ptasz<ch a="F"/>ka, <ch a="g"/>jakich <ch a="A7"/>ma<ch a="d"/>ło,</row>
+      <row important_over="true"><ch a="D"/>Ej! Prze<ch a="g"/>leciał <ch a="A7"/>pta<ch a="D"/>szek.</row>
     </block>
   </lyric>
+  <music metre="3/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <album>Myśliwiecka</album>
   <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Dam_Ci_ptaszka/tekst</verificator>
+      <verificator>https://galera.ii.pw.edu.pl/rba/Sonus/ViWAT/Nuty-ChoryPiosenkaOCiptaszku-Andrus.pdf</verificator>
+    </verificators>
   </status>
 </song>
