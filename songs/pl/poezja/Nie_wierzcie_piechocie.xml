@@ -1,61 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie wierzcie piechocie">
-  <alias/>
-  <text_author>Bułat Okudżawa</text_author>
+  <alias>Wybaczcie piechocie</alias>
+  <text_author type="solo">Bułat Okudżawa</text_author>
   <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <composer type="solo">Bułat Okudżawa</composer>
+  <artist type="solo">Bułat Okudżawa</artist>
+  <translator>Witold Dąbrowski</translator>
+  <original_title>Песенка о пехоте (Простите пехоте)</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never">Nie wierzcie piechocie</row>
-      <row important_over="never">Że tak nie rozumna czasami bez tchu</row>
-      <row important_over="never">My zawsze w pochodzie</row>
-      <row important_over="never">Gdy wiosna nad ziemią szaleje od bzu</row>
+      <row important_over="true">Ni<ch a="a"/>e wierzcie piech<ch a="A7"/>ocie,</row>
+      <row important_over="true">Że t<ch a="d"/>ak nierozumna czasami, bez tchu.</row>
+      <row important_over="true">My z<ch a="E"/>awsze w pochodzie,</row>
+      <row important_over="true">Gdy wi<ch a="a"/>osna nad zi<ch a="E"/>emią szal<ch a="E7"/>eje od bz<ch a="a"/>u.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Jak długo tak można</row>
-      <row important_over="never">Bezdroża mokradła i błota i piach</row>
+      <row important_over="true">Jak dł<ch a="a"/>ugo tak m<ch a="G"/>ożna?</row>
+      <row important_over="true">Bezkr<ch a="d"/>esa, mokr<ch a="C"/>adła i błoto, i piach...</row>
       <bis>
-        <row important_over="never">I wierzba przydrożna</row>
-        <row important_over="never">Jak siostra pobladła zostaje we łzach</row>
+        <row important_over="true">I wi<ch a="d"/>erzba przydrożna</row>
+        <row important_over="true">Jak si<ch a="a"/>ostra pobl<ch a="E"/>adła zost<ch a="E7"/>aje we łz<ch a="a"/>ach.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Nie wierzcie pogodzie</row>
-      <row important_over="never">Gdy deszcze trzydniowe zaciągnie wśród drzew</row>
-      <row important_over="never">Nie wierzcie piechocie</row>
-      <row important_over="never">Gdy w pieśni bojowej odwaga i gniew</row>
+      <row important_over="false">Ni<ch a="a"/>e wierzcie pog<ch a="A7"/>odzie,</row>
+      <row important_over="false">Gdy d<ch a="d"/>eszcze trzydniowe zaciągnie wśród drzew.</row>
+      <row important_over="false">Ni<ch a="E"/>e wierzcie piechocie,</row>
+      <row important_over="false">Gdy w pi<ch a="a"/>eśni boj<ch a="E"/>owej odw<ch a="E7"/>aga i gni<ch a="a"/>ew.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie wierzcie, nie wierzcie</row>
-      <row important_over="never">Gdy w sadach słowiki zakrzyczą co sił</row>
+      <row important_over="false">Nie wi<ch a="a"/>erzcie, nie wi<ch a="G"/>erzcie,</row>
+      <row important_over="false">Gdy w s<ch a="d"/>adach słow<ch a="C"/>iki zakrzyczą co sił.</row>
       <bis>
-        <row important_over="never">Wy jeszcze nie wiecie</row>
-        <row important_over="never">Co komu pisane i kto będzie żył</row>
+        <row important_over="false">Wy j<ch a="d"/>eszcze nie wiecie,</row>
+        <row important_over="false">Co k<ch a="a"/>omu pis<ch a="E"/>ane i kt<ch a="E7"/>o będzie ż<ch a="a"/>ył.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Uczyłaś ojczyzno</row>
-      <row important_over="never">Że żyć trzeba umieć i słyszeć twój głos</row>
-      <row important_over="never">Mój chłopcze mężczyzno</row>
-      <row important_over="never">A jednak niezgorszy przypada ci los</row>
+      <row important_over="false">Ucz<ch a="a"/>yłaś, Ojcz<ch a="A7"/>yzno,</row>
+      <row important_over="false">Że ż<ch a="d"/>yć trzeba umieć i słyszeć twój głos.</row>
+      <row important_over="false">Mój chł<ch a="E"/>opcze, mężczyzno,</row>
+      <row important_over="false">A j<ch a="a"/>ednak niezg<ch a="E"/>orszy przyp<ch a="E7"/>ada ci l<ch a="a"/>os.</row>
     </block>
     <block type="verse">
-      <row important_over="never">My zawsze w pochodzie</row>
-      <row important_over="never">I tylko to jedno nas zrywa ze snu</row>
-      <row important_over="never">Dlaczego w pochodzie</row>
-      <row important_over="never">Gdy wiosna nad ziemią szaleje od bzu</row>
-      <row important_over="never">Dlaczego w odwrocie</row>
-      <row important_over="never">Gdy wiosna nad ziemią szaleje od bzu</row>
+      <row important_over="false">My z<ch a="a"/>awsze w poch<ch a="G"/>odzie,</row>
+      <row important_over="false">I t<ch a="d"/>ylko to j<ch a="C"/>edno nas zrywa ze snu:</row>
+      <row important_over="false">Dlacz<ch a="d"/>ego w pochodzie,</row>
+      <row important_over="false">Gdy wi<ch a="a"/>osna nad zi<ch a="E"/>emią szal<ch a="E7"/>eje od bz<ch a="a"/>u?</row>
+      <row important_over="false">Dlacz<ch a="d"/>ego w odwrocie,</row>
+      <row important_over="false">Gdy wi<ch a="a"/>osna nad zi<ch a="E"/>emią szal<ch a="E7"/>eje od bz<ch a="a"/>u?</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="3"/>
   </music>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://tabs.ultimate-guitar.com/tab/4141615</verificator>
+      <verificator>Witold Dąbrowski (tłumaczenie)</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
