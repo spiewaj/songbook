@@ -1,52 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Szara lilijka" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias></alias>
-	<text_author type="solo"></text_author>
+	<text_author type="solo">tradycyjny</text_author>
 	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
+	<composer type="solo">tradycyjny</composer>
+	<artist type="band">Piosenka harcerska</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Gdy zakochasz się w szarej lilijce <ch a="a"/><ch a="d"/></row>
-			<row important_over="never">I w świetlanym harcerskim krzyżu, <ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Kiedy olśni cię blask ogniska, <ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Jedną radę ci dam. <ch a="E"/><ch a="a"/></row>
+			<row important_over="true">Gdy zak<ch a="a"/>ochasz się w szarej lil<ch a="d"/>ijce</row>
+			<row important_over="true">I w świ<ch a="E"/>etlanym harcerskim krz<ch a="a"/>yżu,</row>
+			<row>Ki<ch a="a"/>edy olśni cię blask ogn<ch a="d"/>iska,</row>
+			<row>J<ch a="E"/>edną radę ci d<ch a="a"/>am:</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Załóż mundur i przypnij lilijkę, <ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Czapkę na bakier włóż, <ch a="G"/><ch a="C"/><ch a="E"/></row>
-			<row important_over="never">W szeregu stań wśród harcerzy <ch a="a"/><ch a="d"/></row>
-			<row important_over="never">I razem z nimi w świat rusz. <ch a="E"/><ch a="a"/></row>
+			<row important_over="true">Z<ch a="a"/>ałóż mundur i przypnij lil<ch a="d"/>ijkę,</row>
+			<row important_over="true">Cz<ch a="G"/>apkę na bakier wł<ch a="C"/>óż, <ch a="E"/></row>
+			<row important_over="true">W szer<ch a="a"/>egu stań wśród harc<ch a="d"/>erzy</row>
+			<row important_over="true">I r<ch a="E"/>azem z nimi w świat r<ch a="a"/>usz.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Razem z nimi będziesz wędrował<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Po Łysicy i Świętym Krzyżu<ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Poznasz piękno Gór Świętokrzyskich,<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Które powiedzą ci tak:<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Razem z nimi będziesz wędrował</row>
+			<row important_over="never">Po Łysicy i Świętym Krzyżu,</row>
+			<row important_over="never">Poznasz piękno Gór Świętokrzyskich,</row>
+			<row important_over="never">Które powiedzą ci tak:</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Gdy po latach będziesz wspominał <ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Swą przygodę w harcerskiej drużynie,<ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Swemu dziecku, co dorastać zaczyna<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Jedną radę mu dasz:<ch a="E"/><ch a="a"/></row>
+			<row important_over="never">Gdy po latach będziesz wspominał</row>
+			<row important_over="never">Swą przygodę w harcerskiej drużynie,</row>
+			<row important_over="never">Swemu dziecku, co dorastać zaczyna,</row>
+			<row important_over="never">Jedną radę mu dasz:</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>Piosenka harcerska</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://bibliotekapiosenki.pl/utwory/Szara_lilijka</verificator>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/szara-lilijka</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
