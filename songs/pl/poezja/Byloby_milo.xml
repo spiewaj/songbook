@@ -3,39 +3,50 @@
   <alias/>
   <text_author type="solo">Tomasz Wachnowski</text_author>
   <comment/>
-  <composer type="solo"/>
-  <album>Właśnie Tak</album>
-  <artist type="solo"/>
+  <composer type="solo">Tomasz Wachnowski</composer>
+  <artist type="solo">Tomasz Wachnowski</artist>
+  <album>Właśnie tak</album>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Byłem jak płyta przegrany, złość zdrapywałem ze ścian</row>
-      <row important_over="never">Gdy usłyszałem: kochany, spróbuj od dzisiaj być z sobą</row>
-      <row important_over="never">Sam nie wiem jak to się stało, bo jeszcze wczoraj nasz świat</row>
-      <row important_over="never">Był jednym z tych, których mało, dziś jednym z tych, których brak</row>
+      <row important_over="true"><ch a="G"/>Byłem jak płyta prz<ch a="e"/>egrany, złość zdr<ch a="C"/>apywałem ze ści<ch a="D"/>an,</row>
+      <row important_over="false">Gd<ch a="G"/>y usłyszałem: koch<ch a="e"/>any, spróbuj od dz<ch a="C"/>isiaj być z sob<ch a="D"/>ą.</row>
+      <row important_over="false">S<ch a="G"/>am nie wiem, jak to się st<ch a="e"/>ało, bo jeszcze wcz<ch a="C"/>oraj nasz świ<ch a="D"/>at</row>
+      <row important_over="false">B<ch a="G"/>ył jednym z tych, których m<ch a="e"/>ało, dziś jednym z t<ch a="C"/>ych, których br<ch a="D"/>ak.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Byłoby m<ch a="D"/>iło, gdyby ta mił<ch a="G"/>ość<ch a="e"/></row>
+      <row important_over="true">Ni<ch a="C"/>e znała g<ch a="D"/>orzkich sł<ch a="G"/>ów,</row>
+      <row important_over="false"><ch a="C"/>Byłoby m<ch a="D"/>iło, gdyby ta mił<ch a="G"/>ość<ch a="e"/></row>
+      <row important_over="false">Umi<ch a="C"/>ała wr<ch a="D"/>ócić zn<ch a="G"/>ów.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Byłoby miło, gdyby ta miłość</row>
-      <row important_over="never">Nie znała gorzkich słów</row>
-      <row important_over="never">Byłoby miło, gdyby ta miłość</row>
-      <row important_over="never">Umiała wrócić znów</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kładę się później niż wstaję, zawsze gdzie indziej niż ty</row>
-      <row important_over="never">Świat pełen jest takich bajek, ktośbywa dobry, ktoś zły</row>
+      <row important_over="false">Kł<ch a="G"/>adę się później niż wst<ch a="e"/>aję, zawsze gdzie <ch a="C"/>indziej niż t<ch a="D"/>y,</row>
+      <row important_over="false">Świ<ch a="G"/>at pełen jest takich b<ch a="e"/>ajek, ktoś bywa d<ch a="C"/>obry, ktoś zł<ch a="D"/>y.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Wiem, że już nic nas nie zmieni i znowu starczy mi sił</row>
-      <row important_over="never">By tak jak tamtej jesieni wstać, trzasnąć drzwiami i wyjść</row>
+      <row important_over="false">Wi<ch a="G"/>em, że już nic nas nie zmi<ch a="e"/>eni i znowu st<ch a="C"/>arczy mi si<ch a="D"/>ił,</row>
+      <row important_over="false">B<ch a="G"/>y tak, jak tamtej jesi<ch a="e"/>eni, wstać, trzasnąć drzw<ch a="C"/>iami i w<ch a="D"/>yjść.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/tomasz-wachnowski/byloby-milo</verificator>
+      <verificator>https://www.youtube.com/watch?v=e6UPGz5Cjh4</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
