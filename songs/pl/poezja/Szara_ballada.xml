@@ -1,65 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szara ballada">
   <alias/>
-  <text_author>Józef Baran</text_author>
+  <text_author type="solo">Józef Baran</text_author>
   <comment/>
   <composer type="solo">Krzysztof Myszkowski</composer>
-  <artist type="solo">Stare Dobre Małżeństwo</artist>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
+  <album>Dolina w długich cieniach</album>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Nie czerń lecz szarość wszędzie</row>
-      <row important_over="never">Ta nić szara się przędzie</row>
-      <row important_over="never">Ona za mną przede mną i przy mnie</row>
-      <row important_over="never">Ona rankiem w mej głowie</row>
-      <row important_over="never">W dłoniach i w pierwszym słowie</row>
-      <row important_over="never">Niczym gołąb pocztowy powraca</row>
-      <row important_over="never">Szarą nicią przeszyty</row>
-      <row important_over="never">I do świata przyszyty</row>
-      <row important_over="never">Tak jak guzik do szarego płaszcza</row>
+      <row important_over="true">Nie <ch a="a"/>czerń, lecz szarość <ch a="d"/>wszędzie,</row>
+      <row important_over="true">Ta n<ch a="F"/>ić szara się prz<ch a="E"/>ędzie.</row>
+      <row important_over="true">Ona z<ch a="d"/>a mną, przed<ch a="E"/>e mną i prz<ch a="a"/>y mnie,</row>
+      <row important_over="false">Ona r<ch a="a"/>ankiem w mej gł<ch a="d"/>owie,</row>
+      <row important_over="false">W dłoni<ch a="F"/>ach i w pierwszym sł<ch a="E"/>owie,</row>
+      <row important_over="false">Niczym g<ch a="d"/>ołąb poczt<ch a="E"/>owy powr<ch a="a"/>aca.</row>
+      <row important_over="true">Sz<ch a="F"/>arą n<ch a="G"/>icią przeszyt<ch a="a"/>y</row>
+      <row important_over="false">I d<ch a="F"/>o świ<ch a="G"/>ata przyszyt<ch a="a"/>y,</row>
+      <row important_over="true">Tak jak g<ch a="F"/>uzik d<ch a="G"/>o szarego pł<ch a="A"/>aszcza.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Z szarej włóczki me myśli</row>
-      <row important_over="never">Zagrzebane dni i tygodnie</row>
-      <row important_over="never">Z szarej włóczki jesienie i lata</row>
-      <row important_over="never">Nawet wiersz cały z tęczy</row>
-      <row important_over="never">Nagły list radość szczęście</row>
-      <row important_over="never">Co jak wzór na kilimie się złocą</row>
+      <row important_over="true">Z szarej wł<ch a="F"/>óczki me m<ch a="G"/>yśli,</row>
+      <row important_over="true">Zgrzebne dn<ch a="a"/>i i tygodnie,</row>
+      <row important_over="false">Z szarej wł<ch a="F"/>óczki jesi<ch a="G"/>enie i l<ch a="a"/>ata,</row>
+      <row important_over="false">Nawet wi<ch a="F"/>ersz cały z t<ch a="G"/>ęczy,</row>
+      <row important_over="false">Nagły l<ch a="a"/>ist, radość, szczęście,</row>
+      <row important_over="false">Co jak wz<ch a="F"/>ór na kil<ch a="G"/>imie się zł<ch a="A"/>ocą.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Już za moment szarzeją</row>
-      <row important_over="never">Są jak fatamorgana</row>
-      <row important_over="never">W zeschły liść się zmieniają i popiół</row>
-      <row important_over="never">Z szarych nici ten kłębek</row>
-      <row important_over="never">Który w szarą godzinę</row>
-      <row important_over="never">Sennie zwijam pod głowę podkładam</row>
-      <row important_over="never">Ludzie chorzy na szarość</row>
-      <row important_over="never">Mój los chory na szarość</row>
-      <row important_over="never">Mój dom, moje miasto planeta</row>
+      <row important_over="false">Już za m<ch a="a"/>oment szarez<ch a="d"/>eją,</row>
+      <row important_over="false">Są jak f<ch a="F"/>atamorg<ch a="E"/>ana,</row>
+      <row important_over="false">W zeschły l<ch a="d"/>iść się zmieni<ch a="E"/>ają i popi<ch a="a"/>ół.</row>
+      <row important_over="false">Z szarych n<ch a="a"/>ici ten kł<ch a="d"/>ębek,</row>
+      <row important_over="false">Który w sz<ch a="F"/>arą godzin<ch a="E"/>ę</row>
+      <row important_over="false">Sennie zwi<ch a="d"/>jam, pod gł<ch a="E"/>owę podkł<ch a="a"/>adam.</row>
+      <row important_over="false">L<ch a="F"/>udzie ch<ch a="G"/>orzy na szar<ch a="a"/>ość,</row>
+      <row important_over="false">M<ch a="F"/>ój los ch<ch a="G"/>ory na szar<ch a="a"/>ość,</row>
+      <row important_over="false">Mój dom, m<ch a="F"/>oje mi<ch a="G"/>asto, plan<ch a="A"/>eta.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Boże cały ze złota</row>
-      <row important_over="never">Przędący w kołowrotku</row>
-      <row important_over="never">Czemu z siebie wysnuwasz nić szarą</row>
-      <row important_over="never">Ojcze nasz wielobarwny</row>
-      <row important_over="never">W akselbantach w brokatach</row>
-      <row important_over="never">Który błyszczysz i mienisz się cały</row>
+      <row important_over="false">Boże c<ch a="F"/>ały ze zł<ch a="G"/>ota,</row>
+      <row important_over="false">Przędący w k<ch a="a"/>ołowrotku,</row>
+      <row important_over="false">Czemu z si<ch a="F"/>ebie wysn<ch a="G"/>uwasz nić sz<ch a="a"/>arą?</row>
+      <row important_over="false">Ojcze n<ch a="F"/>asz wielob<ch a="G"/>arwny,</row>
+      <row important_over="false">W akselb<ch a="a"/>antach, w brokatach,</row>
+      <row important_over="false">Który bł<ch a="F"/>yszczysz i mi<ch a="G"/>enisz się c<ch a="A"/>ały.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Jeśli trochę nas lubisz</row>
-      <row important_over="never">Nachyl się nad wrzecionem</row>
-      <row important_over="never">Dorzuć włosów anielskich do włóczki</row>
-      <row important_over="never">Bo w nas szarość w oddechach</row>
-      <row important_over="never">Szarość w snach i uśmiechach</row>
-      <row important_over="never">Szarość w łzach modlitwie i hymnie</row>
+      <row important_over="false">Jeśli tr<ch a="a"/>ochę nas l<ch a="d"/>ubisz,</row>
+      <row important_over="false">Nachyl si<ch a="F"/>ę nad wrzeci<ch a="E"/>onem,</row>
+      <row important_over="false">Dorzuć wł<ch a="d"/>osów ani<ch a="E"/>elskich do wł<ch a="a"/>óczki.</row>
+      <row important_over="false">Bo w nas sz<ch a="a"/>arość w oddech<ch a="d"/>ach,</row>
+      <row important_over="false">Szarość w sn<ch a="F"/>ach i uśmi<ch a="E"/>echach,</row>
+      <row important_over="false">Szarość w łz<ch a="d"/>ach, modl<ch a="E"/>itwie i h<ch a="a"/>ymnie.</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="3"/>
   </music>
+  <keywords/>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/szara-ballada</verificator>
+      <verificator>Józef Baran (tekst)</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
