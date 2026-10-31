@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idzie zima">
+  <alias/>
   <text_author type="solo">Kasia Sienkiewicz</text_author>
+  <comment/>
   <composer type="solo">Kasia Sienkiewicz</composer>
   <artist type="band">Kwiat Jabłoni</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ktoś pog<ch a="G"/>asił ws<ch a="e"/>zystkie ś<ch a="G"/>wiatła,</row>
@@ -11,39 +15,49 @@
       <row important_over="true"><ch a="a"/>Nie mam d<ch a="C"/>obrych <ch a="G"/>wieśc<ch a="D"/>i.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="a"/>Chciał<ch a="G"/>oby s<ch a="e"/>ię uci<ch a="D"/>ec,</row>
+      <row important_over="true"><ch a="a"/>Chciał<ch a="G"/>oby s<ch a="e"/>ię uci<ch a="D"/>ec,</row>
       <row important_over="true"><ch a="a"/>Nie pr<ch a="e"/>zed wszystkim si<ch a="D"/>ę da,</row>
-      <row important_over="true"><ch a="D"/>Idzi<ch a="a"/>e z<ch a="G"/>ima<ch a="D"/> </row>
-      <row important_over="false"><ch a="a"/>Aaa<ch a="e"/>aa…<ch a="D"/> </row>
+      <row important_over="true"><ch a="D"/>Idzi<ch a="a"/>e z<ch a="G"/>ima<ch a="D"/></row>
+      <row important_over="true"><ch a="a"/>Aaa<ch a="e"/>aa…<ch a="D"/></row>
       <bis times="2">
-        <row important_over="false" style="instr"> <ch a="a"/><ch a="G"/><ch a="C"/><ch a="D"/></row>
+        <row style="instr"><ch a="a"/> <ch a="G"/> <ch a="C"/> <ch a="D"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wiem, <ch a="G"/>że nigdy <ch a="e"/>nie jest <ch a="D"/>łatwa,</row>
-      <row important_over="false"><ch a="a"/>Niesie <ch a="G"/>ciemny d<ch a="C"/>zień pr<ch a="D"/>zy sobie,</row>
-      <row important_over="false"><ch a="a"/>Nierucho<ch a="G"/>me m<ch a="e"/>yśli w g<ch a="D"/>łowie</row>
-      <row important_over="false"><ch a="a"/>Żyw<ch a="C"/>e są o<ch a="G"/> Tobie.<ch a="D"/> </row>
+      <row><ch a="a"/>Wiem, <ch a="G"/>że nigdy <ch a="e"/>nie jest <ch a="D"/>łatwa,</row>
+      <row><ch a="a"/>Niesie <ch a="G"/>ciemny d<ch a="C"/>zień pr<ch a="D"/>zy sobie,</row>
+      <row><ch a="a"/>Nierucho<ch a="G"/>me m<ch a="e"/>yśli w g<ch a="D"/>łowie</row>
+      <row><ch a="a"/>Żyw<ch a="C"/>e są o<ch a="G"/> Tobie.<ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Byle ś<ch a="G"/>piew<ch a="e"/>ać było<ch a="D"/> o czym,</row>
-      <row important_over="false"><ch a="a"/>Serce <ch a="G"/>było w<ch a="C"/>ciąż <ch a="D"/>gorące,</row>
-      <row important_over="false"><ch a="a"/>Znowu<ch a="G"/> krótsze <ch a="e"/>będą n<ch a="D"/>oce,</row>
-      <row important_over="false"><ch a="a"/>Zob<ch a="C"/>aczymy <ch a="G"/>słońc<ch a="D"/>e.</row>
+      <row><ch a="a"/>Byle ś<ch a="G"/>piew<ch a="e"/>ać było<ch a="D"/> o czym,</row>
+      <row><ch a="a"/>Serce <ch a="G"/>było w<ch a="C"/>ciąż <ch a="D"/>gorące,</row>
+      <row><ch a="a"/>Znowu<ch a="G"/> krótsze <ch a="e"/>będą n<ch a="D"/>oce,</row>
+      <row><ch a="a"/>Zob<ch a="C"/>aczymy <ch a="G"/>słońc<ch a="D"/>e.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ni<ch a="D"/>e <ch a="a"/>ma <ch a="G"/>takiej <ch a="D"/>nadziei,</row>
       <row important_over="true"><ch a="a"/>Któr<ch a="D"/>a j<ch a="a"/>eszc<ch a="e"/>ze coś <ch a="D"/>zmieni,</row>
-      <row important_over="false"><ch a="D"/>Idzi<ch a="a"/>e <ch a="G"/>zim<ch a="D"/>a…</row>
-      <row important_over="false"><ch a="a"/>Aa<ch a="e"/>aa<ch a="D"/>a…</row>
-      <row important_over="false" style="instr"> </row>
+      <row><ch a="D"/>Idzi<ch a="a"/>e <ch a="G"/>zim<ch a="D"/>a…</row>
+      <row><ch a="a"/>Aa<ch a="e"/>aa<ch a="D"/>a…</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
-  <album>niemożliwe</album>
+  <album>Mogło być nic (bonus track)</album>
+  <genre>Folk-pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://wywrota.pl/teksty/piosenki/kwiat-jabloni-idzie-zima</verificator>
+      <verificator>https://discogs.com/release/16912384-Kwiat-Jabłoni-Mogło-Być-Nic</verificator>
+    </verificators>
   </status>
 </song>
