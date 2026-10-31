@@ -1,70 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song title="Źródło" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
-	<composer type="solo">Jacek Kaczmarski</composer>
-	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
-		<block type="verse">
-			<row important_over="never">Płynie rzeka wąwozem jak dnem koleiny, która samą siebie żłobiła<ch a="e"/></row>
-			<row important_over="never">Rosną ściany wąwozu, z obu stron coraz wyżej, tam na górze są ponoć równiny;<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">I im więcej tej wody, tym się głębiej potoczy<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Sama biorąc na siebie cień zboczy…<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Piach spod nurtu ucieka, nurt po piachu się wije, własna w czeluść ciągnie go siła.<ch a="e"/></row>
-			<row important_over="never">Ale jest ciągle rzeka na dnie rozpadliny, jest i będzie, będzie jak była,<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Bo źródło<ch a="e"/></row>
-			<row important_over="never">Bo źródło<ch a="a"/></row>
-			<row important_over="never">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">A na ścianach wąwozu pasy barw i wyżłobień, tej rzeki historia tych brzegów -<ch a="e"/></row>
-			<row important_over="never">Ślady głazów rozmytych, cienie drzew powalonych, muł zgarnięty pod siebie wbrew sobie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">A hen, w dole blask nikły ciągle ziemię rozcina,<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Ziemia nad nim się zrastać zaczyna…<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Z obu stron żwir i glina, by zatrzymać go w biegu, woda syczy i wchłania Lecz żyje<ch a="e"/></row>
-			<row important_over="never">I zakręca, omija, wsiąka, wspina się, pieni, ale płynie, wciąż płynie wbrew brzegom -<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Bo źródło<ch a="e"/></row>
-			<row important_over="never">Bo źródło<ch a="a"/></row>
-			<row important_over="never">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">I są miejsca gdzie w szlamie woda niemal zastygła pod kożuchem brudnej zieleni;<ch a="e"/></row>
-			<row important_over="never">Tam ślad, prędzej niż ten co zostawił go, znika - niewidoczne bagienne są sidła.<ch a="C"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Ale źródło wciąż bije, tłoczy puls między stoki,<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Więc jest nurt, choć ukryty dla oka!<ch a="a"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Nieba prawie nie widać, czeluść chłodna i ciemna, niech się sypią lawiny kamieni!<ch a="e"/></row>
-			<row important_over="never">I niech łączą się zbocza bezlitosnych wąwozów,<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Bo cóż drąży kształt przyszłych przestrzeni<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Jak nie rzeka podziemna?<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
-			<row important_over="never">Groty w skałach wypłucze, żyły złote odkryje -<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Bo źródło<ch a="e"/></row>
-			<row important_over="never">Bo źródło<ch a="a"/></row>
-			<row important_over="never">Wciąż bije.<ch a="C"/><ch a="Ezm7"/><ch a="H"/></row>
-		</block>
-	</lyric>
-	<music metre="">
-		<guitar/>
-	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
-	<status>
-		<done>
-		</done>
-		<verificators>
-			<verificator>Onufry</verificator>
-			
-		</verificators>
-		<to_do></to_do>
-	</status>
-	<music_source></music_source>
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Źródło">
+  <alias/>
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <comment>1978 r.</comment>
+  <composer type="solo">Jacek Kaczmarski</composer>
+  <artist type="solo">Jacek Kaczmarski</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Pł<ch a="e"/>ynie rzeka wąwozem jak dnem koleiny, która sama siebie żłobiła,</row>
+      <row important_over="true">R<ch a="C"/>osną ściany wąwozu, z obu stron coraz wyżej, t<ch a="D"/>am na górze są p<ch a="G"/>onoć równiny;</row>
+      <row important_over="true">I im wi<ch a="a"/>ęcej tej wody, tym się gł<ch a="e"/>ębiej potoczy,</row>
+      <row important_over="true">S<ch a="C"/>ama bi<ch a="B0"/>orąc na si<ch a="H"/>ebie cień zboczy…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Pi<ch a="e"/>ach spod nurtu ucieka, nurt po piachu się wije, własna w czeluść ciągnie go siła;</row>
+      <row important_over="false">Ale j<ch a="C"/>est ciągle rzeka na dnie tej rozpadliny, j<ch a="D"/>est i będzie, b<ch a="G"/>ędzie jak była —</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">Bo źr<ch a="e"/>ódło,</row>
+      <row important_over="true">Bo źr<ch a="a"/>ódło</row>
+      <row important_over="true">Wciąż b<ch a="C"/>i...<ch a="B0"/>j<ch a="H"/>e.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">A na ści<ch a="e"/>anach wysokich pasy barw i wyżłobień, tej rzeki historia, tych brzegów —</row>
+      <row important_over="false">Ci<ch a="C"/>enie drzew powalonych, ślady głazów rozmytych, m<ch a="D"/>uł zgarnięty pod si<ch a="G"/>ebie wbrew sobie.</row>
+      <row important_over="false">A hen, w d<ch a="a"/>ole blask nikły ciągle zi<ch a="e"/>emię rozcina,</row>
+      <row important_over="false">Zi<ch a="C"/>emia nad nim się zr<ch a="B0"/>astać zacz<ch a="H"/>yna…</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Z obu str<ch a="e"/>on żwir i glina, by zatrzymać go w biegu, woda syczy i wchłania, lecz żyje;</row>
+      <row important_over="false">I zakr<ch a="C"/>ęca, omija, wsiąka, wspina się, pieni, ale pł<ch a="D"/>ynie, wciąż płynie wbr<ch a="G"/>ew brzegom —</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Bo źr<ch a="e"/>ódło,</row>
+      <row important_over="false">Bo źr<ch a="a"/>ódło</row>
+      <row important_over="false">Wciąż b<ch a="C"/>i...<ch a="B0"/>j<ch a="H"/>e.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">I są mi<ch a="e"/>ejsca, gdzie w szlamie woda niemal zastygła pod kożuchem brudnej zieleni;</row>
+      <row important_over="false">Tam śl<ch a="C"/>ad, prędzej niż ten, kto zostawił go, znika — ni<ch a="D"/>ewidoczne bagi<ch a="G"/>enne są sidła.</row>
+      <row important_over="false">Ale źr<ch a="a"/>ódło wciąż bije, tłoczy p<ch a="e"/>uls między stoki,</row>
+      <row important_over="false">Wi<ch a="C"/>ęc jest nurt, choć ukr<ch a="B0"/>yty dla <ch a="H"/>oka!</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">Ni<ch a="e"/>eba prawie nie widać, czeluść chłodna i ciemna, niech się sypią lawiny kamieni!</row>
+      <row important_over="false">I niech łączą się zb<ch a="a"/>ocza bezlitosnych wąw<ch a="e"/>ozów,</row>
+      <row important_over="false">Bo cóż dr<ch a="a"/>ąży kształt przyszłych przestrz<ch a="e"/>eni,</row>
+      <row important_over="false">J<ch a="C"/>ak nie rz<ch a="B0"/>eka podzi<ch a="H"/>emna?</row>
+      <row important_over="false">Gr<ch a="a"/>oty w skałach wypłucze, żyły zł<ch a="e"/>ote odkryje —</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false">Bo źr<ch a="e"/>ódło,</row>
+      <row important_over="false">Bo źr<ch a="a"/>ódło</row>
+      <row important_over="false">Wciąż b<ch a="C"/>i...<ch a="B0"/>j<ch a="H"/>e.</row>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
+  <keywords/>
+  <album>Mury</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://kaczmarski.art.pl/tworczosc/wiersze/zrodlo/</verificator>
+      <verificator>https://spiewnik.wywrota.pl/jacek-kaczmarski/zrodlo</verificator>
+    </verificators>
+    <to_do/>
+  </status>
 </song>
