@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="1000 bajek">
+  <alias>Tysiąc bajek</alias>
+  <text_author type="band">53. WGZ „Bajkowe Skrzaty”</text_author>
+  <comment>Piosenka zuchowa 53. Warszawskiej Gromady Zuchowej „Bajkowe Skrzaty” (Szczep 53. WDHiZ), śpiewana na melodię utworu „Perski kot Dżafar” z repertuaru Majki Jeżowskiej (sł. oryg. Jerzy Bielunas, album „A ja wolę moją mamę”, 1995).</comment>
+  <composer type="solo">Majka Jeżowska</composer>
+  <artist type="band">53. WGZ „Bajkowe Skrzaty”</artist>
+  <original_title>Perski kot Dżafar</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never">1000 bajek wszystkich krajów,</row>
-      <row important_over="never">Zna na pamięć ten nasz Skrzat,</row>
-      <row important_over="never">O sułtanie, cudnej bramie,</row>
-      <row important_over="never">O sezamie skrytym tak</row>
+      <row important_over="true"><ch a="a"/>1000 bajek wsz<ch a="d"/>ystkich kr<ch a="a"/>ajów,</row>
+      <row important_over="true">Zn<ch a="d"/>a na pamięć t<ch a="E"/>en nasz Skrz<ch a="a"/>at,</row>
+      <row important_over="true"><ch a="d"/>O sułtanie, c<ch a="a"/>udnej br<ch a="E"/>amie,</row>
+      <row important_over="true"><ch a="d"/>O sezamie skr<ch a="E7"/>ytym t<ch a="a"/>ak.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Kiedy niebem księżyc kroczy,</row>
-      <row important_over="never">Kiedy w nocy wszyscy śpią</row>
-      <row important_over="never">Wtedy skrzaty patrzą na nas</row>
-      <row important_over="never">Jakie baśnie się nam śnią</row>
+      <row important_over="false"><ch a="a"/>Kiedy niebem ksi<ch a="d"/>ężyc kr<ch a="a"/>oczy,</row>
+      <row important_over="false">Ki<ch a="d"/>edy w nocy wsz<ch a="E"/>yscy śpi<ch a="a"/>ą,</row>
+      <row important_over="false">Wt<ch a="d"/>edy skrzaty p<ch a="a"/>atrzą na n<ch a="E"/>as,</row>
+      <row important_over="false">J<ch a="d"/>akie baśnie si<ch a="E7"/>ę nam śni<ch a="a"/>ą.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Tajemniczo ten skrzat gada</row>
-      <row important_over="never">Kto rozumie język ten ?</row>
-      <row important_over="never">Tylko ten co nimi siada,</row>
-      <row important_over="never">Bajki zuchom opowiada.    </row>
+      <row important_over="false">T<ch a="a"/>ajemniczo t<ch a="d"/>en skrzat g<ch a="a"/>ada,</row>
+      <row important_over="false">Kt<ch a="d"/>o rozumie j<ch a="E"/>ęzyk t<ch a="a"/>en?</row>
+      <row important_over="false">T<ch a="d"/>ylko ten, co z n<ch a="a"/>imi si<ch a="E"/>ada,</row>
+      <row important_over="false">B<ch a="d"/>ajki zuchom <ch a="E7"/>opowi<ch a="a"/>ada.</row>
     </block>
   </lyric>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Perski_kot_Dzafar</verificator>
+    </verificators>
   </status>
 </song>
