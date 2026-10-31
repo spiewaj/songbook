@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Let it be" lang="en">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Let it be" lang="en">
+  <alias/>
+  <text_author type="solo">John Lennon, Paul McCartney</text_author>
+  <comment/>
+  <composer type="solo">John Lennon, Paul McCartney</composer>
   <artist type="band">The Beatles</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="true">When I <ch a="C"/>find myself in <ch a="G"/>times of trouble, <ch a="Am"/>Mother Mary <ch a="F"/>comes to me</row>
-      <row important_over="true"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
-      <row important_over="false">And in<ch a="C"/> my hour of d<ch a="G"/>arkness, She is st<ch a="Am"/>anding right in <ch a="F"/>front of me</row>
-      <row important_over="false"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, Let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+      <row important_over="true">When I <ch a="C"/>find myself in <ch a="G"/>times of trouble, <ch a="a"/>Mother Mary <ch a="F"/>comes to me</row>
+      <row important_over="true"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="false">And in<ch a="C"/> my hour of d<ch a="G"/>arkness, She is st<ch a="a"/>anding right in <ch a="F"/>front of me</row>
+      <row important_over="false"><ch a="C"/>Speaking words of <ch a="G"/>wisdom, Let it <ch a="F"/>be<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true">Let it <ch a="Am"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
-      <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+      <row important_over="true">Let it <ch a="a"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+      <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">And whe<ch a="C"/>n the broken he<ch a="G"/>arted people, Li<ch a="Am"/>ving in the <ch a="F"/>world agree</row>
-      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
-      <row important_over="false">But tho<ch a="C"/>ugh they may be<ch a="G"/> parted, There is s<ch a="Am"/>till a chanc<ch a="F"/>e that they may see</row>
-      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+      <row important_over="false">And whe<ch a="C"/>n the broken he<ch a="G"/>arted people, Li<ch a="a"/>ving in the <ch a="F"/>world agree</row>
+      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="false">But tho<ch a="C"/>ugh they may be<ch a="G"/> parted, There is s<ch a="a"/>till a chanc<ch a="F"/>e that they may see</row>
+      <row important_over="false"><ch a="C"/>There will be an a<ch a="G"/>nswer, let it b<ch a="F"/>e<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="false">Let it <ch a="Am"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
-      <row important_over="false"><ch a="C"/>There will be an <ch a="G"/>answer, let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+      <row important_over="false">Let it <ch a="a"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+      <row important_over="false"><ch a="C"/>There will be an <ch a="G"/>answer, let it <ch a="F"/>be<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
       <bis times="2">
-        <row important_over="false">Let it <ch a="Am"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
-        <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="Dm"/><ch a="C"/></row>
+        <row important_over="false">Let it <ch a="a"/>be, let it <ch a="G"/>be, let it <ch a="F"/>be, let it <ch a="C"/>be</row>
+        <row important_over="false"><ch a="C"/>Whisper words of <ch a="G"/>wisdom, let it <ch a="F"/>be<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">And when the night is cloudy, There is still a light that shines on me</row>
-      <row important_over="never">Shine on till tomorrow, let it be</row>
-      <row important_over="never">I wake up to the sound of music, Mother Mary comes to me</row>
-      <row important_over="never">Speaking words of wisdom, let it be</row>
+      <row important_over="false">And wh<ch a="C"/>en the night is cl<ch a="G"/>oudy, There is st<ch a="a"/>ill a light that sh<ch a="F"/>ines on me</row>
+      <row important_over="false"><ch a="C"/>Shine on till tom<ch a="G"/>orrow, let it b<ch a="F"/>e<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="false">I w<ch a="C"/>ake up to the s<ch a="G"/>ound of music, M<ch a="a"/>other Mary c<ch a="F"/>omes to me</row>
+      <row important_over="false"><ch a="C"/>Speaking words of w<ch a="G"/>isdom, let it b<ch a="F"/>e<ch a="C/e"/><ch a="d"/><ch a="C"/></row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <album>Let It Be</album>
+  <genre>Rock</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://tabs.ultimate-guitar.com/tab/the-beatles/let-it-be-chords-17429</verificator>
+      <verificator>https://www.thebeatles.com/let-it-be</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
