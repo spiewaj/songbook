@@ -1,35 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Taka mała">
   <alias>Mała</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Popularna piosenka harcerska i ogniskowa o nieznanym autorze.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="solo">Tradycyjna</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="D G h A">Bo taka mała bardzo mi się spodobała </row>
-      <row important_over="never" sidechords="D G h A">Za taką małą oddałbym kawał duszy ciała </row>
-      <row important_over="never" sidechords="D G h A">Ciała i duszy, abym tylko mógł usłyszeć jej głos. </row>
-      <row important_over="never" sidechords="D G h A">hmmm mógł usłyszeć jej głos</row>
+      <row important_over="true">Bo t<ch a="D"/>aka m<ch a="G"/>ała bardzo m<ch a="h"/>i się spodob<ch a="A"/>ała,</row>
+      <row important_over="false">za t<ch a="D"/>aką m<ch a="G"/>ałą oddałb<ch a="h"/>ym kawał d<ch a="A"/>uszy, ciała,</row>
+      <row important_over="true">ci<ch a="D"/>ała i d<ch a="G"/>uszy, abym t<ch a="h"/>ylko mógł usł<ch a="A"/>yszeć jej gł<ch a="D"/>os —</row>
+      <row important_over="false">mmm, m<ch a="G"/>ógł usł<ch a="h"/>yszeć jej gł<ch a="A"/>os.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D G h A">Za taką małą życie oddać by się chciało</row>
-      <row important_over="never" sidechords="D G h A">Dla takiej małej suknie, broszki, kwiaty szale</row>
-      <row important_over="never" sidechords="D G h A">Szale i kwiaty, dom na raty, a w nim dzieciaków tłum.</row>
-      <row important_over="never" sidechords="D G h A">Hmmmm dzieciaków tłum </row>
+      <row important_over="false">Za t<ch a="D"/>aką m<ch a="G"/>ałą życie <ch a="h"/>oddać by się chci<ch a="A"/>ało,</row>
+      <row important_over="false">dla t<ch a="D"/>akiej m<ch a="G"/>ałej suknie, br<ch a="h"/>oszki, kwiaty, sz<ch a="A"/>ale,</row>
+      <row important_over="false">sz<ch a="D"/>ale i kwi<ch a="G"/>aty, dom na r<ch a="h"/>aty, a w nim dzieci<ch a="A"/>aków tł<ch a="D"/>um —</row>
+      <row important_over="false">mmm, dzieci<ch a="G"/>aków tł<ch a="A"/>um.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D G h A">Za taką małą i powalczyć by się chciało</row>
-      <row important_over="never" sidechords="D G h A">Bo taka mała, a tak bardzo się wszystkiego bała </row>
-      <row important_over="never" sidechords="D G h A">Bała się złego i dobrego, i w tym był jej wdzięk.</row>
-      <row important_over="never" sidechords="D G h A">hmmm i w tym był jej wdzięk.</row>
+      <row important_over="false">Za t<ch a="D"/>aką m<ch a="G"/>ałą i pow<ch a="h"/>alczyć by się chci<ch a="A"/>ało,</row>
+      <row important_over="false">bo t<ch a="D"/>aka m<ch a="G"/>ała, a tak b<ch a="h"/>ardzo się wszystk<ch a="A"/>iego bała,</row>
+      <row important_over="false">b<ch a="D"/>ała się zł<ch a="G"/>ego i dobr<ch a="h"/>ego, i w tym b<ch a="A"/>ył jej wdzi<ch a="D"/>ęk —</row>
+      <row important_over="false">mmm, i w t<ch a="G"/>ym był jej wdzi<ch a="A"/>ęk.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D G h A">Hej! Ty mała bardzo mi się spodobałaś</row>
-      <row important_over="never" sidechords="D G h A">Dla ciebie mała oddałbym kawał duszy ciała </row>
-      <row important_over="never" sidechords="D G h A">Ciała i duszy, lecz na razie wybacz muszę już iść. </row>
-      <row important_over="never" sidechords="D G h A">Hmmmm wybacz muszę już iść. </row>
+      <row important_over="false">H<ch a="D"/>ej! Ty m<ch a="G"/>ała, bardzo m<ch a="h"/>i się spodob<ch a="A"/>ałaś,</row>
+      <row important_over="false">dla ci<ch a="D"/>ebie m<ch a="G"/>ała oddałb<ch a="h"/>ym kawał d<ch a="A"/>uszy, ciała,</row>
+      <row important_over="false">ci<ch a="D"/>ała i d<ch a="G"/>uszy, lecz na r<ch a="h"/>azie wybacz, m<ch a="A"/>uszę już <ch a="D"/>iść —</row>
+      <row important_over="false">mmm, w<ch a="G"/>ybacz, m<ch a="h"/>uszę już <ch a="A"/>iść.</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album/>
+  <genre>Harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/taka-mala</verificator>
+      <verificator>https://spiewnik.eu/piosenka/taka-mala</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
