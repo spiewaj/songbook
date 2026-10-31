@@ -1,61 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziś do ciebie">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Dziś do ciebie przyjść nie mogę</row>
-      <row important_over="never"><ch a="a"/>Idę zaraz w nocny mrok<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Nie wyglądaj za mną oknem</row>
-      <row important_over="never"><ch a="d"/>We mgle tonie próżno wzrok<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Po cóż ci kochanie wiedzieć</row>
-      <row important_over="never"><ch a="A"/>Że do lasu idę spać<ch a="d"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="d"/>Dłużej tu nie mogę siedzieć<ch a="a"/></row>
-        <row important_over="never"><ch a="E"/>Na mnie czeka leśna brać<ch a="a"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Księżyc zaszedł hen za lasem</row>
-      <row important_over="never"><ch a="a"/>We wsi gdzieś szczekają psy<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>A nie pomyśl sobie czasem</row>
-      <row important_over="never"><ch a="d"/>Że do innej tęskno mi<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Kiedy wrócę znów do ciebie</row>
-      <row important_over="never"><ch a="A"/>Może w dzień, a może w noc<ch a="d"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="d"/>Dobrze będzie nam jak w niebie<ch a="a"/></row>
-        <row important_over="never"><ch a="E"/>Pocałunków dasz mi moc<ch a="a"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Gdy nie wrócę niechaj wiosną</row>
-      <row important_over="never"><ch a="a"/>Rolę moją sieje brat<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Kości moje mchem porosną</row>
-      <row important_over="never"><ch a="d"/>I użyźnią ziemi szmat<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>W pole wyjdź któregoś ranka</row>
-      <row important_over="never"><ch a="A"/>Na snop żyta ręce złóż</row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="d"/>I ucałuj jak kochanka<ch a="a"/></row>
-        <row important_over="never"><ch a="E"/>Ja żyć będę w kłosach zbóż<ch a="a"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziś do ciebie przyjść nie mogę">
+	<alias>Kołysanka leśna</alias>
+	<text_author type="solo">Stanisław Magierski</text_author>
+	<comment>Piosenka partyzancka powstała w 1943 roku w Lublinie (słowa i muzyka: Stanisław Magierski ps. „Jacek II”).</comment>
+	<composer type="solo">Stanisław Magierski</composer>
+	<artist type="band">Piosenka partyzancka</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Dz<ch a="a"/>iś do ciebie przyjść nie m<ch a="d"/>ogę,</row>
+			<row important_over="true"><ch a="E7"/>idę zaraz w n<ch a="a"/>ocny mrok.</row>
+			<row important_over="true">Ni<ch a="a"/>e wyglądaj za mną <ch a="d"/>oknem,</row>
+			<row important_over="true">w<ch a="E7"/>e mgle tonie pr<ch a="a"/>óżno wzrok.</row>
+			<row important_over="true">P<ch a="a"/>o cóż ci, koch<ch a="A7"/>anie, wi<ch a="d"/>edzieć,</row>
+			<row important_over="true">ż<ch a="d"/>e do lasu <ch a="A7"/>idę sp<ch a="d"/>ać?</row>
+		</block>
+		<block type="chorus">
+			<bis>
+				<row important_over="true">Dł<ch a="d"/>użej tu nie m<ch a="a"/>ogę siedzieć,</row>
+				<row important_over="true">n<ch a="E7"/>a mnie czeka l<ch a="a"/>eśna brać.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row>Ksi<ch a="a"/>ężyc zaszedł hen za l<ch a="d"/>asem,</row>
+			<row>w<ch a="E7"/>e wsi gdzieś szczek<ch a="a"/>ają psy.</row>
+			<row>A ni<ch a="a"/>e pomyśl sobie cz<ch a="d"/>asem,</row>
+			<row>ż<ch a="E7"/>e do innej t<ch a="a"/>ęskno mi.</row>
+			<row>Ki<ch a="a"/>edy wrócę zn<ch a="A7"/>ów do ci<ch a="d"/>ebie,</row>
+			<row>m<ch a="d"/>oże w dzień, a m<ch a="A7"/>oże w n<ch a="d"/>oc,</row>
+		</block>
+		<block type="chorus">
+			<bis>
+				<row>d<ch a="d"/>obrze będzie n<ch a="a"/>am jak w niebie,</row>
+				<row>p<ch a="E7"/>ocałunków d<ch a="a"/>asz mi moc.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row>Gd<ch a="a"/>y nie wrócę, niechaj wi<ch a="d"/>osną</row>
+			<row>r<ch a="E7"/>olę moją si<ch a="a"/>eje brat.</row>
+			<row>K<ch a="a"/>ości moje mchem por<ch a="d"/>osną</row>
+			<row><ch a="E7"/>i użyźnią zi<ch a="a"/>emi szmat.</row>
+			<row>W p<ch a="a"/>ole wyjdź któr<ch a="A7"/>egoś r<ch a="d"/>anka,</row>
+			<row>n<ch a="d"/>a snop żyta r<ch a="A7"/>ęce zł<ch a="d"/>óż</row>
+		</block>
+		<block type="chorus">
+			<bis>
+				<row><ch a="d"/>i ucałuj j<ch a="a"/>ak kochanka –</row>
+				<row>j<ch a="E7"/>a żyć będę w kł<ch a="a"/>osach zbóż.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Piosenka partyzancka</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Stanisław Magierski ps. „Jacek II” (słowa i muzyka, 1943)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Dzis_do_ciebie_przyjsc_nie_moge)</verificator>
+			<verificator>Śpiewnik Niepodległości (spiewnikniepodleglosci.pl/utwor/dzis-do-ciebie-przyjsc-nie-moge-kolysanka-lesna/)</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
