@@ -2,86 +2,87 @@
 <song title="Obława" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias></alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment>Wg piosenki "Obława na wilki" W. Wysockiego</comment>
+	<comment>Wg piosenki „Obława na wilki” (Охота на волков) Włodzimierza Wysockiego; napisana w 1974 r.</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Skulony w jakiejś ciemnej jamie smaczniem sobie spał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">I spały małe wilczki dwa - zupełnie ślepe jeszcze<ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Wtem stary wilk przewodnik co życie dobrze znał<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Łeb podniósł warknął groźnie aż mną szarpnęły dreszcze<ch a="F"/><ch a="E"/></row>
+			<row important_over="true">Sku<ch a="a"/>lony w jakiejś <ch a="C"/>ciemnej jamie <ch a="G"/>smaczniem sobie <ch a="C"/>spał</row>
+			<row>I <ch a="F"/>spały małe wilczki dwa – zu<ch a="E"/>pełnie ślepe jeszcze.</row>
+			<row>Wtem <ch a="a"/>stary wilk prze<ch a="C"/>wodnik, co <ch a="G"/>życie dobrze <ch a="C"/>znał,</row>
+			<row>Łeb <ch a="F"/>podniósł, warknął groźnie, aż mną <ch a="E"/>szarpnęły dreszcze.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Poczułem nagle wokół siebie nienawistną woń<ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Woń która tłumi wszelki spokój zrywa wszystkie sny<ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Z daleka ktoś gdzieś krzyknął nagle krótki rozkaz: goń<ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">I z czterech stron wypadły na nas cztery gończe psy<ch a="F"/><ch a="E"/></row>
+			<row important_over="true">Po<ch a="a"/>czułem nagle <ch a="F"/>wokół siebie <ch a="E"/>nienawistną <ch a="a"/>woń,</row>
+			<row>Woń, <ch a="F"/>która tłumi wszelki spokój, zrywa wszystkie <ch a="E"/>sny!</row>
+			<row>Z da<ch a="a"/>leka ktoś gdzieś <ch a="F"/>krzyknął nagle <ch a="E"/>krótki rozkaz: <ch a="a"/>goń –</row>
+			<row>I z <ch a="F"/>czterech stron wypadły na nas cztery gończe <ch a="E"/>psy!</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Obława! Obława! Na młode wilki obława! <ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Te dzikie zapalczywe, w gęstym lesie wychowane!<ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Krąg śniegu wydeptany! W tym kręgu plama krwawa! <ch a="a"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Ciała wilcze kłami gończych psów szarpane! <ch a="F"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="true">O<ch a="a"/>bława! O<ch a="C"/>bława! Na <ch a="G"/>młode wilki o<ch a="C"/>bława!</row>
+			<row>Te <ch a="F"/>dzikie, zapalczywe, w gęstym lesie wycho<ch a="E"/>wane!</row>
+			<row>Krąg <ch a="a"/>śniegu wyde<ch a="C"/>ptany, w tym <ch a="G"/>kręgu plama <ch a="C"/>krwawa!</row>
+			<row>Ciała <ch a="F"/>wilcze kłami <ch a="E"/>gończych psów szar<ch a="a"/>pane!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ten który rzucił na mnie się niewiele szczęścia miał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Bo wypadł prosto mi na kły i krew trysnęła z rany <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Gdym teraz - ile w łapach sił - przed siebie prosto rwał <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Ujrzałem małe wilczki dwa na strzępy rozszarpane!<ch a="F"/><ch a="E"/></row>
+			<row>Ten, <ch a="a"/>który rzucił <ch a="C"/>na mnie się, nie<ch a="G"/>wiele szczęścia <ch a="C"/>miał,</row>
+			<row>Bo <ch a="F"/>wypadł prosto mi na kły i krew trysnęła z <ch a="E"/>rany;</row>
+			<row>Gdym <ch a="a"/>teraz – ile <ch a="C"/>w łapach sił – przed <ch a="G"/>siebie prosto <ch a="C"/>rwał,</row>
+			<row>U<ch a="F"/>jrzałem małe wilczki dwa na strzępy rozszar<ch a="E"/>pane!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zginęły ślepe, ufne tak puszyste kłębki dwa <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Bezradne na tym świecie złym nie wiedząc kto je zdławił <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">I zginie także stary wilk choć życie dobrze zna <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">Bo z trzema naraz walczy psami i z ran trzech naraz krwawi <ch a="F"/><ch a="E"/></row>
-		</block>
-		<blocklink blocknb="3"/>
-		<block type="verse">
-			<row important_over="never">Wypadłem na otwartą przestrzeń pianę z pyska tocząc <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Lecz tutaj też ze wszystkich stron - zła mnie otacza woń! <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">A myśliwemu co mnie dojrzał już się śmieją oczy <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">I ręka pewna, niezawodna podnosi w górę broń! <ch a="F"/><ch a="E"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Rzucam się w bok, na oślep gnam aż ziemia spod łap tryska <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">I wtedy pada pierwszy strzał co kark mi rozszarpuje <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Wciąż pędzę, słyszę jak on klnie! I krew mi płynie z pyska <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">On strzela po raz drugi! Lecz teraz już pudłuje! <ch a="F"/><ch a="E"/></row>
+			<row>Zgi<ch a="a"/>nęły ślepe, <ch a="F"/>ufne tak – pu<ch a="E"/>szyste kłębki <ch a="a"/>dwa,</row>
+			<row>Bez<ch a="F"/>radne na tym świecie złym, nie wiedząc, kto je <ch a="E"/>zdławił.</row>
+			<row>I <ch a="a"/>zginie także <ch a="F"/>stary wilk, choć <ch a="E"/>życie dobrze <ch a="a"/>zna,</row>
+			<row>Bo z <ch a="F"/>trzema naraz walczy psami i z ran trzech naraz <ch a="E"/>krwawi!</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="never">Wyrwałem się z obławy tej schowałem w jakiś las <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Lecz ile szczęścia miałem w tym to każdy chyba przyzna <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Leżałem w śniegu jak nieżywy długi długi czas <ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Po strzale zaś na zawsze mi została krwawa blizna!<ch a="F"/><ch a="E"/></row>
+			<row>Wy<ch a="a"/>padłem na o<ch a="C"/>twartą przestrzeń, <ch a="G"/>pianę z pyska <ch a="C"/>tocząc,</row>
+			<row>Lecz <ch a="F"/>tutaj też ze wszystkich stron zła mnie otacza <ch a="E"/>woń!</row>
+			<row>A <ch a="a"/>myśliwemu, <ch a="C"/>co mnie dojrzał, <ch a="G"/>już się śmieją <ch a="C"/>oczy</row>
+			<row>I <ch a="F"/>ręka pewna, niezawodna podnosi w górę <ch a="E"/>broń!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Lecz nie skończyła się obława i nie śpią gończe psy <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">I giną ciągle wilki młode na całym wielkim świecie <ch a="F"/><ch a="E"/></row>
-			<row important_over="never">Nie dajcie z siebie zedrzeć skór! Brońcie się i wy! <ch a="a"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="never">O, bracia wilcy! Brońcie się nim wszyscy wyginiecie!<ch a="F"/><ch a="E"/></row>
+			<row>Rzu<ch a="a"/>cam się w bok, na <ch a="F"/>oślep gnam, aż <ch a="E"/>ziemia spod łap <ch a="a"/>tryska,</row>
+			<row>I <ch a="F"/>wtedy pada pierwszy strzał, co kark mi rozszar<ch a="E"/>puje!</row>
+			<row>Wciąż <ch a="a"/>pędzę, słyszę, <ch a="F"/>jak on klnie! I <ch a="E"/>krew mi płynie z <ch a="a"/>pyska,</row>
+			<row>On <ch a="F"/>strzela po raz drugi, lecz teraz już pu<ch a="E"/>dłuje!</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row>Wy<ch a="a"/>rwałem się z o<ch a="C"/>bławy tej, scho<ch a="G"/>wałem w obcy <ch a="C"/>las,</row>
+			<row>Lecz <ch a="F"/>ile szczęścia miałem w tym, to każdy chyba <ch a="E"/>przyzna;</row>
+			<row>Le<ch a="a"/>żałem w śniegu <ch a="C"/>jak nieżywy <ch a="G"/>długi, długi <ch a="C"/>czas,</row>
+			<row>Po <ch a="F"/>strzale zaś na zawsze mi została krwawa <ch a="E"/>blizna!</row>
+		</block>
+		<block type="verse">
+			<row>Lecz <ch a="a"/>nie skończyła <ch a="F"/>się obława <ch a="E"/>i nie śpią gończe <ch a="a"/>psy,</row>
+			<row>I <ch a="F"/>giną ciągle wilki młode na całym wielkim <ch a="E"/>świecie!</row>
+			<row>Nie <ch a="a"/>dajcie z siebie <ch a="F"/>zedrzeć skór! <ch a="E"/>Brońcie się i <ch a="a"/>wy,</row>
+			<row>O, <ch a="F"/>bracia wilcy! Brońcie się, nim wszyscy wygi<ch a="E"/>niecie!</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	
-	<music metre="">
-		<guitar/>
+	<music metre="2/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
-	<album></album>
+	<album>Mury</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
 			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/oblawa/</verificator>
+			<verificator>https://spiewnik.wywrota.pl/jacek-kaczmarski/oblawa</verificator>
 		</verificators>
-		<to_do>Wpisałem uwagę, a nie tłumaczenie, bo jednak przy tym poziomie odstępstwa od oryginału o tłumaczeniu trudno mówić</to_do>
+		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
