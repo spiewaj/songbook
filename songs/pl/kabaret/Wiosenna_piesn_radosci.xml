@@ -1,54 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiosenna pieśń radości">
-  <alias>Głupia Piosenka</alias>
-  <text_author>Kabaret „Potem”</text_author>
+  <alias>Głupia piosenka</alias>
+  <text_author type="solo">Władysław Sikora</text_author>
   <comment>Akordy w wersji uproszczonej:
 Zwrotka [ad/aE/ad/aE]
 Ref: [dGCa/dGCa/dGCa/dGc]</comment>
   <composer type="solo">Władysław Sikora</composer>
-  <artist type="solo">Kabaret „Potem”</artist>
+  <artist type="band">Kabaret Potem</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="h"/>Idzie sobie wiosna, słychać świergot ptaka<ch a="e"/></row>
-      <row important_over="never"><ch a="g"/>Ładna to piosenka tylko głupia taka<ch a="fis7"/></row>
-      <row important_over="never"><ch a="h"/>Już przyleciał bocian i w kałuży dłubie<ch a="e"/></row>
-      <row important_over="never"><ch a="h"/>Mnie to nie przeszkadza dalej będzie głupiej<ch a="Fis7"/></row>
+      <row important_over="true"><ch a="h"/>Idzie sobie wiosna, słychać świergot <ch a="e"/>ptaka,</row>
+      <row important_over="true"><ch a="g"/>ładna to piosenka, tylko głupia <ch a="fis7"/>taka.</row>
+      <row><ch a="h"/>Już przyleciał bocian i w kałuży <ch a="e"/>dłubie,</row>
+      <row><ch a="h"/>mnie to nie przeszkadza, dalej będzie <ch a="Fis7"/>głupiej.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="e"/>A! A!… już jest wiosna<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>A! A!… dłuższe dnie<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>A! A!… kwiaty rosną<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>A! A!… głupie nie?!<ch a="A"/><ch a="Fis7"/></row>
+      <row important_over="true"><ch a="e"/>A! A!… <ch a="A"/>już jest <ch a="D"/>wio<ch a="h"/>sna,</row>
+      <row important_over="true"><ch a="e"/>A! A!… <ch a="A"/>dłuższe <ch a="D"/>dni<ch a="h"/>e,</row>
+      <row><ch a="e"/>A! A!… <ch a="A"/>kwiaty <ch a="D"/>ro<ch a="h"/>sną,</row>
+      <row><ch a="e"/>A! A!… <ch a="A"/>głupie, <ch a="Fis7"/>nie?!</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="h"/>Słońce raźniej świeci dym się w polu snuje<ch a="e"/></row>
-      <row important_over="never"><ch a="g"/>Zupełnie bez sensu ale się rymuje<ch a="fis7"/></row>
-      <row important_over="never"><ch a="h"/>Budzi się przyroda już zielono wszędzie<ch a="e"/></row>
-      <row important_over="never"><ch a="h"/>Bać się nie ma czego zaraz refren będzie<ch a="Fis7"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Rozmarzają rzeki płynie kra do morza<ch a="e"/></row>
-      <row important_over="never"><ch a="g"/>Zwrotka nie najgorsza tylko rymu nie ma<ch a="fis7"/></row>
-      <row important_over="never"><ch a="h"/>Stokrotki na polach już się cieszą dzieci<ch a="e"/></row>
-      <row important_over="never"><ch a="h"/>Bo dla nich jest wiosna dla was refren trzeci<ch a="Fis7"/></row>
+      <row><ch a="h"/>Słońce raźniej świeci, dym się w polu <ch a="e"/>snuje,</row>
+      <row><ch a="g"/>zupełnie bez sensu, ale się ry<ch a="fis7"/>muje.</row>
+      <row><ch a="h"/>Budzi się przyroda, już zielono <ch a="e"/>wszędzie,</row>
+      <row><ch a="h"/>bać się nie ma czego, zaraz refren <ch a="Fis7"/>będzie.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="h"/>Wiosna jest po zimie w myśl ludowych przysłów<ch a="e"/></row>
-      <row important_over="never"><ch a="g"/>Ja już nie mam zdrowia do tych idiotyzmów<ch a="fis7"/></row>
-      <row important_over="never"><ch a="h"/>Kończy się piosenka śniegu nie ma prawie<ch a="e"/></row>
-      <row important_over="never"><ch a="h"/>Śpiewać głupie teksty nawet ja potrafię<ch a="Fis7"/></row>
+      <row><ch a="h"/>Rozmarzają rzeki, płynie kra do <ch a="e"/>morza,</row>
+      <row><ch a="g"/>zwrotka nienajgorsza, tylko rymu <ch a="fis7"/>nie ma.</row>
+      <row><ch a="h"/>Stokrotki na polach, już się cieszą <ch a="e"/>dzieci,</row>
+      <row><ch a="h"/>bo dla nich jest wiosna, dla was refren <ch a="Fis7"/>trzeci.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row><ch a="h"/>Wiosna jest po zimie, w myśl ludowych <ch a="e"/>przysłów,</row>
+      <row><ch a="g"/>ja już nie mam zdrowia do tych idio<ch a="fis7"/>tyzmów.</row>
+      <row><ch a="h"/>Kończy się piosenka, śniegu nie ma <ch a="e"/>prawie,</row>
+      <row><ch a="h"/>śpiewać głupie teksty nawet ja po<ch a="Fis7"/>trafię.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
   <keywords/>
-  <genre>Piosenka kabaretowa</genre>
+  <album></album>
+  <genre>Kabaret</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Wiosenna_piesn_radosci</verificator>
+      <verificator>Słowa i muzyka: Władysław Sikora (Kabaret Potem)</verificator>
+    </verificators>
   </status>
 </song>
