@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Harcerskie ideały">
-	<alias>Makatka; I świeć przykładem świeć</alias>
+	<alias>Makatka</alias>
+	<text_author type="solo">Robert Bochenek</text_author>
+	<comment></comment>
+	<composer type="solo">Robert Bochenek</composer>
+	<artist type="band">Piosenka harcerska</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="D"/> Na ścianie m<ch a="A"/>asz kol<ch a="e"/>ekcję swoich barwnych wspomnień:</row>
-			<row important_over="false"><ch a="D"/> Suszony kwi<ch a="A"/>at, nasz<ch a="e"/>yjnik, wiersz i liść.</row>
-			<row important_over="false"><ch a="D"/> Już tyle l<ch a="A"/>at przyp<ch a="e"/>inasz szpilką na tej słomie</row>
-			<row important_over="false"><ch a="D"/> To wszystko, c<ch a="A"/>o cenni<ch a="e"/>ejsze jest niż skarb.</row>
+			<row important_over="true">Na ści<ch a="D"/>anie masz kol<ch a="A"/>ekcję swoich b<ch a="e"/>arwnych wspomnień:</row>
+			<row important_over="true">Susz<ch a="D"/>ony kwiat, nasz<ch a="A"/>yjnik, wi<ch a="e"/>ersz i liść.</row>
+			<row>Już t<ch a="D"/>yle lat przyp<ch a="A"/>inasz szpilką n<ch a="e"/>a tej słomie</row>
+			<row>To wsz<ch a="D"/>ystko, co cenni<ch a="A"/>ejsze j<ch a="e"/>est niż skarb.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="D"/> Pośrodku s<ch a="A"/>am gen<ch a="e"/>erał Robert Baden–Powell,</row>
-			<row important_over="false"><ch a="D"/> Rzeźbiony w dr<ch a="A"/>ewnie lil<ch a="e"/>ijki smukły kształt,</row>
-			<row important_over="false"><ch a="D"/> Jest krzyża zn<ch a="A"/>ak i sr<ch a="e"/>ebrny orzeł jest w koronie,</row>
-			<row important_over="false"><ch a="D"/> A zaraz p<ch a="A"/>od nim harc<ch a="e"/>erskich dziesięć praw.</row>
+			<row>Pośr<ch a="D"/>odku sam gen<ch a="A"/>erał Robert B<ch a="e"/>aden-Powell,</row>
+			<row>Rzeźbi<ch a="D"/>ony w drewnie lil<ch a="A"/>ijki sm<ch a="e"/>ukły kształt,</row>
+			<row>Jest krz<ch a="D"/>yża znak i sr<ch a="A"/>ebrny orzeł j<ch a="e"/>est w koronie,</row>
+			<row>A z<ch a="D"/>araz pod nim harc<ch a="A"/>erskich dzi<ch a="e"/>esięć praw.</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Ramię pr<ch a="D"/>ęż, słabość kr<ch a="A"/>usz i nie z<ch a="e"/>awiedź w potrz<ch a="h"/>ebie,</row>
-			<row important_over="false">Podaj sw<ch a="D"/>ą pomocną dł<ch a="A"/>oń Tym, co l<ch a="e"/>iczą na Ci<ch a="h"/>ebie,</row>
-			<row important_over="false">Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
-			<row important_over="false">Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie każdy.</row>
+			<row important_over="true">Podaj sw<ch a="D"/>ą pomocną dł<ch a="A"/>oń tym, co l<ch a="e"/>iczą na Ci<ch a="h"/>ebie,</row>
+			<row>Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
+			<row>Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie k<ch a="h"/>ażdy.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">I świ<ch a="G"/>eć przykł<ch a="A"/>adem, świ<ch a="D"/>eć,</row>
-			<row important_over="false">I l<ch a="G"/>eć w przestw<ch a="A"/>orza l<ch a="D"/>eć,</row>
-			<row important_over="false">I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
-			<row important_over="false">Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
+			<row important_over="true">I l<ch a="G"/>eć w przestw<ch a="A"/>orza, l<ch a="D"/>eć,</row>
+			<row>I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
+			<row>Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi”,</row>
-			<row important_over="false">Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: „Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi</row>
-			<row important_over="false">I choć m<ch a="D"/>ało mam l<ch a="A"/>at w mym harc<ch a="e"/>erskim mund<ch a="h"/>urze</row>
-			<row important_over="false">Bogu, l<ch a="D"/>udziom i ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę służę.”</row>
+			<row>A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi?”,</row>
+			<row>Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: „Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi,</row>
+			<row>I choć m<ch a="D"/>ało mam l<ch a="A"/>at w mym harc<ch a="e"/>erskim mund<ch a="h"/>urze,</row>
+			<row>Bogu, l<ch a="D"/>udziom i Ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę sł<ch a="h"/>użę”.</row>
 		</block>
 		<blocklink blocknb="4"/>
 	</lyric>
-	<music metre="4/4"/>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<keywords/>
+	<album></album>
 	<genre>Piosenka harcerska</genre>
 	<status>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
 			<verificator>Krzysiek Cz.</verificator>
+			<verificator>https://robertbochenek.pl/</verificator>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/harcerskie-idealy</verificator>
 		</verificators>
-		<to_do>tekst sprawdzony na podstawie google searchu i logiki.poprawone literówki</to_do>
+		<to_do/>
 	</status>
 </song>
