@@ -2,12 +2,12 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Coś jeszcze">
 	<alias></alias>
 	<text_author type="solo">Jakub Pochrybniak</text_author>
-	<comment>Gra się bodajże na strunie E ,,glissando'' przez wszystkie dżwięki, najpierw w górę, a potem w dół. </comment>
+	<comment>Gra się bodajże na strunie E „glissando” przez wszystkie dźwięki, najpierw w górę, a potem w dół.</comment>
 	<composer type="solo">Jakub Pochrybniak</composer>
-	<artist type="solo">21. WDW „Stare Żbiki”</artist>
+	<artist type="band">21. WDW „Stare Żbiki”</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="never">Były dwa kleszcze,</row>
 			<row important_over="never">Zdechły dwa kleszcze,</row>
@@ -15,13 +15,12 @@
 			<row important_over="never">Pośpiewajmy jeszcze.</row>
 		</block>
 	</lyric>
-	
 	<music metre="">
 		<guitar/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>Piosenka harcerska - parodia</genre>
 	<status>
 		<done>
 			<text/>
@@ -30,7 +29,7 @@
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>songs/pl/custom/21wdw/cos.xml (21. WDW „Stare Żbiki”)</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
