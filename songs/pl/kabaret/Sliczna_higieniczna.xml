@@ -1,90 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śliczna higieniczna">
+  <alias>Sprytna i wybitna</alias>
   <text_author type="solo">Agnieszka Osiecka</text_author>
   <composer type="solo">Wiesław Tupaczewski</composer>
   <artist type="solo">Maryla Rodowicz</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Jestem śliczna higieniczna</row>
-      <row important_over="never"><ch a="a"/>Przy tym silna niczym tur</row>
-      <row important_over="never"><ch a="a"/>Rozkochuję w sobie chłopców</row>
-      <row important_over="never"><ch a="a"/>Za mną poszliby pod mur</row>
-      <row important_over="never"><ch a="d"/>Bo ja jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak chłopięcy chór<ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak chłopięcy chór<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Duża jestem ociupinkę</row>
-      <row important_over="never"><ch a="a"/>Zgrabna chyba nawet też</row>
-      <row important_over="never"><ch a="a"/>Gdy wychodzę na ulicę</row>
-      <row important_over="never"><ch a="a"/>Chłopcom wnet zapiera dech</row>
-      <row important_over="never"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak ludowy wiec<ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak ludowy wiec<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Jestem śliczna higieniczna,</row>
+      <row important_over="true"><ch a="a"/>przy tym silna niczym tur,</row>
+      <row><ch a="a"/>rozkochuję w sobie chłopców,</row>
+      <row><ch a="a"/>za mną poszliby pod mur.</row>
+      <row important_over="true"><ch a="d"/>Bo ja jestem <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row important_over="true">ro<ch a="a"/>mantyczna także <ch a="d"/>jestem</row>
+      <row>jak <ch a="E"/>chłopięcy <ch a="a"/>chór.</row>
+      <row><ch a="d"/>Bo jesteś <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jesteś</row>
+      <row>jak <ch a="E"/>chłopięcy <ch a="a"/>chór.</row>
+      <row><ch a="a"/>Duża jestem ociupinkę,</row>
+      <row><ch a="a"/>zgrabna chyba nawet też,</row>
+      <row><ch a="a"/>gdy wychodzę na ulicę,</row>
+      <row><ch a="a"/>chłopcom wnet zapiera dech.</row>
+      <row><ch a="d"/>Bo jestem <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jestem</row>
+      <row>jak <ch a="E"/>ludowy <ch a="a"/>wiec.</row>
+      <row><ch a="d"/>Bo jesteś <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jesteś</row>
+      <row>jak <ch a="E"/>ludowy <ch a="a"/>wiec.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="d"/>A ja mam w sobie coś takiego<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Co nie daje spać kolegom</row>
-      <row important_over="never"><ch a="d"/>Może oczy może usta<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Może także jestem szczupła</row>
-      <row important_over="never"><ch a="d"/>Może moja dobroć ufność<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>To że czasem jestem smutna</row>
-      <row important_over="never"><ch a="d"/>Chyba to nie daje chłopcom spać<ch a="E"/></row>
-      <row important_over="never"><ch a="d"/>Ja mam w sobie coś takiego<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Co nie daje jeść kolegom</row>
-      <row important_over="never"><ch a="d"/>Może dłonie może nogi<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Może mój zmęczony profil</row>
-      <row important_over="never"><ch a="d"/>Może moja duma radość<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Może niecodzienna bladość</row>
-      <row important_over="never"><ch a="d"/>Chyba to nie daje chłopcom jeść<ch a="E"/></row>
+      <row important_over="true">A <ch a="d"/>ja mam w sobie <ch a="E"/>coś takiego,</row>
+      <row important_over="true">co <ch a="a"/>nie daje spać kolegom.</row>
+      <row>Może <ch a="d"/>oczy, może <ch a="E"/>usta,</row>
+      <row>może <ch a="a"/>także jestem szczupła,</row>
+      <row>może <ch a="d"/>moja dobroć, <ch a="E"/>ufność,</row>
+      <row>to, że <ch a="a"/>czasem jestem smutna —</row>
+      <row>chyba <ch a="d"/>to nie daje chłopcom <ch a="E"/>spać!</row>
+      <row>Ja <ch a="d"/>mam w sobie <ch a="E"/>coś takiego,</row>
+      <row>co <ch a="a"/>nie daje jeść kolegom.</row>
+      <row>Może <ch a="d"/>dłonie, może <ch a="E"/>nogi,</row>
+      <row>może <ch a="a"/>mój zmęczony profil,</row>
+      <row>może <ch a="d"/>moja duma, <ch a="E"/>radość,</row>
+      <row>może <ch a="a"/>niecodzienna bladość —</row>
+      <row>chyba <ch a="d"/>to nie daje chłopcom <ch a="E"/>jeść!</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Jeden biedak na mój widok</row>
-      <row important_over="never"><ch a="a"/>Oddał swój ostatni kęs</row>
-      <row important_over="never"><ch a="a"/>Drugi merdał wręcz ogonem</row>
-      <row important_over="never"><ch a="a"/>Niczym wygłodniały pies</row>
-      <row important_over="never"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak hutniczy piec<ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak hutniczy piec<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Nienawidzą mnie dziewczęta</row>
-      <row important_over="never"><ch a="a"/>Za mą niedościgłą twarz</row>
-      <row important_over="never"><ch a="a"/>Każdy ją zapamiętuje</row>
-      <row important_over="never"><ch a="a"/>Choćby widział tylko raz</row>
-      <row important_over="never"><ch a="d"/>Bo jestem sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jestem<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak taki tralabam<ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Bo jesteś sprytna i wybitna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Romantyczna także jesteś<ch a="d"/></row>
-      <row important_over="never"><ch a="E"/>Jak taki tralabam<ch a="a"/></row>
+      <row><ch a="a"/>Jeden biedak na mój widok</row>
+      <row><ch a="a"/>oddał swój ostatni kęs,</row>
+      <row><ch a="a"/>drugi merdał wręcz ogonem</row>
+      <row><ch a="a"/>niczym wygłodniały pies.</row>
+      <row><ch a="d"/>Bo jestem <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jestem</row>
+      <row>jak <ch a="E"/>hutniczy <ch a="a"/>piec.</row>
+      <row><ch a="d"/>Bo jesteś <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jesteś</row>
+      <row>jak <ch a="E"/>hutniczy <ch a="a"/>piec.</row>
+      <row><ch a="a"/>Nienawidzą mnie dziewczęta</row>
+      <row><ch a="a"/>za mą niedościgłą twarz,</row>
+      <row><ch a="a"/>każdy ją zapamiętuje,</row>
+      <row><ch a="a"/>choćby widział tylko raz.</row>
+      <row><ch a="d"/>Bo jestem <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jestem</row>
+      <row>jak <ch a="E"/>taki trala<ch a="a"/>bam.</row>
+      <row><ch a="d"/>Bo jesteś <ch a="G"/>sprytna i wy<ch a="C"/>bitna,</row>
+      <row>ro<ch a="a"/>mantyczna także <ch a="d"/>jesteś</row>
+      <row>jak <ch a="E"/>taki trala<ch a="a"/>bam.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Bo ja mam w sobie coś takiego<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Co nie daje żyć kolegom</row>
-      <row important_over="never"><ch a="d"/>Jestem śliczna higieniczna<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Przy okazji sympatyczna</row>
-      <row important_over="never"><ch a="d"/>Jestem sprytna i wybitna<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Fantastyczna i ambitna</row>
-      <row important_over="never"><ch a="d"/>Więc czemu mnie<ch a="E"/></row>
-      <row important_over="never"><ch a="E"/>Na miss polonia nie</row>
-      <row important_over="never"><ch a="d"/>Na miss polonia nie chcą<ch a="E"/></row>
-      <row important_over="never"><ch a="E"/>Wybrać mnie?<ch a="a"/></row>
+      <row>Bo <ch a="d"/>ja mam w sobie <ch a="E"/>coś takiego,</row>
+      <row>co <ch a="a"/>nie daje żyć kolegom.</row>
+      <row>Jestem <ch a="d"/>śliczna, higie<ch a="E"/>niczna,</row>
+      <row>przy o<ch a="a"/>kazji sympatyczna,</row>
+      <row>jestem <ch a="d"/>sprytna i wy<ch a="E"/>bitna,</row>
+      <row>fantas<ch a="a"/>tyczna i ambitna.</row>
+      <row>Więc <ch a="d"/>czemu mnie <ch a="E"/></row>
+      <row>na <ch a="E"/>Miss Polonia nie,</row>
+      <row>na Miss Po<ch a="d"/>lonia nie chcą <ch a="E"/></row>
+      <row>wy<ch a="E"/>brać mnie?<ch a="a"/></row>
     </block>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
   <keywords/>
-  <album>Absolutnie nic (1991)</album>
+  <album>Absolutnie nic</album>
+  <genre>Kabaret</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Sliczna_higieniczna</verificator>
+      <verificator>Słowa: Agnieszka Osiecka, Muzyka: Wiesław Tupaczewski, Wykonawca: Maryla Rodowicz (album Absolutnie nic)</verificator>
+    </verificators>
   </status>
 </song>
