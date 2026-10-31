@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Głupi Gienek">
-	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Gienek gra na gitarze</row>
-			<row important_over="true">Miał być szewcem <ch a="D"/>G<ch a="A"/></row>
-			<row important_over="true">Lecz mu nie wyszło<ch a="D"/></row>
-			<row important_over="never">Za oknem jesień</row>
-			<row important_over="true">Przybija podkó<ch a="e"/>wk<ch a="h"/>i</row>
-			<row important_over="true">Chyba na przyszłość<ch a="G"/><ch a="A7"/></row>
+			<row important_over="true">Gi<ch a="D"/>enek gra na git<ch a="A"/>arze,</row>
+			<row important_over="true">mi<ch a="G"/>ał być szewcem, lecz mu nie w<ch a="D"/>yszło.</row>
+			<row important_over="true">Z<ch a="e"/>a oknem jes<ch a="h"/>ień</row>
+			<row important_over="true">przyb<ch a="e"/>ija podk<ch a="h"/>ówki –</row>
+			<row important_over="true">ch<ch a="G"/>yba na przyszł<ch a="A7"/>ość.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Gitara Gienka jest taka cienka<ch a="D"/></row>
-			<row important_over="false">Po prostu mało ma strun<ch a="D"/><ch a="A"/></row>
-			<row important_over="true">Lecz Gienek jej wierzy,<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Wie że struna pęka<ch a="e"/><ch a="h"/></row>
-			<row important_over="false">Zwłaszcza gdy cienka i już<ch a="G"/><ch a="A7"/></row>
+			<row important_over="true">Git<ch a="D"/>ara Gienka jest taka ci<ch a="A"/>enka,</row>
+			<row important_over="true">p<ch a="G"/>o prostu mało ma str<ch a="D"/>un.</row>
+			<row important_over="true">L<ch a="e"/>ecz Gienek jej wi<ch a="h"/>erzy,</row>
+			<row important_over="true">wi<ch a="e"/>e, że struna p<ch a="h"/>ęka,</row>
+			<row important_over="true">zwł<ch a="G"/>aszcza gdy cienka i j<ch a="A7"/>uż.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Gienek nie będzie już szewcem</row>
-			<row important_over="never">Bo wbił sobie w głowę gwóźdź</row>
-			<row important_over="never">Woli gitarę mieć za żonę</row>
-			<row important_over="never">Z gitarą bierze ślub</row>
+			<row>Gi<ch a="D"/>enek nie będzie już sz<ch a="A"/>ewcem,</row>
+			<row>b<ch a="G"/>o wbił sobie w głowę gw<ch a="D"/>óźdź.</row>
+			<row>W<ch a="e"/>oli gitarę mieć za ż<ch a="h"/>onę,</row>
+			<row>z git<ch a="e"/>arą bi<ch a="h"/>erze śl<ch a="G"/>ub. <ch a="A7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
-	</status>
 	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
+	<album>Bieszczadzkie anioły</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Adam Ziemianin (słowa), Krzysztof Myszkowski (muzyka)</verificator>
+			<verificator>Stare Dobre Małżeństwo (album „Bieszczadzkie anioły”, 2000)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Glupi_Gienek)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/glupi-gienek</verificator>
+		</verificators>
+	</status>
 	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
 </song>
