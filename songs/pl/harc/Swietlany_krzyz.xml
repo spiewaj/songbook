@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Świetlany krzyż">
-	<artist type="solo"/>
+	<alias/>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Tradycyjna pieśń harcerska śpiewana na melodię serbskiej pieśni wojskowej „Tamo daleko” (1916) autorstwa Đorđe Marinkovicia.</comment>
+	<composer type="solo">Đorđe Marinković</composer>
+	<artist type="band">Piosenka harcerska</artist>
+	<translator/>
+	<original_title>Tamo daleko</original_title>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Idziemy w jasną z błękitu utkaną dal,<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">Drogą wśród łąk, pól bezkresnych<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">I wśród zbóż szumiących fal.<ch a="H7"/><ch a="e"/></row>
+			<row important_over="true">Idzi<ch a="e"/>emy w jasną, z błęk<ch a="H7"/>itu utkaną d<ch a="e"/>al,</row>
+			<row important_over="true">Dr<ch a="a"/>ogą wśród łąk, pól bezkr<ch a="e"/>esnych</row>
+			<row important_over="true">I wrz<ch a="H7"/>ód zbóż szumiących f<ch a="e"/>al.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Cicho, szeroko jak okiem spojrzenie śle.</row>
-			<row important_over="never">Jakieś się snują marzenia</row>
-			<row important_over="never">W wieczornej spowitej mgle</row>
+			<row>C<ch a="e"/>icho, szeroko, jak <ch a="H7"/>okiem spojrzenie śl<ch a="e"/>e,</row>
+			<row>J<ch a="a"/>akieś się snują marz<ch a="e"/>enia</row>
+			<row>W wi<ch a="H7"/>eczornej, spowitej mgl<ch a="e"/>e.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="f"/><ch a="C7"/><ch a="f"/></row>
-			<row important_over="never">By zdobyć szczyt ideałów:<ch a="b"/><ch a="f"/></row>
-			<row important_over="never">Świetlany harcerski krzyż.<ch a="C7"/><ch a="f"/></row>
+			<row important_over="true">Idzi<ch a="f"/>emy naprzód i ci<ch a="C7"/>ągle pniemy się wzw<ch a="f"/>yż,</row>
+			<row important_over="true">By zd<ch a="b"/>obyć szczyt ideał<ch a="f"/>ów:</row>
+			<row important_over="true">Świ<ch a="C7"/>etlany harcerski krz<ch a="f"/>yż.</row>
 		</block>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="3/4">
+		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
-	</status>
 	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
+	<album></album>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Swietlany_krzyz</verificator>
+			<verificator>https://wolosatki.pl/piosenki/swietlany-krzyz/</verificator>
+		</verificators>
+	</status>
 </song>
