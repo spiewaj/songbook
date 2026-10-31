@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Daktyl">
+  <alias>Całus ma słodycz daktyla</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Piosenka harcerska i biesiadna o nieznanym autorze.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="solo">Tradycyjna</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="C F">Gdy czarem powabu owiana motyla </row>
-      <row important_over="never" sidechords="G C">dzieweczka jak anioł usteczka rozchyla </row>
-      <row important_over="never" sidechords="C F">To wtedy mnie bierze ogromna pokusa </row>
-      <row important_over="never" sidechords="G C">By skraść jej przynajmniej jednego calusa </row>
+      <row important_over="true"><ch a="C"/>Gdy czarem powabu owi<ch a="F"/>ana motyla,</row>
+      <row important_over="true"><ch a="G"/>Dzieweczka jak anioł ust<ch a="C"/>eczka rozchyla,</row>
+      <row important_over="false"><ch a="C"/>To wtedy mnie bierze ogr<ch a="F"/>omna pokusa,</row>
+      <row important_over="false"><ch a="G"/>By skraść jej przynajmniej j<ch a="C"/>ednego całusa.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="F C">Bo całus ma słodycz daktyla </row>
-      <row important_over="never" sidechords="F C">on życie harcerza umila </row>
-      <row important_over="never" sidechords="C F">On życie harcerza umila i słodzi </row>
-      <row important_over="never" sidechords="G C">Całuje się harcmistrz, podharcmistrz i młodzik </row>
+      <row important_over="true"><ch a="F"/>Bo całus ma słodycz d<ch a="C"/>aktyla,</row>
+      <row important_over="false"><ch a="F"/>On życie harcerza um<ch a="C"/>ila,</row>
+      <row important_over="true"><ch a="C"/>On życie harcerza um<ch a="F"/>ila i słodzi —</row>
+      <row important_over="false"><ch a="G"/>Całuje się harcmistrz, podh<ch a="C"/>arcmistrz i młodzik.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C F">Lecz czasem się zdarzy od dolo ma smutna </row>
-      <row important_over="never" sidechords="G C">Że zjawi się jakaś harcerka okrutna </row>
-      <row important_over="never" sidechords="C F">A wtedy choć kruszę jej serca marmury </row>
-      <row important_over="never" sidechords="G C">To ona mej duszy zadaje tortury </row>
+      <row important_over="false"><ch a="C"/>Lecz czasem się zdarzy, o d<ch a="F"/>olo ma smutna,</row>
+      <row important_over="false"><ch a="G"/>Że zjawi się jakaś harc<ch a="C"/>erka okrutna,</row>
+      <row important_over="false"><ch a="C"/>A wtedy, choć kruszę jej s<ch a="F"/>erca marmury,</row>
+      <row important_over="false"><ch a="G"/>To ona mej duszy zad<ch a="C"/>aje tortury.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="C F"> Lecz częściej się zdarzy o dolo radosna </row>
-      <row important_over="never" sidechords="G C">Że znajdzie się jakaś harcerka rozkoszna </row>
-      <row important_over="never" sidechords="C F">A wtedy z jej ustek pełnego pucharu </row>
-      <row important_over="never" sidechords="G C">Wypijam ja słodycz rajskiego nektaru </row>
+      <row important_over="false"><ch a="C"/>Lecz częściej się zdarzy, o d<ch a="F"/>olo radosna,</row>
+      <row important_over="false"><ch a="G"/>Że znajdzie się jakaś harc<ch a="C"/>erka rozkoszna,</row>
+      <row important_over="false"><ch a="C"/>A wtedy z jej ustek p<ch a="F"/>ełnego pucharu</row>
+      <row important_over="false"><ch a="G"/>Wypijam ja słodycz rajsk<ch a="C"/>iego nektaru.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album/>
+  <genre>Harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.eu/piosenka/daktyl</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
