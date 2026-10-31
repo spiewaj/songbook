@@ -1,87 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jagienka i orzechy">
+  <alias/>
   <text_author type="solo">Andrzej Waligórski</text_author>
-  <comment>Trudność: Początkujący
-Strojenie: klasyczne (E A D G H e)
-Tonacja:     G
-W oparciu o: http://www.zdjecia.szymczak.waw.pl/szanty/spiewnik_2008-09-07.pdf</comment>
-  <composer type="solo">Olek Grotowski</composer>
-  <artist type="solo">Olek Grotowski; Małgosia Zwierzchowska</artist>
+  <comment>Piosenka kabaretowa.</comment>
+  <composer type="solo">Aleksander Grotowski</composer>
+  <artist type="band">Aleksander Grotowski i Małgorzata Zwierzchowska</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Żyła raz jedna panienka <ch a="D"/></row>
-      <row important_over="never">Która zwała się Jagienka; <ch a="A"/></row>
-      <row important_over="never">Wiele z niej było pociechy,<ch a="A"/></row>
-      <row important_over="never">Bo tłukła pupą orzechy. <ch a="D"/></row>
-      <row important_over="never">Opisał ją, że jest taka,<ch a="D"/></row>
-      <row important_over="never">Sam pan Sienkiewicz w &quot;Krzyżakach&quot;. <ch a="G"/></row>
-      <row important_over="never">Wpierw żyła w cnocie jak mniszka, <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">A potem wyszła za Zbyszka. <ch a="eA"/><ch a="D"/></row>
+      <row important_over="true">Ż<ch a="D"/>yła raz jedna panienka,</row>
+      <row important_over="true">kt<ch a="A"/>óra zwała się Jagienka;</row>
+      <row important_over="false">wi<ch a="A"/>ele z niej było pociechy,</row>
+      <row important_over="false">bo tł<ch a="D"/>ukła pupą orzechy.</row>
+      <row important_over="false">Op<ch a="D"/>isał ją, że jest taka,</row>
+      <row important_over="true">sam p<ch a="G"/>an Sienkiewicz w „Krzyżakach”.</row>
+      <row important_over="true">Wpi<ch a="G"/>erw żyła w cn<ch a="D"/>ocie jak mn<ch a="h"/>iszka,</row>
+      <row important_over="true">a p<ch a="e"/>otem w<ch a="A"/>yszła za Zb<ch a="D"/>yszka.</row>
     </block>
     <block type="verse">
-      <row important_over="never">I wiodło im się chędogo, <ch a="D"/></row>
-      <row important_over="never">Chociaż, niestety, ubogo, <ch a="A"/></row>
-      <row important_over="never">Bo się pokończyły wojny,<ch a="A"/></row>
-      <row important_over="never">Zaczął się okres spokojny, <ch a="D"/></row>
-      <row important_over="never">A rycerz - rzecz znana wszędzie -<ch a="D"/></row>
-      <row important_over="never">Żyje z tego, co zdobędzie. <ch a="G"/></row>
-      <row important_over="never">Ruszył więc Zbyszko konceptem <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">I wpadł na taką receptę: <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">I wi<ch a="D"/>odło im się chędogo,</row>
+      <row important_over="false">choci<ch a="A"/>aż, niestety, ubogo,</row>
+      <row important_over="false">bo si<ch a="A"/>ę pokończyły wojny,</row>
+      <row important_over="false">zacz<ch a="D"/>ął się okres spokojny,</row>
+      <row important_over="false">a r<ch a="D"/>ycerz — rzecz znana wszędzie —</row>
+      <row important_over="false">żyj<ch a="G"/>e z tego, co zdobędzie.</row>
+      <row important_over="false">Rusz<ch a="G"/>ył więc Zbyszk<ch a="D"/>o konc<ch a="h"/>eptem</row>
+      <row important_over="false">i wp<ch a="e"/>adł na t<ch a="A"/>aką rec<ch a="D"/>eptę:</row>
     </block>
     <block type="verse">
-      <row important_over="never">Przywiesił na bramie druczek, <ch a="D"/></row>
-      <row important_over="never">Że tu się orzechy tłucze <ch a="A"/></row>
-      <row important_over="never">I od każdego orzecha<ch a="A"/></row>
-      <row important_over="never">Zgarniał taryfę do miecha. <ch a="D"/></row>
-      <row important_over="never">Laskowy orzech maleńki<ch a="D"/></row>
-      <row important_over="never">To nie problem dla Jagienki; <ch a="G"/></row>
-      <row important_over="never">Mogła za jednym przysiadem <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">Stłuc całe pół kilo zadem, <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">Przywi<ch a="D"/>esił na bramie druczek,</row>
+      <row important_over="false">że t<ch a="A"/>u się orzechy tłucze,</row>
+      <row important_over="false">i <ch a="A"/>od każdego orzecha</row>
+      <row important_over="false">zgarni<ch a="D"/>ał taryfę do miecha.</row>
+      <row important_over="false">Lask<ch a="D"/>owy orzech maleńki</row>
+      <row important_over="false">to ni<ch a="G"/>e problem dla Jagienki;</row>
+      <row important_over="false">m<ch a="G"/>ogła za j<ch a="D"/>ednym przysi<ch a="h"/>adem</row>
+      <row important_over="false">stłuc c<ch a="e"/>ałe pół k<ch a="A"/>ilo z<ch a="D"/>adem,</row>
     </block>
     <block type="verse">
-      <row important_over="never">A gdy dorwała fistaszka <ch a="D"/></row>
-      <row important_over="never">Zostawała z niego kaszka. <ch a="A"/></row>
-      <row important_over="never">Niewiele też większej troski<ch a="A"/></row>
-      <row important_over="never">Przysparzał jej orzech włoski. <ch a="D"/></row>
-      <row important_over="never">Aż raz przybył jakiś młokos,<ch a="D"/></row>
-      <row important_over="never">Przywożąc z Afryki kokos, <ch a="G"/></row>
-      <row important_over="never">I zwrócił się do Jagusi, <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">Że mu tę rzecz roztłuc musi. <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">A gd<ch a="D"/>y dorwała fistaszka,</row>
+      <row important_over="false">zost<ch a="A"/>awała z niego kaszka.</row>
+      <row important_over="false">Niewi<ch a="A"/>ele też większej troski</row>
+      <row important_over="false">przysparz<ch a="D"/>ał jej orzech włoski.</row>
+      <row important_over="false">Aż r<ch a="D"/>az przybył jakiś młokos,</row>
+      <row important_over="false">przywoż<ch a="G"/>ąc z Afryki kokos,</row>
+      <row important_over="false">i zwr<ch a="G"/>ócił si<ch a="D"/>ę do Jag<ch a="h"/>usi,</row>
+      <row important_over="false">że m<ch a="e"/>u tę rz<ch a="A"/>ecz roztłuc m<ch a="D"/>usi.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Spłoniła się żwawa młódka, <ch a="D"/></row>
-      <row important_over="never">Wzięła dech, napięła udka, <ch a="A"/></row>
-      <row important_over="never">Pomodliła się przelotnie<ch a="A"/></row>
-      <row important_over="never">I w ten kokos jak nie grzmotnie! <ch a="D"/></row>
-      <row important_over="never">Niestety twarda skorupa<ch a="D"/></row>
-      <row important_over="never">Nawet przy tym nie zachrupa... <ch a="G"/></row>
-      <row important_over="never">Wrzasła Jaguś wniebogłosy, <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">Podskoczyła pod niebiosy <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">Spłoni<ch a="D"/>ła się żwawa młódka,</row>
+      <row important_over="false">wzi<ch a="A"/>ęła dech, napięła udka,</row>
+      <row important_over="false">pomodl<ch a="A"/>iła się przelotnie</row>
+      <row important_over="false">i w t<ch a="D"/>en kokos jak nie grzmotnie!</row>
+      <row important_over="false">Niest<ch a="D"/>ety twarda skorupa</row>
+      <row important_over="false">naw<ch a="G"/>et przy tym nie zachrupa...</row>
+      <row important_over="false">Wrzasł<ch a="G"/>a Jag<ch a="D"/>uś wniebogł<ch a="h"/>osy,</row>
+      <row important_over="false">podsk<ch a="e"/>oczy<ch a="A"/>ła pod niebi<ch a="D"/>osy</row>
     </block>
     <block type="verse">
-      <row important_over="never">I jak drugi raz przywali! <ch a="D"/></row>
-      <row important_over="never">...a ten bydlak jak ze stali! <ch a="A"/></row>
-      <row important_over="never">Natomiast biedna dziewczyna<ch a="A"/></row>
-      <row important_over="never">Zrobiła się całkiem sina, <ch a="D"/></row>
-      <row important_over="never">Oddech jej się jakby urwał,<ch a="D"/></row>
-      <row important_over="never">Wymamrotała: - O kurwa... <ch a="G"/></row>
-      <row important_over="never">Potem się zaniosła wyciem <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">I się pożegnała z życiem! <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">I j<ch a="D"/>ak drugi raz przywali!</row>
+      <row important_over="false">...a t<ch a="A"/>en bydlak jak ze stali!</row>
+      <row important_over="false">Natomi<ch a="A"/>ast biedna dziewczyna</row>
+      <row important_over="false">zrobi<ch a="D"/>ła się całkiem sina,</row>
+      <row important_over="false">odd<ch a="D"/>ech jej się jakby urwał,</row>
+      <row important_over="false">wymamrot<ch a="G"/>ała: — O kurwa...</row>
+      <row important_over="false">Pot<ch a="G"/>em się zani<ch a="D"/>osła w<ch a="h"/>yciem</row>
+      <row important_over="false">i si<ch a="e"/>ę pożegn<ch a="A"/>ała z ż<ch a="D"/>yciem!</row>
     </block>
     <block type="verse">
-      <row important_over="never">Wniosek: Na ogół umiemy <ch a="D"/></row>
-      <row important_over="never">Rozgryzać własne problemy, <ch a="A"/></row>
-      <row important_over="never">Lecz zagraniczne nowości<ch a="A"/></row>
-      <row important_over="never">Przysparzają nam trudności! <ch a="D"/></row>
-      <row important_over="never">Morał: Tylko wzrost oświaty<ch a="D"/></row>
-      <row important_over="never">Może zmniejszyć nasze straty. <ch a="G"/></row>
-      <row important_over="never">I hasło bezwarunkowo: <ch a="G"/><ch a="Dh"/></row>
-      <row important_over="never">Mniej dupą, a więcej głową!!! <ch a="eA"/><ch a="D"/></row>
+      <row important_over="false">Wni<ch a="D"/>osek: Na ogół umiemy</row>
+      <row important_over="false">rozgr<ch a="A"/>yzać własne problemy,</row>
+      <row important_over="false">lecz zagr<ch a="A"/>aniczne nowości</row>
+      <row important_over="false">przysparz<ch a="D"/>ają nam trudności!</row>
+      <row important_over="false">Mor<ch a="D"/>ał: Tylko wzrost oświaty</row>
+      <row important_over="false">może zmni<ch a="G"/>ejszyć nasze straty.</row>
+      <row important_over="false">I h<ch a="G"/>asło bezw<ch a="D"/>arunk<ch a="h"/>owo:</row>
+      <row important_over="false">mni<ch a="e"/>ej dupą, a wi<ch a="A"/>ęcej gł<ch a="D"/>ową!!!</row>
     </block>
   </lyric>
+  <music metre="2/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album/>
+  <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Jagienka_i_orzechy</verificator>
+      <verificator>http://www.zdjecia.szymczak.waw.pl/szanty/spiewnik_2008-09-07.pdf</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
