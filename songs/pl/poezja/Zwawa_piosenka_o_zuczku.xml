@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Żwawa piosenka o żuczku" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias></alias>
-	<text_author type="solo"></text_author>
+	<text_author type="solo">Wojciech Bellon</text_author>
 	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo">Wolna Grupa Bukowina</artist>
+	<composer type="solo">Wojciech Bellon</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Gdy żre mnie nostalgia i chandra mnie tłucze</row>
-			<row important_over="never">I nuda się czai przy ścianie sowacza, sowacza</row>
+			<row important_over="true"><ch a="C"/>Gdy żre mnie nostalgia i chandra mnie tłucze</row>
+			<row important_over="true">I <ch a="F"/>nuda się czai przy ścianie sowacza, sowacza</row>
 			<bis times="2">
-				<row important_over="never">Pojawia się skądyś na stole mym żuczek</row>
-				<row important_over="never">I nóżki swe drobne rozkracza rozkracza, rozkracza</row>
+				<row important_over="true"><ch a="C"/>Pojawia się skądyś na stole mym żuczek</row>
+				<row important_over="true">I <ch a="F"/>nóżki swe dr<ch a="C"/>obne rozkr<ch a="G"/>acza, rozkracza, rozkr<ch a="C"/>acza</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">I chodzi po gładkiej powierzchni czerniawy</row>
-			<row important_over="never">Tu kropkę zostawi, a tam drobny szlaczek, -bny szlaczek</row>
+			<row important_over="false"><ch a="C"/>I chodzi po gładkiej powierzchni czerniawy</row>
+			<row important_over="false">Tu <ch a="F"/>kropkę zostawi, a tam drobny szlaczek, -bny szlaczek</row>
 			<bis times="2">
-				<row important_over="never">I co raz to w nóżkę podrapie się prawą</row>
-				<row important_over="never">Lub wyrwie spod paszki swej kłaczek, swej kłaczek, swej kłaczek</row>
+				<row important_over="false"><ch a="C"/>I co raz to w nóżkę podrapie się prawą</row>
+				<row important_over="false">Lub <ch a="F"/>wyrwie spod p<ch a="C"/>aszki swej kł<ch a="G"/>aczek, swej kłaczek, swej kł<ch a="C"/>aczek</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ja biorę go w dłonie ostrożnie, lekutko</row>
-			<row important_over="never">Boć mały to żuczek, a nie olbrzym gacek, -brzym gacek</row>
+			<row important_over="false"><ch a="C"/>Ja biorę go w dłonie ostrożnie, lekutko</row>
+			<row important_over="false">Boć <ch a="F"/>mały to żuczek, a nie olbrzym gacek, -brzym gacek</row>
 			<bis times="2">
-				<row important_over="never">A potem za udkiem wyrywam mu udko</row>
-				<row important_over="never">I kciukiem go miażdżę na placek, na placek, na placek</row>
+				<row important_over="false"><ch a="C"/>A potem za udkiem wyrywam mu udko</row>
+				<row important_over="false">I <ch a="F"/>kciukiem go mi<ch a="C"/>ażdżę na pl<ch a="G"/>acek, na placek, na pl<ch a="C"/>acek</row>
 			</bis>
 		</block>
 	</lyric>
-	
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/zwawa-piosenka-o-zuczk-u</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
