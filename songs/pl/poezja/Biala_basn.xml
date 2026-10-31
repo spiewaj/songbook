@@ -1,65 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Biała baśń" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias/>
 	<text_author type="solo">Mirosław Ostrycharz</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">W osypanych śnieżnym puchem<ch a="h"/><ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">Koleinach leśnych dróg<ch a="D7+"/><ch a="E"/><ch a="A7+"/></row>
-			<row important_over="never">Wznieca wiatr nagłym podmuchem<ch a="D7+"/><ch a="cis"/></row>
-			<row important_over="never">Burze lśniących bielą smug.<ch a="D7+"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="true">W osyp<ch a="h"/>anych śni<ch a="cis"/>eżnym p<ch a="fis"/>uchem</row>
+			<row important_over="true">kole<ch a="D7+"/>inach l<ch a="E"/>eśnych dr<ch a="A7+"/>óg</row>
+			<row>wzni<ch a="D7+"/>eca wiatr n<ch a="cis"/>agłym podmuchem</row>
+			<row>b<ch a="D7+"/>urze lśni<ch a="cis"/>ących bi<ch a="fis"/>elą smug.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Świt przejrzysty, wklęty w ciszę,<ch a="h"/><ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">Zatopiony w śnieżną jaśń,<ch a="D7+"/><ch a="E"/><ch a="A7+"/></row>
-			<row important_over="never">Blaskiem słońca w brzozach pisze<ch a="D7+"/><ch a="cis"/></row>
+			<row>Świt przejrz<ch a="h"/>ysty, wkl<ch a="cis"/>ęty w c<ch a="fis"/>iszę,</row>
+			<row>zatopi<ch a="D7+"/>ony w śni<ch a="E"/>eżną j<ch a="A7+"/>aśń,</row>
+			<row>bl<ch a="D7+"/>askiem słońca w brz<ch a="cis"/>ozach pisze</row>
 			<bis times="2">
-				<row important_over="never">Oszronioną, mroźną baśń.<ch a="D7+"/><ch a="cis"/><ch a="E"/><ch a="fis"/><ch a="Fis"/></row>
+				<row>oszroni<ch a="D7+"/>oną, mr<ch a="cis"/>oźn<ch a="E"/>ą b<ch a="fis"/>aśń. <ch a="Fis"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Tak się dziwnie w oczach mieni<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Oszadziały, cichy las…<ch a="h"/><ch a="fis"/></row>
-			<row important_over="never">Pójdźmy w odmęt tej przestrzeni,<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">W której dotąd brakło nas.<ch a="h"/><ch a="cis"/><ch a="D7+"/></row>
+			<row important_over="true">Tak się dzi<ch a="A"/>wnie w oczach mi<ch a="E"/>eni</row>
+			<row important_over="true">oszadz<ch a="h"/>ały, cichy l<ch a="fis"/>as…</row>
+			<row>Pójdźmy w <ch a="D"/>odmęt tej przestrz<ch a="A"/>eni,</row>
+			<row>w której d<ch a="h"/>otąd br<ch a="cis"/>akło n<ch a="D7+"/>as.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Niech nas mrozem wiatr owionie…</row>
-			<row important_over="never">Nim zaginie po nas ślad,</row>
-			<row important_over="never">Razem z nami w snach utonie</row>
-			<row important_over="never">Zbłękitniały, śnieżny świat.</row>
+			<row>Niech nas mr<ch a="h"/>ozem wi<ch a="cis"/>atr owi<ch a="fis"/>onie…</row>
+			<row>Nim zagi<ch a="D7+"/>nie p<ch a="E"/>o nas śl<ch a="A7+"/>ad,</row>
+			<row>razem z n<ch a="D7+"/>ami w snach ut<ch a="cis"/>onie</row>
+			<row>zbłękitni<ch a="D7+"/>ały, śni<ch a="cis"/>eżny świ<ch a="fis"/>at.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zagubimy się w dąbrowie,</row>
-			<row important_over="never">W białych słońcach, w siwych mgłach</row>
-			<row important_over="never">I nikt o nas się nie dowie,</row>
-			<row important_over="never">Gdzieśmy byli, w jakich snach…</row>
+			<row>Zagub<ch a="h"/>imy si<ch a="cis"/>ę w dąbr<ch a="fis"/>owie,</row>
+			<row>w białych sł<ch a="D7+"/>ońcach, w s<ch a="E"/>iwych mgł<ch a="A7+"/>ach,</row>
+			<row>i nikt <ch a="D7+"/>o nas się nie d<ch a="cis"/>owie,</row>
+			<row>gdzieśmy b<ch a="D7+"/>yli, w j<ch a="cis"/>akich sn<ch a="fis"/>ach…</row>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>U źródeł tęsknot</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Mirosław Ostrycharz, Robert Leonhard, zespół Małżeństwo z Rozsądku (album "U źródeł tęsknot", Dalmafon 2000)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/biala-basn</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source/>
 </song>
