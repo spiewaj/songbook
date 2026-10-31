@@ -11,6 +11,17 @@ description: >-
 
 This skill defines the standard operating procedure for deeply verifying and fixing song XML files in `songs/**/*.xml`.
 
+## Critical Rule: Strict Data Integrity & Verification Policy
+> [!CAUTION]
+> **NEVER GUESS, DEDUCE, OR SYNTHESIZE DATA.**
+> - **Zero Tolerance for Hallucinated Chords**: Chords MUST be corroborated by an authoritative, verified source (published songbook, official sheet music, authoritative chords database, or verified acoustic recording). NEVER deduce or hypothesize chord progressions based on poetic meter, rhyme scheme, or "typical ballad progression".
+> - **When Chords Cannot Be Verified**: If thorough research reveals NO authoritative chords or recordings:
+>   - **DO NOT add chords.**
+>   - Leave the lyrics chordless (or keep existing chords unchanged).
+>   - Add an explicit note in `<to_do>` stating that chords could not be verified from public or authoritative sources.
+>   - Do NOT mark `<chords>` under `<status><done>`.
+> - **Authentic Attribution in `<verificator>`**: Every `<verificator>` entry MUST point to a genuine URL or real-world source actually consulted. NEVER invent, fabricate, or assume an unverified source.
+
 ## Overview of What "Deep Verification" Covers
 
 Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
