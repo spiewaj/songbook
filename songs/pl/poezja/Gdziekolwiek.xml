@@ -1,57 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song title="Gdziekolwiek" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdziekolwiek">
+	<alias/>
+	<text_author type="solo">Jan Zych</text_author>
+	<comment/>
+	<composer type="solo">Marek Grechuta</composer>
+	<artist type="solo">Marek Grechuta</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Gdziekolwiek będziesz, cokolwiek się stanie<ch a="e"/></row>
-			<row important_over="never">Będą miejsca w książkach i miejsca przy stole<ch a="D"/></row>
-			<row important_over="never">Kasztan kiedy kwitnie lub owoc otwiera<ch a="C"/></row>
-			<row important_over="never">Będą drzewa, ulice, ktoś nagle zawoła<ch a="h"/></row>
-			<row important_over="never">Ktoś do drzwi zapuka, pamięć przyniesie</row>
-			<row important_over="never">Z kwiatem, z godziną, z kolorem</row>
-			<row important_over="never">Gdziekolwiek będziesz, cokolwiek się stanie</row>
-			<row important_over="never">Gdziekolwiek będziesz</row>
+			<row important_over="true">Gdziek<ch a="e"/>olwiek będziesz, cok<ch a="H"/>olwiek się stanie,</row>
+			<row important_over="true">b<ch a="d"/>ędą miejsca w książkach i miejsca przy stole,</row>
+			<row important_over="true">k<ch a="C"/>asztan, kiedy kwitnie lub owoc otwiera,</row>
+			<row important_over="true">będą drzw<ch a="G"/>ewa, ulice, ktoś nagle zawoła.</row>
+			<row important_over="true">Kt<ch a="e"/>oś do drzwi zapuka, p<ch a="H"/>amięć przyniesie</row>
+			<row important_over="true">z kwi<ch a="d"/>atem, z godziną, z kolorem.</row>
+			<row important_over="true">Gdziek<ch a="C"/>olwiek będziesz, cokolwiek się stanie,</row>
+			<row important_over="true">gdziek<ch a="G"/>olwiek będziesz...</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Gdziekolwiek będziesz, cokolwiek się stanie</row>
-			<row important_over="never">Będą miejsca w książkach i miejsca przy stole</row>
-			<row important_over="never">Kasztan kiedy kwitnie lub owoc otwiera</row>
-			<row important_over="never">Wciąż będzie początek, bo wszędzie są mosty</row>
-			<row important_over="never">Prawdziwe jak powietrze ode mnie do ciebie</row>
-			<row important_over="never">Gdziekolwiek będę, cokolwiek się stanie</row>
-			<row important_over="never">Gdziekolwiek będę</row>
+			<row>Gdziek<ch a="e"/>olwiek będziesz, cok<ch a="H"/>olwiek się stanie,</row>
+			<row>b<ch a="d"/>ędą miejsca w książkach i miejsca przy stole,</row>
+			<row>k<ch a="C"/>asztan, kiedy kwitnie lub owoc otwiera,</row>
+			<row>wciąż b<ch a="G"/>ędzie początek, bo wszędzie są mosty</row>
+			<row>prawdz<ch a="e"/>iwe jak powietrze, od<ch a="H"/>e mnie do ciebie,</row>
+			<row>gdziek<ch a="d"/>olwiek będę, cokolwiek się stanie,</row>
+			<row>gdziek<ch a="C"/>olwiek będę... <ch a="G"/></row>
 		</block>
-		<block type="verse">
-			<row important_over="never">Gdziekolwiek będziesz, cokolwiek się stanie</row>
-			<row important_over="never">Będą miejsca w książkach i miejsca przy stole</row>
-			<row important_over="never">Kasztan kiedy kwitnie lub owoc otwiera</row>
-			<row important_over="never">Będą drzewa, ulice, ktoś nagle zawoła</row>
-			<row important_over="never">Ktoś do drzwi zapuka, pamięć przyniesie</row>
-			<row important_over="never">Z kwiatem, z godziną, z kolorem</row>
-			<row important_over="never">Gdziekolwiek będziesz, cokolwiek się stanie</row>
-			<row important_over="never">Gdziekolwiek będziesz</row>
-		</block>
+		<blocklink blocknb="1"/>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>Droga za widnokres</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Jan Zych (wiersz „Gdziekolwiek”), Marek Grechuta (muzyka)</verificator>
+			<verificator>Album: Marek Grechuta – „Droga za widnokres” (1972)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/gdziekolwiek</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source/>
 </song>
