@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dom wschodzącego słońca">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Przez ciemne szyby zagląda już mrok<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>W łóżeczku mały chłopiec śpi<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Sen jakiś dziwny wykrzywił mu twarz<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Pod powiekami lśnią łzy<ch a="E"/><ch a="a"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Wczoraj wieczorem dowiedział się że<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Jest w Orleanie taki dom<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Wschodzącym Słońcem nazywa się go<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Mieszkają w nim chłopcy jak on<ch a="E"/><ch a="a"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>W oknach ma kraty przy drzwiach stoi stróż<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>I patrzy wzrokiem ponurym<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Na małych chłopców więzienny ich strój<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Na ogolone głowy<ch a="E"/><ch a="a"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Ale nadzieja nie zgaśnie w nich<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Pomimo więziennych murów cel<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Wschodzące słońce zabłyśnie znów<ch a="C"/><ch a="D"/><ch a="F"/></row>
-      <row important_over="never"><ch a="a"/>Nad małym domem w kraju tym<ch a="E"/><ch a="C"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Polska wersja ogniskowa amerykańskiej ballady „The House of the Rising Sun”.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">The Animals</artist>
+	<translator>autor nieznany</translator>
+	<original_title>The House of the Rising Sun</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Przez ci<ch a="a"/>emne szyby zagl<ch a="C"/>ąda już mr<ch a="D"/>ok, <ch a="F"/></row>
+			<row important_over="true">w łóż<ch a="a"/>eczku mały chł<ch a="C"/>opiec śp<ch a="E"/>i. <ch a="E7"/></row>
+			<row important_over="true">S<ch a="a"/>en jakiś dziwny wykrzk<ch a="C"/>ywił mu tw<ch a="D"/>arz, <ch a="F"/></row>
+			<row important_over="true">p<ch a="a"/>od powiek<ch a="E"/>ami lśnią łz<ch a="a"/>y. <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row>Wcz<ch a="a"/>oraj wieczorem dow<ch a="C"/>iedział się, ż<ch a="D"/>e <ch a="F"/></row>
+			<row>j<ch a="a"/>est w Orleanie t<ch a="C"/>aki d<ch a="E"/>om, <ch a="E7"/></row>
+			<row>Wsch<ch a="a"/>odzącym Słońcem naz<ch a="C"/>ywa się g<ch a="D"/>o, <ch a="F"/></row>
+			<row>mi<ch a="a"/>eszkają w n<ch a="E"/>im chłopcy jak <ch a="a"/>on. <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row>W <ch a="a"/>oknach ma kraty, przy drzwi<ch a="C"/>ach stoi str<ch a="D"/>óż <ch a="F"/></row>
+			<row>i p<ch a="a"/>atrzy wzrokiem pon<ch a="C"/>ur<ch a="E"/>ym <ch a="E7"/></row>
+			<row>n<ch a="a"/>a małych chłopców, więzi<ch a="C"/>enny ich str<ch a="D"/>ój, <ch a="F"/></row>
+			<row>n<ch a="a"/>a ogol<ch a="E"/>one gł<ch a="a"/>owy. <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row>A<ch a="a"/>le nadzieja nie zg<ch a="C"/>aśnie w n<ch a="D"/>ich <ch a="F"/></row>
+			<row>pom<ch a="a"/>imo więziennych m<ch a="C"/>urów c<ch a="E"/>el, <ch a="E7"/></row>
+			<row>wsch<ch a="a"/>odzące słońce zabł<ch a="C"/>yśnie zn<ch a="D"/>ów <ch a="F"/></row>
+			<row>n<ch a="a"/>ad małym d<ch a="E"/>omem w kraju t<ch a="a"/>ym. <ch a="E"/></row>
+		</block>
+	</lyric>
+	<music metre="6/8">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Folk</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Amerykańska ballada tradycyjna „The House of the Rising Sun”</verificator>
+			<verificator>Polska wersja ogniskowa (autor przekładu nieznany)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/dom-wschodzacego-slonca</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
