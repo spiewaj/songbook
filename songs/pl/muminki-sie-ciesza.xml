@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Muminki się cieszą radością i życiem">
+  <lyric>
+    <block type="verse">
+      <row important_over="false">Między wzgórzami, pod lasem ukryty,</row>
+      <row important_over="false">Muminków kraj budzi sny i zachwyty -</row>
+      <row important_over="false">tam żyją, przy sobie, ot tak...</row>
+      <row important_over="false">pięćdziesiąt lat...</row>
+      <row important_over="false">Tam tak już jest, że w pokoju się żyje</row>
+      <row important_over="false">i miłość, szacunek tam rządzą, nie kije.</row>
+      <row important_over="false">Miłością się darzą od lat,</row>
+      <row important_over="false">bo noszą ją w sercu co dnia.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="never">Muminki się cieszą radością i życiem</row>
+      <row important_over="never">Muminki!</row>
+      <row important_over="never">i tym, że im chmurki bieleją o świcie,</row>
+      <row important_over="never">Muminki!</row>
+      <row important_over="never">że wszystko jest dobre i jasne jak błysk,</row>
+      <row important_over="never">że one kochają, że kochasz je ty!</row>
+      <row important_over="never">Muminki!</row>
+      <row important_over="never">Muminki</row>
+    </block>
+    <block type="verse">
+      <row important_over="never">Tam ma papa-Mumin kapelusz na głowie,</row>
+      <row important_over="never">a mama torebkę, i nikt mi nie powie,</row>
+      <row important_over="never">że inna od innych jest mam.</row>
+      <row important_over="never">Ja taką mam.</row>
+      <row important_over="never">Muminek ma także najlepszych przyjaciół:</row>
+      <row important_over="never">Włóczykij i Ryjek tak wiele dlań znaczą,</row>
+      <row important_over="never">a Mała Mi, wścibska jak skrzat,</row>
+      <row important_over="never">psoci od lat, choć kocha go tak.</row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
