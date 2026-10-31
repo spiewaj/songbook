@@ -6,57 +6,66 @@
   <artist type="band">Małgorzata Zwierzchowska i Olek Grotowski</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">...więc była raz sobie żabka zbudowana z mnóstwa atomów</row>
-      <row important_over="never">(bo z atomów wszystko się składa, począwszy od żabek do domów</row>
-      <row important_over="never">I do ludzi. Z atomów ty się składasz i twoja ciocia),</row>
-      <row important_over="never">Ale wracajmy do żabki. Otóż tę żabkę zjadł bocian,</row>
+      <row important_over="true">...więc b<ch a="C"/>yła raz sobie żabka zbudow<ch a="G"/>ana z mnóstwa atomów</row>
+      <row important_over="true">(bo z at<ch a="F"/>omów wszystko się składa, pocz<ch a="G"/>ąwszy od żabek do d<ch a="C"/>omów</row>
+      <row important_over="false">I do l<ch a="C"/>udzi. Z atomów ty się składasz <ch a="G"/>i twoja ciocia),</row>
+      <row important_over="false">Ale wr<ch a="F"/>acajmy do żabki. Ot<ch a="G"/>óż tę żabkę zjadł b<ch a="C"/>ocian,</row>
     </block>
     <block type="verse">
-      <row important_over="never">I strawił ją dokładnie paskudny bocian ladaco,</row>
-      <row important_over="never">I śliczną, zieloną żabkę przerobił, nie powiem wam na co,</row>
-      <row important_over="never">I to coś spadło na ziemię. Była wiosna, świeciło słonko,</row>
-      <row important_over="never">I wietrzyk przyniósł z daleka jakieś nieduże nasionko,</row>
+      <row important_over="false">I str<ch a="C"/>awił ją dokładnie pask<ch a="G"/>udny bocian ladaco,</row>
+      <row important_over="false">I śl<ch a="F"/>iczną, zieloną żabkę przer<ch a="G"/>obił, nie powiem wam n<ch a="C"/>a co,</row>
+      <row important_over="false">I to c<ch a="C"/>oś spadło na ziemię. Była wi<ch a="G"/>osna, świeciło słonko,</row>
+      <row important_over="false">I wi<ch a="F"/>etrzyk przyniósł z daleka j<ch a="G"/>akieś nieduże nasi<ch a="C"/>onko,</row>
     </block>
     <block type="verse">
-      <row important_over="never">I usadził je na tej hm... żabce, i przeszedł jeden dzionek</row>
-      <row important_over="never">I drugi, i z tego nasionka wylazł od dołu korzonek,</row>
-      <row important_over="never">A od góry to znowuż łodyżka, czy – jeśli wolicie – szypułka,</row>
-      <row important_over="never">I kwiatek na tej szypułce, a na kwiatku usiadła pszczółka</row>
+      <row important_over="false">I us<ch a="C"/>adził je na tej hm... żabce, i prz<ch a="G"/>eszedł jeden dzionek</row>
+      <row important_over="false">I dr<ch a="F"/>ugi, i z tego nasionka wyl<ch a="G"/>azł od dołu korz<ch a="C"/>onek,</row>
+      <row important_over="false">A od g<ch a="C"/>óry to znowuż łodyżka, czy – j<ch a="G"/>eśli wolicie – szypułka,</row>
+      <row important_over="false">I kwi<ch a="F"/>atek na tej szypułce, a n<ch a="G"/>a kwiatku usiadła pszcz<ch a="C"/>ółka</row>
     </block>
     <block type="verse">
-      <row important_over="never">I kroplę miodu wyjęła pyszczkiem czy może łapką,</row>
-      <row important_over="never">Nie myśląc wcale o tym, że ten miód był niedawno żabką.</row>
-      <row important_over="never">Więc podsumujmy: Część żabki bocianowi wrosła w pierze,</row>
-      <row important_over="never">Część jest w ziemi, część w kwiatku, część w miodzie, który</row>
-      <row important_over="never">pszczółka właśnie bierze.</row>
+      <row important_over="false">I kr<ch a="C"/>oplę miodu wyjęła p<ch a="G"/>yszczkiem czy może łapką,</row>
+      <row important_over="false">Nie m<ch a="F"/>yśląc wcale o tym, że ten mi<ch a="G"/>ód był niedawno ż<ch a="C"/>abką.</row>
+      <row important_over="false">Więc pods<ch a="C"/>umujmy: Część żabki bocian<ch a="G"/>owi wrosła w pierze,</row>
+      <row important_over="false">Część jest w zi<ch a="F"/>emi, część w kwiatku, część w mi<ch a="G"/>odzie, który pszczółka właśnie bi<ch a="C"/>erze.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Lecz nim go zaniesie do ula, to trochę uszczknie czułką</row>
-      <row important_over="never">I połknie, i ciut tej żabki stanie się właśnie pszczółką,</row>
-      <row important_over="never">A resztę, zawartą w miodzie, zjedzą na śniadanie dzieci,</row>
-      <row important_over="never">I tak się początkowa żabka po całym świecie rozleci,</row>
+      <row important_over="false">Lecz n<ch a="C"/>im go zaniesie do ula, to tr<ch a="G"/>ochę uszczknie czułką</row>
+      <row important_over="false">I p<ch a="F"/>ołknie, i ciut tej żabki st<ch a="G"/>anie się właśnie pszcz<ch a="C"/>ółką,</row>
+      <row important_over="false">A r<ch a="C"/>esztę, zawartą w miodzie, zjedz<ch a="G"/>ą na śniadanie dzieci,</row>
+      <row important_over="false">I t<ch a="F"/>ak się początkowa żabka po c<ch a="G"/>ałym świecie rozl<ch a="C"/>eci,</row>
     </block>
     <block type="verse">
-      <row important_over="never">A każdy atom w czymś innym, ba! Nawet w innym kraju!</row>
-      <row important_over="never">Ale, być może, za milion lat te atomy się znowu spotkają</row>
-      <row important_over="never">Zgodnie z rachunkiem prawdopodobieństwa, i po króciutkiej odsapce</row>
-      <row important_over="never">Powiedzą: – Toż myśmy przecież już były raz w jednej żabce!</row>
+      <row important_over="false">A k<ch a="C"/>ażdy atom w czymś innym, b<ch a="G"/>a! Nawet w innym kraju!</row>
+      <row important_over="false">Ale, b<ch a="F"/>yć może, za milion lat te at<ch a="G"/>omy się znowu spotk<ch a="C"/>ają</row>
+      <row important_over="false">Zgodnie z rach<ch a="C"/>unkiem prawdopodobieństwa, i p<ch a="G"/>o króciutkiej odsapce</row>
+      <row important_over="false">Powi<ch a="F"/>edzą: – Toż myśmy przecież już b<ch a="G"/>yły raz w jednej ż<ch a="C"/>abce!</row>
     </block>
     <block type="verse">
-      <row important_over="never">I zaczną się ściskać, całować, i będzie wielka laba,</row>
-      <row important_over="never">A potem się zastanowią: – Czy my znowu jesteśmy żaba?</row>
-      <row important_over="never">Ba! Któż to może wiedzieć? Ten twór, zupełnie nowy,</row>
-      <row important_over="never">To może być żaba – rzekotka lub Żabka Alojzy, księgowy,</row>
+      <row important_over="false">I z<ch a="C"/>aczną się ściskać, całować, i b<ch a="G"/>ędzie wielka laba,</row>
+      <row important_over="false">A p<ch a="F"/>otem się zastanowią: – Czy m<ch a="G"/>y znowu jesteśmy ż<ch a="C"/>aba?</row>
+      <row important_over="false">B<ch a="C"/>a! Któż to może wiedzieć? Ten tw<ch a="G"/>ór, zupełnie nowy,</row>
+      <row important_over="false">To m<ch a="F"/>oże być żaba – rzekotka lub Ż<ch a="G"/>abka Alojzy, księg<ch a="C"/>owy,</row>
     </block>
     <block type="verse">
-      <row important_over="never">Lub... zresztą któż wszystkie ewentualności wymieni?</row>
-      <row important_over="never">O rany... koledzy... to straszne, z czego my jesteśmy zrobieni!</row>
+      <row important_over="false">L<ch a="C"/>ub... zresztą któż wszystkie ewentu<ch a="G"/>alności wymieni?</row>
+      <row important_over="false">O r<ch a="F"/>any... koledzy... to straszne, z cz<ch a="G"/>ego my jesteśmy zrob<ch a="C"/>ieni!</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
   <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/olek-grotowski-i-malgosia-zwierzchowska/wyklad-o-krazeniu-materii</verificator>
+      <verificator>https://www.youtube.com/watch?v=kMlnbW_Rq5Q</verificator>
+    </verificators>
   </status>
 </song>
