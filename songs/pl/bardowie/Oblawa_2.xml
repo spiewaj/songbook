@@ -1,61 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obława 2">
-  <alias/>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obława II">
+  <alias>Obława II (z helikopterów)</alias>
   <text_author>Jacek Kaczmarski</text_author>
-  <comment/>
+  <comment>wg Włodzimierza Wysockiego; napisana 9 kwietnia 1983 r.</comment>
   <composer type="solo">Jacek Kaczmarski</composer>
   <artist type="solo">Jacek Kaczmarski</artist>
-  <translator/>
-  <original_title/>
+  <album>Kosmopolak</album>
+  <genre>Poezja śpiewana</genre>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Obce lasy przebiegłem serce szarpie mi krtań<ch a="H"/><ch a="e"/></row>
-      <row important_over="never"><ch a="H"/>Nie ze strachu z wściekłości rozpaczy<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Ślad po wilczych gromadach mchy pokryły i darń<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Niedobitki los cierpią sobaczy<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>Z gąszczu żaden kudłaty pysk nie wyjrzy na krok<ch a="C"/></row>
-      <row important_over="never"><ch a="H"/>W ślepiach obłęd lęk chciwość lub zdrada<ch a="a"/><ch a="H"/></row>
-      <row important_over="never"><ch a="a"/>Na otwartych przestrzeniach dawno znikł wilchy trop<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Wilk wie dobrze czym pachnie zagłada<ch a="H"/></row>
+      <row important_over="true"><ch a="e"/>Obce lasy przemierzam, serce szarpie mi krtań!<ch a="H"/><ch a="e"/></row>
+      <row><ch a="H"/>Nie ze strachu – z wściekłości, z rozpaczy!<ch a="e"/></row>
+      <row><ch a="a"/>Ślad po wilczych gromadach mchy pokryły i darń,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="E"/>Niedobitki los cierpią sobaczy!<ch a="a"/></row>
+      <row><ch a="H"/>Z gąszczu żaden kudłaty pysk nie wyjrzy na krok,<ch a="C"/></row>
+      <row><ch a="H"/>W ślepiach obłęd, lęk, chciwość lub zdrada!<ch a="a"/><ch a="H"/></row>
+      <row><ch a="a"/>Na otwartych przestrzeniach dawno znikł wilczy trop,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="C"/>Wilk wie dobrze, czym pachnie zagłada!<ch a="H"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="e"/>Słyszę wciąż i uszom nie wierzę<ch a="a"/></row>
-      <row important_over="never"><ch a="Fis"/>Lecz potwierdza to wzrok wszystko mi<ch a="H"/></row>
-      <row important_over="never"><ch a="e"/>Zwierzem jesteś i żyjesz jak zwierze<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Lecz nie wilki nie wilki już wy<ch a="H"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Słyszę wciąż i uszom nie wierzę,<ch a="a"/></row>
+      <row><ch a="Fis"/>Lecz potwierdza co krok wszystko mi:<ch a="H"/></row>
+      <row><ch a="e"/>Zwierzem jesteś i żyjesz jak zwierzę,<ch a="a"/></row>
+      <row><ch a="C"/>Lecz nie wilki, nie wilki już wy!<ch a="H"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Myśli brat że bezpieczny skoro schronił się w las<ch a="H"/><ch a="e"/></row>
-      <row important_over="never"><ch a="H"/>Lecz go ściga nie Bóg ściga człowiek<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Śmigieł świst nad głowami grad pocisków i wrzask<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Co wyrywa źrenice spod powiek<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>Strzelców twarze pijane — w drzew konarach znad luf<ch a="C"/></row>
-      <row important_over="never"><ch a="H"/>Wrzący deszcz wystrzelonych ładunków<ch a="a"/><ch a="H"/></row>
-      <row important_over="never"><ch a="a"/>To już nie polowanie nie obława nie łów<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>To planowe niszczenie gatunków<ch a="H"/></row>
+      <row><ch a="e"/>Myśli brat, że bezpieczny, skoro schronił się w las,<ch a="H"/><ch a="e"/></row>
+      <row><ch a="H"/>Lecz go ściga nie Bóg – ściga człowiek!<ch a="e"/></row>
+      <row><ch a="a"/>Śmigieł świst nad głowami, grad pocisków i wrzask,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="E"/>Co wyrywa źrenice spod powiek!<ch a="a"/></row>
+      <row><ch a="H"/>Strzelców twarze pijane w drzew koronach znad luf,<ch a="C"/></row>
+      <row><ch a="H"/>Wrzący deszcz wystrzelonych ładunków!<ch a="a"/><ch a="H"/></row>
+      <row><ch a="a"/>To już nie polowanie, nie obława, nie łów!<ch a="E"/><ch a="a"/></row>
+      <row><ch a="C"/>To planowe niszczenie gatunku!<ch a="H"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="e"/>Z rąk w mundurach z helikopterów<ch a="a"/></row>
-      <row important_over="never"><ch a="Fis"/>Maszynowa broń wbija we łby<ch a="H"/></row>
-      <row important_over="never"><ch a="e"/>Czarne kule i wrzask oficerów<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Wy nie wilki nie wilki już wy<ch a="H"/><ch a="e"/></row>
+      <row><ch a="e"/>Z rąk w mundurach, z helikopterów<ch a="a"/></row>
+      <row><ch a="Fis"/>Maszynowa broń wbija we łby<ch a="H"/></row>
+      <row><ch a="e"/>Czarne kule i wrzask oficerów:<ch a="a"/></row>
+      <row><ch a="C"/>Wy nie wilki, nie wilki już wy!<ch a="H"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Kto nie popadł w szaleństwo kto nie poszedł pod strzał<ch a="H"/><ch a="e"/></row>
-      <row important_over="never"><ch a="H"/>Jeszcze biegnie klucząc po norach<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Lecz już nie ma kryjówek które miał które znał<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Wszędzie wściekła wywęszy go sfora<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>I pomyśleć że kiedyś ją traktował jak łup<ch a="C"/></row>
-      <row important_over="never"><ch a="H"/>Który nie wart wilczych był kłów<ch a="a"/><ch a="H"/></row>
-      <row important_over="never"><ch a="a"/>Dziś krewniaka swym panom zawloką do stóp<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Lub poszarpią na rozkaz bez słów!<ch a="H"/></row>
+      <row><ch a="e"/>Kto nie popadł w szaleństwo, kto nie poszedł pod strzał<ch a="H"/><ch a="e"/></row>
+      <row><ch a="H"/>Jeszcze biegnie klucząc po norach,<ch a="e"/></row>
+      <row><ch a="a"/>Lecz już nie ma kryjówek, które miał, które znał,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="E"/>Wszędzie wściekła wywęszy go sfora!<ch a="a"/></row>
+      <row><ch a="H"/>I pomyśleć, że kiedyś ją traktował jak łup,<ch a="C"/></row>
+      <row><ch a="H"/>Który niewart wilczych był kłów!<ch a="a"/><ch a="H"/></row>
+      <row><ch a="a"/>Dziś krewniaka swym panom zawloką do stóp,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="C"/>Lub rozszarpią na rozkaz bez słów!<ch a="H"/></row>
+    </block>
+    <block type="chorus">
+      <row><ch a="e"/>Bo kto biegnie – zginie dziś w biegu!<ch a="a"/></row>
+      <row><ch a="Fis"/>A kto stanął – padnie gdzie stał!<ch a="H"/></row>
+      <row><ch a="e"/>Krwią w panice piszemy na śniegu:<ch a="a"/></row>
+      <row><ch a="C"/>My nie wilki, my mięso na strzał!<ch a="H"/><ch a="e"/></row>
+    </block>
+    <block type="verse">
+      <row><ch a="e"/>Ten skowycze trafiony, tamten skomli na wznak,<ch a="H"/><ch a="e"/></row>
+      <row><ch a="H"/>Cóż, ja sam nic tu zrobić nie mogę.<ch a="e"/></row>
+      <row><ch a="a"/>Niech się zdarzy, co musi się zdarzyć i tak,<ch a="E"/><ch a="a"/></row>
+      <row><ch a="E"/>Kiedy pocisk zabiegnie mi drogę!<ch a="a"/></row>
+      <row><ch a="H"/>Starą ranę na karku rozszarpuję do krwi,<ch a="C"/></row>
+      <row><ch a="H"/>Ale póki wilk krwawi – wilk żyw!<ch a="a"/><ch a="H"/></row>
+      <row><ch a="a"/>Więc to jeszcze nie śmierć! Śmierć ostrzejsze ma kły!<ch a="E"/><ch a="a"/></row>
+      <row><ch a="C"/>Nie mój tryumf, lecz zwycięstwo – nie ich!<ch a="H"/></row>
+    </block>
+    <block type="chorus">
+      <row><ch a="e"/>Na nic skowyt we wrzawie i skarga!<ch a="a"/></row>
+      <row><ch a="Fis"/>Póki w żyłach starczy mi krwi<ch a="H"/></row>
+      <row><ch a="e"/>Pierwszy bratu skoczę do gardła,<ch a="a"/></row>
+      <row><ch a="C"/>Gdy zawyje – nie wilki już my!<ch a="H"/><ch a="e"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="2/4">
     <guitar barre="0"/>
   </music>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/oblawa-ii-z-helikopterow/</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
