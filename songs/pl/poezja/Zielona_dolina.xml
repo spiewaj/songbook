@@ -2,60 +2,61 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zielona dolina">
 	<alias></alias>
 	<text_author type="solo">Janusz Kubicki</text_author>
-	<comment></comment>
+	<comment>Piosenka zespołu Trzy Dni Tyłem. Nie ma oficjalnego wydawnictwa.</comment>
 	<composer type="band">Trzy Dni Tyłem</composer>
 	<artist type="band">Trzy Dni Tyłem</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
 			<row important_over="never">Chcę dzień nowy zawsze witać</row>
-			<row important_over="never">Gdzieś daleko razem z tobą</row>
-			<row important_over="never">Zapach siana w stajni wdychać</row>
-			<row important_over="never">Kurz przebytej drogi</row>
-			<row important_over="never">Chcę mieć z tobą piec kaflowy</row>
-			<row important_over="never">Dwoje dzieci i podróże</row>
-			<row important_over="never">Trochę słońca, a gdy trzeba</row>
-			<row important_over="never">Z piorunami burze</row>
+			<row important_over="never">Gdzieś daleko razem z tobą,</row>
+			<row important_over="never">Zapach siana w stajni wdychać,</row>
+			<row important_over="never">Kurz przebytej drogi.</row>
+			<row important_over="never">Chcę mieć z tobą piec kaflowy,</row>
+			<row important_over="never">Dwoje dzieci i podróże,</row>
+			<row important_over="never">Trochę słońca, a gdy trzeba —</row>
+			<row important_over="never">Z piorunami burze.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="never">Czeka nas w dolinie</row>
-			<row important_over="never">Gdzieś na końcu świata</row>
+			<row important_over="never">Gdzieś na końcu świata,</row>
 			<row important_over="never">Zima sroga, a daleka</row>
-			<row important_over="never">I jesienna chlapa</row>
-			<row important_over="never">Czeka nas w dolinie drewniane poddasze</row>
+			<row important_over="never">I jesienna chlapa.</row>
+			<row important_over="never">Czeka nas w dolinie drewniane poddasze,</row>
 			<row important_over="never">Dzikie wino na murze</row>
-			<row important_over="never">I senny bieg zdarzeń</row>
+			<row important_over="never">I senny bieg zdarzeń.</row>
 			<row important_over="never">Czeka nas w dolinie urwana rozmowa</row>
-			<row important_over="never">I kołyska pod ścianą</row>
-			<row important_over="never">Buk, klon i brzoza</row>
+			<row important_over="never">I kołyska pod ścianą —</row>
+			<row important_over="never">Buk, klon i brzoza.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Chcę dla Ciebie słów i ciszy</row>
-			<row important_over="never">Niepokojów, które łamią</row>
+			<row important_over="never">Chcę dla Ciebie słów i ciszy,</row>
+			<row important_over="never">Niepokojów, które łamią,</row>
 			<row important_over="never">Wierszy, które ukołyszą</row>
-			<row important_over="never">I nie będą kłamać</row>
-			<row important_over="never">Chcę dla Ciebie wrarzeń myśli</row>
-			<row important_over="never">Tych nie dokończonch</row>
+			<row important_over="never">I nie będą kłamać.</row>
+			<row important_over="never">Chcę dla Ciebie wrażeń, myśli</row>
+			<row important_over="never">Tych niedokończonych,</row>
 			<row important_over="never">Nocy, które ukołyszą</row>
-			<row important_over="never">Miłość twą szaloną</row>
+			<row important_over="never">Miłość twą szaloną.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="">
 		<guitar barre="0"/>
 	</music>
-	<status>
-		<verificators><verificator>Taboret</verificator>
-			
-		</verificators>
-		<to_do>Na podstawie informacji od p. Krzysztofa Mazurkiewicza</to_do>
-		<done>
-			<authors/>
-		</done>
-	</status>
 	<keywords/>
-	<music_source></music_source>
 	<album></album>
 	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+		</done>
+		<verificators>
+			<verificator>Taboret</verificator>
+			<verificator>Krzysztof Mazurkiewicz (Trzy Dni Tyłem)</verificator>
+		</verificators>
+		<to_do>Na podstawie informacji od p. Krzysztofa Mazurkiewicza. Brak publicznie dostępnego nagrania / śpiewnika z chwytami zespołu Trzy Dni Tyłem – akordy wymagają uzupełnienia z materiałów archiwalnych.</to_do>
+	</status>
 </song>
