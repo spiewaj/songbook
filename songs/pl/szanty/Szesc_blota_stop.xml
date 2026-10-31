@@ -1,57 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sześć błota stóp">
   <alias/>
-  <text_author>Henryk Czekała</text_author>
-  <comment>Six Feet of mud</comment>
+  <text_author type="solo">Henryk Czekała</text_author>
+  <comment>Polska wersja pieśni „Six Feet of Mud” Cyrila Tawneya. Słowa polskie: Henryk „Szkot” Czekała.</comment>
   <composer type="solo">Cyril Tawney</composer>
   <artist type="band">Mechanicy Shanty</artist>
   <translator/>
-  <original_title/>
+  <original_title>Six Feet of Mud</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never">Sześć błota stóp</row>
-      <row important_over="never">Sześć błota stóp</row>
-      <row important_over="never">Uderz w bęben już</row>
-      <row important_over="never">Bo nadszedł mój czas</row>
-      <row important_over="never">Wrzućcie mnie do wody</row>
-      <row important_over="never">Na wieczną wachtę trza nam gdzie</row>
+      <row important_over="true"><ch a="e"/>Sześć błota stóp,</row>
+      <row important_over="false"><ch a="e"/>Sześć błota stóp.</row>
+      <row important_over="true"><ch a="e"/>Uderz w bęben j<ch a="h"/>uż,</row>
+      <row important_over="true"><ch a="e"/>Bo nadszedł m<ch a="D"/>ój cz<ch a="e"/>as.</row>
+      <row important_over="true">Wrz<ch a="h"/>ućcie mnie do w<ch a="e"/>ody,</row>
+      <row important_over="true">Na wieczną wachtę trz<ch a="H7"/>a, tam gdzie…</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Sześć błota stóp</row>
-      <row important_over="never">Sześć błota stóp</row>
-      <row important_over="never">Dziewięć sążni wody</row>
-      <row important_over="never">I sześć błota stóp</row>
+      <row important_over="true"><ch a="e"/>Sześć bł<ch a="D"/>ota st<ch a="e"/>óp,<ch a="D"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Sześć bł<ch a="D"/>ota st<ch a="e"/>óp,<ch a="D"/><ch a="e"/></row>
+      <row important_over="true">Dzi<ch a="e"/>ewięć s<ch a="D"/>ążni w<ch a="e"/>ody<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">I sz<ch a="e"/>eść bł<ch a="D"/>ota st<ch a="e"/>óp.<ch a="D"/><ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Ściągnijcie flagę w dół</row>
-      <row important_over="never">Uszyjcie worek mi</row>
-      <row important_over="never">Dwie kule przy nogach</row>
-      <row important_over="never">Ostatni ścieg bez krwi no i</row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never">Na wachcie więcej już</row>
-      <row important_over="never">Nie ujrzycie chyba mnie</row>
-      <row important_over="never">Kończę ziemską podróż</row>
-      <row important_over="never">Do Hilo dotrę wnet tam gdzie</row>
+      <row important_over="false"><ch a="e"/>Ściągnijcie flagę w d<ch a="h"/>ół,</row>
+      <row important_over="false"><ch a="e"/>Uszyjcie w<ch a="D"/>orek m<ch a="e"/>i.</row>
+      <row important_over="false">Dwi<ch a="h"/>e kule przy n<ch a="e"/>ogach,</row>
+      <row important_over="false">Ostatni ścieg bez krw<ch a="H7"/>i, no i…</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">A ląd daleko jest</row>
-      <row important_over="never">Przed wami setki mil</row>
-      <row important_over="never">A mnie pozostało</row>
-      <row important_over="never">Do lądu kilka chwil no i</row>
+      <row important_over="false"><ch a="e"/>Na wachcie więcej j<ch a="h"/>uż</row>
+      <row important_over="false"><ch a="e"/>Nie ujrzycie ch<ch a="D"/>yba mni<ch a="e"/>e.</row>
+      <row important_over="false">K<ch a="h"/>ończę ziemską p<ch a="e"/>odróż,</row>
+      <row important_over="false">Do Hilo dotrę wn<ch a="H7"/>et, tam gdzie…</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Sześć błota stóp, sześć błota stóp, sześć błota stóp</row>
+      <row important_over="false"><ch a="e"/>A ląd daleko j<ch a="h"/>est,</row>
+      <row important_over="false"><ch a="e"/>Przed wami s<ch a="D"/>etki m<ch a="e"/>il.</row>
+      <row important_over="false"><ch a="h"/>A mnie pozost<ch a="e"/>ało</row>
+      <row important_over="false">Do lądu kilka chw<ch a="H7"/>il, no i…</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="other">
+      <row important_over="false"><ch a="e"/>Sześć błota stóp, <ch a="D"/>sześć błota st<ch a="e"/>óp, <ch a="D"/>sześć błota st<ch a="e"/>óp.</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Szanty</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/mechanicy-shanty/szesc-blota-stop</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
