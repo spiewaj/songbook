@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Do szopy, hej, pasterze">
   <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna kolęda polska powstała w XIX wieku.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Do szopy, hej, pasterze</row>
-      <row important_over="never">Do szopy bo tam cud</row>
-      <row important_over="never">Syn boży w żłobie leży</row>
-      <row important_over="never">By zbawić ludzki ród</row>
+      <row important_over="true"><ch a="D"/>Do szopy, hej, past<ch a="A"/>erze,</row>
+      <row important_over="true"><ch a="A7"/>Do szopy, bo tam c<ch a="D"/>ud,</row>
+      <row important_over="false"><ch a="D"/>Syn Boży w żłobie l<ch a="A"/>eży,</row>
+      <row important_over="false"><ch a="A7"/>By zbawić ludzki r<ch a="D"/>ód.</row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Śpiewajcie aniołowie, pasterze grajcie mu</row>
-        <row important_over="never">Kłaniajcie się królowie, nie zbudźcie go ze snu</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="G"/>Śpiewajcie anioł<ch a="D"/>owie, p<ch a="A"/>asterze grajcie m<ch a="D"/>u,</row>
+        <row important_over="true"><ch a="G"/>Kłaniajcie się król<ch a="D"/>owie, ni<ch a="A"/>e zbudźcie go ze sn<ch a="D"/>u.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Padnijmy na kolana</row>
-      <row important_over="never">To dziecię to nasz Bóg</row>
-      <row important_over="never">Witajmy swego pana</row>
-      <row important_over="never">Miłości złóżmy dług</row>
+      <row important_over="false"><ch a="D"/>Padnijmy na kol<ch a="A"/>ana,</row>
+      <row important_over="false"><ch a="A7"/>To dziecię, to nasz B<ch a="D"/>óg,</row>
+      <row important_over="false"><ch a="D"/>Witajmy swego P<ch a="A"/>ana,</row>
+      <row important_over="false"><ch a="A7"/>Miłości złóżmy dł<ch a="D"/>ug.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="2/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Kolęda</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Do_szopy_hej_pasterze/tekst</verificator>
+      <verificator>https://spiewnik.wywrota.pl/koledy/do-szopy-hej-pasterze</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
