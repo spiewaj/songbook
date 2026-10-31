@@ -49,6 +49,10 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
      - Minor chords: lowercase (`c`, `d`, `e`, `f`, `g`, `a`, `h`, `b`, `fis`, `cis`, `gis`, `dis`, `es`). Note: `h` is B-minor (`Bm`) and `e` is E-minor (`Em`)!
    - Convert international chord symbols (`Bm` -> `h`, `Em` -> `e`, `Am` -> `a`, `Dm` -> `d`, `F#m` -> `fis`, `C#m` -> `cis`, `Bb` -> `B`, `B` -> `H`) when adapting tabs from English/foreign sources.
    - Ensure chords are placed inline (`<ch a="..."/>`) right before the syllable where the chord change occurs.
+   - **Spacing Semantics Around `<ch>`**:
+     - **Space after `<ch>` (`<ch a="F"/> Na...`)**: The chord strikes **before** the syllable (the vocal syllable enters after a pause/rest/anacrusis). Do NOT remove this space!
+     - **Space before `<ch>` (` <ch a="F"/>Na...`) or line start (`<ch a="F"/>Na...`)**: The chord strikes **with** the syllable.
+   - **Preserve `sidechords` Feature**: The `sidechords="..."` attribute on `<row>` is an explicit supported feature that allows preferred side-margin formatting (e.g. `sidechords="C GD"`, parentheses, or grouping). Do NOT wipe `sidechords` when they provide deliberate formatting; inline `<ch>` tags and `sidechords` co-exist.
    - If a song only has `sidechords="..."` or no chords at all, find an authoritative chord transcription (including searching original foreign versions via Discogs/Ultimate Guitar if it is a translated song) and place inline `<ch a="..."/>` tags.
    - Ensure no lyric words or split suffixes (`<ch a="D"/><ch a="is"/>`) are accidentally inside `<ch>` tags.
    - For purely instrumental rows, use `<row important_over="false" style="instr"><ch a="..."/>...</row>`.
@@ -59,6 +63,8 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - `important_over="never"`: Set on any `<row>` that has **no `<ch>` tags** (or in pure `sidechords`-only songs).
 
 5. **Verification `<status>` & `<verificators>` Source Attribution**:
+   - `<verificator>` entries form an immutable historical record of work done and editorial decisions. **NEVER delete or overwrite existing `<verificator>` entries; always APPEND.**
+   - Preserve notes from legacy `<to_do>` or contributor comments by converting them into `<verificator>` entries if appropriate.
    - Once text, chords, and authors are verified, update `<status><done>` and record the authoritative sources (URLs or references) used to confirm the correctness of the song as `<verificator>` entries inside `<verificators>` (always preserving any pre-existing `<verificator>` entries):
      ```xml
      <status>
