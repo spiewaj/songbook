@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Rozstaje" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
+	<text_author type="solo">Autor nieznany</text_author>
+	<comment>Piosenka ze śpiewnika 21. WDW; autor tekstu i melodii nieznany.</comment>
+	<composer type="solo">Autor nieznany</composer>
+	<artist type="band">Poezja śpiewana</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Wychodzę na rozstaje, w zadumaniu trwam</row>
-			<row important_over="never">Pochłonął mnie ich bezmiar, pochłonęła dal</row>
-			<row important_over="never">A oczy ich widokiem nasycone są</row>
-			<row important_over="never">Ukryte w palto wspomnień cichuteńko drżą</row>
+			<row important_over="true">Wych<ch a="a"/>odzę na rozst<ch a="G"/>aje, w zadum<ch a="C"/>aniu trwam,</row>
+			<row important_over="true">Pochł<ch a="F"/>onął mnie ich b<ch a="d"/>ezmiar, pochłon<ch a="E"/>ęła d<ch a="E7"/>al.</row>
+			<row important_over="false">A <ch a="a"/>oczy ich wid<ch a="G"/>okiem nasyc<ch a="C"/>one są,</row>
+			<row important_over="true">Ukr<ch a="d"/>yte w palto wspomni<ch a="E"/>eń cichut<ch a="E7"/>eńko drż<ch a="a"/>ą.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Naokoło mnie drogi i drogi</row>
-			<row important_over="never">Buro ginące na końcu dnia</row>
-			<row important_over="never">Drogi, drogi</row>
-			<row important_over="never">Ich mądrość, ich cel i ja</row>
+			<row important_over="true">Naok<ch a="d"/>oło mnie dr<ch a="G"/>ogi i dr<ch a="C"/>ogi,<ch a="a"/></row>
+			<row important_over="true">B<ch a="d"/>uro gin<ch a="E"/>ące na k<ch a="a"/>ońcu dnia,</row>
+			<row important_over="true">Dr<ch a="d"/>ogi, dr<ch a="G"/>og<ch a="C"/>i —</row>
+			<row important_over="false">Ich m<ch a="d"/>ądrość, ich c<ch a="E"/>el i j<ch a="a"/>a.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Wychodzę na rozstaje, w oniemieniu trwam</row>
-			<row important_over="never">Jak trudno znaleźć w sobie kształt tego kim być mam</row>
-			<row important_over="never">Tak ciężko słuchać siebie, tego kim być chce</row>
-			<row important_over="never">Tak głośno strach mi szepce, że mogę zboczyć źle</row>
+			<row important_over="false">Wych<ch a="a"/>odzę na rozst<ch a="G"/>aje, w oniem<ch a="C"/>ieniu trwam,</row>
+			<row important_over="false">Jak tr<ch a="F"/>udno znaleźć w s<ch a="d"/>obie kształt t<ch a="E"/>ego, kim być m<ch a="E7"/>am.</row>
+			<row important_over="false">Tak ci<ch a="a"/>ężko słuchać si<ch a="G"/>ebie, t<ch a="C"/>ego, kim być chcę,</row>
+			<row important_over="false">Tak gł<ch a="d"/>ośno strach mi sz<ch a="E"/>epce, że m<ch a="E7"/>ogę zboczyć źl<ch a="a"/>e.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Wychodzę na rozstaje, w osłupieniu trwam</row>
-			<row important_over="never">Gdzie dojdę, którędy i po co co dnia dokądś dążyć mam?</row>
-			<row important_over="never">Nasycę drogą siebie, pomyślę, dokąd iść</row>
-			<row important_over="never">Wyznaczę sobie ścieżkę, z którą zmierzę się dziś</row>
+			<row important_over="false">Wych<ch a="a"/>odzę na rozst<ch a="G"/>aje, w osłupi<ch a="C"/>eniu trwam:</row>
+			<row important_over="false">Gdzie d<ch a="F"/>ojdę, którędy i p<ch a="d"/>o co co dni<ch a="E"/>a dokądś dążyć m<ch a="E7"/>am?</row>
+			<row important_over="false">Nasyc<ch a="a"/>ę drogą si<ch a="G"/>ebie, pomyśl<ch a="C"/>ę, dokąd iść,</row>
+			<row important_over="false">Wyzn<ch a="d"/>aczę sobie ści<ch a="E"/>eżkę, z którą zmi<ch a="E7"/>erzę się dz<ch a="a"/>iś.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
+			<verificator>Śpiewnik 21. WDW</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
