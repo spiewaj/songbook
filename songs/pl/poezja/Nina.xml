@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nina">
   <alias>Nie płacz, Nino</alias>
   <text_author type="solo">Tradycyjna</text_author>
-  <comment>Tradycyjna ballada żołnierska / partyzancka, śpiewana także w środowiskach harcerskich.</comment>
+  <comment>Tradycyjna ballada żołnierska / partyzancka, śpiewana także w środowiskach harcerskich. Akordy są wątpliwej natury.</comment>
   <composer type="solo">Tradycyjna</composer>
   <artist type="band">Piosenka żołnierska</artist>
   <translator/>
@@ -50,6 +50,6 @@
       <verificator>Tradycyjna (folklor żołnierski/partyzancki)</verificator>
       <verificator>https://ising.pl/piosenka-biesiadna-nie-placz-nino-tekst</verificator>
     </verificators>
-    <to_do/>
+    <to_do>Akordy są wątpliwej natury.</to_do>
   </status>
 </song>
