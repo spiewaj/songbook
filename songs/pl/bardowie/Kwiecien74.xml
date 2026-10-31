@@ -9,46 +9,58 @@
   <original_title>Abril 74</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never">Jeżeli któryś z was <ch a="A"/><ch a="E"/></row>
-      <row important_over="never">Jutrzenkę może spotkać <ch a="E"/><ch a="D"/></row>
-      <row important_over="never">Niech powie, że nie czas <ch a="D"/><ch a="h"/></row>
-      <row important_over="never">Bym światło jej pokochał <ch a="h"/><ch a="E"/></row>
-      <row important_over="never">Bo walka jeszcze trwa <ch a="E7"/><ch a="A"/></row>
+      <row important_over="true">Je<ch a="A"/>żeli któryś <ch a="E"/>z was</row>
+      <row important_over="true">Jut<ch a="E"/>rzenkę może <ch a="D"/>spotkać,</row>
+      <row important_over="true">Niech <ch a="D"/>powie, że nie <ch a="h"/>czas,</row>
+      <row important_over="true">Bym <ch a="h"/>światło jej po<ch a="E"/>kochał,</row>
+      <row important_over="true">Bo <ch a="E7"/>walka jeszcze <ch a="A"/>trwa.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A E">Jeżeli któryś z was</row>
-      <row important_over="never" sidechords="E D">Odwiedzi wyspę syren</row>
-      <row important_over="never" sidechords="D h">Niech krzyknie pośród fal</row>
-      <row important_over="never" sidechords="h E">Że do nich nie przypłynę</row>
-      <row important_over="never" sidechords="E7 A">Bo walka jeszcze trwa</row>
+      <row important_over="false" sidechords="A E">Je<ch a="A"/>żeli któryś <ch a="E"/>z was</row>
+      <row important_over="false" sidechords="E D">Od<ch a="E"/>wiedzi wyspę <ch a="D"/>syren,</row>
+      <row important_over="false" sidechords="D h">Niech <ch a="D"/>krzyknie pośród <ch a="h"/>fal,</row>
+      <row important_over="false" sidechords="h E">Że <ch a="h"/>do nich nie przy<ch a="E"/>płynę,</row>
+      <row important_over="false" sidechords="E7 A">Bo <ch a="E7"/>walka jeszcze <ch a="A"/>trwa.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">A jeśli smutny los <ch a="a"/></row>
-      <row important_over="never">Tak sprawi, że śmierć przyjdzie <ch a="a"/><ch a="C"/></row>
-      <row important_over="never">Zanieście pęki róż <ch a="C"/><ch a="G"/></row>
-      <row important_over="never">I wszystkie moje pieśni <ch a="G7"/><ch a="a"/></row>
-      <row important_over="never">Umiłowanej mej <ch a="F"/><ch a="E"/></row>
-      <row important_over="never">Gdy zwyciężymy już <ch a="E7"/><ch a="A"/></row>
+      <row important_over="true">A <ch a="a"/>jeśli smutny los</row>
+      <row important_over="true">Tak <ch a="a"/>sprawi, że śmierć <ch a="C"/>przyjdzie,</row>
+      <row important_over="true">Za<ch a="C"/>nieście pęki <ch a="G"/>róż</row>
+      <row important_over="true">I <ch a="G7"/>wszystkie moje <ch a="a"/>pieśni</row>
+      <row important_over="true">U<ch a="F"/>miłowanej <ch a="E"/>mej,</row>
+      <row important_over="true">Gdy <ch a="E7"/>zwyciężymy <ch a="A"/>już.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A E">Niech któryś z was</row>
-      <row important_over="never" sidechords="E D">Odwiedzi wyspę syren</row>
-      <row important_over="never" sidechords="D h">Niech krzyknie pośród fal</row>
-      <row important_over="never" sidechords="h E">Że do nich nie przypłynę</row>
-      <row important_over="never" sidechords="E7 A">Bo walka jeszcze trwa</row>
+      <row important_over="false" sidechords="A E">Niech <ch a="A"/>któryś <ch a="E"/>z was</row>
+      <row important_over="false" sidechords="E D">Od<ch a="E"/>wiedzi wyspę <ch a="D"/>syren,</row>
+      <row important_over="false" sidechords="D h">Niech <ch a="D"/>krzyknie pośród <ch a="h"/>fal,</row>
+      <row important_over="false" sidechords="h E">Że <ch a="h"/>do nich nie przy<ch a="E"/>płynę,</row>
+      <row important_over="false" sidechords="E7 A">Bo <ch a="E7"/>walka jeszcze <ch a="A"/>trwa.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A E">A jeśli wolnych dni</row>
-      <row important_over="never" sidechords="E D">Szukacie wolnych wiosen</row>
-      <row important_over="never" sidechords="D h">To z wami pragnę iść</row>
-      <row important_over="never" sidechords="h E">By móc tych wiosen dożyć</row>
-      <row important_over="never" sidechords="E7 A">Chcę walczyć ile sił</row>
+      <row important_over="false" sidechords="A E">A <ch a="A"/>jeśli wolnych <ch a="E"/>dni</row>
+      <row important_over="false" sidechords="E D">Szu<ch a="E"/>kacie, wolnych <ch a="D"/>wiosen,</row>
+      <row important_over="false" sidechords="D h">To <ch a="D"/>z wami pragnę <ch a="h"/>iść,</row>
+      <row important_over="false" sidechords="h E">By <ch a="h"/>móc tych wiosen do<ch a="E"/>żyć,</row>
+      <row important_over="false" sidechords="E7 A">Chcę <ch a="E7"/>walczyć ile <ch a="A"/>sił.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
+  <music metre="3/4">
+    <guitar/>
+  </music>
   <keywords/>
+  <album>Za nami noc... (pieśni Lluisa Llacha)</album>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>http://zr.art.pl</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
 </song>
