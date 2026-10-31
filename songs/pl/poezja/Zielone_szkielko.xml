@@ -7,61 +7,64 @@
 	<artist type="solo">Robert Kasprzycki</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Stoję na słońcu, łapię w palce czas</row>
-			<row important_over="never">Nitki babiego lata</row>
-			<row important_over="never">Patrzę na świat przez szkło bez krat</row>
-			<row important_over="never">Przez dno butelki</row>
+			<row important_over="true"><ch a="D"/>Stoję na słońcu, łapię w palce <ch a="G"/>czas,<ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Nitki babiego l<ch a="G"/>at<ch a="A"/>a,</row>
+			<row important_over="true"><ch a="D"/>Patrzę na świat przez szkło bez kr<ch a="G"/>at,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Przez dno but<ch a="G"/>elk<ch a="A"/>i.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Włosy rozwiane głaszczą mi twarz</row>
-			<row important_over="never">Świat jest bez końca zielony</row>
-			<row important_over="never">Człowiek na słońcu to właśnie ja</row>
-			<row important_over="never">A może, a może nie człowiek</row>
+			<row important_over="true">Włosy rozwiane głaszczą mi tw<ch a="G"/>arz,<ch a="D"/></row>
+			<row important_over="true">Świat jest bez końca ziel<ch a="G"/>on<ch a="A"/>y,</row>
+			<row important_over="true">Człowiek na słońcu to właśnie j<ch a="G"/>a,<ch a="D"/></row>
+			<row important_over="true">A może, a może nie czł<ch a="G"/>owi<ch a="A"/>ek.<ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Leżę na ziemi, wdycham zapach traw</row>
-			<row important_over="never">Obłoki skłębione</row>
-			<row important_over="never">Zielone szkiełko całą prawdę zna</row>
-			<row important_over="never">Wie dokąd idę schylony</row>
+			<row important_over="false"><ch a="D"/>Leżę na ziemi, wdycham zapach tr<ch a="G"/>aw,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Obłoki skłębi<ch a="G"/>on<ch a="A"/>e,</row>
+			<row important_over="false"><ch a="D"/>Zielone szkiełko całą prawdę zn<ch a="G"/>a,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Wie dokąd idę schyl<ch a="G"/>on<ch a="A"/>y.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Palce mi ziębną gdy przyjdzie świt</row>
-			<row important_over="never">Nie wiem od rosy czy wstydu</row>
-			<row important_over="never">Człowiek na ziemi to właśnie ja</row>
-			<row important_over="never">A może człowieka widmo</row>
+			<row important_over="false">Palce mi ziębną, gdy przyjdzie św<ch a="G"/>it,<ch a="D"/></row>
+			<row important_over="false">Nie wiem od rosy czy wst<ch a="G"/>yd<ch a="A"/>u,</row>
+			<row important_over="false">Człowiek na ziemi to właśnie j<ch a="G"/>a,<ch a="D"/></row>
+			<row important_over="false">A może człowieka w<ch a="G"/>idm<ch a="A"/>o.<ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Lecę gdzieś w przepaść, widzę czarne dno</row>
-			<row important_over="never">Słyszę jak krew stęchnie w żyłach</row>
-			<row important_over="never">Spływa po twarzy powietrza prąd</row>
-			<row important_over="never">To cel mnie znalazł i wybrał</row>
+			<row important_over="false"><ch a="D"/>Lecę gdzieś w przepaść, widzę czarne dn<ch a="G"/>o,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Słyszę jak krew stęchnie w żył<ch a="G"/>ac<ch a="A"/>h,</row>
+			<row important_over="false"><ch a="D"/>Spływa po twarzy powietrza pr<ch a="G"/>ąd,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">To cel mnie znalazł i wybr<ch a="G"/>ał.<ch a="A"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Znalazłem drogę, którą chcę</row>
-			<row important_over="never">Przejść aż na drugą snu stronę</row>
-			<row important_over="never">Zielone szkiełko przecina dłoń</row>
+			<row important_over="false">Znalazłem drogę, którą chc<ch a="G"/>ę<ch a="D"/></row>
+			<row important_over="false">Przejść aż na drugą snu str<ch a="G"/>on<ch a="A"/>ę,</row>
+			<row important_over="false">Zielone szkiełko przecina dł<ch a="G"/>oń,<ch a="D"/></row>
 			<bis times="3">
-				<row important_over="never">Spadam na ziemię, spadam na ziemię</row>
+				<row important_over="false">Spadam na ziemię, spadam na zi<ch a="G"/>emi<ch a="A"/>ę<ch a="D"/></row>
 			</bis>
-			<row important_over="never">Jak promień</row>
+			<row important_over="false">Jak prom<ch a="G"/>ie<ch a="A"/>ń.<ch a="D"/></row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>Niebo do wynajęcia</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/robert-kasprzycki/zielone-szkielko</verificator>
+			<verificator>http://www.spiewnik.eu/tekst/1565/zielone_szkielko</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
