@@ -1,84 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzkie anioły">
-	<alias></alias>
+	<alias/>
 	<text_author type="solo">Adam Ziemianin</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">Stare Dobre Małżeństwo</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="true">Ani<ch a="a"/>oły są takie ciche, zwłaszcza t<ch a="G"/>e w Bieszczadach</row>
-			<row important_over="true">Gdy sp<ch a="a"/>otkasz takiego w górach, wi<ch a="e"/>ele z nim nie pogadasz</row>
-			<row important_over="true">Najw<ch a="C"/>yżej na ucho ci p<ch a="G"/>owie, gdy b<ch a="C"/>ędzie w dobrym hum<ch a="F"/>orze</row>
-			<row important_over="true">Że skrz<ch a="C"/>ydła nosi w plec<ch a="G"/>aku na<ch a="a"/>wet przy d<ch a="e"/>obrej pog<ch a="a"/>odzie</row>
+			<row important_over="true">Ani<ch a="a"/>oły są takie ciche, zwłaszcza t<ch a="G"/>e w Bieszczadach,</row>
+			<row important_over="true">gdy sp<ch a="a"/>otkasz takiego w górach, wi<ch a="e"/>ele z nim nie pogadasz.</row>
+			<row>Najw<ch a="C"/>yżej na ucho ci p<ch a="G"/>owie, gdy b<ch a="C"/>ędzie w dobrym hum<ch a="F"/>orze,</row>
+			<row>że skrz<ch a="C"/>ydła nosi w plec<ch a="G"/>aku na<ch a="a"/>wet przy d<ch a="e"/>obrej pog<ch a="a"/>odzie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Anioły są całe zielone, zwłaszcza te w Bieszczadach<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">W trawi<ch a="a"/>e łatwo się kryją i w opuszczonych sadach<ch a="e"/></row>
-			<row important_over="false">W zielone grają ukradkiem, nawet karty mają zielone<ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/></row>
-			<row important_over="false">Zielone mają pojęcie, a nawet zielony kielonek<ch a="C"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="a"/></row>
+			<row>Ani<ch a="a"/>oły są całe zielone, zwłaszcza t<ch a="G"/>e w Bieszczadach,</row>
+			<row>w tr<ch a="a"/>awie łatwo się kryją i w opuszczonych s<ch a="e"/>adach.</row>
+			<row>W ziel<ch a="C"/>one grają ukr<ch a="G"/>adkiem, n<ch a="C"/>awet karty mają ziel<ch a="F"/>one,</row>
+			<row>ziel<ch a="C"/>one mają poj<ch a="G"/>ęcie, a n<ch a="a"/>awet ziel<ch a="e"/>ony kiel<ch a="a"/>onek.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Ani<ch a="C"/>oły bieszcz<ch a="G"/>adzkie, bieszczadzkie an<ch a="a"/>ioły</row>
-			<row important_over="false">Dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody</row>
-			<row important_over="false">Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie</row>
-			<row important_over="false">Gdy skrz<ch a="C"/>ydłem cię do<ch a="G"/>tkną, już jesteś ich br<ch a="a"/>atem</row>
+			<row important_over="true">Ani<ch a="C"/>oły bieszcz<ch a="G"/>adzkie, bieszczadzkie an<ch a="a"/>ioły,</row>
+			<row important_over="true">dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody.</row>
+			<row>Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie,</row>
+			<row>gdy skrz<ch a="C"/>ydłem cię do<ch a="G"/>tkną, już jesteś ich br<ch a="a"/>atem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Anioły są całkiem samotne, zwłaszcza te w Bieszczadach<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">W kapliczkach zimą drzemią, choć może im nie wypada<ch a="a"/><ch a="e"/></row>
-			<row important_over="false">Czasem taki anioł samotny zapomni, dokąd ma lecieć<ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/></row>
-			<row important_over="false">I wtedy całe Bieszczady mają szaloną uciechę<ch a="C"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="a"/></row>
+			<row>Ani<ch a="a"/>oły są całkiem samotne, zwłaszcza t<ch a="G"/>e w Bieszczadach,</row>
+			<row>w kapl<ch a="a"/>iczkach zimą drzemią, choć może im nie wyp<ch a="e"/>ada.</row>
+			<row>Cz<ch a="C"/>asem taki anioł sam<ch a="G"/>otny zap<ch a="C"/>omni, dokąd ma l<ch a="F"/>ecieć,</row>
+			<row>i wt<ch a="C"/>edy całe Bieszcz<ch a="G"/>ady m<ch a="a"/>ają szal<ch a="e"/>oną uci<ch a="a"/>echę.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Anioły, bieszczadzkie, bieszczadzkie anioły<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Dużo w was radości i dobrej pogody<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Bieszczadzkie anioły, anioły bieszczadzkie<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Gdy skrzydłem cię trącą, już jesteś ich bratem<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row>Ani<ch a="C"/>oły bieszcz<ch a="G"/>adzkie, bieszczadzkie an<ch a="a"/>ioły,</row>
+			<row>dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody.</row>
+			<row>Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie,</row>
+			<row>gdy skrz<ch a="C"/>ydłem cię tr<ch a="G"/>ącą, już jesteś ich br<ch a="a"/>atem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Anioły są wiecznie ulotne, zwłaszcza te w Bieszczadach<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">Nas też czasami nosi po ich anielskich śladach<ch a="a"/><ch a="e"/></row>
-			<row important_over="false">One nam przyzwalają i skrzydłem wskazują drogę<ch a="C"/><ch a="G"/><ch a="C"/><ch a="F"/></row>
-			<row important_over="false">I wtedy w nas się zapala wieczny bieszczadzki ogień<ch a="C"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="a"/></row>
+			<row>Ani<ch a="a"/>oły są wiecznie ulotne, zwłaszcza t<ch a="G"/>e w Bieszczadach,</row>
+			<row>nas t<ch a="a"/>eż czasami nosi po ich anielskich śl<ch a="e"/>adach.</row>
+			<row>On<ch a="C"/>e nam przyzwol<ch a="G"/>ą i skrz<ch a="C"/>ydłem wskażą dr<ch a="F"/>ogę,</row>
+			<row>i wt<ch a="C"/>edy w nas się zap<ch a="G"/>ala wi<ch a="a"/>eczny bieszcz<ch a="e"/>adzki og<ch a="a"/>ień.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Anioły, bieszczadzkie, bieszczadzkie anioły<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Dużo w was radości i dobrej pogody<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Bieszczadzkie anioły, anioły bieszczadzkie<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="false">Gdy skrzydłem cię musną, już jesteś ich bratem<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row>Ani<ch a="C"/>oły bieszcz<ch a="G"/>adzkie, bieszczadzkie an<ch a="a"/>ioły,</row>
+			<row>dużo w w<ch a="C"/>as radości i d<ch a="G"/>obrej pog<ch a="a"/>ody.</row>
+			<row>Bi<ch a="C"/>eszczadzkie an<ch a="G"/>ioły, anioły bieszcz<ch a="a"/>adzkie,</row>
+			<row>gdy skrz<ch a="C"/>ydłem cię m<ch a="G"/>usną, już jesteś ich br<ch a="a"/>atem.</row>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="4"/>
 	</music>
+	<keywords>
+		<keyword>Bieszczady</keyword>
+		<keyword>Góry</keyword>
+	</keywords>
+	<album>Bieszczadzkie anioły</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Taboret na bazie korekty Michała</verificator>
-			<verificator>Poprawione wg śpiewnika ze Szkocji - Krzysiek		</verificator>
-			
-		</verificators>
-		<to_do>Jakie metrum?
-Trzeba to przegrać z gitarą. </to_do>
 		<done>	
-			
-			
 			<text/>
 			<authors/>
 			<chords>chords</chords>
 		</done>
+		<verificators>
+			<verificator>Taboret na bazie korekty Michała</verificator>
+			<verificator>Poprawione wg śpiewnika ze Szkocji - Krzysiek</verificator>
+			<verificator>Adam Ziemianin, Krzysztof Myszkowski, Stare Dobre Małżeństwo (album "Bieszczadzkie anioły", Pomaton EMI 2000)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/bieszczadzkie-anioly</verificator>
+		</verificators>
 	</status>
-	<keywords><keyword>Bieszczady</keyword><keyword>Góry</keyword><keyword>	</keyword>
-		
-		
-		
-	</keywords>
-	<music_source></music_source>
-	<album>Bieszczadzkie anioły</album>
-	<genre>Piosenka turystyczna górska</genre>
+	<music_source/>
 </song>
