@@ -12,47 +12,47 @@
       <row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="G"/><ch a="a"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Chw<ch a="G"/>ała najsampierw k<ch a="e"/>omu, k<ch a="G"/>omu glori<ch a="a"/>a</row>
-      <row important_over="true">na wysok<ch a="C"/>ości<ch a="D"/>ach.<ch a="G"/><ch a="G7"/></row>
-      <row important_over="true">Chw<ch a="C"/>ała najsampierw tobi<ch a="D"/>e, trawo przychylna k<ch a="e"/>ażdemu,</row>
-      <row important_over="true">kr<ch a="C"/>aino na d<ch a="D"/>ół od Ed<ch a="C"/>enu —</row>
-      <row important_over="true">Gl<ch a="D"/>oria! Gl<ch a="G"/>oria!</row>
+      <row important_over="true" sidechords="Ge Ga">Chw<ch a="G"/>ała najsampierw k<ch a="e"/>omu, k<ch a="G"/>omu glori<ch a="a"/>a</row>
+      <row important_over="true" sidechords="CD G(G7)">na wysok<ch a="C"/>ości<ch a="D"/>ach.<ch a="G"/><ch a="G7"/></row>
+      <row important_over="true" sidechords="CD e">Chw<ch a="C"/>ała najsampierw tobi<ch a="D"/>e, trawo przychylna k<ch a="e"/>ażdemu,</row>
+      <row important_over="true" sidechords="CDC">kr<ch a="C"/>aino na d<ch a="D"/>ół od Ed<ch a="C"/>enu —</row>
+      <row important_over="true" sidechords="DG (G)">Gl<ch a="D"/>oria! Gl<ch a="G"/>oria!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Chw<ch a="G"/>ała tobie, sł<ch a="e"/>ońce, od<ch a="G"/>yńcu sam<ch a="a"/>otny,</row>
-      <row important_over="false">co wst<ch a="C"/>ajesz rano z trzęs<ch a="D"/>awisk n<ch a="G"/>ocnych.<ch a="G7"/></row>
-      <row important_over="false">I w g<ch a="C"/>órę bieżysz, w ni<ch a="D"/>ebo sam się wzb<ch a="e"/>ijasz,</row>
-      <row important_over="false">i chm<ch a="C"/>ury czarne bi<ch a="D"/>ałym kłem przeb<ch a="C"/>ijasz.</row>
-      <row important_over="true">I to wsz<ch a="D"/>ystko bezkrwawo — br<ch a="C"/>awo, brawo!</row>
-      <row important_over="false">I to wsz<ch a="D"/>ystko złociście i nik<ch a="C"/>ogo nie boli.</row>
-      <row important_over="false">Gl<ch a="D"/>oria! Gloria in exc<ch a="G"/>elsis soli!</row>
+      <row important_over="false" sidechords="Ge Ga">Chw<ch a="G"/>ała tobie, sł<ch a="e"/>ońce, od<ch a="G"/>yńcu sam<ch a="a"/>otny,</row>
+      <row important_over="false" sidechords="CD G(G7)">co wst<ch a="C"/>ajesz rano z trzęs<ch a="D"/>awisk n<ch a="G"/>ocnych.<ch a="G7"/></row>
+      <row important_over="false" sidechords="CD e">I w g<ch a="C"/>órę bieżysz, w ni<ch a="D"/>ebo sam się wzb<ch a="e"/>ijasz,</row>
+      <row important_over="false" sidechords="CDC">i chm<ch a="C"/>ury czarne bi<ch a="D"/>ałym kłem przeb<ch a="C"/>ijasz.</row>
+      <row important_over="true" sidechords="DC">I to wsz<ch a="D"/>ystko bezkrwawo — br<ch a="C"/>awo, brawo!</row>
+      <row important_over="false" sidechords="DC">I to wsz<ch a="D"/>ystko złociście i nik<ch a="C"/>ogo nie boli.</row>
+      <row important_over="false" sidechords="DG (G)">Gl<ch a="D"/>oria! Gloria in exc<ch a="G"/>elsis soli!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Z sł<ch a="G"/>ońcem pochwalonym t<ch a="e"/>eraz p<ch a="G"/>ędźmy r<ch a="a"/>azem,</row>
-      <row important_over="false">na n<ch a="C"/>im, na odyńcu, gal<ch a="D"/>opujmy d<ch a="G"/>alej.<ch a="G7"/></row>
-      <row important_over="false">Chw<ch a="C"/>ała tobie, wi<ch a="D"/>etrze, wieczny ty młodz<ch a="e"/>iku,</row>
-      <row important_over="false">si<ch a="C"/>eroto świata, ul<ch a="D"/>ubieńcze l<ch a="C"/>osu,</row>
-      <row important_over="false">od zł<ch a="D"/>ego ratuj i k<ch a="C"/>ąkoli w zbożu,</row>
-      <row important_over="false">łag<ch a="D"/>odnie kołysz tych, co s<ch a="C"/>ą na morzu.</row>
-      <row important_over="false">Gl<ch a="D"/>oria! Gloria in exc<ch a="G"/>elsis Eoli!</row>
+      <row important_over="false" sidechords="Ge Ga">Z sł<ch a="G"/>ońcem pochwalonym t<ch a="e"/>eraz p<ch a="G"/>ędźmy r<ch a="a"/>azem,</row>
+      <row important_over="false" sidechords="CD G(G7)">na n<ch a="C"/>im, na odyńcu, gal<ch a="D"/>opujmy d<ch a="G"/>alej.<ch a="G7"/></row>
+      <row important_over="false" sidechords="CD e">Chw<ch a="C"/>ała tobie, wi<ch a="D"/>etrze, wieczny ty młodz<ch a="e"/>iku,</row>
+      <row important_over="false" sidechords="CDC">si<ch a="C"/>eroto świata, ul<ch a="D"/>ubieńcze l<ch a="C"/>osu,</row>
+      <row important_over="false" sidechords="DC">od zł<ch a="D"/>ego ratuj i k<ch a="C"/>ąkoli w zbożu,</row>
+      <row important_over="false" sidechords="DC">łag<ch a="D"/>odnie kołysz tych, co s<ch a="C"/>ą na morzu.</row>
+      <row important_over="false" sidechords="DG (G)">Gl<ch a="D"/>oria! Gloria in exc<ch a="G"/>elsis Eoli!</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="G"/><ch a="a"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="G7"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Z wi<ch a="G"/>atrem pochwalonym t<ch a="e"/>eraz pędz<ch a="G"/>imy sp<ch a="a"/>ołem,</row>
-      <row important_over="false">na n<ch a="C"/>im, na koniku, gal<ch a="D"/>opujemy p<ch a="G"/>olem.<ch a="G7"/></row>
-      <row important_over="false">Chw<ch a="C"/>ała wam, pt<ch a="D"/>aszki śpiewaj<ch a="e"/>ące,</row>
-      <row important_over="false">chw<ch a="C"/>ała wam, r<ch a="D"/>yby pluskaj<ch a="C"/>ące,</row>
-      <row important_over="false">chw<ch a="D"/>ała wam, zaj<ch a="C"/>ące na łące,</row>
-      <row important_over="false">zak<ch a="D"/>ochane w bi<ch a="G"/>edr<ch a="G7"/>once.</row>
+      <row important_over="false" sidechords="Ge Ga">Z wi<ch a="G"/>atrem pochwalonym t<ch a="e"/>eraz pędz<ch a="G"/>imy sp<ch a="a"/>ołem,</row>
+      <row important_over="false" sidechords="CD G(G7)">na n<ch a="C"/>im, na koniku, gal<ch a="D"/>opujemy p<ch a="G"/>olem.<ch a="G7"/></row>
+      <row important_over="false" sidechords="CD e">Chw<ch a="C"/>ała wam, pt<ch a="D"/>aszki śpiewaj<ch a="e"/>ące,</row>
+      <row important_over="false" sidechords="CDC">chw<ch a="C"/>ała wam, r<ch a="D"/>yby pluskaj<ch a="C"/>ące,</row>
+      <row important_over="false" sidechords="DC">chw<ch a="D"/>ała wam, zaj<ch a="C"/>ące na łące,</row>
+      <row important_over="false" sidechords="DG (G7)">zak<ch a="D"/>ochane w bi<ch a="G"/>edr<ch a="G7"/>once.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Chw<ch a="C"/>ała wam: zimy, wi<ch a="D"/>osny, lata i jesi<ch a="e"/>enie.</row>
-      <row important_over="false">Chw<ch a="C"/>ała temu, co b<ch a="D"/>ez gniewu <ch a="C"/>idzie</row>
-      <row important_over="false">poprz<ch a="D"/>ez śniegi, deszcze, bl<ch a="C"/>aski oraz cienie.</row>
-      <row important_over="false">W pi<ch a="D"/>ersi pod koszulą — c<ch a="C"/>ałe jego mienie.</row>
-      <row important_over="false">Gl<ch a="D"/>oria! Gl<ch a="G"/>oria!</row>
+      <row important_over="false" sidechords="CD e">Chw<ch a="C"/>ała wam: zimy, wi<ch a="D"/>osny, lata i jesi<ch a="e"/>enie.</row>
+      <row important_over="false" sidechords="CDC">Chw<ch a="C"/>ała temu, co b<ch a="D"/>ez gniewu <ch a="C"/>idzie</row>
+      <row important_over="false" sidechords="DC">poprz<ch a="D"/>ez śniegi, deszcze, bl<ch a="C"/>aski oraz cienie.</row>
+      <row important_over="false" sidechords="DC">W pi<ch a="D"/>ersi pod koszulą — c<ch a="C"/>ałe jego mienie.</row>
+      <row important_over="false" sidechords="DG (G)">Gl<ch a="D"/>oria! Gl<ch a="G"/>oria!</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="G"/><ch a="a"/><ch a="C"/><ch a="D"/><ch a="G"/><ch a="G7"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
@@ -68,7 +68,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chords</chords>
+      <chords/>
     </done>
     <verificators>
       <verificator>https://bibliotekapiosenki.pl/utwory/Gloria</verificator>
