@@ -1,39 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dwudziesty czwarty lutego">
   <alias>Bijatyka</alias>
-  <artist>Stare Dzwony</artist>
+  <text_author type="solo">Janusz Sikorski</text_author>
+  <comment>Polska wersja tradycyjnej angielskiej pieśni morskiej „The Coasts of High Barbary”. Słowa polskie: Janusz Sikorski.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Stare Dzwony</artist>
+  <translator/>
+  <original_title>The Coasts of High Barbary</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never">To dwudziesty czwarty był lutego,</row>
-      <row important_over="never">Poranna zrzedła mgła,</row>
-      <row important_over="never">Wyszło z niej siedem uzbrojonych kryp,</row>
-      <row important_over="never">Turecki niosły znak.</row>
+      <row important_over="true"><ch a="e"/>To dwudziesty czw<ch a="G"/>arty był lut<ch a="D"/>ego,</row>
+      <row important_over="true">Por<ch a="G"/>anna zrz<ch a="D"/>edła mgł<ch a="e"/>a,</row>
+      <row important_over="true"><ch a="e"/>Wyszło z niej si<ch a="G"/>edem uzbr<ch a="D"/>ojonych kryp,</row>
+      <row important_over="true">Tur<ch a="C"/>ecki ni<ch a="D"/>osły zn<ch a="e"/>ak.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <row important_over="never">No i…</row>
+      <row important_over="true"><ch a="G"/>Znów bijatyka, no i…</row>
       <row important_over="never">Znów bijatyka, no i…</row>
-      <row important_over="never">Znów bijatyka, no i…</row>
-      <row important_over="never">Bijatyka cały dzień,</row>
-      <row important_over="never">I porąbany dzień, i porąbany łeb,</row>
-      <row important_over="never">Razem bracia, aż po zmierzch!</row>
+      <row important_over="true">Bijat<ch a="D"/>yka cały dzi<ch a="e"/>eń,</row>
+      <row important_over="true">I porąbany dzi<ch a="G"/>eń, i porąbany ł<ch a="D"/>eb,</row>
+      <row important_over="true">R<ch a="C"/>azem br<ch a="D"/>acia, aż po zmi<ch a="e"/>erzch!</row>
     </block>
     <block type="verse">
-      <row important_over="never">Już pierwszy skrada się do burt,</row>
-      <row important_over="never">A zwie się "Goździk" i</row>
-      <row important_over="never">Z Algieru Pasza wysłał go,</row>
-      <row important_over="never">Żeby nam upuścił krwi.</row>
+      <row important_over="false"><ch a="e"/>Już pierwszy skr<ch a="G"/>ada się do b<ch a="D"/>urt,</row>
+      <row important_over="false">A zwi<ch a="G"/>e się „G<ch a="D"/>oździk” <ch a="e"/>i</row>
+      <row important_over="false"><ch a="e"/>Z Algieru P<ch a="G"/>asza wysł<ch a="D"/>ał go,</row>
+      <row important_over="false">Ż<ch a="C"/>eby nam <ch a="D"/>upuścił krw<ch a="e"/>i.</row>
     </block>
+    <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Następny zbliża się do burt,</row>
-      <row important_over="never">A zwie się "Róży Pąk".</row>
-      <row important_over="never">Plunęliśmy ze wszystkich rur -</row>
-      <row important_over="never">Bardzo prędko szedł na dno.</row>
+      <row important_over="false"><ch a="e"/>Następny zbliża się do b<ch a="D"/>urt,</row>
+      <row important_over="false">A zwi<ch a="G"/>e się „R<ch a="D"/>óży P<ch a="e"/>ąk”.</row>
+      <row important_over="false"><ch a="e"/>Plunęliśmy ze wsz<ch a="G"/>ystkich r<ch a="D"/>ur —</row>
+      <row important_over="false">B<ch a="C"/>ardzo prędko sz<ch a="D"/>edł na dn<ch a="e"/>o.</row>
     </block>
+    <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">W naszych rękach dwa i dwa na dnie,</row>
-      <row important_over="never">Cała reszta zwiała gdzieś,</row>
-      <row important_over="never">No a jeden z nich zabraliśmy</row>
-      <row important_over="never">Na starej Anglii brzeg.</row>
+      <row important_over="false"><ch a="e"/>W naszych rękach dw<ch a="G"/>a i dwa na dni<ch a="D"/>e,</row>
+      <row important_over="false">C<ch a="G"/>ała reszta zwi<ch a="D"/>ała gdz<ch a="e"/>ieś,</row>
+      <row important_over="false"><ch a="e"/>No a jeden z ni<ch a="G"/>ch zabr<ch a="D"/>aliśmy</row>
+      <row important_over="false">N<ch a="C"/>a starej <ch a="D"/>Anglii brz<ch a="e"/>eg.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <genre>Szanty</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dzwony/24-lutego</verificator>
+      <verificator>https://chords.pl/chwyty/staredzwony/2544,24_lutego/</verificator>
+    </verificators>
+    <to_do/>
+  </status>
 </song>
