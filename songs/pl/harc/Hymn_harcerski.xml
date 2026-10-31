@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hymn harcerski">
-  <alias>Wszystko co nasze</alias>
+  <alias>Wszystko, co nasze</alias>
   <text_author type="solo">Ignacy Kozielewski; Olga Drahonowska-Małkowska</text_author>
-  <comment>
-    Strofy wiersza Ignacego Kozieleckiego uzupełniła refrenem Olga Drahonowska-Małkowska, adaptując do jednocześnie do melodii pieśni "Na barykady". 
-    Tekst i nuty pieśni "Wszystko, co nasze" zostały opublikowane w czasopiśmie "Skaut" jesienią 1912 roku.
-    Hymn ZHP od 1918 roku.</comment>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <comment>Strofy wiersza Ignacego Kozielewskiego uzupełniła refrenem Olga Drahonowska-Małkowska, adaptując go jednocześnie do melodii pieśni rewolucyjnej „Na barykady”. Tekst i nuty pieśni „Wszystko, co nasze” zostały opublikowane w czasopiśmie „Skaut” jesienią 1912 roku. Oficjalny hymn ZHP od 1918 roku.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Harcerskie</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Wszystko co nasze Polsce oddamy</row>
-      <row important_over="never">W niej tylko życie, więc idziem żyć</row>
-      <row important_over="never">Świty się bielą otwórzmy bramy</row>
-      <row important_over="never">Rozkaz wydany, wstań w słońce idź</row>
-      <row important_over="never">Ramię pręż, słabość krusz</row>
-      <row important_over="never">Ducha tęż ojczyźnie miłej służ</row>
-      <row important_over="never">Na jej zew w bój czy w trud</row>
-      <row important_over="never">Pójdzie rad harcerzy polskich ród</row>
-      <row important_over="never">Harcerzy polskich ród</row>
+      <row important_over="true"><ch a="C"/>Wszystko, co nasze, <ch a="G7"/>Polsce odd<ch a="C"/>amy,</row>
+      <row important_over="false"><ch a="C"/>W niej tylko życie, <ch a="G7"/>więc idziem ż<ch a="C"/>yć.</row>
+      <row important_over="false"><ch a="C"/>Świty się bielą, <ch a="G7"/>otwórzmy br<ch a="C"/>amy,</row>
+      <row important_over="false"><ch a="C"/>Rozkaz wydany: <ch a="G7"/>„Wstań, w słońce <ch a="C"/>idź!”.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>Ramię pręż, <ch a="G7"/>słabość krusz,</row>
+      <row important_over="true"><ch a="F"/>Ducha tęż, <ch a="C"/>Ojczyźnie miłej służ!</row>
+      <row important_over="false"><ch a="C"/>Na jej zew, <ch a="G7"/>w bój czy w trud,</row>
+      <row important_over="false"><ch a="F"/>Pójdzie rad <ch a="C"/>harcerzy polskich ród,</row>
+      <row important_over="true"><ch a="G7"/>Harcerzy polskich r<ch a="C"/>ód!</row>
     </block>
   </lyric>
   <music metre="2/2">
     <guitar barre="0"/>
   </music>
   <keywords/>
-  <music_source>Pień "Na barykady"</music_source>
+  <music_source>Pieśń „Na barykady”</music_source>
   <album/>
   <genre>Piosenka harcerska</genre>
   <status>
     <done>
       <text/>
       <authors/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>Onufry</verificator>
+      <verificator>https://spiewnik.wywrota.pl/harcerskie/hymn-harcerski</verificator>
     </verificators>
-    <to_do>Nigdy tego nie śpiewaliśmy do gitary, nie wiem, czy warto znajdować i dopisywać chwyty.</to_do>
   </status>
 </song>
