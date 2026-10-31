@@ -1,42 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rolnicza dola">
-  <artist type="solo">Wały Jagiellońskie</artist>
+  <alias/>
+  <text_author type="solo">Rudi Schuberth</text_author>
+  <comment/>
+  <composer type="solo">Rudi Schuberth</composer>
+  <artist type="band">Wały Jagiellońskie</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Jedzie chłop po polu, jedzie na traktorze <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Bronkę wiezie z sobą, pole sobie orze <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Zesztywniały mu już prawie wszystkie członki</row>
-      <row important_over="never">Część z powodu pracy, część z powodu bronki</row>
+      <row important_over="true">J<ch a="C"/>edzie chłop po p<ch a="F"/>olu, j<ch a="C"/>edzie na trakt<ch a="G"/>orze,</row>
+      <row important_over="true">Br<ch a="C"/>onkę wiezie z s<ch a="F"/>obą, p<ch a="C"/>ole s<ch a="G"/>obie <ch a="C"/>orze.</row>
+      <row>Z<ch a="C"/>esztywniały m<ch a="F"/>u już pr<ch a="C"/>awie wszystkie czł<ch a="G"/>onki,</row>
+      <row>Cz<ch a="C"/>ęść z powodu pr<ch a="F"/>acy, cz<ch a="C"/>ęść z pow<ch a="G"/>odu Br<ch a="C"/>onki.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Hej, hola, hola, rolnicza dola <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Hej, hola, hola, rolnicza dola <ch a="C"/><ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="true">H<ch a="C"/>ej, hola, h<ch a="F"/>ola, roln<ch a="C"/>icza d<ch a="G"/>ola,</row>
+      <row important_over="true">H<ch a="C"/>ej, hola, h<ch a="F"/>ola, roln<ch a="C"/>icza d<ch a="G"/>o<ch a="C"/>la.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Jedzie chłop po polu, jedzie na siewniku</row>
-      <row important_over="never">Przystanął wpół drogi, żeby zrobić siku</row>
-      <row important_over="never">Sika tak i duma, duma tak i sika</row>
+      <row important_over="never">Jedzie chłop po polu, jedzie na siewniku,</row>
+      <row important_over="never">Przystanął wpół drogi, żeby zrobić siku.</row>
+      <row important_over="never">Sika tak i duma, duma tak i sika,</row>
       <row important_over="never">Ciężka moja dola chłoporobotnika.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Jedzie chłop po polu, jedzie na kombajnie</row>
-      <row important_over="never">Berecik na głowie ma wciśnięty fajnie</row>
-      <row important_over="never">Dziewuchy z grabiami na niego kiwają</row>
-      <row important_over="never">Gdyby nie robota, by się nimi zajął</row>
+      <row important_over="never">Jedzie chłop po polu, jedzie na kombajnie,</row>
+      <row important_over="never">Berecik na głowie ma wciśnięty fajnie.</row>
+      <row important_over="never">Dziewuchy z grabiami na niego kiwają,</row>
+      <row important_over="never">Gdyby nie robota, by się nimi zajął.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Bronka leży obok, tuż w jego kabinie</row>
+      <row important_over="never">Bronka leży obok, tuż w jego kabinie,</row>
       <row important_over="never">Wozi ją ze sobą, nikt mu jej nie zwinie.</row>
       <row important_over="never">Bo co to za gospodarz, co swoje zagony</row>
-      <row important_over="never">Nie przeczesze nieraz przy pomocy brony</row>
+      <row important_over="never">Nie przeczesze nieraz przy pomocy brony.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
+  <music metre="2/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
-  <genre>Pieśń ludowa</genre>
+  <album></album>
+  <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://wywrota.pl/teksty/piosenki/waly-jagiellonskie-rolnicza-dola</verificator>
+      <verificator>https://bibliotekapiosenki.pl/osoby/Schuberth_Rudolf</verificator>
+    </verificators>
   </status>
 </song>
