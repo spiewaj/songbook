@@ -1,46 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jest już za późno, nie jest za późno">
+	<alias/>
 	<text_author type="solo">Edward Stachura</text_author>
+	<comment/>
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">J<ch a="G"/>eszcze zdążymy w dż<ch a="a"/>ungli ludzkości si<ch a="G"/>ebie odnaleźć</row>
-			<row important_over="true"><ch a="C"/>Tęskność zawr<ch a="G"/>otna przybliża n<ch a="a"/>a<ch a="D7"/>s</row>
-			<row important_over="false"><ch a="G"/>Zbiegną się wreszcie t<ch a="a"/>ory sieroce nas<ch a="G"/>zych dwu planet</row>
-			<row important_over="false"><ch a="C"/>Cudnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m</row>
+			<row important_over="true">J<ch a="G"/>eszcze zdążymy w dż<ch a="a"/>ungli ludzkości si<ch a="G"/>ebie odnaleźć,</row>
+			<row important_over="true">t<ch a="C"/>ęskność zawr<ch a="G"/>otna przybliża n<ch a="a"/>a<ch a="D7"/>s.</row>
+			<row important_over="false">Zbi<ch a="G"/>egną się wreszcie t<ch a="a"/>ory sieroce n<ch a="G"/>aszych dwu planet,</row>
+			<row important_over="false">c<ch a="C"/>udnie spokr<ch a="G"/>ewnią się ciała n<ch a="a"/>a<ch a="D7"/>m.</row>
 		</block>
-		<block type="verse">
+		<block type="chorus">
 			<bis times="2">
-				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="false"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno</row>
-				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno<ch a="D"/></row>
+				<row important_over="true"><ch a="h"/>Jest już za późno, <ch a="C"/>nie jest za późno,</row>
+				<row important_over="false"><ch a="h"/>jest już za późno, <ch a="C"/>nie jest za późno,</row>
+				<row important_over="true"><ch a="h"/>jest już za późno, <ch a="C"/>nie jest za p<ch a="a"/>óźno! <ch a="D"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Jeszcze zdążymy tanio wynająć małą mansardę<ch a="a"/><ch a="G"/></row>
-			<row important_over="true"><ch a="C"/>Z oknem na rzekę lub też na park<ch a="a"/><ch a="G"/><ch a="D7"/></row>
-			<row important_over="false"><ch a="G"/>Z łożem szerokim, piecem wysokim, ściennym zegarem<ch a="a"/><ch a="G"/></row>
-			<row important_over="false"><ch a="C"/>Schodzić będziemy codziennie w świat<ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="false">J<ch a="G"/>eszcze zdążymy t<ch a="a"/>anio wynająć m<ch a="G"/>ałą mansardę</row>
+			<row important_over="false">z <ch a="C"/>oknem na rz<ch a="G"/>ekę lub też na p<ch a="a"/>ark, <ch a="D7"/></row>
+			<row important_over="false">z ł<ch a="G"/>ożem szerokim, pi<ch a="a"/>ecem wysokim, ści<ch a="G"/>ennym zegarem,</row>
+			<row important_over="false">sch<ch a="C"/>odzić będzi<ch a="G"/>emy codziennie w świ<ch a="a"/>at. <ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/>Jeszcze zdążymy naszą miłością siebie zachwycić<ch a="a"/><ch a="G"/></row>
-			<row important_over="false">Siebie zachwycić i wszystko w krąg<ch a="C"/><ch a="a"/><ch a="G"/><ch a="D7"/></row>
-			<row important_over="false">Wojna to będzie straszna bo czas nas będzie chciał zniszczyć<ch a="G"/><ch a="a"/><ch a="G"/></row>
-			<row important_over="false">Lecz nam się uda zachwycić go<ch a="C"/><ch a="a"/><ch a="G"/><ch a="D7"/></row>
+			<row important_over="false">J<ch a="G"/>eszcze zdążymy n<ch a="a"/>aszą miłością si<ch a="G"/>ebie zachwycić,</row>
+			<row important_over="false">si<ch a="C"/>ebie zachw<ch a="G"/>ycić i wszystko w kr<ch a="a"/>ąg. <ch a="D7"/></row>
+			<row important_over="false">W<ch a="G"/>ojna to będzie str<ch a="a"/>aszna, bo czas nas b<ch a="G"/>ędzie chciał zniszczyć,</row>
+			<row important_over="false">l<ch a="C"/>ecz nam się <ch a="G"/>uda zachwycić g<ch a="a"/>o! <ch a="D7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
 	<keywords/>
+	<album>Dla wszystkich starczy miejsca</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
-		<done/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 		<verificators>
 			<verificator>Alek</verificator>
+			<verificator>Edward Stachura (wiersz)</verificator>
+			<verificator>Stare Dobre Małżeństwo – album „Dla wszystkich starczy miejsca” (1990)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/jest-juz-za-pozno-nie-jest-za-pozno</verificator>
 		</verificators>
+		<to_do/>
 	</status>
+	<music_source/>
 </song>
