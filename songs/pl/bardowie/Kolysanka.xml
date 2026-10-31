@@ -1,103 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kołysanka">
-  <alias/>
-  <text_author>Jacek Kaczmarski</text_author>
-  <comment/>
+  <alias>Kołysanka [1982]</alias>
+  <text_author type="solo">Jacek Kaczmarski</text_author>
+  <comment>Piosenka napisana 3 marca 1982 r., dedykowana dzieciom w Polsce w okresie stanu wojennego.</comment>
   <composer type="solo">Jacek Kaczmarski</composer>
   <artist type="solo">Jacek Kaczmarski</artist>
   <translator/>
   <original_title/>
   <lyric>
-    <block type="verse">
-      <row important_over="never">W sierocińcu po dziedzińcu chodzą dzieci w koło</row>
-      <row important_over="never">A za siatką wróbli stadko bawi się wesoło</row>
+    <block type="chorus">
+      <row important_over="true"><ch a="A"/>W sierocińcu <ch a="d"/>po dziedziń<ch a="A"/>cu</row>
+      <row important_over="false"><ch a="A"/>Chodzą dzieci <ch a="d"/>w ko<ch a="A"/>ło,</row>
+      <row important_over="false"><ch a="A"/>A za siatką <ch a="d"/>wróbli stad<ch a="A"/>ko</row>
+      <row important_over="false"><ch a="A"/>Bawi się <ch a="d"/>weso<ch a="A"/>ło.</row>
+      <row important_over="true"><ch a="E"/>Rozćwierkały w świ<ch a="A"/>ecie całym –</row>
+      <row important_over="true"><ch a="B"/>Stąd i ja wiem <ch a="E7"/>o tym,</row>
+      <row important_over="true"><ch a="E7"/>Że to wprawdzie <ch a="a"/>sieroci<ch a="B"/>niec,</row>
+      <row important_over="true"><ch a="E7"/>Ale nie sie<ch a="a"/>roty.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Rozćwierkały w świecie całym, stąd i ja wiem o tym</row>
-      <row important_over="never">Że to wprawdzie sierociniec, ale nie sieroty</row>
+      <row important_over="true">– M<ch a="a"/>oja mama jest w Paryżu, a mój tata si<ch a="E"/>edzi,</row>
+      <row important_over="true">Si<ch a="E7"/>ostrę miesiąc już w ukryciu trzymają sąsi<ch a="a"/>edzi.</row>
+      <row important_over="true">Z ł<ch a="H0"/>óżka mnie nad r<ch a="a"/>anem wzięli, ki<ch a="H0"/>edy tatę br<ch a="a"/>ali</row>
+      <row important_over="true">M<ch a="H0"/>ówiąc: teraz m<ch a="a"/>y będziemy ci<ch a="E"/>ę wychowyw<ch a="a"/>ali.</row>
+      <row important_over="false">Tw<ch a="H0"/>oja stara zwi<ch a="a"/>ała szczwana <ch a="H0"/>i nieprędko wr<ch a="a"/>óci,</row>
+      <row important_over="false">St<ch a="H0"/>ary wyrok m<ch a="a"/>a nagrany, tr<ch a="E"/>ójkę z karku zrz<ch a="a"/>uci.</row>
+      <row important_over="false"><ch a="a"/>I co począć z takim fantem, niech się państwo gł<ch a="E"/>owi.</row>
+      <row important_over="false">Chc<ch a="E7"/>esz być mały milicjantem? Popraw broń wujk<ch a="a"/>owi!</row>
+      <row important_over="false">K<ch a="H0"/>im chcę być – an<ch a="a"/>i ja myślę m<ch a="H0"/>ówić byle k<ch a="a"/>omu,</row>
+      <row important_over="false">T<ch a="H0"/>ylko martwię si<ch a="a"/>ę kto przyjdzie mi<ch a="E"/>eszkać u nas w d<ch a="a"/>omu.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>W sierocińcu <ch a="d"/>po dziedziń<ch a="A"/>cu</row>
+      <row important_over="false"><ch a="A"/>Chodzą dzieci <ch a="d"/>w ko<ch a="A"/>ło,</row>
+      <row important_over="false"><ch a="A"/>A za siatką <ch a="d"/>wróbli stad<ch a="A"/>ko</row>
+      <row important_over="false"><ch a="A"/>Bawi się <ch a="d"/>weso<ch a="A"/>ło.</row>
+      <row important_over="false"><ch a="E"/>Rozćwierkały w świ<ch a="A"/>ecie całym –</row>
+      <row important_over="false"><ch a="B"/>Stąd i ja wiem <ch a="E7"/>o tym,</row>
+      <row important_over="false"><ch a="E7"/>Że to wprawdzie <ch a="a"/>sieroci<ch a="B"/>niec,</row>
+      <row important_over="false"><ch a="E7"/>Ale nie sie<ch a="a"/>roty.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Moja mama jest w Paryżu, a mój tata siedzi</row>
-      <row important_over="never">Siostrę miesiąc już w ukryciu trzymają sąsiedzi</row>
+      <row important_over="false">– T<ch a="a"/>ata z mamą są w obozie od pierwszej niedzi<ch a="E"/>eli,</row>
+      <row important_over="false"><ch a="E7"/>Im jest znacznie niż mnie gorzej, bo nic nie wiedzi<ch a="a"/>eli.</row>
+      <row important_over="false"><ch a="H0"/>O tym, że ja t<ch a="a"/>utaj jestem, ni<ch a="H0"/>e wie nikt znaj<ch a="a"/>omy;</row>
+      <row important_over="false">Ż<ch a="H0"/>ebym tak mógł ch<ch a="a"/>ociaż jeszcze w<ch a="E"/>ysłać list do d<ch a="a"/>omu.</row>
+      <row important_over="false"><ch a="a"/>Ulepiliśmy bałwana w czarnych okul<ch a="E"/>arach,</row>
+      <row important_over="false"><ch a="E7"/>Obsikaliśmy go z rana i stanęli w p<ch a="a"/>arach.</row>
+      <row important_over="false">B<ch a="H0"/>aczność! Spocznij! M<ch a="a"/>ówi do nas dz<ch a="H0"/>iś Generał Str<ch a="a"/>aszak!</row>
+      <row important_over="false">Wr<ch a="H0"/>ona orła ni<ch a="a"/>e pokona, wi<ch a="E"/>osna będzie n<ch a="a"/>asza…</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>W sierocińcu <ch a="d"/>po dziedziń<ch a="A"/>cu</row>
+      <row important_over="false"><ch a="A"/>Chodzą dzieci <ch a="d"/>w ko<ch a="A"/>ło,</row>
+      <row important_over="false"><ch a="A"/>A za siatką <ch a="d"/>wróbli stad<ch a="A"/>ko</row>
+      <row important_over="false"><ch a="A"/>Bawi się <ch a="d"/>weso<ch a="A"/>ło.</row>
+      <row important_over="false"><ch a="E"/>Rozćwierkały w świ<ch a="A"/>ecie całym –</row>
+      <row important_over="false"><ch a="B"/>Stąd i ja wiem <ch a="E7"/>o tym,</row>
+      <row important_over="false"><ch a="E7"/>Że to wprawdzie <ch a="a"/>sieroci<ch a="B"/>niec,</row>
+      <row important_over="false"><ch a="E7"/>Ale czy sie<ch a="a"/>roty?</row>
     </block>
     <block type="verse">
-      <row important_over="never">Z łóżka mnie nad ranem wzięli kiedy tatę brali</row>
-      <row important_over="never">Mówiąc — teraz my będziemy cię wychowywali</row>
+      <row important_over="false">– T<ch a="a"/>ato był w kopalni, kiedy wojsko szło do b<ch a="E"/>oju,</row>
+      <row important_over="false"><ch a="E7"/>Opowiadał górnik jeden, co uciekł z konw<ch a="a"/>oju.</row>
+      <row important_over="false"><ch a="H0"/>Opowiadał m<ch a="a"/>ojej mamie, ż<ch a="H0"/>e ich otocz<ch a="a"/>yli,</row>
+      <row important_over="false">T<ch a="H0"/>ato z szuflą st<ch a="a"/>ał przy bramie <ch a="E"/>i tam go zab<ch a="a"/>ili.</row>
+      <row important_over="false">M<ch a="a"/>amę wzięli do szpitala i pod drzwiami st<ch a="E"/>oją,</row>
+      <row important_over="false"><ch a="E7"/>Ale ja nie myślę wcale czekać, aż nas zgn<ch a="a"/>oją.</row>
+      <row important_over="false">Gd<ch a="H0"/>y się skończy j<ch a="a"/>uż to wszystko, gdzi<ch a="H0"/>eś około l<ch a="a"/>ata,</row>
+      <row important_over="false">B<ch a="H0"/>ędę antys<ch a="a"/>ocjalistą – t<ch a="E"/>akim jak mój t<ch a="a"/>ata.</row>
     </block>
-    <block type="verse">
-      <row important_over="never">Twoja stara zwiała — szczwana i nieprędko wróci</row>
-      <row important_over="never">Stary wyrok ma nagrany trójkę z karku zrzuci</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">I co począć z takim fantem niech się państwo głowi</row>
-      <row important_over="never">Chcesz być małym milicjantem popraw broń wujkowi</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kim chcę być ani ja myślę mówić byle komu</row>
-      <row important_over="never">Tylko martwię się kto przyjdzie mieszkać u nas w domu</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">W sierocińcu po dziedzińcu chodzą dzieci w koło</row>
-      <row important_over="never">A za siatką wróbli stadko bawi się wesoło</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Rozćwierkały w świecie całym, stąd i ja wiem o tym</row>
-      <row important_over="never">Że to wprawdzie sierociniec, ale nie sieroty</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Tata z mamą są w obozie od pierwszej niedzieli</row>
-      <row important_over="never">Im jest znacznie niż mnie gorzej bo nic nie wiedzieli</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">O tym, że ja tutaj jestem nie wie nikt znajomy</row>
-      <row important_over="never">Żebym tak mógł chociaż jeszcze wysłać list do domu</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Ulepiliśmy bałwana w czarnych okularach</row>
-      <row important_over="never">Obsikaliśmy go z rana i stanęli w parach</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Baczność, spocznij mówi do nas dziś generał straszak</row>
-      <row important_over="never">Wrona orła nie pokona wiosna będzie nasza</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">W sierocińcu po dziedzińcu chodzą dzieci w koło</row>
-      <row important_over="never">A za siatką wróbli stadko bawi się wesoło</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Rozćwierkały w świecie całym, stąd i ja wiem o tym</row>
-      <row important_over="never">Że to wprawdzie sierociniec, ale nie sieroty</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Tato był w kopalni kiedy wojsko szło do boju</row>
-      <row important_over="never">Opowiadał górnik jeden co uciekł z konwoju</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Opowiadał mojej mamie, że ich otoczyli</row>
-      <row important_over="never">Tato z szuflą stał przy bramie i go tam zabili</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Mamę wzięli do szpitala i pod drzwiami stoją</row>
-      <row important_over="never">Ale ja nie myślę wcale czekać aż nas zgnoją</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Gdy się skończy już to wszystko gdzieś około lata</row>
-      <row important_over="never">Będę antysocjalistą takim jak mój tata</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">W sierocińcu po dziedzińcu chodzą dzieci w koło</row>
-      <row important_over="never">A za siatką wróbli stadko bawi się wesoło</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Rzucisz śniegiem zamiast chlebem wróbli sejm odleci</row>
-      <row important_over="never">A po lodzie tak jak codzień będą chodzić dzieci</row>
+    <block type="chorus">
+      <row important_over="false"><ch a="A"/>W sierocińcu <ch a="d"/>po dziedziń<ch a="A"/>cu</row>
+      <row important_over="false"><ch a="A"/>Chodzą dzieci <ch a="d"/>w ko<ch a="A"/>ło,</row>
+      <row important_over="false"><ch a="A"/>A za siatką <ch a="d"/>wróbli stad<ch a="A"/>ko</row>
+      <row important_over="false"><ch a="A"/>Bawi się <ch a="d"/>weso<ch a="A"/>ło.</row>
+      <row important_over="false"><ch a="E"/>Rzucisz śniegiem z<ch a="A"/>amiast chlebem –</row>
+      <row important_over="false"><ch a="B"/>Wróbli sejm odl<ch a="E7"/>eci,</row>
+      <row important_over="false"><ch a="E7"/>A po lodzie zn<ch a="a"/>ów, jak co <ch a="B"/>dzień,</row>
+      <row important_over="false"><ch a="E7"/>Będą chodzić dzi<ch a="a"/>eci.</row>
     </block>
   </lyric>
-  <music metre="">
-    <guitar barre="0"/>
+  <music metre="4/4">
+    <guitar barre="3"/>
   </music>
+  <keywords/>
+  <album>Zbroja</album>
+  <genre>Poezja śpiewana</genre>
   <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
     <verificators/>
     <to_do/>
   </status>
+  <music_source/>
 </song>
