@@ -4,7 +4,11 @@ import util from "util";
 const SONGEDITOR_BRANCH_REGEXP=/^se-.*/g;
 
 export async function cleanupChanges(req, res) {
-    const {refs, diffs, user, octokit} = await getRefs(req, res);
+    const refsData = await getRefs(req, res);
+    if (!refsData) {
+        return;
+    }
+    const {refs, diffs, user, octokit} = refsData;
     // Let's delete empty & merged branches.
     for (let i = 0; i < refs.length; ++i) {
         let branch = refs[i];
@@ -91,6 +95,10 @@ async function getRefs(req, res) {
             repo: "songbook"
         });
 
+    if (!r || !r.repository) {
+        return null;
+    }
+
     const diffs = new Map();
     const refs = r.repository.refs.nodes;
 
@@ -125,7 +133,11 @@ async function getRefs(req, res) {
 
 export async function listChanges(req, res) {
     try {
-        const {refs, diffs, user, r} = await getRefs(req, res);
+        const refsData = await getRefs(req, res);
+        if (!refsData) {
+            return;
+        }
+        const {refs, diffs, user, r} = refsData;
         console.log('2',refs);
 
         htmlPrefix(res);
@@ -191,8 +203,6 @@ export async function listChanges(req, res) {
     } catch (e) {
         HandleError(e, res);
     } finally {
-        if (!res.headersSent) {
-            htmlSuffix(res);
-        }
+        htmlSuffix(res);
     }
 }
