@@ -1,29 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesień w górach">
-  <alias/>
-  <text_author type="solo">Sieciarz; A. Turbus</text_author>
-  <comment/>
-  <composer type="solo">Andrzej Mróz</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Lato zamknięte kluczem ptaków<ch a="d"/></row>
-      <row important_over="never"><ch a="G"/>Zostawia tylko swe wspomnienia<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Jesień odważnie stawia kroki<ch a="a"/></row>
-      <row important_over="never"><ch a="H7"/>Zaczyna mgłami dyszeć ziemia<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>A w górach nie ma już nikogo<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="G"/>Niebo nasz straszy niepogodą<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Lato do ciepłych stron umyka<ch a="a"/></row>
-      <row important_over="never"><ch a="H7"/>W skłębionych chmurach i strumykach<ch a="E"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>A w górach nie ma już nikogo</alias>
+	<text_author type="solo">Andrzej Krzysztof Torbus, Maria Siciarz</text_author>
+	<comment/>
+	<composer type="solo">Andrzej Mróz</composer>
+	<artist type="solo">Andrzej Mróz</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">L<ch a="a"/>ato zamknięte kluczem pt<ch a="d"/>aków</row>
+			<row important_over="true">z<ch a="G"/>ostawia tylko swe wspomni<ch a="C"/>enia,</row>
+			<row important_over="true">j<ch a="d"/>esień odważnie stawia kr<ch a="a"/>oki,</row>
+			<row important_over="true">z<ch a="H7"/>aczyna mgłami dyszeć zi<ch a="E7"/>emia.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">A w g<ch a="a"/>órach nie ma już nik<ch a="d"/>ogo,</row>
+				<row important_over="true">ni<ch a="G"/>ebo nas straszy niepog<ch a="C"/>odą,</row>
+				<row important_over="true">l<ch a="d"/>ato do ciepłych stron um<ch a="a"/>yka</row>
+				<row important_over="true">w skł<ch a="H7"/>ębionych chmurach i strum<ch a="E7"/>ykach.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Na ni<ch a="a"/>ebie mokrym od jesiennej sł<ch a="d"/>oty</row>
+			<row important_over="false">kocz<ch a="G"/>uje tabor żalu i tęskn<ch a="C"/>oty,</row>
+			<row important_over="false">a drz<ch a="d"/>ewa pogubiły l<ch a="a"/>iście</row>
+			<row important_over="false">na wcz<ch a="H7"/>esne mrozów przyjśc<ch a="E7"/>ie.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="a"/>atr tylko plącze się dok<ch a="d"/>oła,</row>
+			<row important_over="false">na wrz<ch a="G"/>osach pajęczyny wi<ch a="C"/>esza,</row>
+			<row important_over="false">i zas<ch a="d"/>ypiają leśne zi<ch a="a"/>oła,</row>
+			<row important_over="false">jak w sm<ch a="H7"/>utnych strofach tego wi<ch a="E7"/>ersza.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Magia gór</album>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Andrzej Krzysztof Torbus, Maria Siciarz (słowa)</verificator>
+			<verificator>Andrzej Mróz (muzyka i wykonanie, album „Magia gór”)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/andrzej-mroz/jesien-w-gorach</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
 </song>
