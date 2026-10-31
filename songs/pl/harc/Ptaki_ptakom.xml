@@ -1,66 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Ptaki ptakom" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ptaki ptakom">
 	<alias></alias>
 	<text_author type="solo">Jerzy Frankiewicz</text_author>
-	<comment></comment>
+	<comment>Piosenka poświęcona harcerkom i harcerzom poległym w obronie Wieży Spadochronowej w Katowicach we wrześniu 1939 r.</comment>
 	<composer type="solo">Zbigniew Kocój</composer>
-	<artist type="solo"></artist>
+	<artist type="band">Harcerskie</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Wybiegani, wysłuchani, wybawieni             </row>
-			<row important_over="never">Siądźcie wkoło do ogniska mego stóp           </row>
-			<row important_over="never">Chcę powiedzieć wam o tamtej złej jesieni     </row>
-			<row important_over="never">Z której przyszedł ten harcerski leśny grób</row>
+			<row important_over="true">Wybi<ch a="D"/>egani, wysłuch<ch a="A"/>ani, wybawi<ch a="D"/>eni,</row>
+			<row important_over="true">Si<ch a="G"/>ądźcie w koło do og<ch a="A"/>niska mego st<ch a="D"/>óp.</row>
+			<row important_over="true">Chc<ch a="G"/>ę powiedzieć wam o t<ch a="A"/>amtej złej jesi<ch a="D"/>eni,<ch a="h"/></row>
+			<row important_over="false">Z kt<ch a="G"/>órej przyszedł ten harc<ch a="A"/>erski, leśny gr<ch a="D"/>ób.</row>
 		</block>
-		<block type="other">
-			<row important_over="never">Myśli mieli rozczochrane jak wy dzisiaj</row>
-			<row important_over="never">I mundury te dzisiejsze mieli też</row>
-			<row important_over="never">Lecz stanęli w pogotowiu, gdy padł wystrzał</row>
-			<row important_over="never">Aby bronić tej największej z wielkich wież</row>
+		<block type="verse">
+			<row important_over="false">M<ch a="D"/>yśli mieli rozczochr<ch a="A"/>ane jak wy dzisi<ch a="D"/>aj</row>
+			<row important_over="false"><ch a="G"/>I mundury te dzisi<ch a="A"/>ejsze mieli t<ch a="D"/>eż,</row>
+			<row important_over="false">L<ch a="G"/>ecz stanęli w pogot<ch a="A"/>owiu, gdy padł w<ch a="D"/>ystrzał,<ch a="h"/></row>
+			<row important_over="false"><ch a="G"/>Aby bronić tej najwi<ch a="A"/>ększej z wielkich wi<ch a="D"/>eż.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Harcerze, którym słowa na ustach zamierały   </row>
-			<row important_over="never">Harcerki, którym uśmiech zabrał wojny czas   </row>
-			<row important_over="never">Jak ptaki po przestworzach losu szybowały    </row>
-			<row important_over="never">I padały jak puszczony bez nadziei głaz    </row>
+			<row important_over="true">Harc<ch a="D"/>erze, którym sł<ch a="h"/>owa na <ch a="G"/>ustach zamier<ch a="A"/>ały,</row>
+			<row important_over="false">Harc<ch a="D"/>erki, którym <ch a="h"/>uśmiech z<ch a="G"/>abrał wojny cz<ch a="A"/>as.</row>
+			<row important_over="true">Jak pt<ch a="G"/>aki po przestw<ch a="A"/>orzach losu szybow<ch a="D"/>ały<ch a="h"/></row>
+			<row important_over="false"><ch a="G"/>I padały jak puszcz<ch a="A"/>ony bez nadziei gł<ch a="D"/>az.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Mogli odejść, mogli uciec w swoje jutro</row>
-			<row important_over="never">Nikt by słowa im powiedzieć nie był śmiał</row>
-			<row important_over="never">Lecz zostali, chociaż było im tak trudno</row>
-			<row important_over="never">Gdy za strzałem padał ciągle drugi strzał</row>
-		</block>
-		<blocklink blocknb="3"/>
-		<block type="verse">
-			<row important_over="never">To dla Polski tak czuwali dniem i nocą</row>
-			<row important_over="never">Polski sztandar osłaniali piersią swą</row>
-			<row important_over="never">I odeszli, kiedy wzięto ich przemocą</row>
-			<row important_over="never">Aby w ziemię wtopić całą duszę swą</row>
+			<row important_over="false">M<ch a="D"/>ogli odejść, mogli uci<ch a="A"/>ec w swoje j<ch a="D"/>utro,</row>
+			<row important_over="false">N<ch a="G"/>ikt by słowa im powi<ch a="A"/>edzieć nie był śmi<ch a="D"/>ał,</row>
+			<row important_over="false">L<ch a="G"/>ecz zostali, chociaż b<ch a="A"/>yło im tak tr<ch a="D"/>udno,<ch a="h"/></row>
+			<row important_over="false">Gd<ch a="G"/>y za strzałem padał ci<ch a="A"/>ągle drugi strz<ch a="D"/>ał.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="never">Niech im pokłon odda nasze pokolenie</row>
-			<row important_over="never">Tym, co umrzeć tam umieli mimo snów</row>
-			<row important_over="never">I gdy przyjdą, by podeptać nam marzenia</row>
-			<row important_over="never">Polski sztandar my osłońmy piersią znów</row>
+			<row important_over="false">T<ch a="D"/>o dla Polski tak czuw<ch a="A"/>ali dniem i n<ch a="D"/>ocą,</row>
+			<row important_over="false">P<ch a="G"/>olski sztandar osłani<ch a="A"/>ali piersią sw<ch a="D"/>ą</row>
+			<row important_over="false"><ch a="G"/>I odeszli, kiedy wzi<ch a="A"/>ęto ich przem<ch a="D"/>ocą,<ch a="h"/></row>
+			<row important_over="false"><ch a="G"/>Aby w ziemię wtopić c<ch a="A"/>ałą duszę sw<ch a="D"/>ą.</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="false">Ni<ch a="D"/>ech im pokłon odda n<ch a="A"/>asze pokol<ch a="D"/>enie,</row>
+			<row important_over="false">T<ch a="G"/>ym, co umrzeć tam umi<ch a="A"/>eli mimo sn<ch a="D"/>ów,</row>
+			<row important_over="false"><ch a="G"/>I gdy przyjdą, by pod<ch a="A"/>eptać nam marz<ch a="D"/>enia,<ch a="h"/></row>
+			<row important_over="false">P<ch a="G"/>olski sztandar my osł<ch a="A"/>ońmy piersią zn<ch a="D"/>ów.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
 	<genre>Piosenka harcerska</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://www.spiewnik.eu/3669/Ptaki-Ptakom/</verificator>
+			<verificator>https://www.shdm.harc.pl/spiewnik/ptaki-ptakom</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
