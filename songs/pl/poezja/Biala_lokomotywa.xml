@@ -2,66 +2,68 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Biała lokomotywa">
 	<alias/>
 	<text_author type="solo">Edward Stachura</text_author>
-	<comment>Piosenka występuje też w innych wykonaniach, np. SDMu czy oryginalnym Stachury. Wtedy oczywiście inne chwyty.</comment>
+	<comment>Wersja z muzyką Marka Gałązki (wykonywana m.in. przez Grupę Balladową „Po Drodze”). Istnieją też inne melodie (np. Krzysztofa Myszkowskiego / SDM lub autorska Edwarda Stachury).</comment>
 	<composer type="solo">Marek Gałązka</composer>
-	<artist type="band">Marek Gałązka i Grupa Balladowa "Po Drodze"</artist>
+	<artist type="band">Marek Gałązka i Grupa Balladowa „Po Drodze”</artist>
 	<translator/>
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">Sun<ch a="E"/>ęła poprzez czarne łąki</row>
-			<row important_over="true">Sun<ch a="A"/>ęła przez spalony l<ch a="E"/>as</row>
-			<row important_over="true">Mij<ch a="E"/>ała bram zwęglone szczątki</row>
-			<row important_over="false">Płyn<ch a="A"/>ęła przez wspomnienia mi<ch a="E"/>ast</row>
-			<row important_over="true">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
-			<row important_over="true">Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
-			<row important_over="false">Ta ż<ch a="A"/>ywa zjawa, istny c<ch a="E"/>ud</row>
-			<row important_over="true">Tu p<ch a="E"/>ośród pustych marnych wierszy</row>
-			<row important_over="false">Tu gd<ch a="A"/>zie już tylko czarny k<ch a="E"/>urz</row>
-			<row important_over="false">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a</row>
+			<row important_over="true">Sun<ch a="E"/>ęła poprzez czarne łąki,</row>
+			<row important_over="true">sun<ch a="A"/>ęła przez spalony l<ch a="E"/>as,</row>
+			<row>mij<ch a="E"/>ała bram zwęglone szczątki,</row>
+			<row>płyn<ch a="A"/>ęła przez wspomnienia mi<ch a="E"/>ast –</row>
+			<row important_over="true">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a.</row>
+			<row>Skąd wzi<ch a="E"/>ęła się w krainie śmierci</row>
+			<row>ta ż<ch a="A"/>ywa zjawa, istny c<ch a="E"/>ud,</row>
+			<row>tu p<ch a="E"/>ośród pustych, marnych wierszy,</row>
+			<row>tu, gd<ch a="A"/>zie już tylko czarny k<ch a="E"/>urz –</row>
+			<row>Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>a?</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">Ach cz<ch a="G"/>yj, ach cz<ch a="D"/>yj to j<ch a="C"/>est<ch a="G"/></row>
-			<row important_over="false">Tak pi<ch a="G"/>ękny h<ch a="D"/>ojny g<ch a="C"/>est<ch a="G"/></row>
-			<row important_over="true">Kto <ch a="G"/>mi tu prz<ch a="h"/>ysłał j<ch a="a"/>ą<ch a="G"/></row>
-			<row important_over="true">
-				<ch a="G"/>Bym s<ch a="D"/>ię wyd<ch a="C"/>osta<ch a="G"/>ł st<ch a="H"/>ąd</row>
-			<row important_over="false">Ach kt<ch a="G"/>óż, no kt<ch a="D"/>óż to m<ch a="C"/>oże b<ch a="G"/>yć</row>
-			<row important_over="false">Bez<ch a="G"/>e mnie kt<ch a="D"/>o nie umi<ch a="C"/>e ż<ch a="G"/>yć</row>
-			<row important_over="false">I b<ch a="G"/>ym zmartw<ch a="h"/>ychwstał bł<ch a="a"/>aga mn<ch a="G"/>ie</row>
-			<row important_over="false">
-				<ch a="G"/>By m<ch a="D"/>nie ob<ch a="C"/>udzi<ch a="G"/>ł jasny <ch a="H"/>zew</row>
-			<row important_over="true">Białej lokomot<ch a="E"/>ywy</row>
+			<row important_over="true">Ach, cz<ch a="G"/>yj, ach, cz<ch a="D"/>yj to j<ch a="C"/>est, <ch a="G"/></row>
+			<row important_over="true">tak pi<ch a="G"/>ękny, h<ch a="D"/>ojny g<ch a="C"/>est? <ch a="G"/></row>
+			<row>Kto <ch a="G"/>mi tu prz<ch a="h"/>ysłał j<ch a="a"/>ą, <ch a="G"/></row>
+			<row>bym s<ch a="D"/>ię wyd<ch a="C"/>osta<ch a="G"/>ł st<ch a="H"/>ąd?</row>
+			<row>Ach, kt<ch a="G"/>óż, no kt<ch a="D"/>óż to m<ch a="C"/>oże b<ch a="G"/>yć,</row>
+			<row>bez<ch a="G"/>e mnie kt<ch a="D"/>o nie umi<ch a="C"/>e ż<ch a="G"/>yć</row>
+			<row>i b<ch a="G"/>ym zmartw<ch a="h"/>ychwstał, bł<ch a="a"/>aga mn<ch a="G"/>ie,</row>
+			<row>by m<ch a="D"/>nie ob<ch a="C"/>udzi<ch a="G"/>ł jasny <ch a="H"/>zew</row>
+			<row>Białej Lokomot<ch a="E"/>ywy?</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Suni<ch a="E"/>emy poprzez czarne łąki</row>
-			<row important_over="false">Suni<ch a="A"/>emy przez spalony l<ch a="E"/>as</row>
-			<row important_over="false">Mij<ch a="E"/>amy bram zwęglone szczątki</row>
-			<row important_over="false">Płyni<ch a="A"/>emy przez wspomnienia mi<ch a="E"/>ast</row>
-			<row important_over="false">Z bi<ch a="H"/>ałą <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>ą</row>
-			<row important_over="false">Gdzie brz<ch a="E"/>ęczą pszczoły, pluszcze rzeka</row>
-			<row important_over="false">Gdzie sł<ch a="A"/>ońca blask i cienie drz<ch a="E"/>ew</row>
-			<row important_over="false">Do t<ch a="E"/>ej, co na mnie w życiu czeka</row>
-			<row important_over="false">Do ż<ch a="A"/>ycia znowu nieś mnie ni<ch a="E"/>eś</row>
-			<row important_over="false">Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>o</row>
+			<row>Suni<ch a="E"/>emy poprzez czarne łąki,</row>
+			<row>suni<ch a="A"/>emy przez spalony l<ch a="E"/>as,</row>
+			<row>mij<ch a="E"/>amy bram zwęglone szczątki,</row>
+			<row>płyni<ch a="A"/>emy przez wspomnienia mi<ch a="E"/>ast</row>
+			<row>z bi<ch a="H"/>ałą <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>ą,</row>
+			<row>gdzie brz<ch a="E"/>ęczą pszczoły, pluszcze rzeka,</row>
+			<row>gdzie sł<ch a="A"/>ońca blask i cienie drz<ch a="E"/>ew,</row>
+			<row>do t<ch a="E"/>ej, co na mnie w życiu czeka,</row>
+			<row>do ż<ch a="A"/>ycia znowu nieś mnie, ni<ch a="E"/>eś,</row>
+			<row>Bi<ch a="H"/>ała <ch a="B"/> lo<ch a="A"/>komotyw<ch a="E"/>o!</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Po drodze zapytaj o gwiazdy</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Onufry</verificator><verificator>Adam</verificator><verificator>Alek</verificator>
-		</verificators>
-		<to_do>Adam--&gt;poprawiłem akordy, rozkład refrenów i drobiazgi po lewej</to_do>
 		<done>
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Adam: poprawiłem akordy, rozkład refrenów i drobiazgi po lewej</verificator>
+			<verificator>Alek</verificator>
+			<verificator>Edward Stachura (słowa), Marek Gałązka i Grupa Balladowa „Po Drodze”</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stachura-edward/biala-lokomotywa</verificator>
+		</verificators>
 	</status>
-	<keywords/>
 	<music_source/>
-	<album>(1980 - 1988)</album>
-	<genre>Poezja śpiewana</genre>
 </song>
