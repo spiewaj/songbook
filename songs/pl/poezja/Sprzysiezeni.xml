@@ -4,45 +4,45 @@
 	<text_author type="solo">Wojciech Bellon</text_author>
 	<comment></comment>
 	<composer type="solo">Wojciech Bellon</composer>
-	<artist type="solo">Wolna Grupa Bukowina</artist>
+	<artist type="band">Wolna Grupa Bukowina</artist>
 	<translator></translator>
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Sprzysiężeni budząc się świtem <ch a="h"/><ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Przykrywają palcami oczy <ch a="G"/><ch a="D"/><ch a="Fis"/></row>
-			<row important_over="never">By zatrzymać chociaż przez chwilę <ch a="h"/><ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Nić wysnutą z osnowy nocy <ch a="D"/><ch a="Fis"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="never">Nić, co nieba barwą się mieniąc <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Diretissimę w ścianie kreśli <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Potem dnia zakładają brzemię <ch a="cis"/><ch a="H"/></row>
-			<row important_over="never">I ruszają w drogę ku szczęściu <ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+			<row important_over="true"><ch a="h"/>Sprzysiężeni <ch a="A"/>budząc się <ch a="E"/>świtem</row>
+			<row important_over="true"><ch a="G"/>Przykrywają <ch a="D"/>palcami <ch a="Fis"/>oczy</row>
+			<row important_over="true"><ch a="h"/>By zatrzymać <ch a="A"/>chociaż przez <ch a="E"/>chwilę</row>
+			<row important_over="true"><ch a="D"/>Nić wy<ch a="Fis"/>snutą z o<ch a="G"/>snowy <ch a="A"/>nocy</row>
+			<row important_over="true"><ch a="D"/>Nić, co nieba <ch a="E"/>barwą się mieniąc</row>
+			<row important_over="true"><ch a="D"/>Diretissimę <ch a="E"/>w ścianie kreśli</row>
+			<row important_over="true"><ch a="cis"/>Potem dnia za<ch a="H"/>kładają brzemię</row>
+			<row important_over="true"><ch a="D"/>I ruszają w <ch a="Fis7"/>drogę ku <ch a="h"/>szczęściu</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Mija dzień, koło się toczy <ch a="h"/><ch a="D"/><ch a="A"/><ch a="Fis"/></row>
-			<row important_over="never">Marzeniami kładą się cienie<ch a="h"/><ch a="D"/><ch a="E"/><ch a="G"/></row>
-			<row important_over="never">I odradza się każdej nocy <ch a="h"/><ch a="A"/><ch a="Fis"/></row>
-			<row important_over="never">I odradza się każdej nocy <ch a="h"/><ch a="D"/><ch a="EG"/></row>
-			<row important_over="never">Sprzysiężenie górskiego kamienia <ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+			<row important_over="true"><ch a="h"/>Mija <ch a="D"/>dzień, <ch a="A"/>koło się <ch a="Fis"/>toczy</row>
+			<row important_over="true"><ch a="h"/>Marze<ch a="D"/>niami <ch a="E"/>kładą się <ch a="G"/>cienie</row>
+			<row important_over="true"><ch a="h"/>I od<ch a="A"/>radza się <ch a="Fis"/>każdej nocy</row>
+			<row important_over="true"><ch a="h"/>I od<ch a="D"/>radza się <ch a="E"/>każdej <ch a="G"/>nocy</row>
+			<row important_over="true"><ch a="D"/>Sprzysię<ch a="Fis"/>żenie górskiego ka<ch a="h"/>mienia</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Sprzysiężeni - przyjazne dłonie <ch a="h"/><ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Plotą węzeł nad ogniem watry <ch a="G"/><ch a="D"/><ch a="Fis"/></row>
-			<row important_over="never">I wpatrzeni w gasnący płomień <ch a="h"/><ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Nucą pieśni pachnące wiatrem <ch a="D"/><ch a="Fis"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="never">Nie rozplotą ni burze ni waśnie <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Tego, co złączone przez ogień <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Słońce wokół - wciąż jaśniej, jaśniej <ch a="cis"/><ch a="H"/></row>
-			<row important_over="never">Zakwitł kamień dziś górskim głogiem <ch a="D"/><ch a="Fis7"/><ch a="h"/></row>
+			<row important_over="false"><ch a="h"/>Sprzysiężeni – <ch a="A"/>przyjazne <ch a="E"/>dłonie</row>
+			<row important_over="false"><ch a="G"/>Plotą węzeł <ch a="D"/>nad ogniem <ch a="Fis"/>watry</row>
+			<row important_over="false"><ch a="h"/>I wpatrzeni <ch a="A"/>w gasnący <ch a="E"/>płomień</row>
+			<row important_over="false"><ch a="D"/>Nucą <ch a="Fis"/>pieśni pach<ch a="G"/>nące <ch a="A"/>wiatrem</row>
+			<row important_over="false"><ch a="D"/>Nie rozplotą ni <ch a="E"/>burze ni waśnie</row>
+			<row important_over="false"><ch a="D"/>Tego, co złą<ch a="E"/>czone przez ogień</row>
+			<row important_over="false"><ch a="cis"/>Słońce wokół – <ch a="H"/>wciąż jaśniej, jaśniej</row>
+			<row important_over="false"><ch a="D"/>Zakwitł kamień <ch a="Fis7"/>dziś górskim <ch a="h"/>głogiem</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">A gdy wiatr sprzysiężonym w oczy zawieje <ch a="h"/><ch a="D"/><ch a="A"/><ch a="h"/></row>
-			<row important_over="never">Bliski uśmiech w cień nocy odejdzie <ch a="h"/><ch a="D"/><ch a="A"/><ch a="h"/></row>
-			<row important_over="never">Bukowina opuszcza ramiona <ch a="e"/><ch a="h"/></row>
-			<row important_over="never">Bukowina łeb pochyla siwy<ch a="E"/><ch a="h"/><ch a="Fis"/></row>
-			<row important_over="never">Czas odpływa z czasem smutek kona <ch a="h"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="never">Lecz wspomnienia wciąż pozostają żywe <ch a="D"/><ch a="Fis"/><ch a="h"/></row>
+			<row important_over="true">A gdy <ch a="h"/>wiatr sprzysię<ch a="D"/>żonym w <ch a="A"/>oczy za<ch a="h"/>wieje</row>
+			<row important_over="true"><ch a="h"/>Bliski uśmiech <ch a="D"/>w cień nocy <ch a="A"/>odej<ch a="h"/>dzie</row>
+			<row important_over="true"><ch a="e"/>Bukowina o<ch a="h"/>puszcza ramiona</row>
+			<row important_over="true"><ch a="e"/>Bukowina <ch a="h"/>łeb pochyla <ch a="Fis"/>siwy</row>
+			<row important_over="true"><ch a="h"/>Czas od<ch a="D"/>pływa, z <ch a="A"/>czasem smutek <ch a="D"/>kona</row>
+			<row important_over="true"><ch a="D"/>Lecz wspomnienia <ch a="Fis"/>wciąż pozostają <ch a="h"/>żywe</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -54,10 +54,13 @@
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<authors/>
+			<chords/>
+			<text/>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/sprzysiezeni</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
