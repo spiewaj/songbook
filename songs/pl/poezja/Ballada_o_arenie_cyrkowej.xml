@@ -9,59 +9,59 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Na koniec rozwiązano teatr<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Więc cała w sztucznych ogniach teraz<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Kręci się arena cyrkowa<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Naszych czasów metafora<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row important_over="true">Na koniec <ch a="G"/>rozwią<ch a="h"/>zano <ch a="C"/>teatr, <ch a="G"/></row>
+			<row important_over="true">więc cała w <ch a="D"/>sztucznych ogniach <ch a="G"/>teraz</row>
+			<row>kręci <ch a="D"/>się arena <ch a="e"/>cyrkowa,</row>
+			<row>naszych <ch a="C"/>czasów <ch a="D"/>meta<ch a="G"/>fora.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Nic tu na pewno wszystko na niby<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Małpka jest w cyrku idolem<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Karzeł podkręca szatańską korbkę<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Arena toczy się kołem<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row>Nic tu na <ch a="G"/>pewno, <ch a="h"/>wszystko <ch a="C"/>na niby, <ch a="G"/></row>
+			<row>małpka <ch a="D"/>jest w cyrku i<ch a="G"/>dolem,</row>
+			<row>karzeł pod<ch a="D"/>kręca szatańską <ch a="e"/>korbkę,</row>
+			<row>a<ch a="C"/>rena toczy <ch a="D"/>się ko<ch a="G"/>łem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Niczym piłeczki w palcach żonglerów<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Duszyczki nasze wirują w koło<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Życie przestało być sztuką<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I stało się sztuczką cyrkową<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row>Niczym piłeczki <ch a="G"/>w pal<ch a="h"/>cach żon<ch a="C"/>glerów, <ch a="G"/></row>
+			<row>duszyczki <ch a="D"/>nasze wirują <ch a="G"/>w koło,</row>
+			<row>życie prze<ch a="D"/>stało być <ch a="e"/>sztuką</row>
+			<row>i sta<ch a="C"/>ło się sztuczką <ch a="D"/>cyrko<ch a="G"/>wą.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dwie siostry syjamskie prawda kłamstwo<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Wbiegają w zwinnych podskokach<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Nikt nie odróżni jednej od drugiej<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Są w jednakowych trykotach<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row>Dwie siostry sy<ch a="G"/>jam<ch a="h"/>skie: prawda, <ch a="C"/>kłamstwo, <ch a="G"/></row>
+			<row>wbiegają <ch a="D"/>w zwinnych pod<ch a="G"/>skokach,</row>
+			<row>nikt nie od<ch a="D"/>różni jednej od <ch a="e"/>drugiej,</row>
+			<row>są w <ch a="C"/>jedna<ch a="D"/>kowych try<ch a="G"/>kotach.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Bóg gdyby nawet w krzaku ognistym<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Pojawił się między nami<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Mówilibyśmy że to magik<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Kolejną sztuczką nas mami<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row>Bóg gdyby <ch a="G"/>nawet <ch a="h"/>w krzaku og<ch a="C"/>nistym <ch a="G"/></row>
+			<row>pojawił <ch a="D"/>się między <ch a="G"/>nami,</row>
+			<row>mówili<ch a="D"/>byśmy, że to <ch a="e"/>magik</row>
+			<row>ko<ch a="C"/>lejną sztuczką <ch a="D"/>nas ma<ch a="G"/>mi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Lecz dokąd można w cyrku żyć<ch a="G"/><ch a="h"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Pytamy stojąc na głowie<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">Słyszymy drwiący błazna śmiech<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I to jedyna odpowiedź<ch a="C"/><ch a="D"/><ch a="G"/></row>
+			<row>Lecz dokąd <ch a="G"/>moż<ch a="h"/>na w cyrku <ch a="C"/>żyć? <ch a="G"/></row>
+			<row>Pytamy, <ch a="D"/>stojąc na <ch a="G"/>głowie,</row>
+			<row>słyszymy <ch a="D"/>drwiący błazna <ch a="e"/>śmiech</row>
+			<row>i <ch a="C"/>to je<ch a="D"/>dyna odpo<ch a="G"/>wiedź.</row>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Makatki</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Adam</verificator>
-			
-		</verificators>
-		<to_do/>	<done>
-			
-			
-			
+		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
-	</status>	<keywords/>
+		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Ballada_o_arenie_cyrkowej</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/ballada-o-arenie-cyrkowej</verificator>
+		</verificators>
+	</status>
 	<music_source/>
-	<album>Makatki</album>
-	<genre/>
 </song>
