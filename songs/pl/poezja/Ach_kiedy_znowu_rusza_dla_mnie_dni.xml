@@ -9,55 +9,54 @@
 	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Minęło wiele miesięcy<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Ale mnie nic nie minęło<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Czas dla mnie w miejscu przystanął<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Takie jest chłopcy, takie jest piekło<ch a="G"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="never">Na odgłos kroków po schodach<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Serce wciąż skacze do gardła<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Że może to jednak to ona<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Ona to piękna moja zagłada<ch a="G"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Mi<ch a="D"/>nęło wiele mie<ch a="e"/>sięcy,</row>
+			<row important_over="true">ale <ch a="G"/>mnie nic nie mi<ch a="D"/>nęło.</row>
+			<row>Czas <ch a="D"/>dla mnie w miejscu przy<ch a="e"/>stanął,</row>
+			<row>takie jest, <ch a="G"/>chłopcy, <ch a="A"/>takie jest <ch a="D"/>piekło.</row>
+			<row>Na <ch a="D"/>odgłos kroków po <ch a="e"/>schodach</row>
+			<row>serce <ch a="G"/>wciąż skacze do <ch a="D"/>gardła,</row>
+			<row>że <ch a="D"/>może to jednak to <ch a="e"/>ona,</row>
+			<row>ona, <ch a="G"/>to piękna <ch a="A"/>moja za<ch a="D"/>głada.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Ach, kiedy znowu ruszą dla mnie dni<ch a="Fis7"/></row>
-			<row important_over="never">Noce i dni<ch a="h"/></row>
-			<row important_over="never">I pory roku krążyć zaczną znów<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="never">Jak obieg krwi<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Lato jesień zima wiosna<ch a="Fis7"/></row>
-			<row important_over="never">Do Boliwii droga prosta<ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Wiosna lato jesień zima<ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Nic mi nie przypomina<ch a="D"/><ch a="A7"/></row>
+			<row important_over="true">Ach, <ch a="Fis7"/>kiedy znowu ruszą dla mnie dni,</row>
+			<row important_over="true">noce i <ch a="h"/>dni,</row>
+			<row>i <ch a="G"/>pory <ch a="D"/>roku krążyć <ch a="C"/>zaczną znów,</row>
+			<row>jak <ch a="G"/>obieg <ch a="D"/>krwi.</row>
+			<row>Lato, jesień, zima, <ch a="Fis7"/>wiosna,</row>
+			<row>do Boliwii droga <ch a="h"/>prosta. <ch a="G"/></row>
+			<row>Wiosna, <ch a="D"/>lato, <ch a="C"/>jesień, <ch a="G"/>zima,</row>
+			<row>nic mi nie przypo<ch a="D"/>mi<ch a="A7"/>na.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ni żyć już można mi umrzeć<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Wypłakane łzy doszczętnie<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Oddycham ledwie i z bólem<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Kością mi w gardle staje powietrze<ch a="G"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="never">Czy tak już będzie i będzie<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Boże mój Boże mój Boże<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Zawsze i wszędzie w obłędzie<ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Boże mój wbiłeś we mnie wszytkie noże<ch a="G"/><ch a="A"/><ch a="D"/></row>
+			<row>Ni <ch a="D"/>żyć już można, ni <ch a="e"/>umrzeć,</row>
+			<row>wypła<ch a="G"/>kane łzy do<ch a="D"/>szczętnie.</row>
+			<row>Oddy<ch a="D"/>cham ledwie i z <ch a="e"/>bólem,</row>
+			<row>kością mi w <ch a="G"/>gardle <ch a="A"/>staje po<ch a="D"/>wietrze.</row>
+			<row>Czy <ch a="D"/>tak już będzie i <ch a="e"/>będzie,</row>
+			<row>Boże mój, <ch a="G"/>Boże mój, <ch a="D"/>Boże?</row>
+			<row>Za<ch a="D"/>wsze i wszędzie w ob<ch a="e"/>łędzie,</row>
+			<row>Boże mój, <ch a="G"/>wbiłeś we mnie <ch a="A"/>wszystkie <ch a="D"/>noże!</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Sercopisanie</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Adam	</verificator>
-			
-		</verificators>
-		<to_do/>
-		<done>	
-			
-			
+		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Ach_kiedy_znowu_rusza_dla_mnie_dni</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/ach-kiedy-znowu-rusza-dla-mnie-dni</verificator>
+		</verificators>
 	</status>
-	<keywords/>
 	<music_source/>
-	<album>Stare Dobre Małżeństwo</album>
-	<genre/>
 </song>
