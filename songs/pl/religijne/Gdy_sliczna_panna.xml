@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy śliczna panna">
   <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Polska kolęda-kołysanka z początku XVIII wieku.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Gdy śliczna panna syna kołysała</row>
-      <row important_over="never">Z wielkim weselem tak jemu śpiewała</row>
+      <row important_over="true"><ch a="G"/>Gdy śliczna P<ch a="C"/>anna S<ch a="G"/>yna kołys<ch a="e"/>ała,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="true">Z wi<ch a="C"/>elkim wes<ch a="G"/>elem t<ch a="e"/>ak Jemu śpiew<ch a="a"/>ała:<ch a="D"/><ch a="D7"/><ch a="G"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Li li li li laj moje dzieciąteczko</row>
-        <row important_over="never">Li li li li laj śliczne paniąteczko</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, m<ch a="G"/>oje Dzieciąt<ch a="e"/>eczko,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+        <row important_over="false"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, śl<ch a="G"/>iczne Paniąt<ch a="e"/>eczko.<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Wszystko stworzenie śpiewaj panu swemu</row>
-      <row important_over="never">Pomóż radości wielkiej sercu memu</row>
+      <row important_over="false"><ch a="G"/>Wszystko stworz<ch a="C"/>enie, śpi<ch a="G"/>ewaj Panu sw<ch a="e"/>emu,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="false">P<ch a="C"/>omóż rad<ch a="G"/>ości wi<ch a="e"/>elkiej sercu m<ch a="a"/>emu:<ch a="D"/><ch a="D7"/><ch a="G"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Li li li li laj wielki królewiczu</row>
-        <row important_over="never">Li li li li laj niebieski dziedzicu</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, wi<ch a="G"/>elki Królew<ch a="e"/>iczu,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+        <row important_over="false"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, ni<ch a="G"/>ebieski Dziedz<ch a="e"/>icu.<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Sypcie się z nieba śliczni aniołowie</row>
-      <row important_over="never">Śpiewajcie Panu niebiescy duchowie</row>
+      <row important_over="false"><ch a="G"/>Sypcie się z ni<ch a="C"/>eba, śl<ch a="G"/>iczni anioł<ch a="e"/>owie,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+      <row important_over="false">Śpi<ch a="C"/>ewajcie P<ch a="G"/>anu, ni<ch a="e"/>ebiescy duch<ch a="a"/>owie:<ch a="D"/><ch a="D7"/><ch a="G"/></row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never">Li li li li laj mój wonny kwiateczku</row>
-        <row important_over="never">Li li li li laj w ubogim żłóbeczku</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="false"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, m<ch a="G"/>ój wonny kwiateczk<ch a="e"/>u,<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
+        <row important_over="false"><ch a="G"/>Li, li, li, li, l<ch a="C"/>aj, w ub<ch a="G"/>ogim żłób<ch a="e"/>eczku.<ch a="a"/><ch a="D"/><ch a="D7"/><ch a="G"/></row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Kolęda</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Gdy_sliczna_Panna_Syna_kolysala/tekst</verificator>
+      <verificator>https://spiewnik.wywrota.pl/koledy/gdy-sliczna-panna</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
