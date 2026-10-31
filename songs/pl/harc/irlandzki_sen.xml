@@ -1,48 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Irlandzki Sen">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Irlandzki sen">
   <alias>Tylko konia osiodłać</alias>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment/>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Tylko konia osiodłać i przez wrzosowiska <ch a="a"/></row>
-      <row important_over="never">Tam gdzie elfy i czarownice <ch a="G"/><ch a="a"/></row>
-      <row important_over="never">A przydrożne kamienie imiona celtycke <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Dumnie noszą jak tajemnice <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true" sidechords="a">T<ch a="a"/>ylko konia osiodłać i przez wrzosowiska,</row>
+      <row important_over="true" sidechords="G a">T<ch a="G"/>am, gdzie elfy i czarown<ch a="a"/>ice,</row>
+      <row important_over="true" sidechords="a G">A przydr<ch a="a"/>ożne kamienie imi<ch a="G"/>ona celtyckie</row>
+      <row important_over="true" sidechords="F G a">D<ch a="F"/>umnie n<ch a="G"/>oszą jak tajemn<ch a="a"/>ice.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Myślą z samym ścigać się Bogiem</row>
-      <row important_over="never" sidechords="a G">Czarne myśli powkładać jak drwa do ogniska</row>
-      <row important_over="never" sidechords="F G a">Gdy noc chmurna zastąpi ci drogę</row>
+      <row sidechords="a">Tylko konia osiodłać i przez wrzosowiska,</row>
+      <row sidechords="G a">Myślą z samym ścigać się Bogiem,</row>
+      <row sidechords="a G">Czarne myśli powkładać jak drwa do ogniska,</row>
+      <row sidechords="F G a">Gdy noc chmurna zastąpi ci drogę.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Ach śnij mi się śnij irlandzki śnie <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Całego porwij mnie ach porwij mnie <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">A od morza wiatr niech niesie mnie gdzieś <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">W irlandzki zielony sen <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true" sidechords="a G">Ach, śn<ch a="a"/>ij mi się, śnij, irl<ch a="G"/>andzki śnie,</row>
+      <row important_over="true" sidechords="F G a">C<ch a="F"/>ałego p<ch a="G"/>orwij mnie, ach, p<ch a="a"/>orwij mnie,</row>
+      <row important_over="true" sidechords="a G">A od m<ch a="a"/>orza wiatr niech ni<ch a="G"/>esie mnie gdzieś</row>
+      <row important_over="true" sidechords="F G a">W irl<ch a="F"/>andzki, zi<ch a="G"/>elony s<ch a="a"/>en.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Nad leśnego ruczaju kryształem</row>
-      <row important_over="never" sidechords="a G">Woda moc ma czarowną, koń siły odzyska</row>
-      <row important_over="never" sidechords="F G a">Nad bezdrożem przeleci jak strzała</row>
+      <row sidechords="a">Tylko konia osiodłać i przez wrzosowiska,</row>
+      <row sidechords="G a">Nad leśnego ruczaju kryształem,</row>
+      <row sidechords="a G">Woda moc ma czarowną, koń siły odzyska,</row>
+      <row sidechords="F G a">Nad bezdrożem przeleci jak strzała.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Jak przez miłość do rudej dziewczyny</row>
-      <row important_over="never" sidechords="a G">Kiedy w dali zabłyśnie nadzieja jak iskra</row>
-      <row important_over="never" sidechords="F G a">Spadła gwiazda czy wioska w dolinie</row>
+      <row sidechords="a">Tylko konia osiodłać i przez wrzosowiska,</row>
+      <row sidechords="G a">Jak przez miłość do rudej dziewczyny,</row>
+      <row sidechords="a G">Kiedy w dali zabłyśnie nadzieja jak iskra,</row>
+      <row sidechords="F G a">Spadła gwiazda czy wioska w dolinie.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">W końcu konia przywiązać i do drzwi zapukać</row>
-      <row important_over="never" sidechords="G a">Ucałować te włosy jak płomień</row>
-      <row important_over="never" sidechords="a G">I w modlitwie dziękczynnej spokoju poszukać</row>
-      <row important_over="never" sidechords="F G a">I w ciemności popłakać jak człowiek</row>
+      <row sidechords="a">W końcu konia przywiązać i do drzwi zapukać,</row>
+      <row sidechords="G a">Ucałować te włosy jak płomień,</row>
+      <row sidechords="a G">I w modlitwie dziękczynnej spokoju poszukać,</row>
+      <row sidechords="F G a">I w ciemności popłakać jak człowiek.</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <album></album>
   <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.chords.pl/chwyty/piosenki-harcerskie-turystyczne/irlandzki-sen</verificator>
+      <verificator>Poprawiono literówkę (celtycke -&gt; celtyckie), zachowano formatowanie sidechords oraz dodano precyzyjne akordy nad tekstem, metrum (4/4) i metadane.</verificator>
+    </verificators>
   </status>
 </song>
