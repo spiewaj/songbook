@@ -25,3 +25,19 @@ Always verify whether the current Pull Request has already been merged before ex
   - Clearly document in `<to_do>` or `<comment>` that the chords/melody are unknown and could not be verified from public sources.
   - Do NOT mark `<chords>` under `<status><done>`.
 - **Honest Source Attribution**: Every `<verificator>` entry MUST point to a genuine URL or verified physical reference that was actually consulted. NEVER invent or assume a source.
+
+## `sidechords` Attribute & Formatting Policy
+The `sidechords="..."` attribute on `<row>` is an explicit, supported feature in the songbook:
+- **Purpose**: It explicitly controls the text rendered in the side margin (in LaTeX, HTML, and Kindle views).
+- **Supported Formats**:
+  - Glued chords (e.g. `sidechords="DG CC7+"`) indicating rapid chord changes within a single measure.
+  - Parentheses (e.g. `sidechords="(D)"`, `sidechords="C GD (H7)"`) representing passing or optional chords.
+  - Bar separators (e.g. `sidechords="C | G | a"`).
+  - Explicit side-margin chords for verses that use `important_over="never"`.
+- **Preservation Rule**: Whenever a row has `sidechords="..."` with deliberate formatting (e.g. glued pairs, parentheses, passing chords, bar divisions), **DO NOT REMOVE** the `sidechords` attribute when adding or refining inline `<ch a="..."/>` tags. Inline `<ch>` tags and `sidechords` are designed to co-exist cleanly. Keep both.
+
+## `<verificators>` Preservation & Editorial History Policy
+The `<verificators>` section contains an immutable historical track record of previous reviews, corrections, and editorial decisions by contributors:
+- **NEVER REMOVE** existing `<verificator>` entries.
+- Always **APPEND** new verification notes and sources to `<verificators>`. Each new verification should record what was checked, verified, or adjusted, along with genuine reference URLs.
+
