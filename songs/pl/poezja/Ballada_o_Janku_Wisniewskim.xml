@@ -1,55 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o Janku Wiśniewskim">
   <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <text_author type="solo">Krzysztof Dowgiałło</text_author>
+  <comment>Pieśń upamiętniająca ofiary masakry robotników na Wybrzeżu w Grudniu 1970 roku (Zbyszka Godlewskiego, w pieśni nazwanego Jankiem Wiśniewskim).</comment>
+  <composer type="solo">Mieczysław Cholewa</composer>
+  <artist type="solo">Krystyna Janda</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Chłopcy z Grabówka, chłopcy z Chylonii<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Dzisiaj milicja użyła broni<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Dzielnieśmy stali, celnie rzucali<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row important_over="true">Chłopcy z Gra<ch a="a"/>bówka, chłopcy z Chy<ch a="E"/>lo<ch a="a"/>nii,</row>
+      <row important_over="true">dzisiaj mi<ch a="a"/>licja użyła <ch a="E"/>bro<ch a="a"/>ni.</row>
+      <row>Dzielnieśmy <ch a="G"/>stali, celnie rzu<ch a="C"/>cali:</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Na drzwiach ponieśli go Świętojańską<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Naprzeciw glinom, naprzeciw tankom<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Chłopcy stoczniowcy, pomścijcie druha<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row>Na drzwiach po<ch a="a"/>nieśli go Święto<ch a="E"/>jań<ch a="a"/>ską,</row>
+      <row>naprzeciw <ch a="a"/>glinom, naprzeciw <ch a="E"/>tan<ch a="a"/>kom.</row>
+      <row>Chłopcy stocz<ch a="G"/>niowcy, pomścijcie <ch a="C"/>druha:</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Huczą petardy, ścielą się gazy<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Na robotników sypią się razy<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Padają dzieci, starcy, kobiety<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row>Huczą pe<ch a="a"/>tardy, ścielą się <ch a="E"/>ga<ch a="a"/>zy,</row>
+      <row>na robot<ch a="a"/>ników sypią się <ch a="E"/>ra<ch a="a"/>zy.</row>
+      <row>Padają <ch a="G"/>dzieci, starcy, ko<ch a="C"/>biety:</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Jeden zraniony, drugi zabity<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Krew się polała grudniowym świtem<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>To partia strzela do robotników<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row>Jeden zra<ch a="a"/>niony, drugi za<ch a="E"/>bi<ch a="a"/>ty,</row>
+      <row>krew się po<ch a="a"/>lała grudniowym <ch a="E"/>świ<ch a="a"/>tem.</row>
+      <row>To partia <ch a="G"/>strzela do robot<ch a="C"/>ników:</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Stoczniowcy Gdyni, stoczniowcy Gdańska<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Idźcie do domu, skończona walka<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Świat się dowiedział, nic nie powiedział<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row>Stoczniowcy <ch a="a"/>Gdyni, stoczniowcy <ch a="E"/>Gdań<ch a="a"/>ska,</row>
+      <row>idźcie do <ch a="a"/>domu, skończona <ch a="E"/>wal<ch a="a"/>ka.</row>
+      <row>Świat się do<ch a="G"/>wiedział, nic nie po<ch a="C"/>wiedział:</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Nie płaczcie matki to nie na darmo<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Nad stocznią sztandar z czarną kokardą<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Za chleb i wolność i nową Polskę<ch a="C"/></row>
-      <row important_over="never"><ch a="E"/>Janek Wiśniewski padł<ch a="a"/></row>
+      <row>Nie płaczcie, <ch a="a"/>matki, to nie na <ch a="E"/>dar<ch a="a"/>mo,</row>
+      <row>nad stocznią <ch a="a"/>sztandar z czarną ko<ch a="E"/>kar<ch a="a"/>dą.</row>
+      <row>Za chleb i <ch a="G"/>wolność, i nową <ch a="C"/>Polskę</row>
+      <row>Janek Wiś<ch a="E"/>niewski <ch a="a"/>padł.</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <album></album>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Ballada_o_Janku_Wisniewskim</verificator>
+      <verificator>Słowa: Krzysztof Dowgiałło, muzyka: Mieczysław Cholewa</verificator>
+    </verificators>
   </status>
 </song>
