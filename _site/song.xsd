@@ -36,7 +36,18 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute name="sidechords" type="xs:string" use="optional"/>
+        <xs:attribute name="sidechords" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>
+                    Explicit side-margin chords override. Controls the exact text rendered in the side margin
+                    (e.g., in LaTeX and HTML margin chords). Allows preferred formatting such as glued chords
+                    (e.g., 'DG', 'CC7+') indicating rapid chord changes within a measure, parentheses
+                    (e.g., '(D)', '(H7)') for passing or optional chords, and bar dividers ('|').
+                    Co-exists with inline &lt;ch&gt; tags (which control placement above lyrics words).
+                    Do not remove when adding or refining inline chords.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
         <xs:attribute name="style" use="optional">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
@@ -108,6 +119,13 @@
         </xs:all>
     </xs:complexType>
     <xs:complexType name="verificatorsType">
+        <xs:annotation>
+            <xs:documentation>
+                Historical track record of editorial verification and corrections.
+                Existing &lt;verificator&gt; entries must NOT be deleted. New verification notes
+                and source URLs/references should always be appended.
+            </xs:documentation>
+        </xs:annotation>
         <xs:sequence>
             <xs:element type="xs:string" name="verificator" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>

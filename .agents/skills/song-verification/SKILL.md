@@ -50,7 +50,7 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - Convert international chord symbols (`Bm` -> `h`, `Em` -> `e`, `Am` -> `a`, `Dm` -> `d`, `F#m` -> `fis`, `C#m` -> `cis`, `Bb` -> `B`, `B` -> `H`) when adapting tabs from English/foreign sources.
    - Ensure chords are placed inline (`<ch a="..."/>`) right before the syllable where the chord change occurs.
    - If a song only has `sidechords="..."` or no chords at all, find an authoritative chord transcription (including searching original foreign versions via Discogs/Ultimate Guitar if it is a translated song) and place inline `<ch a="..."/>` tags.
-   - **Preserve `sidechords="..."` formatting**: If a row already has `sidechords="..."` with deliberate formatting (e.g. glued pairs like `DG`, parentheses like `(D)`, bar separators `|`), **do not remove `sidechords`**. Inline `<ch a="..."/>` tags and `sidechords` co-exist cleanly; `sidechords` controls the margin layout while `<ch>` controls over-the-word placement.
+   - **Preserve `sidechords="..."` formatting**: If a row already has `sidechords="..."` with deliberate formatting (e.g. glued pairs like `DG` or `CC7+` for rapid changes in a measure, parentheses like `(D)` or `(H7)` for passing or optional chords, bar separators `|`), **do not remove `sidechords`**. Inline `<ch a="..."/>` tags and `sidechords` co-exist cleanly; `sidechords` controls the margin layout while `<ch>` controls over-the-word placement. Keep both.
    - Ensure no lyric words or split suffixes (`<ch a="D"/><ch a="is"/>`) are accidentally inside `<ch>` tags.
    - For purely instrumental rows, use `<row important_over="false" style="instr"><ch a="..."/>...</row>`.
 
@@ -59,8 +59,9 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - `important_over="false"`: Set on subsequent verses or repeating couplets within the same block that follow the already-introduced chord progression, as well as `style="instr"` rows.
    - `important_over="never"`: Set on any `<row>` that has **no `<ch>` tags** (or in pure `sidechords`-only songs).
 
-5. **Verification `<status>` & `<verificators>` Source Attribution**:
-   - Once text, chords, and authors are verified, update `<status><done>` and record the authoritative sources (URLs or references) used to confirm the correctness of the song as `<verificator>` entries inside `<verificators>` (always preserving any pre-existing `<verificator>` entries):
+5. **Verification `<status>` & `<verificators>` Source Attribution & Preservation**:
+   - **NEVER REMOVE existing `<verificator>` entries**: They represent an immutable historical record of work done, corrections made, and editorial decisions by previous contributors.
+   - **Append only**: Always **append** new verification notes and genuine source references (URLs or physical citations) used to confirm lyrics, chords, or metadata:
      ```xml
      <status>
        <done>
@@ -69,10 +70,12 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
          <chords>chord positioning</chords>
        </done>
        <verificators>
-         <!-- preserve existing verificators, and add source URLs/references used to confirm correctness -->
+         <!-- NEVER remove existing verificators; append new verification notes and sources: -->
+         <verificator>Original contributor or historical note</verificator>
          <verificator>https://example.com/authoritative-lyrics-source</verificator>
          <verificator>https://example.com/authoritative-chords-source</verificator>
        </verificators>
+       <to_do/>
      </status>
      ```
    - Remove or update `<to_do>` once the issue described in `<to_do>` has been resolved. If an ambiguity remains that cannot be resolved from public sources, document it clearly in `<to_do>` or `<comment>`.
