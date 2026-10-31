@@ -1,61 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Blues niepotrzebnych powrotów">
+	<alias/>
+	<text_author type="solo">Barbara Sobolewska</text_author>
+	<comment/>
+	<composer type="solo">Jan Sobolewski</composer>
 	<artist type="solo">Elżbieta Adamiak</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="true">Dop<ch a="A7"/>ala się świ<ch a="D7"/>eca, mal<ch a="A7"/>eńki płomień drż<ch a="Fis7"/>y</row>
-			<row important_over="true">Pow<ch a="h7"/>oli zza pi<ch a="E7"/>eca wych<ch a="A7"/>odzą<ch a="D7"/> szare sn<ch a="A7"/>y</row>
-			<row important_over="true">Zaci<ch a="D7"/>ęła się płyta, ad<ch a="F7"/>apter się bi<ch a="E7"/>edzi</row>
-			<row important_over="false">Stuk<ch a="D7"/>ają w podłogę zmęcz<ch a="F7"/>eni sąsi<ch a="E7"/>edzi</row>
-			<row important_over="true">Więc <ch a="A7"/>idź już, nie wr<ch a="D7"/>acaj, ni<ch a="A7"/>e prz<ch a="h7"/>eszk<ch a="C"/>adz<ch a="D7"/>aj m<ch a="A7"/>i</row>
+			<row important_over="true">Dop<ch a="A7"/>ala się świ<ch a="D7"/>eca, mal<ch a="A7"/>eńki płomień drż<ch a="Fis7"/>y,</row>
+			<row important_over="true">pow<ch a="h7"/>oli zza pi<ch a="E7"/>eca wych<ch a="A7"/>odzą <ch a="D7"/>szare sn<ch a="A7"/>y.</row>
+			<row important_over="true">Zaci<ch a="D7"/>ęła się płyta, ad<ch a="F7"/>apter się bi<ch a="E7"/>edzi,</row>
+			<row important_over="true">stuk<ch a="D7"/>ają w podłogę zmęcz<ch a="F7"/>eni sąsi<ch a="E7"/>edzi.</row>
+			<row important_over="true">Więc <ch a="A7"/>idź już, nie wr<ch a="D7"/>acaj, ni<ch a="A7"/>e prz<ch a="h7"/>eszk<ch a="C"/>adz<ch a="D7"/>aj m<ch a="A7"/>i.</row>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row style="instr"><ch a="A7"/> <ch a="D7"/> <ch a="A7"/> <ch a="G"/> <ch a="E7"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Nie było cię długo, przestałam liczyć dni<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
-			<row important_over="false">Wolałeś tę drugą, kwiaciarkę z vis a vis<ch a="h7"/><ch a="E7"/><ch a="A7"/><ch a="D7"/><ch a="A7"/></row>
-			<row important_over="false">Zapomniał korytarz, jak brzmią twoje kroki<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
-			<row important_over="false">Nie poznał cię nawet twój fotel głęboki<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
-			<row important_over="false">Więc po co tu siedzisz, dziwisz nocne ćmy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
+			<row>Nie b<ch a="A7"/>yło cię dł<ch a="D7"/>ugo, przest<ch a="A7"/>ałam liczyć dn<ch a="Fis7"/>i,</row>
+			<row>wol<ch a="h7"/>ałeś tę dr<ch a="E7"/>ugą, kwiac<ch a="A7"/>iarkę <ch a="D7"/>z vis-à-v<ch a="A7"/>is.</row>
+			<row>Zap<ch a="D7"/>omniał korytarz, jak brzm<ch a="F7"/>ią twoje kr<ch a="E7"/>oki,</row>
+			<row>nie p<ch a="D7"/>oznał cię nawet twój f<ch a="F7"/>otel głęb<ch a="E7"/>oki.</row>
+			<row>Więc p<ch a="A7"/>o co tu si<ch a="D7"/>edzisz, dz<ch a="A7"/>iwisz n<ch a="h7"/>ocn<ch a="C"/>e ćm<ch a="D7"/>y? <ch a="A7"/></row>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row style="instr"><ch a="A7"/> <ch a="D7"/> <ch a="A7"/> <ch a="G"/> <ch a="E7"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Posłuchaj, latarnie wołają cię zza mgły<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="Fis7"/></row>
-			<row important_over="false">Nie patrz tak na mnie, wiesz przecież, gdzie są drzwi<ch a="h7"/><ch a="E7"/><ch a="A7"/><ch a="D7"/><ch a="A7"/></row>
-			<row important_over="false">Potrafię bez ciebie oddychać i śpiewać<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
-			<row important_over="false">Choć coraz bezbarwniej jest ptakom na drzewach<ch a="D7"/><ch a="F7"/><ch a="E7"/></row>
-			<row important_over="false">A tamte dwie krople, to wcale nie są łzy<ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="h7"/><ch a="C"/><ch a="D7"/><ch a="A7"/></row>
+			<row>Posł<ch a="A7"/>uchaj, lat<ch a="D7"/>arnie woł<ch a="A7"/>ają cię zza mgł<ch a="Fis7"/>y,</row>
+			<row>nie p<ch a="h7"/>atrz tak na mn<ch a="E7"/>ie, wiesz prz<ch a="A7"/>ecież, <ch a="D7"/>gdzie są drzw<ch a="A7"/>i.</row>
+			<row>Potr<ch a="D7"/>afię bez ciebie odd<ch a="F7"/>ychać i śpi<ch a="E7"/>ewać,</row>
+			<row>choć c<ch a="D7"/>oraz bezbarwniej jest pt<ch a="F7"/>akom na drzw<ch a="E7"/>ewach.</row>
+			<row>A t<ch a="A7"/>amte dwie kr<ch a="D7"/>ople, to wc<ch a="A7"/>ale n<ch a="h7"/>ie s<ch a="C"/>ą łz<ch a="D7"/>y. <ch a="A7"/></row>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A7"/><ch a="D7"/><ch a="A7"/><ch a="G"/><ch a="E7"/></row>
+			<row style="instr"><ch a="A7"/> <ch a="D7"/> <ch a="A7"/> <ch a="G"/> <ch a="E7"/></row>
 		</block>
 	</lyric>
-	
-	
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Live</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Onufry</verificator>
-			
-		</verificators>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<to_do></to_do>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Słowa: Barbara Sobolewska, muzyka: Jan Sobolewski</verificator>
+			<verificator>Wykonanie: Elżbieta Adamiak (album „Live”, 1987)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/elzbieta-adamiak/blues-niepotrzebnych-powrotow</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
+	<music_source/>
 </song>
