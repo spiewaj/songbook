@@ -1,52 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jesienne wspominanki">
-  <text_author type="solo">Maciej Służała</text_author>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Letnich wieczorów wspomnienie<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>Wraca jak bumerang<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Wygasłych ognisk płomienie<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>Tlą się jeszcze we snach<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Na twarzy ślad opalenizny<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Po każdym myciu bledszy<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Zaczynamy się wstydzić golizny<ch a="e"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d7"/>Zaczynamy ubierać się cieplej<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="C"/>Odwijamy wspomnienia ze szpulek<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Wyświetlamy na ścianie kolory<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Przekładamy z plecaków do biurek<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Długie wieczory<ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Cieplej ubrani w swetry<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>W grube skarpety wełniane<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Niespokojnie w kaloryfer wpatrzeni<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>A nuż grzać nie będzie wcale<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Na pociechę sięgamy do pudeł<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Wyciągamy stare fotografie<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Zapatrzeni w nie cicho myślimy<ch a="e"/><ch a="a"/></row>
-      <row important_over="never"><ch a="D7"/>O lecie które będzie — jakie?<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Za oknem pierwsze płatki śniegu<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>Choć to jeszcze nie zima<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Mieszkanie zimne jak biegun<ch a="E"/><ch a="a7"/></row>
-      <row important_over="never"><ch a="F"/>A my ciągle myślimy<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Co czeka nas w przyszłym roku<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Jakie nam dane przygody<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Widzimy sznur ptaków na niebie<ch a="e"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d7"/>Jesień znów straszy niepogodą<ch a="G"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music>
-    <guitar barre="0"/>
-  </music>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias/>
+	<text_author type="solo">Maciej Służała</text_author>
+	<comment/>
+	<composer type="solo">Maciej Służała</composer>
+	<artist type="solo">Maciej Służała</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">L<ch a="C"/>etnich wiecz<ch a="E"/>orów wspomni<ch a="a7"/>enie</row>
+			<row important_over="true">wr<ch a="F"/>aca jak bumer<ch a="C"/>ang,</row>
+			<row important_over="true">w<ch a="C"/>ygasłych <ch a="E"/>ognisk płomi<ch a="a7"/>enie</row>
+			<row important_over="true">tl<ch a="F"/>ą się jeszcze we sn<ch a="G"/>ach.</row>
+			<row important_over="true">N<ch a="C"/>a twarzy śl<ch a="E"/>ad opalen<ch a="a"/>izny</row>
+			<row important_over="true">p<ch a="F"/>o każdym myciu bl<ch a="G"/>edszy,</row>
+			<row important_over="true">zacz<ch a="C"/>ynamy się wst<ch a="e"/>ydzić gol<ch a="a"/>izny,</row>
+			<row important_over="true">zacz<ch a="d7"/>ynamy ubi<ch a="G"/>erać się ci<ch a="C"/>eple<ch a="F"/>j. <ch a="C"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Odwij<ch a="C"/>amy wspomni<ch a="E"/>enia ze szp<ch a="a"/>ulek,</row>
+			<row important_over="true">wyświetl<ch a="F"/>amy na ści<ch a="G"/>anie kol<ch a="C"/>ory,</row>
+			<row important_over="true">przekład<ch a="F"/>amy z plec<ch a="G"/>aków do bi<ch a="C"/>urek</row>
+			<row important_over="true">dł<ch a="F"/>ugie wiecz<ch a="G"/>ory.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ci<ch a="C"/>eplej ubr<ch a="E"/>ani w sw<ch a="a7"/>etry,</row>
+			<row important_over="false">w gr<ch a="F"/>ube skarpety wełni<ch a="C"/>ane,</row>
+			<row important_over="false">ni<ch a="C"/>espokojnie w kal<ch a="E"/>oryfer wpatrz<ch a="a7"/>eni –</row>
+			<row important_over="false">a n<ch a="F"/>uż grzać nie będzie wc<ch a="G"/>ale.</row>
+			<row important_over="false">N<ch a="C"/>a pociechę si<ch a="E"/>ęgamy do p<ch a="a"/>udeł,</row>
+			<row important_over="false">wyciąg<ch a="F"/>amy stare fotogr<ch a="G"/>afie,</row>
+			<row important_over="false">zapatrz<ch a="C"/>eni w nie c<ch a="e"/>icho myśl<ch a="a"/>imy</row>
+			<row important_over="false">o l<ch a="d7"/>ecie, które b<ch a="G"/>ędzie – j<ch a="C"/>aki<ch a="F"/>e? <ch a="C"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Z<ch a="C"/>a oknem pi<ch a="E"/>erwsze płatki śni<ch a="a7"/>egu,</row>
+			<row important_over="false">choć t<ch a="F"/>o jeszcze nie z<ch a="C"/>ima,</row>
+			<row important_over="false">mi<ch a="C"/>eszkanie z<ch a="E"/>imne jak bi<ch a="a7"/>egun,</row>
+			<row important_over="false">a m<ch a="F"/>y ciągle myśl<ch a="G"/>imy,</row>
+			<row important_over="false">c<ch a="C"/>o czeka n<ch a="E"/>as w przyszłym r<ch a="a"/>oku,</row>
+			<row important_over="false">j<ch a="F"/>akie nam dane przyg<ch a="G"/>ody,</row>
+			<row important_over="false">widz<ch a="C"/>imy sznur pt<ch a="e"/>aków na ni<ch a="a"/>ebie –</row>
+			<row important_over="false">j<ch a="d7"/>esień znów str<ch a="G"/>aszy niepog<ch a="C"/>od<ch a="F"/>ą. <ch a="C"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Maciej Służała (słowa i muzyka)</verificator>
+			<verificator>Śpiewnik turystyczny</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
 </song>
