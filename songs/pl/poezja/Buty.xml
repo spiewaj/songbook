@@ -1,55 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Buty">
-  <alias/>
-  <text_author>Bułat Okudżawa</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Znów buty buty buty tupot nóg<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>I ptaków oszalałych czarny wiatr<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Kobiety stają wśród rozstajnych dróg<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Piechocie odchodzącej patrzą w ślad<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Czy słyszysz werbel werbel werbel gra<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Żołnierzu żegnaj ją pożegnaj ją<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Odchodzi pluton tylko mgła i mgła<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>I tylko przeszłość nie zachodzi mgłą<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>A męstwo nasze gdzie na miły Bóg<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>Gdy przyjdzie wracać na rodzinny próg<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Kobiety za pazuchę kładą je<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Jak pisklę ukradzone nam we śnie<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>A gdzie kobiety nasze powiedz gdzie<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>I gdy nadejdzie wytęskniony dzień<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Witają w progu nas i wiodą tam<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>Gdzie wszystko ukradziono nam<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>A nam nie łzy, nie załamania rąk<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>A my z nadzieją w nadchodzące dni<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>A pośród pól żerują stada wron<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>A pośród miast echami wojna brzmi<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>I znów w zaułkach buty, tupot nóg<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="G"/>I ptaków oszałych czarny targ<ch a="A7"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Kobiety stoją u rozstajnych dróg<ch a="a"/></row>
-      <row important_over="never"><ch a="E"/>W żołnierski podgolony patrzą kark<ch a="a"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Piosenka o żołnierskich butach</alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment/>
+	<composer type="solo">Bułat Okudżawa</composer>
+	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Witold Dąbrowski, Andrzej Mandalian</translator>
+	<original_title>Песенка о солдатских сапогах</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Zn<ch a="a"/>ów buty, buty, b<ch a="E"/>uty, tupot n<ch a="a"/>óg</row>
+			<row important_over="true">i pt<ch a="G"/>aków oszalałych cz<ch a="A7"/>arny wi<ch a="d"/>atr.</row>
+			<row>Kobi<ch a="F"/>ety stają u rozstajnych dr<ch a="a"/>óg,</row>
+			<row>piech<ch a="E"/>ocie odchodzącej patrzą w śl<ch a="a"/>ad.</row>
+		</block>
+		<block type="verse">
+			<row>Czy sł<ch a="a"/>yszysz: werbel, w<ch a="E"/>erbel, werbel gr<ch a="a"/>a?</row>
+			<row>„Żołni<ch a="G"/>erzu, żegnaj ją, prz<ch a="A7"/>eżegnaj j<ch a="d"/>ą!”.</row>
+			<row>Odh<ch a="F"/>odzi pluton – tylko mgła i mgł<ch a="a"/>a</row>
+			<row>i t<ch a="E"/>ylko przeszłość nie zachodzi mgł<ch a="a"/>ą.</row>
+		</block>
+		<block type="verse">
+			<row>A m<ch a="a"/>ęstwo nasze gdz<ch a="E"/>ie, na miły B<ch a="a"/>óg,</row>
+			<row>gdy prz<ch a="G"/>yjdzie wracać na rodz<ch a="A7"/>inny pr<ch a="d"/>óg?</row>
+			<row>Kobi<ch a="F"/>ety za pazuchę kładą j<ch a="a"/>e</row>
+			<row>jak p<ch a="E"/>isklę, ukradzione nam we śni<ch a="a"/>e.</row>
+		</block>
+		<block type="verse">
+			<row>A gdz<ch a="a"/>ie kobiety n<ch a="E"/>asze, powiedz, gdz<ch a="a"/>ie?</row>
+			<row>Gdy j<ch a="G"/>uż nadejdzie wytęskni<ch a="A7"/>ony dzi<ch a="d"/>eń,</row>
+			<row>wit<ch a="F"/>ają w progu nas i wiodą t<ch a="a"/>am,</row>
+			<row>gdzie wsz<ch a="E"/>ystko ukradziono n<ch a="a"/>am.</row>
+		</block>
+		<block type="verse">
+			<row>A n<ch a="a"/>am nie łzy, nie z<ch a="E"/>ałamanie r<ch a="a"/>ąk,</row>
+			<row>lecz z n<ch a="G"/>adzieją patrzmy w nadch<ch a="A7"/>odzące dn<ch a="d"/>i...</row>
+			<row>A p<ch a="F"/>ośród pól żerują stada wr<ch a="a"/>on,</row>
+			<row>a p<ch a="E"/>ośród miast echami wojna brzmi.<ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row>I zn<ch a="a"/>ów w zaułkach b<ch a="E"/>uty, tupot n<ch a="a"/>óg</row>
+			<row>i pt<ch a="G"/>aków oszalałych cz<ch a="A7"/>arny t<ch a="d"/>arg...</row>
+			<row>Kobi<ch a="F"/>ety stoją u rozstajnych dr<ch a="a"/>óg,</row>
+			<row>w żołni<ch a="E"/>erski podgolony patrzą k<ch a="a"/>ark.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Bułat Okudżawa (słowa i muzyka, 1957); przekład: Witold Dąbrowski, Andrzej Mandalian</verificator>
+			<verificator>https://spiewnik.wywrota.pl/bulat-okudzawa/piosenka-o-zolnierskich-butach</verificator>
+			<verificator>https://orkisz.pl/piosenki/buty</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
