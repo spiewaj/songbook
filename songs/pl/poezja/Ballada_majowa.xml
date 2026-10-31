@@ -9,37 +9,37 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="true">Brn<ch a="D"/>ąłem do ciebie m<ch a="A"/>aju</row>
-      <row important_over="true">Przez <ch a="G0"/>mrozy i b<ch a="h"/>iele,</row>
-      <row important_over="true">Przez ś<ch a="G"/>nieżyce i z<ch a="fis"/>aspy</row>
-      <row important_over="true">I l<ch a="G"/>ute zawi<ch a="A"/>eje</row>
-      <row important_over="false">Przez bezb<ch a="D"/>arwne szpit<ch a="A"/>alne</row>
-      <row important_over="false">K<ch a="G0"/>orytarze st<ch a="h"/>ycznia</row>
-      <row important_over="false">W t<ch a="G"/>ych korytarzach sł<ch a="fis"/>ońce</row>
-      <row important_over="true">G<ch a="G"/>asło ustaw<ch a="A"/>icznie<ch a="D"/></row>
+      <row important_over="true">Brn<ch a="D"/>ąłem do ciebie, m<ch a="A"/>aju,</row>
+      <row important_over="true">przez <ch a="G0"/>mrozy i b<ch a="h"/>iele,</row>
+      <row important_over="true">przez ś<ch a="G"/>nieżyce i z<ch a="fis"/>aspy</row>
+      <row important_over="true">i l<ch a="G"/>ute zawi<ch a="A"/>eje.</row>
+      <row>Przez bezb<ch a="D"/>arwne szpit<ch a="A"/>alne</row>
+      <row>k<ch a="G0"/>orytarze st<ch a="h"/>ycznia,</row>
+      <row>w t<ch a="G"/>ych korytarzach sł<ch a="fis"/>ońce</row>
+      <row>g<ch a="G"/>asło ustaw<ch a="A"/>icznie.<ch a="D"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">A teraz m<ch a="D"/>aj dokoła m<ch a="A"/>aj</row>
-        <row important_over="false">Wyświ<ch a="G0"/>ęca ogr<ch a="h"/>ody</row>
-        <row important_over="false">I cały j<ch a="G"/>a i cały j<ch a="fis"/>a</row>
-        <row important_over="false">Zanurz<ch a="G"/>ony w Jordanie pog<ch a="A"/>ody</row>
-        <row important_over="false">A teraz m<ch a="D"/>aj i maj i m<ch a="A"/>aj</row>
-        <row important_over="false">Dok<ch a="G0"/>oła się świ<ch a="h"/>ęci</row>
-        <row important_over="false">Od wonnych b<ch a="G"/>zów szalonych bz<ch a="fis"/>ów</row>
-        <row important_over="false">Wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci…<ch a="D"/></row>
+        <row important_over="true">A teraz m<ch a="D"/>aj, dokoła m<ch a="A"/>aj</row>
+        <row important_over="true">wyświ<ch a="G0"/>ęca ogr<ch a="h"/>ody,</row>
+        <row>i cały j<ch a="G"/>a, i cały j<ch a="fis"/>a</row>
+        <row>zanurz<ch a="G"/>ony w Jordanie pog<ch a="A"/>ody.</row>
+        <row>A teraz m<ch a="D"/>aj, i maj, i m<ch a="A"/>aj</row>
+        <row>dok<ch a="G0"/>oła się świ<ch a="h"/>ęci,</row>
+        <row>od wonnych b<ch a="G"/>zów, szalonych bz<ch a="fis"/>ów</row>
+        <row>wprost w gł<ch a="G"/>owie się kr<ch a="A"/>ęci…<ch a="D"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">I pł<ch a="D"/>yną przeze mnie dmuch<ch a="A"/>awce</row>
-      <row important_over="false">Jak dziec<ch a="G0"/>iństwa <ch a="h"/>echa</row>
-      <row important_over="false">I wielka j<ch a="G"/>est majowa m<ch a="fis"/>oc</row>
-      <row important_over="false">Kiedy ni<ch a="G"/>ebo się do ziemi uśmi<ch a="A"/>echa</row>
-      <row important_over="false">Śp<ch a="D"/>i w twoim wnętrzu chł<ch a="A"/>opiec</row>
-      <row important_over="false">W chłopcu pi<ch a="G0"/>erwszy zachwyt poz<ch a="h"/>naję</row>
-      <row important_over="false">Z twoich zi<ch a="G"/>aren wyrosną s<ch a="fis"/>ady</row>
-      <row important_over="false">Strudzon<ch a="G"/>emu pielgrzymką <ch a="A"/>ulżyj</row>
-      <row important_over="true">Dodaj wi<ch a="D"/>ary</row>
+      <row>I pł<ch a="D"/>yną przeze mnie dmuch<ch a="A"/>awce</row>
+      <row>jak dziec<ch a="G0"/>iństwa <ch a="h"/>echa,</row>
+      <row>i wielka j<ch a="G"/>est majowa m<ch a="fis"/>oc,</row>
+      <row>kiedy ni<ch a="G"/>ebo się do ziemi uśmi<ch a="A"/>echa.</row>
+      <row>Śp<ch a="D"/>i w twoim wnętrzu chł<ch a="A"/>opiec,</row>
+      <row>w chłopcu pi<ch a="G0"/>erwszy zachwyt poz<ch a="h"/>naję.</row>
+      <row>Z twoich zi<ch a="G"/>aren wyrosną s<ch a="fis"/>ady,</row>
+      <row>strudzon<ch a="G"/>emu pielgrzymką <ch a="A"/>ulżyj,</row>
+      <row>dodaj wi<ch a="D"/>ary!</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
@@ -48,7 +48,7 @@
   </music>
   <keywords/>
   <album>Czarny blues o czwartej nad ranem</album>
-  <genre/>
+  <genre>Poezja śpiewana</genre>
   <status>
     <done>
       <text/>
@@ -57,7 +57,8 @@
     </done>
     <verificators>
       <verificator>ADAM</verificator>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Ballada_majowa</verificator>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/ballada-majowa</verificator>
     </verificators>
-    <to_do>Ble… a kapodaster i metrum</to_do>
   </status>
 </song>
