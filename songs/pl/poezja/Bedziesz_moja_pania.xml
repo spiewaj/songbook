@@ -1,53 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Będziesz moją panią">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo">Marek Grechuta</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będziesz zbierać kwiaty</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będziesz się uśmiechać</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będziesz liczyć gwiazdy</row>
-      <row important_over="true"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/>Będziesz na mnie czekać</row>
-    </block>
-    <block type="verse">
-      <row important_over="true"><ch a="f"/><ch a="c"/><ch a="f"/><ch a="G"/><ch a="c"/><ch a="C7"/>I ty właśnie ty będziesz moją panią</row>
-      <row important_over="true"><ch a="f"/><ch a="c"/><ch a="f"/><ch a="G"/><ch a="c"/>I ty tylko ty będziesz moją panią</row>
-    </block>
-    <block type="verse">
-      <row important_over="true"><ch a="Gis"/><ch a="Dis"/>Będą ci grały skrzypce lipowe</row>
-      <row important_over="true"><ch a="f"/><ch a="c"/>Będą śpiewały jarzębinowe</row>
-      <row important_over="true"><ch a="g"/><ch a="Dis"/><ch a="f"/><ch a="G"/>Drzewa, liście, ptaki wszystkie</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będę z tobą tańczyć</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Bajki opowiadać</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Słońce z pomarańczy</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/>W twoje dłonie składać</row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false"><ch a="Gis"/><ch a="Dis"/>Będą ci grały nocą sierpniową</row>
-      <row important_over="false"><ch a="f"/><ch a="c"/>Wiatry strojone barwą słońca</row>
-      <row important_over="false"><ch a="g"/><ch a="Dis"/><ch a="f"/><ch a="G"/>Będą śpiewały, śpiewały bez końca</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będziesz miała imię</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Jak wiosenna róża</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/>Będziesz miała miłość</row>
-      <row important_over="false"><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/>Jak jesienna burza</row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Marek Grechuta</text_author>
+	<comment/>
+	<composer type="solo">Marek Grechuta</composer>
+	<artist type="band">Marek Grechuta i Anawa</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">B<ch a="C"/>ędziesz zb<ch a="G"/>ierać kwi<ch a="C"/>aty, <ch a="G"/></row>
+			<row important_over="true">b<ch a="C"/>ędziesz si<ch a="G"/>ę uśmi<ch a="C"/>echać, <ch a="G"/></row>
+			<row>b<ch a="C"/>ędziesz l<ch a="G"/>iczyć gwi<ch a="C"/>azdy, <ch a="G"/></row>
+			<row>b<ch a="C"/>ędziesz n<ch a="G"/>a mnie czek<ch a="C"/>ać. <ch a="C7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">I t<ch a="f"/>y, właśnie t<ch a="c"/>y, będziesz m<ch a="f"/>oją p<ch a="G"/>ani<ch a="c"/>ą, <ch a="C7"/></row>
+			<row important_over="true">i t<ch a="f"/>y, tylko t<ch a="c"/>y, będziesz m<ch a="f"/>oją p<ch a="G"/>ani<ch a="c"/>ą.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">B<ch a="Gis"/>ędą ci gr<ch a="Dis"/>ały skrzypce lip<ch a="f"/>owe, <ch a="c"/></row>
+			<row important_over="true">będą śpiew<ch a="f"/>ały jarzębin<ch a="c"/>owe</row>
+			<row>drz<ch a="g"/>ewa, l<ch a="Dis"/>iście, pt<ch a="f"/>aki wsz<ch a="G"/>ystkie.</row>
+		</block>
+		<block type="verse">
+			<row>B<ch a="C"/>ędę z t<ch a="G"/>obą t<ch a="C"/>ańczyć, <ch a="G"/></row>
+			<row>b<ch a="C"/>ajki op<ch a="G"/>owi<ch a="C"/>adać, <ch a="G"/></row>
+			<row>sł<ch a="C"/>ońce z p<ch a="G"/>omarańcz<ch a="C"/>y <ch a="G"/></row>
+			<row>w tw<ch a="C"/>oje dł<ch a="G"/>onie skład<ch a="C"/>ać. <ch a="C7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row>B<ch a="Gis"/>ędą ci gr<ch a="Dis"/>ały nocą sierpni<ch a="f"/>ową <ch a="c"/></row>
+			<row>wi<ch a="f"/>atry stroj<ch a="c"/>one barwą słońca,</row>
+			<row>b<ch a="g"/>ędą śpi<ch a="Dis"/>ewały, śpi<ch a="f"/>ewały bez k<ch a="G"/>ońca.</row>
+		</block>
+		<block type="verse">
+			<row>B<ch a="C"/>ędziesz mi<ch a="G"/>ała imi<ch a="C"/>ę <ch a="G"/></row>
+			<row>j<ch a="C"/>ak wiosi<ch a="G"/>enna r<ch a="C"/>óża, <ch a="G"/></row>
+			<row>b<ch a="C"/>ędziesz mi<ch a="G"/>ała mił<ch a="C"/>ość <ch a="G"/></row>
+			<row>j<ch a="C"/>ak jes<ch a="G"/>ienna b<ch a="C"/>urza. <ch a="C7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Marek Grechuta &amp; Anawa</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Marek Grechuta (słowa i muzyka), album "Marek Grechuta &amp; Anawa" (1970)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Bedziesz_moja_pania)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/bedziesz-moja-pania</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
