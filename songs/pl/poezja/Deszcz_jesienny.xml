@@ -1,41 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Deszcz jesienny">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="D"/>Deszcz jesienny smutne pieśni łka<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Mokną na nim karabiny hełmy kryje rdza<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Nieś po błocie w dal w zapłakany świat<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Przemoczone pod plecakiem osiemnaście lat<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="D"/>Gdzieś daleko stąd mrok zapada znów<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Ciemna główka twej dziewczyny chyli się do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Może właśnie dziś patrzy w mroczną mgłę<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Modlitwą prosi Boga by zachował Cię<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="D"/>Deszcz jesienny deszcz bębni w hełmu stal<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Idziesz młody żołnierzyku gdzieś w nieznaną dal<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Może dobry Bóg da, że wrócisz znów<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Będziesz tulił ciemną głowę miłej twej do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Da że wrócisz znów, da że wrócisz znów<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="A7"/>Będziesz tulił ciemną głowę miłej twej do snu<ch a="D"/><ch a="A7"/><ch a="D"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Deszcz, jesienny deszcz</alias>
+	<text_author type="solo">Marian Matuszkiewicz</text_author>
+	<comment>Piosenka powstała w 1943 roku w Szarych Szeregach / Armii Krajowej.</comment>
+	<composer type="solo">Marian Matuszkiewicz</composer>
+	<artist type="band">Czerwone Gitary</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">D<ch a="D"/>eszcz jesienny d<ch a="G"/>eszcz smutne pi<ch a="D"/>eśni łka,</row>
+			<row important_over="true">m<ch a="A7"/>okną na nim k<ch a="D"/>arabiny, h<ch a="A7"/>ełmy kryje rdz<ch a="D"/>a.</row>
+			<row important_over="true">Ni<ch a="G"/>eś po bł<ch a="D"/>ocie w dal, w z<ch a="G"/>apłakany świ<ch a="D"/>at</row>
+			<row important_over="true">prz<ch a="A7"/>emoczone p<ch a="D"/>od plecakiem <ch a="A7"/>osiemnaście l<ch a="D"/>at.</row>
+		</block>
+		<block type="verse">
+			<row>Gdzi<ch a="D"/>eś daleko st<ch a="G"/>ąd mrok zap<ch a="D"/>ada znów,</row>
+			<row>ci<ch a="A7"/>emna główka tw<ch a="D"/>ej dziewczyny ch<ch a="A7"/>yli się do sn<ch a="D"/>u.</row>
+			<row>M<ch a="G"/>oże właśnie dz<ch a="D"/>iś patrzy w mr<ch a="G"/>oczną mgł<ch a="D"/>ę,</row>
+			<row>m<ch a="A7"/>odlitwą pr<ch a="D"/>osi Boga, b<ch a="A7"/>y zachował ci<ch a="D"/>ę.</row>
+		</block>
+		<block type="verse">
+			<row>D<ch a="D"/>eszcz jesienny d<ch a="G"/>eszcz bębni w h<ch a="D"/>ełmu stal,</row>
+			<row><ch a="A7"/>idziesz, młody ż<ch a="D"/>ołnierzyku, gdz<ch a="A7"/>ieś w nieznaną d<ch a="D"/>al.</row>
+			<row>M<ch a="G"/>oże dobry B<ch a="D"/>óg da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
+			<row>b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
+		</block>
+		<block type="verse">
+			<row>D<ch a="G"/>a, że wrócisz zn<ch a="D"/>ów, da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
+			<row>b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album/>
+	<genre>Piosenka partyzancka</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Marian Matuszkiewicz ps. „Rysiek” (słowa i muzyka, 1943)</verificator>
+			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Deszcz_jesienny_deszcz)</verificator>
+			<verificator>Śpiewnik Niepodległości (spiewnikniepodleglosci.pl/utwor/deszcz-jesienny-deszcz/)</verificator>
+		</verificators>
+	</status>
+	<music_source/>
 </song>
