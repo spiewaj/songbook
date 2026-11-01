@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Modlitwa jesienna" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Modlitwa jesienna">
+	<alias/>
 	<text_author type="solo">Mirosław Ostrycharz</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Przez szyby twych okien zapatrzonych w stawy<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">Przychodzi jesień cicho, sennie i srebrzyście,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">Rozrzuca strzępy złota miedzy zeschłe trawy,<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="never">Gdy modlę się o ciebie do żółknących liści.<ch a="H"/><ch a="A"/></row>
+			<row important_over="true"><ch a="cis"/>Przez szyby twych okien zap<ch a="gis"/>atrzonych w stawy</row>
+			<row important_over="true"><ch a="cis"/>Przychodzi jesień cicho, s<ch a="gis"/>ennie i srebrzyście,</row>
+			<row important_over="true"><ch a="fis"/>Rozrzuca strzępy złota mi<ch a="cis"/>ędzy zeschłe trawy,</row>
+			<row important_over="true"><ch a="H"/>Gdy modlę się o ciebie do ż<ch a="A"/>ółknących liści.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Blada mgła jesienna snuje się przez wrzosy<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">I pieśń o barwnej ciszy w sercu wciąż mi dzwoni,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">Płynie wiatr alejami, rozwiewa twe włosy,<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="never">Jakby chciał się na pamięć nauczyć ich woni.<ch a="H"/><ch a="Gis"/></row>
+			<row important_over="false"><ch a="cis"/>Blada mgła jesienna sn<ch a="gis"/>uje się przez wrzosy</row>
+			<row important_over="false"><ch a="cis"/>I pieśń o barwnej ciszy w s<ch a="gis"/>ercu wciąż mi dzwoni,</row>
+			<row important_over="false"><ch a="fis"/>Płynie wiatr alejami, rozw<ch a="cis"/>iewa twe włosy,</row>
+			<row important_over="true"><ch a="H"/>Jakby chciał się na pamięć na<ch a="Gis"/>uczyć ich woni.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ostatnie już w tym roku kwiaty mrą pod płotem,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">Stary żuraw studzienny skrzypi gdzieś w oddali,<ch a="cis"/><ch a="gis"/></row>
-			<row important_over="never">Jakieś burze błękitne i czarne i złote<ch a="fis"/><ch a="cis"/></row>
-			<row important_over="never">Przepływają w twych oczach nie znane mi wcale.<ch a="H"/><ch a="Gis"/></row>
+			<row important_over="false"><ch a="cis"/>Ostatnie już w tym roku kwi<ch a="gis"/>aty mrą pod płotem,</row>
+			<row important_over="false"><ch a="cis"/>Stary żuraw studzienny skrz<ch a="gis"/>ypi gdzieś w oddali,</row>
+			<row important_over="false"><ch a="fis"/>Jakieś burze błękitne, i cz<ch a="cis"/>arne, i złote</row>
+			<row important_over="false"><ch a="H"/>Przepływają w twych oczach, ni<ch a="Gis"/>eznane mi wcale.</row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>U źródeł tęsknot</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Paweł Budzyński</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<music_source></music_source>
 </song>
