@@ -1,79 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla starego wieśniaka">
-  <alias/>
+  <alias>Chanson pour l'Auvergnat</alias>
   <text_author type="solo">Georges Brassens</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <comment></comment>
+  <composer type="solo">Georges Brassens</composer>
+  <artist type="band">Zespół Reprezentacyjny</artist>
+  <translator>Jarosław Gugała</translator>
+  <original_title>Chanson pour l'Auvergnat</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Stary wieśniaku za to że<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Gdy zimno było w życiu mym<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Ty drewno swe oddałeś mi<ch a="C"/><ch a="F"/><ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Ty dałeś ogień wtedy gdy<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Obywatele godni czci<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>I bliźni nasi wszyscy w krąg<ch a="A"/></row>
-      <row important_over="never"><ch a="Ais"/>Zamykali przede mną swe drzwi<ch a="C"/><ch a="F"/></row>
+      <row important_over="true">Dla c<ch a="d"/>iebie śpiewam piosenkę <ch a="A"/>tę,</row>
+      <row important_over="false">st<ch a="A"/>ary wieśniaku, za to, <ch a="d"/>że</row>
+      <row important_over="true">gdy z<ch a="d"/>imno było w życiu m<ch a="A"/>ym,</row>
+      <row important_over="true">ty dr<ch a="d"/>ewno swe oddałeś m<ch a="C"/>i.<ch a="F"/><ch a="A"/></row>
+      <row important_over="false">Ty d<ch a="d"/>ałeś ogień wtedy, gd<ch a="A"/>y</row>
+      <row important_over="false">ob<ch a="A"/>ywatele godni czc<ch a="d"/>i</row>
+      <row important_over="false">i bl<ch a="d"/>iźni nasi wszyscy w kr<ch a="A"/>ąg</row>
+      <row important_over="true">zamkn<ch a="B"/>ęli przede mną swe drzw<ch a="C"/>i.<ch a="F"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="F"/>To przecież nic to parę drew<ch a="g"/><ch a="C"/><ch a="F"/></row>
-      <row important_over="never"><ch a="d"/>Lecz starczy żeby ogrzać się<ch a="g6"/><ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>A w duszy mej płonęły tak<ch a="A9-"/><ch a="d"/></row>
-      <row important_over="never"><ch a="Ais"/>Jak płonąłby cały las<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Więc jeśli umrzesz kiedyś już<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdy wieźć cię będzie czarny wóz<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Niech przez niebiański cię wiedzie szlak<ch a="Ais"/><ch a="g"/><ch a="C"/></row>
-      <row important_over="never"><ch a="Ais"/>Aż do nieba bram<ch a="A"/><ch a="d"/></row>
+      <row important_over="true">To prz<ch a="F"/>ecież nic, to parę dr<ch a="g"/>ew,<ch a="C"/><ch a="F"/></row>
+      <row important_over="true">lecz st<ch a="d"/>arczy, żeby ogrzać si<ch a="g6"/>ę,<ch a="d"/></row>
+      <row important_over="true">a w d<ch a="d"/>uszy mej płonęły t<ch a="A9-"/>ak,<ch a="d"/></row>
+      <row important_over="true">jak pł<ch a="B"/>onąłby cały l<ch a="A"/>as.</row>
+      <row important_over="true">Więc k<ch a="d"/>iedy umrzesz kiedyś j<ch a="A"/>uż,</row>
+      <row important_over="false">gdy wi<ch a="A"/>eźć cię będzie czarny w<ch a="d"/>óz,</row>
+      <row important_over="true">niech prz<ch a="d"/>ez niebiański cię wiedzie szl<ch a="B"/>ak<ch a="g"/><ch a="C"/></row>
+      <row important_over="true">aż d<ch a="B"/>o nieba br<ch a="A"/>am.<ch a="d"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Dobra kobieto za to że<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Gdy głodno było w życiu mym<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Ty chleb swój oddałaś mi<ch a="C"/><ch a="F"/><ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Ty otworzyłaś mi swój dom<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdy bliźni nasi wszyscy w krąg<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Obywatele godni czci<ch a="A"/></row>
-      <row important_over="never"><ch a="Ais"/>Zamknęli przede mną swe drzwi<ch a="C"/><ch a="F"/></row>
+      <row important_over="false">Dla c<ch a="d"/>iebie śpiewam piosenkę <ch a="A"/>tę,</row>
+      <row important_over="false">d<ch a="A"/>obra kobieto, za to, <ch a="d"/>że</row>
+      <row important_over="false">gdy gł<ch a="d"/>odno było w życiu m<ch a="A"/>ym,</row>
+      <row important_over="false">ty chl<ch a="d"/>eb swój oddałaś m<ch a="C"/>i.<ch a="F"/><ch a="A"/></row>
+      <row important_over="false">Ty otw<ch a="d"/>orzyłaś mi swój d<ch a="A"/>om,</row>
+      <row important_over="false">gdy bl<ch a="A"/>iźni nasi wszyscy w kr<ch a="d"/>ąg,</row>
+      <row important_over="false">ob<ch a="d"/>ywatele godni czc<ch a="A"/>i</row>
+      <row important_over="false">zamkn<ch a="B"/>ęli przede mną swe drzw<ch a="C"/>i.<ch a="F"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="F"/>To przecież nic to tylko chleb<ch a="g"/><ch a="C"/><ch a="F"/></row>
-      <row important_over="never"><ch a="d"/>Lecz starczy żeby najeść się<ch a="g6"/><ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>A ja do dzisiaj w sercu mam<ch a="A9-"/><ch a="d"/></row>
-      <row important_over="never"><ch a="Ais"/>Ten zapach chleba i ten smak<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Więc jeśli umrzesz kiedyś już<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdy wieźć cię będzie czarny wóz<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Niech przez niebiański cię wiedzie szlak<ch a="Ais"/><ch a="g"/><ch a="C"/></row>
-      <row important_over="never"><ch a="Ais"/>Aż do nieba bram<ch a="A"/><ch a="d"/></row>
+      <row important_over="false">To prz<ch a="F"/>ecież nic, to tylko chl<ch a="g"/>eb,<ch a="C"/><ch a="F"/></row>
+      <row important_over="false">lecz st<ch a="d"/>arczy, żeby najeść si<ch a="g6"/>ę,<ch a="d"/></row>
+      <row important_over="false">a j<ch a="d"/>a do dzisiaj w sercu m<ch a="A9-"/>am<ch a="d"/></row>
+      <row important_over="false">ten z<ch a="B"/>apach chleba i ten sm<ch a="A"/>ak.</row>
+      <row important_over="false">Więc j<ch a="d"/>eśli umrzesz kiedyś j<ch a="A"/>uż,</row>
+      <row important_over="false">gdy wi<ch a="A"/>eźć cię będzie czarny w<ch a="d"/>óz,</row>
+      <row important_over="false">niech prz<ch a="d"/>ez niebiański cię wiedzie szl<ch a="B"/>ak<ch a="g"/><ch a="C"/></row>
+      <row important_over="false">aż d<ch a="B"/>o nieba br<ch a="A"/>am.<ch a="d"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Dla ciebie śpiewam piosenkę tę<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Obcy człowieku bowiem ty<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Jedynie mi współczułeś gdy<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Żandarmi złapali mnie<ch a="C"/><ch a="F"/><ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Ty jeden smutny miałeś wzrok<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdy bliźni wszyscy nasi w krąg<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Obywatele godni czci<ch a="A"/></row>
-      <row important_over="never"><ch a="Ais"/>Klaskali w swe dłonie co sił<ch a="C"/><ch a="F"/></row>
+      <row important_over="false">Dla c<ch a="d"/>iebie śpiewam piosenkę <ch a="A"/>tę,</row>
+      <row important_over="false">obcy czł<ch a="A"/>owieku, bowiem t<ch a="d"/>y</row>
+      <row important_over="false">jed<ch a="d"/>ynie mi współczułeś, gd<ch a="A"/>y</row>
+      <row important_over="false">żand<ch a="d"/>armi zabrali mn<ch a="C"/>ie.<ch a="F"/><ch a="A"/></row>
+      <row important_over="false">Ty j<ch a="d"/>eden smutny miałeś wzr<ch a="A"/>ok,</row>
+      <row important_over="false">gdy bl<ch a="A"/>iźni nasi wszyscy w kr<ch a="d"/>ąg,</row>
+      <row important_over="false">ob<ch a="d"/>ywatele godni czc<ch a="A"/>i</row>
+      <row important_over="false">kl<ch a="B"/>askali w swe dłonie, co s<ch a="C"/>ił.<ch a="F"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="F"/>To przecież nic spojrzenie twe<ch a="g"/><ch a="C"/><ch a="F"/></row>
-      <row important_over="never"><ch a="d"/>Lecz taka dziwna moc w nim jest<ch a="g6"/><ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Że blask twych oczu jeszcze dziś<ch a="A9-"/><ch a="d"/></row>
-      <row important_over="never"><ch a="Ais"/>Otuchy dodaje mi<ch a="A"/></row>
-      <row important_over="never"><ch a="d"/>Więc jeśli umrzesz kiedyś już<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdy wieźć cię będzie czarny wóz<ch a="d"/></row>
-      <row important_over="never"><ch a="d"/>Niech przez niebiański cię wiedzie szlak<ch a="Ais"/><ch a="g"/><ch a="C"/></row>
-      <row important_over="never"><ch a="Ais"/>Aż do nieba bram<ch a="A"/><ch a="d"/></row>
+      <row important_over="false">To prz<ch a="F"/>ecież nic, spojrzenie tw<ch a="g"/>e,<ch a="C"/><ch a="F"/></row>
+      <row important_over="false">lecz t<ch a="d"/>aka dziwna moc w nim j<ch a="g6"/>est,<ch a="d"/></row>
+      <row important_over="false">że bl<ch a="d"/>ask twych oczu jeszcze dz<ch a="A9-"/>iś<ch a="d"/></row>
+      <row important_over="false">ot<ch a="B"/>uchy dodaje m<ch a="A"/>i.</row>
+      <row important_over="false">Więc j<ch a="d"/>eśli umrzesz kiedyś j<ch a="A"/>uż,</row>
+      <row important_over="false">gdy wi<ch a="A"/>eźć cię będzie czarny w<ch a="d"/>óz,</row>
+      <row important_over="false">niech prz<ch a="d"/>ez niebiański cię wiedzie szl<ch a="B"/>ak<ch a="g"/><ch a="C"/></row>
+      <row important_over="false">aż d<ch a="B"/>o nieba br<ch a="A"/>am.<ch a="d"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <keywords></keywords>
+  <album>Pornograf</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
+  <music_source>Cyfrowa Biblioteka Polskiej Piosenki (Georges Brassens „Chanson pour l'Auvergnat”, przekład Jarosław Gugała)</music_source>
 </song>
