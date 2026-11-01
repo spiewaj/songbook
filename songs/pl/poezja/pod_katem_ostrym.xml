@@ -2,45 +2,50 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pod kątem ostrym">
   <alias>Dobrze, że wróciłaś</alias>
   <text_author type="solo">Adam Ziemianin</text_author>
+  <comment>Intro na gitarę: 1. struna: 7---7---*8--8--*5---5--*7--7--*8--8--*7--7--*5; 2. struna: -- 8--8----8---8---8--8---8--8---8--8---8--8----8 (* struna wcześniej uderzana).</comment>
   <composer type="solo">Krzysztof Myszkowski</composer>
   <artist type="band">Stare Dobre Małżeństwo</artist>
   <lyric>
-    <block type="other">
-      <row important_over="never">1struna) 7---7---*8--8--*5---5--*7--7--*8--8--*7--7--*5</row>
-      <row important_over="never">2struna) -- 8--8----8---8---8--8---8--8---8--8---8--8----8</row>
-      <row important_over="never">*-struna wcześniej uderzana .</row>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Dom mój ost<ch a="C"/>atnio</row>
+      <row important_over="true"><ch a="D"/>ledwo stał na n<ch a="e"/>ogach,</row>
+      <row important_over="true"><ch a="F"/>stół nawet przech<ch a="C"/>ylał się,</row>
+      <row important_over="true"><ch a="G"/>kiedy jadłem <ch a="D"/>obiad.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Dom mój ostatnio <ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Ledwo stał na nogach <ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Stół nawet przechylał się <ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Kiedy jadłem obiad <ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Podłoga grzbiet pr<ch a="C"/>ężyła,</row>
+      <row important_over="false"><ch a="D"/>klepki aż trzeszcz<ch a="e"/>ały,</row>
+      <row important_over="false"><ch a="F"/>jakoś tak nie m<ch a="C"/>ogłem</row>
+      <row important_over="false"><ch a="G"/>złapać równow<ch a="D"/>agi.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Podłoga grzbiet prężyła<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Klepki aż trzeszczały<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Jakoś tak nie mogłem<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Złapać równowagi<ch a="G"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Przechylił się mrocznie<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Mój dom na chwilę<ch a="D"/><ch a="e"/></row>
-      <row important_over="never">I mieszkałem kątem<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Na równi pochyłej<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Przechylił się mr<ch a="C"/>ocznie</row>
+      <row important_over="false"><ch a="D"/>mój dom na chw<ch a="e"/>ilę</row>
+      <row important_over="false"><ch a="F"/>i mieszkałem k<ch a="C"/>ątem</row>
+      <row important_over="false"><ch a="G"/>na równi poch<ch a="D"/>yłej.</row>
     </block>
     <block type="verse">
       <bis times="5">
-        <row important_over="never">Dobrze że wróciłaś<ch a="G"/><ch a="C"/></row>
-        <row important_over="never">Kwiaty w wazonie<ch a="D"/><ch a="e"/></row>
-        <row important_over="never">Znów oswojone<ch a="F"/><ch a="C"/></row>
-        <row important_over="never">Cicho piją wodę<ch a="G"/><ch a="D"/></row>
+        <row important_over="false">D<ch a="G"/>obrze, że wróc<ch a="C"/>iłaś,</row>
+        <row important_over="false">kwi<ch a="D"/>aty w waz<ch a="e"/>onie</row>
+        <row important_over="false">zn<ch a="F"/>ów oswoj<ch a="C"/>one</row>
+        <row important_over="false">c<ch a="G"/>icho piją w<ch a="D"/>odę.</row>
       </bis>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Poezja śpiewana</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <album>Dla wszystkich starczy miejsca</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/pod-katem-ostrym</verificator>
+    </verificators>
   </status>
 </song>
