@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka bez tytułu">
-  <text_author type="solo">W. Chyliński</text_author>
-  <comment>alternatywne akordy:
-[eG/a H7/ C G H7/e G/ a H7/ C G H7]
-[H7 e/ a e/ C G/ H7]</comment>
-  <composer type="solo">A. Drąg</composer>
+  <alias>Jeszcze się tyle stanie</alias>
+  <text_author type="solo">Waldemar Chyliński</text_author>
+  <comment>Oryginalna tonacja utworu (Adam Drąg) to e-moll [e G / a H7 / C G H7; refren: H7 e / H7 e / C G H7].</comment>
+  <composer type="solo">Adam Drąg</composer>
+  <artist type="solo">Adam Drąg</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Popatrz niebo się kłania<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Niebo różowe<ch a="E7"/></row>
-      <row important_over="never"><ch a="F"/>Wiatrem sypane w kolorze<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="C"/>Słońce przychodzi</row>
-      <row important_over="never"><ch a="d"/>Jak gość najlepszy<ch a="E7"/></row>
-      <row important_over="never"><ch a="F"/>Wiatr się umila na wietrzyk<ch a="C"/><ch a="E"/></row>
+      <row important_over="true"><ch a="a"/>Popatrz, niebo się kłania, <ch a="C"/></row>
+      <row important_over="true">n<ch a="d"/>iebo róż<ch a="E7"/>owe,</row>
+      <row important_over="true"><ch a="F"/>wiatrem sypane w ko<ch a="C"/>lorze...<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Słońce przy<ch a="C"/>chodzi</row>
+      <row important_over="false">j<ch a="d"/>ak gość naj<ch a="E7"/>lepszy,</row>
+      <row important_over="false"><ch a="F"/>wiatr się umila na <ch a="C"/>wietrzyk...<ch a="E"/></row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="never"><ch a="E7"/>Jeszcze się tyle stanie<ch a="a"/></row>
-        <row important_over="never"><ch a="E7"/>Jeszcze się tyle zmieni<ch a="a"/></row>
-        <row important_over="never"><ch a="F"/>Rosną nam nowe twarze<ch a="C"/></row>
-        <row important_over="never"><ch a="E7"/>Do słońca</row>
+        <row important_over="true"><ch a="E7"/>Jeszcze się tyle <ch a="a"/>stanie,</row>
+        <row important_over="false"><ch a="E7"/>jeszcze się tyle <ch a="a"/>zmieni,</row>
+        <row important_over="true"><ch a="F"/>rosną nam nowe <ch a="C"/>twarze</row>
+        <row important_over="true">do <ch a="E7"/>słońca.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Popatrz drzewo się czesze<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Drzewo olbrzymie<ch a="E7"/></row>
-      <row important_over="never"><ch a="F"/>Po niebie gałęźmi wiatr pisze<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="C"/>Rzeka się śmieje</row>
-      <row important_over="never"><ch a="d"/>Dobrą nowiną<ch a="E7"/></row>
-      <row important_over="never"><ch a="F"/>Wszystkie żale odpłyną<ch a="C"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Popatrz, drzewo się czesze, <ch a="C"/></row>
+      <row important_over="false">d<ch a="d"/>rzewo olbrz<ch a="E7"/>ymie,</row>
+      <row important_over="false">po <ch a="F"/>niebie gałęźmi wiatr <ch a="C"/>pisze...<ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Rzeka się <ch a="C"/>śmieje</row>
+      <row important_over="false">d<ch a="d"/>obrą now<ch a="E7"/>iną,</row>
+      <row important_over="false">i <ch a="F"/>wszystkie żale od<ch a="C"/>płyną...<ch a="E"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
-  <keywords/>
-  <genre>Poezja śpiewana</genre>
+  <keywords></keywords>
+  <album></album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
+  <music_source>Śpiewnik Wywroty (sł. Waldemar Chyliński, muz. Adam Drąg)</music_source>
 </song>
