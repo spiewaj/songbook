@@ -46,7 +46,7 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - `<artist type="solo|band">` (primary performer associated with this version; never put genre names like `Szanty` or `Piosenki Harcerskie` in `<artist>`).
    - `<album>` (original album or soundtrack name when known).
    - `<genre>` (canonical genre used in the songbook, e.g., `Poezja śpiewana`, `Szanty`, `Piosenka turystyczna`, `Piosenka harcerska`, `Rock`, `Pop`, `Folk`, `Kabaret`, `Kolęda`, `Religijna`, `Filmowa`).
-   - `<comment>` (preserve external chord/tab source URLs when chords are adapted from an external or foreign-language transcription, capo notes, or performance hints).
+   - `<comment>` (intended strictly for the reader/singer: historical background, origins, capo/performance notes; editorial remarks on transcription difficulties or missing chords belong in `<to_do>`).
 
 2. **Lyrics, Spelling & Typography**:
    - Compare lyrics against authoritative sources (official releases, Wywrota, Poema, Biblioteka Polskiej Piosenki, Discogs).

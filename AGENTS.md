@@ -29,9 +29,10 @@ Always verify whether the current Pull Request has already been merged before ex
   - **NEVER create, guess, or invent names of people or contributors** (e.g. NEVER extrapolate usernames like `ptab` into imaginary people like „Piotr Tabernacki”).
   - New verificators must be authoritative URLs. Historical named verificators already present in files (`Onufry`, `Kuba`, `Adam`, `Michał Korch`, etc.) must be preserved, but never invent new person names.
   - **Zero tolerance for hallucinated URLs** (e.g. never invent domains or links).
-- **Comment Rules**:
+- **Comment vs To-Do Rules (Editorial vs Reader Comments)**:
+  - `<comment>` is strictly for the reader's/singer's attention: supplementary historical background, origins, performance notes, or cultural context.
   - Do NOT repeat content in `<comment>` that is already captured by other explicit fields (`text_author`, `composer`, `artist`, `title`).
-  - Use `<comment>` only for supplementary historical background, origins, performance notes, or source context.
+  - Editorial comments (internal contributor notes, remarks on difficulty deciphering chords, explanations of why chords/lyrics weren't placed, editor struggles) MUST go into `<to_do>`, NEVER into `<comment>`.
 - **Preserve Pseudonyms (ps.)**:
   - When an author or composer is widely known by a pseudonym (e.g. scout or insurgent songs like `Mirosław Jezierski (ps. „Karnisz”)`, `Jan Markowski (ps. „Krzysztof”)`, `Bogusław Adamek (ps. „Bodzio”)`), KEEP the pseudonym in the author tag.
 - **Preserve Authentic Folklore & Dialect**:
