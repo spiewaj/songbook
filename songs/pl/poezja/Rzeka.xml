@@ -1,34 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rzeka">
-  <artist>Wolna Grupa Bukowina</artist>
-  <comment/>
+  <alias>Wsłuchany w twą cichą piosenkę</alias>
+  <text_author type="solo">Wojciech Jarociński</text_author>
+  <composer type="solo">Wojciech Jarociński</composer>
+  <artist type="band">Wolna Grupa Bukowina</artist>
   <lyric>
-    <block type="other">    <bis>  <row important_over="false" style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </bis></block>
+    <block type="other">
+      <bis>
+        <row important_over="false" style="instr"><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+      </bis>
+    </block>
     <block type="verse">
-      <row important_over="never">Wsłuchany w twą cichą piosenkę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-      <row important_over="never">Wyszedłem na brzeg pierwszy raz<ch a="E"/><ch a="A2"/><ch a="gis"/><ch a="gis7"/></row>
-      <row important_over="never">Wiedziałem już rzeko, że kocham cię rzeko<ch a="A"/><ch a="gis7"/><ch a="cis"/></row>
-      <row important_over="never">że odtąd pójdę z tobą.<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
+      <row important_over="true"><ch a="E"/>Wsłuchany w twą <ch a="A2"/>cichą pio<ch a="E"/>senkę <ch a="A2"/></row>
+      <row important_over="true"><ch a="E"/>Wyszedłem na <ch a="A2"/>brzeg pierwszy <ch a="gis"/>raz <ch a="gis7"/></row>
+      <row important_over="true"><ch a="A"/>Wiedziałem już, <ch a="gis7"/>rzeko, że k<ch a="cis"/>ocham cię, rzeko,</row>
+      <row important_over="true">Że <ch a="A"/>odtąd <ch a="gis"/>pójdę z <ch a="fis7"/>tobą. <ch a="H7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">O dobra rzeko, o mądra wodo<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="gis"/><ch a="cis"/><ch a="E7"/></row>
-      <row important_over="never">Wiedziałaś gdzie stopy znużone prowadzić<ch a="A"/><ch a="gis"/><ch a="cis"/></row>
-      <row important_over="never">Gdy sił już było brak. Brak…<ch a="A"/><ch a="gis"/><ch a="fis7"/><ch a="H7"/></row>
+      <row important_over="true"><ch a="E"/>O, dobra <ch a="A2"/>rzeko, <ch a="E"/>o, mądra <ch a="A2"/>wodo, <ch a="E"/><ch a="gis"/><ch a="cis"/><ch a="E7"/></row>
+      <row important_over="true"><ch a="A"/>Wiedziałaś, gdzie <ch a="gis"/>stopy znuż<ch a="cis"/>one prowadzić,</row>
+      <row important_over="true">Gdy s<ch a="A"/>ił już <ch a="gis"/>było br<ch a="fis7"/>ak. Brak… <ch a="H7"/></row>
     </block>
-    <block type="other">      <row important_over="false" style="instr">  <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>        <ch a="E"/>        <ch a="A2"/>     </row>    </block>
+    <block type="other">
+      <row important_over="false" style="instr"><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+    </block>
     <block type="verse">
-      <row important_over="never">Wieże miast, łuny świateł</row>
-      <row important_over="never">Ich oczy zszarzałe nie raz</row>
-      <row important_over="never">Witały mnie pustką, żegnały milczeniem</row>
-      <row important_over="never">Gdym stał się twoim nurtem</row>
+      <row important_over="false"><ch a="E"/>Wieże miast, <ch a="A2"/>łuny świ<ch a="E"/>ateł <ch a="A2"/></row>
+      <row important_over="false"><ch a="E"/>Ich oczy szar<ch a="A2"/>załe nie <ch a="gis"/>raz <ch a="gis7"/></row>
+      <row important_over="false"><ch a="A"/>Witały mnie <ch a="gis7"/>pustką, żeg<ch a="cis"/>nały milczeniem,</row>
+      <row important_over="false">Gdym <ch a="A"/>stał się <ch a="gis"/>twoim n<ch a="fis7"/>urtem. <ch a="H7"/></row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never">Po dziś dzień z tobą rzeko</row>
-      <row important_over="never">Gdzież począł, gdzie kres dał ci Bóg</row>
-      <row important_over="never">Ach życia mi braknie, by szlak twój przemierzyć</row>
-      <row important_over="never">By poznać twą melodię.</row>
+      <row important_over="false"><ch a="E"/>Po dziś dzień z <ch a="A2"/>tobą, rz<ch a="E"/>eko, <ch a="A2"/></row>
+      <row important_over="false"><ch a="E"/>Gdzież począł, gdzie <ch a="A2"/>kres dał ci <ch a="gis"/>Bóg, <ch a="gis7"/></row>
+      <row important_over="false"><ch a="A"/>Ach, życia mi <ch a="gis7"/>braknie, by szl<ch a="cis"/>ak twój przemierzyć,</row>
+      <row important_over="false">By p<ch a="A"/>oznać <ch a="gis"/>twą mel<ch a="fis7"/>odię. <ch a="H7"/></row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
+  <album>Bukowina (1991)</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators/>
+  </status>
+  <music_source>https://bibliotekapiosenki.pl/utwory/Rzeka_(sl_i_muz_Wojciech_Jarocinski)</music_source>
 </song>
