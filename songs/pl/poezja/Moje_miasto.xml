@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Moje miasto" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Moje miasto">
+	<alias/>
 	<text_author type="solo">Arkadiusz Kobus</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Po latach znów w tym samym mieście<ch a="Fis"/><ch a="H*"/><ch a="H"/><ch a="Cis"/></row>
-			<row important_over="never">gdzie z nudów pękają trotuary<ch a="dis"/><ch a="b"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">wylądowałeś na swoje nieszczęście<ch a="H"/><ch a="dis"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">tu chodzą do tyłu miejskie zegary<ch a="gis"/><ch a="b"/><ch a="H"/><ch a="Cis"/><ch a="Fis"/></row>
+			<row important_over="true"><ch a="Fis"/>Po latach znów w tym s<ch a="H*"/>amym mi<ch a="H"/>eście,<ch a="Cis"/></row>
+			<row important_over="true"><ch a="dis"/>Gdzie z nudów p<ch a="b"/>ękają trot<ch a="H"/>u<ch a="Fis"/>ary,</row>
+			<row important_over="true"><ch a="H"/>Wylądowałeś na sw<ch a="dis"/>oje nieszczęście,<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="true"><ch a="gis"/>Tu chodzą do t<ch a="b"/>yłu mi<ch a="H"/>ejskie zeg<ch a="Cis"/>ary.<ch a="Fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dworcowe upiory wtulone we wnękę<ch a="Fis"/><ch a="H*"/><ch a="H"/><ch a="Cis"/></row>
-			<row important_over="never">poznają żeś wrócił z dalekiej podróży<ch a="dis"/><ch a="b"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">filozof pijak uściska ci rękę<ch a="H"/><ch a="dis"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">szczerbata Cyganka za darmo powróży<ch a="gis"/><ch a="b"/><ch a="H"/><ch a="Cis"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>Dworcowe upiory wt<ch a="H*"/>ulone we wnęk<ch a="H"/>ę<ch a="Cis"/></row>
+			<row important_over="false"><ch a="dis"/>Poznają, żeś wr<ch a="b"/>ócił z dal<ch a="H"/>ekiej podr<ch a="Fis"/>óży,</row>
+			<row important_over="false"><ch a="H"/>Filozof pijak uśc<ch a="dis"/>iska ci rękę,<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="gis"/>Szczerbata Cyg<ch a="b"/>anka za d<ch a="H"/>armo powr<ch a="Cis"/>óży.<ch a="Fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Stare gazety na mokrym asfalcie<ch a="Fis"/><ch a="H*"/><ch a="H"/><ch a="Cis"/></row>
-			<row important_over="never">ostatnia latarnia dawno już zgasła<ch a="dis"/><ch a="b"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">z ołowiu żołnierz zasnął na warcie<ch a="H"/><ch a="dis"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">na murze zatarte rewolucji hasła<ch a="gis"/><ch a="b"/><ch a="H"/><ch a="Cis"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>Stare gazety na m<ch a="H*"/>okrym asf<ch a="H"/>alcie,<ch a="Cis"/></row>
+			<row important_over="false"><ch a="dis"/>Ostatnia lat<ch a="b"/>arnia d<ch a="H"/>awno już zg<ch a="Fis"/>asła,</row>
+			<row important_over="false"><ch a="H"/>Z ołowiu żołnierz zasn<ch a="dis"/>ął na warcie,<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="gis"/>Na murze zat<ch a="b"/>arte rewol<ch a="H"/>ucji h<ch a="Cis"/>asła.<ch a="Fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Mieszczanie zamknięci na trzy spusty<ch a="Fis"/><ch a="H*"/><ch a="H"/><ch a="Cis"/></row>
-			<row important_over="never">kawiarnia odstrasza wygasłym neonem<ch a="dis"/><ch a="b"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">czerwone żarówki na domu rozpusty<ch a="H"/><ch a="dis"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">tam nikt nie chodzi spać wieczorem<ch a="gis"/><ch a="b"/><ch a="H"/><ch a="Cis"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>Mieszczanie zamknięci na tr<ch a="H*"/>zy sp<ch a="H"/>usty,<ch a="Cis"/></row>
+			<row important_over="false"><ch a="dis"/>Kawiarnia odstr<ch a="b"/>asza wyg<ch a="H"/>asłym ne<ch a="Fis"/>onem,</row>
+			<row important_over="false"><ch a="H"/>Czerwone żarówki na d<ch a="dis"/>omu rozpusty,<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="gis"/>Tam nikt nie ch<ch a="b"/>odzi sp<ch a="H"/>ać wiecz<ch a="Cis"/>orem.<ch a="Fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Na świecie spełniają się wszystkie marzenia<ch a="Fis"/><ch a="H*"/><ch a="H"/><ch a="Cis"/></row>
-			<row important_over="never">tu wstaje się zawsze lewą nogą<ch a="dis"/><ch a="b"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">od lat nic tu się nie zmienia<ch a="H"/><ch a="dis"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">to miasto zawsze pozostaje sobą<ch a="gis"/><ch a="b"/><ch a="H"/><ch a="Cis"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>Na świecie spełniają się wsz<ch a="H*"/>ystkie marz<ch a="H"/>enia,<ch a="Cis"/></row>
+			<row important_over="false"><ch a="dis"/>Tu wstaje się z<ch a="b"/>awsze l<ch a="H"/>ewą n<ch a="Fis"/>ogą,</row>
+			<row important_over="false"><ch a="H"/>Od lat nic tu si<ch a="dis"/>ę nie zmienia,<ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="gis"/>To miasto z<ch a="b"/>awsze pozost<ch a="H"/>aje s<ch a="Cis"/>obą.<ch a="Fis"/></row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>U źródeł tęsknot</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Paweł Budzyński</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<music_source></music_source>
 </song>
