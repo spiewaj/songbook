@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idziemy w jasną">
   <alias>Świetlany krzyż</alias>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment>Piosenka harcerska znana również jako hymn instruktorski lub pod tytułem „Świetlany krzyż”.</comment>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="g"/>Idziemy w jasną, z błęk<ch a="D7"/>itu utkaną <ch a="g"/>dal,</row>
@@ -10,24 +14,34 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Cicho, szeroko jak okiem spojrzenie śle,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <row important_over="false">C<ch a="g"/>icho, szeroko, jak <ch a="D7"/>okiem spojrzenie śl<ch a="g"/>e,</row>
       <bis times="2">
-        <row important_over="false">Jakieś się snują marzenia,<ch a="c6"/><ch a="D"/></row>
-        <row important_over="false">W wieczornej spowite mgle.<ch a="D7"/><ch a="g"/></row>
+        <row important_over="false">J<ch a="c6"/>akieś się snują marz<ch a="D"/>enia,</row>
+        <row important_over="false">W wi<ch a="D7"/>eczornej spowite mgl<ch a="g"/>e.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Idziemy naprzód i ciągle pniemy się wzwyż,<ch a="g"/><ch a="D7"/><ch a="g"/></row>
+      <row important_over="false">Idzi<ch a="g"/>emy naprzód i ci<ch a="D7"/>ągle pniemy się wzw<ch a="g"/>yż,</row>
       <bis times="2">
-        <row important_over="false">By zdobyć szczyt ideału,<ch a="c6"/><ch a="D"/></row>
-        <row important_over="false">Świetlany, harcerski krzyż.<ch a="D7"/><ch a="g"/></row>
+        <row important_over="false">By zd<ch a="c6"/>obyć szczyt ideał<ch a="D"/>ów –</row>
+        <row important_over="false">Świ<ch a="D7"/>etlany, harcerski krz<ch a="g"/>yż.</row>
       </bis>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
   <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chord positioning</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Swietlany_krzyz</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/idziemy-w-jasna</verificator>
+    </verificators>
   </status>
 </song>
