@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Na kredyt zaufania" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo">Adam Ziemianin</text_author>
-	<comment></comment>
-	<composer type="solo">Robert Leonhard</composer>
-	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
-		<block type="verse">
-			<row important_over="never">Krzątasz się po całej makatce<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
-			<row important_over="never">że w bezruchu cię nie uchwycę<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
-			<row important_over="never">do krwi masz powyszywane palce<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">a pod oczami smutne księżyce<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Mówisz mi czasem że wyjedziemy<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
-			<row important_over="never">w góry gdzie słońce pszenice sieje<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
-			<row important_over="never">lecz zawsze jakoś nam schodzi<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">choć ciągle mamy jeszcze nadzieje<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">A w mieście tylko jedna pora roku<ch a="C"/><ch a="Gis0"/><ch a="C"/></row>
-			<row important_over="never">makatka mieszkania szara<ch a="F"/><ch a="C"/><ch a="d"/><ch a="e"/></row>
-			<row important_over="never">żyjemy całkiem parterowo<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">na kredyt zaufania<ch a="F"/><ch a="C"/><ch a="dGC"/></row>
-		</block>
-	</lyric>
-	<music metre="">
-		<guitar/>
-	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
-	<status>
-		<done>
-		</done>
-		<verificators>
-			<verificator>Onufry</verificator>
-			
-		</verificators>
-		<to_do></to_do>
-	</status>
-	<music_source></music_source>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na kredyt zaufania">
+  <alias/>
+  <text_author type="solo">Adam Ziemianin</text_author>
+  <comment/>
+  <composer type="solo">Robert Leonhard</composer>
+  <artist type="band">Małżeństwo z Rozsądku</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Krząt<ch a="C"/>asz się po c<ch a="Gis0"/>ałej mak<ch a="C"/>atce,</row>
+      <row important_over="true">że w bezr<ch a="F"/>uchu ci<ch a="C"/>ę nie uchw<ch a="d"/>yc<ch a="e"/>ę,</row>
+      <row important_over="true">do krw<ch a="a"/>i masz powyszyw<ch a="e"/>ane palce,</row>
+      <row important_over="true">a pod <ch a="F"/>oczami sm<ch a="C"/>utne ksi<ch a="d"/>ężyc<ch a="G"/>e.<ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">M<ch a="C"/>ówisz mi czasem, ż<ch a="Gis0"/>e wyjedzi<ch a="C"/>emy</row>
+      <row important_over="false">w g<ch a="F"/>óry, gdzie sł<ch a="C"/>ońce pszen<ch a="d"/>ice si<ch a="e"/>eje,</row>
+      <row important_over="false">l<ch a="a"/>ecz zawsze jakoś n<ch a="e"/>am schodzi,</row>
+      <row important_over="false">choć ci<ch a="F"/>ągle mamy j<ch a="C"/>eszcze nadzi<ch a="d"/>ej<ch a="G"/>e.<ch a="C"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false">A w mi<ch a="C"/>eście tylko j<ch a="Gis0"/>edna pora r<ch a="C"/>oku,</row>
+      <row important_over="false">mak<ch a="F"/>atka mieszk<ch a="C"/>ania sz<ch a="d"/>ar<ch a="e"/>a,</row>
+      <row important_over="false">żyj<ch a="a"/>emy całkiem part<ch a="e"/>erowo,</row>
+      <row important_over="false">na kr<ch a="F"/>edyt z<ch a="C"/>aufani<ch a="d"/>a.<ch a="G"/><ch a="C"/></row>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
+  <keywords/>
+  <album>U źródeł tęsknot</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://dalmafon.pl</verificator>
+    </verificators>
+    <to_do/>
+  </status>
 </song>
