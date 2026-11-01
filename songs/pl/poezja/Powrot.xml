@@ -1,74 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Powrót" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Na twój powrót zgotowałam w beczce kąpiel</alias>
 	<text_author type="solo">Maciej Służała</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Maciej Służała</composer>
 	<artist type="band">Krążek</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Na twój powrót zgotowałam w beczce kąpiel.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Kilka kwiatów z łąki wplotłam w długie włosy.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jagód kosz największy uzbierałam w lesie.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Czekam ciebie, spoglądając wzdłuż drogi. <ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="true"><ch a="a"/>Na twój powrót zgoto<ch a="G"/>wałam w beczce <ch a="a"/>kąpiel,</row>
+			<row important_over="true"><ch a="a"/>Kilka kwiatów z łąki <ch a="G"/>wplotłam w długie <ch a="a"/>włosy,</row>
+			<row important_over="true"><ch a="C"/>Jagód kosz największy <ch a="G"/>uzbierałam w <ch a="a"/>lesie,</row>
+			<row important_over="true"><ch a="C"/>Czekam ciebie, spo<ch a="G"/>glądając wzdłuż <ch a="a"/>drogi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Jeszcze noce takie ciepłe i gwiaździste.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze w worku trochę chleba pozostało.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze świerszcze koncert grają na równinie.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze lata tyle w górach, choć tak mało.<ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="true"><ch a="C"/>Jeszcze noce takie <ch a="G"/>ciepłe i gwiaź<ch a="a"/>dziste,</row>
+			<row important_over="true"><ch a="C"/>Jeszcze w worku trochę <ch a="G"/>chleba pozo<ch a="a"/>stało,</row>
+			<row important_over="true"><ch a="C"/>Jeszcze świerszcze koncert <ch a="G"/>grają na rów<ch a="a"/>ninie,</row>
+			<row important_over="true"><ch a="C"/>Jeszcze lata tyle w <ch a="G"/>górach, choć tak <ch a="a"/>mało.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Żółte liście znaczą Twój szlak.<ch a="F"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Zimny wiatr czesze trawy na szczytach. <ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Tyle razy przemierzałeś ten świat.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Tyle lat się tym światem zachwycasz. <ch a="F"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="true"><ch a="F"/>Żółte liście <ch a="G"/>znaczą twój <ch a="a"/>szlak,</row>
+			<row important_over="true"><ch a="F"/>Zimny wiatr czesze <ch a="G"/>trawy na <ch a="C"/>szczy<ch a="G"/>tach,</row>
+			<row important_over="true"><ch a="C"/>Tyle razy prze<ch a="G"/>mierzałeś ten <ch a="a"/>świat,</row>
+			<row important_over="true"><ch a="F"/>Tyle lat się tym <ch a="G"/>światem zachwy<ch a="a"/>casz.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Na twój powrót upiekłam świeży bochen.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Ciepły sweter zrobiłam na drutach.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Rozpaliłam na kominku jasny płomień.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze dzisiaj powinieneś przecież wrócić. <ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row><ch a="a"/>Na twój powrót upi<ch a="G"/>ekłam świeży <ch a="a"/>bochen,</row>
+			<row><ch a="a"/>Ciepły sweter zro<ch a="G"/>biłam na <ch a="a"/>drutach,</row>
+			<row><ch a="C"/>Rozpaliłam na ko<ch a="G"/>minku jasny <ch a="a"/>płomień,</row>
+			<row><ch a="C"/>Jeszcze dzisiaj powi<ch a="G"/>nieneś przecież <ch a="a"/>wrócić.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Znowuż wiatr odprowadza mnie w doliny.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Słońce żegna odbijając się w strumienu.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Stare drzewa pochylają swe korony.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze chwilę odpocznę na kamieniu. <ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row><ch a="C"/>Znowuż wiatr odpro<ch a="G"/>wadza mnie w do<ch a="a"/>liny,</row>
+			<row><ch a="C"/>Słońce żegna, odbi<ch a="G"/>jając się w stru<ch a="a"/>mieniu,</row>
+			<row><ch a="C"/>Stare drzewa pochy<ch a="G"/>lają swe ko<ch a="a"/>rony,</row>
+			<row><ch a="C"/>Jeszcze chwilę odpo<ch a="G"/>czną na ka<ch a="a"/>mieniu.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="never">Na twój powrót cieszę się już od tygodnia.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Pojaśniało z tej radości w całej izbie.<ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Pachnie kawa, słońce skrzy się w starym lustrze.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Idzie ktoś, serce mocniej bije. <ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row><ch a="a"/>Na twój powrót cieszę <ch a="G"/>się już od ty<ch a="a"/>godnia,</row>
+			<row><ch a="a"/>Pojaśniało z tej ra<ch a="G"/>dości w całej <ch a="a"/>izbie,</row>
+			<row><ch a="C"/>Pachnie kawa, słońce <ch a="G"/>skrzy się w starym <ch a="a"/>lustrze,</row>
+			<row><ch a="C"/>Idzie ktoś, <ch a="G"/>serce mocniej <ch a="a"/>bije.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Koniec lasu, widać dach starego domu.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Domu, w którym tyle już się wydarzyło.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Wracam tu do ciebie, jak co roku.<ch a="C"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Może z wiosną razem wyruszymy. <ch a="C"/><ch a="G"/><ch a="a"/></row>
+			<row><ch a="C"/>Koniec lasu, widać <ch a="G"/>dach starego <ch a="a"/>domu,</row>
+			<row><ch a="C"/>Domu, w którym tyle <ch a="G"/>już się wyda<ch a="a"/>rzyło,</row>
+			<row><ch a="C"/>Wracam tu do <ch a="G"/>ciebie, jak co <ch a="a"/>roku,</row>
+			<row><ch a="C"/>Może z wiosną <ch a="G"/>razem wyru<ch a="a"/>szymy.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>Baśń</album>
+	<genre>turystyczna</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords/>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<music_source></music_source>
 </song>
