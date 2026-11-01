@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marsz Mokotowa">
-  <text_author type="solo">Mirosław Jezierski (ps. „Karnisz“)</text_author>
-  <comment>20 sierpnia 1944</comment>
-  <composer type="solo">Jan Markowski (ps. „Krzysztof“).</composer>
+  <alias>Ten pierwszy marsz</alias>
+  <text_author type="solo">Mirosław Jezierski (ps. „Karnisz”)</text_author>
+  <comment>Powstała 20 sierpnia 1944 r. podczas powstania warszawskiego w kamienicy przy ul. Bałuckiego na Mokotowie. Pieśń stała się symbolem walczącego Mokotowa, a od 1969 r. jest oficjalnym hejnałem Mokotowa oraz hymnem Hufca ZHP Warszawa-Mokotów.</comment>
+  <composer type="solo">Jan Markowski (ps. „Krzysztof”)</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">Nie <ch a="D"/>grają nam surmy bojo<ch a="D7"/>we</row>
-      <row important_over="true">Ni we<ch a="G"/>rble do sz<ch a="Gis0"/>turmu nie war<ch a="D"/>czą <ch a="H7"/></row>
-      <row important_over="true">Nam prze<ch a="e"/>cież te no<ch a="A7"/>ce sierp<ch a="D"/>niowe <ch a="h"/></row>
-      <row important_over="true">I pr<ch a="E7"/>ężne ramiona wysta<ch a="A7"/>rczą</row>
-      <row important_over="never" sidechords="D D7">Niech płynie piosenka z barykad</row>
-      <row important_over="never" sidechords="G Gis0 D H7">Wśród bloków, zaułków, ogrodów</row>
-      <row important_over="never" sidechords="e A7 D h">Z chłopcami niech idzie na wypad</row>
-      <row important_over="never" sidechords="E7 A7">Pod rękę przez cały Mokotów</row>
+      <row important_over="true">Nie <ch a="D"/>grają nam surmy bojo<ch a="D7"/>we,</row>
+      <row important_over="true">ni we<ch a="G"/>rble do sz<ch a="Gis0"/>turmu nie war<ch a="D"/>czą, <ch a="H7"/></row>
+      <row important_over="true">nam prze<ch a="e"/>cież te no<ch a="A7"/>ce sierp<ch a="D"/>niowe <ch a="h"/></row>
+      <row important_over="true">i pr<ch a="E7"/>ężne ramiona wysta<ch a="A7"/>rczą!</row>
+      <row important_over="false">Niech <ch a="D"/>płynie piosenka z bary<ch a="D7"/>kad,</row>
+      <row important_over="false">wśród u<ch a="G"/>lic, zau<ch a="Gis0"/>łków, ogro<ch a="D"/>dów, <ch a="H7"/></row>
+      <row important_over="false">z chłop<ch a="e"/>cami niech idzie na <ch a="A7"/>wypad, <ch a="D"/> <ch a="h"/></row>
+      <row important_over="false">pod r<ch a="E7"/>ękę przez cały Moko<ch a="A7"/>tów!</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc</row>
-      <row important_over="true">Tak w pieśniach <ch a="G"/>gra aż braknie <ch a="D"/>tchu</row>
-      <row important_over="true">Prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f </row>
-      <row important_over="false">Ten pierwszy m<ch a="D"/>arsz <ch a="G"/>to właśnie <ch a="D"/>zew</row>
-      <row important_over="false">Niech brzmi i trw<ch a="G"/>a przy huku <ch a="D"/>dział</row>
-      <row important_over="true">Batalion gdzieś r<ch a="A7"/>ozpoczął szt<ch a="D"/>urm,</row>
-      <row important_over="true">Spłynęła łz<ch a="e"/>a i pierwsz<ch a="A7"/>y strz<ch a="D"/>ał! </row>
+      <row important_over="true">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc,</row>
+      <row important_over="true">tak w pi<ch a="G"/>ersiach gra, aż braknie <ch a="D"/>tchu,</row>
+      <row important_over="true">czy w sło<ch a="D"/>ńca żar, <ch a="G"/>czy w chłodną <ch a="D"/>noc,</row>
+      <row important_over="true">prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f!</row>
+      <row important_over="true">Ten pierwszy m<ch a="D"/>arsz <ch a="G"/>to właśnie <ch a="D"/>zew,</row>
+      <row important_over="true">niech brzmi i trw<ch a="G"/>a przy huku <ch a="D"/>dział,</row>
+      <row important_over="true">batalion gdzieś r<ch a="A7"/>ozpoczął szt<ch a="D"/>urm,</row>
+      <row important_over="true">spłynęła łz<ch a="e"/>a i pierwsz<ch a="A7"/>y strz<ch a="D"/>ał!</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D D7">Niech wiatr ją poniesie do miasta</row>
-      <row important_over="never" sidechords="G Gis0 D H7">Jak żagiew płonącą i krwawą</row>
-      <row important_over="never" sidechords="e A7 D h">Niech w górze zawiśnie na gwiazdach</row>
-      <row important_over="never" sidechords="E7 A7">Czy słyszysz płonąca warszawo</row>
-      <row important_over="never" sidechords="D D7">Niech zabrzmi w uliczkach znajomych</row>
-      <row important_over="never" sidechords="G Gis0 D H7">W alejkach gdzie bzy już nie kwitną</row>
-      <row important_over="never" sidechords="e A7 D h">Gdzie w twierdze zmieniły się domy</row>
-      <row important_over="never" sidechords="E7 A7">I serca z zapału nie stygną</row>
+      <row important_over="false">Niech w<ch a="D"/>iatr ją poniesie do mi<ch a="D7"/>asta</row>
+      <row important_over="false">jak ża<ch a="G"/>giew płon<ch a="Gis0"/>ącą i krwa<ch a="D"/>wą, <ch a="H7"/></row>
+      <row important_over="false">niech w g<ch a="e"/>órze zawi<ch a="A7"/>śnie na gwi<ch a="D"/>azdach, <ch a="h"/></row>
+      <row important_over="false">czy sł<ch a="E7"/>yszysz, płonąca Warsza<ch a="A7"/>wo?</row>
+      <row important_over="false">Niech zab<ch a="D"/>rzmi w uliczkach znajo<ch a="D7"/>mych,</row>
+      <row important_over="false">w Alej<ch a="G"/>ach, gdzie bzy <ch a="Gis0"/>już nie kwi<ch a="D"/>tną, <ch a="H7"/></row>
+      <row important_over="false">gdzie w twi<ch a="e"/>erdze zmieni<ch a="A7"/>ły się d<ch a="D"/>omy, <ch a="h"/></row>
+      <row important_over="false">a s<ch a="E7"/>erca z zapału nie sty<ch a="A7"/>gną!</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc</row>
-      <row important_over="false">Tak w pieśniach <ch a="G"/>gra aż braknie <ch a="D"/>tchu</row>
-      <row important_over="false">Prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f </row>
+      <row important_over="false">Ten pierwszy mar<ch a="D"/>sz <ch a="G"/>ma dziwną <ch a="D"/>moc,</row>
+      <row important_over="false">tak w pi<ch a="G"/>ersiach gra, aż braknie <ch a="D"/>tchu,</row>
+      <row important_over="false">czy w sło<ch a="D"/>ńca żar, <ch a="G"/>czy w chłodną <ch a="D"/>noc,</row>
+      <row important_over="false">prowadzi <ch a="h"/>nas pod o<ch a="E7"/>gniem <ch a="A"/>lu<ch a="A7"/>f.</row>
       <row important_over="false">Ten pierwszy m<ch a="D"/>arsz <ch a="G"/>niech dzień po <ch a="D"/>dniu</row>
-      <row important_over="false">W szumie dr<ch a="G"/>zew i sercach <ch a="D"/>drży</row>
-      <row important_over="false">Bez próżnych sk<ch a="A7"/>arg i zbędnych s<ch a="D"/>łów</row>
-      <row important_over="false">To nasza kr<ch a="e"/>ew i czy<ch a="A7"/>jeś ł<ch a="D"/>zy</row>
+      <row important_over="false">w poszumie dr<ch a="G"/>zew i w sercach <ch a="D"/>drży,</row>
+      <row important_over="false">bez próżnych sk<ch a="A7"/>arg i zbędnych sł<ch a="D"/>ów,</row>
+      <row important_over="false">to nasza kr<ch a="e"/>ew i czy<ch a="A7"/>jeś łz<ch a="D"/>y!</row>
     </block>
   </lyric>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>cordes</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Marsz_Mokotowa</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piesni-patriotyczne/marsz-mokotowa</verificator>
+    </verificators>
   </status>
 </song>
