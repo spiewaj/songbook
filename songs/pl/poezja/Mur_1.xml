@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mur 1">
-  <alias/>
-  <text_author type="solo">Zbigniew Herbert</text_author>
-  <comment/>
-  <composer type="solo">Przemysław Gintrowski</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Stoimy pod murem<ch a="a"/><ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Zdjęto to nam młodość jak koszulę skazańcom<ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Czekamy<ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Zanim tłusta kula usiądzie na karku<ch a="a"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Mija 10, 20 lat<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Mur jest wysoki i mocny<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Za murem jest drzewo i gwiazda<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Drzewo podważa mur korzeniami<ch a="D"/><ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Gwiazda nagryza kamień jak mysz<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Za 100, 200 lat<ch a="a"/><ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Będzie już małe okienko<ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Już małe okienko<ch a="e"/></row>
-      <row important_over="never"><ch a="D"/>Małe okienko<ch a="e"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mur">
+	<alias>Mur 1, Stoimy pod murem</alias>
+	<text_author type="solo">Zbigniew Herbert</text_author>
+	<comment>Wiersz Zbigniewa Herberta z tomu „Struna światła” (1956).</comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="solo">Przemysław Gintrowski</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>Stoimy pod m<ch a="a"/>ur<ch a="e"/>em,</row>
+			<row important_over="true"><ch a="D"/>Zdjęto nam młodość jak koszulę skazańc<ch a="e"/>om,</row>
+			<row important_over="true"><ch a="D"/>Czek<ch a="e"/>amy.</row>
+			<row important_over="true"><ch a="e"/>Zanim tłusta kula usi<ch a="a"/>ądzie na k<ch a="e"/>arku,<ch a="D"/><ch a="e"/></row>
+			<row important_over="true"><ch a="D"/>Mija dziesięć, dwadzieścia l<ch a="e"/>at.</row>
+			<row important_over="true"><ch a="G"/>Mur jest wys<ch a="D"/>oki i m<ch a="e"/>ocny,</row>
+			<row important_over="true"><ch a="G"/>Za murem jest drzw<ch a="D"/>ewo i gwi<ch a="e"/>azda,</row>
+			<row important_over="true"><ch a="G"/>Drzewo podw<ch a="D"/>aża mur korzeni<ch a="G"/>ami,<ch a="D"/></row>
+			<row important_over="true"><ch a="G"/>Gwiazda nagr<ch a="D"/>yza kamień jak m<ch a="e"/>ysz.</row>
+			<row important_over="false"><ch a="e"/>Za sto, dwieście l<ch a="a"/>at<ch a="e"/></row>
+			<row important_over="false"><ch a="D"/>Będzie już małe oki<ch a="e"/>enko,</row>
+			<row important_over="false"><ch a="D"/>Będzie już małe oki<ch a="e"/>enko,</row>
+			<row important_over="false"><ch a="D"/>Już małe oki<ch a="e"/>enko,</row>
+			<row important_over="false"><ch a="D"/>Małe oki<ch a="e"/>enko.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Odpowiedź</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
