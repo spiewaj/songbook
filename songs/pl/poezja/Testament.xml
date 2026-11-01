@@ -1,61 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Testament" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Testament">
+	<alias>Idę samotny wśród gór, zagubiony w świecie</alias>
+	<text_author type="solo">Arkadiusz Belica</text_author>
+	<composer type="solo">Arkadiusz Belica</composer>
+	<artist type="solo">Arkadiusz Belica</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Idę samotny wśród gór, zagubiony w świecie –<ch a="fis"/></row>
-			<row important_over="never">Wiatr tylko ścieżki me zna,<ch a="A"/></row>
-			<row important_over="never">Słońce niebawem za horyzont się wyniesie,<ch a="E"/></row>
-			<row important_over="never">Światem zawładnie mgła.<ch a="fis"/></row>
-			<row important_over="never">Gdy wśród ciemności jakiś ognik ujrzysz,<ch a="fis"/></row>
-			<row important_over="never">Będzie to dobry znak,<ch a="A"/></row>
-			<row important_over="never">Nowych ludzi poznam, od nich się nauczę<ch a="E"/></row>
-			<row important_over="never">Gawęd starych tak jak świat.<ch a="fis"/></row>
+			<row important_over="true"><ch a="fis"/>Idę samotny wśród gór, zagubiony w świecie –</row>
+			<row important_over="true"><ch a="A"/>Wiatr tylko ścieżki me zna,</row>
+			<row important_over="true"><ch a="E"/>Słońce niebawem za horyzont się wyniesie,</row>
+			<row important_over="true"><ch a="fis"/>Światem zawładnie mgła.</row>
+			<row important_over="false"><ch a="fis"/>Gdy wśród ciemności jakiś ognik ujrzysz,</row>
+			<row important_over="false"><ch a="A"/>Będzie to dobry znak,</row>
+			<row important_over="false"><ch a="E"/>Nowych ludzi poznam, od nich się nauczę</row>
+			<row important_over="false"><ch a="fis"/>Gawęd starych tak jak świat.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Niech każdy z was się dowie,<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Co traci, nie będąc tu,<ch a="fis"/></row>
-			<row important_over="never">Świerk szumem ci opowie,<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Co zaszło tu przed lat stu.<ch a="fis"/></row>
-			<row important_over="never">Strumień orzeźwi ci stopy,<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">I on kiedyś wody dał<ch a="fis"/></row>
-			<row important_over="never">Spragnionym w górach wędrowcom,<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Co szli tędy tak jak ja.<ch a="fis"/></row>
+			<row important_over="true"><ch a="A"/>Niech każdy z was się d<ch a="E"/>owie,</row>
+			<row important_over="true">Co traci, nie będąc t<ch a="fis"/>u,</row>
+			<row important_over="false"><ch a="A"/>Świerk szumem ci op<ch a="E"/>owie,</row>
+			<row important_over="false">Co zaszło tu przed lat st<ch a="fis"/>u.</row>
+			<row important_over="false"><ch a="A"/>Strumień orzeźwi ci st<ch a="E"/>opy,</row>
+			<row important_over="false">I on kiedyś wody d<ch a="fis"/>ał</row>
+			<row important_over="false"><ch a="A"/>Spragnionym w górach węd<ch a="E"/>rowcom,</row>
+			<row important_over="false">Co szli tędy tak jak j<ch a="fis"/>a.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Góra za górą chowa swe oblicze,<ch a="fis"/></row>
-			<row important_over="never">Lecz te dokładnie już znam,<ch a="A"/></row>
-			<row important_over="never">Żadna mi nie ujdzie, wszystko zaliczę,<ch a="E"/></row>
-			<row important_over="never">Chociaż o drogi szmat.<ch a="fis"/></row>
-			<row important_over="never">Wciąż lat przybywa i świat się też starzeje,<ch a="fis"/></row>
-			<row important_over="never">Cóż – naturalna to rzecz,<ch a="A"/></row>
-			<row important_over="never">Ktoś, kto przeglądać będzie stare szpargały,<ch a="E"/></row>
-			<row important_over="never">Może przeczyta ten tekst.<ch a="fis"/></row>
+			<row important_over="false"><ch a="fis"/>Góra za górą chowa swe oblicze,</row>
+			<row important_over="false"><ch a="A"/>Lecz te dokładnie już znam,</row>
+			<row important_over="false"><ch a="E"/>Żadna mi nie ujdzie, wszystko zaliczę,</row>
+			<row important_over="false"><ch a="fis"/>Chociaż o drogi szmat.</row>
+			<row important_over="false"><ch a="fis"/>Wciąż lat przybywa i świat się też starzeje,</row>
+			<row important_over="false"><ch a="A"/>Cóż – naturalna to rzecz,</row>
+			<row important_over="false"><ch a="E"/>Ktoś, kto przeglądać będzie stare szpargały,</row>
+			<row important_over="false"><ch a="fis"/>Może przeczyta ten tekst.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<genre>Piosenka harcerska</genre>
 	<status>
-		<done>
-		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
-	<music_source></music_source>
 </song>
