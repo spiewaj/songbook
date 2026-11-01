@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zamieszkamy pod wspólnym dachem">
-  <alias/>
-  <text_author>Andrzej Sikorowski</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="A"/>
-        <ch a="D"/>
-        <ch a="E"/>
-        <ch a="A"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="A"/>Zamieszkamy pod wspólnym dachem<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Przed obcymi zamkniemy drzwi<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Posadzimy przed domem kwiaty<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Których nocą nie zerwie nikt<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Przyniesiemy suchego drzewa<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Żeby zimą nie było źle<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Parę jabłek i trochę chleba<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Co nam starczą na cały wiek<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="fis"/>Przeczekamy każdy losu kaprys<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>Żeby potem żyć normalnie<ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zamieszkajcie pod wspólnym dachem<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Przed obcymi zamnijcie<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>I posadźcie przed domem kwiaty<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Których nocą nie zerwie nikt<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Przygotujcie suchego drzewa<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Żeby zimą nie było źle<ch a="H7"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Parę jabłek i trochę chleba<ch a="D"/><ch a="E"/><ch a="fis"/></row>
-      <row important_over="never"><ch a="E"/>Co wam starczą na cały dzień<ch a="H7"/><ch a="E"/></row>
-    </block>
-    <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="D"/>
-        <ch a="E"/>
-        <ch a="fis"/>
-
-        <ch a="E"/>
-        <ch a="H7"/>
-        <ch a="E"/>
-
-        <ch a="A"/>
-     </row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="2"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Andrzej Sikorowski</text_author>
+	<comment/>
+	<composer type="solo">Andrzej Sikorowski</composer>
+	<artist type="band">Pod Budą</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="E"/><ch a="fis"/><ch a="E"/><ch a="H7"/><ch a="E"/><ch a="A"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="A"/>Zamieszkamy pod wspólnym d<ch a="D"/>ach<ch a="E"/>em,</row>
+			<row important_over="true"><ch a="fis"/>przed obcymi zamkniemy <ch a="E"/>drzwi.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Posadzimy przed domem kwi<ch a="D"/>at<ch a="E"/>y,</row>
+			<row important_over="false"><ch a="fis"/>których nocą nie zerwie n<ch a="E"/>ikt.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Przyniesiemy suchego drzw<ch a="D"/>ew<ch a="E"/>a,</row>
+			<row important_over="false"><ch a="fis"/>żeby zimą nie było źl<ch a="E"/>e.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Parę jabłek i trochę chl<ch a="D"/>eb<ch a="E"/>a,</row>
+			<row important_over="false"><ch a="fis"/>co nam starczą na cały wi<ch a="E"/>ek.<ch a="H7"/><ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="fis"/>Przeczekamy każdy losu k<ch a="D"/>aprys <ch a="A"/>zły,</row>
+			<row important_over="true"><ch a="h"/>żeby potem żyć, normalnie <ch a="E"/>żyć.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="A"/>Zamieszkajcie pod wspólnym d<ch a="D"/>ach<ch a="E"/>em,</row>
+			<row important_over="false"><ch a="fis"/>przed obcymi zamknijcie <ch a="E"/>drzwi.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false">I pos<ch a="A"/>adźcie przed domem kwi<ch a="D"/>at<ch a="E"/>y,</row>
+			<row important_over="false"><ch a="fis"/>których nocą nie zerwie n<ch a="E"/>ikt.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false">Przyg<ch a="A"/>otujcie suchego drzw<ch a="D"/>ew<ch a="E"/>a,</row>
+			<row important_over="false"><ch a="fis"/>żeby zimą nie było źl<ch a="E"/>e.<ch a="H7"/><ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>Parę jabłek i trochę chl<ch a="D"/>eb<ch a="E"/>a,</row>
+			<row important_over="false"><ch a="fis"/>co wam starczą na cały wi<ch a="E"/>ek.<ch a="H7"/><ch a="E"/></row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="E"/><ch a="fis"/><ch a="E"/><ch a="H7"/><ch a="E"/><ch a="A"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Pod Budą</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/pod-buda/zamieszkamy-pod-wspolnym-dachem</verificator>
+			<verificator>https://www.discogs.com/release/2788501-Pod-Bud%C4%85-Pod-Bud%C4%85</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
