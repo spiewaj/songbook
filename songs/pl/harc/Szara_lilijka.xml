@@ -11,8 +11,8 @@
 		<block type="verse">
 			<row important_over="true">Gdy zak<ch a="a"/>ochasz się w szarej lil<ch a="d"/>ijce</row>
 			<row important_over="true">I w świ<ch a="E"/>etlanym harcerskim krz<ch a="a"/>yżu,</row>
-			<row>Ki<ch a="a"/>edy olśni cię blask ogn<ch a="d"/>iska,</row>
-			<row>J<ch a="E"/>edną radę ci d<ch a="a"/>am:</row>
+			<row important_over="false">Ki<ch a="a"/>edy olśni cię blask ogn<ch a="d"/>iska,</row>
+			<row important_over="false">J<ch a="E"/>edną radę ci d<ch a="a"/>am:</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Z<ch a="a"/>ałóż mundur i przypnij lil<ch a="d"/>ijkę,</row>
@@ -21,17 +21,17 @@
 			<row important_over="true">I r<ch a="E"/>azem z nimi w świat r<ch a="a"/>usz.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Razem z nimi będziesz wędrował</row>
-			<row important_over="never">Po Łysicy i Świętym Krzyżu,</row>
-			<row important_over="never">Poznasz piękno Gór Świętokrzyskich,</row>
-			<row important_over="never">Które powiedzą ci tak:</row>
+			<row important_over="false">R<ch a="a"/>azem z nimi będziesz wędro<ch a="d"/>wał</row>
+			<row important_over="false">Po Ły<ch a="E"/>sicy i Świętym Krz<ch a="a"/>yżu,</row>
+			<row important_over="false">P<ch a="a"/>oznasz piękno Gór Świętokrz<ch a="d"/>yskich,</row>
+			<row important_over="false">Kt<ch a="E"/>óre powiedzą ci t<ch a="a"/>ak:</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Gdy po latach będziesz wspominał</row>
-			<row important_over="never">Swą przygodę w harcerskiej drużynie,</row>
-			<row important_over="never">Swemu dziecku, co dorastać zaczyna,</row>
-			<row important_over="never">Jedną radę mu dasz:</row>
+			<row important_over="false">Gdy po l<ch a="a"/>atach będziesz wspo<ch a="d"/>minał</row>
+			<row important_over="false">Swą prz<ch a="E"/>ygodę w harcerskiej druż<ch a="a"/>ynie,</row>
+			<row important_over="false">Swemu dz<ch a="a"/>iecku, co dorastać zac<ch a="d"/>zyna,</row>
+			<row important_over="false">J<ch a="E"/>edną radę mu d<ch a="a"/>asz:</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
