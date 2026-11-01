@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rondo czyli piosenka o kacu gigancie">
   <alias/>
-  <text_author>Jacek Kaczmarski</text_author>
+  <text_author type="solo">Jacek Kaczmarski</text_author>
   <comment/>
   <composer type="solo">Jacek Kaczmarski</composer>
   <artist type="solo">Jacek Kaczmarski</artist>
@@ -9,71 +9,80 @@
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Tydzień z hakiem dobrze było mi na świecie</row>
-      <row important_over="never"><ch a="d"/>Bo od rana do wieczora piłem wściekle</row>
-      <row important_over="never"><ch a="E"/>Aż mnie ścięło z nóg na amen tuż przy mecie</row>
-      <row important_over="never"><ch a="a"/>I pojąłem cały drżąc, że jestem w piekle<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Tydzień z hakiem dobrze było mi na świecie,</row>
+      <row important_over="true"><ch a="d"/>Bo od rana do wieczora piłem wściekle,</row>
+      <row important_over="true"><ch a="E"/>Aż mnie ścięło z nóg na amen tuż przy mecie</row>
+      <row important_over="true"><ch a="a"/>I pojąłem cały drżąc, że jestem <ch a="d"/>w pie<ch a="a"/>kle.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>W miejscu staną czas i lęk ogarną duszę</row>
-      <row important_over="never"><ch a="d"/>Za całego życia winny wieczną męką</row>
-      <row important_over="never"><ch a="E"/>By uniknąć jej wiedziałem wypić muszę</row>
-      <row important_over="never"><ch a="a"/>Ale jak na złość nie było nic pod ręką<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>W miejscu stanął czas i lęk ogarnął duszę</row>
+      <row important_over="false"><ch a="d"/>Za całego życia winy wieczną męką,</row>
+      <row important_over="false"><ch a="E"/>By uniknąć jej, wiedziałem: wypić muszę,</row>
+      <row important_over="false"><ch a="a"/>Ale jak na złość nie było nic pod <ch a="d"/>rę<ch a="a"/>ką.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Wszyscy krewni i znajomi stali wokół<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>Pochylali swoje współczujące głowy<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Powtarzając na okrągło tylko spokój<ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Nic ci się nie stanie przecież jesteś zdrowy<ch a="E"/></row>
+      <row important_over="true"><ch a="d"/>Wszyscy krewni i znajomi stali <ch a="a"/>wokół,</row>
+      <row important_over="true"><ch a="H"/>Pochylali swoje współczujące <ch a="E"/>głowy,</row>
+      <row important_over="true"><ch a="a"/>Powtarzając na okrągło: tylko <ch a="d"/>spokój,</row>
+      <row important_over="true"><ch a="F"/>Nic ci się nie stanie, przecież jesteś <ch a="E"/>zdrowy.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Potem przyszedł lekarz razem z tłumem gości</row>
-      <row important_over="never"><ch a="d"/>Każdy z nich ze sobą przyniósł flaszkę wódki</row>
-      <row important_over="never"><ch a="E"/>I śpiewali że za siedem dni radości</row>
-      <row important_over="never"><ch a="a"/>Całą wieczność będę troski miał i smutki<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Potem przyszedł lekarz razem z tłumem gości,</row>
+      <row important_over="false"><ch a="d"/>Każdy z nich ze sobą przyniósł flaszkę wódki</row>
+      <row important_over="false"><ch a="E"/>I śpiewali, że za siedem dni radości</row>
+      <row important_over="false"><ch a="a"/>Całą wieczność będę troski miał i <ch a="d"/>smut<ch a="a"/>ki.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>I słyszałem jak bawili się do rana</row>
-      <row important_over="never"><ch a="d"/>Jak wznosili tuż za ścianą moje zdrowie</row>
-      <row important_over="never"><ch a="E"/>Kiedy czułem jak sufitu twarz pijana</row>
-      <row important_over="never"><ch a="a"/>Drwiąco patrzy na mnie spod przymkniętych powiek<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>I słyszałem, jak bawili się do rana,</row>
+      <row important_over="false"><ch a="d"/>Jak wznosili tuż za ścianą moje zdrowie,</row>
+      <row important_over="false"><ch a="E"/>Kiedy czułem, jak sufitu twarz pijana</row>
+      <row important_over="false"><ch a="a"/>Drwiąco patrzy na mnie spod przymkniętych <ch a="d"/>po<ch a="a"/>wiek.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Czas nie mijał ale trwał z uporem czasu<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>Który dobrze wie że czasu ma w nadmiarze<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Minął wiek nim myśl zrodziła się z hałasu<ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>By pogrążyć w jeszcze większym mnie koszmarze<ch a="E"/></row>
+      <row important_over="false"><ch a="d"/>Czas nie mijał, ale trwał z uporem <ch a="a"/>czasu,</row>
+      <row important_over="false"><ch a="H"/>Który dobrze wie, że czasu ma w nad<ch a="E"/>miarze;</row>
+      <row important_over="false"><ch a="a"/>Minął wiek, nim myśl zrodziła się z ha<ch a="d"/>łasu,</row>
+      <row important_over="false"><ch a="F"/>By pogrążyć w jeszcze większym mnie ko<ch a="E"/>szmarze.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Trzysta lat myślałem o tym co zrobiłem</row>
-      <row important_over="never"><ch a="d"/>Trzysta czego mi się zrobić nie udało</row>
-      <row important_over="never"><ch a="E"/>Trzecie trzysta się zbierałem na wysiłek</row>
-      <row important_over="never"><ch a="a"/>Żeby sprawdzić czy mnie słucha własne ciało<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Trzysta lat myślałem o tym, co zrobiłem,</row>
+      <row important_over="false"><ch a="d"/>Trzysta — czego mi się zrobić nie udało,</row>
+      <row important_over="false"><ch a="E"/>Trzecie trzysta się zbierałem na wysiłek,</row>
+      <row important_over="false"><ch a="a"/>Żeby sprawdzić, czy mnie słucha własne <ch a="d"/>cia<ch a="a"/>ło.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Kiedy wstałem puste było moje piekło</row>
-      <row important_over="never"><ch a="d"/>Śladu gości uczt ni wrzawy już nie słychać</row>
-      <row important_over="never"><ch a="E"/>Tysiąc lat minęło w końcu jak się rzekło</row>
-      <row important_over="never"><ch a="a"/>Więc najwyższy czas wyskoczyć na kielicha<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Kiedy wstałem, puste było moje piekło,</row>
+      <row important_over="false"><ch a="d"/>Śladu gości, uczt ni wrzawy już nie słychać;</row>
+      <row important_over="false"><ch a="E"/>Tysiąc lat minęło w końcu, jak się rzekło,</row>
+      <row important_over="false"><ch a="a"/>Więc najwyższy czas wyskoczyć na kie<ch a="d"/>li<ch a="a"/>cha.<ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="d"/>Tydzień z hakiem dobrze było mi na świecie<ch a="a"/></row>
-      <row important_over="never"><ch a="H"/>Bo od rana do wieczora piłem wściekle<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Aż mnie ścieło z nóg na amen tuż przy mecie<ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>I pojąłem cały drżąc że jestem w piekle<ch a="E"/></row>
+      <row important_over="false"><ch a="d"/>Tydzień z hakiem dobrze było mi na <ch a="a"/>świecie,</row>
+      <row important_over="false"><ch a="H"/>Bo od rana do wieczora piłem <ch a="E"/>wściekle,</row>
+      <row important_over="false"><ch a="a"/>Aż mnie ścięło z nóg na amen tuż przy <ch a="d"/>mecie</row>
+      <row important_over="false"><ch a="F"/>I pojąłem cały drżąc, że jestem <ch a="E"/>w piekle.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>W miejscu staną czas i lęk ogarną duszę</row>
-      <row important_over="never"><ch a="d"/>Za całego życia winy wieczną męką</row>
-      <row important_over="never"><ch a="E"/>By uniknąć jej wiedziałem wypić muszę</row>
-      <row important_over="never"><ch a="a"/>Ale jak na złość nie było nic pod ręką<ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>W miejscu stanął czas i lęk ogarnął duszę</row>
+      <row important_over="false"><ch a="d"/>Za całego życia winy wieczną męką,</row>
+      <row important_over="false"><ch a="E"/>By uniknąć jej, wiedziałem: wypić muszę,</row>
+      <row important_over="false"><ch a="a"/>Ale jak na złość nie było nic pod <ch a="d"/>rę<ch a="a"/>ką.<ch a="E"/><ch a="a"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="3"/>
   </music>
+  <keywords/>
+  <album>Bankiet</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://kaczmarski.art.pl/tworczosc/wiersze/rondo-czyli-piosenka-o-kacu-gigancie/</verificator>
+    </verificators>
   </status>
 </song>
