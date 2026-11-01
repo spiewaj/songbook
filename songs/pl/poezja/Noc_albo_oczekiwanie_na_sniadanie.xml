@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Noc albo oczekiwanie na śniadanie">
+	<alias/>
 	<text_author type="solo">Edward Stachura</text_author>
+	<comment/>
 	<composer type="solo">Krzysztof Myszkowski</composer>
-	<album>Pod Wielkim Dachem Nieba</album>
-	<artist type="solo">Stare Dobre Małżeństwo</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<album>Pod wielkim dachem nieba</album>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Ty się pochyl róża-bóg<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">ty się do mnie pochyl i<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">i na ucho jak kolczyk róża-bóg<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="true"><ch a="a"/>Ty się pochyl, r<ch a="e"/>óża-bóg,</row>
+			<row important_over="true"><ch a="a"/>ty się do mnie p<ch a="e"/>ochyl i</row>
+			<row important_over="true"><ch a="G"/>i na ucho jak k<ch a="a"/>olczyk, róża-bóg,</row>
+			<row important_over="true">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Moje ucho ma dzban<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">z niego pić tylko tobie nikomu<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">a twój kolczyk jak ucho na dzban<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false"><ch a="a"/>Moje ucho m<ch a="e"/>a dzban,</row>
+			<row important_over="false"><ch a="a"/>z niego pić tylko t<ch a="e"/>obie, nikomu,</row>
+			<row important_over="false"><ch a="G"/>a twój kolczyk jak <ch a="a"/>ucho na dzban,</row>
+			<row important_over="false">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">O modlitwy mnie wabisz <ch a="a"/><ch a="e"/></row>
-			<row important_over="never">O, wabisz. Że błysk noża<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">w najpiękniejsze serce kozy<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false"><ch a="a"/>O modlitwy mn<ch a="e"/>ie wabisz,</row>
+			<row important_over="false"><ch a="a"/>O, wabisz. Że bł<ch a="e"/>ysk noża</row>
+			<row important_over="false"><ch a="G"/>w najpiękniejsze s<ch a="a"/>erce kozy,</row>
+			<row important_over="false">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Z tobą czystość zachować to gorzej<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">każdy lew by się spalił już dawno<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">las popiołu z jego grzywy nic więcej<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false"><ch a="a"/>Z tobą czystość zach<ch a="e"/>ować to gorzej,</row>
+			<row important_over="false"><ch a="a"/>każdy lew by się sp<ch a="e"/>alił już dawno,</row>
+			<row important_over="false"><ch a="G"/>las popiołu z jego grz<ch a="a"/>ywy, nic więcej,</row>
+			<row important_over="false">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ty się pochyl róża-bóg<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Ty się do mnie pochyl we mnie<ch a="a"/><ch a="e"/></row>
-			<row important_over="never">Wytryśniemy jak słońce wytryśnie<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
-			<row important_over="never">aaa…<ch a="G"/><ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false"><ch a="a"/>Ty się pochyl, r<ch a="e"/>óża-bóg,</row>
+			<row important_over="false"><ch a="a"/>Ty się do mnie p<ch a="e"/>ochyl we mnie,</row>
+			<row important_over="false"><ch a="G"/>Wytryśniemy jak sł<ch a="a"/>ońce wytryśnie,</row>
+			<row important_over="false">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
+			<row important_over="false">a<ch a="G"/>aa… <ch a="a"/><ch a="G"/><ch a="a"/></row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
-		</verificators>
-		<done/>
-		<to_do></to_do>
-	</status>
 	<keywords/>
-	<alias></alias>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<genre></genre>
-	<comment></comment>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>nedan</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>Stare Dobre Małżeństwo - Pod wielkim dachem nieba (1992)</verificator>
+			<verificator>https://wywrota.pl/spiewnik/30818-noc-albo-oczekiwanie-na-sniadanie-stare-dobre-malzenstwo/</verificator>
+			<verificator>Edward Stachura, Poezje wybrane</verificator>
+		</verificators>
+	</status>
 </song>
