@@ -1,55 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kołysanka dla Joanny I">
+	<alias></alias>
+	<text_author type="solo">Wojciech Bellon</text_author>
+	<comment></comment>
+	<composer type="solo">Wojciech Bellon</composer>
 	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator></translator>
+	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Zanim mi sen na oczy spłynie<ch a="C"/><ch a="e"/></row>
-			<row important_over="never">Moje myśli szybują przez lufcik<ch a="d"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Żeby cię ujrzeć w ową chwilę</row>
-			<row important_over="never">Gdy włosy czeszesz przed lustrem</row>
+			<row important_over="true">Z<ch a="C"/>anim mi sen na <ch a="e"/>oczy spłynie,</row>
+			<row important_over="true">M<ch a="d"/>oje myśli szyb<ch a="C"/>ują przez l<ch a="G"/>ufcik,</row>
+			<row important_over="true">Ż<ch a="C"/>eby cię ujrzeć w <ch a="e"/>ową chwilę,</row>
+			<row important_over="true">Gdy wł<ch a="a"/>osy czeszesz prz<ch a="C"/>ed l<ch a="G"/>ustrem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A kiedy zaśniesz w ciepłej pościeli</row>
-			<row important_over="never">Zmęczone długim przelotem</row>
-			<row important_over="never">Jak ptaki głowy w skrzydła wtulają</row>
-			<row important_over="never">Patrząc na sen twój spokojny<ch a="d"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7+"/><ch a="C5"/><ch a="C"/></row>
+			<row important_over="false">A ki<ch a="C"/>edy zaśniesz w ci<ch a="e"/>epłej pościeli,</row>
+			<row important_over="false">Zm<ch a="d"/>ęczone dł<ch a="C"/>ugim przel<ch a="G"/>otem,</row>
+			<row important_over="false">J<ch a="C"/>ak ptaki głowy w skrz<ch a="e"/>ydła wtulają,</row>
+			<row important_over="false">P<ch a="a"/>atrząc na s<ch a="C"/>en twój spok<ch a="G"/>ojny.<ch a="C"/><ch a="C7+"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Niech ci się przyśnią pory roku<ch a="C"/><ch a="e"/></row>
-			<row important_over="never">Niech grają we śnie twoim i tańczą<ch a="d"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Jesień prężąca liście do lotu<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Lato w upale słonecznym<ch a="C"/><ch a="G"/></row>
+			<row important_over="true">Ni<ch a="C"/>ech ci się przyśnią p<ch a="e"/>ory roku,</row>
+			<row important_over="true">Ni<ch a="d"/>ech grają we śnie tw<ch a="C"/>oim i t<ch a="G"/>ańczą,</row>
+			<row important_over="true">J<ch a="C"/>esień prężąca liście do l<ch a="G"/>otu,</row>
+			<row important_over="true">L<ch a="C"/>ato w up<ch a="e"/>ale słon<ch a="G"/>ecznym.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A jeśli zima, to w śniegu cała<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Wiosna w miłków wiosennych łąkach<ch a="C"/><ch a="G"/></row>
+			<row important_over="false">A j<ch a="C"/>eśli zima, to w śniegu c<ch a="G"/>ała,</row>
+			<row important_over="false">Wi<ch a="C"/>osna w miłków wiosennych ł<ch a="G"/>ąkach.</row>
 			<bis times="3">
-				<row important_over="never">Śpij, moje myśli nad tobą czuwają<ch a="C"/><ch a="F"/></row>
-				<row important_over="never">Na parapecie za oknem<ch a="e"/><ch a="G"/><ch a="a"/></row>
+				<row important_over="true">Śp<ch a="C"/>ij, moje myśli nad tobą czuw<ch a="F"/>ają</row>
+				<row important_over="true">N<ch a="e"/>a parap<ch a="G"/>ecie za <ch a="a"/>oknem.</row>
 			</bis>
 		</block>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
+	<keywords></keywords>
+	<album>Bukowina</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz. - zgodnie ze śpiewnikiem</verificator>
-			
-		</verificators>
 		<done>
-			
-			<chords>chords</chords>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Krzysiek Cz. - zgodnie ze śpiewnikiem</verificator>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
 		<to_do></to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
 	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
 </song>
