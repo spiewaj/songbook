@@ -7,51 +7,56 @@
 	<artist type="band">Małżeństwo z Rozsądku</artist>
 	<translator></translator>
 	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Zaledwo wiem, czy byłaś snem,<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Czy prawdą z krwi i ciała.<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
-			<row important_over="never">Przez dróg mych szlak przeleciał ptak <ch a="C"/><ch a="G"/></row>
-			<row important_over="never">I dusza ma śpiewała.<ch a="D"/></row>
+			<row important_over="true"><ch a="e"/>Zaledwo wiem, czy <ch a="D"/>byłaś snem,</row>
+			<row important_over="true"><ch a="Dis0"/>czy prawdą z <ch a="Fis0"/>krwi i ci<ch a="e"/>ała.</row>
+			<row important_over="true"><ch a="C"/>Przez dróg mych szlak przeleci<ch a="G"/>ał ptak</row>
+			<row important_over="true">i dusza ma śpie<ch a="D"/>wała.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Słuchałem fal płynących w dal<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">I czułem jak łzy w sobie<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
-			<row important_over="never">Padło mi iść przez zwiędły liść<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">I szedłem jak po grobie …<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/>Słuchałem fal płyn<ch a="D"/>ących w dal</row>
+			<row important_over="false">i <ch a="Dis0"/>czułem jak <ch a="Fis0"/>łzy w so<ch a="e"/>bie.</row>
+			<row important_over="false"><ch a="C"/>Padło mi iść przez zwi<ch a="G"/>ędły liść</row>
+			<row important_over="false">i szedłem jak po gr<ch a="D"/>obie…</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Kto szczęścia zna przyczynę?<ch a="C"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Kto zna miłości początek i kres?<ch a="C"/><ch a="D"/></row>
+			<row important_over="true"><ch a="C"/>Kto szczęścia zna przycz<ch a="G"/>ynę,</row>
+			<row important_over="true"><ch a="D"/>kto zna miłości począ<ch a="e"/>tek?</row>
+			<row important_over="false"><ch a="C"/>Kto szczęścia zna przycz<ch a="G"/>ynę,</row>
+			<row important_over="true"><ch a="D"/>kto zna miłości począ<ch a="C"/>tek i kr<ch a="D"/>es?</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zaledwo wiem, czy było snem,<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Czy prawdą me kochanie.<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
-			<row important_over="never">Czym szczęśliw był, czy ptak się wzbił<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Szczęśliwy w nieb otchłanie?<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/>Zaledwo wiem, czy <ch a="D"/>było snem,</row>
+			<row important_over="false"><ch a="Dis0"/>czy prawdą me <ch a="Fis0"/>koch<ch a="e"/>anie.</row>
+			<row important_over="false"><ch a="C"/>Czym szczęśliw był, czy <ch a="G"/>ptak się wzbił</row>
+			<row important_over="false">szczęśliwy w nieb otchł<ch a="D"/>anie?</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Czy fali bieg omijał brzeg,<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">Czym ja cię stracił zdradnie?<ch a="Dis0"/><ch a="Fis0"/><ch a="e"/></row>
-			<row important_over="never">Czy to liść zmarł, czy serca żar?<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Ach, któż to, któż odgadnie!<ch a="D"/></row>
+			<row important_over="false"><ch a="e"/>Czy fali bieg omi<ch a="D"/>jał brzeg,</row>
+			<row important_over="false"><ch a="Dis0"/>czym ja cię str<ch a="Fis0"/>acił zdr<ch a="e"/>adnie?</row>
+			<row important_over="false"><ch a="C"/>Czy to liść zmarł, czy s<ch a="G"/>erca żar?</row>
+			<row important_over="false">Ach, któż to, któż odg<ch a="D"/>adnie!</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>Labirynt</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/zaledwo-wiem</verificator>
+			<verificator>https://www.discogs.com/release/5361099-Various-Yapa-97</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
