@@ -1,63 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada na trzy chwyty czyli bardzo prosta piosenka o kobietach">
-  <text_author type="solo">J. Szewczak, K. Łyda</text_author>
-  <composer type="solo">K. Łyda</composer>
+  <alias>Ballada na trzy chwyty</alias>
+  <text_author type="solo">Jan Szewczak, Karol Łyda</text_author>
+  <composer type="solo">Karol Łyda</composer>
   <artist type="band">Gwiazdy z Zagranicy</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Jedni wolą brunetki drudzy wolą blond loki <ch a="D"/><ch a="G"/></row>
-      <row important_over="never">A mnie się marzy dziewczę co stawia duże kroki. <ch a="A"/><ch a="D"/></row>
-      <row important_over="never">Jedni lubią z uśmiechem inni celują w ponure</row>
-      <row important_over="never">A mi się marzy dziewczę co lubi iść pod górę.</row>
+      <row important_over="true"><ch a="D"/>Jedni wolą brunetki, <ch a="G"/>drudzy wolą blond loki,</row>
+      <row important_over="true"><ch a="A"/>A mnie się marzy dziewczę, co <ch a="D"/>stawia duże kroki.</row>
+      <row important_over="true"><ch a="D"/>Jedni lubią z uśmiechem, <ch a="G"/>inni celują w ponure,</row>
+      <row important_over="true"><ch a="A"/>A mi się marzy dziewczę, co <ch a="D"/>lubi iść pod górę.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie musi mieć kusych dekoltów tym bardziej chodzić w mini</row>
-      <row important_over="never">Byle lubiła podróż szlakami wysokogórskimi.</row>
-      <row important_over="never">Nie będzie na szlaku stękać gdy jej podkład się rozmaże,</row>
-      <row important_over="never">Na nogach jej będą treki a chodzić będzie w polarze.</row>
+      <row important_over="false"><ch a="D"/>Nie musi mieć kusych dekoltów, <ch a="G"/>tym bardziej chodzić w mini,</row>
+      <row important_over="false"><ch a="A"/>Byle lubiła podróż szla<ch a="D"/>kami wysokogórskimi.</row>
+      <row important_over="false"><ch a="D"/>Nie będzie na szlaku stękać, <ch a="G"/>gdy jej podkład się rozmaże,</row>
+      <row important_over="false"><ch a="A"/>Na nogach jej będą treki, a <ch a="D"/>chodzić będzie w polarze.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Lalalalaj lala lalalalaj lalalalaj laj laj</row>
+      <row important_over="true"><ch a="D"/>Lalalalaj lala <ch a="G"/>lalalalaj, <ch a="A"/>lalalalaj laj <ch a="D"/>laj!</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie wiem czy taka wizja jest dziś prawdziwie możliwa,</row>
-      <row important_over="never">Lecz zawsze mieć będzie w plecaku miejsce na moje dwa piwa</row>
-      <row important_over="never">Nieważne jej pochodzenie nie ważne ile ma wzrostu</row>
-      <row important_over="never">Nie mogą jej nigdy przeszkadzać kędziory górskiego zarostu</row>
+      <row important_over="false"><ch a="D"/>Nie wiem, czy taka wizja <ch a="G"/>jest dziś prawdziwie możliwa,</row>
+      <row important_over="false"><ch a="A"/>Lecz zawsze mieć będzie w plecaku <ch a="D"/>miejsce na moje dwa piwa.</row>
+      <row important_over="false"><ch a="D"/>Nieważne jej pochodzenie, nie<ch a="G"/>ważne, ile ma wzrostu,</row>
+      <row important_over="false"><ch a="A"/>Nie mogą jej nigdy przeszkadzać <ch a="D"/>kędziory górskiego zarostu.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie będzie jej nigdy przeszkadzać mimo dziewczęcej urody</row>
-      <row important_over="never">Że musi spać na podłodze i znowu zabrakło wody.</row>
-      <row important_over="never">Gdy rano na kacu myślę &quot;o kurcze na pewno zginę&quot;</row>
-      <row important_over="never">Ona wyciąga pół litra schowane na czarną godzinę</row>
-    </block>
-    <blocklink blocknb="3"/>
-    <block type="verse">
-      <row important_over="never">A w kwestii charakteru To żeby nie narzekała.</row>
-      <row important_over="never">Chyba że na pogodę albo że góra za mała</row>
-      <row important_over="never">I żeby lubiła Stachurę, czasem czytała Leśmiana</row>
-      <row important_over="never">Znała A dur na gitarze i piła ze mną do rana</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Do kuchni nie mam wymagań, podobnie jest u mnie z wiarą</row>
-      <row important_over="never">Mogła by wierzyć we mnie i umieć gotować makaron</row>
+      <row important_over="false"><ch a="D"/>Nie będzie jej nigdy przeszkadzać <ch a="G"/>mimo dziewczęcej urody,</row>
+      <row important_over="false"><ch a="A"/>Że musi spać na podłodze i <ch a="D"/>znowu zabrakło wody.</row>
+      <row important_over="false"><ch a="D"/>Gdy rano na kacu myślę: <ch a="G"/>„o kurczę, na pewno zginę”,</row>
+      <row important_over="false"><ch a="A"/>Ona wyciąga pół litra scho<ch a="D"/>wane na czarną godzinę.</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never">Dziewczę wejdzie do schroniska i zobaczy nas we dwóch</row>
-      <row important_over="never">W rękach naszych dwie gitary ponad sto opasły brzuch</row>
-      <row important_over="never">Smutny koniec tej ballady niewesoły i normalny</row>
-      <row important_over="never">Na realia nie da rady to ucieczka każdej panny</row>
+      <row important_over="false"><ch a="D"/>A w kwestii charakteru — <ch a="G"/>to żeby nie narzekała,</row>
+      <row important_over="false"><ch a="A"/>Chyba że na pogodę <ch a="D"/>albo że góra za mała.</row>
+      <row important_over="false"><ch a="D"/>I żeby lubiła Stachurę, <ch a="G"/>czasem czytała Leśmiana,</row>
+      <row important_over="false"><ch a="A"/>Znała A-dur na gitarze i <ch a="D"/>piła ze mną do rana.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Pozostanie nam schronisko, dwie gitary, góry, my</row>
-      <row important_over="never">Nasze bębny kastaniety, plecak pieśń, a w myślach Ty!</row>
+      <row important_over="false"><ch a="D"/>Do kuchni nie mam wymagań, po<ch a="G"/>dobnie jest u mnie z wiarą,</row>
+      <row important_over="false"><ch a="A"/>Mogłaby wierzyć we mnie i <ch a="D"/>umieć gotować makaron.</row>
+    </block>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Dziewczę wejdzie do schroniska i <ch a="G"/>zobaczy nas we dwóch,</row>
+      <row important_over="false"><ch a="A"/>W rękach naszych dwie gitary, po<ch a="D"/>nad stół opasły brzuch.</row>
+      <row important_over="false"><ch a="D"/>Smutny koniec tej ballady, <ch a="G"/>niewesoły i normalny,</row>
+      <row important_over="false"><ch a="A"/>Na realia nie da rady, to u<ch a="D"/>cieczka każdej panny.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="D"/>Pozostanie nam schronisko, <ch a="G"/>dwie gitary, góry, my,</row>
+      <row important_over="false"><ch a="A"/>Nasze bębny, kastaniety, plecak, <ch a="D"/>pieśń, a w myślach Ty!</row>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4"/>
+  <genre>piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenka-turystyczna</verificator>
+      <verificator>https://halny.org</verificator>
+    </verificators>
   </status>
 </song>
