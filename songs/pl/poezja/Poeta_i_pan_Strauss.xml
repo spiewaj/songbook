@@ -23,60 +23,60 @@
       <row important_over="true"><ch a="A"/>Na bal sylwestrowy.<ch a="A7"/></row>
     </block>
     <block type="verse">
-      <row><ch a="g"/>Ten bal zaczynał <ch a="d"/>się</row>
-      <row><ch a="A"/>Polonezem jak dawniej,</row>
-      <row><ch a="g"/>Od sali do <ch a="D7"/>sali,</row>
-      <row><ch a="g"/>Poeta mówił <ch a="d"/>wiersz,</row>
-      <row><ch a="E"/>Niesłuchany poemat</row>
-      <row><ch a="A"/>Ktoś potem po<ch a="A7"/>chwalił.</row>
-      <row><ch a="g"/>A gdy się skończył <ch a="d"/>pląs</row>
+      <row important_over="false"><ch a="g"/>Ten bal zaczynał <ch a="d"/>się</row>
+      <row important_over="false"><ch a="A"/>Polonezem jak dawniej,</row>
+      <row important_over="false"><ch a="g"/>Od sali do <ch a="D7"/>sali,</row>
+      <row important_over="false"><ch a="g"/>Poeta mówił <ch a="d"/>wiersz,</row>
+      <row important_over="false"><ch a="E"/>Niesłuchany poemat</row>
+      <row important_over="false"><ch a="A"/>Ktoś potem po<ch a="A7"/>chwalił.</row>
+      <row important_over="false"><ch a="g"/>A gdy się skończył <ch a="d"/>pląs</row>
       <row important_over="never">I na minut piętnaście</row>
-      <row><ch a="d"/>Pary tańczyć prze<ch a="D7"/>stały,</row>
-      <row><ch a="g"/>Zza stołu krzyknął <ch a="d"/>ktoś:</row>
-      <row><ch a="E"/>„Ty, artysta, opowiedz</row>
-      <row><ch a="A"/>Nam lepiej jakiś <ch a="A7"/>kawał!”.</row>
+      <row important_over="false"><ch a="d"/>Pary tańczyć prze<ch a="D7"/>stały,</row>
+      <row important_over="false"><ch a="g"/>Zza stołu krzyknął <ch a="d"/>ktoś:</row>
+      <row important_over="false"><ch a="E"/>„Ty, artysta, opowiedz</row>
+      <row important_over="false"><ch a="A"/>Nam lepiej jakiś <ch a="A7"/>kawał!”.</row>
     </block>
     <block type="verse">
-      <row><ch a="d"/>Pomyślał stary <ch a="A"/>Strauss:<ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Pomyślał stary <ch a="A"/>Strauss:<ch a="d"/></row>
       <row important_over="never">Jak to ciężko być dzisiaj</row>
-      <row><ch a="A"/>Lirycznym poetą!</row>
-      <row>Orkiestra disco <ch a="d"/>gra<ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Lirycznym poetą!</row>
+      <row important_over="false">Orkiestra disco <ch a="d"/>gra<ch a="A"/></row>
       <row important_over="never">I nie przebijesz się wierszem</row>
-      <row><ch a="d"/>I prozą przez beton.<ch a="A"/></row>
-      <row><ch a="d"/>I rzekł artyście <ch a="A"/>Strauss<ch a="d"/></row>
-      <row><ch a="D7"/>W sali, gdzie się przed chwilą</row>
-      <row><ch a="g"/>Coś wiązać zaczęło:</row>
-      <row>„Twe życie to jest <ch a="d"/>bal,</row>
-      <row><ch a="E"/>Nie umowa o dzieło,</row>
-      <row><ch a="A"/>Gdy sam jesteś <ch a="A7"/>dzieło”.</row>
+      <row important_over="false"><ch a="d"/>I prozą przez beton.<ch a="A"/></row>
+      <row important_over="false"><ch a="d"/>I rzekł artyście <ch a="A"/>Strauss<ch a="d"/></row>
+      <row important_over="false"><ch a="D7"/>W sali, gdzie się przed chwilą</row>
+      <row important_over="false"><ch a="g"/>Coś wiązać zaczęło:</row>
+      <row important_over="false">„Twe życie to jest <ch a="d"/>bal,</row>
+      <row important_over="false"><ch a="E"/>Nie umowa o dzieło,</row>
+      <row important_over="false"><ch a="A"/>Gdy sam jesteś <ch a="A7"/>dzieło”.</row>
     </block>
     <block type="verse">
-      <row><ch a="g"/>A taniec dalej <ch a="d"/>trwał,</row>
-      <row><ch a="A"/>Bruderszaftów zastępy</row>
-      <row><ch a="g"/>Odkładały się w <ch a="D7"/>głowach,</row>
-      <row><ch a="g"/>A jakiś starszy <ch a="d"/>pan,</row>
-      <row><ch a="E"/>W pas czerwony wplątany,</row>
-      <row><ch a="A"/>Nad stołami szy<ch a="A7"/>bował.</row>
-      <row><ch a="g"/>A potem to był <ch a="d"/>bal,</row>
+      <row important_over="false"><ch a="g"/>A taniec dalej <ch a="d"/>trwał,</row>
+      <row important_over="false"><ch a="A"/>Bruderszaftów zastępy</row>
+      <row important_over="false"><ch a="g"/>Odkładały się w <ch a="D7"/>głowach,</row>
+      <row important_over="false"><ch a="g"/>A jakiś starszy <ch a="d"/>pan,</row>
+      <row important_over="false"><ch a="E"/>W pas czerwony wplątany,</row>
+      <row important_over="false"><ch a="A"/>Nad stołami szy<ch a="A7"/>bował.</row>
+      <row important_over="false"><ch a="g"/>A potem to był <ch a="d"/>bal,</row>
       <row important_over="never">Walc zapraszał do tańca,</row>
-      <row><ch a="d"/>Lecz go nikt nie usł<ch a="D7"/>yszał,</row>
-      <row><ch a="g"/>Poeta mówił <ch a="d"/>wiersz,</row>
-      <row><ch a="E"/>Jakiś pan artystę</row>
-      <row><ch a="A"/>Własnoręcznie u<ch a="A7"/>ciszał.</row>
+      <row important_over="false"><ch a="d"/>Lecz go nikt nie usł<ch a="D7"/>yszał,</row>
+      <row important_over="false"><ch a="g"/>Poeta mówił <ch a="d"/>wiersz,</row>
+      <row important_over="false"><ch a="E"/>Jakiś pan artystę</row>
+      <row important_over="false"><ch a="A"/>Własnoręcznie u<ch a="A7"/>ciszał.</row>
     </block>
     <block type="verse">
-      <row><ch a="d"/>Zezłościł się pan <ch a="A"/>Strauss,<ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Zezłościł się pan <ch a="A"/>Strauss,<ch a="d"/></row>
       <row important_over="never">Który miał nam przypomnieć</row>
-      <row><ch a="A"/>Swe modre Dunaje,</row>
-      <row>Powiedział: „Co za <ch a="d"/>kac!”,<ch a="A"/></row>
+      <row important_over="false"><ch a="A"/>Swe modre Dunaje,</row>
+      <row important_over="false">Powiedział: „Co za <ch a="d"/>kac!”,<ch a="A"/></row>
       <row important_over="never">Wziął pół litra ze stołu</row>
-      <row><ch a="d"/>I zapłakał nad Kłajem:<ch a="A"/></row>
-      <row><ch a="d"/>„Mój przedostatni <ch a="A"/>walc,<ch a="d"/></row>
-      <row><ch a="D7"/>Który zbyt delikatnie</row>
-      <row><ch a="g"/>Prosił o ciszę,</row>
-      <row important_over="never">Mój przedostatni walc,</row>
-      <row><ch a="E"/>Bo ostatni to chyba</row>
-      <row><ch a="A"/>Raz jeszcze us<ch a="A7"/>łyszę”.</row>
+      <row important_over="false"><ch a="d"/>I zapłakał nad Kłajem:<ch a="A"/></row>
+      <row important_over="false"><ch a="d"/>„Mój przedostatni <ch a="A"/>walc,<ch a="d"/></row>
+      <row important_over="false"><ch a="D7"/>Który zbyt delikatnie</row>
+      <row important_over="false"><ch a="g"/>Prosił o ciszę,</row>
+      <row important_over="false"><ch a="g"/>Mój przedostatni <ch a="d"/>walc,</row>
+      <row important_over="false"><ch a="E"/>Bo ostatni to chyba</row>
+      <row important_over="false"><ch a="A"/>Raz jeszcze us<ch a="A7"/>łyszę”.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr">
@@ -84,18 +84,18 @@
       </row>
     </block>
     <block type="verse">
-      <row><ch a="g"/>Karnawał skończył <ch a="d"/>się,</row>
-      <row><ch a="A"/>Zasypiają po szafach</row>
-      <row><ch a="g"/>Sukienki – mo<ch a="D7"/>tyle,</row>
-      <row><ch a="g"/>A poeta uczy <ch a="d"/>się</row>
-      <row><ch a="E"/>Tańczyć w rytm rozespanych</row>
-      <row><ch a="A"/>Fabrycznych sy<ch a="A7"/>ren.</row>
-      <row><ch a="g"/>Karnawał skończył <ch a="d"/>się,</row>
-      <row><ch a="A"/>Zasypiają po szafach</row>
-      <row><ch a="d"/>Sukienki – mo<ch a="D7"/>tyle,</row>
-      <row><ch a="g"/>Że nam się jeszcze <ch a="d"/>chce</row>
-      <row><ch a="E"/>Tańczyć w rytm rozespanych</row>
-      <row><ch a="A"/>Fabrycznych sy<ch a="A7"/>ren...</row>
+      <row important_over="false"><ch a="g"/>Karnawał skończył <ch a="d"/>się,</row>
+      <row important_over="false"><ch a="A"/>Zasypiają po szafach</row>
+      <row important_over="false"><ch a="g"/>Sukienki – mo<ch a="D7"/>tyle,</row>
+      <row important_over="false"><ch a="g"/>A poeta uczy <ch a="d"/>się</row>
+      <row important_over="false"><ch a="E"/>Tańczyć w rytm rozespanych</row>
+      <row important_over="false"><ch a="A"/>Fabrycznych sy<ch a="A7"/>ren.</row>
+      <row important_over="false"><ch a="g"/>Karnawał skończył <ch a="d"/>się,</row>
+      <row important_over="false"><ch a="A"/>Zasypiają po szafach</row>
+      <row important_over="false"><ch a="d"/>Sukienki – mo<ch a="D7"/>tyle,</row>
+      <row important_over="false"><ch a="g"/>Że nam się jeszcze <ch a="d"/>chce</row>
+      <row important_over="false"><ch a="E"/>Tańczyć w rytm rozespanych</row>
+      <row important_over="false"><ch a="A"/>Fabrycznych sy<ch a="A7"/>ren...</row>
     </block>
     <block type="verse">
       <row important_over="false">Na, na, na... <ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/><ch a="D7"/><ch a="g"/><ch a="d"/><ch a="E"/><ch a="A"/></row>
@@ -112,7 +112,10 @@
       <authors/>
       <chords/>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/krzysztof-daukszewicz/poeta-i-pan-strauss</verificator>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Poeta_i_pan_Strauss</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
