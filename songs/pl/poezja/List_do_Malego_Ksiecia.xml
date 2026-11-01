@@ -1,108 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="List do Małego Księcia">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="G"/>
-        <ch a="e"/>
-
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="h"/>
-        <ch a="C"/>
-
-        <ch a="G"/>
-        <ch a="a"/>
-        <ch a="C"/>
-
-        <ch a="D"/>
-        <ch a="D7"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Zagubieni Książę jesteśmy<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Pod gwiazdami grzejemy ręce<ch a="D"/></row>
-      <row important_over="never"><ch a="h"/>Niebo śmieje się szeroko<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Nasze niebo to jednak coś więcej<ch a="a"/><ch a="C"/></row>
-      <row important_over="never">
-        <ch a="D"/>
-        <ch a="D7"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Niespokojnie Książę żyjemy<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Wśród szeptanych krucho skarg<ch a="D"/></row>
-      <row important_over="never"><ch a="h"/>Dzień do dnia się dodaje<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>W dobrą gwiazdę trzeba wierzyć nam<ch a="a"/><ch a="C"/></row>
-      <row important_over="never">
-        <ch a="D"/>
-        <ch a="D7"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Nasze wieczne ucieczki wycieczki<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Nasze wzdychanie w nieznane<ch a="D"/></row>
-      <row important_over="never"><ch a="h"/>Kiedy niebo Cię olśni<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Wiesz że zaczął się wielki taniec<ch a="a"/><ch a="C"/></row>
-    </block>
-    <block type="other">
-      <row important_over="never">
-        <ch a="G"/>
-        <ch a="e"/>
-
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="h"/>
-        <ch a="C"/>
-
-        <ch a="G"/>
-        <ch a="a"/>
-        <ch a="C"/>
-
-        <ch a="D"/>
-        <ch a="D7"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Pod gwiazdami Książe jesteśmy<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Pod gwiazdami grzejemy ręce<ch a="D"/></row>
-      <row important_over="never"><ch a="h"/>Niebo śmieje się otwarcie<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I nie trzeba wtedy nic więcej<ch a="a"/><ch a="C"/></row>
-    </block>
-    <block type="other">
-      <row important_over="never">
-        <ch a="G"/>
-        <ch a="e"/>
-
-        <ch a="C"/>
-        <ch a="D"/>
-
-        <ch a="h"/>
-        <ch a="C"/>
-
-        <ch a="G"/>
-        <ch a="a"/>
-        <ch a="C"/>
-
-        <ch a="D"/>
-        <ch a="D7"/>
-     </row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="D"/><ch a="D7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Z<ch a="G"/>agubieni, Ksi<ch a="e"/>ążę, jesteśmy,</row>
+			<row important_over="true">P<ch a="C"/>od gwiazdami grz<ch a="D"/>ejemy ręce,</row>
+			<row important_over="true">Ni<ch a="h"/>ebo śmieje się sz<ch a="C"/>eroko,</row>
+			<row important_over="true">N<ch a="G"/>asze niebo to j<ch a="F"/>ednak c<ch a="C"/>oś wi<ch a="D"/>ęc<ch a="D7"/>ej.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ni<ch a="G"/>espokojnie, Ksi<ch a="e"/>ążę, żyjemy,</row>
+			<row important_over="false">Wśr<ch a="C"/>ód szeptanych kr<ch a="D"/>ucho skarg,</row>
+			<row important_over="false">Dzi<ch a="h"/>eń do dnia się d<ch a="C"/>odaje,</row>
+			<row important_over="false">W d<ch a="G"/>obrą gwiazdę trzeba wi<ch a="F"/>erz<ch a="C"/>yć n<ch a="D"/>am.<ch a="D7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">N<ch a="G"/>asze wieczne uci<ch a="e"/>eczki-wycieczki,</row>
+			<row important_over="false">N<ch a="C"/>asze wzdychanie w ni<ch a="D"/>eznane,</row>
+			<row important_over="false">Ki<ch a="h"/>edy niebo cię <ch a="C"/>olśni,</row>
+			<row important_over="false">Wi<ch a="G"/>esz, że zaczął się wi<ch a="F"/>elk<ch a="C"/>i t<ch a="D"/>ani<ch a="D7"/>ec.</row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="D"/><ch a="D7"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="G"/>od gwiazdami, Ksi<ch a="e"/>ążę, jesteśmy,</row>
+			<row important_over="false">P<ch a="C"/>od gwiazdami grz<ch a="D"/>ejemy ręce,</row>
+			<row important_over="false">Ni<ch a="h"/>ebo śmieje się <ch a="C"/>otwarcie</row>
+			<row important_over="false">I ni<ch a="G"/>e trzeba wt<ch a="F"/>edy n<ch a="C"/>ic wi<ch a="D"/>ęc<ch a="D7"/>ej.</row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="G"/><ch a="e"/><ch a="C"/><ch a="D"/><ch a="h"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="D"/><ch a="D7"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Czarny blues o czwartej nad ranem</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
