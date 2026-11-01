@@ -45,9 +45,7 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators>
-			<verificator>Piotr Tabernacki</verificator>
-		</verificators>
+		<verificators/>
 	</status>
 	<music_source>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/swiadkowie-lata</music_source>
 </song>
