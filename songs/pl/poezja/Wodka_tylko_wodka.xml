@@ -1,88 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Wódka, tylko wódka">
-  <alias>Raport z izby otrzeźwień</alias>
-  <text_author type="solo">Krzysztof Daukszewicz</text_author>
-  <artist type="solo">Krzysztof Daukszewicz</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Wchodzi pierwszy zalany, drzwi się zamykają<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>Widać film ma urwany, kica w kąt jak zając<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>I w bełkocie: ,,wylali'', bez motywowacji<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>Pije bo kac jest lepszy, od stanów frustracji<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Tylko kto mnie mać tak skurczył do rozmiarów liliputka<ch a="h"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="h"/>Przez judasza głos doszedł: </row>
-      <row important_over="never">- Wódka tylko wódka !<ch a="Fis7"/><ch a="h"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Wchodzi facet ubrany, równo jak pod sznurek<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>Mówi ,,Bardzo przepraszam'', widać zna kulturę<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>I się chłopcom przedstawił ,,Macie tu aktora''<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>,,Który, żeby zarobić zgrywa amatora''<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>,,Ktoś mi kurza twarz podmienił Hamleta na krasnoludka''<ch a="h"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Po aktorze, małolat jeszcze ma trądziki<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>,,W domu rozłam'' powiada, w budzie narkotyki<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Jeszcze doszły do tego z wychowania dwóje<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>,,Synu'' rzekł mu artysta ,,ja cię adoptuję''<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Kto urządził tak małego? Jaka na to odtrutka?<ch a="h"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Teraz znany dziennikarz, każdy się przymyka<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>Nie wiadomo czy węszy, czy się też nałykał<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Nagle głos małolata przerwał jego ciszę<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="h"/>Pewnie pije, bo trzeźwy tego nie napisze<ch a="Fis7"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Co się stało z redaktorem, że się chwieje jak łódka<ch a="h"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="c"/>Teraz na strasznej bani elegancka pani<ch a="a"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Nagle wszyscy dookoła chłopcy malowani<ch a="c"/></row>
-      <row important_over="never"><ch a="f"/>Teraz wiem — rzecze dama — czemu kraj zaniemógł<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Bowiem tutaj się skryły resztki gentelmanów</row>
-      <row important_over="never"><ch a="f"/>Ktoś was chłopcy najmilejsi znów wystrychnął na dudka<ch a="c"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="c"/>Po niej wielki uczony też ubzdryngolony<ch a="a"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Ale mądrość w nim taka, że aż bić pokłony<ch a="c"/></row>
-      <row important_over="never"><ch a="f"/>Póki talent mój — rzecze — w rękach decydentów<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Ni do pracy powrotu, ni do abstynętów</row>
-      <row important_over="never"><ch a="f"/>Kto mnie jeszcze raz przekona, że przyczyny tkwią w skutkach<ch a="c"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="c"/>Na to powstał socjolog, co spał od południa<ch a="a"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Który z braku etatu, w szklarni się zatrudniał<ch a="c"/></row>
-      <row important_over="never"><ch a="f"/>Rzekł: pisałem doktorat, że nie problem w ,,czystej''<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>I dlatego panowie jestem wciąż magistrem</row>
-      <row important_over="never"><ch a="f"/>Tylko praca jest odtrutką na taplanie się w smutkach<ch a="c"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="c"/>I wsunęli się wszyscy pod świeżutkie kołdry<ch a="a"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>Wszyscy, których zjednało, zalewanie mordy<ch a="c"/></row>
-      <row important_over="never"><ch a="f"/>Tylko biedny artysta ciągnął wciąż do ludzi<ch a="c"/><ch a="G7"/><ch a="c"/></row>
-      <row important_over="never"><ch a="G7"/>I z pijackim uporem — śpiących chciał rozbudzić</row>
-      <row important_over="never"><ch a="f"/>Co nam szkodzi w tym życiu niech mi z was ktoś odpowie!<ch a="c"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="G7"/>Przez judasza głos doszedł: </row>
-      <row important_over="never">- Picie kolorowej !<ch a="c"/></row>
-    </block>
-  </lyric>
-  <music>
-    <guitar barre="0"/>
-  </music>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-    <to_do>Poprawiłem na bazie:
-https://www.youtube.com/watch?v=WEaTe29oIdA&amp;t=6s</to_do>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wódka, tylko wódka">
+	<alias>Raport z izby otrzeźwień</alias>
+	<text_author type="solo">Krzysztof Daukszewicz</text_author>
+	<comment>Piosenka satyryczna znana również jako „Wspomnienie z izby otrzeźwień” lub „Raport z izby otrzeźwień”. W połowie następuje modulacja o pół tonu w górę (z h-moll do c-moll).</comment>
+	<composer type="solo">Krzysztof Daukszewicz</composer>
+	<artist type="solo">Krzysztof Daukszewicz</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Wch<ch a="h"/>odzi pierwszy zalany, drzwi się zamyk<ch a="Fis7"/>aj<ch a="h"/>ą,</row>
+			<row important_over="true">W<ch a="h"/>idać film ma urwany, k<ch a="Fis7"/>ica w kąt jak z<ch a="h"/>ając</row>
+			<row important_over="true">I w bełk<ch a="e"/>ocie: „wylali”, bez motyw<ch a="h"/>acj<ch a="Fis7"/>i<ch a="h"/>:</row>
+			<row important_over="true">P<ch a="h"/>ije, bo kac jest lepszy od st<ch a="Fis7"/>anów frustr<ch a="h"/>acji.</row>
+			<row important_over="true">T<ch a="e"/>ylko kto mnie, mać, tak skurczył do rozmiarów lilip<ch a="h"/>utka?</row>
+		</block>
+		<block type="chorus">
+			<row important_over="never">Przez judasza głos doszedł:</row>
+			<row important_over="true">– W<ch a="Fis7"/>ódka, tylko w<ch a="h"/>ódka!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wch<ch a="h"/>odzi facet ubrany, równo jak pod szn<ch a="Fis7"/>ur<ch a="h"/>ek,</row>
+			<row important_over="false">M<ch a="h"/>ówi: „Bardzo przepraszam”, w<ch a="Fis7"/>idać zna kult<ch a="h"/>urę</row>
+			<row important_over="false">I się chł<ch a="e"/>opcom przedstawił: „Macie tu akt<ch a="h"/>or<ch a="Fis7"/>a<ch a="h"/>,</row>
+			<row important_over="false">Kt<ch a="h"/>óry, żeby zarobić, zgrywa am<ch a="Fis7"/>at<ch a="h"/>ora”.</row>
+			<row important_over="false">„Kt<ch a="e"/>oś mi, kurza twarz, podmienił Hamleta na krasnol<ch a="h"/>udka!”</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">P<ch a="h"/>o aktorze małolat, jeszcze ma trądz<ch a="Fis7"/>ik<ch a="h"/>i,</row>
+			<row important_over="false">„W d<ch a="h"/>omu rozłam” — powiada, „w b<ch a="Fis7"/>udzie narkot<ch a="h"/>yki,</row>
+			<row important_over="false">J<ch a="e"/>eszcze doszły do tego z wychowania dw<ch a="h"/>ój<ch a="Fis7"/>e<ch a="h"/>”.</row>
+			<row important_over="false">„S<ch a="h"/>ynu” — rzekł mu artysta — „ja cię adopt<ch a="Fis7"/>uj<ch a="h"/>ę”.</row>
+			<row important_over="false">Kt<ch a="e"/>o urządził tak małego? Jaka na to odtr<ch a="h"/>utka?</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">T<ch a="h"/>eraz znany dziennikarz, każdy się przym<ch a="Fis7"/>yk<ch a="h"/>a,</row>
+			<row important_over="false">Ni<ch a="h"/>e wiadomo, czy węszy, czy się też nał<ch a="Fis7"/>yk<ch a="h"/>ał.</row>
+			<row important_over="false">N<ch a="e"/>agle głos małolata przerwał jego c<ch a="h"/>isz<ch a="Fis7"/>ę<ch a="h"/>:</row>
+			<row important_over="false">P<ch a="h"/>ewnie pije, bo trzeźwy tego nie nap<ch a="Fis7"/>isz<ch a="h"/>e.</row>
+			<row important_over="false">C<ch a="e"/>o się stało z redaktorem, że się chwieje jak ł<ch a="h"/>ódka?</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="true">T<ch a="c"/>eraz na strasznej bani elegancka p<ch a="G7"/>an<ch a="c"/>i,</row>
+			<row important_over="true">N<ch a="c"/>agle wszyscy dookoła chłopcy malow<ch a="G7"/>an<ch a="c"/>i.</row>
+			<row important_over="true">„T<ch a="f"/>eraz wiem” — rzecze dama — „czemu kraj zani<ch a="c"/>em<ch a="G7"/>óg<ch a="c"/>ł,</row>
+			<row important_over="true">B<ch a="c"/>owiem tutaj się skryły resztki dżentelm<ch a="G7"/>en<ch a="c"/>ów”.</row>
+			<row important_over="true">„Kt<ch a="f"/>oś was, chłopcy najmilejsi, znów wystrychnął na d<ch a="c"/>udka!”</row>
+		</block>
+		<block type="chorus">
+			<row important_over="never">Przez judasza głos doszedł:</row>
+			<row important_over="true">– W<ch a="G7"/>ódka, tylko w<ch a="c"/>ódka!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="c"/>o niej wielki uczony, też ubzdryngol<ch a="G7"/>on<ch a="c"/>y,</row>
+			<row important_over="false">A<ch a="c"/>le mądrość w nim taka, że aż bić pokł<ch a="G7"/>on<ch a="c"/>y.</row>
+			<row important_over="false">„P<ch a="f"/>óki talent mój” — rzecze — „w rękach decyd<ch a="c"/>ent<ch a="G7"/>ó<ch a="c"/>w,</row>
+			<row important_over="false">Ni d<ch a="c"/>o pracy powrotu, ni do abstyn<ch a="G7"/>ent<ch a="c"/>ów”.</row>
+			<row important_over="false">Kt<ch a="f"/>o mnie jeszcze raz przekona, że przyczyny tkwią w sk<ch a="c"/>utkach?</row>
+		</block>
+		<blocklink blocknb="6"/>
+		<block type="verse">
+			<row important_over="false">N<ch a="c"/>a to powstał socjolog, co spał od poł<ch a="G7"/>udni<ch a="c"/>a,</row>
+			<row important_over="false">Kt<ch a="c"/>óry z braku etatu w szklarni się zatr<ch a="G7"/>udni<ch a="c"/>ał.</row>
+			<row important_over="false">Rz<ch a="f"/>ekł: „Pisałem doktorat, że nie problem w «cz<ch a="c"/>yst<ch a="G7"/>ej<ch a="c"/>»</row>
+			<row important_over="false">I dl<ch a="c"/>atego, panowie, jestem wciąż magistr<ch a="G7"/>e<ch a="c"/>m”.</row>
+			<row important_over="false">T<ch a="f"/>ylko praca jest odtrutką na taplanie się w sm<ch a="c"/>utkach...</row>
+		</block>
+		<blocklink blocknb="6"/>
+		<block type="verse">
+			<row important_over="false">I wsun<ch a="c"/>ęli się wszyscy pod świeżutkie k<ch a="G7"/>ołdr<ch a="c"/>y,</row>
+			<row important_over="false">Wsz<ch a="c"/>yscy, których zjednało zalewanie m<ch a="G7"/>ord<ch a="c"/>y.</row>
+			<row important_over="false">T<ch a="f"/>ylko biedny artysta ciągnął wciąż do l<ch a="c"/>udz<ch a="G7"/>i<ch a="c"/>,</row>
+			<row important_over="false">I z pij<ch a="c"/>ackim uporem śpiących chciał rozb<ch a="G7"/>udz<ch a="c"/>ić:</row>
+			<row important_over="false">„C<ch a="f"/>o nam szkodzi w tym życiu, niech mi z was ktoś odp<ch a="c"/>owie!”</row>
+		</block>
+		<block type="chorus">
+			<row important_over="never">Przez judasza głos doszedł:</row>
+			<row important_over="true">– P<ch a="G7"/>icie kolor<ch a="c"/>owej!</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Kabaret</keyword>
+	</keywords>
+	<genre>Piosenka kabaretowa</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>https://www.youtube.com/watch?v=WEaTe29oIdA</verificator>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+	</status>
 </song>
