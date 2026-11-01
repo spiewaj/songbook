@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pamiątka ze spływu">
-  <alias/>
-  <text_author type="solo">J. Borowicz</text_author>
-  <comment/>
-  <composer type="solo">J. Borowicz</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Żegnamy gasnący dzień</alias>
+  <text_author type="solo">Jan Borowicz</text_author>
+  <comment></comment>
+  <composer type="solo">Jan Borowicz</composer>
+  <artist type="solo">Jan Borowicz</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Żegnamy gasnący dzień<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>I mgły co nad wodą<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>I wiatr co w szuwarach zaplątał się tak<ch a="D"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Jak mucha we włosach rozczochranych<ch a="H7"/></row>
-      <row important_over="never"><ch a="a"/>I cień lipcowej nocy co błądzi gdzieś po dnie<ch a="D"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Z parą pasiastych okoni<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="true"><ch a="e"/>Żegnamy gasnący <ch a="H7"/>dzień<ch a="e"/></row>
+      <row important_over="false">I <ch a="e"/>mgły, co nad <ch a="H7"/>wodą,<ch a="e"/></row>
+      <row important_over="true">I <ch a="a"/>wiatr, co w szuwarach za<ch a="D"/>plątał się <ch a="G"/>tak,<ch a="C"/></row>
+      <row important_over="true">Jak <ch a="a"/>mucha we włosach rozczo<ch a="H7"/>chranych,</row>
+      <row important_over="false">I <ch a="a"/>cień lipcowej nocy, co <ch a="D"/>błądzi gdzieś po <ch a="G"/>dnie<ch a="C"/></row>
+      <row important_over="true">Z <ch a="a"/>parą pasiastych o<ch a="H7"/>ko<ch a="E"/>ni.<ch a="E7"/></row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="a"/>Dobranoc niebo dobranoc wodo<ch a="D"/><ch a="G"/><ch a="C"/></row>
-        <row important_over="never"><ch a="a"/>Dobranoc już dobranoc<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+        <row important_over="true">Do<ch a="a"/>branoc, niebo, do<ch a="D"/>branoc, <ch a="G"/>wodo,<ch a="C"/></row>
+        <row important_over="true">Do<ch a="a"/>branoc już, do<ch a="H7"/>bra<ch a="E"/>noc.<ch a="E7"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Już pora rozbijać namioty<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>I zbierać chrust na ognisko<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Chleb kroić powszedni i z wiadrem po wodę<ch a="D"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Iść do zagrody<ch a="H7"/></row>
-      <row important_over="never"><ch a="a"/>Lecz jeszcze popatrzymy jezioro się złoci<ch a="D"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Słońce czerwono tak nisko<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false">Już <ch a="e"/>pora rozbijać na<ch a="H7"/>mioty<ch a="e"/></row>
+      <row important_over="false">I <ch a="e"/>zbierać chrust na og<ch a="H7"/>nisko,<ch a="e"/></row>
+      <row important_over="false">Chleb <ch a="a"/>kroić powszedni i z <ch a="D"/>wiadrem po <ch a="G"/>wodę<ch a="C"/></row>
+      <row important_over="false">Iść <ch a="a"/>do za<ch a="H7"/>grody,</row>
+      <row important_over="false">Lecz <ch a="a"/>jeszcze popatrzmy – je<ch a="D"/>zioro się <ch a="G"/>złoci,<ch a="C"/></row>
+      <row important_over="false">Słońce <ch a="a"/>czerwone tak <ch a="H7"/>nis<ch a="E"/>ko.<ch a="E7"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <genre>turystyczna</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
+  <music_source>Cyfrowa Biblioteka Polskiej Piosenki (Krzysztof Heering, Śpiewnik harcerski, 1988)</music_source>
 </song>
