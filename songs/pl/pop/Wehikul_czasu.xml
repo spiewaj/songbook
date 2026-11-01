@@ -1,57 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Wehikuł czasu" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo">Dżem</artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Pamiętam dobrze ideał swój</alias>
+	<text_author type="solo">Ryszard Riedel</text_author>
+	<comment>Jeden z największych przebojów zespołu Dżem, z albumu „Najemnik” (1989).</comment>
+	<composer type="solo">Adam Otręba</composer>
+	<artist type="band">Dżem</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Pamiętam dobrze ideał swój <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Marzeniami żyłem jak król<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Siódma rano, to dla mnie noc<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Pracować nie chciałem, włóczyłem się<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Za to do puszki zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Za to zwykle zamykano mnie<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Po knajpach grywałem za piwo i chleb<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Na życiu bluesa tak mijał mi dzień<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="true"><ch a="A"/>Pamiętam <ch a="E"/>dobrze <ch a="fis"/>ideał sw<ch a="D"/>ój,</row>
+			<row important_over="true"><ch a="A"/>marzeniami ż<ch a="E"/>yłem <ch a="D"/>jak kr<ch a="A"/>ól.</row>
+			<row important_over="false"><ch a="A"/>Siódma <ch a="E"/>rano, <ch a="fis"/>to dla mnie n<ch a="D"/>oc,</row>
+			<row important_over="false"><ch a="A"/>pracować nie chci<ch a="E"/>ałem, wł<ch a="D"/>óczyłem si<ch a="A"/>ę.</row>
+			<row important_over="false"><ch a="A"/>Za to <ch a="E"/>do puszki zam<ch a="fis"/>ykano mn<ch a="D"/>ie,</row>
+			<row important_over="false"><ch a="A"/>za to zw<ch a="E"/>ykle zam<ch a="D"/>ykano mn<ch a="A"/>ie.</row>
+			<row important_over="false"><ch a="A"/>Po knajpach gr<ch a="E"/>ywałem za pi<ch a="fis"/>wo i chl<ch a="D"/>eb,</row>
+			<row important_over="false"><ch a="A"/>na życiu bl<ch a="E"/>uesa tak m<ch a="D"/>ijał mi dzi<ch a="A"/>eń.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Tylko nocą do klubu pójść <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Jam session do rana, tak królował blues <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="never">To już minęło, ten klimat, ten luz <ch a="E"/><ch a="fis"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Wspaniali ludzie nie powrócą <ch a="D"/></row>
-			<row important_over="never">Nie powrócą już<ch a="D"/><ch a="A"/></row>
+			<row important_over="true"><ch a="E"/>Tylko n<ch a="fis"/>ocą d<ch a="D"/>o klubu P<ch a="A"/>uls,</row>
+			<row important_over="false">j<ch a="E"/>am session do r<ch a="fis"/>ana, tam kr<ch a="D"/>ólował bl<ch a="A"/>ues.</row>
+			<row important_over="false">T<ch a="E"/>o już min<ch a="fis"/>ęło, ten kl<ch a="D"/>imat, ten l<ch a="A"/>uz,</row>
+			<row important_over="true">wspani<ch a="E"/>ali ludz<ch a="fis"/>ie ni<ch a="D"/>e powrócą,</row>
+			<row important_over="true">ni<ch a="D"/>e powrócą j<ch a="A"/>uż!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Lecz we mnie zostało coś z tamtych lat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Mój mały intymny muzyczny świat<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Gdy tak wspominam ten miniony czas <ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Wiem jedno, że to nie poszło w las<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Dużo bym dał, by przeżyć to znów<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Wehikuł czasu to byłby cud<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Mam jeszcze wiarę, odmieni się los<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
-			<row important_over="never">Znów kwiatek do lufy wetknie im ktoś<ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/></row>
+			<row important_over="false"><ch a="A"/>Lecz we mnie zost<ch a="E"/>ało coś z t<ch a="fis"/>amtych l<ch a="D"/>at,</row>
+			<row important_over="false"><ch a="A"/>mój mały, int<ch a="E"/>ymny, muz<ch a="D"/>yczny świ<ch a="A"/>at.</row>
+			<row important_over="false"><ch a="A"/>Gdy tak wspomin<ch a="E"/>am ten mini<ch a="fis"/>ony cz<ch a="D"/>as,</row>
+			<row important_over="false"><ch a="A"/>wiem jedno, że t<ch a="E"/>o nie poszl<ch a="D"/>o w l<ch a="A"/>as.</row>
+			<row important_over="false"><ch a="A"/>Dużo bym d<ch a="E"/>ał, by przeż<ch a="fis"/>yć to zn<ch a="D"/>ów,</row>
+			<row important_over="false"><ch a="A"/>wehikuł cz<ch a="E"/>asu, to b<ch a="D"/>yłby c<ch a="A"/>ud.</row>
+			<row important_over="false"><ch a="A"/>Mam jeszcze wi<ch a="E"/>arę, odmi<ch a="fis"/>eni się l<ch a="D"/>os,</row>
+			<row important_over="false"><ch a="A"/>znów kwiatek do l<ch a="E"/>ufy wetkni<ch a="D"/>e im kt<ch a="A"/>oś.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Rock</genre>
+	<album>Najemnik</album>
+	<genre>rock</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/dzem/wehikul-czasu</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
