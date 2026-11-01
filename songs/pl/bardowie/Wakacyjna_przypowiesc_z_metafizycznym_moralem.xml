@@ -1,91 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Wakacyjna przypowieść z metafizycznym morałem" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias>Muszelki</alias>
+	<alias>Idziemy po muszelki</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
+	<comment>Napisana 13 lipca 1999 r. w Perth. Album „Dwie Skały” (2000). Znana także jako „Muszelki”. Każda kolejna zwrotka moduluje o półton w górę (A → B → H → C → Cis → D → A).</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="true">Zryw<ch a="A"/>amy się przed świtem, nie m<ch a="E7"/>yśląc o śniad<ch a="A"/>aniu</row>
-			<row important_over="false">Milcz<ch a="A"/>ący, źli a przy tym zup<ch a="E7"/>ełnie niewysp<ch a="A"/>ani.</row>
-			<row important_over="true">Okr<ch a="D"/>ągły księżyc drwi z nas jak p<ch a="C0"/>uste dno but<ch a="H"/>elk<ch a="E"/>i;</row>
+			<row important_over="true">Zryw<ch a="A"/>amy się przed świtem, nie m<ch a="E7"/>yśląc o śniad<ch a="A"/>aniu,</row>
+			<row important_over="true">Milcz<ch a="A"/>ący, źli, a przy tym zup<ch a="E7"/>ełnie niewysp<ch a="A"/>ani.</row>
+			<row important_over="true">Okr<ch a="D"/>ągły księżyc drwi z nas, jak p<ch a="C0"/>uste dno but<ch a="H"/>elk<ch a="E"/>i;</row>
 			<bis times="2">
-				<row important_over="false">Lecz nam to nie pierwszyzna, idziemy po muszelki.<ch a="A"/><ch a="E7"/><ch a="A"/></row>
+				<row important_over="true">Lecz n<ch a="A"/>am to nie pierwszyzna — idzi<ch a="E7"/>emy po musz<ch a="A"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">Szlak wi<ch a="B"/>edzie brzegiem morza na z<ch a="F"/>achód - w kołdrze mr<ch a="B"/>oku,</row>
-			<row important_over="false">Więc z tyłu pełznie zorza cierpliwie krok po kroku. <ch a="B"/><ch a="F"/><ch a="B"/></row>
-			<row important_over="true">Na pi<ch a="Dis"/>asku rosną cienie jak r<ch a="Cis0"/>ozciągnięte sz<ch a="C"/>elk<ch a="F"/>i -</row>
+			<row important_over="true">Szlak wi<ch a="B"/>edzie brzegiem morza na z<ch a="F"/>achód — w kołdrze mr<ch a="B"/>oku,</row>
+			<row important_over="true">Więc z t<ch a="B"/>yłu pełznie zorza cierpl<ch a="F"/>iwie, krok po kr<ch a="B"/>oku.</row>
+			<row important_over="true">Na pi<ch a="Dis"/>asku rosną cienie, jak r<ch a="Cis0"/>ozciągnięte sz<ch a="C"/>elk<ch a="F"/>i —</row>
 			<bis times="2">
-				<row important_over="false">Idziemy niestrudzenie, idziemy po muszelki.<ch a="B"/><ch a="F"/><ch a="B"/></row>
+				<row important_over="true">Idzi<ch a="B"/>emy niestrudzenie, idzi<ch a="F"/>emy po musz<ch a="B"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">Musz<ch a="H"/>elki - rzecz nietrwała, po pr<ch a="Fis"/>awdzie nic nie w<ch a="H"/>arta,</row>
-			<row important_over="false">Ale córeczka chciała - córeczka jest uparta. <ch a="H"/><ch a="Fis"/><ch a="H"/></row>
-			<row important_over="true">Z fal sł<ch a="E"/>ońce się wychyla jak zł<ch a="D0"/>ota pierś mod<ch a="Cis"/>elk<ch a="Fis"/>i;</row>
+			<row important_over="true">Musz<ch a="H"/>elki — rzecz nietrwała, po pr<ch a="Fis"/>awdzie nic nie w<ch a="H"/>arta,</row>
+			<row important_over="true">Ale c<ch a="H"/>óreczka chciała — cór<ch a="Fis"/>eczka jest up<ch a="H"/>arta.</row>
+			<row important_over="true">Z fal sł<ch a="E"/>ońce się wychyla, jak zł<ch a="D0"/>ota pierś mod<ch a="Cis"/>elk<ch a="Fis"/>i;</row>
 			<bis times="2">
-				<row important_over="false">Umyka nam ta chwila - idziemy po muszelki.<ch a="H"/><ch a="Fis"/><ch a="H"/></row>
+				<row important_over="true">Um<ch a="H"/>yka nam ta chwila — idzi<ch a="Fis"/>emy po musz<ch a="H"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">P<ch a="C"/>alców u stóp maleństwa ka<ch a="G"/>leczą się bol<ch a="C"/>eśnie.</row>
-			<row important_over="false">Co robić? Na przekleństwa za późno - i za wcześnie - <ch a="C"/><ch a="G"/><ch a="C"/></row>
+			<row important_over="true">P<ch a="C"/>alców u stóp maleństwa kal<ch a="G"/>eczą się bol<ch a="C"/>eśnie.</row>
+			<row important_over="true">Co r<ch a="C"/>obić? Na przekleństwa za p<ch a="G"/>óźno — i za wcz<ch a="C"/>eśnie —</row>
 			<row important_over="true">Na w<ch a="F"/>ątpliwości antrakt, na ci<ch a="Dis0"/>erpień bagat<ch a="D"/>el<ch a="G"/>ki,</row>
 			<bis times="2">
-				<row important_over="false">Bo zgrzyta zębów mantra - idziemy po muszelki.<ch a="C"/><ch a="G"/><ch a="C"/></row>
+				<row important_over="true">Bo zgrz<ch a="C"/>yta zębów mantra — idzi<ch a="G"/>emy po musz<ch a="C"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<row important_over="true">Pierś sł<ch a="Cis"/>ońca już w zenicie wspi<ch a="Gis"/>era się nam na p<ch a="Cis"/>lecach</row>
-			<row important_over="false">Potężnym żarem życia jak samo serce pieca. <ch a="Cis"/><ch a="Gis"/><ch a="Cis"/></row>
+			<row important_over="true">Pot<ch a="Cis"/>ężnym żarem życia, jak s<ch a="Gis"/>amo serce pi<ch a="Cis"/>eca.</row>
 			<row important_over="true">Pot ci<ch a="Fis"/>urka strumykami, dziur<ch a="E0"/>awią piach krop<ch a="Dis"/>elk<ch a="Gis"/>i;</row>
 			<bis times="2">
-				<row important_over="false">Wyschnięci na pergamin idziemy po muszelki.<ch a="Cis"/><ch a="Gis"/><ch a="Cis"/></row>
+				<row important_over="true">Wyschni<ch a="Cis"/>ęci na pergamin idzi<ch a="Gis"/>emy po musz<ch a="Cis"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<row important_over="true">W kr<ch a="D"/>ąg wodorostów zieleń pi<ch a="A"/>ętrzy się drwiącą w<ch a="D"/>arstwą</row>
-			<row important_over="false">I cuchnie - a muszelek? Muszelek - na lekarstwo! <ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">I c<ch a="D"/>uchnie — a muszelek? Musz<ch a="A"/>elek — na lek<ch a="D"/>arstwo!</row>
 			<row important_over="true">Nie w n<ch a="G"/>aszej widać mocy odn<ch a="F0"/>aleźć skarb tak wi<ch a="E"/>elk<ch a="A"/>i!</row>
 			<bis times="2">
-				<row important_over="false">Na skórze, w chłodzie nocy pęcznieją nam bąbelki.<ch a="D"/><ch a="A"/><ch a="D"/></row>
+				<row important_over="true">Na sk<ch a="D"/>órze, w chłodzie nocy pęczni<ch a="A"/>eją nam bąb<ch a="D"/>elki.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<row important_over="true">Lecz c<ch a="A"/>órcia łapką gładką pi<ch a="E"/>eczeń skwierczącą kl<ch a="A"/>epie:</row>
-			<row important_over="false">- Nie przejmuj się tak, Tatku! Jutro ci pójdzie lepiej! <ch a="A"/><ch a="E"/><ch a="A"/></row>
-			<row important_over="false">Los żaden nas nie zmoże, choć przeszkód pełen wszelkich! <ch a="D"/><ch a="C0"/><ch a="H"/><ch a="E"/></row>
+			<row important_over="true">— Nie prz<ch a="A"/>ejmuj się tak, Tatku! J<ch a="E"/>utro ci pójdzie l<ch a="A"/>epiej!</row>
+			<row important_over="true">Los ż<ch a="D"/>aden nas nie zmoże, choć prz<ch a="C0"/>eszkód pełen wsz<ch a="H"/>elk<ch a="E"/>ich!</row>
 			<bis times="3">
-				<row important_over="true">Chw<ch a="D"/>ała Ci dobry B<ch a="A"/>oże za dr<ch a="E"/>ogę po musz<ch a="A"/>elki!</row>
+				<row important_over="true">Chw<ch a="D"/>ała Ci, dobry B<ch a="A"/>oże, za dr<ch a="E"/>ogę po musz<ch a="A"/>elki!</row>
 			</bis>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	
-	
-	
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
+	<album>Dwie Skały</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/wakacyjna-przypowiesc-z-metafizycznym-moralem/</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
