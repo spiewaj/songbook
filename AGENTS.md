@@ -39,6 +39,12 @@ Always verify whether the current Pull Request has already been merged before ex
   - Do not alter or "correct" authentic scout folklore, slang, or intentional archaic/dialect rhymes even if they deviate from standard grammar or spelling.
 - **Chord Placement, Timing & Spacing**:
   - Distinguish chord timing relative to vocals: when an accompaniment chord is struck on the beat before or between vocal syllables, preserve appropriate spacing (e.g. `<ch a="F"/> Na rusztach...` vs ` <ch a="F"/>Na...`). Do not mechanically strip leading/trailing spaces around `<ch/>` tags.
+  - **`important_over` semantics**:
+    - `important_over="true"`: Primary template line where chords must be displayed above the syllables.
+    - `important_over="false"`: Subsequent or repeating lines that follow the established chord progression — inline `<ch/>` tags MUST be preserved over syllables (never strip chords from repeating lines).
+    - `important_over="never"`: Used when:
+      1. A line has no chords at all (e.g. a cappella, recitative).
+      2. Chords for the line are known (e.g. in `sidechords`), but their exact placement/timing over syllables is unknown, so chords are rendered exclusively on the side to avoid misleading the singer.
 - **Instrumental Chords & `sidechords`**:
   - Never put transition/turnaround chords into lyric punctuation (e.g. avoid `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (e.g. `<ch a="(d E a G)"/>` is invalid).
   - Use the `sidechords="..."` attribute on `<row>` (e.g. `<row important_over="false" sidechords="d E a G">...`) or introduce an explicit instrumental line: `<row important_over="false" style="instr"><ch a="G"/></row>`.

@@ -65,9 +65,11 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - For purely instrumental rows, use `<row important_over="false" style="instr"><ch a="..."/>...</row>`.
 
 4. **`important_over` Attribute Standardization**:
-   - `important_over="true"`: Set **only** on the first occurrence of each distinct chord progression/phrase (typically the first verse and the chorus, or the first half of a verse if the second half repeats the exact same progression).
-   - `important_over="false"`: Set on subsequent verses or repeating couplets within the same block that follow the already-introduced chord progression, as well as `style="instr"` rows.
-   - `important_over="never"`: Set on any `<row>` that has **no `<ch>` tags** (or in pure `sidechords`-only songs).
+   - `important_over="true"`: Set on the primary template occurrence of each distinct chord progression/phrase where chords must be displayed above the text.
+   - `important_over="false"`: Set on subsequent verses or repeating couplets following the established progression, as well as `style="instr"` rows. Retain all inline `<ch a="..."/>` tags over syllables (never strip chords from repeating lines).
+   - `important_over="never"`: Used when:
+     1. The line genuinely has no chords (a cappella, recitative).
+     2. Chords for the line are known (e.g. in `sidechords`), but their exact placement/timing over syllables is unknown or unverified, so they should only appear on the side rather than giving misleading syllable alignment above the text.
 
 5. **Verification `<status>` & `<verificators>` Source Attribution**:
    - Once text, chords, and authors are verified, update `<status><done>` and record the authoritative sources (URLs or references) used to confirm the correctness of the song as `<verificator>` entries inside `<verificators>` (always preserving any pre-existing `<verificator>` entries):
