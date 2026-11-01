@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śniegowice">
+  <alias>Do Śniegowic wpadłem tylko na godzinę</alias>
   <text_author type="solo">Tomasz Wachnowski</text_author>
-  <comment/>
   <composer type="solo">Tomasz Wachnowski</composer>
   <artist type="solo">Tomasz Wachnowski</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Do Śniegowic wpadłem tylko na godzinę, <ch a="E"/><ch a="cis"/></row>
-      <row important_over="never">Na godzinę tylko, bo to za granicą. <ch a="H"/><ch a="A"/></row>
-      <row important_over="never">I zostałem w Śniegowicach całą zimę, <ch a="E"/><ch a="cis"/></row>
-      <row important_over="never">Całą zimę przyszło tkwić mi w Śniegowicach. <ch a="H"/><ch a="A"/></row>
+      <row important_over="true"><ch a="E"/>Do Śniegowic wpadłem <ch a="cis"/>tylko na godzinę,</row>
+      <row important_over="true"><ch a="H"/>Na godzinę tylko, <ch a="A"/>bo to za granicą.</row>
+      <row important_over="true"><ch a="E"/>I zostałem w Śniego<ch a="cis"/>wicach całą zimę,</row>
+      <row important_over="true"><ch a="H"/>Całą zimę przyszło <ch a="A"/>tkwić mi w Śniegowicach.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="E cis">Byłem głupi, bo tak dałem się zaskoczyć,</row>
-      <row important_over="never" sidechords="H A">Że przy sobie miałem tylko napiwek,</row>
-      <row important_over="never" sidechords="E cis">A gdy bieda mi zajrzała prosto w oczy,</row>
-      <row important_over="never" sidechords="H A">Uśmiechnąłem się i zapytałem zimy:</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Byłem głupi, bo tak <ch a="cis"/>dałem się zaskoczyć,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Że przy sobie miałem <ch a="A"/>tylko napiwek,</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>A gdy bieda mi zaj<ch a="cis"/>rzała prosto w oczy,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Uśmiechnąłem się i <ch a="A"/>zapytałem zimy:</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Co mnie tu trzyma, <ch a="E"/><ch a="cis"/></row>
-      <row important_over="never">Co mnie tu trzyma <ch a="H"/><ch a="A"/></row>
-      <row important_over="never">Tylko zima i święta <ch a="E"/><ch a="cis"/></row>
-      <row important_over="never">Tak odrzekła mi zima. <ch a="H"/><ch a="A"/></row>
+      <row important_over="true"><ch a="E"/>Co mnie tu <ch a="cis"/>trzyma,</row>
+      <row important_over="true"><ch a="H"/>Co mnie tu <ch a="A"/>trzyma?</row>
+      <row important_over="true"><ch a="E"/>Tylko zima i <ch a="cis"/>święta —</row>
+      <row important_over="true"><ch a="H"/>Tak odrzekła mi <ch a="A"/>zima.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="E cis">Źle nie było, ale rzadko tak do śmiechu,</row>
-      <row important_over="never" sidechords="H A">Czasem śniegu było więcej niż herbaty.</row>
-      <row important_over="never" sidechords="E cis">Za pieniądze pożyczane od kolegów</row>
-      <row important_over="never" sidechords="H A">Kupowałem mały dom na duże raty.</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Źle nie było, ale <ch a="cis"/>rzadko tak do śmiechu,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Czasem śniegu było <ch a="A"/>więcej niż herbaty.</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Za pieniądze poży<ch a="cis"/>czane od kolegów</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Kupowałem mały <ch a="A"/>dom na duże raty.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="E cis">Gdy mi mówisz, że przeciąga się ta zima,</row>
-      <row important_over="never" sidechords="H A">Gdy mnie pytasz kiedy znowu Cię odwiedzę,</row>
-      <row important_over="never" sidechords="E cis">Ty chcesz wiedzieć co mnie jeszcze tutaj trzyma</row>
-      <row important_over="never" sidechords="H A">Ty chcesz wiedzieć , a ja wiem, co odpowiedzieć.</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Gdy mi mówisz, że prze<ch a="cis"/>ciąga się ta zima,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Gdy mnie pytasz, kiedy <ch a="A"/>znowu cię odwiedzę,</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Ty chcesz wiedzieć, co mnie <ch a="cis"/>jeszcze tutaj trzyma,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Ty chcesz wiedzieć, a ja <ch a="A"/>wiem, co odpowiedzieć.</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never" sidechords="E cis">Dziś, gdy patrzę na te moje Śniegowice</row>
-      <row important_over="never" sidechords="H A">Zamrożone tak, a już nie koniec świata,</row>
-      <row important_over="never" sidechords="E cis">Zapominam - widzę tylko, co chcę widzieć</row>
-      <row important_over="never" sidechords="H A">I pamiętam koniec zimy w środku lata.</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Dziś, gdy patrzę na te <ch a="cis"/>moje Śniegowice,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>Zamrożone tak, a <ch a="A"/>już nie koniec świata,</row>
+      <row important_over="false" sidechords="E cis"><ch a="E"/>Zapominam — widzę <ch a="cis"/>tylko, co chcę widzieć,</row>
+      <row important_over="false" sidechords="H A"><ch a="H"/>I pamiętam koniec <ch a="A"/>zimy w środku lata.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
-  <keywords/>
+  <music metre="4/4"/>
+  <album>Śniegowice</album>
+  <genre>piosenka autorska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/tomasz-wachnowski/sniegowice</verificator>
+    </verificators>
   </status>
 </song>
