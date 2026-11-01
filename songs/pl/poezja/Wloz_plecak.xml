@@ -1,52 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Włóż plecak">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Gdy na Rysach ujrzysz ze ździwieniem<ch a="C"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Alpinistę w czarnym garniturze<ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Zamiast kiwać głową ze zdziwieniem<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Daj mu prawdy słowa dwa nieduże<ch a="G"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="G"/>Włóż plecak, to nic że ciężki<ch a="C"/></row>
-      <row important_over="never"><ch a="D"/>I załóż koszulę w kratę<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>W rajdowych starych spodniach<ch a="C"/></row>
-      <row important_over="never"><ch a="D"/>Idź na spotkanie z latem<ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Gdy turystów grono romantyczne<ch a="C"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Gasi chandrę alkoholu strugą<ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Zamiast robić gesty dramatyczne<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>To recytuj strofkę im niedługą<ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Kiedy spłoszy ciszę rezerwatu<ch a="C"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Tranzystora zgrzytu cała gama<ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Bądź spokojny nie trzeba dramatu<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Dla słuchacza rada będzie mała<ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Gdy polubisz fotel i kominek<ch a="C"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>I pantofli spokojne człapanie<ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Będziesz żonę miał zamiast dziewczyny<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>To zastosuj swoje przykazanie<ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Gdy na Rysach ujrzysz ze zdziwieniem</alias>
+	<text_author type="solo">tradycyjna</text_author>
+	<comment>Piosenka turystyczna znana również pod tytułem „Alpinista”.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">Piosenka turystyczna</artist>
+	<translator/>
+	<original_title>Alpinista</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Gdy na R<ch a="G"/>ysach ujrzysz ze zdziwi<ch a="C"/>eni<ch a="D"/>em</row>
+			<row important_over="true">Alpin<ch a="C"/>istę w cz<ch a="D"/>arnym garnit<ch a="G"/>urze,</row>
+			<row important_over="true">Zamiast k<ch a="e"/>iwać głową ze zdumi<ch a="D"/>eniem,</row>
+			<row important_over="true">Daj mu pr<ch a="C"/>awdy słowa dwa nied<ch a="G"/>uże:</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Włóż pl<ch a="G"/>ecak, to nic, że ci<ch a="C"/>ężki,</row>
+			<row important_over="true">I z<ch a="D"/>ałóż koszulę w kr<ch a="G"/>atę,</row>
+			<row important_over="true">W rajd<ch a="G"/>owych, starych sp<ch a="C"/>odniach</row>
+			<row important_over="true">Idź n<ch a="D"/>a spotkanie z l<ch a="G"/>atem!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdy tur<ch a="G"/>ystów grono romant<ch a="C"/>yczn<ch a="D"/>e</row>
+			<row important_over="false">Gasi ch<ch a="C"/>andrę alk<ch a="D"/>oholu str<ch a="G"/>ugą,</row>
+			<row important_over="false">Zamiast r<ch a="e"/>obić gesty dramat<ch a="D"/>yczne,</row>
+			<row important_over="false">To rec<ch a="C"/>ytuj strofkę im niedł<ch a="G"/>ugą:</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Kiedy spł<ch a="G"/>oszy ciszę rezerw<ch a="C"/>at<ch a="D"/>u</row>
+			<row important_over="false">Tranzyst<ch a="C"/>ora zgrz<ch a="D"/>ytu cała g<ch a="G"/>ama,</row>
+			<row important_over="false">Bądź spok<ch a="e"/>ojny, nie trzeba dram<ch a="D"/>atu,</row>
+			<row important_over="false">Dla słuch<ch a="C"/>acza rada będzie m<ch a="G"/>ała:</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Gdy pol<ch a="G"/>ubisz fotel i kom<ch a="C"/>in<ch a="D"/>ek</row>
+			<row important_over="false">I pant<ch a="C"/>ofli spok<ch a="D"/>ojne człap<ch a="G"/>anie,</row>
+			<row important_over="false">Będziesz ż<ch a="e"/>onę miał zamiast dziewcz<ch a="D"/>yny,</row>
+			<row important_over="false">To zast<ch a="C"/>osuj swoje przykaz<ch a="G"/>anie:</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Alpinista</keyword>
+	</keywords>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+	</status>
 </song>
