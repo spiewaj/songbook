@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrowanie">
-  <alias/>
-  <text_author type="solo">Andrzej Starzec</text_author>
-  <comment/>
-  <composer type="solo">Andrzej Starzec</composer>
-  <artist type="solo">Andrzej Starzec</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Rozwichrzone nad głową sosny rosochate<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Pędzą niebem chmurki owieczki skrzydlate<ch a="a"/><ch a="D7"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Senne oko jeziora zda się na wpół drzemie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Kolorowe sady słodkie niosą brzemię<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="G"/>A nam czegóż to więcej potrzeba, powiedz nam<ch a="D"/><ch a="C"/><ch a="e"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Powiedz nam lesie i drogo piaszczysta<ch a="D"/><ch a="C"/><ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Powiedz powiedz powiedz powiedz nam<ch a="D"/><ch a="e"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Połoniny zielone przepastne doliny<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Ukwiecone łąki strojne jak dziewczyny<ch a="a"/><ch a="D7"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Płaczka wierzba przysiadła na przydrożnym rowie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Matka żegnająca ruszających w drogę<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Przemierzamy drożyny jak wędrowne ptaki<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Co na niebie kluczem wyznaczają szlaki<ch a="a"/><ch a="D7"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Dokąd dokąd tak pędzisz uskrzydlony bracie<ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Pędzisz nie bez celu — już we krwi to macie<ch a="a"/><ch a="D7"/><ch a="e"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Rozwichrzone nad głową sosny rosochate</alias>
+	<text_author type="solo">Andrzej Starzec</text_author>
+	<comment>Utwór z repertuaru zespołu Wołosatki, wydany na albumie „Bieszczadzki koncert” (1981).</comment>
+	<composer type="solo">Andrzej Starzec</composer>
+	<artist type="band">Wołosatki</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">R<ch a="e"/>ozwichrzone nad głową s<ch a="a"/>osny rosoch<ch a="D7"/>at<ch a="e"/>e,</row>
+			<row important_over="true">P<ch a="e"/>ędzą niebem chmurki, <ch a="a"/>owieczki skrzydl<ch a="D7"/>at<ch a="G"/>e,</row>
+			<row important_over="true">S<ch a="e"/>enne oko jeziora, zd<ch a="C"/>a się, na wpół drz<ch a="D"/>em<ch a="G"/>ie,</row>
+			<row important_over="false">K<ch a="e"/>olorowe sady sł<ch a="a"/>odkie niosą brzem<ch a="D7"/>i<ch a="e"/>ę.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">A n<ch a="G"/>am czegóż to więcej potrz<ch a="D"/>eba?<ch a="C"/><ch a="e"/></row>
+			<row important_over="true">P<ch a="G"/>owiedz n<ch a="D"/>am!<ch a="e"/></row>
+			<row important_over="false">P<ch a="G"/>owiedz nam, lesie, i dr<ch a="D"/>ogo pi<ch a="C"/>aszczyst<ch a="e"/>a,</row>
+			<row important_over="false">P<ch a="G"/>owiedz, powiedz, p<ch a="D"/>owiedz, powiedz n<ch a="e"/>am.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="e"/>ołoniny zielone, prz<ch a="a"/>epastne dol<ch a="D7"/>in<ch a="e"/>y,</row>
+			<row important_over="false">Ukw<ch a="e"/>iecone łąki, str<ch a="a"/>ojne jak dziewcz<ch a="D7"/>yn<ch a="G"/>y,</row>
+			<row important_over="false">Pł<ch a="e"/>aczka wierzba przysiadła n<ch a="C"/>a przydrożnym r<ch a="D"/>ow<ch a="G"/>ie,</row>
+			<row important_over="false">M<ch a="e"/>atka żegnająca r<ch a="a"/>uszających w dr<ch a="D7"/>og<ch a="e"/>ę.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Prz<ch a="e"/>emierzamy drożyny j<ch a="a"/>ak wędrowne pt<ch a="D7"/>ak<ch a="e"/>i,</row>
+			<row important_over="false">C<ch a="e"/>o na niebie kluczem w<ch a="a"/>yznaczają szl<ch a="D7"/>ak<ch a="G"/>i,</row>
+			<row important_over="false">D<ch a="e"/>okąd, dokąd tak pędzisz, <ch a="C"/>uskrzydlony br<ch a="D"/>ac<ch a="G"/>ie?</row>
+			<row important_over="false">P<ch a="e"/>ędzisz nie bez celu — j<ch a="a"/>uż we krwi to m<ch a="D7"/>ac<ch a="e"/>ie.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Bieszczadzki koncert</album>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
