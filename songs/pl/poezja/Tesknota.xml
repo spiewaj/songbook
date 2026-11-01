@@ -1,66 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Tęsknota" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Jesteś cicha jak śnieg</alias>
 	<text_author type="solo">Leopold Staff</text_author>
-	<comment></comment>
+	<comment>Słowa: Leopold Staff (wiersz „Tęsknota” ze zbioru „Ptakom niebieskim”, 1905).</comment>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Jesteś cicha jak śnieg<ch a="fis"/><ch a="E"/><ch a="D"/></row>
-			<row important_over="never">Który pada na kwiaty jesienne<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Dłonie twoje jak lek<ch a="D"/><ch a="fis"/></row>
+			<row important_over="true"><ch a="fis"/>Jesteś <ch a="E"/>cicha jak <ch a="D"/>śnieg</row>
+			<row important_over="true"><ch a="A"/>Który <ch a="E"/>pada na <ch a="D"/>kwiaty je<ch a="E"/>sienne</row>
+			<row important_over="true"><ch a="D"/>Dłonie twoje jak <ch a="fis"/>lek</row>
 			<bis times="2">
-				<row important_over="never">Koją usta pragnieniem bezsenne<ch a="E"/><ch a="D"/></row>
+				<row important_over="true"><ch a="E"/>Koją usta pragnie<ch a="D"/>niem bezsenne</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Lecz mi nie pić z twych łask<ch a="fis"/><ch a="E"/><ch a="D"/></row>
-			<row important_over="never">Dusza siedmiokroć tęsknotą otruta<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Ociemniała na blask<ch a="D"/><ch a="fis"/></row>
+			<row><ch a="fis"/>Lecz mi <ch a="E"/>nie pić z twych <ch a="D"/>łask</row>
+			<row><ch a="A"/>Dusza <ch a="E"/>siedmiokroć <ch a="D"/>tęsknotą o<ch a="E"/>truta</row>
+			<row><ch a="D"/>Ociemniała na <ch a="fis"/>blask</row>
 			<bis times="2">
-				<row important_over="never">Noc ma każda ciężka jak pokuta<ch a="E"/><ch a="D"/></row>
+				<row><ch a="E"/>Noc ma każda cięż<ch a="D"/>ka jak pokuta</row>
 			</bis>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Śpiewam o tobie co dzień długo w noc<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">A gdy nad ranem zasnę<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">Mam we śnie swoim słonce, radość i moc<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">I twoje oczy jasne<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">Lecz gdy się zbudzę nie widzę twych rąk<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">Co pierś mi chcą ogrzewać<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">I ciągle musze żyć tak sam wśród mąk<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">Bym mógł o tobie śpiewać<ch a="A"/><ch a="h7"/></row>
+			<row important_over="true"><ch a="A"/>Śpiewam o tobie co dzień <ch a="h7"/>długo w noc</row>
+			<row important_over="true"><ch a="A"/>A gdy nad ranem <ch a="h7"/>zasnę</row>
+			<row important_over="true"><ch a="A"/>Mam we śnie swoim słońce, <ch a="h7"/>radość i moc</row>
+			<row important_over="true"><ch a="A"/>I twoje oczy <ch a="h7"/>jasne</row>
+			<row important_over="true"><ch a="A"/>Lecz gdy się zbudzę nie wi<ch a="h7"/>dzę twych rąk</row>
+			<row important_over="true"><ch a="A"/>Co pierś mi chcą ogrze<ch a="h7"/>wać</row>
+			<row important_over="true"><ch a="A"/>I ciągle muszę żyć tak <ch a="h7"/>sam wśród mąk</row>
+			<row important_over="true"><ch a="A"/>Bym mógł o tobie <ch a="h7"/>śpiewać</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Szczęście wątłe jak mgły<ch a="fis"/><ch a="E"/><ch a="D"/></row>
-			<row important_over="never">Wicher mi stargał jako mgły rozwiejne<ch a="A"/><ch a="E"/><ch a="D"/><ch a="E"/></row>
-			<row important_over="never">Najpiękniejsze me sny<ch a="D"/><ch a="fis"/></row>
+			<row><ch a="fis"/>Szczęście <ch a="E"/>wątłe jak <ch a="D"/>mgły</row>
+			<row><ch a="A"/>Wicher <ch a="E"/>mi stargał <ch a="D"/>jako mgły roz<ch a="E"/>wiejne</row>
+			<row><ch a="D"/>Najpiękniejsze me <ch a="fis"/>sny</row>
 			<bis times="2">
-				<row important_over="never">Czyż być muszą zawsze beznadziejne<ch a="E"/><ch a="D"/></row>
+				<row><ch a="E"/>Czyż być muszą zaw<ch a="D"/>sze beznadziejne</row>
 			</bis>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>U źródeł tęsknot</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
