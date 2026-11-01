@@ -20,10 +20,10 @@
       <row important_over="true">Być <ch a="C"/>zawsze tam, gdzie <ch a="D"/>ty...</row>
     </block>
     <block type="verse">
-      <row important_over="never">Nie pytaj mnie o jutro, to za tysiąc lat,</row>
-      <row important_over="never">Płyniemy białą łódką w niezbadany czas.</row>
-      <row important_over="never">Poskładam nasze szepty w jeden ciepły krzyk,</row>
-      <row important_over="never">By już nie uciekły nam, by wysuszyły łzy.</row>
+      <row important_over="false"><ch a="G"/>Nie pytaj mnie o <ch a="e"/>jutro, to za <ch a="a7"/>tysiąc <ch a="D"/>lat,</row>
+      <row important_over="false"><ch a="G"/>Płyniemy białą <ch a="e"/>łódką w niezba<ch a="a7"/>dany <ch a="D"/>czas.</row>
+      <row important_over="false"><ch a="G"/>Poskładam nasze <ch a="e"/>szepty w <ch a="a7"/>jeden ciepły <ch a="D"/>krzyk,</row>
+      <row important_over="false"><ch a="G"/>By już nie uciekły <ch a="e"/>nam, by wysu<ch a="a7"/>szyły <ch a="D"/>łzy.</row>
     </block>
     <block type="chorus">
       <bis>
