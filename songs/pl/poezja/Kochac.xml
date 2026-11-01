@@ -1,36 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kochać">
-  <artist>Piotr Szczepanik</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">Kochać - jak to łatwo powiedzieć<ch a="C"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Kochać - to nie pytać o nic</row>
-      <row important_over="never">Bo miłość jest niepokojem<ch a="F"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never">Nie zna dnia, który da się powtórzyć<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Nagle świat się mieści w twoich oczach<ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Już nie wiem, czy ciebie znam<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never">Chwile, kolorowe przeźrocza<ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">Więdną, szybko zmienia je czas<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kochać - jak to łatwo powiedzieć</row>
-      <row important_over="never">Kochać - tylko to więcej nic</row>
-      <row important_over="never">W tym słowie jest kolor nieba</row>
-      <row important_over="never">Ale także rdzawy pył gorzkich dni</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Jeszcze obok ciebie moje ramię</row>
-      <row important_over="never">A jednak szukamy się</row>
-      <row important_over="never">Może nie pójdziemy już razem</row>
-      <row important_over="never">Słowa z wolna tracą swój sens</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Kochać - jak to łatwo powiedzieć</row>
-      <row important_over="never">Kochać - to nie pytać o nic</row>
-      <row important_over="never">Bo miłość jest niewiadomą</row>
-      <row important_over="never">Lecz chcę wiedzieć, czy wiary starczy mi</row>
-    </block>
-  </lyric>
+	<alias/>
+	<text_author type="solo">Andrzej Tylczyński</text_author>
+	<comment/>
+	<composer type="solo">Andrzej Korzyński</composer>
+	<artist type="solo">Piotr Szczepanik</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">K<ch a="C"/>ochać – <ch a="G"/>jak to łatwo powiedz<ch a="C"/>ieć,<ch a="G"/></row>
+			<row important_over="true">K<ch a="C"/>ochać – <ch a="G"/>to nie pytać o n<ch a="C"/>ic,<ch a="C7"/></row>
+			<row important_over="true">B<ch a="F"/>o miłość jest niepok<ch a="C"/>oj<ch a="a"/>em,</row>
+			<row important_over="true">N<ch a="F"/>ie zna dni<ch a="G"/>a, który da się powtórz<ch a="C"/>yć.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">N<ch a="C"/>agle świat się mieści w twoich <ch a="G"/>oczach,</row>
+			<row important_over="true">J<ch a="F"/>uż nie wiem, czy cieb<ch a="C"/>ie zn<ch a="G"/>am,</row>
+			<row important_over="true">Chw<ch a="F"/>ile, kol<ch a="G"/>orowe przeźr<ch a="C"/>ocz<ch a="a"/>a</row>
+			<row important_over="true">Wi<ch a="F"/>ędną, sz<ch a="G"/>ybko zmienia je cz<ch a="C"/>as.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">K<ch a="C"/>ochać – <ch a="G"/>jak to łatwo powiedz<ch a="C"/>ieć,<ch a="G"/></row>
+			<row important_over="false">K<ch a="C"/>ochać – <ch a="G"/>tylko to, więcej n<ch a="C"/>ic,<ch a="C7"/></row>
+			<row important_over="false">W t<ch a="F"/>ym słowie jest kolor ni<ch a="C"/>eb<ch a="a"/>a,</row>
+			<row important_over="false">A<ch a="F"/>le t<ch a="G"/>akże rdzawy pył gorzkich dn<ch a="C"/>i.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">J<ch a="C"/>eszcze obok ciebie moje r<ch a="G"/>amię,</row>
+			<row important_over="false">A j<ch a="F"/>ednak szuk<ch a="C"/>amy si<ch a="G"/>ę,</row>
+			<row important_over="false">M<ch a="F"/>oże ni<ch a="G"/>e pójdziemy już r<ch a="C"/>az<ch a="a"/>em,</row>
+			<row important_over="false">Sł<ch a="F"/>owa z w<ch a="G"/>olna tracą swój s<ch a="C"/>ens.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">K<ch a="C"/>ochać – <ch a="G"/>jak to łatwo powiedz<ch a="C"/>ieć,<ch a="G"/></row>
+			<row important_over="false">K<ch a="C"/>ochać – <ch a="G"/>to nie pytać o n<ch a="C"/>ic,<ch a="C7"/></row>
+			<row important_over="false">B<ch a="F"/>o miłość jest niewiad<ch a="C"/>om<ch a="a"/>ą,</row>
+			<row important_over="false">L<ch a="F"/>ecz chcę wi<ch a="G"/>edzieć, czy wiary starczy m<ch a="C"/>i.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Piotr Szczepanik śpiewa</album>
+	<genre>Pop</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
