@@ -1,73 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Królowa Nadbałtyckich Raf">
-  <text_author type="solo">Artur Andrus</text_author>
-  <comment>Tonacja:     F</comment>
-  <composer type="solo">Artur Andrus</composer>
-  <artist type="solo">Artur Andrus</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true">Słodycz jego u<ch a="F"/>st <ch a="d"/></row>
-      <row important_over="true">Smakowała w ta<ch a="g"/>ńcu, <ch a="C"/></row>
-      <row important_over="false">Trochę gniótł <ch a="F"/>ją w biu<ch a="d"/>st</row>
-      <row important_over="false">Gruby, złoty ł<ch a="g"/>ańcuch <ch a="C"/></row>
-      <row important_over="false">On jej obi<ch a="F"/>ecał gwiazdkę <ch a="d"/>z nieba,</row>
-      <row important_over="true">Że zestrze<ch a="g"/>li sztuczny k<ch a="gis"/>wiat,</row>
-      <row important_over="true">Że po sezo<ch a="a"/>nie sprzeda k<ch a="d"/>ebab</row>
-      <row important_over="true">I że wyrus<ch a="g"/>zą razem w św<ch a="C"/>iat <ch a="C7"/></row>
-    </block>
-    <block type="chorus">
-      <bis times="2">
-        <row important_over="false"><ch a="F"/>Spójrzże na mnie e<ch a="d"/>jże,</row>
-        <row important_over="false"><ch a="g"/>No weźże płyńże do<ch a="C"/> mnie w pław</row>
-        <row important_over="false"><ch a="F"/>Ja ci się obejrzę!<ch a="d"/></row>
-        <row important_over="false"><ch a="g"/>Królowo Nadbałtyck<ch a="C"/>ich Raf </row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="false">Ona mu co dnia<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Muszli sznur nawleka,<ch a="g"/><ch a="C"/></row>
-      <row important_over="false">Mówi mu, <ch a="F"/><ch a="d"/></row>
-      <row important_over="false">że ma odlotowy siekacz<ch a="g"/><ch a="C"/></row>
-      <row important_over="false">Że kilogramów parę zgubi,<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Że pieniędzy będzie dość<ch a="g"/><ch a="gis"/></row>
-      <row important_over="false">I że jej mąż go też polubi,<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">Bo w sumie to w porządku gość<ch a="g"/><ch a="C"/><ch a="C7"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">Chociaż trochę żal...<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Skończy się, jak zwykle<ch a="g"/><ch a="C"/></row>
-      <row important_over="false">On odjedzie w dal <ch a="F"/><ch a="d"/></row>
-      <row important_over="false">czarnym motocyklem<ch a="g"/><ch a="C"/></row>
-      <row important_over="false">Jeszcze go kiedyś spotka w windzie<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">I bez emocji da mu w twarz,<ch a="g"/><ch a="gis"/></row>
-      <row important_over="false">Bo przecież wie, że on gdzie indziej<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">Na setkach innych polskich plaż<ch a="g"/><ch a="C"/><ch a="C7"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="false">Spójrzże na mnie ejże,<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">No weźże płyńże do mnie w pław<ch a="g"/><ch a="C"/></row>
-      <row important_over="false">Ja ci się obejrzę!<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Królowo Podkarpackich Raf<ch a="g"/><ch a="C"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="false">Spójrzże na mnie ejże<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">No weźże płyńże do mnie w pław,<ch a="g"/><ch a="C"/></row>
-      <bis times="4">
-        <row important_over="false">Ja ci się obejrzę!<ch a="F"/><ch a="d"/></row>
-        <row important_over="false">Królowo {Świętokrzyskich | Mazowieckich | Warmińsko-Mazurskich | Górnośląskich} Raf...<ch a="g"/><ch a="C"/></row>
-      </bis>
-    </block>
-    <block type="chorus">
-      <row important_over="false">Ja ci się obejrzę...<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Ja ci się obejrzę!<ch a="F"/><ch a="d"/></row>
-      <row important_over="false">Królowo Białowieskich Raf...<ch a="g"/><ch a="C"/></row>
-    </block>
-  </lyric>
-  <keywords/>
-  <genre>Piosenka kabaretowa</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Królowa nadbałtyckich raf">
+	<alias/>
+	<text_author type="solo">Artur Andrus</text_author>
+	<comment>Muzykę skomponował Łukasz Borowiecki. Utwór pochodzi z bestsellerowego albumu Artura Andrusa „Myśliwiecka” (2012).</comment>
+	<composer type="solo">Łukasz Borowiecki</composer>
+	<artist type="solo">Artur Andrus</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Słodycz jego u<ch a="F"/>st <ch a="d"/></row>
+			<row important_over="true">smakowała w ta<ch a="g"/>ńcu, <ch a="C"/></row>
+			<row important_over="true">trochę gniótł <ch a="F"/>ją w biu<ch a="d"/>st</row>
+			<row important_over="true">gruby, złoty ł<ch a="g"/>ańcuch. <ch a="C"/></row>
+			<row important_over="true">On jej obi<ch a="F"/>ecał gwiazdkę <ch a="d"/>z nieba,</row>
+			<row important_over="true">że zestrze<ch a="g"/>li sztuczny <ch a="gis"/>kwiat,</row>
+			<row important_over="true">że po sezo<ch a="a"/>nie sprzeda k<ch a="d"/>ebab</row>
+			<row important_over="true">i że wyrus<ch a="g"/>zą razem w św<ch a="C"/>iat... <ch a="C7"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true"><ch a="F"/>Spójrzże na mnie, e<ch a="d"/>jże,</row>
+				<row important_over="true"><ch a="g"/>no weźże, płyńże do<ch a="C"/> mnie wpław,</row>
+				<row important_over="true"><ch a="F"/>ja ci się obejrzę,<ch a="d"/></row>
+				<row important_over="true"><ch a="g"/>Królowo nadbałtyck<ch a="C"/>ich raf!</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ona mu co <ch a="F"/>dnia <ch a="d"/></row>
+			<row important_over="false">muszli sznur naw<ch a="g"/>leka, <ch a="C"/></row>
+			<row important_over="false">mówi mu, że <ch a="F"/>ma <ch a="d"/></row>
+			<row important_over="false">odlotowy si<ch a="g"/>ekacz, <ch a="C"/></row>
+			<row important_over="false">że kilogramów pa<ch a="F"/>rę zgu<ch a="d"/>bi,</row>
+			<row important_over="false">że pieniędzy bę<ch a="g"/>dzie do<ch a="gis"/>ść</row>
+			<row important_over="false">i że jej mąż go te<ch a="a"/>ż polu<ch a="d"/>bi,</row>
+			<row important_over="false">bo w sumie to w po<ch a="g"/>rządku go<ch a="C"/>ść. <ch a="C7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Chociaż trochę <ch a="F"/>żal... <ch a="d"/></row>
+			<row important_over="false">Skończy się jak z<ch a="g"/>wykle, <ch a="C"/></row>
+			<row important_over="false">on odjedzie <ch a="F"/>w dal <ch a="d"/></row>
+			<row important_over="false">czarnym motocy<ch a="g"/>klem, <ch a="C"/></row>
+			<row important_over="false">jeszcze go kiedyś spot<ch a="F"/>ka w win<ch a="d"/>dzie</row>
+			<row important_over="false">i bez emocji da <ch a="g"/>mu w tw<ch a="gis"/>arz,</row>
+			<row important_over="false">bo przecież wie, że on <ch a="a"/>gdzie in<ch a="d"/>dziej</row>
+			<row important_over="false">na setkach innych pol<ch a="g"/>skich pl<ch a="C"/>aż... <ch a="C7"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="F"/>Spójrzże na mnie, e<ch a="d"/>jże,</row>
+			<row important_over="false"><ch a="g"/>no weźże, płyńże do<ch a="C"/> mnie wpław,</row>
+			<row important_over="false"><ch a="F"/>ja ci się obejrzę,<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo podkarpack<ch a="C"/>ich raf!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="F"/>Spójrzże na mnie, e<ch a="d"/>jże,</row>
+			<row important_over="false"><ch a="g"/>no weźże, płyńże do<ch a="C"/> mnie wpław,</row>
+			<row important_over="false"><ch a="F"/>ja ci się obejrzę,<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo świętokrzysk<ch a="C"/>ich raf...</row>
+			<row important_over="false"><ch a="F"/>Ja ci się obejrzę,<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo mazowieck<ch a="C"/>ich raf...</row>
+			<row important_over="false"><ch a="F"/>Ja ci się obejrzę,<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo warmińsko-mazursk<ch a="C"/>ich raf...</row>
+			<row important_over="false"><ch a="F"/>Ja ci się obejrzę,<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo górnośląsk<ch a="C"/>ich raf...</row>
+			<row important_over="false"><ch a="F"/>Ja ci się obejrzę...<ch a="d"/></row>
+			<row important_over="false"><ch a="F"/>Ja ci się obejrzę!<ch a="d"/></row>
+			<row important_over="false"><ch a="g"/>Królowo białowiesk<ch a="C"/>ich raf...</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>kabaret</keyword>
+		<keyword>Trójka</keyword>
+		<keyword>Myśliwiecka</keyword>
+	</keywords>
+	<album>Myśliwiecka</album>
+	<genre>Piosenka kabaretowa</genre>
+	<status>
+		<verificators>
+			<verificator>PT</verificator>
+		</verificators>
+		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<music_source/>
 </song>
