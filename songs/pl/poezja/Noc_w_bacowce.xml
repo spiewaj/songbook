@@ -1,57 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Noc w bacówce">
-	<artist type="solo"></artist>
+	<alias>Dorwały nas deszczem</alias>
+	<text_author type="solo">Wiesław Buchcic</text_author>
+	<composer type="solo">Ryszard Pomorski</composer>
+	<artist type="band">Wołosatki</artist>
+	<album>Wołosatki... BIS</album>
+	<genre>piosenka turystyczna</genre>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="true">P<ch a="a7"/>orwały nas deszczem,</row>
+			<row important_over="true">D<ch a="a7"/>orwały nas deszczem,</row>
 			<row important_over="true"><ch a="d"/> Przegoniły wi<ch a="E"/>atrem</row>
 			<row important_over="true">I zdały na si<ch a="a"/>ebie.</row>
 			<row important_over="true">W przygodnym nam d<ch a="a"/>omu</row>
 			<row important_over="true">Miejsca nie zagrz<ch a="d"/>ały,</row>
-			<row important_over="true">W tym g<ch a="E"/>órskim niby ni<ch a="a"/>ebie<ch a="A7"/>.</row>
+			<row important_over="true">W tym g<ch a="E"/>órskim niby ni<ch a="a"/>ebie.<ch a="A7"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true">I dzi<ch a="d"/>ury w tym niebie</row>
 				<row important_over="true">Wi<ch a="G7"/>atrem łat<ch a="C"/>ane,</row>
-				<row important_over="true"><ch a="d"/> W bacówce t<ch a="E"/>ylko my s<ch a="a"/>ami<ch a="A7"/>.</row>
-				<row important_over="true">I n<ch a="d"/>ic nie mówimy</row>
-				<row important_over="true">T<ch a="E"/>ylko dotyk r<ch a="a"/>ęki</row>
+				<row important_over="true"><ch a="d"/> W bacówce t<ch a="E"/>ylko my s<ch a="a"/>ami.<ch a="A7"/></row>
+				<row important_over="true">I n<ch a="d"/>ic nie mówimy,</row>
+				<row important_over="true">T<ch a="E"/>ylko dotyk r<ch a="a"/>ęki,</row>
 				<row important_over="true">By nie psuć chw<ch a="H7"/>il,</row>
-				<row important_over="true">Co przed n<ch a="F"/>a<ch a="E"/>m<ch a="a"/>i</row>
+				<row important_over="true">Co przed n<ch a="F"/>a<ch a="E"/>m<ch a="a"/>i.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="true">A mrok - sprzymierzeniec<ch a="a7"/><ch a="F7"/></row>
-			<row important_over="true">Przygarnął mi Ciebie,<ch a="E"/></row>
-			<row important_over="true">Ciepło - Twoje ręce.<ch a="E"/><ch a="a"/><ch a="d"/><ch a="E7"/></row>
-			<row important_over="true">(Ech) stara bacówko<ch a="a"/><ch a="F"/></row>
-			<row important_over="true">Niebo w nas się rodzi,<ch a="F"/></row>
-			<row important_over="false">Przyjaźń czy coś więcej.<ch a="E"/><ch a="a"/><ch a="A7"/></row>
+			<row important_over="false">A mr<ch a="a7"/>ok – sprzymierz<ch a="F7"/>eniec</row>
+			<row important_over="false">Przygarnął mi Ci<ch a="E"/>ebie,</row>
+			<row important_over="false">Ci<ch a="a"/>epło – Twoje r<ch a="d"/>ęc<ch a="E7"/>e.</row>
+			<row important_over="false">Ech, st<ch a="a"/>ara bac<ch a="F"/>ówko,</row>
+			<row important_over="false">Niebo w nas się r<ch a="F"/>odzi,</row>
+			<row important_over="false">Przyjaźń czy coś wi<ch a="E"/>ęc<ch a="a"/>ej.<ch a="A7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	<music>
+	<music metre="4/4">
 		<guitar/>
 	</music>
 	<status>
-		<verificators><verificator>Onufry</verificator>
-			
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>https://wolosatki.pl/piosenki/noc-w-bacowce/</verificator>
+			<verificator>https://spiewnik.wywrota.pl/wolosatki/noc-w-bacowce</verificator>
 		</verificators>
 		<done>
+			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<to_do></to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
 </song>
