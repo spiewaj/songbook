@@ -1,35 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Łabędzi puch">
-  <artist>Wolna Grupa Bukowina</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="h"/>Z monoklem w oku, <ch a="Fis"/>w podróż do wód</row>
-      <row important_over="true"><ch a="a"/>Ze śpiewem opon <ch a="E"/>po nitkach dróg</row>
-      <row important_over="true"><ch a="A"/>W salach lustrzanych po <ch a="D7+"/>świt, blady świt wielki b<ch a="cis"/>al.<ch a="Fis"/></row>
-      <row important_over="false">Białym latawcem w górę do gwiazd<ch a="h"/><ch a="Fis"/></row>
-      <row important_over="false">Chmurką z dmuchawca do ptasich gniazd<ch a="a"/><ch a="E"/></row>
-      <row important_over="false">Może jutro, lecz dziś, dziś wszystko mam.<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="true"><ch a="a6/9"/>Niezmiennie kołysz mni<ch a="a7/9"/>e</row>
-      <row important_over="false"><ch a="a6/9"/>Bezsennie kołysz <ch a="a7/9"/>mnie</row>
-      <row important_over="true"><ch a="h"/>Za ścianą pijany<ch a="E6"/> świat w koło kręci się<ch a="cis"/><ch a="Fis"/></row>
-      <row important_over="never">Niezmiennie kołysz mnie</row>
-      <row important_over="never">Bezsennie kołysz mnie</row>
-      <row important_over="never">W różowy, tęczowy niesiony wiatrem mknie</row>
-        <bis times="3">
-      <row important_over="never">Lekki łabędzi puch</row>
-            </bis>
-      <row important_over="never">W nim ja.</row>
-    </block>
-    <block type="verse">
-      <row important_over="false">Z twarzą w ekranie w nudę i fałsz<ch a="h"/><ch a="Fis"/></row>
-      <row important_over="false">W mydlanej pianie ulicznych plansz<ch a="a"/><ch a="E"/></row>
-      <row important_over="false">W piesko niebieski, w rzuciki w krzyżyki ten raj<ch a="A"/><ch a="D7+"/><ch a="cis"/><ch a="Fis"/></row>
-      <row important_over="never">W święta kolęda, przyjęcia raut</row>
-      <row important_over="never">Porannej twarzy wytworny kształt</row>
-      <row important_over="never">Kłębi się wczoraj, lecz ty, ty chwilo trwaj.</row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
+	<alias/>
+	<text_author type="solo">Wojciech Jarociński</text_author>
+	<comment/>
+	<composer type="solo">Wojciech Jarociński</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="h"/>Z monoklem w oku, <ch a="Fis"/>w podróż do wód,</row>
+			<row important_over="true"><ch a="a"/>Ze śpiewem opon <ch a="E"/>po nitkach dróg,</row>
+			<row important_over="true"><ch a="A"/>W salach lustrzanych po <ch a="D7+"/>świt, blady świt wielki b<ch a="cis"/>al.<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>Białym latawcem <ch a="Fis"/>w górę do gwiazd,</row>
+			<row important_over="false"><ch a="a"/>Chmurką z dmuchawca <ch a="E"/>do ptasich gniazd,</row>
+			<row important_over="false"><ch a="A"/>Może jutro, lecz dziś, <ch a="D7+"/>dziś wszystko m<ch a="cis"/>am.<ch a="Fis"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="a6/9"/>Niezmiennie kołysz mni<ch a="a7/9"/>e,</row>
+			<row important_over="false"><ch a="a6/9"/>Bezsennie kołysz <ch a="a7/9"/>mnie,</row>
+			<row important_over="true"><ch a="h"/>Za ścianą pijany <ch a="E6"/>świat w koło kręci si<ch a="cis"/>ę.<ch a="Fis"/></row>
+			<row important_over="false"><ch a="a6/9"/>Niezmiennie kołysz mni<ch a="a7/9"/>e,</row>
+			<row important_over="false"><ch a="a6/9"/>Bezsennie kołysz <ch a="a7/9"/>mnie,</row>
+			<row important_over="false"><ch a="h"/>W różowy, tęczowy, <ch a="E6"/>niesiony wiatrem mkn<ch a="cis"/>ie<ch a="Fis"/></row>
+			<bis times="3">
+				<row important_over="never">Lekki łabędzi puch,</row>
+			</bis>
+			<row important_over="never">W nim ja.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="h"/>Z twarzą w ekranie, <ch a="Fis"/>w nudę i fałsz,</row>
+			<row important_over="false"><ch a="a"/>W mydlanej pianie <ch a="E"/>ulicznych plansz,</row>
+			<row important_over="false"><ch a="A"/>W piesko-niebieski, w rzuc<ch a="D7+"/>iki, w krzyżyki ten r<ch a="cis"/>aj.<ch a="Fis"/></row>
+			<row important_over="false"><ch a="h"/>W święta kolęda, <ch a="Fis"/>przyjęcia, raut,</row>
+			<row important_over="false"><ch a="a"/>Porannej twarzy <ch a="E"/>wytworny kształt,</row>
+			<row important_over="false"><ch a="A"/>Kłębi się wczoraj, lecz t<ch a="D7+"/>y, ty chwilo trw<ch a="cis"/>aj.<ch a="Fis"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Sad</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
