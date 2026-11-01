@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pędziwiatr">
   <alias>Idę z wiatrem poprzez świat</alias>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment>Tradycyjna piosenka harcerska i wędrownicza.</comment>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Idę z wiatrem poprzez świat, <ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">idę tam gdzie hula wiatr. <ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Tam gdzie oczy niosą mnie, <ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">tam gdzie licho tylko wie. <ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="never">Idę z moim wiatrem hen, <ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">choć ludziska patrzą źle. <ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Bom ja przecież pędziwiatr, <ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">dla takiego miejsca brak. <ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="true" sidechords="G D e"><ch a="G"/>Idę z wi<ch a="D"/>atrem poprzez świ<ch a="e"/>at,</row>
+      <row important_over="true" sidechords="C D e"><ch a="C"/>idę t<ch a="D"/>am, gdzie hula wi<ch a="e"/>atr.</row>
+      <row important_over="true" sidechords="G D e"><ch a="G"/>Tam, gdzie <ch a="D"/>oczy niosą mn<ch a="e"/>ie,</row>
+      <row important_over="true" sidechords="C D G"><ch a="C"/>tam, gdzie l<ch a="D"/>icho tylko wi<ch a="G"/>e.</row>
+      <row important_over="true" sidechords="G D e"><ch a="G"/>Idę z m<ch a="D"/>oim wiatrem h<ch a="e"/>en,</row>
+      <row important_over="true" sidechords="C D e"><ch a="C"/>choć ludz<ch a="D"/>iska patrzą źl<ch a="e"/>e.</row>
+      <row important_over="true" sidechords="G D e"><ch a="G"/>Bom ja prz<ch a="D"/>ecie pędziwi<ch a="e"/>atr,</row>
+      <row important_over="true" sidechords="C D G"><ch a="C"/>dla tak<ch a="D"/>iego miejsca br<ch a="G"/>ak.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">A ty wiej, wiej, wietrze mój <ch a="C"/><ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="never">jam przyjaciel twój. <ch a="C"/><ch a="D"/><ch a="G"/></row>
+      <row important_over="true" sidechords="C D G e"><ch a="C"/>A ty wi<ch a="D"/>ej, wiej, wi<ch a="G"/>etrze m<ch a="e"/>ój,</row>
+      <row important_over="true" sidechords="C D G"><ch a="C"/>jam przyj<ch a="D"/>aciel tw<ch a="G"/>ój.</row>
     </block>
     <block type="verse">
       <row important_over="never" sidechords="G D e">Na gitarze sobie gram,</row>
@@ -28,9 +32,9 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G D e">A gdy skończe drogę swą,</row>
+      <row important_over="never" sidechords="G D e">A gdy skończę drogę swą,</row>
       <row important_over="never" sidechords="C D e">gdy zaginie po mnie ślad.</row>
-      <row important_over="never" sidechords="G D e">Ty mój wietrze dalej wiej,</row>
+      <row important_over="never" sidechords="G D e">Ty, mój wietrze, dalej wiej,</row>
       <row important_over="never" sidechords="C D G">czasem tylko wspomnij mnie.</row>
       <row important_over="never" sidechords="G D e">Czasem zagwiżdż w polu gdzieś,</row>
       <row important_over="never" sidechords="C D e">czasem pogłaszcz stary sad.</row>
@@ -39,10 +43,19 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/harcerskie/pedziwiatr</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
