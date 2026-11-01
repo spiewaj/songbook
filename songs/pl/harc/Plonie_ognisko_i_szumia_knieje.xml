@@ -1,48 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Płonie ognisko i szumią knieje">
-	<artist type="solo"/>
+	<alias>Ognisko</alias>
+	<text_author type="solo">Jerzy Braun</text_author>
+	<comment>Pieśń powstała na przełomie 1918 i 1919 roku w Tarnowie. Wydrukowana po raz pierwszy w miesięczniku „Czuwaj” w 1920 r. Jedna z najpopularniejszych tradycyjnych pieśni harcerskich.</comment>
+	<composer type="solo">Jerzy Braun</composer>
+	<artist type="band">Związek Harcerstwa Polskiego</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">Płonie ognisko i szumią knieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="true">Drużynowy jest wśród nas<ch a="g"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="false">Opowiada starodawne dzieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="true">Bohaterski wskrzesza czas<ch a="g"/>g A<ch a="A7"/>7 d<ch a="d"/><ch a="C"/></row>
+			<row important_over="true">Pł<ch a="d"/>onie ognisko i sz<ch a="A7"/>umią kni<ch a="d"/>eje,</row>
+			<row important_over="true">Dr<ch a="g"/>użyn<ch a="A7"/>owy jest wśród n<ch a="d"/>as,</row>
+			<row important_over="true">Op<ch a="d"/>owiada starod<ch a="A7"/>awne dzi<ch a="d"/>eje,</row>
+			<row important_over="true">Boh<ch a="g"/>aterski wskrz<ch a="A7"/>esza cz<ch a="d"/>as.<ch a="C"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">O rycerstwie spod kresowych granic<ch a="F"/><ch a="C"/></row>
-			<row important_over="true">O obrońcach naszych polskich granic<ch a="g"/><ch a="A7"/><ch a="d"/><ch a="A7"/></row>
-			<row important_over="false">A ponad nami wiatr szumny wieje<ch a="d"/><ch a="A7"/><ch a="d"/></row>
-			<row important_over="true">I dębowy huczy <ch a="A7"/>las<ch a="g"/><ch a="d"/><ch a="C"/></row>
+			<row important_over="true">O ryc<ch a="F"/>erstwie spod kresowych st<ch a="C"/>anic,</row>
+			<row important_over="true">O obr<ch a="g"/>ońcach n<ch a="A7"/>aszych polskich gr<ch a="d"/>anic,<ch a="A7"/></row>
+			<row important_over="true">A pon<ch a="d"/>ad nami wiatr sz<ch a="A7"/>umny wi<ch a="d"/>eje</row>
+			<row important_over="true">I dęb<ch a="g"/>owy h<ch a="A7"/>uczy l<ch a="d"/>as.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Już do odwrotu głos trąbki wzywa</row>
-			<row important_over="never">Alarmując ze wszech stron</row>
-			<row important_over="never">Wstaje wiara w ordynku szczęśliwa</row>
-			<row important_over="never">Serca biją zgodny ton</row>
+			<row important_over="false">J<ch a="d"/>uż do odwrotu głos tr<ch a="A7"/>ąbki wz<ch a="d"/>ywa,</row>
+			<row important_over="false">Al<ch a="g"/>arm<ch a="A7"/>ując ze wszech str<ch a="d"/>on,</row>
+			<row important_over="false">St<ch a="d"/>aje wiara w ord<ch a="A7"/>ynku szczęśl<ch a="d"/>iwa,</row>
+			<row important_over="false">S<ch a="g"/>erca b<ch a="A7"/>iją w zgodny t<ch a="d"/>on.<ch a="C"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Każda twarz się w uniesieniu płoni</row>
-			<row important_over="never">Każdy laskę krzepko dzierży w dłoni</row>
-			<row important_over="never">A z młodzieńczej się piersi wyrywa</row>
-			<row important_over="never">Pieśń potężna, pieśń jak dzwon.</row>
+			<row important_over="false">K<ch a="F"/>ażda twarz się uniesieniem pł<ch a="C"/>oni,</row>
+			<row important_over="false">K<ch a="g"/>ażdy l<ch a="A7"/>askę krzepko dzierży w dł<ch a="d"/>oni,<ch a="A7"/></row>
+			<row important_over="false">A z mł<ch a="d"/>odzieńczej się pi<ch a="A7"/>ersi wyr<ch a="d"/>ywa</row>
+			<row important_over="false">Pi<ch a="g"/>eśń pot<ch a="A7"/>ężna, pieśń jak dzw<ch a="d"/>on.</row>
 		</block>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
+	<keywords>
+		<keyword>harcerstwo</keyword>
+		<keyword>ZHP</keyword>
+		<keyword>ognisko</keyword>
+	</keywords>
+	<genre>Piosenka harcerska</genre>
 	<status>
-		<verificators/>
-		<done/>
+		<verificators>
+			<verificator>PT</verificator>
+		</verificators>
 		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
 	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
 </song>
