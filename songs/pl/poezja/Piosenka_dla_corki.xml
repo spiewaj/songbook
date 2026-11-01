@@ -1,44 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla córki">
-    <alias/>
-    <text_author type="solo">Krzysztof Kasprzyk</text_author>
-    <comment/>
-    <composer type="solo">Maciej Pietrzyk</composer>
-    <artist type="solo">Maciej Pietrzyk</artist>
-    <translator/>
-    <original_title/>    
-<lyric>
-
-<block type="verse">
-<row important_over="true">Nie mam <ch a="a"/>teraz czasu dla Ciebie</row>
-<row important_over="true">nie <ch a="e"/>widziała Cię długo matka</row>
-<row important_over="true">jeszcze <ch a="a"/>trochę poczekaj dorośnij</row>
-<row important_over="true">opo<ch a="e"/>wiemy Ci o tych wypadkach</row>
-</block>
-
-<block type="verse">
-<row important_over="true">O tych <ch a="C"/>dniach pełnych nadziei</row>
-<row important_over="never">pełnych rozmów i sporów gorących</row>
-<row important_over="true">o tych <ch a="G"/>nocach kiepsko przespanych</row>
-<row important_over="true">naszych <ch a="e"/>sercach mocno bi<ch a="a"/>jących</row>
-</block>
-
-<block type="verse">
-<row important_over="true">O tych <ch a="C"/>ludziach którzy poczuli</row>
-<row important_over="never">że są wreszcie teraz u siebie</row>
-<row important_over="true">soli<ch a="G"/>darnie walczą o dzisiaj</row>
-<row important_over="false">i o <ch a="e"/>jutro także dla <ch a="a"/>Ciebie</row>
-</block>
-
-<block type="verse">
-<row important_over="true">Więc się <ch a="C"/>nie smuć i czekaj cierpliwie</row>
-<row important_over="true">aż po<ch a="a"/>wrócisz w nasze objęcia</row>
-<row important_over="true">w naszym <ch a="G"/>domu który nie istniał</row>
-<row important_over="true">bo w nim <ch a="e"/>brak było…</row>
-<row important_over="true">prawdziwego sz<ch a="a"/>częścia.</row>
-</block>
-
-</lyric>                                                                                            
+	<alias>Nie mam teraz czasu dla Ciebie</alias>
+	<text_author type="solo">Krzysztof Kasprzyk</text_author>
+	<comment>Hymn strajkowy Sierpnia '80 w Stoczni Gdańskiej. Tekst napisany przez poetę i dziennikarza Krzysztofa Kasprzyka dla dwuletniej córki Klementyny, muzyka skomponowana przez aktora Macieja Pietrzyka.</comment>
+	<composer type="solo">Maciej Pietrzyk</composer>
+	<artist type="solo">Maciej Pietrzyk</artist>
+	<translator></translator>
+	<original_title></original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Nie mam <ch a="a"/>teraz czasu dla Ciebie,</row>
+			<row important_over="true">nie wi<ch a="e"/>działa Cię długo matka,</row>
+			<row important_over="false">jeszcze <ch a="a"/>trochę poczekaj, dorośnij,</row>
+			<row important_over="false">opo<ch a="e"/>wiemy Ci o tych wypadkach.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">O tych <ch a="C"/>dniach pełnych nadziei,</row>
+			<row important_over="true">pełnych <ch a="G"/>rozmów i sporów gorących,</row>
+			<row important_over="false">o tych <ch a="G"/>nocach kiepsko przespanych,</row>
+			<row important_over="true">w naszych <ch a="e"/>sercach mocno bi<ch a="a"/>jących.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">O tych <ch a="C"/>ludziach, którzy poczuli,</row>
+			<row important_over="false">że są <ch a="G"/>wreszcie teraz u siebie,</row>
+			<row important_over="false">soli<ch a="G"/>darnie walczą o dzisiaj</row>
+			<row important_over="false">i o <ch a="e"/>jutro także dla <ch a="a"/>Ciebie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Więc się <ch a="C"/>nie smuć i czekaj cierpliwie,</row>
+			<row important_over="true">aż po<ch a="a"/>wrócisz w nasze objęcia,</row>
+			<row important_over="false">w naszym <ch a="G"/>domu, który nie istniał,</row>
+			<row important_over="false">bo w nim <ch a="e"/>brak było…</row>
+			<row important_over="false">prawdziwego sz<ch a="a"/>częścia.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators/>
+		<to_do></to_do>
+	</status>
+	<music_source>Pieśń strajkowa Sierpnia '80 (Stocznia Gdańska, film „Robotnicy '80”)</music_source>
 </song>
-
-
