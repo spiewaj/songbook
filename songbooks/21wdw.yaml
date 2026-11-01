@@ -264,7 +264,6 @@ songbook:
   - glob: songs/pl/poezja/katarynka.xml
   - glob: songs/pl/poezja/kiedymiwesolo.xml
   - glob: songs/pl/poezja/kiedy_mowisz.xml
-  - glob: songs/pl/poezja/Kiedy_w_piatek.xml
   - glob: songs/pl/poezja/Kim_wlasciwie_byla_ta_piekna_pani_ktora_pewnego_wieczoru_w_mojej_samotni_mnie_odwiedzila.xml
   - glob: songs/pl/pop/king.xml
   - glob: songs/pl/poezja/Klasowka_z_fragmentu_wolnosci.xml
