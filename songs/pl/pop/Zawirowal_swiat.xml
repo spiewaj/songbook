@@ -21,17 +21,17 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Królowa śniegu srebrnym welonem swym</row>
-      <row important_over="never">Przykryła prawie świat cały,</row>
-      <row important_over="never">Wystawić nos poza domu próg</row>
-      <row important_over="never">To wyczyn nie lada śmiały.</row>
+      <row important_over="false">Królowa śniegu srebrnym <ch a="D"/>welonem swym <ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Przykryła prawie świat <ch a="D"/>cały,</row>
+      <row important_over="false">Wy<ch a="D"/>stawić nos poza <ch a="e"/>domu próg, <ch a="G"/></row>
+      <row important_over="false">To wyczyn nie lada <ch a="D"/>śmiały.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Szare poranki i krótkie dni</row>
-      <row important_over="never">Każde z nas ma dziś tylko dla siebie,</row>
-      <row important_over="never">Tysiąc listów strawił pieca żar,</row>
-      <row important_over="never">W tym dwieście pięćdziesiąt od Ciebie.</row>
+      <row important_over="false">Szare poranki i <ch a="D"/>krótkie dni, <ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Każde z nas ma dziś tylko dla <ch a="D"/>siebie,</row>
+      <row important_over="false"><ch a="D"/>Tysiąc listów strawił <ch a="e"/>pieca żar, <ch a="G"/></row>
+      <row important_over="false">W tym dwieście pięćdziesiąt od <ch a="D"/>Ciebie.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
