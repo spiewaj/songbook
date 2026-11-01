@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marchewkowe pole">
-	<artist type="solo">Lady Pank</artist>
+	<alias>Wszystko się może zdarzyć</alias>
+	<text_author type="solo">Andrzej Mogielnicki</text_author>
+	<comment>Piosenka zespołu Lady Pank ze ścieżki dźwiękowej do filmu animowanego „O dwóch takich, co ukradli księżyc” (1986).</comment>
+	<composer type="solo">Jan Borysewicz</composer>
+	<artist type="band">Lady Pank</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Marchewkowe pole rośnie wokół mnie</row>
-			<row important_over="never">W marchewkowym</row>
-			<row important_over="never">Polu jak warzywo tkwię</row>
-			<row important_over="never">Głową na dół</row>
-			<row important_over="never">Zakopany niczym struś</row>
-			<row important_over="never">Chcesz mnie spotkać</row>
-			<row important_over="never">Głowę obok w ziemię włóż</row>
+			<row important_over="true"><ch a="D"/>Marchew<ch a="A"/>kowe <ch a="F"/>pole <ch a="G"/>rośnie wokół <ch a="D"/>mnie,</row>
+			<row important_over="false"><ch a="D"/>w marchew<ch a="A"/>kowym <ch a="F"/>polu <ch a="G"/>jak warzywo <ch a="D"/>tkwię,</row>
+			<row important_over="false"><ch a="D"/>głową <ch a="A"/>na dół, <ch a="F"/>zako<ch a="G"/>pany niczym <ch a="D"/>struś,</row>
+			<row important_over="false"><ch a="D"/>chcesz mnie <ch a="A"/>spotkać, <ch a="F"/>głowę <ch a="G"/>obok w ziemię <ch a="D"/>włóż!</row>
 		</block>
-		<block type="chorus"><bis times="2">
-				<row important_over="never">Wszystko się może zdarzyć</row></bis>
+		<block type="chorus">
+			<bis times="4">
+				<row important_over="true"><ch a="D"/>Wszystko <ch a="A"/>się może <ch a="e"/>zdarzyć.<ch a="B"/></row>
+			</bis>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr">
-				<ch a="D"/><ch a="A"/><ch a="G"/><ch a="F"/><ch a="G"/></row>
+			<row important_over="false" style="instr"><ch a="D"/><ch a="A"/><ch a="F"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Marchewkowe</row>
-			<row important_over="never">O ogrodzie miewam sny</row>
-			<row important_over="never">W marchewkowym</row>
-			<row important_over="never">Stanie jest najlepiej mi</row>
-			<row important_over="never">Rosnę sobie</row>
-			<row important_over="never">Dołem głowa górą nać</row>
-			<row important_over="never">Kto mi powie</row>
-			<row important_over="never">Co się jeszcze może stać</row>
+			<row important_over="false"><ch a="D"/>Marchew<ch a="A"/>kowe <ch a="F"/>o ogr<ch a="G"/>odzie miewam <ch a="D"/>sny,</row>
+			<row important_over="false"><ch a="D"/>w marchew<ch a="A"/>kowym <ch a="F"/>stanie j<ch a="G"/>est najlepiej <ch a="D"/>mi,</row>
+			<row important_over="false"><ch a="D"/>rosnę s<ch a="A"/>obie: <ch a="F"/>dołem gł<ch a="G"/>owa, górą <ch a="D"/>nać,</row>
+			<row important_over="false"><ch a="D"/>kto mi p<ch a="A"/>owie, <ch a="F"/>co się j<ch a="G"/>eszcze może <ch a="D"/>stać?</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
+	<album>O dwóch takich, co ukradli księżyc</album>
+	<genre>rock</genre>
 	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/lady-pank/marchewkowe-pole</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
 </song>
