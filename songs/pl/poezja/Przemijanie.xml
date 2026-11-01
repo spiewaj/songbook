@@ -39,9 +39,7 @@
 	</music>
 	<genre>Piosenka turystyczna</genre>
 	<status>
-		<verificators>
-			<verificator>Piotr Tabernacki</verificator>
-		</verificators>
+		<verificators/>
 		<done>
 			<text/>
 			<authors/>
