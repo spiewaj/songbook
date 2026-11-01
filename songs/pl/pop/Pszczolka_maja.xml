@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pszczółka maja">
-  <artist>Zbigniew Wodecki</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">Jest gdzieś lecz nie wiadomo gdzie,<ch a="C"/><ch a="G"/></row>
-      <row important_over="never">świat w którym baśń ta dzieje się.<ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Malutka pszczółka mieszka w nim,<ch a="G"/></row>
-      <row important_over="never">Co wśród owadów wiedze prym<ch a="F"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Tę pszczółkę, którą tu widzicie zowią Mają.<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Wszyscy Maja znają i kochają<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Maja fruwa tu i tam<ch a="d"/></row>
-      <row important_over="never">Świat swój pokazując nam<ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Dziś spotka nas maleńka zwinna, pszczółka Maja<ch a="C"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Śmiała, sprytna, rezolutna Maja<ch a="G"/><ch a="C"/></row>
-      <row important_over="never">Mała zwinna przyjaciółka Maja<ch a="d"/></row>
-      <row important_over="never">Maju, cóż zobaczymy dziś.<ch a="C"/><ch a="G"/><ch a="C"/></row>
-    </block>
-  </lyric>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pszczółka Maja">
+	<alias>Jest gdzieś, lecz nie wiadomo gdzie</alias>
+	<text_author type="solo">Henryk Rostworowski</text_author>
+	<comment>Polska wersja czołówki serialu animowanego „Pszczółka Maja” (oryg. „Die Biene Maja”) w wykonaniu Zbigniewa Wodeckiego.</comment>
+	<composer type="solo">Karel Svoboda</composer>
+	<artist type="solo">Zbigniew Wodecki</artist>
+	<translator>Henryk Rostworowski</translator>
+	<original_title>Die Biene Maja</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="C"/>Jest gdzieś, lecz nie wiadomo <ch a="G"/>gdzie,</row>
+			<row important_over="true">św<ch a="F"/>iat, w którym baśń ta dzieje si<ch a="C"/>ę.</row>
+			<row important_over="false">M<ch a="C"/>alutka pszczółka mieszka w n<ch a="G"/>im</row>
+			<row important_over="false">i wi<ch a="F"/>edzie wśród owadów pr<ch a="C"/>ym.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">T<ch a="C"/>ę <ch a="F"/>pszczółk<ch a="G7"/>ę, kt<ch a="C"/>órą tu widzicie, zowią M<ch a="d"/>ają,</row>
+			<row important_over="true">wsz<ch a="G"/>yscy Maję znają i koch<ch a="C"/>ają.</row>
+			<row important_over="true">M<ch a="C"/>aja fruwa tu i t<ch a="d"/>am,</row>
+			<row important_over="true">św<ch a="G"/>iat swój pokazując n<ch a="C"/>am.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Dzi<ch a="C"/>ś <ch a="F"/>spotk<ch a="G7"/>a W<ch a="C"/>as maleńka, zwinna pszczółka M<ch a="d"/>aja,</row>
+			<row important_over="false">m<ch a="G"/>ała, śmiała, rezolutna M<ch a="C"/>aja,</row>
+			<row important_over="true">n<ch a="C"/>asza przyjaciółka M<ch a="F"/>aja.</row>
+			<row important_over="true">M<ch a="C"/>aju, cóż z<ch a="G"/>obacz<ch a="G7"/>ymy dz<ch a="C"/>iś?</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Pszczółka Maja</album>
+	<genre>filmowa</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-dla-dzieci/pszczolka-maja</verificator>
+		</verificators>
+	</status>
 </song>
