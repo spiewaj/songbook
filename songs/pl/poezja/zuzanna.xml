@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Zuzanna" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>W swe miejsce nad rzeką zabiera cię Zuzanna</alias>
 	<text_author type="solo">Leonard Cohen</text_author>
-	<comment></comment>
 	<composer type="solo">Leonard Cohen</composer>
 	<artist type="solo">Leonard Cohen</artist>
 	<translator>Maciej Zembaty</translator>
-	<original_title>Susanne</original_title>
+	<original_title>Suzanne</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">W swe mi<ch a="E"/>ejsce nad rzeką zabiera cię Zuzanna,</row>
@@ -15,8 +14,8 @@
 			<row important_over="true">Propon<ch a="gis"/>uje ci herbatę oraz ch<ch a="A"/>ińskie pomarańcze</row>
 			<row important_over="true">I gdy wł<ch a="E"/>aśnie chcesz powiedzieć, że nie m<ch a="fis"/>ożesz jej pokochać,</row>
 			<row important_over="true">Zmienia tw<ch a="E"/>oją długość fali i pozw<ch a="fis"/>ala mówić rzece, że się z<ch a="E"/>awsze w niej kochałeś.</row>
-			<row important_over="false">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
-			<row important_over="false">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
+			<row important_over="true">I już chc<ch a="gis"/>esz z nią powędrować, powędr<ch a="A"/>ować chcesz na oślep,</row>
+			<row important_over="true">Wiesz, że <ch a="E"/>ona ci zaufa, bowiem ci<ch a="fis"/>ała jej dotknąłeś myślą sw<ch a="E"/>ą.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Pan J<ch a="E"/>ezus był żeglarzem, gdy przechadzał się po wodzie,</row>
@@ -39,29 +38,21 @@
 			<row important_over="false">Wiesz, że m<ch a="E"/>ożna jej zaufać, bo dotkn<ch a="fis"/>ęła twego ciała myślą sw<ch a="E"/>ą.</row>
 		</block>
 	</lyric>
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
 	<album>Songs of Leonard Cohen</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
-			
-			
-			
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source>https://bibliotekapiosenki.pl/utwory/Zuzanna_(sl_L_Cohen_tlum_M_Zembaty)</music_source>
 </song>
