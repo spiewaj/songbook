@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kochana">
-  <text_author type="solo">Renata Przemyk</text_author>
-  <comment/>
-  <artist type="solo">Kasia Nosowska</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">Nie muszę pytać czy otworzysz <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Bo wiem że jeśli zjawię się <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">To w progu będziesz stać <ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">I zdejmę płaszcz podszyty lękiem <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Gdy przy mnie i przy nikim więcej <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Twoja jasna twarz <ch a="C"/><ch a="D"/><ch a="e"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never" sidechords="C D C e">Dajesz mi niepokorne myśli, niepokoje <ch a="C"/><ch a="e"/><ch a="C"/><ch a="e"/></row>
-      <row important_over="never">Tyle ich wciąż masz <ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never">Kochana! <ch a="e"/></row>
-      <row important_over="never">Nie myśl że <ch a="C"/><ch a="D"/></row>
-      <row important_over="never">Nie miniemy nigdy się choć łatwiej <ch a="e"/></row>
-      <row important_over="never">Razem iść pod wiatr <ch a="C"/><ch a="D"/><ch a="e"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Podtrzymywałaś moją głowę <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Nie roztrzaskałam skroni o podłogę <ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/></row>
-      <row important_over="never">Póki co <ch a="e"/></row>
-      <row important_over="never">Przed snem wypowiedz moje imię <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Przybędę wraz ze świtem <ch a="e"/><ch a="h"/></row>
-      <row important_over="never">Proszę nie śpij jestem już <ch a="C"/><ch a="D"/><ch a="e"/></row>
-    </block>
-  </lyric>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias>Nie muszę pytać, czy otworzysz</alias>
+	<text_author type="solo">Anna Saraniecka, Katarzyna Nosowska</text_author>
+	<comment>Duet Renaty Przemyk i Katarzyny Nosowskiej z albumu „Unikat” (2006).</comment>
+	<composer type="solo">Renata Przemyk</composer>
+	<artist type="solo">Renata Przemyk, Katarzyna Nosowska</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Nie muszę p<ch a="e"/>ytać, czy otw<ch a="h"/>orzysz,</row>
+			<row important_over="false">bo w<ch a="e"/>iem, że jeśli zj<ch a="h"/>awię się,</row>
+			<row important_over="true">to w pr<ch a="C"/>ogu b<ch a="D"/>ędziesz st<ch a="e"/>ać.</row>
+			<row important_over="false">I zdejmę pł<ch a="e"/>aszcz podszyty l<ch a="h"/>ękiem,</row>
+			<row important_over="false">gdy prz<ch a="e"/>y mnie i przy n<ch a="h"/>ikim więcej</row>
+			<row important_over="false">tw<ch a="C"/>oja j<ch a="D"/>asna tw<ch a="e"/>arz.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">D<ch a="C"/>ajesz mi niepok<ch a="D"/>orne myśli, ni<ch a="C"/>epok<ch a="e"/>oje,</row>
+			<row important_over="false">t<ch a="C"/>yle <ch a="D"/>ich wciąż m<ch a="e"/>asz.</row>
+			<row important_over="false">K<ch a="e"/>ochana!</row>
+			<row important_over="true">Ni<ch a="C"/>e myśl, ż<ch a="D"/>e</row>
+			<row important_over="true">nie miniemy nigdy si<ch a="e"/>ę, choć łatwiej</row>
+			<row important_over="false">r<ch a="C"/>azem <ch a="D"/>iść pod wi<ch a="e"/>atr.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Podtrzymyw<ch a="e"/>ałaś moją gł<ch a="h"/>owę,</row>
+			<row important_over="true">nie roztrzask<ch a="e"/>ałam skroni <ch a="h"/>o podłogę,<ch a="C"/><ch a="D"/></row>
+			<row important_over="false">p<ch a="e"/>óki co.</row>
+			<row important_over="false">Przed snem wyp<ch a="e"/>owiedz moje imi<ch a="h"/>ę,</row>
+			<row important_over="false">przyb<ch a="e"/>ędę wraz ze świt<ch a="h"/>em,</row>
+			<row important_over="false">proszę, nie śp<ch a="C"/>ij, j<ch a="D"/>estem j<ch a="e"/>uż.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Unikat</album>
+	<genre>pop</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/katarzyna-nosowska/kochana</verificator>
+		</verificators>
+	</status>
 </song>
