@@ -1,44 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ballada o smutnym skinie">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo">Big Cyc</artist>
-  <translator/>
-  <original_title/>
+  <alias>Nałóż czapkę skinie</alias>
+  <text_author type="solo">Krzysztof Skiba</text_author>
+  <comment>Piosenka zespołu Big Cyc z debiutanckiego albumu „Z partyjnym pozdrowieniem. 12 hitów w stylu lżejszym od kawałka sera” (1990).</comment>
+  <composer type="band">Jacek Jędrzejak, Roman Lechowicz, Jarosław Lis</composer>
+  <artist type="band">Big Cyc</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Skin jest całkiem łysy, włosków on nie nosi<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Glaca w słońcu błyszczy jakby kombajn kosił<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Pejsów nie ma skin, kitek nienawidzi<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Boją się go Rabi Murzyni i Żydzi<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Najgorsza dla skina jest co roku zima<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Jak on ją przetrzyma przecież włosków ni ma<ch a="G"/><ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Skin jest całkiem łysy, wł<ch a="G"/>osków on nie n<ch a="D"/>osi,</row>
+      <row important_over="false"><ch a="D"/>glaca w słońcu błyszczy, j<ch a="G"/>akby kombajn k<ch a="D"/>osił.</row>
+      <row important_over="false"><ch a="D"/>Pejsów nie ma skin, k<ch a="G"/>itek nienaw<ch a="D"/>idzi,</row>
+      <row important_over="false"><ch a="D"/>boją się go rabi, M<ch a="G"/>urzyni i Ż<ch a="D"/>ydzi.</row>
+      <row important_over="false"><ch a="D"/>Najgorsza dla skina j<ch a="G"/>est co roku z<ch a="D"/>ima,</row>
+      <row important_over="false"><ch a="D"/>jak on ją przetrzyma, prz<ch a="G"/>ecież włosków n<ch a="D"/>i ma!</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="e"/>Nałóż czapkę skinie, skinie nałóż czapkę<ch a="D"/><ch a="h"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Kiedy wicher wieje, gdy pogoda w kratkę<ch a="D"/><ch a="h"/><ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Uszka ci się przeziębią, kark zlodowacieje<ch a="A"/><ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="G"/>Resztki myśli z mózgu wiaterek przewieje<ch a="A"/><ch a="D"/><ch a="h"/></row>
+      <row important_over="true">N<ch a="e"/>ałóż czapkę skinie, skinie nałóż czapkę,</row>
+      <row important_over="true">ki<ch a="D"/>edy wicher wi<ch a="h"/>eje, gdy pogoda w kr<ch a="e"/>atkę.</row>
+      <row important_over="true">U<ch a="G"/>szka ci się przeziębią, k<ch a="A"/>ark zlodowaci<ch a="D"/>eje,<ch a="h"/></row>
+      <row important_over="false">r<ch a="G"/>esztki myśli z mózgu wi<ch a="A"/>aterek prz<ch a="D"/>ewieje.<ch a="h"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Mamusia na drutach czapkę z wełny robi<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Nałóż ją skinie gdy się ochłodzi<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Wełna główkę grzeje, ciepło jest pod czaszką<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>I komórki szare wówczas nie zamarzną<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Nasz skin był odważny, czapki nie nałożył<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Całą zimę biegał łysy, wiosny już nie dożył<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Główka mu zsiniała, uszka odmroziły<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Czaszka na pół pękła, szwy wewnątrz puściły<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Mamusia na drutach cz<ch a="G"/>apkę z wełny r<ch a="D"/>obi,</row>
+      <row important_over="false"><ch a="D"/>nałóż ją skinie, gd<ch a="G"/>y się ochł<ch a="D"/>odzi.</row>
+      <row important_over="false"><ch a="D"/>Wełna główkę grzeje, ci<ch a="G"/>epło jest pod cz<ch a="D"/>aszką</row>
+      <row important_over="false"><ch a="D"/>i komórki szare w<ch a="G"/>ówczas nie zam<ch a="D"/>arzną.</row>
+      <row important_over="false"><ch a="D"/>Nasz skin był odważny, cz<ch a="G"/>apki nie nał<ch a="D"/>ożył,</row>
+      <row important_over="false"><ch a="D"/>całą zimę biegał łysy, wi<ch a="G"/>osny już nie doż<ch a="D"/>ył.</row>
+      <row important_over="false"><ch a="D"/>Główka mu zsiniała, <ch a="G"/>uszka odmroz<ch a="D"/>iły,</row>
+      <row important_over="false"><ch a="D"/>czaszka na pół pękła, szw<ch a="G"/>y wewnątrz puśc<ch a="D"/>iły!</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Z partyjnym pozdrowieniem</album>
+  <genre>rock</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/big-cyc/ballada-o-smutnym-skinie</verificator>
+      <verificator>https://polskirock.eu/plyta/big-cyc-z-partyjnym-pozdrowieniem-12-hitow-w-stylu-lzejszym-od-kawalka-sera-cd0001/</verificator>
+    </verificators>
   </status>
 </song>
