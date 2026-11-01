@@ -1,57 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tak jak ptaki">
-  <text_author type="solo">]Piotr Łupina</text_author>
-  <comment>Piosenka pierwszy raz publicznie wykonana przez P.Łupine wraz zespołem: Wojciech Góralewicz, Sebastian Majer , Przemysław Palka, Maciej Jeż, Dorota Góralewicz, Anna Witkowska, Joanna Firek oraz Marta Kizior na festiwalu ZHP Trzepak 93 w Chełmku.</comment>
+  <text_author type="solo">Piotr Łupina</text_author>
+  <comment>Piosenka pierwszy raz publicznie wykonana przez P. Łupinę wraz z zespołem: Wojciech Góralewicz, Sebastian Majer, Przemysław Palka, Maciej Jeż, Dorota Góralewicz, Anna Witkowska, Joanna Firek oraz Marta Kizior na festiwalu ZHP Trzepak 93 w Chełmku.</comment>
   <composer type="solo">Piotr Łupina</composer>
+  <artist type="solo">Piotr Łupina</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">S<ch a="e"/>traszny ból, głośny k<ch a="G"/>rzyk</row>
-      <row important_over="true">Zn<ch a="h"/>owu życie utra<ch a="A"/>cono</row>
-      <row important_over="false">Z<ch a="e"/>ginął tak jak wielu z<ch a="G"/> nich</row>
-      <row important_over="false">Za<ch a="h"/> swą wolność u<ch a="A"/>traconą</row>
+      <row important_over="true">Straszny <ch a="e"/>ból, głośny krz<ch a="G"/>yk,</row>
+      <row important_over="true">znowu ż<ch a="h"/>ycie utrac<ch a="A"/>ono.</row>
+      <row important_over="true">Zginął t<ch a="e"/>ak jak wielu z n<ch a="G"/>ich</row>
+      <row important_over="true">za swą w<ch a="h"/>olność utrac<ch a="A"/>oną.</row>
     </block>
     <block type="verse">
-      <row important_over="false">M<ch a="e"/>iał na piersi szary k<ch a="G"/>rzyż</row>
-      <row important_over="false">I<ch a="h"/> zaledwie 10 <ch a="A"/>lat</row>
-      <row important_over="false">C<ch a="e"/>hciał być wolny tak j<ch a="G"/>ak my</row>
-      <row important_over="false">I<ch a="h"/> tak samo kochał<ch a="A"/> świat</row>
+      <row important_over="false">Miał na pi<ch a="e"/>ersi szary krz<ch a="G"/>yż</row>
+      <row important_over="false">i zal<ch a="h"/>edwie dziesięć l<ch a="A"/>at,</row>
+      <row important_over="false">chciał być w<ch a="e"/>olny tak jak m<ch a="G"/>y</row>
+      <row important_over="false">i tak s<ch a="h"/>amo kochał świ<ch a="A"/>at.</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false">D<ch a="e"/>ziś szybuje pośród ch<ch a="G"/>mur</row>
-        <row important_over="false">T<ch a="h"/>ak jak ptaki na <ch a="A"/>wolności</row>
-        <row important_over="false">P<ch a="e"/>oszukuje w świecie ty<ch a="G"/>m</row>
-        <row important_over="false">C<ch a="h"/>iepła, dobra i m<ch a="A"/>iłości.</row>
+        <row important_over="true">Dziś szyb<ch a="e"/>uje pośród chm<ch a="G"/>ur</row>
+        <row important_over="true">tak jak pt<ch a="h"/>aki na woln<ch a="A"/>ości,</row>
+        <row important_over="true">poszuk<ch a="e"/>uje w świecie t<ch a="G"/>ym</row>
+        <row important_over="true">ciepła, d<ch a="h"/>obra i mił<ch a="A"/>ości.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">N<ch a="e"/>ie minęło parę l<ch a="G"/>at</row>
-      <row important_over="false">N<ch a="h"/>ad grobami matki<ch a="A"/> płaczą</row>
-      <row important_over="false">P<ch a="e"/>o policzkach łzy im p<ch a="G"/>łyną</row>
-      <row important_over="false">J<ch a="h"/>uż ich więcej ni<ch a="A"/>e zobaczą</row>
+      <row important_over="false">Nie min<ch a="e"/>ęło parę l<ch a="G"/>at,</row>
+      <row important_over="false">nad grob<ch a="h"/>ami matki pł<ch a="A"/>aczą,</row>
+      <row important_over="false">po policzkach łz<ch a="e"/>y im płyn<ch a="G"/>ą,</row>
+      <row important_over="false">już ich wi<ch a="h"/>ęcej nie zob<ch a="A"/>aczą.</row>
     </block>
     <block type="verse">
-      <row important_over="false">N<ch a="e"/>ie zobaczą swoich dzi<ch a="G"/>eci</row>
-      <row important_over="false">L<ch a="h"/>ecz pamiętać o n<ch a="A"/>ich będą</row>
-      <row important_over="false">O<ch a="e"/> swych młodych boh<ch a="G"/>aterach</row>
-      <row important_over="false">O<ch a="h"/>wianych smutną l<ch a="A"/>egendą</row>
+      <row important_over="false">Nie zob<ch a="e"/>aczą swoich dzi<ch a="G"/>eci,</row>
+      <row important_over="false">lecz pami<ch a="h"/>ętać o nich b<ch a="A"/>ędą,</row>
+      <row important_over="false">o swych mł<ch a="e"/>odych bohater<ch a="G"/>ach</row>
+      <row important_over="false">owi<ch a="h"/>anych smutną leg<ch a="A"/>endą.</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false">T<ch a="e"/>am na wzgórzu leży <ch a="G"/>on</row>
-      <row important_over="false">N<ch a="h"/>ad nim krzyż brzozowy s<ch a="A"/>toi</row>
-      <row important_over="false">J<ch a="e"/>ego dusza ule<ch a="G"/>ciała</row>
-      <row important_over="false">Z<ch a="h"/>iemia ciału rany<ch a="A"/> goi</row>
-      <row important_over="false">B<ch a="e"/>o poświęcił młode ż<ch a="G"/>ycie</row>
-      <row important_over="false">W<ch a="h"/> walce o lepsze j<ch a="A"/>utro</row>
-      <row important_over="false">C<ch a="e"/>zasem możesz go do<ch a="G"/>strzec</row>
-      <row important_over="false">G<ch a="h"/>łęboko patrząc w <ch a="A"/>lustro</row>
+      <row important_over="false">Tam na wzg<ch a="e"/>órzu leży <ch a="G"/>on,</row>
+      <row important_over="false">nad nim krz<ch a="h"/>yż brzozowy st<ch a="A"/>oi,</row>
+      <row important_over="false">jego d<ch a="e"/>usza uleci<ch a="G"/>ała,</row>
+      <row important_over="false">ziemia ci<ch a="h"/>ału rany g<ch a="A"/>oi,</row>
+      <row important_over="false">bo poświ<ch a="e"/>ęcił młode życ<ch a="G"/>ie</row>
+      <row important_over="false">w walce <ch a="h"/>o lepsze jutr<ch a="A"/>o,</row>
+      <row important_over="false">czasem m<ch a="e"/>ożesz go dostrz<ch a="G"/>ec,</row>
+      <row important_over="false">głębok<ch a="h"/>o patrząc w l<ch a="A"/>ustro.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/tak-jak-ptaki</verificator>
+    </verificators>
   </status>
 </song>
