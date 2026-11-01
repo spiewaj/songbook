@@ -2,7 +2,8 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sielanka o domu">
 	<alias>A jeśli dom będę miał</alias>
 	<text_author type="solo">Wojciech Bellon</text_author>
-	<composer type="solo">Wacław Juszczyn</composer>
+	<composer type="solo">Wacław Juszczyszyn</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="A"/>A jeśli <ch a="h7"/>dom będę <ch a="cis7"/>miał<ch a="A7+"/></row>
@@ -12,7 +13,7 @@
 			<row important_over="true">A <ch a="A"/>zegar na <ch a="A7"/>ścianie g<ch a="D"/>warzy<ch a="E"/></row>
 			<row important_over="true"><ch a="A"/>Dobrze się <ch a="h7"/>idzie, <ch a="cis7"/>panie ze<ch a="Fis0"/>garze</row>
 			<row important_over="true">Tik<ch a="h7"/> tak, tik t<ch a="E7"/>ak, tik t<ch a="A7/4"/>ak<ch a="A7/6"/></row>
-			<row important_over="false">Świeca sk<ch a="D"/>wierczy i mruga przew<ch a="E4"/>rotnie<ch a="E"/></row>
+			<row important_over="true">Świeca sk<ch a="D"/>wierczy i mruga przew<ch a="E4"/>rotnie<ch a="E"/></row>
 			<row important_over="true">Więc <ch a="A"/>puszczam <ch a="h7"/>oko <ch a="cis7"/>do niej<ch a="G0"/></row>
 			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="cis7"/>ma<ch a="G0"/></row>
 			<row important_over="true">Dobry <ch a="h7"/>humor <ch a="E7"/>dziś pani <ch a="A"/>ma<ch a="A4"/><ch a="A"/></row>
@@ -24,17 +25,17 @@
 			<row important_over="true">A <ch a="G"/>niebo nade mną <ch a="D"/>ja<ch a="d"/>k gó<ch a="A"/>ry<ch a="A4"/><ch a="A"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Gdy głosy usłyszę u drzwi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="A7+"/></row>
-			<row important_over="false">Czyjekolwiek, wejdźcie — poproszę<ch a="D"/><ch a="E9"/><ch a="A"/><ch a="A7+"/></row>
-			<row important_over="false">Jestem zbieraczem głosów<ch a="h7"/><ch a="E9"/><ch a="cis7"/><ch a="A7/4"/></row>
-			<row important_over="false">A dom mój bardzo lubi gdy<ch a="D"/><ch a="E4"/><ch a="E"/></row>
-			<row important_over="false">Śmiech ściany mu rozjaśnia<ch a="A"/><ch a="A7"/><ch a="D"/><ch a="E"/></row>
-			<row important_over="false">I gędźby lubi i pieśni<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="Fis0"/></row>
-			<row important_over="false">Wpadnijcie na parę chwil<ch a="h7"/><ch a="E7"/><ch a="A7/4"/><ch a="A7/6"/></row>
-			<row important_over="false">Kiedy los was zawiedzie w te strony<ch a="D"/><ch a="E4"/><ch a="E"/></row>
-			<row important_over="false">Bo dom mój otworem stoi<ch a="A"/><ch a="h7"/><ch a="cis7"/><ch a="G0"/></row>
-			<row important_over="false">Dla takich jak my<ch a="h7"/><ch a="E7"/><ch a="cis7"/><ch a="G0"/></row>
-			<row important_over="false">Dla takich jak wy<ch a="h7"/><ch a="E7"/><ch a="A"/><ch a="A4"/><ch a="A"/></row>
+			<row important_over="false"><ch a="A"/>Gdy głosy <ch a="h7"/>usłyszę <ch a="cis7"/>u drzwi<ch a="A7+"/></row>
+			<row important_over="false">Czyje<ch a="D"/>kolwiek, we<ch a="E9"/>jdźcie — popr<ch a="A"/>oszę<ch a="A7+"/></row>
+			<row important_over="false"><ch a="h7"/>Jestem zbie<ch a="E9"/>raczem gł<ch a="cis7"/>osów<ch a="A7/4"/></row>
+			<row important_over="false">A <ch a="D"/>dom mój bar<ch a="E4"/>dzo lubi, <ch a="E"/>gdy</row>
+			<row important_over="false"><ch a="A"/>Śmiech ściany <ch a="A7"/>mu rozj<ch a="D"/>aśnia<ch a="E"/></row>
+			<row important_over="false"><ch a="A"/>I gędźby <ch a="h7"/>lubi <ch a="cis7"/>i pie<ch a="Fis0"/>śni</row>
+			<row important_over="false">Wpad<ch a="h7"/>nijcie na p<ch a="E7"/>arę chw<ch a="A7/4"/>il<ch a="A7/6"/></row>
+			<row important_over="false">Kiedy l<ch a="D"/>os was zawiedzie w te str<ch a="E4"/>ony<ch a="E"/></row>
+			<row important_over="false">Bo <ch a="A"/>dom mój ot<ch a="h7"/>worem st<ch a="cis7"/>oi<ch a="G0"/></row>
+			<row important_over="false">Dla <ch a="h7"/>takich <ch a="E7"/>jak m<ch a="cis7"/>y<ch a="G0"/></row>
+			<row important_over="false">Dla <ch a="h7"/>takich <ch a="E7"/>jak w<ch a="A"/>y<ch a="A4"/><ch a="A"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
@@ -56,14 +57,17 @@
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords/>
+	<album>Bukowina (1991)</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Jan Inowolski</verificator>
 		</verificators>
 	</status>
+	<music_source>https://bibliotekapiosenki.pl/utwory/Sielanka_o_domu</music_source>
 </song>
