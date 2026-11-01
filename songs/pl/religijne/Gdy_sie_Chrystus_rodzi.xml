@@ -20,45 +20,45 @@
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Mówią do pasterzy,</row>
-      <row important_over="never">Którzy trzód swych strzegli,</row>
-      <row important_over="never">Aby do Betlejem</row>
-      <row important_over="never">Czym prędzej pobiegli.</row>
+      <row important_over="false"><ch a="A"/>Mówią <ch a="D"/>do paste<ch a="A"/>rzy,</row>
+      <row important_over="false">Którzy <ch a="D"/>trzód swych <ch a="E"/>strze<ch a="A"/>gli,</row>
+      <row important_over="false"><ch a="A"/>Aby <ch a="D"/>do Betle<ch a="A"/>jem</row>
+      <row important_over="false">Czym prę<ch a="D"/>dzej po<ch a="E"/>bie<ch a="A"/>gli.</row>
     </block>
     <block type="chorus">
       <bis>
-        <row important_over="never">Bo się narodził Zbawiciel,</row>
-        <row important_over="never">Wszego świata Odkupiciel:</row>
-        <row important_over="never">Gloria, gloria, gloria</row>
-        <row important_over="never">In excelsis Deo!</row>
+        <row important_over="false"><ch a="E"/>Bo się narodził Zbawiciel,</row>
+        <row important_over="false">Wszego świata <ch a="A"/>Odkupiciel:</row>
+        <row important_over="false"><ch a="A"/>Gloria, <ch a="D"/>gloria, <ch a="E7"/>gloria</row>
+        <row important_over="false"><ch a="A"/>In ex<ch a="D"/>celsis <ch a="A"/>De<ch a="E"/>o!<ch a="A"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">O niebieskie duchy</row>
-      <row important_over="never">I posłowie nieba,</row>
-      <row important_over="never">Powiedzcie wyraźnie,</row>
-      <row important_over="never">Co nam czynić trzeba.</row>
+      <row important_over="false"><ch a="A"/>O nie<ch a="D"/>bieskie du<ch a="A"/>chy</row>
+      <row important_over="false">I po<ch a="D"/>słowie <ch a="E"/>nie<ch a="A"/>ba,</row>
+      <row important_over="false"><ch a="A"/>Powiedz<ch a="D"/>cie wyraź<ch a="A"/>nie,</row>
+      <row important_over="false">Co nam <ch a="D"/>czynić <ch a="E"/>trze<ch a="A"/>ba.</row>
     </block>
     <block type="chorus">
       <bis>
-        <row important_over="never">Bo my nic nie pojmujemy,</row>
-        <row important_over="never">Ledwo od strachu żyjemy:</row>
-        <row important_over="never">Gloria, gloria, gloria</row>
-        <row important_over="never">In excelsis Deo!</row>
+        <row important_over="false"><ch a="E"/>Bo my nic nie pojmujemy,</row>
+        <row important_over="false">Ledwo od strachu <ch a="A"/>żyjemy:</row>
+        <row important_over="false"><ch a="A"/>Gloria, <ch a="D"/>gloria, <ch a="E7"/>gloria</row>
+        <row important_over="false"><ch a="A"/>In ex<ch a="D"/>celsis <ch a="A"/>De<ch a="E"/>o!<ch a="A"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">Idźcie do Betlejem,</row>
-      <row important_over="never">Gdzie Dziecię zrodzone,</row>
-      <row important_over="never">W pieluszki powite,</row>
-      <row important_over="never">W żłobie położone.</row>
+      <row important_over="false"><ch a="A"/>Idźcie <ch a="D"/>do Betle<ch a="A"/>jem,</row>
+      <row important_over="false">Gdzie Dzie<ch a="D"/>cię zro<ch a="E"/>dzo<ch a="A"/>ne,</row>
+      <row important_over="false"><ch a="A"/>W pielusz<ch a="D"/>ki powi<ch a="A"/>te,</row>
+      <row important_over="false">W żłobie <ch a="D"/>poło<ch a="E"/>żo<ch a="A"/>ne.</row>
     </block>
     <block type="chorus">
       <bis>
-        <row important_over="never">Oddajcie Mu pokłon boski,</row>
-        <row important_over="never">On osłodzi wasze troski:</row>
-        <row important_over="never">Gloria, gloria, gloria</row>
-        <row important_over="never">In excelsis Deo!</row>
+        <row important_over="false"><ch a="E"/>Oddajcie Mu pokłon boski,</row>
+        <row important_over="false">On osłodzi <ch a="A"/>wasze troski:</row>
+        <row important_over="false"><ch a="A"/>Gloria, <ch a="D"/>gloria, <ch a="E7"/>gloria</row>
+        <row important_over="false"><ch a="A"/>In ex<ch a="D"/>celsis <ch a="A"/>De<ch a="E"/>o!<ch a="A"/></row>
       </bis>
     </block>
   </lyric>
