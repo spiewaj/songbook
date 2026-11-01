@@ -1,70 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zabierz mnie na stację">
-	<alias/>
+	<alias>No Expectations</alias>
 	<text_author type="solo">Wojciech Bellon</text_author>
-	<comment/>
-	<composer type="solo"/>
-	<artist type="solo">Wolna Grupa Bukowina</artist>
-	<translator/>
-	<original_title/>
+	<comment>Polska adaptacja utworu „No Expectations” zespołu The Rolling Stones (z albumu „Beggars Banquet”, 1968).</comment>
+	<composer type="solo">Mick Jagger, Keith Richards</composer>
+	<artist type="band">Wolna Grupa Bukowina</artist>
+	<translator>Wojciech Bellon</translator>
+	<original_title>No Expectations</original_title>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">Z<ch a="A"/>abierz mnie na st<ch a="E"/>ację</row>
-			<row important_over="false">D<ch a="A"/>aj mi bilet w g<ch a="E"/>arść</row>
-			<row important_over="false">Cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł</row>
-			<row important_over="true">B<ch a="D"/>o nie mam j<ch a="A"/>uż żadnych sz<ch a="E"/>ans</row>
+			<row important_over="true">Z<ch a="A"/>abierz mnie na st<ch a="E"/>ację,</row>
+			<row important_over="false">d<ch a="A"/>aj mi bilet w g<ch a="E"/>arść,</row>
+			<row important_over="false">cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł,</row>
+			<row important_over="true">b<ch a="D"/>o nie mam j<ch a="A"/>uż żadnych sz<ch a="E"/>ans.</row>
 		</block>
-		<block type="other"><row important_over="false" style="instr">
-				<ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row></block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row>
+		</block>
 		<block type="verse">
-			<row important_over="false">Mi<ch a="A"/>ałem kiedyś wsz<ch a="E"/>ystko</row>
-			<row important_over="false">M<ch a="A"/>ogłem krzyczeć m<ch a="E"/>am</row>
-			<row important_over="false">Dz<ch a="A"/>iś jak bańka s<ch a="E"/>en mój prysnął</row>
-			<row important_over="false">
-				<ch a="D"/>I jestem s<ch a="A"/>am, całkiem s<ch a="E"/>am</row>
+			<row important_over="false">Mi<ch a="A"/>ałem kiedyś wsz<ch a="E"/>ystko,</row>
+			<row important_over="false">m<ch a="A"/>ogłem krzyczeć: m<ch a="E"/>am,</row>
+			<row important_over="false">dz<ch a="A"/>iś jak bańka s<ch a="E"/>en mój prysnął</row>
+			<row important_over="false">i j<ch a="D"/>estem s<ch a="A"/>am, całkiem s<ch a="E"/>am.</row>
 		</block>
-		<block type="other"><row important_over="false" style="instr">
-				<ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row></block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row>
+		</block>
 		<block type="verse">
 			<row important_over="false">Mi<ch a="A"/>ałem stu przyj<ch a="E"/>aciół</row>
-			<row important_over="false"><ch a="A"/>I otwarte wsz<ch a="E"/>ędzie drzwi</row>
-			<row important_over="false">Dz<ch a="A"/>isiaj nie wiem cz<ch a="E"/>y majaczę</row>
-			<row important_over="false">Cz<ch a="D"/>y życie m<ch a="A"/>oje mi się śn<ch a="E"/>i</row>
+			<row important_over="false">i <ch a="A"/>otwarte wsz<ch a="E"/>ędzie drzwi,</row>
+			<row important_over="false">dz<ch a="A"/>isiaj nie wiem, cz<ch a="E"/>y majaczę,</row>
+			<row important_over="false">cz<ch a="D"/>y życie m<ch a="A"/>oje mi się śn<ch a="E"/>i.</row>
 		</block>
-		<block type="other"><row important_over="false" style="instr">
-				<ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row></block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row>
+		</block>
 		<block type="verse">
-			<row important_over="false">Mi<ch a="A"/>ałem kiedyś ci<ch a="E"/>ebie</row>
-			<row important_over="false">Mi<ch a="A"/>asta zgiełk i bl<ch a="E"/>ask</row>
-			<row important_over="false">Dz<ch a="A"/>iś na moim ni<ch a="E"/>ebie nie ma</row>
-			<row important_over="false">Ni<ch a="D"/>e, nie ma<ch a="A"/> nawet gwi<ch a="E"/>azd</row>
+			<row important_over="false">Mi<ch a="A"/>ałem kiedyś ci<ch a="E"/>ebie,</row>
+			<row important_over="false">mi<ch a="A"/>asta zgiełk i bl<ch a="E"/>ask,</row>
+			<row important_over="false">dz<ch a="A"/>iś na moim ni<ch a="E"/>ebie nie ma,</row>
+			<row important_over="false">ni<ch a="D"/>e, nie ma<ch a="A"/> nawet gwi<ch a="E"/>azd.</row>
 		</block>
-		<block type="other"><row important_over="false" style="instr">
-				<ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row></block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row>
+		</block>
 		<block type="verse">
-			<row important_over="false">Z<ch a="A"/>abierz mnie na st<ch a="E"/>ację</row>
-			<row important_over="false">D<ch a="A"/>aj mi bilet w g<ch a="E"/>arść</row>
-			<row important_over="false">Cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł</row>
-			<row important_over="false">B<ch a="D"/>o jestem s<ch a="A"/>am i nie mam żadnych sz<ch a="E"/>ans</row>
+			<row important_over="false">Z<ch a="A"/>abierz mnie na st<ch a="E"/>ację,</row>
+			<row important_over="false">d<ch a="A"/>aj mi bilet w g<ch a="E"/>arść,</row>
+			<row important_over="false">cz<ch a="A"/>as na medyt<ch a="E"/>ację nadszedł,</row>
+			<row important_over="false">b<ch a="D"/>o jestem s<ch a="A"/>am i nie mam żadnych sz<ch a="E"/>ans.</row>
 		</block>
-		<block type="other"><row important_over="false" style="instr">
-				<ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row></block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="A"/><ch a="E"/></row>
+		</block>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Bukowina II</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Onufry</verificator>
-			
-		</verificators>
-		<to_do>Jedyne źródło, które znalazłem podaje jako autora muzyki niejakiego K. Richardsa. Nie wiem, kto to K. Richards, nie mam śpiewnika Bukowiny na ręku, więc pozostawiam sprawdzenie autora muzyki komuś, kto ma.</to_do>	<done>
-			
-			
+		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-	</status>	<keywords/>
-	<music_source/>
-	<album>Bukowina - kaseta</album>
-	<genre>Poezja śpiewana</genre>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>https://www.discogs.com/release/5574315-Wolna-Grupa-Bukowina-Bukowina-II</verificator>
+			<verificator>https://pl.wikipedia.org/wiki/Beggars_Banquet</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
