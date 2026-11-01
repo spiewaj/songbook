@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kamienie">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Tam na skraju świata dziwy<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Tam na skraju świata cuda<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Byli tacy co wierzyli<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Że tam dojdą, że się uda<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Ledwie przeszli kilka kroków<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>I za siebie obejrzeli<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Tak jak stali w jednej chwili<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>W martwe głazy skamienieli<ch a="E"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="a"/>Hej, hej, na, na, na, na, na, na, na, na, na, na<ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>I stoją tak już od lat pogrzebani w pamięci<ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>Myśli mają kamienne i sny kamienne mają<ch a="C"/></row>
-      <row important_over="never"><ch a="a"/>I nikt już nie wie jak długo we śnie kamiennym trwają<ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Prędko, prędko pieśń się baje<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Nie tak prędko koń wyskoczy<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Kto zdobędzie wodę życia<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Kto kamieniom pryśnie w oczy<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Kto kamieniom pryśnie w oczy<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Kto ich w ludzi pozamienia<ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Kto ich wyrwie z odrętwienia<ch a="C"/></row>
-      <row important_over="never"><ch a="d"/>Kto ich wreszcie oduroczy<ch a="E"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="3"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W kamień zaklęci">
+	<alias>Kamienie</alias>
+	<text_author type="solo">Marek Dutkiewicz</text_author>
+	<comment>Piosenka zespołu 2 plus 1 z debiutanckiego albumu „Nowy wspaniały świat” (1972). W śpiewnikach turystycznych często występuje pod tytułem „Kamienie”.</comment>
+	<composer type="solo">Andrzej Korzyński</composer>
+	<artist type="band">2 plus 1</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">T<ch a="d"/>am na skraju świata dz<ch a="F"/>iwy,</row>
+			<row important_over="true">T<ch a="B"/>am na skraju św<ch a="F"/>iata c<ch a="C"/>ud<ch a="d"/>a,</row>
+			<row important_over="true">B<ch a="d"/>yli tacy, co wierz<ch a="F"/>yli,</row>
+			<row important_over="true">Ż<ch a="B"/>e tam dojdą, ż<ch a="F"/>e się <ch a="C"/>ud<ch a="A"/>a.<ch a="d"/></row>
+			<row important_over="false">L<ch a="d"/>edwie przeszli kilka kr<ch a="F"/>oków</row>
+			<row important_over="false"><ch a="B"/>I za siebie <ch a="F"/>obejrz<ch a="C"/>el<ch a="d"/>i,</row>
+			<row important_over="false">T<ch a="d"/>ak jak stali w jednej chw<ch a="F"/>ili</row>
+			<row important_over="false">W m<ch a="B"/>artwe głazy sk<ch a="F"/>amieni<ch a="C"/>el<ch a="A"/>i.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">H<ch a="d"/>ej, hej, d<ch a="B"/>a-na-na-na, d<ch a="F"/>a-na-na-na, d<ch a="C"/>a-na-na-na, n<ch a="A"/>a…</row>
+			<row important_over="true">I st<ch a="d"/>oją tak już od l<ch a="B"/>at, pogrzeb<ch a="F"/>ani w pam<ch a="C"/>ięc<ch a="A"/>i,</row>
+			<row important_over="true">M<ch a="d"/>yśli mają kami<ch a="B"/>enne i sn<ch a="F"/>y kamienne m<ch a="C"/>aj<ch a="A"/>ą,</row>
+			<row important_over="true">I n<ch a="d"/>ikt już nie wie jak dł<ch a="B"/>ugo we śn<ch a="F"/>ie kamiennym trw<ch a="C"/>aj<ch a="A"/>ą.<ch a="d"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pr<ch a="d"/>ędko, prędko pieśń się b<ch a="F"/>aje,</row>
+			<row important_over="false">N<ch a="B"/>ie tak prędko k<ch a="F"/>oń wysk<ch a="C"/>ocz<ch a="d"/>y,</row>
+			<row important_over="false">Kt<ch a="d"/>o zdobędzie wodę ż<ch a="F"/>ycia,</row>
+			<row important_over="false">Kt<ch a="B"/>o kamieniom pr<ch a="F"/>yśnie w <ch a="C"/>ocz<ch a="A"/>y?<ch a="d"/></row>
+			<row important_over="false">Kt<ch a="d"/>o kamieniom pryśnie w <ch a="F"/>oczy,</row>
+			<row important_over="false">Kt<ch a="B"/>o ich w ludzi p<ch a="F"/>ozami<ch a="C"/>eni<ch a="d"/>a,</row>
+			<row important_over="false">Kt<ch a="d"/>o ich wyrwie z odrętw<ch a="F"/>ienia,</row>
+			<row important_over="false">Kt<ch a="B"/>o ich wreszcie <ch a="F"/>odur<ch a="C"/>ocz<ch a="A"/>y?</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Nowy wspaniały świat</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
