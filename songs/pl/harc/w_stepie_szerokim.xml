@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W stepie szerokim">
   <alias>Pieśń o małym rycerzu</alias>
   <text_author type="solo">Jerzy Lutowski</text_author>
-  <comment>Utwór muzyczny z 1969 roku pochodzący z serialu telewizyjnego &quot;Przygody pana Michała&quot;.</comment>
+  <comment>Utwór muzyczny z 1969 roku pochodzący z serialu telewizyjnego „Przygody pana Michała”.</comment>
   <composer type="solo">Wojciech Kilar</composer>
   <artist type="solo">Leszek Herdegen</artist>
   <lyric>
@@ -12,8 +12,8 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="c"/>W stepie szerokim, <ch a="Dis"/>którego <ch a="F"/>okiem</row>
-      <row important_over="true"><ch a="c"/>Nawet sokolim nie <ch a="Dis"/>zmie<ch a="G"/>rzysz,</row>
-      <row important_over="true"><ch a="c"/>Wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
+      <row important_over="true"><ch a="c"/>nawet sokolim nie <ch a="Dis"/>zmie<ch a="G"/>rzysz,</row>
+      <row important_over="true"><ch a="c"/>wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
       <row important_over="true"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>rzu.</row>
     </block>
     <block type="other">
@@ -21,8 +21,8 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="c"/>Choć mały ciałem, <ch a="Dis"/>rębacz wspa<ch a="F"/>niały</row>
-      <row important_over="false"><ch a="c"/>Wyrósł nad pierwsze szer<ch a="Dis"/>mie<ch a="G"/>rze</row>
-      <row important_over="false"><ch a="c"/>I wieki <ch a="C"/>całe <ch a="Cis"/>będą śpie<ch a="c"/>wały</row>
+      <row important_over="false"><ch a="c"/>wyrósł nad pierwsze szer<ch a="Dis"/>mie<ch a="G"/>rze,</row>
+      <row important_over="false"><ch a="c"/>i wieki <ch a="C"/>całe <ch a="Cis"/>będą śpie<ch a="c"/>wały</row>
       <row important_over="false"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>rzu.</row>
     </block>
     <block type="other">
@@ -30,9 +30,9 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="c"/>Ty, któryś w boju, <ch a="Dis"/>i ty, coś w <ch a="F"/>znoju,</row>
-      <row important_over="false"><ch a="c"/>I ty, co liczysz i <ch a="Dis"/>mie<ch a="G"/>rzysz,</row>
-      <row important_over="false"><ch a="c"/>Wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
-      <row important_over="true"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>r<ch a="C"/>zu.</row>
+      <row important_over="false"><ch a="c"/>i ty, co liczysz i <ch a="Dis"/>mie<ch a="G"/>rzysz,</row>
+      <row important_over="false"><ch a="c"/>wstań, unieś <ch a="C"/>głowę, <ch a="Cis"/>wsłuchaj się w <ch a="c"/>słowa</row>
+      <row important_over="false"><ch a="c"/>Pieśni o <ch a="G"/>Małym Ry<ch a="c"/>ce<ch a="F"/>r<ch a="C"/>zu.</row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"> <ch a="a"/><ch a="C"/><ch a="D"/></row>
@@ -42,8 +42,15 @@
     </block>
   </lyric>
   <keywords/>
+  <genre>Muzyka filmowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/leszek-herdegen/w-stepie-szerokim</verificator>
+    </verificators>
   </status>
 </song>
