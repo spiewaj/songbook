@@ -1,115 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Człowiek bez butów">
-	<alias></alias>
+	<alias>Był człowiek bez butów i dobry był człowiek</alias>
 	<text_author type="solo">Janusz Kubicki</text_author>
-	<comment>Nie ma oficjalnego wydawnictwa</comment>
+	<comment>Piosenka zespołu Trzy Dni Tyłem; słowa: Janusz Kubicki. Informacje od Krzysztofa Mazurkiewicza (Trzy Dni Tyłem). Nie ma oficjalnego wydawnictwa.</comment>
 	<composer type="band">Trzy Dni Tyłem</composer>
 	<artist type="band">Trzy Dni Tyłem</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">
 				<ch a="G"/>Był człowiek bez butów i <ch a="e"/>dobry był człowiek</row>
 			<row important_over="true">
 				<ch a="C"/>Samotnie swe życie nad <ch a="D"/>myślą przetrudził</row>
-			<row important_over="false">
-				<ch a="G"/>Jak ludzkim niedolom i b<ch a="e"/>iedom zapobiec</row>
 			<row important_over="true">
-				<ch a="C"/>Wymyślił w świat poszedł p<ch a="D"/>omagać chciał l<ch a="G"/>udziom</row>
+				<ch a="G"/>Jak ludzkim niedolom i <ch a="e"/>biedom zapobiec</row>
+			<row important_over="true">
+				<ch a="C"/>Wymyślił w świat poszedł <ch a="D"/>pomagać chciał <ch a="G"/>ludziom</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">
-				<ch a="G"/>Stój d<ch a="D"/>okąd idziesz j<ch a="C"/>uż nogi ust<ch a="G"/>ały</row>
+				<ch a="G"/>Stój <ch a="D"/>dokąd idziesz <ch a="C"/>już nogi ust<ch a="G"/>ały</row>
 			<row important_over="true">
-				<ch a="G"/>Stój prz<ch a="D"/>ecież widzisz bez b<ch a="C"/>utów n<ch a="D"/>ic nie zdz<ch a="G"/>iałasz</row>
+				<ch a="G"/>Stój <ch a="D"/>przecież widzisz bez <ch a="C"/>butów <ch a="D"/>nic nie zdz<ch a="G"/>iałasz</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">
-				<ch a="G"/>I królem się ostał p<ch a="e"/>oddani choć ślepi</row>
+				<ch a="G"/>I królem się ostał <ch a="e"/>poddani choć ślepi</row>
 			<row important_over="false">
-				<ch a="C"/>I cnotę i mądrość chw<ch a="D"/>alili</row>
+				<ch a="C"/>I cnotę i mądrość <ch a="D"/>chwalili</row>
 			<row important_over="false">
-				<ch a="G"/>Aż błazen z radością do n<ch a="e"/>óg mu się czepił</row>
+				<ch a="G"/>Aż błazen z radością do <ch a="e"/>nóg mu się czepił</row>
 			<row important_over="false">
 				<ch a="C"/>Bez butów jest krzyknął i <ch a="D"/>z tronu str<ch a="G"/>ącili</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">
-				<ch a="G"/>Stój dokąd idziesz gdy nikim się stałeś<ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<ch a="G"/>Stój <ch a="D"/>dokąd idziesz gdy n<ch a="C"/>ikim się st<ch a="G"/>ałeś</row>
 			<row important_over="false">
-				<ch a="G"/>Ty królem być mogłeś lecz butów nie miałeś<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+				<ch a="G"/>Ty kr<ch a="D"/>ólem być mogłeś lecz b<ch a="C"/>utów <ch a="D"/>nie mi<ch a="G"/>ałeś</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">
-				<ch a="G"/>Kochankiem dla brzydkiej dziewc<ch a="e"/>zyny chciał zostać</row>
+				<ch a="G"/>Kochankiem dla brzydkiej dziew<ch a="e"/>czyny chciał zostać</row>
 			<row important_over="false">
 				<ch a="C"/>Nie chciała go brzydka dziew<ch a="D"/>czyna</row>
 			<row important_over="false">
-				<ch a="G"/>I nie zmógł miłości bez b<ch a="e"/>utów nie sprostał</row>
+				<ch a="G"/>I nie zmógł miłości bez <ch a="e"/>butów nie sprostał</row>
 			<row important_over="false">
-				<ch a="C"/>Kochanek po cierniach si<ch a="D"/>ę ws<ch a="G"/>pina</row>
+				<ch a="C"/>Kochanek po cierniach się <ch a="D"/>wspi<ch a="G"/>na</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">
-				<ch a="G"/>Stój dokąd idziesz z miłości wyzuty<ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<ch a="G"/>Stój <ch a="D"/>dokąd idziesz z mił<ch a="C"/>ości wyz<ch a="G"/>uty</row>
 			<row important_over="false">
-				<ch a="G"/>Kochankiem być chciałeś lecz byłeś bez butów<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+				<ch a="G"/>Koch<ch a="D"/>ankiem być chciałeś lecz b<ch a="C"/>yłeś <ch a="D"/>bez b<ch a="G"/>utów</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">
 				<ch a="G"/>I księgi im pisał mądro<ch a="e"/>ści im prawił</row>
 			<row important_over="false">
-				<ch a="C"/>Nauczył ich koła i skr<ch a="D"/>ótów</row>
+				<ch a="C"/>Nauczył ich koła i <ch a="D"/>skrótów</row>
 			<row important_over="false">
-				<ch a="G"/>A lud go w podzięce kij<ch a="e"/>ami oprawił</row>
+				<ch a="G"/>A lud go w podzięce ki<ch a="e"/>jami oprawił</row>
 			<row important_over="false">
-				<ch a="C"/>Nie możesz być mądrym b<ch a="D"/>ez b<ch a="G"/>utów</row>
+				<ch a="C"/>Nie możesz być mądrym <ch a="D"/>bez <ch a="G"/>butów</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false">
-				<ch a="G"/>Stój dokąd idziesz z ranami na twarzy<ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<ch a="G"/>Stój <ch a="D"/>dokąd idziesz z ran<ch a="C"/>ami na tw<ch a="G"/>arzy</row>
 			<row important_over="false">
-				<ch a="G"/>Ty wciąż jesteś mądry choć o butach marzysz<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+				<ch a="G"/>Ty wci<ch a="D"/>ąż jesteś mądry choć <ch a="C"/>o butach m<ch a="D"/>arz<ch a="G"/>ysz</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">
-				<ch a="G"/>I chodził po świecie i ż<ch a="e"/>ycie swe chwalił</row>
+				<ch a="G"/>I chodził po świecie i <ch a="e"/>życie swe chwalił</row>
 			<row important_over="false">
-				<ch a="C"/>Nie stracił nadziei choć zbl<ch a="D"/>akły mu włosy</row>
+				<ch a="C"/>Nie stracił nadziei choć <ch a="D"/>zblakły mu włosy</row>
 			<row important_over="false">
-				<ch a="G"/>Aż trafił na miejsce gdzie b<ch a="e"/>utów nie znali</row>
+				<ch a="G"/>Aż trafił na miejsce gdzie <ch a="e"/>butów nie znali</row>
 			<row important_over="false">
-				<ch a="C"/>I stał się równym wśr<ch a="D"/>ód b<ch a="G"/>osych</row>
+				<ch a="C"/>I stał się równym wśr<ch a="D"/>ód <ch a="G"/>bosych</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="false">
-					<ch a="G"/>Stój dokąd idziesz gdzie szukasz nieba<ch a="D"/><ch a="C"/><ch a="G"/></row>
+					<ch a="G"/>Stój <ch a="D"/>dokąd idziesz gdzie sz<ch a="C"/>ukasz ni<ch a="G"/>eba</row>
 				<row important_over="false">
-					<ch a="G"/>Stój przecież widzisz że tu cię najbardziej potrzeba<ch a="D"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
+					<ch a="G"/>Stój <ch a="D"/>przecież widzisz że t<ch a="C"/>u cię najb<ch a="D"/>ardziej potrz<ch a="G"/>eba</row>
 			</bis>
 		</block>
 	</lyric>
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="1"/>
 	</music>
 	<status>
-		<verificators><verificator>Adam</verificator><verificator>Alek</verificator><verificator>Taboret </verificator>
-			
-			
-			
+		<verificators>
+			<verificator>Adam</verificator>
+			<verificator>Alek</verificator>
+			<verificator>Taboret</verificator>
 		</verificators>
-		<to_do>Taboret: Na podstawie informacji od Pana Krzysztofa Mazurkiewicza</to_do>
-		<done>	<text/>
+		<done>
+			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
+	<genre>Piosenka turystyczna</genre>
 </song>
