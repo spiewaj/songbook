@@ -1,61 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wędrówką życie jest człowieka">
-  <alias/>
-  <text_author>Edward Stachura</text_author>
-  <comment/>
-  <album>Pod Wielkim Dachem Nieba</album>
-  <composer type="solo">Daniel Alomía Robles</composer>
-  <artist type="solo">Stare Dobre Małżeństwo</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">
-        <ch a="e"/>
-     </row>
-      <bis times="4">
-        <row important_over="never"><ch a="G"/>A, a, a…<ch a="D"/><ch a="e"/></row>
-      </bis>
-      <row important_over="never"><ch a="e"/>Wędrówką jedną życie jest człowieka<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Idzie wciąż dalej wciąż<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Dokąd skąd, dokąd skąd, dokąd skąd<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Jak zjawa senna życie jest człowieka<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Zjawia się, dotknąć chcesz<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Lecz ucieka, lecz ucieka, lecz ucieka<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Dopóki sił jednak iść przecież iść<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>Będę iść</row>
-      <row important_over="never"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Dopóki sił będzie będę szedł, będę biegł<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>Nie dam się</row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Wędrówką jedną życie jest człowieka<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Idzie tam, idzie tu<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Brak mu tchu, brak mu tchu, brak mu tchu<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Jak chmura zwiewna życie jest człowieka<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Płynie wzwyż, płynie w niż<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Śmierć go czeka, śmierć go czeka, śmierć go czeka<ch a="D"/><ch a="e"/></row>
-      <bis times="3">
-        <row important_over="never"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
-        <row important_over="never"><ch a="C"/>Dopóki sił jednak iść przecież iść<ch a="G"/><ch a="D"/></row>
-        <row important_over="never"><ch a="e"/>Będę iść</row>
-        <row important_over="never"><ch a="C"/>To nic, to nic, to nic<ch a="G"/><ch a="D"/></row>
-        <row important_over="never"><ch a="C"/>Dopóki sił będę szedł, będę biegł<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/></row>
-      </bis>
-      <bis times="3">
-        <row important_over="never"><ch a="e"/>Nie dam się</row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never">A, a, a…</row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Wędrówką jedną życie jest człowieka</alias>
+	<text_author type="solo">Edward Stachura</text_author>
+	<comment>Słowa: Edward Stachura do peruwiańskiej melodii ludowej „El Cóndor Pasa” skomponowanej przez Daniela Alomíę Roblesa (1913).</comment>
+	<composer type="solo">Daniel Alomía Robles</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title>El Cóndor Pasa</original_title>
+	<lyric>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="e"/></row>
+			<bis times="4">
+				<row important_over="true"><ch a="G"/>A, a, a…<ch a="D"/><ch a="e"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/> Wędrówką jedną życie jest człowi<ch a="G"/>eka,</row>
+			<row important_over="true"><ch a="D"/> Idzie wciąż, dalej wci<ch a="e"/>ąż,</row>
+			<row important_over="true"><ch a="G"/> Dokąd? Skąd? Dokąd? Sk<ch a="D"/>ąd? Dokąd? Sk<ch a="e"/>ąd?</row>
+			<row important_over="false"><ch a="e"/> Jak zjawa senna życie jest człowi<ch a="G"/>eka,</row>
+			<row important_over="false"><ch a="D"/> Zjawia się, dotknąć chci<ch a="e"/>esz,</row>
+			<row important_over="false"><ch a="G"/> Lecz ucieka, lecz uci<ch a="D"/>eka, lecz uci<ch a="e"/>eka.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="C"/> To nic, to nic, to n<ch a="G"/>ic!<ch a="D"/></row>
+			<row important_over="true"><ch a="C"/> Dopóki sił, jednak iść, przecież <ch a="G"/>iść!<ch a="D"/></row>
+			<row important_over="true">B<ch a="e"/>ędę iść!</row>
+			<row important_over="false"><ch a="C"/> To nic, to nic, to n<ch a="G"/>ic!<ch a="D"/></row>
+			<row important_over="false"><ch a="C"/> Dopóki sił, będę szedł, będę bi<ch a="G"/>egł!<ch a="D"/></row>
+			<row important_over="true">Ni<ch a="e"/>e dam się!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/> Wędrówką jedną życie jest człowi<ch a="G"/>eka,</row>
+			<row important_over="false"><ch a="D"/> Idzie tam, idzie t<ch a="e"/>u,</row>
+			<row important_over="false"><ch a="G"/> Brak mu tchu, brak mu tch<ch a="D"/>u, brak mu tch<ch a="e"/>u.</row>
+			<row important_over="false"><ch a="e"/> Jak chmura zwiewna życie jest człowi<ch a="G"/>eka,</row>
+			<row important_over="false"><ch a="D"/> Płynie wzwyż, płynie w n<ch a="e"/>iż,</row>
+			<row important_over="false"><ch a="G"/> Śmierć go czeka, śmierć go cz<ch a="D"/>eka, śmierć go cz<ch a="e"/>eka.</row>
+		</block>
+		<block type="chorus">
+			<bis times="3">
+				<row important_over="false"><ch a="C"/> To nic, to nic, to n<ch a="G"/>ic!<ch a="D"/></row>
+				<row important_over="false"><ch a="C"/> Dopóki sił, jednak iść, przecież <ch a="G"/>iść!<ch a="D"/></row>
+				<row important_over="false">B<ch a="e"/>ędę iść!</row>
+				<row important_over="false"><ch a="C"/> To nic, to nic, to n<ch a="G"/>ic!<ch a="D"/></row>
+				<row important_over="false"><ch a="C"/> Dopóki sił, będę szedł, będę bi<ch a="G"/>egł!<ch a="D"/></row>
+			</bis>
+			<bis times="3">
+				<row important_over="false">Ni<ch a="e"/>e dam się!</row>
+			</bis>
+		</block>
+		<block type="other">
+			<row important_over="false"><ch a="G"/>A, a, a…<ch a="D"/><ch a="e"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Pod wielkim dachem nieba</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
