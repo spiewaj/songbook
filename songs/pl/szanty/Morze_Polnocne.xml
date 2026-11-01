@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Morze Północne">
-	<alias/>
-	<text_author type="solo"/>
-	<comment/>
-	<composer type="solo"/>
-	<artist type="solo"/>
-	<translator/>
-	<original_title/>
-	<lyric>
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>Słuchajcie morscy bracia, jak w linach śpiewa wiatr<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>O strasznym losie majtka co zwał się Jan van Dyck<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Pod nogą pokład chwiejny, portowych tawern gwar<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Północne Morze wokół i przyjaźń w szklance grogu<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>Bogactwo tylko takie znał<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-		
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>Dowodził nim kapitan co morski zgłębił fach,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Pochodził z Amsterdamu i piękną córkę miał<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Niejeden więc marynarz u stóp jej serce kładł,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Kapitan był jak Morze Północne, zimne morze<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>Żadnemu chłopcu nigdy nie był rad.<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>A gdy hiszpańskich królów z Holandii wygnał lud,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Kapitan powiódł okręt swój, strzec Amsterdamu wrót<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Jesienny czas już nastał, świat cały tonął we mgle,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Wtem z masztu ktoś zawołał: hiszpański widzę okręt<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>Krzyknęli więc: Hiszpanom śmierć!<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>Usłyszał to kapitan, na pokład spiesznie zbiegł<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Znak krzyża skreślił szpadą i tak załodze rzekł<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Ten z was, co wrogi okręt na morza pośle dno,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Zostanie nagrodzony bogactwem niezmierzonym,<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>Za żonę pojmie córkę mą.<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>Spojrzeli na grzywacze i w oczach mieli strach,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Gdy nie chce nikt — ja pójdę! — powiedział Jan van Dyck<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>W jesienne morze skoczył, popłynął poprzez toń,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Łaskawe bądź mi morze i ocal mnie Boże<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>Szepnął dziurawiąc galeonu dno.<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never"><ch a="G"/>Wśród fal Jan znowu płynie, gdzie okręt czekać miał<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Wtem widzi, że jego okręt wziął kurs na Amsterdam<ch a="D"/></row>
-			<row important_over="never"><ch a="G"/>Oszukał go kapitan, miast córki śmierć mu dał,<ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="a"/>Dokoła tylko Morze Północne, zimne morze<ch a="G"/><ch a="e"/></row>
-			<row important_over="never"><ch a="a"/>I ludzkiej zdrady gorzki smak.<ch a="D"/><ch a="G"/></row>
-			<row important_over="false" style="instr"><ch a="G"/><ch a="C"/><ch a="G"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-		</block>
-	</lyric>
-	<music metre="">
-		<guitar barre="0"/>
-	</music>
-	<status>
-		<verificators/>
-		<to_do/>
-		<done/>
-	</status>
-	<keywords/>
-	<music_source/>
-	<album/>
-	<genre/>
+  <alias>Słuchajcie morscy bracia</alias>
+  <text_author type="solo">Tomasz Opoka</text_author>
+  <comment>Ballada żeglarska Tomasza Opoki, będąca adaptacją utworu „Noordzee” (Boudewijn de Groot / Lennaert Nijgh), wywodzącego się z tradycyjnej ballady angielskiej „The Golden Vanity”.</comment>
+  <composer type="solo">Boudewijn de Groot</composer>
+  <artist type="solo">Tomasz Opoka</artist>
+  <original_title>Noordzee</original_title>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="G"/>Słuchajcie, morscy bracia, jak <ch a="C"/>w linach <ch a="G"/>śpiewa <ch a="C"/>wiatr, <ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>O strasznym losie majtka, co <ch a="D"/>zwał się Jan van Dyck.</row>
+      <row important_over="true"><ch a="G"/>Pod nogą pokład chwiejny, por<ch a="C"/>towych <ch a="G"/>tawern <ch a="C"/>gwar, <ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Północne Morze wokół i <ch a="G"/>przyjaźń w szklance <ch a="e"/>grogu –</row>
+      <row important_over="true"><ch a="a"/>Bogactwo <ch a="D"/>tylko takie <ch a="G"/>znał.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Dowodził nim kapitan, co <ch a="C"/>morski <ch a="G"/>zgłębił <ch a="C"/>fach, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Pochodził z Amsterdamu i <ch a="D"/>piękną córkę miał.</row>
+      <row important_over="false"><ch a="G"/>Niejeden więc marynarz u <ch a="C"/>stóp jej <ch a="G"/>serce <ch a="C"/>kładł, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Kapitan był jak Morze Pół<ch a="G"/>nocne, zimne <ch a="e"/>morze,</row>
+      <row important_over="false"><ch a="a"/>Żadnemu <ch a="D"/>chłopcu nie był <ch a="G"/>rad.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>A gdy hiszpańskich królów z Ho<ch a="C"/>landii <ch a="G"/>wygnał <ch a="C"/>lud, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Kapitan powiódł okręt swój <ch a="D"/>strzec Amsterdamu wrót.</row>
+      <row important_over="false"><ch a="G"/>Jesienny czas już nastał, świat <ch a="C"/>cały <ch a="G"/>tonął <ch a="C"/>we mgle, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Wtem z masztu ktoś zawołał: „Hisz<ch a="G"/>pański widzę <ch a="e"/>okręt!”.</row>
+      <row important_over="false"><ch a="a"/>Krzyknęli <ch a="D"/>więc: „Hiszpanom <ch a="G"/>śmierć!”.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Usłyszał to kapitan, na <ch a="C"/>pokład <ch a="G"/>spiesznie <ch a="C"/>zbiegł, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Znak krzyża skreślił szpadą i <ch a="D"/>tak załodze rzekł:</row>
+      <row important_over="false">„Ten <ch a="G"/>z was, co wrogi okręt na <ch a="C"/>morza <ch a="G"/>pośle <ch a="C"/>dno, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Zostanie nagrodzony bo<ch a="G"/>gactwem niezmie<ch a="e"/>rzonym,</row>
+      <row important_over="false"><ch a="a"/>Za żonę <ch a="D"/>pojmie córkę <ch a="G"/>mą”.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Spojrzeli na grzywacze i <ch a="C"/>w oczach <ch a="G"/>mieli <ch a="C"/>strach. <ch a="G"/></row>
+      <row important_over="false">„Gdy <ch a="a"/>nie chce nikt – ja pójdę!” – po<ch a="D"/>wiedział Jan van Dyck.</row>
+      <row important_over="false"><ch a="G"/>W jesienne morze skoczył, po<ch a="C"/>płynął <ch a="G"/>poprzez <ch a="C"/>toń: <ch a="G"/></row>
+      <row important_over="false">„Łas<ch a="a"/>kawe bądź mi, morze, i <ch a="G"/>ocal mnie, o <ch a="e"/>Boże!” –</row>
+      <row important_over="false"><ch a="a"/>Szepnął, dziu<ch a="D"/>rawiąc galeo<ch a="G"/>nu dno.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Wśród fal Jan znowu płynie, gdzie <ch a="C"/>okręt <ch a="G"/>czekać <ch a="C"/>miał, <ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Wtem widzi, że jego okręt wziął <ch a="D"/>kurs na Amsterdam.</row>
+      <row important_over="false">O<ch a="G"/>szukał go kapitan, miast <ch a="C"/>córki <ch a="G"/>śmierć mu <ch a="C"/>dał, <ch a="G"/></row>
+      <row important_over="false">Do<ch a="a"/>koła tylko Morze Pół<ch a="G"/>nocne, zimne <ch a="e"/>morze,</row>
+      <row important_over="false"><ch a="a"/>I ludzkiej <ch a="D"/>zdrady gorzki <ch a="G"/>smak.</row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="C"/> <ch a="G"/> <ch a="C"/> <ch a="G"/></row>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>szanta</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/tomasz-opoka/morze-polnocne</verificator>
+    </verificators>
+  </status>
 </song>
