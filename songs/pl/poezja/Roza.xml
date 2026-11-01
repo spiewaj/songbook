@@ -1,58 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Róża" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Czym purpurowe maki na ciemną rzucał drogę</alias>
 	<text_author type="solo">Bolesław Leśmian</text_author>
-	<comment></comment>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Czym purpurowe maki<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Na ciemną rzucał drogę?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Sen miałem, ale jaki?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Przypomnieć już nie mogę<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="true"><ch a="E"/>Czym purp<ch a="A2"/>urowe maki <ch a="E"/><ch a="A2"/></row>
+			<row important_over="true"><ch a="E"/>Na ci<ch a="A2"/>emną rzucał drogę? <ch a="E"/><ch a="A2"/></row>
+			<row important_over="true"><ch a="E"/>Sen m<ch a="A2"/>iałem, ale jaki? <ch a="E"/><ch a="A2"/></row>
+			<row important_over="true"><ch a="E"/>Przypo<ch a="A2"/>mnieć już nie mogę <ch a="E"/><ch a="A2"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Twojeż to były usta?<ch a="H"/><ch a="A"/></row>
-			<row important_over="never">Moje to były dłonie?<ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Głąb sadu mego pusta<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">We wrotach księżyc płonie<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">Twojeż to były usta?<ch a="A"/><ch a="E"/></row>
-			<row important_over="never">A moje były dłonie?<ch a="fis"/><ch a="A2"/><ch a="E"/></row>
+			<row important_over="true"><ch a="H"/>Twojeż to były <ch a="A"/>usta?</row>
+			<row important_over="true"><ch a="E"/>Moje to były <ch a="A2"/>dłonie?</row>
+			<row important_over="true"><ch a="cis"/>Głąb sadu mego p<ch a="fis"/>usta</row>
+			<row important_over="true"><ch a="A"/>We wrotach księżyc p<ch a="E"/>łonie</row>
+			<row important_over="true"><ch a="A"/>Twojeż to były <ch a="E"/>usta?</row>
+			<row important_over="true">A moj<ch a="fis"/>e by<ch a="A2"/>ły dłoni<ch a="E"/>e?</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Noce w jeziorach witam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Kiedy Ty kwitniesz różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Dni się za dn<ch a="A2"/>iami dłużą <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Noce w jez<ch a="A2"/>iorach witam <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Kiedy Ty kw<ch a="A2"/>itniesz, różo? <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Ja nigdy n<ch a="A2"/>ie zakwitam <ch a="E"/><ch a="A2"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Ja nigdy nie zakwitam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Twójże to głos o różo?<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Słowo po słowie chwytam<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
-			<row important_over="never">Dni się za dniami dłużą<ch a="E"/><ch a="A2"/><ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Ja nigdy n<ch a="A2"/>ie zakwitam <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Twójże to gł<ch a="A2"/>os, o różo? <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Słowo po sł<ch a="A2"/>owie chwytam <ch a="E"/><ch a="A2"/></row>
+			<row important_over="false"><ch a="E"/>Dni się za dn<ch a="A2"/>iami dłużą <ch a="E"/><ch a="A2"/></row>
 		</block>
 	</lyric>
-	
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>U źródeł tęsknot (1998)</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/roza</music_source>
 </song>
