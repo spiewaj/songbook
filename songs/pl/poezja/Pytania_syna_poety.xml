@@ -1,72 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pytania syna poety">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Ja poeta i łachmyta</alias>
+  <text_author type="solo">Andrzej Janeczko</text_author>
+  <composer type="solo">Andrzej Janeczko</composer>
+  <artist type="band">Trzeci Oddech Kaczuchy</artist>
   <lyric>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>Na na na…<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Na na na…<ch a="e"/></row>
-        <row important_over="never"><ch a="F"/>Na na na…<ch a="c"/></row>
-        <row important_over="never"><ch a="G"/>Na na na…</row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true"><ch a="C"/>Na na na… <ch a="G"/></row>
+        <row important_over="true"><ch a="a"/>Na na na… <ch a="e"/></row>
+        <row important_over="true"><ch a="F"/>Na na na… <ch a="C"/></row>
+        <row important_over="true"><ch a="G"/>Na na na…</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Drogi ojcze ile trzeba<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Wydać na kawałek chleba<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>I czy można proszę taty<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Taki chleb kupić na raty<ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Ja poeta i <ch a="G"/>łachmyta,</row>
+      <row important_over="true"><ch a="a"/>milczę, kiedy <ch a="F"/>syn mnie <ch a="C"/>pyta:<ch a="G"/></row>
+      <row important_over="true">„<ch a="C"/>Drogi ojcze, <ch a="G"/>ile trzeba</row>
+      <row important_over="true"><ch a="a"/>wydać na bo<ch a="F"/>chenek <ch a="C"/>chleba<ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>i czy można, <ch a="F"/>proszę <ch a="C"/>taty,<ch a="G"/></row>
+      <row important_over="true"><ch a="e"/>taki chleb ku<ch a="a"/>pić na raty?”</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Czy to prawda mój ty stary<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Że na przykład taki Paryż<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Ma na każdym większym płocie<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Rozlepione bezrobocie<ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Ja poeta i <ch a="G"/>łachmyta,</row>
+      <row important_over="false"><ch a="a"/>milczę, kiedy <ch a="F"/>syn mnie <ch a="C"/>pyta:<ch a="G"/></row>
+      <row important_over="false">„<ch a="C"/>Czy to prawda, <ch a="G"/>mój ty stary,</row>
+      <row important_over="false"><ch a="a"/>że na przykład <ch a="F"/>taki <ch a="C"/>Paryż<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>ma na każdym <ch a="F"/>większym <ch a="C"/>płocie<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>rozlepione <ch a="a"/>bezrobocie?”</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Co jest lepsze w życiu tato<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Skończyć studia czy łopatą<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Wrzucać węgiel do kopalni<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Lub wyżymać mózgi w pralni<ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>Ja poeta i <ch a="G"/>łachmyta,</row>
+      <row important_over="false"><ch a="a"/>milczę, kiedy <ch a="F"/>syn mnie <ch a="C"/>pyta:<ch a="G"/></row>
+      <row important_over="false">„<ch a="C"/>Co jest lepsze <ch a="G"/>w życiu, tato:</row>
+      <row important_over="false"><ch a="a"/>skończyć studia <ch a="F"/>czy ło<ch a="C"/>patą<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>wrzucać węgiel <ch a="F"/>do ko<ch a="C"/>palni<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>lub wyżymać <ch a="a"/>mózgi w pralni?”</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Ja poeta i kachmyta<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Milczę kiedy syn mnie pyta<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Czy sportowa ostra miłość<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Wpływa zgubnie na otyłość<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Czy love story diabła warte<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Musi skończyć się bękartem<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Przestań pytać bo już nocka<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Ja poeta i <ch a="G"/>łachmyta,</row>
+      <row important_over="false"><ch a="a"/>milczę, kiedy <ch a="F"/>syn mnie <ch a="C"/>pyta:<ch a="G"/></row>
+      <row important_over="false">„<ch a="C"/>Czy sportowa, <ch a="G"/>ostra miłość</row>
+      <row important_over="false"><ch a="a"/>wpływa zgubnie <ch a="F"/>na o<ch a="C"/>tyłość?<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Czy love story <ch a="F"/>diabła <ch a="C"/>warte<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>musi skończyć <ch a="a"/>się bękartem?”</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Zamknij oczy possij smoczka<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Chcesz to zmienię ci pieluszkę<ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>I pomodlę nad łóżeczkiem<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a"/>Za obrońców naszych granic<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Za Rejtana i kochanie<ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Za najwyższą ludzką rację<ch a="F"/><ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Za umiłowaną Partię!<ch a="a"/></row>
+      <row important_over="false">„<ch a="C"/>Przestań pytać, <ch a="G"/>bo już nocka,</row>
+      <row important_over="false"><ch a="a"/>zamknij oczy, <ch a="F"/>possij <ch a="C"/>smoczka.<ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Chcesz, to zmienię <ch a="G"/>ci pieluszkę</row>
+      <row important_over="false"><ch a="a"/>i pomodlę <ch a="F"/>nad łóż<ch a="C"/>eczkiem:<ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Za obrońców <ch a="F"/>naszych <ch a="C"/>granic,<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>za Rejtana <ch a="a"/>i kochanie,</row>
+      <row important_over="false"><ch a="a"/>za najwyższą <ch a="F"/>ludzką <ch a="C"/>rację,<ch a="G"/></row>
+      <row important_over="false"><ch a="e"/>za umiłowaną <ch a="a"/>Partię!”</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="1"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>piosenka kabaretowa</genre>
   <status>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Pytania_syna_poety</verificator>
+      <verificator>https://spiewnik.wywrota.pl/trzeci-oddech-kaczuchy/pytania-syna-poety</verificator>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
