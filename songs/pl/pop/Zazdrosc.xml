@@ -4,15 +4,15 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Są <ch a="h"/>chwile, <ch a="e"/>gdy wo<ch a="A"/>lała<ch a="fis"/>bym <ch a="h"/>martwym <ch a="e"/>widzieć <ch a="A"/>cię,<ch a="fis"/></row>
-			<row important_over="never">nie musiałabym się tobą dzielić, nie, nie.</row>
-			<row important_over="never">Gdybym mogła, schowałabym twoje oczy w mojej kieszeni,</row>
-			<row important_over="never">żebyś nie mógł oglądać tych, które są dla nas zagrożeniem.</row>
+			<row important_over="false">nie mu<ch a="h"/>siała<ch a="e"/>bym się <ch a="A"/>tobą <ch a="fis"/>dzielić, <ch a="h"/>nie, <ch a="e"/>nie.<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Gdybym <ch a="h"/>mogła, scho<ch a="e"/>wałabym <ch a="A"/>twoje <ch a="fis"/>oczy <ch a="h"/>w mojej <ch a="e"/>kiesze<ch a="A"/>ni,<ch a="fis"/></row>
+			<row important_over="false">żebyś <ch a="h"/>nie mógł o<ch a="e"/>glądać tych, <ch a="A"/>które są <ch a="fis"/>dla nas <ch a="h"/>zagro<ch a="e"/>żenie<ch a="A"/>m.<ch a="fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Do pracy nie mogę puścić cię, nie, nie,</row>
-			<row important_over="never">tam tyle kobiet, każda w myślach gwałci cię.</row>
-			<row important_over="never">Złotą klatkę sprawię ci, będę karmić owocami,</row>
-			<row important_over="never">a do nogi przymocuję złotą kulę z diamentami.</row>
+			<row important_over="false">Do pra<ch a="h"/>cy nie <ch a="e"/>mogę <ch a="A"/>puścić <ch a="fis"/>cię, <ch a="h"/>nie, <ch a="e"/>nie,<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">tam ty<ch a="h"/>le ko<ch a="e"/>biet, <ch a="A"/>każda w <ch a="fis"/>myślach <ch a="h"/>gwał<ch a="e"/>ci <ch a="A"/>cię.<ch a="fis"/></row>
+			<row important_over="false">Złotą <ch a="h"/>klatkę spra<ch a="e"/>wię ci, <ch a="A"/>będę <ch a="fis"/>karmić <ch a="h"/>owo<ch a="e"/>cami,<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">a do <ch a="h"/>nogi przy<ch a="e"/>mocuję <ch a="A"/>złotą <ch a="fis"/>kulę <ch a="h"/>z dia<ch a="e"/>menta<ch a="A"/>mi.<ch a="fis"/></row>
 		</block>
 	</lyric>
 	<music metre="4/4">
