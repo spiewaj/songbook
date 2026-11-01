@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Michał Wołodyjowski">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>W stepie szerokim którego okiem<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Nawet sokolim nie zmierzysz<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Wstań unieś głowę wsłuchaj się w słowa<ch a="d"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="a"/>Choć mały całkiem rębacz wspaniały<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Wyrósł nad pierwsze szermierze<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>I wieki całe będą śpiewały<ch a="d"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Ty któryś w boju i ty coś w znoju<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>I ty co uczysz i mierzysz<ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Stań unieś głowę wsłuchaj się w słowa<ch a="d"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Pieśni o małym rycerzu<ch a="E"/><ch a="a"/><ch a="d"/><ch a="a"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="3"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń o małym rycerzu">
+	<alias>Michał Wołodyjowski, W stepie szerokim</alias>
+	<text_author type="solo">Jerzy Lutowski</text_author>
+	<comment>Piosenka z serialu telewizyjnego „Przygody pana Michała” (1969).</comment>
+	<composer type="solo">Wojciech Kilar</composer>
+	<artist type="solo">Leszek Herdegen</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/>W stepie szerokim, kt<ch a="C"/>órego <ch a="E"/>okiem</row>
+			<row important_over="true"><ch a="a"/>Nawet sokolim ni<ch a="C"/>e zmi<ch a="E"/>erzysz,</row>
+			<row important_over="true"><ch a="a"/>Wstań, unieś głowę, wsł<ch a="d"/>uchaj się w sł<ch a="a"/>owa</row>
+			<row important_over="true">Pi<ch a="E"/>eśni o małym ryc<ch a="a"/>erzu.<ch a="d"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Choć mały ciałem, r<ch a="C"/>ębacz wspani<ch a="E"/>ały,</row>
+			<row important_over="false"><ch a="a"/>Wyrósł nad pierwsze sz<ch a="C"/>ermi<ch a="E"/>erze</row>
+			<row important_over="false"><ch a="a"/>I wieki całe b<ch a="d"/>ędą śpiew<ch a="a"/>ały</row>
+			<row important_over="false">Pi<ch a="E"/>eśni o małym ryc<ch a="a"/>erzu.<ch a="d"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Ty, któryś w boju, i t<ch a="C"/>y, coś w zn<ch a="E"/>oju,</row>
+			<row important_over="false"><ch a="a"/>I ty, co liczysz i mi<ch a="C"/>erz<ch a="E"/>ysz,</row>
+			<row important_over="false"><ch a="a"/>Wstań, unieś głowę, wsł<ch a="d"/>uchaj się w sł<ch a="a"/>owa</row>
+			<row important_over="false">Pi<ch a="E"/>eśni o małym ryc<ch a="a"/>erzu.<ch a="d"/><ch a="a"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Przygody pana Michała</album>
+	<genre>Piosenka filmowa</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
