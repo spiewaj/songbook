@@ -1,120 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jałta">
-	<alias></alias>
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Jałta" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Jak nowa — rezydencja carów</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
+	<comment>Piosenka napisana 8 lutego 1984 r., opisująca konferencję jałtańską z 1945 r.</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="true">Jak n<ch a="D"/>owa rezyd<ch a="G"/>encja c<ch a="D"/>arów</row>
-			<row important_over="true">Sł<ch a="D"/>użba swe obowi<ch a="A"/>ązki zn<ch a="D"/>a</row>
-			<row important_over="false">Pr<ch a="D"/>ecz wysiedlono st<ch a="G"/>ąd Tat<ch a="D"/>arów</row>
-			<row important_over="false">Gdzi<ch a="D"/>e na świat wyrok zap<ch a="A"/>aść m<ch a="D"/>a</row>
-			<row important_over="false"><ch a="D"/>Okna już widzą sł<ch a="G"/>yszą ści<ch a="D"/>any</row>
-			<row important_over="false">Jak k<ch a="D"/>aszle nad cyg<ch a="A"/>arem l<ch a="D"/>ew</row>
+			<row important_over="true">Jak n<ch a="D"/>owa — rezyd<ch a="G"/>encja c<ch a="D"/>arów,</row>
+			<row important_over="true">Sł<ch a="D"/>użba swe obowi<ch a="A"/>ązki zn<ch a="D"/>a;</row>
+			<row important_over="false">Pr<ch a="D"/>ecz wysiedlono st<ch a="G"/>ąd Tat<ch a="D"/>arów,</row>
+			<row important_over="false">Gdzi<ch a="D"/>e na świat wyrok zap<ch a="A"/>aść m<ch a="D"/>a.</row>
+			<row important_over="false"><ch a="D"/>Okna już widzą, sł<ch a="G"/>yszą ści<ch a="D"/>any,</row>
+			<row important_over="false">Jak k<ch a="D"/>aszle nad cyg<ch a="A"/>arem L<ch a="D"/>ew,</row>
 			<row important_over="false">J<ch a="D"/>ak skrzypi wózek p<ch a="G"/>opych<ch a="D"/>any</row>
-			<row important_over="false">Z kal<ch a="D"/>ekim demokr<ch a="A"/>atą w tl<ch a="D"/>e</row>
-			<row important_over="true">L<ch a="A"/>ecz nikt nie widzi <ch a="Fis7"/>i nie sł<ch a="h"/>yszy</row>
-			<row important_over="true">C<ch a="G"/>o robi G<ch a="D"/>óral w kr<ch a="A"/>ymską n<ch a="D"/>oc</row>
+			<row important_over="false">Z kal<ch a="D"/>ekim Demokr<ch a="A"/>atą w tl<ch a="D"/>e.</row>
+			<row important_over="true">L<ch a="A"/>ecz nikt nie widzi <ch a="Fis7"/>i nie sł<ch a="h"/>yszy,</row>
+			<row important_over="true">C<ch a="G"/>o robi G<ch a="D"/>óral w kr<ch a="A"/>ymską n<ch a="D"/>oc,</row>
 			<row important_over="false">Gd<ch a="A"/>y gestem w wiernych t<ch a="Fis7"/>owarz<ch a="h"/>yszy</row>
-			<row important_over="false">Wp<ch a="G"/>aja sw<ch a="D"/>ą legend<ch a="A"/>arną m<ch a="D"/>oc</row>
+			<row important_over="false">Wp<ch a="G"/>aja sw<ch a="D"/>ą legend<ch a="A"/>arną m<ch a="D"/>oc.</row>
 		</block>
-		<block type="other">
-			<row important_over="true">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Stal<ch a="d"/>ina</row>
-			<row important_over="false">Nie <ch a="d"/>on się za tym ws<ch a="C"/>zystkim k<ch a="d"/>rył</row>
-			<row important_over="false">Prz<ch a="d"/>ecież to nie jest j<ch a="C"/>ego w<ch a="d"/>ina</row>
-			<row important_over="false">Że Ro<ch a="d"/>osevelt w Jałcie ni<ch a="C"/>e miał s<ch a="d"/>ił</row>
+		<block type="chorus">
+			<row important_over="true">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Stal<ch a="d"/>ina —</row>
+			<row important_over="false">Nie <ch a="d"/>on się za tym ws<ch a="C"/>zystkim k<ch a="d"/>rył;</row>
+			<row important_over="false">Prz<ch a="d"/>ecież to nie jest j<ch a="C"/>ego w<ch a="d"/>ina,</row>
+			<row important_over="false">Że Ro<ch a="d"/>osevelt w Jałcie ni<ch a="C"/>e miał s<ch a="d"/>ił.</row>
 			<row important_over="false">Gd<ch a="d"/>y się triumwirat wsp<ch a="C"/>ólnie br<ch a="d"/>ał</row>
-			<row important_over="false">Za świ<ch a="d"/>ata histor<ch a="C"/>yczne kszt<ch a="d"/>ałty</row>
-			<row important_over="true">Wiad<ch a="d"/>omo kt<ch a="C"/>o Cez<ch a="d"/>ara gr<ch a="C"/>ał</row>
-			<row important_over="false">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę</row>
+			<row important_over="false">Za świ<ch a="d"/>ata histor<ch a="C"/>yczne kszt<ch a="d"/>ałty —</row>
+			<row important_over="true">Wiad<ch a="d"/>omo, kt<ch a="C"/>o Cez<ch a="d"/>ara gr<ch a="C"/>ał —</row>
+			<row important_over="true">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę!</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">W resztce cygara mdłym ogniku<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Pływała Lwa Albionu twarz<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Nie rozmawiajmy o Bałtyku<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Po co w Europie tyle państw<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Polacy — chodzi tylko o to<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Żeby gdzieś w końcu mogli żyć<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Z tą Polską zawsze są kłopoty<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Kaleka troszczy się i drży<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="true">Lecz uspokaja ich gospodarz<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">Pożółkły dłonią głaszcząc wąs<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Mój kraj pomocną dłoń im poda<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">Potem niech rządzą się jak chcą<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="false">W r<ch a="D"/>esztce cygara mdł<ch a="G"/>ym ogn<ch a="D"/>iku</row>
+			<row important_over="false">Pł<ch a="D"/>ywała Lwa Albi<ch a="A"/>onu tw<ch a="D"/>arz.</row>
+			<row important_over="false">Ni<ch a="D"/>e rozmawiajmy <ch a="G"/>o Bałt<ch a="D"/>yku —</row>
+			<row important_over="false">P<ch a="D"/>o co w Europie t<ch a="A"/>yle p<ch a="D"/>aństw?</row>
+			<row important_over="false">Pol<ch a="D"/>acy — chodzi t<ch a="G"/>ylko o t<ch a="D"/>o,</row>
+			<row important_over="false">Ż<ch a="D"/>eby gdzieś w końcu m<ch a="A"/>ogli ż<ch a="D"/>yć.</row>
+			<row important_over="false">Z tą P<ch a="D"/>olską zawsze s<ch a="G"/>ą kłop<ch a="D"/>oty —</row>
+			<row important_over="false">Kal<ch a="D"/>eka troszczy si<ch a="A"/>ę i d<ch a="D"/>rży.</row>
+			<row important_over="false">L<ch a="A"/>ecz uspokaja <ch a="Fis7"/>ich gospod<ch a="h"/>arz,</row>
+			<row important_over="false">P<ch a="G"/>ożółkłą dł<ch a="D"/>onią gł<ch a="A"/>aszcząc w<ch a="D"/>ąs:</row>
+			<row important_over="false">M<ch a="A"/>ój kraj pomocną dł<ch a="Fis7"/>oń im p<ch a="h"/>oda,</row>
+			<row important_over="false">P<ch a="G"/>otem niech rz<ch a="D"/>ądzą si<ch a="A"/>ę, jak chc<ch a="D"/>ą.</row>
 		</block>
-		<block type="other">
-			<row important_over="false">Nie miejcie żalu do Churchilla<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Nie on wszak za tym wszystkim stał<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Wszak tylko po to tylko był tryumwirat<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">By Stalin dostał to co chciał<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Komu zależy na pokoju<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Ten zawsze cofnie się przed gwałtem<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Wygra, kto się nie boi wojen<ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-			<row important_over="false">I tak rozumieć trzeba Jałtę<ch a="D"/><ch a="A"/><ch a="D"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="false">Ściana pałacu słuch napina<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Gdy do kaleki mówi Lew<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Ja wierzę w szczerość słów Stalina<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Dba chyba o radziecką krew<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">I potakuje mu kaleka<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Niezłomny demokracji stróż<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Stalin to ktoś na miarę wieku<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Oto mąż stanu, oto wódz!<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Bo sojusz wielkich to nie zmowa<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">To przyszłość świata, wolność, ład<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Przy nim i słaby się uchowa<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">I swoją część otrzyma strat<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
-		</block>
-		<block type="other">
-			<row important_over="false">Nie miejcie żalu do Roosevelta<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Pomyślcie ile musiał znieść<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Fajka, dym cygar i butelka<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Churchill co miał sojusze gdzieś<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Wszakże radziły trzy imperia<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Nad granicami co zatarte<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">W szczegółach zaś już siedział Beria<ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-			<row important_over="false">I tak rozumieć trzeba Jałtę<ch a="D"/><ch a="A"/><ch a="D"/></row>
+		<block type="chorus">
+			<row important_over="false">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Church<ch a="d"/>illa,</row>
+			<row important_over="false">Nie <ch a="d"/>on wszak za tym ws<ch a="C"/>zystkim st<ch a="d"/>ał.</row>
+			<row important_over="false">Wszak t<ch a="d"/>ylko po to b<ch a="C"/>ył tryumw<ch a="d"/>irat,</row>
+			<row important_over="false">By St<ch a="d"/>alin dostał t<ch a="C"/>o, co chci<ch a="d"/>ał.</row>
+			<row important_over="false">K<ch a="d"/>omu zależy n<ch a="C"/>a pok<ch a="d"/>oju,</row>
+			<row important_over="false">Ten z<ch a="d"/>awsze cofnie si<ch a="C"/>ę przed gw<ch a="d"/>ałtem.</row>
+			<row important_over="false">W<ch a="d"/>ygra, kto si<ch a="C"/>ę nie b<ch a="d"/>oi w<ch a="C"/>ojen —</row>
+			<row important_over="false">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę!</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Więc delegacje odleciały<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Ucichł na Krymie carski gród<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Gdy na zachodzie działa grzmiały<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Transporty ludzi szły na wschód<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Świat wolny święcił potem tryumf<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Opustoszały nagle fronty<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">W kwiatach już prezydenta grób<ch a="D"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="false">A tam transporty i transporty<ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Czerwony świt się z nocy budzi<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">Z woli wyborców odszedł Churchill<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">A tam transporty żywych ludzi<ch a="e"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="false">A tam obozy długiej śmierci<ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Ści<ch a="D"/>ana pałacu sł<ch a="G"/>uch nap<ch a="D"/>ina,</row>
+			<row important_over="false">Gd<ch a="D"/>y do kaleki m<ch a="A"/>ówi L<ch a="D"/>ew:</row>
+			<row important_over="false">— J<ch a="D"/>a wierzę w szczerość sł<ch a="G"/>ów Stal<ch a="D"/>ina,</row>
+			<row important_over="false">Db<ch a="D"/>a chyba o radzi<ch a="A"/>ecką kr<ch a="D"/>ew.</row>
+			<row important_over="false">I p<ch a="D"/>otakuje m<ch a="G"/>u Kal<ch a="D"/>eka,</row>
+			<row important_over="false">Ni<ch a="D"/>ezłomny demokr<ch a="A"/>acji str<ch a="D"/>óż:</row>
+			<row important_over="false">— St<ch a="D"/>alin to ktoś na mi<ch a="G"/>arę wi<ch a="D"/>eku,</row>
+			<row important_over="false">Oto m<ch a="D"/>ąż stanu, <ch a="A"/>oto w<ch a="D"/>ódz!</row>
+			<row important_over="false">B<ch a="A"/>o sojusz wielkich t<ch a="Fis7"/>o nie zm<ch a="h"/>owa,</row>
+			<row important_over="false">T<ch a="G"/>o przyszłość świ<ch a="D"/>ata, w<ch a="A"/>olność, ł<ch a="D"/>ad.</row>
+			<row important_over="false">Prz<ch a="A"/>y nim i słaby si<ch a="Fis7"/>ę uch<ch a="h"/>owa</row>
+			<row important_over="false">I sw<ch a="G"/>oją część otrz<ch a="D"/>yma str<ch a="A"/>at.<ch a="D"/></row>
 		</block>
-		<block type="other">
-			<row important_over="false">Nie miejcie więc do Trójcy żalu<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Wyrok historii za nią stał<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Opracowany w każdym calu<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Każdy z nich chronił, co już miał<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Mógł mylić się, zwiedziony chwilą<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Nie był Polakiem ani Bałtem<ch a="d"/><ch a="C"/><ch a="d"/></row>
-			<row important_over="false">Tylko ofiary się nie mylą<ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-			<row important_over="false">I tak rozumieć trzeba Jałtę<ch a="D"/><ch a="A"/><ch a="D"/></row>
+		<block type="chorus">
+			<row important_over="false">Nie mi<ch a="d"/>ejcie żalu d<ch a="C"/>o Roosev<ch a="d"/>elta,</row>
+			<row important_over="false">Pom<ch a="d"/>yślcie, ile m<ch a="C"/>usiał zni<ch a="d"/>eść:</row>
+			<row important_over="false">F<ch a="d"/>ajka, dym cygar <ch a="C"/>i but<ch a="d"/>elka,</row>
+			<row important_over="false">Ch<ch a="d"/>urchill, co miał soj<ch a="C"/>usze gdzi<ch a="d"/>eś.</row>
+			<row important_over="false">Wsz<ch a="d"/>akże radziły trz<ch a="C"/>y imp<ch a="d"/>eria</row>
+			<row important_over="false">Nad gr<ch a="d"/>anicami, c<ch a="C"/>o zat<ch a="d"/>arte;</row>
+			<row important_over="false">W szcz<ch a="d"/>egółach z<ch a="C"/>aś już si<ch a="d"/>edział B<ch a="C"/>eria —</row>
+			<row important_over="false">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="D"/>ęc delegacje <ch a="G"/>odleci<ch a="D"/>ały,</row>
+			<row important_over="false">Uc<ch a="D"/>ichł na Krymie c<ch a="A"/>arski gr<ch a="D"/>ód.</row>
+			<row important_over="false">Gd<ch a="D"/>y na zachodzie dzi<ch a="G"/>ała grzmi<ch a="D"/>ały,</row>
+			<row important_over="false">Transp<ch a="D"/>orty ludzi szł<ch a="A"/>y na wsch<ch a="D"/>ód.</row>
+			<row important_over="false">Świ<ch a="D"/>at wolny święcił p<ch a="G"/>otem try<ch a="D"/>umf,</row>
+			<row important_over="false">Op<ch a="D"/>ustoszały n<ch a="A"/>agle fr<ch a="D"/>onty,</row>
+			<row important_over="false">W kwi<ch a="D"/>atach już prezyd<ch a="G"/>enta gr<ch a="D"/>ób,</row>
+			<row important_over="false">A t<ch a="D"/>am transporty <ch a="A"/>i transp<ch a="D"/>orty.</row>
+			<row important_over="false">Czerw<ch a="A"/>ony świt się z n<ch a="Fis7"/>ocy b<ch a="h"/>udzi,</row>
+			<row important_over="false">Z w<ch a="G"/>oli wyb<ch a="D"/>orców <ch a="A"/>odszedł Ch<ch a="D"/>urchill,</row>
+			<row important_over="false">A t<ch a="A"/>am transporty ż<ch a="Fis7"/>ywych l<ch a="h"/>udzi,</row>
+			<row important_over="false">A t<ch a="G"/>am ob<ch a="D"/>ozy dł<ch a="A"/>ugiej śmi<ch a="D"/>erci...</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Nie mi<ch a="d"/>ejcie więc do Tr<ch a="C"/>ójcy ż<ch a="d"/>alu,</row>
+			<row important_over="false">W<ch a="d"/>yrok historii z<ch a="C"/>a nią st<ch a="d"/>ał,</row>
+			<row important_over="false">Opr<ch a="d"/>acowany w k<ch a="C"/>ażdym c<ch a="d"/>alu —</row>
+			<row important_over="false">K<ch a="d"/>ażdy z nich chronił, c<ch a="C"/>o już mi<ch a="d"/>ał.</row>
+			<row important_over="false">M<ch a="d"/>ógł mylić się, zwi<ch a="C"/>edziony chw<ch a="d"/>ilą —</row>
+			<row important_over="false">Nie b<ch a="d"/>ył Polakiem <ch a="C"/>ani B<ch a="d"/>ałtem.</row>
+			<row important_over="false">T<ch a="d"/>ylko ofiary si<ch a="C"/>ę nie m<ch a="d"/>ylą<ch a="C"/> —</row>
+			<row important_over="false">I t<ch a="D"/>ak rozumieć trz<ch a="A"/>eba J<ch a="D"/>ałtę!</row>
 		</block>
 	</lyric>
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<album>Live</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators/>
-		<to_do></to_do>	<done/>
-	</status>	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabor</verificator>
+		</verificators>
+	</status>
 </song>
