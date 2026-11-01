@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Krąg" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Zamkniemy w kręgu światło</alias>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Tradycyjna piosenka harcerska śpiewana w obrzędowym kręgu przy ognisku lub na zakończenie zbiórki.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">Piosenka harcerska</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Zamkni<ch a="D"/>emy w kr<ch a="A"/>ęgu świ<ch a="D"/>atło</row>
@@ -17,7 +15,7 @@
 			<row important_over="false">By ni<ch a="G"/>e uci<ch a="D"/>ekła st<ch a="A"/>ąd.</row>
 			<bis times="2">
 				<row important_over="true">A p<ch a="G"/>otem br<ch a="A"/>atnie sł<ch a="D"/>ow<ch a="G"/>o</row>
-				<row important_over="false">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>
+				<row important_over="true">Pod<ch a="D"/>amy z r<ch a="A"/>ąk do r<ch a="D"/>ąk.</row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -46,11 +44,9 @@
 		</block>
 	</lyric>
 	<music metre="3/4">
-		<guitar/>
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Piosenka harcerska</genre>
+	<genre>piosenka harcerska</genre>
 	<status>
 		<done>
 			<text/>
@@ -60,7 +56,5 @@
 		<verificators>
 			<verificator>Michał Korch</verificator>
 		</verificators>
-		<to_do>Chyba autorzy nieznani</to_do>
 	</status>
-	<music_source></music_source>
 </song>
