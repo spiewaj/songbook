@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Idą leśni">
-  <text_author type="solo">Jerzy Jurandot</text_author>
-  <composer>Jerzy Wasowski</composer>
-  <artist type="solo">Janusz Zakrzeński</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="a"/>Nie ma nikt na świecie domu j<ch a="E"/>ak my m<ch a="E7"/>amy, </row>
-      <row important_over="true"><ch a="E7"/>Jest zielony latem , zima śni<ch a="a"/>eżnobiały,</row>
-      <row important_over="true"><ch a="A7"/>Mamy dach z gałęzi, z mchu mi<ch a="d"/>ękkiego łóżko, </row>
-      <row important_over="true"><ch a="H7"/>Lampa jest nam księżyc ponad l<ch a="E"/>eśna dr<ch a="E7"/>óżka,</row>
-    </block>
-    <block type="chorus">
-      <row important_over="true"><ch a="a"/>Idą, idą leśni, k<ch a="E7"/>ompas maja z gwiazd, </row>
-      <row important_over="false"><ch a="E7"/>Nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las, </row>
-      <row important_over="false"><ch a="A7"/>Idą, idą leśni, d<ch a="d"/>rogę leśnym daj, </row>
-      <row important_over="true"><ch a="a"/>Tam gdzie my jesteśmy, tam jest wol<ch a="E"/>ny k<ch a="a"/>raj. </row>
-    </block>
-    <block type="verse">
-      <row important_over="false">Górą chmurka płynie, ptak po niebie tańczy,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="false">Dołem przez gęstwinę idą partyzanci,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="false">Drapieżniki leśne, wilków złych wataha,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Żandarm wejść tu nie chce i SS ma stracha.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">Nie wiadomo nigdy gdzie i skąd spadniemy<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="false">Mścić niemieckie krzywdy wobec polskiej ziemi,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="false">Długa nasza droga, bron ugniata ramie,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Kule są dla wroga, a ostatnia dla mnie.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">Nie martw się dziewczyno, trzeba mieć nadzieje,<ch a="a"/><ch a="E"/><ch a="E7"/></row>
-      <row important_over="false">Wszak nie wszyscy giną, może ocaleje,<ch a="E7"/><ch a="a"/></row>
-      <row important_over="false">Jak będzie ładnie wrócić do swej wioski,<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Gdy ostatni padnie żołdak hitlerowski.<ch a="H7"/><ch a="E"/><ch a="E7"/></row>
-    </block>
-  </lyric>
-  <keywords/>
-  <genre>Piosenka żołnierska</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias>Nie ma nikt na świecie domu</alias>
+	<text_author type="solo">Jerzy Jurandot</text_author>
+	<comment>Piosenka partyzancka ze sztuki „Ballada o tamtych dniach”. Słowa: Jerzy Jurandot, muzyka: Jerzy Wasowski.</comment>
+	<composer type="solo">Jerzy Wasowski</composer>
+	<artist type="solo">Janusz Zakrzeński</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/>Nie ma nikt na świecie domu, j<ch a="E"/>ak my m<ch a="E7"/>amy,</row>
+			<row important_over="true"><ch a="E7"/>jest zielony latem, zimą śni<ch a="a"/>eżnobiały,</row>
+			<row important_over="true"><ch a="A7"/>mamy dach z gałęzi, z mchu mi<ch a="d"/>ękkiego łóżko,</row>
+			<row important_over="true"><ch a="H7"/>lampą jest nam księżyc ponad l<ch a="E"/>eśną dr<ch a="E7"/>óżką.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="a"/>Idą, idą leśni, k<ch a="E7"/>ompas mają z gwiazd,</row>
+			<row important_over="true"><ch a="E7"/>nikt nie słyszy pieśni, t<ch a="a"/>ylko jeden las,</row>
+			<row important_over="true"><ch a="A7"/>idą, idą leśni, d<ch a="d"/>rogę leśnym daj,</row>
+			<row important_over="true"><ch a="a"/>tam, gdzie my jesteśmy, tam jest wol<ch a="E"/>ny k<ch a="a"/>raj.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Górą chmurka płynie, ptak po n<ch a="E"/>iebie t<ch a="E7"/>ańczy,</row>
+			<row important_over="false"><ch a="E7"/>dołem przez gęstwinę idą p<ch a="a"/>artyzanci,</row>
+			<row important_over="false"><ch a="A7"/>drapieżniki leśne, wilków zł<ch a="d"/>ych wataha,</row>
+			<row important_over="false"><ch a="H7"/>żandarm wejść tu nie chce i SS m<ch a="E"/>a str<ch a="E7"/>acha.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Nie wiadomo nigdy, gdzie i sk<ch a="E"/>ąd spadn<ch a="E7"/>iemy,</row>
+			<row important_over="false"><ch a="E7"/>mścić niemieckie krzywdy wobec p<ch a="a"/>olskiej ziemi,</row>
+			<row important_over="false"><ch a="A7"/>długa nasza droga, broń ugni<ch a="d"/>ata ramię,</row>
+			<row important_over="false"><ch a="H7"/>kule są dla wroga, a ost<ch a="E"/>atnia dl<ch a="E7"/>a mnie.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Nie martw się, dziewczyno, trzeba mi<ch a="E"/>eć nadz<ch a="E7"/>ieję,</row>
+			<row important_over="false"><ch a="E7"/>wszak nie wszyscy giną, może oc<ch a="a"/>aleję,</row>
+			<row important_over="false"><ch a="A7"/>jakże będzie ładnie wrócić d<ch a="d"/>o swej wioski,</row>
+			<row important_over="false"><ch a="H7"/>gdy ostatni padnie żołdak h<ch a="E"/>itler<ch a="E7"/>owski.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>partyzanci</keyword>
+		<keyword>harcerstwo</keyword>
+		<keyword>piosenka żołnierska</keyword>
+	</keywords>
+	<genre>Piosenka partyzancka</genre>
+	<status>
+		<verificators>
+			<verificator>PT</verificator>
+		</verificators>
+		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<music_source/>
 </song>
