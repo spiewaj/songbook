@@ -1,53 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="List do świata">
-  <alias/>
-  <text_author>Andrzej Sikorowski</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Na moim podwórzu jest ściana łaciata<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Na ścianie tej dzieci list piszą do świata<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Ogromny zbiorowy list<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>W tym liście są żale i skargi dziecięce<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Pisane niedbale bazgrane naprędce<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Gdy z okien nie patrzy nikt<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Gdy z okien nie patrzy nikt<ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>Gdyby te listy czytał świat<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-        <row important_over="never"><ch a="F"/>To pewnie by się zmienił<ch a="e"/><ch a="d"/></row>
-        <row important_over="never"><ch a="G"/>A mędrcy mądrzy że aż strach<ch a="C"/><ch a="F"/></row>
-        <row important_over="never"><ch a="d"/>Milczeli zawstydzeni<ch a="F"/><ch a="G"/><ch a="G7"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Na moim podwórzu jest ściana łaciata<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Na ścianie tej dzieci list piszą do świata<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Ogromny zbiorowy list<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>A ja wam stokrotnie powiedzieć chcę dzięki<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Bo wasze pisanie i moje piosenki<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>To w mroku zapałki błysk<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>To w mroku zapałki błysk<ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>Gdyby piosenek słuchał świat<ch a="G"/><ch a="C"/><ch a="C7"/></row>
-        <row important_over="never"><ch a="F"/>To pewnie by się zmienił<ch a="e"/><ch a="d"/></row>
-        <row important_over="never"><ch a="G"/>A mędrcy mądrzy że aż strach<ch a="C"/><ch a="F"/></row>
-        <row important_over="never"><ch a="d"/>Milczeli zawstydzeni<ch a="F"/><ch a="G"/><ch a="G7"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Andrzej Sikorowski</text_author>
+	<comment/>
+	<composer type="solo">Andrzej Sikorowski</composer>
+	<artist type="band">Pod Budą</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Na m<ch a="C"/>oim podwórzu jest ści<ch a="F"/>ana łaci<ch a="C"/>ata,</row>
+			<row important_over="true">Na ści<ch a="F"/>anie tej dzieci list piszą do świ<ch a="G"/>ata,</row>
+			<row important_over="true">Ogr<ch a="C"/>omny, zbi<ch a="G"/>orowy l<ch a="C"/>ist.<ch a="G"/></row>
+			<row important_over="false">W tym l<ch a="C"/>iście są żale i sk<ch a="F"/>argi dzieci<ch a="C"/>ęce,</row>
+			<row important_over="false">Pis<ch a="F"/>ane niedbale, bazgrane napr<ch a="G"/>ędce,</row>
+			<row important_over="false">Gdy z <ch a="C"/>okien ni<ch a="G"/>e patrzy n<ch a="C"/>ikt,<ch a="G"/></row>
+			<row important_over="true">Gdy z <ch a="F"/>okien ni<ch a="G"/>e patrzy n<ch a="C"/>ikt.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">Gd<ch a="C"/>yby te l<ch a="G"/>isty cz<ch a="C"/>ytał świ<ch a="C7"/>at,</row>
+				<row important_over="true">To p<ch a="F"/>ewnie by si<ch a="e"/>ę zmi<ch a="d"/>enił,</row>
+				<row important_over="true">A m<ch a="G"/>ędrcy, mądrzy, ż<ch a="C"/>e aż str<ch a="F"/>ach,</row>
+				<row important_over="true">Milcz<ch a="d"/>eli z<ch a="F"/>awstydz<ch a="G"/>en<ch a="G7"/>i.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Na m<ch a="C"/>oim podwórzu jest ści<ch a="F"/>ana łaci<ch a="C"/>ata,</row>
+			<row important_over="false">Na ści<ch a="F"/>anie tej dzieci list piszą do świ<ch a="G"/>ata,</row>
+			<row important_over="false">Ogr<ch a="C"/>omny, zbi<ch a="G"/>orowy l<ch a="C"/>ist.<ch a="G"/></row>
+			<row important_over="false">A j<ch a="C"/>a wam stokrotnie powiedzieć chcę dzi<ch a="F"/>ęk<ch a="C"/>i,</row>
+			<row important_over="false">Bo w<ch a="F"/>asze pisanie i moje pios<ch a="G"/>enki</row>
+			<row important_over="false">To w mr<ch a="C"/>oku zap<ch a="G"/>ałki bł<ch a="C"/>ysk,<ch a="G"/></row>
+			<row important_over="false">To w mr<ch a="F"/>oku zap<ch a="G"/>ałki bł<ch a="C"/>ysk.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Gd<ch a="C"/>yby pios<ch a="G"/>enek sł<ch a="C"/>uchał świ<ch a="C7"/>at,</row>
+				<row important_over="false">To p<ch a="F"/>ewnie by si<ch a="e"/>ę zmi<ch a="d"/>enił,</row>
+				<row important_over="false">A m<ch a="G"/>ędrcy, mądrzy, ż<ch a="C"/>e aż str<ch a="F"/>ach,</row>
+				<row important_over="false">Milcz<ch a="d"/>eli z<ch a="F"/>awstydz<ch a="G"/>en<ch a="G7"/>i.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>List do świata</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
