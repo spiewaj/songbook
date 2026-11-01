@@ -1,54 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Zamknij dom" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Piosenka turystyczno-harcerska, opublikowana m.in. w śpiewniku „Samograj 3”. Śpiewana na melodię „Take Me Home, Country Roads”.</comment>
+	<composer type="band">John Denver, Bill Danoff, Taffy Nivert</composer>
+	<artist type="solo">tradycyjna</artist>
 	<translator></translator>
-	<original_title></original_title>
+	<original_title>Take Me Home, Country Roads</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Wszystkich kuszą dzikie strony,<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Wielkie góry, czyste rzeki,<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Życie wolne bez pośpiechu,<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">A z uporem w wielkich miastach duszą się.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="true"><ch a="D"/>Wszystkich kuszą dzikie <ch a="h"/>strony,</row>
+			<row important_over="true"><ch a="A"/>Wielkie góry, <ch a="G"/>czyste rz<ch a="D"/>eki,</row>
+			<row important_over="true"><ch a="D"/>Życie wolne bez po<ch a="h"/>śpiechu,</row>
+			<row important_over="true"><ch a="A"/>A z uporem w wielkich miastach <ch a="G"/>duszą s<ch a="D"/>ię.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Zamknij dom, z nami chodź,<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Chociaż ty wolnym bądź!<ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Cóż ci trzeba, buty masz,<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Zamknij dom, z nami chodź!<ch a="D"/><ch a="B"/><ch a="D"/></row>
+			<row important_over="true"><ch a="D"/>Zamknij dom, <ch a="A"/>z nami chodź,</row>
+			<row important_over="true">Ch<ch a="h"/>ociaż ty <ch a="G"/>wolnym bądź!</row>
+			<row important_over="false"><ch a="D"/>Cóż ci trzeba, <ch a="A"/>buty masz,</row>
+			<row important_over="true"><ch a="D"/>Zamknij dom, <ch a="B"/>z nami ch<ch a="D"/>odź!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Pływać w czystej zimnej wodzie,<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Potem w słońcu suszyć się,<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Patrzeć w gwiazdy, leżąc w trawie,<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Wreszcie iść wszystko jedno gdzie.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="D"/>Pływać w czystej zimnej <ch a="h"/>wodzie,</row>
+			<row important_over="false"><ch a="A"/>Potem w słońcu <ch a="G"/>suszyć s<ch a="D"/>ię,</row>
+			<row important_over="false"><ch a="D"/>Patrzeć w gwiazdy, leżąc w <ch a="h"/>trawie,</row>
+			<row important_over="false"><ch a="A"/>Wreszcie iść wszystko <ch a="G"/>jedno gdz<ch a="D"/>ie.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">A jeśli gdzieś po latach spotkasz kogoś,<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Kto jak ty dziś słucha radia i to cały jego świat<ch a="A"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Spojrzysz w oczy mu, nie będziesz<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Mógł zrozumieć, jak się da wytrzymać tak.<ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="D"/>A jeśli gdzieś po latach spotkasz <ch a="h"/>kogoś,</row>
+			<row important_over="false"><ch a="A"/>Kto jak ty dziś słucha radia <ch a="G"/>i to cały jego św<ch a="D"/>iat,</row>
+			<row important_over="false"><ch a="D"/>Spojrzysz w oczy mu, nie <ch a="h"/>będziesz</row>
+			<row important_over="false"><ch a="A"/>Mógł zrozumieć, jak się <ch a="G"/>da wytrzymać t<ch a="D"/>ak.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>piosenka turystyczna</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>http://www.eugenes.kucza.pl/spiewnik/zamknij-dom/index.htm</verificator>
+			<verificator>https://www.spiewnik.eu/490/Zamknij-dom/</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
