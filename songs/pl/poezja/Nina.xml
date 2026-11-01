@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nina">
   <alias>Nie płacz, Nino</alias>
-  <text_author type="solo">Tradycyjna</text_author>
-  <comment>Tradycyjna ballada żołnierska / partyzancka, śpiewana także w środowiskach harcerskich. Akordy są wątpliwej natury.</comment>
-  <composer type="solo">Tradycyjna</composer>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment>Tradycyjna ballada żołnierska / partyzancka, śpiewana także w środowiskach harcerskich i biesiadnych.</comment>
+  <composer type="solo">tradycyjny</composer>
   <artist type="band">Piosenka żołnierska</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
       <row important_over="true">N<ch a="a"/>ino, nam nie trzeba pł<ch a="E"/>akać,</row>
       <row important_over="true">Szk<ch a="E7"/>oda naszych wspólnych ł<ch a="a"/>ez,</row>
       <row important_over="true">B<ch a="A7"/>o już taka dola n<ch a="d"/>asza,</row>
-      <row important_over="false">Ż<ch a="E7"/>e musimy rozstać si<ch a="a"/>ę.</row>
+      <row important_over="true">Ż<ch a="E7"/>e musimy rozstać si<ch a="a"/>ę.</row>
     </block>
     <block type="chorus">
       <row important_over="true">M<ch a="d"/>oże z innym znajdziesz szcz<ch a="a"/>ęście swe,</row>
-      <row important_over="true">M<ch a="E7"/>oże inny szczęście ci da, kochana N<ch a="a"/>ino,<ch a="A7"/></row>
+      <row important_over="true">M<ch a="E7"/>oże inny szczęście ci da, kochana N<ch a="a"/>ino, <ch a="A7"/></row>
       <row important_over="false"><ch a="d"/>Ale proszę, wspomnij sz<ch a="a"/>ary zmierzch</row>
       <row important_over="false"><ch a="E7"/>I tego, który kochał ci<ch a="a"/>ę.</row>
     </block>
@@ -44,12 +42,11 @@
     <done>
       <text/>
       <authors/>
-      <chords>chord positioning</chords>
+      <chords>nedan</chords>
     </done>
     <verificators>
       <verificator>Tradycyjna (folklor żołnierski/partyzancki)</verificator>
       <verificator>https://ising.pl/piosenka-biesiadna-nie-placz-nino-tekst</verificator>
     </verificators>
-    <to_do>Akordy są wątpliwej natury.</to_do>
   </status>
 </song>
