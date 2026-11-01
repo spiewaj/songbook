@@ -36,3 +36,13 @@ Always verify whether the current Pull Request has already been merged before ex
   - When an author or composer is widely known by a pseudonym (e.g. scout or insurgent songs like `Mirosław Jezierski (ps. „Karnisz”)`, `Jan Markowski (ps. „Krzysztof”)`, `Bogusław Adamek (ps. „Bodzio”)`), KEEP the pseudonym in the author tag.
 - **Preserve Authentic Folklore & Dialect**:
   - Do not alter or "correct" authentic scout folklore, slang, or intentional archaic/dialect rhymes even if they deviate from standard grammar or spelling.
+- **Chord Placement, Timing & Spacing**:
+  - Distinguish chord timing relative to vocals: when an accompaniment chord is struck on the beat before or between vocal syllables, preserve appropriate spacing (e.g. `<ch a="F"/> Na rusztach...` vs ` <ch a="F"/>Na...`). Do not mechanically strip leading/trailing spaces around `<ch/>` tags.
+- **Instrumental Chords & `sidechords`**:
+  - Never put transition/turnaround chords into lyric punctuation (e.g. avoid `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (e.g. `<ch a="(d E a G)"/>` is invalid).
+  - Use the `sidechords="..."` attribute on `<row>` (e.g. `<row important_over="false" sidechords="d E a G">...`) or introduce an explicit instrumental line: `<row important_over="false" style="instr"><ch a="G"/></row>`.
+- **Schema Constraints for `<alias>` and Composers**:
+  - In `_site/song.xsd`, only a single optional `<alias>` is supported (`maxOccurs="1"`). There is NO `<aliases>` element.
+  - In `<composer>`, only text is supported; multiple composers should be joined with a comma.
+- **Repetitions & Outros**:
+  - Always verify whether a chorus is actually repeated at the end before adding duplicated `<blocklink>` elements. Outro fade-outs or single-line repetitions should not be conflated with full-chorus bisy.

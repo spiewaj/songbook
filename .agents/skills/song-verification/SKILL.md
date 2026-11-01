@@ -28,6 +28,10 @@ This skill defines the standard operating procedure for deeply verifying and fix
 > - **No Duplication in `<comment>`**: Do NOT repeat content in `<comment>` that is already captured by other explicit fields (`text_author`, `composer`, `artist`, `title`). Only put genuine supplementary notes, historical trivia, or performance context in `<comment>`.
 > - **Preserve Pseudonyms (ps.)**: When an author or composer is commonly known with a pseudonym (e.g. `Mirosław Jezierski (ps. „Karnisz”)`, `Jan Markowski (ps. „Krzysztof”)`), KEEP the pseudonym in the author tag.
 > - **Preserve Authentic Scout Folklore & Dialect**: Do not alter intentional scout slang, colloquial rhymes, or authentic folklore phrasing.
+> - **Chord Placement, Timing & Spacing**: Pay attention to chord attack timing relative to lyrics: when an accompaniment chord is struck on the beat before a vocal phrase or on a rest, preserve intentional spacing (e.g. `<ch a="F"/> Na...` vs ` <ch a="F"/>Na...`). Do not mechanically strip leading/trailing spaces around `<ch/>` tags.
+> - **Instrumental Chords, Outros & `sidechords`**: Never attach trailing transition chords to lyric punctuation (e.g. `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (`<ch a="(d E a G)"/>`). Use either the `sidechords="..."` attribute on `<row>` or an explicit instrumental row (`<row important_over="false" style="instr"><ch a="G"/></row>`).
+> - **Schema Constraints (`alias`, `composer`)**: `_site/song.xsd` defines a single optional `<alias>` element (`maxOccurs="1"`). There is no `<aliases>` tag. Multiple composers are comma-separated in `<composer type="solo">`.
+> - **Musical Repetitions**: Always verify actual song structure against recordings before assuming a chorus is repeated at the end. An outro fade-out or line repetition is not equivalent to a duplicated chorus `<blocklink>`.
 
 ## Overview of What "Deep Verification" Covers
 
