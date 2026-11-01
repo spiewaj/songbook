@@ -13,10 +13,10 @@
       <row important_over="true">Kto chodzi <ch a="C"/>bokiem? Kto chodzi <ch a="G"/>bokiem?</row>
     </block>
     <block type="verse">
-      <row important_over="never">Kiedy ja chcę zielonym być,</row>
-      <row important_over="never">Dom grzać słońcem i deszczówkę z chmur pić,</row>
-      <row important_over="never">Wtedy mnie dopada myśl:</row>
-      <row important_over="never">Kto ma ochotę o świat lepszy się bić?</row>
+      <row important_over="false"><ch a="C"/>Kiedy <ch a="G"/>ja chcę zie<ch a="C"/>lonym <ch a="F"/>być,</row>
+      <row important_over="false"><ch a="C"/>Dom grzać <ch a="G"/>słońcem i desz<ch a="a"/>czówkę z chmur <ch a="F"/>pić,</row>
+      <row important_over="false"><ch a="C"/>Wtedy <ch a="G"/>mnie do<ch a="a"/>pada <ch a="G"/>myśl: <ch a="F"/></row>
+      <row important_over="false">Kto ma o<ch a="C"/>chotę o świat lepszy się <ch a="G"/>bić?</row>
     </block>
     <block type="chorus">
       <row important_over="true">Raz po <ch a="C"/>raz straszą <ch a="a"/>nas, mówią <ch a="F"/>wprost, że to <ch a="G"/>finał,</row>
@@ -25,10 +25,10 @@
       <row important_over="true">W dół zamiast <ch a="C"/>spaść, w górę <ch a="a"/>mknie <ch a="F"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Może ja jadłem inny chleb,</row>
-      <row important_over="never">Może księgi czytywałem nie te,</row>
-      <row important_over="never">Patrzę w ekran i wciąż pytam się,</row>
-      <row important_over="never">Czy świat na głowie to jedyny nasz wkład?</row>
+      <row important_over="false"><ch a="C"/>Może <ch a="G"/>ja jadłem <ch a="C"/>inny <ch a="F"/>chleb,</row>
+      <row important_over="false"><ch a="C"/>Może <ch a="G"/>księgi czy<ch a="a"/>tywałem <ch a="F"/>nie te,</row>
+      <row important_over="false"><ch a="C"/>Patrzę w <ch a="G"/>ekran i <ch a="a"/>wciąż py<ch a="G"/>tam <ch a="F"/>się:</row>
+      <row important_over="false">Czy świat na <ch a="C"/>głowie to jedyny nasz <ch a="G"/>wkład?</row>
     </block>
     <block type="chorus">
       <row important_over="false">Raz po <ch a="C"/>raz straszą <ch a="a"/>nas, że nasz <ch a="F"/>ład właśnie <ch a="G"/>mija,</row>
