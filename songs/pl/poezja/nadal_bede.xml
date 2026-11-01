@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nadal będę">
-  <alias>Powietrza trzeba mi</alias>
-  <text_author type="band">Ziomkowisko</text_author>
-  <composer type="band">Ziomkowisko</composer>
-  <artist type="band">Ziomkowisko</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="d"/>Powietrza trz<ch a="A"/>eba mi w<ch a="d"/>ody z nieba t<ch a="A"/>rzeba mi</row>
-      <row important_over="false">t<ch a="d"/>am znajdę C<ch a="A"/>ię tam zn<ch a="d"/>ajdę C<ch a="A"/>ię</row>
-    </block>
-    <block type="verse">
-      <row important_over="false">su<ch a="d"/>chą st<ch a="A"/>opą prz<ch a="d"/>ejdę bez s<ch a="A"/>kaz</row>
-      <row important_over="false">p<ch a="d"/>różno ch<ch a="A"/>ód i p<ch a="d"/>ędzący cza<ch a="A"/>s</row>
-      <row important_over="true" sidechords="d A A7 d">n<ch a="d"/>a nic prz<ch a="A"/>eszkody po<ch a="A7"/>d nogami kł<ch a="d"/>ody    </row>
-      <row important_over="true">gdy w s<ch a="A"/>ercu nadziei pokł<ch a="d"/>ady    </row>
-      <row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody pod <ch a="A7"/>nogami kł<ch a="d"/>ody</row>
-      <row important_over="false">gdy ch<ch a="A"/>oć odrobinę og<ch a="d"/>łady mam</row>
-    </block>
-    <block type="chorus">
-      <bis times="2">
-        <row important_over="false">nadal będę igrał z powietrzem,<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="false">z deszczem wreszcie śniegiem co jeszcze<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="false">wcześniej wody łyk z września nadejściem<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="false">póki jesień znajdzie mnie<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="false">gdy cierpliwości i braknie sił<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-      <row important_over="false">i nawet gdy plan b pójdzie w tył<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-      <row important_over="false" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">gdy w sercu miłości pokłady<ch a="A"/><ch a="d"/></row>
-      <row important_over="false" sidechords="d A A7 d">na nic przeszkody pod nogami kłody<ch a="d"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="true">gdy choć odrobinę miłości mam<ch a="A"/><ch a="A"/><ch a="d"/><ch a="d"/></row>
-    </block>
-    <blocklink blocknb="3"/>
-    <block type="verse">
-      <bis times="2">
-        <row important_over="false">Powietrza trzeba mi wody z nieba trzeba mi<ch a="d"/><ch a="A"/><ch a="d"/><ch a="A"/></row>
-        <row important_over="false" style="instr"> </row>
-      </bis>
-    </block>
-  </lyric>
-  <keywords/>
-  <genre>Poezja śpiewana</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias>Powietrza trzeba mi</alias>
+	<text_author type="band">Ziomkowisko</text_author>
+	<composer type="band">Ziomkowisko</composer>
+	<artist type="band">Ziomkowisko</artist>
+	<album>Czułe dźwięki</album>
+	<genre>poezja śpiewana</genre>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="d"/>Powietrza trz<ch a="A"/>eba mi, w<ch a="d"/>ody z nieba t<ch a="A"/>rzeba mi,</row>
+			<row important_over="true">t<ch a="d"/>am znajdę C<ch a="A"/>ię, tam zn<ch a="d"/>ajdę C<ch a="A"/>ię.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">su<ch a="d"/>chą st<ch a="A"/>opą prz<ch a="d"/>ejdę bez s<ch a="A"/>kaz,</row>
+			<row important_over="false">p<ch a="d"/>różno ch<ch a="A"/>ód i p<ch a="d"/>ędzący cz<ch a="A"/>as,</row>
+			<row important_over="true" sidechords="d A A7 d">n<ch a="d"/>a nic prz<ch a="A"/>eszkody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="true">gdy w s<ch a="A"/>ercu nadziei pokł<ch a="d"/>ady,</row>
+			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, pod <ch a="A7"/>nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">gdy ch<ch a="A"/>oć odrobinę og<ch a="d"/>łady mam.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">n<ch a="d"/>adal będę igr<ch a="A"/>ał z powi<ch a="d"/>etrzem,<ch a="A"/></row>
+				<row important_over="true">z d<ch a="d"/>eszczem wreszcie, śni<ch a="A"/>egiem – co j<ch a="d"/>eszcze?<ch a="A"/></row>
+				<row important_over="true">wcz<ch a="d"/>eśniej wody łyk z wrz<ch a="A"/>eśnia nadejś<ch a="d"/>ciem,<ch a="A"/></row>
+				<row important_over="true">p<ch a="d"/>óki jesień zn<ch a="A"/>ajdzie mni<ch a="d"/>e.<ch a="A"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">gdy ci<ch a="d"/>erpliwości i br<ch a="A"/>aknie s<ch a="d"/>ił<ch a="A"/></row>
+			<row important_over="false">i n<ch a="d"/>awet gdy plan B p<ch a="A"/>ójdzie w t<ch a="d"/>ył,<ch a="A"/></row>
+			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">gdy w s<ch a="A"/>ercu miłości pokł<ch a="d"/>ady,</row>
+			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">gdy ch<ch a="A"/>oć odrobinę miłości m<ch a="d"/>am.</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="d"/>Powietrza trz<ch a="A"/>eba mi, w<ch a="d"/>ody z nieba t<ch a="A"/>rzeba mi...</row>
+				<row important_over="never" style="instr"/>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators>
+			<verificator>https://ziomkowisko.pl/produkt/czule-dzwieki-mp3/</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
