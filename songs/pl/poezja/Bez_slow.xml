@@ -9,8 +9,8 @@ refren F C / F C / F C G.
 Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 	<composer type="solo">Wojciech Bellon</composer>
 	<artist type="band">Wolna Grupa Bukowina</artist>
-	<translator></translator>
-	<original_title></original_title>
+	<translator/>
+	<original_title/>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true"><ch a="G"/> Chodzą ulic<ch a="D"/>ami ludzie,</row>
@@ -22,28 +22,28 @@ Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 		</block>
 		<block type="chorus">
 			<row important_over="true"><ch a="C"/> A tam w mech odzi<ch a="G"/>any kamień,</row>
-			<row important_over="false"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
-			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
+			<row important_over="true"><ch a="C"/> Tam zaduma w wi<ch a="G"/>atru graniu,</row>
+			<row important_over="true"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
 			<row important_over="false"><ch a="C"/> Porzuć kroków r<ch a="G"/>ytm na bruku,</row>
 			<row important_over="false"><ch a="C"/> Spróbuj — znajdziesz, j<ch a="G"/>eśli szukać</row>
 			<row important_over="false">Z<ch a="C"/>echcesz — nowy świa<ch a="G"/>t, własny św<ch a="D"/>iat.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/> Płyną ludzie miastem szarzy,<ch a="D"/></row>
-			<row important_over="false"><ch a="e"/> Pozbawieni złudzeń, marzeń,<ch a="h"/></row>
-			<row important_over="false"><ch a="C"/> Omijają wciąż główny nurt.<ch a="G"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/> Kryją się w swych norach krecich<ch a="D"/></row>
-			<row important_over="false"><ch a="e"/> I śnić nawet o karecie,<ch a="h"/></row>
-			<row important_over="false"><ch a="C"/> Co lśni złotem - nie potrafią już<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Płyną ludzie mi<ch a="D"/>astem szarzy,</row>
+			<row important_over="false"><ch a="e"/> Pozbawieni zł<ch a="h"/>udzeń, marzeń,</row>
+			<row important_over="false"><ch a="C"/> Omijają wci<ch a="G"/>ąż główny n<ch a="D"/>urt.</row>
+			<row important_over="false"><ch a="G"/> Kryją się w swych n<ch a="D"/>orach krecich</row>
+			<row important_over="false"><ch a="e"/> I śnić nawet <ch a="h"/>o karecie,</row>
+			<row important_over="false"><ch a="C"/> Co lśni złotem — ni<ch a="G"/>e potrafią j<ch a="D"/>uż.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="G"/> Żyją ludzie, asfalt depczą<ch a="D"/></row>
-			<row important_over="false"><ch a="e"/> Nikt nie krzyknie, każdy szepcze<ch a="h"/></row>
-			<row important_over="false"><ch a="C"/> Drzwi zamknięte zaklepany krąg<ch a="G"/><ch a="D"/></row>
-			<row important_over="false"><ch a="G"/> Tylko czasem kropla z oczu<ch a="D"/></row>
-			<row important_over="false"><ch a="e"/> Po policzku w dół się stoczy<ch a="h"/></row>
-			<row important_over="false"><ch a="C"/> I to dziwne drżenie rąk<ch a="G"/><ch a="D"/></row>
+			<row important_over="false"><ch a="G"/> Żyją ludzie, <ch a="D"/>asfalt depczą,</row>
+			<row important_over="false"><ch a="e"/> Nikt nie krzyknie, k<ch a="h"/>ażdy szepcze,</row>
+			<row important_over="false"><ch a="C"/> Drzwi zamknięte, z<ch a="G"/>aklepany kr<ch a="D"/>ąg.</row>
+			<row important_over="false"><ch a="G"/> Tylko czasem kr<ch a="D"/>opla z oczu</row>
+			<row important_over="false"><ch a="e"/> Po policzku w d<ch a="h"/>ół się stoczy</row>
+			<row important_over="false"><ch a="C"/> I to dziwne drż<ch a="G"/>enie r<ch a="D"/>ąk.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="false"><ch a="C"/> Bo tam w mech odzi<ch a="G"/>any kamień,</row>
@@ -51,26 +51,25 @@ Wbrew pozorom ostatni refren śpiewa się tylko do połowy!!!</comment>
 			<row important_over="false"><ch a="C"/> Tam powietrze m<ch a="G"/>a inny sm<ch a="D"/>ak.</row>
 		</block>
 	</lyric>
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Bukowina</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<done>	<text/>
+		<done>
+			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators><verificator>Taboret wg. Oli</verificator><verificator>Adam</verificator><verificator>Alek</verificator><verificator>Michał Korch</verificator>
-			
-			
-			
-			
+		<verificators>
+			<verificator>Taboret wg. Oli</verificator>
+			<verificator>Adam</verificator>
+			<verificator>Alek</verificator>
+			<verificator>Michał Korch</verificator>
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album>Bukowina</album>
-	<genre></genre>
 </song>
