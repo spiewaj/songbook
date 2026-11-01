@@ -1,44 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Makatka kusząca">
-  <alias/>
-  <text_author>Adam Ziemianin</text_author>
-  <comment/>
-  <composer type="solo">M. Ziobro</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="D"/>Ej ty Ewo rajskie dziewczę<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Nie wykręcisz się dzisiaj ogryzkiem<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="H7"/>Miecz ognisty nie wisi nad nami<ch a="e"/><ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Michał w karty gra z Cherbinem<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Nie bądź z tych co tylko wzdychają<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Klucz ściskając w kieszeni fartuszka<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="H7"/>Niechaj tańczą dziś wszystkie drzewa<ch a="e"/><ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Nawet ciężka od upału grusza<ch a="G"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="D"/>La la la la<ch a="G"/><ch a="A"/><ch a="D"/><ch a="F"/><ch a="G"/><ch a="D"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="D"/>Pod jabłonią wreszcie odpoczniemy<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>W zbożu włosów ukryję się cały<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="H7"/>I będziemy świat błogosławić<ch a="e"/><ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Że jest dla nas znowu łaskawy<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>A pod wieczór cicho przyjdą<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Skrzydlaci wysłannicy Pana<ch a="G"/><ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="H7"/>Nie jadłem żadnego ogryzka — powiem<ch a="e"/><ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Skusiły mnie tylko jabłka<ch a="G"/><ch a="D"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment/>
+	<composer type="solo">Roman Ziobro</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="D"/>Ej, ty Ewo, rajskie dziewczę,<ch a="G"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Ni<ch a="F"/>e wykręcisz się dzisiaj ogr<ch a="G"/>yzk<ch a="A"/>i<ch a="D"/>em,</row>
+			<row important_over="true">Mi<ch a="H7"/>ecz ognisty nie wisi nad n<ch a="e"/>am<ch a="A"/>i,</row>
+			<row important_over="true">Mich<ch a="F"/>ał w karty gra z Cher<ch a="G"/>ub<ch a="D"/>inem.</row>
+			<row important_over="false">Ni<ch a="D"/>e bądź z tych, co tylko wzdyh<ch a="G"/>aj<ch a="A"/>ą,<ch a="D"/></row>
+			<row important_over="false">Kl<ch a="F"/>ucz ściskając w kieszeni fart<ch a="G"/>uszk<ch a="A"/>a,<ch a="D"/></row>
+			<row important_over="false">Ni<ch a="H7"/>echaj tańczą dziś wszystkie drz<ch a="e"/>ew<ch a="A"/>a,</row>
+			<row important_over="false">N<ch a="F"/>awet ciężka od upału gr<ch a="G"/>usz<ch a="D"/>a.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true">L<ch a="D"/>a, la, la, la...<ch a="G"/><ch a="A"/><ch a="D"/><ch a="F"/><ch a="G"/><ch a="D"/></row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="D"/>od jabłonią wreszcie odpoczni<ch a="G"/>em<ch a="A"/>y,<ch a="D"/></row>
+			<row important_over="false">W zb<ch a="F"/>ożu włosów ukryję się c<ch a="G"/>ał<ch a="A"/>y,<ch a="D"/></row>
+			<row important_over="false">I b<ch a="H7"/>ędziemy świat błogosławi<ch a="e"/>ć,<ch a="A"/></row>
+			<row important_over="false">Ż<ch a="F"/>e jest dla nas znowu łask<ch a="G"/>aw<ch a="D"/>y.</row>
+			<row important_over="false">A p<ch a="D"/>od wieczór cicho przyjd<ch a="G"/>ą<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">Skrz<ch a="F"/>ydlaci wysłannicy P<ch a="G"/>an<ch a="A"/>a.<ch a="D"/></row>
+			<row important_over="false">„Ni<ch a="H7"/>e jadłem żadnego ogryzka” – p<ch a="e"/>owi<ch a="A"/>em,</row>
+			<row important_over="false">„Sk<ch a="F"/>usiły mnie tylko j<ch a="G"/>abłk<ch a="D"/>a”.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Makatki</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
