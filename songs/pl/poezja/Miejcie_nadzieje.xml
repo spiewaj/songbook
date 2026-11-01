@@ -1,60 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Miejcie nadzieję">
-  <text_author type="solo">Adam Asnyk</text_author>
-  <composer type="solo">Zbigniew Preisner</composer>
-  <artist type="solo">Jacek Wójcicki</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Miejcie nadzieję nie tę lichą marną<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Co rdzień spruchniały w wątły kwiat ubiera<ch a="G"/><ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Lecz tę niezłomną która tkwi jak ziarno<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Przyszłych poświęceń w duszy bohatera<ch a="E"/><ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Miejcie odwagę nie tę jednodniową<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Co w rozpaczliwym przedsięwzięciu pryska<ch a="G"/><ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Lecz tę co wiecznie z podniesioną głową<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="d"/>Nie da się zepchnąć ze swego stanowiska<ch a="E"/><ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="ais"/>Miejcie odwagę nie tę tchnącą szałem<ch a="F"/><ch a="ais"/></row>
-      <row important_over="never"><ch a="Cis"/>Która na oślep leci bez oręża<ch a="Gis"/><ch a="F"/></row>
-      <bis times="2">
-        <row important_over="never"><ch a="Fis"/>Lecz tę co sama niezdobytym wałem<ch a="Gis"/><ch a="ais"/></row>
-        <row important_over="never"><ch a="dis"/>Przeciwne losy stałością zwycięża<ch a="F"/><ch a="G"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="ais"/>Przestańmy własną pieścić się boleścią<ch a="F"/><ch a="ais"/></row>
-      <row important_over="never"><ch a="Cis"/>Przestańmy ciągłym lamentem się poić<ch a="Gis"/><ch a="F"/></row>
-      <bis times="2">
-        <row important_over="never"><ch a="Fis"/>Kochać się w skargach jest rzeczą niewieścią<ch a="Gis"/><ch a="ais"/></row>
-        <row important_over="never"><ch a="dis"/>Mężom przystoi w milczeniu się zbroić<ch a="F"/><ch a="G"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="h"/>Lecz nie przestańmy czcić świętości swoje<ch a="Fis"/><ch a="h"/></row>
-      <row important_over="never"><ch a="D"/>I przechowywać ideał czystości<ch a="A"/><ch a="Fis"/></row>
-      <bis times="2">
-        <row important_over="never"><ch a="G"/>Do nas należy dać im moc i zbroję<ch a="A"/><ch a="h"/></row>
-        <row important_over="never"><ch a="e"/>By z kraju marzeń przeszły w rzeczywistość<ch a="Fis"/><ch a="h"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Miejcie nadzieję nie tę lichą marną<ch a="E"/><ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Co rdzień spruchniały w wątły kwiat ubiera<ch a="G"/><ch a="E"/></row>
-      <bis times="2">
-        <row important_over="never"><ch a="F"/>Lecz tę niezłomną która tkwi jak ziarno<ch a="G"/><ch a="A"/></row>
-        <row important_over="never"><ch a="d"/>Przyszłych poświęceń w duszy bohatera<ch a="E"/><ch a="a"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music>
-    <guitar barre="0"/>
-  </music>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Miejcie nadzieję">
+	<alias/>
+	<text_author type="solo">Adam Asnyk</text_author>
+	<comment>Wiersz Adama Asnyka z 1871 r.; muzyka Zbigniewa Preisnera z filmu „Ostatni dzwonek” (1989) w reż. Magdaleny Łazarkiewicz.</comment>
+	<composer type="solo">Zbigniew Preisner</composer>
+	<artist type="solo">Jacek Wójcicki</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="a"/>Miejcie nadzieję!... <ch a="E"/>Nie tę lichą, m<ch a="a"/>arną,</row>
+			<row important_over="true"><ch a="C"/>Co rdzeń spróchniały w w<ch a="G"/>ątły kwiat ubi<ch a="E"/>era,</row>
+			<row important_over="true"><ch a="F"/>Lecz tę niezłomną, kt<ch a="G"/>óra tkwi jak zi<ch a="a"/>arno</row>
+			<row important_over="true"><ch a="d"/>Przyszłych poświęceń w d<ch a="E"/>uszy bohater<ch a="a"/>a.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Miejcie odwagę!... <ch a="E"/>Nie tę jednodni<ch a="a"/>ową,</row>
+			<row important_over="false"><ch a="C"/>Co w rozpaczliwym przedsi<ch a="G"/>ęwzięciu pr<ch a="E"/>yska,</row>
+			<row important_over="false"><ch a="F"/>Lecz tę, co wiecznie z p<ch a="G"/>odniesioną gł<ch a="a"/>ową</row>
+			<row important_over="false"><ch a="d"/>Nie da się zepchnąć ze sw<ch a="E"/>ego stanow<ch a="a"/>iska.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="ais"/>Miejcie odwagę... <ch a="F"/>Nie tę tchnącą sz<ch a="ais"/>ałem,</row>
+			<row important_over="true"><ch a="Cis"/>Która na oślep l<ch a="Gis"/>eci bez or<ch a="F"/>ęża,</row>
+			<bis times="2">
+				<row important_over="true"><ch a="Fis"/>Lecz tę, co sama niezd<ch a="Gis"/>obytym w<ch a="ais"/>ałem</row>
+				<row important_over="true"><ch a="dis"/>Przeciwne losy stał<ch a="F"/>ością zwyci<ch a="ais"/>ęża.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="ais"/>Przestańmy własną pi<ch a="F"/>eścić się bol<ch a="ais"/>eścią,</row>
+			<row important_over="false"><ch a="Cis"/>Przestańmy ciągłym lam<ch a="Gis"/>entem się p<ch a="F"/>oić,</row>
+			<bis times="2">
+				<row important_over="false"><ch a="Fis"/>Kochać się w skargach jest rz<ch a="Gis"/>eczą niewi<ch a="ais"/>eścią,</row>
+				<row important_over="false"><ch a="dis"/>Mężom przystoi w milcz<ch a="F"/>eniu się zbr<ch a="ais"/>oić.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="h"/>Lecz nie przestańmy czc<ch a="Fis"/>ić świętości sw<ch a="h"/>oje</row>
+			<row important_over="true"><ch a="D"/>I przechowywać ide<ch a="A"/>ałów czyst<ch a="Fis"/>ość;</row>
+			<bis times="2">
+				<row important_over="true"><ch a="G"/>Do nas należy d<ch a="A"/>ać im moc i zbr<ch a="h"/>oję,</row>
+				<row important_over="true"><ch a="e"/>By z kraju marzeń prz<ch a="Fis"/>eszły w rzeczywist<ch a="h"/>ość.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>Miejcie nadzieję!... <ch a="E"/>Nie tę lichą, m<ch a="a"/>arną,</row>
+			<row important_over="false"><ch a="C"/>Co rdzeń spróchniały w w<ch a="G"/>ątły kwiat ubi<ch a="E"/>era,</row>
+			<bis times="2">
+				<row important_over="false"><ch a="F"/>Lecz tę niezłomną, kt<ch a="G"/>óra tkwi jak zi<ch a="a"/>arno</row>
+				<row important_over="false"><ch a="d"/>Przyszłych poświęceń w d<ch a="E"/>uszy bohater<ch a="a"/>a.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Ostatni dzwonek</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
