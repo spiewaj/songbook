@@ -1,39 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Skóra">
-  <artist>Aya Rl</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="never">Stoję na ulicy z nią, stoję twarzą w twarz<ch a="C"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Ktoś przechodzi trąca łokciem, wzrokiem pluje w twarz<ch a="C"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="never">Szeptem mówię: Mała patrz, cywilizowany świat<ch a="a"/><ch a="e"/><ch a="G"/><ch a="a"/><ch a="e"/><ch a="G"/></row>
-      <row important_over="never">Potem obejmuję ją, odpływamy w dal</row>
-      <row important_over="never">Nie dochodzi obcy głos, wolno płynie czas</row>
-      <row important_over="never">Odpływamy w otchłań gwiazd, Mała zanuć to co ja:</row>
-    </block>
-    <block type="chorus">
-      <bis times="3"> <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
-      <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Stoję na ulicy z nią, śmiechy wkoło nas</row>
-      <row important_over="never">Ktoś przechodzi trąca łokciem, pluje Małej w twarz</row>
-      <row important_over="never">Głośno mówię Mała patrz: cywilizowany świat</row>
-      <row important_over="never">Potem mu przestawiam nos, upadł ale wstał</row>
-      <row important_over="never">Dookoła głosów sto, ten w skórze to drań</row>
-      <row important_over="never">Padam dzisiaj byłem sam, Mała nuci to co ja</row>
-    </block>
-    <block type="chorus">
-      <bis times="3"> <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
-      <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Wtedy obejmuję ją odpływamy w dal</row>
-      <row important_over="never">Nie dochodzi obcy głos, wolno płynie czas</row>
-      <row important_over="never">Odpływamy w otchłań gwiazd, Mała nuci to co ja</row>
-    </block>
-    <block type="chorus">
-      <bis times="3"> <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="F"/></row></bis>
-      <row important_over="never">Tam tam tam, tam tara tara tam<ch a="F"/><ch a="G"/><ch a="C"/><ch a="G"/></row>
-    </block>
-  </lyric>
+	<alias>Stoję na ulicy z nią</alias>
+	<text_author type="solo">Paweł Kukiz</text_author>
+	<comment>Kultowy utwór grupy Aya RL, wydany na singlu w 1984 roku oraz na debiutanckim albumie „Aya RL” (1985).</comment>
+	<composer type="solo">Igor Czerniawski</composer>
+	<artist type="band">Aya RL</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="C"/>Stoję na ulicy z nią, <ch a="F"/>stoję twarzą w tw<ch a="C"/>arz,</row>
+			<row important_over="false"><ch a="C"/>ktoś przechodzi, trąca łokciem, <ch a="F"/>wzrokiem pluje w tw<ch a="C"/>arz.</row>
+			<row important_over="true">Sz<ch a="a"/>eptem mówię: „M<ch a="e"/>ała, patrz, cywilizow<ch a="G"/>any świat”.</row>
+			<row important_over="false"><ch a="C"/>Potem obejmuję ją, <ch a="F"/>odpływamy w d<ch a="C"/>al,</row>
+			<row important_over="false"><ch a="C"/>nie dochodzi obcy głos, <ch a="F"/>wolno płynie cz<ch a="C"/>as,</row>
+			<row important_over="false">odpływ<ch a="a"/>amy w otchłań gwi<ch a="e"/>azd, Mała, zanuć t<ch a="G"/>o, co ja:</row>
+		</block>
+		<block type="chorus">
+			<bis times="3">
+				<row important_over="true">T<ch a="F"/>am tam t<ch a="G"/>am, tam tara tara t<ch a="C"/>am.<ch a="F"/></row>
+			</bis>
+			<row important_over="true">T<ch a="F"/>am tam t<ch a="G"/>am, tam tara tara t<ch a="C"/>am.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="C"/>Stoję na ulicy z nią, <ch a="F"/>śmiechy wkoło n<ch a="C"/>as,</row>
+			<row important_over="false"><ch a="C"/>ktoś przechodzi, trąca łokciem, <ch a="F"/>pluje Małej w tw<ch a="C"/>arz.</row>
+			<row important_over="false">Gł<ch a="a"/>ośno mówię: „M<ch a="e"/>ała, patrz, cywilizow<ch a="G"/>any świat”.</row>
+			<row important_over="false"><ch a="C"/>Potem mu przestawiam nos, <ch a="F"/>upadł, ale wst<ch a="C"/>ał,</row>
+			<row important_over="false"><ch a="C"/>dookoła głosów sto: „<ch a="F"/>Ten w skórze to dr<ch a="C"/>ań!”.</row>
+			<row important_over="false">P<ch a="a"/>adam, dzisiaj b<ch a="e"/>yłem sam, Mała nuci t<ch a="G"/>o, co ja:</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="C"/>Wtedy obejmuję ją, <ch a="F"/>odpływamy w d<ch a="C"/>al,</row>
+			<row important_over="false"><ch a="C"/>nie dochodzi obcy głos, <ch a="F"/>wolno płynie cz<ch a="C"/>as,</row>
+			<row important_over="false">odpływ<ch a="a"/>amy w otchłań gwi<ch a="e"/>azd, Mała nuci t<ch a="G"/>o, co ja:</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Aya RL</album>
+	<genre>rock</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/aya-rl/skora</verificator>
+		</verificators>
+	</status>
 </song>
