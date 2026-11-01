@@ -1,59 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Wasza Wysokość Kobieto" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wasza Wysokość Kobieto">
+	<alias>Ciemnością, ciszą jak biedą</alias>
 	<text_author type="solo">Bułat Okudżawa</text_author>
-	<comment>Zwrotki 1. i 3. maja inną melodię niż 2. i 4.</comment>
+	<comment>Zwrotki 1. i 3. mają inną melodię niż 2. i 4.</comment>
 	<composer type="solo">Bułat Okudżawa</composer>
 	<artist type="solo">Bułat Okudżawa</artist>
 	<translator>Wiktor Woroszylski</translator>
-	<original_title>Wasze Wieliczestwo Żenszczyna</original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<original_title>Ваше величество женщина</original_title>
+	<lyric>
 		<block type="verse">
 			<row important_over="true">Ci<ch a="a"/>emnością, ciszą jak bi<ch a="H7"/>edą</row>
-			<row important_over="true">
-				<ch a="E7"/>Osnute wszystko w tym d<ch a="a"/>omu…</row>
-			<row important_over="false">W<ch a="a"/>asza Wysokość Kobi<ch a="H7"/>eto,</row>
-			<row important_over="false">Cz<ch a="E7"/>y pani naprawdę do mni<ch a="a"/>e?</row>
+			<row important_over="true"><ch a="E7"/>osnute wszystko w tym d<ch a="a"/>omu…</row>
+			<row important_over="true">W<ch a="a"/>asza Wysokość Kobi<ch a="H7"/>eto,</row>
+			<row important_over="true">cz<ch a="E7"/>y pani naprawdę do mni<ch a="a"/>e?</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Ż<ch a="a"/>arówki pełga tu <ch a="H7"/>oko,</row>
-			<row important_over="false">Kr<ch a="E7"/>oplami mur spływa n<ch a="a"/>agi…</row>
+			<row important_over="false">kr<ch a="E7"/>oplami mur spływa n<ch a="a"/>agi…</row>
 			<row important_over="false">K<ch a="a"/>obieto, Wasza Wys<ch a="H7"/>okość,</row>
-			<row important_over="false">Sk<ch a="E7"/>ąd w pani tyle odw<ch a="a"/>agi?</row>
+			<row important_over="false">sk<ch a="E7"/>ąd w pani tyle odw<ch a="a"/>agi?</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">T<ch a="a"/>o przyjście pani – jak p<ch a="H7"/>ożar.</row>
-			<row important_over="false">Z<ch a="E7"/>apiera dech, huczy w<ch a="a"/>okół…</row>
-			<row important_over="false">L<ch a="a"/>ecz proszę do środka, pr<ch a="H7"/>oszę.</row>
-			<row important_over="false">Ni<ch a="E7"/>e warto tak stać na pr<ch a="a"/>ogu.</row>
+			<row important_over="false">T<ch a="a"/>o przyjście pani — jak p<ch a="H7"/>ożar,</row>
+			<row important_over="false">z<ch a="E7"/>apiera dech, huczy w<ch a="a"/>okół…</row>
+			<row important_over="false">L<ch a="a"/>ecz proszę do środka, pr<ch a="H7"/>oszę,</row>
+			<row important_over="false">ni<ch a="E7"/>e warto tak stać na pr<ch a="a"/>ogu.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Więc do mnie – naprawdę, miła?!<ch a="a"/><ch a="H7"/></row>
-			<row important_over="false">Ach, co też mi się znów plecie…<ch a="E7"/><ch a="a"/></row>
-			<row important_over="false">Wiem – pani drzwi pomyliła,<ch a="a"/><ch a="H7"/></row>
-			<row important_over="false">Ulicę, miasto, stulecie.<ch a="E7"/><ch a="a"/></row>
+			<row important_over="false">Wi<ch a="a"/>ęc do mnie — naprawdę, mi<ch a="H7"/>ła?!</row>
+			<row important_over="false"><ch a="E7"/>Ach, co też mi się znów pl<ch a="a"/>ecie…</row>
+			<row important_over="false">Wi<ch a="a"/>em — pani drzwi pomyl<ch a="H7"/>iła,</row>
+			<row important_over="false"><ch a="E7"/>ulicę, miasto, stul<ch a="a"/>ecie.</row>
 		</block>
 	</lyric>
-	
-	
-	
 	<music metre="3/4">
 		<guitar barre="2"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Poezja śpiewana</genre>
+	<genre>poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords/>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>Wiktor Woroszylski</verificator>
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<music_source></music_source>
 </song>
