@@ -7,7 +7,7 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="C"/>Znów przyjdzie <ch a="a"/>maj, <ch a="d"/>a z majem <ch a="G"/>bzy,</row>
-			<row important_over="never">i czekać mam na lepsze dni,</row>
+			<row important_over="false"><ch a="C"/>i czekać <ch a="a"/>mam na <ch a="d"/>lepsze <ch a="G"/>dni,</row>
 			<row important_over="true"><ch a="C"/>znów przyjdzie <ch a="E7"/>mi nosić prz<ch a="a"/>ykrótkie <ch a="F"/>sny.</row>
 		</block>
 		<block type="chorus">
@@ -15,9 +15,9 @@
 			<row important_over="true"><ch a="a"/>Ah, ah, ah, ah, y<ch a="d"/>eah, yeah, yeah, <ch a="G"/>uh, uh, uh!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Znów kupisz mi coś na imieniny,</row>
-			<row important_over="never">mmmm, ja to wiem i czuję, że</row>
-			<row important_over="never">znów przyjdzie mi nosić przykrótkie sny.</row>
+			<row important_over="false"><ch a="C"/>Znów kupisz <ch a="a"/>mi coś na <ch a="d"/>imieni<ch a="G"/>ny,</row>
+			<row important_over="false"><ch a="C"/>mmmm, ja to <ch a="a"/>wiem i <ch a="d"/>czuję, <ch a="G"/>że</row>
+			<row important_over="false"><ch a="C"/>znów przyjdzie <ch a="E7"/>mi nosić prz<ch a="a"/>ykrótkie <ch a="F"/>sny.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="other">
@@ -31,13 +31,13 @@
 			<row important_over="true">Gd<ch a="G"/>ybyś tylko chciał!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">To byłoby to lato już</row>
-			<row important_over="never">i słońce, i szaleństwo burz,</row>
-			<row important_over="never">lecz dajesz mi tylko przykrótkie sny.</row>
+			<row important_over="false"><ch a="C"/>To było<ch a="a"/>by to <ch a="d"/>lato <ch a="G"/>już</row>
+			<row important_over="false"><ch a="C"/>i słońce, <ch a="a"/>i sza<ch a="d"/>leństwo <ch a="G"/>burz,</row>
+			<row important_over="false"><ch a="C"/>lecz dajesz <ch a="E7"/>mi tylko prz<ch a="a"/>ykrótkie <ch a="F"/>sny.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Więc do lata, do lata, do lata, piechotą będę szła!</row>
-			<row important_over="never">Ah, ah, ah, ah, yeah, yeah, yeah, uh, uh, uh!</row>
+			<row important_over="false">Więc d<ch a="C"/>o lata, d<ch a="a"/>o lata, d<ch a="d"/>o lata, pi<ch a="G"/>echotą będę szła!<ch a="C"/></row>
+			<row important_over="false"><ch a="a"/>Ah, ah, ah, ah, y<ch a="d"/>eah, yeah, yeah, <ch a="G"/>uh, uh, uh!</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
