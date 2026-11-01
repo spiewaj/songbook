@@ -1,57 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki rajd">
-	<alias/>
-	<text_author type="solo">Piotr Frankowicz, Julian Jaworz-Dutka</text_author>
-	<comment>Piosenka powstała lub/i była śpiewana podczas "Harcerskiej Operacji Bieszczady 40". </comment>
-	<composer type="solo">Piotr Frankowicz, Julian Jaworz-Dutka</composer>
-	<artist type="band">Wołosatki - Grube Dudy</artist>
-	<translator/>
-	<original_title/>
-	<lyric>
-		<block type="verse">
-			<row important_over="true">Zebr<ch a="C"/>ało si<ch a="a"/>ę nas t<ch a="D"/>ut<ch a="G"/>aj wi<ch a="C"/>elu t<ch a="a"/>akich jak <ch a="D"/>t<ch a="G"/>y</row>
-			<row important_over="true">Si<ch a="C"/>adaj z n<ch a="C7"/>ami pr<ch a="F"/>zyjaci<ch a="f"/>elu <ch a="C"/>a zaśpiew<ch a="G"/>amy c<ch a="C"/>i <ch a="G7"/></row>
-		</block>
-		<block type="verse">
-			<bis times="2">
-				<row important_over="true">R<ch a="C"/>ajd r<ch a="a"/>ajd bi<ch a="D"/>eszczadzki r<ch a="G"/>ajd</row>
-				<row important_over="false">C<ch a="C"/>zy to w sł<ch a="a"/>ońce c<ch a="D"/>zy to w d<ch a="G"/>eszcz</row>
-				<row important_over="true">
-					<ch a="C"/>Idziesz z n<ch a="C7"/>ami pr<ch a="F"/>zyjaci<ch a="f"/>elu</row>
-				<row important_over="true">B<ch a="C"/>o s<ch a="G"/>am chc<ch a="C"/>esz <ch a="G7"/></row>
-			</bis>
-		</block>
-		<block type="verse">
-			<row important_over="false">Każdy harcerz przeżyć chce ten bieszczadzki rajd<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="false">Aby wzmocnićswoje siły jemy dużo pajd<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
-		</block>
-		<blocklink blocknb="2"/>
-		<block type="verse">
-			<row important_over="false">Czasem chleba nam brakuje ale fajno jest<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="false">Ktoś nas wtedy poratuje to braterski gest<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
-		</block>
-		<blocklink blocknb="2"/>
-		<block type="verse">
-			<row important_over="false">Może kiedyś tu za rok wszyscy się spotkamy<ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="D"/><ch a="G"/></row>
-			<row important_over="false">Obsiądziemy ogień w koło i tak zaśpiewamy<ch a="C"/><ch a="C7"/><ch a="F"/><ch a="f"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="G7"/></row>
-		</block>
-		<blocklink blocknb="2"/>
-	</lyric>
-	<music metre="">
-		<guitar barre="0"/>
-	</music>
-	<status>
-		<verificators><verificator>Adam</verificator>
-		</verificators>
-		<to_do>Adam--&gt;piosenka jest na płycie analogowej, więc jeśli ktoś ma odpowiednie ustrojstwo to można by przegrać ja na nośnik dla ludzi :)</to_do>
-		<done>
-			<text/>
-			<authors/>
-			<chords>chords</chords>
-		</done>
-	</status>
-	<keywords/>
-	<music_source/>
-	<album>Bieszczady jak co roku…</album>
-	<genre/>
+  <alias>Zebrało się nas tutaj wielu</alias>
+  <text_author type="solo">Piotr Frankowicz</text_author>
+  <comment>Piosenka powstała i była śpiewana podczas Harcerskiej Operacji Bieszczady 40. Ukazała się m.in. na analogowej płycie Wołosatek „Bieszczady jak co roku…” (Polskie Nagrania Muza).</comment>
+  <composer type="solo">Piotr Frankowicz, Julian Jaworz-Dutka</composer>
+  <artist type="band">Wołosatki</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">Zebr<ch a="C"/>ało si<ch a="a"/>ę nas t<ch a="d"/>ut<ch a="G"/>aj wi<ch a="C"/>elu t<ch a="a"/>akich jak <ch a="d"/>t<ch a="G"/>y,</row>
+      <row important_over="true">si<ch a="C"/>adaj z n<ch a="C7"/>ami, pr<ch a="F"/>zyjaci<ch a="f"/>elu, <ch a="C"/>a zaśpiew<ch a="G"/>amy c<ch a="C"/>i. <ch a="G7"/></row>
+    </block>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">R<ch a="C"/>ajd, r<ch a="a"/>ajd, bi<ch a="d"/>eszczadzki r<ch a="G"/>ajd,</row>
+        <row important_over="false">c<ch a="C"/>zy to w sł<ch a="a"/>ońce, c<ch a="d"/>zy to w d<ch a="G"/>eszcz,</row>
+        <row important_over="true"><ch a="C"/>idziesz z n<ch a="C7"/>ami, pr<ch a="F"/>zyjaci<ch a="f"/>elu,</row>
+        <row important_over="true">b<ch a="C"/>o s<ch a="G"/>am chc<ch a="C"/>esz. <ch a="G7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">K<ch a="C"/>ażdy h<ch a="a"/>arcerz prz<ch a="d"/>eżyć chc<ch a="G"/>e t<ch a="C"/>en bi<ch a="a"/>eszczadzki r<ch a="d"/>ajd,<ch a="G"/></row>
+      <row important_over="false">aby wzm<ch a="C"/>ocnić sw<ch a="C7"/>oje s<ch a="F"/>iły, j<ch a="f"/>emy d<ch a="C"/>użo p<ch a="G"/>ajd.<ch a="C"/> <ch a="G7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Cz<ch a="C"/>asem chl<ch a="a"/>eba n<ch a="d"/>am brak<ch a="G"/>uje, <ch a="C"/>ale f<ch a="a"/>ajno j<ch a="d"/>est,<ch a="G"/></row>
+      <row important_over="false">kt<ch a="C"/>oś nas wt<ch a="C7"/>edy por<ch a="F"/>at<ch a="f"/>uje – t<ch a="C"/>o brat<ch a="G"/>erski g<ch a="C"/>est.<ch a="G7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">M<ch a="C"/>oże ki<ch a="a"/>edyś t<ch a="d"/>u za r<ch a="G"/>ok wsz<ch a="C"/>yscy si<ch a="a"/>ę spotk<ch a="d"/>amy,<ch a="G"/></row>
+      <row important_over="false">obsi<ch a="C"/>ądziemy <ch a="C7"/>ogień w k<ch a="F"/>oło <ch a="f"/>i tak z<ch a="C"/>aśpiew<ch a="G"/>amy.<ch a="C"/> <ch a="G7"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+  </lyric>
+  <music>
+    <guitar barre="0"/>
+  </music>
+  <keywords/>
+  <album>Bieszczady jak co roku…</album>
+  <genre>Piosenka harcerska</genre>
+  <status>
+    <done>
+      <authors/>
+      <chords>cordes</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>Adam</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/bieszczadzki-rajd</verificator>
+    </verificators>
+  </status>
 </song>
