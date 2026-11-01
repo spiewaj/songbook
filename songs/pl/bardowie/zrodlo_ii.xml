@@ -2,11 +2,9 @@
 <song title="Źródło II" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias>Rozlewiska</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
+	<comment>Napisana 4 sierpnia 1989 r. Melodia oparta na utworze „Źródło” (1978). Program i album „Głupi Jasio” (1990).</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Jak dal<ch a="e"/>eko od źródeł swoich rzeka odpływa,</row>
@@ -22,7 +20,7 @@
 			<row important_over="true">Karmi tr<ch a="C"/>awy i bagna co z nicości wyrosły,</row>
 			<row important_over="false">Więc na n<ch a="C"/>icość niezmi<ch a="D"/>ennie ni<ch a="G"/>eczułe:</row>
 			<row important_over="true">Tak tw<ch a="e"/>orzą się z rz<ch a="a"/>ek</row>
-			<row important_over="true">-- Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
+			<row important_over="true">— Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Duszny up<ch a="e"/>ał się szerzy, w przerażonym powietrzu</row>
@@ -38,7 +36,7 @@
 			<row important_over="true">Nurt się pł<ch a="C"/>awi w kałużach, bagno — bagnem odciska,</row>
 			<row important_over="false">Niemożl<ch a="C"/>iwe — ni pow<ch a="D"/>ódź, ni p<ch a="G"/>ożar…</row>
 			<row important_over="false">Tak tw<ch a="e"/>orzą się z rz<ch a="a"/>ek</row>
-			<row important_over="false">-- Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
+			<row important_over="false">— Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>a…</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Żeby rz<ch a="e"/>ekę odszukać — trzeba w niej się zanurzyć</row>
@@ -60,15 +58,9 @@
 			<row important_over="false">Rozlew<ch a="C"/>i<ch a="E0"/>sk<ch a="H"/>om…</row>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
 	<album>Głupi Jasio</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
@@ -79,9 +71,8 @@
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/zrodlo-ii-rozlewiska/</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
 	<music_source>Źródło</music_source>
 </song>
