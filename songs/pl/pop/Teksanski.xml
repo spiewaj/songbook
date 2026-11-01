@@ -4,30 +4,30 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="D"/>Herbata styg<ch a="G"/>nie, zapa<ch a="A"/>da mrok,</row>
-			<row important_over="never">a pod piórem ciągle nic.</row>
-			<row important_over="never">Obowiązek obowiązkiem jest:</row>
-			<row important_over="never">piosenka musi posiadać tekst.</row>
+			<row important_over="false">a <ch a="D"/>pod pió<ch a="G"/>rem ciąg<ch a="A"/>le nic.</row>
+			<row important_over="false">Obo<ch a="D"/>wiązek obo<ch a="G"/>wiązkiem <ch a="A"/>jest:</row>
+			<row important_over="false">pio<ch a="D"/>senka musi po<ch a="G"/>siadać <ch a="A"/>tekst.</row>
 			<row important_over="true">Gdyby <ch a="G"/>chociaż mucha zja<ch a="A"/>wiła <ch a="D"/>się,</row>
-			<row important_over="never">mogłabym ją zabić,</row>
-			<row important_over="never">a później to opisać.</row>
+			<row important_over="false">mo<ch a="G"/>głabym ją <ch a="A"/>za<ch a="D"/>bić,</row>
+			<row important_over="false">a <ch a="G"/>później to o<ch a="A"/>pi<ch a="D"/>sać.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">W moich <ch a="G"/>słowach słoma <ch a="A"/>czai <ch a="D"/>się,</row>
-			<row important_over="never">nie znaczą nic.</row>
-			<row important_over="never">Jeśli szukasz sensu, prawdy w nich –</row>
-			<row important_over="never">zawiedziesz się.</row>
+			<row important_over="false">nie <ch a="G"/>znaczą <ch a="A"/>n<ch a="D"/>ic.</row>
+			<row important_over="false">Jeśli <ch a="G"/>szukasz sensu, <ch a="A"/>prawdy w <ch a="D"/>nich –</row>
+			<row important_over="false">za<ch a="G"/>wiedziesz <ch a="A"/>si<ch a="D"/>ę.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A może zmienić zasady gry?</row>
-			<row important_over="never">Chcesz usłyszeć słowa,</row>
-			<row important_over="never">to sam je sobie wymyśl!</row>
+			<row important_over="false">A może zmienić za<ch a="G"/>sady <ch a="A"/>gry?<ch a="D"/></row>
+			<row important_over="false">Chcesz usłyszeć <ch a="G"/>słowa,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">to sam je sobie wy<ch a="G"/>myśl!<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="true">Nabij <ch a="G"/>diabła, chmurę <ch a="A"/>śmierci <ch a="D"/>weź –</row>
-				<row important_over="never">pomoże ci.</row>
-				<row important_over="never">Wnet twe myśli w słowa zmienią się,</row>
-				<row important_over="never">wyśpiewasz je sam.</row>
+				<row important_over="false">Nabij <ch a="G"/>diabła, chmurę <ch a="A"/>śmierci <ch a="D"/>weź –</row>
+				<row important_over="false">po<ch a="G"/>może <ch a="A"/>ci.<ch a="D"/></row>
+				<row important_over="false">Wnet twe myśli w <ch a="G"/>słowa zmie<ch a="A"/>nią się,<ch a="D"/></row>
+				<row important_over="false">wy<ch a="G"/>śpiewasz <ch a="A"/>je <ch a="D"/>sam.</row>
 			</bis>
 		</block>
 	</lyric>
