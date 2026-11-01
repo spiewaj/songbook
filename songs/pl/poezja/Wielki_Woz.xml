@@ -1,66 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wielki Wóz">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="F"/>Noce ciemne świerkowe<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Nam spadają na głowy<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Gdy idziemy zmierzchami<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Ociemniali blaskiem dnia<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Księżycowa latarnia<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Niebo mroki ogarnia<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Płoną gwiezdne latarki<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="C"/><ch a="G"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="D"/>Wędrujemy cygańskim obozem<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="A"/>Nocujemy w gwiaździstym gronie<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Dzisiaj pod wielkim wozem<ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Jutro na wielkim wozie<ch a="D"/></row>
-      <bis>
-        <row important_over="never"><ch a="C"/>Wielki wóz z małym wozem<ch a="G"/></row>
-        <row important_over="never"><ch a="D"/>Jadą po mlecznej drodze<ch a="G"/></row>
-        <row important_over="never"><ch a="C"/>Który dziś nas będzie wiózł<ch a="G"/></row>
-        <row important_over="never"><ch a="D"/>Mały wóz czy Wielki Wóz<ch a="G"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="F"/>Szczyty gór kryje całun<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Rzeki mgły roznuwają<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Gdy idziemy zmierzchami<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Ociemniali blaskiem dnia<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Zorza karmin wypala<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Jaśnieć gwiazdom pozwala<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Płoną gwiezdne latarki<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="C"/><ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="F"/>Ciepły dotyk twej dłoni<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Chłód wieczorny przegoni<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Gdy idziemy zmierzchami<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Ociemniali blaskiem dnia<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="F"/>Ścieżka wije się kręta<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Szlak na drzewach pamięta<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Płoną gwiezdne latarki<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Żeby jaśniej było nam<ch a="C"/><ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Noce ciemne świerkowe</alias>
+	<text_author>Jerzy Reiser; Maria Pawlikowska-Jasnorzewska</text_author>
+	<comment>Fragment refrenu zaczerpnięty z wiersza „Wielki Wóz” Marii Pawlikowskiej-Jasnorzewskiej z tomu „Pocałunki” (1926). Piosenka zdobyła I nagrodę na OTGPS w Szklarskiej Porębie w 1976 r.</comment>
+	<composer type="solo">Jerzy Reiser</composer>
+	<artist type="band">Browar Żywiec</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">N<ch a="C"/>oce ciemne, świerk<ch a="G"/>owe</row>
+			<row important_over="true">N<ch a="H7"/>am spadają na gł<ch a="e"/>owy,</row>
+			<row important_over="true">Gdy idzi<ch a="C"/>emy zmierzch<ch a="H7"/>am<ch a="e"/>i,</row>
+			<row important_over="true">Oci<ch a="C"/>emniali bl<ch a="G"/>askiem dni<ch a="D"/>a.</row>
+			<row important_over="true">Ks<ch a="F"/>iężyc<ch a="C"/>owa lat<ch a="G"/>arnia</row>
+			<row important_over="true">Ni<ch a="H7"/>eba mroki rozg<ch a="e"/>arnia,</row>
+			<row important_over="true">Pł<ch a="C"/>oną gwiezdne lat<ch a="G"/>arki,</row>
+			<row important_over="true">Ż<ch a="D"/>eby jaśniej było n<ch a="G"/>am,</row>
+			<row important_over="true">Ż<ch a="D"/>eby jaśniej było n<ch a="C"/>a<ch a="G"/>m.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Wędruj<ch a="D"/>emy cyg<ch a="C"/>ańskim ob<ch a="G"/>ozem,</row>
+			<row important_over="true">Nocuj<ch a="e"/>emy w gwi<ch a="A"/>aździstej gr<ch a="D"/>ozie,</row>
+			<row important_over="true">Dz<ch a="C"/>isiaj p<ch a="D"/>od Wielkim W<ch a="e"/>ozem,</row>
+			<row important_over="true">J<ch a="a"/>utro na Wielkim W<ch a="D"/>ozie.</row>
+			<bis>
+				<row important_over="true">Wi<ch a="C"/>elki Wóz z Małym W<ch a="G"/>ozem</row>
+				<row important_over="true">J<ch a="D"/>adą po Mlecznej Dr<ch a="G"/>odze,</row>
+				<row important_over="true">Kt<ch a="C"/>óry dziś nas będzie wi<ch a="G"/>ózł:</row>
+				<row important_over="true">M<ch a="D"/>ały Wóz czy Wielki W<ch a="G"/>óz?</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false">Szcz<ch a="C"/>yty gór kryje c<ch a="G"/>ałun,</row>
+			<row important_over="false">Rz<ch a="H7"/>eki mgły rozsnuw<ch a="e"/>ają,</row>
+			<row important_over="false">Gdy idzi<ch a="C"/>emy zmierzch<ch a="H7"/>am<ch a="e"/>i,</row>
+			<row important_over="false">Oci<ch a="C"/>emniali bl<ch a="G"/>askiem dni<ch a="D"/>a.</row>
+			<row important_over="false">Z<ch a="F"/>orza k<ch a="C"/>armin wyp<ch a="G"/>ala,</row>
+			<row important_over="false">J<ch a="H7"/>aśnieć gwiazdom pozw<ch a="e"/>ala,</row>
+			<row important_over="false">Pł<ch a="C"/>oną gwiezdne lat<ch a="G"/>arki,</row>
+			<row important_over="false">Ż<ch a="D"/>eby jaśniej było n<ch a="G"/>am,</row>
+			<row important_over="false">Ż<ch a="D"/>eby jaśniej było n<ch a="C"/>a<ch a="G"/>m.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ci<ch a="C"/>epły dotyk twej dł<ch a="G"/>oni</row>
+			<row important_over="false">Chł<ch a="H7"/>ód wieczorny przeg<ch a="e"/>oni,</row>
+			<row important_over="false">Gdy idzi<ch a="C"/>emy zmierzch<ch a="H7"/>am<ch a="e"/>i,</row>
+			<row important_over="false">Oci<ch a="C"/>emniali bl<ch a="G"/>askiem dni<ch a="D"/>a.</row>
+			<row important_over="false">Ści<ch a="F"/>eżka w<ch a="C"/>ije się kr<ch a="G"/>ęta,</row>
+			<row important_over="false">Szl<ch a="H7"/>ak na drzewach pami<ch a="e"/>ęta,</row>
+			<row important_over="false">Pł<ch a="C"/>oną gwiezdne lat<ch a="G"/>arki,</row>
+			<row important_over="false">Ż<ch a="D"/>eby jaśniej było n<ch a="G"/>am,</row>
+			<row important_over="false">Ż<ch a="D"/>eby jaśniej było n<ch a="C"/>a<ch a="G"/>m.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Giełda w Szklarskiej Porębie</keyword>
+	</keywords>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+	</status>
 </song>
