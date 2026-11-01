@@ -2,14 +2,12 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kubuś">
 	<alias>Walczyk grzecznego Kubusia</alias>
 	<text_author type="solo">Waldemar Chyliński lub Jacek Zwoźniak</text_author>
-	<comment>Tu znalazłem nagranie: 
-
-1984: https://youtu.be/Q1xk_DQ25jU?si=Lih8C3__Vr8Vpzmt&amp;t=2549
-
-i
-
-1987: https://youtu.be/PPqOC3jT334?si=5hVan1O3PxRJ36jN&amp;t=4326</comment>
-	<artist type="band">OCIPIEC</artist>
+	<comment>Piosenka z repertuaru formacji Kabaret Ocipiec (wykonywana m.in. na Yapie '84 i w klubie Balbina '87). Autorstwo tekstu bywa przypisywane Jackowi Zwoźniakowi lub Waldemarowi Chylińskiemu.
+Nagrania:
+- YAPA 1984: https://youtu.be/Q1xk_DQ25jU?t=2549
+- Kabareton w klubie Balbina 1987: https://youtu.be/PPqOC3jT334?t=4326</comment>
+	<composer type="solo">autor nieznany</composer>
+	<artist type="band">Kabaret Ocipiec</artist>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Na st<ch a="e"/>ole st<ch a="A"/>oi waz<ch a="D"/>onik,</row>
@@ -22,10 +20,10 @@ i
 			<row important_over="false">Gdy wł<ch a="e"/>ożę jej druta do <ch a="A"/>ucha.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">To w<ch a="e"/>alczyk grzeczn<ch a="A"/>ego Kub<ch a="D"/>usia,</row>
+			<row important_over="true">To w<ch a="e"/>alczyk grzeczn<ch a="A"/>ego Kub<ch a="D"/>usia,</row>
 			<row important_over="false">Znan<ch a="e"/>ego w c<ch a="A"/>ałym miast<ch a="D"/>eczku,</row>
-			<row important_over="false">Co n<ch a="G"/>ocą do majtek nie si<ch a="D"/>usia,</row>
-			<row important_over="false">I grz<ch a="e"/>ecznie się bawi w pias<ch a="A"/>eczku.</row>
+			<row important_over="true">Co n<ch a="G"/>ocą do majtek nie si<ch a="D"/>usia,</row>
+			<row important_over="true">I grz<ch a="e"/>ecznie się bawi w pias<ch a="A"/>eczku.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Dziadk<ch a="e"/>owi, co od l<ch a="A"/>at trzydzi<ch a="D"/>estu</row>
@@ -75,10 +73,12 @@ i
 	<status>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał</verificator>
+			<verificator>Paweł Budzyński</verificator>
 		</verificators>
 	</status>
 </song>
