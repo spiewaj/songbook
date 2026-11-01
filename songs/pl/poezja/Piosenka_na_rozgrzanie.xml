@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka na rozgrzanie">
-	<alias/>
+	<alias>Zimno tak, że aż strach</alias>
 	<text_author type="solo">Tomasz Liszewski</text_author>
-	<comment/>
+	<comment>Nagrodzona na festiwalu YAPA 1983. Płyta „Piosenki na rozgrzanie” (2005).</comment>
 	<composer type="solo">Tomasz Liszewski</composer>
 	<artist type="band">Nijak</artist>
-	<translator/>
-	<original_title/>
+	<translator></translator>
+	<original_title></original_title>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Zimno tak, że aż strach, jakże rozgrzać się<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Korowody chłodnych myśli oziębiają mnie<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
-			<row important_over="never">Nie pomaga łyk herbaty, ani ciepły szal<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Urojone z sopli kraty jak roztopić mam<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+			<row important_over="true"><ch a="G"/>Zimno tak, że aż <ch a="H7"/>strach, jakże <ch a="C"/>rozgrzać si<ch a="G"/>ę,</row>
+			<row important_over="true">korow<ch a="C"/>ody chłodnych m<ch a="G"/>yśli ozi<ch a="e"/>ębiają mn<ch a="D7"/>ie.</row>
+			<row important_over="false"><ch a="G"/>Nie pomaga łyk herb<ch a="H7"/>aty, ani ci<ch a="C"/>epły sz<ch a="G"/>al,</row>
+			<row important_over="false">uroj<ch a="C"/>one z sopli kr<ch a="G"/>aty jak rozt<ch a="e"/>opić m<ch a="D7"/>am.</row>
 		</block>
-		<block type="chorus"><bis times="2">
-				<row important_over="never">Piosenka na rozgrzanie, na rozgrzanie serc<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D7"/></row>
-				<row important_over="never">Rozgrzewa mnie takie granie, jak w domu ciepły piec<ch a="G"/><ch a="h"/><ch a="C"/><ch a="D"/></row>
-				<row important_over="never">W przytulnym cieple nutek, w przytulnym cieple pauz<ch a="C"/><ch a="D"/><ch a="G"/><ch a="e"/></row>
-				<row important_over="never">Z zimnego jak lód serca wypłynie czasem łza<ch a="C"/><ch a="D7"/><ch a="C"/><ch a="D7"/></row>
-			</bis></block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true"><ch a="G"/>Piosenka na rozgrz<ch a="h"/>anie, na rozgrz<ch a="C"/>anie s<ch a="D7"/>erc,</row>
+				<row important_over="true">rozgrz<ch a="G"/>ewa mnie takie gr<ch a="h"/>anie, jak w d<ch a="C"/>omu ciepły pi<ch a="D"/>ec.</row>
+				<row important_over="true">W przyt<ch a="C"/>ulnym cieple n<ch a="D"/>utek, w przyt<ch a="G"/>ulnym cieple p<ch a="e"/>auz,</row>
+				<row important_over="true">z zimn<ch a="C"/>ego jak lód s<ch a="D7"/>erca wypł<ch a="C"/>ynie czasem łz<ch a="D7"/>a.</row>
+			</bis>
+		</block>
 		<block type="verse">
-			<row important_over="never">Jak dziewczynka z zapałkami chcę ciepła, miłości<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Nie rozgrzeję się słowami tymi, co ze złości<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
-			<row important_over="never">Nie rozbawią mnie pajace, co na sznurkach skaczą<ch a="G"/><ch a="H7"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Chociaż wszystkim nam tak zimno, dobrze dziś pajacom<ch a="C"/><ch a="G"/><ch a="e"/><ch a="D7"/></row>
+			<row important_over="false">Jak dzi<ch a="G"/>ewczynka z zapałk<ch a="H7"/>ami chcę ci<ch a="C"/>epła, mił<ch a="G"/>ości,</row>
+			<row important_over="false">nie rozgrz<ch a="C"/>eję się słow<ch a="G"/>ami tymi, c<ch a="e"/>o ze zł<ch a="D7"/>ości.</row>
+			<row important_over="false"><ch a="G"/>Nie rozbawią mnie paj<ch a="H7"/>ace, co na szn<ch a="C"/>urkach sk<ch a="G"/>aczą,</row>
+			<row important_over="false">chociaż wsz<ch a="C"/>ystkim nam tak z<ch a="G"/>imno, dobrze dz<ch a="e"/>iś paj<ch a="D7"/>acom.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords></keywords>
+	<album>Piosenki na rozgrzanie</album>
+	<genre>turystyczna</genre>
 	<status>
-		<verificators><verificator>Alek</verificator>
-		</verificators>
-		<to_do>Zgodne z nagraniem — Alek</to_do>
 		<done>
 			<text/>
 			<authors/>
+			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Alek</verificator>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+		<to_do></to_do>
 	</status>
-	<keywords/>
-	<music_source/>
-	<album/>
-	<genre/>
+	<music_source>Festiwal Yapa 1983; album zespołu Nijak „Piosenki na rozgrzanie” (2005)</music_source>
 </song>
