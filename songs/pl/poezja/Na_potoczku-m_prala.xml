@@ -1,70 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Na potoczku-m prała" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na potoczku-m prała">
+	<alias/>
+	<text_author type="solo">tradycyjny</text_author>
+	<comment/>
+	<composer type="solo">tradycyjny</composer>
+	<artist type="band">Orkiestra św. Mikołaja</artist>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Na potoczku-m prała,<ch a="d"/></row>
-			<row important_over="never">Na werboczku-m kłała,<ch a="A7"/></row>
-			<row important_over="never">Pomoży mi, Pan’e Boże,<ch a="d"/></row>
-			<row important_over="never">Szczo-m sobi dumała.<ch a="A7"/><ch a="d"/></row>
+			<row important_over="true"><ch a="d"/>Na potoczku-m prała,</row>
+			<row important_over="true"><ch a="A7"/>Na werboczku-m kłała,</row>
+			<row important_over="true"><ch a="d"/>Pomoży mi, Pan’e Boże,</row>
+			<row important_over="true"><ch a="A7"/>Szczo-m sobi dum<ch a="d"/>ała.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Jam sobi dumała<ch a="d"/></row>
-			<row important_over="never">Chłopcia mołodoho,<ch a="A7"/></row>
-			<row important_over="never">A mene wydali<ch a="d"/></row>
-			<row important_over="never">Za dida staroho.<ch a="A7"/><ch a="d"/></row>
+			<row important_over="false"><ch a="d"/>Jam sobi dumała</row>
+			<row important_over="false"><ch a="A7"/>Chłopcia mołodoho,</row>
+			<row important_over="false"><ch a="d"/>A mene wydali</row>
+			<row important_over="false"><ch a="A7"/>Za dida star<ch a="d"/>oho.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Jak mn’e wydawali,<ch a="d"/></row>
-			<row important_over="never">Tak mene kazali,<ch a="A7"/></row>
-			<row important_over="never">Abyś moja Doniu<ch a="d"/></row>
-			<row important_over="never">Dida czestuwała.<ch a="A7"/><ch a="d"/></row>
+			<row important_over="false"><ch a="d"/>Jak mn’e wydawali,</row>
+			<row important_over="false"><ch a="A7"/>Tak mene kazali,</row>
+			<row important_over="false"><ch a="d"/>Abyś moja Doniu</row>
+			<row important_over="false"><ch a="A7"/>Dida czestuw<ch a="d"/>ała.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ja dida czesuju,<ch a="d"/></row>
-			<row important_over="never">Czestuwaty muszu,<ch a="A7"/></row>
-			<row important_over="never">Pomoży mi, Pan’e Boże,<ch a="d"/></row>
-			<row important_over="never">Wiźmi z dida duszu!<ch a="A7"/><ch a="d"/></row>
+			<row important_over="false"><ch a="d"/>Ja dida czesuju,</row>
+			<row important_over="false"><ch a="A7"/>Czestuwaty muszu,</row>
+			<row important_over="false"><ch a="d"/>Pomoży mi, Pan’e Boże,</row>
+			<row important_over="false"><ch a="A7"/>Wiźmi z dida d<ch a="d"/>uszu!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Wiźmi z dida duszu,<ch a="d"/></row>
-			<row important_over="never">Taj powiś na chruszu,<ch a="A7"/></row>
-			<row important_over="never">Szczuby starym znaty,<ch a="d"/></row>
-			<row important_over="never">Jak mołodu braty.<ch a="A7"/><ch a="d"/></row>
+			<row important_over="false"><ch a="d"/>Wiźmi z dida duszu,</row>
+			<row important_over="false"><ch a="A7"/>Taj powiś na chruszu,</row>
+			<row important_over="false"><ch a="d"/>Szczuby starym znaty,</row>
+			<row important_over="false"><ch a="A7"/>Jak mołodu br<ch a="d"/>aty.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zabrał Boh staroho,<ch a="d"/></row>
-			<row important_over="never">Nie dał mołodoho.<ch a="A7"/></row>
-			<row important_over="never">Pomoży mi, Pan’e Boże,<ch a="d"/></row>
-			<row important_over="never">Widdaj choć staroho!<ch a="A7"/><ch a="d"/></row>
+			<row important_over="false"><ch a="d"/>Zabrał Boh staroho,</row>
+			<row important_over="false"><ch a="A7"/>Nie dał mołodoho.</row>
+			<row important_over="false"><ch a="d"/>Pomoży mi, Pan’e Boże,</row>
+			<row important_over="false"><ch a="A7"/>Widdaj choć star<ch a="d"/>oho!</row>
 		</block>
 	</lyric>
-	
-	
-	<music metre="">
+	<music metre="2/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<keywords/>
+	<album>Muzyka Gór</album>
+	<genre>Folk</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>nedan</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator><verificator>
-			</verificator><verificator>
-		</verificator>
-			
-			
-			
+			<verificator>Onufry</verificator>
+			<verificator>Orkiestra św. Mikołaja - Muzyka Gór (1992)</verificator>
+			<verificator>https://www.discogs.com/release/2972413-Orkiestra-%C5%9Aw-Miko%C5%82aja-Muzyka-G%C3%B3r</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
 	<music_source>Piosenka łemkowska</music_source>
 </song>
