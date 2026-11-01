@@ -16,14 +16,14 @@
       <row important_over="true">Naciągn<ch a="a"/>ąłem na drz<ch a="C"/>azgi gontów</row>
       <row important_over="true">bł<ch a="d"/>ękitną pł<ch a="E"/>achtę nieba,</row>
       <row important_over="true">b<ch a="C"/>ędę mal<ch a="F"/>ował od n<ch a="C"/>o<ch a="E7"/>w<ch a="a"/>a</row>
-      <row important_over="true">wi<ch a="d"/>osk<ch a="E"/>ę w dol<ch a="a"/>inie.<ch a="G"/></row>
+      <row important_over="true" sidechords="d E a G">wi<ch a="d"/>osk<ch a="E"/>ę w dol<ch a="a"/>inie.</row>
     </block>
     <block type="chorus">
       <bis times="2">
         <row important_over="true"><ch a="C"/>Święty M<ch a="G"/>ikołaju,</row>
         <row important_over="true"><ch a="C"/>opowiedz, j<ch a="E"/>ak tu było,</row>
         <row important_over="true">j<ch a="a"/>akie pi<ch a="d"/>eśni śpiew<ch a="C"/>a<ch a="E"/>n<ch a="a"/>o,</row>
-        <row important_over="true">gdzi<ch a="d"/>e się p<ch a="E"/>asły k<ch a="a"/>onie.<ch a="G"/></row>
+        <row important_over="true" sidechords="d E a G">gdzi<ch a="d"/>e się p<ch a="E"/>asły k<ch a="a"/>onie.</row>
       </bis>
     </block>
     <block type="verse">
@@ -34,7 +34,7 @@
       <bis times="2">
         <row important_over="false">Ej, śl<ch a="a"/>epcze, n<ch a="C"/>auczę swoje dzi<ch a="d"/>ecko p<ch a="E"/>o łemkowsku,</row>
         <row important_over="false">b<ch a="C"/>ędziecie r<ch a="F"/>azem ż<ch a="C"/>e<ch a="E7"/>br<ch a="a"/>ać</row>
-        <row important_over="false">w malow<ch a="d"/>anych wi<ch a="E"/>osk<ch a="a"/>ach.<ch a="G"/></row>
+        <row important_over="false" sidechords="d E a G">w malow<ch a="d"/>anych wi<ch a="E"/>osk<ch a="a"/>ach.</row>
       </bis>
     </block>
     <blocklink blocknb="2"/>
