@@ -61,8 +61,8 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
-    <guitar/>
+  <music metre="4/4">
+    <guitar barre="0"/>
   </music>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
