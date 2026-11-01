@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Odpowiedź na ankietę ,,Twój system wartości''" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song title="Odpowiedź na ankietę „Twój system wartości”" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Polityka mi wisi</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
+	<comment>Napisana 4 lutego 1995 r. Program i płyta „Pochwała łotrostwa” (1997).</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Pol<ch a="d"/>ityka mi wisi</row>
@@ -16,7 +14,7 @@
 			<row important_over="true">Hist<ch a="g"/>oria mnie nie bierze,</row>
 			<row important_over="true">Lit<ch a="g"/>eratura nudzi.</row>
 			<row important_over="true">J<ch a="A"/>a tam dziś w nic nie wierzę,</row>
-			<row important_over="true">A j<ch a="A"/>uż na bank - nie w ludzi.</row>
+			<row important_over="true">A j<ch a="A"/>uż na bank — nie w ludzi.</row>
 			<row important_over="true">Nawet drz<ch a="F"/>ewa twardni<ch a="C"/>eją, by prz<ch a="d"/>eż<ch a="a"/>yć,</row>
 			<row important_over="true">Co tu m<ch a="B"/>ówić o l<ch a="F"/>udziach, fraj<ch a="A"/>erzy!</row>
 		</block>
@@ -57,12 +55,9 @@
 			<row important_over="false">A prz<ch a="B"/>ecież istni<ch a="F"/>eją bezgrz<ch a="A"/>esznie.</row>
 		</block>
 	</lyric>
-	
-	
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
 	<album>Pochwała łotrostwa</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
@@ -73,9 +68,7 @@
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/odpowiedz-na-ankiete-twoj-system-wartosci/</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
