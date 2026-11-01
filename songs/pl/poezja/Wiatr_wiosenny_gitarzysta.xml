@@ -1,54 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiatr, wiosenny gitarzysta">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="G"/><ch a="e"/>Wiatr to jest taki gitarzysta</row>
-      <row important_over="true"><ch a="a7"/><ch a="D7"/>Co gra na akacjowych listkach</row>
-      <row important_over="false"><ch a="G"/><ch a="e"/>Pogra odchodzi i nie wraca</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>I bardzo smuci się akacja</row>
-    </block>
-    <block type="verse">
-      <row important_over="true"><ch a="e"/><ch a="h"/>Więc gdy zapadnie noc i nawet</row>
-      <row important_over="true"><ch a="C"/><ch a="E"/>Róża się chowa w senną trawę</row>
-      <row important_over="true"><ch a="a7"/><ch a="a7+"/>Ptak składa skrzydła w twardej sośnie</row>
-      <row important_over="true"><ch a="a"/><ch a="h7"/><ch a="C"/><ch a="D"/>Akacja skarży się żałośnie</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="G"/><ch a="e"/>Dokąd poleciał ten szaleniec</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>Na czyich liściach szumi gdziejest</row>
-      <row important_over="false"><ch a="G"/><ch a="e"/>Czemu nie wraca srebrny wariat</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>Srebrny i ciepły jak latarnia</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="e"/><ch a="h"/>Wietrze, ach wietrze jaka pustka</row>
-      <row important_over="false"><ch a="C"/><ch a="E"/>Ty zawsze będziesz na mych ustach</row>
-      <row important_over="false"><ch a="a7"/><ch a="a7+"/>Ty zawsze będziesz na mych listkach</row>
-      <row important_over="false"><ch a="a"/><ch a="h7"/><ch a="C"/><ch a="D"/>Listkiem do listka Cię przyciskam</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="G"/><ch a="e"/>Wietrze, wiosenny gitarzysto</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>Mój każdy kwiat dla Ciebie wszystko</row>
-      <row important_over="false"><ch a="G"/><ch a="e"/>Wietrze wiosenny z leśnych ścieżek</row>
-      <row important_over="false"><ch a="a7"/><ch a="D7"/>Mój gitarzysto gondolierze</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="e"/><ch a="h"/>Wietrze wiosenny piosenkarzu</row>
-      <row important_over="false"><ch a="C"/><ch a="E"/>Jak długo będę twoja marząc</row>
-      <row important_over="false"><ch a="a7"/><ch a="a7+"/>Aż wróci wiatr — zimowy wicher</row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Wiatr to jest taki gitarzysta</alias>
+	<text_author type="solo">Tadeusz Kubiak</text_author>
+	<comment/>
+	<composer type="solo">Krzysztof Sadowski</composer>
+	<artist type="solo">Liliana Urbańska</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="G"/> Wiatr to jest taki git<ch a="e"/>arzysta,</row>
+			<row important_over="true">C<ch a="a7"/>o gra na akacj<ch a="D7"/>owych listkach,</row>
+			<row important_over="true">P<ch a="G"/>ogra, odchodzi i ni<ch a="e"/>e wraca —</row>
+			<row important_over="true">I b<ch a="a7"/>ardzo smuci si<ch a="D7"/>ę akacja.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Wi<ch a="e"/>ęc gdy zapadnie noc i n<ch a="h"/>awet</row>
+			<row important_over="true">R<ch a="C"/>óża się chowa w senną tr<ch a="E"/>awę,</row>
+			<row important_over="true">Pt<ch a="a7"/>ak składa skrzydła w tw<ch a="a7+"/>ardej sośnie —</row>
+			<row important_over="true"><ch a="a"/> Akacja sk<ch a="h7"/>arży się żał<ch a="C"/>ośni<ch a="D"/>e:</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">„D<ch a="G"/>okąd poleciał ten szal<ch a="e"/>eniec,</row>
+			<row important_over="false">N<ch a="a7"/>a czyich liściach szumi, gdz<ch a="D7"/>ie jest?</row>
+			<row important_over="false">Cz<ch a="G"/>emu nie wraca srebrny w<ch a="e"/>ariat,</row>
+			<row important_over="false">Sr<ch a="a7"/>ebrny i ciepły jak lat<ch a="D7"/>arnia?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="e"/>etrze, ach wietrze, jaka p<ch a="h"/>ustka,</row>
+			<row important_over="false">T<ch a="C"/>y zawsze będziesz na mych <ch a="E"/>ustach,</row>
+			<row important_over="false">T<ch a="a7"/>y zawsze będziesz na mych l<ch a="a7+"/>istkach,</row>
+			<row important_over="false">L<ch a="a"/>istkiem do l<ch a="h7"/>istka Cię przyc<ch a="C"/>isk<ch a="D"/>am!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="G"/>etrze, wiosenny git<ch a="e"/>arzysto,</row>
+			<row important_over="false">M<ch a="a7"/>ój każdy kwiat dla Ciebie, wsz<ch a="D7"/>ystko,</row>
+			<row important_over="false">Wi<ch a="G"/>etrze wiosenny z leśnych ści<ch a="e"/>eżek,</row>
+			<row important_over="false">M<ch a="a7"/>ój gitarzysto, gondoli<ch a="D7"/>erze!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="e"/>etrze, wiosenny piosenk<ch a="h"/>arzu,</row>
+			<row important_over="false">J<ch a="C"/>ak długo będę twoją, m<ch a="E"/>arząc?</row>
+			<row important_over="false">Wr<ch a="a7"/>óć do akacji swojej c<ch a="a7+"/>ichej...”</row>
+			<row important_over="false"><ch a="a"/> Aż wrócił w<ch a="h7"/>iatr — zim<ch a="C"/>owy w<ch a="D"/>ich<ch a="e"/>er...</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Opole 1969</keyword>
+		<keyword>KFPP</keyword>
+	</keywords>
+	<genre>Piosenka poetycka</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+	</status>
 </song>
