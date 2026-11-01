@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czarna Madonna">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Jest zakątek na tej ziemi</alias>
+  <text_author type="solo">Alicja Gołaszewska</text_author>
+  <comment>Popularna pieśń religijna i pielgrzymkowa dedykowana Matce Boskiej Częstochowskiej, napisana w 1971 roku przez Alicję Gołaszewską.</comment>
+  <composer type="solo">Alicja Gołaszewska</composer>
+  <artist type="solo">Alicja Gołaszewska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Jest zakątek na tej ziemi</row>
-      <row important_over="never"><ch a="C"/>Gdzie powracać każdy chce</row>
-      <row important_over="never"><ch a="a"/>Gdzie króluje Jej oblicze</row>
-      <row important_over="never"><ch a="D"/>Na nim cięte rysy dwie</row>
-      <row important_over="never"><ch a="G"/>Wzrok ma smutny zatroskany</row>
-      <row important_over="never"><ch a="C"/>Jakby chciała prosić cię<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Byś w matczyną Jej opiekę</row>
-      <row important_over="never"><ch a="D"/>Oddał się<ch a="G"/></row>
+      <row important_over="true">Jest <ch a="G"/>zakątek na tej <ch a="e"/>ziemi,</row>
+      <row important_over="true">Gdzie po<ch a="C"/>wracać każdy chce,</row>
+      <row important_over="true">Gdzie kró<ch a="a"/>luje Jej Ob<ch a="D"/>licze,</row>
+      <row important_over="true">Na Nim <ch a="D7"/>cięte rysy dwie.</row>
+      <row important_over="false">Wzrok ma <ch a="G"/>smutny, zatros<ch a="e"/>kany,</row>
+      <row important_over="false">Jakby <ch a="C"/>chciała prosić cię,</row>
+      <row important_over="false">Byś w matc<ch a="D"/>zyną Jej o<ch a="D7"/>piekę oddał <ch a="G"/>się. <ch a="D7"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="G"/>Madonno, Czarna Madonno<ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Jak dobrze Twym dzieckiem być<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>O pozwól Czarna Madonno<ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>W ramiona Twoje się skryć<ch a="G"/><ch a="D"/></row>
+      <row important_over="true">Mad<ch a="G"/>onno, Czarna Ma<ch a="C"/>donno, <ch a="a"/></row>
+      <row important_over="true">Jak <ch a="D"/>dobrze Twym <ch a="D7"/>dzieckiem <ch a="G"/>być! <ch a="D7"/></row>
+      <row important_over="false">O, <ch a="G"/>pozwól, Czarna Ma<ch a="C"/>donno, <ch a="a"/></row>
+      <row important_over="false">W ra<ch a="D"/>miona <ch a="D7"/>Twoje się <ch a="G"/>skryć. <ch a="D7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>W jej ramionach znajdziesz spokój</row>
-      <row important_over="never"><ch a="C"/>I uchronisz się od zła</row>
-      <row important_over="never"><ch a="a"/>Bo dla wszystkich swoich dzieci</row>
-      <row important_over="never"><ch a="D"/>Ona serce czułe ma</row>
-      <row important_over="never"><ch a="G"/>I opieką Cię otoczy</row>
-      <row important_over="never"><ch a="C"/>Gdy Jej oddasz serce swe<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Gdy powtórzysz Jej z radością</row>
-      <row important_over="never"><ch a="G"/>Słowa te<ch a="D"/></row>
+      <row important_over="never">W Jej ramionach znajdziesz spokój</row>
+      <row important_over="never">I uchronisz się od zła,</row>
+      <row important_over="never">Bo dla wszystkich swoich dzieci</row>
+      <row important_over="never">Ona serce czułe ma.</row>
+      <row important_over="never">I opieką Cię otoczy,</row>
+      <row important_over="never">Gdy Jej oddasz serce swe,</row>
+      <row important_over="never">Gdy powtórzysz Jej z radością słowa te:</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Dziś gdy wokół nas niepokój</row>
-      <row important_over="never"><ch a="C"/>Gdzie się człowiek schronić ma</row>
-      <row important_over="never"><ch a="a"/>Gdzie pójść jak nie do matki</row>
-      <row important_over="never"><ch a="D"/>Która ukojenie da</row>
-      <row important_over="never"><ch a="G"/>Więc błagamy o Madonno</row>
-      <row important_over="never"><ch a="C"/>Skieruj wzrok na dzieci swe<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>I wysłuchaj jak śpiewamy</row>
-      <row important_over="never"><ch a="G"/>Prosząc Cię<ch a="D"/></row>
+      <row important_over="never">Dziś, gdy wokół nas niepokój,</row>
+      <row important_over="never">Gdzie się człowiek schronić ma,</row>
+      <row important_over="never">Gdzie pójść, jak nie do Matki,</row>
+      <row important_over="never">Która ukojenie da?</row>
+      <row important_over="never">Więc błagamy, o Madonno,</row>
+      <row important_over="never">Skieruj wzrok na dzieci swe</row>
+      <row important_over="never">I wysłuchaj, jak śpiewamy, prosząc Cię:</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <genre>pieśń religijna</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Czarna_Madonna</verificator>
+      <verificator>https://spiewnik.wywrota.pl/religijne/czarna-madonna</verificator>
+    </verificators>
   </status>
 </song>
