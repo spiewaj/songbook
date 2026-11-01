@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song title="Zaciągnijcie na oknie niebieską zasłonę…" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Trzy siostry</alias>
 	<text_author type="solo">Bułat Okudżawa</text_author>
-	<comment></comment>
 	<composer type="solo">Bułat Okudżawa</composer>
 	<artist type="solo">Bułat Okudżawa</artist>
 	<translator>Jerzy Czech</translator>
-	<original_title>*** [Opustitie pożałusta sinije sztory]</original_title>
+	<original_title>Три сестры (Опустите, пожалуйста, синие шторы)</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Zaciągn<ch a="e"/>ijcie na oknie niebi<ch a="H7"/>eską zasł<ch a="e"/>onę,</row>
@@ -18,7 +17,7 @@
 			<row important_over="false">Krótki p<ch a="e"/>obyt na ziemi opł<ch a="H7"/>acić przyst<ch a="e"/>oi,</row>
 			<row important_over="false">Ale p<ch a="G"/>ustą sakiewkę dziś m<ch a="D7"/>am, jak na zł<ch a="G"/>ość…</row>
 			<row important_over="false">-- Nie zam<ch a="a"/>artwiaj się, nie smuć, o Wiaro, Ty m<ch a="e"/>oja,</row>
-			<row important_over="false">Pewnie j<ch a="H7"/>eszcze dłużników zostalo Ci d<ch a="e"/>ość.</row>
+			<row important_over="false">Pewnie j<ch a="H7"/>eszcze dłużników zostało Ci d<ch a="e"/>ość.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Resztką s<ch a="e"/>ił się obrócę do dr<ch a="H7"/>ugiej z kol<ch a="e"/>ei,</row>
@@ -47,27 +46,20 @@
 			</bis>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	
 	<music metre="6/8">
 		<guitar barre="3"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source>https://bibliotekapiosenki.pl/utwory/Trzy_siostry_Okudzawa_Bulat</music_source>
 </song>
