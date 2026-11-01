@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Raz po raz">
+  <alias>Każde z nas swoje ścieżki ma</alias>
   <text_author type="solo">Bogdan Olewicz</text_author>
+  <comment>Utwór z albumu „Śmigło” (1999) zespołu Perfect.</comment>
   <composer type="solo">Dariusz Kozakiewicz</composer>
-  <artist type="solo">Perfect</artist>
+  <artist type="band">Perfect</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">każde z nas swoje ścieżki ma <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">wydeptane i sprawdzone od lat <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">czasem myśl mi nie daje spać <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
-      <row important_over="never">kto chodzi bokiem <ch a="C"/></row>
-      <row important_over="never">kto chodzi bokiem <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>Każde z <ch a="G"/>nas swoje <ch a="C"/>ścieżki <ch a="F"/>ma,</row>
+      <row important_over="true"><ch a="C"/>Wydep<ch a="G"/>tane i spraw<ch a="a"/>dzone od <ch a="F"/>lat.</row>
+      <row important_over="true"><ch a="C"/>Czasem <ch a="G"/>myśl mi nie <ch a="a"/>daje <ch a="G"/>spać: <ch a="F"/></row>
+      <row important_over="true">Kto chodzi <ch a="C"/>bokiem? Kto chodzi <ch a="G"/>bokiem?</row>
     </block>
     <block type="verse">
-      <row important_over="never">kiedy ja chce zielonym być <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">dom grzać słońcem i deszczówkę z chmur pić <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">wtedy mnie dopada myśl <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
-      <row important_over="never">kto ma ochotę <ch a="C"/></row>
-      <row important_over="never">o świat lepszy się bić <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Kiedy <ch a="G"/>ja chcę zie<ch a="C"/>lonym <ch a="F"/>być,</row>
+      <row important_over="false"><ch a="C"/>Dom grzać <ch a="G"/>słońcem i desz<ch a="a"/>czówkę z chmur <ch a="F"/>pić,</row>
+      <row important_over="false"><ch a="C"/>Wtedy <ch a="G"/>mnie do<ch a="a"/>pada <ch a="G"/>myśl: <ch a="F"/></row>
+      <row important_over="false">Kto ma o<ch a="C"/>chotę o świat lepszy się <ch a="G"/>bić?</row>
     </block>
     <block type="chorus">
-      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
-      <row important_over="never">mówią w prost że to finał <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">rok może pięć komet deszcz i szlus <ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">chyba że tęgi łeb myli się <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">i kurtyna w dół zamiast spaść <ch a="G"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never">w górę mknie <ch a="F"/><ch a="G"/></row>
+      <row important_over="true">Raz po <ch a="C"/>raz straszą <ch a="a"/>nas, mówią <ch a="F"/>wprost, że to <ch a="G"/>finał,</row>
+      <row important_over="true"><ch a="C"/>Rok, może <ch a="a"/>pięć, komet <ch a="F"/>deszcz i <ch a="G"/>szlus.</row>
+      <row important_over="true">Chyba <ch a="C"/>że tęgi <ch a="a"/>łeb myli <ch a="F"/>się i kur<ch a="G"/>tyna</row>
+      <row important_over="true">W dół zamiast <ch a="C"/>spaść, w górę <ch a="a"/>mknie <ch a="F"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Może ja jadłem inny chleb <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">może księgi czytywałem nie te <ch a="C"/><ch a="G"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">patrze w ekran i wciąż pytam się <ch a="C"/><ch a="G"/><ch a="a"/><ch a="G"/><ch a="F"/></row>
-      <row important_over="never">czy świat na głowie <ch a="C"/></row>
-      <row important_over="never">to jedyny nasz wkład <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Może <ch a="G"/>ja jadłem <ch a="C"/>inny <ch a="F"/>chleb,</row>
+      <row important_over="false"><ch a="C"/>Może <ch a="G"/>księgi czy<ch a="a"/>tywałem <ch a="F"/>nie te,</row>
+      <row important_over="false"><ch a="C"/>Patrzę w <ch a="G"/>ekran i <ch a="a"/>wciąż py<ch a="G"/>tam <ch a="F"/>się:</row>
+      <row important_over="false">Czy świat na <ch a="C"/>głowie to jedyny nasz <ch a="G"/>wkład?</row>
     </block>
     <block type="chorus">
-      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
-      <row important_over="never">że nasz ład właśnie mija <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">bo całe zło krew i pot to my <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never">chyba mam lepszy wzrok niezły plan się rozwija <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never">znów łączy nas tęczy most <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="false">Raz po <ch a="C"/>raz straszą <ch a="a"/>nas, że nasz <ch a="F"/>ład właśnie <ch a="G"/>mija,</row>
+      <row important_over="false">Bo całe <ch a="C"/>zło, krew i <ch a="a"/>pot, to <ch a="F"/>my. <ch a="G"/></row>
+      <row important_over="false">Chyba <ch a="C"/>mam lepszy <ch a="a"/>wzrok – niezły <ch a="F"/>plan się roz<ch a="G"/>wija,</row>
+      <row important_over="false">Znów łączy <ch a="C"/>nas tęczy <ch a="a"/>most. <ch a="F"/><ch a="G"/></row>
     </block>
-    <block type="verse">
-      <row important_over="never">Gdy o tym myślę w głowie zamęt mam <ch a="F"/></row>
-      <row important_over="never">śmiać się czy też włosy rwać <ch a="C"/><ch a="G"/></row>
-      <row important_over="never">muzykę słyszę ciało rusza w tan <ch a="F"/></row>
-      <row important_over="never">i tak mogę wieki trwać <ch a="C"/><ch a="G"/></row>
+    <block type="other">
+      <row important_over="true">Gdy o tym myślę, w głowie zamęt mam: <ch a="F"/></row>
+      <row important_over="true">Śmiać się czy też włosy <ch a="C"/>rwać? <ch a="G"/></row>
+      <row important_over="false">Muzykę słyszę, ciało rusza w tan <ch a="F"/></row>
+      <row important_over="false">I tak mogę wieki <ch a="C"/>trwać! <ch a="G"/></row>
     </block>
-    <block type="chorus">
-      <row important_over="never">raz po raz starszą nas <ch a="C"/><ch a="a"/></row>
-      <row important_over="never">mówią w prost że to finał <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">rok może pięć komet deszcz i śluz <ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">chyba że tęgi łeb myli się <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="never">i kurtyna w dół zamiast spaść <ch a="G"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never">w górę pnie do gwiazd <ch a="F"/><ch a="G"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">raz po raz straszą nas <ch a="C"/><ch a="a"/></row>
-      <row important_over="never">że nasz ład właśnie mija <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">bo całe zło krew i pot to my <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never">chyba mam lepszy wzrok niezły plan się rozwija <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never">znów łączy nas tęczy most <ch a="C"/><ch a="a"/><ch a="F"/></row>
-    </block>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="5"/>
   </lyric>
-  <keywords/>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <album>Śmigło</album>
+  <genre>rock</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/perfect/raz-po-raz</verificator>
+    </verificators>
   </status>
 </song>
