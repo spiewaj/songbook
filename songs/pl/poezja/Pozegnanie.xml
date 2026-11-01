@@ -2,8 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pożegnanie">
 	<alias>Spójrz przez okno — wiosna śniegi rozgania</alias>
 	<text_author type="solo">Maciej Służała</text_author>
-	<comment>My to śpiewamy nieco inaczej niż na kasecie (Baśń - Tak czy Owak), więc nie rozmieszczam akordów. Zresztą, nie za bardzo umiem - kiedyś znakiem bardzo długo się staraliśmy to rozpracować, i nie poszło. — Onufry
-Zespół Krążek (http://krazek.art.pl/) uważa swoją drugą nazwę Tak czy Owak za przejściową i nietrafioną, respektujemy to — Alek</comment>
+	<comment>Zespół Krążek występował również pod nazwą Tak czy Owak (m.in. na kasecie „Baśń”).</comment>
 	<composer type="solo">Maciej Służała</composer>
 	<artist type="band">Krążek</artist>
 	<lyric>
@@ -60,6 +59,7 @@ Zespół Krążek (http://krazek.art.pl/) uważa swoją drugą nazwę Tak czy Ow
 			<verificator>Onufry</verificator>
 			<verificator>Alek</verificator>
 		</verificators>
-		<to_do/>
+		<to_do>My to śpiewamy nieco inaczej niż na kasecie (Baśń - Tak czy Owak), więc nie rozmieszczam akordów. Zresztą, nie za bardzo umiem - kiedyś znakiem bardzo długo się staraliśmy to rozpracować, i nie poszło. — Onufry
+Zespół Krążek (http://krazek.art.pl/) uważa swoją drugą nazwę Tak czy Owak za przejściową i nietrafioną, respektujemy to — Alek</to_do>
 	</status>
 </song>
