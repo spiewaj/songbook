@@ -24,4 +24,15 @@ Always verify whether the current Pull Request has already been merged before ex
   - Leave the song chordless (or keep existing chords unchanged).
   - Clearly document in `<to_do>` or `<comment>` that the chords/melody are unknown and could not be verified from public sources.
   - Do NOT mark `<chords>` under `<status><done>`.
-- **Honest Source Attribution**: Every `<verificator>` entry MUST point to a genuine URL or verified physical reference that was actually consulted. NEVER invent or assume a source.
+- **Honest Source Attribution & No Fabricated Names**:
+  - Every new `<verificator>` entry MUST point to a genuine, verified URL or authoritative physical reference that was actually consulted.
+  - **NEVER create, guess, or invent names of people or contributors** (e.g. NEVER extrapolate usernames like `ptab` into imaginary people like „Piotr Tabernacki”).
+  - New verificators must be authoritative URLs. Historical named verificators already present in files (`Onufry`, `Kuba`, `Adam`, `Michał Korch`, etc.) must be preserved, but never invent new person names.
+  - **Zero tolerance for hallucinated URLs** (e.g. never invent domains or links).
+- **Comment Rules**:
+  - Do NOT repeat content in `<comment>` that is already captured by other explicit fields (`text_author`, `composer`, `artist`, `title`).
+  - Use `<comment>` only for supplementary historical background, origins, performance notes, or source context.
+- **Preserve Pseudonyms (ps.)**:
+  - When an author or composer is widely known by a pseudonym (e.g. scout or insurgent songs like `Mirosław Jezierski (ps. „Karnisz”)`, `Jan Markowski (ps. „Krzysztof”)`, `Bogusław Adamek (ps. „Bodzio”)`), KEEP the pseudonym in the author tag.
+- **Preserve Authentic Folklore & Dialect**:
+  - Do not alter or "correct" authentic scout folklore, slang, or intentional archaic/dialect rhymes even if they deviate from standard grammar or spelling.

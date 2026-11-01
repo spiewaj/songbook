@@ -20,7 +20,14 @@ This skill defines the standard operating procedure for deeply verifying and fix
 >   - Leave the lyrics chordless (or keep existing chords unchanged).
 >   - Add an explicit note in `<to_do>` stating that chords could not be verified from public or authoritative sources.
 >   - Do NOT mark `<chords>` under `<status><done>`.
-> - **Authentic Attribution in `<verificator>`**: Every `<verificator>` entry MUST point to a genuine URL or real-world source actually consulted. NEVER invent, fabricate, or assume an unverified source.
+> - **Authentic Attribution in `<verificator>` & No Fabricated Names**:
+>   - Every `<verificator>` entry MUST point to a genuine URL or real-world source actually consulted. NEVER invent, fabricate, or assume an unverified source.
+>   - **NEVER invent names of people or contributors** (e.g. NEVER guess human names from usernames, such as inventing „Piotr Tabernacki”).
+>   - New verificators must be authoritative URLs. Historical person names already present in the file (`Onufry`, `Kuba`, `Adam`, `Michał Korch`) must be preserved, but never invent new personal names.
+>   - **Zero tolerance for hallucinated URLs** (e.g. never invent domains or links).
+> - **No Duplication in `<comment>`**: Do NOT repeat content in `<comment>` that is already captured by other explicit fields (`text_author`, `composer`, `artist`, `title`). Only put genuine supplementary notes, historical trivia, or performance context in `<comment>`.
+> - **Preserve Pseudonyms (ps.)**: When an author or composer is commonly known with a pseudonym (e.g. `Mirosław Jezierski (ps. „Karnisz”)`, `Jan Markowski (ps. „Krzysztof”)`), KEEP the pseudonym in the author tag.
+> - **Preserve Authentic Scout Folklore & Dialect**: Do not alter intentional scout slang, colloquial rhymes, or authentic folklore phrasing.
 
 ## Overview of What "Deep Verification" Covers
 
