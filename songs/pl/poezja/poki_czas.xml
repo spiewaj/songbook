@@ -1,65 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obietnica">
-  <alias>Póki czas</alias>
-  <text_author type="solo">Anna Jakubowska, Piotr Wojewódzki</text_author>
-  <composer type="solo">Anna Jakubowska, Piotr Wojewódzki</composer>
-  <lyric>
-    <block type="verse">
-      <row important_over="never" sidechords="e">Kiedy serce zamarznie już w nas</row>
-      <row important_over="never" sidechords="C">Kiedy nie ochroni przed mrozem nasz dom</row>
-      <row important_over="never" sidechords="D">Nie zapomnij o strunach</row>
-      <bis times="2">
-        <row important_over="never" sidechords="C D e">To na pewno się uda! </row>
-      </bis>
-      <row important_over="never" sidechords="e">Ja zatańczę a ty śpiewaj!</row>
-      <row important_over="never" sidechords="C">Niech zaszumią wkoło drzewa!</row>
-      <row important_over="never" sidechords="D">Niechaj dom przypomni sobie</row>
-      <bis times="2">
-        <row important_over="never" sidechords="C D e">Kiedy życiem tchnął </row>
-      </bis>
-    </block>
-    <block type="chorus">
-      <row important_over="never" sidechords="C D">Póki jeszcze nas na to stać</row>
-      <row important_over="never" sidechords="G e">Nie przestaniemy się kochać i śmiać</row>
-      <row important_over="never" sidechords="C D">Póki można inaczej</row>
-      <row important_over="never" sidechords="G e">To nie dajmy się rozpaczy</row>
-      <row important_over="never" sidechords="C D">Bo ta rozpacz</row>
-      <row important_over="never" sidechords="G e">Może nam w ramiona wpaść</row>
-      <row important_over="never" sidechords="C D e">A jej uścisk jest jak pętla szubienicy</row>
-    </block>
-    <block type="verse">
-      <row important_over="never" sidechords="e">Śmiej się ze mną i płacz</row>
-      <row important_over="never" sidechords="C">Póki zima trwa</row>
-      <row important_over="never" sidechords="D">Póki wiatr lodów nie przemieni</row>
-      <bis times="2">
-        <row important_over="never" sidechords="C D e">Myśl ze mną o lecie</row>
-      </bis>
-      <row important_over="never" sidechords="e">Ja zaśpiewam a ty tańcz</row>
-      <row important_over="never" sidechords="C">Niechaj zima trwa</row>
-      <row important_over="never" sidechords="D">Niechaj iskra z ognia trwa</row>
-      <bis times="2">
-        <row important_over="never" sidechords="C D e">My szukamy dnia </row>
-      </bis>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never" sidechords="e">Bawię się z tobą w chowanego</row>
-      <row important_over="never" sidechords="C">Twarz masz jednak wciąż zmęczoną</row>
-      <row important_over="never" sidechords="D">Chowam się znów za kwiatuszek</row>
-      <bis times="2">
-        <row important_over="never" sidechords="C D e">Ty będziesz moją żoną </row>
-      </bis>
-      <row important_over="never" sidechords="e">Przeczekamy srogie zimy</row>
-      <row important_over="never" sidechords="C">Zimy, wiosny i jesienie</row>
-      <row important_over="never" sidechords="D">Latem będę czekać wciąż</row>
-      <row important_over="never" sidechords="C D e">Ja twój mąż</row>
-      <row important_over="never" sidechords="C D e">Ty mój mąż</row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias>Póki czas</alias>
+	<text_author type="solo">Anna Jakubowska, Piotr Wojewódzki</text_author>
+	<composer type="solo">Anna Jakubowska, Piotr Wojewódzki</composer>
+	<artist type="band">Anna Jakubowska, Piotr Wojewódzki</artist>
+	<genre>poezja śpiewana</genre>
+	<lyric>
+		<block type="verse">
+			<row important_over="true" sidechords="e">Ki<ch a="e"/>edy serce zamarznie już w nas,</row>
+			<row important_over="true" sidechords="C">Ki<ch a="C"/>edy nie ochroni przed mrozem nasz dom,</row>
+			<row important_over="true" sidechords="D">Ni<ch a="D"/>e zapomnij o strunach –</row>
+			<bis times="2">
+				<row important_over="true" sidechords="C D e">T<ch a="C"/>o na p<ch a="D"/>ewno się <ch a="e"/>uda!</row>
+			</bis>
+			<row important_over="false" sidechords="e">J<ch a="e"/>a zatańczę, a ty śpiewaj!</row>
+			<row important_over="false" sidechords="C">Ni<ch a="C"/>ech zaszumią wkoło drzewa!</row>
+			<row important_over="false" sidechords="D">Ni<ch a="D"/>echaj dom przypomni sobie,</row>
+			<bis times="2">
+				<row important_over="false" sidechords="C D e">Ki<ch a="C"/>edy ż<ch a="D"/>yciem tchn<ch a="e"/>ął.</row>
+			</bis>
+		</block>
+		<block type="chorus">
+			<row important_over="true" sidechords="C D">P<ch a="C"/>óki jeszcze nas n<ch a="D"/>a to stać,</row>
+			<row important_over="true" sidechords="G e">Ni<ch a="G"/>e przestaniemy się k<ch a="e"/>ochać i śmiać.</row>
+			<row important_over="true" sidechords="C D">P<ch a="C"/>óki m<ch a="D"/>ożna inaczej,</row>
+			<row important_over="true" sidechords="G e">T<ch a="G"/>o nie dajmy si<ch a="e"/>ę rozpaczy,</row>
+			<row important_over="true" sidechords="C D">B<ch a="C"/>o ta r<ch a="D"/>ozpacz</row>
+			<row important_over="true" sidechords="G e">M<ch a="G"/>oże nam w rami<ch a="e"/>ona wpaść,</row>
+			<row important_over="true" sidechords="C D e">A j<ch a="C"/>ej uścisk jest jak p<ch a="D"/>ętla szubieni<ch a="e"/>cy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false" sidechords="e">Śmi<ch a="e"/>ej się ze mną i płacz,</row>
+			<row important_over="false" sidechords="C">P<ch a="C"/>óki zima trwa,</row>
+			<row important_over="false" sidechords="D">P<ch a="D"/>óki wiatr lodów nie przemieni.</row>
+			<bis times="2">
+				<row important_over="false" sidechords="C D e">M<ch a="C"/>yśl ze mn<ch a="D"/>ą o l<ch a="e"/>ecie.</row>
+			</bis>
+			<row important_over="false" sidechords="e">J<ch a="e"/>a zaśpiewam, a ty tańcz,</row>
+			<row important_over="false" sidechords="C">Ni<ch a="C"/>echaj zima trwa,</row>
+			<row important_over="false" sidechords="D">Ni<ch a="D"/>echaj iskra z ognia trwa –</row>
+			<bis times="2">
+				<row important_over="false" sidechords="C D e">M<ch a="C"/>y szuk<ch a="D"/>amy dni<ch a="e"/>a.</row>
+			</bis>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false" sidechords="e">B<ch a="e"/>awię się z tobą w chowanego,</row>
+			<row important_over="false" sidechords="C">Tw<ch a="C"/>arz masz jednak wciąż zmęczoną,</row>
+			<row important_over="false" sidechords="D">Ch<ch a="D"/>owam się znów za kwiatuszek:</row>
+			<bis times="2">
+				<row important_over="false" sidechords="C D e">T<ch a="C"/>y będziesz m<ch a="D"/>oją żon<ch a="e"/>ą.</row>
+			</bis>
+			<row important_over="false" sidechords="e">Prz<ch a="e"/>eczekamy srogie zimy,</row>
+			<row important_over="false" sidechords="C">Z<ch a="C"/>imy, wiosny i jesienie,</row>
+			<row important_over="false" sidechords="D">L<ch a="D"/>atem będę czekać wciąż –</row>
+			<row important_over="false" sidechords="C D e">J<ch a="C"/>a twój m<ch a="D"/>ąż,<ch a="e"/></row>
+			<row important_over="false" sidechords="C D e">T<ch a="C"/>y mój m<ch a="D"/>ąż.<ch a="e"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators>
+			<verificator>https://spiewnik.eu/tekst-piosenki/obietnica/</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
