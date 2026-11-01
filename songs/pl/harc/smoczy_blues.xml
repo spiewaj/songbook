@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Smoczy Blues">
   <alias>Smoczy blues</alias>
-  <text_author type="solo">Tradycyjna</text_author>
-  <comment>Popularna piosenka harcerska i zuchowa o nieznanym autorze.</comment>
-  <composer type="solo">Tradycyjna</composer>
-  <artist type="solo">Tradycyjna</artist>
+  <text_author type="solo">Urszula Bezwińska-Tabor</text_author>
+  <comment>Pochodzi ze słowno-muzycznej bajki „Na smoczy ząb, czyli tajemne opowieści z miasta Krakowa”.</comment>
+  <composer type="solo">Ryszard Bialic</composer>
+  <artist type="solo">Ryszard Bialic</artist>
   <translator/>
   <original_title/>
   <lyric>
@@ -50,8 +50,8 @@
     <guitar/>
   </music>
   <keywords/>
-  <album/>
-  <genre>Harcerska</genre>
+  <album>Na smoczy ząb, czyli tajemne opowieści z miasta Krakowa</album>
+  <genre>piosenka dziecięca</genre>
   <status>
     <done>
       <text/>
@@ -59,6 +59,7 @@
       <chords>chords</chords>
     </done>
     <verificators>
+      <verificator>https://urszulatabor.pl</verificator>
       <verificator>https://spiewnik.eu/piosenka/smoczy-blues</verificator>
     </verificators>
     <to_do/>
