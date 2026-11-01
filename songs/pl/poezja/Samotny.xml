@@ -1,64 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Samotny">
-  <alias/>
-  <text_author>Leonard Luther</text_author>
-  <comment/>
+  <alias>Preludium dla Leonarda</alias>
+  <text_author type="solo">Aleksandra Bacińska</text_author>
   <composer type="solo">Leonard Luther</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <artist type="solo">Leonard Luther</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Na parterze w mojej chacie</row>
-      <row important_over="never"><ch a="G"/>Mieszkał kiedyś taki facet<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Który dnia pewnego cicho do mnie rzekł<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Gdy poderwać chcesz dziewczynę<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Nie zapraszaj jej do kina<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Tylko patrząc prosto w oczy szepnij słowa te<ch a="G"/><ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Na parterze w mojej chacie</row>
+      <row important_over="true"><ch a="G"/>Mieszkał kiedyś taki f<ch a="D"/>acet</row>
+      <row important_over="true"><ch a="C"/>Który dnia pewnego c<ch a="G"/>icho do mnie rz<ch a="D"/>ekł</row>
+      <row important_over="true"><ch a="C"/>Gdy poderwać chcesz dziewcz<ch a="G"/>ynę</row>
+      <row important_over="true"><ch a="D"/>Nie zapraszaj jej do k<ch a="A"/>ina</row>
+      <row important_over="true"><ch a="C"/>Tylko patrząc prosto w <ch a="G"/>oczy szepnij słowa t<ch a="D"/>e</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="h"/>Jestem taki samotny<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Jak palec albo pies<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Kocham wiersze Stachury<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>I stary dobry jazz</row>
-      <row important_over="never"><ch a="h"/>Szczęścia w życiu nie miałem<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Rzucały mnie dziewczyny<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Szukam cichego portu</row>
-      <row important_over="never"><ch a="G"/>Gdzie okręt mój zawinie<ch a="D"/></row>
+      <row important_over="true"><ch a="h"/>Jestem taki sam<ch a="G"/>otny</row>
+      <row important_over="true"><ch a="D"/>Jak palec albo pi<ch a="A"/>es</row>
+      <row important_over="true"><ch a="C"/>Kocham wiersze Stach<ch a="G"/>ury</row>
+      <row important_over="true"><ch a="D"/>I stary dobry jazz</row>
+      <row important_over="true"><ch a="h"/>Szczęścia w życiu nie mi<ch a="G"/>ałem</row>
+      <row important_over="true"><ch a="D"/>Rzucały mnie dziewcz<ch a="A"/>yny</row>
+      <row important_over="true"><ch a="C"/>Szukam cichego portu</row>
+      <row important_over="true"><ch a="G"/>Gdzie okręt mój zaw<ch a="D"/>inie</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Po tych słowach z miłosierdzia</row>
-      <row important_over="never"><ch a="G"/>Padłą już nie jedna twierdza<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>I nie jedna cnota chyżo poszła w las<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Ryba bierze na robaki<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>A panienka na tekst taki<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Który mówię zawsze patrząc prosto w twarz<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Po tych słowach z miłosierdzia</row>
+      <row important_over="false"><ch a="G"/>Padła już niejedna tw<ch a="D"/>ierdza</row>
+      <row important_over="false"><ch a="C"/>I niejedna cnota ch<ch a="G"/>yżo poszła w l<ch a="D"/>as</row>
+      <row important_over="false"><ch a="C"/>Ryba bierze na rob<ch a="G"/>aki</row>
+      <row important_over="false"><ch a="D"/>A panienka na tekst t<ch a="A"/>aki</row>
+      <row important_over="false"><ch a="C"/>Który mówię zawsze p<ch a="G"/>atrząc prosto w tw<ch a="D"/>arz</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Gdy szał pierwszych zrywów minął</row>
-      <row important_over="never"><ch a="G"/>Zakochałem się w dziewczynie<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Takiej, z którą się na całe życie zostać chce<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Chciałem rzec będziemy razem<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Zrozumiała mnie od razu<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>I jak echo wyszeptała słowa te<ch a="G"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Gdy szał pierwszych zrywów minął</row>
+      <row important_over="false"><ch a="G"/>Zakochałem się w dziewcz<ch a="D"/>ynie</row>
+      <row important_over="false"><ch a="C"/>Takiej, z którą się na c<ch a="G"/>ałe życie zostać chc<ch a="D"/>e</row>
+      <row important_over="false"><ch a="C"/>Chciałem rzec będziemy r<ch a="G"/>azem</row>
+      <row important_over="false"><ch a="D"/>Zrozumiała mnie od r<ch a="A"/>azu</row>
+      <row important_over="false"><ch a="C"/>I jak echo wyszept<ch a="G"/>ała słowa t<ch a="D"/>e</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="h"/>Jesteś taki samotny<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Jak palec albo pies<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Kochasz wiersze Stachury<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>I stary dobry jazz</row>
-      <row important_over="never"><ch a="h"/>Szczęścia w życiu nie miałeś<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Rzucały Cię dziewczyny<ch a="A"/></row>
-      <row important_over="never"><ch a="C"/>Szukasz cichego portu</row>
-      <row important_over="never"><ch a="G"/>Więc spływaj sukinsynu<ch a="D"/></row>
+      <row important_over="false"><ch a="h"/>Jesteś taki sam<ch a="G"/>otny</row>
+      <row important_over="false"><ch a="D"/>Jak palec albo pi<ch a="A"/>es</row>
+      <row important_over="false"><ch a="C"/>Kochasz wiersze Stach<ch a="G"/>ury</row>
+      <row important_over="false"><ch a="D"/>I stary dobry jazz</row>
+      <row important_over="false"><ch a="h"/>Szczęścia w życiu nie mi<ch a="G"/>ałeś</row>
+      <row important_over="false"><ch a="D"/>Rzucały Cię dziewcz<ch a="A"/>yny</row>
+      <row important_over="false"><ch a="C"/>Szukasz cichego portu</row>
+      <row important_over="false"><ch a="G"/>Więc spływaj sukins<ch a="D"/>ynu</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>Poezja śpiewana</genre>
   <status>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
     <verificators/>
-    <to_do/>
   </status>
+  <music_source>https://poezjaspiewana.pl/preludium-dla-leonarda/</music_source>
 </song>
