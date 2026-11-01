@@ -1,56 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Blue nose">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Bluenose</alias>
+  <text_author type="solo">Anna Peszkowska</text_author>
+  <comment>Piosenka o słynnym kanadyjskim szkunerze rybacko-regatowym „Bluenose”, zwodowanym w 1921 r. w Lunenburgu w Nowej Szkocji. Polski tekst: Anna Peszkowska.</comment>
+  <composer type="solo">David Martin</composer>
+  <artist type="band">Packet</artist>
+  <original_title>Bluenose</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>W słoneczny wietrzny dzień</row>
-      <row important_over="never"><ch a="D"/>W mym mieście Lunenberg<ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>W 21 roku zrodził się<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Miał piękny ostry dziób<ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Solidny mocny tors<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>A ochrzczono go po prostu ,,Blue Nose''<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>W słoneczny, wietrzny dzień,</row>
+      <row important_over="true">W mym <ch a="D"/>mieście Lunen<ch a="G"/>burg,</row>
+      <row important_over="true">W dwu<ch a="e"/>dziestym pierwszym roku zrodził <ch a="a"/>się.</row>
+      <row important_over="true">Miał <ch a="D"/>piękny, ostry <ch a="G"/>dziób,</row>
+      <row important_over="true">So<ch a="H7"/>lidny, mocny <ch a="e"/>tors,</row>
+      <row important_over="true">A ochrz<ch a="a"/>czono go po <ch a="H7"/>prostu „Blue <ch a="e"/>Nose”.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>,,Blue Nose'' dzielne imę twe<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Zna cię morze i ocean zna<ch a="D"/><ch a="G"/><ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>,,Blue Nose'' północnych szlaków król<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Sława twoja w ślad za tobą szła<ch a="H7"/><ch a="e"/></row>
+      <row important_over="true">„Blue <ch a="C"/>Nose”, <ch a="D"/>dzielne <ch a="G"/>imię <ch a="e"/>twe,</row>
+      <row important_over="true"><ch a="C"/>Zna cię morze <ch a="D"/>i oce<ch a="G"/>an <ch a="H7"/>zna.</row>
+      <row important_over="true">„Blue <ch a="C"/>Nose”, <ch a="D"/>północ<ch a="G"/>nych szla<ch a="e"/>ków król,</row>
+      <row important_over="true"><ch a="a"/>Sława twoja <ch a="H7"/>w ślad za tobą <ch a="e"/>szła.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Tysiące przebył mil</row>
-      <row important_over="never"><ch a="D"/>20 długich lat<ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>Ten szkuner z oceanem za pan brat<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Miał zawsze dosyć sił<ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Lecz jednak rafy cios<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Powalił go i zginął tak ,,Blue Nose''<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Tysiące przebył mil,</row>
+      <row important_over="false">Dwa<ch a="D"/>dzieścia długich <ch a="G"/>lat</row>
+      <row important_over="false">Ten <ch a="e"/>szkuner z oceanem za pan <ch a="a"/>brat.</row>
+      <row important_over="false">Miał <ch a="D"/>zawsze dosyć <ch a="G"/>sił,</row>
+      <row important_over="false">Lecz <ch a="H7"/>jednak rafy <ch a="e"/>cios</row>
+      <row important_over="false">Powa<ch a="a"/>lił go i zgi<ch a="H7"/>nął tak „Blue <ch a="e"/>Nose”.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Lecz by w legendzie tej</row>
-      <row important_over="never"><ch a="D"/>Zachować żywą treść<ch a="G"/></row>
-      <row important_over="never"><ch a="e"/>To gdy z pochylni kiedyś szkuner zszedł<ch a="a"/></row>
-      <row important_over="never"><ch a="D"/>Zaszemrał gapiów tłum<ch a="G"/></row>
-      <row important_over="never"><ch a="H7"/>Usłyszeli wiatru głos<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Popatrzcie to po prostu ,,Blue Nose''<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Lecz by w legendzie tej</row>
+      <row important_over="false">Za<ch a="D"/>chować żywą <ch a="G"/>treść,</row>
+      <row important_over="false">To <ch a="e"/>gdy z pochylni kiedyś szkuner <ch a="a"/>zszedł,</row>
+      <row important_over="false">Za<ch a="D"/>szemrał gapiów <ch a="G"/>tłum,</row>
+      <row important_over="false">Usłysz<ch a="H7"/>eli wiatru <ch a="e"/>głos:</row>
+      <row important_over="false">„Popatrz<ch a="a"/>cie, to po <ch a="H7"/>prostu «Blue <ch a="e"/>Nose»!”.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>,,Blue Nose'' znów poniesiesz nas<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Znało morze i ocean znał<ch a="D"/><ch a="G"/><ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>,,Blue Nose'' będziesz królem znów<ch a="D"/><ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Dobry wiatr twym żaglom życie dał<ch a="H7"/><ch a="e"/></row>
+      <row important_over="false">„Blue <ch a="C"/>Nose”, <ch a="D"/>znów po<ch a="G"/>niesiesz <ch a="e"/>nas,</row>
+      <row important_over="false"><ch a="C"/>Znało morze <ch a="D"/>i oce<ch a="G"/>an <ch a="H7"/>znał.</row>
+      <row important_over="false">„Blue <ch a="C"/>Nose”, <ch a="D"/>będziesz <ch a="G"/>królem <ch a="e"/>znów,</row>
+      <row important_over="false"><ch a="a"/>Dobry wiatr twym <ch a="H7"/>żaglom życie <ch a="e"/>dał!</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="2"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/packet/bluenose</verificator>
+    </verificators>
   </status>
 </song>
