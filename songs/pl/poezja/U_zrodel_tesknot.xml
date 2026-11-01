@@ -1,64 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="U źródeł tęsknot" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="U źródeł tęsknot">
+	<alias>Spóźnione nadzieje</alias>
 	<text_author type="solo">Arkadiusz Kobus</text_author>
-	<comment></comment>
+	<comment>Piosenka na płycie „U źródeł tęsknot” (1998) nosi oficjalny tytuł „Spóźnione nadzieje”.</comment>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Pamiętam nasze rozstanie <ch a="e"/></row>
-			<row important_over="never">smutniejsze przez jesienne deszcze<ch a="C"/><ch a="G"/><ch a="H7"/></row>
-			<row important_over="never">oczy szepczące pożegnanie <ch a="e"/></row>
-			<row important_over="never">i twoje słowa: Kochasz mnie jeszcze?<ch a="C"/><ch a="G"/><ch a="H7"/></row>
+			<row important_over="true"><ch a="e"/>Pamiętam nasze rozstanie</row>
+			<row important_over="true">smutn<ch a="C"/>iejsze przez jesi<ch a="G"/>enne d<ch a="H7"/>eszcze,</row>
+			<row important_over="true"><ch a="e"/>oczy szepczące pożegnanie</row>
+			<row important_over="true">i tw<ch a="C"/>oje słowa: K<ch a="G"/>ochasz mnie j<ch a="H7"/>eszcze?</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">W gardle uwiera grudka żali<ch a="C"/><ch a="e"/></row>
-			<row important_over="never">wciśnięta przez złośliwe duchy <ch a="D"/><ch a="C"/><ch a="e"/></row>
-			<row important_over="never">w uszach słyszalny gdzieś w oddali<ch a="C"/><ch a="e"/></row>
-			<row important_over="never">jazzowy bzyk spóźnionej muchy<ch a="D"/><ch a="H7"/></row>
+			<row important_over="true">W g<ch a="C"/>ardle uwiera gr<ch a="e"/>udka żali</row>
+			<row important_over="true">wciśnięta prz<ch a="D"/>ez złośliwe d<ch a="C"/>uch<ch a="e"/>y,</row>
+			<row important_over="true">w <ch a="C"/>uszach słyszalny gdz<ch a="e"/>ieś w oddali</row>
+			<row important_over="true">jazzowy bz<ch a="D"/>yk spóźnionej m<ch a="H7"/>uchy.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ledwie słyszalne obwieszczenie<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">przez deszczu szemrzące strugi<ch a="a"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">pociąg ze stacji spóźnione nadzieje<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">wjedzie na peron drugi<ch a="a"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="true">L<ch a="C"/>edwie słysz<ch a="D"/>alne obwi<ch a="G"/>eszcz<ch a="C"/>enie</row>
+			<row important_over="true">przez d<ch a="a"/>eszczu szemrz<ch a="H7"/>ące str<ch a="e"/>ugi:</row>
+			<row important_over="true">poc<ch a="C"/>iąg ze st<ch a="D"/>acji spóźni<ch a="G"/>one nadz<ch a="C"/>ieje</row>
+			<row important_over="true">wj<ch a="a"/>edzie na p<ch a="H7"/>eron dr<ch a="e"/>ugi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Mimo mych zaklęć nie milknie burza<ch a="e"/></row>
-			<row important_over="never">walizki pudło mokre deszczem<ch a="C"/><ch a="G"/><ch a="H7"/></row>
-			<row important_over="never">w spoconej dłoni wyblakła róża <ch a="e"/></row>
-			<row important_over="never">napięte nerwy przenoszą dreszcze<ch a="C"/><ch a="G"/><ch a="H7"/></row>
+			<row important_over="false"><ch a="e"/>Mimo mych zaklęć nie milknie burza,</row>
+			<row important_over="false">wal<ch a="C"/>izki pudło m<ch a="G"/>okre d<ch a="H7"/>eszczem,</row>
+			<row important_over="false"><ch a="e"/>w spoconej dłoni wyblakła róża,</row>
+			<row important_over="false">nap<ch a="C"/>ięte nerwy prz<ch a="G"/>enoszą dr<ch a="H7"/>eszcze.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">W zmokniętych włosach szare wstążki<ch a="C"/><ch a="e"/></row>
-			<row important_over="never">trudno o słowa radości<ch a="D"/><ch a="C"/><ch a="e"/></row>
-			<row important_over="never">i nawet czary dobrej wróżki <ch a="C"/><ch a="e"/></row>
-			<row important_over="never">nie zwrócą pierwszej miłości<ch a="D"/><ch a="H7"/></row>
+			<row important_over="false">W zm<ch a="C"/>okniętych włosach sz<ch a="e"/>are wstążki,</row>
+			<row important_over="false">trudno o sł<ch a="D"/>owa rad<ch a="C"/>ośc<ch a="e"/>i,</row>
+			<row important_over="false">i n<ch a="C"/>awet czary d<ch a="e"/>obrej wróżki</row>
+			<row important_over="false">nie zwrócą pi<ch a="D"/>erwszej mił<ch a="H7"/>ości.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Tak zapamiętam cię już zawsze <ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">w żółtawym świetle reflektorów <ch a="a"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">połyka cię wagonu wnętrze<ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/></row>
-			<row important_over="never">proszę odsunąć się od torów<ch a="a"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="false">T<ch a="C"/>ak zapami<ch a="D"/>ętam ci<ch a="G"/>ę już z<ch a="C"/>awsze</row>
+			<row important_over="false">w żółt<ch a="a"/>awym świ<ch a="H7"/>etle reflekt<ch a="e"/>orów,</row>
+			<row important_over="false">poł<ch a="C"/>yka ci<ch a="D"/>ę wag<ch a="G"/>onu wnęt<ch a="C"/>rze,</row>
+			<row important_over="false">pr<ch a="a"/>oszę ods<ch a="H7"/>unąć się od t<ch a="e"/>orów.</row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>U źródeł tęsknot</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<done>
-		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
 		</verificators>
-		<to_do></to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
-	<music_source></music_source>
 </song>
