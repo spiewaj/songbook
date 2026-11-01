@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Tyle mi zostało co mi nakapało">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tyle mi zostało co mi nakapało">
+	<alias>Siedzę w swoim domu w kącie</alias>
 	<text_author type="solo">Krzysztof Daukszewicz</text_author>
 	<composer type="solo">Krzysztof Daukszewicz</composer>
 	<artist type="solo">Krzysztof Daukszewicz</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never"><ch a="C"/>Siedzę w swoim domu w kącie</row>
-			<row important_over="never"><ch a="C"/>W przytulnych walonkach<ch a="G"/></row>
-			<row important_over="never"><ch a="G"/>Jeszcze wczoraj było ciepło</row>
-			<row important_over="never"><ch a="G"/>Grzało choć od słońca<ch a="C"/></row>
-			<row important_over="never"><ch a="C"/>Dzisiaj coś mi nawaliło</row>
-			<row important_over="never"><ch a="C7"/>I się prąd wyłączył<ch a="F"/></row>
-			<row important_over="never"><ch a="F"/>Tylko zacier jest na chodzie<ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>I z rurki się sączy<ch a="C"/></row>
+			<row important_over="true"><ch a="C"/>Siedzę w swoim domu w kącie</row>
+			<row important_over="true">W przytulnych wa<ch a="G"/>lonkach</row>
+			<row important_over="true"><ch a="G"/>Jeszcze wczoraj było ciepło</row>
+			<row important_over="true">Grzało choć od <ch a="C"/>słońca</row>
+			<row important_over="true"><ch a="C"/>Dzisiaj coś mi nawaliło</row>
+			<row important_over="true"><ch a="C7"/>I się prąd wy<ch a="F"/>łączył</row>
+			<row important_over="true"><ch a="F"/>Tylko zacier jest na <ch a="C"/>chodzie</row>
+			<row important_over="true">I z <ch a="G"/>rurki się <ch a="C"/>sączy</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never"><ch a="C"/>Tyle mi zastało</row>
-			<row important_over="never"><ch a="C"/>Co mi nakapało<ch a="G"/></row>
-			<row important_over="never"><ch a="G"/>Jak przyjdzie milicja</row>
-			<row important_over="never"><ch a="G"/>Będzie prohibicja<ch a="C"/></row>
+			<row important_over="true"><ch a="C"/>Tyle mi zostało</row>
+			<row important_over="true">Co mi naka<ch a="G"/>pało</row>
+			<row important_over="true"><ch a="G"/>Jak przyjdzie milicja</row>
+			<row important_over="true">Będzie prohibi<ch a="C"/>cja</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="C"/>Wody wczoraj mi naciekło</row>
-			<row important_over="never"><ch a="C"/>Prawie pół miednicy<ch a="G"/></row>
-			<row important_over="never"><ch a="G"/>Dzisiał łup! i wywaliło</row>
-			<row important_over="never"><ch a="G"/>Rury w kamienicy<ch a="C"/></row>
-			<row important_over="never"><ch a="C"/>Tych żeberek co pod oknem</row>
-			<row important_over="never"><ch a="C7"/>Ogrzać już nie sposób<ch a="F"/></row>
-			<row important_over="never"><ch a="F"/>Gdyby one były z mięsa<ch a="C"/></row>
-			<row important_over="never"><ch a="G"/>Miałbym chociaż rosół<ch a="C"/></row>
-		</block>
-		<blocklink blocknb="2"/>
-		<block type="verse">
-			<row important_over="never"><ch a="D"/>Teraz z kranów mi nie leci</row>
-			<row important_over="never"><ch a="D"/>W łazience mi cuchnie<ch a="A"/></row>
-			<row important_over="never"><ch a="A"/>Gaz bezwonny to nie włączam</row>
-			<row important_over="never"><ch a="A"/>Bo a nuż wybuchnie<ch a="D"/></row>
-			<row important_over="never"><ch a="D"/>W kuchni mrozi się lodówka</row>
-			<row important_over="never"><ch a="D7"/>Ale teraz zewnętrznie<ch a="G"/></row>
-			<row important_over="never"><ch a="G"/>Pralka tylko wtedy chodzi<ch a="D"/></row>
-			<row important_over="never"><ch a="A"/>Kiedy piorę ręcznie<ch a="D"/></row>
+			<row><ch a="C"/>Wody wczoraj mi naciekło</row>
+			<row>Prawie pół mied<ch a="G"/>nicy</row>
+			<row><ch a="G"/>Dzisiaj łup! i wywaliło</row>
+			<row>Rury w kamie<ch a="C"/>nicy</row>
+			<row><ch a="C"/>Tych żeberek, co pod oknem,</row>
+			<row><ch a="C7"/>Ogrzać już nie <ch a="F"/>sposób</row>
+			<row><ch a="F"/>Gdyby one były z <ch a="C"/>mięsa,</row>
+			<row>Miałbym chociaż <ch a="G"/>ro<ch a="C"/>sół.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never"><ch a="D"/>Telewizor wyłączyłem</row>
-			<row important_over="never"><ch a="D"/>Świecił na niebiesko<ch a="A"/></row>
-			<row important_over="never"><ch a="A"/>Bo samogon gdy wypędzę</row>
-			<row important_over="never"><ch a="A"/>To chowam w kineskop<ch a="D"/></row>
-			<row important_over="never"><ch a="D"/>Zresztą może bym i włączył</row>
-			<row important_over="never"><ch a="D7"/>Ale nie ma prądu<ch a="G"/></row>
-			<row important_over="never"><ch a="G"/>Tylko zacier jest na chodzie<ch a="D"/></row>
-			<row important_over="never"><ch a="A"/>I dowód do wglądu</row>
+			<row><ch a="D"/>Teraz z kranów mi nie leci,</row>
+			<row>W łazience mi <ch a="A"/>cuchnie</row>
+			<row><ch a="A"/>Gaz bezwonny, to nie włączam,</row>
+			<row>Bo a nuż wy<ch a="D"/>buchnie</row>
+			<row><ch a="D"/>W kuchni mrozi się lodówka,</row>
+			<row><ch a="D7"/>Ale teraz ze<ch a="G"/>wnętrznie</row>
+			<row><ch a="G"/>Pralka tylko wtedy <ch a="D"/>chodzi,</row>
+			<row>Kiedy piorę <ch a="A"/>ręcz<ch a="D"/>nie.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never"><ch a="E"/>I tak jest każdego roku</row>
-			<row important_over="never"><ch a="E"/>Kiedy przyjdzie zima<ch a="H"/></row>
-			<row important_over="never"><ch a="H"/>Myślę przyjdzie jeszcze jedna</row>
-			<row important_over="never"><ch a="H"/>I blok nie wytrzyma<ch a="E"/></row>
-			<row important_over="never"><ch a="E"/>Póki co by ta następna</row>
-			<row important_over="never"><ch a="E7"/>Nie dała we znaki<ch a="A"/></row>
-			<row important_over="never"><ch a="A"/>Kupię drugi telewizor<ch a="E"/></row>
-			<row important_over="never"><ch a="H"/>By mieć dwa baniaki<ch a="E"/></row>
+			<row><ch a="D"/>Telewizor wyłączyłem,</row>
+			<row>Świecił na nie<ch a="A"/>biesko</row>
+			<row><ch a="A"/>Bo samogon, gdy wypędzę,</row>
+			<row>To chowam w ki<ch a="D"/>neskop</row>
+			<row><ch a="D"/>Zresztą może bym i włączył,</row>
+			<row><ch a="D7"/>Ale nie ma <ch a="G"/>prądu</row>
+			<row><ch a="G"/>Tylko zacier jest na <ch a="D"/>chodzie</row>
+			<row>I dowód do <ch a="A"/>wglą<ch a="D"/>du.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row><ch a="E"/>I tak jest każdego roku,</row>
+			<row>Kiedy przyjdzie <ch a="H"/>zima</row>
+			<row><ch a="H"/>Myślę: przyjdzie jeszcze jedna</row>
+			<row>I blok nie wy<ch a="E"/>trzyma</row>
+			<row><ch a="E"/>Póki co, by ta następna</row>
+			<row><ch a="E7"/>Nie dała we <ch a="A"/>znaki,</row>
+			<row><ch a="A"/>Kupię drugi tele<ch a="E"/>wizor,</row>
+			<row>By mieć dwa ba<ch a="H"/>nia<ch a="E"/>ki.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="H"/><ch a="E"/> </row>
+			<row style="instr"><ch a="A"/><ch a="E"/><ch a="H"/><ch a="E"/></row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
 	<keywords>
@@ -79,8 +80,12 @@
 	<genre>Piosenka kabaretowa</genre>
 	<status>
 		<done>
+			<text/>
 			<authors/>
+			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
 	</status>
 </song>
