@@ -22,15 +22,15 @@
     </block>
     <block type="verse">
       <row sidechords="G">Szły pchły koło wody,</row>
-      <row sidechords="e">pchła pchłę pchnęła do wody,</row>
+      <row sidechords="e">pchła pchłę pchła do wody</row>
       <row sidechords="C">i ta pchła płakała,</row>
-      <row sidechords="D">że ją tamta pchła wepchnęła.</row>
+      <row sidechords="D">że ją tamta pchła wepchała.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <row sidechords="G">Po angielsku: I love you,</row>
       <row sidechords="e">po rosyjsku: ja lublju,</row>
-      <row sidechords="C">po francusku: je t’aime,</row>
+      <row sidechords="C">po francusku: ja żetę,</row>
       <row sidechords="D">a po polsku: kocham cię!</row>
     </block>
     <blocklink blocknb="2"/>
@@ -70,7 +70,6 @@
     </done>
     <verificators>
       <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/bim-bam-bom</verificator>
-      <verificator>Poprawiono literówki (pchła pchłe pchła -&gt; pchła pchłę pchnęła, pytał -&gt; pytaj), skorygowano chwyt d -&gt; D w progresji G-e-C-D, zachowano formatowanie sidechords oraz dodano akordy nad tekstem i metadane.</verificator>
     </verificators>
   </status>
 </song>
