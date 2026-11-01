@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń gruzińska">
+	<alias>Spulchnię ziemię na zboczu</alias>
+	<text_author type="solo">Bułat Okudżawa</text_author>
+	<comment>Interpunkcja zgodna z kanonicznym przekładem Andrzeja Mandaliana.</comment>
+	<composer type="solo">Bułat Okudżawa</composer>
 	<artist type="solo">Bułat Okudżawa</artist>
+	<translator>Andrzej Mandalian</translator>
+	<original_title>Gruzinskaja piesnia</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Spulchnię zi<ch a="a"/>emię na zboczu i pestkę winogron w niej zł<ch a="d"/>ożę,</row>
@@ -15,35 +21,30 @@
 		<block type="verse">
 			<row important_over="false">W czerni sw<ch a="a"/>ej i czerwieni zaśpiewa mi znów moja D<ch a="d"/>ali,</row>
 			<row important_over="false">Runę w cz<ch a="G"/>erni i bieli do stóp jej, niech przędzie swą n<ch a="C"/>ić!<ch a="E7"/></row>
-			<row important_over="false">I o wsz<ch a="a"/>ystkim zapomnę i  umrę z miłości i ż<ch a="d"/>alu…</row>
+			<row important_over="false">I o wsz<ch a="a"/>ystkim zapomnę i umrę z miłości i ż<ch a="d"/>alu…</row>
 			<row important_over="false">Bo dopr<ch a="E7"/>awdy — czyż warto inaczej na ziemi tej ż<ch a="a"/>yć?</row>
 			<row important_over="false">A gdy zmi<ch a="C"/>erzch się zakłębi i cienie po kątach się spl<ch a="d"/>otą,</row>
 			<row important_over="false">Niech się c<ch a="G"/>isną do oczu, niech wiecznie pozwolą mi śn<ch a="C"/>ić<ch a="E7"/></row>
-			<row important_over="false">Płowy b<ch a="a"/>awół i orzeł srebrzysty i  pstrąg szczerozł<ch a="d"/>oty…</row>
+			<row important_over="false">Płowy b<ch a="a"/>awół i orzeł srebrzysty i pstrąg szczerozł<ch a="d"/>oty…</row>
 			<row important_over="false">Bo dopr<ch a="E7"/>awdy — czyż warto inaczej na ziemi tej ż<ch a="a"/>yć?</row>
 		</block>
 	</lyric>
 	<music metre="12/8">
 		<guitar barre="2"/>
 	</music>
+	<keywords/>
+	<album>Dopóki nam Ziemia toczy się… (Poka Ziemla jeszczo wiertitsa…)</album>
+	<genre>poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Michał Korch</verificator>
-		</verificators>
 		<done>
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<to_do>Orginalna interpunkcja, mimo że się z nią nie zgadzam,  mówi właśnie tak.</to_do>
+		<verificators>
+			<verificator>Michał Korch</verificator>
+		</verificators>
+		<to_do></to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo">Bułat Okudżawa</text_author>
-	<composer type="solo">Bułat Okudżawa</composer>
 	<music_source></music_source>
-	<original_title>Gruzinskaja piesnia</original_title>
-	<translator>Andrzej Mandalian</translator>
-	<album>Dopóki nam Ziemia toczy się… (Poka Ziemla jeszczo wiertitsa…)</album>
-	<genre>Poezja śpiewana</genre>
-	<comment></comment>
 </song>
