@@ -1,67 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Whisky">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo">Dżem</artist>
-  <translator/>
-  <original_title/>
+  <alias>Mówią o mnie w mieście</alias>
+  <text_author>Kazimierz Galaś, Ryszard Riedel</text_author>
+  <comment>Utwór z debiutanckiego albumu studyjnego zespołu Dżem – „Cegła” (1985).</comment>
+  <composer type="solo">Adam Otręba, Ryszard Riedel</composer>
+  <artist type="band">Dżem</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Mówią o mnie w mieście<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Co z niego za typ<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Wciąż chodzi pijany<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Pewnie nie wie co to wstyd<ch a="C9"/></row>
-      <row important_over="never"><ch a="D"/>Brudny niedomyty</row>
-      <row important_over="never"><ch a="a"/>W stajni ciągle śpi</row>
-      <row important_over="never"><ch a="C"/>Czego szukasz w naszym mieście<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Idź do diabła mówią mi<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Ludzie pełni cnót<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Ludzie pełni cnót</row>
+      <row important_over="true"><ch a="G"/>Mówią <ch a="C9"/>o mnie w <ch a="G"/>mieście: <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>„Co z nie<ch a="C9"/>go za <ch a="G"/>typ, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Wciąż cho<ch a="C9"/>dzi pi<ch a="G"/>jany, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Pewnie nie wie, <ch a="C9"/>co to <ch a="G"/>wstyd”. <ch a="C9"/></row>
+      <row important_over="true"><ch a="D"/>Brudny, niedomyty,</row>
+      <row important_over="true"><ch a="C"/>W stajni ciągle śpi.</row>
+      <row important_over="true">Czego <ch a="C"/>szukasz w <ch a="e"/>naszym <ch a="a"/>mieście? <ch a="D"/></row>
+      <row important_over="false">Idź do <ch a="C"/>diabła! – <ch a="e"/>mówią <ch a="a"/>mi <ch a="D"/></row>
+      <row important_over="true">Ludzie <ch a="G"/>pełni <ch a="C9"/>cnót, <ch a="G"/></row>
+      <row important_over="false">Ludzie <ch a="G"/>pełni <ch a="C9"/>cnót. <ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Chciałem kiedyś zmądrzeć<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Po ich stronie być<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Spać w czystej pościeli<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Co dzień świeże mleko pić<ch a="C9"/></row>
-      <row important_over="never"><ch a="D"/>Naprawdę chciałem zmądrzeć</row>
-      <row important_over="never"><ch a="a"/>Po ich stronie być</row>
-      <row important_over="never"><ch a="C"/>Pomyślałem więc o żonie<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Żeby stać się jednym z nich<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Stać się jednym z nich<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Stać się jednym z nich</row>
+      <row important_over="false"><ch a="G"/>Chciałem <ch a="C9"/>kiedyś <ch a="G"/>zmądrzeć, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Po ich <ch a="C9"/>stronie <ch a="G"/>być, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Spać w czys<ch a="C9"/>tej poś<ch a="G"/>cieli, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Co dzień świeże <ch a="C9"/>mleko <ch a="G"/>pić. <ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Naprawdę chciałem zmądrzeć,</row>
+      <row important_over="false"><ch a="C"/>Po ich stronie być,</row>
+      <row important_over="false">Pomyś<ch a="C"/>lałem <ch a="e"/>więc o <ch a="a"/>żonie, <ch a="D"/></row>
+      <row important_over="false">Żeby <ch a="C"/>stać się <ch a="e"/>jednym <ch a="a"/>z nich, <ch a="D"/></row>
+      <row important_over="false">Stać się <ch a="G"/>jednym <ch a="C9"/>z nich, <ch a="G"/></row>
+      <row important_over="false">Stać się <ch a="G"/>jednym <ch a="C9"/>z nich. <ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Miałem na oku hacjendę<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Wspaniałą mówię wam<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Lecz nie chciała w niej zamieszkać<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Żadna z pięknych dam<ch a="C9"/></row>
-      <row important_over="never"><ch a="D"/>Wszystkie śmiały się wołając</row>
-      <row important_over="never"><ch a="a"/>Wołając za mną wciąż</row>
-      <row important_over="never"><ch a="C"/>Bardzo ładny frak masz Billy<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Ale kiepski byłby z ciebie<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Kiepski byłby mąż<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Kiepski byłby mąż</row>
+      <row important_over="false"><ch a="G"/>Miałem <ch a="C9"/>na oku hac<ch a="G"/>jendę, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Wspania<ch a="C9"/>łą, mówię <ch a="G"/>wam, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Lecz nie <ch a="C9"/>chciała w niej za<ch a="G"/>mieszkać <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Żadna z <ch a="C9"/>pięknych <ch a="G"/>dam. <ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Wszystkie śmiały się, wołając,</row>
+      <row important_over="false"><ch a="C"/>Wołając za mną wciąż:</row>
+      <row important_over="false">„Bardzo <ch a="C"/>ładny <ch a="e"/>frak masz, <ch a="a"/>Billy, <ch a="D"/></row>
+      <row important_over="false">Ale <ch a="C"/>kiepski <ch a="e"/>byłby <ch a="a"/>z ciebie, <ch a="D"/></row>
+      <row important_over="false">Kiepski <ch a="G"/>byłby <ch a="C9"/>mąż, <ch a="G"/></row>
+      <row important_over="false">Kiepski <ch a="G"/>byłby <ch a="C9"/>mąż”. <ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Whisky moja żono<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Tyś najlepszą z dam<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Już mnie nie opuścisz<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>Nie, nie będę nigdy sam<ch a="C9"/></row>
-      <row important_over="never"><ch a="D"/>Mówią whisky to nie wszystko</row>
-      <row important_over="never"><ch a="a"/>Można bez niej żyć</row>
-      <row important_over="never"><ch a="C"/>Lecz nie wiedzą ludzie o tym<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Że najgorsze w świecie tym<ch a="e"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>To samotnym być<ch a="C9"/></row>
-      <row important_over="never"><ch a="G"/>To samotnym być</row>
+      <row important_over="false"><ch a="G"/>Whisky, <ch a="C9"/>moja <ch a="G"/>żono, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Tyś naj<ch a="C9"/>lepszą z <ch a="G"/>dam! <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Już mnie <ch a="C9"/>nie opuś<ch a="G"/>cisz, <ch a="C9"/></row>
+      <row important_over="false"><ch a="G"/>Nie, nie będę <ch a="C9"/>nigdy <ch a="G"/>sam. <ch a="C9"/></row>
+      <row important_over="false"><ch a="D"/>Mówią: whisky to nie wszystko,</row>
+      <row important_over="false"><ch a="C"/>Można bez niej żyć,</row>
+      <row important_over="false">Lecz nie <ch a="C"/>wiedzą <ch a="e"/>ludzie <ch a="a"/>o tym, <ch a="D"/></row>
+      <row important_over="false">Że naj<ch a="C"/>gorsze <ch a="e"/>w świecie <ch a="a"/>tym <ch a="D"/></row>
+      <row important_over="false">To sa<ch a="G"/>motnym <ch a="C9"/>być, <ch a="G"/></row>
+      <row important_over="false">To sa<ch a="G"/>motnym <ch a="C9"/>być. <ch a="G"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Cegła</album>
+  <genre>rock</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Whisky</verificator>
+      <verificator>https://spiewnik.wywrota.pl/dzem/whisky</verificator>
+    </verificators>
   </status>
 </song>
