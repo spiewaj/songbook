@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Nie lubię" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Ja nienawidzę fatalnego końca</alias>
 	<text_author type="solo">Włodzimierz Wysocki</text_author>
-	<comment>Agresywnie. Przetłumaczył też Kaczmarski, ale śpiewa na trochę inną melodię.</comment>
+	<comment>Słowa i muzyka: Włodzimierz Wysocki (1969, „Я не люблю”). Przekład: Wiktor Woroszylski (1988).</comment>
 	<composer type="solo">Włodzimierz Wysocki</composer>
 	<artist type="solo">Włodzimierz Wysocki</artist>
 	<translator>Wiktor Woroszylski</translator>
-	<original_title>Ja nie lublu</original_title>
+	<original_title>Я не люблю</original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Ja nienaw<ch a="e"/>idzę fatalnego k<ch a="a"/>ońca,</row>
@@ -31,7 +31,7 @@
 		<block type="verse">
 			<row important_over="false">Odpycha mni<ch a="e"/>e zarozumiała s<ch a="a"/>ytość</row>
 			<row important_over="false">I mi<ch a="D7"/>erzi język, co zapomniał sł<ch a="G"/>ów</row>
-			<row important_over="false">Takich zwycz<ch a="a"/>ajnych: ,,honor'', ,,przyzwo<ch a="a6"/>itość''…</row>
+			<row important_over="false">Takich zwycz<ch a="a"/>ajnych: „honor”, „przyzwo<ch a="a6"/>itość”…</row>
 			<row important_over="false">O, ni<ch a="a"/>echby je przyp<ch a="a6"/>omniał sobie zn<ch a="H7"/>ów!</row>
 			<row important_over="false">Nie bawi mni<ch a="e"/>e, gdy dołki kopią w n<ch a="Fis"/>ocy,</row>
 			<row important_over="false">Gdy p<ch a="a"/>odstawiają nogę — kiepski ż<ch a="H7"/>art.</row>
@@ -43,36 +43,25 @@
 			<row important_over="false">Mam za zł<ch a="D7"/>e pustym, rozmemłanym dni<ch a="G"/>om.</row>
 			<row important_over="false">Nie lubię, gd<ch a="a"/>y butami włażą w d<ch a="a6"/>uszę,</row>
 			<row important_over="false">A jeszcze b<ch a="a"/>ardziej, kiedy pl<ch a="a6"/>ują w ni<ch a="H7"/>ą!</row>
-			<row important_over="false">Nie miłe m<ch a="e"/>i igrzyska, targow<ch a="Fis"/>iska!</row>
+			<row important_over="false">Niemiłe m<ch a="e"/>i igrzyska, targow<ch a="Fis"/>iska!</row>
 			<row important_over="false">Ich zgi<ch a="a"/>ełk i taniość i w rękawie n<ch a="H7"/>óż!</row>
 			<row important_over="false">Słyszałem, ż<ch a="e"/>e jutrzenka zmi<ch a="E7"/>an na bł<ch a="a"/>yska,</row>
 			<row important_over="false">Lecz t<ch a="H7"/>ego nie polubię nigdy j<ch a="e"/>uż!</row>
 		</block>
 	</lyric>
-	
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="2"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
-			
-			
-			
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/wlodzimierz-wysocki/nie-lubie</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
