@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pietruszka">
-	<alias></alias>
-	<text_author type="solo">Ania Lorenc</text_author>
+	<alias>Kiedy myślę, jak wielkim przypadkiem</alias>
+	<text_author type="solo">Anna Lorenc</text_author>
 	<comment></comment>
 	<composer type="solo">Urszula Wojciechowska</composer>
 	<artist type="solo"></artist>
@@ -9,38 +9,41 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/> <ch a="D"/> <ch a="A"/> <ch a="A"/> <ch a="D"/> <ch a="A"/> <ch a="E"/> <ch a="fis"/> <ch a="D"/> <ch a="fis"/> <ch a="D"/> <ch a="fis"/> <ch a="D"/> <ch a="E"/> <ch a="A"/></row>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="never"><ch a="A"/>Kiedy myślę jak wielkim przypadkiem<ch a="D"/><ch a="A"/></row>
-				<row important_over="never"><ch a="A"/>Jest to nasze tutaj spotkanie<ch a="D"/><ch a="A"/></row>
-				<row important_over="never"><ch a="E"/>To wydaje mi się że tylko cudem<ch a="fis"/><ch a="D"/></row>
-				<row important_over="never"><ch a="D"/>Zdążyłeś na nie mój Panie<ch a="E"/><ch a="A"/></row>
-				<row important_over="never"><ch a="A"/>Gdybyś się przecież urodził<ch a="D"/><ch a="A"/></row>
-				<row important_over="never"><ch a="A"/>Sto lat temu albo za rzeką<ch a="D"/><ch a="A"/></row>
-				<row important_over="never"><ch a="E"/>I był pietruszką albo słoniem<ch a="fis"/><ch a="D"/></row>
-				<row important_over="never"><ch a="D"/>Duszom byłoby za daleko<ch a="E"/><ch a="A"/></row>
+				<row important_over="true"><ch a="A"/>Kiedy myślę, jak <ch a="D"/>wielkim przy<ch a="A"/>padkiem</row>
+				<row important_over="false"><ch a="A"/>Jest to nasze <ch a="D"/>tutaj spot<ch a="A"/>kanie,</row>
+				<row important_over="true">To wy<ch a="E"/>daje mi się, że <ch a="fis"/>tylko <ch a="D"/>cudem</row>
+				<row important_over="true">Z<ch a="D"/>dążyłeś na nie, <ch a="E"/>mój Pa<ch a="A"/>nie.</row>
+				<row important_over="false"><ch a="A"/>Gdybyś się przecież <ch a="D"/>uro<ch a="A"/>dził</row>
+				<row important_over="false"><ch a="A"/>Sto lat temu <ch a="D"/>albo za <ch a="A"/>rzeką</row>
+				<row important_over="false">I <ch a="E"/>był pietruszką <ch a="fis"/>albo <ch a="D"/>słoniem,</row>
+				<row important_over="false">D<ch a="D"/>uszom byłoby <ch a="E"/>za da<ch a="A"/>leko.</row>
 			</bis>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"><ch a="A"/><ch a="D"/><ch a="A"/><ch a="A"/><ch a="D"/><ch a="A"/><ch a="E"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="fis"/><ch a="D"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="false" style="instr"><ch a="A"/> <ch a="D"/> <ch a="A"/> <ch a="A"/> <ch a="D"/> <ch a="A"/> <ch a="E"/> <ch a="fis"/> <ch a="D"/> <ch a="fis"/> <ch a="D"/> <ch a="fis"/> <ch a="D"/> <ch a="E"/> <ch a="A"/></row>
 		</block>
 	</lyric>
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords></keywords>
+	<album></album>
+	<genre>poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Alek</verificator><verificator>Krzysiek Cz.</verificator>
-			
-			
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Alek</verificator>
+			<verificator>Krzysiek Cz.</verificator>
 		</verificators>
 		<to_do></to_do>
-		<done/>
 	</status>
-	<keywords/>
 	<music_source></music_source>
-	<album></album>
-	<genre></genre>
 </song>
