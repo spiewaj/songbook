@@ -1,60 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Płacz moja wodo">
-  <alias/>
-  <text_author/>
+  <alias>Powiedz jak można tak długo wytrzymać</alias>
+  <text_author type="solo">Krzysztof Daukszewicz</text_author>
   <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <composer type="solo">Krzysztof Daukszewicz</composer>
+  <artist type="solo">Krzysztof Daukszewicz</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Powiedz jak można tak długo wytrzymać<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>Gdy zima i mrozy, i mrozy i zima<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>A ty znowu jesteś za wodą za rzeką<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>I nie wiem znów nie wiem jak bardzo daleko<ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Stoję na brzegu a przepaść jest blisko<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>I tłum się gromadzi jak na widowisko<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Dlaczego tak nagle się wszyscy zjawili<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>I po co też mają kamienie u szyi<ch a="E"/></row>
+      <row important_over="true"><ch a="A"/>Powiedz, jak można tak <ch a="E"/>długo wytrzymać,</row>
+      <row important_over="true"><ch a="D"/>Gdy zima i mrozy, i <ch a="A"/>mrozy, i zima,</row>
+      <row important_over="true"><ch a="D"/>A ty znowu jesteś za <ch a="A"/>wodą, za rzeką</row>
+      <row important_over="true"><ch a="h"/>I nie wiem, znów nie wiem, jak <ch a="E"/>bardzo daleko.</row>
+      <row important_over="true"><ch a="A"/>Stoję na brzegu, a <ch a="E"/>przepaść jest blisko,</row>
+      <row important_over="true"><ch a="D"/>I tłum się gromadzi jak <ch a="A"/>na widowisko.</row>
+      <row important_over="true"><ch a="D"/>Dlaczego tak nagle się <ch a="A"/>wszyscy zjawili</row>
+      <row important_over="true"><ch a="h"/>I po co też mają ka<ch a="E"/>mienie u szyi?</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="A"/>Bo kto mnie pożegna, gdy tylu nas jest<ch a="fis"/></row>
-      <row important_over="never"><ch a="h"/>Płacz moja wodo rzeką łez<ch a="E"/><ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Bo kto mnie pożegna, gdy <ch a="fis"/>tylu nas jest?</row>
+      <row important_over="true"><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Stoi kolejka szeregiem dalekim<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>I każdy z kamieniem i każdy do rzeki<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>I nikt tu nie płacze nie krzyczy nie woła<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>Bo łzy się skończyły już wczoraj z wieczora<ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>A z tyłu ktoś ludzi bezprzerwy pociesza<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>Że spotkał na drodze nowego Mojżesza<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Że pewnie podąża już do nas w tę strony<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>I przyszedł i stanął i też był znużony<ch a="E"/></row>
+      <row><ch a="A"/>Stoi kolejka sze<ch a="E"/>regiem dalekim</row>
+      <row><ch a="D"/>I każdy z kamieniem, i <ch a="A"/>każdy do rzeki,</row>
+      <row><ch a="D"/>I nikt tu nie płacze, nie <ch a="A"/>krzyczy, nie woła,</row>
+      <row><ch a="h"/>Bo łzy się skończyły już <ch a="E"/>wczoraj z wieczora.</row>
+      <row><ch a="A"/>A z tyłu ktoś ludzi bez <ch a="E"/>przerwy pociesza,</row>
+      <row><ch a="D"/>Że spotkał na drodze no<ch a="A"/>wego Mojżesza,</row>
+      <row><ch a="D"/>Że pewnie podąża już <ch a="A"/>do nas w tę stronę –</row>
+      <row><ch a="h"/>I przyszedł, i stanął, i <ch a="E"/>też był znużony.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="A"/>Wiec nikt go nie witał, choć tylu nas jest<ch a="fis"/></row>
-      <row important_over="never"><ch a="h"/>Płacz moja wodo rzeką łez<ch a="E"/><ch a="A"/></row>
+      <row><ch a="A"/>Więc nikt go nie witał, choć <ch a="fis"/>tylu nas jest...</row>
+      <row><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Wtedy na brzegu pojawił się diabeł<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>Do ciebie nad wodą zbudował przeprawę<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Tłumacząc się skromnie przed smutnym Mesjaszem<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>Że w tej sytuacji nie będzie Judaszem<ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>I każdy z nas ruszył przez most ten nad rzeką<ch a="E"/></row>
-      <row important_over="never"><ch a="D"/>Lecz ciebie nie było a świat za daleko<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Więc diabeł raz jeszcze w niedoli dopomógł<ch a="A"/></row>
-      <row important_over="never"><ch a="h"/>I każdy powrócił z kamieniem do domu<ch a="E"/></row>
+      <row><ch a="A"/>Wtedy na brzegu po<ch a="E"/>jawił się diabeł,</row>
+      <row><ch a="D"/>Do ciebie nad wodą zbu<ch a="A"/>dował przeprawę,</row>
+      <row><ch a="D"/>Tłumacząc się skromnie przed <ch a="A"/>smutnym Mesjaszem,</row>
+      <row><ch a="h"/>Że w tej sytuacji nie <ch a="E"/>będzie Judaszem.</row>
+      <row><ch a="A"/>I każdy z nas ruszył przez <ch a="E"/>most ten nad rzeką,</row>
+      <row><ch a="D"/>Lecz ciebie nie było, a <ch a="A"/>świat za daleko,</row>
+      <row><ch a="D"/>Więc diabeł raz jeszcze w nie<ch a="A"/>doli dopomógł</row>
+      <row><ch a="h"/>I każdy powrócił z ka<ch a="E"/>mieniem do domu.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="A"/>Lecz nikt nas nie witał, choć tylu nas jest<ch a="fis"/></row>
-      <row important_over="never"><ch a="h"/>Płacz moja wodo rzeką łez<ch a="E"/><ch a="A"/></row>
+      <row><ch a="A"/>Lecz nikt nas nie witał, choć <ch a="fis"/>tylu nas jest...</row>
+      <row><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Dobranoc Europo</album>
+  <genre>poezja śpiewana</genre>
   <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
     <verificators/>
     <to_do/>
   </status>
