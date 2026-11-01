@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pacyfik">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Kiedy szliśmy przez Pacyfik</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna szanta kabestanowa w humorystycznym kumulacyjnym opracowaniu, spopularyzowana m.in. przez zespół Mechanicy Shanty.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Mechanicy Shanty</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Kiedy szliśmy przez Pacyfik</row>
-      <row important_over="never"><ch a="D"/>Way hej roluj go<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Zwiało nam z pokładu skrzynki</row>
-      <row important_over="never"><ch a="D"/>Pełne śledzia i sardynki</row>
-      <row important_over="never"><ch a="D"/>Kosze krabów beczkę sera</row>
-      <row important_over="never"><ch a="D"/>Kalesony oficera</row>
-      <row important_over="never"><ch a="D"/>Sieć jeżowców jedną żabę</row>
-      <row important_over="never"><ch a="D"/>Kapitańską zmyło babę</row>
-      <row important_over="never"><ch a="D"/>Beczki rumu nam nie zwiało</row>
-      <row important_over="never"><ch a="D"/>Pół załogi ją trzymało</row>
-      <row important_over="never"><ch a="A"/>Taki był cholerny sztorm<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Hej znowu zmyło coś<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Hej policz który tam<ch a="G"/></row>
-      <row important_over="never"><ch a="A"/>Jaki znowu zmyło kram<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Hej znowu zmyło coś<ch a="G"/></row>
-      <row important_over="never"><ch a="D"/>Zniknął w morzu jakiś gość<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Postawcie wina dzban<ch a="G"/></row>
-      <row important_over="never"><ch a="A"/>Opowiemy dalej wam<ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Kiedy szliśmy przez Pacyfik,</row>
+      <row important_over="true">Way, hey, <ch a="A"/>roluj go!</row>
+      <row important_over="false"><ch a="D"/>Zwiało nam z pokładu skrzynki,</row>
+      <row important_over="never">Pełne śledzia i sardynki,</row>
+      <row important_over="never">Kosze krabów, beczkę sera,</row>
+      <row important_over="never">Kalesony oficera,</row>
+      <row important_over="never">Sieć jeżowców, jedną żabę,</row>
+      <row important_over="never">Kapitańską zmyło babę.</row>
+      <row important_over="never">Beczki rumu nam nie zwiało –</row>
+      <row important_over="never">Pół załogi ją trzymało!</row>
+      <row important_over="true">Taki był cho<ch a="A"/>lerny <ch a="D"/>sztorm!</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>Hej, znowu <ch a="G"/>zmyło coś,</row>
+      <row important_over="true"><ch a="D"/>Zniknął w morzu <ch a="A"/>jakiś gość.</row>
+      <row important_over="true"><ch a="D"/>Hej, policz, <ch a="G"/>który tam,</row>
+      <row important_over="true"><ch a="A"/>Jaki znowu zmyło <ch a="D"/>kram!</row>
+      <row important_over="false"><ch a="D"/>Hej, znowu <ch a="G"/>zmyło coś,</row>
+      <row important_over="false"><ch a="D"/>Zniknął w morzu <ch a="A"/>jakiś gość.</row>
+      <row important_over="false"><ch a="D"/>Postawcie <ch a="G"/>wina dzban,</row>
+      <row important_over="false"><ch a="A"/>Opowiemy dalej <ch a="D"/>wam!</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/mechanicy-shanty/pacyfik</verificator>
+    </verificators>
   </status>
 </song>
