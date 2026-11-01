@@ -10,13 +10,13 @@
       <row important_over="true"><ch a="D"/>Kiedy szliśmy przez Pacyfik,</row>
       <row important_over="true">Way, hey, <ch a="A"/>roluj go!</row>
       <row important_over="false"><ch a="D"/>Zwiało nam z pokładu skrzynki,</row>
-      <row important_over="never">Pełne śledzia i sardynki,</row>
-      <row important_over="never">Kosze krabów, beczkę sera,</row>
-      <row important_over="never">Kalesony oficera,</row>
-      <row important_over="never">Sieć jeżowców, jedną żabę,</row>
-      <row important_over="never">Kapitańską zmyło babę.</row>
-      <row important_over="never">Beczki rumu nam nie zwiało –</row>
-      <row important_over="never">Pół załogi ją trzymało!</row>
+      <row important_over="false"><ch a="D"/>Pełne śledzia i sardynki,</row>
+      <row important_over="false"><ch a="D"/>Kosze krabów, beczkę sera,</row>
+      <row important_over="false"><ch a="D"/>Kalesony oficera,</row>
+      <row important_over="false"><ch a="D"/>Sieć jeżowców, jedną żabę,</row>
+      <row important_over="false"><ch a="D"/>Kapitańską zmyło babę.</row>
+      <row important_over="false"><ch a="D"/>Beczki rumu nam nie zwiało –</row>
+      <row important_over="false"><ch a="D"/>Pół załogi ją trzymało!</row>
       <row important_over="true">Taki był cho<ch a="A"/>lerny <ch a="D"/>sztorm!</row>
     </block>
     <block type="chorus">
