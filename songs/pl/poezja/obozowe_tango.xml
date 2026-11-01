@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obozowe Tango">
-  <lyric>
-    <block type="verse">
-      <row important_over="true"><ch a="E7"/>Obozowe <ch a="a"/>tango, <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
-      <row important_over="true">Wiatr je niesie, <ch a="a"/>las kołysze</row>
-      <row important_over="true"><ch a="E7"/>Do snu dziewczę <ch a="a"/>me.</row>
-      <row important_over="false"><ch a="E7"/>Śpij moja <ch a="a"/>kochana i <ch a="A7"/>czekaj <ch a="d"/>na mnie,</row>
-      <row important_over="true">Może gdy się <ch a="a"/>obóz skończy</row>
-      <row important_over="false"><ch a="E7"/>Znów spotkamy <ch a="a"/>się.</row>
-    </block>
-    <block type="chorus">
-      <row important_over="true">I choć nas <ch a="G"/>dzieli,</row>
-      <row important_over="true">Może tysiące <ch a="C"/>wiosek i mil,</row>
-      <row important_over="false">Nie zapo<ch a="E7"/>minaj razem spędzonych <ch a="a"/>chwil.</row>
-      <row important_over="true">Tę leśną serenadę <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
-      <row important_over="true">Obozowe <ch a="a"/>tango, które <ch a="E7"/>znów połączy <ch a="a"/>nas.</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="E7"/>Czy pamiętasz <ch a="a"/>miła/y <ch a="A7"/>jak przy og<ch a="d"/>nisku,</row>
-      <row important_over="false">W ciemnym lesie, <ch a="a"/>na polanie</row>
-      <row important_over="false"><ch a="E7"/>Poznaliśmy <ch a="a"/>się.</row>
-      <row important_over="false"><ch a="E7"/>Las nam szumiał <ch a="a"/>rzewnie, <ch a="A7"/>byłaś/eś tak <ch a="d"/>blisko.</row>
-      <row important_over="false">Serca nasze <ch a="a"/>z żarem iskier</row>
-      <row important_over="false"><ch a="E7"/>Połączyły <ch a="a"/>się.</row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <keywords/>
-  <genre>Piosenka harcerska</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obozowe tango">
+	<text_author type="solo">Krzysztof Jasiński</text_author>
+	<composer type="solo">Krzysztof Jasiński</composer>
+	<artist type="solo">Krzysztof Jasiński</artist>
+	<genre>piosenka harcerska</genre>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="E7"/> Obozowe <ch a="a"/>tango <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
+			<row important_over="true">wiatr je niesie, <ch a="a"/>las kołysze</row>
+			<row important_over="true"><ch a="E7"/> do snu dziewczę <ch a="a"/>me.</row>
+			<row important_over="false"><ch a="E7"/> Śpij, moja <ch a="a"/>kochana, i <ch a="A7"/>czekaj <ch a="d"/>na mnie,</row>
+			<row important_over="false">może, gdy się <ch a="a"/>obóz skończy,</row>
+			<row important_over="false"><ch a="E7"/> znów spotkamy <ch a="a"/>się.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">I choć nas <ch a="G"/>dzieli</row>
+			<row important_over="true">może tysiące <ch a="C"/>wiosek i mil,</row>
+			<row important_over="true">nie zapom<ch a="E7"/>inaj razem spędzonych <ch a="a"/>chwil.</row>
+			<row important_over="true">Tę leśną serenadę <ch a="A7"/>śpiewam dla <ch a="d"/>Ciebie,</row>
+			<row important_over="true">obozowe <ch a="a"/>tango, które <ch a="E7"/>znów połączy <ch a="a"/>nas.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="E7"/> Czy pamiętasz, <ch a="a"/>miła, <ch a="A7"/>jak przy ogn<ch a="d"/>isku,</row>
+			<row important_over="false">w ciemnym lesie, <ch a="a"/>na polanie</row>
+			<row important_over="false"><ch a="E7"/> poznaliśmy <ch a="a"/>się?</row>
+			<row important_over="false"><ch a="E7"/> Las nam szumiał <ch a="a"/>rzewnie, <ch a="A7"/>byłaś tak bl<ch a="d"/>isko,</row>
+			<row important_over="false">serca nasze <ch a="a"/>z żarem iskier</row>
+			<row important_over="false"><ch a="E7"/> połączyły <ch a="a"/>się.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Obozowe_tango</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
