@@ -1,89 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wojtka Bellona ostatnia ziemska podróż do Włodawy">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo">Stare Dobre Małżeństwo</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="true">Z g<ch a="d"/>itarą i z piórem</row>
-      <row important_over="true">Kwietn<ch a="C"/>iowym wieczorem</row>
-      <row important_over="true">Jedziemy z W<ch a="G"/>ojtkiem</row>
-      <row important_over="true"><ch a="G"/>Razem do Włodawy</row>
-      <row important_over="true">S<ch a="F"/>tary bieszczadnik</row>
-      <row important_over="true">Majster <ch a="G"/>Bieda</row>
-      <row important_over="true">Wciąż wierny <ch a="A"/>górom</row>
-      <row important_over="true">Jak zwykle jest <ch a="A7"/>z nami</row>
-      <row important_over="true"><ch a="d"/>I mówisz wszystko si<ch a="F"/>ę uda</row>
-      <row important_over="true">O to ni<ch a="C"/>e ma żadnej ob<ch a="A"/>awy</row>
-      <row important_over="true">Prz<ch a="B"/>ecież jedziemy <ch a="C"/>dziś</row>
-      <row important_over="true">Na d<ch a="d"/>wa d<ch a="A"/>ni do Włoda<ch a="d"/>wy</row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="d"/>W przedziale po oczach</row>
-      <row important_over="false"><ch a="C"/>Mdli mleczna żarówka</row>
-      <row important_over="false"><ch a="G"/>Mała</row>
-      <row important_over="false"><ch a="G"/>Gwiazda betlejemska</row>
-      <row important_over="false"><ch a="F"/>I pociąg lubelski</row>
-      <row important_over="false"><ch a="G"/>Noc długą przecina</row>
-      <row important_over="false"><ch a="A"/>Buntując się</row>
-      <row important_over="false"><ch a="A7"/>Na ostrych zakrętach</row>
-      <row important_over="false"><ch a="d"/>I mówisz wszystko będzie dobrze<ch a="F"/></row>
-      <row important_over="false"><ch a="C"/>Opowiemy im nasze sprawy<ch a="A"/></row>
-      <row important_over="false"><ch a="B"/>Przecież po to jedziemy<ch a="C"/></row>
-      <row important_over="false"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="d"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="true"><ch a="d"/>Z plecaka chleb wyjęty</row>
-      <row important_over="true"><ch a="C"/>Garść soli</row>
-      <row important_over="true"><ch a="G"/>Kawałek sprytem zdobytej</row>
-      <row important_over="true"><ch a="G"/>Kiełbasy</row>
-      <row important_over="true"><ch a="F"/>Chcemy noc przeskoczyć</row>
-      <row important_over="true"><ch a="G"/>Ciemną i niepewną</row>
-      <row important_over="true"><ch a="A"/>Z biletem kupionym</row>
-      <row important_over="true"><ch a="A7"/>W nieznane</row>
-      <row important_over="false"><ch a="d"/>Lecz mówisz znów musi się udać<ch a="F"/></row>
-      <row important_over="false"><ch a="C"/>Choć tyle podróży za nami<ch a="A"/></row>
-      <row important_over="false"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
-      <row important_over="true"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="d"/>Dzisiaj się buntuje</row>
-      <row important_over="false"><ch a="C"/>Czesiek król nad króle</row>
-      <row important_over="false"><ch a="G"/>Piekarz rodem z Buska</row>
-      <row important_over="false"><ch a="G"/>Wchodzi w układ</row>
-      <row important_over="false"><ch a="F"/>Stawia pasjans z bułek</row>
-      <row important_over="false"><ch a="G"/>I gorzej się czuje</row>
-      <row important_over="false"><ch a="A"/>A w drewnie cierpliwym</row>
-      <row important_over="false"><ch a="A7"/>Został ślad</row>
-      <row important_over="false"><ch a="d"/>A ty na przekór wszystkim mówisz<ch a="F"/></row>
-      <row important_over="false"><ch a="C"/>Że się uda nie ma obawy<ch a="A"/></row>
-      <row important_over="false"><ch a="B"/>Przecież jedziemy dziś<ch a="C"/></row>
-      <row important_over="false"><ch a="d"/>Na dwa dni do Włodawy<ch a="A"/><ch a="d"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="d"/>I są wciąż pytania</row>
-      <row important_over="false"><ch a="C"/>I są wciąż rozmowy</row>
-      <row important_over="false"><ch a="G"/>Ważne</row>
-      <row important_over="false"><ch a="G"/>Choć tylko przedziałowe</row>
-      <row important_over="false"><ch a="F"/>I jak z każdej</row>
-      <row important_over="false"><ch a="G"/>Wspólnej nam posiady</row>
-      <row important_over="false"><ch a="A"/>Wygląda w przeszłość</row>
-      <row important_over="false"><ch a="A7"/>Zatroskany człowiek</row>
-      <row important_over="false"><ch a="d"/>Wyciągasz wiersz ciepły jeszcze<ch a="F"/></row>
-      <row important_over="false"><ch a="C"/>Wczoraj bodajże napisany<ch a="A"/></row>
-      <row important_over="false"><ch a="B"/>I czytasz głośno go w przedziale<ch a="C"/></row>
-      <row important_over="false"><ch a="d"/>W naszej podróży do Włodawy<ch a="A"/><ch a="d"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Z gitarą i z piórem</alias>
+	<text_author type="solo">Adam Ziemianin</text_author>
+	<comment>Poetycki hołd dla Wojciecha Belona (1952–1985), poety, pieśniarza i lidera Wolnej Grupy Bukowina.</comment>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="solo">Stare Dobre Małżeństwo</artist>
+	<translator/>
+	<original_title/>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Z g<ch a="d"/>itarą i z piórem,</row>
+			<row important_over="true">Kwietn<ch a="C"/>iowym wieczorem,</row>
+			<row important_over="true">Jedziemy z W<ch a="G"/>ojtkiem</row>
+			<row important_over="true">R<ch a="G"/>azem do Włodawy.</row>
+			<row important_over="true">St<ch a="F"/>ary bieszczadnik,</row>
+			<row important_over="true">Majster Bi<ch a="G"/>eda,</row>
+			<row important_over="true">Wciąż wierny g<ch a="A"/>órom,</row>
+			<row important_over="true">Jak zwykle jest z n<ch a="A7"/>ami.</row>
+			<row important_over="true">I m<ch a="d"/>ówisz: wszystko si<ch a="F"/>ę uda,</row>
+			<row important_over="true">O to ni<ch a="C"/>e ma żadnej ob<ch a="A"/>awy,</row>
+			<row important_over="true">Prz<ch a="B"/>ecież jedziemy <ch a="C"/>dziś</row>
+			<row important_over="true">Na dw<ch a="d"/>a dni <ch a="A"/>do Włod<ch a="d"/>awy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W przedzi<ch a="d"/>ale po oczach</row>
+			<row important_over="false">Mdl<ch a="C"/>i mleczna żarówka,</row>
+			<row important_over="false">M<ch a="G"/>ała</row>
+			<row important_over="false">Gwi<ch a="G"/>azda betlejemska,</row>
+			<row important_over="false">I poc<ch a="F"/>iąg lubelski</row>
+			<row important_over="false">Noc dł<ch a="G"/>ugą przecina,</row>
+			<row important_over="false">Bunt<ch a="A"/>ując się</row>
+			<row important_over="false">Na <ch a="A7"/>ostrych zakrętach.</row>
+			<row important_over="false">I m<ch a="d"/>ówisz: wszystko będzie d<ch a="F"/>obrze,</row>
+			<row important_over="false">Opowi<ch a="C"/>emy im nasze spr<ch a="A"/>awy,</row>
+			<row important_over="false">Prz<ch a="B"/>ecież po to jedzi<ch a="C"/>emy</row>
+			<row important_over="false">Na dw<ch a="d"/>a dni <ch a="A"/>do Włod<ch a="d"/>awy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Z plec<ch a="d"/>aka chleb wyjęty,</row>
+			<row important_over="false">G<ch a="C"/>arść soli,</row>
+			<row important_over="false">Kaw<ch a="G"/>ałek sprytem zdobytej</row>
+			<row important_over="false">Ki<ch a="G"/>ełbasy,</row>
+			<row important_over="false">Chc<ch a="F"/>emy noc przeskoczyć,</row>
+			<row important_over="false">Ci<ch a="G"/>emną i niepewną,</row>
+			<row important_over="false">Z bil<ch a="A"/>etem kupionym</row>
+			<row important_over="false">W ni<ch a="A7"/>eznane.</row>
+			<row important_over="false">Lecz m<ch a="d"/>ówisz: znów musi się <ch a="F"/>udać,</row>
+			<row important_over="false">Choć t<ch a="C"/>yle podróży za n<ch a="A"/>ami,</row>
+			<row important_over="false">Prz<ch a="B"/>ecież jedziemy <ch a="C"/>dziś</row>
+			<row important_over="false">Na dw<ch a="d"/>a dni <ch a="A"/>do Włod<ch a="D"/>awy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dziś si<ch a="d"/>ę buntuje</row>
+			<row important_over="false">Cz<ch a="C"/>esiek, król nad króle,</row>
+			<row important_over="false">Pi<ch a="G"/>ekarz rodem z Buska,</row>
+			<row important_over="false">Wch<ch a="G"/>odzi w układ,</row>
+			<row important_over="false">St<ch a="F"/>awia pasjans z bułek</row>
+			<row important_over="false">I g<ch a="G"/>orzej się czuje,</row>
+			<row important_over="false">A w dr<ch a="A"/>ewnie cierpliwym</row>
+			<row important_over="false">Zost<ch a="A7"/>ał ślad.</row>
+			<row important_over="false">A t<ch a="d"/>y na przekór wszystkim m<ch a="F"/>ówisz,</row>
+			<row important_over="false">Że si<ch a="C"/>ę uda, nie ma ob<ch a="A"/>awy,</row>
+			<row important_over="false">Prz<ch a="B"/>ecież jedziemy <ch a="C"/>dziś</row>
+			<row important_over="false">Na dw<ch a="d"/>a dni <ch a="A"/>do Włod<ch a="d"/>awy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I s<ch a="d"/>ą wciąż pytania</row>
+			<row important_over="false">I s<ch a="C"/>ą wciąż rozmowy,</row>
+			<row important_over="false">W<ch a="G"/>ażne,</row>
+			<row important_over="false">Ch<ch a="G"/>oć tylko przedziałowe,</row>
+			<row important_over="false">I j<ch a="F"/>ak z każdej</row>
+			<row important_over="false">Wsp<ch a="G"/>ólnej nam posiady</row>
+			<row important_over="false">Wygl<ch a="A"/>ąda w przeszłość</row>
+			<row important_over="false">Zatr<ch a="A7"/>oskany człowiek.</row>
+			<row important_over="false">Wyci<ch a="d"/>ągasz wiersz ciepły j<ch a="F"/>eszcze,</row>
+			<row important_over="false">Wczor<ch a="C"/>aj bodajże napis<ch a="A"/>any,</row>
+			<row important_over="false">I cz<ch a="B"/>ytasz głośno go w przedzi<ch a="C"/>ale</row>
+			<row important_over="false">W n<ch a="d"/>aszej podróży <ch a="A"/>do Włod<ch a="d"/>awy.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>Wojciech Belon</keyword>
+		<keyword>Bieszczady</keyword>
+	</keywords>
+	<album>Czarny blues o czwartej nad ranem</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators/>
+	</status>
 </song>
