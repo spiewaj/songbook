@@ -1,50 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sanctus">
-  <alias/>
-  <text_author>Edward Stachura</text_author>
-  <comment/>
+  <alias>Święty, święty, święty — blask kłujący w oczy</alias>
+  <text_author type="solo">Edward Stachura</text_author>
   <composer type="solo">Krzysztof Myszkowski</composer>
-  <artist type="solo">Stare Dobre Małżeństwo</artist>
-  <translator/>
-  <original_title/>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
   <lyric>
     <block type="verse">
       <row important_over="never">Święty, święty, święty — blask kłujący w oczy</row>
-      <row important_over="never">Święta, święta, święta — Ziemia co nas nosi</row>
-      <row important_over="true"><ch a="e"/>Święty kurz na drodze, święty kij przy nodze, święte krople potu<ch a="C"/><ch a="D"/></row>
-      <row important_over="true"><ch a="e"/>Święty kamień w polu przysiądź na nim panie<ch a="C"/></row>
-      <row important_over="true"><ch a="D"/>Święty płomyk rosy, święte wędrowanie<ch a="e"/></row>
+      <row important_over="never">Święta, święta, święta — Ziemia, co nas nosi</row>
+      <row important_over="true"><ch a="e"/>Święty kurz na drodze, święty <ch a="C"/>kij przy nodze, święte <ch a="D"/>krople potu</row>
+      <row important_over="true"><ch a="e"/>Święty kamień w polu, przysiądź <ch a="C"/>na nim, panie,</row>
+      <row important_over="true"><ch a="D"/>święty płomyk rosy, święte wędrow<ch a="e"/>anie.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>Święty chleb — chleba łamanie, święta sól — solą witanie<ch a="D"/><ch a="G"/><ch a="C"/><ch a="D"/><ch a="G"/></row>
-      <row important_over="true"><ch a="C"/>Święta cisza święty śpiew<ch a="D"/><ch a="e"/></row>
-      <row important_over="true"><ch a="C"/>Znojny łomot prawych serc<ch a="D"/></row>
-      <row important_over="true"><ch a="C"/>Słupy oczu zapatrzonych<ch a="D"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Bicie powiek zadziwionych<ch a="D"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Święty ruch i drobne stopy<ch a="D"/><ch a="G"/></row>
-      <row important_over="false"><ch a="C"/>Święta, święta, święta Ziemia co nas nosi<ch a="D"/></row>
+      <row important_over="true"><ch a="C"/>Święty chleb, <ch a="D"/>chleba łama<ch a="G"/>nie, <ch a="C"/>święta sól, <ch a="D"/>solą wita<ch a="G"/>nie,</row>
+      <row important_over="true"><ch a="C"/>święta cisza, <ch a="D"/>święty śpi<ch a="e"/>ew,</row>
+      <row important_over="true"><ch a="C"/>znojny łomot prawych s<ch a="D"/>erc,</row>
+      <row important_over="true"><ch a="C"/>słupy oczu zapatrz<ch a="D"/>onych, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>bicie powiek zadziwi<ch a="D"/>onych, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>święty ruch i drobne st<ch a="D"/>opy, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>święta, święta, święta Ziemia, co nas n<ch a="D"/>osi.</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="e"/>Słońce i ludny niebieski zwierzyniec<ch a="C"/></row>
-      <row important_over="false"><ch a="D"/>Baran, lew, skorpion, i ryby sferyczne<ch a="e"/></row>
-      <row important_over="true"><ch a="e"/>Droga mleczna obłok Magellana<ch a="D"/></row>
-      <row important_over="false"><ch a="C"/>Meteory, gwiazda przedporanna<ch a="D"/></row>
-      <row important_over="false"><ch a="e"/>Saturn i Saturna dziwów wieniec<ch a="C"/></row>
-      <row important_over="false"><ch a="D"/>Trzy pierścienie i księżyców dziewięć<ch a="e"/></row>
-      <row important_over="true"><ch a="e"/>Neptun, Pluton, Uran, Mars, Merkury, Jowisz<ch a="D"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>Słońce i ludny nie<ch a="C"/>bieski zwierzyniec,</row>
+      <row important_over="false"><ch a="D"/>Baran, Lew, Skorpion i <ch a="e"/>Ryby sferyczne,</row>
+      <row important_over="false">Droga <ch a="e"/>Mleczna, Obłok Magel<ch a="D"/>lana,</row>
+      <row important_over="false">Mete<ch a="C"/>ory, Gwiazda Przedpo<ch a="D"/>ranna,</row>
+      <row important_over="false"><ch a="e"/>Saturn i Saturna <ch a="C"/>dziwów wieniec,</row>
+      <row important_over="false">Trzy pierś<ch a="D"/>cienie i księżyców dzi<ch a="e"/>ewięć,</row>
+      <row important_over="false"><ch a="e"/>Neptun, Pluton, Uran, Mars, Mer<ch a="D"/>kury, Jowisz… <ch a="C"/><ch a="D"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <bis>
-        <row important_over="true"><ch a="e"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/> La, la, la…</row>
+        <row important_over="false"><ch a="e"/><ch a="C"/><ch a="D"/><ch a="e"/><ch a="D"/><ch a="C"/><ch a="D"/> La, la, la…</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Dla wszystkich starczy miejsca (1990)</album>
+  <genre>Poezja śpiewana</genre>
   <status>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
     <verificators/>
-    <to_do/>
   </status>
+  <music_source>https://bibliotekapiosenki.pl/utwory/Sanctus_(sl_Edward_Stachura)</music_source>
 </song>
