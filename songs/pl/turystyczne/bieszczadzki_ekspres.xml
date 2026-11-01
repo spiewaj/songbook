@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki ekspres">
   <text_author type="solo">Andrzej Wierzbicki</text_author>
+  <composer type="solo">Gene Pitney</composer>
   <artist type="solo">Andrzej Wierzbicki</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Z bukowych głębin do połonin,<ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Żelaznej drogi wstążki dwie, <ch a="G"/><ch a="E"/><ch a="A"/></row>
-      <row important_over="never">I nikt jej dymów nie dogoni<ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">tak szybko giną w nocnej mgle.<ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="true"><ch a="D"/>Z bukowych głębin <ch a="fis"/>do poło<ch a="h"/>nin,</row>
+      <row important_over="true"><ch a="G"/>Żelaznej drogi <ch a="E"/>wstążki <ch a="A"/>dwie,</row>
+      <row important_over="true"><ch a="D"/>I nikt jej dymów <ch a="fis"/>nie do<ch a="h"/>goni,</row>
+      <row important_over="true"><ch a="G"/>Tak szybko giną <ch a="E"/>w nocnej <ch a="A"/>mgle.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="D"/>Kiedy zmęczone <ch a="D7"/>masz ramiona,</row>
+      <row important_over="true"><ch a="G"/>Otarte nogi, <ch a="B7"/>sztywny kark,</row>
+      <row important_over="true">W gościnne progi <ch a="D"/>ostrym <ch a="fis"/>gwizdem <ch a="h"/>cię za<ch a="G"/>prosi</row>
+      <row important_over="true"><ch a="D"/>Stary biesz<ch a="A"/>czadzki ekspres <ch a="D"/>nasz.</row>
     </block>
     <block type="verse">
-      <row important_over="never">Kiedy zmęczone masz ramiona<ch a="D"/><ch a="D7"/></row>
-      <row important_over="never">Otarte nogi sztywny kark<ch a="G"/><ch a="B7"/></row>
-      <row important_over="never">w gościnne progi ostrym gwizdem Cię zaprosi<ch a="D"/><ch a="fis"/><ch a="h"/><ch a="G"/></row>
-      <row important_over="never">stary bieszczadzki ekspres nasz.<ch a="D"/><ch a="A"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Pękaty zbiornik dziwny komin, <ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">żywicą pachnie siwy dym<ch a="G"/><ch a="E"/><ch a="A"/></row>
-      <row important_over="never">Iskrami wyzłocone koła<ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">beztroski wystukują rytm<ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Pękaty zbiornik, <ch a="fis"/>dziwny <ch a="h"/>komin,</row>
+      <row important_over="false"><ch a="G"/>Żywicą pachnie <ch a="E"/>siwy <ch a="A"/>dym,</row>
+      <row important_over="false"><ch a="D"/>Iskrami wyzło<ch a="fis"/>cone <ch a="h"/>koła</row>
+      <row important_over="false"><ch a="G"/>Beztroski wy<ch a="E"/>stukują <ch a="A"/>rytm.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Dziś nie ma starych parowozów<ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Nie słychać już stukotu kół<ch a="G"/><ch a="E"/><ch a="A"/></row>
-      <row important_over="never">Czas pozacierał wstęgi torów<ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="never">Kurz pokrył ślad pionierskich stóp<ch a="G"/><ch a="E"/><ch a="A"/></row>
+      <row important_over="false"><ch a="D"/>Dziś nie ma starych <ch a="fis"/>paro<ch a="h"/>wozów,</row>
+      <row important_over="false"><ch a="G"/>Nie słychać już stu<ch a="E"/>kotu <ch a="A"/>kół,</row>
+      <row important_over="false"><ch a="D"/>Czas pozacierał <ch a="fis"/>wstęgi <ch a="h"/>torów,</row>
+      <row important_over="false"><ch a="G"/>Kurz pokrył ślad pio<ch a="E"/>nierskich <ch a="A"/>stóp.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Lecz może kiedyś przed wieczorem<ch a="D"/><ch a="D7"/></row>
-      <row important_over="never">u schyłku kolejnego dnia, <ch a="G"/><ch a="B7"/></row>
-      <row important_over="never">usłyszysz znowu jak nadjeżdża swoim torem<ch a="D"/><ch a="fis"/><ch a="h"/><ch a="G"/></row>
-      <row important_over="never">Stary bieszczadzki ekspres nasz. <ch a="D"/><ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Lecz może kiedyś <ch a="D7"/>przed wieczorem,</row>
+      <row important_over="false"><ch a="G"/>U schyłku kolej<ch a="B7"/>nego dnia,</row>
+      <row important_over="false">Usłyszysz znowu, <ch a="D"/>jak nad<ch a="fis"/>jeżdża <ch a="h"/>swoim <ch a="G"/>torem</row>
+      <row important_over="false"><ch a="D"/>Stary biesz<ch a="A"/>czadzki ekspres <ch a="D"/>nasz.</row>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4"/>
+  <genre>piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenka-turystyczna/bieszczadzki-ekspres</verificator>
+      <verificator>Śpiewnik „Na kolejowym szlaku”, SCPT 1981</verificator>
+    </verificators>
   </status>
-  <music_source>Gene Pitney &quot;Transpacyfic American&quot;</music_source>
+  <music_source>Gene Pitney „Canadian Pacific”</music_source>
 </song>
