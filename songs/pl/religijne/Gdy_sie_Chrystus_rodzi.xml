@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdy się Chrystus rodzi">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna polska kolęda, znana co najmniej od przełomu XVI i XVII wieku. Zapisana m.in. w zbiorze „Pastorałki i kolędy z melodyjami” ks. Michała Mioduszewskiego (1843).</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Gdy się Chrystus rodzi<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>I na świat przychodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Ciemna noc w jasności<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Promienistej brodzi<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="true"><ch a="A"/>Gdy się <ch a="D"/>Chrystus <ch a="A"/>rodzi</row>
+      <row important_over="true">I na <ch a="D"/>świat przy<ch a="E"/>cho<ch a="A"/>dzi,</row>
+      <row important_over="true"><ch a="A"/>Ciemna <ch a="D"/>noc w jas<ch a="A"/>ności</row>
+      <row important_over="true">Promie<ch a="D"/>nistej <ch a="E"/>bro<ch a="A"/>dzi.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="E"/>Aniołowie się radują<ch a="A"/></row>
-        <row important_over="never"><ch a="E"/>Pod niebiosy wyśpiewują<ch a="A"/></row>
-        <row important_over="never"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
-        <row important_over="never"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+        <row important_over="true"><ch a="E"/>Aniołowie się radują,</row>
+        <row important_over="true">Pod niebiosy <ch a="A"/>wyśpiewują:</row>
+        <row important_over="true"><ch a="A"/>Gloria, <ch a="D"/>gloria, <ch a="E7"/>gloria</row>
+        <row important_over="true"><ch a="A"/>In ex<ch a="D"/>celsis <ch a="A"/>De<ch a="E"/>o!<ch a="A"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Mówią do pasterzy<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Którzy trzód swych strzegli<ch a="E"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Aby do Betlejem<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Czem prędzej pobiegli<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="never">Mówią do pasterzy,</row>
+      <row important_over="never">Którzy trzód swych strzegli,</row>
+      <row important_over="never">Aby do Betlejem</row>
+      <row important_over="never">Czym prędzej pobiegli.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="E"/>Bo się narodził zbawiciel<ch a="A"/></row>
-        <row important_over="never"><ch a="E"/>Wszego świata odkupiciel<ch a="A"/></row>
-        <row important_over="never"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
-        <row important_over="never"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+        <row important_over="never">Bo się narodził Zbawiciel,</row>
+        <row important_over="never">Wszego świata Odkupiciel:</row>
+        <row important_over="never">Gloria, gloria, gloria</row>
+        <row important_over="never">In excelsis Deo!</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>O niebieskie duchy<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>I posłowie nieba<ch a="E"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Powiedzcie wyraźnie<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Co nam czynić trzeba<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="never">O niebieskie duchy</row>
+      <row important_over="never">I posłowie nieba,</row>
+      <row important_over="never">Powiedzcie wyraźnie,</row>
+      <row important_over="never">Co nam czynić trzeba.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="E"/>Bo my nic nie pojmujemy<ch a="A"/></row>
-        <row important_over="never"><ch a="E"/>Ledwo od strachu żyjemy<ch a="A"/></row>
-        <row important_over="never"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
-        <row important_over="never"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+        <row important_over="never">Bo my nic nie pojmujemy,</row>
+        <row important_over="never">Ledwo od strachu żyjemy:</row>
+        <row important_over="never">Gloria, gloria, gloria</row>
+        <row important_over="never">In excelsis Deo!</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="A"/>Idźcie do Betlejem<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Gdzie dziecię zrodzone<ch a="E"/><ch a="E7"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>W pieluszki powite<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>W żłobie położone<ch a="E"/><ch a="E7"/><ch a="A"/></row>
+      <row important_over="never">Idźcie do Betlejem,</row>
+      <row important_over="never">Gdzie Dziecię zrodzone,</row>
+      <row important_over="never">W pieluszki powite,</row>
+      <row important_over="never">W żłobie położone.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="E"/>Oddajcie mu pokłon boski<ch a="A"/></row>
-        <row important_over="never"><ch a="E"/>On osłodzi wasze troski<ch a="A"/></row>
-        <row important_over="never"><ch a="A"/>Gloria gloria gloria<ch a="D"/><ch a="E7"/></row>
-        <row important_over="never"><ch a="A"/>In exelsis Deo<ch a="D"/><ch a="A"/><ch a="E"/><ch a="A"/></row>
+        <row important_over="never">Oddajcie Mu pokłon boski,</row>
+        <row important_over="never">On osłodzi wasze troski:</row>
+        <row important_over="never">Gloria, gloria, gloria</row>
+        <row important_over="never">In excelsis Deo!</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>kolęda</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/koledy/gdy-sie-chrystus-rodzi</verificator>
+    </verificators>
   </status>
 </song>
