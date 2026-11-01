@@ -1,73 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka turystyczna 3">
-  <alias/>
-  <text_author/>
+  <alias>Świt za oknem budzi ptaki</alias>
+  <text_author type="solo">Krzysztof Jurkiewicz</text_author>
   <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
+  <composer type="solo">Mariusz Kamper</composer>
+  <artist type="band">Słodki Całus od Buby</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Świt za oknem budzi ptaki</row>
-      <row important_over="never"><ch a="G"/>Od butelki wionie nudą<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Chyba pójdę się położyć</row>
-      <row important_over="never"><ch a="D"/>Albo zbudzę tamtą rudą<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>To wygląda na końcówę<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Wszyscy dawno się pospali<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Trzeba będzie coś z tym zrobić<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Nie ma nawet co zapalić<ch a="G"/><ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Świt za oknem budzi ptaki,</row>
+      <row important_over="true"><ch a="G"/>Od butelki wionie <ch a="A"/>nudą.</row>
+      <row important_over="true"><ch a="F"/>Chyba pójdę się położyć</row>
+      <row important_over="true"><ch a="D"/>Albo zbudzę tamtą <ch a="G"/>rudą.</row>
+      <row important_over="true"><ch a="C"/>To wygląda na koń<ch a="A"/>cówę,</row>
+      <row important_over="true"><ch a="F"/>Wszyscy dawno się po<ch a="D"/>spali,</row>
+      <row important_over="true"><ch a="C"/>Trzeba będzie coś z tym <ch a="A"/>zrobić,</row>
+      <row important_over="true"><ch a="F"/>Nie ma nawet co za<ch a="G"/>pa<ch a="C"/>lić.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Jeszcze jedna flaszka<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>To najlepszy na zmartwienia sposób<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Jaki znam<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Znowu świt nas zastał<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Nad butelką której nie możemy już<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Jeszcze jeden kieli<ch a="E"/>szek,</row>
+      <row important_over="true"><ch a="F"/>Jeszcze jedna flasz<ch a="G"/>ka –</row>
+      <row important_over="true"><ch a="C"/>To najlepszy na zmartwienia spo<ch a="A"/>sób,</row>
+      <row important_over="true"><ch a="F"/>Jaki <ch a="G"/>znam.</row>
+      <row important_over="true"><ch a="C"/>Jeszcze jeden kieli<ch a="E"/>szek,</row>
+      <row important_over="true"><ch a="F"/>Znowu świt nas zas<ch a="G"/>tał</row>
+      <row important_over="true"><ch a="C"/>Nad butelką, której nie możemy <ch a="A"/>już</row>
+      <row important_over="true"><ch a="F"/>Wypić do <ch a="G"/>dna.<ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Trzeci raz na trzecim roku</row>
-      <row important_over="never"><ch a="G"/>I to nawet nie na pewno<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Starzy nie chcą na mnie łożyć</row>
-      <row important_over="never"><ch a="D"/>Nie wiem sam co będzie ze mną<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Jak o wszystkim się dowiedzą<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Wydziedziczą mnie na pewno<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Wojsko już się o mnie pyta<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Zresztą jest mi wszystko jedno<ch a="G"/><ch a="C"/></row>
+      <row><ch a="C"/>Trzeci raz na trzecim roku</row>
+      <row><ch a="G"/>I to nawet nie na <ch a="A"/>pewno,</row>
+      <row><ch a="F"/>Starzy nie chcą na mnie łożyć,</row>
+      <row><ch a="D"/>Nie wiem sam, co będzie ze <ch a="G"/>mną.</row>
+      <row><ch a="C"/>Jak o wszystkim się dowie<ch a="A"/>dzą,</row>
+      <row><ch a="F"/>Wydziedziczą mnie na <ch a="D"/>pewno,</row>
+      <row><ch a="C"/>Wojsko już się o mnie py<ch a="A"/>ta,</row>
+      <row><ch a="F"/>Zresztą jest mi wszystko je<ch a="G"/>dno.<ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Wszyscy kumple siedzą w górach</row>
-      <row important_over="never"><ch a="G"/>Jedzą piją lulki palą<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Ja się czasem zjawiam w szkole</row>
-      <row important_over="never"><ch a="D"/>Chyba w końcu mnie wywalą<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Nie układa się z kobitą<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Tak naprawdę już po wszystkim<ch a="D"/></row>
-      <row important_over="never"><ch a="C"/>Załapałem klimat końca<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Chyba czas żebyśmy wyszli<ch a="G"/><ch a="C"/></row>
+      <row><ch a="C"/>Wszyscy kumple siedzą w górach,</row>
+      <row><ch a="G"/>Jedzą, piją, lulki pa<ch a="A"/>lą,</row>
+      <row><ch a="F"/>Ja się czasem zjawiam w szkole,</row>
+      <row><ch a="D"/>Chyba w końcu mnie wywa<ch a="G"/>lą.</row>
+      <row><ch a="C"/>Nie układa się z kobi<ch a="A"/>tą,</row>
+      <row><ch a="F"/>Tak naprawdę już po wszyst<ch a="D"/>kim,</row>
+      <row><ch a="C"/>Załapałem klimat koń<ch a="A"/>ca,</row>
+      <row><ch a="F"/>Chyba czas, żebyśmy wysz<ch a="G"/>li.<ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Jeszcze jedna flaszka<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>To najlepszy na zmartwienia sposób<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Jaki znam<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Jeszcze jeden kieliszek<ch a="E"/></row>
-      <row important_over="never"><ch a="F"/>Znowu świt nas zastał<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Nad butelką której nie możemy już<ch a="A"/></row>
-      <row important_over="never"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="A"/>Aaa…</row>
-      <row important_over="never"><ch a="F"/>Wypić do dna<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="A"/>Aaa…</row>
-      <row important_over="never"><ch a="F"/>Wypić do dna uuu…<ch a="G"/><ch a="F"/><ch a="C"/></row>
+      <row><ch a="C"/>Jeszcze jeden kieli<ch a="E"/>szek,</row>
+      <row><ch a="F"/>Jeszcze jedna flasz<ch a="G"/>ka –</row>
+      <row><ch a="C"/>To najlepszy na zmartwienia spo<ch a="A"/>sób,</row>
+      <row><ch a="F"/>Jaki <ch a="G"/>znam.</row>
+      <row><ch a="C"/>Jeszcze jeden kieli<ch a="E"/>szek,</row>
+      <row><ch a="F"/>Znowu świt nas zas<ch a="G"/>tał</row>
+      <row><ch a="C"/>Nad butelką, której nie możemy <ch a="A"/>już</row>
+      <row><ch a="F"/>Wypić do <ch a="G"/>dna.<ch a="C"/></row>
+      <row important_over="true"><ch a="A"/>Aaa...</row>
+      <row important_over="true"><ch a="F"/>Wypić do <ch a="G"/>dna.<ch a="C"/></row>
+      <row important_over="true"><ch a="A"/>Aaa...</row>
+      <row important_over="true"><ch a="F"/>Wypić do dna, <ch a="G"/>uuu...<ch a="F"/><ch a="C"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Słodki Całus od Buby</album>
+  <genre>turystyczna</genre>
   <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
     <verificators/>
     <to_do/>
   </status>
