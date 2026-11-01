@@ -1,63 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Nie rozdziobią nas kruki" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie rozdziobią nas kruki">
+	<alias/>
 	<text_author type="solo">Edward Stachura</text_author>
-	<comment></comment>
+	<comment/>
 	<composer type="solo">Krzysztof Myszkowski</composer>
-	<artist type="solo">Stare Dobre Małżeństwo</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<album>Dolina w długich cieniach</album>
+	<lyric>
 		<block type="verse">
-			<row important_over="never">Nie rozdziobią nas kruki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Ni wrony, ani nic!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="never">Nie rozszarpią na sztuki<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Poezji wściekłe kły! <ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="true">Nie rozdzi<ch a="D"/>obią nas kr<ch a="G0"/>uki, <ch a="h"/><ch a="G"/></row>
+			<row important_over="true">Ni wr<ch a="Fis"/>ony, <ch a="e"/>ani n<ch a="A7/4"/>ic!</row>
+			<row important_over="true">Nie rozsz<ch a="D"/>arpią na szt<ch a="G0"/>uki <ch a="h"/><ch a="G"/></row>
+			<row important_over="true">Po<ch a="D"/>ezji wści<ch a="A"/>ekłe kł<ch a="G"/>y!</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Ruszaj się Bruno, idziemy na piwo;<ch a="Fis"/><ch a="h"/></row>
-			<row important_over="never">Niechybnie brakuje tam nas!<ch a="G"/><ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Od stania w miejscu niejeden już zginął,<ch a="Fis"/><ch a="h"/></row>
-			<row important_over="never">Niejeden zginął już kwiat! <ch a="G"/><ch a="D"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Ruszaj się, Br<ch a="Fis"/>uno, idziemy na p<ch a="h"/>iwo,</row>
+			<row important_over="true">Niech<ch a="G"/>ybnie brak<ch a="D"/>uje tam n<ch a="A"/>as!</row>
+			<row important_over="true">Od stania w mi<ch a="Fis"/>ejscu niejeden już zg<ch a="h"/>inął,</row>
+			<row important_over="true">Niej<ch a="G"/>eden zg<ch a="D"/>inął już kw<ch a="A"/>iat! <ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Nie omami nas forsa<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Ni sławy pusty dźwięk!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="never">Inną ścigamy postać:<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Realnej zjawy tren!<ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="false">Nie om<ch a="D"/>ami nas f<ch a="G0"/>orsa, <ch a="h"/><ch a="G"/></row>
+			<row important_over="false">Ni sł<ch a="Fis"/>awy p<ch a="e"/>usty dźwi<ch a="A7/4"/>ęk!</row>
+			<row important_over="false">Inną ści<ch a="D"/>ągamy post<ch a="G0"/>ać: <ch a="h"/><ch a="G"/></row>
+			<row important_over="false">Re<ch a="D"/>alnej zj<ch a="A"/>awy tr<ch a="G"/>en!</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Nie zdechniemy tak szybko,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Jak sobie roi śmierć!<ch a="Fis"/><ch a="e"/><ch a="A7/4"/></row>
-			<row important_over="never">Ziemia dla nas za płytka,<ch a="D"/><ch a="G0"/><ch a="h"/><ch a="G"/></row>
-			<row important_over="never">Fruniemy w góry gdzieś! <ch a="D"/><ch a="A"/><ch a="G"/></row>
+			<row important_over="false">Nie zdechni<ch a="D"/>emy tak sz<ch a="G0"/>ybko, <ch a="h"/><ch a="G"/></row>
+			<row important_over="false">Jak s<ch a="Fis"/>obie r<ch a="e"/>oi śmi<ch a="A7/4"/>erć!</row>
+			<row important_over="false">Ziemia dl<ch a="D"/>a nas za pł<ch a="G0"/>ytka, <ch a="h"/><ch a="G"/></row>
+			<row important_over="false">Fruni<ch a="D"/>emy w g<ch a="A"/>óry gdzi<ch a="G"/>eś!</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	
-	
-	
-	
-	
-	
-	
 	<music metre="2/2">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album>Dolina w długich cieniach</album>
+	<keywords/>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
 			<authors/>
+			<chords>nedan</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>Stare Dobre Małżeństwo - Dolina w długich cieniach (1995)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/nie-rozdziobia-nas-kruki</verificator>
+			<verificator>Edward Stachura, Poezje wybrane</verificator>
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
