@@ -1,47 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zawirował świat">
-  <alias/>
-  <text_author>Krzysztof Myszkowski</text_author>
-  <comment/>
+  <alias>Chmury skłębione niosą mrozy i śnieg</alias>
+  <text_author type="solo">Krzysztof Myszkowski</text_author>
+  <comment>Piosenka z albumu „Czarny blues o czwartej nad ranem” (1992) zespołu Stare Dobre Małżeństwo.</comment>
   <composer type="solo">Krzysztof Myszkowski</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Chmury skłębione niosą mrozy i śnieg<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Wiatr gwiżdże w nieszczelnych futrynach<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Kolejny raz pociąg spóźnia się<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Znak że znowu zaczyna się zima<ch a="D"/></row>
+      <row important_over="true">Chmury skłębione niosą <ch a="D"/>mrozy i śnieg, <ch a="e"/></row>
+      <row important_over="true"><ch a="G"/>Wiatr gwiżdże w nieszczelnych futry<ch a="D"/>nach.</row>
+      <row important_over="false">Ko<ch a="D"/>lejny raz pociąg <ch a="e"/>spóźnia się, <ch a="G"/></row>
+      <row important_over="false">Znak, że znowu zaczyna się <ch a="D"/>zima.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="D"/>Uuuuu… zawirował świat<ch a="e"/></row>
-        <row important_over="never"><ch a="G"/>Jak płatki śniegu na dworze<ch a="D"/></row>
-        <row important_over="never"><ch a="D"/>Stare wspomnienia odżyły znów<ch a="e"/></row>
-        <row important_over="never"><ch a="G"/>Niewiele nam to jednak pomoże<ch a="D"/></row>
+        <row important_over="true"><ch a="D"/>Uuu... zawi<ch a="e"/>rował świat, <ch a="G"/></row>
+        <row important_over="true">Jak płatki śniegu na dwo<ch a="D"/>rze.</row>
+        <row important_over="false"><ch a="D"/>Stare wspomnienia od<ch a="e"/>żyły znów, <ch a="G"/></row>
+        <row important_over="false">Nie<ch a="G"/>wiele nam to jednak po<ch a="D"/>może.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Królowa śniegu srebrnym welonem swym<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Przykryła prawie świat cały<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Wystawić nos poza domu próg<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>To wyczyn nie lada śmiały<ch a="D"/></row>
+      <row important_over="false">Królowa śniegu srebrnym <ch a="D"/>welonem swym <ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Przykryła prawie świat <ch a="D"/>cały,</row>
+      <row important_over="false">Wy<ch a="D"/>stawić nos poza <ch a="e"/>domu próg, <ch a="G"/></row>
+      <row important_over="false">To wyczyn nie lada <ch a="D"/>śmiały.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Szare poranki i krótkie dni<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Każde z nas ma dziś tylko dla siebie<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Tysiąc listów stawił pieca żar<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>W tym dwieście pięćdziesiąt od Ciebie<ch a="D"/></row>
+      <row important_over="false">Szare poranki i <ch a="D"/>krótkie dni, <ch a="e"/></row>
+      <row important_over="false"><ch a="G"/>Każde z nas ma dziś tylko dla <ch a="D"/>siebie,</row>
+      <row important_over="false"><ch a="D"/>Tysiąc listów strawił <ch a="e"/>pieca żar, <ch a="G"/></row>
+      <row important_over="false">W tym dwieście pięćdziesiąt od <ch a="D"/>Ciebie.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Czarny blues o czwartej nad ranem</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/zawirowal-swiat</verificator>
+    </verificators>
   </status>
 </song>
