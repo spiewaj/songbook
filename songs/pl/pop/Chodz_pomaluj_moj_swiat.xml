@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chodź pomaluj mój świat">
-	<artist type="band">Dwa Plus Jeden</artist>
+	<alias>Piszesz mi w liście, że kiedy pada</alias>
+	<text_author type="solo">Marek Dutkiewicz</text_author>
+	<comment>Przebój zespołu 2 plus 1 wydany na debiutanckim albumie „Nowy wspaniały świat” (1972).</comment>
+	<composer type="solo">Janusz Kruk</composer>
+	<artist type="band">2 plus 1</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Piszesz mi w liście, że kiedy pada<ch a="a"/><ch a="d"/></row>
-			<row important_over="never">Kiedy nasturcje na deszczu mokną<ch a="G"/><ch a="a"/></row>
-			<row important_over="never">Siadasz przy stole, wyjmujesz farby<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">I kolorowe otwierasz okno<ch a="d"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="true">P<ch a="a"/>iszesz mi w liście, że kiedy p<ch a="d"/>ada,</row>
+			<row important_over="true">ki<ch a="G"/>edy nasturcje na deszczu m<ch a="a"/>okną,</row>
+			<row important_over="true">si<ch a="C"/>adasz przy stole, wyjmujesz f<ch a="G"/>arby</row>
+			<row important_over="true">i k<ch a="d"/>olor<ch a="E"/>owe otwierasz <ch a="a"/>okno.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Trawa i drzewa są takie szare</row>
-			<row important_over="never">Barwę popiołu przybrało niebo</row>
-			<row important_over="never">W ciszy tak smutno szepce zegarek</row>
-			<row important_over="never">O czasie co mi go wcale nie trzeba</row>
+			<row important_over="false">Tr<ch a="a"/>awa i drzewa są takie sz<ch a="d"/>are,</row>
+			<row important_over="false">b<ch a="G"/>arwę popiołu przybrało ni<ch a="a"/>ebo,</row>
+			<row important_over="false">w c<ch a="C"/>iszy tak smutno szepce zeg<ch a="G"/>arek</row>
+			<row important_over="false">o cz<ch a="d"/>asie, c<ch a="E"/>o mi go wcale nie trz<ch a="a"/>eba.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Więc chodź pomaluj mi świat<ch a="C"/><ch a="d"/></row>
-			<row important_over="never">Na żółto i na niebiesko<ch a="F"/><ch a="C"/></row>
-			<row important_over="never">Niech na niebie stanie tęcza malowana twoja kredką<ch a="C"/><ch a="d"/><ch a="F"/><ch a="(G)"/></row>
+			<row important_over="true">Więc ch<ch a="C"/>odź, pomaluj mój świ<ch a="d"/>at</row>
+			<row important_over="true">na ż<ch a="F"/>ółto i na niebi<ch a="C"/>esko,</row>
+			<row important_over="true">niech n<ch a="C"/>a niebie stanie tęcza malow<ch a="d"/>ana twoją kr<ch a="F"/>edk<ch a="G"/>ą.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Więc chodź pomaluj mi życie</row>
-			<row important_over="never">Niech świat mój się zarumieni</row>
-			<row important_over="never">Niech na niebie zalśni tęcza kolorami całej ziemi</row>
+			<row important_over="false">Więc ch<ch a="C"/>odź, pomaluj mi życi<ch a="d"/>e,</row>
+			<row important_over="false">niech świ<ch a="F"/>at mój się zarumi<ch a="C"/>eni,</row>
+			<row important_over="false">niech n<ch a="C"/>a niebie zalśni tęcza kolor<ch a="d"/>ami całej zi<ch a="F"/>em<ch a="G"/>i.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Za siódmą górą i siódmą rzeka</row>
-			<row important_over="never">Swoje sny zamieniasz na pejzaże</row>
-			<row important_over="never">Niebem się wlecze wyblakłe słońce</row>
-			<row important_over="never">Oświetla ludzkie wyblakłe twarze</row>
+			<row important_over="false">Z<ch a="a"/>a siódmą górą i siódmą rz<ch a="d"/>eką</row>
+			<row important_over="false">sw<ch a="G"/>oje sny zamieniasz na pejz<ch a="a"/>aże,</row>
+			<row important_over="false">ni<ch a="C"/>ebem się wlecze wyblakłe sł<ch a="G"/>ońce,</row>
+			<row important_over="false">ośw<ch a="d"/>ietla l<ch a="E"/>udzkie wyblakłe tw<ch a="a"/>arze.</row>
 		</block>
+		<blocklink blocknb="3"/>
+		<blocklink blocknb="4"/>
 	</lyric>
-	<keywords/>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Nowy wspaniały świat</album>
+	<genre>pop</genre>
 	<status>
 		<done>
 			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Krzysiek Cz.</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Chodz_pomaluj_moj_swiat/tekst</verificator>
+			<verificator>https://spiewnik.wywrota.pl/dwa-plus-jeden/chodz-pomaluj-moj-swiat</verificator>
 		</verificators>
 	</status>
 </song>
