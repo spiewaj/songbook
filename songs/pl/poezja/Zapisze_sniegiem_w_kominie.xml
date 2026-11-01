@@ -1,43 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zapiszę śniegiem w kominie">
+	<alias/>
+	<text_author type="solo">Robert Kasprzycki</text_author>
+	<comment/>
+	<composer type="solo">Robert Kasprzycki</composer>
 	<artist type="solo">Robert Kasprzycki</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">A jeśli zabraknie na koncie pieniędzy<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">I w kącie zagnieździ się bieda<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="never">Po rozum do głowy pobiegnę niech powie<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Co sprzedać by siebie nie sprzedać<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="true"><ch a="G"/>A jeśli za<ch a="D"/>braknie na <ch a="C"/>koncie pie<ch a="G"/>niędzy</row>
+			<row important_over="true">I w <ch a="G"/>kącie za<ch a="D"/>gnieździ się <ch a="C"/>bieda,</row>
+			<row important_over="true">Po <ch a="G"/>rozum do <ch a="D"/>głowy po<ch a="C"/>biegnę, niech <ch a="G"/>powie,</row>
+			<row important_over="true">Co <ch a="G"/>sprzedać, by <ch a="D"/>siebie nie <ch a="C"/>sprzedać.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Zaplotę z dymu warkoczyk<ch a="e"/><ch a="D"/></row>
-			<row important_over="never">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Zapiszę śniegiem w kominie<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Warkoczyk z dymu zaplotę <ch a="D"/></row>
-			<row important_over="never">I zanim zima z gór spłynie - wrócę<ch a="C"/><ch a="G"/><ch a="D"/></row>
-			<row important_over="never">I będę z powrotem…<ch a="C"/><ch a="G"/></row>
+			<row important_over="true"><ch a="G"/>Zapiszę <ch a="D"/>śniegiem w kominie,</row>
+			<row important_over="true"><ch a="e"/>Zaplotę z <ch a="D"/>dymu warkoczyk,</row>
+			<row important_over="true">I <ch a="C"/>zanim <ch a="G"/>zima z gór spłynie – <ch a="D"/>wrócę.</row>
+			<row important_over="false"><ch a="G"/>Zapiszę <ch a="D"/>śniegiem w kominie,</row>
+			<row important_over="false"><ch a="e"/>Warkoczyk z <ch a="D"/>dymu zaplotę,</row>
+			<row important_over="false">I <ch a="C"/>zanim <ch a="G"/>zima z gór spłynie – <ch a="D"/>wrócę</row>
+			<row important_over="true">I <ch a="C"/>będę z po<ch a="G"/>wrotem…</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A jeśli nie znajdę w swej głowie rozumu<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">To paszport odnajdę w szufladzie<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="never">Zapytam go może on pewnie pomoże<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Poradzi jak sobie poradzić<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>A jeśli nie <ch a="D"/>znajdę w swej <ch a="C"/>głowie ro<ch a="G"/>zumu,</row>
+			<row important_over="false">To <ch a="G"/>paszport od<ch a="D"/>najdę w szu<ch a="C"/>fladzie,</row>
+			<row important_over="false"><ch a="G"/>Zapytam go, <ch a="D"/>może on <ch a="C"/>pewnie po<ch a="G"/>może,</row>
+			<row important_over="false">Po<ch a="G"/>radzi, jak <ch a="D"/>sobie po<ch a="C"/>radzić.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">A jeśli zabraknie Ci w sercu nadziei<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Bo powrót jest zawsze daleko<ch a="G"/><ch a="D"/><ch a="C"/></row>
-			<row important_over="never">Przypomnij te słowa wyśpiewaj od nowa<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Bym wiedział, że ktoś na mnie czeka<ch a="G"/><ch a="D"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>A jeśli za<ch a="D"/>braknie Ci <ch a="C"/>w sercu na<ch a="G"/>dziei,</row>
+			<row important_over="false">Bo <ch a="G"/>powrót jest <ch a="D"/>zawsze da<ch a="C"/>leko,</row>
+			<row important_over="false">Przy<ch a="G"/>pomnij te <ch a="D"/>słowa, wy<ch a="C"/>śpiewaj od <ch a="G"/>nowa,</row>
+			<row important_over="false">Bym <ch a="G"/>wiedział, że <ch a="D"/>ktoś na mnie <ch a="C"/>czeka.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<keywords/>
-	<genre>Poezja śpiewana</genre>
+	<album>Niebo do wynajęcia</album>
+	<genre>poezja śpiewana</genre>
 	<status>
-		<done/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
 		<verificators>
 			<verificator>Krzysiek Cz.</verificator>
+			<verificator>https://spiewnik.wywrota.pl/robert-kasprzycki/zapisze-sniegiem-w-kominie</verificator>
 		</verificators>
 	</status>
 </song>
