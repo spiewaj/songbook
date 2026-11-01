@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Niebo do wynajęcia">
 	<artist type="solo">Robert Kasprzycki</artist>
-	<comment/>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Na tabl<ch a="e7"/>icy ogłoszeń pod hasłem lokale</row>
-			<row important_over="never">Przeczytałem przedwczoraj ogłoszenie ciekawe.</row>
+			<row important_over="true">Przeczy<ch a="e7"/>tałem przedwczoraj ogłoszenie ciekawe,</row>
 			<row important_over="true">Na tabl<ch a="a7"/>icy ogłoszeń fioletowym flamastrem</row>
-			<row important_over="never">Ktoś nabazgrał słów kilka, dziwna była ich treść:</row>
-		</block>
-		<block type="other">
-			<row important_over="false" style="instr">
-				<ch a="D"/><ch a="h7"/><ch a="e7"/><ch a="D"/><ch a="h7"/><ch a="e7"/></row>
+			<row important_over="true">Ktoś na<ch a="e7"/>bazgrał słów kilka, dziwna była ich treść:</row>
 		</block>
 		<block type="chorus">
+			<row important_over="true"><ch a="D"/>Niebo do <ch a="h7"/>wynaj<ch a="e7"/>ęcia,</row>
+			<row important_over="true"><ch a="D"/>niebo z wi<ch a="h7"/>dokiem na <ch a="e7"/>raj.</row>
 			<row important_over="true">Tam, gdzie <ch a="D"/>spokój jest święty<ch a="A"/>, no, bo<ch a="h7"/> święci są p<ch a="fis"/>ańscy<ch a="e7"/>,</row>
-			<row important_over="never">Szklanką ciepłej herbaty poczęstuje cię pan.</row>
+			<row important_over="true"><ch a="D"/>Szklanką ciepłej her<ch a="h7"/>baty poczęstuje cię <ch a="e7"/>Pan.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Pomyślałem to świetnie - takie niebo na ziemi,</row>
-			<row important_over="never">Grzechów nikt nie przelicza nikt nie szpera w szufladzie.</row>
+			<row important_over="never">Pomyślałem: to świetnie – takie niebo na ziemi,</row>
+			<row important_over="never">Grzechów nikt nie przelicza, nikt nie szpera w szufladzie.</row>
 			<row important_over="never">Pomyślałem: to świetnie i spojrzałem na adres,</row>
-			<row important_over="never">Lecz deszcz rozmył litery i już nie wiem gdzie jest…</row>
+			<row important_over="never">Lecz deszcz rozmył litery i już nie wiem, gdzie jest…</row>
 		</block>
-		<blocklink blocknb="3"/>
+		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="never">Gdy wróciłem do domu, gdzie się błękit z betonem splata</row>
-			<row important_over="never">W Babel wysoki sięgający do chmur,</row>
+			<row important_over="never">W Babel wysoki, sięgający do chmur,</row>
 			<row important_over="never">Zaparzyłem herbatę w swym pokoju nad światem, myśląc:</row>
-			<row important_over="never">Nic nie straciłem, pewnie tak jest i tam</row>
+			<row important_over="never">Nic nie straciłem, pewnie tak jest i tam.</row>
 		</block>
-		<blocklink blocknb="3"/>
-		<block type="verse">
-			<row important_over="never">Niebo do wynajęcia, niebo z widokiem na raj.</row>
+		<blocklink blocknb="2"/>
+		<block type="other">
+			<row important_over="true"><ch a="D"/>Niebo do <ch a="h7"/>wynaj<ch a="e7"/>ęcia, <ch a="D"/>niebo z wi<ch a="h7"/>dokiem na <ch a="e7"/>raj.</row>
 			<row important_over="never">Niebo do wynajęcia, niebo z widokiem na raj.</row>
 			<row important_over="never">Niebo do wynajęcia, niebo z widokiem na raj.</row>
 			<row important_over="never">Niebo do wynajęcia, niebo…</row>
-			<row important_over="true"><ch a="E"/>Niebo<ch a="cis7"/> do wynaj<ch a="fis7"/>ęcia, <ch a="E"/>niebo<ch a="cis7"/> z widokiem na r<ch a="fis7"/>aj.</row>
+			<row important_over="true"><ch a="E"/>Niebo do <ch a="cis7"/>wynaj<ch a="fis7"/>ęcia, <ch a="E"/>niebo z wi<ch a="cis7"/>dokiem na <ch a="fis7"/>raj.</row>
 			<row important_over="never">Niebo do wynajęcia, niebo…</row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar/>
 	</music>
 	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/robert-kasprzycki/niebo-do-wynajecia</verificator>
+			<verificator>https://bibliotekapiosenki.pl/osoby/Kasprzycki_Robert</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
+	<text_author type="solo">Robert Kasprzycki</text_author>
+	<composer type="solo">Robert Kasprzycki</composer>
+	<album>Niebo do wynajęcia</album>
+	<genre>poezja śpiewana</genre>
 </song>
