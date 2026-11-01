@@ -1,78 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na Mazury">
-  <text_author type="solo">&quot;Lucjusz&quot; Michał Kowalczyk</text_author>
-  <composer type="solo">&quot;Lucjusz&quot; Michał Kowalczyk</composer>
+  <alias>Siemasz, witam cię, piękną sprawę mam</alias>
+  <text_author type="solo">Lucjusz Michał Kowalczyk</text_author>
+  <comment>Popularna mazurska piosenka żeglarska zespołu Spinakery, autorstwa Lucjusza Michała Kowalczyka.</comment>
+  <composer type="solo">Lucjusz Michał Kowalczyk</composer>
   <artist type="band">Spinakery</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Się masz witam Cię<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Piękną sprawę mam<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Pakuj bety swe<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>I jedź ze mną tam<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Rzuć kłopotów stos<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>No nie wykręcaj się<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Całuj wszystko w nos<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Osobowym drugą klasą</row>
-      <row important_over="never"><ch a="G"/>Przejedziemy się</row>
+      <row important_over="true"><ch a="C"/>Siemasz, witam <ch a="G"/>cię, piękną sprawę <ch a="C"/>mam,</row>
+      <row important_over="true"><ch a="C"/>Pakuj bety <ch a="G"/>swe i jedź ze mną <ch a="C"/>tam,</row>
+      <row important_over="true"><ch a="F"/>Rzuć kłopotów <ch a="C"/>stos, no <ch a="G"/>nie wykręcaj <ch a="C"/>się,</row>
+      <row important_over="true"><ch a="F"/>Całuj wszystko <ch a="C"/>w nos –</row>
+      <row important_over="true">Oso<ch a="G"/>bowym drugą klasą przejedziemy się.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Na Mazury Mazury Mazury<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Popływamy tą łajbą z tektury<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Na Mazury gdzie wiatr silny wieje<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Gdzie są ryby i grzyby i knieje<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Tam gdzie fale nas bujają<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Gdzie się ludzie opalają<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Wschody słońca piękne są<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I komary w dupę tną<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Gdzie przy ogniu gra muzyka<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I gorzała w gardle znika<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Pan leśniczy nie wiadomo skąd<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Woła do nas poszła won<ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Na Mazury, <ch a="F"/>Mazury, <ch a="C"/>Mazury,</row>
+      <row important_over="true">Po<ch a="C"/>pływamy tą <ch a="G"/>łajbą z tek<ch a="C"/>tury,</row>
+      <row important_over="true"><ch a="C"/>Na Mazury, gdzie <ch a="F"/>wiatr silny <ch a="C"/>wieje,</row>
+      <row important_over="true">Gdzie <ch a="C"/>są ryby i <ch a="G"/>grzyby, i <ch a="C"/>knieje!</row>
+      <row important_over="true"><ch a="F"/>Tam, gdzie fale <ch a="C"/>nas bujają,</row>
+      <row important_over="true"><ch a="G"/>Gdzie się ludzie <ch a="C"/>opalają,</row>
+      <row important_over="true"><ch a="F"/>Wschody słońca <ch a="C"/>piękne są</row>
+      <row important_over="true"><ch a="G"/>I komary w dupę <ch a="C"/>tną!</row>
+      <row important_over="true"><ch a="F"/>Gdzie przy ogniu <ch a="C"/>gra muzyka</row>
+      <row important_over="true"><ch a="G"/>I gorzała <ch a="C"/>w gardle znika,</row>
+      <row important_over="true"><ch a="F"/>Pan leśniczy <ch a="C"/>nie wiadomo skąd</row>
+      <row important_over="true"><ch a="G"/>Woła do nas: „Poszła <ch a="C"/>won!”.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Uszczelniłem dno<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Lekko chodzi miecz<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Węzy[?] smrodów sto<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Przewietrzyłem przecz<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Ster nie spada już<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I grot luzuje się<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Więc się ze mną rusz<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Już nie będzie tak jak wtedy</row>
-      <row important_over="never"><ch a="G"/>Nie denerwuj się</row>
+      <row important_over="false">Usz<ch a="C"/>czelniłem <ch a="G"/>dno, lekko chodzi <ch a="C"/>miecz,</row>
+      <row important_over="false"><ch a="C"/>Zęzy smrodów <ch a="G"/>sto przewietrzyłem <ch a="C"/>precz,</row>
+      <row important_over="false"><ch a="F"/>Ster nie spada <ch a="C"/>już i <ch a="G"/>grot luzuje <ch a="C"/>się,</row>
+      <row important_over="false"><ch a="F"/>Więc się ze mną <ch a="C"/>rusz –</row>
+      <row important_over="false">Już nie <ch a="G"/>będzie tak jak wtedy, nie denerwuj się.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Skrzynkę piwa mam<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Ty otwieracz weź<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Napić Ci się dam<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Tylko mi ją nieś<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Coś rozdziawił dziób<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I masz głupi wzrok<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>No nie stój jak ten słup<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Z Węgorzewa na Ruciane</row>
-      <row important_over="never"><ch a="G"/>Wykonamy skok</row>
+      <row important_over="false"><ch a="C"/>Skrzynkę piwa <ch a="G"/>mam, ty otwieracz <ch a="C"/>weź,</row>
+      <row important_over="false"><ch a="C"/>Napić ci się <ch a="G"/>dam, tylko mi ją <ch a="C"/>nieś,</row>
+      <row important_over="false"><ch a="F"/>Coś rozdziawił <ch a="C"/>dziób i <ch a="G"/>masz głupi <ch a="C"/>wzrok?</row>
+      <row important_over="false"><ch a="F"/>No nie stój jak ten <ch a="C"/>słup –</row>
+      <row important_over="false">Z Węgo<ch a="G"/>rzewa na Ruciane wykonamy skok!</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Na Mazury Mazury Mazury<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Popływamy tą łajbą z tektury<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Na Mazury gdzie wiatr silny wieje<ch a="F"/><ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>Gdzie są ryby i grzyby i knieje<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Tam gdzie fale nas bujają<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Gdzie się ludzie opalają<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Wschody słońca piękne są<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I komary w dupę tną<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Gdzie przy ogniu gra muzyka<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>I gorzała w gardle znika<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Pan leśniczy nie wiadomo skąd<ch a="C"/></row>
-      <row important_over="never"><ch a="G"/>Woła do nas dzień dobry żeglarze<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Na Mazury, <ch a="F"/>Mazury, <ch a="C"/>Mazury,</row>
+      <row important_over="false">Po<ch a="C"/>pływamy tą <ch a="G"/>łajbą z tek<ch a="C"/>tury,</row>
+      <row important_over="false"><ch a="C"/>Na Mazury, gdzie <ch a="F"/>wiatr silny <ch a="C"/>wieje,</row>
+      <row important_over="false">Gdzie <ch a="C"/>są ryby i <ch a="G"/>grzyby, i <ch a="C"/>knieje!</row>
+      <row important_over="false"><ch a="F"/>Tam, gdzie fale <ch a="C"/>nas bujają,</row>
+      <row important_over="false"><ch a="G"/>Gdzie się ludzie <ch a="C"/>opalają,</row>
+      <row important_over="false"><ch a="F"/>Wschody słońca <ch a="C"/>piękne są</row>
+      <row important_over="false"><ch a="G"/>I komary w dupę <ch a="C"/>tną!</row>
+      <row important_over="false"><ch a="F"/>Gdzie przy ogniu <ch a="C"/>gra muzyka</row>
+      <row important_over="false"><ch a="G"/>I gorzała <ch a="C"/>w gardle znika,</row>
+      <row important_over="false"><ch a="F"/>Pan leśniczy <ch a="C"/>nie wiadomo skąd</row>
+      <row important_over="false"><ch a="G"/>Woła do nas: „Dzień dobry, <ch a="C"/>żeglarze!”.</row>
     </block>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
-  <keywords/>
+  <genre>szanta</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/spinakery/na-mazury</verificator>
+    </verificators>
   </status>
 </song>
