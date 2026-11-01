@@ -1,68 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jestem mały miś">
-  <alias/>
-  <text_author>Georges Brassens</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Nigdy w życiu mym nie umiałem zdjąć<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Czapki przed nikim<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>A teraz na twarz na kolana ryms<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Przed jej bucikiem<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Byłem wściekłym psem ona uczy mnie<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Jak jeść z jej rączki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Miałem wilcze kły zamieniłem je<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Na mleczne ząbki<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="a"/>Jestem mały miś własność lali tej<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Co palec ssie kiedy zasypia<ch a="G"/><ch a="C"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Jestem mały miś własność lali tej<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Co mamy chce gdy jej dotykam<ch a="G"/><ch a="C"/><ch a="E"/><ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Byłem twardy drań ona sprawia że<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Jak z makiem kluska<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Smaczny, słodki, ciepluteńki wciąż<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Wpadam w jej usta<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Mleczne ząbki ma kiedy śmieje się<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>I kiedy śpiewa<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Lecz ma wilcze kły gdy jest na mnie zła<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>I gdy się gniewa<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Siedzę w kącie mym i cichutko łkam<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Pod jej pantoflem<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Kiedy wścieka się choć powodów brak<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Bo jest zazdrosna<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Pewien śliczny kwiat wydał mi się raz<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Ładniejszy od niej<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Pewien śliczny kwiat zginąć musiał więc<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Pod jej pantoflem<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Wszyscy mędrcy wciąż wykrzykują mi<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Że w jej ramionach<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Gdy skrzyżują się i oplotą mnie<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Niechybnie skonam<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Może będzie tak może będzie siak<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>Ale dość krzyków<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-      <row important_over="never"><ch a="a"/>Jeśli zginąć mam jeśli wisieć mam<ch a="d6"/></row>
-      <row important_over="never"><ch a="F"/>To na jej krzyżu<ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias/>
+	<text_author type="solo">Georges Brassens</text_author>
+	<comment>Oryginalna piosenka Georgesa Brassensa «Je me suis fait tout petit» (1956) w przekładzie Jarosława Gugały (Zespół Reprezentacyjny).</comment>
+	<composer type="solo">Georges Brassens</composer>
+	<artist type="band">Zespół Reprezentacyjny</artist>
+	<translator>Jarosław Gugała</translator>
+	<original_title>Je me suis fait tout petit</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">N<ch a="a"/>igdy w życiu mym nie umi<ch a="d6"/>ałem zdjąć</row>
+			<row important_over="true">cz<ch a="F"/>apki prz<ch a="E"/>ed nik<ch a="a"/>ik<ch a="F"/>im, <ch a="E"/></row>
+			<row important_over="true">a t<ch a="a"/>eraz na twarz, na kol<ch a="d6"/>ana ryms</row>
+			<row important_over="true">prz<ch a="F"/>ed jej b<ch a="E"/>ucik<ch a="a"/>ie<ch a="F"/>m. <ch a="E"/></row>
+			<row important_over="true">B<ch a="a"/>yłem wściekłym psem, ona <ch a="d6"/>uczy mnie,</row>
+			<row important_over="true">j<ch a="F"/>ak jeść z j<ch a="E"/>ej rączk<ch a="a"/>i, <ch a="F"/><ch a="E"/></row>
+			<row important_over="true">mi<ch a="a"/>ałem wilcze kły, zami<ch a="d6"/>eniłem je</row>
+			<row important_over="true">n<ch a="F"/>a mleczn<ch a="E"/>e ząbk<ch a="a"/>i. <ch a="F"/><ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">J<ch a="a"/>estem mały miś, własność lali tej, <ch a="H"/><ch a="E"/></row>
+			<row important_over="true">co p<ch a="a"/>alec ssie, kiedy zas<ch a="G"/>ypia, <ch a="C"/><ch a="E"/></row>
+			<row important_over="true">j<ch a="a"/>estem mały miś, własność lali tej, <ch a="H"/><ch a="E"/></row>
+			<row important_over="true">co m<ch a="a"/>amy chce, gdy jej dot<ch a="G"/>ykam. <ch a="C"/><ch a="E"/><ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">B<ch a="a"/>yłem twardy drań, ona spr<ch a="d6"/>awia, że</row>
+			<row important_over="false">j<ch a="F"/>ak z maki<ch a="E"/>em klusk<ch a="a"/>a, <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">sm<ch a="a"/>aczny, słodki, ciepluteńki wci<ch a="d6"/>ąż</row>
+			<row important_over="false">wp<ch a="F"/>adam w j<ch a="E"/>ej ust<ch a="a"/>a. <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Ml<ch a="a"/>eczne ząbki ma, kiedy śmi<ch a="d6"/>eje się</row>
+			<row important_over="false">i ki<ch a="F"/>edy śpi<ch a="E"/>ew<ch a="a"/>a, <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">l<ch a="a"/>ecz ma wilcze kły, gdy jest n<ch a="d6"/>a mnie zła</row>
+			<row important_over="false">i gd<ch a="F"/>y się gni<ch a="E"/>ew<ch a="a"/>a. <ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Si<ch a="a"/>edzę w kącie mym i cich<ch a="d6"/>utko łkam</row>
+			<row important_over="false">p<ch a="F"/>od jej pant<ch a="E"/>ofl<ch a="a"/>em, <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">ki<ch a="a"/>edy wścieka się, choć pow<ch a="d6"/>odów brak,</row>
+			<row important_over="false">b<ch a="F"/>o jest zazdr<ch a="E"/>osn<ch a="a"/>a. <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">P<ch a="a"/>ewien śliczny kwiat wydał m<ch a="d6"/>i się raz</row>
+			<row important_over="false">ł<ch a="F"/>adniejsz<ch a="E"/>y od ni<ch a="a"/>ej, <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">p<ch a="a"/>ewien śliczny kwiat zginąć m<ch a="d6"/>usiał więc</row>
+			<row important_over="false">p<ch a="F"/>od jej pant<ch a="E"/>ofl<ch a="a"/>em. <ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Wsz<ch a="a"/>yscy mędrcy wciąż wykrzyk<ch a="d6"/>ują mi,</row>
+			<row important_over="false">ż<ch a="F"/>e w jej rami<ch a="E"/>on<ch a="a"/>ach, <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">gdy skrzyż<ch a="a"/>ują się i opl<ch a="d6"/>otą mnie,</row>
+			<row important_over="false">ni<ch a="F"/>echybni<ch a="E"/>e skon<ch a="a"/>am. <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">M<ch a="a"/>oże będzie tak, może b<ch a="d6"/>ędzie siak,</row>
+			<row important_over="false">al<ch a="F"/>e dość krz<ch a="E"/>yk<ch a="a"/>ów: <ch a="F"/><ch a="E"/></row>
+			<row important_over="false">j<ch a="a"/>eśli zginąć mam, jeśli wisi<ch a="d6"/>eć mam,</row>
+			<row important_over="false">t<ch a="F"/>o na jej krz<ch a="E"/>yż<ch a="a"/>u! <ch a="F"/><ch a="E"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Pornograf</album>
+	<genre>Piosenka autorska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Georges Brassens – «Je me suis fait tout petit» (1956)</verificator>
+			<verificator>Jarosław Gugała (przekład)</verificator>
+			<verificator>Zespół Reprezentacyjny – album „Pornograf” (1993)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/zespol-reprezentacyjny/jestem-maly-mis</verificator>
+		</verificators>
+		<to_do/>
+	</status>
+	<music_source/>
 </song>
