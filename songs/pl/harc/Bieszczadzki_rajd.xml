@@ -15,24 +15,24 @@
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true">R<ch a="C"/>ajd, r<ch a="a"/>ajd, bi<ch a="D"/>eszczadzki r<ch a="G"/>ajd,</row>
-				<row>C<ch a="C"/>zy to w sł<ch a="a"/>ońce, c<ch a="D"/>zy to w d<ch a="G"/>eszcz,</row>
+				<row important_over="false">C<ch a="C"/>zy to w sł<ch a="a"/>ońce, c<ch a="D"/>zy to w d<ch a="G"/>eszcz,</row>
 				<row important_over="true"><ch a="C"/>Idziesz z n<ch a="C7"/>ami, pr<ch a="F"/>zyjaci<ch a="f"/>elu,</row>
 				<row important_over="true">B<ch a="C"/>o s<ch a="G"/>am chc<ch a="C"/>esz. <ch a="G7"/></row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">Każdy harcerz przeżyć chce ten bieszczadzki rajd,</row>
-			<row important_over="never">Aby wzmocnić swoje siły, jemy dużo pajd.</row>
+			<row important_over="false">K<ch a="C"/>ażdy h<ch a="a"/>arcerz prz<ch a="D"/>eżyć ch<ch a="G"/>ce ten bi<ch a="C"/>eszcz<ch a="a"/>adzki r<ch a="D"/>ajd,<ch a="G"/></row>
+			<row important_over="false">A<ch a="C"/>by wzm<ch a="C7"/>ocnić sw<ch a="F"/>oje s<ch a="f"/>iły, j<ch a="C"/>emy d<ch a="G"/>użo p<ch a="C"/>ajd. <ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Czasem chleba nam brakuje, ale fajno jest,</row>
-			<row important_over="never">Ktoś nas wtedy poratuje, to braterski gest.</row>
+			<row important_over="false">Cz<ch a="C"/>asem chl<ch a="a"/>eba n<ch a="D"/>am brak<ch a="G"/>uje, <ch a="C"/>ale f<ch a="a"/>ajno j<ch a="D"/>est,<ch a="G"/></row>
+			<row important_over="false">Kt<ch a="C"/>oś nas wt<ch a="C7"/>edy p<ch a="F"/>orat<ch a="f"/>uje, t<ch a="C"/>o brat<ch a="G"/>erski g<ch a="C"/>est. <ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Może kiedyś tu za rok wszyscy się spotkamy,</row>
-			<row important_over="never">Obsiądziemy ogień w koło i tak zaśpiewamy.</row>
+			<row important_over="false">M<ch a="C"/>oże ki<ch a="a"/>edyś t<ch a="D"/>u za r<ch a="G"/>ok wsz<ch a="C"/>yscy s<ch a="a"/>ię spotk<ch a="D"/>am<ch a="G"/>y,</row>
+			<row important_over="false">O<ch a="C"/>bsiądz<ch a="C7"/>iemy <ch a="F"/>ogień w k<ch a="f"/>oło <ch a="C"/>i tak z<ch a="G"/>aśpiew<ch a="C"/>amy. <ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
