@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla piosenki">
-  <alias/>
-  <text_author>Edward Stachura</text_author>
-  <comment/>
+  <alias>W zachwycie dziewiczym dzień przebywszy ten</alias>
+  <text_author type="solo">Edward Stachura</text_author>
+  <comment></comment>
   <composer type="solo">Krzysztof Myszkowski</composer>
-  <artist type="solo">Stare Dobre Małżeństwo</artist>
-  <translator/>
-  <original_title/>
+  <artist type="band">Stare Dobre Małżeństwo</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>W zachwycie dziewczyn dzień przebywszy ten<ch a="e"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a7"/>To teraz wędrowcze żeń się z nocką żeń<ch a="c"/><ch a="D"/><ch a="D7"/></row>
+      <row important_over="true">W za<ch a="G"/>chwycie dziewiczym dzień przebywszy <ch a="e"/>ten,<ch a="G"/></row>
+      <row important_over="true">to <ch a="a"/>teraz, wędrowcze, żeń się z nocką, <ch a="C"/>żeń.<ch a="D"/><ch a="D7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Przy nagim ognisku weź wyciągnij się<ch a="e"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a7"/>I miłuj się z ogniem dokładając drew<ch a="C"/><ch a="D"/><ch a="D7"/></row>
+      <row important_over="false">Przy <ch a="G"/>nagim ognisku weź wyciągnij <ch a="e"/>się<ch a="G"/></row>
+      <row important_over="false">i <ch a="a"/>miłuj się z ogniem, dokładając <ch a="C"/>drew.<ch a="D"/><ch a="D7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Już woda w kociołku durli durli wrze<ch a="e"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a7"/>Ach święta wieczerza też cudowna rzecz<ch a="C"/><ch a="D"/><ch a="D7"/></row>
+      <row important_over="false">Już <ch a="G"/>woda w kociołku durli, durli <ch a="e"/>wrze,<ch a="G"/></row>
+      <row important_over="false">ach, <ch a="a"/>święta wieczerza też cudowna <ch a="C"/>rzecz.<ch a="D"/><ch a="D7"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Nad głową wiatr szumi wiecznie nową pieśń<ch a="e"/><ch a="G"/></row>
-      <row important_over="never"><ch a="a7"/>A w tobie cichutko i dlatego wiesz<ch a="c"/><ch a="D"/><ch a="D7"/></row>
-      <row important_over="never"><ch a="C"/>Żeś jej źródłem jest ona twoim też<ch a="D"/><ch a="e"/></row>
+      <row important_over="false">Nad <ch a="G"/>głową wiatr szumi wiecznie nową <ch a="e"/>pieśń,<ch a="G"/></row>
+      <row important_over="false">a <ch a="a"/>w tobie cichutko i dlatego <ch a="C"/>wiesz,<ch a="D"/><ch a="D7"/></row>
+      <row important_over="true">żeś jej źródłem <ch a="C"/>jest,<ch a="D"/> ona twoim <ch a="e"/>też.<ch a="G"/></row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords></keywords>
+  <album>Dla wszystkich starczy miejsca</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
+  <music_source>Album SDM „Dla wszystkich starczy miejsca” (1990); wiersz Edwarda Stachury</music_source>
 </song>
