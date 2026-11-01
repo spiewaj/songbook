@@ -1,53 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jeszcze nie czas">
+	<alias/>
 	<text_author type="solo">Andrzej Koczewski</text_author>
+	<comment>Tekst i muzyka: Andrzej Koczewski (Załoga Grubej Berty). Zgodne z nagraniem (Alek).</comment>
 	<composer type="solo">Andrzej Koczewski</composer>
+	<artist type="solo">Andrzej Koczewski</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Wieczór w granatowym swym płaszczu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="never">Gwiazdy już pozapalał<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="never">Z kątów wyłażą zrudziałe smutki<ch a="a"/><ch a="F"/></row>
-			<row important_over="never">A my gramy na swych gitarach<ch a="F"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">I ciche nutki zbieramy<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="never">By grały nam razem do taktu<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="never">Niebieskie myśli odganiamy<ch a="a"/><ch a="F"/></row>
-			<row important_over="never">Bo przecież jeszcze nie czas<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="true">Wi<ch a="C"/>eczór w granat<ch a="F7+"/>owym swym pł<ch a="C"/>aszczu <ch a="F7+"/></row>
+			<row important_over="true">gw<ch a="C"/>iazdy j<ch a="F7+"/>uż pozap<ch a="C"/>alał, <ch a="e7"/></row>
+			<row important_over="true">z k<ch a="a"/>ątów wyłażą zrudzi<ch a="F"/>ałe smutki,</row>
+			<row important_over="true">a m<ch a="F"/>y gramy n<ch a="C"/>a swych git<ch a="G"/>arach.</row>
+			<row important_over="true">I c<ch a="C"/>iche n<ch a="F7+"/>utki zbi<ch a="C"/>eramy, <ch a="F7+"/></row>
+			<row important_over="true">by gr<ch a="C"/>ały nam r<ch a="F7+"/>azem do t<ch a="C"/>aktu, <ch a="e7"/></row>
+			<row important_over="true">ni<ch a="a"/>ebieskie myśli odg<ch a="F"/>aniamy,</row>
+			<row important_over="true">bo prz<ch a="F"/>ecież j<ch a="C"/>eszcze ni<ch a="G"/>e cz<ch a="C"/>as. <ch a="C7"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Jeszcze nie czas swe marzenia do walizek kłaść<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
-			<row important_over="never">Jeszcze nie czas, by piosenki nasze śpiewał tylko wiatr<ch a="F"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
-			<row important_over="never">Jeszcze nie czas, by gitary spały na dnie szaf<ch a="F"/><ch a="G"/><ch a="C"/><ch a="e7"/><ch a="a"/></row>
-			<row important_over="never">Póki tyle jest muzyki jeszcze w nas<ch a="F"/><ch a="G"/><ch a="F"/><ch a="C"/></row>
+			<row important_over="true">J<ch a="F"/>eszcze nie czas swe marz<ch a="G"/>enia do wal<ch a="C"/>iz<ch a="e7"/>ek kł<ch a="a"/>aść,</row>
+			<row important_over="true">j<ch a="F"/>eszcze nie czas, by pios<ch a="G"/>enki nasze śpi<ch a="C"/>ewał tylko wi<ch a="C7"/>atr,</row>
+			<row important_over="true">j<ch a="F"/>eszcze nie czas, by git<ch a="G"/>ary spały n<ch a="C"/>a dn<ch a="e7"/>ie sz<ch a="a"/>af,</row>
+			<row important_over="true">p<ch a="F"/>óki tyle jest muz<ch a="G"/>yki jeszcze w n<ch a="C"/>as. <ch a="F"/><ch a="C"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A kiedy zabraknie przyjaciół<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="never">By wieczór przegadać do rana<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="never">To przecież masz jeszcze swoją gitarę<ch a="a"/><ch a="F"/></row>
-			<row important_over="never">Strun kilka, melodii parę<ch a="F"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Gdy piasek nie chce się wsypać<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="never">Pod oczy i do snu zaprosić<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="never">To trzeba gdzieś odejść, by dłużej nie płakać<ch a="a"/><ch a="F"/></row>
-			<row important_over="never">I smutku w swym sercu nie nosić<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="false">A ki<ch a="C"/>edy zabr<ch a="F7+"/>aknie przyj<ch a="C"/>aciół, <ch a="F7+"/></row>
+			<row important_over="false">by wi<ch a="C"/>eczór przeg<ch a="F7+"/>adać do r<ch a="C"/>ana, <ch a="e7"/></row>
+			<row important_over="false">to prz<ch a="a"/>ecież masz jeszcze swoją git<ch a="F"/>arę,</row>
+			<row important_over="false">strun k<ch a="F"/>ilka, mel<ch a="C"/>odii p<ch a="G"/>arę.</row>
+			<row important_over="false">Gdy pi<ch a="C"/>asek nie chci<ch a="F7+"/>ał się ws<ch a="C"/>ypać <ch a="F7+"/></row>
+			<row important_over="false">pod <ch a="C"/>oczy i d<ch a="F7+"/>o snu zapr<ch a="C"/>osić, <ch a="e7"/></row>
+			<row important_over="false">to trz<ch a="a"/>eba gdzieś odejść, by dłużej nie pł<ch a="F"/>akać</row>
+			<row important_over="false">i sm<ch a="F"/>utku w swym s<ch a="C"/>ercu ni<ch a="G"/>e n<ch a="C"/>osić. <ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Gdy włożą cię w dębową skrzynkę<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="F7+"/></row>
-			<row important_over="never">Niech włożą razem z gitarą<ch a="C"/><ch a="F7+"/><ch a="C"/><ch a="e7"/></row>
-			<row important_over="never">Niech w niebie ci grają struny srebrzyste<ch a="a"/><ch a="F"/></row>
-			<row important_over="never">Melodię twą ukochaną<ch a="F"/><ch a="C"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
+			<row important_over="false">Gdy wł<ch a="C"/>ożą cię w d<ch a="F7+"/>ębową skrz<ch a="C"/>ynkę, <ch a="F7+"/></row>
+			<row important_over="false">niech wł<ch a="C"/>ożą r<ch a="F7+"/>azem z git<ch a="C"/>arą, <ch a="e7"/></row>
+			<row important_over="false">niech w ni<ch a="a"/>ebie ci grają struny srebrz<ch a="F"/>yste</row>
+			<row important_over="false">mel<ch a="F"/>odię tw<ch a="C"/>ą uk<ch a="G"/>ochan<ch a="C"/>ą. <ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<keywords/>
+	<album/>
 	<genre>Piosenka turystyczna</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Alek</verificator>
+			<verificator>Andrzej Koczewski (słowa i muzyka)</verificator>
+			<verificator>https://spiewnik.wywrota.pl/andrzej-koczewski/jeszcze-nie-czas</verificator>
 		</verificators>
-		<to_do>Tekst zgodny z nagraniem — Alek</to_do>
+		<to_do/>
 	</status>
+	<music_source/>
 </song>
