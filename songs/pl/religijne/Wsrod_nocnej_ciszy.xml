@@ -1,71 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wśród nocnej ciszy">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna polska kolęda z przełomu XVIII i XIX wieku, opublikowana po raz pierwszy w „Śpiewniku kościelnym” ks. Michała Mioduszewskiego (1853).</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
   <lyric>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Wśród nocnej ciszy głos się rozchodzi<ch a="G7"/><ch a="C"/><ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Wstańcie pasterze Bóg się wam rodzi<ch a="G7"/><ch a="C"/></row>
+        <row important_over="true"><ch a="C"/>Wśród nocnej <ch a="G7"/>ciszy <ch a="C"/>głos się roz<ch a="G7"/>chodzi:</row>
+        <row important_over="true"><ch a="C"/>Wstańcie, pasterze, <ch a="G7"/>Bóg się wam <ch a="C"/>rodzi!</row>
+      </bis>
+      <bis>
+        <row important_over="true"><ch a="C"/>Czym prędzej się <ch a="G7"/>wybierajcie,</row>
+        <row important_over="true"><ch a="C"/>Do Betlejem <ch a="G7"/>pospieszajcie</row>
+        <row important_over="true"><ch a="C"/>Przywitać <ch a="G7"/>Pana!<ch a="C"/></row>
       </bis>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Czem prędzej się wybierajcie<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Do Betlejem pospieszajcie<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Przywitać Pana<ch a="G7"/><ch a="C"/></row>
+        <row important_over="never">Poszli, znaleźli Dzieciątko w żłobie</row>
+        <row important_over="never">Z wszystkimi znaki danymi sobie.</row>
+      </bis>
+      <bis>
+        <row important_over="never">Jako Bogu cześć oddali,</row>
+        <row important_over="never">A witając, zawołali</row>
+        <row important_over="never">Z wielkiej radości:</row>
       </bis>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Poszli znaleźli dzieciątko w żłobie<ch a="G7"/><ch a="C"/><ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Z wszystkimi znaki danymi sobie<ch a="G7"/><ch a="C"/></row>
+        <row important_over="never">„Ach, witaj Zbawco, z dawna żądany,</row>
+        <row important_over="never">Tyle tysięcy lat wyglądany!</row>
+      </bis>
+      <bis>
+        <row important_over="never">Na Ciebie króle, prorocy</row>
+        <row important_over="never">Czekali, a Tyś tej nocy</row>
+        <row important_over="never">Nam się objawił.</row>
       </bis>
     </block>
     <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Jako Bogu cześć oddali<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>A witając zawołali<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Z wielkiej radości<ch a="G7"/><ch a="C"/></row>
+        <row important_over="never">I my czekamy na Ciebie, Pana,</row>
+        <row important_over="never">A skoro przyjdziesz na głos kapłana,</row>
       </bis>
-    </block>
-    <block type="verse">
       <bis>
-        <row important_over="never"><ch a="C"/>Ach witaj Zbawco z dawna żądany<ch a="G7"/><ch a="C"/><ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Wiele tysięcy lat wyglądany<ch a="G7"/><ch a="C"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>Na Ciebie króle prorocy<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Czekali a Tyś tej nocy<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Nam się objawił<ch a="G7"/><ch a="C"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>I my czekamy na ciebie Pana<ch a="G7"/><ch a="C"/><ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>A skoro przyjdziesz na głos kapłana<ch a="G7"/><ch a="C"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="C"/>Padniemy na twarz przed tobą<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Wierząc żeś jest pod osobą<ch a="G7"/></row>
-        <row important_over="never"><ch a="C"/>Chleba i wina<ch a="G7"/><ch a="C"/></row>
+        <row important_over="never">Padniemy na twarz przed Tobą,</row>
+        <row important_over="never">Wierząc, żeś jest pod osobą</row>
+        <row important_over="never">Chleba i wina”.</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>kolęda</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/koledy/wsrod-nocnej-ciszy</verificator>
+    </verificators>
   </status>
 </song>
