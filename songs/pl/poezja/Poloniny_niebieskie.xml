@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Połoniny niebieskie">
-	<alias></alias>
-	<text_author type="solo">Adam Drąg</text_author>
-	<comment></comment>
+	<alias>Gdy nie zostanie po mnie nic</alias>
+	<text_author type="solo">Marek Dutkiewicz</text_author>
+	<comment/>
 	<composer type="solo">Adam Drąg</composer>
 	<artist type="solo">Adam Drąg</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator/>
+	<original_title/>
+	<lyric>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="true">
-					<ch a="C"/>Gdy nie zost<ch a="F"/>anie po mnie nic</row>
+				<row important_over="true"><ch a="C"/>Gdy nie zost<ch a="F"/>anie po mnie <ch a="C"/>nic,<ch a="F"/></row>
 			</bis>
-			<row important_over="true"><ch a="C"/>Oprócz pożółkłych fotografii<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
-			<row important_over="true"><ch a="e"/>Błękitny mnie przywita świt<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="true"><ch a="C"/>Oprócz po<ch a="F"/>żółkłych foto<ch a="C"/>gra<ch a="G"/>fii,<ch a="Fis"/></row>
+			<row important_over="true"><ch a="e"/>Błękitny <ch a="F"/>mnie przy<ch a="C"/>wita <ch a="G"/>świt</row>
 			<bis times="2">
-				<row important_over="false">
-					<ch a="C"/>W miejscu co nie ma go na mapie<ch a="F"/></row>
+				<row important_over="true"><ch a="C"/>W miejscu, co <ch a="F"/>nie ma go na <ch a="C"/>ma<ch a="F"/>pie.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false">A kiedy sypną na mnie piach<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>A kiedy <ch a="F"/>sypną na mnie <ch a="C"/>piach,<ch a="F"/></row>
 			</bis>
-			<row important_over="false"><ch a="C"/>Gdy mnie okryją cztery deski<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
-			<row important_over="false"><ch a="e"/>To pójdę t<ch a="F"/>am gdzie wi<ch a="C"/>edzie szl<ch a="G"/>ak</row>
+			<row><ch a="C"/>Gdy mnie o<ch a="F"/>kryją cztery <ch a="C"/>des<ch a="G"/>ki,<ch a="Fis"/></row>
+			<row><ch a="e"/>To pójdę <ch a="F"/>tam, gdzie <ch a="C"/>wiedzie <ch a="G"/>szlak</row>
 			<bis times="2">
-				<row important_over="false">Na połoniny na niebieskie<ch a="C"/><ch a="F"/></row>
-			</bis>
-		</block>
-		<block type="verse">
-			<bis times="2">
-				<row important_over="false">Powiezie mnie błękitny wóz<ch a="C"/><ch a="F"/></row>
-			</bis>
-			<row important_over="false"><ch a="C"/>Ciągnięty przez błękitne konie<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
-			<row important_over="false"><ch a="e"/>Przez świat bł<ch a="F"/>ękitny b<ch a="C"/>ędzie wi<ch a="G"/>ózł</row>
-			<bis times="2">
-				<row important_over="false">Aż zaniebieszczy w dali błonie<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>Na połon<ch a="F"/>iny, na nie<ch a="C"/>bies<ch a="F"/>kie.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false">Od zmartwień wolny i od trosk<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>Powiezie <ch a="F"/>mnie błękitny <ch a="C"/>wóz,<ch a="F"/></row>
 			</bis>
-			<row important_over="false"><ch a="C"/>Pójdę wygrzewać się na trawie<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
-			<row important_over="false"><ch a="e"/>A czasem gdy mi przyjdzie chęć<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row><ch a="C"/>Ciągnięty <ch a="F"/>przez błękitne <ch a="C"/>ko<ch a="G"/>nie,<ch a="Fis"/></row>
+			<row><ch a="e"/>Przez świat <ch a="F"/>błękitny <ch a="C"/>będzie <ch a="G"/>wiózł,</row>
 			<bis times="2">
-				<row important_over="false">Z góry na ziemię się pogapię<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>Aż zanie<ch a="F"/>bieszczy w dali <ch a="C"/>bło<ch a="F"/>nie.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row important_over="false">Popatrzę jak wśród smukłych malw<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>Od zmartwień <ch a="F"/>wolny i od <ch a="C"/>trosk,<ch a="F"/></row>
 			</bis>
-			<row important_over="false"><ch a="C"/>Wiatr w przedwieczornej ciszy kona<ch a="F"/><ch a="C"/><ch a="G"/><ch a="Fis"/></row>
-			<row important_over="false"><ch a="e"/>Trochę mi tylko będzie żal<ch a="F"/><ch a="C"/><ch a="G"/></row>
+			<row><ch a="C"/>Pójdę wy<ch a="F"/>grzewać się na <ch a="C"/>tra<ch a="G"/>wie,<ch a="Fis"/></row>
+			<row><ch a="e"/>A czasem, <ch a="F"/>gdy mi <ch a="C"/>przyjdzie <ch a="G"/>chęć,</row>
 			<bis times="2">
-				<row important_over="false">Że trawa u was tak zielona<ch a="C"/><ch a="F"/></row>
+				<row><ch a="C"/>Z góry na <ch a="F"/>ziemię się po<ch a="C"/>ga<ch a="F"/>pię.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row><ch a="C"/>Popatrzę, <ch a="F"/>jak wśród smukłych <ch a="C"/>malw<ch a="F"/></row>
+			</bis>
+			<row><ch a="C"/>Wiatr w przedwie<ch a="F"/>czornej ciszy <ch a="C"/>ko<ch a="G"/>na,<ch a="Fis"/></row>
+			<row><ch a="e"/>Trochę mi <ch a="F"/>tylko <ch a="C"/>będzie <ch a="G"/>żal,</row>
+			<bis times="2">
+				<row><ch a="C"/>Że trawa <ch a="F"/>u was tak zie<ch a="C"/>lo<ch a="F"/>na.</row>
 			</bis>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<genre>turystyczna</genre>
 	<status>
-		<verificators><verificator>Krzysiek cz.</verificator>
-			
+		<done>
+			<text/>
+			<authors/>
+			<chords/>
+		</done>
+		<verificators>
+			<verificator>Krzysiek cz.</verificator>
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
-		<done/>
+		<to_do/>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
 </song>
