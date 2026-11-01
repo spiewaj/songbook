@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Noc niespodzianek">
-  <alias/>
-  <text_author/>
+  <alias>Szczypawki</alias>
+  <text_author type="solo">tradycyjny</text_author>
   <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <composer type="solo">Jacek Małecki</composer>
+  <artist type="band">Labolare</artist>
+  <album>Gdzieś na rajdowym szlaku</album>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Opowieść będzie to prawdziwa chociaż dziwna<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Legliśmy w sianie obok legła płeć przeciwna<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>A wiatr złowrogi nucił pieśni swe złowieszcze<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Że tu się mogą zdarzyć dziwne rzeczy jeszcze<ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Opowieść będzie to prawdziwa, choci<ch a="G"/>aż dziwna,</row>
+      <row important_over="true"><ch a="G"/>Legliśmy w sianie, obok legła pł<ch a="C"/>eć przeciwna,</row>
+      <row important_over="false"><ch a="C"/>A wiatr złowrogi nucił pieśni sw<ch a="G"/>e złowieszcze,</row>
+      <row important_over="false"><ch a="G"/>Że tu się mogą zdarzyć dziwne rz<ch a="C"/>eczy jeszcze.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="C"/>To będzie noc pełna niespodzianek<ch a="G"/></row>
-        <row important_over="never"><ch a="G"/>W stodole tej na słomie i na sianie<ch a="C"/></row>
+        <row important_over="true"><ch a="C"/>To będzie noc, pełna ni<ch a="G"/>espodzianek,</row>
+        <row important_over="true"><ch a="G"/>W stodole tej, na słomie <ch a="C"/>i na sianie.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Lecz chłopcom utrudzonym dziewcząt holowaniem<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Nie w głowie były figle tylko spanie<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>A że dzieczęta to wrażliwe są stworzenia<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Nie spały pogrążone w sianie i marzeniach<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Lecz chłopcom utrudzonym dziewcząt holow<ch a="G"/>aniem</row>
+      <row important_over="false"><ch a="G"/>Nie w głowie były figle, tylko sp<ch a="C"/>anie,</row>
+      <row important_over="false"><ch a="C"/>A że dziewczęta to wrażliwe s<ch a="G"/>ą stworzenia,</row>
+      <row important_over="false"><ch a="G"/>Nie spały, pogrążone w sianie <ch a="C"/>i marzeniach.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Więc znawca kobiet wielki Szczypaw wódz szczypawek<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Zawezwał uszczypliwy naród na naradę<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>By każdy w pracy mógł się wspiąć na wyżyny<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>To będzie piękne do szczypania miał dziewczyny<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Więc znawca kobiet, wielki Szczypaw, wódz szczyp<ch a="G"/>awek,</row>
+      <row important_over="false"><ch a="G"/>Zawezwał uszczypliwy naród na nar<ch a="C"/>adę,</row>
+      <row important_over="false"><ch a="C"/>By każdy w pracy mógł się wspiąć na wyż<ch a="G"/>yny,</row>
+      <row important_over="false"><ch a="G"/>To będzie piękne: do szczypania miał dziewcz<ch a="C"/>yny!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Nic dziwnego że niejeden chłopak musiał<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Zabawić się tej nocy w pana Tadeusza<ch a="C"/></row>
-      <row important_over="never"><ch a="C"/>A że niejeden całkiem niezłą miał w tym wprawę<ch a="G"/></row>
-      <row important_over="never"><ch a="G"/>Więc stracił armię wielki Szczypaw, wódz szczypawek<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Nic dziwnego, że niejeden chłopak musi<ch a="G"/>ał</row>
+      <row important_over="false"><ch a="G"/>Zabawić się tej nocy w Pana Tade<ch a="C"/>usza,</row>
+      <row important_over="false"><ch a="C"/>A że niejeden całkiem niezłą miał w tym wpr<ch a="G"/>awę,</row>
+      <row important_over="false"><ch a="G"/>Więc stracił armię wielki Szczypaw, wódz szczyp<ch a="C"/>awek.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>nedan</chords>
+    </done>
+    <verificators>
+      <verificator>Labolare (Ogólnopolski Turystyczny Przegląd Piosenki Studenckiej Bazuna)</verificator>
+      <verificator>http://hopfer.com.pl/piosenki/szczypawki/</verificator>
+    </verificators>
   </status>
 </song>
