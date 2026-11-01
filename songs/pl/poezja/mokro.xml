@@ -3,13 +3,16 @@
   <alias>Ślimak</alias>
   <text_author type="solo">Barbara Sobolewska</text_author>
   <comment/>
+  <composer type="solo">Lesław Matecki</composer>
   <artist type="band">Mikroklimat</artist>
+  <album>Za potarganym zbożem</album>
+  <music metre="4/4"/>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="A7+"/> Napadał d<ch a="h"/>eszcz do szklanki,</row>
       <row important_over="true"><ch a="D"/> napadał w r<ch a="Cis7"/>ów. <ch a="Fis"/></row>
       <row important_over="true"><ch a="h"/> W deszczówce m<ch a="E"/>oczą nogi,</row>
-      <row important_over="false"><ch a="h"/> Zmęczone ci<ch a="E"/>enie</row>
+      <row important_over="true"><ch a="h"/> Zmęczone ci<ch a="E"/>enie</row>
       <row important_over="true">chudych ps<ch a="A7+"/>ów. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
       <row important_over="false"><ch a="A7+"/> Z sufitu k<ch a="h"/>apią krople,</row>
       <row important_over="false"><ch a="D"/> w dziurawy dz<ch a="Cis7"/>ban, <ch a="Fis"/></row>
@@ -20,31 +23,38 @@
     <block type="chorus">
       <row important_over="true">W prz<ch a="A"/>emocz<ch a="E"/>onej t<ch a="fis"/>rawie,</row>
       <row important_over="true">Chr<ch a="G"/>apie śl<ch a="Fis"/>imak zł<ch a="h"/>y,</row>
-      <row important_over="true">Ślim<ch a="E"/>aku p<ch a="A"/>okaz r<ch a="D"/>ogi,</row>
+      <row important_over="true">Ślim<ch a="E"/>aku p<ch a="A"/>okaż r<ch a="D"/>ogi,</row>
       <row important_over="true">D<ch a="h"/>am ci s<ch a="E"/>era na pier<ch a="A"/>ogi.</row>
-      <row important_over="false">Ni<ch a="A"/>e pok<ch a="E"/>ażę <ch a="fis"/>rogów,</row>
+      <row important_over="false">Ni<ch a="A"/>e pok<ch a="E"/>ażę r<ch a="fis"/>ogów,</row>
       <row important_over="false">B<ch a="G"/>o nak<ch a="Fis"/>apie m<ch a="h"/>i</row>
       <row important_over="false">na l<ch a="E"/>ewy r<ch a="A"/>óg i pr<ch a="D"/>awy,</row>
       <row important_over="false">Ni<ch a="h"/>e, nie w<ch a="E"/>yjdę z mojej tr<ch a="A"/>awy.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="A7+"/> Kałuże t<ch a="h"/>yją strasznie,</row>
-      <row important_over="false"><ch a="D"/> pękają w sz<ch a="Cis7"/>wach.<ch a="Fis"/></row>
+      <row important_over="false"><ch a="D"/> pękają w sz<ch a="Cis7"/>wach. <ch a="Fis"/></row>
       <row important_over="false"><ch a="h"/> wyleją n<ch a="E"/>a chodniki,</row>
       <row important_over="false"><ch a="h"/> i będzie p<ch a="E"/>owódź,</row>
-      <row important_over="false">że aż str<ch a="A7+"/>ach.<ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
+      <row important_over="false">że aż str<ch a="A7+"/>ach. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
       <row important_over="false"><ch a="A7+"/> W kaloszu m<ch a="h"/>asz dwie dziury,</row>
       <row important_over="false"><ch a="D"/> i w płaszczu t<ch a="Cis7"/>eż. <ch a="Fis"/></row>
       <row important_over="false"><ch a="h"/> I będziesz si<ch a="E"/>edział u mnie,</row>
       <row important_over="false"><ch a="h"/> aż wyschną d<ch a="E"/>achy,</row>
-      <row important_over="false">wyschnie d<ch a="A7+"/>eszc<ch a="D7+"/>z. <ch a="A7+"/><ch a="D7+"/></row>
+      <row important_over="false">wyschnie d<ch a="A7+"/>eszcz. <ch a="D7+"/><ch a="A7+"/><ch a="D7+"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>nedan</chords>
+    </done>
+    <verificators>
+      <verificator>https://wywrota.pl/spiewnik/308157-mokro-slimak-barbara-sobolewska</verificator>
+      <verificator>Mikroklimat - Za potarganym zbożem (1995)</verificator>
+    </verificators>
   </status>
 </song>
