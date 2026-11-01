@@ -1,52 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tango z garbem">
+  <alias>To ten wariat z garbem</alias>
   <text_author type="solo">Andrzej Wierzbicki</text_author>
+  <comment>Klasyczna piosenka turystyczno-wędrownicza Andrzeja Wierzbickiego.</comment>
   <composer type="solo">Andrzej Wierzbicki</composer>
   <artist type="solo">Andrzej Wierzbicki</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="d"/>Dawno min<ch a="A7"/>ęły cz<ch a="d"/>asy gdy m<ch a="D7"/>atka</row>
-      <row important_over="true">Łzy kryjąc w kącie z cicha ronione<ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="true">C<ch a="A7"/>hyłkiem wsadzała c<ch a="d"/>i do plecaka </row>
-      <row important_over="true">Bu<ch a="E7"/>łeczkę z serem i <ch a="A7"/>salcesonem </row>
-      <row important_over="false"><ch a="d"/>Tak wyr<ch a="A7"/>uszałeś na<ch a="d"/> swoje pi<ch a="D7"/>erwsze</row>
-      <row important_over="false"><ch a="g"/>Te wymarzo<ch a="D7"/>ne, wy<ch a="d"/>śnione szlaki</row>
-      <row important_over="false"><ch a="A7"/>Ludziom kroczyłeś <ch a="d"/>ufnie naprzeciw</row>
-      <row important_over="false"><ch a="E7"/>Słysząc za sobą <ch a="A7"/>szydercze takie: </row>
+      <row important_over="true"><ch a="d"/>Dawno min<ch a="A7"/>ęły cz<ch a="d"/>asy, gdy m<ch a="D7"/>atka,</row>
+      <row important_over="true">łzy kr<ch a="g"/>yjąc w kącie, z c<ch a="D7"/>icha roni<ch a="d"/>one,</row>
+      <row important_over="true">ch<ch a="A7"/>yłkiem wsadzała c<ch a="d"/>i do plecaka</row>
+      <row important_over="true">bu<ch a="E7"/>łeczkę z serem i <ch a="A7"/>salcesonem.</row>
+      <row important_over="true">T<ch a="d"/>ak wyr<ch a="A7"/>uszałeś n<ch a="d"/>a swoje pi<ch a="D7"/>erwsze,</row>
+      <row important_over="true">t<ch a="g"/>e wymarzo<ch a="D7"/>ne, wy<ch a="d"/>śnione szlaki,</row>
+      <row important_over="true">l<ch a="A7"/>udziom kroczyłeś <ch a="d"/>ufnie naprzeciw,</row>
+      <row important_over="true">sł<ch a="E7"/>ysząc za sobą <ch a="A7"/>szydercze takie:</row>
     </block>
     <block type="chorus">
-      <row important_over="true">To ten wa<ch a="d"/>riat z garbem,<ch a="A7"/> od tego się nie <ch a="d"/>umiera</row>
-      <row important_over="true">To ten wa<ch a="D7"/>riat z garbem, co turystyczne spędza cz<ch a="g"/>as</row>
-      <row important_over="false">To ten wa<ch a="A7"/>riat z garbem, który po drogach kurz w<ch a="d"/>yciera</row>
-      <row important_over="false">To ten wa<ch a="E7"/>riat z garbem, który próbuje wstrzymać <ch a="A7"/>wiatr  </row>
+      <row important_over="true">To ten wa<ch a="d"/>riat z garbem,<ch a="A7"/> od tego się nie <ch a="d"/>umiera,</row>
+      <row important_over="true">to ten wa<ch a="D7"/>riat z garbem, co turystycznie spędza cz<ch a="g"/>as.</row>
+      <row important_over="true">To ten wa<ch a="A7"/>riat z garbem, który po drogach kurz w<ch a="d"/>yciera,</row>
+      <row important_over="true">to ten wa<ch a="E7"/>riat z garbem, który próbuje wstrzymać <ch a="A7"/>wiatr.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Potem mijały lata ty ciągle<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="false">szukałeś szczęścia na swoich drogach<ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="false">Struną dzwoniące, dymem przyćmione<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Buty zmieniane na swoich drogach<ch a="E7"/><ch a="A7"/></row>
-      <row important_over="false">Nic nie mówiłeś widząc na niebie<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="false">Ptaków wędrownych tajemne znaki <ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="false">Potem wracałeś niby do siebie<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">I znów słyszałeś szydercze takie: <ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">P<ch a="d"/>otem mij<ch a="A7"/>ały l<ch a="d"/>ata, ty ci<ch a="D7"/>ągle</row>
+      <row important_over="false">szuk<ch a="g"/>ałeś szczęścia n<ch a="D7"/>a swoich dr<ch a="d"/>ogach.</row>
+      <row important_over="false">Str<ch a="A7"/>uną dzwoniące, d<ch a="d"/>ymem przyćmione,</row>
+      <row important_over="false">b<ch a="E7"/>uty zmieniane na sw<ch a="A7"/>oich drogach.</row>
+      <row important_over="false">N<ch a="d"/>ic nie m<ch a="A7"/>ówiłeś, w<ch a="d"/>idząc na ni<ch a="D7"/>ebie</row>
+      <row important_over="false">pt<ch a="g"/>aków wędrownych t<ch a="D7"/>ajemne zn<ch a="d"/>aki,</row>
+      <row important_over="false">p<ch a="A7"/>otem wracałeś n<ch a="d"/>iby do siebie</row>
+      <row important_over="false">i zn<ch a="E7"/>ów słyszałeś szydercze t<ch a="A7"/>akie:</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Teraz stateczny ojciec rodziny<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="false">Samochód, żona, dzieci, M4 <ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="false">Brydż u znajomych i imieniny<ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Spacer w niedzielę, trochę opery<ch a="E7"/><ch a="A7"/></row>
-      <row important_over="false">Czasem za oknem widzisz jak idą<ch a="d"/><ch a="A7"/><ch a="d"/><ch a="D7"/></row>
-      <row important_over="false">Dźwigając swoje wielkie plecaki<ch a="g"/><ch a="D7"/><ch a="d"/></row>
-      <row important_over="false">Chciałbyś dołączyć, stanąć w szeregu <ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">I znów usłyszeć szydercze takie: <ch a="E7"/><ch a="A7"/></row>
+      <row important_over="false">T<ch a="d"/>eraz stat<ch a="A7"/>eczny <ch a="d"/>ojciec rodz<ch a="D7"/>iny,</row>
+      <row important_over="false">sam<ch a="g"/>ochód, żona, dzi<ch a="D7"/>eci, M<ch a="d"/>-4,</row>
+      <row important_over="false">br<ch a="A7"/>ydż u znajomych <ch a="d"/>i imieniny,</row>
+      <row important_over="false">sp<ch a="E7"/>acer w niedzielę, tr<ch a="A7"/>ochę opery.</row>
+      <row important_over="false">Cz<ch a="d"/>asem za <ch a="A7"/>oknem w<ch a="d"/>idzisz, jak <ch a="D7"/>idą,</row>
+      <row important_over="false">dźw<ch a="g"/>igając swoje wi<ch a="D7"/>elkie plec<ch a="d"/>aki,</row>
+      <row important_over="false">chci<ch a="A7"/>ałbyś dołączyć, st<ch a="d"/>anąć w szeregu</row>
+      <row important_over="false">i zn<ch a="E7"/>ów usłyszeć szydercze t<ch a="A7"/>akie:</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna górska</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>http://gorskiswiat.pl</verificator>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
