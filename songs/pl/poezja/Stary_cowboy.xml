@@ -51,9 +51,7 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators>
-      <verificator>Piotr Tabernacki</verificator>
-    </verificators>
+    <verificators/>
   </status>
   <music_source>https://spiewnik.wywrota.pl/piosenki-harcerskie/kowboj</music_source>
 </song>
