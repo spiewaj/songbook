@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mury">
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Mury" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>On natchniony i młody był</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<composer type="solo">Jacek Kaczmarski</composer>
+	<comment>Słowa Jacka Kaczmarskiego z 1978 r. do melodii katalońskiej pieśni „L’Estaca” (1968) skomponowanej przez Lluísa Llacha.</comment>
+	<composer type="solo">Lluís Llach</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<original_title>L'Estaca</original_title>
+	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="e"/>On<ch a="H7"/> na<ch a="e"/>tc<ch a="H7"/>hniony i młody był, ich nie policzyłby nikt</row>
-			<row important_over="true"><ch a="C"/>On<ch a="H"/> i<ch a="C"/>m <ch a="H"/>pi<ch a="e"/>eśnią dodawał sił, śpiewał że blisko już świt</row>
-			<row important_over="false"><ch a="e"/>Św<ch a="H7"/>iec<ch a="e"/> t<ch a="H7"/>ysiące palili mu, znad głów podnosił się dym</row>
-			<row important_over="true"><ch a="C"/>Śp<ch a="H"/>ie<ch a="C"/>wał, że czas by runął mur..</row>
-			<row important_over="true"><ch a="H"/>On<ch a="e"/>i śpiewali wraz z nim</row>
+			<row important_over="true"><ch a="e"/>On <ch a="H7"/>natc<ch a="e"/>hniony i młody był, <ch a="H7"/>ich nie policzyłby nikt,</row>
+			<row important_over="true"><ch a="C"/>On im <ch a="H7"/>pieśnią do<ch a="C"/>dawał sił, śpiewał, że <ch a="H7"/>blisko już <ch a="e"/>świt.</row>
+			<row important_over="true"><ch a="e"/>Świec ty<ch a="H7"/>siące pa<ch a="e"/>lili mu, <ch a="H7"/>znad głów podnosił się dym,</row>
+			<row important_over="true"><ch a="C"/>Śpiewał, że <ch a="H7"/>czas, by <ch a="C"/>runął mur...</row>
+			<row important_over="true"><ch a="C"/>Oni śpie<ch a="H7"/>wali wraz z <ch a="e"/>nim:</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false"><ch a="H"/>Wy<ch a="e"/>rwij murom zęby krat!</row>
-			<row important_over="false"><ch a="H"/>Ze<ch a="e"/>rwij kajdany, połam bat!</row>
+			<row important_over="true"><ch a="H7"/> Wy<ch a="e"/>rwij murom zęby krat!</row>
+			<row important_over="true"><ch a="H7"/> Ze<ch a="e"/>rwij kajdany, połam bat!</row>
 			<row important_over="true"><ch a="a"/>A <ch a="e"/>mury runą, runą, runą</row>
-			<row important_over="false"><ch a="H"/>I <ch a="e"/>pogrzebią stary świat!</row>
+			<row important_over="true"><ch a="H7"/>I <ch a="e"/>pogrzebią stary świat!</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Wkrótce na pamięć znali pieśń i sama melodia bez słów<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
-			<row important_over="false">Niosła ze sobą starą treść, dreszcze na wskroś serc i głów<ch a="C"/><ch a="H"/><ch a="C"/><ch a="H"/><ch a="e"/></row>
-			<row important_over="false">Śpiewali więc, klaskali w rytm, jak wystrzał poklask ich brzmiał<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
-			<row important_over="false">I ciążył łańcuch, zwlekał świt<ch a="C"/><ch a="H"/><ch a="C"/></row>
-			<row important_over="false">On wciąż śpiewał i grał<ch a="H"/><ch a="e"/></row>
+			<row important_over="false"><ch a="e"/>Wkrótce na <ch a="H7"/>pamięć <ch a="e"/>znali pieśń i sama melodia bez <ch a="H7"/>słów</row>
+			<row important_over="false"><ch a="C"/>Niosła ze <ch a="H7"/>sobą <ch a="C"/>starą treść, dreszcze na<ch a="H7"/>wskroś serc i <ch a="e"/>głów.</row>
+			<row important_over="false"><ch a="e"/>Śpiewali <ch a="H7"/>więc, kla<ch a="e"/>skali w rytm, jak wystrzał poklask ich <ch a="H7"/>brzmiał</row>
+			<row important_over="false"><ch a="C"/>I ciążył <ch a="H7"/>łańcuch, <ch a="C"/>zwlekał świt...</row>
+			<row important_over="false"><ch a="C"/>On wciąż śpie<ch a="H7"/>wał i <ch a="e"/>grał:</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Aż zobaczyli ilu ich, poczuli siłę i czas<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
-			<row important_over="false">I z pieśnią, że już blisko świt szli ulicami miast<ch a="C"/><ch a="H"/><ch a="C"/><ch a="H"/><ch a="e"/></row>
-			<row important_over="false">Zwalali pomniki i rwali bruk: Ten z nami? Ten przeciw nam?<ch a="e"/><ch a="H7"/><ch a="e"/><ch a="H7"/></row>
-			<row important_over="false">Kto sam ten nasz najgorszy wróg!<ch a="C"/><ch a="H"/><ch a="C"/></row>
-			<row important_over="false">A śpiewak także był sam<ch a="H"/><ch a="e"/></row>
+			<row important_over="false"><ch a="e"/>Aż zoba<ch a="H7"/>czyli, <ch a="e"/>ilu ich, poczuli siłę i <ch a="H7"/>czas,</row>
+			<row important_over="false"><ch a="C"/>I z pieśnią, <ch a="H7"/>że już <ch a="C"/>blisko świt, szli uli<ch a="H7"/>cami <ch a="e"/>miast.</row>
+			<row important_over="false"><ch a="e"/>Zwalali <ch a="H7"/>pomniki i <ch a="e"/>rwali bruk: „Ten z nami! Ten przeciw <ch a="H7"/>nam!”</row>
+			<row important_over="false"><ch a="C"/>Kto sam, ten <ch a="H7"/>nasz naj<ch a="C"/>gorszy wróg!</row>
+			<row important_over="false"><ch a="C"/>A śpiewak <ch a="H7"/>także był <ch a="e"/>sam...</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Patrzył na równy tłumów marsz<ch a="H"/><ch a="e"/></row>
-			<row important_over="false">Milczał wsłuchany w kroków huk<ch a="H"/><ch a="e"/></row>
-			<row important_over="false">A mury rosły, rosły, rosły<ch a="a"/><ch a="e"/></row>
-			<row important_over="false">Łańcuch kołysał się u nóg<ch a="H"/><ch a="e"/></row>
+			<row important_over="false"><ch a="H7"/> Pa<ch a="e"/>trzył na równy tłumów marsz,</row>
+			<row important_over="false"><ch a="H7"/> Mil<ch a="e"/>czał wsłuchany w kroków huk...</row>
+			<row important_over="false"><ch a="a"/>A <ch a="e"/>mury rosły, rosły, rosły,</row>
+			<row important_over="false"><ch a="H7"/> Łań<ch a="e"/>cuch kołysał się u nóg.</row>
 		</block>
 	</lyric>
-	
-	<music>
+	<music metre="6/8">
 		<guitar/>
 	</music>
+	<album>Mury</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>Piotr Tabor</verificator>
 		</verificators>
-		<done/>
-		<to_do></to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
 </song>
