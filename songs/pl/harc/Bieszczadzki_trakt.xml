@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki trakt">
   <alias/>
-  <text_author type="solo">Bogusław Adamek</text_author>
+  <text_author type="solo">Bogusław Adamek (ps. „Bodzio”)</text_author>
   <comment/>
-  <composer type="solo">Bogusław Adamek</composer>
+  <composer type="solo">Bogusław Adamek (ps. „Bodzio”)</composer>
   <artist type="band">Wołosatki</artist>
   <translator/>
   <original_title/>
@@ -11,8 +11,8 @@
     <block type="verse">
       <row important_over="true">Ki<ch a="G"/>edy nadejdzie cz<ch a="D"/>as, wabi n<ch a="C"/>as ognia bl<ch a="G"/>ask,</row>
       <row important_over="true">N<ch a="D"/>a polanie, gdzie król<ch a="C"/>uje zł<ch a="G"/>y.</row>
-      <row>Gwi<ch a="G"/>ezdny pył, w ogniu t<ch a="D"/>ym, łzy wyc<ch a="C"/>iśnie nam d<ch a="G"/>ym,</row>
-      <row>T<ch a="D"/>ańczą iskry z gwiazd<ch a="C"/>ami, a m<ch a="G"/>y...</row>
+      <row important_over="false">Gwi<ch a="G"/>ezdny pył, w ogniu t<ch a="D"/>ym, łzy wyc<ch a="C"/>iśnie nam d<ch a="G"/>ym,</row>
+      <row important_over="false">T<ch a="D"/>ańczą iskry z gwiazd<ch a="C"/>ami, a m<ch a="G"/>y...</row>
     </block>
     <block type="chorus">
       <row important_over="true">Śpi<ch a="C"/>ewajmy wszyscy w t<ch a="D"/>en radosny cz<ch a="G"/>as,</row>
@@ -21,17 +21,17 @@
       <row important_over="true">Ni<ch a="C"/>e starz<ch a="D"/>ejemy si<ch a="G"/>ę.</row>
     </block>
     <block type="verse">
-      <row important_over="never">W lesie, gdzie licho śpi, ma przygoda swe drzwi,</row>
-      <row important_over="never">Chodźmy tam, gdzie na ścianie lasu lśnią</row>
-      <row important_over="never">Oczy sów, wilcze kły, rykiem powietrze drży,</row>
-      <row important_over="never">Tylko gwiazdy przyjazne są dziś.</row>
+      <row important_over="false">W l<ch a="G"/>esie, gdzie licho śp<ch a="D"/>i, ma prz<ch a="C"/>ygoda swe drzw<ch a="G"/>i,</row>
+      <row important_over="false">Ch<ch a="D"/>odźmy tam, gdzie na ści<ch a="C"/>anie lasu lśni<ch a="G"/>ą</row>
+      <row important_over="false">Oczy s<ch a="G"/>ów, wilcze kł<ch a="D"/>y, rykiem pow<ch a="C"/>ietrze drż<ch a="G"/>y,</row>
+      <row important_over="false">T<ch a="D"/>ylko gwiazdy prz<ch a="C"/>yjazne są dz<ch a="G"/>iś.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never">Dorzuć do ognia drew, w górę niech płynie śpiew,</row>
-      <row important_over="never">Wiatr poniesie go w wilgotny świat.</row>
-      <row important_over="never">Każdy z nas o tym wie, znowu spotkamy się,</row>
-      <row important_over="never">A połączy nas bieszczadzki trakt.</row>
+      <row important_over="false">Dorz<ch a="G"/>uć do ognia dr<ch a="D"/>ew, w górę n<ch a="C"/>iech płynie śpi<ch a="G"/>ew,</row>
+      <row important_over="false">Wi<ch a="D"/>atr poniesie go w w<ch a="C"/>ilgotny świ<ch a="G"/>at.</row>
+      <row important_over="false">K<ch a="G"/>ażdy z nas o tym wi<ch a="D"/>e, znowu sp<ch a="C"/>otkamy si<ch a="G"/>ę,</row>
+      <row important_over="false">A poł<ch a="D"/>ączy nas bi<ch a="C"/>eszczadzki tr<ch a="G"/>akt.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
