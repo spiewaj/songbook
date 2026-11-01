@@ -1,61 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mur 2">
-  <alias/>
-  <text_author type="band"/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="band">Zespół Reprezentacyjny</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Stary Swiset kiedyś mówił mi<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Staliśmy w bramie, był świt<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>Gdy oczekiwaliśmy na słońca wschód<ch a="H7"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>I samochodów rósł szum<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Mówił mi czy muru nie widzisz<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Wszystkich nas trzyma ten mur<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>Gdy nie będziemy bronić się<ch a="H"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>Zagrodzi nam każdą z dróg<ch a="H7"/><ch a="e"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="H7"/>Gdy uderzymy runie mur<ch a="e"/></row>
-      <row important_over="never"><ch a="H7"/>Nie może przecież wiecznie trwać<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Na pewno runie, runie, runie<ch a="e"/></row>
-      <row important_over="never"><ch a="H7"/>Nie pozostanie po nim ślad<ch a="e"/></row>
-      <row important_over="never"><ch a="H7"/>Jeśli uderzysz mocno tu<ch a="e"/></row>
-      <row important_over="never"><ch a="H7"/>A ja uderzę mocno tam<ch a="e"/></row>
-      <row important_over="never"><ch a="a"/>Na pewno runie, runie, runie<ch a="e"/></row>
-      <row important_over="never"><ch a="H7"/>I wolny będzie cały świat<ch a="e"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Lecz minęło już wiele lat<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Ręce mam starte do krwi<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>A gdy czuję że sił mi brak<ch a="H7"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>Mur rośnie wyższy niż był<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Wiem już, że ledwo się trzyma<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Lecz ciężko ruszyć go stąd<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>Nawet gdy czuję przypływ sił<ch a="H7"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>Powtórz Swisecie pieśń swą<ch a="H7"/><ch a="e"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Stary Swiset nie mówi nic<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Słowa porwał zły wiatr<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>Dokąd on jeden tylko wie<ch a="H7"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>Ja w bramie tkwię cały czas<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>I gdy przychodzę mówi wciąż<ch a="H7"/><ch a="e"/></row>
-      <row important_over="never"><ch a="e"/>Słyszę jak rośnie mój głos<ch a="H7"/></row>
-      <row important_over="never"><ch a="C"/>Śpiewamy ostatnią Swiseta pieśń<ch a="H7"/><ch a="C"/><ch a="a"/></row>
-      <row important_over="never"><ch a="e"/>Tę, której nauczył nas on<ch a="H7"/><ch a="e"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Mur (L'Estaca)">
+	<alias>Mur 2, L'Estaca, Stary Siset</alias>
+	<text_author type="solo">Lluís Llach</text_author>
+	<comment>Przekład słynnej katalońskiej pieśni „L'Estaca” (1968) w wykonaniu Zespołu Reprezentacyjnego.</comment>
+	<composer type="solo">Lluís Llach</composer>
+	<artist type="band">Zespół Reprezentacyjny</artist>
+	<translator>Agnieszka Rurarz</translator>
+	<original_title>L'Estaca</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>Stary Siset kiedyś m<ch a="H7"/>ówił m<ch a="e"/>i,</row>
+			<row important_over="true">Staliśmy w br<ch a="H7"/>amie, był świt,</row>
+			<row important_over="true">Gdy oczekiwal<ch a="C"/>iśmy na sł<ch a="H7"/>ońca wsch<ch a="C"/>ód<ch a="a"/></row>
+			<row important_over="true">I samochod<ch a="e"/>ów r<ch a="H7"/>ósł sz<ch a="e"/>um.</row>
+			<row important_over="true">Mówił mi: „Czy m<ch a="H7"/>uru nie w<ch a="e"/>idzisz?</row>
+			<row important_over="true">Wszystkich nas trz<ch a="H7"/>yma ten mur.</row>
+			<row important_over="true">Gdy ni<ch a="C"/>e będziemy br<ch a="H7"/>onić si<ch a="C"/>ę,<ch a="a"/></row>
+			<row important_over="true">Zagr<ch a="e"/>odzi nam k<ch a="H7"/>ażdą z dr<ch a="e"/>óg”.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Gdy uderz<ch a="H7"/>ymy, runie m<ch a="e"/>ur,</row>
+			<row important_over="true">Nie może prz<ch a="H7"/>ecież wiecznie trw<ch a="e"/>ać,</row>
+			<row important_over="true">Na pewno r<ch a="a"/>unie, runie, r<ch a="e"/>unie,</row>
+			<row important_over="true">Nie pozost<ch a="H7"/>anie po nim śl<ch a="e"/>ad.</row>
+			<row important_over="false">Jeśli uderz<ch a="H7"/>ysz mocno t<ch a="e"/>u,</row>
+			<row important_over="false">A ja uderz<ch a="H7"/>ę mocno t<ch a="e"/>am,</row>
+			<row important_over="false">Na pewno r<ch a="a"/>unie, runie, r<ch a="e"/>unie,</row>
+			<row important_over="false">I wolny b<ch a="H7"/>ędzie cały świ<ch a="e"/>at.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Lecz minęło j<ch a="e"/>uż wiele l<ch a="H7"/>at,<ch a="e"/></row>
+			<row important_over="false">Ręce mam st<ch a="H7"/>arte do krwi,</row>
+			<row important_over="false">A gdy czuję, że s<ch a="C"/>ił mi br<ch a="H7"/>ak,<ch a="C"/><ch a="a"/></row>
+			<row important_over="false">Mur r<ch a="e"/>ośnie w<ch a="H7"/>yższy niż b<ch a="e"/>ył.</row>
+			<row important_over="false">Wiem już, że l<ch a="H7"/>edwo się trz<ch a="e"/>yma,</row>
+			<row important_over="false">Lecz ciężko r<ch a="H7"/>uszyć go stąd,</row>
+			<row important_over="false">Nawet gd<ch a="C"/>y czuję przypł<ch a="H7"/>yw s<ch a="C"/>ił...<ch a="a"/></row>
+			<row important_over="false">Powt<ch a="e"/>órz, Sis<ch a="H7"/>ecie, pieśń sw<ch a="e"/>ą!</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Stary Siset ni<ch a="e"/>e mówi n<ch a="H7"/>ic,<ch a="e"/></row>
+			<row important_over="false">Słowa porw<ch a="H7"/>ał zły wiatr,</row>
+			<row important_over="false">Dokąd — on j<ch a="C"/>eden t<ch a="H7"/>ylko wi<ch a="C"/>e,<ch a="a"/></row>
+			<row important_over="false">Ja w br<ch a="e"/>amie tkwi<ch a="H7"/>ę cały cz<ch a="e"/>as.</row>
+			<row important_over="false">I gdy przych<ch a="H7"/>odzę, mówi wci<ch a="e"/>ąż,</row>
+			<row important_over="false">Słyszę, jak r<ch a="H7"/>ośnie mój głos,</row>
+			<row important_over="false">Śpiew<ch a="C"/>amy ostatnią Sis<ch a="H7"/>eta pi<ch a="C"/>eśń,<ch a="a"/></row>
+			<row important_over="false">Tę, kt<ch a="e"/>órej na<ch a="H7"/>uczył nas <ch a="e"/>on.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords/>
+	<album>Za nami noc...</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
+	</status>
 </song>
