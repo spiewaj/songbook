@@ -1,71 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nowa">
-  <alias/>
-  <text_author type="solo">Krzysztof Jurkiewicz</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="band">Słodki Całus od Buby</artist>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="E"/>I znowu nadzy i ona tuż obok<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Spojrzałem na tamte wszystkie noce<ch a="H"/></row>
-      <row important_over="never"><ch a="cis"/>Przykryj się choć prześcieradłem<ch a="gis"/></row>
-      <row important_over="never"><ch a="A"/>Ja się już chyba nie zmienię<ch a="H"/></row>
-      <row important_over="never"><ch a="E"/>Już dawno było za późno<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="E"/>I nie próbuj wracać na wiosnę<ch a="A"/><ch a="H"/></row>
-      <row important_over="never"><ch a="cis"/>Drzewa bez liści nie dają cienia<ch a="A"/></row>
-      <row important_over="never"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
-      <row important_over="never"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="E"/>Szukałem tamtych miejsc do znudzenia<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Aż wychodziłem dziury w butach<ch a="H"/></row>
-      <row important_over="never"><ch a="cis"/>A kiedy w końcu znalazłem<ch a="gis"/></row>
-      <row important_over="never"><ch a="A"/>Brudne ulice oblazłe ściany<ch a="H"/></row>
-      <row important_over="never"><ch a="E"/>Nie były już nawet wspomnieniem<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>A wszyscy ludzie obcy<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="E"/>I znowu jesień i pora ruszyć<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Pudełka pełne czarno-białych zdjęć<ch a="H"/></row>
-      <row important_over="never"><ch a="cis"/>Myśli słów i twarzy ludzkich<ch a="gis"/></row>
-      <row important_over="never"><ch a="A"/>Gdzie ciebie znowu w świat goni<ch a="H"/></row>
-      <row important_over="never"><ch a="E"/>Tak szczerze mówiąc to nie wiem<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="E"/>Nie zostawaj w raju do jesieni<ch a="H"/><ch a="E"/></row>
-        <row important_over="never"><ch a="E"/>I nie próbuj wracać na wiosnę<ch a="A"/><ch a="H"/></row>
-        <row important_over="never"><ch a="cis"/>Drzewa bez liści nie dają cienia<ch a="A"/></row>
-        <row important_over="never"><ch a="cis"/>Anioły w swetrach nie są ulotne<ch a="A"/></row>
-        <row important_over="never"><ch a="E"/>A przecież kręcą się światy<ch a="H"/><ch a="E"/></row>
-        <row important_over="never"><ch a="A"/>Gdzieś w końcu musi być lato<ch a="H"/><ch a="E"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="A"/>Zupełnie spokojny poszedłem<ch a="H"/><ch a="E"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="2"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<text_author type="solo">Krzysztof Jurkiewicz</text_author>
+	<composer type="solo">Krzysztof Jurkiewicz</composer>
+	<artist type="band">Słodki Całus od Buby</artist>
+	<album>Słodki Całus od Buby</album>
+	<genre>poezja śpiewana</genre>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">I zn<ch a="E"/>owu nadzy i <ch a="H"/>ona tuż <ch a="E"/>obok,</row>
+			<row important_over="true">Sp<ch a="A"/>ojrzałem na tamte wszystkie n<ch a="H"/>oce.</row>
+			<row important_over="true">Prz<ch a="cis"/>ykryj się choć prześcier<ch a="gis"/>adłem,</row>
+			<row important_over="true">J<ch a="A"/>a się już chyba nie zmi<ch a="H"/>enię.</row>
+			<row important_over="true">J<ch a="E"/>uż dawno b<ch a="H"/>yło za p<ch a="E"/>óźno,</row>
+			<row important_over="true">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem,</row>
+			<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Ni<ch a="E"/>e zostawaj w r<ch a="H"/>aju do jesi<ch a="E"/>eni</row>
+			<row important_over="true">I ni<ch a="E"/>e próbuj wr<ch a="A"/>acać na wi<ch a="H"/>osnę.</row>
+			<row important_over="true">Drz<ch a="cis"/>ewa bez liści nie dają ci<ch a="A"/>enia,</row>
+			<row important_over="true">Ani<ch a="cis"/>oły w swetrach nie są ul<ch a="A"/>otne,</row>
+			<row important_over="true">A prz<ch a="E"/>ecież kr<ch a="H"/>ęcą się świ<ch a="E"/>aty,</row>
+			<row important_over="true">Gdzi<ch a="A"/>eś w końcu m<ch a="H"/>usi być l<ch a="E"/>ato.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Szuk<ch a="E"/>ałem tamtych mi<ch a="H"/>ejsc do znudz<ch a="E"/>enia,</row>
+			<row important_over="false">Aż wych<ch a="A"/>odziłem dziury w b<ch a="H"/>utach.</row>
+			<row important_over="false">A ki<ch a="cis"/>edy w końcu znal<ch a="gis"/>azłem:</row>
+			<row important_over="false">Br<ch a="A"/>udne ulice, oblazłe ści<ch a="H"/>any –</row>
+			<row important_over="false">Ni<ch a="E"/>e były j<ch a="H"/>uż nawet wspomni<ch a="E"/>eniem,</row>
+			<row important_over="false">A wsz<ch a="A"/>yscy l<ch a="H"/>udzie <ch a="E"/>obcy.</row>
+			<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem,</row>
+			<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">I zn<ch a="E"/>owu jesień i p<ch a="H"/>ora r<ch a="E"/>uszyć,</row>
+			<row important_over="false">Pud<ch a="A"/>ełka pełne czarno-białych zdj<ch a="H"/>ęć,</row>
+			<row important_over="false">M<ch a="cis"/>yśli, słów i twarzy l<ch a="gis"/>udzkich.</row>
+			<row important_over="false">Gdzi<ch a="A"/>e ciebie znowu w świat g<ch a="H"/>oni?</row>
+			<row important_over="false">T<ch a="E"/>ak szczerze m<ch a="H"/>ówiąc, to ni<ch a="E"/>e wiem.</row>
+			<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem,</row>
+			<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem.</row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="false">Ni<ch a="E"/>e zostawaj w r<ch a="H"/>aju do jesi<ch a="E"/>eni</row>
+				<row important_over="false">I ni<ch a="E"/>e próbuj wr<ch a="A"/>acać na wi<ch a="H"/>osnę.</row>
+				<row important_over="false">Drz<ch a="cis"/>ewa bez liści nie dają ci<ch a="A"/>enia,</row>
+				<row important_over="false">Ani<ch a="cis"/>oły w swetrach nie są ul<ch a="A"/>otne,</row>
+				<row important_over="false">A prz<ch a="E"/>ecież kr<ch a="H"/>ęcą się świ<ch a="E"/>aty,</row>
+				<row important_over="false">Gdzi<ch a="A"/>eś w końcu m<ch a="H"/>usi być l<ch a="E"/>ato.</row>
+			</bis>
+		</block>
+		<block type="other">
+			<bis times="2">
+				<row important_over="false">Zup<ch a="A"/>ełnie spok<ch a="H"/>ojny posz<ch a="E"/>edłem.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<status>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/slodki-calus-od-buby/nowa</verificator>
+			<verificator>https://poezjaspiewana.pl/slodki-calus-od-buby-nowa/</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
