@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cicha noc">
+  <text_author type="solo">Joseph Mohr</text_author>
+  <comment>Jedna z najbardziej znanych kolęd na świecie, powstała w Austrii w 1818 roku. Najpopularniejszy polski przekład napisał Piotr Maszyński (ok. 1930 r.).</comment>
+  <composer type="solo">Franz Xaver Gruber</composer>
+  <artist type="band">Kolęda tradycyjna</artist>
+  <translator>Piotr Maszyński</translator>
+  <original_title>Stille Nacht, heilige Nacht</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Cicha noc, święta noc</row>
-      <row important_over="never"><ch a="G7"/>Pokój niesie ludziom wszem<ch a="C"/><ch a="C7"/></row>
-      <row important_over="never"><ch a="F"/>A u żłóbka matka święta<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Czuwa sama uśmiechnięta<ch a="C"/></row>
-      <row important_over="never"><ch a="G7"/>Nad dzieciątka snem<ch a="a"/></row>
-      <row important_over="never"><ch a="G7"/>Nad dzieciątka snem<ch a="C"/><ch a="G7"/><ch a="C"/></row>
+      <row important_over="true"><ch a="C"/>Cicha noc, święta noc,</row>
+      <row important_over="true"><ch a="G"/>Pokój <ch a="G7"/>niesie <ch a="C"/>ludziom <ch a="C7"/>wszem.</row>
+      <row important_over="true"><ch a="F"/>A u żłóbka <ch a="C"/>Matka Święta</row>
+      <row important_over="true"><ch a="F"/>Czuwa sama <ch a="C"/>uśmiechnięta</row>
+      <row important_over="true"><ch a="G"/>Nad Dzie<ch a="G7"/>ciątka <ch a="C"/>snem, <ch a="a"/></row>
+      <row important_over="true"><ch a="C"/>Nad Dzie<ch a="G7"/>ciątka <ch a="C"/>snem.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Cicha noc, święta noc</row>
-      <row important_over="never"><ch a="G7"/>Pastuszkowie od swych trzód<ch a="C"/><ch a="C7"/></row>
-      <row important_over="never"><ch a="F"/>Biegną wielce zadziwieni<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Za anielskim głosem pieni<ch a="C"/></row>
-      <row important_over="never"><ch a="G7"/>Gdzie się spełnił cud<ch a="a"/></row>
-      <row important_over="never"><ch a="G7"/>Gdzie się spełnił cud<ch a="C"/><ch a="G7"/><ch a="C"/></row>
+      <row important_over="never">Cicha noc, święta noc,</row>
+      <row important_over="never">Pastuszkowie od swych trzód</row>
+      <row important_over="never">Biegną wielce zadziwieni</row>
+      <row important_over="never">Za anielskim głosem pieni,</row>
+      <row important_over="never">Gdzie się spełnił cud,</row>
+      <row important_over="never">Gdzie się spełnił cud.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Cicha noc, święta noc</row>
-      <row important_over="never"><ch a="G7"/>Narodzony boży syn<ch a="C"/><ch a="C7"/></row>
-      <row important_over="never"><ch a="F"/>Pan wielkiego majestatu<ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Niesie dziś całemu światu<ch a="C"/></row>
-      <row important_over="never"><ch a="G7"/>Odkupienie win<ch a="a"/></row>
-      <row important_over="never"><ch a="G7"/>Odkupienie win<ch a="C"/><ch a="G7"/><ch a="C"/></row>
+      <row important_over="never">Cicha noc, święta noc,</row>
+      <row important_over="never">Narodzony Boży Syn,</row>
+      <row important_over="never">Pan wielkiego majestatu</row>
+      <row important_over="never">Niesie dziś całemu światu</row>
+      <row important_over="never">Odkupienie win,</row>
+      <row important_over="never">Odkupienie win.</row>
     </block>
   </lyric>
-  <music>
+  <music metre="6/8">
     <guitar barre="0"/>
   </music>
-  <keywords/>
-  <genre>Kolęda</genre>
+  <genre>kolęda</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/koledy/cicha-noc</verificator>
+    </verificators>
   </status>
 </song>
