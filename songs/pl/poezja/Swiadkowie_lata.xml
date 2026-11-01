@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Świadkowie lata" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>Ukryci w nieba błękitach</alias>
 	<text_author type="solo">Arkadiusz Kobus</text_author>
-	<comment></comment>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Ukryci w nieba błękitach, złotach i szkarłatach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">W jeżynowych sadach, malinowych chatach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">wabieni przez leśne echa, straszeni przez nocne lęki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">wszystko takie odległe, tylko ty na wyciągnięcie ręki<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="true"><ch a="Fis"/>Ukryci w nieba błękitach, złotach i szkarłat<ch a="H"/>ach</row>
+			<row important_over="true"><ch a="Fis"/>W jeżynowych sadach, malinowych ch<ch a="H"/>atach</row>
+			<row important_over="true"><ch a="A"/>wabieni przez leśne echa, <ch a="H"/>straszeni przez nocne l<ch a="Fis"/>ęki</row>
+			<row important_over="true">wszystko takie <ch a="A"/>odległe, tylko ty na <ch a="H"/>wyciągnięcie r<ch a="Fis"/>ęki</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Uwięzieni w letnich woniach, w lipowych zapachach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">pieszczeni przez złote żuki w ich kosmatych łapach<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">wpatrzeni w trawioną gorączką purpurową twarz słońca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">splecione dłonie skóra spierzchnięta od gorąca<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>Uwięzieni w letnich woniach, w lipowych zapach<ch a="H"/>ach</row>
+			<row important_over="false"><ch a="Fis"/>pieszczeni przez złote żuki w ich kosmatych ł<ch a="H"/>apach</row>
+			<row important_over="false"><ch a="A"/>wpatrzeni w trawioną gorączką pur<ch a="H"/>purową twarz sł<ch a="Fis"/>ońca</row>
+			<row important_over="false">splecione <ch a="A"/>dłonie, skóra spierzchnięta <ch a="H"/>od gor<ch a="Fis"/>ąca</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Stąpający po pożądania rozpalonych węglach<ch a="Cis"/><ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
-			<row important_over="never">zamierają słowa na bezbronnych wargach<ch a="H"/><ch a="Fis"/><ch a="Cis"/></row>
-			<row important_over="never">w odwiecznym tańcu pulsuje przyroda<ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">uderza do głowy,<ch a="gis"/></row>
+			<row important_over="true"><ch a="Cis"/>Stąpający po pożąda<ch a="H"/>nia rozpalonych węgl<ch a="Fis"/>ach <ch a="Cis"/></row>
+			<row important_over="true"><ch a="H"/>zamierają słow<ch a="Fis"/>a na bezbronnych w<ch a="Cis"/>argach</row>
+			<row important_over="true"><ch a="H"/>w odwiecznym tańcu pulsuje przyr<ch a="Fis"/>oda</row>
+			<row important_over="true"><ch a="gis"/>uderza do głowy,</row>
 			<bis times="3">
-				<row important_over="never">pulsuje w skroniach<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+				<row important_over="true"><ch a="A"/>pulsu<ch a="H"/>je w skron<ch a="Fis"/>iach</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="never">W rozdrganym powietrzu dźwięczy lot motyla<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">chwila staje się wiecznością, a wieczność jak chwila<ch a="Fis"/><ch a="H"/></row>
-			<row important_over="never">ukryci w nieba błękitach na wierzchołku świata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
-			<row important_over="never">dwoje niemych świadków czeznącego lata<ch a="A"/><ch a="H"/><ch a="Fis"/></row>
+			<row important_over="false"><ch a="Fis"/>W rozdrganym powietrzu dźwięczy lot mot<ch a="H"/>yla</row>
+			<row important_over="false"><ch a="Fis"/>chwila staje się wiecznością, a wieczność jak chw<ch a="H"/>ila</row>
+			<row important_over="false"><ch a="A"/>ukryci w nieba błękitach <ch a="H"/>na wierzchołku świ<ch a="Fis"/>ata</row>
+			<row important_over="false">dwoje niemych <ch a="A"/>świadków czezną<ch a="H"/>cego l<ch a="Fis"/>ata</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>U źródeł tęsknot (1998)</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
-		<verificators>
-		</verificators>
-		<to_do></to_do>
+		<verificators/>
 	</status>
-	<music_source></music_source>
+	<music_source>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/swiadkowie-lata</music_source>
 </song>
