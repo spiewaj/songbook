@@ -1,91 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Opowieść pewnego emigranta">
-	<alias></alias>
+<?xml version="1.0" encoding="utf-8"?>
+<song title="Opowieść pewnego emigranta" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>Nie bój się, nie zabraknie, to krajowa czysta</alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment></comment>
+	<comment>Piosenka napisana 5 kwietnia 1987 r. na emigracji, oparta na autentycznych powojennych biografiach.</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="true">
-				<ch a="d"/>Nie bój się, nie zabraknie, <ch a="C"/>to krajowa czysta</row>
-			<row important_over="true">Ja <ch a="A7"/>widzisz przed wojną b<ch a="g"/>yłem komu<ch a="d"/>nista</row>
-			<row important_over="true">Bo ja chciałem być kimś, bo ja <ch a="C"/>byłem Żyd</row>
-			<row important_over="true">A jak <ch a="A7"/>Żyd nie był kimś, to ten Żyd był nikt</row>
-			<row important_over="false">Może stąd dla świata tyle z nas pożytku<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Że bankierom i skrzypkom nie mówią: ty Żydku!<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="true"><ch a="d"/>Nie bój się, nie zabraknie, <ch a="C"/>to krajowa czysta,</row>
+			<row important_over="true">Ja, <ch a="A7"/>widzisz, przed wojną b<ch a="g"/>yłem komu<ch a="d"/>nistą,</row>
+			<row important_over="true">Bo ja <ch a="d"/>chciałem być kimś, bo ja <ch a="C"/>byłem Żyd,</row>
+			<row important_over="true">A jak <ch a="A7"/>Żyd nie był kimś, to ten Żyd był nikt.</row>
+			<row important_over="true">Może <ch a="d"/>stąd dla świata t<ch a="C"/>yle z nas pożytku,</row>
+			<row important_over="true">Że ban<ch a="A7"/>kierom i skrzypkom nie m<ch a="g"/>ówią: „ty Ż<ch a="d"/>ydku!”</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Ja bankierem nie byłem, ani wirtuozem<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Wojnę w Rosji przeżyłem, oswoiłem się z mrozem<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>I na własnych nogach przekroczyłem Bug</row>
-			<row important_over="false"><ch a="A7"/>Razem z Armią Czerwoną, jako politruk</row>
-			<row important_over="false">Ja byłem jak Mojżesz, niosłem prawa nowe<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Na których się miało oprzeć odbudowę<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">Ja ban<ch a="d"/>kierem nie byłem <ch a="C"/>ani wirtuozem,</row>
+			<row important_over="false">Wojnę w R<ch a="A7"/>osji przeżyłem, osw<ch a="g"/>oiłem się z mr<ch a="d"/>ozem</row>
+			<row important_over="false">I na wł<ch a="d"/>asnych nogach przekr<ch a="C"/>oczyłem Bug</row>
+			<row important_over="false">Razem z <ch a="A7"/>Armią Czerwoną jako politruk.</row>
+			<row important_over="false">Ja b<ch a="d"/>yłem jak Mojżesz, ni<ch a="C"/>osłem prawa nowe,</row>
+			<row important_over="false">Na kt<ch a="A7"/>órych się miało <ch a="g"/>oprzeć odbud<ch a="d"/>owę.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A potem mnie — lojalnego komunistę<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Przekwalifikowali na manikiurzystę<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>Ja kocham Mozarta, bóg to dla mnie Bach</row>
-			<row important_over="false"><ch a="A7"/>A tam, gdzie pracowałem, tylko krew i strach</row>
-			<row important_over="false">Spałem dobrze przez ścianę słysząc ludzkie krzyki<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">A usnąć nie mogłem przy dźwiękach muzyki<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">A p<ch a="d"/>otem mnie — loj<ch a="C"/>alnego komunistę —</row>
+			<row important_over="false">Przekwalifi<ch a="A7"/>kowali na m<ch a="g"/>anikiurz<ch a="d"/>ystę.</row>
+			<row important_over="false">Ja k<ch a="d"/>ocham Mozarta, b<ch a="C"/>óg to dla mnie Bach,</row>
+			<row important_over="false">A t<ch a="A7"/>am, gdzie pracowałem — tylko krew i strach.</row>
+			<row important_over="false">Sp<ch a="d"/>ałem dobrze, przez ścianę sł<ch a="C"/>ysząc ludzkie krzyki,</row>
+			<row important_over="false">A usn<ch a="A7"/>ąć nie mogłem prz<ch a="g"/>y dźwiękach muz<ch a="d"/>yki.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">W następstwie października tak zwanych wydarzeń<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Już nie byłem w Urzędzie, byłem dziennikarzem<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>Ja znałem języki, nie mnie uczyć jak</row>
-			<row important_over="false"><ch a="A7"/>Pisać wprost, to, co łatwiej, można pisać wspak</row>
-			<row important_over="false">Wtedy myśl się zrodził, niechcący być może<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Żem się z krajem tym związał jak mogłem najgorzej<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">W nast<ch a="d"/>ępstwie Października t<ch a="C"/>ak zwanych wydarzeń</row>
+			<row important_over="false">Już nie b<ch a="A7"/>yłem w Urzędzie, b<ch a="g"/>yłem dziennik<ch a="d"/>arzem.</row>
+			<row important_over="false">Ja zn<ch a="d"/>ałem języki, ni<ch a="C"/>e mnie uczyć jak</row>
+			<row important_over="false">P<ch a="A7"/>isać wprost to, co łatwiej można pisać wspak.</row>
+			<row important_over="false">Wt<ch a="d"/>edy myśl się zrodziła, ni<ch a="C"/>echcący być może,</row>
+			<row important_over="false">Żem si<ch a="A7"/>ę z krajem tym związał, j<ch a="g"/>ak mogłem najg<ch a="d"/>orzej.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Za tę hańbę zasługi — Warszawa czy Kraków<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Gomułka nam powiedział — Polska dla Polaków<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>Już nie dla przybłędów pospolita rzecz</row>
-			<row important_over="false"><ch a="A7"/>Wiesław jak faraon popędził nas precz</row>
-			<row important_over="false">I szli profesorowie, uczeni, pisarze<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Pracownicu Urzędu, szli i dziennikarze<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">Za t<ch a="d"/>ę hańbę zasługi — W<ch a="C"/>arszawa czy Kraków —</row>
+			<row important_over="false">Gom<ch a="A7"/>ułka nam powiedział: „P<ch a="g"/>olska dla Pol<ch a="d"/>aków”.</row>
+			<row important_over="false">Już ni<ch a="d"/>e dla przybłędów posp<ch a="C"/>olita rzecz,</row>
+			<row important_over="false">Wi<ch a="A7"/>esław jak faraon popędził nas precz.</row>
+			<row important_over="false">I szl<ch a="d"/>i profesorowie, uczeni, pisarze,</row>
+			<row important_over="false">Prac<ch a="A7"/>ownicy Urzędu, szl<ch a="g"/>i i dziennik<ch a="d"/>arze.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">W Tel Awiwie właśnie, zza rogu, z rozpędu<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Wpadłem na byłego kolegę z Urzędu<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>I pod Ścianę Płaczu iść mi było wstyd</row>
-			<row important_over="false"><ch a="A7"/>Czy ja komunista, czy Polak, czy Żyd?</row>
-			<row important_over="false">Nie umiałem jak on, chwały czerpać teraz<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Z tego, że się z bankruta robi bohatera<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">W Tel Awiwie wł<ch a="d"/>aśnie zza rogu, z rozp<ch a="C"/>ędu,</row>
+			<row important_over="false">Wp<ch a="A7"/>adłem na byłego kol<ch a="g"/>egę z Urz<ch a="d"/>ędu</row>
+			<row important_over="false">I p<ch a="d"/>od Ścianę Płaczu iść m<ch a="C"/>i było wstyd:</row>
+			<row important_over="false">Cz<ch a="A7"/>y ja komunista, czy Polak, czy Żyd?</row>
+			<row important_over="false">Nie umi<ch a="d"/>ałem jak on chw<ch a="C"/>ały czerpać teraz</row>
+			<row important_over="false">Z t<ch a="A7"/>ego, że się z bankruta r<ch a="g"/>obi bohat<ch a="d"/>era.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Wyjechałem, przeniosłem się tutaj, do Stanów<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Mówią: czym jest komunizm, ucz Amerykanów<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>Powiedz im co wiesz, co na sumieniu masz</row>
-			<row important_over="false"><ch a="A7"/>A odkupisz grzechy i odzyskasz twarz</row>
-			<row important_over="false">A ja przecież nie umiem nawet ująć w słowa<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Jak wygląda to, com niszcząc budował<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">Wyj<ch a="d"/>echałem, przeniosłem się t<ch a="C"/>utaj, do Stanów;</row>
+			<row important_over="false">M<ch a="A7"/>ówią: czym jest komunizm, <ch a="g"/>ucz Ameryk<ch a="d"/>anów,</row>
+			<row important_over="false">Pow<ch a="d"/>iedz im, co wiesz, co n<ch a="C"/>a sumieniu masz,</row>
+			<row important_over="false">A odk<ch a="A7"/>upisz grzechy i odzyskasz twarz.</row>
+			<row important_over="false">A j<ch a="d"/>a przecież nie umiem n<ch a="C"/>awet ująć w słowa,</row>
+			<row important_over="false">Jak wygl<ch a="A7"/>ąda to, com n<ch a="g"/>iszcząc bud<ch a="d"/>ował.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">I tak sam sobie zgotowałem zgubę<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Meloman — nie skrzypek, nie bankier — a ubek<ch a="A7"/><ch a="g"/><ch a="d"/></row>
-			<row important_over="false"><ch a="C"/>Oficer polityczny — nie russkij gieroj</row>
-			<row important_over="false"><ch a="A7"/>Ani syjonista, ani też i goj</row>
-			<row important_over="false">Jak ja powiem Jehowie: za mną Jahwe stań!<ch a="d"/><ch a="C"/></row>
-			<row important_over="false">Z tą Polską związanym pępowiną hańb<ch a="A7"/><ch a="g"/><ch a="d"/></row>
+			<row important_over="false">I t<ch a="d"/>ak sam sobie zgotow<ch a="C"/>ałem zgubę:</row>
+			<row important_over="false">Mel<ch a="A7"/>oman — nie skrzypek, nie b<ch a="g"/>ankier — a <ch a="d"/>ubek,</row>
+			<row important_over="false">Of<ch a="d"/>icer polityczny — ni<ch a="C"/>e russkij gieroj,</row>
+			<row important_over="false">Ani sj<ch a="A7"/>onista, ani też i goj.</row>
+			<row important_over="false">Jak j<ch a="d"/>a powiem Jehowie: „Z<ch a="C"/>a mną, Jahwe, stań!”,</row>
+			<row important_over="false">Z tą P<ch a="A7"/>olską związanym p<ch a="g"/>ępowiną h<ch a="d"/>ańb?</row>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<album>Live</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>Piotr Tabor</verificator>
 		</verificators>
-		<to_do></to_do>
-		<done/>
 	</status>
-	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
 </song>
