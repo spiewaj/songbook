@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song title="Świerszcz" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment>Piosenka zasłyszana gdzieś przez Martynę - poszukuję informacji o wykonawcy i autorach.</comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Koncert świerszcza</alias>
+	<text_author>tradycyjna</text_author>
+	<comment>Popularna piosenka harcerska i turystyczna o nieustalonym autorstwie.</comment>
+	<composer>tradycyjna</composer>
+	<artist type="band">Piosenka harcerska</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Kołysze nami ciepły wiatr<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I coraz wolniej płynie czas,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">W sen już odpływa cały świat<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I tylko nie wiem, kto tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row important_over="true"><ch a="D"/>Kołysze <ch a="e"/>nami <ch a="D"/>ciepły <ch a="e"/>wiatr</row>
+			<row important_over="true"><ch a="D"/>I coraz <ch a="e"/>wolniej <ch a="D"/>płynie <ch a="e"/>czas,</row>
+			<row important_over="true"><ch a="D"/>W sen już od<ch a="e"/>pływa <ch a="D"/>cały <ch a="e"/>świat</row>
+			<row important_over="true"><ch a="D"/>I tylko <ch a="e"/>nie wiem, <ch a="D"/>kto tak <ch a="e"/>gra.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Wieczorny koncert stworzył świerszcz<ch a="h"/><ch a="fis"/></row>
-			<row important_over="never">Budząc znów wspomnień czas<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">I błyszcząc w księżycowej mgle<ch a="h"/><ch a="fis"/></row>
-			<row important_over="never">Szczyty gór, grzbiety fal,<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">Nocy czas.<ch a="e"/><ch a="D"/></row>
+			<row important_over="true"><ch a="h"/>Wieczorny <ch a="fis"/>koncert stworzył świerszcz</row>
+			<row important_over="true"><ch a="G"/>Budząc znów <ch a="D"/>wspomnień czas</row>
+			<row important_over="true"><ch a="h"/>I błyszcząc w <ch a="fis"/>księżycowej mgle</row>
+			<row important_over="true"><ch a="G"/>Szczyty gór, <ch a="D"/>grzbiety fal,</row>
+			<row important_over="true"><ch a="e"/>Nocy <ch a="D"/>czas.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">My otuleni w ciepły koc<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I zapatrzeni w setki gwiazd,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Ogniska płomień topi noc<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I tylko nie wiem, co tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row><ch a="D"/>My otu<ch a="e"/>leni w <ch a="D"/>ciepły <ch a="e"/>koc</row>
+			<row><ch a="D"/>I zapa<ch a="e"/>trzeni w <ch a="D"/>setki <ch a="e"/>gwiazd,</row>
+			<row><ch a="D"/>Ogniska <ch a="e"/>płomień <ch a="D"/>topi <ch a="e"/>noc</row>
+			<row><ch a="D"/>I tylko <ch a="e"/>nie wiem, <ch a="D"/>co tak <ch a="e"/>gra.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Uciekły ptaki do swych gniazd,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Kwiaty zasnęły pośród traw,<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">Znużony czasem usnął las<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
-			<row important_over="never">I chyba wiem już, kto tak gra.<ch a="D"/><ch a="e"/><ch a="D"/><ch a="e"/></row>
+			<row><ch a="D"/>Uciekły <ch a="e"/>ptaki <ch a="D"/>do swych <ch a="e"/>gniazd,</row>
+			<row><ch a="D"/>Kwiaty za<ch a="e"/>snęły <ch a="D"/>pośród <ch a="e"/>traw,</row>
+			<row><ch a="D"/>Znużony <ch a="e"/>czasem <ch a="D"/>usnął <ch a="e"/>las</row>
+			<row><ch a="D"/>I chyba <ch a="e"/>wiem już, <ch a="D"/>kto tak <ch a="e"/>gra.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Poezja śpiewana</genre>
+	<genre>Piosenka harcerska</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
 		</verificators>
-		<to_do></to_do>
 	</status>
-	<music_source></music_source>
 </song>
