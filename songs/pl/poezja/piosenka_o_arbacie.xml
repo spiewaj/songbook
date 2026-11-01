@@ -1,62 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Piosenka o Arbacie" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o Arbacie">
+	<alias>Rzeczny wir, rwący prąd</alias>
 	<text_author type="solo">Bułat Okudżawa</text_author>
 	<comment>Powtórzenie dwóch ostatnich linijek zwrotki ma inną melodię. Ostatnia linijka ostatniej zwrotki ma jeszcze inną melodię.</comment>
 	<composer type="solo">Bułat Okudżawa</composer>
 	<artist type="solo">Bułat Okudżawa</artist>
-	<translator>Andrzej Mandalin</translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<translator>Andrzej Mandalian</translator>
+	<original_title>Песенка об Арбате</original_title>
+	<lyric>
 		<block type="verse">
-			<row important_over="true">Rzeczny w<ch a="e"/>ir, rwący pr<ch a="H7"/>ąd, <ch a="H7"/>obca nazwa, ł<ch a="e"/>atwy rytm,</row>
-			<row important_over="true">Lecz przejrz<ch a="e"/>ysty Twój n<ch a="Fis7"/>urt,<ch a="Fis7"/> jak kryniczny zdr<ch a="H7"/>ój!</row>
-			<row important_over="true">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y, wi<ch a="Fis7"/>ecznym przeznacz<ch a="H7"/>eniem m<ch a="e"/>ym!</row>
+			<row important_over="true">Rzeczny w<ch a="e"/>ir, rwący pr<ch a="H7"/>ąd, obca nazwa, ł<ch a="e"/>atwy rytm,</row>
+			<row important_over="true">lecz przejrz<ch a="e"/>ysty Twój n<ch a="Fis7"/>urt jak kryniczny zdr<ch a="H7"/>ój!</row>
+			<row important_over="true">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y wiecznym przeznacz<ch a="H7"/>eniem m<ch a="e"/>ym!</row>
 			<row important_over="true">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
-			<row important_over="true">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y, wiecznym prz<ch a="H7"/>eznaczeniem m<ch a="e"/>ym!</row>
-			<row important_over="false">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
+			<row important_over="true">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y wiecznym przeznaczeniem m<ch a="e"/>ym!</row>
+			<row important_over="true">W Tobie r<ch a="C"/>adość i gni<ch a="e"/>ew, w T<ch a="H7"/>obie śmiech i b<ch a="e"/>ól.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Gdy przech<ch a="e"/>odniów Twych tł<ch a="H7"/>um s<ch a="H7"/>unie obok r<ch a="e"/>ojem pstrym,</row>
-			<row important_over="false">Tak pospi<ch a="e"/>eszny ich kr<ch a="Fis7"/>ok,<ch a="Fis7"/> tak powszedni śl<ch a="H7"/>ad.</row>
-			<row important_over="false">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y, wi<ch a="Fis7"/>arą i zbawi<ch a="H7"/>eniem m<ch a="e"/>ym!</row>
-			<row important_over="false">Wyślizg<ch a="C"/>any Twój br<ch a="e"/>uk t<ch a="H7"/>o mój cały świ<ch a="e"/>at.</row>
-			<row important_over="false">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y, wiarą <ch a="H7"/>i zbawieniem m<ch a="e"/>ym!</row>
-			<row important_over="false">Wyślizg<ch a="C"/>any Twój br<ch a="e"/>uk t<ch a="H7"/>o mój cały świ<ch a="e"/>at.</row>
+			<row important_over="false">Gdy przech<ch a="e"/>odniów Twych tł<ch a="H7"/>um sunie obok r<ch a="e"/>ojem pstrym,</row>
+			<row important_over="false">tak pospi<ch a="e"/>eszny ich kr<ch a="Fis7"/>ok, tak powszedni śl<ch a="H7"/>ad.</row>
+			<row important_over="false">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y wiarą i zbawi<ch a="H7"/>eniem m<ch a="e"/>ym!</row>
+			<row important_over="false">Wyślizg<ch a="C"/>any Twój br<ch a="e"/>uk, t<ch a="H7"/>o mój cały świ<ch a="e"/>at.</row>
+			<row important_over="false">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y wiarą i zbawieniem m<ch a="e"/>ym!</row>
+			<row important_over="false">Wyślizg<ch a="C"/>any Twój br<ch a="e"/>uk, t<ch a="H7"/>o mój cały świ<ch a="e"/>at.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Czarów ni<ch a="e"/>e da się zdj<ch a="H7"/>ąć m<ch a="H7"/>ocą dobrą, ani zł<ch a="e"/>ą,</row>
-			<row important_over="false">Choćbym t<ch a="e"/>ysiąc śnił mi<ch a="Fis7"/>ast, ni<ch a="Fis7"/>e zamieszkam w n<ch a="H7"/>ich!</row>
-			<row important_over="false">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y, zi<ch a="Fis7"/>emią obiec<ch a="H7"/>aną m<ch a="e"/>ą!</row>
+			<row important_over="false">Czarów ni<ch a="e"/>e da się zdj<ch a="H7"/>ąć mocą dobrą ani zł<ch a="e"/>ą,</row>
+			<row important_over="false">choćbym t<ch a="e"/>ysiąc śnił mi<ch a="Fis7"/>ast, nie zamieszkam w n<ch a="H7"/>ich!</row>
+			<row important_over="false">Ach, Arb<ch a="e"/>acie, toś T<ch a="Fis7"/>y ziemią obiec<ch a="H7"/>aną m<ch a="e"/>ą!</row>
 			<row important_over="false">Niezbad<ch a="C"/>anych Twych dr<ch a="e"/>óg ni<ch a="H7"/>e przemierzy n<ch a="e"/>ikt.</row>
-			<row important_over="false">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y, ziemią <ch a="H7"/>obiecaną m<ch a="e"/>ą!</row>
+			<row important_over="false">Ach, Arb<ch a="Fis7"/>acie, toś T<ch a="H7"/>y ziemią obiecaną m<ch a="e"/>ą!</row>
 			<row important_over="false">Niezbad<ch a="C"/>anych Twych dr<ch a="e"/>óg ni<ch a="H7"/>e przemierzy n<ch a="e"/>ikt.</row>
 		</block>
 	</lyric>
-	
-	
-	
-	
-	
-	
-	
 	<music metre="4/4">
 		<guitar barre="2"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Poezja śpiewana</genre>
+	<genre>poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords/>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			
+			<verificator>https://bibliotekapiosenki.pl/utwory/Piosenka_o_Arbacie</verificator>
+			<verificator>Piotr Tabernacki</verificator>
 		</verificators>
-		<to_do></to_do>
+		<to_do/>
 	</status>
-	<music_source></music_source>
 </song>
