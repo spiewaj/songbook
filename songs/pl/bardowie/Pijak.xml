@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pijak">
-	<alias/>
-	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment/>
+	<alias>Napełnij szklankę mi</alias>
+	<text_author type="solo">Jacques Brel</text_author>
+	<comment>Napisany w 1974 r. Swobodne tłumaczenie utworu Jacques'a Brela „L'Ivrogne” z własną muzyką Jacka Kaczmarskiego. Album „Bankiet” (1992).</comment>
 	<composer type="solo">Jacek Kaczmarski</composer>
 	<artist type="solo">Jacek Kaczmarski</artist>
-	<translator/>
-	<original_title/>
+	<translator>Jacek Kaczmarski</translator>
+	<original_title>L'Ivrogne</original_title>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
@@ -16,7 +16,7 @@
 			<row important_over="true">Nie pł<ch a="a"/>aczę pozwól p<ch a="d"/>ić</row>
 			<row important_over="true">Bo wst<ch a="G"/>yd mi sobą b<ch a="E"/>yć</row>
 			<bis>
-				<row important_over="false">Nap<ch a="a"/>ełnij szklankę m<ch a="d"/>i</row>
+				<row important_over="true">Nap<ch a="a"/>ełnij szklankę m<ch a="d"/>i</row>
 				<row important_over="true">Nap<ch a="E"/>ełnij szklankę m<ch a="a"/>i</row>
 			</bis>
 		</block>
@@ -46,9 +46,9 @@
 		</block>
 		<block type="verse">
 			<row important_over="false">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
-			<row important_over="false">Ost<ch a="H"/>atni nalej ra<ch a="E"/>z</row>
+			<row important_over="false">Ost<ch a="H"/>atni nalej r<ch a="E"/>az</row>
 			<row important_over="false">Nap<ch a="a"/>ełnij szklankę m<ch a="C"/>i</row>
-			<row important_over="false">I p<ch a="H"/>ójdę bo już cza<ch a="E"/>s</row>
+			<row important_over="false">I p<ch a="H"/>ójdę bo już cz<ch a="E"/>as</row>
 			<row important_over="false">Tym l<ch a="a"/>epiej jeśli mni<ch a="d"/>e</row>
 			<row important_over="false">Rozdr<ch a="G"/>ażni wino tw<ch a="E"/>e</row>
 			<bis>
@@ -81,14 +81,14 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row important_over="false">Więc p<ch a="a"/>ijmy póki cza<ch a="C"/>s</row>
-			<row important_over="false">Aż zw<ch a="H"/>alę się pod stó<ch a="E"/>ł</row>
+			<row important_over="false">Więc p<ch a="a"/>ijmy póki cz<ch a="C"/>as</row>
+			<row important_over="false">Aż zw<ch a="H"/>alę się pod st<ch a="E"/>ół</row>
 			<row important_over="false">Bym n<ch a="a"/>ie czuł to com cz<ch a="C"/>uł</row>
 			<row important_over="false">Bym zg<ch a="H"/>ubił to com cz<ch a="E"/>uł</row>
 			<row important_over="false">Więc p<ch a="a"/>ijmy póki źl<ch a="d"/>e</row>
 			<row important_over="false">Więc p<ch a="G"/>ijmy żeby pi<ch a="E"/>ć</row>
 			<bis>
-				<row important_over="false">Upij<ch a="a"/>ę wkrótce s<ch a="d"/>ię</row>
+				<row important_over="false">Up<ch a="a"/>iję wkrótce si<ch a="d"/>ę</row>
 				<row important_over="false">Nadzi<ch a="E"/>ei zerwę n<ch a="a"/>ić</row>
 			</bis>
 		</block>
@@ -105,21 +105,20 @@
 			</bis>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="3/4">
 		<guitar barre="2"/>
 	</music>
+	<album>Bankiet</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Alek za Józkiem</verificator>
-			
-		</verificators>
-		<to_do/>
 		<done>
-			
+			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
+		<verificators>
+			<verificator>Alek za Józkiem</verificator>
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/pijak/</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<music_source/>
-	<album/>
-	<genre/>
 </song>
