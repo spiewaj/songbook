@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szkic do portretu">
-  <alias/>
-  <text_author type="solo">Mariusz Zadura</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Nikt nie grał na gitarze<ch a="D"/></row>
-      <row important_over="never"><ch a="A"/>Tak jak on</row>
-      <row important_over="never"><ch a="e"/>Często przy ogniu pośród nas<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Patrząc w gwiaździsty nieba skłon<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="e"/>Siadał śpiewając aż po brzask<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>Piosenek swoich szukał w szumie traw<ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Wsłuchiwał się w potoków śpiew<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="fis"/>W dźwięki zasypiających miast<ch a="G"/><ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>I wiatru szept w koronach drzew<ch a="G"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
-        <row important_over="never"><ch a="e"/>Wołaliśmy gdy zbliżał się świt<ch a="fis"/><ch a="h"/></row>
-        <row important_over="never"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
-        <row important_over="never"><ch a="e"/>Tych nocy nie zapomni nikt<ch a="G"/><ch a="D"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Nie dbał o wygląd ni o szmal<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="e"/>Daleki był mu wszelki szpan<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Wciąż zapatrzony w siną dal<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="e"/>Włóczył się z pudłem tu i tam<ch a="G"/><ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>Minęło ładnych parę lat<ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Odkąd już nie widziałem go<ch a="D"/><ch a="A"/></row>
-      <row important_over="never"><ch a="fis"/>Podobno zginął po nim szlak<ch a="G"/><ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Gdy odszedł razem z ranną mgłą<ch a="G"/><ch a="D"/></row>
-    </block>
-    <block type="verse">
-      <bis times="3">
-        <row important_over="never"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
-        <row important_over="never"><ch a="e"/>Wołaliśmy gdy zbliżał się świt<ch a="fis"/><ch a="h"/></row>
-        <row important_over="never"><ch a="G"/>Graj graj jeszcze graj<ch a="D"/><ch a="A"/></row>
-        <row important_over="never"><ch a="e"/>Tych nocy nie zapomni nikt<ch a="G"/><ch a="D"/></row>
-      </bis>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Nikt nie grał na gitarze tak jak on</alias>
+	<text_author type="solo">Mariusz Zadura</text_author>
+	<comment>Piosenka dedykowana pamięci Wojciecha Bellona.</comment>
+	<composer type="solo">Mariusz Zadura</composer>
+	<artist type="solo">Mariusz Zadura</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="G"/>Nikt nie grał na gi<ch a="D"/>tarze <ch a="A"/>tak jak on,</row>
+			<row important_over="true"><ch a="e"/>Często przy ogniu <ch a="G"/>pośród <ch a="D"/>nas,</row>
+			<row important_over="true"><ch a="G"/>Patrząc w gwieź<ch a="D"/>dzisty nieba <ch a="A"/>skłon,</row>
+			<row important_over="true"><ch a="e"/>Siadał, śpiewając <ch a="G"/>aż po <ch a="D"/>brzask.</row>
+			<row important_over="true"><ch a="e"/>Piosenek swoich szu<ch a="A"/>kał w szumie <ch a="D"/>traw,</row>
+			<row important_over="true"><ch a="G"/>Wsłuchiwał się w po<ch a="D"/>toków <ch a="A"/>śpiew,</row>
+			<row important_over="true"><ch a="fis"/>W dźwięki zasypia<ch a="G"/>jących <ch a="A"/>miast</row>
+			<row important_over="true"><ch a="D"/>I wiatru szept w ko<ch a="G"/>ronach <ch a="D"/>drzew.</row>
+		</block>
+		<block type="chorus">
+			<bis>
+				<row important_over="true"><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row important_over="true"><ch a="e"/>Wołaliśmy, gdy zbli<ch a="fis"/>żał się <ch a="h"/>świt,</row>
+				<row important_over="true"><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row important_over="true"><ch a="e"/>Tych nocy nie za<ch a="G"/>pomni <ch a="D"/>nikt.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row><ch a="G"/>Nie dbał o wygląd <ch a="D"/>ni o <ch a="A"/>szmal,</row>
+			<row><ch a="e"/>Daleki był mu <ch a="G"/>wszelki <ch a="D"/>szpan,</row>
+			<row><ch a="G"/>Wciąż zapatrzony <ch a="D"/>w siną <ch a="A"/>dal,</row>
+			<row><ch a="e"/>Włóczył się z pudłem <ch a="G"/>tu i <ch a="D"/>tam.</row>
+			<row><ch a="e"/>Minęło ładnych <ch a="A"/>parę <ch a="D"/>lat,</row>
+			<row><ch a="G"/>Odkąd już nie wi<ch a="D"/>działem <ch a="A"/>go,</row>
+			<row><ch a="fis"/>Podobno zginął <ch a="G"/>po nim <ch a="A"/>ślad,</row>
+			<row><ch a="D"/>Gdy odszedł razem z <ch a="G"/>ranną <ch a="D"/>mgłą.</row>
+		</block>
+		<block type="chorus">
+			<bis times="3">
+				<row><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row><ch a="e"/>Wołaliśmy, gdy zbli<ch a="fis"/>żał się <ch a="h"/>świt,</row>
+				<row><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row><ch a="e"/>Tych nocy nie za<ch a="G"/>pomni <ch a="D"/>nikt.</row>
+			</bis>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Chory na wyobraźnię</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+	</status>
 </song>
