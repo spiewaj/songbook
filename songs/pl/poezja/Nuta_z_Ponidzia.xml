@@ -2,50 +2,58 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nuta z Ponidzia">
 	<alias>Ponidzie</alias>
 	<text_author type="solo">Wojciech Bellon</text_author>
+	<composer type="solo">Wojciech Bellon</composer>
 	<artist type="band">Wolna Grupa Bukowina</artist>
+	<album>Bukowina</album>
+	<genre>poezja śpiewana</genre>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Polami, polami, po miedzach, po miedzach<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Po błocku skisłym w mgłę i wiatr<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Nie za szybko, kroki drobiąc<ch a="h7"/><ch a="E"/></row>
-			<row important_over="never">Idzie wiosna, idzie nam<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
-			<row important_over="never">Idzie wiosna, idzie<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+			<row important_over="true">P<ch a="a"/>olami, pol<ch a="F"/>ami, po mi<ch a="G"/>edzach, po mi<ch a="C7+"/>edzach,</row>
+			<row important_over="true">Po bł<ch a="d7"/>ocku skisłym, w mgl<ch a="G"/>ę i wi<ch a="C7+"/>atr.</row>
+			<row important_over="true">Ni<ch a="h7"/>e za szybko, kr<ch a="E"/>oki drobiąc,</row>
+			<row important_over="true"><ch a="a"/> Idzie wiosna, <ch a="G6"/>idzie n<ch a="F7+"/>am,<ch a="G"/></row>
+			<row important_over="true"><ch a="a"/> Idzie wi<ch a="G"/>osna, <ch a="e"/>idzi<ch a="E"/>e... <ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Rozłożyła wiosna spódnicę zieloną<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Przykryła błota bury łan<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Pachnie ziemia ciałem młodym<ch a="h7"/><ch a="E"/></row>
-			<row important_over="never">Póki wiosna, póki trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
-			<row important_over="never">Póki wiosna, póki trwa<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
+			<row important_over="false">Rozł<ch a="a"/>ożyła wiosna sp<ch a="F"/>ódnicę ziel<ch a="G"/>oną,<ch a="C7+"/></row>
+			<row important_over="false">Przykryła bł<ch a="d7"/>ota bury ł<ch a="G"/>an.<ch a="C7+"/></row>
+			<row important_over="false">P<ch a="h7"/>achnie ziemia ci<ch a="E"/>ałem młodym,</row>
+			<row important_over="false"><ch a="a"/> Póki wiosna, <ch a="G6"/>póki trw<ch a="F7+"/>a,<ch a="G"/></row>
+			<row important_over="false"><ch a="a"/> Póki wi<ch a="G"/>osna, <ch a="e"/>póki trw<ch a="E"/>a... <ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="E"/><ch a="a"/><ch a="E"/><ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Rozpuściła wiosna warkocze kwieciste<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Zbarwniały łąki niczym kram<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Będzie odpust pod Wiślicą<ch a="h7"/><ch a="E"/></row>
-			<row important_over="never">Póki wiosna, póki trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
-			<row important_over="never">Póki wiosna, póki trwa<ch a="a"/><ch a="G"/><ch a="e"/><ch a="E"/><ch a="a"/></row>
-			<row important_over="false" style="instr"> <ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
+			<row important_over="false">Rozp<ch a="a"/>uściła wiosna wark<ch a="F"/>ocze kwi<ch a="G"/>eciste,<ch a="C7+"/></row>
+			<row important_over="false">Zb<ch a="d7"/>arwniały łąki n<ch a="G"/>iczym kr<ch a="C7+"/>am.</row>
+			<row important_over="false">B<ch a="h7"/>ędzie odpust p<ch a="E"/>od Wiślicą,</row>
+			<row important_over="false"><ch a="a"/> Póki wiosna, <ch a="G6"/>póki trw<ch a="F7+"/>a,<ch a="G"/></row>
+			<row important_over="false"><ch a="a"/> Póki wi<ch a="G"/>osna, <ch a="e"/>póki trw<ch a="E"/>a... <ch a="a"/></row>
+			<row important_over="false" style="instr"><ch a="F"/><ch a="E"/><ch a="a"/><ch a="F"/><ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ponidzie wiosenne, Ponidzie leniwe<ch a="a"/><ch a="F"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Pręży się jak do słońca kot,<ch a="d7"/><ch a="G"/><ch a="C7+"/></row>
-			<row important_over="never">Rozciągnięte po tych polach<ch a="h7"/><ch a="E7"/></row>
-			<row important_over="never">Lichych lasach, pstrych łozinach<ch a="h7"/><ch a="E7"/></row>
-			<row important_over="never">Skałkach słońcem rozognionych<ch a="h7"/><ch a="E7"/></row>
-			<row important_over="never">Nidą w łąkach roziskrzoną<ch a="h7"/><ch a="E7"/></row>
-			<row important_over="never">Na Ponidziu wiosna trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
-			<row important_over="never">Na Ponidziu wiosna trwa<ch a="a"/><ch a="G6"/><ch a="F7+"/><ch a="G"/></row>
-			<row important_over="never">Na Ponidziu<ch a="a"/><ch a="G"/><ch a="F"/><ch a="a"/></row>
+			<row important_over="false">Pon<ch a="a"/>idzie wiosenne, Pon<ch a="F"/>idzie len<ch a="G"/>iwe,<ch a="C7+"/></row>
+			<row important_over="false">Pr<ch a="d7"/>ęży się jak do sł<ch a="G"/>ońca k<ch a="C7+"/>ot,</row>
+			<row important_over="true">R<ch a="h7"/>ozciągnięte po tych p<ch a="E7"/>olach,</row>
+			<row important_over="true">L<ch a="h7"/>ichych lasach, pstrych łoz<ch a="E7"/>inach,</row>
+			<row important_over="true">Sk<ch a="h7"/>ałkach słońcem rozogni<ch a="E7"/>onych,</row>
+			<row important_over="true">N<ch a="h7"/>idą w łąkach roziskrz<ch a="E7"/>oną.</row>
+			<row important_over="false">N<ch a="a"/>a Ponidziu wi<ch a="G6"/>osna trw<ch a="F7+"/>a,<ch a="G"/></row>
+			<row important_over="false">N<ch a="a"/>a Ponidziu wi<ch a="G6"/>osna trw<ch a="F7+"/>a,<ch a="G"/></row>
+			<row important_over="false">N<ch a="a"/>a Pon<ch a="G"/>idzi<ch a="F"/>u... <ch a="a"/></row>
 		</block>
 	</lyric>
-	<keywords/>
-	<genre>Piosenka turystyczna górska</genre>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<status>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/nuta-z-ponidzia</verificator>
+		</verificators>
 		<done>
-			<chords>chords</chords>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
-		<verificators/>
 	</status>
 </song>
