@@ -8,15 +8,15 @@
 		<block type="verse">
 			<row important_over="true"><ch a="a"/>Ile jestem ci winien?</row>
 			<row important_over="true"><ch a="d"/>Ile policzyłaś mi za swą <ch a="e"/>przyjaźń?</row>
-			<row important_over="never">Ale kiedy wszystko już oddam, czy</row>
+			<row important_over="false"><ch a="a"/>Ale kiedy wszystko już oddam, czy</row>
 			<bis times="2">
-				<row important_over="never">będziesz szczęśliwa i wolna, czy…</row>
+				<row important_over="false"><ch a="d"/>będziesz szczęśliwa i wolna, <ch a="e"/>czy…</row>
 			</bis>
 		</block>
 		<block type="other">
 			<row important_over="true"><ch a="a"/>Ale zanim <ch a="d"/>pój<ch a="e"/>dę…</row>
-			<row important_over="never">ale zanim pójdę…</row>
-			<row important_over="never">ale zanim pójdę…</row>
+			<row important_over="false"><ch a="a"/>ale zanim <ch a="d"/>pój<ch a="e"/>dę…</row>
+			<row important_over="false"><ch a="a"/>ale zanim pójdę…</row>
 			<row important_over="true"><ch a="d"/>chciałbym po<ch a="e"/>wiedzieć ci, że:</row>
 		</block>
 		<block type="chorus">
@@ -24,17 +24,17 @@
 			<row important_over="true">to też nie <ch a="d"/>diabeł ro<ch a="e"/>gaty.</row>
 			<row important_over="true">Ani <ch a="a"/>miłość, kiedy <ch a="d"/>jedno pła<ch a="G"/>cze,</row>
 			<row important_over="true">a <ch a="C"/>drugie po nim <ch a="F"/>skacze.</row>
-			<row important_over="never">Bo miłość to żaden film w żadnym kinie,</row>
-			<row important_over="never">ani róże, ani całusy małe, duże.</row>
-			<row important_over="never">Ale miłość, kiedy jedno spada w dół,</row>
-			<row important_over="never">drugie ciągnie je ku górze.</row>
+			<row important_over="false">Bo <ch a="a"/>miłość to żaden <ch a="d"/>film w żadnym <ch a="e"/>kinie,</row>
+			<row important_over="false">ani <ch a="a"/>róże, ani ca<ch a="d"/>łusy małe, <ch a="e"/>duże.</row>
+			<row important_over="false">Ale <ch a="a"/>miłość, kiedy <ch a="d"/>jedno spada w <ch a="G"/>dół,</row>
+			<row important_over="false"><ch a="C"/>drugie ciągnie je ku <ch a="F"/>górze.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ile jestem ci winien?</row>
-			<row important_over="never">Ile policzyłaś mi za swą przyjaźń?</row>
-			<row important_over="never">Ile były warte nasze słowa,</row>
+			<row important_over="false"><ch a="a"/>Ile jestem ci winien?</row>
+			<row important_over="false"><ch a="d"/>Ile policzyłaś mi za swą <ch a="e"/>przyjaźń?</row>
+			<row important_over="false"><ch a="a"/>Ile były warte nasze słowa,</row>
 			<bis times="2">
-				<row important_over="never">kiedy próbowaliśmy wszystko od nowa?</row>
+				<row important_over="false"><ch a="d"/>kiedy próbowaliśmy <ch a="e"/>wszystko od nowa?</row>
 			</bis>
 		</block>
 		<blocklink blocknb="2"/>
