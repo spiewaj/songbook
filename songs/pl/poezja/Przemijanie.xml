@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przemijanie">
-  <alias>Dzień kolejny minął</alias>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="d"/>Dzień kolejny minął </row>
-      <row important_over="never">dzień co nic nie przyniósł<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Jeszcze się nie skończył </row>
-      <row important_over="never">a już nowy wyrósł<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-    </block>
-    <block type="chorus">
-      <bis times="2">
-        <row important_over="never"><ch a="F"/>Tyle dni minęło, tyle marzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="never"><ch a="F"/>Tyle ludzi przeszło, tyle zdarzeń<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="never"><ch a="F"/>Tyle marzeń sennych się nie spełniło<ch a="C"/><ch a="d"/><ch a="a"/></row>
-        <row important_over="never"><ch a="F"/>Tyle dobrych gwiazd ubyło<ch a="C"/><ch a="d"/></row>
-      </bis>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="d"/>Tyle słów powiedział </row>
-      <row important_over="never">słów co nic nie znaczą<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Może kogoś uraził </row>
-      <row important_over="never">czyjeś oczy płaczą<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="d"/>Znowu czas mija, </row>
-      <row important_over="never">znowu minął dzień<ch a="C"/><ch a="d"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never"><ch a="F"/>Komu zaświecił słońcem </row>
-      <row important_over="never">dobrych oczu mgnień<ch a="C"/><ch a="d"/><ch a="a"/><ch a="F"/><ch a="C"/><ch a="d"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <keywords/>
-  <genre>Poezja śpiewana</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias>Dzień kolejny minął</alias>
+	<text_author type="solo">Bogusław Nowicki</text_author>
+	<composer type="solo">Jarosław Dzierżak</composer>
+	<artist type="band">Bez Idola</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="verse">
+			<row important_over="true"><ch a="d"/>Dzień kolejny m<ch a="C"/>inął,</row>
+			<row important_over="true"><ch a="d"/>dzień, co n<ch a="F"/>ic nie prz<ch a="C"/>yni<ch a="d"/>ósł.</row>
+			<row important_over="true"><ch a="F"/>Jeszcze się nie sk<ch a="C"/>ończył,</row>
+			<row important_over="true"><ch a="d"/>a już n<ch a="a"/>owy w<ch a="F"/>yr<ch a="C"/>ósł.<ch a="d"/></row>
+		</block>
+		<block type="chorus">
+			<bis times="2">
+				<row important_over="true"><ch a="F"/>Tyle dni min<ch a="C"/>ęło, <ch a="d"/>tyle m<ch a="a"/>arzeń,</row>
+				<row important_over="true"><ch a="F"/>Tyle ludzi prz<ch a="C"/>eszło, <ch a="d"/>tyle zd<ch a="a"/>arzeń,</row>
+				<row important_over="true"><ch a="F"/>Tyle marzeń s<ch a="C"/>ennych si<ch a="d"/>ę nie sp<ch a="a"/>ełniło,</row>
+				<row important_over="true"><ch a="F"/>Tyle d<ch a="C"/>obrych gwi<ch a="d"/>azd ubyło.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Tyle słów powi<ch a="C"/>edział,</row>
+			<row important_over="false"><ch a="d"/>słów, co n<ch a="F"/>ic nie zn<ch a="C"/>acz<ch a="d"/>ą.</row>
+			<row important_over="false"><ch a="F"/>Może kogoś ur<ch a="C"/>aził,</row>
+			<row important_over="false"><ch a="d"/>czyjeś <ch a="a"/>oczy pł<ch a="F"/>acz<ch a="C"/>ą.<ch a="d"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Znowu czas m<ch a="C"/>ija,</row>
+			<row important_over="false"><ch a="d"/>znowu m<ch a="F"/>inął dz<ch a="C"/>i<ch a="d"/>eń.</row>
+			<row important_over="false"><ch a="F"/>Komu zaświecił sł<ch a="C"/>ońcem</row>
+			<row important_over="false"><ch a="d"/>dobrych <ch a="a"/>oczu mgn<ch a="F"/>i<ch a="C"/>eń.<ch a="d"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<verificators/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
