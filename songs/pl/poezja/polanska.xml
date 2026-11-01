@@ -58,7 +58,6 @@
     <verificators>
       <verificator>http://dom.art.pl</verificator>
       <verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/polanska</verificator>
-      <verificator>Piotr Tabernacki</verificator>
     </verificators>
     <to_do/>
   </status>
