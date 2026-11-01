@@ -1,75 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Opadły mgły wstaje nowy dzień">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Opadły mgły, wstaje nowy dzień">
+	<alias>Opadły mgły wstaje nowy dzień</alias>
 	<text_author type="solo">Edward Stachura</text_author>
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<album>Dla wszystkich starczy miejsca</album>
+	<genre>poezja śpiewana</genre>
 	<lyric>
 		<block type="verse">
-			<row important_over="true">Opadły mgł<ch a="G"/>y i miasto ze sn<ch a="C"/>u się budzi</row>
-			<row important_over="true">G<ch a="G"/>órą czmycha już n<ch a="D"/>oc</row>
-			<row important_over="false">Ktoś tam <ch a="G"/>cicho czeka by kt<ch a="C"/>oś powrócił</row>
-			<row important_over="true">Do gw<ch a="G"/>iazd jest bliżej ni<ch a="D"/>ż k<ch a="D7"/>rok</row>
-			<row important_over="false">Pies się w<ch a="G"/>łóczy popod m<ch a="C"/>urami bezdomny</row>
-			<row important_over="true">Niesie <ch a="G"/>się tęsknota <ch a="D"/>czyjaś na świata cztery <ch a="G"/>strony</row>
+			<row important_over="true">Op<ch a="G"/>adły mgły i miasto ze sn<ch a="C"/>u się budzi,</row>
+			<row important_over="true">g<ch a="G"/>órą czmycha już n<ch a="D"/>oc.</row>
+			<row important_over="false">Kt<ch a="G"/>oś tam cicho czeka, by kt<ch a="C"/>oś powrócił,</row>
+			<row important_over="true">do gw<ch a="G"/>iazd jest bliżej ni<ch a="D"/>ż kr<ch a="D7"/>ok.</row>
+			<row important_over="false">Pi<ch a="G"/>es się włóczy popod m<ch a="C"/>urami bezdomny,</row>
+			<row important_over="true">ni<ch a="G"/>esie się tęsknota cz<ch a="D"/>yjaś na świata cztery str<ch a="G"/>ony.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">A Ziemia t<ch a="G"/>oczy toczy swój <ch a="C"/>garb uroczy</row>
-				<row important_over="false"><ch a="G"/>Toczy toczy się l<ch a="D"/>os</row>
+				<row important_over="true">A Zi<ch a="G"/>emia toczy, toczy swój g<ch a="C"/>arb uroczy,</row>
+				<row important_over="true">t<ch a="G"/>oczy, toczy się l<ch a="D"/>os.</row>
 			</bis>
-			<row important_over="false">Ty co <ch a="G"/>płaczesz ażeby <ch a="C"/>śmiać mógł się ktoś</row>
-			<row important_over="false">Już <ch a="G"/>dość, już dość, już <ch a="D"/>dość</row>
-			<row important_over="true">Odpędź <ch a="G"/>czarne myśli</row>
-			<row important_over="true">Dość już <ch a="C"/>twoich łez</row>
-			<row important_over="false">Niech to <ch a="G"/>wszystko przepadnie we <ch a="D"/>mgle</row>
+			<row important_over="true">T<ch a="G"/>y, co płaczesz, ażeby śmi<ch a="C"/>ać mógł się ktoś,</row>
+			<row important_over="true">j<ch a="G"/>uż dość, już dość, już d<ch a="D"/>ość!</row>
+			<row important_over="true">Odp<ch a="G"/>ędź czarne myśli,</row>
+			<row important_over="true">d<ch a="C"/>ość już twoich łez,</row>
+			<row important_over="true">ni<ch a="G"/>ech to wszystko przepadnie we mgl<ch a="D"/>e!</row>
 			<bis times="3">
-				<row important_over="true">Bo nowy <ch a="G"/>dzień wstaje</row>
-				<row important_over="true">Bo <ch a="C"/>nowy dzień wstaje</row>
-				<row important_over="false"><ch a="G"/>Nowy <ch a="D"/>dzień</row>
+				<row important_over="true">Bo n<ch a="G"/>owy dzień wstaje,</row>
+				<row important_over="true">bo n<ch a="C"/>owy dzień wstaje,</row>
+				<row important_over="true">n<ch a="G"/>owy dzi<ch a="D"/>eń!</row>
 			</bis>
-			<row important_over="false">Wstaje nowy <ch a="G"/>dzień<ch a="D"/></row>
+			<row important_over="false">Wstaje nowy dzi<ch a="G"/>eń...<ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Z dusznego snu już miasto się wynurza <ch a="G"/><ch a="C"/></row>
-			<row important_over="false">Słońce wschodzi gdzieś tam<ch a="G"/><ch a="D"/></row>
-			<row important_over="false">Tramwaj na przystanku zakwitł jak róża<ch a="G"/><ch a="C"/></row>
-			<row important_over="false">Uchodzą cienie do bram<ch a="G"/><ch a="D"/><ch a="D7"/></row>
-			<row important_over="false">Ciągną swoje wózki dwukółki mleczarze<ch a="G"/><ch a="C"/></row>
-			<row important_over="false"><ch a="G"/>Nad dachami snują się sny podlotków pełne marzeń<ch a="D"/><ch a="G"/></row>
+			<row important_over="false">Z d<ch a="G"/>usznego snu już miasto si<ch a="C"/>ę wynurza,</row>
+			<row important_over="false">sł<ch a="G"/>ońce wschodzi gdzieś t<ch a="D"/>am.</row>
+			<row important_over="false">Tr<ch a="G"/>amwaj na przystanku zakwi<ch a="C"/>tł jak róża,</row>
+			<row important_over="false">uch<ch a="G"/>odzą cienie do br<ch a="D"/>am.<ch a="D7"/></row>
+			<row important_over="false">Ci<ch a="G"/>ągną swoje wózki dwuk<ch a="C"/>ółki mleczarze,</row>
+			<row important_over="false">n<ch a="G"/>ad dachami snują się sny podl<ch a="D"/>otków pełne marz<ch a="G"/>eń.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false"><ch a="G"/>A Ziemia toczy toczy swój garb uroczy<ch a="C"/></row>
-				<row important_over="false"><ch a="G"/>Toczy toczy się los<ch a="D"/></row>
+				<row important_over="false">A Zi<ch a="G"/>emia toczy, toczy swój g<ch a="C"/>arb uroczy,</row>
+				<row important_over="false">t<ch a="G"/>oczy, toczy się l<ch a="D"/>os.</row>
 			</bis>
-			<row important_over="false"><ch a="G"/>Ty co płaczesz ażeby śmiać mógł się ktoś<ch a="C"/></row>
-			<row important_over="false"><ch a="G"/>Już dość, już dość, już dość<ch a="D"/></row>
-			<row important_over="false"><ch a="G"/>Odpędź czarne myśli</row>
-			<row important_over="false"><ch a="C"/>Porzuć błędny wzrok</row>
-			<row important_over="false"><ch a="G"/>Niech to wszystko zabierze już noc<ch a="D"/></row>
+			<row important_over="false">T<ch a="G"/>y, co płaczesz, ażeby śmi<ch a="C"/>ać mógł się ktoś,</row>
+			<row important_over="false">j<ch a="G"/>uż dość, już dość, już d<ch a="D"/>ość!</row>
+			<row important_over="false">Odp<ch a="G"/>ędź czarne myśli,</row>
+			<row important_over="false">p<ch a="C"/>orzuć błędny wzrok,</row>
+			<row important_over="false">ni<ch a="G"/>ech to wszystko zabierze już n<ch a="D"/>oc!</row>
 			<bis times="3">
-				<row important_over="false"><ch a="G"/>Bo nowy dzień wstaje</row>
-				<row important_over="false"><ch a="C"/>Bo nowy dzień wstaje</row>
-				<row important_over="false"><ch a="G"/>Nowy dzień<ch a="D"/></row>
+				<row important_over="false">Bo n<ch a="G"/>owy dzień wstaje,</row>
+				<row important_over="false">bo n<ch a="C"/>owy dzień wstaje,</row>
+				<row important_over="false">n<ch a="G"/>owy dzi<ch a="D"/>eń!</row>
 			</bis>
-			<row important_over="false"><ch a="G"/>Wstaje nowy dzień<ch a="D"/></row>
+			<row important_over="false">Wstaje nowy dzi<ch a="G"/>eń...<ch a="D"/></row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords/>
 	<status>
+		<verificators>
+			<verificator>Alek</verificator>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>Onufry</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Opadly_mgly_wstaje_nowy_dzien</verificator>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/opadly-mgly-wstaje-nowy-dzien</verificator>
+		</verificators>
 		<done>
 			<text/>
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators>
-			<verificator>Alek</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-		</verificators>
-		<to_do>Alek chyba sprawdzil, i nie zaznaczyl, ze sprawdzone
-Onufry</to_do>
 	</status>
 </song>
