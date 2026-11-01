@@ -1,59 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Połów">
-  <text_author>Jarosław Zajączkowski</text_author>
+  <text_author type="solo">Jarosław Zajączkowski</text_author>
+  <composer type="solo">tradycyjna</composer>
+  <artist type="band">Krewni i Znajomi Królika</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Kiedy morze burzy swój spokojny sen<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD h"><ch a="e"/>Białą grzywą wdziera się na ląd<ch a="D"/><ch a="h"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>My jak drzewa sennie pochylamy się<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Wokół morza zacieśniamy krąg<ch a="D"/><ch a="e"/></row>
-      <row important_over="never" sidechords="G Dh"><ch a="G"/>Niespokojne nasze myśli<ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Szarpie wiatr unosi prąd<ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>Pośród ryku wichrów szalejących burz<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Słychać pieść o pracy rąk<ch a="D"/><ch a="e"/></row>
+      <row important_over="true" sidechords="e D e D"><ch a="e"/>Kiedy morze <ch a="D"/>burzy swój spo<ch a="e"/>kojny <ch a="D"/>sen,</row>
+      <row important_over="true" sidechords="e D h"><ch a="e"/>Białą grzywą <ch a="D"/>wdziera się na <ch a="h"/>ląd.</row>
+      <row important_over="true" sidechords="e D e D"><ch a="e"/>My, jak drzewa, <ch a="D"/>sennie pochy<ch a="e"/>lamy <ch a="D"/>się,</row>
+      <row important_over="true" sidechords="e D e"><ch a="e"/>Wokół morza <ch a="D"/>zacieśniamy <ch a="e"/>krąg.</row>
+      <row important_over="true" sidechords="G D h"><ch a="G"/>Niespokojne <ch a="D"/>nasze <ch a="h"/>myśli</row>
+      <row important_over="true" sidechords="e D"><ch a="e"/>Szarpie wiatr, u<ch a="D"/>nosi prąd.</row>
+      <row important_over="true" sidechords="e D e D"><ch a="e"/>Pośród ryku <ch a="D"/>wichrów, szale<ch a="e"/>jących <ch a="D"/>burz</row>
+      <row important_over="true" sidechords="e D e"><ch a="e"/>Słychać pieśń <ch a="D"/>o pracy <ch a="e"/>rąk.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>W lampie sennie skwierczy wielorybi tłuszcz<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD h"><ch a="e"/>Biały dym unosi wiatr<ch a="D"/><ch a="h"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Niespokojny przybój szarpie smukłą łódź<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Już na łowy ruszać czas<ch a="D"/><ch a="e"/></row>
-      <row important_over="never" sidechords="G Dh"><ch a="G"/>W rozhukanej morskiej toni<ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Czai cielsko cenny łup<ch a="D"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Kiedy morzemy pomknie zwinnej włóczni cień<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Biały narwal straci róg<ch a="D"/><ch a="e"/></row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>W lampie sennie <ch a="D"/>skwierczy wielo<ch a="e"/>rybi <ch a="D"/>tłuszcz,</row>
+      <row important_over="false" sidechords="e D h"><ch a="e"/>Biały dym u<ch a="D"/>nosi <ch a="h"/>wiatr.</row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>Niespokojny <ch a="D"/>przybój szarpie <ch a="e"/>smukłą <ch a="D"/>łódź,</row>
+      <row important_over="false" sidechords="e D e"><ch a="e"/>Już na łowy <ch a="D"/>ruszać <ch a="e"/>czas.</row>
+      <row important_over="false" sidechords="G D h"><ch a="G"/>W rozhukanej <ch a="D"/>morskiej <ch a="h"/>toni</row>
+      <row important_over="false" sidechords="e D"><ch a="e"/>Czai cielsko <ch a="D"/>cenny łup.</row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>Kiedy morzem <ch a="D"/>pomknie zwinnej <ch a="e"/>włóczni <ch a="D"/>cień,</row>
+      <row important_over="false" sidechords="e D e"><ch a="e"/>Biały narwal <ch a="D"/>straci <ch a="e"/>róg.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Wielki duchu oceanów </row>
-      <row important_over="never" sidechords="eD h">nasze łodzie wiecznie chroń<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Myśliwemu kieruj w sieci cenny łup<ch a="D"/><ch a="h"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Celnie prowadź jego dłoń<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="G Dh"><ch a="e"/>Groźną bielą gór lodowych<ch a="D"/><ch a="e"/></row>
-      <row important_over="never" sidechords="e D"><ch a="G"/>Nie zwodź naszych morskich dróg<ch a="D"/><ch a="h"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Przed narwala strzeż ogonem<ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Chroń od morsa groźnych kłów<ch a="D"/><ch a="e"/><ch a="D"/></row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>Wielki duchu <ch a="D"/>oce<ch a="e"/>anów,<ch a="D"/></row>
+      <row important_over="false" sidechords="e D h"><ch a="e"/>Nasze łodzie <ch a="D"/>wiecznie <ch a="h"/>chroń,</row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>Myśliwemu <ch a="D"/>kieruj w sieci <ch a="e"/>cenny <ch a="D"/>łup,</row>
+      <row important_over="false" sidechords="e D e"><ch a="e"/>Celnie prowadź <ch a="D"/>jego <ch a="e"/>dłoń.</row>
+      <row important_over="false" sidechords="G D h"><ch a="G"/>Groźną bielą <ch a="D"/>gór lodo<ch a="h"/>wych</row>
+      <row important_over="false" sidechords="e D"><ch a="e"/>Nie zwodź naszych <ch a="D"/>morskich dróg,</row>
+      <row important_over="false" sidechords="e D e D"><ch a="e"/>Przed narwala <ch a="D"/>strzeż ogo<ch a="e"/>nem,<ch a="D"/></row>
+      <row important_over="false" sidechords="e D e"><ch a="e"/>Chroń od morsa <ch a="D"/>groźnych <ch a="e"/>kłów.</row>
     </block>
-    <block type="verse">
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Kiedy morze burzy swój spokojny sen<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD h"><ch a="e"/>Białą grzywą wdziera się na ląd<ch a="D"/><ch a="h"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>My jak drzewa senne pochylamy się<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Wokół morza zacieśniamy krąg<ch a="D"/><ch a="e"/></row>
-      <row important_over="never" sidechords="G Dh"><ch a="G"/>Niespokojne nasze myśli<ch a="D"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Szarpie wiatr unosi prąd<ch a="D"/></row>
-      <row important_over="never" sidechords="eD eD"><ch a="e"/>Pośród ryku wichrów szalejących burz<ch a="D"/><ch a="e"/><ch a="D"/></row>
-      <row important_over="never" sidechords="eD e"><ch a="e"/>Słychać pieśń o pracy rąk<ch a="D"/><ch a="e"/></row>
-    </block>
+    <blocklink blocknb="1"/>
   </lyric>
   <music>
     <guitar barre="0"/>
   </music>
-  <keywords/>
+  <genre>szanta</genre>
   <status>
     <done>
       <text/>
+      <authors/>
       <chords>chords</chords>
     </done>
     <verificators>
       <verificator>Adam Foland</verificator>
+      <verificator>https://szanty.art.pl/teksty/tekst/152/polow.html</verificator>
+      <verificator>https://spiewnik.wywrota.pl/szanty/polow</verificator>
     </verificators>
   </status>
 </song>
