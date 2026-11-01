@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kochaj mnie i dotykaj">
+	<alias/>
+	<text_author type="solo">Tomasz Żółtko</text_author>
+	<comment>Piosenka w oryginalnym tekście. U nas się śpiewa ciut inaczej, w szczególności kończy się po dwóch zwrotkach i dwóch refrenach. Akordy w opracowaniu środowiskowym w tonacji C-dur (wg ustaleń Onufrego: akordy tak jak grane w 21 WDH, w oryginale tonacja G-dur).</comment>
+	<composer type="solo">Tomasz Żółtko</composer>
 	<artist type="solo">Tomasz Żółtko</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
-	<block type="other">
-		<row important_over="false" style="instr">
-			<ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/></row>
-	</block>
+		<block type="other">
+			<row important_over="false" style="instr">
+				<ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/><ch a="C"/><ch a="G"/><ch a="F"/><ch a="C"/>
+			</row>
+		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="C"/> Dawnych mist<ch a="G"/>yków ludzkiej duszy pi<ch a="F"/>eśń</row>
 			<row important_over="true">Księż<ch a="G"/>yca ciemna strona</row>
@@ -62,25 +69,21 @@
 		</block>
 	</lyric>
 	<music metre="4/4">
-		<guitar/>
+		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album>Klatka skandalu</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Onufry</verificator>
-		</verificators>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<to_do>Wg ustaleń, akordy sa tak jak ja gram, tekst tak jak T. Żółtko śpiewa</to_do>
+		<verificators>
+			<verificator>Onufry</verificator>
+			<verificator>Paweł Budzyński</verificator>
+		</verificators>
+		<to_do/>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo">Tomasz Żółtko</text_author>
-	<composer type="solo">Tomasz Żółtko</composer>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre>Poezja śpiewana</genre>
-	<comment>Piosenka w oryginalnym tekście. U nas się śpiewa ciut inaczej, w szczególności kończy się po dwóch zwrotkach i dwóch refrenach.Za to akordy są wstawione tak, jak u nas. W oryginale są ciut inne, oraz w tonacji G-dur a nie C-dur.</comment>
 </song>
