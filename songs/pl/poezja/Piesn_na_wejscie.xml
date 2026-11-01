@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń na wejście">
+  <alias>Introit</alias>
   <text_author type="solo">Edward Stachura</text_author>
+  <comment></comment>
   <composer type="solo">Krzysztof Myszkowski</composer>
   <artist type="band">Stare Dobre Małżeństwo</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="true">C<ch a="a"/>hodź człowieku coś ci powiem</row>
-      <row important_over="true">Chodźcie ws<ch a="d"/>zystkie stany</row>
-      <row important_over="true">Kolor<ch a="E"/>owi biali czarni</row>
-      <row important_over="true">Chodźcie zwł<ch a="F"/>aszcza wy ludk<ch a="G"/>owie</row>
-      <row important_over="true">Przez na <ch a="a"/>oścież br<ch a="e"/>amy</row>
+      <row important_over="true"><ch a="a"/>Chodź, człowieku, coś ci powiem,</row>
+      <row important_over="true"><ch a="d"/>Chodźcie, wszystkie stany,</row>
+      <row important_over="true"><ch a="E"/>Kolorowi, biali, czarni,</row>
+      <row important_over="true"><ch a="F"/>Chodźcie zwłaszcza <ch a="G"/>wy, ludkowie,</row>
+      <row important_over="true">Przez na<ch a="a"/>oścież <ch a="e"/>bramy!</row>
     </block>
     <block type="verse">
-      <row important_over="true">Dla wszy<ch a="C"/>stkich sta<ch a="G"/>rczy mi<ch a="a"/>ejsca<ch a="e"/></row>
-      <row important_over="false">Pod wi<ch a="C"/>elkim d<ch a="G"/>achem n<ch a="a"/>ieba<ch a="e"/></row>
-      <row important_over="true">Rozsi<ch a="C"/>ądźcie się na dr<ch a="G"/>ogach</row>
-      <row important_over="false">Na łąkach, na rozł<ch a="a"/>ogach<ch a="e"/></row>
-      <row important_over="false">Na p<ch a="C"/>olach, błoniach i wyg<ch a="G"/>onach</row>
-      <row important_over="false">W blasku słońca, w ci<ch a="a"/>eniu chmur<ch a="e"/></row>
-      <row important_over="false">Rozsi<ch a="F"/>ądźcie się na n<ch a="G"/>iżu</row>
-      <row important_over="false">Rozsi<ch a="F"/>ądźcie się na w<ch a="G"/>yżu</row>
-      <row important_over="false">Rozsi<ch a="F"/>ądźcie się na płaskow<ch a="G"/>yżu</row>
-      <row important_over="false">W blasku słońca w cie<ch a="a"/>niu chmur<ch a="e"/></row>
+      <row important_over="true">Dla <ch a="C"/>wszystkich <ch a="G"/>starczy <ch a="a"/>miejsca<ch a="e"/></row>
+      <row important_over="false">Pod <ch a="C"/>wielkim <ch a="G"/>dachem <ch a="a"/>nieba!<ch a="e"/></row>
+      <row important_over="true">Roz<ch a="C"/>siądźcie się na <ch a="G"/>drogach,</row>
+      <row important_over="true">Na łąkach, na roz<ch a="a"/>łogach,<ch a="e"/></row>
+      <row important_over="false">Na <ch a="C"/>polach, błoniach i wy<ch a="G"/>gonach,</row>
+      <row important_over="false">W blasku słońca, w <ch a="a"/>cieniu chmur!<ch a="e"/></row>
+      <row important_over="true">Roz<ch a="F"/>siądźcie się na <ch a="G"/>niżu,</row>
+      <row important_over="false">Roz<ch a="F"/>siądźcie się na <ch a="G"/>wyżu,</row>
+      <row important_over="false">Roz<ch a="F"/>siądźcie się na płaskow<ch a="G"/>yżu,</row>
+      <row important_over="false">W blasku słońca, w <ch a="a"/>cieniu chmur!<ch a="e"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Dla wszy<ch a="C"/>stkich st<ch a="G"/>arczy mi<ch a="a"/>ejsca<ch a="e"/></row>
-      <row important_over="false">Pod wi<ch a="C"/>elkim d<ch a="G"/>achem n<ch a="a"/>ieba<ch a="e"/></row>
+      <row important_over="false">Dla <ch a="C"/>wszystkich <ch a="G"/>starczy <ch a="a"/>miejsca<ch a="e"/></row>
+      <row important_over="false">Pod <ch a="C"/>wielkim <ch a="G"/>dachem <ch a="a"/>nieba!<ch a="e"/></row>
       <bis times="4">
-        <row important_over="true">Na ziemi którą j<ch a="C"/>a i t<ch a="G"/>y też<ch a="a"/></row>
-        <row important_over="false">Zamienil<ch a="C"/>iśmy w morz<ch a="G"/>e łez<ch a="a"/></row>
+        <row important_over="true">Na ziemi, którą <ch a="C"/>ja i <ch a="G"/>ty też<ch a="a"/></row>
+        <row important_over="false">Zamienil<ch a="C"/>iśmy w morz<ch a="G"/>e łez!<ch a="a"/></row>
       </bis>
     </block>
   </lyric>
-  <music>
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
   <keywords/>
+  <album>Dla wszystkich starczy miejsca</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <done/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
     <verificators/>
+    <to_do></to_do>
   </status>
+  <music_source>Album SDM „Dla wszystkich starczy miejsca” (1990); Edward Stachura „Missa pagana”</music_source>
 </song>
