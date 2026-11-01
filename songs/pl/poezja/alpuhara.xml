@@ -1,126 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Alpuhara">
+	<alias>Już w gruzach leżą Maurów posady</alias>
 	<text_author type="solo">Adam Mickiewicz</text_author>
+	<comment>Ballada z powieści poetyckiej „Konrad Wallenrod” Adama Mickiewicza. Utwór tradycyjny śpiewany m.in. w środowisku harcerskim i turystycznym.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">Piosenka harcerska</artist>
+	<genre>poezja śpiewana</genre>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Już w gruzach leżą Maurów posady,<ch a="C"/></row>
-			<row important_over="never">Naród ich dźwiga żelaza,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Bronią się jeszcze twierdze Grenady,<ch a="C"/></row>
-			<row important_over="never">Ale w Grenadzie zaraza.<ch a="G"/><ch a="C"/></row>
+			<row important_over="true"><ch a="C"/>Już w gruzach leżą Maurów posady,</row>
+			<row important_over="true"><ch a="G"/>Naród ich dźwiga <ch a="C"/>żel</row>
+			<row important_over="false"><ch a="C"/>Bronią się jeszcze twierdze Grenady,</row>
+			<row important_over="false"><ch a="G"/>Ale w Grenadzie <ch a="C"/>zar</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Broni się jeszcze z wierz Alpuhary<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Almanzor z garstką rycerzy,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Hiszpan pod miastem zatknął sztandary,<ch a="C"/></row>
-			<row important_over="never">Jutro do szturmu uderzy.<ch a="G"/><ch a="C"/></row>
+			<row important_over="true"><ch a="G"/>Broni się jeszcze z <ch a="C"/>wi</row>
+			<row important_over="true"><ch a="G"/>Almanzor z garstką <ch a="C"/>ryc</row>
+			<row important_over="false"><ch a="C"/>Hiszpan pod miastem zatknął sztandary,</row>
+			<row important_over="false"><ch a="G"/>Jutro do szturmu <ch a="C"/>ud</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">O wschodzi słońca ryknęły spiże,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Rwą się okopy, mur wali,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Już z minaretów błysnęły krzyże,<ch a="C"/></row>
-			<row important_over="never">Hiszpanie zamku dostali.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>O wschodzie słońca ryknęły <ch a="C"/>spiże,</row>
+			<row important_over="false"><ch a="G"/>Rwą się okopy, mur <ch a="C"/>wali,</row>
+			<row important_over="false"><ch a="C"/>Już z minaretów błysnęły krzyże,</row>
+			<row important_over="false"><ch a="G"/>Hiszpanie zamku <ch a="C"/>dostali.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Jeden Almanzor widząc swe roty<ch a="C"/></row>
-			<row important_over="never">Zbite w upornej obronie,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Przerżnął się między szable i groty,<ch a="C"/></row>
-			<row important_over="never">Uciekł i zmylił pogonie.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="C"/>Jeden Almanzor widząc swe roty</row>
+			<row important_over="false"><ch a="G"/>Zbite w upornej <ch a="C"/>obronie,</row>
+			<row important_over="false"><ch a="C"/>Przerżnął się między szable i groty,</row>
+			<row important_over="false"><ch a="G"/>Uciekł i zmylił <ch a="C"/>pogonie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Hiszpan na świeżej zamku ruinie,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Pomiędzy gruzy i trupy,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Zastawia ucztę, kąpie się w winie,<ch a="C"/></row>
-			<row important_over="never">Rozdziela brańce i łupy.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Hiszpan na świeżej zamku <ch a="C"/>ruinie,</row>
+			<row important_over="false"><ch a="G"/>Pomiędzy gruzy i <ch a="C"/>trupy,</row>
+			<row important_over="false"><ch a="C"/>Zastawia ucztę, kąpie się w winie,</row>
+			<row important_over="false"><ch a="G"/>Rozdziela brańce i <ch a="C"/>łupy.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Wtem straż oddźwierna wodzom donosi,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Że rycerz z obcej krainy<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">O posłuchanie co rychlej prosi,<ch a="C"/></row>
-			<row important_over="never">Ważne przynosząc nowiny.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Wtem straż oddźwierna wodzom <ch a="C"/>donosi,</row>
+			<row important_over="false"><ch a="G"/>Że rycerz z obcej <ch a="C"/>krainy</row>
+			<row important_over="false"><ch a="C"/>O posłuchanie co rychlej prosi,</row>
+			<row important_over="false"><ch a="G"/>Ważne przynosząc <ch a="C"/>nowiny.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Był to Almanzor, król muzułmanów,<ch a="C"/></row>
-			<row important_over="never">Rzucił bezpieczne ukrycie,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Sam się oddaje w ręce Hiszpanów<ch a="C"/></row>
-			<row important_over="never">I tylko błaga o życie.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="C"/>Był to Almanzor, król muzułmanów,</row>
+			<row important_over="false"><ch a="G"/>Rzucił bezpieczne <ch a="C"/>ukrycie,</row>
+			<row important_over="false"><ch a="C"/>Sam się oddaje w ręce Hiszpanów</row>
+			<row important_over="false"><ch a="G"/>I tylko błaga o <ch a="C"/>życie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Hiszpanie — woła — na waszym progu,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Przychodzę czołem uderzyć,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Przychodzę służyć waszemu Bogu,<ch a="C"/></row>
-			<row important_over="never">Waszym prorokom uwierzyć.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Hiszpanie — woła — na waszym <ch a="C"/>progu,</row>
+			<row important_over="false"><ch a="G"/>Przychodzę czołem <ch a="C"/>uderzyć,</row>
+			<row important_over="false"><ch a="C"/>Przychodzę służyć waszemu Bogu,</row>
+			<row important_over="false"><ch a="G"/>Waszym prorokom <ch a="C"/>uwierzyć.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Niechaj rozgłosi sława przed światem,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Że Arab, król zwalczony,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Swoich zwyciężców chce zostać bratem,<ch a="C"/></row>
-			<row important_over="never">Wasalem obcej korony.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Niechaj rozgłosi sława przed <ch a="C"/>światem,</row>
+			<row important_over="false"><ch a="G"/>Że Arab, król <ch a="C"/>zwalczony,</row>
+			<row important_over="false"><ch a="C"/>Swoich zwyciężców chce zostać bratem,</row>
+			<row important_over="false"><ch a="G"/>Wasalem obcej <ch a="C"/>korony.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Hiszpanie męstwo cenić umieją;<ch a="C"/></row>
-			<row important_over="never">Gdy Almanzora poznali,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Wódz go uścisnął, inni koleją<ch a="C"/></row>
-			<row important_over="never">Jak towarzysza witali.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="C"/>Hiszpanie męstwo cenić umieją;</row>
+			<row important_over="false"><ch a="G"/>Gdy Almanzora <ch a="C"/>poznali,</row>
+			<row important_over="false"><ch a="C"/>Wódz go uścisnął, inni koleją</row>
+			<row important_over="false"><ch a="G"/>Jak towarzysza <ch a="C"/>witali.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Almanzor wszystkich wzajemnie witał,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Wodza najczulej uścisnął,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Objął za szyję, za ręce chwytał,<ch a="C"/></row>
-			<row important_over="never">Na ustach jego zawisnął.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Almanzor wszystkich wzajemnie <ch a="C"/>witał,</row>
+			<row important_over="false"><ch a="G"/>Wodza najczulej <ch a="C"/>uścisnął,</row>
+			<row important_over="false"><ch a="C"/>Objął za szyję, za ręce chwytał,</row>
+			<row important_over="false"><ch a="G"/>Na ustach jego <ch a="C"/>zawisnął.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A wtem osłabnął, padł na kolana,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Ale rękami drżącemi<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Wiążąc swój zawój do nóg Hiszpana<ch a="C"/></row>
-			<row important_over="never">Ciągnął się za nim po ziemi.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>A wtem osłabnął, padł na <ch a="C"/>kolana,</row>
+			<row important_over="false"><ch a="G"/>Ale rękami <ch a="C"/>drżącemi</row>
+			<row important_over="false"><ch a="C"/>Wiążąc swój zawój do nóg Hiszpana</row>
+			<row important_over="false"><ch a="G"/>Ciągnął się za nim po <ch a="C"/>ziemi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Spojrzał dokoła, wszystkich zadziwił,<ch a="C"/></row>
-			<row important_over="never">Zbladłe, zsiniałe miał lice,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Śmiechem okropnym usta wykrzywił,<ch a="C"/></row>
-			<row important_over="never">Krwią mu nabiegły źrenice.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="C"/>Spojrzał dokoła, wszystkich zadziwił,</row>
+			<row important_over="false"><ch a="G"/>Zbladłe, zsiniałe miał <ch a="C"/>lice,</row>
+			<row important_over="false"><ch a="C"/>Śmiechem okropnym usta wykrzywił,</row>
+			<row important_over="false"><ch a="G"/>Krwią mu nabiegły <ch a="C"/>źrenice.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Patrzcie, o giaury! jam siny, blady,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Zgadnijcie czyim ja posłem?<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Jam was oszukał, wracam z Grenady,<ch a="C"/></row>
-			<row important_over="never">Ja wam zarazę przyniosłem.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Patrzcie, o giaury! jam siny, <ch a="C"/>blady,</row>
+			<row important_over="false"><ch a="G"/>Zgadnijcie czyim ja <ch a="C"/>posłem?</row>
+			<row important_over="false"><ch a="C"/>Jam was oszukał, wracam z Grenady,</row>
+			<row important_over="false"><ch a="G"/>Ja wam zarazę <ch a="C"/>przyniosłem.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Pocałowaniem wszczepiłem w duszę<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Jad, co was będzie pożerał,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Pójdźcie i patrzcie na me katusze:<ch a="C"/></row>
-			<row important_over="never">Wy tak musicie umierać!<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Pocałowaniem wszczepiłem w <ch a="C"/>duszę</row>
+			<row important_over="false"><ch a="G"/>Jad, co was będzie <ch a="C"/>pożerał,</row>
+			<row important_over="false"><ch a="C"/>Pójdźcie i patrzcie na me katusze:</row>
+			<row important_over="false"><ch a="G"/>Wy tak musicie <ch a="C"/>umierać!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Rzuca się, krzyczy, ściąga ramiona,<ch a="C"/></row>
-			<row important_over="never">Chciałby uściśnieniem wiecznym<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Wszystkich Hiszpanów przykuć do łona;<ch a="C"/></row>
-			<row important_over="never">Śmieje się śmiechem serdecznym.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="C"/>Rzuca się, krzyczy, ściąga ramiona,</row>
+			<row important_over="false"><ch a="G"/>Chciałby uściśnieniem <ch a="C"/>wiecznym</row>
+			<row important_over="false"><ch a="C"/>Wszystkich Hiszpanów przykuć do łona;</row>
+			<row important_over="false"><ch a="G"/>Śmieje się śmiechem <ch a="C"/>serdecznym.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Śmiał się — już skonał — jeszcze powieki,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Jeszcze się usta nie zwarły.<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">I śmiech piekielny został na wieki<ch a="C"/></row>
-			<row important_over="never">Do zimnych liców przywarły.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Śmiał się — już skonał — jeszcze <ch a="C"/>powieki,</row>
+			<row important_over="false"><ch a="G"/>Jeszcze się usta nie <ch a="C"/>zwarły.</row>
+			<row important_over="false"><ch a="C"/>I śmiech piekielny został na wieki</row>
+			<row important_over="false"><ch a="G"/>Do zimnych liców <ch a="C"/>przywarły.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Hiszpanie trwożni z miasta uciekli,<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Dżuma za nimi w ślad biegła;<ch a="G"/><ch a="C"/></row>
-			<row important_over="never">Z gór Alpuhary nim się wywleki,<ch a="C"/></row>
-			<row important_over="never">Reszta ich wojska poległa.<ch a="G"/><ch a="C"/></row>
+			<row important_over="false"><ch a="G"/>Hiszpanie trwożni z miasta <ch a="C"/>uciekli,</row>
+			<row important_over="false"><ch a="G"/>Dżuma za nimi w ślad <ch a="C"/>biegła;</row>
+			<row important_over="false"><ch a="C"/>Z gór Alpuhary nim się wywlekli,</row>
+			<row important_over="false"><ch a="G"/>Reszta ich wojska <ch a="C"/>poległa.</row>
 		</block>
 	</lyric>
-	<music metre="4/4"/>
-	<keywords/>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Alpuhara/tekst</verificator>
 		</verificators>
 	</status>
 </song>
