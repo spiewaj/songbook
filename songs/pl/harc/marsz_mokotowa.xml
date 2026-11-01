@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Marsz Mokotowa">
   <alias>Ten pierwszy marsz</alias>
-  <text_author type="solo">Mirosław Jezierski</text_author>
-  <comment>Powstała 20 sierpnia 1944 r. podczas powstania warszawskiego na Mokotowie. Słowa napisał pchor. Mirosław Jezierski ps. „Karnisz”, a muzykę skomponował ppor. Jan Krzysztof Markowski ps. „Krzysztof”. Pieśń stała się symbolem walczącego Mokotowa, a od 1969 r. jest oficjalnym hejnałem Mokotowa oraz hymnem Hufca ZHP Warszawa-Mokotów.</comment>
-  <composer type="solo">Jan Markowski</composer>
+  <text_author type="solo">Mirosław Jezierski (ps. „Karnisz”)</text_author>
+  <comment>Powstała 20 sierpnia 1944 r. podczas powstania warszawskiego w kamienicy przy ul. Bałuckiego na Mokotowie. Pieśń stała się symbolem walczącego Mokotowa, a od 1969 r. jest oficjalnym hejnałem Mokotowa oraz hymnem Hufca ZHP Warszawa-Mokotów.</comment>
+  <composer type="solo">Jan Markowski (ps. „Krzysztof”)</composer>
   <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
