@@ -1,89 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W malinowym chruśniaku">
-  <alias/>
-  <text_author>Bolesław Leśmian</text_author>
-  <comment/>
-  <composer type="solo">Z. Stefaniak</composer>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="e"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="h"/>
-        <ch a="e"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="h"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="a"/>
-        <ch a="G"/>
-        <ch a="C"/>
-        <ch a="h"/>
-        <ch a="C"/>
-        <ch a="h"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>W malinowym chruśniaku, przed ciekawym wzrokiem<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Zapodziani po głowy, przez długie godziny<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="C"/>Zrywaliśmy przybyłe tej nocy maliny<ch a="G"/><ch a="a"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Palce miałaś na oślep skrawione ich sokiem.<ch a="h"/><ch a="C"/><ch a="h"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Bąk złośnik huczał basem, jakby straszył kwiaty,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Rdzawe guzy na słońcu wygrzewał liść chory,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="C"/>Złachmaniałych pajęczyn skrzyły się wisiory,<ch a="G"/><ch a="a"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>I szedł tyłem na grzbiecie jakiś żuk kosmaty<ch a="h"/><ch a="C"/><ch a="h"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>Duszno było od malin, któreś, szepcąc, rwała,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>A szept nasz tylko wówczas nacichał w ich woni,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="C"/>Gdym wargami wygarniał z podanej mi dłoni<ch a="G"/><ch a="a"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Owoce, przepojone wonią twego ciała.<ch a="h"/><ch a="C"/><ch a="h"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>I stały się maliny narzędziem pieszczoty<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Tej pierwszej, tej zdziwionej, która w całym niebie<ch a="D"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Nie zna innych upojeń, oprócz samej siebie<ch a="D"/><ch a="C"/><ch a="D"/></row>
-      <row important_over="never"><ch a="e"/>I chce się wciąż powtarzać dla własnej dziwoty<ch a="C"/><ch a="e"/></row>
-    </block>
-    <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="e"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="h"/>
-        <ch a="e"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="h"/>
-        <ch a="C"/>
-        <ch a="G"/>
-        <ch a="a"/>
-        <ch a="G"/>
-        <ch a="C"/>
-        <ch a="h"/>
-        <ch a="C"/>
-        <ch a="h"/>
-     </row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="e"/>I nie wiem jak się stało, w którym okamgnieniu,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Żeś dotknęła mi wargą spoconego czoła,<ch a="C"/><ch a="G"/><ch a="h"/></row>
-      <row important_over="never"><ch a="C"/>Porwałem twoje dłonie — oddałaś w skupieniu,<ch a="G"/><ch a="a"/><ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>A chruśniał malinowy trwał wciąż dookoła.<ch a="h"/><ch a="C"/><ch a="h"/></row>
-    </block>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>Przed ciekawych wzrokiem</alias>
+	<text_author type="solo">Bolesław Leśmian</text_author>
+	<comment>Wiersz z tomu „Łąka” (1920). Muzyka: Zbigniew Stefański (Bez Jacka).</comment>
+	<composer type="solo">Zbigniew Stefański</composer>
+	<artist type="band">Bez Jacka</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="e"/> <ch a="C"/> <ch a="G"/> <ch a="h"/> <ch a="e"/> <ch a="C"/> <ch a="G"/> <ch a="h"/> <ch a="C"/> <ch a="G"/> <ch a="a"/> <ch a="G"/> <ch a="C"/> <ch a="h"/> <ch a="C"/> <ch a="h"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>W malinowym chruśni<ch a="C"/>aku, przed ciek<ch a="G"/>awych wzr<ch a="h"/>okiem,</row>
+			<row important_over="true"><ch a="e"/>Zapodziani po gł<ch a="C"/>owy, przez dł<ch a="G"/>ugie godz<ch a="h"/>iny,</row>
+			<row important_over="true"><ch a="C"/>Zrywaliśmy przyb<ch a="G"/>yłe tej n<ch a="a"/>ocy mal<ch a="G"/>iny.</row>
+			<row important_over="true"><ch a="C"/>Palce miałaś na <ch a="h"/>oślep skrw<ch a="C"/>awione ich s<ch a="h"/>okiem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>Bąk złośnik huczał b<ch a="C"/>asem, jakby str<ch a="G"/>aszył kwi<ch a="h"/>aty,</row>
+			<row important_over="false"><ch a="e"/>Rdzawe guzy na sł<ch a="C"/>ońcu wygrz<ch a="G"/>ewał liść ch<ch a="h"/>ory,</row>
+			<row important_over="false"><ch a="C"/>Złachmaniałych paj<ch a="G"/>ęczyn skrz<ch a="a"/>yły się wisi<ch a="G"/>ory,</row>
+			<row important_over="false"><ch a="C"/>I szedł tyłem na grzb<ch a="h"/>iecie j<ch a="C"/>akiś żuk kosm<ch a="h"/>aty.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>Duszno było od m<ch a="C"/>alin, któreś, sz<ch a="G"/>epcąc, rw<ch a="h"/>ała,</row>
+			<row important_over="false"><ch a="e"/>A szept nasz tylko w<ch a="C"/>ówczas nac<ch a="G"/>ichał w ich w<ch a="h"/>oni,</row>
+			<row important_over="false"><ch a="C"/>Gdym wargami wyg<ch a="G"/>arniał z pod<ch a="a"/>anej mi dł<ch a="G"/>oni</row>
+			<row important_over="false"><ch a="C"/>Owoce, przepoj<ch a="h"/>one w<ch a="C"/>onią twego ci<ch a="h"/>ała.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>I stały się mal<ch a="C"/>iny narz<ch a="D"/>ędziem pieszcz<ch a="e"/>oty</row>
+			<row important_over="true"><ch a="C"/>Tej pierwszej, tej zdziwionej, kt<ch a="D"/>óra w całym ni<ch a="e"/>ebie</row>
+			<row important_over="true"><ch a="C"/>Nie zna innych upojeń, <ch a="D"/>oprócz s<ch a="C"/>amej si<ch a="D"/>ebie</row>
+			<row important_over="true"><ch a="e"/>I chce się wciąż powtarzać dl<ch a="C"/>a własnej dziw<ch a="e"/>oty.</row>
+		</block>
+		<block type="other">
+			<row important_over="false" style="instr"><ch a="e"/> <ch a="C"/> <ch a="G"/> <ch a="h"/> <ch a="e"/> <ch a="C"/> <ch a="G"/> <ch a="h"/> <ch a="C"/> <ch a="G"/> <ch a="a"/> <ch a="G"/> <ch a="C"/> <ch a="h"/> <ch a="C"/> <ch a="h"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>I nie wiem, jak się st<ch a="C"/>ało, w którym <ch a="G"/>okamgni<ch a="h"/>eniu,</row>
+			<row important_over="false"><ch a="e"/>Żeś dotknęła mi w<ch a="C"/>argą spoc<ch a="G"/>onego cz<ch a="h"/>oła,</row>
+			<row important_over="false"><ch a="C"/>Porwałem twoje dł<ch a="G"/>onie — odd<ch a="a"/>ałaś w skupi<ch a="G"/>eniu,</row>
+			<row important_over="false"><ch a="C"/>A chruśniak malin<ch a="h"/>owy trw<ch a="C"/>ał wciąż dooko<ch a="h"/>ła.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<verificators>
+			<verificator>Piotr Tabernacki</verificator>
+		</verificators>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
 </song>
