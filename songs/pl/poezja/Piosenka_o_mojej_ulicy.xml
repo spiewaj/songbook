@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka o mojej ulicy">
-  <alias/>
-  <text_author>Andrzej Sikorowski</text_author>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Prowadź mnie ulico</alias>
+  <text_author type="solo">Andrzej Sikorowski</text_author>
+  <comment></comment>
+  <composer type="solo">Andrzej Sikorowski</composer>
+  <artist type="band">Pod Budą</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Prowadź mnie ulico</row>
-      <row important_over="never"><ch a="G"/>Prowadź za rękę<ch a="A"/></row>
-      <row important_over="never"><ch a="G"/>Wszystko mnie zachwyca</row>
-      <row important_over="never"><ch a="A"/>W twym kamiennym piekle<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Bramy co na oścież</row>
-      <row important_over="never"><ch a="G"/>Kwiaty w każdym oknie<ch a="A"/></row>
-      <row important_over="never"><ch a="G"/>I ten mój samotny</row>
-      <row important_over="never"><ch a="Fis"/>I ten mój samotny marsz<ch a="h"/></row>
-      <row important_over="never"><ch a="G"/>Pomiędzy domami</row>
-      <row important_over="never"><ch a="A"/>Prowadź mnie ulico<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Trakcie wydeptany</row>
-      <row important_over="never"><ch a="A"/>Ludzi nawałnicą<ch a="D"/></row>
-      <row important_over="never"><ch a="Fis"/>Radości aleją<ch a="h"/></row>
-      <row important_over="never"><ch a="e"/>Gwiazdy ci się śmieją<ch a="A"/><ch a="D"/></row>
-      <row important_over="never"><ch a="Fis"/>I dla ciebie wieje wiatr<ch a="h"/><ch a="e"/></row>
-      <row important_over="never"><ch a="A"/>I dla ciebie wieje</row>
+      <row important_over="true">Pr<ch a="D"/>owadź mnie, ulico,</row>
+      <row important_over="true">pr<ch a="G"/>owadź za r<ch a="A"/>ękę,</row>
+      <row important_over="true">wsz<ch a="G"/>ystko mnie zachwyca</row>
+      <row important_over="true">w tw<ch a="A"/>ym kamiennym pi<ch a="D"/>ekle:</row>
+      <row important_over="false">br<ch a="D"/>amy, co na oścież,</row>
+      <row important_over="false">kwi<ch a="G"/>aty w każdym <ch a="A"/>oknie</row>
+      <row important_over="false">i t<ch a="G"/>en mój samotny,</row>
+      <row important_over="true">i t<ch a="Fis"/>en mój samotny m<ch a="h"/>arsz.</row>
+      <row important_over="false">Pom<ch a="G"/>iędzy domami</row>
+      <row important_over="false">pr<ch a="A"/>owadź mnie, ul<ch a="D"/>ico,</row>
+      <row important_over="false">tr<ch a="G"/>akcie wydeptany</row>
+      <row important_over="false">l<ch a="A"/>udzi nawałn<ch a="D"/>icą,</row>
+      <row important_over="false">rad<ch a="Fis"/>ości alej<ch a="h"/>o,</row>
+      <row important_over="true">gwi<ch a="e"/>azdy ci się śmi<ch a="A"/>ej<ch a="D"/>ą</row>
+      <row important_over="true">i dl<ch a="Fis"/>a ciebie wieje wi<ch a="h"/>atr,<ch a="e"/></row>
+      <row important_over="true">i dl<ch a="A"/>a ciebie wieje...</row>
     </block>
-    <block type="verse">
-      <bis>
-        <row important_over="never"><ch a="G"/>W samym sercu miasta</row>
-        <row important_over="never"><ch a="A"/>Czytam to na twojej twarzy<ch a="D"/></row>
-        <row important_over="never"><ch a="G"/>W samym sercu miasta</row>
-        <row important_over="never"><ch a="A"/>Coś się nam przydarzy<ch a="D"/></row>
+    <block type="chorus">
+      <bis times="2">
+        <row important_over="true">W s<ch a="G"/>amym sercu miasta</row>
+        <row important_over="true">cz<ch a="A"/>ytam to na twojej tw<ch a="D"/>arzy,</row>
+        <row important_over="false">w s<ch a="G"/>amym sercu miasta</row>
+        <row important_over="false">c<ch a="A"/>oś się nam przyd<ch a="D"/>arzy.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Prowadź mnie ulico</row>
-      <row important_over="never"><ch a="G"/>I ten nasz ulotny<ch a="A"/></row>
-      <row important_over="never"><ch a="G"/>I ten nasz ulotny marsz</row>
-      <row important_over="never"><ch a="A"/>Prowadź mnie ulico<ch a="D"/></row>
-      <row important_over="never"><ch a="D"/>Bo ja ciągle czekam</row>
-      <row important_over="never"><ch a="G"/>Czy się nie okaże<ch a="A"/></row>
-      <row important_over="never"><ch a="G"/>Żeś ulico ślepa</row>
-      <row important_over="never"><ch a="Fis"/>Że mnie okłamałaś<ch a="h"/></row>
-      <row important_over="never"><ch a="G"/>Że mój cel zabrałaś</row>
-      <row important_over="never"><ch a="A"/>Pokazałaś inną twarz<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Pokazałaś inną</row>
+      <row important_over="false">Pr<ch a="D"/>owadź mnie, ulico,</row>
+      <row important_over="false">i t<ch a="G"/>en nasz ul<ch a="A"/>otny,</row>
+      <row important_over="false">i t<ch a="G"/>en nasz ulotny marsz.</row>
+      <row important_over="false">Pr<ch a="A"/>owadź mnie, ul<ch a="D"/>ico,</row>
+      <row important_over="false">bo j<ch a="D"/>a ciągle czekam,</row>
+      <row important_over="false">cz<ch a="G"/>y się nie ok<ch a="A"/>aże,</row>
+      <row important_over="false">ż<ch a="G"/>eś, ulico, ślepa,</row>
+      <row important_over="false">ż<ch a="Fis"/>e mnie okłam<ch a="h"/>ałaś,</row>
+      <row important_over="false">ż<ch a="G"/>e mój cel zabrałaś,</row>
+      <row important_over="false">pok<ch a="A"/>azałaś inną tw<ch a="D"/>arz,</row>
+      <row important_over="false">pok<ch a="G"/>azałaś inną...</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <keywords></keywords>
+  <album>Blues o starych sąsiadach</album>
+  <genre>poezja śpiewana</genre>
   <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
     <verificators/>
-    <to_do/>
+    <to_do></to_do>
   </status>
+  <music_source>Album Pod Budą „Blues o starych sąsiadach” (1992)</music_source>
 </song>
