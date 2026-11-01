@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Arka Noego">
-  <text_author type="solo">Jacek Kaczmarski</text_author>
-  <comment/>
-  <artist type="solo">Jacek Kaczmarski</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true">W p<ch a="e"/>ełnym słońcu w środku l<ch a="D"/>ata,<ch a="e"/> wśród łagodnych fal ziel<ch a="D"/>eni</row>
-      <row important_over="true">Wr<ch a="e"/>e zapamiętała pr<ch a="D"/>aca, st<ch a="e"/>awiam ł<ch a="D"/>ódź na s<ch a="h"/>uchej zi<ch a="a"/>em<ch a="e"/>i</row>
-      <row important_over="false"><ch a="e"/>Owad w pąku drży kwitn<ch a="D"/>ącym, chł<ch a="e"/>op po barki brodzi w ż<ch a="D"/>ycie</row>
-      <row important_over="false">J<ch a="e"/>a pracując w dzień i w n<ch a="D"/>ocy, m<ch a="e"/>am już b<ch a="D"/>urty <ch a="h"/>i posz<ch a="a"/>yci<ch a="e"/>e</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Muszę taką łódź zbudować, by w niej całe życie zmieścić</row>
-      <row important_over="never">Nikt nie wierzy w moje słowa, wszyscy mają ważne wieści</row>
-      <row important_over="never">Ktoś się o majątek kłóci, albo łatwy węszy żer</row>
-      <row important_over="never">Zanim się ze snu obudzi, będę miał już maszt i ster!</row>
-    </block>
-    <block type="chorus">
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Niech was nie mami głupców chór!</row>
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Słychać już grzmot burzowych chmur!</row>
-      <row important_over="never">Zostawcie kłótnie swe na potem</row>
-      <row important_over="never">Wiarę przeczuciom dajcie raz!</row>
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Zanim w końcu pochłonie was!</row>
-    </block>
-    <block type="verse">
-      <row important_over="never">Każdy z was jest łodzią w której, może się z potopem mierzyć</row>
-      <row important_over="never">Cało wyjść z burzowej chmury, musi tylko w to uwierzyć!</row>
-      <row important_over="never">Lecz w ulewie grzmot za grzmotem, i za późno krzyk na trwogę</row>
-      <row important_over="never">I za późno usta z błotem, wypluwają mą przestrogę!</row>
-    </block>
-    <block type="chorus">
-      <row important_over="true">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed po<ch a="fis"/>topem</row>
-      <row important_over="true">Sł<ch a="E"/>yszę sterując w s<ch a="h"/>er<ch a="cis"/>ce f<ch a="fis"/>al! <ch a="h"/><ch a="fis"/></row>
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Krzyczy ten co się przedtem śmiał!</row>
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Naszych nad własnym losem łez!</row>
-      <row important_over="never">Budujcie Arkę przed potopem</row>
-      <row important_over="never">Na pierwszy i na ostatni chrzest!</row>
-    </block>
-  </lyric>
-  <keywords/>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+<song title="Arka Noego" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
+	<alias>W pełnym słońcu w środku lata</alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<comment>Program „Muzeum” (1981), piosenka napisana w 1980 r. inspirowana wawelskim arrasem „Budowa Arki Noego”.</comment>
+	<composer type="solo">Przemysław Gintrowski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">W p<ch a="e"/>ełnym słońcu w środku l<ch a="D"/>ata, <ch a="e"/>wśród łagodnych fal ziel<ch a="D"/>eni</row>
+			<row important_over="true">Wr<ch a="e"/>e zapamiętała pr<ch a="D"/>aca, st<ch a="e"/>awiam ł<ch a="D"/>ódź na s<ch a="h"/>uchej zi<ch a="a"/>em<ch a="e"/>i.</row>
+			<row important_over="true"><ch a="e"/>Owad w pąku drży kwitn<ch a="D"/>ącym, chł<ch a="e"/>op po barki brodzi w ż<ch a="D"/>ycie,</row>
+			<row important_over="true">J<ch a="e"/>a, pracując w dzień i w n<ch a="D"/>ocy, m<ch a="e"/>am już b<ch a="D"/>urty <ch a="h"/>i posz<ch a="a"/>yci<ch a="e"/>e.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">M<ch a="e"/>uszę taką łódź zbud<ch a="D"/>ować, <ch a="e"/>by w niej całe życie zmi<ch a="D"/>eścić,</row>
+			<row important_over="false">N<ch a="e"/>ikt nie wierzy w moje sł<ch a="D"/>owa, wsz<ch a="e"/>yscy m<ch a="D"/>ają w<ch a="h"/>ażne wi<ch a="a"/>eśc<ch a="e"/>i.</row>
+			<row important_over="false">Kt<ch a="e"/>oś się o majątek kł<ch a="D"/>óci <ch a="e"/>albo łatwy węszy ż<ch a="D"/>er,</row>
+			<row important_over="false">Z<ch a="e"/>anim się ze snu ob<ch a="D"/>udzi, b<ch a="e"/>ędę mi<ch a="D"/>ał już m<ch a="h"/>aszt i st<ch a="a"/>er!<ch a="e"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Budujcie <ch a="e"/>Arkę prz<ch a="a"/>ed pot<ch a="e"/>opem,</row>
+			<row important_over="true">Ni<ch a="D"/>ech was nie mami gł<ch a="a"/>upc<ch a="h"/>ów ch<ch a="e"/>ór!<ch a="a"/></row>
+			<row important_over="true">Budujcie <ch a="e"/>Arkę prz<ch a="a"/>ed pot<ch a="e"/>opem,</row>
+			<row important_over="true">Sł<ch a="D"/>ychać już grzmot b<ch a="a"/>urz<ch a="h"/>owych chm<ch a="e"/>ur!</row>
+			<row important_over="false">Zost<ch a="e"/>awcie kłótnie sw<ch a="a"/>e na p<ch a="e"/>otem,</row>
+			<row important_over="false">Wi<ch a="D"/>arę przeczuciom d<ch a="a"/>ajci<ch a="h"/>e r<ch a="e"/>az!<ch a="a"/></row>
+			<row important_over="false">Budujcie <ch a="e"/>Arkę prz<ch a="a"/>ed pot<ch a="e"/>opem,</row>
+			<row important_over="false">Z<ch a="D"/>anim w końcu pochł<ch a="a"/>oni<ch a="h"/>e w<ch a="e"/>as!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">K<ch a="e"/>ażdy z was jest łodzią, w kt<ch a="D"/>órej m<ch a="e"/>oże się z potopem mi<ch a="D"/>erzyć,</row>
+			<row important_over="false">C<ch a="e"/>ało wyjść z burzowej chm<ch a="D"/>ury — m<ch a="e"/>usi t<ch a="D"/>ylko w t<ch a="h"/>o uwi<ch a="a"/>erz<ch a="e"/>yć!</row>
+			<row important_over="false">L<ch a="e"/>ecz w ulewie grzmot za grzm<ch a="D"/>otem <ch a="e"/>i za późno krzyk na trw<ch a="D"/>ogę</row>
+			<row important_over="false">I z<ch a="e"/>a późno usta z bł<ch a="D"/>otem w<ch a="e"/>ypluw<ch a="D"/>ają m<ch a="h"/>ą przestrz<ch a="a"/>og<ch a="e"/>ę!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed pot<ch a="fis"/>opem,</row>
+			<row important_over="true">Sł<ch a="E"/>yszę sterując w s<ch a="h"/>erc<ch a="cis"/>e f<ch a="fis"/>al!<ch a="h"/></row>
+			<row important_over="true">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed pot<ch a="fis"/>opem,</row>
+			<row important_over="true">Krz<ch a="E"/>yczy ten, co się prz<ch a="h"/>edt<ch a="cis"/>em śmi<ch a="fis"/>ał!<ch a="h"/></row>
+			<row important_over="true">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed pot<ch a="fis"/>opem,</row>
+			<row important_over="true">N<ch a="E"/>aszych nad własnym l<ch a="h"/>os<ch a="cis"/>em ł<ch a="fis"/>ez!<ch a="h"/></row>
+			<row important_over="true">Budujcie <ch a="fis"/>Arkę prz<ch a="h"/>ed pot<ch a="fis"/>opem,</row>
+			<row important_over="true">N<ch a="E"/>a pierwszy i na ost<ch a="h"/>atn<ch a="cis"/>i chrz<ch a="fis"/>est!</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar/>
+	</music>
+	<album>Muzeum</album>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Piotr Tabor</verificator>
+		</verificators>
+	</status>
 </song>
