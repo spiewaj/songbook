@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Stary cowboy">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Co mi tam wiatr, co mi tam chłód</alias>
+  <text_author type="solo">tradycyjna</text_author>
+  <composer type="solo">tradycyjna</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Na prerię szary spływa mrok</row>
-      <row important_over="never"><ch a="G"/>Po stepie wieje wiatr</row>
-      <row important_over="never"><ch a="e"/>Rozsiodłał konia stary cowboy</row>
-      <row important_over="never"><ch a="G"/>Przy ognisku siadł</row>
-      <row important_over="never"><ch a="e"/>Gdy płomień resztką sił się tlił</row>
-      <row important_over="never"><ch a="e"/>Dorzucił jeszcze parę drew</row>
-      <row important_over="never"><ch a="C"/>Wieczorne mgły niosą jego śpiew<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Na prerię szary spływa mrok,</row>
+      <row important_over="true"><ch a="G"/>po stepie wieje wiatr,</row>
+      <row important_over="true"><ch a="e"/>rozsiodłał konia stary cowboy,</row>
+      <row important_over="true"><ch a="G"/>przy ognisku siadł.</row>
+      <row important_over="true"><ch a="e"/>Gdy płomień resztką sił się tlił,</row>
+      <row important_over="true"><ch a="e"/>dorzucił jeszcze parę drew,</row>
+      <row important_over="true"><ch a="C"/>wieczorne mgły niosą jego śpi<ch a="e"/>ew.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="e"/>Co mi tam wiatr, co mi tam chłód<ch a="G"/><ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Byle był koń, wiatronogi druh<ch a="e"/></row>
-      <row important_over="never"><ch a="G"/>Był colt, lasso i bat<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Co mi tam chłód, co mi tam wiatr<ch a="e"/></row>
+      <row important_over="true"><ch a="e"/>Co mi tam wiatr, <ch a="G"/>co mi tam chł<ch a="e"/>ód,</row>
+      <row important_over="true"><ch a="C"/>byle był koń, wiatronogi dr<ch a="e"/>uh,</row>
+      <row important_over="true"><ch a="G"/>był colt, lasso i b<ch a="e"/>at,</row>
+      <row important_over="true"><ch a="C"/>co mi tam chłód, co mi tam wi<ch a="e"/>atr.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Pamiętasz stary koniu</row>
-      <row important_over="never"><ch a="G"/>Gdym żebrakiem jeszcze był</row>
-      <row important_over="never"><ch a="e"/>Marzyłem sobie kupię dom</row>
-      <row important_over="never"><ch a="G"/>Jak człowiek będę żył</row>
-      <row important_over="never"><ch a="e"/>Pasałem bydło życie całe</row>
-      <row important_over="never"><ch a="e"/>Co dziś mam, czy wiesz</row>
-      <row important_over="never"><ch a="C"/>Dwa colty, bat, ciebię i tę pieśń<ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Pamiętasz, stary koniu,</row>
+      <row important_over="false"><ch a="G"/>gdym żebrakiem jeszcze był?</row>
+      <row important_over="false"><ch a="e"/>Marzyłem sobie: kupię dom,</row>
+      <row important_over="false"><ch a="G"/>jak człowiek będę żył.</row>
+      <row important_over="false"><ch a="e"/>Pasałem bydło życie całe,</row>
+      <row important_over="false"><ch a="e"/>co dziś mam, czy wiesz?</row>
+      <row important_over="false"><ch a="C"/>Dwa colty, bat, ciebie i tę pi<ch a="e"/>eśń.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="e"/>Nad ranem wygnali znów</row>
-      <row important_over="never"><ch a="G"/>Cowboy'e bydło w step</row>
-      <row important_over="never"><ch a="e"/>Starego pochowali</row>
-      <row important_over="never"><ch a="G"/>Starej szkapie kula w łeb</row>
-      <row important_over="never"><ch a="e"/>Na morzu prerii w dali gdzieś</row>
-      <row important_over="never"><ch a="e"/>Cowboy'ów znika sznur</row>
-      <row important_over="never"><ch a="C"/>Wiatr niesie pieśń, szumi jeszcze bór<ch a="e"/></row>
+      <row important_over="false"><ch a="e"/>Nad ranem wygnali znów</row>
+      <row important_over="false"><ch a="G"/>kowboje bydło w step,</row>
+      <row important_over="false"><ch a="e"/>starego pochowali,</row>
+      <row important_over="false"><ch a="G"/>starej szkapie kula w łeb.</row>
+      <row important_over="false"><ch a="e"/>Na morzu prerii w dali gdzieś</row>
+      <row important_over="false"><ch a="e"/>kowbojów znika sznur,</row>
+      <row important_over="false"><ch a="C"/>wiatr niesie pieśń, szumi jeszcze b<ch a="e"/>ór.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
   </status>
+  <music_source>https://spiewnik.wywrota.pl/piosenki-harcerskie/kowboj</music_source>
 </song>
