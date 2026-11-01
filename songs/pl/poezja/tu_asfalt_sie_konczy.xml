@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tu asfalt się kończy">
+  <alias>Gdy Ogrodowa moczy się</alias>
+  <text_author type="solo">Adam Ziemianin</text_author>
+  <composer type="solo">Krzysztof Myszkowski</composer>
   <artist type="band">Stare Dobre Małżeństwo</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Tu asfalt się kończy </row>
-      <row important_over="true"><ch a="C"/>A zaczyna blues</row>
-      <row important_over="true"><ch a="G"/>Na płocie list gończy </row>
-      <row important_over="true">I po <ch a="C"/>prostu luz </row>
-      <row important_over="true"><ch a="C"/>A termometr w oknie </row>
-      <row important_over="true"><ch a="C"/>Lekko dziś moknie</row>
-      <row important_over="true"><ch a="G"/>I wskazuje plus minus </row>
-      <row important_over="true"><ch a="C"/>Chyba ze trzy stopnie </row>
+      <row important_over="true"><ch a="C"/>Tu asfalt się kończy,</row>
+      <row important_over="true"><ch a="C"/>a zaczyna blues.</row>
+      <row important_over="true"><ch a="G"/>Na płocie list gończy</row>
+      <row important_over="true">i po <ch a="C"/>prostu luz.</row>
+      <row important_over="true"><ch a="C"/>A termometr w oknie</row>
+      <row important_over="true"><ch a="C"/>lekko dziś moknie</row>
+      <row important_over="true"><ch a="G"/>i wskazuje plus minus</row>
+      <row important_over="true">chyba ze trzy st<ch a="C"/>opnie.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="F"/>Gdy Ogrodowa <ch a="C"/>moczy się </row>
-      <row important_over="true"><ch a="G"/>To tak naprawdę <ch a="C"/>nie jest źle </row>
-      <row important_over="false"><ch a="F"/>Bo ta ulica <ch a="C"/>ma swój styl </row>
-      <row important_over="false"><ch a="G"/>Warto tu wpaść na kilka <ch a="C"/>chwil </row>
+      <row important_over="true">Gdy Ogr<ch a="F"/>odowa m<ch a="C"/>oczy się,</row>
+      <row important_over="true">to tak napr<ch a="G"/>awdę ni<ch a="C"/>e jest źle,</row>
+      <row important_over="true">bo ta ul<ch a="F"/>ica m<ch a="C"/>a swój styl,</row>
+      <row important_over="true">warto tu wp<ch a="G"/>aść na kilka chw<ch a="C"/>il.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Tu Leona spotkasz czasem<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Kiedy wypije to zaraz płacze<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Tu żyje jeszcze Sopel Jan<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Był elektrykiem dzisiaj jest sam<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Tu Le<ch a="F"/>ona spotkasz cz<ch a="C"/>asem,</row>
+      <row important_over="false">kiedy wyp<ch a="G"/>ije, to zaraz pł<ch a="C"/>acze.</row>
+      <row important_over="false">Tu ż<ch a="F"/>yje jeszcze Sopel J<ch a="C"/>an,</row>
+      <row important_over="false">był elektr<ch a="G"/>ykiem, dzisiaj jest s<ch a="C"/>am.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Tu asfalt się kończy<ch a="C"/></row>
-      <row important_over="false">A zaczyna noc<ch a="C"/></row>
-      <row important_over="false">Na płocie list gończy<ch a="G"/></row>
-      <row important_over="false">Stracił swoją moc<ch a="C"/></row>
-      <row important_over="false">A termometr w oknie<ch a="C"/></row>
-      <row important_over="false">Męczy się okropnie<ch a="C"/></row>
-      <row important_over="false">I wskazuje plus minus<ch a="G"/></row>
-      <row important_over="false">Może ze trzy stopnie<ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Tu asfalt się kończy,</row>
+      <row important_over="false"><ch a="C"/>a zaczyna noc.</row>
+      <row important_over="false"><ch a="G"/>Na płocie list gończy</row>
+      <row important_over="false">stracił swoją m<ch a="C"/>oc.</row>
+      <row important_over="false"><ch a="C"/>A termometr w oknie</row>
+      <row important_over="false"><ch a="C"/>męczy się okropnie</row>
+      <row important_over="false"><ch a="G"/>i wskazuje plus minus</row>
+      <row important_over="false">może ze trzy st<ch a="C"/>opnie.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Na Ogrodowej pusto dziś<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Chłopcy do wojska musieli iść<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Kiedyś wrócą na Ogrodową<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Choć może już okrężną drogą<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Na Ogr<ch a="F"/>odowej pusto dz<ch a="C"/>iś,</row>
+      <row important_over="false">chłopcy do w<ch a="G"/>ojska musieli <ch a="C"/>iść.</row>
+      <row important_over="false">Ki<ch a="F"/>edyś wrócą na Ogrod<ch a="C"/>ową,</row>
+      <row important_over="false">choć może j<ch a="G"/>uż okrężną dr<ch a="C"/>ogą.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Bo tu zostały ich pierwsze ślady<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">I pierwsza miłość z tamtych lat<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">I te piwonie które tak szalały<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Po ogrodach przez cały czas<ch a="G"/><ch a="C"/></row>
+      <row important_over="false">Bo tu zost<ch a="F"/>ały ich pierwsze śl<ch a="C"/>ady</row>
+      <row important_over="false">i pierwsza mi<ch a="G"/>łość z tamtych l<ch a="C"/>at,</row>
+      <row important_over="false">i te piw<ch a="F"/>onie, które tak szal<ch a="C"/>ały</row>
+      <row important_over="false">po ogr<ch a="G"/>odach przez cały cz<ch a="C"/>as.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Poezja śpiewana</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <album>Bieszczadzkie anioły</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Tu_asfalt_sie_konczy</verificator>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/tu-asfalt-sie-konczy</verificator>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
