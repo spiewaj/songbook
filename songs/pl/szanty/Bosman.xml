@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bosman">
-	<artist type="solo"/>
-	<lyric>
-		<block type="verse">
-			<row important_over="never">Na pokładzie od rana<ch a="a"/><ch a="C"/></row>
-			<row important_over="never">Ciągle słychać bosmana,<ch a="a"/><ch a="A7"/></row>
-			<row important_over="never">Bez potrzeby cholernie się drze.<ch a="d"/><ch a="a"/></row>
-			<row important_over="never">Choćbyś ręce poranił,<ch a="A7"/><ch a="d"/></row>
-			<row important_over="never">Bosman zawsze cię zgani<ch a="a"/></row>
-			<row important_over="never">I powiada: ,,Zrobione jest źle!''<ch a="E7"/><ch a="a"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="never">,,Jeszcze raz czyścić działo,</row>
-			<row important_over="never">Cóż wam chłopcy się stało?</row>
-			<row important_over="never">Jak do żarcia, to każdy się rwie.</row>
-			<row important_over="never">To nie balia niemiecka,</row>
-			<row important_over="never">Trzeba wiedzieć od dziecka,</row>
-			<row important_over="never">Że to okręt wojenny RP.''</row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Ale czasem się zdarzy,</row>
-			<row important_over="never">Że się bosman rozmarzy</row>
-			<row important_over="never">Każdy bosman uczucie to zna.</row>
-			<row important_over="never">Gdy go wtedy poprosisz,</row>
-			<row important_over="never">Swą harmonię przynosi,</row>
-			<row important_over="never">Siada w kącie na rufie i gra.</row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Opowiada o morzach,</row>
-			<row important_over="never">O bezkresnych przestworzach</row>
-			<row important_over="never">I o walkach, co przeżył on sam.</row>
-			<row important_over="never">O dziewczętach z Bombaju,</row>
-			<row important_over="never">Co namiętnie kochają</row>
-			<row important_over="never">I całują tak mocno do krwi.</row>
-		</block>
-		<block type="verse">
-			<row important_over="never">A gdy spytasz go tylko,</row>
-			<row important_over="never">O czym marzył przed chwilką,</row>
-			<row important_over="never">Czemu nagle pojaśniał mu wzrok?</row>
-			<row important_over="never">Mówi: ,,W Gdyni, w Orłowie,</row>
-			<row important_over="never">Będę chodził na głowie,</row>
-			<row important_over="never">Tak mi przypadł do serca ten port.''</row>
-		</block>
-		<block type="verse">
-			<row important_over="never">Bosman skończył, wiatr ścicha,</row>
-			<row important_over="never">Aż tu nagle, u licha!</row>
-			<row important_over="never">Pojaśniało coś nagle we mgle</row>
-			<row important_over="never">Poznał bosman, jak cała</row>
-			<row important_over="never">Polska w blaskach wstawała,</row>
-			<row important_over="never">Na pokładzie okrętu RP.</row>
-		</block>
-	</lyric>
-	<music>
-		<guitar/>
-	</music>
-	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
-	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre>Szanta</genre>
-	<comment/>
+  <alias>Na pokładzie od rana</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Tradycyjna polska piosenka marynarska z okresu międzywojennego, wykonywana m.in. przez Jerzego Porębskiego i zespół Stare Dzwony.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="solo">Jerzy Porębski</artist>
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Na pokładzie od rana</row>
+      <row important_over="never">Ciągle słychać bosmana,</row>
+      <row important_over="true">Bez po<ch a="d"/>trzeby cholernie się <ch a="a"/>drze. <ch a="A7"/></row>
+      <row important_over="true">Choćbyś <ch a="d"/>ręce poranił,</row>
+      <row important_over="true">Bosman <ch a="a"/>zawsze cię zgani</row>
+      <row important_over="true">I po<ch a="E7"/>wiada: „Zrobione jest <ch a="a"/>źle!”.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false">„<ch a="a"/>Jeszcze raz czyścić działo,</row>
+      <row important_over="never">Cóż wam, chłopcy, się stało?</row>
+      <row important_over="false">Jak do <ch a="d"/>żarcia, to każdy się <ch a="a"/>rwie! <ch a="A7"/></row>
+      <row important_over="false">To nie <ch a="d"/>balia niemiecka,</row>
+      <row important_over="false">Trzeba <ch a="a"/>wiedzieć od dziecka,</row>
+      <row important_over="false">Że to <ch a="E7"/>okręt wojenny R<ch a="a"/>P!”.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Ale czasem się zdarzy,</row>
+      <row important_over="never">Że się bosman rozmarzy,</row>
+      <row important_over="false">Każdy <ch a="d"/>bosman uczucie to <ch a="a"/>zna. <ch a="A7"/></row>
+      <row important_over="false">Gdy go <ch a="d"/>wtedy poprosisz,</row>
+      <row important_over="false">Swą har<ch a="a"/>monię przynosi,</row>
+      <row important_over="false">Siada <ch a="E7"/>w kącie na rufie i <ch a="a"/>gra.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Opowiada o morzach,</row>
+      <row important_over="never">O bezkresnych przestworzach</row>
+      <row important_over="false">I o <ch a="d"/>walkach, co przeżył on <ch a="a"/>sam. <ch a="A7"/></row>
+      <row important_over="false">O dziew<ch a="d"/>czętach z Bombaju,</row>
+      <row important_over="false">Co na<ch a="a"/>miętnie kochają</row>
+      <row important_over="false">I ca<ch a="E7"/>łują tak mocno, do <ch a="a"/>krwi.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>A gdy spytasz go tylko,</row>
+      <row important_over="never">O czym marzył przed chwilką,</row>
+      <row important_over="false">Czemu <ch a="d"/>nagle pojaśniał mu <ch a="a"/>wzrok? <ch a="A7"/></row>
+      <row important_over="false">Mówi: <ch a="d"/>„W Gdyni, w Orłowie,</row>
+      <row important_over="false">Będę <ch a="a"/>chodził na głowie,</row>
+      <row important_over="false">Tak mi <ch a="E7"/>przypadł do serca ten <ch a="a"/>port”.</row>
+    </block>
+    <block type="verse">
+      <row important_over="false"><ch a="a"/>Bosman skończył, wiatr ścicha,</row>
+      <row important_over="never">Aż tu nagle, u licha,</row>
+      <row important_over="false">Pojaś<ch a="d"/>niało coś nagle we <ch a="a"/>mgle! <ch a="A7"/></row>
+      <row important_over="false">Poznał <ch a="d"/>bosman, jak cała</row>
+      <row important_over="false">Polska <ch a="a"/>w blaskach wstawała</row>
+      <row important_over="false">Na po<ch a="E7"/>kładzie okrętu R<ch a="a"/>P.</row>
+    </block>
+  </lyric>
+  <music metre="3/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>szanta</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/jerzy-porebski/bosman</verificator>
+    </verificators>
+  </status>
 </song>
