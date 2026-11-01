@@ -2,9 +2,9 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="List">
 	<alias></alias>
 	<text_author type="band">Duet całoroczny</text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
+	<comment>Piosenka ze śpiewnika drużynowego 21 WDH.</comment>
+	<composer type="band">Duet całoroczny</composer>
+	<artist type="band">Duet całoroczny</artist>
 	<translator></translator>
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
@@ -12,69 +12,73 @@
 			<row important_over="false" style="instr"><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/><ch a="C9/6"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="C9/6"/>List do najpiękniejszej kobiety jaką znałem<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Serce miałem kiedyś jedno i mi się<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Potrzaskało straszliwie i doszczętnie<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>I nie udało mi się posklejać skorupek tego<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Dzbanka ani łzami — tym klejem białym<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Ani krwią — tym klejem czerwonym<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Nie udało mi się i myślałem, że już<ch a="G"/></row>
-			<row important_over="never"><ch a="C9/6"/>Zawsze będę tak żyć bez serca<ch a="G"/></row>
-			<row important_over="never">
-				<ch a="C9/6"/>Lecz nagle zjawiłaś się Ty i pomóc chciałaś mi<ch a="G"/></row>
-			<row important_over="never">Czemu? - nie wiem do dziś</row>
+			<row important_over="true"><ch a="C9/6"/>List do najpiękniejszej kobiety, jaką zn<ch a="G"/>ałem.</row>
+			<row important_over="false"><ch a="C9/6"/>Serce miałem kiedyś jedno i mi si<ch a="G"/>ę</row>
+			<row important_over="false"><ch a="C9/6"/>Potrzaskało straszliwie i doszcz<ch a="G"/>ętnie,</row>
+			<row important_over="false"><ch a="C9/6"/>I nie udało mi się posklejać skorupek t<ch a="G"/>ego</row>
+			<row important_over="false"><ch a="C9/6"/>Dzbanka ani łzami — tym klejem bi<ch a="G"/>ałym,</row>
+			<row important_over="false"><ch a="C9/6"/>Ani krwią — tym klejem czerwon<ch a="G"/>ym.</row>
+			<row important_over="false"><ch a="C9/6"/>Nie udało mi się i myślałem, że j<ch a="G"/>uż</row>
+			<row important_over="false"><ch a="C9/6"/>Zawsze będę tak żyć bez s<ch a="G"/>erca,</row>
+			<row important_over="false"><ch a="C9/6"/>Lecz nagle zjawiłaś się Ty i pomóc chciałaś m<ch a="G"/>i.</row>
+			<row important_over="never">Czemu? – nie wiem do dziś.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never"><ch a="C"/>Przygarnęłaś mnie, bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
-			<row important_over="never"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+			<row important_over="true"><ch a="C"/>Przygarnęłaś mnie, bo byłem jak bezpański pi<ch a="G"/>es,<ch a="C"/><ch a="G"/></row>
+			<row important_over="true"><ch a="C"/>I nie wiem, skąd wzięłaś do serca mego kl<ch a="G"/>ej.<ch a="D"/><ch a="C"/><ch a="G"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dałaś mi ciepło swe dałaś mi dobroć swą</row>
-			<row important_over="never">Twe piękno było dla mnie i serce twe</row>
-		</block>
-		<blocklink blocknb="3"/>
-		<block type="verse">
-			<row important_over="never">Byłem tak szczęśliwy, mało szczęścia przedtem miałem</row>
-			<row important_over="never">Skleiłaś serce me — kochać zacząłem Cię</row>
+			<row important_over="never">Dałaś mi ciepło swe, dałaś mi dobroć swą,</row>
+			<row important_over="never">Twe piękno było dla mnie i serce twe.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="never">Lecz wielkie szczęście tak już jest nie może dla mnie wiecznie trwać</row>
-			<row important_over="never">Gdy już kochałem Cię ode mnie odwróciłaś się</row>
-			<row important_over="never">To moja wina, tak ja wiem, miłości mojej nie można znieść</row>
-			<row important_over="never">Lecz za te chwile szczęścia — dziękuję Ci</row>
+			<row important_over="never">Byłem tak szczęśliwy, mało szczęścia przedtem miałem,</row>
+			<row important_over="never">Skleiłaś serce me — kochać zacząłem Cię.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row important_over="never">Ten list piszę teraz bo rozmawiać ze mną nie chcesz już</row>
-			<row important_over="never">Może zaśpiewam kiedyś go by go wysłuchać ktoś mógł</row>
-			<row important_over="never">Może ten ktoś gdzieś spotka Cię, opowie dziękczynienie me</row>
-			<row important_over="never"><ch a="C"/>W ten sposób dowiesz się<ch a="G"/></row>
-			<row important_over="never"><ch a="C"/>Jak bardzo wciąż niestety kocham Cię<ch a="D"/><ch a="G"/></row>
+			<row important_over="never">Lecz wielkie szczęście, tak już jest, nie może dla mnie wiecznie trwać,</row>
+			<row important_over="never">Gdy już kochałem Cię, ode mnie odwróciłaś się.</row>
+			<row important_over="never">To moja wina, tak, ja wiem, miłości mojej nie można znieść,</row>
+			<row important_over="never">Lecz za te chwile szczęścia — dziękuję Ci.</row>
 		</block>
+		<blocklink blocknb="3"/>
 		<block type="verse">
+			<row important_over="never">Ten list piszę teraz, bo rozmawiać ze mną nie chcesz już,</row>
+			<row important_over="never">Może zaśpiewam kiedyś go, by go wysłuchać ktoś mógł,</row>
+			<row important_over="never">Może ten ktoś gdzieś spotka Cię, opowie dziękczynienie me,</row>
+			<row important_over="true"><ch a="C"/>W ten sposób dowiesz si<ch a="G"/>ę,</row>
+			<row important_over="true"><ch a="C"/>Jak bardzo wciąż niestety kocham Ci<ch a="D"/>ę.<ch a="G"/></row>
+		</block>
+		<block type="chorus">
 			<bis times="2">
-				<row important_over="never"><ch a="C"/>Przygarnęłaś mnie bo byłem jak bezpański pies<ch a="G"/><ch a="C"/><ch a="G"/></row>
-				<row important_over="never"><ch a="C"/>I nie wiem skąd wzięłaś do serca mego klej<ch a="G"/><ch a="D"/><ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>Przygarnęłaś mnie, bo byłem jak bezpański pi<ch a="G"/>es,<ch a="C"/><ch a="G"/></row>
+				<row important_over="false"><ch a="C"/>I nie wiem, skąd wzięłaś do serca mego kl<ch a="G"/>ej.<ch a="D"/><ch a="C"/><ch a="G"/></row>
 			</bis>
 		</block>
-		<block type="verse">
-			<row important_over="never">P.S. Naprawdę dziękuję Ci za to że dzięki Tobie mogę znowu kochać ludzi</row>
-			<row important_over="never">Że mogę śpiewać im o szczęściu którego zasmakowałem przy Tobie</row>
+		<block type="other">
+			<row important_over="never">P.S. Naprawdę dziękuję Ci za to, że dzięki Tobie mogę znowu kochać ludzi,</row>
+			<row important_over="never">że mogę śpiewać im o szczęściu, którego zasmakowałem przy Tobie.</row>
 		</block>
 	</lyric>
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords/>
+	<album></album>
+	<genre>Piosenka harcerska</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz. zgodnie ze śpiewnikiem druzynowym</verificator>
-			
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>Krzysiek Cz. zgodnie ze śpiewnikiem druzynowym</verificator>
+			<verificator>Paweł Budzyński</verificator>
 		</verificators>
 		<to_do></to_do>
-		<done/>
 	</status>
-	<keywords/>
 	<music_source></music_source>
-	<album></album>
-	<genre></genre>
 </song>
