@@ -2,64 +2,78 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obietnica">
   <alias>Póki czas</alias>
   <text_author type="solo">Anna Jakubowska, Piotr Wojewódzki</text_author>
+  <comment></comment>
   <composer type="solo">Anna Jakubowska, Piotr Wojewódzki</composer>
+  <artist type="solo">Anna Jakubowska i Piotr Wojewódzki</artist>
+  <translator></translator>
+  <original_title></original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never" sidechords="e">Kiedy serce zamarznie już w nas</row>
-      <row important_over="never" sidechords="C">Kiedy nie ochroni przed mrozem nasz dom</row>
-      <row important_over="never" sidechords="D">Nie zapomnij o strunach</row>
+      <row important_over="true"><ch a="e"/>Kiedy serce zamarznie już w nas</row>
+      <row important_over="true"><ch a="C"/>Kiedy nie ochroni przed mrozem nasz dom</row>
+      <row important_over="true"><ch a="D"/>Nie zapomnij o strunach</row>
       <bis times="2">
-        <row important_over="never" sidechords="C D e">To na pewno się uda! </row>
+        <row important_over="true">To <ch a="C"/>na pewno <ch a="D"/>się u<ch a="e"/>da!</row>
       </bis>
-      <row important_over="never" sidechords="e">Ja zatańczę a ty śpiewaj!</row>
-      <row important_over="never" sidechords="C">Niech zaszumią wkoło drzewa!</row>
-      <row important_over="never" sidechords="D">Niechaj dom przypomni sobie</row>
+      <row important_over="false"><ch a="e"/>Ja zatańczę, a ty śpiewaj!</row>
+      <row important_over="false"><ch a="C"/>Niech zaszumią wkoło drzewa!</row>
+      <row important_over="false"><ch a="D"/>Niechaj dom przypomni sobie</row>
       <bis times="2">
-        <row important_over="never" sidechords="C D e">Kiedy życiem tchnął </row>
+        <row important_over="false">Kie<ch a="C"/>dy ży<ch a="D"/>ciem <ch a="e"/>tchnął</row>
       </bis>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="C D">Póki jeszcze nas na to stać</row>
-      <row important_over="never" sidechords="G e">Nie przestaniemy się kochać i śmiać</row>
-      <row important_over="never" sidechords="C D">Póki można inaczej</row>
-      <row important_over="never" sidechords="G e">To nie dajmy się rozpaczy</row>
-      <row important_over="never" sidechords="C D">Bo ta rozpacz</row>
-      <row important_over="never" sidechords="G e">Może nam w ramiona wpaść</row>
-      <row important_over="never" sidechords="C D e">A jej uścisk jest jak pętla szubienicy</row>
+      <row important_over="true">Póki <ch a="C"/>jeszcze nas <ch a="D"/>na to stać</row>
+      <row important_over="true">Nie prze<ch a="G"/>staniemy się kochać i <ch a="e"/>śmiać</row>
+      <row important_over="true">Póki <ch a="C"/>można ina<ch a="D"/>czej</row>
+      <row important_over="true">To nie <ch a="G"/>dajmy się roz<ch a="e"/>paczy</row>
+      <row important_over="true">Bo ta <ch a="C"/>rozpacz <ch a="D"/></row>
+      <row important_over="true">Może <ch a="G"/>nam w ramiona <ch a="e"/>wpaść</row>
+      <row important_over="true">A jej <ch a="C"/>uścisk jest jak <ch a="D"/>pętla szubie<ch a="e"/>nicy</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="e">Śmiej się ze mną i płacz</row>
-      <row important_over="never" sidechords="C">Póki zima trwa</row>
-      <row important_over="never" sidechords="D">Póki wiatr lodów nie przemieni</row>
+      <row important_over="false"><ch a="e"/>Śmiej się ze mną i płacz</row>
+      <row important_over="false"><ch a="C"/>Póki zima trwa</row>
+      <row important_over="false"><ch a="D"/>Póki wiatr lodów nie przemieni</row>
       <bis times="2">
-        <row important_over="never" sidechords="C D e">Myśl ze mną o lecie</row>
+        <row important_over="false">Myśl <ch a="C"/>ze mną <ch a="D"/>o le<ch a="e"/>cie</row>
       </bis>
-      <row important_over="never" sidechords="e">Ja zaśpiewam a ty tańcz</row>
-      <row important_over="never" sidechords="C">Niechaj zima trwa</row>
-      <row important_over="never" sidechords="D">Niechaj iskra z ognia trwa</row>
+      <row important_over="false"><ch a="e"/>Ja zaśpiewam, a ty tańcz</row>
+      <row important_over="false"><ch a="C"/>Niechaj zima trwa</row>
+      <row important_over="false"><ch a="D"/>Niechaj iskra z ognia trwa</row>
       <bis times="2">
-        <row important_over="never" sidechords="C D e">My szukamy dnia </row>
+        <row important_over="false">My <ch a="C"/>szuka<ch a="D"/>my <ch a="e"/>dnia</row>
       </bis>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="e">Bawię się z tobą w chowanego</row>
-      <row important_over="never" sidechords="C">Twarz masz jednak wciąż zmęczoną</row>
-      <row important_over="never" sidechords="D">Chowam się znów za kwiatuszek</row>
+      <row important_over="false"><ch a="e"/>Bawię się z tobą w chowanego</row>
+      <row important_over="false"><ch a="C"/>Twarz masz jednak wciąż zmęczoną</row>
+      <row important_over="false"><ch a="D"/>Chowam się znów za kwiatuszek</row>
       <bis times="2">
-        <row important_over="never" sidechords="C D e">Ty będziesz moją żoną </row>
+        <row important_over="false">Ty <ch a="C"/>będziesz <ch a="D"/>moją żo<ch a="e"/>ną</row>
       </bis>
-      <row important_over="never" sidechords="e">Przeczekamy srogie zimy</row>
-      <row important_over="never" sidechords="C">Zimy, wiosny i jesienie</row>
-      <row important_over="never" sidechords="D">Latem będę czekać wciąż</row>
-      <row important_over="never" sidechords="C D e">Ja twój mąż</row>
-      <row important_over="never" sidechords="C D e">Ty mój mąż</row>
+      <row important_over="false"><ch a="e"/>Przeczekamy srogie zimy</row>
+      <row important_over="false"><ch a="C"/>Zimy, wiosny i jesienie</row>
+      <row important_over="false"><ch a="D"/>Latem będę czekać wciąż</row>
+      <row important_over="false">Ja <ch a="C"/>twój <ch a="D"/>mąż <ch a="e"/></row>
+      <row important_over="false">Ty <ch a="C"/>mój <ch a="D"/>mąż <ch a="e"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/poki-czas</verificator>
+    </verificators>
   </status>
 </song>
