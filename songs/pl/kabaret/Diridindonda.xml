@@ -1,62 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Diridonda">
-  <text_author type="solo">Artur Andrus</text_author>
-  <comment/>
-  <composer type="solo">Artur Andrus</composer>
-  <artist type="solo">Artur Andrus</artist>
-  <lyric>
-    <block type="verse">
-      <row important_over="true">La, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="true"><ch a="C"/>Po białym winie, mój Boże, </row>
-      <row important_over="true">Czerwone miałam oczy, <ch a="G"/></row>
-      <row important_over="true"><ch a="G"/>On mnie prowadził nad morze </row>
-      <row important_over="true">I mierzwił mi warkoczyk. <ch a="C"/></row>
-      <row important_over="true"><ch a="F"/> Splot był słoneczny, słon<ch a="C"/>eczny był Split, </row>
-      <row important_over="false"><ch a="F"/>Nie był niegrzeczny i gr<ch a="C"/>zeczny nie był zbyt, </row>
-      <row important_over="true"><ch a="G"/>Mierzwił, czarował, całował </row>
-      <row important_over="true">I śpiewał aż po świt: <ch a="C"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="true"><ch a="C"/>Diri diri din, di diri din donda, </row>
-      <row important_over="true"><ch a="C"/>Ukrast ću te, znaj, moja m<ch a="A"/>ala bj<ch a="d"/>onda, </row>
-      <row important_over="true"><ch a="d"/>Diri diri din, di diri din donda, </row>
-      <row important_over="true"><ch a="d"/>Voljet ću te j<ch a="G"/>a, moja m<ch a="C"/>ala bjonda, </row>
-      <row important_over="false">La, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="true">Wszystkie koszule z rozcięciem, <ch a="C"/></row>
-      <row important_over="true">Bo zarost miał na klatce, <ch a="G"/></row>
-      <row important_over="true">Mówił, że dziadek był księciem, <ch a="G"/></row>
-      <row important_over="true">A zęby ma po matce, <ch a="C"/></row>
-      <row important_over="false">Że ma gitarę i zna basistę Queen, <ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Ma pod Zadarem rozlewnię białych win <ch a="F"/><ch a="C"/></row>
-      <row important_over="true">I czy ja w sumie rozumiem, <ch a="G"/></row>
-      <row important_over="true">Co znaczy &quot;diri din&quot;? <ch a="C"/></row>
-    </block>
-    <blocklink blocknb="3"/>
-    <block type="verse">
-      <row important_over="true">Gdy się zjawi wstyd, niczego się nie bój, <ch a="Cis"/></row>
-      <row important_over="true">Wspomnij sobie Split i ten wielki przebój. <ch a="Cis"/><ch a="B"/><ch a="dis"/></row>
-      <row important_over="true">Wspomnieniami leć, po brzegu, po zboczu, <ch a="dis"/></row>
-      <row important_over="true">Czasem trzeba mieć winny kolor oczu. <ch a="dis"/><ch a="Gis"/><ch a="Cis"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="true">I uśmiechaj się do męża, do żony, <ch a="Cis"/></row>
-      <row important_over="false">Każdy dobrze wie, na co biją dzwony, <ch a="Cis"/><ch a="B"/><ch a="dis"/></row>
-      <row important_over="true">Póki w sercu gra, zapomnij o wstydzie <ch a="dis"/></row>
-      <row important_over="false">Młodość jeszcze trwa, gdy choć raz na tydzień... <ch a="dis"/><ch a="Gis"/><ch a="Cis"/></row>
-      <row important_over="true">Diri diri din, din, din, <ch a="Gis"/></row>
-      <row important_over="true">Diri diri don, don, don, <ch a="Cis"/></row>
-      <row important_over="true">Diri diri din, din, din <ch a="Gis"/></row>
-      <row important_over="true">Diri diri donda. <ch a="Cis"/></row>
-    </block>
-  </lyric>
-  <keywords/>
-  <genre>Piosenka kabaretowa</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
+	<alias/>
+	<text_author type="solo">Artur Andrus</text_author>
+	<comment>Polska wersja wielkiego chorwackiego przeboju „Diridonda”, skomponowanego w 1977 roku przez Zdenka Runjicia (wykonywanego m.in. przez grupę Novi Fosili na Festiwalu w Splicie). Polski tekst napisał Artur Andrus; utwór ukazał się na płycie „Cyniczne córy Zurychu” (2015).</comment>
+	<composer type="solo">Zdenko Runjić</composer>
+	<artist type="solo">Artur Andrus</artist>
+	<translator/>
+	<original_title>Diridonda</original_title>
+	<lyric>
+		<block type="other">
+			<row important_over="true">La, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="C"/>Po białym winie, mój Boże,</row>
+			<row important_over="true">czerwone miałam <ch a="G"/>oczy,</row>
+			<row important_over="true"><ch a="G"/>on mnie prowadził nad morze</row>
+			<row important_over="true">i mierzwił mi war<ch a="C"/>koczyk.</row>
+			<row important_over="true"><ch a="F"/>Splot był słoneczny, sło<ch a="C"/>neczny był Split,</row>
+			<row important_over="true"><ch a="F"/>nie był niegrzeczny i <ch a="C"/>grzeczny nie był zbyt,</row>
+			<row important_over="true"><ch a="G"/>mierzwił, czarował, całował</row>
+			<row important_over="true">i śpiewał aż po <ch a="C"/>świt:</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="C"/>Diri diri din, di diri din donda,</row>
+			<row important_over="true">ukrast ću te, <ch a="A"/>znaj, moja mala <ch a="d"/>bjonda,</row>
+			<row important_over="true"><ch a="d"/>diri diri din, di diri din donda,</row>
+			<row important_over="true">voljet ću te <ch a="G"/>ja, moja mala <ch a="C"/>bjonda,</row>
+			<row important_over="false">la, la, la, la... <ch a="G"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="C"/>Wszystkie koszule z rozcięciem,</row>
+			<row important_over="false">bo zarost miał na <ch a="G"/>klatce,</row>
+			<row important_over="false"><ch a="G"/>mówił, że dziadek był księciem,</row>
+			<row important_over="false">a zęby ma po <ch a="C"/>matce,</row>
+			<row important_over="false">że ma gi<ch a="F"/>tarę i zna basistę <ch a="C"/>Queen,</row>
+			<row important_over="false">ma pod Za<ch a="F"/>darem rozlewnię białych <ch a="C"/>win</row>
+			<row important_over="false">i <ch a="G"/>czy ja w sumie rozumiem,</row>
+			<row important_over="false">co znaczy „diri <ch a="C"/>din”?</row>
+		</block>
+		<blocklink blocknb="3"/>
+		<block type="verse">
+			<row important_over="true"><ch a="Cis"/>Gdy się zjawi wstyd, niczego się nie bój,</row>
+			<row important_over="true">wspomnij sobie Split <ch a="B"/>i ten wielki prze<ch a="dis"/>bój.</row>
+			<row important_over="true"><ch a="dis"/>Wspomnieniami leć, po brzegu, po zboczu,</row>
+			<row important_over="true">czasem trzeba mieć <ch a="Gis"/>winny kolor o<ch a="Cis"/>czu.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="Cis"/>I uśmiechaj się do męża, do żony,</row>
+			<row important_over="false">każdy dobrze wie, <ch a="B"/>na co biją dzwo<ch a="dis"/>ny,</row>
+			<row important_over="false"><ch a="dis"/>póki w sercu gra, zapomnij o wstydzie,</row>
+			<row important_over="false">młodość jeszcze trwa, <ch a="Gis"/>gdy choć raz na ty<ch a="Cis"/>dzień...</row>
+			<row important_over="false"><ch a="Gis"/>Diri diri din, din, din,</row>
+			<row important_over="false"><ch a="Cis"/>diri diri don, don, don,</row>
+			<row important_over="false"><ch a="Gis"/>diri diri din, din, din,</row>
+			<row important_over="false"><ch a="Cis"/>diri diri donda.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<keywords>
+		<keyword>kabaret</keyword>
+		<keyword>Split</keyword>
+		<keyword>Cyniczne córy Zurychu</keyword>
+	</keywords>
+	<album>Cyniczne córy Zurychu</album>
+	<genre>Piosenka kabaretowa</genre>
+	<status>
+		<verificators>
+			<verificator>PT</verificator>
+		</verificators>
+		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+	</status>
+	<music_source/>
 </song>
