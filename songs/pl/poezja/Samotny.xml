@@ -61,9 +61,7 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators>
-      <verificator>Piotr Tabernacki</verificator>
-    </verificators>
+    <verificators/>
   </status>
   <music_source>https://poezjaspiewana.pl/preludium-dla-leonarda/</music_source>
 </song>
