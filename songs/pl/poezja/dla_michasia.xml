@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Dla Michasia" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment>Nie znam autorów!!!</comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Nie wiedziałem, dobry Boże</alias>
+	<text_author type="solo">Aleksandra Bacińska</text_author>
+	<comment>Piosenka z repertuaru barda Leonarda Luthera, tytułowa z kasety wydanej na początku lat 90. oraz z płyty „Kraina zagubionych marzeń”.</comment>
+	<composer type="solo">Leonard Luther</composer>
+	<artist type="solo">Leonard Luther</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Nie wierz<ch a="D"/>yłem, dobry B<ch a="G"/>oże,</row>
@@ -14,13 +12,13 @@
 			<row important_over="true">Że cię ki<ch a="G"/>edyś, mały s<ch a="A"/>ynku, będę mi<ch a="D"/>ał.</row>
 			<row important_over="true">Spadłeś z ni<ch a="G"/>eba mi ak<ch a="A"/>urat,</row>
 			<row important_over="false">Kiedy sz<ch a="D"/>edłem z głową w chm<ch a="G"/>urach —</row>
-			<row important_over="true">-- Niedosp<ch a="D"/>any, skacow<ch a="A"/>any i jak p<ch a="G"/>al<ch a="A"/>ec s<ch a="D"/>am.</row>
+			<row important_over="true">Niedosp<ch a="D"/>any, skacow<ch a="A"/>any i jak p<ch a="G"/>al<ch a="A"/>ec s<ch a="D"/>am.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="false">Dam Ci pl<ch a="G"/>ecak p<ch a="A"/>ełen m<ch a="D"/>arzeń,</row>
+			<row important_over="true">Dam Ci pl<ch a="G"/>ecak p<ch a="A"/>ełen m<ch a="D"/>arzeń,</row>
 			<row important_over="false">Grać na<ch a="G"/>uczę n<ch a="A"/>a git<ch a="D"/>arze,</row>
 			<row important_over="true">Na bar<ch a="G"/>ana Ci<ch a="Fis"/>ę przeni<ch a="h"/>osę<ch a="G"/></row>
-			<row important_over="false">Przez świat sm<ch a="D"/>utny j<ch a="A"/>ak kal<ch a="G"/>osze.<ch a="A"/><ch a="D"/></row>
+			<row important_over="true">Przez świat sm<ch a="D"/>utny j<ch a="A"/>ak kal<ch a="G"/>osze.<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Miejsca z<ch a="D"/>agrzać nie umi<ch a="G"/>ałem,</row>
@@ -44,18 +42,17 @@
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>Dla Michasia</album>
+	<genre>poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
+			<authors/>
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>https://spiewnik.wywrota.pl/leonard-luther/dla-michasia</verificator>
 		</verificators>
-		<to_do>Nie znam autorów!!!</to_do>
 	</status>
-	<music_source></music_source>
 </song>
