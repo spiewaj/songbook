@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiewiórka">
   <alias>Palto</alias>
-  <comment>Słowa na podstawie „Newa poezją płynąca”</comment>
+  <text_author type="solo">Zbigniew Stefański</text_author>
+  <comment>Słowa Zbigniewa Stefańskiego na podstawie antologii wierszy o Petersburgu „Newa poezją płynąca”.</comment>
   <composer type="solo">Jacek Stefański; Zbigniew Stefański</composer>
   <artist type="band">Bez Jacka</artist>
   <lyric>
@@ -16,42 +17,48 @@
       <row important_over="false"><ch a="F"/>w wielkim świe<ch a="G"/>cie - taka m<ch a="a"/>ała </row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="C"/>Zobacz kończy s<ch a="G"/>ię przedm<ch a="a"/>ieście, </row>
+      <row important_over="true"><ch a="C"/>Zobacz, kończy s<ch a="G"/>ię przedm<ch a="a"/>ieście, </row>
       <row important_over="false"><ch a="F"/>las wyrast<ch a="G"/>a bezszel<ch a="a"/>estnie </row>
       <row important_over="false"><ch a="F"/>w pstrych wi<ch a="G"/>ewiórek krzątan<ch a="a"/>inie. </row>
       <row important_over="false">Palto, p<ch a="F"/>alto z<ch a="G"/>ałóż wr<ch a="a"/>eszcie. </row>
     </block>
     <block type="verse">
-      <row important_over="false">Kto to widział tak po śniegu <ch a="d"/><ch a="a7"/></row>
-      <row important_over="true">w przedwieczornym mrozie biegać, <ch a="d"/><ch a="a"/></row>
-      <row important_over="false">w samym tylko cienkim swetrze, <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="false">w samych lekkich pantofelkach, <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Kto to widział tak po śn<ch a="a7"/>iegu </row>
+      <row important_over="true"><ch a="d"/>w przedwieczornym mrozie b<ch a="a"/>iegać, </row>
+      <row important_over="false"><ch a="F"/>w samym tylko c<ch a="G"/>ienkim sw<ch a="a"/>etrze, </row>
+      <row important_over="false"><ch a="F"/>w samych lekkich p<ch a="G"/>antof<ch a="a"/>elkach, </row>
     </block>
     <block type="other">
-      <row important_over="true">Aaa Aaaaaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="false">Aaa Aaa <ch a="F"/><ch a="G"/><ch a="a"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true"><ch a="F"/>Aaa <ch a="G"/>Aaaa<ch a="a"/>aa <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Aaa <ch a="G"/>Aaa<ch a="a"/> <ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">A już nogi ci się plączą, <ch a="d"/><ch a="a7"/></row>
-      <row important_over="false">włosy okrywają szronem. <ch a="d"/><ch a="a"/></row>
-      <row important_over="false">Pewnie jutro będziesz <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="false">znowu przeziębiona <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>A już nogi ci się pl<ch a="a7"/>ączą, </row>
+      <row important_over="false"><ch a="d"/>włosy okrywają szr<ch a="a"/>onem. </row>
+      <row important_over="false"><ch a="F"/>Pewnie j<ch a="G"/>utro będz<ch a="a"/>iesz </row>
+      <row important_over="false"><ch a="F"/>znowu pr<ch a="G"/>zeziębi<ch a="a"/>ona </row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Staniesz oprzesz się o drzewo,<ch a="d"/><ch a="a7"/></row>
-      <row important_over="false">sen nadejdzie nieproszony,<ch a="d"/><ch a="a"/></row>
-      <row important_over="false">a las woła: palto!<ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="false" style="instr"> <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="d"/>Staniesz, oprzesz się o dr<ch a="a7"/>zewo, </row>
+      <row important_over="false"><ch a="d"/>sen nadejdzie nieprosz<ch a="a"/>ony, </row>
+      <row important_over="false"><ch a="F"/>a las w<ch a="G"/>oła: pal<ch a="a"/>to! </row>
+      <row important_over="false" style="instr"><ch a="F"/><ch a="G"/><ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
+  <music_source>http://bezjacka.art.pl/strona/wiewiorka/</music_source>
   <album>Zatańcz ze mną na polanie (2000)</album>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>Piotr Tabernacki</verificator>
+    </verificators>
   </status>
 </song>
