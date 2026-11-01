@@ -1,79 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Morskie opowieści">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Kiedy rum zaszumi w głowie</alias>
+  <text_author type="solo">Tradycyjna</text_author>
+  <comment>Najpopularniejsza polska piosenka żeglarska, oparta na tradycyjnej melodii szanty „What Shall We Do with a Drunken Sailor”. Tekst funkcjonuje jako żywy folklor żeglarski z wieloma dopisywanymi zwrotkami.</comment>
+  <composer type="solo">Tradycyjna</composer>
+  <artist type="band">Piosenka tradycyjna</artist>
+  <original_title>What Shall We Do with a Drunken Sailor</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Kiedy rum zaszumi w głowie</row>
-      <row important_over="never"><ch a="G"/>Cały świat nabiera treści</row>
-      <row important_over="never"><ch a="a"/>Wtedy chętnie słucha człowiek<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Kiedy rum zaszumi w głowie,</row>
+      <row important_over="true"><ch a="G"/>Cały świat nabiera treści,</row>
+      <row important_over="true"><ch a="a"/>Wtedy chętnie <ch a="C"/>słucha człowiek</row>
+      <row important_over="true"><ch a="E7"/>Morskich opo<ch a="a"/>wieści.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="a"/>Kto chce, niechaj słucha,</row>
+      <row important_over="true"><ch a="G"/>Kto nie chce, niech nie słucha,</row>
+      <row important_over="true"><ch a="a"/>Jak balsam <ch a="C"/>są dla ucha</row>
+      <row important_over="true"><ch a="E7"/>Morskie opo<ch a="a"/>wieści.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Kto chce niechaj słucha</row>
-      <row important_over="never"><ch a="G"/>Kto nie chce niech nie słucha</row>
-      <row important_over="never"><ch a="a"/>Jak balsam są dla ucha<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskie opowieści<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Jak spod Helu raz dmuchnęło,</row>
+      <row important_over="false"><ch a="G"/>Żagle zdarła moc nadludzka,</row>
+      <row important_over="false"><ch a="a"/>Patrzę – w koję <ch a="C"/>mi przywiało</row>
+      <row important_over="false"><ch a="E7"/>Nagą babkę <ch a="a"/>z Pucka.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Niech drżą gitary struny,</row>
+      <row important_over="false"><ch a="G"/>Niech wiatr grzywacze pieści,</row>
+      <row important_over="false"><ch a="a"/>Gdy płyniemy <ch a="C"/>pod banderą</row>
+      <row important_over="false"><ch a="E7"/>Morskich opo<ch a="a"/>wieści.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Jak spod Helu raz dmuchnęło</row>
-      <row important_over="never"><ch a="G"/>Żagle zdarła moc nadludzka</row>
-      <row important_over="never"><ch a="a"/>Patrzę w koję mi przywiało<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Nagą babkę z Pucka<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Pływał raz po morzu majtek,</row>
+      <row important_over="false"><ch a="G"/>Czort, Rasputin, bestia taka,</row>
+      <row important_over="false"><ch a="a"/>Że sam kręcił <ch a="C"/>kabestanem,</row>
+      <row important_over="false"><ch a="E7"/>I to bez hand<ch a="a"/>szpaka.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Hej tam, kolejkę nalej,</row>
+      <row important_over="false"><ch a="G"/>Hej tam, kielichy wznieśmy,</row>
+      <row important_over="false"><ch a="a"/>To zrobi dos<ch a="C"/>konale</row>
+      <row important_over="false"><ch a="E7"/>Morskim opo<ch a="a"/>wieściom.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Niech drżą gitary struny</row>
-      <row important_over="never"><ch a="G"/>Niech wiatr grzywacze pieści</row>
-      <row important_over="never"><ch a="a"/>Gdy płyniemy pod banderą<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Łajba to jest morski statek,</row>
+      <row important_over="false"><ch a="G"/>Sztorm to wiatr, co dmucha z gestem,</row>
+      <row important_over="false"><ch a="a"/>Cierpi kraj na <ch a="C"/>niedostatek</row>
+      <row important_over="false"><ch a="E7"/>Morskich opo<ch a="a"/>wieści.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Kto chce, niechaj wierzy,</row>
+      <row important_over="false"><ch a="G"/>Kto chce, niech nie wierzy,</row>
+      <row important_over="false"><ch a="a"/>Nam na tym <ch a="C"/>nie zależy,</row>
+      <row important_over="false"><ch a="E7"/>Więc wypijmy <ch a="a"/>jeszcze!</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Pływał raz po morzu majtek</row>
-      <row important_over="never"><ch a="G"/>Czort, rasputin, bestia taka</row>
-      <row important_over="never"><ch a="a"/>Że sam kręcił kabestanem<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>I to bez handszpaka<ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Pływał raz marynarz, który</row>
+      <row important_over="false"><ch a="G"/>Żywił się wyłącznie pieprzem,</row>
+      <row important_over="false"><ch a="a"/>Sypał pieprz do <ch a="C"/>konfitury</row>
+      <row important_over="false"><ch a="E7"/>I do zupy <ch a="a"/>mlecznej.</row>
     </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Hej tam kolejkę nalej</row>
-      <row important_over="never"><ch a="G"/>Hej tam kielichy wznieśmy</row>
-      <row important_over="never"><ch a="a"/>To zrobi doskonale<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskim opowieściom<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Łajba to jest morski statek</row>
-      <row important_over="never"><ch a="G"/>Sztorm to wiatr co dmucha z gestem</row>
-      <row important_over="never"><ch a="a"/>Cierpi kraj na niedostatek<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Kto chce niechaj wierzy</row>
-      <row important_over="never"><ch a="G"/>Kto chce niech nie wierzy</row>
-      <row important_over="never"><ch a="a"/>Nam na tym nie zależy<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Więc wypijmy jeszcze<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Pływał raz marynarz który</row>
-      <row important_over="never"><ch a="G"/>Żywił się wyłącznie pieprzem</row>
-      <row important_over="never"><ch a="a"/>Sypał pieprz do konfitury<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>I do zupy mlecznej<ch a="a"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="a"/>Może ktoś się będzie zżymał</row>
-      <row important_over="never"><ch a="G"/>Mówiąc że to zdrożne wieści</row>
-      <row important_over="never"><ch a="a"/>Ale to jest właśnie klimat<ch a="C"/></row>
-      <row important_over="never"><ch a="E7"/>Morskich opowieści<ch a="a"/></row>
+    <block type="chorus">
+      <row important_over="false"><ch a="a"/>Może ktoś się będzie zżymał,</row>
+      <row important_over="false"><ch a="G"/>Mówiąc, że to zdrożne wieści,</row>
+      <row important_over="false"><ch a="a"/>Ale to jest <ch a="C"/>właśnie klimat</row>
+      <row important_over="false"><ch a="E7"/>Morskich opo<ch a="a"/>wieści.</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/szanty/morskie-opowiesci</verificator>
+    </verificators>
   </status>
 </song>
