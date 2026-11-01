@@ -1,70 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Trzej wodzowie">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
-  <lyric>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Być raz wielcy trzej wodzowie</row>
-      <row important_over="never"><ch a="F"/>Oni mieć dobre zdrowie</row>
-      <row important_over="never"><ch a="C"/>I pół litra nieraz mały problem być<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Oni mieć zawsze humor</row>
-      <row important_over="never"><ch a="C"/>Gdy ognista woda ciurkiem w siebie lać<ch a="G"/><ch a="F"/><ch a="C"/></row>
-    </block>
-    <block type="chorus">
-      <row important_over="never"><ch a="F"/>My być tam, my być tu</row>
-      <row important_over="never"><ch a="C"/>Wielki być nasz Manitou</row>
-      <row important_over="never"><ch a="C"/>On nam dać ognista woda, woda dać<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>My ją pić pić do rana</row>
-      <row important_over="never"><ch a="F"/>Nasza wódzia ukochana</row>
-      <row important_over="never"><ch a="C"/>My ją pić my ją pić a potem paść<ch a="G"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Wielki wódz Mała Kopa</row>
-      <row important_over="never"><ch a="F"/>Z niego być kawał chłopa</row>
-      <row important_over="never"><ch a="C"/>On z mustanga gdy był młody na skalp spaść<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>On mieć uśmiechnięta gęba</row>
-      <row important_over="never"><ch a="C"/>I świergolić jak ptak zięba<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Gdy ognista woda ciurkiem w siebie lać<ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Wielki wódz Iczuczuna</row>
-      <row important_over="never"><ch a="F"/>On mieć nad głową łuna</row>
-      <row important_over="never"><ch a="C"/>Taki wielki umysłowiec z niego być<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Ciągle knuć i kombinować</row>
-      <row important_over="never"><ch a="C"/>I bez przerwy lamentować<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Jak by na tym głupim świecie lepiej żyć<ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Wielki wódz Mała Stopa</row>
-      <row important_over="never"><ch a="F"/>On uderzyć nieźle z kopa</row>
-      <row important_over="never"><ch a="C"/>Na hamówkach nikt do niego nie mieć szans<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Jak uderzyć dobrze z kopa</row>
-      <row important_over="never"><ch a="C"/>Nieboszczyków leżeć kopa<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>On być byk on być byk on być byk<ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never"><ch a="C"/>Ledwie świt na niebie wstanie</row>
-      <row important_over="never"><ch a="F"/>Już na ścieżce są Indianie</row>
-      <row important_over="never"><ch a="C"/>Każdy swoją ścieżkę zdrowia dobrze znać<ch a="G"/></row>
-      <row important_over="never"><ch a="C"/>Brać indiańska nie mieć kaca</row>
-      <row important_over="never"><ch a="C"/>I wesołe świecić glaca<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Gdy ognista woda ciurkiem w siebie lać<ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-  </lyric>
-  <music metre="">
-    <guitar barre="0"/>
-  </music>
-  <status>
-    <verificators/>
-    <to_do/>
-  </status>
+	<alias>My być tam, my być tu</alias>
+	<text_author>tradycyjna</text_author>
+	<comment>Piosenka harcerska i biesiadna śpiewana na melodię „Cotton Fields” Huddiego Williama Ledbettera (Lead Belly).</comment>
+	<composer type="solo">Huddie William Ledbetter</composer>
+	<artist type="band">Piosenka harcerska</artist>
+	<original_title>Cotton Fields</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="C"/>Być raz wielcy trzej wodzowie,</row>
+			<row important_over="true"><ch a="F"/>Oni mieć dobre <ch a="C"/>zdrowie</row>
+			<row important_over="true">I pół litra nieraz mały problem <ch a="G"/>być.</row>
+			<row important_over="true"><ch a="C"/>Oni mieć zawsze humor</row>
+			<row important_over="true">I bez przerwy robić <ch a="G"/>rumor,</row>
+			<row important_over="true"><ch a="F"/>Gdy ognista woda ciurkiem w siebie <ch a="C"/>lać.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="F"/>My być tam, my być tu,</row>
+			<row important_over="true"><ch a="C"/>Wielki być nasz Manitou,</row>
+			<row important_over="true">On nam dać ognista woda, woda <ch a="G"/>dać.</row>
+			<row important_over="true"><ch a="C"/>My ją pić, pić do rana,</row>
+			<row important_over="true"><ch a="F"/>Nasza wódzia ukochana,</row>
+			<row important_over="true"><ch a="C"/>My ją pić, my ją pić, a potem <ch a="G"/>paść.<ch a="C"/></row>
+		</block>
+		<block type="verse">
+			<row><ch a="C"/>Wielki wódz Mała Kopa,</row>
+			<row><ch a="F"/>Z niego być kawał <ch a="C"/>chłopa,</row>
+			<row>On z mustanga gdy był młody na skalp <ch a="G"/>spaść.</row>
+			<row><ch a="C"/>On mieć uśmiechnięta gęba</row>
+			<row>I świergolić jak ptak <ch a="G"/>zięba,</row>
+			<row><ch a="F"/>Gdy ognista woda ciurkiem w siebie <ch a="C"/>lać.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row><ch a="C"/>Wielki wódz Iczuczuna,</row>
+			<row><ch a="F"/>On mieć nad głową <ch a="C"/>łuna,</row>
+			<row>Taki wielki umysłowiec z niego <ch a="G"/>być.</row>
+			<row><ch a="C"/>Ciągle knuć i kombinować</row>
+			<row>I bez przerwy lamen<ch a="G"/>tować,</row>
+			<row><ch a="F"/>Jak by na tym głupim świecie lepiej <ch a="C"/>żyć.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row><ch a="C"/>Wielki wódz Mała Stopa,</row>
+			<row><ch a="F"/>On uderzyć nieźle z <ch a="C"/>kopa,</row>
+			<row>Na hamówkach nikt do niego nie mieć <ch a="G"/>szans.</row>
+			<row><ch a="C"/>Jak uderzyć dobrze z kopa,</row>
+			<row>Nieboszczyków leżeć <ch a="G"/>kopa,</row>
+			<row><ch a="F"/>On być byk, on być byk, on być <ch a="C"/>byk.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row><ch a="C"/>Ledwie świt na niebie wstanie,</row>
+			<row><ch a="F"/>Już na ścieżce są In<ch a="C"/>dianie,</row>
+			<row>Każdy swoją ścieżkę zdrowia dobrze <ch a="G"/>znać.</row>
+			<row><ch a="C"/>Brać indiańska nie mieć kaca</row>
+			<row>I wesołe świecić <ch a="G"/>glaca,</row>
+			<row><ch a="F"/>Gdy ognista woda ciurkiem w siebie <ch a="C"/>lać.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka harcerska - parodia</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
+		<verificators/>
+	</status>
 </song>
