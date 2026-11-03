@@ -1,70 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bossanova na 4 ręce">
+  <alias>Bossanova na cztery ręce</alias>
+  <text_author type="solo">tradycyjny</text_author>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka turystyczna</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="h7"/>Gdy kłopotów <ch a="e"/>tysiąc i <ch a="G"/>gdy pachnie <ch a="Fis7"/>deszczem,
-</row>
-      <row important_over="true"><ch a="h7"/>A po zimie <ch a="e"/>minę masz <ch a="A7"/>ponurą <ch a="D7+"/>jeszcze,
-</row>
-      <row important_over="true"><ch a="e"/>Ubierz płaszcz i <ch a="A7"/>drzwi na klucz, po <ch a="D7+"/>schodach <ch a="h7"/>biegiem,
-</row>
-      <row important_over="true"><ch a="e"/>Bo za rogiem <ch a="A"/>przecież czeka <ch a="G"/>ktoś na <ch a="Fis7"/>ciebie.
-</row>
+      <row important_over="true"><ch a="h7"/>Gdy kłopotów <ch a="e"/>tysiąc i <ch a="G"/>gdy pachnie <ch a="Fis7"/>deszczem,</row>
+      <row important_over="true"><ch a="h7"/>a po zimie <ch a="e"/>minę masz <ch a="A7"/>ponurą <ch a="D7+"/>jeszcze,</row>
+      <row important_over="true"><ch a="e"/>ubierz płaszcz i <ch a="A7"/>drzwi na klucz, po <ch a="D7+"/>schodach <ch a="h7"/>biegiem,</row>
+      <row important_over="true"><ch a="e"/>bo za rogiem <ch a="A"/>przecież czeka <ch a="G"/>ktoś na <ch a="Fis7"/>ciebie.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Peleryny brać nie musisz, nie potrzeba,<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="false">Za parasol niech posłuży płatek nieba.
-<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="false">Nie zatrzymuj się przed lustrem, Do torebki schowaj chustkę <ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">I zaśpiewaj jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false"><ch a="h7"/>Peleryny <ch a="e"/>brać nie musisz, <ch a="G"/>nie pot<ch a="Fis7"/>rzeba,</row>
+      <row important_over="false"><ch a="h7"/>za parasol <ch a="e"/>niech posłuży <ch a="A7"/>płatek <ch a="D7+"/>nieba.</row>
+      <row important_over="false"><ch a="e"/>Nie zatrzymuj <ch a="A7"/>się przed lustrem, <ch a="D7+"/>do torebki <ch a="h7"/>schowaj chustkę</row>
+      <row important_over="false"><ch a="e"/>i zaśpiewaj, <ch a="A"/>jeśli <ch a="G"/>umiesz, <ch a="Fis7"/>tak:</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,
-</row>
-      <row important_over="false"><ch a="e"/>Taka <ch a="A7"/>wonna, taka <ch a="D7+"/>biała jakby <ch a="h7"/>bez.
-</row>
-      <row important_over="false">W <ch a="e"/>niej <ch a="A7"/>zanurzyć się, <ch a="D7+"/>zagubić jak naj<ch a="h7"/>prędzej,</row>
-      <row important_over="true"><ch a="e"/>Niech <ch a="A7"/>porywa, niech zakręci <ch a="G"/>aż do <ch a="Fis7"/>łez.
-</row>
+      <row important_over="true"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce,</row>
+      <row important_over="true"><ch a="e"/>taka <ch a="A7"/>wonna, taka <ch a="D7+"/>biała jakby <ch a="h7"/>bez.</row>
+      <row important_over="true">W <ch a="e"/>niej <ch a="A7"/>zanurzyć się, <ch a="D7+"/>zagubić jak naj<ch a="h7"/>prędzej,</row>
+      <row important_over="true"><ch a="e"/>niech <ch a="A7"/>porywa, niech zakręci <ch a="G"/>aż do <ch a="Fis7"/>łez.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Bossanova, bossanova na cztery ręce
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">Już króluje nad dachami miast,
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">Jak dziewczyna, jak dziewczyna co w sukience
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">Na ulicę wiosną wyszła pierwszy raz. <ch a="e"/><ch a="A7"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="true"><ch a="e"/>Bossa<ch a="A7"/>nova, bossa<ch a="D7+"/>nova na cztery <ch a="h7"/>ręce</row>
+      <row important_over="true"><ch a="e"/>już król<ch a="A7"/>uje nad dach<ch a="D7+"/>ami <ch a="h7"/>miast,</row>
+      <row important_over="true"><ch a="e"/>jak dziewcz<ch a="A7"/>yna, jak dziewcz<ch a="D7+"/>yna, co w suk<ch a="h7"/>ience</row>
+      <row important_over="true"><ch a="e"/>na u<ch a="A7"/>licę wiosną <ch a="G"/>wyszła pierwszy <ch a="Fis7"/>raz.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Zamiast myśleć o wczorajszym dniu, co minął,
-<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="false">Lepiej wybierz się na spacer, nie jest zimno.
-<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="false">Schowaj w szafę rękawiczki, szalik, futro,
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">Zrób to dzisiaj, nie odkładaj nic na jutro.
-<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false"><ch a="h7"/>Zamiast myśleć <ch a="e"/>o wczorajszym <ch a="G"/>dniu, co <ch a="Fis7"/>minął,</row>
+      <row important_over="false"><ch a="h7"/>lepiej wybierz <ch a="e"/>się na spacer, <ch a="A7"/>nie jest <ch a="D7+"/>zimno.</row>
+      <row important_over="false"><ch a="e"/>Schowaj w szafę <ch a="A7"/>rękawiczki, <ch a="D7+"/>szalik, <ch a="h7"/>futro,</row>
+      <row important_over="false"><ch a="e"/>zrób to dzisiaj, <ch a="A"/>nie odk<ch a="G"/>ładaj nic na <ch a="Fis7"/>jutro.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Pospiesz się, za chwilę późno będzie nieco,
-<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="false">Otwórz okno, nic nie szkodzi, że jest przeciąg.
-<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="false">Niech telefon sobie dzwoni, nim depesza ją dogoni
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">To zaśpiewaj, jeśli umiesz tak:<ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false"><ch a="h7"/>Pospiesz się, za <ch a="e"/>chwilę późno <ch a="G"/>będzie <ch a="Fis7"/>nieco,</row>
+      <row important_over="false"><ch a="h7"/>otwórz okno, <ch a="e"/>nic nie szkodzi, <ch a="A7"/>że jest <ch a="D7+"/>przeciąg.</row>
+      <row important_over="false"><ch a="e"/>Niech telefon <ch a="A7"/>sobie dzwoni, <ch a="D7+"/>nim depesza <ch a="h7"/>ją dogoni,</row>
+      <row important_over="false"><ch a="e"/>to zaśpiewaj, <ch a="A"/>jeśli <ch a="G"/>umiesz, <ch a="Fis7"/>tak:</row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="4"/>
     <block type="verse">
-      <row important_over="false">Odpłynęły gdzieś humory i humorki,
-<ch a="h7"/><ch a="e"/><ch a="G"/><ch a="Fis7"/></row>
-      <row important_over="false">Pogodniejsze są niedziele, środy, wtorki<ch a="h7"/><ch a="e"/><ch a="A7"/><ch a="D7+"/></row>
-      <row important_over="false">
-I w ogóle cały tydzień , Jakoś wszystkim raźniej idzie
-<ch a="e"/><ch a="A7"/><ch a="D7+"/><ch a="h7"/></row>
-      <row important_over="false">Gdy śpiewają, gdy śpiewają tak: <ch a="e"/><ch a="A"/><ch a="G"/><ch a="Fis7"/></row>
+      <row important_over="false"><ch a="h7"/>Odpłynęły <ch a="e"/>gdzieś humory <ch a="G"/>i hum<ch a="Fis7"/>orki,</row>
+      <row important_over="false"><ch a="h7"/>pogodniejsze <ch a="e"/>są niedziele, <ch a="A7"/>środy, <ch a="D7+"/>wtorki</row>
+      <row important_over="false"><ch a="e"/>i w ogóle <ch a="A7"/>cały tydzień, <ch a="D7+"/>jakoś wszystkim <ch a="h7"/>raźniej idzie,</row>
+      <row important_over="false"><ch a="e"/>gdy śpiewają, <ch a="A"/>gdy śpi<ch a="G"/>ewają <ch a="Fis7"/>tak:</row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="4"/>
@@ -72,7 +55,13 @@ I w ogóle cały tydzień , Jakoś wszystkim raźniej idzie
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.przewodnicy.tychy.pl/spiewnik/?pl_bossa-nova-na-cztery-rece,177</verificator>
+    </verificators>
   </status>
 </song>
