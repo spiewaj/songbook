@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Czom ty ne pryjszow">
-  <artist>Ludowa ukraińska</artist>
+  <alias>Czom ty nie pryjszow</alias>
+  <text_author>słowa tradycyjne</text_author>
+  <comment>Tradycyjna ukraińska pieśń ludowa (zapis w transkrypcji łacińskiej).</comment>
+  <composer>melodia tradycyjna</composer>
+  <artist>utwór tradycyjny</artist>
+  <genre>Folk</genre>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="h"/>Czom ty ne pryjszow Jak misiac zijszow,</row>
-      <row important_over="true"><ch a="D"/>Ja tebe cze<ch a="A"/>ka<ch a="D"/>ła<ch a="H7"/>.</row>
-      <row important_over="true"><ch a="e"/>Czy konia ne maw, <ch a="D"/>Czy steżky na zn<ch a="fis"/>aw,<ch a="h"/></row>
-      <row important_over="true"><ch a="D"/>Maty ne pusk<ch a="Fis"/>ała<ch a="h"/>?<ch a="H7"/></row>
+      <row important_over="true"><ch a="h"/>Czom ty ne pryjszow, jak misiac zijszow,</row>
+      <row important_over="true"><ch a="D"/>Ja tebe cze<ch a="A"/>ka<ch a="D"/>ła.<ch a="H7"/></row>
+      <row important_over="true"><ch a="e"/>Czy konia ne maw, <ch a="D"/>czy steżky ne zn<ch a="fis"/>aw,<ch a="h"/></row>
+      <row important_over="true"><ch a="D"/>Maty ne pusk<ch a="Fis"/>a<ch a="h"/>ła?<ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">I konia ja maw, I steżku ja znaw,<ch a="h"/></row>
-      <row important_over="false">I maty puskała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="false">Najmensza sestra, Bodaj ne wzrosła<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="false">Sidelce schowała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="h"/>I konia ja maw, i steżku ja znaw,</row>
+      <row important_over="false"><ch a="D"/>I maty pus<ch a="A"/>ka<ch a="D"/>ła.<ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/>Najmensza sestra, <ch a="D"/>bodaj ne wzros<ch a="fis"/>ła,<ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Sidelce scho<ch a="Fis"/>wa<ch a="h"/>ła.<ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">A starsza siestra Sidelce znajszła,<ch a="h"/></row>
-      <row important_over="false">Konia osidłała.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="false">Pojid brateńku Do diwczynońky<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="false">Szczo tebe czekała.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="h"/>A starsza siestra sidelce znajszła,</row>
+      <row important_over="false"><ch a="D"/>Konia osid<ch a="A"/>ła<ch a="D"/>ła.<ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/>Pojid brateńku <ch a="D"/>do diwczynoń<ch a="fis"/>ky,<ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Szczo tebe cze<ch a="Fis"/>ka<ch a="h"/>ła.<ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Tecze riczeńka, Newełyczeńka,<ch a="h"/></row>
-      <row important_over="false">Skoczu, pereskoczu.<ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="false">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="false">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="h"/>Tecze riczeńka, newełyczeńka,</row>
+      <row important_over="false"><ch a="D"/>Skoczu, pere<ch a="A"/>sko<ch a="D"/>czu.<ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/>Widdajte mene, <ch a="D"/>moja matin<ch a="fis"/>ko,<ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Za koho ja <ch a="Fis"/>cho<ch a="h"/>czu.<ch a="H7"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Dum, dum, dum, dum, dum<ch a="h"/></row>
-      <row important_over="false">Dum, dum, dum, dum, dum <ch a="D"/><ch a="A"/><ch a="D"/><ch a="H7"/></row>
-      <row important_over="false">Widdajte mene, Moja matinko<ch a="e"/><ch a="D"/><ch a="fis"/><ch a="h"/></row>
-      <row important_over="false">Za koho ja choczu.<ch a="D"/><ch a="Fis"/><ch a="h"/><ch a="H7"/></row>
+      <row important_over="false"><ch a="h"/>Dum, dum, dum, dum, dum,</row>
+      <row important_over="false"><ch a="D"/>Dum, dum, dum, <ch a="A"/>dum, <ch a="D"/>dum.<ch a="H7"/></row>
+      <row important_over="false"><ch a="e"/>Widdajte mene, <ch a="D"/>moja matin<ch a="fis"/>ko,<ch a="h"/></row>
+      <row important_over="false"><ch a="D"/>Za koho ja <ch a="Fis"/>cho<ch a="h"/>czu.<ch a="H7"/></row>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Folk</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/czom-ty-ne-pryjszol</verificator>
+    </verificators>
   </status>
 </song>
