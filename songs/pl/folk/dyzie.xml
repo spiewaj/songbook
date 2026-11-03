@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dyzie">
+  <text_author>słowa tradycyjne</text_author>
+  <comment>Tradycyjna kołysanka obozowa i harcerska.</comment>
+  <composer>melodia tradycyjna</composer>
+  <artist>utwór tradycyjny</artist>
+  <genre>Folk</genre>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="e"/>Nocka idzie, <ch a="D"/>śpią juz dyzie</row>
-      <row important_over="false"><ch a="e"/>A po niebie <ch a="D"/>skarbnik idzie</row>
-      <row important_over="false"><ch a="e"/>Słucha słucha <ch a="D"/>skarbnik stary, </row>
-      <row important_over="false"> <ch a="e"/>W jakim skarbcu <ch a="D"/>szumią czary </row>
+      <row important_over="true"><ch a="e"/>Nocka idzie, <ch a="D"/>śpią już dyzie,</row>
+      <row important_over="false"><ch a="e"/>A po niebie <ch a="D"/>skarbnik idzie.</row>
+      <row important_over="false"><ch a="e"/>Słucha, słucha <ch a="D"/>skarbnik stary,</row>
+      <row important_over="false"><ch a="e"/>W jakim skarbcu <ch a="D"/>szumią czary.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true"><ch a="C"/>AAA – <ch a="D"/>minął nowy <ch a="e"/>dzień,</row>
+      <row important_over="true"><ch a="C"/>Jeszcze jeden <ch a="D"/>ciepły <ch a="e"/>blask.</row>
+      <row important_over="false"><ch a="C"/>AAA – <ch a="D"/>minął nowy <ch a="e"/>dzień,</row>
+      <row important_over="false"><ch a="C"/>Przecwałował <ch a="D"/>gwiazdy <ch a="e"/>wiatr.</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>AAA - <ch a="D"/>minął nowy <ch a="e"/>dzień</row>
-      <row important_over="false">jeszcze jeden ciepły blask<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">AAA - minął nowy dzień<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">przecwałował gwiazdy wiatr <ch a="C"/><ch a="D"/><ch a="e"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false">W skarbcu płynie srebrna rzeka<ch a="e"/><ch a="D"/></row>
-      <row important_over="false">Złote pszczoły nad pasieką<ch a="e"/><ch a="D"/></row>
-      <row important_over="false">Złote sny ciągle nowe<ch a="e"/><ch a="D"/></row>
-      <row important_over="false">Przelatują nam przez głowę <ch a="e"/><ch a="D"/></row>
+      <row important_over="false"><ch a="e"/>W skarbcu płynie <ch a="D"/>srebrna rzeka,</row>
+      <row important_over="false"><ch a="e"/>Złote pszczoły <ch a="D"/>nad pasieką,</row>
+      <row important_over="false"><ch a="e"/>Złote sny <ch a="D"/>ciągle nowe</row>
+      <row important_over="false"><ch a="e"/>Przelatują <ch a="D"/>nam przez głowę.</row>
     </block>
     <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">AAA - rozstać się już czas<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">na każdego czeka sen<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">AAA - rozstać się już czas<ch a="C"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">jutro będzie nowy dzień <ch a="C"/><ch a="D"/><ch a="e"/></row>
+    <block type="chorus">
+      <row important_over="false"><ch a="C"/>AAA – <ch a="D"/>rozstać się już <ch a="e"/>czas,</row>
+      <row important_over="false"><ch a="C"/>Na każdego <ch a="D"/>czeka <ch a="e"/>sen.</row>
+      <row important_over="false"><ch a="C"/>AAA – <ch a="D"/>rozstać się już <ch a="e"/>czas,</row>
+      <row important_over="false"><ch a="C"/>Jutro będzie <ch a="D"/>nowy <ch a="e"/>dzień.</row>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Folk</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>Harcerska tradycja śpiewacza (kołysanka obozowa)</verificator>
+    </verificators>
   </status>
 </song>
