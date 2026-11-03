@@ -1,42 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka księżycowa">
   <text_author type="solo">Anita Lipnicka</text_author>
-  <comment/>
   <composer type="solo">Robert Janson</composer>
   <artist type="band">Varius Manx</artist>
   <lyric>
     <block type="verse">
-      <row important_over="false" style="instr"> <ch a="a"/></row>
-      <row important_over="true"><ch a="a"/>Śpisz pięknie t<ch a="G"/>ak</row>
-      <row important_over="true"><ch a="F"/>Po kątach cisza g<ch a="G"/>ra</row>
-      <row important_over="true"><ch a="F"/>Szkoda słów resztę dop<ch a="e"/>owie księżyc</row>
-      <row important_over="false">Ś<ch a="a"/>pisz staram s<ch a="G"/>ię</row>
-      <row important_over="false">O<ch a="F"/>ddychać szeptem poś<ch a="G"/>ciel jeszcze pachnie</row>
-      <row important_over="true"><ch a="F"/>Ogni<ch a="e"/>em naszych c<ch a="a"/>iał</row>
+      <row important_over="false" style="instr"><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Śpisz pięknie <ch a="G"/>tak</row>
+      <row important_over="true"><ch a="F"/>Po kątach cisza <ch a="G"/>gra</row>
+      <row important_over="true"><ch a="F"/>Szkoda słów, resztę dop<ch a="e"/>owie księżyc</row>
+      <row important_over="false"><ch a="a"/>Śpisz, staram <ch a="G"/>się</row>
+      <row important_over="false"><ch a="F"/>Oddychać szeptem, poś<ch a="G"/>ciel jeszcze pachnie</row>
+      <row important_over="true"><ch a="F"/>Ogni<ch a="e"/>em naszych <ch a="a"/>ciał</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="d"/>Kiedyś znaj<ch a="e"/>dę dla nas do<ch a="F"/>m</row>
-      <row important_over="true">Z wielkim o<ch a="G"/>knem na świ<ch a="d"/>at</row>
-      <row important_over="true">Znowu za<ch a="e"/>czniesz ufać m<ch a="F"/>i</row>
-      <row important_over="false">Nie pozw<ch a="G"/>olę ci się b<ch a="d"/>ać</row>
-      <row important_over="false">Kiedyś wszy<ch a="e"/>stkie czarne d<ch a="F"/>ni</row>
-      <row important_over="false">Obró<ch a="G"/>cimy w dobry ża<ch a="d"/>rt</row>
-      <row important_over="true">Znowu będz<ch a="e"/>iesz ufał m<ch a="F"/>i <ch a="G"/></row>
-      <row important_over="true">Teraz śp<ch a="a"/>ij <ch a="G"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="true"><ch a="d"/>Kiedyś znaj<ch a="e"/>dę dla nas <ch a="F"/>dom</row>
+      <row important_over="true">Z wielkim <ch a="G"/>oknem na <ch a="d"/>świat</row>
+      <row important_over="false">Znowu za<ch a="e"/>czniesz ufać <ch a="F"/>mi</row>
+      <row important_over="false">Nie pozw<ch a="G"/>olę ci się <ch a="d"/>bać</row>
+      <row important_over="false">Kiedyś wszy<ch a="e"/>stkie czarne <ch a="F"/>dni</row>
+      <row important_over="false">Obró<ch a="G"/>cimy w dobry <ch a="d"/>żart</row>
+      <row important_over="false" sidechords="d e F G"><ch a="d"/>Znowu będz<ch a="e"/>iesz ufał <ch a="F"/>mi</row>
+      <row important_over="false" sidechords="a G F G a"><ch a="a"/>Teraz śpij...</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="a"/>Wiem dobrze wie<ch a="G"/>m</row>
-      <row important_over="false"><ch a="F"/>Potrafię ranić ta<ch a="G"/>k jak nikt</row>
-      <row important_over="false"><ch a="F"/>Przykro mi nie wiem co<ch a="e"/> robić gdy płaczesz</row>
-      <row important_over="false">J<ch a="a"/>uż nie śmieje<ch a="G"/>sz się jak kiedyś</row>
-      <row important_over="false">W<ch a="F"/>szystko jest inacze<ch a="G"/>j</row>
+      <row important_over="false"><ch a="a"/>Wiem, dobrze <ch a="G"/>wiem</row>
+      <row important_over="false"><ch a="F"/>Potrafię ranić <ch a="G"/>tak jak nikt</row>
+      <row important_over="false"><ch a="F"/>Przykro mi, nie wiem, co <ch a="e"/>robić, gdy płaczesz</row>
+      <row important_over="false"><ch a="a"/>Już nie śmie<ch a="G"/>jesz się jak kiedyś</row>
+      <row important_over="false"><ch a="F"/>Wszystko jest inacze<ch a="G"/>j</row>
       <row important_over="false"><ch a="F"/>Kolejny raz proszę <ch a="e"/>cię o ostatn<ch a="a"/>ią szansę</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
+  <album>Emu</album>
   <genre>Pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Piosenka_ksiezycowa</verificator>
+      <verificator>https://spiewnik.wywrota.pl/varius-manx/piosenka-ksiezycowa</verificator>
+    </verificators>
   </status>
 </song>
