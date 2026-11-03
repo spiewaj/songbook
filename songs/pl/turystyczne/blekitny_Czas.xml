@@ -8,36 +8,42 @@
     <block type="verse">
       <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4/2"/><ch a="G"/></row>
       <row important_over="true"><ch a="C"/>Błękitny czas, błęk<ch a="d"/>itny piękny czas,</row>
-      <row important_over="true"><ch a="a"/>Wolności dzień już nadch<ch a="e"/>odzi.</row>
+      <row important_over="true"><ch a="a"/>wolności dzień już nadch<ch a="e"/>odzi.</row>
       <row important_over="true"><ch a="F"/>Błękitny <ch a="D7"/>czas, błęk<ch a="C"/>itny piękny <ch a="A7"/>czas,</row>
-      <row important_over="true"><ch a="C"/>Co nie ma ośmiu <ch a="G"/>godz<ch a="G7"/>in.</row>
+      <row important_over="true"><ch a="C"/>co nie ma ośmiu <ch a="G"/>godz<ch a="G7"/>in.</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>Jak dobrze jest wędrować <ch a="B"/>pop<ch a="A"/>rzez <ch a="A5+"/>łan<ch a="A"/>y,</row>
-      <row important_over="true"><ch a="d"/>Choć jeden <ch a="G"/>trampek <ch a="d"/>mam całkiem <ch a="G"/>rozcz<ch a="G4/2"/>łapa<ch a="G"/>ny,</row>
-      <row important_over="true"><ch a="C"/>Czerpać radość wędrowania <ch a="A"/>wprost <ch a="A7"/>z bezdr<ch a="A"/>oży,</row>
-      <row important_over="true"><ch a="d"/>Jak dobrze w <ch a="G"/>trawie się uł<ch a="C"/>ożyć.</row>
-      <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4-2"/><ch a="G"/></row>
+      <row important_over="true"><ch a="d"/>choć jeden <ch a="G"/>trampek <ch a="d"/>mam całkiem <ch a="G"/>rozcz<ch a="G4/2"/>łapa<ch a="G"/>ny,</row>
+      <row important_over="true"><ch a="C"/>czerpać radość wędrowania <ch a="A"/>wprost <ch a="A7"/>z bezdr<ch a="A"/>oży,</row>
+      <row important_over="true"><ch a="d"/>jak dobrze w <ch a="G"/>trawie się uł<ch a="C"/>ożyć.</row>
+      <row important_over="false" style="instr"> <ch a="C5"/><ch a="G"/><ch a="G4/2"/><ch a="G"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Zielony czas, zielony piękny czas,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">Szumiący miękko jak drzewa,<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Zielony czas, zielony piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Co przy ognisku śpiewa<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Zielony czas, ziel<ch a="d"/>ony piękny czas,</row>
+      <row important_over="false"><ch a="a"/>szumiący miękko jak dr<ch a="e"/>zewa.</row>
+      <row important_over="false"><ch a="F"/>Zielony <ch a="D7"/>czas, ziel<ch a="C"/>ony piękny <ch a="A7"/>czas,</row>
+      <row important_over="false"><ch a="C"/>co przy ognisku śpi<ch a="G"/>ew<ch a="G7"/>a.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Złocisty czas, złocisty piękny czas,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">Ogromny, ciepły jak słońce,<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Złocisty czas, złocisty piękny czas,<ch a="F"/><ch a="D7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Gdy można iść bez końca<ch a="C"/><ch a="G"/><ch a="G7"/></row>
+      <row important_over="false"><ch a="C"/>Złocisty czas, złoc<ch a="d"/>isty piękny czas,</row>
+      <row important_over="false"><ch a="a"/>ogromny, ciepły jak sł<ch a="e"/>ońce.</row>
+      <row important_over="false"><ch a="F"/>Złocisty <ch a="D7"/>czas, złoc<ch a="C"/>isty piękny <ch a="A7"/>czas,</row>
+      <row important_over="false"><ch a="C"/>gdy można iść bez ko<ch a="G"/>ńc<ch a="G7"/>a.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/mikroklimat/blekitny-czas</verificator>
+    </verificators>
   </status>
 </song>
