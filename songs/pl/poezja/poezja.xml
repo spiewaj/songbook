@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Poezja">
   <alias>Ty przychodzisz jak noc majowa</alias>
+  <comment>Tekst to wiersz Władysława Broniewskiego „Poezja” (błędnie bywa przypisywany Bolesławowi Leśmianowi). Piosenka znana m.in. z wykonania grupy Na Bani (album „20 lat z górą”).</comment>
   <text_author type="solo">Władysław Broniewski</text_author>
-  <artist type="band">Na bani</artist>
+  <composer type="solo">Zbigniew Kańczukowski</composer>
+  <artist type="band">Na Bani</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Ty przychodzisz jak noc <ch a="e"/>majowa,</row>
@@ -11,58 +13,58 @@
       <row important_over="false">i księż<ch a="F"/>ycem <ch a="G"/>sen srebrny płynie,</row>
     </block>
     <block type="verse">
-      <row important_over="false">Płyniesz cicha przez noce bezsenne<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">- cichą nocą tak liście szeleszczą-<ch a="F"/><ch a="G"/></row>
-      <row important_over="false">szepcesz sny, szepcesz słowa tajemne,<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">w słowach cichych skąpana jak w deszczu...<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Płyniesz cicha przez noce bezs<ch a="e"/>enne</row>
+      <row important_over="false">– cichą n<ch a="F"/>ocą tak liście szel<ch a="G"/>eszczą –</row>
+      <row important_over="false"><ch a="a"/>szepcesz sny, szepcesz słowa taj<ch a="e"/>emne,</row>
+      <row important_over="false">w słowach c<ch a="F"/>ichych skąpana jak w d<ch a="G"/>eszczu...</row>
     </block>
     <block type="verse">
-      <row important_over="false">To za mało! Za mało! Za mało!<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Twoje słowa tumanią i kłamią!<ch a="F"/><ch a="G"/></row>
-      <row important_over="false">Piersiom żywych daj oddech zapału,<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">wiew szeroki i skrzydła do ramion!<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>To za mało! Za mało! Za m<ch a="e"/>ało!</row>
+      <row important_over="false">Twoje sł<ch a="F"/>owa tumanią i kł<ch a="G"/>amią!</row>
+      <row important_over="false"><ch a="a"/>Piersiom żywych daj oddech zap<ch a="e"/>ału,</row>
+      <row important_over="false">wiew szer<ch a="F"/>oki i skrzydła do r<ch a="G"/>amion!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Nam te słowa ciche nie starczą.<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Marne słowa. I błahe. I zimne.<ch a="F"/><ch a="G"/></row>
-      <row important_over="false">Ty masz werbel nam zagrać do marszu!<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Smagać słowem! Bić pieśnią! Wznieść hymnem!<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Nam te słowa ciche nie st<ch a="e"/>arczą.</row>
+      <row important_over="false">Marne sł<ch a="F"/>owa. I błahe. I z<ch a="G"/>imne.</row>
+      <row important_over="false"><ch a="a"/>Ty masz werbel nam zagrać do m<ch a="e"/>arszu!</row>
+      <row important_over="false">Smagać sł<ch a="F"/>owem! Bić pieśnią! Wznieść h<ch a="G"/>ymnem!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Jest gdzieś radość ludzka, zwyczajna, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">jest gdzieś jasne i piękne życie. <ch a="F"/><ch a="G"/></row>
-      <row important_over="false">Powszedniego chleba słów daj nam <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">i stań przy nas, i rozkaż - bić się! <ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Jest gdzieś radość ludzka, zwycz<ch a="e"/>ajna,</row>
+      <row important_over="false">jest gdzieś j<ch a="F"/>asne i piękne ż<ch a="G"/>ycie.</row>
+      <row important_over="false"><ch a="a"/>Powszedniego chleba słów d<ch a="e"/>aj nam</row>
+      <row important_over="false">i stań prz<ch a="F"/>y nas, i rozkaż – bić si<ch a="G"/>ę!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Niepotrzebne nam białe westalki, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">noc nie zdławi świętego ognia - <ch a="F"/><ch a="G"/></row>
-      <row important_over="false">bądź jak sztandar rozwiany wśród walki, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">bądź jak w wichrze wzniesiona pochodnia! <ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Niepotrzebne nam białe west<ch a="e"/>alki,</row>
+      <row important_over="false">noc nie z<ch a="F"/>dławi świętego <ch a="G"/>ognia –</row>
+      <row important_over="false"><ch a="a"/>bądź jak sztandar rozwiany wśród w<ch a="e"/>alki,</row>
+      <row important_over="false">bądź jak w w<ch a="F"/>ichrze wzniesiona poch<ch a="G"/>odnia!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Odmień, odmień nam słowa na wargach, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">naucz śpiewać płomienniej i prościej, <ch a="F"/><ch a="G"/></row>
-      <row important_over="false">niech nas miłość ogromna potarga. <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">Więcej bólu i więcej radości! <ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Odmień, odmień nam słowa na w<ch a="e"/>argach,</row>
+      <row important_over="false">naucz śpi<ch a="F"/>ewać płomienniej i pr<ch a="G"/>ościej,</row>
+      <row important_over="false"><ch a="a"/>niech nas miłość ogromna pot<ch a="e"/>arga.</row>
+      <row important_over="false">Więcej b<ch a="F"/>ólu i więcej rad<ch a="G"/>ości!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Jeśli w pięści potrzebna ci harfa, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">jeśli harfa ma zakląć pioruny, <ch a="F"/><ch a="G"/></row>
-      <row important_over="false">rozkaż żyły na struny wyszarpać <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">i naciągać, i trącać jak struny. <ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Jeśli w pięści potrzebna ci h<ch a="e"/>arfa,</row>
+      <row important_over="false">jeśli h<ch a="F"/>arfa ma zakląć pior<ch a="G"/>uny,</row>
+      <row important_over="false"><ch a="a"/>rozkaż żyły na struny wysz<ch a="e"/>arpać</row>
+      <row important_over="false">i naci<ch a="F"/>ągać, i trącać jak str<ch a="G"/>uny.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Trzeba pieśnią bić aż do śmierci, <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">trzeba głuszyć w ciemnościach syk węży. <ch a="F"/><ch a="G"/></row>
-      <row important_over="false">Jest gdzieś życie piękniejsze od nędzy. <ch a="a"/><ch a="e"/></row>
-      <row important_over="false">I jest miłość. I ona zwycięży. <ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Trzeba pieśnią bić aż do śmi<ch a="e"/>erci,</row>
+      <row important_over="false">trzeba gł<ch a="F"/>uszyć w ciemnościach syk w<ch a="G"/>ęży.</row>
+      <row important_over="false"><ch a="a"/>Jest gdzieś życie piękniejsze od n<ch a="e"/>ędzy.</row>
+      <row important_over="false">I jest mi<ch a="F"/>łość. I ona zwyci<ch a="G"/>ęży.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Wtenczas daj nam, poezjo, najprostsze<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">ze słów prostych i z cichych - najcichsze,<ch a="F"/><ch a="G"/></row>
-      <row important_over="false">a umarłych w wieczności rozpostrzyj<ch a="a"/><ch a="e"/></row>
-      <row important_over="false">jak chorągwie podarte na wichrze.<ch a="F"/><ch a="G"/></row>
+      <row important_over="false"><ch a="a"/>Wtenczas daj nam, poezjo, najpr<ch a="e"/>ostsze</row>
+      <row important_over="false">ze słów pr<ch a="F"/>ostych i z cichych – najc<ch a="G"/>ichsze,</row>
+      <row important_over="false"><ch a="a"/>a umarłych w wieczności rozp<ch a="e"/>ostrzyj</row>
+      <row important_over="false">jak chor<ch a="F"/>ągwie podarte na w<ch a="G"/>ichrze.</row>
     </block>
   </lyric>
   <music>
@@ -71,9 +73,14 @@
   <keywords/>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chordettes</chords>
+    </done>
     <verificators>
-      <verificator>Piosenka błędnie przypisywana Bolesławowi Leśmianowi.</verificator>
+      <verificator>https://poezja.org/wz/Broniewski_Wladyslaw/434/Poezja</verificator>
+      <verificator>http://wgorach.art.pl</verificator>
     </verificators>
   </status>
 </song>
