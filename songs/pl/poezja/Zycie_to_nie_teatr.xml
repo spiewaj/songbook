@@ -15,7 +15,7 @@
       <row important_over="false"><ch a="a"/>Życie to nie teatr, <ch a="E"/>ja ci na to odpowiadam;</row>
       <row important_over="false"><ch a="E7"/>Życie to nie tylko <ch a="a"/>kolorowa maskarada;</row>
       <row important_over="false"><ch a="F"/>Życie jest straszniejsze <ch a="G"/><ch a="C"/>i piękniejsze jeszcze jest<ch a="a"/>;</row>
-      <row important_over="true" sidechords="G"><ch a="E"/>Wszystko przy nim blednie<ch a="E7"/>, <ch a="a"/>blednie nawet sama śmierć!</row>
+      <row important_over="false" sidechords="E E7 a G"><ch a="E"/>Wszystko przy nim blednie<ch a="E7"/>, <ch a="a"/>blednie nawet sama śmierć!</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="F"/>Ty i ja – te<ch a="G"/>atry to są <ch a="C"/>dwa! Ty i <ch a="G"/>ja!</row>
@@ -37,7 +37,7 @@
       <row important_over="false"><ch a="a"/>Wpadnę tam na chwilę, <ch a="E"/>zanim spuchnie atmosfera;</row>
       <row important_over="false"><ch a="E7"/>Wódki dwie wypiję, <ch a="a"/>potem szybko się pozbieram;</row>
       <row important_over="false"><ch a="F"/>Wyjdę na ulicę<ch a="G"/>, <ch a="C"/>przy fontannie zmoczę łeb<ch a="a"/>;</row>
-      <row important_over="false" sidechords="G"><ch a="E"/>Wyjdę na przestworza<ch a="E7"/>, <ch a="a"/>przecudowny stworzę wiersz.</row>
+      <row important_over="false" sidechords="E E7 a G"><ch a="E"/>Wyjdę na przestworza<ch a="E7"/>, <ch a="a"/>przecudowny stworzę wiersz.</row>
     </block>
     <block type="chorus">
       <row important_over="false"><ch a="F"/>Ty i ja – te<ch a="G"/>atry to są <ch a="C"/>dwa! Ty i <ch a="G"/>ja!</row>
