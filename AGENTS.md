@@ -48,6 +48,7 @@ Always verify whether the current Pull Request has already been merged before ex
 - **Instrumental Chords & `sidechords`**:
   - Never put transition/turnaround chords into lyric punctuation (e.g. avoid `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (e.g. `<ch a="(d E a G)"/>` is invalid).
   - Use the `sidechords="..."` attribute on `<row>` (e.g. `<row important_over="false" sidechords="d E a G">...`) or introduce an explicit instrumental line: `<row important_over="false" style="instr"><ch a="G"/></row>`.
+  - **`sidechords` overrides the side column completely**: In LaTeX and HTML converters, specifying `sidechords` replaces all side chord rendering for that row. Therefore, `sidechords` MUST ALWAYS be the complete sequence (superset / formatting) of all chords for the line (e.g. `sidechords="E E7 a G"`, NEVER just `sidechords="G"` when preceding inline chords exist).
 - **Schema Constraints for `<alias>` and Composers**:
   - In `_site/song.xsd`, only a single optional `<alias>` is supported (`maxOccurs="1"`). There is NO `<aliases>` element.
   - In `<composer>`, only text is supported; multiple composers should be joined with a comma.
