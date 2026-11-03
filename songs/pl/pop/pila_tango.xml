@@ -27,14 +27,14 @@
       <row important_over="false">Ro<ch a="a"/>gaczem na wieżowcu Piła <ch a="d"/>witała je<ch a="E7"/>leni.</row>
     </block>
     <block type="chorus">
-      <row important_over="true" sidechords="a d E7">Statek <ch a="a"/>Piła Tango,</row>
-      <row important_over="false" sidechords="a d E7">Czar<ch a="a"/>na bandera.</row>
-      <row important_over="false" sidechords="a d E7">To tylko <ch a="a"/>Piła Tango,</row>
-      <row important_over="false" sidechords="a d E7">Tań<ch a="a"/>czysz to teraz.</row>
-      <row important_over="false" sidechords="a d E7">Płynie statek <ch a="a"/>Piła Tango,</row>
-      <row important_over="false" sidechords="a d E7">Czar<ch a="a"/>na Bandera.</row>
-      <row important_over="false" sidechords="a d E7">U<ch a="a"/>kłoń się świrom,</row>
-      <row important_over="false" sidechords="a d E7">Żyj, <ch a="a"/>nie umieraj.</row>
+      <row important_over="true">Statek <ch a="a"/>Piła Tango, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">Czar<ch a="a"/>na bandera, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">To tylko <ch a="a"/>Piła Tango, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">Tań<ch a="a"/>czysz to teraz, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">Płynie statek <ch a="a"/>Piła Tango, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">Czar<ch a="a"/>na Bandera, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">U<ch a="a"/>kłoń się świrom, <ch a="d"/> <ch a="E7"/></row>
+      <row important_over="false">Żyj, <ch a="a"/>nie umieraj, <ch a="d"/> <ch a="E7"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Gruby <ch a="a"/>jak armata Szczepan błąkał <ch a="d"/>się po kuli <ch a="E7"/>ziemskiej,</row>
@@ -77,7 +77,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chords</chords>
+      <chords/>
     </done>
     <verificators>
       <verificator>https://bibliotekapiosenki.pl/utwory/Pila_tango</verificator>
