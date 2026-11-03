@@ -4,7 +4,8 @@
 	<text_author type="solo">Agnieszka Osiecka, Jacek Kleyff</text_author>
 	<comment>Specyficzne bicie.
 
-Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystkiego&quot;, &quot;W górę szlaban&quot;. 18 września 1993 r., w radiowym koncercie Agnieszki Osieckiej &quot;Kobiety mojego życia&quot;, Maryla Rodowicz wykonała ten utwór na żywo wraz z Jackiem Kleyff, który zaśpiewał dodatkową zwrotkę napisaną przez siebie. Ponadto, to on napisał refren: &quot;Dość jest wszystkiego, dojść można wszędzie. W górę szlaban!&quot;. Pozostałe zwrotki napisała Agnieszka Osiecka.</comment>
+Piosenka występuje też pod nieoficjalnymi tytułami: „Dość jest wszystkiego”, „W górę szlaban”. 18 września 1993 r., w radiowym koncercie Agnieszki Osieckiej „Kobiety mojego życia”, Maryla Rodowicz wykonała ten utwór na żywo wraz z Jackiem Kleyffem, który zaśpiewał dodatkową zwrotkę napisaną przez siebie. Ponadto to on napisał refren: „Dość jest wszystkiego, dojść można wszędzie. W górę szlaban!”. Pozostałe zwrotki napisała Agnieszka Osiecka.</comment>
+	<composer type="solo">Jacek Kleyff</composer>
 	<artist type="solo">Maryla Rodowicz</artist>
 	<lyric>
 		<block type="verse">
@@ -15,8 +16,8 @@ Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystk
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
-				<row important_over="false">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
+				<row important_over="true">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
+				<row important_over="true">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -28,18 +29,13 @@ Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystk
 		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false"><ch a="D"/> Panie w koronie, P<ch a="A"/>anie z liczydłem,</row>
-			<row important_over="false">Ni<ch a="h"/>e chcę być mrówką — j<ch a="G"/>a chcę być szcz<ch a="A"/>ygłem,</row>
+			<row important_over="false">Ni<ch a="h"/>e chcę być mrówką – j<ch a="G"/>a chcę być szcz<ch a="A"/>ygłem,</row>
 			<row important_over="false"><ch a="D"/> A moja sława, dr<ch a="A"/>oga i muzyka</row>
 			<row important_over="false">D<ch a="h"/>o brązowego ż<ch a="G"/>ycia pom<ch a="A"/>yka.</row>
 		</block>
-		<block type="chorus">
-			<bis times="2">
-				<row important_over="false">D<ch a="D"/>ość jest wszystkiego, d<ch a="A"/>ojść można wszędzie.</row>
-				<row important_over="false">D<ch a="h"/>ość jest wszystkiego, d<ch a="G"/>ojść można wsz<ch a="A"/>ędzie.</row>
-			</bis>
-		</block>
+		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false"><ch a="D"/> Przyszłam z bylekąd, <ch a="A"/>ale co z tego</row>
+			<row important_over="false"><ch a="D"/> Przyszłam z bylekąd, <ch a="A"/>ale co z tego,</row>
 			<row important_over="false">Zmi<ch a="h"/>erzch jest daleko, h<ch a="G"/>ej, hej kol<ch a="A"/>ego!</row>
 			<row important_over="false"><ch a="D"/> Odłóżmy sprawę, k<ch a="A"/>ochany synku,</row>
 			<row important_over="false">N<ch a="h"/>a jakieś dziesięć mi<ch a="G"/>ejsc po przec<ch a="A"/>inku…</row>
@@ -49,6 +45,7 @@ Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystk
 	<music metre="8/8"/>
 	<keywords/>
 	<album>Absolutnie nic (CD, 1995)</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
@@ -57,6 +54,8 @@ Piosenka występuje też pod nieoficjalnymi tytułami: &quot;Dość jest wszystk
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>https://marylarodowicz.pl</verificator>
+			<verificator>https://bibliotekapiosenki.pl/piosenka/w-gore-szlaban</verificator>
 		</verificators>
 	</status>
 </song>
