@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przebudzenie">
   <alias>Nie wiesz, nie wiesz</alias>
+  <text_author type="solo">Tomasz Sadowski</text_author>
+  <composer type="solo">Tomasz Sadowski</composer>
   <artist type="band">Buzu Squat</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="C"/>Słuchać w pełnym <ch a="G"/>słońcu, <ch a="d"/>jak pulsuje <ch a="a"/>Ziemia</row>
       <row important_over="false"><ch a="C"/>Uspokoić swoje <ch a="G"/>serce i <ch a="d"/>niczego już nie <ch a="a"/>zmieniać</row>
-      <row important_over="false"><ch a="C"/>I uwierzyć <ch a="G"/>w siebie <ch a="d"/>porzucając <ch a="a"/>sny</row>
-      <row important_over="false"><ch a="C"/>To twój bunt <ch a="G"/>przemija, a <ch a="d"/>nie ty<ch a="a"/></row>
+      <row important_over="false"><ch a="C"/>I uwierzyć <ch a="G"/>w siebie, <ch a="d"/>porzucając <ch a="a"/>sny</row>
+      <row important_over="false"><ch a="C"/>To twój bunt <ch a="G"/>przemija, a <ch a="d"/>nie <ch a="a"/>ty</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false"><ch a="C"/>Nie wiesz, <ch a="G"/>nie wiesz, <ch a="d"/>nie rozumiesz <ch a="a"/>nic </row>
+        <row important_over="true"><ch a="C"/>Nie wiesz, <ch a="G"/>nie wiesz, <ch a="d"/>nie rozumiesz <ch a="a"/>nic</row>
       </bis>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Widzieć parę <ch a="G"/>bobrów <ch a="d"/>przytulonych <ch a="a"/>nad potokiem</row>
       <row important_over="false"><ch a="C"/>Nie zabijać <ch a="G"/>ich więcej, <ch a="d"/>cieszyć się <ch a="a"/>widokiem</row>
-      <row important_over="false"><ch a="C"/>Nie wyjadać i<ch a="G"/>m wnętrzności, <ch a="d"/>nie wchodzić w<ch a="a"/> ich skórę</row>
-      <row important_over="false"><ch a="C"/>Stępić w sobie <ch a="G"/>instynkt łowcy,<ch a="d"/> wtopić w <ch a="a"/>naturę i</row>
+      <row important_over="false"><ch a="C"/>Nie wyjadać <ch a="G"/>ich wnętrzności, <ch a="d"/>nie wchodzić w <ch a="a"/>ich skórę</row>
+      <row important_over="false"><ch a="C"/>Stępić w sobie <ch a="G"/>instynkt łowcy, <ch a="d"/>wtopić w na<ch a="a"/>turę</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Wybrać to, <ch a="G"/>co dobre z m<ch a="d"/>ądrych starych <ch a="a"/>ksiąg</row>
-      <row important_over="false"><ch a="C"/>Uszanować swoją<ch a="G"/> godność <ch a="d"/>doceniając <ch a="a"/>ją</row>
-      <row important_over="false"><ch a="C"/>A gdy wreszcie <ch a="G"/>uda się w<ch a="d"/>łasne zło <ch a="a"/>pokonać</row>
-      <row important_over="false"><ch a="C"/>żeby zawsze <ch a="G"/>mieć przy sobie <ch a="d"/>czyjeś <ch a="a"/>ramiona</row>
+      <row important_over="false"><ch a="C"/>Wybrać to, <ch a="G"/>co dobre z <ch a="d"/>mądrych starych <ch a="a"/>ksiąg</row>
+      <row important_over="false"><ch a="C"/>Uszanować swoją <ch a="G"/>godność, <ch a="d"/>doceniając <ch a="a"/>ją</row>
+      <row important_over="false"><ch a="C"/>A gdy wreszcie <ch a="G"/>uda się <ch a="d"/>własne zło po<ch a="a"/>konać</row>
+      <row important_over="false"><ch a="C"/>Żeby zawsze <ch a="G"/>mieć przy sobie <ch a="d"/>czyjeś ra<ch a="a"/>miona</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="false"><ch a="C"/>Wyczuć taką chwilę, <ch a="G"/>w której <ch a="d"/>kocha się <ch a="a"/>życie</row>
       <row important_over="false"><ch a="C"/>I móc w niej być <ch a="G"/>stale, <ch a="d"/>na wieczność <ch a="a"/>w zachwycie</row>
-      <row important_over="false"><ch a="C"/>W pełnym słońcu <ch a="G"/>dumnie, n<ch a="d"/>a własnych <ch a="a"/>nogach</row>
-      <row important_over="false"><ch a="C"/>Może wtedy będzie<ch a="G"/> można <ch a="d"/>ujrzeć uśmiech <ch a="a"/>Boga</row>
+      <row important_over="false"><ch a="C"/>W pełnym słońcu <ch a="G"/>dumnie, <ch a="d"/>na własnych <ch a="a"/>nogach</row>
+      <row important_over="false"><ch a="C"/>Może wtedy <ch a="G"/>będzie można <ch a="d"/>ujrzeć uśmiech <ch a="a"/>Boga</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <bis times="6">
-        <row important_over="false"><ch a="C"/>Przejść Wielką <ch a="G"/>Rzekę b<ch a="d"/>ez bólu i<ch a="a"/> wyrzeczeń</row>
+        <row important_over="false"><ch a="C"/>Przejść Wielką <ch a="G"/>Rzekę <ch a="d"/>bez bólu i <ch a="a"/>wyrzeczeń</row>
       </bis>
     </block>
   </lyric>
-  <keywords/>
+  <album>Dowódcy miłości</album>
+  <genre>Pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/buzu-squat/przebudzenie</verificator>
+      <verificator>https://pl.wikipedia.org/wiki/Buzu_Squat</verificator>
+    </verificators>
   </status>
 </song>
