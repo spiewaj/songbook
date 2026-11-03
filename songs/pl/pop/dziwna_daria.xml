@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dziwna">
-  <artist type="band">Daria Zawiałow</artist>
+  <text_author type="solo">Daria Zawiałow</text_author>
+  <composer>Daria Zawiałow, Bartosz Dziedzic</composer>
+  <artist type="solo">Daria Zawiałow</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="G"/>Może chciałbym <ch a="d"/>uczyć się</row>
@@ -9,18 +11,18 @@
       <row important_over="true"><ch a="F"/>Wiesz, tak długo <ch a="C"/>byłem sam</row>
       <row important_over="false"><ch a="G"/>Chciałbym, żebyś zau<ch a="d"/>fała mi</row>
       <row important_over="false"><ch a="G"/>Wiem, że przeze mnie <ch a="d"/>czasem płaczesz</row>
-      <row important_over="false"><ch a="G"/>Jutro chciałbyś <ch a="d"/>mieć na dziś</row>
+      <row important_over="false"><ch a="G"/>Jutro chciałabyś <ch a="d"/>mieć na dziś</row>
       <row important_over="false"><ch a="F"/>Może mi bra<ch a="C"/>kuje sił</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Ty <ch a="G"/>wiesz, że kocham <ch a="d"/>cię, </row>
-      <row important_over="false">lecz sama <ch a="F"/>jestem dziwna<ch a="C"/></row>
-      <row important_over="false">Dziś tylko <ch a="G"/>słowa, twoje <ch a="d"/>słowa </row>
-      <row important_over="false">będą <ch a="F"/>leczyć mnie<ch a="C"/></row>
-      <row important_over="true">Ty <ch a="G"/>wiesz, że chciała<ch a="d"/>bym nie patrzeć <ch a="F"/>wstecz, </row>
-      <row important_over="true">nie szukać<ch a="C"/></row>
-      <row important_over="false">Lecz tylko <ch a="G"/>słowa, tylko <ch a="d"/>słowa </row>
-      <row important_over="false">nie wys<ch a="F"/>tarczą mi<ch a="C"/></row>
+      <row important_over="true">Ty <ch a="G"/>wiesz, że kocham <ch a="d"/>cię,</row>
+      <row important_over="true">Lecz sama <ch a="F"/>jestem <ch a="C"/>dziwna</row>
+      <row important_over="false">Dziś tylko <ch a="G"/>słowa, twoje <ch a="d"/>słowa</row>
+      <row important_over="false">Będą <ch a="F"/>leczyć <ch a="C"/>mnie</row>
+      <row important_over="false">Ty <ch a="G"/>wiesz, że chciała<ch a="d"/>bym</row>
+      <row important_over="false">Nie patrzeć <ch a="F"/>wstecz, nie <ch a="C"/>szukać</row>
+      <row important_over="false">Lecz tylko <ch a="G"/>słowa, tylko <ch a="d"/>słowa</row>
+      <row important_over="false">Nie wys<ch a="F"/>tarczą <ch a="C"/>mi</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="G"/>Jestem z tym po <ch a="d"/>prostu sam</row>
@@ -34,16 +36,23 @@
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="true"><ch a="G"/>Wiemy, ze nie ch<ch a="G"/>cemy już bez <ch a="d"/>siebie żyć<ch a="d"/></row>
-      <row important_over="false"><ch a="G"/>Znów jesteśmy <ch a="G"/>po tej samej <ch a="d"/>stronie<ch a="d"/></row>
-      <row important_over="false"><ch a="G"/>Na tapecie <ch a="G"/>już powoli <ch a="d"/>słychać dzień<ch a="d"/></row>
-      <row important_over="false">Kiedy <ch a="G"/>jednym <ch a="G"/>staną się dwa <ch a="d"/>domy<ch a="d"/></row>
+      <row important_over="true"><ch a="G"/>Wiemy, że nie chcemy już bez <ch a="d"/>siebie żyć</row>
+      <row important_over="false"><ch a="G"/>Znów jesteśmy po tej samej <ch a="d"/>stronie</row>
+      <row important_over="false"><ch a="G"/>Na parapecie już powoli <ch a="d"/>słychać dzień</row>
+      <row important_over="false"><ch a="G"/>Kiedy jednym staną się dwa <ch a="d"/>domy</row>
     </block>
   </lyric>
-  <keywords/>
+  <album>Dziewczyna Pop</album>
   <genre>Pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/daria-zawialow/dziwna</verificator>
+      <verificator>https://pl.wikipedia.org/wiki/Dziewczyna_pop</verificator>
+    </verificators>
   </status>
 </song>
