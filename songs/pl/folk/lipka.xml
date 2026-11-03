@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lipka">
   <alias>Z tamtej strony jeziora</alias>
-  <comment>Tekst pochodzi z Kobylina, ale pieśń jest znana w całej Polsce, a także w Czechach, na Morawach, Słowacczyźnie i Rusi Węgierskiej. 
-Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej skali pięciodzwiękowej.
-
-[1] https://bibliotekapiosenki.pl/utwory/Nie_sa_to_ptaszkowie_tylko_kawalerowie</comment>
+  <text_author>słowa tradycyjne</text_author>
+  <comment>Tekst pochodzi z Kobylina, ale pieśń jest znana w całej Polsce, a także w Czechach, na Morawach, Słowacczyźnie i Rusi Węgierskiej.
+Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej skali pięciodźwiękowej.</comment>
+  <composer>melodia tradycyjna</composer>
+  <artist>utwór tradycyjny</artist>
   <lyric>
     <block type="other">
       <bis times="2">
@@ -12,9 +13,9 @@ Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej s
       </bis>
     </block>
     <block type="verse">
-      <row important_over="true">Z <ch a="a"/>tamtej strony <ch a="G"/>jezio<ch a="a"/>ra <ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Z tamtej strony <ch a="G"/>jezio<ch a="a"/>ra <ch a="G"/></row>
       <row important_over="true"><ch a="a"/>Stoi lipka <ch a="G"/>zielo<ch a="E"/>na</row>
-      <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
+      <row important_over="true"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
       <row important_over="true"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
       <row important_over="false"><ch a="a"/>A na tej <ch a="G"/>lipce, <ch a="a"/>na tej zielo<ch a="G"/>niutkiej</row>
       <row important_over="false"><ch a="F"/>Trzej ptaszkowie <ch a="E"/>śpiewa<ch a="a"/>ją</row>
@@ -58,7 +59,14 @@ Polska pieśń ludowa o archaicznej nucie, oparta na pradawnej bezpółtonowej s
   <keywords/>
   <genre>Pieśń ludowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Nie_sa_to_ptaszkowie_tylko_kawalerowie</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/lipka</verificator>
+    </verificators>
   </status>
 </song>
