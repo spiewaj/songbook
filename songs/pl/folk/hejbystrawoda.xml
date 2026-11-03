@@ -1,58 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hej Bystra Woda">
   <alias>Marsz Orawski</alias>
-  <artist>Piosenki Ludowe</artist>
+  <text_author>słowa tradycyjne</text_author>
+  <comment>Tradycyjna pieśń ludowa górali orawskich („Marsz Orawski”) w gwarze orawskiej.</comment>
+  <composer>melodia tradycyjna</composer>
+  <artist>utwór tradycyjny</artist>
+  <genre>Folk</genre>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="A"/>Hej bystra woda, bystra wodzicka</row>
-      <row important_over="true"><ch a="D"/>Pytało dziewce <ch a="E"/>o Janick<ch a="A"/>a</row>
-      <row important_over="true"><ch a="E"/>Hej lesie ciemny, <ch a="A"/>wirsku zielony</row>
+      <row important_over="true"><ch a="A"/>Hej bystra woda, bystra wodzicka,</row>
+      <row important_over="true"><ch a="D"/>Pytało dziewce <ch a="E"/>o Janick<ch a="A"/>a.</row>
+      <row important_over="true"><ch a="E"/>Hej lesie ciemny, <ch a="A"/>wirsku zielony,</row>
       <bis times="2">
-        <row important_over="false"><ch a="D"/>Kaj mój Janicek <ch a="E"/>umilon<ch a="A"/>y </row>
+        <row important_over="false"><ch a="D"/>Kaj mój Janicek <ch a="E"/>umilon<ch a="A"/>y?</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">Hej mój Janicku, miły Janicku</row>
-      <row important_over="never" sidechords="D E A">Ne chod. po orawskim chodnicku</row>
-      <row important_over="never" sidechords="E A">Ne dość zes ty juz nagnał owiecek</row>
-      <row important_over="never" sidechords="D E A">Ostań psy dziewcynie kolkowiecek</row>
+      <row important_over="false"><ch a="A"/>Hej mój Janicku, miły Janicku,</row>
+      <row important_over="false"><ch a="D"/>Ne chodź po oraw<ch a="E"/>skim chodnick<ch a="A"/>u.</row>
+      <row important_over="false"><ch a="E"/>Ne dość żeś ty już <ch a="A"/>nagnał owiecek,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Ostań psy dziewcy<ch a="E"/>nie kolkowie<ch a="A"/>cek.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">Hej powiadali, hej powiadali</row>
-      <row important_over="never" sidechords="D E A">Hej, ze Janicka porubali</row>
-      <row important_over="never" sidechords="E A">Hej porubali go Orawiany</row>
-      <row important_over="never" sidechords="D E A">Hej za łowiecki, za barany</row>
+      <row important_over="false"><ch a="A"/>Hej powiadali, hej powiadali,</row>
+      <row important_over="false"><ch a="D"/>Hej, że Janick<ch a="E"/>a poruba<ch a="A"/>li.</row>
+      <row important_over="false"><ch a="E"/>Hej porubali <ch a="A"/>go Orawiany,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Hej za łowiec<ch a="E"/>ki, za bara<ch a="A"/>ny.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">Hej mówile ci miły Janicku</row>
-      <row important_over="never" sidechords="D E A">Ne chod. po orawskim chodnicku</row>
-      <row important_over="never" sidechords="E A">Hej bo cię te orawskie juhasy</row>
-      <row important_over="never" sidechords="D E A">Długie uz han cekali casy</row>
+      <row important_over="false"><ch a="A"/>Hej mówiłem ci, miły Janicku,</row>
+      <row important_over="false"><ch a="D"/>Ne chodź po oraw<ch a="E"/>skim chodnick<ch a="A"/>u.</row>
+      <row important_over="false"><ch a="E"/>Hej bo cię te oraw<ch a="A"/>skie juhasy,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Długie już hań <ch a="E"/>cekali ca<ch a="A"/>sy.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">He dziwce slocha, hej dziwce płace</row>
-      <row important_over="never" sidechords="D E A">Uz ze Janicka ne obace</row>
-      <row important_over="never" sidechords="E A">U orawskiego zamecku sciany</row>
-      <row important_over="never" sidechords="D E A">Lezy Janicek porubany</row>
+      <row important_over="false"><ch a="A"/>Hej dziwce slocha, hej dziwce płace,</row>
+      <row important_over="false"><ch a="D"/>Już że Janick<ch a="E"/>a ne oba<ch a="A"/>ce.</row>
+      <row important_over="false"><ch a="E"/>U orawskiego <ch a="A"/>zamecku ściany,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Lezy Janic<ch a="E"/>ek poruba<ch a="A"/>ny.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">Hej Madziar pije, hej Madziar płaci</row>
-      <row important_over="never" sidechords="D E A">Hej u madziara płacom dzieci</row>
-      <row important_over="never" sidechords="E A">Hej płacom dzieci, hej płace żona</row>
-      <row important_over="never" sidechords="D E A">Hej że Madziara nima doma</row>
+      <row important_over="false"><ch a="A"/>Hej Madziar pije, hej Madziar płaci,</row>
+      <row important_over="false"><ch a="D"/>Hej u Madziar<ch a="E"/>a płacom dzie<ch a="A"/>ci.</row>
+      <row important_over="false"><ch a="E"/>Hej płacom dzieci, <ch a="A"/>hej płace żona,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Hej że Madzia<ch a="E"/>ra nima do<ch a="A"/>ma.</row>
+      </bis>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="A">Hej dolom, dolom, od skalnych Tater</row>
-      <row important_over="never" sidechords="D E A">Hej poświstuje halny wiater</row>
-      <row important_over="never" sidechords="E A">Hej poświstuje, hej ciska bidom</row>
-      <row important_over="never" sidechords="D E A">Hej pod dolinach chłopcy idom.</row>
+      <row important_over="false"><ch a="A"/>Hej dolom, dolom, od skalnych Tater,</row>
+      <row important_over="false"><ch a="D"/>Hej poświstu<ch a="E"/>je halny wia<ch a="A"/>ter.</row>
+      <row important_over="false"><ch a="E"/>Hej poświstuje, <ch a="A"/>hej ciska bidom,</row>
+      <bis times="2">
+        <row important_over="false"><ch a="D"/>Hej po dolin<ch a="E"/>ach chłopcy id<ch a="A"/>om.</row>
+      </bis>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Pieśń ludowa</genre>
-  <status>
-    <done/>
-    <verificators/>
-  </status>
   <music_source>tradycyjna muzyka ludowa z Orawy</music_source>
+  <status>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-ludowe/hej-bystra-woda</verificator>
+    </verificators>
+  </status>
 </song>
