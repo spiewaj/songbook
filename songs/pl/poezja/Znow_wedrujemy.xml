@@ -5,6 +5,7 @@
 [ae/FG/A/eF/dG/Ca/da/FGa]</comment>
 	<composer type="solo">Grzegorz Turnau</composer>
 	<artist type="solo">Grzegorz Turnau</artist>
+	<genre>Poezja śpiewana</genre>
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
@@ -14,10 +15,11 @@
 			<row important_over="false"><ch a="C"/> Na fioletowoszarych ł<ch a="D"/>ąkach</row>
 			<row important_over="true">Niebo rozp<ch a="G"/>ina płynność <ch a="C"/>arkad</row>
 			<row important_over="true">P<ch a="a"/>ejzaż w powieki miękko wsi<ch a="e"/>ąka</row>
-			<row important_over="true">Zakrz	<ch a="C"/>epła sól na nagich<ch a="e"/> wargach  <ch a="h"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="true">Zakrz<ch a="C"/>epła sól na nagich w<ch a="D"/>argach</row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A wiczor<ch a="e"/>ami w prądach z<ch a="h"/>atok</row>
+			<row important_over="false">A wieczor<ch a="e"/>ami w prądach z<ch a="h"/>atok</row>
 			<row important_over="false">Noc liże m<ch a="C"/>orze słodką grz<ch a="D"/>ywą</row>
 			<row important_over="false"><ch a="e"/> Jak miękkie gruszki brzmieje l<ch a="h"/>ato</row>
 			<row important_over="false">Wiatrem sparz<ch a="C"/>one jak pokrzywą</row>
@@ -27,11 +29,11 @@
 			<row important_over="false">Znów wędr<ch a="C"/>ujemy ci<ch a="D"/>epłym</row>
 			<row important_over="false"><ch a="e"/> Kr<ch a="h"/>ajem</row>
 			<row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
-			<row important_over="false">Ptaki powrotne umierają<ch a="e"/><ch a="h"/></row>
-			<row important_over="false">Wśród pomarańczy na rozdrożach<ch a="C"/></row>
+			<row important_over="false"><ch a="e"/> Ptaki powrotne umier<ch a="h"/>ają</row>
+			<row important_over="false">Wśród pomar<ch a="C"/>ańczy na rozdrożach</row>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"> <ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
+			<row important_over="false" style="instr"><ch a="C"/><ch a="D"/><ch a="G"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="false"><ch a="e"/> Znów wędrujemy ciepłym kr<ch a="h"/>ajem</row>
@@ -46,7 +48,7 @@
 			<row important_over="false">Malachit<ch a="C"/>ową łąką m<ch a="D"/>orza</row>
 		</block>
 		<block type="other">
-			<row important_over="false" style="instr"> <ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="E"/></row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="h"/><ch a="C"/><ch a="D"/><ch a="E"/></row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -61,6 +63,7 @@
 		</done>
 		<verificators>
 			<verificator>Kuba</verificator>
+			<verificator>https://spiewnik.wywrota.pl/grzegorz-turnau/znow-wedrujemy</verificator>
 		</verificators>
 	</status>
 </song>
