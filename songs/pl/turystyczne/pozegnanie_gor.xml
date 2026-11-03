@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pożegnanie gór">
-  <composer type="solo">Adam Drąg</composer>
+  <text_author>P. Warcholak</text_author>
+  <composer>Adam Drąg</composer>
   <artist type="solo">Adam Drąg</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">Słońca <ch a="a"/>dysk zag<ch a="d"/>inął gdzieś w k<ch a="a"/>onarach<ch a="A7"/> </row>
-      <row important_over="true">Na <ch a="d"/>polanę sp<ch a="G7"/>łynął szary <ch a="C"/>mrok <ch a="A7"/></row>
+      <row important_over="true">Słońca <ch a="a"/>dysk zag<ch a="d"/>inął gdzieś w k<ch a="a"/>onarach, <ch a="A7"/></row>
+      <row important_over="true">Na <ch a="d"/>polanę sp<ch a="G7"/>łynął szary <ch a="C"/>mrok. <ch a="A7"/></row>
       <bis times="2">
-        <row important_over="true">Smętnie <ch a="d"/>zadzwon<ch a="G7"/>iła gdzieś git<ch a="a"/>ara </row>
-        <row important_over="true">W ciemnej <ch a="d"/>ciszy czyjaś <ch a="E7"/>zamiera <ch a="a"/>krok<ch a="(A7)"/> </row>
+        <row important_over="true">Smętnie <ch a="d"/>zadzwon<ch a="G7"/>iła gdzieś git<ch a="a"/>ara,</row>
+        <row important_over="true">W ciemnej <ch a="d"/>ciszy czyjś <ch a="E7"/>zamiera <ch a="a"/>krok. <ch a="A7"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Przy ognisku wędrowców gromada<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">W blasku iskier zamarł cieni krąg<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Wysłuchując struny opowiadań<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-      <row important_over="false">Zasłyszanych gdzieś daleko stąd<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false">Pięciolinią wyznaczonym szlakiem<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">Błądzi zapomniany wieczny cień<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Przy og<ch a="a"/>nisku węd<ch a="d"/>rowców grom<ch a="a"/>ada, <ch a="A7"/></row>
+      <row important_over="false">W blasku <ch a="d"/>iskier za<ch a="G7"/>marł cieni <ch a="C"/>krąg, <ch a="A7"/></row>
       <bis times="2">
-        <row important_over="false">A w swych troskach smętnie zadumany<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="false">Żegna świątek odchodzący cień<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">Wysłuch<ch a="d"/>ując str<ch a="G7"/>uny opowi<ch a="a"/>adań,</row>
+        <row important_over="false">Zasłysz<ch a="d"/>anych gdzieś <ch a="E7"/>daleko <ch a="a"/>stąd. <ch a="A7"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Znika w dali kalejdoskop twarzy<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">Zgasłych ognisk dym już sięga chmur<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Pięciol<ch a="a"/>inią wyzn<ch a="d"/>aczonym szl<ch a="a"/>akiem <ch a="A7"/></row>
+      <row important_over="false">Błądzi <ch a="d"/>zapomn<ch a="G7"/>iany wieczny <ch a="C"/>cień, <ch a="A7"/></row>
       <bis times="2">
-        <row important_over="false">Pomyśl, ile niespełnionych marzeń<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="false">Łączy z sobą pożegnanie gór<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">A w swych <ch a="d"/>troskach sm<ch a="G7"/>ętnie zadum<ch a="a"/>any,</row>
+        <row important_over="false">Żegna <ch a="d"/>świątek od<ch a="E7"/>chodzący <ch a="a"/>dzień. <ch a="A7"/></row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false">Już nie znikną góry z twoich wspomnień<ch a="a"/><ch a="d"/><ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">Oczy ikon, nieprzetarty szlak<ch a="d"/><ch a="G7"/><ch a="C"/><ch a="A7"/></row>
+      <row important_over="false">Znika <ch a="a"/>w dali kalej<ch a="d"/>doskop tw<ch a="a"/>arzy, <ch a="A7"/></row>
+      <row important_over="false">Zgasłych <ch a="d"/>ognisk d<ch a="G7"/>ym już sięga <ch a="C"/>chmur, <ch a="A7"/></row>
       <bis times="2">
-        <row important_over="false">Szumu jodeł nie da się zapomnieć<ch a="d"/><ch a="G7"/><ch a="a"/></row>
-        <row important_over="false">Będziesz do nich wracał w swoich snach<ch a="d"/><ch a="E7"/><ch a="a"/><ch a="(A7)"/></row>
+        <row important_over="false">Pomyśl, <ch a="d"/>ile nies<ch a="G7"/>pełnionych m<ch a="a"/>arzeń</row>
+        <row important_over="false">Łączy <ch a="d"/>z sobą po<ch a="E7"/>żegnanie <ch a="a"/>gór. <ch a="A7"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Już nie <ch a="a"/>znikną g<ch a="d"/>óry z twoich wspom<ch a="a"/>nień, <ch a="A7"/></row>
+      <row important_over="false">Oczy <ch a="d"/>ikon, n<ch a="G7"/>ieprzetarty <ch a="C"/>szlak, <ch a="A7"/></row>
+      <bis times="2">
+        <row important_over="false">Szumu <ch a="d"/>jodeł n<ch a="G7"/>ie da się zapom<ch a="a"/>nieć,</row>
+        <row important_over="false">Będziesz <ch a="d"/>do nich wr<ch a="E7"/>acał w swoich <ch a="a"/>snach. <ch a="A7"/></row>
       </bis>
     </block>
   </lyric>
-  <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Pozegnanie_gor</verificator>
+      <verificator>https://spiewnik.wywrota.pl/adam-drag/pozegnanie-gor</verificator>
+    </verificators>
   </status>
 </song>
