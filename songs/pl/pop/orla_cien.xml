@@ -5,16 +5,16 @@
   <artist type="band">Varius Manx</artist>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="F"/><ch a="C"/><ch a="F"/><ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="F"/> <ch a="C"/> <ch a="F"/> <ch a="C"/></row>
     </block>
     <block type="chorus">
       <row important_over="true">Widziałam <ch a="F"/>orła <ch a="C"/>cień</row>
       <row important_over="false">Do góry <ch a="F"/>wzbił się niczym <ch a="C"/>wiatr</row>
       <row important_over="true">Niebo <ch a="a"/>to jego <ch a="F"/>świat</row>
-      <row important_over="true">Z obłokiem <ch a="a"/>tańczył w<ch a="G"/> świetle <ch a="C"/>dnia</row>
+      <row important_over="true">Z obłokiem <ch a="a"/>tańczył <ch a="G"/>w świetle <ch a="C"/>dnia</row>
     </block>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="F"/><ch a="C"/><ch a="F7+"/><ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="F"/> <ch a="C"/> <ch a="F7+"/> <ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -35,11 +35,19 @@
       <row important_over="false">Nie umknie <ch a="a"/>jej już żaden <ch a="F"/>gest</row>
       <row important_over="false">Żadna <ch a="a"/>myśl i <ch a="G"/>żaden <ch a="C"/>sens</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Rock</genre>
+  <album>Ego</album>
+  <genre>Pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Orla_cien</verificator>
+      <verificator>https://spiewnik.wywrota.pl/varius-manx/orla-cien</verificator>
+    </verificators>
   </status>
 </song>
