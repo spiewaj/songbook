@@ -1,48 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Plastikowa Biedronka">
-  <comment>zwrotka dodatkowa gdzieś w środku: 
-Kiedy w końcu nas kupili GD
- I do domu nas zawieźli e C
- To Ty na mnie spoglądałaś GD
- I się we mnie zakochałaś e C</comment>
+  <text_author>słowa tradycyjne</text_author>
+  <comment>Popularna piosenka harcerska i biesiadna. W różnych środowiskach występują wariantowe lub dodatkowe zwrotki (np. o kupieniu i zabraniu do domu).</comment>
+  <composer>melodia tradycyjna</composer>
+  <artist>utwór tradycyjny</artist>
+  <genre>Piosenka kabaretowa</genre>
   <lyric>
     <block type="verse">
-      <row important_over="true">Gdy Cię pi<ch a="G"/>erwszy raz u<ch a="D"/>jrzałem </row>
-      <row important_over="true">Wielkim t<ch a="e"/>irem zajech<ch a="C"/>ałaś </row>
-      <row important_over="false">Ja się w T<ch a="G"/>obie zakoch<ch a="D"/>ałem </row>
-      <row important_over="true">A Ty na m<ch a="e"/>nie nie<ch a="C"/> spojrza<ch a="G"/>łaś!</row>
+      <row important_over="true">Gdy Cię <ch a="G"/>pierwszy raz u<ch a="D"/>jrzałem,</row>
+      <row important_over="true">Wielkim <ch a="e"/>tirem zaje<ch a="C"/>chałaś,</row>
+      <row important_over="true">Ja się <ch a="G"/>w Tobie zako<ch a="D"/>chałem,</row>
+      <row important_over="true">A Ty <ch a="e"/>na mnie <ch a="C"/>nie spojrza<ch a="G"/>łaś!</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Plastik<ch a="G"/>owa Biedr<ch a="D"/>onko, Ty m<ch a="e"/>oja koch<ch a="C"/>ana </row>
-      <row important_over="true">Zo<ch a="G"/>stań moją ż<ch a="D"/>onką błagam Ci<ch a="e"/>ę n<ch a="C"/>a kolan<ch a="G"/>ach! </row>
+      <row important_over="true"><ch a="G"/>Plastikowa Bied<ch a="D"/>ronko, Ty <ch a="e"/>moja ko<ch a="C"/>chana,</row>
+      <row important_over="true"><ch a="G"/>Zostań moją <ch a="D"/>żonką, błagam <ch a="e"/>Cię <ch a="C"/>na kolan<ch a="G"/>ach!</row>
     </block>
     <block type="verse">
-      <row important_over="false">Gdy Cię drugi raz ujrzałem <ch a="G"/><ch a="D"/></row>
-      <row important_over="false">Na sklepowej półce stałaś <ch a="e"/><ch a="C"/></row>
-      <row important_over="false">Ja Ci list miłosny słałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="false">// Ja Cię wtedy pokochałem // <ch a="G"/><ch a="D"/></row>
-      <row important_over="false">A Ty na mnie nie spojrzałaś! <ch a="e"/><ch a="C"/><ch a="G"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false">Gdy Cię trzeci raz ujrzałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="false">Ty z szympansem mnie zdradziłaś<ch a="e"/><ch a="C"/></row>
-      <row important_over="false">Ja mu wtedy pokazałem<ch a="G"/><ch a="D"/></row>
-      <row important_over="false">Jaka jest pingwinia siła<ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Gdy Cię <ch a="G"/>drugi raz u<ch a="D"/>jrzałem,</row>
+      <row important_over="false">Na skle<ch a="e"/>powej półce <ch a="C"/>stałaś,</row>
+      <row important_over="false">Ja Ci <ch a="G"/>list miłosny <ch a="D"/>słałem,</row>
+      <row important_over="false">A Ty <ch a="e"/>na mnie <ch a="C"/>nie spojrza<ch a="G"/>łaś!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">To już koniec tej piosenki<ch a="G"/><ch a="D"/></row>
-      <row important_over="false">Mój Ty widzu ukochany <ch a="e"/><ch a="C"/></row>
-      <row important_over="false">Jeśli Ci się spodobała<ch a="G"/><ch a="D"/></row>
-      <row important_over="false">To zaśpiewaj razem z nami! <ch a="e"/><ch a="C"/><ch a="G"/></row>
+      <row important_over="false">Gdy Cię <ch a="G"/>trzeci raz u<ch a="D"/>jrzałem,</row>
+      <row important_over="false">Ty z szym<ch a="e"/>pansem mnie zdra<ch a="C"/>dziłaś,</row>
+      <row important_over="false">Ja mu <ch a="G"/>wtedy poka<ch a="D"/>załem,</row>
+      <row important_over="false">Jaka <ch a="e"/>jest ping<ch a="C"/>winia si<ch a="G"/>ła!</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">To już <ch a="G"/>koniec tej pio<ch a="D"/>senki,</row>
+      <row important_over="false">Mój Ty <ch a="e"/>widzu uko<ch a="C"/>chany,</row>
+      <row important_over="false">Jeśli <ch a="G"/>Ci się spodo<ch a="D"/>bała,</row>
+      <row important_over="false">To za<ch a="e"/>śpiewaj <ch a="C"/>razem z <ch a="G"/>nami!</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/biedronka</verificator>
+    </verificators>
   </status>
 </song>
