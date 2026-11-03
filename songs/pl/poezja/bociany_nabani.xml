@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lecące bociany">
   <alias>Bociany</alias>
-  <artist type="band">Na bani</artist>
+  <text_author type="solo">Sylwek Szweda</text_author>
+  <composer type="solo">Sylwek Szweda</composer>
+  <artist type="band">Na Bani</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="G"/>O<ch a="D"/>budzi<ch a="G"/>ć si<ch a="D"/>ę rosi<ch a="e"/>e rozkażę</row>
-      <row important_over="true"><ch a="C"/>Nawet <ch a="h7"/>gdy dzień <ch a="a7"/>zaś<ch a="D7"/>pi</row>
-      <row important_over="false">A kiedy już wstaną pejzaże<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">I zakwitnie jaśmin<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="true"><ch a="G"/>O<ch a="D"/>budzi<ch a="G"/>ć si<ch a="D"/>ę rosi<ch a="e"/>e rozkażę,</row>
+      <row important_over="true"><ch a="C"/>Nawet <ch a="h7"/>gdy dzień <ch a="a7"/>zaś<ch a="D7"/>pi,</row>
+      <row important_over="false"><ch a="G"/>A ki<ch a="D"/>edy j<ch a="G"/>uż wst<ch a="D"/>aną pejz<ch a="e"/>aże</row>
+      <row important_over="false"><ch a="C"/>I zak<ch a="h7"/>witnie jaś<ch a="a7"/>m<ch a="D7"/>in.</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="C"/>Wte<ch a="D"/>dy <ch a="e"/>ręce <ch a="G"/>rozłożę jak <ch a="D"/>bociek</row>
-      <row important_over="false"><ch a="C"/>I <ch a="D"/>jak <ch a="e"/>Chrystus za<ch a="G"/>stygnę w l<ch a="D"/>ocie</row>
-      <row important_over="true"><ch a="C"/>Spoj<ch a="D"/>rzę na <ch a="e"/>góry jak na <ch a="G"/>piersi</row>
-      <row important_over="true"><ch a="D"/>dziewczęce</row>
-      <row important_over="true"><ch a="C"/>I znów jak bociek rozłożę <ch a="D7"/>ręce</row>
+      <row important_over="false"><ch a="C"/>I <ch a="D"/>jak <ch a="e"/>Chrystus za<ch a="G"/>stygnę w l<ch a="D"/>ocie,</row>
+      <row important_over="true"><ch a="C"/>Spoj<ch a="D"/>rzę na <ch a="e"/>góry jak na <ch a="G"/>piersi dzi<ch a="D"/>ewczęce</row>
+      <row important_over="true"><ch a="C"/>I znów jak bociek rozłożę <ch a="D7"/>ręce.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Słońce przywitam jak gospodarz domu<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">W którym garnki nie płaczą<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
-      <row important_over="false">Zasieję pieśni i nie zdradzę nikomu<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">Ile dla mnie znaczą<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="false"><ch a="G"/>Słońce pr<ch a="D"/>zywit<ch a="G"/>am jak g<ch a="D"/>ospodarz d<ch a="e"/>omu,</row>
+      <row important_over="false"><ch a="C"/>W którym g<ch a="h7"/>arnki nie pł<ch a="a7"/>acz<ch a="D7"/>ą,</row>
+      <row important_over="false"><ch a="G"/>Zasiej<ch a="D"/>ę pi<ch a="G"/>eśni i n<ch a="D"/>ie zdradzę nik<ch a="e"/>omu,</row>
+      <row important_over="false"><ch a="C"/>Ile d<ch a="h7"/>la mnie zn<ch a="a7"/>acz<ch a="D7"/>ą.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">A kiedy noc uroczyście oblecze<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">Swój czarny garnitur<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
-      <row important_over="false">Rozpalę ogień i zaproszę wędrowców<ch a="G"/><ch a="D"/><ch a="G"/><ch a="D"/><ch a="e"/></row>
-      <row important_over="false">Pośpiewamy do świtu<ch a="C"/><ch a="h7"/><ch a="a7"/><ch a="D7"/></row>
+      <row important_over="false"><ch a="G"/>A ki<ch a="D"/>edy n<ch a="G"/>oc uroc<ch a="D"/>zyście obl<ch a="e"/>ecze</row>
+      <row important_over="false"><ch a="C"/>Swój cz<ch a="h7"/>arny garn<ch a="a7"/>it<ch a="D7"/>ur,</row>
+      <row important_over="false"><ch a="G"/>Rozpal<ch a="D"/>ę ogi<ch a="G"/>eń i z<ch a="D"/>aproszę węd<ch a="e"/>rowców,</row>
+      <row important_over="false"><ch a="C"/>Pośpi<ch a="h7"/>ewamy do św<ch a="a7"/>it<ch a="D7"/>u.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/na-bani/lecace-bociany</verificator>
+      <verificator>https://sylwekszweda.pl</verificator>
+    </verificators>
   </status>
 </song>
