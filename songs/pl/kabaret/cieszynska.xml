@@ -1,65 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cieszyńska">
-  <text_author type="solo">Jaromír Nohavica; tłum. Artur Andrus</text_author>
   <comment/>
+  <text_author type="solo">Jaromír Nohavica</text_author>
   <composer type="solo">Jaromír Nohavica</composer>
-  <artist type="band">Artur Andrus</artist>
+  <artist type="solo">Artur Andrus</artist>
+  <translator>Antoni Muracki</translator>
+  <original_title>Těšínská</original_title>
+  <album>Świat według Nohavicy</album>
+  <genre>Poezja śpiewana</genre>
   <lyric>
+    <block type="other">
+      <row important_over="false" style="instr"><ch a="a"/> <ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/> <ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/></row>
+    </block>
     <block type="verse">
       <row important_over="true"><ch a="a"/>Gdybym się urodził <ch a="d"/>przed stu laty</row>
-      <row important_over="true"><ch a="F"/><ch a="E"/>w moim <ch a="a"/>grodzie, <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="true"><ch a="F"/> <ch a="E"/>w moim <ch a="a"/>grodzie,</row>
+      <row important_over="false" style="instr"><ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/></row>
       <row important_over="false"><ch a="a"/>U Larischów dla mej lubej <ch a="d"/>rwałbym kwiaty</row>
-      <row important_over="false"><ch a="F"/><ch a="E"/>w ich o<ch a="a"/>grodzie. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>w ich o<ch a="a"/>grodzie.</row>
+      <row important_over="false" style="instr"><ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/></row>
       <row important_over="true"><ch a="C"/>Moja żona byłaby <ch a="d"/>starszą córką szewca</row>
       <row important_over="true"><ch a="F"/>Kamińskiego, co wcześniej <ch a="C"/>we Lwowie mieszkał.</row>
       <row important_over="false"><ch a="C"/>Kochałbym ją i <ch a="d"/>pieścił</row>
-      <row important_over="false"><ch a="F"/><ch a="E"/>chyba lat <ch a="a"/>dwieście. <ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>chyba lat <ch a="a"/>dwieście.</row>
+      <row important_over="false" style="instr"><ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Mieszkalibyśmy na Sachsenbergu,<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">w kamienicy Żyda Kohna,<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">najpiękniejszą z wszystkich cieszyńską perłą<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">byłaby ona.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">Mówiąc – mieszałaby czeski i polski,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">szprechałaby czasem, a śmiech by miała boski.<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Raz na sto lat cud by się dokonał,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">cud się dokonał.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Mieszkalibyśmy na Sachsen<ch a="d"/>bergu,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>w kamienicy Żyda <ch a="a"/>Kohna,</row>
+      <row important_over="false"><ch a="a"/>Najpiękniejszą z wszystkich cieszyńską <ch a="d"/>perłą</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>byłaby <ch a="a"/>ona.</row>
+      <row important_over="false"><ch a="C"/>Mówiąc – mieszałaby czeski i <ch a="d"/>polski,</row>
+      <row important_over="false"><ch a="F"/>Szprechałaby czasem, a śmiech by miała <ch a="C"/>boski.</row>
+      <row important_over="false"><ch a="C"/>Raz na sto lat cud by się do<ch a="d"/>konał,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>cud się do<ch a="a"/>konał.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Gdybym sto lat temu się narodził,<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">byłby ze mnie introligator<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">U Prochazki bym robił po dwanaście godzin<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">i siedem złotych brał za to.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">Miałbym śliczną żonę i już trzecie dziecię,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">w zdrowiu żył trzydzieści lat na tym świecie<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">I całe długie życie przede mną,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">całe piękne dwudzieste stulecie<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdybym sto lat temu się na<ch a="d"/>rodził,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>byłby ze mnie intro<ch a="a"/>ligator.</row>
+      <row important_over="false"><ch a="a"/>U Prochazki bym robił po dwanaście <ch a="d"/>godzin</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>i siedem złotych brał <ch a="a"/>za to.</row>
+      <row important_over="false"><ch a="C"/>Miałbym śliczną żonę i już trzecie <ch a="d"/>dziecię,</row>
+      <row important_over="false"><ch a="F"/>W zdrowiu żył trzydzieści lat na tym <ch a="C"/>świecie,</row>
+      <row important_over="false"><ch a="C"/>I całe długie życie prze<ch a="d"/>de mną,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>całe piękne dwudzieste stu<ch a="a"/>lecie.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Gdybym się urodził przed stu laty<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">i z tobą spotkał,<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">W ogrodzie u Larischów rwałbym kwiaty<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">dla ciebie, słodka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">Tramwaj by jeździł pod górę za rzekę,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">słońce wznosiło szlabanu powiekę,<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">A z okien snułby się zapach<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">świątecznych potraw.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Gdybym się urodził przed stu <ch a="d"/>laty</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>i z tobą <ch a="a"/>spotkał,</row>
+      <row important_over="false"><ch a="a"/>W ogrodzie u Larischów rwałbym <ch a="d"/>kwiaty</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>dla ciebie, <ch a="a"/>słodka.</row>
+      <row important_over="false"><ch a="C"/>Tramwaj by jeździł pod górę za <ch a="d"/>rzekę,</row>
+      <row important_over="false"><ch a="F"/>Słońce wznosiło szlabanu po<ch a="C"/>wiekę,</row>
+      <row important_over="false"><ch a="C"/>A z okien snułby się <ch a="d"/>zapach</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>świątecznych <ch a="a"/>potraw.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Wiatr wieczorami niósłby po mieście<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">pieśni grane w dawnych wiekach.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">Byłoby lato tysiąc dziewięćset dziesięć,<ch a="a"/><ch a="d"/></row>
-      <row important_over="false">za domem by szumiała rzeka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
-      <row important_over="false">Widzę tam wszystkich nas – idących brzegiem,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">mnie, żonę, dzieci pod cieszyńskim niebem.<ch a="F"/><ch a="C"/></row>
-      <row important_over="false">Może i dobrze, że człowiek nie wie,<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">co go czeka.<ch a="F"/><ch a="E"/><ch a="a"/><ch a="d"/><ch a="F"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Wiatr wieczorami niósłby po <ch a="d"/>mieście</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>pieśni grane w dawnych <ch a="a"/>wiekach.</row>
+      <row important_over="false"><ch a="a"/>Byłoby lato tysiąc dziewięćset <ch a="d"/>dziesięć,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>za domem by szumiała <ch a="a"/>rzeka.</row>
+      <row important_over="false"><ch a="C"/>Widzę tam wszystkich nas – idących <ch a="d"/>brzegiem,</row>
+      <row important_over="false"><ch a="F"/>Mnie, żonę, dzieci pod cieszyńskim <ch a="C"/>niebem.</row>
+      <row important_over="false"><ch a="C"/>Może i dobrze, że człowiek nie <ch a="d"/>wie,</row>
+      <row important_over="false"><ch a="F"/> <ch a="E"/>co go <ch a="a"/>czeka.</row>
+    </block>
+    <block type="other">
+      <row important_over="false" style="instr"><ch a="d"/> <ch a="F"/> <ch a="E"/> <ch a="a"/></row>
     </block>
   </lyric>
-  <keywords/>
-  <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://pl.wikipedia.org/wiki/%C5%9Awiat_wed%C5%82ug_Nohavicy</verificator>
+      <verificator>https://spiewnik.wywrota.pl/artur-andrus/cieszynska</verificator>
+    </verificators>
   </status>
 </song>
