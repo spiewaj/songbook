@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Długość dźwięku samotności">
   <alias>I nawet kiedy będę sam</alias>
-  <text_author type="solo">Wojciech Powaga, Przemysław Myszor, Artur Rojek</text_author>
-  <composer type="solo">Artur Rojek, Wojtek Powaga, Wojtek Kuderski, Jacek Kuderski, Przemek Myszor</composer>
+  <text_author>Wojciech Powaga, Przemysław Myszor, Artur Rojek</text_author>
+  <composer>Artur Rojek, Wojciech Powaga, Wojciech Kuderski, Jacek Kuderski, Przemysław Myszor</composer>
   <artist type="band">Myslovitz</artist>
   <lyric>
     <block type="other">
       <bis times="2">
-        <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+        <row important_over="false" style="instr"><ch a="C"/> <ch a="a"/> <ch a="e"/> <ch a="D"/></row>
       </bis>
     </block>
     <block type="chorus">
@@ -18,9 +18,9 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="F"/>Tak, zawsze gen<ch a="C"/>ialny</row>
-      <row important_over="true">Idea<ch a="a"/>lny muszę b<ch a="G"/>yć</row>
-      <row important_over="false">I muszę chci<ch a="F"/>eć, super lu<ch a="C"/>z i już</row>
-      <row important_over="false">Setki bzd<ch a="a"/>ur i już, to nie<ch a="G"/> ja</row>
+      <row important_over="true">Idea<ch a="a"/>lny muszę <ch a="G"/>być</row>
+      <row important_over="false">I muszę <ch a="F"/>chcieć, super <ch a="C"/>luz i już</row>
+      <row important_over="false">Setki <ch a="a"/>bzdur i już, to nie <ch a="G"/>ja</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -36,7 +36,7 @@
     <blocklink blocknb="2"/>
     <block type="other">
       <bis times="2">
-        <row important_over="false" style="instr"> <ch a="C"/><ch a="a"/><ch a="e"/><ch a="D"/></row>
+        <row important_over="false" style="instr"><ch a="C"/> <ch a="a"/> <ch a="e"/> <ch a="D"/></row>
       </bis>
     </block>
     <block type="verse">
@@ -52,16 +52,23 @@
     <blocklink blocknb="2"/>
     <blocklink blocknb="2"/>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="C"/></row>
     </block>
   </lyric>
   <music>
     <guitar barre="3"/>
   </music>
-  <keywords/>
+  <album>Miłość w czasach popkultury</album>
   <genre>Pop</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Dlugosc_dzwieku_samotnosci</verificator>
+      <verificator>https://spiewnik.wywrota.pl/myslovitz/dlugosc-dzwieku-samotnosci</verificator>
+    </verificators>
   </status>
 </song>
