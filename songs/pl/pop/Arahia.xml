@@ -17,7 +17,7 @@
       <row important_over="false"><ch a="d"/>Mój dom murem podzielony</row>
       <row important_over="false"><ch a="a"/>Podzielone murem schody</row>
       <row important_over="false"><ch a="E"/>Po lewej stronie łazienka</row>
-      <row important_over="false" sidechords="a A7"><ch a="a"/>Po prawej...</row>
+      <row important_over="false"><ch a="a"/>Po prawej... <ch a="A7"/></row>
     </block>
     <block type="verse">
       <row important_over="false" style="instr"><ch a="d"/><ch a="a"/><ch a="E"/><ch a="a"/><ch a="A7"/></row>
@@ -53,7 +53,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chordettes</chords>
+      <chords>chords</chords>
     </done>
     <verificators>
       <verificator>https://bibliotekapiosenki.pl/utwory/Arahja</verificator>
