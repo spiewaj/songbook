@@ -12,27 +12,27 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Skasowa<ch a="D"/>łam <ch a="e"/>Polone<ch a="D"/>za,</row>
-      <row important_over="false" sidechords="e D e D"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur.</row>
+      <row important_over="false"><ch a="e"/>Obok ki<ch a="D"/>na w <ch a="e"/>mur. <ch a="D"/></row>
       <row important_over="true"><ch a="e"/>Na mieście <ch a="D"/>zobaczyłam, <ch a="e"/>jak</row>
       <row important_over="true">Beztrosko trzyma <ch a="D"/>Cię za <ch a="G"/>rękę <ch a="a"/>–</row>
       <row important_over="false">Jechałam <ch a="e"/>dwie<ch a="D"/>ście.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Wyczołga<ch a="D"/>łam <ch a="e"/>się spod au<ch a="D"/>ta,</row>
-      <row important_over="false" sidechords="e D e D"><ch a="e"/>W Lunie gra<ch a="D"/>li „<ch a="e"/>Drive”.</row>
+      <row important_over="false"><ch a="e"/>W Lunie gra<ch a="D"/>li „<ch a="e"/>Drive”. <ch a="D"/></row>
       <row important_over="false"><ch a="e"/>Kupiłam bilet, <ch a="D"/>colę <ch a="e"/>i</row>
       <row important_over="false">Patrzyłam, <ch a="D"/>jak się cału<ch a="G"/>jecie <ch a="a"/>–</row>
       <row important_over="false">Tam, gdzie my <ch a="e"/>wcześ<ch a="D"/>niej.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Mieliśmy zwiedzać Pa<ch a="D"/>ryż,</row>
-      <row important_over="false" sidechords="e D"><ch a="e"/>Tam gubić się.</row>
-      <row important_over="true" sidechords="G a e D"><ch a="G"/>Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz.</row>
+      <row important_over="false"><ch a="e"/>Tam gubić się <ch a="D"/>.</row>
+      <row important_over="true"><ch a="G"/>Teraz to z <ch a="a"/>nią mule <ch a="e"/>jesz <ch a="D"/>.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Może jej pokaż Wiet<ch a="D"/>nam,</row>
-      <row important_over="false" sidechords="e D"><ch a="e"/>Bo w Nowy Rok</row>
-      <row important_over="false" sidechords="G a e D"><ch a="G"/>Zamknęli <ch a="a"/>Wam nasze <ch a="e"/>PHO.</row>
+      <row important_over="false"><ch a="e"/>Bo w Nowy Rok <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Zamknęli <ch a="a"/>Wam nasze <ch a="e"/>PHO <ch a="D"/>.</row>
     </block>
     <block type="chorus">
       <row important_over="true">A <ch a="C"/>ja będę się <ch a="a"/>śmiać,</row>
@@ -50,13 +50,13 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Miałeś mnie wziąć na Stroke<ch a="D"/>sów,</row>
-      <row important_over="false" sidechords="e D"><ch a="e"/>Krzyczałabym.</row>
-      <row important_over="false" sidechords="G a e D"><ch a="G"/>Pod sceną <ch a="a"/>z nią krzyczysz <ch a="e"/>dziś.</row>
+      <row important_over="false"><ch a="e"/>Krzyczałabym <ch a="D"/>.</row>
+      <row important_over="false"><ch a="G"/>Pod sceną <ch a="a"/>z nią krzyczysz <ch a="e"/>dziś <ch a="D"/>.</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="e"/>Wiem, że Cię w końcu rzu<ch a="D"/>ci,</row>
-      <row important_over="false" sidechords="e D"><ch a="e"/>Napiszesz mi:</row>
-      <row important_over="false" sidechords="G a e"><ch a="G"/>Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć.</row>
+      <row important_over="false"><ch a="e"/>Napiszesz mi: <ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Nie chcę bez <ch a="a"/>Ciebie już <ch a="e"/>żyć.</row>
     </block>
     <blocklink blocknb="6"/>
   </lyric>
