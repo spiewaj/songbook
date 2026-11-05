@@ -55,7 +55,7 @@
       </bis>
     </block>
     <block type="other">
-      <row important_over="false" sidechords="e D a">Nie dla ciebie...</row>
+      <row important_over="false"><ch a="e"/>Nie dla <ch a="D"/>ciebie... <ch a="a"/></row>
       <row important_over="false" style="instr"><ch a="e"/> <ch a="D"/> <ch a="a"/></row>
     </block>
   </lyric>
