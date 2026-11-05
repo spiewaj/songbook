@@ -20,8 +20,8 @@
       <row important_over="false">Nie pozw<ch a="G"/>olę ci się <ch a="d"/>bać</row>
       <row important_over="false">Kiedyś wszy<ch a="e"/>stkie czarne <ch a="F"/>dni</row>
       <row important_over="false">Obró<ch a="G"/>cimy w dobry <ch a="d"/>żart</row>
-      <row important_over="false" sidechords="d e F G"><ch a="d"/>Znowu będz<ch a="e"/>iesz ufał <ch a="F"/>mi</row>
-      <row important_over="false" sidechords="a G F G a"><ch a="a"/>Teraz śpij...</row>
+      <row important_over="false"><ch a="d"/>Znowu będz<ch a="e"/>iesz ufał <ch a="F"/>mi <ch a="G"/></row>
+      <row important_over="true"><ch a="a"/>Teraz śpij... <ch a="G"/> <ch a="F"/> <ch a="G"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Wiem, dobrze <ch a="G"/>wiem</row>
