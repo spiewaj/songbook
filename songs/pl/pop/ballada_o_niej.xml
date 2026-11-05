@@ -46,8 +46,8 @@
     </block>
     <blocklink blocknb="3"/>
     <block type="other">
-      <row important_over="false" sidechords="Dis F g F B c d"><ch a="Dis"/>Uuuu, <ch a="F"/>u<ch a="g"/>uuu</row>
-      <row important_over="false" sidechords="Dis F g F B c d"><ch a="Dis"/>Uuuu, <ch a="F"/>u<ch a="g"/>uuu</row>
+      <row important_over="false"><ch a="Dis"/>Uuuu, <ch a="F"/>u<ch a="g"/>uuu <ch a="F"/> <ch a="B"/> <ch a="c"/> <ch a="d"/></row>
+      <row important_over="false"><ch a="Dis"/>Uuuu, <ch a="F"/>u<ch a="g"/>uuu <ch a="F"/> <ch a="B"/> <ch a="c"/> <ch a="d"/></row>
     </block>
     <blocklink blocknb="3"/>
     <blocklink blocknb="6"/>
