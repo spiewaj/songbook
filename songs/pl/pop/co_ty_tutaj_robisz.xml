@@ -62,8 +62,8 @@
     </block>
     <block type="verse">
       <bis times="5">
-        <row important_over="false" sidechords="E gis A H">I co ja <ch a="E"/>robię tu</row>
-        <row important_over="false" sidechords="E gis A H">Co ty <ch a="E"/>tutaj robisz</row>
+        <row important_over="true">I co ja <ch a="E"/>robię tu <ch a="gis"/></row>
+        <row important_over="true">Co ty <ch a="A"/>tutaj robisz <ch a="H"/></row>
       </bis>
     </block>
   </lyric>
