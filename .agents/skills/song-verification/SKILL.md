@@ -65,9 +65,17 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
    - Ensure no lyric words or split suffixes (`<ch a="D"/><ch a="is"/>`) are accidentally inside `<ch>` tags.
    - For purely instrumental rows, use `<row important_over="false" style="instr"><ch a="..."/>...</row>`.
 
-4. **`important_over` Attribute Standardization**:
+4. **`important_over` and `sidechords` Rules**:
    - `important_over="true"`: Set on the primary template occurrence of each distinct chord progression/phrase where chords must be displayed above the text.
    - `important_over="false"`: Set on subsequent verses or repeating couplets following the established progression, as well as `style="instr"` rows. Retain all inline `<ch a="..."/>` tags over syllables (never strip chords from repeating lines).
+   - `important_over="never"`: Set ONLY when:
+     1. A line has no chords at all (recitative, spoken, a cappella).
+     2. A line has chords known exclusively on the side (`sidechords="..."`) where exact syllable placement is unknown, so NO inline `<ch>` tags are used.
+   - **Inline chords vs `sidechords`**:
+     - All accompaniment chords played during lyrics MUST be placed inline (`<ch a="..."/>`), including trailing chords played at the end of the line (with spacing, e.g. `<ch a="e"/>jesz <ch a="D"/>`).
+     - **NEVER strip chords from lyrics into `sidechords`**: Both LaTeX and HTML converters automatically extract side chords from inline `<ch>` tags. Adding `sidechords` identical to inline chords is redundant and forbidden.
+     - `sidechords` completely overrides the side column in converters. If `sidechords` is used for special formatting (e.g. `(turnarounds)`), it MUST be a superset containing all inline chords.
+     - For instrumental bridges or transitions between verses, introduce an explicit instrumental row: `<row important_over="false" style="instr"><ch a="G"/></row>`, never hide them in `sidechords`.
    - `important_over="never"`: Used when:
      1. The line genuinely has no chords (a cappella, recitative).
      2. Chords for the line are known (e.g. in `sidechords`), but their exact placement/timing over syllables is unknown or unverified, so they should only appear on the side rather than giving misleading syllable alignment above the text.

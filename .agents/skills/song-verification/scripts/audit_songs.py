@@ -92,19 +92,58 @@ def analyze_song(path):
     bad_chords = []
     english_minors = []
     important_over_mismatches = 0
+    sidechord_issues = []
+    sidechord_warnings = []
     has_important_true = False
 
     for idx, r in enumerate(rows, 1):
         row_chs = r.findall("s:ch", NS)
+        row_ch_names = [(c.get("a") or "").strip() for c in row_chs]
+        sc_attr = (r.get("sidechords") or "").strip()
+        sc_tokens = sc_attr.split() if sc_attr else []
         imp = r.get("important_over")
+
         if imp == "true":
             has_important_true = True
 
-        if not row_chs and not (r.get("sidechords") or "").strip():
-            if imp != "never":
-                important_over_mismatches += 1
-        elif row_chs and imp == "never" and not (r.get("sidechords") or "").strip():
-            important_over_mismatches += 1
+        # Audit sidechords and important_over interactions
+        if sc_attr:
+            if not row_chs:
+                if imp != "never":
+                    sidechord_issues.append(
+                        f"row {idx}: has sidechords='{sc_attr}' without inline <ch>, but important_over='{imp}' (must be 'never')"
+                    )
+            else:
+                if imp == "never":
+                    sidechord_issues.append(
+                        f"row {idx}: has inline <ch> tags but important_over='never' (must be 'true' or 'false')"
+                    )
+
+                if sc_tokens == row_ch_names:
+                    sidechord_warnings.append(
+                        f"row {idx}: redundant sidechords='{sc_attr}' matches inline chords; converters automatically generate side chords"
+                    )
+                else:
+                    clean_sc = [t.strip("()[],.") for t in sc_tokens]
+                    missing_from_side = [c for c in row_ch_names if c not in clean_sc]
+                    if missing_from_side:
+                        sidechord_issues.append(
+                            f"row {idx}: sidechords='{sc_attr}' overrides side column but omits inline chord(s) {missing_from_side}; sidechords must be a superset of inline chords"
+                        )
+
+                    extra_side = [t for t in clean_sc if t not in row_ch_names]
+                    if extra_side and imp in ("true", "false"):
+                        sidechord_issues.append(
+                            f"row {idx}: inline <ch> is missing chord(s) {extra_side} present in sidechords='{sc_attr}'; place chords inline over syllables or in an explicit instrumental line"
+                        )
+        else:
+            if not row_chs:
+                if imp != "never":
+                    important_over_mismatches += 1
+            elif imp == "never":
+                sidechord_issues.append(
+                    f"row {idx}: has inline <ch> tags but important_over='never' (must be 'true' or 'false')"
+                )
 
         for c in row_chs:
             a = (c.get("a") or "").strip()
@@ -119,6 +158,10 @@ def analyze_song(path):
         warnings.append("Has inline <ch> chords but no row has important_over='true'")
     if important_over_mismatches > 0:
         warnings.append(f"{important_over_mismatches} row(s) have non-standard important_over attribute")
+    if sidechord_issues:
+        issues.extend(sidechord_issues)
+    if sidechord_warnings:
+        warnings.extend(sidechord_warnings)
     if english_minors:
         issues.append(f"English minor chord notation: {', '.join(english_minors[:5])}")
     if bad_chords:
@@ -153,9 +196,9 @@ def analyze_song(path):
         tier = 1
     elif only_sidechords or bad_chords or english_minors:
         tier = 2
-    elif to_do or important_over_mismatches > 0 or (has_chords and not has_important_true):
+    elif to_do or important_over_mismatches > 0 or (has_chords and not has_important_true) or sidechord_issues:
         tier = 3
-    elif missing_meta or missing_done:
+    elif missing_meta or missing_done or sidechord_warnings:
         tier = 4
     else:
         tier = 5
@@ -214,7 +257,7 @@ def check_single_song(path):
     else:
         print(f"  [FAIL] LaTeX generation:\n{tex_proc.stderr.strip()}")
 
-    return xmllint.returncode == 0 and tex_proc.returncode == 0
+    return xmllint.returncode == 0 and tex_proc.returncode == 0 and len(info["issues"]) == 0
 
 
 def main():

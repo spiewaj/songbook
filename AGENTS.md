@@ -46,9 +46,13 @@ Always verify whether the current Pull Request has already been merged before ex
       1. A line has no chords at all (e.g. a cappella, recitative).
       2. Chords for the line are known (e.g. in `sidechords`), but their exact placement/timing over syllables is unknown, so chords are rendered exclusively on the side to avoid misleading the singer.
 - **Instrumental Chords & `sidechords`**:
-  - Never put transition/turnaround chords into lyric punctuation (e.g. avoid `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (e.g. `<ch a="(d E a G)"/>` is invalid).
-  - Use the `sidechords="..."` attribute on `<row>` (e.g. `<row important_over="false" sidechords="d E a G">...`) or introduce an explicit instrumental line: `<row important_over="false" style="instr"><ch a="G"/></row>`.
+  - **Inline chords are primary**: Regular accompaniment chords played during lyrics MUST be placed inline (above syllables with `<ch a="..."/>`), including trailing chords played at the end of a line (placed with a separating space, e.g. `<ch a="e"/>jesz <ch a="D"/>`). NEVER strip chords from lyrics into `sidechords` (e.g. do not remove `<ch a="D"/>` from lyrics to put `sidechords="e D"`).
+  - **No redundant `sidechords`**: Both LaTeX and HTML converters automatically generate side column chords from inline `<ch>` tags. Specifying `sidechords` when it is identical to inline chords is redundant and forbidden.
+  - **When to use `sidechords`**:
+    1. Pure sidechord lines where syllable placement is unknown (`important_over="never"` and NO inline `<ch>` tags).
+    2. Special formatting or turnaround annotations that differ from inline chords (e.g. `sidechords="e D (a H7)"` or `sidechords="C G x2"`).
   - **`sidechords` overrides the side column completely**: In LaTeX and HTML converters, specifying `sidechords` replaces all side chord rendering for that row. Therefore, `sidechords` MUST ALWAYS be the complete sequence (superset / formatting) of all chords for the line (e.g. `sidechords="E E7 a G"`, NEVER just `sidechords="G"` when preceding inline chords exist).
+  - Never put transition chords into lyric punctuation without spacing (avoid `wioskach.<ch a="G"/>`) and never place multi-chord groupings in a single chord tag (`<ch a="(d E a G)"/>` is invalid). For standalone transition chords or instrumental breaks between verses, use an explicit instrumental line: `<row important_over="false" style="instr"><ch a="G"/></row>`.
 - **Schema Constraints for `<alias>` and Composers**:
   - In `_site/song.xsd`, only a single optional `<alias>` is supported (`maxOccurs="1"`). There is NO `<aliases>` element.
   - In `<composer>`, only text is supported; multiple composers should be joined with a comma.
