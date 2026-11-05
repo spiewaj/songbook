@@ -6,9 +6,9 @@
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="gis"/>Aniołowie jeśli <ch a="Fis"/>tylko <ch a="H"/>są</row>
-      <row important_over="true" sidechords="E cis H Fis"><ch a="E"/>Kryją się w <ch a="cis"/>metalowych <ch a="H"/>bunkrach</row>
+      <row important_over="true"><ch a="E"/>Kryją się w <ch a="cis"/>metalowych <ch a="H"/>bunkrach <ch a="Fis"/></row>
       <row important_over="false"><ch a="gis"/>Takie listy <ch a="Fis"/>szybko <ch a="H"/>drą</row>
-      <row important_over="false" sidechords="E cis H Fis"><ch a="E"/>Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro</row>
+      <row important_over="false"><ch a="E"/>Chcą mnie dziś, <ch a="cis"/>chcą mnie widzieć <ch a="H"/>jutro <ch a="Fis"/></row>
     </block>
     <block type="other">
       <row important_over="false" style="instr"><ch a="gis"/> <ch a="Fis"/> <ch a="gis"/></row>
@@ -16,21 +16,21 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="gis"/>Paru kumpli <ch a="Fis"/>już tam <ch a="H"/>jest</row>
-      <row important_over="false" sidechords="E cis H Fis"><ch a="E"/>Mówią, że <ch a="cis"/>krzyżyk piecze w <ch a="H"/>usta</row>
+      <row important_over="false"><ch a="E"/>Mówią, że <ch a="cis"/>krzyżyk piecze w <ch a="H"/>usta <ch a="Fis"/></row>
       <row important_over="false"><ch a="gis"/>Nauczeni <ch a="Fis"/>nie bać <ch a="H"/>się</row>
-      <row important_over="false" sidechords="E cis H Fis"><ch a="E"/>Tylko coś <ch a="cis"/>nie pozwala <ch a="H"/>usnąć</row>
+      <row important_over="false"><ch a="E"/>Tylko coś <ch a="cis"/>nie pozwala <ch a="H"/>usnąć <ch a="Fis"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="E"/>Zawsze <ch a="Fis"/>iść, rozkaz, <ch a="gis"/>który mam we <ch a="H"/>krwi</row>
-      <row important_over="false" sidechords="E Fis gis H"><ch a="E"/>Małą <ch a="Fis"/>wojnę w sobie <ch a="gis"/>mieć</row>
+      <row important_over="false"><ch a="E"/>Małą <ch a="Fis"/>wojnę w sobie <ch a="gis"/>mieć <ch a="H"/></row>
       <row important_over="false"><ch a="E"/>Z każdym z <ch a="Fis"/>was walczyć <ch a="gis"/>do utraty <ch a="H"/>tchu</row>
       <row important_over="false"><ch a="E"/>I bez <ch a="Fis"/>słów</row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="gis"/>Mogę zwalić <ch a="Fis"/>ciebie z <ch a="H"/>nóg</row>
-      <row important_over="false" sidechords="E cis H Fis"><ch a="E"/>Wrogu mój, <ch a="cis"/>co wykrzywiasz <ch a="H"/>usta</row>
+      <row important_over="false"><ch a="E"/>Wrogu mój, <ch a="cis"/>co wykrzywiasz <ch a="H"/>usta <ch a="Fis"/></row>
       <row important_over="false"><ch a="gis"/>Nie przepraszaj, <ch a="Fis"/>tylko <ch a="H"/>wstań</row>
-      <row important_over="false" sidechords="E cis H Fis"><ch a="E"/>Nigdy już <ch a="cis"/>nie zobaczysz <ch a="H"/>lustra</row>
+      <row important_over="false"><ch a="E"/>Nigdy już <ch a="cis"/>nie zobaczysz <ch a="H"/>lustra <ch a="Fis"/></row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="E"/>Ludzie <ch a="Fis"/>są <ch a="gis"/>po to, żeby <ch a="H"/>żyć i tańczyć</row>
