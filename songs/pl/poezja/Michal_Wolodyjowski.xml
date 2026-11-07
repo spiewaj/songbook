@@ -29,7 +29,7 @@
 		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
-		<guitar barre="0"/>
+		<guitar barre="3"/>
 	</music>
 	<keywords/>
 	<album>Przygody pana Michała</album>
@@ -41,7 +41,7 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Paweł Budzyński</verificator>
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/pan-wolodyjowski/</verificator>
 		</verificators>
 		<to_do/>
 	</status>
