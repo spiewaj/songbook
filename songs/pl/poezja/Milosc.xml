@@ -49,10 +49,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kuba</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Kuba</verificator>
+      <verificator>Krzysiek Cz.</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
