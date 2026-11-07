@@ -1,79 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Śmiech">
   <alias>Pinokio</alias>
-  <text_author>Krzysztof Sieniawski</text_author>
+  <text_author type="solo">Krzysztof Maria Sieniawski</text_author>
   <comment/>
   <composer type="solo">Przemysław Gintrowski</composer>
-  <artist type="solo">Jacek Kaczmarski</artist>
+  <artist type="solo">Przemysław Gintrowski</artist>
   <translator/>
   <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Bardzo śmiesznie jest umierać<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy żyć byś chciał<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="true"><ch a="G"/>Bardzo śmiesznie jest umie<ch a="a"/>rać,</row>
+      <row important_over="true"><ch a="C"/>Kiedy żyć byś <ch a="G"/>chciał.</row>
       <bis>
-        <row important_over="never"><ch a="C"/>Nosić miano Oliviera<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Kiedy jesteś Brown<ch a="H"/><ch a="e"/></row>
+        <row important_over="true"><ch a="C"/>Nosić miano Oli<ch a="G"/>viera,</row>
+        <row important_over="true"><ch a="a"/>Kiedy jesteś <ch a="H"/>Bro<ch a="e"/>wn.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Jak zabawnie chcieć i nie móc<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Lub nie chcieć i móc<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="false"><ch a="G"/>Jak zabawnie chcieć i <ch a="a"/>nie móc</row>
+      <row important_over="false"><ch a="C"/>Lub nie chcieć i <ch a="G"/>móc.</row>
       <bis>
-        <row important_over="never"><ch a="C"/>Dziś Romulus jutro Remulus<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Jutro trup dziś wódz<ch a="H"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Dziś Romulus, jutro <ch a="G"/>Remus,</row>
+        <row important_over="false"><ch a="a"/>Jutro trup, dziś <ch a="H"/>wó<ch a="e"/>dz.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Chciałbyś lecieć za widnokrąg<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Miasto ci się śni<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="false"><ch a="G"/>Chciałbyś lecieć za widno<ch a="a"/>krąg,</row>
+      <row important_over="false"><ch a="C"/>Miasto ci się <ch a="G"/>śni.</row>
       <bis>
-        <row important_over="never"><ch a="C"/>Czemu żyć chcesz Pinokio <ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>W korowodzie złych dni<ch a="H"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Czemu żyć chcesz, Pino<ch a="G"/>kio,</row>
+        <row important_over="false"><ch a="a"/>W korowodzie <ch a="H"/>złych <ch a="e"/>dni?</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Bardzo śmiesznie wstawać rano<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy spać byś chciał<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="false"><ch a="G"/>Bardzo śmiesznie wstawać <ch a="a"/>rano,</row>
+      <row important_over="false"><ch a="C"/>Kiedy spać byś <ch a="G"/>chciał,</row>
       <bis>
-        <row important_over="never"><ch a="C"/>I z twarzyczką zapłakaną<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Wychodzić na raut<ch a="H"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>I z twarzyczką zapła<ch a="G"/>kaną</row>
+        <row important_over="false"><ch a="a"/>Wychodzić na <ch a="H"/>ra<ch a="e"/>ut.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Jak zabawnie myśleć o czymś<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Kiedy braknie ci słów<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="false"><ch a="G"/>Jak zabawnie myśleć o <ch a="a"/>czymś,</row>
+      <row important_over="false"><ch a="C"/>Kiedy braknie ci <ch a="G"/>słów,</row>
       <bis>
-        <row important_over="never"><ch a="C"/>Prosto z pełni w sen wyskoczyć<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>W roześmiany nów<ch a="H"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Prosto z pełni w sen wy<ch a="G"/>skoczyć,</row>
+        <row important_over="false"><ch a="a"/>W roześmiany <ch a="H"/>nó<ch a="e"/>w.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Chciałbyś słońca musisz moknąć<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Myśląc w to mi graj<ch a="G"/></row>
-    </block>
-    <block type="verse">
+      <row important_over="false"><ch a="G"/>Chciałbyś słońca — musisz <ch a="a"/>moknąć,</row>
+      <row important_over="false"><ch a="C"/>Myśląc: w to mi <ch a="G"/>graj!</row>
       <bis>
-        <row important_over="never"><ch a="C"/>Nie umieraj Pinokio<ch a="G"/></row>
-        <row important_over="never"><ch a="a"/>Jeszcze jedną noc trwaj<ch a="H"/><ch a="e"/></row>
+        <row important_over="false"><ch a="C"/>Nie umieraj, Pino<ch a="G"/>kio,</row>
+        <row important_over="false"><ch a="a"/>Jeszcze jedną <ch a="H"/>noc <ch a="e"/>trwaj!</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <keywords/>
+  <album>Mury w Muzeum Raju</album>
+  <genre>poezja śpiewana</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://gintrowski.art.pl</verificator>
+      <verificator>https://kaczmarski.art.pl/tworczosc/programy/mury-w-muzeum-raju/</verificator>
+    </verificators>
   </status>
 </song>
