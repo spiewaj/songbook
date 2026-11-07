@@ -2,56 +2,53 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kraina Łemków">
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="G"/> Na poł<ch a="e"/>udniu Polski j<ch a="a"/>est <ch a="D"/>miejsce gdzie </row>
-      <row important_over="false"><ch a="G"/>Raz do <ch a="e"/>roku równa br<ch a="a"/>ać z<ch a="D"/>łazi się</row>
-      <row important_over="false"><ch a="G"/>Każdy <ch a="e"/>dobry humor <ch a="a"/>ma, pio<ch a="D"/>senek wiele zna </row>
-      <row important_over="false"><ch a="G"/>Więc nam <ch a="e"/>czas płynie <ch a="a"/>szybko i wes<ch a="D"/>oło.</row>
+      <row important_over="true"><ch a="G"/>Na poł<ch a="e"/>udniu Polski j<ch a="a"/>est miejsce, gdzi<ch a="D"/>e</row>
+      <row important_over="false"><ch a="G"/>Raz do r<ch a="e"/>oku równa br<ch a="a"/>ać złazi si<ch a="D"/>ę.</row>
+      <row important_over="false"><ch a="G"/>Każdy d<ch a="e"/>obry humor m<ch a="a"/>a, piosenek wi<ch a="D"/>ele zna,</row>
+      <row important_over="false"><ch a="G"/>Więc nam cz<ch a="e"/>as płynie sz<ch a="a"/>ybko i wes<ch a="D"/>oło.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Laj la la laj... <ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Laj la la l<ch a="e"/>aj, la la l<ch a="a"/>aj, la la l<ch a="D"/>aj...</row>
     </block>
     <block type="verse">
-      <row important_over="false">Wędrujemy tydzień już ziemia drży
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Krajem Łemków co urzeka pięknem swym 
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Dzikie szczyty każdy z nas zdobywać tutaj chce
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Strome zbocza, wąwozów poznać urok.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Wędrujemy t<ch a="e"/>ydzień już, zi<ch a="a"/>emia drż<ch a="D"/>y,</row>
+      <row important_over="false"><ch a="G"/>Krajem Ł<ch a="e"/>emków, co urz<ch a="a"/>eka pięknem sw<ch a="D"/>ym.</row>
+      <row important_over="false"><ch a="G"/>Dzikie szcz<ch a="e"/>yty każdy z n<ch a="a"/>as zdobywać t<ch a="D"/>utaj chce,</row>
+      <row important_over="false"><ch a="G"/>Strome zb<ch a="e"/>ocza, wąw<ch a="a"/>ozów poznać ur<ch a="D"/>ok.</row>
     </block>
+    <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Aura figle płata wciąż - nie jest źle
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Chociaż czasem pada śnieg albo deszcz
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Przyjacielem każdy szlak, my znamy przygód smak
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Zawsze cel wypraw swoich osiągamy.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Aura f<ch a="e"/>igle płata wc<ch a="a"/>iąż – nie jest źl<ch a="D"/>e,</row>
+      <row important_over="false"><ch a="G"/>Chociaż cz<ch a="e"/>asem pada śn<ch a="a"/>ieg albo d<ch a="D"/>eszcz.</row>
+      <row important_over="false"><ch a="G"/>Przyjaci<ch a="e"/>elem każdy szl<ch a="a"/>ak, my znamy prz<ch a="D"/>ygód smak,</row>
+      <row important_over="false"><ch a="G"/>Zawsze c<ch a="e"/>el wypraw sw<ch a="a"/>oich osiąg<ch a="D"/>amy.</row>
     </block>
+    <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Każdy w błocie utaplany ze aż strach
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">W butach chlupie ale w duszy ciągle gra
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Zasłyszanych dźwięków moc które wczoraj ktoś
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Cały czas podśpiewywał w porze zmierzchu.
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Każdy w bł<ch a="e"/>ocie utapl<ch a="a"/>any, że aż str<ch a="D"/>ach,</row>
+      <row important_over="false"><ch a="G"/>W butach chl<ch a="e"/>upie, ale w d<ch a="a"/>uszy ciągle gr<ch a="D"/>a</row>
+      <row important_over="false"><ch a="G"/>Zasłysz<ch a="e"/>anych dźwięków m<ch a="a"/>oc, które wcz<ch a="D"/>oraj ktoś</row>
+      <row important_over="false"><ch a="G"/>Cały cz<ch a="e"/>as podśpiew<ch a="a"/>ywał w porze zmi<ch a="D"/>erzchu.</row>
     </block>
+    <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Jeszcze raz unicki krzyż żegna nas
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">I dukielski stary pocztowy szlak
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">W Bieczu pożegnamy się lecz każdy z nas wie
-<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
-      <row important_over="false">Że za rok powrócimy tu na pewno.<ch a="G"/><ch a="e"/><ch a="a"/><ch a="D"/></row>
+      <row important_over="false"><ch a="G"/>Jeszcze r<ch a="e"/>az unicki krz<ch a="a"/>yż żegna n<ch a="D"/>as</row>
+      <row important_over="false"><ch a="G"/>I duki<ch a="e"/>elski stary p<ch a="a"/>ocztowy szl<ch a="D"/>ak.</row>
+      <row important_over="false"><ch a="G"/>W Bieczu p<ch a="e"/>ożegnamy si<ch a="a"/>ę, lecz każdy z n<ch a="D"/>as wie,</row>
+      <row important_over="false"><ch a="G"/>Że za r<ch a="e"/>ok powróc<ch a="a"/>imy tu na p<ch a="D"/>ewno.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.eu</verificator>
+    </verificators>
+    <to_do>Autorzy tekstu i muzyki nieznani (tradycyjna piosenka turystyczna/harcerska).</to_do>
   </status>
 </song>
