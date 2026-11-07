@@ -39,34 +39,43 @@ export async function getFileFromBranch(octokit, user, branchName) {
 
 export function htmlPrefix(res) {
     res.write(`<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html" lang="pl-PL">
+<html lang="pl-PL">
   <head>
     <meta charset="UTF-8">
-    <title>Edytor piosenek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozpoczęte edycje - Śpiewnik</title>
     <script>
       function deleteBranch(user, branch) {
-        if (confirm("Czy na pewno chcesz skasować zmianę: '" +branch + "'?")) {
-          let url='${BASE_URL}/users/' + user + '/changes/' + branch;
+        if (confirm("Czy na pewno chcesz skasować roboczą zmianę: '" + branch + "'?")) {
+          let url = '${BASE_URL}/users/' + user + '/changes/' + branch;
           fetch(url, {method:'DELETE'})
             .then(() => window.location.reload());
         }
       }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/editor.css" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <a href="${EDITOR_DOMAIN}">[Piosenki]</a>
-      <a href="/users/me/changes:new">[Nowa]</a>
-      <a href="/changes">[Inne rozpoczęte edycje]</a>
+    <div class="top-nav-wrapper">
+      <nav class="top-navigation">
+        <a href="${EDITOR_DOMAIN}" class="nav-item"><i class="material-icons">queue_music</i> Piosenki</a>
+        <a href="${EDITOR_DOMAIN}/songbooks.html" class="nav-item"><i class="material-icons">menu_book</i> Śpiewniki</a>
+        <a href="/users/me/changes:new" class="nav-item nav-item-cta"><i class="material-icons">add_circle</i> Dodaj nową piosenkę</a>
+        <a href="/changes" class="nav-item active"><i class="material-icons">history</i> Rozpoczęte edycje</a>
+      </nav>
     </div>
+    <main class="page-container">
 `);
 }
 
 export function htmlSuffix(res) {
     if (!res.writableEnded) {
         res.write(`
+    </main>
   </body>
 </html>`);
         res.end();
