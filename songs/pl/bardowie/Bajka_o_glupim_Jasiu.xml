@@ -103,16 +103,14 @@
 			<row important_over="false">Gł<ch a="d"/>upi Jasiu, głupi Jasiu,</row>
 			<row important_over="false">R<ch a="a"/>ozumiałeś mowę ptasią,</row>
 			<row important_over="false"><ch a="E"/>Ale więcej już rozumiesz dz<ch a="a"/>iś —</row>
-			<bis times="2">
-				<row important_over="false">W b<ch a="d"/>aśniach śpią prawdziwe dzieje,</row>
-				<row important_over="false">W<ch a="a"/>oda Życia nie istnieje,</row>
-				<row important_over="false"><ch a="H7"/>Ale zawsze warto po nią <ch a="E"/>iść,</row>
-			</bis>
+			<row important_over="false">W b<ch a="d"/>aśniach śpią prawdziwe dzieje,</row>
+			<row important_over="false">W<ch a="a"/>oda Życia nie istnieje,</row>
+			<row important_over="false"><ch a="H7"/>Ale zawsze warto po nią <ch a="E"/>iść,</row>
+			<row important_over="false">W b<ch a="d"/>aśniach śpią prawdziwe dzieje,</row>
+			<row important_over="false">W<ch a="a"/>oda Życia nie istnieje,</row>
 			<row important_over="false"><ch a="E7"/>Ale zawsze warto po nią <ch a="a"/>iść.</row>
 		</block>
 	</lyric>
-	
-	
 	<music metre="4/4">
 		<guitar barre="2"/>
 	</music>
@@ -123,13 +121,13 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords/>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>https://kaczmarski.art.pl/tworczosc/wiersze/bajka-o-glupim-jasiu/</verificator>
 		</verificators>
-		<to_do>Jest jakaś sensowniejsza notacja bisów z różnymi akordami na końcach zwrotek?</to_do>
+		<to_do></to_do>
 	</status>
 	<music_source></music_source>
 </song>
-
