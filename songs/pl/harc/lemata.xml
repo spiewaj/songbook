@@ -1,49 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Łemata">
   <alias>Rozważania nad wodospadem</alias>
-  <text_author type="solo">Wojtek &quot;Neron&quot; Warchoł</text_author>
-  <composer type="solo">Wojtek &quot;Neron&quot; Warchoł</composer>
-  <artist type="solo">Wojtek &quot;Neron&quot; Warchoł</artist>
+  <text_author type="solo">Wojciech Warchoł (ps. „Neron”)</text_author>
+  <comment/>
+  <composer type="solo">Wojciech Warchoł (ps. „Neron”)</composer>
+  <artist type="solo">Wojciech Warchoł (ps. „Neron”)</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Pamiętam, <ch a="G"/>tylko tabun <ch a="a"/>chmur się rozw<ch a="e"/>inął</row>
-      <row important_over="true">I <ch a="F"/>cichy <ch a="C"/>wiatr wie<ch a="G"/>jący <ch a="F"/>ku poło<ch a="G"/>ninom</row>
-      <row important_over="false"><ch a="C"/>I twardy <ch a="G"/>jak kamień <ch a="a"/>plecak pod <ch a="e"/>moją głową</row>
-      <row important_over="false"><ch a="F"/>I czyjaś <ch a="C"/>postać, <ch a="G"/>co oka<ch a="F"/>zała się <ch a="G"/>tobą</row>
+      <row important_over="true">Pam<ch a="C"/>iętam, t<ch a="G"/>ylko tabun chm<ch a="a"/>ur się rozw<ch a="e"/>inął</row>
+      <row important_over="true">I c<ch a="F"/>ichy wi<ch a="C"/>atr wiej<ch a="G"/>ący k<ch a="F"/>u połon<ch a="G"/>inom,</row>
+      <row important_over="false">I tw<ch a="C"/>ardy j<ch a="G"/>ak kamień pl<ch a="a"/>ecak pod m<ch a="e"/>oją głową</row>
+      <row important_over="false">I cz<ch a="F"/>yjaś post<ch a="C"/>ać, co ok<ch a="G"/>azał<ch a="F"/>a się t<ch a="G"/>obą.</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="C"/>Idę dołem, <ch a="G"/>a ty górą</row>
-        <row important_over="true"><ch a="a"/>Jestem słońcem, <ch a="e"/>ty wichurą</row>
-        <row important_over="true"><ch a="F"/>Ogniem ja, <ch a="C"/>wodą ty</row>
-        <row important_over="true"><ch a="G"/>Śmiechem ja, ty <ch a="C"/>ronisz <ch a="G"/>łzy</row>
+        <row important_over="true"><ch a="C"/>Idę dołem, <ch a="G"/>a ty górą,</row>
+        <row important_over="true">j<ch a="a"/>estem słońcem, t<ch a="e"/>y wichurą,</row>
+        <row important_over="true"><ch a="F"/>ogniem ja, w<ch a="C"/>odą ty,</row>
+        <row important_over="true">śmi<ch a="G"/>echem ja, ty r<ch a="C"/>onisz łz<ch a="G"/>y.</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Byłaś jak <ch a="G"/>słońce <ch a="a"/>w tę zimną <ch a="e"/>noc</row>
-      <row important_over="false">Jak <ch a="F"/>wielkie <ch a="C"/>szczęście, <ch a="G"/>co <ch a="F"/>zesłał mi <ch a="G"/>los</row>
-      <row important_over="false"><ch a="C"/>Lecz nie na <ch a="G"/>długo było <ch a="a"/>cieszyć się <ch a="e"/>nam</row>
-      <row important_over="false">Te <ch a="F"/>kłótnie bez <ch a="C"/>sensu, <ch a="G"/>skąd <ch a="F"/>ja to <ch a="G"/>znam</row>
+      <row important_over="false">B<ch a="C"/>yłaś jak sł<ch a="G"/>ońce w t<ch a="a"/>ę zimną n<ch a="e"/>oc,</row>
+      <row important_over="false">jak wi<ch a="F"/>elkie szcz<ch a="C"/>ęście, co z<ch a="G"/>esł<ch a="F"/>ał mi l<ch a="G"/>os.</row>
+      <row important_over="false">L<ch a="C"/>ecz nienadł<ch a="G"/>ugo było ci<ch a="a"/>eszyć się n<ch a="e"/>am –</row>
+      <row important_over="false">te kł<ch a="F"/>ótnie bez s<ch a="C"/>ensu, sk<ch a="G"/>ąd j<ch a="F"/>a to zn<ch a="G"/>am.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>I tłuma<ch a="G"/>czyłem, jak na<ch a="a"/>prawdę to <ch a="e"/>jest</row>
-      <row important_over="false">Że <ch a="F"/>mam swój <ch a="C"/>świat, a w nim <ch a="G"/>setki tych <ch a="F"/>swoich <ch a="G"/>spraw</row>
-      <row important_over="false"><ch a="C"/>A moje <ch a="G"/>gwiazdy to z <ch a="a"/>daleka do mnie <ch a="e"/>lśnią</row>
-      <row important_over="false"><ch a="F"/>Śmiechem i <ch a="C"/>łzami <ch a="G"/>witają mój <ch a="F"/>bukowy <ch a="G"/>dom</row>
+      <row important_over="false">I tłum<ch a="C"/>aczyłem, jak napr<ch a="G"/>awdę t<ch a="a"/>o j<ch a="e"/>est,</row>
+      <row important_over="false">że m<ch a="F"/>am swój świ<ch a="C"/>at, a w nim s<ch a="G"/>etki tych sw<ch a="F"/>oich spr<ch a="G"/>aw.</row>
+      <row important_over="false">A m<ch a="C"/>oje gwi<ch a="G"/>azdy to z dal<ch a="a"/>eka do mnie lśn<ch a="e"/>ią,</row>
+      <row important_over="false">śmi<ch a="F"/>echem i łz<ch a="C"/>ami wit<ch a="G"/>ają mój b<ch a="F"/>ukowy d<ch a="G"/>om.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>I czas za<ch a="G"/>kończyć rozwa<ch a="a"/>żania <ch a="e"/>te</row>
-      <row important_over="false"><ch a="F"/>Przy wodo<ch a="C"/>spadzie, <ch a="G"/>tam, gdzie <ch a="F"/>słychać <ch a="G"/>śpiew</row>
-      <row important_over="false"><ch a="C"/>W źródlanej <ch a="G"/>wodzie, czas za<ch a="a"/>nurzyć <ch a="e"/>dłoń</row>
-      <row important_over="false">Już <ch a="F"/>żegnam <ch a="C"/>was, <ch a="G"/>dziś <ch a="F"/>odchodzę <ch a="G"/>stąd</row>
+      <row important_over="false">I cz<ch a="C"/>as zako<ch a="G"/>ńczyć rozw<ch a="a"/>ażania t<ch a="e"/>e</row>
+      <row important_over="false">przy w<ch a="F"/>odosp<ch a="C"/>adzie, tam, gdzi<ch a="G"/>e sł<ch a="F"/>ychać śpi<ch a="G"/>ew.</row>
+      <row important_over="false">W źródl<ch a="C"/>anej w<ch a="G"/>odzie czas zan<ch a="a"/>urzyć dł<ch a="e"/>oń,</row>
+      <row important_over="false">już ż<ch a="F"/>egnam w<ch a="C"/>as, dziś odch<ch a="G"/>odz<ch a="F"/>ę st<ch a="G"/>ąd.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chord positioning</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/wojtek-neron-warchol/lemata</verificator>
+    </verificators>
   </status>
 </song>
