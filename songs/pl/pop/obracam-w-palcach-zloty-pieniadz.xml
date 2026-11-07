@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Obracam w palcach złoty pieniądz">
   <text_author type="solo">Bogdan Olewicz</text_author>
+  <comment>Utwór z debiutanckiego albumu studyjnego zespołu Perfect – „Perfect” (1981, tzw. biały album).</comment>
   <composer type="solo">Zbigniew Hołdys</composer>
   <artist type="band">Perfect</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Nad fioletowo-słoną rzeką rozpinam purpurowy most. <ch a="C"/><ch a="G"/><ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never" sidechords="C G F G a">Powietrze eksploduje tęczą i dźwięczą ostrza srebrnych kos.</row>
-      <row important_over="never" sidechords="C G F G a">Z ciemności dzieci do mnie biegną, wabi je gitar słodki dźwięk.</row>
-      <row important_over="never" sidechords="C G F G a">Obracam w palcach złoty pieniądz i pokazuję czołgom cel.</row>
+      <row important_over="true"><ch a="C"/>Nad fioletowo-<ch a="G"/>słoną rzeką roz<ch a="F"/>pinam purpu<ch a="G"/>rowy <ch a="a"/>most.</row>
+      <row important_over="false"><ch a="C"/>Powietrze eksplo<ch a="G"/>duje tęczą i <ch a="F"/>dźwięczą ostrza <ch a="G"/>srebrnych <ch a="a"/>kos.</row>
+      <row important_over="false"><ch a="C"/>Z ciemności dzieci <ch a="G"/>do mnie biegną, <ch a="F"/>wabi je gitar <ch a="G"/>słodki <ch a="a"/>dźwięk.</row>
+      <row important_over="false"><ch a="C"/>Obracam w palcach <ch a="G"/>złoty pieniądz i <ch a="F"/>pokazuję <ch a="G"/>czołgom <ch a="a"/>cel.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C G F G a">Wchodzę bezbronnie rozebrany do klatki w której tygrys śpi.</row>
-      <row important_over="never" sidechords="C G F G a">Na ścianach jarzą się ekrany i widzę o czym bestia śni.</row>
-      <row important_over="never" sidechords="C G F G a">Oto mój krzyk i strach przed śmiercią przecina błysk tygrysich kłów.</row>
-      <row important_over="never" sidechords="C G F G a">Obracam w palcach złoty pieniądz, kopniakiem budząc go ze snu.</row>
+      <row important_over="never">Wchodzę bezbronnie rozebrany do klatki, w której tygrys śpi.</row>
+      <row important_over="never">Na ścianach jarzą się ekrany i widzę, o czym bestia śni.</row>
+      <row important_over="never">Oto mój krzyk i strach przed śmiercią przecina błysk tygrysich kłów.</row>
+      <row important_over="never">Obracam w palcach złoty pieniądz, kopniakiem budząc go ze snu.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C G F G a">Wiążę jedwabne sznurowadła i diamentowy wkładam frak.</row>
-      <row important_over="never" sidechords="C G F G a">Te krwią znaczone prześcieradła na naszej hańby wieszam znak.</row>
-      <row important_over="never" sidechords="C G F G a">Niechże wam szybko wiosny lecą, moja prześliczna bando hien.</row>
-      <row important_over="never" sidechords="C G F G a">Obracam w palcach złoty pieniądz i przeraźliwie nudzę się.</row>
+      <row important_over="never">Wiążę jedwabne sznurowadła i diamentowy wkładam frak.</row>
+      <row important_over="never">Te krwią znaczone prześcieradła na naszej hańby wieszam znak.</row>
+      <row important_over="never">Niechże wam szybko wiosny lecą, moja prześliczna bando hien.</row>
+      <row important_over="never">Obracam w palcach złoty pieniądz i przeraźliwie nudzę się.</row>
     </block>
   </lyric>
-  <keywords/>
-  <album>Perfect (LP, 1981)</album>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <album>Perfect</album>
+  <genre>rock</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Obracam_w_palcach_zloty_pieniadz</verificator>
+      <verificator>https://spiewnik.wywrota.pl/perfect/obracam-w-palcach-zloty-pieniadz</verificator>
+    </verificators>
   </status>
 </song>
