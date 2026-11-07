@@ -1,57 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bim bam bom">
+  <text_author type="solo">tradycyjny</text_author>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Niech ci kwitną bzy, powoje <ch a="G"/></row>
-      <row important_over="never">niech Cię kocha serce moje, <ch a="e"/></row>
-      <row important_over="never">niech Ci kwitnie róży kwiat, <ch a="C"/></row>
-      <row important_over="never">niech Cię kocha cały Świat <ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Niech ci kwitną bzy, powoje,</row>
+      <row important_over="true"><ch a="e"/>niech cię kocha serce moje,</row>
+      <row important_over="true"><ch a="C"/>niech ci kwitnie róży kwiat,</row>
+      <row important_over="true"><ch a="D"/>niech cię kocha cały świat.</row>
     </block>
     <block type="chorus">
-      <row important_over="never" sidechords="G">bim bam bom bim bam parara</row>
-      <row important_over="never" sidechords="e">bim bam bom bim bam parara</row>
-      <row important_over="never" sidechords="C">bim bam bom bim bam parara</row>
-      <row important_over="never" sidechords="d">bim bam bom parara</row>
+      <row important_over="true"><ch a="G"/>Bim bam bom, bim bam parara,</row>
+      <row important_over="true"><ch a="e"/>bim bam bom, bim bam parara,</row>
+      <row important_over="true"><ch a="C"/>bim bam bom, bim bam parara,</row>
+      <row important_over="true"><ch a="D"/>bim bam bom parara!</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="G">Szły pchły koło wody,</row>
-      <row important_over="never" sidechords="e">pchła pchłe pchła do wody</row>
-      <row important_over="never" sidechords="C">i ta pchła płakała,</row>
-      <row important_over="never" sidechords="d">że ją tamta pchła wepchała</row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never" sidechords="G">Po angielsku I LOVE YOU,</row>
-      <row important_over="never" sidechords="e">po rosyjsku JA LUBJU,</row>
-      <row important_over="never" sidechords="C">po francusku JA ŻETĘ,</row>
-      <row important_over="never" sidechords="d">a po polsku KOCHAM CIĘ!</row>
+      <row important_over="false"><ch a="G"/>Szły pchły koło wody,</row>
+      <row important_over="false"><ch a="e"/>pchła pchłę pchła do wody,</row>
+      <row important_over="false"><ch a="C"/>i ta pchła płakała,</row>
+      <row important_over="false"><ch a="D"/>że ją tamta pchła wepchała.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Róże są piękne choć kolce mają</row>
-      <row important_over="never" sidechords="e">i nie są trwałe bo przekwitają,</row>
-      <row important_over="never" sidechords="C">a nasza miłość niech będzie szczera,</row>
-      <row important_over="never" sidechords="d">niech będzie szczera i nie umiera!</row>
+      <row important_over="false"><ch a="G"/>Po angielsku I love you,</row>
+      <row important_over="false"><ch a="e"/>po rosyjsku ja lublju,</row>
+      <row important_over="false"><ch a="C"/>po francusku ja żetę,</row>
+      <row important_over="false"><ch a="D"/>a po polsku kocham cię!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Smutno, smutno płynie życie</row>
-      <row important_over="never" sidechords="e">Gdy się kogoś kocha skrycie</row>
-      <row important_over="never" sidechords="C">Ale jeszcze trudniej żyć</row>
-      <row important_over="never" sidechords="d">Nigdy nie kochanym być</row>
+      <row important_over="false"><ch a="G"/>Róże są piękne, choć kolce mają</row>
+      <row important_over="false"><ch a="e"/>i nie są trwałe, bo przekwitają,</row>
+      <row important_over="false"><ch a="C"/>a nasza miłość niech będzie szczera,</row>
+      <row important_over="false"><ch a="D"/>niech będzie szczera i nie umiera!</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="G">Cicho płynie deszcz po szybie</row>
-      <row important_over="never" sidechords="e">Jeszcze ciszej płynie łza</row>
-      <row important_over="never" sidechords="C">Lecz nie pytał, kto cię kocha</row>
-      <row important_over="never" sidechords="d">Bo to zawsze będę ja</row>
+      <row important_over="false"><ch a="G"/>Smutno, smutno płynie życie,</row>
+      <row important_over="false"><ch a="e"/>gdy się kogoś kocha skrycie,</row>
+      <row important_over="false"><ch a="C"/>ale jeszcze trudniej żyć,</row>
+      <row important_over="false"><ch a="D"/>nigdy nie kochanym być.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false"><ch a="G"/>Cicho płynie deszcz po szybie,</row>
+      <row important_over="false"><ch a="e"/>jeszcze ciszej płynie łza,</row>
+      <row important_over="false"><ch a="C"/>lecz nie pytaj, kto cię kocha,</row>
+      <row important_over="false"><ch a="D"/>bo to zawsze będę ja.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/bim-bam-bom</verificator>
+    </verificators>
   </status>
 </song>
