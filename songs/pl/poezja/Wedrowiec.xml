@@ -40,7 +40,9 @@
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://sylwekszweda.pl/www/php/showsong.php?id=1226</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
