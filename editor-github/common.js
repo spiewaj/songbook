@@ -328,6 +328,8 @@ export function editorLink(user, branchName, file, autocommit, maybeNew) {
     return url.href;
 }
 
+export { slugifyTitle, getDirForGenre } from './naming.js';
+
 export function HandleError(e, res) {
     console.log("HttpError", e);
     const errMsg = e?.response?.data?.message || e?.message || "";
