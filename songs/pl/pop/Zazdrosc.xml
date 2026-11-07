@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zazdrość">
 	<artist type="band">Hey</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="true">Są <ch a="h"/>chwil<ch a="e"/>e <ch a="A"/>gdy <ch a="fis"/>wolałabym <ch a="h"/>martwym <ch a="e"/>widzieć cię<ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Nie musiałabym się tobą dzielić nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Gdybym mogła schowałabym twoje oczy w mojej kieszeni<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Żebyś nie mógł oglądać tych, które są dla nas zagrożeniem<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="true">Są <ch a="h"/>chwile, <ch a="e"/>gdy wo<ch a="A"/>lała<ch a="fis"/>bym <ch a="h"/>martwym <ch a="e"/>widzieć <ch a="A"/>cię,<ch a="fis"/></row>
+			<row important_over="false">nie mu<ch a="h"/>siała<ch a="e"/>bym się <ch a="A"/>tobą <ch a="fis"/>dzielić, <ch a="h"/>nie, <ch a="e"/>nie.<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Gdybym <ch a="h"/>mogła, scho<ch a="e"/>wałabym <ch a="A"/>twoje <ch a="fis"/>oczy <ch a="h"/>w mojej <ch a="e"/>kiesze<ch a="A"/>ni,<ch a="fis"/></row>
+			<row important_over="false">żebyś <ch a="h"/>nie mógł o<ch a="e"/>glądać tych, <ch a="A"/>które są <ch a="fis"/>dla nas <ch a="h"/>zagro<ch a="e"/>żenie<ch a="A"/>m.<ch a="fis"/></row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Do pracy nie mogę puścić cię nie nie<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Tam tyle kobiet, każda w myślach gwałci cię<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">Złotą klatkę sprawię ci, będę karmić owocami<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
-			<row important_over="false">A do nogi przymocuję złotą kulę z diamentami<ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/><ch a="h"/><ch a="e"/><ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">Do pra<ch a="h"/>cy nie <ch a="e"/>mogę <ch a="A"/>puścić <ch a="fis"/>cię, <ch a="h"/>nie, <ch a="e"/>nie,<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">tam ty<ch a="h"/>le ko<ch a="e"/>biet, <ch a="A"/>każda w <ch a="fis"/>myślach <ch a="h"/>gwał<ch a="e"/>ci <ch a="A"/>cię.<ch a="fis"/></row>
+			<row important_over="false">Złotą <ch a="h"/>klatkę spra<ch a="e"/>wię ci, <ch a="A"/>będę <ch a="fis"/>karmić <ch a="h"/>owo<ch a="e"/>cami,<ch a="A"/><ch a="fis"/></row>
+			<row important_over="false">a do <ch a="h"/>nogi przy<ch a="e"/>mocuję <ch a="A"/>złotą <ch a="fis"/>kulę <ch a="h"/>z dia<ch a="e"/>menta<ch a="A"/>mi.<ch a="fis"/></row>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar/>
 	</music>
+	<album>Fire</album>
+	<genre>rock</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>https://spiewnik.wywrota.pl/hey/zazdrosc</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Zazdrosc-Katarzyna-Nosowska-Piotr-Banach/piosenka</verificator>
 		</verificators>
-		<done/>
-		<to_do></to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<composer type="solo"></composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
+	<text_author type="solo">Katarzyna Nosowska</text_author>
+	<composer type="solo">Piotr Banach</composer>
 </song>
