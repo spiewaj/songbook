@@ -64,12 +64,10 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kuba P.</verificator>
-			<verificator>Michał Korch</verificator>
-			<verificator>Jurij Kukin – «За туманом» (1964)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/bulat-okudzawa/gonic-marzenia</verificator>
-			<verificator>Śpiewnik turystyczny (przekład tradycyjny)</verificator>
-		</verificators>
+      <verificator>Kuba P.</verificator>
+      <verificator>Michał Korch</verificator>
+      <verificator>https://spiewnik.wywrota.pl/bulat-okudzawa/gonic-marzenia</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
