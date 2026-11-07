@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Modlitwa o wschodzie słońca">
 	<alias></alias>
 	<text_author type="solo">Natan Tenenbaum</text_author>
-	<comment>Wersja z modulacją wznoszącą (C-dur -> D-dur -> E-dur).</comment>
+	<comment>Ta piosenka dysponuje dwoma typami chwytów – jednym ze wznoszącą się tonacją (C-dur -> D-dur -> E-dur, bardziej popularnym) i drugim płaskim. Tu zaprezentowana jest wersja wznosząca.</comment>
 	<composer type="solo">Przemysław Gintrowski</composer>
 	<artist type="band">Jacek Kaczmarski, Przemysław Gintrowski</artist>
 	<translator></translator>
@@ -39,7 +39,7 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
