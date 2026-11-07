@@ -65,11 +65,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Alek</verificator>
-			<verificator>Edward Stachura – wiersz «Jak»</verificator>
-			<verificator>Stare Dobre Małżeństwo – album «Dla wszystkich starczy miejsca» (1990)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/jak</verificator>
-		</verificators>
+      <verificator>Alek</verificator>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/jak</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
