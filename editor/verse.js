@@ -12,19 +12,19 @@ export class SongVerse extends HTMLElement {
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <div class="verse">
   <div class="verse_meta">
-    <span id="nr"></span>
+    <span id="nr" data-tooltip-pos="right" data-tooltip="Automatyczny numer zwrotki lub oznaczenie refrenu."></span>
     <div>
-      <label><input id="blocklink" name="blocklink" type="checkbox"/>już było</label>
+      <label data-tooltip-pos="right" data-tooltip="Zaznacz, jeśli ta część jest dokładnym powtórzeniem wcześniejszej zwrotki lub refrenu (zamiast ponownie wklejać jej tekst, wybierz ją z listy)."><input id="blocklink" name="blocklink" type="checkbox"/>już było</label>
       
-      <label for="bt_verse"><input type="radio" id="bt_verse" value="verse" name="block_type"/>zwrotka</label>
-      <label for="bt_chorus"><input type="radio" id="bt_chorus" value="chorus" name="block_type"/>refren</label>
-      <label for="bt_other"><input type="radio" id="bt_other" value="other" name="block_type"/>wstawka</label>
+      <label for="bt_verse" data-tooltip-pos="right" data-tooltip="Standardowa zwrotka piosenki (numerowana automatycznie: 1., 2., 3. itd.)."><input type="radio" id="bt_verse" value="verse" name="block_type"/>zwrotka</label>
+      <label for="bt_chorus" data-tooltip-pos="right" data-tooltip="Refren piosenki – wcinany i oznaczany jako „Ref:”"><input type="radio" id="bt_chorus" value="chorus" name="block_type"/>refren</label>
+      <label for="bt_other" data-tooltip-pos="right" data-tooltip="Inny fragment utworu (np. wstęp, wstawka, bridge, outro) – bez numeru zwrotki i bez wcięcia refrenu."><input type="radio" id="bt_other" value="other" name="block_type"/>wstawka</label>
       
-      <button id="delete" class="material-icons">delete</button>
+      <button id="delete" class="material-icons" data-tooltip-pos="right" data-tooltip="Usuń tę zwrotkę (jeśli to jedyna zwrotka w piosence, wyczyści jej zawartość).">delete</button>
     </div>
   </div>
-  <div id="verse_link" class="verse_link">
-      <select id="verse_link_sel">
+  <div id="verse_link" class="verse_link" data-tooltip="Wybierz wcześniejszą zwrotkę lub refren, który ma zostać powtórzony w tym miejscu.">
+      <select id="verse_link_sel" title="Wybierz wcześniejszą zwrotkę lub refren do powtórzenia">
         <option>Foo</option>
         <option>Bar</option>
       </select>
@@ -347,7 +347,7 @@ export class SongBis extends HTMLElement {
 <link rel="stylesheet" href="verse.css"/>
 <div class="bis">
   <div class="bis_main"><slot/></div>
-  <div class="bis_meta"><label id='xl' for="x">x</label><input type="number" id="x" min="1" max="99"/></div>
+  <div class="bis_meta" data-tooltip="Liczba powtórzeń zaznaczonych wierszy (BIS). Wpisz 1 lub 0 i opuść pole, aby usunąć powtórzenie."><label id='xl' for="x">x</label><input type="number" id="x" min="1" max="99" title="Liczba powtórzeń (wpisz 1 lub 0, aby wyłączyć BIS)"/></div>
 </div>
   `;
 

@@ -26,55 +26,56 @@ export class SongEditor extends HTMLElement {
 <div class="song-editor">
   
 <div id="fileToolbar">
-  <button id="buttonNew">Nowy</button>
+  <button id="buttonNew" data-tooltip="Wyczyść edytor i rozpocznij tworzenie nowej piosenki od szablonu.">Nowy</button>
   <input style="display: none"  id="open" type="file" accept=".xml,.html"/>
-  <input type="button" id="openCustom" value="Importuj plik"/>  
-  <input type="button" id="openUrl" value="Importuj z sieci"/>  
-  <button id="buttonSave">Eksportuj plik</button>
-  <button id="buttonRenderPdf" type="button">Podgląd PDF</button>
-  <select id="pdfPapersize" style="margin-left: 5px;">
-    <option value="a5" selected>A5</option>
-    <option value="a4">A4</option>
-  </select>
+  <span class="tooltip-wrap" data-tooltip="Wczytaj piosenkę z pliku na dysku (format .xml śpiewnika lub .html ze Śpiewnika Wywroty)."><input type="button" id="openCustom" value="Importuj plik"/></span>
+  <span class="tooltip-wrap" data-tooltip="Zaimportuj tekst i akordy bezpośrednio z adresu URL (np. ze Śpiewnika Wywroty)."><input type="button" id="openUrl" value="Importuj z sieci"/></span>
+  <button id="buttonSave" data-tooltip="Pobierz plik XML piosenki na swój komputer.">Eksportuj plik</button>
+  <button id="buttonRenderPdf" type="button" data-tooltip="Wygeneruj podgląd wydruku PDF tej piosenki (skład w LaTeX), aby sprawdzić układ tekstu i akordów.">Podgląd PDF</button>
+  <span class="tooltip-wrap" data-tooltip="Wybierz format strony generowanego podglądu PDF (A5 – zeszytowy śpiewnik, A4 – pełna strona).">
+    <select id="pdfPapersize" style="margin-left: 5px;">
+      <option value="a5" selected>A5</option>
+      <option value="a4">A4</option>
+    </select>
+  </span>
   <span id="pdfRenderStatus" style="margin-left: 10px; font-weight: bold; font-size: 0.9em;"></span>
 </div>
 
 <div class="gitToolbar">
-  <button class="buttonCommit">Zapisz zmiany</button>
-  <button class="buttonCommitAndPublish">Zapisz zmiany i zgłoś do recenzji</button>
+  <button class="buttonCommit" data-tooltip="Zapisz bieżące zmiany na swoim koncie roboczym (bez wysyłania do recenzji).">Zapisz zmiany</button>
+  <button class="buttonCommitAndPublish" data-tooltip="Zapisz zmiany i przejdź do zgłoszenia ich do recenzji (Pull Request na GitHubie), aby opublikować piosenkę w śpiewniku.">Zapisz zmiany i zgłoś do recenzji</button>
 </div>
   
   <h3>Metryka</h3>
   
   <div class="metadata">
-    <label for="title">Tytuł</label>              <input type="text" id="title"/>
-    <label for="text_author">Autor tekstu</label> <input type="text" id="text_author"/> 
+    <label for="title" data-tooltip-pos="right" data-tooltip="Główny tytuł piosenki.">Tytuł</label>              <input type="text" id="title" title="Główny tytuł piosenki."/>
+    <label for="text_author" data-tooltip-pos="right" data-tooltip="Autor słów piosenki (przy pseudonimie np. Mirosław Jezierski (ps. „Karnisz”)). Obok wybierz czy to Osoba czy Zespół.">Autor tekstu</label> <input type="text" id="text_author" title="Autor słów piosenki."/> 
     
-    <select inlist="creatortype" id="text_author_type">
+    <select inlist="creatortype" id="text_author_type" title="Typ autora tekstu: Osoba lub Zespół.">
       <option value=""></option>
       <option value="band">Zespół</option>
       <option value="solo">Osoba</option>  
     </select>
     
-    <label for="artist">Wykonawca</label> <input id="artist" type="text"/> 
-    <select inlist="creatortype" id="artist_type">
+    <label for="artist" data-tooltip-pos="right" data-tooltip="Główny wykonawca lub zespół kojarzony z tym utworem. Obok wybierz czy to Osoba czy Zespół.">Wykonawca</label> <input id="artist" type="text" title="Główny wykonawca lub zespół."/> 
+    <select inlist="creatortype" id="artist_type" title="Typ wykonawcy: Osoba lub Zespół.">
       <option value=""></option>
       <option value="band">Zespół</option>
       <option value="solo">Osoba</option>  
     </select>
   </div>
      
-  <h3>Treść<i id="helpbody-icon" class="material-icons">help</i></h3>
+  <h3>Treść<i id="helpbody-icon" class="material-icons" title="Najedź lub kliknij, aby zobaczyć wskazówki dotyczące edycji">help</i></h3>
   <div id="help-body" class="help">
-    <p>Kilka trików, które warto znać: 
-     <ul>
-      <li>Klawisz \` (przeważnie lewy górny róg klawiatury) pozwala na dodanie akordu w bieżącym miejscu.</li>
-      <li>Akordy możesz przeciągać lub edytować poprzez dwukrotne kliknięcie (wyczyszczenie pola usuwa akord).</li>
-      <li>Zwrotkę możesz rozbić na dwie poprzez wstawienie dwóch pustych wierszy lub przycisk "Podziel zwrotkę".</li>
-      <li>"Cofnij" (Ctrl+Z / Cmd+Z) i "Ponów" cofają i przywracają zmiany w tekście i akordach.</li>
-      <li>Gotową piosenkę możesz zapisać do pliku lub zgłosić do recenzji przed publikacją w githubie</li>
-     </ul> 
-    </p> 
+    <p>Wskazówki dotyczące edycji tekstu i akordów:</p>
+    <ul>
+      <li><strong>Wstawianie akordów:</strong> ustaw kursor w tekście i naciśnij klawisz <code>\`</code> (tylda w lewym górnym rogu klawiatury), kliknij dwukrotnie w słowo lub użyj przycisku „Wstaw akord”.</li>
+      <li><strong>Edycja i przesuwanie akordów:</strong> przeciągnij akord myszką w inne miejsce (z klawiszem Alt/Option, aby skopiować) albo kliknij go dwukrotnie, aby zmienić nazwę (wyczyszczenie pola usuwa akord).</li>
+      <li><strong>Kolumna akordów z boku:</strong> zielone tło oznacza zgodność z akordami nad tekstem, a czerwone – różnicę (np. gdy dodasz nawiasy <code>(a H7)</code> lub użyjesz przycisków <code>«</code> / <code>»</code> do synchronizacji).</li>
+      <li><strong>Dzielenie zwrotek i powtórzenia:</strong> naciśnij dwukrotnie Enter (lub przycisk „Podziel zwrotkę”), aby rozdzielić zwrotkę. Jeśli refren powtarza się bez zmian, w kolejnym bloku zaznacz „już było”.</li>
+      <li><strong>Skróty klawiszowe:</strong> <code>Ctrl+Z</code> / <code>Cmd+Z</code> (Cofnij), <code>Ctrl+Y</code> (Ponów), <code>Ctrl+B</code> (powtórzenie BIS).</li>
+    </ul>
   </div>
   <slot id="song-body"></slot>
   
@@ -106,44 +107,44 @@ export class SongEditor extends HTMLElement {
       <option>12/8</option>
     </datalist>
     
-    <label for="alias">Tytuł alternatywny</label> <input type="text" id="alias"/>
-    <label for="original_title">Tytuł oryginału</label> <input type="text" id="original_title"/>
-    <label for="translator">Tłumacz</label> <input type="text" id="translator"/>
-    <label for="album">Album</label> <input type="text" id="album"/>
+    <label for="alias" data-tooltip-pos="right" data-tooltip="Inny popularny tytuł lub pierwsze słowa (incipit), pod którymi piosenka bywa szukana.">Tytuł alternatywny</label> <input type="text" id="alias" title="Inny popularny tytuł piosenki."/>
+    <label for="original_title" data-tooltip-pos="right" data-tooltip="Tytuł utworu w języku oryginalnym, jeśli piosenka jest tłumaczeniem lub adaptacją.">Tytuł oryginału</label> <input type="text" id="original_title" title="Tytuł oryginału (dla tłumaczeń)."/>
+    <label for="translator" data-tooltip-pos="right" data-tooltip="Autor polskiego przekładu tekstu piosenki.">Tłumacz</label> <input type="text" id="translator" title="Autor polskiego przekładu tekstu."/>
+    <label for="album" data-tooltip-pos="right" data-tooltip="Nazwa płyty lub wydawnictwa, z którego pochodzi utwór.">Album</label> <input type="text" id="album" title="Nazwa albumu / płyty."/>
         
-    <label for="composer">Kompozytor</label> <input type="text" id="composer"/> 
-    <select inlist="creatortype" id="composer_type">
+    <label for="composer" data-tooltip-pos="right" data-tooltip="Twórca muzyki (kilku kompozytorów oddziel przecinkiem). Obok wybierz czy to Osoba czy Zespół.">Kompozytor</label> <input type="text" id="composer" title="Twórca muzyki."/> 
+    <select inlist="creatortype" id="composer_type" title="Typ kompozytora: Osoba lub Zespół.">
       <option value=""></option>
       <option value="band">Zespół</option>
       <option value="solo">Osoba</option>  
     </select>
-    <label for="music_source">Źródło muzyki</label> <input type="text" id="music_source"/>
-    <label for="metre">Metrum</label> <input type="text" id="metre" list="metres"/>
-    <label for="guitar_barre">Kapodaster</label> <input type="text" id="guitar_barre"/>
+    <label for="music_source" data-tooltip-pos="right" data-tooltip="Tradycyjna melodia lub utwór pierwotny, z którego zaczerpnięto melodię (np. gdy nowy tekst powstał do znanej melodii).">Źródło muzyki</label> <input type="text" id="music_source" title="Tradycyjna melodia lub utwór, z którego pochodzi linia melodyczna."/>
+    <label for="metre" data-tooltip-pos="right" data-tooltip="Metrum muzyczne utworu (np. 4/4, 3/4, 6/8).">Metrum</label> <input type="text" id="metre" list="metres" title="Metrum utworu, np. 4/4, 3/4, 6/8."/>
+    <label for="guitar_barre" data-tooltip-pos="right" data-tooltip="Próg, na którym należy założyć kapodaster (np. 2, 3, II, III), aby grać podanymi chwytami w oryginalnej tonacji.">Kapodaster</label> <input type="text" id="guitar_barre" title="Próg kapodastra (np. 2, 3)."/>
 
-    <label for="genre">Gatunek</label> <input type="text" list="genres" id="genre"/>    
+    <label for="genre" data-tooltip-pos="right" data-tooltip="Gatunek lub kategoria piosenki (wybierz z podpowiedzi lub wpisz własny, np. Piosenka harcerska, Szanta, Poezja śpiewana).">Gatunek</label> <input type="text" list="genres" id="genre" title="Gatunek piosenki."/>    
     
-    <label for="keywords">Słowa kluczowe</label> <textarea id="keywords"></textarea>
-    <label for="comment">Komentarz</label> <textarea id="comment"></textarea>
+    <label for="keywords" data-tooltip-pos="right" data-tooltip="Dodatkowe słowa kluczowe ułatwiające wyszukanie piosenki (po jednym w każdym wierszu).">Słowa kluczowe</label> <textarea id="keywords" title="Dodatkowe słowa kluczowe (po jednym w wierszu)."></textarea>
+    <label for="comment" data-tooltip-pos="right" data-tooltip="Komentarz dla czytelników widoczny pod piosenką: historia utworu, kontekst kulturowy lub wskazówki wykonawcze. (Uwagi robocze dla redaktorów wpisuj niżej w polu „Do zrobienia”).">Komentarz</label> <textarea id="comment" title="Komentarz dla czytelników: historia powstania, kontekst lub wskazówki wykonawcze."></textarea>
   </div>
   
   <h3>Status:</h3>
   <div class="metadata status">
-     <label for="done_text">Sprawdzono tekst</label> <input type="checkbox" id="done_text"/>
-     <label for="done_chords">Sprawdzono akordy</label> <input type="checkbox" id="done_chords"/>
-       <select id="done_chords_value">
+     <label for="done_text" data-tooltip-pos="right" data-tooltip="Zaznacz, gdy tekst piosenki został w pełni zweryfikowany z wiarygodnym źródłem (nagraniem lub oficjalnym śpiewnikiem).">Sprawdzono tekst</label> <input type="checkbox" id="done_text" title="Zaznacz, gdy tekst został zweryfikowany."/>
+     <label for="done_chords" data-tooltip-pos="right" data-tooltip="Zaznacz po zweryfikowaniu chwytów i wybierz z listy obok poziom sprawdzenia („akordy” lub „rozmieszczenie akordów” nad sylabami).">Sprawdzono akordy</label> <input type="checkbox" id="done_chords" title="Zaznacz, gdy akordy zostały zweryfikowane."/>
+       <select id="done_chords_value" title="Poziom weryfikacji akordów: same akordy lub dokładne rozmieszczenie akordów nad sylabami.">
          <option value=""></option>
          <option value="chords">akordy</option>
          <option value="chord positioning">rozmieszczenie akordów</option>
        </select>
-     <label for="done_authors">Sprawdzono twórców</label> <input type="checkbox" id="done_authors"/>
-     <label for="verificators">Sprawdzający</label> <textarea id="verificators"></textarea>
-     <label for="to_do">Do zrobienia</label> <textarea id="to_do"></textarea>
+     <label for="done_authors" data-tooltip-pos="right" data-tooltip="Zaznacz, gdy autor tekstu, kompozytor i wykonawca zostali potwierdzeni w wiarygodnych źródłach.">Sprawdzono twórców</label> <input type="checkbox" id="done_authors" title="Zaznacz, gdy twórcy zostali zweryfikowani."/>
+     <label for="verificators" data-tooltip-pos="right" data-tooltip="Źródła weryfikacji (linki URL do nagrań, oficjalnych śpiewników itp.) lub osoby sprawdzające – po jednym wpisie w wierszu.">Sprawdzający</label> <textarea id="verificators" title="Źródła weryfikacji (linki URL) lub osoby sprawdzające (po jednym w wierszu)."></textarea>
+     <label for="to_do" data-tooltip-pos="right" data-tooltip="Wewnętrzne notatki redakcyjne: co wymaga jeszcze dopracowania lub sprawdzenia (np. brakujące zwrotki, niepewne chwyty).">Do zrobienia</label> <textarea id="to_do" title="Wewnętrzne notatki redakcyjne (co pozostało do sprawdzenia lub poprawienia)."></textarea>
   </div>
 </div>
 <div class="gitToolbar">
-  <button class="buttonCommit">Zapisz zmiany</button>
-  <button class="buttonCommitAndPublish">Zapisz zmiany i zgłoś do recenzji</button>
+  <button class="buttonCommit" data-tooltip="Zapisz bieżące zmiany na swoim koncie roboczym (bez wysyłania do recenzji).">Zapisz zmiany</button>
+  <button class="buttonCommitAndPublish" data-tooltip="Zapisz zmiany i przejdź do zgłoszenia ich do recenzji (Pull Request na GitHubie), aby opublikować piosenkę w śpiewniku.">Zapisz zmiany i zgłoś do recenzji</button>
 </div>
 <details>
   <summary>Ostatni zapisany/wyesportowany:</summary>
@@ -163,9 +164,38 @@ export class SongEditor extends HTMLElement {
     this.openUrl=shadow.getElementById("openUrl");
 
     this.helpbody = shadow.getElementById("help-body");
-    this.helpbody.addEventListener("click", (e) => {this.helpbody.hidden = true; });
-    this.helpbody.hidden=true;
-    shadow.getElementById("helpbody-icon").addEventListener("click", (e) => {this.helpbody.hidden ^= true;})
+    const helpbodyIcon = shadow.getElementById("helpbody-icon");
+    this.helpbody.hidden = true;
+    let helpHideTimeout = null;
+    const showHelpBody = () => {
+      if (helpHideTimeout) { clearTimeout(helpHideTimeout); helpHideTimeout = null; }
+      this.helpbody.hidden = false;
+    };
+    const scheduleHideHelpBody = () => {
+      if (this.helpbody.dataset.pinned === "true") return;
+      helpHideTimeout = setTimeout(() => {
+        if (this.helpbody.dataset.pinned !== "true") {
+          this.helpbody.hidden = true;
+        }
+      }, 180);
+    };
+    helpbodyIcon.addEventListener("mouseenter", showHelpBody);
+    helpbodyIcon.addEventListener("mouseleave", scheduleHideHelpBody);
+    this.helpbody.addEventListener("mouseenter", showHelpBody);
+    this.helpbody.addEventListener("mouseleave", scheduleHideHelpBody);
+    this.helpbody.addEventListener("click", () => {
+      delete this.helpbody.dataset.pinned;
+      this.helpbody.hidden = true;
+    });
+    helpbodyIcon.addEventListener("click", () => {
+      if (this.helpbody.dataset.pinned === "true") {
+        delete this.helpbody.dataset.pinned;
+        this.helpbody.hidden = true;
+      } else {
+        this.helpbody.dataset.pinned = "true";
+        this.helpbody.hidden = false;
+      }
+    });
 
     this.openCustom.addEventListener("click", () => this.open.click());
     this.openUrl.addEventListener("click", () => this.OpenUrl());

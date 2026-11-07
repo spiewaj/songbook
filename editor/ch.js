@@ -199,8 +199,8 @@ export function SongChInit() {
   chtemplate.innerHTML =
       `<link rel="stylesheet" href="./ch.css"/>` +
       `<span class="cho" id="cho" draggable="true" contenteditable="false">`+
-      `<span class="ch" id="ch" draggable="false" contenteditable="false"></span>` +
-      `<input type="text" class="ch" id="che" list="predefinedChords" />` +
+      `<span class="ch" id="ch" draggable="false" contenteditable="false" title="Przeciągnij myszką, aby przesunąć akord (z Alt/Option: skopiuj). Kliknij dwukrotnie, aby zmienić lub usunąć."></span>` +
+      `<input type="text" class="ch" id="che" list="predefinedChords" title="Wpisz nazwę akordu i naciśnij Enter (wyczyść pole, aby usunąć akord; Esc – anuluj)." />` +
       `</span>`;
 
   customElements.define("song-ch", SongCh);

@@ -346,25 +346,27 @@ export default class SongBody extends HTMLElement {
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 <div class="toolbar">
     <div class="formatting">Formatowanie:
-      <button id="buttonChord"><i class="material-icons">format_overline</i>Wstaw akord</button>
-      <button id="buttonSplit"><i class="material-icons">insert_page_break</i>Podziel zwrotkę</button>
-      <button id="buttonBis"><i class="material-icons">repeat_on</i>BIS</button><i id="help-bis-icon" class="material-icons">help</i>
-      <div id="help-bis" class="help">Zaznaczone wiersze będą powtarzane. Ustaw licznik na 1 by wyłączyć.</div>
+      <button id="buttonChord" data-tooltip-pos="left" data-tooltip="Wstaw nowy akord nad tekstem w miejscu kursora (skrót: klawisz \` lub dwukrotne kliknięcie w tekst)."><i class="material-icons">format_overline</i>Wstaw akord</button>
+      <button id="buttonSplit" data-tooltip-pos="left" data-tooltip="Rozdziel bieżącą zwrotkę na dwie osobne zwrotki od zaznaczonego wiersza (lub naciśnij Enter na pustym wierszu)."><i class="material-icons">insert_page_break</i>Podziel zwrotkę</button>
+      <button id="buttonBis" data-tooltip-pos="left" data-tooltip="Oznacz zaznaczone wiersze jako powtarzane (BIS, np. x2). Skrót: Ctrl+B / Cmd+B."><i class="material-icons">repeat_on</i>BIS</button><i id="help-bis-icon" class="material-icons" title="Najedź lub kliknij, aby zobaczyć pomoc o BIS">help</i>
+      <div id="help-bis" class="help">Zaznaczone wiersze zostaną objęte klamrą powtórzenia (np. x2). Ustaw licznik na 1 lub 0, aby wyłączyć.</div>
       
-      <div>
-        <button id="importantOver"><i class="material-icons">assignment_late</i>Kluczowe akordy</button>
-        <button id="notImportantOver"><i class="material-icons">assignment_late</i>Opcjonalnie nad</button>
-        <button id="sideOnly"><i class="material-icons">assignment_late</i>Tylko z boku</button>
+      <div class="io-group">
+        <div class="io-header"><span>Pozycja akordów:</span><i id="help-io-icon" class="material-icons" title="Najedź lub kliknij, aby zobaczyć wyjaśnienie trybów wyświetlania akordów">help</i></div>
+        <button id="importantOver" data-tooltip-pos="left" data-tooltip="Zawsze wyświetlaj akordy nad sylabami tekstu oraz z boku. Stosuj w 1. zwrotce, 1. refrenie oraz tam, gdzie zmienia się rytm lub układ chwytów."><i class="material-icons">assignment_late</i>Kluczowe akordy</button>
+        <button id="notImportantOver" data-tooltip-pos="left" data-tooltip="Dla kolejnych zwrotek o tym samym układzie chwytów: w druku PDF akordy pokażą się tylko z boku (oszczędność miejsca), a na WWW również nad sylabami."><i class="material-icons">assignment_late</i>Opcjonalnie nad</button>
+        <button id="sideOnly" data-tooltip-pos="left" data-tooltip="Wyświetlaj akordy wyłącznie z boku wiersza (lub brak akordów). Stosuj, gdy dokładne miejsca zmian akordów nad słowami nie są znane."><i class="material-icons">assignment_late</i>Tylko z boku</button>
+        <div id="help-io" class="help"><strong>Kluczowe akordy:</strong> zawsze nad sylabami (1. zwrotka, 1. refren).<br/><strong>Opcjonalnie nad:</strong> powtarzany schemat (w PDF tylko z boku, na WWW też nad sylabami).<br/><strong>Tylko z boku:</strong> gdy dokładne pozycje nad sylabami nie są znane.</div>
       </div>
       
-      <button id="buttonInstr"><i class="material-icons">music_note</i>Wers instrumentalny</button><i id="help-instr-icon" class="material-icons">help</i>
-      <div id="help-instr" class="help">Wers zawierający tylko akordy. Odzielaj je spacjami.</div>
+      <button id="buttonInstr" data-tooltip-pos="left" data-tooltip="Przełącz zaznaczony wiersz między zwykłym tekstem a wersem instrumentalnym (np. intro, solo, przejście gitarowe bez słów)."><i class="material-icons">music_note</i>Wers instrumentalny</button><i id="help-instr-icon" class="material-icons" title="Najedź lub kliknij, aby zobaczyć pomoc o wersie instrumentalnym">help</i>
+      <div id="help-instr" class="help">Wers zawierający tylko akordy (np. intro lub solówka). Wpisz akordy oddzielone spacjami w polu bocznym.</div>
       
-      <button id="buttonUndo"><i class="material-icons">undo</i>Cofnij</button>
-      <button id="buttonRedo"><i class="material-icons">redo</i>Ponów</button>
+      <button id="buttonUndo" data-tooltip-pos="left" data-tooltip="Cofnij ostatnią zmianę w tekście lub akordach (skrót: Ctrl+Z / Cmd+Z)."><i class="material-icons">undo</i>Cofnij</button>
+      <button id="buttonRedo" data-tooltip-pos="left" data-tooltip="Ponów cofniętą zmianę (skrót: Ctrl+Y lub Ctrl+Shift+Z)."><i class="material-icons">redo</i>Ponów</button>
     </div>    
 </div>
-<div class="songbody" id="songbody"><slot></slot><button id="appendVerse"><i class="material-icons">add</i>Dodaj zwrotkę</button></div>`;
+<div class="songbody" id="songbody"><slot></slot><button id="appendVerse" data-tooltip="Dodaj nową pustą zwrotkę na końcu piosenki."><i class="material-icons">add</i>Dodaj zwrotkę</button></div>`;
 
     const shadow = this.attachShadow({ mode: "closed" });
     shadow.appendChild(template.content.cloneNode(true));
@@ -412,7 +414,7 @@ export default class SongBody extends HTMLElement {
 
     this.shadow = shadow;
     this.initHelp("help-bis");
- //   this.initHelp("help-io");
+    this.initHelp("help-io");
     this.initHelp("help-instr");
 
     this.reset();
@@ -426,10 +428,38 @@ export default class SongBody extends HTMLElement {
   initHelp(id) {
     const helpDiv = this.shadow.getElementById(id);
     const helpIcon = this.shadow.getElementById(id+"-icon");
+    if (!helpDiv || !helpIcon) return;
     helpDiv.hidden = true;
-    helpDiv.addEventListener("click", (e) => {helpDiv.hidden = true;});
-
-    helpIcon.addEventListener("click", (e) => {helpDiv.hidden^=true;} );
+    let hideTimeout = null;
+    const show = () => {
+      if (hideTimeout) { clearTimeout(hideTimeout); hideTimeout = null; }
+      helpDiv.hidden = false;
+    };
+    const scheduleHide = () => {
+      if (helpDiv.dataset.pinned === "true") return;
+      hideTimeout = setTimeout(() => {
+        if (helpDiv.dataset.pinned !== "true") {
+          helpDiv.hidden = true;
+        }
+      }, 180);
+    };
+    helpIcon.addEventListener("mouseenter", show);
+    helpIcon.addEventListener("mouseleave", scheduleHide);
+    helpDiv.addEventListener("mouseenter", show);
+    helpDiv.addEventListener("mouseleave", scheduleHide);
+    helpDiv.addEventListener("click", () => {
+      delete helpDiv.dataset.pinned;
+      helpDiv.hidden = true;
+    });
+    helpIcon.addEventListener("click", () => {
+      if (helpDiv.dataset.pinned === "true") {
+        delete helpDiv.dataset.pinned;
+        helpDiv.hidden = true;
+      } else {
+        helpDiv.dataset.pinned = "true";
+        helpDiv.hidden = false;
+      }
+    });
   }
 
   refreshToolbar() {
