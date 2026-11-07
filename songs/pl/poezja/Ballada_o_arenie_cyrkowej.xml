@@ -11,38 +11,38 @@
 		<block type="verse">
 			<row important_over="true">Na koniec <ch a="G"/>rozwią<ch a="h"/>zano <ch a="C"/>teatr, <ch a="G"/></row>
 			<row important_over="true">więc cała w <ch a="D"/>sztucznych ogniach <ch a="G"/>teraz</row>
-			<row>kręci <ch a="D"/>się arena <ch a="e"/>cyrkowa,</row>
-			<row>naszych <ch a="C"/>czasów <ch a="D"/>meta<ch a="G"/>fora.</row>
+			<row important_over="false">kręci <ch a="D"/>się arena <ch a="e"/>cyrkowa,</row>
+			<row important_over="false">naszych <ch a="C"/>czasów <ch a="D"/>meta<ch a="G"/>fora.</row>
 		</block>
 		<block type="verse">
-			<row>Nic tu na <ch a="G"/>pewno, <ch a="h"/>wszystko <ch a="C"/>na niby, <ch a="G"/></row>
-			<row>małpka <ch a="D"/>jest w cyrku i<ch a="G"/>dolem,</row>
-			<row>karzeł pod<ch a="D"/>kręca szatańską <ch a="e"/>korbkę,</row>
-			<row>a<ch a="C"/>rena toczy <ch a="D"/>się ko<ch a="G"/>łem.</row>
+			<row important_over="false">Nic tu na <ch a="G"/>pewno, <ch a="h"/>wszystko <ch a="C"/>na niby, <ch a="G"/></row>
+			<row important_over="false">małpka <ch a="D"/>jest w cyrku i<ch a="G"/>dolem,</row>
+			<row important_over="false">karzeł pod<ch a="D"/>kręca szatańską <ch a="e"/>korbkę,</row>
+			<row important_over="false">a<ch a="C"/>rena toczy <ch a="D"/>się ko<ch a="G"/>łem.</row>
 		</block>
 		<block type="verse">
-			<row>Niczym piłeczki <ch a="G"/>w pal<ch a="h"/>cach żon<ch a="C"/>glerów, <ch a="G"/></row>
-			<row>duszyczki <ch a="D"/>nasze wirują <ch a="G"/>w koło,</row>
-			<row>życie prze<ch a="D"/>stało być <ch a="e"/>sztuką</row>
-			<row>i sta<ch a="C"/>ło się sztuczką <ch a="D"/>cyrko<ch a="G"/>wą.</row>
+			<row important_over="false">Niczym piłeczki <ch a="G"/>w pal<ch a="h"/>cach żon<ch a="C"/>glerów, <ch a="G"/></row>
+			<row important_over="false">duszyczki <ch a="D"/>nasze wirują <ch a="G"/>w koło,</row>
+			<row important_over="false">życie prze<ch a="D"/>stało być <ch a="e"/>sztuką</row>
+			<row important_over="false">i sta<ch a="C"/>ło się sztuczką <ch a="D"/>cyrko<ch a="G"/>wą.</row>
 		</block>
 		<block type="verse">
-			<row>Dwie siostry sy<ch a="G"/>jam<ch a="h"/>skie: prawda, <ch a="C"/>kłamstwo, <ch a="G"/></row>
-			<row>wbiegają <ch a="D"/>w zwinnych pod<ch a="G"/>skokach,</row>
-			<row>nikt nie od<ch a="D"/>różni jednej od <ch a="e"/>drugiej,</row>
-			<row>są w <ch a="C"/>jedna<ch a="D"/>kowych try<ch a="G"/>kotach.</row>
+			<row important_over="false">Dwie siostry sy<ch a="G"/>jam<ch a="h"/>skie: prawda, <ch a="C"/>kłamstwo, <ch a="G"/></row>
+			<row important_over="false">wbiegają <ch a="D"/>w zwinnych pod<ch a="G"/>skokach,</row>
+			<row important_over="false">nikt nie od<ch a="D"/>różni jednej od <ch a="e"/>drugiej,</row>
+			<row important_over="false">są w <ch a="C"/>jedna<ch a="D"/>kowych try<ch a="G"/>kotach.</row>
 		</block>
 		<block type="verse">
-			<row>Bóg gdyby <ch a="G"/>nawet <ch a="h"/>w krzaku og<ch a="C"/>nistym <ch a="G"/></row>
-			<row>pojawił <ch a="D"/>się między <ch a="G"/>nami,</row>
-			<row>mówili<ch a="D"/>byśmy, że to <ch a="e"/>magik</row>
-			<row>ko<ch a="C"/>lejną sztuczką <ch a="D"/>nas ma<ch a="G"/>mi.</row>
+			<row important_over="false">Bóg gdyby <ch a="G"/>nawet <ch a="h"/>w krzaku og<ch a="C"/>nistym <ch a="G"/></row>
+			<row important_over="false">pojawił <ch a="D"/>się między <ch a="G"/>nami,</row>
+			<row important_over="false">mówili<ch a="D"/>byśmy, że to <ch a="e"/>magik</row>
+			<row important_over="false">ko<ch a="C"/>lejną sztuczką <ch a="D"/>nas ma<ch a="G"/>mi.</row>
 		</block>
 		<block type="verse">
-			<row>Lecz dokąd <ch a="G"/>moż<ch a="h"/>na w cyrku <ch a="C"/>żyć? <ch a="G"/></row>
-			<row>Pytamy, <ch a="D"/>stojąc na <ch a="G"/>głowie,</row>
-			<row>słyszymy <ch a="D"/>drwiący błazna <ch a="e"/>śmiech</row>
-			<row>i <ch a="C"/>to je<ch a="D"/>dyna odpo<ch a="G"/>wiedź.</row>
+			<row important_over="false">Lecz dokąd <ch a="G"/>moż<ch a="h"/>na w cyrku <ch a="C"/>żyć? <ch a="G"/></row>
+			<row important_over="false">Pytamy, <ch a="D"/>stojąc na <ch a="G"/>głowie,</row>
+			<row important_over="false">słyszymy <ch a="D"/>drwiący błazna <ch a="e"/>śmiech</row>
+			<row important_over="false">i <ch a="C"/>to je<ch a="D"/>dyna odpo<ch a="G"/>wiedź.</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -58,10 +58,10 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Adam</verificator>
-			<verificator>https://bibliotekapiosenki.pl/utwory/Ballada_o_arenie_cyrkowej</verificator>
-			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/ballada-o-arenie-cyrkowej</verificator>
-		</verificators>
+      <verificator>Adam</verificator>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Ballada_o_arenie_cyrkowej</verificator>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/ballada-o-arenie-cyrkowej</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
