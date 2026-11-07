@@ -2,7 +2,7 @@ span.cho {
   display: inline-block;
   position: relative;
   left: 0px;
-  width:0px;
+  width: 0px;
   top: -2.9ex;
   margin-top: 3ex;
   overflow-wrap: normal;
@@ -14,20 +14,17 @@ span.cho {
 }
 
 :host-context(song-row[important_over="true"]) span.cho span.ch {
-  font-weight: 900; /*bold is like 700*/
+  font-weight: 700;
   font-size: x-small;
+  color: #0056b3;
 }
 
 :host-context(song-row[important_over="never"]) span.cho span.ch {
-  /*font-weight: 900; !*bold is like 700*!*/
-  /*font-size: x-small;*/
-  color: lightgray;
+  color: #adb5bd;
 }
 
 :host-context(song-row[type="instr"]) span.cho span.ch {
-  /*font-weight: 900; !*bold is like 700*!*/
-  /*font-size: x-small;*/
-  display: none; /*that's gets overriden by the javascript per element code*/
+  display: none; /* that gets overridden by the javascript per element code */
   visibility: hidden;
 }
 
@@ -36,18 +33,18 @@ span.cho span.ch {
   position: absolute;
   left: 0px;
   font-size: xx-small;
-  /*//width:30px;*/
-  font-weight: lighter;
+  font-weight: 500;
+  color: #495057;
   overflow-wrap: normal;
   hyphens: none;
   user-select: all;
   cursor: grab;
   width: fit-content;
-  overflow-wrap: normal;
-  font-weight: lighter;
-  background: rgba(255,255,255,0.5);;
-  white-space:nowrap;
-  font-family: Arial;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 2px;
+  padding: 0 1px;
+  white-space: nowrap;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 span.cho input.ch {
@@ -57,10 +54,15 @@ span.cho input.ch {
   position: absolute;
   left: 0px;
   top: -0.12em;
-  font-weight: bold;
+  font-weight: 700;
+  color: #0056b3;
   overflow-wrap: normal;
   hyphens: none;
   z-index: 5;
-  background-color: rgba(255,255,0,0.5);
-  border-width: 0px;
+  background-color: #fff3cd;
+  border: 1px solid #80bdff;
+  border-radius: 3px;
+  padding: 0 2px;
+  outline: none;
+  font-family: 'Roboto', Arial, sans-serif;
 }

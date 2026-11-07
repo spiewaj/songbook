@@ -360,7 +360,7 @@ export default class SongBody extends HTMLElement {
       <button id="buttonInstr"><i class="material-icons">music_note</i>Wers instrumentalny</button><i id="help-instr-icon" class="material-icons">help</i>
       <div id="help-instr" class="help">Wers zawierający tylko akordy. Odzielaj je spacjami.</div>
       
-      <button id="buttonUndo"><i class="material-icons">undo</i>Cofij</button>
+      <button id="buttonUndo"><i class="material-icons">undo</i>Cofnij</button>
       <button id="buttonRedo"><i class="material-icons">redo</i>Ponów</button>
     </div>    
 </div>
