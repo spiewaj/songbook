@@ -11,25 +11,25 @@
 		<block type="verse">
 			<row important_over="true">Już p<ch a="a"/>ustką świ<ch a="e"/>ecą h<ch a="a"/>ale, sam<ch a="C"/>otny gni<ch a="d"/>e się świ<ch a="E7"/>erk,</row>
 			<row important_over="true">na gran<ch a="F"/>itow<ch a="A7"/>ej sk<ch a="d"/>ale zm<ch a="F"/>ęczony r<ch a="E7"/>ogacz l<ch a="a"/>egł.<ch a="e"/><ch a="G"/></row>
-			<row>Słon<ch a="a"/>eczko l<ch a="e"/>edwie wst<ch a="a"/>aje, a j<ch a="C"/>uż się kł<ch a="d"/>adzie sp<ch a="E7"/>ać,</row>
-			<row>już t<ch a="F"/>ylko wi<ch a="A7"/>atr po pol<ch a="d"/>anie zacz<ch a="F"/>yna li<ch a="E7"/>ście gn<ch a="a"/>ać.<ch a="e"/><ch a="G"/></row>
+			<row important_over="false">Słon<ch a="a"/>eczko l<ch a="e"/>edwie wst<ch a="a"/>aje, a j<ch a="C"/>uż się kł<ch a="d"/>adzie sp<ch a="E7"/>ać,</row>
+			<row important_over="false">już t<ch a="F"/>ylko wi<ch a="A7"/>atr po pol<ch a="d"/>anie zacz<ch a="F"/>yna li<ch a="E7"/>ście gn<ch a="a"/>ać.<ch a="e"/><ch a="G"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">O, j<ch a="a"/>uż się zł<ch a="G"/>oci h<ch a="a"/>ora, grom<ch a="e"/>adki sz<ch a="F"/>uka pt<ch a="G"/>ak,<ch a="a"/><ch a="e"/></row>
 			<row important_over="true">już t<ch a="a"/>o jesi<ch a="e"/>enna p<ch a="a"/>ora i bl<ch a="d"/>iskiej z<ch a="F"/>imy zn<ch a="E7"/>ak.<ch a="a"/></row>
 		</block>
 		<block type="verse">
-			<row>B<ch a="a"/>uki jak <ch a="e"/>ogień g<ch a="a"/>orzą, modrz<ch a="C"/>ewiom ż<ch a="d"/>ółknie wł<ch a="E7"/>os,</row>
-			<row>r<ch a="F"/>ano wsch<ch a="A7"/>odzącą z<ch a="d"/>orzę lili<ch a="F"/>owy w<ch a="E7"/>ita wrz<ch a="a"/>os.<ch a="e"/><ch a="G"/></row>
-			<row>Szał<ch a="a"/>asy sm<ch a="e"/>utne st<ch a="a"/>oją, <ch a="C"/>ogień nie trz<ch a="d"/>aska w n<ch a="E7"/>ich,</row>
-			<row>past<ch a="F"/>erze j<ch a="A7"/>uż nie p<ch a="d"/>oją w źr<ch a="F"/>ódłach owi<ch a="E7"/>eczek sw<ch a="a"/>ych.<ch a="e"/><ch a="G"/></row>
+			<row important_over="false">B<ch a="a"/>uki jak <ch a="e"/>ogień g<ch a="a"/>orzą, modrz<ch a="C"/>ewiom ż<ch a="d"/>ółknie wł<ch a="E7"/>os,</row>
+			<row important_over="false">r<ch a="F"/>ano wsch<ch a="A7"/>odzącą z<ch a="d"/>orzę lili<ch a="F"/>owy w<ch a="E7"/>ita wrz<ch a="a"/>os.<ch a="e"/><ch a="G"/></row>
+			<row important_over="false">Szał<ch a="a"/>asy sm<ch a="e"/>utne st<ch a="a"/>oją, <ch a="C"/>ogień nie trz<ch a="d"/>aska w n<ch a="E7"/>ich,</row>
+			<row important_over="false">past<ch a="F"/>erze j<ch a="A7"/>uż nie p<ch a="d"/>oją w źr<ch a="F"/>ódłach owi<ch a="E7"/>eczek sw<ch a="a"/>ych.<ch a="e"/><ch a="G"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>Uc<ch a="a"/>ichła j<ch a="e"/>uż trąb<ch a="a"/>ita, juh<ch a="C"/>asów zam<ch a="d"/>ilkł śpi<ch a="E7"/>ew,</row>
-			<row>t<ch a="F"/>ylko na sk<ch a="A7"/>alnych szcz<ch a="d"/>ytach wi<ch a="F"/>atr śpi<ch a="E7"/>ewa pośród drz<ch a="a"/>ew.<ch a="e"/><ch a="G"/></row>
-			<row>Z poł<ch a="a"/>udnia T<ch a="e"/>atry d<ch a="a"/>umne p<ch a="C"/>atrzą na B<ch a="d"/>eskid sw<ch a="E7"/>ój,</row>
-			<row>a chm<ch a="F"/>urki j<ch a="A7"/>ak roz<ch a="d"/>umne zd<ch a="F"/>obią go w zł<ch a="E7"/>oty str<ch a="a"/>ój.<ch a="e"/><ch a="G"/></row>
+			<row important_over="false">Uc<ch a="a"/>ichła j<ch a="e"/>uż trąb<ch a="a"/>ita, juh<ch a="C"/>asów zam<ch a="d"/>ilkł śpi<ch a="E7"/>ew,</row>
+			<row important_over="false">t<ch a="F"/>ylko na sk<ch a="A7"/>alnych szcz<ch a="d"/>ytach wi<ch a="F"/>atr śpi<ch a="E7"/>ewa pośród drz<ch a="a"/>ew.<ch a="e"/><ch a="G"/></row>
+			<row important_over="false">Z poł<ch a="a"/>udnia T<ch a="e"/>atry d<ch a="a"/>umne p<ch a="C"/>atrzą na B<ch a="d"/>eskid sw<ch a="E7"/>ój,</row>
+			<row important_over="false">a chm<ch a="F"/>urki j<ch a="A7"/>ak roz<ch a="d"/>umne zd<ch a="F"/>obią go w zł<ch a="E7"/>oty str<ch a="a"/>ój.<ch a="e"/><ch a="G"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -46,11 +46,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Słowa: Wawrzyniec Hubka, muzyka: Jan Busz, wykonanie: zespół Elekt</verificator>
-			<verificator>Śpiewnik Studenckiego Koła Przewodników Górskich w Gliwicach (skpg.gliwice.pl)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/piosenki-turystyczne/beskid-jesienia-juz-pustka-swieca-hale</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-turystyczne/beskid-jesienia-juz-pustka-swieca-hale</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
