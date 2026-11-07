@@ -1,48 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Irlandzki Sen">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Irlandzki sen">
   <alias>Tylko konia osiodłać</alias>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment/>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
+  <translator/>
+  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never">Tylko konia osiodłać i przez wrzosowiska <ch a="a"/></row>
-      <row important_over="never">Tam gdzie elfy i czarownice <ch a="G"/><ch a="a"/></row>
-      <row important_over="never">A przydrożne kamienie imiona celtycke <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Dumnie noszą jak tajemnice <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">T<ch a="a"/>ylko konia osiodłać i przez wrzosowiska,</row>
+      <row important_over="true">T<ch a="G"/>am, gdzie elfy i czarown<ch a="a"/>ice,</row>
+      <row important_over="true">A przydr<ch a="a"/>ożne kamienie imi<ch a="G"/>ona celtyckie</row>
+      <row important_over="true">D<ch a="F"/>umnie n<ch a="G"/>oszą jak tajemn<ch a="a"/>ice.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Myślą z samym ścigać się Bogiem</row>
-      <row important_over="never" sidechords="a G">Czarne myśli powkładać jak drwa do ogniska</row>
-      <row important_over="never" sidechords="F G a">Gdy noc chmurna zastąpi ci drogę</row>
+      <row important_over="false">T<ch a="a"/>ylko konia osiodłać i przez wrzosowiska,</row>
+      <row important_over="false">M<ch a="G"/>yślą z samym ścigać się B<ch a="a"/>ogiem,</row>
+      <row important_over="false">Cz<ch a="a"/>arne myśli powkładać jak drw<ch a="G"/>a do ogniska,</row>
+      <row important_over="false">Gd<ch a="F"/>y noc chm<ch a="G"/>urna zastąpi ci dr<ch a="a"/>ogę.</row>
     </block>
     <block type="chorus">
-      <row important_over="never">Ach śnij mi się śnij irlandzki śnie <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">Całego porwij mnie ach porwij mnie <ch a="F"/><ch a="G"/><ch a="a"/></row>
-      <row important_over="never">A od morza wiatr niech niesie mnie gdzieś <ch a="a"/><ch a="G"/></row>
-      <row important_over="never">W irlandzki zielony sen <ch a="F"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Ach, śn<ch a="a"/>ij mi się, śnij, irl<ch a="G"/>andzki śnie,</row>
+      <row important_over="true">C<ch a="F"/>ałego p<ch a="G"/>orwij mnie, ach, p<ch a="a"/>orwij mnie,</row>
+      <row important_over="true">A od m<ch a="a"/>orza wiatr niech ni<ch a="G"/>esie mnie gdzieś</row>
+      <row important_over="true">W irl<ch a="F"/>andzki, zi<ch a="G"/>elony s<ch a="a"/>en.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Nad leśnego ruczaju kryształem</row>
-      <row important_over="never" sidechords="a G">Woda moc ma czarowną, koń siły odzyska</row>
-      <row important_over="never" sidechords="F G a">Nad bezdrożem przeleci jak strzała</row>
+      <row important_over="false">T<ch a="a"/>ylko konia osiodłać i przez wrzosowiska,</row>
+      <row important_over="false">N<ch a="G"/>ad leśnego ruczaju kryszt<ch a="a"/>ałem,</row>
+      <row important_over="false">W<ch a="a"/>oda moc ma czarowną, koń s<ch a="G"/>iły odzyska,</row>
+      <row important_over="false">N<ch a="F"/>ad bezdr<ch a="G"/>ożem przeleci jak strz<ch a="a"/>ała.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">Tylko konia osiodłać i przez wrzosowiska</row>
-      <row important_over="never" sidechords="G a">Jak przez miłość do rudej dziewczyny</row>
-      <row important_over="never" sidechords="a G">Kiedy w dali zabłyśnie nadzieja jak iskra</row>
-      <row important_over="never" sidechords="F G a">Spadła gwiazda czy wioska w dolinie</row>
+      <row important_over="false">T<ch a="a"/>ylko konia osiodłać i przez wrzosowiska,</row>
+      <row important_over="false">J<ch a="G"/>ak przez miłość do rudej dziewcz<ch a="a"/>yny,</row>
+      <row important_over="false">Ki<ch a="a"/>edy w dali zabłyśnie nadzi<ch a="G"/>eja jak iskra,</row>
+      <row important_over="false">Sp<ch a="F"/>adła gwi<ch a="G"/>azda czy wioska w dol<ch a="a"/>inie.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a">W końcu konia przywiązać i do drzwi zapukać</row>
-      <row important_over="never" sidechords="G a">Ucałować te włosy jak płomień</row>
-      <row important_over="never" sidechords="a G">I w modlitwie dziękczynnej spokoju poszukać</row>
-      <row important_over="never" sidechords="F G a">I w ciemności popłakać jak człowiek</row>
+      <row important_over="false">W k<ch a="a"/>ońcu konia przywiązać i do drzwi zapukać,</row>
+      <row important_over="false">Uc<ch a="G"/>ałować te włosy jak pł<ch a="a"/>omień,</row>
+      <row important_over="false">I w m<ch a="a"/>odlitwie dziękczynnej spok<ch a="G"/>oju poszukać,</row>
+      <row important_over="false">I w ci<ch a="F"/>emn<ch a="G"/>ości popłakać jak czł<ch a="a"/>owiek.</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <album></album>
   <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.chords.pl/chwyty/piosenki-harcerskie-turystyczne/irlandzki-sen</verificator>
+    </verificators>
   </status>
 </song>
