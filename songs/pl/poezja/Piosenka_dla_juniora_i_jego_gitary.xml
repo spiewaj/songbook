@@ -54,7 +54,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/piosenka-dla-juniora-i-jego-gitary</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Album SDM „Dla wszystkich starczy miejsca” (1990); wiersz Edwarda Stachury</music_source>
