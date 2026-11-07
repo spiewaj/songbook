@@ -4,7 +4,10 @@ on:
   pull_request:
     paths:
       - '**.xml'
-permissions: read-all
+permissions:
+  contents: read
+  packages: read
+  pull-requests: write
 jobs:
   Generate-artifacts:
     runs-on: ubuntu-latest
@@ -62,13 +65,14 @@ jobs:
             curl --fail -v --data-binary "@/workspace/build/songs_tex/${format}.pdf" "${LINK}" -H 'Content-Type: application/pdf'
           done
 
-      - name: Comment PR proxy
+      - name: Comment PR
         uses: mshick/add-pr-comment@v2
         if: steps.changed-xml-files.outputs.any_changed == 'true'
+        continue-on-error: true
         with:
           message: |
             New PDFs [A4](${{ env.link_a4 }}?alt=media), [A5](${{ env.link_a5 }}?alt=media) is ready, my lord (available for ~14 days).
             
             Cieplutkie PDFy [A4](${{ env.link_a4 }}?alt=media), [A5](${{ env.link_a5 }}?alt=media) podano.
-          proxy-url: https://editor-github-pr-proxy-2tnk3uvmqq-ey.a.run.app
+          proxy-url: ${{ github.event.pull_request.head.repo.full_name != github.repository && 'https://editor-github-pr-proxy-2tnk3uvmqq-ey.a.run.app' || '' }}
       - run: echo "DONE"
