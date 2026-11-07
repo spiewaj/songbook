@@ -23,32 +23,32 @@
       <row important_over="true"><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
     <block type="verse">
-      <row><ch a="A"/>Stoi kolejka sze<ch a="E"/>regiem dalekim</row>
-      <row><ch a="D"/>I każdy z kamieniem, i <ch a="A"/>każdy do rzeki,</row>
-      <row><ch a="D"/>I nikt tu nie płacze, nie <ch a="A"/>krzyczy, nie woła,</row>
-      <row><ch a="h"/>Bo łzy się skończyły już <ch a="E"/>wczoraj z wieczora.</row>
-      <row><ch a="A"/>A z tyłu ktoś ludzi bez <ch a="E"/>przerwy pociesza,</row>
-      <row><ch a="D"/>Że spotkał na drodze no<ch a="A"/>wego Mojżesza,</row>
-      <row><ch a="D"/>Że pewnie podąża już <ch a="A"/>do nas w tę stronę –</row>
-      <row><ch a="h"/>I przyszedł, i stanął, i <ch a="E"/>też był znużony.</row>
+      <row important_over="false"><ch a="A"/>Stoi kolejka sze<ch a="E"/>regiem dalekim</row>
+      <row important_over="false"><ch a="D"/>I każdy z kamieniem, i <ch a="A"/>każdy do rzeki,</row>
+      <row important_over="false"><ch a="D"/>I nikt tu nie płacze, nie <ch a="A"/>krzyczy, nie woła,</row>
+      <row important_over="false"><ch a="h"/>Bo łzy się skończyły już <ch a="E"/>wczoraj z wieczora.</row>
+      <row important_over="false"><ch a="A"/>A z tyłu ktoś ludzi bez <ch a="E"/>przerwy pociesza,</row>
+      <row important_over="false"><ch a="D"/>Że spotkał na drodze no<ch a="A"/>wego Mojżesza,</row>
+      <row important_over="false"><ch a="D"/>Że pewnie podąża już <ch a="A"/>do nas w tę stronę –</row>
+      <row important_over="false"><ch a="h"/>I przyszedł, i stanął, i <ch a="E"/>też był znużony.</row>
     </block>
     <block type="chorus">
-      <row><ch a="A"/>Więc nikt go nie witał, choć <ch a="fis"/>tylu nas jest...</row>
-      <row><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
+      <row important_over="false"><ch a="A"/>Więc nikt go nie witał, choć <ch a="fis"/>tylu nas jest...</row>
+      <row important_over="false"><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
     <block type="verse">
-      <row><ch a="A"/>Wtedy na brzegu po<ch a="E"/>jawił się diabeł,</row>
-      <row><ch a="D"/>Do ciebie nad wodą zbu<ch a="A"/>dował przeprawę,</row>
-      <row><ch a="D"/>Tłumacząc się skromnie przed <ch a="A"/>smutnym Mesjaszem,</row>
-      <row><ch a="h"/>Że w tej sytuacji nie <ch a="E"/>będzie Judaszem.</row>
-      <row><ch a="A"/>I każdy z nas ruszył przez <ch a="E"/>most ten nad rzeką,</row>
-      <row><ch a="D"/>Lecz ciebie nie było, a <ch a="A"/>świat za daleko,</row>
-      <row><ch a="D"/>Więc diabeł raz jeszcze w nie<ch a="A"/>doli dopomógł</row>
-      <row><ch a="h"/>I każdy powrócił z ka<ch a="E"/>mieniem do domu.</row>
+      <row important_over="false"><ch a="A"/>Wtedy na brzegu po<ch a="E"/>jawił się diabeł,</row>
+      <row important_over="false"><ch a="D"/>Do ciebie nad wodą zbu<ch a="A"/>dował przeprawę,</row>
+      <row important_over="false"><ch a="D"/>Tłumacząc się skromnie przed <ch a="A"/>smutnym Mesjaszem,</row>
+      <row important_over="false"><ch a="h"/>Że w tej sytuacji nie <ch a="E"/>będzie Judaszem.</row>
+      <row important_over="false"><ch a="A"/>I każdy z nas ruszył przez <ch a="E"/>most ten nad rzeką,</row>
+      <row important_over="false"><ch a="D"/>Lecz ciebie nie było, a <ch a="A"/>świat za daleko,</row>
+      <row important_over="false"><ch a="D"/>Więc diabeł raz jeszcze w nie<ch a="A"/>doli dopomógł</row>
+      <row important_over="false"><ch a="h"/>I każdy powrócił z ka<ch a="E"/>mieniem do domu.</row>
     </block>
     <block type="chorus">
-      <row><ch a="A"/>Lecz nikt nas nie witał, choć <ch a="fis"/>tylu nas jest...</row>
-      <row><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
+      <row important_over="false"><ch a="A"/>Lecz nikt nas nie witał, choć <ch a="fis"/>tylu nas jest...</row>
+      <row important_over="false"><ch a="h"/>Płacz, moja wodo, <ch a="E"/>rzeką <ch a="A"/>łez.</row>
     </block>
   </lyric>
   <music metre="4/4">
@@ -60,9 +60,11 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/krzysztof-daukszewicz/placz-moja-wodo</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
