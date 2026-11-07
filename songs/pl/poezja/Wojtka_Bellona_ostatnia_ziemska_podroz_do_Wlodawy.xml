@@ -94,6 +94,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/wojtka-bellona-ostatnia-ziemska-podroz-do-wlodawy</verificator>
+    </verificators>
 	</status>
 </song>
