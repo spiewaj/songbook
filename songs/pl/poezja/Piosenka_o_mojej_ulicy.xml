@@ -61,7 +61,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/pod-buda/piosenka-o-mojej-ulicy</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Album Pod Budą „Blues o starych sąsiadach” (1992)</music_source>
