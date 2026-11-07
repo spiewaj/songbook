@@ -9,26 +9,26 @@
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="true"><ch a="C"/>Zamknięte oczy w ciemn<ch a="e"/>ości,</row>
-        <row important_over="true"><ch a="F"/>oddech spokojny, dobry to <ch a="G"/>sen,</row>
-        <row important_over="false"><ch a="C"/>między wierszami, niczym par<ch a="e"/>ami,</row>
-        <row important_over="false"><ch a="F"/>przenika światło i ci<ch a="G"/>eń.</row>
+        <row important_over="true"><ch a="C"/>Zamknięte <ch a="e"/>oczy w ciem<ch a="F"/>ności,<ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>oddech spo<ch a="e"/>kojny, <ch a="F"/>dobry to <ch a="G"/>sen,</row>
+        <row important_over="false"><ch a="C"/>między wier<ch a="e"/>szami, <ch a="F"/>niczym pa<ch a="G"/>rami,</row>
+        <row important_over="false"><ch a="C"/>przenika <ch a="e"/>światło <ch a="F"/>i <ch a="G"/>cień.</row>
       </bis>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true"><ch a="C"/>Wybudza mnie z nocy <ch a="e"/>dzień,</row>
-        <row important_over="true"><ch a="F"/>tak subtelnie wita <ch a="G"/>świt,</row>
-        <row important_over="false"><ch a="C"/>w tej wdzięczności wiem, że życi<ch a="e"/>e – nie –</row>
-        <row important_over="false"><ch a="F"/>nie prześpię ci<ch a="G"/>ę.</row>
+        <row important_over="true"><ch a="C"/>Wybudza <ch a="e"/>mnie z <ch a="F"/>nocy <ch a="G"/>dzień,</row>
+        <row important_over="true"><ch a="C"/>tak sub<ch a="e"/>telnie <ch a="F"/>wita <ch a="G"/>świt,</row>
+        <row important_over="false"><ch a="C"/>w tej wdzięcz<ch a="e"/>ności <ch a="F"/>wiem, że <ch a="G"/>życie – nie –</row>
+        <row important_over="false"><ch a="C"/>nie <ch a="e"/>prześpię <ch a="F"/>cię.<ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="false">nim <ch a="C"/>bose stopy poczują chł<ch a="e"/>ód,</row>
-        <row important_over="false">nim szkł<ch a="F"/>a do patrzenia wł<ch a="G"/>ożę,</row>
-        <row important_over="false"><ch a="C"/>ostatni raz o świcie dn<ch a="e"/>ia,</row>
-        <row important_over="false">ryt<ch a="F"/>uał – miłosno wtul<ch a="G"/>eni.</row>
+        <row important_over="false">nim <ch a="C"/>bose <ch a="e"/>stopy po<ch a="F"/>czują <ch a="G"/>chłód,</row>
+        <row important_over="false">nim <ch a="C"/>szkła do pa<ch a="e"/>trzenia <ch a="F"/>wło<ch a="G"/>żę,</row>
+        <row important_over="false"><ch a="C"/>ostatni <ch a="e"/>raz o <ch a="F"/>świcie <ch a="G"/>dnia,</row>
+        <row important_over="false">ry<ch a="C"/>tuał – mi<ch a="e"/>łosno wtu<ch a="F"/>le<ch a="G"/>ni.</row>
       </bis>
     </block>
     <blocklink blocknb="3"/>
