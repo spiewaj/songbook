@@ -1,73 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Oczy me pełne…" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Oczy me pełne">
+	<alias>Oczy me pełne…</alias>
 	<text_author type="solo">Leopold Staff</text_author>
-	<comment></comment>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
+	<album>U źródeł tęsknot</album>
+	<genre>poezja śpiewana</genre>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">Oczy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">jak polne krynice,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="never">Gdzie niebiosa swe jasne<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">odbijają lice.<ch a="D"/><ch a="E"/></row>
+			<row important_over="true">Ocz<ch a="A"/>y me pełne ci<ch a="h7"/>ebie,</row>
+			<row important_over="true">j<ch a="cis7"/>ak polne krinic<ch a="D"/>e,</row>
+			<row important_over="true">Gdzi<ch a="A"/>e niebiosa swe j<ch a="h7"/>asne</row>
+			<row important_over="true">odbij<ch a="D"/>ają lic<ch a="E"/>e.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Uszy me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">jak muszla echowa,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="never">Co szumy oceanu<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">w swej głębi chowa.<ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Usz<ch a="A"/>y me pełne ci<ch a="h7"/>ebie,</row>
+			<row important_over="false">j<ch a="cis7"/>ak muszla ech<ch a="D"/>owa,</row>
+			<row important_over="false">C<ch a="A"/>o szumy oce<ch a="h7"/>anu</row>
+			<row important_over="false">w sw<ch a="D"/>ej głębi ch<ch a="E"/>owa.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Nozdrza me pełne ciebie,<ch a="D"/><ch a="E"/></row>
-			<row important_over="never">jak duszne ogrody<ch a="A"/><ch a="fis"/></row>
-			<row important_over="never">Zapachu róż szkarłatnej, <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">królewskiej urody.<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">Róż królewskiej urody.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="true">N<ch a="D"/>ozdrza me pełne ci<ch a="E"/>ebie,</row>
+			<row important_over="true">j<ch a="A"/>ak duszne ogr<ch a="fis"/>ody</row>
+			<row important_over="true">Zap<ch a="D"/>achu róż szkarł<ch a="E"/>atnej,</row>
+			<row important_over="true">król<ch a="cis"/>ewskiej ur<ch a="fis"/>ody.</row>
+			<row important_over="true">R<ch a="D"/>óż król<ch a="cis"/>ewskiej ur<ch a="fis"/>ody.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Usta me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">jak pszczela pasieka<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="never">Pełna miodnego wina, <ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">kwiatowego mleka.<ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Ust<ch a="A"/>a me pełne ci<ch a="h7"/>ebie,</row>
+			<row important_over="false">j<ch a="cis7"/>ak pszczela pasi<ch a="D"/>eka,</row>
+			<row important_over="false">P<ch a="A"/>ełna miodnego w<ch a="h7"/>ina,</row>
+			<row important_over="false">kwi<ch a="D"/>atowego ml<ch a="E"/>eka.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dłonie me pełne ciebie,<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">jak plecione kosze,<ch a="cis7"/><ch a="D"/></row>
-			<row important_over="never">Gdzie jesień składa<ch a="A"/><ch a="h7"/></row>
-			<row important_over="never">owoców rozkosze.<ch a="D"/><ch a="E"/></row>
+			<row important_over="false">Dł<ch a="A"/>onie me pełne ci<ch a="h7"/>ebie,</row>
+			<row important_over="false">j<ch a="cis7"/>ak plecione k<ch a="D"/>osze,</row>
+			<row important_over="false">Gdzi<ch a="A"/>e jesień skł<ch a="h7"/>ada</row>
+			<row important_over="false">ow<ch a="D"/>oców rozk<ch a="E"/>osze.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Serce me pełne ciebie, <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">jak korona drzewa<ch a="A"/><ch a="fis"/></row>
-			<row important_over="never">Gniazd ptactwa, co upojną<ch a="D"/><ch a="E"/></row>
-			<row important_over="never">miłości pieśń śpiewa.<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">Upojną pieśń śpiewa.<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="false">S<ch a="D"/>erce me pełne ci<ch a="E"/>ebie,</row>
+			<row important_over="false">j<ch a="A"/>ak korona drzw<ch a="fis"/>ewa</row>
+			<row important_over="false">Gni<ch a="D"/>azd ptactwa, co up<ch a="E"/>ojną</row>
+			<row important_over="false">mił<ch a="cis"/>ości pieśń śpi<ch a="fis"/>ewa.</row>
+			<row important_over="false">Up<ch a="D"/>ojną pi<ch a="cis"/>eśń śpi<ch a="fis"/>ewa.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Dusza ma pełna ciebie,<ch a="D"/><ch a="E"/></row>
-			<row important_over="never">jako wirów morze,<ch a="A"/><ch a="fis"/></row>
-			<row important_over="never">Co nigdy uśpić swego <ch a="D"/><ch a="E"/></row>
-			<row important_over="never">szaleństwa nie może!<ch a="cis"/><ch a="fis"/></row>
-			<row important_over="never">Uśpić szaleństwa nie może!<ch a="D"/><ch a="cis"/><ch a="fis"/></row>
+			<row important_over="false">D<ch a="D"/>usza ma pełna ci<ch a="E"/>ebie,</row>
+			<row important_over="false">j<ch a="A"/>ako wirów m<ch a="fis"/>orze,</row>
+			<row important_over="false">C<ch a="D"/>o nigdy uśpić sw<ch a="E"/>ego</row>
+			<row important_over="false">szal<ch a="cis"/>eństwa nie m<ch a="fis"/>oże!</row>
+			<row important_over="false">Uśpić szal<ch a="D"/>eństwa ni<ch a="cis"/>e m<ch a="fis"/>oże!</row>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
 	<status>
-		<done>
-		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
+			<verificator>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/oczy-me-pelne</verificator>
 		</verificators>
-		<to_do></to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
-	<music_source></music_source>
 </song>
