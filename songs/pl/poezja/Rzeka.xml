@@ -50,7 +50,9 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.tekstowo.pl/wolna-grupa-bukowina/rzeka</verificator>
+    </verificators>
   </status>
   <music_source>https://bibliotekapiosenki.pl/utwory/Rzeka_(sl_i_muz_Wojciech_Jarocinski)</music_source>
 </song>
