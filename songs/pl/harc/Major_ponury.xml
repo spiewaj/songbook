@@ -12,7 +12,7 @@
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Mgła schodzi z lasu, P<ch a="D"/>anie Majorze,</row>
-      <row important_over="true"><ch a="C"/>wiatr się zrywa z cha<ch a="G"/>szczy jak pt<ch a="G/D"/>ak,</row>
+      <row important_over="true"><ch a="Csus2"/>wiatr się zrywa z cha<ch a="G"/>szczy jak pt<ch a="G/D"/>ak,</row>
       <row important_over="true">j<ch a="e"/>uż się szkopy nie tuł<ch a="h"/>ają po borze,</row>
       <row important_over="true">n<ch a="C"/>iejednego przez nas tr<ch a="D"/>afił szlag.</row>
       <row important_over="false"><ch a="e"/>Jutro do wsi p<ch a="D"/>ewnie zajdziemy,</row>
@@ -28,7 +28,7 @@
     </block>
     <block type="verse">
       <row important_over="false">Do di<ch a="e"/>abła ze śmiercią, P<ch a="D"/>anie Majorze!</row>
-      <row important_over="false"><ch a="C"/>Pan szedł z nią razem w trzydzie<ch a="G"/>stym dziewi<ch a="G/D"/>ątym.</row>
+      <row important_over="false"><ch a="Csus2"/>Pan szedł z nią razem w trzydzie<ch a="G"/>stym dziewi<ch a="G/D"/>ątym.</row>
       <row important_over="false">P<ch a="e"/>otem trza było z w<ch a="h"/>ojskiem się łączyć</row>
       <row important_over="false">i m<ch a="C"/>iecze ostrzyć d<ch a="D"/>aleko za morzem.</row>
       <row important_over="false">M<ch a="e"/>yśmy czekali, bo w<ch a="D"/>odza brakło,</row>
@@ -44,7 +44,7 @@
     </block>
     <block type="verse">
       <row important_over="false">T<ch a="e"/>o nie był taki zwycz<ch a="D"/>ajny bój,</row>
-      <row important_over="false">l<ch a="C"/>ufa się zgrzała jak kl<ch a="G"/>ucze od pi<ch a="G/D"/>ekła,</row>
+      <row important_over="false">l<ch a="Csus2"/>ufa się zgrzała jak kl<ch a="G"/>ucze od pi<ch a="G/D"/>ekła,</row>
       <row important_over="false">m<ch a="e"/>ocno się wrzynał w kiesz<ch a="h"/>eni nabój</row>
       <row important_over="false">i k<ch a="C"/>ażda chwila jak wi<ch a="D"/>eczność się wlekła.</row>
       <row important_over="false">Str<ch a="e"/>asznie Pan dostał, P<ch a="D"/>anie Majorze,</row>
@@ -68,7 +68,7 @@
   <status>
     <done>
       <authors/>
-      <chords>cordes</chords>
+      <chords>chord positioning</chords>
       <text/>
     </done>
     <verificators>
