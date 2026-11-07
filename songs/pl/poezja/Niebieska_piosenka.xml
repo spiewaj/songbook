@@ -49,13 +49,12 @@ Alek: zamieniono "a" na "a a7" zgodnie ze wskazaniami Józka.</comment>
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Alek</verificator>
-			<verificator>https://bibliotekapiosenki.pl/utwory/Niebieska_piosenka</verificator>
-			<verificator>Grzegorz Tomczak - Ja to mam szczęście (2001)</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>Alek</verificator>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Niebieska_piosenka</verificator>
+    </verificators>
 	</status>
 </song>
