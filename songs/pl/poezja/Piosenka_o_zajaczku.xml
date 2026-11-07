@@ -21,17 +21,17 @@
       <row important_over="true">Rz<ch a="C"/>eką zielony za<ch a="e"/>jączek.</row>
     </block>
     <block type="verse">
-      <row><ch a="G"/>Biegnę, wciąż bi<ch a="F"/>egnę przed si<ch a="C"/>ebie, w si<ch a="G"/>ebie,</row>
-      <row>T<ch a="D"/>ęczę rozg<ch a="A"/>arniam ręk<ch a="G"/>ami,</row>
-      <row>L<ch a="G"/>etnim up<ch a="F"/>ałem wyt<ch a="C"/>rzeć do s<ch a="G"/>ucha</row>
-      <row>Sp<ch a="D"/>otniałą, w<ch a="A"/>ilgotną pam<ch a="G"/>ięć.</row>
+      <row important_over="false"><ch a="G"/>Biegnę, wciąż bi<ch a="F"/>egnę przed si<ch a="C"/>ebie, w si<ch a="G"/>ebie,</row>
+      <row important_over="false">T<ch a="D"/>ęczę rozg<ch a="A"/>arniam ręk<ch a="G"/>ami,</row>
+      <row important_over="false">L<ch a="G"/>etnim up<ch a="F"/>ałem wyt<ch a="C"/>rzeć do s<ch a="G"/>ucha</row>
+      <row important_over="false">Sp<ch a="D"/>otniałą, w<ch a="A"/>ilgotną pam<ch a="G"/>ięć.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row>Rz<ch a="G"/>eki jaszcz<ch a="F"/>urka w tr<ch a="C"/>awie się w<ch a="G"/>ije,</row>
-      <row>Sł<ch a="D"/>ońce się ch<ch a="A"/>yli zrudzi<ch a="G"/>ałe,</row>
-      <row>Wi<ch a="G"/>eczną ziel<ch a="F"/>oność zach<ch a="C"/>ować w <ch a="G"/>oczach,</row>
-      <row>T<ch a="D"/>ak wiele pr<ch a="A"/>agnę, tak m<ch a="G"/>ało.</row>
+      <row important_over="false">Rz<ch a="G"/>eki jaszcz<ch a="F"/>urka w tr<ch a="C"/>awie się w<ch a="G"/>ije,</row>
+      <row important_over="false">Sł<ch a="D"/>ońce się ch<ch a="A"/>yli zrudzi<ch a="G"/>ałe,</row>
+      <row important_over="false">Wi<ch a="G"/>eczną ziel<ch a="F"/>oność zach<ch a="C"/>ować w <ch a="G"/>oczach,</row>
+      <row important_over="false">T<ch a="D"/>ak wiele pr<ch a="A"/>agnę, tak m<ch a="G"/>ało.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
@@ -50,7 +50,7 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>Onufry</verificator>
