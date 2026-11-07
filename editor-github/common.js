@@ -76,7 +76,11 @@ export function htmlSuffix(res) {
 }
 
 function fullUrl(req) {
-    return new URL(`${req.protocol}://${req.get('host')}${req.originalUrl}`);
+    try {
+        return new URL(`${BASE_URL}${req.originalUrl || req.url}`);
+    } catch (e) {
+        return new URL(`${req.protocol}://${req.get('host')}${req.originalUrl}`);
+    }
 }
 
 export function stripProtocol(s) {
@@ -89,7 +93,7 @@ function getBackUrl(req, backUrl) {
         return backUrl;
     }
     const u = fullUrl(req);
-    if (req.method=='GET' && !stripProtocol(u.href).startsWith(stripProtocol(REDIRECT_BASE_URL))) {
+    if ((req.method=='GET' || req.method=='HEAD') && !stripProtocol(u.href).startsWith(stripProtocol(REDIRECT_BASE_URL))) {
         console.log("Using back URL based on req: ", u.href);
         return u.href;
     }
