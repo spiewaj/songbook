@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W taką ciszę">
-	<alias>Cisza</alias>
-	<comment>Nie ma kategorii disco?! Ale przynajmniej ma znośny refren.</comment>
-	<lyric>
+	<alias>Wołanie przez ciszę</alias>
+	<text_author type="solo">Mirosław Breguła, Henryk Czich</text_author>
+	<composer type="solo">Mirosław Breguła, Henryk Czich</composer>
+	<artist type="band">Universe</artist>
+	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Nie o <ch a="C"/>uśmiech mi chodzi, choć się śmi<ch a="e"/>ałaś nie raz,</row>
 			<row important_over="true">Ale <ch a="F"/>o to, co kiedyś pojaw<ch a="G"/>iło się w nas,</row>
-			<row important_over="false">Coś, co prz<ch a="C"/>yszło tak nagle i prz<ch a="e"/>eszło jak wiatr,</row>
-			<row important_over="false">Czego wł<ch a="F"/>aśnie najbardziej mi br<ch a="G"/>ak.</row>
+			<row important_over="true">Coś, co prz<ch a="C"/>yszło tak nagle i prz<ch a="e"/>eszło jak wiatr,</row>
+			<row important_over="true">Czego wł<ch a="F"/>aśnie najbardziej mi br<ch a="G"/>ak.</row>
 		</block>
 		<block type="verse">
 			<row important_over="false">Przychodz<ch a="C"/>iłem co wieczór, by posł<ch a="e"/>uchać Twych płyt,</row>
@@ -17,10 +19,10 @@
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">W t<ch a="C"/>aką, w taką c<ch a="e"/>iszę</row>
-				<row important_over="false">Wszystkie gwi<ch a="F"/>azdy na niebie p<ch a="G"/>oliczę,</row>
-				<row important_over="false">Ci<ch a="C"/>ebie, Ciebie w<ch a="e"/>ołam,</row>
-				<row important_over="false">Chociaż c<ch a="F"/>isza i pustka dook<ch a="G"/>oła.</row>
+				<row important_over="true">W t<ch a="C"/>aką, w taką c<ch a="e"/>iszę</row>
+				<row important_over="true">Wszystkie gwi<ch a="F"/>azdy na niebie p<ch a="G"/>oliczę,</row>
+				<row important_over="true">Ci<ch a="C"/>ebie, Ciebie w<ch a="e"/>ołam,</row>
+				<row important_over="true">Chociaż c<ch a="F"/>isza i pustka dook<ch a="G"/>oła.</row>
 			</bis>
 		</block>
 		<block type="verse">
@@ -34,21 +36,23 @@
 			<row important_over="false">Choć dost<ch a="C"/>aję twe listy, zdjęć p<ch a="e"/>arę mam,</row>
 			<row important_over="false">Żyję j<ch a="F"/>ak grzeszny anioł w tłumie l<ch a="G"/>udzi, lecz sam.</row>
 			<row important_over="false">Jeszcze tl<ch a="C"/>i się nadzieja, że spotk<ch a="e"/>amy się znów,</row>
-			<row important_over="false">Do księż<ch a="F"/>yca się śmiejąc, przywoł<ch a="G"/>uję Cię wróć.</row>
+			<row important_over="false">Do księż<ch a="F"/>yca się śmiejąc, przywoł<ch a="G"/>uję Cię: wróć.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	<music metre="4/4"/>
-	<keywords/>
-	<genre>Inna</genre>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Magnes serc</album>
+	<genre>Pop</genre>
 	<status>
-		<done>
-			<text/>
-			<chords>chord positioning</chords>
-		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
 		</verificators>
-		<to_do>Nie znalazłem autorów… Może się nie przyznają…</to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
 </song>
