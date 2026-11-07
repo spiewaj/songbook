@@ -1,57 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szare Szeregi">
-  <artist type="solo">Piosenki Harcerskie</artist>
+  <text_author type="solo">tradycyjny</text_author>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">Gdzie <ch a="a"/>wichry wojny <ch a="d"/>niesie wiatr</row>
-      <row important_over="true"><ch a="G"/>Tam zza rogów <ch a="C"/>stu</row>
-      <row important_over="false"><ch a="a"/>Stoi na straży<ch a="d"/> szara brać</row>
-      <row important_over="true">I <ch a="E"/>flaga biało-czer<ch a="a"/>wona.</row>
+      <row important_over="true">Gdzie <ch a="a"/>wichry wojny <ch a="d"/>niesie wiatr,</row>
+      <row important_over="true"><ch a="G"/>tam zza rogów <ch a="C"/>stu</row>
+      <row important_over="true"><ch a="a"/>stoi na straży <ch a="d"/>szara brać</row>
+      <row important_over="true">i <ch a="E"/>flaga biało-czer<ch a="a"/>wona.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="a"/>Szare Sze<ch a="d"/>regi</row>
-      <row important_over="false"><ch a="G"/>Szare Sze<ch a="C"/>regi</row>
-      <row important_over="false">W <ch a="a"/>szarych mun<ch a="d"/>durach</row>
-      <row important_over="false"><ch a="E"/>Harcerska <ch a="a"/>brać.</row>
+      <row important_over="true"><ch a="a"/>Szare Sze<ch a="d"/>regi,</row>
+      <row important_over="true"><ch a="G"/>szare Sze<ch a="C"/>regi,</row>
+      <row important_over="true">w <ch a="a"/>szarych mun<ch a="d"/>durach</row>
+      <row important_over="true"><ch a="E"/>harcerska <ch a="a"/>brać.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="a d">Niestraszny dla nas wojny czas,</row>
-      <row important_over="never" sidechords="G C">Ni strzały zza rogów stu,</row>
-      <row important_over="never" sidechords="a d">Choć krzyżem słany czarny las</row>
-      <row important_over="never" sidechords="E a">Opaska biało-czerwona.</row>
+      <row important_over="false">Ni<ch a="a"/>estraszny dla nas <ch a="d"/>wojny czas,</row>
+      <row important_over="false">ni strz<ch a="G"/>ały zza rogów <ch a="C"/>stu,</row>
+      <row important_over="false">choć krz<ch a="a"/>yżem słany <ch a="d"/>czarny las,</row>
+      <row important_over="false">op<ch a="E"/>aska biało-czer<ch a="a"/>wona.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="a d">Chwycił butelkę pełną benzyny</row>
-      <row important_over="never" sidechords="G C">I wybiegł na drogę z nią,</row>
-      <row important_over="never" sidechords="a d">Krzyknął do swoich &#039;Czuwaj chłopaki!&#039;</row>
-      <row important_over="never" sidechords="E a">I zginął za biało-czerwoną.</row>
+      <row important_over="false">Chw<ch a="a"/>ycił butelkę <ch a="d"/>pełną benzyny</row>
+      <row important_over="false">i w<ch a="G"/>ybiegł na drogę <ch a="C"/>z nią,</row>
+      <row important_over="false">krz<ch a="a"/>yknął do swoich: „<ch a="d"/>Czuwaj, chłopaki!”</row>
+      <row important_over="false">i zg<ch a="E"/>inął za biało-czerw<ch a="a"/>oną.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="a d">Choć ma zaledwie 10 lat</row>
-      <row important_over="never" sidechords="G C">Niestraszna to jest śmierć</row>
-      <row important_over="never" sidechords="a d">Na barykadzie stoi chwat</row>
-      <row important_over="never" sidechords="E a">Z opaską biało-czerwoną</row>
+      <row important_over="false">Choć m<ch a="a"/>a zaledwie <ch a="d"/>dziesięć lat,</row>
+      <row important_over="false">niestrz<ch a="G"/>aszna to jest śmi<ch a="C"/>erć,</row>
+      <row important_over="false">na b<ch a="a"/>arykadzie <ch a="d"/>stoi chwat</row>
+      <row important_over="false">z op<ch a="E"/>aską biało-czerw<ch a="a"/>oną.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="a d">Złożyli go do ziemi tej</row>
-      <row important_over="never" sidechords="G C">Za którą swe życie dał</row>
-      <row important_over="never" sidechords="a d">Grób porosły kępy mchu</row>
-      <row important_over="never" sidechords="E a">A flaga biało czerwona</row>
+      <row important_over="false">Złoż<ch a="a"/>yli go do z<ch a="d"/>iemi tej,</row>
+      <row important_over="false">za kt<ch a="G"/>órą swe życie d<ch a="C"/>ał,</row>
+      <row important_over="false">gr<ch a="a"/>ób porosły k<ch a="d"/>ępy mchu,</row>
+      <row important_over="false">a fl<ch a="E"/>aga biało-czerw<ch a="a"/>ona.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="a d">Harcerzu wspomnij wojny czas</row>
-      <row important_over="never" sidechords="G C">I przyjdź na groby ich</row>
-      <row important_over="never" sidechords="a d">Choć srogich zmagań minął czas</row>
-      <row important_over="never" sidechords="E a">Ty wspomnij Szare Szeregi</row>
+      <row important_over="false">Harc<ch a="a"/>erzu, wspomnij w<ch a="d"/>ojny czas</row>
+      <row important_over="false">i prz<ch a="G"/>yjdź na groby <ch a="C"/>ich,</row>
+      <row important_over="false">choć sr<ch a="a"/>ogich zmagań min<ch a="d"/>ął czas,</row>
+      <row important_over="false">ty wsp<ch a="E"/>omnij Szare Szer<ch a="a"/>egi.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/szare-szeregi</verificator>
+    </verificators>
   </status>
 </song>
