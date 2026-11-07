@@ -1,58 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Tolerancja">
-  <alias/>
-  <text_author>Stanisław Sojka</text_author>
-  <comment/>
+  <alias>Na miły Bóg</alias>
+  <text_author type="solo">Stanisław Sojka</text_author>
+  <comment>Jeden z najsłynniejszych utworów Stanisława Sojki, wydany na płycie „Acoustic” (1991).</comment>
   <composer type="solo">Stanisław Sojka</composer>
   <artist type="solo">Stanisław Sojka</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="other">
       <row important_over="false" style="instr">
         <ch a="D"/>
-        <ch a="D4"/>
+        <ch a="Dsus4"/>
         <ch a="D"/>
         <ch a="A"/>
         <ch a="G"/>
         <ch a="Fis"/>
         <ch a="G"/>
         <ch a="A"/>
-     </row>
+      </row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Dlaczego nie mówimy</row>
-      <row important_over="never"><ch a="D"/>O tym co nas boli otwarcie<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>Budowa ściany wokół siebie</row>
-      <row important_over="never"><ch a="D"/>Marna sztuka</row>
-      <row important_over="never"><ch a="D"/>Wrażliwe słowo czuły dotyk</row>
-      <row important_over="never"><ch a="A"/>Wystarczą</row>
-      <row important_over="never"><ch a="D"/>Czasami tylko tego pragnę<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Tego szukam<ch a="A"/><ch a="D"/></row>
+      <row important_over="true"><ch a="D"/>Dlaczego nie mówimy o tym, co nas boli <ch a="A"/>otwarcie?</row>
+      <row important_over="true">Budować ściany wokół siebie – marna <ch a="D"/>sztuka.</row>
+      <row important_over="false">Wrażliwe słowo, czuły dotyk <ch a="A"/>wystarczą.</row>
+      <row important_over="true"><ch a="D"/>Czasami tylko tego <ch a="A"/>pragnę, tego sz<ch a="D"/>ukam.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="A"/>Na miły Bóg</row>
-      <row important_over="never"><ch a="D"/>Życie nie tylko po to jest by brać<ch a="G"/><ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Życie nie po to jest by bezczynnie trwać<ch a="G"/><ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>I aby żyć siebie samego trzeba dać<ch a="G"/><ch a="A"/></row>
+      <row important_over="true">Na miły <ch a="A"/>Bóg,</row>
+      <row important_over="true">życie nie <ch a="D"/>tylko po to jest, by br<ch a="G"/>ać,<ch a="A"/></row>
+      <row important_over="false">życie nie p<ch a="D"/>o to, by bezczynnie trw<ch a="G"/>ać,<ch a="A"/></row>
+      <row important_over="false">i aby ż<ch a="D"/>yć, siebie samego trzeba d<ch a="G"/>ać.<ch a="A"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="D"/>Problemy twoje moje nasze boje</row>
-      <row important_over="never"><ch a="D"/>Polityka<ch a="A"/></row>
-      <row important_over="never"><ch a="A"/>A przecież każdy włos jak nasze lata</row>
-      <row important_over="never"><ch a="D"/>Policzony</row>
-      <row important_over="never"><ch a="D"/>Kto jest bez winy niechaj pierwszy rzuci kamieniem</row>
-      <row important_over="never"><ch a="A"/>Niech rzuci</row>
-      <row important_over="never"><ch a="D"/>Daleko raj gdy na człowieka<ch a="A"/></row>
-      <row important_over="never"><ch a="D"/>Się zamykam<ch a="A"/><ch a="D"/></row>
+      <row important_over="false"><ch a="D"/>Problemy twoje, moje, nasze boje, polit<ch a="A"/>yka.</row>
+      <row important_over="false">A przecież każdy włos jak nasze lata policz<ch a="D"/>ony.</row>
+      <row important_over="false">Kto jest bez winy, niechaj pierwszy rzuci kamień, niech rz<ch a="A"/>uci.</row>
+      <row important_over="false"><ch a="D"/>Daleko raj, gdy na człowieka się zam<ch a="A"/>yk<ch a="D"/>am.</row>
     </block>
     <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="true"><ch a="D"/>Tu tu tu tu <ch a="A"/>tą <ch a="G"/><ch a="A"/></row>
+      <bis times="3">
+        <row important_over="false"><ch a="D"/>Tu tu tu tu <ch a="A"/>tą <ch a="G"/><ch a="A"/></row>
+      </bis>
+    </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <album>Acoustic</album>
+  <genre>pop</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stanislaw-sojka/tolerancja</verificator>
+    </verificators>
   </status>
 </song>
