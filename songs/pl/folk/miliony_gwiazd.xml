@@ -3,26 +3,25 @@
   <text_author type="solo">Elżbieta Płonka</text_author>
   <composer type="solo">Elżbieta Płonka</composer>
   <artist type="band">Wbrew pozorom</artist>
+  <genre>Piosenka turystyczna</genre>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="h"/>Uton<ch a="A"/>ę w oceani<ch a="h"/>e nocy</row>
-      <row important_over="true"><ch a="A"/>A gwiazdy <ch a="G"/>zatańczą <ch a="A"/>symfoniczna</row>
-      <row important_over="true"><ch a="h"/>ciszą</row>
+      <row important_over="true"><ch a="A"/>A gwiazdy <ch a="G"/>zatańczą z <ch a="A"/>symfoniczną <ch a="h"/>ciszą</row>
       <row important_over="false"><ch a="h"/>Muzycy <ch a="A"/>wietrznych forte<ch a="h"/>pianów</row>
-      <row important_over="true"><ch a="A"/>Melodią wie<ch a="G"/>czorną <ch a="A"/>usypiają <ch a="h"/>lasy</row>
-      <row important_over="true">Wtem księ<ch a="A"/>życa blask roz<ch a="G"/>jaśnił nieba</row>
-      <row important_over="true"><ch a="A"/>twarz</row>
+      <row important_over="false"><ch a="A"/>Melodią wie<ch a="G"/>czorną <ch a="A"/>usypiają <ch a="h"/>lasy</row>
+      <row important_over="true">Wtem <ch a="A"/>księżyca blask roz<ch a="G"/>jaśnił nieba <ch a="A"/>twarz</row>
       <row important_over="true"><ch a="h"/>I wtedy mi ukazał <ch a="A"/>was</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="h"/>Tańczące, grające ze <ch a="G"/>smutkiem, radością</row>
       <row important_over="true"><ch a="D"/>Gubiące <ch a="A"/>czas</row>
-      <row important_over="never" sidechords="h G">Będące ze sobą na dobre i złe</row>
-      <row important_over="never" sidechords="D A">Miliony gwiazd</row>
-      <row important_over="never" sidechords="h G">Przeszłość tańcząca z piaskiem w klepsydrze</row>
-      <row important_over="never" sidechords="D A">Gwiezdny pył</row>
-      <row important_over="never" sidechords="h G">Przyszłość tajemną w swoim blasku</row>
-      <row important_over="never" sidechords="D A">Przed światem skrył</row>
+      <row important_over="false"><ch a="h"/>Będące ze sobą na <ch a="G"/>dobre i złe</row>
+      <row important_over="false"><ch a="D"/>Miliony <ch a="A"/>gwiazd</row>
+      <row important_over="false"><ch a="h"/>Przeszłość tańcząca z <ch a="G"/>piaskiem w klepsydrze</row>
+      <row important_over="false"><ch a="D"/>Gwiezdny <ch a="A"/>pył</row>
+      <row important_over="false"><ch a="h"/>Przyszłość tajemną w <ch a="G"/>swoim blasku</row>
+      <row important_over="false"><ch a="D"/>Przed światem <ch a="A"/>skrył</row>
     </block>
     <block type="verse">
       <row important_over="never">Strażnicy nocnych drogowskazów</row>
@@ -35,7 +34,7 @@
     <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="never">Nie każcie mi już dłużej czekać</row>
-      <row important_over="never">Nie serce wciąż płonie myślami człowieka</row>
+      <row important_over="never">Me serce wciąż płonie myślami człowieka</row>
       <row important_over="never">Wy aniołowie nieba</row>
       <row important_over="never">Pokażcie mi mapy ludzkich drogowskazów</row>
       <row important_over="never">Pokażcie cel za złudzeń kurtyną</row>
@@ -45,7 +44,14 @@
   </lyric>
   <keywords/>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://www.yapa.art.pl/2014/wp-content/uploads/2014/04/%C5%9Apiewnik-Yapowicza-2014.pdf</verificator>
+      <verificator>https://spiewnik.wywrota.pl/wbrew-pozorom/miliony-gwiazd</verificator>
+    </verificators>
   </status>
 </song>
