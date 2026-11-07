@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zabierzcie mi gitarę">
-  <comment/>
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment>Kabaretowa parafraza utworu „L’Italiano” z repertuaru Toto Cutugno (1983).</comment>
+  <composer type="solo">Toto Cutugno</composer>
   <artist type="band">Artur Andrus</artist>
   <lyric>
     <block type="other">
       <row important_over="true">Lasciatemi can<ch a="d"/>tare con la chitarra in <ch a="a"/>mano</row>
-      <row important_over="true">Lasciatemi can<ch a="E"/>tare Sono l&#039;Ita<ch a="a"/>liano</row>
+      <row important_over="true">Lasciatemi can<ch a="E"/>tare Sono l'Ita<ch a="a"/>liano</row>
     </block>
     <block type="verse">
-      <row important_over="true">Już chyba <ch a="a"/>jesień bo już ptaki w drodze.</row>
-      <row important_over="true">Kolejny <ch a="a"/>sezon westchnień i zawodzeń.</row>
-      <row important_over="true">Maluję <ch a="a"/>imię Twe na ścianie,</row>
+      <row important_over="true">Już chyba <ch a="a"/>jesień, bo już ptaki w drodze.</row>
+      <row important_over="false">Kolejny <ch a="a"/>sezon westchnień i zawodzeń.</row>
+      <row important_over="false">Maluję <ch a="a"/>imię Twe na ścianie,</row>
       <row important_over="true">Bazy<ch a="a"/>liki w Mediolanie, moja <ch a="E"/>miła</row>
       <row important_over="true">I tęsknię <ch a="E"/>każdym mediolańskim świtem,</row>
-      <row important_over="true">Do naszych <ch a="E"/>pól złoconych zwłaszcza żytem.</row>
-      <row important_over="true">Pamiętam <ch a="E"/>Ciebie w tamto lato</row>
-      <row important_over="false">Gdyś mó<ch a="E"/>wiła mi Beato, o ma<ch a="a"/>larstwie włoskim</row>
+      <row important_over="false">Do naszych <ch a="E"/>pól złoconych zwłaszcza żytem.</row>
+      <row important_over="false">Pamiętam <ch a="E"/>Ciebie w tamto lato,</row>
+      <row important_over="true">Gdyś mó<ch a="E"/>wiła mi, Beato, o ma<ch a="a"/>larstwie włoskim.</row>
       <row important_over="true">Może nie <ch a="C"/>bardzo byliśmy roztropni,</row>
       <row important_over="true">Na dworze <ch a="a"/>upał – jedenaście stopni.</row>
       <row important_over="true">A my w u<ch a="E"/>pale</row>
@@ -32,42 +34,58 @@
       <row important_over="true">Ale ze Skar<ch a="a"/>żyska <ch a="F"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">To samo <ch a="b"/>słońce na tym samym niebie</row>
-      <row important_over="true">Ci sami <ch a="b"/>ludzie żyją obok siebie</row>
-      <row important_over="true">Tak samo <ch a="b"/>marzą i się śmieją</row>
-      <row important_over="true">I z nadzieją spoglądają w kalen<ch a="F"/>darze</row>
-      <row important_over="true">U nas w I<ch a="F"/>talii był upalny sierpień</row>
-      <row important_over="true">Ty nawet <ch a="F"/>nie wiesz, jak ja tutaj cierpię</row>
-      <row important_over="true">Ale nie <ch a="F"/>mówmy o dewiacji</row>
-      <row important_over="true">Tylko wróćmy do wakacji na Ma<ch a="b"/>zurach</row>
+      <row important_over="true">To samo <ch a="b"/>słońce na tym samym niebie,</row>
+      <row important_over="false">Ci sami <ch a="b"/>ludzie żyją obok siebie,</row>
+      <row important_over="false">Tak samo <ch a="b"/>marzą i się śmieją</row>
+      <row important_over="true">I z nadzieją spoglądają w kalen<ch a="F"/>darze.</row>
+      <row important_over="true">U nas w I<ch a="F"/>talii był upalny sierpień,</row>
+      <row important_over="false">Ty nawet <ch a="F"/>nie wiesz, jak ja tutaj cierpię,</row>
+      <row important_over="false">Ale nie <ch a="F"/>mówmy o dewiacji,</row>
+      <row important_over="true">Tylko wróćmy do wakacji na Ma<ch a="b"/>zurach.</row>
       <row important_over="true">Pamiętasz, <ch a="Cis"/>jakeś pasła gąski w parku</row>
-      <row important_over="true">I jak roz<ch a="b"/>biegły ci się po Lidzbarku</row>
+      <row important_over="true">I jak roz<ch a="b"/>biegły ci się po Lidzbarku,</row>
       <row important_over="true">I jak nad <ch a="F"/>ranem</row>
       <row important_over="true">Wróciły same, sku<ch a="b"/>bane...</row>
     </block>
-    <blocklink blocknb="3"/>
+    <block type="chorus">
+      <row important_over="true">Zabierzcie mi gi<ch a="dis"/>tarę</row>
+      <row important_over="true">Niechaj obeschnę <ch a="b"/>trochę</row>
+      <row important_over="true">Zabierzcie mi gi<ch a="F"/>tarę</row>
+      <row important_over="true">Znowu jestem mokrym <ch a="b"/>Włochem</row>
+      <row important_over="true">Zabierzcie mi gi<ch a="dis"/>tarę</row>
+      <row important_over="true">Nie róbcie pośmie<ch a="b"/>wiska.</row>
+      <row important_over="true">Jestem prawdziwym <ch a="F"/>Włochem,</row>
+      <row important_over="true">Ale ze Skar<ch a="b"/>żyska</row>
+    </block>
     <block type="other">
       <row important_over="true">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
       <row important_over="true">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
       <row important_over="true">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
       <row important_over="true"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
       <row important_over="never">(E tutti cantiamo!)</row>
-      <row important_over="true">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
-      <row important_over="true">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
-      <row important_over="true">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
+      <row important_over="false">Ra ra ra ra ra ra <ch a="dis"/>ra...</row>
+      <row important_over="false">Ra ra ra ra ra ra <ch a="b"/>ra...</row>
+      <row important_over="false">Ra ra ra ra ra <ch a="F"/>ra ra ra</row>
       <row important_over="false"><ch a="F"/>Ra ra ra <ch a="b"/>ra ra ra</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Zabierzcie mi gi<ch a="dis"/>tarę</row>
+      <row important_over="false">Zabierzcie mi gi<ch a="dis"/>tarę</row>
       <row important_over="true">Lub dajcie mi po <ch a="b"/>pysku</row>
-      <row important_over="true">Zabierzcie mi gi<ch a="F"/>tarę</row>
+      <row important_over="false">Zabierzcie mi gi<ch a="F"/>tarę</row>
       <row important_over="true">Koniec tele<ch a="b"/>dysku!</row>
     </block>
   </lyric>
-  <keywords/>
   <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Zabierzcie_mi_gitare</verificator>
+      <verificator>https://spiewnik.wywrota.pl/artur-andrus/zabierzcie-mi-gitare</verificator>
+      <verificator>https://www.youtube.com/watch?v=LQeCg79zqzY</verificator>
+    </verificators>
   </status>
 </song>
