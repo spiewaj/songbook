@@ -48,7 +48,9 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/sanctus</verificator>
+    </verificators>
   </status>
   <music_source>https://bibliotekapiosenki.pl/utwory/Sanctus_(sl_Edward_Stachura)</music_source>
 </song>
