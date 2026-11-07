@@ -9,24 +9,24 @@
 	<original_title/>
 	<lyric>
 		<block type="other">
-			<row style="instr"><ch a="G"/><ch a="D"/><ch a="A"/><ch a="G"/><ch a="D"/></row>
+			<row important_over="false" style="instr"><ch a="G"/><ch a="D"/><ch a="A"/><ch a="G"/><ch a="D"/></row>
 		</block>
 		<block type="verse">
 			<row important_over="true"><ch a="D"/>Chleba takiego jak t<ch a="A"/>en od Cześka</row>
 			<row important_over="true"><ch a="e"/>nie kupisz n<ch a="G"/>igdzie, n<ch a="Fis"/>awet w Wa<ch a="h"/>rszawie,</row>
-			<row><ch a="G"/>bo Czesiek piekarz n<ch a="A"/>ie piekł, lecz tworzył</row>
-			<row><ch a="D"/>bochny jak z mąki sł<ch a="A"/>onecznej kołacze.</row>
-			<row><ch a="D"/>Kłaniali mu się l<ch a="A"/>udzie, gdy wyjrzał</row>
-			<row><ch a="e"/>przez okno <ch a="G"/>w kitlu, ł<ch a="Fis"/>yknąć po<ch a="h"/>wietrza,</row>
-			<row><ch a="G"/>a kromkę masłem smar<ch a="A"/>ując, każdy</row>
-			<row>m<ch a="D"/>ówił: „Nad chleby ten ch<ch a="A"/>leb od Cz<ch a="D"/>eśka”.</row>
+			<row important_over="false"><ch a="G"/>bo Czesiek piekarz n<ch a="A"/>ie piekł, lecz tworzył</row>
+			<row important_over="false"><ch a="D"/>bochny jak z mąki sł<ch a="A"/>onecznej kołacze.</row>
+			<row important_over="false"><ch a="D"/>Kłaniali mu się l<ch a="A"/>udzie, gdy wyjrzał</row>
+			<row important_over="false"><ch a="e"/>przez okno <ch a="G"/>w kitlu, ł<ch a="Fis"/>yknąć po<ch a="h"/>wietrza,</row>
+			<row important_over="false"><ch a="G"/>a kromkę masłem smar<ch a="A"/>ując, każdy</row>
+			<row important_over="false">m<ch a="D"/>ówił: „Nad chleby ten ch<ch a="A"/>leb od Cz<ch a="D"/>eśka”.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Ch<ch a="C"/>leb się, chl<ch a="G"/>ebie, chl<ch a="e"/>eb się, chl<ch a="a"/>ebie,</row>
 			<row important_over="true"><ch a="C"/>bo nad chl<ch a="h"/>eb być może <ch a="e"/>co!</row>
-			<row>Ch<ch a="C"/>leb się, chl<ch a="G"/>ebie, chl<ch a="e"/>eb się, chl<ch a="a"/>ebie,</row>
-			<row>n<ch a="C"/>iech ci nigdy nie zabraknie</row>
-			<row>d<ch a="D"/>rożdży, w<ch a="A"/>ody, r<ch a="e"/>ąk i zi<ch a="h"/>arna – (m<ch a="G"/>ruc<ch a="D"/>zał C<ch a="A"/>zesiek <ch a="G"/>tak noc w <ch a="D"/>noc).</row>
+			<row important_over="false">Ch<ch a="C"/>leb się, chl<ch a="G"/>ebie, chl<ch a="e"/>eb się, chl<ch a="a"/>ebie,</row>
+			<row important_over="false">n<ch a="C"/>iech ci nigdy nie zabraknie</row>
+			<row important_over="false">d<ch a="D"/>rożdży, w<ch a="A"/>ody, r<ch a="e"/>ąk i zi<ch a="h"/>arna – (m<ch a="G"/>ruc<ch a="D"/>zał C<ch a="A"/>zesiek <ch a="G"/>tak noc w <ch a="D"/>noc).</row>
 		</block>
 		<block type="verse">
 			<row important_over="never" sidechords="D A">A o porankach chlebem pachnących,</row>
@@ -64,10 +64,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Wojciech Bellon (słowa i muzyka), Wolna Grupa Bukowina (album "Bukowina")</verificator>
-			<verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/ballada-o-czesku-piekarzu</verificator>
-			<verificator>Historia utworu: poświęcony Czesławowi Królowi (1940–1971), piekarzowi i rzeźbiarzowi z Buska-Zdroju</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/ballada-o-czesku-piekarzu</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
