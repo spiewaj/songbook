@@ -61,9 +61,8 @@
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<verificators>
-			<verificator>Kasia Tabor</verificator>
-			<verificator>PT</verificator>
-		</verificators>
+      <verificator>Kasia Tabor</verificator>
+    </verificators>
 		<to_do/>
 		<done>
 			<text/>
