@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="O braciach którzy pytali się" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo"></text_author>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="O braciach, którzy pytali się">
+	<text_author type="solo">ks. Jan Twardowski</text_author>
 	<comment>Zwrotka 4/4, refren 3/4.</comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<composer type="solo">Waldemar Koperkiewicz</composer>
+	<artist type="solo">Waldemar Koperkiewicz</artist>
+	<original_title>O braciach, którzy pytali się samych siebie</original_title>
+	<genre>poezja śpiewana</genre>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Wyszli br<ch a="D"/>acia, wiatr we włosach, co za cz<ch a="G"/>as,</row>
@@ -14,7 +13,7 @@
 			<row important_over="false">Pochyl<ch a="D"/>eni, zanurzeni po p<ch a="G"/>as,</row>
 			<row important_over="true">Brodzą w n<ch a="A"/>ocy czerwc<ch a="G"/>owej jak w w<ch a="A"/>odzie.</row>
 			<row important_over="false">Zatrzaśni<ch a="D"/>ęte na krzyż okienn<ch a="G"/>ice,</row>
-			<row important_over="false">Nieskosz<ch a="D"/>ony jescze zapach ł<ch a="A"/>ąk</row>
+			<row important_over="false">Nieskosz<ch a="D"/>ony jeszcze zapach ł<ch a="A"/>ąk</row>
 			<row important_over="false">I już pł<ch a="D"/>oną pozrywane księż<ch a="G"/>yce</row>
 			<row important_over="false">W białych l<ch a="A"/>ampach zamkni<ch a="G"/>ętych r<ch a="A"/>ąk.</row>
 		</block>
@@ -51,21 +50,18 @@
 			</bis>
 		</block>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="4/4, 3/4">
+		<guitar barre="0"/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
 	<status>
-		<done>
-			<text/>
-			<chords>chord positioning</chords>
-		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
+			<verificator>https://teatres.siedlce.pl</verificator>
 		</verificators>
-		<to_do></to_do>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
 	</status>
-	<music_source></music_source>
 </song>
