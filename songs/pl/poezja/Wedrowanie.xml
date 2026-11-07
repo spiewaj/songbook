@@ -47,7 +47,9 @@
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://www.wolosatki.pl/piosenki,repertuar-wlasny/22,Wedrowanie</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
