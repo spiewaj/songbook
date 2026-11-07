@@ -59,6 +59,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/liliana-urbanska/wiatr-wiosenny-gitarzysta</verificator>
+    </verificators>
 	</status>
 </song>
