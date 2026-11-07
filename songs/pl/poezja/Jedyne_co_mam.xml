@@ -56,10 +56,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Mariola Platte (słowa), Stefan Brzozowski (muzyka)</verificator>
-			<verificator>Czerwony Tulipan – album „Jedyne co mam” (1995)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/czerwony-tulipan/jedyne-co-mam</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/czerwony-tulipan/jedyne-co-mam</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
