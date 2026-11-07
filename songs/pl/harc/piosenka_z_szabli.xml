@@ -1,57 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka z szabli">
-  <alias>Karabin</alias>
-  <text_author type="solo">Inskrypcja na szabli</text_author>
-  <comment/>
+  <alias>Żołnierz</alias>
+  <text_author type="solo">Henryk Zbierzchowski</text_author>
+  <comment>Wiersz Henryka Zbierzchowskiego pt. „Żołnierz” z tomu „Płomienie” (1916). Słowa te wygrawerowane były na klindze szabli mjr. Henryka Szczyglińskiego; w latach 70. Paweł Orkisz spisał je z wystawy w Malborku i skomponował melodię.</comment>
   <composer type="solo">Paweł Orkisz</composer>
+  <artist type="solo">Paweł Orkisz</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">N<ch a="d"/>iech w księgach w<ch a="C"/>iedzy szpera r<ch a="d"/>abin</row>
-      <row important_over="true"><ch a="d"/>Nauka <ch a="C"/>to jest wymysł d<ch a="A7"/>iabli</row>
-      <row important_over="true"><ch a="F"/>Mądrością moją jest ka<ch a="C"/>rabin, kar<ch a="g"/>abin</row>
-      <row important_over="true">I k<ch a="A7"/>linga ukochanej sz<ch a="d"/>abli.</row>
+      <row important_over="true">N<ch a="d"/>iech w księgach wi<ch a="C"/>edzy szpera r<ch a="d"/>abin,</row>
+      <row important_over="true">n<ch a="d"/>auka t<ch a="C"/>o jest wymysł di<ch a="A7"/>abli.</row>
+      <row important_over="true">M<ch a="F"/>ądrością moją j<ch a="C"/>est karabin, kar<ch a="g"/>abin</row>
+      <row important_over="true">i kl<ch a="A7"/>inga ukochanej sz<ch a="d"/>abli.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Nie dbam o szarżę ni o gwiazdkę</row>
-      <row important_over="never" sidechords="d C A7">Co kiedyś mi przystroją kołnierz</row>
-      <row important_over="never" sidechords="F C g">Wy piszcie klechdy i powiastki, powiastki</row>
-      <row important_over="never" sidechords="A7 d">Ja biję się, jak musi żołnierz.</row>
+      <row important_over="false">Ni<ch a="d"/>e dbam o szarżę n<ch a="C"/>i o gwiazdkę,</row>
+      <row important_over="false">c<ch a="d"/>o kiedyś m<ch a="C"/>i przystroją kołni<ch a="A7"/>erz.</row>
+      <row important_over="false">W<ch a="F"/>y piszcie klechdy <ch a="C"/>i powiastki, powi<ch a="g"/>astki,</row>
+      <row important_over="false">j<ch a="A7"/>a biję się, jak musi żołni<ch a="d"/>erz.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Nie pnę się do zaszczytów drabin</row>
-      <row important_over="never" sidechords="d C A7">I generała biorą diabli!</row>
-      <row important_over="never" sidechords="F C g">Podporą moją jest karabin</row>
-      <row important_over="never" sidechords="A7 d">I klinga ukochanej szabli.</row>
+      <row important_over="false">Ni<ch a="d"/>e pnę się do zaszcz<ch a="C"/>ytów drabin,</row>
+      <row important_over="false">i g<ch a="d"/>enerała bi<ch a="C"/>orą di<ch a="A7"/>abli!</row>
+      <row important_over="false">P<ch a="F"/>odporą moją j<ch a="C"/>est karabin, kar<ch a="g"/>abin</row>
+      <row important_over="false">i kl<ch a="A7"/>inga ukochanej sz<ch a="d"/>abli.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Nie tęsknię do kawiarni gwarnej</row>
-      <row important_over="never" sidechords="d C A7">Gdzie mieszka banda dziwolągów</row>
-      <row important_over="never" sidechords="F C g">Gardzę zapachem buduaru, buduaru</row>
-      <row important_over="never" sidechords="A7 d">Gdzie Ania psoci wśród szezlągów</row>
+      <row important_over="false">Ni<ch a="d"/>e tęsknię do kawi<ch a="C"/>arni gwarnej,</row>
+      <row important_over="false">gdzi<ch a="d"/>e mieszka b<ch a="C"/>anda dziwoląg<ch a="A7"/>ów.</row>
+      <row important_over="false">G<ch a="F"/>ardzę zapachem b<ch a="C"/>uduaru, budu<ch a="g"/>aru,</row>
+      <row important_over="false">gdzi<ch a="A7"/>e Ania psoci wśród szezląg<ch a="d"/>ów.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Nie nęcą mnie zalety babin</row>
-      <row important_over="never" sidechords="d C A7">Kobieta zdradną, bierz ją diabli</row>
-      <row important_over="never" sidechords="F C g">Kochanką moją jest karabin, karabin</row>
-      <row important_over="never" sidechords="A7 d">I klinga ukochanej szabli</row>
+      <row important_over="false">Ni<ch a="d"/>e nęcą mnie zal<ch a="C"/>ety babin,</row>
+      <row important_over="false">kobi<ch a="d"/>eta zdradną, bi<ch a="C"/>erz ją di<ch a="A7"/>abli!</row>
+      <row important_over="false">K<ch a="F"/>ochanką moją j<ch a="C"/>est karabin, kar<ch a="g"/>abin</row>
+      <row important_over="false">i kl<ch a="A7"/>inga ukochanej sz<ch a="d"/>abli.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Nie jeden wróg miał na mnie chrapkę</row>
-      <row important_over="never" sidechords="d C A7">A teraz jęczy w piekle na dnie</row>
-      <row important_over="never" sidechords="F C g">Ze śmiercią igram w ciuciubabkę, w ciuciubabkę</row>
-      <row important_over="never" sidechords="A7 d">Więc może wkrótce mnie dopadnie</row>
+      <row important_over="false">Ni<ch a="d"/>ejeden wróg miał n<ch a="C"/>a mnie chrapkę,</row>
+      <row important_over="false"><ch a="d"/>a teraz jęczy w pi<ch a="C"/>ekle na dni<ch a="A7"/>e.</row>
+      <row important_over="false">Z<ch a="F"/>e śmiercią igram w ci<ch a="C"/>uciubabkę, ciuciub<ch a="g"/>abkę,</row>
+      <row important_over="false">wi<ch a="A7"/>ęc może wkrótce mnie dopadni<ch a="d"/>e.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d">Ksiądz niech mnie grzebie albo rabin</row>
-      <row important_over="never" sidechords="d C A7">Żołnierza się nie czepią diabli</row>
-      <row important_over="never" sidechords="F C g">Lecz w grób połóżcie mi karabin, karabin</row>
-      <row important_over="never" sidechords="A7 d">I klingę ukochanej szabli.</row>
+      <row important_over="false">Ksi<ch a="d"/>ądz niech mnie grzebie <ch a="C"/>albo rabin,</row>
+      <row important_over="false">żołni<ch a="d"/>erza się nie cz<ch a="C"/>epią di<ch a="A7"/>abli!</row>
+      <row important_over="false">L<ch a="F"/>ecz w grób połóżcie m<ch a="C"/>i karabin, kar<ch a="g"/>abin</row>
+      <row important_over="false">i kl<ch a="A7"/>ingę ukochanej sz<ch a="d"/>abli.</row>
     </block>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
-  <genre>Piosenka harcerska</genre>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chord positioning</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://www.orkisz.pl/przechyly-aut/30-piosenki-plyty/przechyly-aut/803-piosenka-z-szabli</verificator>
+      <verificator>https://spiewnik.wywrota.pl/pawel-orkisz/piosenka-z-szabli</verificator>
+    </verificators>
   </status>
 </song>
