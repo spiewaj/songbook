@@ -15,22 +15,22 @@
 			<row important_over="true">p<ch a="a"/>od powiek<ch a="E"/>ami lśnią łz<ch a="a"/>y. <ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row>Wcz<ch a="a"/>oraj wieczorem dow<ch a="C"/>iedział się, ż<ch a="D"/>e <ch a="F"/></row>
-			<row>j<ch a="a"/>est w Orleanie t<ch a="C"/>aki d<ch a="E"/>om, <ch a="E7"/></row>
-			<row>Wsch<ch a="a"/>odzącym Słońcem naz<ch a="C"/>ywa się g<ch a="D"/>o, <ch a="F"/></row>
-			<row>mi<ch a="a"/>eszkają w n<ch a="E"/>im chłopcy jak <ch a="a"/>on. <ch a="E"/></row>
+			<row important_over="false">Wcz<ch a="a"/>oraj wieczorem dow<ch a="C"/>iedział się, ż<ch a="D"/>e <ch a="F"/></row>
+			<row important_over="false">j<ch a="a"/>est w Orleanie t<ch a="C"/>aki d<ch a="E"/>om, <ch a="E7"/></row>
+			<row important_over="false">Wsch<ch a="a"/>odzącym Słońcem naz<ch a="C"/>ywa się g<ch a="D"/>o, <ch a="F"/></row>
+			<row important_over="false">mi<ch a="a"/>eszkają w n<ch a="E"/>im chłopcy jak <ch a="a"/>on. <ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row>W <ch a="a"/>oknach ma kraty, przy drzwi<ch a="C"/>ach stoi str<ch a="D"/>óż <ch a="F"/></row>
-			<row>i p<ch a="a"/>atrzy wzrokiem pon<ch a="C"/>ur<ch a="E"/>ym <ch a="E7"/></row>
-			<row>n<ch a="a"/>a małych chłopców, więzi<ch a="C"/>enny ich str<ch a="D"/>ój, <ch a="F"/></row>
-			<row>n<ch a="a"/>a ogol<ch a="E"/>one gł<ch a="a"/>owy. <ch a="E"/></row>
+			<row important_over="false">W <ch a="a"/>oknach ma kraty, przy drzwi<ch a="C"/>ach stoi str<ch a="D"/>óż <ch a="F"/></row>
+			<row important_over="false">i p<ch a="a"/>atrzy wzrokiem pon<ch a="C"/>ur<ch a="E"/>ym <ch a="E7"/></row>
+			<row important_over="false">n<ch a="a"/>a małych chłopców, więzi<ch a="C"/>enny ich str<ch a="D"/>ój, <ch a="F"/></row>
+			<row important_over="false">n<ch a="a"/>a ogol<ch a="E"/>one gł<ch a="a"/>owy. <ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row>A<ch a="a"/>le nadzieja nie zg<ch a="C"/>aśnie w n<ch a="D"/>ich <ch a="F"/></row>
-			<row>pom<ch a="a"/>imo więziennych m<ch a="C"/>urów c<ch a="E"/>el, <ch a="E7"/></row>
-			<row>wsch<ch a="a"/>odzące słońce zabł<ch a="C"/>yśnie zn<ch a="D"/>ów <ch a="F"/></row>
-			<row>n<ch a="a"/>ad małym d<ch a="E"/>omem w kraju t<ch a="a"/>ym. <ch a="E"/></row>
+			<row important_over="false">A<ch a="a"/>le nadzieja nie zg<ch a="C"/>aśnie w n<ch a="D"/>ich <ch a="F"/></row>
+			<row important_over="false">pom<ch a="a"/>imo więziennych m<ch a="C"/>urów c<ch a="E"/>el, <ch a="E7"/></row>
+			<row important_over="false">wsch<ch a="a"/>odzące słońce zabł<ch a="C"/>yśnie zn<ch a="D"/>ów <ch a="F"/></row>
+			<row important_over="false">n<ch a="a"/>ad małym d<ch a="E"/>omem w kraju t<ch a="a"/>ym. <ch a="E"/></row>
 		</block>
 	</lyric>
 	<music metre="6/8">
@@ -46,10 +46,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Amerykańska ballada tradycyjna „The House of the Rising Sun”</verificator>
-			<verificator>Polska wersja ogniskowa (autor przekładu nieznany)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/dom-wschodzacego-slonca</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/dom-wschodzacego-slonca</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
