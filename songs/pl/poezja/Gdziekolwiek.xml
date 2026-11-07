@@ -19,13 +19,13 @@
 			<row important_over="true">gdziek<ch a="G"/>olwiek będziesz...</row>
 		</block>
 		<block type="verse">
-			<row>Gdziek<ch a="e"/>olwiek będziesz, cok<ch a="H"/>olwiek się stanie,</row>
-			<row>b<ch a="d"/>ędą miejsca w książkach i miejsca przy stole,</row>
-			<row>k<ch a="C"/>asztan, kiedy kwitnie lub owoc otwiera,</row>
-			<row>wciąż b<ch a="G"/>ędzie początek, bo wszędzie są mosty</row>
-			<row>prawdz<ch a="e"/>iwe jak powietrze, od<ch a="H"/>e mnie do ciebie,</row>
-			<row>gdziek<ch a="d"/>olwiek będę, cokolwiek się stanie,</row>
-			<row>gdziek<ch a="C"/>olwiek będę... <ch a="G"/></row>
+			<row important_over="false">Gdziek<ch a="e"/>olwiek będziesz, cok<ch a="H"/>olwiek się stanie,</row>
+			<row important_over="false">b<ch a="d"/>ędą miejsca w książkach i miejsca przy stole,</row>
+			<row important_over="false">k<ch a="C"/>asztan, kiedy kwitnie lub owoc otwiera,</row>
+			<row important_over="false">wciąż b<ch a="G"/>ędzie początek, bo wszędzie są mosty</row>
+			<row important_over="false">prawdz<ch a="e"/>iwe jak powietrze, od<ch a="H"/>e mnie do ciebie,</row>
+			<row important_over="false">gdziek<ch a="d"/>olwiek będę, cokolwiek się stanie,</row>
+			<row important_over="false">gdziek<ch a="C"/>olwiek będę... <ch a="G"/></row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>
@@ -42,11 +42,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Jan Zych (wiersz „Gdziekolwiek”), Marek Grechuta (muzyka)</verificator>
-			<verificator>Album: Marek Grechuta – „Droga za widnokres” (1972)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/gdziekolwiek</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://spiewnik.wywrota.pl/marek-grechuta/gdziekolwiek</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
