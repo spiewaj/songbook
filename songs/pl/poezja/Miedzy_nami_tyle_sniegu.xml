@@ -53,9 +53,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kuba</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Kuba</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
