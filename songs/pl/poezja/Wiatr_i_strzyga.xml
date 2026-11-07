@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Wiatr i strzyga">
-	<alias/>
+	<alias>Podkradnę się, w twoich włosach zanurzę dłoń</alias>
 	<text_author type="solo">Maciej Służała</text_author>
-	<comment>Piosenka przyspiesza w miarę wykonywania</comment>
+	<comment>Piosenka przyspiesza w miarę wykonywania. Zespół Krążek uważał swoją drugą nazwę Tak czy Owak za przejściową.</comment>
 	<composer type="solo">Celtycki motyw ludowy</composer>
 	<artist type="band">Krążek</artist>
 	<translator/>
@@ -10,64 +10,64 @@
 	<lyric>
 		<block type="verse">
 			<row important_over="true"><ch a="A4"/> Podkradnę się, w twoich wł<ch a="d"/>osach zanurzę dł<ch a="C"/>oń,</row>
-			<row important_over="false">P<ch a="A4"/>obiegnę dalej, zn<ch a="d"/>iknę, wsiąknę w tr<ch a="C"/>awę,</row>
-			<row important_over="false">P<ch a="A4"/>odejdę chyłkiem, sz<ch a="d"/>arpnę za sukni skr<ch a="C"/>aj,</row>
-			<row important_over="false">Z<ch a="A4"/>anim obejrzysz się już mnie nie będzie wcale.<ch a="d"/><ch a="C"/></row>
+			<row important_over="true"><ch a="A4"/> Pobiegnę dalej, zn<ch a="d"/>iknę, wsiąknę w tr<ch a="C"/>awę,</row>
+			<row important_over="true"><ch a="A4"/> Podejdę chyłkiem, sz<ch a="d"/>arpnę za sukni skr<ch a="C"/>aj,</row>
+			<row important_over="true"><ch a="A4"/> Zanim obejrzysz się, już mnie ni<ch a="d"/>e będzie wc<ch a="C"/>ale.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Psotniku — wietrze, gdzie znów ukryłeś się?<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Poczekaj chwilę — pstro masz tylko w głowie.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Wciąż dokądś pędzisz, o nic nie martwisz się.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Przysiądź na chwilę tu — smutno mi przecież samej.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Psotniku — wietrze, gdz<ch a="d"/>ie znów ukryłeś si<ch a="C"/>ę?</row>
+			<row important_over="false"><ch a="A4"/> Poczekaj chwilę — pstr<ch a="d"/>o masz tylko w gł<ch a="C"/>owie.</row>
+			<row important_over="false"><ch a="A4"/> Wciąż dokądś pędzisz, <ch a="d"/>o nic nie martwisz si<ch a="C"/>ę.</row>
+			<row important_over="false"><ch a="A4"/> Przysiądź na chwilę tu — sm<ch a="d"/>utno mi przecież s<ch a="C"/>amej.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Zakręcę w głowie, obsypię liśćmi twarz,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Całusa skradnę, zanim się opędzisz.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Ciepłą dłonią oplotę cię jak szal.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Tchnieniem szemrzących ust spłynę po twojej piersi.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Zakręcę w głowie, <ch a="d"/>obsypię liśćmi tw<ch a="C"/>arz,</row>
+			<row important_over="false"><ch a="A4"/> Całusa skradnę, z<ch a="d"/>anim się opędz<ch a="C"/>isz.</row>
+			<row important_over="false"><ch a="A4"/> Ciepłą dłonią <ch a="d"/>oplotę cię jak sz<ch a="C"/>al.</row>
+			<row important_over="false"><ch a="A4"/> Tchnieniem szemrzących ust spł<ch a="d"/>ynę po twojej pi<ch a="C"/>ersi.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Szaleńcze, zwolnij, proszę, bo tchu mi brak!<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Mój panie, hola — ręce precz ode mnie!<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Twych palców dotyk rozpala moją twarz,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Po plecach biegnie dreszcz, cała już się rumienię.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Szaleńcze, zwolnij, pr<ch a="d"/>oszę, bo tchu mi br<ch a="C"/>ak!</row>
+			<row important_over="false"><ch a="A4"/> Mój panie, hola — r<ch a="d"/>ęce precz ode mn<ch a="C"/>ie!</row>
+			<row important_over="false"><ch a="A4"/> Twych palców dotyk r<ch a="d"/>ozpala moją tw<ch a="C"/>arz,</row>
+			<row important_over="false"><ch a="A4"/> Po plecach biegnie dreszcz, c<ch a="d"/>ała już się rumi<ch a="C"/>enię.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Twe dłonie złapię, porwę w szalony tan,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Na progu nocy wplączę się w twoją suknię.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Twój okrzyk zduszę szaleństwem chciwych warg,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Tysiącem zwiewnych rąk wyrzeźbię twą figurę.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Twe dłonie złapię, p<ch a="d"/>orwę w szalony t<ch a="C"/>an,</row>
+			<row important_over="false"><ch a="A4"/> Na progu nocy wpl<ch a="d"/>ączę się w twoją s<ch a="C"/>uknię.</row>
+			<row important_over="false"><ch a="A4"/> Twój okrzyk zduszę szal<ch a="d"/>eństwem chciwych w<ch a="C"/>arg,</row>
+			<row important_over="false"><ch a="A4"/> Tysiącem zwiewnych rąk w<ch a="d"/>yrzeźbię twą fig<ch a="C"/>urę.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Za brodę złapię, tupnę, ugryzę w nos!<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Dotrzymam w tańcu kroku — aż się zdziwisz!<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Nakręcę uszu, przytrzymam cię za wąs.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Zwiodę, uwiodę w las, wplączę cię w pajęczynę.<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Za brodę złapię, t<ch a="d"/>upnę, ugryzę w n<ch a="C"/>os!</row>
+			<row important_over="false"><ch a="A4"/> Dotrzymam w tańcu kr<ch a="d"/>oku — aż się zdz<ch a="C"/>iwisz!</row>
+			<row important_over="false"><ch a="A4"/> Nakręcę uszu, prz<ch a="d"/>ytrzymam cię za w<ch a="C"/>ąs.</row>
+			<row important_over="false"><ch a="A4"/> Zwiodę, uwiodę w las, wpl<ch a="d"/>ączę cię w pajęcz<ch a="C"/>ynę.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false"><ch a="A4"/>Splątani w jedno czmychniemy w leśny gąszcz,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>Wszak życie nasze — jeno oka mgnienie.<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>W strumieniu, w trawie nasz zwariowany pląs,<ch a="d"/><ch a="C"/></row>
-			<row important_over="false"><ch a="A4"/>W krzaku dzikiego bzu cisza — już po spełnieniu…<ch a="d"/><ch a="C"/></row>
+			<row important_over="false"><ch a="A4"/> Splątani w jedno czm<ch a="d"/>ychniemy w leśny g<ch a="C"/>ąszcz,</row>
+			<row important_over="false"><ch a="A4"/> Wszak życie nasze — j<ch a="d"/>eno oka mgn<ch a="C"/>ienie.</row>
+			<row important_over="false"><ch a="A4"/> W strumieniu, w trawie n<ch a="d"/>asz zwariowany pl<ch a="C"/>ąs,</row>
+			<row important_over="false"><ch a="A4"/> W krzaku dzikiego bzu c<ch a="d"/>isza — już po spełni<ch a="C"/>eniu…</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<keywords>
+		<keyword>Krążek</keyword>
+		<keyword>Tak czy Owak</keyword>
+	</keywords>
+	<album>Baśń</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<done>	<text/>
+		<done>
+			<text/>
 			<authors/>
 			<chords>chords</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			
 		</verificators>
-		<to_do>Tekst wg kasety "Baśń". Na razie za słabo to gram, żeby rozmieszczać akordy. — Onufry
-Zespół Krążek (http://krazek.art.pl/) uważa swoją drugą nazwę Tak czy Owak za przejściową i nietrafioną, respektujemy to — Alek
-</to_do>
-	</status>	<keywords/>
-	<music_source/>
-	<album/>
-	<genre/>
+	</status>
 </song>
