@@ -54,9 +54,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
