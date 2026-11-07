@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nie chodź tam">
 	<alias>Słonecznikowe pestki</alias>
 	<text_author type="solo">Jerzy Reiser</text_author>
-	<comment>Dorotka: Usunięto akordy C z początków wersów, aby uprościć zapis.</comment>
+	<comment>Utwór z jedynego albumu wydanego przez zespół Browar Żywiec („Jaworzyna”). W różnych śpiewnikach spotyka się drobne modyfikacje akordów (np. dodatkowy akord C na początku wersów refrenu).</comment>
 	<composer type="solo">Jerzy Reiser</composer>
 	<artist type="band">Browar Żywiec</artist>
 	<lyric>
@@ -56,14 +56,14 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
 			<verificator>Krzysiek Cz.</verificator>
 			<verificator>Dorotka</verificator>
-			<verificator>Browar Żywiec - Jaworzyna</verificator>
 			<verificator>https://spiewogranie.pl/piosenki/browar-zywiec/nie-chodz-tam/</verificator>
 		</verificators>
+		<to_do>Dorotka: Zabrałam akordy „C” z początków wersów, bo tylko zaciemniają obraz i trudno się tak gra.</to_do>
 	</status>
 </song>
