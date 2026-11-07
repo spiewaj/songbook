@@ -28,29 +28,29 @@
 			<row important_over="true">Cz<ch a="d"/>emu p<ch a="a"/>iszę, ni<ch a="E"/>e wiem s<ch a="a"/>am.</row>
 		</block>
 		<block type="verse">
-			<row>J<ch a="a"/>uż prz<ch a="E7"/>ede mną kartek st<ch a="a"/>o,</row>
-			<row><ch a="a"/> Nieprzebyte śnieżne d<ch a="d"/>ale,</row>
-			<row>L<ch a="d"/>ecz dlaczego <ch a="a"/>i mój los,</row>
-			<row><ch a="E"/> W wątek się wplątuje st<ch a="a"/>ale?</row>
-			<row>Cz<ch a="a"/>emu wci<ch a="E7"/>ąż się pragnę b<ch a="a"/>ić</row>
-			<row><ch a="a"/> Z przeciwnikiem wymyśl<ch a="d"/>onym,</row>
-			<row>B<ch a="d"/>ohaterem nie chcąc b<ch a="a"/>yć</row>
-			<row><ch a="E"/> W stan spoczynku przeniesi<ch a="a"/>onym?</row>
+			<row important_over="false">J<ch a="a"/>uż prz<ch a="E7"/>ede mną kartek st<ch a="a"/>o,</row>
+			<row important_over="false"><ch a="a"/> Nieprzebyte śnieżne d<ch a="d"/>ale,</row>
+			<row important_over="false">L<ch a="d"/>ecz dlaczego <ch a="a"/>i mój los,</row>
+			<row important_over="false"><ch a="E"/> W wątek się wplątuje st<ch a="a"/>ale?</row>
+			<row important_over="false">Cz<ch a="a"/>emu wci<ch a="E7"/>ąż się pragnę b<ch a="a"/>ić</row>
+			<row important_over="false"><ch a="a"/> Z przeciwnikiem wymyśl<ch a="d"/>onym,</row>
+			<row important_over="false">B<ch a="d"/>ohaterem nie chcąc b<ch a="a"/>yć</row>
+			<row important_over="false"><ch a="E"/> W stan spoczynku przeniesi<ch a="a"/>onym?</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>Pr<ch a="a"/>awda i w zmyśleniu tkwi,</row>
-			<row><ch a="a"/> Ale powieść nie got<ch a="d"/>owa,</row>
-			<row>Wi<ch a="d"/>ęc pozwólcie p<ch a="a"/>isać mi</row>
-			<row><ch a="E"/> Aż do ostatniego sł<ch a="a"/>owa.</row>
-			<row>Pr<ch a="a"/>agnę, póki róży kwiat</row>
-			<row><ch a="a"/> Na mym stole czerwi<ch a="d"/>enieje,</row>
-			<row>Krz<ch a="d"/>yczeć, kiedy milczy świ<ch a="a"/>at,</row>
-			<row><ch a="E"/> Szeptać, kiedy świat szal<ch a="a"/>eje.</row>
+			<row important_over="false">Pr<ch a="a"/>awda i w zmyśleniu tkwi,</row>
+			<row important_over="false"><ch a="a"/> Ale powieść nie got<ch a="d"/>owa,</row>
+			<row important_over="false">Wi<ch a="d"/>ęc pozwólcie p<ch a="a"/>isać mi</row>
+			<row important_over="false"><ch a="E"/> Aż do ostatniego sł<ch a="a"/>owa.</row>
+			<row important_over="false">Pr<ch a="a"/>agnę, póki róży kwiat</row>
+			<row important_over="false"><ch a="a"/> Na mym stole czerwi<ch a="d"/>enieje,</row>
+			<row important_over="false">Krz<ch a="d"/>yczeć, kiedy milczy świ<ch a="a"/>at,</row>
+			<row important_over="false"><ch a="E"/> Szeptać, kiedy świat szal<ch a="a"/>eje.</row>
 		</block>
 		<block type="chorus">
-			<row>N<ch a="a"/>asłuchuję, wypatruję</row>
-			<row><ch a="a"/>I spisuję to, co czuję.</row>
+			<row important_over="false">N<ch a="a"/>asłuchuję, wypatruję</row>
+			<row important_over="false"><ch a="a"/>I spisuję to, co czuję.</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -62,11 +62,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-		</verificators>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
