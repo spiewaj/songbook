@@ -1,37 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chudobnom">
-  <composer>ludowa kołysanka z Podhala</composer>
+  <comment>Ludowa kołysanka z Podhala.</comment>
+  <text_author type="solo">ludowy</text_author>
+  <composer type="solo">ludowy</composer>
   <artist type="band">Dom o Zielonych Progach</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Chudobnom mnie mama <ch a="G"/>miała</row>
-      <row important_over="true"><ch a="G"/>Chudobnom mnie wychow<ch a="a"/>ała</row>
-      <row important_over="true"><ch a="C"/>W nocy wsta<ch a="G"/>ła i śpie<ch a="C"/>wała</row>
-      <row important_over="true"><ch a="C"/>Do rania <ch a="G"/>mnie koły<ch a="a"/>sała</row>
+      <row important_over="true"><ch a="a"/>Chudobnom mnie mama <ch a="G"/>miała,</row>
+      <row important_over="true"><ch a="G"/>chudobnom mnie wychow<ch a="a"/>ała,</row>
+      <row important_over="true"><ch a="C"/>w nocy wsta<ch a="G"/>ła i śpie<ch a="C"/>wała,</row>
+      <row important_over="true"><ch a="C"/>do rania <ch a="G"/>mnie koły<ch a="a"/>sała.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Z rania kładła mnie w ogrodzie<ch a="a"/><ch a="G"/></row>
-      <row important_over="false">Psy potocku, het psy wodzie<ch a="G"/><ch a="a"/></row>
-      <row important_over="false">Tej słowiki mnie śpiewały<ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">I do snu mnie kołysały<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Z rania kładła mnie w ogr<ch a="G"/>odzie,</row>
+      <row important_over="false"><ch a="G"/>psy potocku, het psy w<ch a="a"/>odzie,</row>
+      <row important_over="false"><ch a="C"/>tej słow<ch a="G"/>iki mnie śpie<ch a="C"/>wały</row>
+      <row important_over="false"><ch a="C"/>i do sn<ch a="G"/>u mnie koły<ch a="a"/>sały.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Hej Janicku nie bij ze mnie<ch a="a"/><ch a="G"/></row>
-      <row important_over="false">W kołysecce kołys ze mnie<ch a="G"/><ch a="a"/></row>
-      <row important_over="false">Bo mnie mama nie bijała<ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">W kołysecce kołysała<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Hej, Janicku, nie bij <ch a="G"/>ze mnie,</row>
+      <row important_over="false"><ch a="G"/>w kołysecce kołys <ch a="a"/>ze mnie,</row>
+      <row important_over="false"><ch a="C"/>bo mnie m<ch a="G"/>ama nie bij<ch a="C"/>ała,</row>
+      <row important_over="false"><ch a="C"/>w kołys<ch a="G"/>ecce koły<ch a="a"/>sała.</row>
     </block>
     <block type="verse">
-      <row important_over="false">A jak nie masz kołysecki<ch a="a"/><ch a="G"/></row>
-      <row important_over="false">Idź do lasu na zerdecki<ch a="G"/><ch a="a"/></row>
-      <row important_over="false">Wystrugaj je cieniusieńko<ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Kołysz ze mnie lekusieńko<ch a="C"/><ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>A jak nie masz kołys<ch a="G"/>ecki,</row>
+      <row important_over="false"><ch a="G"/>idź do lasu na zerd<ch a="a"/>ecki,</row>
+      <row important_over="false"><ch a="C"/>wystrug<ch a="G"/>aj je cieniu<ch a="C"/>sieńko,</row>
+      <row important_over="false"><ch a="C"/>kołysz <ch a="G"/>ze mnie leku<ch a="a"/>sieńko.</row>
     </block>
   </lyric>
   <keywords/>
   <genre>Folk</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/chudobnom</verificator>
+    </verificators>
   </status>
 </song>
