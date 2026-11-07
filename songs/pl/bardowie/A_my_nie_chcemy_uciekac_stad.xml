@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="A my nie chcemy uciekać stąd">
+	<alias></alias>
 	<text_author type="solo">Jacek Kaczmarski</text_author>
-	<comment>Zwrotka &#039;Dym w dziurce od klucza&#039; nie pojawia się w oficjalnych wersjach, które przeglądałem.</comment>
+	<comment>Zwrotka &#039;Dym w dziurce od klucza&#039; nie pojawia się w oficjalnych wersjach studyjnych.</comment>
 	<composer type="solo">Przemysław Gintrowski</composer>
-	<artist type="solo">Jacek Kaczmarski; Przemysław Gintrowski</artist>
+	<artist type="solo">Przemysław Gintrowski</artist>
+	<translator></translator>
+	<original_title></original_title>
 	<lyric>
 		<block type="verse">
 			<row important_over="true">St<ch a="a"/>anął w ogniu nasz wi<ch a="G"/>elki dom</row>
@@ -47,7 +50,7 @@
 			<row important_over="false">T<ch a="a"/>ędy — wrz<ch a="G"/>eszczy — ni<ch a="e"/>ech was jasna chol<ch a="a"/>era!</row>
 			<row important_over="false"><ch a="F"/> A my nie ch<ch a="G"/>cemy<ch a="e"/> uciekać st<ch a="a"/>ąd</row>
 		</block>
-		<block type="verse">
+		<block type="chorus">
 			<bis times="3">
 				<row important_over="false">A m<ch a="a"/>y nie chc<ch a="G"/>emy<ch a="e"/> uciekać st<ch a="a"/>ąd</row>
 				<row important_over="false"><ch a="F"/> Krzyczymy w sz<ch a="G"/>ale wściekł<ch a="e"/>ości i pok<ch a="a"/>ory</row>
@@ -60,18 +63,19 @@
 		<guitar barre="0"/>
 	</music>
 	<keywords/>
-	<album>Przybycie Tytanów</album>
+	<album>Pamiątki</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords/>
 		</done>
 		<verificators>
 			<verificator>Adam</verificator>
 			<verificator>Onufry</verificator>
+			<verificator>https://kaczmarski.art.pl/tworczosc/wiersze/a-my-nie-chcemy-uciekac-stad/</verificator>
 		</verificators>
-		<to_do>Dodaje rozmieszczenie akordów.Nie jestem na 100% pewien płyty</to_do>
+		<to_do></to_do>
 	</status>
 </song>
