@@ -9,8 +9,8 @@
 		<block type="verse">
 			<row important_over="true">Że sp<ch a="e"/>adnie z nieba to co chc<ch a="Fis"/>esz,</row>
 			<row important_over="true">M<ch a="H7"/>ylisz się bracie i na p<ch a="e"/>ewno —</row>
-			<row>Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
-			<row>Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+			<row important_over="false">Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Tylko chci<ch a="e"/>eć, będziesz miał sł<ch a="D"/>ońce co dnia,</row>
@@ -22,17 +22,17 @@
 			<row important_over="true"><ch a="a"/> Dla ciebie wsz<ch a="H7"/>ystko!</row>
 		</block>
 		<block type="verse">
-			<row>Nie p<ch a="e"/>ójdziesz dalej nawet kr<ch a="Fis"/>ok,</row>
-			<row>Gdy st<ch a="H7"/>oisz w miejscu — to na p<ch a="e"/>ewno.</row>
-			<row>Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
-			<row>Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+			<row important_over="false">Nie p<ch a="e"/>ójdziesz dalej nawet kr<ch a="Fis"/>ok,</row>
+			<row important_over="false">Gdy st<ch a="H7"/>oisz w miejscu — to na p<ch a="e"/>ewno.</row>
+			<row important_over="false">Nie cz<ch a="e"/>ekaj cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>Nie cz<ch a="e"/>ekaj jutra, dzisiaj j<ch a="Fis"/>uż</row>
-			<row>Ob<ch a="H7"/>udź się bracie, kwiaty wi<ch a="e"/>ędną.</row>
-			<row>I j<ch a="e"/>uż bez cudów, przecież wi<ch a="Fis"/>esz:</row>
-			<row>Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
+			<row important_over="false">Nie cz<ch a="e"/>ekaj jutra, dzisiaj j<ch a="Fis"/>uż</row>
+			<row important_over="false">Ob<ch a="H7"/>udź się bracie, kwiaty wi<ch a="e"/>ędną.</row>
+			<row important_over="false">I j<ch a="e"/>uż bez cudów, przecież wi<ch a="Fis"/>esz:</row>
+			<row important_over="false">Ż<ch a="H7"/>ycie upływa, a masz j<ch a="e"/>edno.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -47,7 +47,7 @@
 			<chords>chords</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-		</verificators>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 	</status>
 </song>
