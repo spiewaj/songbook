@@ -65,6 +65,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Wizyta_u_malarki/tekst</verificator>
+    </verificators>
 	</status>
 </song>
