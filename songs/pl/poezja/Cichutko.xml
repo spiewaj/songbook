@@ -19,9 +19,9 @@
 			<row important_over="true">ukr<ch a="C"/>yta w bezmiar sw<ch a="G"/>ej pięknośc<ch a="D"/>i...<ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row>Cich<ch a="e"/>utko, pomal<ch a="D"/>eńk<ch a="e"/>u,</row>
-			<row>przez świ<ch a="D"/>ata dziwny świat</row>
-			<row>nie zw<ch a="C"/>ażaj na okr<ch a="G"/>utne oczy dni<ch a="D"/>a.<ch a="e"/></row>
+			<row important_over="false">Cich<ch a="e"/>utko, pomal<ch a="D"/>eńk<ch a="e"/>u,</row>
+			<row important_over="false">przez świ<ch a="D"/>ata dziwny świat</row>
+			<row important_over="false">nie zw<ch a="C"/>ażaj na okr<ch a="G"/>utne oczy dni<ch a="D"/>a.<ch a="e"/></row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -37,11 +37,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Zbigniew Stefański (słowa i muzyka), oficjalna strona zespołu: bezjacka.art.pl</verificator>
-			<verificator>Album „Do mroku naglisz mnie” (2003, Dalmafon)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/bez-jacka/cichutko-pomalenku</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://spiewnik.wywrota.pl/bez-jacka/cichutko-pomalenku</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
