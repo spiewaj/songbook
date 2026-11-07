@@ -42,6 +42,8 @@
       <row important_over="false"><ch a="A"/>starał się sam.</row>
     </block>
     <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <album>Niemożliwe</album>
@@ -49,7 +51,7 @@
   <status>
     <done>
       <authors/>
-      <chords>cordes</chords>
+      <chords>chord positioning</chords>
       <text/>
     </done>
     <verificators>
