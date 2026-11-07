@@ -29,7 +29,154 @@ def text_or_empty(elem, path):
     return (val or "").strip()
 
 
-def analyze_song(path):
+def effective_stats(root):
+    """Return (effective_inline_chord_count, effective_nonempty_lyric_row_count)."""
+    lyric = root.find("s:lyric", NS)
+    if lyric is None:
+        return 0, 0
+    real_blocks = [b for b in lyric if b.tag == f"{{{NS_URI}}}block"]
+
+    def block_counts(b):
+        ch_c = 0
+        row_c = 0
+        for child in b:
+            if child.tag == f"{{{NS_URI}}}row":
+                ch_c += len(child.findall("s:ch", NS))
+                if child.attrib.get("style") != "instr" and "".join(child.itertext()).strip():
+                    row_c += 1
+            elif child.tag == f"{{{NS_URI}}}bis":
+                try:
+                    times = int(child.attrib.get("times", "2"))
+                except ValueError:
+                    times = 2
+                sub_ch = 0
+                sub_row = 0
+                for r in child.findall("s:row", NS):
+                    sub_ch += len(r.findall("s:ch", NS))
+                    if r.attrib.get("style") != "instr" and "".join(r.itertext()).strip():
+                        sub_row += 1
+                ch_c += sub_ch * times
+                row_c += sub_row * times
+        return ch_c, row_c
+
+    total_ch = 0
+    total_rows = 0
+    for child in lyric:
+        if child.tag == f"{{{NS_URI}}}block":
+            c, r = block_counts(child)
+            total_ch += c
+            total_rows += r
+        elif child.tag == f"{{{NS_URI}}}blocklink":
+            try:
+                nb = int(child.attrib.get("blocknb", "1")) - 1
+            except ValueError:
+                nb = -1
+            if 0 <= nb < len(real_blocks):
+                c, r = block_counts(real_blocks[nb])
+                total_ch += c
+                total_rows += r
+    return total_ch, total_rows
+
+
+def check_regression_against_base(path, root, base_ref="origin/main"):
+    """Compare current XML root against base_ref:path to detect information loss."""
+    issues = []
+    warnings = []
+    rel_path = os.path.relpath(path)
+    res = subprocess.run(
+        ["git", "show", f"{base_ref}:{rel_path}"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+    )
+    if res.returncode != 0 or not res.stdout.strip():
+        return issues, warnings
+
+    try:
+        base_root = ET.fromstring(res.stdout)
+    except Exception:
+        return issues, warnings
+
+    # 1. Check barre & metre attributes on <music> or <guitar>
+    base_barre = ""
+    curr_barre = ""
+    for elem_name in ("s:guitar", "s:music"):
+        b_el = base_root.find(f".//{elem_name}", NS)
+        c_el = root.find(f".//{elem_name}", NS)
+        if b_el is not None and (b_el.get("barre") or "").strip() not in ("", "0"):
+            base_barre = b_el.get("barre").strip()
+        if c_el is not None and (c_el.get("barre") or "").strip() not in ("", "0"):
+            curr_barre = c_el.get("barre").strip()
+    if base_barre and not curr_barre:
+        issues.append(f"LOST_BARRE: base had barre='{base_barre}', current has '{curr_barre or '0'}'")
+
+    base_metre = ""
+    curr_metre = ""
+    b_mus = base_root.find(".//s:music", NS)
+    c_mus = root.find(".//s:music", NS)
+    if b_mus is not None and (b_mus.get("metre") or "").strip():
+        base_metre = b_mus.get("metre").strip()
+    if c_mus is not None and (c_mus.get("metre") or "").strip():
+        curr_metre = c_mus.get("metre").strip()
+    if base_metre and not curr_metre:
+        issues.append(f"LOST_METRE: base had metre='{base_metre}', current removed it")
+
+    # 2. Check metadata fields
+    for tag in ("alias", "album", "original_title", "translator", "text_author", "composer", "artist"):
+        b_val = text_or_empty(base_root, f"s:{tag}")
+        c_val = text_or_empty(root, f"s:{tag}")
+        if b_val and not c_val:
+            warnings.append(f"LOST_METADATA: <{tag}> had '{b_val}' in base, now empty")
+
+    # 3. Check comment loss / truncation
+    b_comment = text_or_empty(base_root, "s:comment")
+    c_comment = text_or_empty(root, "s:comment")
+    c_todo = text_or_empty(root, ".//s:to_do")
+    if b_comment and not c_comment and b_comment not in c_todo:
+        warnings.append(f"DELETED_COMMENT: base had <comment> '{b_comment[:80]}', now empty")
+    elif b_comment and c_comment and len(c_comment) < len(b_comment) * 0.75:
+        warnings.append(
+            f"SHORTENED_COMMENT: <comment> length dropped from {len(b_comment)} to {len(c_comment)} chars"
+        )
+
+    # 4. Check verificators (lost historical verificators or newly added non-URL names)
+    b_verifs = [
+        (v.text or "").strip()
+        for v in base_root.findall(".//s:verificator", NS)
+        if (v.text or "").strip()
+    ]
+    c_verifs = [
+        (v.text or "").strip()
+        for v in root.findall(".//s:verificator", NS)
+        if (v.text or "").strip()
+    ]
+    lost_verifs = [v for v in b_verifs if v not in c_verifs]
+    if lost_verifs:
+        issues.append(f"LOST_VERIFICATOR: removed historical verificator(s) {lost_verifs}")
+
+    added_verifs = [v for v in c_verifs if v not in b_verifs]
+    non_url_added = [v for v in added_verifs if not v.startswith(("http://", "https://"))]
+    if non_url_added:
+        issues.append(
+            f"NON_URL_VERIFICATOR: newly added <verificator> must be a verified URL, found: {non_url_added}"
+        )
+
+    # 5. Check effective chords and lyric rows
+    b_ch, b_rows = effective_stats(base_root)
+    c_ch, c_rows = effective_stats(root)
+    if b_rows > 0 and c_rows < b_rows:
+        warnings.append(
+            f"FEWER_EFFECTIVE_ROWS: non-empty effective lyric rows dropped from {b_rows} to {c_rows} ({c_rows - b_rows:+d})"
+        )
+    if b_ch > 0 and c_ch < b_ch - 2:
+        warnings.append(
+            f"FEWER_EFFECTIVE_CHORDS: effective inline chords dropped from {b_ch} to {c_ch} ({c_ch - b_ch:+d})"
+        )
+
+    return issues, warnings
+
+
+def analyze_song(path, check_diff=False):
     issues = []
     warnings = []
     try:
@@ -191,6 +338,11 @@ def analyze_song(path):
     if to_do:
         issues.append(f"<to_do>: {to_do}")
 
+    if check_diff:
+        diff_issues, diff_warnings = check_regression_against_base(path, root)
+        issues.extend(diff_issues)
+        warnings.extend(diff_warnings)
+
     # Determine Priority Tier (1 = highest urgency, 5 = lowest urgency)
     if no_chords:
         tier = 1
@@ -216,7 +368,7 @@ def analyze_song(path):
 
 
 def check_single_song(path):
-    info = analyze_song(path)
+    info = analyze_song(path, check_diff=True)
     print(f"=== Checking {path} ({info['title']}) [Tier {info['tier']}] ===")
 
     # 1. xmllint validation
