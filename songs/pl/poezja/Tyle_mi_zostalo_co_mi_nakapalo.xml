@@ -22,51 +22,51 @@
 			<row important_over="true">Będzie prohibi<ch a="C"/>cja</row>
 		</block>
 		<block type="verse">
-			<row><ch a="C"/>Wody wczoraj mi naciekło</row>
-			<row>Prawie pół mied<ch a="G"/>nicy</row>
-			<row><ch a="G"/>Dzisiaj łup! i wywaliło</row>
-			<row>Rury w kamie<ch a="C"/>nicy</row>
-			<row><ch a="C"/>Tych żeberek, co pod oknem,</row>
-			<row><ch a="C7"/>Ogrzać już nie <ch a="F"/>sposób</row>
-			<row><ch a="F"/>Gdyby one były z <ch a="C"/>mięsa,</row>
-			<row>Miałbym chociaż <ch a="G"/>ro<ch a="C"/>sół.</row>
+			<row important_over="false"><ch a="C"/>Wody wczoraj mi naciekło</row>
+			<row important_over="false">Prawie pół mied<ch a="G"/>nicy</row>
+			<row important_over="false"><ch a="G"/>Dzisiaj łup! i wywaliło</row>
+			<row important_over="false">Rury w kamie<ch a="C"/>nicy</row>
+			<row important_over="false"><ch a="C"/>Tych żeberek, co pod oknem,</row>
+			<row important_over="false"><ch a="C7"/>Ogrzać już nie <ch a="F"/>sposób</row>
+			<row important_over="false"><ch a="F"/>Gdyby one były z <ch a="C"/>mięsa,</row>
+			<row important_over="false">Miałbym chociaż <ch a="G"/>ro<ch a="C"/>sół.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="D"/>Teraz z kranów mi nie leci,</row>
-			<row>W łazience mi <ch a="A"/>cuchnie</row>
-			<row><ch a="A"/>Gaz bezwonny, to nie włączam,</row>
-			<row>Bo a nuż wy<ch a="D"/>buchnie</row>
-			<row><ch a="D"/>W kuchni mrozi się lodówka,</row>
-			<row><ch a="D7"/>Ale teraz ze<ch a="G"/>wnętrznie</row>
-			<row><ch a="G"/>Pralka tylko wtedy <ch a="D"/>chodzi,</row>
-			<row>Kiedy piorę <ch a="A"/>ręcz<ch a="D"/>nie.</row>
+			<row important_over="false"><ch a="D"/>Teraz z kranów mi nie leci,</row>
+			<row important_over="false">W łazience mi <ch a="A"/>cuchnie</row>
+			<row important_over="false"><ch a="A"/>Gaz bezwonny, to nie włączam,</row>
+			<row important_over="false">Bo a nuż wy<ch a="D"/>buchnie</row>
+			<row important_over="false"><ch a="D"/>W kuchni mrozi się lodówka,</row>
+			<row important_over="false"><ch a="D7"/>Ale teraz ze<ch a="G"/>wnętrznie</row>
+			<row important_over="false"><ch a="G"/>Pralka tylko wtedy <ch a="D"/>chodzi,</row>
+			<row important_over="false">Kiedy piorę <ch a="A"/>ręcz<ch a="D"/>nie.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="D"/>Telewizor wyłączyłem,</row>
-			<row>Świecił na nie<ch a="A"/>biesko</row>
-			<row><ch a="A"/>Bo samogon, gdy wypędzę,</row>
-			<row>To chowam w ki<ch a="D"/>neskop</row>
-			<row><ch a="D"/>Zresztą może bym i włączył,</row>
-			<row><ch a="D7"/>Ale nie ma <ch a="G"/>prądu</row>
-			<row><ch a="G"/>Tylko zacier jest na <ch a="D"/>chodzie</row>
-			<row>I dowód do <ch a="A"/>wglą<ch a="D"/>du.</row>
+			<row important_over="false"><ch a="D"/>Telewizor wyłączyłem,</row>
+			<row important_over="false">Świecił na nie<ch a="A"/>biesko</row>
+			<row important_over="false"><ch a="A"/>Bo samogon, gdy wypędzę,</row>
+			<row important_over="false">To chowam w ki<ch a="D"/>neskop</row>
+			<row important_over="false"><ch a="D"/>Zresztą może bym i włączył,</row>
+			<row important_over="false"><ch a="D7"/>Ale nie ma <ch a="G"/>prądu</row>
+			<row important_over="false"><ch a="G"/>Tylko zacier jest na <ch a="D"/>chodzie</row>
+			<row important_over="false">I dowód do <ch a="A"/>wglą<ch a="D"/>du.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="E"/>I tak jest każdego roku,</row>
-			<row>Kiedy przyjdzie <ch a="H"/>zima</row>
-			<row><ch a="H"/>Myślę: przyjdzie jeszcze jedna</row>
-			<row>I blok nie wy<ch a="E"/>trzyma</row>
-			<row><ch a="E"/>Póki co, by ta następna</row>
-			<row><ch a="E7"/>Nie dała we <ch a="A"/>znaki,</row>
-			<row><ch a="A"/>Kupię drugi tele<ch a="E"/>wizor,</row>
-			<row>By mieć dwa ba<ch a="H"/>nia<ch a="E"/>ki.</row>
+			<row important_over="false"><ch a="E"/>I tak jest każdego roku,</row>
+			<row important_over="false">Kiedy przyjdzie <ch a="H"/>zima</row>
+			<row important_over="false"><ch a="H"/>Myślę: przyjdzie jeszcze jedna</row>
+			<row important_over="false">I blok nie wy<ch a="E"/>trzyma</row>
+			<row important_over="false"><ch a="E"/>Póki co, by ta następna</row>
+			<row important_over="false"><ch a="E7"/>Nie dała we <ch a="A"/>znaki,</row>
+			<row important_over="false"><ch a="A"/>Kupię drugi tele<ch a="E"/>wizor,</row>
+			<row important_over="false">By mieć dwa ba<ch a="H"/>nia<ch a="E"/>ki.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="other">
-			<row style="instr"><ch a="A"/><ch a="E"/><ch a="H"/><ch a="E"/></row>
+			<row important_over="false" style="instr"><ch a="A"/><ch a="E"/><ch a="H"/><ch a="E"/></row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -84,6 +84,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/krzysztof-daukszewicz/tyle-mi-zostalo-co-mi-nakapalo</verificator>
+    </verificators>
 	</status>
 </song>
