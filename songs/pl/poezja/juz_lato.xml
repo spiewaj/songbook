@@ -15,7 +15,7 @@
       <row important_over="true"><ch a="A"/>Już lato w kosz<ch a="E7"/>uli rozp<ch a="A"/>iętej</row>
       <row important_over="true"><ch a="A"/>Wysoko mal<ch a="H7"/>uje obł<ch a="E7"/>oki</row>
       <row important_over="true">I <ch a="D"/>ciepłym d<ch a="H7"/>eszczem w po<ch a="E7"/>łudnie</row>
-      <row important_over="true"><ch a="A"/>Dziewczętom r<ch a="E7"/>ozkręca l<ch a="A"/>oki</row>
+      <row important_over="true"><ch a="A"/>Dziewczętom r<ch a="E7"/>ozkręca l<ch a="A/a"/>oki</row>
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
@@ -32,7 +32,7 @@
   <status>
     <done>
       <text/>
-      <chords>chordettes</chords>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>http://orkisz.pl</verificator>
