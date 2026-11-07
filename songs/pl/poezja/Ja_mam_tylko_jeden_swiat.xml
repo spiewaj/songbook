@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ja mam tylko jeden świat">
-	<alias>Mój świat</alias>
+	<alias>Mój świat, Kiedy w piątek</alias>
 	<text_author type="solo">Janusz Strąkowski</text_author>
 	<comment>Piosenka turystyczna Janusza Strąkowskiego z 1974 roku, znana również pod tytułami „Mój świat”, „Turysta” oraz „Kiedy w piątek słońce świeci”.</comment>
 	<composer type="solo">Janusz Strąkowski</composer>
@@ -17,27 +17,27 @@
 		<block type="chorus">
 			<row important_over="true"><ch a="D"/>Bo ja mam tylko <ch a="e"/>jeden świat:</row>
 			<row important_over="true"><ch a="A"/>słońce, góry, pola, <ch a="D"/>wiatr, <ch a="D7"/></row>
-			<row important_over="true">i nic mnie więcej <ch a="e"/>nie obchodzi,</row>
+			<row important_over="true">i <ch a="D"/>nic mnie więcej <ch a="e"/>nie obchodzi,</row>
 			<row important_over="true"><ch a="A"/>bom turystą się <ch a="D"/>urodził.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">Dla mnie w mieście <ch a="e"/>jest za ciasno,</row>
+			<row important_over="false"><ch a="D"/>Dla mnie w mieście <ch a="e"/>jest za ciasno,</row>
 			<row important_over="false"><ch a="A"/>wśród pojazdów, kurzu, <ch a="D"/>spalin.</row>
-			<row important_over="false">Ja w zieloną <ch a="e"/>jadę ciszę,</row>
+			<row important_over="false"><ch a="D"/>Ja w zieloną <ch a="e"/>jadę ciszę,</row>
 			<row important_over="false"><ch a="A"/>w ścieżki pełne słodkich <ch a="D"/>malin.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Myślę, leżąc <ch a="e"/>pośród kwiatów</row>
+			<row important_over="false"><ch a="D"/>Myślę, leżąc <ch a="e"/>pośród kwiatów</row>
 			<row important_over="false"><ch a="A"/>czy w jęczmienia żółtym <ch a="D"/>łanie:</row>
-			<row important_over="false">czy przypadkiem <ch a="e"/>za pół wieku</row>
+			<row important_over="false"><ch a="D"/>czy przypadkiem <ch a="e"/>za pół wieku</row>
 			<row important_over="false"><ch a="A"/>coś z tym światem się nie <ch a="D"/>stanie?</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="false">Chciałbym, żeby <ch a="e"/>ten mój świat</row>
+			<row important_over="false"><ch a="D"/>Chciałbym, żeby <ch a="e"/>ten mój świat</row>
 			<row important_over="false"><ch a="A"/>przetrwał jeszcze tysiąc <ch a="D"/>lat,</row>
-			<row important_over="false">żeby mogły <ch a="e"/>nasze dzieci</row>
+			<row important_over="false"><ch a="D"/>żeby mogły <ch a="e"/>nasze dzieci</row>
 			<row important_over="false"><ch a="A"/>z tego świata też się <ch a="D"/>cieszyć.</row>
 		</block>
 		<blocklink blocknb="2"/>
@@ -55,9 +55,7 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Janusz Strąkowski (słowa i muzyka, 1974)</verificator>
 			<verificator>https://spiewnik.wywrota.pl/janusz-strakowski/moj-swiat</verificator>
-			<verificator>Śpiewnik turystyczny PTTK</verificator>
 		</verificators>
 		<to_do/>
 	</status>
