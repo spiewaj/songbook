@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Naucz się kochać mnie w rytmie reggae">
+  <alias/>
+  <text_author type="solo">tradycyjny</text_author>
+  <comment/>
+  <composer type="solo">tradycyjny</composer>
+  <artist type="band">Piosenka harcerska</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="e"/>To było <ch a="h"/>wtedy gdy Ci<ch a="C"/>ę pozn<ch a="D"/>ałem</row>
-      <row important_over="never">Od razu zrozumiałem że coś nie tak</row>
-      <row important_over="never">I chociaż w oczy mi patrzyłaś śmiało</row>
-      <row important_over="never">Nie chciałem wierzyć że humor masz
-</row>
-      <row important_over="never">Szalałem wtedy za rock end rollem
-</row>
-      <row important_over="never">Na płyty wydawałem forsę całą
-</row>
-      <row important_over="never">Kochałem rocka i Ciebie trochę
-</row>
-      <row important_over="never">Lecz kiedyś w tańcu mi powiedziałaś...</row>
+      <row important_over="true">To b<ch a="e"/>yło wtedy, gd<ch a="h"/>y cię poznałem,</row>
+      <row important_over="true">od r<ch a="C"/>azu zrozumiałem, ż<ch a="D"/>e coś nie tak.</row>
+      <row important_over="false">I ch<ch a="e"/>ociaż w oczy mi p<ch a="h"/>atrzyłaś śmiało,</row>
+      <row important_over="false">nie chci<ch a="C"/>ałem wierzyć, że h<ch a="D"/>umor masz.</row>
+      <row important_over="false">Szal<ch a="e"/>ałem wtedy z<ch a="h"/>a rock and rollem,</row>
+      <row important_over="false">na pł<ch a="C"/>yty wydawałem f<ch a="D"/>orsę całą.</row>
+      <row important_over="false">Koch<ch a="e"/>ałem rocka i ci<ch a="h"/>ebie trochę,</row>
+      <row important_over="false">lecz ki<ch a="C"/>edyś w tańcu mi powi<ch a="D"/>edziałaś...</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="never">Naucz się kochać mnie w rytmie reggae </row>
+        <row important_over="true">N<ch a="e"/>aucz się kochać mn<ch a="h"/>ie w rytmie reggae,</row>
       </bis>
-      <row important_over="never">I kochaj mnie kochaj w rytmie reggae
-</row>
-      <row important_over="never">Reggae weź z sobą szaleję za Tobą</row>
+      <row important_over="true">i k<ch a="C"/>ochaj mnie, kochaj w r<ch a="D"/>ytmie reggae,</row>
+      <row important_over="true">r<ch a="e"/>eggae weź z sobą, szal<ch a="h"/>eję za tobą!<ch a="C"/><ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="never">Zacząłem chodzić na dyskoteki
-</row>
-      <row important_over="never">Prywatki bale i randki wszystkie
-</row>
-      <row important_over="never">Chodziłem wszędzie tam gdzie grali reggae
-</row>
-      <row important_over="never">Tylko dla Ciebie tak się męczyłem
-</row>
-      <row important_over="never">Lecz pewnej nocy gdy słodko spałem 
-</row>
-      <row important_over="never">Poczułem wtedy że kocham reggae
-</row>
-      <row important_over="never">Chciałem powiedzieć Ci jak bardzo Cię kocham
-</row>
-      <row important_over="never">Lecz ty już z innym tańczyłaś rocka</row>
+      <row important_over="false">Zacz<ch a="e"/>ąłem chodzić n<ch a="h"/>a dyskoteki,</row>
+      <row important_over="false">pryw<ch a="C"/>atki, bale i r<ch a="D"/>andki wszystkie.</row>
+      <row important_over="false">Chodz<ch a="e"/>iłem wszędzie tam, gdz<ch a="h"/>ie grali reggae,</row>
+      <row important_over="false">tylko dl<ch a="C"/>a ciebie tak s<ch a="D"/>ię męczyłem.</row>
+      <row important_over="false">Lecz p<ch a="e"/>ewnej nocy, gdy sł<ch a="h"/>odko spałem,</row>
+      <row important_over="false">pocz<ch a="C"/>ułem wtedy, że k<ch a="D"/>ocham reggae.</row>
+      <row important_over="false">Chci<ch a="e"/>ałem powiedzieć ci, j<ch a="h"/>ak bardzo cię kocham,</row>
+      <row important_over="false">lecz t<ch a="C"/>y już z innym tańcz<ch a="D"/>iłaś rocka!</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
+  <genre>Piosenka harcerska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chord positioning</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://www.chords.pl/chwyty/harcerskie/2431,naucz_sie_kochac_mnie_w_rytmie_reegae</verificator>
+    </verificators>
   </status>
 </song>
