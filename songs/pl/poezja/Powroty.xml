@@ -15,10 +15,10 @@
 			<row important_over="true">Miły, b<ch a="G"/>oję się twoich powr<ch a="D"/>otów.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="D"/>Boję się chmur nad twoim czołem,</row>
-			<row>Kiedy r<ch a="G"/>ęce do krwi otarte</row>
-			<row>Dumnie kł<ch a="A"/>adziesz przede mną na stole,</row>
-			<row>Miły, b<ch a="G"/>oję się twoich powr<ch a="D"/>otów.</row>
+			<row important_over="false"><ch a="D"/>Boję się chmur nad twoim czołem,</row>
+			<row important_over="false">Kiedy r<ch a="G"/>ęce do krwi otarte</row>
+			<row important_over="false">Dumnie kł<ch a="A"/>adziesz przede mną na stole,</row>
+			<row important_over="false">Miły, b<ch a="G"/>oję się twoich powr<ch a="D"/>otów.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Drżysz j<ch a="G"/>eszcze, oczy zamglone,</row>
@@ -29,10 +29,10 @@
 			<row important_over="true">Krótka chw<ch a="G"/>ila i wracasz na m<ch a="D"/>orze.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="D"/>Boję się morza w twoich myślach,</row>
-			<row>Kiedy j<ch a="G"/>esteś do drogi już gotów,</row>
-			<row>Leżysz prz<ch a="A"/>y mnie, oczy otwarte,</row>
-			<row>Miły, b<ch a="G"/>oję się twoich powr<ch a="D"/>otów.</row>
+			<row important_over="false"><ch a="D"/>Boję się morza w twoich myślach,</row>
+			<row important_over="false">Kiedy j<ch a="G"/>esteś do drogi już gotów,</row>
+			<row important_over="false">Leżysz prz<ch a="A"/>y mnie, oczy otwarte,</row>
+			<row important_over="false">Miły, b<ch a="G"/>oję się twoich powr<ch a="D"/>otów.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
@@ -45,11 +45,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
