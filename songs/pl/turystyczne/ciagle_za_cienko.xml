@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ciągle za cienko">
+  <alias>Chyba może na pewno</alias>
+  <text_author type="solo">Zbigniew Zieliński</text_author>
+  <composer type="solo">Zbigniew Zieliński</composer>
+  <artist type="band">Piosenka turystyczna</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Ciągle za cienko w życiu idzie nam, <ch a="G"/>ciągle za cienko</row>
-      <row important_over="true">Bo <ch a="F"/>mamy za mało i <ch a="G"/>więcej by chciało <ch a="C"/>się.<ch a="C7"/> </row>
-      <row important_over="false"><ch a="C"/>Wierzcie piosenkom, pijcie piwo i <ch a="G"/>wierzcie piosenkom</row>
-      <row important_over="true">Że <ch a="F"/>gdzieś ludzie mówią, że <ch a="G"/>jest chyba nie tak <ch a="C"/>źle. </row>
+      <row important_over="true"><ch a="C"/>Ciągle za cienko w życiu idzie nam, <ch a="G"/>ciągle za cienko,</row>
+      <row important_over="true">bo <ch a="F"/>mamy za mało i <ch a="G"/>więcej by chciało <ch a="C"/>się.<ch a="C7"/></row>
+      <row important_over="true"><ch a="C"/>Wierzcie piosenkom, pijcie piwo i <ch a="G"/>wierzcie piosenkom,</row>
+      <row important_over="true">że <ch a="F"/>gdzieś ludzie mówią, że <ch a="G"/>jest chyba nie tak <ch a="C"/>źle.</row>
     </block>
     <block type="chorus">
-      <row important_over="false"><ch a="C"/>Chyba może na <ch a="G"/>pewno,</row>
-      <row important_over="true"><ch a="a"/>Odpowiem, a jutro <ch a="F"/>pomyślę, że to nie <ch a="C"/>tak </row>
-      <row important_over="false"><ch a="C"/>Chyba może na <ch a="G"/>pewno</row>
-      <row important_over="false"><ch a="a"/> Rozstrzygnąć to trudno, bo <ch a="F"/>nikt chyba nie wie <ch a="C"/>jak.</row>
+      <row important_over="true"><ch a="C"/>Chyba może na <ch a="G"/>pewno,</row>
+      <row important_over="true"><ch a="a"/>odpowiem, a jutro <ch a="F"/>pomyślę, że to nie <ch a="C"/>tak.</row>
+      <row important_over="true"><ch a="C"/>Chyba może na <ch a="G"/>pewno,</row>
+      <row important_over="true"><ch a="a"/>rozstrzygnąć to trudno, bo <ch a="F"/>nikt chyba nie wie, <ch a="C"/>jak.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Forsę na pociąg, zabieramy więc, forsę na pociąg,<ch a="C"/><ch a="G"/></row>
-      <row important_over="false">I gnamy na zachód okrągłe miliony zbić.<ch a="F"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false">Strasznie wysoko zamierzamy dojść, za wysoko,<ch a="C"/><ch a="G"/></row>
-      <row important_over="false">Lecz któż wie na pewno czy łatwiej będziemy żyć.<ch a="F"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Forsę na pociąg, zabieramy więc <ch a="G"/>forsę na pociąg</row>
+      <row important_over="false">i <ch a="F"/>gnamy na zachód ok<ch a="G"/>rągłe miliony <ch a="C"/>zbić.<ch a="C7"/></row>
+      <row important_over="false"><ch a="C"/>Strasznie wysoko zamierzamy dojść, <ch a="G"/>za wysoko,</row>
+      <row important_over="false">lecz <ch a="F"/>któż wie na pewno, czy <ch a="G"/>łatwiej będziemy <ch a="C"/>żyć.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="other">
-      <row important_over="true"><ch a="F"/>Każde jutro jest <ch a="C"/>lepsze niż </row>
-      <row important_over="true">Gdzie<ch a="G"/>kolwiek dzisiejszy <ch a="C"/>dzień</row>
-      <row important_over="false"><ch a="F"/>Każda chwila <ch a="C"/>opóźnia tyle,</row>
-      <row important_over="true">Że<ch a="G"/> nie chce się lepiej.</row>
+      <row important_over="true"><ch a="F"/>Każde jutro jest <ch a="C"/>lepsze niż</row>
+      <row important_over="true">gdzie<ch a="G"/>kolwiek dzisiejszy <ch a="C"/>dzień,</row>
+      <row important_over="true">każda <ch a="F"/>chwila op<ch a="C"/>óźnia tyle,</row>
+      <row important_over="true">że <ch a="G"/>nie chce się lepiej.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Durne poglądy, uważacie, że durne poglądy,<ch a="C"/><ch a="G"/></row>
-      <row important_over="false">Lecz myślę, że czasy niepewne nastały nam,<ch a="F"/><ch a="G"/><ch a="C"/><ch a="C7"/></row>
-      <row important_over="false">Czyś ty niemądry, zapytacie mnie - czyś ty niemądry,<ch a="C"/><ch a="G"/></row>
-      <row important_over="false">A ja się zająknę i taką odpowiedź dam.<ch a="F"/><ch a="G"/><ch a="C"/></row>
+      <row important_over="false"><ch a="C"/>Durne poglądy, uważacie, że <ch a="G"/>durne poglądy,</row>
+      <row important_over="false">lecz <ch a="F"/>myślę, że czasy nie<ch a="G"/>pewne nastały <ch a="C"/>nam.<ch a="C7"/></row>
+      <row important_over="false"><ch a="C"/>Czyś ty niemądry, zapytacie mnie, <ch a="G"/>czyś ty niemądry,</row>
+      <row important_over="false">a <ch a="F"/>ja się zająknę i <ch a="G"/>taką odpowiedź <ch a="C"/>dam.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/zbigniew-zielinski/chyba-moze-na-pewno</verificator>
+    </verificators>
   </status>
 </song>
