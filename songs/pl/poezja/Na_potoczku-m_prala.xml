@@ -53,13 +53,12 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Orkiestra św. Mikołaja - Muzyka Gór (1992)</verificator>
-			<verificator>https://www.discogs.com/release/2972413-Orkiestra-%C5%9Aw-Miko%C5%82aja-Muzyka-G%C3%B3r</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://www.discogs.com/release/2972413-Orkiestra-%C5%9Aw-Miko%C5%82aja-Muzyka-G%C3%B3r</verificator>
+    </verificators>
 	</status>
 	<music_source>Piosenka łemkowska</music_source>
 </song>
