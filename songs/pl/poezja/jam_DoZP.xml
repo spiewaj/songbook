@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Jam">
   <alias>Wiosenny</alias>
+  <text_author>Andrzej Gniady, Marcin Lewoń</text_author>
+  <comment>Utwór z płyty „Jam” (2007) zespołu Dom o Zielonych Progach.</comment>
+  <composer>Andrzej Gniady, Marcin Lewoń</composer>
   <artist type="band">Dom o Zielonych Progach</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="C"/>Jam jest ziemia, co pod<ch a="G"/>piera stopy</row>
       <row important_over="true"><ch a="a"/>Jam jest wiatr, <ch a="F"/>co rozwiewa włosy</row>
       <row important_over="false"><ch a="C"/>Jam jest deszcz, co o<ch a="G"/>bmywa twarz</row>
-      <row important_over="false"><ch a="a"/>Jam jest słońce,<ch a="F"/> co osusza skórę</row>
+      <row important_over="false"><ch a="a"/>Jam jest słońce, <ch a="F"/>co wysusza skórę</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="false"><ch a="C"/>Jam jest nic, jam jest <ch a="G"/>nic, i wiele</row>
-        <row important_over="false"><ch a="a"/>Jam jest ten, co płacze <ch a="F"/>i ten co się śmieje </row>
+        <row important_over="true"><ch a="C"/>Jam jest nic, jam jest <ch a="G"/>nic i wiele</row>
+        <row important_over="true"><ch a="a"/>Jam jest ten, co płacze <ch a="F"/>i ten, co się śmieje</row>
       </bis>
     </block>
     <block type="verse">
-      <row important_over="never">On jest ciepłem, co rozgrzewa ciało</row>
-      <row important_over="never">On jest chmurą, co osłania mnie</row>
-      <row important_over="never">On jest mgłą, co łagodzi ranek</row>
-      <row important_over="never">On jest ciepłem, które mieszka we mnie</row>
+      <row important_over="false"><ch a="C"/>On jest ciepłem, co roz<ch a="G"/>grzewa ciało</row>
+      <row important_over="false"><ch a="a"/>On jest chmurą, <ch a="F"/>co osłania mnie</row>
+      <row important_over="false"><ch a="C"/>On jest mgłą, co ła<ch a="G"/>godzi ranek</row>
+      <row important_over="false"><ch a="a"/>On jest ciepłem, <ch a="F"/>które mieszka we mnie</row>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="never">On jest nic, on jest nic, niewiele</row>
-        <row important_over="never">On jest ten, co płacze i ten co się śmieje</row>
+        <row important_over="false"><ch a="C"/>On jest nic, on jest <ch a="G"/>nic i wiele</row>
+        <row important_over="false"><ch a="a"/>On jest ten, co płacze <ch a="F"/>i ten, co się śmieje</row>
       </bis>
     </block>
   </lyric>
   <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>http://dom.art.pl</verificator>
+      <verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/jam-wiosenny</verificator>
+    </verificators>
   </status>
 </song>
