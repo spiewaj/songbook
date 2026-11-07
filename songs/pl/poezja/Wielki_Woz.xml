@@ -69,6 +69,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/browar-zywiec/wielki-woz</verificator>
+    </verificators>
 	</status>
 </song>
