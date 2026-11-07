@@ -11,8 +11,8 @@
     <block type="verse">
       <row important_over="true">J<ch a="C"/>edzie chłop po p<ch a="F"/>olu, j<ch a="C"/>edzie na trakt<ch a="G"/>orze,</row>
       <row important_over="true">Br<ch a="C"/>onkę wiezie z s<ch a="F"/>obą, p<ch a="C"/>ole s<ch a="G"/>obie <ch a="C"/>orze.</row>
-      <row>Z<ch a="C"/>esztywniały m<ch a="F"/>u już pr<ch a="C"/>awie wszystkie czł<ch a="G"/>onki,</row>
-      <row>Cz<ch a="C"/>ęść z powodu pr<ch a="F"/>acy, cz<ch a="C"/>ęść z pow<ch a="G"/>odu Br<ch a="C"/>onki.</row>
+      <row important_over="false">Z<ch a="C"/>esztywniały m<ch a="F"/>u już pr<ch a="C"/>awie wszystkie czł<ch a="G"/>onki,</row>
+      <row important_over="false">Cz<ch a="C"/>ęść z powodu pr<ch a="F"/>acy, cz<ch a="C"/>ęść z pow<ch a="G"/>odu Br<ch a="C"/>onki.</row>
     </block>
     <block type="chorus">
       <row important_over="true">H<ch a="C"/>ej, hola, h<ch a="F"/>ola, roln<ch a="C"/>icza d<ch a="G"/>ola,</row>
