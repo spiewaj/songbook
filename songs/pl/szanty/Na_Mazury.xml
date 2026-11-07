@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na Mazury">
   <alias>Siemasz, witam cię, piękną sprawę mam</alias>
-  <text_author type="solo">Lucjusz Michał Kowalczyk</text_author>
+  <text_author type="solo">Michał Kowalczyk (ps. „Lucjusz”)</text_author>
   <comment>Popularna mazurska piosenka żeglarska zespołu Spinakery, autorstwa Lucjusza Michała Kowalczyka.</comment>
-  <composer type="solo">Lucjusz Michał Kowalczyk</composer>
+  <composer type="solo">Michał Kowalczyk (ps. „Lucjusz”)</composer>
   <artist type="band">Spinakery</artist>
   <lyric>
     <block type="verse">
