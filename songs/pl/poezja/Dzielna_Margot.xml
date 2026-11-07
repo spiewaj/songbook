@@ -39,41 +39,41 @@
 			<row important_over="true">by pop<ch a="B"/>a-pa-pa-pa-pa-pa...</row>
 		</block>
 		<block type="verse">
-			<row>N<ch a="A"/>auczyciel lekcje porzucił,</row>
-			<row>k<ch a="A7"/>owal podkowy, pole kmi<ch a="D"/>eć,</row>
-			<row><ch a="h"/>i pognali prędko na skr<ch a="fis"/>óty</row>
-			<row>n<ch a="E"/>a tę wi<ch a="A"/>eść.</row>
-			<row>N<ch a="A"/>asz listonosz taki uczciwy</row>
-			<row>n<ch a="A7"/>a tę wieść listy ciepnął w m<ch a="D"/>ig,</row>
-			<row>kt<ch a="h"/>órych czytać i tak w tej chw<ch a="E"/>ili</row>
-			<row>n<ch a="A"/>ie chciał n<ch a="D"/>ikt.</row>
-			<row>N<ch a="h"/>a tę wieść, zaufawszy B<ch a="Fis"/>ogu,</row>
-			<row>ż<ch a="h"/>e im odpuści grzeszną m<ch a="Fis"/>yśl,</row>
-			<row>m<ch a="h"/>inistranci w lot dali n<ch a="Fis"/>ogę</row>
-			<row>w śr<ch a="h"/>odku msz<ch a="Fis"/>y.</row>
-			<row>N<ch a="h"/>awet gliniarz, postrach ludn<ch a="Fis"/>ości,</row>
-			<row>t<ch a="h"/>ak z natury tępy jak sł<ch a="Fis"/>up,</row>
-			<row>st<ch a="h"/>anął opodal oszołomi<ch a="Fis"/>ony</row>
-			<row>sc<ch a="E"/>eną jak ze sn<ch a="A"/>u.</row>
+			<row important_over="false">N<ch a="A"/>auczyciel lekcje porzucił,</row>
+			<row important_over="false">k<ch a="A7"/>owal podkowy, pole kmi<ch a="D"/>eć,</row>
+			<row important_over="false"><ch a="h"/>i pognali prędko na skr<ch a="fis"/>óty</row>
+			<row important_over="false">n<ch a="E"/>a tę wi<ch a="A"/>eść.</row>
+			<row important_over="false">N<ch a="A"/>asz listonosz taki uczciwy</row>
+			<row important_over="false">n<ch a="A7"/>a tę wieść listy ciepnął w m<ch a="D"/>ig,</row>
+			<row important_over="false">kt<ch a="h"/>órych czytać i tak w tej chw<ch a="E"/>ili</row>
+			<row important_over="false">n<ch a="A"/>ie chciał n<ch a="D"/>ikt.</row>
+			<row important_over="false">N<ch a="h"/>a tę wieść, zaufawszy B<ch a="Fis"/>ogu,</row>
+			<row important_over="false">ż<ch a="h"/>e im odpuści grzeszną m<ch a="Fis"/>yśl,</row>
+			<row important_over="false">m<ch a="h"/>inistranci w lot dali n<ch a="Fis"/>ogę</row>
+			<row important_over="false">w śr<ch a="h"/>odku msz<ch a="Fis"/>y.</row>
+			<row important_over="false">N<ch a="h"/>awet gliniarz, postrach ludn<ch a="Fis"/>ości,</row>
+			<row important_over="false">t<ch a="h"/>ak z natury tępy jak sł<ch a="Fis"/>up,</row>
+			<row important_over="false">st<ch a="h"/>anął opodal oszołomi<ch a="Fis"/>ony</row>
+			<row important_over="false">sc<ch a="E"/>eną jak ze sn<ch a="A"/>u.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="A"/>Ale w pozostałych niewiastach –</row>
-			<row>wsz<ch a="A7"/>ak każdej zwiał i gach, i m<ch a="D"/>ąż –</row>
-			<row>p<ch a="h"/>owolutku jęła nar<ch a="fis"/>astać</row>
-			<row>dz<ch a="E"/>ika zł<ch a="A"/>ość.</row>
-			<row>Wr<ch a="A"/>eszcie przyszedł we wsi dzień gniewu,</row>
-			<row>k<ch a="A7"/>ażda chwyciła tęgi k<ch a="D"/>ij</row>
-			<row><ch a="h"/>i zatłukły biedne maleństw<ch a="E"/>o</row>
-			<row>z ż<ch a="A"/>ądzy krw<ch a="D"/>i.</row>
-			<row>A Marg<ch a="h"/>ot po roku lament<ch a="Fis"/>ów,</row>
-			<row>b<ch a="h"/>y się pocieszyć, wzięła śl<ch a="Fis"/>ub,</row>
-			<row>i j<ch a="h"/>uż tylko się mąż z jej wdzięk<ch a="Fis"/>ów</row>
-			<row>ci<ch a="h"/>eszyć m<ch a="Fis"/>ógł.</row>
-			<row>Z cz<ch a="h"/>asem o tym pozapomin<ch a="Fis"/>ano,</row>
-			<row><ch a="h"/>oprócz starców już mało kt<ch a="Fis"/>o</row>
-			<row>m<ch a="h"/>ówi dzieciom dziś na dobran<ch a="Fis"/>oc</row>
-			<row><ch a="E"/>o dzielnej Marg<ch a="A"/>ot.</row>
+			<row important_over="false"><ch a="A"/>Ale w pozostałych niewiastach –</row>
+			<row important_over="false">wsz<ch a="A7"/>ak każdej zwiał i gach, i m<ch a="D"/>ąż –</row>
+			<row important_over="false">p<ch a="h"/>owolutku jęła nar<ch a="fis"/>astać</row>
+			<row important_over="false">dz<ch a="E"/>ika zł<ch a="A"/>ość.</row>
+			<row important_over="false">Wr<ch a="A"/>eszcie przyszedł we wsi dzień gniewu,</row>
+			<row important_over="false">k<ch a="A7"/>ażda chwyciła tęgi k<ch a="D"/>ij</row>
+			<row important_over="false"><ch a="h"/>i zatłukły biedne maleństw<ch a="E"/>o</row>
+			<row important_over="false">z ż<ch a="A"/>ądzy krw<ch a="D"/>i.</row>
+			<row important_over="false">A Marg<ch a="h"/>ot po roku lament<ch a="Fis"/>ów,</row>
+			<row important_over="false">b<ch a="h"/>y się pocieszyć, wzięła śl<ch a="Fis"/>ub,</row>
+			<row important_over="false">i j<ch a="h"/>uż tylko się mąż z jej wdzięk<ch a="Fis"/>ów</row>
+			<row important_over="false">ci<ch a="h"/>eszyć m<ch a="Fis"/>ógł.</row>
+			<row important_over="false">Z cz<ch a="h"/>asem o tym pozapomin<ch a="Fis"/>ano,</row>
+			<row important_over="false"><ch a="h"/>oprócz starców już mało kt<ch a="Fis"/>o</row>
+			<row important_over="false">m<ch a="h"/>ówi dzieciom dziś na dobran<ch a="Fis"/>oc</row>
+			<row important_over="false"><ch a="E"/>o dzielnej Marg<ch a="A"/>ot.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -90,11 +90,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysiek - na podstawie poprawek w śpiewniku Szkocja</verificator>
-			<verificator>Georges Brassens (oryg. „Brave Margot”), przekład: Filip Łobodziński</verificator>
-			<verificator>Zespół Reprezentacyjny (album „Pornograf”, 1993)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Dzielna_Margot)</verificator>
-		</verificators>
+      <verificator>Krzysiek - na podstawie poprawek w śpiewniku Szkocja</verificator>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Dzielna_Margot</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
