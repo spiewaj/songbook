@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="King">
-  <comment/>
+  <text_author type="solo">Muniek Staszczyk</text_author>
+  <composer type="solo">Jan Benedek</composer>
   <artist type="band">T.Love</artist>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="e"/><ch a="e6"/><ch a="e7"/></row>
-      <row important_over="false" style="instr"> <ch a="e"/><ch a="e6"/><ch a="e7"/></row>
-      <row important_over="false" style="instr"> <ch a="G"/><ch a="Gsus4"/><ch a="G5"/></row>
-      <row important_over="false" style="instr"> <ch a="G"/><ch a="Gsus4"/><ch a="G5"/></row>
+      <row important_over="false" style="instr"><ch a="e"/> <ch a="e6"/> <ch a="e7"/></row>
+      <row important_over="false" style="instr"><ch a="e"/> <ch a="e6"/> <ch a="e7"/></row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="Gsus4"/> <ch a="G5"/></row>
+      <row important_over="false" style="instr"><ch a="G"/> <ch a="Gsus4"/> <ch a="G5"/></row>
     </block>
     <block type="verse">
       <row important_over="true">Mó<ch a="e"/>wiono o nim King, w mieście Świętej Wieży</row>
       <row important_over="true">Pa<ch a="G"/>miętam z podstawówki jak całował się z papieżem</row>
-      <row important_over="true">Prze<ch a="e"/>jeżdżał też sekretarz, gdy przecinano wstęgę</row>
-      <row important_over="true">Kingy <ch a="G"/>poszedł na wagary, pomarzyć o czymś innym</row>
+      <row important_over="false">Prze<ch a="e"/>jeżdżał też sekretarz, gdy przecinano wstęgę</row>
+      <row important_over="false">Kingi <ch a="G"/>poszedł na wagary, pomarzyć o czymś innym</row>
       <row important_over="true">Był <ch a="a"/>zawsze trochę z <ch a="e"/>boku, na <ch a="a"/>bakier trochę <ch a="e"/>był</row>
       <row important_over="true"><ch a="a"/>W szkole nikt nie <ch a="e"/>wiedział, czym <ch a="H7"/>King naprawdę żył</row>
     </block>
@@ -26,10 +27,10 @@
       <row important_over="false">Ty <ch a="a"/>wiesz kto rządzi w <ch a="e"/>mieście tu - <ch a="H7"/>biskup z komisarzem, King!</row>
     </block>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
-      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
-      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
-      <row important_over="false" style="instr"> <ch a="e7"/><ch a="A"/><ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="e7"/> <ch a="A"/> <ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="e7"/> <ch a="A"/> <ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="e7"/> <ch a="A"/> <ch a="C"/></row>
+      <row important_over="false" style="instr"><ch a="e7"/> <ch a="A"/> <ch a="C"/></row>
     </block>
     <block type="verse">
       <row important_over="false">Tak <ch a="e"/>mówił mu przyjaciel, długi chudy Lolo</row>
@@ -57,10 +58,17 @@
       <row important_over="false">Właś<ch a="a"/>ciwie nikt nie <ch a="e"/>wiedział, czym <ch a="H7"/>King naprawdę żył</row>
     </block>
   </lyric>
-  <keywords/>
+  <album>King</album>
   <genre>Rock</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/King</verificator>
+      <verificator>https://spiewnik.wywrota.pl/t-love/king</verificator>
+    </verificators>
   </status>
 </song>
