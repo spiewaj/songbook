@@ -9,34 +9,34 @@
   </music>
   <lyric>
     <block type="verse">
-      <row important_over="true" sidechords="D A e e">Na <ch a="D"/>drodze życia <ch a="A"/>twego jest is<ch a="e"/>kierka,</row>
-      <row important_over="true" sidechords="D A e e">po<ch a="D"/>dążasz za nią <ch a="A"/>raz wybraną <ch a="e"/>drogą.</row>
-      <row important_over="never" sidechords="D A e e">Przy<ch a="D"/>świeca ci, choć <ch a="A"/>blask jej chcą u<ch a="e"/>gasić</row>
-      <row important_over="never" sidechords="D A e e">ci, <ch a="D"/>którzy na tę <ch a="A"/>drogę wejść nie <ch a="e"/>mogą.</row>
+      <row important_over="true">Na <ch a="D"/>drodze życia <ch a="A"/>twego jest is<ch a="e"/>kierka,</row>
+      <row important_over="true">po<ch a="D"/>dążasz za nią <ch a="A"/>raz wybraną <ch a="e"/>drogą.</row>
+      <row important_over="false">Przy<ch a="D"/>świeca ci, choć <ch a="A"/>blask jej chcą u<ch a="e"/>gasić</row>
+      <row important_over="false">ci, <ch a="D"/>którzy na tę <ch a="A"/>drogę wejść nie <ch a="e"/>mogą.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">Twój nocny ognik szepce ci do ucha,</row>
-      <row important_over="never" sidechords="D A e e">tych, co odeszli, kłamstw nigdy nie słuchaj.</row>
-      <row important_over="never" sidechords="D A e e">Ojczyzna, Nauka, Cnota twe wartości,</row>
-      <row important_over="never" sidechords="D A e e">bądź sługą prawdy i sprawiedliwości.</row>
+      <row important_over="false">Twój <ch a="D"/>nocny ognik <ch a="A"/>szepce ci do <ch a="e"/>ucha,</row>
+      <row important_over="false">tych, <ch a="D"/>co odeszli, <ch a="A"/>kłamstw nigdy nie <ch a="e"/>słuchaj.</row>
+      <row important_over="false">Oj<ch a="D"/>czyzna, Nauka, <ch a="A"/>Cnota twe war<ch a="e"/>tości,</row>
+      <row important_over="false">bądź <ch a="D"/>sługą prawdy <ch a="A"/>i sprawiedli<ch a="e"/>wości.</row>
     </block>
     <block type="chorus">
-      <row important_over="true" sidechords="D A e e"><ch a="D"/>Chodź, chodź ze mną <ch a="A"/>przy ogniu siądź (przy ogniu <ch a="e"/>siądź),</row>
-      <row important_over="true" sidechords="D A e e">ja <ch a="D"/>wyciągam do <ch a="A"/>ciebie dłoń (dłoń, dłoń, dłoń, <ch a="e"/>dłoń, dłoń).</row>
-      <row important_over="never" sidechords="D A e e"><ch a="D"/>Tak jak ja wpa<ch a="A"/>trzony w niego bądź (w niego <ch a="e"/>bądź)</row>
-      <row important_over="never" sidechords="D A e e">i opo<ch a="D"/>wieści iskier <ch a="A"/>ze mną chłoń (chłoń, chłoń, chłoń, <ch a="e"/>chłoń, chłoń).</row>
+      <row important_over="true"><ch a="D"/>Chodź, chodź ze mną <ch a="A"/>przy ogniu siądź (przy ogniu <ch a="e"/>siądź),</row>
+      <row important_over="true">ja <ch a="D"/>wyciągam do <ch a="A"/>ciebie dłoń (dłoń, dłoń, dłoń, <ch a="e"/>dłoń, dłoń).</row>
+      <row important_over="false"><ch a="D"/>Tak jak ja wpa<ch a="A"/>trzony w niego bądź (w niego <ch a="e"/>bądź)</row>
+      <row important_over="false">i opo<ch a="D"/>wieści iskier <ch a="A"/>ze mną chłoń (chłoń, chłoń, chłoń, <ch a="e"/>chłoń, chłoń).</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">Nie każdy może drogą tą podążać,</row>
-      <row important_over="never" sidechords="D A e e">bo zamiast dawać umie tylko żądać.</row>
-      <row important_over="never" sidechords="D A e e">Więc skieruj nań ogniska swego blask,</row>
-      <row important_over="never" sidechords="D A e e">gdy go doświadczysz siądziesz pośród nas.</row>
+      <row important_over="false">Nie <ch a="D"/>każdy może <ch a="A"/>drogą tą po<ch a="e"/>dążać,</row>
+      <row important_over="false">bo <ch a="D"/>zamiast dawać <ch a="A"/>umie tylko <ch a="e"/>żądać.</row>
+      <row important_over="false">Więc <ch a="D"/>skieruj nań og<ch a="A"/>niska swego <ch a="e"/>blask,</row>
+      <row important_over="false">gdy <ch a="D"/>go doświadczysz, <ch a="A"/>siądziesz pośród <ch a="e"/>nas.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="D A e e">I oddaj pokłon ogniu tak jak my,</row>
-      <row important_over="never" sidechords="D A e e">dla niego iskra też się będzie tlić.</row>
-      <row important_over="never" sidechords="D A e e">I wyrusz na tę drogę razem z tym,</row>
-      <row important_over="never" sidechords="D A e e">który już przyjacielem będzie Twym.</row>
+      <row important_over="false">I <ch a="D"/>oddaj pokłon <ch a="A"/>ogniu tak jak <ch a="e"/>my,</row>
+      <row important_over="false">dla <ch a="D"/>niego iskra <ch a="A"/>też się będzie <ch a="e"/>tlić.</row>
+      <row important_over="false">I <ch a="D"/>wyrusz na tę <ch a="A"/>drogę razem <ch a="e"/>z tym,</row>
+      <row important_over="false">któ<ch a="D"/>ry już przyja<ch a="A"/>cielem będzie <ch a="e"/>Twym.</row>
     </block>
   </lyric>
   <keywords/>
@@ -45,7 +45,7 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>https://spiewnik.wywrota.pl/harcerskie/iskierka</verificator>
