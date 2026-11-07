@@ -11,79 +11,79 @@
     <block type="verse">
       <row important_over="true">Pod wi<ch a="a"/>eczór dobrze było, gdy</row>
       <row important_over="true">na p<ch a="G"/>olu pełnym zb<ch a="a"/>óż</row>
-      <row>z di<ch a="C"/>abłem się spotkał Dobry Pan</row>
-      <row>i J<ch a="G"/>ego Anioł Str<ch a="C"/>ó<ch a="G"/>ż.</row>
+      <row important_over="false">z di<ch a="C"/>abłem się spotkał Dobry Pan</row>
+      <row important_over="false">i J<ch a="G"/>ego Anioł Str<ch a="C"/>ó<ch a="G"/>ż.</row>
     </block>
     <block type="chorus">
       <row important_over="true">Di<ch a="a"/>abeł był zdrowy jak ten r<ch a="G"/>ydz,</row>
       <row important_over="true">po prostu czart na schw<ch a="a"/>ał,</row>
-      <row><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
-      <row>na nogach ledwo st<ch a="a"/>ał,</row>
-      <row>uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał.</row>
+      <row important_over="false"><ch a="a"/>Anioł zalany w drobny m<ch a="G"/>ak</row>
+      <row important_over="false">na nogach ledwo st<ch a="a"/>ał,</row>
+      <row important_over="false">uuu… Na n<ch a="G"/>ogach ledwo st<ch a="a"/>ał.</row>
     </block>
     <block type="verse">
-      <row>Chł<ch a="a"/>op, gdy usłyszał Pana głos,</row>
-      <row>popr<ch a="G"/>osił ich na str<ch a="a"/>onę</row>
-      <row><ch a="C"/>i poczęstował z flachy wprost</row>
-      <row>śwież<ch a="G"/>utkim samog<ch a="C"/>on<ch a="G"/>em.</row>
+      <row important_over="false">Chł<ch a="a"/>op, gdy usłyszał Pana głos,</row>
+      <row important_over="false">popr<ch a="G"/>osił ich na str<ch a="a"/>onę</row>
+      <row important_over="false"><ch a="C"/>i poczęstował z flachy wprost</row>
+      <row important_over="false">śwież<ch a="G"/>utkim samog<ch a="C"/>on<ch a="G"/>em.</row>
     </block>
     <block type="chorus">
-      <row>Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row>i flachę Panu d<ch a="a"/>ał,</row>
-      <row>a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row>a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row>ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
+      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
+      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
+      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
+      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
+      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
     </block>
     <block type="verse">
-      <row>Rob<ch a="a"/>otnik, co z roboty szedł</row>
-      <row>przez dr<ch a="G"/>ogi asfalt<ch a="a"/>owe,</row>
-      <row>wyci<ch a="C"/>ągnął z torby chleba pół</row>
-      <row>i t<ch a="G"/>yleż wybor<ch a="C"/>ow<ch a="G"/>ej.</row>
+      <row important_over="false">Rob<ch a="a"/>otnik, co z roboty szedł</row>
+      <row important_over="false">przez dr<ch a="G"/>ogi asfalt<ch a="a"/>owe,</row>
+      <row important_over="false">wyci<ch a="C"/>ągnął z torby chleba pół</row>
+      <row important_over="false">i t<ch a="G"/>yleż wybor<ch a="C"/>ow<ch a="G"/>ej.</row>
     </block>
     <block type="chorus">
-      <row>Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row>i flachę Panu d<ch a="a"/>ał,</row>
-      <row>a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row>a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row>ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
+      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
+      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
+      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
+      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
+      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
     </block>
     <block type="verse">
-      <row>Ksiądz pr<ch a="a"/>oboszcz, który wracał z mszy</row>
-      <row>pryw<ch a="G"/>atnym samoch<ch a="a"/>odem,</row>
-      <row>zapr<ch a="C"/>osił na plebanię i</row>
-      <row>ug<ch a="G"/>ościł starym mi<ch a="C"/>od<ch a="G"/>em.</row>
+      <row important_over="false">Ksiądz pr<ch a="a"/>oboszcz, który wracał z mszy</row>
+      <row important_over="false">pryw<ch a="G"/>atnym samoch<ch a="a"/>odem,</row>
+      <row important_over="false">zapr<ch a="C"/>osił na plebanię i</row>
+      <row important_over="false">ug<ch a="G"/>ościł starym mi<ch a="C"/>od<ch a="G"/>em.</row>
     </block>
     <block type="chorus">
-      <row>Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row>i flachę Panu d<ch a="a"/>ał,</row>
-      <row>a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row>a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row>ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
+      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
+      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
+      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
+      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
+      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
     </block>
     <block type="verse">
-      <row>Min<ch a="a"/>ister wyznań witał się</row>
-      <row>z P<ch a="G"/>anem jak z własnym br<ch a="a"/>atem,</row>
-      <row>a p<ch a="C"/>otem piękny toast wzniósł</row>
-      <row>wytw<ch a="G"/>ornym „Arar<ch a="C"/>at<ch a="G"/>em”.</row>
+      <row important_over="false">Min<ch a="a"/>ister wyznań witał się</row>
+      <row important_over="false">z P<ch a="G"/>anem jak z własnym br<ch a="a"/>atem,</row>
+      <row important_over="false">a p<ch a="C"/>otem piękny toast wzniósł</row>
+      <row important_over="false">wytw<ch a="G"/>ornym „Arar<ch a="C"/>at<ch a="G"/>em”.</row>
     </block>
     <block type="chorus">
-      <row>Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row>i flachę Panu d<ch a="a"/>ał,</row>
-      <row>a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row>a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row>ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
+      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
+      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
+      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
+      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
+      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
     </block>
     <block type="verse">
-      <row>A r<ch a="a"/>ano, gdy ich dopadł kac</row>
-      <row>w przydr<ch a="G"/>ożnym wiejskim r<ch a="a"/>owie,</row>
-      <row><ch a="C"/>Anioł do Pana rzecze tak:</row>
-      <row>„Mój d<ch a="G"/>obry Panie, p<ch a="C"/>owi<ch a="G"/>edz,</row>
+      <row important_over="false">A r<ch a="a"/>ano, gdy ich dopadł kac</row>
+      <row important_over="false">w przydr<ch a="G"/>ożnym wiejskim r<ch a="a"/>owie,</row>
+      <row important_over="false"><ch a="C"/>Anioł do Pana rzecze tak:</row>
+      <row important_over="false">„Mój d<ch a="G"/>obry Panie, p<ch a="C"/>owi<ch a="G"/>edz,</row>
     </block>
     <block type="chorus">
-      <row>czy di<ch a="a"/>abeł sobie wsz<ch a="G"/>ył, czy co,</row>
-      <row>że trzeźwym musi b<ch a="a"/>yć?”.</row>
-      <row>P<ch a="a"/>an odpowiedział: „Sp<ch a="G"/>ójrz na kraj,</row>
-      <row><ch a="G"/>on już nie musi p<ch a="a"/>ić”.</row>
+      <row important_over="false">czy di<ch a="a"/>abeł sobie wsz<ch a="G"/>ył, czy co,</row>
+      <row important_over="false">że trzeźwym musi b<ch a="a"/>yć?”.</row>
+      <row important_over="false">P<ch a="a"/>an odpowiedział: „Sp<ch a="G"/>ójrz na kraj,</row>
+      <row important_over="false"><ch a="G"/>on już nie musi p<ch a="a"/>ić”.</row>
     </block>
   </lyric>
   <music metre="2/4">
@@ -101,7 +101,6 @@
     </done>
     <verificators>
       <verificator>Onufry</verificator>
-      <verificator>Zweryfikowano z wykonaniami autorskimi Krzysztofa Daukszewicza oraz zbiorem "Piosenki z życiorysem"</verificator>
       <verificator>https://spiewnik.wywrota.pl/daukszewicz-krzysztof/ballada-o-trzezwym-diable</verificator>
     </verificators>
   </status>
