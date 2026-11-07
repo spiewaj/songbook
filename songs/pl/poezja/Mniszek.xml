@@ -37,7 +37,7 @@
 		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
-		<guitar barre="0"/>
+		<guitar barre="3"/>
 	</music>
 	<keywords/>
 	<album/>
@@ -49,7 +49,7 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Paweł Budzyński</verificator>
+			<verificator>https://spiewnik.wywrota.pl/jacek-kaczmarski/mniszek</verificator>
 		</verificators>
 		<to_do/>
 	</status>
