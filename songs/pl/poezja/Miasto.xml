@@ -65,10 +65,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>Krzysiek Cz.</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
