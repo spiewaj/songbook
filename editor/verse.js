@@ -395,12 +395,16 @@ export function getNextRow(row) {
     return row.nextSibling;
   }
   let songbody = findAncestor(row, "SONG-BODY");
-  let rows = songbody.getElementsByTagName("song-row");
+  if (!songbody) return null;
+  let rows = [...songbody.getElementsByTagName("song-row")].filter(
+    r => !findAncestor(r, "SONG-VERSE")?.getAttribute("blocknb")
+  );
   for (let i=0; i < rows.length; ++i) {
     if (rows[i]==row) {
       return i<rows.length-1 ? rows[i+1] : null;
     }
   }
+  return null;
 }
 
 export function getPrevRow(row) {
@@ -408,10 +412,14 @@ export function getPrevRow(row) {
     return row.previousSibling;
   }
   let songbody = findAncestor(row, "SONG-BODY");
-  let rows = songbody.getElementsByTagName("song-row");
+  if (!songbody) return null;
+  let rows = [...songbody.getElementsByTagName("song-row")].filter(
+    r => !findAncestor(r, "SONG-VERSE")?.getAttribute("blocknb")
+  );
   for (let i=rows.length-1; i>=0; --i) {
     if (rows[i]==row) {
-      return i>1 ? rows[i-1] : null;
+      return i>0 ? rows[i-1] : null;
     }
   }
+  return null;
 }
