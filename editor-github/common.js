@@ -328,7 +328,7 @@ export function editorLink(user, branchName, file, autocommit, maybeNew) {
     return url.href;
 }
 
-export { slugifyTitle, getDirForGenre } from './naming.js';
+export { slugifyTitle, getDirForGenre, sanitizeBranchName } from './naming.js';
 
 export function HandleError(e, res) {
     console.log("HttpError", e);
