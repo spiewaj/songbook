@@ -9,35 +9,41 @@
   <artist type="band">Wolna Grupa Bukowina</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
-      <row important_over="true"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
-      <row important_over="true"><ch a="D"/>Zimne dłonie <ch a="E"/>grzać, a słowom dać <ch a="A"/>spać</row>
-      <row important_over="true">Zanim <ch a="G"/>znów ich <ch a="D"/>nie przywo<ch a="A"/>łasz</row>
+      <row important_over="true"><ch a="A"/>Gdy zabraknie słów, wtedy <ch a="D9"/>dobrze mieć</row>
+      <row important_over="true"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła,</row>
+      <row important_over="true"><ch a="D"/>Zimne dłonie <ch a="E"/>grzać, a słowom dać <ch a="A"/>spać,</row>
+      <row important_over="true">Zanim <ch a="G"/>znów ich <ch a="D"/>nie przywo<ch a="A"/>łasz.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="D"/>Palce, <ch a="A"/>palce, <ch a="E"/>ziarna, <ch a="A"/>ziarna</row>
-      <row important_over="false"><ch a="D"/>Serce białe - <ch a="E"/>dusza cza<ch a="A"/>rna</row>
-      <row important_over="false"><ch a="D"/>Ziarna, <ch a="A"/>palce, <ch a="E"/>Twoje, <ch a="A"/>moje</row>
-      <row important_over="false"><ch a="D"/>Posplatane <ch a="E"/>jak powo<ch a="A"/>je</row>
+      <row important_over="true"><ch a="D"/>Palce, <ch a="A"/>palce, <ch a="E"/>ziarna, <ch a="A"/>ziarna,</row>
+      <row important_over="false"><ch a="D"/>Serce białe – <ch a="E"/>dusza cza<ch a="A"/>rna,</row>
+      <row important_over="false"><ch a="D"/>Ziarna, <ch a="A"/>palce, <ch a="E"/>twoje, <ch a="A"/>moje,</row>
+      <row important_over="false"><ch a="D"/>Posplatane <ch a="E"/>jak powo<ch a="A"/>je.</row>
     </block>
     <block type="verse">
-      <row important_over="false"><ch a="A"/>Męczyć się bez mąk, martwić <ch a="D9"/>się bez skarg</row>
-      <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka służy nam jak mo<ch a="G"/>że</row>
-      <row important_over="false"><ch a="D"/>Mówi - wiem od <ch a="E"/>lat tu nigdy nie <ch a="A"/>tak,</row>
-      <row important_over="false"><ch a="G"/>By nie chciało <ch a="D"/>nie być go<ch a="A"/>rzej</row>
+      <row important_over="false"><ch a="A"/>Męczyć się bez mąk, martwić <ch a="D9"/>się bez skarg,</row>
+      <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka służy nam, jak mo<ch a="G"/>że.</row>
+      <row important_over="false"><ch a="D"/>Mówi: – Wiem od <ch a="E"/>lat, tu nigdy nie <ch a="A"/>tak,</row>
+      <row important_over="false"><ch a="G"/>By nie chciało <ch a="D"/>nie być go<ch a="A"/>rzej.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
       <bis times="3">
-        <row important_over="false"><ch a="A"/>Gdy zabraknie słów wtedy <ch a="D9"/>dobrze mieć</row>
-        <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła</row>
+        <row important_over="false"><ch a="A"/>Gdy zabraknie słów, wtedy <ch a="D9"/>dobrze mieć</row>
+        <row important_over="false"><ch a="G"/>Czarny łeb słoneczni<ch a="A"/>ka w ogniu dooko<ch a="G"/>ła.</row>
       </bis>
     </block>
   </lyric>
   <keywords/>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/wolna-grupa-bukowina/czarny-leb-slonecznika</verificator>
+    </verificators>
   </status>
 </song>
