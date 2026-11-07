@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<song title="Nadaremność" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo">Bolesław Leśmian</text_author>
-	<comment></comment>
-	<composer type="solo">Adam Kalus</composer>
-	<artist type="band">Małżeństwo z Rozsądku</artist>
-	<translator></translator>
-	<original_title></original_title>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
-		<block type="verse">
-			<row important_over="never">W znoju słońca mozolnie razem z ciszą dzwoni<ch a="G"/><ch a="D"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Rozgrzanych płotów chrust.<ch a="B"/><ch a="F"/><ch a="CD"/></row>
-			<row important_over="never">Pocałunek sam siebie składa mi na skroni,<ch a="e"/><ch a="D"/></row>
-			<bis times="2">
-				<row important_over="never">Sam - bez pomocy ust...<ch a="G"/><ch a="D"/><ch a="C"/><ch a="B"/><ch a="C"/><ch a="G"/></row>
-			</bis>
-		</block>
-		<block type="verse">
-			<row important_over="never">Z rozwalonej stodoły brzmi niebu przez szpary<ch a="G"/><ch a="D"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Jaskółek płacz i śmiech -<ch a="B"/><ch a="F"/><ch a="CD"/></row>
-			<row important_over="never">Do pokoju, spłowiałe wzdymając kotary,<ch a="e"/><ch a="D"/></row>
-			<bis times="2">
-				<row important_over="never">Wyrywa się wiosny dech!<ch a="G"/><ch a="D"/><ch a="C"/><ch a="B"/><ch a="C"/><ch a="G"/></row>
-			</bis>
-		</block>
-		<block type="verse">
-			<row important_over="never">Boże, coś pod mym oknem na czarną godzinę <ch a="G"/><ch a="D"/><ch a="e"/><ch a="C"/><ch a="D"/></row>
-			<row important_over="never">Wonny rozkwiecił bez,<ch a="B"/><ch a="F"/><ch a="CD"/></row>
-			<row important_over="never">Przebacz, że wbrew twej wiedzy i przed czasem ginę <ch a="e"/><ch a="D"/></row>
-			<bis times="2">
-				<row important_over="never">Z woli mych własnych łez!...<ch a="G"/><ch a="D"/><ch a="C"/><ch a="B"/><ch a="C"/><ch a="G"/></row>
-			</bis>
-		</block>
-	</lyric>
-	
-	
-	<music metre="">
-		<guitar/>
-	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre></genre>
-	<status>
-		<done>
-		</done>
-		<verificators>
-			<verificator>Onufry</verificator>
-			
-		</verificators>
-		<to_do></to_do>
-	</status>
-	<music_source></music_source>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nadaremność">
+  <alias/>
+  <text_author type="solo">Bolesław Leśmian</text_author>
+  <comment/>
+  <composer type="solo">Adam Kalus</composer>
+  <artist type="band">Małżeństwo z Rozsądku</artist>
+  <translator/>
+  <original_title/>
+  <lyric>
+    <block type="verse">
+      <row important_over="true">W zn<ch a="G"/>oju sł<ch a="D"/>ońca moz<ch a="e"/>olnie r<ch a="C"/>azem z c<ch a="D"/>iszą dzwoni</row>
+      <row important_over="true">r<ch a="B"/>ozgrz<ch a="F"/>anych pł<ch a="C"/>otów chr<ch a="D"/>ust.</row>
+      <row important_over="true">Pocał<ch a="e"/>unek sam siebie składa mi na skr<ch a="D"/>oni,</row>
+      <bis times="2">
+        <row important_over="true">s<ch a="G"/>am — b<ch a="D"/>ez pom<ch a="C"/>ocy <ch a="B"/>ust...<ch a="C"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">Z rozwal<ch a="G"/>onej stod<ch a="D"/>oły brzmi ni<ch a="e"/>ebu prz<ch a="C"/>ez szp<ch a="D"/>ary</row>
+      <row important_over="false">jask<ch a="B"/>ółek pł<ch a="F"/>acz i śmi<ch a="C"/>ech —<ch a="D"/></row>
+      <row important_over="false">do pok<ch a="e"/>oju, spłowiałe wzdymając kot<ch a="D"/>ary,</row>
+      <bis times="2">
+        <row important_over="false">wyr<ch a="G"/>ywa si<ch a="D"/>ę wi<ch a="C"/>osny d<ch a="B"/>ech!<ch a="C"/><ch a="G"/></row>
+      </bis>
+    </block>
+    <block type="verse">
+      <row important_over="false">B<ch a="G"/>oże, c<ch a="D"/>oś pod mym <ch a="e"/>oknem na cz<ch a="C"/>arną godz<ch a="D"/>inę</row>
+      <row important_over="false">w<ch a="B"/>onny rozkwi<ch a="F"/>ecił b<ch a="C"/>ez,<ch a="D"/></row>
+      <row important_over="false">przeb<ch a="e"/>acz, że wbrew twej wiedzy i przed czasem g<ch a="D"/>inę</row>
+      <bis times="2">
+        <row important_over="false">z w<ch a="G"/>oli mych wł<ch a="D"/>asnych ł<ch a="C"/>ez!...<ch a="B"/><ch a="C"/><ch a="G"/></row>
+      </bis>
+    </block>
+  </lyric>
+  <music metre="4/4">
+    <guitar/>
+  </music>
+  <keywords/>
+  <album>U źródeł tęsknot</album>
+  <genre>Poezja śpiewana</genre>
+  <status>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://dalmafon.pl</verificator>
+    </verificators>
+    <to_do/>
+  </status>
 </song>
