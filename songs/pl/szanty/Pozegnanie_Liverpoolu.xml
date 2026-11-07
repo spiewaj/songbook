@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xhtml="http://www.w3.org/1999/xhtml" title="Pożegnanie Liverpoolu">
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pożegnanie Liverpoolu">
+  <alias></alias>
   <text_author type="solo">Krzysztof Kuza, Jerzy Rogacki</text_author>
+  <comment/>
+  <composer type="solo">tradycyjna</composer>
   <artist type="band">Cztery Refy</artist>
+  <translator></translator>
   <original_title>The Leaving of Liverpool</original_title>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="C"/>Żegnaj nam dostojny stary porcie<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="true"><ch a="C"/>Rzeko Mersey żegnaj nam<ch a="G7"/></row>
-      <row important_over="false"><ch a="C"/>Zaciągnąłem się na rejs do Kalifornii<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="true"><ch a="C"/>Byłem tam już niejeden raz<ch a="G7"/><ch a="C"/></row>
+      <row important_over="true">Żegnaj <ch a="C"/>nam dostojny, <ch a="C7"/>stary <ch a="F"/>por<ch a="C"/>cie,</row>
+      <row important_over="true">Rzeko <ch a="C"/>Mersey, żegnaj <ch a="G7"/>nam!</row>
+      <row important_over="true">Za<ch a="C"/>ciągnąłem się na <ch a="C7"/>rejs do Kali<ch a="F"/>for<ch a="C"/>nii,</row>
+      <row important_over="true">Byłem <ch a="C"/>tam już nieje<ch a="G7"/>den <ch a="C"/>raz.</row>
+    </block>
+    <block type="chorus">
+      <row important_over="true">A więc <ch a="G7"/>żegnaj mi, ko<ch a="F"/>chana <ch a="C"/>ma!</row>
+      <row important_over="true">Za <ch a="C"/>chwilę wypłyniemy w długi <ch a="G7"/>rejs.</row>
+      <row important_over="true">Ile <ch a="C"/>miesięcy cię nie <ch a="C7"/>będę widział, <ch a="F"/>nie wiem <ch a="C"/>sam,</row>
+      <row important_over="true">Lecz pa<ch a="C"/>miętać zawsze <ch a="G7"/>będę <ch a="C"/>cię.</row>
     </block>
     <block type="verse">
-      <row important_over="true"><ch a="G7"/>A więc żegnaj mi kochana ma<ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Za chwilę wypłyniemy w długi rejs<ch a="G7"/></row>
-      <row important_over="false"><ch a="C"/>Ile miesięcy Cię nie będę widział nie wiem sam<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Lecz pamiętać zawsze będę Cię<ch a="G7"/><ch a="C"/></row>
-    </block>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/>Zaciągnąłem się na herbaciany kliper<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Dobry statek choć sławę ma złą<ch a="G7"/></row>
-      <row important_over="false"><ch a="C"/>A że kapitanem jest tam stary Burgess<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Pływającym Piekłem wszyscy go zwą<ch a="G7"/><ch a="C"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="false"><ch a="C"/>Z kapitanem tym płyniemy już nie pierwszy raz<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Znamy się od wielu, wielu lat<ch a="G7"/></row>
-      <row important_over="false"><ch a="C"/>Jeśliś dobrym<ch a=""/> żeglarzem - radę sobie dasz<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Jeśli nie toś cholernie wpadł<ch a="G7"/><ch a="C"/></row>
+      <row important_over="false">Za<ch a="C"/>ciągnąłem się na <ch a="C7"/>herbaciany <ch a="F"/>kli<ch a="C"/>per,</row>
+      <row important_over="false">Dobry <ch a="C"/>statek, choć sławę ma <ch a="G7"/>złą.</row>
+      <row important_over="false">A że <ch a="C"/>kapitanem <ch a="C7"/>jest tam stary <ch a="F"/>Bur<ch a="C"/>gess,</row>
+      <row important_over="false">„Pływa<ch a="C"/>jącym Piekłem” <ch a="G7"/>wszyscy go <ch a="C"/>zwą.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false"><ch a="C"/>Żegnaj nam dostojny stary porcie<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Rzeko Mersey żegnaj nam<ch a="G7"/></row>
-      <row important_over="false"><ch a="C"/>Wypływamy już na rejs do Kalifornii<ch a="C7"/><ch a="F"/><ch a="C"/></row>
-      <row important_over="false"><ch a="C"/>Gdy wrócimy opowiemy wam<ch a="G7"/><ch a="C"/></row>
+      <row important_over="false">Z kapi<ch a="C"/>tanem tym pły<ch a="C7"/>niemy już nie <ch a="F"/>pierwszy <ch a="C"/>raz,</row>
+      <row important_over="false">Znamy <ch a="C"/>się od wielu, wielu <ch a="G7"/>lat.</row>
+      <row important_over="false">Jeśliś <ch a="C"/>dobrym żeglarzem, <ch a="C7"/>radę sobie <ch a="F"/>dasz, <ch a="C"/></row>
+      <row important_over="false">Jeśli <ch a="C"/>nie, toś cho<ch a="G7"/>lernie <ch a="C"/>wpadł.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Żegnaj <ch a="C"/>nam dostojny, <ch a="C7"/>stary <ch a="F"/>por<ch a="C"/>cie,</row>
+      <row important_over="false">Rzeko <ch a="C"/>Mersey, żegnaj <ch a="G7"/>nam!</row>
+      <row important_over="false">Wy<ch a="C"/>pływamy już na <ch a="C7"/>rejs do Kali<ch a="F"/>for<ch a="C"/>nii,</row>
+      <row important_over="false">Gdy wró<ch a="C"/>cimy, opo<ch a="G7"/>wiemy <ch a="C"/>wam.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
@@ -44,7 +48,15 @@
   <keywords/>
   <genre>Szanta</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>http://czteryrefy.pl</verificator>
+      <verificator>https://spiewnik.wywrota.pl/szanty/pozegnanie-liverpoolu</verificator>
+    </verificators>
+    <to_do></to_do>
   </status>
 </song>
