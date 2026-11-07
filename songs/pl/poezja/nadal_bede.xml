@@ -14,9 +14,9 @@
 		<block type="verse">
 			<row important_over="false">su<ch a="d"/>chą st<ch a="A"/>opą prz<ch a="d"/>ejdę bez s<ch a="A"/>kaz,</row>
 			<row important_over="false">p<ch a="d"/>różno ch<ch a="A"/>ód i p<ch a="d"/>ędzący cz<ch a="A"/>as,</row>
-			<row important_over="true" sidechords="d A A7 d">n<ch a="d"/>a nic prz<ch a="A"/>eszkody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="true">n<ch a="d"/>a nic prz<ch a="A"/>eszkody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
 			<row important_over="true">gdy w s<ch a="A"/>ercu nadziei pokł<ch a="d"/>ady,</row>
-			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, pod <ch a="A7"/>nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">n<ch a="d"/>a nic przesz<ch a="A"/>kody, pod <ch a="A7"/>nogami kł<ch a="d"/>ody,</row>
 			<row important_over="false">gdy ch<ch a="A"/>oć odrobinę og<ch a="d"/>łady mam.</row>
 		</block>
 		<block type="chorus">
@@ -30,16 +30,15 @@
 		<block type="verse">
 			<row important_over="false">gdy ci<ch a="d"/>erpliwości i br<ch a="A"/>aknie s<ch a="d"/>ił<ch a="A"/></row>
 			<row important_over="false">i n<ch a="d"/>awet gdy plan B p<ch a="A"/>ójdzie w t<ch a="d"/>ył,<ch a="A"/></row>
-			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
 			<row important_over="false">gdy w s<ch a="A"/>ercu miłości pokł<ch a="d"/>ady,</row>
-			<row important_over="false" sidechords="d A A7 d">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
+			<row important_over="false">n<ch a="d"/>a nic przesz<ch a="A"/>kody, po<ch a="A7"/>d nogami kł<ch a="d"/>ody,</row>
 			<row important_over="false">gdy ch<ch a="A"/>oć odrobinę miłości m<ch a="d"/>am.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
 			<bis times="2">
 				<row important_over="false"><ch a="d"/>Powietrza trz<ch a="A"/>eba mi, w<ch a="d"/>ody z nieba t<ch a="A"/>rzeba mi...</row>
-				<row important_over="never" style="instr"/>
 			</bis>
 		</block>
 	</lyric>
