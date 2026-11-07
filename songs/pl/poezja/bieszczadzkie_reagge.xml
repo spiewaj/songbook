@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzkie reggae">
+  <alias>Porannej mgły snuje się dym</alias>
   <text_author type="solo">Andrzej Starzec</text_author>
+  <comment>Piosenka turystyczna i harcerska napisana w 1984 roku przez Andrzeja Starca.</comment>
   <composer type="solo">Andrzej Starzec</composer>
   <artist type="solo">Andrzej Starzec</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never">Porannej mgły snuje się dym <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-      <row important_over="never">Jutrzenki szal na stokach gór <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-      <row important_over="never">Nowy dzień budzi się, budzi się <ch a="F"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-      <row important_over="never">Melodię dnia już rosa gra <ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="true"><ch a="d"/>Porannej mgły <ch a="C"/>snuje się d<ch a="d"/>ym,<ch a="C"/></row>
+      <row important_over="false"><ch a="d"/>Jutrzenki szal <ch a="C"/>na stokach g<ch a="d"/>ór.<ch a="C"/></row>
+      <row important_over="true"><ch a="F"/>Nowy dzień <ch a="C"/>budzi się, <ch a="d"/>budzi si<ch a="C"/>ę,</row>
+      <row important_over="false"><ch a="d"/>Melodię dnia <ch a="C"/>już rosa gr<ch a="d"/>a.<ch a="C"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">Reggae, bieszczadzkie reggae <ch a="d"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Słońcem pachnące ma jagód smak <ch a="C"/><ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
-      <row important_over="never">Reggae, bieszczadzkie reggae <ch a="d"/><ch a="C"/><ch a="d"/></row>
-      <row important_over="never">Jak potok rwący przed siebie gna <ch a="C"/><ch a="d"/><ch a="C"/><ch a="d"/><ch a="C"/></row>
+      <row important_over="true">R<ch a="d"/>eggae, bi<ch a="C"/>eszczadzkie r<ch a="d"/>eggae,</row>
+      <row important_over="true">Sł<ch a="C"/>ońcem pachn<ch a="d"/>ące, ma j<ch a="C"/>agód sm<ch a="d"/>ak.<ch a="C"/></row>
+      <row important_over="false">R<ch a="d"/>eggae, bi<ch a="C"/>eszczadzkie r<ch a="d"/>eggae,</row>
+      <row important_over="true">J<ch a="C"/>ak potok rw<ch a="d"/>ący przed si<ch a="C"/>ebie gn<ch a="d"/>a.<ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d C d C">Połonin czar ma taką moc</row>
-      <row important_over="never" sidechords="d C d C">Że gdy je ujrzysz pierwszy raz</row>
-      <row important_over="never" sidechords="F C d C">Wrócić chcesz, wrócisz chcesz znów za rok</row>
-      <row important_over="never" sidechords="d C d C">Z poranną rosą czekać dnia</row>
+      <row important_over="false"><ch a="d"/>Połonin czar <ch a="C"/>ma taką m<ch a="d"/>oc,<ch a="C"/></row>
+      <row important_over="false">Ż<ch a="d"/>e gdy je <ch a="C"/>ujrzysz pierwszy r<ch a="d"/>az,<ch a="C"/></row>
+      <row important_over="false">Wr<ch a="F"/>ócić chcesz, <ch a="C"/>wrócić chcesz zn<ch a="d"/>ów za r<ch a="C"/>ok,</row>
+      <row important_over="false">Z p<ch a="d"/>oranną r<ch a="C"/>osą czekać dni<ch a="d"/>a.<ch a="C"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/bieszczadzkie-reggae</verificator>
+    </verificators>
   </status>
 </song>
