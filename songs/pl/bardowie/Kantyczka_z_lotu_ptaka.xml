@@ -4,99 +4,96 @@
 	<text_author type="solo">Jacek Kaczmarski</text_author>
 	<comment></comment>
 	<composer type="solo">Przemysław Gintrowski</composer>
-	<artist type="band">Jacek Kaczmarski; Przemysław Gintrowski</artist>
+	<artist type="band">Jacek Kaczmarski, Przemysław Gintrowski</artist>
 	<translator></translator>
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">— Patrz, mój dobrotliwy Boże,<ch a="a"/></row>
-			<row important_over="never">Na swój ulubiony ludek,<ch a="C"/></row>
-			<row important_over="never">Jak wychodzi rano w zboże<ch a="G"/></row>
-			<row important_over="never">Zginać harde karki z trudem.<ch a="E7"/></row>
-			<row important_over="never">Patrz jak schyla się nad pracą,<ch a="a"/></row>
-			<row important_over="never">Jak pokornie klęski znosi<ch a="C"/></row>
-			<row important_over="never">I nie pyta – Po co? Za co?<ch a="G"/></row>
-			<row important_over="never">Czasem o coś Cię poprosi<ch a="E7"/></row>
+			<row important_over="true">— Patrz, mój dobro<ch a="a"/>tliwy Boże,</row>
+			<row important_over="true">Na swój ulu<ch a="C"/>biony ludek,</row>
+			<row important_over="true">Jak wychodzi <ch a="G"/>rano w zboże</row>
+			<row important_over="true">Zginać harde <ch a="E7"/>karki z trudem.</row>
+			<row important_over="false">Patrz jak schyla <ch a="a"/>się nad pracą,</row>
+			<row important_over="false">Jak pokornie <ch a="C"/>klęski znosi</row>
+			<row important_over="false">I nie pyta <ch a="G"/>– Po co? Za co?</row>
+			<row important_over="false">Czasem o coś <ch a="E7"/>Cię poprosi:</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">— Ujmij trochę łaski nieba!<ch a="a"/><ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Daj spokoju w zamian chleba!<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Innym udziel swej miłości!<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Nam – sprawiedliwości!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+			<row important_over="true">— <ch a="a"/>Ujmij trochę <ch a="E7"/>łaski <ch a="a"/>nieba!</row>
+			<row important_over="true">Daj <ch a="C"/>spokoju w zamian <ch a="G"/>chleba!</row>
+			<row important_over="true">Innym <ch a="E7"/>udziel swej mi<ch a="a"/>łości!</row>
+			<row important_over="true">Nam <ch a="F"/>– sprawie<ch a="a"/>dliwo<ch a="E7"/>ści!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">— Smuć się, Chryste Panie, w chmurze<ch a="a"/></row>
-			<row important_over="never">Widząc, jak się naród bawi,<ch a="C"/></row>
-			<row important_over="never">Znowu chciałby być przedmurzem<ch a="G"/></row>
-			<row important_over="never">I w pogańskiej krwi się pławić.<ch a="E7"/></row>
-			<row important_over="never">Dymią kuźnie i warsztaty,<ch a="a"/></row>
-			<row important_over="never">Lecz nie pracą a – skargami,<ch a="C"/></row>
-			<row important_over="never">Że nie taka jak przed laty<ch a="G"/></row>
-			<row important_over="never">Łaska Twoja nad hufcami:<ch a="E7"/></row>
+			<row important_over="false">— Smuć się, Chryste <ch a="a"/>Panie, w chmurze</row>
+			<row important_over="false">Widząc, jak się <ch a="C"/>naród bawi,</row>
+			<row important_over="false">Znowu chciałby <ch a="G"/>być przedmurzem</row>
+			<row important_over="false">I w pogańskiej <ch a="E7"/>krwi się pławić.</row>
+			<row important_over="false">Dymią kuźnie <ch a="a"/>i warsztaty,</row>
+			<row important_over="false">Lecz nie pracą <ch a="C"/>a – skargami,</row>
+			<row important_over="false">Że nie taka <ch a="G"/>jak przed laty</row>
+			<row important_over="false">Łaska Twoja <ch a="E7"/>nad hufcami:</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">— Siły grożą Ci nieczyste<ch a="a"/><ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Daj nam wsławić się, o Chryste!<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Kalwin, Litwin nam ubliża!<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Dźwigniem ciężar Krzyża!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+			<row important_over="false">— <ch a="a"/>Siły grożą <ch a="E7"/>Ci nie<ch a="a"/>czyste,</row>
+			<row important_over="false">Daj <ch a="C"/>nam wsławić się, o <ch a="G"/>Chryste!</row>
+			<row important_over="false">Kalwin, <ch a="E7"/>Litwin nam ub<ch a="a"/>liża!</row>
+			<row important_over="false">Dźwig<ch a="F"/>niem cię<ch a="a"/>żar Krz<ch a="E7"/>yża!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">— Załam ręce, Matko Boska;<ch a="a"/></row>
-			<row important_over="never">Upadają obyczaje,<ch a="C"/></row>
-			<row important_over="never">Nie pomogła modłom chłosta –<ch a="G"/></row>
-			<row important_over="never">Młodzież w szranki ciała staje.<ch a="E7"/></row>
-			<row important_over="never">W nędzy gzi się krew gorąca<ch a="a"/></row>
-			<row important_over="never">Bez sumienia, bez oddechu,<ch a="C"/></row>
-			<row important_over="never">Po czym z własnych trzewi strząsa<ch a="G"/></row>
-			<row important_over="never">Niedojrzały owoc grzechu.<ch a="E7"/></row>
+			<row important_over="false">— Załam ręce, <ch a="a"/>Matko Boska;</row>
+			<row important_over="false">Upadają <ch a="C"/>obyczaje,</row>
+			<row important_over="false">Nie pomogła <ch a="G"/>modłom chłosta –</row>
+			<row important_over="false">Młodzież w szranki <ch a="E7"/>ciała staje.</row>
+			<row important_over="false">W nędzy gzi się <ch a="a"/>krew gorąca</row>
+			<row important_over="false">Bez sumienia, <ch a="C"/>bez oddechu,</row>
+			<row important_over="false">Po czym z własnych <ch a="G"/>trzewi strząsa</row>
+			<row important_over="false">Niedojrzały <ch a="E7"/>owoc grzechu.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">— Co zbawienie nam, czy piekło!<ch a="a"/><ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Byle życie nie uciekło!<ch a="C"/><ch a="G"/></row>
-			<row important_over="never">Jeszcze będzie czas umierać!<ch a="E7"/><ch a="a"/></row>
-			<row important_over="never">Żyjmy tu i teraz!<ch a="F"/><ch a="a"/><ch a="E7"/></row>
+			<row important_over="false">— <ch a="a"/>Co zbawienie <ch a="E7"/>nam, czy <ch a="a"/>piekło!</row>
+			<row important_over="false">By<ch a="C"/>le życie nie u<ch a="G"/>ciekło!</row>
+			<row important_over="false">Jeszcze <ch a="E7"/>będzie czas umie<ch a="a"/>rać!</row>
+			<row important_over="false">Żyj<ch a="F"/>my tu <ch a="a"/>i ter<ch a="E7"/>az!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">— Grzmijcie gniewem Wszyscy Święci!<ch a="h"/></row>
-			<row important_over="never">Handel lud zalewa boży,<ch a="D"/></row>
-			<row important_over="never">Obce kupce i klienci<ch a="A"/></row>
-			<row important_over="never">W złote wabią go obroże.<ch a="Fis7"/></row>
-			<row important_over="never">Liczy chciwy Żyd i Niemiec<ch a="h"/></row>
-			<row important_over="never">Dziś po ile polska czystość;<ch a="D"/></row>
-			<row important_over="never">Kupi dusze, kupi ziemie<ch a="A"/></row>
-			<row important_over="never">I zostawi pośmiewisko…<ch a="Fis7"/></row>
+			<row important_over="true">— Grzmijcie gniewem <ch a="h"/>Wszyscy Święci!</row>
+			<row important_over="true">Handel lud za<ch a="D"/>lewa boży,</row>
+			<row important_over="true">Obce kupce <ch a="A"/>i klienci</row>
+			<row important_over="true">W złote wabią <ch a="Fis7"/>go obroże.</row>
+			<row important_over="false">Liczy chciwy <ch a="h"/>Żyd i Niemiec</row>
+			<row important_over="false">Dziś po ile <ch a="D"/>polska czystość;</row>
+			<row important_over="false">Kupi dusze, <ch a="A"/>kupi ziemie</row>
+			<row important_over="false">I zostawi <ch a="Fis7"/>pośmiewisko…</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">— Co nam hańba, gdy talary<ch a="h"/><ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="never">Mają lepszy kurs od wiary!<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Wymienimy na walutę<ch a="Fis7"/><ch a="h"/></row>
-			<row important_over="never">Honor i pokutę!<ch a="G"/><ch a="h"/><ch a="Fis7"/></row>
+			<row important_over="true">— <ch a="h"/>Co nam hańba, <ch a="Fis7"/>gdy ta<ch a="h"/>lary</row>
+			<row important_over="true">Ma<ch a="D"/>ją lepszy kurs od <ch a="A"/>wiary!</row>
+			<row important_over="true">Wymie<ch a="Fis7"/>nimy na wa<ch a="h"/>lutę</row>
+			<row important_over="true">Ho<ch a="G"/>nor i <ch a="h"/>poku<ch a="Fis7"/>tę!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">— Jeden naród, tyle kwestii!<ch a="h"/></row>
-			<row important_over="never">Wszystkich naraz – nie wysłuchasz! –<ch a="D"/></row>
-			<row important_over="never">Zadumali się Niebiescy<ch a="A"/></row>
-			<row important_over="never">W imię Ojca, Syna, Ducha…<ch a="Fis7"/></row>
+			<row important_over="false">— Jeden naród, <ch a="h"/>tyle kwestii!</row>
+			<row important_over="false">Wszystkich naraz <ch a="D"/>– nie wysłuchasz! –</row>
+			<row important_over="false">Zadumali <ch a="A"/>się Niebiescy</row>
+			<row important_over="false">W imię Ojca, <ch a="Fis7"/>Syna, Ducha… <ch a="h"/></row>
 		</block>
 	</lyric>
-	
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar/>
 	</music>
 	<keywords></keywords>
-	<album></album>
-	<genre></genre>
+	<album>Wojna postu z karnawałem</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
+			<authors/>
+			<chords/>
+			<text/>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator><verificator>
-			</verificator><verificator>
-		</verificator>
-			
-			
-			
+			<verificator>Onufry</verificator>
+			<verificator>https://kaczmarski.art.pl/tworczosc/wiersze/kantyczka-z-lotu-ptaka/</verificator>
 		</verificators>
 		<to_do></to_do>
 	</status>
