@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Chłopaki nie płaczą">
+	<alias>Mówisz, życie jak cukierek</alias>
+	<text_author type="solo">Zygmunt Staszczyk</text_author>
+	<comment>Tytułowy utwór z siódmego albumu studyjnego grupy T.Love (1997).</comment>
+	<composer type="solo">Maciej Majchrzak</composer>
 	<artist type="band">T.Love</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Mówisz, życie jak cukierek<ch a="D"/><ch a="h"/></row>
-			<row important_over="never">Gorzkie jest czasami<ch a="D"/><ch a="h"/><ch a="A"/></row>
-			<row important_over="never">Mówisz panna zostawiła</row>
-			<row important_over="never">Kumple dawno cię olali</row>
-			<row important_over="never">Ale nie bój nic - minie jakiś czas<ch a="B"/><ch a="A"/><ch a="C"/><ch a="H"/></row>
-			<row important_over="never">Poczuj chłodny świt, wszystko przejdzie ci<ch a="G"/><ch a="A"/><ch a="G"/><ch a="A"/></row>
+			<row important_over="true">M<ch a="D"/>ówisz, życie jak cuki<ch a="h"/>erek,</row>
+			<row important_over="true">g<ch a="D"/>orzkie jest czas<ch a="h"/>am<ch a="A"/>i.</row>
+			<row important_over="false">M<ch a="D"/>ówisz: panna zostaw<ch a="h"/>iła,</row>
+			<row important_over="false">k<ch a="D"/>umple dawno cię ol<ch a="h"/>al<ch a="A"/>i.</row>
+			<row important_over="true">Ale ni<ch a="B"/>e bój n<ch a="A"/>ic – minie j<ch a="C"/>akiś cz<ch a="H"/>as,</row>
+			<row important_over="true">poczuj chł<ch a="G"/>odny św<ch a="A"/>it, wszystko prz<ch a="G"/>ejdzie c<ch a="A"/>i.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">U-u-u chłopaki<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">U-u-u nie płaczą<ch a="D"/><ch a="G"/></row>
-			<row important_over="never">U-u-u chłopaki<ch a="e"/><ch a="A"/></row>
-			<row important_over="never">U-u-u nie płaczą<ch a="e"/><ch a="A"/></row>
-			<row important_over="never">Nie nie nie nie nie nie<ch a="h"/><ch a="B"/><ch a="D"/><ch a="h"/></row>
+			<row important_over="true">U-u-u, chł<ch a="D"/>opak<ch a="G"/>i,</row>
+			<row important_over="false">u-u-u, ni<ch a="D"/>e płacz<ch a="G"/>ą.</row>
+			<row important_over="true">U-u-u, chł<ch a="e"/>opak<ch a="A"/>i,</row>
+			<row important_over="false">u-u-u, ni<ch a="e"/>e płacz<ch a="A"/>ą.</row>
+			<row important_over="true">Ni<ch a="h"/>e, nie, ni<ch a="B"/>e, nie, ni<ch a="D"/>e, ni<ch a="h"/>e!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Nie masz kaski - odpuść sobie</row>
-			<row important_over="never">Jutro przecież też jest dzień</row>
-			<row important_over="never">Może kiedyś ci pomogę</row>
-			<row important_over="never">Może ty nie wystawisz mnie</row>
-			<row important_over="never">Ale nie bój nic - minie jakiś czas</row>
-			<row important_over="never">Poczuj chłodny świt, wszystko przejdzie ci</row>
+			<row important_over="false">Ni<ch a="D"/>e masz kaski – odpuść s<ch a="h"/>obie,</row>
+			<row important_over="false">j<ch a="D"/>utro przecież też jest dzi<ch a="h"/>eń.<ch a="A"/></row>
+			<row important_over="false">M<ch a="D"/>oże kiedyś ci pom<ch a="h"/>ogę,</row>
+			<row important_over="false">m<ch a="D"/>oże ty nie wystawisz mni<ch a="h"/>e.<ch a="A"/></row>
+			<row important_over="false">Ale ni<ch a="B"/>e bój n<ch a="A"/>ic – minie j<ch a="C"/>akiś cz<ch a="H"/>as,</row>
+			<row important_over="false">poczuj chł<ch a="G"/>odny św<ch a="A"/>it, wszystko prz<ch a="G"/>ejdzie c<ch a="A"/>i.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="never">U-u-u chłopaki</row>
-			<row important_over="never">U-u-u nie płaczą</row>
-			<row important_over="never">U-u-u chłopaki</row>
-			<row important_over="never">U-u-u nie płaczą</row>
-			<row important_over="never">Nie nie nie nie nie nie</row>
-		</block>
+		<blocklink blocknb="2"/>
 	</lyric>
-	<music>
-		<guitar/>
+	<music metre="4/4">
+		<guitar barre="0"/>
 	</music>
+	<album>Chłopaki nie płaczą</album>
+	<genre>rock</genre>
 	<status>
-		<verificators/>
-		<done/>
-		<to_do/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/tlove/chlopaki-nie-placza</verificator>
+		</verificators>
 	</status>
-	<keywords/>
-	<alias/>
-	<text_author type="solo"/>
-	<composer type="solo"/>
-	<music_source/>
-	<original_title/>
-	<translator/>
-	<album/>
-	<genre/>
-	<comment/>
 </song>
