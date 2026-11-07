@@ -71,11 +71,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Georges Brassens – «Je me suis fait tout petit» (1956)</verificator>
-			<verificator>Jarosław Gugała (przekład)</verificator>
-			<verificator>Zespół Reprezentacyjny – album „Pornograf” (1993)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/zespol-reprezentacyjny/jestem-maly-mis</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/zespol-reprezentacyjny/jestem-maly-mis</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
