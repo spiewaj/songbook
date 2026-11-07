@@ -29,54 +29,54 @@
       <row important_over="true">L<ch a="D"/>a la la la la la l<ch a="e"/>a la.</row>
     </block>
     <block type="verse">
-      <row>G<ch a="e"/>óry stały ponad nami,</row>
-      <row>C<ch a="D"/>ałe w niebie postrzępionym,</row>
-      <row>L<ch a="C"/>as zielony, w nim po pępki</row>
-      <row>B<ch a="D"/>anie cerkwi z<ch a="e"/>anurzone.</row>
-      <row>R<ch a="e"/>ozbiliśmy swe namioty</row>
-      <row>Z<ch a="D"/>araz obok, przy potoku,</row>
-      <row>R<ch a="C"/>ozpaliło się ognisko,</row>
-      <row>D<ch a="D"/>ym zakręcił ł<ch a="e"/>ezkę w oku.</row>
-      <row>K<ch a="G"/>ilometry już za nami,</row>
-      <row><ch a="D"/>A przed nami zachód słońca,</row>
-      <row><ch a="e"/>Echo niesie nad górami</row>
-      <row>Pi<ch a="D"/>eśń radosną, pi<ch a="e"/>eśń bez końca.</row>
+      <row important_over="false">G<ch a="e"/>óry stały ponad nami,</row>
+      <row important_over="false">C<ch a="D"/>ałe w niebie postrzępionym,</row>
+      <row important_over="false">L<ch a="C"/>as zielony, w nim po pępki</row>
+      <row important_over="false">B<ch a="D"/>anie cerkwi z<ch a="e"/>anurzone.</row>
+      <row important_over="false">R<ch a="e"/>ozbiliśmy swe namioty</row>
+      <row important_over="false">Z<ch a="D"/>araz obok, przy potoku,</row>
+      <row important_over="false">R<ch a="C"/>ozpaliło się ognisko,</row>
+      <row important_over="false">D<ch a="D"/>ym zakręcił ł<ch a="e"/>ezkę w oku.</row>
+      <row important_over="false">K<ch a="G"/>ilometry już za nami,</row>
+      <row important_over="false"><ch a="D"/>A przed nami zachód słońca,</row>
+      <row important_over="false"><ch a="e"/>Echo niesie nad górami</row>
+      <row important_over="false">Pi<ch a="D"/>eśń radosną, pi<ch a="e"/>eśń bez końca.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row><ch a="e"/>A wieczorem z pierwszą gwiazdą</row>
-      <row>W<ch a="D"/>ystrzeliły z bełtów korki,</row>
-      <row>Kw<ch a="C"/>aśnocierpkim smakiem wina</row>
-      <row>Prz<ch a="D"/>ełamaliśm<ch a="e"/>y bariery</row>
-      <row>Mi<ch a="e"/>ędzy nami a pewnymi</row>
-      <row>Dzi<ch a="D"/>ewczynami, co w namiocie</row>
-      <row><ch a="C"/>Obok miały swoje leża</row>
-      <row><ch a="D"/>I nie były wc<ch a="e"/>ale brzydkie.</row>
-      <row>Pi<ch a="G"/>erwsze lody już za nami,</row>
-      <row><ch a="D"/>A przed nami ranek blady,</row>
-      <row><ch a="e"/>Echo niesie nad górami</row>
-      <row>Z<ch a="D"/>ew miłosnej s<ch a="e"/>erenady.</row>
+      <row important_over="false"><ch a="e"/>A wieczorem z pierwszą gwiazdą</row>
+      <row important_over="false">W<ch a="D"/>ystrzeliły z bełtów korki,</row>
+      <row important_over="false">Kw<ch a="C"/>aśnocierpkim smakiem wina</row>
+      <row important_over="false">Prz<ch a="D"/>ełamaliśm<ch a="e"/>y bariery</row>
+      <row important_over="false">Mi<ch a="e"/>ędzy nami a pewnymi</row>
+      <row important_over="false">Dzi<ch a="D"/>ewczynami, co w namiocie</row>
+      <row important_over="false"><ch a="C"/>Obok miały swoje leża</row>
+      <row important_over="false"><ch a="D"/>I nie były wc<ch a="e"/>ale brzydkie.</row>
+      <row important_over="false">Pi<ch a="G"/>erwsze lody już za nami,</row>
+      <row important_over="false"><ch a="D"/>A przed nami ranek blady,</row>
+      <row important_over="false"><ch a="e"/>Echo niesie nad górami</row>
+      <row important_over="false">Z<ch a="D"/>ew miłosnej s<ch a="e"/>erenady.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row>Ki<ch a="e"/>edy się obudziliśmy,</row>
-      <row>B<ch a="D"/>yło dobrze już południe,</row>
-      <row>P<ch a="C"/>otok toczył za namiotem</row>
-      <row>Sw<ch a="D"/>oje wody p<ch a="e"/>orywiste.</row>
-      <row>Gd<ch a="G"/>y mnie dzisiaj ze snu budzi</row>
-      <row>Dzi<ch a="D"/>ecka płacz, a żona nęka,</row>
-      <row>P<ch a="e"/>odziękować chcę Stachurze</row>
-      <row><ch a="D"/>I Krzysiowi M<ch a="e"/>yszkowskiemu.</row>
+      <row important_over="false">Ki<ch a="e"/>edy się obudziliśmy,</row>
+      <row important_over="false">B<ch a="D"/>yło dobrze już południe,</row>
+      <row important_over="false">P<ch a="C"/>otok toczył za namiotem</row>
+      <row important_over="false">Sw<ch a="D"/>oje wody p<ch a="e"/>orywiste.</row>
+      <row important_over="false">Gd<ch a="G"/>y mnie dzisiaj ze snu budzi</row>
+      <row important_over="false">Dzi<ch a="D"/>ecka płacz, a żona nęka,</row>
+      <row important_over="false">P<ch a="e"/>odziękować chcę Stachurze</row>
+      <row important_over="false"><ch a="D"/>I Krzysiowi M<ch a="e"/>yszkowskiemu.</row>
     </block>
     <block type="chorus">
-      <row>L<ch a="e"/>a la la la la,</row>
-      <row>L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la,</row>
-      <row>L<ch a="e"/>a la la la la,</row>
-      <row>L<ch a="D"/>a la la la la la l<ch a="e"/>a la,</row>
-      <row>L<ch a="e"/>a la la la la,</row>
-      <row>L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la,</row>
-      <row>L<ch a="e"/>a la la la la,</row>
-      <row>L<ch a="D"/>a la la la la la l<ch a="e"/>a la.</row>
+      <row important_over="false">L<ch a="e"/>a la la la la,</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la,</row>
+      <row important_over="false">L<ch a="e"/>a la la la la,</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la,</row>
+      <row important_over="false">L<ch a="e"/>a la la la la,</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la la la,</row>
+      <row important_over="false">L<ch a="e"/>a la la la la,</row>
+      <row important_over="false">L<ch a="D"/>a la la la la la l<ch a="e"/>a la.</row>
     </block>
   </lyric>
   <music metre="4/4">
@@ -89,7 +89,7 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>Onufry</verificator>
