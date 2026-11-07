@@ -39,7 +39,9 @@
 	</music>
 	<genre>Piosenka turystyczna</genre>
 	<status>
-		<verificators/>
+		<verificators>
+      <verificator>https://sylwekszweda.pl/www/php/showsong.php?id=1061</verificator>
+    </verificators>
 		<done>
 			<text/>
 			<authors/>
