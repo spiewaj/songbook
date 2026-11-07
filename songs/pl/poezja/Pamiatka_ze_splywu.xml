@@ -42,7 +42,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.rejsomat.pl/szanta/pamiatka-ze-splywu-zegnamy-gasnacy-dzien-i-mgly-co-nad-woda-i-wi</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Cyfrowa Biblioteka Polskiej Piosenki (Krzysztof Heering, Śpiewnik harcerski, 1988)</music_source>
