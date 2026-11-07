@@ -1,66 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Hiszpanka z Callao">
-  <alias/>
-  <text_author type="solo">Henryk Czekała; Sławomir Klupś</text_author>
-  <comment>Fragmenty tekstą są cytatami z Edwarda Stachury</comment>
+  <alias>Przepuściłem znów całą forsę swą</alias>
+  <text_author type="solo">Henryk Czekała, Sławomir Klupś</text_author>
+  <comment>Piosenka zespołu Mechanicy Shanty. Fragmenty tekstu są nawiązaniami do twórczości Edwarda Stachury.</comment>
   <composer type="solo">Tradycyjna</composer>
   <artist type="band">Mechanicy Shanty</artist>
-  <translator/>
-  <original_title/>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Przepuściłem znów całą forsę swą<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Na hiszpańską dziewkę z Callao<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Wyciągnęła ze mnie cały szmal<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>I spłukałem na nią się do cna<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Przepuściłem znów całą <ch a="e"/>forsę swą</row>
+      <row important_over="true">Na hisz<ch a="C"/>pańską dziewkę z Cal<ch a="D"/>lao,</row>
+      <row important_over="true">Wy<ch a="G"/>ciągnęła ze mnie <ch a="e"/>cały szmal</row>
+      <row important_over="true">I spłu<ch a="C"/>kałem na nią się <ch a="D"/>do cna.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Już znikają główki portu<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>W którym stary został dom<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Znów za rufą niknie w dali<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Ukochany stały ląd<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Już znikają <ch a="e"/>główki portu,</row>
+      <row important_over="true">W <ch a="C"/>którym stary został <ch a="D"/>dom,</row>
+      <row important_over="true">Znów za <ch a="G"/>rufą niknie <ch a="e"/>w dali</row>
+      <row important_over="true">Uko<ch a="C"/>chany stały <ch a="D"/>ląd.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="G"/>Dalej chłopcy rwijmy fały<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Niech uderzy w żagle wiatr<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>W morze znów wypływamy<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Ile tam spędzimy lat<ch a="D"/></row>
+      <row important_over="true"><ch a="G"/>Dalej, chłopcy, <ch a="e"/>rwijmy fały,</row>
+      <row important_over="true">Niech u<ch a="C"/>derzy w żagle <ch a="D"/>wiatr!</row>
+      <row important_over="true">W <ch a="G"/>morze znów wy<ch a="e"/>pływamy,</row>
+      <row important_over="true">Ile <ch a="C"/>tam spędzimy <ch a="D"/>lat?</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Już niejeden pokład mym domem był<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>I niejeden bat me plecy bił<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Choć robota ciężka i żarcie psie<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>W Callao po rejsie znajdziesz mnie<ch a="D"/></row>
-    </block>
-    <blocklink blocknb="2"/>
-    <blocklink blocknb="3"/>
-    <block type="verse">
-      <row important_over="never"><ch a="G"/>Zaprószyłem tam nieraz głowę swą<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>W barze u Hiszpanki z Callao<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Butlę rumu wielką dała mi<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>I ciągnęła ze mną aż po świt<ch a="D"/></row>
+      <row important_over="false">Już nie<ch a="G"/>jeden pokład mym <ch a="e"/>domem był</row>
+      <row important_over="false">I nie<ch a="C"/>jeden bat me plecy <ch a="D"/>bił,</row>
+      <row important_over="false">Choć ro<ch a="G"/>bota ciężka i <ch a="e"/>żarcie psie,</row>
+      <row important_over="false">W Cal<ch a="C"/>lao po rejsie znajdziesz <ch a="D"/>mnie.</row>
     </block>
     <blocklink blocknb="2"/>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>A pod Cape Horn gdzie nas poniesie wiatr<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Popłyniemy z sztormem za pan brat<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Przez groźne burze śnieg i lód<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Dojdziemy aż do piekła wrót<ch a="D"/></row>
+      <row important_over="false">Za<ch a="G"/>prószyłem tam nieraz <ch a="e"/>głowę swą</row>
+      <row important_over="false">W barze <ch a="C"/>u Hiszpanki z Cal<ch a="D"/>lao,</row>
+      <row important_over="false">Butlę <ch a="G"/>rumu wielką da<ch a="e"/>ła mi</row>
+      <row important_over="false">I ciąg<ch a="C"/>nęła ze mną aż po <ch a="D"/>świt.</row>
+    </block>
+    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
+    <block type="verse">
+      <row important_over="false">A pod <ch a="G"/>Cape Horn, gdzie nas po<ch a="e"/>niesie wiatr,</row>
+      <row important_over="false">Po<ch a="C"/>płyniemy ze sztormem <ch a="D"/>za pan brat,</row>
+      <row important_over="false">Przez groźne <ch a="G"/>burze, śnieg i <ch a="e"/>lód</row>
+      <row important_over="false">Doj<ch a="C"/>dziemy aż do piekła <ch a="D"/>wrót.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="G"/>Choć zgrabieją z zimna ręce<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>Zadek mokry dzień i noc<ch a="D"/></row>
-      <row important_over="never"><ch a="G"/>Jedna myśl rozgrzewa serce<ch a="e"/></row>
-      <row important_over="never"><ch a="C"/>O Hiszpance z Callao<ch a="D"/></row>
+      <row important_over="false">Choć zgra<ch a="G"/>bieją z zimna <ch a="e"/>ręce,</row>
+      <row important_over="false">Zadek <ch a="C"/>mokry dzień i <ch a="D"/>noc,</row>
+      <row important_over="false">Jedna <ch a="G"/>myśl rozgrzewa <ch a="e"/>serce:</row>
+      <row important_over="false">O Hisz<ch a="C"/>pance z Cal<ch a="D"/>lao.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="0"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/mechanicy-shanty/hiszpanka-z-callao</verificator>
+    </verificators>
   </status>
 </song>
