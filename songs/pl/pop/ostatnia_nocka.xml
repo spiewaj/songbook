@@ -20,8 +20,8 @@
       <row important_over="false"><ch a="F"/>Nocny ref<ch a="F7"/>lektor <ch a="E"/>teren przecze<ch a="E7"/>suje</row>
       <row important_over="false">Owo <ch a="a"/>światło <ch a="C"/>to, <ch a="G"/>jak ja dobrze <ch a="C"/>znam</row>
       <row important_over="false"><ch a="F"/>Nigdy nie <ch a="F7"/>gaśnie, ktoś <ch a="E"/>zawsze obser<ch a="E7"/>wuje.</row>
-      <row important_over="never" sidechords="a C G C F F7 E E7">Nie wiem, czy wierzę jej, czy nie wierzę</row>
-      <row important_over="never" sidechords="a C G C F F7 E E7">Wierzę jej, czy nie wierzę</row>
+      <row important_over="true"><ch a="a"/>Nie wiem, czy <ch a="C"/>wierzę <ch a="G"/>jej, czy nie <ch a="C"/>wierzę, <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
+      <row important_over="false"><ch a="a"/>Wierzę <ch a="C"/>jej, czy <ch a="G"/>nie wie<ch a="C"/>rzę. <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
     </block>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Ostatnia <ch a="C"/>doba, <ch a="G"/>jutro będę <ch a="C"/>tam</row>
@@ -50,9 +50,10 @@
       <row important_over="false"><ch a="F"/>Nie ma zna<ch a="F7"/>czenia, <ch a="E"/>wychodzę z wię<ch a="E7"/>zienia.</row>
     </block>
     <blocklink blocknb="2"/>
+    <blocklink blocknb="2"/>
     <block type="other">
       <bis times="4">
-        <row important_over="never" sidechords="a C G C F F7 E E7">Wierzę jej, czy nie wierzę</row>
+        <row important_over="false"><ch a="a"/>Wierzę <ch a="C"/>jej, czy <ch a="G"/>nie wie<ch a="C"/>rzę. <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
       </bis>
     </block>
   </lyric>
@@ -62,7 +63,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chords</chords>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>https://spiewnik.wywrota.pl/maciej-malenczuk/ostatnia-nocka</verificator>
