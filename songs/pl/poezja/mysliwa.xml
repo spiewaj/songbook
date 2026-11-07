@@ -48,12 +48,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>Dagmara Korona - Dzień dobry (Cytryna, 2008)</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>Krzysiek Cz.</verificator>
+    </verificators>
 	</status>
 </song>
