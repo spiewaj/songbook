@@ -6,7 +6,7 @@
 	<composer type="solo">Krzysztof Myszkowski</composer>
 	<artist type="band">Stare Dobre Małżeństwo</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
-		<block type="chorus">
+		<block type="verse">
 			<row important_over="true">Wyst<ch a="C"/>ukaj po torach d<ch a="G"/>o mnie list,</row>
 			<row important_over="true">Wtedy napr<ch a="a"/>awdę nie wyjedziesz c<ch a="G"/>ała,</row>
 			<row important_over="true">Niech b<ch a="F"/>ędzie w nim lokomotywy gw<ch a="C"/>izd,</row>
@@ -16,7 +16,7 @@
 			<row important_over="false">Moja ul<ch a="F"/>ica jeszcze twardo śp<ch a="C"/>i,</row>
 			<row important_over="false">Jeśli tak chc<ch a="h7/5-"/>esz,<ch a="E"/> w liście z<ch a="a"/>ostań.</row>
 		</block>
-		<block type="verse">
+		<block type="chorus">
 			<row important_over="true">A m<ch a="h7/5-"/>ogliśmy, Mała, razem łąką iść,</row>
 			<row important_over="true">Świt w<ch a="a"/>itać po kolana w rosie,</row>
 			<row important_over="true">A m<ch a="G"/>ogliśmy, Mała, razem piwo pić,</row>
@@ -26,7 +26,7 @@
 			<row important_over="true">A m<ch a="h7/5-"/>ogliśmy, Mała, w środku lata</row>
 			<row important_over="true">Zbud<ch a="E"/>ować słoneczną prz<ch a="a"/>ystań.</row>
 		</block>
-		<block type="chorus">
+		<block type="verse">
 			<row important_over="false">N<ch a="C"/>apisz od serca d<ch a="G"/>o mnie list</row>
 			<row important_over="false">I zami<ch a="a"/>eszkaj w tym liście c<ch a="G"/>ała,</row>
 			<row important_over="false">Niech śmiechu d<ch a="F"/>użo będzie w n<ch a="C"/>im,</row>
