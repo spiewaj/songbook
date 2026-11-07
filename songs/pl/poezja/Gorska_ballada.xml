@@ -68,12 +68,11 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kuba</verificator>
-			<verificator>Onufry</verificator>
-			<verificator>Leszek Kopeć (autor tekstu i muzyki)</verificator>
-			<verificator>https://poezjaspiewana.pl/gorska-ballada/</verificator>
-			<verificator>https://spiewnik.wywrota.pl/leszek-kopec/gorska-ballada</verificator>
-		</verificators>
+      <verificator>Kuba</verificator>
+      <verificator>Onufry</verificator>
+      <verificator>https://poezjaspiewana.pl/gorska-ballada/</verificator>
+      <verificator>https://spiewnik.wywrota.pl/leszek-kopec/gorska-ballada</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
