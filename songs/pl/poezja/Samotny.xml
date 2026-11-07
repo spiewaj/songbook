@@ -61,7 +61,9 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://poezjaspiewana.pl/preludium-dla-leonarda/</verificator>
+    </verificators>
   </status>
   <music_source>https://poezjaspiewana.pl/preludium-dla-leonarda/</music_source>
 </song>
