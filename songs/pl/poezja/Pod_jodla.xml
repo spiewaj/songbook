@@ -25,52 +25,52 @@
       <row important_over="true"><ch a="C"/>Postawić nie chciał <ch a="G"/>nam!<ch a="C"/></row>
     </block>
     <block type="verse">
-      <row><ch a="C"/>Wybrałem się do Mary,</row>
-      <row><ch a="a"/>Chodziłem tam dni cztery,</row>
-      <row><ch a="F"/>Ekonom Paddy, suczysyn,</row>
-      <row><ch a="C"/>Wciąż dawał jej robotę.</row>
-      <row><ch a="C"/>Trzy razy mu mówiłem,</row>
-      <row><ch a="a"/>Uprzejmie go prosiłem,</row>
-      <row><ch a="F"/>Lecz nie posłuchał łobuz mnie –</row>
-      <row><ch a="C"/>Do dziś ma Mary cnotę.</row>
+      <row important_over="false"><ch a="C"/>Wybrałem się do Mary,</row>
+      <row important_over="false"><ch a="a"/>Chodziłem tam dni cztery,</row>
+      <row important_over="false"><ch a="F"/>Ekonom Paddy, suczysyn,</row>
+      <row important_over="false"><ch a="C"/>Wciąż dawał jej robotę.</row>
+      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem,</row>
+      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem,</row>
+      <row important_over="false"><ch a="F"/>Lecz nie posłuchał łobuz mnie –</row>
+      <row important_over="false"><ch a="C"/>Do dziś ma Mary cnotę.</row>
     </block>
     <block type="chorus">
-      <row><ch a="G"/>Więc dałem jemu w nos!</row>
-      <row><ch a="C"/>Co myśli sobie,</row>
-      <row><ch a="F"/>Co myśli wredny typ?</row>
-      <row><ch a="C"/>Pozwolić nie chciał <ch a="G"/>nam!<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Więc dałem jemu w nos!</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie,</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ?</row>
+      <row important_over="false"><ch a="C"/>Pozwolić nie chciał <ch a="G"/>nam!<ch a="C"/></row>
     </block>
     <block type="verse">
-      <row><ch a="C"/>W Dublinie przy niedzieli</row>
-      <row><ch a="a"/>Pięć funtów nam gwizdnęli,</row>
-      <row><ch a="F"/>Właściciel pubu, tłusty byk,</row>
-      <row><ch a="C"/>Chciał funta na zapłatę.</row>
-      <row><ch a="C"/>Trzy razy mu mówiłem,</row>
-      <row><ch a="a"/>Uprzejmie go prosiłem,</row>
-      <row><ch a="F"/>Lecz nerwy ciut poniosły mnie –</row>
-      <row><ch a="C"/>Zepsutą ma facjatę.</row>
+      <row important_over="false"><ch a="C"/>W Dublinie przy niedzieli</row>
+      <row important_over="false"><ch a="a"/>Pięć funtów nam gwizdnęli,</row>
+      <row important_over="false"><ch a="F"/>Właściciel pubu, tłusty byk,</row>
+      <row important_over="false"><ch a="C"/>Chciał funta na zapłatę.</row>
+      <row important_over="false"><ch a="C"/>Trzy razy mu mówiłem,</row>
+      <row important_over="false"><ch a="a"/>Uprzejmie go prosiłem,</row>
+      <row important_over="false"><ch a="F"/>Lecz nerwy ciut poniosły mnie –</row>
+      <row important_over="false"><ch a="C"/>Zepsutą ma facjatę.</row>
     </block>
     <block type="chorus">
-      <row><ch a="G"/>Bo dałem jemu w nos!</row>
-      <row><ch a="C"/>Co myśli sobie,</row>
-      <row><ch a="F"/>Co myśli wredny typ?</row>
-      <row><ch a="C"/>Odpuścić nie chciał <ch a="G"/>nam!<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>Bo dałem jemu w nos!</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie,</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ?</row>
+      <row important_over="false"><ch a="C"/>Odpuścić nie chciał <ch a="G"/>nam!<ch a="C"/></row>
     </block>
     <block type="verse">
-      <row><ch a="C"/>Na trakcie przez przypadek</row>
-      <row><ch a="a"/>Coś też mnie kopnął w zadek,</row>
-      <row><ch a="F"/>Łapaczy oddział wyrwał mnie</row>
-      <row><ch a="C"/>Tak jak borsuka z dziury.</row>
-      <row><ch a="C"/>Na okręt mnie zabrali,</row>
-      <row><ch a="a"/>Po zadku fest przylali,</row>
-      <row><ch a="F"/>A kiedy drzeć zacząłem pysk,</row>
-      <row><ch a="C"/>Padł taki rozkaz z góry:</row>
+      <row important_over="false"><ch a="C"/>Na trakcie przez przypadek</row>
+      <row important_over="false"><ch a="a"/>Coś też mnie kopnął w zadek,</row>
+      <row important_over="false"><ch a="F"/>Łapaczy oddział wyrwał mnie</row>
+      <row important_over="false"><ch a="C"/>Tak jak borsuka z dziury.</row>
+      <row important_over="false"><ch a="C"/>Na okręt mnie zabrali,</row>
+      <row important_over="false"><ch a="a"/>Po zadku fest przylali,</row>
+      <row important_over="false"><ch a="F"/>A kiedy drzeć zacząłem pysk,</row>
+      <row important_over="false"><ch a="C"/>Padł taki rozkaz z góry:</row>
     </block>
     <block type="chorus">
-      <row><ch a="G"/>A dajcie jemu w nos!</row>
-      <row><ch a="C"/>Co myśli sobie,</row>
-      <row><ch a="F"/>Co myśli wredny typ?</row>
-      <row><ch a="C"/>Przeszkadzać będzie <ch a="G"/>nam!<ch a="C"/></row>
+      <row important_over="false"><ch a="G"/>A dajcie jemu w nos!</row>
+      <row important_over="false"><ch a="C"/>Co myśli sobie,</row>
+      <row important_over="false"><ch a="F"/>Co myśli wredny typ?</row>
+      <row important_over="false"><ch a="C"/>Przeszkadzać będzie <ch a="G"/>nam!<ch a="C"/></row>
     </block>
   </lyric>
   <music metre="4/4">
@@ -81,9 +81,11 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.rejsomat.pl/szanta/pod-jodla-siedzielismy-pod-jodla-i-dobrze-nam-sie-wiodlo-kapitan</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
