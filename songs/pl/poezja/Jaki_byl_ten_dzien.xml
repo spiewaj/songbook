@@ -46,11 +46,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Kasia Kowalska</verificator>
-			<verificator>Andrzej Sobczak (słowa), Wojciech Hoffmann (muzyka)</verificator>
-			<verificator>Turbo – album „Smak ciszy” (1985)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/turbo/jaki-byl-ten-dzien</verificator>
-		</verificators>
+      <verificator>Kasia Kowalska</verificator>
+      <verificator>https://spiewnik.wywrota.pl/turbo/jaki-byl-ten-dzien</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
