@@ -1,69 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Fiddler's Green">
-  <alias/>
-  <text_author>J. Rogacki</text_author>
-  <comment/>
-  <composer type="solo">J. Conolly</composer>
-  <artist type="band">4 Refy</artist>
-  <translator/>
-  <original_title/>
+  <alias>Stary port się powoli układał do snu</alias>
+  <text_author type="solo">Jerzy Rogacki</text_author>
+  <comment>Piosenka autorstwa Johna Conolly'ego (1966) opowiadająca o mitycznym raju rybaków i marynarzy. Polski przekład: Jerzy Rogacki (zespół Cztery Refy).</comment>
+  <composer type="solo">John Conolly</composer>
+  <artist type="band">Cztery Refy</artist>
+  <original_title>Fiddler's Green</original_title>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr">
-        <ch a="F"/>
-        <ch a="C"/>
-        <ch a="e"/>
-        <ch a="d"/>
-        <ch a="G"/>
-        <ch a="C"/>
-     </row>
+      <row important_over="false" style="instr"><ch a="F"/> <ch a="C"/> <ch a="e"/> <ch a="d"/> <ch a="G"/> <ch a="C"/></row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Stary port się powoli układał do snu<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Świeża bryza zmarszczyła morze gładkie jak stół<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Stary rybak na kei zaczął śpiewać swą pieśń<ch a="d"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a7"/>Zabierzcie mnie chłopcy mój czas skończył się<ch a="d7"/><ch a="F"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="true"><ch a="C"/>Stary port się po<ch a="F"/>woli uk<ch a="C"/>ładał do <ch a="a"/>snu,</row>
+      <row important_over="true">Świeża <ch a="C"/>bryza zmarsz<ch a="F"/>czyła morze <ch a="C"/>gładkie jak <ch a="G"/>stół.</row>
+      <row important_over="true">Stary <ch a="F"/>rybak na <ch a="e"/>kei zaczął <ch a="d"/>śpiewać swą <ch a="C"/>pieśń:</row>
+      <row important_over="true">„Zabi<ch a="a7"/>erzcie mnie, <ch a="d7"/>chłopcy, mój <ch a="F"/>czas kończy <ch a="G"/>się!”.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="C"/>Tyko wezmę swój sztormiak i sweter<ch a="G"/><ch a="C"/></row>
-      <row important_over="never"><ch a="F"/>Ostatni raz spojrzę na Pirs<ch a="C"/><ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Pozdrów moich kolegów powiedz że dnia pewnego<ch a="C"/><ch a="e"/></row>
-      <row important_over="never"><ch a="d"/>Spotkamy się wszyscy tam w Fiddeler's Green<ch a="G"/><ch a="C"/></row>
+      <row important_over="true">Tylko <ch a="C"/>wezmę swój <ch a="F"/>sztormiak i <ch a="C"/>swe<ch a="G"/>ter,</row>
+      <row important_over="true">Ostatni <ch a="F"/>raz spojrzę na <ch a="C"/>pirs, <ch a="G"/></row>
+      <row important_over="true">Pozdrów <ch a="F"/>moich kolegów, po<ch a="C"/>wiedz, że dnia pew<ch a="e"/>nego</row>
+      <row important_over="true">Spot<ch a="d"/>kamy się wszyscy tam, <ch a="G"/>w Fiddler's <ch a="C"/>Green.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Fiddeler's Green szłyszłem nie raz<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Jeśli piekło ominę dopłynąć chcę tam<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Gdzie delfiny figlują w wodzie czystej jak łza<ch a="d"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a7"/>O mroźnej Grenlandii zapomina się tam<ch a="d7"/><ch a="F"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">O <ch a="C"/>Fiddler's Green <ch a="F"/>słyszałem nie <ch a="a"/>raz,</row>
+      <row important_over="false">Jeśli <ch a="C"/>piekło o<ch a="F"/>minę, do<ch a="C"/>płynąć chcę <ch a="G"/>tam,</row>
+      <row important_over="false">Gdzie del<ch a="F"/>finy fig<ch a="e"/>lują w wo<ch a="d"/>dzie czystej jak <ch a="C"/>łza,</row>
+      <row important_over="false">A o <ch a="a7"/>mroźnej Gren<ch a="d7"/>landii zapo<ch a="F"/>mina się <ch a="G"/>tam.</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Kiedy już tam dopłynę oddam cumy na ląd<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>Różne bary są czynne cały dzień i całą noc<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Piwo nic nie kosztuje a dziewczęta jak sen<ch a="d"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a7"/>Rum w butelkach rośnie na każdym z drzew<ch a="d7"/><ch a="F"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Kiedy <ch a="C"/>już tam do<ch a="F"/>płynę, od<ch a="C"/>dam cumy na <ch a="a"/>ląd,</row>
+      <row important_over="false">Różne <ch a="C"/>bary są <ch a="F"/>czynne cały <ch a="C"/>dzień i całą <ch a="G"/>noc.</row>
+      <row important_over="false">Piwo <ch a="F"/>nic nie kosz<ch a="e"/>tuje, a dziew<ch a="d"/>częta jak <ch a="C"/>sen,</row>
+      <row important_over="false">Rum <ch a="a7"/>w butelkach <ch a="d7"/>rośnie na <ch a="F"/>każdym ze <ch a="G"/>drzew.</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="never"><ch a="C"/>Aureola i harfa to nie to o czym śnię<ch a="a"/></row>
-      <row important_over="never"><ch a="C"/>O morza rozkołys i wiatr modlę się<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Stare pudło wyciągnę zagram coś w cichą noc<ch a="d"/><ch a="C"/></row>
-      <row important_over="never"><ch a="a7"/>Wiatr w takielunku zaśpiewa swój song<ch a="d7"/><ch a="F"/><ch a="G"/><ch a="A"/></row>
+      <row important_over="false">Aure<ch a="C"/>ola i <ch a="F"/>harfa to <ch a="C"/>nie to, o czym <ch a="a"/>śnię,</row>
+      <row important_over="false">O mo<ch a="C"/>rza roz<ch a="F"/>kołys i <ch a="C"/>wiatr modlę <ch a="G"/>się.</row>
+      <row important_over="false">Stare <ch a="F"/>pudło wy<ch a="e"/>ciągnę, za<ch a="d"/>gram coś w cichą <ch a="C"/>noc,</row>
+      <row important_over="false">Wiatr w ta<ch a="a7"/>kielunku za<ch a="d7"/>śpiewa <ch a="F"/>swój własny <ch a="G"/>song.</row>
     </block>
-    <block type="verse">
+    <block type="chorus">
       <bis>
-        <row important_over="never"><ch a="C"/>Tyko wezmę swój sztormiak i sweter<ch a="G"/><ch a="C"/></row>
-        <row important_over="never"><ch a="F"/>Ostatni raz spojrzę na Pirs<ch a="C"/><ch a="G"/></row>
-        <row important_over="never"><ch a="F"/>Pozdrów moich kolegów powiedz że dnia pewnego<ch a="C"/><ch a="e"/></row>
-        <row important_over="never"><ch a="d"/>Spotkamy się wszyscy tam w Fiddeler's Green<ch a="G"/><ch a="C"/></row>
+        <row important_over="false">Tylko <ch a="C"/>wezmę swój <ch a="F"/>sztormiak i <ch a="C"/>swe<ch a="G"/>ter,</row>
+        <row important_over="false">Ostatni <ch a="F"/>raz spojrzę na <ch a="C"/>pirs, <ch a="G"/></row>
+        <row important_over="false">Pozdrów <ch a="F"/>moich kolegów, po<ch a="C"/>wiedz, że dnia pew<ch a="e"/>nego</row>
+        <row important_over="false">Spot<ch a="d"/>kamy się wszyscy tam, <ch a="G"/>w Fiddler's <ch a="C"/>Green.</row>
       </bis>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="3/4">
     <guitar barre="0"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/cztery-refy/fiddler-s-green</verificator>
+    </verificators>
   </status>
 </song>
