@@ -58,12 +58,10 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>NN</verificator>
-			<verificator>Alek</verificator>
-			<verificator>Andrzej Waligórski (tekst, waligorski.art.pl)</verificator>
-			<verificator>Aleksander Grotowski, Małgorzata Zwierzchowska – album „Jesień idzie” (1995)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/andrzej-waligorski/jesien-idzie</verificator>
-		</verificators>
+      <verificator>NN</verificator>
+      <verificator>Alek</verificator>
+      <verificator>https://spiewnik.wywrota.pl/andrzej-waligorski/jesien-idzie</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
