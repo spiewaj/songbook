@@ -2,7 +2,7 @@
 <song title="Motyle pocałunki" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
 	<alias>Domino</alias>
 	<text_author type="solo">Rafał Traczyk</text_author>
-	<comment>Akordy symulują linię specjalnej palcówki (fingerpicking).</comment>
+	<comment>Trochę inny tekst niż oryginał i inna melodia. Gra się nie akordami (tu zasymulowane), a specjalną palcówką (fingerpicking).</comment>
 	<composer type="solo">Witold Kozaczkiewicz</composer>
 	<artist type="band">Apogeum</artist>
 	<lyric>
@@ -40,11 +40,10 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			<verificator>Apogeum - Siła (2003)</verificator>
 			<verificator>https://lp3.pl/utwor/5863</verificator>
 		</verificators>
 	</status>
