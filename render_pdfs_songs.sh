@@ -21,6 +21,17 @@ process_song() {
   local song_file="$1"
   local title=$(basename "${song_file}" .xml)
   
+  local a4_pdf="${OUTPUT_DIR}/${title}.a4.pdf"
+  local a5_pdf="${OUTPUT_DIR}/${title}.a5.pdf"
+
+  # If FORCE_RENDER is not set, check if both A4 and A5 PDFs already exist and are newer than the song XML
+  if [ -z "${FORCE_RENDER}" ] && [ -f "${a4_pdf}" ] && [ -f "${a5_pdf}" ]; then
+    if [ "${a4_pdf}" -nt "${song_file}" ] && [ "${a5_pdf}" -nt "${song_file}" ]; then
+      echo "Skipping up-to-date: ${title}"
+      return 0
+    fi
+  fi
+
   echo "Processing: ${title} (${song_file})"
   
   for format in a4 a5; do
@@ -32,7 +43,7 @@ process_song() {
 
 # Export the function so it's available to subprocesses
 export -f process_song
-export SCRIPT_DIR OUTPUT_DIR
+export SCRIPT_DIR OUTPUT_DIR FORCE_RENDER
 
 # Use xargs to process songs in parallel (default: 4 concurrent processes)
 # You can set PARALLEL_JOBS environment variable to control concurrency

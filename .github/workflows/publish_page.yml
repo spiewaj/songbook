@@ -74,7 +74,11 @@ jobs:
           [ -d _generated/images ] && cp -R _generated/images/* _site/images/
           [ -d _generated/songbooks ] && cp -R _generated/songbooks _site/
           mv _generated/*.pdf _site/songs_tex/
-          mv _generated/songs_pdf/*.pdf _site/songs_pdf
+          if [ -f _generated/songs_pdf/songs_pdf.tar.gz ]; then
+            tar -xzf _generated/songs_pdf/songs_pdf.tar.gz -C _site/songs_pdf
+          elif [ -d _generated/songs_pdf ]; then
+            mv _generated/songs_pdf/*.pdf _site/songs_pdf/ || true
+          fi
           mv _generated/*.epub _site/
           cp -R editor _site/
           ls -la _site/
