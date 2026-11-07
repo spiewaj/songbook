@@ -8,8 +8,16 @@ import {
   setCursorAfter
 } from './utils.js';
 import {createChord} from './ch.js'
-import {createVerse, Sanitize, SplitVerseFromRow} from './sanitize.js'
-import {getChordsFromRow} from "./verse.js";
+import {
+  createVerse,
+  isEmptyRow,
+  Sanitize,
+  sanitizeRow,
+  setCursorAtRowEnd,
+  setCursorAtRowStart,
+  SplitVerseFromRow
+} from './sanitize.js'
+import {getChordsFromRow, getNextRow, getPrevRow} from "./verse.js";
 
 function acceptsTextAndChords(element) {
   return element.nodeName=="SONG-ROW" && element.getAttribute("type")!=='instr';
@@ -144,6 +152,162 @@ function flattenBis(node) {
     node.parentNode.insertBefore(rows[0], node);
   }
   node.remove();
+}
+
+function stripLeadingNbsp(row) {
+  if (row && row.firstChild && row.firstChild.nodeName === '#text' && row.firstChild.nodeValue.startsWith(nbsp)) {
+    row.firstChild.nodeValue = row.firstChild.nodeValue.substring(1);
+    if (row.firstChild.nodeValue.length === 0) {
+      row.firstChild.remove();
+    }
+  }
+}
+
+function cleanupEmptyAncestors(rowsContainer) {
+  if (!rowsContainer) return;
+  const parent = rowsContainer.parentNode;
+  if (rowsContainer.children.length === 0) {
+    if (parent && parent.nodeName === 'SONG-BIS') {
+      parent.remove();
+    } else if (parent && parent.nodeName === 'SONG-VERSE' && !parent.getAttribute('blocknb')) {
+      parent.remove();
+    }
+  }
+}
+
+export function mergeRows(targetRow, sourceRow, stripSourceLeadingNbsp = true) {
+  if (!targetRow || !sourceRow || targetRow === sourceRow) return;
+  if (isRowInstr(targetRow) && !isRowInstr(sourceRow)) {
+    makeRowNotInstrumental(targetRow);
+  }
+  sanitizeRow(targetRow);
+  if (stripSourceLeadingNbsp) {
+    stripLeadingNbsp(sourceRow);
+  }
+
+  const lastTargetNode = targetRow.lastChild;
+  const wasText = lastTargetNode && lastTargetNode.nodeName === '#text';
+  const prevLen = wasText ? lastTargetNode.nodeValue.length : 0;
+
+  const sourceParent = sourceRow.parentNode;
+  while (sourceRow.firstChild) {
+    targetRow.appendChild(sourceRow.firstChild);
+  }
+  sourceRow.remove();
+  cleanupEmptyAncestors(sourceParent);
+
+  targetRow.normalize();
+  sanitizeRow(targetRow);
+
+  const sel = document.getSelection();
+  if (sel) {
+    const r = document.createRange();
+    if (wasText && lastTargetNode.parentNode === targetRow) {
+      const off = Math.min(prevLen, lastTargetNode.nodeValue.length);
+      r.setStart(lastTargetNode, off);
+      r.setEnd(lastTargetNode, off);
+    } else if (lastTargetNode && lastTargetNode.parentNode === targetRow) {
+      if (lastTargetNode.nextSibling && lastTargetNode.nextSibling.nodeName === '#text') {
+        r.setStart(lastTargetNode.nextSibling, 0);
+        r.setEnd(lastTargetNode.nextSibling, 0);
+      } else {
+        r.setStartAfter(lastTargetNode);
+        r.setEndAfter(lastTargetNode);
+      }
+    } else {
+      setCursorAtRowStart(targetRow);
+      return;
+    }
+    sel.removeAllRanges();
+    sel.addRange(r);
+  }
+}
+
+function isCaretAtLogicalRowStart(r, row) {
+  if (!r || !r.collapsed || !row) return false;
+  if (r.startContainer === row) {
+    if (r.startOffset === 0) return true;
+    if (r.startOffset === 1 && row.firstChild?.nodeName === '#text' && row.firstChild.nodeValue === nbsp) {
+      return true;
+    }
+    return false;
+  }
+  if (r.startContainer.nodeName === '#text' && r.startContainer === row.firstChild) {
+    if (r.startOffset === 0) return true;
+    if (r.startOffset === 1 && r.startContainer.nodeValue.startsWith(nbsp)) return true;
+  }
+  return false;
+}
+
+function isCaretAtLogicalRowEnd(r, row) {
+  if (!r || !r.collapsed || !row) return false;
+  if (r.startContainer === row) {
+    return r.startOffset >= row.childNodes.length;
+  }
+  if (r.startContainer.nodeName === '#text' && r.startContainer === row.lastChild) {
+    return r.startOffset >= r.startContainer.nodeValue.length;
+  }
+  return false;
+}
+
+function deleteSelectedRangeAcrossRows(r, songbody) {
+  if (!r || r.collapsed) return false;
+  const allRows = [...songbody.getElementsByTagName('SONG-ROW')];
+  let startRow = findAncestor(r.startContainer, 'SONG-ROW');
+  let endRow = findAncestor(r.endContainer, 'SONG-ROW');
+  if (!startRow || !endRow) {
+    const intersecting = allRows.filter(row => r.intersectsNode(row));
+    if (intersecting.length === 0) return false;
+    if (!startRow) startRow = intersecting[0];
+    if (!endRow) endRow = intersecting[intersecting.length - 1];
+  }
+
+  if (startRow === endRow) {
+    return false;
+  }
+
+  const startVerse = findAncestor(startRow, 'SONG-VERSE');
+  const endVerse = findAncestor(endRow, 'SONG-VERSE');
+
+  const endAtZero = (r.endContainer === endRow && r.endOffset === 0) ||
+      (r.endContainer === endRow.firstChild && r.endOffset === 0);
+
+  r.deleteContents();
+
+  if (endRow.parentNode && endRow !== startRow) {
+    mergeRows(startRow, endRow, endAtZero);
+  } else {
+    sanitizeRow(startRow);
+    setCursorAtRowEnd(startRow);
+  }
+
+  if (startVerse && endVerse && startVerse !== endVerse && endVerse.parentNode) {
+    const startVerseRows = startVerse.querySelector('song-rows');
+    const endVerseRows = endVerse.querySelector('song-rows');
+    if (startVerseRows && endVerseRows) {
+      const insertRef = (startRow.parentNode === startVerseRows)
+          ? startRow.nextSibling
+          : findAncestor(startRow, 'SONG-BIS')?.nextSibling || null;
+      while (endVerseRows.firstChild) {
+        startVerseRows.insertBefore(endVerseRows.firstChild, insertRef);
+      }
+    }
+    endVerse.remove();
+  }
+
+  // Also remove any intermediate empty verses or bis elements left behind
+  for (const v of [...songbody.querySelectorAll('song-verse')]) {
+    if (!v.getAttribute('blocknb') && v.querySelectorAll('song-row').length === 0) {
+      v.remove();
+    }
+  }
+  for (const b of [...songbody.querySelectorAll('song-bis')]) {
+    if (b.querySelectorAll('song-row').length === 0) {
+      b.remove();
+    }
+  }
+
+  return true;
 }
 
 export default class SongBody extends HTMLElement {
@@ -292,15 +456,11 @@ export default class SongBody extends HTMLElement {
     let r = document.getSelection().getRangeAt(0);
     let result=[];
 
-    let songRowsParent = findAncestor(r.commonAncestorContainer,"SONG-ROWS");
-    if (songRowsParent) {
-      let rows = songRowsParent.getElementsByTagName("SONG-ROW");
-    //  let parentRow = findAncestor(r.commonAncestorContainer, "SONG-ROW");
-      for (let i = 0; i < rows.length; ++i) {
-        let row = rows[i];
-        if (r.intersectsNode(row)) {
-          result.push(row);
-        }
+    let rows = this.getElementsByTagName("SONG-ROW");
+    for (let i = 0; i < rows.length; ++i) {
+      let row = rows[i];
+      if (r.intersectsNode(row)) {
+        result.push(row);
       }
     }
     return result;
@@ -351,18 +511,22 @@ export default class SongBody extends HTMLElement {
     let selRows = this.selectedRows();
     if (selRows.length > 0) {
       SplitVerseFromRow(selRows[selRows.length - 1]);
+      this.changePostprocess();
     }
   }
 
   appendVerse() {
     const v = createVerse();
-    const rows = document.createElement("song-rows")
+    const rows = document.createElement("song-rows");
     const row = document.createElement("song-row");
+    row.setAttribute("important_over", "false");
+    row.appendChild(document.createTextNode(nbsp));
     rows.appendChild(row);
     v.appendChild(rows);
     this.insertBefore(v, null);
-    v.focus();
-    document.getSelection().collapse(row);
+    this.changePostprocess();
+    this.focus();
+    setCursorAtRowStart(row);
   }
 
   toggleInstrumental() {
@@ -452,47 +616,125 @@ export default class SongBody extends HTMLElement {
         if (r.startOffset < r.startContainer.childNodes.length &&
             r.startContainer.childNodes[r.startOffset].nodeName=='SONG-CH') {
           r.startContainer.childNodes[r.startOffset].remove();
+          songBook.changePostprocess();
           e.preventDefault();
         }
       }
     }
 
-    if (e.key == 'ArrowRight'){
+    if (e.key == 'ArrowRight' && !e.shiftKey && !e.metaKey && !e.altKey && !e.ctrlKey) {
       if (document.getSelection().isCollapsed
-          && document.getSelection().rangeCount == 1
-          && document.getSelection().type === 'Caret') {
+          && document.getSelection().rangeCount == 1) {
         let r = document.getSelection().getRangeAt(0);
-        if (r.collapsed && r.startContainer.nodeName==='#text' && r.startOffset >= r.startContainer.nodeValue.length
-            && r.startContainer.nextSibling
-            && r.startContainer.nextSibling.nodeName==='SONG-CH') {
-          let ch = r.startContainer.nextSibling;
-          while (ch && ch.nodeName==='SONG-CH') {
-            ch = ch.nextSibling;
+        const row = findAncestor(r.startContainer, 'SONG-ROW');
+        if (row) {
+          // If cursor is at offset 0 before the artificial leading nbsp, step past nbsp + 1st char (or chord)
+          if (r.startContainer.nodeName === '#text'
+              && r.startContainer === row.firstChild
+              && r.startOffset === 0
+              && r.startContainer.nodeValue.startsWith(nbsp)) {
+            if (r.startContainer.nodeValue.length > 1) {
+              document.getSelection().collapse(r.startContainer, 2);
+              e.preventDefault();
+              return;
+            } else if (r.startContainer.nextSibling && r.startContainer.nextSibling.nodeName === 'SONG-CH') {
+              let ch = r.startContainer.nextSibling;
+              while (ch && ch.nodeName === 'SONG-CH') {
+                ch = ch.nextSibling;
+              }
+              if (ch && ch.nodeName === '#text') {
+                document.getSelection().collapse(ch, 0);
+              } else {
+                setCursorAtRowEnd(row);
+              }
+              e.preventDefault();
+              return;
+            }
           }
-          if (ch) {
-            document.getSelection().collapse(ch);
+
+          // If cursor is right before a SONG-CH, jump over contiguous SONG-CH elements
+          if (r.startContainer.nodeName === '#text'
+              && r.startOffset >= r.startContainer.nodeValue.length
+              && r.startContainer.nextSibling
+              && r.startContainer.nextSibling.nodeName === 'SONG-CH') {
+            let ch = r.startContainer.nextSibling;
+            while (ch && ch.nodeName === 'SONG-CH') {
+              ch = ch.nextSibling;
+            }
+            if (ch) {
+              document.getSelection().collapse(ch, 0);
+            } else {
+              const nextRow = getNextRow(row);
+              if (nextRow) {
+                setCursorAtRowStart(nextRow);
+              } else {
+                setCursorAtRowEnd(row);
+              }
+            }
+            e.preventDefault();
+            return;
           }
-          e.preventDefault();
+
+          // If cursor is at the logical end of the row, jump to logical start of next row
+          if (isCaretAtLogicalRowEnd(r, row)) {
+            const nextRow = getNextRow(row);
+            if (nextRow) {
+              setCursorAtRowStart(nextRow);
+              e.preventDefault();
+              return;
+            }
+          }
         }
       }
     }
 
-    if (e.key == 'ArrowLeft'){
+    if (e.key == 'ArrowLeft' && !e.shiftKey && !e.metaKey && !e.altKey && !e.ctrlKey) {
       if (document.getSelection().isCollapsed
-          && document.getSelection().rangeCount == 1
-          && document.getSelection().type === 'Caret') {
+          && document.getSelection().rangeCount == 1) {
         let r = document.getSelection().getRangeAt(0);
-        if (r.collapsed && r.startContainer.nodeName==='#text' && r.startOffset == 0
-            && r.startContainer.previousSibling
-            && r.startContainer.previousSibling.nodeName==='SONG-CH') {
-          let ch = r.startContainer.previousSibling;
-          while (ch && ch.nodeName==='SONG-CH') {
-            ch = ch.previousSibling;
+        const row = findAncestor(r.startContainer, 'SONG-ROW');
+        if (row) {
+          if (isCaretAtLogicalRowStart(r, row)) {
+            const prevRow = getPrevRow(row);
+            if (prevRow) {
+              setCursorAtRowEnd(prevRow);
+              e.preventDefault();
+              return;
+            } else {
+              setCursorAtRowStart(row);
+              e.preventDefault();
+              return;
+            }
           }
-          if (ch) {
-            document.getSelection().collapse(ch, ch.nodeValue.length);
+
+          // If cursor is right after SONG-CH (either in #text at offset 0 or in SONG-ROW after SONG-CH)
+          let prevChord = null;
+          if (r.startContainer.nodeName === '#text' && r.startOffset === 0
+              && r.startContainer.previousSibling
+              && r.startContainer.previousSibling.nodeName === 'SONG-CH') {
+            prevChord = r.startContainer.previousSibling;
+          } else if (r.startContainer === row && r.startOffset > 0
+              && row.childNodes[r.startOffset - 1]?.nodeName === 'SONG-CH') {
+            prevChord = row.childNodes[r.startOffset - 1];
           }
-          e.preventDefault();
+          if (prevChord) {
+            let ch = prevChord;
+            while (ch && ch.nodeName === 'SONG-CH') {
+              ch = ch.previousSibling;
+            }
+            if (ch && ch.nodeName === '#text') {
+              if (ch === row.firstChild && ch.nodeValue === nbsp) {
+                // Chord was at the very start of the row; place cursor before the chord (at offset 1 of leading nbsp)
+                document.getSelection().collapse(ch, 1);
+              } else {
+                document.getSelection().collapse(ch, ch.nodeValue.length);
+              }
+            } else {
+              setCursorAtRowStart(row);
+            }
+            e.preventDefault();
+            return;
+          }
         }
       }
     }
@@ -561,10 +803,177 @@ export default class SongBody extends HTMLElement {
 
   }
 
+  handleBackspaceAtRowStart(row) {
+    const rowsContainer = row.parentNode;
+    if (!rowsContainer) return;
+    const containerParent = rowsContainer.parentNode;
+
+    // Case 1: Previous sibling in the same <song-rows>
+    if (row.previousElementSibling) {
+      const prevSib = row.previousElementSibling;
+      if (prevSib.nodeName === 'SONG-ROW') {
+        mergeRows(prevSib, row);
+        return;
+      }
+      if (prevSib.nodeName === 'SONG-BIS') {
+        const bisRows = prevSib.querySelector('song-rows');
+        const lastBisRow = bisRows ? bisRows.lastElementChild : null;
+        if (lastBisRow && lastBisRow.nodeName === 'SONG-ROW') {
+          mergeRows(lastBisRow, row);
+          return;
+        }
+      }
+    }
+
+    // Case 2: First row inside a <song-bis>
+    if (containerParent && containerParent.nodeName === 'SONG-BIS') {
+      const bis = containerParent;
+      if (bis.previousElementSibling) {
+        const prevSib = bis.previousElementSibling;
+        if (prevSib.nodeName === 'SONG-ROW') {
+          mergeRows(prevSib, row);
+          return;
+        }
+        if (prevSib.nodeName === 'SONG-BIS') {
+          const prevBisRows = prevSib.querySelector('song-rows');
+          if (prevBisRows) {
+            while (rowsContainer.firstChild) {
+              prevBisRows.appendChild(rowsContainer.firstChild);
+            }
+            bis.remove();
+            setCursorAtRowStart(row);
+            return;
+          }
+        }
+      } else {
+        // BIS is at the start of a verse
+        const currVerse = findAncestor(bis, 'SONG-VERSE');
+        const prevVerse = currVerse ? currVerse.previousElementSibling : null;
+        if (prevVerse && prevVerse.nodeName === 'SONG-VERSE' && !prevVerse.getAttribute('blocknb')) {
+          const prevVerseRows = prevVerse.querySelector('song-rows');
+          const currVerseRows = currVerse.querySelector('song-rows');
+          if (prevVerseRows && currVerseRows) {
+            while (currVerseRows.firstChild) {
+              prevVerseRows.appendChild(currVerseRows.firstChild);
+            }
+            currVerse.remove();
+            setCursorAtRowStart(row);
+            return;
+          }
+        }
+      }
+      setCursorAtRowStart(row);
+      return;
+    }
+
+    // Case 3: First row of a <song-verse>
+    if (containerParent && containerParent.nodeName === 'SONG-VERSE') {
+      const currVerse = containerParent;
+      const prevVerse = currVerse.previousElementSibling;
+      if (prevVerse && prevVerse.nodeName === 'SONG-VERSE' && !prevVerse.getAttribute('blocknb')) {
+        const prevVerseRows = prevVerse.querySelector('song-rows');
+        if (prevVerseRows) {
+          // If current verse has only a single empty row, delete the empty verse and put cursor at end of prevVerse
+          if (rowsContainer.children.length === 1 && isEmptyRow(row)) {
+            currVerse.remove();
+            const prevRowsList = prevVerse.querySelectorAll('song-row');
+            const lastPrevRow = prevRowsList[prevRowsList.length - 1];
+            if (lastPrevRow) {
+              setCursorAtRowEnd(lastPrevRow);
+            }
+            return;
+          }
+          // Otherwise, join currVerse's rows into prevVerse and keep cursor at start of row
+          while (rowsContainer.firstChild) {
+            prevVerseRows.appendChild(rowsContainer.firstChild);
+          }
+          currVerse.remove();
+          setCursorAtRowStart(row);
+          return;
+        }
+      }
+    }
+
+    // Very first row of the song (or after blocklink): preserve leading nbsp
+    setCursorAtRowStart(row);
+  }
+
+  handleDeleteAtRowEnd(row) {
+    const rowsContainer = row.parentNode;
+    if (!rowsContainer) return;
+    const containerParent = rowsContainer.parentNode;
+
+    // Case 1: Next sibling in the same <song-rows>
+    if (row.nextElementSibling) {
+      const nextSib = row.nextElementSibling;
+      if (nextSib.nodeName === 'SONG-ROW') {
+        mergeRows(row, nextSib);
+        return;
+      }
+      if (nextSib.nodeName === 'SONG-BIS') {
+        const firstBisRow = nextSib.querySelector('song-row');
+        if (firstBisRow) {
+          mergeRows(row, firstBisRow);
+          return;
+        }
+      }
+    }
+
+    // Case 2: Last row inside a <song-bis>
+    if (containerParent && containerParent.nodeName === 'SONG-BIS') {
+      const bis = containerParent;
+      if (bis.nextElementSibling) {
+        const nextSib = bis.nextElementSibling;
+        if (nextSib.nodeName === 'SONG-ROW') {
+          mergeRows(row, nextSib);
+          return;
+        }
+        if (nextSib.nodeName === 'SONG-BIS') {
+          const nextBisRows = nextSib.querySelector('song-rows');
+          if (nextBisRows) {
+            while (nextBisRows.firstChild) {
+              rowsContainer.appendChild(nextBisRows.firstChild);
+            }
+            nextSib.remove();
+            setCursorAtRowEnd(row);
+            return;
+          }
+        }
+      }
+    }
+
+    // Case 3: Last row of a <song-verse>
+    const currVerse = findAncestor(row, 'SONG-VERSE');
+    const nextVerse = currVerse ? currVerse.nextElementSibling : null;
+    if (nextVerse && nextVerse.nodeName === 'SONG-VERSE' && !nextVerse.getAttribute('blocknb')) {
+      const currVerseRows = currVerse.querySelector('song-rows');
+      const nextVerseRows = nextVerse.querySelector('song-rows');
+      if (currVerseRows && nextVerseRows) {
+        if (nextVerseRows.children.length === 1 && isEmptyRow(nextVerseRows.firstElementChild)) {
+          nextVerse.remove();
+          setCursorAtRowEnd(row);
+          return;
+        }
+        while (nextVerseRows.firstChild) {
+          currVerseRows.appendChild(nextVerseRows.firstChild);
+        }
+        nextVerse.remove();
+        setCursorAtRowEnd(row);
+        return;
+      }
+    }
+
+    setCursorAtRowEnd(row);
+  }
+
   beforeInput(e, songbody) {
     console.log("beforeInput", e);
 
     if (e.target != songbody) {
+      return;
+    }
+
+    if (document.getSelection().rangeCount === 0) {
       return;
     }
 
@@ -579,195 +988,204 @@ export default class SongBody extends HTMLElement {
       return;
     }
 
-    if (e.inputType == "deleteContentBackward"
-       && e.target == songbody) {
-      if (document.getSelection().rangeCount == 1
-          && document.getSelection().isCollapsed) {
-        let r = document.getSelection().getRangeAt(0);
-        console.log(document.getSelection(), r.startContainer.nodeName, r.startContainer, r.startOffset)
-        // If the previous element is chord, we want to skip and remove the prev letter.
-        if (r.startContainer.nodeName == '#text' && r.startOffset == 0
-            && r.startContainer.previousSibling != null
-            && r.startContainer.previousSibling.nodeName === 'SONG-CH') {
-          setCursorBefore(r.startContainer.previousSibling);
-          r = document.getSelection().getRangeAt(0);
-          // We want to continue in case we want to merge rows.
-        }
-        // If we are after the trailing space... we want to remove it as well.
-        if (r.startContainer.nodeName == '#text' && r.startOffset == 1
-            && r.startContainer.previousSibling == null
-            && r.startContainer.nodeValue.startsWith(nbsp)) {
-          r.startContainer.nodeValue = r.startContainer.nodeValue.substring(1);
-          if (r.startContainer.parentNode.previousSibling != null) {
-            mergeNodeAfter(r.startContainer.parentNode.previousSibling,
-                r.startContainer.parentNode);
-            e.preventDefault();
-          }
-        }
-        // When we are at the beginning of the ROW, we merge the rows.
-        if (r.startContainer.nodeName == 'SONG-ROW' && r.startOffset == 0) {
-          if (r.startContainer.previousSibling != null
-              && r.startContainer.previousSibling.nodeName === 'SONG-ROW') {
-            // There is previous line:
-            mergeNodeAfter(r.startContainer.previousSibling, r.startContainer);
-            e.preventDefault();
-          } if (r.startContainer.previousSibling != null
-              && r.startContainer.previousSibling.nodeName === 'SONG-BIS') {
-            // Previous line is within bis.
-            mergeNodeAfter(r.startContainer.previousSibling.childNodes[0].lastChild, r.startContainer);
-            e.preventDefault();
-          } else if (r.startContainer.previousSibling == null
-              && r.startContainer.parentNode.parentNode != null
-              && r.startContainer.parentNode.parentNode.nodeName === 'SONG-BIS'
-              && r.startContainer.parentNode.parentNode.previousSibling != null
-              && r.startContainer.parentNode.parentNode.previousSibling.nodeName == 'SONG-ROW' ) {
-            // Previous line is outside of bis.
-            mergeNodeAfter(r.startContainer.parentNode.parentNode.previousSibling,
-                r.startContainer);
-            e.preventDefault();
-          } else if (r.startContainer.previousSibling == null
-              && r.startContainer.parentNode.parentNode.previousSibling != null
-              && r.startContainer.parentNode.parentNode.previousSibling.nodeName === 'SONG-VERSE') {
-            // Previous line is in another verse.
-            mergeNodeAfter(r.startContainer.parentNode.parentNode.previousSibling.childNodes[0],
-                r.startContainer.parentNode);
-            r.startContainer.remove();
-            e.preventDefault();
-          }
-        }
-        if (r.startContainer.nodeName == 'SONG-ROW' && r.startOffset == 1) {
-          if (r.startContainer.previousSibling != null
-              && r.startContainer.previousSibling.nodeName === 'SONG-ROW'
-              && r.startContainer.childNodes[0].nodeName==='#text'
-              && r.startContainer.childNodes[0].nodeValue===nbsp) {
-            r.startContainer.childNodes[0].remove();
-            mergeNodeAfter(r.startContainer.previousSibling, r.startContainer);
-            e.preventDefault();
-          }
-        }
-        // When we are at the beginning of the ROW, we merge the rows.
-        if (r.startContainer.nodeName == '#text' && r.startOffset == 0) {
-          if (r.startContainer.previousSibling == null
-              && r.startContainer.parentNode.nodeName === 'SONG-ROW'
-              &&  r.startContainer.parentNode.previousSibling != null
-              &&  r.startContainer.parentNode.previousSibling.nodeName === 'SONG-ROW') {
-            mergeNodeAfter(r.startContainer.parentNode.previousSibling, r.startContainer.parentNode);
-            e.preventDefault();
-          }
-          if (r.startContainer.previousSibling == null
-              && r.startContainer.parentNode.nodeName === 'SONG-ROW'
-              &&  r.startContainer.parentNode.previousSibling == null
-              &&  r.startContainer.parentNode.parentNode.parentNode.nodeName === 'SONG-VERSE'
-              &&  r.startContainer.parentNode.parentNode.parentNode.previousSibling
-              &&  r.startContainer.parentNode.parentNode.parentNode.previousSibling.nodeName === 'SONG-VERSE') {
-            mergeNodeAfter(r.startContainer.parentNode.parentNode.parentNode.previousSibling.childNodes[0], r.startContainer.parentNode.parentNode);
-            e.preventDefault();
-          }
-          if (r.startContainer.previousSibling == null
-              && r.startContainer.parentNode.nodeName === 'SONG-ROW'
-              &&  r.startContainer.parentNode.previousSibling == null
-              &&  r.startContainer.parentNode.parentNode.parentNode.nodeName === 'SONG-BIS'
-              &&  !r.startContainer.parentNode.parentNode.parentNode.previousSibling
-              &&  r.startContainer.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName === 'SONG-VERSE'
-              &&  r.startContainer.parentNode.parentNode.parentNode.parentNode.parentNode.previousSibling
-              &&  r.startContainer.parentNode.parentNode.parentNode.parentNode.parentNode.previousSibling.nodeName === 'SONG-VERSE') {
-            mergeNodeAfter(r.startContainer.parentNode.parentNode.parentNode.parentNode.parentNode.previousSibling.childNodes[0], r.startContainer.parentNode.parentNode.parentNode.parentNode);
-            e.preventDefault();
-          }
-        }
-
-        r= document.getSelection().getRangeAt(0);
-        if ((r.startContainer.nodeName === 'SONG-ROWS'
-            || r.startContainer.nodeName === 'SONG-VERSE'
-            || r.startContainer.nodeName === 'SONG-BIS'
-            || r.startContainer.nodeName === 'SONG-BODY')
-           && r.startContainer.childNodes.length > 0) {
-          console.log("Preventing deletion of whole: ", r);
-          if (r.startContainer.childNodes[r.startOffset] != null
-            && r.startContainer.childNodes[r.startOffset].firstChild != null) {
-            setCursorBefore(
-                r.startContainer.childNodes[r.startOffset].firstChild);
-          }
-          e.preventDefault();
-        }
-      }
-      let r= document.getSelection().getRangeAt(0);
-      if (r.commonAncestorContainer.nodeName === 'SONG-ROWS') {
-        let start=findAncestor(r.startContainer, 'SONG-ROW');
-        r.deleteContents();
-        if (start.childNodes.length === 0) {
-          start.remove();
-        }
-        e.preventDefault();
-        songbody.changePostprocess();
-        return;
-      }
-    }
-
-    if (e.inputType == "insertParagraph"
-        && e.target == songbody) {
-      let r= document.getSelection().getRangeAt(0);
-      // console.log(r);
-      // console.log(r.startContainer);
-
-      let parentRow=findAncestor(r.startContainer, 'SONG-ROW');
-      let newNode = parentRow.cloneNode(false);
-      parentRow.parentNode.insertBefore(newNode, parentRow.nextSibling);
-      if (r.startContainer.nodeName=='#text' && r.startOffset<r.startContainer.nodeValue.length) {
-        newNode.appendChild(document.createTextNode(r.startContainer.nodeValue.slice(r.startOffset)));
-        r.startContainer.nodeValue=r.startContainer.nodeValue.slice(0, r.startOffset);
-      }
-      let st = r.startContainer.nodeName=='SONG-ROW' ? r.startContainer.childNodes[r.startOffset].previousSibling : r.startContainer ;
-      while(st && st.nextSibling != null) {
-        console.log("Adding: ", st.nextSibling)
-        newNode.appendChild(st.nextSibling)
-      }
-      console.log("newNode.textContent:" + newNode.textContent)
-      const curPos = newNode.firstChild;
-      if (!newNode.textContent.startsWith(" ")) {
-        console.log("WSTAWIAM PRZED");
-        newNode.insertBefore(document.createTextNode(nbsp), newNode.firstChild);
-      }
-      if (curPos) {
-        setCursorBefore(curPos);
-      } else {
-        setCursorAfter(newNode.firstChild);
-      }
-      if (parentRow.childNodes.length==0) {
-        parentRow.appendChild(document.createTextNode(nbsp));
-      }
-      e.preventDefault();
-      this.changePostprocess()
-    }
-
-    // Without this pressing any key when there is selection... removing all content.
-    if (document.getSelection().rangeCount>0) {
-      let r = document.getSelection().getRangeAt(0);
-      if (r.commonAncestorContainer.nodeName === 'SONG-ROWS') {
-        r.deleteContents();
-        songbody.changePostprocess();
-      }
-    }
-
-    if (e.inputType == "historyUndo"
-        && e.target == songbody) {
+    if (e.inputType == "historyUndo") {
       songbody.doUndo();
       e.preventDefault();
+      return;
     }
 
-    if (e.inputType == "historyRedo"
-        && e.target == songbody) {
+    if (e.inputType == "historyRedo") {
       songbody.doRedo();
       e.preventDefault();
+      return;
     }
 
+    // Handle non-collapsed selections spanning multiple rows or verses
+    if (!r.collapsed) {
+      if (deleteSelectedRangeAcrossRows(r, songbody)) {
+        r = document.getSelection().getRangeAt(0);
+        if (e.inputType === "deleteContentBackward"
+            || e.inputType === "deleteContentForward"
+            || e.inputType === "deleteByCut") {
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+        if (e.inputType === "insertText" && e.data != null) {
+          const textToInsert = e.data.replaceAll(" ", nbsp);
+          if (r.startContainer.nodeName === '#text') {
+            const tn = r.startContainer;
+            const off = r.startOffset;
+            tn.insertData(off, textToInsert);
+            document.getSelection().collapse(tn, off + textToInsert.length);
+          } else {
+            const tn = document.createTextNode(textToInsert);
+            r.insertNode(tn);
+            document.getSelection().collapse(tn, tn.nodeValue.length);
+          }
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+        // If insertParagraph, fall through to insertParagraph below with the now-collapsed range
+      }
+    }
+
+    // If inserting text at offset 0 before the artificial leading nbsp, nudge cursor to offset 1
+    if (e.inputType === "insertText" && r.collapsed && row) {
+      if (r.startContainer === row && r.startOffset === 0 && row.firstChild?.nodeName === '#text' && row.firstChild.nodeValue.startsWith(nbsp)) {
+        document.getSelection().collapse(row.firstChild, 1);
+      } else if (r.startContainer.nodeName === '#text' && r.startContainer === row.firstChild && r.startOffset === 0 && r.startContainer.nodeValue.startsWith(nbsp)) {
+        document.getSelection().collapse(r.startContainer, 1);
+      }
+      return;
+    }
+
+    if (e.inputType == "deleteContentBackward") {
+      if (r.collapsed) {
+        if (!row) {
+          e.preventDefault();
+          return;
+        }
+
+        // Check if caret is immediately after one or more <song-ch> elements
+        let precedingChord = null;
+        if (r.startContainer.nodeName === '#text' && r.startOffset === 0
+            && r.startContainer.previousSibling?.nodeName === 'SONG-CH') {
+          precedingChord = r.startContainer.previousSibling;
+        } else if (r.startContainer === row && r.startOffset > 0
+            && row.childNodes[r.startOffset - 1]?.nodeName === 'SONG-CH') {
+          precedingChord = row.childNodes[r.startOffset - 1];
+        }
+
+        if (precedingChord) {
+          let firstChord = precedingChord;
+          while (firstChord.previousSibling && firstChord.previousSibling.nodeName === 'SONG-CH') {
+            firstChord = firstChord.previousSibling;
+          }
+          const nodeBeforeChord = firstChord.previousSibling;
+          if (nodeBeforeChord && nodeBeforeChord.nodeName === '#text') {
+            const minLen = (nodeBeforeChord === row.firstChild && nodeBeforeChord.nodeValue.startsWith(nbsp)) ? 1 : 0;
+            if (nodeBeforeChord.nodeValue.length > minLen) {
+              nodeBeforeChord.nodeValue = nodeBeforeChord.nodeValue.slice(0, -1);
+              document.getSelection().collapse(nodeBeforeChord, nodeBeforeChord.nodeValue.length);
+              e.preventDefault();
+              songbody.changePostprocess();
+              return;
+            }
+          }
+          // Otherwise, the chord is at the logical start of the row -> merge row/verse!
+          this.handleBackspaceAtRowStart(row);
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+
+        if (isCaretAtLogicalRowStart(r, row)) {
+          this.handleBackspaceAtRowStart(row);
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+      }
+      return;
+    }
+
+    if (e.inputType == "deleteContentForward") {
+      if (r.collapsed) {
+        if (!row) {
+          e.preventDefault();
+          return;
+        }
+
+        // Check if caret is immediately before one or more <song-ch> elements
+        let followingChord = null;
+        if (r.startContainer.nodeName === '#text'
+            && r.startOffset >= r.startContainer.nodeValue.length
+            && r.startContainer.nextSibling?.nodeName === 'SONG-CH') {
+          followingChord = r.startContainer.nextSibling;
+        } else if (r.startContainer === row && r.startOffset < row.childNodes.length
+            && row.childNodes[r.startOffset]?.nodeName === 'SONG-CH') {
+          followingChord = row.childNodes[r.startOffset];
+        }
+
+        if (followingChord) {
+          let lastChord = followingChord;
+          while (lastChord.nextSibling && lastChord.nextSibling.nodeName === 'SONG-CH') {
+            lastChord = lastChord.nextSibling;
+          }
+          const nodeAfterChord = lastChord.nextSibling;
+          if (nodeAfterChord && nodeAfterChord.nodeName === '#text' && nodeAfterChord.nodeValue.length > 0) {
+            nodeAfterChord.nodeValue = nodeAfterChord.nodeValue.substring(1);
+            document.getSelection().collapse(nodeAfterChord, 0);
+            e.preventDefault();
+            songbody.changePostprocess();
+            return;
+          }
+          // Otherwise, trailing chord(s) at the end of the row -> merge next row/verse!
+          this.handleDeleteAtRowEnd(row);
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+
+        if (isCaretAtLogicalRowEnd(r, row)) {
+          this.handleDeleteAtRowEnd(row);
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+      }
+      return;
+    }
+
+    if (e.inputType == "insertParagraph") {
+      r = document.getSelection().getRangeAt(0);
+      let parentRow = findAncestor(r.startContainer, 'SONG-ROW');
+      if (!parentRow) {
+        e.preventDefault();
+        return;
+      }
+      let newNode = parentRow.cloneNode(false);
+      parentRow.parentNode.insertBefore(newNode, parentRow.nextSibling);
+
+      if (r.startContainer.nodeName === '#text') {
+        const textNode = r.startContainer;
+        let offset = r.startOffset;
+        if (textNode === parentRow.firstChild && offset === 0 && textNode.nodeValue.startsWith(nbsp)) {
+          offset = 1;
+        }
+        const afterText = textNode.nodeValue.slice(offset);
+        textNode.nodeValue = textNode.nodeValue.slice(0, offset);
+        if (afterText.length > 0) {
+          newNode.appendChild(document.createTextNode(afterText));
+        }
+        while (textNode.nextSibling !== null) {
+          newNode.appendChild(textNode.nextSibling);
+        }
+      } else if (r.startContainer === parentRow) {
+        while (parentRow.childNodes.length > r.startOffset) {
+          newNode.appendChild(parentRow.childNodes[r.startOffset]);
+        }
+      }
+
+      sanitizeRow(parentRow);
+      sanitizeRow(newNode);
+      setCursorAtRowStart(newNode);
+
+      e.preventDefault();
+      this.changePostprocess();
+      return;
+    }
   }
 
   doUndo() {
-    const last = this.undo.pop();
-    if (last) {
-      this.redo.push(last);
-      this.innerHTML=last;
+    if (this.undo.length > 1) {
+      const current = this.undo.pop();
+      this.redo.push(current);
+      this.innerHTML = this.undo[this.undo.length - 1];
+    } else if (this.undo.length === 1) {
+      this.innerHTML = this.undo[0];
     }
     this.refresh();
   }
@@ -776,7 +1194,6 @@ export default class SongBody extends HTMLElement {
     const redo = this.redo.pop();
     if (redo) {
       this.undo.push(redo);
-
       this.innerHTML=redo;
     }
     this.refresh();
@@ -784,7 +1201,9 @@ export default class SongBody extends HTMLElement {
 
   refresh() {
     for (const verse of this.childNodes) {
-      verse.refresh();
+      if (verse.refresh) {
+        verse.refresh();
+      }
     }
     this.refreshToolbar();
   }
@@ -812,47 +1231,66 @@ export default class SongBody extends HTMLElement {
 
   input(e, songbody) {
     console.log("input", e);
-     if (e.target == songbody) {
-       console.log("postprocessing...")
-       songbody.changePostprocess();
-//    Avoid keeping cursor before the artifical space:
-//        if (document.getSelection().isCollapsed
-//            && document.getSelection().rangeCount == 1) {
-//          let r = document.getSelection().getRangeAt(0);
-//          //console.log("ON INPUT", document.getSelection(), r.startContainer.nodeName, r.startOffset, r.startContainer);
-//          if (r.startContainer.nodeName === "#text"
-//              && r.startOffset == 0
-//              && r.startContainer.nodeValue.startsWith(nbsp)
-//              && r.startContainer.previousSibling == null) {
-//            let newr = document.createRange();
-//            newr.setStart(r.startContainer, 1);
-//            document.getSelection().removeAllRanges();
-//            document.getSelection().addRange(newr);
-//          }
-//        }
-     }
+    if (e.target == songbody) {
+      console.log("postprocessing...");
+      songbody.changePostprocess();
+      // Avoid keeping cursor before the artificial leading space:
+      if (document.getSelection().isCollapsed && document.getSelection().rangeCount == 1) {
+        let r = document.getSelection().getRangeAt(0);
+        if (r.startContainer.nodeName === "#text"
+            && r.startOffset == 0
+            && r.startContainer.nodeValue.startsWith(nbsp)
+            && r.startContainer.previousSibling == null) {
+          let newr = document.createRange();
+          newr.setStart(r.startContainer, 1);
+          newr.setEnd(r.startContainer, 1);
+          document.getSelection().removeAllRanges();
+          document.getSelection().addRange(newr);
+        }
+      }
+    }
   }
 
   paste(e, songbody) {
     console.log(e);
     console.log("types", e.clipboardData.types);
     if (e.target.nodeName === 'SONG-ROW' || e.target.nodeName === 'SONG-BODY') {
-      let p = document.createElement("span");
-      let data = '';
-      if (data==='') { data = e.clipboardData.getData("text/html"); }
-      if (data==='') {
-        data = e.clipboardData.getData("text/plain");
-        var separateLines = data.split(/\r?\n|\r|\n/g);
-        let newdata='';
+      const sel = getSelection();
+      if (sel.rangeCount > 0 && !sel.getRangeAt(0).collapsed) {
+        if (!deleteSelectedRangeAcrossRows(sel.getRangeAt(0), songbody)) {
+          sel.getRangeAt(0).deleteContents();
+        }
+      }
+      let data = e.clipboardData.getData("text/html");
+      if (data === '') {
+        const plain = e.clipboardData.getData("text/plain");
+        const separateLines = plain.split(/\r?\n|\r|\n/g);
+        if (separateLines.length === 1) {
+          const r = sel.getRangeAt(0);
+          const textToInsert = separateLines[0].replaceAll(" ", nbsp);
+          if (r.startContainer.nodeName === '#text') {
+            const tn = r.startContainer;
+            const off = r.startOffset;
+            tn.insertData(off, textToInsert);
+            sel.collapse(tn, off + textToInsert.length);
+          } else {
+            const tn = document.createTextNode(textToInsert);
+            r.insertNode(tn);
+            sel.collapse(tn, tn.nodeValue.length);
+          }
+          e.preventDefault();
+          songbody.changePostprocess();
+          return;
+        }
+        let newdata = '';
         separateLines.forEach(line => {
           newdata += "<row important_over='never'>" + line + "</row>";
-        })
-        data = newdata
+        });
+        data = newdata;
       }
-      console.log(data);
-      p.innerHTML  = data;
-      getSelection().getRangeAt(0).deleteContents();
-      getSelection().getRangeAt(0).insertNode(p);
+      let p = document.createElement("span");
+      p.innerHTML = data;
+      sel.getRangeAt(0).insertNode(p);
       e.preventDefault();
       songbody.changePostprocess();
     }

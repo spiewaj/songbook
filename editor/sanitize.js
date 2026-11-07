@@ -260,19 +260,70 @@ function traverse(parent, node) {
   return parent;
 }
 
-function sanitizeRow(row) {
+export function sanitizeRow(row) {
   row.normalize();
-  if (!row.textContent.startsWith(nbsp)) {
-    if (row.childNodes.length > 0) {
-      row.insertBefore(document.createTextNode(nbsp), row.childNodes[0]);
-    } else {
-      row.appendChild(document.createTextNode(nbsp));
+  if (!row.firstChild || row.firstChild.nodeName !== '#text') {
+    row.insertBefore(document.createTextNode(nbsp), row.firstChild);
+  } else if (!row.firstChild.nodeValue.startsWith(nbsp)) {
+    const sel = document.getSelection();
+    const isAtZero = sel && sel.rangeCount > 0 && sel.isCollapsed &&
+        sel.getRangeAt(0).startContainer === row.firstChild &&
+        sel.getRangeAt(0).startOffset === 0;
+    row.firstChild.insertData(0, nbsp);
+    if (isAtZero) {
+      const r = document.createRange();
+      r.setStart(row.firstChild, 1);
+      r.setEnd(row.firstChild, 1);
+      sel.removeAllRanges();
+      sel.addRange(r);
     }
   }
   row.normalize();
 }
 
-function isEmptyRow(el) {
+export function setCursorAtRowStart(row) {
+  if (!row) return;
+  sanitizeRow(row);
+  const first = row.firstChild;
+  const r = document.createRange();
+  if (first && first.nodeName === '#text') {
+    const offset = first.nodeValue.startsWith(nbsp) ? 1 : 0;
+    r.setStart(first, offset);
+    r.setEnd(first, offset);
+  } else {
+    r.setStart(row, 0);
+    r.setEnd(row, 0);
+  }
+  const sel = document.getSelection();
+  if (sel) {
+    sel.removeAllRanges();
+    sel.addRange(r);
+  }
+}
+
+export function setCursorAtRowEnd(row) {
+  if (!row) return;
+  sanitizeRow(row);
+  const last = row.lastChild;
+  const r = document.createRange();
+  if (last && last.nodeName === '#text') {
+    r.setStart(last, last.nodeValue.length);
+    r.setEnd(last, last.nodeValue.length);
+  } else if (last) {
+    r.setStartAfter(last);
+    r.setEndAfter(last);
+  } else {
+    r.setStart(row, 0);
+    r.setEnd(row, 0);
+  }
+  const sel = document.getSelection();
+  if (sel) {
+    sel.removeAllRanges();
+    sel.addRange(r);
+  }
+}
+
+export function isEmptyRow(el) {
   const empty = el != null &&
       el.nodeName==='SONG-ROW' &&
       el.getElementsByTagName("song-ch").length==0 &&
@@ -288,18 +339,34 @@ function normalize(str) {
 export function SplitVerseFromRow(row) {
   let songVerse = findAncestor(row, "SONG-VERSE");
   if (songVerse) {
+    const allVerseRows = songVerse.getElementsByTagName("SONG-ROW");
+    if (allVerseRows.length <= 1) {
+      return;
+    }
+    const sel = document.getSelection();
+    let selRow = null;
+    let selOffsetInFirstText = null;
+    if (sel && sel.rangeCount > 0) {
+      const sr = sel.getRangeAt(0);
+      selRow = findAncestor(sr.startContainer, "SONG-ROW");
+      if (selRow === row && sr.startContainer.nodeName === '#text' && sr.startContainer === row.firstChild) {
+        selOffsetInFirstText = sr.startOffset;
+      }
+    }
+
     let newVerse = songVerse.cloneNode(false);
-    songVerse.id='';
-    setRandomId(songVerse);
+    newVerse.id='';
+    setRandomId(newVerse);
     songVerse.parentNode.insertBefore(newVerse, songVerse.nextSibling);
     let newRows = document.createElement("SONG-ROWS");
     newVerse.appendChild(newRows);
     console.log(row, row.nextSibling);
+    const prevRow = row.previousSibling;
     let r=row.nextSibling;
     if (r==null
         && row.parentNode.parentNode.nodeName!='SONG-BIS') {
-      if (isEmptyRow(row.previousSibling)) {
-        row.previousSibling.remove();
+      if (isEmptyRow(prevRow) && songVerse.getElementsByTagName("SONG-ROW").length > 2) {
+        prevRow.remove();
       }
       newRows.append(row);
     } else {
@@ -318,11 +385,31 @@ export function SplitVerseFromRow(row) {
           r=nr;
         }
       }
-      if (isEmptyRow(row.previousSibling)) {
-        row.previousSibling.remove();
-      }
       if (isEmptyRow(row)) {
-        row.remove();
+        if (newRows.getElementsByTagName("SONG-ROW").length === 0) {
+          newRows.appendChild(row);
+        } else {
+          row.remove();
+        }
+      }
+      if (isEmptyRow(prevRow) && songVerse.getElementsByTagName("SONG-ROW").length > 1) {
+        prevRow.remove();
+      }
+    }
+
+    const firstNewRow = newVerse.querySelector("song-row");
+    if (firstNewRow && (!selRow || !songVerse.contains(selRow))) {
+      if (selRow === firstNewRow && selOffsetInFirstText !== null && !isEmptyRow(firstNewRow)) {
+        sanitizeRow(firstNewRow);
+        const nr = document.createRange();
+        const maxOff = firstNewRow.firstChild.nodeValue.length;
+        const off = Math.min(Math.max(1, selOffsetInFirstText), maxOff);
+        nr.setStart(firstNewRow.firstChild, off);
+        nr.setEnd(firstNewRow.firstChild, off);
+        sel.removeAllRanges();
+        sel.addRange(nr);
+      } else {
+        setCursorAtRowStart(firstNewRow);
       }
     }
   }
