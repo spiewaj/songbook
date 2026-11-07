@@ -15,20 +15,20 @@
 			<row important_over="true">prz<ch a="A7"/>emoczone p<ch a="D"/>od plecakiem <ch a="A7"/>osiemnaście l<ch a="D"/>at.</row>
 		</block>
 		<block type="verse">
-			<row>Gdzi<ch a="D"/>eś daleko st<ch a="G"/>ąd mrok zap<ch a="D"/>ada znów,</row>
-			<row>ci<ch a="A7"/>emna główka tw<ch a="D"/>ej dziewczyny ch<ch a="A7"/>yli się do sn<ch a="D"/>u.</row>
-			<row>M<ch a="G"/>oże właśnie dz<ch a="D"/>iś patrzy w mr<ch a="G"/>oczną mgł<ch a="D"/>ę,</row>
-			<row>m<ch a="A7"/>odlitwą pr<ch a="D"/>osi Boga, b<ch a="A7"/>y zachował ci<ch a="D"/>ę.</row>
+			<row important_over="false">Gdzi<ch a="D"/>eś daleko st<ch a="G"/>ąd mrok zap<ch a="D"/>ada znów,</row>
+			<row important_over="false">ci<ch a="A7"/>emna główka tw<ch a="D"/>ej dziewczyny ch<ch a="A7"/>yli się do sn<ch a="D"/>u.</row>
+			<row important_over="false">M<ch a="G"/>oże właśnie dz<ch a="D"/>iś patrzy w mr<ch a="G"/>oczną mgł<ch a="D"/>ę,</row>
+			<row important_over="false">m<ch a="A7"/>odlitwą pr<ch a="D"/>osi Boga, b<ch a="A7"/>y zachował ci<ch a="D"/>ę.</row>
 		</block>
 		<block type="verse">
-			<row>D<ch a="D"/>eszcz jesienny d<ch a="G"/>eszcz bębni w h<ch a="D"/>ełmu stal,</row>
-			<row><ch a="A7"/>idziesz, młody ż<ch a="D"/>ołnierzyku, gdz<ch a="A7"/>ieś w nieznaną d<ch a="D"/>al.</row>
-			<row>M<ch a="G"/>oże dobry B<ch a="D"/>óg da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
-			<row>b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
+			<row important_over="false">D<ch a="D"/>eszcz jesienny d<ch a="G"/>eszcz bębni w h<ch a="D"/>ełmu stal,</row>
+			<row important_over="false"><ch a="A7"/>idziesz, młody ż<ch a="D"/>ołnierzyku, gdz<ch a="A7"/>ieś w nieznaną d<ch a="D"/>al.</row>
+			<row important_over="false">M<ch a="G"/>oże dobry B<ch a="D"/>óg da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
+			<row important_over="false">b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
 		</block>
 		<block type="verse">
-			<row>D<ch a="G"/>a, że wrócisz zn<ch a="D"/>ów, da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
-			<row>b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
+			<row important_over="false">D<ch a="G"/>a, że wrócisz zn<ch a="D"/>ów, da, że wr<ch a="G"/>ócisz zn<ch a="D"/>ów,</row>
+			<row important_over="false">b<ch a="A7"/>ędziesz tulił ci<ch a="D"/>emną głowę m<ch a="A7"/>iłej twej do sn<ch a="D"/>u.</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -44,10 +44,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Marian Matuszkiewicz ps. „Rysiek” (słowa i muzyka, 1943)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Deszcz_jesienny_deszcz)</verificator>
-			<verificator>Śpiewnik Niepodległości (spiewnikniepodleglosci.pl/utwor/deszcz-jesienny-deszcz/)</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Deszcz_jesienny_deszcz</verificator>
+      <verificator>https://spiewnikniepodleglosci.pl/utwor/deszcz-jesienny-deszcz/</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
