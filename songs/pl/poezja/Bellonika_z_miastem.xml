@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bellonika z miastem">
 	<alias/>
 	<text_author type="solo">Krzysztof Jurkiewicz</text_author>
-	<comment/>
+	<comment>W akordach na stronie zespołu zamiast d-moll występuje D7-dur. W refrenie w części wykonań śpiewano w czwartej linijce „spokojnie” zamiast „bezpiecznie” – tutaj zapisano zgodnie z oryginałem z kasety.</comment>
 	<composer type="solo">Krzysztof Jurkiewicz</composer>
 	<artist type="band">Słodki Całus od Buby</artist>
 	<translator/>
@@ -11,32 +11,32 @@
 		<block type="verse">
 			<row important_over="true">Kt<ch a="C"/>óra to znów pios<ch a="G"/>enka,</row>
 			<row important_over="true"><ch a="F"/>dla której Jo<ch a="C"/>anny?</row>
-			<row>Za <ch a="a"/>oknem pierwszy tr<ch a="d"/>amwaj</row>
-			<row>oddzw<ch a="F"/>onił nowy dzi<ch a="G"/>eń.</row>
-			<row>Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna,</row>
-			<row><ch a="F"/>która kartka bi<ch a="C"/>ała</row>
-			<row>na w<ch a="a"/>ątłym płatku ni<ch a="d"/>esie</row>
-			<row>jak <ch a="F"/>ołów ciężką tr<ch a="G"/>eść?</row>
+			<row important_over="false">Za <ch a="a"/>oknem pierwszy tr<ch a="d"/>amwaj</row>
+			<row important_over="false">oddzw<ch a="F"/>onił nowy dzi<ch a="G"/>eń.</row>
+			<row important_over="false">Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna,</row>
+			<row important_over="false"><ch a="F"/>która kartka bi<ch a="C"/>ała</row>
+			<row important_over="false">na w<ch a="a"/>ątłym płatku ni<ch a="d"/>esie</row>
+			<row important_over="false">jak <ch a="F"/>ołów ciężką tr<ch a="G"/>eść?</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Za oknem wi<ch a="C"/>elkiego miasta sz<ch a="G"/>um</row>
 			<row important_over="true">i <ch a="F"/>uciec by się chci<ch a="C"/>ało,</row>
-			<row>w rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
-			<row>bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę.</row>
-			<row>Za oknem wi<ch a="C"/>elkiego miasta chł<ch a="G"/>ód</row>
-			<row>i t<ch a="F"/>ylko Twoje ci<ch a="C"/>ało</row>
-			<row>w półmr<ch a="a"/>oku obiec<ch a="d"/>uje</row>
-			<row>spo<ch a="F"/>kojny, ciepły s<ch a="G"/>en.</row>
+			<row important_over="false">w rami<ch a="a"/>onach Twoich jak w g<ch a="d"/>órach</row>
+			<row important_over="false">bezpi<ch a="F"/>ecznie schronić si<ch a="G"/>ę.</row>
+			<row important_over="false">Za oknem wi<ch a="C"/>elkiego miasta chł<ch a="G"/>ód</row>
+			<row important_over="false">i t<ch a="F"/>ylko Twoje ci<ch a="C"/>ało</row>
+			<row important_over="false">w półmr<ch a="a"/>oku obiec<ch a="d"/>uje</row>
+			<row important_over="false">spo<ch a="F"/>kojny, ciepły s<ch a="G"/>en.</row>
 		</block>
 		<block type="verse">
-			<row>Kt<ch a="C"/>óra to znowu w<ch a="G"/>ojna,</row>
-			<row><ch a="F"/>za jaką znów spr<ch a="C"/>awę,</row>
-			<row>co n<ch a="a"/>ic nam nie przyni<ch a="d"/>esie</row>
-			<row>prócz p<ch a="F"/>aru smutnych d<ch a="G"/>at?</row>
-			<row>Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna,</row>
-			<row><ch a="F"/>prześcieradło bl<ch a="C"/>ade,</row>
-			<row>cał<ch a="a"/>ując Twoje wł<ch a="d"/>osy,</row>
-			<row>pow<ch a="F"/>oli zmieniam świ<ch a="G"/>at.</row>
+			<row important_over="false">Kt<ch a="C"/>óra to znowu w<ch a="G"/>ojna,</row>
+			<row important_over="false"><ch a="F"/>za jaką znów spr<ch a="C"/>awę,</row>
+			<row important_over="false">co n<ch a="a"/>ic nam nie przyni<ch a="d"/>esie</row>
+			<row important_over="false">prócz p<ch a="F"/>aru smutnych d<ch a="G"/>at?</row>
+			<row important_over="false">Kt<ch a="C"/>óra to noc bezs<ch a="G"/>enna,</row>
+			<row important_over="false"><ch a="F"/>prześcieradło bl<ch a="C"/>ade,</row>
+			<row important_over="false">cał<ch a="a"/>ując Twoje wł<ch a="d"/>osy,</row>
+			<row important_over="false">pow<ch a="F"/>oli zmieniam świ<ch a="G"/>at.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<blocklink blocknb="2"/>
@@ -55,9 +55,7 @@
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			<verificator>Adam: poprawiono tekst zgodnie z kasetą (oryginałem)</verificator>
-			<verificator>Onufry: wielkie litery przy zwrotach do adresatki</verificator>
-			<verificator>Krzysztof Jurkiewicz, zespół Słodki Całus od Buby (album "Słodki Całus od Buby", 1994)</verificator>
+			<verificator>Adam</verificator>
 			<verificator>https://spiewnik.wywrota.pl/slodki-calus-od-buby/bellonika-z-miastem</verificator>
 		</verificators>
 	</status>
