@@ -11,22 +11,22 @@
 		<block type="verse">
 			<row important_over="true"><ch a="G"/>Moje myśli, proszę <ch a="D"/>was, siądźcie jak <ch a="C"/>kruki koło <ch a="D"/>mnie,</row>
 			<row important_over="true"><ch a="G"/>i z wierszami <ch a="D"/>wraz zapytajcie, <ch a="C"/>co słychać u <ch a="D"/>mnie.</row>
-			<row><ch a="G"/>Ściany, przyjaciółki <ch a="D"/>mego domu, je<ch a="C"/>żeli potrafi<ch a="D"/>cie,</row>
-			<row><ch a="G"/>zapytajcie chociaż <ch a="D"/>raz, jak tam świat mój, <ch a="C"/>jak moje ży<ch a="D"/>cie.</row>
+			<row important_over="false"><ch a="G"/>Ściany, przyjaciółki <ch a="D"/>mego domu, je<ch a="C"/>żeli potrafi<ch a="D"/>cie,</row>
+			<row important_over="false"><ch a="G"/>zapytajcie chociaż <ch a="D"/>raz, jak tam świat mój, <ch a="C"/>jak moje ży<ch a="D"/>cie.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
 				<row important_over="true">A u mnie <ch a="G"/>wir, a u mnie <ch a="D"/>bal,</row>
 				<row important_over="true">trwa <ch a="G"/>stypa po mi<ch a="D"/>łości,</row>
-				<row>i od to<ch a="G"/>astów huczy <ch a="D"/>stół,</row>
-				<row>i <ch a="C"/>ja – jedyny z moich <ch a="D"/>gości.</row>
+				<row important_over="false">i od to<ch a="G"/>astów huczy <ch a="D"/>stół,</row>
+				<row important_over="false">i <ch a="C"/>ja – jedyny z moich <ch a="D"/>gości.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row><ch a="G"/>Dziś nic dla ciebie, <ch a="D"/>moja pani, nie po<ch a="C"/>grążysz mnie w żadnym <ch a="D"/>grobie,</row>
-			<row><ch a="G"/>odnalazłem dłoń, <ch a="D"/>własną dłoń wyciąg<ch a="C"/>niętą ku so<ch a="D"/>bie.</row>
-			<row><ch a="G"/>Rano wyjdę już spo<ch a="D"/>kojny, z uśmiechem przy<ch a="C"/>klejonym do twa<ch a="D"/>rzy,</row>
-			<row><ch a="G"/>i rozdam krukom we<ch a="D"/>sołe wiersze na <ch a="C"/>sen, na spełnienie ma<ch a="D"/>rzeń.</row>
+			<row important_over="false"><ch a="G"/>Dziś nic dla ciebie, <ch a="D"/>moja pani, nie po<ch a="C"/>grążysz mnie w żadnym <ch a="D"/>grobie,</row>
+			<row important_over="false"><ch a="G"/>odnalazłem dłoń, <ch a="D"/>własną dłoń wyciąg<ch a="C"/>niętą ku so<ch a="D"/>bie.</row>
+			<row important_over="false"><ch a="G"/>Rano wyjdę już spo<ch a="D"/>kojny, z uśmiechem przy<ch a="C"/>klejonym do twa<ch a="D"/>rzy,</row>
+			<row important_over="false"><ch a="G"/>i rozdam krukom we<ch a="D"/>sołe wiersze na <ch a="C"/>sen, na spełnienie ma<ch a="D"/>rzeń.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -43,10 +43,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Adam</verificator>
-			<verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/bal</verificator>
-			<verificator>Słowa: Wojciech Wiśniewski, muzyka i wykonanie: Tomasz Lewandowski (album Miniony czas)</verificator>
-		</verificators>
+      <verificator>Adam</verificator>
+      <verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/bal</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
