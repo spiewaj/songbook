@@ -53,8 +53,8 @@
 	<genre>Piosenka partyzancka</genre>
 	<status>
 		<verificators>
-			<verificator>PT</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/janusz-zakrzewski/ida-lesni</verificator>
+    </verificators>
 		<to_do/>
 		<done>
 			<text/>
