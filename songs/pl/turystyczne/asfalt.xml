@@ -1,48 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Asfalt">
-  <text_author type="solo">J. Borowicz</text_author>
-  <artist type="band">Do góry dnem</artist>
+  <text_author type="solo">Jan Borowicz</text_author>
+  <composer type="solo">Jan Borowicz</composer>
+  <artist type="band">Do Góry Dnem</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Dokąd <ch a="C"/>idziesz <ch a="G"/>pod górę <ch a="C"/>pod wiatr</row>
-      <row important_over="true"><ch a="a"/>Wpatrzony w <ch a="G"/>asfalt <ch a="C"/>drogi<ch a="A7"/>.</row>
-      <row important_over="true"><ch a="d"/>Krople na <ch a="G"/>rzęsach w ustach <ch a="C"/>gorzki <ch a="a7"/>smak</row>
-      <row important_over="true"><ch a="d"/>A ty nie <ch a="E7"/>dojdziesz i <ch a="a"/>tak</row>
+      <row important_over="true"><ch a="a"/>Dokąd <ch a="C"/>idziesz <ch a="G"/>pod górę, <ch a="C"/>pod wiatr,</row>
+      <row important_over="true"><ch a="a"/>wpatrzony w <ch a="G"/>asfalt <ch a="C"/>drogi.<ch a="A7"/></row>
+      <row important_over="true"><ch a="d"/>Krople na <ch a="G"/>rzęsach, w ustach <ch a="C"/>gorzki <ch a="a7"/>smak,</row>
+      <row important_over="true"><ch a="d"/>a ty nie <ch a="E7"/>dojdziesz i <ch a="a"/>tak.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Tu samochody wyjąc mkną<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">w prawo ptaki nad polem<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Pod nimi szumi ocean zbóż<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="false">Zielone wyspy drzew<ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Tu samo<ch a="C"/>chody <ch a="G"/>wyjąc <ch a="C"/>mkną,</row>
+      <row important_over="false"><ch a="a"/>w prawo <ch a="G"/>ptaki nad <ch a="C"/>polem,<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>pod nimi <ch a="G"/>szumi oc<ch a="C"/>ean <ch a="a7"/>zbóż,</row>
+      <row important_over="false"><ch a="d"/>zielone <ch a="E7"/>wyspy <ch a="a"/>drzew.</row>
     </block>
     <block type="chorus">
-      <row important_over="true"><ch a="a7"/>Gdy lato zaszumi <ch a="d7"/>ciepłem</row>
-      <row important_over="true">Rzuć <ch a="G6"/>drogi wiodące do<ch a="C7+"/>nikąd</row>
-      <row important_over="true"><ch a="a"/>Odetchnij powi<ch a="A7"/>etrzem <ch a="d7"/>lasów dziewiczych</row>
-      <row important_over="true"><ch a="G"/>Niebem dzwoniącą <ch a="C"/>ci<ch a="E"/>szą</row>
-      <row important_over="false"><ch a="a7"/>Z dala od pyłu <ch a="d7"/>miast</row>
-      <row important_over="false">Od <ch a="G6"/>tłoku codziennych <ch a="C7+"/>spraw</row>
-      <row important_over="true">Może <ch a="d"/>znajdziesz co <ch a="E7"/>dawno <ch a="a"/>stracił<ch a="F"/>eś</row>
-      <row important_over="false"><ch a="d"/>Wolnego <ch a="E7"/>życia <ch a="a"/>smak </row>
+      <row important_over="true"><ch a="a7"/>Gdy lato zaszumi <ch a="d7"/>ciepłem,</row>
+      <row important_over="true">rzuć <ch a="G6"/>drogi wiodące do<ch a="C7+"/>nikąd,</row>
+      <row important_over="true"><ch a="a"/>odetchnij powi<ch a="A7"/>etrzem <ch a="d7"/>lasów dziewiczych,</row>
+      <row important_over="true"><ch a="G"/>niebem dzwoniącą <ch a="C"/>ci<ch a="E"/>szą.</row>
+      <row important_over="true"><ch a="a7"/>Z dala od pyłu <ch a="d7"/>miast,</row>
+      <row important_over="true">od <ch a="G6"/>tłoku codziennych <ch a="C7+"/>spraw,</row>
+      <row important_over="true">może <ch a="d"/>znajdziesz, co <ch a="E7"/>dawno <ch a="a"/>stracił<ch a="F"/>eś,</row>
+      <row important_over="true"><ch a="d"/>wolnego <ch a="E7"/>życia <ch a="a"/>smak.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Każdy ma swoje d&#039;pacol<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Z którego zwiozą go w końcu<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Cel często bywa większy od sił<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="false">Marzenia większe niż śmiech. <ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Każdy ma <ch a="C"/>swoje <ch a="G"/>Dapa <ch a="C"/>Col,</row>
+      <row important_over="false"><ch a="a"/>z którego <ch a="G"/>zwiozą go <ch a="C"/>w końcu,<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>cel często <ch a="G"/>bywa wi<ch a="C"/>ększy od <ch a="a7"/>sił,</row>
+      <row important_over="false"><ch a="d"/>marzenia <ch a="E7"/>większe niż <ch a="a"/>śmiech.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Coraz trudniej przez lata się pchać<ch a="a"/><ch a="C"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Po schodach piąć się do góry<ch a="a"/><ch a="G"/><ch a="C"/><ch a="A7"/></row>
-      <row important_over="false">Biegnąc nie słyszysz już szumu fal<ch a="d"/><ch a="G"/><ch a="C"/><ch a="a7"/></row>
-      <row important_over="false">Nie odróżniasz nieba od dna <ch a="d"/><ch a="E7"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Coraz tr<ch a="C"/>udniej przez <ch a="G"/>lata się <ch a="C"/>pchać,</row>
+      <row important_over="false"><ch a="a"/>po schodach <ch a="G"/>piąć się do <ch a="C"/>góry,<ch a="A7"/></row>
+      <row important_over="false"><ch a="d"/>biegnąc nie <ch a="G"/>słyszysz już <ch a="C"/>szumu <ch a="a7"/>fal,</row>
+      <row important_over="false"><ch a="d"/>nie odróż<ch a="E7"/>niasz nieba od <ch a="a"/>dna.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
   <keywords/>
   <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>http://akustycznie.com/song/560_Do_Gory_Dnem_-_Asfalt</verificator>
+    </verificators>
   </status>
 </song>
