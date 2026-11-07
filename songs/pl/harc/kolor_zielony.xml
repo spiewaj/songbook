@@ -9,36 +9,36 @@
   </music>
   <lyric>
     <block type="verse">
-      <row important_over="true" sidechords="d G C a">Można swe <ch a="d"/>życie <ch a="G"/>wieść rozma<ch a="C"/>icie, <ch a="a"/></row>
-      <row important_over="true" sidechords="d G C a">stojąc na <ch a="d"/>przykład <ch a="G"/>przy budce z <ch a="C"/>piwem, <ch a="a"/></row>
-      <row important_over="never" sidechords="d G C a">ale mieć <ch a="d"/>można <ch a="G"/>ciekawsze <ch a="C"/>życie, <ch a="a"/></row>
-      <row important_over="never" sidechords="d G C a">myśmy wy<ch a="d"/>brali <ch a="G"/>szczęś<ch a="C"/>liwe. <ch a="a"/></row>
+      <row important_over="true">Można swe <ch a="d"/>życie <ch a="G"/>wieść rozma<ch a="C"/>icie, <ch a="a"/></row>
+      <row important_over="true">stojąc na <ch a="d"/>przykład <ch a="G"/>przy budce z <ch a="C"/>piwem, <ch a="a"/></row>
+      <row important_over="false">ale mieć <ch a="d"/>można <ch a="G"/>ciekawsze <ch a="C"/>życie, <ch a="a"/></row>
+      <row important_over="false">myśmy wy<ch a="d"/>brali <ch a="G"/>szczęś<ch a="C"/>liwe. <ch a="a"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true" sidechords="d G C a">Mój ulu<ch a="d"/>biony <ch a="G"/>kolor zie<ch a="C"/>lony, <ch a="a"/></row>
-      <row important_over="true" sidechords="d G C a">ogień pach<ch a="d"/>nący <ch a="G"/>sosnowym <ch a="C"/>drzewem, <ch a="a"/></row>
-      <row important_over="never" sidechords="d G C a">i te wę<ch a="d"/>drówki <ch a="G"/>we wszystkie <ch a="C"/>strony, <ch a="a"/></row>
-      <row important_over="never" sidechords="d G C a">spacery <ch a="d"/>pod go<ch a="G"/>łym <ch a="C"/>niebem. <ch a="a"/></row>
+      <row important_over="true">Mój ulu<ch a="d"/>biony <ch a="G"/>kolor zie<ch a="C"/>lony, <ch a="a"/></row>
+      <row important_over="true">ogień pach<ch a="d"/>nący <ch a="G"/>sosnowym <ch a="C"/>drzewem, <ch a="a"/></row>
+      <row important_over="false">i te wę<ch a="d"/>drówki <ch a="G"/>we wszystkie <ch a="C"/>strony, <ch a="a"/></row>
+      <row important_over="false">spacery <ch a="d"/>pod go<ch a="G"/>łym <ch a="C"/>niebem. <ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="d G C a">Więc chciałbym zawsze chłopcem być małym,</row>
-      <row important_over="never" sidechords="d G C a">z nocnych podchodów wracać nad ranem,</row>
-      <row important_over="never" sidechords="d G C a">żeby na zawsze z nami zostały</row>
-      <row important_over="never" sidechords="d G C a">te chwile niezapomniane.</row>
-    </block>
-    <blocklink blocknb="2"/>
-    <block type="verse">
-      <row important_over="never" sidechords="d G C a">Żachniesz się kiedyś, że to dziecinne,</row>
-      <row important_over="never" sidechords="d G C a">albo, że z krótkich wyrosłeś spodni,</row>
-      <row important_over="never" sidechords="d G C a">ale czasami myśli masz inne</row>
-      <row important_over="never" sidechords="d G C a">i wtedy sobie przypomnisz.</row>
+      <row important_over="false">Więc chciałbym <ch a="d"/>zawsze <ch a="G"/>chłopcem być <ch a="C"/>małym, <ch a="a"/></row>
+      <row important_over="false">z nocnych pod<ch a="d"/>chodów <ch a="G"/>wracać nad <ch a="C"/>ranem, <ch a="a"/></row>
+      <row important_over="false">żeby na <ch a="d"/>zawsze <ch a="G"/>z nami zo<ch a="C"/>stały <ch a="a"/></row>
+      <row important_over="false">te chwile <ch a="d"/>nieza<ch a="G"/>pom<ch a="C"/>niane. <ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="d G C a">Więc chciałbym zawsze chłopcem być małym,</row>
-      <row important_over="never" sidechords="d G C a">z harcerskim krzyżem jak z talizmanem,</row>
-      <row important_over="never" sidechords="d G C a">żeby na zawsze z nami zostały</row>
-      <row important_over="never" sidechords="d G C a">te chwile niezapomniane.</row>
+      <row important_over="false">Żachniesz się <ch a="d"/>kiedyś, <ch a="G"/>że to dzie<ch a="C"/>cinne, <ch a="a"/></row>
+      <row important_over="false">albo, że <ch a="d"/>z krótkich <ch a="G"/>wyrosłeś <ch a="C"/>spodni, <ch a="a"/></row>
+      <row important_over="false">ale cza<ch a="d"/>sami <ch a="G"/>myśli masz <ch a="C"/>inne <ch a="a"/></row>
+      <row important_over="false">i wtedy <ch a="d"/>sobie <ch a="G"/>przy<ch a="C"/>pomnisz. <ch a="a"/></row>
+    </block>
+    <blocklink blocknb="2"/>
+    <block type="verse">
+      <row important_over="false">Więc chciałbym <ch a="d"/>zawsze <ch a="G"/>chłopcem być <ch a="C"/>małym, <ch a="a"/></row>
+      <row important_over="false">z harcerskim <ch a="d"/>krzyżem <ch a="G"/>jak z taliz<ch a="C"/>manem, <ch a="a"/></row>
+      <row important_over="false">żeby na <ch a="d"/>zawsze <ch a="G"/>z nami zo<ch a="C"/>stały <ch a="a"/></row>
+      <row important_over="false">te chwile <ch a="d"/>nieza<ch a="G"/>pom<ch a="C"/>niane. <ch a="a"/></row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
@@ -48,10 +48,9 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
-      <verificator>http://spotkaniazpiosenka.org/ (Wojciech Dąbrowski)</verificator>
       <verificator>https://spiewnik.wywrota.pl/harcerskie/kolor-zielony</verificator>
     </verificators>
   </status>
