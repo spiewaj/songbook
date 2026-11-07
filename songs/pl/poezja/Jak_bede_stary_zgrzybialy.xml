@@ -34,9 +34,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Andrzej Wierzbicki (słowa i muzyka, „Miniatury”)</verificator>
-			<verificator>http://ramole.pl/spotkanie-z-piosenka/dgd1/miniatury/</verificator>
-		</verificators>
+      <verificator>http://ramole.pl/spotkanie-z-piosenka/dgd1/miniatury/</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
