@@ -36,7 +36,7 @@
 		<block type="verse">
 			<row important_over="false">P<ch a="a"/>iją mieszczanie <ch a="B"/>i żebracy,</row>
 			<row important_over="false">Żołd<ch a="B"/>acy odstawil<ch a="a"/>i włócznie</row>
-			<row important_over="false">I piją też po ci<ch a="B"/>ężkiej pracy,</row>
+			<row important_over="false">I p<ch a="a"/>iją też po ci<ch a="B"/>ężkiej pracy,</row>
 			<row important_over="false">B<ch a="B"/>awi się całe mi<ch a="a"/>asto hucznie.</row>
 			<row important_over="false">Nami<ch a="E7"/>estnik dał dow<ch a="a"/>ody łaski!</row>
 			<row important_over="false">Bez ł<ch a="E7"/>aski — czymże b<ch a="a"/>yłby żywot?</row>
@@ -49,7 +49,7 @@
 		<block type="verse">
 			<row important_over="false">R<ch a="a"/>yknął Barabasz śmi<ch a="B"/>echem wreszcie,</row>
 			<row important_over="false">R<ch a="B"/>ęce szeroko r<ch a="a"/>ozkrzyżował —</row>
-			<row important_over="false">I poszła nowa wi<ch a="B"/>eść po mieście:</row>
+			<row important_over="false">I p<ch a="a"/>oszła nowa wi<ch a="B"/>eść po mieście:</row>
 			<row important_over="false">— Ż<ch a="B"/>yje! Żartuje, b<ch a="a"/>estia zdrowa!</row>
 			<row important_over="false">Sł<ch a="E7"/>ychać w pałacu, c<ch a="a"/>o się święci,</row>
 			<row important_over="false">Pr<ch a="E7"/>óżno się Piłat <ch a="a"/>usnąć stara,</row>
@@ -63,7 +63,7 @@
 			<row important_over="false">W k<ch a="a"/>arczmie z widokiem n<ch a="B"/>a Golgotę</row>
 			<row important_over="false">Blask św<ch a="B"/>itu po skor<ch a="a"/>upach skacze,</row>
 			<row important_over="false">G<ch a="a"/>ospodarz przegnał pr<ch a="B"/>ecz hołotę</row>
-			<row important_over="false">I liczy zysk. Bar<ch a="a"/>abasz płacze.</row>
+			<row important_over="false">I l<ch a="B"/>iczy zysk. Bar<ch a="a"/>abasz płacze.</row>
 			<row important_over="false">W k<ch a="E7"/>arczmie z widokiem n<ch a="a"/>a Golgotę</row>
 			<row important_over="false">Blask św<ch a="E7"/>itu po skor<ch a="a"/>upach skacze,</row>
 			<row important_over="false">Gosp<ch a="B"/>odarz przegnał pr<ch a="E7"/>ecz hołotę</row>
@@ -92,7 +92,7 @@
 		</done>
 		<verificators>
 			<verificator>Michał Korch</verificator>
-			<verificator>Piotr Tabor</verificator>
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/kara-barabasza/</verificator>
 		</verificators>
 	</status>
 </song>
