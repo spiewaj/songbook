@@ -16,21 +16,21 @@
 			<row important_over="never">Ten głos, ten głos, ten głos</row>
 		</block>
 		<block type="verse">
-			<row>Podejdź <ch a="A"/>bliżej, więc podszedłem jak skrusz<ch a="d"/>ony obywatel</row>
+			<row important_over="false">Podejdź <ch a="A"/>bliżej, więc podszedłem jak skrusz<ch a="d"/>ony obywatel</row>
 			<row important_over="never">do przedstawiciela władzy</row>
-			<row>Podejdź <ch a="A7"/>bliżej, już wiedziałem że uci<ch a="d"/>eczka błyskawiczna</row>
+			<row important_over="false">Podejdź <ch a="A7"/>bliżej, już wiedziałem że uci<ch a="d"/>eczka błyskawiczna</row>
 			<row important_over="never">tu niczemu nie zaradzi</row>
-			<row>Więc posz<ch a="B"/>edłem, posłuchałem, było <ch a="E"/>ciemno,</row>
-			<row>wciąż myślałem <ch a="A"/>czyj</row>
+			<row important_over="false">Więc posz<ch a="B"/>edłem, posłuchałem, było <ch a="E"/>ciemno,</row>
+			<row important_over="false">wciąż myślałem <ch a="A"/>czyj</row>
 			<row important_over="never">Ten głos, ten głos, ten głos</row>
 		</block>
 		<block type="verse">
-			<row>To nie <ch a="A"/>wróg był, bo głos cichy i subt<ch a="d"/>elny</row>
+			<row important_over="false">To nie <ch a="A"/>wróg był, bo głos cichy i subt<ch a="d"/>elny</row>
 			<row important_over="never">ale polski i nieskazitelny</row>
-			<row>To nie <ch a="A7"/>Bóg był, ten by zaraz mnie zap<ch a="d"/>ytał</row>
+			<row important_over="false">To nie <ch a="A7"/>Bóg był, ten by zaraz mnie zap<ch a="d"/>ytał</row>
 			<row important_over="never">czy mój światopogląd celny</row>
-			<row>Więc to <ch a="B"/>nie był wróg na pewno, bo nad gł<ch a="E"/>ową</row>
-			<row>tuż nade mną usłysz<ch a="A"/>ałem</row>
+			<row important_over="false">Więc to <ch a="B"/>nie był wróg na pewno, bo nad gł<ch a="E"/>ową</row>
+			<row important_over="false">tuż nade mną usłysz<ch a="A"/>ałem</row>
 			<row important_over="never">Ten głos, ten głos, ten głos</row>
 		</block>
 		<block type="chorus">
@@ -42,38 +42,38 @@
 			<row important_over="true"><ch a="A7"/>Twój kraj szczęś<ch a="d"/>liwy</row>
 		</block>
 		<block type="verse">
-			<row>Było <ch a="A"/>ciemno, więc nie mogłem stwierdzić k<ch a="d"/>omu</row>
+			<row important_over="false">Było <ch a="A"/>ciemno, więc nie mogłem stwierdzić k<ch a="d"/>omu</row>
 			<row important_over="never">pomyliły się epoki lub stulecia</row>
-			<row>Było <ch a="A7"/>ciemno, może to Micki<ch a="d"/>ewicz jaki</row>
+			<row important_over="false">Było <ch a="A7"/>ciemno, może to Micki<ch a="d"/>ewicz jaki</row>
 			<row important_over="never">bo tak zgrabnie romantyczną wiarę krzesał</row>
-			<row>Trochę <ch a="B"/>niezorientowany, bo w tym kr<ch a="E"/>aju tak kochanym</row>
-			<row>dawno <ch a="A"/>nie był już widziany</row>
+			<row important_over="false">Trochę <ch a="B"/>niezorientowany, bo w tym kr<ch a="E"/>aju tak kochanym</row>
+			<row important_over="false">dawno <ch a="A"/>nie był już widziany</row>
 		</block>
 		<block type="verse">
-			<row>Może <ch a="A"/>Norwid, bo coś plótł, że łza gdzieś zn<ch a="d"/>ad planety spada</row>
+			<row important_over="false">Może <ch a="A"/>Norwid, bo coś plótł, że łza gdzieś zn<ch a="d"/>ad planety spada</row>
 			<row important_over="never">i groby przecieka</row>
-			<row>Ale <ch a="A7"/>skąd by, skąd by wiedział, że na j<ch a="d"/>ego słowa</row>
+			<row important_over="false">Ale <ch a="A7"/>skąd by, skąd by wiedział, że na j<ch a="d"/>ego słowa</row>
 			<row important_over="never">ktoś tu jeszcze może czekać</row>
-			<row>Teraz w <ch a="B"/>modzie nie Norwidy, filoz<ch a="E"/>ofy, okryjbidy,</row>
-			<row>więc <ch a="A"/>czyj</row>
+			<row important_over="false">Teraz w <ch a="B"/>modzie nie Norwidy, filoz<ch a="E"/>ofy, okryjbidy,</row>
+			<row important_over="false">więc <ch a="A"/>czyj</row>
 			<row important_over="never">Ten głos, ten głos, ten głos</row>
 		</block>
 		<block type="verse">
-			<row>Było <ch a="A"/>ciemno, więc sam nie wiem, jak do d<ch a="d"/>omu</row>
+			<row important_over="false">Było <ch a="A"/>ciemno, więc sam nie wiem, jak do d<ch a="d"/>omu</row>
 			<row important_over="never">wprost doszedłem i do siebie</row>
-			<row>Było <ch a="A7"/>ciemno, a ja czułem się jak w ni<ch a="d"/>ebie,</row>
+			<row important_over="false">Było <ch a="A7"/>ciemno, a ja czułem się jak w ni<ch a="d"/>ebie,</row>
 			<row important_over="never">choć dlaczego nie wiem, nie wiem</row>
-			<row>Z pochyl<ch a="B"/>oną głową stałem, wierzcie: j<ch a="E"/>a nie zwariowałem,</row>
-			<row>lecz jak dzi<ch a="A"/>ecko powtarzałem</row>
+			<row important_over="false">Z pochyl<ch a="B"/>oną głową stałem, wierzcie: j<ch a="E"/>a nie zwariowałem,</row>
+			<row important_over="false">lecz jak dzi<ch a="A"/>ecko powtarzałem</row>
 			<row important_over="never">Na głos, na głos, na głos</row>
 		</block>
 		<block type="chorus">
-			<row><ch a="d"/>Ja to mam <ch a="A7"/>szczęście, <ch a="d"/>że w tym mo<ch a="A7"/>mencie</row>
-			<row><ch a="g"/>Żyć mi <ch a="C"/>przyszło w <ch a="F"/>kraju nad <ch a="g"/>Wisłą,</row>
-			<row><ch a="A7"/>Ja to mam <ch a="d"/>szczęście</row>
-			<row><ch a="d"/>Mój kraj szczęś<ch a="A7"/>liwy, <ch a="d"/>piękny, praw<ch a="A7"/>dziwy,</row>
-			<row><ch a="g"/>Ludzie u<ch a="C"/>czynni, w <ch a="F"/>sercach nie<ch a="g"/>winni,</row>
-			<row><ch a="A7"/>Mój kraj szczęś<ch a="d"/>liwy</row>
+			<row important_over="false"><ch a="d"/>Ja to mam <ch a="A7"/>szczęście, <ch a="d"/>że w tym mo<ch a="A7"/>mencie</row>
+			<row important_over="false"><ch a="g"/>Żyć mi <ch a="C"/>przyszło w <ch a="F"/>kraju nad <ch a="g"/>Wisłą,</row>
+			<row important_over="false"><ch a="A7"/>Ja to mam <ch a="d"/>szczęście</row>
+			<row important_over="false"><ch a="d"/>Mój kraj szczęś<ch a="A7"/>liwy, <ch a="d"/>piękny, praw<ch a="A7"/>dziwy,</row>
+			<row important_over="false"><ch a="g"/>Ludzie u<ch a="C"/>czynni, w <ch a="F"/>sercach nie<ch a="g"/>winni,</row>
+			<row important_over="false"><ch a="A7"/>Mój kraj szczęś<ch a="d"/>liwy</row>
 		</block>
 	</lyric>
 	<music metre="4/4">
@@ -88,8 +88,8 @@
 			<chords>chords</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>Krzysiek Cz.</verificator>
+    </verificators>
 	</status>
 </song>
