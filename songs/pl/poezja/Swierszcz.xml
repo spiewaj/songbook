@@ -20,17 +20,17 @@
 			<row important_over="true"><ch a="e"/>Nocy <ch a="D"/>czas.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="D"/>My otu<ch a="e"/>leni w <ch a="D"/>ciepły <ch a="e"/>koc</row>
-			<row><ch a="D"/>I zapa<ch a="e"/>trzeni w <ch a="D"/>setki <ch a="e"/>gwiazd,</row>
-			<row><ch a="D"/>Ogniska <ch a="e"/>płomień <ch a="D"/>topi <ch a="e"/>noc</row>
-			<row><ch a="D"/>I tylko <ch a="e"/>nie wiem, <ch a="D"/>co tak <ch a="e"/>gra.</row>
+			<row important_over="false"><ch a="D"/>My otu<ch a="e"/>leni w <ch a="D"/>ciepły <ch a="e"/>koc</row>
+			<row important_over="false"><ch a="D"/>I zapa<ch a="e"/>trzeni w <ch a="D"/>setki <ch a="e"/>gwiazd,</row>
+			<row important_over="false"><ch a="D"/>Ogniska <ch a="e"/>płomień <ch a="D"/>topi <ch a="e"/>noc</row>
+			<row important_over="false"><ch a="D"/>I tylko <ch a="e"/>nie wiem, <ch a="D"/>co tak <ch a="e"/>gra.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="D"/>Uciekły <ch a="e"/>ptaki <ch a="D"/>do swych <ch a="e"/>gniazd,</row>
-			<row><ch a="D"/>Kwiaty za<ch a="e"/>snęły <ch a="D"/>pośród <ch a="e"/>traw,</row>
-			<row><ch a="D"/>Znużony <ch a="e"/>czasem <ch a="D"/>usnął <ch a="e"/>las</row>
-			<row><ch a="D"/>I chyba <ch a="e"/>wiem już, <ch a="D"/>kto tak <ch a="e"/>gra.</row>
+			<row important_over="false"><ch a="D"/>Uciekły <ch a="e"/>ptaki <ch a="D"/>do swych <ch a="e"/>gniazd,</row>
+			<row important_over="false"><ch a="D"/>Kwiaty za<ch a="e"/>snęły <ch a="D"/>pośród <ch a="e"/>traw,</row>
+			<row important_over="false"><ch a="D"/>Znużony <ch a="e"/>czasem <ch a="D"/>usnął <ch a="e"/>las</row>
+			<row important_over="false"><ch a="D"/>I chyba <ch a="e"/>wiem już, <ch a="D"/>kto tak <ch a="e"/>gra.</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -45,7 +45,7 @@
 			<chords>chords</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 	</status>
 </song>
