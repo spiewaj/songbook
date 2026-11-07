@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Orzeł może">
+  <text_author type="solo">Artur Andrus</text_author>
+  <comment/>
+  <composer type="solo">Łukasz Borowiecki</composer>
   <artist type="band">Artur Andrus</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="E"/>Możesz nosić okulary,</row>
-      <row important_over="true"><ch a="E"/>Możesz kontraktować zboże,</row>
+      <row important_over="false"><ch a="E"/>Możesz kontraktować zboże,</row>
       <row important_over="true"><ch a="A"/>Czesać się jak Zygmunt Stary,</row>
       <row important_over="true">Jesteś <ch a="E"/>orzeł. Orzeł może.</row>
       <row important_over="true"><ch a="cis"/>Spodnie możesz nosić szersze,</row>
@@ -24,7 +27,7 @@
     </block>
     <block type="verse">
       <row important_over="false"><ch a="E"/>Możesz wracać z biblioteki</row>
-      <row important_over="false"><ch a="E"/>O nie przyzwoitej porze,</row>
+      <row important_over="false"><ch a="E"/>O nieprzyzwoitej porze,</row>
       <row important_over="false"><ch a="A"/>Regulować brwi i rzeki,</row>
       <row important_over="false">Jesteś <ch a="E"/>orzeł. Orzeł może.</row>
       <row important_over="false"><ch a="cis"/>Latem rzucać się na siano,</row>
@@ -45,10 +48,16 @@
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
   <genre>Piosenka kabaretowa</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chords</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Orzel_moze</verificator>
+      <verificator>https://spiewnik.wywrota.pl/artur-andrus/orzel-moze</verificator>
+    </verificators>
   </status>
 </song>
