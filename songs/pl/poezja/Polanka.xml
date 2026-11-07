@@ -22,14 +22,14 @@
       <row important_over="true"><ch a="F"/>Zatańcz ze mną <ch a="E"/>so<ch a="a"/>bie.<ch a="E"/></row>
     </block>
     <block type="verse">
-      <row><ch a="a"/>Spójrz, drzewa takie są uśmiech<ch a="G"/>nię<ch a="a"/>te,</row>
-      <row><ch a="F"/>A trawa oświadcza się <ch a="E"/>kwiatom,</row>
-      <row><ch a="a"/>Choć niepojęte to piękno prze<ch a="G"/>pięk<ch a="a"/>ne,</row>
-      <row><ch a="F"/>Oddają się same, nie dając nic <ch a="E"/>za to.</row>
-      <row><ch a="a"/>Drzewa coś szepcą, coś ciągle śpie<ch a="G"/>wa<ch a="a"/>ją,</row>
-      <row><ch a="F"/>I pełno w ich szumie jest twojej pięk<ch a="E"/>ności,</row>
-      <row><ch a="a"/>Choć troszeczkę o jesieni <ch a="G"/>ba<ch a="a"/>ją,</row>
-      <row><ch a="F"/>To i tak las pełen jest naszej mi<ch a="E"/>łości.</row>
+      <row important_over="false"><ch a="a"/>Spójrz, drzewa takie są uśmiech<ch a="G"/>nię<ch a="a"/>te,</row>
+      <row important_over="false"><ch a="F"/>A trawa oświadcza się <ch a="E"/>kwiatom,</row>
+      <row important_over="false"><ch a="a"/>Choć niepojęte to piękno prze<ch a="G"/>pięk<ch a="a"/>ne,</row>
+      <row important_over="false"><ch a="F"/>Oddają się same, nie dając nic <ch a="E"/>za to.</row>
+      <row important_over="false"><ch a="a"/>Drzewa coś szepcą, coś ciągle śpie<ch a="G"/>wa<ch a="a"/>ją,</row>
+      <row important_over="false"><ch a="F"/>I pełno w ich szumie jest twojej pięk<ch a="E"/>ności,</row>
+      <row important_over="false"><ch a="a"/>Choć troszeczkę o jesieni <ch a="G"/>ba<ch a="a"/>ją,</row>
+      <row important_over="false"><ch a="F"/>To i tak las pełen jest naszej mi<ch a="E"/>łości.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
@@ -42,9 +42,11 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.tekstowo.pl/bez-jacka/polanka</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
