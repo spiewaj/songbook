@@ -70,6 +70,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/jacek-kaczmarski/bob-dylan</verificator>
+    </verificators>
 	</status>
 </song>
