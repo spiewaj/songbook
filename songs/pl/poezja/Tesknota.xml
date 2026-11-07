@@ -15,11 +15,11 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row><ch a="fis"/>Lecz mi <ch a="E"/>nie pić z twych <ch a="D"/>łask</row>
-			<row><ch a="A"/>Dusza <ch a="E"/>siedmiokroć <ch a="D"/>tęsknotą o<ch a="E"/>truta</row>
-			<row><ch a="D"/>Ociemniała na <ch a="fis"/>blask</row>
+			<row important_over="false"><ch a="fis"/>Lecz mi <ch a="E"/>nie pić z twych <ch a="D"/>łask</row>
+			<row important_over="false"><ch a="A"/>Dusza <ch a="E"/>siedmiokroć <ch a="D"/>tęsknotą o<ch a="E"/>truta</row>
+			<row important_over="false"><ch a="D"/>Ociemniała na <ch a="fis"/>blask</row>
 			<bis times="2">
-				<row><ch a="E"/>Noc ma każda cięż<ch a="D"/>ka jak pokuta</row>
+				<row important_over="false"><ch a="E"/>Noc ma każda cięż<ch a="D"/>ka jak pokuta</row>
 			</bis>
 		</block>
 		<block type="chorus">
@@ -33,11 +33,11 @@
 			<row important_over="true"><ch a="A"/>Bym mógł o tobie <ch a="h7"/>śpiewać</row>
 		</block>
 		<block type="verse">
-			<row><ch a="fis"/>Szczęście <ch a="E"/>wątłe jak <ch a="D"/>mgły</row>
-			<row><ch a="A"/>Wicher <ch a="E"/>mi stargał <ch a="D"/>jako mgły roz<ch a="E"/>wiejne</row>
-			<row><ch a="D"/>Najpiękniejsze me <ch a="fis"/>sny</row>
+			<row important_over="false"><ch a="fis"/>Szczęście <ch a="E"/>wątłe jak <ch a="D"/>mgły</row>
+			<row important_over="false"><ch a="A"/>Wicher <ch a="E"/>mi stargał <ch a="D"/>jako mgły roz<ch a="E"/>wiejne</row>
+			<row important_over="false"><ch a="D"/>Najpiękniejsze me <ch a="fis"/>sny</row>
 			<bis times="2">
-				<row><ch a="E"/>Czyż być muszą zaw<ch a="D"/>sze beznadziejne</row>
+				<row important_over="false"><ch a="E"/>Czyż być muszą zaw<ch a="D"/>sze beznadziejne</row>
 			</bis>
 		</block>
 	</lyric>
@@ -53,7 +53,7 @@
 			<chords>chords</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 	</status>
 </song>
