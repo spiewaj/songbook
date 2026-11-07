@@ -25,21 +25,21 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row><ch a="G"/>Nie dbał o wygląd <ch a="D"/>ni o <ch a="A"/>szmal,</row>
-			<row><ch a="e"/>Daleki był mu <ch a="G"/>wszelki <ch a="D"/>szpan,</row>
-			<row><ch a="G"/>Wciąż zapatrzony <ch a="D"/>w siną <ch a="A"/>dal,</row>
-			<row><ch a="e"/>Włóczył się z pudłem <ch a="G"/>tu i <ch a="D"/>tam.</row>
-			<row><ch a="e"/>Minęło ładnych <ch a="A"/>parę <ch a="D"/>lat,</row>
-			<row><ch a="G"/>Odkąd już nie wi<ch a="D"/>działem <ch a="A"/>go,</row>
-			<row><ch a="fis"/>Podobno zginął <ch a="G"/>po nim <ch a="A"/>ślad,</row>
-			<row><ch a="D"/>Gdy odszedł razem z <ch a="G"/>ranną <ch a="D"/>mgłą.</row>
+			<row important_over="false"><ch a="G"/>Nie dbał o wygląd <ch a="D"/>ni o <ch a="A"/>szmal,</row>
+			<row important_over="false"><ch a="e"/>Daleki był mu <ch a="G"/>wszelki <ch a="D"/>szpan,</row>
+			<row important_over="false"><ch a="G"/>Wciąż zapatrzony <ch a="D"/>w siną <ch a="A"/>dal,</row>
+			<row important_over="false"><ch a="e"/>Włóczył się z pudłem <ch a="G"/>tu i <ch a="D"/>tam.</row>
+			<row important_over="false"><ch a="e"/>Minęło ładnych <ch a="A"/>parę <ch a="D"/>lat,</row>
+			<row important_over="false"><ch a="G"/>Odkąd już nie wi<ch a="D"/>działem <ch a="A"/>go,</row>
+			<row important_over="false"><ch a="fis"/>Podobno zginął <ch a="G"/>po nim <ch a="A"/>ślad,</row>
+			<row important_over="false"><ch a="D"/>Gdy odszedł razem z <ch a="G"/>ranną <ch a="D"/>mgłą.</row>
 		</block>
 		<block type="chorus">
 			<bis times="3">
-				<row><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
-				<row><ch a="e"/>Wołaliśmy, gdy zbli<ch a="fis"/>żał się <ch a="h"/>świt,</row>
-				<row><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
-				<row><ch a="e"/>Tych nocy nie za<ch a="G"/>pomni <ch a="D"/>nikt.</row>
+				<row important_over="false"><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row important_over="false"><ch a="e"/>Wołaliśmy, gdy zbli<ch a="fis"/>żał się <ch a="h"/>świt,</row>
+				<row important_over="false"><ch a="G"/>Graj, graj, <ch a="D"/>jeszcze <ch a="A"/>graj,</row>
+				<row important_over="false"><ch a="e"/>Tych nocy nie za<ch a="G"/>pomni <ch a="D"/>nikt.</row>
 			</bis>
 		</block>
 	</lyric>
@@ -54,6 +54,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/mariusz-zadura/szkic-do-portretu</verificator>
+    </verificators>
 	</status>
 </song>
