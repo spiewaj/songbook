@@ -48,7 +48,9 @@
 	</music>
 	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/bez-jacka/w-malinowym-chrusniaku</verificator>
+    </verificators>
 		<done>
 			<text/>
 			<authors/>
