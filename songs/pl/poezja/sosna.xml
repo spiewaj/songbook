@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Sosna">
   <alias>Biegłaś zboczem</alias>
+  <comment>Utwór nagrodzony m.in. II nagrodą na IV Ogólnopolskiej Turystycznej Giełdzie Piosenki Studenckiej w Szklarskiej Porębie (1971).</comment>
+  <text_author type="solo">Anna Szaleńcowa</text_author>
+  <composer type="solo">Anna Szaleńcowa</composer>
+  <artist type="solo">Anna Szaleńcowa</artist>
   <lyric>
     <block type="verse">
       <row important_over="true"><ch a="d"/>Biegłaś zboczem, brą<ch a="g"/>zowo-zielona,</row>
       <row important_over="true"><ch a="C"/>Miedzią słońca i <ch a="F"/>trawy zie<ch a="A7"/>lenią,</row>
       <row important_over="false"><ch a="d"/>Biegłaś brzegiem stru<ch a="g"/>mienia spragniona,</row>
-      <row important_over="true"><ch a="A"/>Twoje włosy <ch a="A7"/>targał górski <ch a="d"/>wiatr</row>
+      <row important_over="true"><ch a="A"/>Twoje włosy <ch a="A7"/>targał górski <ch a="d"/>wiatr.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Zanurzyłaś swe dłonie w potoku,<ch a="d"/><ch a="g"/></row>
-      <row important_over="false">Który głazy w poszumie omijał,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
-      <row important_over="false">Burza kropel w srebrzystej pogoni<ch a="d"/><ch a="g"/></row>
-      <row important_over="false">Obraz Twój porwała szybko w dal<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>Zanurzyłaś swe dł<ch a="g"/>onie w potoku,</row>
+      <row important_over="false"><ch a="C"/>Który głazy w po<ch a="F"/>szumie omi<ch a="A7"/>jał,</row>
+      <row important_over="false"><ch a="d"/>Burza kropel w sre<ch a="g"/>brzystej pogoni</row>
+      <row important_over="false"><ch a="A"/>Obraz Twój por<ch a="A7"/>wała szybko w <ch a="d"/>dal.</row>
     </block>
     <block type="verse">
-      <row important_over="false">I wracałaś do góry powoli<ch a="d"/><ch a="g"/></row>
-      <row important_over="false">Zielonością i brązem strzelista,<ch a="C"/><ch a="F"/><ch a="A7"/></row>
-      <row important_over="false">Gdy Cię wchłaniał cień lasu znajomy,<ch a="d"/><ch a="g"/></row>
-      <row important_over="false">Znów Twe włosy, sosno, targał wiatr<ch a="A"/><ch a="A7"/><ch a="d"/></row>
+      <row important_over="false"><ch a="d"/>I wracałaś do g<ch a="g"/>óry powoli,</row>
+      <row important_over="false"><ch a="C"/>Zielonością i <ch a="F"/>brązem strzeli<ch a="A7"/>sta,</row>
+      <row important_over="false"><ch a="d"/>Gdy Cię wchłaniał cień l<ch a="g"/>asu znajomy,</row>
+      <row important_over="false"><ch a="A"/>Znów Twe włosy, s<ch a="A7"/>osno, targał <ch a="d"/>wiatr.</row>
     </block>
-    <block type="verse">
-      <row important_over="false" style="instr"> <ch a="d"/><ch a="g"/><ch a="C"/><ch a="F"/><ch a="A7"/><ch a="d"/><ch a="g"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
+    <block type="other">
+      <row important_over="false" style="instr"><ch a="d"/><ch a="g"/><ch a="C"/><ch a="F"/><ch a="A7"/><ch a="d"/><ch a="g"/><ch a="A"/><ch a="A7"/><ch a="d"/></row>
     </block>
   </lyric>
   <keywords/>
-  <genre>Poezja śpiewana</genre>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/piosenka-harcerska/bieglas-zboczem</verificator>
+    </verificators>
   </status>
 </song>
