@@ -48,10 +48,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysztof Lebionko (słowa), Tomasz Lewandowski (muzyka)</verificator>
-			<verificator>Tomasz Lewandowski – album „Czas miniony” (2017)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/jaka-jestes</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/tomasz-lewandowski/jaka-jestes</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
