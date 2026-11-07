@@ -1,50 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Polańska">
+  <alias>Słońce ma się już ku zachodowi</alias>
   <text_author type="solo">Wojciech Szymański</text_author>
-  <artist type="solo">Wojciech Szymański</artist>
+  <comment>Piosenka o nieistniejącej wsi Polańska w Beskidzie Niskim, z repertuaru zespołu Dom o Zielonych Progach.</comment>
+  <composer type="solo">Wojciech Szymański</composer>
+  <artist type="band">Dom o Zielonych Progach</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="G"/>Słońce ma się już ku zachodo<ch a="C"/>wi</row>
-      <row important_over="true">Czerw<ch a="C"/>ienią góry maluj<ch a="D"/>e</row>
-      <row important_over="false"><ch a="G"/>Przez Biskupi Łan podąż<ch a="C"/>a</row>
-      <row important_over="false"><ch a="C"/>Brodząc w trawy po szyj<ch a="D"/>ę</row>
-      <row important_over="true"><ch a="h"/>Zanurzam się w doli<ch a="C"/>nę</row>
-      <row important_over="false"><ch a="h"/>Wdycham żywiczny za<ch a="C"/>pach lasu</row>
+      <row important_over="true"><ch a="G"/>Słońce ma się już ku zachodo<ch a="C"/>wi,</row>
+      <row important_over="true">czerw<ch a="C"/>ienią góry maluj<ch a="D"/>e.</row>
+      <row important_over="true"><ch a="G"/>Przez Biskupi Łan podąż<ch a="C"/>am,</row>
+      <row important_over="true">br<ch a="C"/>odząc w trawy po szyj<ch a="D"/>ę.</row>
+      <row important_over="true"><ch a="h"/>Zanurzam się w doli<ch a="C"/>nę,</row>
+      <row important_over="true"><ch a="h"/>wdycham żywiczny za<ch a="C"/>pach lasu.</row>
       <row important_over="true">Je<ch a="a7"/>szcze strumień, jesz<ch a="C"/>cze potok</row>
-      <row important_over="true">I bę<ch a="a7"/>dę znów u<ch a="C"/> siebie w domu <ch a="D"/> </row>
+      <row important_over="true">i bę<ch a="a7"/>dę znów u si<ch a="C"/>ebie w domu.<ch a="D"/></row>
     </block>
     <block type="chorus">
-      <row important_over="true"> <ch a="G"/>Jeszcze chwila, jes<ch a="C"/>zcze dwie<ch a="G"/> </row>
-      <row important_over="false"><ch a="C"/>I znów stanę u <ch a="D"/>stóp raju</row>
-      <row important_over="false"><ch a="G"/>Przed Polańską gdzi<ch a="C"/>e we mgle <ch a="G"/> </row>
-      <row important_over="false"><ch a="a7"/>Gniade konie skubi<ch a="C"/>ą trawę <ch a="D"/> </row>
+      <row important_over="true"><ch a="G"/>Jeszcze chwila, jes<ch a="C"/>zcze dwi<ch a="G"/>e</row>
+      <row important_over="true">i <ch a="C"/>znów stanę u <ch a="D"/>stóp raju,</row>
+      <row important_over="true">prz<ch a="G"/>ed Polańską, gdzi<ch a="C"/>e we mgl<ch a="G"/>e</row>
+      <row important_over="true">gni<ch a="a7"/>ade konie skubi<ch a="C"/>ą trawę.<ch a="D"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Śpiew Łemków po dolinie<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Wiatr wędrownik niesie<ch a="C"/><ch a="D"/></row>
-      <row important_over="false">A z dzwonnicy się dobywa<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Bicie starych dzwonów<ch a="C"/><ch a="D"/></row>
-      <row important_over="false">We mgle jakby widać<ch a="h"/><ch a="C"/></row>
-      <row important_over="false">Pstrych chat białe kształty<ch a="h"/><ch a="C"/></row>
-      <row important_over="false">Tylko ludzie gdzieś zniknęli<ch a="a7"/><ch a="C"/></row>
-      <row important_over="false">Gdzieś odeszli stąd daleko <ch a="a7"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="false">Śpi<ch a="G"/>ew Łemków po doli<ch a="C"/>nie</row>
+      <row important_over="false">wi<ch a="C"/>atr wędrownik ni<ch a="D"/>esie,</row>
+      <row important_over="false">a <ch a="G"/>z dzwonnicy się dob<ch a="C"/>ywa</row>
+      <row important_over="false">bici<ch a="C"/>e starych dzwon<ch a="D"/>ów.</row>
+      <row important_over="false">W<ch a="h"/>e mgle jakby wid<ch a="C"/>ać</row>
+      <row important_over="false">pst<ch a="h"/>rych chat białe kszt<ch a="C"/>ałty,</row>
+      <row important_over="false">ty<ch a="a7"/>lko ludzie gdzieś zni<ch a="C"/>knęli,</row>
+      <row important_over="false">gdzi<ch a="a7"/>eś odeszli st<ch a="C"/>ąd daleko.<ch a="D"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Takie tu czasy, takie czasy<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">Że zegar jakby stanął w miejscu<ch a="C"/><ch a="D"/></row>
-      <row important_over="false">Ludzie życzliwi są i zawsze będą<ch a="G"/><ch a="C"/></row>
-      <row important_over="false">A domy malowane jakby pędzlem Boga<ch a="C"/><ch a="D"/></row>
-      <row important_over="false">A ponad wszystkim króluje Polańska<ch a="h"/><ch a="C"/></row>
-      <row important_over="false">Rozkołysana wśród morza mgieł<ch a="h"/><ch a="C"/></row>
-      <row important_over="false">Woła mnie dziś pieśnią ku sobie<ch a="a7"/><ch a="C"/></row>
-      <row important_over="false">Może odnajdę tu moje marzenia<ch a="a7"/><ch a="C"/><ch a="D"/></row>
+      <row important_over="false">T<ch a="G"/>akie tu czasy, takie cz<ch a="C"/>asy,</row>
+      <row important_over="false">ż<ch a="C"/>e zegar jakby stanął w mi<ch a="D"/>ejscu.</row>
+      <row important_over="false">L<ch a="G"/>udzie życzliwi są i z<ch a="C"/>awsze będą,</row>
+      <row important_over="false">a d<ch a="C"/>omy malowane jakby pędzlem B<ch a="D"/>oga.</row>
+      <row important_over="false">A p<ch a="h"/>onad wszystkim króluje Pol<ch a="C"/>ańska,</row>
+      <row important_over="false">r<ch a="h"/>ozkołysana wśród morza mg<ch a="C"/>ieł,</row>
+      <row important_over="false">w<ch a="a7"/>oła mnie dziś pieśnią ku s<ch a="C"/>obie —</row>
+      <row important_over="false">m<ch a="a7"/>oże odnajdę tu m<ch a="C"/>oje marzenia.<ch a="D"/></row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>http://dom.art.pl</verificator>
+      <verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/polanska</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
