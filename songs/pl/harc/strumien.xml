@@ -1,39 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Strumień">
+  <alias>Piosenka Bodzia</alias>
+  <text_author>Bogusław Adamek</text_author>
+  <composer>Bogusław Adamek</composer>
+  <artist>Piosenka harcerska</artist>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <lyric>
     <block type="verse">
-      <row important_over="never">Idę w góry w marzenia dalej i dalej <ch a="C"/><ch a="a"/><ch a="F"/><ch a="G"/></row>
-      <row important_over="never" sidechords="C a F G">Znajdę to co mi dane jeszcze odnaleźć</row>
-      <row important_over="never" sidechords="C a F G">Widzę ślady ogniska, drewno z szałasu</row>
-      <row important_over="never" sidechords="C a F G">Zapach zupy-śmietnika z resztek zapasów.</row>
+      <row important_over="true"><ch a="C"/>Idę w góry w ma<ch a="a"/>rzenia dalej i <ch a="F"/>dalej, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>znajdę to, co mi <ch a="a"/>dane jeszcze od<ch a="F"/>naleźć. <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Widzę ślady og<ch a="a"/>niska, drewno z sza<ch a="F"/>łasu, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>zapach zupy-śmiet<ch a="a"/>nika z resztek za<ch a="F"/>pasów. <ch a="G"/></row>
     </block>
     <block type="chorus">
-      <row important_over="never">Strumień cicho szumi w dole <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">I z drzewami gada <ch a="C"/><ch a="a"/></row>
-      <row important_over="never">Żeby czar tych dni powrócił <ch a="F"/><ch a="G"/></row>
-      <row important_over="never">Czy jest na to rada? <ch a="a"/></row>
-      <row important_over="never" sidechords="F G">Twarze już się rozpływają</row>
-      <row important_over="never" sidechords="C a">Jak na deszczu szyby</row>
-      <row important_over="never" sidechords="F G">Zima ziemią zawładnęła</row>
-      <row important_over="never" sidechords="a">Zakuła ją w dyby.</row>
+      <row important_over="true"><ch a="F"/>Strumień cicho szumi w dole <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>i z drzewami <ch a="a"/>gada,</row>
+      <row important_over="false"><ch a="F"/>żeby czar tych dni powrócił, <ch a="G"/></row>
+      <row important_over="true"><ch a="C"/>czy jest na to <ch a="a"/>rada?</row>
+      <row important_over="false"><ch a="F"/>Twarze już się rozpływają, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>jak na deszczu <ch a="a"/>szyby,</row>
+      <row important_over="false"><ch a="F"/>zima ziemią zawładnęła, <ch a="G"/></row>
+      <row important_over="true">zakuła ją w <ch a="a"/>dyby.</row>
     </block>
     <block type="verse">
-      <row important_over="never" sidechords="C a F G">Dobrze, dobrze się stało, że zima biała</row>
-      <row important_over="never" sidechords="C a F G">Wspomnień nie zamroziła, bo nie umiała</row>
-      <row important_over="never" sidechords="C a F G">Bo gdy w tym życiu ciężkie chwile nastaną</row>
-      <row important_over="never" sidechords="C a F G">Wszystko diabli gdzieś wezmą, one zostaną.</row>
+      <row important_over="false"><ch a="C"/>Dobrze, dobrze się <ch a="a"/>stało, że zima <ch a="F"/>biała <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>wspomnień nie zamro<ch a="a"/>ziła, bo nie u<ch a="F"/>miała, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>bo gdy w tym życiu <ch a="a"/>ciężkie chwile na<ch a="F"/>staną, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>wszystko diabli gdzieś <ch a="a"/>wezmą, one zo<ch a="F"/>staną. <ch a="G"/></row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never" sidechords="C a F G">Czy ty pamiętasz jeszcze ogniska płomień</row>
-      <row important_over="never" sidechords="C a F G">Czy wraca do twej pamięci dotyk mej dłoni</row>
-      <row important_over="never" sidechords="C a F G">Gdy wiatr gitary struny trąci leciutko</row>
-      <row important_over="never" sidechords="C a F G">Wraca, wspomnienie lata, ale na krótko.</row>
+      <row important_over="false"><ch a="C"/>Czy ty pamiętasz <ch a="a"/>jeszcze ogniska <ch a="F"/>płomień, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>czy wraca do twej pa<ch a="a"/>mięci dotyk mej <ch a="F"/>dłoni? <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>Gdy wiatr gitary <ch a="a"/>struny trąci le<ch a="F"/>ciutko, <ch a="G"/></row>
+      <row important_over="false"><ch a="C"/>wraca wspomnienie <ch a="a"/>lata, ale na <ch a="F"/>krótko. <ch a="G"/></row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
   <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/harcerskie/strumien</verificator>
+    </verificators>
   </status>
 </song>
