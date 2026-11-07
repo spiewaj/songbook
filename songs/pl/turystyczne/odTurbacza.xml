@@ -1,41 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Od Turbacza">
-  <composer type="solo">Andrzej Mróz</composer>
+  <alias>Od Turbacza wieje wiatr</alias>
+  <text_author>Andrzej Mróz</text_author>
+  <composer>Andrzej Mróz</composer>
   <artist type="solo">Andrzej Mróz</artist>
   <lyric>
-    <block type="chorus">
-      <row important_over="true">O<ch a="a"/>d Turbacza wieje wiatr, ni<ch a="E"/>esie nam tę wi<ch a="a"/>eść</row>
-      <row important_over="false">Ż<ch a="a"/>e tej nocy szczyty gór, p<ch a="E"/>okrył biały śni<ch a="a"/>eg.</row>
+    <block type="verse">
+      <row important_over="true"><ch a="a"/>Od Turbacza wieje wiatr, <ch a="E"/>niesie nam tę <ch a="a"/>wieść,</row>
+      <row important_over="false"><ch a="a"/>Że tej nocy szczyty gór, <ch a="E"/>pokrył biały <ch a="a"/>śnieg.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">A<ch a="C"/> w dolinach pi<ch a="d"/>ękna jesień</row>
-      <row important_over="true">Zł<ch a="a"/>ote liście l<ch a="E"/>ecą z drzew.</row>
-      <row important_over="false"><ch a="a"/>Od Turbacza wieje wiatr, ni<ch a="E"/>esie zimy wi<ch a="a"/>ew.</row>
+      <row important_over="true"><ch a="C"/>A w dolinach pi<ch a="d"/>ękna jesień,</row>
+      <row important_over="true"><ch a="a"/>Złote liście l<ch a="E"/>ecą z drzew.</row>
+      <row important_over="true"><ch a="a"/>Od Turbacza wieje wiatr, <ch a="E"/>niesie zimny <ch a="a"/>wiew.</row>
     </block>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
+      <row important_over="false" style="instr"><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/><ch a="a"/><ch a="d"/><ch a="E"/><ch a="a"/></row>
     </block>
     <block type="verse">
-      <row important_over="false">Z<ch a="a"/>ima białym płaszczem swym j<ch a="E"/>uż okryła T<ch a="a"/>atry.</row>
-      <row important_over="false">Mgł<ch a="a"/>a zabrała słońcu blask, wi<ch a="E"/>eją zimne wi<ch a="a"/>atry.</row>
+      <row important_over="false"><ch a="a"/>Zima białym płaszczem swym <ch a="E"/>już okryła <ch a="a"/>Tatry,</row>
+      <row important_over="false"><ch a="a"/>Mgła zabrała słońcu blask, <ch a="E"/>wieją zimne <ch a="a"/>wiatry.</row>
     </block>
     <blocklink blocknb="2"/>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false"> H<ch a="a"/>ej dziewczyno nie smuć się w t<ch a="E"/>en jesienny cz<ch a="a"/>as</row>
-      <row important_over="false">Ch<ch a="a"/>ociaż raz uśmiechnij się, prz<ch a="E"/>ywróć oczom bl<ch a="a"/>ask.</row>
+      <row important_over="false"><ch a="a"/>Hej, dziewczyno, nie smuć się <ch a="E"/>w ten jesienny <ch a="a"/>czas,</row>
+      <row important_over="false"><ch a="a"/>Chociaż raz uśmiechnij się, <ch a="E"/>przywróć oczom <ch a="a"/>blask.</row>
     </block>
     <block type="chorus">
-      <row important_over="false">T<ch a="C"/>o nic, że na szcz<ch a="d"/>ytach zima</row>
-      <row important_over="false"><ch a="a"/>A w dolinach j<ch a="E"/>esień już.</row>
-      <row important_over="false"><ch a="a"/>Uśmiech twój odmieni wszystko, wi<ch a="E"/>osna sercom wróci zn<ch a="a"/>ów.</row>
+      <row important_over="false"><ch a="C"/>To nic, że na szcz<ch a="d"/>ytach zima,</row>
+      <row important_over="false"><ch a="a"/>A w dolinach <ch a="E"/>jesień już,</row>
+      <row important_over="false"><ch a="a"/>Uśmiech twój odmieni wszystko, <ch a="E"/>wiosnę sercom wróci <ch a="a"/>znów.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
-  <keywords/>
   <genre>Piosenka turystyczna górska</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/andrzej-mroz/od-turbacza</verificator>
+    </verificators>
   </status>
 </song>
