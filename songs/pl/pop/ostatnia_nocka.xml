@@ -29,14 +29,14 @@
       <row important_over="false"><ch a="a"/>Nie mogę <ch a="C"/>leżeć, <ch a="G"/>a nie mogę <ch a="C"/>spać</row>
       <row important_over="false"><ch a="F"/>Gad po be<ch a="F7"/>tonce <ch a="E"/>kamaszami <ch a="E7"/>stuka.</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="verse">
       <row important_over="false"><ch a="a"/>Boli mnie <ch a="C"/>głowa <ch a="G"/>i nie mogę <ch a="C"/>spać</row>
       <row important_over="false"><ch a="F"/>Chociaż do<ch a="F7"/>koła <ch a="E"/>wszyscy już pos<ch a="E7"/>nęli</row>
       <row important_over="false"><ch a="a"/>Nie mogę <ch a="C"/>leżeć, <ch a="G"/>a nie mogę <ch a="C"/>wstać</row>
       <row important_over="false"><ch a="F"/>Parę lat <ch a="F7"/>życia <ch a="E"/>darmo diabli <ch a="E7"/>wzięli.</row>
     </block>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="other">
       <row important_over="false" style="instr"><ch a="a"/> <ch a="C"/> <ch a="G"/> <ch a="C"/></row>
       <row important_over="false" style="instr"><ch a="F"/> <ch a="F7"/> <ch a="E"/> <ch a="E7"/></row>
@@ -49,8 +49,7 @@
       <row important_over="false"><ch a="a"/>Nie wiem, <ch a="C"/>czy <ch a="G"/>będziesz <ch a="C"/>tam</row>
       <row important_over="false"><ch a="F"/>Nie ma zna<ch a="F7"/>czenia, <ch a="E"/>wychodzę z wię<ch a="E7"/>zienia.</row>
     </block>
-    <blocklink blocknb="2"/>
-    <blocklink blocknb="2"/>
+    <blocklink blocknb="3"/>
     <block type="other">
       <bis times="4">
         <row important_over="false"><ch a="a"/>Wierzę <ch a="C"/>jej, czy <ch a="G"/>nie wie<ch a="C"/>rzę. <ch a="F"/><ch a="F7"/><ch a="E"/><ch a="E7"/></row>
