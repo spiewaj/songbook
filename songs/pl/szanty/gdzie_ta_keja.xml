@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Gdzie ta keja">
-  <text_author type="solo">Jerzy Porębski</text_author>
-  <comment/>
-  <composer type="solo">Jerzy Porębski</composer>
+  <text_author>Jerzy Porębski</text_author>
+  <composer>Jerzy Porębski</composer>
   <artist type="solo">Jerzy Porębski</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">Gdyby <ch a="a"/>tak ktoś przyszedł i powiedział: &quot;<ch a="G"/>Stary czy masz <ch a="a"/>czas?</row>
+      <row important_over="true">Gdyby <ch a="a"/>tak ktoś przyszedł i powiedział: „<ch a="G"/>Stary, czy masz <ch a="a"/>czas?</row>
       <row important_over="true">Potrze<ch a="C"/>buję do załogi <ch a="G7"/>jakąś nową <ch a="C"/>twarz,</row>
-      <row important_over="true">Ama<ch a="g"/>zonka Wielka <ch a="A7"/>Rafa, <ch a="d"/>Oce<ch a="A7"/>any <ch a="d"/>trzy,</row>
-      <row important_over="false">Rejs na <ch a="a"/>całość, rok, dwa lata&quot; - <ch a="G"/>to powiedział <ch a="a"/>bym:</row>
+      <row important_over="true">Ama<ch a="g"/>zonka, Wielka <ch a="A7"/>Rafa, <ch a="d"/>Oce<ch a="A7"/>any <ch a="d"/>trzy,</row>
+      <row important_over="false">Rejs na <ch a="a"/>całość, rok, dwa lata” – <ch a="G"/>to powiedział<ch a="a"/>bym:</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
+      <row important_over="true">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
       <row important_over="true">Gdzie ta <ch a="C"/>koja <ch a="G7"/>wymarzona w <ch a="C"/>snach? <ch a="C7"/></row>
-      <row important_over="false">Gdzie te <ch a="g"/>wszystkie <ch a="A7"/>sznurki <ch a="d"/>od <ch a="A7"/>tych <ch a="d"/>szmat?</row>
+      <row important_over="true">Gdzie te <ch a="g"/>wszystkie <ch a="A7"/>sznurki <ch a="d"/>od <ch a="A7"/>tych <ch a="d"/>szmat?</row>
       <row important_over="false">Gdzie ta <ch a="a"/>brama <ch a="G"/>na szeroki ś<ch a="a"/>wiat?</row>
       <row important_over="false">Gdzie ta <ch a="a"/>keja, a <ch a="G"/>przy niej ten <ch a="a"/>jacht?</row>
-      <row important_over="false">Gdzie ta <ch a="C"/>koja, <ch a="G7"/>wymarzona w <ch a="C"/>snach?<ch a="C7"/></row>
+      <row important_over="false">Gdzie ta <ch a="C"/>koja, <ch a="G7"/>wymarzona w <ch a="C"/>snach? <ch a="C7"/></row>
       <row important_over="false">W każdej <ch a="g"/>chwili <ch a="A7"/>płynę w <ch a="d"/>ta<ch a="A7"/>ki <ch a="d"/>rejs,</row>
-      <row important_over="false">Tylko <ch a="a"/>gdzie to jest?<ch a="G"/> No gdzie to<ch a="a"/> jest?</row>
+      <row important_over="false">Tylko <ch a="a"/>gdzie to jest? <ch a="G"/>No gdzie to<ch a="a"/> jest?</row>
     </block>
     <block type="verse">
       <row important_over="false">Gdzieś na <ch a="a"/>dnie wielkiej szafy <ch a="G"/>leży ostry <ch a="a"/>nóż,</row>
@@ -30,15 +29,22 @@
     <blocklink blocknb="2"/>
     <block type="verse">
       <row important_over="false">Przeszły <ch a="a"/>lata zapyziałe, <ch a="G"/>rzęsą porósł <ch a="a"/>staw,</row>
-      <row important_over="false">Na przys<ch a="C"/>tani czółno stało - <ch a="G7"/>kolorowy <ch a="C"/>paw.</row>
+      <row important_over="false">Na przys<ch a="C"/>tani czółno stało – <ch a="G7"/>kolorowy <ch a="C"/>paw.</row>
       <row important_over="false">Zaokrąg<ch a="g"/>liły się ma<ch a="A7"/>rzenia, <ch a="d"/>wyja<ch a="A7"/>łowiał <ch a="d"/>step,</row>
       <row important_over="false">Lecz <ch a="a"/>ciągle marzy o załodze <ch a="G"/>ten samotny <ch a="a"/>łeb.</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
+  <genre>Szanta</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords/>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Gdzie_ta_keja</verificator>
+      <verificator>https://spiewnik.wywrota.pl/jerzy-porebski/gdzie-ta-keja</verificator>
+    </verificators>
   </status>
 </song>
