@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Broadway">
 	<alias/>
 	<text_author type="solo">Krzysztof Daukszewicz</text_author>
-	<comment>W śpiewniku autorskim Daukszewicza występują drobne różnice w zapisie refrenów i akordów; wersja dostosowana do wykonań estradowych.</comment>
+	<comment>W śpiewniku autorskim Daukszewicza występują inne chwyty (niezgodne między zapisem nad tekstem a zapisem nad nutami) oraz drobne różnice w początkach refrenów (np. „Cały Broadway”, „Ach ten Broadway”); tutaj zachowano tradycyjną wersję śpiewnikową i estradową.</comment>
 	<composer type="solo">Krzysztof Daukszewicz</composer>
 	<artist type="solo">Krzysztof Daukszewicz</artist>
 	<translator/>
@@ -11,45 +11,45 @@
 		<block type="verse">
 			<row important_over="true">Po ul<ch a="e"/>icy przetaczał się bajecznie barwny tłum,</row>
 			<row important_over="true">migo<ch a="C"/>tała reklama jakiejś wody „Silver Moon”,</row>
-			<row>i drap<ch a="a"/>acze drapały wierzchołkami brzuchy chmur,</row>
-			<row>kiedy d<ch a="e"/>ołem przejeżdżał gigantyczny wozów sznur.</row>
+			<row important_over="false">i drap<ch a="a"/>acze drapały wierzchołkami brzuchy chmur,</row>
+			<row important_over="false">kiedy d<ch a="e"/>ołem przejeżdżał gigantyczny wozów sznur.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Taki Br<ch a="H7"/>oadway, to Broadway z kolorowych, pięknych kart,</row>
 			<row important_over="true">taki Br<ch a="C"/>oadway, to Broadway, którym się zachwyca świ<ch a="e"/>at.</row>
 		</block>
 		<block type="verse">
-			<row>A na ro<ch a="e"/>gu ulicy – może być czterdzieści dwa –</row>
-			<row>stary M<ch a="C"/>urzyn wirtuoz na gitarze bluesa grał.</row>
-			<row>Tak nami<ch a="a"/>ętnie, jak tylko czarny umie bluesa grać,</row>
-			<row>całe s<ch a="e"/>erce w to włożył, żeby innym ludziom dać.</row>
+			<row important_over="false">A na ro<ch a="e"/>gu ulicy – może być czterdzieści dwa –</row>
+			<row important_over="false">stary M<ch a="C"/>urzyn wirtuoz na gitarze bluesa grał.</row>
+			<row important_over="false">Tak nami<ch a="a"/>ętnie, jak tylko czarny umie bluesa grać,</row>
+			<row important_over="false">całe s<ch a="e"/>erce w to włożył, żeby innym ludziom dać.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Taki Br<ch a="H7"/>oadway, ten Broadway z kolorowych, pięknych kart,</row>
 			<row important_over="true">taki Br<ch a="C"/>oadway, ten Broadway, którym się zachwyca świ<ch a="e"/>at.</row>
 		</block>
 		<block type="verse">
-			<row>Czasem kt<ch a="e"/>oś się zatrzymał i na życie quartera dał,</row>
-			<row>czasem sł<ch a="C"/>yszał, jak mówią, że ten czarny dobrze gra.</row>
-			<row>Wtedy r<ch a="a"/>uszał do baru, bo już nie mógł tego znieść,</row>
-			<row>że nie cz<ch a="e"/>ują przechodnie, jaka w bluesach drzemie treść.</row>
+			<row important_over="false">Czasem kt<ch a="e"/>oś się zatrzymał i na życie quartera dał,</row>
+			<row important_over="false">czasem sł<ch a="C"/>yszał, jak mówią, że ten czarny dobrze gra.</row>
+			<row important_over="false">Wtedy r<ch a="a"/>uszał do baru, bo już nie mógł tego znieść,</row>
+			<row important_over="false">że nie cz<ch a="e"/>ują przechodnie, jaka w bluesach drzemie treść.</row>
 		</block>
 		<blocklink blocknb="4"/>
 		<block type="verse">
-			<row>Aż któr<ch a="e"/>egoś popołudnia, kiedy grał za marny grosz,</row>
-			<row>stanął prz<ch a="C"/>y nim z gitarą niepozorny biały gość.</row>
-			<row>I choć n<ch a="a"/>a tej gitarze prawie jak amator grał,</row>
-			<row>to wyśpi<ch a="e"/>ewał genialnie to, co czarny w sercu miał.</row>
+			<row important_over="false">Aż któr<ch a="e"/>egoś popołudnia, kiedy grał za marny grosz,</row>
+			<row important_over="false">stanął prz<ch a="C"/>y nim z gitarą niepozorny biały gość.</row>
+			<row important_over="false">I choć n<ch a="a"/>a tej gitarze prawie jak amator grał,</row>
+			<row important_over="false">to wyśpi<ch a="e"/>ewał genialnie to, co czarny w sercu miał.</row>
 		</block>
 		<blocklink blocknb="4"/>
 		<block type="other">
-			<row style="instr"><ch a="e"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="C"/><ch a="e"/></row>
+			<row important_over="false" style="instr"><ch a="e"/><ch a="C"/><ch a="a"/><ch a="e"/><ch a="H7"/><ch a="C"/><ch a="e"/></row>
 		</block>
 		<block type="verse">
-			<row>A gdy sk<ch a="e"/>ończył się koncert, stary Murzyn go zaprosił</row>
-			<row>na kol<ch a="C"/>ejne popołudnie i te bluesy na dwa głosy.</row>
-			<row>Potem sp<ch a="a"/>ytał go jeszcze: „Skąd znasz me niedole?”.</row>
-			<row>I usł<ch a="e"/>yszał odpowiedź: „Bracie, I'm from Poland”.</row>
+			<row important_over="false">A gdy sk<ch a="e"/>ończył się koncert, stary Murzyn go zaprosił</row>
+			<row important_over="false">na kol<ch a="C"/>ejne popołudnie i te bluesy na dwa głosy.</row>
+			<row important_over="false">Potem sp<ch a="a"/>ytał go jeszcze: „Skąd znasz me niedole?”.</row>
+			<row important_over="false">I usł<ch a="e"/>yszał odpowiedź: „Bracie, I'm from Poland”.</row>
 		</block>
 		<blocklink blocknb="4"/>
 	</lyric>
@@ -67,10 +67,9 @@
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
-			<verificator>Adam: korekta tekstu do śpiewania</verificator>
-			<verificator>Alek: sprawdzenie wariantów refrenów</verificator>
+			<verificator>Adam</verificator>
+			<verificator>Alek</verificator>
 			<verificator>Krzysiek</verificator>
-			<verificator>Krzysztof Daukszewicz (słowa i muzyka), album "Bieda" (1990)</verificator>
 			<verificator>https://spiewnik.wywrota.pl/daukszewicz-krzysztof/broadway</verificator>
 		</verificators>
 	</status>
