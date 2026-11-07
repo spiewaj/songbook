@@ -1,53 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Epitafium dla Leonarda">
-  <alias>Jestem taki samotny</alias>
+  <alias>Preludium dla Leonarda</alias>
+  <text_author type="solo">Aleksandra Bacińska</text_author>
   <comment/>
+  <composer type="solo">Leonard Luther</composer>
+  <artist type="solo">Leonard Luther</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true">Na par<ch a="D"/>terze w mojej chacie</row>
-      <row important_over="true">mieszkał <ch a="G"/>kiedyś taki <ch a="D"/>facet</row>
-      <row important_over="true">który <ch a="C"/>dnia pewnego <ch a="G"/>cicho do mnie <ch a="D"/>rzekł</row>
-      <row important_over="true">Gdy zach<ch a="C"/>wycisz się dziew<ch a="G"/>czyną</row>
-      <row important_over="true">nie pod<ch a="D"/>rywaj jej na <ch a="A"/>kino</row>
-      <row important_over="false">ale <ch a="C"/>patrząc prosto w <ch a="G"/>oczy szepnij <ch a="D"/>słowa te</row>
+      <row important_over="true">Na part<ch a="D"/>erze w mojej chacie</row>
+      <row important_over="true">mieszkał <ch a="G"/>kiedyś taki f<ch a="D"/>acet,</row>
+      <row important_over="true">który <ch a="C"/>dnia pewnego <ch a="G"/>cicho do mnie rz<ch a="D"/>ekł:</row>
+      <row important_over="true">„Gdy zachw<ch a="C"/>ycisz się dziewcz<ch a="G"/>yną,</row>
+      <row important_over="true">nie podr<ch a="D"/>ywaj jej na k<ch a="A"/>ino,</row>
+      <row important_over="false">ale <ch a="C"/>patrząc prosto w <ch a="G"/>oczy szepnij sł<ch a="D"/>owa te:</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Jestem <ch a="h"/>taki <ch a="G"/>samotny jak <ch a="D"/>palec albo <ch a="A"/>pies</row>
-      <row important_over="true">kocham <ch a="C"/>wiersze Sta<ch a="G"/>chury i <ch a="D"/>stary dobry <ch a="D"/>jazz</row>
-      <row important_over="true">szczęścia w <ch a="h"/>życiu nie <ch a="G"/>miałem</row>
-      <row important_over="false">rzu<ch a="D"/>cały mnie dziew<ch a="A"/>czyny</row>
-      <row important_over="false">szukam ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt mój za<ch a="D"/>winie</row>
+      <row important_over="true">Jestem t<ch a="h"/>aki sam<ch a="G"/>otny jak p<ch a="D"/>alec albo pi<ch a="A"/>es,</row>
+      <row important_over="true">kocham wi<ch a="C"/>ersze Stach<ch a="G"/>ury i st<ch a="D"/>ary d<ch a="A"/>obry j<ch a="D"/>azz,</row>
+      <row important_over="true">szczęścia w ż<ch a="h"/>yciu nie mi<ch a="G"/>ałem,</row>
+      <row important_over="true">rzuc<ch a="D"/>ały mnie dziewcz<ch a="A"/>yny,</row>
+      <row important_over="true">szukam c<ch a="C"/>ichego portu, gdzie <ch a="G"/>okręt mój zaw<ch a="D"/>inie”.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Po tych <ch a="D"/>słowach z miłosierdzia</row>
-      <row important_over="false">padła <ch a="G"/>już niejedna <ch a="D"/>twierdza</row>
-      <row important_over="false">i nie<ch a="C"/>jedna cnota <ch a="G"/>chyżo poszła w <ch a="D"/>las</row>
-      <row important_over="false">Ryba <ch a="C"/>bierze na roba<ch a="G"/>ki</row>
-      <row important_over="false">a pa<ch a="D"/>nienka na tekst ta<ch a="A"/>ki</row>
-      <row important_over="false">który <ch a="C"/>zawsze szeptam <ch a="G"/>patrząc prosto w <ch a="D"/>twarz</row>
+      <row important_over="false">Po tych sł<ch a="D"/>owach z miłosierdzia</row>
+      <row important_over="false">padła <ch a="G"/>już niejedna twi<ch a="D"/>erdza</row>
+      <row important_over="false">i nie<ch a="C"/>jedna cnota ch<ch a="G"/>yżo poszła w l<ch a="D"/>as.</row>
+      <row important_over="false">Ryba bi<ch a="C"/>erze na rob<ch a="G"/>aki,</row>
+      <row important_over="false">a pan<ch a="D"/>ienka na tekst t<ch a="A"/>aki,</row>
+      <row important_over="false">który z<ch a="C"/>awsze szeptam p<ch a="G"/>atrząc prosto w tw<ch a="D"/>arz.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Gdy <ch a="D"/>szał pierwszych zrywów minął</row>
-      <row important_over="false">zako<ch a="G"/>chałem się w dziew<ch a="D"/>czynie</row>
-      <row important_over="false">z którą <ch a="C"/>się na całe <ch a="G"/>życie zostać <ch a="D"/>chce</row>
-      <row important_over="false">Chciałem <ch a="C"/>rzec będziemy <ch a="G"/>razem</row>
-      <row important_over="false">zrozu<ch a="D"/>miała to od <ch a="A"/>razu</row>
-      <row important_over="false">i jak <ch a="C"/>echo wyszep<ch a="G"/>tała słowa <ch a="D"/>te</row>
+      <row important_over="false">Gdy sz<ch a="D"/>ał pierwszych zrywów minął,</row>
+      <row important_over="false">zako<ch a="G"/>chałem się w dziewcz<ch a="D"/>ynie,</row>
+      <row important_over="false">z którą <ch a="C"/>się na całe ż<ch a="G"/>ycie zostać chc<ch a="D"/>e.</row>
+      <row important_over="false">Chciałem rz<ch a="C"/>ec: „Będziemy r<ch a="G"/>azem”,</row>
+      <row important_over="false">zrozum<ch a="D"/>iała to od r<ch a="A"/>azu</row>
+      <row important_over="false">i jak <ch a="C"/>echo wyszept<ch a="G"/>ała słowa t<ch a="D"/>e:</row>
     </block>
     <block type="chorus">
-      <row important_over="false">Jesteś <ch a="h"/>taki <ch a="G"/>samotny jak <ch a="D"/>palec albo <ch a="A"/>pies</row>
-      <row important_over="false">kochasz <ch a="C"/>wiersze Sta<ch a="G"/>chury i <ch a="D"/>stary dobry <ch a="D"/>jazz</row>
-      <row important_over="false">szczęścia w <ch a="h"/>życiu nie <ch a="G"/>miałeś</row>
-      <row important_over="false">rzu<ch a="D"/>cały cię dziew<ch a="A"/>czyny</row>
-      <row important_over="false">szukasz ci<ch a="C"/>chego portu gdzie <ch a="G"/>okręt twój za<ch a="D"/>winie</row>
+      <row important_over="false">Jesteś t<ch a="h"/>aki sam<ch a="G"/>otny jak p<ch a="D"/>alec albo pi<ch a="A"/>es,</row>
+      <row important_over="false">kochasz wi<ch a="C"/>ersze Stach<ch a="G"/>ury i st<ch a="D"/>ary d<ch a="A"/>obry j<ch a="D"/>azz,</row>
+      <row important_over="false">szczęścia w ż<ch a="h"/>yciu nie mi<ch a="G"/>ałeś,</row>
+      <row important_over="false">rzuc<ch a="D"/>ały cię dziewcz<ch a="A"/>yny,</row>
+      <row important_over="false">szukasz c<ch a="C"/>ichego portu, gdzie <ch a="G"/>okręt twój zaw<ch a="D"/>inie...</row>
     </block>
     <blocklink blocknb="2"/>
   </lyric>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
   <keywords/>
-  <genre>Piosenka harcerska</genre>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <authors/>
+      <chords>chord positioning</chords>
+      <text/>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/leonard-luther/preludium-dla-leonarda</verificator>
+    </verificators>
   </status>
 </song>
