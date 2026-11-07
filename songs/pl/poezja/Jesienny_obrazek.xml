@@ -53,10 +53,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Alek</verificator>
-			<verificator>Maciej Służała (słowa i muzyka)</verificator>
-			<verificator>Śpiewnik turystyczny</verificator>
-		</verificators>
+      <verificator>Alek</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
