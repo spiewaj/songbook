@@ -73,9 +73,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 		<to_do></to_do>
 	</status>
 	<music_source></music_source>
