@@ -31,11 +31,15 @@
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Tonam &amp; Synowie</album>
 	<genre>Szanta</genre>
 	<status>
 		<done>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 			<text/>
 		</done>
 		<verificators>
