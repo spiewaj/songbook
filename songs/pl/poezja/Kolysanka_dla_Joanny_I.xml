@@ -48,9 +48,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysiek Cz. - zgodnie ze śpiewnikiem</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Krzysiek Cz. - zgodnie ze śpiewnikiem</verificator>
+    </verificators>
 		<to_do></to_do>
 	</status>
 	<music_source></music_source>
