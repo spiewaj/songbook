@@ -1,58 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Teksański">
 	<artist type="band">Hey</artist>
-	<lyric xmlns="http://21wdh.staszic.waw.pl">
+	<lyric>
 		<block type="verse">
-			<row important_over="true"><ch a="D"/>Herbata stygn<ch a="G"/>ie zapa<ch a="A"/>da mrok</row>
-			<row important_over="false">A p<ch a="D"/>od piór<ch a="G"/>em ciąg<ch a="A"/>le nic</row>
-			<row important_over="false">Obowiązek obowiązkiem jest<ch a="D"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="false">Piosenka musi posiadać tekst<ch a="D"/><ch a="G"/><ch a="A"/></row>
-		</block>
-		<block type="verse">
-			<row important_over="false">Gdyby chociaż mucha zjawiła się<ch a="D"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="false">Mogłabym ją zabić<ch a="D"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="false">a później to opisać<ch a="D"/><ch a="G"/><ch a="A"/></row>
+			<row important_over="true"><ch a="D"/>Herbata styg<ch a="G"/>nie, zapa<ch a="A"/>da mrok,</row>
+			<row important_over="false">a <ch a="D"/>pod pió<ch a="G"/>rem ciąg<ch a="A"/>le nic.</row>
+			<row important_over="false">Obo<ch a="D"/>wiązek obo<ch a="G"/>wiązkiem <ch a="A"/>jest:</row>
+			<row important_over="false">pio<ch a="D"/>senka musi po<ch a="G"/>siadać <ch a="A"/>tekst.</row>
+			<row important_over="true">Gdyby <ch a="G"/>chociaż mucha zja<ch a="A"/>wiła <ch a="D"/>się,</row>
+			<row important_over="false">mo<ch a="G"/>głabym ją <ch a="A"/>za<ch a="D"/>bić,</row>
+			<row important_over="false">a <ch a="G"/>później to o<ch a="A"/>pi<ch a="D"/>sać.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="true">W moich słowach słoma czai się<ch a="G"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Nie znaczą nic<ch a="G"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Jeśli szukasz sensu prawdy w nich<ch a="G"/><ch a="A"/><ch a="D"/></row>
-			<row important_over="false">Zawiedziesz się<ch a="G"/><ch a="A"/><ch a="D"/></row>
+			<row important_over="true">W moich <ch a="G"/>słowach słoma <ch a="A"/>czai <ch a="D"/>się,</row>
+			<row important_over="false">nie <ch a="G"/>znaczą <ch a="A"/>n<ch a="D"/>ic.</row>
+			<row important_over="false">Jeśli <ch a="G"/>szukasz sensu, <ch a="A"/>prawdy w <ch a="D"/>nich –</row>
+			<row important_over="false">za<ch a="G"/>wiedziesz <ch a="A"/>si<ch a="D"/>ę.</row>
 		</block>
 		<block type="verse">
-			<row important_over="false">A może zmienić zasady gry<ch a="D"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="false">Chcesz usłyszeć słowa<ch a="D"/><ch a="G"/><ch a="A"/></row>
-			<row important_over="false">To sam je sobie wymyśl<ch a="D"/><ch a="G"/><ch a="A"/></row>
+			<row important_over="false">A może zmienić za<ch a="G"/>sady <ch a="A"/>gry?<ch a="D"/></row>
+			<row important_over="false">Chcesz usłyszeć <ch a="G"/>słowa,<ch a="A"/><ch a="D"/></row>
+			<row important_over="false">to sam je sobie wy<ch a="G"/>myśl!<ch a="A"/><ch a="D"/></row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row important_over="false">Nabij diabła chmurę śmierci weź<ch a="D"/><ch a="G"/><ch a="A"/></row>
-				<row important_over="false">Pomoże Ci<ch a="D"/><ch a="G"/><ch a="A"/></row>
-				<row important_over="false">Wnet Twe myśli w słowa zmienią się<ch a="D"/><ch a="G"/><ch a="A"/></row>
-				<row important_over="false">Wyśpiewasz je sam<ch a="D"/><ch a="G"/><ch a="A"/></row>
+				<row important_over="false">Nabij <ch a="G"/>diabła, chmurę <ch a="A"/>śmierci <ch a="D"/>weź –</row>
+				<row important_over="false">po<ch a="G"/>może <ch a="A"/>ci.<ch a="D"/></row>
+				<row important_over="false">Wnet twe myśli w <ch a="G"/>słowa zmie<ch a="A"/>nią się,<ch a="D"/></row>
+				<row important_over="false">wy<ch a="G"/>śpiewasz <ch a="A"/>je <ch a="D"/>sam.</row>
 			</bis>
 		</block>
 	</lyric>
-	<music>
+	<music metre="4/4">
 		<guitar/>
 	</music>
+	<album>Fire</album>
+	<genre>rock</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
+			<verificator>https://spiewnik.wywrota.pl/chwyty-gitarowe/hey-teksanski</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Teksanski</verificator>
 		</verificators>
 		<done>
 			<text/>
+			<authors/>
+			<chords>chords</chords>
 		</done>
-		<to_do></to_do>
 	</status>
-	<keywords/>
-	<alias></alias>
-	<text_author type="solo">Kasia Nosowska</text_author>
+	<text_author type="solo">Katarzyna Nosowska</text_author>
 	<composer type="solo">Piotr Banach</composer>
-	<music_source></music_source>
-	<original_title></original_title>
-	<translator></translator>
-	<album></album>
-	<genre></genre>
-	<comment></comment>
 </song>
