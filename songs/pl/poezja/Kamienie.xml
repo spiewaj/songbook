@@ -2,7 +2,7 @@
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W kamień zaklęci">
 	<alias>Kamienie</alias>
 	<text_author type="solo">Marek Dutkiewicz</text_author>
-	<comment>Piosenka zespołu 2 plus 1 z debiutanckiego albumu „Nowy wspaniały świat” (1972). W śpiewnikach turystycznych często występuje pod tytułem „Kamienie”.</comment>
+	<comment>Piosenka zespołu 2 plus 1 z debiutanckiego albumu „Nowy wspaniały świat” (1972). W śpiewnikach turystycznych często występuje pod tytułem „Kamienie”. Można też grać z kapodastrem na III progu (wówczas chwyty: a C / d E, stąd dawne barre=3).</comment>
 	<composer type="solo">Andrzej Korzyński</composer>
 	<artist type="band">2 plus 1</artist>
 	<translator/>
@@ -49,7 +49,7 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Paweł Budzyński</verificator>
+			<verificator>https://spiewnik.wywrota.pl/2-plus-1/w-kamien-zakleci</verificator>
 		</verificators>
 		<to_do/>
 	</status>
