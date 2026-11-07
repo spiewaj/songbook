@@ -27,29 +27,29 @@
 			<row important_over="true"><ch a="F"/>Tyle lat się tym <ch a="G"/>światem zachwy<ch a="a"/>casz.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="a"/>Na twój powrót upi<ch a="G"/>ekłam świeży <ch a="a"/>bochen,</row>
-			<row><ch a="a"/>Ciepły sweter zro<ch a="G"/>biłam na <ch a="a"/>drutach,</row>
-			<row><ch a="C"/>Rozpaliłam na ko<ch a="G"/>minku jasny <ch a="a"/>płomień,</row>
-			<row><ch a="C"/>Jeszcze dzisiaj powi<ch a="G"/>nieneś przecież <ch a="a"/>wrócić.</row>
+			<row important_over="false"><ch a="a"/>Na twój powrót upi<ch a="G"/>ekłam świeży <ch a="a"/>bochen,</row>
+			<row important_over="false"><ch a="a"/>Ciepły sweter zro<ch a="G"/>biłam na <ch a="a"/>drutach,</row>
+			<row important_over="false"><ch a="C"/>Rozpaliłam na ko<ch a="G"/>minku jasny <ch a="a"/>płomień,</row>
+			<row important_over="false"><ch a="C"/>Jeszcze dzisiaj powi<ch a="G"/>nieneś przecież <ch a="a"/>wrócić.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="C"/>Znowuż wiatr odpro<ch a="G"/>wadza mnie w do<ch a="a"/>liny,</row>
-			<row><ch a="C"/>Słońce żegna, odbi<ch a="G"/>jając się w stru<ch a="a"/>mieniu,</row>
-			<row><ch a="C"/>Stare drzewa pochy<ch a="G"/>lają swe ko<ch a="a"/>rony,</row>
-			<row><ch a="C"/>Jeszcze chwilę odpo<ch a="G"/>czną na ka<ch a="a"/>mieniu.</row>
+			<row important_over="false"><ch a="C"/>Znowuż wiatr odpro<ch a="G"/>wadza mnie w do<ch a="a"/>liny,</row>
+			<row important_over="false"><ch a="C"/>Słońce żegna, odbi<ch a="G"/>jając się w stru<ch a="a"/>mieniu,</row>
+			<row important_over="false"><ch a="C"/>Stare drzewa pochy<ch a="G"/>lają swe ko<ch a="a"/>rony,</row>
+			<row important_over="false"><ch a="C"/>Jeszcze chwilę odpo<ch a="G"/>czną na ka<ch a="a"/>mieniu.</row>
 		</block>
 		<blocklink blocknb="3"/>
 		<block type="verse">
-			<row><ch a="a"/>Na twój powrót cieszę <ch a="G"/>się już od ty<ch a="a"/>godnia,</row>
-			<row><ch a="a"/>Pojaśniało z tej ra<ch a="G"/>dości w całej <ch a="a"/>izbie,</row>
-			<row><ch a="C"/>Pachnie kawa, słońce <ch a="G"/>skrzy się w starym <ch a="a"/>lustrze,</row>
-			<row><ch a="C"/>Idzie ktoś, <ch a="G"/>serce mocniej <ch a="a"/>bije.</row>
+			<row important_over="false"><ch a="a"/>Na twój powrót cieszę <ch a="G"/>się już od ty<ch a="a"/>godnia,</row>
+			<row important_over="false"><ch a="a"/>Pojaśniało z tej ra<ch a="G"/>dości w całej <ch a="a"/>izbie,</row>
+			<row important_over="false"><ch a="C"/>Pachnie kawa, słońce <ch a="G"/>skrzy się w starym <ch a="a"/>lustrze,</row>
+			<row important_over="false"><ch a="C"/>Idzie ktoś, <ch a="G"/>serce mocniej <ch a="a"/>bije.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="C"/>Koniec lasu, widać <ch a="G"/>dach starego <ch a="a"/>domu,</row>
-			<row><ch a="C"/>Domu, w którym tyle <ch a="G"/>już się wyda<ch a="a"/>rzyło,</row>
-			<row><ch a="C"/>Wracam tu do <ch a="G"/>ciebie, jak co <ch a="a"/>roku,</row>
-			<row><ch a="C"/>Może z wiosną <ch a="G"/>razem wyru<ch a="a"/>szymy.</row>
+			<row important_over="false"><ch a="C"/>Koniec lasu, widać <ch a="G"/>dach starego <ch a="a"/>domu,</row>
+			<row important_over="false"><ch a="C"/>Domu, w którym tyle <ch a="G"/>już się wyda<ch a="a"/>rzyło,</row>
+			<row important_over="false"><ch a="C"/>Wracam tu do <ch a="G"/>ciebie, jak co <ch a="a"/>roku,</row>
+			<row important_over="false"><ch a="C"/>Może z wiosną <ch a="G"/>razem wyru<ch a="a"/>szymy.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
@@ -62,11 +62,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
