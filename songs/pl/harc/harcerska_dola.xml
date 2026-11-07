@@ -43,8 +43,8 @@
 	<genre>Piosenka harcerska</genre>
 	<status>
 		<verificators>
-			<verificator>PT</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Harcerska_dola/tekst</verificator>
+    </verificators>
 		<to_do/>
 		<done>
 			<text/>
