@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Piosenka mazowiecka" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
+	<alias>A jeżeli wiosną przejdę nad głębinę</alias>
 	<text_author type="solo">Iwona Piastowska</text_author>
 	<comment></comment>
 	<composer type="solo">Iwona Piastowska</composer>
@@ -9,44 +9,47 @@
 	<original_title></original_title>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
-			<row important_over="never">A jeżeli wiosną przejdę nad głębinę<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">A bodaj się wszyscy uśmieli, pewnie gdzieś popłynę<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">Między wierzby krzywe, co się słońcem mienią<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Albo wyspy wikliny szumiące zielenią.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="true"><ch a="D"/>A jeżeli wiosną <ch a="A"/>przejdę nad głębinę,</row>
+			<row important_over="true">a <ch a="e"/>bodaj się wszyscy uś<ch a="H7"/>mieli, pewnie gdzieś popł<ch a="e"/>ynę,</row>
+			<row important_over="false"><ch a="D"/>między wierzby krzywe, <ch a="A"/>co się słońcem mienią,</row>
+			<row important_over="false">albo <ch a="e"/>wyspy wikliny szu<ch a="H7"/>miące ziele<ch a="e"/>nią.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zaraz się zachwycę, zaraz się zasłucham<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">W jakieś bajdy zaplątane w barokowych słuchach<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">Swoje dzieje spiszę na piaszczystym trakcie,<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Wyślę pocztą gołębią cztery mile za piec.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="D"/>Zaraz się zachwycę, <ch a="A"/>zaraz się zasłucham</row>
+			<row important_over="false">w jakieś <ch a="e"/>bajdy zaplątane <ch a="H7"/>w barokowych sł<ch a="e"/>uchach,</row>
+			<row important_over="false"><ch a="D"/>swoje dzieje spiszę <ch a="A"/>na piaszczystym trakcie,</row>
+			<row important_over="false">wyślę <ch a="e"/>pocztą gołębią <ch a="H7"/>cztery mile za pi<ch a="e"/>ec.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">I nic więcej, bo przecież nad taką równiną<ch a="D"/><ch a="Fis"/></row>
-			<row important_over="never">No jak tu nie lecieć, no jak tu nie płynąć<ch a="h"/><ch a="E"/><ch a="A"/></row>
-			<row important_over="never">Od końca do końca, na teraz na teraz i zawsze<ch a="D"/><ch a="Fis"/></row>
-			<row important_over="never">No jak tu nie słuchać, no jak tu nie patrzeć.<ch a="h"/><ch a="E"/><ch a="A"/></row>
+			<row important_over="true"><ch a="D"/>I nic więcej, bo przecież <ch a="Fis"/>nad taką równiną,</row>
+			<row important_over="true">no <ch a="h"/>jak tu nie lecieć, no <ch a="E"/>jak tu nie pł<ch a="A"/>ynąć,</row>
+			<row important_over="false"><ch a="D"/>od końca do końca, na <ch a="Fis"/>teraz, na teraz i zawsze,</row>
+			<row important_over="false">no <ch a="h"/>jak tu nie słuchać, no <ch a="E"/>jak tu nie pat<ch a="A"/>rzeć.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">A gdy stąd odejdę zasmuconym sadem<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Będę długo spać jesienią w kącie pod obrazem<ch a="e"/><ch a="H7"/><ch a="e"/></row>
-			<row important_over="never">A gdy się obudzę, choćby mróz był wielki<ch a="D"/><ch a="A"/></row>
-			<row important_over="never">Wrócę przecież jak inni drugim brzegiem rzeki.<ch a="e"/><ch a="H7"/><ch a="e"/></row>
+			<row important_over="false"><ch a="D"/>A gdy stąd odejdę <ch a="A"/>zasmuconym sadem,</row>
+			<row important_over="false">będę <ch a="e"/>długo spać jesienią <ch a="H7"/>w kącie pod obr<ch a="e"/>azem,</row>
+			<row important_over="false"><ch a="D"/>a gdy się obudzę, <ch a="A"/>choćby mróz był wielki,</row>
+			<row important_over="false">wrócę <ch a="e"/>przecież jak inni <ch a="H7"/>drugim brzegiem rz<ch a="e"/>eki.</row>
 		</block>
 		<blocklink blocknb="3"/>
 	</lyric>
-	<music metre="">
-		<guitar/>
+	<music metre="3/4">
+		<guitar barre="0"/>
 	</music>
 	<keywords></keywords>
 	<album></album>
-	<genre></genre>
+	<genre>poezja śpiewana</genre>
 	<status>
 		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
 		</verificators>
-		<to_do>Zupełnie niesprawdzone, nie znam tej piosenki…</to_do>
+		<to_do></to_do>
 	</status>
-	<music_source></music_source>
+	<music_source>Iwona Piastowska – piosenka autorska</music_source>
 </song>
