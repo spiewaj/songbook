@@ -50,10 +50,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Andrzej Krzysztof Torbus, Maria Siciarz (słowa)</verificator>
-			<verificator>Andrzej Mróz (muzyka i wykonanie, album „Magia gór”)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/andrzej-mroz/jesien-w-gorach</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/andrzej-mroz/jesien-w-gorach</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
