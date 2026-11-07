@@ -57,33 +57,38 @@ export function loadXMLDoc(filename)
 }
 
 export function setCursorBefore(node) {
-  // Why not: document.getSelection().collapse(node); ?
-
-  let newr=document.createRange();
-  newr.setStartBefore(node);
-  newr.setEndBefore(node);
-  document.getSelection().removeAllRanges();
-  document.getSelection().addRange(newr);
-  console.log("New selection:", document.getSelection(), newr);
+  if (!node) {
+    return;
+  }
+  const sel = document.getSelection();
+  if (node.nodeName === '#text') {
+    const offset = (node === node.parentNode?.firstChild && node.nodeValue.startsWith(nbsp)) ? 1 : 0;
+    sel.collapse(node, offset);
+  } else if (node.previousSibling && node.previousSibling.nodeName === '#text') {
+    sel.collapse(node.previousSibling, node.previousSibling.nodeValue.length);
+  } else if (node.parentNode) {
+    const newr = document.createRange();
+    newr.setStartBefore(node);
+    newr.setEndBefore(node);
+    sel.removeAllRanges();
+    sel.addRange(newr);
+  }
 }
 
 export function setCursorAfter(node) {
   if (!node) {
     return;
   }
-  if (node.nextSibling) {
-    setCursorBefore(node.nextSibling)
-  } else {
-    let newr=document.createRange();
-    if (node.nodeName=='#text') {
-      newr.setStart(node, node.nodeValue.length)
-      newr.setEnd(node, node.nodeValue.length)
-    } else {
-      newr.setStartAfter(node);
-      newr.setEndAfter(node);
-    }
-    document.getSelection().removeAllRanges();
-    document.getSelection().addRange(newr);
-    console.log("New selection:", document.getSelection(), newr);
+  const sel = document.getSelection();
+  if (node.nodeName === '#text') {
+    sel.collapse(node, node.nodeValue.length);
+  } else if (node.nextSibling && node.nextSibling.nodeName === '#text') {
+    sel.collapse(node.nextSibling, 0);
+  } else if (node.parentNode) {
+    const newr = document.createRange();
+    newr.setStartAfter(node);
+    newr.setEndAfter(node);
+    sel.removeAllRanges();
+    sel.addRange(newr);
   }
 }

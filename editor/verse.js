@@ -390,13 +390,13 @@ export function SongVerseBisInit() {
   customElements.define("song-bis", SongBis);
 }
 
-export function getNextRow(row) {
+export function getNextRow(row, crossVerses = true) {
   if (row.nextSibling && row.nextSibling.nodeName=='SONG-ROW') {
     return row.nextSibling;
   }
-  let songbody = findAncestor(row, "SONG-BODY");
-  if (!songbody) return null;
-  let rows = [...songbody.getElementsByTagName("song-row")].filter(
+  let scope = findAncestor(row, crossVerses ? "SONG-BODY" : "SONG-VERSE");
+  if (!scope) return null;
+  let rows = [...scope.getElementsByTagName("song-row")].filter(
     r => !findAncestor(r, "SONG-VERSE")?.getAttribute("blocknb")
   );
   for (let i=0; i < rows.length; ++i) {
@@ -407,13 +407,13 @@ export function getNextRow(row) {
   return null;
 }
 
-export function getPrevRow(row) {
+export function getPrevRow(row, crossVerses = true) {
   if (row.previousSibling && row.previousSibling.nodeName=='SONG-ROW') {
     return row.previousSibling;
   }
-  let songbody = findAncestor(row, "SONG-BODY");
-  if (!songbody) return null;
-  let rows = [...songbody.getElementsByTagName("song-row")].filter(
+  let scope = findAncestor(row, crossVerses ? "SONG-BODY" : "SONG-VERSE");
+  if (!scope) return null;
+  let rows = [...scope.getElementsByTagName("song-row")].filter(
     r => !findAncestor(r, "SONG-VERSE")?.getAttribute("blocknb")
   );
   for (let i=rows.length-1; i>=0; --i) {

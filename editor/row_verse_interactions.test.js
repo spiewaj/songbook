@@ -640,4 +640,87 @@ describe('Song editor row and verse boundary interactions', () => {
       { text: '\u00a0Wers\u00a0w\u00a0bis\u00a02Wers\u00a0po\u00a0bis', parent: 'SONG-BIS' },
     ]);
   });
+
+  test('Chord insertion (`) and completion (Enter / Escape) restores collapsed caret inside row without extra nbsp', async () => {
+    await loadSong(sampleXml);
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      body.focus();
+      const row1 = body.querySelectorAll('song-row')[0];
+      const r = document.createRange();
+      r.setStart(row1.firstChild, 0); // even at offset 0 before leading nbsp!
+      r.collapse(true);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(r);
+    })()`);
+
+    // Press backtick to insert chord at row start
+    await pressKey('`', 'Backquote', 192, 0, '`');
+    await pressKey('a', 'KeyA', 65, 0, 'a');
+    await pressKey('Enter', 'Enter', 13, 0, '\r');
+
+    let state = await getState();
+    expect(state.verses[0].rows[0].html).toBe('&nbsp;<song-ch a="a" editing="false"></song-ch>Pierwszy&nbsp;wers');
+    expect(state.selInfo.collapsed).toBe(true);
+    expect(state.selInfo.startNode).toBe('#text');
+    expect(state.selInfo.startText).toBe('Pierwszy\u00a0wers');
+    expect(state.selInfo.startOffset).toBe(0);
+
+    // Press backtick again immediately after the chord, then Escape to cancel empty chord
+    await pressKey('`', 'Backquote', 192, 0, '`');
+    await pressKey('Escape', 'Escape', 27);
+    state = await getState();
+    expect(state.verses[0].rows[0].html).toBe('&nbsp;<song-ch a="a" editing="false"></song-ch>Pierwszy&nbsp;wers');
+    expect(state.selInfo.collapsed).toBe(true);
+    expect(state.selInfo.startNode).toBe('#text');
+    expect(state.selInfo.startText).toBe('Pierwszy\u00a0wers');
+    expect(state.selInfo.startOffset).toBe(0);
+
+    // Insert chord at the very end of the row and press Enter: no extra trailing nbsp should be added
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      const row1 = body.querySelectorAll('song-row')[0];
+      const r = document.createRange();
+      r.setStart(row1.lastChild, row1.lastChild.nodeValue.length);
+      r.collapse(true);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(r);
+    })()`);
+    await pressKey('`', 'Backquote', 192, 0, '`');
+    await pressKey('G', 'KeyG', 71, 0, 'G');
+    await pressKey('Enter', 'Enter', 13, 0, '\r');
+
+    state = await getState();
+    expect(state.verses[0].rows[0].html).toBe(
+      '&nbsp;<song-ch a="a" editing="false"></song-ch>Pierwszy&nbsp;wers<song-ch a="G" editing="false"></song-ch>'
+    );
+    expect(state.selInfo.collapsed).toBe(true);
+  });
+
+  test('ArrowLeft and ArrowRight work when selection container is SONG-ROW (element-level boundary around chords)', async () => {
+    await loadSong(chordXml);
+    // Place element-level cursor on SONG-ROW before the first <song-ch a="D"/> (offset 1, after leading nbsp)
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      body.focus();
+      const row1 = body.querySelectorAll('song-row')[0];
+      const r = document.createRange();
+      r.setStart(row1, 1);
+      r.collapse(true);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(r);
+    })()`);
+
+    await pressKey('ArrowRight', 'ArrowRight', 39);
+    let state = await getState();
+    expect(state.selInfo.startNode).toBe('#text');
+    expect(state.selInfo.startText).toBe('Herbata\u00a0stygn');
+    expect(state.selInfo.startOffset).toBe(0);
+
+    await pressKey('ArrowLeft', 'ArrowLeft', 37);
+    state = await getState();
+    expect(state.selInfo.startNode).toBe('#text');
+    expect(state.selInfo.startText).toBe('\u00a0');
+    expect(state.selInfo.startOffset).toBe(1);
+  });
 });

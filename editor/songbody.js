@@ -3,7 +3,6 @@ import {
   getRangeForCursor,
   nbsp,
   removeAllChildren,
-  mergeNodeAfter,
   setCursorBefore,
   setCursorAfter
 } from './utils.js';
@@ -20,22 +19,7 @@ import {
 import {getChordsFromRow, getNextRow, getPrevRow} from "./verse.js";
 
 function acceptsTextAndChords(element) {
-  return element.nodeName=="SONG-ROW" && element.getAttribute("type")!=='instr';
-}
-
-function getChordSelected() {
-  if (window.getSelection().rangeCount < 1) {return false; }
-  let r = window.getSelection().getRangeAt(0);
-  if (r.collapse
-      && (r.startOffset < r.startContainer.childNodes.length)
-      && r.startContainer.childNodes[r.startOffset].nodeName === 'SONG-CH') {
-    return r.startContainer.childNodes[r.startOffset];
-  }
-  return null;
-}
-
-function isChordSelected() {
-  return getChordSelected() != null;
+  return element != null && element.nodeName == "SONG-ROW" && element.getAttribute("type") !== 'instr';
 }
 
 export function isRowInstr(row) {
@@ -43,20 +27,10 @@ export function isRowInstr(row) {
 }
 
 function canInsertChord() {
-  if (window.getSelection().rangeCount < 1) {return false; }
-  let r = window.getSelection().getRangeAt(0);
-  if (r.startContainer.nodeName == '#text'
-      && acceptsTextAndChords(r.startContainer.parentNode)) {
-    return true;
-  }
-  if (isChordSelected()) {
-    return true;
-  }
-  let x =
-      //acceptsTextAndChords(r.startContainer);
-      (r.startContainer.nodeName == '#text'
-          && acceptsTextAndChords(r.startContainer.parentNode));
-  return x;
+  if (window.getSelection().rangeCount < 1) { return false; }
+  const r = window.getSelection().getRangeAt(0);
+  const row = findAncestor(r.startContainer, 'SONG-ROW');
+  return acceptsTextAndChords(row);
 }
 
 export function makeRowNotInstrumental(row) {
@@ -134,13 +108,24 @@ export function notifyRowParentAboutChange(row) {
 
 function insertChordHere(ch) {
   if (canInsertChord()) {
-    let chedit = createChord("");
+    const sel = window.getSelection();
+    const r = sel.getRangeAt(0);
+    const row = findAncestor(r.startContainer, 'SONG-ROW');
+    if (row) {
+      if ((r.startContainer === row || r.startContainer === row.firstChild)
+          && r.startOffset === 0
+          && row.firstChild?.nodeName === '#text'
+          && row.firstChild.nodeValue.startsWith(nbsp)) {
+        sel.collapse(row.firstChild, 1);
+      }
+    }
+    const chedit = createChord(ch || "");
     chedit.setAttribute("editing", "true");
-    window.getSelection().getRangeAt(0).insertNode(chedit);
+    sel.getRangeAt(0).insertNode(chedit);
     chedit.focus();
     return true;
   }
-  return  false;
+  return false;
 }
 
 function flattenBis(node) {
@@ -248,6 +233,43 @@ function isCaretAtLogicalRowEnd(r, row) {
     return r.startOffset >= r.startContainer.nodeValue.length;
   }
   return false;
+}
+
+function getAdjacentChord(r, row, direction) {
+  if (!r || !r.collapsed || !row) return null;
+  if (direction === 'before') {
+    if (r.startContainer.nodeName === '#text') {
+      if (r.startContainer === row.firstChild && r.startContainer.nodeValue.startsWith(nbsp) && r.startOffset <= 1) {
+        return null;
+      }
+      if (r.startOffset > 0) return null;
+      const prev = r.startContainer.previousSibling;
+      return (prev && prev.nodeName === 'SONG-CH') ? prev : null;
+    }
+    if (r.startContainer === row) {
+      if (r.startOffset === 0) return null;
+      if (r.startOffset === 1 && row.firstChild?.nodeName === '#text' && row.firstChild.nodeValue === nbsp) {
+        return null;
+      }
+      const prev = row.childNodes[r.startOffset - 1];
+      return (prev && prev.nodeName === 'SONG-CH') ? prev : null;
+    }
+  } else if (direction === 'after') {
+    if (r.startContainer.nodeName === '#text') {
+      const effOffset = (r.startContainer === row.firstChild && r.startOffset === 0 && r.startContainer.nodeValue.startsWith(nbsp))
+          ? 1 : r.startOffset;
+      if (effOffset < r.startContainer.nodeValue.length) return null;
+      const next = r.startContainer.nextSibling;
+      return (next && next.nodeName === 'SONG-CH') ? next : null;
+    }
+    if (r.startContainer === row) {
+      const idx = (r.startOffset === 0 && row.firstChild?.nodeName === '#text' && row.firstChild.nodeValue === nbsp)
+          ? 1 : r.startOffset;
+      const next = row.childNodes[idx];
+      return (next && next.nodeName === 'SONG-CH') ? next : null;
+    }
+  }
+  return null;
 }
 
 function deleteSelectedRangeAcrossRows(r, songbody) {
@@ -608,19 +630,6 @@ export default class SongBody extends HTMLElement {
         e.preventDefault();
       }
     }
-    if (e.key == 'Backspace'){
-      if (document.getSelection().isCollapsed
-          && document.getSelection().rangeCount == 1
-          && document.getSelection().type === 'Range') {
-        let r = document.getSelection().getRangeAt(0);
-        if (r.startOffset < r.startContainer.childNodes.length &&
-            r.startContainer.childNodes[r.startOffset].nodeName=='SONG-CH') {
-          r.startContainer.childNodes[r.startOffset].remove();
-          songBook.changePostprocess();
-          e.preventDefault();
-        }
-      }
-    }
 
     if (e.key == 'ArrowRight' && !e.shiftKey && !e.metaKey && !e.altKey && !e.ctrlKey) {
       if (document.getSelection().isCollapsed
@@ -628,41 +637,26 @@ export default class SongBody extends HTMLElement {
         let r = document.getSelection().getRangeAt(0);
         const row = findAncestor(r.startContainer, 'SONG-ROW');
         if (row) {
-          // If cursor is at offset 0 before the artificial leading nbsp, step past nbsp + 1st char (or chord)
+          // If cursor is at offset 0 before the artificial leading nbsp and followed by text, step past nbsp + 1st char
           if (r.startContainer.nodeName === '#text'
               && r.startContainer === row.firstChild
               && r.startOffset === 0
-              && r.startContainer.nodeValue.startsWith(nbsp)) {
-            if (r.startContainer.nodeValue.length > 1) {
-              document.getSelection().collapse(r.startContainer, 2);
-              e.preventDefault();
-              return;
-            } else if (r.startContainer.nextSibling && r.startContainer.nextSibling.nodeName === 'SONG-CH') {
-              let ch = r.startContainer.nextSibling;
-              while (ch && ch.nodeName === 'SONG-CH') {
-                ch = ch.nextSibling;
-              }
-              if (ch && ch.nodeName === '#text') {
-                document.getSelection().collapse(ch, 0);
-              } else {
-                setCursorAtRowEnd(row);
-              }
-              e.preventDefault();
-              return;
-            }
+              && r.startContainer.nodeValue.startsWith(nbsp)
+              && r.startContainer.nodeValue.length > 1) {
+            document.getSelection().collapse(r.startContainer, 2);
+            e.preventDefault();
+            return;
           }
 
           // If cursor is right before a SONG-CH, jump over contiguous SONG-CH elements
-          if (r.startContainer.nodeName === '#text'
-              && r.startOffset >= r.startContainer.nodeValue.length
-              && r.startContainer.nextSibling
-              && r.startContainer.nextSibling.nodeName === 'SONG-CH') {
-            let ch = r.startContainer.nextSibling;
-            while (ch && ch.nodeName === 'SONG-CH') {
-              ch = ch.nextSibling;
+          const nextChord = getAdjacentChord(r, row, 'after');
+          if (nextChord) {
+            let lastChord = nextChord;
+            while (lastChord.nextSibling && lastChord.nextSibling.nodeName === 'SONG-CH') {
+              lastChord = lastChord.nextSibling;
             }
-            if (ch) {
-              document.getSelection().collapse(ch, 0);
+            if (lastChord.nextSibling) {
+              setCursorAfter(lastChord);
             } else {
               const nextRow = getNextRow(row);
               if (nextRow) {
@@ -698,40 +692,20 @@ export default class SongBody extends HTMLElement {
             const prevRow = getPrevRow(row);
             if (prevRow) {
               setCursorAtRowEnd(prevRow);
-              e.preventDefault();
-              return;
             } else {
               setCursorAtRowStart(row);
-              e.preventDefault();
-              return;
             }
+            e.preventDefault();
+            return;
           }
 
-          // If cursor is right after SONG-CH (either in #text at offset 0 or in SONG-ROW after SONG-CH)
-          let prevChord = null;
-          if (r.startContainer.nodeName === '#text' && r.startOffset === 0
-              && r.startContainer.previousSibling
-              && r.startContainer.previousSibling.nodeName === 'SONG-CH') {
-            prevChord = r.startContainer.previousSibling;
-          } else if (r.startContainer === row && r.startOffset > 0
-              && row.childNodes[r.startOffset - 1]?.nodeName === 'SONG-CH') {
-            prevChord = row.childNodes[r.startOffset - 1];
-          }
+          const prevChord = getAdjacentChord(r, row, 'before');
           if (prevChord) {
-            let ch = prevChord;
-            while (ch && ch.nodeName === 'SONG-CH') {
-              ch = ch.previousSibling;
+            let firstChord = prevChord;
+            while (firstChord.previousSibling && firstChord.previousSibling.nodeName === 'SONG-CH') {
+              firstChord = firstChord.previousSibling;
             }
-            if (ch && ch.nodeName === '#text') {
-              if (ch === row.firstChild && ch.nodeValue === nbsp) {
-                // Chord was at the very start of the row; place cursor before the chord (at offset 1 of leading nbsp)
-                document.getSelection().collapse(ch, 1);
-              } else {
-                document.getSelection().collapse(ch, ch.nodeValue.length);
-              }
-            } else {
-              setCursorAtRowStart(row);
-            }
+            setCursorBefore(firstChord);
             e.preventDefault();
             return;
           }
@@ -765,14 +739,11 @@ export default class SongBody extends HTMLElement {
   drop(e, songbody) {
     let d = e.dataTransfer.getData("songbook/chord");
     if (d != null && d != "") {
-      let range = getRangeForCursor(e)
+      let range = getRangeForCursor(e);
       console.log('RANGE for DROP', range);
-      if (acceptsTextAndChords(range.commonAncestorContainer.parentNode)) {
+      const targetRow = range ? findAncestor(range.commonAncestorContainer, 'SONG-ROW') : null;
+      if (acceptsTextAndChords(targetRow)) {
         range.insertNode(createChord(d));
-        songbody.dropped = true;
-      } else if (isChordSelected()) {
-        const selectedChord = getChordSelected();
-        selectedChord.parentNode.insertBefore(createChord(d), selectedChord.nextSibling);
         songbody.dropped = true;
       } else {
         console.log('Drop refused', e);
@@ -808,89 +779,50 @@ export default class SongBody extends HTMLElement {
     if (!rowsContainer) return;
     const containerParent = rowsContainer.parentNode;
 
-    // Case 1: Previous sibling in the same <song-rows>
-    if (row.previousElementSibling) {
-      const prevSib = row.previousElementSibling;
-      if (prevSib.nodeName === 'SONG-ROW') {
-        mergeRows(prevSib, row);
-        return;
-      }
-      if (prevSib.nodeName === 'SONG-BIS') {
-        const bisRows = prevSib.querySelector('song-rows');
-        const lastBisRow = bisRows ? bisRows.lastElementChild : null;
-        if (lastBisRow && lastBisRow.nodeName === 'SONG-ROW') {
-          mergeRows(lastBisRow, row);
-          return;
+    // 1. First row inside a <song-bis> preceded by another <song-bis>: merge the two <song-bis> blocks
+    if (!row.previousElementSibling
+        && containerParent?.nodeName === 'SONG-BIS'
+        && containerParent.previousElementSibling?.nodeName === 'SONG-BIS') {
+      const prevBisRows = containerParent.previousElementSibling.querySelector('song-rows');
+      if (prevBisRows) {
+        while (rowsContainer.firstChild) {
+          prevBisRows.appendChild(rowsContainer.firstChild);
         }
+        containerParent.remove();
+        setCursorAtRowStart(row);
+        return;
       }
     }
 
-    // Case 2: First row inside a <song-bis>
-    if (containerParent && containerParent.nodeName === 'SONG-BIS') {
-      const bis = containerParent;
-      if (bis.previousElementSibling) {
-        const prevSib = bis.previousElementSibling;
-        if (prevSib.nodeName === 'SONG-ROW') {
-          mergeRows(prevSib, row);
-          return;
-        }
-        if (prevSib.nodeName === 'SONG-BIS') {
-          const prevBisRows = prevSib.querySelector('song-rows');
-          if (prevBisRows) {
-            while (rowsContainer.firstChild) {
-              prevBisRows.appendChild(rowsContainer.firstChild);
-            }
-            bis.remove();
-            setCursorAtRowStart(row);
-            return;
-          }
-        }
-      } else {
-        // BIS is at the start of a verse
-        const currVerse = findAncestor(bis, 'SONG-VERSE');
-        const prevVerse = currVerse ? currVerse.previousElementSibling : null;
-        if (prevVerse && prevVerse.nodeName === 'SONG-VERSE' && !prevVerse.getAttribute('blocknb')) {
-          const prevVerseRows = prevVerse.querySelector('song-rows');
-          const currVerseRows = currVerse.querySelector('song-rows');
-          if (prevVerseRows && currVerseRows) {
-            while (currVerseRows.firstChild) {
-              prevVerseRows.appendChild(currVerseRows.firstChild);
-            }
-            currVerse.remove();
-            setCursorAtRowStart(row);
-            return;
-          }
-        }
-      }
-      setCursorAtRowStart(row);
+    // 2. Any preceding row within the same <song-verse>: merge rows
+    const prevRowInVerse = getPrevRow(row, false);
+    if (prevRowInVerse) {
+      mergeRows(prevRowInVerse, row);
       return;
     }
 
-    // Case 3: First row of a <song-verse>
-    if (containerParent && containerParent.nodeName === 'SONG-VERSE') {
-      const currVerse = containerParent;
-      const prevVerse = currVerse.previousElementSibling;
-      if (prevVerse && prevVerse.nodeName === 'SONG-VERSE' && !prevVerse.getAttribute('blocknb')) {
-        const prevVerseRows = prevVerse.querySelector('song-rows');
-        if (prevVerseRows) {
-          // If current verse has only a single empty row, delete the empty verse and put cursor at end of prevVerse
-          if (rowsContainer.children.length === 1 && isEmptyRow(row)) {
-            currVerse.remove();
-            const prevRowsList = prevVerse.querySelectorAll('song-row');
-            const lastPrevRow = prevRowsList[prevRowsList.length - 1];
-            if (lastPrevRow) {
-              setCursorAtRowEnd(lastPrevRow);
-            }
-            return;
-          }
-          // Otherwise, join currVerse's rows into prevVerse and keep cursor at start of row
-          while (rowsContainer.firstChild) {
-            prevVerseRows.appendChild(rowsContainer.firstChild);
-          }
+    // 3. Very first row of a <song-verse>: merge with previous <song-verse>
+    const currVerse = findAncestor(row, 'SONG-VERSE');
+    const prevVerse = currVerse ? currVerse.previousElementSibling : null;
+    if (prevVerse && prevVerse.nodeName === 'SONG-VERSE' && !prevVerse.getAttribute('blocknb')) {
+      const prevVerseRows = prevVerse.querySelector('song-rows');
+      const currVerseRows = currVerse.querySelector('song-rows');
+      if (prevVerseRows && currVerseRows) {
+        if (currVerseRows.children.length === 1 && isEmptyRow(row)) {
           currVerse.remove();
-          setCursorAtRowStart(row);
+          const prevRowsList = prevVerse.querySelectorAll('song-row');
+          const lastPrevRow = prevRowsList[prevRowsList.length - 1];
+          if (lastPrevRow) {
+            setCursorAtRowEnd(lastPrevRow);
+          }
           return;
         }
+        while (currVerseRows.firstChild) {
+          prevVerseRows.appendChild(currVerseRows.firstChild);
+        }
+        currVerse.remove();
+        setCursorAtRowStart(row);
+        return;
       }
     }
 
@@ -903,46 +835,30 @@ export default class SongBody extends HTMLElement {
     if (!rowsContainer) return;
     const containerParent = rowsContainer.parentNode;
 
-    // Case 1: Next sibling in the same <song-rows>
-    if (row.nextElementSibling) {
-      const nextSib = row.nextElementSibling;
-      if (nextSib.nodeName === 'SONG-ROW') {
-        mergeRows(row, nextSib);
+    // 1. Last row inside a <song-bis> followed by another <song-bis>: merge the two <song-bis> blocks
+    if (!row.nextElementSibling
+        && containerParent?.nodeName === 'SONG-BIS'
+        && containerParent.nextElementSibling?.nodeName === 'SONG-BIS') {
+      const nextBis = containerParent.nextElementSibling;
+      const nextBisRows = nextBis.querySelector('song-rows');
+      if (nextBisRows) {
+        while (nextBisRows.firstChild) {
+          rowsContainer.appendChild(nextBisRows.firstChild);
+        }
+        nextBis.remove();
+        setCursorAtRowEnd(row);
         return;
       }
-      if (nextSib.nodeName === 'SONG-BIS') {
-        const firstBisRow = nextSib.querySelector('song-row');
-        if (firstBisRow) {
-          mergeRows(row, firstBisRow);
-          return;
-        }
-      }
     }
 
-    // Case 2: Last row inside a <song-bis>
-    if (containerParent && containerParent.nodeName === 'SONG-BIS') {
-      const bis = containerParent;
-      if (bis.nextElementSibling) {
-        const nextSib = bis.nextElementSibling;
-        if (nextSib.nodeName === 'SONG-ROW') {
-          mergeRows(row, nextSib);
-          return;
-        }
-        if (nextSib.nodeName === 'SONG-BIS') {
-          const nextBisRows = nextSib.querySelector('song-rows');
-          if (nextBisRows) {
-            while (nextBisRows.firstChild) {
-              rowsContainer.appendChild(nextBisRows.firstChild);
-            }
-            nextSib.remove();
-            setCursorAtRowEnd(row);
-            return;
-          }
-        }
-      }
+    // 2. Any following row within the same <song-verse>: merge rows
+    const nextRowInVerse = getNextRow(row, false);
+    if (nextRowInVerse) {
+      mergeRows(row, nextRowInVerse);
+      return;
     }
 
-    // Case 3: Last row of a <song-verse>
+    // 3. Last row of a <song-verse>: merge next <song-verse> into current <song-verse>
     const currVerse = findAncestor(row, 'SONG-VERSE');
     const nextVerse = currVerse ? currVerse.nextElementSibling : null;
     if (nextVerse && nextVerse.nodeName === 'SONG-VERSE' && !nextVerse.getAttribute('blocknb')) {
@@ -1048,16 +964,7 @@ export default class SongBody extends HTMLElement {
           return;
         }
 
-        // Check if caret is immediately after one or more <song-ch> elements
-        let precedingChord = null;
-        if (r.startContainer.nodeName === '#text' && r.startOffset === 0
-            && r.startContainer.previousSibling?.nodeName === 'SONG-CH') {
-          precedingChord = r.startContainer.previousSibling;
-        } else if (r.startContainer === row && r.startOffset > 0
-            && row.childNodes[r.startOffset - 1]?.nodeName === 'SONG-CH') {
-          precedingChord = row.childNodes[r.startOffset - 1];
-        }
-
+        const precedingChord = getAdjacentChord(r, row, 'before');
         if (precedingChord) {
           let firstChord = precedingChord;
           while (firstChord.previousSibling && firstChord.previousSibling.nodeName === 'SONG-CH') {
@@ -1098,17 +1005,7 @@ export default class SongBody extends HTMLElement {
           return;
         }
 
-        // Check if caret is immediately before one or more <song-ch> elements
-        let followingChord = null;
-        if (r.startContainer.nodeName === '#text'
-            && r.startOffset >= r.startContainer.nodeValue.length
-            && r.startContainer.nextSibling?.nodeName === 'SONG-CH') {
-          followingChord = r.startContainer.nextSibling;
-        } else if (r.startContainer === row && r.startOffset < row.childNodes.length
-            && row.childNodes[r.startOffset]?.nodeName === 'SONG-CH') {
-          followingChord = row.childNodes[r.startOffset];
-        }
-
+        const followingChord = getAdjacentChord(r, row, 'after');
         if (followingChord) {
           let lastChord = followingChord;
           while (lastChord.nextSibling && lastChord.nextSibling.nodeName === 'SONG-CH') {
