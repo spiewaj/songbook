@@ -68,10 +68,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Adam Ziemianin (wiersz «Jaką cenę»)</verificator>
-			<verificator>Stare Dobre Małżeństwo – album «Makatki» (1990)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/jaka-cene</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/jaka-cene</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 	<music_source/>
