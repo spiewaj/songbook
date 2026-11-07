@@ -52,7 +52,7 @@
 		</block>
 	</lyric>
 	<music metre="3/4">
-		<guitar barre="0"/>
+		<guitar barre="3"/>
 	</music>
 	<keywords/>
 	<album>Czerwono-Czarni 17.000.000</album>
@@ -64,7 +64,7 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Paweł Budzyński</verificator>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Maly_ksiaze_(muz_Katarzyna_Gertner)</verificator>
 		</verificators>
 		<to_do/>
 	</status>
