@@ -24,11 +24,15 @@ process_song() {
   local a4_pdf="${OUTPUT_DIR}/${title}.a4.pdf"
   local a5_pdf="${OUTPUT_DIR}/${title}.a5.pdf"
 
-  # If FORCE_RENDER is not set, check if both A4 and A5 PDFs already exist and are newer than the song XML
+  # If FORCE_RENDER is not set, check if both A4 and A5 PDFs already exist and are newer than:
+  # 1) the song XML itself
+  # 2) the generation code / templates / scripts (if GENERATOR_REF_FILE is set)
   if [ -z "${FORCE_RENDER}" ] && [ -f "${a4_pdf}" ] && [ -f "${a5_pdf}" ]; then
     if [ "${a4_pdf}" -nt "${song_file}" ] && [ "${a5_pdf}" -nt "${song_file}" ]; then
-      echo "Skipping up-to-date: ${title}"
-      return 0
+      if [ -z "${GENERATOR_REF_FILE}" ] || ([ "${a4_pdf}" -nt "${GENERATOR_REF_FILE}" ] && [ "${a5_pdf}" -nt "${GENERATOR_REF_FILE}" ]); then
+        echo "Skipping up-to-date: ${title}"
+        return 0
+      fi
     fi
   fi
 
@@ -41,9 +45,26 @@ process_song() {
   done
 }
 
+# Determine the newest timestamp among generator scripts, templates, and libraries
+# This allows detecting generator code changes even across git checkouts or cache restores
+GENERATOR_REF_FILE="${SCRIPT_DIR}/build/.generator_ref"
+mkdir -p "${SCRIPT_DIR}/build"
+# Touch GENERATOR_REF_FILE to match the mtime of the newest generator dependency
+NEWEST_GEN_FILE=$(find "${SCRIPT_DIR}/src/latex" "${SCRIPT_DIR}/src/lib" "${SCRIPT_DIR}/render_pdf.sh" "${SCRIPT_DIR}/render_pdfs_songs.sh" -type f -exec stat -f "%m %N" {} + 2>/dev/null | sort -nr | head -n1 | cut -d' ' -f2- || true)
+if [ -z "${NEWEST_GEN_FILE}" ]; then
+  # Linux fallback (stat -c)
+  NEWEST_GEN_FILE=$(find "${SCRIPT_DIR}/src/latex" "${SCRIPT_DIR}/src/lib" "${SCRIPT_DIR}/render_pdf.sh" "${SCRIPT_DIR}/render_pdfs_songs.sh" -type f -exec stat -c "%Y %n" {} + 2>/dev/null | sort -nr | head -n1 | cut -d' ' -f2- || true)
+fi
+
+if [ -n "${NEWEST_GEN_FILE}" ] && [ -f "${NEWEST_GEN_FILE}" ]; then
+  touch -r "${NEWEST_GEN_FILE}" "${GENERATOR_REF_FILE}"
+else
+  touch "${GENERATOR_REF_FILE}"
+fi
+
 # Export the function so it's available to subprocesses
 export -f process_song
-export SCRIPT_DIR OUTPUT_DIR FORCE_RENDER
+export SCRIPT_DIR OUTPUT_DIR FORCE_RENDER GENERATOR_REF_FILE
 
 # Use xargs to process songs in parallel (default: 4 concurrent processes)
 # You can set PARALLEL_JOBS environment variable to control concurrency
