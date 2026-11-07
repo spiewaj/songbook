@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzka ciuchcia">
   <text_author type="solo">Piotr Frankowicz</text_author>
+  <comment>Alternatywne akordy: [C F/G C/C F/G C][FCFC/GC/FCFC/GC/FFCGC/FCG/FCF].</comment>
   <composer type="solo">Piotr Frankowicz</composer>
   <artist type="band">Wołosatki</artist>
   <lyric>
@@ -44,7 +45,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chords</chords>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>https://spiewnik.wywrota.pl/wolosatki/bieszczadzka-ciuchcia</verificator>
