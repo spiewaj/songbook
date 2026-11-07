@@ -1,53 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zima">
+	<alias/>
 	<text_author type="solo">Robert Leonhard</text_author>
+	<comment/>
 	<composer type="solo">Robert Leonhard</composer>
 	<artist type="band">Małżeństwo z Rozsądku</artist>
+	<translator/>
+	<original_title/>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Zima znów się zaczyna<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
-			<row important_over="never">Tak samo wtedy padał śnieg<ch a="D7+"/><ch a="G*"/><ch a="D7+"/></row>
-			<row important_over="never">Zima dziś przypomina<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
-			<row important_over="never">Jak pierwszy raz spotkali się<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
+			<row important_over="true"><ch a="D7+"/>Zima <ch a="G*"/>znów się za<ch a="D7+"/>czy<ch a="G*"/>na,</row>
+			<row important_over="true"><ch a="D7+"/>Tak samo <ch a="G*"/>wtedy padał <ch a="D7+"/>śnieg.</row>
+			<row important_over="true"><ch a="D7+"/>Zima <ch a="G*"/>dziś przy<ch a="D7+"/>pomi<ch a="G*"/>na,</row>
+			<row important_over="true"><ch a="D7+"/>Jak pierwszy <ch a="G*"/>raz spot<ch a="D7+"/>kali s<ch a="G*"/>ię.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Jak strumień płynął śpiew<ch a="G"/><ch a="fis"/></row>
-			<row important_over="never">I jej niewinny śmiech<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">A ich oczy po niebie<ch a="A"/></row>
-			<row important_over="never">Szukając wciąż siebie</row>
-			<row important_over="never">Błądziły jak gwiazdy we śnie</row>
+			<row important_over="true">Jak <ch a="G"/>strumień płynął <ch a="fis"/>śpiew</row>
+			<row important_over="true">I <ch a="G"/>jej niewinny <ch a="D"/>śmiech,</row>
+			<row important_over="true">A <ch a="A"/>ich oczy po niebie,</row>
+			<row important_over="never">Szukając wciąż siebie,</row>
+			<row important_over="never">Błądziły jak gwiazdy we śnie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zima już przyszła zima<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
-			<row important_over="never">Za szybą zimny wicher dmie<ch a="D7+"/><ch a="G*"/><ch a="D7+"/></row>
-			<row important_over="never">Zima znów mrozi klimat<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
-			<row important_over="never">A w sercach ogień pali się<ch a="D7+"/><ch a="G*"/><ch a="D7+"/><ch a="G*"/></row>
+			<row important_over="false"><ch a="D7+"/>Zima, <ch a="G*"/>już przyszła <ch a="D7+"/>zi<ch a="G*"/>ma,</row>
+			<row important_over="false"><ch a="D7+"/>Za szybą <ch a="G*"/>zimny wicher <ch a="D7+"/>dmie.</row>
+			<row important_over="false"><ch a="D7+"/>Zima <ch a="G*"/>znów mrozi <ch a="D7+"/>kli<ch a="G*"/>mat,</row>
+			<row important_over="false"><ch a="D7+"/>A w sercach <ch a="G*"/>ogień <ch a="D7+"/>pali s<ch a="G*"/>ię.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Jak strumień płynie śpiew<ch a="G"/><ch a="fis"/></row>
-			<row important_over="never">I jej niewinny śmiech<ch a="G"/><ch a="D"/></row>
-			<row important_over="never">A ich oczy po niebie<ch a="A"/></row>
-			<row important_over="never">Szukając wciąż siebie</row>
-			<row important_over="never">Dziś błądzą jak gwiazdy we śnie</row>
+			<row important_over="false">Jak <ch a="G"/>strumień płynie <ch a="fis"/>śpiew</row>
+			<row important_over="false">I <ch a="G"/>jej niewinny <ch a="D"/>śmiech,</row>
+			<row important_over="false">A <ch a="A"/>ich oczy po niebie,</row>
+			<row important_over="never">Szukając wciąż siebie,</row>
+			<row important_over="never">Dziś błądzą jak gwiazdy we śnie.</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Zima już wiedzie prymat</row>
-			<row important_over="never">Wokół niej wszystko kręci się</row>
-			<row important_over="never">Zima ta sama zima</row>
-			<row important_over="never">Wyłoni z chłodu chwile te</row>
+			<row important_over="false"><ch a="D7+"/>Zima <ch a="G*"/>już wiedzie <ch a="D7+"/>pry<ch a="G*"/>mat,</row>
+			<row important_over="false"><ch a="D7+"/>Wokół niej <ch a="G*"/>wszystko kręci <ch a="D7+"/>się.</row>
+			<row important_over="false"><ch a="D7+"/>Zima, <ch a="G*"/>ta sama <ch a="D7+"/>zi<ch a="G*"/>ma,</row>
+			<row important_over="false"><ch a="D7+"/>Wyłoni <ch a="G*"/>z chłodu <ch a="D7+"/>chwile t<ch a="G*"/>e.</row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Jak strumień płynął śpiew</row>
-			<row important_over="never">I jej niewinny śmiech</row>
-			<row important_over="never">A ich oczy po niebie</row>
-			<row important_over="never">Szukając wciąż siebie</row>
+			<row important_over="false">Jak <ch a="G"/>strumień płynął <ch a="fis"/>śpiew</row>
+			<row important_over="false">I <ch a="G"/>jej niewinny <ch a="D"/>śmiech,</row>
+			<row important_over="false">A <ch a="A"/>ich oczy po niebie,</row>
+			<row important_over="never">Szukając wciąż siebie,</row>
+			<row important_over="never">Błądziły jak gwiazdy we śnie.</row>
 		</block>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
 	<keywords/>
+	<album>U źródeł tęsknot</album>
+	<genre>poezja śpiewana</genre>
 	<status>
-		<done/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chords</chords>
+		</done>
 		<verificators>
 			<verificator>Onufry</verificator>
+			<verificator>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/zima</verificator>
+			<verificator>https://dalmafon.pl/sklep/malzenstwo-z-rozsadku-u-zrodel-tesknot/</verificator>
 		</verificators>
 	</status>
 </song>
