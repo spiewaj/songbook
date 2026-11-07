@@ -71,9 +71,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Alek</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Alek</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
