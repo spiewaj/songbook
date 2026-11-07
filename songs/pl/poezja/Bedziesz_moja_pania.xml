@@ -11,8 +11,8 @@
 		<block type="verse">
 			<row important_over="true">B<ch a="C"/>ędziesz zb<ch a="G"/>ierać kwi<ch a="C"/>aty, <ch a="G"/></row>
 			<row important_over="true">b<ch a="C"/>ędziesz si<ch a="G"/>ę uśmi<ch a="C"/>echać, <ch a="G"/></row>
-			<row>b<ch a="C"/>ędziesz l<ch a="G"/>iczyć gwi<ch a="C"/>azdy, <ch a="G"/></row>
-			<row>b<ch a="C"/>ędziesz n<ch a="G"/>a mnie czek<ch a="C"/>ać. <ch a="C7"/></row>
+			<row important_over="false">b<ch a="C"/>ędziesz l<ch a="G"/>iczyć gwi<ch a="C"/>azdy, <ch a="G"/></row>
+			<row important_over="false">b<ch a="C"/>ędziesz n<ch a="G"/>a mnie czek<ch a="C"/>ać. <ch a="C7"/></row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">I t<ch a="f"/>y, właśnie t<ch a="c"/>y, będziesz m<ch a="f"/>oją p<ch a="G"/>ani<ch a="c"/>ą, <ch a="C7"/></row>
@@ -21,25 +21,25 @@
 		<block type="verse">
 			<row important_over="true">B<ch a="Gis"/>ędą ci gr<ch a="Dis"/>ały skrzypce lip<ch a="f"/>owe, <ch a="c"/></row>
 			<row important_over="true">będą śpiew<ch a="f"/>ały jarzębin<ch a="c"/>owe</row>
-			<row>drz<ch a="g"/>ewa, l<ch a="Dis"/>iście, pt<ch a="f"/>aki wsz<ch a="G"/>ystkie.</row>
+			<row important_over="false">drz<ch a="g"/>ewa, l<ch a="Dis"/>iście, pt<ch a="f"/>aki wsz<ch a="G"/>ystkie.</row>
 		</block>
 		<block type="verse">
-			<row>B<ch a="C"/>ędę z t<ch a="G"/>obą t<ch a="C"/>ańczyć, <ch a="G"/></row>
-			<row>b<ch a="C"/>ajki op<ch a="G"/>owi<ch a="C"/>adać, <ch a="G"/></row>
-			<row>sł<ch a="C"/>ońce z p<ch a="G"/>omarańcz<ch a="C"/>y <ch a="G"/></row>
-			<row>w tw<ch a="C"/>oje dł<ch a="G"/>onie skład<ch a="C"/>ać. <ch a="C7"/></row>
+			<row important_over="false">B<ch a="C"/>ędę z t<ch a="G"/>obą t<ch a="C"/>ańczyć, <ch a="G"/></row>
+			<row important_over="false">b<ch a="C"/>ajki op<ch a="G"/>owi<ch a="C"/>adać, <ch a="G"/></row>
+			<row important_over="false">sł<ch a="C"/>ońce z p<ch a="G"/>omarańcz<ch a="C"/>y <ch a="G"/></row>
+			<row important_over="false">w tw<ch a="C"/>oje dł<ch a="G"/>onie skład<ch a="C"/>ać. <ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>B<ch a="Gis"/>ędą ci gr<ch a="Dis"/>ały nocą sierpni<ch a="f"/>ową <ch a="c"/></row>
-			<row>wi<ch a="f"/>atry stroj<ch a="c"/>one barwą słońca,</row>
-			<row>b<ch a="g"/>ędą śpi<ch a="Dis"/>ewały, śpi<ch a="f"/>ewały bez k<ch a="G"/>ońca.</row>
+			<row important_over="false">B<ch a="Gis"/>ędą ci gr<ch a="Dis"/>ały nocą sierpni<ch a="f"/>ową <ch a="c"/></row>
+			<row important_over="false">wi<ch a="f"/>atry stroj<ch a="c"/>one barwą słońca,</row>
+			<row important_over="false">b<ch a="g"/>ędą śpi<ch a="Dis"/>ewały, śpi<ch a="f"/>ewały bez k<ch a="G"/>ońca.</row>
 		</block>
 		<block type="verse">
-			<row>B<ch a="C"/>ędziesz mi<ch a="G"/>ała imi<ch a="C"/>ę <ch a="G"/></row>
-			<row>j<ch a="C"/>ak wiosi<ch a="G"/>enna r<ch a="C"/>óża, <ch a="G"/></row>
-			<row>b<ch a="C"/>ędziesz mi<ch a="G"/>ała mił<ch a="C"/>ość <ch a="G"/></row>
-			<row>j<ch a="C"/>ak jes<ch a="G"/>ienna b<ch a="C"/>urza. <ch a="C7"/></row>
+			<row important_over="false">B<ch a="C"/>ędziesz mi<ch a="G"/>ała imi<ch a="C"/>ę <ch a="G"/></row>
+			<row important_over="false">j<ch a="C"/>ak wiosi<ch a="G"/>enna r<ch a="C"/>óża, <ch a="G"/></row>
+			<row important_over="false">b<ch a="C"/>ędziesz mi<ch a="G"/>ała mił<ch a="C"/>ość <ch a="G"/></row>
+			<row important_over="false">j<ch a="C"/>ak jes<ch a="G"/>ienna b<ch a="C"/>urza. <ch a="C7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -56,10 +56,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Marek Grechuta (słowa i muzyka), album "Marek Grechuta &amp; Anawa" (1970)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Bedziesz_moja_pania)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/bedziesz-moja-pania</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Bedziesz_moja_pania</verificator>
+      <verificator>https://spiewnik.wywrota.pl/marek-grechuta/bedziesz-moja-pania</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
