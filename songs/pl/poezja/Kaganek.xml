@@ -52,10 +52,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Michał Korch</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 		<to_do></to_do>
 	</status>
 	<music_source></music_source>
