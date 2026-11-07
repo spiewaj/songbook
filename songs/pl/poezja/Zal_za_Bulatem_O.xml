@@ -38,11 +38,15 @@
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<album>Żal za…</album>
 	<genre>Poezja śpiewana</genre>
 	<status>
 		<done>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 			<text/>
 		</done>
 		<verificators>
