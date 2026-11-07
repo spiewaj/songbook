@@ -1,53 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ukraina">
-	<alias>Hej Sokoły</alias>
+	<alias>Hej, sokoły</alias>
+	<text_author type="solo">tradycyjna</text_author>
+	<comment>Popularna polsko-ukraińska pieśń tradycyjna (przypisywana m.in. Tymkowi Padurze), znana powszechnie jako „Hej, sokoły”.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">Piosenka biesiadna</artist>
 	<lyric>
 		<block type="verse">
-			<row important_over="never">Hej, tam gdzieś znad czarnej wody<ch a="a"/></row>
-			<row important_over="never">Siada na koń Kozak młody<ch a="E"/></row>
-			<row important_over="never">Czule żegna się z dziewczyną<ch a="a"/></row>
-			<row important_over="never">Jeszcze czulej z Ukrainą<ch a="E"/><ch a="a"/><ch a="G7"/></row>
+			<row important_over="true">H<ch a="a"/>ej, tam gdzieś znad czarnej w<ch a="E"/>ody</row>
+			<row important_over="true">siada na koń Kozak mł<ch a="a"/>ody,</row>
+			<row important_over="true">czule żegna się z dziewcz<ch a="d"/>yną,</row>
+			<row important_over="true">j<ch a="a"/>eszcze czul<ch a="E"/>ej z Ukrain<ch a="a"/>ą.<ch a="G7"/></row>
 		</block>
 		<block type="chorus">
-			<row important_over="never">Hej, hej, hej sokoły<ch a="C"/></row>
-			<row important_over="never">Omijajcie góry, lasy, pola, doły<ch a="E7"/></row>
-			<row important_over="never">Dzwoń, dzwoń, dzwoń dzwoneczku<ch a="a"/></row>
-			<row important_over="never">Mój stepowy skowroneczku<ch a="E"/><ch a="G7"/></row>
-			<row important_over="never">Mój stepowy dzwoń, dzwoń, dzwoń<ch a="E"/><ch a="a"/></row>
+			<row important_over="true">H<ch a="C"/>ej, hej, hej, sokoły,</row>
+			<row important_over="true">omij<ch a="G"/>ajcie góry, lasy, doły,</row>
+			<row important_over="true">dzw<ch a="a"/>oń, dzwoń, dzwoń dzwoneczku,</row>
+			<row important_over="true">m<ch a="E"/>ój stepowy skowroneczku,</row>
+			<row important_over="true">mój stepowy: dzw<ch a="E"/>oń, dzwoń, dzw<ch a="a"/>oń!</row>
 		</block>
 		<block type="verse">
-			<row important_over="never">Ładnych dziewcząt jest nie mało</row>
-			<row important_over="never">Lecz najwięcej w Ukrainie</row>
-			<row important_over="never">Tam me serce pozostało</row>
-			<row important_over="never">Przy kochanej mej dziewczynie</row>
-		</block>
-		<blocklink blocknb="2"/>
-		<block type="verse">
-			<row important_over="never">Ona jedna tam została</row>
-			<row important_over="never">Jaskółeczka moja, miła mała</row>
-			<row important_over="never">A ja jeden w obcej stronie</row>
-			<row important_over="never">Dniem i nocą tęsknię do niej</row>
+			<row important_over="false">Pi<ch a="a"/>ęknych dziewcząt jest niem<ch a="E"/>ało,</row>
+			<row important_over="false">lecz najwięcej w Ukrain<ch a="a"/>ie.</row>
+			<row important_over="false">Tam me serce pozost<ch a="d"/>ało</row>
+			<row important_over="false">prz<ch a="a"/>y kochan<ch a="E"/>ej mej dziewczyn<ch a="a"/>ie.<ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Żal, żal za dziewczyną</row>
-			<row important_over="never">Za kochaną Ukrainą</row>
-			<row important_over="never">Żal, żal serce płacze</row>
-			<row important_over="never">Już cię więcej nie zobaczę</row>
+			<row important_over="false">Ona jedna tam zost<ch a="E"/>ała,</row>
+			<row important_over="false">jaskółeczka moja m<ch a="a"/>ała,</row>
+			<row important_over="false">a ja tutaj w obcej str<ch a="d"/>onie,</row>
+			<row important_over="false">dni<ch a="a"/>em i noc<ch a="E"/>ą tęsknię do ni<ch a="a"/>ej.<ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row important_over="never">Wina, wina, wina dajcie</row>
-			<row important_over="never">A jak umrę pochowajcie</row>
-			<row important_over="never">Na zielonej Ukrainie</row>
-			<row important_over="never">Przy kochanej mej dziewczynie.</row>
+			<row important_over="false">Ż<ch a="a"/>al, żal za dziewcz<ch a="E"/>yną,</row>
+			<row important_over="false">za kochaną Ukrain<ch a="a"/>ą,</row>
+			<row important_over="false">żal, żal, serce pł<ch a="d"/>acze,</row>
+			<row important_over="false">j<ch a="a"/>uż cię wi<ch a="E"/>ęcej nie zob<ch a="a"/>aczę.<ch a="G7"/></row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">W<ch a="a"/>ina, wina, wina d<ch a="E"/>ajcie,</row>
+			<row important_over="false">a jak umrę, pochow<ch a="a"/>ajcie</row>
+			<row important_over="false">na zielonej Ukrain<ch a="d"/>ie,</row>
+			<row important_over="false">prz<ch a="a"/>y kochan<ch a="E"/>ej mej dziewczyn<ch a="a"/>ie.<ch a="G7"/></row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	<keywords/>
-	<genre>Piosenka turystyczna</genre>
+	<music metre="2/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>folk</genre>
 	<status>
-		<done/>
-		<verificators/>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Hej_sokoly/tekst</verificator>
+		</verificators>
 	</status>
 </song>
