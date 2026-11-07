@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rudy gość">
-  <alias>Raj Kozaczy</alias>
+  <alias>Raj kozaczy</alias>
+  <text_author type="solo">Aleksy Gałka</text_author>
+  <comment>Piosenka turystyczno-rajdowa ze słowami Aleksego Gałki (współzałożyciela kabaretu Pod Budą) do melodii utworu „Sealed with a Kiss” (muz. Gary Geld).</comment>
+  <composer type="solo">Gary Geld</composer>
+  <artist type="band">Piosenka turystyczna</artist>
   <lyric>
     <block type="verse">
-      <row important_over="true"><ch a="a"/>Rudy gość na trąbie <ch a="d"/>gra </row>
+      <row important_over="true"><ch a="a"/>Rudy gość na trąbie <ch a="d"/>gra</row>
       <row important_over="true">pieśń step<ch a="a"/>ową,<ch a="A7"/></row>
-      <row important_over="true">A<ch a="d"/> step, szer<ch a="G"/>oki st<ch a="C"/>ep </row>
-      <row important_over="true">um<ch a="G0"/>yka mu spod n<ch a="A7"/>óg<ch a="d"/>,</row>
-      <row important_over="true"><ch a="G"/>Niebo <ch a="C"/>zaś nad gł<ch a="a"/>ową<ch a="F"/> </row>
+      <row important_over="true">a <ch a="d"/>step, szer<ch a="G"/>oki st<ch a="C"/>ep</row>
+      <row important_over="true">um<ch a="G0"/>yka mu spod n<ch a="A7"/>óg.<ch a="d"/></row>
+      <row important_over="true"><ch a="G"/>Niebo <ch a="C"/>zaś nad gł<ch a="a"/>ową<ch a="F"/></row>
       <row important_over="true"><ch a="G"/>grzbiet napina sw<ch a="a"/>ój.</row>
     </block>
     <block type="chorus">
-      <row important_over="true">Kozaki, ech junaki,<ch a="F"/><ch a="d"/><ch a="a"/></row>
-      <row important_over="false">Dziewoje, ech krasiwe<ch a="F"/><ch a="d"/><ch a="a"/></row>
-      <row important_over="true">Piękne i leniwe<ch a="d7"/><ch a="a"/></row>
-      <row important_over="true">Śpiewają i grają tę pieśń<ch a="d"/><ch a="F6"/><ch a="A0"/></row>
-      <row important_over="true">O miłości i o dniu, <ch a="d6"/><ch a="E7"/></row>
-      <row important_over="false">który przyjdzie.<ch a="a"/><ch a="A7"/></row>
-      <row important_over="true">A stada koni jak wiatr<ch a="d"/><ch a="G7"/><ch a="C"/></row>
-      <row important_over="true">wciąż przecinają step.<ch a="G0"/><ch a="A7"/><ch a="d"/><ch a="G"/></row>
-      <row important_over="false">To jest raj kozaczy, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="false">to jest nasza pieśń.<ch a="G"/><ch a="a"/></row>
+      <row important_over="true">Koz<ch a="F"/>aki, <ch a="d"/>ech jun<ch a="a"/>aki,</row>
+      <row important_over="true">dziew<ch a="F"/>oje, <ch a="d"/>ech kras<ch a="a"/>iwe,</row>
+      <row important_over="true">pi<ch a="d7"/>ękne i len<ch a="a"/>iwe</row>
+      <row important_over="true">śpi<ch a="d"/>ewają i <ch a="F6"/>grają tę <ch a="A0"/>pieśń</row>
+      <row important_over="true">o mi<ch a="d6"/>łości i o d<ch a="E7"/>niu,</row>
+      <row important_over="true">kt<ch a="a"/>óry prz<ch a="A7"/>yjdzie.</row>
+      <row important_over="true">A st<ch a="d"/>ada k<ch a="G7"/>oni jak wi<ch a="C"/>atr</row>
+      <row important_over="true">wciąż prz<ch a="G0"/>ecin<ch a="A7"/>ają st<ch a="d"/>ep,<ch a="G"/></row>
+      <row important_over="true">to j<ch a="G"/>est r<ch a="C"/>aj koz<ch a="a"/>aczy,<ch a="F"/></row>
+      <row important_over="true">t<ch a="G"/>o jest nasza pi<ch a="a"/>eśń.</row>
     </block>
     <block type="verse">
-      <row important_over="false">Dosiadł konia rudy gość, <ch a="a"/><ch a="d"/></row>
-      <row important_over="false">zabrał trąbę,<ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">A step, szeroki step <ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false">na skrzydłach swych go niósł,<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Koń ze złotą grzywą <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="false">grzbiet napina swój.<ch a="G"/><ch a="a"/></row>
+      <row important_over="false">Dosi<ch a="a"/>adł konia rudy g<ch a="d"/>ość,</row>
+      <row important_over="false">zabrał tr<ch a="a"/>ąbę,<ch a="A7"/></row>
+      <row important_over="false">a <ch a="d"/>step, szer<ch a="G"/>oki st<ch a="C"/>ep</row>
+      <row important_over="false">na skr<ch a="G0"/>ydłach sw<ch a="A7"/>ych go ni<ch a="d"/>ósł,</row>
+      <row important_over="false">k<ch a="G"/>oń ze zł<ch a="C"/>otą grz<ch a="a"/>ywą<ch a="F"/></row>
+      <row important_over="false">grzb<ch a="G"/>iet napina sw<ch a="a"/>ój.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="false">Rudy step, a w stepie mgła <ch a="a"/><ch a="d"/></row>
-      <row important_over="false">srebrnolica<ch a="a"/><ch a="A7"/></row>
-      <row important_over="false">I step, szeroki step,<ch a="d"/><ch a="G"/><ch a="C"/></row>
-      <row important_over="false"> już umilkł trąby głos<ch a="G0"/><ch a="A7"/><ch a="d"/></row>
-      <row important_over="false">Płacze krasawica, <ch a="G"/><ch a="C"/><ch a="a"/><ch a="F"/></row>
-      <row important_over="false">ktoś odjechał stąd. <ch a="G"/><ch a="a"/></row>
+      <row important_over="false">R<ch a="a"/>udy step, a w stepie mgł<ch a="d"/>a</row>
+      <row important_over="false">srebrnol<ch a="a"/>ica,<ch a="A7"/></row>
+      <row important_over="false">i <ch a="d"/>step, szer<ch a="G"/>oki st<ch a="C"/>ep,</row>
+      <row important_over="false">j<ch a="G0"/>uż um<ch a="A7"/>ilkł trąby gł<ch a="d"/>os,</row>
+      <row important_over="false">pł<ch a="G"/>acze kr<ch a="C"/>asaw<ch a="a"/>ica,<ch a="F"/></row>
+      <row important_over="false">kt<ch a="G"/>oś odjechał st<ch a="a"/>ąd.</row>
     </block>
+    <blocklink blocknb="2"/>
   </lyric>
-  <keywords/>
-  <genre>Piosenka turystyczna</genre>
+  <music metre="4/4">
+    <guitar barre="0"/>
+  </music>
+  <genre>piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords/>
+    </done>
+    <verificators>
+      <verificator>http://bazuna.org.pl</verificator>
+    </verificators>
+    <to_do/>
   </status>
 </song>
