@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Już lato">
-  <comment>przygrywka, to akord a-moll, zaś 7+/7/6 itd, to są kolejno dodawane palce na strunie e (zaczynamy od 3 progu, później 2 i na końcu 1)</comment>
+  <comment>Przygrywka to akord a-moll, zaś 7+/7/6 itd. to kolejno dodawane dźwięki na wiolinowej strunie e (zaczynamy od progu 3, później 2 i na końcu 1).</comment>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="a"/><ch a="a7+"/><ch a="a7"/><ch a="a6"/></row>
+      <row important_over="false" style="instr"><ch a="a"/><ch a="a7+"/><ch a="a7"/><ch a="a6"/></row>
     </block>
     <block type="verse">
-      <row important_over="true">Wi<ch a="a"/>at i słońce rozbawione la<ch a="H7"/>tem</row>
-      <row important_over="true">Prz<ch a="E7"/>eplatane snami o prz<ch a="a"/>ygodzie</row>
-      <row important_over="true">G<ch a="C"/>dzieś z maleńkiej stacji kole<ch a="d"/>jowej</row>
-      <row important_over="true">Wyr<ch a="a"/>uszyły ze mną w d<ch a="E"/>rogę</row>
+      <row important_over="true"><ch a="a"/>Wiatr i słońce rozbawione la<ch a="H7"/>tem</row>
+      <row important_over="true"><ch a="E7"/>Przeplatane snami o prz<ch a="a"/>ygodzie</row>
+      <row important_over="true"><ch a="C"/>Gdzieś z maleńkiej stacji kole<ch a="d"/>jowej</row>
+      <row important_over="true"><ch a="a"/>Wyruszyły ze mną w d<ch a="E"/>rogę</row>
     </block>
     <block type="chorus">
-      <row important_over="true">J<ch a="A"/>uż lato w kosz<ch a="E7"/>uli rozp<ch a="A"/>iętej</row>
-      <row important_over="true">Wy<ch a="A"/>soko mal<ch a="H7"/>uje obł<ch a="E7"/>oki</row>
-      <row important_over="true">I c<ch a="D"/>iepłym d<ch a="H7"/>eszczem w po<ch a="E7"/>łudnie</row>
-      <row important_over="true">Dziewc<ch a="A"/>zętom r<ch a="E7"/>ozkręca l<ch a="A/a"/>oki.. </row>
+      <row important_over="true"><ch a="A"/>Już lato w kosz<ch a="E7"/>uli rozp<ch a="A"/>iętej</row>
+      <row important_over="true"><ch a="A"/>Wysoko mal<ch a="H7"/>uje obł<ch a="E7"/>oki</row>
+      <row important_over="true">I <ch a="D"/>ciepłym d<ch a="H7"/>eszczem w po<ch a="E7"/>łudnie</row>
+      <row important_over="true"><ch a="A"/>Dziewczętom r<ch a="E7"/>ozkręca l<ch a="A/a"/>oki</row>
     </block>
     <blocklink blocknb="1"/>
     <block type="verse">
-      <row important_over="false">Rozstąpiły sie zielone drzewa<ch a="a"/><ch a="H7"/></row>
-      <row important_over="false">Utworzyły chłodny tunel z liści<ch a="E7"/><ch a="a"/></row>
-      <row important_over="false">A gospodarz przy starej zagrodzie<ch a="C"/><ch a="d"/></row>
-      <row important_over="false">Życzył szczęścia w dalszej drodze <ch a="a"/><ch a="E"/></row>
+      <row important_over="false"><ch a="a"/>Rozstąpiły się zielone dr<ch a="H7"/>zewa</row>
+      <row important_over="false"><ch a="E7"/>Utworzyły chłodny tunel z <ch a="a"/>liści</row>
+      <row important_over="false"><ch a="C"/>A gospodarz przy starej zag<ch a="d"/>rodzie</row>
+      <row important_over="false"><ch a="a"/>Życzył szczęścia w dalszej d<ch a="E"/>rodze</row>
     </block>
-    <blocklink blocknb="4"/>
+    <blocklink blocknb="3"/>
+    <blocklink blocknb="1"/>
   </lyric>
   <keywords/>
+  <genre>Piosenka turystyczna</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>http://orkisz.pl</verificator>
+    </verificators>
+    <to_do>Autorzy tekstu i muzyki nieznani (brak wiarygodnych źródeł autorstwa piosenki śpiewanej w środowisku turystycznym i przez Pawła Orkisza).</to_do>
   </status>
 </song>
