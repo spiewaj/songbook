@@ -12,10 +12,10 @@
       <row important_over="true"><ch a="H"/>Całą zimę przyszło <ch a="A"/>tkwić mi w Śniegowicach.</row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Byłem głupi, bo tak <ch a="cis"/>dałem się zaskoczyć,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Że przy sobie miałem <ch a="A"/>tylko napiwek,</row>
-      <row important_over="false" sidechords="E cis"><ch a="E"/>A gdy bieda mi zaj<ch a="cis"/>rzała prosto w oczy,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Uśmiechnąłem się i <ch a="A"/>zapytałem zimy:</row>
+      <row important_over="false"><ch a="E"/>Byłem głupi, bo tak <ch a="cis"/>dałem się zaskoczyć,</row>
+      <row important_over="false"><ch a="H"/>Że przy sobie miałem <ch a="A"/>tylko napiwek,</row>
+      <row important_over="false"><ch a="E"/>A gdy bieda mi zaj<ch a="cis"/>rzała prosto w oczy,</row>
+      <row important_over="false"><ch a="H"/>Uśmiechnąłem się i <ch a="A"/>zapytałem zimy:</row>
     </block>
     <block type="chorus">
       <row important_over="true"><ch a="E"/>Co mnie tu <ch a="cis"/>trzyma,</row>
@@ -24,23 +24,23 @@
       <row important_over="true"><ch a="H"/>Tak odrzekła mi <ch a="A"/>zima.</row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Źle nie było, ale <ch a="cis"/>rzadko tak do śmiechu,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Czasem śniegu było <ch a="A"/>więcej niż herbaty.</row>
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Za pieniądze poży<ch a="cis"/>czane od kolegów</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Kupowałem mały <ch a="A"/>dom na duże raty.</row>
+      <row important_over="false"><ch a="E"/>Źle nie było, ale <ch a="cis"/>rzadko tak do śmiechu,</row>
+      <row important_over="false"><ch a="H"/>Czasem śniegu było <ch a="A"/>więcej niż herbaty.</row>
+      <row important_over="false"><ch a="E"/>Za pieniądze poży<ch a="cis"/>czane od kolegów</row>
+      <row important_over="false"><ch a="H"/>Kupowałem mały <ch a="A"/>dom na duże raty.</row>
     </block>
     <block type="verse">
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Gdy mi mówisz, że prze<ch a="cis"/>ciąga się ta zima,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Gdy mnie pytasz, kiedy <ch a="A"/>znowu cię odwiedzę,</row>
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Ty chcesz wiedzieć, co mnie <ch a="cis"/>jeszcze tutaj trzyma,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Ty chcesz wiedzieć, a ja <ch a="A"/>wiem, co odpowiedzieć.</row>
+      <row important_over="false"><ch a="E"/>Gdy mi mówisz, że prze<ch a="cis"/>ciąga się ta zima,</row>
+      <row important_over="false"><ch a="H"/>Gdy mnie pytasz, kiedy <ch a="A"/>znowu cię odwiedzę,</row>
+      <row important_over="false"><ch a="E"/>Ty chcesz wiedzieć, co mnie <ch a="cis"/>jeszcze tutaj trzyma,</row>
+      <row important_over="false"><ch a="H"/>Ty chcesz wiedzieć, a ja <ch a="A"/>wiem, co odpowiedzieć.</row>
     </block>
     <blocklink blocknb="3"/>
     <block type="verse">
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Dziś, gdy patrzę na te <ch a="cis"/>moje Śniegowice,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>Zamrożone tak, a <ch a="A"/>już nie koniec świata,</row>
-      <row important_over="false" sidechords="E cis"><ch a="E"/>Zapominam — widzę <ch a="cis"/>tylko, co chcę widzieć,</row>
-      <row important_over="false" sidechords="H A"><ch a="H"/>I pamiętam koniec <ch a="A"/>zimy w środku lata.</row>
+      <row important_over="false"><ch a="E"/>Dziś, gdy patrzę na te <ch a="cis"/>moje Śniegowice,</row>
+      <row important_over="false"><ch a="H"/>Zamrożone tak, a <ch a="A"/>już nie koniec świata,</row>
+      <row important_over="false"><ch a="E"/>Zapominam — widzę <ch a="cis"/>tylko, co chcę widzieć,</row>
+      <row important_over="false"><ch a="H"/>I pamiętam koniec <ch a="A"/>zimy w środku lata.</row>
     </block>
     <blocklink blocknb="3"/>
   </lyric>
@@ -51,7 +51,7 @@
     <done>
       <text/>
       <authors/>
-      <chords>chords</chords>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
       <verificator>https://spiewnik.wywrota.pl/tomasz-wachnowski/sniegowice</verificator>
