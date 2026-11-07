@@ -38,7 +38,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Piosenka_dla_piosenki/tekst</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Album SDM „Dla wszystkich starczy miejsca” (1990); wiersz Edwarda Stachury</music_source>
