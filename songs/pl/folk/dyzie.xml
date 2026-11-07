@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dyzie">
-  <text_author>słowa tradycyjne</text_author>
-  <comment>Tradycyjna kołysanka obozowa i harcerska.</comment>
-  <composer>melodia tradycyjna</composer>
-  <artist>utwór tradycyjny</artist>
   <genre>Folk</genre>
   <lyric>
     <block type="verse">
@@ -34,12 +30,9 @@
   </lyric>
   <status>
     <done>
-      <authors/>
-      <chords>chords</chords>
       <text/>
     </done>
-    <verificators>
-      <verificator>Harcerska tradycja śpiewacza (kołysanka obozowa)</verificator>
-    </verificators>
+    <verificators/>
+    <to_do>Tradycyjna kołysanka obozowa z repertuaru 21 WDH – brak zewnętrznego źródła do weryfikacji autorów i melodii.</to_do>
   </status>
 </song>
