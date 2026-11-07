@@ -43,13 +43,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Stare Dobre Małżeństwo - Dolina w długich cieniach (1995)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/nie-rozdziobia-nas-kruki</verificator>
-			<verificator>Edward Stachura, Poezje wybrane</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/nie-rozdziobia-nas-kruki</verificator>
+    </verificators>
 	</status>
 </song>
