@@ -25,19 +25,25 @@ export default class SongCh extends HTMLElement {
     this.ch.ondblclick = (event) => {
       console.log("CH-double-click");
       this.setAttribute("editing", "true");
-      this.updateEditing();
+      this.che.select();
     };
     this.che.onchange = (event) => {
-      this.setAttribute("a", this.che.value);
-      this.verse.onChangedChord();
+      this.setAttribute("a", this.che.value.trim());
+      if (this.verse) {
+        this.verse.onChangedChord();
+      }
     };
     this.che.onblur = (event) => {
+      const val = this.che.value.trim();
       const songBody = this.getSongBody();
       const row = this.parentNode;
+      if (val !== '') {
+        this.setAttribute("a", val);
+      }
       this.setAttribute("editing", "false");
       this.updateEditing();
       if (!row) return;
-      if (this.che.value.trim() === '') {
+      if (val === '') {
         if (songBody) songBody.focus();
         if (this.nextSibling && this.nextSibling.nodeName === '#text' && this.nextSibling.nodeValue.length > 0) {
           setCursorAfter(this);
@@ -46,10 +52,12 @@ export default class SongCh extends HTMLElement {
         }
         this.remove();
         row.normalize();
+        if (songBody) songBody.changePostprocess();
         return;
       }
       row.normalize();
       this.select(songBody);
+      if (songBody) songBody.changePostprocess();
     }
     this.ch.onmousedown = (event) => {
       // We need to prevent the parent to catch the double click
@@ -69,24 +77,25 @@ export default class SongCh extends HTMLElement {
       console.log("dragend", event.dataTransfer.dropEffect, event);
       event.target.opacity = '1.0';
       if (/*this.getSongBody().dropped &&*/ event.dataTransfer.dropEffect == 'move') {
+        const songBody = this.getSongBody();
         this.remove();
+        if (songBody) songBody.changePostprocess();
       }
     }
 
     this.onkeydown = (e) => {
       if (e.key === 'Escape') {
-        this.che.value = '';
+        this.che.value = this.getAttribute("a") || '';
+        this.che.blur();
+        e.preventDefault();
+        return;
+      }
+      if ((e.key === 'Backspace' || e.key === 'Delete') && this.che.value === '') {
         this.che.blur();
         e.preventDefault();
         return;
       }
       if (e.key === 'Enter' || e.key === 'Tab') {
-        if (this.che.value.trim() !== '') {
-          this.setAttribute("a", this.che.value);
-          if (this.verse) {
-            this.verse.onChangedChord();
-          }
-        }
         this.che.blur();
         if (e.key === 'Enter') {
           e.preventDefault();

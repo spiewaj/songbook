@@ -53,10 +53,10 @@ export function makeRowNotInstrumental(row) {
 }
 
 export function pushRowChords(row, text) {
-  let chords = text.replaceAll(' ', nbsp).split(nbsp);
-  // console.log(chords);
-  // if (row.getAttribute('type')=='instr') {
-  //   row.removeAttribute("type");
+  let chords = text
+      .replaceAll(/[()[\]<>|!]/g, ' ')
+      .split(/[\s\u00a0]+/)
+      .filter(Boolean);
   let c = row.firstChild;
   while (c != null) {
     let n=c.nextSibling
@@ -66,10 +66,7 @@ export function pushRowChords(row, text) {
     c=n
   }
   for (let i=0; i<chords.length; ++i) {
-    if (chords[i] != '|' && chords[i] != '(' && chords[i] != '!' && chords[i] != ')') {
-      row.appendChild(createChord(chords[i]));
-    }
-  //  row.appendChild(document.createTextNode(nbsp + nbsp));
+    row.appendChild(createChord(chords[i]));
   }
   row.normalize();
   notifyRowParentAboutChange(row);
@@ -291,6 +288,13 @@ function deleteSelectedRangeAcrossRows(r, songbody) {
   const startVerse = findAncestor(startRow, 'SONG-VERSE');
   const endVerse = findAncestor(endRow, 'SONG-VERSE');
 
+  if (!startRow.contains(r.startContainer)) {
+    r.setStart(startRow, 0);
+  }
+  if (!endRow.contains(r.endContainer)) {
+    r.setEnd(endRow, endRow.childNodes.length);
+  }
+
   const endAtZero = (r.endContainer === endRow && r.endOffset === 0) ||
       (r.endContainer === endRow.firstChild && r.endOffset === 0);
 
@@ -356,7 +360,7 @@ export default class SongBody extends HTMLElement {
       <button id="buttonInstr"><i class="material-icons">music_note</i>Wers instrumentalny</button><i id="help-instr-icon" class="material-icons">help</i>
       <div id="help-instr" class="help">Wers zawierający tylko akordy. Odzielaj je spacjami.</div>
       
-      <button id="buttonUndo"><i class="material-icons">undo</i>Confij</button>
+      <button id="buttonUndo"><i class="material-icons">undo</i>Cofij</button>
       <button id="buttonRedo"><i class="material-icons">redo</i>Ponów</button>
     </div>    
 </div>
@@ -429,14 +433,22 @@ export default class SongBody extends HTMLElement {
   }
 
   refreshToolbar() {
-    this.importantOver.disabled = this.allSelectedImportant();
+    const selRows = this.selectedRows();
+    const hasRows = selRows.length > 0;
+    this.importantOver.disabled = !hasRows || this.allSelectedImportant();
+    this.notImportantOver.disabled = !hasRows || selRows.every(r => r.getAttribute("important_over") === "false" && !isRowInstr(r));
+    this.sideOnly.disabled = !hasRows || selRows.every(r => r.getAttribute("important_over") === "never" && !isRowInstr(r));
+    this.buttonChord.disabled = !canInsertChord();
+    this.buttonSplit.disabled = !hasRows;
+    this.buttonUndo.disabled = this.undo.length <= 1;
+    this.buttonRedo.disabled = this.redo.length === 0;
 
     if (this.allSelectedInstrumental()) {
       this.buttonInstr.innerHTML='<i class="material-icons">lyrics</i>Wers liryczny';
     } else {
       this.buttonInstr.innerHTML='<i class="material-icons">music_note</i>Wers instrumentalny';
     }
-    this.buttonBis.disabled = document.getSelection().rangeCount==0;
+    this.buttonBis.disabled = !hasRows;
   }
 
   focusout(e, songbody) {
@@ -516,6 +528,7 @@ export default class SongBody extends HTMLElement {
           bis.appendChild(bisRows);
           songRowsParent.insertBefore(bis, selRows[0]);
           bisRows.append(...selRows);
+          this.changePostprocess();
           bis.focus();
         }
       }
@@ -525,14 +538,18 @@ export default class SongBody extends HTMLElement {
   toggleImportantOver(important_over) {
     let selRows = this.selectedRows();
     for (let i = 0; i < selRows.length; ++i) {
+      if (isRowInstr(selRows[i])) {
+        makeRowNotInstrumental(selRows[i]);
+      }
       selRows[i].setAttribute("important_over", important_over);
     }
+    this.changePostprocess();
   }
 
   splitVerse() {
     let selRows = this.selectedRows();
     if (selRows.length > 0) {
-      SplitVerseFromRow(selRows[selRows.length - 1]);
+      SplitVerseFromRow(selRows[0]);
       this.changePostprocess();
     }
   }
@@ -566,18 +583,23 @@ export default class SongBody extends HTMLElement {
   }
 
   selectAll() {
-    let r=document.createRange();
-    let rows=this.getElementsByTagName("SONG-ROW");
+    let r = document.createRange();
+    let rows = [...this.getElementsByTagName("SONG-ROW")].filter(
+      row => !findAncestor(row, "SONG-VERSE")?.getAttribute("blocknb")
+    );
+    if (rows.length === 0) return;
+    sanitizeRow(rows[0]);
+    sanitizeRow(rows[rows.length - 1]);
     r.setStartBefore(rows[0].firstChild);
-    r.setEndAfter(rows[rows.length-1].lastChild);
+    r.setEndAfter(rows[rows.length - 1].lastChild);
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(r);
-    //document.getSelection().selectAllChildren(this.body);
-    this.body.focus();
+    this.focus();
   }
 
   allSelectedImportant() {
     let selRows = this.selectedRows();
+    if (selRows.length === 0) return false;
     let allImportant=true;
     for (let i=0; i<selRows.length; ++i) {
      // console.log("allSelectedImportant: considering", selRows[i])
@@ -588,6 +610,7 @@ export default class SongBody extends HTMLElement {
 
   allSelectedInstrumental() {
     let selRows = this.selectedRows();
+    if (selRows.length === 0) return false;
     let allInstrumental=true;
     for (let i=0; i<selRows.length; ++i) {
       allInstrumental &&= selRows[i].getAttribute("type")==="instr";
@@ -625,9 +648,62 @@ export default class SongBody extends HTMLElement {
 
   keyDown(e,songBook) {
     console.log("keydown...",e, document.getSelection());
+    if (e.target != songBook) {
+      return;
+    }
     if (e.key == '`' && canInsertChord()) {
       if (insertChordHere("")) {
         e.preventDefault();
+      }
+      return;
+    }
+
+    if ((e.metaKey || e.ctrlKey) && !e.altKey) {
+      if (e.key.toLowerCase() === 'z') {
+        if (e.shiftKey) {
+          songBook.doRedo();
+        } else {
+          songBook.doUndo();
+        }
+        e.preventDefault();
+        return;
+      }
+      if (e.key.toLowerCase() === 'y' && !e.shiftKey) {
+        songBook.doRedo();
+        e.preventDefault();
+        return;
+      }
+      if (e.key.toLowerCase() === 'a' && !e.shiftKey) {
+        songBook.selectAll();
+        e.preventDefault();
+        return;
+      }
+      if (e.key.toLowerCase() === 'b' && !e.shiftKey) {
+        songBook.wrapBis();
+        e.preventDefault();
+        return;
+      }
+    }
+
+    if (e.key === 'Home' && !e.shiftKey && !e.metaKey && !e.altKey && !e.ctrlKey) {
+      if (document.getSelection().rangeCount > 0) {
+        const row = findAncestor(document.getSelection().getRangeAt(0).startContainer, 'SONG-ROW');
+        if (row) {
+          setCursorAtRowStart(row);
+          e.preventDefault();
+          return;
+        }
+      }
+    }
+
+    if (e.key === 'End' && !e.shiftKey && !e.metaKey && !e.altKey && !e.ctrlKey) {
+      if (document.getSelection().rangeCount > 0) {
+        const row = findAncestor(document.getSelection().getRangeAt(0).startContainer, 'SONG-ROW');
+        if (row) {
+          setCursorAtRowEnd(row);
+          e.preventDefault();
+          return;
+        }
       }
     }
 
@@ -711,11 +787,6 @@ export default class SongBody extends HTMLElement {
           }
         }
       }
-    }
-
-    if (e.key == 'b'  && e.metaKey) {
-      songBook.wrapBis();
-      e.preventDefault();
     }
   }
 
@@ -1112,7 +1183,9 @@ export default class SongBody extends HTMLElement {
     let lastState=this.innerHTML;
     if (this.undo.length==0 || this.undo[this.undo.length-1]!==lastState) {
       this.undo.push(lastState);
+      this.redo = [];
     }
+    this.refreshToolbar();
     console.log("Postprocessed. Undo len: ", this.undo.length);
   }
 
@@ -1159,37 +1232,81 @@ export default class SongBody extends HTMLElement {
         }
       }
       let data = e.clipboardData.getData("text/html");
+      const hasSongMarkup = /<(song-|row\b|ch\b|block\b|bis\b)|annotated-lyrics|data-local/i.test(data);
+      if (!hasSongMarkup) {
+        data = '';
+      }
       if (data === '') {
         const plain = e.clipboardData.getData("text/plain");
         const separateLines = plain.split(/\r?\n|\r|\n/g);
         if (separateLines.length === 1) {
           const r = sel.getRangeAt(0);
+          const row = findAncestor(r.startContainer, 'SONG-ROW');
+          if (row && (r.startContainer === row || r.startContainer === row.firstChild)
+              && r.startOffset === 0
+              && row.firstChild?.nodeName === '#text'
+              && row.firstChild.nodeValue.startsWith(nbsp)) {
+            sel.collapse(row.firstChild, 1);
+          }
+          const curRange = sel.getRangeAt(0);
           const textToInsert = separateLines[0].replaceAll(" ", nbsp);
-          if (r.startContainer.nodeName === '#text') {
-            const tn = r.startContainer;
-            const off = r.startOffset;
+          if (curRange.startContainer.nodeName === '#text') {
+            const tn = curRange.startContainer;
+            const off = curRange.startOffset;
             tn.insertData(off, textToInsert);
             sel.collapse(tn, off + textToInsert.length);
           } else {
             const tn = document.createTextNode(textToInsert);
-            r.insertNode(tn);
+            curRange.insertNode(tn);
             sel.collapse(tn, tn.nodeValue.length);
           }
           e.preventDefault();
           songbody.changePostprocess();
           return;
         }
+        // Trim leading/trailing blank lines and collapse multiple blank lines into verse splits
+        while (separateLines.length > 0 && separateLines[0].trim() === '') {
+          separateLines.shift();
+        }
+        while (separateLines.length > 0 && separateLines[separateLines.length - 1].trim() === '') {
+          separateLines.pop();
+        }
         let newdata = '';
+        let prevBlank = false;
         separateLines.forEach(line => {
-          newdata += "<row important_over='never'>" + line + "</row>";
+          if (line.trim() === '') {
+            if (!prevBlank) {
+              newdata += "<row important_over='false'></row><row important_over='false'></row>";
+              prevBlank = true;
+            }
+          } else {
+            prevBlank = false;
+            const escaped = line
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;');
+            newdata += "<row important_over='false'>" + escaped + "</row>";
+          }
         });
         data = newdata;
       }
+      const r = sel.getRangeAt(0);
+      const targetRow = findAncestor(r.startContainer, 'SONG-ROW');
       let p = document.createElement("span");
       p.innerHTML = data;
-      sel.getRangeAt(0).insertNode(p);
+      if (targetRow && isEmptyRow(targetRow) && /<(song-row|row)\b/i.test(data)) {
+        targetRow.replaceWith(p);
+      } else {
+        r.insertNode(p);
+      }
       e.preventDefault();
       songbody.changePostprocess();
+      const allRows = [...songbody.querySelectorAll('song-row')].filter(
+        row => !findAncestor(row, 'SONG-VERSE')?.getAttribute('blocknb')
+      );
+      if (allRows.length > 0) {
+        setCursorAtRowEnd(allRows[allRows.length - 1]);
+      }
     }
   }
 
