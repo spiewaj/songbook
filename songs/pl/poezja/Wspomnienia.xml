@@ -9,7 +9,7 @@
 	<original_title>Memories</original_title>
 	<lyric>
 		<block type="other">
-			<row important_over="true" sidechords="C a F G">Lata 50-te, Kanada. Brudna, przepocona sala gimnastyczna w jakiejś</row>
+			<row important_over="never" sidechords="C a F G">Lata 50-te, Kanada. Brudna, przepocona sala gimnastyczna w jakiejś</row>
 			<row important_over="never">kanadyjskiej szkole. Dziewczęta tańczą ze sobą, chłopcy trochę pijani</row>
 			<row important_over="never">podpierają drabinki gimnastyczne. W kieszeniach butelki taniego,</row>
 			<row important_over="never">botwinowego wina po 21 centów, a może nawet po 19 centów...</row>
@@ -25,7 +25,7 @@
 			<row important_over="true">Swe nagie ci<ch a="C"/>ało?<ch a="a"/><ch a="F"/><ch a="Fis"/><ch a="G"/></row>
 		</block>
 		<block type="other">
-			<row important_over="false" sidechords="C a F G">A ja skoncentruję się przed czekającym mnie</row>
+			<row important_over="never" sidechords="C a F G">A ja skoncentruję się przed czekającym mnie</row>
 			<row important_over="never">w następnej zwrotce niełatwym zadaniem aktorskim.</row>
 			<row important_over="never">Z tekstu wynika, że będę musiał wcielić się w postać</row>
 			<row important_over="never">niewinnej, jasnowłosej, kanadyjskiej nastolatki...</row>
@@ -63,10 +63,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>chords</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
 			<verificator>Tekst: KT</verificator>
+			<verificator>https://spiewnik.wywrota.pl/maciej-zembaty/wspomnienia</verificator>
 		</verificators>
 	</status>
 </song>
