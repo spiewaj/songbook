@@ -26,7 +26,9 @@ import {
     htmlSuffix,
     htmlPrefix,
     MAIN_BRANCH_NAME,
+    fetchBranch,
     prepareBranch, editorLink,
+    slugifyTitle, getDirForGenre, sanitizeBranchName,
     prepareMainBranch,
     stripProtocol,
     HandleError, EDITOR_BASE_URL, PARENT_DOMAIN, clearCookiesAndAuthRedirect, REDIRECT_BASE_URL,
@@ -36,6 +38,8 @@ import {
 const app = express();
 
 app.use(cookieParser());
+app.use(express.json());
+app.use(express.text({type: ['text/xml', 'application/xml', 'text/plain']}));
 
 // Allow multiple origins for CORS
 const allowedOrigins = [
@@ -79,6 +83,10 @@ app.get('/', async (req, res) => {
     } else {
         res.redirect("/intro");
     }
+});
+
+app.get('/new', async (req, res) => {
+    res.redirect('/users/me/changes:new');
 });
 
 app.get('/changes', async (req, res) => {
@@ -261,52 +269,24 @@ app.get('/users/:user/changes[:]new', async (req, res) => {
             console.log("No octokit in changes:NEW processing finished - exiting immedietely!!!");
             return;
         }
-        console.log("Request query: ", req.query)
-        console.log("Request query file: ", req.query.file)
+        console.log("Request query: ", req.query);
+        console.log("Request query file: ", req.query.file);
         if (req.query.file) {
             let dir = req.query.dir ? req.query.dir.trim() : "";
             let file = req.query.file.trim();
-            console.log("Got file: ", file, "dir: ", dir)
+            console.log("Got file: ", file, "dir: ", dir);
             if (!file.toLowerCase().endsWith(".xml")) {
                 file = file + ".xml";
             }
-            return await newChange(path.join(dir, file), octokit, user, res)
+            return await newChange(path.join(dir, file), octokit, user, res);
         }
 
-        let dirs = await getDirs(octokit, user)
-
-        htmlPrefix(res);
-
-        res.write(`<datalist id="dirs">\n`);
-        for (const dir of dirs) {
-            res.write(`  <option>${dir}</option>\n`);
-        }
-        res.write(`</datalist>\n`);
-
-        res.write(`
-    <form action="/users/${user}/changes:new" method="post">
-    <h1>Nowa edycja</h1>\n
-      Wybierz katalog w którym chcesz umieścić piosenkę:
-       <input name="dir" id='dir' type="text" list="dirs" /><br/>
-       Podaj nazwę pliku - tytuł piosenki to dobry pomysł:
-       <input name="file" id='file' type="text" required pattern="[a-zA-Z0-9\\.\\-_() ]+" 
-        oninvalid="this.setCustomValidity('Pole musi być wypełnione i zawierać wyłącznie podstawowe litery, cyfry, myślnik i podkreślnik.')"
-        oninput="this.setCustomValidity('')"/>
-      <div>
-        <input type="submit" value="Rozpocznij edycję"/>
-      </div>
-    </form>`);
+        // Direct to editor with lazy branch creation (branch is created on first save)
+        res.redirect(`${EDITOR_BASE_URL}?new=true&user=${encodeURIComponent(user)}&baseUrl=${encodeURIComponent(BASE_URL)}`);
     } catch (e) {
         HandleError(e, res);
-    } finally {
-        htmlSuffix(res);
-        console.log("!!! /changes:NEW processing finished !!!");
     }
 });
-
-function sanitizeBranchName(br) {
-    return br.replaceAll(/[^a-zA-Z0-9.\-_]/g, "_");
-}
 
 async function newChange(file, octokit, user, res) {
     try {
@@ -478,6 +458,74 @@ async function commit(branchName, file, msg, payload, req, res) {
         }
     });
 }
+
+app.post('/users/:user/changes[:]create', async (req, res) => {
+    try {
+        const {octokit, user} = await newUserOctokit(req, res);
+        if (!octokit) return;
+
+        let title = "";
+        let genre = "";
+        let payload = "";
+        let msg = "";
+
+        if (typeof req.body === 'object' && req.body !== null) {
+            title = req.body.title || "";
+            genre = req.body.genre || "";
+            payload = req.body.content || req.body.payload || "";
+            msg = req.body.msg || "";
+        } else if (typeof req.body === 'string') {
+            payload = req.body;
+        }
+
+        if (!title && req.query.title) title = req.query.title;
+        if (!genre && req.query.genre) genre = req.query.genre;
+        if (!msg && req.query.msg) msg = req.query.msg;
+
+        if (!payload || payload.trim() === "") {
+            res.status(400).send({ status: "failure", errors: "Empty payload" });
+            return;
+        }
+
+        const validError = await validateSongXML(payload);
+        if (validError) {
+            res.send({ status: "failure", errors: validError });
+            return;
+        }
+
+        let dir = getDirForGenre(genre);
+        let slug = slugifyTitle(title);
+        let filename = slug + ".xml";
+        let filePath = path.join(dir, filename);
+
+        let today = new Date().toISOString().slice(0, 10);
+        let branchName = sanitizeBranchName(`se-${today}-${slug}`);
+        let existing = await fetchBranch(octokit, user, branchName);
+        if (existing) {
+            let rand = Math.floor(Math.random() * 10000);
+            branchName = sanitizeBranchName(`se-${today}-${rand}-${slug}`);
+        }
+
+        let commitMsg = msg && msg.trim() !== "" ? msg : `Piosenka ${title}: Utworzenie piosenki`;
+
+        const commitResult = await commit(branchName, filePath, commitMsg, payload, req, res);
+        if (commitResult && commitResult.createCommitOnBranch) {
+            res.send({
+                status: "committed",
+                branch: branchName,
+                file: filePath,
+                commit: commitResult.createCommitOnBranch.commit
+            });
+        } else {
+            res.send({
+                status: "failure",
+                errors: commitResult ? commitResult.errors : "Unknown commit error"
+            });
+        }
+    } catch (e) {
+        HandleError(e, res);
+    }
+});
 
 app.post('/users/:user/changes/:branchName[:]commit', async (req, res) => {
     const branchName = req.params.branchName;

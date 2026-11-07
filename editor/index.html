@@ -20,12 +20,13 @@
   
       const {baseUrl,branch,file,user} = parseParams();
 
-      const loadUrl = urlParams.get('load') ? urlParams.get('load') : baseUrl ? `${baseUrl}/users/${user}/changes/${branch}/${file}` : null;
+      const newFile = urlParams.get('new');
+      const loadUrl = urlParams.get('load') ? urlParams.get('load') : (baseUrl && branch && file) ? `${baseUrl}/users/${user}/changes/${branch}/${file}` : null;
 
       const commitOnLoad = urlParams.get('commitOnLoad');
-      const newFile = urlParams.get('new');
       const songEditor = document.getElementsByTagName("song-editor")[0];
-      songEditor.setAttribute("git", branch && branch.trim() != '');
+      const hasGit = (branch && branch.trim() != '') || (newFile === 'true' && !!user);
+      songEditor.setAttribute("git", hasGit);
       if (loadUrl) {
         songEditor.setAttribute("title", "Wczytywanie ...");
         fetch(loadUrl, {credentials: 'include', method: 'GET', redirect: 'manual'})
@@ -187,15 +188,21 @@
           body: serialized
         }
         const {baseUrl,branch,file,user} = parseParams();
-        const response = await fetch(`${baseUrl}/users/${user}/changes/${branch}/${file}?msg=${encodeURIComponent(msg)}`, config)
+        const response = await fetch(`${baseUrl}/users/${user}/changes/${branch}/${file}?msg=${encodeURIComponent(msg)}`, config);
         if (response.ok) {
-          songbook.MarkAsCommitted(serialized);
-          return true;
+          const data = await response.json();
+          if (data && data.status === "committed") {
+            songbook.MarkAsCommitted(serialized);
+            return true;
+          } else {
+            alert("Błąd zapisu: " + (data && data.errors ? JSON.stringify(data.errors) : "Nieznany błąd"));
+            return false;
+          }
         } else if (response.status === 401 || response.status === 403) {
           handleAuthRedirect(null, songbook);
           return false;
         } else {
-          alert("Zapis się nie powiódł. Czy jesteś podlączony do internetu ?");
+          alert("Zapis się nie powiódł. Czy jesteś podłączony do internetu?");
           console.warn(response);
           return false;
         }
@@ -211,14 +218,14 @@
     }
 
     async function commit(songbook) {
-      const {serialized, changed, title} = songbook.SerializeWithChange();//document.getElementsByTagName("song-editor")[0].Serialize();
+      const {serialized, changed, title} = songbook.SerializeWithChange();
 
       if (!changed) {
         notice("Brak nowych zmian", songbook);
         return true; // To taki sukces.
       }
 
-      const {branch} = parseParams();
+      const {baseUrl, branch, file, user} = parseParams();
 
       console.log(serialized);
       if (branch) {
@@ -227,11 +234,82 @@
           return false;
         }
         msg = `Piosenka ${title}: ` + msg;
-        const ci = commitInternal(songbook, serialized, msg)
-        notice("Zapisano", songbook);
-        return ci
+        const ci = await commitInternal(songbook, serialized, msg);
+        if (ci) {
+          notice("Zapisano", songbook);
+        }
+        return ci;
+      } else {
+        if (!user || !baseUrl) {
+          alert("Brak połączenia z kontem GitHub. Zaloguj się ponownie.");
+          return false;
+        }
+
+        if (!title || title.trim() === '') {
+          alert("Wprowadź tytuł piosenki przed zapisaniem.");
+          const titleInput = songbook.shadowRoot ? songbook.shadowRoot.getElementById("title") : (songbook.shadow ? songbook.shadow.getElementById("title") : document.getElementById("title"));
+          if (titleInput) titleInput.focus();
+          return false;
+        }
+
+        let msg = prompt("Wprowadź, proszę, krótki opis zmian", `Nowa piosenka: ${title}`);
+        if (!msg) {
+          return false;
+        }
+
+        const genre = songbook.getAttribute("genre") || "";
+        const createUrl = `${baseUrl}/users/${user}/changes:create`;
+
+        try {
+          notice("Tworzenie zmiany...", songbook);
+          const response = await fetch(createUrl, {
+            method: 'POST',
+            credentials: 'include',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json',
+            },
+            body: JSON.stringify({
+              title: title.trim(),
+              genre: genre.trim(),
+              content: serialized,
+              msg: msg
+            })
+          });
+
+          if (response.ok) {
+            const data = await response.json();
+            if (data.status === "committed") {
+              songbook.MarkAsCommitted(serialized);
+              // Update URL so subsequent saves and publish use this branch and file
+              const newUrl = new URL(window.location.href);
+              newUrl.searchParams.set('branch', data.branch);
+              newUrl.searchParams.set('file', data.file);
+              newUrl.searchParams.delete('new');
+              window.history.replaceState({}, '', newUrl.href);
+              notice("Zapisano nową piosenkę!", songbook);
+              return true;
+            } else {
+              alert("Błąd zapisu: " + (data.errors ? JSON.stringify(data.errors) : "Nieznany błąd"));
+              return false;
+            }
+          } else if (response.status === 401 || response.status === 403) {
+            handleAuthRedirect(null, songbook);
+            return false;
+          } else {
+            alert("Błąd zapisu (status " + response.status + "). Czy jesteś podłączony do internetu?");
+            return false;
+          }
+        } catch (error) {
+          console.error("Create change error:", error);
+          if (error.message && (error.message.includes('CORS') || error.message.includes('NetworkError'))) {
+            handleAuthRedirect(null, songbook);
+          } else {
+            alert("Błąd podczas zapisywania: " + error.message);
+          }
+          return false;
+        }
       }
-      return false;
     }
 
     async function commitAndPublish(e) {
