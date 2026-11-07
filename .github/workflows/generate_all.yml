@@ -98,16 +98,16 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: /workspace/build/songs_pdf
-          key: songs-pdf-${{ hashFiles('songs/**/*.xml') }}
+          key: songs-pdf-${{ hashFiles('src/latex/**', 'src/lib/**', 'render_pdf.sh', 'render_pdfs_songs.sh') }}-${{ hashFiles('songs/**/*.xml') }}
           restore-keys: |
-            songs-pdf-
+            songs-pdf-${{ hashFiles('src/latex/**', 'src/lib/**', 'render_pdf.sh', 'render_pdfs_songs.sh') }}-
 
       - name: Generate individual song PDFs
         if: ${{ inputs.pdf_songs }}
         run: |
           cd /workspace
           chmod 755 ./render_pdfs_songs.sh
-          # Process songs (render_pdfs_songs.sh automatically skips up-to-date PDFs unless missing or older than the XML)
+          # Process songs (render_pdfs_songs.sh automatically skips up-to-date PDFs unless missing or older than the XML/generator code)
           ./render_pdfs_songs.sh
 
       - name: Save songs PDF cache
@@ -115,7 +115,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: /workspace/build/songs_pdf
-          key: songs-pdf-${{ hashFiles('songs/**/*.xml') }}
+          key: songs-pdf-${{ hashFiles('src/latex/**', 'src/lib/**', 'render_pdf.sh', 'render_pdfs_songs.sh') }}-${{ hashFiles('songs/**/*.xml') }}
 
       - name: Package songs PDFs archive
         if: ${{ inputs.pdf_songs }}
