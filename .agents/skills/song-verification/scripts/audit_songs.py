@@ -309,6 +309,22 @@ def analyze_song(path, check_diff=False):
         issues.extend(sidechord_issues)
     if sidechord_warnings:
         warnings.extend(sidechord_warnings)
+
+    # Audit <blocklink> references (1-indexed over <block> children of <lyric>)
+    lyric_el = root.find(f"{{{NS}}}lyric")
+    if lyric_el is not None:
+        blocks = lyric_el.findall(f"{{{NS}}}block")
+        has_chorus = any(b.get("type") == "chorus" for b in blocks)
+        for child in lyric_el:
+            if child.tag == f"{{{NS}}}blocklink":
+                bnb_str = child.get("blocknb", "0")
+                bnb = int(bnb_str) if bnb_str.isdigit() else 0
+                if bnb < 1 or bnb > len(blocks):
+                    issues.append(f"blocklink blocknb='{bnb_str}' is out of range (1..{len(blocks)})")
+                elif blocks[bnb - 1].get("type") == "verse" and has_chorus:
+                    warnings.append(
+                        f"blocklink blocknb='{bnb}' points to a 'verse' block while song has a 'chorus' block (verify if block index shifted after inserting intro)"
+                    )
     if english_minors:
         issues.append(f"English minor chord notation: {', '.join(english_minors[:5])}")
     if bad_chords:
