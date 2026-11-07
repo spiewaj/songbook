@@ -1,73 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Samantha">
-  <alias/>
-  <text_author/>
-  <comment/>
-  <composer type="solo"/>
-  <artist type="solo"/>
-  <translator/>
-  <original_title/>
+  <alias>Hej Samantha</alias>
+  <text_author type="solo">Mirosław Kowalewski (ps. „Koval”)</text_author>
+  <composer type="solo">Mirosław Kowalewski (ps. „Koval”)</composer>
+  <artist type="band">Zejman &amp; Garkumpel</artist>
   <lyric>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Ty nie jesteś kliprem sławnym<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Cutty Sark czy Betty Louis<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>W Pacyfiku portach gwarnych<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Nie zahuczy w głowie rum<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Nie dla ciebie są cyklony<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Hornu także nie opłyniesz<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>W rejsie sławnym i szalonym<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Szancie starej nie zaginiesz<ch a="G"/><ch a="a"/></row>
+      <row important_over="true"><ch a="a"/>Ty nie jesteś kliprem sławnym,</row>
+      <row important_over="true">„Cutty Sark” czy <ch a="G"/>„Betty <ch a="a"/>Lou”,</row>
+      <row important_over="true"><ch a="F"/>W Pacyfiku portach gwarnych</row>
+      <row important_over="true">Nie za<ch a="G"/>huczy w głowie <ch a="a"/>rum.</row>
+      <row important_over="true"><ch a="a"/>Nie dla ciebie są cyklony,</row>
+      <row important_over="true">Hornu <ch a="G"/>także nie opły<ch a="a"/>niesz,</row>
+      <row important_over="true"><ch a="F"/>W rejsie sławnym i szalonym</row>
+      <row important_over="true">W szancie <ch a="G"/>starej nie zagi<ch a="a"/>niesz.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="F"/>Hej Samantha hej Samantha</row>
-      <row important_over="never"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
-      <row important_over="never"><ch a="a"/>Moje serce masz pod gaflem</row>
-      <row important_over="never"><ch a="C"/>Czasem ciężko prujesz wodę</row>
-      <row important_over="never"><ch a="a"/>I twe żagle już nie nowe</row>
-      <row important_over="never"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
-      <row important_over="never"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+      <row important_over="true"><ch a="F"/>Hej Samantha, hej Samantha,</row>
+      <row important_over="true"><ch a="C"/>Kiedy wiatr ci <ch a="a"/>gra na wantach,</row>
+      <row important_over="true"><ch a="F"/>Gdy rysujesz wody <ch a="d"/>taflę,</row>
+      <row important_over="true"><ch a="a"/>Moje serce masz pod gaflem.</row>
+      <row important_over="true"><ch a="C"/>Czasem ciężko prujesz wodę</row>
+      <row important_over="true"><ch a="a"/>I twe żagle już nienowe,</row>
+      <row important_over="true"><ch a="F"/>Jesteś łajbą <ch a="G"/>pełną wzruszeń,</row>
+      <row important_over="true"><ch a="F"/>Jesteś łajbą... <ch a="G"/>co ma <ch a="a"/>duszę.</row>
     </block>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Ale teraz wyznać pora<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Chociaż nie wiem czemu psiakość<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Gdy Cię nie ma na jęzorach<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Na jeziorach pusto jakoś<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Gdy w wieczornej przyjdzie porze<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Śpiewać zwrotki piosnki złudnej<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Gdy Cię nie ma na jeziorze<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>To Mazury nie są cudne<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Ale teraz wyznać pora,</row>
+      <row important_over="false">Chociaż nie wiem <ch a="G"/>czemu, <ch a="a"/>psiakość,</row>
+      <row important_over="false"><ch a="F"/>Gdy cię nie ma na jeziorach,</row>
+      <row important_over="false">Na je<ch a="G"/>ziorach pusto <ch a="a"/>jakoś.</row>
+      <row important_over="false"><ch a="a"/>Gdy w wieczornej przyjdzie porze</row>
+      <row important_over="false">Śpiewać <ch a="G"/>zwrotki piosnki <ch a="a"/>złudnej,</row>
+      <row important_over="false"><ch a="F"/>Gdy cię nie ma na jeziorze,</row>
+      <row important_over="false">To Ma<ch a="G"/>zury nie są <ch a="a"/>cudne.</row>
     </block>
     <blocklink blocknb="2"/>
     <block type="verse">
-      <row important_over="never"><ch a="a"/>Czasem kiedyś już zmęczona<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>W chwili krótkiej przyjemności<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>W złotych słońca stu ramionach<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Ty wygrzewasz stare kości<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>A gdy przyjdzie kres twych dróg<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="a"/>Nie zapłaczę na pogrzebie<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Wiem, że sprawi dobry Bóg<ch a="G"/><ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Byś pływała dalej w niebie<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="a"/>Czasem, kiedyś już zmęczona,</row>
+      <row important_over="false">W chwili <ch a="G"/>krótkiej przyjem<ch a="a"/>ności,</row>
+      <row important_over="false"><ch a="F"/>W złotych słońca stu ramionach</row>
+      <row important_over="false">Ty wy<ch a="G"/>grzewasz stare <ch a="a"/>kości.</row>
+      <row important_over="false"><ch a="a"/>A gdy przyjdzie kres twych dróg,</row>
+      <row important_over="false">Nie za<ch a="G"/>płaczę na po<ch a="a"/>grzebie,</row>
+      <row important_over="false"><ch a="F"/>Wiem, że sprawi dobry Bóg,</row>
+      <row important_over="false">Byś pły<ch a="G"/>wała dalej <ch a="a"/>w niebie.</row>
     </block>
     <block type="chorus">
-      <row important_over="never"><ch a="F"/>Hej Samantha hej Samantha</row>
-      <row important_over="never"><ch a="C"/>Kiedy wiatr ci gra na wantach<ch a="a"/></row>
-      <row important_over="never"><ch a="F"/>Ty rysujesz wody tafle<ch a="d"/></row>
+      <row important_over="false"><ch a="F"/>Hej Samantha, hej Samantha,</row>
+      <row important_over="false"><ch a="C"/>Kiedy wiatr ci <ch a="a"/>gra na wantach,</row>
+      <row important_over="false"><ch a="F"/>Gdy rysujesz wody <ch a="d"/>taflę,</row>
       <bis>
-        <row important_over="never"><ch a="a"/>Moje serce masz pod gaflem</row>
-        <row important_over="never"><ch a="C"/>Czasem ciężko prujesz wodę</row>
-        <row important_over="never"><ch a="a"/>I twe żagle już nie nowe</row>
-        <row important_over="never"><ch a="F"/>Jesteś łajbą pełną wzruszeń<ch a="G"/></row>
-        <row important_over="never"><ch a="F"/>Jesteś łajbą co ma duszę<ch a="G"/><ch a="a"/></row>
+        <row important_over="false"><ch a="a"/>Moje serce masz pod gaflem,</row>
+        <row important_over="false"><ch a="C"/>Czasem ciężko prujesz wodę</row>
+        <row important_over="false"><ch a="a"/>I twe żagle już nienowe,</row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą <ch a="G"/>pełną wzruszeń,</row>
+        <row important_over="false"><ch a="F"/>Jesteś łajbą... <ch a="G"/>co ma <ch a="a"/>duszę.</row>
       </bis>
-      <row important_over="never"><ch a="F"/>Co ma duszę, co ma duszę…<ch a="G"/><ch a="a"/></row>
+      <row important_over="false"><ch a="F"/>Co ma duszę, <ch a="G"/>co ma <ch a="a"/>duszę…</row>
     </block>
   </lyric>
-  <music metre="">
+  <music metre="4/4">
     <guitar barre="2"/>
   </music>
+  <genre>szanta</genre>
   <status>
-    <verificators/>
-    <to_do/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chords</chords>
+    </done>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/szanty/samantha</verificator>
+    </verificators>
   </status>
 </song>
