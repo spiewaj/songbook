@@ -20,29 +20,29 @@
 			<row important_over="true"><ch a="C"/>Nasze pio<ch a="D"/>senki <ch a="G"/>nuci.</row>
 		</block>
 		<block type="verse">
-			<row><ch a="D"/>Ciche dźwięki gi<ch a="C"/>tary<ch a="G"/></row>
-			<row><ch a="C"/>Pozwalały płonąć <ch a="D"/>ogni<ch a="G"/>sku,</row>
+			<row important_over="false"><ch a="D"/>Ciche dźwięki gi<ch a="C"/>tary<ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Pozwalały płonąć <ch a="D"/>ogni<ch a="G"/>sku,</row>
 			<bis>
-				<row><ch a="H7"/>Z dymem snuł się nasz ref<ch a="e"/>ren stary</row>
-				<row><ch a="C"/>Po uśpionym już wrzo<ch a="D"/>sowi<ch a="G"/>sku.</row>
+				<row important_over="false"><ch a="H7"/>Z dymem snuł się nasz ref<ch a="e"/>ren stary</row>
+				<row important_over="false"><ch a="C"/>Po uśpionym już wrzo<ch a="D"/>sowi<ch a="G"/>sku.</row>
 			</bis>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="D"/>Często w myślach wra<ch a="C"/>camy<ch a="G"/></row>
-			<row><ch a="C"/>Do gitary, ogni<ch a="D"/>ska i szla<ch a="G"/>ków,</row>
+			<row important_over="false"><ch a="D"/>Często w myślach wra<ch a="C"/>camy<ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Do gitary, ogni<ch a="D"/>ska i szla<ch a="G"/>ków,</row>
 			<bis>
-				<row><ch a="H7"/>Z biciem serca piosenek słu<ch a="e"/>chamy,</row>
-				<row><ch a="C"/>Zaglądamy do sta<ch a="D"/>rych pleca<ch a="G"/>ków.</row>
+				<row important_over="false"><ch a="H7"/>Z biciem serca piosenek słu<ch a="e"/>chamy,</row>
+				<row important_over="false"><ch a="C"/>Zaglądamy do sta<ch a="D"/>rych pleca<ch a="G"/>ków.</row>
 			</bis>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row><ch a="D"/>Czas wędrował za <ch a="C"/>nami,<ch a="G"/></row>
-			<row><ch a="C"/>Zmienił nas i przyja<ch a="D"/>ciół pozmie<ch a="G"/>niał,</row>
+			<row important_over="false"><ch a="D"/>Czas wędrował za <ch a="C"/>nami,<ch a="G"/></row>
+			<row important_over="false"><ch a="C"/>Zmienił nas i przyja<ch a="D"/>ciół pozmie<ch a="G"/>niał,</row>
 			<bis>
-				<row><ch a="H7"/>Wszyscy gdzieś się rozbiegli po <ch a="e"/>świecie,</row>
-				<row><ch a="C"/>Dziś zostały już tyl<ch a="D"/>ko wspo<ch a="G"/>mnienia.</row>
+				<row important_over="false"><ch a="H7"/>Wszyscy gdzieś się rozbiegli po <ch a="e"/>świecie,</row>
+				<row important_over="false"><ch a="C"/>Dziś zostały już tyl<ch a="D"/>ko wspo<ch a="G"/>mnienia.</row>
 			</bis>
 		</block>
 		<blocklink blocknb="2"/>
@@ -58,6 +58,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://www.tekstowo.pl/wolosatki/to-co-bylo-minelo</verificator>
+    </verificators>
 	</status>
 </song>
