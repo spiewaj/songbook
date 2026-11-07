@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song title="Tylko chcieć" xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd">
-	<alias></alias>
-	<text_author type="solo">J.Fiwek</text_author>
-	<comment></comment>
-	<composer type="solo">Z. Piasecki</composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Że spadnie z nieba to co chcesz</alias>
+	<text_author type="solo">Wojciech Fiwek</text_author>
+	<comment>Piosenka ze słowami Wojciecha Fiwka i muzyką ks. Zbigniewa Piaseckiego, z repertuaru zespołu Wartaki.</comment>
+	<composer type="solo">Zbigniew Piasecki</composer>
+	<artist type="band">Wartaki</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="verse">
 			<row important_over="true">Że sp<ch a="e"/>adnie z nieba to co chc<ch a="Fis"/>esz,</row>
@@ -20,7 +18,7 @@
 			<row important_over="true">Tylko chci<ch a="a"/>eć, Twój c<ch a="e"/>ały będzie zodiak,</row>
 			<row important_over="true">Tylko chci<ch a="C"/>eć, a szcz<ch a="H7"/>ęście masz o kr<ch a="e"/>ok.</row>
 			<row important_over="true">Kolory t<ch a="Fis7"/>ęczy <ch a="H7"/>i złoto zb<ch a="e"/>óż,</row>
-			<row important_over="false">Srebro księż<ch a="Fis7"/>yca <ch a="H7"/>i zapach r<ch a="e"/>óż…</row>
+			<row important_over="true">Srebro księż<ch a="Fis7"/>yca <ch a="H7"/>i zapach r<ch a="e"/>óż…</row>
 			<row important_over="true"><ch a="a"/> Dla ciebie wsz<ch a="H7"/>ystko!</row>
 		</block>
 		<block type="verse">
@@ -38,31 +36,18 @@
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
-	
-	
-	
-	
-	
 	<music metre="3/4">
 		<guitar/>
 	</music>
-	<keywords></keywords>
-	<album></album>
-	<genre>Poezja śpiewana</genre>
+	<genre>Piosenka harcerska</genre>
 	<status>
 		<done>
-			
-			
-			
 			<text/>
 			<authors/>
-			<chords>chord positioning</chords>
+			<chords>chords</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-			
-		</verificators>
-		<to_do></to_do>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 	</status>
-	<music_source></music_source>
 </song>
