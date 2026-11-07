@@ -57,6 +57,8 @@
       <chords>chords</chords>
       <text/>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.tekstowo.pl/bez-jacka/wiewiorka</verificator>
+    </verificators>
   </status>
 </song>
