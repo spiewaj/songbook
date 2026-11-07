@@ -45,7 +45,9 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/swiadkowie-lata</verificator>
+    </verificators>
 	</status>
 	<music_source>https://spiewnik.wywrota.pl/malzenstwo-z-rozsadku/swiadkowie-lata</music_source>
 </song>
