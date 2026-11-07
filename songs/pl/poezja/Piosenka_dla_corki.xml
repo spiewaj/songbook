@@ -46,7 +46,9 @@
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://www.tekstowo.pl/maciej-pietrzyk/piosenka-dla-corki</verificator>
+    </verificators>
 		<to_do></to_do>
 	</status>
 	<music_source>Pieśń strajkowa Sierpnia '80 (Stocznia Gdańska, film „Robotnicy '80”)</music_source>
