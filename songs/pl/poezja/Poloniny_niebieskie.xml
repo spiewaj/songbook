@@ -20,42 +20,42 @@
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row><ch a="C"/>A kiedy <ch a="F"/>sypną na mnie <ch a="C"/>piach,<ch a="F"/></row>
+				<row important_over="false"><ch a="C"/>A kiedy <ch a="F"/>sypną na mnie <ch a="C"/>piach,<ch a="F"/></row>
 			</bis>
-			<row><ch a="C"/>Gdy mnie o<ch a="F"/>kryją cztery <ch a="C"/>des<ch a="G"/>ki,<ch a="Fis"/></row>
-			<row><ch a="e"/>To pójdę <ch a="F"/>tam, gdzie <ch a="C"/>wiedzie <ch a="G"/>szlak</row>
+			<row important_over="false"><ch a="C"/>Gdy mnie o<ch a="F"/>kryją cztery <ch a="C"/>des<ch a="G"/>ki,<ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>To pójdę <ch a="F"/>tam, gdzie <ch a="C"/>wiedzie <ch a="G"/>szlak</row>
 			<bis times="2">
-				<row><ch a="C"/>Na połon<ch a="F"/>iny, na nie<ch a="C"/>bies<ch a="F"/>kie.</row>
-			</bis>
-		</block>
-		<block type="verse">
-			<bis times="2">
-				<row><ch a="C"/>Powiezie <ch a="F"/>mnie błękitny <ch a="C"/>wóz,<ch a="F"/></row>
-			</bis>
-			<row><ch a="C"/>Ciągnięty <ch a="F"/>przez błękitne <ch a="C"/>ko<ch a="G"/>nie,<ch a="Fis"/></row>
-			<row><ch a="e"/>Przez świat <ch a="F"/>błękitny <ch a="C"/>będzie <ch a="G"/>wiózł,</row>
-			<bis times="2">
-				<row><ch a="C"/>Aż zanie<ch a="F"/>bieszczy w dali <ch a="C"/>bło<ch a="F"/>nie.</row>
+				<row important_over="false"><ch a="C"/>Na połon<ch a="F"/>iny, na nie<ch a="C"/>bies<ch a="F"/>kie.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row><ch a="C"/>Od zmartwień <ch a="F"/>wolny i od <ch a="C"/>trosk,<ch a="F"/></row>
+				<row important_over="false"><ch a="C"/>Powiezie <ch a="F"/>mnie błękitny <ch a="C"/>wóz,<ch a="F"/></row>
 			</bis>
-			<row><ch a="C"/>Pójdę wy<ch a="F"/>grzewać się na <ch a="C"/>tra<ch a="G"/>wie,<ch a="Fis"/></row>
-			<row><ch a="e"/>A czasem, <ch a="F"/>gdy mi <ch a="C"/>przyjdzie <ch a="G"/>chęć,</row>
+			<row important_over="false"><ch a="C"/>Ciągnięty <ch a="F"/>przez błękitne <ch a="C"/>ko<ch a="G"/>nie,<ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>Przez świat <ch a="F"/>błękitny <ch a="C"/>będzie <ch a="G"/>wiózł,</row>
 			<bis times="2">
-				<row><ch a="C"/>Z góry na <ch a="F"/>ziemię się po<ch a="C"/>ga<ch a="F"/>pię.</row>
+				<row important_over="false"><ch a="C"/>Aż zanie<ch a="F"/>bieszczy w dali <ch a="C"/>bło<ch a="F"/>nie.</row>
 			</bis>
 		</block>
 		<block type="verse">
 			<bis times="2">
-				<row><ch a="C"/>Popatrzę, <ch a="F"/>jak wśród smukłych <ch a="C"/>malw<ch a="F"/></row>
+				<row important_over="false"><ch a="C"/>Od zmartwień <ch a="F"/>wolny i od <ch a="C"/>trosk,<ch a="F"/></row>
 			</bis>
-			<row><ch a="C"/>Wiatr w przedwie<ch a="F"/>czornej ciszy <ch a="C"/>ko<ch a="G"/>na,<ch a="Fis"/></row>
-			<row><ch a="e"/>Trochę mi <ch a="F"/>tylko <ch a="C"/>będzie <ch a="G"/>żal,</row>
+			<row important_over="false"><ch a="C"/>Pójdę wy<ch a="F"/>grzewać się na <ch a="C"/>tra<ch a="G"/>wie,<ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>A czasem, <ch a="F"/>gdy mi <ch a="C"/>przyjdzie <ch a="G"/>chęć,</row>
 			<bis times="2">
-				<row><ch a="C"/>Że trawa <ch a="F"/>u was tak zie<ch a="C"/>lo<ch a="F"/>na.</row>
+				<row important_over="false"><ch a="C"/>Z góry na <ch a="F"/>ziemię się po<ch a="C"/>ga<ch a="F"/>pię.</row>
+			</bis>
+		</block>
+		<block type="verse">
+			<bis times="2">
+				<row important_over="false"><ch a="C"/>Popatrzę, <ch a="F"/>jak wśród smukłych <ch a="C"/>malw<ch a="F"/></row>
+			</bis>
+			<row important_over="false"><ch a="C"/>Wiatr w przedwie<ch a="F"/>czornej ciszy <ch a="C"/>ko<ch a="G"/>na,<ch a="Fis"/></row>
+			<row important_over="false"><ch a="e"/>Trochę mi <ch a="F"/>tylko <ch a="C"/>będzie <ch a="G"/>żal,</row>
+			<bis times="2">
+				<row important_over="false"><ch a="C"/>Że trawa <ch a="F"/>u was tak zie<ch a="C"/>lo<ch a="F"/>na.</row>
 			</bis>
 		</block>
 	</lyric>
@@ -67,11 +67,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysiek cz.</verificator>
-		</verificators>
+      <verificator>Krzysiek cz.</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
