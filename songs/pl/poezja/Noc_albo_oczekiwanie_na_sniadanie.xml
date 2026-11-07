@@ -48,13 +48,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>Stare Dobre Małżeństwo - Pod wielkim dachem nieba (1992)</verificator>
-			<verificator>https://wywrota.pl/spiewnik/30818-noc-albo-oczekiwanie-na-sniadanie-stare-dobre-malzenstwo/</verificator>
-			<verificator>Edward Stachura, Poezje wybrane</verificator>
-		</verificators>
+      <verificator>Krzysiek Cz.</verificator>
+      <verificator>https://wywrota.pl/spiewnik/30818-noc-albo-oczekiwanie-na-sniadanie-stare-dobre-malzenstwo/</verificator>
+    </verificators>
 	</status>
 </song>
