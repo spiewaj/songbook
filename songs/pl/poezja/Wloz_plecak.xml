@@ -55,6 +55,8 @@
 			<authors/>
 			<chords>chords</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>http://travers.pl/spiewniki/wstepie.pdf</verificator>
+    </verificators>
 	</status>
 </song>
