@@ -11,32 +11,32 @@
 		<block type="verse">
 			<row important_over="true">Na ści<ch a="D"/>anie masz kol<ch a="A"/>ekcję swoich b<ch a="e"/>arwnych wspomnień:</row>
 			<row important_over="true">Susz<ch a="D"/>ony kwiat, nasz<ch a="A"/>yjnik, wi<ch a="e"/>ersz i liść.</row>
-			<row>Już t<ch a="D"/>yle lat przyp<ch a="A"/>inasz szpilką n<ch a="e"/>a tej słomie</row>
-			<row>To wsz<ch a="D"/>ystko, co cenni<ch a="A"/>ejsze j<ch a="e"/>est niż skarb.</row>
+			<row important_over="false">Już t<ch a="D"/>yle lat przyp<ch a="A"/>inasz szpilką n<ch a="e"/>a tej słomie</row>
+			<row important_over="false">To wsz<ch a="D"/>ystko, co cenni<ch a="A"/>ejsze j<ch a="e"/>est niż skarb.</row>
 		</block>
 		<block type="verse">
-			<row>Pośr<ch a="D"/>odku sam gen<ch a="A"/>erał Robert B<ch a="e"/>aden-Powell,</row>
-			<row>Rzeźbi<ch a="D"/>ony w drewnie lil<ch a="A"/>ijki sm<ch a="e"/>ukły kształt,</row>
-			<row>Jest krz<ch a="D"/>yża znak i sr<ch a="A"/>ebrny orzeł j<ch a="e"/>est w koronie,</row>
-			<row>A z<ch a="D"/>araz pod nim harc<ch a="A"/>erskich dzi<ch a="e"/>esięć praw.</row>
+			<row important_over="false">Pośr<ch a="D"/>odku sam gen<ch a="A"/>erał Robert B<ch a="e"/>aden-Powell,</row>
+			<row important_over="false">Rzeźbi<ch a="D"/>ony w drewnie lil<ch a="A"/>ijki sm<ch a="e"/>ukły kształt,</row>
+			<row important_over="false">Jest krz<ch a="D"/>yża znak i sr<ch a="A"/>ebrny orzeł j<ch a="e"/>est w koronie,</row>
+			<row important_over="false">A z<ch a="D"/>araz pod nim harc<ch a="A"/>erskich dzi<ch a="e"/>esięć praw.</row>
 		</block>
 		<block type="verse">
 			<row important_over="true">Ramię pr<ch a="D"/>ęż, słabość kr<ch a="A"/>usz i nie z<ch a="e"/>awiedź w potrz<ch a="h"/>ebie,</row>
 			<row important_over="true">Podaj sw<ch a="D"/>ą pomocną dł<ch a="A"/>oń tym, co l<ch a="e"/>iczą na Ci<ch a="h"/>ebie,</row>
-			<row>Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
-			<row>Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie k<ch a="h"/>ażdy.</row>
+			<row important_over="false">Zmieniaj świ<ch a="D"/>at, zawsze b<ch a="A"/>ądź sprawiedl<ch a="e"/>iwy i odw<ch a="h"/>ażny,</row>
+			<row important_over="false">Śmiało zw<ch a="D"/>alczaj wszelkie zł<ch a="A"/>o, niech twym br<ch a="e"/>atem będzie k<ch a="h"/>ażdy.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">I świ<ch a="G"/>eć przykł<ch a="A"/>adem, świ<ch a="D"/>eć,</row>
 			<row important_over="true">I l<ch a="G"/>eć w przestw<ch a="A"/>orza, l<ch a="D"/>eć,</row>
-			<row>I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
-			<row>Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
+			<row important_over="false">I ni<ch a="G"/>eś ze s<ch a="A"/>obą wi<ch a="D"/>eść,</row>
+			<row important_over="false">Że b<ch a="G"/>yć harc<ch a="A"/>erzem chc<ch a="D"/>esz.</row>
 		</block>
 		<block type="verse">
-			<row>A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi?”,</row>
-			<row>Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: „Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi,</row>
-			<row>I choć m<ch a="D"/>ało mam l<ch a="A"/>at w mym harc<ch a="e"/>erskim mund<ch a="h"/>urze,</row>
-			<row>Bogu, l<ch a="D"/>udziom i Ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę sł<ch a="h"/>użę”.</row>
+			<row important_over="false">A gdy sp<ch a="D"/>yta cię kt<ch a="A"/>oś: „Skąd ten krz<ch a="e"/>yż na twej pi<ch a="h"/>ersi?”,</row>
+			<row important_over="false">Z dumą <ch a="D"/>odpowiesz m<ch a="A"/>u: „Taki m<ch a="e"/>ają najdzielni<ch a="h"/>ejsi,</row>
+			<row important_over="false">I choć m<ch a="D"/>ało mam l<ch a="A"/>at w mym harc<ch a="e"/>erskim mund<ch a="h"/>urze,</row>
+			<row important_over="false">Bogu, l<ch a="D"/>udziom i Ojcz<ch a="A"/>yźnie na ich wi<ch a="e"/>eczną chwałę sł<ch a="h"/>użę”.</row>
 		</block>
 		<blocklink blocknb="4"/>
 	</lyric>
@@ -53,11 +53,11 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>https://robertbochenek.pl/</verificator>
-			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/harcerskie-idealy</verificator>
-		</verificators>
+      <verificator>Michał Korch</verificator>
+      <verificator>Krzysiek Cz.</verificator>
+      <verificator>https://robertbochenek.pl/</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/harcerskie-idealy</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
