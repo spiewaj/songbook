@@ -48,7 +48,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/piesn-na-wejscie</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Album SDM „Dla wszystkich starczy miejsca” (1990); Edward Stachura „Missa pagana”</music_source>
