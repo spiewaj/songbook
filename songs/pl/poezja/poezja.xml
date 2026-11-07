@@ -76,9 +76,10 @@
     <done>
       <text/>
       <authors/>
-      <chords>chordettes</chords>
+      <chords>chord positioning</chords>
     </done>
     <verificators>
+      <verificator>Piosenka błędnie przypisywana Bolesławowi Leśmianowi.</verificator>
       <verificator>https://poezja.org/wz/Broniewski_Wladyslaw/434/Poezja</verificator>
       <verificator>http://wgorach.art.pl</verificator>
     </verificators>
