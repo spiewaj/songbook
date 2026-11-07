@@ -11,45 +11,45 @@
 		<block type="verse">
 			<row important_over="true">Są m<ch a="D"/>ałe stacje w<ch a="fis"/>ielkich kolei,</row>
 			<row important_over="true">niezn<ch a="G"/>ane jak obce im<ch a="D"/>iona.</row>
-			<row>M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei,</row>
-			<row>jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona.</row>
-			<row>Na t<ch a="D"/>akiej stacji d<ch a="fis"/>awno już temu,</row>
-			<row>z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka,</row>
-			<row>widzi<ch a="G"/>ałem dziewczynę w ni<ch a="D"/>ebieskim szaliku,</row>
-			<row>j<ch a="A"/>ak piła gorące ml<ch a="D"/>eko.</row>
+			<row important_over="false">M<ch a="G"/>ałe stacje wi<ch a="D"/>elkich kolei,</row>
+			<row important_over="false">jakiś n<ch a="G"/>apis i lampa zi<ch a="A"/>elona.</row>
+			<row important_over="false">Na t<ch a="D"/>akiej stacji d<ch a="fis"/>awno już temu,</row>
+			<row important_over="false">z d<ch a="G"/>aleka jadąc, z d<ch a="D"/>aleka,</row>
+			<row important_over="false">widzi<ch a="G"/>ałem dziewczynę w ni<ch a="D"/>ebieskim szaliku,</row>
+			<row important_over="false">j<ch a="A"/>ak piła gorące ml<ch a="D"/>eko.</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">T<ch a="G"/>eraz tamtędy już n<ch a="D"/>igdy nie jeżdżę,</row>
 			<row important_over="true">a mi<ch a="G"/>asto moje d<ch a="D"/>aleko.</row>
-			<row>Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
-			<row>jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
-			<row>I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
-			<row>m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
+			<row important_over="false">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row important_over="false">jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
+			<row important_over="false">I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
+			<row important_over="false">m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
 			<bis times="2">
-				<row>Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
-				<row>g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
+				<row important_over="false">Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
+				<row important_over="false">g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row>Mam sw<ch a="D"/>oje sprawy, <ch a="fis"/>inne podróże</row>
-			<row>i ni<ch a="G"/>e tamtędy mi dr<ch a="D"/>oga.</row>
-			<row>Lubię ul<ch a="G"/>ice wes<ch a="D"/>ołe i długie</row>
-			<row>i kolor<ch a="G"/>owe światła na r<ch a="A"/>ogach.</row>
-			<row>Może m<ch a="D"/>a chłopca t<ch a="fis"/>amta dziewczyna,</row>
-			<row>a m<ch a="G"/>oże wybrała się w świ<ch a="D"/>at?</row>
-			<row>Albo p<ch a="G"/>o prostu m<ch a="D"/>oże jest głupia</row>
-			<row>j<ch a="A"/>ak jej siedemnaście l<ch a="D"/>at?</row>
+			<row important_over="false">Mam sw<ch a="D"/>oje sprawy, <ch a="fis"/>inne podróże</row>
+			<row important_over="false">i ni<ch a="G"/>e tamtędy mi dr<ch a="D"/>oga.</row>
+			<row important_over="false">Lubię ul<ch a="G"/>ice wes<ch a="D"/>ołe i długie</row>
+			<row important_over="false">i kolor<ch a="G"/>owe światła na r<ch a="A"/>ogach.</row>
+			<row important_over="false">Może m<ch a="D"/>a chłopca t<ch a="fis"/>amta dziewczyna,</row>
+			<row important_over="false">a m<ch a="G"/>oże wybrała się w świ<ch a="D"/>at?</row>
+			<row important_over="false">Albo p<ch a="G"/>o prostu m<ch a="D"/>oże jest głupia</row>
+			<row important_over="false">j<ch a="A"/>ak jej siedemnaście l<ch a="D"/>at?</row>
 		</block>
 		<block type="chorus">
-			<row>Zresztą t<ch a="G"/>o przecież ni<ch a="D"/>e ma znaczenia,</row>
-			<row>mi<ch a="G"/>eszkam naprawdę d<ch a="D"/>aleko.</row>
-			<row>Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
-			<row>jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
-			<row>I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
-			<row>m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
+			<row important_over="false">Zresztą t<ch a="G"/>o przecież ni<ch a="D"/>e ma znaczenia,</row>
+			<row important_over="false">mi<ch a="G"/>eszkam naprawdę d<ch a="D"/>aleko.</row>
+			<row important_over="false">Lecz m<ch a="G"/>yślę czasem o t<ch a="D"/>amtej dziewczynie,</row>
+			<row important_over="false">jak p<ch a="A"/>iła gorące ml<ch a="D"/>eko.</row>
+			<row important_over="false">I ni<ch a="G"/>eraz chciałbym, <ch a="D"/>aby tu była,</row>
+			<row important_over="false">m<ch a="G"/>oże to miałoby s<ch a="D"/>ens.</row>
 			<bis times="2">
-				<row>Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
-				<row>g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
+				<row important_over="false">Jak ona śmi<ch a="G"/>esznie to mleko p<ch a="D"/>iła,</row>
+				<row important_over="false">g<ch a="A"/>apiąc się na mnie spod rz<ch a="D"/>ęs.</row>
 			</bis>
 		</block>
 	</lyric>
@@ -66,10 +66,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Agnieszka Osiecka (słowa), Katarzyna Sobolewska (muzyka), wyk. Andrzej Poniedzielski</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Male_stacyjki)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/andrzej-poniedzielski/ballada-o-dziewczynie-co-pila-gorace-mleko</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Male_stacyjki</verificator>
+      <verificator>https://spiewnik.wywrota.pl/andrzej-poniedzielski/ballada-o-dziewczynie-co-pila-gorace-mleko</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
