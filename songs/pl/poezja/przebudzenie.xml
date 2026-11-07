@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przebudzenie">
-  <text_author type="solo">Angelika i Michał Ziomek</text_author>
-  <composer type="solo">Angelika i Michał Ziomek</composer>
+  <text_author>Angelika Ziomek, Michał Ziomek</text_author>
+  <composer>Angelika Ziomek, Michał Ziomek</composer>
   <artist type="band">Ziomkowisko</artist>
   <lyric>
     <block type="other">
-      <row important_over="false" style="instr"> <ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/><ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/></row>
+      <row important_over="false" style="instr"><ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/></row>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="true">zamkni<ch a="C"/>ęte oczy w ciemn<ch a="e"/>ości,<ch a="F"/></row>
-        <row important_over="true"><ch a="G"/>oddech sp<ch a="C"/>okojny, dobry to s<ch a="e"/>en, <ch a="F"/><ch a="G"/></row>
-        <row important_over="false">mię<ch a="C"/>dzy wiersz<ch a="e"/>ami, niczym par<ch a="F"/>ami, </row>
-        <row important_over="false">p<ch a="G"/>rzenika świ<ch a="C"/>atło i ci<ch a="e"/>eń. <ch a="F"/><ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>Zamknięte <ch a="e"/>oczy w ciem<ch a="F"/>ności,<ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>oddech spo<ch a="e"/>kojny, <ch a="F"/>dobry to <ch a="G"/>sen,</row>
+        <row important_over="false"><ch a="C"/>między wier<ch a="e"/>szami, <ch a="F"/>niczym pa<ch a="G"/>rami,</row>
+        <row important_over="false"><ch a="C"/>przenika <ch a="e"/>światło <ch a="F"/>i <ch a="G"/>cień.</row>
       </bis>
     </block>
     <block type="chorus">
       <bis times="2">
-        <row important_over="true">w<ch a="C"/>ybudza mnie z nocy <ch a="e"/>dzień, </row>
-        <row important_over="true">t<ch a="F"/>ak subtelnie <ch a="G"/>wita św<ch a="C"/>it, <ch a="e"/><ch a="F"/><ch a="G"/></row>
-        <row important_over="false"><ch a="C"/>w tej wdzięczności wiem, że ż<ch a="e"/>ycie - nie - <ch a="F"/></row>
-        <row important_over="false">n<ch a="G"/>ie prześpię ci<ch a="C"/>ę.<ch a="e"/><ch a="F"/><ch a="G"/></row>
+        <row important_over="true"><ch a="C"/>Wybudza <ch a="e"/>mnie z <ch a="F"/>nocy <ch a="G"/>dzień,</row>
+        <row important_over="true"><ch a="C"/>tak sub<ch a="e"/>telnie <ch a="F"/>wita <ch a="G"/>świt,</row>
+        <row important_over="false"><ch a="C"/>w tej wdzięcz<ch a="e"/>ności <ch a="F"/>wiem, że <ch a="G"/>życie – nie –</row>
+        <row important_over="false"><ch a="C"/>nie <ch a="e"/>prześpię <ch a="F"/>cię.<ch a="G"/></row>
       </bis>
     </block>
     <block type="verse">
       <bis times="2">
-        <row important_over="false">nim bose stopy poczują chłód, <ch a="C"/><ch a="e"/><ch a="F"/></row>
-        <row important_over="false">nim szkła do patrzenia włożę. <ch a="G"/><ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/></row>
-        <row important_over="false">ostatni raz o świcie dnia, <ch a="C"/><ch a="e"/><ch a="F"/></row>
-        <row important_over="false">rytuał - miłosno wtuleni.<ch a="G"/><ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/></row>
+        <row important_over="false">nim <ch a="C"/>bose <ch a="e"/>stopy po<ch a="F"/>czują <ch a="G"/>chłód,</row>
+        <row important_over="false">nim <ch a="C"/>szkła do pa<ch a="e"/>trzenia <ch a="F"/>wło<ch a="G"/>żę,</row>
+        <row important_over="false"><ch a="C"/>ostatni <ch a="e"/>raz o <ch a="F"/>świcie <ch a="G"/>dnia,</row>
+        <row important_over="false">ry<ch a="C"/>tuał – mi<ch a="e"/>łosno wtu<ch a="F"/>le<ch a="G"/>ni.</row>
       </bis>
     </block>
     <blocklink blocknb="3"/>
+    <block type="other">
+      <row important_over="false" style="instr"><ch a="C"/><ch a="e"/><ch a="F"/><ch a="G"/><ch a="C"/></row>
+    </block>
   </lyric>
   <keywords/>
   <genre>Poezja śpiewana</genre>
   <status>
-    <done/>
-    <verificators/>
+    <done>
+      <text/>
+      <authors/>
+      <chords>chord positioning</chords>
+    </done>
+    <verificators>
+      <verificator>http://ziomkowisko.pl</verificator>
+    </verificators>
   </status>
 </song>
