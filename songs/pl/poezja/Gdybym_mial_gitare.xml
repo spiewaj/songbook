@@ -19,13 +19,13 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row>F<ch a="a"/>ajki ja nie palę, w<ch a="E"/>ódki nie pij<ch a="a"/>ę, <ch a="A7"/></row>
-			<row>ale z ż<ch a="d"/>alu, żalu wi<ch a="a"/>elkiego l<ch a="E"/>edwo co żyj<ch a="a"/>ę.</row>
+			<row important_over="false">F<ch a="a"/>ajki ja nie palę, w<ch a="E"/>ódki nie pij<ch a="a"/>ę, <ch a="A7"/></row>
+			<row important_over="false">ale z ż<ch a="d"/>alu, żalu wi<ch a="a"/>elkiego l<ch a="E"/>edwo co żyj<ch a="a"/>ę.</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>L<ch a="a"/>udzie mówią: głupi, p<ch a="E"/>o coś ty ją br<ch a="a"/>ał, <ch a="A7"/></row>
-			<row>po c<ch a="d"/>oś to dziewczę cz<ch a="a"/>arne, figlarne m<ch a="E"/>ocno pokoch<ch a="a"/>ał?</row>
+			<row important_over="false">L<ch a="a"/>udzie mówią: głupi, p<ch a="E"/>o coś ty ją br<ch a="a"/>ał, <ch a="A7"/></row>
+			<row important_over="false">po c<ch a="d"/>oś to dziewczę cz<ch a="a"/>arne, figlarne m<ch a="E"/>ocno pokoch<ch a="a"/>ał?</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -42,10 +42,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Pieśń tradycyjna (romans cygański / biesiadny)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Gdybym_mial_gitare)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/piosenki-biesiadne/gdybym-mial-gitare</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Gdybym_mial_gitare</verificator>
+      <verificator>https://spiewnik.wywrota.pl/piosenki-biesiadne/gdybym-mial-gitare</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
