@@ -46,7 +46,9 @@
       <authors/>
       <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://www.tekstowo.pl/adam-drag/piosenka-bez-tytulu</verificator>
+    </verificators>
     <to_do></to_do>
   </status>
   <music_source>Śpiewnik Wywroty (sł. Waldemar Chyliński, muz. Adam Drąg)</music_source>
