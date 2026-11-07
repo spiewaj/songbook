@@ -1,59 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="W lesie listopadowym">
-	<alias></alias>
-	<text_author type="solo"></text_author>
-	<comment></comment>
-	<composer type="solo"></composer>
-	<artist type="solo"></artist>
-	<translator></translator>
-	<original_title></original_title>
+	<alias>Wokół góry, góry i góry</alias>
+	<text_author type="solo">Jerzy Harasymowicz</text_author>
+	<comment>Muzyka: Zbigniew Bogdański i Andrzej Koczewski.</comment>
+	<composer type="solo">Zbigniew Bogdański</composer>
+	<artist type="band">Dom o Zielonych Progach</artist>
 	<lyric xmlns="http://21wdh.staszic.waw.pl">
 		<block type="chorus">
-			<row important_over="never"><ch a="E"/>Wokół góry, góry i góry<ch a="a"/></row>
-			<row important_over="never"><ch a="E"/>I całe moje życie w górach<ch a="a"/></row>
-			<row important_over="never"><ch a="C"/>Ileż piękniej drozdy leśne śpiewają<ch a="G"/></row>
-			<row important_over="never"><ch a="E"/>Niż śpiewak płatny na chórach<ch a="a"/></row>
-			<row important_over="never"><ch a="E"/>Wokół lasy, lasy i wiatr<ch a="a"/></row>
-			<row important_over="never"><ch a="E"/>I całe życie w wiatru świstach<ch a="a"/></row>
-			<row important_over="never"><ch a="C"/>Wszyscy, których kocham — wita Was<ch a="G"/></row>
-			<row important_over="never"><ch a="E"/>Modrzewia ikona złocista<ch a="a"/></row>
+			<row important_over="true"><ch a="E"/>Wokół góry, g<ch a="a"/>óry i góry</row>
+			<row important_over="true"><ch a="E"/>I całe moje ż<ch a="a"/>ycie w górach</row>
+			<row important_over="true"><ch a="C"/>Ileż piękniej drozdy l<ch a="G"/>eśne śpiewają</row>
+			<row important_over="true"><ch a="E"/>Niż śpiewak płatny na ch<ch a="a"/>órach</row>
+			<row important_over="false"><ch a="E"/>Wokół lasy, l<ch a="a"/>asy i wiatr</row>
+			<row important_over="false"><ch a="E"/>I całe życie w wi<ch a="a"/>atru świstach</row>
+			<row important_over="false"><ch a="C"/>Wszyscy, których kocham — w<ch a="G"/>ita Was</row>
+			<row important_over="false"><ch a="E"/>Modrzewia ikona złoc<ch a="a"/>ista</row>
 		</block>
 		<block type="verse">
-			<row important_over="never"><ch a="d"/>Jak łasiczki ścieżka w śniegu<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="d"/>Droga życia była kręta<ch a="G"/><ch a="C"/></row>
-			<row important_over="never"><ch a="d"/>Teraz z góry zeszła na mnie<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="E"/>Młodych jodeł zieleń święta<ch a="a"/></row>
-			<row important_over="never"><ch a="d"/>Nieludzką ręką malowany<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="d"/>Jest wielki smutek duszy mojej<ch a="G"/><ch a="C"/></row>
-			<row important_over="never"><ch a="d"/>Lecz nawet złockiej ikonie<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="E"/>Ja nigdy nic nie powiem<ch a="a"/></row>
+			<row important_over="true"><ch a="d"/>Jak łasiczki śc<ch a="E"/>ieżka w śni<ch a="A"/>egu</row>
+			<row important_over="true"><ch a="d"/>Droga życia b<ch a="G"/>yła kr<ch a="C"/>ęta</row>
+			<row important_over="true"><ch a="d"/>Teraz z góry z<ch a="E"/>eszła na mn<ch a="A"/>ie</row>
+			<row important_over="true"><ch a="E"/>Młodych jodeł zi<ch a="a"/>eleń święta</row>
+			<row important_over="false"><ch a="d"/>Nieludzką r<ch a="E"/>ęką malow<ch a="A"/>any</row>
+			<row important_over="false"><ch a="d"/>Jest wielki smutek d<ch a="G"/>uszy m<ch a="C"/>ojej</row>
+			<row important_over="false"><ch a="d"/>Lecz nawet zł<ch a="E"/>ockiej ik<ch a="A"/>onie</row>
+			<row important_over="false"><ch a="E"/>Ja nigdy nic nie powi<ch a="a"/>em</row>
 		</block>
 		<blocklink blocknb="1"/>
 		<block type="verse">
-			<row important_over="never"><ch a="d"/>Ważne są tylko kopuły pieśni<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="d"/>Które na górze wysokiej zostaną<ch a="G"/><ch a="C"/></row>
-			<row important_over="never"><ch a="d"/>I nikt nie szuka inicjałów cieśli<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="E"/>Gdy cieśle dom postawią<ch a="a"/></row>
-			<row important_over="never"><ch a="d"/>Przyjaciele, którzy jemiołę czcicie<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="d"/>Dobrze, że chodzicie światem<ch a="G"/><ch a="C"/></row>
-			<row important_over="never"><ch a="d"/>Wkrótce jodełkę zieloną spalicie<ch a="E"/><ch a="A"/></row>
-			<row important_over="never"><ch a="E"/>By darzyła was ciepłym latem<ch a="a"/></row>
+			<row important_over="false"><ch a="d"/>Ważne są tylko kop<ch a="E"/>uły pi<ch a="A"/>eśni</row>
+			<row important_over="false"><ch a="d"/>Które na górze wys<ch a="G"/>okiej zost<ch a="C"/>aną</row>
+			<row important_over="false"><ch a="d"/>I nikt nie szuka inicj<ch a="E"/>ałów ci<ch a="A"/>eśli</row>
+			<row important_over="false"><ch a="E"/>Gdy cieśle dom postawi<ch a="a"/>ą</row>
+			<row important_over="false"><ch a="d"/>Przyjaciele, którzy jemi<ch a="E"/>ołę czc<ch a="A"/>icie</row>
+			<row important_over="false"><ch a="d"/>Dobrze, że chodz<ch a="G"/>icie świ<ch a="C"/>atem</row>
+			<row important_over="false"><ch a="d"/>Wkrótce jodełkę ziel<ch a="E"/>oną spal<ch a="A"/>icie</row>
+			<row important_over="false"><ch a="E"/>By darzyła was ciepłym l<ch a="a"/>atem</row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>
-	
-	<music metre="">
+	<music metre="4/4">
 		<guitar barre="0"/>
 	</music>
+	<album>Dom o Zielonych Progach</album>
+	<genre>Poezja śpiewana</genre>
 	<status>
-		<verificators><verificator>Krzysiek Cz.</verificator>
-			
+		<verificators>
+			<verificator>Krzysiek Cz.</verificator>
 		</verificators>
-		<to_do></to_do>	<done>
+		<done>
 			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
 		</done>
-	</status>	<keywords/>
-	<music_source></music_source>
-	<album></album>
-	<genre></genre>
+	</status>
 </song>
