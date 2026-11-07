@@ -15,28 +15,28 @@
 			<row important_over="true">czy będzi<ch a="F"/>emy m<ch a="E"/>ogli z<ch a="a"/>acząć n<ch a="G"/>a n<ch a="F"/>ow<ch a="E"/>o?</row>
 		</block>
 		<block type="verse">
-			<row>Bo wi<ch a="G"/>esz, u nas nie zawsze jest sł<ch a="D"/>ońce,</row>
-			<row>choć przed d<ch a="G"/>eszczem nas chroni paras<ch a="D"/>ol,</row>
-			<row>czasem j<ch a="a"/>ednak przemoczy nam s<ch a="G"/>erca</row>
-			<row>inny d<ch a="F"/>eszcz, c<ch a="E"/>o spływ<ch a="a"/>a p<ch a="G"/>o tw<ch a="F"/>arz<ch a="E"/>y.</row>
+			<row important_over="false">Bo wi<ch a="G"/>esz, u nas nie zawsze jest sł<ch a="D"/>ońce,</row>
+			<row important_over="false">choć przed d<ch a="G"/>eszczem nas chroni paras<ch a="D"/>ol,</row>
+			<row important_over="false">czasem j<ch a="a"/>ednak przemoczy nam s<ch a="G"/>erca</row>
+			<row important_over="false">inny d<ch a="F"/>eszcz, c<ch a="E"/>o spływ<ch a="a"/>a p<ch a="G"/>o tw<ch a="F"/>arz<ch a="E"/>y.</row>
 		</block>
 		<block type="verse">
-			<row>Więc nas z<ch a="G"/>abierz bez tych uśmi<ch a="D"/>echów,</row>
-			<row>co dzień r<ch a="G"/>ano zostawianych w l<ch a="D"/>ustrze,</row>
-			<row>i bez śni<ch a="a"/>adań w pośpiechu, by zd<ch a="G"/>ążyć</row>
-			<row>na kol<ch a="F"/>ejny <ch a="E"/>autob<ch a="a"/>us d<ch a="G"/>o j<ch a="F"/>utr<ch a="E"/>a.</row>
+			<row important_over="false">Więc nas z<ch a="G"/>abierz bez tych uśmi<ch a="D"/>echów,</row>
+			<row important_over="false">co dzień r<ch a="G"/>ano zostawianych w l<ch a="D"/>ustrze,</row>
+			<row important_over="false">i bez śni<ch a="a"/>adań w pośpiechu, by zd<ch a="G"/>ążyć</row>
+			<row important_over="false">na kol<ch a="F"/>ejny <ch a="E"/>autob<ch a="a"/>us d<ch a="G"/>o j<ch a="F"/>utr<ch a="E"/>a.</row>
 		</block>
 		<block type="verse">
-			<row>Bo my t<ch a="G"/>u tak do jutra, do z<ch a="D"/>araz,</row>
-			<row>do pi<ch a="G"/>erwszego i do wak<ch a="D"/>acji,</row>
-			<row>rozlicz<ch a="a"/>ając geniuszy z geni<ch a="G"/>uszu,</row>
-			<row>a zjad<ch a="F"/>aczy chl<ch a="E"/>eba <ch a="a"/>z kol<ch a="G"/>acj<ch a="F"/>i...<ch a="E"/></row>
+			<row important_over="false">Bo my t<ch a="G"/>u tak do jutra, do z<ch a="D"/>araz,</row>
+			<row important_over="false">do pi<ch a="G"/>erwszego i do wak<ch a="D"/>acji,</row>
+			<row important_over="false">rozlicz<ch a="a"/>ając geniuszy z geni<ch a="G"/>uszu,</row>
+			<row important_over="false">a zjad<ch a="F"/>aczy chl<ch a="E"/>eba <ch a="a"/>z kol<ch a="G"/>acj<ch a="F"/>i...<ch a="E"/></row>
 		</block>
 		<block type="verse">
-			<row>Więc już j<ch a="G"/>utro zaprowadź nas, P<ch a="D"/>anie,</row>
-			<row>bez bag<ch a="G"/>ażu i bólu gł<ch a="D"/>owy,</row>
-			<row>i gdy n<ch a="a"/>ic nam na drodze nie st<ch a="G"/>anie,</row>
-			<row>spróbuj<ch a="F"/>emy z<ch a="E"/>acząć <ch a="a"/>od n<ch a="G"/>ow<ch a="F"/>a...<ch a="E"/></row>
+			<row important_over="false">Więc już j<ch a="G"/>utro zaprowadź nas, P<ch a="D"/>anie,</row>
+			<row important_over="false">bez bag<ch a="G"/>ażu i bólu gł<ch a="D"/>owy,</row>
+			<row important_over="false">i gdy n<ch a="a"/>ic nam na drodze nie st<ch a="G"/>anie,</row>
+			<row important_over="false">spróbuj<ch a="F"/>emy z<ch a="E"/>acząć <ch a="a"/>od n<ch a="G"/>ow<ch a="F"/>a...<ch a="E"/></row>
 		</block>
 		<blocklink blocknb="1"/>
 	</lyric>
@@ -53,10 +53,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Marek Tercz (słowa), Przemysław Gintrowski (muzyka), program „Pamiątki”</verificator>
-			<verificator>Oficjalna strona Przemysława Gintrowskiego (gintrowski.art.pl)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/przemyslaw-gintrowski/dokad-nas-zaprowadzisz-panie</verificator>
-		</verificators>
+      <verificator>https://spiewnik.wywrota.pl/przemyslaw-gintrowski/dokad-nas-zaprowadzisz-panie</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
