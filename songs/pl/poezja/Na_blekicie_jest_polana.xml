@@ -47,13 +47,12 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords>nedan</chords>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Krzysiek Cz.</verificator>
-			<verificator>Michał</verificator>
-			<verificator>https://spiewnik.wywrota.pl/marek-galazka/na-blekicie-jest-polana</verificator>
-			<verificator>Edward Stachura, Poezje wybrane</verificator>
-		</verificators>
+      <verificator>Krzysiek Cz.</verificator>
+      <verificator>Michał</verificator>
+      <verificator>https://spiewnik.wywrota.pl/marek-galazka/na-blekicie-jest-polana</verificator>
+    </verificators>
 	</status>
 </song>
