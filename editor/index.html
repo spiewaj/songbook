@@ -3,8 +3,15 @@
 <html xmlns="http://www.w3.org/1999/html" lang="pl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edytor piosenek - spiewaj.com</title>
   <script src="./pdf_renderer.js"></script>
   <script type="module" src="./songbook.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link rel="stylesheet" href="./song.css"/>
   <link rel="stylesheet" href="./ch.css"/>
   <link rel="icon" type="image/png" href="./favicon.png" />
@@ -78,14 +85,16 @@
       songEditor.addEventListener("git:commitAndPublish", (e)=>commitAndPublish(e) );
       songEditor.addEventListener("pdf:render", (e) => renderPdf(e.target, e.detail?.papersize || "a5"));
 
-      const topNav = document.getElementById("topnav");
+      const changesUrl = baseUrl ? `${baseUrl}/users/me/changes` : "https://ghe.spiewaj.com/users/me/changes";
+      const navHtml = `
+        <a href="/" class="nav-item"><i class="material-icons">queue_music</i> Wszystkie piosenki</a>
+        <a href="/songbooks.html" class="nav-item"><i class="material-icons">menu_book</i> Śpiewniki</a>
+        <a href="${changesUrl}" class="nav-item"><i class="material-icons">history</i> Edycje w toku</a>
+      `;
       for (const nav of [document.getElementById("topnav"), document.getElementById("bottomnav")]) {
-        if (baseUrl) {
-          nav.innerHTML = `<a href="/">[Piosenki]</a> <a href="${baseUrl}/users/me/changes">[Inne rozpoczęte edycje]</a>`;
+        if (nav) {
+          nav.innerHTML = navHtml;
           nav.hidden = false;
-        } else {
-          nav.innerHTML = '';
-          nav.hidden = true;
         }
       }
     }
@@ -103,29 +112,30 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background: #fff;
-        border: 3px solid #007bff;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        background: #ffffff;
+        border: 1px solid #dee2e6;
+        padding: 32px;
+        border-radius: 12px;
+        box-shadow: 0 12px 32px rgba(0,0,0,0.18);
         z-index: 10000;
         text-align: center;
-        max-width: 500px;
+        max-width: 460px;
       `;
       
       loginNotice.innerHTML = `
-        <h2>Musisz się zalogować</h2>
-        <p>Aby kontynuować edycję, zaloguj się przez GitHub.</p>
-        <p>Za chwilę zostaniesz przekierowany do strony logowania...</p>
+        <h2 style="margin-top: 0; color: #343a40; font-weight: 500;">Musisz się zalogować</h2>
+        <p style="color: #495057;">Aby kontynuować edycję, zaloguj się przez GitHub.</p>
+        <p style="color: #6c757d; font-size: 0.9em;">Za chwilę zostaniesz przekierowany do strony logowania...</p>
         <button id="loginBtn" style="
-          background: #007bff;
+          background: #1a73e8;
           color: white;
           border: none;
-          padding: 10px 20px;
-          font-size: 16px;
-          border-radius: 5px;
+          padding: 10px 22px;
+          font-size: 0.95rem;
+          font-weight: 500;
+          border-radius: 6px;
           cursor: pointer;
-          margin-top: 10px;
+          margin-top: 12px;
         ">Zaloguj się teraz</button>
       `;
       
@@ -287,12 +297,11 @@
 
 
   </script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 </head>
 <body onload="init()">
-  <div id="topnav"></div>
+  <div id="topnav" class="top-navigation"></div>
   <h1>Edytor piosenek</h1>
   <song-editor></song-editor>
-  <div id="bottomnav"></div>
+  <div id="bottomnav" class="bottom-navigation"></div>
 </body>
 </html>

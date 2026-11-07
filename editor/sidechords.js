@@ -171,13 +171,13 @@ export default class SideChordsRow extends HTMLElement {
 
     refreshSync() {
         if (this.row.getAttribute('type')=='instr') {
-            this.chinput.style.backgroundColor = 'white' // light green
+            this.chinput.style.backgroundColor = '#ffffff'
             return
         }
         if (this.normalizeChords(this.chinput.value) === this.normalizeChords(getChordsFromRow(this.row))) {
-            this.chinput.style.backgroundColor = '#E0FFE0' // light green
+            this.chinput.style.backgroundColor = '#eefaf0' // soft green
         } else {
-            this.chinput.style.backgroundColor = '#FFCCCB' // light red
+            this.chinput.style.backgroundColor = '#fdf2f2' // soft red
         }
     }
 }
