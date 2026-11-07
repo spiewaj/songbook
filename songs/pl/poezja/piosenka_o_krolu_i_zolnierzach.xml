@@ -52,12 +52,11 @@
 		<done>
 			<text/>
 			<authors/>
-			<chords/>
+			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Michał Korch</verificator>
-			<verificator>Ziemowit Fedecki</verificator>
-		</verificators>
+      <verificator>Michał Korch</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
