@@ -66,7 +66,9 @@
 			<authors/>
 			<chords>chord positioning</chords>
 		</done>
-		<verificators/>
+		<verificators>
+      <verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/wedrowka-zycie-jest-czlowieka</verificator>
+    </verificators>
 		<to_do/>
 	</status>
 </song>
