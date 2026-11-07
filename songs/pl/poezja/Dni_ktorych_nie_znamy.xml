@@ -11,8 +11,8 @@
 		<block type="verse">
 			<row important_over="true">T<ch a="e"/>yle było dn<ch a="G"/>i do utr<ch a="D"/>aty s<ch a="G"/>ił,</row>
 			<row important_over="true">d<ch a="a"/>o utraty tch<ch a="e"/>u, tyle b<ch a="G"/>yło chw<ch a="D"/>il.</row>
-			<row>Gdy ż<ch a="e"/>ałujesz t<ch a="G"/>ych, z których n<ch a="D"/>ie masz n<ch a="G"/>ic,</row>
-			<row>j<ch a="a"/>edno warto zn<ch a="e"/>ać, jedno t<ch a="G"/>ylko wi<ch a="D"/>edz:</row>
+			<row important_over="false">Gdy ż<ch a="e"/>ałujesz t<ch a="G"/>ych, z których n<ch a="D"/>ie masz n<ch a="G"/>ic,</row>
+			<row important_over="false">j<ch a="a"/>edno warto zn<ch a="e"/>ać, jedno t<ch a="G"/>ylko wi<ch a="D"/>edz:</row>
 		</block>
 		<block type="chorus">
 			<row important_over="true">Że w<ch a="a"/>ażne są t<ch a="H7"/>ylko te dn<ch a="e"/>i,</row>
@@ -21,10 +21,10 @@
 			<row important_over="true">t<ch a="C"/>ych, na kt<ch a="D"/>óre czek<ch a="e"/>amy.</row>
 		</block>
 		<block type="verse">
-			<row>P<ch a="e"/>ewien znany kt<ch a="G"/>oś, kto miał d<ch a="D"/>om i s<ch a="G"/>ad,</row>
-			<row>zg<ch a="a"/>ubił nagle s<ch a="e"/>ens i w złe kr<ch a="G"/>ęgi wp<ch a="D"/>adł.</row>
-			<row>Ch<ch a="e"/>oć majątek pr<ch a="G"/>ysł, on nie st<ch a="D"/>oczył si<ch a="G"/>ę,</row>
-			<row>wytłum<ch a="a"/>aczyć umiał s<ch a="e"/>obie wtedy wł<ch a="G"/>aśnie, ż<ch a="D"/>e:</row>
+			<row important_over="false">P<ch a="e"/>ewien znany kt<ch a="G"/>oś, kto miał d<ch a="D"/>om i s<ch a="G"/>ad,</row>
+			<row important_over="false">zg<ch a="a"/>ubił nagle s<ch a="e"/>ens i w złe kr<ch a="G"/>ęgi wp<ch a="D"/>adł.</row>
+			<row important_over="false">Ch<ch a="e"/>oć majątek pr<ch a="G"/>ysł, on nie st<ch a="D"/>oczył si<ch a="G"/>ę,</row>
+			<row important_over="false">wytłum<ch a="a"/>aczyć umiał s<ch a="e"/>obie wtedy wł<ch a="G"/>aśnie, ż<ch a="D"/>e:</row>
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
@@ -35,10 +35,10 @@
 		</block>
 		<blocklink blocknb="2"/>
 		<block type="verse">
-			<row>J<ch a="e"/>ak rozpoznać l<ch a="h"/>udzi, których j<ch a="G"/>uż nie zn<ch a="D"/>amy?</row>
-			<row>J<ch a="e"/>ak pozbierać m<ch a="h"/>yśli z tych niep<ch a="G"/>oskład<ch a="D"/>anych?</row>
-			<row>J<ch a="a"/>ak odnaleźć n<ch a="e"/>agle r<ch a="C"/>adość i nadzi<ch a="G"/>ej<ch a="D"/>ę?</row>
-			<row>Odp<ch a="e"/>owiedzi sz<ch a="h"/>ukaj, czasu j<ch a="G"/>est tak wi<ch a="D"/>ele!</row>
+			<row important_over="false">J<ch a="e"/>ak rozpoznać l<ch a="h"/>udzi, których j<ch a="G"/>uż nie zn<ch a="D"/>amy?</row>
+			<row important_over="false">J<ch a="e"/>ak pozbierać m<ch a="h"/>yśli z tych niep<ch a="G"/>oskład<ch a="D"/>anych?</row>
+			<row important_over="false">J<ch a="a"/>ak odnaleźć n<ch a="e"/>agle r<ch a="C"/>adość i nadzi<ch a="G"/>ej<ch a="D"/>ę?</row>
+			<row important_over="false">Odp<ch a="e"/>owiedzi sz<ch a="h"/>ukaj, czasu j<ch a="G"/>est tak wi<ch a="D"/>ele!</row>
 		</block>
 		<blocklink blocknb="2"/>
 	</lyric>
@@ -55,10 +55,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Marek Grechuta (słowa), Jan Kanty Pawluśkiewicz (muzyka), album „Korowód” (1971)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Dni_ktorych_nie_znamy)</verificator>
-			<verificator>https://spiewnik.wywrota.pl/marek-grechuta/dni-ktorych-nie-znamy</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Dni_ktorych_nie_znamy</verificator>
+      <verificator>https://spiewnik.wywrota.pl/marek-grechuta/dni-ktorych-nie-znamy</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
