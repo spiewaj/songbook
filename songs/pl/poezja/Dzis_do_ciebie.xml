@@ -23,31 +23,31 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row>Ksi<ch a="a"/>ężyc zaszedł hen za l<ch a="d"/>asem,</row>
-			<row>w<ch a="E7"/>e wsi gdzieś szczek<ch a="a"/>ają psy.</row>
-			<row>A ni<ch a="a"/>e pomyśl sobie cz<ch a="d"/>asem,</row>
-			<row>ż<ch a="E7"/>e do innej t<ch a="a"/>ęskno mi.</row>
-			<row>Ki<ch a="a"/>edy wrócę zn<ch a="A7"/>ów do ci<ch a="d"/>ebie,</row>
-			<row>m<ch a="d"/>oże w dzień, a m<ch a="A7"/>oże w n<ch a="d"/>oc,</row>
+			<row important_over="false">Ksi<ch a="a"/>ężyc zaszedł hen za l<ch a="d"/>asem,</row>
+			<row important_over="false">w<ch a="E7"/>e wsi gdzieś szczek<ch a="a"/>ają psy.</row>
+			<row important_over="false">A ni<ch a="a"/>e pomyśl sobie cz<ch a="d"/>asem,</row>
+			<row important_over="false">ż<ch a="E7"/>e do innej t<ch a="a"/>ęskno mi.</row>
+			<row important_over="false">Ki<ch a="a"/>edy wrócę zn<ch a="A7"/>ów do ci<ch a="d"/>ebie,</row>
+			<row important_over="false">m<ch a="d"/>oże w dzień, a m<ch a="A7"/>oże w n<ch a="d"/>oc,</row>
 		</block>
 		<block type="chorus">
 			<bis>
-				<row>d<ch a="d"/>obrze będzie n<ch a="a"/>am jak w niebie,</row>
-				<row>p<ch a="E7"/>ocałunków d<ch a="a"/>asz mi moc.</row>
+				<row important_over="false">d<ch a="d"/>obrze będzie n<ch a="a"/>am jak w niebie,</row>
+				<row important_over="false">p<ch a="E7"/>ocałunków d<ch a="a"/>asz mi moc.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row>Gd<ch a="a"/>y nie wrócę, niechaj wi<ch a="d"/>osną</row>
-			<row>r<ch a="E7"/>olę moją si<ch a="a"/>eje brat.</row>
-			<row>K<ch a="a"/>ości moje mchem por<ch a="d"/>osną</row>
-			<row><ch a="E7"/>i użyźnią zi<ch a="a"/>emi szmat.</row>
-			<row>W p<ch a="a"/>ole wyjdź któr<ch a="A7"/>egoś r<ch a="d"/>anka,</row>
-			<row>n<ch a="d"/>a snop żyta r<ch a="A7"/>ęce zł<ch a="d"/>óż</row>
+			<row important_over="false">Gd<ch a="a"/>y nie wrócę, niechaj wi<ch a="d"/>osną</row>
+			<row important_over="false">r<ch a="E7"/>olę moją si<ch a="a"/>eje brat.</row>
+			<row important_over="false">K<ch a="a"/>ości moje mchem por<ch a="d"/>osną</row>
+			<row important_over="false"><ch a="E7"/>i użyźnią zi<ch a="a"/>emi szmat.</row>
+			<row important_over="false">W p<ch a="a"/>ole wyjdź któr<ch a="A7"/>egoś r<ch a="d"/>anka,</row>
+			<row important_over="false">n<ch a="d"/>a snop żyta r<ch a="A7"/>ęce zł<ch a="d"/>óż</row>
 		</block>
 		<block type="chorus">
 			<bis>
-				<row><ch a="d"/>i ucałuj j<ch a="a"/>ak kochanka –</row>
-				<row>j<ch a="E7"/>a żyć będę w kł<ch a="a"/>osach zbóż.</row>
+				<row important_over="false"><ch a="d"/>i ucałuj j<ch a="a"/>ak kochanka –</row>
+				<row important_over="false">j<ch a="E7"/>a żyć będę w kł<ch a="a"/>osach zbóż.</row>
 			</bis>
 		</block>
 	</lyric>
@@ -64,10 +64,9 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Stanisław Magierski ps. „Jacek II” (słowa i muzyka, 1943)</verificator>
-			<verificator>Cyfrowa Biblioteka Polskiej Piosenki (bibliotekapiosenki.pl/utwory/Dzis_do_ciebie_przyjsc_nie_moge)</verificator>
-			<verificator>Śpiewnik Niepodległości (spiewnikniepodleglosci.pl/utwor/dzis-do-ciebie-przyjsc-nie-moge-kolysanka-lesna/)</verificator>
-		</verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Dzis_do_ciebie_przyjsc_nie_moge</verificator>
+      <verificator>https://spiewnikniepodleglosci.pl/utwor/dzis-do-ciebie-przyjsc-nie-moge-kolysanka-lesna/</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
