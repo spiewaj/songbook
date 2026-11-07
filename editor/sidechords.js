@@ -27,6 +27,7 @@ export default class SideChordsRow extends HTMLElement {
         // this.chordsType = shadow.getElementById("chords_type");
         this.selectType = shadow.getElementById("select_type");
         this.chinput = shadow.getElementById("sch");
+        this.schWrap = shadow.getElementById("sch_wrap");
 
         this.selectType.addEventListener("change", () => {
             this.pushRowType();
@@ -172,12 +173,21 @@ export default class SideChordsRow extends HTMLElement {
     refreshSync() {
         if (this.row.getAttribute('type')=='instr') {
             this.chinput.style.backgroundColor = '#ffffff'
+            if (this.schWrap) {
+                this.schWrap.setAttribute("data-tooltip", "Wers instrumentalny: wpisz tutaj akordy oddzielone spacjami (np. D G A D).");
+            }
             return
         }
         if (this.normalizeChords(this.chinput.value) === this.normalizeChords(getChordsFromRow(this.row))) {
             this.chinput.style.backgroundColor = '#eefaf0' // soft green
+            if (this.schWrap) {
+                this.schWrap.setAttribute("data-tooltip", "Akordy w kolumnie bocznej są zgodne z akordami nad tekstem. Możesz dopisać tu np. nawiasy (a H7). Naciśnij Enter, aby przejść do kolejnego wiersza.");
+            }
         } else {
             this.chinput.style.backgroundColor = '#fdf2f2' // soft red
+            if (this.schWrap) {
+                this.schWrap.setAttribute("data-tooltip", "Akordy boczne różnią się od akordów nad tekstem! Użyj « (kopiuj znad tekstu na bok) lub » (wstaw z boku nad tekst), aby zsynchronizować.");
+            }
         }
     }
 }
@@ -188,18 +198,18 @@ export function SideChordsInit() {
 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
       rel="stylesheet"/>
 <div id="sidechords">
-  <div id="type">
+  <div id="type" data-tooltip="Tryb wyświetlania akordów wiersza: Kluczowe nad (zawsze nad sylabami – 1. zwrotka/refren), Opcjonalnie nad (kolejne zwrotki o tym samym schemacie), Tylko z boku (gdy pozycje nad słowami nie są znane) lub Wers instrumentalny.">
 <!--      <span id="chords_type"  class="material-icons">auto_awesome</span>-->
-      <select id="select_type">
+      <select id="select_type" title="Tryb wyświetlania akordów dla tego wiersza">
           <option value="important">Kluczowe nad</option><!--First chorus only-->
           <option value="available">Opcjonalnie nad</option><-- Szkoda miejsca-->
           <option value="never">Tylko z boku</option><!-- never - np. nie ustawione prawidłowo-->
           <option value="instr">Wers instrumentalny</option>
       </select>
   </div>
-  <input type="text" id="sch"/>
-  <button class="material-icons" id="sync_to_side" title="Kopiuj akordy z tekstu na bok">keyboard_double_arrow_left</button>
-  <button class="material-icons" id="sync_to_lyric" title="Wstaw akordy z boku do tekstu">keyboard_double_arrow_right</button>
+  <span id="sch_wrap" class="tooltip-wrap" data-tooltip="Akordy wyświetlane w kolumnie bocznej wiersza."><input type="text" id="sch"/></span>
+  <button class="material-icons" id="sync_to_side" data-tooltip="Skopiuj akordy znad tekstu tego wiersza do pola bocznego (zresetuj nadpisane akordy boczne)." title="Kopiuj akordy z tekstu na bok">keyboard_double_arrow_left</button>
+  <button class="material-icons" id="sync_to_lyric" data-tooltip="Wstaw akordy z pola bocznego do wiersza tekstu (zastąpi obecne akordy nad tekstem, które następnie możesz przeciągnąć nad sylaby)." title="Wstaw akordy z boku do tekstu">keyboard_double_arrow_right</button>
 </div>
   `;
 
