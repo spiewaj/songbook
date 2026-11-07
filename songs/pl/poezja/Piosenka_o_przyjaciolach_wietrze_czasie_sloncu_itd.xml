@@ -21,28 +21,28 @@
       <row important_over="true"><ch a="G"/>Ma, by mówić im <ch a="e"/>bracia?</row>
     </block>
     <block type="verse">
-      <row><ch a="C"/>Kto pamięta o <ch a="D"/>słowie</row>
-      <row><ch a="G"/>Tak prostym jak <ch a="e"/>człowiek?</row>
-      <row><ch a="C"/>Nie chcę głosić prawd zapom<ch a="D"/>nianych,</row>
-      <row><ch a="C"/>By ktoś nie rzekł, że jestem fałszywym pro<ch a="D"/>rokiem.<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Kto pamięta o <ch a="D"/>słowie</row>
+      <row important_over="false"><ch a="G"/>Tak prostym jak <ch a="e"/>człowiek?</row>
+      <row important_over="false"><ch a="C"/>Nie chcę głosić prawd zapom<ch a="D"/>nianych,</row>
+      <row important_over="false"><ch a="C"/>By ktoś nie rzekł, że jestem fałszywym pro<ch a="D"/>rokiem.<ch a="e"/></row>
     </block>
     <block type="verse">
-      <row><ch a="e"/>W nurcie czasu pły<ch a="D"/>niemy,</row>
-      <row><ch a="D"/>Płytszy, cichszy już <ch a="e"/>oddech,</row>
-      <row><ch a="e"/>Tu mielizna, tam <ch a="D"/>kamień</row>
-      <row><ch a="D"/>I znów wir rok po <ch a="e"/>roku.</row>
+      <row important_over="false"><ch a="e"/>W nurcie czasu pły<ch a="D"/>niemy,</row>
+      <row important_over="false"><ch a="D"/>Płytszy, cichszy już <ch a="e"/>oddech,</row>
+      <row important_over="false"><ch a="e"/>Tu mielizna, tam <ch a="D"/>kamień</row>
+      <row important_over="false"><ch a="D"/>I znów wir rok po <ch a="e"/>roku.</row>
     </block>
     <block type="verse">
-      <row><ch a="e"/>Nie chcę głosić prawd zapom<ch a="D"/>nianych,</row>
-      <row><ch a="C"/>By ktoś nie rzekł, że jestem fałszywym pro<ch a="D"/>rokiem.<ch a="e"/></row>
-      <row><ch a="C"/>Póki nie jest za <ch a="D"/>późno,</row>
-      <row><ch a="G"/>Póki czasu choć <ch a="e"/>trochę,</row>
+      <row important_over="false"><ch a="e"/>Nie chcę głosić prawd zapom<ch a="D"/>nianych,</row>
+      <row important_over="false"><ch a="C"/>By ktoś nie rzekł, że jestem fałszywym pro<ch a="D"/>rokiem.<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Póki nie jest za <ch a="D"/>późno,</row>
+      <row important_over="false"><ch a="G"/>Póki czasu choć <ch a="e"/>trochę,</row>
     </block>
     <block type="verse">
-      <row><ch a="C"/>Wyjdźcie z domów do <ch a="D"/>słońca,</row>
-      <row><ch a="G"/>Wpuśćcie światło do <ch a="e"/>mroku,</row>
-      <row><ch a="C"/>Poszukajcie prawd zapom<ch a="D"/>nianych,</row>
-      <row><ch a="C"/>A znajdziecie prawdziwych pro<ch a="D"/>roków.<ch a="e"/></row>
+      <row important_over="false"><ch a="C"/>Wyjdźcie z domów do <ch a="D"/>słońca,</row>
+      <row important_over="false"><ch a="G"/>Wpuśćcie światło do <ch a="e"/>mroku,</row>
+      <row important_over="false"><ch a="C"/>Poszukajcie prawd zapom<ch a="D"/>nianych,</row>
+      <row important_over="false"><ch a="C"/>A znajdziecie prawdziwych pro<ch a="D"/>roków.<ch a="e"/></row>
     </block>
     <block type="verse">
       <row important_over="true"><ch a="e"/>Język gazety przy<ch a="D"/>rósł nam do <ch a="e"/>gardła,</row>
@@ -59,9 +59,11 @@
     <done>
       <text/>
       <authors/>
-      <chords/>
+      <chords>chord positioning</chords>
     </done>
-    <verificators/>
+    <verificators>
+      <verificator>https://bibliotekapiosenki.pl/utwory/Piosenka_o_przyjaciolach_wietrze_czasie_sloncu</verificator>
+    </verificators>
     <to_do/>
   </status>
 </song>
