@@ -48,7 +48,22 @@ export class SongVerse extends HTMLElement {
     this.buttonDelete=shadow.getElementById("delete");
     this.blocklink.addEventListener("input", (e) => this.blocklinkoninput(e, this));
     this.linkSel.addEventListener("input", (e) => this.inputLinkVerse(e, this));
-    this.buttonDelete.addEventListener("click", (e) => this.remove());
+    this.buttonDelete.addEventListener("click", (e) => {
+      const songbody = findAncestor(this, "SONG-BODY");
+      if (songbody && songbody.querySelectorAll("song-verse").length <= 1) {
+        const rows = this.querySelector("song-rows");
+        if (rows) {
+          const row = document.createElement("song-row");
+          row.setAttribute("important_over", "false");
+          row.appendChild(document.createTextNode(nbsp));
+          rows.replaceChildren(row);
+        }
+        this.removeAttribute("blocknb");
+      } else {
+        this.remove();
+      }
+      if (songbody) songbody.changePostprocess();
+    });
     this.btRadios={}
     for (const bt_radio of shadow.querySelectorAll('input[name="block_type"]')) {
       bt_radio.addEventListener("input", (e) => this.refoninput(e, this));
@@ -76,19 +91,28 @@ export class SongVerse extends HTMLElement {
     // Trick to not jump too much
     this.sidechords.style.width = this.sidechords.getBoundingClientRect().width + "px";
 
-    let newsc = document.createDocumentFragment()
-    if (!this.getAttribute("blocknb")) {
-      let rows = this.getElementsByTagName("song-row");
-      for (let r of rows) {
-        const ed = document.createElement("song-side-chords")
-        ed.setRow(r);
-        newsc.appendChild(ed);
-        r.siblingSide = ed;
+    if (this.getAttribute("blocknb")) {
+      this.sidechords.replaceChildren();
+    } else {
+      const rows = [...this.getElementsByTagName("song-row")];
+      const desired = rows.map((r) => {
+        let ed = r.siblingSide;
+        if (!ed || ed.row !== r) {
+          ed = document.createElement("song-side-chords");
+          ed.setRow(r);
+          r.siblingSide = ed;
+        } else {
+          ed.loadRow();
+        }
         this.resizeObserver.observe(r);
+        return ed;
+      });
+      const current = [...this.sidechords.children];
+      const sameOrder = current.length === desired.length && current.every((el, idx) => el === desired[idx]);
+      if (!sameOrder) {
+        this.sidechords.replaceChildren(...desired);
       }
     }
-
-    this.sidechords.replaceChildren(newsc)
     this.sidechords.style.removeProperty("width");
   }
 
@@ -104,6 +128,8 @@ export class SongVerse extends HTMLElement {
     }
 
     verse.refresh();
+    const songbody = findAncestor(verse, "SONG-BODY");
+    if (songbody) songbody.changePostprocess();
   }
 
   refresh() {
@@ -125,6 +151,8 @@ export class SongVerse extends HTMLElement {
     }
 
     verse.refresh();
+    const songbody = findAncestor(verse, "SONG-BODY");
+    if (songbody) songbody.changePostprocess();
   }
 
 
@@ -327,6 +355,14 @@ export class SongBis extends HTMLElement {
     shadow.appendChild(template.content.cloneNode(true));
     this.x=shadow.getElementById("x");
     this.x.addEventListener("input", (e) => {this.input(e, this)});
+    this.x.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === "Escape") {
+        const songbody = findAncestor(this, "SONG-BODY");
+        this.x.blur();
+        if (songbody) songbody.focus();
+        e.preventDefault();
+      }
+    });
   }
 
   input(e, songbis) {
@@ -362,10 +398,10 @@ export function getChordsFromRow(row) {
 }
 
 export function setSideChordsForRow(row, ch) {
-  const chr=getChordsFromRow(row);
   if (row.getAttribute('type')=='instr') {
     pushRowChords(row, ch)
   }
+  const chr=getChordsFromRow(row);
   if (chr===ch.trim()) {
     console.log("Side and main back in sync")
     row.removeAttribute("sidechords");

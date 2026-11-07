@@ -69,9 +69,9 @@ export class SongEditor extends HTMLElement {
     <p>Kilka trików, które warto znać: 
      <ul>
       <li>Klawisz \` (przeważnie lewy górny róg klawiatury) pozwala na dodanie akordu w bieżącym miejscu.</li>
-      <li>Akordy możesz przeciągać lub edytować poprzez drukrotne kliknięcie.</li>
-      <li>Zwrotkę możesz rozbić na dwie poprzez wstawienie dwóch pustych wierszy.</li>
-      <li>"Cofnij" działa tylko trochę (edycja tekstu, ale nie akordów).</li>
+      <li>Akordy możesz przeciągać lub edytować poprzez dwukrotne kliknięcie (wyczyszczenie pola usuwa akord).</li>
+      <li>Zwrotkę możesz rozbić na dwie poprzez wstawienie dwóch pustych wierszy lub przycisk "Podziel zwrotkę".</li>
+      <li>"Cofnij" (Ctrl+Z / Cmd+Z) i "Ponów" cofają i przywracają zmiany w tekście i akordach.</li>
       <li>Gotową piosenkę możesz zapisać do pliku lub zgłosić do recenzji przed publikacją w githubie</li>
      </ul> 
     </p> 
@@ -316,6 +316,7 @@ export class SongEditor extends HTMLElement {
     tmp.appendChild(z[0]);
     Sanitize(tmp);
     this.appendChild(tmp.childNodes[0]);
+    this.body().reset();
     this.body().changePostprocess();
 
     let song=xmlDoc.getElementsByTagName("song")[0];

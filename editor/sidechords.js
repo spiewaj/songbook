@@ -21,6 +21,7 @@ export default class SideChordsRow extends HTMLElement {
         super();
 
         const shadow = this.attachShadow({mode: "closed"});
+        this.shadow = shadow;
         shadow.appendChild(template.content.cloneNode(true));
 
         // this.chordsType = shadow.getElementById("chords_type");
@@ -42,6 +43,19 @@ export default class SideChordsRow extends HTMLElement {
 
         this.chinput.addEventListener("keydown", (e) => {
             console.log("SCH::KeyDown", e)
+            if (e.key == 'Enter') {
+                this.pushSideChords();
+                notifyRowParentAboutChange(this.row);
+                const nextRow = getNextRow(this.row);
+                if (nextRow && nextRow.siblingSide) {
+                    nextRow.siblingSide.chinput.focus();
+                    nextRow.siblingSide.chinput.select();
+                } else {
+                    this.chinput.blur();
+                }
+                e.preventDefault();
+                return;
+            }
             if (e.key == 'ArrowDown'
                 && this.chinput.selectionStart == this.chinput.selectionEnd
                 && this.chinput.selectionStart == this.chinput.value.length) {
@@ -118,12 +132,15 @@ export default class SideChordsRow extends HTMLElement {
     }
 
     loadRow() {
-        this.chinput.value = getSideChordsForRow(this.row);
+        if (!this.shadow || this.shadow.activeElement !== this.chinput) {
+            this.chinput.value = getSideChordsForRow(this.row);
+        }
         let rowType = this.row.getAttribute("type");
         if (rowType == 'instr') {
             this.selectType.value = "instr"
             this.buttonSyncToLyric.style.display='none';
             this.buttonSyncToSide.style.display='none';
+            this.refreshSync();
             return
         } else {
             this.buttonSyncToLyric.style.display='inline-block';
@@ -139,7 +156,7 @@ export default class SideChordsRow extends HTMLElement {
             this.selectType.value = "never"
         }
 
-        this.pushSideChords()
+        this.refreshSync()
     }
 
     normalizeChords(ch) {
@@ -181,8 +198,8 @@ export function SideChordsInit() {
       </select>
   </div>
   <input type="text" id="sch"/>
-  <button class="material-icons" id="sync_to_side">keyboard_double_arrow_left</button>
-  <button class="material-icons" id="sync_to_lyric">keyboard_double_arrow_right</button>
+  <button class="material-icons" id="sync_to_side" title="Kopiuj akordy z tekstu na bok">keyboard_double_arrow_left</button>
+  <button class="material-icons" id="sync_to_lyric" title="Wstaw akordy z boku do tekstu">keyboard_double_arrow_right</button>
 </div>
   `;
 

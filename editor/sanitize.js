@@ -262,12 +262,18 @@ function traverse(parent, node) {
 
 export function sanitizeRow(row) {
   row.normalize();
+  const sel = document.getSelection();
   if (!row.firstChild || row.firstChild.nodeName !== '#text') {
-    row.insertBefore(document.createTextNode(nbsp), row.firstChild);
+    const wasInRow = sel && sel.rangeCount > 0 && sel.isCollapsed &&
+        sel.getRangeAt(0).startContainer === row && sel.getRangeAt(0).startOffset === 0;
+    const tn = document.createTextNode(nbsp);
+    row.insertBefore(tn, row.firstChild);
+    if (wasInRow) {
+      sel.collapse(tn, 1);
+    }
   } else if (!row.firstChild.nodeValue.startsWith(nbsp)) {
-    const sel = document.getSelection();
     const isAtZero = sel && sel.rangeCount > 0 && sel.isCollapsed &&
-        sel.getRangeAt(0).startContainer === row.firstChild &&
+        (sel.getRangeAt(0).startContainer === row.firstChild || sel.getRangeAt(0).startContainer === row) &&
         sel.getRangeAt(0).startOffset === 0;
     row.firstChild.insertData(0, nbsp);
     if (isAtZero) {
@@ -362,8 +368,8 @@ export function SplitVerseFromRow(row) {
     newVerse.appendChild(newRows);
     console.log(row, row.nextSibling);
     const prevRow = row.previousSibling;
-    let r=row.nextSibling;
-    if (r==null
+    let r = (!isEmptyRow(row) && row !== allVerseRows[0]) ? row : row.nextSibling;
+    if (r == null
         && row.parentNode.parentNode.nodeName!='SONG-BIS') {
       if (isEmptyRow(prevRow) && songVerse.getElementsByTagName("SONG-ROW").length > 2) {
         prevRow.remove();

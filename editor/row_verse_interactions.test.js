@@ -723,4 +723,117 @@ describe('Song editor row and verse boundary interactions', () => {
     expect(state.selInfo.startText).toBe('\u00a0');
     expect(state.selInfo.startOffset).toBe(1);
   });
+
+  test('Editing an existing chord: Escape reverts without deleting, clearing + Enter deletes, and Ctrl+Z / Ctrl+Y undo/redo chord changes', async () => {
+    await loadSong(chordXml);
+    // Start editing the first chord ("D") via double-click handler
+    await evalInPage(`(() => {
+      const ch = document.querySelector('song-editor').body().querySelector('song-ch');
+      ch.ch.ondblclick();
+    })()`);
+    // Type "F" then press Escape -> should revert to "D", not delete!
+    await pressKey('F', 'KeyF', 70, 0, 'F');
+    await pressKey('Escape', 'Escape', 27);
+    let state = await getState();
+    expect(state.verses[0].rows[0].html).toContain('<song-ch a="D"');
+
+    // Now start editing "D" again, clear it with Backspace, and press Enter -> should delete "D"!
+    await evalInPage(`(() => {
+      const ch = document.querySelector('song-editor').body().querySelector('song-ch');
+      ch.ch.ondblclick();
+    })()`);
+    await pressKey('Backspace', 'Backspace', 8);
+    await pressKey('Enter', 'Enter', 13, 0, '\r');
+    state = await getState();
+    expect(state.verses[0].rows[0].html).not.toContain('a="D"');
+
+    // Press Ctrl+Z (modifiers = 2) -> should undo chord deletion!
+    await pressKey('z', 'KeyZ', 90, 2);
+    state = await getState();
+    expect(state.verses[0].rows[0].html).toContain('a="D"');
+
+    // Press Ctrl+Y (modifiers = 2) -> should redo chord deletion!
+    await pressKey('y', 'KeyY', 89, 2);
+    state = await getState();
+    expect(state.verses[0].rows[0].html).not.toContain('a="D"');
+  });
+
+  test('Home, End, Ctrl+A Select All + Backspace, and splitVerse button on middle row', async () => {
+    await loadSong(sampleXml);
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      body.focus();
+      const row1 = body.querySelectorAll('song-row')[0];
+      const r = document.createRange();
+      r.setStart(row1.firstChild, 5);
+      r.collapse(true);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(r);
+    })()`);
+
+    // Home moves to logical row start (offset 1, after leading nbsp)
+    await pressKey('Home', 'Home', 36);
+    let state = await getState();
+    expect(state.selInfo.startOffset).toBe(1);
+
+    // End moves to row end
+    await pressKey('End', 'End', 35);
+    state = await getState();
+    expect(state.selInfo.startOffset).toBe(14);
+
+    // Ctrl+A selects all rows across verses, and Backspace leaves 1 clean empty verse/row
+    await pressKey('a', 'KeyA', 65, 2);
+    await pressKey('Backspace', 'Backspace', 8);
+    state = await getState();
+    expect(state.verses.length).toBe(1);
+    expect(state.verses[0].rows.length).toBe(1);
+    expect(state.verses[0].rows[0].text).toBe('\u00a0');
+
+    // Paste multi-line plain text with a blank line into the empty row -> splits into 2 verses without leading empty row!
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      const dt = new DataTransfer();
+      dt.setData('text/plain', 'Wers 1A\\nWers 1B\\nWers 1C\\n\\nWers 2A');
+      dt.setData('text/html', '<meta charset="utf-8"><span>Wers 1A</span>');
+      const ev = new ClipboardEvent('paste', { clipboardData: dt, bubbles: true, cancelable: true });
+      body.dispatchEvent(ev);
+    })()`);
+    state = await getState();
+    expect(state.verses.length).toBe(2);
+    expect(state.verses[0].rows.map((r) => r.text)).toEqual([
+      '\u00a0Wers\u00a01A',
+      '\u00a0Wers\u00a01B',
+      '\u00a0Wers\u00a01C',
+    ]);
+    expect(state.verses[1].rows.map((r) => r.text)).toEqual(['\u00a0Wers\u00a02A']);
+
+    // Place cursor on Row 2 of Verse 1 ("Wers 1B") and click "Podziel zwrotkę" (splitVerse) -> Verse 1 has ["Wers 1A"], new Verse has ["Wers 1B", "Wers 1C"]
+    await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      const row2 = body.querySelectorAll('song-row')[1];
+      const r = document.createRange();
+      r.setStart(row2.firstChild, 1);
+      r.collapse(true);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(r);
+      body.splitVerse();
+    })()`);
+    state = await getState();
+    expect(state.verses.length).toBe(3);
+    expect(state.verses[0].rows.map((r) => r.text)).toEqual(['\u00a0Wers\u00a01A']);
+    expect(state.verses[1].rows.map((r) => r.text)).toEqual(['\u00a0Wers\u00a01B', '\u00a0Wers\u00a01C']);
+    expect(state.verses[2].rows.map((r) => r.text)).toEqual(['\u00a0Wers\u00a02A']);
+  });
+
+  test('SideChords sync with parentheses and keydown isolation from SongBody', async () => {
+    await loadSong(sampleXml);
+    const chords = await evalInPage(`(() => {
+      const body = document.querySelector('song-editor').body();
+      const row1 = body.querySelectorAll('song-row')[0];
+      row1.siblingSide.chinput.value = 'e D (a H7)';
+      row1.siblingSide.buttonSyncToLyric.click();
+      return [...row1.querySelectorAll('song-ch')].map(c => c.getAttribute('a'));
+    })()`);
+    expect(chords).toEqual(['e', 'D', 'a', 'H7']);
+  });
 });
