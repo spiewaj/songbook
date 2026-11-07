@@ -77,8 +77,7 @@ Nagrania:
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Michał</verificator>
-			<verificator>Paweł Budzyński</verificator>
-		</verificators>
+      <verificator>Michał</verificator>
+    </verificators>
 	</status>
 </song>
