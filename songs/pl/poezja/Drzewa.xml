@@ -23,31 +23,31 @@
 			</bis>
 		</block>
 		<block type="verse">
-			<row><ch a="C"/> Dany jest drz<ch a="a"/>ewom t<ch a="d"/>aki szum,</row>
-			<row><ch a="G"/> co liśćmi w struny gł<ch a="C"/>osu ścieka,</row>
-			<row><ch a="a"/> po to, by żywy gł<ch a="d"/>os z tych strun</row>
-			<row><ch a="G"/> gałęzie drzewom p<ch a="C"/>ooblekał.</row>
+			<row important_over="false"><ch a="C"/> Dany jest drz<ch a="a"/>ewom t<ch a="d"/>aki szum,</row>
+			<row important_over="false"><ch a="G"/> co liśćmi w struny gł<ch a="C"/>osu ścieka,</row>
+			<row important_over="false"><ch a="a"/> po to, by żywy gł<ch a="d"/>os z tych strun</row>
+			<row important_over="false"><ch a="G"/> gałęzie drzewom p<ch a="C"/>ooblekał.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row><ch a="A7"/> Dlatego człowiek <ch a="d"/>ujął nóż,</row>
-				<row><ch a="G"/> odciął szumiącą g<ch a="C"/>ałąź drzewa,</row>
-				<row><ch a="a"/> by głos fujarki ł<ch a="d"/>anom zbóż,</row>
-				<row><ch a="G"/> radość i smutek m<ch a="C"/>ógł wyśpiewać.</row>
+				<row important_over="false"><ch a="A7"/> Dlatego człowiek <ch a="d"/>ujął nóż,</row>
+				<row important_over="false"><ch a="G"/> odciął szumiącą g<ch a="C"/>ałąź drzewa,</row>
+				<row important_over="false"><ch a="a"/> by głos fujarki ł<ch a="d"/>anom zbóż,</row>
+				<row important_over="false"><ch a="G"/> radość i smutek m<ch a="C"/>ógł wyśpiewać.</row>
 			</bis>
 		</block>
 		<block type="verse">
-			<row><ch a="C"/> Dana jest drz<ch a="a"/>ewom t<ch a="d"/>aka moc</row>
-			<row><ch a="G"/> w ziemię i w niebo ci<ch a="C"/>ałem wrastać,</row>
-			<row><ch a="a"/> gałęziom dzień, korz<ch a="d"/>eniom noc</row>
-			<row><ch a="G"/> na poły w mrokach tkw<ch a="C"/>ić i blaskach.</row>
+			<row important_over="false"><ch a="C"/> Dana jest drz<ch a="a"/>ewom t<ch a="d"/>aka moc</row>
+			<row important_over="false"><ch a="G"/> w ziemię i w niebo ci<ch a="C"/>ałem wrastać,</row>
+			<row important_over="false"><ch a="a"/> gałęziom dzień, korz<ch a="d"/>eniom noc</row>
+			<row important_over="false"><ch a="G"/> na poły w mrokach tkw<ch a="C"/>ić i blaskach.</row>
 		</block>
 		<block type="chorus">
 			<bis times="2">
-				<row><ch a="A7"/> Dlatego człowiek t<ch a="d"/>opór wzniósł,</row>
-				<row><ch a="G"/> uderzył w drzewo j<ch a="C"/>ak w kolumnę,</row>
-				<row><ch a="a"/> by na ostatniej dr<ch a="d"/>odze wóz</row>
-				<row><ch a="G"/> drewnianą mu pot<ch a="C"/>oczył trumnę.</row>
+				<row important_over="false"><ch a="A7"/> Dlatego człowiek t<ch a="d"/>opór wzniósł,</row>
+				<row important_over="false"><ch a="G"/> uderzył w drzewo j<ch a="C"/>ak w kolumnę,</row>
+				<row important_over="false"><ch a="a"/> by na ostatniej dr<ch a="d"/>odze wóz</row>
+				<row important_over="false"><ch a="G"/> drewnianą mu pot<ch a="C"/>oczył trumnę.</row>
 			</bis>
 		</block>
 	</lyric>
@@ -64,10 +64,8 @@
 			<chords>chord positioning</chords>
 		</done>
 		<verificators>
-			<verificator>Onufry</verificator>
-			<verificator>Śpiewnik szczepowy 22 WDH „Pomarańczarnia”</verificator>
-			<verificator>Tradycja harcerska (autor słów i muzyki nieznany)</verificator>
-		</verificators>
+      <verificator>Onufry</verificator>
+    </verificators>
 	</status>
 	<music_source/>
 </song>
