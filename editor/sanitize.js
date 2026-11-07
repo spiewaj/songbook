@@ -488,7 +488,7 @@ function lightTraverse(node) {
         console.log("Misplaced", node);
         return false;
       }
-      if (node.getAttribute("editor") != "true"
+      if (node.getAttribute("editing") != "true"
           && node.getAttribute("a").trim().length == 0) {
         node.remove();
         return false;

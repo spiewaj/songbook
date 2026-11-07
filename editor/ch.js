@@ -1,4 +1,4 @@
-import {findAncestor, nbsp} from "./utils.js";
+import {findAncestor, nbsp, setCursorAfter, setCursorBefore} from "./utils.js";
 
 const predefinedChords = ["A", "A2", "A4", "A7", "A7+", "A7/4", "A7/6", "Ais",
   "B", "C", "C0", "C7", "C7+", "C9", "C9/5", "Cis", "Cis0", "D", "D2", "D4",
@@ -32,13 +32,24 @@ export default class SongCh extends HTMLElement {
       this.verse.onChangedChord();
     };
     this.che.onblur = (event) => {
-      let storedParent = this.parentNode;
-      const nextSibling = this.nextSibling;
+      const songBody = this.getSongBody();
+      const row = this.parentNode;
       this.setAttribute("editing", "false");
       this.updateEditing();
-
-      this.select(storedParent, nextSibling);
-      //this.selectParent(storedParent);
+      if (!row) return;
+      if (this.che.value.trim() === '') {
+        if (songBody) songBody.focus();
+        if (this.nextSibling && this.nextSibling.nodeName === '#text' && this.nextSibling.nodeValue.length > 0) {
+          setCursorAfter(this);
+        } else {
+          setCursorBefore(this);
+        }
+        this.remove();
+        row.normalize();
+        return;
+      }
+      row.normalize();
+      this.select(songBody);
     }
     this.ch.onmousedown = (event) => {
       // We need to prevent the parent to catch the double click
@@ -63,15 +74,23 @@ export default class SongCh extends HTMLElement {
     }
 
     this.onkeydown = (e) => {
-      if (e.key == 'Enter' || e.key == 'Escape' || e.key == 'Tab') {
-        if (this.che.value.trim() == '' && this.parentNode) {
-          this.remove();
-          return;
-        }
-      }
-      if (e.key == 'Enter') {
-        this.selectParent(this.parentNode);
+      if (e.key === 'Escape') {
+        this.che.value = '';
+        this.che.blur();
         e.preventDefault();
+        return;
+      }
+      if (e.key === 'Enter' || e.key === 'Tab') {
+        if (this.che.value.trim() !== '') {
+          this.setAttribute("a", this.che.value);
+          if (this.verse) {
+            this.verse.onChangedChord();
+          }
+        }
+        this.che.blur();
+        if (e.key === 'Enter') {
+          e.preventDefault();
+        }
       }
     }
     this.updateEditing();
@@ -85,22 +104,15 @@ export default class SongCh extends HTMLElement {
     return this.getAttribute("editing")==="true";
   }
 
-  select(row, toSelect) {
-    row.focus();
-    let r = document.createRange();
-    if (!toSelect) {
-      let t=document.createTextNode(nbsp);
-      row.appendChild(t);
-      r.selectNodeContents(t);
-    } else {
-      r.setStartBefore(toSelect);
+  select(songBody) {
+    if (songBody) {
+      songBody.focus();
     }
-    document.getSelection().removeAllRanges();
-    document.getSelection().addRange(r);
+    setCursorAfter(this);
   }
 
   selectParent(storedParent) {
-    this.select(storedParent, this.nextSibling);
+    this.select(this.getSongBody());
   }
 
   connectedCallback() {
