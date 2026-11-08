@@ -48,10 +48,7 @@
 			<row important_over="false">Najl<ch a="G"/>epsze te małe kina</row>
 			<row important_over="false">w rozt<ch a="D"/>erce i w udręce.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="never">O, łabadabadaj</row>
-			<row important_over="never">Łabadaba łabadaba łabadaba łabadaba daj</row>
-		</block>
+		<blocklink blocknb="3"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>

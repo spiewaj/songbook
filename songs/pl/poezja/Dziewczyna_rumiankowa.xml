@@ -27,12 +27,7 @@
 			<row important_over="false">Herbaty zaparzone, nad kubkiem twoje oczy,</row>
 			<row important_over="false">Co nie widzą jeszcze mnie i nie wiedzą, że to my.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false"><ch a="C"/>Ile jabłek n<ch a="G"/>a jabłoni, t<ch a="a"/>yle lat cię b<ch a="E7"/>ędę gonił,</row>
-			<row important_over="false">W m<ch a="F"/>ysiej dziurze, cz<ch a="C"/>y na chmurze ni<ch a="d"/>e ukryjesz si<ch a="G"/>ę na dł<ch a="G7"/>użej.</row>
-			<row important_over="false"><ch a="C"/>Ile jabłek n<ch a="G"/>a jabłoni, t<ch a="a"/>yle lat cię b<ch a="E7"/>ędę gonił,</row>
-			<row important_over="false">W m<ch a="F"/>ysiej dziurze, cz<ch a="C"/>y na chmurze wsz<ch a="d"/>ędzie zn<ch a="G"/>ajdę ci<ch a="C"/>ę.</row>
-		</block>
+		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
