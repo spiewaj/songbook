@@ -40,39 +40,21 @@
       <row important_over="false">wyci<ch a="C"/>ągnął z torby chleba pół</row>
       <row important_over="false">i t<ch a="G"/>yleż wybor<ch a="C"/>ow<ch a="G"/>ej.</row>
     </block>
-    <block type="chorus">
-      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
-      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
-    </block>
+    <blocklink blocknb="4"/>
     <block type="verse">
       <row important_over="false">Ksiądz pr<ch a="a"/>oboszcz, który wracał z mszy</row>
       <row important_over="false">pryw<ch a="G"/>atnym samoch<ch a="a"/>odem,</row>
       <row important_over="false">zapr<ch a="C"/>osił na plebanię i</row>
       <row important_over="false">ug<ch a="G"/>ościł starym mi<ch a="C"/>od<ch a="G"/>em.</row>
     </block>
-    <block type="chorus">
-      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
-      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
-    </block>
+    <blocklink blocknb="4"/>
     <block type="verse">
       <row important_over="false">Min<ch a="a"/>ister wyznań witał się</row>
       <row important_over="false">z P<ch a="G"/>anem jak z własnym br<ch a="a"/>atem,</row>
       <row important_over="false">a p<ch a="C"/>otem piękny toast wzniósł</row>
       <row important_over="false">wytw<ch a="G"/>ornym „Arar<ch a="C"/>at<ch a="G"/>em”.</row>
     </block>
-    <block type="chorus">
-      <row important_over="false">Poci<ch a="a"/>ągnął zdrowo Anioł Str<ch a="G"/>óż</row>
-      <row important_over="false">i flachę Panu d<ch a="a"/>ał,</row>
-      <row important_over="false">a cz<ch a="a"/>art do gardła nie lał n<ch a="G"/>ic,</row>
-      <row important_over="false">a czart się tylko śmi<ch a="a"/>ał,</row>
-      <row important_over="false">ha, ha… A cz<ch a="G"/>art się tylko śmi<ch a="a"/>ał.</row>
-    </block>
+    <blocklink blocknb="4"/>
     <block type="verse">
       <row important_over="false">A r<ch a="a"/>ano, gdy ich dopadł kac</row>
       <row important_over="false">w przydr<ch a="G"/>ożnym wiejskim r<ch a="a"/>owie,</row>
@@ -85,7 +67,7 @@
       <row important_over="false">P<ch a="a"/>an odpowiedział: „Sp<ch a="G"/>ójrz na kraj,</row>
       <row important_over="false"><ch a="G"/>on już nie musi p<ch a="a"/>ić”.</row>
     </block>
-  </lyric>
+	</lyric>
   <music metre="2/4">
     <guitar barre="0"/>
   </music>

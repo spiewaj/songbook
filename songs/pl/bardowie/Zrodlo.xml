@@ -33,11 +33,7 @@
       <row important_over="false">Z obu str<ch a="e"/>on żwir i glina, by zatrzymać go w biegu, woda syczy i wchłania, lecz żyje;</row>
       <row important_over="false">I zakr<ch a="C"/>ęca, omija, wsiąka, wspina się, pieni, ale pł<ch a="D"/>ynie, wciąż płynie wbr<ch a="G"/>ew brzegom —</row>
     </block>
-    <block type="chorus">
-      <row important_over="false">Bo źr<ch a="e"/>ódło,</row>
-      <row important_over="false">Bo źr<ch a="a"/>ódło</row>
-      <row important_over="false">Wciąż b<ch a="C"/>i...<ch a="B0"/>j<ch a="H"/>e.</row>
-    </block>
+    <blocklink blocknb="3"/>
     <block type="verse">
       <row important_over="false">I są mi<ch a="e"/>ejsca, gdzie w szlamie woda niemal zastygła pod kożuchem brudnej zieleni;</row>
       <row important_over="false">Tam śl<ch a="C"/>ad, prędzej niż ten, kto zostawił go, znika — ni<ch a="D"/>ewidoczne bagi<ch a="G"/>enne są sidła.</row>
@@ -51,12 +47,8 @@
       <row important_over="false">J<ch a="C"/>ak nie rz<ch a="B0"/>eka podzi<ch a="H"/>emna?</row>
       <row important_over="false">Gr<ch a="a"/>oty w skałach wypłucze, żyły zł<ch a="e"/>ote odkryje —</row>
     </block>
-    <block type="chorus">
-      <row important_over="false">Bo źr<ch a="e"/>ódło,</row>
-      <row important_over="false">Bo źr<ch a="a"/>ódło</row>
-      <row important_over="false">Wciąż b<ch a="C"/>i...<ch a="B0"/>j<ch a="H"/>e.</row>
-    </block>
-  </lyric>
+    <blocklink blocknb="3"/>
+	</lyric>
   <music metre="4/4">
     <guitar/>
   </music>

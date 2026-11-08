@@ -26,12 +26,7 @@
 			<row important_over="false">Nie sk<ch a="d"/>arżę si<ch a="B"/>ę, że m<ch a="C"/>am to, co m<ch a="a"/>am,</row>
 			<row important_over="false">że prz<ch a="B"/>egrałem coś zn<ch a="F"/>ów, że j<ch a="G"/>estem znów s<ch a="A"/>am.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Jaki b<ch a="d"/>ył ten dzi<ch a="B"/>eń, co dar<ch a="C"/>ował, co wzi<ch a="a"/>ął?</row>
-			<row important_over="false">Czy mnie wyni<ch a="B"/>ósł pod ni<ch a="F"/>ebo, czy rz<ch a="G"/>ucił na dn<ch a="A"/>o?</row>
-			<row important_over="false">Jaki b<ch a="d"/>ył ten dzi<ch a="B"/>eń, czy coś zmi<ch a="C"/>enił, czy ni<ch a="a"/>e?</row>
-			<row important_over="false">Czy był t<ch a="B"/>ylko nadzi<ch a="F"/>eją na d<ch a="G"/>obre i zł<ch a="A"/>e?</row>
-		</block>
+		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>

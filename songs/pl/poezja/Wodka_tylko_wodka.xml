@@ -50,10 +50,7 @@
 			<row important_over="true">B<ch a="c"/>owiem tutaj się skryły resztki dżentelm<ch a="G7"/>en<ch a="c"/>ów”.</row>
 			<row important_over="true">„Kt<ch a="f"/>oś was, chłopcy najmilejsi, znów wystrychnął na d<ch a="c"/>udka!”</row>
 		</block>
-		<block type="chorus">
-			<row important_over="never">Przez judasza głos doszedł:</row>
-			<row important_over="true">– W<ch a="G7"/>ódka, tylko w<ch a="c"/>ódka!</row>
-		</block>
+		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false">P<ch a="c"/>o niej wielki uczony, też ubzdryngol<ch a="G7"/>on<ch a="c"/>y,</row>
 			<row important_over="false">A<ch a="c"/>le mądrość w nim taka, że aż bić pokł<ch a="G7"/>on<ch a="c"/>y.</row>

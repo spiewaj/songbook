@@ -30,16 +30,7 @@
       <row important_over="false">K<ch a="H0"/>im chcę być – an<ch a="a"/>i ja myślę m<ch a="H0"/>ówić byle k<ch a="a"/>omu,</row>
       <row important_over="false">T<ch a="H0"/>ylko martwię si<ch a="a"/>ę kto przyjdzie mi<ch a="E"/>eszkać u nas w d<ch a="a"/>omu.</row>
     </block>
-    <block type="chorus">
-      <row important_over="false"><ch a="A"/>W sierocińcu <ch a="d"/>po dziedziń<ch a="A"/>cu</row>
-      <row important_over="false"><ch a="A"/>Chodzą dzieci <ch a="d"/>w ko<ch a="A"/>ło,</row>
-      <row important_over="false"><ch a="A"/>A za siatką <ch a="d"/>wróbli stad<ch a="A"/>ko</row>
-      <row important_over="false"><ch a="A"/>Bawi się <ch a="d"/>weso<ch a="A"/>ło.</row>
-      <row important_over="false"><ch a="E"/>Rozćwierkały w świ<ch a="A"/>ecie całym –</row>
-      <row important_over="false"><ch a="B"/>Stąd i ja wiem <ch a="E7"/>o tym,</row>
-      <row important_over="false"><ch a="E7"/>Że to wprawdzie <ch a="a"/>sieroci<ch a="B"/>niec,</row>
-      <row important_over="false"><ch a="E7"/>Ale nie sie<ch a="a"/>roty.</row>
-    </block>
+    <blocklink blocknb="1"/>
     <block type="verse">
       <row important_over="false">– T<ch a="a"/>ata z mamą są w obozie od pierwszej niedzi<ch a="E"/>eli,</row>
       <row important_over="false"><ch a="E7"/>Im jest znacznie niż mnie gorzej, bo nic nie wiedzi<ch a="a"/>eli.</row>
@@ -80,7 +71,7 @@
       <row important_over="false"><ch a="E7"/>A po lodzie zn<ch a="a"/>ów, jak co <ch a="B"/>dzień,</row>
       <row important_over="false"><ch a="E7"/>Będą chodzić dzi<ch a="a"/>eci.</row>
     </block>
-  </lyric>
+	</lyric>
   <music metre="4/4">
     <guitar barre="3"/>
   </music>

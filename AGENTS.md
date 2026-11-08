@@ -56,5 +56,6 @@ Always verify whether the current Pull Request has already been merged before ex
 - **Schema Constraints for `<alias>` and Composers**:
   - In `_site/song.xsd`, only a single optional `<alias>` is supported (`maxOccurs="1"`). There is NO `<aliases>` element.
   - In `<composer>`, only text is supported; multiple composers should be joined with a comma.
-- **Repetitions & Outros**:
-  - Always verify whether a chorus is actually repeated at the end before adding duplicated `<blocklink>` elements. Outro fade-outs or single-line repetitions should not be conflated with full-chorus bisy.
+- **Repetitions, Outros & Chorus Collapsing (`<blocklink>`)**:
+  - **Collapse identical choruses**: When a chorus (`<block type="chorus">`) is repeated verbatim with identical lyrics and accompaniment throughout a song, subsequent occurrences MUST be collapsed to `<blocklink blocknb="N"/>` pointing to the first occurrence (`blocknb` is the 1-based index among `<block>` elements). This saves vertical page layout space in printed songbooks and ensures consistency.
+  - **Do NOT collapse variant choruses or outros**: Never collapse choruses that have genuine variations in text (e.g. changing grammatical person, alternative lyrics) or accompaniment (modulations, key changes). Outro fade-outs or single-line repetitions should not be conflated with full-chorus bisy.
