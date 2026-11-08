@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Zęza">
+	<text_author type="solo">Maciej Jędrzejko</text_author>
+	<comment>Energetyczna szanta pompowa zespołu Banana Boat z albumu „A morze tak, a może nie” (2004).</comment>
+	<composer type="solo">Paweł Jędrzejko</composer>
+	<artist type="band">Banana Boat</artist>
+	<lyric>
+		<block type="other">
+			<row important_over="true"><ch a="G"/>Pompuj, pompuj, wypompuj zęzę,</row>
+			<row important_over="true">Pompuj, pompuj.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="G"/>Pompuj, pompuj, wypompuj zęzę,</row>
+			<row important_over="true"><ch a="F"/>Choć pompa, przy pompie, bra<ch a="G"/>kuje już rąk,</row>
+			<row important_over="true"><ch a="G"/>Tajfun, tsunami, musimy się sprężyć,</row>
+			<row important_over="true"><ch a="F"/>Bo leje tonami, więc d<ch a="G"/>alej do pomp.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="G"/>Kolejna fala zalała pokład,</row>
+			<row important_over="true"><ch a="A"/>Choć pompa, przy pompie, brakuje już rąk,</row>
+			<row important_over="true"><ch a="G"/>Starego koja także zamogła,</row>
+			<row important_over="true"><ch a="A"/>Bo leje tonami, więc dalej do pomp.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>No, cukier na słono, herbata gnije,</row>
+			<row important_over="false"><ch a="A"/>Choć pompa, przy pompie, brakuje już rąk,</row>
+			<row important_over="false"><ch a="G"/>No, pompuj na Boga, może przeżyjesz,</row>
+			<row important_over="false"><ch a="A"/>Bo leje tonami, więc dalej do pomp.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>Pompuj, no pompuj, wytężaj siły,</row>
+			<row important_over="false"><ch a="A"/>Choć pompa, przy pompie, brakuje już rąk,</row>
+			<row important_over="false"><ch a="G"/>No musisz człowieku wyszarpać żyły,</row>
+			<row important_over="false"><ch a="A"/>Bo leje tonami, więc dalej do pomp.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>Kiedyś ocean ucichnie wreszcie,</row>
+			<row important_over="false"><ch a="A"/>Choć pompa, przy pompie, brakuje już rąk,</row>
+			<row important_over="false"><ch a="G"/>Lecz teraz trzeba sprężyć się jeszcze,</row>
+			<row important_over="false"><ch a="A"/>Bo leje tonami, więc dalej do pomp.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>Pompuj, no pompuj, hej ramię w ramię,</row>
+			<row important_over="false"><ch a="A"/>Choć pompa, przy pompie, brakuje już rąk,</row>
+			<row important_over="false"><ch a="G"/>Gdy razem walczymy, nic nam się nie stanie,</row>
+			<row important_over="false"><ch a="A"/>Choć leje tonami, wystarczy nam pomp.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="G"/>Pompuj, pompuj, wypompuj zęzę,</row>
+			<row important_over="false"><ch a="F"/>Choć pompa, przy pompie, bra<ch a="G"/>kuje już rąk,</row>
+			<row important_over="false"><ch a="G"/>Tajfun, tsunami, musimy się sprężyć,</row>
+			<row important_over="false"><ch a="F"/>Bo leje tonami, więc d<ch a="G"/>alej do pomp.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Szanty</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/banana-boat/zeza</verificator>
+		</verificators>
+	</status>
+</song>
