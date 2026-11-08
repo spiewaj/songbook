@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Kolory miasta">
+	<text_author type="solo">Katarzyna Abramczyk</text_author>
+	<composer type="solo">Katarzyna Abramczyk</composer>
+	<artist type="band">Myśli Rozczochrane Wiatrem Zapisane</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Kolorami mi<ch a="cis"/>asta namal<ch a="gis"/>uję Cię,</row>
+			<row important_over="true">W kolorach mi<ch a="A"/>asta zamknę dł<ch a="E"/>onie dwi<ch a="H7"/>e,</row>
+			<row important_over="false">W kolorach mi<ch a="cis"/>asta wyczar<ch a="gis"/>uję nasz świat,</row>
+			<row important_over="true">Choć od kolorów mi<ch a="A"/>asta uci<ch a="H7"/>ekam od l<ch a="cis"/>at.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wi<ch a="cis"/>osna tu pachnie spal<ch a="gis"/>iną,</row>
+			<row important_over="false">Choć zapach woln<ch a="A"/>ości za br<ch a="E"/>amą ukr<ch a="H7"/>yty,</row>
+			<row important_over="false">Wyrz<ch a="cis"/>eźbiłam szar<ch a="gis"/>ością</row>
+			<row important_over="false">Za szybą tramw<ch a="A"/>aju ci<ch a="H7"/>eń Twój rozm<ch a="cis"/>yty.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Szal<ch a="cis"/>eństwo chodzi ulic<ch a="gis"/>ą,</row>
+			<row important_over="false">Biegnie i bi<ch a="A"/>egnie, wciąż g<ch a="E"/>oni i g<ch a="H7"/>oni,</row>
+			<row important_over="false">Wzr<ch a="cis"/>oku podnieść się b<ch a="gis"/>oję,</row>
+			<row important_over="false">Nade mną stukot szlab<ch a="A"/>anów, szyd<ch a="H7"/>ercze ne<ch a="cis"/>ony.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Kr<ch a="cis"/>opla pragnienia up<ch a="gis"/>adła,</row>
+			<row important_over="false">O płyty blok<ch a="A"/>owisk odb<ch a="E"/>iła się <ch a="H7"/>echem,</row>
+			<row important_over="false">W anon<ch a="cis"/>imowym bezł<ch a="gis"/>adzie</row>
+			<row important_over="false">Witają mnie l<ch a="A"/>udzie sz<ch a="H7"/>arym uśmi<ch a="cis"/>echem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">C<ch a="cis"/>isza na placu zal<ch a="gis"/>egła,</row>
+			<row important_over="false">Księżyc z chodn<ch a="A"/>ikiem t<ch a="E"/>ango zatańcz<ch a="H7"/>ył,</row>
+			<row important_over="false">Wł<ch a="cis"/>óczę się bladym przedświ<ch a="gis"/>tem,</row>
+			<row important_over="false">Szukając po mi<ch a="A"/>ejsku poł<ch a="H7"/>ówki pomarańcz<ch a="cis"/>y.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/mysli-rozczochrane-wiatrem-zapisane/kolory-miasta</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

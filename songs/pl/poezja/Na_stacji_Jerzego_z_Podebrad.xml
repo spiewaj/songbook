@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Na stacji Jerzego z Poděbrad">
+	<alias>Na Stacji Jerzego z Podebrad</alias>
+	<text_author type="solo">Jaromír Nohavica</text_author>
+	<composer type="solo">Jaromír Nohavica</composer>
+	<artist type="solo">Jaromír Nohavica</artist>
+	<translator>Antoni Muracki</translator>
+	<original_title>Na stanici Jiřího z Poděbrad</original_title>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">W<ch a="F"/>idzimy się co dzień na sch<ch a="G"/>odach w m<ch a="C"/>etrze, <ch a="a"/></row>
+			<row important_over="true">gdy <ch a="F"/>ona jedzie na dół – j<ch a="G"/>a na powi<ch a="e"/>erzchnię. <ch a="a"/></row>
+			<row important_over="false">J<ch a="F"/>a wracam z nocnej zmi<ch a="G"/>any,</row>
+			<row important_over="false">t<ch a="e"/>y pracujesz r<ch a="a"/>ano,</row>
+			<row important_over="false">J<ch a="F"/>a jestem niewysp<ch a="G"/>any,</row>
+			<row important_over="false">t<ch a="e"/>y z twarzą zatrosk<ch a="A"/>aną.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">A sch<ch a="d"/>ody jadą, choć m<ch a="G"/>ogłyby stać</row>
+			<row important_over="true">na st<ch a="C"/>acji Jerz<ch a="G"/>ego z Podęb<ch a="a"/>rad.</row>
+			<row important_over="false">A sch<ch a="d"/>ody jadą, choć m<ch a="G"/>ogłyby stać</row>
+			<row important_over="true">na st<ch a="C"/>acji Jerz<ch a="e"/>ego z Podęb<ch a="A"/>rad.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pr<ch a="F"/>aga o szóstej j<ch a="G"/>eszcze sennie zi<ch a="C"/>ewa, <ch a="a"/></row>
+			<row important_over="false">i t<ch a="F"/>ylko my naiwni – r<ch a="G"/>obimy, co trz<ch a="e"/>eba. <ch a="a"/></row>
+			<row important_over="false">J<ch a="F"/>a spieszę się z klin<ch a="G"/>iki,</row>
+			<row important_over="false">gn<ch a="e"/>a do kiosku <ch a="a"/>ona,</row>
+			<row important_over="false">Zmęcz<ch a="F"/>one dwa tryb<ch a="G"/>iki,</row>
+			<row important_over="false">dwi<ch a="e"/>e wyspy wśród mili<ch a="A"/>ona.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">Ch<ch a="F"/>oć o tej samej p<ch a="G"/>orze – randki są ruch<ch a="C"/>ome, <ch a="a"/></row>
+			<row important_over="false">bo w t<ch a="F"/>ym tandemie każdy j<ch a="G"/>edzie w swoją str<ch a="e"/>onę. <ch a="a"/></row>
+			<row important_over="false">J<ch a="F"/>a w lewo, ona w pr<ch a="G"/>awo,</row>
+			<row important_over="false">ni<ch a="e"/>e ma odwr<ch a="a"/>otu,</row>
+			<row important_over="false">J<ch a="F"/>ą czeka Rudé Pr<ch a="G"/>ávo,</row>
+			<row important_over="false">a n<ch a="e"/>a mnie pusty pok<ch a="A"/>ój.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">N<ch a="F"/>a czarodziejskich sch<ch a="G"/>odach czuję w sercu drż<ch a="C"/>enie, <ch a="a"/></row>
+			<row important_over="false">gdy ki<ch a="F"/>oskareczka Ewa śl<ch a="G"/>e mi swe spojrz<ch a="e"/>enie. <ch a="a"/></row>
+			<row important_over="false">W pośpi<ch a="F"/>echu ledwie zd<ch a="G"/>ążę</row>
+			<row important_over="false">sz<ch a="e"/>epnąć: „witam z r<ch a="a"/>ana”,</row>
+			<row important_over="false">Bo całow<ch a="F"/>ania w bi<ch a="G"/>egu</row>
+			<row important_over="false">s<ch a="e"/>urowo się zabr<ch a="A"/>ania.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">A Pr<ch a="F"/>aga drzemie i n<ch a="G"/>ic jeszcze nie wi<ch a="C"/>e <ch a="a"/></row>
+			<row important_over="false">o dwojg<ch a="F"/>u zakochanych, zapatrz<ch a="G"/>onych w si<ch a="e"/>ebie. <ch a="a"/></row>
+			<row important_over="false">Już t<ch a="F"/>ęsknią nasze wł<ch a="G"/>osy</row>
+			<row important_over="false">w p<ch a="e"/>ędzie popląt<ch a="a"/>ane</row>
+			<row important_over="false">Do t<ch a="F"/>ego, co nas cz<ch a="G"/>eka,</row>
+			<row important_over="false">do t<ch a="e"/>ego, co niezn<ch a="A"/>ane.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/jaromir-nohavica/na-stacji-jerzego-z-podebrad</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

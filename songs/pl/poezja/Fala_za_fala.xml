@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Fala za falą">
+	<text_author type="solo">Paweł Czekalski</text_author>
+	<composer type="solo">Paweł Czekalski</composer>
+	<artist type="solo">Paweł „Aldaron” Czekalski</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true">I f<ch a="D"/>ala za falą, i d<ch a="a"/>al za dalą,</row>
+			<row important_over="true">Raz Sł<ch a="C"/>ońce raz Księżyc a dr<ch a="G"/>ogi ciągle mało.</row>
+			<row important_over="false">I f<ch a="D"/>ala za falą, i d<ch a="a"/>al za dalą,</row>
+			<row important_over="false">Przyjaci<ch a="C"/>ele odchodzą wspomni<ch a="G"/>enia zostają.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Są d<ch a="D"/>omy, które mają ści<ch a="a"/>any i dach,</row>
+			<row important_over="false">Moja dr<ch a="C"/>oga to tylko podłoga, na ni<ch a="G"/>ej szary piach.</row>
+			<row important_over="false">Są d<ch a="D"/>omy, w których ciągle kt<ch a="a"/>oś na kogoś czeka,</row>
+			<row important_over="false">A j<ch a="C"/>a na swej drodze cz<ch a="G"/>ekam każdego człowieka.</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false">Są dr<ch a="D"/>ogi, które tylko łączą ze s<ch a="a"/>obą domy,</row>
+			<row important_over="false">Są dr<ch a="C"/>ogi, które same z czasem st<ch a="G"/>ają się domem.</row>
+			<row important_over="false">Być m<ch a="D"/>oże jest gdzieś taki dom, w kt<ch a="a"/>órym tylko Ty i ja,</row>
+			<row important_over="false">Lecz p<ch a="C"/>óki co ty swój dom, a j<ch a="G"/>a swoją drogę mam.</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="true">Są rozdr<ch a="D"/>oża, góry, m<ch a="C"/>orza,</row>
+			<row important_over="true">Są wyr<ch a="G"/>azy, drogowsk<ch a="D"/>azy,</row>
+			<row important_over="false">Czy przecz<ch a="D"/>ucie, czy ucz<ch a="C"/>ucie,</row>
+			<row important_over="false">Nigdy ni<ch a="G"/>e wiesz, co się zd<ch a="D"/>arzy.</row>
+			<row important_over="false">Pr<ch a="D"/>awo, lewo, kamień, drzw<ch a="C"/>o,</row>
+			<row important_over="false">W<ch a="G"/>oda, ogień, ziemia, ni<ch a="D"/>ebo,</row>
+			<row important_over="false">W moim s<ch a="D"/>ercu tkwi zakl<ch a="C"/>ęta</row>
+			<row important_over="false">M<ch a="G"/>a nieznana droga kr<ch a="D"/>ęta.</row>
+		</block>
+		<blocklink blocknb="1"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/aldaron/fala-za-fala</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

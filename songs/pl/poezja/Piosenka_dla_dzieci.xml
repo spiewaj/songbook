@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla dzieci">
+	<text_author type="solo">autor nieznany</text_author>
+	<comment>Antywojenna pieśń harcerska śpiewana m.in. w 21 WDW.</comment>
+	<composer type="solo">autor nieznany</composer>
+	<artist type="solo">autor nieznany</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Mężcz<ch a="a"/>yźni piją miętę i pal<ch a="D"/>ą narg<ch a="a"/>ile,</row>
+			<row important_over="true">a dzi<ch a="C"/>eci pobiegły pobawić si<ch a="D"/>ę chwilę,</row>
+			<row important_over="false">M<ch a="a"/>ają proce – a w koło kami<ch a="D"/>eni dość l<ch a="a"/>eży,</row>
+			<row important_over="true">Będą c<ch a="a"/>iskać je w str<ch a="G"/>onę żołni<ch a="a"/>erzy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A t<ch a="a"/>e, co powrócą i będ<ch a="D"/>ą już krw<ch a="a"/>awić,</row>
+			<row important_over="false">mężcz<ch a="C"/>yźni nauczą, jak lepi<ch a="D"/>ej się bawić,</row>
+			<row important_over="false">Jak n<ch a="a"/>ędzą powszednią raz przest<ch a="D"/>ać się sm<ch a="a"/>ucić,</row>
+			<row important_over="false">w tłumie sz<ch a="a"/>arpiąc leci<ch a="G"/>utko za dr<ch a="a"/>ucik.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">H<ch a="C"/>ej, dzieci! Wy nie wiecie, jak jest f<ch a="D"/>ajnie na wojnie,</row>
+			<row important_over="false">Kt<ch a="C"/>o nie był na wojnie, ten t<ch a="D"/>ego nie pojmie,</row>
+			<row important_over="false">B<ch a="a"/>o wojna, bo wojna – wiad<ch a="D"/>omo to prz<ch a="a"/>ecie,</row>
+			<row important_over="false">Zab<ch a="a"/>awą jest w s<ch a="G"/>am raz dla dzi<ch a="a"/>eci.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Mężcz<ch a="a"/>yźni w oczach kamer szukaj<ch a="D"/>ą pokl<ch a="a"/>asku,</row>
+			<row important_over="false">a chł<ch a="C"/>opców posłali – niech bawi<ch a="D"/>ą się w piasku,</row>
+			<row important_over="false">Cud<ch a="a"/>ownych zabawek od di<ch a="D"/>abła im d<ch a="a"/>ali,</row>
+			<row important_over="false">Żeby <ch a="a"/>inni się chł<ch a="G"/>opcy ich b<ch a="a"/>ali.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A t<ch a="a"/>ym, co powrócą, piach z wł<ch a="D"/>osów wytrz<ch a="a"/>epią,</row>
+			<row important_over="false">mężcz<ch a="C"/>yźni dłoń ścisną, rami<ch a="D"/>ona poklepią,</row>
+			<row important_over="false">I t<ch a="a"/>ylko tej rany nie dojr<ch a="D"/>zą mężcz<ch a="a"/>yźni,</row>
+			<row important_over="false">kt<ch a="a"/>óra nigdy się j<ch a="G"/>uż nie zabli<ch a="a"/>źni.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">H<ch a="C"/>ej, dzieci! Wy nie wiecie, jak jest f<ch a="D"/>ajnie na wojnie,</row>
+			<row important_over="false">Kt<ch a="C"/>o nie był na wojnie, ten t<ch a="D"/>ego nie pojmie,</row>
+			<row important_over="false">H<ch a="C"/>ej, dzieci! Wy nie wiecie, jak jest f<ch a="D"/>ajnie na wojnie,</row>
+			<row important_over="false">Kt<ch a="a"/>o nie był na w<ch a="G"/>ojnie...<ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">B<ch a="h"/>o, dzieci, wy o świecie nie wi<ch a="E"/>ecie zbyt wi<ch a="h"/>ele,</row>
+			<row important_over="true">Ni<ch a="D"/>e wiecie, kto wrogiem jest, kt<ch a="E"/>o przyjacielem,</row>
+			<row important_over="false">Dor<ch a="h"/>ośli oświecą was pr<ch a="E"/>ędko, bo prz<ch a="h"/>ecie,</row>
+			<row important_over="true">M<ch a="h"/>uszą spieszyć się, n<ch a="A"/>im dorośni<ch a="h"/>ecie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dziś sz<ch a="h"/>ansę wam dali, by gin<ch a="E"/>ąć za mł<ch a="h"/>odu,</row>
+			<row important_over="false">Dla spr<ch a="D"/>awy, dla kraju, dla d<ch a="E"/>obra narodu,</row>
+			<row important_over="false">Lecz, gd<ch a="h"/>y dorośniecie, już n<ch a="E"/>a nic, to p<ch a="h"/>ewne,</row>
+			<row important_over="false">ni<ch a="h"/>e będziecie kraj<ch a="A"/>owi potrz<ch a="h"/>ebne.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">H<ch a="D"/>ej, dzieci! Wy nie wiecie, jak jest f<ch a="E"/>ajnie na wojnie,</row>
+			<row important_over="false">Kt<ch a="D"/>o nie był na wojnie, ten t<ch a="E"/>ego nie pojmie,</row>
+			<row important_over="false">Kt<ch a="h"/>o poszedł, ten często nie wr<ch a="E"/>aca zwycz<ch a="h"/>ajnie,</row>
+			<row important_over="false">t<ch a="h"/>ak bardzo na w<ch a="A"/>ojnie jest f<ch a="h"/>ajnie.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
