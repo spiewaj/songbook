@@ -12,7 +12,15 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def str2tex(s):
-    return s.replace("\n", "\\\\").replace("#", "\\#").replace("_", "\\_").replace("...", "…")
+    if not s:
+        return ""
+    return (s.replace("&", r"\&")
+             .replace("%", r"\%")
+             .replace("$", r"\$")
+             .replace("#", r"\#")
+             .replace("_", r"\_")
+             .replace("\n", r"\\")
+             .replace("...", "…"))
 
 def create_ready_tex(songbook, papersize, dense=None, pack_songs=None, chords_over_verses=None):
     """function create a pdf file in a4 or a5 size
@@ -48,6 +56,7 @@ def create_ready_tex(songbook, papersize, dense=None, pack_songs=None, chords_ov
     with open("src/formats/" + head) as f:
         content = f.read()
 
+    raw_url = songbook.url() or ""
     content = (content
                .replace(":paper:", "paper" + papersize)
                .replace(":fontsize:", "19pt" if papersize == "a4" else "14pt")
@@ -56,6 +65,7 @@ def create_ready_tex(songbook, papersize, dense=None, pack_songs=None, chords_ov
                .replace(":title:", str2tex(songbook.title()))
                .replace(":subtitle:", str2tex(songbook.subtitle()))
                .replace(":place:", str2tex(songbook.place() + ", ") if songbook.place() else "")
+               .replace(":raw_url:", raw_url)
                .replace(":url:", str2tex(songbook.url()))
                .replace(":publisher:", str2tex(songbook.publisher())))
 

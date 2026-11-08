@@ -54,15 +54,15 @@ fi
   cd ${tex_dir}
 
   # Run pdflatex three times to recalculate longtables and toc
-  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -interaction=nonstopmode -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
+  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -interaction=nonstopmode -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}" || true
   INDEX_STY=()
 
   if ${MAKE_INDEX}; then
-    (cd ${tex_dir}; texindy -M lang/polish/utf8-lang aliases.idx)
-    (cd ${tex_dir}; texindy -M lang/polish/utf8-lang -M ${__dir}/src/formats/no-lg genre.idx)
-    (cd ${tex_dir}; texindy -M lang/polish/utf8-lang -M ${__dir}/src/formats/no-lg wyk.idx)
+    (cd ${tex_dir}; [ -f aliases.idx ] && texindy -M lang/polish/utf8-lang aliases.idx || true)
+    (cd ${tex_dir}; [ -f genre.idx ] && texindy -M lang/polish/utf8-lang -M ${__dir}/src/formats/no-lg genre.idx || true)
+    (cd ${tex_dir}; [ -f wyk.idx ] && texindy -M lang/polish/utf8-lang -M ${__dir}/src/formats/no-lg wyk.idx || true)
   fi
 
-  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -interaction=nonstopmode -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
+  TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -interaction=nonstopmode -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}" || true
   TEXINPUTS=.:${__dir}/src/latex: pdflatex -no-shell-escape -interaction=nonstopmode -jobname=${JOB} -output-directory "${tex_dir}" "${tex_file}"
 )
