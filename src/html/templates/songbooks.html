@@ -200,11 +200,135 @@
             background: #383838;
         }
 
+        .songbooks-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-top: 20px;
+        }
+
         .songbooks-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 20px;
             margin-top: 20px;
+        }
+
+        .sb-group-body .songbooks-grid {
+            margin-top: 0;
+        }
+
+        .sb-group-section {
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            background: #ffffff;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .sb-group-section[open] {
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        .sb-group-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 18px;
+            background: #f8f9fa;
+            cursor: pointer;
+            user-select: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #212529;
+            border-bottom: 1px solid transparent;
+            transition: background 0.15s;
+            list-style: none;
+        }
+
+        .sb-group-header::-webkit-details-marker {
+            display: none;
+        }
+
+        .sb-group-header::marker {
+            display: none;
+        }
+
+        .sb-group-section[open] > .sb-group-header {
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .sb-group-header:hover {
+            background: #f1f3f5;
+        }
+
+        .sb-group-title-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sb-group-icon {
+            color: #2e7d32;
+            font-size: 1.45rem;
+            flex-shrink: 0;
+        }
+
+        .sb-group-badge {
+            background: #e8f5e9;
+            color: #2e7d32;
+            font-size: 0.8rem;
+            padding: 2px 9px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .sb-group-caret {
+            font-size: 1.4rem;
+            color: #6c757d;
+            transition: transform 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .sb-group-section[open] .sb-group-caret {
+            transform: rotate(180deg);
+        }
+
+        .sb-group-body {
+            padding: 18px;
+        }
+
+        [data-theme="dark"] .sb-group-section {
+            background: #212529;
+            border-color: #343a40;
+        }
+
+        [data-theme="dark"] .sb-group-header {
+            background: #252525;
+            color: #f8f9fa;
+        }
+
+        [data-theme="dark"] .sb-group-section[open] > .sb-group-header {
+            border-bottom-color: #343a40;
+        }
+
+        [data-theme="dark"] .sb-group-header:hover {
+            background: #2f343a;
+        }
+
+        [data-theme="dark"] .sb-group-icon {
+            color: #81c784;
+        }
+
+        [data-theme="dark"] .sb-group-badge {
+            background: #1e3a20;
+            color: #81c784;
+        }
+
+        [data-theme="dark"] .sb-group-caret {
+            color: #adb5bd;
         }
 
         .sb-card {
@@ -1015,7 +1139,7 @@
             </button>
         </div>
 
-        <div id="songbooksGrid" class="songbooks-grid" style="display: none;">
+        <div id="songbooksGrid" class="songbooks-container" style="display: none;">
             <!-- Rendered cards -->
         </div>
     </div>
@@ -1305,12 +1429,209 @@
             return activeTab === 'mine' ? mySongbooks : allSongbooks;
         }
 
+        const KNOWN_GROUPS = {
+            'wdw21': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
+            '21wdw': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
+            '53wdh': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
+            '53wdhiz': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
+            'dino': { name: 'Dinozaury', icon: 'history_edu' },
+            'spiewnik_lupienicki': { name: 'Śpiewnik Łupienicki', icon: 'music_note' },
+        };
+
+        function formatGroupName(key) {
+            if (!key) return '';
+            return key
+                .split(/[_-]/)
+                .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(' ');
+        }
+
+        function getSongbookGroupInfo(sb) {
+            if (!sb || !sb.id) return null;
+            let groupKey = null;
+
+            if (sb.group) {
+                groupKey = String(sb.group).toLowerCase().trim();
+            } else if (sb.id.includes(':')) {
+                groupKey = sb.id.split(':')[0].toLowerCase().trim();
+            } else if (KNOWN_GROUPS[sb.id.toLowerCase()]) {
+                groupKey = sb.id.toLowerCase().trim();
+            }
+
+            if (!groupKey) return null;
+
+            // Normalize known alias keys so they group together
+            if (groupKey === '21wdw') groupKey = 'wdw21';
+            if (groupKey === '53wdhiz') groupKey = '53wdh';
+
+            const known = KNOWN_GROUPS[groupKey] || {};
+            return {
+                key: groupKey,
+                name: sb.groupTitle || known.name || formatGroupName(groupKey),
+                icon: known.icon || 'folder'
+            };
+        }
+
+        function getSongbookCountLabel(count) {
+            if (count === 1) return '1 śpiewnik';
+            if (count % 10 >= 2 && count % 10 <= 4 && (count % 100 < 10 || count % 100 >= 20)) {
+                return `${count} śpiewniki`;
+            }
+            return `${count} śpiewników`;
+        }
+
         function renderCurrentTab() {
             const list = getCurrentList();
             renderSongbooks(list);
         }
 
-        function renderSongbooks(list) {
+        function renderSongbookCard(sb, isAdmin) {
+            const count = sb.songCount || (Array.isArray(sb.resolvedSongIds) ? sb.resolvedSongIds.length : (Array.isArray(sb.songIds) ? sb.songIds.length : 0));
+            
+            // Author displayName if recorded
+            const members = sb.members || {};
+            const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
+            const authorName = (creator && (creator.displayName || creator.email)) || sb.author || '';
+
+            // Date
+            let dateStr = '';
+            if (sb.updatedAt && sb.updatedAt.toDate) {
+                dateStr = sb.updatedAt.toDate().toLocaleDateString('pl-PL');
+            } else if (sb.updatedAt) {
+                dateStr = new Date(sb.updatedAt).toLocaleDateString('pl-PL');
+            }
+
+            const artifacts = sb.artifacts || {};
+            const hasArtifacts = !!(artifacts.pdf_a5 || artifacts.pdf_a4 || artifacts.epub);
+            const isPublished = sb.isPublished || hasArtifacts;
+            const isPub = sb.isPublic !== false;
+            const isOwner = isCurrentUserOwner(sb, currentUser);
+            const canManage = isOwner || isAdmin;
+            const isPromoted = !!sb.isPromoted;
+            const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
+
+            return `
+                <div class="sb-card ${isPromoted ? 'is-promoted' : ''}">
+                    <div>
+                        <div class="sb-card-header">
+                            ${coverUrl ? `
+                                <img src="${escapeHtml(coverUrl)}" alt="Okładka" class="sb-card-cover-img" loading="lazy" onerror="this.style.display='none';if(this.nextElementSibling)this.nextElementSibling.style.display='block';">
+                                <span class="material-symbols-outlined sb-card-icon" style="display:none">menu_book</span>
+                            ` : `
+                                <span class="material-symbols-outlined sb-card-icon">menu_book</span>
+                            `}
+                            <div class="sb-card-title-group">
+                                <h2 class="sb-card-title">${escapeHtml(sb.title || sb.id)}</h2>
+                                ${sb.subtitle ? `<p class="sb-card-subtitle">${escapeHtml(sb.subtitle)}</p>` : ''}
+                            </div>
+                        </div>
+
+                        <div class="sb-card-meta">
+                            <span class="sb-meta-item sb-badge-count">
+                                <span class="material-symbols-outlined">queue_music</span>
+                                ${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}
+                            </span>
+                            ${isPromoted ? `
+                                <span class="sb-meta-item sb-badge-promoted" title="Śpiewnik wyróżniony przez administratora">
+                                    <span class="material-symbols-outlined">star</span> Wyróżniony
+                                </span>
+                            ` : ''}
+                            ${isPublished ? `
+                                <span class="sb-meta-item sb-badge-published" title="Śpiewnik opublikowany">
+                                    <span class="material-symbols-outlined">verified</span> Opublikowany
+                                </span>
+                            ` : ''}
+                            ${isOwner ? `
+                                <span class="sb-meta-item sb-badge-owner" title="Jesteś właścicielem tego śpiewnika">
+                                    <span class="material-symbols-outlined">person</span> Twój śpiewnik
+                                </span>
+                            ` : ''}
+                            ${!isPub ? `
+                                <span class="sb-meta-item sb-badge-private" title="Śpiewnik prywatny - widoczny tylko dla Ciebie">
+                                    <span class="material-symbols-outlined">lock</span> Prywatny
+                                </span>
+                            ` : ''}
+                            ${authorName && !isOwner ? `
+                                <span class="sb-meta-item" title="Twórca">
+                                    <span class="material-symbols-outlined">person</span>
+                                    ${escapeHtml(authorName)}
+                                </span>
+                            ` : ''}
+                            ${dateStr ? `
+                                <span class="sb-meta-item" title="Data aktualizacji">
+                                    <span class="material-symbols-outlined">calendar_today</span>
+                                    ${dateStr}
+                                </span>
+                            ` : ''}
+                        </div>
+
+                        ${hasArtifacts ? `
+                            <div class="sb-card-downloads">
+                                ${artifacts.epub ? `
+                                    <a href="${artifacts.epub}" class="badge-download badge-epub" title="Pobierz na Kindle i czytniki (EPUB)" target="_blank" rel="noopener">
+                                        <span class="material-symbols-outlined">tablet_android</span> EPUB
+                                    </a>
+                                ` : ''}
+                                ${artifacts.pdf_a5 ? `
+                                    <a href="${artifacts.pdf_a5}" class="badge-download badge-pdf-a5" title="Format poręczny A5 do druku" target="_blank" rel="noopener">
+                                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                                    </a>
+                                ` : ''}
+                                ${artifacts.pdf_a4 ? `
+                                    <a href="${artifacts.pdf_a4}" class="badge-download badge-pdf-a4" title="Format standardowy A4" target="_blank" rel="noopener">
+                                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                                    </a>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                    </div>
+
+                    <div class="sb-card-footer">
+                        <div class="sb-card-actions">
+                            <a href="/#${encodeURIComponent(sb.id)}" class="sb-btn-view">
+                                <span class="material-symbols-outlined">visibility</span>
+                                Przeglądaj
+                            </a>
+                            ${canManage ? `
+                                <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
+                                    <span class="material-symbols-outlined">edit</span>
+                                    Edytuj
+                                </a>
+                                <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}&action=invite" class="sb-btn-edit" style="background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;" title="Zaproś współtwórcę do edycji">
+                                    <span class="material-symbols-outlined">person_add</span>
+                                    Zaproś
+                                </a>
+                            ` : ''}
+                        </div>
+
+                        ${canManage ? `
+                            <div class="sb-owner-actions">
+                                ${isPub ? `
+                                    <button class="sb-btn-owner-action sb-btn-unpublish" onclick="unpublishSongbookCatalog('${escapeHtml(sb.id)}')" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
+                                        <span class="material-symbols-outlined">visibility_off</span> Cofnij publikację
+                                    </button>
+                                ` : `
+                                    <button class="sb-btn-owner-action sb-btn-publish" onclick="publishSongbookCatalog('${escapeHtml(sb.id)}')" title="Udostępnij w publicznym katalogu">
+                                        <span class="material-symbols-outlined">public</span> Opublikuj
+                                    </button>
+                                `}
+                                ${isAdmin ? `
+                                    <button class="sb-btn-owner-action sb-btn-promote ${isPromoted ? 'promoted' : ''}" onclick="togglePromoteSongbookCatalog('${escapeHtml(sb.id)}', ${!isPromoted})" title="${isPromoted ? 'Usuń wyróżnienie z katalogu' : 'Wyróżnij śpiewnik na początku katalogu'}">
+                                        <span class="material-symbols-outlined">${isPromoted ? 'star' : 'star_border'}</span>
+                                        ${isPromoted ? 'Wyróżniony' : 'Wyróżnij'}
+                                    </button>
+                                ` : ''}
+                                <button class="sb-btn-owner-action sb-btn-delete" onclick="deleteSongbookCatalog('${escapeHtml(sb.id)}')" title="${isAdmin && !isOwner ? 'Usuń śpiewnik (jako administrator)' : 'Trwale usuń ten śpiewnik z chmury'}">
+                                    <span class="material-symbols-outlined">delete</span> Usuń
+                                </button>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderSongbooks(list, forceOpen = false) {
             const grid = document.getElementById('songbooksGrid');
             const emptyEl = document.getElementById('emptyIndicator');
             const emptyTitle = document.getElementById('emptyTitle');
@@ -1318,7 +1639,11 @@
 
             if (!list || list.length === 0) {
                 if (emptyTitle && emptyDesc) {
-                    if (activeTab === 'mine') {
+                    const query = (document.getElementById('songbookSearch')?.value || '').trim();
+                    if (query) {
+                        emptyTitle.textContent = "Brak wyników wyszukiwania";
+                        emptyDesc.textContent = `Nie znaleziono śpiewników pasujących do frazy „${escapeHtml(query)}”.`;
+                    } else if (activeTab === 'mine') {
                         emptyTitle.textContent = "Brak Twoich śpiewników w chmurze";
                         emptyDesc.textContent = "Nie masz jeszcze zapisanych śpiewników. Stwórz nowy śpiewnik i zapisz go jako szkic lub opublikuj!";
                     } else {
@@ -1332,168 +1657,142 @@
             }
 
             emptyEl.style.display = 'none';
-            grid.style.display = 'grid';
+            grid.style.display = 'flex';
 
             const isAdmin = isCurrentUserAdmin(currentUser);
 
-            // In public tab, sort promoted songbooks to the top
-            let displayList = list;
-            if (activeTab === 'public') {
-                displayList = [...list].sort((a, b) => {
-                    const aProm = a.isPromoted ? 1 : 0;
-                    const bProm = b.isPromoted ? 1 : 0;
-                    if (aProm !== bProm) return bProm - aProm;
-                    const aDate = a.updatedAt?.toMillis ? a.updatedAt.toMillis() : (new Date(a.updatedAt || 0).getTime());
-                    const bDate = b.updatedAt?.toMillis ? b.updatedAt.toMillis() : (new Date(b.updatedAt || 0).getTime());
-                    return bDate - aDate;
-                });
+            // Grouping logic:
+            // Partition list into groups and ungrouped items
+            const groupsMap = new Map();
+            const ungrouped = [];
+
+            list.forEach(sb => {
+                const groupInfo = getSongbookGroupInfo(sb);
+                if (groupInfo) {
+                    if (!groupsMap.has(groupInfo.key)) {
+                        groupsMap.set(groupInfo.key, {
+                            key: groupInfo.key,
+                            name: groupInfo.name,
+                            icon: groupInfo.icon,
+                            items: []
+                        });
+                    }
+                    groupsMap.get(groupInfo.key).items.push(sb);
+                } else {
+                    ungrouped.push(sb);
+                }
+            });
+
+            const sortFn = (a, b) => {
+                const aProm = a.isPromoted ? 1 : 0;
+                const bProm = b.isPromoted ? 1 : 0;
+                if (aProm !== bProm) return bProm - aProm;
+                const aDate = a.updatedAt?.toMillis ? a.updatedAt.toMillis() : (new Date(a.updatedAt || 0).getTime());
+                const bDate = b.updatedAt?.toMillis ? b.updatedAt.toMillis() : (new Date(b.updatedAt || 0).getTime());
+                return bDate - aDate;
+            };
+
+            // Sort items within each group and within ungrouped
+            for (const grp of groupsMap.values()) {
+                grp.items.sort(sortFn);
+            }
+            ungrouped.sort(sortFn);
+
+            const hasGroups = groupsMap.size > 0;
+
+            if (!hasGroups) {
+                // If no groups exist, render simple flat grid
+                grid.innerHTML = `<div class="songbooks-grid">${ungrouped.map(sb => renderSongbookCard(sb, isAdmin)).join('')}</div>`;
+                return;
             }
 
-            grid.innerHTML = displayList.map(sb => {
-                const count = sb.songCount || (Array.isArray(sb.resolvedSongIds) ? sb.resolvedSongIds.length : (Array.isArray(sb.songIds) ? sb.songIds.length : 0));
-                
-                // Author displayName if recorded
-                const members = sb.members || {};
-                const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
-                const authorName = (creator && (creator.displayName || creator.email)) || sb.author || '';
+            // Sort groups: groups with promoted items first, then by most recent item update
+            const sortedGroups = Array.from(groupsMap.values()).sort((gA, gB) => {
+                const aProm = gA.items.some(s => s.isPromoted) ? 1 : 0;
+                const bProm = gB.items.some(s => s.isPromoted) ? 1 : 0;
+                if (aProm !== bProm) return bProm - aProm;
+                const aLatest = Math.max(...gA.items.map(s => s.updatedAt?.toMillis ? s.updatedAt.toMillis() : (new Date(s.updatedAt || 0).getTime())));
+                const bLatest = Math.max(...gB.items.map(s => s.updatedAt?.toMillis ? s.updatedAt.toMillis() : (new Date(s.updatedAt || 0).getTime())));
+                return bLatest - aLatest;
+            });
 
-                // Date
-                let dateStr = '';
-                if (sb.updatedAt && sb.updatedAt.toDate) {
-                    dateStr = sb.updatedAt.toDate().toLocaleDateString('pl-PL');
-                } else if (sb.updatedAt) {
-                    dateStr = new Date(sb.updatedAt).toLocaleDateString('pl-PL');
-                }
+            let html = '';
 
-                const artifacts = sb.artifacts || {};
-                const hasArtifacts = !!(artifacts.pdf_a5 || artifacts.pdf_a4 || artifacts.epub);
-                const isPublished = sb.isPublished || hasArtifacts;
-                const isPub = sb.isPublic !== false;
-                const isOwner = isCurrentUserOwner(sb, currentUser);
-                const canManage = isOwner || isAdmin;
-                const isPromoted = !!sb.isPromoted;
-                const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
-
-                return `
-                    <div class="sb-card ${isPromoted ? 'is-promoted' : ''}">
-                        <div>
-                            <div class="sb-card-header">
-                                ${coverUrl ? `
-                                    <img src="${escapeHtml(coverUrl)}" alt="Okładka" class="sb-card-cover-img" loading="lazy" onerror="this.style.display='none';if(this.nextElementSibling)this.nextElementSibling.style.display='block';">
-                                    <span class="material-symbols-outlined sb-card-icon" style="display:none">menu_book</span>
-                                ` : `
-                                    <span class="material-symbols-outlined sb-card-icon">menu_book</span>
-                                `}
-                                <div class="sb-card-title-group">
-                                    <h2 class="sb-card-title">${escapeHtml(sb.title || sb.id)}</h2>
-                                    ${sb.subtitle ? `<p class="sb-card-subtitle">${escapeHtml(sb.subtitle)}</p>` : ''}
-                                </div>
+            // Render group sections
+            for (const grp of sortedGroups) {
+                const count = grp.items.length;
+                const badgeText = getSongbookCountLabel(count);
+                html += `
+                    <details class="sb-group-section" id="group-${escapeHtml(grp.key)}" data-group-key="${escapeHtml(grp.key)}" ${forceOpen ? 'open' : 'open'}>
+                        <summary class="sb-group-header">
+                            <div class="sb-group-title-box">
+                                <span class="material-symbols-outlined sb-group-icon">${escapeHtml(grp.icon)}</span>
+                                <span>${escapeHtml(grp.name)}</span>
+                                <span class="sb-group-badge">${escapeHtml(badgeText)}</span>
                             </div>
-
-                            <div class="sb-card-meta">
-                                <span class="sb-meta-item sb-badge-count">
-                                    <span class="material-symbols-outlined">queue_music</span>
-                                    ${count} ${count === 1 ? 'piosenka' : (count < 5 ? 'piosenki' : 'piosenek')}
-                                </span>
-                                ${isPromoted ? `
-                                    <span class="sb-meta-item sb-badge-promoted" title="Śpiewnik wyróżniony przez administratora">
-                                        <span class="material-symbols-outlined">star</span> Wyróżniony
-                                    </span>
-                                ` : ''}
-                                ${isPublished ? `
-                                    <span class="sb-meta-item sb-badge-published" title="Śpiewnik opublikowany">
-                                        <span class="material-symbols-outlined">verified</span> Opublikowany
-                                    </span>
-                                ` : ''}
-                                ${isOwner ? `
-                                    <span class="sb-meta-item sb-badge-owner" title="Jesteś właścicielem tego śpiewnika">
-                                        <span class="material-symbols-outlined">person</span> Twój śpiewnik
-                                    </span>
-                                ` : ''}
-                                ${!isPub ? `
-                                    <span class="sb-meta-item sb-badge-private" title="Śpiewnik prywatny - widoczny tylko dla Ciebie">
-                                        <span class="material-symbols-outlined">lock</span> Prywatny
-                                    </span>
-                                ` : ''}
-                                ${authorName && !isOwner ? `
-                                    <span class="sb-meta-item" title="Twórca">
-                                        <span class="material-symbols-outlined">person</span>
-                                        ${escapeHtml(authorName)}
-                                    </span>
-                                ` : ''}
-                                ${dateStr ? `
-                                    <span class="sb-meta-item" title="Data aktualizacji">
-                                        <span class="material-symbols-outlined">calendar_today</span>
-                                        ${dateStr}
-                                    </span>
-                                ` : ''}
+                            <span class="material-symbols-outlined sb-group-caret">expand_more</span>
+                        </summary>
+                        <div class="sb-group-body">
+                            <div class="songbooks-grid">
+                                ${grp.items.map(sb => renderSongbookCard(sb, isAdmin)).join('')}
                             </div>
-
-                            ${hasArtifacts ? `
-                                <div class="sb-card-downloads">
-                                    ${artifacts.epub ? `
-                                        <a href="${artifacts.epub}" class="badge-download badge-epub" title="Pobierz na Kindle i czytniki (EPUB)" target="_blank" rel="noopener">
-                                            <span class="material-symbols-outlined">tablet_android</span> EPUB
-                                        </a>
-                                    ` : ''}
-                                    ${artifacts.pdf_a5 ? `
-                                        <a href="${artifacts.pdf_a5}" class="badge-download badge-pdf-a5" title="Format poręczny A5 do druku" target="_blank" rel="noopener">
-                                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
-                                        </a>
-                                    ` : ''}
-                                    ${artifacts.pdf_a4 ? `
-                                        <a href="${artifacts.pdf_a4}" class="badge-download badge-pdf-a4" title="Format standardowy A4" target="_blank" rel="noopener">
-                                            <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
-                                        </a>
-                                    ` : ''}
-                                </div>
-                            ` : ''}
                         </div>
-
-                        <div class="sb-card-footer">
-                            <div class="sb-card-actions">
-                                <a href="/#${encodeURIComponent(sb.id)}" class="sb-btn-view">
-                                    <span class="material-symbols-outlined">visibility</span>
-                                    Przeglądaj
-                                </a>
-                                ${canManage ? `
-                                    <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}" class="sb-btn-edit" title="Otwórz w edytorze">
-                                        <span class="material-symbols-outlined">edit</span>
-                                        Edytuj
-                                    </a>
-                                    <a href="songbook_edit.html#songbook=${encodeURIComponent(sb.id)}&action=invite" class="sb-btn-edit" style="background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0;" title="Zaproś współtwórcę do edycji">
-                                        <span class="material-symbols-outlined">person_add</span>
-                                        Zaproś
-                                    </a>
-                                ` : ''}
-                            </div>
-
-                            ${canManage ? `
-                                <div class="sb-owner-actions">
-                                    ${isPub ? `
-                                        <button class="sb-btn-owner-action sb-btn-unpublish" onclick="unpublishSongbookCatalog('${escapeHtml(sb.id)}')" title="Wycofaj z publicznego katalogu i oznacz jako prywatny">
-                                            <span class="material-symbols-outlined">visibility_off</span> Cofnij publikację
-                                        </button>
-                                    ` : `
-                                        <button class="sb-btn-owner-action sb-btn-publish" onclick="publishSongbookCatalog('${escapeHtml(sb.id)}')" title="Udostępnij w publicznym katalogu">
-                                            <span class="material-symbols-outlined">public</span> Opublikuj
-                                        </button>
-                                    `}
-                                    ${isAdmin ? `
-                                        <button class="sb-btn-owner-action sb-btn-promote ${isPromoted ? 'promoted' : ''}" onclick="togglePromoteSongbookCatalog('${escapeHtml(sb.id)}', ${!isPromoted})" title="${isPromoted ? 'Usuń wyróżnienie z katalogu' : 'Wyróżnij śpiewnik na początku katalogu'}">
-                                            <span class="material-symbols-outlined">${isPromoted ? 'star' : 'star_border'}</span>
-                                            ${isPromoted ? 'Wyróżniony' : 'Wyróżnij'}
-                                        </button>
-                                    ` : ''}
-                                    <button class="sb-btn-owner-action sb-btn-delete" onclick="deleteSongbookCatalog('${escapeHtml(sb.id)}')" title="${isAdmin && !isOwner ? 'Usuń śpiewnik (jako administrator)' : 'Trwale usuń ten śpiewnik z chmury'}">
-                                        <span class="material-symbols-outlined">delete</span> Usuń
-                                    </button>
-                                </div>
-                            ` : ''}
-                        </div>
-                    </div>
+                    </details>
                 `;
-            }).join('');
+            }
+
+            // Render ungrouped section if any
+            if (ungrouped.length > 0) {
+                const count = ungrouped.length;
+                const badgeText = getSongbookCountLabel(count);
+                html += `
+                    <details class="sb-group-section" id="group-other" data-group-key="other" ${forceOpen ? 'open' : 'open'}>
+                        <summary class="sb-group-header">
+                            <div class="sb-group-title-box">
+                                <span class="material-symbols-outlined sb-group-icon">auto_stories</span>
+                                <span>Pozostałe śpiewniki</span>
+                                <span class="sb-group-badge">${escapeHtml(badgeText)}</span>
+                            </div>
+                            <span class="material-symbols-outlined sb-group-caret">expand_more</span>
+                        </summary>
+                        <div class="sb-group-body">
+                            <div class="songbooks-grid">
+                                ${ungrouped.map(sb => renderSongbookCard(sb, isAdmin)).join('')}
+                            </div>
+                        </div>
+                    </details>
+                `;
+            }
+
+            grid.innerHTML = html;
+            checkUrlHashGroup();
+        }
+
+        function checkUrlHashGroup() {
+            const rawHash = (window.location.hash || '').replace(/^#/, '').trim();
+            if (!rawHash) return;
+            let targetGroup = null;
+            if (rawHash.startsWith('group=')) {
+                targetGroup = rawHash.replace('group=', '').trim().toLowerCase();
+            } else if (rawHash.startsWith('group-')) {
+                targetGroup = rawHash.replace('group-', '').trim().toLowerCase();
+            } else if (rawHash.startsWith('tab=')) {
+                const tab = rawHash.replace('tab=', '').trim().toLowerCase();
+                if (tab === 'mine' || tab === 'public') switchCatalogTab(tab);
+                return;
+            } else if (!rawHash.includes('=')) {
+                targetGroup = rawHash.toLowerCase();
+            }
+            if (targetGroup) {
+                if (targetGroup === '21wdw') targetGroup = 'wdw21';
+                if (targetGroup === '53wdhiz') targetGroup = '53wdh';
+
+                const el = document.querySelector(`.sb-group-section[data-group-key="${targetGroup}"]`);
+                if (el) {
+                    el.open = true;
+                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
         }
 
         async function unpublishSongbookCatalog(id) {
@@ -1583,7 +1882,7 @@
             const query = (document.getElementById('songbookSearch').value || '').trim().toLowerCase();
             const sourceList = getCurrentList();
             if (!query) {
-                renderSongbooks(sourceList);
+                renderSongbooks(sourceList, false);
                 return;
             }
 
@@ -1594,12 +1893,16 @@
                 const members = sb.members || {};
                 const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
                 const author = ((creator && (creator.displayName || creator.email)) || sb.author || '').toLowerCase();
-                return title.includes(query) || subtitle.includes(query) || id.includes(query) || author.includes(query);
+                const groupInfo = getSongbookGroupInfo(sb);
+                const groupName = (groupInfo ? groupInfo.name : '').toLowerCase();
+                const groupKey = (groupInfo ? groupInfo.key : '').toLowerCase();
+                return title.includes(query) || subtitle.includes(query) || id.includes(query) || author.includes(query) || groupName.includes(query) || groupKey.includes(query);
             });
 
-            renderSongbooks(filtered);
+            renderSongbooks(filtered, true);
         }
 
+        window.addEventListener('hashchange', checkUrlHashGroup);
         document.addEventListener('DOMContentLoaded', initPublicSongbooks);
     </script>
 </body>

@@ -167,9 +167,9 @@
                             <span class="id-url-prefix" title="Adres śpiewnika na spiewaj.com">spiewaj.com/#</span>
                             <input type="text" 
                                    id="songbookId" 
-                                   placeholder="np. moj_spiewnik"
-                                   pattern="[a-z0-9_-]+"
-                                   title="Tylko małe litery, cyfry, podkreślenia i myślniki">
+                                   placeholder="np. wdw21:2023 lub moj_spiewnik"
+                                   pattern="[a-zA-Z0-9_-]+(:[a-zA-Z0-9_-]+)?"
+                                   title="Litery, cyfry, podkreślenia, myślniki oraz opcjonalny dwukropek dla grupy (np. wdw21:2023)">
                         </div>
                         <div id="songbookIdAvailability" class="id-availability-status" style="display: none;"></div>
                         <small id="songbookIdHelp" class="id-help-text"></small>
