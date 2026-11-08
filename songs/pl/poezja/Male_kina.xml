@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Małe kina">
+	<text_author type="solo">Konstanty Ildefons Gałczyński</text_author>
+	<composer type="solo">Krzysztof Myszkowski</composer>
+	<artist type="band">Stare Dobre Małżeństwo</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Najl<ch a="D"/>epsze te małe kina</row>
+			<row important_over="true">w rozt<ch a="e"/>erce i w udręce,</row>
+			<row important_over="true">z krzes<ch a="G"/>ełkami wyściełanymi</row>
+			<row important_over="true">pl<ch a="D"/>uszem czerwonym jak serce.</row>
+			<row important_over="false">Na dw<ch a="D"/>orze jeszcze widno,</row>
+			<row important_over="false">a j<ch a="e"/>uż się lampa kołysze</row>
+			<row important_over="false">i ci<ch a="G"/>enie meandrem biegną</row>
+			<row important_over="false">n<ch a="D"/>ad zwiastującym afiszem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Chł<ch a="e"/>opcy się drą wniebogłosy</row>
+			<row important_over="false">w promieniach sztucznego świata,</row>
+			<row important_over="false">sprzed<ch a="e"/>ają papierosy,</row>
+			<row important_over="true">ir<ch a="G"/>ysy i sznurow<ch a="D"/>adła.</row>
+			<row important_over="false">O, j<ch a="D"/>uż się wieczór zaczyna!</row>
+			<row important_over="false">O, j<ch a="e"/>uż księżyc wyciąga ręce.</row>
+			<row important_over="false">Najl<ch a="G"/>epsze te małe kina</row>
+			<row important_over="false">w rozt<ch a="D"/>erce i w udręce.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="never">O, łabadabadaj</row>
+			<row important_over="never">Łabadaba łabadaba łabadaba łabadaba daj</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">J<ch a="D"/>akże tu miło się wtulić,</row>
+			<row important_over="false">d<ch a="e"/>eszcz, zawieruchę przeczekać</row>
+			<row important_over="false">i n<ch a="G"/>ic, i nic nie mówić,</row>
+			<row important_over="false">i trw<ch a="D"/>ać, i nie uciekać.</row>
+			<row important_over="false">Najl<ch a="D"/>epsze te małe kina,</row>
+			<row important_over="false">gdzi<ch a="e"/>e wszystko się zapomina;</row>
+			<row important_over="false">że t<ch a="G"/>o gospoda ubogich,</row>
+			<row important_over="false">kt<ch a="D"/>órym dzień spłynął źle.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Chł<ch a="e"/>opcy się drą wniebogłosy</row>
+			<row important_over="false">w promieniach sztucznego świata,</row>
+			<row important_over="false">sprzed<ch a="e"/>ają papierosy,</row>
+			<row important_over="false">ir<ch a="G"/>ysy i sznurow<ch a="D"/>adła.</row>
+			<row important_over="false">O, j<ch a="D"/>uż się wieczór zaczyna!</row>
+			<row important_over="false">O, j<ch a="e"/>uż księżyc wyciąga ręce.</row>
+			<row important_over="false">Najl<ch a="G"/>epsze te małe kina</row>
+			<row important_over="false">w rozt<ch a="D"/>erce i w udręce.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="never">O, łabadabadaj</row>
+			<row important_over="never">Łabadaba łabadaba łabadaba łabadaba daj</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/stare-dobre-malzenstwo/male-kina</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bieszczadzki blues">
+	<text_author type="solo">Wiesław Buchcic</text_author>
+	<composer type="solo">Ryszard Pomorski</composer>
+	<artist type="band">Wołosatki</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Stary g<ch a="a"/>óral zapowiadał pi<ch a="G"/>ęć tygodni ekstra l<ch a="a"/>ampy,</row>
+			<row important_over="true">w telewizji to powtórzył jeden gość,</row>
+			<row important_over="true">więc chłop<ch a="C"/>aki swe plecaki spakow<ch a="G"/>ali i pogn<ch a="C"/>ali</row>
+			<row important_over="true">na bieszcz<ch a="C7"/>adzki rajd, bo mi<ch a="F"/>asta mieli d<ch a="d"/>ość.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">To jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="true">śpiewany w deszczochr<ch a="a"/>onie,</row>
+			<row important_over="false">to jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="true">tak sm<ch a="C"/>utny jak kropel s<ch a="G"/>enny pl<ch a="C"/>usk.</row>
+			<row important_over="true">Ki<ch a="C7"/>edy słońce tw<ch a="A"/>arz pok<ch a="d"/>aże (g),</row>
+			<row important_over="false">to i bl<ch a="a"/>ues się nam rozmarzy,</row>
+			<row important_over="false">teraz sm<ch a="a"/>utny j<ch a="E"/>est,</row>
+			<row important_over="false">bo ci<ch a="a"/>ągle pada deszcz.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W autob<ch a="a"/>usie w Lutowiskach śc<ch a="G"/>isk, że nie ma czym odd<ch a="a"/>ychać,</row>
+			<row important_over="false">jeszcze chwila i ruszymy znów na szlak.</row>
+			<row important_over="false">Połon<ch a="C"/>iny jak dziewczyny pozdrawi<ch a="G"/>ają i czek<ch a="C"/>ają,</row>
+			<row important_over="false">a tu sł<ch a="C7"/>ychać grzmot, lać zacz<ch a="F"/>yna, niech to szl<ch a="d"/>ag…</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">To jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="false">śpiewany w deszczochr<ch a="a"/>onie,</row>
+			<row important_over="false">to jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="false">tak sm<ch a="C"/>utny jak kropel s<ch a="G"/>enny pl<ch a="C"/>usk.</row>
+			<row important_over="false">Ki<ch a="C7"/>edy słońce tw<ch a="A"/>arz pok<ch a="d"/>aże,</row>
+			<row important_over="false">to i bl<ch a="a"/>ues się nam rozmarzy,</row>
+			<row important_over="false">teraz sm<ch a="a"/>utny j<ch a="E"/>est,</row>
+			<row important_over="false">bo ci<ch a="a"/>ągle pada deszcz.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Żeby choci<ch a="a"/>aż kapuśniaczek, <ch a="G"/>albo jakaś zwykła mż<ch a="a"/>awka,</row>
+			<row important_over="false">a tu istny potop z nieba leje się.</row>
+			<row important_over="false">Rajdu szk<ch a="C"/>oda, w butach woda, czas się dł<ch a="G"/>uży, my w kał<ch a="C"/>uży,</row>
+			<row important_over="false">jak w schron<ch a="C7"/>isku, tak w namiocie w<ch a="F"/>odę rż<ch a="d"/>e.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">To jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="false">śpiewany w deszczochr<ch a="a"/>onie,</row>
+			<row important_over="false">to jest bieszcz<ch a="a"/>adzki bl<ch a="E"/>ues,</row>
+			<row important_over="false">tak sm<ch a="C"/>utny jak kropel s<ch a="G"/>enny pl<ch a="C"/>usk.</row>
+			<row important_over="false">Ki<ch a="C7"/>edy słońce tw<ch a="A"/>arz pok<ch a="d"/>aże,</row>
+			<row important_over="false">to i bl<ch a="a"/>ues się nam rozmarzy,</row>
+			<row important_over="false">teraz sm<ch a="a"/>utny j<ch a="E"/>est,</row>
+			<row important_over="false">bo ci<ch a="a"/>ągle pada deszcz.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/wolosatki/bieszczadzki-blues</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

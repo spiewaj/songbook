@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Dożywocie gór">
+	<text_author type="solo">Tomasz Borkowski</text_author>
+	<composer type="solo">Piotr Woźniak</composer>
+	<artist type="band">Na Bani</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Dr<ch a="d"/>ogi Mistrzu – M<ch a="C"/>istrzu mej dr<ch a="G"/>ogi,</row>
+			<row important_over="true">M<ch a="a"/>istrzu Jerzy i M<ch a="G"/>istrzu Wojci<ch a="F"/>echu,</row>
+			<row important_over="false">Przez W<ch a="d"/>as w górach schodz<ch a="C"/>iłem n<ch a="G"/>ogi,</row>
+			<row important_over="false">Ni<ch a="a"/>e mogąc zł<ch a="G"/>apać odd<ch a="F"/>echu.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">G<ch a="A9"/>ór, co stoją, n<ch a="F"/>igdy nie dogonię,</row>
+			<row important_over="true">Znikaj<ch a="C"/>ących p<ch a="G"/>unktów na mapie,</row>
+			<row important_over="false">J<ch a="A9"/>akie miejsce n<ch a="F"/>azwę swym domem,</row>
+			<row important_over="false">J<ch a="C"/>akim dotrę d<ch a="G"/>o niego szlakiem?</row>
+			<row important_over="false">G<ch a="A9"/>ór mi mało i trz<ch a="F"/>eba mi więcej,</row>
+			<row important_over="false">Ż<ch a="C"/>eby przetrwać od z<ch a="G"/>imy do zimy,</row>
+			<row important_over="false">Z wyr<ch a="A9"/>okiem wędr<ch a="F"/>ówki bez końca</row>
+			<row important_over="false">P<ch a="C"/>o śladach, kt<ch a="G"/>óre sam zostawiłem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">G<ch a="D"/>óry, góry i ci<ch a="e"/>ągle mi nie dość,</row>
+			<row important_over="true">Skaz<ch a="C"/>anemu na g<ch a="D"/>ór dożywocie,</row>
+			<row important_over="false">Świ<ch a="D"/>at na dobre mi zb<ch a="e"/>ieszczadział,</row>
+			<row important_over="false">Szcz<ch a="C"/>yty wolnym mij<ch a="D"/>ają mnie krokiem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="d"/>ańscy święci – <ch a="C"/>i święci bezp<ch a="G"/>ańscy:</row>
+			<row important_over="false">Świ<ch a="a"/>ęty Jerzy, Mikoł<ch a="G"/>aju, Mich<ch a="F"/>ale,</row>
+			<row important_over="false">Op<ch a="d"/>uszczeni g<ch a="C"/>ór świętych mieszk<ch a="G"/>ańcy,</row>
+			<row important_over="false">W<ch a="a"/>asze imię pieśni<ch a="G"/>ami wychw<ch a="F"/>alam.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">G<ch a="A9"/>ór, co stoją, n<ch a="F"/>igdy nie dogonię,</row>
+			<row important_over="false">Znikaj<ch a="C"/>ących p<ch a="G"/>unktów na mapie,</row>
+			<row important_over="false">Ani ch<ch a="A9"/>aty, którą n<ch a="F"/>azwałbym domem,</row>
+			<row important_over="false">Gdzi<ch a="C"/>e żaden szl<ch a="G"/>ak by nie trafił.</row>
+			<row important_over="true">G<ch a="e"/>ór mi mało i trz<ch a="E"/>eba mi więcej,</row>
+			<row important_over="true">Abym prz<ch a="C"/>etrwał od z<ch a="D"/>imy do zimy,</row>
+			<row important_over="false">Skaz<ch a="e"/>any na wi<ch a="E"/>eczną wędrówkę</row>
+			<row important_over="false">P<ch a="C"/>o śladach, kt<ch a="D"/>óre sam zostawiłem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">G<ch a="D"/>óry, góry i n<ch a="e"/>igdy mi nie dość,</row>
+			<row important_over="false">Z g<ch a="C"/>ór dożywocia na k<ch a="D"/>arku wyrokiem,</row>
+			<row important_over="false">Świ<ch a="D"/>at na dobre mi zb<ch a="e"/>ieszczadział,</row>
+			<row important_over="false">D<ch a="C"/>o szczytu wolnym zbliż<ch a="D"/>am się krokiem.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Piosenka turystyczna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/na-bani/dozywocie-gor</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

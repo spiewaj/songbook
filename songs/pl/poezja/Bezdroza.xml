@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Bezdroża">
+	<text_author type="solo">Jerzy Harasymowicz</text_author>
+	<composer type="solo">Bartłomiej Adamczak</composer>
+	<artist type="band">Dom o Zielonych Progach</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Powiew<ch a="F"/>ając kaszki<ch a="G"/>etem nieba</row>
+			<row important_over="true">Wit<ch a="a7"/>ają nas bezdroża wzbijając kurz</row>
+			<row important_over="false">Zar<ch a="F"/>osłym tr<ch a="G"/>awą Łemków traktem</row>
+			<row important_over="false">Wędr<ch a="a7"/>ownej pieśni jedzie wóz.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wypłow<ch a="F"/>iały na pł<ch a="G"/>ótna budzie</row>
+			<row important_over="false">Fr<ch a="a7"/>uwa ruski Michał z mieczem,</row>
+			<row important_over="false">Na w<ch a="F"/>ozie tym n<ch a="G"/>amiot nieba</row>
+			<row important_over="false">I dł<ch a="a7"/>ugowłosy wicher j<ch a="D7"/>edzie.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">I świ<ch a="F"/>at wroni<ch a="G"/>eje i k<ch a="a"/>oń i wóz</row>
+			<row important_over="false">I wi<ch a="F"/>atr jak ż<ch a="G"/>agle wydym<ch a="a"/>a balkony,</row>
+			<row important_over="false">Kiedyż j<ch a="F"/>a wreszcie z tych d<ch a="G"/>omów st<ch a="a"/>u,</row>
+			<row important_over="false">Choć j<ch a="F"/>eden n<ch a="G"/>azwę swoim d<ch a="a"/>omem.</row>
+			<row important_over="false">I świ<ch a="F"/>at wroni<ch a="G"/>eje i k<ch a="a"/>oń i wóz</row>
+			<row important_over="false">I wi<ch a="F"/>atr jak ż<ch a="G"/>agle wydym<ch a="a"/>a balkony,</row>
+			<row important_over="false">Kiedyż j<ch a="F"/>a wreszcie z tych d<ch a="G"/>omów st<ch a="a"/>u,</row>
+			<row important_over="true">Choć j<ch a="F"/>eden n<ch a="G"/>azwę sw<ch a="D"/>oim d<ch a="a"/>omem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Tam j<ch a="F"/>esień wok<ch a="G"/>ół niczyja</row>
+			<row important_over="false">I świ<ch a="a7"/>at też w chmurach jest niczyj,</row>
+			<row important_over="false">D<ch a="F"/>usza nasza w l<ch a="G"/>iście ubrana</row>
+			<row important_over="false">Par<ch a="a7"/>adnych kroków nie ćw<ch a="D7"/>iczy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Niezmi<ch a="F"/>erzona jest d<ch a="G"/>uszy przestrzeń,</row>
+			<row important_over="false">R<ch a="a7"/>oni złote liście na drzewach,</row>
+			<row important_over="false">Płomien<ch a="F"/>isty woln<ch a="G"/>ości szych</row>
+			<row important_over="false">Przez j<ch a="a7"/>esienne pisze się ni<ch a="D7"/>eba.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">I świ<ch a="F"/>at wroni<ch a="G"/>eje i k<ch a="a"/>oń i wóz</row>
+			<row important_over="false">I wi<ch a="F"/>atr jak ż<ch a="G"/>agle wydym<ch a="a"/>a balkony,</row>
+			<row important_over="false">Kiedyż j<ch a="F"/>a wreszcie z tych d<ch a="G"/>omów st<ch a="a"/>u,</row>
+			<row important_over="false">Choć j<ch a="F"/>eden n<ch a="G"/>azwę swoim d<ch a="a"/>omem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Już świ<ch a="F"/>at wroni<ch a="G"/>eje i k<ch a="a"/>oń i wóz</row>
+			<row important_over="false">I wi<ch a="F"/>atr jak ż<ch a="G"/>agle wydym<ch a="a"/>a balkony,</row>
+			<row important_over="false">Wiem t<ch a="F"/>eraz – pi<ch a="G"/>órka wi<ch a="a"/>atru trzy</row>
+			<row important_over="true">Są m<ch a="F"/>oim d<ch a="G"/>omem rozp<ch a="D"/>ędzonym.<ch a="a"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/dom-o-zielonych-progach/bezdroza</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
