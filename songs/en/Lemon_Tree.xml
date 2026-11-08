@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lemon Tree">
+	<text_author type="solo">Peter Freudenthaler, Volker Hinkel</text_author>
+	<composer type="solo">Peter Freudenthaler, Volker Hinkel</composer>
+	<artist type="band">Fools Garden</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">I'm s<ch a="a"/>ittin' here in the b<ch a="e"/>oring room,</row>
+			<row important_over="false">It's j<ch a="a"/>ust another rainy S<ch a="e"/>unday afternoon,</row>
+			<row important_over="false">I'm w<ch a="a"/>astin' my time, I got n<ch a="e"/>othin' to do,</row>
+			<row important_over="false">I'm h<ch a="a"/>angin' around, I'm w<ch a="e"/>aitin' for you,</row>
+			<row important_over="true">But n<ch a="d"/>othing ever happens <ch a="e"/>and I w<ch a="d"/>ond<ch a="e"/>er.<ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I'm dr<ch a="a"/>ivin' around <ch a="e"/>in my car,</row>
+			<row important_over="false">I'm dr<ch a="a"/>ivin' too fast, I'm dr<ch a="e"/>ivin' too far,</row>
+			<row important_over="false">I'd l<ch a="a"/>ike to change my p<ch a="e"/>oint of view,</row>
+			<row important_over="false">I f<ch a="a"/>eel so lonely, I'm w<ch a="e"/>aitin' for you,</row>
+			<row important_over="false">But n<ch a="d"/>othing ever happens <ch a="e"/>and I w<ch a="d"/>ond<ch a="e"/>er.<ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">I w<ch a="C"/>onder how, I w<ch a="G"/>onder why,</row>
+			<row important_over="true">Y<ch a="a"/>esterday you told me 'bout the bl<ch a="e"/>ue, blue sky,</row>
+			<row important_over="true">And <ch a="F"/>all that I can s<ch a="G"/>ee is just a yell<ch a="C"/>ow lemon tree.<ch a="G"/></row>
+			<row important_over="false">I'm t<ch a="C"/>urnin' my head <ch a="G"/>up and down,</row>
+			<row important_over="false">I'm t<ch a="a"/>urnin', turnin', turnin', turnin', t<ch a="e"/>urnin' around,</row>
+			<row important_over="false">And <ch a="F"/>all that I can s<ch a="G"/>ee is just anoth<ch a="C"/>er lemon tree.<ch a="G"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="never">Sing:</row>
+			<row important_over="true">D<ch a="a"/>ap, da-da-da-d<ch a="e"/>am, di-dap-da,</row>
+			<row important_over="true">D<ch a="d"/>a-da-da-dam, d<ch a="e"/>i-dap-da, d<ch a="a"/>ap, di-di-li-da.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I'm s<ch a="a"/>ittin' here, I m<ch a="e"/>issed the power,</row>
+			<row important_over="false">I'd l<ch a="a"/>ike to go out, t<ch a="e"/>akin' a shower,</row>
+			<row important_over="false">But th<ch a="a"/>ere's a heavy cloud <ch a="e"/>inside my head,</row>
+			<row important_over="false">I f<ch a="a"/>eel so tired, put mys<ch a="e"/>elf into bed,</row>
+			<row important_over="false">Well, n<ch a="d"/>othing ever happens <ch a="e"/>and I w<ch a="d"/>ond<ch a="e"/>er.<ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="E"/>Isolation is n<ch a="a"/>ot good for me,</row>
+			<row important_over="true"><ch a="G"/>Isolation, <ch a="C"/>I don't want to s<ch a="E"/>it on the lemon tree.</row>
+			<row important_over="false">I'm st<ch a="a"/>eppin' around in the d<ch a="e"/>esert of joy,</row>
+			<row important_over="false">M<ch a="a"/>aybe, anyhow, I'll g<ch a="e"/>et another toy,</row>
+			<row important_over="false">And <ch a="d"/>everything will happen <ch a="e"/>and you w<ch a="d"/>ond<ch a="e"/>er.<ch a="a"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">I w<ch a="C"/>onder how, I w<ch a="G"/>onder why,</row>
+			<row important_over="false">Y<ch a="a"/>esterday you told me 'bout the bl<ch a="e"/>ue, blue sky,</row>
+			<row important_over="false">And <ch a="F"/>all that I can s<ch a="G"/>ee is just a yell<ch a="C"/>ow lemon tree.<ch a="G"/></row>
+			<row important_over="false">I'm t<ch a="C"/>urnin' my head <ch a="G"/>up and down,</row>
+			<row important_over="false">I'm t<ch a="a"/>urnin', turnin', turnin', turnin', t<ch a="e"/>urnin' around,</row>
+			<row important_over="false">And <ch a="F"/>all that I can s<ch a="G"/>ee is just anoth<ch a="C"/>er lemon tree.<ch a="G"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Pop</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/fools-garden/lemon-tree</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

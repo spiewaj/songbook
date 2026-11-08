@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Ked mi pryszła karta">
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Tradycyjna łemkowska pieśń rekrucka.</comment>
+	<composer type="solo">tradycyjny</composer>
+	<artist type="solo">utwór tradycyjny</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">K<ch a="a"/>ed mi pryszł<ch a="E7"/>a k<ch a="a"/>arta nar<ch a="E7"/>okow<ch a="a"/>ac,</row>
+			<row important_over="true">St<ch a="a"/>aw ja swoho ni<ch a="F"/>ania d<ch a="G"/>oszykow<ch a="C"/>ac: <ch a="E7"/></row>
+			<row important_over="true">Wst<ch a="a"/>ańte, nianiu, z hr<ch a="G"/>obu, zr<ch a="C"/>obte taku w<ch a="E7"/>olu,</row>
+			<row important_over="true"><ch a="a"/>Idte za nia sł<ch a="E7"/>użyc n<ch a="a"/>a tu w<ch a="E7"/>ojn<ch a="a"/>u.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">N<ch a="a"/>e pidu ja sł<ch a="E7"/>użyc n<ch a="a"/>a tu w<ch a="E7"/>ojn<ch a="a"/>u,</row>
+			<row important_over="false">N<ch a="a"/>i ne pidu sł<ch a="F"/>użyc j<ch a="G"/>a za t<ch a="C"/>ebe: <ch a="E7"/></row>
+			<row important_over="false">K<ch a="a"/>ed ty pryszła k<ch a="G"/>arta, <ch a="C"/>idy na woj<ch a="E7"/>enku,</row>
+			<row important_over="false"><ch a="a"/>Id na wojnu sł<ch a="E7"/>użyc s<ch a="a"/>am za s<ch a="E7"/>eb<ch a="a"/>e.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">M<ch a="a"/>oji kamar<ch a="E7"/>atia, wcz<ch a="a"/>ynte w<ch a="E7"/>ol<ch a="a"/>u,</row>
+			<row important_over="false"><ch a="a"/>Idte za nia sł<ch a="F"/>użyc n<ch a="G"/>a tu w<ch a="C"/>ojnu, <ch a="E7"/></row>
+			<row important_over="false">B<ch a="a"/>o ja iszczy mł<ch a="G"/>adyj <ch a="C"/>i młade diwcz<ch a="E7"/>a mam,</row>
+			<row important_over="false">J<ch a="a"/>ak nia wyrucz<ch a="E7"/>yte, wszytk<ch a="a"/>o wam d<ch a="E7"/>a<ch a="a"/>m.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">K<ch a="a"/>ed mi pryszł<ch a="E7"/>a k<ch a="a"/>arta nar<ch a="E7"/>okow<ch a="a"/>ac,</row>
+			<row important_over="false">St<ch a="a"/>aw ja muzyk<ch a="F"/>antiw d<ch a="G"/>oszykow<ch a="C"/>ac: <ch a="E7"/></row>
+			<row important_over="false">H<ch a="a"/>ej, wy muzyk<ch a="G"/>anty, zahr<ch a="C"/>ajte mi cz<ch a="E7"/>ardasz,</row>
+			<row important_over="false">N<ch a="a"/>aj soj wytanc<ch a="E7"/>uju sw<ch a="a"/>ij mładyj cz<ch a="E7"/>a<ch a="a"/>s.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">St<ch a="a"/>ały muzyk<ch a="E7"/>anty cz<ch a="a"/>ardasz hr<ch a="E7"/>at<ch a="a"/>y,</row>
+			<row important_over="false">St<ch a="a"/>ały mi sia z <ch a="F"/>oczy s<ch a="G"/>yzy l<ch a="C"/>aty, <ch a="E7"/></row>
+			<row important_over="false">N<ch a="a"/>ichto ne zapł<ch a="G"/>acze n<ch a="C"/>i otec ni m<ch a="E7"/>atka,</row>
+			<row important_over="false">Ł<ch a="a"/>em za mnom zapł<ch a="E7"/>aczut tr<ch a="a"/>y diwcz<ch a="E7"/>atk<ch a="a"/>a.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="a"/>A jedna zapł<ch a="E7"/>acze, b<ch a="a"/>o ja j<ch a="E7"/>ej br<ch a="a"/>at,</row>
+			<row important_over="false"><ch a="a"/>A druha zapł<ch a="F"/>acze, b<ch a="G"/>o ja j<ch a="C"/>ej swat, <ch a="E7"/></row>
+			<row important_over="false"><ch a="a"/>A tretia zapł<ch a="G"/>acze, b<ch a="C"/>o płakaty m<ch a="E7"/>usyt,</row>
+			<row important_over="false">B<ch a="a"/>o ona od m<ch a="E7"/>ene perst<ch a="a"/>eń nos<ch a="E7"/>y<ch a="a"/>t.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Folk</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-ludowe-i-biesiadne/ked-mi-pryszla-karta</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

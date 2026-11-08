@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Scarborough Fair">
+	<text_author type="solo">traditional</text_author>
+	<comment>Tradycyjna angielska ballada folkowa w aranżacji Paula Simona i Arta Garfunkela.</comment>
+	<composer type="solo">traditional</composer>
+	<artist type="band">Simon &amp; Garfunkel</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="e"/>Are you going to Sc<ch a="D"/>arborough F<ch a="e"/>air?</row>
+			<row important_over="true">P<ch a="G"/>arsley, s<ch a="e"/>age, rosem<ch a="A"/>ary and th<ch a="e"/>yme,</row>
+			<row important_over="true">Rem<ch a="e"/>ember me to <ch a="G"/>one who lives th<ch a="D"/>ere,</row>
+			<row important_over="true">Sh<ch a="e"/>e once was a tr<ch a="D"/>ue love of m<ch a="e"/>ine.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="e"/>ell her to make me a c<ch a="D"/>ambric sh<ch a="e"/>irt</row>
+			<row important_over="false">(On the side of a hill in the deep forest green)</row>
+			<row important_over="false">P<ch a="G"/>arsley, s<ch a="e"/>age, rosem<ch a="A"/>ary and th<ch a="e"/>yme</row>
+			<row important_over="false">(Tracing of sparrow on snow-crested ground)</row>
+			<row important_over="false">W<ch a="e"/>ithout no seam nor f<ch a="G"/>ine needlew<ch a="D"/>ork</row>
+			<row important_over="false">(Blankets and bedclothes the child of the mountain)</row>
+			<row important_over="false"><ch a="e"/>And she'll be a tr<ch a="D"/>ue love of m<ch a="e"/>ine.</row>
+			<row important_over="false">(Sleeps unaware of the clarion call)</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="e"/>ell her to find me an <ch a="D"/>acre of l<ch a="e"/>and</row>
+			<row important_over="false">(On the side of a hill, sprinkling of leaves)</row>
+			<row important_over="false">P<ch a="G"/>arsley, s<ch a="e"/>age, rosem<ch a="A"/>ary and th<ch a="e"/>yme</row>
+			<row important_over="false">(Washes the grave with silvery tears)</row>
+			<row important_over="false">B<ch a="e"/>etween salt water <ch a="G"/>and over the s<ch a="D"/>and</row>
+			<row important_over="false">(A soldier cleans and polishes a gun)</row>
+			<row important_over="false">Th<ch a="e"/>en she'll be a tr<ch a="D"/>ue love of m<ch a="e"/>ine.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="e"/>ell her to reap it with a s<ch a="D"/>ickle of l<ch a="e"/>eather</row>
+			<row important_over="false">(War bellow, blazing in scarlet battalions)</row>
+			<row important_over="false">P<ch a="G"/>arsley, s<ch a="e"/>age, rosem<ch a="A"/>ary and th<ch a="e"/>yme</row>
+			<row important_over="false">(Generals order their soldiers to kill)</row>
+			<row important_over="false"><ch a="e"/>And gather it all in a b<ch a="G"/>unch of he<ch a="D"/>ather</row>
+			<row important_over="false">(And to fight for a cause they've long ago forgotten)</row>
+			<row important_over="false"><ch a="e"/>And then she'll be a tr<ch a="D"/>ue love of m<ch a="e"/>ine.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>Are you going to Sc<ch a="D"/>arborough F<ch a="e"/>air?</row>
+			<row important_over="false">P<ch a="G"/>arsley, s<ch a="e"/>age, rosem<ch a="A"/>ary and th<ch a="e"/>yme,</row>
+			<row important_over="false">Rem<ch a="e"/>ember me to <ch a="G"/>one who lives th<ch a="D"/>ere,</row>
+			<row important_over="false">Sh<ch a="e"/>e once was a tr<ch a="D"/>ue love of m<ch a="e"/>ine.</row>
+		</block>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Folk</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/simon-garfunkel/scarborough-fair</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

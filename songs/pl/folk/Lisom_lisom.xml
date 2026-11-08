@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Lisom, lisom">
+	<text_author type="solo">tradycyjny</text_author>
+	<comment>Tradycyjna łemkowska pieśń ludowa z repertuaru zespołu Werchowyna.</comment>
+	<composer type="solo">tradycyjny</composer>
+	<artist type="band">Werchowyna</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">L<ch a="e"/>isom, lisom, pry dołyni</row>
+			<row important_over="true">Z<ch a="G"/>ozułeńka kukat nyni.</row>
+			<row important_over="true">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="true">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="true">M<ch a="e"/>y zozuli ne słuchały,</row>
+			<row important_over="true">Ł<ch a="H7"/>em my-zme sia lubow<ch a="e"/>ały.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">L<ch a="e"/>isom, lisom, dołynami,</row>
+			<row important_over="false">P<ch a="G"/>odme, myła, za hrybamy.</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false"><ch a="e"/>A my hrybiw ne zbyrały,</row>
+			<row important_over="false">Ł<ch a="H7"/>em my-zme sia lubow<ch a="e"/>ały.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="e"/>am na hori uzky stiżki,</row>
+			<row important_over="false">P<ch a="G"/>odme, myłyj, na oriszky.</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">M<ch a="e"/>y oriszkiw ne zbyrały,</row>
+			<row important_over="false">Ł<ch a="H7"/>em my-zme sia lubow<ch a="e"/>ały.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">L<ch a="e"/>isom, lisom, pry dołyni,</row>
+			<row important_over="false">Z<ch a="G"/>ozułeńka kukat nyni.</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">H<ch a="G"/>eja-hoj, lelija,</row>
+			<row important_over="false">L<ch a="a"/>ubowania to wełyka pasyja!</row>
+			<row important_over="false">M<ch a="e"/>y zozuli ne słuchały,</row>
+			<row important_over="false">Ł<ch a="H7"/>em my-zme sia lubow<ch a="e"/>ały.</row>
+		</block>
+	</lyric>
+	<music metre="2/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Folk</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/werchowyna/lisom-lisom</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

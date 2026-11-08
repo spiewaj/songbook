@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Queen of the Kings">
+	<alias>Queen of Kings</alias>
+	<text_author type="solo">Alessandra Mele, Henning Olerud, Stanley Ferdinandez, Linda Dale</text_author>
+	<comment>Utwór reprezentujący Norwegię w 67. Konkursie Piosenki Eurowizji (2023). W śpiewniku obozowym 21 WDW oznaczony jako „Norweski Hit Obozu”.</comment>
+	<composer type="solo">Alessandra Mele, Henning Olerud, Stanley Ferdinandez, Linda Dale</composer>
+	<artist type="solo">Alessandra</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true">Sh<ch a="e"/>e, queen of the kings, runnin' so f<ch a="a"/>ast, beatin' the w<ch a="G"/>ind,</row>
+			<row important_over="true">N<ch a="C"/>othin' in this world can st<ch a="e"/>op the spr<ch a="D"/>ead of her w<ch a="e"/>ings.</row>
+			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, broken her c<ch a="a"/>age, threw out the k<ch a="G"/>eys,</row>
+			<row important_over="false">Sh<ch a="C"/>e will be the warrior of N<ch a="e"/>orth and S<ch a="D"/>outhern S<ch a="e"/>eas.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">G<ch a="e"/>ot raven h<ch a="C"/>air, it's d<ch a="G"/>ark as n<ch a="C"/>ight,</row>
+			<row important_over="true"><ch a="e"/>Icy <ch a="H7"/>eyes, outta s<ch a="e"/>ight, outta sight.</row>
+			<row important_over="false">H<ch a="e"/>er heart, in sp<ch a="C"/>ite, is w<ch a="G"/>arm and br<ch a="C"/>ight,</row>
+			<row important_over="true">H<ch a="e"/>er smile awakes the N<ch a="H7"/>orthern Light.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">L<ch a="C"/>ookin' <ch a="G"/>out, she c<ch a="D"/>alls:</row>
+			<row important_over="true">„L<ch a="e"/>ai, la-da-di-d<ch a="D"/>ai-da,</row>
+			<row important_over="true">Wh<ch a="C"/>o will c<ch a="G"/>onquer <ch a="a"/>all, <ch a="H7"/>all?”</row>
+			<row important_over="never">Her name is</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, runnin' so f<ch a="a"/>ast, beatin' the w<ch a="G"/>ind,</row>
+			<row important_over="false">N<ch a="C"/>othin' in this world can st<ch a="e"/>op the spr<ch a="D"/>ead of her w<ch a="e"/>ings.</row>
+			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, broken her c<ch a="a"/>age, threw out the k<ch a="G"/>eys,</row>
+			<row important_over="false">Sh<ch a="C"/>e will be the warrior of N<ch a="e"/>orth and S<ch a="D"/>outhern S<ch a="e"/>eas.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="e"/>A firestone f<ch a="C"/>orged in fl<ch a="G"/>ames, <ch a="C"/></row>
+			<row important_over="false">The w<ch a="e"/>ildest c<ch a="H7"/>ard, run the g<ch a="e"/>ame, run the game.</row>
+			<row important_over="false">C<ch a="e"/>an't stay the s<ch a="C"/>ame in this w<ch a="G"/>orld of ch<ch a="C"/>ange,</row>
+			<row important_over="false">D<ch a="e"/>on't fear the pain, just br<ch a="H7"/>eak the chain.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">L<ch a="C"/>ookin' <ch a="G"/>out, she c<ch a="D"/>alls:</row>
+			<row important_over="false">„L<ch a="e"/>ai, la-da-di-d<ch a="D"/>ai-da,</row>
+			<row important_over="false">Wh<ch a="C"/>o will c<ch a="G"/>onquer <ch a="a"/>all, <ch a="H7"/>all?”</row>
+			<row important_over="never">Her name is</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, runnin' so f<ch a="a"/>ast, beatin' the w<ch a="G"/>ind,</row>
+			<row important_over="false">N<ch a="C"/>othin' in this world can st<ch a="e"/>op the spr<ch a="D"/>ead of her w<ch a="e"/>ings.</row>
+			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, broken her c<ch a="a"/>age, threw out the k<ch a="G"/>eys,</row>
+			<row important_over="false">Sh<ch a="C"/>e will be the warrior of N<ch a="e"/>orth and S<ch a="D"/>outhern S<ch a="e"/>eas.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Pop</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/alessandra/queen-of-kings</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
