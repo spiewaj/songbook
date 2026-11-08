@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pamiętnik apostoła">
+	<alias>Z pamiętnika apostoła</alias>
+	<text_author type="solo">ks. Robert Kwatek</text_author>
+	<composer type="solo">ks. Robert Kwatek</composer>
+	<artist type="solo">utwór religijny</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Wracałem raz z poł<ch a="fis"/>owu, a sieci chude z gł<ch a="A"/>odu,</row>
+			<row important_over="true">Ten człowiek stał na brz<ch a="E"/>egu, wypłynąć kazał zn<ch a="fis"/>ów. <ch a="E"/></row>
+			<row important_over="false">Gdy zarzuciłem si<ch a="fis"/>eci wsłuchany w Jego sł<ch a="A"/>owa,</row>
+			<row important_over="false">Ja nie wiem w jaki sp<ch a="E"/>osób, lecz ryb tam było w br<ch a="fis"/>ód. <ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">A kim Ty j<ch a="fis"/>esteś, człowieku, że mocne są Twe sł<ch a="A"/>owa,</row>
+			<row important_over="true">Że moc jest w Twoich dł<ch a="E"/>oniach, że idziesz w imię B<ch a="fis"/>oga? <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Poszedłem wtedy z<ch a="fis"/>a Nim, wesele było w K<ch a="A"/>anie,</row>
+			<row important_over="false">Tam z dzbanów pełnych w<ch a="E"/>ody dał wino parze mł<ch a="fis"/>odej. <ch a="E"/></row>
+			<row important_over="false">Niejeden raz, gdy szl<ch a="fis"/>iśmy, gdy ślepiec o grosz bł<ch a="A"/>agał,</row>
+			<row important_over="false">On wtedy jednym sł<ch a="E"/>owem ślepemu zwracał wzr<ch a="fis"/>ok. <ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">A kim Ty j<ch a="fis"/>esteś, człowieku, że mocne są Twe sł<ch a="A"/>owa,</row>
+			<row important_over="false">Że moc jest w Twoich dł<ch a="E"/>oniach, że idziesz w imię B<ch a="fis"/>oga? <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Widziałem też tłum gł<ch a="fis"/>odnych, jak o kęs chleba łk<ch a="A"/>ał,</row>
+			<row important_over="false">Najedli się do s<ch a="E"/>yta, choć pięć bochenków mi<ch a="fis"/>ał. <ch a="E"/></row>
+			<row important_over="false">I szedłem też po w<ch a="fis"/>odzie, tak jak szedł do mnie <ch a="A"/>On,</row>
+			<row important_over="false">Zwątpiłem, zacząłem t<ch a="E"/>onąć, On podał mi swą dł<ch a="fis"/>oń. <ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">A kim Ty j<ch a="fis"/>esteś, człowieku, że mocne są Twe sł<ch a="A"/>owa,</row>
+			<row important_over="false">Że moc jest w Twoich dł<ch a="E"/>oniach, że idziesz w imię B<ch a="fis"/>oga? <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdy w Paschę jadł wiecz<ch a="fis"/>erzę, powiedział łamiąc chl<ch a="A"/>eb,</row>
+			<row important_over="false">Że to jest Jego ci<ch a="E"/>ało, a wino to Jego kr<ch a="fis"/>ew. <ch a="E"/></row>
+			<row important_over="false">A potem się Go zap<ch a="fis"/>arłem, widziałem, jak dźwigał krz<ch a="A"/>yż,</row>
+			<row important_over="false">Tak gorzko płak<ch a="E"/>ałem, a On wybaczył m<ch a="fis"/>i. <ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">A kim Ty j<ch a="fis"/>esteś, człowieku, że mocne są Twe sł<ch a="A"/>owa,</row>
+			<row important_over="false">Że moc jest w Twoich dł<ch a="E"/>oniach, że idziesz w imię B<ch a="fis"/>oga? <ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Widzi<ch a="e"/>ałem Go dnia trzeciego i w wieczerniku b<ch a="G"/>ył,</row>
+			<row important_over="true">A kiedy wstępował w ni<ch a="D"/>ebo, otuchy nam dodał i s<ch a="e"/>ił. <ch a="D"/></row>
+			<row important_over="false">A pot<ch a="e"/>em coś się stało, szum nieba i ognia bł<ch a="G"/>ysk,</row>
+			<row important_over="false">I odtąd mnie ludzie pyt<ch a="D"/>ają, pytają mnie ludzie do dz<ch a="e"/>iś: <ch a="D"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">A kim Ty j<ch a="e"/>esteś, człowieku, że mocne są Twe sł<ch a="G"/>owa,</row>
+			<row important_over="true">Że moc jest w Twoich dł<ch a="D"/>oniach, że idziesz w imię B<ch a="e"/>oga? <ch a="D"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka religijna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-religijne/pamietnik-apostola</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rio">
+	<text_author type="solo">Justyna Chowaniak</text_author>
+	<composer type="solo">Justyna Chowaniak</composer>
+	<artist type="band">Domowe melodie</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">W R<ch a="A"/>io de Janeiro zimno,</row>
+			<row important_over="false">Ze st<ch a="A"/>u owiec w kocu zimno mi no,</row>
+			<row important_over="false">Gdy w<ch a="A"/>ychylę nogę z wrzątku – zimno,</row>
+			<row important_over="true">Gdy si<ch a="A"/>ę w nocy pocę, p<ch a="E"/>otem z<ch a="A"/>imno.</row>
+			<row important_over="false">Gdy ci<ch a="A"/>ę nikt nie lubi – przykro,</row>
+			<row important_over="false">Alb<ch a="A"/>o jak Ty kogoś, też Ci zimno.</row>
+			<row important_over="false">Kto w pi<ch a="A"/>wnicy liczy monet milion,</row>
+			<row important_over="false">To m<ch a="A"/>u w tym milionie b<ch a="E"/>ędzie z<ch a="A"/>imno.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">I gd<ch a="D"/>yby tak w podw<ch a="E"/>ójnych p<ch a="A"/>orcjach</row>
+			<row important_over="false">N<ch a="D"/>as pakowali od pocz<ch a="E"/>ątku do k<ch a="A"/>ońca,</row>
+			<row important_over="true">I ni<ch a="D"/>e musielibyśmy sz<ch a="E"/>ukać si<ch a="cis"/>ebie</row>
+			<row important_over="false">I z<ch a="D"/>amarz<ch a="E"/>ać psia k<ch a="A"/>ość w lecie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Na parki<ch a="A"/>ecie w parze ciepło,</row>
+			<row important_over="false">Pośr<ch a="A"/>ód grillowanych warzyw też to,</row>
+			<row important_over="false">Gdy si<ch a="A"/>ę ciała dwa ze sobą zczepią,</row>
+			<row important_over="false">To w t<ch a="A"/>ej sumie sum<ch a="E"/>arum na p<ch a="A"/>ewno.</row>
+			<row important_over="false">Gdy m<ch a="A"/>i mówisz: miło, ciepło,</row>
+			<row important_over="false">Alb<ch a="A"/>o jak odwrotnie tobie, wiem to,</row>
+			<row important_over="false">Gdy m<ch a="A"/>i rękę zlepisz swoją ręką,</row>
+			<row important_over="false">Opr<ch a="A"/>ócz lepko, to nam b<ch a="E"/>ędzie ci<ch a="A"/>epło.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">I gd<ch a="D"/>yby tak w podw<ch a="E"/>ójnych p<ch a="A"/>orcjach</row>
+			<row important_over="false">N<ch a="D"/>as pakowali od pocz<ch a="E"/>ątku do k<ch a="A"/>ońca,</row>
+			<row important_over="false">I ni<ch a="D"/>e musielibyśmy sz<ch a="E"/>ukać si<ch a="cis"/>ebie</row>
+			<row important_over="true">I z<ch a="D"/>amarz<ch a="E"/>ać...</row>
+			<row important_over="false">I gd<ch a="D"/>yby tak w podw<ch a="E"/>ójnych p<ch a="A"/>orcjach</row>
+			<row important_over="false">N<ch a="D"/>as pakowali od pocz<ch a="E"/>ątku do k<ch a="A"/>ońca,</row>
+			<row important_over="false">I ni<ch a="D"/>e musielibyśmy sz<ch a="E"/>ukać si<ch a="cis"/>ebie</row>
+			<row important_over="false">I z<ch a="D"/>amarz<ch a="E"/>ać,</row>
+			<row important_over="false">I z<ch a="D"/>amarz<ch a="E"/>ać,</row>
+			<row important_over="false">I z<ch a="D"/>amarz<ch a="E"/>ać psia k<ch a="A"/>ość w lecie.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/domowe-melodie/rio</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

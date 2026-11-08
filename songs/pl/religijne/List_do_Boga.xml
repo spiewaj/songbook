@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="List do Boga">
+	<text_author type="solo">autor nieznany</text_author>
+	<composer type="solo">autor nieznany</composer>
+	<artist type="solo">utwór religijny</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Dr<ch a="G"/>ogi Boże, piszę ch<ch a="D"/>oć kilka słów,</row>
+			<row important_over="true"><ch a="C"/>Innym razem napiszę m<ch a="D"/>oże więcej.</row>
+			<row important_over="true">N<ch a="e"/>a początku życzę wsz<ch a="D"/>ystkiego dobrego</row>
+			<row important_over="true">I p<ch a="C"/>ozdrawiam Ciebie n<ch a="D"/>ajgoręcej.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="G"/>ak się jakoś złożyło, że ni<ch a="D"/>e miałam okazji</row>
+			<row important_over="false"><ch a="C"/>Odpowiedzieć na l<ch a="D"/>ist, który przyszedł.</row>
+			<row important_over="false">Mi<ch a="e"/>ałam wiele pracy i wi<ch a="D"/>ele nauki,</row>
+			<row important_over="false">T<ch a="C"/>ak więc piszę do Ci<ch a="D"/>ebie dzisiaj.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>U mnie wszystko, j<ch a="D"/>ak dawniej,</row>
+			<row important_over="false">T<ch a="C"/>ylko jeden samob<ch a="D"/>ójca więcej,</row>
+			<row important_over="false">T<ch a="e"/>ylko jedna znowu rodz<ch a="D"/>ina rozbita,</row>
+			<row important_over="false">T<ch a="C"/>ylko życie pędzi c<ch a="D"/>oraz prędzej.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdzi<ch a="G"/>eś tam obok rozb<ch a="D"/>ił się samolot,</row>
+			<row important_over="false">Tr<ch a="C"/>ochę dalej zatrz<ch a="D"/>ęsła się ziemia.</row>
+			<row important_over="false">Ki<ch a="e"/>edy patrzę na to wsz<ch a="D"/>ystko tak jak dawniej,</row>
+			<row important_over="false"><ch a="C"/>Od razu zaczynam Ci<ch a="D"/>ę doceniać.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="G"/>ak w ogóle to przepr<ch a="D"/>aszam Cię bardzo</row>
+			<row important_over="false">Z<ch a="C"/>a to, że tak dł<ch a="D"/>ugo milczałam,</row>
+			<row important_over="false">L<ch a="e"/>ecz dopiero teraz zacz<ch a="D"/>ynam doceniać</row>
+			<row important_over="false">B<ch a="C"/>iblię, którą m<ch a="D"/>i przysłałeś.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">T<ch a="G"/>ak niedawno odszedł <ch a="D"/>ode mnie przyjaciel,</row>
+			<row important_over="false">Z kt<ch a="C"/>órym tak wi<ch a="D"/>ele mnie łączyło,</row>
+			<row important_over="false">I dop<ch a="e"/>iero teraz zacz<ch a="D"/>ynam rozumieć,</row>
+			<row important_over="false">Cz<ch a="C"/>ym jest życie i pr<ch a="D"/>awdziwa miłość.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="G"/>U mnie wszystko, j<ch a="D"/>ak dawniej,</row>
+			<row important_over="true">T<ch a="C"/>ylko świat jest mi<ch a="G"/>ej kolorowy,</row>
+			<row important_over="false">T<ch a="e"/>ylko życie pędzi c<ch a="D"/>oraz prędzej,</row>
+			<row important_over="false">T<ch a="C"/>ylko ludzie szybci<ch a="D"/>ej tracą głowy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gdzi<ch a="G"/>eś tam obok rozb<ch a="D"/>ił się samolot,</row>
+			<row important_over="false">Tr<ch a="C"/>ochę dalej zatrz<ch a="G"/>ęsła się ziemia.</row>
+			<row important_over="false">Ki<ch a="e"/>edy patrzę na to wsz<ch a="D"/>ystko tak jak dawniej,</row>
+			<row important_over="false"><ch a="C"/>Od razu zaczynam Ci<ch a="D"/>ę doceniać.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka religijna</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-religijne/list-do-boga</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
