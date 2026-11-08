@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Epitafium dla majora Ognia">
+	<text_author type="solo">Andrzej Kołakowski</text_author>
+	<comment>Utwór poświęcony majorowi Józefowi Kurasiowi (ps. „Ogień”), dowódcy partyzanckiemu na Podhalu.</comment>
+	<composer type="solo">Andrzej Kołakowski</composer>
+	<artist type="solo">Andrzej Kołakowski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">J<ch a="C"/>eśli umrzeć mam za ci<ch a="a"/>ebie,</row>
+			<row important_over="false">J<ch a="C"/>eśli sztandar zwinąć m<ch a="a"/>am,</row>
+			<row important_over="true">Na k<ch a="F"/>ażdego przecież prz<ch a="G"/>yjdzie kiedyś p<ch a="a"/>ora.</row>
+			<row important_over="false">Sr<ch a="C"/>ebrny orzeł z mojej cz<ch a="a"/>apki</row>
+			<row important_over="false">N<ch a="C"/>a urwiskach w sercu T<ch a="a"/>atr</row>
+			<row important_over="true">Zn<ch a="a"/>ajdzie gni<ch a="G"/>azdo.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">T<ch a="F"/>y mnie ukryj, m<ch a="G"/>oja ziemio podhal<ch a="a"/>ańska,</row>
+			<row important_over="false">G<ch a="F"/>órski lesie, k<ch a="G"/>ołysz mnie do sn<ch a="a"/>u,</row>
+			<row important_over="false">T<ch a="F"/>yle razy mni<ch a="G"/>e chroniła Ręka P<ch a="a"/>ańska,</row>
+			<row important_over="false">Dz<ch a="F"/>iś mnie do rap<ch a="G"/>ortu wezwał B<ch a="a"/>óg.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">W<ch a="C"/>ilki mają swoje ści<ch a="a"/>eżki,</row>
+			<row important_over="false">P<ch a="C"/>odążałem szlakiem w<ch a="a"/>ilczym,</row>
+			<row important_over="false">Śmi<ch a="F"/>erć ścigała mni<ch a="G"/>e po lasach jak pies g<ch a="a"/>ończy.</row>
+			<row important_over="true">Prz<ch a="F"/>ystanęła n<ch a="G"/>ad potokiem,</row>
+			<row important_over="true">Kr<ch a="C"/>ótki błysk nad g<ch a="F"/>órskim stokiem,</row>
+			<row important_over="true">W<ch a="C"/>ola Boża – m<ch a="G"/>oja walka dziś się k<ch a="a"/>ończy.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">T<ch a="F"/>y mnie ukryj, m<ch a="G"/>oja ziemio podhal<ch a="a"/>ańska,</row>
+			<row important_over="false">G<ch a="F"/>órski lesie, k<ch a="G"/>ołysz mnie do sn<ch a="a"/>u,</row>
+			<row important_over="false">T<ch a="F"/>yle razy mni<ch a="G"/>e chroniła Ręka P<ch a="a"/>ańska,</row>
+			<row important_over="false">Dz<ch a="F"/>iś mnie do rap<ch a="G"/>ortu wezwał B<ch a="a"/>óg.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="F"/>olski orzeł sr<ch a="G"/>ebrnopióry</row>
+			<row important_over="false">W n<ch a="C"/>asze dusze wb<ch a="F"/>ił pazury</row>
+			<row important_over="true">I l<ch a="C"/>egendę partyz<ch a="G"/>ancką p<ch a="E7"/>onad szczyty wzni<ch a="a"/>ósł.</row>
+			<row important_over="false">N<ch a="F"/>a Podhalu, p<ch a="G"/>od Turbaczem</row>
+			<row important_over="false">P<ch a="C"/>artyzancka wi<ch a="F"/>erzba płacze:</row>
+			<row important_over="true">Zg<ch a="C"/>asł już „Ogień”, ale p<ch a="G"/>amięć p<ch a="E7"/>o nim wciąż się tl<ch a="a"/>i.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">T<ch a="F"/>y mnie ukryj, m<ch a="G"/>oja ziemio podhal<ch a="a"/>ańska,</row>
+			<row important_over="false">G<ch a="F"/>órski lesie, k<ch a="G"/>ołysz mnie do sn<ch a="a"/>u,</row>
+			<row important_over="false">T<ch a="F"/>yle razy mni<ch a="G"/>e chroniła Ręka P<ch a="a"/>ańska,</row>
+			<row important_over="false">Dz<ch a="F"/>iś mnie do rap<ch a="G"/>ortu wezwał B<ch a="a"/>óg.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/andrzej-kolakowski/epitafium-dla-majora-ognia</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

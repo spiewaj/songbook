@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Przybycie tytanów">
+	<alias>Tytani</alias>
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true"><ch a="a"/>Idą tytani,</row>
+			<row important_over="false">N<ch a="a"/>a świat zesłani,</row>
+			<row important_over="true">Ż<ch a="a"/>eby napr<ch a="B"/>awić zło!</row>
+			<row important_over="true">I wi<ch a="B"/>emy to z ost<ch a="a"/>atniej chwili,</row>
+			<row important_over="true">Że gdz<ch a="B"/>ieś już n<ch a="E"/>awet napr<ch a="a"/>awili.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Kr<ch a="a"/>ok ich nam w uszach od dawna brzmi,</row>
+			<row important_over="true">Ale post<ch a="F"/>aci nie widać wciąż,</row>
+			<row important_over="true">Cz<ch a="B"/>ujemy tylko, jak ziemia drży</row>
+			<row important_over="true">Pod kr<ch a="E"/>okiem, kt<ch a="E4"/>óry dr<ch a="E"/>ąży jej miąższ.</row>
+			<row important_over="false">Na wsch<ch a="a"/>ód, na zachód zerkamy kątem,</row>
+			<row important_over="false">Czy j<ch a="F"/>uż górują nad horyzontem,</row>
+			<row important_over="false">Lecz ci<ch a="B"/>ągle nic, prócz kroku ech,</row>
+			<row important_over="false">Co poni<ch a="E"/>ektórym wstrz<ch a="E4"/>ymuje d<ch a="E"/>ech.</row>
+			<row important_over="true">Inni zaś z m<ch a="a"/>yślą nien<ch a="F"/>ową się kryją:</row>
+			<row important_over="true">– Może to t<ch a="E"/>ylko t<ch a="E4"/>ak serca nam bi<ch a="E"/>ją?</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="a"/>Idą tytani,</row>
+			<row important_over="false">N<ch a="a"/>a świat zesłani,</row>
+			<row important_over="false">Ż<ch a="a"/>eby napr<ch a="B"/>awić zło!</row>
+			<row important_over="false">I wi<ch a="B"/>emy to z ost<ch a="a"/>atniej chwili,</row>
+			<row important_over="false">Że gdz<ch a="B"/>ieś już n<ch a="E"/>awet napr<ch a="a"/>awili.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Pr<ch a="a"/>asa zarzuca nam zabobony,</row>
+			<row important_over="false">Ale mal<ch a="F"/>uje się domów frontony,</row>
+			<row important_over="false">Z więzi<ch a="B"/>eń przed czasem wypuszcza się,</row>
+			<row important_over="false">W<ch a="E"/>ojsko podw<ch a="E4"/>aja pob<ch a="E"/>ory swe!</row>
+			<row important_over="false">W kwi<ch a="a"/>atach arterie lśnią wylotowe,</row>
+			<row important_over="false">Cz<ch a="F"/>ołgi po lasach stoją gotowe,</row>
+			<row important_over="false">M<ch a="B"/>ilczą agencje TASS i PAP,</row>
+			<row important_over="false">Ale wci<ch a="E"/>ąż słychać tyt<ch a="E4"/>anów czł<ch a="E"/>ap!</row>
+			<row important_over="false">Czuje się w k<ch a="a"/>ażdym r<ch a="F"/>uchu i zdaniu:</row>
+			<row important_over="false">– Idą tyt<ch a="E"/>ani! <ch a="E4"/>Idą tyt<ch a="E"/>ani!</row>
+			<row important_over="true">Gr<ch a="a"/>om! Huk! Trzask! Pył!</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Prz<ch a="a"/>eszli tytani,</row>
+			<row important_over="false">N<ch a="a"/>a świat zesłani,</row>
+			<row important_over="false">Ż<ch a="a"/>eby napr<ch a="B"/>awić zło.</row>
+			<row important_over="false">Byl<ch a="B"/>iśmy dla nich z<ch a="a"/>a mali,</row>
+			<row important_over="false">Nie zob<ch a="B"/>aczyli – zd<ch a="E"/>eptali.<ch a="a"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/jacek-kaczmarski/przybycie-tytanow</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

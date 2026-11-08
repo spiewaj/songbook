@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szturm">
+	<text_author type="solo">Jacek Kaczmarski</text_author>
+	<composer type="solo">Jacek Kaczmarski</composer>
+	<artist type="solo">Jacek Kaczmarski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Szt<ch a="d"/>urmują bramy, kłódek trzask!</row>
+			<row important_over="false">Ze wsz<ch a="d"/>ystkich stron rozgrzane twarze!</row>
+			<row important_over="false">Str<ch a="d"/>aż puszcza pod naciskiem mas!</row>
+			<row important_over="false">Wpad<ch a="d"/>ają w chłodne korytarze</row>
+			<row important_over="true">Woł<ch a="A"/>ając – Cz<ch a="B"/>as! Już cz<ch a="A7"/>as! Już cz<ch a="d"/>as!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Gną si<ch a="d"/>ę parkiety pod naporem,</row>
+			<row important_over="false">Zr<ch a="d"/>ośnięte otwierają drzwi,</row>
+			<row important_over="false">Wśr<ch a="d"/>ód rzeźb, obrazów i ubiorów</row>
+			<row important_over="false">Z przep<ch a="d"/>isów barwna ciżba drwi</row>
+			<row important_over="false">I w<ch a="A"/>oła – Wz<ch a="B"/>oru! Wz<ch a="A7"/>oru! Wz<ch a="d"/>oru!</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Muz<ch a="d"/>eum wsz<ch a="C"/>ystkich nie pomi<ch a="d"/>eści,</row>
+			<row important_over="false">Więc <ch a="d"/>idą prz<ch a="C"/>ez pamiątek zbi<ch a="d"/>ór,</row>
+			<row important_over="false">A c<ch a="d"/>i, co r<ch a="C"/>az już całość prz<ch a="d"/>eszli,</row>
+			<row important_over="false">Z powr<ch a="d"/>otem z<ch a="C"/>amykają szn<ch a="d"/>ur</row>
+			<row important_over="true">Woł<ch a="F"/>ając – Tr<ch a="C"/>eści! Tr<ch a="G"/>eści! Tr<ch a="d"/>eści!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">P<ch a="d"/>atrzą na szable, katafalki,</row>
+			<row important_over="false">Proc<ch a="d"/>esje zamienionych w lód,</row>
+			<row important_over="false">Bł<ch a="d"/>amy sztandarów rozpostartych,</row>
+			<row important_over="false">Wybrzmi<ch a="d"/>ałych pieśni zwoje nut</row>
+			<row important_over="false">I krz<ch a="A"/>yczą – W<ch a="B"/>alki! W<ch a="A7"/>alki! W<ch a="d"/>alki!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I c<ch a="d"/>isza t<ch a="C"/>ej zapada mi<ch a="d"/>ary,</row>
+			<row important_over="false">Gdy n<ch a="d"/>agle wi<ch a="C"/>edzą, czego chc<ch a="d"/>ą</row>
+			<row important_over="false">C<ch a="d"/>i, którym prz<ch a="C"/>eznaczono m<ch a="d"/>ary,</row>
+			<row important_over="false">A kt<ch a="d"/>órzy <ch a="C"/>o swe życie drż<ch a="d"/>ą,</row>
+			<row important_over="true">Ale woł<ch a="F"/>ają – Wi<ch a="C"/>ary! <ch a="d"/></row>
+			<row important_over="never">Ofiary! <ch a="d"/></row>
+			<row important_over="true"><ch a="B"/>Echem m<ch a="A7"/>ury drwi<ch a="d"/>ą.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://www.kaczmarski.art.pl/tworczosc/wiersze/szturm/</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
