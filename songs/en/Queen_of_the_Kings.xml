@@ -24,12 +24,7 @@
 			<row important_over="true">Wh<ch a="C"/>o will c<ch a="G"/>onquer <ch a="a"/>all, <ch a="H7"/>all?”</row>
 			<row important_over="never">Her name is</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, runnin' so f<ch a="a"/>ast, beatin' the w<ch a="G"/>ind,</row>
-			<row important_over="false">N<ch a="C"/>othin' in this world can st<ch a="e"/>op the spr<ch a="D"/>ead of her w<ch a="e"/>ings.</row>
-			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, broken her c<ch a="a"/>age, threw out the k<ch a="G"/>eys,</row>
-			<row important_over="false">Sh<ch a="C"/>e will be the warrior of N<ch a="e"/>orth and S<ch a="D"/>outhern S<ch a="e"/>eas.</row>
-		</block>
+		<blocklink blocknb="1"/>
 		<block type="verse">
 			<row important_over="false"><ch a="e"/>A firestone f<ch a="C"/>orged in fl<ch a="G"/>ames, <ch a="C"/></row>
 			<row important_over="false">The w<ch a="e"/>ildest c<ch a="H7"/>ard, run the g<ch a="e"/>ame, run the game.</row>
@@ -42,12 +37,7 @@
 			<row important_over="false">Wh<ch a="C"/>o will c<ch a="G"/>onquer <ch a="a"/>all, <ch a="H7"/>all?”</row>
 			<row important_over="never">Her name is</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, runnin' so f<ch a="a"/>ast, beatin' the w<ch a="G"/>ind,</row>
-			<row important_over="false">N<ch a="C"/>othin' in this world can st<ch a="e"/>op the spr<ch a="D"/>ead of her w<ch a="e"/>ings.</row>
-			<row important_over="false">Sh<ch a="e"/>e, queen of the kings, broken her c<ch a="a"/>age, threw out the k<ch a="G"/>eys,</row>
-			<row important_over="false">Sh<ch a="C"/>e will be the warrior of N<ch a="e"/>orth and S<ch a="D"/>outhern S<ch a="e"/>eas.</row>
-		</block>
+		<blocklink blocknb="1"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>

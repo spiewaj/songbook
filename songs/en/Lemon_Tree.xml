@@ -45,14 +45,7 @@
 			<row important_over="false">M<ch a="a"/>aybe, anyhow, I'll g<ch a="e"/>et another toy,</row>
 			<row important_over="false">And <ch a="d"/>everything will happen <ch a="e"/>and you w<ch a="d"/>ond<ch a="e"/>er.<ch a="a"/></row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">I w<ch a="C"/>onder how, I w<ch a="G"/>onder why,</row>
-			<row important_over="false">Y<ch a="a"/>esterday you told me 'bout the bl<ch a="e"/>ue, blue sky,</row>
-			<row important_over="false">And <ch a="F"/>all that I can s<ch a="G"/>ee is just a yell<ch a="C"/>ow lemon tree.<ch a="G"/></row>
-			<row important_over="false">I'm t<ch a="C"/>urnin' my head <ch a="G"/>up and down,</row>
-			<row important_over="false">I'm t<ch a="a"/>urnin', turnin', turnin', turnin', t<ch a="e"/>urnin' around,</row>
-			<row important_over="false">And <ch a="F"/>all that I can s<ch a="G"/>ee is just anoth<ch a="C"/>er lemon tree.<ch a="G"/></row>
-		</block>
+		<blocklink blocknb="3"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
