@@ -25,12 +25,7 @@
 			<row important_over="true"><ch a="h"/>Till I find my promised land,</row>
 			<row important_over="true">And I’ll <ch a="fis"/>go <ch a="E"/>on...</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
-			<row important_over="false"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll<ch a="E"/>ing,</row>
-			<row important_over="false"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
-			<row important_over="false"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll <ch a="E"/>and <ch a="A"/>go.</row>
-		</block>
+		<blocklink blocknb="1"/>
 		<block type="verse">
 			<row important_over="false"><ch a="fis"/>Through the clouds my Nordic sky,</row>
 			<row important_over="false"><ch a="fis"/>Shining bluest as I fly,</row>
@@ -45,12 +40,7 @@
 			<row important_over="false"><ch a="h"/>Viking ghosts surrounding me...</row>
 			<row important_over="false">My <ch a="fis"/>rever<ch a="E"/>ie…</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
-			<row important_over="false"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll<ch a="E"/>ing,</row>
-			<row important_over="false"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
-			<row important_over="false"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll <ch a="E"/>and <ch a="A"/>go.</row>
-		</block>
+		<blocklink blocknb="1"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
