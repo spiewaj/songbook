@@ -30,3 +30,24 @@ export function sanitizeBranchName(br) {
     if (!br) return "se-branch";
     return br.replaceAll(/[^a-zA-Z0-9.\-_]/g, "_");
 }
+
+export const SONGEDITOR_BRANCH_REGEXP = /^se-.*/;
+
+export function shouldDeleteBranch(branch, diff) {
+    if (!branch || !branch.name || !branch.name.match(SONGEDITOR_BRANCH_REGEXP)) {
+        return false;
+    }
+    // 1. If branch has no changes (files.length === 0 or ahead_by === 0)
+    if (!diff || !diff.data || !diff.data.files || diff.data.files.length === 0 || diff.data.ahead_by === 0) {
+        return true;
+    }
+    // 2. If all associated PRs are closed or merged (no open PRs, and at least one closed or merged PR)
+    if (branch.associatedPullRequests && branch.associatedPullRequests.edges && branch.associatedPullRequests.edges.length > 0) {
+        const hasOpenPr = branch.associatedPullRequests.edges.some(e => !e.node.closed);
+        const hasMergedOrClosedPr = branch.associatedPullRequests.edges.some(e => e.node.closed || e.node.merged);
+        if (!hasOpenPr && hasMergedOrClosedPr) {
+            return true;
+        }
+    }
+    return false;
+}
