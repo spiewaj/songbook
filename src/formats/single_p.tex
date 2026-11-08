@@ -10,6 +10,7 @@
 \usepackage{polski}
 
 \usepackage{songbook21wdh}
+\usepackage{needspace}
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{longtable}
@@ -45,9 +46,13 @@
 \geometry{scale={0.95,0.90},pdftex,top={3ex}}
 \addtolength{\headheight}{5ex}
 
-\setboolean{PrintChordsOn}{true}
+\setboolean{PrintChordsOn}{:print_chords_on:}
 \setboolean{PrintChordsBehind}{true}
 \setboolean{PrintSongNum}{false}
+\setboolean{PackSongs}{:pack_songs:}
+\raggedbottom
+\setlength{\LTpre}{4pt plus 1pt minus 1pt}
+\setlength{\LTpost}{4pt plus 1pt minus 1pt}
 
 \setlength{\parindent}{0pt}
 \setlength{\headsep}{10pt}

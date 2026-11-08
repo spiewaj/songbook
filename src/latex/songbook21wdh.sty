@@ -21,6 +21,8 @@
 \newboolean{PrintChordsOn}
 \newboolean{PrintChordsBehind}
 \newboolean{PrintSongNum}
+\newboolean{PackSongs}
+\setboolean{PackSongs}{false}
 
 \newcommand{\ChBassFont}{\normalsize\bf\sf}     % = cmss12 at 12.0pt
 \newcommand{\SBChordRaise}       {2.25ex}
@@ -149,12 +151,22 @@
   \IfStrEq{#7}{}{}{\index[genre]{\makefirstuc{#7}!{#1}}}
   \addcontentsline{toc}{section}{\theSongCnt{}. #1}%
 %  \addcontentsline{toc}{section}{alias title}
+  \nopagebreak
   \STitle{\theSongTitle}%
-  \vspace{5pt plus 5pt minus 5pt}%
+  \nopagebreak
+  \vspace{5pt plus 2pt minus 2pt}%
+  \nopagebreak
   \AAndCAndAAndMusic{#2}{#3}{#4}{#5}{#6}%
+  \nopagebreak
   \parindent=0pt%
+  \vspace{3pt plus 1pt minus 1pt}%
+  \nopagebreak
   }{%
-    \clearpage%
+    \ifthenelse{\boolean{PackSongs}}{%
+      \par\vspace{1.5em plus 0.5em minus 0.5em}%
+    }{%
+      \clearpage%
+    }%
   }
 
 \newcommand{\calb}[0]{\vline width 2pt {}}%
