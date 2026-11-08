@@ -140,7 +140,7 @@ class SongbookSpec:
   def has_index_genres(self):
       if "index_genres" in self.spec:
           return bool(self.spec["index_genres"])
-      return True
+      return False
 
   def imagePdfPath(self):
       if "image" in self.spec:

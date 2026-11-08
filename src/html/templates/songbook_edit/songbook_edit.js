@@ -713,18 +713,10 @@ function generateYAMLString() {
     const includeIndexArtists = document.getElementById('songbookIncludeIndexArtists')?.checked !== false;
     const includeIndexGenres = !!document.getElementById('songbookIncludeIndexGenres')?.checked;
 
-    if (!includeToc) {
-        songbook.toc = false;
-    }
-    if (!includeIndexSongs) {
-        songbook.index_songs = false;
-    }
-    if (!includeIndexArtists) {
-        songbook.index_artists = false;
-    }
-    if (includeIndexGenres) {
-        songbook.index_genres = true;
-    }
+    songbook.toc = includeToc;
+    songbook.index_songs = includeIndexSongs;
+    songbook.index_artists = includeIndexArtists;
+    songbook.index_genres = includeIndexGenres;
 
     if (currentSongbookImage && currentSongbookImage.url) {
         songbook.image = {
