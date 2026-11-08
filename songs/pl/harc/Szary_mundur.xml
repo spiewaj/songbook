@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Szary mundur">
+	<text_author type="solo">tradycyjna</text_author>
+	<comment>Tradycyjna pieśń harcerska upamiętniająca najmłodszych uczestników Powstania Warszawskiego.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="solo">Piosenka harcerska</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Harc<ch a="a"/>erski mundur wł<ch a="d"/>ożył, gdy mi<ch a="a"/>ał dwanaście l<ch a="E"/>at,</row>
+			<row important_over="true">Na cz<ch a="a"/>apce Biały <ch a="d"/>Orzeł, a w s<ch a="E"/>ercu wielki ż<ch a="E7"/>al.</row>
+			<row important_over="true">Przem<ch a="a"/>ykał się za<ch a="d"/>ułkiem, gdy p<ch a="a"/>atrol wroga sz<ch a="E"/>edł,</row>
+			<row important_over="true">Pod bl<ch a="a"/>uzą miał bib<ch a="d"/>ułę, choć m<ch a="E"/>ały, walczył t<ch a="E7"/>eż.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Sz<ch a="a"/>ary mundur, mały mundur, na łokciach kilka łat,</row>
+			<row important_over="true">Sz<ch a="d"/>ary mundur, pod mundurem dw<ch a="a"/>anaście tylko l<ch a="E"/>at.<ch a="E7"/></row>
+			<row important_over="true">Sz<ch a="a"/>ary mundur – wielka duma, a w sercu wielki żal,</row>
+			<row important_over="true">Sz<ch a="d"/>ary mundur, pod mundurem dw<ch a="a"/>anaście t<ch a="E"/>ylko l<ch a="E7"/>at.<ch a="a"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Wypr<ch a="a"/>asuj, mamo, m<ch a="d"/>undur, trza f<ch a="a"/>ason zawsze mi<ch a="E"/>eć,</row>
+			<row important_over="false">Nie ż<ch a="a"/>ałuj swego tr<ch a="d"/>udu, bo t<ch a="E"/>ak już w życiu j<ch a="E7"/>est.</row>
+			<row important_over="false">Zmęcz<ch a="a"/>ona jesteś, m<ch a="d"/>amo, i l<ch a="a"/>ękasz się – ja wi<ch a="E"/>em,</row>
+			<row important_over="false">Lecz mi<ch a="a"/>łość twoja, m<ch a="d"/>amo, uchr<ch a="E"/>oni mnie przed zł<ch a="E7"/>em.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Odd<ch a="a"/>any sercem spr<ch a="d"/>awie, wal<ch a="a"/>eczny mały s<ch a="E"/>yn,</row>
+			<row important_over="false">Nikt ni<ch a="a"/>e znał tak Warsz<ch a="d"/>awy, zręczn<ch a="E"/>iejszy nie był n<ch a="E7"/>ikt.</row>
+			<row important_over="false">Przen<ch a="a"/>osił on gran<ch a="d"/>aty, gdy t<ch a="a"/>aki rozkaz p<ch a="E"/>adł –</row>
+			<row important_over="false">Odw<ch a="a"/>ażny jak boh<ch a="d"/>ater, choć mi<ch a="E"/>ał dwanaście l<ch a="E7"/>at.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">I n<ch a="a"/>adszedł dzień sierpni<ch a="d"/>owy, hucz<ch a="a"/>ący ogniem dzi<ch a="E"/>ał,</row>
+			<row important_over="false">Najmł<ch a="a"/>odszy szereg<ch a="d"/>owy na p<ch a="E"/>osterunku st<ch a="E7"/>ał.</row>
+			<row important_over="false">Zwyci<ch a="a"/>ęstwo jest już bl<ch a="d"/>isko, Warsz<ch a="a"/>awa będzie ż<ch a="E"/>yć...</row>
+			<row important_over="false">Padł strz<ch a="a"/>ał – i to już wsz<ch a="d"/>ystko, a m<ch a="E"/>atce został dz<ch a="E7"/>iś...</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Sz<ch a="a"/>ary mundur, mały mundur, na łokciach kilka łat,</row>
+			<row important_over="false">Sz<ch a="d"/>ary mundur, pod mundurem dw<ch a="a"/>anaście tylko l<ch a="E"/>at.<ch a="E7"/></row>
+			<row important_over="false">Sz<ch a="a"/>ary mundur, wielka duma i wielki serca żal,</row>
+			<row important_over="false">Sz<ch a="d"/>ary mundur, pod mundurem dw<ch a="a"/>anaście b<ch a="E"/>yło l<ch a="E7"/>at.<ch a="a"/></row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/piosenki-harcerskie/szary-mundur</verificator>
+		</verificators>
+	</status>
+</song>
