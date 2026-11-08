@@ -362,13 +362,18 @@ def prepare_songbook_image(yaml_path: str, work_dir: str):
                         out.write(raw_bytes)
                     sb_data["image"]["pdf"] = dest_name
                 elif ".svg" in name_or_url:
+                    dest_svg_name = "cover_image.svg"
+                    dest_svg_path = os.path.join(work_dir, dest_svg_name)
+                    with open(dest_svg_path, "wb") as out:
+                        out.write(raw_bytes)
+                    sb_data["image"]["svg"] = dest_svg_name
+
                     try:
                         import cairosvg
-                        dest_name = "cover_image.pdf"
-                        dest_path = os.path.join(work_dir, dest_name)
-                        cairosvg.svg2pdf(bytestring=raw_bytes, write_to=dest_path)
-                        sb_data["image"]["pdf"] = dest_name
-                        sb_data["image"]["svg"] = dest_name
+                        dest_pdf_name = "cover_image.pdf"
+                        dest_pdf_path = os.path.join(work_dir, dest_pdf_name)
+                        cairosvg.svg2pdf(bytestring=raw_bytes, write_to=dest_pdf_path)
+                        sb_data["image"]["pdf"] = dest_pdf_name
                     except Exception as ex:
                         print(f"Could not convert SVG to PDF: {ex}")
                 elif ".webp" in name_or_url:
