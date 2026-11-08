@@ -311,12 +311,29 @@ def analyze_song(path, check_diff=False):
         warnings.extend(sidechord_warnings)
 
     # Audit <blocklink> references (1-indexed over <block> children of <lyric>)
-    lyric_el = root.find(f"{{{NS}}}lyric")
+    lyric_el = root.find(f"{{{NS_URI}}}lyric")
     if lyric_el is not None:
-        blocks = lyric_el.findall(f"{{{NS}}}block")
+        blocks = lyric_el.findall(f"{{{NS_URI}}}block")
         has_chorus = any(b.get("type") == "chorus" for b in blocks)
+        seen_choruses = {}
+        for idx, b in enumerate(blocks, 1):
+            if b.get("type") == "chorus":
+                lines = []
+                for r in b.findall(f"{{{NS_URI}}}row"):
+                    txt = "".join(r.itertext()).strip()
+                    if txt:
+                        lines.append(txt)
+                key = tuple(lines)
+                if key:
+                    if key in seen_choruses:
+                        orig_nb = seen_choruses[key]
+                        warnings.append(
+                            f"Block {idx} (chorus) duplicates Block {orig_nb} verbatim - collapse to <blocklink blocknb=\"{orig_nb}\"/>"
+                        )
+                    else:
+                        seen_choruses[key] = idx
         for child in lyric_el:
-            if child.tag == f"{{{NS}}}blocklink":
+            if child.tag == f"{{{NS_URI}}}blocklink":
                 bnb_str = child.get("blocknb", "0")
                 bnb = int(bnb_str) if bnb_str.isdigit() else 0
                 if bnb < 1 or bnb > len(blocks):

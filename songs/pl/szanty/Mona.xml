@@ -27,12 +27,7 @@
 				<ch a="a"/>Porzucił by na prz<ch a="G"/>ystań b<ch a="a"/>iec,</row>
 			<row important_over="false">By rusz<ch a="d"/>yć w dziki z m<ch a="e"/>orzem t<ch a="a"/>an.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">B<ch a="a"/>ył pięćdziesiąty dzi<ch a="G"/>ewiąty r<ch a="a"/>ok,</row>
-			<row important_over="false">Pam<ch a="a"/>iętam ten grudniowy dz<ch a="e"/>ień,</row>
-			<row important_over="false">Gdy <ch a="a"/>ośmiu mężczyzn z<ch a="e"/>abrał szt<ch a="a"/>orm</row>
-			<row important_over="false">Gdzieś w <ch a="d"/>oceanu wi<ch a="e"/>eczny cień.<ch a="a"/></row>
-		</block>
+		<blocklink blocknb="1"/>
 		<block type="verse">
 			<row important_over="false">A f<ch a="a"/>ale wściekle b<ch a="G"/>iły w brz<ch a="a"/>eg,</row>
 			<row important_over="false">R<ch a="a"/>yk morza tłumił chłopców krz<ch a="e"/>yk,</row>
@@ -45,12 +40,7 @@
 				<ch a="a"/>Gdy oceanu tw<ch a="G"/>arda pi<ch a="a"/>ęść</row>
 			<row important_over="false">Uderz<ch a="d"/>y w ratown<ch a="e"/>iczą ł<ch a="a"/>ódź.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">B<ch a="a"/>ył pięćdziesiąty dzi<ch a="G"/>ewiąty r<ch a="a"/>ok,</row>
-			<row important_over="false">Pam<ch a="a"/>iętam ten grudniowy dz<ch a="e"/>ień,</row>
-			<row important_over="false">Gdy <ch a="a"/>ośmiu mężczyzn z<ch a="e"/>abrał szt<ch a="a"/>orm</row>
-			<row important_over="false">Gdzieś w <ch a="d"/>oceanu wi<ch a="e"/>eczny cień.<ch a="a"/></row>
-		</block>
+		<blocklink blocknb="1"/>
 		<block type="verse">
 			<row important_over="false">I t<ch a="a"/>ylko krwawy sł<ch a="G"/>ońca d<ch a="a"/>ysk</row>
 			<row important_over="false">S<ch a="a"/>chyliło już po ciężkim dn<ch a="e"/>iu,</row>
@@ -64,12 +54,7 @@
 				<ch a="a"/>Do oczu komuś z<ch a="G"/>ajrzy śmi<ch a="a"/>erć</row>
 			<row important_over="false">I wezw<ch a="d"/>ie ratown<ch a="e"/>iczą ł<ch a="a"/>ódź.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">B<ch a="a"/>ył pięćdziesiąty dzi<ch a="G"/>ewiąty r<ch a="a"/>ok,</row>
-			<row important_over="false">Pam<ch a="a"/>iętam ten grudniowy dz<ch a="e"/>ień,</row>
-			<row important_over="false">Gdy <ch a="a"/>ośmiu mężczyzn z<ch a="e"/>abrał szt<ch a="a"/>orm</row>
-			<row important_over="false">Gdzieś w <ch a="d"/>oceanu wi<ch a="e"/>eczny cień.<ch a="a"/></row>
-		</block>
+		<blocklink blocknb="1"/>
 	</lyric>
 	<music metre="">
 		<guitar/>

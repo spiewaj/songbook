@@ -52,7 +52,7 @@ Every song (`songs/**/*.xml`) must be verified across **6 dimensions**:
 2. **Lyrics, Spelling & Typography**:
    - Compare lyrics against authoritative sources (official releases, Wywrota, Poema, Biblioteka Polskiej Piosenki, Discogs).
    - Fix all spelling mistakes, missing Polish diacritics (`ą, ć, ę, ł, ń, ó, ś, ź, ż`), and OCR/transliteration artifacts (e.g., Cyrillic `е` instead of Latin `e`).
-   - Check stanza/block division (`<block type="verse|chorus|other">`) and replace duplicated chorus blocks with `<blocklink blocknb="..."/>` where the chorus is identical.
+   - Check stanza/block division (`<block type="verse|chorus|other">`) and replace duplicated chorus blocks with `<blocklink blocknb="..."/>` where the chorus is identical (`blocknb` is the 1-based index among `<block>` elements). Do NOT collapse choruses that have distinct variations in lyrics, grammar, or modulations.
    - Use `<bis times="N">...</bis>` for repeated lines within a block instead of writing `(x2)` in text.
 
 3. **Chords & Musical Notation**:
