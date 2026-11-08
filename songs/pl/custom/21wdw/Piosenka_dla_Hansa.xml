@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Piosenka dla Hansa">
+	<text_author type="solo">tradycyjna 21 WDW</text_author>
+	<comment>Środowiskowa piosenka 21 WDW napisana podczas obozu w Norwegii w sierpniu 2023 roku, gdy przez Skandynawię przechodził orkan Hans. Śpiewana na melodię „Piosenki dla dzieci”.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">21 WDW</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true">H<ch a="a"/>ej, dzieci! Wy nie wiecie, jak jest f<ch a="D"/>ajnie na w<ch a="a"/>ojnie,</row>
+			<row important_over="true">Kt<ch a="C"/>o nie był na wojnie, ten t<ch a="D"/>ego nie pojmie,</row>
+			<row important_over="true">Kt<ch a="a"/>o poszedł, ten często nie wr<ch a="D"/>aca zwycz<ch a="a"/>ajnie,</row>
+			<row important_over="true">T<ch a="a"/>ak bardzo na w<ch a="G"/>ojnie jest f<ch a="a"/>ajnie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Harc<ch a="a"/>erze jedzą soję i p<ch a="D"/>iją dwie w<ch a="a"/>ody,</row>
+			<row important_over="true">A H<ch a="C"/>ans tuż za oknem wyr<ch a="D"/>ywa im płoty,</row>
+			<row important_over="true">Wsz<ch a="a"/>ędzie woda, kamienie i m<ch a="D"/>asa jest bł<ch a="a"/>ota,</row>
+			<row important_over="true">S<ch a="a"/>ilny wiatr po dol<ch a="G"/>inie się mi<ch a="a"/>ota.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A ki<ch a="a"/>edy powróci grupa dzi<ch a="D"/>elnych harc<ch a="a"/>erzy,</row>
+			<row important_over="false">To ch<ch a="C"/>yba i tak im n<ch a="D"/>ikt nie uwierzy,</row>
+			<row important_over="false">Że przeż<ch a="a"/>yli w Norwegii półwi<ch a="D"/>ecza ulew<ch a="a"/>ę,</row>
+			<row important_over="false">Choć ni<ch a="a"/>e raz zaliczyli tam gl<ch a="G"/>eb<ch a="a"/>ę.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">H<ch a="a"/>ej dzieci, Wy nie wiecie, jak jest f<ch a="D"/>ajnie w Norw<ch a="a"/>egii,</row>
+			<row important_over="false">C<ch a="C"/>i, co byli w Norwegii, to m<ch a="D"/>ogą być pewni,</row>
+			<row important_over="false">Że g<ch a="a"/>óry norweskie – powi<ch a="D"/>edzmy to szcz<ch a="a"/>erze –</row>
+			<row important_over="false">Zab<ch a="a"/>awą są wpr<ch a="G"/>ost dla harc<ch a="a"/>erzy.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Harc<ch a="a"/>erze w murach schronisk szuk<ch a="D"/>ają osł<ch a="a"/>ony,</row>
+			<row important_over="false">Choć sk<ch a="C"/>ończył się dawno Kuch<ch a="D"/>arek tak słony,</row>
+			<row important_over="false">Cud<ch a="a"/>ownych przekąsek za m<ch a="D"/>ało im d<ch a="a"/>ali,</row>
+			<row important_over="false">Więc w Norw<ch a="a"/>egii non st<ch a="G"/>op głodow<ch a="a"/>ali.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A c<ch a="a"/>i, co powrócą, wodę z b<ch a="D"/>utów wyl<ch a="a"/>eją,</row>
+			<row important_over="false">Skarp<ch a="C"/>etki wycisną i dzi<ch a="D"/>ury zakleją,</row>
+			<row important_over="false">I t<ch a="a"/>ylko tej drogi nie d<ch a="D"/>ojrzą harc<ch a="a"/>erze,</row>
+			<row important_over="false">Co w marz<ch a="a"/>eniach do <ch a="G"/>Oslo ich wi<ch a="a"/>edzie.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">H<ch a="a"/>ej dzieci, Wy nie wiecie, jak jest f<ch a="D"/>ajnie w Norw<ch a="a"/>egii,</row>
+			<row important_over="false">C<ch a="C"/>i, co byli w Norwegii, to m<ch a="D"/>ogą być pewni,</row>
+			<row important_over="false">H<ch a="a"/>ej dzieci, Wy nie wiecie, jak jest f<ch a="D"/>ajnie w Norw<ch a="a"/>egii,</row>
+			<row important_over="false">Ci, co b<ch a="a"/>yli w Norwegii, to m<ch a="G"/>ogą być p<ch a="a"/>ewni.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Bo dzi<ch a="h"/>eci, o Norwegii nie wi<ch a="E"/>ecie zbyt wi<ch a="h"/>ele,</row>
+			<row important_over="false">Nie wi<ch a="D"/>ecie, który kamień jest W<ch a="E"/>am przyjacielem,</row>
+			<row important_over="false">Ul<ch a="h"/>ewa przyjdzie do Was pr<ch a="E"/>ędko, bo prz<ch a="h"/>ecie</row>
+			<row important_over="false">Musi spi<ch a="h"/>eszyć się, z<ch a="A"/>anim wyschni<ch a="h"/>ecie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dziś sz<ch a="h"/>ansę znów macie, by prz<ch a="E"/>ejść suchą n<ch a="h"/>ogą</row>
+			<row important_over="false">Przez str<ch a="D"/>umień, wodospad, co d<ch a="E"/>awniej był drogą,</row>
+			<row important_over="false">Lecz gd<ch a="h"/>y już wdepniecie w to bł<ch a="E"/>oto – to p<ch a="h"/>ewne:</row>
+			<row important_over="false">Już trap<ch a="h"/>ery nie b<ch a="A"/>ędą potrz<ch a="h"/>ebne.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">H<ch a="h"/>ej dzieci, Wy nie wiecie, jak jest f<ch a="E"/>ajnie w Norw<ch a="h"/>egii,</row>
+			<row important_over="false">C<ch a="D"/>i, co byli w Norwegii, to m<ch a="E"/>ogą być pewni:</row>
+			<row important_over="false">Kto usi<ch a="h"/>adł w ciepełku, nie wr<ch a="E"/>óci zwycz<ch a="h"/>ajnie,</row>
+			<row important_over="false">Tak b<ch a="h"/>ardzo w schron<ch a="A"/>isku jest f<ch a="h"/>ajnie.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>

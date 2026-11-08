@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="15 małych Żbików">
+	<text_author type="solo">tradycyjna 21 WDW</text_author>
+	<comment>Środowiskowa piosenka wyliczankowa 21. Warszawskiej Drużyny Wędrowniczej „Stare Żbiki”, powstała na kanwie tradycyjnych motywów obozowych.</comment>
+	<composer type="solo">tradycyjna</composer>
+	<artist type="band">21 WDW</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">15 małych żb<ch a="D"/>ików niosło swoje plec<ch a="A7"/>aki,</row>
+			<row important_over="true">Krzysiu się nie sp<ch a="A7"/>akował, więc były pewne br<ch a="D"/>aki.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">14 małych żb<ch a="D"/>ików stanęło spojrzeć na ni<ch a="A7"/>ebo,</row>
+			<row important_over="false">Żbik Marta poszedł w krz<ch a="A7"/>aki, a reszta poszła bez ni<ch a="D"/>ego.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">13 małych żb<ch a="D"/>ików poszło sobie pod g<ch a="A7"/>órę,</row>
+			<row important_over="false">Kosterze skończył się tl<ch a="A7"/>en, przestała oddychać w og<ch a="D"/>óle.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">12 małych żb<ch a="D"/>ików chodziło górskimi szl<ch a="A7"/>akami,</row>
+			<row important_over="false">Wychowawca padł po dr<ch a="A7"/>odze, naćpał się l<ch a="D"/>ekami.</row>
+			<row important_over="false">Z powodu wychow<ch a="D"/>awcy przedwczesnego zg<ch a="A7"/>onu</row>
+			<row important_over="false">Wszyscy niepełnol<ch a="A7"/>etni musieli wracać do d<ch a="D"/>omu.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">8 małych żb<ch a="D"/>ików zalało się zimnym p<ch a="A7"/>otem,</row>
+			<row important_over="false">Bo Felek wszedł do jask<ch a="A7"/>ini i już nie wrócił z powr<ch a="D"/>otem.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">7 małych żb<ch a="D"/>ików jadło na obiad s<ch a="A7"/>oję,</row>
+			<row important_over="false">Isia nie grymas<ch a="A7"/>iła i zjadła jej za dw<ch a="D"/>oje.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">6 małych żb<ch a="D"/>ików szło po kamiennej dr<ch a="A7"/>odze,</row>
+			<row important_over="false">A Krysia z dołu krz<ch a="A7"/>yczy: „Ja chyba już nie wch<ch a="D"/>odzę”.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">5 małych żb<ch a="D"/>ików zobaczyło papr<ch a="A7"/>otkę,</row>
+			<row important_over="false">A Krysia tymczasem m<ch a="A7"/>yśli: „A mogłam jeść w domu szarl<ch a="D"/>otkę”.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">4 małe żb<ch a="D"/>iki spały sobie na dw<ch a="A7"/>orze,</row>
+			<row important_over="false">Lecz Antek porwał ł<ch a="A7"/>ajbę i wypłynął już w m<ch a="D"/>orze.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">3 małe żb<ch a="D"/>iki poszły razem do l<ch a="A7"/>asu,</row>
+			<row important_over="false">Lecz zostawiły M<ch a="A7"/>aćka, bo robił za dużo hał<ch a="D"/>asu.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Idą dwa małe żb<ch a="D"/>iki, z czego jedna dziewcz<ch a="A7"/>yna,</row>
+			<row important_over="false">Lecz Kuba się zastan<ch a="A7"/>awia, gdzie się podziała Just<ch a="D"/>yna.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Ostatni z małych żb<ch a="D"/>ików doszedł w końcu na szcz<ch a="A7"/>yt,</row>
+			<row important_over="false">Ale pogubił przyjaci<ch a="A7"/>ół, więc nie pogratulował mu n<ch a="D"/>ikt.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Piosenka harcerska</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
