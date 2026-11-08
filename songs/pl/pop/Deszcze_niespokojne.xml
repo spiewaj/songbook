@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Deszcze niespokojne">
+	<alias>Ballada o czterech pancernych</alias>
+	<text_author type="solo">Agnieszka Osiecka</text_author>
+	<comment>Piosenka przewodnia z kultowego serialu telewizyjnego „Czterej pancerni i pies” (1966–1970).</comment>
+	<composer type="solo">Adam Walaciński</composer>
+	<artist type="solo">Edmund Fetting</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">D<ch a="a"/>eszcze niespok<ch a="G"/>ojne</row>
+			<row important_over="true">pot<ch a="a"/>argały s<ch a="G"/>ad,</row>
+			<row important_over="true">a m<ch a="C"/>y na tej w<ch a="G"/>ojnie</row>
+			<row important_over="true">ł<ch a="C"/>adnych parę l<ch a="a"/>at.<ch a="G"/></row>
+			<row important_over="true">Do d<ch a="F"/>omu wróc<ch a="G"/>imy,</row>
+			<row important_over="true">w pi<ch a="a"/>ecu napal<ch a="D"/>imy,</row>
+			<row important_over="true">nak<ch a="a"/>armimy ps<ch a="h"/>a.</row>
+			<row important_over="true">Przed n<ch a="C"/>ocą zdąż<ch a="G"/>ymy,</row>
+			<row important_over="true">t<ch a="E"/>ylko zwyci<ch a="a"/>ężymy,</row>
+			<row important_over="true"><ch a="D"/>a to w<ch a="H7"/>ażna gr<ch a="e"/>a!<ch a="a"/><ch a="H7"/><ch a="e"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">N<ch a="a"/>a niebie obł<ch a="G"/>oki,</row>
+			<row important_over="false">p<ch a="a"/>o wsiach pełno bz<ch a="G"/>u,</row>
+			<row important_over="false">gdzi<ch a="C"/>eż ten świat dal<ch a="G"/>eki,</row>
+			<row important_over="false">p<ch a="C"/>ełen dobrych sn<ch a="a"/>ów.<ch a="G"/></row>
+			<row important_over="false">Powr<ch a="F"/>ócimy wi<ch a="G"/>erni,</row>
+			<row important_over="false">m<ch a="a"/>y czterej panc<ch a="D"/>erni,</row>
+			<row important_over="false">„R<ch a="a"/>udy” i nasz pi<ch a="h"/>es.</row>
+			<row important_over="false">My czt<ch a="C"/>erej panc<ch a="G"/>erni,</row>
+			<row important_over="false">p<ch a="E"/>owrócimy wi<ch a="a"/>erni,</row>
+			<row important_over="false">p<ch a="D"/>o wios<ch a="H7"/>enny b<ch a="e"/>ez.<ch a="a"/><ch a="H7"/><ch a="e"/></row>
+		</block>
+	</lyric>
+	<music metre="3/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Pop</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/edmund-fetting</verificator>
+		</verificators>
+	</status>
+</song>
