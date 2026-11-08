@@ -101,6 +101,23 @@ class SongbookSpec:
   def hidden(self):
       return self.spec["hidden"] if "hidden" in self.spec else False
 
+  def dense(self):
+      return bool(self.spec.get("dense") or self.spec.get("is_dense") or self.spec.get("density") == "dense")
+
+  def pack_songs(self):
+      if "pack_songs" in self.spec:
+          return bool(self.spec["pack_songs"])
+      return self.dense()
+
+  def chords_over_verses(self):
+      if "chords_over_verses" in self.spec:
+          return bool(self.spec["chords_over_verses"])
+      if "print_chords_over" in self.spec:
+          return bool(self.spec["print_chords_over"])
+      if "chords_mode" in self.spec and self.spec["chords_mode"] == "side_only":
+          return False
+      return not self.dense()
+
   def imagePdfPath(self):
       if "image" in self.spec:
           for key in ("pdf", "png", "jpg", "jpeg", "webp"):
@@ -131,13 +148,19 @@ class SongbookSpec:
           if ext == "webp": return "image/webp"
       return None
 
-def load_songbook_spec_from_yaml(filename, title=None, songFiles=None):
+def load_songbook_spec_from_yaml(filename, title=None, songFiles=None, dense=None, pack_songs=None, chords_over_verses=None):
     with open(filename) as stream:
         songbook = yaml.safe_load(stream)
         if title:
             songbook["songbook"]["title"] = title
         if songFiles:
-            songbook["songbook"]["songs"] = map(lambda s: {"glob": s}, songFiles)
+            songbook["songbook"]["songs"] = list(map(lambda s: {"glob": s}, songFiles))
+        if dense is not None:
+            songbook["songbook"]["dense"] = dense
+        if pack_songs is not None:
+            songbook["songbook"]["pack_songs"] = pack_songs
+        if chords_over_verses is not None:
+            songbook["songbook"]["chords_over_verses"] = chords_over_verses
         return SongbookSpec(songbook, specFile=os.path.abspath(filename))
 
 def songbooks():

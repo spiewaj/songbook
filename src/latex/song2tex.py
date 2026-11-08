@@ -188,7 +188,23 @@ class Song:
         )
 
 
-def song2tex(path):
+def calculate_reserve_lines(song, papersize="a4"):
+    max_page_lines = 37 if papersize.lower() == "a4" else 28
+    min_meaningful_lines = 10 if papersize.lower() == "a4" else 8
+
+    total_rows = sum(len(b.effective_rows) for b in song.blocks)
+    blocks_count = len(song.blocks)
+    title_lines = 2 if len(song.title) > 35 else 1
+    meta_lines = 2
+    total_lines = title_lines + meta_lines + 2 + total_rows + int(blocks_count * 0.7)
+
+    if total_lines <= max_page_lines:
+        return total_lines
+    else:
+        return min_meaningful_lines
+
+
+def song2tex(path, pack_songs=False, chords_over_verses=True, papersize="a4"):
     try:
         tree = etree.parse(path)
         song = Song.parseDOM(tree.getroot())
@@ -208,7 +224,13 @@ def song2tex(path):
             loader=jinja2.FileSystemLoader(sys.path[0])
         )
         template = latex_jinja_env.get_template('song_template.tex')
-        res = template.render(song=song)
+        song_reserve_lines = calculate_reserve_lines(song, papersize) if pack_songs else None
+        res = template.render(
+            song=song,
+            pack_songs=pack_songs,
+            song_reserve_lines=song_reserve_lines,
+            chords_over_verses=chords_over_verses,
+        )
         res = (res.replace('﻿',' ').replace('😷','').replace('е','e').replace('\u200B','').replace('\u0096','').replace('\u0092','').replace('\u0095','').replace('\u0099','')
                .replace('\u02B9','').replace('\u0092','').replace('\u0088','').replace('\u0085','').replace('\u0080','').replace('\u0081','').replace('\u0082','').replace('\u0087','').replace('\u0084','').replace('\u0093','').replace('\u0094','').replace('\u0091','').replace('\u0098','').replace('\u009B','')
                .replace('\u2028','').replace('\u2005','').replace('\u2003','').replace('\u205F','').replace('\u009F','').replace('\u2502','')

@@ -32,11 +32,11 @@ if [[ -x "${__dir}/.python_venv/bin/python" ]]; then
 fi
 
 MAKE_INDEX=true
-if [[ "${@: -1}" =~ \.yaml$ || $# -lt 4 ]]; then
+if [[ "$1" == "a4" || "$1" == "a5" ]]; then
   papersize=$1
   PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/latex/songbook2tex.py "${papersize}" "${@:2}" >${tex_file}
   SONGBOOK_ID=$(PYTHONPATH="${__dir}" "${PYTHON_BIN}" ${__dir}/src/songbook2id.py "${@:2}")
-  JOB="${SONGBOOK_ID}_${papersize}"
+  JOB="${JOB:-${SONGBOOK_ID}_${papersize}}"
 else
   format=$1
   papersize=$2
