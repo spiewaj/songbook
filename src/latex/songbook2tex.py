@@ -66,10 +66,23 @@ def create_ready_tex(songbook, papersize, dense=None, pack_songs=None, chords_ov
         
     content = content.replace(":imagePdfPath:", image_tex)
 
+    index_songs_tex = "\\cleardoublepage\n\\printindex[aliases]\n\\cleardoublepage\n" if songbook.has_index_songs() else "\\cleardoublepage\n"
+    content = content.replace(":index_songs:", index_songs_tex)
+
     content += "".join([s2t.song2tex(file, pack_songs=effective_pack, chords_over_verses=effective_chords_over, papersize=papersize) for _, file in list_title_file])
 
+    toc_tex = "\\newpage\n\\fancyhead[LE]{SPIS TREŚCI}\n\\fancyhead[RO]{SPIS TREŚCI}\n\\tableofcontents\n" if songbook.has_toc() else ""
+    index_artists_tex = "\\printindex[wyk]\n" if songbook.has_index_artists() else ""
+    index_genres_tex = "\\printindex[genre]\n" if songbook.has_index_genres() else ""
+
     with open("src/formats/" + foot) as f:
-        content += f.read()
+        foot_content = f.read()
+    foot_content = (foot_content
+                    .replace(":toc_section:", toc_tex)
+                    .replace(":index_artists:", index_artists_tex)
+                    .replace(":index_genres:", index_genres_tex))
+
+    content += foot_content
 
     return print(content)
 
@@ -85,6 +98,10 @@ def main():
     dense = True if os.environ.get("DENSE", "").lower() in ("1", "true") else None
     pack_songs = None
     chords_over_verses = None
+    toc = None
+    index_songs = None
+    index_artists = None
+    index_genres = None
 
     if os.environ.get("PACK_SONGS", "").lower() in ("1", "true"):
         pack_songs = True
@@ -109,13 +126,38 @@ def main():
             chords_over_verses = False
         elif arg == "--chords-over":
             chords_over_verses = True
+        elif arg == "--toc":
+            toc = True
+        elif arg == "--no-toc":
+            toc = False
+        elif arg == "--index-songs":
+            index_songs = True
+        elif arg == "--no-index-songs":
+            index_songs = False
+        elif arg == "--index-artists":
+            index_artists = True
+        elif arg == "--no-index-artists":
+            index_artists = False
+        elif arg == "--index-genres":
+            index_genres = True
+        elif arg == "--no-index-genres":
+            index_genres = False
         elif not arg.startswith("--") and songbook_file is None:
             songbook_file = arg
 
     if songbook_file is None:
         songbook_file = os.path.join(sb.repo_dir(), "songbooks/default.songbook.yaml")
 
-    songbook = sb.load_songbook_spec_from_yaml(songbook_file)
+    songbook = sb.load_songbook_spec_from_yaml(
+        songbook_file,
+        dense=dense,
+        pack_songs=pack_songs,
+        chords_over_verses=chords_over_verses,
+        toc=toc,
+        index_songs=index_songs,
+        index_artists=index_artists,
+        index_genres=index_genres
+    )
 
     create_ready_tex(
         songbook=songbook,

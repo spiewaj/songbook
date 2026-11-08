@@ -1950,6 +1950,69 @@ h1 {
     height: 38px;
 }
 
+.layout-settings-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.layout-settings-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 14px 16px;
+}
+
+.layout-settings-card-title {
+    margin: 0 0 12px 0;
+    font-size: 0.92rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #334155;
+}
+
+.settings-help-text {
+    display: block;
+    color: #64748b;
+    font-size: 0.75rem;
+    margin-top: 4px;
+    line-height: 1.35;
+}
+
+.checkbox-settings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.checkbox-setting-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88rem;
+    cursor: pointer;
+    margin: 0;
+    color: #334155;
+    user-select: none;
+}
+
+.checkbox-setting-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0;
+    accent-color: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .layout-settings-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 .autosave-restore-banner {
     background: #eff6ff;
     border: 1px solid #bfdbfe;
@@ -2518,6 +2581,29 @@ h1 {
     background: #262626;
     border-color: #404040;
     color: #e2e8f0;
+}
+
+[data-theme="dark"] .layout-settings-card {
+    background: #1e1e1e;
+    border-color: #383838;
+}
+
+[data-theme="dark"] .layout-settings-card-title {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .checkbox-setting-label {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .layout-settings-card select {
+    background: #2d2d2d;
+    color: #e2e8f0;
+    border-color: #404040;
+}
+
+[data-theme="dark"] .settings-help-text {
+    color: #94a3b8;
 }
 
 
