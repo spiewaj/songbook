@@ -24,13 +24,7 @@
 			<row important_over="true">Inni zaś z m<ch a="a"/>yślą nien<ch a="F"/>ową się kryją:</row>
 			<row important_over="true">– Może to t<ch a="E"/>ylko t<ch a="E4"/>ak serca nam bi<ch a="E"/>ją?</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false"><ch a="a"/>Idą tytani,</row>
-			<row important_over="false">N<ch a="a"/>a świat zesłani,</row>
-			<row important_over="false">Ż<ch a="a"/>eby napr<ch a="B"/>awić zło!</row>
-			<row important_over="false">I wi<ch a="B"/>emy to z ost<ch a="a"/>atniej chwili,</row>
-			<row important_over="false">Że gdz<ch a="B"/>ieś już n<ch a="E"/>awet napr<ch a="a"/>awili.</row>
-		</block>
+		<blocklink blocknb="1"/>
 		<block type="verse">
 			<row important_over="false">Pr<ch a="a"/>asa zarzuca nam zabobony,</row>
 			<row important_over="false">Ale mal<ch a="F"/>uje się domów frontony,</row>

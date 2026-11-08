@@ -27,12 +27,7 @@
 			<row important_over="true">Kr<ch a="C"/>ótki błysk nad g<ch a="F"/>órskim stokiem,</row>
 			<row important_over="true">W<ch a="C"/>ola Boża – m<ch a="G"/>oja walka dziś się k<ch a="a"/>ończy.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">T<ch a="F"/>y mnie ukryj, m<ch a="G"/>oja ziemio podhal<ch a="a"/>ańska,</row>
-			<row important_over="false">G<ch a="F"/>órski lesie, k<ch a="G"/>ołysz mnie do sn<ch a="a"/>u,</row>
-			<row important_over="false">T<ch a="F"/>yle razy mni<ch a="G"/>e chroniła Ręka P<ch a="a"/>ańska,</row>
-			<row important_over="false">Dz<ch a="F"/>iś mnie do rap<ch a="G"/>ortu wezwał B<ch a="a"/>óg.</row>
-		</block>
+		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false">P<ch a="F"/>olski orzeł sr<ch a="G"/>ebrnopióry</row>
 			<row important_over="false">W n<ch a="C"/>asze dusze wb<ch a="F"/>ił pazury</row>
@@ -41,12 +36,7 @@
 			<row important_over="false">P<ch a="C"/>artyzancka wi<ch a="F"/>erzba płacze:</row>
 			<row important_over="true">Zg<ch a="C"/>asł już „Ogień”, ale p<ch a="G"/>amięć p<ch a="E7"/>o nim wciąż się tl<ch a="a"/>i.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">T<ch a="F"/>y mnie ukryj, m<ch a="G"/>oja ziemio podhal<ch a="a"/>ańska,</row>
-			<row important_over="false">G<ch a="F"/>órski lesie, k<ch a="G"/>ołysz mnie do sn<ch a="a"/>u,</row>
-			<row important_over="false">T<ch a="F"/>yle razy mni<ch a="G"/>e chroniła Ręka P<ch a="a"/>ańska,</row>
-			<row important_over="false">Dz<ch a="F"/>iś mnie do rap<ch a="G"/>ortu wezwał B<ch a="a"/>óg.</row>
-		</block>
+		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
