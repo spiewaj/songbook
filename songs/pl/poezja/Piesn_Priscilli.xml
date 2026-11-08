@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Pieśń Priscilli">
+	<alias>Wilcza zamieć</alias>
+	<text_author type="solo">Aleksandra Motyka</text_author>
+	<comment>Ballada trubadurki Priscilli z gry wideo „Wiedźmin 3: Dziki Gon” (CD Projekt RED, 2015).</comment>
+	<composer type="solo">Marcin Przybyłowicz</composer>
+	<artist type="solo">Anna Terpiłowska</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Na szl<ch a="d"/>ak moich blizn popr<ch a="g"/>owadź palec,</row>
+			<row important_over="true">By n<ch a="B"/>asze drogi spleść gwi<ch a="A"/>azdom na przekór.</row>
+			<row important_over="true"><ch a="d"/>Otwórz te rany, a p<ch a="g"/>otem zalecz,</row>
+			<row important_over="true">Aż w zawił<ch a="B"/>y losu uł<ch a="A"/>ożą się wz<ch a="d"/>ór.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Z m<ch a="d"/>oich snów uci<ch a="C"/>ekasz nad r<ch a="F"/>anem,</row>
+			<row important_over="true">Ci<ch a="g"/>erpka jak agrest, sł<ch a="A"/>odka jak bez.</row>
+			<row important_over="true">Chcę śn<ch a="d"/>ić czarne l<ch a="C"/>oki spląt<ch a="F"/>ane,</row>
+			<row important_over="true">Fiołk<ch a="g"/>owe oczy m<ch a="A"/>okre od ł<ch a="d"/>ez.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Za w<ch a="d"/>ilczym śladem pod<ch a="g"/>ążę w zamieć</row>
+			<row important_over="false">I tw<ch a="B"/>oje serce wytr<ch a="A"/>opię uparte,</row>
+			<row important_over="false">Przez gn<ch a="d"/>iew i smutek, stwardni<ch a="g"/>ałe w kamień,</row>
+			<row important_over="false">Rozp<ch a="B"/>alę usta smag<ch a="A"/>ane wi<ch a="d"/>atrem.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Z m<ch a="d"/>oich snów uci<ch a="C"/>ekasz nad r<ch a="F"/>anem,</row>
+			<row important_over="false">Ci<ch a="g"/>erpka jak agrest, sł<ch a="A"/>odka jak bez.</row>
+			<row important_over="false">Chcę śn<ch a="d"/>ić czarne l<ch a="C"/>oki spląt<ch a="F"/>ane,</row>
+			<row important_over="false">Fiołk<ch a="g"/>owe oczy m<ch a="A"/>okre od ł<ch a="d"/>ez.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Nie wi<ch a="d"/>em, czy jesteś moim przezn<ch a="g"/>aczeniem,</row>
+			<row important_over="false">Czy prz<ch a="B"/>ez ślepy traf mił<ch a="A"/>ość nas związała.</row>
+			<row important_over="false">Ki<ch a="d"/>edy wyrzekłem m<ch a="g"/>oje życzenie,</row>
+			<row important_over="false">Czyś mni<ch a="B"/>e wbrew sobie wt<ch a="A"/>edy pokoch<ch a="d"/>ała?</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Z m<ch a="d"/>oich snów uci<ch a="C"/>ekasz nad r<ch a="F"/>anem,</row>
+			<row important_over="false">Ci<ch a="g"/>erpka jak agrest, sł<ch a="A"/>odka jak bez.</row>
+			<row important_over="false">Chcę śn<ch a="d"/>ić czarne l<ch a="C"/>oki spląt<ch a="F"/>ane,</row>
+			<row important_over="false">Fiołk<ch a="g"/>owe oczy m<ch a="A"/>okre od ł<ch a="d"/>ez.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/wiedzmin-3-dziki-gon/piesn-priscilli-wilcza-zamiec</verificator>
+		</verificators>
+	</status>
+</song>

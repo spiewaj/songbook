@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Nim wstanie dzień">
+	<text_author type="solo">Agnieszka Osiecka</text_author>
+	<comment>Utwór z filmu „Prawo i pięść” (1964) w reżyserii Jerzego Hoffmana i Edwarda Skórzewskiego.</comment>
+	<composer type="solo">Krzysztof Komeda</composer>
+	<artist type="solo">Edmund Fetting</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Ze świ<ch a="a"/>ata czterech str<ch a="e"/>on, z jarz<ch a="a"/>ębinowych dr<ch a="e"/>óg,</row>
+			<row important_over="true">gdzie l<ch a="a"/>as spalony, wi<ch a="e"/>atr zmęczony, n<ch a="a"/>oc i fr<ch a="e"/>ont,</row>
+			<row important_over="true">gdzie ni<ch a="a"/>e zebrany pl<ch a="e"/>on, gdzie pocz<ch a="a"/>erniały gł<ch a="C"/>óg,</row>
+			<row important_over="true">wst<ch a="D"/>aje dzi<ch a="E"/>eń…</row>
+		</block>
+		<block type="verse">
+			<row important_over="true">Sł<ch a="a"/>ońce przytuli n<ch a="G"/>as do swych r<ch a="a"/>ąk.</row>
+			<row important_over="true">I sp<ch a="a"/>ójrz: ziemia aż ci<ch a="D"/>ężka od krw<ch a="a"/>i,</row>
+			<row important_over="true">zn<ch a="a"/>owu urodzi n<ch a="G"/>am zboża ł<ch a="a"/>an,</row>
+			<row important_over="true">złoty k<ch a="a"/>urz.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Przyjm<ch a="a"/>ą kobiety n<ch a="G"/>as pod swój d<ch a="a"/>ach.</row>
+			<row important_over="false">I sp<ch a="a"/>ójrz: będą się śmi<ch a="D"/>ać przez łz<ch a="a"/>y.</row>
+			<row important_over="false">Zn<ch a="a"/>owu do tańca kt<ch a="G"/>oś zagra n<ch a="a"/>am.</row>
+			<row important_over="false">M<ch a="G"/>oże j<ch a="C"/>uż...<ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="true">Za dzi<ch a="a"/>eń, za dw<ch a="d"/>a,</row>
+			<row important_over="true">za n<ch a="G"/>oc, za trz<ch a="C"/>y,</row>
+			<row important_over="true">choć ni<ch a="E"/>e dz<ch a="a"/>iś,</row>
+			<row important_over="true">za n<ch a="a"/>oc, za dzi<ch a="d"/>eń,</row>
+			<row important_over="true">docz<ch a="G"/>ekasz si<ch a="C"/>ę,</row>
+			<row important_over="true">wst<ch a="E"/>anie św<ch a="a"/>it.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Chl<ch a="a"/>eby upieką si<ch a="G"/>ę w piecach n<ch a="a"/>am.</row>
+			<row important_over="false">I sp<ch a="a"/>ójrz: tam gdzie t<ch a="D"/>ylko był d<ch a="a"/>ym,</row>
+			<row important_over="false">kwi<ch a="a"/>atem zabliźni si<ch a="G"/>ę wojny śl<ch a="a"/>ad,</row>
+			<row important_over="false">b<ch a="G"/>arwą r<ch a="C"/>óż.<ch a="E"/></row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Dzi<ch a="a"/>eci urodzą si<ch a="G"/>ę nowe n<ch a="a"/>am.</row>
+			<row important_over="false">I sp<ch a="a"/>ójrz: będą się śmi<ch a="D"/>ać, że m<ch a="a"/>y</row>
+			<row important_over="false">zn<ch a="a"/>ów wspominamy t<ch a="G"/>en podły cz<ch a="a"/>as,</row>
+			<row important_over="false">p<ch a="G"/>orę b<ch a="C"/>urz.<ch a="E"/></row>
+		</block>
+		<block type="chorus">
+			<row important_over="false">Za dzi<ch a="a"/>eń, za dw<ch a="d"/>a,</row>
+			<row important_over="false">za n<ch a="G"/>oc, za trz<ch a="C"/>y,</row>
+			<row important_over="false">choć ni<ch a="E"/>e dz<ch a="a"/>iś,</row>
+			<row important_over="false">za n<ch a="a"/>oc, za dzi<ch a="d"/>eń,</row>
+			<row important_over="false">docz<ch a="G"/>ekasz si<ch a="C"/>ę,</row>
+			<row important_over="false">wst<ch a="E"/>anie św<ch a="a"/>it.</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Nim_wstanie_dzien</verificator>
+		</verificators>
+	</status>
+</song>
