@@ -254,6 +254,80 @@
                     </div>
                 </div>
             </details>
+
+            <!-- Opcje układu, chwytów, spisu treści i indeksów (PDF) -->
+            <details id="layoutAndIndexSettingsDetails" class="optional-metadata-details" open>
+                <summary class="optional-metadata-summary">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">format_shapes</span>
+                    <span>Układ stron, chwyty, spis treści i indeksy w druku PDF</span>
+                    <span id="layoutSettingsBadge" class="optional-metadata-badge" style="display: none;">Zmodyfikowano</span>
+                </summary>
+                
+                <div class="layout-settings-container">
+                    <!-- Kolumna 1: Układ stron i chwyty -->
+                    <div class="layout-settings-card">
+                        <h4 class="layout-settings-card-title">
+                            <span class="material-symbols-outlined" style="font-size: 18px; color: #2563eb;">auto_stories</span>
+                            Układ stron i chwyty gitarowe
+                        </h4>
+
+                        <div class="form-group" style="margin-bottom: 12px;">
+                            <label for="songbookLayoutDensity">Gęstość układu stron:</label>
+                            <select id="songbookLayoutDensity" onchange="onLayoutDensityChange(this.value)">
+                                <option value="standard">Standardowy (1 piosenka na stronę / rozkładówkę)</option>
+                                <option value="dense">Zwarty – Dense (oszczędność papieru, wiele piosenek na stronie)</option>
+                            </select>
+                            <small id="songbookLayoutDensityHelp" class="settings-help-text">
+                                Układ standardowy zaczyna każdą piosenkę od nowej strony.
+                            </small>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom: 0;">
+                            <label for="songbookChordsMode">Prezentacja akordów:</label>
+                            <select id="songbookChordsMode" onchange="onChordsModeChange(this.value)">
+                                <option value="both">Nad tekstem i w kolumnie bocznej (standard)</option>
+                                <option value="side_only">Tylko w kolumnie bocznej (chwyty z lewej strony tekstu)</option>
+                            </select>
+                            <small id="songbookChordsModeHelp" class="settings-help-text">
+                                Tradycyjny układ wyświetla chwyty bezpośrednio nad sylabami i na marginesie.
+                            </small>
+                        </div>
+                    </div>
+
+                    <!-- Kolumna 2: Spis treści i indeksy w PDF -->
+                    <div class="layout-settings-card">
+                        <h4 class="layout-settings-card-title">
+                            <span class="material-symbols-outlined" style="font-size: 18px; color: #10b981;">toc</span>
+                            Spis treści i skorowidze w druku PDF
+                        </h4>
+
+                        <div class="checkbox-settings-list">
+                            <label class="checkbox-setting-label">
+                                <input type="checkbox" id="songbookIncludeToc" checked>
+                                <span><strong>Spis treści</strong> (na końcu śpiewnika, wg kolejności)</span>
+                            </label>
+
+                            <label class="checkbox-setting-label">
+                                <input type="checkbox" id="songbookIncludeIndexSongs" checked>
+                                <span><strong>Alfabetyczny indeks piosenek</strong> (tytuły i pierwsze słowa)</span>
+                            </label>
+
+                            <label class="checkbox-setting-label">
+                                <input type="checkbox" id="songbookIncludeIndexArtists" checked>
+                                <span><strong>Indeks wykonawców</strong> (autorzy i zespoły)</span>
+                            </label>
+
+                            <label class="checkbox-setting-label">
+                                <input type="checkbox" id="songbookIncludeIndexGenres">
+                                <span><strong>Indeks gatunków</strong> (np. szanty, poezja, harcerskie)</span>
+                            </label>
+                        </div>
+                        <small class="settings-help-text" style="margin-top: 8px;">
+                            W wydaniu EPUB (Kindle) pełne indeksy i spis treści są zawsze dołączone bezpłatnie.
+                        </small>
+                    </div>
+                </div>
+            </details>
         </div>
         
         <!-- Song Selection Section -->
@@ -674,12 +748,12 @@
                     </div>
                     <div class="publish-step" id="stepPdfA5">
                         <span class="material-symbols-outlined step-icon">sync</span>
-                        <span class="step-text">Generowanie PDF A5 (poręczny format do śpiewania)</span>
+                        <span class="step-text" id="stepPdfA5Text">Generowanie PDF A5 (poręczny format do śpiewania)</span>
                         <span class="step-status">Oczekiwanie...</span>
                     </div>
                     <div class="publish-step" id="stepPdfA4">
                         <span class="material-symbols-outlined step-icon">sync</span>
-                        <span class="step-text">Generowanie PDF A4 (format standardowy)</span>
+                        <span class="step-text" id="stepPdfA4Text">Generowanie PDF A4 (format standardowy)</span>
                         <span class="step-status">Oczekiwanie...</span>
                     </div>
                     <div class="publish-step" id="stepEpub">

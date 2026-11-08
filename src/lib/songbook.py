@@ -118,6 +118,30 @@ class SongbookSpec:
           return False
       return not self.dense()
 
+  def has_toc(self):
+      if "toc" in self.spec:
+          return bool(self.spec["toc"])
+      if "table_of_contents" in self.spec:
+          return bool(self.spec["table_of_contents"])
+      return True
+
+  def has_index_songs(self):
+      if "index_songs" in self.spec:
+          return bool(self.spec["index_songs"])
+      if "index_titles" in self.spec:
+          return bool(self.spec["index_titles"])
+      return True
+
+  def has_index_artists(self):
+      if "index_artists" in self.spec:
+          return bool(self.spec["index_artists"])
+      return True
+
+  def has_index_genres(self):
+      if "index_genres" in self.spec:
+          return bool(self.spec["index_genres"])
+      return True
+
   def imagePdfPath(self):
       if "image" in self.spec:
           for key in ("pdf", "png", "jpg", "jpeg", "webp"):
@@ -148,7 +172,7 @@ class SongbookSpec:
           if ext == "webp": return "image/webp"
       return None
 
-def load_songbook_spec_from_yaml(filename, title=None, songFiles=None, dense=None, pack_songs=None, chords_over_verses=None):
+def load_songbook_spec_from_yaml(filename, title=None, songFiles=None, dense=None, pack_songs=None, chords_over_verses=None, toc=None, index_songs=None, index_artists=None, index_genres=None):
     with open(filename) as stream:
         songbook = yaml.safe_load(stream)
         if title:
@@ -161,6 +185,14 @@ def load_songbook_spec_from_yaml(filename, title=None, songFiles=None, dense=Non
             songbook["songbook"]["pack_songs"] = pack_songs
         if chords_over_verses is not None:
             songbook["songbook"]["chords_over_verses"] = chords_over_verses
+        if toc is not None:
+            songbook["songbook"]["toc"] = toc
+        if index_songs is not None:
+            songbook["songbook"]["index_songs"] = index_songs
+        if index_artists is not None:
+            songbook["songbook"]["index_artists"] = index_artists
+        if index_genres is not None:
+            songbook["songbook"]["index_genres"] = index_genres
         return SongbookSpec(songbook, specFile=os.path.abspath(filename))
 
 def songbooks():

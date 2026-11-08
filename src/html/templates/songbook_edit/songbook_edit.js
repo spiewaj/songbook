@@ -695,6 +695,37 @@ function generateYAMLString() {
         songbook.place = songbookPlace;
     }
 
+    // Layout density and chords mode
+    const layoutDensity = document.getElementById('songbookLayoutDensity')?.value || 'standard';
+    const chordsMode = document.getElementById('songbookChordsMode')?.value || 'both';
+    if (layoutDensity === 'dense') {
+        songbook.dense = true;
+    }
+    if (chordsMode === 'side_only') {
+        songbook.chords_over_verses = false;
+    } else if (chordsMode === 'both' && layoutDensity === 'dense') {
+        songbook.chords_over_verses = true;
+    }
+
+    // Table of contents and indices
+    const includeToc = document.getElementById('songbookIncludeToc')?.checked !== false;
+    const includeIndexSongs = document.getElementById('songbookIncludeIndexSongs')?.checked !== false;
+    const includeIndexArtists = document.getElementById('songbookIncludeIndexArtists')?.checked !== false;
+    const includeIndexGenres = !!document.getElementById('songbookIncludeIndexGenres')?.checked;
+
+    if (!includeToc) {
+        songbook.toc = false;
+    }
+    if (!includeIndexSongs) {
+        songbook.index_songs = false;
+    }
+    if (!includeIndexArtists) {
+        songbook.index_artists = false;
+    }
+    if (includeIndexGenres) {
+        songbook.index_genres = true;
+    }
+
     if (currentSongbookImage && currentSongbookImage.url) {
         songbook.image = {
             url: currentSongbookImage.url,
@@ -828,6 +859,49 @@ function loadFromYAMLString(content, cloudDoc = null) {
         }
         updateImageUI();
         
+        // Layout & chords settings
+        const isDense = !!(sb.dense || sb.is_dense || sb.density === 'dense' || cloudDoc?.dense);
+        const layoutSelect = document.getElementById('songbookLayoutDensity');
+        if (layoutSelect) {
+            layoutSelect.value = isDense ? 'dense' : 'standard';
+        }
+
+        const chordsModeSelect = document.getElementById('songbookChordsMode');
+        if (chordsModeSelect) {
+            if (sb.chords_over_verses === false || sb.chords_mode === 'side_only' || cloudDoc?.chords_over_verses === false || cloudDoc?.chordsMode === 'side_only') {
+                chordsModeSelect.value = 'side_only';
+            } else if (sb.chords_over_verses === true || cloudDoc?.chords_over_verses === true) {
+                chordsModeSelect.value = 'both';
+            } else {
+                chordsModeSelect.value = isDense ? 'side_only' : 'both';
+            }
+        }
+
+        // Table of contents & index checkboxes
+        const tocEl = document.getElementById('songbookIncludeToc');
+        if (tocEl) {
+            tocEl.checked = sb.toc !== false && sb.table_of_contents !== false && cloudDoc?.toc !== false;
+        }
+
+        const idxSongsEl = document.getElementById('songbookIncludeIndexSongs');
+        if (idxSongsEl) {
+            idxSongsEl.checked = sb.index_songs !== false && sb.index_titles !== false && cloudDoc?.index_songs !== false;
+        }
+
+        const idxArtistsEl = document.getElementById('songbookIncludeIndexArtists');
+        if (idxArtistsEl) {
+            idxArtistsEl.checked = sb.index_artists !== false && cloudDoc?.index_artists !== false;
+        }
+
+        const idxGenresEl = document.getElementById('songbookIncludeIndexGenres');
+        if (idxGenresEl) {
+            idxGenresEl.checked = !!(sb.index_genres || cloudDoc?.index_genres);
+        }
+
+        if (typeof updateLayoutSettingsBadge === 'function') {
+            updateLayoutSettingsBadge();
+        }
+
         currentCloudSongbook = cloudDoc;
         userEditedId = !!(sb.id || cloudDoc?.id); // Prevents auto-generation of ID
         updateCloudStatusUI();
@@ -1021,6 +1095,12 @@ function getSongbookFormData() {
     if (!yamlStr) return null;
 
     const isPublic = document.getElementById('songbookIsPublic') ? document.getElementById('songbookIsPublic').checked : true;
+    const layoutDensity = document.getElementById('songbookLayoutDensity')?.value || 'standard';
+    const chordsMode = document.getElementById('songbookChordsMode')?.value || 'both';
+    const includeToc = document.getElementById('songbookIncludeToc')?.checked !== false;
+    const includeIndexSongs = document.getElementById('songbookIncludeIndexSongs')?.checked !== false;
+    const includeIndexArtists = document.getElementById('songbookIncludeIndexArtists')?.checked !== false;
+    const includeIndexGenres = !!document.getElementById('songbookIncludeIndexGenres')?.checked;
 
     return {
         id: songbookId,
@@ -1029,6 +1109,14 @@ function getSongbookFormData() {
         publisher: document.getElementById('songbookPublisher').value.trim(),
         place: document.getElementById('songbookPlace').value.trim(),
         isPublic: isPublic,
+        layoutDensity: layoutDensity,
+        dense: layoutDensity === 'dense',
+        chordsMode: chordsMode,
+        chords_over_verses: chordsMode !== 'side_only',
+        toc: includeToc,
+        index_songs: includeIndexSongs,
+        index_artists: includeIndexArtists,
+        index_genres: includeIndexGenres,
         yaml: yamlStr,
         imageUrl: currentSongbookImage?.url || null,
         image: currentSongbookImage ? { url: currentSongbookImage.url, name: currentSongbookImage.name || 'cover.png', path: currentSongbookImage.path || null } : null
@@ -1268,6 +1356,12 @@ function openPublishModal() {
     const catalogBtn = document.getElementById('btnPublishViewInCatalog');
     if (catalogBtn) catalogBtn.style.display = 'none';
 
+    const isDense = document.getElementById('songbookLayoutDensity')?.value === 'dense';
+    const stepA5Text = document.getElementById('stepPdfA5Text');
+    if (stepA5Text) stepA5Text.textContent = isDense ? 'Generowanie PDF A5 Zwarty (ekonomiczny format)' : 'Generowanie PDF A5 (poręczny format do śpiewania)';
+    const stepA4Text = document.getElementById('stepPdfA4Text');
+    if (stepA4Text) stepA4Text.textContent = isDense ? 'Generowanie PDF A4 Zwarty (ekonomiczny format)' : 'Generowanie PDF A4 (format standardowy)';
+
     updatePublishStep('stepCloudSave', 'running', 'Zapisywanie...');
     updatePublishStep('stepPdfA5', '', 'Oczekiwanie...');
     updatePublishStep('stepPdfA4', '', 'Oczekiwanie...');
@@ -1321,9 +1415,13 @@ async function saveAndPublishCloud() {
         const branch = urlParams.get('branch') || 'main';
         const songbookTitle = data.title || 'spiewnik';
         const dateStr = new Date().toISOString().split('T')[0];
+        const isDense = !!data.dense;
+        const denseSuffix = isDense ? '_zwarty' : '';
+        const a5BadgeText = isDense ? 'PDF A5 (Zwarty)' : 'PDF A5';
+        const a4BadgeText = isDense ? 'PDF A4 (Zwarty)' : 'PDF A4';
 
         // Step 2: Render PDF A5
-        updatePublishStep('stepPdfA5', 'running', 'Kompilacja LaTeX...');
+        updatePublishStep('stepPdfA5', 'running', isDense ? 'Kompilacja LaTeX (A5 Zwarty)...' : 'Kompilacja LaTeX...');
         let pdfA5Promise = renderArtifactCloudRun({
             yaml_content: data.yaml,
             branch: branch,
@@ -1331,7 +1429,7 @@ async function saveAndPublishCloud() {
             songbook_id: data.id,
             is_published: true
         }, '/api/render/songbook_yaml').then(({ url }) => {
-            const filename = encodeURIComponent(`${songbookTitle}_A5_${dateStr}.pdf`);
+            const filename = encodeURIComponent(`${songbookTitle}_A5${denseSuffix}_${dateStr}.pdf`);
             const sep = url.includes('?') ? '&' : '?';
             const finalUrl = `${url}${sep}filename=${filename}&disposition=inline`;
             artifacts.pdf_a5 = finalUrl;
@@ -1344,7 +1442,7 @@ async function saveAndPublishCloud() {
         });
 
         // Step 3: Render PDF A4
-        updatePublishStep('stepPdfA4', 'running', 'Kompilacja LaTeX...');
+        updatePublishStep('stepPdfA4', 'running', isDense ? 'Kompilacja LaTeX (A4 Zwarty)...' : 'Kompilacja LaTeX...');
         let pdfA4Promise = renderArtifactCloudRun({
             yaml_content: data.yaml,
             branch: branch,
@@ -1352,7 +1450,7 @@ async function saveAndPublishCloud() {
             songbook_id: data.id,
             is_published: true
         }, '/api/render/songbook_yaml').then(({ url }) => {
-            const filename = encodeURIComponent(`${songbookTitle}_A4_${dateStr}.pdf`);
+            const filename = encodeURIComponent(`${songbookTitle}_A4${denseSuffix}_${dateStr}.pdf`);
             const sep = url.includes('?') ? '&' : '?';
             const finalUrl = `${url}${sep}filename=${filename}&disposition=inline`;
             artifacts.pdf_a4 = finalUrl;
@@ -1388,6 +1486,7 @@ async function saveAndPublishCloud() {
         await Promise.allSettled([pdfA5Promise, pdfA4Promise, epubPromise]);
 
         // Save generated artifacts to Firestore
+        artifacts.dense = isDense;
         await window.FirebaseSongbook.updateSongbookArtifacts(data.id, artifacts, true);
         currentCloudSongbook.artifacts = artifacts;
         currentCloudSongbook.isPublished = true;
@@ -1405,13 +1504,13 @@ async function saveAndPublishCloud() {
             if (artifacts.pdf_a5) {
                 badgesArea.innerHTML += `
                     <a href="${artifacts.pdf_a5}" class="badge-download badge-pdf-a5" target="_blank" rel="noopener">
-                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A5
+                        <span class="material-symbols-outlined">picture_as_pdf</span> ${a5BadgeText}
                     </a>`;
             }
             if (artifacts.pdf_a4) {
                 badgesArea.innerHTML += `
                     <a href="${artifacts.pdf_a4}" class="badge-download badge-pdf-a4" target="_blank" rel="noopener">
-                        <span class="material-symbols-outlined">picture_as_pdf</span> PDF A4
+                        <span class="material-symbols-outlined">picture_as_pdf</span> ${a4BadgeText}
                     </a>`;
             }
         }
@@ -3198,8 +3297,76 @@ songsLoadedPromise = loadSongs().then(() => {
 });
 initAuthUI();
 updateCloudStatusUI();
+function onLayoutDensityChange(val) {
+    const chordsSelect = document.getElementById('songbookChordsMode');
+    const densityHelp = document.getElementById('songbookLayoutDensityHelp');
+    if (val === 'dense') {
+        if (chordsSelect && chordsSelect.value === 'both') {
+            chordsSelect.value = 'side_only';
+            onChordsModeChange('side_only');
+        }
+        if (densityHelp) {
+            densityHelp.textContent = 'Układ zwarty: wiele piosenek na stronie, brak zbędnych przerw, ~30-40% mniej stron papieru.';
+        }
+    } else {
+        if (densityHelp) {
+            densityHelp.textContent = 'Układ standardowy zaczyna każdą piosenkę od nowej strony.';
+        }
+    }
+    updateLayoutSettingsBadge();
+    markDirty();
+    triggerAutoDraftSave();
+}
+
+function onChordsModeChange(val) {
+    const chordsHelp = document.getElementById('songbookChordsModeHelp');
+    if (val === 'side_only') {
+        if (chordsHelp) chordsHelp.textContent = 'Chwyty są prezentowane wyłącznie w lewej kolumnie, nie zajmując miejsca nad wierszami.';
+    } else {
+        if (chordsHelp) chordsHelp.textContent = 'Tradycyjny układ wyświetla chwyty bezpośrednio nad sylabami i na marginesie.';
+    }
+    updateLayoutSettingsBadge();
+    markDirty();
+    triggerAutoDraftSave();
+}
+
+function updateLayoutSettingsBadge() {
+    const badge = document.getElementById('layoutSettingsBadge');
+    if (!badge) return;
+    const isDense = document.getElementById('songbookLayoutDensity')?.value === 'dense';
+    const isSideOnly = document.getElementById('songbookChordsMode')?.value === 'side_only';
+    const noToc = document.getElementById('songbookIncludeToc')?.checked === false;
+    const noIndexSongs = document.getElementById('songbookIncludeIndexSongs')?.checked === false;
+    const noIndexArtists = document.getElementById('songbookIncludeIndexArtists')?.checked === false;
+    const hasIndexGenres = !!document.getElementById('songbookIncludeIndexGenres')?.checked;
+
+    const modified = isDense || isSideOnly || noToc || noIndexSongs || noIndexArtists || hasIndexGenres;
+    if (modified) {
+        badge.style.display = 'inline-block';
+        badge.textContent = isDense ? 'Wydanie zwarte' : 'Niestandardowe';
+    } else {
+        badge.style.display = 'none';
+    }
+}
+
+['songbookIncludeToc', 'songbookIncludeIndexSongs', 'songbookIncludeIndexArtists', 'songbookIncludeIndexGenres'].forEach(fieldId => {
+    const el = document.getElementById(fieldId);
+    if (el) {
+        el.addEventListener('change', function() {
+            markDirty();
+            updateLayoutSettingsBadge();
+            triggerAutoDraftSave();
+        });
+    }
+});
+
 updateOptionalMetadataUI(false);
+updateLayoutSettingsBadge();
 window.addEventListener('hashchange', checkForUrlSongbook);
+
+window.onLayoutDensityChange = onLayoutDensityChange;
+window.onChordsModeChange = onChordsModeChange;
+window.updateLayoutSettingsBadge = updateLayoutSettingsBadge;
 
 window.updateFinishSummary = updateFinishSummary;
 window.toggleCurrentSongbookPromote = toggleCurrentSongbookPromote;
