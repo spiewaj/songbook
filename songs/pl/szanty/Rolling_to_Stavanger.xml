@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Rolling to Stavanger">
+	<text_author type="solo">Paweł Jędrzejko</text_author>
+	<comment>Angielskojęzyczny utwór a cappella zespołu Banana Boat z albumu „A morze tak, a może nie” (2004).</comment>
+	<composer type="solo">Paweł Jędrzejko</composer>
+	<artist type="band">Banana Boat</artist>
+	<lyric>
+		<block type="chorus">
+			<row important_over="true"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
+			<row important_over="true"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll<ch a="E"/>ing,</row>
+			<row important_over="true"><ch a="A"/>Rolling, rolling to Stavan<ch a="E"/>ger,</row>
+			<row important_over="true"><ch a="A"/>Rolling to Stavanger, <ch a="D"/>roll <ch a="E"/>and <ch a="A"/>go.</row>
+		</block>
+		<block type="verse">
+			<row important_over="true"><ch a="fis"/>Magnetized by mystic lore,</row>
+			<row important_over="true"><ch a="fis"/>Sentinels of stone ashore,</row>
+			<row important_over="true"><ch a="A"/>Guard the entrance to the land of dreams.</row>
+			<row important_over="true"><ch a="fis"/>Wrapped in silent reveries,</row>
+			<row important_over="true"><ch a="fis"/>I am crossing stormy seas,</row>
+			<row important_over="true"><ch a="A"/>Norway calls upon me, all a-gleam.</row>
+			<row important_over="true"><ch a="h"/>I set sail to cross the ocean wide,</row>
+			<row important_over="true"><ch a="h"/>On the salty wave I ride,</row>
+			<row important_over="true"><ch a="A"/>Like mediaeval champions long ago,</row>
+			<row important_over="true"><ch a="h"/>I will never, never turn around,</row>
+			<row important_over="true"><ch a="h"/>Till I find my promised land,</row>
+			<row important_over="true">And I’ll <ch a="fis"/>go <ch a="E"/>on...</row>
+		</block>
+		<blocklink blocknb="1"/>
+		<block type="verse">
+			<row important_over="false"><ch a="fis"/>Through the clouds my Nordic sky,</row>
+			<row important_over="false"><ch a="fis"/>Shining bluest as I fly,</row>
+			<row important_over="false"><ch a="A"/>Over playful crests of silver foam.</row>
+			<row important_over="false"><ch a="fis"/>Ornamental stars above,</row>
+			<row important_over="false"><ch a="fis"/>Lead my way and drive my life,</row>
+			<row important_over="false"><ch a="A"/>Soon I’ll set my eye on rocky shores,</row>
+			<row important_over="false"><ch a="h"/>And the monumental royal fjord,</row>
+			<row important_over="false"><ch a="h"/>Crowned in ice and ermine-robed,</row>
+			<row important_over="false"><ch a="A"/>Opens up its gate to welcome me.</row>
+			<row important_over="false"><ch a="h"/>I will clear the decks and I will see,</row>
+			<row important_over="false"><ch a="h"/>Viking ghosts surrounding me...</row>
+			<row important_over="false">My <ch a="fis"/>rever<ch a="E"/>ie…</row>
+		</block>
+		<blocklink blocknb="1"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Szanty</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/banana-boat</verificator>
+		</verificators>
+	</status>
+</song>

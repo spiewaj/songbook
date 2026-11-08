@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="A morze tak, a może nie">
+	<text_author type="solo">Maciej Jędrzejko</text_author>
+	<comment>Utwór tytułowy z debiutanckiego albumu zespołu Banana Boat wydanego w 2004 roku.</comment>
+	<composer type="solo">Paweł Jędrzejko</composer>
+	<artist type="band">Banana Boat</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true"><ch a="d"/>Znaj swe miejsce, młody żeglarzu,</row>
+			<row important_over="true"><ch a="F"/>Bo twarde karki oc<ch a="C"/>ean gnie.</row>
+			<row important_over="true"><ch a="B"/>Już niejeden <ch a="d"/>mocno się sparzył,</row>
+			<row important_over="true"><ch a="B"/>Może przemożesz, <ch a="C"/>a może <ch a="d"/>nie.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="d"/>A może tak, a może nie?</row>
+			<row important_over="true">Morze faluje zawsze <ch a="d"/>tak jak chce...</row>
+			<row important_over="true">A morze tak, a morze nie,</row>
+			<row important_over="true">W<ch a="B"/>oli nie próbuj mu n<ch a="C"/>arzucić sw<ch a="d"/>ej.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>O wyprawach i władzy marzysz,</row>
+			<row important_over="false"><ch a="F"/>Nieustraszony, pot<ch a="C"/>ężny lew!</row>
+			<row important_over="false"><ch a="B"/>Lecz rozkazy Tw<ch a="d"/>oje podważy</row>
+			<row important_over="false"><ch a="B"/>Morze, co zechce, <ch a="C"/>a może n<ch a="d"/>ie.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Widzisz siebie w sztormie na mostku,</row>
+			<row important_over="false"><ch a="F"/>Choć w koło szał, nie wi<ch a="C"/>esz, co to lęk!</row>
+			<row important_over="false"><ch a="B"/>Bohaterem z krw<ch a="d"/>i być i kości,</row>
+			<row important_over="false"><ch a="B"/>Morze pozwoli – <ch a="C"/>a może ni<ch a="d"/>e…</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Oceany wielkie podbijesz!</row>
+			<row important_over="false"><ch a="F"/>Wielki Twój okręt i wi<ch a="C"/>elki cel!</row>
+			<row important_over="false"><ch a="B"/>Wielkie żagle – sł<ch a="d"/>awa i miłość...</row>
+			<row important_over="false"><ch a="B"/>Morze przeżyjesz – <ch a="C"/>a może ni<ch a="d"/>e?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false"><ch a="d"/>Lorda Jima losy podzielisz,</row>
+			<row important_over="false"><ch a="F"/>Gdy nazbyt hardy dow<ch a="C"/>odzić chcesz.</row>
+			<row important_over="false"><ch a="B"/>Niech doświadczenie Twą skr<ch a="d"/>oń wpierw pobieli,</row>
+			<row important_over="false"><ch a="B"/>W morzu zmądrzejesz – <ch a="C"/>a może ni<ch a="d"/>e?</row>
+		</block>
+		<block type="chorus">
+			<row important_over="false"><ch a="d"/>A może tak, a może nie?</row>
+			<row important_over="false">Dziś w górę kielich, dzisiaj żagle precz!</row>
+			<row important_over="false">A morze tak, a morze nie...</row>
+			<row important_over="false">Ciągle żyj<ch a="B"/>emy – więc a <ch a="C"/>la sant<ch a="d"/>é!</row>
+			<row important_over="never">A może tak!</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Szanty</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://spiewnik.wywrota.pl/banana-boat/a-morze-tak-a-moze-nie</verificator>
+		</verificators>
+	</status>
+</song>

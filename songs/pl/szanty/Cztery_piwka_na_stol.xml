@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Cztery piwka">
+	<alias>Cztery piwka na stół</alias>
+	<text_author type="solo">Jerzy Porębski</text_author>
+	<comment>Klasyczna piosenka żeglarska i brydżowa autorstwa Jerzego Porębskiego, spopularyzowana m.in. przez zespół Stare Dzwony.</comment>
+	<composer type="solo">Jerzy Porębski</composer>
+	<artist type="solo">Jerzy Porębski</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Ze Świn<ch a="g"/>oujścia do Walvis Bay droga nie była kr<ch a="D"/>ótka,</row>
+			<row important_over="true">A po dw<ch a="g"/>óch dobach, albo mniej, już się skończyła w<ch a="D"/>ódka.</row>
+			<row important_over="true">„Do br<ch a="g"/>ydża!” – krzyknął Siwy Flak i z miejsca rzekł: „Dwa p<ch a="D"/>iki”,</row>
+			<row important_over="true">A Ochm<ch a="g"/>istrz w telewizor wlał nie byle jakie s<ch a="D"/>iki.</row>
+		</block>
+		<block type="chorus">
+			<row important_over="true"><ch a="G"/>Cztery piwka na stół, w popieln<ch a="C"/>iczkę pet,</row>
+			<row important_over="true">J<ch a="D"/>akąś damę roześmianą król przyt<ch a="G"/>uli wnet,</row>
+			<row important_over="true">Gdzi<ch a="G"/>eś między palcami s<ch a="G7"/>ennie pł<ch a="C"/>ynie czas,</row>
+			<row important_over="true">Czw<ch a="D"/>arta ręka króla bije <ch a="g"/>as.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A w k<ch a="g"/>arcie tylko jeden as i nic poza tym n<ch a="D"/>ie ma,</row>
+			<row important_over="false">Ale n<ch a="g"/>ie powiem przecież: „Pas”, może zagrają szl<ch a="D"/>ema.</row>
+			<row important_over="false">„K<ch a="g"/>ontra!” – mu rzekłem, taki bluff, by nieco spuścił z t<ch a="D"/>onu,</row>
+			<row important_over="false">A Fr<ch a="g"/>ed mi na to: „Cztery trefl!” przywalił bez pard<ch a="D"/>onu.</row>
+		</block>
+		<blocklink blocknb="2"/>
+		<block type="verse">
+			<row important_over="false">A m<ch a="g"/>ój w dwa palce obtarł nos, to znaczy: nie ma n<ch a="D"/>ic,</row>
+			<row important_over="false">I wt<ch a="g"/>edy Flak, podnosząc głos, powiedział: „Cztery p<ch a="D"/>ik!”.</row>
+			<row important_over="false">I ki<ch a="g"/>edy jeszcze cztery króle pokazał mu jak trz<ch a="D"/>a,</row>
+			<row important_over="false">To Fr<ch a="g"/>ed z renonsem: „Siedem pik” powiedział: „...niech gra Fl<ch a="D"/>ak!”.</row>
+		</block>
+		<blocklink blocknb="2"/>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Szanty</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://bibliotekapiosenki.pl/utwory/Cztery_piwka</verificator>
+		</verificators>
+	</status>
+</song>
