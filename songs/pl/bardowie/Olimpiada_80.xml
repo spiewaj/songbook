@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="Olimpiada 80’">
+	<alias>Olimpiada '80</alias>
+	<text_author type="solo">Leszek Wójtowicz</text_author>
+	<composer type="solo">Leszek Wójtowicz</composer>
+	<artist type="solo">Leszek Wójtowicz</artist>
+	<lyric>
+		<block type="verse">
+			<row important_over="true">Nikt nie wi<ch a="a"/>edział, kiedy wyrusz<ch a="E"/>amy, <ch a="a"/></row>
+			<row important_over="true">Ciężar<ch a="C"/>ówki stały j<ch a="G"/>uż od r<ch a="a"/>ana,</row>
+			<row important_over="true">Papier<ch a="d"/>osy palone w ręk<ch a="a"/>awach,</row>
+			<row important_over="true">W uszach wci<ch a="d"/>ąż dźwięczące słowa kapit<ch a="E"/>ana:</row>
+			<row important_over="false">Kapit<ch a="a"/>ana, pułkownika, gener<ch a="E"/>ałów, <ch a="a"/></row>
+			<row important_over="false">Tylu <ch a="C"/>ich mówiło n<ch a="G"/>am od r<ch a="a"/>oku:</row>
+			<row important_over="false">To zad<ch a="d"/>anie najważniejsze w waszym życi<ch a="a"/>u,</row>
+			<row important_over="false">Tu nie w<ch a="d"/>olno zrobić fałszywego kr<ch a="E"/>oku.</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Terroryśc<ch a="a"/>i i inne swoł<ch a="E"/>ocze <ch a="a"/></row>
+			<row important_over="false">Ostrzą z<ch a="C"/>ęby, by nam tutaj wl<ch a="G"/>eźć w par<ch a="a"/>adę,</row>
+			<row important_over="false">Ale w<ch a="d"/>y świadomi i got<ch a="a"/>owi</row>
+			<row important_over="false">Ochron<ch a="d"/>icie tę największą Olimpi<ch a="E"/>adę.</row>
+			<row important_over="false">I poczul<ch a="a"/>iśmy się nagle bardzo s<ch a="E"/>ilni, <ch a="a"/></row>
+			<row important_over="false">Wzrok nasz tw<ch a="C"/>ardy stał się j<ch a="G"/>ak stalowe sz<ch a="a"/>yny:</row>
+			<row important_over="false">Hej, dow<ch a="d"/>ódco! Kiedy wyrusz<ch a="a"/>amy?</row>
+			<row important_over="false">Zdąż<ch a="d"/>ymy, towarzysze? Zdąż<ch a="E"/>ymy?</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">Aż ruszyl<ch a="a"/>iśmy przez środek mi<ch a="E"/>asta, <ch a="a"/></row>
+			<row important_over="false">Stare d<ch a="C"/>omy nam kłaniały si<ch a="G"/>ę obł<ch a="a"/>udnie,</row>
+			<row important_over="false">Jechal<ch a="d"/>iśmy na zapalonych świ<ch a="a"/>atłach,</row>
+			<row important_over="false">Jak kowb<ch a="d"/>oje, jak w samo poł<ch a="E"/>udnie.</row>
+			<row important_over="false">Blady str<ch a="a"/>ach padł na zamach<ch a="E"/>owców, <ch a="a"/></row>
+			<row important_over="false">Poznik<ch a="C"/>ali jak przy j<ch a="G"/>asności ci<ch a="a"/>enie:</row>
+			<row important_over="false">No, rebi<ch a="d"/>ata, złazić z ciężar<ch a="a"/>ówek,</row>
+			<row important_over="false">Ot<ch a="d"/>aczamy stadion pierści<ch a="E"/>eniem!</row>
+		</block>
+		<block type="verse">
+			<row important_over="false">A gdy ki<ch a="a"/>edyś padnie taki r<ch a="E"/>ozkaz, <ch a="a"/></row>
+			<row important_over="false">Wtedy zi<ch a="C"/>emię kord<ch a="G"/>onem otocz<ch a="a"/>ymy,</row>
+			<row important_over="false">I niech ż<ch a="d"/>adne wrogie siły się nie ł<ch a="a"/>udzą:</row>
+			<row important_over="true">Zdąż<ch a="d"/>ymy, towarzy<ch a="E"/>sze! Zdąż<ch a="a"/>ymy!</row>
+		</block>
+	</lyric>
+	<music metre="4/4">
+		<guitar barre="0"/>
+	</music>
+	<genre>Poezja śpiewana</genre>
+	<status>
+		<done>
+			<text/>
+			<authors/>
+			<chords>chord positioning</chords>
+		</done>
+		<verificators>
+			<verificator>https://youtu.be/XN5mrEQLEqw</verificator>
+			<verificator>https://21wdw.staszic.waw.pl/media/song_books/2023_spiewnik_Norwegia.pdf</verificator>
+		</verificators>
+	</status>
+</song>
