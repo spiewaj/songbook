@@ -1233,9 +1233,9 @@ async function resolveIdCollisionBeforeSave() {
     const candidateId = idEl.value.trim();
     if (!candidateId || !window.FirebaseSongbook) return true;
 
-    if (!/^[a-z0-9_-]+$/.test(candidateId)) {
-        const cleaned = generateIdFromTitle(candidateId) || ('spiewnik_' + Math.random().toString(36).substring(2, 6));
-        if (confirm(`ID śpiewnika może zawierać tylko małe litery bez polskich znaków, cyfry, podkreślenia (_) i myślniki (-).\n\nCzy zmienić ID na „${cleaned}”?`)) {
+    if (!/^[a-zA-Z0-9_-]+(:[a-zA-Z0-9_-]+)?$/.test(candidateId)) {
+        const cleaned = sanitizeSongbookId(candidateId);
+        if (confirm(`ID śpiewnika może zawierać tylko litery bez polskich znaków, cyfry, podkreślenia (_), myślniki (-) oraz opcjonalny dwukropek (:) do grupowania (np. grupa:nazwa).\n\nCzy zmienić ID na „${cleaned}”?`)) {
             idEl.value = cleaned;
             userEditedId = true;
             updateFinishSummary();
@@ -3113,8 +3113,19 @@ function updateMobileCounts(visibleAvailCount) {
     if (stickyCountEl) stickyCountEl.textContent = totalSelected;
 }
 
+function sanitizeSongbookId(rawId) {
+    if (!rawId) return 'spiewnik';
+    if (rawId.includes(':')) {
+        const parts = rawId.split(':');
+        const prefix = generateIdFromTitle(parts[0]) || 'grupa';
+        const suffix = generateIdFromTitle(parts.slice(1).join('_')) || 'spiewnik';
+        return `${prefix}:${suffix}`;
+    }
+    return generateIdFromTitle(rawId) || 'spiewnik';
+}
+
 async function findNextAvailableSongbookId(baseId) {
-    const cleanBase = generateIdFromTitle(baseId) || 'spiewnik';
+    const cleanBase = sanitizeSongbookId(baseId);
     for (let i = 2; i <= 20; i++) {
         const candidate = `${cleanBase}_${i}`;
         try {
@@ -3153,7 +3164,7 @@ function scheduleIdAvailabilityCheck() {
     if (help) {
         help.textContent = val
             ? `Adres śpiewnika po zapisie: https://spiewaj.com/#${val}`
-            : 'Adres generuje się automatycznie z tytułu (możesz go też wpisać własnoręcznie).';
+            : 'Adres generuje się automatycznie z tytułu (możesz go też wpisać własnoręcznie, np. wdw21:2023).';
     }
 
     if (!val) {
@@ -3161,13 +3172,13 @@ function scheduleIdAvailabilityCheck() {
         return;
     }
 
-    if (!/^[a-z0-9_-]+$/.test(val)) {
-        const cleaned = generateIdFromTitle(val) || 'spiewnik';
+    if (!/^[a-zA-Z0-9_-]+(:[a-zA-Z0-9_-]+)?$/.test(val)) {
+        const cleaned = sanitizeSongbookId(val);
         if (availBox) {
             availBox.className = 'id-availability-status invalid';
             availBox.style.display = 'flex';
             availBox.innerHTML = `
-                <span>⚠️ Dozwolone są tylko małe litery bez polskich znaków, cyfry, <code>_</code> i <code>-</code>.</span>
+                <span>⚠️ Dozwolone są litery bez polskich znaków, cyfry, <code>_</code>, <code>-</code> oraz opcjonalny dwukropek <code>:</code> (np. <code>wdw21:2023</code>).</span>
                 <button type="button" class="btn btn-sm btn-outline" onclick="applySuggestedSongbookId('${escapeHTML(cleaned)}')">Użyj „${escapeHTML(cleaned)}”</button>
             `;
         }
