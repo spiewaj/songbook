@@ -1,37 +1,50 @@
 import {newUserOctokit, htmlPrefix, htmlSuffix, HandleError, GITHUB_OWNER, EDITOR_DOMAIN} from './common.js'
+import {SONGEDITOR_BRANCH_REGEXP, shouldDeleteBranch} from './naming.js'
 import util from "util";
 
-const SONGEDITOR_BRANCH_REGEXP=/^se-.*/g;
-
 export async function cleanupChanges(req, res) {
-    const refsData = await getRefs(req, res);
-    if (!refsData) {
-        return;
-    }
-    const {refs, diffs, user, octokit} = refsData;
-    // Let's delete empty & merged branches.
-    for (let i = 0; i < refs.length; ++i) {
-        let branch = refs[i];
-        if (branch.name.match(SONGEDITOR_BRANCH_REGEXP)) {
-            const diff = await diffs.get(branch.name);
-            if (diff.data.files.length === 0) {
-                octokit.rest.git.deleteRef({owner: user, repo: 'songbook', "ref": "heads/" + branch.name}).then();
+    try {
+        const refsData = await getRefs(req, res);
+        if (!refsData) {
+            return;
+        }
+        const {refs, diffs, user, octokit} = refsData;
+        const deletePromises = [];
+        let deletedCount = 0;
+
+        for (let i = 0; i < refs.length; ++i) {
+            let branch = refs[i];
+            if (!branch.name.match(SONGEDITOR_BRANCH_REGEXP)) {
                 continue;
             }
-            if (branch.associatedPullRequests.edges.length > 0) {
-                let merged = true;
-                for (const edge of branch.associatedPullRequests.edges) {
-                    if (!edge.node.closed || !edge.node.merged) {
-                        merged = false;
-                    }
-                }
-                if (merged) {
-                    octokit.rest.git.deleteRef({owner: user, repo: 'songbook', "ref": "heads/" + branch.name}).then();
-                }
+
+            let diff = null;
+            try {
+                diff = await diffs.get(branch.name);
+            } catch (e) {
+                console.log(`Failed to fetch diff for ${branch.name}:`, e.message);
+            }
+
+            if (shouldDeleteBranch(branch, diff)) {
+                deletePromises.push(
+                    octokit.rest.git.deleteRef({
+                        owner: user,
+                        repo: 'songbook',
+                        ref: "heads/" + branch.name
+                    }).then(() => {
+                        deletedCount++;
+                    }).catch(e => {
+                        console.error(`Failed to delete branch ${branch.name} for ${user}:`, e.message);
+                    })
+                );
             }
         }
+
+        await Promise.all(deletePromises);
+        res.redirect(`/users/${user}/changes?cleaned=${deletedCount}`);
+    } catch (e) {
+        HandleError(e, res);
     }
-    res.redirect(`/users/${user}/changes`);
 }
 
 async function getRefs(req, res) {
@@ -139,13 +152,13 @@ export async function listChanges(req, res) {
         }
         const {refs, diffs, user, r} = refsData;
 
-        // Collect all valid branches that have file diffs
+        // Collect all valid branches that have file diffs and commits ahead of main
         const validChanges = [];
         for (let i = 0; i < refs.length; ++i) {
             let branch = refs[i];
             if (branch.name.match(SONGEDITOR_BRANCH_REGEXP)) {
                 const diff = await diffs.get(branch.name);
-                if (diff && diff.data.files && diff.data.files.length >= 1) {
+                if (diff && diff.data.files && diff.data.files.length >= 1 && diff.data.ahead_by > 0) {
                     validChanges.push({ branch, diff });
                 }
             }
@@ -166,6 +179,26 @@ export async function listChanges(req, res) {
         </div>
       </div>
 `);
+
+        const cleanedCount = req.query.cleaned;
+        if (cleanedCount !== undefined) {
+            const countNum = parseInt(cleanedCount, 10);
+            if (countNum > 0) {
+                res.write(`
+      <div class="alert alert-success">
+        <i class="material-icons">check_circle</i>
+        <span>Pomyślnie wyczyszczono ${countNum} ${countNum === 1 ? 'starą gałąź roboczą' : (countNum < 5 ? 'stare gałęzie robocze' : 'starych gałęzi roboczych')}.</span>
+      </div>
+`);
+            } else {
+                res.write(`
+      <div class="alert alert-info">
+        <i class="material-icons">info</i>
+        <span>Wszystkie gałęzie są aktualne – brak starych edycji do usunięcia.</span>
+      </div>
+`);
+            }
+        }
 
         if (validChanges.length === 0) {
             res.write(`
@@ -223,7 +256,13 @@ export async function listChanges(req, res) {
                 res.write(`              <td>\n`);
                 if (branch.associatedPullRequests && branch.associatedPullRequests.edges && branch.associatedPullRequests.edges.length > 0) {
                     const pr = branch.associatedPullRequests.edges[0].node;
-                    res.write(`                <a class="badge badge-pr" href="${pr.url}" target="_blank" rel="noopener"><i class="material-icons">merge_type</i> PR #${pr.number} (W recenzji)</a>\n`);
+                    if (pr.merged) {
+                        res.write(`                <a class="badge badge-merged" href="${pr.url}" target="_blank" rel="noopener"><i class="material-icons">done_all</i> PR #${pr.number} (Scalony)</a>\n`);
+                    } else if (pr.closed) {
+                        res.write(`                <a class="badge badge-closed" href="${pr.url}" target="_blank" rel="noopener"><i class="material-icons">close</i> PR #${pr.number} (Zamknięty)</a>\n`);
+                    } else {
+                        res.write(`                <a class="badge badge-pr" href="${pr.url}" target="_blank" rel="noopener"><i class="material-icons">merge_type</i> PR #${pr.number} (W recenzji)</a>\n`);
+                    }
                 } else {
                     res.write(`                <a class="btn btn-sm btn-success" href="/users/${user}/changes/${branch.name}:publish"><i class="material-icons">publish</i> Zgłoś do recenzji</a>\n`);
                 }
