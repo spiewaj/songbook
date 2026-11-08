@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<song xmlns="http://21wdh.staszic.waw.pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://21wdh.staszic.waw.pl https://spiewaj.com/song.xsd" title="foo bar foo">
+  <lyric>
+    <block type="verse">
+      <row important_over="true"><ch a="D"/>Herbata stygn<ch a="G"/>ie zapa<ch a="A"/>da mrok</row>
+      <row important_over="true">A p<ch a="D"/>od piór<ch a="G"/>em ciąg<ch a="A"/>le nic</row>
+      <row important_over="false">Ob<ch a="D"/>owiązek ob<ch a="G"/>owiązkie<ch a="A"/>m jest</row>
+      <row important_over="false">Piosenka musi p<ch a="D"/>osiadać teks<ch a="A"/>t <ch a="G"/></row>
+    </block>
+  </lyric>
+  <keywords/>
+  <status>
+    <done/>
+    <verificators/>
+  </status>
+</song>
