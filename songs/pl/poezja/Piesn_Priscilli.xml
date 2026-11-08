@@ -24,24 +24,14 @@
 			<row important_over="false">Przez gn<ch a="d"/>iew i smutek, stwardni<ch a="g"/>ałe w kamień,</row>
 			<row important_over="false">Rozp<ch a="B"/>alę usta smag<ch a="A"/>ane wi<ch a="d"/>atrem.</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Z m<ch a="d"/>oich snów uci<ch a="C"/>ekasz nad r<ch a="F"/>anem,</row>
-			<row important_over="false">Ci<ch a="g"/>erpka jak agrest, sł<ch a="A"/>odka jak bez.</row>
-			<row important_over="false">Chcę śn<ch a="d"/>ić czarne l<ch a="C"/>oki spląt<ch a="F"/>ane,</row>
-			<row important_over="false">Fiołk<ch a="g"/>owe oczy m<ch a="A"/>okre od ł<ch a="d"/>ez.</row>
-		</block>
+		<blocklink blocknb="2"/>
 		<block type="verse">
 			<row important_over="false">Nie wi<ch a="d"/>em, czy jesteś moim przezn<ch a="g"/>aczeniem,</row>
 			<row important_over="false">Czy prz<ch a="B"/>ez ślepy traf mił<ch a="A"/>ość nas związała.</row>
 			<row important_over="false">Ki<ch a="d"/>edy wyrzekłem m<ch a="g"/>oje życzenie,</row>
 			<row important_over="false">Czyś mni<ch a="B"/>e wbrew sobie wt<ch a="A"/>edy pokoch<ch a="d"/>ała?</row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Z m<ch a="d"/>oich snów uci<ch a="C"/>ekasz nad r<ch a="F"/>anem,</row>
-			<row important_over="false">Ci<ch a="g"/>erpka jak agrest, sł<ch a="A"/>odka jak bez.</row>
-			<row important_over="false">Chcę śn<ch a="d"/>ić czarne l<ch a="C"/>oki spląt<ch a="F"/>ane,</row>
-			<row important_over="false">Fiołk<ch a="g"/>owe oczy m<ch a="A"/>okre od ł<ch a="d"/>ez.</row>
-		</block>
+		<blocklink blocknb="2"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>

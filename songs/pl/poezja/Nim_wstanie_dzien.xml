@@ -43,14 +43,7 @@
 			<row important_over="false">zn<ch a="a"/>ów wspominamy t<ch a="G"/>en podły cz<ch a="a"/>as,</row>
 			<row important_over="false">p<ch a="G"/>orę b<ch a="C"/>urz.<ch a="E"/></row>
 		</block>
-		<block type="chorus">
-			<row important_over="false">Za dzi<ch a="a"/>eń, za dw<ch a="d"/>a,</row>
-			<row important_over="false">za n<ch a="G"/>oc, za trz<ch a="C"/>y,</row>
-			<row important_over="false">choć ni<ch a="E"/>e dz<ch a="a"/>iś,</row>
-			<row important_over="false">za n<ch a="a"/>oc, za dzi<ch a="d"/>eń,</row>
-			<row important_over="false">docz<ch a="G"/>ekasz si<ch a="C"/>ę,</row>
-			<row important_over="false">wst<ch a="E"/>anie św<ch a="a"/>it.</row>
-		</block>
+		<blocklink blocknb="4"/>
 	</lyric>
 	<music metre="4/4">
 		<guitar barre="0"/>
