@@ -5,8 +5,8 @@
 const KNOWN_GROUPS = {
     'wdw21': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
     '21wdw': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
-    '53wdh': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
-    '53wdhiz': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
+    '53wdh': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'camping' },
+    '53wdhiz': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'camping' },
     'dino': { name: 'Dinozaury', icon: 'history_edu' },
     'spiewnik_lupienicki': { name: 'Śpiewnik Łupienicki', icon: 'music_note' },
 };
@@ -107,6 +107,7 @@ describe('Songbook Namespaces and Groups', () => {
         expect(modern.key).toBe('53wdh');
         expect(legacy.name).toBe('53. WDH „Bajkowe Skrzaty”');
         expect(modern.name).toBe('53. WDH „Bajkowe Skrzaty”');
+        expect(legacy.icon).toBe('camping');
     });
 
     test('handles custom arbitrary namespace', () => {
@@ -163,3 +164,4 @@ describe('Songbook Namespaces and Groups', () => {
         expect(sanitizeSongbookId('ZHR Łódź:Wędrówki')).toBe('zhr_lodz:wedrowki');
     });
 });
+
