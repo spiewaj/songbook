@@ -331,6 +331,122 @@
             color: #adb5bd;
         }
 
+        .sb-btn-star {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+            transition: all 0.2s ease;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+
+        .sb-btn-star:hover {
+            background: rgba(245, 158, 11, 0.12);
+            color: #f59e0b;
+            transform: scale(1.15);
+        }
+
+        .sb-btn-star.starred {
+            color: #f59e0b !important;
+        }
+
+        .sb-btn-star.starred span {
+            font-variation-settings: 'FILL' 1;
+        }
+
+        [data-theme="dark"] .sb-btn-star {
+            color: #6b7280;
+        }
+
+        [data-theme="dark"] .sb-btn-star:hover {
+            color: #fbbf24;
+            background: rgba(251, 191, 36, 0.15);
+        }
+
+        [data-theme="dark"] .sb-btn-star.starred {
+            color: #fbbf24 !important;
+        }
+
+        .sb-main-section {
+            margin-bottom: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .sb-main-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e9ecef;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        [data-theme="dark"] .sb-main-section-header {
+            border-bottom-color: #343a40;
+        }
+
+        .sb-main-section-title {
+            margin: 0;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #212529;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        [data-theme="dark"] .sb-main-section-title {
+            color: #f8f9fa;
+        }
+
+        .sb-section-badge {
+            background-color: #e9ecef;
+            color: #495057;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 2px 9px;
+            border-radius: 12px;
+        }
+
+        [data-theme="dark"] .sb-section-badge {
+            background-color: #343a40;
+            color: #adb5bd;
+        }
+
+        .sb-user-callout {
+            background: #f8f9fa;
+            border: 1px dashed #ced4da;
+            border-radius: 8px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        [data-theme="dark"] .sb-user-callout {
+            background: #212529;
+            border-color: #343a40;
+        }
+
+        .sb-user-callout strong {
+            color: #212529;
+        }
+
+        [data-theme="dark"] .sb-user-callout strong {
+            color: #f8f9fa;
+        }
+
         .sb-card {
             background-color: #ffffff;
             border: 1px solid #e9ecef;
@@ -1098,8 +1214,12 @@
 
         <div class="sb-tabs-row" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
             <div class="sb-tabs">
-                <button class="sb-tab active" id="tabPublic" onclick="switchCatalogTab('public')">
-                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">public</span> Wszystkie publiczne
+                <button class="sb-tab active" id="tabAll" onclick="switchCatalogTab('all')">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">dashboard</span> Wszystkie
+                </button>
+                <button class="sb-tab" id="tabStarred" onclick="switchCatalogTab('starred')">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem; color: #f59e0b;">star</span> Ulubione
+                    <span id="starredCountBadge" class="sb-tab-badge" style="display: none; background: #f59e0b; color: #fff;">0</span>
                 </button>
                 <button class="sb-tab" id="tabMine" onclick="switchCatalogTab('mine')">
                     <span class="material-symbols-outlined" style="font-size: 1.1rem;">folder_shared</span> Moje śpiewniki
@@ -1180,7 +1300,92 @@
         let allSongbooks = [];
         let mySongbooks = [];
         let currentUser = null;
-        let activeTab = 'public';
+        let activeTab = 'all';
+        const STARRED_STORAGE_KEY = 'starred_songbooks';
+        let starredSongbookIdsSet = loadStarredFromLocalStorage();
+
+        function loadStarredFromLocalStorage() {
+            try {
+                const raw = localStorage.getItem(STARRED_STORAGE_KEY);
+                if (raw) {
+                    const arr = JSON.parse(raw);
+                    if (Array.isArray(arr)) {
+                        return new Set(arr);
+                    }
+                }
+            } catch (e) {
+                console.warn('Could not read starred songbooks from localStorage:', e);
+            }
+            return new Set();
+        }
+
+        function saveStarredToLocalStorage() {
+            try {
+                localStorage.setItem(STARRED_STORAGE_KEY, JSON.stringify(Array.from(starredSongbookIdsSet)));
+            } catch (e) {
+                console.warn('Could not save starred songbooks to localStorage:', e);
+            }
+        }
+
+        async function syncStarredWithCloud(user) {
+            if (!user || !window.FirebaseSongbook || !window.FirebaseSongbook.fetchUserStarredSongbooks) return;
+            try {
+                const cloudStarred = await window.FirebaseSongbook.fetchUserStarredSongbooks(user.uid);
+                let changed = false;
+                if (Array.isArray(cloudStarred) && cloudStarred.length > 0) {
+                    cloudStarred.forEach(id => {
+                        if (!starredSongbookIdsSet.has(id)) {
+                            starredSongbookIdsSet.add(id);
+                            changed = true;
+                        }
+                    });
+                }
+                if (starredSongbookIdsSet.size > 0 && window.FirebaseSongbook.saveUserStarredSongbooks) {
+                    await window.FirebaseSongbook.saveUserStarredSongbooks(user.uid, Array.from(starredSongbookIdsSet));
+                }
+                if (changed) {
+                    saveStarredToLocalStorage();
+                }
+            } catch (e) {
+                console.warn("Could not sync starred songbooks with cloud:", e);
+            }
+        }
+
+        async function toggleStarSongbook(event, songbookId) {
+            if (event) {
+                event.stopPropagation();
+                event.preventDefault();
+            }
+            if (!songbookId) return;
+
+            const isCurrentlyStarred = starredSongbookIdsSet.has(songbookId);
+            if (isCurrentlyStarred) {
+                starredSongbookIdsSet.delete(songbookId);
+            } else {
+                starredSongbookIdsSet.add(songbookId);
+            }
+
+            saveStarredToLocalStorage();
+            updateStarredBadge();
+
+            if (currentUser && window.FirebaseSongbook && window.FirebaseSongbook.saveUserStarredSongbooks) {
+                window.FirebaseSongbook.saveUserStarredSongbooks(currentUser.uid, Array.from(starredSongbookIdsSet));
+            }
+
+            renderCurrentTab();
+        }
+
+        function updateStarredBadge() {
+            const badge = document.getElementById('starredCountBadge');
+            if (!badge) return;
+            const count = starredSongbookIdsSet.size;
+            if (count > 0) {
+                badge.textContent = count;
+                badge.style.display = 'inline-block';
+            } else {
+                badge.style.display = 'none';
+            }
+        }
 
         function isCurrentUserOwner(sb, user) {
             if (!user || !sb) return false;
@@ -1201,6 +1406,8 @@
             const loading = document.getElementById('loadingIndicator');
             const errorEl = document.getElementById('errorMessage');
             const errorText = document.getElementById('errorText');
+
+            updateStarredBadge();
 
             // Wait for FirebaseSongbook module
             let attempts = 0;
@@ -1223,14 +1430,16 @@
                 if (user) {
                     await loadMySongbooks();
                     await checkPendingInvites();
+                    await syncStarredWithCloud(user);
                 } else {
                     mySongbooks = [];
                     updateMySongbooksBadge();
                     hidePendingInvitesBanner();
                     if (activeTab === 'mine') {
-                        switchCatalogTab('public');
+                        switchCatalogTab('all');
                     }
                 }
+                updateStarredBadge();
                 renderCurrentTab();
             });
 
@@ -1414,9 +1623,11 @@
             }
 
             activeTab = tab;
-            const tabPub = document.getElementById('tabPublic');
+            const tabAll = document.getElementById('tabAll');
+            const tabStarred = document.getElementById('tabStarred');
             const tabMine = document.getElementById('tabMine');
-            if (tabPub) tabPub.className = 'sb-tab' + (tab === 'public' ? ' active' : '');
+            if (tabAll) tabAll.className = 'sb-tab' + (tab === 'all' ? ' active' : '');
+            if (tabStarred) tabStarred.className = 'sb-tab' + (tab === 'starred' ? ' active' : '');
             if (tabMine) tabMine.className = 'sb-tab' + (tab === 'mine' ? ' active' : '');
 
             const searchInput = document.getElementById('songbookSearch');
@@ -1425,15 +1636,11 @@
             renderCurrentTab();
         }
 
-        function getCurrentList() {
-            return activeTab === 'mine' ? mySongbooks : allSongbooks;
-        }
-
         const KNOWN_GROUPS = {
             'wdw21': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
             '21wdw': { name: '21. WDW „Stare Żbiki”', icon: 'forest' },
-            '53wdh': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
-            '53wdhiz': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'campground' },
+            '53wdh': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'camping' },
+            '53wdhiz': { name: '53. WDH „Bajkowe Skrzaty”', icon: 'camping' },
             'dino': { name: 'Dinozaury', icon: 'history_edu' },
             'spiewnik_lupienicki': { name: 'Śpiewnik Łupienicki', icon: 'music_note' },
         };
@@ -1480,9 +1687,40 @@
             return `${count} śpiewników`;
         }
 
+        function getUserNamespaceKeys() {
+            const keys = new Set();
+            if (!currentUser) return keys;
+
+            mySongbooks.forEach(sb => {
+                const info = getSongbookGroupInfo(sb);
+                if (info && info.key) {
+                    keys.add(info.key);
+                }
+            });
+
+            allSongbooks.forEach(sb => {
+                if (isCurrentUserOwner(sb, currentUser)) {
+                    const info = getSongbookGroupInfo(sb);
+                    if (info && info.key) {
+                        keys.add(info.key);
+                    }
+                }
+            });
+
+            return keys;
+        }
+
+        function isMyOrNamespaceSongbook(sb, userNamespaceKeys) {
+            if (!currentUser || !sb) return false;
+            if (isCurrentUserOwner(sb, currentUser)) return true;
+            const info = getSongbookGroupInfo(sb);
+            if (info && userNamespaceKeys && userNamespaceKeys.has(info.key)) return true;
+            return false;
+        }
+
         function renderCurrentTab() {
-            const list = getCurrentList();
-            renderSongbooks(list);
+            const query = (document.getElementById('songbookSearch')?.value || '').trim();
+            renderSongbooks(query, false);
         }
 
         function renderSongbookCard(sb, isAdmin) {
@@ -1508,6 +1746,7 @@
             const isOwner = isCurrentUserOwner(sb, currentUser);
             const canManage = isOwner || isAdmin;
             const isPromoted = !!sb.isPromoted;
+            const isStarred = starredSongbookIdsSet.has(sb.id);
             const coverUrl = sb.imageUrl || (sb.image && sb.image.url) || '';
 
             return `
@@ -1524,6 +1763,9 @@
                                 <h2 class="sb-card-title">${escapeHtml(sb.title || sb.id)}</h2>
                                 ${sb.subtitle ? `<p class="sb-card-subtitle">${escapeHtml(sb.subtitle)}</p>` : ''}
                             </div>
+                            <button type="button" class="sb-btn-star ${isStarred ? 'starred' : ''}" onclick="toggleStarSongbook(event, '${escapeHtml(sb.id)}')" title="${isStarred ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}" aria-label="${isStarred ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}">
+                                <span class="material-symbols-outlined">${isStarred ? 'star' : 'star_border'}</span>
+                            </button>
                         </div>
 
                         <div class="sb-card-meta">
@@ -1631,38 +1873,10 @@
             `;
         }
 
-        function renderSongbooks(list, forceOpen = false) {
-            const grid = document.getElementById('songbooksGrid');
-            const emptyEl = document.getElementById('emptyIndicator');
-            const emptyTitle = document.getElementById('emptyTitle');
-            const emptyDesc = document.getElementById('emptyDesc');
-
-            if (!list || list.length === 0) {
-                if (emptyTitle && emptyDesc) {
-                    const query = (document.getElementById('songbookSearch')?.value || '').trim();
-                    if (query) {
-                        emptyTitle.textContent = "Brak wyników wyszukiwania";
-                        emptyDesc.textContent = `Nie znaleziono śpiewników pasujących do frazy „${escapeHtml(query)}”.`;
-                    } else if (activeTab === 'mine') {
-                        emptyTitle.textContent = "Brak Twoich śpiewników w chmurze";
-                        emptyDesc.textContent = "Nie masz jeszcze zapisanych śpiewników. Stwórz nowy śpiewnik i zapisz go jako szkic lub opublikuj!";
-                    } else {
-                        emptyTitle.textContent = "Brak publicznych śpiewników";
-                        emptyDesc.textContent = "Nie znaleziono jeszcze żadnych publicznych śpiewników. Bądź pierwszym, który opublikuje swój śpiewnik!";
-                    }
-                }
-                emptyEl.style.display = 'block';
-                grid.style.display = 'none';
-                return;
-            }
-
-            emptyEl.style.display = 'none';
-            grid.style.display = 'flex';
-
+        function renderGroupedSongbooks(list, forceOpen = false, sectionIdPrefix = 'group') {
+            if (!list || list.length === 0) return '';
             const isAdmin = isCurrentUserAdmin(currentUser);
 
-            // Grouping logic:
-            // Partition list into groups and ungrouped items
             const groupsMap = new Map();
             const ungrouped = [];
 
@@ -1692,21 +1906,16 @@
                 return bDate - aDate;
             };
 
-            // Sort items within each group and within ungrouped
             for (const grp of groupsMap.values()) {
                 grp.items.sort(sortFn);
             }
             ungrouped.sort(sortFn);
 
             const hasGroups = groupsMap.size > 0;
-
             if (!hasGroups) {
-                // If no groups exist, render simple flat grid
-                grid.innerHTML = `<div class="songbooks-grid">${ungrouped.map(sb => renderSongbookCard(sb, isAdmin)).join('')}</div>`;
-                return;
+                return `<div class="songbooks-grid">${ungrouped.map(sb => renderSongbookCard(sb, isAdmin)).join('')}</div>`;
             }
 
-            // Sort groups: groups with promoted items first, then by most recent item update
             const sortedGroups = Array.from(groupsMap.values()).sort((gA, gB) => {
                 const aProm = gA.items.some(s => s.isPromoted) ? 1 : 0;
                 const bProm = gB.items.some(s => s.isPromoted) ? 1 : 0;
@@ -1717,13 +1926,11 @@
             });
 
             let html = '';
-
-            // Render group sections
             for (const grp of sortedGroups) {
                 const count = grp.items.length;
                 const badgeText = getSongbookCountLabel(count);
                 html += `
-                    <details class="sb-group-section" id="group-${escapeHtml(grp.key)}" data-group-key="${escapeHtml(grp.key)}" ${forceOpen ? 'open' : 'open'}>
+                    <details class="sb-group-section" id="${sectionIdPrefix}-${escapeHtml(grp.key)}" data-group-key="${escapeHtml(grp.key)}" open>
                         <summary class="sb-group-header">
                             <div class="sb-group-title-box">
                                 <span class="material-symbols-outlined sb-group-icon">${escapeHtml(grp.icon)}</span>
@@ -1741,16 +1948,15 @@
                 `;
             }
 
-            // Render ungrouped section if any
             if (ungrouped.length > 0) {
                 const count = ungrouped.length;
                 const badgeText = getSongbookCountLabel(count);
                 html += `
-                    <details class="sb-group-section" id="group-other" data-group-key="other" ${forceOpen ? 'open' : 'open'}>
+                    <details class="sb-group-section" id="${sectionIdPrefix}-other" data-group-key="other" open>
                         <summary class="sb-group-header">
                             <div class="sb-group-title-box">
                                 <span class="material-symbols-outlined sb-group-icon">auto_stories</span>
-                                <span>Pozostałe śpiewniki</span>
+                                <span>${sectionIdPrefix === 'my' ? 'Własne śpiewniki' : 'Pozostałe śpiewniki'}</span>
                                 <span class="sb-group-badge">${escapeHtml(badgeText)}</span>
                             </div>
                             <span class="material-symbols-outlined sb-group-caret">expand_more</span>
@@ -1764,6 +1970,186 @@
                 `;
             }
 
+            return html;
+        }
+
+        function renderSongbooks(filterQuery = '', forceOpen = false) {
+            const grid = document.getElementById('songbooksGrid');
+            const emptyEl = document.getElementById('emptyIndicator');
+            const emptyTitle = document.getElementById('emptyTitle');
+            const emptyDesc = document.getElementById('emptyDesc');
+
+            const query = (typeof filterQuery === 'string' ? filterQuery : (document.getElementById('songbookSearch')?.value || '')).toLowerCase().trim();
+            const isAdmin = isCurrentUserAdmin(currentUser);
+
+            // Compute user namespaces
+            const userNamespaceKeys = getUserNamespaceKeys();
+
+            // Build map of all known songbooks
+            const knownSongbooksMap = new Map();
+            allSongbooks.forEach(sb => knownSongbooksMap.set(sb.id, sb));
+            mySongbooks.forEach(sb => knownSongbooksMap.set(sb.id, sb));
+
+            // 1. Starred list: all starred songbooks
+            let starredList = Array.from(starredSongbookIdsSet)
+                .map(id => knownSongbooksMap.get(id))
+                .filter(Boolean);
+
+            // 2. My section list: owned by user OR in user's namespaces
+            const myMap = new Map();
+            mySongbooks.forEach(sb => myMap.set(sb.id, sb));
+            allSongbooks.forEach(sb => {
+                if (isMyOrNamespaceSongbook(sb, userNamespaceKeys)) {
+                    if (!myMap.has(sb.id)) {
+                        myMap.set(sb.id, sb);
+                    }
+                }
+            });
+            let mySectionList = Array.from(myMap.values());
+
+            // 3. Other section list: all public songbooks not in mySectionList
+            let otherSectionList = allSongbooks.filter(sb => !myMap.has(sb.id));
+
+            // Update badges
+            const starredBadge = document.getElementById('starredCountBadge');
+            if (starredBadge) {
+                starredBadge.textContent = starredSongbookIdsSet.size;
+                starredBadge.style.display = starredSongbookIdsSet.size > 0 ? 'inline-block' : 'none';
+            }
+            const myBadge = document.getElementById('mySongbooksCountBadge');
+            if (myBadge) {
+                myBadge.textContent = mySectionList.length;
+                myBadge.style.display = (currentUser && mySectionList.length > 0) ? 'inline-block' : 'none';
+            }
+
+            // Filter by search query
+            const matchesQuery = (sb) => {
+                if (!query) return true;
+                const title = (sb.title || '').toLowerCase();
+                const subtitle = (sb.subtitle || '').toLowerCase();
+                const id = (sb.id || '').toLowerCase();
+                const members = sb.members || {};
+                const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
+                const author = ((creator && (creator.displayName || creator.email)) || sb.author || '').toLowerCase();
+                const groupInfo = getSongbookGroupInfo(sb);
+                const groupName = (groupInfo ? groupInfo.name : '').toLowerCase();
+                const groupKey = (groupInfo ? groupInfo.key : '').toLowerCase();
+                return title.includes(query) || subtitle.includes(query) || id.includes(query) || author.includes(query) || groupName.includes(query) || groupKey.includes(query);
+            };
+
+            if (query) {
+                starredList = starredList.filter(matchesQuery);
+                mySectionList = mySectionList.filter(matchesQuery);
+                otherSectionList = otherSectionList.filter(matchesQuery);
+            }
+
+            // Determine overall visibility
+            const visibleCount = (activeTab === 'starred' ? starredList.length :
+                                 (activeTab === 'mine' ? mySectionList.length :
+                                  (starredList.length + mySectionList.length + otherSectionList.length)));
+
+            if (visibleCount === 0 && (query || activeTab !== 'all')) {
+                if (emptyTitle && emptyDesc) {
+                    if (query) {
+                        emptyTitle.textContent = "Brak wyników wyszukiwania";
+                        emptyDesc.textContent = `Nie znaleziono śpiewników pasujących do frazy „${escapeHtml(query)}”.`;
+                    } else if (activeTab === 'starred') {
+                        emptyTitle.textContent = "Brak ulubionych śpiewników";
+                        emptyDesc.textContent = "Nie masz jeszcze dodanych ulubionych śpiewników. Kliknij ikonę gwiazdki (⭐) na karcie dowolnego śpiewnika, aby dodać go tutaj.";
+                    } else if (activeTab === 'mine') {
+                        emptyTitle.textContent = "Brak Twoich śpiewników";
+                        emptyDesc.textContent = "Nie masz jeszcze zapisanych śpiewników. Stwórz nowy śpiewnik i zapisz go jako szkic lub opublikuj!";
+                    }
+                }
+                emptyEl.style.display = 'block';
+                grid.style.display = 'none';
+                return;
+            }
+
+            emptyEl.style.display = 'none';
+            grid.style.display = 'flex';
+
+            let html = '';
+
+            // SECTION 1: Starred songbooks (by me)
+            if (activeTab === 'all' || activeTab === 'starred') {
+                if (starredList.length > 0) {
+                    html += `
+                        <section class="sb-main-section" id="sectionStarred">
+                            <div class="sb-main-section-header">
+                                <h2 class="sb-main-section-title">
+                                    <span class="material-symbols-outlined" style="color: #f59e0b; font-variation-settings: 'FILL' 1;">star</span>
+                                    <span>Ulubione śpiewniki</span>
+                                    <span class="sb-section-badge">${starredList.length}</span>
+                                </h2>
+                            </div>
+                            <div class="songbooks-grid">
+                                ${starredList.map(sb => renderSongbookCard(sb, isAdmin)).join('')}
+                            </div>
+                        </section>
+                    `;
+                }
+            }
+
+            // SECTION 2: My songbooks (including my namespaces songbooks)
+            if (activeTab === 'all' || activeTab === 'mine') {
+                if (currentUser || mySectionList.length > 0) {
+                    html += `
+                        <section class="sb-main-section" id="sectionMine">
+                            <div class="sb-main-section-header">
+                                <h2 class="sb-main-section-title">
+                                    <span class="material-symbols-outlined" style="color: #2e7d32;">folder_shared</span>
+                                    <span>Moje śpiewniki i środowiska</span>
+                                    <span class="sb-section-badge">${mySectionList.length}</span>
+                                </h2>
+                            </div>
+                            ${mySectionList.length > 0
+                                ? renderGroupedSongbooks(mySectionList, forceOpen, 'my')
+                                : `<p style="color: #6c757d; margin: 0 0 10px 0;">Nie masz jeszcze zapisanych śpiewników. Kliknij „Dodaj śpiewnik”, aby stworzyć swój pierwszy śpiewnik.</p>`
+                            }
+                        </section>
+                    `;
+                } else if (activeTab === 'all' && !query) {
+                    html += `
+                        <section class="sb-main-section" id="sectionMinePrompt">
+                            <div class="sb-user-callout">
+                                <div style="display: flex; align-items: center; gap: 14px;">
+                                    <span class="material-symbols-outlined" style="font-size: 2rem; color: #2e7d32;">account_circle</span>
+                                    <div>
+                                        <strong>Zaloguj się, aby tworzyć i gromadzić własne śpiewniki</strong>
+                                        <p style="margin: 3px 0 0 0; color: #6c757d; font-size: 0.9rem;">
+                                            Po zalogowaniu znajdziesz tutaj swoje śpiewniki oraz śpiewniki Twojej drużyny lub szczepu.
+                                        </p>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn-create-sb" onclick="loginCatalog()" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">login</span>
+                                    Zaloguj przez Google
+                                </button>
+                            </div>
+                        </section>
+                    `;
+                }
+            }
+
+            // SECTION 3: Other songbooks
+            if (activeTab === 'all') {
+                if (otherSectionList.length > 0) {
+                    html += `
+                        <section class="sb-main-section" id="sectionOther">
+                            <div class="sb-main-section-header">
+                                <h2 class="sb-main-section-title">
+                                    <span class="material-symbols-outlined" style="color: #0284c7;">public</span>
+                                    <span>Pozostałe śpiewniki</span>
+                                    <span class="sb-section-badge">${otherSectionList.length}</span>
+                                </h2>
+                            </div>
+                            ${renderGroupedSongbooks(otherSectionList, forceOpen, 'other')}
+                        </section>
+                    `;
+                }
+            }
+
             grid.innerHTML = html;
             checkUrlHashGroup();
         }
@@ -1771,15 +2157,16 @@
         function checkUrlHashGroup() {
             const rawHash = (window.location.hash || '').replace(/^#/, '').trim();
             if (!rawHash) return;
+            if (rawHash.startsWith('tab=')) {
+                const tab = rawHash.replace('tab=', '').trim().toLowerCase();
+                if (tab === 'all' || tab === 'starred' || tab === 'mine') switchCatalogTab(tab);
+                return;
+            }
             let targetGroup = null;
             if (rawHash.startsWith('group=')) {
                 targetGroup = rawHash.replace('group=', '').trim().toLowerCase();
             } else if (rawHash.startsWith('group-')) {
                 targetGroup = rawHash.replace('group-', '').trim().toLowerCase();
-            } else if (rawHash.startsWith('tab=')) {
-                const tab = rawHash.replace('tab=', '').trim().toLowerCase();
-                if (tab === 'mine' || tab === 'public') switchCatalogTab(tab);
-                return;
             } else if (!rawHash.includes('=')) {
                 targetGroup = rawHash.toLowerCase();
             }
@@ -1879,27 +2266,8 @@
         }
 
         function handleSearch() {
-            const query = (document.getElementById('songbookSearch').value || '').trim().toLowerCase();
-            const sourceList = getCurrentList();
-            if (!query) {
-                renderSongbooks(sourceList, false);
-                return;
-            }
-
-            const filtered = sourceList.filter(sb => {
-                const title = (sb.title || '').toLowerCase();
-                const subtitle = (sb.subtitle || '').toLowerCase();
-                const id = (sb.id || '').toLowerCase();
-                const members = sb.members || {};
-                const creator = (sb.creatorId && members[sb.creatorId]) || Object.values(members)[0] || null;
-                const author = ((creator && (creator.displayName || creator.email)) || sb.author || '').toLowerCase();
-                const groupInfo = getSongbookGroupInfo(sb);
-                const groupName = (groupInfo ? groupInfo.name : '').toLowerCase();
-                const groupKey = (groupInfo ? groupInfo.key : '').toLowerCase();
-                return title.includes(query) || subtitle.includes(query) || id.includes(query) || author.includes(query) || groupName.includes(query) || groupKey.includes(query);
-            });
-
-            renderSongbooks(filtered, true);
+            const query = (document.getElementById('songbookSearch')?.value || '').trim();
+            renderSongbooks(query, true);
         }
 
         window.addEventListener('hashchange', checkUrlHashGroup);
