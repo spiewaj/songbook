@@ -163,5 +163,85 @@ describe('Songbook Namespaces and Groups', () => {
         expect(sanitizeSongbookId('Żółty Śpiewnik Harcerski')).toBe('zolty_spiewnik_harcerski');
         expect(sanitizeSongbookId('ZHR Łódź:Wędrówki')).toBe('zhr_lodz:wedrowki');
     });
+
+    test('getUserNamespaceKeys finds all namespaces associated with user', () => {
+        const user = { uid: 'user_123' };
+        const mySongbooks = [
+            { id: 'wdw21:2023', creatorId: 'user_123' },
+            { id: 'personal_book', creatorId: 'user_123' }
+        ];
+        const allSongbooks = [
+            { id: 'wdw21:2024', creatorId: 'someone_else' },
+            { id: 'zhr_lodz:ognisko', ownerIds: ['user_123'] }
+        ];
+
+        function isUserOwner(sb, u) {
+            return sb && u && (sb.creatorId === u.uid || (Array.isArray(sb.ownerIds) && sb.ownerIds.includes(u.uid)));
+        }
+
+        const keys = new Set();
+        mySongbooks.forEach(sb => {
+            const info = getSongbookGroupInfo(sb);
+            if (info && info.key) keys.add(info.key);
+        });
+        allSongbooks.forEach(sb => {
+            if (isUserOwner(sb, user)) {
+                const info = getSongbookGroupInfo(sb);
+                if (info && info.key) keys.add(info.key);
+            }
+        });
+
+        expect(keys.has('wdw21')).toBe(true);
+        expect(keys.has('zhr_lodz')).toBe(true);
+        expect(keys.has('53wdh')).toBe(false);
+    });
+
+    test('partitions songbooks into starred, my & namespaces, and other', () => {
+        const user = { uid: 'user_ptab' };
+        function isUserOwner(sb, u) {
+            return sb && u && (sb.creatorId === u.uid || (Array.isArray(sb.ownerIds) && sb.ownerIds.includes(u.uid)));
+        }
+
+        const mySongbooks = [
+            { id: 'wdw21:2023', title: '21 WDW 2023', creatorId: 'user_ptab' },
+            { id: 'moj_prywatny', title: 'Mój prywatny', creatorId: 'user_ptab' }
+        ];
+
+        const allSongbooks = [
+            { id: 'wdw21:2023', title: '21 WDW 2023', creatorId: 'user_ptab' },
+            { id: 'wdw21:2024', title: '21 WDW 2024', creatorId: 'other_author' }, // belongs to user's namespace!
+            { id: '53wdh:2024', title: '53 WDH 2024', creatorId: 'skrzaty' },
+            { id: 'dino', title: 'Dinozaury', creatorId: 'dino_fan' }
+        ];
+
+        const userNamespaceKeys = new Set(['wdw21']);
+        const starredSet = new Set(['dino']);
+
+        const knownMap = new Map();
+        allSongbooks.forEach(sb => knownMap.set(sb.id, sb));
+        mySongbooks.forEach(sb => knownMap.set(sb.id, sb));
+
+        const starredList = Array.from(starredSet).map(id => knownMap.get(id)).filter(Boolean);
+
+        const myMap = new Map();
+        mySongbooks.forEach(sb => myMap.set(sb.id, sb));
+        allSongbooks.forEach(sb => {
+            const isMine = isUserOwner(sb, user) || userNamespaceKeys.has(getSongbookGroupInfo(sb)?.key);
+            if (isMine && !myMap.has(sb.id)) {
+                myMap.set(sb.id, sb);
+            }
+        });
+        const mySectionList = Array.from(myMap.values());
+        const otherSectionList = allSongbooks.filter(sb => !myMap.has(sb.id));
+
+        // Verify Starred:
+        expect(starredList.map(s => s.id)).toEqual(['dino']);
+
+        // Verify My songbooks (includes owned wdw21:2023, personal moj_prywatny, AND namespace wdw21:2024):
+        expect(mySectionList.map(s => s.id).sort()).toEqual(['moj_prywatny', 'wdw21:2023', 'wdw21:2024'].sort());
+
+        // Verify Other songbooks (only non-namespace, non-owned):
+        expect(otherSectionList.map(s => s.id).sort()).toEqual(['53wdh:2024', 'dino'].sort());
+    });
 });
 

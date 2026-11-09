@@ -241,6 +241,38 @@ export const FirebaseSongbook = {
     },
 
     /**
+     * Fetch user's starred songbook IDs from /users/{uid}.
+     */
+    async fetchUserStarredSongbooks(uid) {
+        if (!uid) return [];
+        try {
+            const userRef = doc(db, "users", uid.trim());
+            const snap = await getDoc(userRef);
+            if (snap.exists() && Array.isArray(snap.data().starredSongbookIds)) {
+                return snap.data().starredSongbookIds;
+            }
+        } catch (e) {
+            console.warn("Could not fetch starred songbooks from Firestore:", e);
+        }
+        return [];
+    },
+
+    /**
+     * Save user's starred songbook IDs to /users/{uid}.
+     */
+    async saveUserStarredSongbooks(uid, starredIds) {
+        if (!uid) return;
+        try {
+            const userRef = doc(db, "users", uid.trim());
+            await setDoc(userRef, {
+                starredSongbookIds: Array.from(new Set(starredIds || []))
+            }, { merge: true });
+        } catch (e) {
+            console.warn("Could not save starred songbooks to Firestore:", e);
+        }
+    },
+
+    /**
      * Sign out current user.
      */
     async logout() {
