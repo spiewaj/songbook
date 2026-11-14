@@ -1,3 +1,4 @@
+import hashlib
 import os
 import sys
 import icu
@@ -8,18 +9,31 @@ from lxml import etree
 #     return os.path.splitext(os.path.split(song)[1])[0]
 
 
+def anchor_id(key):
+    """Return a deterministic, XML-safe HTML id for an index key."""
+    return "idx_" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
+
+
 def create_index(list_of_songs_meta, song2key=(lambda x:x.genre()) ):
     idx=dict()
+    seen=dict()
 
     for song in list_of_songs_meta:
-        key = song2key(song)
-        if key:
-            if key in idx:
-                l = idx[key]
-            else:
-                l = []
-                idx[key] = l
-            l.append(song)
+        keys = song2key(song)
+        if not keys:
+            continue
+        if isinstance(keys, str):
+            keys = [keys]
+        for key in keys:
+            if not key:
+                continue
+            song_id = song.base_file_name()
+            if key not in idx:
+                idx[key] = []
+                seen[key] = set()
+            if song_id not in seen[key]:
+                seen[key].add(song_id)
+                idx[key].append(song)
     return idx
 
 def index2dom(idx, parent):
@@ -30,7 +44,7 @@ def index2dom(idx, parent):
 
     for k in keys:
         v = idx[k]
-        d = etree.SubElement(parent, "div")
+        d = etree.SubElement(parent, "div", attrib={"id": anchor_id(k)})
         t = etree.SubElement(d, "span")
         t.text = k
         ul = etree.SubElement(d, "ul")
