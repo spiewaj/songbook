@@ -5,14 +5,14 @@ body {
 }
 
 div.song_body {
-  width: max-content;
+  width: 100%;
   display: table;
 }
 
 /* Per block settings - Chorus, Verses, Instrumental */
 
 div.verse, div.chorus, div.other {
-  display: contents;
+  display: table-row-group;
 }
 
 div.chorus div.row span.lyric {
@@ -99,7 +99,7 @@ span.lyric span.content-i {
 span.ws {
   display: inline-block;
   width: 0.5ex;
-  opacity: 0;
+  visibility: hidden;
 }
 
 div.over_false span.lyric span.ch {
