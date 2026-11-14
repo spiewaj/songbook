@@ -185,7 +185,6 @@ class KindleHtmlConverter(SongConverter):
                          attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_common.css", "media": "all"})
         etree.SubElement(head, "link",
                          attrib={"rel": "stylesheet", "type": "text/css", "href": "CSS/song_kindle.css", "media": "all"})
-        etree.SubElement(head, "meta", attrib={"name": "viewport", "content": "width=device-width, initial-scale=0.8"})
         
         for s in song_head:
            head.append(interpret(copy.deepcopy(s), substitions))

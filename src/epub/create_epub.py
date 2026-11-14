@@ -58,7 +58,7 @@ def create_content_opf(songbook, list_of_songs_meta, target_dir, pre_files=[], p
                 manifest.remove(item)
 
     et = etree.ElementTree(root)
-    et.write(out_path, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
+    et.write(out_path, pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
     resolveTemplate(songbook, out_path, out_path)
 
 def groupName(title):
@@ -232,7 +232,7 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
     return files
 
 def resolveTemplate(songbook, from_file, to_file):
-    logo_img = (f'<img src="./images/logo.{songbook.imageWebExt()}" style="max-width: 90%; max-height: 50vh; height: auto; object-fit: contain;"></img>'
+    logo_img = (f'<img src="./images/logo.{songbook.imageWebExt()}" style="max-width: 90%; height: auto;"></img>'
                 if songbook.imageWebPath() else "")
     return  converter_utils.replace_in_file(from_file, to_file,
         lambda s: (s.replace(":date:", str(actual_date()))
