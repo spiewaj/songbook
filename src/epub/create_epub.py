@@ -223,6 +223,11 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
 
     li = etree.SubElement(toc_ol, "li")
     a = etree.SubElement(li, "a")
+    a.attrib['href'] = '_authors.xhtml'
+    a.text ="Autorzy"
+
+    li = etree.SubElement(toc_ol, "li")
+    a = etree.SubElement(li, "a")
     a.attrib['href'] = '_genres.xhtml'
     a.text ="Gatunki"
 
@@ -308,11 +313,31 @@ def create_full_epub(songbook,  target_dir):
     files.extend(create_toc_xhtml(los, target_dir, page_suffix = suffix))
 
     artists = os.path.join(path_out, "_artists.xhtml")
-    aig.makeIndex("Wykonawcy", songbook.list_of_songs(), artists, lambda x:x.artist() if not x.is_alias() else None )
+    aig.makeIndex(
+        "Wykonawcy",
+        los,
+        artists,
+        lambda x: [p.strip() for p in x.artist().split(",") if p.strip()] if (not x.is_alias() and x.artist()) else None,
+    )
     files.append("_artists.xhtml")
 
+    authors = os.path.join(path_out, "_authors.xhtml")
+    aig.makeIndex(
+        "Autorzy",
+        los,
+        authors,
+        lambda x: [
+            p.strip()
+            for field in (x.text_author(), x.translator(), x.composer())
+            if field
+            for p in field.split(",")
+            if p.strip()
+        ] if not x.is_alias() else None,
+    )
+    files.append("_authors.xhtml")
+
     genres = os.path.join(path_out, "_genres.xhtml")
-    aig.makeIndex("Gatunki", songbook.list_of_songs(), genres, lambda x:x.genre() if not x.is_alias() else None)
+    aig.makeIndex("Gatunki", los, genres, lambda x: x.genre() if not x.is_alias() else None)
     files.append("_genres.xhtml")
 
     create_content_opf(songbook, los, target_dir, post_files=files)
