@@ -2,7 +2,7 @@ from lxml import etree
 import copy
 import src.lib.read_song_xml as rsx
 from .song_converter import SongConverter
-from .html_converter_utils import interpret, replace_in_file
+from .html_converter_utils import interpret
 from .standard_html_converter import StandardHtmlConverter
 
 class KindleHtmlConverter(SongConverter):
@@ -10,32 +10,68 @@ class KindleHtmlConverter(SongConverter):
         """Return 'xhtml' for Kindle output"""
         return 'xhtml'
 
-    def _add_chunk(self, chunk, parent, position):
-        """class chunk -> html span chunk"""
-        span_chunk = etree.SubElement(parent, "span", attrib={"class": "chunk"})
-        chord = etree.SubElement(span_chunk, "span", attrib={"class": "chord"})
-        span_ch = etree.SubElement(chord, "span", attrib={"class": "ch"})
-        span_ch.text = chunk.chord
-        span_content = etree.SubElement(span_chunk, "span", attrib={"class": "content"})
-        # Nested spans help with formatting as table.
-        span_content = etree.SubElement(span_content, "span", attrib={"class": "content-i"})
-        if position == 0:
-            if chunk.content.startswith(' '):
-                span_content.text = chunk.content
-            else:
-                span_content.text = ' ' + chunk.content
+    def _append_text(self, parent, text):
+        """Append plain text to parent element without overwriting existing children."""
+        if not text:
+            return
+        if len(parent) == 0:
+            parent.text = (parent.text or "") + text
         else:
-            if chunk.content=='':
-                span_content.text = ' '
-            else:
-                span_content.text = chunk.content
+            last = parent[-1]
+            last.tail = (last.tail or "") + text
 
+    _NARROW_CHARS = set("iljtfrI1.,:;!| ")
+    _WIDE_CHARS = set("mwMWÓŚŻŹ")
+
+    @classmethod
+    def _ruby_base_length(cls, content, chord):
+        """Pick enough base characters to match the chord's visual width without mid-word gaps."""
+        target = len(chord) * 0.50
+        width = 0.0
+        for i, ch in enumerate(content):
+            if ch in cls._NARROW_CHARS:
+                width += 0.28
+            elif ch in cls._WIDE_CHARS or ch.isupper():
+                width += 0.75
+            else:
+                width += 0.52
+            if width >= target:
+                return i + 1
+        return len(content)
+
+    def _add_chunk(self, chunk, parent):
+        """Render a lyric chunk with an optional <ruby>/<rt> chord annotation."""
+        content = chunk.content or ""
+        chord = chunk.chord or ""
+        if not chord:
+            self._append_text(parent, content)
+            return
+
+        if not content:
+            ruby_base = "\u00a0"
+            rest = ""
+        else:
+            n = self._ruby_base_length(content, chord)
+            ruby_base = content[:n]
+            if ruby_base.startswith(" "):
+                ruby_base = "\u00a0" + ruby_base[1:]
+            rest = content[n:]
+
+        ruby = etree.SubElement(parent, "ruby")
+        ruby.text = ruby_base
+        rt = etree.SubElement(ruby, "rt")
+        rt.text = chord
+        if rest:
+            ruby.tail = rest
 
     def _add_lyric(self, row, parent):
         """class lyric -> html span lyric"""
         span_lyric = etree.SubElement(parent, "span", attrib={"class": "lyric"})
-        for i, chunk in enumerate(row.chunks):
-            self._add_chunk(chunk, span_lyric, i)
+        if (row.new_chords == 0) or (row.new_chords is False):
+            span_lyric.text = "".join((c.content or "") for c in row.chunks)
+            return
+        for chunk in row.chunks:
+            self._add_chunk(chunk, span_lyric)
 
 
     def _add_chords(self, row, parent, class_name):
@@ -58,7 +94,6 @@ class KindleHtmlConverter(SongConverter):
         else:
             chords_over = "over_true"
         div_row = etree.SubElement(parent, "div", attrib={"class": "row " + chords_over})
-        div_row.text = u'\u200d' # Not visible spaces -> forces the row to be generated as a single line. We remove it in post-processing.
         self._add_chords(row, div_row, "chords")
         self._add_lyric(row, div_row)
         if str(type(row.bis)) == "<class \'bool\'>" and row.bis is True:
@@ -105,7 +140,7 @@ class KindleHtmlConverter(SongConverter):
         """class creator -> html div creator # metadane piosenki"""
         div = etree.SubElement(parent, "div", attrib={"class": "creator"})
         span_label = etree.SubElement(div, "span", attrib={"class": "label"})
-        span_label.text = describe
+        span_label.text = describe[:-1] + "\u00a0" if describe.endswith(" ") else describe
         span_content = etree.SubElement(div, "span", attrib={"class": "content_creator"})
         span_content.text = creator
 
@@ -201,7 +236,3 @@ class KindleHtmlConverter(SongConverter):
            body.append(interpret(copy.deepcopy(s), substitions))
 
         et.write(path_out, doctype='<!DOCTYPE html>', pretty_print=True, method='xml', encoding='utf-8', xml_declaration=True)
-
-        replace_in_file(path_out, path_out, lambda s: s.replace(u'\u200d', '').replace(
-            " </span>", "<span class='ws'>_</span></span>").replace(
-            '<span class="content-i"> ', '<span class="content-i"><span class="ws">_</span>'))

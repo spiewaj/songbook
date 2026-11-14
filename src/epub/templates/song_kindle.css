@@ -61,48 +61,22 @@ span.chords_ins {
 
 /* Chords above the text */
 
-span.lyric span.chunk {
-  display: inline-table;
-  /*border: 1px solid green;*/
-  vertical-align: bottom;
+span.lyric {
+  padding-left: 0.5em;
 }
 
-span.lyric span.chord {
-  display: table-row;
-  /*border: 1px solid orange;*/
-  max-height: 0;
+span.lyric ruby {
+  ruby-align: start;
 }
 
-span.lyric span.chord span.ch{
-  display: table-cell;
+span.lyric rt {
+  font-family: sans-serif;
+  font-size: 0.65em;
+  font-weight: bold;
+  text-align: left;
 }
 
-span.lyric span.content {
-  display: table-row;
-  /*border: 1px solid red;*/
-  /*overflow-wrap: normal;*/
-  /*white-space: nowrap;*/
-  /*hyphens: none;*/
-}
-
-span.lyric span.content-i {
-  display: table-cell;
-  /*border: 1px solid red;*/
-  white-space: pre-line;
-  overflow-wrap: normal;
-  /*white-space: nowrap;*/
-  /*empty-cells: show;*/
-  hyphens: none;
-  height: 2.2ex;
-}
-
-span.ws {
-  display: inline-block;
-  width: 0.5ex;
-  visibility: hidden;
-}
-
-div.over_false span.lyric span.ch {
+div.over_false span.lyric rt {
   display: none;
 }
 
@@ -110,12 +84,6 @@ div.over_false span.lyric span.ch {
 
 h1 {
   text-align: left;
-}
-
-span.lyric span.ch {
-  font-family: sans-serif;
-  font-size: xx-small;
-  font-weight: bolder;
 }
 
 span.ch {
