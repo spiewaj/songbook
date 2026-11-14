@@ -8,3 +8,19 @@ ol.contents li{
 ol.contents li a {
     font-size: large;
 }
+
+#letter ol.contents {
+    column-count: 2;
+    column-gap: 1.5em;
+}
+
+#letter ol.contents li {
+    font-size: medium;
+    padding: 0.25em 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+#letter ol.contents li a {
+    font-size: medium;
+}

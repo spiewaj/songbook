@@ -78,6 +78,9 @@ class AliasMeta:
     def __repr__(self) -> str:
         return "{" + "Alias:{}->{}".format(self._alias, self._song_meta) + "}"
 
+    def plik(self):
+        return self._song_meta.plik()
+
     def base_file_name(self):
         return self._song_meta.base_file_name()
 

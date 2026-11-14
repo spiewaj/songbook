@@ -73,12 +73,7 @@ span.lyric rt {
   font-family: sans-serif;
   font-size: 0.65em;
   font-weight: bold;
-}
-
-span.ws {
-  display: inline-block;
-  width: 0.5ex;
-  visibility: hidden;
+  text-align: left;
 }
 
 div.over_false span.lyric rt {
