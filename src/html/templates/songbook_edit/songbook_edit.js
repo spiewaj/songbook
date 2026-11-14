@@ -1491,7 +1491,8 @@ async function saveAndPublishCloud() {
                 badgesArea.innerHTML += `
                     <a href="${artifacts.epub}" class="badge-download badge-epub" target="_blank" rel="noopener">
                         <span class="material-symbols-outlined">tablet_android</span> EPUB
-                    </a>`;
+                    </a>
+                    <a href="kindle.html" target="_blank" rel="noopener" title="Jak wgrać śpiewnik na Kindle?" style="font-size: 0.8rem; color: #546e7a; text-decoration: none; align-self: center;">jak wgrać?</a>`;
             }
             if (artifacts.pdf_a5) {
                 badgesArea.innerHTML += `
