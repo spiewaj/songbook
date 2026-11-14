@@ -4,7 +4,7 @@ import icu #do sortowania po polskich znakach
 import glob
 
 class SongMeta:
-    def __init__(self, title='', alias='', path='', genre='', artist='', lang='', text_author='', composer='', album=''):
+    def __init__(self, title='', alias='', path='', genre='', artist='', lang='', text_author='', composer='', album='', translator=''):
         self._title = title if title else ''
         self._alias = alias if alias else ''
         self._plik = path
@@ -14,6 +14,7 @@ class SongMeta:
         self._text_author = text_author if text_author else None
         self._composer = composer if composer else None
         self._album = album if album else None
+        self._translator = translator if translator else None
 
     def __repr__(self) -> str:
       return "{" + "File:{} Title:{} Alias:{} Artist:{} Genre:{} Lang:{} TextAuthor:{} Composer:{} Album:{}".format(
@@ -38,6 +39,7 @@ class SongMeta:
             text_author=elementTextOrNone(root.find('{*}text_author')),
             composer=elementTextOrNone(root.find('{*}composer')),
             album=elementTextOrNone(root.find('{*}album')),
+            translator=elementTextOrNone(root.find('{*}translator')),
         )
 
     def effectiveTitle(self):
@@ -69,6 +71,9 @@ class SongMeta:
 
     def album(self):
         return self._album
+
+    def translator(self):
+        return self._translator
 
 class AliasMeta:
     def __init__(self, alias, song_meta):
@@ -110,6 +115,9 @@ class AliasMeta:
 
     def album(self):
         return self._song_meta.album()
+
+    def translator(self):
+        return self._song_meta.translator()
 
     def is_alias(self):
         return True

@@ -1,5 +1,6 @@
 from lxml import etree
 import copy
+import src.lib.any_index_generator as aig
 import src.lib.read_song_xml as rsx
 from .song_converter import SongConverter
 from .html_converter_utils import interpret
@@ -136,13 +137,25 @@ class KindleHtmlConverter(SongConverter):
                 self._add_row(ro, div_verse)
 
 
-    def _add_creator(self, creator, describe, parent):
+    def _add_creator(self, creator, describe, parent, index_page=None):
         """class creator -> html div creator # metadane piosenki"""
         div = etree.SubElement(parent, "div", attrib={"class": "creator"})
         span_label = etree.SubElement(div, "span", attrib={"class": "label"})
         span_label.text = describe[:-1] + "\u00a0" if describe.endswith(" ") else describe
         span_content = etree.SubElement(div, "span", attrib={"class": "content_creator"})
-        span_content.text = creator
+        if not index_page:
+            span_content.text = creator
+            return
+
+        parts = [p.strip() for p in creator.split(",") if p.strip()]
+        if not parts:
+            span_content.text = creator
+            return
+        for i, part in enumerate(parts):
+            a = etree.SubElement(span_content, "a", attrib={"href": f"{index_page}#{aig.anchor_id(part)}"})
+            a.text = part
+            if i < len(parts) - 1:
+                a.tail = ", "
 
     def _add_blocks(self, song, parent):
         body_song = parent.find("body")
@@ -154,15 +167,15 @@ class KindleHtmlConverter(SongConverter):
         if song.alias:
             self._add_creator(song.alias, "Tytuł alternatywny: ", body_song)
         if song.text_author:
-            self._add_creator(song.text_author, "Słowa: ", body_song)
+            self._add_creator(song.text_author, "Słowa: ", body_song, "_authors.xhtml")
         if song.translator:
-            self._add_creator(song.translator, "Tłumaczenie: ", body_song)
+            self._add_creator(song.translator, "Tłumaczenie: ", body_song, "_authors.xhtml")
         if song.composer:
-            self._add_creator(song.composer, "Muzyka: ", body_song)
+            self._add_creator(song.composer, "Muzyka: ", body_song, "_authors.xhtml")
         if song.music_source:
             self._add_creator(song.music_source, "Melodia oparta na: ", body_song)
         if song.artist:
-            self._add_creator(song.artist, "Wykonawca: ", body_song)
+            self._add_creator(song.artist, "Wykonawca: ", body_song, "_artists.xhtml")
         if song.album:
             self._add_creator(song.album, "Album: ", body_song)
         if song.metre:
