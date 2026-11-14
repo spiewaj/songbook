@@ -1,5 +1,6 @@
 from lxml import etree
 import copy
+import math
 import src.lib.read_song_xml as rsx
 from .song_converter import SongConverter
 from .html_converter_utils import interpret, replace_in_file
@@ -10,32 +11,50 @@ class KindleHtmlConverter(SongConverter):
         """Return 'xhtml' for Kindle output"""
         return 'xhtml'
 
-    def _add_chunk(self, chunk, parent, position):
-        """class chunk -> html span chunk"""
-        span_chunk = etree.SubElement(parent, "span", attrib={"class": "chunk"})
-        chord = etree.SubElement(span_chunk, "span", attrib={"class": "chord"})
-        span_ch = etree.SubElement(chord, "span", attrib={"class": "ch"})
-        span_ch.text = chunk.chord
-        span_content = etree.SubElement(span_chunk, "span", attrib={"class": "content"})
-        # Nested spans help with formatting as table.
-        span_content = etree.SubElement(span_content, "span", attrib={"class": "content-i"})
-        if position == 0:
-            if chunk.content.startswith(' '):
-                span_content.text = chunk.content
-            else:
-                span_content.text = ' ' + chunk.content
+    def _append_text(self, parent, text):
+        """Append plain text to parent element without overwriting existing children."""
+        if not text:
+            return
+        if len(parent) == 0:
+            parent.text = (parent.text or "") + text
         else:
-            if chunk.content=='':
-                span_content.text = ' '
-            else:
-                span_content.text = chunk.content
+            last = parent[-1]
+            last.tail = (last.tail or "") + text
 
+    def _add_chunk(self, chunk, parent):
+        """Render a lyric chunk with an optional <ruby>/<rt> chord annotation."""
+        content = chunk.content or ""
+        chord = chunk.chord or ""
+        if not chord:
+            self._append_text(parent, content)
+            return
+
+        if not content:
+            ruby_base = "\u00a0"
+            rest = ""
+        else:
+            # Wrap characters proportional to chord length so left-alignment holds without mid-word gaps.
+            n = min(len(content), max(1, math.ceil(len(chord) * 0.85)))
+            ruby_base = content[:n]
+            if ruby_base.startswith(" "):
+                ruby_base = "\u00a0" + ruby_base[1:]
+            rest = content[n:]
+
+        ruby = etree.SubElement(parent, "ruby")
+        ruby.text = ruby_base
+        rt = etree.SubElement(ruby, "rt")
+        rt.text = chord
+        if rest:
+            ruby.tail = rest
 
     def _add_lyric(self, row, parent):
         """class lyric -> html span lyric"""
         span_lyric = etree.SubElement(parent, "span", attrib={"class": "lyric"})
-        for i, chunk in enumerate(row.chunks):
-            self._add_chunk(chunk, span_lyric, i)
+        if (row.new_chords == 0) or (row.new_chords is False):
+            span_lyric.text = "".join((c.content or "") for c in row.chunks)
+            return
+        for chunk in row.chunks:
+            self._add_chunk(chunk, span_lyric)
 
 
     def _add_chords(self, row, parent, class_name):
