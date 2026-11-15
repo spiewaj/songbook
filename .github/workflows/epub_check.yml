@@ -1,0 +1,35 @@
+name: EPUBCheck
+
+on:
+  pull_request:
+    paths:
+      - 'src/epub/**'
+      - 'src/html/kindle_html_converter.py'
+      - 'src/lib/**'
+      - 'test_epub.sh'
+      - '.github/workflows/epub_check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'src/epub/**'
+      - 'src/html/kindle_html_converter.py'
+      - 'src/lib/**'
+      - 'test_epub.sh'
+      - '.github/workflows/epub_check.yml'
+
+jobs:
+  epubcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install system dependencies and epubcheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y epubcheck libicu-dev pkg-config libcairo2-dev
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+      - name: Build smoke EPUB and run epubcheck
+        run: ./test_epub.sh songbooks/smoke.songbook.yaml

@@ -262,7 +262,7 @@ def create_template_epub(songbook, target_path):
     path_oebps = os.path.join(path_epub, "OEBPS")
     path_css = os.path.join(path_oebps, "CSS")
     path_images = os.path.join(path_oebps, "images")
-    os.mkdir(path_epub)
+    os.makedirs(path_epub, exist_ok=True)
     os.mkdir(path_oebps)
     os.mkdir(path_meta)
     os.mkdir(path_css)

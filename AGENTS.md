@@ -15,6 +15,12 @@ The venv is located at `.python_venv/` in the workspace root.
 ## Pull Requests
 Always verify whether the current Pull Request has already been merged before exporting/pushing changes or assuming it is active. If the PR has already been merged, branch off `origin/main` (or rebase/create a new branch) and create a new PR.
 
+## EPUB Verification
+Whenever modifying EPUB or Kindle rendering logic (`src/epub/`, `src/html/kindle_html_converter.py`, `src/lib/any_index_generator.py`, `src/lib/list_of_songs.py`), always build a test EPUB and validate it with `epubcheck` (0 fatals, 0 errors):
+```bash
+./test_epub.sh songbooks/smoke.songbook.yaml
+```
+
 ## Strict Data Integrity & Verification Policy
 **NEVER GUESS, EXTRAPOLATE, OR SYNTHESIZE DATA** when verifying songs, lyrics, chords, or metadata.
 - **Authoritative Sources Required**: Every chord, lyric, author, composer, and metadata attribute MUST be backed by a verified, high-confidence source (official recording, published sheet music, authoritative songbooks/databases like Biblioteka Polskiej Piosenki, Śpiewnik Wywroty, Discogs, etc.).
