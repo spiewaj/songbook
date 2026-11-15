@@ -27,4 +27,23 @@ gcloud run deploy ${SERVICE_NAME} \
   --set-env-vars="STORAGE_URI=${STORAGE_URI}" \
   --set-secrets="RESEND_API_KEY=resend-api-key:latest"
 
+echo "Updating Cloud Run Job for background songbook regeneration..."
+gcloud run jobs deploy regenerate-songbooks \
+  --project=${GOOGLE_PROJECT} \
+  --region=${REGION} \
+  --image=${IMAGE} \
+  --command="python3" \
+  --args="containers/backend/regenerate_all.py,--formats,epub,a5,a4" \
+  --memory=2Gi \
+  --cpu=2 \
+  --task-timeout=3600 \
+  --max-retries=1 \
+  --set-env-vars="STORAGE_URI=${STORAGE_URI},GOOGLE_CLOUD_PROJECT=${GOOGLE_PROJECT},PYTHONPATH=/app"
+
+echo "Triggering background regeneration job..."
+gcloud run jobs execute regenerate-songbooks \
+  --project=${GOOGLE_PROJECT} \
+  --region=${REGION} \
+  --async
+
 echo "Deployment finished."
