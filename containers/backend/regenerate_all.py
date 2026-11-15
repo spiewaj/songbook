@@ -117,8 +117,17 @@ def main() -> int:
                 filter=firestore.FieldFilter("isPublished", "==", True)
             ).stream()
         ]
+        docs.sort(key=lambda d: d.get("id") or "")
 
-    print(f"Found {len(docs)} published songbook(s) to regenerate (formats={formats}).")
+    task_index = int(os.environ.get("CLOUD_RUN_TASK_INDEX", "0"))
+    task_count = int(os.environ.get("CLOUD_RUN_TASK_COUNT", "1"))
+    if task_count > 1 and not args.only:
+        docs = docs[task_index::task_count]
+
+    print(
+        f"[task {task_index + 1}/{task_count}] Regenerating {len(docs)} published songbook(s) "
+        f"(formats={formats}, workers={args.workers})."
+    )
     failures = 0
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         futures = [pool.submit(regenerate_songbook, doc, formats, args.dry_run) for doc in docs]

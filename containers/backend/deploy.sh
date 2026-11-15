@@ -36,6 +36,8 @@ gcloud run jobs deploy regenerate-songbooks \
   --args="containers/backend/regenerate_all.py" \
   --memory=2Gi \
   --cpu=2 \
+  --tasks=8 \
+  --parallelism=8 \
   --task-timeout=3600 \
   --max-retries=1 \
   --set-env-vars="STORAGE_URI=${STORAGE_URI},FIRESTORE_PROJECT=wdw-21,PYTHONPATH=/app"
