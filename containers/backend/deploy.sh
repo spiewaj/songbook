@@ -38,7 +38,7 @@ gcloud run jobs deploy regenerate-songbooks \
   --cpu=2 \
   --task-timeout=3600 \
   --max-retries=1 \
-  --set-env-vars="STORAGE_URI=${STORAGE_URI},GOOGLE_CLOUD_PROJECT=${GOOGLE_PROJECT},PYTHONPATH=/app"
+  --set-env-vars="STORAGE_URI=${STORAGE_URI},FIRESTORE_PROJECT=wdw-21,PYTHONPATH=/app"
 
 echo "Triggering background regeneration job..."
 gcloud run jobs execute regenerate-songbooks \

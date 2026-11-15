@@ -96,7 +96,7 @@ def regenerate_songbook(doc_data: dict, formats: list[str], dry_run: bool = Fals
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Regenerate published songbooks from Firestore.")
-    parser.add_argument("--project", default=os.environ.get("GOOGLE_CLOUD_PROJECT", "spiewaj-com"))
+    parser.add_argument("--project", default=os.environ.get("FIRESTORE_PROJECT", "wdw-21"))
     parser.add_argument("--formats", default="epub,a5,a4", help="Comma-separated formats: epub,a5,a4")
     parser.add_argument("--only", default=None, help="Optional single songbook ID to regenerate")
     parser.add_argument("--workers", type=int, default=2, help="Parallel worker threads")
