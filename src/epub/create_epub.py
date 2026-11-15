@@ -1,4 +1,5 @@
 import os
+import html
 import zipfile
 import copy
 import sys
@@ -237,20 +238,22 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
     return files
 
 def resolveTemplate(songbook, from_file, to_file):
-    logo_img = (f'<img src="./images/logo.{songbook.imageWebExt()}" style="max-width: 90%; height: auto;"></img>'
+    esc = lambda v: html.escape(str(v or ""), quote=True)
+    img_ext = esc(songbook.imageWebExt())
+    logo_img = (f'<img src="./images/logo.{img_ext}" style="max-width: 90%; height: auto;"></img>'
                 if songbook.imageWebPath() else "")
-    return  converter_utils.replace_in_file(from_file, to_file,
-        lambda s: (s.replace(":date:", str(actual_date()))
-                    .replace(":datetime:", str(actual_datetime()))
-                    .replace(":title:", str(songbook.title() or ""))
-                    .replace(":subtitle:", str(songbook.subtitle() or ""))
-                    .replace(":id:", str(songbook.id() or ""))
-                    .replace(":uuid:", str(songbook.uuid() or ""))
-                    .replace(":url:", str(songbook.url() or ""))
-                    .replace(":publisher:", str(songbook.publisher() or ""))
-                    .replace(":timestamp:", datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"))
-                    .replace(":imageMime:", str(songbook.imageWebMime() or ""))
-                    .replace(":imageExt:", str(songbook.imageWebExt() or ""))
+    return converter_utils.replace_in_file(from_file, to_file,
+        lambda s: (s.replace(":date:", esc(actual_date()))
+                    .replace(":datetime:", esc(actual_datetime()))
+                    .replace(":title:", esc(songbook.title()))
+                    .replace(":subtitle:", esc(songbook.subtitle()))
+                    .replace(":id:", esc(songbook.id()))
+                    .replace(":uuid:", esc(songbook.uuid()))
+                    .replace(":url:", esc(songbook.url()))
+                    .replace(":publisher:", esc(songbook.publisher()))
+                    .replace(":timestamp:", esc(datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")))
+                    .replace(":imageMime:", esc(songbook.imageWebMime()))
+                    .replace(":imageExt:", img_ext)
                     .replace(":logo_img:", logo_img)))
 
 
