@@ -1492,7 +1492,7 @@ async function saveAndPublishCloud() {
                     <a href="${artifacts.epub}" class="badge-download badge-epub" target="_blank" rel="noopener">
                         <span class="material-symbols-outlined">tablet_android</span> EPUB
                     </a>
-                    <a href="kindle.html" target="_blank" rel="noopener" title="Jak wgrać śpiewnik na Kindle?" style="font-size: 0.8rem; color: #546e7a; text-decoration: none; align-self: center;">jak wgrać?</a>`;
+                    <a href="https://www.amazon.com/sendtokindle" target="_blank" rel="noopener" title="Wyślij na Kindle (Send to Kindle)" style="font-size: 0.8rem; color: #546e7a; text-decoration: none; align-self: center;">wyślij</a>`;
             }
             if (artifacts.pdf_a5) {
                 badgesArea.innerHTML += `
