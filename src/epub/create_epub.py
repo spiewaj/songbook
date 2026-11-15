@@ -6,6 +6,7 @@ import sys
 
 from lxml import etree
 import shutil
+import cairosvg
 from zipfile import ZipFile
 from datetime import datetime
 
@@ -237,9 +238,20 @@ def create_toc_xhtml(list_of_songs_meta, target_dir, page_suffix):
     converter_utils.replace_in_file(out_path, out_path, lambda s: s.replace("</li><li>","</li>\n\t\t<li>").replace("><ol>",">\n<ol>"))
     return files
 
+def _epub_logo_ext_and_mime(songbook):
+    """Return (ext, mime) for the EPUB logo, rasterizing SVG logos to PNG for Kindle compatibility."""
+    if not songbook.imageWebPath():
+        return None, None
+    ext = songbook.imageWebExt()
+    if ext == "svg":
+        return "png", "image/png"
+    return ext, songbook.imageWebMime()
+
+
 def resolveTemplate(songbook, from_file, to_file):
     esc = lambda v: html.escape(str(v or ""), quote=True)
-    img_ext = esc(songbook.imageWebExt())
+    raw_ext, raw_mime = _epub_logo_ext_and_mime(songbook)
+    img_ext = esc(raw_ext)
     logo_img = (f'<img src="./images/logo.{img_ext}" style="max-width: 90%; height: auto;"></img>'
                 if songbook.imageWebPath() else "")
     return converter_utils.replace_in_file(from_file, to_file,
@@ -252,7 +264,7 @@ def resolveTemplate(songbook, from_file, to_file):
                     .replace(":url:", esc(songbook.url()))
                     .replace(":publisher:", esc(songbook.publisher()))
                     .replace(":timestamp:", esc(datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")))
-                    .replace(":imageMime:", esc(songbook.imageWebMime()))
+                    .replace(":imageMime:", esc(raw_mime))
                     .replace(":imageExt:", img_ext)
                     .replace(":logo_img:", logo_img)))
 
@@ -265,7 +277,7 @@ def create_template_epub(songbook, target_path):
     path_oebps = os.path.join(path_epub, "OEBPS")
     path_css = os.path.join(path_oebps, "CSS")
     path_images = os.path.join(path_oebps, "images")
-    os.mkdir(path_epub)
+    os.makedirs(path_epub, exist_ok=True)
     os.mkdir(path_oebps)
     os.mkdir(path_meta)
     os.mkdir(path_css)
@@ -290,7 +302,12 @@ def create_template_epub(songbook, target_path):
         songbook.subtitle(),
         actual_date())
     if songbook.imageWebPath():
-        shutil.copyfile(songbook.imageWebPath(), os.path.join(path_images, "logo." + songbook.imageWebExt()))
+        logo_ext, _ = _epub_logo_ext_and_mime(songbook)
+        logo_dest = os.path.join(path_images, f"logo.{logo_ext}")
+        if songbook.imageWebExt() == "svg":
+            cairosvg.svg2png(url=songbook.imageWebPath(), write_to=logo_dest)
+        else:
+            shutil.copyfile(songbook.imageWebPath(), logo_dest)
 
 
     resolveTemplate(songbook, os.path.join(template_dir, "songs.xhtml"), os.path.join(path_oebps, "songs.xhtml"))
@@ -363,8 +380,9 @@ def package_epub(songbook, target_dir, target_file="spiewnik.epub"):
         myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "cover.png"),
             arcname=os.path.join("OEBPS", "images", "cover.png"))
         if songbook.imageWebPath():
-            myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", "logo."+songbook.imageWebExt()),
-                arcname=os.path.join("OEBPS", "images", "logo."+songbook.imageWebExt()))
+            logo_ext, _ = _epub_logo_ext_and_mime(songbook)
+            myzip.write(os.path.join(target_dir_epub, "OEBPS", "images", f"logo.{logo_ext}"),
+                arcname=os.path.join("OEBPS", "images", f"logo.{logo_ext}"))
 
 
 def main():
