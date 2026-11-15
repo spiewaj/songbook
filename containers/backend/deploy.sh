@@ -33,7 +33,7 @@ gcloud run jobs deploy regenerate-songbooks \
   --region=${REGION} \
   --image=${IMAGE} \
   --command="python3" \
-  --args="containers/backend/regenerate_all.py,--formats,epub,a5,a4" \
+  --args="containers/backend/regenerate_all.py" \
   --memory=2Gi \
   --cpu=2 \
   --task-timeout=3600 \
