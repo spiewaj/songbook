@@ -20,7 +20,7 @@ from containers.backend.main import (
 
 
 def _find_output(build_dir: str, ext: str) -> str | None:
-    files = sorted(glob.glob(os.path.join(build_dir, f"*.{ext}")))
+    files = sorted(glob.glob(os.path.join(build_dir, "**", f"*.{ext}"), recursive=True))
     return files[0] if files else None
 
 
@@ -65,6 +65,7 @@ def regenerate_songbook(doc_data: dict, formats: list[str], dry_run: bool = Fals
         build_dir = os.path.join(work_dir, "build")
         for fmt in formats:
             shutil.rmtree(build_dir, ignore_errors=True)
+            os.makedirs(build_dir, exist_ok=True)
             if fmt == "epub":
                 proc = _run_render(work_dir, ["python3", "src/epub/create_epub.py", "songbooks/custom.yaml"])
                 out_file = _find_output(build_dir, "epub")
