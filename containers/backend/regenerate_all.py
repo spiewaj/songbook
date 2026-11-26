@@ -152,7 +152,10 @@ def main() -> int:
     args = parser.parse_args()
 
     formats = [f.strip().lower() for f in args.formats.split(",") if f.strip()]
-    db = firestore.Client(project=args.project)
+    db = firestore.Client(
+        project=args.project,
+        client_options={"quota_project_id": args.project},
+    )
 
     if args.only:
         snap = db.collection("songbooks").document(args.only).get()
