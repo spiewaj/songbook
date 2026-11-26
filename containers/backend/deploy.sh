@@ -33,12 +33,14 @@ gcloud run jobs deploy regenerate-songbooks \
   --region=${REGION} \
   --image=${IMAGE} \
   --command="python3" \
-  --args="containers/backend/regenerate_all.py,--formats,epub,a5,a4" \
+  --args="containers/backend/regenerate_all.py" \
   --memory=2Gi \
   --cpu=2 \
+  --tasks=8 \
+  --parallelism=8 \
   --task-timeout=3600 \
   --max-retries=1 \
-  --set-env-vars="STORAGE_URI=${STORAGE_URI},GOOGLE_CLOUD_PROJECT=${GOOGLE_PROJECT},PYTHONPATH=/app"
+  --set-env-vars="STORAGE_URI=${STORAGE_URI},FIRESTORE_PROJECT=wdw-21,BACKEND_BASE_URL=https://songbook-pdf-render-177765940460.europe-west1.run.app,PYTHONPATH=/app"
 
 echo "Triggering background regeneration job..."
 gcloud run jobs execute regenerate-songbooks \
