@@ -22,7 +22,7 @@ from containers.backend.main import (
 
 
 def _find_output(build_dir: str, ext: str) -> str | None:
-    files = sorted(glob.glob(os.path.join(build_dir, f"*.{ext}")))
+    files = sorted(glob.glob(os.path.join(build_dir, "**", f"*.{ext}"), recursive=True))
     return files[0] if files else None
 
 
